@@ -2071,8 +2071,7 @@ def main() -> None:
     print(f"  生成 js/i18n_en.js  （{len(_i18n['strings'])} 条词典，{len(_i18n['patterns'])} 条模式）")
 
     # sitemap / robots
-    from datetime import date as _date
-    _today = _date.today().isoformat()
+    # Keep committed output stable across rebuild dates; do not claim every page changed today.
     urls = ([("/", "1.0"), ("/demo/", "0.9")]
             + [("/algo/", "0.9"), ("/problem/", "0.9"), ("/guide/", "0.9")]
             + [(algo_url(a["slug"]), "0.9") for a in ALGOS]
@@ -2092,7 +2091,7 @@ def main() -> None:
             + [("/matrix/", "0.9"), ("/applications/", "0.9")])
     if SITE:
         write("sitemap.xml", '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
-              + "\n".join(f"  <url><loc>{SITE}{u}</loc><lastmod>{_today}</lastmod><priority>{p}</priority></url>" for u, p in urls)
+              + "\n".join(f"  <url><loc>{SITE}{u}</loc><priority>{p}</priority></url>" for u, p in urls)
               + "\n</urlset>\n")
         write("robots.txt", f"User-agent: *\nAllow: /\n\nSitemap: {SITE}/sitemap.xml\n")
     else:
