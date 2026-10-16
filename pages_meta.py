@@ -316,14 +316,14 @@ def _research_map_page(p):
   </div>
   <div class="rm-tabs" role="tablist" aria-label="研究地图视图">
     <button class="rm-tab is-active" role="tab" aria-selected="true" data-view="routes">研究路线</button>
-    <button class="rm-tab" role="tab" aria-selected="false" data-view="milestones">重要转折与研究档案</button>
-    <button class="rm-tab" role="tab" aria-selected="false" data-view="history">历史与交汇</button>
-    <button class="rm-tab" role="tab" aria-selected="false" data-view="teams">研究团队与社区</button>
+    <button class="rm-tab" role="tab" aria-selected="false" data-view="milestones">关键转折</button>
+    <button class="rm-tab" role="tab" aria-selected="false" data-view="history">时间地图</button>
+    <button class="rm-tab" role="tab" aria-selected="false" data-view="teams">研究团队</button>
     <button class="rm-tab" role="tab" aria-selected="false" data-view="applications">应用问题</button>
-    <button class="rm-tab" role="tab" aria-selected="false" data-view="industry">13个领域的研究证据</button>
-    <button class="rm-tab" role="tab" aria-selected="false" data-view="questions">研究难点与中文阅读</button>
-    <button class="rm-tab" role="tab" aria-selected="false" data-view="reviews">综述与交叉验证</button>
-    <button class="rm-tab" role="tab" aria-selected="false" data-view="coverage">文献与本站演示</button>
+    <button class="rm-tab" role="tab" aria-selected="false" data-view="industry">领域证据</button>
+    <button class="rm-tab" role="tab" aria-selected="false" data-view="questions">研究难点</button>
+    <button class="rm-tab" role="tab" aria-selected="false" data-view="reviews">综述文献</button>
+    <button class="rm-tab" role="tab" aria-selected="false" data-view="coverage">出处与演示</button>
   </div>
   __MILESTONES_PANEL__
   __ROUTES_PANEL__
@@ -339,7 +339,7 @@ def _research_map_page(p):
       <div><b>群智能 ↔ 群体机器人</b><span>思想有关，研究对象和评价方式不同</span></div>
       <div><b>算法设计 ↔ 实验证据</b><span>新方法要靠公开测试和强基线来检验</span></div>
     </div>
-    <p class="hint rm-instruction">时间按年代分栏，六行是并行研究线；点任一节点，查看贡献、团队/应用关联和引用来源。向右滑动可查看较新的研究。分支间的具体联系见“研究难点与中文阅读”。</p>
+    <p class="hint rm-instruction">时间按年代分栏，六行是并行研究线；点任一节点，查看贡献、团队/应用关联和引用来源。向右滑动可查看较新的研究。分支间的具体联系见“研究难点”。</p>
     <div class="rm-scroll" tabindex="0" aria-label="可横向滚动的研究时间地图"><div id="rm-history"></div></div>
     <article id="rm-detail" class="rm-detail" aria-live="polite"></article>
     <div id="rm-visible-relations" class="rm-visible-relations"></div>
