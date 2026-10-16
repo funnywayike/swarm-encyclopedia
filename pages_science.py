@@ -6,16 +6,21 @@ def esc(x):return html.escape(str(x),quote=True)
 def _load(name):return json.loads((ROOT/'data'/name).read_text(encoding='utf-8'))
 def _vine():
     d=_load('research_map.json');c=_load('science_timeline.json')
+    from pages_milestones import milestone_data
+    c['milestones']=milestone_data()
     ids={i for n in d['nodes']for i in n.get('refs',[])}
     payload={'nodes':d['nodes'],'lanes':d['lanes'],'config':c,'references':[{k:r[k]for k in ('id','title','year','kind','url')if k in r}for r in d['references']if r['id']in ids]}
     data=json.dumps(payload,ensure_ascii=False,separators=(',',':')).replace('</','<\\/')
     return '''
+    <link rel="stylesheet" href="../../css/research_milestones.css">
     <section class="science-vine" aria-labelledby="vine-heading">
       <div class="science-vine-heading"><div><span class="science-eyebrow">THE RESEARCH VINE</span><h2 id="vine-heading">研究如何生长</h2></div><p>主干看转折，年内看旁支，事件线看研究问题。</p></div>
       <div class="science-vine-controls">
         <div class="science-toggle" role="group" aria-label="选择叙事方式"><button type="button" data-vine-view="time" aria-pressed="true">按时间读</button><button type="button" data-vine-view="event" aria-pressed="false">按事件读</button></div>
         <label>打开年份 <select id="vine-year"></select></label>
       </div>
+      <div class="science-evidence-legend"><b>先看贡献类型，再看年代。</b>机制、设施、领域工具、综合回顾与前沿观察各有作用。虚线表示前沿，不表示已成为经典。类型筛选作用于当前主干或事件线；年内旁支继续展开。点击事件可核查问题、改变、日期与代表作者。</div>
+      <div id="vine-layers" class="science-filter science-layer-controls" role="group" aria-label="筛选贡献类型"></div>
       <div id="vine-lanes" class="science-filter" role="group" aria-label="筛选研究主线"></div>
       <div class="science-story-select" id="vine-story-wrap" hidden><label>选择事件叙事 <select id="vine-story"></select></label><p id="vine-story-intro"></p></div>
       <p class="science-vine-status" id="vine-status" aria-live="polite"></p>

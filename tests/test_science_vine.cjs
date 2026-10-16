@@ -1,6 +1,7 @@
 const assert=require('node:assert/strict'),fs=require('node:fs'),path=require('node:path');
 const root=path.resolve(__dirname,'..'),D=JSON.parse(fs.readFileSync(path.join(root,'data/research_map.json'),'utf8'));
 D.config=JSON.parse(fs.readFileSync(path.join(root,'data/science_timeline.json'),'utf8'));
+D.config.milestones=JSON.parse(fs.readFileSync(path.join(root,'data/research_milestones.json'),'utf8'));
 const V=require('../js/science_vine.js'),nodes=new Map(D.nodes.map(n=>[n.id,n]));
 assert.equal(new Set(D.config.trunk).size,D.config.trunk.length);
 for(const id of D.config.trunk){const n=nodes.get(id);assert.ok(n,id);assert.equal(D.config.eras.filter(e=>n.year>=e.from&&n.year<=e.to).length,1);}
@@ -58,3 +59,18 @@ elements.get('vine-year').value='1995';elements.get('vine-year').events.change()
 assert.match(elements.get('vine-year-panel').innerHTML,/PSO/);
 assert.doesNotMatch(elements.get('vine-year-panel').innerHTML,/GRASP/);
 console.log('Client controller passed: event click, year branches, narrative switch, lane empty state and year selector.');
+
+const frontier=V.narrativeNodes(D,'time','escape','all','frontier');
+assert.deepEqual(frontier.map(n=>n.id),['alpha25']);
+assert.deepEqual(V.narrativeNodes(D,'time','escape','all','infrastructure').map(n=>n.id),['tsplib91','coco21']);
+assert.ok(V.narrativeNodes(D,'time','escape','all','mechanism').every(n=>V.layerOf(D,n)==='mechanism'));
+click({vineLane:'all'});click({vineView:'time'});click({vineLayer:'frontier'});
+assert.match(elements.get('vine-canopy').innerHTML,/data-vine-node="alpha25"/);
+assert.doesNotMatch(elements.get('vine-canopy').innerHTML,/data-vine-node="pso95"/);
+click({vineNode:'alpha25'});
+assert.match(elements.get('vine-year-panel').innerHTML,/日期释义/);
+assert.match(elements.get('vine-year-panel').innerHTML,/前沿观察不等于经典地位认证/);
+click({vineLayer:'all'});click({vineNode:'cma01'});
+assert.match(elements.get('vine-year-panel').innerHTML,/1996/);
+assert.match(elements.get('vine-year-panel').innerHTML,/Hansen/);
+console.log('Dossier controller: source types, frontier isolation, date semantics, author credits and linked routes passed.');

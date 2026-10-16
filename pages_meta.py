@@ -269,9 +269,11 @@ def _apps_page():
 def _research_map_page(p):
     """证据卡式研究导览：并行主线、研究群体、应用问题与可追溯来源。"""
     from pages_reviews import render_review_panel
+    from pages_milestones import render_milestones_panel, milestone_data
     from pages_research_routes import render_routes_panel
     data = _load("research_map.json")
     data["readingViews"] = _load("research_reading_views.json")
+    data["milestoneProfiles"] = {x["node"]:x for x in milestone_data()["profiles"]}
     for n in data["nodes"]:
         n["apps"] = [data["readingViews"]["applicationAliases"].get(x, x) for x in n.get("apps", [])]
     embedded = json.dumps(data, ensure_ascii=False, separators=(",", ":")).replace("</", "<\\/")
@@ -318,6 +320,7 @@ def _research_map_page(p):
   </div>
   <div class="rm-tabs" role="tablist" aria-label="研究地图视图">
     <button class="rm-tab is-active" role="tab" aria-selected="true" data-view="routes">研究路线</button>
+    <button class="rm-tab" role="tab" aria-selected="false" data-view="milestones">重要转折与研究档案</button>
     <button class="rm-tab" role="tab" aria-selected="false" data-view="history">历史与交汇</button>
     <button class="rm-tab" role="tab" aria-selected="false" data-view="teams">研究团队与社区</button>
     <button class="rm-tab" role="tab" aria-selected="false" data-view="applications">应用问题</button>
@@ -326,6 +329,7 @@ def _research_map_page(p):
     <button class="rm-tab" role="tab" aria-selected="false" data-view="reviews">综述与交叉验证</button>
     <button class="rm-tab" role="tab" aria-selected="false" data-view="coverage">文献与本站演示</button>
   </div>
+  __MILESTONES_PANEL__
   __ROUTES_PANEL__
   <section class="rm-panel" id="rm-view-history" role="tabpanel" hidden>
     <div class="rm-controls">
@@ -480,7 +484,7 @@ def _research_map_page(p):
       document.getElementById('rm-detail').hidden=!state.details;renderDetail(nodes.get(selected));
       document.getElementById('rm-visible-relations').innerHTML=state.connections&&result.relations.length?'<h3>当前可见节点之间的关联</h3><p class="hint">关系类型与来源可在“研究难点与中文阅读”中查看。</p>'+result.relations.map(e=>'<p><span class="rm-tag">'+esc(e.kind)+'</span> <button class="rm-tag" data-related="'+esc(e.source)+'">'+esc(nodes.get(e.source).title)+'</button> → <button class="rm-tag" data-related="'+esc(e.target)+'">'+esc(nodes.get(e.target).title)+'</button><span class="hint"> · '+esc(e.summary)+'</span></p>').join(''):'';
     }
-    function renderDetail(n){if(!n)return;const l=laneById.get(n.lane), teamLinks=(n.teams||[]).map(id=>teams.get(id)).filter(Boolean).map(t=>`<button class="rm-tag" data-team="${esc(t.id)}">${esc(t.name)}</button>`).join(''), appLinks=(n.apps||[]).map(id=>apps.get(id)).filter(Boolean).map(a=>`<button class="rm-tag" data-app="${esc(a.id)}">${esc(a.name)}</button>`).join(''), algoLinks=(n.algorithmLinks||[]).map(a=>`<a class="rm-tag" href="${esc(localHref(a.url))}">${esc(a.label)}</a>`).join(''), rs=(n.refs||[]).map(id=>refs.get(id)).filter(Boolean).map(r=>`<li>${link(r)}</li>`).join('');document.getElementById('rm-detail').innerHTML=`<p class="hint">${esc(l?.name)} · ${n.year} · ${esc(n.kind)}</p><h2>${esc(n.title)}</h2><p>${esc(n.summary)}</p><h3>主要贡献</h3><p>${esc(n.contribution)}</p><div class="rm-boundary"><h3>证据边界</h3><p>${esc(n.boundary)}</p></div>${teamLinks?`<h3>关联研究群体</h3><div class="rm-tags">${teamLinks}</div>`:''}${appLinks?`<h3>关联应用</h3><div class="rm-tags">${appLinks}</div>`:''}${algoLinks?`<h3>本站相关算法演示</h3><div class="rm-tags">${algoLinks}</div>`:''}<div class="rm-citations"><h3>来源</h3><ol>${rs}</ol></div>`;document.querySelectorAll('#rm-detail [data-team]').forEach(b=>b.addEventListener('click',()=>openCard('teams',`rm-team-${b.dataset.team}`)));document.querySelectorAll('#rm-detail [data-app]').forEach(b=>b.addEventListener('click',()=>openCard('applications',`rm-app-${b.dataset.app}`)));}
+    function renderDetail(n){if(!n)return;const profile=D.milestoneProfiles[n.id];const dossier=profile?`<div class="science-dossier"><span class="md-badge" data-layer="${esc(profile.layer)}">${esc(profile.label)}</span><h3>当时的研究问题</h3><p>${esc(profile.problem)}</p><p class="md-date"><b>日期释义：</b>${esc(profile.dateMeaning)}</p><button class="rm-tag" data-dossier="${esc(n.id)}">展开完整研究档案 →</button></div>`:'';const l=laneById.get(n.lane), teamLinks=(n.teams||[]).map(id=>teams.get(id)).filter(Boolean).map(t=>`<button class="rm-tag" data-team="${esc(t.id)}">${esc(t.name)}</button>`).join(''), appLinks=(n.apps||[]).map(id=>apps.get(id)).filter(Boolean).map(a=>`<button class="rm-tag" data-app="${esc(a.id)}">${esc(a.name)}</button>`).join(''), algoLinks=(n.algorithmLinks||[]).map(a=>`<a class="rm-tag" href="${esc(localHref(a.url))}">${esc(a.label)}</a>`).join(''), rs=(n.refs||[]).map(id=>refs.get(id)).filter(Boolean).map(r=>`<li>${link(r)}</li>`).join('');document.getElementById('rm-detail').innerHTML=`<p class="hint">${esc(l?.name)} · ${n.year} · ${esc(n.kind)}</p><h2>${esc(n.title)}</h2><p>${esc(n.summary)}</p>${dossier}<h3>主要贡献</h3><p>${esc(n.contribution)}</p><div class="rm-boundary"><h3>证据边界</h3><p>${esc(n.boundary)}</p></div>${teamLinks?`<h3>关联研究群体</h3><div class="rm-tags">${teamLinks}</div>`:''}${appLinks?`<h3>关联应用</h3><div class="rm-tags">${appLinks}</div>`:''}${algoLinks?`<h3>本站相关算法演示</h3><div class="rm-tags">${algoLinks}</div>`:''}<div class="rm-citations"><h3>来源</h3><ol>${rs}</ol></div>`;document.querySelectorAll('#rm-detail [data-dossier]').forEach(b=>b.addEventListener('click',()=>{document.getElementById(`milestone-${b.dataset.dossier}`).open=true;openCard('milestones',`milestone-${b.dataset.dossier}`);}));document.querySelectorAll('#rm-detail [data-team]').forEach(b=>b.addEventListener('click',()=>openCard('teams',`rm-team-${b.dataset.team}`)));document.querySelectorAll('#rm-detail [data-app]').forEach(b=>b.addEventListener('click',()=>openCard('applications',`rm-app-${b.dataset.app}`)));}
     function openCard(view,id){document.querySelector(`.rm-tab[data-view="${view}"]`).click();requestAnimationFrame(()=>document.getElementById(id)?.scrollIntoView({behavior:'smooth',block:'center'}));}
     function renderCards(){document.getElementById('rm-teams').innerHTML=D.teams.map(t=>`<article class="rm-card" id="rm-team-${esc(t.id)}"><h3>${esc(t.name)}</h3><p class="hint">${esc(t.where)} · ${esc(t.focus)}</p><p>${esc(t.contribution)}</p><p class="rm-boundary"><b>阅读边界：</b>${esc(t.caution)}</p><div class="rm-links rm-citations">${t.evidence.map(id=>refs.get(id)).filter(Boolean).map(link).join('<br>')}</div></article>`).join('');document.getElementById('rm-applications').innerHTML=D.applications.map(a=>`<article class="rm-card" id="rm-app-${esc(a.id)}"><h3>${esc(a.name)}</h3><p><b>现实要决定什么：</b>${esc(a.decision)}</p><p><b>问题会包含：</b>${esc(a.models)}</p><p><b>研究怎样做：</b>${esc(a.research)}</p><p><b>结果需要怎样核验：</b>${esc(a.evidence)}</p><p class="rm-links"><b>本站相关问题：</b> ${a.problemLinks.map(x=>`<a href="${esc(localHref(x.url))}">${esc(x.label)}</a>`).join(' · ')}</p><div class="rm-links rm-citations">${a.refs.map(id=>refs.get(id)).filter(Boolean).map(link).join('<br>')}</div></article>`).join('');}
     document.getElementById('rm-industry-coverage').innerHTML='<b>这里串起 '+D.industryEvidence.length+' 个领域中的 '+D.industryEvidence.reduce((s,x)=>s+x.count,0)+' 个应用主题。</b><br>每张卡提供代表性外部研究、适用范围和阅读提示；展开后可查看相关主题及本站的问题模型入口。';
@@ -510,7 +514,7 @@ def _research_map_page(p):
     renderCards();update();
   })();
   </script>
-""".replace("__RESEARCH_MAP_DATA__", embedded).replace("__META_CHIPS__", _meta_chips(cur="research-map")).replace("__REVIEW_PANEL__", render_review_panel()).replace("__ROUTES_PANEL__", render_routes_panel())
+""".replace("__RESEARCH_MAP_DATA__", embedded).replace("__META_CHIPS__", _meta_chips(cur="research-map")).replace("__REVIEW_PANEL__", render_review_panel()).replace("__ROUTES_PANEL__", render_routes_panel()).replace("__MILESTONES_PANEL__", render_milestones_panel())
 
 def generate(write, _page, ldjson):
     meta = _load("meta.json")

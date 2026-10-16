@@ -1,0 +1,264 @@
+{
+  "updated": "2026-10-16",
+  "scope": "编辑选取的代表性转折档案；类型标记不是质量分或学术排名。",
+  "criteria": [
+    "是否改变问题的表述、搜索机制、实验协议或领域工作流程。",
+    "是否有可追溯的原始出版记录，能区分论文、综述、设施与系统报告。",
+    "能否连接到后续研究问题，而不是仅新增一个算法名称。",
+    "对尚在形成的研究保留前沿标记，不把最新年份当成经典地位。"
+  ],
+  "profiles": [
+    {
+      "node": "es73",
+      "layer": "mechanism",
+      "label": "经典机制",
+      "theme": "早期工程搜索",
+      "problem": "怎样在没有梯度的工程试验中调整参数？",
+      "change": "把变异、选择和搜索尺度的适应纳入一个迭代过程。",
+      "consequence": "让搜索分布本身成为可以改进的对象。",
+      "dateMeaning": "ES起于1960年代；1973为Rechenberg专著的出版锚点。",
+      "selectionReason": "连接早期工程搜索与后续分布适应，而非宣布唯一创始年份。",
+      "routes": [
+        "es",
+        "cma"
+      ],
+      "creditOverride": [
+        "Ingo Rechenberg"
+      ]
+    },
+    {
+      "node": "holland75",
+      "layer": "mechanism",
+      "label": "经典机制",
+      "theme": "编码与重组",
+      "problem": "候选方案怎样通过选择和重组积累有用结构？",
+      "change": "把编码、选择和遗传算子组织为适应性搜索框架。",
+      "consequence": "后续改进需要同时考虑表征、解码器和局部搜索。",
+      "dateMeaning": "1975为系统专著出版年，不能代表所有遗传搜索思想的起点。",
+      "selectionReason": "提供群体搜索的共同语言，同时保留不同编码和算子的差异。",
+      "routes": [
+        "ga",
+        "eda"
+      ],
+      "creditOverride": [
+        "John H. Holland"
+      ]
+    },
+    {
+      "node": "sa83",
+      "layer": "mechanism",
+      "label": "经典机制",
+      "theme": "接受暂时变差",
+      "problem": "只接受改进时，搜索停在局部最优怎么办？",
+      "change": "用温度控制接受较差移动的概率。",
+      "consequence": "搜索质量取决于降温、邻域与预算的共同作用。",
+      "dateMeaning": "1983为这里引用的代表论文年份，不是所有退火思想的起点。",
+      "selectionReason": "把跳出局部陷阱的问题转化为可分析、可实现的接受机制。",
+      "routes": [
+        "sa",
+        "vns"
+      ]
+    },
+    {
+      "node": "tabu86",
+      "layer": "mechanism",
+      "label": "经典机制",
+      "theme": "让搜索记住过去",
+      "problem": "怎样减少邻域搜索在相似方案间反复循环？",
+      "change": "把近期移动的记忆用于限制候选选择。",
+      "consequence": "记忆的期限、例外规则与领域邻域需要联合设计。",
+      "dateMeaning": "1986为代表论文锚点；禁忌搜索包含持续发展的记忆设计。",
+      "selectionReason": "代表通过搜索记忆引导探索的路线，而非又一个随机扰动公式。",
+      "routes": [
+        "ts",
+        "grasp"
+      ]
+    },
+    {
+      "node": "tsplib91",
+      "layer": "infrastructure",
+      "label": "证据设施",
+      "theme": "共同的比较对象",
+      "problem": "不同算法的好结果，是否来自同一批问题？",
+      "change": "公开整理实例与问题格式，建立可共同使用的测试对象。",
+      "consequence": "还需要预算、实现、重复试验与实例外验证。",
+      "dateMeaning": "1991是引用的TSPLIB论文年份，不表示全部实例在该年形成。",
+      "selectionReason": "研究进展不仅来自新算子，也来自能够复算和比较的公共材料。",
+      "routes": []
+    },
+    {
+      "node": "pso95",
+      "layer": "mechanism",
+      "label": "经典机制",
+      "theme": "个体经验与社会信息",
+      "problem": "群体中的候选点怎样利用各自和他人的搜索经验？",
+      "change": "将个体历史与社会信息纳入位置搜索的更新。",
+      "consequence": "连续、二进制、排列等搜索空间需要不同的表示和适配。",
+      "dateMeaning": "1995为原始会议论文年份；后续稳定性分析与变体另有时间线。",
+      "selectionReason": "突出信息共享机制，不用鸟群比喻代替算法定义。",
+      "routes": [
+        "pso",
+        "uspex"
+      ]
+    },
+    {
+      "node": "aco96",
+      "layer": "mechanism",
+      "label": "经典机制",
+      "theme": "构造解与信息素",
+      "problem": "离散方案逐步构造时，群体怎样积累好选择的信息？",
+      "change": "用信息素反馈影响后续候选的构造，再结合问题启发信息。",
+      "consequence": "表示、蒸发、局部搜索与学习组件决定具体求解系统。",
+      "dateMeaning": "1996为Ant System期刊论文；ACO思想与早期工作早于该文，不能标成整个领域的诞生年。",
+      "selectionReason": "连接组合构造、共享记忆与现代学习辅助搜索。",
+      "routes": [
+        "aco",
+        "configuration"
+      ]
+    },
+    {
+      "node": "de97",
+      "layer": "mechanism",
+      "label": "经典机制",
+      "theme": "利用候选之间的差值",
+      "problem": "连续候选怎样借助已有种群构造新的探索方向？",
+      "change": "把候选间差分用于变异，并配合重组和选择。",
+      "consequence": "参数控制、初始化和选择同样影响行为。",
+      "dateMeaning": "1997为此处引用的经典期刊论文年份，不把后续DE变体压缩到这一年。",
+      "selectionReason": "机制简洁但设计空间广，适合按算子和预算理解后续研究。",
+      "routes": [
+        "de",
+        "surrogate"
+      ]
+    },
+    {
+      "node": "cma01",
+      "layer": "mechanism",
+      "label": "经典机制",
+      "theme": "学习搜索方向与尺度",
+      "problem": "变量相互耦合时，固定方向和尺度为什么容易低效？",
+      "change": "利用搜索历史适应协方差结构和整体步长。",
+      "consequence": "计算代价、噪声、约束和混合整数适配构成不同后续问题。",
+      "dateMeaning": "协方差适应早期论文发表于1996年；2001为重要系统论文锚点。",
+      "selectionReason": "展示搜索分布的适应如何应对变量之间的相关结构。",
+      "routes": [
+        "cma",
+        "es"
+      ]
+    },
+    {
+      "node": "nsga02",
+      "layer": "mechanism",
+      "label": "经典机制",
+      "theme": "从单个分数到解集",
+      "problem": "目标互相冲突时，为什么需要保留多种折中方案？",
+      "change": "结合非支配排序、精英保留和多样性维护来组织解集搜索。",
+      "consequence": "获得候选前沿之后，还需约束处理和决策偏好。",
+      "dateMeaning": "2002为NSGA-II论文年份，多目标优化及更早的NSGA并非始于该年。",
+      "selectionReason": "把解集质量和分布纳入搜索，而不只寻找一个加权分数。",
+      "routes": [
+        "mo",
+        "qd"
+      ]
+    },
+    {
+      "node": "alns06",
+      "layer": "mechanism",
+      "label": "经典机制",
+      "theme": "组合破坏与修复",
+      "problem": "复杂路线约束下，怎样让搜索跨越小邻域？",
+      "change": "组织多种移除与重建算子，并按历史表现调整使用权重。",
+      "consequence": "需要分辨算子设计、选择策略与领域约束各自的作用。",
+      "dateMeaning": "2006为此处引用的ALNS期刊论文；更早的大邻域搜索另有节点。",
+      "selectionReason": "说明改进可能来自可组合的求解流程，而非单一更新公式。",
+      "routes": [
+        "lns",
+        "vns"
+      ]
+    },
+    {
+      "node": "calypso10",
+      "layer": "application",
+      "label": "领域工具",
+      "theme": "搜索与物理评价协作",
+      "problem": "晶体结构未知时，怎样把候选搜索接到物理能量评价？",
+      "change": "把PSO思想与结构生成、局部优化和能量评价共同组织。",
+      "consequence": "科学结论还受物理模型、评价精度和结构验证影响。",
+      "dateMeaning": "2010是方法论文、2012是软件论文；不是把一个日期当作完整工具诞生过程。",
+      "selectionReason": "展示领域知识和搜索的结合，通用演示不能替代其科学工作流。",
+      "routes": [
+        "uspex",
+        "pso"
+      ]
+    },
+    {
+      "node": "smac11",
+      "layer": "mechanism",
+      "label": "方法框架",
+      "theme": "配置求解器本身",
+      "problem": "求解器参数很多时，怎样系统地选择设置？",
+      "change": "用模型引导参数配置空间中的搜索。",
+      "consequence": "必须划分训练、验证与测试实例，并计算配置成本。",
+      "dateMeaning": "2011为SMAC代表论文，不表示自动配置或算法选择研究从该年开始。",
+      "selectionReason": "把人工作业式调参转为可以记录预算和验证过程的研究对象。",
+      "routes": [
+        "configuration"
+      ],
+      "creditOverride": [
+        "Frank Hutter",
+        "Holger H. Hoos",
+        "Kevin Leyton-Brown"
+      ]
+    },
+    {
+      "node": "robotics13",
+      "layer": "synthesis",
+      "label": "领域综合",
+      "theme": "从群体思想到工程",
+      "problem": "许多机器人怎样通过局部规则共同完成任务？",
+      "change": "综述将控制、通信、自组织与任务组织放入工程问题框架。",
+      "consequence": "仿真、真实硬件、故障和通信成本需要分别验证。",
+      "dateMeaning": "2013为领域综述年份；群体机器人研究早于该年。",
+      "selectionReason": "这是梳理领域的综合节点，不应被误读为一种新优化算法。",
+      "routes": [
+        "neuro",
+        "qd"
+      ]
+    },
+    {
+      "node": "coco21",
+      "layer": "infrastructure",
+      "label": "证据设施",
+      "theme": "持续的实验与结果档案",
+      "problem": "怎样在统一协议下比较连续黑盒优化器？",
+      "change": "组织测试问题、实验流程、性能处理与结果档案。",
+      "consequence": "基准代表性和测试外表现仍需单独讨论。",
+      "dateMeaning": "2021为引用的期刊论文卷期年；COCO/BBOB项目及其基准工作早于该年。",
+      "selectionReason": "将方法的可比较性作为研究主干的一部分。",
+      "routes": []
+    },
+    {
+      "node": "alpha25",
+      "layer": "frontier",
+      "label": "前沿观察",
+      "theme": "生成代码与可执行反馈",
+      "problem": "生成候选程序后，怎样通过执行结果继续改进？",
+      "change": "将代码生成、评价和迭代搜索连接为研究系统。",
+      "consequence": "成本、任务划分和外部验证决定结论能否推广。",
+      "dateMeaning": "2025为所引作者预印本/系统研究的公开年份；前沿观察不等于经典地位认证。",
+      "selectionReason": "追踪自动设计的新问题，保留与经典机制不同的证据状态。",
+      "routes": [
+        "configuration"
+      ]
+    }
+  ],
+  "extraSources": [
+    {
+      "id": "cma-history-official",
+      "title": "CMA-ES作者维护的注释书目",
+      "url": "https://cma-es.github.io/",
+      "checked": "2026-10-16",
+      "location": "Commented Bibliography：1996与2001条目"
+    }
+  ]
+}
