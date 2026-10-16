@@ -1,0 +1,941 @@
+{
+ "by_domain": {
+  "binpack": {
+   "cells": 42,
+   "loss": 4,
+   "tie": 38,
+   "win": 0,
+   "withdrawn": 4
+  },
+  "bpvar": {
+   "cells": 126,
+   "loss": 1,
+   "tie": 78,
+   "win": 47,
+   "withdrawn": 1
+  },
+  "continuous": {
+   "cells": 40,
+   "loss": 2,
+   "tie": 0,
+   "win": 38,
+   "withdrawn": 2
+  },
+  "custom": {
+   "cells": 61,
+   "loss": 8,
+   "tie": 0,
+   "win": 53,
+   "withdrawn": 8
+  },
+  "entryseq": {
+   "cells": 2496,
+   "loss": 234,
+   "tie": 865,
+   "win": 1397,
+   "withdrawn": 234
+  },
+  "etp": {
+   "cells": 7,
+   "loss": 0,
+   "tie": 0,
+   "win": 7,
+   "withdrawn": 0
+  },
+  "gap": {
+   "cells": 37,
+   "loss": 4,
+   "tie": 0,
+   "win": 33,
+   "withdrawn": 4
+  },
+  "gcvar": {
+   "cells": 206,
+   "loss": 21,
+   "tie": 183,
+   "win": 2,
+   "withdrawn": 21
+  },
+  "graphcolor": {
+   "cells": 42,
+   "loss": 7,
+   "tie": 29,
+   "win": 6,
+   "withdrawn": 7
+  },
+  "knapsack": {
+   "cells": 45,
+   "loss": 2,
+   "tie": 0,
+   "win": 43,
+   "withdrawn": 2
+  },
+  "kpvar": {
+   "cells": 284,
+   "loss": 32,
+   "tie": 47,
+   "win": 205,
+   "withdrawn": 32
+  },
+  "nrp": {
+   "cells": 7,
+   "loss": 0,
+   "tie": 0,
+   "win": 7,
+   "withdrawn": 0
+  },
+  "qubo": {
+   "cells": 42,
+   "loss": 4,
+   "tie": 0,
+   "win": 38,
+   "withdrawn": 4
+  },
+  "sat": {
+   "cells": 45,
+   "loss": 8,
+   "tie": 2,
+   "win": 35,
+   "withdrawn": 8
+  },
+  "setcover": {
+   "cells": 43,
+   "loss": 19,
+   "tie": 7,
+   "win": 17,
+   "withdrawn": 19
+  },
+  "sls": {
+   "cells": 7,
+   "loss": 0,
+   "tie": 0,
+   "win": 7,
+   "withdrawn": 0
+  },
+  "ttp": {
+   "cells": 7,
+   "loss": 0,
+   "tie": 0,
+   "win": 7,
+   "withdrawn": 0
+  },
+  "uflp": {
+   "cells": 40,
+   "loss": 13,
+   "tie": 1,
+   "win": 26,
+   "withdrawn": 13
+  }
+ },
+ "by_problem": {
+  "assignment": {
+   "cells": 37,
+   "domain": "gap",
+   "loss": 4,
+   "tie": 0,
+   "variant": null,
+   "win": 33,
+   "withdrawn": 4
+  },
+  "atsp": {
+   "cells": 40,
+   "domain": "entryseq",
+   "loss": 3,
+   "tie": 1,
+   "variant": "atsp",
+   "win": 36,
+   "withdrawn": 3
+  },
+  "bbob": {
+   "cells": 40,
+   "domain": "continuous",
+   "loss": 2,
+   "tie": 0,
+   "variant": null,
+   "win": 38,
+   "withdrawn": 2
+  },
+  "blo": {
+   "cells": 40,
+   "domain": "entryseq",
+   "loss": 1,
+   "tie": 0,
+   "variant": "blo",
+   "win": 39,
+   "withdrawn": 1
+  },
+  "bounded": {
+   "cells": 44,
+   "domain": "kpvar",
+   "loss": 4,
+   "tie": 1,
+   "variant": "bkp",
+   "win": 39,
+   "withdrawn": 4
+  },
+  "bpp2d": {
+   "cells": 42,
+   "domain": "bpvar",
+   "loss": 0,
+   "tie": 34,
+   "variant": "binpack2d",
+   "win": 8,
+   "withdrawn": 0
+  },
+  "carp": {
+   "cells": 40,
+   "domain": "entryseq",
+   "loss": 2,
+   "tie": 2,
+   "variant": "carp",
+   "win": 36,
+   "withdrawn": 2
+  },
+  "cbbb": {
+   "cells": 40,
+   "domain": "entryseq",
+   "loss": 1,
+   "tie": 1,
+   "variant": "cbbb",
+   "win": 38,
+   "withdrawn": 1
+  },
+  "cflp": {
+   "cells": 40,
+   "domain": "entryseq",
+   "loss": 11,
+   "tie": 26,
+   "variant": "cflp",
+   "win": 3,
+   "withdrawn": 11
+  },
+  "changemaking": {
+   "cells": 42,
+   "domain": "kpvar",
+   "loss": 14,
+   "tie": 6,
+   "variant": "cmp",
+   "win": 22,
+   "withdrawn": 14
+  },
+  "csp": {
+   "cells": 42,
+   "domain": "binpack",
+   "loss": 4,
+   "tie": 38,
+   "variant": null,
+   "win": 0,
+   "withdrawn": 4
+  },
+  "csplogic": {
+   "cells": 40,
+   "domain": "entryseq",
+   "loss": 0,
+   "tie": 40,
+   "variant": "csplogic",
+   "win": 0,
+   "withdrawn": 0
+  },
+  "ctp": {
+   "cells": 40,
+   "domain": "entryseq",
+   "loss": 0,
+   "tie": 38,
+   "variant": "ctp",
+   "win": 2,
+   "withdrawn": 0
+  },
+  "discounted": {
+   "cells": 9,
+   "domain": "kpvar",
+   "loss": 0,
+   "tie": 0,
+   "variant": "dkp",
+   "win": 9,
+   "withdrawn": 0
+  },
+  "domset": {
+   "cells": 42,
+   "domain": "entryseq",
+   "loss": 2,
+   "tie": 40,
+   "variant": "domset",
+   "win": 0,
+   "withdrawn": 2
+  },
+  "dop": {
+   "cells": 40,
+   "domain": "entryseq",
+   "loss": 0,
+   "tie": 40,
+   "variant": "dop",
+   "win": 0,
+   "withdrawn": 0
+  },
+  "ebbb": {
+   "cells": 40,
+   "domain": "entryseq",
+   "loss": 1,
+   "tie": 0,
+   "variant": "ebbb",
+   "win": 39,
+   "withdrawn": 1
+  },
+  "ecd": {
+   "cells": 40,
+   "domain": "entryseq",
+   "loss": 13,
+   "tie": 0,
+   "variant": "wbeam",
+   "win": 27,
+   "withdrawn": 13
+  },
+  "ecp": {
+   "cells": 42,
+   "domain": "gcvar",
+   "loss": 0,
+   "tie": 42,
+   "variant": "edgecolor",
+   "win": 0,
+   "withdrawn": 0
+  },
+  "etp": {
+   "cells": 7,
+   "domain": "etp",
+   "loss": 0,
+   "tie": 0,
+   "variant": null,
+   "win": 7,
+   "withdrawn": 0
+  },
+  "fjsp": {
+   "cells": 40,
+   "domain": "entryseq",
+   "loss": 4,
+   "tie": 33,
+   "variant": "fjsp",
+   "win": 3,
+   "withdrawn": 4
+  },
+  "fractional": {
+   "cells": 40,
+   "domain": "entryseq",
+   "loss": 4,
+   "tie": 0,
+   "variant": "fkp",
+   "win": 36,
+   "withdrawn": 4
+  },
+  "freqasg": {
+   "cells": 40,
+   "domain": "entryseq",
+   "loss": 4,
+   "tie": 10,
+   "variant": "freqasg",
+   "win": 26,
+   "withdrawn": 4
+  },
+  "fss": {
+   "cells": 40,
+   "domain": "entryseq",
+   "loss": 5,
+   "tie": 2,
+   "variant": "fss",
+   "win": 33,
+   "withdrawn": 5
+  },
+  "fvs": {
+   "cells": 42,
+   "domain": "entryseq",
+   "loss": 3,
+   "tie": 38,
+   "variant": "fvs",
+   "win": 1,
+   "withdrawn": 3
+  },
+  "ged": {
+   "cells": 40,
+   "domain": "entryseq",
+   "loss": 5,
+   "tie": 0,
+   "variant": "ged",
+   "win": 35,
+   "withdrawn": 5
+  },
+  "gmatch": {
+   "cells": 40,
+   "domain": "entryseq",
+   "loss": 2,
+   "tie": 38,
+   "variant": "gmatch",
+   "win": 0,
+   "withdrawn": 2
+  },
+  "gpp": {
+   "cells": 40,
+   "domain": "entryseq",
+   "loss": 1,
+   "tie": 38,
+   "variant": "gpp",
+   "win": 1,
+   "withdrawn": 1
+  },
+  "hcycle": {
+   "cells": 40,
+   "domain": "entryseq",
+   "loss": 3,
+   "tie": 9,
+   "variant": "hc",
+   "win": 28,
+   "withdrawn": 3
+  },
+  "hset": {
+   "cells": 42,
+   "domain": "entryseq",
+   "loss": 1,
+   "tie": 41,
+   "variant": "hset",
+   "win": 0,
+   "withdrawn": 1
+  },
+  "jss": {
+   "cells": 40,
+   "domain": "entryseq",
+   "loss": 1,
+   "tie": 2,
+   "variant": "jss",
+   "win": 37,
+   "withdrawn": 1
+  },
+  "kmeans": {
+   "cells": 40,
+   "domain": "entryseq",
+   "loss": 4,
+   "tie": 0,
+   "variant": "kmeans",
+   "win": 36,
+   "withdrawn": 4
+  },
+  "lap": {
+   "cells": 40,
+   "domain": "entryseq",
+   "loss": 3,
+   "tie": 1,
+   "variant": "lap",
+   "win": 36,
+   "withdrawn": 3
+  },
+  "lbbb": {
+   "cells": 40,
+   "domain": "entryseq",
+   "loss": 1,
+   "tie": 0,
+   "variant": "lbbb",
+   "win": 39,
+   "withdrawn": 1
+  },
+  "lcp": {
+   "cells": 42,
+   "domain": "gcvar",
+   "loss": 0,
+   "tie": 42,
+   "variant": "listcolor",
+   "win": 0,
+   "withdrawn": 0
+  },
+  "lop": {
+   "cells": 40,
+   "domain": "entryseq",
+   "loss": 2,
+   "tie": 1,
+   "variant": "lop",
+   "win": 37,
+   "withdrawn": 2
+  },
+  "lpath": {
+   "cells": 40,
+   "domain": "entryseq",
+   "loss": 8,
+   "tie": 0,
+   "variant": "lpath",
+   "win": 32,
+   "withdrawn": 8
+  },
+  "lrp": {
+   "cells": 40,
+   "domain": "entryseq",
+   "loss": 8,
+   "tie": 2,
+   "variant": "lrp",
+   "win": 30,
+   "withdrawn": 8
+  },
+  "maxcut": {
+   "cells": 42,
+   "domain": "entryseq",
+   "loss": 9,
+   "tie": 14,
+   "variant": "maxcut",
+   "win": 19,
+   "withdrawn": 9
+  },
+  "maxflow": {
+   "cells": 40,
+   "domain": "entryseq",
+   "loss": 2,
+   "tie": 0,
+   "variant": "maxflow",
+   "win": 38,
+   "withdrawn": 2
+  },
+  "maxsat": {
+   "cells": 45,
+   "domain": "sat",
+   "loss": 8,
+   "tie": 2,
+   "variant": null,
+   "win": 35,
+   "withdrawn": 8
+  },
+  "mclique": {
+   "cells": 40,
+   "domain": "entryseq",
+   "loss": 0,
+   "tie": 40,
+   "variant": "mclique",
+   "win": 0,
+   "withdrawn": 0
+  },
+  "mdvrp": {
+   "cells": 39,
+   "domain": "entryseq",
+   "loss": 0,
+   "tie": 0,
+   "variant": "mdvrp",
+   "win": 39,
+   "withdrawn": 0
+  },
+  "mincostflow": {
+   "cells": 40,
+   "domain": "entryseq",
+   "loss": 2,
+   "tie": 0,
+   "variant": "mincostflow",
+   "win": 38,
+   "withdrawn": 2
+  },
+  "mis": {
+   "cells": 38,
+   "domain": "gcvar",
+   "loss": 21,
+   "tie": 15,
+   "variant": "mis",
+   "win": 2,
+   "withdrawn": 21
+  },
+  "mmo": {
+   "cells": 40,
+   "domain": "entryseq",
+   "loss": 2,
+   "tie": 0,
+   "variant": "mmo",
+   "win": 38,
+   "withdrawn": 2
+  },
+  "msa": {
+   "cells": 42,
+   "domain": "entryseq",
+   "loss": 4,
+   "tie": 0,
+   "variant": "msa",
+   "win": 38,
+   "withdrawn": 4
+  },
+  "mst": {
+   "cells": 40,
+   "domain": "entryseq",
+   "loss": 6,
+   "tie": 7,
+   "variant": "mst",
+   "win": 27,
+   "withdrawn": 6
+  },
+  "multidim": {
+   "cells": 44,
+   "domain": "kpvar",
+   "loss": 3,
+   "tie": 0,
+   "variant": "mdkp",
+   "win": 41,
+   "withdrawn": 3
+  },
+  "multiple": {
+   "cells": 3,
+   "domain": "kpvar",
+   "loss": 1,
+   "tie": 0,
+   "variant": "mkpm",
+   "win": 2,
+   "withdrawn": 1
+  },
+  "multiplechoice": {
+   "cells": 9,
+   "domain": "kpvar",
+   "loss": 0,
+   "tie": 0,
+   "variant": "mckp",
+   "win": 9,
+   "withdrawn": 0
+  },
+  "nbbb": {
+   "cells": 40,
+   "domain": "entryseq",
+   "loss": 2,
+   "tie": 0,
+   "variant": "nbbb",
+   "win": 38,
+   "withdrawn": 2
+  },
+  "ndp": {
+   "cells": 42,
+   "domain": "entryseq",
+   "loss": 11,
+   "tie": 1,
+   "variant": "ndp",
+   "win": 30,
+   "withdrawn": 11
+  },
+  "nrp": {
+   "cells": 7,
+   "domain": "nrp",
+   "loss": 0,
+   "tie": 0,
+   "variant": null,
+   "win": 7,
+   "withdrawn": 0
+  },
+  "numpart": {
+   "cells": 40,
+   "domain": "entryseq",
+   "loss": 34,
+   "tie": 6,
+   "variant": "numpart",
+   "win": 0,
+   "withdrawn": 34
+  },
+  "orienteering": {
+   "cells": 40,
+   "domain": "entryseq",
+   "loss": 10,
+   "tie": 19,
+   "variant": "orienteering",
+   "win": 11,
+   "withdrawn": 10
+  },
+  "oss": {
+   "cells": 40,
+   "domain": "entryseq",
+   "loss": 5,
+   "tie": 0,
+   "variant": "oss",
+   "win": 35,
+   "withdrawn": 5
+  },
+  "pcenter": {
+   "cells": 40,
+   "domain": "entryseq",
+   "loss": 1,
+   "tie": 39,
+   "variant": "pcenter",
+   "win": 0,
+   "withdrawn": 1
+  },
+  "pmedian": {
+   "cells": 40,
+   "domain": "entryseq",
+   "loss": 1,
+   "tie": 39,
+   "variant": "pmedian",
+   "win": 0,
+   "withdrawn": 1
+  },
+  "pms": {
+   "cells": 40,
+   "domain": "entryseq",
+   "loss": 0,
+   "tie": 40,
+   "variant": "pms",
+   "win": 0,
+   "withdrawn": 0
+  },
+  "prext": {
+   "cells": 42,
+   "domain": "gcvar",
+   "loss": 0,
+   "tie": 42,
+   "variant": "precolor",
+   "win": 0,
+   "withdrawn": 0
+  },
+  "proteinfold": {
+   "cells": 40,
+   "domain": "entryseq",
+   "loss": 2,
+   "tie": 37,
+   "variant": "proteinfold",
+   "win": 1,
+   "withdrawn": 2
+  },
+  "qap": {
+   "cells": 40,
+   "domain": "entryseq",
+   "loss": 7,
+   "tie": 4,
+   "variant": "qap",
+   "win": 29,
+   "withdrawn": 7
+  },
+  "quadratic": {
+   "cells": 44,
+   "domain": "kpvar",
+   "loss": 1,
+   "tie": 0,
+   "variant": "qkp",
+   "win": 43,
+   "withdrawn": 1
+  },
+  "qubo": {
+   "cells": 42,
+   "domain": "qubo",
+   "loss": 4,
+   "tie": 0,
+   "variant": null,
+   "win": 38,
+   "withdrawn": 4
+  },
+  "rcpsp": {
+   "cells": 40,
+   "domain": "entryseq",
+   "loss": 0,
+   "tie": 40,
+   "variant": "rcpsp",
+   "win": 0,
+   "withdrawn": 0
+  },
+  "ro": {
+   "cells": 40,
+   "domain": "entryseq",
+   "loss": 1,
+   "tie": 0,
+   "variant": "ro",
+   "win": 39,
+   "withdrawn": 1
+  },
+  "rpostman": {
+   "cells": 40,
+   "domain": "entryseq",
+   "loss": 3,
+   "tie": 0,
+   "variant": "rpostman",
+   "win": 37,
+   "withdrawn": 3
+  },
+  "sat": {
+   "cells": 45,
+   "domain": "sat",
+   "loss": 8,
+   "tie": 2,
+   "variant": null,
+   "win": 35,
+   "withdrawn": 8
+  },
+  "scp": {
+   "cells": 43,
+   "domain": "setcover",
+   "loss": 19,
+   "tie": 7,
+   "variant": null,
+   "win": 17,
+   "withdrawn": 19
+  },
+  "setpack": {
+   "cells": 42,
+   "domain": "entryseq",
+   "loss": 0,
+   "tie": 42,
+   "variant": "setpack",
+   "win": 0,
+   "withdrawn": 0
+  },
+  "shortestpath": {
+   "cells": 40,
+   "domain": "entryseq",
+   "loss": 3,
+   "tie": 37,
+   "variant": "shortestpath",
+   "win": 0,
+   "withdrawn": 3
+  },
+  "sls": {
+   "cells": 7,
+   "domain": "sls",
+   "loss": 0,
+   "tie": 0,
+   "variant": null,
+   "win": 7,
+   "withdrawn": 0
+  },
+  "sms": {
+   "cells": 40,
+   "domain": "entryseq",
+   "loss": 1,
+   "tie": 4,
+   "variant": "sms",
+   "win": 35,
+   "withdrawn": 1
+  },
+  "spp": {
+   "cells": 42,
+   "domain": "bpvar",
+   "loss": 1,
+   "tie": 2,
+   "variant": "strippack",
+   "win": 39,
+   "withdrawn": 1
+  },
+  "stp": {
+   "cells": 42,
+   "domain": "entryseq",
+   "loss": 1,
+   "tie": 41,
+   "variant": "stp",
+   "win": 0,
+   "withdrawn": 1
+  },
+  "subsetsum": {
+   "cells": 45,
+   "domain": "kpvar",
+   "loss": 4,
+   "tie": 40,
+   "variant": "ssp",
+   "win": 1,
+   "withdrawn": 4
+  },
+  "tcp": {
+   "cells": 42,
+   "domain": "gcvar",
+   "loss": 0,
+   "tie": 42,
+   "variant": "totalcolor",
+   "win": 0,
+   "withdrawn": 0
+  },
+  "tdm": {
+   "cells": 42,
+   "domain": "entryseq",
+   "loss": 4,
+   "tie": 10,
+   "variant": "tdm",
+   "win": 28,
+   "withdrawn": 4
+  },
+  "topsort": {
+   "cells": 40,
+   "domain": "entryseq",
+   "loss": 1,
+   "tie": 3,
+   "variant": "topsort",
+   "win": 36,
+   "withdrawn": 1
+  },
+  "ttp": {
+   "cells": 7,
+   "domain": "ttp",
+   "loss": 0,
+   "tie": 0,
+   "variant": null,
+   "win": 7,
+   "withdrawn": 0
+  },
+  "uflp": {
+   "cells": 40,
+   "domain": "uflp",
+   "loss": 13,
+   "tie": 1,
+   "variant": null,
+   "win": 26,
+   "withdrawn": 13
+  },
+  "unbounded": {
+   "cells": 44,
+   "domain": "kpvar",
+   "loss": 5,
+   "tie": 0,
+   "variant": "ukp",
+   "win": 39,
+   "withdrawn": 5
+  },
+  "vcover": {
+   "cells": 42,
+   "domain": "entryseq",
+   "loss": 2,
+   "tie": 39,
+   "variant": "vcover",
+   "win": 1,
+   "withdrawn": 2
+  },
+  "vrp": {
+   "cells": 39,
+   "domain": "entryseq",
+   "loss": 2,
+   "tie": 0,
+   "variant": "vrp",
+   "win": 37,
+   "withdrawn": 2
+  },
+  "vrpstw": {
+   "cells": 39,
+   "domain": "entryseq",
+   "loss": 1,
+   "tie": 0,
+   "variant": "vrpstw",
+   "win": 38,
+   "withdrawn": 1
+  },
+  "vrptw": {
+   "cells": 39,
+   "domain": "entryseq",
+   "loss": 3,
+   "tie": 0,
+   "variant": "vrptw",
+   "win": 36,
+   "withdrawn": 3
+  },
+  "vsbpp": {
+   "cells": 42,
+   "domain": "bpvar",
+   "loss": 0,
+   "tie": 42,
+   "variant": "vsbinpack",
+   "win": 0,
+   "withdrawn": 0
+  }
+ },
+ "meta": {
+  "confirmed": 9,
+  "iters": 200,
+  "margin": 0.002,
+  "seeds": [
+   11,
+   12,
+   13
+  ]
+ },
+ "total": {
+  "cells": 3577,
+  "loss": 359,
+  "tie": 1250,
+  "win": 1968,
+  "withdrawn": 359
+ }
+}

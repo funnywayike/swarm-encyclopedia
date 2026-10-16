@@ -1,0 +1,382 @@
+{
+  "pages": [
+    {
+      "id": "theory",
+      "dir": "theory",
+      "name": "理论基础",
+      "en": "Theory: NFL, Landscape &amp; Behavior",
+      "ico": "📐",
+      "card_title": "理论基础（M1）",
+      "card_desc": "NFL 定理的正确读法 · 适应度地形 · 行为分类学——算法优势从哪来",
+      "lead": "「哪个算法最强」是错的问题；「目标函数的几何结构是什么」才是对的。NFL 定理、适应度地形分析与行为分类学，是理解整个算法宇宙的三把钥匙。",
+      "sections": [
+        {
+          "h2": "NFL 定理：被引用最多、被读错最多",
+          "html": "<p><b>定理内容</b>（Wolpert &amp; Macready 1997；AMS Notices 2014 科普）：对所有可能的目标函数取平均，任何搜索算法与随机搜索<b>等价</b>。</p>\n<ul>\n<li><b>正确读法</b>：实践中算法的优势<b>必然来自对问题结构的利用</b>——凸/多峰/可分/欺骗性。NFL 是「领域知识必须注入算法」的论证，<b>不是</b>「算法都一样」的托词。</li>\n<li><b>正确的问题</b>：不是「哪个算法最强」，而是「这个问题长什么样、什么结构可利用」——这正是本站问题轴（L1 模型属性标签）存在的理由。</li>\n</ul>",
+          "refs": [
+            "wolpert1997"
+          ]
+        },
+        {
+          "h2": "适应度地形：连接问题结构与算法选择的桥",
+          "html": "<p><b>形式化定义</b>（Jones 1995 / Stadler 2002）：地形 = 图(解, 算子)——<b>换算子就是换地形</b>。同一问题在 2-opt 算子下和交换算子下是完全不同的山。</p>\n<ul>\n<li>地形特征（局部最优密度、大谷结构、中性区广度）决定哪种搜索策略有效。</li>\n<li>诚实现状：「哪个算法适合哪类地形」的一般性结论<b>仍远远未解决</b>（AMS 2014）——任何宣称普适的「算法-地形配对表」都要打折。</li>\n<li>工程接口：ELA（经验地形分析）→ Deep-ELA（transformer 预训练，首次统一单/多目标）→ 实例空间分析 ISA（Smith-Miles 学派，MATILDA 平台）——地形度量正在从手Craftsmanship特征走向学习特征。</li>\n</ul>",
+          "refs": [
+            "jones1995",
+            "stadler2002",
+            "deepela2025",
+            "isa"
+          ]
+        },
+        {
+          "h2": "行为分类学：比「隐喻分类」更诚实的切法",
+          "html": "<p><b>Piotrowski et al. 第二分类学</b>（arXiv 2002.08136，更新至 2024）：按「算法行为」而非隐喻来源分类——两大行为类：</p>\n<div class=\"tablewrap\"><table>\n<tr><th>行为类</th><th>机制</th><th>本质同类的算法</th></tr>\n<tr><td><b>差分向量移动</b></td><td>以参考解为基准做位移/变异</td><td>PSO、DE、GWO——狼群围猎与粒子飞行在行为上同构</td></tr>\n<tr><td><b>分布式采样/重组</b></td><td>种群重组与采样为主</td><td>GA、EDA 系</td></tr>\n</table></div>\n<p><b>Stellenbosch 行为学鉴定</b>（IEEE TEVC）：20 项行为特征套件自动聚类搜索轨迹——结论：「独特搜索行为的范围很小，<b>大多数元启发式与大多数其他元启发式共享行为</b>」。配套工作用 MEALPY 114 算法 × crossmatch 统计量复证。这为「隐喻不同但算法相同」提供了自动化鉴定工具——本站组件注册表（<a href=\"/components/\">组件页</a>）做的是同一件事。</p>\n<p><b>收敛性现状</b>：收敛证明多限于简化框架（GA 马尔可夫链分析），对工程变体几乎空白——理论落后于实践，这也是「跑分文化」得以盛行的缝隙。</p>",
+          "refs": [
+            "piotrowski2024",
+            "stellenbosch",
+            "crossmatch"
+          ]
+        }
+      ],
+      "refs": [
+        {
+          "id": "wolpert1997",
+          "cite": "Wolpert &amp; Macready (1997). No free lunch theorems for optimization. <i>IEEE Trans. Evol. Comput.</i> 1(1):67-82",
+          "url": "https://ieeexplore.ieee.org/document/585893"
+        },
+        {
+          "id": "jones1995",
+          "cite": "Jones, T. (1995). 适应度地形形式化（正文口径：地形=图(解,算子)）"
+        },
+        {
+          "id": "stadler2002",
+          "cite": "Stadler, P. (2002). 适应度地形形式化（正文口径）"
+        },
+        {
+          "id": "deepela2025",
+          "cite": "Deep-ELA (2025). Deep Exploratory Landscape Analysis with Self-Supervised Pretrained Transformers. <i>Evolutionary Computation</i> 33(4):513-540（四 transformer 百万题预训练、首次统一单/多目标）"
+        },
+        {
+          "id": "isa",
+          "cite": "实例空间分析 ISA / MATILDA 平台（Smith-Miles 学派；综述 经典文献）"
+        },
+        {
+          "id": "piotrowski2024",
+          "cite": "Piotrowski et al. (2024). 按算法行为分类（二分类学）. arXiv:2002.08136 v5",
+          "url": "https://arxiv.org/abs/2002.08136"
+        },
+        {
+          "id": "stellenbosch",
+          "cite": "Stellenbosch 团队. Behavioural analysis of metaheuristics. <i>IEEE Trans. Evol. Comput.</i>（20 项行为特征自动聚类）"
+        },
+        {
+          "id": "crossmatch",
+          "cite": "MEALPY 114 算法 × crossmatch 统计量行为复证"
+        }
+      ],
+      "summary_en": "A short tour of three ideas that explain where an algorithm's advantage comes from: the No Free Lunch theorem (and how it is routinely misread), fitness-landscape analysis, which links problem structure to algorithm choice, and behavioural taxonomy as a more honest alternative to metaphor-based classification. The body of the page is in Chinese."
+    },
+    {
+      "id": "criticism",
+      "dir": "criticism",
+      "name": "批评史",
+      "en": "The Methodology Crisis: A Timeline",
+      "ico": "🔍",
+      "card_title": "批评史（M2）",
+      "card_desc": "隐喻通胀 → 基准批判三重奏 → 元分析 → 撤稿线——全网少见的完整时间轴",
+      "lead": "这是本领域最重要也最少被科普的方法论争论：从 2013 年 Sörensen 点名批评，到 2025 年撤稿与「学术标题党」定性——一条完整的时间轴叙事。",
+      "sections": [
+        {
+          "h2": "2013-2021：批评奠基与三论点",
+          "html": "<p><b>三论点</b>（Sörensen 2013 ITOR / 2015《Metaheuristics—the metaphor exposed》）：</p>\n<ul>\n<li><b>① 伪新颖</b>：隐喻的「新」≠算法的「新」——Harmony Search 被证明是进化策略特例（Weyland 2010/2015）；智能水滴/灰狼/萤火虫/蝙蝠/布谷鸟相继被拆解为已有算法实例（Camacho-Villalón 2018-2022）。</li>\n<li><b>② 实验方法学薄弱</b>：只做竞争性测试不研究原理；对基准过拟合；对比池只挑同类隐喻算法（Campelo &amp; Aranha 2023）。</li>\n<li><b>③ 文献碎片化</b>：360 个隐喻把领域切成无法比较的小生态位。</li>\n<li><b>制度性回应</b>：2021 年领域顶刊编辑联名《Metaphor-based metaheuristics, a call for action》（Swarm Intelligence）；Journal of Heuristics 原话——「隐喻廉价且易得，用其包装门面不可接受；重命名不算贡献」；Swan et al. 2015 的 29 人标准化议程要求「无隐喻语言 + 形式化描述」。</li>\n</ul>",
+          "refs": [
+            "sorensen2015",
+            "weyland2010",
+            "camacho2022",
+            "swan2015",
+            "aranha2021",
+            "campelo2023"
+          ]
+        },
+        {
+          "h2": "2022-2025：基准批判三重奏（系统性证伪）",
+          "html": "<div class=\"tablewrap\"><table>\n<tr><th>批判者</th><th>方法</th><th>结论</th></tr>\n<tr><td><b>Kudela 2022（Nature Machine Intelligence）</b></td><td>7 个「最新关键问题求解器」 vs 经典算法严苛对照</td><td><b>无一稳定优于 1995 年的 PSO 与 2006 年的 JADE</b>；新算法共享「中心偏置算子」内核——批评出圈到主流 ML 界</td></tr>\n<tr><td><b>Piotrowski et al. 2025（SwEC）</b></td><td>大基准集 × 4 档评估预算（5k→5M FEs）</td><td><b>评估预算是隐形变量：不同预算下算法排名完全翻转</b></td></tr>\n<tr><td><b>Molina &amp; Herrera 2025《The Paradox of Success》</b></td><td>纵向统计历代新算法</td><td><b>领域越成功，单篇边际贡献越趋近零</b>——「新算法更好」文献过拟合于自身测试套件</td></tr>\n</table></div>\n<p><b>配套证据链</b>：QAPLIB 实例空间偏差（Christiansen &amp; Smith-Miles 2025，MMAS 优势区在标准库里缺席）；CEC 十五年纵向解剖（基准设计本身是算法演化的选择压力）；GECCO 十年复现性审计（168 篇论文，唯一一次复现研究比原声明<b>差一个数量级</b>）；Shaikh et al. 2025 文献计量——<b>超 30% 的隐喻算法跑不赢纯随机搜索</b>。</p>",
+          "refs": [
+            "kudela2022",
+            "piotrowski2025",
+            "paradox2025",
+            "qaplib2025",
+            "cec15",
+            "recap",
+            "shaikh2025"
+          ]
+        },
+        {
+          "h2": "2021-2025：元分析线——组件贡献可以被单独测量",
+          "html": "<p><b>Turkeš, Sörensen &amp; Hvattum（2021, EJOR）</b>——领域<b>首个元分析</b>：134 项 ALNS 研究筛到 63 项合格，医学式随机效应模型合成效应量。结论：<b>自适应层平均只提升 0.14%</b>（95% CI 0.06-0.21%），且增加复杂度。</p>\n<p>方法论意义：组件贡献可以<b>单独、跨研究、与实现无关地测量</b>——本站把每个算法拆成组件展示（<a href=\"/components/\">组件页</a>），正是为了让组件可被这样测。Sörensen 在 NORS 2025 主旨演讲把它列为「领域应转型为经验科学」的示范。</p>",
+          "refs": [
+            "turkes2021",
+            "nors2025"
+          ]
+        },
+        {
+          "h2": "2024-2025：学术打假与撤稿线（观点变成实锤）",
+          "html": "<ul>\n<li><b>Dehghani 集群事件</b>（PubPeer 30 帖）：一位学者以共同作者身份量产动物算法——狼獾/军舰鸟/褶蜥/短尾猫/浣熊/云豹/袋獾/耳廓狐/薮猫/笑翠鸟/巨犰狳/河豚/琴鸟……同一套模板跨 Sci Rep 6 篇、MDPI Biomimetics 8 篇、IEEE Access 7 篇。</li>\n<li><b>撤稿案例</b>：Gooseneck Barnacle Optimization（Sci Rep，发表同年撤稿——核心公式与他人论文逐字相同）；Optical Microscope Algorithm（KBS 2025 撤稿——修正常数舍入错误后从「50 函数赢 44」跌到 43/50 且输给基线，<b>结论完全翻转</b>）。</li>\n<li><b>现行案例</b>：Botox Optimization Algorithm（2024，MDPI，投稿到发表仅 <b>19 天</b>）。</li>\n<li><b>官方定性</b>：INFORMS OR/MS Tomorrow 直接称部分隐喻算法为「学术标题党」；讽刺名录 Bestiary 竟常收到作者主动请求收录自己。</li>\n<li><b>沉默的另一面</b>：定向检索「为隐喻算法成体系辩护」零命中——<b>12 年争议完全单向</b>。</li>\n</ul>\n<p><b>本站立场</b>：每个算法页的「离散化映射」章节承担去隐喻化职责——把「警戒行为」翻译成「对当前最优的结构性扰动」。这不只是特色，而是站在方法论正确的一边。</p>",
+          "refs": [
+            "pubpeer",
+            "botox2024",
+            "bestiary",
+            "informs2026",
+            "nodefense"
+          ]
+        }
+      ],
+      "refs": [
+        {
+          "id": "sorensen2015",
+          "cite": "Sörensen, K. (2015). Metaheuristics—the metaphor exposed. <i>ITOR</i> 22(1):3-18"
+        },
+        {
+          "id": "weyland2010",
+          "cite": "Weyland (2010/2015). Harmony Search = 进化策略特例的拆解线"
+        },
+        {
+          "id": "camacho2022",
+          "cite": "Camacho-Villalón (2018-2022). 隐喻算法拆解系列（智能水滴/灰狼/萤火虫/蝙蝠/布谷鸟）"
+        },
+        {
+          "id": "swan2015",
+          "cite": "Swan et al. (2015). 29 人标准化议程：无隐喻语言 + 形式化描述"
+        },
+        {
+          "id": "aranha2021",
+          "cite": "Aranha et al. (2021). Metaphor-based metaheuristics, a call for action. <i>Swarm Intelligence</i> 15"
+        },
+        {
+          "id": "campelo2023",
+          "cite": "Campelo &amp; Aranha (2023). 实验方法学批评（基准过拟合 / 对比池偏置）"
+        },
+        {
+          "id": "kudela2022",
+          "cite": "Kudela, J. (2022). The critical problem of benchmarking optimization algorithms. <i>Nature Machine Intelligence</i> 4:1238-1245"
+        },
+        {
+          "id": "piotrowski2025",
+          "cite": "Piotrowski et al. (2025). 大基准 × 4 档评估预算（5k→5M FEs）：排名随预算翻转. <i>Swarm and Evolutionary Computation</i>"
+        },
+        {
+          "id": "paradox2025",
+          "cite": "Molina &amp; Herrera (2025). The Paradox of Success. <i>Swarm and Evolutionary Computation</i> 98:102063"
+        },
+        {
+          "id": "qaplib2025",
+          "cite": "Christiansen &amp; Smith-Miles (2025). QAPLIB 实例空间覆盖偏差"
+        },
+        {
+          "id": "cec15",
+          "cite": "Novák et al. 15 年 CEC 竞赛纵向解剖（基准设计=算法演化的选择压力）. arXiv:2603.24140",
+          "url": "https://arxiv.org/abs/2603.24140"
+        },
+        {
+          "id": "recap",
+          "cite": "GECCO 十年复现性审计"
+        },
+        {
+          "id": "shaikh2025",
+          "cite": "Shaikh et al. (2025). 文献计量：超 30% 隐喻算法跑不赢纯随机搜索"
+        },
+        {
+          "id": "turkes2021",
+          "cite": "Turkeš, Sörensen &amp; Hvattum (2021). Meta-analysis of metaheuristics. <i>EJOR</i> 292(2):423-442 —— ALNS 自适应层平均仅提升 0.14%"
+        },
+        {
+          "id": "nors2025",
+          "cite": "Sörensen. NORS 2025 主旨《Towards an Empirical Science》"
+        },
+        {
+          "id": "pubpeer",
+          "cite": "PubPeer / Retraction Watch 线：Dehghani 集群 30 帖；Gooseneck 撤稿；OMA 撤稿"
+        },
+        {
+          "id": "botox2024",
+          "cite": "Botox Optimization (2024, MDPI)：投稿到发表仅 19 天"
+        },
+        {
+          "id": "bestiary",
+          "cite": "EC-Bestiary 讽刺名录（Campelo &amp; Aranha 维护；含 Artif. Life 2023 复盘文《Lessons from the EC Bestiary》）",
+          "url": "https://fcampelo.github.io/EC-Bestiary/"
+        },
+        {
+          "id": "informs2026",
+          "cite": "INFORMS OR/MS Tomorrow「学术标题党」定性"
+        },
+        {
+          "id": "nodefense",
+          "cite": "定向检索「为隐喻算法成体系辩护」零命中——批评单向性观察"
+        }
+      ],
+      "summary_en": "A timeline of the methodological debate in the field: from Sörensen's 2013 criticism of metaphor-based metaheuristics to benchmark critiques, meta-analyses that measure the contribution of single components, and the retractions and ‘academic clickbait’ rulings of 2024–2025. The body of the page is in Chinese; all claims carry references."
+    },
+    {
+      "id": "methodology",
+      "dir": "methodology",
+      "name": "实验方法学",
+      "en": "Benchmarking &amp; Experimental Protocol",
+      "ico": "🧪",
+      "card_title": "实验方法学（M3）",
+      "card_desc": "CEC 统计协议 · 实例库地图 · 工具平台 · 本站协议诚实盘点",
+      "lead": "读完批评史就该读这份实践指南：怎么跑实验才不被抓包。CEC 2025 官方口径、统计检验三件套、工具平台地图，以及本站自身的诚实对照表。",
+      "sections": [
+        {
+          "h2": "CEC 统计协议（2025 官方口径）",
+          "html": "<ul>\n<li><b>≥30 次独立运行</b>（动态赛道 31 次），固定评估预算（如 20 万次 FEs）。</li>\n<li>记录<b>检查点误差轨迹</b>（BFEV/IGD），不只记终值。</li>\n<li><b>统计检验三件套</b>：Wilcoxon 秩和检验（成对）+ Friedman/Nemenyi 事后检验（多算法排名 + 临界距离图）+ Mann-Whitney U；CEC 2025 新增 <b>U-score 双维评分</b>——把「达标速度」与「终值精度」分开计分再加总，强制暴露「快而糙」与「慢而精」的取舍。</li>\n<li><b>禁止针对单个实例调参</b>（防过拟合）。</li>\n<li><b>纵向警示</b>（Novák et al.，15 年 CEC 解剖）：稠密旋转矩阵一引入，坐标依赖算法集体让位——<b>读排名前先读基准定义</b>。</li>\n</ul>",
+          "refs": [
+            "cec2025",
+            "novak"
+          ]
+        },
+        {
+          "h2": "实例库地图（按问题域）",
+          "html": "<div class=\"tablewrap\"><table>\n<tr><th>问题</th><th>标准实例库</th><th>难度要点</th></tr>\n<tr><td>TSP</td><td>TSPLIB、DIMACS</td><td>尺度 50→10⁴；LKH 作 gap 基准</td></tr>\n<tr><td>图着色</td><td><b>DSJC 均匀随机图</b>、DIMACS</td><td>随机几何图太易，必须 DSJC</td></tr>\n<tr><td>装箱</td><td>随机族 + 彩色变体</td><td>LB=⌈Σw/C⌉ 下界对照是标配</td></tr>\n<tr><td>连续</td><td>CEC 2005→2025、BBOB/COCO 24 函数</td><td>BBOB 达标停 vs CEC 固定预算，排名不同</td></tr>\n<tr><td>多目标</td><td>ZDT/DTLZ/WFG</td><td>IGD/HV 指标</td></tr>\n<tr><td>QAP</td><td>QAPLIB</td><td>实例空间分析发现覆盖偏差——库不代表问题空间</td></tr>\n</table></div>",
+          "refs": [
+            "qaplib2025",
+            "loiola2007",
+            "tsplib"
+          ]
+        },
+        {
+          "h2": "工具平台地图",
+          "html": "<div class=\"tablewrap\"><table>\n<tr><th>平台</th><th>覆盖</th><th>特点</th></tr>\n<tr><td><b>COCO/BBOB</b></td><td>连续 24 函数 × 6 维</td><td>达标停机制；实例集封闭</td></tr>\n<tr><td><b>IOHprofiler</b></td><td>PBO 25 题 + BBOB + CEC</td><td>离散/连续通吃（ECJ 2024 经典）</td></tr>\n<tr><td><b>modCMA / modDE</b></td><td>CMA-ES 324 变体 × DE 576 变体</td><td><b>模块化分解</b>：把 SOTA 拆成可组合模块逐一定量评估（Shapley 值）——去隐喻化的工程学巅峰</td></tr>\n<tr><td><b>MEALPY</b></td><td>114+ 元启发式 Python 库</td><td>统一接口全算法横评</td></tr>\n<tr><td><b>MATILDA</b></td><td>实例空间分析</td><td>Smith-Miles 学派在线平台</td></tr>\n<tr><td><b>PyPop7</b></td><td>大规模 BBO（JMLR 2024）</td><td>专注维数灾难的 SOTA 实现</td></tr>\n</table></div>\n<p><b>结论经典</b>（Ma, Wu, Suganthan et al. 2022，SwEC）：500+ 自然启发算法穷举实测——连续优化 SOTA 依旧是 DE 系渐进改良（L-SHADE→RDEx），<b>不是新框架</b>。</p>",
+          "refs": [
+            "ioh2024",
+            "modcma",
+            "mealpy",
+            "pypop7",
+            "maws2022"
+          ]
+        },
+        {
+          "h2": "本站协议诚实盘点",
+          "html": "<div class=\"tablewrap\"><table>\n<tr><th>学界要求</th><th>本站现状</th></tr>\n<tr><td>多种子独立运行 + 统计检验</td><td>关键门 5 种子（进步 5/5、胜随机 ≥4/5 硬门槛）；页面展示单种子基准</td></tr>\n<tr><td>固定预算比较</td><td>统一 200 代预算</td></tr>\n<tr><td>对比 SOTA 而非同类互比</td><td>对比池含 VNS/LK/ILS 强基线 + NN/随机下限</td></tr>\n<tr><td>下界/证书</td><td>装箱 LB 对照、TSP 对比页含 LK</td></tr>\n<tr><td>开源可复现</td><td>全站零依赖纯静态 + 固定种子</td></tr>\n<tr><td>多实例泛化</td><td>每域 2-3 规模实例（⚠️ 可扩）</td></tr>\n</table></div>",
+          "refs": []
+        }
+      ],
+      "refs": [
+        {
+          "id": "cec2025",
+          "cite": "CEC 2025 竞赛技术报告（统计协议官方口径：≥30 次独立运行 / Wilcoxon+Friedman+Nemenyi / U-score 双维评分）"
+        },
+        {
+          "id": "novak",
+          "cite": "Novák et al. 15 年 CEC 竞赛纵向解剖. arXiv:2603.24140",
+          "url": "https://arxiv.org/abs/2603.24140"
+        },
+        {
+          "id": "qaplib2025",
+          "cite": "Christiansen &amp; Smith-Miles (2025). QAPLIB 实例空间覆盖偏差"
+        },
+        {
+          "id": "loiola2007",
+          "cite": "Loiola et al. (2007). QAP 综述. <i>EJOR</i> 176:657"
+        },
+        {
+          "id": "tsplib",
+          "cite": "Reinelt, G. (1991). TSPLIB—A Traveling Salesman Problem Library. <i>ORSA J. Computing</i> 3(4):376-384；TSPLIB95 官方实例库",
+          "url": "http://comopt.ifi.uni-heidelberg.de/software/TSPLIB95/"
+        },
+        {
+          "id": "ioh2024",
+          "cite": "de Nobel et al. (2024). IOHprofiler. <i>Evolutionary Computation</i> 32(3)"
+        },
+        {
+          "id": "modcma",
+          "cite": "modCMA / modDE 模块化平台"
+        },
+        {
+          "id": "mealpy",
+          "cite": "MEALPY. 114+ 元启发式 Python 统一接口库"
+        },
+        {
+          "id": "pypop7",
+          "cite": "PyPop7. 大规模 BBO 库，<i>JMLR</i> 2024"
+        },
+        {
+          "id": "maws2022",
+          "cite": "Ma, Wu, Suganthan et al. (2022). 500+ 自然启发算法穷举实测：SOTA 仍是 DE 系渐进改良. <i>Swarm and Evolutionary Computation</i>"
+        }
+      ],
+      "summary_en": "A practical guide to running experiments that survive review: the CEC 2025 statistical protocol, the standard trio of statistical tests, a map of instance libraries by problem domain and of tooling platforms, and an honest inventory of how this site's own protocol falls short. The body of the page is in Chinese."
+    },
+    {
+      "id": "timeline",
+      "dir": "timeline",
+      "name": "五十年时间轴",
+      "en": "Fifty Years of Metaheuristics",
+      "ico": "🕰️",
+      "card_title": "五十年时间轴（M4）",
+      "card_desc": "1975 GA → 2026 LLM 自动设计——按 Martí/Sevaux/Sörensen EJOR 2025 梳理",
+      "lead": "五十年的五个时代：运筹学启发式传统 → 元启发式概念成形 → 群智能诞生 → 框架化与隐喻海啸 → 自动算法设计 + 反隐喻运动合流。",
+      "sections": [
+        {
+          "h2": "五个时代（Martí, Sevaux &amp; Sörensen, EJOR 2025《Fifty years of metaheuristics》）",
+          "html": "<div class=\"tablewrap\"><table>\n<tr><th>时期</th><th>里程碑</th><th>意义</th></tr>\n<tr><td>1950s-60s</td><td>爬山法、禁忌思想萌芽；Clarke-Wright 节约算法 (1964)</td><td>运筹学启发式传统</td></tr>\n<tr><td>1970s-80s</td><td><b>遗传算法</b>（Holland 1975）、<b>模拟退火</b>（Kirkpatrick et al. 1983, Science）</td><td>「元启发式」概念成形——「元」=高层策略与问题无关</td></tr>\n<tr><td>1980s-90s</td><td><b>禁忌搜索</b>（Glover 1986）、<b>蚁群 ACO</b>（Dorigo 1992）、<b>粒子群 PSO</b>（Kennedy &amp; Eberhart 1995）</td><td>群智能家族诞生；术语正式确立</td></tr>\n<tr><td>2000s</td><td>差分进化 DE、EDA、<b>NSGA-II</b>（2002）、超启发式（Burke 2003）</td><td>从单算法到框架化、多目标化</td></tr>\n<tr><td>2010s</td><td>灰狼 GWO (2014)、鲸鱼 WOA (2016)、均衡 EO (2020-21) 等</td><td><b>隐喻海啸期</b>：数量爆炸、质量参差</td></tr>\n<tr><td>2020s</td><td>LLM 超启发式（2024-）、AlphaEvolve、组件化统一框架运动</td><td>范式转移：自动算法设计 + 反隐喻运动合流</td></tr>\n</table></div>",
+          "refs": [
+            "marti2025",
+            "holland1975",
+            "kirkpatrick1983",
+            "glover1986",
+            "dorigo1992",
+            "ke1995"
+          ]
+        },
+        {
+          "h2": "体量对照：文献计量的「荒诞感」",
+          "html": "<div class=\"tablewrap\"><table>\n<tr><th>家族</th><th>文献量</th><th>备注</th></tr>\n<tr><td>遗传算法 GA</td><td><b>26,707 篇</b>（1975-2025）</td><td>五十年计量经典（ACME 2026）</td></tr>\n<tr><td>粒子群 PSO</td><td><b>26,089 篇</b>（1995-2025）</td><td>30 年计量（ACME 2026）</td></tr>\n<tr><td>差分进化 DE</td><td><b>9,900+ 篇</b></td><td>SHADE/L-SHADE 系是 CEC 竞赛统治家族</td></tr>\n<tr><td>鲸鱼 WOA</td><td>59 改进 + 57 混合变体</td><td>PRISMA 综述批评：多数只比「别的算法」不比「已有变体」</td></tr>\n</table></div>\n<p>对照一句：<b>5 万天 × 5 万篇论文，组件归约后约 6 种核心机制</b>（本站 <a href=\"/components/\">组件页</a>：45 个算法共享 2-opt 87 次调用、OX 交叉 69 次调用）。文献计量的荒诞感本身就是最好的科普素材。</p>\n<p><b>分类学四种切法</b>：按解的个数（单解轨迹式 vs 种群式）/ 按灵感来源 / 按问题编码（<b>编码决定一切</b>——本站架构核心依据）/ 按组件统一视角（播种器/邻域/扰动/交叉/选择/更新方程——360 个隐喻可归约到少数组件模式）。</p>",
+          "refs": [
+            "chaudhary2026",
+            "salgotra2024",
+            "woavariants"
+          ]
+        }
+      ],
+      "refs": [
+        {
+          "id": "marti2025",
+          "cite": "Martí, Sevaux &amp; Sörensen (2025). Fifty years of metaheuristics. <i>EJOR</i>（五个时代经典骨架）"
+        },
+        {
+          "id": "holland1975",
+          "cite": "Holland (1975). 遗传算法奠基（正文口径）"
+        },
+        {
+          "id": "kirkpatrick1983",
+          "cite": "Kirkpatrick, Gelatt &amp; Vecchi (1983). Optimization by simulated annealing. <i>Science</i> 220(4598):671-680"
+        },
+        {
+          "id": "glover1986",
+          "cite": "Glover (1986). 禁忌搜索（正文口径）"
+        },
+        {
+          "id": "dorigo1992",
+          "cite": "Dorigo (1992). 蚁群 ACO（正文口径）"
+        },
+        {
+          "id": "ke1995",
+          "cite": "Kennedy &amp; Eberhart (1995). 粒子群 PSO（正文口径）"
+        },
+        {
+          "id": "chaudhary2026",
+          "cite": "Chaudhary, Verma, Salgotra &amp; Gandomi (2026). Five Decades of Genetic Algorithms. <i>ACME</i>（GA 26,707 篇计量）"
+        },
+        {
+          "id": "salgotra2024",
+          "cite": "Salgotra et al. (2024). 系统性年表. <i>Arch. Comput. Methods Eng.</i>"
+        },
+        {
+          "id": "woavariants",
+          "cite": "WOA 改进/混合变体计量"
+        }
+      ],
+      "summary_en": "Five eras of metaheuristics over fifty years (after Martí, Sevaux and Sörensen, EJOR 2025): the operations-research heuristic tradition, the formation of the metaheuristic concept, the birth of swarm intelligence, frameworks and the metaphor tsunami, and the convergence of automated algorithm design with the anti-metaphor movement. The body of the page is in Chinese."
+    }
+  ]
+}

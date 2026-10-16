@@ -1,0 +1,29 @@
+name: Propose an algorithm or a problem
+description: Suggest something that should be added. See docs/admission-policy.md for what is accepted.
+labels: [enhancement]
+body:
+  - type: dropdown
+    id: kind
+    attributes:
+      label: Algorithm or problem?
+      options: [Algorithm, Problem]
+    validations:
+      required: true
+  - type: input
+    id: name
+    attributes:
+      label: Name
+    validations:
+      required: true
+  - type: textarea
+    id: refs
+    attributes:
+      label: Original reference(s)
+      description: Authors, year, venue — and a DOI or link. Please do not guess; leave a field empty if unsure.
+    validations:
+      required: true
+  - type: textarea
+    id: why
+    attributes:
+      label: Why it belongs here
+      description: What it adds that the current algorithms or problems do not, and how it can be implemented honestly in the browser.

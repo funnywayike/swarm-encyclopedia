@@ -1,0 +1,86 @@
+{
+  "_readme": "撤下留痕账本（single source of truth for pulled / not-yet-passed cells）。本文件记录本站『防假跑门』制度运作中，被整族/逐格撤下、或历史词条撤下待重做的格（域×算法）。字段 schema：id=唯一键；domain=问题域或适配层（如 qubo / sat / gap / 位向量层 bv）；algo=算法或内核（如 gsa / sca / mfo / as_eo；历史词条级无算法填 '—'）；level=层级（内核级|域级）；reason=撤下/未过门原因（诚实描述，零编造）；metric=量化证据（防假跑门实测数值或结构性判据；无数值填 '—'）；date=撤下/标注日期（YYYY-MM-DD）；status=pulled（已撤下）| awaiting-rework（其他线重做中）。框架口径：撤下是防假跑门制度运作的证据，不是缺陷——能过门才上线，过不了就撤下留痕。渲染见 pages_domains.py:_pulled_cells_section() 与 _coverage_page_html()。账本动态：2026-09-29 完善战役后 nrp/sls（scheduling.py 专业建模，ts=120 vs random=8396 / hc=45 vs random=1065）、uflp（_uf_local 专属内核，1129 vs random=1249）重做完成过门上线，条目摘除；同日架构待议项落地——ttp 旅行锦标赛专属域（tour_make，旅行距离×赛制耦合）过门（hc=2145 vs random=10984）挂词条页，历史撤下条目结账摘除。",
+  "updated": "2026-09-29",
+  "cells": [
+    {
+      "id": "bv_gsa",
+      "domain": "位向量层 bv（连续系二值化）",
+      "algo": "gsa（引力搜索）",
+      "level": "内核级",
+      "reason": "GSA 引力项随距离平方衰减，在二进制 0/1 空间无几何对应，离散化后机制退化，未过严口径防假跑门（随机基线同族 seed 同取最优仍不占优）。",
+      "metric": "结构性退化（无有效数值门差）",
+      "date": "2026-09-28",
+      "status": "pulled"
+    },
+    {
+      "id": "bv_hs",
+      "domain": "位向量层 bv（连续系二值化）",
+      "algo": "hs（和声搜索）",
+      "level": "内核级",
+      "reason": "HS 和声记忆库（记忆考量）在离散位空间收敛不足，种群多样性过早坍缩，未过严口径防假跑门。",
+      "metric": "收敛不足（未达随机基线）",
+      "date": "2026-09-28",
+      "status": "pulled"
+    },
+    {
+      "id": "qubo_sca",
+      "domain": "qubo",
+      "algo": "sca（正弦余弦）",
+      "level": "域级",
+      "reason": "SCA 在 QUBO 大范围负目标（伊辛负能 landscape）探索不足，伯努利二值化下正/负能量区间不对称，未过门。",
+      "metric": "负目标探索不足",
+      "date": "2026-09-28",
+      "status": "pulled"
+    },
+    {
+      "id": "qubo_mfo",
+      "domain": "qubo",
+      "algo": "mfo（蛾焰）",
+      "level": "域级",
+      "reason": "MFO 多焰递减机制在 QUBO 负能 landscape 上同样探索不足，与 sca/eo 同批撤下。",
+      "metric": "负目标探索不足",
+      "date": "2026-09-28",
+      "status": "pulled"
+    },
+    {
+      "id": "qubo_eo",
+      "domain": "qubo",
+      "algo": "eo（均衡优化）",
+      "level": "域级",
+      "reason": "EO 平衡池机制在 QUBO 大范围负目标下失效（同 sca/mfo 批），伯努利系 cem/cmaes 过门，eo 撤下。",
+      "metric": "负目标探索不足",
+      "date": "2026-09-28",
+      "status": "pulled"
+    },
+    {
+      "id": "cmp_mfo",
+      "domain": "kpvar（组合背包 cmp）",
+      "algo": "mfo（蛾焰）",
+      "level": "域级",
+      "reason": "MFO 多焰递减机制在组合背包域（change-making 等）不适配，未过防假跑门。",
+      "metric": "—",
+      "date": "2026-09-28",
+      "status": "pulled"
+    },
+    {
+      "id": "sat_mfo",
+      "domain": "sat",
+      "algo": "mfo（蛾焰）",
+      "level": "域级",
+      "reason": "MFO 在 SAT 布尔域（变量取值 0/1）失效，未过防假跑门。",
+      "metric": "—",
+      "date": "2026-09-28",
+      "status": "pulled"
+    },
+    {
+      "id": "gap_as_eo",
+      "domain": "gap（广义指派）",
+      "algo": "as_eo（指派层均衡优化）",
+      "level": "域级",
+      "reason": "EO 在 GAP 指派域 470 vs 427 未过门（域级撤下）；同层 as_sca 修正后回挂，as_eo 仍撤下留痕。",
+      "metric": "470 vs 427（被测内核 vs 随机基线最优）",
+      "date": "2026-09-28",
+      "status": "pulled"
+    }
+  ]
+}

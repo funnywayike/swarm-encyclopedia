@@ -1,0 +1,1 @@
+{"schema":"swarm-problem/v1","domain":"custom","variant":"bits","data":{"variant":"bits","n":12,"sense":"max","data":{"value":[25,14,30,46,8,9,57,39,11,28,42,8],"cost":[19,9,4,5,16,16,5,10,5,20,16,4],"budget":43},"objective":"gain = sum(value[i] * x[i] for i in range(n))\nspend = sum(cost[i] * x[i] for i in range(n))\nobjective = gain - 20 * max(0, spend - budget)"}}

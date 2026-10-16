@@ -1,0 +1,742 @@
+[
+  {
+    "id": "F1",
+    "dir": "f1-ea",
+    "name": "进化算法族 EA",
+    "short": "进化计算",
+    "oneliner": "种群 + 选择 + 重组/变异的 Darwin 机器——EC 正统主线，本站收录 GA、DE、BBO 与 EDA/ES 分支。",
+    "desc": [
+      "从 Holland（1975）染色体到 Schwefel 进化策略，再收敛为现代进化算法——EA 是整个领域的正统主线。DE 族是连续优化的最强单兵（L-SHADE 一度横扫 CEC 竞赛）；GA 在组合/排列域经 Memetic 化后仍是万金油。",
+      "CEM（交叉熵方法）在此按「模型基进化 / EDA 分支」归位：EDA 用概率模型替代显式重组算子，是 F1 与统计学习之间的桥。",
+      "BBO（Simon 2008）用生物地理学的迁入/迁出率建模解的迁移，Simon 本人把它归入进化类方法，故收在本家族；它同时是隐喻批评线（F9）的高频点名对象，页内保留批评视角。"
+    ],
+    "chains": [
+      {
+        "title": "DE 谱系（主线）",
+        "items": "DE (Storn &amp; Price 1997) → jDE (Brest 2006，参数自适应) → JADE (Zhang &amp; Sanderson 2009，自适应+外部存档) → SHADE (2013，成功历史记忆) → L-SHADE (2014，线性种群降维) → jSO (2017，平衡勘探开发)"
+      },
+      {
+        "title": "GA 演化",
+        "items": "Holland 1975 → SGA → 自适应 GA → Memetic 混合（见 F6）"
+      },
+      {
+        "title": "DE 家族 改进维度",
+        "items": "参数自适应（jDE/JADE）· 策略学习（SHADE 记忆）· 种群控制（L-SHADE/jSO）· 混合类（hGADE 型二连续分工）"
+      }
+    ],
+    "planned": [
+      {
+        "name": "ES 进化策略谱系",
+        "note": "CMA-ES 已升格为 F1 收录册页（见成员）；modCMA 324 变体空间其余待扩展"
+      },
+      {
+        "name": "GP 遗传编程",
+        "note": "Koza 1992（待建页）"
+      },
+      {
+        "name": "EDA 估计分布算法",
+        "note": "机制：用概率模型（贝叶斯网/高斯/直方图）估计优质解分布并抽样，取代交叉变异的盲目搜索（与 GA 同祖的 EA 分支）。"
+      },
+      {
+        "name": "Novelty Search 新颖性搜索",
+        "note": "机制：以行为空间新颖性（而非目标适应度）驱动探索，打破局部最优陷阱。"
+      },
+      {
+        "name": "SAEA 代理辅助进化",
+        "note": "机制：以代理模型（Kriging/神经网络）替代昂贵真实评估，引导进化搜索、省去大量黑箱评估。"
+      },
+      {
+        "name": "MOEA/D 分解多目标",
+        "note": "机制：将多目标 Pareto 前沿分解为一组标量子问题、邻域协同进化，超多目标时代第一主角。"
+      },
+      {
+        "name": "NSGA-III 参考点多目标",
+        "note": "机制：以参考点+关联维持高维（many-objective）Pareto 前沿分布，NSGA-II 的许多目标推广。"
+      },
+      {
+        "name": "NEAT 神经进化",
+        "note": "机制：协同演化神经网络拓扑+权值（增量拓扑遗传算法），从最小网络逐步复杂化。"
+      },
+      {
+        "name": "QEA 量子启发进化",
+        "note": "机制：量子比特概率幅编码解、以量子门式干涉更新种群，连续/组合通吃。"
+      }
+    ],
+    "name_en": "Evolutionary algorithms (EA)",
+    "summary_en": "Population-based search driven by selection, recombination and mutation — the orthodox line of evolutionary computation. The site covers the Genetic Algorithm, Differential Evolution (the strongest single family for continuous optimisation, with the L-SHADE lineage), Biogeography-Based Optimization, and the estimation-of-distribution and evolution-strategy branches through the Cross-Entropy Method and CMA-ES. Planned entries include genetic programming, novelty search, surrogate-assisted EAs, MOEA/D and NSGA-III."
+  },
+  {
+    "id": "F2",
+    "dir": "f2-si",
+    "name": "群智能族 SI",
+    "short": "群体智能",
+    "oneliner": "简单个体的局部交互涌现出群体智能——本站收录最密的家族。",
+    "desc": [
+      "从 PSO（1995，社会学习）与 ACO（1996，信息素正反馈）起步，到 2020 年代 Mirjalili 系的量产期（WOA/HHO/SSA/AO……），SI 是「新算法」论文的主产区。本站逐页如实标注每个成员的隐喻来源与机制实质；Mirjalili 系成员建议配合 <a href=\"/algo/f9-metaphor/\">F9 隐喻专区</a>的批评视角阅读。",
+      "ACO 与 PSO 各有一条清晰的 主线和一套 改进维度分类法（PSO 四类改进直接采用的分类），是收录分档的两个示范家族。",
+      "按「生物个体的集体行为」归位的还有 SMA（黏菌，2020，Mirjalili 团队：自适应权重三段更新的机制有信息量，但「黏菌」隐喻与公式的关系最受争议，页内保留批评视角）与 BFO（细菌觅食，Passino 2002：化学趋化 + 繁殖 + 迁移，多数分类把它算作群体智能）。"
+    ],
+    "chains": [
+      {
+        "title": "ACO 谱系（主线）",
+        "items": "Ant System (Dorigo 1996) → ASRank (Bullnheimer 1997) → MMAS (Stützle &amp; Hoos 2000) → ACS (Dorigo &amp; Gambardella 1997)"
+      },
+      {
+        "title": "PSO 四类改进",
+        "items": "参数改进 · 学习样本改进 · 多种群改进 · 混合改进分类法）"
+      }
+    ],
+    "planned": [
+      {
+        "name": "MO-PSO / MO-ACO",
+        "note": "多目标 SI 成员归 F7 建页，两家族互链"
+      }
+    ],
+    "name_en": "Swarm intelligence (SI)",
+    "summary_en": "Algorithms in which simple individuals interact locally and collective behaviour emerges: particle swarm, ant colony, bee colony, fireflies, whales, wolves, hawks and many more. This is the most densely covered family of the site (26 algorithms). Many members are metaphor-based variants that differ little in mechanism, so each page states the mechanism plainly and the criticism page puts the metaphors in perspective."
+  },
+  {
+    "id": "F3",
+    "dir": "f3-phys",
+    "name": "物理、化学与数学启发",
+    "short": "物理·化学·数学启发",
+    "oneliner": "退火、引力、均衡池、正弦余弦、零参数——把物理过程或数学公式当搜索算子，不靠生物隐喻。",
+    "desc": [
+      "SA（Kirkpatrick 1983）是家族里唯一有收敛性理论背书的成员（Metropolis-Hastings 采样链），实用度极高；GSA、EO、SCA 是隐喻比重递增的一串；Jaya（Rao 2016）是纯数学更新式——向最优靠拢、远离最差，不借任何隐喻，只有种群与代数两个参数。",
+      "社区批评指出「零参数 ≠ 零调优」（种群/迭代数仍存在，且没有内部系数兜底），Jaya 页已如实标注。教学隐喻的 TLBO 归 F4（人类与社会启发）。"
+    ],
+    "chains": [
+      {
+        "title": "SA 谱系（主线）",
+        "items": "Metropolis 1953 → SA (Kirkpatrick 1983) → 重加热/自适应温度表 → 并行 SA"
+      },
+      {
+        "title": "SA 家族 改进维度",
+        "items": "温度表设计 · 接受准则变体 · 重启策略 · 与局部搜索的混搭"
+      }
+    ],
+    "planned": [
+      {
+        "name": "WCA 水循环算法",
+        "note": "素材（待建页）"
+      },
+      {
+        "name": "CGO 等物理系新成员",
+        "note": "按收录分档先入 长尾表，有第三方检验证据再升档"
+      },
+      {
+        "name": "贝叶斯优化",
+        "note": "机制：以高斯过程等代理模型+采集函数（EI/UCB）替代随机采样，在昂贵黑箱上定向探索。"
+      }
+    ],
+    "name_en": "Physics, chemistry and mathematics inspired",
+    "summary_en": "Simulated annealing, gravitational search, the equilibrium optimizer, sine–cosine and the parameter-free Jaya: algorithms that use a physical process or a mathematical formula as the search operator rather than a biological metaphor."
+  },
+  {
+    "id": "F4",
+    "dir": "f4-human",
+    "name": "人类与社会启发",
+    "short": "人类与社会启发",
+    "oneliner": "教学、和声、帝国竞争——把人类的学习、艺术与政治行为当搜索隐喻。",
+    "desc": [
+      "TLBO（Rao 2011）把课堂建模为「教师阶段 + 学习者阶段」；HS 和声搜索（Geem 2001）是音乐即兴；ICA 帝国竞争（Atashpaz-Gargari &amp; Lucas 2007）是殖民扩张与竞争。三者隐喻来源不同、同属「人的行为」，机制是否真有信息量需逐页审视，各页均保留批评视角。",
+      "禁忌搜索、ILS、VNS、GRASP 等局部搜索框架曾被笼统叫作「人类启发」，现已独立为 <a href=\"/algo/f10-trajectory/\">F10 局部搜索与轨迹法</a>。"
+    ],
+    "chains": [
+      {
+        "title": "人类行为隐喻（对照位）",
+        "items": "TLBO (Rao 2011，教学) · HS (Geem 2001，音乐即兴) · ICA (Atashpaz-Gargari &amp; Lucas 2007，帝国竞争)——三种「人」的隐喻，机制各自独立"
+      }
+    ],
+    "planned": [
+      {
+        "name": "Cultural Algorithm 文化算法",
+        "note": "机制：信念空间+种群双层演化，文化知识上下传递加速收敛。"
+      }
+    ],
+    "name_en": "Human and social inspired",
+    "summary_en": "Teaching–learning-based optimisation, harmony search and the imperialist competitive algorithm: algorithms that take human learning, music and politics as their metaphor."
+  },
+  {
+    "id": "F5",
+    "dir": "f5-bio",
+    "name": "免疫与其他生物",
+    "short": "免疫与其他生物",
+    "oneliner": "免疫系统——SI/EA 之外的生物启发收容位。",
+    "desc": [
+      "AIS/CLONALG 把克隆选择原理变成搜索算子（亲和度=适应度，变异率反比于亲和度）。BBO（生物地理）已按作者自己的归类收入 F1，BFO（细菌觅食）收入 F2——本家族现在只有免疫系统这一支，等待其他生物系统启发的算法入册。",
+      "家族共性：机制多为既有算子的重新包装，第三方独立检验的区分度有限——收录时按「机制有信息量」标准如实评估，不按隐喻新颖度打分。"
+    ],
+    "chains": [
+      {
+        "title": "免疫谱系（主线）",
+        "items": "CLONALG (de Castro &amp; Von Zuben 2002) → opt-aiNET → CSCA"
+      },
+      {
+        "title": "AIS 家族 改进维度",
+        "items": "克隆率设计 · 超变异算子 · 受体编辑 · 种群动态"
+      }
+    ],
+    "planned": [
+      {
+        "name": "aiNET 族",
+        "note": "待收录"
+      }
+    ],
+    "name_en": "Immune and other biological",
+    "summary_en": "The clonal-selection algorithm of artificial immune systems — a home for bio-inspired methods that are neither swarm intelligence nor evolutionary algorithms."
+  },
+  {
+    "id": "F10",
+    "dir": "f10-trajectory",
+    "name": "局部搜索与轨迹法",
+    "short": "局部搜索与轨迹法",
+    "oneliner": "不靠种群隐喻，靠「邻域结构 + 接受准则」的工程学——禁忌、变邻域、迭代局部搜索、GRASP。",
+    "desc": [
+      "TS/VNS/ILS/GRASP 本质是<strong>局部搜索框架</strong>：同一时刻只沿一条搜索轨迹走（而不是维护一个种群），不发明新隐喻，靠「邻域结构 + 接受准则」的工程学，实战中最经得起打。GRASP 的构造+局部搜索两段式是工业约束优化的常用起点。",
+      "它们曾被笼统归在「人类启发」下（禁忌表像记忆、邻域切换像换思路），现按机制独立成族；Lin–Kernighan 是同一思路的 TSP 专用顶配，作为对照收在 <a href=\"/algo/f0-elite/\">F0 专用求解对照系</a>。"
+    ],
+    "chains": [
+      {
+        "title": "局部搜索框架谱系（主线）",
+        "items": "TS (Glover 1986) → VNS (Mladenović &amp; Hansen 1997) → GRASP (Feo &amp; Resende 1995，并行线) → ILS (Lourenço 2003 系统化)"
+      }
+    ],
+    "planned": [
+      {
+        "name": "ALNS 自适应大邻域",
+        "note": "destroy-repair 大邻域扰动框架 + 算子权重按历史成绩自适应更新——VRP 带时间窗取送问题的标杆；证据等级在元启发式中罕见地高：Turkeš et al. 2021（EJOR）对 134 项 ALNS 研究做医学式随机效应元分析（63 项合格、25 个实现合成）；混合线 ALNS+MIP 是 matheuristic 代表组合；供应链 LRP 谱系的大规模主力。"
+      }
+    ],
+    "name_en": "Local search and trajectory methods",
+    "summary_en": "Methods without a population metaphor, built from a neighbourhood structure and an acceptance rule: tabu search, variable neighbourhood search, iterated local search and GRASP. They are engineering frameworks whose gain comes from good neighbourhoods and perturbation schedules."
+  },
+  {
+    "id": "F6",
+    "dir": "f6-hybrid",
+    "name": "混合与框架层",
+    "short": "混合与框架",
+    "oneliner": "元启发式 × 数学规划 × 代理模型 × 自动配置——不发明新隐喻，只做组装厂，实战价值密度最高的家族。",
+    "desc": [
+      "Memetic 把局部搜索塞进 GA；Matheuristic 让 MIP 求解器与元启发式分田合作；SAEA（代理辅助进化）是昂贵黑箱优化的主战场（信赖域代理 TSASM-TRGA、Ayvaz 病态反问题等战例；超启发式把「选哪个算子」本身变成搜索问题。",
+      "算法选择 + ELA 地形分析是本家族的自动化端：ParamILS/irace/SMAC 自动整定已是标配——经典战果 SPEAR SAT 求解器平均运行时 787.1s → 1.5s（ParamILS）。"
+    ],
+    "chains": [
+      {
+        "title": "框架谱系（主线）",
+        "items": "Memetic (Moscato 1989) → Matheuristic → SAEA → 超启发式 → 算法选择/自动配置（ParamILS / irace / SMAC）"
+      }
+    ],
+    "planned": [
+      {
+        "name": "Memetic",
+        "note": "GA 主循环内嵌局部搜索（Moscato 1989 命名，文化基因）——进化管全局、局部搜索管深耕；本站 TSP 页的 2-opt 打磨即其最小实现。",
+        "tier": "A",
+        "url": "/algo/f6-hybrid/memetic/"
+      },
+      {
+        "name": "Matheuristic",
+        "note": "MIP 求解器 × 元启发式双向信息流：精确法给下界/证书、元启发式给上界。经典综述 Boschetti &amp; Maniezzo 2024（方法树 VLSN/CMSA/Kernel Search）；独门优势 = 同时给出原始界与对偶界。已可在线跑（配方实现）：fix-and-optimize——or-opt 破坏 + Held-Karp DP 精确重排窗口。",
+        "tier": "A",
+        "url": "/algo/f6-hybrid/matheur/"
+      },
+      {
+        "name": "SAEA",
+        "note": "代理模型辅助进化：Kriging/RBF/随机森林替代真实评估，预算 ≤ 数百次评估的昂贵黑箱主战场。2024-26 前沿 = 高维昂贵多目标（逆代理/多保真度）。已可在线跑（配方教学演示）：RBF 近邻代理预筛 + 每代精确评估预算限制——TSP 评估本便宜，预算约束为机制演示，页面如实标注。",
+        "tier": "A",
+        "url": "/algo/f6-hybrid/saea/"
+      },
+      {
+        "name": "超启发式",
+        "note": "「选哪个算子」本身变成搜索问题：选择式 vs 生成式（Burke 2003 正统分类）→ HyFlex/CHeSC 跨域竞赛（2011）→ LLM 生成式新世代（FunSearch/EoH）。已可在线跑（配方实现）：选择式超启发式——信用轮盘在逆转/交换/Or-opt 低层启发式间选择（Cowling 2001 传统）。",
+        "tier": "A",
+        "url": "/algo/f6-hybrid/hh/"
+      },
+      {
+        "name": "算法选择 + ELA",
+        "note": "实例特征（ELA 地形分析）→ 按实例选算法/自动配置：ParamILS / irace / SMAC / BOHB；经典战果 SPEAR SAT 求解器 787.1s → 1.5s。本轮未升格：逐实例选择需 portfolio/meta-mode（多配方并行 + 竞赛淘汰），列入下一轮（与 F7 多目标引擎同批）。",
+        "tier": "A"
+      }
+    ],
+    "name_en": "Hybrids and frameworks",
+    "summary_en": "Metaheuristics combined with mathematical programming, surrogate models and automatic configuration — no new metaphors, just assembly. Recipes on this site (memetic GA, steady-state GA, ILS, fix-and-optimize, MAP-Elites, a selection hyper-heuristic) are built from a seven-slot component pipeline and run in the demo like any other algorithm."
+  },
+  {
+    "id": "F7",
+    "dir": "f7-mo",
+    "name": "多目标专族",
+    "short": "多目标",
+    "oneliner": "Pareto 支配下的进化计算——NSGA 五代演进与分解式方法的双雄会。",
+    "desc": [
+      "NSGA → NSGA-II（Deb 2002，快速非支配排序+拥挤度）→ NSGA-III（Deb &amp; Jain 2014，参考点）是 EC 里最完整的五代演进线——本站多目标演示页已在用 NSGA-II 做双目标背包。MOEA/D（Zhang &amp; Li 2007）用参考向量把多目标分解成标量子问题，与支配式并列两大流派。",
+      "SPEA2 强度指标、MOPSO 粒子群多目标化、CMOEA 约束多目标（i-NSGA-II 胜 MOPSO 三指标的战例姊妹域）待逐页收录。"
+    ],
+    "chains": [
+      {
+        "title": "NSGA 演进（主线）",
+        "items": "NSGA (Srinivas &amp; Deb 1994) → NSGA-II (Deb 2002) → NSGA-III (Deb &amp; Jain 2014)"
+      },
+      {
+        "title": "分解流派",
+        "items": "MOEA/D (Zhang &amp; Li 2007) → 参考向量 / 权重自适应变体"
+      }
+    ],
+    "planned": [
+      {
+        "name": "SPEA2",
+        "note": "强度 Pareto 进化：适应度 = 支配它的个体数聚合 + 截断算子保分布（Zitzler 2001, IEEE TEC）——与 NSGA-II 同代双雄，五代演进链见 GA 谱系。升格待 MO 引擎 mode（标量管线表达不了强度适应度，列入下一轮）。",
+        "tier": "A"
+      },
+      {
+        "name": "MOPSO",
+        "note": "PSO 多目标化：外部存档 + Pareto 支配筛选（Coello 2004）。本站 HRES 战例：i-NSGA-II 对 MOPSO 三指标全胜——PSO 跨目标域不自动继承优势的实例。升格待 MO 引擎 mode（粒子群连续域改造 + Pareto 外部存档均需多目标管线，列入下一轮）。",
+        "tier": "A"
+      },
+      {
+        "name": "CMOEA",
+        "note": "约束多目标六分类（基于支配/指标/分解 × 约束处理机制，梁静 2024 综述）；LNCS 2026 实锤：25 个新算法在真实约束问题上常败给 GDE3/NSGA-II——约束结构比维度更重要。升格待 MO 引擎 mode（约束处理机制挂在多目标管线后实现，列入下一轮）。",
+        "tier": "A"
+      }
+    ],
+    "nav_extra": [
+      {
+        "name": "NSGA-II（Deb 2002）",
+        "href": "/problem/multiobj/?algo=nsga2#demo",
+        "tag": "域内实现"
+      },
+      {
+        "name": "加权 GA（WSGA）",
+        "href": "/problem/multiobj/?algo=wsga#demo",
+        "tag": "域内实现"
+      }
+    ],
+    "name_en": "Multi-objective family",
+    "summary_en": "Evolutionary computation under Pareto dominance: five generations of NSGA, decomposition-based methods (MOEA/D), indicator-based methods (IBEA) and preference-based methods (R-NSGA-II). On this site these run in the multi-objective problem domains rather than on TSP."
+  },
+  {
+    "id": "F8",
+    "dir": "f8-new",
+    "name": "新范式（2020s）",
+    "short": "新范式",
+    "oneliner": "Quality-Diversity、神经组合优化、LLM 自动算法设计——元启发式的新大陆。",
+    "desc": [
+      "QD（MAP-Elites 系）不再只要一个最优解，而是要「每个行为格子的最优解」——但组合优化域应用仅占 QD 语料 12.5%，是明确洼地；NCO 神经组合优化四代演进：指针网络 → 注意力 → POMO → 混合 NCO+局部搜索；LLM 自动算法设计（FunSearch/EoH）正在改写「谁在发明算法」。",
+      "本站的问题域页面未来可加「多样性档案」视角——不止给最优解，给每个行为格子的代表解，这是学界尚未普及的呈现方式。"
+    ],
+    "chains": [
+      {
+        "title": "NCO 四代演进（主线）",
+        "items": "Ptr-Net (Vinyals 2015) → AM (Kool 2019，attention) → POMO (Kwon 2020) → 混合 NCO+LS (2022+)"
+      },
+      {
+        "title": "QD 谱系（主线）",
+        "items": "MAP-Elites (Mouret &amp; Clune 2015) → CVT-MAP-Elites → 梯度辅助 QD"
+      }
+    ],
+    "planned": [
+      {
+        "name": "MAP-Elites",
+        "note": "Quality-Diversity 代表（Mouret &amp; Clune 2015）：按行为描述子分格、每格只留精英——不求单点最优，求「高质量且多样」的解集；机器人形态发现出圈。已可在线跑（配方实现）：行为描述子 = 边长均值 × 最长边分格档案，双桥扰动 + 2-opt 回灌。",
+        "tier": "A",
+        "url": "/algo/f8-new/mapelites/"
+      },
+      {
+        "name": "POMO",
+        "note": "神经组合优化三代代表（Kwon et al. 2020, NeurIPS）：多起点对称性利用改造 REINFORCE 训练；TSP/背包等组合问题的端到端构造线。浏览器零依赖环境不可诚实运行（需端到端神经权重），保持词条。",
+        "tier": "A"
+      },
+      {
+        "name": "FunSearch",
+        "note": "DeepMind（Nature 2024）：LLM 生成程序 + 评估器筛选的进化式程序搜索，在 cap set 等开放数学问题上发现新构造——「进化管搜索、LLM 管变异」范式首秀。需 LLM 做变异算子，浏览器环境不可诚实运行，保持词条。",
+        "tier": "A"
+      },
+      {
+        "name": "EoH",
+        "note": "Evolution of Heuristics（2024）：prompt 进化 + 反思机制自动生成启发式代码，LLM 超启发式代表作（同线：ReEvo/HeurAgenix/AlphaEvolve，NeurIPS 2025 已成建制）。需 LLM 生成启发式代码，浏览器环境不可诚实运行，保持词条。",
+        "tier": "A"
+      }
+    ],
+    "name_en": "New paradigms (2020s)",
+    "summary_en": "Quality-diversity, neural combinatorial optimisation and LLM-driven algorithm design: the new frontier of metaheuristics. Items that cannot honestly run in the browser are listed as entries only."
+  },
+  {
+    "id": "F9",
+    "dir": "f9-metaphor",
+    "name": "隐喻量产线（批评视角专区）",
+    "short": "隐喻批评",
+    "oneliner": "一隐喻一算法的量产线——本站如实收录机制，同时强制挂批评视角，这是全网同类站都没有的诚实。",
+    "desc": [
+      "2000 年代起「新动物/新现象 = 新算法」的论文量产线成了 EC 的系统性问题。批评史五十年：隐喻通胀 → 基准批判三重奏（「别再跟 DE/PSO 的新手设置比」「补一组新基准再说」「统计检验做全」）→ 撤稿线；复现性危机已进入实证阶段——GECCO ECOM 轨道 168 篇论文十年复现性审计 + RECAP 自动评估管线 + MRQI 报告质量指数完整梳理）。",
+      "本站不回避：F2/F3 的 Mirjalili 系成员页内均保留批评视角；此处专收以隐喻为第一卖点的算法词条（HO/PO/CPO 等），每条强制交叉链接批评文献，按 长尾收编、永不展开成完整页。"
+    ],
+    "chains": [
+      {
+        "title": "批评线（主线）",
+        "items": "隐喻通胀 → 基准批判三重奏 → Weyland 批判 → 撤稿线 → 复现性实证（GECCO 168 篇十年审计 + RECAP）→ MRQI 报告质量指数"
+      }
+    ],
+    "planned": [
+      {
+        "name": "HO / PO / CPO 词条",
+        "note": "2024 双引用冠军：HO 河马（833 引，Sci Rep，Mirjalili 背书效应；期中考 IEEE Access 2026——最强改进版 FHO 排第 3，仍不敌 LSHADE(2005)/CMA-ES(1996)）与 CPO 冠豪猪（Abdel-Basset，KBS 2024，426 引；四种防御 + CPR 循环种群缩减为真创新点，开源 Porcupy 已落地）。机制侧：三者位置更新均为精英引导 + 随机探索的算子重组，未跳出 PSO/GA 混合范式的换皮区（CPO 的 CPR 种群缩减除外）。批评见隐喻批评专区。",
+        "tier": "A"
+      },
+      {
+        "name": "WOA 59+57 变体现场",
+        "note": "PRISMA 系统综述（Nadimi-Shahraki 2023）：59 个改进 + 57 个混合变体；多数论文只与「别的算法」比、不与已有 WOA 变体比——单一算法家族膨胀的定量标本。机制侧：WOA 螺旋位置更新属精英引导算子重组（与 PSO 同构的隐喻换皮高发区），变体论文的「改进」多为参数/拓扑微调而非机制创新。；§2.1–§2.5 隐喻批评；§9.4。",
+        "tier": "A"
+      },
+      {
+        "name": "SHO 斑鬣狗优化",
+        "note": "以鬣狗『围猎分食』为隐喻的领导者-跟随者位置更新，机制等价于带全局领导者的 PSO；无独立于 PSO/DE 的机制创新。批评见隐喻批评专区；Sörensen 2015 (ITOR 22(1):3–18)。",
+        "tier": "C"
+      },
+      {
+        "name": "EHO 象群优化",
+        "note": "族群分离 + 领袖更替的群体位置更新，等价于带族群分裂的 PSO；『大象』纯为包装。批评见隐喻批评专区。；Sörensen 2015。",
+        "tier": "C"
+      },
+      {
+        "name": "GOA 蚱蜢优化",
+        "note": "以蚱蜢『引力-排斥』社会行为为距离衰减函数，等价于带特定参数化的 PSO 邻域；非线性项可由标准 PSO 参数覆盖。批评见隐喻批评专区。",
+        "tier": "C"
+      },
+      {
+        "name": "SFO 旗鱼优化",
+        "note": "以旗鱼『攻击者-驱赶者』双角色更新，等价于混合 PSO + 局部搜索；无新算子。批评见隐喻批评专区。",
+        "tier": "C"
+      },
+      {
+        "name": "AOA 算术优化",
+        "note": "以四则运算为探索/开发的『数学捕食』框架，实质是带符号随机扰动的 PSO 变体；『算术』为隐喻外衣。批评见隐喻批评专区。",
+        "tier": "C"
+      },
+      {
+        "name": "POA 鹈鹕优化",
+        "note": "以鹈鹕『俯冲-翼展包围』为两类位置更新，等价于 PSO 全局/局部吸引混合；无机制独立性（B 闸门 fail）。批评见隐喻批评专区。",
+        "tier": "C"
+      },
+      {
+        "name": "GJO 金豺优化",
+        "note": "以金豺『雄雌协同-猎食』为领导-跟随双角色更新，等价于带两领导者的 PSO；B 闸门 fail。批评见隐喻批评专区。",
+        "tier": "C"
+      },
+      {
+        "name": "HBA 蜜獾算法",
+        "note": "以蜜獾『嗅觉定位-蜂蜜向导』为局部/全局切换的随机游走，等价于自适应步长差分/PSO；无独立机制。批评见隐喻批评专区。",
+        "tier": "C"
+      },
+      {
+        "name": "AVOA 非洲秃鹫优化",
+        "note": "以秃鹫『旋转飞行-围攻』为两种觅食策略，等价于 PSO 惯性+吸引混合 + 局部搜索；B 闸门 fail。批评见隐喻批评专区。",
+        "tier": "C"
+      },
+      {
+        "name": "MVO 多元宇宙优化",
+        "note": "以黑洞/白洞/虫洞为『物体向最优宇宙迁移』的轮盘赌 + 虫洞隧道，等价于带精英选择的变异 PSO；『宇宙』为隐喻。批评见隐喻批评专区。",
+        "tier": "C"
+      },
+      {
+        "name": "WCA 水循环算法",
+        "note": "以雨滴-河流-海洋为种群分级（溪/河/海）的流向最优解更新，等价于带层级精英迁移的 PSO/DE；B 闸门 fail。批评见隐喻批评专区。",
+        "tier": "C"
+      },
+      {
+        "name": "CSS 带电系统搜索",
+        "note": "以带电粒子库仑力排斥 + 电场吸引为位置更新，等价于带电荷势场的 PSO；『电学』为包装。批评见隐喻批评专区。",
+        "tier": "C"
+      },
+      {
+        "name": "MRFO 蝠鲼觅食优化",
+        "note": "以蝠鲼链式觅食/螺旋/游走三机制为位置更新，等价于 PSO 螺旋变体（螺旋向当前最优靠拢 + 随机游走勘探）；无独立于 PSO 的机制创新。批评见隐喻批评专区；Sörensen 2015 (ITOR 22(1):3–18)。（出处待补）",
+        "tier": "C"
+      },
+      {
+        "name": "SLnO 海狮优化算法",
+        "note": "以海狮搜寻/围捕/捕食三阶段为位置更新，等价于 GWO 式领导者跟随（向最优个体靠拢 + 随机权重）；无新算子。批评见隐喻批评专区；Sörensen 2015。",
+        "tier": "C"
+      },
+      {
+        "name": "TSA 被囊群优化算法",
+        "note": "以被囊 jet 推进/社会力/避碰为位置更新，等价于带约束的群中心偏置（向最优靠拢 + 避碰扰动）；『被囊』为包装。（注：缩写 TSA 与树种子算法 TSA-tree 撞车，二者不同算法，本词条指被囊群 Tunicate Swarm。）批评见隐喻批评专区；Sörensen 2015。",
+        "tier": "C"
+      },
+      {
+        "name": "COA 土狼优化算法",
+        "note": "以土狼文化代+社会组为群体重组，等价于分布估计式（EDA）的均值-协方差采样 + 社会组精英选择；无机制独立性（B 闸门 fail）。批评见隐喻批评专区；Sörensen 2015。",
+        "tier": "C"
+      },
+      {
+        "name": "EPO 帝企鹅优化算法",
+        "note": "以帝企鹅热聚拢/分散为温度调度的群体聚集，等价于带温度参数的 PSO 收缩因子；『热聚拢』= 向群心靠拢。批评见隐喻批评专区；Sörensen 2015。",
+        "tier": "C"
+      },
+      {
+        "name": "STOA 乌燕鸥优化算法",
+        "note": "以乌燕鸥迁徙/攻击螺旋为位置更新，等价于螺旋 PSO 变体（螺旋收敛 + 精英引导）；无新机制。批评见隐喻批评专区；Sörensen 2015。",
+        "tier": "C"
+      },
+      {
+        "name": "BES 秃鹰搜索算法",
+        "note": "以秃鹰选择/搜索/俯冲三阶段为探索-开发切换的群体搜索，等价于 PSO 的惯性+吸引 + 局部搜索切换；『秃鹰』为包装。批评见隐喻批评专区；Sörensen 2015。",
+        "tier": "C"
+      },
+      {
+        "name": "SSA 麻雀搜索算法",
+        "note": "以麻雀发现者/加入者/警戒者三角色为位置更新，等价于多角色 PSO 变体（发现者=全局探索、加入者=局部开发、警戒者=随机逃逸）；机制可装配。批评见隐喻批评专区；Sörensen 2015。",
+        "tier": "C"
+      },
+      {
+        "name": "HGSO 亨利气体溶解度优化",
+        "note": "以气体分子碰撞/扩散为物理启发的位置扰动，等价于带物理势场的 PSO 随机扰动；『亨利定律』为隐喻外衣。批评见隐喻批评专区；Sörensen 2015。",
+        "tier": "C"
+      },
+      {
+        "name": "ASO 原子搜索优化",
+        "note": "以分子键长/斥力为受力驱动的位置更新，等价于受势场力（类 GSA）的局部-全局搜索；『原子』为包装。批评见隐喻批评专区；Sörensen 2015。",
+        "tier": "C"
+      },
+      {
+        "name": "WSO 白鲨优化算法",
+        "note": "以白鲨嗅觉/视觉/移动为带感知半径的 GWO 变体（近最优个体加速、远则探索），等价于带感知半径的领导跟随；无独立机制。批评见隐喻批评专区；Sörensen 2015。",
+        "tier": "C"
+      },
+      {
+        "name": "BWO 黑寡妇优化算法",
+        "note": "以黑寡妇繁殖/同类相食/突变为遗传式重组+选择（交配+精英保留+突变），等价于 GA 的重组-选择主循环；『相食』= 淘汰。批评见隐喻批评专区；Sörensen 2015。",
+        "tier": "C"
+      },
+      {
+        "name": "RDA 红鹿算法",
+        "note": "以红鹿求偶/繁殖/迁徙为多阶段群体重组（交配+迁移+精英），等价于 GA 多阶段重组的换皮；机制不独立。批评见隐喻批评专区；Sörensen 2015。",
+        "tier": "C"
+      },
+      {
+        "name": "RSO 大鼠群优化算法",
+        "note": "以大鼠追随最优+随机权重为位置更新，等价于 PSO 极简变体（仅保留 gbest 吸引项 + 随机权重）；无新算子。批评见隐喻批评专区；Sörensen 2015。",
+        "tier": "C"
+      },
+      {
+        "name": "DOA 野犬优化算法",
+        "note": "以野犬狩猎/俯冲/群体攻击为 GWO 式包围（向 α/β/δ 个体靠拢），等价于多领导者 PSO；无机制创新。批评见隐喻批评专区；Sörensen 2015。",
+        "tier": "C"
+      },
+      {
+        "name": "ChOA 黑猩猩优化算法",
+        "note": "以黑猩猩攻击者/驱赶者/屏障/猎手四角色为位置更新，等价于多领导者 GWO（四角色=四个精英吸引源）；『角色』= 不同精英权重。批评见隐喻批评专区；Sörensen 2015。",
+        "tier": "C"
+      },
+      {
+        "name": "GOA 羚羊优化算法",
+        "note": "以羚羊追击/逃避为双群体对抗式搜索（捕食者-猎物双方更新），等价于双种群博弈式 PSO/DE；注：本词条指羚羊 Gazelle(GOA-g)，与已收『蚱蜢优化 GOA』缩写撞车但算法不同，勿混。批评见隐喻批评专区；Sörensen 2015。",
+        "tier": "C"
+      },
+      {
+        "name": "猎豹优化算法",
+        "note": "以猎豹视觉锁定/加速为精英引导的梯度式搜索（向最优加速 + 随机扰动），等价于带精英引导的局部搜索；无独立机制。批评见隐喻批评专区；Sörensen 2015。（出处待补）",
+        "tier": "C"
+      },
+      {
+        "name": "SOA 海鸥优化算法",
+        "note": "以海鸥迁徙/攻击螺旋为位置更新，等价于螺旋 PSO 变体（螺旋收敛 + 精英引导）；『海鸥』为包装。批评见隐喻批评专区；Sörensen 2015。",
+        "tier": "C"
+      },
+      {
+        "name": "BMO 藤壶交配优化算法",
+        "note": "以藤壶交配/进化为带交叉的群体搜索（交配算子=交叉重组 + 进化=变异选择），等价于 GA 的交叉-变异；原论文『阴茎长度』参数被综述点名批评。批评见隐喻批评专区；Sörensen 2015。",
+        "tier": "C"
+      },
+      {
+        "name": "EWA 蚯蚓优化算法",
+        "note": "以蚯蚓繁殖/变异/扩散为遗传式群体搜索（变异扩散 + 重组），等价于 GA 的变异-重组主循环；『蚯蚓』为包装。批评见隐喻批评专区；Sörensen 2015。",
+        "tier": "C"
+      },
+      {
+        "name": "GTO 大猩猩部队优化算法",
+        "note": "以银背带领/竞争/迁移为领导者 PSO 变体（银背=gbest + 竞争=局部吸引），等价于带领导者的 PSO；无新算子。批评见隐喻批评专区；Sörensen 2015。",
+        "tier": "C"
+      },
+      {
+        "name": "鱼鹰优化算法",
+        "note": "以鱼鹰识别/俯冲捕获为精英引导的局部搜索（向猎物俯冲 + 随机游弋），等价于带精英吸引的局部搜索；无机制创新。批评见隐喻批评专区；Sörensen 2015。（出处待补）",
+        "tier": "C"
+      },
+      {
+        "name": "CSO 猫群优化算法",
+        "note": "以猫搜寻/追踪双模式为位置更新，等价于模式切换的 PSO（搜寻=全局随机、追踪=向最优靠拢）；双模式=探索/开发切换。批评见隐喻批评专区；Sörensen 2015。",
+        "tier": "C"
+      },
+      {
+        "name": "蟑螂群优化算法",
+        "note": "以蟑螂聚群/求偶/捕食为社会力群体搜索（聚群+最优吸引），等价于带社会力的 PSO；『蟑螂』为包装。批评见隐喻批评专区；Sörensen 2015。（出处待补）",
+        "tier": "C"
+      },
+      {
+        "name": "IWO 入侵杂草优化算法",
+        "note": "以杂草繁殖/空间扩散/竞争为繁殖式群体搜索（最优邻域繁殖 + 扩散变异 + 竞争淘汰），等价于繁殖-竞争式进化；较早期的换皮争议案例。批评见隐喻批评专区；Sörensen 2015。",
+        "tier": "C"
+      },
+      {
+        "name": "CSA 乌鸦搜索算法",
+        "note": "以乌鸦藏食/偷窥为带记忆的群体扰动（记忆最优藏食点 + 偷窥扰动），等价于带外部存档的 PSO/DE；注意与 cuckoo search（布谷鸟搜索）区分。批评见隐喻批评专区；Sörensen 2015。",
+        "tier": "C"
+      },
+      {
+        "name": "MBA 地雷爆炸算法",
+        "note": "以地雷爆炸/衰减为爆炸式扰动搜索（爆炸中心=最优、衰减=步长收缩），等价于爆炸/脉冲式局部搜索 + 随机扰动；『地雷』为包装。批评见隐喻批评专区；Sörensen 2015。",
+        "tier": "C"
+      },
+      {
+        "name": "GbSA 银河搜索算法",
+        "note": "以星体旋转/位移为旋转扰动搜索（向星系中心旋转收敛），等价于旋转/球面扰动式 PSO；『银河』为隐喻。批评见隐喻批评专区；Sörensen 2015。",
+        "tier": "C"
+      },
+      {
+        "name": "VCS 病毒群搜索算法",
+        "note": "以病毒宿主感染/免疫/变异为寄生式群体搜索（感染=向宿主靠拢、变异=扰动），等价于带变异的群体搜索；『病毒』为包装。批评见隐喻批评专区；Sörensen 2015。",
+        "tier": "C"
+      },
+      {
+        "name": "LCA 联赛冠军算法",
+        "note": "以球队赛季积分/排名更新为基于锦标赛选择的群体优化（排名=适应度、赛季=迭代），等价于锦标赛选择 GA 的换皮；无机制独立性。批评见隐喻批评专区；Sörensen 2015。",
+        "tier": "C"
+      },
+      {
+        "name": "CAB 群体动物行为优化",
+        "note": "以动物分离/对齐/聚合+个体为 Boids 式群体搜索（三规则=社会力三分量），等价于 Reynolds Boids 的进化优化化；『群体行为』= 标准社会力。批评见隐喻批评专区；Sörensen 2015。",
+        "tier": "C"
+      },
+      {
+        "name": "IWD 智能水滴算法",
+        "note": "以水滴携带土壤/速度更新为蚁群式信息素变体（土壤量=信息素、河道=路径），等价于 ACO 信息素正反馈的连续化；『水滴』为包装。批评见隐喻批评专区；Sörensen 2015。",
+        "tier": "C"
+      },
+      {
+        "name": "TSA 树种子算法",
+        "note": "以树/种子位置更新为植物启发的群体扰动（树=精英、种子=邻域采样），等价于带精英引导的随机扰动；注：本词条指树种子 Tree Seed(TSA-tree)，与已收『被囊群 TSA』缩写撞车但算法不同，勿混。批评见隐喻批评专区；Sörensen 2015。",
+        "tier": "C"
+      },
+      {
+        "name": "FOA 森林优化算法",
+        "note": "以树木繁殖/光照/枯死为生态式群体搜索（繁殖=变异扩散、枯死=淘汰），等价于生态隐喻的 GA 变体；『森林』为包装。批评见隐喻批评专区；Sörensen 2015。",
+        "tier": "C"
+      },
+      {
+        "name": "CGO 混沌博弈优化算法",
+        "note": "以混沌映射/博弈为混沌扰动的群体搜索（混沌序列替代伪随机），等价于伪随机→混沌映射的 PSO 换皮；『博弈』为包装。批评见隐喻批评专区；Sörensen 2015。",
+        "tier": "C"
+      },
+      {
+        "name": "河豚优化算法",
+        "note": "以河豚警戒/聚集为双机制群体扰动（警戒=逃逸、聚集=靠拢），等价于双模式 PSO 变体；无独立机制。批评见隐喻批评专区；Sörensen 2015。（出处待补）",
+        "tier": "C"
+      },
+      {
+        "name": "虎鲸捕食优化算法",
+        "note": "以虎鲸围捕/冲浪为协作式群体搜索（围捕=精英包围、冲浪=随机勘探），等价于协作式 PSO/GWO；无新算子。批评见隐喻批评专区；Sörensen 2015。（出处待补）",
+        "tier": "C"
+      },
+      {
+        "name": "SCSO 沙猫群优化算法",
+        "note": "以沙猫听觉搜索/漫游为带感知半径的群体搜索（感知半径内靠拢最优、外则漫游），等价于带感知半径的 PSO/GWO 变体；无机制独立性。批评见隐喻批评专区；Sörensen 2015。",
+        "tier": "C"
+      },
+      {
+        "name": "ABO 非洲水牛优化算法",
+        "note": "以非洲水牛牛群/牛郎为社力群体搜索（牛群向最优聚集、牛郎=随机扰动），等价于社会力 PSO 变体；『水牛』为包装。批评见隐喻批评专区；Sörensen 2015。",
+        "tier": "C"
+      },
+      {
+        "name": "喜鹊优化算法",
+        "note": "以喜鹊偷藏/竞争为记忆式群体扰动（藏食记忆=外部存档、竞争=精英选择），等价于带存档的 PSO/DE；无新机制。批评见隐喻批评专区；Sörensen 2015。（出处待补）",
+        "tier": "C"
+      },
+      {
+        "name": "CFO 中心力优化算法",
+        "note": "以向最优引力中心运动为中心力引导搜索（牛顿引力=向最优吸引），等价于引力/中心偏置式 PSO；『中心力』= 标准吸引项。批评见隐喻批评专区；Sörensen 2015。",
+        "tier": "C"
+      },
+      {
+        "name": "BH 黑洞算法",
+        "note": "以恒星被吸入黑洞为引力塌陷式选择（近黑洞=精英吸引、吸积=淘汰），等价于引力选择 + 精英保留；Piotrowski et al. 2014 已点名无实质创新。批评见隐喻批评专区；Sörensen 2015。",
+        "tier": "C"
+      },
+      {
+        "name": "VS 涡旋搜索算法",
+        "note": "以涡旋半径收缩为自适应半径局部搜索（半径随迭代收缩=步长衰减），等价于自适应步长的局部搜索；无机制独立性。批评见隐喻批评专区；Sörensen 2015。",
+        "tier": "C"
+      },
+      {
+        "name": "EFO 电磁场优化算法",
+        "note": "以电磁力吸引/排斥为受力引导搜索（荷电个体间库仑力=势场扰动），等价于带电荷势场的 PSO（同 CSS 思路）；『电磁』为包装。批评见隐喻批评专区；Sörensen 2015。",
+        "tier": "C"
+      },
+      {
+        "name": "TEO 热交换优化算法",
+        "note": "以热导体/绝缘体交换为温度驱动的选择（热平衡=向最优靠拢、绝缘=停滞扰动），等价于温度/能量调度的群体搜索；无新算子。批评见隐喻批评专区；Sörensen 2015。",
+        "tier": "C"
+      },
+      {
+        "name": "NRO 核反应优化算法",
+        "note": "以核反应链（裂变/聚变/衰变）为链式扰动搜索（反应=突变扩散、衰变=淘汰），等价于链式变异-选择的进化变体；『核反应』为包装。批评见隐喻批评专区；Sörensen 2015。",
+        "tier": "C"
+      },
+      {
+        "name": "CHIO 新冠群体免疫优化",
+        "note": "以易感/感染/免疫为人口动力学启发的群体搜索（感染=向最优靠拢、免疫=多样保持），等价于人口动力学隐喻的 PSO 换皮；无机制独立性。批评见隐喻批评专区；Sörensen 2015。",
+        "tier": "C"
+      },
+      {
+        "name": "BRO 大逃杀优化算法",
+        "note": "以竞技淘汰为基于排名的锦标赛选择（排名=适应度、淘汰=选择压力），等价于锦标赛选择 GA 的换皮；『大逃杀』= 排名淘汰。批评见隐喻批评专区；Sörensen 2015。",
+        "tier": "C"
+      },
+      {
+        "name": "政治优化算法",
+        "note": "以政党/选举/联盟为政治隐喻的群体重组（选举=选择、联盟=交叉），等价于政治隐喻包装的 GA/PSO 重组；无机制创新。批评见隐喻批评专区；Sörensen 2015。（出处待补）",
+        "tier": "C"
+      },
+      {
+        "name": "PRO 贫富优化算法",
+        "note": "以财富驱动移动为经济隐喻的群体扰动（富者=精英吸引、贫者=随机游走），等价于经济隐喻的 PSO 变体；无独立机制。批评见隐喻批评专区；Sörensen 2015。",
+        "tier": "C"
+      },
+      {
+        "name": "SNS 社交网络搜索算法",
+        "note": "以社交影响力传播为网络启发的信息传播搜索（影响力=精英吸引、传播=扩散），等价于网络/社会力群体搜索；无机制独立性。批评见隐喻批评专区；Sörensen 2015。",
+        "tier": "C"
+      }
+    ],
+    "name_en": "Metaphor mill (critical perspective)",
+    "summary_en": "A catalogue of the one-metaphor-one-algorithm production line. Each entry states the mechanism faithfully and always carries the critical view: most are re-skinned PSO/DE/GA variants with no independent mechanism."
+  },
+  {
+    "id": "F0",
+    "dir": "f0-elite",
+    "name": "专用求解对照系",
+    "short": "专用求解（对照）",
+    "oneliner": "非元启发式的专用结构化搜索与精确求解器对照位——现役首例：TSP 的 LKH 谱系，随各问题域扩容。",
+    "desc": [
+      "Lin–Kernighan（1973）是变深度搜索的巅峰之作，LKH-2/LKH-3 至今仍是 TSP 领域最强的专用求解器之一。本站给它<strong>独立家族位</strong>而非塞进 F4，因为它代表一条对照线：专用结构化搜索 vs 通用元启发式——任何元启发式页面的成绩单都应该和它对照着读，才不会把「比别的元启发式好」误读成「好」。",
+      "这个家族的定位是<strong>全问题域的对照系</strong>，不局限于 TSP：背包的 MCKnap、图着色的专用精确算法等都是后续候选成员，随收录扩容。精确方法（Held–Karp 动态规划 O(n²·2ⁿ)、分支定界、MIP 求解器如 Concorde）按架构 §1.2 只做对照卡、不做完整页——划清百科边界：本站主体是元启发式，专用求解器与精确解是边界上的参照系。"
+    ],
+    "chains": [
+      {
+        "title": "LK 谱系",
+        "items": "Lin–Kernighan (1973) → LKH-1 (Helsgaun 1997) → LKH-2 (2000，α-nearness 候选列表) → LKH-3 (2017，扩展至 CVRP/TSPN 等)"
+      },
+      {
+        "title": "边界对照位",
+        "items": "最近邻 NN / 2-opt（本站基线）· Held–Karp DP · Concorde 等 MIP 精确求解"
+      }
+    ],
+    "planned": [
+      {
+        "name": "MABB-LKH",
+        "note": "多目标 Memetic + LKH 混合（待建页）"
+      }
+    ],
+    "name_en": "Dedicated solvers (reference)",
+    "summary_en": "A slot for non-metaheuristic, structured search and exact solvers as a reference point for each problem domain. The first occupant is Lin–Kernighan for TSP (the lineage of LKH); more are added as the problem domains grow."
+  }
+]

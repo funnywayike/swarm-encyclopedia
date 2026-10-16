@@ -1,0 +1,939 @@
+{
+ "categories": [
+  {
+   "id": "cont",
+   "ico": "📐",
+   "name": "连续与参数寻优",
+   "hint": "实数向量编码——参数整定、反演、昂贵黑箱，应用体量最大的一族"
+  },
+  {
+   "id": "sched",
+   "ico": "⏱️",
+   "name": "调度与排程",
+   "hint": "把任务/负荷/班次在时间轴上排开——强约束组合优化"
+  },
+  {
+   "id": "assign",
+   "ico": "🏥",
+   "name": "分配与选址",
+   "hint": "谁放在哪——QAP、覆盖、p-中位与排列编码（设施布局、传感器、急救站）"
+  },
+  {
+   "id": "subset",
+   "ico": "🧩",
+   "name": "子集与组合选择",
+   "hint": "从全集里挑子集——特征选择、装卸决策，背包同构（0-1/多维/二次）"
+  },
+  {
+   "id": "multiobj",
+   "ico": "⚖️",
+   "name": "多目标权衡",
+   "hint": "Pareto 前沿驱动——成本/性能/鲁棒性取舍即主问题形态的条目"
+  },
+  {
+   "id": "gen",
+   "ico": "🎨",
+   "name": "生成式设计",
+   "hint": "GP/进化创意——分子、天线、艺术、游戏内容、机器人形态"
+  },
+  {
+   "id": "adv",
+   "ico": "🛡️",
+   "name": "对抗与安全",
+   "hint": "攻防、博弈、密码破译——对手在环的搜索"
+  },
+  {
+   "id": "network",
+   "ico": "🕸️",
+   "name": "网络与路径",
+   "hint": "图上找路与流——路由、疏散（VRP 域冻结，仅词条）"
+  },
+  {
+   "id": "metatool",
+   "ico": "🧰",
+   "name": "元层工具",
+   "hint": "搜索搜索者——超启发式、算法自动配置、QUBO 统一接口"
+  }
+ ],
+ "industries": [
+  "能源电力",
+  "农业水利",
+  "交通运输",
+  "土木建筑",
+  "制造工艺",
+  "生物医药",
+  "信息工程",
+  "航天军工",
+  "地球环境",
+  "金融经济",
+  "安全博弈",
+  "人文教艺",
+  "前沿工具"
+ ],
+ "entries": [
+  {
+   "title": "微电网调度",
+   "industry": "能源电力",
+   "oneliner": "微电网经济调度——混合整数调度类，NSGA-II 多目标主力",
+   "link": "/problem/continuous/",
+   "src": "10.16",
+   "cat": "sched",
+   "abstract_type": "sms"
+  },
+  {
+   "title": "机组组合 UC",
+   "industry": "能源电力",
+   "oneliner": "「开哪些机组」的大规模混合整数问题，GA/改进 PSO 与数学规划混战",
+   "link": "/problem/continuous/",
+   "src": "10.49",
+   "cat": "sched",
+   "abstract_type": "sms"
+  },
+  {
+   "title": "配电网重构",
+   "industry": "能源电力",
+   "oneliner": "开关状态组合优化，目标网损/电压——二进制+图结构",
+   "link": "",
+   "src": "10.37",
+   "cat": "subset",
+   "abstract_type": "subset"
+  },
+  {
+   "title": "电网 PMU 布置",
+   "industry": "能源电力",
+   "oneliner": "相量测量单元最优布置——带可观性约束的集合覆盖",
+   "link": "/problem/assignment/",
+   "src": "10.51",
+   "cat": "assign",
+   "abstract_type": "scp"
+  },
+  {
+   "title": "风光储容量配置",
+   "industry": "能源电力",
+   "oneliner": "风光储联合容量——多目标（成本/可靠性/弃风）",
+   "link": "/problem/multiobj/",
+   "src": "10.55",
+   "cat": "multiobj",
+   "abstract_type": "multiobj"
+  },
+  {
+   "title": "需求响应 DSM",
+   "industry": "能源电力",
+   "oneliner": "用户侧负荷调度——约束组合优化",
+   "link": "/problem/continuous/",
+   "src": "10.56",
+   "cat": "sched",
+   "abstract_type": "sms"
+  },
+  {
+   "title": "风电场布局 WFLO",
+   "industry": "能源电力",
+   "oneliner": "机位微调降尾流损失——连续+排列混合",
+   "link": "/problem/continuous/",
+   "src": "10.47",
+   "cat": "cont",
+   "abstract_type": "continuous"
+  },
+  {
+   "title": "光伏参数提取",
+   "industry": "能源电力",
+   "oneliner": "光伏电池模型参数辨识——昂贵非线性最小二乘",
+   "link": "/problem/continuous/",
+   "src": "10.44",
+   "cat": "cont",
+   "abstract_type": "continuous"
+  },
+  {
+   "title": "混动能量管理 EMS",
+   "industry": "能源电力",
+   "oneliner": "油电功率分配——动态规划/ECMS 占据，元启发式为对照",
+   "link": "/problem/continuous/",
+   "src": "10.60",
+   "cat": "cont",
+   "abstract_type": "continuous"
+  },
+  {
+   "title": "充电站选址",
+   "industry": "能源电力",
+   "oneliner": "MCLP + p-中位 + 仿真校验的电力设施布局",
+   "link": "/problem/assignment/",
+   "src": "10.61",
+   "cat": "assign",
+   "abstract_type": "uflp"
+  },
+  {
+   "title": "建筑节能改造",
+   "industry": "能源电力",
+   "oneliner": "改造措施组合选择——组合优化（专用工具链占据）",
+   "link": "/problem/knapsack/",
+   "src": "10.61",
+   "cat": "subset",
+   "abstract_type": "subset"
+  },
+  {
+   "title": "农业水利综合",
+   "industry": "农业水利",
+   "oneliner": "灌溉制度/水-能关联优化——SA/GA/PSO 主力",
+   "link": "/problem/continuous/",
+   "src": "10.13",
+   "cat": "cont",
+   "abstract_type": "continuous"
+  },
+  {
+   "title": "精准农业",
+   "industry": "农业水利",
+   "oneliner": "变量施用/作业调度——约束优化",
+   "link": "/problem/continuous/",
+   "src": "10.23",
+   "cat": "cont",
+   "abstract_type": "continuous"
+  },
+  {
+   "title": "作物种植规划",
+   "industry": "农业水利",
+   "oneliner": "种植结构多目标规划，二十年 2.19×10⁷ ha 纽带框架",
+   "link": "/problem/multiobj/",
+   "src": "10.58",
+   "cat": "multiobj",
+   "abstract_type": "multiobj"
+  },
+  {
+   "title": "水分配网络设计",
+   "industry": "农业水利",
+   "oneliner": "管径组合优化——0-1 背包可归约，GA 最常用",
+   "link": "/problem/knapsack/",
+   "src": "10.26",
+   "cat": "subset",
+   "abstract_type": "subset"
+  },
+  {
+   "title": "水库群调度",
+   "industry": "农业水利",
+   "oneliner": "梯级水库发电/供水多目标调度",
+   "link": "/problem/multiobj/",
+   "src": "10.34",
+   "cat": "multiobj",
+   "abstract_type": "multiobj"
+  },
+  {
+   "title": "森林野火管理",
+   "industry": "农业水利",
+   "oneliner": "消防资源部署与扑救调度——覆盖+动态",
+   "link": "/problem/assignment/",
+   "src": "10.29",
+   "cat": "assign",
+   "abstract_type": "subset"
+  },
+  {
+   "title": "雨洪管理",
+   "industry": "农业水利",
+   "oneliner": "LID 设施空间配置——SWMM 仿真驱动的组合优化",
+   "link": "/problem/assignment/",
+   "src": "10.58",
+   "cat": "assign",
+   "abstract_type": "subset"
+  },
+  {
+   "title": "交通信号控制",
+   "industry": "交通运输",
+   "oneliner": "信号配时/相位优化——仿真驱动连续+离散混合",
+   "link": "/problem/continuous/",
+   "src": "10.21",
+   "cat": "cont",
+   "abstract_type": "continuous"
+  },
+  {
+   "title": "公交线网设计",
+   "industry": "交通运输",
+   "oneliner": "线路布设与班次——多目标网络设计",
+   "link": "/problem/multiobj/",
+   "src": "10.38",
+   "cat": "multiobj",
+   "abstract_type": "multiobj"
+  },
+  {
+   "title": "港口调度",
+   "industry": "交通运输",
+   "oneliner": "岸桥/泊位分配——QAP/调度同构",
+   "link": "/problem/assignment/",
+   "src": "10.31",
+   "cat": "assign",
+   "abstract_type": "jss"
+  },
+  {
+   "title": "供应链网络设计",
+   "industry": "交通运输",
+   "oneliner": "设施选址+流量分配——混合整数选址-分配",
+   "link": "/problem/assignment/",
+   "src": "10.22",
+   "cat": "assign",
+   "abstract_type": "ndp"
+  },
+  {
+   "title": "仓储运营",
+   "industry": "交通运输",
+   "oneliner": "货位分配——QAP 同构",
+   "link": "/problem/assignment/",
+   "src": "10.39",
+   "cat": "assign",
+   "abstract_type": "assignment"
+  },
+  {
+   "title": "电梯群控",
+   "industry": "交通运输",
+   "oneliner": "梯群派梯——轻量调度类（关联收录）",
+   "link": "",
+   "src": "10.55",
+   "cat": "sched",
+   "abstract_type": "sms"
+  },
+  {
+   "title": "无人机路径规划",
+   "industry": "交通运输",
+   "oneliner": "三维航迹——约束连续+离散混合",
+   "link": "/problem/continuous/",
+   "src": "10.45",
+   "cat": "cont",
+   "abstract_type": "sequencing"
+  },
+  {
+   "title": "桁架结构优化",
+   "industry": "土木建筑",
+   "oneliner": "截面/拓扑优化——约束连续主力",
+   "link": "/problem/continuous/",
+   "src": "10.32",
+   "cat": "cont",
+   "abstract_type": "continuous"
+  },
+  {
+   "title": "岩土边坡稳定",
+   "industry": "土木建筑",
+   "oneliner": "临界滑面搜索——昂贵非线性",
+   "link": "/problem/continuous/",
+   "src": "10.38",
+   "cat": "cont",
+   "abstract_type": "continuous"
+  },
+  {
+   "title": "结构损伤检测",
+   "industry": "土木建筑",
+   "oneliner": "由响应反推损伤位置——反问题+特征选择",
+   "link": "/problem/knapsack/",
+   "src": "10.52",
+   "cat": "subset",
+   "abstract_type": "subset"
+  },
+  {
+   "title": "进化建筑设计",
+   "industry": "土木建筑",
+   "oneliner": "平面生成与性能寻优——GP+多目标",
+   "link": "/problem/multiobj/",
+   "src": "10.30",
+   "cat": "multiobj",
+   "abstract_type": "multiobj"
+  },
+  {
+   "title": "设施布局 FLP",
+   "industry": "土木建筑",
+   "oneliner": "QAP 的工程形态——流量×距离二次目标",
+   "link": "/problem/assignment/",
+   "src": "10.60",
+   "cat": "assign",
+   "abstract_type": "uflp"
+  },
+  {
+   "title": "数控加工参数",
+   "industry": "制造工艺",
+   "oneliner": "切削参数寻优——约束连续",
+   "link": "/problem/continuous/",
+   "src": "10.57",
+   "cat": "cont",
+   "abstract_type": "continuous"
+  },
+  {
+   "title": "增材制造",
+   "industry": "制造工艺",
+   "oneliner": "工艺参数/支撑结构——10 种元启发式趋同的诚实负结果域",
+   "link": "/problem/continuous/",
+   "src": "10.53",
+   "cat": "cont",
+   "abstract_type": "continuous"
+  },
+  {
+   "title": "铸造焊接工艺",
+   "industry": "制造工艺",
+   "oneliner": "工艺窗口多目标寻优",
+   "link": "/problem/multiobj/",
+   "src": "10.53",
+   "cat": "multiobj",
+   "abstract_type": "multiobj"
+  },
+  {
+   "title": "化工排产",
+   "industry": "制造工艺",
+   "oneliner": "批次调度——强约束调度类",
+   "link": "",
+   "src": "10.23",
+   "cat": "sched",
+   "abstract_type": "jss"
+  },
+  {
+   "title": "装配线平衡",
+   "industry": "制造工艺",
+   "oneliner": "任务分配到工位——约束分配类（SALBP）",
+   "link": "/problem/assignment/",
+   "src": "10.27",
+   "cat": "assign",
+   "abstract_type": "fss"
+  },
+  {
+   "title": "材料逆向设计",
+   "industry": "制造工艺",
+   "oneliner": "由性能反推配方/结构——昂贵黑箱",
+   "link": "/problem/continuous/",
+   "src": "10.52",
+   "cat": "cont",
+   "abstract_type": "continuous"
+  },
+  {
+   "title": "晶体结构预测",
+   "industry": "制造工艺",
+   "oneliner": "势能面全局搜索——USPEX 演化经典",
+   "link": "/problem/continuous/",
+   "src": "10.30",
+   "cat": "cont",
+   "abstract_type": "continuous"
+  },
+  {
+   "title": "食品配方",
+   "industry": "制造工艺",
+   "oneliner": "配方组合——多目标感官/成本权衡",
+   "link": "/problem/multiobj/",
+   "src": "10.40",
+   "cat": "multiobj",
+   "abstract_type": "multiobj"
+  },
+  {
+   "title": "时尚设计",
+   "industry": "制造工艺",
+   "oneliner": "款式要素组合生成——GP/约束组合",
+   "link": "",
+   "src": "10.40",
+   "cat": "gen",
+   "abstract_type": "ged"
+  },
+  {
+   "title": "分子设计",
+   "industry": "生物医药",
+   "oneliner": "药物分子结构生成——GP/图进化",
+   "link": "",
+   "src": "10.17",
+   "cat": "gen",
+   "abstract_type": "ged"
+  },
+  {
+   "title": "蛋白质结构预测",
+   "industry": "生物医药",
+   "oneliner": "构象搜索——连续+组合混合巨型问题",
+   "link": "/problem/continuous/",
+   "src": "10.41",
+   "cat": "cont",
+   "abstract_type": "continuous"
+  },
+  {
+   "title": "分子对接",
+   "industry": "生物医药",
+   "oneliner": "配体构象搜索——昂贵评分函数",
+   "link": "/problem/continuous/",
+   "src": "10.41",
+   "cat": "cont",
+   "abstract_type": "continuous"
+  },
+  {
+   "title": "多序列比对",
+   "industry": "生物医药",
+   "oneliner": "生物序列排列——排列/集合编码",
+   "link": "",
+   "src": "10.42",
+   "cat": "assign",
+   "abstract_type": "assignment"
+  },
+  {
+   "title": "GWAS 基因特征选择",
+   "industry": "生物医药",
+   "oneliner": "SNP 子集选择——大规模二进制（MKP 同构）",
+   "link": "/problem/knapsack/",
+   "src": "10.43",
+   "cat": "subset",
+   "abstract_type": "subset"
+  },
+  {
+   "title": "手术排程",
+   "industry": "生物医药",
+   "oneliner": "手术室时刻表——强约束调度",
+   "link": "",
+   "src": "10.43",
+   "cat": "sched",
+   "abstract_type": "sms"
+  },
+  {
+   "title": "放射治疗计划",
+   "industry": "生物医药",
+   "oneliner": "IMRT 射束权重——束角选择组合+剂量连续双层",
+   "link": "/problem/continuous/",
+   "src": "10.48",
+   "cat": "cont",
+   "abstract_type": "continuous"
+  },
+  {
+   "title": "急救车选址",
+   "industry": "生物医药",
+   "oneliner": "MEXCLP 四十年谱系——从覆盖到存活率",
+   "link": "/problem/assignment/",
+   "src": "10.46",
+   "cat": "assign",
+   "abstract_type": "uflp"
+  },
+  {
+   "title": "护士排班",
+   "industry": "生物医药",
+   "oneliner": "班表约束满足——调度类（域冻结词条）",
+   "link": "",
+   "src": "10.17",
+   "cat": "sched",
+   "abstract_type": "nrp"
+  },
+  {
+   "title": "特征选择",
+   "industry": "信息工程",
+   "oneliner": "ML 组合优化第一主战场——二进制编码（群智能占新算法 55%）",
+   "link": "/problem/knapsack/",
+   "src": "10.19",
+   "cat": "subset",
+   "abstract_type": "subset"
+  },
+  {
+   "title": "图像分割",
+   "industry": "信息工程",
+   "oneliner": "阈值/聚类分割——多目标（结构/熵权衡）",
+   "link": "/problem/multiobj/",
+   "src": "10.18",
+   "cat": "multiobj",
+   "abstract_type": "multiobj"
+  },
+  {
+   "title": "进化聚类",
+   "industry": "信息工程",
+   "oneliner": "聚类中心/划分搜索——多目标（紧致度/分离度）",
+   "link": "/problem/multiobj/",
+   "src": "10.28",
+   "cat": "multiobj",
+   "abstract_type": "multiobj"
+  },
+  {
+   "title": "传感器部署",
+   "industry": "信息工程",
+   "oneliner": "WSN 覆盖+连通+寿命——集合覆盖/多目标",
+   "link": "/problem/assignment/",
+   "src": "10.28",
+   "cat": "assign",
+   "abstract_type": "scp"
+  },
+  {
+   "title": "进化神经架构搜索",
+   "industry": "信息工程",
+   "oneliner": "NAS——昂贵黑箱（GPU 预算）",
+   "link": "/problem/continuous/",
+   "src": "10.44",
+   "cat": "cont",
+   "abstract_type": "continuous"
+  },
+  {
+   "title": "进化强化学习",
+   "industry": "信息工程",
+   "oneliner": "超参/策略进化——混合优化",
+   "link": "/problem/continuous/",
+   "src": "10.42",
+   "cat": "cont",
+   "abstract_type": "continuous"
+  },
+  {
+   "title": "云计算调度",
+   "industry": "信息工程",
+   "oneliner": "任务→虚拟机分配——多目标（时延/成本/能耗）",
+   "link": "/problem/assignment/",
+   "src": "10.22",
+   "cat": "assign",
+   "abstract_type": "sms"
+  },
+  {
+   "title": "边缘计算卸载",
+   "industry": "信息工程",
+   "oneliner": "任务卸载决策——二进制+资源约束",
+   "link": "/problem/knapsack/",
+   "src": "10.48",
+   "cat": "subset",
+   "abstract_type": "subset"
+  },
+  {
+   "title": "水声网络路由",
+   "industry": "信息工程",
+   "oneliner": "路由路径选择——图优化+时延约束",
+   "link": "",
+   "src": "10.57",
+   "cat": "network",
+   "abstract_type": "stp"
+  },
+  {
+   "title": "演化机器人学",
+   "industry": "信息工程",
+   "oneliner": "形态/控制器协同进化——GP+仿真",
+   "link": "",
+   "src": "10.14",
+   "cat": "gen",
+   "abstract_type": "ged"
+  },
+  {
+   "title": "群体机器人",
+   "industry": "信息工程",
+   "oneliner": "群控策略进化——分布式控制",
+   "link": "",
+   "src": "10.27",
+   "cat": "gen",
+   "abstract_type": "ged"
+  },
+  {
+   "title": "搜索式软件测试",
+   "industry": "信息工程",
+   "oneliner": "测试用例生成 SBST——1976 年起的经典谱系",
+   "link": "",
+   "src": "10.47",
+   "cat": "gen",
+   "abstract_type": "ged"
+  },
+  {
+   "title": "图像水印",
+   "industry": "信息工程",
+   "oneliner": "水印嵌入位置/强度——多目标（鲁棒性/透明性）",
+   "link": "/problem/multiobj/",
+   "src": "10.49",
+   "cat": "multiobj",
+   "abstract_type": "multiobj"
+  },
+  {
+   "title": "卫星任务规划",
+   "industry": "航天军工",
+   "oneliner": "成像任务调度——带时间窗约束调度",
+   "link": "",
+   "src": "10.20",
+   "cat": "sched",
+   "abstract_type": "sms"
+  },
+  {
+   "title": "航天轨道转移",
+   "industry": "航天军工",
+   "oneliner": "Lambert 问题×EA——250 年解析传统融合",
+   "link": "/problem/continuous/",
+   "src": "10.46",
+   "cat": "cont",
+   "abstract_type": "continuous"
+  },
+  {
+   "title": "天文调度",
+   "industry": "航天军工",
+   "oneliner": "望远镜观测排程——约束调度",
+   "link": "",
+   "src": "10.15",
+   "cat": "sched",
+   "abstract_type": "sms"
+  },
+  {
+   "title": "军事运筹",
+   "industry": "航天军工",
+   "oneliner": "兵力分配/路径——对抗性组合优化",
+   "link": "",
+   "src": "10.15",
+   "cat": "adv",
+   "abstract_type": "open"
+  },
+  {
+   "title": "雷达波形设计",
+   "industry": "航天军工",
+   "oneliner": "波形参数寻优——梯度法入侵、GA 仍最流行（312 篇统计）",
+   "link": "/problem/continuous/",
+   "src": "10.51",
+   "cat": "cont",
+   "abstract_type": "continuous"
+  },
+  {
+   "title": "进化天线设计",
+   "industry": "航天军工",
+   "oneliner": "天线结构进化——NASA ST5 经典（GP 旗舰应用）",
+   "link": "",
+   "src": "10.31",
+   "cat": "gen",
+   "abstract_type": "ged"
+  },
+  {
+   "title": "核燃料装载",
+   "industry": "航天军工",
+   "oneliner": "堆芯装载模式——排列+安全约束",
+   "link": "",
+   "src": "10.39",
+   "cat": "assign",
+   "abstract_type": "subset"
+  },
+  {
+   "title": "托卡马克聚变",
+   "industry": "航天军工",
+   "oneliner": "等离子体控制参数——并行 GA 加速比 5.21",
+   "link": "/problem/continuous/",
+   "src": "10.59",
+   "cat": "cont",
+   "abstract_type": "continuous"
+  },
+  {
+   "title": "地球物理反演",
+   "industry": "地球环境",
+   "oneliner": "地球内部参数反演——病态反问题经典（Ayvaz 2016）",
+   "link": "/problem/continuous/",
+   "src": "10.21",
+   "cat": "cont",
+   "abstract_type": "continuous"
+  },
+  {
+   "title": "地下水污染反演",
+   "industry": "地球环境",
+   "oneliner": "污染源识别——反问题+代理模型",
+   "link": "/problem/continuous/",
+   "src": "10.56",
+   "cat": "cont",
+   "abstract_type": "continuous"
+  },
+  {
+   "title": "海洋能源布局",
+   "industry": "地球环境",
+   "oneliner": "潮流能机组布置——WFLO 海洋版",
+   "link": "/problem/continuous/",
+   "src": "10.19",
+   "cat": "cont",
+   "abstract_type": "continuous"
+  },
+  {
+   "title": "污水处理",
+   "industry": "地球环境",
+   "oneliner": "曝气/加药控制——仿真驱动优化",
+   "link": "/problem/continuous/",
+   "src": "10.50",
+   "cat": "cont",
+   "abstract_type": "continuous"
+  },
+  {
+   "title": "应急疏散",
+   "industry": "地球环境",
+   "oneliner": "疏散路径/出口分配——动态流优化",
+   "link": "",
+   "src": "10.24",
+   "cat": "network",
+   "abstract_type": "ndp"
+  },
+  {
+   "title": "投资组合",
+   "industry": "金融经济",
+   "oneliner": "资产权重选择——约束二次规划（QKP 同构）",
+   "link": "/problem/knapsack/quadratic/",
+   "src": "10.18",
+   "cat": "subset",
+   "abstract_type": "subset"
+  },
+  {
+   "title": "进化交易规则",
+   "industry": "金融经济",
+   "oneliner": "交易规则 GP 挖掘——过拟合风险预警是共识",
+   "link": "",
+   "src": "10.33",
+   "cat": "gen",
+   "abstract_type": "ged"
+  },
+  {
+   "title": "期权模型校准",
+   "industry": "金融经济",
+   "oneliner": "波动率参数校准——昂贵非线性最小二乘",
+   "link": "/problem/continuous/",
+   "src": "10.45",
+   "cat": "cont",
+   "abstract_type": "continuous"
+  },
+  {
+   "title": "信贷评分",
+   "industry": "金融经济",
+   "oneliner": "特征/规则组合——二进制+约束",
+   "link": "/problem/knapsack/",
+   "src": "10.37",
+   "cat": "subset",
+   "abstract_type": "subset"
+  },
+  {
+   "title": "选区划分",
+   "industry": "金融经济",
+   "oneliner": "划分组合优化——多目标+公平性约束",
+   "link": "/problem/multiobj/",
+   "src": "10.36",
+   "cat": "multiobj",
+   "abstract_type": "multiobj"
+  },
+  {
+   "title": "石油工程",
+   "industry": "金融经济",
+   "oneliner": "油藏开发方案/井位——昂贵仿真",
+   "link": "/problem/continuous/",
+   "src": "10.36",
+   "cat": "cont",
+   "abstract_type": "continuous"
+  },
+  {
+   "title": "演化密码学",
+   "industry": "安全博弈",
+   "oneliner": "S 盒/Bent 函数设计与密码破译——GA 破译 TEA 经典",
+   "link": "/problem/qubo/",
+   "src": "10.33",
+   "cat": "adv",
+   "abstract_type": "subset"
+  },
+  {
+   "title": "网络攻防",
+   "industry": "安全博弈",
+   "oneliner": "渗透测试路径/防御配置——对抗性搜索",
+   "link": "",
+   "src": "10.54",
+   "cat": "adv",
+   "abstract_type": "open"
+  },
+  {
+   "title": "进化博弈论",
+   "industry": "安全博弈",
+   "oneliner": "策略均衡搜索——演化稳定策略计算",
+   "link": "",
+   "src": "10.26",
+   "cat": "adv",
+   "abstract_type": "open"
+  },
+  {
+   "title": "EC×艺术",
+   "industry": "人文教艺",
+   "oneliner": "生成艺术/配色/构图——GP 创意探索",
+   "link": "",
+   "src": "10.13",
+   "cat": "gen",
+   "abstract_type": "ged"
+  },
+  {
+   "title": "进化音乐",
+   "industry": "人文教艺",
+   "oneliner": "旋律/和声生成——GP+评价函数",
+   "link": "",
+   "src": "10.20",
+   "cat": "gen",
+   "abstract_type": "ged"
+  },
+  {
+   "title": "游戏内容生成",
+   "industry": "人文教艺",
+   "oneliner": "关卡/地图 PCG——搜索式生成",
+   "link": "",
+   "src": "10.32",
+   "cat": "gen",
+   "abstract_type": "ged"
+  },
+  {
+   "title": "游戏对局 AI",
+   "industry": "人文教艺",
+   "oneliner": "NEAT/HyperNEAT 神经进化——Atari 破人类高分",
+   "link": "",
+   "src": "10.50",
+   "cat": "gen",
+   "abstract_type": "ged"
+  },
+  {
+   "title": "自动组卷",
+   "industry": "人文教艺",
+   "oneliner": "试题集选取——多维约束组合（GASA 并行 k 试卷）",
+   "link": "/problem/knapsack/multiple/",
+   "src": "10.54",
+   "cat": "subset",
+   "abstract_type": "subset"
+  },
+  {
+   "title": "大学课程表",
+   "industry": "人文教艺",
+   "oneliner": "课表约束满足——调度类（域冻结词条）",
+   "link": "",
+   "src": "10.34",
+   "cat": "sched",
+   "abstract_type": "ctp"
+  },
+  {
+   "title": "体育赛程",
+   "industry": "人文教艺",
+   "oneliner": "循环赛程安排——约束调度",
+   "link": "",
+   "src": "10.16",
+   "cat": "sched",
+   "abstract_type": "etp"
+  },
+  {
+   "title": "考古文化遗产",
+   "industry": "人文教艺",
+   "oneliner": "遗址归属/修复方案——罕见人文应用",
+   "link": "",
+   "src": "10.35",
+   "cat": "subset",
+   "abstract_type": "subset"
+  },
+  {
+   "title": "司法应用",
+   "industry": "人文教艺",
+   "oneliner": "案件排期/资源分配——约束调度",
+   "link": "",
+   "src": "10.35",
+   "cat": "sched",
+   "abstract_type": "ctp"
+  },
+  {
+   "title": "超启发式",
+   "industry": "前沿工具",
+   "oneliner": "「搜索启发式的启发式」——选择/生成两派",
+   "link": "",
+   "src": "10.24",
+   "cat": "metatool",
+   "abstract_type": "open"
+  },
+  {
+   "title": "算法自动配置",
+   "industry": "前沿工具",
+   "oneliner": "ParamILS/irace/SMAC——SPEAR 787.1s→1.5s 英雄结果",
+   "link": "/problem/qubo/",
+   "src": "10.25",
+   "cat": "metatool",
+   "abstract_type": "open"
+  },
+  {
+   "title": "QUBO/量子退火",
+   "industry": "前沿工具",
+   "oneliner": "xᵀQx 统一形式对接伊辛机生态",
+   "link": "/problem/qubo/",
+   "src": "10.25",
+   "cat": "metatool",
+   "abstract_type": "logic"
+  },
+  {
+   "title": "进化语音",
+   "industry": "前沿工具",
+   "oneliner": "语音特征/模型进化——小众应用域",
+   "link": "",
+   "src": "10.29",
+   "cat": "gen",
+   "abstract_type": "ged"
+  }
+ ]
+}

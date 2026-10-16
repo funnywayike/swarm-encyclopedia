@@ -1,0 +1,31 @@
+name: Wrong or misleading problem model
+description: A problem page models the problem incorrectly, mislabels its fidelity, or states something false about complexity or benchmarks.
+labels: [model]
+body:
+  - type: input
+    id: page
+    attributes:
+      label: Page
+      description: URL of the problem page, or its path (for example `problem/fss/`).
+    validations:
+      required: true
+  - type: dropdown
+    id: kind
+    attributes:
+      label: What kind of problem is it?
+      options:
+        - The model contradicts the standard definition
+        - The fidelity label (standard / simplified / illustrative) is wrong
+        - The complexity or approximability statement is wrong
+        - A benchmark or known optimum is wrong
+        - The objective value reported by the demo is wrong
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: what
+    attributes:
+      label: Details
+      description: What is wrong, what the correct statement is, and a reference if you have one. If you are a domain expert, please say so — independent review of the problem pages is one of the things this project still needs.
+    validations:
+      required: true

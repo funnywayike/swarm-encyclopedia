@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title data-en="Bounded Knapsack · knapsack variant">有界背包（Bounded Knapsack, BKP）· 背包问题变体</title>
+<meta name="description" content="有界背包：数学模型、与 0-1 背包的差异、求解路径与原始文献出处（① 简单单目标）">
+<script src="../../../js/i18n.js"></script>
+<script>
+(function(){var t=null;try{t=localStorage.getItem("theme")}catch(e){}
+if(!t)t=(window.matchMedia&&matchMedia("(prefers-color-scheme: dark)").matches)?"dark":"light";
+document.documentElement.setAttribute("data-theme",t);})();
+</script>
+<link rel="stylesheet" href="../../../css/style.css">
+<link rel="canonical" href="https://funnywayike.github.io/swarm-encyclopedia/problem/knapsack/bounded/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="群智能算法百科">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:title" content="有界背包（Bounded Knapsack, BKP）· 背包问题变体">
+<meta property="og:description" content="有界背包：数学模型、与 0-1 背包的差异、求解路径与原始文献出处（① 简单单目标）">
+<meta property="og:url" content="https://funnywayike.github.io/swarm-encyclopedia/problem/knapsack/bounded/">
+<meta property="og:image" content="https://funnywayike.github.io/swarm-encyclopedia/assets/og-cover.png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="有界背包（Bounded Knapsack, BKP）· 背包问题变体">
+<meta name="twitter:description" content="有界背包：数学模型、与 0-1 背包的差异、求解路径与原始文献出处（① 简单单目标）">
+<meta name="twitter:image" content="https://funnywayike.github.io/swarm-encyclopedia/assets/og-cover.png">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 100 100%27%3E%3Ctext y=%27.9em%27 font-size=%2790%27%3E%F0%9F%90%9D%3C/text%3E%3C/svg%3E">
+<meta name="theme-color" content="#f7f7f8" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#0b0d12" media="(prefers-color-scheme: dark)">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "首页", "item": "https://funnywayike.github.io/swarm-encyclopedia/"}, {"@type": "ListItem", "position": 2, "name": "0-1 背包", "item": "https://funnywayike.github.io/swarm-encyclopedia/problem/knapsack/bounded/"}]}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "Article", "name": "有界背包（Bounded Knapsack, BKP）· 背包变体", "description": "有界背包的数学模型、与 0-1 背包的差异与求解路径", "inLanguage": "zh-CN", "isPartOf": {"@type": "WebSite", "name": "群智能算法百科", "url": "https://funnywayike.github.io/swarm-encyclopedia"}}</script>
+</head>
+<body>
+<a class="skip-link" href="#main">跳到主内容</a>
+<nav class="nav"><div class="nav-inner">
+  <a class="brand" href="../../../index.html"><span class="logo">🐝</span>群智能算法百科</a>
+  <div class="nav-links">
+  <a href="../../../index.html">首页</a>
+  <div class="dd"><a class="dd-btn" href="../../../algo/index.html">算法 <span class="caret">▾</span></a><div class="dd-panel dd-wide"><div class="dd-grid"><div class="dd-group"><a class="dd-fam" title="种群 + 选择 + 重组/变异的 Darwin 机器——EC 正统主线，本站收录 GA、DE、BBO 与 EDA/ES 分支。" href="../../../algo/f1-ea/index.html">进化算法族 EA<span class="hint">5 算法 · 1 配方 · 9 词条</span></a><a class="dd-item" href="../../../algo/f1-ea/ga/index.html">🧬&nbsp;遗传算法 GA</a><a class="dd-item" href="../../../algo/f1-ea/de/index.html">📉&nbsp;差分进化 DE</a><a class="dd-item" href="../../../algo/f1-ea/cem/index.html">🎲&nbsp;交叉熵方法 CEM</a><a class="dd-item" href="../../../algo/f1-ea/cma-es/index.html">⚙&nbsp;协方差矩阵自适应进化策略 CMA-ES</a><a class="dd-item" href="../../../algo/f1-ea/bbo/index.html">🏝️&nbsp;生物地理 BBO</a><a class="dd-item" href="../../../algo/f1-ea/steady-ga/index.html">🧪&nbsp;稳态 GA（组合）</a></div><div class="dd-group"><a class="dd-fam" title="简单个体的局部交互涌现出群体智能——本站收录最密的家族。" href="../../../algo/f2-si/index.html">群智能族 SI<span class="hint">26 算法 · 1 词条</span></a><a class="dd-item" href="../../../algo/f2-si/pso/index.html">🌀&nbsp;粒子群算法 PSO</a><a class="dd-item" href="../../../algo/f2-si/aco/index.html">🐜&nbsp;蚁群算法 ACO</a><a class="dd-item" href="../../../algo/f2-si/abc/index.html">🐝&nbsp;人工蜂群 ABC</a><a class="dd-item" href="../../../algo/f2-si/fa/index.html">✨&nbsp;萤火虫算法 FA</a><a class="dd-item" href="../../../algo/f2-si/woa/index.html">🐋&nbsp;鲸鱼优化 WOA</a><a class="dd-item" href="../../../algo/f2-si/gwo/index.html">🐺&nbsp;灰狼优化 GWO</a><a class="dd-item" href="../../../algo/f2-si/cs/index.html">🐦&nbsp;布谷鸟搜索 CS</a><a class="dd-item" href="../../../algo/f2-si/hho/index.html">🦅&nbsp;哈里斯鹰 HHO</a><a class="dd-item" href="../../../algo/f2-si/ba/index.html">🦇&nbsp;蝙蝠算法 BA</a><a class="dd-item" href="../../../algo/f2-si/bfo/index.html">🦠&nbsp;细菌觅食 BFO</a><a class="dd-item" href="../../../algo/f2-si/mfo/index.html">🕯️&nbsp;蛾焰优化 MFO</a><a class="dd-item" href="../../../algo/f2-si/fwa/index.html">🎆&nbsp;烟花算法 FWA</a><a class="dd-item" href="../../../algo/f2-si/afsa/index.html">🐟&nbsp;人工鱼群 AFSA</a><a class="dd-item" href="../../../algo/f2-si/ssa/index.html">🐦&nbsp;麻雀搜索 SSA</a><a class="dd-item" href="../../../algo/f2-si/alo/index.html">🕳️&nbsp;蚁狮优化 ALO</a><a class="dd-item" href="../../../algo/f2-si/boa/index.html">🦋&nbsp;蝴蝶优化 BOA</a><a class="dd-item" href="../../../algo/f2-si/salp/index.html">⛓️&nbsp;樽海鞘群 Salp</a><a class="dd-item" href="../../../algo/f2-si/sfla/index.html">🐸&nbsp;混合蛙跳 SFLA</a><a class="dd-item" href="../../../algo/f2-si/fpa/index.html">🌸&nbsp;花朵授粉 FPA</a><a class="dd-item" href="../../../algo/f2-si/kh/index.html">🦐&nbsp;磷虾群 KH</a><a class="dd-item" href="../../../algo/f2-si/sos/index.html">🤝&nbsp;共生搜索 SOS</a><a class="dd-item" href="../../../algo/f2-si/da/index.html">🐉&nbsp;蜻蜓 DA</a><a class="dd-item" href="../../../algo/f2-si/mpa/index.html">🦈&nbsp;海洋掠食者 MPA</a><a class="dd-item" href="../../../algo/f2-si/cscrow/index.html">🐦‍⬛&nbsp;乌鸦搜索 CSA</a><a class="dd-item" href="../../../algo/f2-si/ao/index.html">🦅&nbsp;天鹰 AO</a><a class="dd-item" href="../../../algo/f2-si/sma/index.html">🟠&nbsp;黏菌算法 SMA</a></div><div class="dd-group"><a class="dd-fam" title="退火、引力、均衡池、正弦余弦、零参数——把物理过程或数学公式当搜索算子，不靠生物隐喻。" href="../../../algo/f3-phys/index.html">物理、化学与数学启发<span class="hint">5 算法 · 3 词条</span></a><a class="dd-item" href="../../../algo/f3-phys/sa/index.html">🌡️&nbsp;模拟退火 SA</a><a class="dd-item" href="../../../algo/f3-phys/sca/index.html">🌊&nbsp;正弦余弦 SCA</a><a class="dd-item" href="../../../algo/f3-phys/gsa/index.html">🪐&nbsp;引力搜索 GSA</a><a class="dd-item" href="../../../algo/f3-phys/jaya/index.html">🏆&nbsp;Jaya 算法 JAYA</a><a class="dd-item" href="../../../algo/f3-phys/eo/index.html">⚗️&nbsp;均衡 EO</a></div><div class="dd-group"><a class="dd-fam" title="教学、和声、帝国竞争——把人类的学习、艺术与政治行为当搜索隐喻。" href="../../../algo/f4-human/index.html">人类与社会启发<span class="hint">3 算法 · 1 词条</span></a><a class="dd-item" href="../../../algo/f4-human/hs/index.html">🎵&nbsp;和声搜索 HS</a><a class="dd-item" href="../../../algo/f4-human/tlbo/index.html">🎓&nbsp;教与学优化 TLBO</a><a class="dd-item" href="../../../algo/f4-human/ica/index.html">🏛️&nbsp;帝国竞争 ICA</a></div><div class="dd-group"><a class="dd-fam" title="免疫系统——SI/EA 之外的生物启发收容位。" href="../../../algo/f5-bio/index.html">免疫与其他生物<span class="hint">1 算法 · 1 词条</span></a><a class="dd-item" href="../../../algo/f5-bio/ais/index.html">🛡️&nbsp;克隆选择 AIS</a></div><div class="dd-group"><a class="dd-fam" title="不靠种群隐喻，靠「邻域结构 + 接受准则」的工程学——禁忌、变邻域、迭代局部搜索、GRASP。" href="../../../algo/f10-trajectory/index.html">局部搜索与轨迹法<span class="hint">4 算法 · 1 词条</span></a><a class="dd-item" href="../../../algo/f10-trajectory/ts/index.html">🔒&nbsp;禁忌搜索 TS</a><a class="dd-item" href="../../../algo/f10-trajectory/ils/index.html">🔄&nbsp;迭代局部搜索 ILS</a><a class="dd-item" href="../../../algo/f10-trajectory/vns/index.html">🧭&nbsp;变邻域搜索 VNS</a><a class="dd-item" href="../../../algo/f10-trajectory/grasp/index.html">🎲&nbsp;GRASP</a></div><div class="dd-group"><a class="dd-fam" title="元启发式 × 数学规划 × 代理模型 × 自动配置——不发明新隐喻，只做组装厂，实战价值密度最高的家族。" href="../../../algo/f6-hybrid/index.html">混合与框架层<span class="hint">5 配方 · 5 词条</span></a><a class="dd-item" href="../../../algo/f6-hybrid/memetic/index.html">🧪&nbsp;Memetic GA（组合）</a><a class="dd-item" href="../../../algo/f6-hybrid/ils/index.html">🧪&nbsp;迭代局部搜索 ILS（组合）</a><a class="dd-item" href="../../../algo/f6-hybrid/hh/index.html">🧪&nbsp;选择式超启发式（组合）</a><a class="dd-item" href="../../../algo/f6-hybrid/saea/index.html">🧪&nbsp;代理辅助进化 SAEA（组合）</a><a class="dd-item" href="../../../algo/f6-hybrid/matheur/index.html">🧪&nbsp;Fix-and-Optimize（组合）</a></div><div class="dd-group"><a class="dd-fam" title="Pareto 支配下的进化计算——NSGA 五代演进与分解式方法的双雄会。" href="../../../algo/f7-mo/index.html">多目标专族<span class="hint">2 域内实现 · 3 词条</span></a><a class="dd-item" href="../../../problem/multiobj/?algo=nsga2#demo">NSGA-II（Deb 2002）&nbsp;<span class="hint">域内实现</span></a><a class="dd-item" href="../../../problem/multiobj/?algo=wsga#demo">加权 GA（WSGA）&nbsp;<span class="hint">域内实现</span></a></div><div class="dd-group"><a class="dd-fam" title="Quality-Diversity、神经组合优化、LLM 自动算法设计——元启发式的新大陆。" href="../../../algo/f8-new/index.html">新范式（2020s）<span class="hint">1 配方 · 4 词条</span></a><a class="dd-item" href="../../../algo/f8-new/mapelites/index.html">🧪&nbsp;MAP-Elites QD（组合）</a></div><div class="dd-group"><a class="dd-fam" title="一隐喻一算法的量产线——本站如实收录机制，同时强制挂批评视角，这是全网同类站都没有的诚实。" href="../../../algo/f9-metaphor/index.html">隐喻量产线（批评视角专区）<span class="hint">66 词条</span></a><a class="dd-item dd-entry" href="../../../algo/f9-metaphor/index.html">查看 66 个收录词条 →</a></div><div class="dd-group"><a class="dd-fam" title="非元启发式的专用结构化搜索与精确求解器对照位——现役首例：TSP 的 LKH 谱系，随各问题域扩容。" href="../../../algo/f0-elite/index.html">专用求解对照系<span class="hint">1 算法 · 1 词条</span></a><a class="dd-item" href="../../../algo/f0-elite/lk/index.html">🧭&nbsp;Lin–Kernighan LK</a></div></div><div class="hint" style="padding:10px 6px 0">共 45 个实际算法（⚙ 图标）；🧪 标记为组合配方、f7/f8 组内带域内实现入口——比算法本体多几项属正常。</div></div></div>
+  <div class="dd"><a class="dd-btn" href="../../../problem/index.html">问题 <span class="caret">▾</span></a><div class="dd-panel dd-wide prob-wide"><div class="prob-cols"><div class="dd-col"><a class="dd-fam" href="../../../problem/tsp/index.html">旅行商问题 TSP</a><a class="dd-item" href="../../../problem/lop/index.html">线性排序问题 LOP</a><a class="dd-item" href="../../../problem/vrp/index.html">车辆路径问题 VRP</a><a class="dd-item" href="../../../problem/vrptw/index.html">带时间窗的车辆路径问题 VRPTW</a><a class="dd-item" href="../../../problem/vrpstw/index.html">软时间窗车辆路径问题 VRPSTW</a><a class="dd-item" href="../../../problem/mdvrp/index.html">多车场车辆路径问题 MDVRP</a><a class="dd-item" href="../../../problem/sms/index.html">单机调度 SMS</a><a class="dd-item" href="../../../problem/fss/index.html">流水车间调度 FSS</a><a class="dd-item" href="../../../problem/jss/index.html">作业车间调度 JSS</a><a class="dd-item" href="../../../problem/hcycle/index.html">哈密顿回路 HC</a><a class="dd-item" href="../../../problem/lpath/index.html">最长路径 LP</a><a class="dd-item" href="../../../problem/fjsp/index.html">柔性作业车间调度 FJSP</a><a class="dd-item" href="../../../problem/carp/index.html">带容量弧路由问题 CARP</a><a class="dd-item" href="../../../problem/rpostman/index.html">乡村邮递员问题 RPP</a><a class="dd-item" href="../../../problem/oss/index.html">开放车间调度 OSS</a><a class="dd-item" href="../../../problem/rcpsp/index.html">资源受限项目调度 RCPSP</a><a class="dd-item" href="../../../problem/orienteering/index.html">定向运动问题 OP</a><a class="dd-item" href="../../../problem/atsp/index.html">非对称旅行商问题 ATSP</a><a class="dd-item" href="../../../problem/pms/index.html">并行机调度（最小化最大完工时间） PMS</a></div><div class="dd-col"><a class="dd-fam" href="../../../problem/knapsack/index.html">背包问题枢纽</a><a class="dd-item" href="../../../problem/knapsack/fractional/index.html">分数背包</a><a class="dd-item" href="../../../problem/knapsack/bounded/index.html">有界背包</a><a class="dd-item" href="../../../problem/knapsack/unbounded/index.html">无界背包</a><a class="dd-item" href="../../../problem/knapsack/changemaking/index.html">找零问题</a><a class="dd-item" href="../../../problem/knapsack/multiple/index.html">多背包</a><a class="dd-item" href="../../../problem/knapsack/multiplechoice/index.html">多选择背包</a><a class="dd-item" href="../../../problem/knapsack/multidim/index.html">多维背包</a><a class="dd-item" href="../../../problem/knapsack/discounted/index.html">折扣背包</a><a class="dd-item" href="../../../problem/knapsack/quadratic/index.html">二次背包</a><a class="dd-item" href="../../../problem/knapsack/subsetsum/index.html">子集和</a><a class="dd-item" href="../../../problem/setcover/index.html">集合覆盖 SCP</a><a class="dd-item" href="../../../problem/misindep/index.html">最大独立集 MIS</a><a class="dd-item" href="../../../problem/vcover/index.html">顶点覆盖 VC</a><a class="dd-item" href="../../../problem/domset/index.html">支配集 DS</a><a class="dd-item" href="../../../problem/mclique/index.html">最大团 MCP</a><a class="dd-item" href="../../../problem/setpack/index.html">集合打包 SPK</a><a class="dd-item" href="../../../problem/hset/index.html">碰集/击集 HIT</a><a class="dd-item" href="../../../problem/fvs/index.html">反馈顶点集 FVS</a></div><div class="dd-col"><a class="dd-fam" href="../../../problem/assignment/index.html">分配与选址</a><a class="dd-item" href="../../../problem/lap/index.html">线性指派 LAP</a><a class="dd-item" href="../../../problem/tdm/index.html">3-维匹配 3DM</a></div><div class="dd-col"><a class="dd-fam" href="../../../problem/binpack/index.html">装箱问题</a><a class="dd-item" href="../../../problem/binpack2d/index.html">二维装箱 2D-BPP</a><a class="dd-item" href="../../../problem/strippack/index.html">条带装箱 SPP</a><a class="dd-item" href="../../../problem/vsbinpack/index.html">变尺寸箱装箱 VSBPP</a><a class="dd-item" href="../../../problem/cutstock/index.html">一维下料 CSP</a><a class="dd-item" href="../../../problem/gpp/index.html">图划分 GPP</a><a class="dd-item" href="../../../problem/numpart/index.html">数分割问题 NPP</a></div><div class="dd-col"><a class="dd-fam" href="../../../problem/graphcolor/index.html">图着色</a><a class="dd-item" href="../../../problem/listcolor/index.html">列表着色 LCP</a><a class="dd-item" href="../../../problem/edgecolor/index.html">边着色 ECP</a><a class="dd-item" href="../../../problem/precolor/index.html">预着色扩展 PrExt</a><a class="dd-item" href="../../../problem/totalcolor/index.html">全着色 TCP</a><a class="dd-item" href="../../../problem/freqasg/index.html">频率分配问题 FAP</a></div><div class="dd-col"><a class="dd-fam" href="../../../problem/qubo/index.html">QUBO 与密码类</a><a class="dd-item" href="../../../problem/sat/index.html">可满足性问题 SAT</a><a class="dd-item" href="../../../problem/maxsat/index.html">最大可满足性 MAX-SAT</a><a class="dd-item" href="../../../problem/maxcut/index.html">最大割 MAX-CUT</a><a class="dd-item" href="../../../problem/csplogic/index.html">约束满足问题 CSP-Logic</a></div><div class="dd-col"><a class="dd-fam" href="../../../problem/continuous/index.html">连续优化</a><a class="dd-item" href="../../../problem/bbob/index.html">BBOB 基准套件 BBOB</a><a class="dd-item" href="../../../problem/cbbb/index.html">约束黑箱优化 CBBB</a><a class="dd-item" href="../../../problem/nbbb/index.html">噪声黑箱优化 NBBB</a><a class="dd-item" href="../../../problem/lbbb/index.html">大规模黑箱优化 LBBB</a><a class="dd-item" href="../../../problem/ebbb/index.html">昂贵黑箱优化 EBBB</a><a class="dd-item" href="../../../problem/ecd/index.html">工程约束设计 ECD</a></div><div class="dd-col"><a class="dd-fam" href="../../../problem/multiobj/index.html">多目标优化</a><a class="dd-item" href="../../../problem/zdt/index.html">ZDT 双目标基准 ZDT</a><a class="dd-item" href="../../../problem/dtlz/index.html">DTLZ 三目标基准 DTLZ</a><a class="dd-item" href="../../../problem/maop/index.html">超多目标优化 MaOP</a><a class="dd-item" href="../../../problem/moco/index.html">组合多目标优化 MOCO</a><a class="dd-item" href="../../../problem/prefmo/index.html">偏好多目标范式 PREFMO</a><a class="dd-item" href="../../../problem/decompo/index.html">分解多目标范式 DECOMPO</a><a class="dd-item" href="../../../problem/indicmo/index.html">指标多目标范式 INDICMO</a></div><div class="dd-col"><a class="dd-fam" href="../../../problem/uflp/index.html">设施选址 UFLP</a><a class="dd-item" href="../../../problem/cflp/index.html">容量设施选址 CFLP</a><a class="dd-item" href="../../../problem/lrp/index.html">选址-路径联合 LRP</a><a class="dd-item" href="../../../problem/stp/index.html">斯坦纳树 STP</a><a class="dd-item" href="../../../problem/ndp/index.html">网络设计 NDP</a><a class="dd-item" href="../../../problem/qap/index.html">二次分配问题 QAP</a><a class="dd-item" href="../../../problem/pmedian/index.html">p-中位问题 PMED</a><a class="dd-item" href="../../../problem/pcenter/index.html">p-中心问题 PCEN</a><a class="dd-item" href="../../../problem/kmeans/index.html">k-均值聚类（中心点优化） KMEANS</a></div><div class="dd-col"><span class="dd-fam">排课与排班（纯词条）</span><a class="dd-item" href="../../../problem/etp/index.html">考试排课 ETP</a><a class="dd-item" href="../../../problem/ctp/index.html">课程排课 CTP</a><a class="dd-item" href="../../../problem/nrp/index.html">护士排班 NRP</a><a class="dd-item" href="../../../problem/ttp/index.html">旅行锦标赛问题 TTP</a><a class="dd-item" href="../../../problem/sls/index.html">体育联赛排程 SLS</a></div><div class="dd-col"><span class="dd-fam">图与网络流（词条与多项式可解对照）</span><a class="dd-item" href="../../../problem/mst/index.html">最小生成树 MST</a><a class="dd-item" href="../../../problem/shortestpath/index.html">最短路径 SP</a><a class="dd-item" href="../../../problem/maxflow/index.html">最大流问题 MF</a><a class="dd-item" href="../../../problem/mincostflow/index.html">最小费用流问题 MCF</a><a class="dd-item" href="../../../problem/topsort/index.html">拓扑排序 TSORT</a><a class="dd-item" href="../../../problem/gmatch/index.html">一般图匹配 GM</a></div><div class="dd-col"><span class="dd-fam">开放登记（优化场景与应用专题）</span><a class="dd-item" href="../../../problem/blo/index.html">双层优化 BLO</a><a class="dd-item" href="../../../problem/ro/index.html">鲁棒优化 RO</a><a class="dd-item" href="../../../problem/mmo/index.html">多模态优化 MMO</a><a class="dd-item" href="../../../problem/dop/index.html">动态优化 DOP</a><a class="dd-item" href="../../../problem/ged/index.html">生成式设计 GD</a><a class="dd-item" href="../../../problem/proteinfold/index.html">蛋白质折叠（格点模型） HP</a><a class="dd-item" href="../../../problem/msa/index.html">多序列比对 MSA</a></div><div class="dd-col"><a class="dd-fam" href="../../../problem/reductions/index.html">归约页 · 全谱词条</a></div></div></div></div>
+  <div class="dd"><a class="dd-btn" href="../../../encyclopedia/index.html">科普 <span class="caret">▾</span></a><div class="dd-panel"><div class="dd-col"><a class="dd-item" href="../../../encyclopedia/index.html#intro">❓&nbsp;什么是元启发式？（3 分钟入门）</a><div class="hint" style="padding:2px 10px 8px">小白从这里进：入门 → 理论/批评/实验方法学 → 交叉矩阵与应用地图（研究级硬核内容，按需取用）。</div><a class="dd-item" href="../../../meta/theory/index.html">📐&nbsp;理论基础</a><a class="dd-item" href="../../../meta/criticism/index.html">🔍&nbsp;批评史</a><a class="dd-item" href="../../../meta/methodology/index.html">🧪&nbsp;实验方法学</a><a class="dd-item" href="../../../meta/timeline/index.html">🕰️&nbsp;五十年时间轴</a><a class="dd-item" href="../../../encyclopedia/index.html" title="百科全书（研究级）">📌&nbsp;百科全书</a><a class="dd-item" href="../../../matrix/index.html" title="交叉矩阵（研究级）">📌&nbsp;交叉矩阵</a><a class="dd-item" href="../../../applications/index.html" title="应用地图（研究级）">📌&nbsp;应用地图</a><span class="dd-fam">给贡献者</span><a class="dd-item" href="../../../coverage/index.html" title="覆盖看板：写给想参与维护或扩展本站的人">🛠&nbsp;覆盖看板</a><a class="dd-item" href="../../../components/index.html" title="组件库：写给想参与维护或扩展本站的人">🛠&nbsp;组件库</a><a class="dd-item" href="../../../discovery/index.html" title="候选发现池：写给想参与维护或扩展本站的人">🛠&nbsp;候选发现池</a></div></div></div>
+  <a href="../../../demo/index.html">▶ 演示</a>
+  <a href="../../../guide/index.html">上手</a>
+  <a href="../../../compare/index.html">算法对比</a>
+  </div>
+  <button id="langToggle" class="theme-btn lang-btn" title="Switch to English / 切换到英文" aria-label="Language">EN</button><button id="themeToggle" class="theme-btn" title="切换日间/夜间模式" aria-label="切换主题">🌙</button>
+</div></nav>
+
+<div class="wrap" id="main" role="main">
+
+  <div class="crumbs"><a href="../../../problem/knapsack/index.html">背包</a> · 有界背包</div>
+  <div class="hero">
+    <h1 data-en="Bounded Knapsack">有界背包 <span class="grad">Bounded Knapsack（BKP）</span></h1>
+    <div class="sub">① 简单单目标 · Feng 2026 三级分类框架（<i>Neurocomputing</i> 666:132135）</div>
+  </div>
+  <section class="en-summary" lang="en"><h2>In brief</h2><p>The Bounded Knapsack allows up to bᵢ copies of each item. The site expands each item type into independent 0/1 bits (copies 2–4 per item) on the same item distribution as the 0-1 knapsack, and compares algorithms by total value; a binary-splitting reduction to 0-1 knapsack is explained on the page.</p></section>
+  <div class="fambox"><div class="chips"><span class="chip"><b>变量域</b>&nbsp;整数 x∈{0,…,cᵢ}</span><span class="chip"><b>目标数</b>&nbsp;单目标</span><span class="chip"><b>复杂度</b>&nbsp;NP-hard（伪多项式 DP）</span><span class="chip"><b>约束</b>&nbsp;单个容量约束</span></div></div>
+  <h2>数学模型</h2>
+  <p><b>模型</b>：每种物品 i 有 bᵢ 件可用（有界），每件重量 wᵢ、价值 vᵢ；选择每种取几件，使总价值最大：</p><p class="eq">max Σ vᵢxᵢ&nbsp;&nbsp;s.t.&nbsp;&nbsp;Σ wᵢxᵢ ≤ C，xᵢ∈{0,1,…,bᵢ}</p><p>0-1 背包是 bᵢ=1 的特例，无界背包是 bᵢ=∞ 的特例。应用：库存有限的商品装箱、有数量限制的零件下料。标准的归约（Pisinger 2000 的最小算法）是用二进制拆分把 bᵢ 件拆成 ⌈log bᵢ⌉ 个 0-1 物品。</p>
+  <h2>与 0-1 背包的差异</h2>
+  <p>与 0-1 背包相比多了「同一种可取多件」的自由度；与<a href="../../../problem/knapsack/unbounded/index.html">无界背包</a>相比有上限。有趣的现象是<b>伪多项式 DP 的复杂度对 bᵢ 不敏感</b>——二进制拆分只使物品数乘以 log b。</p><ul><li><b>编码的冗余</b>：把每件当作独立的 0/1 位（本站的做法）会引入对称性——同一种物品的 b 件互换是同一个解；对元启发式搜索是冗余，但不改变最优值。</li></ul>
+  <h2>求解路径</h2>
+  <ul><li><b>精确</b>：伪多项式 DP O(nC log b)（二进制拆分）；Pisinger (2000) 的最小算法；分支定界与 0-1 背包相同的核心思想。</li><li><b>近似</b>：有 FPTAS（缩放价值，Ibarra &amp; Kim 1975 的思想对有界情形也适用）。</li><li><b>元启发式</b>：每件一个 0/1 位 + 容量修复（按密度剔除），本站用位向量编码套用全部 0-1 背包内核。</li></ul>
+  <h2>计算复杂度与可近似性</h2>
+  <p><b>弱 NP-困难</b>（含 0-1 背包），有伪多项式 DP 与 FPTAS；对 b 的输入编码长度，伪多项式算法是多项式的（二进制拆分后物品数 O(n log b)）。实际难度取决于数据的相关性：不相关的实例（本站）用 DP 或分支定界在毫秒内可解，强相关与子集和型实例则要慢几个数量级 (Pisinger 2005)。</p>
+  <h2>基准实例与已知结果</h2>
+  <p>标准基准是 Pisinger 的实例生成器（不相关 / 弱相关 / 强相关 / 逆强相关 / 子集和 / 几乎强相关等 8 类），把 bᵢ 设为 10、100 等；Pisinger (2000) 实验了 n=50–10000 的规模。评价：运行时间与命中最优的比例。</p>
+  <h2>本站的建模方式</h2>
+  <p>位向量编码的变体（保真度：<b>标准模型</b>）：n 种物品（默认 40），每种上限 bᵢ ∈ {2,3,4}，展开成 Σbᵢ 个独立的 0/1 位（每位 = 一件）；所有价值型变体共用同一个物品分布：重量 wᵢ ∈ [2,60]、价值 vᵢ ∈ [10,100] 的独立随机整数，容量 = 总重量的 45%——价值与重量<b>互不相关</b>（Pisinger 2005 的分类里属于最容易的「不相关」一族），所以贪心 / 局部搜索在这里都很强，难度远低于相关性更强的实例（强相关、子集和型）。目标 = −总价值 + 超重惩罚；修复算子按价值密度剔除。</p><p><b>与文献标准的差别</b>：不是 Pisinger 的相关性类别；上限 bᵢ 很小（2–4），所以体现不出「大 b」下二进制拆分的好处；位向量编码有同种物品互换的对称性。</p>
+  
+  <h2 id="demo">在线求解演示 · Bounded Knapsack (BKP)</h2>
+  <div class="fidelity fid-standard" role="note"><b>✅ 标准模型</b>　与教科书/文献定义一致，结果可与文献对照。</div>
+  <div class="panel">
+    <div class="panel-head">运行设置</div>
+    <div class="row">
+      <div class="field"><label for="algoSel">算法</label><select id="algoSel"><optgroup label="基线"><option value="random" data-tune='[]'>随机搜索</option></optgroup><optgroup label="物理·化学·数学启发"><option value="sa" data-tune='["t0", "decay"]'>模拟退火 SA</option><option value="bv_jaya" data-tune='[]'>Jaya（位）</option><option value="bv_sca" data-tune='[]'>正弦余弦 SCA（位）</option><option value="bv_eo" data-tune='[]'>均衡 EO（位）</option><option value="bv_gsa" data-tune='[]'>引力 GSA（位）</option></optgroup><optgroup label="进化计算"><option value="ga" data-tune='["pm"]'>遗传 GA</option><option value="de" data-tune='["F", "CR"]'>二进制差分 DE</option><option value="bv_cem" data-tune='[]'>交叉熵 CEM（位）</option><option value="bv_cmaes" data-tune='[]'>CMA-ES（位·对角近似）</option><option value="bv_bbo" data-tune='[]'>生物地理 BBO（位）</option></optgroup><optgroup label="局部搜索与轨迹法"><option value="ts" data-tune='["tenure"]'>禁忌搜索 TS</option><option value="ils" data-tune='[]'>迭代局部搜索 ILS</option><option value="vns" data-tune='[]'>变邻域搜索 VNS</option></optgroup><optgroup label="群体智能"><option value="abc" data-tune='["limit"]'>人工蜂群 ABC</option><option value="woa" data-tune='[]'>鲸鱼 WOA</option><option value="gwo" data-tune='[]'>灰狼 GWO</option><option value="cs" data-tune='["pa"]'>布谷鸟 CS</option><option value="bv_fa" data-tune='[]'>萤火虫 FA（位）</option><option value="bv_ba" data-tune='[]'>蝙蝠 BA（位）</option><option value="bv_pso" data-tune='[]'>粒子群 PSO（位）</option><option value="bv_mfo" data-tune='[]'>蛾焰 MFO（位）</option><option value="bv_ao" data-tune='[]'>天鹰 AO（位）</option><option value="bv_hho" data-tune='[]'>哈里斯鹰 HHO（位）</option><option value="bv_ssa" data-tune='[]'>麻雀搜索 SSA（位）</option><option value="bv_alo" data-tune='[]'>蚁狮优化 ALO（位）</option><option value="bv_boa" data-tune='[]'>蝴蝶优化 BOA（位）</option><option value="bv_salp" data-tune='[]'>樽海鞘群 Salp（位）</option><option value="bv_fpa" data-tune='[]'>花朵授粉 FPA（位）</option><option value="bv_da" data-tune='[]'>蜻蜓 DA（位）</option><option value="bv_mpa" data-tune='[]'>海洋掠食者 MPA（位）</option><option value="bv_cscrow" data-tune='[]'>乌鸦搜索 CSA（位）</option><option value="bv_kh" data-tune='[]'>磷虾群 KH（位）</option><option value="bv_afsa" data-tune='[]'>人工鱼群 AFSA（位）</option><option value="bv_fwa" data-tune='[]'>烟花算法 FWA（位）</option><option value="bv_sfla" data-tune='[]'>混合蛙跳 SFLA（位）</option><option value="bv_sos" data-tune='[]'>共生搜索 SOS（位）</option><option value="aco" data-tune='[]'>蚁群 ACO</option></optgroup><optgroup label="构造启发"><option value="greedy" data-tune='[]'>密度贪心</option></optgroup><optgroup label="人类与社会启发"><option value="bv_tlbo" data-tune='[]'>TLBO（位）</option><option value="bv_hs" data-tune='[]'>和声 HS（位）</option><option value="bv_ica" data-tune='[]'>帝国竞争 ICA（位）</option></optgroup></select></div>
+      <div class="field"><label for="presetSel">实例</label><select id="presetSel"><option value="v40">40 种 × 每件 2-4 拷贝</option>
+<option value="__custom">⚙ 自定义…</option></select></div>
+      <div class="field"><label for="iterInp">迭代次数</label><input id="iterInp" type="number" value="200" min="10" max="2000"></div>
+      <div class="field"><label for="seedInp">随机种子</label><input id="seedInp" type="number" value="7" min="1"></div>
+      <div class="field"><label for="speedSel">速度（代/帧）</label><select id="speedSel"><option>1</option><option selected>2</option><option>5</option><option>10</option></select></div>
+      <button id="btnStart" class="primary">▶ 开始</button>
+      <button id="btnStop">⏸ 暂停</button>
+      <button id="btnStep" title="推进一代">⏭ 单步</button>
+      <button id="btnReset">⟳ 重置</button>
+      <button id="btnExportDom" class="ghost">↧ 导出结果</button>
+      <button id="btnPngDom" class="ghost">↧ 图像PNG</button>
+      <button id="btnConvDom" class="ghost">↧ 曲线PNG</button>
+      <button id="btnCsvDom" class="ghost">↧ 导出CSV</button>
+      <button id="btnBundleDom" class="ghost">📦 实验包</button>
+      <button id="btnImportDom" class="ghost">↥ 导入实例</button>
+      <input id="domFileInput" type="file" accept=".json,.csv,.txt,.cnf,.col,.tsp,.atsp,application/json,text/csv" hidden>
+    </div>
+    <div class="row" id="tuneBox"></div>
+    <div class="row" id="customRow" hidden><div class="field"><label>物品数 n</label><input id="cst_n" type="number" value="40" min="10" max="300" step="1"></div></div>
+  </div>
+  <div class="statusline">
+    <span class="pill" id="statusPill"><span class="dot"></span><span id="statusText" role="status" aria-live="polite">初始化中…</span></span>
+    <span id="statusExtra">同一件有多个拷贝（复制展开成位）：柱=拷贝 亮=选中</span>
+  </div>
+  <div id="importReport" class="import-report" role="status" hidden></div>
+  <p class="hint import-hint">「导入实例」支持 .json / .csv / .cnf / .col，导入前会先校验并指出问题所在。
+    <a id="lnkSample" download>下载本页示例数据</a> · <a id="lnkFormats" target="_blank" rel="noopener">格式说明</a></p>
+
+  <div class="cols" style="margin-top:10px">
+    <div>
+      <div class="chart-card">
+        <div class="chart-head"><span class="chart-title">问题可视化</span></div>
+        <div class="chart-body"><canvas id="vizCanvas" role="img" aria-label="问题可视化：当前实例与解状态的可视化，数值可导出 JSON" width="760" height="430"></canvas></div>
+      </div>
+    </div>
+    <div>
+      <div class="chart-card">
+        <div class="chart-head"><span class="chart-title">收敛曲线</span>
+          <div class="legend"><span><i class="dotm" style="background:var(--cv-best)"></i>全局最优</span><span><i class="dotm" style="background:var(--cv-cur)"></i>当代</span></div>
+        </div>
+        <div class="chart-body"><canvas id="convCanvas" role="img" aria-label="收敛曲线：全局最优与当代值随迭代变化，数值可导出 JSON" width="760" height="430"></canvas></div>
+      </div>
+    </div>
+  </div>
+  <p class="hint">红线=全局最优（单调），灰线=当代值（允许波动）。算法在浏览器本地运行（Pyodide），首次加载约 10MB。</p>
+  
+  <script>
+  window.PAGE_DOMAIN = "kpvar";
+  window.PAGE_PRESETS = {"v40": {"variant": "bkp", "n": 40}};
+  window.PAGE_CUSTOM_FIELDS = [{"key": "n", "label": "物品数 n", "min": 10, "max": 300, "val": 40}];
+  window.PAGE_CUSTOM_BASE = "v40";
+  window.PAGE_DEFAULTS = {"n_pop": 30, "pm": 0.04, "t0": 25.0, "decay": 0.995, "tries": 20, "tenure": 8, "ts_sample": 40, "restart_at": 25, "max_iter": 200, "seed": 7, "walk_p": 0.45, "F": 0.7, "CR": 0.6, "limit": 12, "pa": 0.25};
+  </script>
+  <script src="../../../js/compat.js"></script>
+  <script src="../../../js/domain_page.js"></script>
+
+  <p class="hint" style="margin-top:14px">归约邻居：<a class="chip" href="../../../problem/reductions/index.html" title="二进制拆分：物品 i 拆成 ⌊log cᵢ⌋+1 捆（1,2,4,…,cᵢ−2^k+1 件），BKP 转 0-1 KP">→ 归约 · 0-1 背包</a> <a class="chip" href="../../../problem/reductions/index.html" title="UKP 是 BKP 的特例：取有效上界 cᵢ=⌊C/wᵢ⌋ 即退化为有界背包">← 特例 · 无界背包</a>　（完整关系图见 <a href="../../../problem/reductions/index.html">问题归约页</a>）</p>
+  <h2>出处与经典文献</h2><ul class="src"><li>Kellerer, Pferschy &amp; Pisinger (2004). Knapsack Problems. Springer（第 7 章 有界背包）</li><li>Pisinger (2000). A minimal algorithm for the bounded knapsack problem. INFORMS Journal on Computing, 12(1), 75-82</li><li>Martello &amp; Toth (1990). Knapsack Problems: Algorithms and Computer Implementations. Wiley</li><li>Pisinger (2005). Where are the hard knapsack problems? Computers &amp; Operations Research, 32(9), 2271-2284</li><li>Ibarra &amp; Kim (1975). Fast approximation algorithms for the knapsack and sum of subset problems. Journal of the ACM, 22(4), 463-468</li><li>Bellman (1957). Dynamic Programming. Princeton University Press</li></ul>
+  
+  <h2>背包变体谱系（本站 11 页）</h2>
+  <div class="fambox"><div class="chips">
+    <a class="chip" href="../../../problem/knapsack/index.html"><b>0-1 背包</b>&nbsp;枢纽·在线演示</a>
+    <a class="chip" href="../../../problem/knapsack/fractional/index.html">分数背包</a><a class="chip" href="../../../problem/knapsack/bounded/index.html">有界背包</a><a class="chip" href="../../../problem/knapsack/unbounded/index.html">无界背包</a><a class="chip" href="../../../problem/knapsack/changemaking/index.html">找零问题</a><a class="chip" href="../../../problem/knapsack/multiple/index.html">多背包</a><a class="chip" href="../../../problem/knapsack/multiplechoice/index.html">多选择背包</a><a class="chip" href="../../../problem/knapsack/multidim/index.html">多维背包</a><a class="chip" href="../../../problem/knapsack/discounted/index.html">折扣背包</a><a class="chip" href="../../../problem/knapsack/quadratic/index.html">二次背包</a><a class="chip" href="../../../problem/knapsack/subsetsum/index.html">子集和</a>
+  </div></div>
+
+</div>
+<footer>
+</footer>
+<script>
+(function(){
+  var b=document.getElementById("themeToggle");if(!b)return;
+  var root=document.documentElement;
+  function sync(){b.textContent=root.getAttribute("data-theme")==="dark"?"☀️":"🌙";}
+  b.onclick=function(){
+    var n=root.getAttribute("data-theme")==="dark"?"light":"dark";
+    root.setAttribute("data-theme",n);
+    try{localStorage.setItem("theme",n)}catch(e){}
+    sync();
+    window.dispatchEvent(new CustomEvent("themechange"));
+  };
+  sync();
+})();
+(function(){
+  if(location.protocol!=="file:")return;
+  var d=document.createElement("div");
+  d.className="file-warn";
+  d.innerHTML="⚠️ 当前通过 <b>file://</b> 直接打开：页面浏览可用，但<b>交互演示（运行算法）需要经 http 访问</b>——请在项目目录双击 <code>start_server.bat</code>（或运行 <code>python serve.py</code>），再访问 http://localhost:8000 。";
+  document.body.insertBefore(d,document.body.firstChild);
+})();
+/* S8-C 触屏（hover 不可用）：点 .dd-btn 展开/收起面板，不再直接跳走（P1-2 修复）。
+   桌面 hover 环境不拦截（matchMedia('(hover: hover)') 为真时不处理）。 */
+(function(){
+  document.querySelectorAll(".dd-btn").forEach(function(b){
+    b.addEventListener("click", function(e){
+      if(window.matchMedia("(hover: hover)").matches) return;  // 桌面 hover 环境不拦截
+      e.preventDefault();
+      var dd=b.parentElement;
+      var wasOpen=dd.classList.contains("open");
+      document.querySelectorAll(".dd.open").forEach(function(o){ o.classList.remove("open"); });
+      if(!wasOpen) dd.classList.add("open");
+    });
+  });
+  document.addEventListener("click", function(e){
+    if(!e.target.closest(".dd")) document.querySelectorAll(".dd.open").forEach(function(o){ o.classList.remove("open"); });
+  });
+})();
+/* 长表词条过滤（planned>20 的家族页，P1-3）：输入即按行文本 includes 过滤 + 计数 */
+(function(){
+  document.querySelectorAll(".plfilter").forEach(function(inp){
+    var wrap=inp.closest(".plwrap");
+    var tbl=wrap.parentElement.querySelector(".pltbl table");
+    var cnt=wrap.querySelector(".plcount");
+    if(!tbl||!cnt) return;
+    var total=parseInt(inp.getAttribute("data-plcount"),10)||tbl.querySelectorAll("tr").length-1;
+    var trs=tbl.querySelectorAll("tr");
+    inp.addEventListener("input", function(){
+      var q=inp.value.trim().toLowerCase(), n=0;
+      for(var i=1;i<trs.length;i++){
+        var hit=!q||trs[i].textContent.toLowerCase().indexOf(q)>=0;
+        trs[i].style.display=hit?"":"none"; if(hit) n++;
+      }
+      cnt.textContent="显示 "+n+"/"+total;
+    });
+  });
+})();
+</script>
+</body>
+</html>

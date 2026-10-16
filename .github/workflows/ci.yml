@@ -1,0 +1,72 @@
+name: CI
+
+# 快档：每次推送 / PR，三个 Python 版本（约几分钟）。
+# 慢档：合并到主干、每晚、手动触发——全部测试 + 在真实 Pyodide 里把黄金快照整张重跑一遍。
+on:
+  push:
+    branches: [main]
+  pull_request:
+  schedule:
+    - cron: "17 3 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+env:
+  # 构建时写进 canonical / og:url / sitemap 的站点根地址；仓库里提交的生成物也是用同一个值构建的（见 README「开发」）
+  SWARM_SITE_URL: https://funnywayike.github.io/swarm-encyclopedia
+
+jobs:
+  fast:
+    name: fast (Python ${{ matrix.python }})
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        python: ["3.12", "3.13", "3.14"]
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python }}
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+      - run: python -m pip install pytest
+      - name: build pages (also regenerates the browser engine sources)
+        run: python build_pages.py
+      - name: generated files are committed and up to date
+        # 构建产物（页面、js/*_src.js、samples/ ……）也在仓库里：改了源码却忘了重新构建，这里会失败
+        run: git diff --exit-code --stat
+      - name: site self-check
+        run: python selfcheck.py
+      - name: fast tests
+        run: python -m pytest tests -q -m "not slow" -p no:cacheprovider
+
+  slow:
+    name: slow (full tests + Pyodide parity)
+    if: github.event_name != 'pull_request'
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+      - run: python -m pip install pytest
+      - run: python build_pages.py
+      - name: all tests (including the slow ones)
+        run: python -m pytest tests -q -p no:cacheprovider
+      - name: golden snapshot (CPython)
+        run: python tools/golden.py
+      - name: Pyodide parity — the browser engine reproduces the golden snapshot
+        # 真实 Pyodide（vendor/pyodide，自带的 Python 版本见脚本输出）里执行站点发给浏览器的那份源码，逐项对照黄金快照
+        run: node tools/pyodide_parity.mjs
+      - name: Pyodide smoke — TSP step / step_k / run_all protocol
+        run: node tools/pyodide_smoke.mjs
+        env:
+          PYODIDE_MJS: ${{ github.workspace }}/vendor/pyodide/pyodide.mjs

@@ -1,0 +1,648 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title data-en="Domain × algorithm coverage matrix · atomic-architecture board">域×算法覆盖矩阵 · 原子架构看板</title>
+<meta name="description" content="每个问题域可跑的全部算法：位向量/排列/指派三大原子适配层的覆盖状态，全部通过严口径「真优化」校验门。">
+<link rel="canonical" href="https://funnywayike.github.io/swarm-encyclopedia/coverage/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="群智能算法百科">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:title" content="域×算法覆盖矩阵 · 原子架构看板">
+<meta property="og:description" content="每个问题域可跑的全部算法：位向量/排列/指派三大原子适配层的覆盖状态，全部通过严口径「真优化」校验门。">
+<meta property="og:url" content="https://funnywayike.github.io/swarm-encyclopedia/coverage/">
+<meta property="og:image" content="https://funnywayike.github.io/swarm-encyclopedia/assets/og-cover.png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="域×算法覆盖矩阵 · 原子架构看板">
+<meta name="twitter:description" content="每个问题域可跑的全部算法：位向量/排列/指派三大原子适配层的覆盖状态，全部通过严口径「真优化」校验门。">
+<meta name="twitter:image" content="https://funnywayike.github.io/swarm-encyclopedia/assets/og-cover.png">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 100 100%27%3E%3Ctext y=%27.9em%27 font-size=%2790%27%3E%F0%9F%90%9D%3C/text%3E%3C/svg%3E">
+<meta name="theme-color" content="#f7f7f8" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#0b0d12" media="(prefers-color-scheme: dark)">
+<meta property="og:title" content="域×算法覆盖矩阵 · 原子架构看板">
+<meta property="og:description" content="每个问题域可跑的全部算法：三大原子适配层覆盖状态一览。">
+<meta property="og:image" content="https://funnywayike.github.io/swarm-encyclopedia/assets/og-cover.png">
+<script src="../js/i18n.js"></script>
+<script>
+(function(){var t=null;try{t=localStorage.getItem("theme")}catch(e){}
+if(!t)t=(window.matchMedia&&matchMedia("(prefers-color-scheme: dark)").matches)?"dark":"light";
+document.documentElement.setAttribute("data-theme",t);})();
+</script>
+<link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+<a class="skip-link" href="#main">跳到主内容</a>
+<nav class="nav"><div class="nav-inner">
+  <a class="brand" href="../index.html"><span class="logo">🐝</span>群智能算法百科</a>
+  <div class="nav-links">
+  <a href="../index.html">首页</a>
+  <div class="dd"><a class="dd-btn" href="../algo/index.html">算法 <span class="caret">▾</span></a><div class="dd-panel dd-wide"><div class="dd-grid"><div class="dd-group"><a class="dd-fam" title="种群 + 选择 + 重组/变异的 Darwin 机器——EC 正统主线，本站收录 GA、DE、BBO 与 EDA/ES 分支。" href="../algo/f1-ea/index.html">进化算法族 EA<span class="hint">5 算法 · 1 配方 · 9 词条</span></a><a class="dd-item" href="../algo/f1-ea/ga/index.html">🧬&nbsp;遗传算法 GA</a><a class="dd-item" href="../algo/f1-ea/de/index.html">📉&nbsp;差分进化 DE</a><a class="dd-item" href="../algo/f1-ea/cem/index.html">🎲&nbsp;交叉熵方法 CEM</a><a class="dd-item" href="../algo/f1-ea/cma-es/index.html">⚙&nbsp;协方差矩阵自适应进化策略 CMA-ES</a><a class="dd-item" href="../algo/f1-ea/bbo/index.html">🏝️&nbsp;生物地理 BBO</a><a class="dd-item" href="../algo/f1-ea/steady-ga/index.html">🧪&nbsp;稳态 GA（组合）</a></div><div class="dd-group"><a class="dd-fam" title="简单个体的局部交互涌现出群体智能——本站收录最密的家族。" href="../algo/f2-si/index.html">群智能族 SI<span class="hint">26 算法 · 1 词条</span></a><a class="dd-item" href="../algo/f2-si/pso/index.html">🌀&nbsp;粒子群算法 PSO</a><a class="dd-item" href="../algo/f2-si/aco/index.html">🐜&nbsp;蚁群算法 ACO</a><a class="dd-item" href="../algo/f2-si/abc/index.html">🐝&nbsp;人工蜂群 ABC</a><a class="dd-item" href="../algo/f2-si/fa/index.html">✨&nbsp;萤火虫算法 FA</a><a class="dd-item" href="../algo/f2-si/woa/index.html">🐋&nbsp;鲸鱼优化 WOA</a><a class="dd-item" href="../algo/f2-si/gwo/index.html">🐺&nbsp;灰狼优化 GWO</a><a class="dd-item" href="../algo/f2-si/cs/index.html">🐦&nbsp;布谷鸟搜索 CS</a><a class="dd-item" href="../algo/f2-si/hho/index.html">🦅&nbsp;哈里斯鹰 HHO</a><a class="dd-item" href="../algo/f2-si/ba/index.html">🦇&nbsp;蝙蝠算法 BA</a><a class="dd-item" href="../algo/f2-si/bfo/index.html">🦠&nbsp;细菌觅食 BFO</a><a class="dd-item" href="../algo/f2-si/mfo/index.html">🕯️&nbsp;蛾焰优化 MFO</a><a class="dd-item" href="../algo/f2-si/fwa/index.html">🎆&nbsp;烟花算法 FWA</a><a class="dd-item" href="../algo/f2-si/afsa/index.html">🐟&nbsp;人工鱼群 AFSA</a><a class="dd-item" href="../algo/f2-si/ssa/index.html">🐦&nbsp;麻雀搜索 SSA</a><a class="dd-item" href="../algo/f2-si/alo/index.html">🕳️&nbsp;蚁狮优化 ALO</a><a class="dd-item" href="../algo/f2-si/boa/index.html">🦋&nbsp;蝴蝶优化 BOA</a><a class="dd-item" href="../algo/f2-si/salp/index.html">⛓️&nbsp;樽海鞘群 Salp</a><a class="dd-item" href="../algo/f2-si/sfla/index.html">🐸&nbsp;混合蛙跳 SFLA</a><a class="dd-item" href="../algo/f2-si/fpa/index.html">🌸&nbsp;花朵授粉 FPA</a><a class="dd-item" href="../algo/f2-si/kh/index.html">🦐&nbsp;磷虾群 KH</a><a class="dd-item" href="../algo/f2-si/sos/index.html">🤝&nbsp;共生搜索 SOS</a><a class="dd-item" href="../algo/f2-si/da/index.html">🐉&nbsp;蜻蜓 DA</a><a class="dd-item" href="../algo/f2-si/mpa/index.html">🦈&nbsp;海洋掠食者 MPA</a><a class="dd-item" href="../algo/f2-si/cscrow/index.html">🐦‍⬛&nbsp;乌鸦搜索 CSA</a><a class="dd-item" href="../algo/f2-si/ao/index.html">🦅&nbsp;天鹰 AO</a><a class="dd-item" href="../algo/f2-si/sma/index.html">🟠&nbsp;黏菌算法 SMA</a></div><div class="dd-group"><a class="dd-fam" title="退火、引力、均衡池、正弦余弦、零参数——把物理过程或数学公式当搜索算子，不靠生物隐喻。" href="../algo/f3-phys/index.html">物理、化学与数学启发<span class="hint">5 算法 · 3 词条</span></a><a class="dd-item" href="../algo/f3-phys/sa/index.html">🌡️&nbsp;模拟退火 SA</a><a class="dd-item" href="../algo/f3-phys/sca/index.html">🌊&nbsp;正弦余弦 SCA</a><a class="dd-item" href="../algo/f3-phys/gsa/index.html">🪐&nbsp;引力搜索 GSA</a><a class="dd-item" href="../algo/f3-phys/jaya/index.html">🏆&nbsp;Jaya 算法 JAYA</a><a class="dd-item" href="../algo/f3-phys/eo/index.html">⚗️&nbsp;均衡 EO</a></div><div class="dd-group"><a class="dd-fam" title="教学、和声、帝国竞争——把人类的学习、艺术与政治行为当搜索隐喻。" href="../algo/f4-human/index.html">人类与社会启发<span class="hint">3 算法 · 1 词条</span></a><a class="dd-item" href="../algo/f4-human/hs/index.html">🎵&nbsp;和声搜索 HS</a><a class="dd-item" href="../algo/f4-human/tlbo/index.html">🎓&nbsp;教与学优化 TLBO</a><a class="dd-item" href="../algo/f4-human/ica/index.html">🏛️&nbsp;帝国竞争 ICA</a></div><div class="dd-group"><a class="dd-fam" title="免疫系统——SI/EA 之外的生物启发收容位。" href="../algo/f5-bio/index.html">免疫与其他生物<span class="hint">1 算法 · 1 词条</span></a><a class="dd-item" href="../algo/f5-bio/ais/index.html">🛡️&nbsp;克隆选择 AIS</a></div><div class="dd-group"><a class="dd-fam" title="不靠种群隐喻，靠「邻域结构 + 接受准则」的工程学——禁忌、变邻域、迭代局部搜索、GRASP。" href="../algo/f10-trajectory/index.html">局部搜索与轨迹法<span class="hint">4 算法 · 1 词条</span></a><a class="dd-item" href="../algo/f10-trajectory/ts/index.html">🔒&nbsp;禁忌搜索 TS</a><a class="dd-item" href="../algo/f10-trajectory/ils/index.html">🔄&nbsp;迭代局部搜索 ILS</a><a class="dd-item" href="../algo/f10-trajectory/vns/index.html">🧭&nbsp;变邻域搜索 VNS</a><a class="dd-item" href="../algo/f10-trajectory/grasp/index.html">🎲&nbsp;GRASP</a></div><div class="dd-group"><a class="dd-fam" title="元启发式 × 数学规划 × 代理模型 × 自动配置——不发明新隐喻，只做组装厂，实战价值密度最高的家族。" href="../algo/f6-hybrid/index.html">混合与框架层<span class="hint">5 配方 · 5 词条</span></a><a class="dd-item" href="../algo/f6-hybrid/memetic/index.html">🧪&nbsp;Memetic GA（组合）</a><a class="dd-item" href="../algo/f6-hybrid/ils/index.html">🧪&nbsp;迭代局部搜索 ILS（组合）</a><a class="dd-item" href="../algo/f6-hybrid/hh/index.html">🧪&nbsp;选择式超启发式（组合）</a><a class="dd-item" href="../algo/f6-hybrid/saea/index.html">🧪&nbsp;代理辅助进化 SAEA（组合）</a><a class="dd-item" href="../algo/f6-hybrid/matheur/index.html">🧪&nbsp;Fix-and-Optimize（组合）</a></div><div class="dd-group"><a class="dd-fam" title="Pareto 支配下的进化计算——NSGA 五代演进与分解式方法的双雄会。" href="../algo/f7-mo/index.html">多目标专族<span class="hint">2 域内实现 · 3 词条</span></a><a class="dd-item" href="../problem/multiobj/?algo=nsga2#demo">NSGA-II（Deb 2002）&nbsp;<span class="hint">域内实现</span></a><a class="dd-item" href="../problem/multiobj/?algo=wsga#demo">加权 GA（WSGA）&nbsp;<span class="hint">域内实现</span></a></div><div class="dd-group"><a class="dd-fam" title="Quality-Diversity、神经组合优化、LLM 自动算法设计——元启发式的新大陆。" href="../algo/f8-new/index.html">新范式（2020s）<span class="hint">1 配方 · 4 词条</span></a><a class="dd-item" href="../algo/f8-new/mapelites/index.html">🧪&nbsp;MAP-Elites QD（组合）</a></div><div class="dd-group"><a class="dd-fam" title="一隐喻一算法的量产线——本站如实收录机制，同时强制挂批评视角，这是全网同类站都没有的诚实。" href="../algo/f9-metaphor/index.html">隐喻量产线（批评视角专区）<span class="hint">66 词条</span></a><a class="dd-item dd-entry" href="../algo/f9-metaphor/index.html">查看 66 个收录词条 →</a></div><div class="dd-group"><a class="dd-fam" title="非元启发式的专用结构化搜索与精确求解器对照位——现役首例：TSP 的 LKH 谱系，随各问题域扩容。" href="../algo/f0-elite/index.html">专用求解对照系<span class="hint">1 算法 · 1 词条</span></a><a class="dd-item" href="../algo/f0-elite/lk/index.html">🧭&nbsp;Lin–Kernighan LK</a></div></div><div class="hint" style="padding:10px 6px 0">共 45 个实际算法（⚙ 图标）；🧪 标记为组合配方、f7/f8 组内带域内实现入口——比算法本体多几项属正常。</div></div></div>
+  <div class="dd"><a class="dd-btn" href="../problem/index.html">问题 <span class="caret">▾</span></a><div class="dd-panel dd-wide prob-wide"><div class="prob-cols"><div class="dd-col"><a class="dd-fam" href="../problem/tsp/index.html">旅行商问题 TSP</a><a class="dd-item" href="../problem/lop/index.html">线性排序问题 LOP</a><a class="dd-item" href="../problem/vrp/index.html">车辆路径问题 VRP</a><a class="dd-item" href="../problem/vrptw/index.html">带时间窗的车辆路径问题 VRPTW</a><a class="dd-item" href="../problem/vrpstw/index.html">软时间窗车辆路径问题 VRPSTW</a><a class="dd-item" href="../problem/mdvrp/index.html">多车场车辆路径问题 MDVRP</a><a class="dd-item" href="../problem/sms/index.html">单机调度 SMS</a><a class="dd-item" href="../problem/fss/index.html">流水车间调度 FSS</a><a class="dd-item" href="../problem/jss/index.html">作业车间调度 JSS</a><a class="dd-item" href="../problem/hcycle/index.html">哈密顿回路 HC</a><a class="dd-item" href="../problem/lpath/index.html">最长路径 LP</a><a class="dd-item" href="../problem/fjsp/index.html">柔性作业车间调度 FJSP</a><a class="dd-item" href="../problem/carp/index.html">带容量弧路由问题 CARP</a><a class="dd-item" href="../problem/rpostman/index.html">乡村邮递员问题 RPP</a><a class="dd-item" href="../problem/oss/index.html">开放车间调度 OSS</a><a class="dd-item" href="../problem/rcpsp/index.html">资源受限项目调度 RCPSP</a><a class="dd-item" href="../problem/orienteering/index.html">定向运动问题 OP</a><a class="dd-item" href="../problem/atsp/index.html">非对称旅行商问题 ATSP</a><a class="dd-item" href="../problem/pms/index.html">并行机调度（最小化最大完工时间） PMS</a></div><div class="dd-col"><a class="dd-fam" href="../problem/knapsack/index.html">背包问题枢纽</a><a class="dd-item" href="../problem/knapsack/fractional/index.html">分数背包</a><a class="dd-item" href="../problem/knapsack/bounded/index.html">有界背包</a><a class="dd-item" href="../problem/knapsack/unbounded/index.html">无界背包</a><a class="dd-item" href="../problem/knapsack/changemaking/index.html">找零问题</a><a class="dd-item" href="../problem/knapsack/multiple/index.html">多背包</a><a class="dd-item" href="../problem/knapsack/multiplechoice/index.html">多选择背包</a><a class="dd-item" href="../problem/knapsack/multidim/index.html">多维背包</a><a class="dd-item" href="../problem/knapsack/discounted/index.html">折扣背包</a><a class="dd-item" href="../problem/knapsack/quadratic/index.html">二次背包</a><a class="dd-item" href="../problem/knapsack/subsetsum/index.html">子集和</a><a class="dd-item" href="../problem/setcover/index.html">集合覆盖 SCP</a><a class="dd-item" href="../problem/misindep/index.html">最大独立集 MIS</a><a class="dd-item" href="../problem/vcover/index.html">顶点覆盖 VC</a><a class="dd-item" href="../problem/domset/index.html">支配集 DS</a><a class="dd-item" href="../problem/mclique/index.html">最大团 MCP</a><a class="dd-item" href="../problem/setpack/index.html">集合打包 SPK</a><a class="dd-item" href="../problem/hset/index.html">碰集/击集 HIT</a><a class="dd-item" href="../problem/fvs/index.html">反馈顶点集 FVS</a></div><div class="dd-col"><a class="dd-fam" href="../problem/assignment/index.html">分配与选址</a><a class="dd-item" href="../problem/lap/index.html">线性指派 LAP</a><a class="dd-item" href="../problem/tdm/index.html">3-维匹配 3DM</a></div><div class="dd-col"><a class="dd-fam" href="../problem/binpack/index.html">装箱问题</a><a class="dd-item" href="../problem/binpack2d/index.html">二维装箱 2D-BPP</a><a class="dd-item" href="../problem/strippack/index.html">条带装箱 SPP</a><a class="dd-item" href="../problem/vsbinpack/index.html">变尺寸箱装箱 VSBPP</a><a class="dd-item" href="../problem/cutstock/index.html">一维下料 CSP</a><a class="dd-item" href="../problem/gpp/index.html">图划分 GPP</a><a class="dd-item" href="../problem/numpart/index.html">数分割问题 NPP</a></div><div class="dd-col"><a class="dd-fam" href="../problem/graphcolor/index.html">图着色</a><a class="dd-item" href="../problem/listcolor/index.html">列表着色 LCP</a><a class="dd-item" href="../problem/edgecolor/index.html">边着色 ECP</a><a class="dd-item" href="../problem/precolor/index.html">预着色扩展 PrExt</a><a class="dd-item" href="../problem/totalcolor/index.html">全着色 TCP</a><a class="dd-item" href="../problem/freqasg/index.html">频率分配问题 FAP</a></div><div class="dd-col"><a class="dd-fam" href="../problem/qubo/index.html">QUBO 与密码类</a><a class="dd-item" href="../problem/sat/index.html">可满足性问题 SAT</a><a class="dd-item" href="../problem/maxsat/index.html">最大可满足性 MAX-SAT</a><a class="dd-item" href="../problem/maxcut/index.html">最大割 MAX-CUT</a><a class="dd-item" href="../problem/csplogic/index.html">约束满足问题 CSP-Logic</a></div><div class="dd-col"><a class="dd-fam" href="../problem/continuous/index.html">连续优化</a><a class="dd-item" href="../problem/bbob/index.html">BBOB 基准套件 BBOB</a><a class="dd-item" href="../problem/cbbb/index.html">约束黑箱优化 CBBB</a><a class="dd-item" href="../problem/nbbb/index.html">噪声黑箱优化 NBBB</a><a class="dd-item" href="../problem/lbbb/index.html">大规模黑箱优化 LBBB</a><a class="dd-item" href="../problem/ebbb/index.html">昂贵黑箱优化 EBBB</a><a class="dd-item" href="../problem/ecd/index.html">工程约束设计 ECD</a></div><div class="dd-col"><a class="dd-fam" href="../problem/multiobj/index.html">多目标优化</a><a class="dd-item" href="../problem/zdt/index.html">ZDT 双目标基准 ZDT</a><a class="dd-item" href="../problem/dtlz/index.html">DTLZ 三目标基准 DTLZ</a><a class="dd-item" href="../problem/maop/index.html">超多目标优化 MaOP</a><a class="dd-item" href="../problem/moco/index.html">组合多目标优化 MOCO</a><a class="dd-item" href="../problem/prefmo/index.html">偏好多目标范式 PREFMO</a><a class="dd-item" href="../problem/decompo/index.html">分解多目标范式 DECOMPO</a><a class="dd-item" href="../problem/indicmo/index.html">指标多目标范式 INDICMO</a></div><div class="dd-col"><a class="dd-fam" href="../problem/uflp/index.html">设施选址 UFLP</a><a class="dd-item" href="../problem/cflp/index.html">容量设施选址 CFLP</a><a class="dd-item" href="../problem/lrp/index.html">选址-路径联合 LRP</a><a class="dd-item" href="../problem/stp/index.html">斯坦纳树 STP</a><a class="dd-item" href="../problem/ndp/index.html">网络设计 NDP</a><a class="dd-item" href="../problem/qap/index.html">二次分配问题 QAP</a><a class="dd-item" href="../problem/pmedian/index.html">p-中位问题 PMED</a><a class="dd-item" href="../problem/pcenter/index.html">p-中心问题 PCEN</a><a class="dd-item" href="../problem/kmeans/index.html">k-均值聚类（中心点优化） KMEANS</a></div><div class="dd-col"><span class="dd-fam">排课与排班（纯词条）</span><a class="dd-item" href="../problem/etp/index.html">考试排课 ETP</a><a class="dd-item" href="../problem/ctp/index.html">课程排课 CTP</a><a class="dd-item" href="../problem/nrp/index.html">护士排班 NRP</a><a class="dd-item" href="../problem/ttp/index.html">旅行锦标赛问题 TTP</a><a class="dd-item" href="../problem/sls/index.html">体育联赛排程 SLS</a></div><div class="dd-col"><span class="dd-fam">图与网络流（词条与多项式可解对照）</span><a class="dd-item" href="../problem/mst/index.html">最小生成树 MST</a><a class="dd-item" href="../problem/shortestpath/index.html">最短路径 SP</a><a class="dd-item" href="../problem/maxflow/index.html">最大流问题 MF</a><a class="dd-item" href="../problem/mincostflow/index.html">最小费用流问题 MCF</a><a class="dd-item" href="../problem/topsort/index.html">拓扑排序 TSORT</a><a class="dd-item" href="../problem/gmatch/index.html">一般图匹配 GM</a></div><div class="dd-col"><span class="dd-fam">开放登记（优化场景与应用专题）</span><a class="dd-item" href="../problem/blo/index.html">双层优化 BLO</a><a class="dd-item" href="../problem/ro/index.html">鲁棒优化 RO</a><a class="dd-item" href="../problem/mmo/index.html">多模态优化 MMO</a><a class="dd-item" href="../problem/dop/index.html">动态优化 DOP</a><a class="dd-item" href="../problem/ged/index.html">生成式设计 GD</a><a class="dd-item" href="../problem/proteinfold/index.html">蛋白质折叠（格点模型） HP</a><a class="dd-item" href="../problem/msa/index.html">多序列比对 MSA</a></div><div class="dd-col"><a class="dd-fam" href="../problem/reductions/index.html">归约页 · 全谱词条</a></div></div></div></div>
+  <div class="dd"><a class="dd-btn" href="../encyclopedia/index.html">科普 <span class="caret">▾</span></a><div class="dd-panel"><div class="dd-col"><a class="dd-item" href="../encyclopedia/index.html#intro">❓&nbsp;什么是元启发式？（3 分钟入门）</a><div class="hint" style="padding:2px 10px 8px">小白从这里进：入门 → 理论/批评/实验方法学 → 交叉矩阵与应用地图（研究级硬核内容，按需取用）。</div><a class="dd-item" href="../meta/theory/index.html">📐&nbsp;理论基础</a><a class="dd-item" href="../meta/criticism/index.html">🔍&nbsp;批评史</a><a class="dd-item" href="../meta/methodology/index.html">🧪&nbsp;实验方法学</a><a class="dd-item" href="../meta/timeline/index.html">🕰️&nbsp;五十年时间轴</a><a class="dd-item" href="../encyclopedia/index.html" title="百科全书（研究级）">📌&nbsp;百科全书</a><a class="dd-item" href="../matrix/index.html" title="交叉矩阵（研究级）">📌&nbsp;交叉矩阵</a><a class="dd-item" href="../applications/index.html" title="应用地图（研究级）">📌&nbsp;应用地图</a><span class="dd-fam">给贡献者</span><a class="dd-item" href="../coverage/index.html" title="覆盖看板：写给想参与维护或扩展本站的人">🛠&nbsp;覆盖看板</a><a class="dd-item" href="../components/index.html" title="组件库：写给想参与维护或扩展本站的人">🛠&nbsp;组件库</a><a class="dd-item" href="../discovery/index.html" title="候选发现池：写给想参与维护或扩展本站的人">🛠&nbsp;候选发现池</a></div></div></div>
+  <a href="../demo/index.html">▶ 演示</a>
+  <a href="../guide/index.html">上手</a>
+  <a href="../compare/index.html">算法对比</a>
+  </div>
+  <button id="langToggle" class="theme-btn lang-btn" title="Switch to English / 切换到英文" aria-label="Language">EN</button><button id="themeToggle" class="theme-btn" title="切换日间/夜间模式" aria-label="切换主题">🌙</button>
+</div></nav>
+<main class="wrap" id="main">
+  <div class="contrib-note"><b>📎 写给贡献者的页面</b>：这里讲的是本站的内部结构与收录进度，面向想参与维护、扩展算法或问题的人。只想用算法、学知识？回到 <a href="../encyclopedia/index.html">百科总纲</a> 就够了。</div>
+  <h1 data-en="Domain × algorithm coverage matrix">域×算法 覆盖矩阵<br><span class="grad">原子架构看板</span></h1>
+  <p class="lead">算法原子（内核）× 问题原子（ctx 协议）× 声明式注册——每个问题域尽可能对应所有收纳实现的算法。
+  三大原子适配层：<b>bv 系</b>（位向量，sigmoid 二值化）、<b>pk 系</b>（排列，随机键 Bean 1994）、<b>as 系</b>（指派，round+clamp）。
+  每格都要在<b>同等评估预算</b>下与随机搜索比较（见下方「同等评估预算实测」），没有稳定胜出的格子会被撤下。</p>
+
+  <h2>各域算法概览（合计 649 格，其中原子适配 405 格）</h2>
+  <div class="tblwrap"><table class="tbl">
+    <thead><tr><th>问题域</th><th>编码类</th><th>算法总数</th><th>bv（位）</th><th>pk（排列）</th><th>as（指派）</th><th>域原生</th></tr></thead>
+    <tbody>
+      <tr><td><a href="../problem/continuous/index.html">连续函数优化</a></td><td>实向量</td>
+        <td><b>41</b></td><td>—</td><td>—</td><td>—</td>
+        <td>41</td></tr>
+      <tr><td><a href="../problem/knapsack/index.html">0-1 背包</a></td><td>位向量</td>
+        <td><b>46</b></td><td>32</td><td>—</td><td>—</td>
+        <td>14</td></tr>
+      <tr><td><a href="../problem/knapsack/index.html">背包变体谱系</a></td><td>位/指派</td>
+        <td><b>49</b></td><td>32</td><td>—</td><td>—</td>
+        <td>17</td></tr>
+      <tr><td><a href="../problem/setcover/index.html">集合覆盖</a></td><td>位向量</td>
+        <td><b>45</b></td><td>30</td><td>—</td><td>—</td>
+        <td>15</td></tr>
+      <tr><td><a href="../problem/sat/index.html">布尔可满足性</a></td><td>位向量</td>
+        <td><b>48</b></td><td>31</td><td>—</td><td>—</td>
+        <td>17</td></tr>
+      <tr><td><a href="../problem/qubo/index.html">QUBO/伊辛</a></td><td>位向量</td>
+        <td><b>43</b></td><td>28</td><td>—</td><td>—</td>
+        <td>15</td></tr>
+      <tr><td><a href="../problem/uflp/index.html">无容量设施选址</a></td><td>位向量</td>
+        <td><b>42</b></td><td>31</td><td>—</td><td>—</td>
+        <td>11</td></tr>
+      <tr><td><a href="../problem/assignment/index.html">广义指派</a></td><td>指派向量</td>
+        <td><b>38</b></td><td>—</td><td>—</td><td>29</td>
+        <td>9</td></tr>
+      <tr><td><a href="../problem/graphcolor/index.html">图着色</a></td><td>排列</td>
+        <td><b>43</b></td><td>—</td><td>30</td><td>—</td>
+        <td>13</td></tr>
+      <tr><td><a href="../problem/graphcolor/index.html">着色变体谱系</a></td><td>排列/位串</td>
+        <td><b>75</b></td><td>30</td><td>30</td><td>—</td>
+        <td>15</td></tr>
+      <tr><td><a href="../problem/binpack/index.html">装箱</a></td><td>排列</td>
+        <td><b>43</b></td><td>—</td><td>30</td><td>—</td>
+        <td>13</td></tr>
+      <tr><td><a href="../problem/binpack/index.html">装箱变体谱系</a></td><td>排列</td>
+        <td><b>44</b></td><td>—</td><td>30</td><td>—</td>
+        <td>14</td></tr>
+      <tr><td><a href="../problem/index.html">原子词条域</a></td><td>排列/向量</td>
+        <td><b>54</b></td><td>12</td><td>30</td><td>—</td>
+        <td>12</td></tr>
+      <tr><td><a href="../problem/multiobj/index.html">多目标</a></td><td>实向量</td>
+        <td><b>6</b></td><td>—</td><td>—</td><td>—</td>
+        <td>6</td></tr>
+      <tr><td><a href="../problem/nrp/index.html">护士排班</a></td><td>指派向量</td>
+        <td><b>8</b></td><td>—</td><td>—</td><td>—</td>
+        <td>8</td></tr>
+      <tr><td><a href="../problem/etp/index.html">考试时间表</a></td><td>指派向量</td>
+        <td><b>8</b></td><td>—</td><td>—</td><td>—</td>
+        <td>8</td></tr>
+      <tr><td><a href="../problem/ttp/index.html">旅行锦标赛</a></td><td>轮次排列</td>
+        <td><b>8</b></td><td>—</td><td>—</td><td>—</td>
+        <td>8</td></tr>
+      <tr><td><a href="../problem/sls/index.html">赛程生成</a></td><td>轮次排列</td>
+        <td><b>8</b></td><td>—</td><td>—</td><td>—</td>
+        <td>8</td></tr>
+    </tbody>
+  </table></div>
+
+  <h2>原子内核 × 域 覆盖明细（✓ = 该域可跑且过门）</h2>
+  <p class="hint">TSP 主域另有 45 个专属算法（页面见算法总览）。多目标域为 NSGA 系专属算法；排程三域（护士排班/考试时间表/赛程生成）为专属整数编码内核（交换邻域 + 整数 GA/DE/GWO/CS）——三者均不参与通用原子内核，故不在下方明细表出现。</p>
+  <div class="tblwrap"><table class="tbl">
+    <thead><tr><th>内核（12 算法 × 3 适配层）</th><th>连续</th><th>背包</th><th>覆盖</th><th>SAT</th><th>QUBO</th><th>设施</th><th>背变</th><th>指派</th><th>着色</th><th>着变</th><th>装箱</th><th>箱变</th><th>词条</th></tr></thead>
+    <tbody>
+      <tr><td>萤火虫 FA · 位</td><td class="no">·</td><td class="ok">✓</td><td class="ok">✓</td><td class="ok">✓</td><td class="no">·</td><td class="ok">✓</td><td class="ok">✓</td><td class="no">·</td><td class="no">·</td><td class="ok">✓</td><td class="no">·</td><td class="no">·</td><td class="ok">✓</td></tr>
+      <tr><td>蝙蝠 BA · 位</td><td class="no">·</td><td class="ok">✓</td><td class="ok">✓</td><td class="ok">✓</td><td class="no">·</td><td class="ok">✓</td><td class="ok">✓</td><td class="no">·</td><td class="no">·</td><td class="ok">✓</td><td class="no">·</td><td class="no">·</td><td class="ok">✓</td></tr>
+      <tr><td>Jaya · 位</td><td class="no">·</td><td class="ok">✓</td><td class="ok">✓</td><td class="ok">✓</td><td class="ok">✓</td><td class="ok">✓</td><td class="ok">✓</td><td class="no">·</td><td class="no">·</td><td class="ok">✓</td><td class="no">·</td><td class="no">·</td><td class="ok">✓</td></tr>
+      <tr><td>TLBO · 位</td><td class="no">·</td><td class="ok">✓</td><td class="ok">✓</td><td class="ok">✓</td><td class="ok">✓</td><td class="ok">✓</td><td class="ok">✓</td><td class="no">·</td><td class="no">·</td><td class="ok">✓</td><td class="no">·</td><td class="no">·</td><td class="ok">✓</td></tr>
+      <tr><td>粒子群 PSO · 位</td><td class="no">·</td><td class="ok">✓</td><td class="ok">✓</td><td class="ok">✓</td><td class="ok">✓</td><td class="ok">✓</td><td class="ok">✓</td><td class="no">·</td><td class="no">·</td><td class="ok">✓</td><td class="no">·</td><td class="no">·</td><td class="ok">✓</td></tr>
+      <tr><td>正弦余弦 SCA · 位</td><td class="no">·</td><td class="ok">✓</td><td class="ok">✓</td><td class="ok">✓</td><td class="no">·</td><td class="ok">✓</td><td class="ok">✓</td><td class="no">·</td><td class="no">·</td><td class="ok">✓</td><td class="no">·</td><td class="no">·</td><td class="ok">✓</td></tr>
+      <tr><td>蛾焰 MFO · 位</td><td class="no">·</td><td class="ok">✓</td><td class="ok">✓</td><td class="no">·</td><td class="ok">✓</td><td class="ok">✓</td><td class="ok">✓</td><td class="no">·</td><td class="no">·</td><td class="ok">✓</td><td class="no">·</td><td class="no">·</td><td class="ok">✓</td></tr>
+      <tr><td>均衡 EO · 位</td><td class="no">·</td><td class="ok">✓</td><td class="ok">✓</td><td class="ok">✓</td><td class="ok">✓</td><td class="ok">✓</td><td class="ok">✓</td><td class="no">·</td><td class="no">·</td><td class="ok">✓</td><td class="no">·</td><td class="no">·</td><td class="ok">✓</td></tr>
+      <tr><td>天鹰 AO · 位</td><td class="no">·</td><td class="ok">✓</td><td class="ok">✓</td><td class="ok">✓</td><td class="ok">✓</td><td class="ok">✓</td><td class="ok">✓</td><td class="no">·</td><td class="no">·</td><td class="ok">✓</td><td class="no">·</td><td class="no">·</td><td class="ok">✓</td></tr>
+      <tr><td>黏菌 SMA · 位</td><td class="no">·</td><td class="ok">✓</td><td class="ok">✓</td><td class="ok">✓</td><td class="ok">✓</td><td class="ok">✓</td><td class="ok">✓</td><td class="no">·</td><td class="no">·</td><td class="ok">✓</td><td class="no">·</td><td class="no">·</td><td class="ok">✓</td></tr>
+      <tr><td>交叉熵 CEM · 位</td><td class="no">·</td><td class="ok">✓</td><td class="ok">✓</td><td class="ok">✓</td><td class="ok">✓</td><td class="ok">✓</td><td class="ok">✓</td><td class="no">·</td><td class="no">·</td><td class="ok">✓</td><td class="no">·</td><td class="no">·</td><td class="ok">✓</td></tr>
+      <tr><td>CMA-ES（对角近似） · 位</td><td class="no">·</td><td class="ok">✓</td><td class="ok">✓</td><td class="ok">✓</td><td class="ok">✓</td><td class="ok">✓</td><td class="ok">✓</td><td class="no">·</td><td class="no">·</td><td class="ok">✓</td><td class="no">·</td><td class="no">·</td><td class="ok">✓</td></tr>
+      <tr><td>萤火虫 FA · 排列</td><td class="no">·</td><td class="no">·</td><td class="no">·</td><td class="no">·</td><td class="no">·</td><td class="no">·</td><td class="no">·</td><td class="no">·</td><td class="ok">✓</td><td class="ok">✓</td><td class="ok">✓</td><td class="ok">✓</td><td class="ok">✓</td></tr>
+      <tr><td>蝙蝠 BA · 排列</td><td class="no">·</td><td class="no">·</td><td class="no">·</td><td class="no">·</td><td class="no">·</td><td class="no">·</td><td class="no">·</td><td class="no">·</td><td class="ok">✓</td><td class="ok">✓</td><td class="ok">✓</td><td class="ok">✓</td><td class="ok">✓</td></tr>
+      <tr><td>Jaya · 排列</td><td class="no">·</td><td class="no">·</td><td class="no">·</td><td class="no">·</td><td class="no">·</td><td class="no">·</td><td class="no">·</td><td class="no">·</td><td class="ok">✓</td><td class="ok">✓</td><td class="ok">✓</td><td class="ok">✓</td><td class="ok">✓</td></tr>
+      <tr><td>TLBO · 排列</td><td class="no">·</td><td class="no">·</td><td class="no">·</td><td class="no">·</td><td class="no">·</td><td class="no">·</td><td class="no">·</td><td class="no">·</td><td class="ok">✓</td><td class="ok">✓</td><td class="ok">✓</td><td class="ok">✓</td><td class="ok">✓</td></tr>
+      <tr><td>粒子群 PSO · 排列</td><td class="no">·</td><td class="no">·</td><td class="no">·</td><td class="no">·</td><td class="no">·</td><td class="no">·</td><td class="no">·</td><td class="no">·</td><td class="ok">✓</td><td class="ok">✓</td><td class="ok">✓</td><td class="ok">✓</td><td class="ok">✓</td></tr>
+      <tr><td>正弦余弦 SCA · 排列</td><td class="no">·</td><td class="no">·</td><td class="no">·</td><td class="no">·</td><td class="no">·</td><td class="no">·</td><td class="no">·</td><td class="no">·</td><td class="ok">✓</td><td class="ok">✓</td><td class="ok">✓</td><td class="ok">✓</td><td class="ok">✓</td></tr>
+      <tr><td>蛾焰 MFO · 排列</td><td class="no">·</td><td class="no">·</td><td class="no">·</td><td class="no">·</td><td class="no">·</td><td class="no">·</td><td class="no">·</td><td class="no">·</td><td class="ok">✓</td><td class="ok">✓</td><td class="ok">✓</td><td class="ok">✓</td><td class="ok">✓</td></tr>
+      <tr><td>均衡 EO · 排列</td><td class="no">·</td><td class="no">·</td><td class="no">·</td><td class="no">·</td><td class="no">·</td><td class="no">·</td><td class="no">·</td><td class="no">·</td><td class="ok">✓</td><td class="ok">✓</td><td class="ok">✓</td><td class="ok">✓</td><td class="ok">✓</td></tr>
+      <tr><td>天鹰 AO · 排列</td><td class="no">·</td><td class="no">·</td><td class="no">·</td><td class="no">·</td><td class="no">·</td><td class="no">·</td><td class="no">·</td><td class="no">·</td><td class="ok">✓</td><td class="ok">✓</td><td class="ok">✓</td><td class="ok">✓</td><td class="ok">✓</td></tr>
+      <tr><td>黏菌 SMA · 排列</td><td class="no">·</td><td class="no">·</td><td class="no">·</td><td class="no">·</td><td class="no">·</td><td class="no">·</td><td class="no">·</td><td class="no">·</td><td class="ok">✓</td><td class="ok">✓</td><td class="ok">✓</td><td class="ok">✓</td><td class="ok">✓</td></tr>
+      <tr><td>交叉熵 CEM · 排列</td><td class="no">·</td><td class="no">·</td><td class="no">·</td><td class="no">·</td><td class="no">·</td><td class="no">·</td><td class="no">·</td><td class="no">·</td><td class="ok">✓</td><td class="ok">✓</td><td class="ok">✓</td><td class="ok">✓</td><td class="ok">✓</td></tr>
+      <tr><td>CMA-ES（对角近似） · 排列</td><td class="no">·</td><td class="no">·</td><td class="no">·</td><td class="no">·</td><td class="no">·</td><td class="no">·</td><td class="no">·</td><td class="no">·</td><td class="ok">✓</td><td class="ok">✓</td><td class="ok">✓</td><td class="ok">✓</td><td class="ok">✓</td></tr>
+      <tr><td>萤火虫 FA · 指派</td><td class="no">·</td><td class="no">·</td><td class="no">·</td><td class="no">·</td><td class="no">·</td><td class="no">·</td><td class="no">·</td><td class="ok">✓</td><td class="no">·</td><td class="no">·</td><td class="no">·</td><td class="no">·</td><td class="no">·</td></tr>
+      <tr><td>蝙蝠 BA · 指派</td><td class="no">·</td><td class="no">·</td><td class="no">·</td><td class="no">·</td><td class="no">·</td><td class="no">·</td><td class="no">·</td><td class="ok">✓</td><td class="no">·</td><td class="no">·</td><td class="no">·</td><td class="no">·</td><td class="no">·</td></tr>
+      <tr><td>Jaya · 指派</td><td class="no">·</td><td class="no">·</td><td class="no">·</td><td class="no">·</td><td class="no">·</td><td class="no">·</td><td class="no">·</td><td class="ok">✓</td><td class="no">·</td><td class="no">·</td><td class="no">·</td><td class="no">·</td><td class="no">·</td></tr>
+      <tr><td>TLBO · 指派</td><td class="no">·</td><td class="no">·</td><td class="no">·</td><td class="no">·</td><td class="no">·</td><td class="no">·</td><td class="no">·</td><td class="ok">✓</td><td class="no">·</td><td class="no">·</td><td class="no">·</td><td class="no">·</td><td class="no">·</td></tr>
+      <tr><td>粒子群 PSO · 指派</td><td class="no">·</td><td class="no">·</td><td class="no">·</td><td class="no">·</td><td class="no">·</td><td class="no">·</td><td class="no">·</td><td class="ok">✓</td><td class="no">·</td><td class="no">·</td><td class="no">·</td><td class="no">·</td><td class="no">·</td></tr>
+      <tr><td>正弦余弦 SCA · 指派</td><td class="no">·</td><td class="no">·</td><td class="no">·</td><td class="no">·</td><td class="no">·</td><td class="no">·</td><td class="no">·</td><td class="ok">✓</td><td class="no">·</td><td class="no">·</td><td class="no">·</td><td class="no">·</td><td class="no">·</td></tr>
+      <tr><td>蛾焰 MFO · 指派</td><td class="no">·</td><td class="no">·</td><td class="no">·</td><td class="no">·</td><td class="no">·</td><td class="no">·</td><td class="no">·</td><td class="no">·</td><td class="no">·</td><td class="no">·</td><td class="no">·</td><td class="no">·</td><td class="no">·</td></tr>
+      <tr><td>均衡 EO · 指派</td><td class="no">·</td><td class="no">·</td><td class="no">·</td><td class="no">·</td><td class="no">·</td><td class="no">·</td><td class="no">·</td><td class="ok">✓</td><td class="no">·</td><td class="no">·</td><td class="no">·</td><td class="no">·</td><td class="no">·</td></tr>
+      <tr><td>天鹰 AO · 指派</td><td class="no">·</td><td class="no">·</td><td class="no">·</td><td class="no">·</td><td class="no">·</td><td class="no">·</td><td class="no">·</td><td class="ok">✓</td><td class="no">·</td><td class="no">·</td><td class="no">·</td><td class="no">·</td><td class="no">·</td></tr>
+      <tr><td>黏菌 SMA · 指派</td><td class="no">·</td><td class="no">·</td><td class="no">·</td><td class="no">·</td><td class="no">·</td><td class="no">·</td><td class="no">·</td><td class="ok">✓</td><td class="no">·</td><td class="no">·</td><td class="no">·</td><td class="no">·</td><td class="no">·</td></tr>
+      <tr><td>交叉熵 CEM · 指派</td><td class="no">·</td><td class="no">·</td><td class="no">·</td><td class="no">·</td><td class="no">·</td><td class="no">·</td><td class="no">·</td><td class="ok">✓</td><td class="no">·</td><td class="no">·</td><td class="no">·</td><td class="no">·</td><td class="no">·</td></tr>
+      <tr><td>CMA-ES（对角近似） · 指派</td><td class="no">·</td><td class="no">·</td><td class="no">·</td><td class="no">·</td><td class="no">·</td><td class="no">·</td><td class="no">·</td><td class="ok">✓</td><td class="no">·</td><td class="no">·</td><td class="no">·</td><td class="no">·</td><td class="no">·</td></tr>
+    </tbody>
+  </table></div>
+
+  <p class="hint">撤下记录：跨域系统性失效的内核（如 GSA 引力项在离散语境退化、HS 记忆考量收敛不足）整族撤下；
+  域特定失效逐格撤下；CMA-ES 位 / 排列 / 指派版是对角协方差的简化版。</p>
+
+  <h2 id="fairbudget">同等评估预算实测</h2>
+  <p class="lead">每个「问题域 × 变体 × 算法」格子都和<b>随机搜索</b>比过一次，而且<b>评估次数相同</b>：算法自己每次运行用了多少次目标函数评估，随机搜索就给多少次。
+  200 代、3 个实例种子（种子同时决定实例，11–13），取中位数；相对差距在 ±0.2% 以内算平手。
+  共 <b>3577</b> 格：明显胜过随机搜索 <b>1968</b>（55%）· 平手 <b>1250</b>（35%）· 不如随机搜索 <b>359</b>（10%）。
+  输了的格子用 9 个种子复测，仍然输的就撤下（<b>359</b> 格，见下），不再出现在算法下拉框里。</p>
+  <div class="tblwrap"><table class="tbl">
+    <thead><tr><th>问题域</th><th class="num">格数</th><th class="num">胜</th><th class="num">平</th><th class="num">负</th><th class="num">已撤下</th></tr></thead>
+    <tbody>
+<tr><td>装箱</td><td class="num">42</td><td class="num">0</td><td class="num">38</td><td class="num">4</td><td class="num">4</td></tr>
+<tr><td>装箱变体谱系</td><td class="num">126</td><td class="num">47</td><td class="num">78</td><td class="num">1</td><td class="num">1</td></tr>
+<tr><td>连续函数优化</td><td class="num">40</td><td class="num">38</td><td class="num">0</td><td class="num">2</td><td class="num">2</td></tr>
+<tr><td>自带问题</td><td class="num">61</td><td class="num">53</td><td class="num">0</td><td class="num">8</td><td class="num">8</td></tr>
+<tr><td>词条域（调度 / 路径 / 选址 / 图问题 / 黑箱……）</td><td class="num">2496</td><td class="num">1397</td><td class="num">865</td><td class="num">234</td><td class="num">234</td></tr>
+<tr><td>考试时间表</td><td class="num">7</td><td class="num">7</td><td class="num">0</td><td class="num">0</td><td class="num">0</td></tr>
+<tr><td>广义指派</td><td class="num">37</td><td class="num">33</td><td class="num">0</td><td class="num">4</td><td class="num">4</td></tr>
+<tr><td>着色变体谱系</td><td class="num">206</td><td class="num">2</td><td class="num">183</td><td class="num">21</td><td class="num">21</td></tr>
+<tr><td>图着色</td><td class="num">42</td><td class="num">6</td><td class="num">29</td><td class="num">7</td><td class="num">7</td></tr>
+<tr><td>0-1 背包</td><td class="num">45</td><td class="num">43</td><td class="num">0</td><td class="num">2</td><td class="num">2</td></tr>
+<tr><td>背包变体谱系</td><td class="num">284</td><td class="num">205</td><td class="num">47</td><td class="num">32</td><td class="num">32</td></tr>
+<tr><td>护士排班</td><td class="num">7</td><td class="num">7</td><td class="num">0</td><td class="num">0</td><td class="num">0</td></tr>
+<tr><td>QUBO / 伊辛</td><td class="num">42</td><td class="num">38</td><td class="num">0</td><td class="num">4</td><td class="num">4</td></tr>
+<tr><td>布尔可满足性</td><td class="num">45</td><td class="num">35</td><td class="num">2</td><td class="num">8</td><td class="num">8</td></tr>
+<tr><td>集合覆盖</td><td class="num">43</td><td class="num">17</td><td class="num">7</td><td class="num">19</td><td class="num">19</td></tr>
+<tr><td>赛程生成</td><td class="num">7</td><td class="num">7</td><td class="num">0</td><td class="num">0</td><td class="num">0</td></tr>
+<tr><td>旅行锦标赛</td><td class="num">7</td><td class="num">7</td><td class="num">0</td><td class="num">0</td><td class="num">0</td></tr>
+<tr><td>无容量设施选址</td><td class="num">40</td><td class="num">26</td><td class="num">1</td><td class="num">13</td><td class="num">13</td></tr>
+    </tbody>
+  </table></div>
+  <h3>怎么读这张表（局限，请读）</h3>
+  <ul>
+    <li>「胜过随机搜索」是<b>低门槛</b>：它说明算法在这个模型上确实在搜索，不说明它比该问题的专用算法好。</li>
+    <li>只有 3 个种子（每个种子是一个新实例）：这是小样本，格子里的结论是<b>这几个实例上的观察</b>，不是统计意义上的普适结论。边缘附近的格子换种子可能翻转（所以输的格子要用更多种子复测）。</li>
+    <li>实例是随机生成的小规模教学实例，不是文献基准；有些问题（如能精确求解的网络流、匹配）随机搜索本来就很强或算法根本不该用——它们在这里是教学对照。</li>
+    <li><b>撤下不等于「这个算法不好」</b>，只表示在这个模型、这个预算下它没有赢过随机搜索；换预算、换编码、调参都可能改变结果。</li>
+    <li>评估次数相同不等于时间相同：有的算法每次评估之外还有额外开销。</li>
+  </ul>
+  <details><summary>已撤下的 359 个格子（域 × 变体 × 算法）</summary>
+<div class="tblwrap"><table class="tbl"><thead><tr><th>问题域</th><th>变体</th><th>算法</th><th class="num">相对随机搜索</th></tr></thead><tbody>
+<tr><td>装箱</td><td></td><td><code>gwo</code></td><td class="num">-5.6%</td></tr>
+<tr><td>装箱</td><td></td><td><code>hc</code></td><td class="num">-5.6%</td></tr>
+<tr><td>装箱</td><td></td><td><code>ts</code></td><td class="num">-5.6%</td></tr>
+<tr><td>装箱</td><td></td><td><code>vns</code></td><td class="num">-5.6%</td></tr>
+<tr><td>装箱变体谱系</td><td>strippack</td><td><code>pk_sma</code></td><td class="num">-3.7%</td></tr>
+<tr><td>连续函数优化</td><td></td><td><code>bfo</code></td><td class="num">-60.9%</td></tr>
+<tr><td>连续函数优化</td><td></td><td><code>hc</code></td><td class="num">-9.3%</td></tr>
+<tr><td>自带问题</td><td>bits</td><td><code>bv_gsa</code></td><td class="num">-9.9%</td></tr>
+<tr><td>自带问题</td><td>bits</td><td><code>bv_mfo</code></td><td class="num">-21.8%</td></tr>
+<tr><td>自带问题</td><td>bits</td><td><code>bv_sma</code></td><td class="num">-8.9%</td></tr>
+<tr><td>自带问题</td><td>bits</td><td><code>bv_tlbo</code></td><td class="num">-27.5%</td></tr>
+<tr><td>自带问题</td><td>perm</td><td><code>pk_sma</code></td><td class="num">-30.6%</td></tr>
+<tr><td>自带问题</td><td>real</td><td><code>mfo</code></td><td class="num">-80.9%</td></tr>
+<tr><td>自带问题</td><td>real</td><td><code>sca</code></td><td class="num">-22.4%</td></tr>
+<tr><td>自带问题</td><td>real</td><td><code>sma</code></td><td class="num">-42.4%</td></tr>
+<tr><td>词条域（调度 / 路径 / 选址 / 图问题 / 黑箱……）</td><td>atsp</td><td><code>pk_bfo</code></td><td class="num">-2.6%</td></tr>
+<tr><td>词条域（调度 / 路径 / 选址 / 图问题 / 黑箱……）</td><td>atsp</td><td><code>pk_eo</code></td><td class="num">-9.4%</td></tr>
+<tr><td>词条域（调度 / 路径 / 选址 / 图问题 / 黑箱……）</td><td>atsp</td><td><code>pk_sma</code></td><td class="num">-5.1%</td></tr>
+<tr><td>词条域（调度 / 路径 / 选址 / 图问题 / 黑箱……）</td><td>blo</td><td><code>mfo</code></td><td class="num">-49.9%</td></tr>
+<tr><td>词条域（调度 / 路径 / 选址 / 图问题 / 黑箱……）</td><td>carp</td><td><code>pk_bfo</code></td><td class="num">-1.1%</td></tr>
+<tr><td>词条域（调度 / 路径 / 选址 / 图问题 / 黑箱……）</td><td>carp</td><td><code>pk_sma</code></td><td class="num">-6.2%</td></tr>
+<tr><td>词条域（调度 / 路径 / 选址 / 图问题 / 黑箱……）</td><td>cbbb</td><td><code>mfo</code></td><td class="num">-24.0%</td></tr>
+<tr><td>词条域（调度 / 路径 / 选址 / 图问题 / 黑箱……）</td><td>cflp</td><td><code>pk_ba</code></td><td class="num">-5.6%</td></tr>
+<tr><td>词条域（调度 / 路径 / 选址 / 图问题 / 黑箱……）</td><td>cflp</td><td><code>pk_bbo</code></td><td class="num">-5.6%</td></tr>
+<tr><td>词条域（调度 / 路径 / 选址 / 图问题 / 黑箱……）</td><td>cflp</td><td><code>pk_bfo</code></td><td class="num">-5.6%</td></tr>
+<tr><td>词条域（调度 / 路径 / 选址 / 图问题 / 黑箱……）</td><td>cflp</td><td><code>pk_boa</code></td><td class="num">-5.6%</td></tr>
+<tr><td>词条域（调度 / 路径 / 选址 / 图问题 / 黑箱……）</td><td>cflp</td><td><code>pk_eo</code></td><td class="num">-6.7%</td></tr>
+<tr><td>词条域（调度 / 路径 / 选址 / 图问题 / 黑箱……）</td><td>cflp</td><td><code>pk_ica</code></td><td class="num">-5.6%</td></tr>
+<tr><td>词条域（调度 / 路径 / 选址 / 图问题 / 黑箱……）</td><td>cflp</td><td><code>pk_kh</code></td><td class="num">-5.6%</td></tr>
+<tr><td>词条域（调度 / 路径 / 选址 / 图问题 / 黑箱……）</td><td>cflp</td><td><code>pk_mfo</code></td><td class="num">-5.6%</td></tr>
+<tr><td>词条域（调度 / 路径 / 选址 / 图问题 / 黑箱……）</td><td>cflp</td><td><code>pk_pso</code></td><td class="num">-5.6%</td></tr>
+<tr><td>词条域（调度 / 路径 / 选址 / 图问题 / 黑箱……）</td><td>cflp</td><td><code>pk_sca</code></td><td class="num">-5.6%</td></tr>
+<tr><td>词条域（调度 / 路径 / 选址 / 图问题 / 黑箱……）</td><td>cflp</td><td><code>pk_ssa</code></td><td class="num">-5.6%</td></tr>
+<tr><td>词条域（调度 / 路径 / 选址 / 图问题 / 黑箱……）</td><td>domset</td><td><code>bv_gsa</code></td><td class="num">-25.0%</td></tr>
+<tr><td>词条域（调度 / 路径 / 选址 / 图问题 / 黑箱……）</td><td>domset</td><td><code>bv_tlbo</code></td><td class="num">-25.0%</td></tr>
+<tr><td>词条域（调度 / 路径 / 选址 / 图问题 / 黑箱……）</td><td>ebbb</td><td><code>mfo</code></td><td class="num">-96.5%</td></tr>
+<tr><td>词条域（调度 / 路径 / 选址 / 图问题 / 黑箱……）</td><td>fjsp</td><td><code>pk_bfo</code></td><td class="num">-3.9%</td></tr>
+<tr><td>词条域（调度 / 路径 / 选址 / 图问题 / 黑箱……）</td><td>fjsp</td><td><code>pk_boa</code></td><td class="num">-3.9%</td></tr>
+<tr><td>词条域（调度 / 路径 / 选址 / 图问题 / 黑箱……）</td><td>fjsp</td><td><code>pk_eo</code></td><td class="num">-3.9%</td></tr>
+<tr><td>词条域（调度 / 路径 / 选址 / 图问题 / 黑箱……）</td><td>fjsp</td><td><code>pk_sma</code></td><td class="num">-3.9%</td></tr>
+<tr><td>词条域（调度 / 路径 / 选址 / 图问题 / 黑箱……）</td><td>fkp</td><td><code>boa</code></td><td class="num">-12.6%</td></tr>
+<tr><td>词条域（调度 / 路径 / 选址 / 图问题 / 黑箱……）</td><td>fkp</td><td><code>gsa</code></td><td class="num">-11.2%</td></tr>
+<tr><td>词条域（调度 / 路径 / 选址 / 图问题 / 黑箱……）</td><td>fkp</td><td><code>mfo</code></td><td class="num">-9.5%</td></tr>
+<tr><td>词条域（调度 / 路径 / 选址 / 图问题 / 黑箱……）</td><td>fkp</td><td><code>sca</code></td><td class="num">-11.2%</td></tr>
+<tr><td>词条域（调度 / 路径 / 选址 / 图问题 / 黑箱……）</td><td>freqasg</td><td><code>pk_eo</code></td><td class="num">-40.0%</td></tr>
+<tr><td>词条域（调度 / 路径 / 选址 / 图问题 / 黑箱……）</td><td>freqasg</td><td><code>pk_sca</code></td><td class="num">-25.0%</td></tr>
+<tr><td>词条域（调度 / 路径 / 选址 / 图问题 / 黑箱……）</td><td>freqasg</td><td><code>pk_sma</code></td><td class="num">-25.0%</td></tr>
+<tr><td>词条域（调度 / 路径 / 选址 / 图问题 / 黑箱……）</td><td>freqasg</td><td><code>pk_ssa</code></td><td class="num">-40.0%</td></tr>
+<tr><td>词条域（调度 / 路径 / 选址 / 图问题 / 黑箱……）</td><td>fss</td><td><code>pk_bfo</code></td><td class="num">-1.6%</td></tr>
+<tr><td>词条域（调度 / 路径 / 选址 / 图问题 / 黑箱……）</td><td>fss</td><td><code>pk_cem</code></td><td class="num">-0.5%</td></tr>
+<tr><td>词条域（调度 / 路径 / 选址 / 图问题 / 黑箱……）</td><td>fss</td><td><code>pk_eo</code></td><td class="num">-1.3%</td></tr>
+<tr><td>词条域（调度 / 路径 / 选址 / 图问题 / 黑箱……）</td><td>fss</td><td><code>pk_sca</code></td><td class="num">-1.3%</td></tr>
+<tr><td>词条域（调度 / 路径 / 选址 / 图问题 / 黑箱……）</td><td>fss</td><td><code>pk_sma</code></td><td class="num">-1.4%</td></tr>
+<tr><td>词条域（调度 / 路径 / 选址 / 图问题 / 黑箱……）</td><td>fvs</td><td><code>bv_boa</code></td><td class="num">-25.0%</td></tr>
+<tr><td>词条域（调度 / 路径 / 选址 / 图问题 / 黑箱……）</td><td>fvs</td><td><code>bv_ssa</code></td><td class="num">-25.0%</td></tr>
+<tr><td>词条域（调度 / 路径 / 选址 / 图问题 / 黑箱……）</td><td>fvs</td><td><code>bv_tlbo</code></td><td class="num">-25.0%</td></tr>
+<tr><td>词条域（调度 / 路径 / 选址 / 图问题 / 黑箱……）</td><td>ged</td><td><code>boa</code></td><td class="num">-50.8%</td></tr>
+<tr><td>词条域（调度 / 路径 / 选址 / 图问题 / 黑箱……）</td><td>ged</td><td><code>fa</code></td><td class="num">-32.8%</td></tr>
+<tr><td>词条域（调度 / 路径 / 选址 / 图问题 / 黑箱……）</td><td>ged</td><td><code>gsa</code></td><td class="num">-50.8%</td></tr>
+<tr><td>词条域（调度 / 路径 / 选址 / 图问题 / 黑箱……）</td><td>ged</td><td><code>mfo</code></td><td class="num">-50.5%</td></tr>
+<tr><td>词条域（调度 / 路径 / 选址 / 图问题 / 黑箱……）</td><td>ged</td><td><code>sca</code></td><td class="num">-12.9%</td></tr>
+<tr><td>词条域（调度 / 路径 / 选址 / 图问题 / 黑箱……）</td><td>gmatch</td><td><code>pk_boa</code></td><td class="num">-1.6%</td></tr>
+<tr><td>词条域（调度 / 路径 / 选址 / 图问题 / 黑箱……）</td><td>gmatch</td><td><code>pk_sca</code></td><td class="num">-3.1%</td></tr>
+<tr><td>词条域（调度 / 路径 / 选址 / 图问题 / 黑箱……）</td><td>gpp</td><td><code>pk_eo</code></td><td class="num">-6.4%</td></tr>
+<tr><td>词条域（调度 / 路径 / 选址 / 图问题 / 黑箱……）</td><td>hc</td><td><code>pk_eo</code></td><td class="num">-25.0%</td></tr>
+<tr><td>词条域（调度 / 路径 / 选址 / 图问题 / 黑箱……）</td><td>hc</td><td><code>pk_sma</code></td><td class="num">-40.0%</td></tr>
+<tr><td>词条域（调度 / 路径 / 选址 / 图问题 / 黑箱……）</td><td>hc</td><td><code>pk_ssa</code></td><td class="num">-25.0%</td></tr>
+<tr><td>词条域（调度 / 路径 / 选址 / 图问题 / 黑箱……）</td><td>hset</td><td><code>bv_gsa</code></td><td class="num">-40.0%</td></tr>
+<tr><td>词条域（调度 / 路径 / 选址 / 图问题 / 黑箱……）</td><td>jss</td><td><code>pk_eo</code></td><td class="num">-6.8%</td></tr>
+<tr><td>词条域（调度 / 路径 / 选址 / 图问题 / 黑箱……）</td><td>kmeans</td><td><code>boa</code></td><td class="num">-31.4%</td></tr>
+<tr><td>词条域（调度 / 路径 / 选址 / 图问题 / 黑箱……）</td><td>kmeans</td><td><code>mfo</code></td><td class="num">-17.6%</td></tr>
+<tr><td>词条域（调度 / 路径 / 选址 / 图问题 / 黑箱……）</td><td>kmeans</td><td><code>sca</code></td><td class="num">-13.4%</td></tr>
+<tr><td>词条域（调度 / 路径 / 选址 / 图问题 / 黑箱……）</td><td>kmeans</td><td><code>sma</code></td><td class="num">-15.8%</td></tr>
+<tr><td>词条域（调度 / 路径 / 选址 / 图问题 / 黑箱……）</td><td>lap</td><td><code>pk_boa</code></td><td class="num">-4.0%</td></tr>
+<tr><td>词条域（调度 / 路径 / 选址 / 图问题 / 黑箱……）</td><td>lap</td><td><code>pk_eo</code></td><td class="num">-8.6%</td></tr>
+<tr><td>词条域（调度 / 路径 / 选址 / 图问题 / 黑箱……）</td><td>lap</td><td><code>pk_sma</code></td><td class="num">-13.6%</td></tr>
+<tr><td>词条域（调度 / 路径 / 选址 / 图问题 / 黑箱……）</td><td>lbbb</td><td><code>mfo</code></td><td class="num">-64.7%</td></tr>
+<tr><td>词条域（调度 / 路径 / 选址 / 图问题 / 黑箱……）</td><td>lop</td><td><code>gwo</code></td><td class="num">-1.0%</td></tr>
+<tr><td>词条域（调度 / 路径 / 选址 / 图问题 / 黑箱……）</td><td>lop</td><td><code>pk_sma</code></td><td class="num">-1.1%</td></tr>
+<tr><td>词条域（调度 / 路径 / 选址 / 图问题 / 黑箱……）</td><td>lpath</td><td><code>gwo</code></td><td class="num">-9.8%</td></tr>
+<tr><td>词条域（调度 / 路径 / 选址 / 图问题 / 黑箱……）</td><td>lpath</td><td><code>pk_ba</code></td><td class="num">-16.1%</td></tr>
+<tr><td>词条域（调度 / 路径 / 选址 / 图问题 / 黑箱……）</td><td>lpath</td><td><code>pk_boa</code></td><td class="num">-24.1%</td></tr>
+<tr><td>词条域（调度 / 路径 / 选址 / 图问题 / 黑箱……）</td><td>lpath</td><td><code>pk_da</code></td><td class="num">-14.3%</td></tr>
+<tr><td>词条域（调度 / 路径 / 选址 / 图问题 / 黑箱……）</td><td>lpath</td><td><code>pk_eo</code></td><td class="num">-14.3%</td></tr>
+<tr><td>词条域（调度 / 路径 / 选址 / 图问题 / 黑箱……）</td><td>lpath</td><td><code>pk_sca</code></td><td class="num">-18.8%</td></tr>
+<tr><td>词条域（调度 / 路径 / 选址 / 图问题 / 黑箱……）</td><td>lpath</td><td><code>pk_sma</code></td><td class="num">-43.8%</td></tr>
+<tr><td>词条域（调度 / 路径 / 选址 / 图问题 / 黑箱……）</td><td>lpath</td><td><code>pk_ssa</code></td><td class="num">-0.9%</td></tr>
+<tr><td>词条域（调度 / 路径 / 选址 / 图问题 / 黑箱……）</td><td>lrp</td><td><code>pk_bfo</code></td><td class="num">-4.0%</td></tr>
+<tr><td>词条域（调度 / 路径 / 选址 / 图问题 / 黑箱……）</td><td>lrp</td><td><code>pk_boa</code></td><td class="num">-4.0%</td></tr>
+<tr><td>词条域（调度 / 路径 / 选址 / 图问题 / 黑箱……）</td><td>lrp</td><td><code>pk_da</code></td><td class="num">-0.2%</td></tr>
+<tr><td>词条域（调度 / 路径 / 选址 / 图问题 / 黑箱……）</td><td>lrp</td><td><code>pk_eo</code></td><td class="num">-5.5%</td></tr>
+<tr><td>词条域（调度 / 路径 / 选址 / 图问题 / 黑箱……）</td><td>lrp</td><td><code>pk_fwa</code></td><td class="num">-2.3%</td></tr>
+<tr><td>词条域（调度 / 路径 / 选址 / 图问题 / 黑箱……）</td><td>lrp</td><td><code>pk_mfo</code></td><td class="num">-0.4%</td></tr>
+<tr><td>词条域（调度 / 路径 / 选址 / 图问题 / 黑箱……）</td><td>lrp</td><td><code>pk_sca</code></td><td class="num">-1.2%</td></tr>
+<tr><td>词条域（调度 / 路径 / 选址 / 图问题 / 黑箱……）</td><td>lrp</td><td><code>pk_sma</code></td><td class="num">-4.0%</td></tr>
+<tr><td>词条域（调度 / 路径 / 选址 / 图问题 / 黑箱……）</td><td>maxcut</td><td><code>bv_boa</code></td><td class="num">-5.6%</td></tr>
+<tr><td>词条域（调度 / 路径 / 选址 / 图问题 / 黑箱……）</td><td>maxcut</td><td><code>bv_gsa</code></td><td class="num">-7.4%</td></tr>
+<tr><td>词条域（调度 / 路径 / 选址 / 图问题 / 黑箱……）</td><td>maxcut</td><td><code>bv_kh</code></td><td class="num">-5.6%</td></tr>
+<tr><td>词条域（调度 / 路径 / 选址 / 图问题 / 黑箱……）</td><td>maxcut</td><td><code>bv_mfo</code></td><td class="num">-11.2%</td></tr>
+<tr><td>词条域（调度 / 路径 / 选址 / 图问题 / 黑箱……）</td><td>maxcut</td><td><code>bv_sma</code></td><td class="num">-5.6%</td></tr>
+<tr><td>词条域（调度 / 路径 / 选址 / 图问题 / 黑箱……）</td><td>maxcut</td><td><code>bv_ssa</code></td><td class="num">-5.6%</td></tr>
+<tr><td>词条域（调度 / 路径 / 选址 / 图问题 / 黑箱……）</td><td>maxcut</td><td><code>bv_tlbo</code></td><td class="num">-7.4%</td></tr>
+<tr><td>词条域（调度 / 路径 / 选址 / 图问题 / 黑箱……）</td><td>maxcut</td><td><code>hc</code></td><td class="num">-5.6%</td></tr>
+<tr><td>词条域（调度 / 路径 / 选址 / 图问题 / 黑箱……）</td><td>maxcut</td><td><code>qb_sca</code></td><td class="num">-5.6%</td></tr>
+<tr><td>词条域（调度 / 路径 / 选址 / 图问题 / 黑箱……）</td><td>maxflow</td><td><code>boa</code></td><td class="num">-42.4%</td></tr>
+<tr><td>词条域（调度 / 路径 / 选址 / 图问题 / 黑箱……）</td><td>maxflow</td><td><code>fa</code></td><td class="num">-36.7%</td></tr>
+<tr><td>词条域（调度 / 路径 / 选址 / 图问题 / 黑箱……）</td><td>mincostflow</td><td><code>boa</code></td><td class="num">-34.7%</td></tr>
+<tr><td>词条域（调度 / 路径 / 选址 / 图问题 / 黑箱……）</td><td>mincostflow</td><td><code>fa</code></td><td class="num">-25.3%</td></tr>
+<tr><td>词条域（调度 / 路径 / 选址 / 图问题 / 黑箱……）</td><td>mmo</td><td><code>cem</code></td><td class="num">-6.9%</td></tr>
+<tr><td>词条域（调度 / 路径 / 选址 / 图问题 / 黑箱……）</td><td>mmo</td><td><code>mfo</code></td><td class="num">-10.0%</td></tr>
+<tr><td>词条域（调度 / 路径 / 选址 / 图问题 / 黑箱……）</td><td>msa</td><td><code>bv_bfo</code></td><td class="num">-166.7%</td></tr>
+<tr><td>词条域（调度 / 路径 / 选址 / 图问题 / 黑箱……）</td><td>msa</td><td><code>bv_boa</code></td><td class="num">-150.0%</td></tr>
+<tr><td>词条域（调度 / 路径 / 选址 / 图问题 / 黑箱……）</td><td>msa</td><td><code>bv_gsa</code></td><td class="num">-175.0%</td></tr>
+<tr><td>词条域（调度 / 路径 / 选址 / 图问题 / 黑箱……）</td><td>msa</td><td><code>hc</code></td><td class="num">-100.0%</td></tr>
+<tr><td>词条域（调度 / 路径 / 选址 / 图问题 / 黑箱……）</td><td>mst</td><td><code>pk_ba</code></td><td class="num">-10.9%</td></tr>
+<tr><td>词条域（调度 / 路径 / 选址 / 图问题 / 黑箱……）</td><td>mst</td><td><code>pk_bfo</code></td><td class="num">-5.8%</td></tr>
+<tr><td>词条域（调度 / 路径 / 选址 / 图问题 / 黑箱……）</td><td>mst</td><td><code>pk_boa</code></td><td class="num">-3.9%</td></tr>
+<tr><td>词条域（调度 / 路径 / 选址 / 图问题 / 黑箱……）</td><td>mst</td><td><code>pk_eo</code></td><td class="num">-9.3%</td></tr>
+<tr><td>词条域（调度 / 路径 / 选址 / 图问题 / 黑箱……）</td><td>mst</td><td><code>pk_sca</code></td><td class="num">-2.0%</td></tr>
+<tr><td>词条域（调度 / 路径 / 选址 / 图问题 / 黑箱……）</td><td>mst</td><td><code>pk_sma</code></td><td class="num">-7.5%</td></tr>
+<tr><td>词条域（调度 / 路径 / 选址 / 图问题 / 黑箱……）</td><td>nbbb</td><td><code>cem</code></td><td class="num">-9.0%</td></tr>
+<tr><td>词条域（调度 / 路径 / 选址 / 图问题 / 黑箱……）</td><td>nbbb</td><td><code>mfo</code></td><td class="num">-15.8%</td></tr>
+<tr><td>词条域（调度 / 路径 / 选址 / 图问题 / 黑箱……）</td><td>ndp</td><td><code>bv_ais</code></td><td class="num">-13.3%</td></tr>
+<tr><td>词条域（调度 / 路径 / 选址 / 图问题 / 黑箱……）</td><td>ndp</td><td><code>bv_bfo</code></td><td class="num">-20.9%</td></tr>
+<tr><td>词条域（调度 / 路径 / 选址 / 图问题 / 黑箱……）</td><td>ndp</td><td><code>bv_boa</code></td><td class="num">-16.7%</td></tr>
+<tr><td>词条域（调度 / 路径 / 选址 / 图问题 / 黑箱……）</td><td>ndp</td><td><code>bv_gsa</code></td><td class="num">-28.6%</td></tr>
+<tr><td>词条域（调度 / 路径 / 选址 / 图问题 / 黑箱……）</td><td>ndp</td><td><code>bv_mfo</code></td><td class="num">-32.8%</td></tr>
+<tr><td>词条域（调度 / 路径 / 选址 / 图问题 / 黑箱……）</td><td>ndp</td><td><code>bv_sma</code></td><td class="num">-18.7%</td></tr>
+<tr><td>词条域（调度 / 路径 / 选址 / 图问题 / 黑箱……）</td><td>ndp</td><td><code>bv_ssa</code></td><td class="num">-15.4%</td></tr>
+<tr><td>词条域（调度 / 路径 / 选址 / 图问题 / 黑箱……）</td><td>ndp</td><td><code>bv_tlbo</code></td><td class="num">-38.2%</td></tr>
+<tr><td>词条域（调度 / 路径 / 选址 / 图问题 / 黑箱……）</td><td>ndp</td><td><code>grasp</code></td><td class="num">-82.6%</td></tr>
+<tr><td>词条域（调度 / 路径 / 选址 / 图问题 / 黑箱……）</td><td>ndp</td><td><code>hc</code></td><td class="num">-12.6%</td></tr>
+<tr><td>词条域（调度 / 路径 / 选址 / 图问题 / 黑箱……）</td><td>ndp</td><td><code>qb_sca</code></td><td class="num">-14.1%</td></tr>
+<tr><td>词条域（调度 / 路径 / 选址 / 图问题 / 黑箱……）</td><td>numpart</td><td><code>abc</code></td><td class="num">-62.5%</td></tr>
+<tr><td>词条域（调度 / 路径 / 选址 / 图问题 / 黑箱……）</td><td>numpart</td><td><code>alo</code></td><td class="num">-88.0%</td></tr>
+<tr><td>词条域（调度 / 路径 / 选址 / 图问题 / 黑箱……）</td><td>numpart</td><td><code>ao</code></td><td class="num">-96.0%</td></tr>
+<tr><td>词条域（调度 / 路径 / 选址 / 图问题 / 黑箱……）</td><td>numpart</td><td><code>ba</code></td><td class="num">-96.9%</td></tr>
+<tr><td>词条域（调度 / 路径 / 选址 / 图问题 / 黑箱……）</td><td>numpart</td><td><code>bbo</code></td><td class="num">-96.5%</td></tr>
+<tr><td>词条域（调度 / 路径 / 选址 / 图问题 / 黑箱……）</td><td>numpart</td><td><code>bfo</code></td><td class="num">-96.5%</td></tr>
+<tr><td>词条域（调度 / 路径 / 选址 / 图问题 / 黑箱……）</td><td>numpart</td><td><code>boa</code></td><td class="num">-98.5%</td></tr>
+<tr><td>词条域（调度 / 路径 / 选址 / 图问题 / 黑箱……）</td><td>numpart</td><td><code>cmaes</code></td><td class="num">-98.9%</td></tr>
+<tr><td>词条域（调度 / 路径 / 选址 / 图问题 / 黑箱……）</td><td>numpart</td><td><code>cscrow</code></td><td class="num">-89.3%</td></tr>
+<tr><td>词条域（调度 / 路径 / 选址 / 图问题 / 黑箱……）</td><td>numpart</td><td><code>da</code></td><td class="num">-93.5%</td></tr>
+<tr><td>词条域（调度 / 路径 / 选址 / 图问题 / 黑箱……）</td><td>numpart</td><td><code>de</code></td><td class="num">-87.0%</td></tr>
+<tr><td>词条域（调度 / 路径 / 选址 / 图问题 / 黑箱……）</td><td>numpart</td><td><code>eo</code></td><td class="num">-95.2%</td></tr>
+<tr><td>词条域（调度 / 路径 / 选址 / 图问题 / 黑箱……）</td><td>numpart</td><td><code>fa</code></td><td class="num">-96.6%</td></tr>
+<tr><td>词条域（调度 / 路径 / 选址 / 图问题 / 黑箱……）</td><td>numpart</td><td><code>fpa</code></td><td class="num">-82.3%</td></tr>
+<tr><td>词条域（调度 / 路径 / 选址 / 图问题 / 黑箱……）</td><td>numpart</td><td><code>fwa</code></td><td class="num">-89.3%</td></tr>
+<tr><td>词条域（调度 / 路径 / 选址 / 图问题 / 黑箱……）</td><td>numpart</td><td><code>gsa</code></td><td class="num">-98.8%</td></tr>
+<tr><td>词条域（调度 / 路径 / 选址 / 图问题 / 黑箱……）</td><td>numpart</td><td><code>gwo</code></td><td class="num">-99.6%</td></tr>
+<tr><td>词条域（调度 / 路径 / 选址 / 图问题 / 黑箱……）</td><td>numpart</td><td><code>hc</code></td><td class="num">-98.8%</td></tr>
+<tr><td>词条域（调度 / 路径 / 选址 / 图问题 / 黑箱……）</td><td>numpart</td><td><code>hho</code></td><td class="num">-78.6%</td></tr>
+<tr><td>词条域（调度 / 路径 / 选址 / 图问题 / 黑箱……）</td><td>numpart</td><td><code>hs</code></td><td class="num">-70.0%</td></tr>
+<tr><td>词条域（调度 / 路径 / 选址 / 图问题 / 黑箱……）</td><td>numpart</td><td><code>ica</code></td><td class="num">-95.2%</td></tr>
+<tr><td>词条域（调度 / 路径 / 选址 / 图问题 / 黑箱……）</td><td>numpart</td><td><code>ils</code></td><td class="num">-99.3%</td></tr>
+<tr><td>词条域（调度 / 路径 / 选址 / 图问题 / 黑箱……）</td><td>numpart</td><td><code>kh</code></td><td class="num">-99.4%</td></tr>
+<tr><td>词条域（调度 / 路径 / 选址 / 图问题 / 黑箱……）</td><td>numpart</td><td><code>mfo</code></td><td class="num">-99.5%</td></tr>
+<tr><td>词条域（调度 / 路径 / 选址 / 图问题 / 黑箱……）</td><td>numpart</td><td><code>mpa</code></td><td class="num">-66.7%</td></tr>
+<tr><td>词条域（调度 / 路径 / 选址 / 图问题 / 黑箱……）</td><td>numpart</td><td><code>pso</code></td><td class="num">-89.7%</td></tr>
+<tr><td>词条域（调度 / 路径 / 选址 / 图问题 / 黑箱……）</td><td>numpart</td><td><code>sa</code></td><td class="num">-96.3%</td></tr>
+<tr><td>词条域（调度 / 路径 / 选址 / 图问题 / 黑箱……）</td><td>numpart</td><td><code>salp</code></td><td class="num">-93.5%</td></tr>
+<tr><td>词条域（调度 / 路径 / 选址 / 图问题 / 黑箱……）</td><td>numpart</td><td><code>sca</code></td><td class="num">-99.5%</td></tr>
+<tr><td>词条域（调度 / 路径 / 选址 / 图问题 / 黑箱……）</td><td>numpart</td><td><code>sma</code></td><td class="num">-93.0%</td></tr>
+<tr><td>词条域（调度 / 路径 / 选址 / 图问题 / 黑箱……）</td><td>numpart</td><td><code>ssa</code></td><td class="num">-98.4%</td></tr>
+<tr><td>词条域（调度 / 路径 / 选址 / 图问题 / 黑箱……）</td><td>numpart</td><td><code>tlbo</code></td><td class="num">-50.0%</td></tr>
+<tr><td>词条域（调度 / 路径 / 选址 / 图问题 / 黑箱……）</td><td>numpart</td><td><code>vns</code></td><td class="num">-99.8%</td></tr>
+<tr><td>词条域（调度 / 路径 / 选址 / 图问题 / 黑箱……）</td><td>numpart</td><td><code>woa</code></td><td class="num">-99.7%</td></tr>
+<tr><td>词条域（调度 / 路径 / 选址 / 图问题 / 黑箱……）</td><td>orienteering</td><td><code>gwo</code></td><td class="num">-3.7%</td></tr>
+<tr><td>词条域（调度 / 路径 / 选址 / 图问题 / 黑箱……）</td><td>orienteering</td><td><code>pk_ba</code></td><td class="num">-6.2%</td></tr>
+<tr><td>词条域（调度 / 路径 / 选址 / 图问题 / 黑箱……）</td><td>orienteering</td><td><code>pk_bfo</code></td><td class="num">-6.2%</td></tr>
+<tr><td>词条域（调度 / 路径 / 选址 / 图问题 / 黑箱……）</td><td>orienteering</td><td><code>pk_boa</code></td><td class="num">-8.6%</td></tr>
+<tr><td>词条域（调度 / 路径 / 选址 / 图问题 / 黑箱……）</td><td>orienteering</td><td><code>pk_eo</code></td><td class="num">-12.3%</td></tr>
+<tr><td>词条域（调度 / 路径 / 选址 / 图问题 / 黑箱……）</td><td>orienteering</td><td><code>pk_fwa</code></td><td class="num">-4.9%</td></tr>
+<tr><td>词条域（调度 / 路径 / 选址 / 图问题 / 黑箱……）</td><td>orienteering</td><td><code>pk_kh</code></td><td class="num">-8.6%</td></tr>
+<tr><td>词条域（调度 / 路径 / 选址 / 图问题 / 黑箱……）</td><td>orienteering</td><td><code>pk_pso</code></td><td class="num">-1.2%</td></tr>
+<tr><td>词条域（调度 / 路径 / 选址 / 图问题 / 黑箱……）</td><td>orienteering</td><td><code>pk_sca</code></td><td class="num">-4.9%</td></tr>
+<tr><td>词条域（调度 / 路径 / 选址 / 图问题 / 黑箱……）</td><td>orienteering</td><td><code>pk_sma</code></td><td class="num">-3.7%</td></tr>
+<tr><td>词条域（调度 / 路径 / 选址 / 图问题 / 黑箱……）</td><td>oss</td><td><code>pk_bfo</code></td><td class="num">-6.7%</td></tr>
+<tr><td>词条域（调度 / 路径 / 选址 / 图问题 / 黑箱……）</td><td>oss</td><td><code>pk_boa</code></td><td class="num">-2.4%</td></tr>
+<tr><td>词条域（调度 / 路径 / 选址 / 图问题 / 黑箱……）</td><td>oss</td><td><code>pk_eo</code></td><td class="num">-4.7%</td></tr>
+<tr><td>词条域（调度 / 路径 / 选址 / 图问题 / 黑箱……）</td><td>oss</td><td><code>pk_sca</code></td><td class="num">-2.6%</td></tr>
+<tr><td>词条域（调度 / 路径 / 选址 / 图问题 / 黑箱……）</td><td>oss</td><td><code>pk_sma</code></td><td class="num">-13.2%</td></tr>
+<tr><td>词条域（调度 / 路径 / 选址 / 图问题 / 黑箱……）</td><td>pcenter</td><td><code>pk_sca</code></td><td class="num">-1.7%</td></tr>
+<tr><td>词条域（调度 / 路径 / 选址 / 图问题 / 黑箱……）</td><td>pmedian</td><td><code>sa</code></td><td class="num">-1.5%</td></tr>
+<tr><td>词条域（调度 / 路径 / 选址 / 图问题 / 黑箱……）</td><td>proteinfold</td><td><code>pk_eo</code></td><td class="num">-50.0%</td></tr>
+<tr><td>词条域（调度 / 路径 / 选址 / 图问题 / 黑箱……）</td><td>proteinfold</td><td><code>pk_sma</code></td><td class="num">-50.0%</td></tr>
+<tr><td>词条域（调度 / 路径 / 选址 / 图问题 / 黑箱……）</td><td>pvessel</td><td><code>boa</code></td><td class="num">-48.4%</td></tr>
+<tr><td>词条域（调度 / 路径 / 选址 / 图问题 / 黑箱……）</td><td>pvessel</td><td><code>gsa</code></td><td class="num">-45.3%</td></tr>
+<tr><td>词条域（调度 / 路径 / 选址 / 图问题 / 黑箱……）</td><td>pvessel</td><td><code>gwo</code></td><td class="num">-30.2%</td></tr>
+<tr><td>词条域（调度 / 路径 / 选址 / 图问题 / 黑箱……）</td><td>pvessel</td><td><code>mfo</code></td><td class="num">-33.1%</td></tr>
+<tr><td>词条域（调度 / 路径 / 选址 / 图问题 / 黑箱……）</td><td>pvessel</td><td><code>sfla</code></td><td class="num">-5.7%</td></tr>
+<tr><td>词条域（调度 / 路径 / 选址 / 图问题 / 黑箱……）</td><td>pvessel</td><td><code>sma</code></td><td class="num">-35.0%</td></tr>
+<tr><td>词条域（调度 / 路径 / 选址 / 图问题 / 黑箱……）</td><td>pvessel</td><td><code>woa</code></td><td class="num">-13.5%</td></tr>
+<tr><td>词条域（调度 / 路径 / 选址 / 图问题 / 黑箱……）</td><td>qap</td><td><code>pk_bbo</code></td><td class="num">-0.9%</td></tr>
+<tr><td>词条域（调度 / 路径 / 选址 / 图问题 / 黑箱……）</td><td>qap</td><td><code>pk_bfo</code></td><td class="num">-1.9%</td></tr>
+<tr><td>词条域（调度 / 路径 / 选址 / 图问题 / 黑箱……）</td><td>qap</td><td><code>pk_da</code></td><td class="num">-0.7%</td></tr>
+<tr><td>词条域（调度 / 路径 / 选址 / 图问题 / 黑箱……）</td><td>qap</td><td><code>pk_kh</code></td><td class="num">-1.1%</td></tr>
+<tr><td>词条域（调度 / 路径 / 选址 / 图问题 / 黑箱……）</td><td>qap</td><td><code>pk_sca</code></td><td class="num">-1.4%</td></tr>
+<tr><td>词条域（调度 / 路径 / 选址 / 图问题 / 黑箱……）</td><td>qap</td><td><code>pk_sma</code></td><td class="num">-0.4%</td></tr>
+<tr><td>词条域（调度 / 路径 / 选址 / 图问题 / 黑箱……）</td><td>qap</td><td><code>pk_ssa</code></td><td class="num">-1.0%</td></tr>
+<tr><td>词条域（调度 / 路径 / 选址 / 图问题 / 黑箱……）</td><td>reducer</td><td><code>boa</code></td><td class="num">-98.2%</td></tr>
+<tr><td>词条域（调度 / 路径 / 选址 / 图问题 / 黑箱……）</td><td>reducer</td><td><code>fa</code></td><td class="num">-17.1%</td></tr>
+<tr><td>词条域（调度 / 路径 / 选址 / 图问题 / 黑箱……）</td><td>reducer</td><td><code>gwo</code></td><td class="num">-14.8%</td></tr>
+<tr><td>词条域（调度 / 路径 / 选址 / 图问题 / 黑箱……）</td><td>reducer</td><td><code>mfo</code></td><td class="num">-93.9%</td></tr>
+<tr><td>词条域（调度 / 路径 / 选址 / 图问题 / 黑箱……）</td><td>reducer</td><td><code>sca</code></td><td class="num">-33.5%</td></tr>
+<tr><td>词条域（调度 / 路径 / 选址 / 图问题 / 黑箱……）</td><td>reducer</td><td><code>sfla</code></td><td class="num">-92.1%</td></tr>
+<tr><td>词条域（调度 / 路径 / 选址 / 图问题 / 黑箱……）</td><td>reducer</td><td><code>woa</code></td><td class="num">-12.0%</td></tr>
+<tr><td>词条域（调度 / 路径 / 选址 / 图问题 / 黑箱……）</td><td>ro</td><td><code>mfo</code></td><td class="num">-7.0%</td></tr>
+<tr><td>词条域（调度 / 路径 / 选址 / 图问题 / 黑箱……）</td><td>rpostman</td><td><code>pk_bfo</code></td><td class="num">-4.8%</td></tr>
+<tr><td>词条域（调度 / 路径 / 选址 / 图问题 / 黑箱……）</td><td>rpostman</td><td><code>pk_eo</code></td><td class="num">-3.2%</td></tr>
+<tr><td>词条域（调度 / 路径 / 选址 / 图问题 / 黑箱……）</td><td>rpostman</td><td><code>pk_sma</code></td><td class="num">-10.4%</td></tr>
+<tr><td>词条域（调度 / 路径 / 选址 / 图问题 / 黑箱……）</td><td>shortestpath</td><td><code>hc</code></td><td class="num">-13.6%</td></tr>
+<tr><td>词条域（调度 / 路径 / 选址 / 图问题 / 黑箱……）</td><td>shortestpath</td><td><code>ils</code></td><td class="num">-13.6%</td></tr>
+<tr><td>词条域（调度 / 路径 / 选址 / 图问题 / 黑箱……）</td><td>shortestpath</td><td><code>vns</code></td><td class="num">-61.2%</td></tr>
+<tr><td>词条域（调度 / 路径 / 选址 / 图问题 / 黑箱……）</td><td>sms</td><td><code>pk_sma</code></td><td class="num">-3.8%</td></tr>
+<tr><td>词条域（调度 / 路径 / 选址 / 图问题 / 黑箱……）</td><td>stp</td><td><code>bv_tlbo</code></td><td class="num">-13.0%</td></tr>
+<tr><td>词条域（调度 / 路径 / 选址 / 图问题 / 黑箱……）</td><td>tcspring</td><td><code>bbo</code></td><td class="num">-87.5%</td></tr>
+<tr><td>词条域（调度 / 路径 / 选址 / 图问题 / 黑箱……）</td><td>tcspring</td><td><code>boa</code></td><td class="num">-99.8%</td></tr>
+<tr><td>词条域（调度 / 路径 / 选址 / 图问题 / 黑箱……）</td><td>tcspring</td><td><code>gsa</code></td><td class="num">-25.1%</td></tr>
+<tr><td>词条域（调度 / 路径 / 选址 / 图问题 / 黑箱……）</td><td>tcspring</td><td><code>gwo</code></td><td class="num">-98.4%</td></tr>
+<tr><td>词条域（调度 / 路径 / 选址 / 图问题 / 黑箱……）</td><td>tcspring</td><td><code>mfo</code></td><td class="num">-96.9%</td></tr>
+<tr><td>词条域（调度 / 路径 / 选址 / 图问题 / 黑箱……）</td><td>tcspring</td><td><code>sfla</code></td><td class="num">-83.9%</td></tr>
+<tr><td>词条域（调度 / 路径 / 选址 / 图问题 / 黑箱……）</td><td>tcspring</td><td><code>sma</code></td><td class="num">-30.1%</td></tr>
+<tr><td>词条域（调度 / 路径 / 选址 / 图问题 / 黑箱……）</td><td>tdm</td><td><code>bv_bfo</code></td><td class="num">-20.0%</td></tr>
+<tr><td>词条域（调度 / 路径 / 选址 / 图问题 / 黑箱……）</td><td>tdm</td><td><code>bv_sma</code></td><td class="num">-25.0%</td></tr>
+<tr><td>词条域（调度 / 路径 / 选址 / 图问题 / 黑箱……）</td><td>tdm</td><td><code>bv_ssa</code></td><td class="num">-100.0%</td></tr>
+<tr><td>词条域（调度 / 路径 / 选址 / 图问题 / 黑箱……）</td><td>tdm</td><td><code>bv_tlbo</code></td><td class="num">-100.0%</td></tr>
+<tr><td>词条域（调度 / 路径 / 选址 / 图问题 / 黑箱……）</td><td>topsort</td><td><code>pk_sma</code></td><td class="num">-20.0%</td></tr>
+<tr><td>词条域（调度 / 路径 / 选址 / 图问题 / 黑箱……）</td><td>vcover</td><td><code>bv_mfo</code></td><td class="num">-12.5%</td></tr>
+<tr><td>词条域（调度 / 路径 / 选址 / 图问题 / 黑箱……）</td><td>vcover</td><td><code>bv_tlbo</code></td><td class="num">-12.5%</td></tr>
+<tr><td>词条域（调度 / 路径 / 选址 / 图问题 / 黑箱……）</td><td>vrp</td><td><code>pk_bfo</code></td><td class="num">-3.9%</td></tr>
+<tr><td>词条域（调度 / 路径 / 选址 / 图问题 / 黑箱……）</td><td>vrp</td><td><code>pk_boa</code></td><td class="num">-4.8%</td></tr>
+<tr><td>词条域（调度 / 路径 / 选址 / 图问题 / 黑箱……）</td><td>vrpstw</td><td><code>pk_boa</code></td><td class="num">-2.9%</td></tr>
+<tr><td>词条域（调度 / 路径 / 选址 / 图问题 / 黑箱……）</td><td>vrptw</td><td><code>pk_alo</code></td><td class="num">-2.3%</td></tr>
+<tr><td>词条域（调度 / 路径 / 选址 / 图问题 / 黑箱……）</td><td>vrptw</td><td><code>pk_boa</code></td><td class="num">-10.8%</td></tr>
+<tr><td>词条域（调度 / 路径 / 选址 / 图问题 / 黑箱……）</td><td>vrptw</td><td><code>pk_sca</code></td><td class="num">-5.8%</td></tr>
+<tr><td>词条域（调度 / 路径 / 选址 / 图问题 / 黑箱……）</td><td>wbeam</td><td><code>ao</code></td><td class="num">-32.5%</td></tr>
+<tr><td>词条域（调度 / 路径 / 选址 / 图问题 / 黑箱……）</td><td>wbeam</td><td><code>bbo</code></td><td class="num">-31.4%</td></tr>
+<tr><td>词条域（调度 / 路径 / 选址 / 图问题 / 黑箱……）</td><td>wbeam</td><td><code>boa</code></td><td class="num">-51.6%</td></tr>
+<tr><td>词条域（调度 / 路径 / 选址 / 图问题 / 黑箱……）</td><td>wbeam</td><td><code>fa</code></td><td class="num">-22.8%</td></tr>
+<tr><td>词条域（调度 / 路径 / 选址 / 图问题 / 黑箱……）</td><td>wbeam</td><td><code>fwa</code></td><td class="num">-23.6%</td></tr>
+<tr><td>词条域（调度 / 路径 / 选址 / 图问题 / 黑箱……）</td><td>wbeam</td><td><code>gsa</code></td><td class="num">-42.4%</td></tr>
+<tr><td>词条域（调度 / 路径 / 选址 / 图问题 / 黑箱……）</td><td>wbeam</td><td><code>gwo</code></td><td class="num">-38.2%</td></tr>
+<tr><td>词条域（调度 / 路径 / 选址 / 图问题 / 黑箱……）</td><td>wbeam</td><td><code>hho</code></td><td class="num">-28.6%</td></tr>
+<tr><td>词条域（调度 / 路径 / 选址 / 图问题 / 黑箱……）</td><td>wbeam</td><td><code>mfo</code></td><td class="num">-49.7%</td></tr>
+<tr><td>词条域（调度 / 路径 / 选址 / 图问题 / 黑箱……）</td><td>wbeam</td><td><code>sca</code></td><td class="num">-43.1%</td></tr>
+<tr><td>词条域（调度 / 路径 / 选址 / 图问题 / 黑箱……）</td><td>wbeam</td><td><code>sfla</code></td><td class="num">-14.8%</td></tr>
+<tr><td>词条域（调度 / 路径 / 选址 / 图问题 / 黑箱……）</td><td>wbeam</td><td><code>sma</code></td><td class="num">-24.3%</td></tr>
+<tr><td>词条域（调度 / 路径 / 选址 / 图问题 / 黑箱……）</td><td>wbeam</td><td><code>woa</code></td><td class="num">-44.5%</td></tr>
+<tr><td>广义指派</td><td></td><td><code>as_boa</code></td><td class="num">-10.5%</td></tr>
+<tr><td>广义指派</td><td></td><td><code>as_sca</code></td><td class="num">-2.8%</td></tr>
+<tr><td>广义指派</td><td></td><td><code>as_sma</code></td><td class="num">-9.4%</td></tr>
+<tr><td>广义指派</td><td></td><td><code>gwo</code></td><td class="num">-13.1%</td></tr>
+<tr><td>着色变体谱系</td><td>mis</td><td><code>aco</code></td><td class="num">-14.3%</td></tr>
+<tr><td>着色变体谱系</td><td>mis</td><td><code>bv_ao</code></td><td class="num">-14.3%</td></tr>
+<tr><td>着色变体谱系</td><td>mis</td><td><code>bv_ba</code></td><td class="num">-14.3%</td></tr>
+<tr><td>着色变体谱系</td><td>mis</td><td><code>bv_bbo</code></td><td class="num">-14.3%</td></tr>
+<tr><td>着色变体谱系</td><td>mis</td><td><code>bv_bfo</code></td><td class="num">-14.3%</td></tr>
+<tr><td>着色变体谱系</td><td>mis</td><td><code>bv_boa</code></td><td class="num">-14.3%</td></tr>
+<tr><td>着色变体谱系</td><td>mis</td><td><code>bv_cem</code></td><td class="num">-14.3%</td></tr>
+<tr><td>着色变体谱系</td><td>mis</td><td><code>bv_cscrow</code></td><td class="num">-14.3%</td></tr>
+<tr><td>着色变体谱系</td><td>mis</td><td><code>bv_hho</code></td><td class="num">-14.3%</td></tr>
+<tr><td>着色变体谱系</td><td>mis</td><td><code>bv_ica</code></td><td class="num">-14.3%</td></tr>
+<tr><td>着色变体谱系</td><td>mis</td><td><code>bv_jaya</code></td><td class="num">-14.3%</td></tr>
+<tr><td>着色变体谱系</td><td>mis</td><td><code>bv_kh</code></td><td class="num">-14.3%</td></tr>
+<tr><td>着色变体谱系</td><td>mis</td><td><code>bv_mfo</code></td><td class="num">-14.3%</td></tr>
+<tr><td>着色变体谱系</td><td>mis</td><td><code>bv_pso</code></td><td class="num">-14.3%</td></tr>
+<tr><td>着色变体谱系</td><td>mis</td><td><code>bv_salp</code></td><td class="num">-14.3%</td></tr>
+<tr><td>着色变体谱系</td><td>mis</td><td><code>bv_sca</code></td><td class="num">-14.3%</td></tr>
+<tr><td>着色变体谱系</td><td>mis</td><td><code>bv_sma</code></td><td class="num">-14.3%</td></tr>
+<tr><td>着色变体谱系</td><td>mis</td><td><code>bv_ssa</code></td><td class="num">-28.6%</td></tr>
+<tr><td>着色变体谱系</td><td>mis</td><td><code>bv_tlbo</code></td><td class="num">-14.3%</td></tr>
+<tr><td>着色变体谱系</td><td>mis</td><td><code>hc</code></td><td class="num">-14.3%</td></tr>
+<tr><td>着色变体谱系</td><td>mis</td><td><code>ts</code></td><td class="num">-14.3%</td></tr>
+<tr><td>图着色</td><td></td><td><code>pk_ba</code></td><td class="num">-9.1%</td></tr>
+<tr><td>图着色</td><td></td><td><code>pk_bfo</code></td><td class="num">-9.1%</td></tr>
+<tr><td>图着色</td><td></td><td><code>pk_boa</code></td><td class="num">-9.1%</td></tr>
+<tr><td>图着色</td><td></td><td><code>pk_da</code></td><td class="num">-9.1%</td></tr>
+<tr><td>图着色</td><td></td><td><code>pk_eo</code></td><td class="num">-9.1%</td></tr>
+<tr><td>图着色</td><td></td><td><code>pk_sma</code></td><td class="num">-9.1%</td></tr>
+<tr><td>图着色</td><td></td><td><code>pk_ssa</code></td><td class="num">-9.1%</td></tr>
+<tr><td>0-1 背包</td><td></td><td><code>bv_bfo</code></td><td class="num">-4.9%</td></tr>
+<tr><td>0-1 背包</td><td></td><td><code>bv_sma</code></td><td class="num">-4.7%</td></tr>
+<tr><td>背包变体谱系</td><td>bkp</td><td><code>bv_ais</code></td><td class="num">-0.6%</td></tr>
+<tr><td>背包变体谱系</td><td>bkp</td><td><code>bv_bfo</code></td><td class="num">-7.3%</td></tr>
+<tr><td>背包变体谱系</td><td>bkp</td><td><code>grasp</code></td><td class="num">-12.0%</td></tr>
+<tr><td>背包变体谱系</td><td>bkp</td><td><code>hc</code></td><td class="num">-2.5%</td></tr>
+<tr><td>背包变体谱系</td><td>cmp</td><td><code>bv_alo</code></td><td class="num">-17.6%</td></tr>
+<tr><td>背包变体谱系</td><td>cmp</td><td><code>bv_ba</code></td><td class="num">-12.5%</td></tr>
+<tr><td>背包变体谱系</td><td>cmp</td><td><code>bv_bbo</code></td><td class="num">-17.6%</td></tr>
+<tr><td>背包变体谱系</td><td>cmp</td><td><code>bv_bfo</code></td><td class="num">-17.6%</td></tr>
+<tr><td>背包变体谱系</td><td>cmp</td><td><code>bv_fa</code></td><td class="num">-5.9%</td></tr>
+<tr><td>背包变体谱系</td><td>cmp</td><td><code>bv_jaya</code></td><td class="num">-12.5%</td></tr>
+<tr><td>背包变体谱系</td><td>cmp</td><td><code>bv_kh</code></td><td class="num">-17.6%</td></tr>
+<tr><td>背包变体谱系</td><td>cmp</td><td><code>bv_mfo</code></td><td class="num">-99.9%</td></tr>
+<tr><td>背包变体谱系</td><td>cmp</td><td><code>bv_pso</code></td><td class="num">-17.6%</td></tr>
+<tr><td>背包变体谱系</td><td>cmp</td><td><code>bv_salp</code></td><td class="num">-12.5%</td></tr>
+<tr><td>背包变体谱系</td><td>cmp</td><td><code>bv_sca</code></td><td class="num">-99.9%</td></tr>
+<tr><td>背包变体谱系</td><td>cmp</td><td><code>bv_sma</code></td><td class="num">-17.6%</td></tr>
+<tr><td>背包变体谱系</td><td>cmp</td><td><code>bv_ssa</code></td><td class="num">-26.3%</td></tr>
+<tr><td>背包变体谱系</td><td>cmp</td><td><code>ts</code></td><td class="num">-22.2%</td></tr>
+<tr><td>背包变体谱系</td><td>mdkp</td><td><code>bv_bfo</code></td><td class="num">-3.1%</td></tr>
+<tr><td>背包变体谱系</td><td>mdkp</td><td><code>bv_boa</code></td><td class="num">-0.6%</td></tr>
+<tr><td>背包变体谱系</td><td>mdkp</td><td><code>bv_gsa</code></td><td class="num">-1.6%</td></tr>
+<tr><td>背包变体谱系</td><td>mkpm</td><td><code>sa</code></td><td class="num">-1.3%</td></tr>
+<tr><td>背包变体谱系</td><td>qkp</td><td><code>bv_gsa</code></td><td class="num">-0.5%</td></tr>
+<tr><td>背包变体谱系</td><td>ssp</td><td><code>bv_mfo</code></td><td class="num">-100.0%</td></tr>
+<tr><td>背包变体谱系</td><td>ssp</td><td><code>bv_sca</code></td><td class="num">-100.0%</td></tr>
+<tr><td>背包变体谱系</td><td>ssp</td><td><code>bv_tlbo</code></td><td class="num">-100.0%</td></tr>
+<tr><td>背包变体谱系</td><td>ssp</td><td><code>hc</code></td><td class="num">-100.0%</td></tr>
+<tr><td>背包变体谱系</td><td>ukp</td><td><code>bv_afsa</code></td><td class="num">-0.8%</td></tr>
+<tr><td>背包变体谱系</td><td>ukp</td><td><code>bv_bfo</code></td><td class="num">-8.8%</td></tr>
+<tr><td>背包变体谱系</td><td>ukp</td><td><code>bv_boa</code></td><td class="num">-0.4%</td></tr>
+<tr><td>背包变体谱系</td><td>ukp</td><td><code>grasp</code></td><td class="num">-13.5%</td></tr>
+<tr><td>背包变体谱系</td><td>ukp</td><td><code>hc</code></td><td class="num">-0.5%</td></tr>
+<tr><td>QUBO / 伊辛</td><td></td><td><code>bv_afsa</code></td><td class="num">-11.2%</td></tr>
+<tr><td>QUBO / 伊辛</td><td></td><td><code>bv_bfo</code></td><td class="num">-19.0%</td></tr>
+<tr><td>QUBO / 伊辛</td><td></td><td><code>bv_boa</code></td><td class="num">-2.4%</td></tr>
+<tr><td>QUBO / 伊辛</td><td></td><td><code>bv_sma</code></td><td class="num">-19.1%</td></tr>
+<tr><td>布尔可满足性</td><td></td><td><code>bv_ais</code></td><td class="num">-20.0%</td></tr>
+<tr><td>布尔可满足性</td><td></td><td><code>bv_ba</code></td><td class="num">-20.0%</td></tr>
+<tr><td>布尔可满足性</td><td></td><td><code>bv_bfo</code></td><td class="num">-33.3%</td></tr>
+<tr><td>布尔可满足性</td><td></td><td><code>bv_boa</code></td><td class="num">-20.0%</td></tr>
+<tr><td>布尔可满足性</td><td></td><td><code>bv_gsa</code></td><td class="num">-20.0%</td></tr>
+<tr><td>布尔可满足性</td><td></td><td><code>bv_sca</code></td><td class="num">-20.0%</td></tr>
+<tr><td>布尔可满足性</td><td></td><td><code>bv_sma</code></td><td class="num">-20.0%</td></tr>
+<tr><td>布尔可满足性</td><td></td><td><code>bv_tlbo</code></td><td class="num">-20.0%</td></tr>
+<tr><td>集合覆盖</td><td></td><td><code>bv_afsa</code></td><td class="num">-17.5%</td></tr>
+<tr><td>集合覆盖</td><td></td><td><code>bv_ais</code></td><td class="num">-31.3%</td></tr>
+<tr><td>集合覆盖</td><td></td><td><code>bv_alo</code></td><td class="num">-23.2%</td></tr>
+<tr><td>集合覆盖</td><td></td><td><code>bv_bbo</code></td><td class="num">-8.7%</td></tr>
+<tr><td>集合覆盖</td><td></td><td><code>bv_bfo</code></td><td class="num">-38.4%</td></tr>
+<tr><td>集合覆盖</td><td></td><td><code>bv_boa</code></td><td class="num">-24.2%</td></tr>
+<tr><td>集合覆盖</td><td></td><td><code>bv_cscrow</code></td><td class="num">-19.4%</td></tr>
+<tr><td>集合覆盖</td><td></td><td><code>bv_da</code></td><td class="num">-31.4%</td></tr>
+<tr><td>集合覆盖</td><td></td><td><code>bv_fa</code></td><td class="num">-12.4%</td></tr>
+<tr><td>集合覆盖</td><td></td><td><code>bv_fpa</code></td><td class="num">-15.3%</td></tr>
+<tr><td>集合覆盖</td><td></td><td><code>bv_fwa</code></td><td class="num">-8.1%</td></tr>
+<tr><td>集合覆盖</td><td></td><td><code>bv_ica</code></td><td class="num">-4.1%</td></tr>
+<tr><td>集合覆盖</td><td></td><td><code>bv_jaya</code></td><td class="num">-16.6%</td></tr>
+<tr><td>集合覆盖</td><td></td><td><code>bv_kh</code></td><td class="num">-20.5%</td></tr>
+<tr><td>集合覆盖</td><td></td><td><code>bv_mpa</code></td><td class="num">-6.6%</td></tr>
+<tr><td>集合覆盖</td><td></td><td><code>bv_salp</code></td><td class="num">-24.7%</td></tr>
+<tr><td>集合覆盖</td><td></td><td><code>bv_sfla</code></td><td class="num">-4.1%</td></tr>
+<tr><td>集合覆盖</td><td></td><td><code>bv_sos</code></td><td class="num">-0.9%</td></tr>
+<tr><td>集合覆盖</td><td></td><td><code>bv_tlbo</code></td><td class="num">-36.3%</td></tr>
+<tr><td>无容量设施选址</td><td></td><td><code>bv_ais</code></td><td class="num">-3.9%</td></tr>
+<tr><td>无容量设施选址</td><td></td><td><code>bv_ba</code></td><td class="num">-2.2%</td></tr>
+<tr><td>无容量设施选址</td><td></td><td><code>bv_bfo</code></td><td class="num">-6.3%</td></tr>
+<tr><td>无容量设施选址</td><td></td><td><code>bv_boa</code></td><td class="num">-5.0%</td></tr>
+<tr><td>无容量设施选址</td><td></td><td><code>bv_cscrow</code></td><td class="num">-0.9%</td></tr>
+<tr><td>无容量设施选址</td><td></td><td><code>bv_da</code></td><td class="num">-3.5%</td></tr>
+<tr><td>无容量设施选址</td><td></td><td><code>bv_gsa</code></td><td class="num">-10.7%</td></tr>
+<tr><td>无容量设施选址</td><td></td><td><code>bv_kh</code></td><td class="num">-1.2%</td></tr>
+<tr><td>无容量设施选址</td><td></td><td><code>bv_mfo</code></td><td class="num">-8.2%</td></tr>
+<tr><td>无容量设施选址</td><td></td><td><code>bv_sca</code></td><td class="num">-12.9%</td></tr>
+<tr><td>无容量设施选址</td><td></td><td><code>bv_sma</code></td><td class="num">-7.3%</td></tr>
+<tr><td>无容量设施选址</td><td></td><td><code>bv_ssa</code></td><td class="num">-5.0%</td></tr>
+<tr><td>无容量设施选址</td><td></td><td><code>bv_tlbo</code></td><td class="num">-11.0%</td></tr>
+</tbody></table></div></details>
+
+  <h2 id="pulled">更早的撤下留痕（内核级与逐格撤下）</h2>
+  <p class="lead">撤下是校验制度在运作，<b>不是缺陷</b>：在更严的口径下（随机基线取同一种子下的最优值）过不了门的算法或内核，会撤下并留痕。上面的「同等评估预算实测」是现行口径；本节是更早批次留下的记录。本站共记录 <b>8</b> 条：
+  <b>8</b> 条已撤下、<b>0</b> 条其他线重做中。</p>
+  <div class="tblwrap"><table class="tbl">
+    <thead><tr><th>格（域 × 算法）</th><th>层级</th><th>原因</th><th class="num">数字/证据</th><th>状态</th></tr></thead>
+    <tbody>
+<tr><td>位向量层 bv（连续系二值化） × gsa（引力搜索）</td><td>内核级</td><td>GSA 引力项随距离平方衰减，在二进制 0/1 空间无几何对应，离散化后机制退化，未过严口径防假跑门（随机基线同族 seed 同取最优仍不占优）。</td><td class="num">结构性退化（无有效数值门差）</td><td><span style="color:#b00;font-weight:600">已撤下</span></td></tr>
+<tr><td>位向量层 bv（连续系二值化） × hs（和声搜索）</td><td>内核级</td><td>HS 和声记忆库（记忆考量）在离散位空间收敛不足，种群多样性过早坍缩，未过严口径防假跑门。</td><td class="num">收敛不足（未达随机基线）</td><td><span style="color:#b00;font-weight:600">已撤下</span></td></tr>
+<tr><td>qubo × sca（正弦余弦）</td><td>域级</td><td>SCA 在 QUBO 大范围负目标（伊辛负能 landscape）探索不足，伯努利二值化下正/负能量区间不对称，未过门。</td><td class="num">负目标探索不足</td><td><span style="color:#b00;font-weight:600">已撤下</span></td></tr>
+<tr><td>qubo × mfo（蛾焰）</td><td>域级</td><td>MFO 多焰递减机制在 QUBO 负能 landscape 上同样探索不足，与 sca/eo 同批撤下。</td><td class="num">负目标探索不足</td><td><span style="color:#b00;font-weight:600">已撤下</span></td></tr>
+<tr><td>qubo × eo（均衡优化）</td><td>域级</td><td>EO 平衡池机制在 QUBO 大范围负目标下失效（同 sca/mfo 批），伯努利系 cem/cmaes 过门，eo 撤下。</td><td class="num">负目标探索不足</td><td><span style="color:#b00;font-weight:600">已撤下</span></td></tr>
+<tr><td>kpvar（组合背包 cmp） × mfo（蛾焰）</td><td>域级</td><td>MFO 多焰递减机制在组合背包域（change-making 等）不适配，未过防假跑门。</td><td class="num">—</td><td><span style="color:#b00;font-weight:600">已撤下</span></td></tr>
+<tr><td>sat × mfo（蛾焰）</td><td>域级</td><td>MFO 在 SAT 布尔域（变量取值 0/1）失效，未过防假跑门。</td><td class="num">—</td><td><span style="color:#b00;font-weight:600">已撤下</span></td></tr>
+<tr><td>gap（广义指派） × as_eo（指派层均衡优化）</td><td>域级</td><td>EO 在 GAP 指派域 470 vs 427 未过门（域级撤下）；同层 as_sca 修正后回挂，as_eo 仍撤下留痕。</td><td class="num">470 vs 427（被测内核 vs 随机基线最优）</td><td><span style="color:#b00;font-weight:600">已撤下</span></td></tr>
+    </tbody>
+  </table></div>
+  <p class="hint">口径说明：内核级撤下=整族机制在离散语境退化（如 GSA 引力项、HS 记忆考量）；域级撤下=某算法在某域未过门（逐格留痕，源码注释存证据）。
+  护士排班、赛程生成、设施选址和旅行锦标赛曾作为词条级演示撤下，后来用专业建模或专属内核重做并通过校验后重新上线，目前没有词条级的撤下记录。
+  详见 <a href="../discovery/index.html">候选发现池</a> 的收录闸门记录。</p>
+
+</main>
+<footer>
+  <span class="fbrand">群智能算法百科</span>
+  <span class="ver">v0.1.0</span>
+  <span>算法由 Pyodide 在浏览器本地运行，数据不上传</span>
+</footer>
+<script>
+(function(){
+  var b=document.getElementById("themeToggle");if(!b)return;
+  var root=document.documentElement;
+  function sync(){b.textContent=root.getAttribute("data-theme")==="dark"?"☀️":"🌙";}
+  b.onclick=function(){
+    var n=root.getAttribute("data-theme")==="dark"?"light":"dark";
+    root.setAttribute("data-theme",n);
+    try{localStorage.setItem("theme",n)}catch(e){}
+    sync();
+    window.dispatchEvent(new CustomEvent("themechange"));
+  };
+  sync();
+})();
+(function(){
+  if(location.protocol!=="file:")return;
+  var d=document.createElement("div");
+  d.className="file-warn";
+  d.innerHTML="⚠️ 当前通过 <b>file://</b> 直接打开：页面浏览可用，但<b>交互演示（运行算法）需要经 http 访问</b>——请在项目目录双击 <code>start_server.bat</code>（或运行 <code>python serve.py</code>），再访问 http://localhost:8000 。";
+  document.body.insertBefore(d,document.body.firstChild);
+})();
+/* S8-C 触屏（hover 不可用）：点 .dd-btn 展开/收起面板，不再直接跳走（P1-2 修复）。
+   桌面 hover 环境不拦截（matchMedia('(hover: hover)') 为真时不处理）。 */
+(function(){
+  document.querySelectorAll(".dd-btn").forEach(function(b){
+    b.addEventListener("click", function(e){
+      if(window.matchMedia("(hover: hover)").matches) return;  // 桌面 hover 环境不拦截
+      e.preventDefault();
+      var dd=b.parentElement;
+      var wasOpen=dd.classList.contains("open");
+      document.querySelectorAll(".dd.open").forEach(function(o){ o.classList.remove("open"); });
+      if(!wasOpen) dd.classList.add("open");
+    });
+  });
+  document.addEventListener("click", function(e){
+    if(!e.target.closest(".dd")) document.querySelectorAll(".dd.open").forEach(function(o){ o.classList.remove("open"); });
+  });
+})();
+/* 长表词条过滤（planned>20 的家族页，P1-3）：输入即按行文本 includes 过滤 + 计数 */
+(function(){
+  document.querySelectorAll(".plfilter").forEach(function(inp){
+    var wrap=inp.closest(".plwrap");
+    var tbl=wrap.parentElement.querySelector(".pltbl table");
+    var cnt=wrap.querySelector(".plcount");
+    if(!tbl||!cnt) return;
+    var total=parseInt(inp.getAttribute("data-plcount"),10)||tbl.querySelectorAll("tr").length-1;
+    var trs=tbl.querySelectorAll("tr");
+    inp.addEventListener("input", function(){
+      var q=inp.value.trim().toLowerCase(), n=0;
+      for(var i=1;i<trs.length;i++){
+        var hit=!q||trs[i].textContent.toLowerCase().indexOf(q)>=0;
+        trs[i].style.display=hit?"":"none"; if(hit) n++;
+      }
+      cnt.textContent="显示 "+n+"/"+total;
+    });
+  });
+})();
+</script>
+</body>
+</html>

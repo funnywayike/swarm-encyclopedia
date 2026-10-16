@@ -1,0 +1,6387 @@
+{
+ "problem_index": {
+  "tsp": {
+   "name": "TSP 旅行商",
+   "url": "/problem/tsp/"
+  },
+  "knapsack": {
+   "name": "0-1 背包",
+   "url": "/problem/knapsack/"
+  },
+  "fractional": {
+   "name": "分数背包",
+   "url": "/problem/knapsack/fractional/"
+  },
+  "bounded": {
+   "name": "有界背包",
+   "url": "/problem/knapsack/bounded/"
+  },
+  "unbounded": {
+   "name": "无界背包",
+   "url": "/problem/knapsack/unbounded/"
+  },
+  "changemaking": {
+   "name": "找零问题",
+   "url": "/problem/knapsack/changemaking/"
+  },
+  "multiplechoice": {
+   "name": "多选择背包",
+   "url": "/problem/knapsack/multiplechoice/"
+  },
+  "multiple": {
+   "name": "多背包",
+   "url": "/problem/knapsack/multiple/"
+  },
+  "multidim": {
+   "name": "多维背包",
+   "url": "/problem/knapsack/multidim/"
+  },
+  "discounted": {
+   "name": "折扣背包",
+   "url": "/problem/knapsack/discounted/"
+  },
+  "quadratic": {
+   "name": "二次背包",
+   "url": "/problem/knapsack/quadratic/"
+  },
+  "subsetsum": {
+   "name": "子集和",
+   "url": "/problem/knapsack/subsetsum/"
+  },
+  "scp": {
+   "name": "集合覆盖",
+   "url": "/problem/setcover/"
+  },
+  "mis": {
+   "name": "最大独立集",
+   "url": "/problem/misindep/"
+  },
+  "partition": {
+   "name": "数划分",
+   "url": "/problem/reductions/"
+  },
+  "continuous": {
+   "name": "连续优化",
+   "url": "/problem/continuous/"
+  },
+  "multiobj": {
+   "name": "多目标优化",
+   "url": "/problem/multiobj/"
+  },
+  "bbob": {
+   "name": "BBOB 基准套件",
+   "url": "/problem/bbob/"
+  },
+  "maop": {
+   "name": "超多目标优化",
+   "url": "/problem/maop/"
+  },
+  "moco": {
+   "name": "组合多目标优化",
+   "url": "/problem/moco/"
+  },
+  "uflp": {
+   "name": "无容量设施选址",
+   "url": "/problem/uflp/"
+  },
+  "graphcolor": {
+   "name": "图着色",
+   "url": "/problem/graphcolor/"
+  },
+  "lcp": {
+   "name": "列表着色",
+   "url": "/problem/listcolor/"
+  },
+  "ecp": {
+   "name": "边着色",
+   "url": "/problem/edgecolor/"
+  },
+  "prext": {
+   "name": "预着色扩展",
+   "url": "/problem/precolor/"
+  },
+  "tcp": {
+   "name": "全着色",
+   "url": "/problem/totalcolor/"
+  },
+  "sat": {
+   "name": "可满足性问题",
+   "url": "/problem/sat/"
+  },
+  "maxsat": {
+   "name": "最大可满足性",
+   "url": "/problem/maxsat/"
+  },
+  "binpack": {
+   "name": "装箱问题",
+   "url": "/problem/binpack/"
+  },
+  "bpp2d": {
+   "name": "二维装箱",
+   "url": "/problem/binpack2d/"
+  },
+  "spp": {
+   "name": "条带装箱",
+   "url": "/problem/strippack/"
+  },
+  "vsbpp": {
+   "name": "变尺寸箱装箱",
+   "url": "/problem/vsbinpack/"
+  },
+  "csp": {
+   "name": "一维下料",
+   "url": "/problem/cutstock/"
+  },
+  "assignment": {
+   "name": "分配/选址",
+   "url": "/problem/assignment/"
+  },
+  "qubo": {
+   "name": "QUBO 与密码类",
+   "url": "/problem/qubo/"
+  },
+  "atsp": {
+   "name": "非对称旅行商问题",
+   "url": "/problem/atsp/"
+  },
+  "blo": {
+   "name": "双层优化",
+   "url": "/problem/blo/"
+  },
+  "carp": {
+   "name": "带容量弧路由问题",
+   "url": "/problem/carp/"
+  },
+  "cbbb": {
+   "name": "约束黑箱优化",
+   "url": "/problem/cbbb/"
+  },
+  "cflp": {
+   "name": "容量设施选址",
+   "url": "/problem/cflp/"
+  },
+  "ctp": {
+   "name": "课程排课",
+   "url": "/problem/ctp/"
+  },
+  "ebbb": {
+   "name": "昂贵黑箱优化",
+   "url": "/problem/ebbb/"
+  },
+  "ecd": {
+   "name": "工程约束设计",
+   "url": "/problem/ecd/"
+  },
+  "etp": {
+   "name": "考试排课",
+   "url": "/problem/etp/"
+  },
+  "fjsp": {
+   "name": "柔性作业车间调度",
+   "url": "/problem/fjsp/"
+  },
+  "freqasg": {
+   "name": "频率分配问题",
+   "url": "/problem/freqasg/"
+  },
+  "fss": {
+   "name": "流水车间调度",
+   "url": "/problem/fss/"
+  },
+  "fvs": {
+   "name": "反馈顶点集",
+   "url": "/problem/fvs/"
+  },
+  "ged": {
+   "name": "生成式设计",
+   "url": "/problem/ged/"
+  },
+  "gpp": {
+   "name": "图划分",
+   "url": "/problem/gpp/"
+  },
+  "hcycle": {
+   "name": "哈密顿回路",
+   "url": "/problem/hcycle/"
+  },
+  "jss": {
+   "name": "作业车间调度",
+   "url": "/problem/jss/"
+  },
+  "kmeans": {
+   "name": "k-均值聚类（中心点优化）",
+   "url": "/problem/kmeans/"
+  },
+  "lap": {
+   "name": "线性指派",
+   "url": "/problem/lap/"
+  },
+  "lbbb": {
+   "name": "大规模黑箱优化",
+   "url": "/problem/lbbb/"
+  },
+  "lop": {
+   "name": "线性排序问题",
+   "url": "/problem/lop/"
+  },
+  "lpath": {
+   "name": "最长路径",
+   "url": "/problem/lpath/"
+  },
+  "lrp": {
+   "name": "选址-路径联合",
+   "url": "/problem/lrp/"
+  },
+  "maxcut": {
+   "name": "最大割",
+   "url": "/problem/maxcut/"
+  },
+  "maxflow": {
+   "name": "最大流问题",
+   "url": "/problem/maxflow/"
+  },
+  "mdvrp": {
+   "name": "多车场车辆路径问题",
+   "url": "/problem/mdvrp/"
+  },
+  "mincostflow": {
+   "name": "最小费用流问题",
+   "url": "/problem/mincostflow/"
+  },
+  "mmo": {
+   "name": "多模态优化",
+   "url": "/problem/mmo/"
+  },
+  "msa": {
+   "name": "多序列比对",
+   "url": "/problem/msa/"
+  },
+  "mst": {
+   "name": "最小生成树",
+   "url": "/problem/mst/"
+  },
+  "nbbb": {
+   "name": "噪声黑箱优化",
+   "url": "/problem/nbbb/"
+  },
+  "ndp": {
+   "name": "网络设计",
+   "url": "/problem/ndp/"
+  },
+  "nrp": {
+   "name": "护士排班",
+   "url": "/problem/nrp/"
+  },
+  "orienteering": {
+   "name": "定向运动问题",
+   "url": "/problem/orienteering/"
+  },
+  "oss": {
+   "name": "开放车间调度",
+   "url": "/problem/oss/"
+  },
+  "proteinfold": {
+   "name": "蛋白质折叠（格点模型）",
+   "url": "/problem/proteinfold/"
+  },
+  "qap": {
+   "name": "二次分配问题",
+   "url": "/problem/qap/"
+  },
+  "ro": {
+   "name": "鲁棒优化",
+   "url": "/problem/ro/"
+  },
+  "rpostman": {
+   "name": "乡村邮递员问题",
+   "url": "/problem/rpostman/"
+  },
+  "sls": {
+   "name": "体育联赛排程",
+   "url": "/problem/sls/"
+  },
+  "sms": {
+   "name": "单机调度",
+   "url": "/problem/sms/"
+  },
+  "tdm": {
+   "name": "3-维匹配",
+   "url": "/problem/tdm/"
+  },
+  "topsort": {
+   "name": "拓扑排序",
+   "url": "/problem/topsort/"
+  },
+  "ttp": {
+   "name": "旅行锦标赛问题",
+   "url": "/problem/ttp/"
+  },
+  "vcover": {
+   "name": "顶点覆盖",
+   "url": "/problem/vcover/"
+  },
+  "vrp": {
+   "name": "车辆路径问题",
+   "url": "/problem/vrp/"
+  },
+  "vrpstw": {
+   "name": "软时间窗车辆路径问题",
+   "url": "/problem/vrpstw/"
+  },
+  "vrptw": {
+   "name": "带时间窗的车辆路径问题",
+   "url": "/problem/vrptw/"
+  }
+ },
+ "algo_solves": [
+  {
+   "algo": "ga",
+   "problem": "knapsack",
+   "how": "二进制编码 + 均匀交叉 + 贪心修复",
+   "evidence": "背包域实测 1456（基线随机搜索 1398）",
+   "demo": "/problem/knapsack/",
+   "tier": "实测"
+  },
+  {
+   "algo": "sa",
+   "problem": "knapsack",
+   "how": "位翻转 + Metropolis 准则（贪心修复保可行）",
+   "evidence": "背包域实测 1464",
+   "demo": "/problem/knapsack/",
+   "tier": "实测"
+  },
+  {
+   "algo": "ts",
+   "problem": "knapsack",
+   "how": "禁忌表 + 全邻域位翻转选优",
+   "evidence": "背包域实测 1466",
+   "demo": "/problem/knapsack/",
+   "tier": "实测"
+  },
+  {
+   "algo": "de",
+   "problem": "knapsack",
+   "how": "二进制差分：差向量 = r2/r3 不同的位",
+   "evidence": "背包域实测 1479",
+   "demo": "/problem/knapsack/",
+   "tier": "实测"
+  },
+  {
+   "algo": "abc",
+   "problem": "knapsack",
+   "how": "雇佣/观察/侦察三阶段 + 贪心修复",
+   "evidence": "背包域实测 1479",
+   "demo": "/problem/knapsack/",
+   "tier": "实测"
+  },
+  {
+   "algo": "woa",
+   "problem": "knapsack",
+   "how": "包围/螺旋二值化 + 贪心修复",
+   "evidence": "背包域实测 1479",
+   "demo": "/problem/knapsack/",
+   "tier": "实测"
+  },
+  {
+   "algo": "gwo",
+   "problem": "knapsack",
+   "how": "α/β/δ 三狼逐位投票（bGWO）",
+   "evidence": "背包域实测 1479",
+   "demo": "/problem/knapsack/",
+   "tier": "实测"
+  },
+  {
+   "algo": "cs",
+   "problem": "knapsack",
+   "how": "莱维飞行位翻转 + 弃巢机制",
+   "evidence": "背包域实测 1477",
+   "demo": "/problem/knapsack/",
+   "tier": "实测"
+  },
+  {
+   "algo": "sa",
+   "problem": "continuous",
+   "how": "连续域 Metropolis + 卡死重启（退火原论文场景就是芯片布局这类问题）",
+   "evidence": "连续域实测 ≈0（Sphere）",
+   "demo": "/problem/continuous/",
+   "tier": "实测"
+  },
+  {
+   "algo": "pso",
+   "problem": "continuous",
+   "how": "原生域：速度-位置公式原样，不做任何离散化",
+   "evidence": "连续域实测 Rastrigin 0.001",
+   "demo": "/problem/continuous/",
+   "tier": "实测"
+  },
+  {
+   "algo": "de",
+   "problem": "continuous",
+   "how": "原生域：差向量实数运算",
+   "evidence": "连续域实测 Rastrigin 0",
+   "demo": "/problem/continuous/",
+   "tier": "实测"
+  },
+  {
+   "algo": "gwo",
+   "problem": "continuous",
+   "how": "原生域：三狼包围收缩",
+   "evidence": "连续域实测 Rastrigin 0",
+   "demo": "/problem/continuous/",
+   "tier": "实测"
+  },
+  {
+   "algo": "woa",
+   "problem": "continuous",
+   "how": "原生域：包围/螺旋更新",
+   "evidence": "连续域实测 Rastrigin 0",
+   "demo": "/problem/continuous/",
+   "tier": "实测"
+  },
+  {
+   "algo": "sca",
+   "problem": "continuous",
+   "how": "原生域：正弦余弦振荡包围",
+   "evidence": "连续域实测 Rastrigin 0",
+   "demo": "/problem/continuous/",
+   "tier": "实测"
+  },
+  {
+   "algo": "ga",
+   "problem": "multiobj",
+   "how": "加权标量化：每代随机权重合成单目标（会坍缩——本站用它当反面教材）",
+   "evidence": "多目标域实测：非支配解数 1 vs NSGA-II 的 40",
+   "demo": "/problem/multiobj/",
+   "demo_algo": "wsga",
+   "tier": "实测"
+  },
+  {
+   "algo": "sa",
+   "problem": "graphcolor",
+   "how": "排列编码 + First-Fit 解码 + 降温",
+   "evidence": "图着色域实测 11 色（基线 12）",
+   "demo": "/problem/graphcolor/",
+   "tier": "实测"
+  },
+  {
+   "algo": "sa",
+   "problem": "assignment",
+   "how": "模拟退火的原始论文场景就是 VLSI 布局/布线——QAP 家族的源头问题",
+   "evidence": null,
+   "demo": null,
+   "tier": "文献",
+   "src": "Kirkpatrick, Gelatt &amp; Vecchi, Science 220:671, 1983"
+  },
+  {
+   "algo": "ts",
+   "problem": "assignment",
+   "how": "鲁棒禁忌搜索是 QAP 的经典强基线",
+   "evidence": null,
+   "demo": null,
+   "tier": "文献",
+   "src": "Taillard, Parallel Computing 17:443, 1991"
+  },
+  {
+   "algo": "aco",
+   "problem": "assignment",
+   "how": "蚁群求解 QAP 是 ACO 阵营继 TSP 后的第一个大胜仗",
+   "evidence": null,
+   "demo": null,
+   "tier": "文献",
+   "src": "Gambardella, Taillard &amp; Dorigo, J. Oper. Res. Soc. 50:167, 1999"
+  },
+  {
+   "algo": "aco",
+   "problem": "graphcolor",
+   "how": "蚂蚁着色图：信息素引导的列表着色是图着色元启发式的早期代表作",
+   "evidence": null,
+   "demo": null,
+   "tier": "文献",
+   "src": "Costa &amp; Hertz, J. Oper. Res. Soc. 48:295, 1997"
+  },
+  {
+   "algo": "cem",
+   "problem": "knapsack",
+   "how": "交叉熵方法的经典论文同时覆盖组合与连续优化",
+   "evidence": null,
+   "demo": null,
+   "tier": "文献",
+   "src": "Rubinstein, Methodology and Computing in Applied Probability 1:127, 1999"
+  },
+  {
+   "algo": "pso",
+   "problem": "multiobj",
+   "how": "MOPSO：外部档案 + 变异算子保持多样性（F7 家族词条，待 MO 引擎）",
+   "evidence": null,
+   "demo": null,
+   "tier": "文献",
+   "src": "Coello Coello, Pulido &amp; Lechuga, IEEE Trans. Evol. Comput. 8:256, 2004"
+  },
+  {
+   "algo": "fa",
+   "problem": "continuous",
+   "how": "萤火虫算法原生为连续空间设计（亮度∝目标值、距离衰减吸引）",
+   "evidence": null,
+   "demo": null,
+   "tier": "文献",
+   "src": "Yang, Nature-Inspired Metaheuristic Algorithms, 2008"
+  },
+  {
+   "algo": "gsa",
+   "problem": "continuous",
+   "how": "引力搜索原生连续：解=天体，质量∝适应度",
+   "evidence": null,
+   "demo": null,
+   "tier": "文献",
+   "src": "Rashedi, Nezamabadi-pour &amp; Saryazdi, Inf. Sci. 179:2232, 2009"
+  },
+  {
+   "algo": "ba",
+   "problem": "continuous",
+   "how": "蝙蝠算法原生连续：响度/频率随迭代收缩",
+   "evidence": null,
+   "demo": null,
+   "tier": "文献",
+   "src": "Yang, Neural Computing and Applications 20:873, 2010"
+  },
+  {
+   "algo": "grasp",
+   "problem": "scp",
+   "how": "GRASP 的诞生问题：半贪婪构造可行覆盖 + 局部搜索删冗，Feo &amp; Resende 1989 首提",
+   "evidence": null,
+   "demo": null,
+   "tier": "文献",
+   "src": "Feo &amp; Resende (1989). Operations Research Letters 8(2):67–71"
+  },
+  {
+   "algo": "ga",
+   "problem": "scp",
+   "how": "二进制编码 + 可行性修补算子 + 均匀交叉，OR-Library 65 例上与精确法对刷",
+   "evidence": null,
+   "demo": null,
+   "tier": "文献",
+   "src": "Beasley &amp; Chu (1996). European Journal of Operational Research 94(2):392–404"
+  },
+  {
+   "algo": "aco",
+   "problem": "scp",
+   "how": "信息素布在列（子集）上，多种构造启发并赛马——SCP 是 ACO 组合优化的标准试验田",
+   "evidence": null,
+   "demo": null,
+   "tier": "文献",
+   "src": "Lessing, Dumitrescu &amp; Stützle (2004). EvoCOP 2004, LNCS 3004:1–12"
+  },
+  {
+   "algo": "grasp",
+   "problem": "mis",
+   "how": "贪婪随机构造独立集 + 1-交换局部搜索——GRASP 框架三大奠基实验之一",
+   "evidence": null,
+   "demo": null,
+   "tier": "文献",
+   "src": "Feo, Resende &amp; Smith (1994). Operations Research 42(5):860–878"
+  },
+  {
+   "algo": "ga",
+   "problem": "spp",
+   "how": "条带装箱（开放高度）是二维排样元启发公共试验台，GA+BL 解码为代表方案",
+   "evidence": "条带排样 GA + bottom-left 解码文献",
+   "demo": "/problem/strippack/",
+   "tier": "实测",
+   "src": "Hopper &amp; Turton (2001). Artificial Intelligence Review 16:257–300",
+   "demo_algo": "ga"
+  },
+  {
+   "algo": "aco",
+   "problem": "csp",
+   "how": "信息素布在装箱启发规则上，与列生成对照——数学规划 vs 元启发标准样本",
+   "evidence": null,
+   "demo": null,
+   "tier": "文献",
+   "src": "Levine &amp; Ducatelle (2004). Journal of the Operational Research Society 55(7):705–716"
+  },
+  {
+   "algo": "sa",
+   "problem": "sat",
+   "how": "SA 以「未满足子句数」为能量做 Metropolis 游走，早期难例研究标准基线之一",
+   "evidence": null,
+   "demo": null,
+   "tier": "文献",
+   "src": "Spears (1993). Simulated annealing for hard satisfiability problems. DIMACS Series Vol. 26"
+  },
+  {
+   "algo": "sa",
+   "problem": "fractional",
+   "how": "位向量 + 容量修复（LP 密度贪心上界作对照锚点）",
+   "evidence": "变体域在线演示可复现（含随机基线对照）",
+   "demo": "/problem/knapsack/fractional/",
+   "tier": "实测",
+   "src": "本站变体页实测"
+  },
+  {
+   "algo": "sa",
+   "problem": "bounded",
+   "how": "拷贝展开位向量 + 容量修复（高温慢冷标定）",
+   "evidence": "变体域在线演示可复现（含随机基线对照）",
+   "demo": "/problem/knapsack/bounded/",
+   "tier": "实测",
+   "src": "本站变体页实测"
+  },
+  {
+   "algo": "ga",
+   "problem": "bounded",
+   "how": "拷贝展开位向量 + 容量修复",
+   "evidence": "变体域在线演示可复现（含随机基线对照）",
+   "demo": "/problem/knapsack/bounded/",
+   "tier": "实测",
+   "src": "本站变体页实测"
+  },
+  {
+   "algo": "de",
+   "problem": "bounded",
+   "how": "位向量离散化（round+修复）",
+   "evidence": "变体域在线演示可复现（含随机基线对照）",
+   "demo": "/problem/knapsack/bounded/",
+   "tier": "实测",
+   "src": "本站变体页实测"
+  },
+  {
+   "algo": "sa",
+   "problem": "unbounded",
+   "how": "份截断位向量 + 容量修复",
+   "evidence": "变体域在线演示可复现（含随机基线对照）",
+   "demo": "/problem/knapsack/unbounded/",
+   "tier": "实测",
+   "src": "本站变体页实测"
+  },
+  {
+   "algo": "ga",
+   "problem": "unbounded",
+   "how": "份截断位向量 + 容量修复",
+   "evidence": "变体域在线演示可复现（含随机基线对照）",
+   "demo": "/problem/knapsack/unbounded/",
+   "tier": "实测",
+   "src": "本站变体页实测"
+  },
+  {
+   "algo": "ts",
+   "problem": "unbounded",
+   "how": "翻转/加份邻域 + 容量修复",
+   "evidence": "变体域在线演示可复现（含随机基线对照）",
+   "demo": "/problem/knapsack/unbounded/",
+   "tier": "实测",
+   "src": "本站变体页实测"
+  },
+  {
+   "algo": "sa",
+   "problem": "changemaking",
+   "how": "币计数位向量 + 最小枚数目标（DP 锚点对照）",
+   "evidence": "变体域在线演示可复现（含随机基线对照）",
+   "demo": "/problem/knapsack/changemaking/",
+   "tier": "实测",
+   "src": "本站变体页实测"
+  },
+  {
+   "algo": "ga",
+   "problem": "changemaking",
+   "how": "币计数位向量 + 精确凑额修复",
+   "evidence": "变体域在线演示可复现（含随机基线对照）",
+   "demo": "/problem/knapsack/changemaking/",
+   "tier": "实测",
+   "src": "本站变体页实测"
+  },
+  {
+   "algo": "ga",
+   "problem": "multiple",
+   "how": "指派编码 + 交换交叉 + 容量修复",
+   "evidence": "变体域在线演示可复现（含随机基线对照）",
+   "demo": "/problem/knapsack/multiple/",
+   "tier": "实测",
+   "src": "本站变体页实测"
+  },
+  {
+   "algo": "sa",
+   "problem": "multiplechoice",
+   "how": "类内单选位向量 + one-hot 修复",
+   "evidence": "变体域在线演示可复现（含随机基线对照）",
+   "demo": "/problem/knapsack/multiplechoice/",
+   "tier": "实测",
+   "src": "本站变体页实测"
+  },
+  {
+   "algo": "ga",
+   "problem": "multiplechoice",
+   "how": "类内单选位向量 + one-hot 修复",
+   "evidence": "变体域在线演示可复现（含随机基线对照）",
+   "demo": "/problem/knapsack/multiplechoice/",
+   "tier": "实测",
+   "src": "本站变体页实测"
+  },
+  {
+   "algo": "de",
+   "problem": "multiplechoice",
+   "how": "位向量离散化 + one-hot 修复",
+   "evidence": "变体域在线演示可复现（含随机基线对照）",
+   "demo": "/problem/knapsack/multiplechoice/",
+   "tier": "实测",
+   "src": "本站变体页实测"
+  },
+  {
+   "algo": "sa",
+   "problem": "multidim",
+   "how": "位向量 + 多维容量修复（三维同时约束）",
+   "evidence": "变体域在线演示可复现（含随机基线对照）",
+   "demo": "/problem/knapsack/multidim/",
+   "tier": "实测",
+   "src": "本站变体页实测"
+  },
+  {
+   "algo": "ga",
+   "problem": "multidim",
+   "how": "位向量 + 多维容量修复",
+   "evidence": "变体域在线演示可复现（含随机基线对照）",
+   "demo": "/problem/knapsack/multidim/",
+   "tier": "实测",
+   "src": "本站变体页实测"
+  },
+  {
+   "algo": "de",
+   "problem": "multidim",
+   "how": "位向量离散化 + 多维容量修复",
+   "evidence": "变体域在线演示可复现（含随机基线对照）",
+   "demo": "/problem/knapsack/multidim/",
+   "tier": "实测",
+   "src": "本站变体页实测"
+  },
+  {
+   "algo": "sa",
+   "problem": "discounted",
+   "how": "位向量 + 伙伴折扣耦合修复",
+   "evidence": "变体域在线演示可复现（含随机基线对照）",
+   "demo": "/problem/knapsack/discounted/",
+   "tier": "实测",
+   "src": "本站变体页实测"
+  },
+  {
+   "algo": "ga",
+   "problem": "discounted",
+   "how": "位向量 + 耦合折扣修复",
+   "evidence": "变体域在线演示可复现（含随机基线对照）",
+   "demo": "/problem/knapsack/discounted/",
+   "tier": "实测",
+   "src": "本站变体页实测"
+  },
+  {
+   "algo": "ts",
+   "problem": "discounted",
+   "how": "翻转/伙伴交换邻域",
+   "evidence": "变体域在线演示可复现（含随机基线对照）",
+   "demo": "/problem/knapsack/discounted/",
+   "tier": "实测",
+   "src": "本站变体页实测"
+  },
+  {
+   "algo": "sa",
+   "problem": "quadratic",
+   "how": "位向量 + 二次协同目标 Q",
+   "evidence": "变体域在线演示可复现（含随机基线对照）",
+   "demo": "/problem/knapsack/quadratic/",
+   "tier": "实测",
+   "src": "本站变体页实测"
+  },
+  {
+   "algo": "ga",
+   "problem": "quadratic",
+   "how": "位向量 + 二次目标 + 容量修复",
+   "evidence": "变体域在线演示可复现（含随机基线对照）",
+   "demo": "/problem/knapsack/quadratic/",
+   "tier": "实测",
+   "src": "本站变体页实测"
+  },
+  {
+   "algo": "de",
+   "problem": "quadratic",
+   "how": "位向量离散化 + 二次目标",
+   "evidence": "变体域在线演示可复现（含随机基线对照）",
+   "demo": "/problem/knapsack/quadratic/",
+   "tier": "实测",
+   "src": "本站变体页实测"
+  },
+  {
+   "algo": "sa",
+   "problem": "subsetsum",
+   "how": "位向量 + |Σw-T| 目标（reach DP 锚点对照）",
+   "evidence": "变体域在线演示可复现（含随机基线对照）",
+   "demo": "/problem/knapsack/subsetsum/",
+   "tier": "实测",
+   "src": "本站变体页实测"
+  },
+  {
+   "algo": "sa",
+   "problem": "qubo",
+   "how": "位向量 + 翻转邻域（能量 x'Qx 目标）",
+   "evidence": "QUBO 域在线演示可复现（30/50 比特预设）",
+   "demo": "/problem/qubo/",
+   "tier": "实测",
+   "src": "G 期 QUBO 域"
+  },
+  {
+   "algo": "ts",
+   "problem": "qubo",
+   "how": "位向量 + 翻转/交换禁忌邻域",
+   "evidence": "QUBO 域在线演示可复现",
+   "demo": "/problem/qubo/",
+   "tier": "实测",
+   "src": "G 期 QUBO 域"
+  },
+  {
+   "algo": "ga",
+   "problem": "qubo",
+   "how": "位向量 + 均匀交叉 + 能量目标",
+   "evidence": "QUBO 域在线演示可复现",
+   "demo": "/problem/qubo/",
+   "tier": "实测",
+   "src": "G 期 QUBO 域"
+  },
+  {
+   "algo": "aco",
+   "problem": "lcp",
+   "how": "构造式选色 + 信息素更新",
+   "evidence": "列表着色 ACO 应用文献",
+   "demo": null,
+   "tier": "文献",
+   "src": "编码适配与着色应用"
+  },
+  {
+   "algo": "aco",
+   "problem": "ecp",
+   "how": "线图变换后排列编码（边序→色带）",
+   "evidence": "边着色 ACO 应用文献",
+   "demo": null,
+   "tier": "文献",
+   "src": "编码适配与着色应用"
+  },
+  {
+   "algo": "ga",
+   "problem": "maop",
+   "how": "加权/切比雪夫标量化扩展至三目标+",
+   "evidence": "超多目标标量化 GA 文献",
+   "demo": "/problem/maop/",
+   "tier": "实测",
+   "src": "编码适配与着色应用",
+   "demo_algo": "nsga2"
+  },
+  {
+   "algo": "pso",
+   "problem": "bbob",
+   "how": "实数连续编码（BBOB 函数族基准）",
+   "evidence": "BBOB 是连续优化标准基准套件",
+   "demo": "/problem/bbob/",
+   "tier": "实测",
+   "src": "编码适配与着色应用",
+   "demo_algo": "pso"
+  },
+  {
+   "algo": "de",
+   "problem": "bbob",
+   "how": "实数差分进化（BBOB 竞赛主流算法族）",
+   "evidence": "BBOB 竞赛 DE 系常居前列",
+   "demo": "/problem/bbob/",
+   "tier": "实测",
+   "src": "编码适配与着色应用",
+   "demo_algo": "de"
+  },
+  {
+   "algo": "ga",
+   "problem": "bbob",
+   "how": "实数编码 GA（BBOB 基准）",
+   "evidence": "连续 GA 文献",
+   "demo": null,
+   "tier": "文献",
+   "src": "编码适配与着色应用"
+  },
+  {
+   "algo": "cem",
+   "problem": "bbob",
+   "how": "连续分布估计（CEM 原生连续域）",
+   "evidence": "CEM 连续优化文献",
+   "demo": null,
+   "tier": "文献",
+   "src": "编码适配与着色应用"
+  },
+  {
+   "algo": "sa",
+   "problem": "maxsat",
+   "how": "子句翻转邻域（最小化未满足数）",
+   "evidence": "MAX-SAT SA 经典应用",
+   "demo": null,
+   "tier": "文献",
+   "src": "逻辑类"
+  },
+  {
+   "algo": "ts",
+   "problem": "maxsat",
+   "how": "子句翻转禁忌邻域",
+   "evidence": "MAX-SAT TS 经典应用",
+   "demo": null,
+   "tier": "文献",
+   "src": "逻辑类"
+  },
+  {
+   "algo": "ga",
+   "problem": "uflp",
+   "how": "开设施位向量 + 指派解码",
+   "evidence": "无容量设施选址 GA 文献",
+   "demo": null,
+   "tier": "文献",
+   "src": "选址类"
+  },
+  {
+   "algo": "ts",
+   "problem": "uflp",
+   "how": "开/关设施交换禁忌邻域",
+   "evidence": "设施选址 TS 文献",
+   "demo": null,
+   "tier": "文献",
+   "src": "选址类"
+  },
+  {
+   "algo": "ga",
+   "problem": "moco",
+   "how": "加权标量化 GA（组合多目标）",
+   "evidence": "组合多目标 GA 文献；页面演示引擎为 NSGA-II（域内实现，不入收录册）",
+   "demo": null,
+   "tier": "文献",
+   "src": "编码适配与着色应用"
+  },
+  {
+   "algo": "aco",
+   "problem": "binpack",
+   "how": "构造式装填 + 信息素（适应度=箱数）",
+   "evidence": "ACO 装箱应用文献",
+   "demo": null,
+   "tier": "文献",
+   "src": "编码适配与着色应用"
+  },
+  {
+   "algo": "de",
+   "problem": "multiobj",
+   "how": "DE 变体多目标化（DE 系 MOEA 文献）",
+   "evidence": "DE 多目标文献",
+   "demo": null,
+   "tier": "文献",
+   "src": "编码适配与着色应用"
+  },
+  {
+   "algo": "cem",
+   "problem": "continuous",
+   "how": "连续分布估计原生域",
+   "evidence": "CEM 连续优化文献",
+   "demo": null,
+   "tier": "文献",
+   "src": "编码适配与着色应用"
+  },
+  {
+   "algo": "hs",
+   "problem": "continuous",
+   "how": "和声向量实数编码",
+   "evidence": "和声搜索连续应用文献",
+   "demo": null,
+   "tier": "文献",
+   "src": "编码适配与着色应用"
+  },
+  {
+   "algo": "pso",
+   "problem": "tsp",
+   "how": "排列编码离散化（信息素/交换序列/位置更新机制见算法页）",
+   "evidence": "TSP 引擎 200 代同链实测（seed=42 同一随机实例），成绩卡见算法页",
+   "demo": "/algo/f2-si/pso/",
+   "tier": "实测"
+  },
+  {
+   "algo": "aco",
+   "problem": "tsp",
+   "how": "排列编码离散化（信息素/交换序列/位置更新机制见算法页）",
+   "evidence": "TSP 引擎 200 代同链实测（seed=42 同一随机实例），成绩卡见算法页",
+   "demo": "/algo/f2-si/aco/",
+   "tier": "实测"
+  },
+  {
+   "algo": "abc",
+   "problem": "tsp",
+   "how": "排列编码离散化（信息素/交换序列/位置更新机制见算法页）",
+   "evidence": "TSP 引擎 200 代同链实测（seed=42 同一随机实例），成绩卡见算法页",
+   "demo": "/algo/f2-si/abc/",
+   "tier": "实测"
+  },
+  {
+   "algo": "fa",
+   "problem": "tsp",
+   "how": "排列编码离散化（信息素/交换序列/位置更新机制见算法页）",
+   "evidence": "TSP 引擎 200 代同链实测（seed=42 同一随机实例），成绩卡见算法页",
+   "demo": "/algo/f2-si/fa/",
+   "tier": "实测"
+  },
+  {
+   "algo": "woa",
+   "problem": "tsp",
+   "how": "排列编码离散化（信息素/交换序列/位置更新机制见算法页）",
+   "evidence": "TSP 引擎 200 代同链实测（seed=42 同一随机实例），成绩卡见算法页",
+   "demo": "/algo/f2-si/woa/",
+   "tier": "实测"
+  },
+  {
+   "algo": "ga",
+   "problem": "tsp",
+   "how": "排列编码 + 顺序交叉 OX + 逆转变异 + 小预算 2-opt 局部搜索",
+   "evidence": "TSP 引擎 200 代同链实测（seed=42 同一随机实例），成绩卡见算法页",
+   "demo": "/algo/f1-ea/ga/",
+   "tier": "实测"
+  },
+  {
+   "algo": "sa",
+   "problem": "tsp",
+   "how": "排列编码 + 物理退火/引力等状态转移机制",
+   "evidence": "TSP 引擎 200 代同链实测（seed=42 同一随机实例），成绩卡见算法页",
+   "demo": "/algo/f3-phys/sa/",
+   "tier": "实测"
+  },
+  {
+   "algo": "gwo",
+   "problem": "tsp",
+   "how": "排列编码离散化（信息素/交换序列/位置更新机制见算法页）",
+   "evidence": "TSP 引擎 200 代同链实测（seed=42 同一随机实例），成绩卡见算法页",
+   "demo": "/algo/f2-si/gwo/",
+   "tier": "实测"
+  },
+  {
+   "algo": "ts",
+   "problem": "tsp",
+   "how": "排列编码 + 和声记忆/教学相长等人类学习机制",
+   "evidence": "TSP 引擎 200 代同链实测（seed=42 同一随机实例），成绩卡见算法页",
+   "demo": "/algo/f10-trajectory/ts/",
+   "tier": "实测"
+  },
+  {
+   "algo": "de",
+   "problem": "tsp",
+   "how": "排列编码 + 顺序交叉 OX + 逆转变异 + 小预算 2-opt 局部搜索",
+   "evidence": "TSP 引擎 200 代同链实测（seed=42 同一随机实例），成绩卡见算法页",
+   "demo": "/algo/f1-ea/de/",
+   "tier": "实测"
+  },
+  {
+   "algo": "cs",
+   "problem": "tsp",
+   "how": "排列编码离散化（信息素/交换序列/位置更新机制见算法页）",
+   "evidence": "TSP 引擎 200 代同链实测（seed=42 同一随机实例），成绩卡见算法页",
+   "demo": "/algo/f2-si/cs/",
+   "tier": "实测"
+  },
+  {
+   "algo": "sca",
+   "problem": "tsp",
+   "how": "排列编码 + 物理退火/引力等状态转移机制",
+   "evidence": "TSP 引擎 200 代同链实测（seed=42 同一随机实例），成绩卡见算法页",
+   "demo": "/algo/f3-phys/sca/",
+   "tier": "实测"
+  },
+  {
+   "algo": "hho",
+   "problem": "tsp",
+   "how": "排列编码离散化（信息素/交换序列/位置更新机制见算法页）",
+   "evidence": "TSP 引擎 200 代同链实测（seed=42 同一随机实例），成绩卡见算法页",
+   "demo": "/algo/f2-si/hho/",
+   "tier": "实测"
+  },
+  {
+   "algo": "ils",
+   "problem": "tsp",
+   "how": "排列编码 + 和声记忆/教学相长等人类学习机制",
+   "evidence": "TSP 引擎 200 代同链实测（seed=42 同一随机实例），成绩卡见算法页",
+   "demo": "/algo/f10-trajectory/ils/",
+   "tier": "实测"
+  },
+  {
+   "algo": "vns",
+   "problem": "tsp",
+   "how": "排列编码 + 和声记忆/教学相长等人类学习机制",
+   "evidence": "TSP 引擎 200 代同链实测（seed=42 同一随机实例），成绩卡见算法页",
+   "demo": "/algo/f10-trajectory/vns/",
+   "tier": "实测"
+  },
+  {
+   "algo": "lk",
+   "problem": "tsp",
+   "how": "Lin-Kernighan 精细化：k-opt 变深度搜索，专用求解对照系的确定性主力",
+   "evidence": "TSP 引擎 200 代同链实测（seed=42 同一随机实例），成绩卡见算法页",
+   "demo": "/algo/f0-elite/lk/",
+   "tier": "实测"
+  },
+  {
+   "algo": "ba",
+   "problem": "tsp",
+   "how": "排列编码离散化（信息素/交换序列/位置更新机制见算法页）",
+   "evidence": "TSP 引擎 200 代同链实测（seed=42 同一随机实例），成绩卡见算法页",
+   "demo": "/algo/f2-si/ba/",
+   "tier": "实测"
+  },
+  {
+   "algo": "hs",
+   "problem": "tsp",
+   "how": "排列编码 + 物理退火/引力等状态转移机制",
+   "evidence": "TSP 引擎 200 代同链实测（seed=42 同一随机实例），成绩卡见算法页",
+   "demo": "/algo/f4-human/hs/",
+   "tier": "实测"
+  },
+  {
+   "algo": "gsa",
+   "problem": "tsp",
+   "how": "排列编码 + 物理退火/引力等状态转移机制",
+   "evidence": "TSP 引擎 200 代同链实测（seed=42 同一随机实例），成绩卡见算法页",
+   "demo": "/algo/f3-phys/gsa/",
+   "tier": "实测"
+  },
+  {
+   "algo": "tlbo",
+   "problem": "tsp",
+   "how": "排列编码 + 和声记忆/教学相长等人类学习机制",
+   "evidence": "TSP 引擎 200 代同链实测（seed=42 同一随机实例），成绩卡见算法页",
+   "demo": "/algo/f4-human/tlbo/",
+   "tier": "实测"
+  },
+  {
+   "algo": "bfo",
+   "problem": "tsp",
+   "how": "排列编码 + 免疫克隆选择/生态协同机制",
+   "evidence": "TSP 引擎 200 代同链实测（seed=42 同一随机实例），成绩卡见算法页",
+   "demo": "/algo/f2-si/bfo/",
+   "tier": "实测"
+  },
+  {
+   "algo": "mfo",
+   "problem": "tsp",
+   "how": "排列编码离散化（信息素/交换序列/位置更新机制见算法页）",
+   "evidence": "TSP 引擎 200 代同链实测（seed=42 同一随机实例），成绩卡见算法页",
+   "demo": "/algo/f2-si/mfo/",
+   "tier": "实测"
+  },
+  {
+   "algo": "fwa",
+   "problem": "tsp",
+   "how": "排列编码离散化（信息素/交换序列/位置更新机制见算法页）",
+   "evidence": "TSP 引擎 200 代同链实测（seed=42 同一随机实例），成绩卡见算法页",
+   "demo": "/algo/f2-si/fwa/",
+   "tier": "实测"
+  },
+  {
+   "algo": "afsa",
+   "problem": "tsp",
+   "how": "排列编码离散化（信息素/交换序列/位置更新机制见算法页）",
+   "evidence": "TSP 引擎 200 代同链实测（seed=42 同一随机实例），成绩卡见算法页",
+   "demo": "/algo/f2-si/afsa/",
+   "tier": "实测"
+  },
+  {
+   "algo": "cem",
+   "problem": "tsp",
+   "how": "排列编码 + 顺序交叉 OX + 逆转变异 + 小预算 2-opt 局部搜索",
+   "evidence": "TSP 引擎 200 代同链实测（seed=42 同一随机实例），成绩卡见算法页",
+   "demo": "/algo/f1-ea/cem/",
+   "tier": "实测"
+  },
+  {
+   "algo": "ssa",
+   "problem": "tsp",
+   "how": "排列编码离散化（信息素/交换序列/位置更新机制见算法页）",
+   "evidence": "TSP 引擎 200 代同链实测（seed=42 同一随机实例），成绩卡见算法页",
+   "demo": "/algo/f2-si/ssa/",
+   "tier": "实测"
+  },
+  {
+   "algo": "alo",
+   "problem": "tsp",
+   "how": "排列编码离散化（信息素/交换序列/位置更新机制见算法页）",
+   "evidence": "TSP 引擎 200 代同链实测（seed=42 同一随机实例），成绩卡见算法页",
+   "demo": "/algo/f2-si/alo/",
+   "tier": "实测"
+  },
+  {
+   "algo": "boa",
+   "problem": "tsp",
+   "how": "排列编码离散化（信息素/交换序列/位置更新机制见算法页）",
+   "evidence": "TSP 引擎 200 代同链实测（seed=42 同一随机实例），成绩卡见算法页",
+   "demo": "/algo/f2-si/boa/",
+   "tier": "实测"
+  },
+  {
+   "algo": "ica",
+   "problem": "tsp",
+   "how": "排列编码 + 物理退火/引力等状态转移机制",
+   "evidence": "TSP 引擎 200 代同链实测（seed=42 同一随机实例），成绩卡见算法页",
+   "demo": "/algo/f4-human/ica/",
+   "tier": "实测"
+  },
+  {
+   "algo": "salp",
+   "problem": "tsp",
+   "how": "排列编码离散化（信息素/交换序列/位置更新机制见算法页）",
+   "evidence": "TSP 引擎 200 代同链实测（seed=42 同一随机实例），成绩卡见算法页",
+   "demo": "/algo/f2-si/salp/",
+   "tier": "实测"
+  },
+  {
+   "algo": "sfla",
+   "problem": "tsp",
+   "how": "排列编码离散化（信息素/交换序列/位置更新机制见算法页）",
+   "evidence": "TSP 引擎 200 代同链实测（seed=42 同一随机实例），成绩卡见算法页",
+   "demo": "/algo/f2-si/sfla/",
+   "tier": "实测"
+  },
+  {
+   "algo": "fpa",
+   "problem": "tsp",
+   "how": "排列编码离散化（信息素/交换序列/位置更新机制见算法页）",
+   "evidence": "TSP 引擎 200 代同链实测（seed=42 同一随机实例），成绩卡见算法页",
+   "demo": "/algo/f2-si/fpa/",
+   "tier": "实测"
+  },
+  {
+   "algo": "kh",
+   "problem": "tsp",
+   "how": "排列编码离散化（信息素/交换序列/位置更新机制见算法页）",
+   "evidence": "TSP 引擎 200 代同链实测（seed=42 同一随机实例），成绩卡见算法页",
+   "demo": "/algo/f2-si/kh/",
+   "tier": "实测"
+  },
+  {
+   "algo": "sos",
+   "problem": "tsp",
+   "how": "排列编码离散化（信息素/交换序列/位置更新机制见算法页）",
+   "evidence": "TSP 引擎 200 代同链实测（seed=42 同一随机实例），成绩卡见算法页",
+   "demo": "/algo/f2-si/sos/",
+   "tier": "实测"
+  },
+  {
+   "algo": "jaya",
+   "problem": "tsp",
+   "how": "排列编码 + 和声记忆/教学相长等人类学习机制",
+   "evidence": "TSP 引擎 200 代同链实测（seed=42 同一随机实例），成绩卡见算法页",
+   "demo": "/algo/f3-phys/jaya/",
+   "tier": "实测"
+  },
+  {
+   "algo": "da",
+   "problem": "tsp",
+   "how": "排列编码离散化（信息素/交换序列/位置更新机制见算法页）",
+   "evidence": "TSP 引擎 200 代同链实测（seed=42 同一随机实例），成绩卡见算法页",
+   "demo": "/algo/f2-si/da/",
+   "tier": "实测"
+  },
+  {
+   "algo": "mpa",
+   "problem": "tsp",
+   "how": "排列编码离散化（信息素/交换序列/位置更新机制见算法页）",
+   "evidence": "TSP 引擎 200 代同链实测（seed=42 同一随机实例），成绩卡见算法页",
+   "demo": "/algo/f2-si/mpa/",
+   "tier": "实测"
+  },
+  {
+   "algo": "cscrow",
+   "problem": "tsp",
+   "how": "排列编码离散化（信息素/交换序列/位置更新机制见算法页）",
+   "evidence": "TSP 引擎 200 代同链实测（seed=42 同一随机实例），成绩卡见算法页",
+   "demo": "/algo/f2-si/cscrow/",
+   "tier": "实测"
+  },
+  {
+   "algo": "bbo",
+   "problem": "tsp",
+   "how": "排列编码 + 免疫克隆选择/生态协同机制",
+   "evidence": "TSP 引擎 200 代同链实测（seed=42 同一随机实例），成绩卡见算法页",
+   "demo": "/algo/f1-ea/bbo/",
+   "tier": "实测"
+  },
+  {
+   "algo": "grasp",
+   "problem": "tsp",
+   "how": "排列编码 + 和声记忆/教学相长等人类学习机制",
+   "evidence": "TSP 引擎 200 代同链实测（seed=42 同一随机实例），成绩卡见算法页",
+   "demo": "/algo/f10-trajectory/grasp/",
+   "tier": "实测"
+  },
+  {
+   "algo": "ais",
+   "problem": "tsp",
+   "how": "排列编码 + 免疫克隆选择/生态协同机制",
+   "evidence": "TSP 引擎 200 代同链实测（seed=42 同一随机实例），成绩卡见算法页",
+   "demo": "/algo/f5-bio/ais/",
+   "tier": "实测"
+  },
+  {
+   "algo": "eo",
+   "problem": "tsp",
+   "how": "排列编码 + 物理退火/引力等状态转移机制",
+   "evidence": "TSP 引擎 200 代同链实测（seed=42 同一随机实例），成绩卡见算法页",
+   "demo": "/algo/f3-phys/eo/",
+   "tier": "实测"
+  },
+  {
+   "algo": "ao",
+   "problem": "tsp",
+   "how": "排列编码离散化（信息素/交换序列/位置更新机制见算法页）",
+   "evidence": "TSP 引擎 200 代同链实测（seed=42 同一随机实例），成绩卡见算法页",
+   "demo": "/algo/f2-si/ao/",
+   "tier": "实测"
+  },
+  {
+   "algo": "sma",
+   "problem": "tsp",
+   "how": "排列编码 + 物理退火/引力等状态转移机制",
+   "evidence": "TSP 引擎 200 代同链实测（seed=42 同一随机实例），成绩卡见算法页",
+   "demo": "/algo/f2-si/sma/",
+   "tier": "实测"
+  },
+  {
+   "algo": "sa",
+   "problem": "partition",
+   "how": "二进制 ±1 划分编码，退火接受准则跳出局部最优",
+   "tier": "文献",
+   "src": "Kirkpatrick, Gelatt &amp; Vecchi, Science 220:671, 1983"
+  },
+  {
+   "algo": "ga",
+   "problem": "partition",
+   "how": "二进制划分编码 + 均匀交叉，适应度 = 两子集和之差",
+   "tier": "文献",
+   "src": "Goldberg, Genetic Algorithms in Search, Optimization &amp; Machine Learning, 1989"
+  },
+  {
+   "algo": "pso",
+   "problem": "maxsat",
+   "how": "二进制 PSO：每维=变量，sigmoid 阈值决定 0/1，适应度=满足子句权重和",
+   "evidence": null,
+   "demo": null,
+   "tier": "文献",
+   "src": "Kennedy &amp; Eberhart, IEEE SMC 1997 (A discrete binary version of the particle swarm algorithm)"
+  },
+  {
+   "algo": "pso",
+   "problem": "knapsack",
+   "how": "二进制 PSO：位置经 sigmoid 阈值映射为 01 取舍向量",
+   "evidence": null,
+   "demo": null,
+   "tier": "文献",
+   "src": "Kennedy &amp; Eberhart, IEEE SMC 1997 (A discrete binary version of the particle swarm algorithm)"
+  },
+  {
+   "algo": "abc",
+   "problem": "csp",
+   "how": "雇佣蜂在约束满足的变量赋值邻域做局部搜索，侦察蜂重初始化不可行解",
+   "evidence": null,
+   "demo": null,
+   "tier": "文献",
+   "src": "Karaboga, Engineering Applications of Artificial Intelligence 20:687, 2007 (ABC)"
+  },
+  {
+   "algo": "de",
+   "problem": "csp",
+   "how": "连续 DE 映射变量后阈值取整，约束违背量作罚函数进入适应度",
+   "evidence": null,
+   "demo": null,
+   "tier": "文献",
+   "src": "Storn &amp; Price, Journal of Global Optimization 11:341, 1997"
+  },
+  {
+   "algo": "aco",
+   "problem": "knapsack",
+   "how": "信息素定义在物品取舍上，蚂蚁按启发式 + 信息素构造 01 解",
+   "evidence": null,
+   "demo": null,
+   "tier": "文献",
+   "src": "Parpinelli, Lopes &amp; Freitas, IEEE CEC 2002 (Ant-KNAPSACK)"
+  },
+  {
+   "algo": "ga",
+   "problem": "sat",
+   "how": "染色体=变量真值赋值，适应度=满足子句数",
+   "evidence": null,
+   "demo": null,
+   "tier": "文献",
+   "src": "Goldberg, Genetic Algorithms in Search, Optimization, and Machine Learning, 1989"
+  },
+  {
+   "algo": "ts",
+   "problem": "scp",
+   "how": "禁忌表禁近期集合取舍翻转，特赦可行覆盖解，集中/分散搜索交替",
+   "evidence": null,
+   "demo": null,
+   "tier": "文献",
+   "src": "Glover, ORSA Journal on Computing 1(3):190, 1989 (Tabu Search)"
+  },
+  {
+   "algo": "pso",
+   "problem": "csp",
+   "how": "二进制 PSO 在约束满足的布尔/离散空间搜索，罚函数处理硬约束",
+   "evidence": null,
+   "demo": null,
+   "tier": "文献",
+   "src": "Kennedy &amp; Eberhart, IEEE SMC 1997 (A discrete binary version of the particle swarm algorithm)"
+  },
+  {
+   "algo": "abc",
+   "problem": "uflp",
+   "how": "雇佣蜂在『选哪些设施』子集邻域探测，适应度=建站+分配总代价",
+   "evidence": null,
+   "demo": null,
+   "tier": "文献",
+   "src": "Karaboga, Engineering Applications of Artificial Intelligence 20:687, 2007 (ABC)"
+  },
+  {
+   "algo": "de",
+   "problem": "uflp",
+   "how": "连续 DE 解经阈值取整为设施取舍，分配子问题贪心求解",
+   "evidence": null,
+   "demo": null,
+   "tier": "文献",
+   "src": "Storn &amp; Price, Journal of Global Optimization 11:341, 1997"
+  },
+  {
+   "algo": "de",
+   "problem": "sat",
+   "how": "连续 DE 映射变量后阈值取整为布尔赋值",
+   "evidence": null,
+   "demo": null,
+   "tier": "文献",
+   "src": "Storn &amp; Price, Journal of Global Optimization 11:341, 1997"
+  },
+  {
+   "algo": "pso",
+   "problem": "sat",
+   "how": "二进制 PSO：每维=变量真值，sigmoid 阈值决定 0/1",
+   "evidence": null,
+   "demo": null,
+   "tier": "文献",
+   "src": "Kennedy &amp; Eberhart, IEEE SMC 1997 (A discrete binary version of the particle swarm algorithm)"
+  },
+  {
+   "algo": "ga",
+   "problem": "assignment",
+   "how": "染色体=设施-地点一一对应排列，适应度=分配代价和",
+   "evidence": null,
+   "demo": null,
+   "tier": "文献",
+   "src": "Goldberg, Genetic Algorithms in Search, Optimization, and Machine Learning, 1989"
+  },
+  {
+   "algo": "aco",
+   "problem": "uflp",
+   "how": "信息素定义在设施取舍上，蚂蚁按启发式构造选址解再做客户分配",
+   "evidence": null,
+   "demo": null,
+   "tier": "文献",
+   "src": "Dorigo, Maniezzo &amp; Colorni, IEEE Transactions on Systems, Man, and Cybernetics 26(1):29, 1996 (Ant System)"
+  },
+  {
+   "algo": "aco",
+   "problem": "maxsat",
+   "how": "信息素定义在变量赋值上，蚂蚁构造满足最多子句的解",
+   "evidence": null,
+   "demo": null,
+   "tier": "文献",
+   "src": "Dorigo, Maniezzo &amp; Colorni, IEEE Transactions on Systems, Man, and Cybernetics 26(1):29, 1996"
+  },
+  {
+   "algo": "vns",
+   "problem": "prext",
+   "how": "色类交换变邻域下降（VNS 通用框架）",
+   "evidence": null,
+   "demo": null,
+   "tier": "文献",
+   "src": "Lourenço, Martin &amp; Stützle, Iterated local search, Handbook of Metaheuristics, Kluwer, 2003"
+  },
+  {
+   "algo": "vns",
+   "problem": "tcp",
+   "how": "冲突顶点邻域轮换的变邻域下降（VNS 通用框架）",
+   "evidence": null,
+   "demo": null,
+   "tier": "文献",
+   "src": "Lourenço, Martin &amp; Stützle, Iterated local search, Handbook of Metaheuristics, Kluwer, 2003"
+  },
+  {
+   "algo": "vns",
+   "problem": "ecp",
+   "how": "线图色类邻域轮换的变邻域下降（VNS 通用框架）",
+   "evidence": null,
+   "demo": null,
+   "tier": "文献",
+   "src": "Lourenço, Martin &amp; Stützle, Iterated local search, Handbook of Metaheuristics, Kluwer, 2003"
+  },
+  {
+   "algo": "de",
+   "problem": "maop",
+   "how": "MOEA/D 分解框架天然适配高维目标向量（MOEA/D-DE 经典，参考向量机制）",
+   "evidence": null,
+   "demo": null,
+   "tier": "文献",
+   "src": "Zhang &amp; Li, MOEA/D: a multiobjective evolutionary algorithm based on decomposition, IEEE TEVC 11:712, 2007"
+  },
+  {
+   "algo": "vns",
+   "problem": "maop",
+   "how": "分解标量化子问题的变邻域下降（VNS×MO 混合通用）",
+   "evidence": null,
+   "demo": null,
+   "tier": "文献",
+   "src": "Lourenço, Martin &amp; Stützle, Iterated local search, Handbook of Metaheuristics, Kluwer, 2003"
+  },
+  {
+   "algo": "pso",
+   "problem": "maop",
+   "how": "MOPSO 档案机制适配高维目标空间（Coello 经典延伸）",
+   "evidence": null,
+   "demo": null,
+   "tier": "文献",
+   "src": "Coello Coello, Pulido &amp; Lechuga, Handling multiple objectives with particle swarm optimization, IEEE TEVC 8:256, 2004"
+  },
+  {
+   "algo": "cem",
+   "problem": "moco",
+   "how": "交叉熵方法多目标扩展：按非支配分位抽样更新分布",
+   "evidence": null,
+   "demo": null,
+   "tier": "文献",
+   "src": "Rubinstein &amp; Kroese, The Cross-Entropy Method, Springer, 2004"
+  },
+  {
+   "algo": "pso",
+   "problem": "moco",
+   "how": "MOPSO 外部档案维护连续多目标（Coello 经典）",
+   "evidence": null,
+   "demo": null,
+   "tier": "文献",
+   "src": "Coello Coello, Pulido &amp; Lechuga, Handling multiple objectives with particle swarm optimization, IEEE TEVC 8:256, 2004"
+  },
+  {
+   "algo": "de",
+   "problem": "moco",
+   "how": "MOEA/D-DE 连续域经典：差分算子 + 切比雪夫分解",
+   "evidence": null,
+   "demo": null,
+   "tier": "文献",
+   "src": "Zhang &amp; Li, MOEA/D: a multiobjective evolutionary algorithm based on decomposition, IEEE TEVC 11:712, 2007"
+  },
+  {
+   "algo": "ts",
+   "problem": "bpp2d",
+   "how": "序列禁忌重排 + 底左解码（Glover 通用禁忌框架）",
+   "evidence": "装填序列禁忌解码（Glover 禁忌搜索）",
+   "demo": "/problem/binpack2d/",
+   "tier": "实测",
+   "src": "Glover, Future paths for integer programming and links to artificial intelligence, Computers &amp; OR 13:533, 1986",
+   "demo_algo": "ts"
+  },
+  {
+   "algo": "vns",
+   "problem": "bpp2d",
+   "how": "装填序列变邻域下降：交换/插入邻域轮换（VNS 通用）",
+   "evidence": null,
+   "demo": null,
+   "tier": "文献",
+   "src": "Lourenço, Martin &amp; Stützle, Iterated local search, Handbook of Metaheuristics, Kluwer, 2003"
+  },
+  {
+   "algo": "ils",
+   "problem": "spp",
+   "how": "列选择扰动重跑修复的 ILS 框架（Lourenço 经典）",
+   "evidence": null,
+   "demo": null,
+   "tier": "文献",
+   "src": "Lourenço, Martin &amp; Stützle, Iterated local search, Handbook of Metaheuristics, Kluwer, 2003"
+  },
+  {
+   "algo": "sa",
+   "problem": "spp",
+   "how": "列选择集合的交换扰动退火（Kirkpatrick 框架）",
+   "evidence": "条带排样模拟退火解码（Kirkpatrick 框架）",
+   "demo": "/problem/strippack/",
+   "tier": "实测",
+   "src": "Kirkpatrick, Gelatt &amp; Vecchi, Science 220:671, 1983",
+   "demo_algo": "sa"
+  },
+  {
+   "algo": "ts",
+   "problem": "spp",
+   "how": "列进出禁忌——Glover 禁忌搜索即源自集合覆盖/划分类整数规划",
+   "evidence": "列选择禁忌解码（Glover 禁忌搜索）",
+   "demo": "/problem/strippack/",
+   "tier": "实测",
+   "src": "Glover, Future paths for integer programming and links to artificial intelligence, Computers &amp; OR 13:533, 1986",
+   "demo_algo": "ts"
+  },
+  {
+   "algo": "ils",
+   "problem": "vsbpp",
+   "how": "装填扰动 + 重解码的 ILS 框架（Lourenço 经典）",
+   "evidence": null,
+   "demo": null,
+   "tier": "文献",
+   "src": "Lourenço, Martin &amp; Stützle, Iterated local search, Handbook of Metaheuristics, Kluwer, 2003"
+  },
+  {
+   "algo": "ts",
+   "problem": "changemaking",
+   "how": "贪心解起点 + 面额互换禁忌（Glover 框架）",
+   "evidence": null,
+   "demo": null,
+   "tier": "文献",
+   "src": "Glover, Future paths for integer programming and links to artificial intelligence, Computers &amp; OR 13:533, 1986"
+  },
+  {
+   "algo": "ils",
+   "problem": "changemaking",
+   "how": "扰动重解码的 ILS 框架（Lourenço 经典）",
+   "evidence": null,
+   "demo": null,
+   "tier": "文献",
+   "src": "Lourenço, Martin &amp; Stützle, Iterated local search, Handbook of Metaheuristics, Kluwer, 2003"
+  },
+  {
+   "algo": "ts",
+   "problem": "multiple",
+   "how": "装填禁忌：禁止近期迁出物品回装（Glover 框架）",
+   "evidence": null,
+   "demo": null,
+   "tier": "文献",
+   "src": "Glover, Future paths for integer programming and links to artificial intelligence, Computers &amp; OR 13:533, 1986"
+  },
+  {
+   "algo": "ils",
+   "problem": "multiple",
+   "how": "多背包扰动重修的 ILS 框架（Lourenço 经典）",
+   "evidence": null,
+   "demo": null,
+   "tier": "文献",
+   "src": "Lourenço, Martin &amp; Stützle, Iterated local search, Handbook of Metaheuristics, Kluwer, 2003"
+  },
+  {
+   "algo": "ts",
+   "problem": "partition",
+   "how": "KK 差分构造为起点 + 子集交换禁忌（Glover 框架）",
+   "evidence": null,
+   "demo": null,
+   "tier": "文献",
+   "src": "Glover, Future paths for integer programming and links to artificial intelligence, Computers &amp; OR 13:533, 1986"
+  },
+  {
+   "algo": "ils",
+   "problem": "partition",
+   "how": "扰动当前划分重跑局部搜索的 ILS 框架（Lourenço 经典）",
+   "evidence": null,
+   "demo": null,
+   "tier": "文献",
+   "src": "Lourenço, Martin &amp; Stützle, Iterated local search, Handbook of Metaheuristics, Kluwer, 2003"
+  },
+  {
+   "algo": "cem",
+   "problem": "multiobj",
+   "how": "交叉熵方法按非支配分位更新抽样分布（多目标 CEM 扩展）",
+   "evidence": null,
+   "demo": null,
+   "tier": "文献",
+   "src": "Rubinstein &amp; Kroese, The Cross-Entropy Method, Springer, 2004"
+  },
+  {
+   "algo": "ils",
+   "problem": "fractional",
+   "how": "扰动重解码的 ILS 框架（Lourenço 经典）",
+   "evidence": null,
+   "demo": null,
+   "tier": "文献",
+   "src": "Lourenço, Martin &amp; Stützle, Iterated local search, Handbook of Metaheuristics, Kluwer, 2003"
+  },
+  {
+   "algo": "ils",
+   "problem": "bounded",
+   "how": "件数上限修复 + 扰动重跑的 ILS 框架（Lourenço 经典）",
+   "evidence": null,
+   "demo": null,
+   "tier": "文献",
+   "src": "Lourenço, Martin &amp; Stützle, Iterated local search, Handbook of Metaheuristics, Kluwer, 2003"
+  },
+  {
+   "algo": "ils",
+   "problem": "unbounded",
+   "how": "计数向量扰动重修的 ILS 框架（Lourenço 经典）",
+   "evidence": null,
+   "demo": null,
+   "tier": "文献",
+   "src": "Lourenço, Martin &amp; Stützle, Iterated local search, Handbook of Metaheuristics, Kluwer, 2003"
+  },
+  {
+   "algo": "ts",
+   "problem": "multiplechoice",
+   "how": "类内互斥并入禁忌移动合法性检查",
+   "evidence": null,
+   "demo": null,
+   "tier": "文献",
+   "src": "Glover, Future paths for integer programming and links to artificial intelligence, Computers &amp; OR 13:533, 1986"
+  },
+  {
+   "algo": "ils",
+   "problem": "multidim",
+   "how": "多维罚项修复 + 扰动重跑的 ILS 框架（Lourenço 经典）",
+   "evidence": null,
+   "demo": null,
+   "tier": "文献",
+   "src": "Lourenço, Martin &amp; Stützle, Iterated local search, Handbook of Metaheuristics, Kluwer, 2003"
+  },
+  {
+   "algo": "ils",
+   "problem": "discounted",
+   "how": "折扣结构并入适应度的 ILS 框架（Lourenço 经典）",
+   "evidence": null,
+   "demo": null,
+   "tier": "文献",
+   "src": "Lourenço, Martin &amp; Stützle, Iterated local search, Handbook of Metaheuristics, Kluwer, 2003"
+  },
+  {
+   "algo": "ils",
+   "problem": "quadratic",
+   "how": "二次罚项局部搜索 + 扰动重跑的 ILS 框架（Lourenço 经典）",
+   "evidence": null,
+   "demo": null,
+   "tier": "文献",
+   "src": "Lourenço, Martin &amp; Stützle, Iterated local search, Handbook of Metaheuristics, Kluwer, 2003"
+  },
+  {
+   "algo": "ils",
+   "problem": "subsetsum",
+   "how": "和差值驱动扰动重跑的 ILS 框架（Lourenço 经典）",
+   "evidence": null,
+   "demo": null,
+   "tier": "文献",
+   "src": "Lourenço, Martin &amp; Stützle, Iterated local search, Handbook of Metaheuristics, Kluwer, 2003"
+  },
+  {
+   "algo": "ils",
+   "problem": "qubo",
+   "how": "QUBO 位串扰动 + 局部搜索的 ILS 框架语境）",
+   "evidence": null,
+   "demo": null,
+   "tier": "文献",
+   "src": "Lourenço, Martin &amp; Stützle, Iterated local search, Handbook of Metaheuristics, Kluwer, 2003"
+  },
+  {
+   "algo": "cma-es",
+   "problem": "tsp",
+   "how": "随机键编码离散化（按键排序解码排列）+ sep-CMA 可分协方差自适应采样 + 精英 2-opt 抛光",
+   "evidence": "TSP 引擎 200 代同链实测（seed=42 同一随机实例），成绩卡见算法页",
+   "demo": "/algo/f1-ea/cma-es/",
+   "tier": "实测"
+  },
+  {
+   "algo": "cma-es",
+   "problem": "continuous",
+   "how": "连续域原生主场：全协方差自适应 + σ 自适应 + 进化路径 pc/ps（标准 (μ,λ)-CMA-ES）",
+   "evidence": "Hansen &amp; Ostermeier 2001, Evolutionary Computation 9(2):159-195；连续域 SOTA",
+   "demo": "/problem/continuous/index.html?algo=cmaes",
+   "tier": "文献",
+   "src": "Hansen &amp; Ostermeier 2001, Evolutionary Computation 9(2):159-195"
+  },
+  {
+   "algo": "ts",
+   "problem": "atsp",
+   "how": "禁忌搜索 TS（排列）",
+   "evidence": "同等评估预算实测（每次约 9601 次评估，3 个种子的中位数）：本算法 306，随机搜索 371（越小越好）",
+   "demo": "/problem/atsp/",
+   "demo_algo": "ts",
+   "tier": "实测"
+  },
+  {
+   "algo": "jaya",
+   "problem": "atsp",
+   "how": "Jaya（排列）",
+   "evidence": "同等评估预算实测（每次约 6030 次评估，3 个种子的中位数）：本算法 308，随机搜索 371（越小越好）",
+   "demo": "/problem/atsp/",
+   "demo_algo": "pk_jaya",
+   "tier": "实测"
+  },
+  {
+   "algo": "mpa",
+   "problem": "atsp",
+   "how": "海洋掠食者 MPA（排列）",
+   "evidence": "同等评估预算实测（每次约 12030 次评估，3 个种子的中位数）：本算法 306，随机搜索 368（越小越好）",
+   "demo": "/problem/atsp/",
+   "demo_algo": "pk_mpa",
+   "tier": "实测"
+  },
+  {
+   "algo": "ils",
+   "problem": "atsp",
+   "how": "迭代局部搜索 ILS",
+   "evidence": "同等评估预算实测（每次约 4806 次评估，3 个种子的中位数）：本算法 310，随机搜索 371（越小越好）",
+   "demo": "/problem/atsp/",
+   "demo_algo": "ils",
+   "tier": "实测"
+  },
+  {
+   "algo": "sos",
+   "problem": "atsp",
+   "how": "共生搜索 SOS（排列）",
+   "evidence": "同等评估预算实测（每次约 24030 次评估，3 个种子的中位数）：本算法 308，随机搜索 368（越小越好）",
+   "demo": "/problem/atsp/",
+   "demo_algo": "pk_sos",
+   "tier": "实测"
+  },
+  {
+   "algo": "sfla",
+   "problem": "atsp",
+   "how": "混合蛙跳 SFLA（排列）",
+   "evidence": "同等评估预算实测（每次约 6051 次评估，3 个种子的中位数）：本算法 313，随机搜索 371（越小越好）",
+   "demo": "/problem/atsp/",
+   "demo_algo": "pk_sfla",
+   "tier": "实测"
+  },
+  {
+   "algo": "ga",
+   "problem": "atsp",
+   "how": "遗传算法 GA（排列）",
+   "evidence": "同等评估预算实测（每次约 6030 次评估，3 个种子的中位数）：本算法 314，随机搜索 371（越小越好）",
+   "demo": "/problem/atsp/",
+   "demo_algo": "ga",
+   "tier": "实测"
+  },
+  {
+   "algo": "vns",
+   "problem": "atsp",
+   "how": "变邻域搜索 VNS",
+   "evidence": "同等评估预算实测（每次约 3498 次评估，3 个种子的中位数）：本算法 314，随机搜索 371（越小越好）",
+   "demo": "/problem/atsp/",
+   "demo_algo": "vns",
+   "tier": "实测"
+  },
+  {
+   "algo": "fa",
+   "problem": "atsp",
+   "how": "萤火虫 FA（排列）",
+   "evidence": "同等评估预算实测（每次约 853 次评估，3 个种子的中位数）：本算法 372，随机搜索 431（越小越好）",
+   "demo": "/problem/atsp/",
+   "demo_algo": "pk_fa",
+   "tier": "实测"
+  },
+  {
+   "algo": "aco",
+   "problem": "atsp",
+   "how": "蚁群 ACO",
+   "evidence": "同等评估预算实测（每次约 6000 次评估，3 个种子的中位数）：本算法 321，随机搜索 371（越小越好）",
+   "demo": "/problem/atsp/",
+   "demo_algo": "aco",
+   "tier": "实测"
+  },
+  {
+   "algo": "fwa",
+   "problem": "atsp",
+   "how": "烟花算法 FWA（排列）",
+   "evidence": "同等评估预算实测（每次约 10213 次评估，3 个种子的中位数）：本算法 338，随机搜索 389（越小越好）",
+   "demo": "/problem/atsp/",
+   "demo_algo": "pk_fwa",
+   "tier": "实测"
+  },
+  {
+   "algo": "cscrow",
+   "problem": "atsp",
+   "how": "乌鸦搜索 CSA（排列）",
+   "evidence": "同等评估预算实测（每次约 6030 次评估，3 个种子的中位数）：本算法 359，随机搜索 412（越小越好）",
+   "demo": "/problem/atsp/",
+   "demo_algo": "pk_cscrow",
+   "tier": "实测"
+  },
+  {
+   "algo": "ils",
+   "problem": "blo",
+   "how": "迭代局部搜索 ILS",
+   "evidence": "同等评估预算实测（每次约 4051 次评估，3 个种子的中位数）：本算法 2.133，随机搜索 13.57（越小越好）",
+   "demo": "/problem/blo/",
+   "demo_algo": "ils",
+   "tier": "实测"
+  },
+  {
+   "algo": "vns",
+   "problem": "blo",
+   "how": "变邻域搜索 VNS",
+   "evidence": "同等评估预算实测（每次约 3358 次评估，3 个种子的中位数）：本算法 2.291，随机搜索 13.57（越小越好）",
+   "demo": "/problem/blo/",
+   "demo_algo": "vns",
+   "tier": "实测"
+  },
+  {
+   "algo": "ssa",
+   "problem": "blo",
+   "how": "麻雀搜索 SSA",
+   "evidence": "同等评估预算实测（每次约 6630 次评估，3 个种子的中位数）：本算法 2.004，随机搜索 10.64（越小越好）",
+   "demo": "/problem/blo/",
+   "demo_algo": "ssa",
+   "tier": "实测"
+  },
+  {
+   "algo": "kh",
+   "problem": "blo",
+   "how": "磷虾群 KH",
+   "evidence": "同等评估预算实测（每次约 6230 次评估，3 个种子的中位数）：本算法 2.059，随机搜索 10.64（越小越好）",
+   "demo": "/problem/blo/",
+   "demo_algo": "kh",
+   "tier": "实测"
+  },
+  {
+   "algo": "alo",
+   "problem": "blo",
+   "how": "蚁狮优化 ALO",
+   "evidence": "同等评估预算实测（每次约 6030 次评估，3 个种子的中位数）：本算法 2.071，随机搜索 10.64（越小越好）",
+   "demo": "/problem/blo/",
+   "demo_algo": "alo",
+   "tier": "实测"
+  },
+  {
+   "algo": "mpa",
+   "problem": "blo",
+   "how": "海洋掠食者 MPA",
+   "evidence": "同等评估预算实测（每次约 12030 次评估，3 个种子的中位数）：本算法 2.112，随机搜索 10.64（越小越好）",
+   "demo": "/problem/blo/",
+   "demo_algo": "mpa",
+   "tier": "实测"
+  },
+  {
+   "algo": "sfla",
+   "problem": "blo",
+   "how": "混合蛙跳 SFLA",
+   "evidence": "同等评估预算实测（每次约 5375 次评估，3 个种子的中位数）：本算法 2.125，随机搜索 10.64（越小越好）",
+   "demo": "/problem/blo/",
+   "demo_algo": "sfla",
+   "tier": "实测"
+  },
+  {
+   "algo": "ais",
+   "problem": "blo",
+   "how": "克隆选择 AIS",
+   "evidence": "同等评估预算实测（每次约 7430 次评估，3 个种子的中位数）：本算法 2.151，随机搜索 10.64（越小越好）",
+   "demo": "/problem/blo/",
+   "demo_algo": "ais",
+   "tier": "实测"
+  },
+  {
+   "algo": "abc",
+   "problem": "blo",
+   "how": "人工蜂群 ABC",
+   "evidence": "同等评估预算实测（每次约 12162 次评估，3 个种子的中位数）：本算法 2.161，随机搜索 10.64（越小越好）",
+   "demo": "/problem/blo/",
+   "demo_algo": "abc",
+   "tier": "实测"
+  },
+  {
+   "algo": "sca",
+   "problem": "blo",
+   "how": "正弦余弦 SCA",
+   "evidence": "同等评估预算实测（每次约 6030 次评估，3 个种子的中位数）：本算法 2.162，随机搜索 10.64（越小越好）",
+   "demo": "/problem/blo/",
+   "demo_algo": "sca",
+   "tier": "实测"
+  },
+  {
+   "algo": "fa",
+   "problem": "blo",
+   "how": "萤火虫 FA",
+   "evidence": "同等评估预算实测（每次约 6030 次评估，3 个种子的中位数）：本算法 2.174，随机搜索 10.64（越小越好）",
+   "demo": "/problem/blo/",
+   "demo_algo": "fa",
+   "tier": "实测"
+  },
+  {
+   "algo": "sos",
+   "problem": "blo",
+   "how": "共生搜索 SOS",
+   "evidence": "同等评估预算实测（每次约 24030 次评估，3 个种子的中位数）：本算法 2.144，随机搜索 10.3（越小越好）",
+   "demo": "/problem/blo/",
+   "demo_algo": "sos",
+   "tier": "实测"
+  },
+  {
+   "algo": "ga",
+   "problem": "carp",
+   "how": "遗传算法 GA（排列）",
+   "evidence": "同等评估预算实测（每次约 6030 次评估，3 个种子的中位数）：本算法 633，随机搜索 711（越小越好）",
+   "demo": "/problem/carp/",
+   "demo_algo": "ga",
+   "tier": "实测"
+  },
+  {
+   "algo": "bbo",
+   "problem": "carp",
+   "how": "生物地理 BBO（排列）",
+   "evidence": "同等评估预算实测（每次约 6030 次评估，3 个种子的中位数）：本算法 633，随机搜索 711（越小越好）",
+   "demo": "/problem/carp/",
+   "demo_algo": "pk_bbo",
+   "tier": "实测"
+  },
+  {
+   "algo": "cem",
+   "problem": "carp",
+   "how": "交叉熵 CEM（排列）",
+   "evidence": "同等评估预算实测（每次约 6000 次评估，3 个种子的中位数）：本算法 648，随机搜索 711（越小越好）",
+   "demo": "/problem/carp/",
+   "demo_algo": "pk_cem",
+   "tier": "实测"
+  },
+  {
+   "algo": "sfla",
+   "problem": "carp",
+   "how": "混合蛙跳 SFLA（排列）",
+   "evidence": "同等评估预算实测（每次约 6366 次评估，3 个种子的中位数）：本算法 648，随机搜索 711（越小越好）",
+   "demo": "/problem/carp/",
+   "demo_algo": "pk_sfla",
+   "tier": "实测"
+  },
+  {
+   "algo": "ica",
+   "problem": "carp",
+   "how": "帝国竞争 ICA（排列）",
+   "evidence": "同等评估预算实测（每次约 5803 次评估，3 个种子的中位数）：本算法 649，随机搜索 711（越小越好）",
+   "demo": "/problem/carp/",
+   "demo_algo": "pk_ica",
+   "tier": "实测"
+  },
+  {
+   "algo": "vns",
+   "problem": "carp",
+   "how": "变邻域搜索 VNS",
+   "evidence": "同等评估预算实测（每次约 3465 次评估，3 个种子的中位数）：本算法 655，随机搜索 717（越小越好）",
+   "demo": "/problem/carp/",
+   "demo_algo": "vns",
+   "tier": "实测"
+  },
+  {
+   "algo": "ils",
+   "problem": "carp",
+   "how": "迭代局部搜索 ILS",
+   "evidence": "同等评估预算实测（每次约 4602 次评估，3 个种子的中位数）：本算法 650，随机搜索 711（越小越好）",
+   "demo": "/problem/carp/",
+   "demo_algo": "ils",
+   "tier": "实测"
+  },
+  {
+   "algo": "tlbo",
+   "problem": "carp",
+   "how": "TLBO（排列）",
+   "evidence": "同等评估预算实测（每次约 9030 次评估，3 个种子的中位数）：本算法 565，随机搜索 615（越小越好）",
+   "demo": "/problem/carp/",
+   "demo_algo": "pk_tlbo",
+   "tier": "实测"
+  },
+  {
+   "algo": "de",
+   "problem": "carp",
+   "how": "差分 DE",
+   "evidence": "同等评估预算实测（每次约 6030 次评估，3 个种子的中位数）：本算法 659，随机搜索 711（越小越好）",
+   "demo": "/problem/carp/",
+   "demo_algo": "de",
+   "tier": "实测"
+  },
+  {
+   "algo": "aco",
+   "problem": "carp",
+   "how": "蚁群 ACO",
+   "evidence": "同等评估预算实测（每次约 6000 次评估，3 个种子的中位数）：本算法 661，随机搜索 711（越小越好）",
+   "demo": "/problem/carp/",
+   "demo_algo": "aco",
+   "tier": "实测"
+  },
+  {
+   "algo": "alo",
+   "problem": "carp",
+   "how": "蚁狮优化 ALO（排列）",
+   "evidence": "同等评估预算实测（每次约 6030 次评估，3 个种子的中位数）：本算法 665，随机搜索 711（越小越好）",
+   "demo": "/problem/carp/",
+   "demo_algo": "pk_alo",
+   "tier": "实测"
+  },
+  {
+   "algo": "pso",
+   "problem": "carp",
+   "how": "粒子群 PSO（排列）",
+   "evidence": "同等评估预算实测（每次约 6030 次评估，3 个种子的中位数）：本算法 666，随机搜索 711（越小越好）",
+   "demo": "/problem/carp/",
+   "demo_algo": "pk_pso",
+   "tier": "实测"
+  },
+  {
+   "algo": "gwo",
+   "problem": "cbbb",
+   "how": "灰狼 GWO",
+   "evidence": "同等评估预算实测（每次约 6030 次评估，3 个种子的中位数）：本算法 0，随机搜索 46.69（越小越好）",
+   "demo": "/problem/cbbb/",
+   "demo_algo": "gwo",
+   "tier": "实测"
+  },
+  {
+   "algo": "woa",
+   "problem": "cbbb",
+   "how": "鲸鱼 WOA",
+   "evidence": "同等评估预算实测（每次约 6030 次评估，3 个种子的中位数）：本算法 0，随机搜索 46.69（越小越好）",
+   "demo": "/problem/cbbb/",
+   "demo_algo": "woa",
+   "tier": "实测"
+  },
+  {
+   "algo": "sca",
+   "problem": "cbbb",
+   "how": "正弦余弦 SCA",
+   "evidence": "同等评估预算实测（每次约 6030 次评估，3 个种子的中位数）：本算法 0，随机搜索 46.69（越小越好）",
+   "demo": "/problem/cbbb/",
+   "demo_algo": "sca",
+   "tier": "实测"
+  },
+  {
+   "algo": "ao",
+   "problem": "cbbb",
+   "how": "天鹰 AO",
+   "evidence": "同等评估预算实测（每次约 6030 次评估，3 个种子的中位数）：本算法 0，随机搜索 46.69（越小越好）",
+   "demo": "/problem/cbbb/",
+   "demo_algo": "ao",
+   "tier": "实测"
+  },
+  {
+   "algo": "sma",
+   "problem": "cbbb",
+   "how": "黏菌 SMA",
+   "evidence": "同等评估预算实测（每次约 6030 次评估，3 个种子的中位数）：本算法 0，随机搜索 46.69（越小越好）",
+   "demo": "/problem/cbbb/",
+   "demo_algo": "sma",
+   "tier": "实测"
+  },
+  {
+   "algo": "hho",
+   "problem": "cbbb",
+   "how": "哈里斯鹰 HHO",
+   "evidence": "同等评估预算实测（每次约 7973 次评估，3 个种子的中位数）：本算法 0，随机搜索 46.25（越小越好）",
+   "demo": "/problem/cbbb/",
+   "demo_algo": "hho",
+   "tier": "实测"
+  },
+  {
+   "algo": "ssa",
+   "problem": "cbbb",
+   "how": "麻雀搜索 SSA",
+   "evidence": "同等评估预算实测（每次约 6630 次评估，3 个种子的中位数）：本算法 0，随机搜索 46.69（越小越好）",
+   "demo": "/problem/cbbb/",
+   "demo_algo": "ssa",
+   "tier": "实测"
+  },
+  {
+   "algo": "boa",
+   "problem": "cbbb",
+   "how": "蝴蝶优化 BOA",
+   "evidence": "同等评估预算实测（每次约 6030 次评估，3 个种子的中位数）：本算法 0，随机搜索 46.69（越小越好）",
+   "demo": "/problem/cbbb/",
+   "demo_algo": "boa",
+   "tier": "实测"
+  },
+  {
+   "algo": "mpa",
+   "problem": "cbbb",
+   "how": "海洋掠食者 MPA",
+   "evidence": "同等评估预算实测（每次约 12030 次评估，3 个种子的中位数）：本算法 0，随机搜索 46.25（越小越好）",
+   "demo": "/problem/cbbb/",
+   "demo_algo": "mpa",
+   "tier": "实测"
+  },
+  {
+   "algo": "fwa",
+   "problem": "cbbb",
+   "how": "烟花算法 FWA",
+   "evidence": "同等评估预算实测（每次约 10329 次评估，3 个种子的中位数）：本算法 0，随机搜索 46.25（越小越好）",
+   "demo": "/problem/cbbb/",
+   "demo_algo": "fwa",
+   "tier": "实测"
+  },
+  {
+   "algo": "sos",
+   "problem": "cbbb",
+   "how": "共生搜索 SOS",
+   "evidence": "同等评估预算实测（每次约 24030 次评估，3 个种子的中位数）：本算法 0，随机搜索 37.99（越小越好）",
+   "demo": "/problem/cbbb/",
+   "demo_algo": "sos",
+   "tier": "实测"
+  },
+  {
+   "algo": "ica",
+   "problem": "cbbb",
+   "how": "帝国竞争 ICA",
+   "evidence": "同等评估预算实测（每次约 5790 次评估，3 个种子的中位数）：本算法 0.001，随机搜索 46.69（越小越好）",
+   "demo": "/problem/cbbb/",
+   "demo_algo": "ica",
+   "tier": "实测"
+  },
+  {
+   "algo": "cs",
+   "problem": "cflp",
+   "how": "布谷鸟 CS",
+   "evidence": "同等评估预算实测（每次约 280 次评估，3 个种子的中位数）：本算法 2103，随机搜索 2262（越小越好）",
+   "demo": "/problem/cflp/",
+   "demo_algo": "cs",
+   "tier": "实测"
+  },
+  {
+   "algo": "fa",
+   "problem": "cflp",
+   "how": "萤火虫 FA（排列）",
+   "evidence": "同等评估预算实测（每次约 235 次评估，3 个种子的中位数）：本算法 2203，随机搜索 2262（越小越好）",
+   "demo": "/problem/cflp/",
+   "demo_algo": "pk_fa",
+   "tier": "实测"
+  },
+  {
+   "algo": "sa",
+   "problem": "cflp",
+   "how": "模拟退火 SA",
+   "evidence": "同等评估预算实测（每次约 206 次评估，3 个种子的中位数）：本算法 2251，随机搜索 2262（越小越好）",
+   "demo": "/problem/cflp/",
+   "demo_algo": "sa",
+   "tier": "实测"
+  },
+  {
+   "algo": "sa",
+   "problem": "ctp",
+   "how": "模拟退火 SA",
+   "evidence": "同等评估预算实测（每次约 205 次评估，3 个种子的中位数）：本算法 0，随机搜索 6（越小越好）",
+   "demo": "/problem/ctp/",
+   "demo_algo": "sa",
+   "tier": "实测"
+  },
+  {
+   "algo": "eo",
+   "problem": "ctp",
+   "how": "均衡 EO（排列）",
+   "evidence": "同等评估预算实测（每次约 6030 次评估，3 个种子的中位数）：本算法 20，随机搜索 21（越小越好）",
+   "demo": "/problem/ctp/",
+   "demo_algo": "pk_eo",
+   "tier": "实测"
+  },
+  {
+   "algo": "gwo",
+   "problem": "ebbb",
+   "how": "灰狼 GWO",
+   "evidence": "同等评估预算实测（每次约 6030 次评估，3 个种子的中位数）：本算法 0，随机搜索 73.04（越小越好）",
+   "demo": "/problem/ebbb/",
+   "demo_algo": "gwo",
+   "tier": "实测"
+  },
+  {
+   "algo": "woa",
+   "problem": "ebbb",
+   "how": "鲸鱼 WOA",
+   "evidence": "同等评估预算实测（每次约 6030 次评估，3 个种子的中位数）：本算法 0，随机搜索 73.04（越小越好）",
+   "demo": "/problem/ebbb/",
+   "demo_algo": "woa",
+   "tier": "实测"
+  },
+  {
+   "algo": "sca",
+   "problem": "ebbb",
+   "how": "正弦余弦 SCA",
+   "evidence": "同等评估预算实测（每次约 6030 次评估，3 个种子的中位数）：本算法 0，随机搜索 73.04（越小越好）",
+   "demo": "/problem/ebbb/",
+   "demo_algo": "sca",
+   "tier": "实测"
+  },
+  {
+   "algo": "ao",
+   "problem": "ebbb",
+   "how": "天鹰 AO",
+   "evidence": "同等评估预算实测（每次约 6030 次评估，3 个种子的中位数）：本算法 0，随机搜索 73.04（越小越好）",
+   "demo": "/problem/ebbb/",
+   "demo_algo": "ao",
+   "tier": "实测"
+  },
+  {
+   "algo": "sma",
+   "problem": "ebbb",
+   "how": "黏菌 SMA",
+   "evidence": "同等评估预算实测（每次约 6030 次评估，3 个种子的中位数）：本算法 0，随机搜索 73.04（越小越好）",
+   "demo": "/problem/ebbb/",
+   "demo_algo": "sma",
+   "tier": "实测"
+  },
+  {
+   "algo": "hho",
+   "problem": "ebbb",
+   "how": "哈里斯鹰 HHO",
+   "evidence": "同等评估预算实测（每次约 7908 次评估，3 个种子的中位数）：本算法 0，随机搜索 73.04（越小越好）",
+   "demo": "/problem/ebbb/",
+   "demo_algo": "hho",
+   "tier": "实测"
+  },
+  {
+   "algo": "ssa",
+   "problem": "ebbb",
+   "how": "麻雀搜索 SSA",
+   "evidence": "同等评估预算实测（每次约 6630 次评估，3 个种子的中位数）：本算法 0，随机搜索 73.04（越小越好）",
+   "demo": "/problem/ebbb/",
+   "demo_algo": "ssa",
+   "tier": "实测"
+  },
+  {
+   "algo": "boa",
+   "problem": "ebbb",
+   "how": "蝴蝶优化 BOA",
+   "evidence": "同等评估预算实测（每次约 6030 次评估，3 个种子的中位数）：本算法 0，随机搜索 73.04（越小越好）",
+   "demo": "/problem/ebbb/",
+   "demo_algo": "boa",
+   "tier": "实测"
+  },
+  {
+   "algo": "mpa",
+   "problem": "ebbb",
+   "how": "海洋掠食者 MPA",
+   "evidence": "同等评估预算实测（每次约 12030 次评估，3 个种子的中位数）：本算法 0，随机搜索 72.79（越小越好）",
+   "demo": "/problem/ebbb/",
+   "demo_algo": "mpa",
+   "tier": "实测"
+  },
+  {
+   "algo": "fwa",
+   "problem": "ebbb",
+   "how": "烟花算法 FWA",
+   "evidence": "同等评估预算实测（每次约 10196 次评估，3 个种子的中位数）：本算法 0，随机搜索 73.04（越小越好）",
+   "demo": "/problem/ebbb/",
+   "demo_algo": "fwa",
+   "tier": "实测"
+  },
+  {
+   "algo": "sos",
+   "problem": "ebbb",
+   "how": "共生搜索 SOS",
+   "evidence": "同等评估预算实测（每次约 24030 次评估，3 个种子的中位数）：本算法 0，随机搜索 49.71（越小越好）",
+   "demo": "/problem/ebbb/",
+   "demo_algo": "sos",
+   "tier": "实测"
+  },
+  {
+   "algo": "ica",
+   "problem": "ebbb",
+   "how": "帝国竞争 ICA",
+   "evidence": "同等评估预算实测（每次约 5704 次评估，3 个种子的中位数）：本算法 0.001，随机搜索 80.65（越小越好）",
+   "demo": "/problem/ebbb/",
+   "demo_algo": "ica",
+   "tier": "实测"
+  },
+  {
+   "algo": "sa",
+   "problem": "ecd",
+   "how": "模拟退火 SA",
+   "evidence": "同等评估预算实测（每次约 201 次评估，3 个种子的中位数）：本算法 2.895，随机搜索 4.115（越小越好）",
+   "demo": "/problem/ecd/",
+   "demo_algo": "sa",
+   "tier": "实测"
+  },
+  {
+   "algo": "tlbo",
+   "problem": "ecd",
+   "how": "教与学 TLBO",
+   "evidence": "同等评估预算实测（每次约 9030 次评估，3 个种子的中位数）：本算法 1.725，随机搜索 2.377（越小越好）",
+   "demo": "/problem/ecd/",
+   "demo_algo": "tlbo",
+   "tier": "实测"
+  },
+  {
+   "algo": "de",
+   "problem": "ecd",
+   "how": "差分进化 DE",
+   "evidence": "同等评估预算实测（每次约 6030 次评估，3 个种子的中位数）：本算法 1.725，随机搜索 2.377（越小越好）",
+   "demo": "/problem/ecd/",
+   "demo_algo": "de",
+   "tier": "实测"
+  },
+  {
+   "algo": "mpa",
+   "problem": "ecd",
+   "how": "海洋掠食者 MPA",
+   "evidence": "同等评估预算实测（每次约 12030 次评估，3 个种子的中位数）：本算法 1.725，随机搜索 2.377（越小越好）",
+   "demo": "/problem/ecd/",
+   "demo_algo": "mpa",
+   "tier": "实测"
+  },
+  {
+   "algo": "cscrow",
+   "problem": "ecd",
+   "how": "乌鸦搜索 CSA",
+   "evidence": "同等评估预算实测（每次约 6030 次评估，3 个种子的中位数）：本算法 1.732，随机搜索 2.377（越小越好）",
+   "demo": "/problem/ecd/",
+   "demo_algo": "cscrow",
+   "tier": "实测"
+  },
+  {
+   "algo": "ils",
+   "problem": "ecd",
+   "how": "迭代局部搜索 ILS",
+   "evidence": "同等评估预算实测（每次约 5598 次评估，3 个种子的中位数）：本算法 1.745，随机搜索 2.377（越小越好）",
+   "demo": "/problem/ecd/",
+   "demo_algo": "ils",
+   "tier": "实测"
+  },
+  {
+   "algo": "vns",
+   "problem": "ecd",
+   "how": "变邻域搜索 VNS",
+   "evidence": "同等评估预算实测（每次约 4795 次评估，3 个种子的中位数）：本算法 1.767，随机搜索 2.377（越小越好）",
+   "demo": "/problem/ecd/",
+   "demo_algo": "vns",
+   "tier": "实测"
+  },
+  {
+   "algo": "alo",
+   "problem": "ecd",
+   "how": "蚁狮优化 ALO",
+   "evidence": "同等评估预算实测（每次约 6030 次评估，3 个种子的中位数）：本算法 1.77，随机搜索 2.377（越小越好）",
+   "demo": "/problem/ecd/",
+   "demo_algo": "alo",
+   "tier": "实测"
+  },
+  {
+   "algo": "eo",
+   "problem": "ecd",
+   "how": "均衡优化 EO",
+   "evidence": "同等评估预算实测（每次约 6030 次评估，3 个种子的中位数）：本算法 1.795，随机搜索 2.377（越小越好）",
+   "demo": "/problem/ecd/",
+   "demo_algo": "eo",
+   "tier": "实测"
+  },
+  {
+   "algo": "ais",
+   "problem": "ecd",
+   "how": "克隆选择 AIS",
+   "evidence": "同等评估预算实测（每次约 7430 次评估，3 个种子的中位数）：本算法 1.8，随机搜索 2.377（越小越好）",
+   "demo": "/problem/ecd/",
+   "demo_algo": "ais",
+   "tier": "实测"
+  },
+  {
+   "algo": "abc",
+   "problem": "ecd",
+   "how": "人工蜂群 ABC",
+   "evidence": "同等评估预算实测（每次约 12036 次评估，3 个种子的中位数）：本算法 1.813，随机搜索 2.377（越小越好）",
+   "demo": "/problem/ecd/",
+   "demo_algo": "abc",
+   "tier": "实测"
+  },
+  {
+   "algo": "bfo",
+   "problem": "ecd",
+   "how": "细菌觅食 BFO",
+   "evidence": "同等评估预算实测（每次约 7336 次评估，3 个种子的中位数）：本算法 1.853，随机搜索 2.377（越小越好）",
+   "demo": "/problem/ecd/",
+   "demo_algo": "bfo",
+   "tier": "实测"
+  },
+  {
+   "algo": "ts",
+   "problem": "etp",
+   "how": "禁忌搜索 TS",
+   "evidence": "同等评估预算实测（每次约 0 次评估，3 个种子的中位数）：本算法 0，随机搜索 8120（越小越好）",
+   "demo": "/problem/etp/",
+   "demo_algo": "ts",
+   "tier": "实测"
+  },
+  {
+   "algo": "ga",
+   "problem": "etp",
+   "how": "遗传 GA",
+   "evidence": "同等评估预算实测（每次约 0 次评估，3 个种子的中位数）：本算法 24，随机搜索 8120（越小越好）",
+   "demo": "/problem/etp/",
+   "demo_algo": "ga",
+   "tier": "实测"
+  },
+  {
+   "algo": "cs",
+   "problem": "etp",
+   "how": "布谷鸟 CS",
+   "evidence": "同等评估预算实测（每次约 0 次评估，3 个种子的中位数）：本算法 24，随机搜索 8120（越小越好）",
+   "demo": "/problem/etp/",
+   "demo_algo": "cs",
+   "tier": "实测"
+  },
+  {
+   "algo": "de",
+   "problem": "etp",
+   "how": "差分 DE",
+   "evidence": "同等评估预算实测（每次约 0 次评估，3 个种子的中位数）：本算法 36，随机搜索 8120（越小越好）",
+   "demo": "/problem/etp/",
+   "demo_algo": "de",
+   "tier": "实测"
+  },
+  {
+   "algo": "sa",
+   "problem": "etp",
+   "how": "模拟退火 SA",
+   "evidence": "同等评估预算实测（每次约 0 次评估，3 个种子的中位数）：本算法 72，随机搜索 8120（越小越好）",
+   "demo": "/problem/etp/",
+   "demo_algo": "sa",
+   "tier": "实测"
+  },
+  {
+   "algo": "gwo",
+   "problem": "etp",
+   "how": "灰狼 GWO",
+   "evidence": "同等评估预算实测（每次约 0 次评估，3 个种子的中位数）：本算法 72，随机搜索 8120（越小越好）",
+   "demo": "/problem/etp/",
+   "demo_algo": "gwo",
+   "tier": "实测"
+  },
+  {
+   "algo": "fa",
+   "problem": "fjsp",
+   "how": "萤火虫 FA（排列）",
+   "evidence": "同等评估预算实测（每次约 466 次评估，3 个种子的中位数）：本算法 24，随机搜索 27（越小越好）",
+   "demo": "/problem/fjsp/",
+   "demo_algo": "pk_fa",
+   "tier": "实测"
+  },
+  {
+   "algo": "sa",
+   "problem": "fjsp",
+   "how": "模拟退火 SA",
+   "evidence": "同等评估预算实测（每次约 206 次评估，3 个种子的中位数）：本算法 26，随机搜索 28（越小越好）",
+   "demo": "/problem/fjsp/",
+   "demo_algo": "sa",
+   "tier": "实测"
+  },
+  {
+   "algo": "cs",
+   "problem": "fjsp",
+   "how": "布谷鸟 CS",
+   "evidence": "同等评估预算实测（每次约 285 次评估，3 个种子的中位数）：本算法 26，随机搜索 28（越小越好）",
+   "demo": "/problem/fjsp/",
+   "demo_algo": "cs",
+   "tier": "实测"
+  },
+  {
+   "algo": "ts",
+   "problem": "freqasg",
+   "how": "禁忌搜索 TS（排列）",
+   "evidence": "同等评估预算实测（每次约 9601 次评估，3 个种子的中位数）：本算法 8000，随机搜索 1.6e+04（越小越好）",
+   "demo": "/problem/freqasg/",
+   "demo_algo": "ts",
+   "tier": "实测"
+  },
+  {
+   "algo": "ga",
+   "problem": "freqasg",
+   "how": "遗传算法 GA（排列）",
+   "evidence": "同等评估预算实测（每次约 6030 次评估，3 个种子的中位数）：本算法 8000，随机搜索 1.6e+04（越小越好）",
+   "demo": "/problem/freqasg/",
+   "demo_algo": "ga",
+   "tier": "实测"
+  },
+  {
+   "algo": "jaya",
+   "problem": "freqasg",
+   "how": "Jaya（排列）",
+   "evidence": "同等评估预算实测（每次约 6030 次评估，3 个种子的中位数）：本算法 8000，随机搜索 1.6e+04（越小越好）",
+   "demo": "/problem/freqasg/",
+   "demo_algo": "pk_jaya",
+   "tier": "实测"
+  },
+  {
+   "algo": "tlbo",
+   "problem": "freqasg",
+   "how": "TLBO（排列）",
+   "evidence": "同等评估预算实测（每次约 9030 次评估，3 个种子的中位数）：本算法 8000，随机搜索 1.6e+04（越小越好）",
+   "demo": "/problem/freqasg/",
+   "demo_algo": "pk_tlbo",
+   "tier": "实测"
+  },
+  {
+   "algo": "mpa",
+   "problem": "freqasg",
+   "how": "海洋掠食者 MPA（排列）",
+   "evidence": "同等评估预算实测（每次约 12030 次评估，3 个种子的中位数）：本算法 8000，随机搜索 1.6e+04（越小越好）",
+   "demo": "/problem/freqasg/",
+   "demo_algo": "pk_mpa",
+   "tier": "实测"
+  },
+  {
+   "algo": "bbo",
+   "problem": "freqasg",
+   "how": "生物地理 BBO（排列）",
+   "evidence": "同等评估预算实测（每次约 6030 次评估，3 个种子的中位数）：本算法 8000，随机搜索 1.6e+04（越小越好）",
+   "demo": "/problem/freqasg/",
+   "demo_algo": "pk_bbo",
+   "tier": "实测"
+  },
+  {
+   "algo": "ils",
+   "problem": "freqasg",
+   "how": "迭代局部搜索 ILS",
+   "evidence": "同等评估预算实测（每次约 3723 次评估，3 个种子的中位数）：本算法 8000，随机搜索 1.6e+04（越小越好）",
+   "demo": "/problem/freqasg/",
+   "demo_algo": "ils",
+   "tier": "实测"
+  },
+  {
+   "algo": "vns",
+   "problem": "freqasg",
+   "how": "变邻域搜索 VNS",
+   "evidence": "同等评估预算实测（每次约 2767 次评估，3 个种子的中位数）：本算法 8000，随机搜索 1.6e+04（越小越好）",
+   "demo": "/problem/freqasg/",
+   "demo_algo": "vns",
+   "tier": "实测"
+  },
+  {
+   "algo": "aco",
+   "problem": "freqasg",
+   "how": "蚁群 ACO",
+   "evidence": "同等评估预算实测（每次约 6000 次评估，3 个种子的中位数）：本算法 8000，随机搜索 1.6e+04（越小越好）",
+   "demo": "/problem/freqasg/",
+   "demo_algo": "aco",
+   "tier": "实测"
+  },
+  {
+   "algo": "de",
+   "problem": "freqasg",
+   "how": "差分 DE",
+   "evidence": "同等评估预算实测（每次约 6030 次评估，3 个种子的中位数）：本算法 1.2e+04，随机搜索 1.6e+04（越小越好）",
+   "demo": "/problem/freqasg/",
+   "demo_algo": "de",
+   "tier": "实测"
+  },
+  {
+   "algo": "pso",
+   "problem": "freqasg",
+   "how": "粒子群 PSO（排列）",
+   "evidence": "同等评估预算实测（每次约 6030 次评估，3 个种子的中位数）：本算法 1.2e+04，随机搜索 1.6e+04（越小越好）",
+   "demo": "/problem/freqasg/",
+   "demo_algo": "pk_pso",
+   "tier": "实测"
+  },
+  {
+   "algo": "mfo",
+   "problem": "freqasg",
+   "how": "蛾焰 MFO（排列）",
+   "evidence": "同等评估预算实测（每次约 6030 次评估，3 个种子的中位数）：本算法 1.2e+04，随机搜索 1.6e+04（越小越好）",
+   "demo": "/problem/freqasg/",
+   "demo_algo": "pk_mfo",
+   "tier": "实测"
+  },
+  {
+   "algo": "jaya",
+   "problem": "fss",
+   "how": "Jaya（排列）",
+   "evidence": "同等评估预算实测（每次约 6030 次评估，3 个种子的中位数）：本算法 802，随机搜索 842（越小越好）",
+   "demo": "/problem/fss/",
+   "demo_algo": "pk_jaya",
+   "tier": "实测"
+  },
+  {
+   "algo": "ica",
+   "problem": "fss",
+   "how": "帝国竞争 ICA（排列）",
+   "evidence": "同等评估预算实测（每次约 5799 次评估，3 个种子的中位数）：本算法 802，随机搜索 842（越小越好）",
+   "demo": "/problem/fss/",
+   "demo_algo": "pk_ica",
+   "tier": "实测"
+  },
+  {
+   "algo": "sos",
+   "problem": "fss",
+   "how": "共生搜索 SOS（排列）",
+   "evidence": "同等评估预算实测（每次约 24030 次评估，3 个种子的中位数）：本算法 802，随机搜索 842（越小越好）",
+   "demo": "/problem/fss/",
+   "demo_algo": "pk_sos",
+   "tier": "实测"
+  },
+  {
+   "algo": "mpa",
+   "problem": "fss",
+   "how": "海洋掠食者 MPA（排列）",
+   "evidence": "同等评估预算实测（每次约 12030 次评估，3 个种子的中位数）：本算法 805，随机搜索 842（越小越好）",
+   "demo": "/problem/fss/",
+   "demo_algo": "pk_mpa",
+   "tier": "实测"
+  },
+  {
+   "algo": "fa",
+   "problem": "fss",
+   "how": "萤火虫 FA（排列）",
+   "evidence": "同等评估预算实测（每次约 662 次评估，3 个种子的中位数）：本算法 806，随机搜索 842（越小越好）",
+   "demo": "/problem/fss/",
+   "demo_algo": "pk_fa",
+   "tier": "实测"
+  },
+  {
+   "algo": "tlbo",
+   "problem": "fss",
+   "how": "TLBO（排列）",
+   "evidence": "同等评估预算实测（每次约 9030 次评估，3 个种子的中位数）：本算法 806，随机搜索 842（越小越好）",
+   "demo": "/problem/fss/",
+   "demo_algo": "pk_tlbo",
+   "tier": "实测"
+  },
+  {
+   "algo": "sfla",
+   "problem": "fss",
+   "how": "混合蛙跳 SFLA（排列）",
+   "evidence": "同等评估预算实测（每次约 5671 次评估，3 个种子的中位数）：本算法 806，随机搜索 842（越小越好）",
+   "demo": "/problem/fss/",
+   "demo_algo": "pk_sfla",
+   "tier": "实测"
+  },
+  {
+   "algo": "mfo",
+   "problem": "fss",
+   "how": "蛾焰 MFO（排列）",
+   "evidence": "同等评估预算实测（每次约 6030 次评估，3 个种子的中位数）：本算法 813，随机搜索 842（越小越好）",
+   "demo": "/problem/fss/",
+   "demo_algo": "pk_mfo",
+   "tier": "实测"
+  },
+  {
+   "algo": "sa",
+   "problem": "fss",
+   "how": "模拟退火 SA",
+   "evidence": "同等评估预算实测（每次约 203 次评估，3 个种子的中位数）：本算法 855，随机搜索 883（越小越好）",
+   "demo": "/problem/fss/",
+   "demo_algo": "sa",
+   "tier": "实测"
+  },
+  {
+   "algo": "ils",
+   "problem": "fss",
+   "how": "迭代局部搜索 ILS",
+   "evidence": "同等评估预算实测（每次约 4308 次评估，3 个种子的中位数）：本算法 819，随机搜索 842（越小越好）",
+   "demo": "/problem/fss/",
+   "demo_algo": "ils",
+   "tier": "实测"
+  },
+  {
+   "algo": "ts",
+   "problem": "fss",
+   "how": "禁忌搜索 TS（排列）",
+   "evidence": "同等评估预算实测（每次约 9601 次评估，3 个种子的中位数）：本算法 820，随机搜索 842（越小越好）",
+   "demo": "/problem/fss/",
+   "demo_algo": "ts",
+   "tier": "实测"
+  },
+  {
+   "algo": "ga",
+   "problem": "fss",
+   "how": "遗传算法 GA（排列）",
+   "evidence": "同等评估预算实测（每次约 6030 次评估，3 个种子的中位数）：本算法 821，随机搜索 842（越小越好）",
+   "demo": "/problem/fss/",
+   "demo_algo": "ga",
+   "tier": "实测"
+  },
+  {
+   "algo": "sa",
+   "problem": "fvs",
+   "how": "模拟退火 SA",
+   "evidence": "同等评估预算实测（每次约 208 次评估，3 个种子的中位数）：本算法 4，随机搜索 5（越小越好）",
+   "demo": "/problem/fvs/",
+   "demo_algo": "sa",
+   "tier": "实测"
+  },
+  {
+   "algo": "kh",
+   "problem": "ged",
+   "how": "磷虾群 KH",
+   "evidence": "同等评估预算实测（每次约 6230 次评估，3 个种子的中位数）：本算法 342.1，随机搜索 1949（越小越好）",
+   "demo": "/problem/ged/",
+   "demo_algo": "kh",
+   "tier": "实测"
+  },
+  {
+   "algo": "ica",
+   "problem": "ged",
+   "how": "帝国竞争 ICA",
+   "evidence": "同等评估预算实测（每次约 5801 次评估，3 个种子的中位数）：本算法 408.4，随机搜索 1949（越小越好）",
+   "demo": "/problem/ged/",
+   "demo_algo": "ica",
+   "tier": "实测"
+  },
+  {
+   "algo": "mpa",
+   "problem": "ged",
+   "how": "海洋掠食者 MPA",
+   "evidence": "同等评估预算实测（每次约 12030 次评估，3 个种子的中位数）：本算法 420.8，随机搜索 1949（越小越好）",
+   "demo": "/problem/ged/",
+   "demo_algo": "mpa",
+   "tier": "实测"
+  },
+  {
+   "algo": "ils",
+   "problem": "ged",
+   "how": "迭代局部搜索 ILS",
+   "evidence": "同等评估预算实测（每次约 7398 次评估，3 个种子的中位数）：本算法 427.8，随机搜索 1949（越小越好）",
+   "demo": "/problem/ged/",
+   "demo_algo": "ils",
+   "tier": "实测"
+  },
+  {
+   "algo": "vns",
+   "problem": "ged",
+   "how": "变邻域搜索 VNS",
+   "evidence": "同等评估预算实测（每次约 4267 次评估，3 个种子的中位数）：本算法 454，随机搜索 1958（越小越好）",
+   "demo": "/problem/ged/",
+   "demo_algo": "vns",
+   "tier": "实测"
+  },
+  {
+   "algo": "sa",
+   "problem": "ged",
+   "how": "模拟退火 SA",
+   "evidence": "同等评估预算实测（每次约 201 次评估，3 个种子的中位数）：本算法 696.5，随机搜索 2939（越小越好）",
+   "demo": "/problem/ged/",
+   "demo_algo": "sa",
+   "tier": "实测"
+  },
+  {
+   "algo": "ais",
+   "problem": "ged",
+   "how": "克隆选择 AIS",
+   "evidence": "同等评估预算实测（每次约 7430 次评估，3 个种子的中位数）：本算法 462.6，随机搜索 1949（越小越好）",
+   "demo": "/problem/ged/",
+   "demo_algo": "ais",
+   "tier": "实测"
+  },
+  {
+   "algo": "salp",
+   "problem": "ged",
+   "how": "樽海鞘群 Salp",
+   "evidence": "同等评估预算实测（每次约 6030 次评估，3 个种子的中位数）：本算法 478.9，随机搜索 1949（越小越好）",
+   "demo": "/problem/ged/",
+   "demo_algo": "salp",
+   "tier": "实测"
+  },
+  {
+   "algo": "bbo",
+   "problem": "ged",
+   "how": "生物地理 BBO",
+   "evidence": "同等评估预算实测（每次约 6030 次评估，3 个种子的中位数）：本算法 483.4，随机搜索 1949（越小越好）",
+   "demo": "/problem/ged/",
+   "demo_algo": "bbo",
+   "tier": "实测"
+  },
+  {
+   "algo": "bfo",
+   "problem": "ged",
+   "how": "细菌觅食 BFO",
+   "evidence": "同等评估预算实测（每次约 7730 次评估，3 个种子的中位数）：本算法 487，随机搜索 1949（越小越好）",
+   "demo": "/problem/ged/",
+   "demo_algo": "bfo",
+   "tier": "实测"
+  },
+  {
+   "algo": "alo",
+   "problem": "ged",
+   "how": "蚁狮优化 ALO",
+   "evidence": "同等评估预算实测（每次约 6030 次评估，3 个种子的中位数）：本算法 545.9，随机搜索 1949（越小越好）",
+   "demo": "/problem/ged/",
+   "demo_algo": "alo",
+   "tier": "实测"
+  },
+  {
+   "algo": "hho",
+   "problem": "ged",
+   "how": "哈里斯鹰 HHO",
+   "evidence": "同等评估预算实测（每次约 7594 次评估，3 个种子的中位数）：本算法 557.7，随机搜索 1949（越小越好）",
+   "demo": "/problem/ged/",
+   "demo_algo": "hho",
+   "tier": "实测"
+  },
+  {
+   "algo": "sa",
+   "problem": "gpp",
+   "how": "模拟退火 SA",
+   "evidence": "同等评估预算实测（每次约 207 次评估，3 个种子的中位数）：本算法 51，随机搜索 54（越小越好）",
+   "demo": "/problem/gpp/",
+   "demo_algo": "sa",
+   "tier": "实测"
+  },
+  {
+   "algo": "ts",
+   "problem": "hcycle",
+   "how": "禁忌搜索 TS（排列）",
+   "evidence": "同等评估预算实测（每次约 9601 次评估，3 个种子的中位数）：本算法 0，随机搜索 1（越小越好）",
+   "demo": "/problem/hcycle/",
+   "demo_algo": "ts",
+   "tier": "实测"
+  },
+  {
+   "algo": "ga",
+   "problem": "hcycle",
+   "how": "遗传算法 GA（排列）",
+   "evidence": "同等评估预算实测（每次约 6030 次评估，3 个种子的中位数）：本算法 0，随机搜索 1（越小越好）",
+   "demo": "/problem/hcycle/",
+   "demo_algo": "ga",
+   "tier": "实测"
+  },
+  {
+   "algo": "tlbo",
+   "problem": "hcycle",
+   "how": "TLBO（排列）",
+   "evidence": "同等评估预算实测（每次约 9030 次评估，3 个种子的中位数）：本算法 0，随机搜索 1（越小越好）",
+   "demo": "/problem/hcycle/",
+   "demo_algo": "pk_tlbo",
+   "tier": "实测"
+  },
+  {
+   "algo": "mpa",
+   "problem": "hcycle",
+   "how": "海洋掠食者 MPA（排列）",
+   "evidence": "同等评估预算实测（每次约 12030 次评估，3 个种子的中位数）：本算法 0，随机搜索 1（越小越好）",
+   "demo": "/problem/hcycle/",
+   "demo_algo": "pk_mpa",
+   "tier": "实测"
+  },
+  {
+   "algo": "kh",
+   "problem": "hcycle",
+   "how": "磷虾群 KH（排列）",
+   "evidence": "同等评估预算实测（每次约 6230 次评估，3 个种子的中位数）：本算法 0，随机搜索 1（越小越好）",
+   "demo": "/problem/hcycle/",
+   "demo_algo": "pk_kh",
+   "tier": "实测"
+  },
+  {
+   "algo": "sfla",
+   "problem": "hcycle",
+   "how": "混合蛙跳 SFLA（排列）",
+   "evidence": "同等评估预算实测（每次约 6695 次评估，3 个种子的中位数）：本算法 0，随机搜索 1（越小越好）",
+   "demo": "/problem/hcycle/",
+   "demo_algo": "pk_sfla",
+   "tier": "实测"
+  },
+  {
+   "algo": "sos",
+   "problem": "hcycle",
+   "how": "共生搜索 SOS（排列）",
+   "evidence": "同等评估预算实测（每次约 24030 次评估，3 个种子的中位数）：本算法 0，随机搜索 1（越小越好）",
+   "demo": "/problem/hcycle/",
+   "demo_algo": "pk_sos",
+   "tier": "实测"
+  },
+  {
+   "algo": "bbo",
+   "problem": "hcycle",
+   "how": "生物地理 BBO（排列）",
+   "evidence": "同等评估预算实测（每次约 6030 次评估，3 个种子的中位数）：本算法 0，随机搜索 1（越小越好）",
+   "demo": "/problem/hcycle/",
+   "demo_algo": "pk_bbo",
+   "tier": "实测"
+  },
+  {
+   "algo": "ils",
+   "problem": "hcycle",
+   "how": "迭代局部搜索 ILS",
+   "evidence": "同等评估预算实测（每次约 3353 次评估，3 个种子的中位数）：本算法 0，随机搜索 2（越小越好）",
+   "demo": "/problem/hcycle/",
+   "demo_algo": "ils",
+   "tier": "实测"
+  },
+  {
+   "algo": "aco",
+   "problem": "hcycle",
+   "how": "蚁群 ACO",
+   "evidence": "同等评估预算实测（每次约 6000 次评估，3 个种子的中位数）：本算法 0，随机搜索 1（越小越好）",
+   "demo": "/problem/hcycle/",
+   "demo_algo": "aco",
+   "tier": "实测"
+  },
+  {
+   "algo": "jaya",
+   "problem": "hcycle",
+   "how": "Jaya（排列）",
+   "evidence": "同等评估预算实测（每次约 6030 次评估，3 个种子的中位数）：本算法 1，随机搜索 3（越小越好）",
+   "demo": "/problem/hcycle/",
+   "demo_algo": "pk_jaya",
+   "tier": "实测"
+  },
+  {
+   "algo": "cscrow",
+   "problem": "hcycle",
+   "how": "乌鸦搜索 CSA（排列）",
+   "evidence": "同等评估预算实测（每次约 6030 次评估，3 个种子的中位数）：本算法 1，随机搜索 3（越小越好）",
+   "demo": "/problem/hcycle/",
+   "demo_algo": "pk_cscrow",
+   "tier": "实测"
+  },
+  {
+   "algo": "ga",
+   "problem": "jss",
+   "how": "遗传算法 GA（排列）",
+   "evidence": "同等评估预算实测（每次约 6030 次评估，3 个种子的中位数）：本算法 132，随机搜索 152（越小越好）",
+   "demo": "/problem/jss/",
+   "demo_algo": "ga",
+   "tier": "实测"
+  },
+  {
+   "algo": "fa",
+   "problem": "jss",
+   "how": "萤火虫 FA（排列）",
+   "evidence": "同等评估预算实测（每次约 1125 次评估，3 个种子的中位数）：本算法 137，随机搜索 155（越小越好）",
+   "demo": "/problem/jss/",
+   "demo_algo": "pk_fa",
+   "tier": "实测"
+  },
+  {
+   "algo": "de",
+   "problem": "jss",
+   "how": "差分 DE",
+   "evidence": "同等评估预算实测（每次约 6030 次评估，3 个种子的中位数）：本算法 135，随机搜索 152（越小越好）",
+   "demo": "/problem/jss/",
+   "demo_algo": "de",
+   "tier": "实测"
+  },
+  {
+   "algo": "jaya",
+   "problem": "jss",
+   "how": "Jaya（排列）",
+   "evidence": "同等评估预算实测（每次约 6030 次评估，3 个种子的中位数）：本算法 135，随机搜索 152（越小越好）",
+   "demo": "/problem/jss/",
+   "demo_algo": "pk_jaya",
+   "tier": "实测"
+  },
+  {
+   "algo": "kh",
+   "problem": "jss",
+   "how": "磷虾群 KH（排列）",
+   "evidence": "同等评估预算实测（每次约 6230 次评估，3 个种子的中位数）：本算法 135，随机搜索 152（越小越好）",
+   "demo": "/problem/jss/",
+   "demo_algo": "pk_kh",
+   "tier": "实测"
+  },
+  {
+   "algo": "ica",
+   "problem": "jss",
+   "how": "帝国竞争 ICA（排列）",
+   "evidence": "同等评估预算实测（每次约 5785 次评估，3 个种子的中位数）：本算法 135，随机搜索 152（越小越好）",
+   "demo": "/problem/jss/",
+   "demo_algo": "pk_ica",
+   "tier": "实测"
+  },
+  {
+   "algo": "fpa",
+   "problem": "jss",
+   "how": "花朵授粉 FPA（排列）",
+   "evidence": "同等评估预算实测（每次约 6030 次评估，3 个种子的中位数）：本算法 136，随机搜索 152（越小越好）",
+   "demo": "/problem/jss/",
+   "demo_algo": "pk_fpa",
+   "tier": "实测"
+  },
+  {
+   "algo": "bbo",
+   "problem": "jss",
+   "how": "生物地理 BBO（排列）",
+   "evidence": "同等评估预算实测（每次约 6030 次评估，3 个种子的中位数）：本算法 136，随机搜索 152（越小越好）",
+   "demo": "/problem/jss/",
+   "demo_algo": "pk_bbo",
+   "tier": "实测"
+  },
+  {
+   "algo": "gwo",
+   "problem": "jss",
+   "how": "灰狼 GWO",
+   "evidence": "同等评估预算实测（每次约 6030 次评估，3 个种子的中位数）：本算法 139，随机搜索 152（越小越好）",
+   "demo": "/problem/jss/",
+   "demo_algo": "gwo",
+   "tier": "实测"
+  },
+  {
+   "algo": "da",
+   "problem": "jss",
+   "how": "蜻蜓 DA（排列）",
+   "evidence": "同等评估预算实测（每次约 6030 次评估，3 个种子的中位数）：本算法 139，随机搜索 152（越小越好）",
+   "demo": "/problem/jss/",
+   "demo_algo": "pk_da",
+   "tier": "实测"
+  },
+  {
+   "algo": "pso",
+   "problem": "jss",
+   "how": "粒子群 PSO（排列）",
+   "evidence": "同等评估预算实测（每次约 6030 次评估，3 个种子的中位数）：本算法 140，随机搜索 152（越小越好）",
+   "demo": "/problem/jss/",
+   "demo_algo": "pk_pso",
+   "tier": "实测"
+  },
+  {
+   "algo": "ao",
+   "problem": "jss",
+   "how": "天鹰 AO（排列）",
+   "evidence": "同等评估预算实测（每次约 6030 次评估，3 个种子的中位数）：本算法 140，随机搜索 152（越小越好）",
+   "demo": "/problem/jss/",
+   "demo_algo": "pk_ao",
+   "tier": "实测"
+  },
+  {
+   "algo": "hs",
+   "problem": "kmeans",
+   "how": "和声搜索 HS",
+   "evidence": "同等评估预算实测（每次约 1030 次评估，3 个种子的中位数）：本算法 4915，随机搜索 7224（越小越好）",
+   "demo": "/problem/kmeans/",
+   "demo_algo": "hs",
+   "tier": "实测"
+  },
+  {
+   "algo": "sa",
+   "problem": "kmeans",
+   "how": "模拟退火 SA",
+   "evidence": "同等评估预算实测（每次约 201 次评估，3 个种子的中位数）：本算法 5010，随机搜索 7224（越小越好）",
+   "demo": "/problem/kmeans/",
+   "demo_algo": "sa",
+   "tier": "实测"
+  },
+  {
+   "algo": "alo",
+   "problem": "kmeans",
+   "how": "蚁狮优化 ALO",
+   "evidence": "同等评估预算实测（每次约 6030 次评估，3 个种子的中位数）：本算法 4838，随机搜索 5861（越小越好）",
+   "demo": "/problem/kmeans/",
+   "demo_algo": "alo",
+   "tier": "实测"
+  },
+  {
+   "algo": "fa",
+   "problem": "kmeans",
+   "how": "萤火虫 FA",
+   "evidence": "同等评估预算实测（每次约 6030 次评估，3 个种子的中位数）：本算法 4838，随机搜索 5861（越小越好）",
+   "demo": "/problem/kmeans/",
+   "demo_algo": "fa",
+   "tier": "实测"
+  },
+  {
+   "algo": "salp",
+   "problem": "kmeans",
+   "how": "樽海鞘群 Salp",
+   "evidence": "同等评估预算实测（每次约 6030 次评估，3 个种子的中位数）：本算法 4838，随机搜索 5861（越小越好）",
+   "demo": "/problem/kmeans/",
+   "demo_algo": "salp",
+   "tier": "实测"
+  },
+  {
+   "algo": "mpa",
+   "problem": "kmeans",
+   "how": "海洋掠食者 MPA",
+   "evidence": "同等评估预算实测（每次约 12030 次评估，3 个种子的中位数）：本算法 4838，随机搜索 5861（越小越好）",
+   "demo": "/problem/kmeans/",
+   "demo_algo": "mpa",
+   "tier": "实测"
+  },
+  {
+   "algo": "ica",
+   "problem": "kmeans",
+   "how": "帝国竞争 ICA",
+   "evidence": "同等评估预算实测（每次约 5793 次评估，3 个种子的中位数）：本算法 4838，随机搜索 5861（越小越好）",
+   "demo": "/problem/kmeans/",
+   "demo_algo": "ica",
+   "tier": "实测"
+  },
+  {
+   "algo": "sos",
+   "problem": "kmeans",
+   "how": "共生搜索 SOS",
+   "evidence": "同等评估预算实测（每次约 24030 次评估，3 个种子的中位数）：本算法 4838，随机搜索 5861（越小越好）",
+   "demo": "/problem/kmeans/",
+   "demo_algo": "sos",
+   "tier": "实测"
+  },
+  {
+   "algo": "gsa",
+   "problem": "kmeans",
+   "how": "引力搜索 GSA",
+   "evidence": "同等评估预算实测（每次约 6030 次评估，3 个种子的中位数）：本算法 4838，随机搜索 5861（越小越好）",
+   "demo": "/problem/kmeans/",
+   "demo_algo": "gsa",
+   "tier": "实测"
+  },
+  {
+   "algo": "cscrow",
+   "problem": "kmeans",
+   "how": "乌鸦搜索 CSA",
+   "evidence": "同等评估预算实测（每次约 6030 次评估，3 个种子的中位数）：本算法 4838，随机搜索 5861（越小越好）",
+   "demo": "/problem/kmeans/",
+   "demo_algo": "cscrow",
+   "tier": "实测"
+  },
+  {
+   "algo": "hho",
+   "problem": "kmeans",
+   "how": "哈里斯鹰 HHO",
+   "evidence": "同等评估预算实测（每次约 7703 次评估，3 个种子的中位数）：本算法 4838，随机搜索 5861（越小越好）",
+   "demo": "/problem/kmeans/",
+   "demo_algo": "hho",
+   "tier": "实测"
+  },
+  {
+   "algo": "ssa",
+   "problem": "kmeans",
+   "how": "麻雀搜索 SSA",
+   "evidence": "同等评估预算实测（每次约 6630 次评估，3 个种子的中位数）：本算法 4838，随机搜索 5861（越小越好）",
+   "demo": "/problem/kmeans/",
+   "demo_algo": "ssa",
+   "tier": "实测"
+  },
+  {
+   "algo": "ga",
+   "problem": "lap",
+   "how": "遗传算法 GA（排列）",
+   "evidence": "同等评估预算实测（每次约 6030 次评估，3 个种子的中位数）：本算法 41，随机搜索 75（越小越好）",
+   "demo": "/problem/lap/",
+   "demo_algo": "ga",
+   "tier": "实测"
+  },
+  {
+   "algo": "aco",
+   "problem": "lap",
+   "how": "蚁群 ACO",
+   "evidence": "同等评估预算实测（每次约 6000 次评估，3 个种子的中位数）：本算法 41，随机搜索 75（越小越好）",
+   "demo": "/problem/lap/",
+   "demo_algo": "aco",
+   "tier": "实测"
+  },
+  {
+   "algo": "ts",
+   "problem": "lap",
+   "how": "禁忌搜索 TS（排列）",
+   "evidence": "同等评估预算实测（每次约 9601 次评估，3 个种子的中位数）：本算法 43，随机搜索 75（越小越好）",
+   "demo": "/problem/lap/",
+   "demo_algo": "ts",
+   "tier": "实测"
+  },
+  {
+   "algo": "vns",
+   "problem": "lap",
+   "how": "变邻域搜索 VNS",
+   "evidence": "同等评估预算实测（每次约 3578 次评估，3 个种子的中位数）：本算法 47，随机搜索 81（越小越好）",
+   "demo": "/problem/lap/",
+   "demo_algo": "vns",
+   "tier": "实测"
+  },
+  {
+   "algo": "ils",
+   "problem": "lap",
+   "how": "迭代局部搜索 ILS",
+   "evidence": "同等评估预算实测（每次约 4863 次评估，3 个种子的中位数）：本算法 50，随机搜索 81（越小越好）",
+   "demo": "/problem/lap/",
+   "demo_algo": "ils",
+   "tier": "实测"
+  },
+  {
+   "algo": "de",
+   "problem": "lap",
+   "how": "差分 DE",
+   "evidence": "同等评估预算实测（每次约 6030 次评估，3 个种子的中位数）：本算法 48，随机搜索 75（越小越好）",
+   "demo": "/problem/lap/",
+   "demo_algo": "de",
+   "tier": "实测"
+  },
+  {
+   "algo": "jaya",
+   "problem": "lap",
+   "how": "Jaya（排列）",
+   "evidence": "同等评估预算实测（每次约 6030 次评估，3 个种子的中位数）：本算法 49，随机搜索 75（越小越好）",
+   "demo": "/problem/lap/",
+   "demo_algo": "pk_jaya",
+   "tier": "实测"
+  },
+  {
+   "algo": "tlbo",
+   "problem": "lap",
+   "how": "TLBO（排列）",
+   "evidence": "同等评估预算实测（每次约 9030 次评估，3 个种子的中位数）：本算法 49，随机搜索 75（越小越好）",
+   "demo": "/problem/lap/",
+   "demo_algo": "pk_tlbo",
+   "tier": "实测"
+  },
+  {
+   "algo": "sa",
+   "problem": "lap",
+   "how": "模拟退火 SA",
+   "evidence": "同等评估预算实测（每次约 203 次评估，3 个种子的中位数）：本算法 67，随机搜索 100（越小越好）",
+   "demo": "/problem/lap/",
+   "demo_algo": "sa",
+   "tier": "实测"
+  },
+  {
+   "algo": "fa",
+   "problem": "lap",
+   "how": "萤火虫 FA（排列）",
+   "evidence": "同等评估预算实测（每次约 777 次评估，3 个种子的中位数）：本算法 70，随机搜索 100（越小越好）",
+   "demo": "/problem/lap/",
+   "demo_algo": "pk_fa",
+   "tier": "实测"
+  },
+  {
+   "algo": "mpa",
+   "problem": "lap",
+   "how": "海洋掠食者 MPA（排列）",
+   "evidence": "同等评估预算实测（每次约 12030 次评估，3 个种子的中位数）：本算法 53，随机搜索 75（越小越好）",
+   "demo": "/problem/lap/",
+   "demo_algo": "pk_mpa",
+   "tier": "实测"
+  },
+  {
+   "algo": "gwo",
+   "problem": "lap",
+   "how": "灰狼 GWO",
+   "evidence": "同等评估预算实测（每次约 6030 次评估，3 个种子的中位数）：本算法 54，随机搜索 75（越小越好）",
+   "demo": "/problem/lap/",
+   "demo_algo": "gwo",
+   "tier": "实测"
+  },
+  {
+   "algo": "ssa",
+   "problem": "lbbb",
+   "how": "麻雀搜索 SSA",
+   "evidence": "同等评估预算实测（每次约 6630 次评估，3 个种子的中位数）：本算法 0，随机搜索 4548（越小越好）",
+   "demo": "/problem/lbbb/",
+   "demo_algo": "ssa",
+   "tier": "实测"
+  },
+  {
+   "algo": "sca",
+   "problem": "lbbb",
+   "how": "正弦余弦 SCA",
+   "evidence": "同等评估预算实测（每次约 6030 次评估，3 个种子的中位数）：本算法 0.052，随机搜索 5112（越小越好）",
+   "demo": "/problem/lbbb/",
+   "demo_algo": "sca",
+   "tier": "实测"
+  },
+  {
+   "algo": "woa",
+   "problem": "lbbb",
+   "how": "鲸鱼 WOA",
+   "evidence": "同等评估预算实测（每次约 6030 次评估，3 个种子的中位数）：本算法 1.097，随机搜索 5112（越小越好）",
+   "demo": "/problem/lbbb/",
+   "demo_algo": "woa",
+   "tier": "实测"
+  },
+  {
+   "algo": "ica",
+   "problem": "lbbb",
+   "how": "帝国竞争 ICA",
+   "evidence": "同等评估预算实测（每次约 5736 次评估，3 个种子的中位数）：本算法 5.253，随机搜索 5112（越小越好）",
+   "demo": "/problem/lbbb/",
+   "demo_algo": "ica",
+   "tier": "实测"
+  },
+  {
+   "algo": "de",
+   "problem": "lbbb",
+   "how": "差分进化 DE",
+   "evidence": "同等评估预算实测（每次约 6030 次评估，3 个种子的中位数）：本算法 6.24，随机搜索 5112（越小越好）",
+   "demo": "/problem/lbbb/",
+   "demo_algo": "de",
+   "tier": "实测"
+  },
+  {
+   "algo": "hho",
+   "problem": "lbbb",
+   "how": "哈里斯鹰 HHO",
+   "evidence": "同等评估预算实测（每次约 7348 次评估，3 个种子的中位数）：本算法 6.191，随机搜索 4548（越小越好）",
+   "demo": "/problem/lbbb/",
+   "demo_algo": "hho",
+   "tier": "实测"
+  },
+  {
+   "algo": "alo",
+   "problem": "lbbb",
+   "how": "蚁狮优化 ALO",
+   "evidence": "同等评估预算实测（每次约 6030 次评估，3 个种子的中位数）：本算法 6.974，随机搜索 5112（越小越好）",
+   "demo": "/problem/lbbb/",
+   "demo_algo": "alo",
+   "tier": "实测"
+  },
+  {
+   "algo": "vns",
+   "problem": "lbbb",
+   "how": "变邻域搜索 VNS",
+   "evidence": "同等评估预算实测（每次约 4171 次评估，3 个种子的中位数）：本算法 7.602，随机搜索 5112（越小越好）",
+   "demo": "/problem/lbbb/",
+   "demo_algo": "vns",
+   "tier": "实测"
+  },
+  {
+   "algo": "ils",
+   "problem": "lbbb",
+   "how": "迭代局部搜索 ILS",
+   "evidence": "同等评估预算实测（每次约 4733 次评估，3 个种子的中位数）：本算法 7.683，随机搜索 5112（越小越好）",
+   "demo": "/problem/lbbb/",
+   "demo_algo": "ils",
+   "tier": "实测"
+  },
+  {
+   "algo": "sos",
+   "problem": "lbbb",
+   "how": "共生搜索 SOS",
+   "evidence": "同等评估预算实测（每次约 24030 次评估，3 个种子的中位数）：本算法 2.977，随机搜索 1946（越小越好）",
+   "demo": "/problem/lbbb/",
+   "demo_algo": "sos",
+   "tier": "实测"
+  },
+  {
+   "algo": "gsa",
+   "problem": "lbbb",
+   "how": "引力搜索 GSA",
+   "evidence": "同等评估预算实测（每次约 6030 次评估，3 个种子的中位数）：本算法 8.11，随机搜索 5112（越小越好）",
+   "demo": "/problem/lbbb/",
+   "demo_algo": "gsa",
+   "tier": "实测"
+  },
+  {
+   "algo": "salp",
+   "problem": "lbbb",
+   "how": "樽海鞘群 Salp",
+   "evidence": "同等评估预算实测（每次约 6030 次评估，3 个种子的中位数）：本算法 8.333，随机搜索 5112（越小越好）",
+   "demo": "/problem/lbbb/",
+   "demo_algo": "salp",
+   "tier": "实测"
+  },
+  {
+   "algo": "vns",
+   "problem": "lop",
+   "how": "变邻域搜索 VNS",
+   "evidence": "同等评估预算实测（每次约 3557 次评估，3 个种子的中位数）：本算法 -834，随机搜索 -800（越小越好）",
+   "demo": "/problem/lop/",
+   "demo_algo": "vns",
+   "tier": "实测"
+  },
+  {
+   "algo": "fa",
+   "problem": "lop",
+   "how": "萤火虫 FA（排列）",
+   "evidence": "同等评估预算实测（每次约 880 次评估，3 个种子的中位数）：本算法 -832，随机搜索 -800（越小越好）",
+   "demo": "/problem/lop/",
+   "demo_algo": "pk_fa",
+   "tier": "实测"
+  },
+  {
+   "algo": "ga",
+   "problem": "lop",
+   "how": "遗传算法 GA（排列）",
+   "evidence": "同等评估预算实测（每次约 6030 次评估，3 个种子的中位数）：本算法 -831，随机搜索 -800（越小越好）",
+   "demo": "/problem/lop/",
+   "demo_algo": "ga",
+   "tier": "实测"
+  },
+  {
+   "algo": "alo",
+   "problem": "lop",
+   "how": "蚁狮优化 ALO（排列）",
+   "evidence": "同等评估预算实测（每次约 6030 次评估，3 个种子的中位数）：本算法 -831，随机搜索 -800（越小越好）",
+   "demo": "/problem/lop/",
+   "demo_algo": "pk_alo",
+   "tier": "实测"
+  },
+  {
+   "algo": "ils",
+   "problem": "lop",
+   "how": "迭代局部搜索 ILS",
+   "evidence": "同等评估预算实测（每次约 4984 次评估，3 个种子的中位数）：本算法 -831，随机搜索 -800（越小越好）",
+   "demo": "/problem/lop/",
+   "demo_algo": "ils",
+   "tier": "实测"
+  },
+  {
+   "algo": "ao",
+   "problem": "lop",
+   "how": "天鹰 AO（排列）",
+   "evidence": "同等评估预算实测（每次约 6030 次评估，3 个种子的中位数）：本算法 -830，随机搜索 -800（越小越好）",
+   "demo": "/problem/lop/",
+   "demo_algo": "pk_ao",
+   "tier": "实测"
+  },
+  {
+   "algo": "da",
+   "problem": "lop",
+   "how": "蜻蜓 DA（排列）",
+   "evidence": "同等评估预算实测（每次约 6030 次评估，3 个种子的中位数）：本算法 -830，随机搜索 -800（越小越好）",
+   "demo": "/problem/lop/",
+   "demo_algo": "pk_da",
+   "tier": "实测"
+  },
+  {
+   "algo": "sfla",
+   "problem": "lop",
+   "how": "混合蛙跳 SFLA（排列）",
+   "evidence": "同等评估预算实测（每次约 5130 次评估，3 个种子的中位数）：本算法 -830，随机搜索 -800（越小越好）",
+   "demo": "/problem/lop/",
+   "demo_algo": "pk_sfla",
+   "tier": "实测"
+  },
+  {
+   "algo": "bbo",
+   "problem": "lop",
+   "how": "生物地理 BBO（排列）",
+   "evidence": "同等评估预算实测（每次约 6030 次评估，3 个种子的中位数）：本算法 -830，随机搜索 -800（越小越好）",
+   "demo": "/problem/lop/",
+   "demo_algo": "pk_bbo",
+   "tier": "实测"
+  },
+  {
+   "algo": "ts",
+   "problem": "lop",
+   "how": "禁忌搜索 TS（排列）",
+   "evidence": "同等评估预算实测（每次约 9601 次评估，3 个种子的中位数）：本算法 -832，随机搜索 -802（越小越好）",
+   "demo": "/problem/lop/",
+   "demo_algo": "ts",
+   "tier": "实测"
+  },
+  {
+   "algo": "mpa",
+   "problem": "lop",
+   "how": "海洋掠食者 MPA（排列）",
+   "evidence": "同等评估预算实测（每次约 12030 次评估，3 个种子的中位数）：本算法 -832，随机搜索 -802（越小越好）",
+   "demo": "/problem/lop/",
+   "demo_algo": "pk_mpa",
+   "tier": "实测"
+  },
+  {
+   "algo": "de",
+   "problem": "lop",
+   "how": "差分 DE",
+   "evidence": "同等评估预算实测（每次约 6030 次评估，3 个种子的中位数）：本算法 -828，随机搜索 -800（越小越好）",
+   "demo": "/problem/lop/",
+   "demo_algo": "de",
+   "tier": "实测"
+  },
+  {
+   "algo": "ts",
+   "problem": "lpath",
+   "how": "禁忌搜索 TS（排列）",
+   "evidence": "同等评估预算实测（每次约 9601 次评估，3 个种子的中位数）：本算法 -175，随机搜索 -128（越小越好）",
+   "demo": "/problem/lpath/",
+   "demo_algo": "ts",
+   "tier": "实测"
+  },
+  {
+   "algo": "bbo",
+   "problem": "lpath",
+   "how": "生物地理 BBO（排列）",
+   "evidence": "同等评估预算实测（每次约 6030 次评估，3 个种子的中位数）：本算法 -171，随机搜索 -128（越小越好）",
+   "demo": "/problem/lpath/",
+   "demo_algo": "pk_bbo",
+   "tier": "实测"
+  },
+  {
+   "algo": "ils",
+   "problem": "lpath",
+   "how": "迭代局部搜索 ILS",
+   "evidence": "同等评估预算实测（每次约 3789 次评估，3 个种子的中位数）：本算法 -166，随机搜索 -128（越小越好）",
+   "demo": "/problem/lpath/",
+   "demo_algo": "ils",
+   "tier": "实测"
+  },
+  {
+   "algo": "ais",
+   "problem": "lpath",
+   "how": "克隆选择 AIS（排列）",
+   "evidence": "同等评估预算实测（每次约 7430 次评估，3 个种子的中位数）：本算法 -164，随机搜索 -128（越小越好）",
+   "demo": "/problem/lpath/",
+   "demo_algo": "pk_ais",
+   "tier": "实测"
+  },
+  {
+   "algo": "sos",
+   "problem": "lpath",
+   "how": "共生搜索 SOS（排列）",
+   "evidence": "同等评估预算实测（每次约 24030 次评估，3 个种子的中位数）：本算法 -175，随机搜索 -137（越小越好）",
+   "demo": "/problem/lpath/",
+   "demo_algo": "pk_sos",
+   "tier": "实测"
+  },
+  {
+   "algo": "mpa",
+   "problem": "lpath",
+   "how": "海洋掠食者 MPA（排列）",
+   "evidence": "同等评估预算实测（每次约 12030 次评估，3 个种子的中位数）：本算法 -161，随机搜索 -128（越小越好）",
+   "demo": "/problem/lpath/",
+   "demo_algo": "pk_mpa",
+   "tier": "实测"
+  },
+  {
+   "algo": "pso",
+   "problem": "lpath",
+   "how": "粒子群 PSO（排列）",
+   "evidence": "同等评估预算实测（每次约 6030 次评估，3 个种子的中位数）：本算法 -160，随机搜索 -128（越小越好）",
+   "demo": "/problem/lpath/",
+   "demo_algo": "pk_pso",
+   "tier": "实测"
+  },
+  {
+   "algo": "fwa",
+   "problem": "lpath",
+   "how": "烟花算法 FWA（排列）",
+   "evidence": "同等评估预算实测（每次约 10543 次评估，3 个种子的中位数）：本算法 -160，随机搜索 -128（越小越好）",
+   "demo": "/problem/lpath/",
+   "demo_algo": "pk_fwa",
+   "tier": "实测"
+  },
+  {
+   "algo": "ica",
+   "problem": "lpath",
+   "how": "帝国竞争 ICA（排列）",
+   "evidence": "同等评估预算实测（每次约 5790 次评估，3 个种子的中位数）：本算法 -160，随机搜索 -128（越小越好）",
+   "demo": "/problem/lpath/",
+   "demo_algo": "pk_ica",
+   "tier": "实测"
+  },
+  {
+   "algo": "jaya",
+   "problem": "lpath",
+   "how": "Jaya（排列）",
+   "evidence": "同等评估预算实测（每次约 6030 次评估，3 个种子的中位数）：本算法 -159，随机搜索 -128（越小越好）",
+   "demo": "/problem/lpath/",
+   "demo_algo": "pk_jaya",
+   "tier": "实测"
+  },
+  {
+   "algo": "fpa",
+   "problem": "lpath",
+   "how": "花朵授粉 FPA（排列）",
+   "evidence": "同等评估预算实测（每次约 6030 次评估，3 个种子的中位数）：本算法 -159，随机搜索 -128（越小越好）",
+   "demo": "/problem/lpath/",
+   "demo_algo": "pk_fpa",
+   "tier": "实测"
+  },
+  {
+   "algo": "fa",
+   "problem": "lpath",
+   "how": "萤火虫 FA（排列）",
+   "evidence": "同等评估预算实测（每次约 802 次评估，3 个种子的中位数）：本算法 -116，随机搜索 -95（越小越好）",
+   "demo": "/problem/lpath/",
+   "demo_algo": "pk_fa",
+   "tier": "实测"
+  },
+  {
+   "algo": "sa",
+   "problem": "lrp",
+   "how": "模拟退火 SA",
+   "evidence": "同等评估预算实测（每次约 205 次评估，3 个种子的中位数）：本算法 710.1，随机搜索 769.6（越小越好）",
+   "demo": "/problem/lrp/",
+   "demo_algo": "sa",
+   "tier": "实测"
+  },
+  {
+   "algo": "fa",
+   "problem": "lrp",
+   "how": "萤火虫 FA（排列）",
+   "evidence": "同等评估预算实测（每次约 585 次评估，3 个种子的中位数）：本算法 728.9，随机搜索 777.8（越小越好）",
+   "demo": "/problem/lrp/",
+   "demo_algo": "pk_fa",
+   "tier": "实测"
+  },
+  {
+   "algo": "ao",
+   "problem": "lrp",
+   "how": "天鹰 AO（排列）",
+   "evidence": "同等评估预算实测（每次约 6030 次评估，3 个种子的中位数）：本算法 728.9，随机搜索 739（越小越好）",
+   "demo": "/problem/lrp/",
+   "demo_algo": "pk_ao",
+   "tier": "实测"
+  },
+  {
+   "algo": "kh",
+   "problem": "lrp",
+   "how": "磷虾群 KH（排列）",
+   "evidence": "同等评估预算实测（每次约 6230 次评估，3 个种子的中位数）：本算法 729.6，随机搜索 739（越小越好）",
+   "demo": "/problem/lrp/",
+   "demo_algo": "pk_kh",
+   "tier": "实测"
+  },
+  {
+   "algo": "ica",
+   "problem": "lrp",
+   "how": "帝国竞争 ICA（排列）",
+   "evidence": "同等评估预算实测（每次约 5800 次评估，3 个种子的中位数）：本算法 729.6，随机搜索 739（越小越好）",
+   "demo": "/problem/lrp/",
+   "demo_algo": "pk_ica",
+   "tier": "实测"
+  },
+  {
+   "algo": "ssa",
+   "problem": "lrp",
+   "how": "麻雀搜索 SSA（排列）",
+   "evidence": "同等评估预算实测（每次约 6630 次评估，3 个种子的中位数）：本算法 730.6，随机搜索 739（越小越好）",
+   "demo": "/problem/lrp/",
+   "demo_algo": "pk_ssa",
+   "tier": "实测"
+  },
+  {
+   "algo": "ga",
+   "problem": "lrp",
+   "how": "遗传算法 GA（排列）",
+   "evidence": "同等评估预算实测（每次约 6030 次评估，3 个种子的中位数）：本算法 705.2，随机搜索 713（越小越好）",
+   "demo": "/problem/lrp/",
+   "demo_algo": "ga",
+   "tier": "实测"
+  },
+  {
+   "algo": "pso",
+   "problem": "lrp",
+   "how": "粒子群 PSO（排列）",
+   "evidence": "同等评估预算实测（每次约 6030 次评估，3 个种子的中位数）：本算法 705.2，随机搜索 713（越小越好）",
+   "demo": "/problem/lrp/",
+   "demo_algo": "pk_pso",
+   "tier": "实测"
+  },
+  {
+   "algo": "jaya",
+   "problem": "lrp",
+   "how": "Jaya（排列）",
+   "evidence": "同等评估预算实测（每次约 6030 次评估，3 个种子的中位数）：本算法 705.2，随机搜索 713（越小越好）",
+   "demo": "/problem/lrp/",
+   "demo_algo": "pk_jaya",
+   "tier": "实测"
+  },
+  {
+   "algo": "alo",
+   "problem": "lrp",
+   "how": "蚁狮优化 ALO（排列）",
+   "evidence": "同等评估预算实测（每次约 6030 次评估，3 个种子的中位数）：本算法 705.2，随机搜索 713（越小越好）",
+   "demo": "/problem/lrp/",
+   "demo_algo": "pk_alo",
+   "tier": "实测"
+  },
+  {
+   "algo": "salp",
+   "problem": "lrp",
+   "how": "樽海鞘群 Salp（排列）",
+   "evidence": "同等评估预算实测（每次约 6030 次评估，3 个种子的中位数）：本算法 705.2，随机搜索 713（越小越好）",
+   "demo": "/problem/lrp/",
+   "demo_algo": "pk_salp",
+   "tier": "实测"
+  },
+  {
+   "algo": "mpa",
+   "problem": "lrp",
+   "how": "海洋掠食者 MPA（排列）",
+   "evidence": "同等评估预算实测（每次约 12030 次评估，3 个种子的中位数）：本算法 705.2，随机搜索 713（越小越好）",
+   "demo": "/problem/lrp/",
+   "demo_algo": "pk_mpa",
+   "tier": "实测"
+  },
+  {
+   "algo": "sa",
+   "problem": "maxcut",
+   "how": "模拟退火 SA",
+   "evidence": "同等评估预算实测（每次约 207 次评估，3 个种子的中位数）：本算法 -149，随机搜索 -141（越小越好）",
+   "demo": "/problem/maxcut/",
+   "demo_algo": "sa",
+   "tier": "实测"
+  },
+  {
+   "algo": "ts",
+   "problem": "maxcut",
+   "how": "禁忌搜索 TS",
+   "evidence": "同等评估预算实测（每次约 8001 次评估，3 个种子的中位数）：本算法 -149，随机搜索 -148（越小越好）",
+   "demo": "/problem/maxcut/",
+   "demo_algo": "ts",
+   "tier": "实测"
+  },
+  {
+   "algo": "ga",
+   "problem": "maxcut",
+   "how": "遗传 GA",
+   "evidence": "同等评估预算实测（每次约 6030 次评估，3 个种子的中位数）：本算法 -149，随机搜索 -148（越小越好）",
+   "demo": "/problem/maxcut/",
+   "demo_algo": "ga",
+   "tier": "实测"
+  },
+  {
+   "algo": "de",
+   "problem": "maxcut",
+   "how": "二进制差分 DE",
+   "evidence": "同等评估预算实测（每次约 6030 次评估，3 个种子的中位数）：本算法 -149，随机搜索 -148（越小越好）",
+   "demo": "/problem/maxcut/",
+   "demo_algo": "de",
+   "tier": "实测"
+  },
+  {
+   "algo": "cs",
+   "problem": "maxcut",
+   "how": "布谷鸟 CS",
+   "evidence": "同等评估预算实测（每次约 7514 次评估，3 个种子的中位数）：本算法 -149，随机搜索 -148（越小越好）",
+   "demo": "/problem/maxcut/",
+   "demo_algo": "cs",
+   "tier": "实测"
+  },
+  {
+   "algo": "eo",
+   "problem": "maxcut",
+   "how": "均衡 EO（位）",
+   "evidence": "同等评估预算实测（每次约 6030 次评估，3 个种子的中位数）：本算法 -149，随机搜索 -148（越小越好）",
+   "demo": "/problem/maxcut/",
+   "demo_algo": "bv_eo",
+   "tier": "实测"
+  },
+  {
+   "algo": "ao",
+   "problem": "maxcut",
+   "how": "天鹰 AO（位）",
+   "evidence": "同等评估预算实测（每次约 6030 次评估，3 个种子的中位数）：本算法 -149，随机搜索 -148（越小越好）",
+   "demo": "/problem/maxcut/",
+   "demo_algo": "bv_ao",
+   "tier": "实测"
+  },
+  {
+   "algo": "alo",
+   "problem": "maxcut",
+   "how": "蚁狮优化 ALO（位）",
+   "evidence": "同等评估预算实测（每次约 6030 次评估，3 个种子的中位数）：本算法 -149，随机搜索 -148（越小越好）",
+   "demo": "/problem/maxcut/",
+   "demo_algo": "bv_alo",
+   "tier": "实测"
+  },
+  {
+   "algo": "salp",
+   "problem": "maxcut",
+   "how": "樽海鞘群 Salp（位）",
+   "evidence": "同等评估预算实测（每次约 6030 次评估，3 个种子的中位数）：本算法 -149，随机搜索 -148（越小越好）",
+   "demo": "/problem/maxcut/",
+   "demo_algo": "bv_salp",
+   "tier": "实测"
+  },
+  {
+   "algo": "fpa",
+   "problem": "maxcut",
+   "how": "花朵授粉 FPA（位）",
+   "evidence": "同等评估预算实测（每次约 6030 次评估，3 个种子的中位数）：本算法 -149，随机搜索 -148（越小越好）",
+   "demo": "/problem/maxcut/",
+   "demo_algo": "bv_fpa",
+   "tier": "实测"
+  },
+  {
+   "algo": "cscrow",
+   "problem": "maxcut",
+   "how": "乌鸦搜索 CSA（位）",
+   "evidence": "同等评估预算实测（每次约 6030 次评估，3 个种子的中位数）：本算法 -149，随机搜索 -148（越小越好）",
+   "demo": "/problem/maxcut/",
+   "demo_algo": "bv_cscrow",
+   "tier": "实测"
+  },
+  {
+   "algo": "ica",
+   "problem": "maxcut",
+   "how": "帝国竞争 ICA（位）",
+   "evidence": "同等评估预算实测（每次约 5780 次评估，3 个种子的中位数）：本算法 -149，随机搜索 -148（越小越好）",
+   "demo": "/problem/maxcut/",
+   "demo_algo": "bv_ica",
+   "tier": "实测"
+  },
+  {
+   "algo": "sos",
+   "problem": "maxflow",
+   "how": "共生搜索 SOS",
+   "evidence": "同等评估预算实测（每次约 24030 次评估，3 个种子的中位数）：本算法 -18.69，随机搜索 84.42（越小越好）",
+   "demo": "/problem/maxflow/",
+   "demo_algo": "sos",
+   "tier": "实测"
+  },
+  {
+   "algo": "ica",
+   "problem": "maxflow",
+   "how": "帝国竞争 ICA",
+   "evidence": "同等评估预算实测（每次约 5796 次评估，3 个种子的中位数）：本算法 -14.66，随机搜索 84.42（越小越好）",
+   "demo": "/problem/maxflow/",
+   "demo_algo": "ica",
+   "tier": "实测"
+  },
+  {
+   "algo": "ils",
+   "problem": "maxflow",
+   "how": "迭代局部搜索 ILS",
+   "evidence": "同等评估预算实测（每次约 6794 次评估，3 个种子的中位数）：本算法 -12.1，随机搜索 84.42（越小越好）",
+   "demo": "/problem/maxflow/",
+   "demo_algo": "ils",
+   "tier": "实测"
+  },
+  {
+   "algo": "ais",
+   "problem": "maxflow",
+   "how": "克隆选择 AIS",
+   "evidence": "同等评估预算实测（每次约 7430 次评估，3 个种子的中位数）：本算法 -11.85，随机搜索 84.42（越小越好）",
+   "demo": "/problem/maxflow/",
+   "demo_algo": "ais",
+   "tier": "实测"
+  },
+  {
+   "algo": "kh",
+   "problem": "maxflow",
+   "how": "磷虾群 KH",
+   "evidence": "同等评估预算实测（每次约 6230 次评估，3 个种子的中位数）：本算法 -11.26，随机搜索 84.42（越小越好）",
+   "demo": "/problem/maxflow/",
+   "demo_algo": "kh",
+   "tier": "实测"
+  },
+  {
+   "algo": "mpa",
+   "problem": "maxflow",
+   "how": "海洋掠食者 MPA",
+   "evidence": "同等评估预算实测（每次约 12030 次评估，3 个种子的中位数）：本算法 -11.21，随机搜索 84.42（越小越好）",
+   "demo": "/problem/maxflow/",
+   "demo_algo": "mpa",
+   "tier": "实测"
+  },
+  {
+   "algo": "vns",
+   "problem": "maxflow",
+   "how": "变邻域搜索 VNS",
+   "evidence": "同等评估预算实测（每次约 3848 次评估，3 个种子的中位数）：本算法 -10.17，随机搜索 84.42（越小越好）",
+   "demo": "/problem/maxflow/",
+   "demo_algo": "vns",
+   "tier": "实测"
+  },
+  {
+   "algo": "tlbo",
+   "problem": "maxflow",
+   "how": "教与学 TLBO",
+   "evidence": "同等评估预算实测（每次约 9030 次评估，3 个种子的中位数）：本算法 -9.207，随机搜索 84.42（越小越好）",
+   "demo": "/problem/maxflow/",
+   "demo_algo": "tlbo",
+   "tier": "实测"
+  },
+  {
+   "algo": "eo",
+   "problem": "maxflow",
+   "how": "均衡优化 EO",
+   "evidence": "同等评估预算实测（每次约 6030 次评估，3 个种子的中位数）：本算法 -9.095，随机搜索 84.42（越小越好）",
+   "demo": "/problem/maxflow/",
+   "demo_algo": "eo",
+   "tier": "实测"
+  },
+  {
+   "algo": "de",
+   "problem": "maxflow",
+   "how": "差分进化 DE",
+   "evidence": "同等评估预算实测（每次约 6030 次评估，3 个种子的中位数）：本算法 -7.599，随机搜索 84.42（越小越好）",
+   "demo": "/problem/maxflow/",
+   "demo_algo": "de",
+   "tier": "实测"
+  },
+  {
+   "algo": "alo",
+   "problem": "maxflow",
+   "how": "蚁狮优化 ALO",
+   "evidence": "同等评估预算实测（每次约 6030 次评估，3 个种子的中位数）：本算法 -5.331，随机搜索 84.42（越小越好）",
+   "demo": "/problem/maxflow/",
+   "demo_algo": "alo",
+   "tier": "实测"
+  },
+  {
+   "algo": "bfo",
+   "problem": "maxflow",
+   "how": "细菌觅食 BFO",
+   "evidence": "同等评估预算实测（每次约 9004 次评估，3 个种子的中位数）：本算法 -4.696，随机搜索 84.42（越小越好）",
+   "demo": "/problem/maxflow/",
+   "demo_algo": "bfo",
+   "tier": "实测"
+  },
+  {
+   "algo": "ils",
+   "problem": "mdvrp",
+   "how": "迭代局部搜索 ILS",
+   "evidence": "同等评估预算实测（每次约 4953 次评估，3 个种子的中位数）：本算法 328.2，随机搜索 463（越小越好）",
+   "demo": "/problem/mdvrp/",
+   "demo_algo": "ils",
+   "tier": "实测"
+  },
+  {
+   "algo": "vns",
+   "problem": "mdvrp",
+   "how": "变邻域搜索 VNS",
+   "evidence": "同等评估预算实测（每次约 3618 次评估，3 个种子的中位数）：本算法 336.5，随机搜索 463（越小越好）",
+   "demo": "/problem/mdvrp/",
+   "demo_algo": "vns",
+   "tier": "实测"
+  },
+  {
+   "algo": "aco",
+   "problem": "mdvrp",
+   "how": "蚁群 ACO",
+   "evidence": "同等评估预算实测（每次约 6000 次评估，3 个种子的中位数）：本算法 337.1，随机搜索 451.8（越小越好）",
+   "demo": "/problem/mdvrp/",
+   "demo_algo": "aco",
+   "tier": "实测"
+  },
+  {
+   "algo": "jaya",
+   "problem": "mdvrp",
+   "how": "Jaya（排列）",
+   "evidence": "同等评估预算实测（每次约 6030 次评估，3 个种子的中位数）：本算法 340，随机搜索 451.8（越小越好）",
+   "demo": "/problem/mdvrp/",
+   "demo_algo": "pk_jaya",
+   "tier": "实测"
+  },
+  {
+   "algo": "alo",
+   "problem": "mdvrp",
+   "how": "蚁狮优化 ALO（排列）",
+   "evidence": "同等评估预算实测（每次约 6030 次评估，3 个种子的中位数）：本算法 356.3，随机搜索 451.8（越小越好）",
+   "demo": "/problem/mdvrp/",
+   "demo_algo": "pk_alo",
+   "tier": "实测"
+  },
+  {
+   "algo": "mfo",
+   "problem": "mdvrp",
+   "how": "蛾焰 MFO（排列）",
+   "evidence": "同等评估预算实测（每次约 6030 次评估，3 个种子的中位数）：本算法 358.2，随机搜索 451.8（越小越好）",
+   "demo": "/problem/mdvrp/",
+   "demo_algo": "pk_mfo",
+   "tier": "实测"
+  },
+  {
+   "algo": "sfla",
+   "problem": "mdvrp",
+   "how": "混合蛙跳 SFLA（排列）",
+   "evidence": "同等评估预算实测（每次约 5972 次评估，3 个种子的中位数）：本算法 363.8，随机搜索 451.8（越小越好）",
+   "demo": "/problem/mdvrp/",
+   "demo_algo": "pk_sfla",
+   "tier": "实测"
+  },
+  {
+   "algo": "ga",
+   "problem": "mdvrp",
+   "how": "遗传算法 GA（排列）",
+   "evidence": "同等评估预算实测（每次约 6030 次评估，3 个种子的中位数）：本算法 365.4，随机搜索 451.8（越小越好）",
+   "demo": "/problem/mdvrp/",
+   "demo_algo": "ga",
+   "tier": "实测"
+  },
+  {
+   "algo": "ica",
+   "problem": "mdvrp",
+   "how": "帝国竞争 ICA（排列）",
+   "evidence": "同等评估预算实测（每次约 5803 次评估，3 个种子的中位数）：本算法 365.4，随机搜索 451.8（越小越好）",
+   "demo": "/problem/mdvrp/",
+   "demo_algo": "pk_ica",
+   "tier": "实测"
+  },
+  {
+   "algo": "bbo",
+   "problem": "mdvrp",
+   "how": "生物地理 BBO（排列）",
+   "evidence": "同等评估预算实测（每次约 6030 次评估，3 个种子的中位数）：本算法 365.4，随机搜索 451.8（越小越好）",
+   "demo": "/problem/mdvrp/",
+   "demo_algo": "pk_bbo",
+   "tier": "实测"
+  },
+  {
+   "algo": "fpa",
+   "problem": "mdvrp",
+   "how": "花朵授粉 FPA（排列）",
+   "evidence": "同等评估预算实测（每次约 6030 次评估，3 个种子的中位数）：本算法 369.3，随机搜索 451.8（越小越好）",
+   "demo": "/problem/mdvrp/",
+   "demo_algo": "pk_fpa",
+   "tier": "实测"
+  },
+  {
+   "algo": "fa",
+   "problem": "mdvrp",
+   "how": "萤火虫 FA（排列）",
+   "evidence": "同等评估预算实测（每次约 844 次评估，3 个种子的中位数）：本算法 402，随机搜索 489.7（越小越好）",
+   "demo": "/problem/mdvrp/",
+   "demo_algo": "pk_fa",
+   "tier": "实测"
+  },
+  {
+   "algo": "ils",
+   "problem": "mincostflow",
+   "how": "迭代局部搜索 ILS",
+   "evidence": "同等评估预算实测（每次约 8635 次评估，3 个种子的中位数）：本算法 277.8，随机搜索 2661（越小越好）",
+   "demo": "/problem/mincostflow/",
+   "demo_algo": "ils",
+   "tier": "实测"
+  },
+  {
+   "algo": "sos",
+   "problem": "mincostflow",
+   "how": "共生搜索 SOS",
+   "evidence": "同等评估预算实测（每次约 24030 次评估，3 个种子的中位数）：本算法 278.1，随机搜索 2435（越小越好）",
+   "demo": "/problem/mincostflow/",
+   "demo_algo": "sos",
+   "tier": "实测"
+  },
+  {
+   "algo": "kh",
+   "problem": "mincostflow",
+   "how": "磷虾群 KH",
+   "evidence": "同等评估预算实测（每次约 6230 次评估，3 个种子的中位数）：本算法 326.7，随机搜索 2661（越小越好）",
+   "demo": "/problem/mincostflow/",
+   "demo_algo": "kh",
+   "tier": "实测"
+  },
+  {
+   "algo": "ica",
+   "problem": "mincostflow",
+   "how": "帝国竞争 ICA",
+   "evidence": "同等评估预算实测（每次约 5798 次评估，3 个种子的中位数）：本算法 361.1，随机搜索 2661（越小越好）",
+   "demo": "/problem/mincostflow/",
+   "demo_algo": "ica",
+   "tier": "实测"
+  },
+  {
+   "algo": "mpa",
+   "problem": "mincostflow",
+   "how": "海洋掠食者 MPA",
+   "evidence": "同等评估预算实测（每次约 12030 次评估，3 个种子的中位数）：本算法 384，随机搜索 2661（越小越好）",
+   "demo": "/problem/mincostflow/",
+   "demo_algo": "mpa",
+   "tier": "实测"
+  },
+  {
+   "algo": "de",
+   "problem": "mincostflow",
+   "how": "差分进化 DE",
+   "evidence": "同等评估预算实测（每次约 6030 次评估，3 个种子的中位数）：本算法 399.6，随机搜索 2661（越小越好）",
+   "demo": "/problem/mincostflow/",
+   "demo_algo": "de",
+   "tier": "实测"
+  },
+  {
+   "algo": "vns",
+   "problem": "mincostflow",
+   "how": "变邻域搜索 VNS",
+   "evidence": "同等评估预算实测（每次约 4529 次评估，3 个种子的中位数）：本算法 411.3，随机搜索 2661（越小越好）",
+   "demo": "/problem/mincostflow/",
+   "demo_algo": "vns",
+   "tier": "实测"
+  },
+  {
+   "algo": "salp",
+   "problem": "mincostflow",
+   "how": "樽海鞘群 Salp",
+   "evidence": "同等评估预算实测（每次约 6030 次评估，3 个种子的中位数）：本算法 446，随机搜索 2661（越小越好）",
+   "demo": "/problem/mincostflow/",
+   "demo_algo": "salp",
+   "tier": "实测"
+  },
+  {
+   "algo": "alo",
+   "problem": "mincostflow",
+   "how": "蚁狮优化 ALO",
+   "evidence": "同等评估预算实测（每次约 6030 次评估，3 个种子的中位数）：本算法 446，随机搜索 2661（越小越好）",
+   "demo": "/problem/mincostflow/",
+   "demo_algo": "alo",
+   "tier": "实测"
+  },
+  {
+   "algo": "eo",
+   "problem": "mincostflow",
+   "how": "均衡优化 EO",
+   "evidence": "同等评估预算实测（每次约 6030 次评估，3 个种子的中位数）：本算法 448.8，随机搜索 2661（越小越好）",
+   "demo": "/problem/mincostflow/",
+   "demo_algo": "eo",
+   "tier": "实测"
+  },
+  {
+   "algo": "ais",
+   "problem": "mincostflow",
+   "how": "克隆选择 AIS",
+   "evidence": "同等评估预算实测（每次约 7430 次评估，3 个种子的中位数）：本算法 529.8，随机搜索 2661（越小越好）",
+   "demo": "/problem/mincostflow/",
+   "demo_algo": "ais",
+   "tier": "实测"
+  },
+  {
+   "algo": "bbo",
+   "problem": "mincostflow",
+   "how": "生物地理 BBO",
+   "evidence": "同等评估预算实测（每次约 6030 次评估，3 个种子的中位数）：本算法 546.1，随机搜索 2661（越小越好）",
+   "demo": "/problem/mincostflow/",
+   "demo_algo": "bbo",
+   "tier": "实测"
+  },
+  {
+   "algo": "gwo",
+   "problem": "mmo",
+   "how": "灰狼 GWO",
+   "evidence": "同等评估预算实测（每次约 6030 次评估，3 个种子的中位数）：本算法 0，随机搜索 37.99（越小越好）",
+   "demo": "/problem/mmo/",
+   "demo_algo": "gwo",
+   "tier": "实测"
+  },
+  {
+   "algo": "woa",
+   "problem": "mmo",
+   "how": "鲸鱼 WOA",
+   "evidence": "同等评估预算实测（每次约 6030 次评估，3 个种子的中位数）：本算法 0，随机搜索 37.99（越小越好）",
+   "demo": "/problem/mmo/",
+   "demo_algo": "woa",
+   "tier": "实测"
+  },
+  {
+   "algo": "sca",
+   "problem": "mmo",
+   "how": "正弦余弦 SCA",
+   "evidence": "同等评估预算实测（每次约 6030 次评估，3 个种子的中位数）：本算法 0，随机搜索 37.99（越小越好）",
+   "demo": "/problem/mmo/",
+   "demo_algo": "sca",
+   "tier": "实测"
+  },
+  {
+   "algo": "ao",
+   "problem": "mmo",
+   "how": "天鹰 AO",
+   "evidence": "同等评估预算实测（每次约 6030 次评估，3 个种子的中位数）：本算法 0，随机搜索 37.99（越小越好）",
+   "demo": "/problem/mmo/",
+   "demo_algo": "ao",
+   "tier": "实测"
+  },
+  {
+   "algo": "sma",
+   "problem": "mmo",
+   "how": "黏菌 SMA",
+   "evidence": "同等评估预算实测（每次约 6030 次评估，3 个种子的中位数）：本算法 0，随机搜索 37.99（越小越好）",
+   "demo": "/problem/mmo/",
+   "demo_algo": "sma",
+   "tier": "实测"
+  },
+  {
+   "algo": "hho",
+   "problem": "mmo",
+   "how": "哈里斯鹰 HHO",
+   "evidence": "同等评估预算实测（每次约 7977 次评估，3 个种子的中位数）：本算法 0，随机搜索 37.99（越小越好）",
+   "demo": "/problem/mmo/",
+   "demo_algo": "hho",
+   "tier": "实测"
+  },
+  {
+   "algo": "ssa",
+   "problem": "mmo",
+   "how": "麻雀搜索 SSA",
+   "evidence": "同等评估预算实测（每次约 6630 次评估，3 个种子的中位数）：本算法 0，随机搜索 37.99（越小越好）",
+   "demo": "/problem/mmo/",
+   "demo_algo": "ssa",
+   "tier": "实测"
+  },
+  {
+   "algo": "boa",
+   "problem": "mmo",
+   "how": "蝴蝶优化 BOA",
+   "evidence": "同等评估预算实测（每次约 6030 次评估，3 个种子的中位数）：本算法 0，随机搜索 37.99（越小越好）",
+   "demo": "/problem/mmo/",
+   "demo_algo": "boa",
+   "tier": "实测"
+  },
+  {
+   "algo": "fwa",
+   "problem": "mmo",
+   "how": "烟花算法 FWA",
+   "evidence": "同等评估预算实测（每次约 10432 次评估，3 个种子的中位数）：本算法 0，随机搜索 37.99（越小越好）",
+   "demo": "/problem/mmo/",
+   "demo_algo": "fwa",
+   "tier": "实测"
+  },
+  {
+   "algo": "sos",
+   "problem": "mmo",
+   "how": "共生搜索 SOS",
+   "evidence": "同等评估预算实测（每次约 24030 次评估，3 个种子的中位数）：本算法 0，随机搜索 37.99（越小越好）",
+   "demo": "/problem/mmo/",
+   "demo_algo": "sos",
+   "tier": "实测"
+  },
+  {
+   "algo": "ica",
+   "problem": "mmo",
+   "how": "帝国竞争 ICA",
+   "evidence": "同等评估预算实测（每次约 5793 次评估，3 个种子的中位数）：本算法 0.001，随机搜索 37.99（越小越好）",
+   "demo": "/problem/mmo/",
+   "demo_algo": "ica",
+   "tier": "实测"
+  },
+  {
+   "algo": "mpa",
+   "problem": "mmo",
+   "how": "海洋掠食者 MPA",
+   "evidence": "同等评估预算实测（每次约 12030 次评估，3 个种子的中位数）：本算法 0.002，随机搜索 37.99（越小越好）",
+   "demo": "/problem/mmo/",
+   "demo_algo": "mpa",
+   "tier": "实测"
+  },
+  {
+   "algo": "jaya",
+   "problem": "msa",
+   "how": "Jaya（位）",
+   "evidence": "同等评估预算实测（每次约 6030 次评估，3 个种子的中位数）：本算法 -25，随机搜索 0（越小越好）",
+   "demo": "/problem/msa/",
+   "demo_algo": "bv_jaya",
+   "tier": "实测"
+  },
+  {
+   "algo": "eo",
+   "problem": "msa",
+   "how": "均衡 EO（位）",
+   "evidence": "同等评估预算实测（每次约 6030 次评估，3 个种子的中位数）：本算法 -25，随机搜索 0（越小越好）",
+   "demo": "/problem/msa/",
+   "demo_algo": "bv_eo",
+   "tier": "实测"
+  },
+  {
+   "algo": "cem",
+   "problem": "msa",
+   "how": "交叉熵 CEM（位）",
+   "evidence": "同等评估预算实测（每次约 6000 次评估，3 个种子的中位数）：本算法 -24，随机搜索 0（越小越好）",
+   "demo": "/problem/msa/",
+   "demo_algo": "bv_cem",
+   "tier": "实测"
+  },
+  {
+   "algo": "hho",
+   "problem": "msa",
+   "how": "哈里斯鹰 HHO（位）",
+   "evidence": "同等评估预算实测（每次约 8014 次评估，3 个种子的中位数）：本算法 -19，随机搜索 0（越小越好）",
+   "demo": "/problem/msa/",
+   "demo_algo": "bv_hho",
+   "tier": "实测"
+  },
+  {
+   "algo": "sfla",
+   "problem": "msa",
+   "how": "混合蛙跳 SFLA（位）",
+   "evidence": "同等评估预算实测（每次约 6083 次评估，3 个种子的中位数）：本算法 -19，随机搜索 0（越小越好）",
+   "demo": "/problem/msa/",
+   "demo_algo": "bv_sfla",
+   "tier": "实测"
+  },
+  {
+   "algo": "aco",
+   "problem": "msa",
+   "how": "蚁群 ACO",
+   "evidence": "同等评估预算实测（每次约 6000 次评估，3 个种子的中位数）：本算法 -19，随机搜索 0（越小越好）",
+   "demo": "/problem/msa/",
+   "demo_algo": "aco",
+   "tier": "实测"
+  },
+  {
+   "algo": "ts",
+   "problem": "msa",
+   "how": "禁忌搜索 TS",
+   "evidence": "同等评估预算实测（每次约 8001 次评估，3 个种子的中位数）：本算法 -18，随机搜索 0（越小越好）",
+   "demo": "/problem/msa/",
+   "demo_algo": "ts",
+   "tier": "实测"
+  },
+  {
+   "algo": "de",
+   "problem": "msa",
+   "how": "二进制差分 DE",
+   "evidence": "同等评估预算实测（每次约 6030 次评估，3 个种子的中位数）：本算法 -17，随机搜索 0（越小越好）",
+   "demo": "/problem/msa/",
+   "demo_algo": "de",
+   "tier": "实测"
+  },
+  {
+   "algo": "mfo",
+   "problem": "msa",
+   "how": "蛾焰 MFO（位）",
+   "evidence": "同等评估预算实测（每次约 6030 次评估，3 个种子的中位数）：本算法 -17，随机搜索 0（越小越好）",
+   "demo": "/problem/msa/",
+   "demo_algo": "bv_mfo",
+   "tier": "实测"
+  },
+  {
+   "algo": "bbo",
+   "problem": "msa",
+   "how": "生物地理 BBO（位）",
+   "evidence": "同等评估预算实测（每次约 6030 次评估，3 个种子的中位数）：本算法 -17，随机搜索 0（越小越好）",
+   "demo": "/problem/msa/",
+   "demo_algo": "bv_bbo",
+   "tier": "实测"
+  },
+  {
+   "algo": "ica",
+   "problem": "msa",
+   "how": "帝国竞争 ICA（位）",
+   "evidence": "同等评估预算实测（每次约 5807 次评估，3 个种子的中位数）：本算法 -16，随机搜索 0（越小越好）",
+   "demo": "/problem/msa/",
+   "demo_algo": "bv_ica",
+   "tier": "实测"
+  },
+  {
+   "algo": "tlbo",
+   "problem": "msa",
+   "how": "TLBO（位）",
+   "evidence": "同等评估预算实测（每次约 9030 次评估，3 个种子的中位数）：本算法 -14，随机搜索 0（越小越好）",
+   "demo": "/problem/msa/",
+   "demo_algo": "bv_tlbo",
+   "tier": "实测"
+  },
+  {
+   "algo": "fa",
+   "problem": "mst",
+   "how": "萤火虫 FA（排列）",
+   "evidence": "同等评估预算实测（每次约 347 次评估，3 个种子的中位数）：本算法 43，随机搜索 57（越小越好）",
+   "demo": "/problem/mst/",
+   "demo_algo": "pk_fa",
+   "tier": "实测"
+  },
+  {
+   "algo": "cs",
+   "problem": "mst",
+   "how": "布谷鸟 CS",
+   "evidence": "同等评估预算实测（每次约 283 次评估，3 个种子的中位数）：本算法 50，随机搜索 60（越小越好）",
+   "demo": "/problem/mst/",
+   "demo_algo": "cs",
+   "tier": "实测"
+  },
+  {
+   "algo": "sa",
+   "problem": "mst",
+   "how": "模拟退火 SA",
+   "evidence": "同等评估预算实测（每次约 206 次评估，3 个种子的中位数）：本算法 52，随机搜索 60（越小越好）",
+   "demo": "/problem/mst/",
+   "demo_algo": "sa",
+   "tier": "实测"
+  },
+  {
+   "algo": "ils",
+   "problem": "mst",
+   "how": "迭代局部搜索 ILS",
+   "evidence": "同等评估预算实测（每次约 3402 次评估，3 个种子的中位数）：本算法 43，随机搜索 49（越小越好）",
+   "demo": "/problem/mst/",
+   "demo_algo": "ils",
+   "tier": "实测"
+  },
+  {
+   "algo": "vns",
+   "problem": "mst",
+   "how": "变邻域搜索 VNS",
+   "evidence": "同等评估预算实测（每次约 2322 次评估，3 个种子的中位数）：本算法 43，随机搜索 49（越小越好）",
+   "demo": "/problem/mst/",
+   "demo_algo": "vns",
+   "tier": "实测"
+  },
+  {
+   "algo": "ts",
+   "problem": "mst",
+   "how": "禁忌搜索 TS（排列）",
+   "evidence": "同等评估预算实测（每次约 9601 次评估，3 个种子的中位数）：本算法 43，随机搜索 46（越小越好）",
+   "demo": "/problem/mst/",
+   "demo_algo": "ts",
+   "tier": "实测"
+  },
+  {
+   "algo": "ga",
+   "problem": "mst",
+   "how": "遗传算法 GA（排列）",
+   "evidence": "同等评估预算实测（每次约 6030 次评估，3 个种子的中位数）：本算法 43，随机搜索 46（越小越好）",
+   "demo": "/problem/mst/",
+   "demo_algo": "ga",
+   "tier": "实测"
+  },
+  {
+   "algo": "de",
+   "problem": "mst",
+   "how": "差分 DE",
+   "evidence": "同等评估预算实测（每次约 6030 次评估，3 个种子的中位数）：本算法 43，随机搜索 46（越小越好）",
+   "demo": "/problem/mst/",
+   "demo_algo": "de",
+   "tier": "实测"
+  },
+  {
+   "algo": "pso",
+   "problem": "mst",
+   "how": "粒子群 PSO（排列）",
+   "evidence": "同等评估预算实测（每次约 6030 次评估，3 个种子的中位数）：本算法 43，随机搜索 46（越小越好）",
+   "demo": "/problem/mst/",
+   "demo_algo": "pk_pso",
+   "tier": "实测"
+  },
+  {
+   "algo": "jaya",
+   "problem": "mst",
+   "how": "Jaya（排列）",
+   "evidence": "同等评估预算实测（每次约 6030 次评估，3 个种子的中位数）：本算法 43，随机搜索 46（越小越好）",
+   "demo": "/problem/mst/",
+   "demo_algo": "pk_jaya",
+   "tier": "实测"
+  },
+  {
+   "algo": "tlbo",
+   "problem": "mst",
+   "how": "TLBO（排列）",
+   "evidence": "同等评估预算实测（每次约 9030 次评估，3 个种子的中位数）：本算法 43，随机搜索 46（越小越好）",
+   "demo": "/problem/mst/",
+   "demo_algo": "pk_tlbo",
+   "tier": "实测"
+  },
+  {
+   "algo": "cem",
+   "problem": "mst",
+   "how": "交叉熵 CEM（排列）",
+   "evidence": "同等评估预算实测（每次约 6000 次评估，3 个种子的中位数）：本算法 43，随机搜索 46（越小越好）",
+   "demo": "/problem/mst/",
+   "demo_algo": "pk_cem",
+   "tier": "实测"
+  },
+  {
+   "algo": "sos",
+   "problem": "nbbb",
+   "how": "共生搜索 SOS",
+   "evidence": "同等评估预算实测（每次约 24030 次评估，3 个种子的中位数）：本算法 -1.705，随机搜索 38.12（越小越好）",
+   "demo": "/problem/nbbb/",
+   "demo_algo": "sos",
+   "tier": "实测"
+  },
+  {
+   "algo": "sca",
+   "problem": "nbbb",
+   "how": "正弦余弦 SCA",
+   "evidence": "同等评估预算实测（每次约 6030 次评估，3 个种子的中位数）：本算法 -1.704，随机搜索 38.12（越小越好）",
+   "demo": "/problem/nbbb/",
+   "demo_algo": "sca",
+   "tier": "实测"
+  },
+  {
+   "algo": "ssa",
+   "problem": "nbbb",
+   "how": "麻雀搜索 SSA",
+   "evidence": "同等评估预算实测（每次约 6630 次评估，3 个种子的中位数）：本算法 -1.704，随机搜索 38.12（越小越好）",
+   "demo": "/problem/nbbb/",
+   "demo_algo": "ssa",
+   "tier": "实测"
+  },
+  {
+   "algo": "hho",
+   "problem": "nbbb",
+   "how": "哈里斯鹰 HHO",
+   "evidence": "同等评估预算实测（每次约 7743 次评估，3 个种子的中位数）：本算法 -1.699，随机搜索 38.12（越小越好）",
+   "demo": "/problem/nbbb/",
+   "demo_algo": "hho",
+   "tier": "实测"
+  },
+  {
+   "algo": "fwa",
+   "problem": "nbbb",
+   "how": "烟花算法 FWA",
+   "evidence": "同等评估预算实测（每次约 9973 次评估，3 个种子的中位数）：本算法 -1.633，随机搜索 38.12（越小越好）",
+   "demo": "/problem/nbbb/",
+   "demo_algo": "fwa",
+   "tier": "实测"
+  },
+  {
+   "algo": "sma",
+   "problem": "nbbb",
+   "how": "黏菌 SMA",
+   "evidence": "同等评估预算实测（每次约 6030 次评估，3 个种子的中位数）：本算法 -1.574，随机搜索 38.12（越小越好）",
+   "demo": "/problem/nbbb/",
+   "demo_algo": "sma",
+   "tier": "实测"
+  },
+  {
+   "algo": "woa",
+   "problem": "nbbb",
+   "how": "鲸鱼 WOA",
+   "evidence": "同等评估预算实测（每次约 6030 次评估，3 个种子的中位数）：本算法 -1.518，随机搜索 38.12（越小越好）",
+   "demo": "/problem/nbbb/",
+   "demo_algo": "woa",
+   "tier": "实测"
+  },
+  {
+   "algo": "gwo",
+   "problem": "nbbb",
+   "how": "灰狼 GWO",
+   "evidence": "同等评估预算实测（每次约 6030 次评估，3 个种子的中位数）：本算法 -1.515，随机搜索 38.12（越小越好）",
+   "demo": "/problem/nbbb/",
+   "demo_algo": "gwo",
+   "tier": "实测"
+  },
+  {
+   "algo": "ao",
+   "problem": "nbbb",
+   "how": "天鹰 AO",
+   "evidence": "同等评估预算实测（每次约 6030 次评估，3 个种子的中位数）：本算法 -1.512，随机搜索 38.12（越小越好）",
+   "demo": "/problem/nbbb/",
+   "demo_algo": "ao",
+   "tier": "实测"
+  },
+  {
+   "algo": "boa",
+   "problem": "nbbb",
+   "how": "蝴蝶优化 BOA",
+   "evidence": "同等评估预算实测（每次约 6030 次评估，3 个种子的中位数）：本算法 -1.45，随机搜索 38.12（越小越好）",
+   "demo": "/problem/nbbb/",
+   "demo_algo": "boa",
+   "tier": "实测"
+  },
+  {
+   "algo": "mpa",
+   "problem": "nbbb",
+   "how": "海洋掠食者 MPA",
+   "evidence": "同等评估预算实测（每次约 12030 次评估，3 个种子的中位数）：本算法 -0.95，随机搜索 38.12（越小越好）",
+   "demo": "/problem/nbbb/",
+   "demo_algo": "mpa",
+   "tier": "实测"
+  },
+  {
+   "algo": "ica",
+   "problem": "nbbb",
+   "how": "帝国竞争 ICA",
+   "evidence": "同等评估预算实测（每次约 5805 次评估，3 个种子的中位数）：本算法 0.787，随机搜索 38.12（越小越好）",
+   "demo": "/problem/nbbb/",
+   "demo_algo": "ica",
+   "tier": "实测"
+  },
+  {
+   "algo": "ils",
+   "problem": "ndp",
+   "how": "迭代局部搜索 ILS",
+   "evidence": "同等评估预算实测（每次约 4200 次评估，3 个种子的中位数）：本算法 113，随机搜索 190（越小越好）",
+   "demo": "/problem/ndp/",
+   "demo_algo": "ils",
+   "tier": "实测"
+  },
+  {
+   "algo": "vns",
+   "problem": "ndp",
+   "how": "变邻域搜索 VNS",
+   "evidence": "同等评估预算实测（每次约 2750 次评估，3 个种子的中位数）：本算法 113，随机搜索 190（越小越好）",
+   "demo": "/problem/ndp/",
+   "demo_algo": "vns",
+   "tier": "实测"
+  },
+  {
+   "algo": "ga",
+   "problem": "ndp",
+   "how": "遗传 GA",
+   "evidence": "同等评估预算实测（每次约 6030 次评估，3 个种子的中位数）：本算法 113，随机搜索 175（越小越好）",
+   "demo": "/problem/ndp/",
+   "demo_algo": "ga",
+   "tier": "实测"
+  },
+  {
+   "algo": "aco",
+   "problem": "ndp",
+   "how": "蚁群 ACO",
+   "evidence": "同等评估预算实测（每次约 6000 次评估，3 个种子的中位数）：本算法 113，随机搜索 175（越小越好）",
+   "demo": "/problem/ndp/",
+   "demo_algo": "aco",
+   "tier": "实测"
+  },
+  {
+   "algo": "abc",
+   "problem": "ndp",
+   "how": "人工蜂群 ABC",
+   "evidence": "同等评估预算实测（每次约 18365 次评估，3 个种子的中位数）：本算法 113，随机搜索 168（越小越好）",
+   "demo": "/problem/ndp/",
+   "demo_algo": "abc",
+   "tier": "实测"
+  },
+  {
+   "algo": "alo",
+   "problem": "ndp",
+   "how": "蚁狮优化 ALO（位）",
+   "evidence": "同等评估预算实测（每次约 6030 次评估，3 个种子的中位数）：本算法 119，随机搜索 175（越小越好）",
+   "demo": "/problem/ndp/",
+   "demo_algo": "bv_alo",
+   "tier": "实测"
+  },
+  {
+   "algo": "woa",
+   "problem": "ndp",
+   "how": "鲸鱼 WOA",
+   "evidence": "同等评估预算实测（每次约 30030 次评估，3 个种子的中位数）：本算法 113，随机搜索 163（越小越好）",
+   "demo": "/problem/ndp/",
+   "demo_algo": "woa",
+   "tier": "实测"
+  },
+  {
+   "algo": "gwo",
+   "problem": "ndp",
+   "how": "灰狼 GWO",
+   "evidence": "同等评估预算实测（每次约 30030 次评估，3 个种子的中位数）：本算法 113，随机搜索 163（越小越好）",
+   "demo": "/problem/ndp/",
+   "demo_algo": "gwo",
+   "tier": "实测"
+  },
+  {
+   "algo": "sos",
+   "problem": "ndp",
+   "how": "共生搜索 SOS（位）",
+   "evidence": "同等评估预算实测（每次约 24030 次评估，3 个种子的中位数）：本算法 113，随机搜索 163（越小越好）",
+   "demo": "/problem/ndp/",
+   "demo_algo": "bv_sos",
+   "tier": "实测"
+  },
+  {
+   "algo": "sa",
+   "problem": "ndp",
+   "how": "模拟退火 SA",
+   "evidence": "同等评估预算实测（每次约 207 次评估，3 个种子的中位数）：本算法 161，随机搜索 232（越小越好）",
+   "demo": "/problem/ndp/",
+   "demo_algo": "sa",
+   "tier": "实测"
+  },
+  {
+   "algo": "de",
+   "problem": "ndp",
+   "how": "二进制差分 DE",
+   "evidence": "同等评估预算实测（每次约 6030 次评估，3 个种子的中位数）：本算法 124，随机搜索 175（越小越好）",
+   "demo": "/problem/ndp/",
+   "demo_algo": "de",
+   "tier": "实测"
+  },
+  {
+   "algo": "eo",
+   "problem": "ndp",
+   "how": "均衡 EO（位）",
+   "evidence": "同等评估预算实测（每次约 6030 次评估，3 个种子的中位数）：本算法 124，随机搜索 175（越小越好）",
+   "demo": "/problem/ndp/",
+   "demo_algo": "bv_eo",
+   "tier": "实测"
+  },
+  {
+   "algo": "ts",
+   "problem": "nrp",
+   "how": "禁忌搜索 TS",
+   "evidence": "同等评估预算实测（每次约 0 次评估，3 个种子的中位数）：本算法 212，随机搜索 2.027e+04（越小越好）",
+   "demo": "/problem/nrp/",
+   "demo_algo": "ts",
+   "tier": "实测"
+  },
+  {
+   "algo": "de",
+   "problem": "nrp",
+   "how": "差分 DE",
+   "evidence": "同等评估预算实测（每次约 0 次评估，3 个种子的中位数）：本算法 276，随机搜索 2.027e+04（越小越好）",
+   "demo": "/problem/nrp/",
+   "demo_algo": "de",
+   "tier": "实测"
+  },
+  {
+   "algo": "cs",
+   "problem": "nrp",
+   "how": "布谷鸟 CS",
+   "evidence": "同等评估预算实测（每次约 0 次评估，3 个种子的中位数）：本算法 280，随机搜索 2.027e+04（越小越好）",
+   "demo": "/problem/nrp/",
+   "demo_algo": "cs",
+   "tier": "实测"
+  },
+  {
+   "algo": "gwo",
+   "problem": "nrp",
+   "how": "灰狼 GWO",
+   "evidence": "同等评估预算实测（每次约 0 次评估，3 个种子的中位数）：本算法 304，随机搜索 2.027e+04（越小越好）",
+   "demo": "/problem/nrp/",
+   "demo_algo": "gwo",
+   "tier": "实测"
+  },
+  {
+   "algo": "ga",
+   "problem": "nrp",
+   "how": "遗传 GA",
+   "evidence": "同等评估预算实测（每次约 0 次评估，3 个种子的中位数）：本算法 384，随机搜索 2.027e+04（越小越好）",
+   "demo": "/problem/nrp/",
+   "demo_algo": "ga",
+   "tier": "实测"
+  },
+  {
+   "algo": "sa",
+   "problem": "nrp",
+   "how": "模拟退火 SA",
+   "evidence": "同等评估预算实测（每次约 0 次评估，3 个种子的中位数）：本算法 5304，随机搜索 2.027e+04（越小越好）",
+   "demo": "/problem/nrp/",
+   "demo_algo": "sa",
+   "tier": "实测"
+  },
+  {
+   "algo": "ga",
+   "problem": "orienteering",
+   "how": "遗传算法 GA（排列）",
+   "evidence": "同等评估预算实测（每次约 6030 次评估，3 个种子的中位数）：本算法 -83.98，随机搜索 -81.99（越小越好）",
+   "demo": "/problem/orienteering/",
+   "demo_algo": "ga",
+   "tier": "实测"
+  },
+  {
+   "algo": "de",
+   "problem": "orienteering",
+   "how": "差分 DE",
+   "evidence": "同等评估预算实测（每次约 6030 次评估，3 个种子的中位数）：本算法 -83.98，随机搜索 -81.99（越小越好）",
+   "demo": "/problem/orienteering/",
+   "demo_algo": "de",
+   "tier": "实测"
+  },
+  {
+   "algo": "tlbo",
+   "problem": "orienteering",
+   "how": "TLBO（排列）",
+   "evidence": "同等评估预算实测（每次约 9030 次评估，3 个种子的中位数）：本算法 -83.98，随机搜索 -81.99（越小越好）",
+   "demo": "/problem/orienteering/",
+   "demo_algo": "pk_tlbo",
+   "tier": "实测"
+  },
+  {
+   "algo": "hho",
+   "problem": "orienteering",
+   "how": "哈里斯鹰 HHO（排列）",
+   "evidence": "同等评估预算实测（每次约 8096 次评估，3 个种子的中位数）：本算法 -83.98，随机搜索 -81.99（越小越好）",
+   "demo": "/problem/orienteering/",
+   "demo_algo": "pk_hho",
+   "tier": "实测"
+  },
+  {
+   "algo": "ssa",
+   "problem": "orienteering",
+   "how": "麻雀搜索 SSA（排列）",
+   "evidence": "同等评估预算实测（每次约 6630 次评估，3 个种子的中位数）：本算法 -83.98，随机搜索 -81.99（越小越好）",
+   "demo": "/problem/orienteering/",
+   "demo_algo": "pk_ssa",
+   "tier": "实测"
+  },
+  {
+   "algo": "fpa",
+   "problem": "orienteering",
+   "how": "花朵授粉 FPA（排列）",
+   "evidence": "同等评估预算实测（每次约 6030 次评估，3 个种子的中位数）：本算法 -83.98，随机搜索 -81.99（越小越好）",
+   "demo": "/problem/orienteering/",
+   "demo_algo": "pk_fpa",
+   "tier": "实测"
+  },
+  {
+   "algo": "bbo",
+   "problem": "orienteering",
+   "how": "生物地理 BBO（排列）",
+   "evidence": "同等评估预算实测（每次约 6030 次评估，3 个种子的中位数）：本算法 -83.98，随机搜索 -81.99（越小越好）",
+   "demo": "/problem/orienteering/",
+   "demo_algo": "pk_bbo",
+   "tier": "实测"
+  },
+  {
+   "algo": "ils",
+   "problem": "orienteering",
+   "how": "迭代局部搜索 ILS",
+   "evidence": "同等评估预算实测（每次约 3443 次评估，3 个种子的中位数）：本算法 -83.98，随机搜索 -81.99（越小越好）",
+   "demo": "/problem/orienteering/",
+   "demo_algo": "ils",
+   "tier": "实测"
+  },
+  {
+   "algo": "vns",
+   "problem": "orienteering",
+   "how": "变邻域搜索 VNS",
+   "evidence": "同等评估预算实测（每次约 2620 次评估，3 个种子的中位数）：本算法 -83.98，随机搜索 -81.99（越小越好）",
+   "demo": "/problem/orienteering/",
+   "demo_algo": "vns",
+   "tier": "实测"
+  },
+  {
+   "algo": "jaya",
+   "problem": "orienteering",
+   "how": "Jaya（排列）",
+   "evidence": "同等评估预算实测（每次约 6030 次评估，3 个种子的中位数）：本算法 -83.98，随机搜索 -81.99（越小越好）",
+   "demo": "/problem/orienteering/",
+   "demo_algo": "pk_jaya",
+   "tier": "实测"
+  },
+  {
+   "algo": "fa",
+   "problem": "orienteering",
+   "how": "萤火虫 FA（排列）",
+   "evidence": "同等评估预算实测（每次约 344 次评估，3 个种子的中位数）：本算法 -77.99，随机搜索 -76.98（越小越好）",
+   "demo": "/problem/orienteering/",
+   "demo_algo": "pk_fa",
+   "tier": "实测"
+  },
+  {
+   "algo": "ga",
+   "problem": "oss",
+   "how": "遗传算法 GA（排列）",
+   "evidence": "同等评估预算实测（每次约 6030 次评估，3 个种子的中位数）：本算法 380，随机搜索 468（越小越好）",
+   "demo": "/problem/oss/",
+   "demo_algo": "ga",
+   "tier": "实测"
+  },
+  {
+   "algo": "ts",
+   "problem": "oss",
+   "how": "禁忌搜索 TS（排列）",
+   "evidence": "同等评估预算实测（每次约 9601 次评估，3 个种子的中位数）：本算法 372，随机搜索 451（越小越好）",
+   "demo": "/problem/oss/",
+   "demo_algo": "ts",
+   "tier": "实测"
+  },
+  {
+   "algo": "vns",
+   "problem": "oss",
+   "how": "变邻域搜索 VNS",
+   "evidence": "同等评估预算实测（每次约 2797 次评估，3 个种子的中位数）：本算法 400，随机搜索 476（越小越好）",
+   "demo": "/problem/oss/",
+   "demo_algo": "vns",
+   "tier": "实测"
+  },
+  {
+   "algo": "bbo",
+   "problem": "oss",
+   "how": "生物地理 BBO（排列）",
+   "evidence": "同等评估预算实测（每次约 6030 次评估，3 个种子的中位数）：本算法 395，随机搜索 468（越小越好）",
+   "demo": "/problem/oss/",
+   "demo_algo": "pk_bbo",
+   "tier": "实测"
+  },
+  {
+   "algo": "kh",
+   "problem": "oss",
+   "how": "磷虾群 KH（排列）",
+   "evidence": "同等评估预算实测（每次约 6230 次评估，3 个种子的中位数）：本算法 403，随机搜索 468（越小越好）",
+   "demo": "/problem/oss/",
+   "demo_algo": "pk_kh",
+   "tier": "实测"
+  },
+  {
+   "algo": "tlbo",
+   "problem": "oss",
+   "how": "TLBO（排列）",
+   "evidence": "同等评估预算实测（每次约 9030 次评估，3 个种子的中位数）：本算法 404，随机搜索 468（越小越好）",
+   "demo": "/problem/oss/",
+   "demo_algo": "pk_tlbo",
+   "tier": "实测"
+  },
+  {
+   "algo": "ica",
+   "problem": "oss",
+   "how": "帝国竞争 ICA（排列）",
+   "evidence": "同等评估预算实测（每次约 5794 次评估，3 个种子的中位数）：本算法 404，随机搜索 468（越小越好）",
+   "demo": "/problem/oss/",
+   "demo_algo": "pk_ica",
+   "tier": "实测"
+  },
+  {
+   "algo": "sfla",
+   "problem": "oss",
+   "how": "混合蛙跳 SFLA（排列）",
+   "evidence": "同等评估预算实测（每次约 6378 次评估，3 个种子的中位数）：本算法 408，随机搜索 468（越小越好）",
+   "demo": "/problem/oss/",
+   "demo_algo": "pk_sfla",
+   "tier": "实测"
+  },
+  {
+   "algo": "jaya",
+   "problem": "oss",
+   "how": "Jaya（排列）",
+   "evidence": "同等评估预算实测（每次约 6030 次评估，3 个种子的中位数）：本算法 410，随机搜索 468（越小越好）",
+   "demo": "/problem/oss/",
+   "demo_algo": "pk_jaya",
+   "tier": "实测"
+  },
+  {
+   "algo": "pso",
+   "problem": "oss",
+   "how": "粒子群 PSO（排列）",
+   "evidence": "同等评估预算实测（每次约 6030 次评估，3 个种子的中位数）：本算法 412，随机搜索 468（越小越好）",
+   "demo": "/problem/oss/",
+   "demo_algo": "pk_pso",
+   "tier": "实测"
+  },
+  {
+   "algo": "de",
+   "problem": "oss",
+   "how": "差分 DE",
+   "evidence": "同等评估预算实测（每次约 6030 次评估，3 个种子的中位数）：本算法 416，随机搜索 468（越小越好）",
+   "demo": "/problem/oss/",
+   "demo_algo": "de",
+   "tier": "实测"
+  },
+  {
+   "algo": "fwa",
+   "problem": "oss",
+   "how": "烟花算法 FWA（排列）",
+   "evidence": "同等评估预算实测（每次约 10543 次评估，3 个种子的中位数）：本算法 404，随机搜索 451（越小越好）",
+   "demo": "/problem/oss/",
+   "demo_algo": "pk_fwa",
+   "tier": "实测"
+  },
+  {
+   "algo": "fa",
+   "problem": "proteinfold",
+   "how": "萤火虫 FA（排列）",
+   "evidence": "同等评估预算实测（每次约 360 次评估，3 个种子的中位数）：本算法 -1，随机搜索 0（越小越好）",
+   "demo": "/problem/proteinfold/",
+   "demo_algo": "pk_fa",
+   "tier": "实测"
+  },
+  {
+   "algo": "ils",
+   "problem": "qap",
+   "how": "迭代局部搜索 ILS",
+   "evidence": "同等评估预算实测（每次约 4252 次评估，3 个种子的中位数）：本算法 4250，随机搜索 4472（越小越好）",
+   "demo": "/problem/qap/",
+   "demo_algo": "ils",
+   "tier": "实测"
+  },
+  {
+   "algo": "vns",
+   "problem": "qap",
+   "how": "变邻域搜索 VNS",
+   "evidence": "同等评估预算实测（每次约 3304 次评估，3 个种子的中位数）：本算法 4250，随机搜索 4472（越小越好）",
+   "demo": "/problem/qap/",
+   "demo_algo": "vns",
+   "tier": "实测"
+  },
+  {
+   "algo": "aco",
+   "problem": "qap",
+   "how": "蚁群 ACO",
+   "evidence": "同等评估预算实测（每次约 6000 次评估，3 个种子的中位数）：本算法 4274，随机搜索 4472（越小越好）",
+   "demo": "/problem/qap/",
+   "demo_algo": "aco",
+   "tier": "实测"
+  },
+  {
+   "algo": "ts",
+   "problem": "qap",
+   "how": "禁忌搜索 TS（排列）",
+   "evidence": "同等评估预算实测（每次约 9601 次评估，3 个种子的中位数）：本算法 4250，随机搜索 4427（越小越好）",
+   "demo": "/problem/qap/",
+   "demo_algo": "ts",
+   "tier": "实测"
+  },
+  {
+   "algo": "cs",
+   "problem": "qap",
+   "how": "布谷鸟 CS",
+   "evidence": "同等评估预算实测（每次约 277 次评估，3 个种子的中位数）：本算法 4469，随机搜索 4613（越小越好）",
+   "demo": "/problem/qap/",
+   "demo_algo": "cs",
+   "tier": "实测"
+  },
+  {
+   "algo": "ga",
+   "problem": "qap",
+   "how": "遗传算法 GA（排列）",
+   "evidence": "同等评估预算实测（每次约 6030 次评估，3 个种子的中位数）：本算法 4349，随机搜索 4472（越小越好）",
+   "demo": "/problem/qap/",
+   "demo_algo": "ga",
+   "tier": "实测"
+  },
+  {
+   "algo": "jaya",
+   "problem": "qap",
+   "how": "Jaya（排列）",
+   "evidence": "同等评估预算实测（每次约 6030 次评估，3 个种子的中位数）：本算法 3881，随机搜索 3986（越小越好）",
+   "demo": "/problem/qap/",
+   "demo_algo": "pk_jaya",
+   "tier": "实测"
+  },
+  {
+   "algo": "fa",
+   "problem": "qap",
+   "how": "萤火虫 FA（排列）",
+   "evidence": "同等评估预算实测（每次约 618 次评估，3 个种子的中位数）：本算法 4492，随机搜索 4613（越小越好）",
+   "demo": "/problem/qap/",
+   "demo_algo": "pk_fa",
+   "tier": "实测"
+  },
+  {
+   "algo": "ao",
+   "problem": "qap",
+   "how": "天鹰 AO（排列）",
+   "evidence": "同等评估预算实测（每次约 6030 次评估，3 个种子的中位数）：本算法 3882，随机搜索 3986（越小越好）",
+   "demo": "/problem/qap/",
+   "demo_algo": "pk_ao",
+   "tier": "实测"
+  },
+  {
+   "algo": "salp",
+   "problem": "qap",
+   "how": "樽海鞘群 Salp（排列）",
+   "evidence": "同等评估预算实测（每次约 6030 次评估，3 个种子的中位数）：本算法 3891，随机搜索 3986（越小越好）",
+   "demo": "/problem/qap/",
+   "demo_algo": "pk_salp",
+   "tier": "实测"
+  },
+  {
+   "algo": "sfla",
+   "problem": "qap",
+   "how": "混合蛙跳 SFLA（排列）",
+   "evidence": "同等评估预算实测（每次约 6959 次评估，3 个种子的中位数）：本算法 3811，随机搜索 3898（越小越好）",
+   "demo": "/problem/qap/",
+   "demo_algo": "pk_sfla",
+   "tier": "实测"
+  },
+  {
+   "algo": "ica",
+   "problem": "qap",
+   "how": "帝国竞争 ICA（排列）",
+   "evidence": "同等评估预算实测（每次约 5790 次评估，3 个种子的中位数）：本算法 3899，随机搜索 3986（越小越好）",
+   "demo": "/problem/qap/",
+   "demo_algo": "pk_ica",
+   "tier": "实测"
+  },
+  {
+   "algo": "hho",
+   "problem": "ro",
+   "how": "哈里斯鹰 HHO",
+   "evidence": "同等评估预算实测（每次约 7611 次评估，3 个种子的中位数）：本算法 42.32，随机搜索 92.92（越小越好）",
+   "demo": "/problem/ro/",
+   "demo_algo": "hho",
+   "tier": "实测"
+  },
+  {
+   "algo": "ao",
+   "problem": "ro",
+   "how": "天鹰 AO",
+   "evidence": "同等评估预算实测（每次约 6030 次评估，3 个种子的中位数）：本算法 43.05，随机搜索 92.92（越小越好）",
+   "demo": "/problem/ro/",
+   "demo_algo": "ao",
+   "tier": "实测"
+  },
+  {
+   "algo": "ssa",
+   "problem": "ro",
+   "how": "麻雀搜索 SSA",
+   "evidence": "同等评估预算实测（每次约 6630 次评估，3 个种子的中位数）：本算法 43.7，随机搜索 92.92（越小越好）",
+   "demo": "/problem/ro/",
+   "demo_algo": "ssa",
+   "tier": "实测"
+  },
+  {
+   "algo": "gsa",
+   "problem": "ro",
+   "how": "引力搜索 GSA",
+   "evidence": "同等评估预算实测（每次约 6030 次评估，3 个种子的中位数）：本算法 44.16，随机搜索 92.92（越小越好）",
+   "demo": "/problem/ro/",
+   "demo_algo": "gsa",
+   "tier": "实测"
+  },
+  {
+   "algo": "tlbo",
+   "problem": "ro",
+   "how": "教与学 TLBO",
+   "evidence": "同等评估预算实测（每次约 9030 次评估，3 个种子的中位数）：本算法 41.84，随机搜索 87.95（越小越好）",
+   "demo": "/problem/ro/",
+   "demo_algo": "tlbo",
+   "tier": "实测"
+  },
+  {
+   "algo": "ils",
+   "problem": "ro",
+   "how": "迭代局部搜索 ILS",
+   "evidence": "同等评估预算实测（每次约 4322 次评估，3 个种子的中位数）：本算法 46.15，随机搜索 95.96（越小越好）",
+   "demo": "/problem/ro/",
+   "demo_algo": "ils",
+   "tier": "实测"
+  },
+  {
+   "algo": "cscrow",
+   "problem": "ro",
+   "how": "乌鸦搜索 CSA",
+   "evidence": "同等评估预算实测（每次约 6030 次评估，3 个种子的中位数）：本算法 44.83，随机搜索 92.92（越小越好）",
+   "demo": "/problem/ro/",
+   "demo_algo": "cscrow",
+   "tier": "实测"
+  },
+  {
+   "algo": "salp",
+   "problem": "ro",
+   "how": "樽海鞘群 Salp",
+   "evidence": "同等评估预算实测（每次约 6030 次评估，3 个种子的中位数）：本算法 45.56，随机搜索 92.92（越小越好）",
+   "demo": "/problem/ro/",
+   "demo_algo": "salp",
+   "tier": "实测"
+  },
+  {
+   "algo": "ica",
+   "problem": "ro",
+   "how": "帝国竞争 ICA",
+   "evidence": "同等评估预算实测（每次约 5802 次评估，3 个种子的中位数）：本算法 46.85，随机搜索 92.92（越小越好）",
+   "demo": "/problem/ro/",
+   "demo_algo": "ica",
+   "tier": "实测"
+  },
+  {
+   "algo": "sos",
+   "problem": "ro",
+   "how": "共生搜索 SOS",
+   "evidence": "同等评估预算实测（每次约 24030 次评估，3 个种子的中位数）：本算法 41.01，随机搜索 80.35（越小越好）",
+   "demo": "/problem/ro/",
+   "demo_algo": "sos",
+   "tier": "实测"
+  },
+  {
+   "algo": "kh",
+   "problem": "ro",
+   "how": "磷虾群 KH",
+   "evidence": "同等评估预算实测（每次约 6230 次评估，3 个种子的中位数）：本算法 47.43，随机搜索 92.92（越小越好）",
+   "demo": "/problem/ro/",
+   "demo_algo": "kh",
+   "tier": "实测"
+  },
+  {
+   "algo": "vns",
+   "problem": "ro",
+   "how": "变邻域搜索 VNS",
+   "evidence": "同等评估预算实测（每次约 3543 次评估，3 个种子的中位数）：本算法 49.21，随机搜索 95.96（越小越好）",
+   "demo": "/problem/ro/",
+   "demo_algo": "vns",
+   "tier": "实测"
+  },
+  {
+   "algo": "vns",
+   "problem": "rpostman",
+   "how": "变邻域搜索 VNS",
+   "evidence": "同等评估预算实测（每次约 3509 次评估，3 个种子的中位数）：本算法 423，随机搜索 620（越小越好）",
+   "demo": "/problem/rpostman/",
+   "demo_algo": "vns",
+   "tier": "实测"
+  },
+  {
+   "algo": "bbo",
+   "problem": "rpostman",
+   "how": "生物地理 BBO（排列）",
+   "evidence": "同等评估预算实测（每次约 6030 次评估，3 个种子的中位数）：本算法 417，随机搜索 570（越小越好）",
+   "demo": "/problem/rpostman/",
+   "demo_algo": "pk_bbo",
+   "tier": "实测"
+  },
+  {
+   "algo": "ga",
+   "problem": "rpostman",
+   "how": "遗传算法 GA（排列）",
+   "evidence": "同等评估预算实测（每次约 6030 次评估，3 个种子的中位数）：本算法 423，随机搜索 570（越小越好）",
+   "demo": "/problem/rpostman/",
+   "demo_algo": "ga",
+   "tier": "实测"
+  },
+  {
+   "algo": "ils",
+   "problem": "rpostman",
+   "how": "迭代局部搜索 ILS",
+   "evidence": "同等评估预算实测（每次约 4599 次评估，3 个种子的中位数）：本算法 426，随机搜索 570（越小越好）",
+   "demo": "/problem/rpostman/",
+   "demo_algo": "ils",
+   "tier": "实测"
+  },
+  {
+   "algo": "jaya",
+   "problem": "rpostman",
+   "how": "Jaya（排列）",
+   "evidence": "同等评估预算实测（每次约 6030 次评估，3 个种子的中位数）：本算法 433，随机搜索 570（越小越好）",
+   "demo": "/problem/rpostman/",
+   "demo_algo": "pk_jaya",
+   "tier": "实测"
+  },
+  {
+   "algo": "sfla",
+   "problem": "rpostman",
+   "how": "混合蛙跳 SFLA（排列）",
+   "evidence": "同等评估预算实测（每次约 6225 次评估，3 个种子的中位数）：本算法 433，随机搜索 570（越小越好）",
+   "demo": "/problem/rpostman/",
+   "demo_algo": "pk_sfla",
+   "tier": "实测"
+  },
+  {
+   "algo": "sos",
+   "problem": "rpostman",
+   "how": "共生搜索 SOS（排列）",
+   "evidence": "同等评估预算实测（每次约 24030 次评估，3 个种子的中位数）：本算法 417，随机搜索 529（越小越好）",
+   "demo": "/problem/rpostman/",
+   "demo_algo": "pk_sos",
+   "tier": "实测"
+  },
+  {
+   "algo": "mpa",
+   "problem": "rpostman",
+   "how": "海洋掠食者 MPA（排列）",
+   "evidence": "同等评估预算实测（每次约 12030 次评估，3 个种子的中位数）：本算法 423，随机搜索 529（越小越好）",
+   "demo": "/problem/rpostman/",
+   "demo_algo": "pk_mpa",
+   "tier": "实测"
+  },
+  {
+   "algo": "fa",
+   "problem": "rpostman",
+   "how": "萤火虫 FA（排列）",
+   "evidence": "同等评估预算实测（每次约 749 次评估，3 个种子的中位数）：本算法 511，随机搜索 632（越小越好）",
+   "demo": "/problem/rpostman/",
+   "demo_algo": "pk_fa",
+   "tier": "实测"
+  },
+  {
+   "algo": "fpa",
+   "problem": "rpostman",
+   "how": "花朵授粉 FPA（排列）",
+   "evidence": "同等评估预算实测（每次约 6030 次评估，3 个种子的中位数）：本算法 465，随机搜索 570（越小越好）",
+   "demo": "/problem/rpostman/",
+   "demo_algo": "pk_fpa",
+   "tier": "实测"
+  },
+  {
+   "algo": "ts",
+   "problem": "rpostman",
+   "how": "禁忌搜索 TS（排列）",
+   "evidence": "同等评估预算实测（每次约 9601 次评估，3 个种子的中位数）：本算法 433，随机搜索 529（越小越好）",
+   "demo": "/problem/rpostman/",
+   "demo_algo": "ts",
+   "tier": "实测"
+  },
+  {
+   "algo": "de",
+   "problem": "rpostman",
+   "how": "差分 DE",
+   "evidence": "同等评估预算实测（每次约 6030 次评估，3 个种子的中位数）：本算法 469，随机搜索 570（越小越好）",
+   "demo": "/problem/rpostman/",
+   "demo_algo": "de",
+   "tier": "实测"
+  },
+  {
+   "algo": "ts",
+   "problem": "sls",
+   "how": "禁忌搜索 TS",
+   "evidence": "同等评估预算实测（每次约 0 次评估，3 个种子的中位数）：本算法 65，随机搜索 1785（越小越好）",
+   "demo": "/problem/sls/",
+   "demo_algo": "ts",
+   "tier": "实测"
+  },
+  {
+   "algo": "cs",
+   "problem": "sls",
+   "how": "布谷鸟 CS",
+   "evidence": "同等评估预算实测（每次约 0 次评估，3 个种子的中位数）：本算法 475，随机搜索 1785（越小越好）",
+   "demo": "/problem/sls/",
+   "demo_algo": "cs",
+   "tier": "实测"
+  },
+  {
+   "algo": "de",
+   "problem": "sls",
+   "how": "差分 DE",
+   "evidence": "同等评估预算实测（每次约 0 次评估，3 个种子的中位数）：本算法 525，随机搜索 1785（越小越好）",
+   "demo": "/problem/sls/",
+   "demo_algo": "de",
+   "tier": "实测"
+  },
+  {
+   "algo": "gwo",
+   "problem": "sls",
+   "how": "灰狼 GWO",
+   "evidence": "同等评估预算实测（每次约 0 次评估，3 个种子的中位数）：本算法 530，随机搜索 1785（越小越好）",
+   "demo": "/problem/sls/",
+   "demo_algo": "gwo",
+   "tier": "实测"
+  },
+  {
+   "algo": "sa",
+   "problem": "sls",
+   "how": "模拟退火 SA",
+   "evidence": "同等评估预算实测（每次约 0 次评估，3 个种子的中位数）：本算法 615，随机搜索 1785（越小越好）",
+   "demo": "/problem/sls/",
+   "demo_algo": "sa",
+   "tier": "实测"
+  },
+  {
+   "algo": "ga",
+   "problem": "sls",
+   "how": "遗传 GA",
+   "evidence": "同等评估预算实测（每次约 0 次评估，3 个种子的中位数）：本算法 925，随机搜索 1785（越小越好）",
+   "demo": "/problem/sls/",
+   "demo_algo": "ga",
+   "tier": "实测"
+  },
+  {
+   "algo": "sa",
+   "problem": "sms",
+   "how": "模拟退火 SA",
+   "evidence": "同等评估预算实测（每次约 205 次评估，3 个种子的中位数）：本算法 204，随机搜索 229（越小越好）",
+   "demo": "/problem/sms/",
+   "demo_algo": "sa",
+   "tier": "实测"
+  },
+  {
+   "algo": "fa",
+   "problem": "sms",
+   "how": "萤火虫 FA（排列）",
+   "evidence": "同等评估预算实测（每次约 401 次评估，3 个种子的中位数）：本算法 198，随机搜索 212（越小越好）",
+   "demo": "/problem/sms/",
+   "demo_algo": "pk_fa",
+   "tier": "实测"
+  },
+  {
+   "algo": "ts",
+   "problem": "sms",
+   "how": "禁忌搜索 TS（排列）",
+   "evidence": "同等评估预算实测（每次约 9601 次评估，3 个种子的中位数）：本算法 198，随机搜索 208（越小越好）",
+   "demo": "/problem/sms/",
+   "demo_algo": "ts",
+   "tier": "实测"
+  },
+  {
+   "algo": "ga",
+   "problem": "sms",
+   "how": "遗传算法 GA（排列）",
+   "evidence": "同等评估预算实测（每次约 6030 次评估，3 个种子的中位数）：本算法 198，随机搜索 208（越小越好）",
+   "demo": "/problem/sms/",
+   "demo_algo": "ga",
+   "tier": "实测"
+  },
+  {
+   "algo": "de",
+   "problem": "sms",
+   "how": "差分 DE",
+   "evidence": "同等评估预算实测（每次约 6030 次评估，3 个种子的中位数）：本算法 198，随机搜索 208（越小越好）",
+   "demo": "/problem/sms/",
+   "demo_algo": "de",
+   "tier": "实测"
+  },
+  {
+   "algo": "gwo",
+   "problem": "sms",
+   "how": "灰狼 GWO",
+   "evidence": "同等评估预算实测（每次约 6030 次评估，3 个种子的中位数）：本算法 198，随机搜索 208（越小越好）",
+   "demo": "/problem/sms/",
+   "demo_algo": "gwo",
+   "tier": "实测"
+  },
+  {
+   "algo": "pso",
+   "problem": "sms",
+   "how": "粒子群 PSO（排列）",
+   "evidence": "同等评估预算实测（每次约 6030 次评估，3 个种子的中位数）：本算法 198，随机搜索 208（越小越好）",
+   "demo": "/problem/sms/",
+   "demo_algo": "pk_pso",
+   "tier": "实测"
+  },
+  {
+   "algo": "sca",
+   "problem": "sms",
+   "how": "正弦余弦 SCA（排列）",
+   "evidence": "同等评估预算实测（每次约 6030 次评估，3 个种子的中位数）：本算法 198，随机搜索 208（越小越好）",
+   "demo": "/problem/sms/",
+   "demo_algo": "pk_sca",
+   "tier": "实测"
+  },
+  {
+   "algo": "mfo",
+   "problem": "sms",
+   "how": "蛾焰 MFO（排列）",
+   "evidence": "同等评估预算实测（每次约 6030 次评估，3 个种子的中位数）：本算法 198，随机搜索 208（越小越好）",
+   "demo": "/problem/sms/",
+   "demo_algo": "pk_mfo",
+   "tier": "实测"
+  },
+  {
+   "algo": "ao",
+   "problem": "sms",
+   "how": "天鹰 AO（排列）",
+   "evidence": "同等评估预算实测（每次约 6030 次评估，3 个种子的中位数）：本算法 198，随机搜索 208（越小越好）",
+   "demo": "/problem/sms/",
+   "demo_algo": "pk_ao",
+   "tier": "实测"
+  },
+  {
+   "algo": "ba",
+   "problem": "sms",
+   "how": "蝙蝠 BA（排列）",
+   "evidence": "同等评估预算实测（每次约 6030 次评估，3 个种子的中位数）：本算法 198，随机搜索 208（越小越好）",
+   "demo": "/problem/sms/",
+   "demo_algo": "pk_ba",
+   "tier": "实测"
+  },
+  {
+   "algo": "jaya",
+   "problem": "sms",
+   "how": "Jaya（排列）",
+   "evidence": "同等评估预算实测（每次约 6030 次评估，3 个种子的中位数）：本算法 198，随机搜索 208（越小越好）",
+   "demo": "/problem/sms/",
+   "demo_algo": "pk_jaya",
+   "tier": "实测"
+  },
+  {
+   "algo": "sa",
+   "problem": "tdm",
+   "how": "模拟退火 SA",
+   "evidence": "同等评估预算实测（每次约 206 次评估，3 个种子的中位数）：本算法 -5，随机搜索 -2（越小越好）",
+   "demo": "/problem/tdm/",
+   "demo_algo": "sa",
+   "tier": "实测"
+  },
+  {
+   "algo": "ts",
+   "problem": "tdm",
+   "how": "禁忌搜索 TS",
+   "evidence": "同等评估预算实测（每次约 8001 次评估，3 个种子的中位数）：本算法 -6，随机搜索 -4（越小越好）",
+   "demo": "/problem/tdm/",
+   "demo_algo": "ts",
+   "tier": "实测"
+  },
+  {
+   "algo": "ga",
+   "problem": "tdm",
+   "how": "遗传 GA",
+   "evidence": "同等评估预算实测（每次约 6030 次评估，3 个种子的中位数）：本算法 -6，随机搜索 -4（越小越好）",
+   "demo": "/problem/tdm/",
+   "demo_algo": "ga",
+   "tier": "实测"
+  },
+  {
+   "algo": "jaya",
+   "problem": "tdm",
+   "how": "Jaya（位）",
+   "evidence": "同等评估预算实测（每次约 6030 次评估，3 个种子的中位数）：本算法 -6，随机搜索 -4（越小越好）",
+   "demo": "/problem/tdm/",
+   "demo_algo": "bv_jaya",
+   "tier": "实测"
+  },
+  {
+   "algo": "hho",
+   "problem": "tdm",
+   "how": "哈里斯鹰 HHO（位）",
+   "evidence": "同等评估预算实测（每次约 8095 次评估，3 个种子的中位数）：本算法 -6，随机搜索 -4（越小越好）",
+   "demo": "/problem/tdm/",
+   "demo_algo": "bv_hho",
+   "tier": "实测"
+  },
+  {
+   "algo": "cscrow",
+   "problem": "tdm",
+   "how": "乌鸦搜索 CSA（位）",
+   "evidence": "同等评估预算实测（每次约 6030 次评估，3 个种子的中位数）：本算法 -6，随机搜索 -4（越小越好）",
+   "demo": "/problem/tdm/",
+   "demo_algo": "bv_cscrow",
+   "tier": "实测"
+  },
+  {
+   "algo": "sfla",
+   "problem": "tdm",
+   "how": "混合蛙跳 SFLA（位）",
+   "evidence": "同等评估预算实测（每次约 5787 次评估，3 个种子的中位数）：本算法 -6，随机搜索 -4（越小越好）",
+   "demo": "/problem/tdm/",
+   "demo_algo": "bv_sfla",
+   "tier": "实测"
+  },
+  {
+   "algo": "ils",
+   "problem": "tdm",
+   "how": "迭代局部搜索 ILS",
+   "evidence": "同等评估预算实测（每次约 4847 次评估，3 个种子的中位数）：本算法 -6，随机搜索 -4（越小越好）",
+   "demo": "/problem/tdm/",
+   "demo_algo": "ils",
+   "tier": "实测"
+  },
+  {
+   "algo": "de",
+   "problem": "tdm",
+   "how": "二进制差分 DE",
+   "evidence": "同等评估预算实测（每次约 6030 次评估，3 个种子的中位数）：本算法 -5，随机搜索 -4（越小越好）",
+   "demo": "/problem/tdm/",
+   "demo_algo": "de",
+   "tier": "实测"
+  },
+  {
+   "algo": "cs",
+   "problem": "tdm",
+   "how": "布谷鸟 CS",
+   "evidence": "同等评估预算实测（每次约 7509 次评估，3 个种子的中位数）：本算法 -5，随机搜索 -4（越小越好）",
+   "demo": "/problem/tdm/",
+   "demo_algo": "cs",
+   "tier": "实测"
+  },
+  {
+   "algo": "eo",
+   "problem": "tdm",
+   "how": "均衡 EO（位）",
+   "evidence": "同等评估预算实测（每次约 6030 次评估，3 个种子的中位数）：本算法 -5，随机搜索 -4（越小越好）",
+   "demo": "/problem/tdm/",
+   "demo_algo": "bv_eo",
+   "tier": "实测"
+  },
+  {
+   "algo": "ao",
+   "problem": "tdm",
+   "how": "天鹰 AO（位）",
+   "evidence": "同等评估预算实测（每次约 6030 次评估，3 个种子的中位数）：本算法 -5，随机搜索 -4（越小越好）",
+   "demo": "/problem/tdm/",
+   "demo_algo": "bv_ao",
+   "tier": "实测"
+  },
+  {
+   "algo": "ts",
+   "problem": "topsort",
+   "how": "禁忌搜索 TS（排列）",
+   "evidence": "同等评估预算实测（每次约 9601 次评估，3 个种子的中位数）：本算法 0，随机搜索 4（越小越好）",
+   "demo": "/problem/topsort/",
+   "demo_algo": "ts",
+   "tier": "实测"
+  },
+  {
+   "algo": "ga",
+   "problem": "topsort",
+   "how": "遗传算法 GA（排列）",
+   "evidence": "同等评估预算实测（每次约 6030 次评估，3 个种子的中位数）：本算法 0，随机搜索 4（越小越好）",
+   "demo": "/problem/topsort/",
+   "demo_algo": "ga",
+   "tier": "实测"
+  },
+  {
+   "algo": "de",
+   "problem": "topsort",
+   "how": "差分 DE",
+   "evidence": "同等评估预算实测（每次约 6030 次评估，3 个种子的中位数）：本算法 0，随机搜索 4（越小越好）",
+   "demo": "/problem/topsort/",
+   "demo_algo": "de",
+   "tier": "实测"
+  },
+  {
+   "algo": "pso",
+   "problem": "topsort",
+   "how": "粒子群 PSO（排列）",
+   "evidence": "同等评估预算实测（每次约 6030 次评估，3 个种子的中位数）：本算法 0，随机搜索 4（越小越好）",
+   "demo": "/problem/topsort/",
+   "demo_algo": "pk_pso",
+   "tier": "实测"
+  },
+  {
+   "algo": "fa",
+   "problem": "topsort",
+   "how": "萤火虫 FA（排列）",
+   "evidence": "同等评估预算实测（每次约 513 次评估，3 个种子的中位数）：本算法 0，随机搜索 7（越小越好）",
+   "demo": "/problem/topsort/",
+   "demo_algo": "pk_fa",
+   "tier": "实测"
+  },
+  {
+   "algo": "jaya",
+   "problem": "topsort",
+   "how": "Jaya（排列）",
+   "evidence": "同等评估预算实测（每次约 6030 次评估，3 个种子的中位数）：本算法 0，随机搜索 4（越小越好）",
+   "demo": "/problem/topsort/",
+   "demo_algo": "pk_jaya",
+   "tier": "实测"
+  },
+  {
+   "algo": "tlbo",
+   "problem": "topsort",
+   "how": "TLBO（排列）",
+   "evidence": "同等评估预算实测（每次约 9030 次评估，3 个种子的中位数）：本算法 0，随机搜索 4（越小越好）",
+   "demo": "/problem/topsort/",
+   "demo_algo": "pk_tlbo",
+   "tier": "实测"
+  },
+  {
+   "algo": "hho",
+   "problem": "topsort",
+   "how": "哈里斯鹰 HHO（排列）",
+   "evidence": "同等评估预算实测（每次约 7865 次评估，3 个种子的中位数）：本算法 0，随机搜索 4（越小越好）",
+   "demo": "/problem/topsort/",
+   "demo_algo": "pk_hho",
+   "tier": "实测"
+  },
+  {
+   "algo": "salp",
+   "problem": "topsort",
+   "how": "樽海鞘群 Salp（排列）",
+   "evidence": "同等评估预算实测（每次约 6030 次评估，3 个种子的中位数）：本算法 0，随机搜索 4（越小越好）",
+   "demo": "/problem/topsort/",
+   "demo_algo": "pk_salp",
+   "tier": "实测"
+  },
+  {
+   "algo": "mpa",
+   "problem": "topsort",
+   "how": "海洋掠食者 MPA（排列）",
+   "evidence": "同等评估预算实测（每次约 12030 次评估，3 个种子的中位数）：本算法 0，随机搜索 4（越小越好）",
+   "demo": "/problem/topsort/",
+   "demo_algo": "pk_mpa",
+   "tier": "实测"
+  },
+  {
+   "algo": "cscrow",
+   "problem": "topsort",
+   "how": "乌鸦搜索 CSA（排列）",
+   "evidence": "同等评估预算实测（每次约 6030 次评估，3 个种子的中位数）：本算法 0，随机搜索 4（越小越好）",
+   "demo": "/problem/topsort/",
+   "demo_algo": "pk_cscrow",
+   "tier": "实测"
+  },
+  {
+   "algo": "kh",
+   "problem": "topsort",
+   "how": "磷虾群 KH（排列）",
+   "evidence": "同等评估预算实测（每次约 6230 次评估，3 个种子的中位数）：本算法 0，随机搜索 4（越小越好）",
+   "demo": "/problem/topsort/",
+   "demo_algo": "pk_kh",
+   "tier": "实测"
+  },
+  {
+   "algo": "ts",
+   "problem": "ttp",
+   "how": "禁忌搜索 TS",
+   "evidence": "同等评估预算实测（每次约 0 次评估，3 个种子的中位数）：本算法 1962，随机搜索 1.478e+04（越小越好）",
+   "demo": "/problem/ttp/",
+   "demo_algo": "ts",
+   "tier": "实测"
+  },
+  {
+   "algo": "de",
+   "problem": "ttp",
+   "how": "差分 DE",
+   "evidence": "同等评估预算实测（每次约 0 次评估，3 个种子的中位数）：本算法 4345，随机搜索 1.478e+04（越小越好）",
+   "demo": "/problem/ttp/",
+   "demo_algo": "de",
+   "tier": "实测"
+  },
+  {
+   "algo": "cs",
+   "problem": "ttp",
+   "how": "布谷鸟 CS",
+   "evidence": "同等评估预算实测（每次约 0 次评估，3 个种子的中位数）：本算法 4511，随机搜索 1.478e+04（越小越好）",
+   "demo": "/problem/ttp/",
+   "demo_algo": "cs",
+   "tier": "实测"
+  },
+  {
+   "algo": "gwo",
+   "problem": "ttp",
+   "how": "灰狼 GWO",
+   "evidence": "同等评估预算实测（每次约 0 次评估，3 个种子的中位数）：本算法 4648，随机搜索 1.478e+04（越小越好）",
+   "demo": "/problem/ttp/",
+   "demo_algo": "gwo",
+   "tier": "实测"
+  },
+  {
+   "algo": "sa",
+   "problem": "ttp",
+   "how": "模拟退火 SA",
+   "evidence": "同等评估预算实测（每次约 0 次评估，3 个种子的中位数）：本算法 5321，随机搜索 1.478e+04（越小越好）",
+   "demo": "/problem/ttp/",
+   "demo_algo": "sa",
+   "tier": "实测"
+  },
+  {
+   "algo": "ga",
+   "problem": "ttp",
+   "how": "遗传 GA",
+   "evidence": "同等评估预算实测（每次约 0 次评估，3 个种子的中位数）：本算法 7883，随机搜索 1.478e+04（越小越好）",
+   "demo": "/problem/ttp/",
+   "demo_algo": "ga",
+   "tier": "实测"
+  },
+  {
+   "algo": "sa",
+   "problem": "vcover",
+   "how": "模拟退火 SA",
+   "evidence": "同等评估预算实测（每次约 207 次评估，3 个种子的中位数）：本算法 7，随机搜索 8（越小越好）",
+   "demo": "/problem/vcover/",
+   "demo_algo": "sa",
+   "tier": "实测"
+  },
+  {
+   "algo": "sa",
+   "problem": "vrp",
+   "how": "模拟退火 SA",
+   "evidence": "同等评估预算实测（每次约 204 次评估，3 个种子的中位数）：本算法 392.9，随机搜索 464.2（越小越好）",
+   "demo": "/problem/vrp/",
+   "demo_algo": "sa",
+   "tier": "实测"
+  },
+  {
+   "algo": "fa",
+   "problem": "vrp",
+   "how": "萤火虫 FA（排列）",
+   "evidence": "同等评估预算实测（每次约 696 次评估，3 个种子的中位数）：本算法 390，随机搜索 442.5（越小越好）",
+   "demo": "/problem/vrp/",
+   "demo_algo": "pk_fa",
+   "tier": "实测"
+  },
+  {
+   "algo": "ts",
+   "problem": "vrp",
+   "how": "禁忌搜索 TS（排列）",
+   "evidence": "同等评估预算实测（每次约 9601 次评估，3 个种子的中位数）：本算法 363.4，随机搜索 407.1（越小越好）",
+   "demo": "/problem/vrp/",
+   "demo_algo": "ts",
+   "tier": "实测"
+  },
+  {
+   "algo": "mpa",
+   "problem": "vrp",
+   "how": "海洋掠食者 MPA（排列）",
+   "evidence": "同等评估预算实测（每次约 12030 次评估，3 个种子的中位数）：本算法 363.4，随机搜索 407.1（越小越好）",
+   "demo": "/problem/vrp/",
+   "demo_algo": "pk_mpa",
+   "tier": "实测"
+  },
+  {
+   "algo": "sfla",
+   "problem": "vrp",
+   "how": "混合蛙跳 SFLA（排列）",
+   "evidence": "同等评估预算实测（每次约 5990 次评估，3 个种子的中位数）：本算法 363.4，随机搜索 407.1（越小越好）",
+   "demo": "/problem/vrp/",
+   "demo_algo": "pk_sfla",
+   "tier": "实测"
+  },
+  {
+   "algo": "bbo",
+   "problem": "vrp",
+   "how": "生物地理 BBO（排列）",
+   "evidence": "同等评估预算实测（每次约 6030 次评估，3 个种子的中位数）：本算法 363.4，随机搜索 407.1（越小越好）",
+   "demo": "/problem/vrp/",
+   "demo_algo": "pk_bbo",
+   "tier": "实测"
+  },
+  {
+   "algo": "vns",
+   "problem": "vrp",
+   "how": "变邻域搜索 VNS",
+   "evidence": "同等评估预算实测（每次约 3678 次评估，3 个种子的中位数）：本算法 363.4，随机搜索 407.1（越小越好）",
+   "demo": "/problem/vrp/",
+   "demo_algo": "vns",
+   "tier": "实测"
+  },
+  {
+   "algo": "salp",
+   "problem": "vrp",
+   "how": "樽海鞘群 Salp（排列）",
+   "evidence": "同等评估预算实测（每次约 6030 次评估，3 个种子的中位数）：本算法 406，随机搜索 446.1（越小越好）",
+   "demo": "/problem/vrp/",
+   "demo_algo": "pk_salp",
+   "tier": "实测"
+  },
+  {
+   "algo": "ais",
+   "problem": "vrp",
+   "how": "克隆选择 AIS（排列）",
+   "evidence": "同等评估预算实测（每次约 7430 次评估，3 个种子的中位数）：本算法 412.4，随机搜索 446.1（越小越好）",
+   "demo": "/problem/vrp/",
+   "demo_algo": "pk_ais",
+   "tier": "实测"
+  },
+  {
+   "algo": "ga",
+   "problem": "vrp",
+   "how": "遗传算法 GA（排列）",
+   "evidence": "同等评估预算实测（每次约 6030 次评估，3 个种子的中位数）：本算法 378.5，随机搜索 407.1（越小越好）",
+   "demo": "/problem/vrp/",
+   "demo_algo": "ga",
+   "tier": "实测"
+  },
+  {
+   "algo": "jaya",
+   "problem": "vrp",
+   "how": "Jaya（排列）",
+   "evidence": "同等评估预算实测（每次约 6030 次评估，3 个种子的中位数）：本算法 378.5，随机搜索 407.1（越小越好）",
+   "demo": "/problem/vrp/",
+   "demo_algo": "pk_jaya",
+   "tier": "实测"
+  },
+  {
+   "algo": "tlbo",
+   "problem": "vrp",
+   "how": "TLBO（排列）",
+   "evidence": "同等评估预算实测（每次约 9030 次评估，3 个种子的中位数）：本算法 378.5，随机搜索 407.1（越小越好）",
+   "demo": "/problem/vrp/",
+   "demo_algo": "pk_tlbo",
+   "tier": "实测"
+  },
+  {
+   "algo": "ga",
+   "problem": "vrpstw",
+   "how": "遗传算法 GA（排列）",
+   "evidence": "同等评估预算实测（每次约 6030 次评估，3 个种子的中位数）：本算法 437.6，随机搜索 597.4（越小越好）",
+   "demo": "/problem/vrpstw/",
+   "demo_algo": "ga",
+   "tier": "实测"
+  },
+  {
+   "algo": "bbo",
+   "problem": "vrpstw",
+   "how": "生物地理 BBO（排列）",
+   "evidence": "同等评估预算实测（每次约 6030 次评估，3 个种子的中位数）：本算法 437.6，随机搜索 597.4（越小越好）",
+   "demo": "/problem/vrpstw/",
+   "demo_algo": "pk_bbo",
+   "tier": "实测"
+  },
+  {
+   "algo": "ils",
+   "problem": "vrpstw",
+   "how": "迭代局部搜索 ILS",
+   "evidence": "同等评估预算实测（每次约 4891 次评估，3 个种子的中位数）：本算法 437.6，随机搜索 597.4（越小越好）",
+   "demo": "/problem/vrpstw/",
+   "demo_algo": "ils",
+   "tier": "实测"
+  },
+  {
+   "algo": "ts",
+   "problem": "vrpstw",
+   "how": "禁忌搜索 TS（排列）",
+   "evidence": "同等评估预算实测（每次约 9601 次评估，3 个种子的中位数）：本算法 434.6，随机搜索 583.8（越小越好）",
+   "demo": "/problem/vrpstw/",
+   "demo_algo": "ts",
+   "tier": "实测"
+  },
+  {
+   "algo": "vns",
+   "problem": "vrpstw",
+   "how": "变邻域搜索 VNS",
+   "evidence": "同等评估预算实测（每次约 3619 次评估，3 个种子的中位数）：本算法 451.3，随机搜索 597.4（越小越好）",
+   "demo": "/problem/vrpstw/",
+   "demo_algo": "vns",
+   "tier": "实测"
+  },
+  {
+   "algo": "ica",
+   "problem": "vrpstw",
+   "how": "帝国竞争 ICA（排列）",
+   "evidence": "同等评估预算实测（每次约 5789 次评估，3 个种子的中位数）：本算法 466.6，随机搜索 597.4（越小越好）",
+   "demo": "/problem/vrpstw/",
+   "demo_algo": "pk_ica",
+   "tier": "实测"
+  },
+  {
+   "algo": "aco",
+   "problem": "vrpstw",
+   "how": "蚁群 ACO",
+   "evidence": "同等评估预算实测（每次约 6000 次评估，3 个种子的中位数）：本算法 466.6，随机搜索 597.4（越小越好）",
+   "demo": "/problem/vrpstw/",
+   "demo_algo": "aco",
+   "tier": "实测"
+  },
+  {
+   "algo": "de",
+   "problem": "vrpstw",
+   "how": "差分 DE",
+   "evidence": "同等评估预算实测（每次约 6030 次评估，3 个种子的中位数）：本算法 470.3，随机搜索 597.4（越小越好）",
+   "demo": "/problem/vrpstw/",
+   "demo_algo": "de",
+   "tier": "实测"
+  },
+  {
+   "algo": "sa",
+   "problem": "vrpstw",
+   "how": "模拟退火 SA",
+   "evidence": "同等评估预算实测（每次约 205 次评估，3 个种子的中位数）：本算法 564.9，随机搜索 714.9（越小越好）",
+   "demo": "/problem/vrpstw/",
+   "demo_algo": "sa",
+   "tier": "实测"
+  },
+  {
+   "algo": "jaya",
+   "problem": "vrpstw",
+   "how": "Jaya（排列）",
+   "evidence": "同等评估预算实测（每次约 6030 次评估，3 个种子的中位数）：本算法 475.8，随机搜索 597.4（越小越好）",
+   "demo": "/problem/vrpstw/",
+   "demo_algo": "pk_jaya",
+   "tier": "实测"
+  },
+  {
+   "algo": "ssa",
+   "problem": "vrpstw",
+   "how": "麻雀搜索 SSA（排列）",
+   "evidence": "同等评估预算实测（每次约 6630 次评估，3 个种子的中位数）：本算法 487，随机搜索 597.4（越小越好）",
+   "demo": "/problem/vrpstw/",
+   "demo_algo": "pk_ssa",
+   "tier": "实测"
+  },
+  {
+   "algo": "hho",
+   "problem": "vrpstw",
+   "how": "哈里斯鹰 HHO（排列）",
+   "evidence": "同等评估预算实测（每次约 7865 次评估，3 个种子的中位数）：本算法 475.9，随机搜索 583.8（越小越好）",
+   "demo": "/problem/vrpstw/",
+   "demo_algo": "pk_hho",
+   "tier": "实测"
+  },
+  {
+   "algo": "sa",
+   "problem": "vrptw",
+   "how": "模拟退火 SA",
+   "evidence": "同等评估预算实测（每次约 204 次评估，3 个种子的中位数）：本算法 536.9，随机搜索 815.7（越小越好）",
+   "demo": "/problem/vrptw/",
+   "demo_algo": "sa",
+   "tier": "实测"
+  },
+  {
+   "algo": "ga",
+   "problem": "vrptw",
+   "how": "遗传算法 GA（排列）",
+   "evidence": "同等评估预算实测（每次约 6030 次评估，3 个种子的中位数）：本算法 435.6，随机搜索 608.8（越小越好）",
+   "demo": "/problem/vrptw/",
+   "demo_algo": "ga",
+   "tier": "实测"
+  },
+  {
+   "algo": "vns",
+   "problem": "vrptw",
+   "how": "变邻域搜索 VNS",
+   "evidence": "同等评估预算实测（每次约 3497 次评估，3 个种子的中位数）：本算法 443.7，随机搜索 608.8（越小越好）",
+   "demo": "/problem/vrptw/",
+   "demo_algo": "vns",
+   "tier": "实测"
+  },
+  {
+   "algo": "ils",
+   "problem": "vrptw",
+   "how": "迭代局部搜索 ILS",
+   "evidence": "同等评估预算实测（每次约 4618 次评估，3 个种子的中位数）：本算法 447.9，随机搜索 608.8（越小越好）",
+   "demo": "/problem/vrptw/",
+   "demo_algo": "ils",
+   "tier": "实测"
+  },
+  {
+   "algo": "ts",
+   "problem": "vrptw",
+   "how": "禁忌搜索 TS（排列）",
+   "evidence": "同等评估预算实测（每次约 9601 次评估，3 个种子的中位数）：本算法 434.6，随机搜索 583.8（越小越好）",
+   "demo": "/problem/vrptw/",
+   "demo_algo": "ts",
+   "tier": "实测"
+  },
+  {
+   "algo": "bbo",
+   "problem": "vrptw",
+   "how": "生物地理 BBO（排列）",
+   "evidence": "同等评估预算实测（每次约 6030 次评估，3 个种子的中位数）：本算法 462.4，随机搜索 608.8（越小越好）",
+   "demo": "/problem/vrptw/",
+   "demo_algo": "pk_bbo",
+   "tier": "实测"
+  },
+  {
+   "algo": "mpa",
+   "problem": "vrptw",
+   "how": "海洋掠食者 MPA（排列）",
+   "evidence": "同等评估预算实测（每次约 12030 次评估，3 个种子的中位数）：本算法 447.9，随机搜索 583.8（越小越好）",
+   "demo": "/problem/vrptw/",
+   "demo_algo": "pk_mpa",
+   "tier": "实测"
+  },
+  {
+   "algo": "aco",
+   "problem": "vrptw",
+   "how": "蚁群 ACO",
+   "evidence": "同等评估预算实测（每次约 6000 次评估，3 个种子的中位数）：本算法 467.6，随机搜索 608.8（越小越好）",
+   "demo": "/problem/vrptw/",
+   "demo_algo": "aco",
+   "tier": "实测"
+  },
+  {
+   "algo": "tlbo",
+   "problem": "vrptw",
+   "how": "TLBO（排列）",
+   "evidence": "同等评估预算实测（每次约 9030 次评估，3 个种子的中位数）：本算法 451.3，随机搜索 583.8（越小越好）",
+   "demo": "/problem/vrptw/",
+   "demo_algo": "pk_tlbo",
+   "tier": "实测"
+  },
+  {
+   "algo": "fa",
+   "problem": "vrptw",
+   "how": "萤火虫 FA（排列）",
+   "evidence": "同等评估预算实测（每次约 1036 次评估，3 个种子的中位数）：本算法 584.1，随机搜索 755.3（越小越好）",
+   "demo": "/problem/vrptw/",
+   "demo_algo": "pk_fa",
+   "tier": "实测"
+  },
+  {
+   "algo": "ica",
+   "problem": "vrptw",
+   "how": "帝国竞争 ICA（排列）",
+   "evidence": "同等评估预算实测（每次约 5799 次评估，3 个种子的中位数）：本算法 485.7，随机搜索 608.8（越小越好）",
+   "demo": "/problem/vrptw/",
+   "demo_algo": "pk_ica",
+   "tier": "实测"
+  },
+  {
+   "algo": "pso",
+   "problem": "vrptw",
+   "how": "粒子群 PSO（排列）",
+   "evidence": "同等评估预算实测（每次约 6030 次评估，3 个种子的中位数）：本算法 496.2，随机搜索 608.8（越小越好）",
+   "demo": "/problem/vrptw/",
+   "demo_algo": "pk_pso",
+   "tier": "实测"
+  }
+ ],
+ "reductions": [
+  {
+   "from": "partition",
+   "to": "binpack",
+   "type": "等价",
+   "note": "划分 ≡ₚ 2-箱装箱：箱数固定 k=2（每箱容量 Σ/2）时，「能否平分成两堆」与「能否装进 2 箱」是同一个判定问题，双向归约成立——人话：数划分就是 2 箱装箱。但一般 k 箱装箱（k 是输入一部分）是强 NP-hard（G&J SR1），而划分本身是弱 NP-complete（伪多项式 DP 可解）——强/弱之差正说明这条等价不能外推到 k>2",
+   "src": "Garey &amp; Johnson 1979"
+  },
+  {
+   "from": "subsetsum",
+   "to": "partition",
+   "type": "归约",
+   "note": "子集和 ≤ₚ 划分：目标值 T 对应「能否分成差为 T 与 Σ−T 的两堆」的变形判定（经典练习）",
+   "src": "Garey &amp; Johnson 1979"
+  },
+  {
+   "from": "partition",
+   "to": "subsetsum",
+   "type": "等价",
+   "note": "数划分与子集和互相归约：划分判定就是「是否存在子集和恰为 Σ/2」——两者在 Karp 意义上等价，难度同档",
+   "src": "Karp, Reducibility Among Combinatorial Problems, 1972"
+  },
+  {
+   "from": "knapsack",
+   "to": "subsetsum",
+   "type": "推广",
+   "note": "子集和 = 0-1 背包判定版取 v_i=w_i 的特例；0-1 背包是其加权推广",
+   "src": "Garey &amp; Johnson 1979"
+  },
+  {
+   "from": "multidim",
+   "to": "knapsack",
+   "type": "推广",
+   "note": "多维背包 = 0-1 背包的约束从 1 条扩到 m 条（容量向量）",
+   "src": "Kellerer, Pferschy &amp; Pisinger, Knapsack Problems, Springer 2004"
+  },
+  {
+   "from": "knapsack",
+   "to": "fractional",
+   "type": "特例",
+   "note": "0-1 背包是分数背包的特例（每件只许取 0 或 1）：可行域收窄成离散选择，精确解回到 NP-hard 区。人话：分数背包是松弛版，0-1 背包是收紧版",
+   "src": "Kellerer, Pferschy &amp; Pisinger 2004"
+  },
+  {
+   "from": "multiobj",
+   "to": "knapsack",
+   "type": "推广",
+   "note": "多目标背包 = 0-1 背包的目标从 1 个扩到 k 个：解从一个点变一条 Pareto 前沿",
+   "src": "Deb, Multi-Objective Optimization using Evolutionary Algorithms, Wiley 2001"
+  },
+  {
+   "from": "tsp",
+   "to": "assignment",
+   "type": "特例",
+   "note": "TSP 是 QAP 的特例：距离矩阵即 QAP 的流向结构退化为单一哈密顿回路",
+   "src": "Loiola et al., European J. of Operational Research 176:657, 2007"
+  },
+  {
+   "from": "graphcolor",
+   "to": "qubo",
+   "type": "归约",
+   "note": "k-可着色判定写成 QUBO：相邻同色的惩罚项 Σx_i x_j（one-hot 编码顶点颜色）",
+   "src": "Lucas, arXiv:1302.5843 (Frontiers in Physics 2:5, 2014)"
+  },
+  {
+   "from": "tsp",
+   "to": "qubo",
+   "type": "归约",
+   "note": "TSP 的标准 QUBO 形式（one-hot 城市位置 + 距离线性项 + 约束惩罚项）",
+   "src": "Lucas, arXiv:1302.5843, 2014"
+  },
+  {
+   "from": "bounded",
+   "to": "knapsack",
+   "type": "归约",
+   "note": "二进制拆分：物品 i 拆成 ⌊log cᵢ⌋+1 捆（1,2,4,…,cᵢ−2^k+1 件），BKP 转 0-1 KP",
+   "src": "Kellerer, Pferschy &amp; Pisinger (2004) Ch.7；Martello &amp; Toth (1990)"
+  },
+  {
+   "from": "unbounded",
+   "to": "bounded",
+   "type": "特例",
+   "note": "UKP 是 BKP 的特例：取有效上界 cᵢ=⌊C/wᵢ⌋ 即退化为有界背包",
+   "src": "Kellerer, Pferschy &amp; Pisinger (2004) Ch.8"
+  },
+  {
+   "from": "changemaking",
+   "to": "unbounded",
+   "type": "特例",
+   "note": "找零是 UKP 的目标-约束对调取等：最大化已选硬币总价值 ⇔ 最小化凑足金额 C 的硬币数",
+   "src": "Martello &amp; Toth (1990) 找零问题专章"
+  },
+  {
+   "from": "multiplechoice",
+   "to": "knapsack",
+   "type": "归约",
+   "note": "MCKP 的 LP 松弛至多一个分数变量，整数核即 0-1 KP；归约即证 NP-hard",
+   "src": "Kellerer, Pferschy &amp; Pisinger (2004) Ch.11；Dyer (1984) J.ACM 31(3)"
+  },
+  {
+   "from": "binpack",
+   "to": "vsbpp",
+   "type": "特例",
+   "note": "一维装箱是变尺寸箱装箱（VSBPP）的特例：所有箱子容量取同一值，尺寸维度消失。VSBPP 才是更一般的问题",
+   "src": "Friesen &amp; Langston (1986). SIAM J. Comput. 15(1):222–230"
+  },
+  {
+   "from": "binpack",
+   "to": "bpp2d",
+   "type": "特例",
+   "note": "一维装箱是二维装箱的特例：所有物品高度取同一值（条带高度=1），二维退化为一条线。二维才是更一般的问题",
+   "src": "Wäscher, Haußner &amp; Schumann (2007). EJOR 183(3):1109–1130（类型学）"
+  },
+  {
+   "from": "graphcolor",
+   "to": "lcp",
+   "type": "特例",
+   "note": "列表全部相同时退化为经典点着色",
+   "src": "Jensen &amp; Toft (1995). Graph Coloring Problems, Wiley"
+  },
+  {
+   "from": "ecp",
+   "to": "graphcolor",
+   "type": "归约",
+   "note": "边着色(G) = 线图 L(G) 的点着色（Whitney 1932 线图变换）",
+   "src": "Holyer (1981). SIAM J. Comput. 10(4):718–720"
+  },
+  {
+   "from": "sat",
+   "to": "maxsat",
+   "type": "特例",
+   "note": "SAT 是「目标=全部子句满足」的 MAX-SAT 特例",
+   "src": "Garey &amp; Johnson (1979) A9.1"
+  }
+ ],
+ "graph": {
+  "view": [
+   1100,
+   800
+  ],
+  "pos": {
+   "tsp": [
+    200,
+    120
+   ],
+   "assignment": [
+    640,
+    110
+   ],
+   "qubo": [
+    860,
+    140
+   ],
+   "graphcolor": [
+    90,
+    230
+   ],
+   "knapsack": [
+    420,
+    350
+   ],
+   "fractional": [
+    230,
+    230
+   ],
+   "bounded": [
+    560,
+    210
+   ],
+   "multiple": [
+    650,
+    290
+   ],
+   "discounted": [
+    750,
+    350
+   ],
+   "multidim": [
+    570,
+    450
+   ],
+   "quadratic": [
+    470,
+    500
+   ],
+   "subsetsum": [
+    280,
+    510
+   ],
+   "partition": [
+    120,
+    590
+   ],
+   "binpack": [
+    100,
+    420
+   ],
+   "continuous": [
+    520,
+    620
+   ],
+   "multiobj": [
+    770,
+    530
+   ],
+   "unbounded": [
+    330,
+    150
+   ],
+   "changemaking": [
+    620,
+    140
+   ],
+   "multiplechoice": [
+    800,
+    240
+   ],
+   "scp": [
+    870,
+    490
+   ],
+   "mis": [
+    150,
+    430
+   ],
+   "bpp2d": [
+    930,
+    620
+   ],
+   "spp": [
+    930,
+    300
+   ],
+   "vsbpp": [
+    940,
+    390
+   ],
+   "csp": [
+    700,
+    640
+   ],
+   "lcp": [
+    60,
+    80
+   ],
+   "ecp": [
+    60,
+    330
+   ],
+   "prext": [
+    240,
+    40
+   ],
+   "tcp": [
+    330,
+    60
+   ],
+   "sat": [
+    700,
+    40
+   ],
+   "maxsat": [
+    800,
+    40
+   ],
+   "bbob": [
+    300,
+    700
+   ],
+   "moco": [
+    560,
+    710
+   ],
+   "maop": [
+    880,
+    660
+   ],
+   "uflp": [
+    1040,
+    240
+   ]
+  }
+ }
+}

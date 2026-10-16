@@ -1,0 +1,3359 @@
+[
+  {
+    "key": "pso",
+    "slug": "pso-tsp",
+    "name": "粒子群算法 PSO",
+    "title": "粒子群算法（PSO）求解 TSP 在线演示 · 路径动画与收敛曲线",
+    "desc": "离散粒子群算法求解旅行商问题（TSP）的在线演示：可调惯性权重与学习因子，实时查看路径进化与收敛曲线，支持暂停、单步、调速，算法在浏览器本地运行。",
+    "h1": "粒子群算法（PSO）求解 TSP 在线演示",
+    "lead": "粒子群算法靠「群体中的个体互相学习」求解：每个粒子是一个候选路径，它同时向自己的历史最优和全群最优靠近。",
+    "intro": [
+      "标准 PSO 是为连续空间设计的，位置和速度都是实数。TSP 的解是一个排列，所以必须做离散化——本页面用的是<strong>交换序列</strong>：把「速度」定义为一串城市交换操作，粒子位置（路径）执行这串交换即完成一次移动。",
+      "这也是 PSO 做 TSP 时最容易写错的地方：如果让速度被 100% 执行，所有粒子一代之内就会变成全局最优解的复制品，种群直接坍塌，收敛曲线是一条直线。本实现给两个学习项各乘一个随机数，让粒子只是「部分靠近」。"
+    ],
+    "principle": [
+      "初始化：每代若干粒子，每个粒子是一条路径，第一个粒子用最近邻解播种。",
+      "计算速度：v = 惯性项 + 到个体历史最优 pbest 的交换序列 + 到全局最优 gbest 的交换序列，三项各按概率截断取前缀。",
+      "更新位置：把速度里的交换操作依次作用到当前路径上。",
+      "局部搜索（memetic）：以一定概率对个体做小预算 2-opt，这是 PSO 在 TSP 上能跑赢 2-opt 的关键。",
+      "更新 pbest / gbest，进入下一代。"
+    ],
+    "params": [
+      [
+        "w",
+        "0.6",
+        "惯性权重：保留多少上一代的速度。越大越爱探索，越小越快收敛"
+      ],
+      [
+        "c1",
+        "1.2",
+        "个体学习因子：向自己的历史最优靠近的强度"
+      ],
+      [
+        "c2",
+        "1.2",
+        "社会学习因子：向全群最优靠近的强度"
+      ],
+      [
+        "local_search",
+        "0.05",
+        "每代对每个粒子做一次 2-opt 的概率（memetic 组件，别设为 0）"
+      ],
+      [
+        "n_particles",
+        "30",
+        "粒子数（大实例自动降配以保证浏览器流畅）"
+      ]
+    ],
+    "paper": "Kennedy, J. &amp; Eberhart, R. (1995). Particle Swarm Optimization. Proc. IEEE ICNN 1995, Perth, 1942-1948（原始 PSO）",
+    "faq": [
+      [
+        "为什么我的 PSO 收敛曲线是一条直线？",
+        "几乎可以确定是速度被完整执行导致种群坍塌。检查 c1/c2 是否各乘了随机数、速度是否取的是连续前缀而不是随机子集。"
+      ],
+      [
+        "PSO 和遗传算法哪个更适合 TSP？",
+        "单看 TSP，蚁群通常最强（信息素天然编码了「边的好坏」），PSO 与 GA 接近。本页实测 200 代下三者差距在 3% 以内。"
+      ],
+      [
+        "参数怎么调？",
+        "先动 c2（社会学习）：调度过高会过早收敛，过低则收敛慢。w 从 0.9 线性降到 0.4 是经典做法。"
+      ],
+      [
+        "默认 w=0.6 是常量权重，和「线性衰减 0.9→0.4」的经典建议矛盾吗？",
+        "不矛盾，是两种口径：本页 TSP 离散版用保守的常量 w=0.6 当默认（交换序列语义下衰减调度收益不稳）；连续域的经典做法确实是 w 从 0.9 线性降到 0.4——想试就按迭代进度手动缩放 w。"
+      ]
+    ],
+    "family": "F2",
+    "use_when": "连续 / 实向量优化，目标函数平滑、评估快；想要参数少、上手快的群智能基线。",
+    "avoid_when": "直接搬到离散 / 排列问题——本站把 PSO 离散化到 TSP 后成绩平庸；强约束组合问题。",
+    "origin": "<p>Kennedy 与 Eberhart (1995) 受鸟群 / 鱼群觅食的社会模拟启发提出：每个粒子有位置与速度，同时向<b>自己的历史最优</b>和<b>群体（或邻域）最优</b>靠近。最初只是想模拟鸟群的集体运动，后来发现它能优化连续函数，很快成为应用最广的群智能算法之一。Shi 与 Eberhart (1998) 加入惯性权重，Clerc 与 Kennedy (2002) 的收缩因子给出了稳定性分析。</p>",
+    "theory": "<p>粒子群的动力学是一个二阶线性随机系统：Clerc &amp; Kennedy (2002) 分析了其稳定域，说明参数 (w, c₁, c₂) 落在某个区域时粒子轨迹收敛、否则发散；van den Bergh &amp; Engelbrecht 的分析指出，<b>标准 PSO 并不能保证收敛到局部最优</b>，只能保证停滞（粒子聚在 pbest 与 gbest 之间的点）。实践中它对旋转 / 非可分函数并不稳健，需要邻域拓扑（环形、冯诺依曼）来保持多样性。<b>离散化（排列、二进制）都是外加的启发式</b>：本站 TSP 版用交换序列，与连续 PSO 的数学性质没有直接关系。</p>",
+    "variants": [
+      "<b>标准 PSO 2007 / 2011</b>（Bratton &amp; Kennedy；Clerc 的收缩因子版）：局部环形拓扑 + 收缩因子 χ≈0.729，实验上比原版稳健。",
+      "<b>CLPSO</b>（Liang 等 2006）：每个维度向不同粒子的 pbest 学习，大幅改善多峰函数上的多样性。",
+      "<b>BPSO</b>（Kennedy &amp; Eberhart 1997）：二进制版，速度经 sigmoid 映射为取 1 的概率；<b>离散 TSP 版</b>（Clerc 2004）用交换序列代表速度。"
+    ],
+    "refs": [
+      "Kennedy &amp; Eberhart (1995). Particle swarm optimization. In Proceedings of IEEE ICNN 1995, 1942-1948",
+      "Shi &amp; Eberhart (1998). A modified particle swarm optimizer. In Proceedings of IEEE ICEC 1998, 69-73",
+      "Clerc &amp; Kennedy (2002). The particle swarm — explosion, stability, and convergence in a multidimensional complex space. IEEE Transactions on Evolutionary Computation, 6(1), 58-73",
+      "Poli, Kennedy &amp; Blackwell (2007). Particle swarm optimization: An overview. Swarm Intelligence, 1(1), 33-57",
+      "van den Bergh &amp; Engelbrecht (2010). A convergence proof for the particle swarm optimiser. Fundamenta Informaticae, 105(4), 341-374",
+      "Liang, Qin, Suganthan &amp; Baskar (2006). Comprehensive learning particle swarm optimizer for global optimization of multimodal functions. IEEE Transactions on Evolutionary Computation, 10(3), 281-295",
+      "Kennedy &amp; Eberhart (1997). A discrete binary version of the particle swarm algorithm. In Proceedings of IEEE SMC 1997, 4104-4108"
+    ],
+    "tagline_en": "Particles share their own and the swarm's best positions; here discretised for permutations.",
+    "summary_en": "Particle Swarm Optimization (Kennedy & Eberhart, 1995) moves a swarm of candidate solutions, each pulled towards its own best-so-far and the swarm's best. It was designed for continuous spaces, so for TSP the velocity update is replaced by swap sequences and position-update rules on permutations. It is a good parameter-light baseline for smooth continuous problems; on discrete problems the discretisation costs it most of its edge. On this site every algorithm solves TSP with a permutation encoding plus a shared memetic 2-opt component, so the comparison is of frameworks on equal footing, not of whose metaphor is cleverer.",
+    "name_en": "Particle Swarm Optimization (PSO)"
+  },
+  {
+    "key": "aco",
+    "slug": "aco-tsp",
+    "name": "蚁群算法 ACO",
+    "title": "蚁群算法（ACO）求解 TSP 在线演示 · 信息素与路径动画",
+    "desc": "蚁群算法求解旅行商问题（TSP）的在线演示：可调信息素重要度、启发式因子与挥发率，实时查看蚂蚁构造路径与收敛曲线，浏览器本地运行，无需安装。",
+    "h1": "蚁群算法（ACO）求解 TSP 在线演示",
+    "lead": "蚁群靠「信息素」做间接通信：走过的蚂蚁在边上留下信息素，越短的路径留下越多，后来的蚂蚁越倾向于走这些边。",
+    "intro": [
+      "ACO 天生适合 TSP——信息素本来就是标在「边」上的，而 TSP 要决定的正是选哪些边。这也是它在 TSP 上通常优于 PSO / GA 的原因。",
+      "本实现包含四个工程上必需的组件：<strong>候选列表</strong>（每步只看最近的 20 个邻居，把 O(n²) 降到 O(n·k)，否则 100 城市在浏览器里跑不完）、<strong>精英蚂蚁</strong>、<strong>信息素挥发</strong>、以及<strong>周期性 2-opt</strong>。"
+    ],
+    "principle": [
+      "初始化：所有边信息素设为同一初值。",
+      "构造：每只蚂蚁按 τ^α · (1/d)^β 做轮盘赌，逐城选择，走完全程得到一条路径。",
+      "局部搜索：每 N 代对全局最优做一次 2-opt（蚁群系统 ACS 的标准操作，不是作弊）。",
+      "更新：先全局挥发 ρ，再让精英蚂蚁按 1/L 在所属边上释放信息素。",
+      "重复直到迭代上限，输出历史最优。"
+    ],
+    "params": [
+      [
+        "alpha",
+        "1.0",
+        "信息素重要度：越大越依赖历史经验"
+      ],
+      [
+        "beta",
+        "3.0",
+        "启发式重要度：越大越贪心地选近的城市（TSP 上通常 alpha &lt; beta）"
+      ],
+      [
+        "rho",
+        "0.5",
+        "挥发率：越大遗忘越快，越小越容易早熟"
+      ],
+      [
+        "cand_k",
+        "20",
+        "候选列表长度：每步只在最近的 k 个邻居里选，性能关键参数"
+      ],
+      [
+        "ls_every",
+        "5",
+        "每多少代对全局最优做一次 2-opt。设为 0 会明显变差"
+      ]
+    ],
+    "paper": "Dorigo, 1992（博士论文）/ Dorigo et al., 1996, IEEE Trans. on Systems, Man, and Cybernetics, Part B 26(1):29-41",
+    "faq": [
+      [
+        "为什么关掉 2-opt 后蚁群在大规模实例上会输给 2-opt？",
+        "这是正常的：纯蚁群收敛慢，ACS 的标准配方就包含局部搜索。本项目有一条自动化测试专门防止「下降全靠 2-opt」的假跑。"
+      ],
+      [
+        "候选列表会让结果变差吗？",
+        "几乎不会，但会让速度快一个量级。k 取 10–20 是常见选择，城市数很大时可以再放大。"
+      ],
+      [
+        "信息素会不会无限累积？",
+        "有挥发项 ρ 就不会。若把 rho 设为 0，算法会迅速早熟卡死。"
+      ]
+    ],
+    "family": "F2",
+    "use_when": "路径构造类组合优化（TSP / 路由 / 网络），解可以一步步「贪心 + 信息素」搭出来。",
+    "avoid_when": "高维连续优化；需要严格数学保证的场合——它是随机构造启发式，不是精确算法。",
+    "origin": "<p>Dorigo 在 1992 年的博士论文里提出蚂蚁系统（Ant System），灵感来自蚂蚁用信息素找到食物到巢穴的最短路径的实验（Deneubourg 等的双桥实验）；Dorigo、Maniezzo 与 Colorni (1996) 发表了后来广为引用的版本，首个应用就是 TSP。之后 Ant Colony System (Dorigo &amp; Gambardella 1997) 与 MAX–MIN Ant System (Stützle &amp; Hoos 2000) 成为 TSP 上最成功的两个变体。</p>",
+    "theory": "<p>ACO 是<b>少数有收敛证明</b>的群智能算法：Gutjahr (2002) 证明在合适的信息素更新与下界约束下，图基 ACO 以概率 1 找到最优解；Stützle &amp; Dorigo (2002) 给出了 MMAS 型算法值收敛的简短证明。运行时间的理论分析也开始出现（Neumann &amp; Witt 2010 对最小生成树的分析）。实践中它与「构造 + 局部搜索」的混合最强：在 TSP 上，蚁群常与 2-opt / 3-opt 局部搜索结合，信息素的作用是<b>把搜索集中到好边附近</b>。它与「基于模型的搜索」（交叉熵方法、EDA）是同一族：信息素矩阵就是一个解的概率模型。</p>",
+    "variants": [
+      "<b>AS</b>（Dorigo 等 1996）：所有蚂蚁释放信息素；<b>ACS</b>（Dorigo &amp; Gambardella 1997）：伪随机比例规则 + 局部信息素更新 + 只有全局最优者强化；",
+      "<b>MMAS</b>（Stützle &amp; Hoos 2000）：只有迭代最优 / 全局最优者强化，信息素限定在 [τ_min, τ_max]，防止过早停滞；",
+      "<b>排序蚁群 AS_rank</b>（Bullnheimer 等 1999）、<b>BWAS</b>、连续域的 ACO_R（Socha &amp; Dorigo 2008）。"
+    ],
+    "refs": [
+      "Dorigo, Maniezzo &amp; Colorni (1996). Ant system: Optimization by a colony of cooperating agents. IEEE Transactions on Systems, Man, and Cybernetics, Part B, 26(1), 29-41",
+      "Dorigo &amp; Gambardella (1997). Ant colony system: A cooperative learning approach to the traveling salesman problem. IEEE Transactions on Evolutionary Computation, 1(1), 53-66",
+      "Stützle &amp; Hoos (2000). MAX-MIN ant system. Future Generation Computer Systems, 16(8), 889-914",
+      "Gutjahr (2002). ACO algorithms with guaranteed convergence to the optimal solution. Information Processing Letters, 82(3), 145-153",
+      "Stützle &amp; Dorigo (2002). A short convergence proof for a class of ant colony optimization algorithms. IEEE Transactions on Evolutionary Computation, 6(4), 358-365",
+      "Dorigo &amp; Stützle (2004). Ant Colony Optimization. MIT Press",
+      "Socha &amp; Dorigo (2008). Ant colony optimization for continuous domains. European Journal of Operational Research, 185(3), 1155-1173"
+    ],
+    "tagline_en": "Ants build tours step by step and deposit pheromone; shorter tours leave more.",
+    "summary_en": "Ant Colony Optimization (Dorigo, 1992; Dorigo et al., 1996) builds solutions constructively: each ant extends a partial tour using pheromone and a greedy heuristic, and shorter tours reinforce their edges. It is natural for path-construction problems such as TSP and routing, and a poor fit for high-dimensional continuous optimisation. It is a randomised construction heuristic, not an exact method. On this site every algorithm solves TSP with a permutation encoding plus a shared memetic 2-opt component, so the comparison is of frameworks on equal footing, not of whose metaphor is cleverer.",
+    "name_en": "Ant Colony Optimization (ACO)"
+  },
+  {
+    "key": "abc",
+    "slug": "abc-tsp",
+    "name": "人工蜂群 ABC",
+    "title": "人工蜂群算法（ABC）求解 TSP 在线演示 · 三阶段蜂群行为动画",
+    "desc": "人工蜂群算法（ABC）求解旅行商问题（TSP）的在线演示：雇佣蜂、观察蜂、侦察蜂三阶段协作，可调放弃上限 limit，实时收敛曲线，浏览器本地运行。",
+    "h1": "人工蜂群算法（ABC）求解 TSP 在线演示",
+    "lead": "人工蜂群把搜索分工给三种蜂：雇佣蜂守着已知蜜源做深度开发，观察蜂按蜜源质量摇号增援，侦察蜂负责放弃枯竭的蜜源另起炉灶。",
+    "intro": [
+      "ABC（Karaboga, 2005）的精髓是<strong>「开发」与「放弃」的平衡</strong>：雇佣蜂和观察蜂都是贪心的邻域搜索，但侦察蜂会统计每个蜜源连续多少代没有改进，超过 limit 就整只放弃、随机重置——这是 ABC 跳出局部最优的核心机制，也是它和纯爬山法的本质区别。",
+      "离散化映射：蜜源 = 一条路径；邻域算子 = 片段逆转或交换两点（TSP 文献中 ABC 的标准做法）。页面可以调「逆转算子概率」，直观对比两种邻域算子的搜索效率。"
+    ],
+    "principle": [
+      "初始化：多起点最近邻播种，生成与蜜源数相同的候选路径。",
+      "雇佣蜂阶段：每只雇佣蜂对自己的蜜源做一次邻域搜索，新解更好则替换并清零等待计数，否则计数 +1。",
+      "观察蜂阶段：按适应度（1/(1+路径长)）轮盘赌选择蜜源，再次邻域搜索——好蜜源被更多蜜蜂开发。",
+      "侦察蜂阶段：连续 limit 代无改进的蜜源被放弃，从新的最近邻起点重新播种。",
+      "每代输出全局最优；可选拼周期性 2-opt 强化（与 ACO 同款 memetic 钩子）。"
+    ],
+    "params": [
+      [
+        "n_bea",
+        "24",
+        "蜜源数（=雇佣蜂=观察蜂数量）"
+      ],
+      [
+        "limit",
+        "12",
+        "放弃上限：蜜源连续多少代无改进就被侦察蜂重置。太小浪费好解，太大跳不出局部最优"
+      ],
+      [
+        "mutate_p",
+        "0.5",
+        "邻域搜索选片段逆转的概率，否则交换两点"
+      ],
+      [
+        "ls_every",
+        "5",
+        "每多少代对全局最优做一次 2-opt 并回灌"
+      ],
+      [
+        "seed",
+        "42",
+        "随机种子（影响初始播种与邻域采样）"
+      ]
+    ],
+    "paper": "Karaboga, 2005（技术报告 TR06）；Karaboga &amp; Basturk, 2007, Journal of Global Optimization",
+    "faq": [
+      [
+        "ABC 和遗传算法有什么区别？",
+        "GA 靠交叉混合两个父代的信息，ABC 的观察蜂是「围着已有蜜源做邻域搜索」——信息来自单个解的邻域而非两个解的重组。ABC 参数更少（核心只有 limit），调参负担小。"
+      ],
+      [
+        "limit 设多少合适？",
+        "常用 10–50。蜜源越快枯竭（易优化问题）limit 越小越好；难优化问题可以放大 limit 减少无效重置。本页 30 城市用 12。"
+      ],
+      [
+        "侦察蜂重置会不会浪费搜索成果？",
+        "会有浪费，但这是有意的多样性投资。实测把 limit 调到 50 以上，ABC 会退化成纯爬山法，更容易卡在局部最优。"
+      ]
+    ],
+    "family": "F2",
+    "use_when": "目标函数评估便宜的连续问题；想对照蜂群「雇佣 / 观察 / 侦察」三阶段机制。",
+    "avoid_when": "评估昂贵的工程问题——侦察蜂阶段会浪费大量评估次数。",
+    "origin": "<p>Karaboga (2005) 的技术报告提出，模仿蜜蜂的觅食分工：<b>雇佣蜂</b>在蜜源附近搜索、<b>观察蜂</b>按蜜源质量（轮盘赌）选择去哪个蜜源、<b>侦察蜂</b>在蜜源被放弃（连续 limit 次没改进）后随机重置。Karaboga &amp; Basturk (2007) 把它与 DE、PSO 在多峰函数上比较，使它迅速流行。</p>",
+    "theory": "<p>ABC 的核心更新式 vᵢⱼ = xᵢⱼ + φ(xᵢⱼ − xₖⱼ) 与差分进化的变异算子在形式上非常接近（单分量、随机邻居差分），区别主要在选择方式（贪心 + 概率选择）与「放弃—重置」机制。它的优点是参数少（种群与 limit），缺点是<b>探索强、开发弱</b>：Zhu &amp; Kwong (2010) 的 GABC 把全局最优引入搜索式以加快收敛。收敛性方面没有一般性的证明，只有针对简化模型的分析。对离散问题（TSP）的 ABC 版本是邻域操作（2-opt / 交换）的包装。</p>",
+    "variants": [
+      "<b>GABC</b>（Zhu &amp; Kwong 2010）：搜索式加上向全局最优的项；",
+      "<b>MABC</b>（Akay &amp; Karaboga 2012）：自适应扰动幅度与更强的观察蜂选择；",
+      "<b>离散 ABC</b>：邻域操作（交换 / 插入 / 2-opt）代替连续的加减，用于 TSP、背包与调度。"
+    ],
+    "refs": [
+      "Karaboga (2005). An idea based on honey bee swarm for numerical optimization. Technical Report TR06, Erciyes University",
+      "Karaboga &amp; Basturk (2007). A powerful and efficient algorithm for numerical function optimization: Artificial bee colony (ABC) algorithm. Journal of Global Optimization, 39(3), 459-471",
+      "Karaboga &amp; Basturk (2008). On the performance of artificial bee colony (ABC) algorithm. Applied Soft Computing, 8(1), 687-697",
+      "Zhu &amp; Kwong (2010). Gbest-guided artificial bee colony algorithm for numerical function optimization. Applied Mathematics and Computation, 217(7), 3166-3173",
+      "Akay &amp; Karaboga (2012). A modified artificial bee colony algorithm for real-parameter optimization. Information Sciences, 192, 120-142",
+      "Karaboga, Gorkemli, Ozturk &amp; Karaboga (2014). A comprehensive survey: Artificial bee colony (ABC) algorithm and applications. Artificial Intelligence Review, 42(1), 21-57"
+    ],
+    "tagline_en": "Employed, onlooker and scout bees split exploitation, selection and exploration.",
+    "summary_en": "Artificial Bee Colony (Karaboga, 2005; Karaboga & Basturk, 2007) divides the search into employed bees (exploit known food sources), onlookers (choose sources by quality) and scouts (abandon exhausted sources). It suits continuous problems with cheap evaluations; the scout phase can waste many evaluations when evaluations are expensive. On this site every algorithm solves TSP with a permutation encoding plus a shared memetic 2-opt component, so the comparison is of frameworks on equal footing, not of whose metaphor is cleverer.",
+    "name_en": "Artificial Bee Colony (ABC)"
+  },
+  {
+    "key": "fa",
+    "slug": "fa-tsp",
+    "name": "萤火虫算法 FA",
+    "title": "萤火虫算法（FA）求解 TSP 在线演示 · 吸引度与光强衰减动画",
+    "desc": "萤火虫算法（FA）求解旅行商问题（TSP）的在线演示：亮度吸引、光吸收系数 γ、随机扰动 α 全部可调，含离散化实现细节与实时收敛曲线，浏览器本地运行。",
+    "h1": "萤火虫算法（FA）求解 TSP 在线演示",
+    "lead": "萤火虫算法只靠两条规则：亮的更吸引人，隔得远的吸引力弱。所有萤火虫向更亮者移动，光强就是路径质量的倒数。",
+    "intro": [
+      "FA（Yang, 2008）参数极少却兼顾探索与开发：<strong>吸引度 β = β₀·exp(-γ·r²)</strong>，其中 r 是两只萤火虫的距离。γ 大时只有近邻互相吸引（局部搜索强），γ 小时全局互相吸引（探索强）——一个参数切换两种模式。",
+      "本页的离散化踩坑记录比算法本身更值钱：原版 FA 的「多对多吸引 + 无条件移动」在排列域上完全失效（实测 200 代最优值纹丝不动），我们做了四组设计变体实验才找到能打的组合，全部过程写在实现注释里。"
+    ],
+    "principle": [
+      "初始化：多起点最近邻播种 + 轻量 2-opt 打磨（与 GWO 同款）。",
+      "亮度定义：I = 1/(1+路径长度)；距离 r = 两排列的汉明距离占比。",
+      "吸引移动：向当前最亮的萤火虫靠拢——「靠拢」= 按吸引度 β 的比例执行交换序列前缀（有步幅上限防种群坍塌）。",
+      "α 随机扰动：以概率 α_p 做一次短随机 2-opt 试射（贪心接受）——这是连续域「随机游走」在 TSP 域的等价物。",
+      "亮度衰减：α 随迭代线性下降，前期重探索、后期重开发。"
+    ],
+    "params": [
+      [
+        "n_fireflies",
+        "20",
+        "萤火虫数"
+      ],
+      [
+        "beta0",
+        "1.0",
+        "最大吸引度（距离为 0 时）"
+      ],
+      [
+        "gamma",
+        "1.0",
+        "光吸收系数：大=局部搜索强，小=全局探索强"
+      ],
+      [
+        "alpha_p",
+        "0.30",
+        "随机扰动概率"
+      ],
+      [
+        "alpha_trials",
+        "8",
+        "每次扰动包含的随机 2-opt 试射次数"
+      ]
+    ],
+    "paper": "Yang, 2008, Nature-Inspired Metaheuristic Algorithms; Yang &amp; He, 2013, Swarm Intelligence",
+    "faq": [
+      [
+        "FA 和 PSO 有什么区别？",
+        "PSO 有记忆（pbest/gbest），FA 没有记忆、纯靠「实时亮度」引导。FA 的 γ 提供了 PSO 没有的距离衰减自由度，参数空间更灵活但也更容易调坏。"
+      ],
+      [
+        "为什么我的 FA 收敛不动？",
+        "三个常见坑：① 多对多吸引在排列域退化为随机打乱（本页改为向最亮者吸引）；② 无条件移动让种群越走越差；③ 初始播种太弱。全部踩过，详见实现注释。"
+      ],
+      [
+        "γ 怎么调？",
+        "从 1.0 起步。收敛太快（早熟）就调小 γ 增强全局吸引；探索不足就调大 α_p。"
+      ]
+    ],
+    "family": "F2",
+    "use_when": "想体会「无记忆吸引」与 PSO「有记忆社会学习」的本质差别，或需要距离衰减自由度的连续问题；γ/α/β 三参数可做出漂亮的敏感性教学。",
+    "avoid_when": "吸引力随距离衰减+零记忆意味着参数比 PSO 更容易调坏；本站 TSP 组件上实战很少胜过 PSO/DE，更多作为教学对照而非主力。",
+    "origin": "<p>Yang (2008) 受萤火虫闪光与吸引行为启发提出：亮度（目标越好越亮）随距离衰减，暗的萤火虫向亮的移动。它与粒子群的区别是<b>全体两两比较</b>（O(n²) 每代），以及吸引力随距离按 exp(−γr²) 衰减，使种群可以自然分成多个小群（对多峰函数有利）。</p>",
+    "theory": "<p>FA 的更新式（向更亮者移动 + 随机项）可以写成带距离衰减权的「社会学习」，Camacho-Villalón、Stützle 与 Dorigo (2020) 的分析指出，萤火虫算法与粒子群等已有方法在数学上并无本质新意——它是一类引力型的成对吸引更新。γ 取极大时退化为随机搜索，γ→0 时所有萤火虫相互吸引，行为接近 PSO；α（随机项）若不随迭代衰减会阻碍收敛。<b>O(n²) 的代价</b>使它在大种群下比 PSO 慢得多。</p>",
+    "variants": [
+      "<b>标准 FA</b>（Yang 2008）；<b>LFA</b>（Lévy 飞行版）、<b>混沌 FA</b>、<b>离散 FA</b>（TSP 用交换序列或 2-opt 试射）；",
+      "<b>自适应 α、γ 的变体</b>：随迭代衰减随机项以平衡探索与开发。"
+    ],
+    "refs": [
+      "Yang (2008). Nature-Inspired Metaheuristic Algorithms. Luniver Press",
+      "Yang (2009). Firefly algorithms for multimodal optimization. In SAGA 2009, LNCS 5792, 169-178",
+      "Yang &amp; He (2013). Firefly algorithm: Recent advances and applications. International Journal of Swarm Intelligence, 1(1), 36-50",
+      "Fister, Fister, Yang &amp; Brest (2013). A comprehensive review of firefly algorithms. Swarm and Evolutionary Computation, 13, 34-46",
+      "Camacho-Villalón, Stützle &amp; Dorigo (2020). Grey wolf, firefly and bat algorithms: Three widespread algorithms that do not contain any novelty. In ANTS 2020, LNCS 12421, 121-133",
+      "Sörensen (2015). Metaheuristics — the metaphor exposed. International Transactions in Operational Research, 22(1), 3-18"
+    ],
+    "tagline_en": "Brighter fireflies attract dimmer ones, with attraction fading with distance.",
+    "summary_en": "The Firefly Algorithm (Yang, 2008) moves every firefly towards brighter ones, with attractiveness decaying with distance — attraction without memory, unlike PSO's social learning. Its three parameters (γ, α, β) make it a nice teaching example for sensitivity analysis, but on this site it rarely beats PSO or DE and is best read as a contrast rather than a workhorse. On this site every algorithm solves TSP with a permutation encoding plus a shared memetic 2-opt component, so the comparison is of frameworks on equal footing, not of whose metaphor is cleverer.",
+    "name_en": "Firefly Algorithm (FA)"
+  },
+  {
+    "key": "woa",
+    "slug": "woa-tsp",
+    "name": "鲸鱼优化 WOA",
+    "title": "鲸鱼优化算法（WOA）求解 TSP 在线演示 · 包围/螺旋/搜索三机制动画",
+    "desc": "鲸鱼优化算法（WOA）求解旅行商问题（TSP）的在线演示：包围收缩、螺旋气泡网、随机搜索三机制可切换观察，含离散化细节与实时收敛曲线，浏览器本地运行。",
+    "h1": "鲸鱼优化算法（WOA）求解 TSP 在线演示",
+    "lead": "鲸鱼优化模拟座头鲸的气泡网捕食：要么收缩包围圈（向猎物靠近），要么沿螺旋线上升（精细开发），要么随机游走（寻找新猎物）——三种机制由随机数自动切换。",
+    "intro": [
+      "WOA（Mirjalili &amp; Lewis, 2016）的卖点<strong>是「只有一个 switch 的混合策略」</strong>：p&lt;0.5 且 |A|&lt;1 时包围最优解，p&lt;0.5 且 |A|≥1 时随机搜索（强制探索），p≥0.5 时螺旋气泡网。探索与开发的切换完全由数学结构自动完成，几乎不需要人工干预。",
+      "本页把它离散化到 TSP：位置 = 排列，三种运动都翻译成「交换序列的前缀应用」。WOA 是近十年论文引用量最高的新算法之一，中文可视化资源极少——这个页面补的就是这个空位。"
+    ],
+    "principle": [
+      "初始化：多起点最近邻播种 + 轻量 2-opt 打磨。",
+      "包围捕食（p&lt;0.5，|A|&lt;1）：向当前最优执行交换序列前缀，比例 |A|·C/2 随收敛因子 a 递减。",
+      "搜索猎物（p&lt;0.5，|A|≥1）：向随机同伴靠近——|A|>1 强制离开最优解所在区域，保证探索。",
+      "螺旋气泡网（p≥0.5）：按 e^(b·l) 计算螺旋收缩比例，模拟螺旋上升接近猎物。",
+      "周期性对全局最优做 2-opt 并回灌种群（memetic 钩子）。",
+      "📌 「与原文公式完全同构」的说法已收敛为：结构对应（螺旋更新系数 b 与收缩因子随迭代衰减的关系保持一致），常数细节以原文为准。",
+      "📌 离散化诚实标注：本页的核心机制（三头狼/鲸鱼螺旋）在 TSP 排列域上贡献有限——收敛主要来自 memetic 组件（NN 播种、步幅上限、周期 2-opt）。这不是实现失误而是离散化的已知现象：狼群等级/螺旋更新在「交换序列前缀」语义下探索能力被大幅压缩。请结合批评线与自查三问阅读。"
+    ],
+    "params": [
+      [
+        "n_whales",
+        "25",
+        "鲸群规模"
+      ],
+      [
+        "b_spiral",
+        "1.0",
+        "螺旋常数：越大螺旋越展开"
+      ],
+      [
+        "step_cap",
+        "0.4",
+        "单次移动的最大交换比例（防种群坍塌）"
+      ],
+      [
+        "mutation",
+        "0.05",
+        "随机扰动概率"
+      ],
+      [
+        "ls_every",
+        "10",
+        "每多少代对全局最优做一次 2-opt 并回灌"
+      ]
+    ],
+    "paper": "Mirjalili, S. &amp; Lewis, A. (2016). The Whale Optimization Algorithm. Advances in Engineering Software, 95, 51-67.",
+    "faq": [
+      [
+        "WOA 和 GWO 这么像，区别在哪？",
+        "都是「向领导者靠拢」的骨架。WOA 多了螺旋机制（绕着最优解螺旋逼近而不是直线逼近）和 |A|≥1 的强制探索分支；GWO 是三头领导（α/β/δ）多方向引导。TSP 上两者实测差距在 1% 以内。"
+      ],
+      [
+        "|A|≥1 的随机搜索有什么用？",
+        "没有它 WOA 会过早收敛。前期 a≈2 时 |A|≥1 的概率约一半，鲸群强制探索；后期 a→0，|A|≥1 概率趋零，自动切换为开发。这个「自动挡」是 WOA 最大的设计亮点。"
+      ],
+      [
+        "连续算法离散化的通用套路是什么？",
+        "本站三个算法（PSO/GWO/WOA）用的都是「交换序列」：把「向目标靠近」定义为一串交换操作，按比例执行前缀。另一条路是随机键（实数编码排序解码），实测在 TSP 上基本无效。"
+      ]
+    ],
+    "family": "F2",
+    "use_when": "连续优化快速原型；包围 / 螺旋更新机制的教学演示。",
+    "avoid_when": "组合优化——二值化版本实测一般；指望它稳定超过 PSO / DE。",
+    "origin": "<p>Mirjalili 与 Lewis (2016) 受座头鲸「气泡网」捕食行为启发提出：每次迭代按概率选择三种位置更新之一——向猎物（当前最优）<b>收缩包围</b>、沿<b>螺旋</b>逼近、或随机选一头鲸鱼作参考来<b>探索</b>。它是 Mirjalili 系列（GWO、MFO、SCA、SSA…）里引用最多的之一。</p>",
+    "theory": "<p>三种更新都是「向某个参考点（最优解 / 随机个体）按随机系数 A、C 线性或螺旋靠近」。由于参考点主要是<b>当前最优</b>，算法在最优点位于搜索域中心或原点时表现虚高——这是 Kudela (2022) 等批评的<b>中心偏置</b>：许多新算法在把最优点放在域中心的测试函数上得分很好，而在平移后的版本上显著变差。数学上 WOA 与 PSO / GWO 等同属「向最优者收缩」一类；Sörensen (2015) 的元启发式隐喻批评对它同样适用。使用时应在平移 / 旋转后的基准（如 CEC、BBOB）上评估。</p>",
+    "variants": [
+      "<b>增强版 WOA</b>：加入 Lévy 飞行、混沌映射、自适应惯性权重，常在论文里被称为 IWOA / CWOA；",
+      "<b>离散 WOA</b>：把螺旋与包围改写为排列上的交换 / 插入操作（TSP 等）。"
+    ],
+    "refs": [
+      "Mirjalili &amp; Lewis (2016). The whale optimization algorithm. Advances in Engineering Software, 95, 51-67",
+      "Sörensen (2015). Metaheuristics — the metaphor exposed. International Transactions in Operational Research, 22(1), 3-18",
+      "Kudela (2022). A critical problem in benchmarking and analysis of evolutionary computation methods. Nature Machine Intelligence, 4, 1238-1245",
+      "Camacho-Villalón, Dorigo &amp; Stützle (2019). The intelligent water drops algorithm: Why it cannot be considered a novel algorithm. Swarm Intelligence, 13(3-4), 173-192",
+      "Sörensen, Sevaux &amp; Glover (2018). A history of metaheuristics. In Handbook of Heuristics, Springer, 791-808"
+    ],
+    "tagline_en": "Humpback-whale bubble-net hunting: shrink around the best, or spiral towards it.",
+    "summary_en": "The Whale Optimization Algorithm (Mirjalili & Lewis, 2016) alternates between encircling the best solution and a logarithmic spiral around it. It is quick to prototype for continuous problems and a clear demo of encircle/spiral updates; the binarised version is mediocre and it should not be expected to beat PSO or DE reliably. On this site every algorithm solves TSP with a permutation encoding plus a shared memetic 2-opt component, so the comparison is of frameworks on equal footing, not of whose metaphor is cleverer.",
+    "name_en": "Whale Optimization Algorithm (WOA)"
+  },
+  {
+    "key": "ga",
+    "slug": "ga-tsp",
+    "name": "遗传算法 GA",
+    "title": "遗传算法（GA）求解 TSP 在线演示 · 交叉变异与种群进化",
+    "desc": "遗传算法求解旅行商问题（TSP）的在线演示：顺序编码 OX 交叉、反转变异、锦标赛选择与精英保留，实时查看种群进化与收敛曲线，浏览器本地运行。",
+    "h1": "遗传算法（GA）求解 TSP 在线演示",
+    "lead": "遗传算法模拟「优胜劣汰」：种群里的路径互相交叉产生后代，随机变异提供新基因，适应度差的被淘汰。",
+    "intro": [
+      "TSP 的编码是排列，不能用普通的单点交叉（会产生重复城市）。本页用的是 <strong>OX 顺序交叉</strong>：保留父代一段，其余位置按另一父代的相对顺序填充——它继承的是「城市的相对顺序」，这才是排列里有意义的信息。",
+      "一个实测结论值得记住：<strong>GA 的初始种群质量决定了一半的结果</strong>。全部用随机排列播种时，前几十代都在把种群从「垃圾解」拉回「像样解」，200 代下来结果很差；改用多起点最近邻播种后，同样的迭代数结果显著变好。"
+    ],
+    "principle": [
+      "初始化：多起点最近邻播种，得到一批像样的初始路径。",
+      "选择：锦标赛选择（随机抽 k 个，取最优者当父代）。",
+      "交叉：以概率 pc 做 OX 顺序交叉，生成两个子代。",
+      "变异：以概率 pm 随机取一段倒过来（反转变异，对 TSP 比「交换两点」更有效）。",
+      "精英保留：最优的若干个体原样进入下一代，并按周期做 2-opt（memetic GA）。"
+    ],
+    "params": [
+      [
+        "pop",
+        "60",
+        "种群规模"
+      ],
+      [
+        "pc",
+        "0.85",
+        "交叉概率"
+      ],
+      [
+        "pm",
+        "0.20",
+        "变异概率（TSP 上通常比连续问题设得高一些）"
+      ],
+      [
+        "tournament",
+        "3",
+        "锦标赛规模：越大选择压力越强"
+      ],
+      [
+        "elite",
+        "2",
+        "精英保留个数：保证最优解不会退化"
+      ],
+      [
+        "ls_every",
+        "5",
+        "每多少代对全局最优做一次 2-opt 并回灌种群"
+      ]
+    ],
+    "paper": "Holland, 1975, Adaptation in Natural and Artificial Systems",
+    "faq": [
+      [
+        "为什么不能用单点交叉？",
+        "排列编码要求每个城市恰好出现一次。单点交叉会产生重复/缺失城市，得到的不是合法路径。TSP 要用 OX、PMX、CX 这类排列专用交叉算子。"
+      ],
+      [
+        "变异率设多少合适？",
+        "TSP 上 0.1–0.3 常见，比连续优化问题高。太小容易早熟，太大退化成随机搜索。"
+      ],
+      [
+        "GA 在 TSP 上表现一般，是不是我写错了？",
+        "不一定。纯 GA 对 TSP 确实不算强，这正是「memetic algorithm（GA + 局部搜索）」这个方向存在的原因。开 ls_every 后通常会有明显提升。"
+      ]
+    ],
+    "family": "F1",
+    "use_when": "想学进化计算的基本机制；问题离散、解能自然编码成串（排列 / 0-1）；要一个易改造的框架——拼上局部搜索就是 <a href=\"/algo/f6-hybrid/memetic/\">memetic</a>。",
+    "avoid_when": "指望裸 GA 在 TSP 上打赢专用局部搜索——本站 100 城实测它离榜首还有距离，开 ls_every 混合局部搜索才是完全体；单次跑就下结论（方差大，多看几次）。另外 GA 参数极敏感（种群规模/交叉率/变异率/选择压力稍动结果天差地别），上生产前必须做参数扫描或自动配置，别用默认一套打天下。",
+    "origin": "<p>Holland 在 1960–70 年代研究自适应系统时提出（1975 年专著），Goldberg (1989) 的教材使它走向工程界。核心是<b>选择—交叉—变异</b>三个算子在种群上迭代：选择把压力给好个体，交叉重组好个体的构件，变异保持多样性。De Jong (1975) 的实验把它与数值优化联系起来。</p>",
+    "theory": "<p>Holland 的<b>模式定理</b>（schema theorem）曾被用来解释 GA 为什么有效，但它只是一个下界不等式、不能预测算法行为，已被广泛批评。更严格的结果是马尔可夫链分析：Rudolph (1994) 证明<b>带精英保留的 GA 依概率收敛到全局最优</b>，而标准（无精英）GA 不收敛。运行时间分析（在伪布尔函数上）说明 GA 的交叉有时能指数级加速（Jansen &amp; Wegener 的「实 royal road」例子），有时无用。对 TSP 等排列问题，<b>交叉算子的设计</b>（PMX、OX、CX、边重组 ER、边装配 EAX）决定成败：Nagata &amp; Kobayashi (2013) 的 EAX 遗传算法是 TSP 上最强的元启发式之一。</p>",
+    "variants": [
+      "<b>实数编码 GA</b>（SBX 交叉 + 多项式变异，Deb 的 NSGA-II 里的算子）；<b>排列编码</b>：PMX / OX / CX / 边重组 / EAX；",
+      "<b>memetic 算法</b>（GA + 局部搜索，Moscato 1989）：对 TSP 几乎总是必需；",
+      "<b>岛屿模型 / 细胞 GA</b>：用结构化种群控制选择压力。"
+    ],
+    "refs": [
+      "Holland (1975). Adaptation in Natural and Artificial Systems. University of Michigan Press",
+      "Goldberg (1989). Genetic Algorithms in Search, Optimization, and Machine Learning. Addison-Wesley",
+      "De Jong (1975). An analysis of the behavior of a class of genetic adaptive systems. PhD thesis, University of Michigan",
+      "Rudolph (1994). Convergence analysis of canonical genetic algorithms. IEEE Transactions on Neural Networks, 5(1), 96-101",
+      "Whitley (1994). A genetic algorithm tutorial. Statistics and Computing, 4(2), 65-85",
+      "Whitley, Starkweather &amp; Fuquay (1989). Scheduling problems and traveling salesmen: The genetic edge recombination operator. In Proceedings of ICGA 1989, 133-140",
+      "Nagata &amp; Kobayashi (2013). A powerful genetic algorithm using edge assembly crossover for the traveling salesman problem. INFORMS Journal on Computing, 25(2), 346-363"
+    ],
+    "tagline_en": "Selection, crossover and mutation on a population of tours — the classic evolutionary machine.",
+    "summary_en": "Genetic Algorithms (Holland, 1975) evolve a population by selection, recombination and mutation. They suit discrete problems whose solutions encode naturally as strings or permutations, and become much stronger when combined with local search (a memetic algorithm). A bare GA does not beat dedicated local search on TSP, and its results are very sensitive to population size, crossover/mutation rates and selection pressure — run parameter sweeps before trusting a single run. On this site every algorithm solves TSP with a permutation encoding plus a shared memetic 2-opt component, so the comparison is of frameworks on equal footing, not of whose metaphor is cleverer.",
+    "name_en": "Genetic Algorithm (GA)"
+  },
+  {
+    "key": "sa",
+    "slug": "sa-tsp",
+    "name": "模拟退火 SA",
+    "title": "模拟退火算法（SA）求解 TSP 在线演示 · 温度与接受率曲线",
+    "desc": "模拟退火求解旅行商问题（TSP）的在线演示：2-opt 邻域、Metropolis 判据与指数降温，实时查看温度下降与接受率变化，浏览器本地运行。",
+    "h1": "模拟退火算法（SA）求解 TSP 在线演示",
+    "lead": "模拟退火只有一个解在走，它的核心是「以一定概率接受劣解」——前期敢跳，后期只走好棋。",
+    "intro": [
+      "SA 和群智能最大的区别是：它是<strong>单点搜索</strong>，不维护种群，因此内存与每代开销都极小（本页实测 100 城市 200 代只要 0.02 秒，是所有算法里最快的）。",
+      "页面上额外画出了<strong>温度</strong>与<strong>接受率</strong>两条曲线——这是 SA 最有价值的可视化：你能直接看到「什么时候开始只接受好解」，也就是算法从探索切换到开发的时刻。"
+    ],
+    "principle": [
+      "从最近邻解出发，设定初始温度 T0（本页自动取为初始解的平均边长量级）。",
+      "随机产生一个 2-opt 邻域解，增量计算长度差 Δ（O(1)，不需要重算整条路径）。",
+      "Metropolis 判据：Δ &lt; 0 直接接受；否则以概率 exp(-Δ/T) 接受。",
+      "每个温度尝试 inner 次（默认为城市数），然后按 T ← α·T 降温。",
+      "温度趋近 0 时退化为「只接受改进」的局部搜索。"
+    ],
+    "params": [
+      [
+        "T0",
+        "自动",
+        "初始温度。0 表示自动：取初始解平均边长，保证初期接受率在合理量级"
+      ],
+      [
+        "alpha",
+        "0.97",
+        "降温系数。越接近 1 降温越慢、搜索越充分，但耗时也越长"
+      ],
+      [
+        "inner",
+        "自动",
+        "每个温度下的尝试次数，默认等于城市数"
+      ],
+      [
+        "max_iter",
+        "300",
+        "温度档数（不是总尝试次数，总尝试 = max_iter × inner）"
+      ]
+    ],
+    "paper": "Kirkpatrick, S., Gelatt, C.D. &amp; Vecchi, M.P. (1983). Optimization by Simulated Annealing. Science, 220(4598), 671-680.",
+    "faq": [
+      [
+        "为什么我的 SA 前 50 代完全不动？",
+        "大概率是 T0 太低，一上来就只接受改进解。把 T0 设为「平均边长的量级」，初期接受率应在 30%–70% 之间。"
+      ],
+      [
+        "降温系数怎么选？",
+        "0.95–0.99 是常用区间。0.97 配 300 档温度是比较均衡的选择；想更充分就 0.99 配更多迭代。"
+      ],
+      [
+        "SA 和 2-opt 有什么区别？",
+        "2-opt 只接受改进，遇到局部最优就停了；SA 允许以概率接受劣解，所以能跳出去。代价是需要调温度参数。"
+      ]
+    ],
+    "family": "F3",
+    "use_when": "单一解调优，想要简单可靠、能接受「偶尔接受差解」的爬坡框架；离散排列问题（退火原论文场景就是芯片布局这类）。",
+    "avoid_when": "种群多样性有用的多模态问题；初温 / 降温率不调、指望默认参数包打天下。大实例下冷却调度与停止准则要专门调，否则时间预算失控（本站结论段的「大规模略弱」说的就是这件事）。",
+    "origin": "<p>Kirkpatrick、Gelatt 与 Vecchi (1983) 把统计物理里的<b>退火</b>过程移植到组合优化：以 Metropolis 准则（Metropolis 等 1953）接受较差解，概率 exp(−Δ/T)，温度 T 逐步降低；Černý (1985) 独立地把它用于 TSP。它是最早被广泛应用的元启发式之一，也被用来做 VLSI 布局、调度、旅行商等。</p>",
+    "theory": "<p>SA 有最古老也最扎实的收敛理论：Geman &amp; Geman (1984) 与 Hajek (1988) 证明，<b>对数冷却</b>（T_k = c / ln k，c 不小于最深局部极小的「深度」）下，SA 依概率 1 收敛到全局最优——但这个冷却过慢，实践中不可用。实用的几何冷却（T ← αT，α≈0.95–0.999）没有收敛保证，却是 Johnson &amp; McGeoch (1997) 的 TSP 实验里「时间充足时能给出好解」的做法。关键参数是<b>初温</b>（使初始接受率 ≈ 80%）、冷却速率、每个温度的链长；它还会被「重加热」或「重启」改进。</p>",
+    "variants": [
+      "<b>几何冷却 SA</b>（本站默认）、<b>对数冷却</b>（有理论保证）、<b>自适应冷却</b>（Lam–Delosme、Huang 等按接受率反馈）；",
+      "<b>阈值接受 / 大洪水 / 记录更新</b>（Dueck &amp; Scheuer 1990）：用确定性阈值代替概率接受。"
+    ],
+    "refs": [
+      "Kirkpatrick, Gelatt &amp; Vecchi (1983). Optimization by simulated annealing. Science, 220(4598), 671-680",
+      "Černý (1985). Thermodynamical approach to the traveling salesman problem: An efficient simulation algorithm. Journal of Optimization Theory and Applications, 45(1), 41-51",
+      "Metropolis, Rosenbluth, Rosenbluth, Teller &amp; Teller (1953). Equation of state calculations by fast computing machines. Journal of Chemical Physics, 21(6), 1087-1092",
+      "Geman &amp; Geman (1984). Stochastic relaxation, Gibbs distributions, and the Bayesian restoration of images. IEEE Transactions on Pattern Analysis and Machine Intelligence, 6(6), 721-741",
+      "Hajek (1988). Cooling schedules for optimal annealing. Mathematics of Operations Research, 13(2), 311-329",
+      "Johnson &amp; McGeoch (1997). The traveling salesman problem: A case study in local optimization. In Local Search in Combinatorial Optimization, Wiley, 215-310",
+      "Dueck &amp; Scheuer (1990). Threshold accepting: A general purpose optimization algorithm appearing superior to simulated annealing. Journal of Computational Physics, 90(1), 161-175"
+    ],
+    "tagline_en": "One solution walks the landscape and sometimes accepts worse moves, cooling over time.",
+    "summary_en": "Simulated Annealing (Kirkpatrick, Gelatt & Vecchi, 1983) improves a single solution and accepts worse moves with a probability that decreases as the temperature falls. It is simple and reliable for discrete problems such as permutations, but it has no population diversity, and the initial temperature and cooling schedule must be tuned for large instances. On this site every algorithm solves TSP with a permutation encoding plus a shared memetic 2-opt component, so the comparison is of frameworks on equal footing, not of whose metaphor is cleverer.",
+    "name_en": "Simulated Annealing (SA)"
+  },
+  {
+    "key": "gwo",
+    "slug": "gwo-tsp",
+    "name": "灰狼优化 GWO",
+    "title": "灰狼优化算法（GWO）求解 TSP 在线演示 · α/β/δ 等级与收敛因子",
+    "desc": "灰狼优化算法（GWO）求解旅行商问题（TSP）的在线演示：α/β/δ 三级领导、收敛因子 a 线性下降，含离散化实现细节与实时收敛曲线，浏览器本地运行。",
+    "h1": "灰狼优化算法（GWO）求解 TSP 在线演示",
+    "lead": "灰狼优化模拟狼群的社会等级与围猎行为：α、β、δ 三头狼带队，其余狼 ω 跟着它们的指引移动。",
+    "intro": [
+      "GWO 是 2014 年提出的连续优化算法，近十年在研究生论文里出现频率极高，但<strong>中文的可视化资源几乎空白</strong>——尤其是「连续算法怎么解离散的 TSP」这一步，网上很少讲清楚。",
+      "本页把踩过的坑全部写在实现里：随机键离散化为什么无效、为什么种群不能随机播种、为什么必须给步幅设上限。这三条是本页最值钱的部分。"
+    ],
+    "principle": [
+      "种群初始化：从<strong>不同起点出发的最近邻</strong>播种，保证每匹狼都是像样的解（随机播种会让 GWO 完全失效）。",
+      "划分等级：按适应度选出 α、β、δ 三头领导狼，其余为 ω。",
+      "位置更新：每匹狼分别向 α、β、δ 靠近——「靠近」= 执行一部分到头狼的交换序列，比例由 A 与 C 决定。",
+      "收敛因子 a 从 2 线性降到 0：前期大步探索，后期精细开发。",
+      "局部搜索：部分狼做轻量随机 2-opt，并周期性对 α 做 2-opt 后回灌种群。",
+      "📌 离散化诚实标注：本页的核心机制（三头狼/鲸鱼螺旋）在 TSP 排列域上贡献有限——收敛主要来自 memetic 组件（NN 播种、步幅上限、周期 2-opt）。这不是实现失误而是离散化的已知现象：狼群等级/螺旋更新在「交换序列前缀」语义下探索能力被大幅压缩。请结合批评线与自查三问阅读。"
+    ],
+    "params": [
+      [
+        "n_wolves",
+        "30",
+        "狼群规模"
+      ],
+      [
+        "step_cap",
+        "0.4",
+        "单代向单头狼靠近的最大比例。超过 0.6 会导致种群坍塌，别乱调"
+      ],
+      [
+        "local_search",
+        "0.3",
+        "每代有多大比例的狼做一次轻量 2-opt"
+      ],
+      [
+        "ls_trials",
+        "20",
+        "每次局部搜索随机尝试多少个 2-opt 移动"
+      ],
+      [
+        "mutation",
+        "0.05",
+        "随机扰动概率，防止种群停滞"
+      ],
+      [
+        "ls_every",
+        "10",
+        "每多少代对 α 做一次 2-opt 并回灌到最差狼"
+      ]
+    ],
+    "paper": "Mirjalili, S., Mirjalili, S.M. &amp; Lewis, A. (2014). Grey Wolf Optimizer. Advances in Engineering Software, 69, 46-61.",
+    "faq": [
+      [
+        "连续算法怎么解离散的 TSP？",
+        "主流有两条路：随机键（把排列编码成实数向量，排序解码）和交换序列（把「向头狼靠近」定义为一串城市交换）。本页实测：随机键版本在 TSP 上基本无效，GWO 自身完全没起作用，下降全靠局部搜索。"
+      ],
+      [
+        "怎么判断我的算法到底有没有在干活？",
+        "把局部搜索全部关掉再跑一次。如果曲线不动了，说明之前看到的下降不是算法的功劳——这是本项目里最有用的一条自检方法，代码里也有一条自动化测试守着它。"
+      ],
+      [
+        "为什么步幅要设上限？",
+        "不设上限时 frac 经常取到 1，狼会整只「跳」到头狼身上，三头狼轮流应用后所有狼都变成 δ 的复制品，种群直接坍塌——和离散 PSO 是同一个坑。"
+      ]
+    ],
+    "family": "F2",
+    "use_when": "连续优化快速原型；想观察「α/β/δ 领导者层级」机制的收敛行为。",
+    "avoid_when": "离散问题（逐位投票的二值版只是玩具）；对理论保证要求高的场合。",
+    "origin": "<p>Mirjalili、Mirjalili 与 Lewis (2014) 模拟灰狼的社会等级（α、β、δ、ω）与围猎行为：每头狼的新位置是向<b>前三名</b>（α、β、δ）三个位置按随机系数靠近后取平均。它是 2014 年后引用量增长最快的群智能算法之一，也是被批评最多的之一。</p>",
+    "theory": "<p>新位置 = (X₁ + X₂ + X₃)/3，其中 Xₖ = X_leader − A·|C·X_leader − X|：这是「向前三名的凸组合收缩」。Camacho-Villalón、Stützle 与 Dorigo (2020) 指出，GWO 与已有的粒子群变体在更新方程上没有本质区别，隐喻（狼的等级）并不对应任何独立的搜索机制。Kudela (2022) 的分析显示它有<b>中心偏置</b>：当最优解在搜索域中心 / 原点时，向「三个领头狼的均值」收缩会使搜索自然偏向中心，因此在未平移的标准函数（球函数、Rastrigin 等）上得分虚高。本站的测试也看到了类似现象（某些算法在原点最优的 Rastrigin 上恰好得到 0）。</p>",
+    "variants": [
+      "<b>改进 GWO</b>（IGWO、mGWO、EGWO）：自适应 A、混沌初始化、Lévy 飞行；<b>离散 GWO</b>：把狼的位置译成排列的交换序列（TSP）。"
+    ],
+    "refs": [
+      "Mirjalili, Mirjalili &amp; Lewis (2014). Grey wolf optimizer. Advances in Engineering Software, 69, 46-61",
+      "Camacho-Villalón, Stützle &amp; Dorigo (2020). Grey wolf, firefly and bat algorithms: Three widespread algorithms that do not contain any novelty. In ANTS 2020, LNCS 12421, 121-133",
+      "Sörensen (2015). Metaheuristics — the metaphor exposed. International Transactions in Operational Research, 22(1), 3-18",
+      "Kudela (2022). A critical problem in benchmarking and analysis of evolutionary computation methods. Nature Machine Intelligence, 4, 1238-1245",
+      "Faris, Aljarah, Al-Betar &amp; Mirjalili (2018). Grey wolf optimizer: A review of recent variants and applications. Neural Computing and Applications, 30(2), 413-435"
+    ],
+    "tagline_en": "A hierarchy of alpha, beta and delta wolves leads the pack's encircling hunt.",
+    "summary_en": "The Grey Wolf Optimizer (Mirjalili, Mirjalili & Lewis, 2014) lets the three best solutions (α, β, δ) guide the rest of the pack. It is a quick continuous-optimisation prototype; its binary voting variant is a toy, and it offers no theoretical guarantees. On this site every algorithm solves TSP with a permutation encoding plus a shared memetic 2-opt component, so the comparison is of frameworks on equal footing, not of whose metaphor is cleverer.",
+    "name_en": "Grey Wolf Optimizer (GWO)"
+  },
+  {
+    "key": "ts",
+    "slug": "ts-tsp",
+    "name": "禁忌搜索 TS",
+    "title": "禁忌搜索（TS）求解 TSP 在线演示 · 禁忌表与特赦准则动画",
+    "desc": "禁忌搜索算法（TS）求解旅行商问题（TSP）的在线演示：禁忌期、邻域采样、特赦准则全部可调，能亲眼看它走出局部最优，浏览器本地运行。",
+    "h1": "禁忌搜索（TS）求解 TSP 在线演示",
+    "lead": "禁忌搜索只加了一条规矩给局部搜索：刚走过的路短期内禁止回头。就是这条「不许反悔」，让它敢于接受暂时的变差、走出局部最优。",
+    "intro": [
+      "TS（Glover, 1986）是元启发式的奠基工作之一（系列论文引用数以万计）。它和模拟退火一样允许「走回头路」，但机制完全不同：SA 用概率接受劣解，TS 用<strong>禁忌表</strong>——执行过的移动在禁忌期内不许再做，逼着搜索离开已探明的区域。",
+      "配套的还有<strong>特赦准则</strong>：如果一个禁忌移动能刷新历史最优，特事特办放行。页面上的收敛曲线里能直接观察到「暂时变差、随后突破」的经典 TS 行为。"
+    ],
+    "principle": [
+      "从最近邻解出发；维护一张禁忌表（移动 → 到期代数）。",
+      "每代采样若干个 2-opt 候选移动，跳过禁忌中的（除非满足特赦准则）。",
+      "选<strong>最好的许可移动</strong>执行——即使它让当前解变差也照样走，这是 TS 跳出局部最优的机制。",
+      "把执行过的移动记入禁忌表（正反两个方向都记），禁忌期后自动解禁。",
+      "历史最优单独记录，永不回退。"
+    ],
+    "params": [
+      [
+        "tabu_tenure",
+        "8",
+        "禁忌期：一个移动被执行后被禁多少代。太短原地打转，太长搜索受限"
+      ],
+      [
+        "samples",
+        "60",
+        "每代随机采样多少个候选移动再挑最好的"
+      ],
+      [
+        "max_iter",
+        "200",
+        "迭代代数"
+      ],
+      [
+        "seed",
+        "42",
+        "随机种子"
+      ]
+    ],
+    "paper": "Glover, F. (1986). Future Paths for Integer Programming and Links to Artificial Intelligence. Computers &amp; Operations Research, 13(5), 533-549.",
+    "faq": [
+      [
+        "TS 和模拟退火怎么选？",
+        "两者都跳局部最优：SA 靠概率（温度控制），TS 靠记忆（禁忌表）。TS 的优点是不用调温度调度，缺点是禁忌期长度也需要试。TSP 上两者表现接近，TS 通常更快收敛。"
+      ],
+      [
+        "为什么我的 TS 前期会变差？",
+        "这是特性不是 bug。它每代必须移动（哪怕所有移动都变差），走出局部最优后才回升。观察收敛曲线的灰色「当代成本」线能看到这种波动。"
+      ],
+      [
+        "特赦准则是必须的吗？",
+        "强烈建议保留。没有特赦的话，通往历史最优的关键移动可能恰好被禁，搜索会在最优解附近「望门兴叹」。"
+      ]
+    ],
+    "family": "F10",
+    "use_when": "局部搜索反复陷进同一个局部最优——用禁忌表强制换方向；TSP / 分配类问题。",
+    "avoid_when": "禁忌长度不想调的问题——参数敏感，不调效果平庸；超大邻域拖慢每步迭代。",
+    "origin": "<p>Glover (1986) 在整数规划的论文里首次提出（「tabu」一词来自该文），1989–1990 年的两部分文章（Part I, II）系统化；Hansen (1986) 独立提出了类似的「最陡上升 / 最缓下降」。核心是用<b>记忆</b>引导局部搜索：短期记忆（禁忌表）禁止刚做过的移动以逃离局部最优，中长期记忆（频率、强化 / 多样化）引导搜索区域。</p>",
+    "theory": "<p>禁忌搜索<b>在一般情形没有收敛保证</b>，但有概率版本的结果（Faigle &amp; Kern 1992）。它的效果高度依赖<b>邻域的设计</b>（对 TSP 常用 2-opt / 或结点交换）与<b>禁忌期限</b>（太短会循环，太长会过于封闭）。Taillard (1991) 的鲁棒禁忌搜索（随机化禁忌期限）简单而强，在 QAP 上长期是基线。Glover &amp; Laguna (1997) 的专著涵盖了战略振荡、路径重连等进阶技术。与 SA 相比，TS 是<b>确定性的、基于记忆的</b>：每步取邻域中最好的非禁忌移动，而不是按概率接受。</p>",
+    "variants": [
+      "<b>鲁棒禁忌搜索</b>（Taillard 1991）：禁忌期限在区间内随机；<b>反应式禁忌搜索</b>（Battiti &amp; Tecchiolli 1994）：根据重复访问自动调节期限；",
+      "<b>战略振荡 / 路径重连</b>（Glover 的进阶记忆结构）：在可行与不可行区域之间摆动。"
+    ],
+    "refs": [
+      "Glover (1986). Future paths for integer programming and links to artificial intelligence. Computers &amp; Operations Research, 13(5), 533-549",
+      "Glover (1989). Tabu search — Part I. ORSA Journal on Computing, 1(3), 190-206",
+      "Glover (1990). Tabu search — Part II. ORSA Journal on Computing, 2(1), 4-32",
+      "Glover &amp; Laguna (1997). Tabu Search. Kluwer Academic Publishers",
+      "Taillard (1991). Robust taboo search for the quadratic assignment problem. Parallel Computing, 17(4-5), 443-455",
+      "Battiti &amp; Tecchiolli (1994). The reactive tabu search. ORSA Journal on Computing, 6(2), 126-140",
+      "Faigle &amp; Kern (1992). Some convergence results for probabilistic tabu search. ORSA Journal on Computing, 4(1), 32-37"
+    ],
+    "tagline_en": "Local search with a short-term memory that forbids undoing recent moves.",
+    "summary_en": "Tabu Search (Glover, 1986) adds one rule to local search: recently visited moves are forbidden for a while, forcing the search out of local optima. It works well on TSP and assignment-type problems but is sensitive to the tabu tenure, and very large neighbourhoods slow every iteration. On this site every algorithm solves TSP with a permutation encoding plus a shared memetic 2-opt component, so the comparison is of frameworks on equal footing, not of whose metaphor is cleverer.",
+    "name_en": "Tabu Search (TS)"
+  },
+  {
+    "key": "de",
+    "slug": "de-tsp",
+    "name": "差分进化 DE",
+    "title": "差分进化算法（DE）求解 TSP 在线演示 · 差分变异与贪心选择动画",
+    "desc": "差分进化算法（DE）求解旅行商问题（TSP）的在线演示：缩放因子 F、交叉概率 CR 可调，含交换序列离散化与假跑排查全过程，浏览器本地运行。",
+    "h1": "差分进化算法（DE）求解 TSP 在线演示",
+    "lead": "差分进化的全部智慧在一行公式里：变异体 = x_r1 + F·(x_r2 − x_r3)。种群内部的「差异」自动决定步长——分散时大步探索，收敛时小步打磨。",
+    "intro": [
+      "DE（Storn &amp; Price, 1997）是引用量最大的元启发式之一（原始论文数万次）。它没有交叉重组的花哨算子，只靠<strong>差分向量</strong>驱动搜索，参数极少、工程实现极简。",
+      "本页的离散化踩坑记录尤其值钱：教科书式的 DE/rand/1 + OX 交叉在排列域上<strong>完全假跑</strong>（200 代进步 0.0%，及格线全靠初始化贡献），我们做了五组变体实验才定位到能真实干活的配置，全过程写在实现注释和对比实验脚本里。"
+    ],
+    "principle": [
+      "初始化：多起点最近邻播种 + 轻量 2-opt 打磨。",
+      "差分变异（current-to-best）：向当前最优靠近一截，再叠加一对随机个体的差异（交换序列实现）。",
+      "交叉：以概率 CR 与父本做 OX 顺序交叉（排列域上 CR 要低——交叉破坏性强，见踩坑记录）。",
+      "打磨：以小概率对新解做短 2-opt 试射（memetic DE 的轻量版）。",
+      "贪心选择：新解更好才替换父本，否则直接丢弃——DE 的标志性一步。"
+    ],
+    "params": [
+      [
+        "n_pop",
+        "30",
+        "种群规模"
+      ],
+      [
+        "F",
+        "0.6",
+        "缩放因子：差分变异的步长比例"
+      ],
+      [
+        "CR",
+        "0.2",
+        "交叉概率。排列域上建议 0.2 左右，太高会假跑"
+      ],
+      [
+        "polish_p",
+        "0.3",
+        "对每个新解做短 2-opt 打磨的概率"
+      ],
+      [
+        "ls_every",
+        "10",
+        "每多少代对全局最优做一次 2-opt 并回灌"
+      ]
+    ],
+    "paper": "Storn, R. &amp; Price, K. (1997). Differential Evolution – A Simple and Efficient Heuristic for Global Optimization over Continuous Spaces. Journal of Global Optimization, 11(4), 341-359.",
+    "faq": [
+      [
+        "为什么教科书配置在 TSP 上会假跑？",
+        "DE/rand/1 产生的变异体 = 随机个体 + 差分扰动，再经 OX 交叉与父本重组——在已被 2-opt 打磨过的解上，OX 交叉输出的大多是拼接噪声，贪心选择一次都不会接受。解法是改用 current-to-best 变异 + 低 CR，把 trial 限制在好解邻域里生成。"
+      ],
+      [
+        "怎么确认我的 DE 真的在干活？",
+        "对比 1 代和 200 代的最优值。如果一样，说明改进全来自初始化播种。本项目的「是否真在优化」自动测试就是这条思路的自动化版本。"
+      ],
+      [
+        "F 和 CR 怎么调？",
+        "连续域经典建议 F∈[0.4,0.8]、CR∈[0.9,1.0]，但排列域恰恰相反：CR 要低（0.2 左右），因为 OX 交叉破坏性强。F 保持 0.6 上下即可。"
+      ]
+    ],
+    "family": "F1",
+    "use_when": "连续实向量、黑箱目标可评估；想要比 PSO 更稳的差分变异基线。",
+    "avoid_when": "离散编码问题——差分向量对排列意义不明，强行二值化会变味。",
+    "origin": "<p>Storn 与 Price (1995 技术报告；1997 论文) 为解切比雪夫多项式拟合问题而设计：对每个个体 xᵢ，取三个随机个体做<b>差分变异</b> v = x_{r1} + F·(x_{r2} − x_{r3})，再与 xᵢ 做<b>二项交叉</b>得到试验向量，<b>贪心选择</b>替换。它几乎没有参数（NP、F、CR），在 CEC 竞赛中长期稳居前列。</p>",
+    "theory": "<p>DE 的关键性质是<b>自适应步长</b>：差分向量的尺度随种群分布自动缩放，所以早期探索大、后期开发细（自参考的缩放）。它对<b>旋转敏感</b>（二项交叉与坐标轴对齐），非可分函数需要小 CR 或旋转不变的变体；Zaharie (2002) 分析了种群方差与 F、CR 的关系，给出了「临界 F 值」使种群不会过早收敛。DE 家族在 CEC 竞赛的冠军方案里占多数（JADE 2009、SHADE 2013、L-SHADE 2014 及后续变体），其成功更多来自参数的自适应与历史记忆，而不是原始的 DE 方程。在离散 / 排列问题上，DE 需要编码转换（随机键 / 取整），收益不稳定。</p>",
+    "variants": [
+      "<b>DE/rand/1/bin</b>（最常用）、<b>DE/best/1</b>（收敛快但易早熟）、<b>DE/current-to-pbest/1</b>（JADE，Zhang &amp; Sanderson 2009）；",
+      "<b>SHADE / L-SHADE</b>（Tanabe &amp; Fukunaga 2013, 2014）：基于成功历史的 F、CR 自适应 + 种群线性缩减，是近十年 CEC 的主流；",
+      "<b>排列 DE</b>（Onwubolu &amp; Davendra 2006）：随机键或交换序列表示。"
+    ],
+    "refs": [
+      "Storn &amp; Price (1997). Differential evolution — a simple and efficient heuristic for global optimization over continuous spaces. Journal of Global Optimization, 11(4), 341-359",
+      "Price, Storn &amp; Lampinen (2005). Differential Evolution: A Practical Approach to Global Optimization. Springer",
+      "Das &amp; Suganthan (2011). Differential evolution: A survey of the state-of-the-art. IEEE Transactions on Evolutionary Computation, 15(1), 4-31",
+      "Zhang &amp; Sanderson (2009). JADE: Adaptive differential evolution with optional external archive. IEEE Transactions on Evolutionary Computation, 13(5), 945-958",
+      "Tanabe &amp; Fukunaga (2013). Success-history based parameter adaptation for differential evolution. In Proceedings of CEC 2013, 71-78",
+      "Tanabe &amp; Fukunaga (2014). Improving the search performance of SHADE using linear population size reduction. In Proceedings of CEC 2014, 1658-1665",
+      "Zaharie (2002). Critical values for the control parameters of differential evolution algorithms. In Proceedings of MENDEL 2002, 62-67"
+    ],
+    "tagline_en": "Mutants built from scaled differences of population members, then crossover and selection.",
+    "summary_en": "Differential Evolution (Storn & Price, 1997) builds each mutant as one member plus a scaled difference of two others, then applies crossover and one-to-one selection. It is a very robust continuous black-box baseline; difference vectors have no clear meaning on permutations, so the discrete versions here are adaptations. On this site every algorithm solves TSP with a permutation encoding plus a shared memetic 2-opt component, so the comparison is of frameworks on equal footing, not of whose metaphor is cleverer.",
+    "name_en": "Differential Evolution (DE)"
+  },
+  {
+    "key": "cs",
+    "slug": "cs-tsp",
+    "name": "布谷鸟搜索 CS",
+    "title": "布谷鸟搜索（CS）求解 TSP 在线演示 · 莱维飞行与弃巢机制动画",
+    "desc": "布谷鸟搜索算法（CS）求解旅行商问题（TSP）的在线演示：莱维飞行步长、弃巢比例 pa 全部可调，含离散化实现细节，浏览器本地运行。",
+    "h1": "布谷鸟搜索（CS）求解 TSP 在线演示",
+    "lead": "布谷鸟搜索的数学内核是莱维飞行：绝大多数步子很小，偶尔来一步超大的。这种「小步慢逛 + 偶发跳跃」的随机游走在自然界无处不在，也是它跳出局部最优的本钱。",
+    "intro": [
+      "CS（Yang &amp; Deb, 2009）引用量过万。生物故事是布谷鸟把蛋下在别的鸟窝里，宿主发现外来蛋就以概率 pa 弃巢重建；数学内核是<strong>莱维飞行</strong>——步长服从幂律分布的随机游走。",
+      "离散化映射：鸟窝 = 一个排列；莱维「小步」= 少量短 2-opt 试射，「偶发大步」= 长片段逆转（跨度随莱维采样值放大）。页面可以调莱维指数，直观感受重尾分布「偶发大步」的频率变化。"
+    ],
+    "principle": [
+      "初始化：多起点最近邻播种生成鸟窝。",
+      "布谷鸟阶段：每只布谷鸟借一个鸟窝出发做莱维飞行——按幂律采样步长，小步做短 2-opt 试射，超阈值的大步做长片段逆转。",
+      "占巢：新蛋比宿主的蛋好才占巢（贪心保留）。",
+      "弃巢阶段：最差 pa 比例的鸟窝被发现，从新的最近邻起点重新播种（保持多样性）。",
+      "周期性对全局最优做 2-opt 并回灌（与 ACO 同款 memetic 钩子）。"
+    ],
+    "params": [
+      [
+        "n_nests",
+        "20",
+        "鸟窝数（种群规模）"
+      ],
+      [
+        "pa",
+        "0.25",
+        "弃巢比例：每代被随机发现并重新播种的最差鸟窝比例"
+      ],
+      [
+        "alpha",
+        "0.3",
+        "莱维飞行的步长基数"
+      ],
+      [
+        "levy_beta",
+        "1.5",
+        "莱维指数：越小步长分布越重尾（偶发大步越频繁）"
+      ],
+      [
+        "ls_every",
+        "10",
+        "每多少代对全局最优做一次 2-opt 并回灌"
+      ]
+    ],
+    "paper": "Yang, X.S. &amp; Deb, S. (2009). Cuckoo Search via Lévy Flights. World Congress on Nature &amp; Biologically Inspired Computing (NABIC 2009), Coimbatore, 210-214.",
+    "faq": [
+      [
+        "莱维飞行到底特殊在哪？",
+        "普通随机游走（高斯）的步长方差有限，长时间后位移只按平方根增长；莱维飞行的重尾步长让它偶发远距离跳跃，搜索效率在高维多峰问题上更高。调小 levy_beta 可以明显看到大步变频繁。"
+      ],
+      [
+        "弃巢会不会浪费好解？",
+        "只丢弃最差的 pa 比例，且全局最优单独记录。弃巢本质是多样性的定期补充——实测把 pa 调到 0.5 以上搜索变得过度随机，调到 0.05 则容易早熟。"
+      ],
+      [
+        "CS 和 ABC 都有「放弃重置」，区别是什么？",
+        "ABC 按每个蜜源的停滞计数精准重置；CS 按比例批量重置最差鸟窝，粒度更粗但实现更简单。"
+      ]
+    ],
+    "family": "F2",
+    "use_when": "多峰地形想借莱维飞行的偶发远跳跳出局部最优；弃巢重置提供了天然的多样性机制，小步慢逛+偶发跳跃的剖面很适合演示。",
+    "avoid_when": "莱维步长是卖点也是双刃剑——偶发大步落进差区域的概率不小；与 Mirjalili 系同类相比没有可证明的优势，选它常是论文需要而非实战需要。",
+    "origin": "<p>Yang 与 Deb (2009) 模拟杜鹃的巢寄生：每个巢里的蛋（解）代表一个候选；随机放蛋 + 一个<b>发现概率</b> pₐ 使寄主丢弃部分巢，新解通过<b>Lévy 飞行</b>生成。Lévy 飞行（重尾步长）被认为兼顾「大量小步 + 偶尔大跳」。</p>",
+    "theory": "<p>Camacho-Villalón、Dorigo 与 Stützle (2022) 的专文分析了布谷鸟搜索，结论是它的两个组成（Lévy 随机游走 + 差分式放弃新巢）都已存在于进化策略与差分进化中，并没有新的搜索机制；而且<b>被广泛使用的实现与原论文的描述并不一致</b>（实现里的步长公式与差分进化的变异几乎相同）。Lévy 飞行在搜索中的价值来自它的重尾步长分布——这在随机搜索理论里早已有（Mantegna 1994 的算法被几乎所有实现使用）。发现概率 pₐ 起到「随机重启部分个体」的作用。</p>",
+    "variants": [
+      "<b>改进 CS</b>：自适应 pₐ 与步长（Valian 等 2011）；<b>离散 CS</b>（TSP）：用交换 / 2-opt 代替 Lévy 步（Ouaarab 等 2014）。"
+    ],
+    "refs": [
+      "Yang &amp; Deb (2009). Cuckoo search via Lévy flights. In NaBIC 2009, 210-214",
+      "Camacho-Villalón, Dorigo &amp; Stützle (2022). An analysis of why cuckoo search does not bring any novel ideas to optimization. Computers &amp; Operations Research, 142, 105747",
+      "Mantegna (1994). Fast, accurate algorithm for numerical simulation of Lévy stable stochastic processes. Physical Review E, 49(5), 4677-4683",
+      "Ouaarab, Ahiod &amp; Yang (2014). Discrete cuckoo search algorithm for the travelling salesman problem. Neural Computing and Applications, 24(7-8), 1659-1669",
+      "Sörensen (2015). Metaheuristics — the metaphor exposed. International Transactions in Operational Research, 22(1), 3-18"
+    ],
+    "tagline_en": "Lévy-flight random walks plus abandoning a fraction of the worst nests.",
+    "summary_en": "Cuckoo Search (Yang & Deb, 2009) combines Lévy-flight steps (mostly small, occasionally huge) with the replacement of a fraction of the worst nests. The occasional long jump can escape local optima, but it is also double-edged, and there is no demonstrated advantage over comparable Mirjalili-style algorithms. Do not confuse it with the Crow Search Algorithm (CSA). On this site every algorithm solves TSP with a permutation encoding plus a shared memetic 2-opt component, so the comparison is of frameworks on equal footing, not of whose metaphor is cleverer.",
+    "name_en": "Cuckoo Search (CS)"
+  },
+  {
+    "key": "sca",
+    "slug": "sca-tsp",
+    "name": "正弦余弦 SCA",
+    "title": "正弦余弦算法（SCA）求解 TSP 在线演示 · 振荡包围动画",
+    "desc": "正弦余弦算法（SCA）求解旅行商问题（TSP）的在线演示：r1 衰减、正弦/余弦振荡包围，含排列域离散化细节与实时收敛曲线，浏览器本地运行。",
+    "h1": "正弦余弦算法（SCA）求解 TSP 在线演示",
+    "lead": "SCA 用一个三角函数包围猎物：解在正弦和余弦的交替驱动下「往返振荡」着逼近最优，幅度 r1 随迭代从 2 衰减到 0——前期大开大合，后期精细收缩。",
+    "intro": [
+      "SCA（Mirjalili, 2016）是 Mirjalili 系（GWO/WOA/SCA）的代表作品之一，核心公式只有一行：X = X + r1·sin(r2)·|r3·P − X|。正弦余弦的正负交替天然形成「往返包围」轨迹。",
+      "离散化映射：|r3·P − X| = 向最优解的交换序列长度，步幅 = r1·|sin 或 cos|（有上限防坍塌）；sin/cos 为负的「反向振荡」落成「向随机同伴靠近」——直接远离最优会退化成随机打乱，这是排列域上能自洽落地的等价物。"
+    ],
+    "principle": [
+      "初始化：多起点最近邻播种。",
+      "r1 线性衰减（2 → 0）：控制振荡幅度，前期探索后期开发。",
+      "正向振荡（sin ≥ 0）：向当前最优解执行一部分交换序列。",
+      "反向振荡（sin &lt; 0）：向随机同伴靠近——模拟「往返包围」中的后退半步，保持探索。",
+      "轻量 2-opt 打磨 + 周期性对全局最优做 2-opt 回灌。"
+    ],
+    "params": [
+      [
+        "n_agents",
+        "25",
+        "个体数（种群规模）"
+      ],
+      [
+        "a0",
+        "2.0",
+        "r1 初值：振荡幅度起点，线性衰减到 0"
+      ],
+      [
+        "step_cap",
+        "0.4",
+        "单次振荡执行交换前缀的最大比例"
+      ],
+      [
+        "mutation",
+        "0.05",
+        "随机扰动概率"
+      ],
+      [
+        "ls_every",
+        "10",
+        "每多少代对全局最优做一次 2-opt 并回灌"
+      ]
+    ],
+    "paper": "Mirjalili, S. (2016). SCA: A Sine Cosine Algorithm for solving optimization problems. Knowledge-Based Systems, 96, 120-133.",
+    "faq": [
+      [
+        "SCA 和 GWO/WOA 什么关系？",
+        "同一作者（Seyedali Mirjalili）的「三件套」。SCA 的卖点是把探索/开发统一进一个三角函数振荡项，参数比 GWO 还少。三者解 TSP 的思路同源：都靠交换序列把「靠近」翻译到排列域。"
+      ],
+      [
+        "为什么反向振荡不直接远离最优解？",
+        "实测「远离最优」在排列域上等于随机打乱（FA 多对多吸引的同款教训）。改成「向随机同伴靠近」保留了探索的语义，又不破坏解的质量。"
+      ],
+      [
+        "r1 衰减到 0 之后会怎样？",
+        "振荡停止，个体全部贴着最优解做小步打磨。此时算法进入纯开发模式，曲线趋于平缓。"
+      ]
+    ],
+    "family": "F3",
+    "use_when": "想要参数极少的 Mirjalili 系基线：三角振荡把探索/开发统一进一个衰减系数 r1，教学演示干净利落。",
+    "avoid_when": "与 GWO/WOA 同源同路数，实战上不构成独立选项；振荡逼近在抛光过的排列解上收敛偏慢。",
+    "origin": "<p>Mirjalili (2016) 提出：新位置 x ← x + r₁·sin(r₂)·|r₃P − x| 或 cos 版本，其中 P 是当前最优（目的地）；r₁ 随迭代线性递减，控制探索 → 开发的过渡。名字来自「正弦与余弦函数使解在最优点附近振荡」。</p>",
+    "theory": "<p>SCA 的更新式是<b>向最优解按振荡幅度收缩</b>，没有群体间的信息交换（除了通过最优 P）；它本质上是围绕全局最优的随机扰动，性质与「在最优点附近做缩小半径的随机搜索」相近。同样受到中心偏置的批评（Kudela 2022）：把最优点放在原点的函数上过于有利。理论上没有收敛性证明。其价值主要是<b>实现简单、作为基线</b>。</p>",
+    "variants": [
+      "<b>改进 SCA</b>：混沌、Lévy、对立学习 (OBL) 增强；<b>离散 SCA</b>：正弦 / 余弦项译为交换序列或二进制翻转概率。"
+    ],
+    "refs": [
+      "Mirjalili (2016). SCA: A sine cosine algorithm for solving optimization problems. Knowledge-Based Systems, 96, 120-133",
+      "Sörensen (2015). Metaheuristics — the metaphor exposed. International Transactions in Operational Research, 22(1), 3-18",
+      "Kudela (2022). A critical problem in benchmarking and analysis of evolutionary computation methods. Nature Machine Intelligence, 4, 1238-1245",
+      "Gabis, Meraihi, Mirjalili &amp; Ramdane-Cherif (2021). A comprehensive survey of sine cosine algorithm: Variants and applications. Artificial Intelligence Review, 54(7), 5469-5540"
+    ],
+    "tagline_en": "Positions oscillate around the best solution driven by sine and cosine terms.",
+    "summary_en": "The Sine Cosine Algorithm (Mirjalili, 2016) updates each solution with sine and cosine terms whose amplitude decays, unifying exploration and exploitation in one coefficient. It has very few parameters and is clean to teach, but it follows the same pattern as GWO and WOA and does not stand out in practice. On this site every algorithm solves TSP with a permutation encoding plus a shared memetic 2-opt component, so the comparison is of frameworks on equal footing, not of whose metaphor is cleverer.",
+    "name_en": "Sine Cosine Algorithm (SCA)"
+  },
+  {
+    "key": "hho",
+    "slug": "hho-tsp",
+    "name": "哈里斯鹰 HHO",
+    "title": "哈里斯鹰优化（HHO）求解 TSP 在线演示 · 逃逸能量与莱维俯冲动画",
+    "desc": "哈里斯鹰优化算法（HHO）求解旅行商问题（TSP）的在线演示：逃逸能量 E 衰减、软硬包围切换、莱维俯冲，含离散化细节，浏览器本地运行。",
+    "h1": "哈里斯鹰优化（HHO）求解 TSP 在线演示",
+    "lead": "HHO 模拟鹰群捕猎兔子：猎物的「逃逸能量」随时间衰减——能量充沛时鹰群大范围探索，能量耗尽后收缩包围圈，进攻失败就切换莱维俯冲。",
+    "intro": [
+      "HHO（Heidari et al., 2019）引用量上万，是 2019 年后引用增长最快的元启发式之一。它的全部行为由一个变量驱动：<strong>逃逸能量 E = 2(1 − t/T)</strong>，|E|≥1 探索、|E|&lt;1 开发，r 再分软/硬包围——四阶段的切换逻辑非常清晰。",
+      "离散化映射：软包围 = 以 |E|·步幅上限 向最优解（兔子）靠近；硬包围步幅再减半；<strong>莱维俯冲</strong> = 进攻没占到便宜就做短 2-opt 试射 + 小概率长片段逆转；探索 = 在两只随机同伴中挑好的靠近。"
+    ],
+    "principle": [
+      "初始化：多起点最近邻播种（鹰群）。",
+      "逃逸能量 E 从 2 线性衰减到 0，控制探索/开发切换。",
+      "探索阶段（|E|≥1）：随机栖息二选一——在两只随机同伴中挑好的靠近。",
+      "开发阶段（|E|&lt;1）：软/硬包围（按逃跑概率 r 分步幅），进攻失败触发莱维俯冲。",
+      "兔子（最优解）单独记录，周期性 2-opt 后回灌种群。",
+      "⚠️ 离散化声明：原文机制作用于连续实数向量——本页全部步骤（交换序列、2-opt 试射、双桥扰动等）都是本站为 TSP 设计的排列域对应实现；忠实于原文的是调度思想与相位结构，不是逐条公式。复现原论文请回到连续域。",
+      "📌 注意：原文逃逸能量为 E = 2·E0·(1 − t/T)，E0∈[−1,1] 每代重抽（初值随机项）；本站动画取 E0=1 的确定性特例以便教学演示。"
+    ],
+    "params": [
+      [
+        "n_hawks",
+        "25",
+        "鹰群规模"
+      ],
+      [
+        "dive_p",
+        "0.4",
+        "俯冲概率：进攻阶段触发莱维俯冲的可能性"
+      ],
+      [
+        "step_cap",
+        "0.4",
+        "单次包围移动执行交换前缀的最大比例"
+      ],
+      [
+        "mutation",
+        "0.05",
+        "随机扰动概率"
+      ],
+      [
+        "ls_every",
+        "10",
+        "每多少代对全局最优做一次 2-opt 并回灌"
+      ]
+    ],
+    "paper": "Heidari, A.A. et al. (2019). Harris Hawks Optimization: Algorithm and applications. Future Generation Computer Systems, 97, 849-872.",
+    "faq": [
+      [
+        "逃逸能量 E 是什么？",
+        "猎物（兔子）的剩余体力，建模为随迭代线性衰减的 E = 2(1 − t/T)。|E|≥1 时兔子还在乱跳，鹰群只能大范围搜索；|E|&lt;1 时兔子力竭，鹰群收缩包围。它就是 HHO 的探索/开发调度器。"
+      ],
+      [
+        "莱维俯冲什么时候触发？",
+        "两种情况：进攻阶段按概率 dive_p 主动触发；或者这一步进攻没占到便宜（没比之前更好）时兜底触发——模拟真实捕猎中「直扑失败改俯追」。"
+      ],
+      [
+        "HHO 和 GWO 谁更强？",
+        "本页实测 200 代下两者终值差距在 3% 以内（都是随机算法，换种子排名会变）。HHO 的四阶段策略切换在曲线上更有戏剧性，适合演示。"
+      ]
+    ],
+    "family": "F2",
+    "use_when": "想学「逃逸能量 |E| 阈值切换四阶段」的探索/开发调度设计；近年引用增长最快的种群算法之一，实现后明显赢过随机基线。",
+    "avoid_when": "软/硬包围+莱维俯冲的实现重，阶段阈值虽少但敏感；与 VNS/ILS 框架类对比没有可引用的实战优势证据。",
+    "origin": "<p>Heidari 等 (2019) 模拟哈里斯鹰的「突袭」协作围猎：按猎物的逃逸能量 E 在<b>探索</b>（栖息、随机位置）与四种<b>开发</b>策略（软 / 硬包围，带渐进俯冲的软 / 硬包围）之间切换，其中俯冲用 Lévy 飞行。</p>",
+    "theory": "<p>HHO 的各阶段更新式都是向<b>当前最优（兔子）</b>或种群均值按随机系数靠近，再加 Lévy 扰动；它是一个多模式的「向最优收缩」算法，没有独立于已有方法的新机制。与其他同类一样存在<b>中心偏置</b>：在原点最优的 Rastrigin 上 HHO（以及 SSA、FWA、SOS）会得到恰好 0（本站的实测与描述里已标注）。收敛性没有理论结果；其价值是 CEC 与工程算例上的经验表现。</p>",
+    "variants": [
+      "<b>改进 HHO</b>：混沌、对立学习、自适应能量衰减；<b>离散 HHO</b>：位置译为交换序列 / 二进制翻转概率。"
+    ],
+    "refs": [
+      "Heidari, Mirjalili, Faris, Aljarah, Mafarja &amp; Chen (2019). Harris hawks optimization: Algorithm and applications. Future Generation Computer Systems, 97, 849-872",
+      "Sörensen (2015). Metaheuristics — the metaphor exposed. International Transactions in Operational Research, 22(1), 3-18",
+      "Kudela (2022). A critical problem in benchmarking and analysis of evolutionary computation methods. Nature Machine Intelligence, 4, 1238-1245",
+      "Mantegna (1994). Fast, accurate algorithm for numerical simulation of Lévy stable stochastic processes. Physical Review E, 49(5), 4677-4683"
+    ],
+    "tagline_en": "Harris hawks' cooperative hunt with four phases switched by the prey's escaping energy.",
+    "summary_en": "Harris Hawks Optimization (Heidari et al., 2019) switches between exploration and several surround-and-dive phases according to a decaying escaping-energy value. It is one of the fastest-growing recent population algorithms in citations and clearly beats random search here, but there is no evidence of a practical advantage over framework methods such as VNS or ILS. On this site every algorithm solves TSP with a permutation encoding plus a shared memetic 2-opt component, so the comparison is of frameworks on equal footing, not of whose metaphor is cleverer.",
+    "name_en": "Harris Hawks Optimization (HHO)"
+  },
+  {
+    "key": "ils",
+    "slug": "ils-tsp",
+    "name": "迭代局部搜索 ILS",
+    "title": "迭代局部搜索（ILS）求解 TSP 在线演示 · 双桥扰动与接受准则动画",
+    "desc": "迭代局部搜索（ILS）求解旅行商问题（TSP）的在线演示：双桥扰动、预算制下探、接受准则可调，工业界最常用的元启发式框架，浏览器本地运行。",
+    "h1": "迭代局部搜索（ILS）求解 TSP 在线演示",
+    "lead": "ILS 的思想朴素到近乎哲学：单点局部搜索必然卡死，那就「下探到局部最优 → 踢出去 → 再下探 → 挑好的留下」循环往复。",
+    "intro": [
+      "ILS（Lourenço, Martin &amp; Stützle, 2003）引用量上万，是<strong>工业界用得最多的元启发式框架</strong>——LKH 这类世界级 TSP 求解器的骨架就是它。它不发明新算子，只回答一个问题：局部最优卡住了怎么办？",
+      "答案分三步：<strong>扰动</strong>（受控地踢坏当前解）、<strong>下探</strong>（局部搜索爬回新的局部最优）、<strong>接受准则</strong>（决定留下还是回退）。本页的扰动用双桥（double bridge）：切 4 段重排，任何一次 2-opt 移动都无法还原它。"
+    ],
+    "principle": [
+      "初始解 = 最近邻 + 完整 2-opt。",
+      "扰动：连踢 perturb 脚双桥，把解踢出当前局部盆地。",
+      "下探：预算制 2-opt（最多 descend 次移动），爬到新的局部最优。",
+      "接受准则：better 模式只认改进；restart 模式连续 patience 代无改进就从最近邻重新构造。",
+      "历史最优单独记录，永不回退。"
+    ],
+    "params": [
+      [
+        "perturb",
+        "1",
+        "每次扰动连踢几脚双桥（越多踢得越远）"
+      ],
+      [
+        "descend",
+        "30",
+        "每次下探最多执行的 2-opt 移动数"
+      ],
+      [
+        "accept",
+        "better",
+        "接受准则：better=只认改进 / restart=无改进重启"
+      ],
+      [
+        "patience",
+        "30",
+        "restart 模式的容忍代数"
+      ]
+    ],
+    "paper": "Lourenço, Martin &amp; Stützle, 2003（Iterated Local Search, Handbook of Metaheuristics）",
+    "faq": [
+      [
+        "双桥和随机交换扰动有什么区别？",
+        "双桥切 4 段重排（A B C D → A C B D），这个扰动<strong>不可能被任何一次 2-opt 移动还原</strong>——正好把解踢出 2-opt 局部盆地。随机交换扰动踢得不够远，下探一步就爬回原地。"
+      ],
+      [
+        "ILS 和 VNS 怎么选？",
+        "两者都是「扰动+下探」框架：ILS 用固定扰动（双桥），VNS 用一组由近及远的邻域轮换。本页实测两者在 TSP 上表现接近，都是 n=100 的前两名。"
+      ],
+      [
+        "为什么工业界爱用 ILS？",
+        "简单、稳、参数少。perturb 和 descend 两个参数就够用，而且「卡了就踢」的直觉人人能懂——工程上好维护比理论漂亮更重要。"
+      ]
+    ],
+    "family": "F10",
+    "use_when": "手里已有好用的局部搜索，想系统性地跳出局部最优——扰动 + 回吸的迭代局部搜索框架。",
+    "avoid_when": "没有现成局部搜索算子的问题——巧妇难为无米之炊。同理框架只是壳：ILS 的增益来自「好局部搜索 + 扰动幅度调度 + 接受准则」三件套，缺一件就退化成随机重启。",
+    "origin": "<p>Lourenço、Martin 与 Stützle (2003) 的综述把「局部搜索 → 扰动 → 再局部搜索 → 接受准则」这个循环命名为<b>迭代局部搜索</b>。更早的版本包括 Martin、Otto 与 Felten (1991) 的大步马尔可夫链（用于 TSP）与 Johnson 的迭代 Lin–Kernighan (1990)。它是 TSP 上最强的启发式之一：<b>ILS + LK 的组合</b>长期是大规模 TSP 的主力。</p>",
+    "theory": "<p>ILS 的行为由四个设计决定：<b>初始解</b>、<b>局部搜索</b>（决定「局部最优」是什么）、<b>扰动</b>（强度要足以逃离当前盆地、又不能把解毁成随机）、<b>接受准则</b>（更好 / 稍差也接受 / 重启）。Stützle 对 TSP、QAP 的景观分析表明，好的局部最优集中在「大谷」（big valley）里，所以<b>从当前最优附近出发的小扰动</b>比随机重启高效得多。理论上 ILS 可视为在「局部最优空间」上的随机游走，没有一般性的收敛性结论。</p>",
+    "variants": [
+      "<b>双桥扰动 + LK</b>（Martin–Otto–Felten）：TSP 上的标准配置；",
+      "<b>自适应扰动强度</b>与<b>重启 / 局部保存</b>策略（Stützle 的实验）。"
+    ],
+    "refs": [
+      "Lourenço, Martin &amp; Stützle (2003). Iterated local search. In Handbook of Metaheuristics, Springer, 320-353",
+      "Martin, Otto &amp; Felten (1991). Large-step Markov chains for the traveling salesman problem. Complex Systems, 5(3), 299-326",
+      "Johnson (1990). Local optimization and the traveling salesman problem. In ICALP 1990, LNCS 443, 446-461",
+      "Stützle &amp; Hoos (2001). Analyzing the run-time behaviour of iterated local search for the TSP. In Metaheuristics: Computer Decision-Making, Kluwer, 589-611",
+      "Boese, Kahng &amp; Muddu (1994). A new adaptive multi-start technique for combinatorial global optimizations. Operations Research Letters, 16(2), 101-113"
+    ],
+    "tagline_en": "Local search, then perturb the local optimum and descend again — a framework, not a metaphor.",
+    "summary_en": "Iterated Local Search (Lourenço, Martin & Stützle, 2003) repeatedly applies local search, perturbs the resulting local optimum, and descends again under an acceptance criterion. It is only a shell: its gain comes from a good local search, a well-chosen perturbation strength and an acceptance rule — without any one of the three it degrades to random restarts. On this site every algorithm solves TSP with a permutation encoding plus a shared memetic 2-opt component, so the comparison is of frameworks on equal footing, not of whose metaphor is cleverer.",
+    "name_en": "Iterated Local Search (ILS)"
+  },
+  {
+    "key": "vns",
+    "slug": "vns-tsp",
+    "name": "变邻域搜索 VNS",
+    "title": "变邻域搜索（VNS）求解 TSP 在线演示 · 邻域轮换与 shake 动画",
+    "desc": "变邻域搜索（VNS）求解旅行商问题（TSP）的在线演示：三层邻域 shake、预算制下探、k 值轮换可视化，浏览器本地运行。",
+    "h1": "变邻域搜索（VNS）求解 TSP 在线演示",
+    "lead": "VNS 的洞察：一个解在 2-opt 邻域里是最优，换到 or-opt 邻域、双桥邻域里就未必了——卡住就换邻域，别死磕。",
+    "intro": [
+      "VNS（Mladenović &amp; Hansen, 1997）引用量上万，与 TS、ILS 并列三大局部搜索框架。核心机制是<strong>邻域轮换</strong>：维护一组由远及近的邻域结构 k=1..k_max，在当前邻域里 shake（随机扰动）后下探，有进步就回到第一层，没进步就换下一层。",
+      "本页三层邻域：k=1 双桥 shake（最远）、k=2 or-opt 摘段重插、k=3 双重双桥。收敛曲线的 extra 面板里能看到 k 的实时变化。"
+    ],
+    "principle": [
+      "初始解 = 最近邻 + 完整 2-opt。",
+      "shake：在第 k 层邻域里随机扰动（k 越大踢得越远）。",
+      "下探：预算制 2-opt。",
+      "下探有进步 → 采纳并回到 k=1；无进步 → k = k mod k_max + 1 换邻域。",
+      "历史最优单独记录，永不回退。"
+    ],
+    "params": [
+      [
+        "k_max",
+        "3",
+        "邻域层数（越大探索越远）"
+      ],
+      [
+        "descend",
+        "25",
+        "每次下探最多执行的 2-opt 移动数"
+      ],
+      [
+        "or_seg",
+        "3",
+        "or-opt 摘下重插的连续城市段长上限"
+      ]
+    ],
+    "paper": "Mladenović, N. &amp; Hansen, P. (1997). Variable Neighborhood Search. Computers &amp; Operations Research, 24(11), 1097-1100.",
+    "faq": [
+      [
+        "「邻域」在这里指什么？",
+        "从一个解出发一步能到达的解的集合。2-opt 邻域 = 所有能由一次片段逆转到达的解；or-opt 邻域 = 所有能由一次摘段重插到达的解。不同邻域的「地形」不同——A 解在 2-opt 地形上是谷底，在 or-opt 地形上可能是半山腰。"
+      ],
+      [
+        "VNS 和 ILS 的本质区别？",
+        "ILS 的扰动方式固定（双桥），VNS 的扰动随 k 轮换。VNS 的自适应性好一点：踢不出去就自动加大力度。本页实测 n=100 上 VNS 略胜 ILS，但差距在随机波动范围内。"
+      ],
+      [
+        "为什么下探有进步就要回到 k=1？",
+        "k=1 是最近的邻域，扰动最温和。刚有进步说明当前区域还有油水，先用小力度开发；等彻底卡住了再逐级加大探索力度。这是 VNS 的「由近及远」哲学。"
+      ]
+    ],
+    "family": "F10",
+    "use_when": "问题能设计出多个邻域结构；想用最简框架系统性地在邻域间切换搜索。",
+    "avoid_when": "只有一个邻域的问题——退化成普通局部搜索，白加调度开销。框架只是壳：VNS 的增益完全来自邻域工程与扰动幅度调度——没有现成的 2-opt/or-opt/双桥邻域族，裸框架照样拉胯。",
+    "origin": "<p>Mladenović 与 Hansen (1997) 提出：系统地<b>改变邻域结构</b>——在邻域 N₁ 里局部搜索到局部最优后，若无改进就换更大的邻域 N₂、N₃…（用 shaking 随机跳到 N_k 里一个点再搜索），一旦改进就回到 N₁。出发点是三个事实：一个邻域的局部最优不一定是另一个邻域的局部最优；全局最优是所有邻域的局部最优；局部最优往往彼此靠近。</p>",
+    "theory": "<p>VNS 的哲学是「系统地换邻域」，它没有一般性的收敛证明，但在 p-中位、TSP、聚类等问题上的实验结果良好（Hansen &amp; Mladenović 2001 的综述）。关键设计是<b>邻域序列</b>（从小到大的嵌套邻域，如 k 次交换）与<b>shaking 强度</b>。VNS 家族包括基本 VNS（BVNS）、<b>变邻域下降</b>（VND，确定性换邻域）、<b>简化 VNS</b>（RVNS，不做局部搜索）、<b>分解式 VNS</b>。与 ILS 相比，VNS 的扰动强度是<b>自适应递增</b>的，ILS 通常用固定强度。</p>",
+    "variants": [
+      "<b>BVNS</b>：shaking + 局部搜索 + 邻域切换；<b>VND</b>：确定性依次换邻域做下降（常作为 BVNS 的局部搜索）；<b>GVNS</b>：VND 作局部搜索的 BVNS。"
+    ],
+    "refs": [
+      "Mladenović &amp; Hansen (1997). Variable neighborhood search. Computers &amp; Operations Research, 24(11), 1097-1100",
+      "Hansen &amp; Mladenović (2001). Variable neighborhood search: Principles and applications. European Journal of Operational Research, 130(3), 449-467",
+      "Hansen, Mladenović &amp; Moreno Pérez (2010). Variable neighbourhood search: Methods and applications. Annals of Operations Research, 175(1), 367-407",
+      "Mladenović, Brimberg, Hansen &amp; Moreno-Pérez (2007). The p-median problem: A survey of metaheuristic approaches. European Journal of Operational Research, 179(3), 927-939",
+      "Lourenço, Martin &amp; Stützle (2003). Iterated local search. In Handbook of Metaheuristics, Springer, 320-353"
+    ],
+    "tagline_en": "Systematically change neighbourhood structures when the current one is stuck.",
+    "summary_en": "Variable Neighborhood Search (Mladenović & Hansen, 1997) switches between neighbourhood structures (for TSP: 2-opt, or-opt, double-bridge) when one is exhausted. It is only effective if you have a family of good neighbourhoods; with a single neighbourhood it degenerates into plain local search. On this site every algorithm solves TSP with a permutation encoding plus a shared memetic 2-opt component, so the comparison is of frameworks on equal footing, not of whose metaphor is cleverer.",
+    "name_en": "Variable Neighborhood Search (VNS)"
+  },
+  {
+    "key": "lk",
+    "slug": "lk-tsp",
+    "name": "Lin–Kernighan LK",
+    "title": "Lin–Kernighan（LK）求解 TSP 在线演示 · 变深度边交换动画",
+    "desc": "Lin–Kernighan（LK）求解旅行商问题（TSP）的在线演示：变深度链式边交换、累计增益、双桥踢出局部盆地，50 年依然是求解器之王，浏览器本地运行。",
+    "h1": "Lin–Kernighan（LK）求解 TSP 在线演示",
+    "lead": "LK（1973）是 TSP 的专用求解器巅峰之作：50 年过去，LKH、Concorde 这些世界级求解器的核心引擎仍是它的变深度思想。",
+    "intro": [
+      "LK 和 2-opt 的本质区别：<strong>2-opt 只接受单步变好的交换，LK 允许链式交换中个别步暂时变差</strong>——只要整条链的累计增益为负（变好）就采纳。「先下坡，为的是翻过山脊上更高的山」，这种搜索由变深度机制显式支持。",
+      "本页是随机化 LK 简化变体：每步在抽样的断裂点里选最优交换（含变差步），同一断裂点本轮不复用，链深上限 depth；卡死时踢一脚双桥。实现细节和踩坑记录见源码注释。"
+    ],
+    "principle": [
+      "初始解 = 最近邻。",
+      "一次 pass：贪心链式执行 2-opt 交换，每步选 delta 最小的（断裂点抽样 + 全 k 扫描）。",
+      "链上维护累计增益，记录 cum 最小的中间状态——个别变差步允许进链。",
+      "pass 结束时若最优累计增益 &lt; 0（净改进）才采纳，否则保持原解。",
+      "连续多代无改进 → 双桥踢出局部盆地，重新开始 pass。"
+    ],
+    "params": [
+      [
+        "depth",
+        "10",
+        "单次 pass 最多链式执行几次交换（变深度搜索核心参数）"
+      ],
+      [
+        "sample",
+        "40",
+        "每步抽样的候选断裂点数（don't-look 思想，越大越精细越慢）"
+      ],
+      [
+        "kick_every",
+        "10",
+        "每 N 代无改进就踢一脚双桥；0=关闭"
+      ]
+    ],
+    "paper": "Lin, S. &amp; Kernighan, B.W. (1973). An Effective Heuristic Algorithm for the Traveling-Salesman Problem. Operations Research, 21(2), 498-516.",
+    "faq": [
+      [
+        "LK 和 2-opt 不都是做片段逆转吗？",
+        "算子相同，<strong>接受逻辑不同</strong>。2-opt：delta&lt;0 才接受，一步定生死。LK：把交换串成链，允许链中 delta>0 的步，按整条链的累计增益收官。正因为能「先变差再变好」，它能到达 2-opt 永远到不了的解。"
+      ],
+      [
+        "为什么本页 LK 不像 LKH 那样碾压一切？",
+        "LKH 是 LK 思想 + 五十年工程化：候选边表、α-nearness 初值、5-opt 邻域……工程量巨大。本页是教学级简化版（2-opt 链 + 抽样），目标是把变深度思想讲清楚，不追求 SOTA。"
+      ],
+      [
+        "「变深度」的深度指什么？",
+        "链的长度。一次 pass 里链式交换最多执行 depth 次——深度 1 就退化成普通 2-opt，深度越大越有可能翻过山脊，但每步的计算量也越大。"
+      ]
+    ],
+    "family": "F0",
+    "use_when": "要高质量的 TSP 解——Lin–Kernighan 是 TSP 局部搜索的天花板，大规模实例的首选后处理。",
+    "avoid_when": "非 TSP 问题（它是 TSP 专用，k-opt 段翻转不通用）；需要半小时内讲透的场景（实现复杂）。",
+    "origin": "<p>Lin 与 Kernighan (1973) 提出：把 2-opt / 3-opt 推广成<b>可变深度</b>的边交换——每一步在当前路径上做「增益为正的交换序列」，一直延伸到再也找不到正增益，取过程中累计增益最大的那一步停下。它比固定 k 的 k-opt 强得多，是 TSP 启发式里的里程碑。Johnson &amp; McGeoch (1997)、Helsgaun (2000) 的 LKH 把它推到了极致。</p>",
+    "theory": "<p>LK 的核心是「<b>贪心 + 正增益准则 + 回溯有限深度</b>」：每个中间状态保持为哈密顿路径（加一条边闭合成回路），保证任何时刻都可以停下取回路。理论上没有近似比保证（局部最优的最坏比可以很差，Chandra、Karloff 与 Tovey 证明了 k-opt 局部最优的最坏近似比），但<b>实践中</b>：Johnson &amp; McGeoch 的实验显示 LK 的局部最优平均只比 Held–Karp 下界高约 2%；Helsgaun 的 LKH 用 α-最近邻候选集与 5-opt 基本移动，在大多数基准上找到已知最优。它与元启发式的关系：ILS + LK（Martin–Otto–Felten 的大步马尔可夫链）曾长期是大规模 TSP 的最强组合。<b>本站把它作为局部搜索的参照</b>，其他算法的 memetic 部分用的是更简单的 2-opt / Or-opt。</p>",
+    "variants": [
+      "<b>Or-opt、2-opt、3-opt</b>：固定深度的前驱；<b>LKH</b>（Helsgaun 2000，α-nearness 候选集 + 5-opt 基本移动）；<b>LKH-3</b>（Helsgaun 2017，扩展到约束 TSP、VRP）；",
+      "<b>Chained LK</b>（Applegate、Cook 与 Rohe 2003）：随机重启式的链式 LK，Concorde 里的启发式。"
+    ],
+    "refs": [
+      "Lin &amp; Kernighan (1973). An effective heuristic algorithm for the traveling-salesman problem. Operations Research, 21(2), 498-516",
+      "Johnson &amp; McGeoch (1997). The traveling salesman problem: A case study in local optimization. In Local Search in Combinatorial Optimization, Wiley, 215-310",
+      "Helsgaun (2000). An effective implementation of the Lin-Kernighan traveling salesman heuristic. European Journal of Operational Research, 126(1), 106-130",
+      "Helsgaun (2017). An extension of the Lin-Kernighan-Helsgaun TSP solver for constrained traveling salesman and vehicle routing problems. Technical Report, Roskilde University",
+      "Applegate, Cook &amp; Rohe (2003). Chained Lin-Kernighan for large traveling salesman problems. INFORMS Journal on Computing, 15(1), 82-92",
+      "Applegate, Bixby, Chvátal &amp; Cook (2006). The Traveling Salesman Problem: A Computational Study. Princeton University Press"
+    ],
+    "tagline_en": "The classic variable-depth edge-exchange heuristic — the TSP-specific solver reference.",
+    "summary_en": "Lin–Kernighan (1973) is a variable-depth edge-exchange local search and, together with its descendants such as LKH, the standard of high-quality TSP heuristics. Unlike the other algorithms here it is TSP-specific (k-opt segment reversal does not transfer to other problems), and it is included as a dedicated-solver reference rather than as a metaheuristic. On this site every algorithm solves TSP with a permutation encoding plus a shared memetic 2-opt component, so the comparison is of frameworks on equal footing, not of whose metaphor is cleverer.",
+    "name_en": "Lin–Kernighan (LK)"
+  },
+  {
+    "key": "ba",
+    "slug": "ba-tsp",
+    "name": "蝙蝠算法 BA",
+    "title": "蝙蝠算法（BA）求解 TSP 在线演示 · 频率调谐与响度衰减动画",
+    "desc": "蝙蝠算法（BA）求解旅行商问题（TSP）的在线演示：频率调谐、脉冲发射、响度衰减全部可调，浏览器本地运行。",
+    "h1": "蝙蝠算法（BA）求解 TSP 在线演示",
+    "lead": "BA 模拟蝙蝠回声定位捕猎：靠近猎物时降低响度、提高发射频率——探索到开发的切换写进了物理量里。",
+    "intro": [
+      "BA（Yang, 2010）引用量上万，是 Yang 系（FA/CS/BA）里被引最高的作品之一。每只蝙蝠有四个量：位置（解）、频率 f、响度 A、脉冲率 r。<strong>频率控制步幅</strong>，响度控制随机游走强度并逐步衰减，脉冲率控制「定位性开发」的频率并逐步升高。",
+      "离散化映射：常规移动 = 向最优蝙蝠执行交换序列前缀（比例=f）+ 响度级 2-opt 试射；脉冲发射 = 直接在全局最优附近做短 2-opt 试射；响度门槛 = 改进幅度要通过 A 的随机检验才被接纳。"
+    ],
+    "principle": [
+      "初始化：多起点最近邻播种（蝙蝠群）+ 轻量 2-opt 抛光。",
+      "每代每只蝙蝠按频率 f 向最优解移动（交换序列前缀）或按脉冲率 r 直接在最优解附近开发。",
+      "响度 A 加权接受：找到更好解才更新，响度按 α 衰减、脉冲率按 γ 增长。",
+      "周期性对全局最优做 2-opt 并回灌种群。"
+    ],
+    "params": [
+      [
+        "n_bats",
+        "20",
+        "蝙蝠数"
+      ],
+      [
+        "f_min / f_max",
+        "0.05 / 0.45",
+        "频率区间 = 向最优移动的步幅基数范围"
+      ],
+      [
+        "A0",
+        "0.9",
+        "初始响度（随机游走强度）"
+      ],
+      [
+        "r0",
+        "0.5",
+        "初始脉冲率（定位性开发概率）"
+      ],
+      [
+        "alpha / gamma",
+        "0.9 / 0.9",
+        "响度衰减 / 脉冲增长系数"
+      ],
+      [
+        "ls_every",
+        "10",
+        "每多少代对全局最优做一次 2-opt 并回灌"
+      ]
+    ],
+    "paper": "Yang, 2010, A New Metaheuristic Bat-inspired Algorithm（Nature Inspired Cooperative Strategies for Optimization）",
+    "faq": [
+      [
+        "BA 和 FA 都是 Yang 的，区别是什么？",
+        "FA 用「亮度」驱动吸引力（多对多，向更亮的同伴移动），BA 用「频率+响度」驱动个体移动（都朝当前最优）。BA 的探索/开发调度是隐式的（响度自动衰减），FA 的靠距离。"
+      ],
+      [
+        "响度 A 在这里起什么作用？",
+        "两个作用：控制随机游走（2-opt 试射）的强度；作为接受门槛——模拟回声定位里「听得越清楚（响度低=离猎物近）收到的反馈越精确」。排列域上这是对连续式的近似。"
+      ],
+      [
+        "频率为什么要有上限？",
+        "和 GWO/PSO 的步幅上限同一个教训：不设上限时移动会一步跳到最优解身上，整群塌缩成复制品。f_max=0.45 保留了一半的自主移动空间。"
+      ]
+    ],
+    "family": "F2",
+    "use_when": "频率/响度双参数构成隐式的探索-开发调度，声学工程类问题有天然语义；与 FA 对比读「同一作者两种哲学」很有味道。",
+    "avoid_when": "响度衰减调度是隐式的，坏了不好诊断；在这套 TSP 组件上无突出表现，选它更多是历史地位而非当前竞争力。",
+    "origin": "<p>Yang (2010) 受蝙蝠的回声定位启发提出：每只蝙蝠有频率、速度与位置，更新式为 v ← v + (x − x*)f，f ∈ [f_min, f_max]；<b>响度</b> A 随找到更优解递减、<b>脉冲发射率</b> r 递增，用来在探索与开发之间切换。</p>",
+    "theory": "<p>Camacho-Villalón、Stützle 与 Dorigo (2020) 分析指出，蝙蝠算法的位置更新与带全局最优项的粒子群（PSO）<b>数学上等价</b>，所谓的「频率」不过是 PSO 里的随机缩放系数，响度与脉冲率只是接受新解的概率调度（类似 SA 的温度）。收敛性没有一般性结论；早期实现中常见的实现细节（f 的范围、A 的衰减常数）对结果影响巨大，所以论文之间的结果不易比较。本站默认 α=0.9 的响度衰减。</p>",
+    "variants": [
+      "<b>BA 变体</b>：混沌、Lévy 飞行、自适应频率；<b>二进制 BA</b>（Mirjalili 2014，sigmoid / V 型传输函数）。"
+    ],
+    "refs": [
+      "Yang (2010). A new metaheuristic bat-inspired algorithm. In Nature Inspired Cooperative Strategies for Optimization (NICSO 2010), SCI 284, 65-74",
+      "Camacho-Villalón, Stützle &amp; Dorigo (2020). Grey wolf, firefly and bat algorithms: Three widespread algorithms that do not contain any novelty. In ANTS 2020, LNCS 12421, 121-133",
+      "Mirjalili, Mirjalili &amp; Yang (2014). Binary bat algorithm. Neural Computing and Applications, 25(3-4), 663-681",
+      "Sörensen (2015). Metaheuristics — the metaphor exposed. International Transactions in Operational Research, 22(1), 3-18"
+    ],
+    "tagline_en": "Echolocating bats adjust pulse loudness and rate as they close in on prey.",
+    "summary_en": "The Bat Algorithm (Yang, 2010) models echolocation: frequency, loudness and pulse rate form an implicit exploration-to-exploitation schedule. It has natural semantics for acoustic problems, but the implicit loudness decay is hard to diagnose when it goes wrong, and it shows no standout performance here — its place is historical. On this site every algorithm solves TSP with a permutation encoding plus a shared memetic 2-opt component, so the comparison is of frameworks on equal footing, not of whose metaphor is cleverer.",
+    "name_en": "Bat Algorithm (BA)"
+  },
+  {
+    "key": "hs",
+    "slug": "hs-tsp",
+    "name": "和声搜索 HS",
+    "title": "和声搜索（HS）求解 TSP 在线演示 · 记忆考虑与音高调整动画",
+    "desc": "和声搜索（HS）求解旅行商问题（TSP）的在线演示：记忆考虑率 HMCR、音高调整率 PAR 可调，音乐即兴隐喻的元启发式开山之作，浏览器本地运行。",
+    "h1": "和声搜索（HS）求解 TSP 在线演示",
+    "lead": "HS 把优化比作乐手即兴合奏：从记忆里抄一段（记忆考虑）、抄完微调（音高调整）、或者完全即兴（随机）——三种方式的比例决定搜索性格。",
+    "intro": [
+      "HS（Geem, Kim &amp; Loganathan, 2001）引用量近万，「音乐启发式」的开山之作。它没有移动方程，只有三种生成新解的方式：<strong>记忆考虑 HMCR</strong>（从记忆库随机抄一条和声）、<strong>音高调整 PAR</strong>（抄完微调）、<strong>随机选择</strong>（完全即兴）。新和声比记忆库里的最差者好，就替换进去。",
+      "离散化映射：和声 = 排列；音高调整 = 短 2-opt 试射或片段逆转；完全即兴 = 从随机 NN 起点重新构造。"
+    ],
+    "principle": [
+      "初始化：和声记忆库 HM = 多起点最近邻播种 + 轻量抛光。",
+      "即兴一支新和声：以 HMCR 概率从库里抄一条，抄完以 PAR 概率微调；否则完全即兴。",
+      "新和声比库里最差者好 → 替换最差者（好就进，差就丢）。",
+      "周期性对全局最优做 2-opt 并回灌。"
+    ],
+    "params": [
+      [
+        "hms",
+        "20",
+        "和声记忆库大小"
+      ],
+      [
+        "hmcr",
+        "0.9",
+        "记忆考虑率：从库里取材的概率"
+      ],
+      [
+        "par",
+        "0.3",
+        "音高调整率：抄完微调的概率"
+      ],
+      [
+        "ls_every",
+        "10",
+        "每多少代对全局最优做一次 2-opt 并回灌"
+      ]
+    ],
+    "paper": "Geem, Z.W., Kim, J.H. &amp; Loganathan, G.V. (2001). A New Heuristic Optimization Algorithm: Harmony Search. Simulation, 76(2), 60-68.",
+    "faq": [
+      [
+        "HMCR 调高调低意味着什么？",
+        "HMCR=1 变成纯局部搜索（永远在库里变奏），HMCR=0 变成纯随机重启（每次都即兴）。0.9 附近是文献常用值：大部分时候利用记忆，偶尔跳出。"
+      ],
+      [
+        "HS 没有「向最优解移动」的机制？",
+        "对，这是它和 PSO/GWO 系的根本区别。HS 的信息流动全靠记忆库共享——好解进库后会被后续的「记忆考虑」反复取材变奏。是一种更「松散」的种群协作。"
+      ],
+      [
+        "音乐隐喻是真的有数学内核，还是纯包装？",
+        "偏包装。HMCR/PAR 的组合本质上是一种带精英库的 (μ+1) 进化策略。但这个隐喻让它在土木工程社区（原作者领域）传播极广——隐喻的价值在于降低理解门槛，别指望它带来额外搜索能力。"
+      ]
+    ],
+    "family": "F4",
+    "use_when": "解天然由「片段」组成的问题（排班/和声/选曲式构造）用记忆/微调/即兴三比例很贴；HMCR 单参数好解释好调。",
+    "avoid_when": "本质是带记忆库的随机重启+微调，无种群交互；在强局部搜索组件（2-opt/or-opt）面前增益有限。",
+    "origin": "<p>Geem、Kim 与 Loganathan (2001) 受爵士乐手即兴演奏启发：「和声记忆库」(HM) 保存若干好解；新解每个分量以概率 HMCR 从记忆库里取、以 PAR 做音高微调、否则随机生成。最初用于水管网络设计，随后被广泛用于结构设计与调度。</p>",
+    "theory": "<p>Weyland (2010) 的「严格分析」指出：和声搜索<b>是 (μ+1) 进化策略的一个特例</b>（带分量级交叉的重组），所谓「即兴」不过是从种群里逐分量取值的均匀交叉加小扰动；论文标榜的新颖性并不存在。这是元启发式隐喻批评里最早、最清晰的一个例子，也是 Sörensen (2015) 的「隐喻暴露」的背景。不过 HS 的<b>简单性</b>使它在小规模离散问题（调度、设计）上仍作为稳健基线被使用。</p>",
+    "variants": [
+      "<b>改进 HS (IHS)</b>：自适应 PAR 与音高微调幅度（Mahdavi 等 2007）；<b>全局最优 HS (GHS)</b>：微调时向最优和声靠近；<b>离散 HS</b>：用于排列时 PAR 对应交换操作。"
+    ],
+    "refs": [
+      "Geem, Kim &amp; Loganathan (2001). A new heuristic optimization algorithm: Harmony search. Simulation, 76(2), 60-68",
+      "Weyland (2010). A rigorous analysis of the harmony search algorithm: How the research community can be misled by a \"novel\" methodology. International Journal of Applied Metaheuristic Computing, 1(2), 50-60",
+      "Mahdavi, Fesanghary &amp; Damangir (2007). An improved harmony search algorithm for solving optimization problems. Applied Mathematics and Computation, 188(2), 1567-1579",
+      "Sörensen (2015). Metaheuristics — the metaphor exposed. International Transactions in Operational Research, 22(1), 3-18"
+    ],
+    "tagline_en": "Improvise a new solution from memory, pitch adjustment or pure randomness, like a musician.",
+    "summary_en": "Harmony Search (Geem, Kim & Loganathan, 2001) builds a new solution from memory consideration, pitch adjustment and random improvisation. It fits problems made of discrete pieces and has one easily explained parameter (HMCR), but it is essentially restarts with a memory and no population interaction, so against strong local-search components its gain is limited. On this site every algorithm solves TSP with a permutation encoding plus a shared memetic 2-opt component, so the comparison is of frameworks on equal footing, not of whose metaphor is cleverer.",
+    "name_en": "Harmony Search (HS)"
+  },
+  {
+    "key": "gsa",
+    "slug": "gsa-tsp",
+    "name": "引力搜索 GSA",
+    "title": "引力搜索算法（GSA）求解 TSP 在线演示 · 万有引力与质量动画",
+    "desc": "引力搜索算法（GSA）求解旅行商问题（TSP）的在线演示：质量归一化、引力常数衰减、按质量轮盘选引力源，浏览器本地运行。",
+    "h1": "引力搜索算法（GSA）求解 TSP 在线演示",
+    "lead": "GSA 把种群当成宇宙：每个解是一个天体，解越优质量越大，引力越强——整个种群在引力场里向优质解坍缩。",
+    "intro": [
+      "GSA（Rashedi, Nezamabadi-pour &amp; Saryazdi, 2009）引用量近万，物理启发群里的代表作。三个物理量：<strong>质量</strong>（成本归一化，越优质量越大）、<strong>引力常数 G</strong>（随时间衰减，前期大步探索后期精细收缩）、<strong>加速度</strong>（质量越大受力响应越小——好解几乎不动，差解大幅移动）。",
+      "离散化映射：引力移动 = 按质量轮盘选一个比自己优的天体做引力源，向它执行交换序列前缀（比例由 G 缩放）；惯性滑翔 = 直接对当前位置做短 2-opt 试射（memetic 组件）。"
+    ],
+    "principle": [
+      "初始化：多起点最近邻播种（天体群）+ 轻量 2-opt 抛光。",
+      "每代计算质量（min-max 归一化）与衰减后的引力常数 G。",
+      "每个天体向按质量轮盘选出的引力源移动（交换前缀，比例 ∝ G）。",
+      "最优天体无人可拉，做微量滑翔（重天体受力最小但非零）。",
+      "惯性滑翔 + 周期性对全局最优做 2-opt 并回灌。"
+    ],
+    "params": [
+      [
+        "n_agents",
+        "25",
+        "天体数"
+      ],
+      [
+        "G0",
+        "0.6",
+        "初始引力常数 = 移动步幅基数"
+      ],
+      [
+        "G_decay",
+        "0.97",
+        "G(t)=G0·decay^t，越快收敛越早"
+      ],
+      [
+        "mutation",
+        "0.04",
+        "惯性扰动概率"
+      ],
+      [
+        "polish_p",
+        "0.3",
+        "滑翔/打磨概率（对当前位置直接 2-opt 试射）"
+      ],
+      [
+        "ls_every",
+        "10",
+        "每多少代对全局最优做一次 2-opt 并回灌"
+      ]
+    ],
+    "paper": "Rashedi, E., Nezamabadi-pour, H. &amp; Saryazdi, S. (2009). GSA: A Gravitational Search Algorithm. Information Sciences, 179(13), 2232-2248.",
+    "faq": [
+      [
+        "「质量越大越不动」为什么是好事？",
+        "这是 GSA 最优雅的设计：好解已经不错，别折腾它；差解离最优远，多走点路无妨。探索（差解乱跑）和开发（好解微调）由质量自动分配，不需要额外调度参数。"
+      ],
+      [
+        "引力常数 G 为什么要衰减？",
+        "和 SA 的降温、SCA 的 r1 衰减同一个道理：前期大步探索，后期小步开发。G 衰减到接近 0 时所有天体几乎静止，种群收敛。"
+      ],
+      [
+        "滑翔（polish_p）是原版 GSA 的吗？",
+        "不是，是排列域 memetic 组件（同 DE/FA 的处理）。实测踩坑：引力移动作用在已抛光的解上几乎不可能改进，滑翔必须直接作用于当前位置——细节见源码注释。"
+      ]
+    ],
+    "family": "F3",
+    "use_when": "「好解质量大几乎不动」的自动分工很优雅——探索/开发由质量天然分配，无需额外调度参数。",
+    "avoid_when": "天体两两引力是 O(n²) 交互，种群大时开销实打实；与调好的 DE 相比多数基准无优势，选它前先跑对照。",
+    "origin": "<p>Rashedi、Nezamabadi-pour 与 Saryazdi (2009) 把种群比作一组有「质量」的物体（质量 = 归一化适应度），按牛顿万有引力定律相互吸引：加速度 aᵢ = Σⱼ rand·G(t)·Mⱼ(xⱼ − xᵢ)/(Rᵢⱼ + ε)，引力常数 G(t) 随迭代指数递减。</p>",
+    "theory": "<p>每个粒子受到所有<b>其他</b>粒子的牵引（随机加权），随迭代 Kbest（有效引力源个数）线性递减到 1。数学上更新式是带随机系数的速度 / 位置递推，与 PSO 的区别是「社会项」来自所有优者的质量加权而不是单一 gbest。它的主要缺点是<b>每个粒子都向所有粒子的加权方向移动</b>，种群过快收缩，对多峰函数易早熟；实验上 GSA 在有些函数上很强、在另一些上很差（对函数结构敏感）。没有收敛性定理。</p>",
+    "variants": [
+      "<b>BGSA</b>（二进制 GSA，Rashedi 等 2010）；<b>混合 GSA</b>：与 PSO（PSOGSA，Mirjalili &amp; Hashim 2010）结合；<b>改进的 G(t) 与 Kbest 调度</b>。"
+    ],
+    "refs": [
+      "Rashedi, Nezamabadi-pour &amp; Saryazdi (2009). GSA: A gravitational search algorithm. Information Sciences, 179(13), 2232-2248",
+      "Rashedi, Nezamabadi-pour &amp; Saryazdi (2010). BGSA: Binary gravitational search algorithm. Natural Computing, 9(3), 727-745",
+      "Mirjalili &amp; Hashim (2010). A new hybrid PSOGSA algorithm for function optimization. In Proceedings of ICCIA 2010, 374-377",
+      "Sörensen (2015). Metaheuristics — the metaphor exposed. International Transactions in Operational Research, 22(1), 3-18"
+    ],
+    "tagline_en": "Solutions act as masses attracting each other by gravity; better solutions are heavier.",
+    "summary_en": "The Gravitational Search Algorithm (Rashedi, Nezamabadi-pour & Saryazdi, 2009) treats solutions as masses that attract each other, with better solutions heavier and hence nearly stationary — an automatic exploration/exploitation split. The pairwise interaction is O(n²) and on most benchmarks it does not beat a well-tuned DE, so run a comparison before choosing it. On this site every algorithm solves TSP with a permutation encoding plus a shared memetic 2-opt component, so the comparison is of frameworks on equal footing, not of whose metaphor is cleverer.",
+    "name_en": "Gravitational Search Algorithm (GSA)"
+  },
+  {
+    "key": "tlbo",
+    "slug": "tlbo-tsp",
+    "name": "教与学优化 TLBO",
+    "title": "教与学优化（TLBO）求解 TSP 在线演示 · 教师阶段与学习阶段动画",
+    "desc": "教与学优化（TLBO）求解旅行商问题（TSP）的在线演示：教师阶段向最优靠拢、学习阶段两两互学、OX 交叉与交换序列，浏览器本地运行。",
+    "h1": "教与学优化（TLBO）求解 TSP 在线演示",
+    "lead": "TLBO 模拟课堂：教师阶段全班向老师靠拢，学习阶段两两配对互相切磋——最大卖点是「无算法特定参数」。",
+    "intro": [
+      "TLBO（Rao, Savsani &amp; Vakharia, 2011）引用量近万。两阶段循环：<strong>教师阶段</strong>——每个学生向 teacher（当前最优）学习，学习幅度随机（含「学反了」的情况，对应原式的 rand±1）；<strong>学习阶段</strong>——随机配对，劣者向优者学（OX 交叉或交换序列模仿）。两阶段都是贪心选择。",
+      "原版 TLBO 除种群和代数外没有任何需要调的参数——本实现额外保留了 memetic 打磨钩子（排列域上纯模仿对已抛光的解无能为力，实测踩坑），可关。"
+    ],
+    "principle": [
+      "初始化：多起点最近邻播种（班级）+ 轻量 2-opt 抛光。",
+      "教师阶段：每个学生执行「自己 → teacher」交换序列的随机比例前缀，更好才换。",
+      "学习阶段：随机配对，劣者以 learn_ox 概率用 OX 交叉、否则用交换序列模仿优者。",
+      "打磨：以 polish_p 概率对新解做短 2-opt 试射。",
+      "周期性对全局最优做 2-opt 并回灌。"
+    ],
+    "params": [
+      [
+        "n_students",
+        "25",
+        "学生数（班级规模）"
+      ],
+      [
+        "learn_ox",
+        "0.4",
+        "学习阶段用 OX 交叉 vs 交换序列的比例"
+      ],
+      [
+        "polish_p",
+        "0.3",
+        "打磨概率（memetic TLBO 组件）"
+      ],
+      [
+        "ls_every",
+        "10",
+        "每多少代对全局最优做一次 2-opt 并回灌"
+      ]
+    ],
+    "paper": "Rao, R.V., Savsani, V.J. &amp; Vakharia, D.P. (2011). Teaching–learning-based optimization: A novel method for constrained mechanical design optimization problems. Computer-Aided Design, 43(3), 303-315.",
+    "faq": [
+      [
+        "「无参数」的卖点成立吗？",
+        "连续域上基本成立（只有种群和代数）。排列域上我们发现纯模仿步对抛光过的解无能为力，补了 polish_p——所以诚实的说法是：原版无参数，本页排列域变体多一个 memetic 钩子。"
+      ],
+      [
+        "教师阶段为什么要有「学反了」的情况？",
+        "原式里学习步长是 rand±1，取负值时学生往 teacher 的反方向走。这不是 bug 是探索机制：全班都往一个方向挤会迅速同质化，反向学习保持了多样性。"
+      ],
+      [
+        "TLBO 和 DE 像吗？",
+        "像——教师阶段 ≈ current-to-best 变异（都往当前最优拉），学习阶段 ≈ 二元交叉，两阶段都贪心。区别在 TLBO 没有差分向量（步长纯随机），DE 的差向量让步长自适应种群分散度。"
+      ]
+    ],
+    "family": "F4",
+    "use_when": "想要「零算法专属参数」的真实基线：只有种群与代数，先跑一个不调参的水位看全局。",
+    "avoid_when": "原版教师/学习两步在抛光过的排列解上无能为力（本站补了 memetic 钩子）；配对学习是 O(n²) 交互，大规模要算评估账。",
+    "origin": "<p>Rao、Savsani 与 Vakharia (2011) 提出：模拟课堂「教」与「学」两阶段——<b>教师阶段</b>：学生向最好的个体（教师）靠近并受班级均值影响；<b>学习阶段</b>：学生与随机的同学比较、向更好者学习。它标榜<b>无算法特定参数</b>（只有种群与迭代数），因此在机械设计的约束优化里被大量使用。</p>",
+    "theory": "<p>教师阶段 X_new = X + r(X_teacher − T_F·X_mean) 与学习阶段 X_new = X + r(X_better − X_worse)（成对比较）可以对应到：<b>向最优者的收缩 + 差分扰动</b>，学习阶段与差分进化的变异形式非常接近（以随机同伴的差为步长）。「无参数」的说法需要看到：T_F∈{1,2}、种群大小仍然是参数，只是少了 w、c₁ 等；它每代评价<b>两次</b>（两个阶段），所以公平比较要按评价次数而不是代数。Waghmare (2013) 对其与其他算法的对比提出了方法学的商榷。</p>",
+    "variants": [
+      "<b>ETLBO</b>、<b>I-TLBO</b>（精英策略、重复学习）；<b>离散 TLBO</b>（排列：把教 / 学译为交换序列）。"
+    ],
+    "refs": [
+      "Rao, Savsani &amp; Vakharia (2011). Teaching-learning-based optimization: A novel method for constrained mechanical design optimization problems. Computer-Aided Design, 43(3), 303-315",
+      "Rao (2016). Teaching-Learning-Based Optimization Algorithm and Its Engineering Applications. Springer",
+      "Waghmare (2013). Comments on \"A note on teaching-learning-based optimization algorithm\". Information Sciences, 229, 159-169",
+      "Sörensen (2015). Metaheuristics — the metaphor exposed. International Transactions in Operational Research, 22(1), 3-18"
+    ],
+    "tagline_en": "A classroom metaphor: learn from the teacher, then from classmates — no algorithm-specific parameters.",
+    "summary_en": "Teaching–Learning-Based Optimization (Rao, Savsani & Vakharia, 2011) has a teacher phase (everyone moves towards the best) and a learner phase (pairs learn from each other). It has no algorithm-specific parameters, which makes it a useful no-tuning baseline; the original two steps are weak on polished permutation solutions, so this site adds a memetic hook. On this site every algorithm solves TSP with a permutation encoding plus a shared memetic 2-opt component, so the comparison is of frameworks on equal footing, not of whose metaphor is cleverer.",
+    "name_en": "Teaching–Learning-Based Optimization (TLBO)"
+  },
+  {
+    "key": "bfo",
+    "slug": "bfo-tsp",
+    "name": "细菌觅食 BFO",
+    "title": "细菌觅食优化（BFO）求解 TSP 在线演示 · 趋化/繁殖/消散三循环动画",
+    "desc": "细菌觅食优化（BFO）求解旅行商问题（TSP）的在线演示：翻滚与连游、繁殖淘汰、消散迁移三循环，浏览器本地运行。",
+    "h1": "细菌觅食优化（BFO）求解 TSP 在线演示",
+    "lead": "BFO 模拟细菌在营养梯度上觅食：方向好就一直往前游（swim），方向差就换个方向（tumble）；半数淘汰复制，偶尔整体迁移。",
+    "intro": [
+      "BFO（Passino, 2002）引用量数千，群智能早期经典。三层嵌套循环：<strong>趋化</strong>（tumble 翻滚换方向 + swim 连游——方向好就沿同一算子连走最多 swim_steps 步）、<strong>繁殖</strong>（淘汰最差半数，复制最优半数）、<strong>消散</strong>（以小概率把最差个体随机迁移重播，防早熟）。",
+      "离散化映射：翻滚/连游 = 短 2-opt 试射（直接作用于当前解，这是它能打出真实进步的关键）；繁殖 = 排序复制；消散 = 从随机 NN 起点重新构造。"
+    ],
+    "principle": [
+      "初始化：多起点最近邻播种 + 轻量 2-opt 抛光。",
+      "趋化：每只细菌先翻滚（2-opt 试射），方向好就连游（最多 swim_steps 步）。",
+      "繁殖：按成本排序，最差半数被最优半数的复制品替换。",
+      "消散：最差个体以 ed_prob 概率被随机迁移（NN 重构造）。",
+      "周期性对全局最优做 2-opt 并回灌。"
+    ],
+    "params": [
+      [
+        "n_bacteria",
+        "20",
+        "细菌数"
+      ],
+      [
+        "swim_steps",
+        "4",
+        "方向好时最多连游几步（swim 深度）"
+      ],
+      [
+        "ed_prob",
+        "0.15",
+        "每代最差个体被消散迁移的概率"
+      ],
+      [
+        "ls_every",
+        "10",
+        "每多少代对全局最优做一次 2-opt 并回灌"
+      ]
+    ],
+    "paper": "Passino, K.M. (2002). Biomimicry of bacterial foraging for distributed optimization and control. IEEE Control Systems Magazine, 22(3), 52-67.",
+    "faq": [
+      [
+        "swim（连游）有什么讲究？",
+        "这是 BFO 的标志性机制：一次翻滚如果尝到了甜头，说明这个方向有营养，就沿着同方向连续前进——排列域上 = 连续做 2-opt 试射直到不再改进。相当于自适应深度的局部搜索，省预算。"
+      ],
+      [
+        "BFO 和 ABC 都是「群体觅食」，区别是什么？",
+        "ABC 的分工是结构化的（引领蜂/跟随蜂/侦察蜂三种角色），BFO 的循环是时间性的（趋化→繁殖→消散三层嵌套）。BFO 的繁殖（复制半数）特别暴力，多样性全靠消散兜底。"
+      ],
+      [
+        "消散概率调大点不是探索更强吗？",
+        "探索强了，但破坏也强了——被消散的个体从零开始，等于种群定期失忆。ed_prob=0.15 配合「只消散最差个体」是折中：让垫底者换命，好苗子不动。"
+      ]
+    ],
+    "family": "F2",
+    "use_when": "swim 连游=「尝到甜头沿同方向自适应深度推进」的局部搜索思想，可以借鉴到任何算法里。",
+    "avoid_when": "翻滚/繁殖/消散三循环实现重、参数组多；实战出场率极低，历史地位大于使用价值。",
+    "origin": "<p>Passino (2002) 以大肠杆菌的趋化行为为模型：<b>趋化</b>（翻滚 + 游动，沿浓度梯度前进）、<b>繁殖</b>（健康的一半分裂）、<b>驱散</b>（以概率把个体随机迁移）。它是最早的生物启发式群智能算法之一，主要用于控制与滤波器设计。</p>",
+    "theory": "<p>BFO 是一个<b>三层嵌套循环</b>的算法（驱散 ∘ 繁殖 ∘ 趋化），每代评价开销很大——这使它在函数评价昂贵时不划算。趋化步长是关键参数（固定步长限制精度，Niu 等 / Das 等提出自适应步长）。收敛性有一些 Markov 链层面的分析；它的搜索算子（带随机方向的步进 + 复制 + 随机重置）与带自适应步长的随机爬山 + 种群选择类似。本站实现把步长定为搜索域的 5%，以在 Rastrigin 上胜过随机基线。</p>",
+    "variants": [
+      "<b>BFOA-A</b>（Das 等 2009：自适应步长）；<b>BFO-PSO 混合</b>；<b>离散 BFO</b>：翻滚译为排列的随机交换。"
+    ],
+    "refs": [
+      "Passino (2002). Biomimicry of bacterial foraging for distributed optimization and control. IEEE Control Systems Magazine, 22(3), 52-67",
+      "Das, Biswas, Dasgupta &amp; Abraham (2009). Bacterial foraging optimization algorithm: Theoretical foundations, analysis, and applications. In Foundations of Computational Intelligence, Vol. 3, SCI 203, 23-55",
+      "Müller, Marchetto, Airaghi &amp; Koumoutsakos (2002). Optimization based on bacterial chemotaxis. IEEE Transactions on Evolutionary Computation, 6(1), 16-29",
+      "Sörensen (2015). Metaheuristics — the metaphor exposed. International Transactions in Operational Research, 22(1), 3-18"
+    ],
+    "tagline_en": "Bacteria swim while the gradient is good and tumble when it is not, then reproduce and disperse.",
+    "summary_en": "Bacterial Foraging Optimization (Passino, 2002) combines chemotaxis (swim/tumble), reproduction and elimination–dispersal. The ‘keep swimming in a good direction’ idea can be borrowed by any local search, but the three nested loops and many parameters make it heavy, and it is rarely used in practice. On this site every algorithm solves TSP with a permutation encoding plus a shared memetic 2-opt component, so the comparison is of frameworks on equal footing, not of whose metaphor is cleverer.",
+    "name_en": "Bacterial Foraging Optimization (BFO)"
+  },
+  {
+    "key": "mfo",
+    "slug": "mfo-tsp",
+    "name": "蛾焰优化 MFO",
+    "title": "蛾焰优化（MFO）求解 TSP 在线演示 · 螺旋飞行与焰数递减动画",
+    "desc": "蛾焰优化（MFO）求解旅行商问题（TSP）的在线演示：螺旋常数 b、焰数递减调度、蛾焰排序配对，浏览器本地运行。",
+    "h1": "蛾焰优化（MFO）求解 TSP 在线演示",
+    "lead": "MFO 的画面感最强：飞蛾夜间绕着火焰螺旋飞行——「向光」本是致命陷阱，Mirjalili 把它改造成了围绕优质解的优雅搜索轨迹。",
+    "intro": [
+      "MFO（Mirjalili, 2015）引用量数千，Mirjalili 系（GWO/WOA/SCA/MFO）收官之作。飞蛾 = 解；火焰 = 历史最优集合。每只飞蛾沿螺旋线绕自己的火焰飞：<strong>S = |F−M|·e^(bt)·cos(2πt)</strong>，t∈[−1,1]——既可能靠近火焰（开发），也可能绕到另一侧（探索）。",
+      "离散化映射：螺旋 = 向火焰的交换序列按 e^(b·t)·|cos| 调制取前缀；<strong>焰数逐代递减 n→1</strong> 是 MFO 标志性的全局收敛调度——前期多火焰充分探索，后期聚到一根火焰上精细开发。"
+    ],
+    "principle": [
+      "初始化：多起点最近邻播种（飞蛾群）+ 轻量 2-opt 抛光。",
+      "初始火焰 = 初始种群排序；每代蛾焰按成本排序配对。",
+      "螺旋移动：向火焰的交换序列按螺旋比例取前缀（t 随机采样）。",
+      "螺旋滑翔：以 polish_p 概率直接对当前蛾做短 2-opt 试射。",
+      "蛾+焰合并取前 n_flames 名做新一代火焰；焰数从 n 线性递减到 1。"
+    ],
+    "params": [
+      [
+        "n_moths",
+        "25",
+        "飞蛾数"
+      ],
+      [
+        "b_spiral",
+        "1.0",
+        "螺旋常数：越大绕火焰的弧线越弯（探索越强）"
+      ],
+      [
+        "polish_p",
+        "0.3",
+        "滑翔/打磨概率（memetic MFO 组件）"
+      ],
+      [
+        "ls_every",
+        "10",
+        "每多少代对全局最优做一次 2-opt 并回灌"
+      ]
+    ],
+    "paper": "Mirjalili, S. (2015). Moth-flame optimization algorithm: A novel nature-inspired heuristic paradigm. Knowledge-Based Systems, 89, 228-249.",
+    "faq": [
+      [
+        "飞蛾和火焰为什么分开存？",
+        "飞蛾是「当前探索位置」（每代都动），火焰是「历史最佳地标」（只进不退）。这和 PSO 的 pbest 一个思想：探索位置可以变差，但地标永远指向到过的最好地方。焰数递减时，排名靠后的火焰被合并淘汰。"
+      ],
+      [
+        "螺旋公式里的 cos 是干什么的？",
+        "t 从 −1 到 1 转一圈：cos(2πt) 决定这一步落在螺旋的哪一段——cos 接近 ±1 时步幅大（绕到火焰另一侧，探索），接近 0 时步幅小（贴近火焰，开发）。e^(bt) 再整体缩放弧线长度。"
+      ],
+      [
+        "WOA 的螺旋和 MFO 的螺旋像吗？",
+        "同款思想（Mirjalili 自己互相引用）。区别是 WOA 只有一根「最优鲸」火焰、用 b·l 的指数收缩；MFO 有 n 根火焰且焰数逐代递减——MFO 的探索期更充分。"
+      ]
+    ],
+    "family": "F2",
+    "use_when": "飞蛾/火焰双存档（探索位置可以变差、地标只进不退）是 PSO pbest 思想的漂亮变奏；焰数递减自带聚焦时间表。",
+    "avoid_when": "螺旋系数 b 与焰数递减策略都要调；Mirjalili 系同质算法之一，要简单选 GWO、要调度选 MPA，位置尴尬。",
+    "origin": "<p>Mirjalili (2015) 模拟飞蛾的<b>横向定位</b>（相对光源保持固定角度、沿对数螺旋靠近）：飞蛾 = 候选解，火焰 = 到目前为止的最优解（按适应度排序、数量随迭代递减）；位置 Sᵢ = |Fⱼ − Mᵢ|·e^{bt}·cos(2πt) + Fⱼ（对数螺旋）。</p>",
+    "theory": "<p>火焰数递减意味着后期所有飞蛾都向单一最优解螺旋；这是一个<b>向（若干）最优者螺旋收缩</b>的算法。Camacho-Villalón 等的后续研究（对飞蛾—火焰、灰狼、鲸鱼、萤火虫、蝙蝠、蚁狮的系统分析）指出这些算法的搜索动态与已有方法的差别极小，隐喻与实际的更新式并不对应。与同类一样需要警惕测试函数的中心偏置。本站的算法评测在「等评价次数」口径下检验过它在各问题上的表现，若输给随机基线会被撤下。</p>",
+    "variants": [
+      "<b>二进制 MFO</b>、<b>离散 MFO</b>（交换序列）、<b>Lévy / 混沌增强版</b>。"
+    ],
+    "refs": [
+      "Mirjalili (2015). Moth-flame optimization algorithm: A novel nature-inspired heuristic paradigm. Knowledge-Based Systems, 89, 228-249",
+      "Sörensen (2015). Metaheuristics — the metaphor exposed. International Transactions in Operational Research, 22(1), 3-18",
+      "Kudela (2022). A critical problem in benchmarking and analysis of evolutionary computation methods. Nature Machine Intelligence, 4, 1238-1245",
+      "Shehab, Abualigah, Al Hamad, Alabool, Alshinwan &amp; Khasawneh (2020). Moth-flame optimization algorithm: Variants and applications. Neural Computing and Applications, 32(14), 9859-9884"
+    ],
+    "tagline_en": "Moths spiral around flames — a position archive that may worsen, and a flame archive that never does.",
+    "summary_en": "Moth-Flame Optimization (Mirjalili, 2015) keeps two archives: moths (which may worsen) and flames (best-so-far, never worsen), with the number of flames shrinking over time. It is a neat variation on PSO's personal best; the spiral coefficient and the flame-reduction schedule need tuning. On this site every algorithm solves TSP with a permutation encoding plus a shared memetic 2-opt component, so the comparison is of frameworks on equal footing, not of whose metaphor is cleverer.",
+    "name_en": "Moth-Flame Optimization (MFO)"
+  },
+  {
+    "key": "fwa",
+    "slug": "fwa-tsp",
+    "name": "烟花算法 FWA",
+    "title": "烟花算法（FWA）求解 TSP 在线演示 · 爆炸幅度与火花数量调度",
+    "desc": "烟花算法（FWA）求解旅行商问题（TSP）的在线演示：好烟花炸得密、差烟花炸得广的调度机制，高斯火花精细开发，浏览器本地运行。",
+    "h1": "烟花算法（FWA）求解 TSP 在线演示",
+    "lead": "FWA 的调度思想在种群算法里独一份：<strong>好烟花多炸但炸得近，差烟花少炸但炸得远</strong>——数量管开发，幅度管勘探，一次爆炸同时兼顾两者。",
+    "intro": [
+      "FWA（Tan &amp; Zhu, 2010）引用量数千。它的核心与所有「个体互相模仿」的算法都不同：烟花每代原地爆炸出一堆火花，<strong>火花数量 ∝ 适应度</strong>（好解附近深耕），<strong>爆炸幅度 ∝ (1−适应度)</strong>（差解负责远距离勘探）。另外每代对全局最优用高斯扰动补一发「高斯火花」做精细开发。",
+      "离散化映射：爆炸 = 对烟花做 A 次随机突变（片段逆转/两点交换），A 越大炸得越远；高斯火花 = 短 2-opt 试射。踩坑记录：纯随机突变对已抛光的解几乎必然变差，所以火花按贪心准入——真实下降由高斯火花驱动，这是 memetic FWA 的标准做法。"
+    ],
+    "principle": [
+      "初始化：多起点最近邻播种（烟花群）+ 轻量 2-opt 抛光。",
+      "按 FWA 原文公式给每朵烟花分配火花数（好的多）与爆炸幅度（差的大）。",
+      "常规爆炸：每朵烟花按幅度做 A 次突变，火花优于母烟花才被接纳。",
+      "高斯火花：对全局最优做短 2-opt 试射（本实现的开发主力）。",
+      "多样性保底：最差烟花距离过远时被全局最优替换，防种群坍缩。"
+    ],
+    "params": [
+      [
+        "n_fireworks",
+        "10",
+        "烟花数"
+      ],
+      [
+        "base_sparks",
+        "16",
+        "每代火花总数基数"
+      ],
+      [
+        "max_amp",
+        "6",
+        "最大爆炸幅度（单火花突变次数上限）"
+      ],
+      [
+        "ls_every",
+        "10",
+        "每多少代对全局最优做一次 2-opt 并回灌"
+      ]
+    ],
+    "paper": "Tan &amp; Zhu, 2010, ICSI 2010, LNCS 6145, pp.355-364（原版）；Zheng et al. 2013（增强版 FWA）",
+    "faq": [
+      [
+        "为什么差烟花反而炸得远？",
+        "这是 FWA 最反直觉的设计：好烟花已经在好区域里，小幅深耕就行；差烟花所在区域没什么价值，索性炸得远一点——万一炸进好区域就赚了。开发与勘探在「同一代的不同个体」上分工，而 PSO/GA 是在「同一代的不同方向」上分工。"
+      ],
+      [
+        "火花为什么用贪心准入？",
+        "教科书 FWA 火花全部进候选池再统一选择。但排列域上，随机突变对抛光过的解几乎必然变差——不设门槛的火花全是废弹。memetic FWA 的标准做法就是贪心准入 + 高斯火花（2-opt 试射）承担开发。"
+      ],
+      [
+        "它和 ABC 的邻域搜索有什么区别？",
+        "ABC 每个蜜源只试一个邻居；FWA 一代炸出 base_sparks 个火花且幅度由公式调度——勘探预算的分配是显式计算的，不是均匀的。"
+      ]
+    ],
+    "family": "F2",
+    "use_when": "「好烟花多炸近、差烟花少炸远」是种群算法里独一份的显式勘探/开发分工；火花贪心准入给了质量闸门。",
+    "avoid_when": "爆炸数量/幅度/最大幅度是耦合参数组；在 2-opt/or-opt 组件可用的组合问题上，直接用 memetic 框架性价比更高。",
+    "origin": "<p>Tan 与 Zhu (2010) 模拟烟花爆炸：每个烟花（解）按适应度决定<b>爆炸火花数</b>与<b>爆炸幅度</b>——好烟花火花多、幅度小（精细开发），差烟花火花少、幅度大（探索）；另外加高斯变异的火花增加多样性。Zheng、Janecek 与 Tan (2013) 的增强版（EFWA）改进了爆炸幅度下界与映射规则。</p>",
+    "theory": "<p>FWA 的一个已知性质是<b>对最优点在原点的函数有「隐含偏置」</b>：原版的「映射规则」把越界的火花映射到 x_min + |x| mod (x_max − x_min)，当最优点在原点时映射使火花向原点附近堆积，因此在原点最优的测试函数上得分虚高；Zheng 等 (2013) 的 EFWA 就是为了修掉这点。本站在 Rastrigin 上也观察到 FWA 恰得 0（描述里已标注）。搜索机制上，「按适应度分配爆炸半径」本质上是一种自适应邻域大小的并行局部搜索，与进化策略的步长自适应有相似之处。</p>",
+    "variants": [
+      "<b>EFWA</b>（Zheng 等 2013）；<b>AFWA</b>（自适应爆炸幅度，Li 等 2014）；<b>dynFWA</b>（Zheng 等 2014）；<b>离散 FWA</b>（TSP：爆炸译为排列的局部交换）。"
+    ],
+    "refs": [
+      "Tan &amp; Zhu (2010). Fireworks algorithm for optimization. In ICSI 2010, LNCS 6145, 355-364",
+      "Zheng, Janecek &amp; Tan (2013). Enhanced fireworks algorithm. In Proceedings of CEC 2013, 2069-2077",
+      "Li, Zheng &amp; Tan (2014). Adaptive fireworks algorithm. In Proceedings of CEC 2014, 3214-3221",
+      "Tan (2015). Fireworks Algorithm: A Novel Swarm Intelligence Optimization Method. Springer",
+      "Sörensen (2015). Metaheuristics — the metaphor exposed. International Transactions in Operational Research, 22(1), 3-18"
+    ],
+    "tagline_en": "Good fireworks explode often but close; poor ones rarely but far.",
+    "summary_en": "The Fireworks Algorithm (Tan & Zhu, 2010; enhanced by Zheng et al., 2013) allocates sparks by quality: good fireworks produce many sparks in a small radius (exploitation), poor ones few sparks in a large radius (exploration). The number and amplitude parameters are coupled, and where 2-opt/or-opt are available the memetic framework is usually better value. On this site every algorithm solves TSP with a permutation encoding plus a shared memetic 2-opt component, so the comparison is of frameworks on equal footing, not of whose metaphor is cleverer.",
+    "name_en": "Fireworks Algorithm (FWA)"
+  },
+  {
+    "key": "afsa",
+    "slug": "afsa-tsp",
+    "name": "人工鱼群 AFSA",
+    "title": "人工鱼群算法（AFSA）求解 TSP 在线演示 · 觅食/聚群/追尾行为动画",
+    "desc": "人工鱼群算法（AFSA）求解旅行商问题（TSP）的在线演示：觅食、聚群、追尾三种行为与拥挤度因子 δ，浏览器本地运行。",
+    "h1": "人工鱼群算法（AFSA）求解 TSP 在线演示",
+    "lead": "国内群智能领域引用最高的原创算法之一（李晓磊, 2002）。每条鱼每代做一次决策：<strong>觅食、聚群、追尾，还是随便游</strong>——拥挤度因子 δ 是它的招牌。",
+    "intro": [
+      "AFSA 的行为学隐喻最完整：鱼觅食（随机试移动，找到更优就跟过去）、追尾（视野里有更优的鱼就跟着走）、聚群（同伴不拥挤就凑过去）。<strong>拥挤度因子 δ</strong> 是 AFSA 的标志参数：视野内更优的鱼太多（挤）就放弃跟进——鱼多的地方不一定有好吃的，也可能是陷阱。",
+      "离散化映射：邻域 = 片段逆转/两点交换；「向某条鱼移动」= 交换序列前缀（步幅有上限，GWO 的老教训）；排列域没有几何邻域，「视野」用随机抽样 visual_k 条同伴近似。实测「真优化」校验：真实迭代进步 1.8–4.2%（关局部搜索）。"
+    ],
+    "principle": [
+      "初始化：多起点最近邻播种（鱼群）+ 轻量 2-opt 抛光。",
+      "每条鱼每代随机抽 visual_k 条同伴作为「视野」。",
+      "追尾：视野内有更优鱼且拥挤度 &lt; δ → 向最优的那条执行交换序列前缀。",
+      "觅食：追尾没成或没目标 → 最多 try_n 次邻域试移（搜索主力）。",
+      "拥挤度 δ 太小会让鱼群过度分散，太大失去防挤意义——默认 0.6。"
+    ],
+    "params": [
+      [
+        "n_fish",
+        "24",
+        "鱼群规模"
+      ],
+      [
+        "try_n",
+        "5",
+        "觅食行为每代尝试次数"
+      ],
+      [
+        "visual_k",
+        "6",
+        "视野：每代随机观察的同伴数"
+      ],
+      [
+        "crowd",
+        "0.6",
+        "拥挤度因子 δ"
+      ],
+      [
+        "step_cap",
+        "0.4",
+        "追尾移动步幅上限"
+      ],
+      [
+        "ls_every",
+        "10",
+        "每多少代对全局最优做一次 2-opt 并回灌"
+      ]
+    ],
+    "paper": "李晓磊, 邵之江, 钱积新, 2002, 一种基于动物自治体的寻优模式：鱼群算法, 系统工程理论与实践 22(11):32-38（人工鱼群算法原始论文）；李晓磊, 2003, 浙江大学博士论文（系统研究）",
+    "faq": [
+      [
+        "拥挤度因子 δ 到底在防什么？",
+        "防「全员挤到一个局部谷」。追尾/聚群本质是信息共享，但共享过度就变成全体跟随同一个解——种群多样性瞬间蒸发。δ 规定：视野内更优的鱼占比超过它就放弃跟进，宁可自己觅食。调大 δ = 更爱抱团，调小 = 更独立。"
+      ],
+      [
+        "排列域上「视野」怎么定义？",
+        "连续域里视野是欧氏距离半径。排列没有几何结构，本实现用「每代随机抽 visual_k 条同伴」近似——鱼不固定认识谁，每天换一批邻居。这也是 TSP 上 AFSA 的通行做法。"
+      ],
+      [
+        "觅食和 ABC 的雇佣蜂像吗？",
+        "行为一样（随机邻域 + 贪心保留），区别在调度：ABC 观察蜂按适应度轮盘加倍开发好蜜源；AFSA 的开发靠追尾行为——它是「向同伴学」，ABC 是「向蜜源加注」。"
+      ]
+    ],
+    "family": "F2",
+    "use_when": "拥挤度 δ 防「全员挤一个谷」的思想对所有算法都有借鉴意义；国内原创引用最高，中文文献对照方便。",
+    "avoid_when": "视野/步长/拥挤度/尝试次数参数组多且耦合；国际对比基线中很少出场，跨文献对照要小心口径。",
+    "origin": "<p>李晓磊、邵之江与钱积新 (2002) 提出：以「鱼」的四种行为——<b>觅食</b>、<b>聚群</b>、<b>追尾</b>、<b>随机游动</b>——构造寻优，鱼群算法的特色是每条鱼每代做<b>多次试探</b>（try_number），聚群 / 追尾只在拥挤度（crowd factor δ）允许时才执行。它是中国学者最早提出并广泛使用的群智能算法之一。</p>",
+    "theory": "<p>AFSA 每条鱼每代执行多次「觅食 / 聚群 / 追尾」试探，所以<b>单代评价次数远多于其他算法</b>（本站实测约每代 148 次）。公平比较必须按评价次数——本站的等评价次数检验（对基线随机搜索给同样预算）把这一点显式化。拥挤度因子与视野（visual）、步长（step）是关键参数：视野大 = 全局，视野小 = 局部；理论上没有一般性的收敛证明，实验表明它的后期收敛较慢，常与其他方法（遗传、粒子群）混合。</p>",
+    "variants": [
+      "<b>改进 AFSA</b>：自适应视野与步长、跳跃行为、与蛙跳 / 遗传混合；<b>离散 AFSA</b>：用邻域操作（交换、2-opt）表示「移动」。"
+    ],
+    "refs": [
+      "李晓磊, 邵之江, 钱积新 (2002). 一种基于动物自治体的寻优模式：鱼群算法. 系统工程理论与实践, 22(11), 32-38",
+      "李晓磊 (2003). 一种新型的智能优化方法：人工鱼群算法. 浙江大学博士学位论文",
+      "Neshat, Sepidnam, Sargolzaei &amp; Toosi (2014). Artificial fish swarm algorithm: A survey of the state-of-the-art, hybridization, combinatorial and indicative applications. Artificial Intelligence Review, 42(4), 965-997",
+      "Sörensen (2015). Metaheuristics — the metaphor exposed. International Transactions in Operational Research, 22(1), 3-18"
+    ],
+    "tagline_en": "Fish swarm behaviours — preying, swarming, following — with a crowding factor.",
+    "summary_en": "The Artificial Fish Swarm Algorithm (Li, Shao & Qian, 2002) combines preying, swarming and following behaviours, with a crowding factor δ that stops everyone piling into one valley. It is one of the most cited algorithms of Chinese origin, but it has several coupled parameters and rarely appears in international baselines, so compare results across papers with care. On this site every algorithm solves TSP with a permutation encoding plus a shared memetic 2-opt component, so the comparison is of frameworks on equal footing, not of whose metaphor is cleverer.",
+    "name_en": "Artificial Fish Swarm Algorithm (AFSA)"
+  },
+  {
+    "key": "cem",
+    "slug": "cem-tsp",
+    "name": "交叉熵方法 CEM",
+    "title": "交叉熵方法（CEM）求解 TSP 在线演示 · 概率矩阵分布估计动画",
+    "desc": "交叉熵方法（CEM）求解旅行商问题（TSP）的在线演示：位置-城市概率矩阵采样、精英频率回写分布，EDA 家族源头思想，浏览器本地运行。",
+    "h1": "交叉熵方法（CEM）求解 TSP 在线演示",
+    "lead": "CEM（Rubinstein, 1997，引用数万）和所有「个体交互」算法根本不同：<strong>个体之间零交互</strong>——样本从分布里抽出来，选择压力靠「精英的统计量回写分布」传递。",
+    "intro": [
+      "鱼、狼、粒子在解空间里互相模仿；CEM 的种群之间没有任何交互。每代从概率矩阵 P[d][c]（位置 d 出现城市 c 的概率）抽样生成一批解，留下最好的前 ρ 当精英，统计精英的出现频率 F，然后 <strong>P ← λ·P + (1−λ)·F</strong>。分布逐代向精英聚集——这就是 EDA（分布估计算法）家族的源头思想。",
+      "离散化映射：采样 = 逐位置按概率轮盘抽不重复城市；更新 = 频率统计回写。踩坑记录：纯采样从抛光的 NN 播种上几乎抽不出更优解（GSA 教训的 EDA 版），所以加了 memetic EDA 标准组件——精英以 polish_p 概率做短 2-opt 试射后再回写分布。实测真实迭代进步 0.6–5.1%（关局部搜索）。"
+    ],
+    "principle": [
+      "分布初始化：均匀概率矩阵 + NN 多起点精英偏置（纯均匀收敛太慢）。",
+      "采样：逐位置按 P[d][·] 轮盘抽不重复城市，生成 n_pop 条排列。",
+      "精英选择：本代前 ρ 样本 + 历史最优（CEM 的保优加持）。",
+      "精英打磨：以 polish_p 概率短 2-opt 试射，抛光后再统计。",
+      "分布更新：P ← λ·P + (1−λ)·精英频率；λ 越大收敛越稳越慢。"
+    ],
+    "params": [
+      [
+        "n_pop",
+        "30",
+        "每代抽样数"
+      ],
+      [
+        "rho",
+        "0.3",
+        "精英比例（前 30% 进入频率统计）"
+      ],
+      [
+        "lam",
+        "0.7",
+        "平滑系数 λ"
+      ],
+      [
+        "polish_p",
+        "0.3",
+        "精英打磨概率（memetic EDA 组件）"
+      ],
+      [
+        "ls_every",
+        "10",
+        "每多少代对全局最优做一次 2-opt 并回灌"
+      ]
+    ],
+    "paper": "Rubinstein, R.Y. (1997). Optimization of Computer Simulation Models with Rare Events. European Journal of Operational Research, 99(1), 89-112.",
+    "faq": [
+      [
+        "CEM 和 GA 的本质区别是什么？",
+        "GA 用「交叉/变异算子」重组解，亲代信息通过算子传递；CEM 没有算子——亲代信息被压缩成一个分布参数（概率矩阵），子代从分布重新采样。可以理解为 GA 的「有性繁殖」vs CEM 的「孢子繁殖」：每一代都是重新长出来的，只有分布记得祖先长什么样。"
+      ],
+      [
+        "λ 平滑系数防什么？",
+        "防分布提前塌缩。若每代完全用精英频率覆盖（λ=0），某城市一旦在精英里消失，它从分布里被抽出的概率立刻归零——再也回不来，多样性瞬间死掉。λ·P 保留一份「旧记忆」给被淘汰的城市留后路。"
+      ],
+      [
+        "为什么页面跑得比别的算法慢？",
+        "采样是逐位置轮盘，O(n²) 每样本、n_pop·max_iter 个样本——n=100 时约 6000 万次抽签。这是 EDA 家族的固有成本：用「统计」换「交互」。在浏览器里大约 10 秒量级，可接受。"
+      ]
+    ],
+    "family": "F1",
+    "use_when": "想要「分布采样→精英统计量回写」的 EDA 源头基线；个体零交互天然并行，连续/组合两域通用。",
+    "avoid_when": "精英比例与平滑系数 λ 调不好会分布过早坍缩；小种群（低于 30）统计意义不足，收敛快是假象。",
+    "origin": "<p>Rubinstein (1997) 最早为<b>稀有事件仿真</b>（估计极小概率）提出重要性采样的自适应方法，随后被推广为优化：反复从参数化分布（高斯、伯努利、类别分布）采样，取最好的 ρ 比例（精英）重新拟合分布参数——即「交叉熵」（KL 散度）最小化。Rubinstein &amp; Kroese (2004) 的专著系统化了方法。</p>",
+    "theory": "<p>CEM 属于<b>基于模型的搜索</b> / 估计分布算法（EDA）家族：拟合分布 = 把精英样本的经验分布投影回参数化族（最大似然 / 最小交叉熵）。对高斯族，它退化为一个<b>自适应均值与方差的进化策略</b>（(μ/μ, λ)-ES 的变体）；与 CMA-ES 的差别是 CEM 通常只自适应对角方差，而 CMA-ES 自适应完整协方差并有演化路径。收敛性方面，对离散问题（Costa 等 2007）与连续问题（Hu &amp; Hu）都有结果。<b>平滑更新</b>（新参数 = α·新拟合 + (1−α)·旧参数）与方差下界用来防止过早退化。</p>",
+    "variants": [
+      "<b>连续 CEM</b>（高斯，常用「精英比例 ρ = 0.1–0.2」）；<b>离散 CEM</b>（TSP：转移概率矩阵作为分布，Rubinstein 1999）；<b>强化学习里的 CEM</b>（深度 RL 的无梯度策略搜索）。"
+    ],
+    "refs": [
+      "Rubinstein (1997). Optimization of computer simulation models with rare events. European Journal of Operational Research, 99(1), 89-112",
+      "Rubinstein (1999). The cross-entropy method for combinatorial and continuous optimization. Methodology and Computing in Applied Probability, 1(2), 127-190",
+      "Rubinstein &amp; Kroese (2004). The Cross-Entropy Method: A Unified Approach to Combinatorial Optimization, Monte-Carlo Simulation and Machine Learning. Springer",
+      "de Boer, Kroese, Mannor &amp; Rubinstein (2005). A tutorial on the cross-entropy method. Annals of Operations Research, 134(1), 19-67",
+      "Costa, Jones &amp; Kroese (2007). Convergence properties of the cross-entropy method for discrete optimization. Operations Research Letters, 35(5), 573-580",
+      "Larrañaga &amp; Lozano (2002). Estimation of Distribution Algorithms: A New Tool for Evolutionary Computation. Kluwer"
+    ],
+    "tagline_en": "Sample from a distribution, keep the elite, refit the distribution.",
+    "summary_en": "The Cross-Entropy Method (Rubinstein, 1997) samples candidates from a parametric distribution, selects the elite fraction and refits the distribution to it — the origin of estimation-of-distribution algorithms. Individuals do not interact, so it parallelises naturally on continuous and combinatorial problems; a poor elite fraction or smoothing factor collapses the distribution too early. On this site every algorithm solves TSP with a permutation encoding plus a shared memetic 2-opt component, so the comparison is of frameworks on equal footing, not of whose metaphor is cleverer.",
+    "name_en": "Cross-Entropy Method (CEM)"
+  },
+  {
+    "key": "cma-es",
+    "slug": "cma-es-tsp",
+    "name": "协方差矩阵自适应进化策略 CMA-ES",
+    "title": "协方差矩阵自适应进化策略（CMA-ES）求解 TSP 在线演示 · random-keys 连续松弛 + 协方差自适应动画",
+    "desc": "协方差矩阵自适应进化策略（CMA-ES，Hansen &amp; Ostermeier 2001）求解旅行商问题（TSP）的在线演示：随机键编码、可分/全协方差自适应采样、步长 σ 与进化路径 pc/ps 自适应，浏览器本地运行。",
+    "h1": "协方差矩阵自适应进化策略（CMA-ES）求解 TSP 在线演示",
+    "lead": "CMA-ES（Hansen &amp; Ostermeier 2001，引用数万，连续域公认 SOTA）与 CEM 同样走「分布→采样→精英回写」，但学的是<strong>二阶矩</strong>——均值 + 协方差矩阵，而非 EDA 的一阶频率矩阵。",
+    "intro": [
+      "CMA-ES 的核心是协方差矩阵自适应：每代从多元高斯 N(m, σ²C) 抽样一批解，选最优的 μ 个精英，更新均值 m、协方差 C、步长 σ，以及两条进化路径 pc（协方差路径）与 ps（步长路径）。C 自动学习地形的主轴与条件数，σ 通过 ps 与理论阈值 χⁿ 比较自适应放大缩小——这是它碾压固定协方差 EDA / 固定步长 SA 的招牌能力。",
+      "离散化映射（TSP 版）：每个城市一个连续键 key[c]∈[0,1]，按键排序即解码为一条排列（标准 random-keys 技术）。连续域用全协方差（dim 小，特征分解不重）；TSP 这类 n 很大的排列域改用可分离对角协方差 sep-CMA（浏览器内 O(n²) 采样，n=100 也不卡）。精英再以 polish_p 概率做短 2-opt 试射再回写分布——纯连续采样在抛光后的 NN 播种上抽不出更优结构（与 CEM 同款 memetic 教训）。"
+    ],
+    "principle": [
+      "编码：每个城市一个连续键 key[c]；排序解码成排列（random-keys）。",
+      "采样：均值键 m + σ·√diag(C)·z（z~N(0,I)）；连续域为全协方差 B·diag(√λ)·Bᵀ·z。",
+      "选择：截断选择，取当代前 μ 精英（μ=λ/2，权重对数衰减）。",
+      "更新：均值 m ← 精英加权和；pc/ps 进化路径按标准 (μ,λ)-CMA-ES 公式；C 秩一 + 秩μ 自适应；σ 经 ps 与 χⁿ 比较自适应。",
+      "混合：精英 polish_p 概率短 2-opt 试射，抛光后再回写分布（memetic 组件）。"
+    ],
+    "params": [
+      [
+        "n_pop",
+        "30",
+        "每代抽样数"
+      ],
+      [
+        "sigma0",
+        "0.4",
+        "随机键初始步长 σ₀（相对键空间）"
+      ],
+      [
+        "polish_p",
+        "0.3",
+        "精英打磨概率（memetic 组件）"
+      ],
+      [
+        "ls_every",
+        "10",
+        "每多少代对全局最优做一次 2-opt 并回灌"
+      ]
+    ],
+    "paper": "Hansen &amp; Ostermeier, 2001, Evolutionary Computation 9(2):159-195",
+    "faq": [
+      [
+        "CMA-ES 和 CEM（EDA）到底差在哪？",
+        "两者都「采样→精英→回写分布」，但 CEM 回写的是一阶频率矩阵 P（位置-城市概率），CMA-ES 回写的是二阶矩——均值 + 协方差矩阵。协方差让分布能学出「哪些变量相关、沿哪个主轴拉伸」，相当于自动匹配问题地形；CEM 的概率矩阵只能表达独立的位置偏好。代价是 CMA-ES 要维护 n² 个协方差量，所以 TSP 这种 n 很大时用可分对角版（sep-CMA）降维。"
+      ],
+      [
+        "为什么 TSP 版只用对角协方差？",
+        "全协方差 CMA-ES 每代要对 n×n 矩阵做特征分解 O(n³)；n=100 时一次几十毫秒、200 代就吃不消。TSP 是排列域，random-keys 把解编码成 n 个连续键，可分对角协方差（sep-CMA-ES）已能在键空间里把城市相对位置学出来，配合 2-opt 抛光足够；连续域（dim 小）才上全协方差，那才是 CMA-ES 的招牌主场。"
+      ],
+      [
+        "σ 自适应是怎么防「早熟」的？",
+        "步长路径 ps 衡量「连续几代搜索方向是否一致」：若一致说明在沿一个谷稳定下降，σ 该缩小精修；若抖动则 σ 放大勘探。σ 的更新目标是对照 n 维单位球的理论步长 χⁿ（norm(ps)/χⁿ≈1），自动收敛到「刚好一步跨到谷底」的尺度——这是 CMA-ES 比手工调温的 SA 更稳的关键。"
+      ]
+    ],
+    "use_when": "连续黑盒优化（中低维、变量间有相关结构）——协方差自适应是它的看家本领；想要一个调参少、收敛稳的进化基线。",
+    "avoid_when": "高维大种群——全协方差每代 O(n³) 特征分解吃不消（本站 TSP 用 sep-CMA 对角近似降维）；指望它裸跑打赢排列域专用算子（TSP 版也靠 2-opt 抛光撑着）。",
+    "family": "F1",
+    "origin": "<p>Hansen 与 Ostermeier 在 1990 年代提出（2001 年的完整论文）：进化策略里最先进的一支——用样本拟合多元正态分布，<b>自适应协方差矩阵</b>（学习变量间的相关结构）与<b>全局步长</b>（累积路径长度控制）。Hansen (2016) 的教程是权威的说明；它被认为是<b>黑箱连续优化的默认首选</b>。</p>",
+    "theory": "<p>CMA-ES 的几个理论性质：<b>不变性</b>——对目标函数的单调变换（只依赖排序）与对搜索空间的旋转 / 平移 / 缩放（在初始协方差适当时）保持行为不变——这是它在病态与非可分函数上远强于差分进化 / 粒子群的原因；对凸二次函数它学出的协方差 ≈ 海森矩阵的逆（自适应「二阶」信息）；对球函数有线性收敛的理论分析（Auger 等）。实践注意：用于 d ≲ 100 的问题（协方差 O(d²) 存储）；多峰函数需要<b>重启策略</b>（IPOP-CMA-ES，Auger &amp; Hansen 2005：每次重启加倍种群）；<b>边界处理</b>需要小心——本站早期的实现曾在搜索范围外评价导致 Schwefel 函数上报告范围外的「最优」，现已修复并加了回归测试。</p>",
+    "variants": [
+      "<b>(μ/μ_w, λ)-CMA-ES</b>（标准）；<b>IPOP / BIPOP</b>（重启）；<b>sep-CMA-ES</b>（对角协方差，线性时间与空间，适合高维）；<b>LM-CMA</b>（有限内存）；<b>CMA-ES 的约束与多目标扩展（MO-CMA-ES）</b>。"
+    ],
+    "refs": [
+      "Hansen &amp; Ostermeier (2001). Completely derandomized self-adaptation in evolution strategies. Evolutionary Computation, 9(2), 159-195",
+      "Hansen (2016). The CMA evolution strategy: A tutorial. arXiv:1604.00772",
+      "Auger &amp; Hansen (2005). A restart CMA evolution strategy with increasing population size. In Proceedings of CEC 2005, 1769-1776",
+      "Ros &amp; Hansen (2008). A simple modification in CMA-ES achieving linear time and space complexity. In PPSN X, LNCS 5199, 296-305",
+      "Hansen, Müller &amp; Koumoutsakos (2003). Reducing the time complexity of the derandomized evolution strategy with covariance matrix adaptation (CMA-ES). Evolutionary Computation, 11(1), 1-18",
+      "Igel, Hansen &amp; Roth (2007). Covariance matrix adaptation for multi-objective optimization. Evolutionary Computation, 15(1), 1-28"
+    ],
+    "tagline_en": "Adapts a full covariance matrix of the search distribution — the standard continuous baseline.",
+    "summary_en": "CMA-ES (Hansen & Ostermeier, 2001) adapts the covariance matrix of a Gaussian search distribution, which makes it very strong for low- to mid-dimensional continuous black-box problems with correlated variables. Full covariance costs O(n³) per generation in high dimensions (this site uses a diagonal approximation for TSP), and it cannot beat dedicated permutation operators on its own. On this site every algorithm solves TSP with a permutation encoding plus a shared memetic 2-opt component, so the comparison is of frameworks on equal footing, not of whose metaphor is cleverer.",
+    "name_en": "Covariance Matrix Adaptation Evolution Strategy (CMA-ES)"
+  },
+  {
+    "key": "ssa",
+    "slug": "ssa-tsp",
+    "name": "麻雀搜索 SSA",
+    "title": "麻雀搜索算法（SSA）求解 TSP 在线演示 · 发现者/加入者/警戒者动画",
+    "desc": "麻雀搜索算法（SSA）求解旅行商问题（TSP）的在线演示：发现者、加入者、警戒者三角色与警戒值 R2 勘探/开发调度，浏览器本地运行。",
+    "h1": "麻雀搜索算法（SSA）求解 TSP 在线演示",
+    "lead": "2020 年后引用增长最快的新算法之一。麻雀觅食分三种角色：<strong>发现者找食、加入者蹭食、警戒者放哨</strong>，警戒值 R2 每代重新抽签——全群在「安心觅食」与「警觉回撤」之间切换。",
+    "intro": [
+      "SSA（Xue &amp; Shen, 2020）的核心是一个调度器：每代抽一个警戒值 R2，与安全阈值 ST 比较。R2 &lt; ST（安全）→ 发现者大步外出勘探，加入者安心跟随；R2 ≥ ST（有天敌）→ 全群收缩回撤。三角色分工 + 随机抽签的警戒值，让它天生带勘探/开发的显式调度。",
+      "离散化踩坑记录（三次假跑换来的，值得通读）：① 纯随机突变对已抛光的解几乎必然变差、被贪心准入全拒 → 零进步；② 突变后补打磨再叠贪心准入也不行——种群一旦收敛到全局最优的 2-opt 局部最优，所有候选依然全被拒；③ 解法是忠实还原原文语义：发现者公式本无选择步骤（连续域每代无条件移动），安全时无条件跳盆地、危险时才贪心回撤；再让警戒远跳对全局最优本体做「结构性扰动 + 预算制 2-opt 下探」（ILS 同款算子）。修完实测裸跑真实迭代进步 2.7–8.3%。"
+    ],
+    "principle": [
+      "初始化：多起点最近邻播种（麻雀群）+ 轻量 2-opt 抛光。",
+      "抽警戒值 R2：R2 &lt; ST 视为安全，否则视为有天敌。",
+      "发现者（前 pd 比例）：安全 → 大步突变跳盆地 + 就地打磨，无条件接受；危险 → 向全局最优收缩（贪心）。",
+      "加入者：向全局最优执行交换前缀（部分靠近，步幅上限防坍塌）；警戒者（随机抽 sd 比例）做小步试移或远跳。",
+      "警戒远跳：每代对全局最优做一次「扰动 2 步 + 预算制 2-opt 下探」——真实下降的主要来源。"
+    ],
+    "params": [
+      [
+        "n_pop",
+        "30",
+        "麻雀数"
+      ],
+      [
+        "pd_ratio",
+        "0.2",
+        "发现者占比（原文建议 0.2）"
+      ],
+      [
+        "sd_ratio",
+        "0.1",
+        "警戒者占比"
+      ],
+      [
+        "st",
+        "0.8",
+        "安全阈值 ST：警戒值 R2 &lt; ST 视为安全"
+      ],
+      [
+        "step_cap",
+        "0.4",
+        "加入者跟随步幅上限"
+      ],
+      [
+        "ls_every",
+        "10",
+        "每多少代对全局最优做一次 2-opt 并回灌"
+      ]
+    ],
+    "paper": "Xue &amp; Shen, 2020, Systems Science &amp; Control Engineering（麻雀搜索算法原始论文）",
+    "faq": [
+      [
+        "为什么发现者「无条件移动」？不是应该只接受更优的解吗？",
+        "这正是 SSA 离散化最深的坑。原文发现者公式是 X·exp(−i/αT)，没有选择步骤——连续域里它每代无条件移动。排列域如果画蛇添足加贪心准入，种群收敛到 2-opt 局部最优后所有候选都被拒绝，200 代零进步（本站实测两版假跑）。无条件接受新盆地 + 危险时贪心回撤，才同时保住勘探能力和 best_cost 单调性。"
+      ],
+      [
+        "警戒值 R2 到底在调度什么？",
+        "勘探/开发的调度器。R2 每代重新抽签：安全时发现者发散（跳盆地），危险时全群收敛（回撤最优）。这和 SA 的温度、GSA 的引力衰减是同一类东西——控制搜索的「松紧」。调大 ST = 更多时间在勘探。"
+      ],
+      [
+        "SSA 这么新，凭什么收录？它比老算法强吗？",
+        "收录理由是引用增速（2020 后暴涨）+ 三角色隐喻的教学价值。诚实说：本站实测它在 TSP 上并不显著超越 GWO/HHO 等老算法，能进第一梯队主要靠 memetic 组件（警戒远跳 + 周期 2-opt）——这也是新算法文献里的普遍现象：机制翻新，底层组件相似。"
+      ]
+    ],
+    "family": "F2",
+    "use_when": "2020 后引用最猛的新算法；三角色分工+警戒抽签的多样性机制有参考价值，本站完整剖析过它的假跑坑。",
+    "avoid_when": "批评线核心案例：原文发现者公式无选择步骤，画蛇添足加贪心准入会 200 代零进步；实战表现与引用热度不匹配，用前必跑「真优化」校验校验。",
+    "origin": "<p>Xue 与 Shen (2020) 受麻雀的觅食与反捕食行为启发：种群分成<b>发现者</b>（带领种群向食物源移动，位置更新用 exp 衰减项）、<b>跟随者</b>（跟着最好的发现者移动，或饥饿时飞去别处）以及<b>警戒者</b>（察觉危险时向安全位置移动）。2020 年起在中国学术界应用量增长很快。</p>",
+    "theory": "<p>各角色的更新式都是「向最优位置按随机系数收缩 + 少量重置」，没有新颖的搜索机制；发现者更新里的 exp(−i/(α·T)) 项使位置<b>向原点方向收缩</b>——这种设计使它在最优点位于原点 / 中心的函数上得分虚高（本站在原点最优的 Rastrigin 上得到恰好 0，描述里已标注）。正因为这类中心偏置，评价它应该用<b>平移 / 旋转后的</b>基准（CEC、BBOB）；Kudela (2022) 的论文系统地讨论了这类基准陷阱。</p>",
+    "variants": [
+      "<b>改进 SSA</b>：Lévy / 混沌 / 自适应权重 / 精英对立学习；<b>离散 SSA</b>：位置译为排列的交换序列 / 二进制翻转。"
+    ],
+    "refs": [
+      "Xue &amp; Shen (2020). A novel swarm intelligence optimization approach: Sparrow search algorithm. Systems Science &amp; Control Engineering, 8(1), 22-34",
+      "Kudela (2022). A critical problem in benchmarking and analysis of evolutionary computation methods. Nature Machine Intelligence, 4, 1238-1245",
+      "Sörensen (2015). Metaheuristics — the metaphor exposed. International Transactions in Operational Research, 22(1), 3-18",
+      "Camacho-Villalón, Stützle &amp; Dorigo (2020). Grey wolf, firefly and bat algorithms: Three widespread algorithms that do not contain any novelty. In ANTS 2020, LNCS 12421, 121-133"
+    ],
+    "tagline_en": "Discoverers, joiners and scouts — a recent metaphor algorithm with a well-documented pitfall.",
+    "summary_en": "The Sparrow Search Algorithm (Xue & Shen, 2020) assigns discoverer, joiner and scout roles. It is among the most-cited algorithms since 2020, and this site documents a case study: the original discoverer formula has no selection step, and adding a greedy acceptance step on top produces runs with no progress at all. Its practical performance does not match its citation count; always run the ‘really optimising’ check. On this site every algorithm solves TSP with a permutation encoding plus a shared memetic 2-opt component, so the comparison is of frameworks on equal footing, not of whose metaphor is cleverer.",
+    "name_en": "Sparrow Search Algorithm (SSA)"
+  },
+  {
+    "key": "alo",
+    "slug": "alo-tsp",
+    "name": "蚁狮优化 ALO",
+    "title": "蚁狮优化（ALO）求解 TSP 在线演示 · 随机游走与陷阱收缩动画",
+    "desc": "蚁狮优化（ALO）求解旅行商问题（TSP）的在线演示：轮盘选坑、双随机游走与陷阱收缩调度，浏览器本地运行。",
+    "h1": "蚁狮优化（ALO）求解 TSP 在线演示",
+    "lead": "Mirjalili 系补全（2015）。蚂蚁围着坑游走，<strong>坑随迭代收缩</strong>——前期大步勘探、后期小步开发；蚂蚁走到比坑主更优的位置就被「吃掉」，蚁狮前移到那个位置。",
+    "intro": [
+      "ALO 的隐喻链条很完整：蚁狮在沙里挖坑（坑深 = 解的质量），蚂蚁在坑壁上挣扎游走，越挣扎越往坑底滑（收缩）。每只蚂蚁每代先按适应度轮盘选一个坑（坑越深越可能被选），再围着坑主和精英各走一段，端点取较优。蚂蚁若走到比坑主更优的位置，坑就重新挖在它站的地方——「吃掉蚂蚁，蚁狮前移」。",
+      "离散化踩坑记录：教科书式的纯随机游走在排列域上是灾难——端点对已抛光的解几乎必然变差（GSA/CEM 同源教训），200 代零进步。本实现改为<strong>贪心游走</strong>：每步仅在更优时保留，「向坑壁滑落」用小段交换前缀朝坑主方向模拟；陷阱收缩保留原文调度（步数随迭代线性收缩到 1）。实测裸跑真实迭代进步 2.7–7.7%。"
+    ],
+    "principle": [
+      "初始化：多起点最近邻播种，蚂蚁与蚁狮一一配对。",
+      "轮盘选坑：按适应度挑一个坑主（坑越深=成本越低越可能被选）。",
+      "双游走：围着坑主 + 围着精英各走一段（每步被坑壁滑向中心或随机扰动，更优才保留），端点取较优。",
+      "贪心准入：游走端点优于蚂蚁当前位置才移动。",
+      "蚁狮前移：蚂蚁优于坑主 → 蚁狮换位；陷阱收缩：游走步数随迭代线性收缩到 1。"
+    ],
+    "params": [
+      [
+        "n_pop",
+        "25",
+        "蚂蚁/蚁狮数（一一配对）"
+      ],
+      [
+        "walk_base",
+        "10",
+        "初始游走步数（坑最深处）"
+      ],
+      [
+        "step_cap",
+        "0.3",
+        "单步步幅上限"
+      ],
+      [
+        "ls_every",
+        "10",
+        "每多少代对全局最优做一次 2-opt 并回灌"
+      ]
+    ],
+    "paper": "Mirjalili, S. (2015). The Ant Lion Optimizer. Advances in Engineering Software, 83, 80-98.",
+    "faq": [
+      [
+        "陷阱收缩在调什么？",
+        "游走步数随迭代从 walk_base 线性收缩到 1——前期蚂蚁能在坑里走很远（勘探），后期只能原地小步蹭（开发）。和 SA 的降温、PSO 的惯性衰减同族：给搜索过程一个「先松后紧」的时间表。"
+      ],
+      [
+        "纯随机游走为什么不 work？",
+        "排列域没有「近」的几何结构，随机游走的端点对抛光过的解几乎必然更差。连续域里游走至少围绕原点附近，排列域里游走就是漫无目的的打乱。所以本实现每步都贪心保留——「游走」实际上是一串带方向偏置的爬山步，收缩调度管的是步数预算。"
+      ],
+      [
+        "ALO 和 ACO 都有蚂蚁，区别在哪？",
+        "建模对象完全不同：ACO 的信息素标在「边」上，编码的是「哪条边好」——天然匹配 TSP；ALO 的坑标在「解」上，编码的是「哪个解的邻域值得搜」——它是通用连续域算法，搬到 TSP 全靠离散化。这也是为什么 ACO 在本站 TSP 基准上长期第一，而 ALO 是中游水平。"
+      ]
+    ],
+    "family": "F2",
+    "use_when": "陷阱收缩=「先松后紧」时间表的标准实现；蚁狮/蚂蚁双种群互动机制有教学观赏性。",
+    "avoid_when": "Mirjalili 系同质算法：游走步数线性收缩并不比单参数衰减更聪明；实战赢面记录少。",
+    "origin": "<p>Mirjalili (2015) 模拟蚁狮在沙坑里<b>设陷阱</b>捕蚁的行为：蚂蚁（候选）在搜索空间里围绕「被轮盘赌选中的蚁狮」与「精英蚁狮」做随机游走，游走范围随迭代按一个收缩函数缩小；陷阱半径 = 当前最优解的邻域。</p>",
+    "theory": "<p>蚂蚁的随机游走（累积和的归一化）使其位置是<b>围绕精英与轮盘赌蚁狮的随机收缩</b>；收缩函数使步长随迭代减小。同类的批评：算法的新意主要在隐喻，搜索机制接近「带随机游走的向最优收缩」。Camacho-Villalón 等对 ALO 等 6 个算法的系统分析表明其更新式缺乏独立新意。本站的等评价次数检验把 ALO 与随机基线比较，并在需要时撤下失败组合。</p>",
+    "variants": [
+      "<b>IALO</b>、<b>二进制 ALO</b>、<b>多目标 MOALO</b>（Mirjalili 等 2017）。"
+    ],
+    "refs": [
+      "Mirjalili (2015). The ant lion optimizer. Advances in Engineering Software, 83, 80-98",
+      "Mirjalili, Jangir &amp; Saremi (2017). Multi-objective ant lion optimizer: A multi-objective optimization algorithm for solving engineering problems. Applied Intelligence, 46(1), 79-95",
+      "Sörensen (2015). Metaheuristics — the metaphor exposed. International Transactions in Operational Research, 22(1), 3-18",
+      "Assiri, Hussien &amp; Amin (2020). Ant lion optimization: Variants, hybrids, and applications. IEEE Access, 8, 77746-77764"
+    ],
+    "tagline_en": "Ants random-walk around antlion traps whose radius shrinks over time.",
+    "summary_en": "The Ant Lion Optimizer (Mirjalili, 2015) models ants walking randomly around antlion traps that contract over the run — a standard ‘loose first, tight later’ schedule. It is one of several homogeneous Mirjalili-style algorithms, and a linearly shrinking walk is not smarter than a single decaying coefficient. On this site every algorithm solves TSP with a permutation encoding plus a shared memetic 2-opt component, so the comparison is of frameworks on equal footing, not of whose metaphor is cleverer.",
+    "name_en": "Ant Lion Optimizer (ALO)"
+  },
+  {
+    "key": "boa",
+    "slug": "boa-tsp",
+    "name": "蝴蝶优化 BOA",
+    "title": "蝴蝶优化算法（BOA）求解 TSP 在线演示 · 香味感知与全局/局部切换动画",
+    "desc": "蝴蝶优化算法（BOA）求解旅行商问题（TSP）的在线演示：香味感知、全局/局部搜索切换与香味调制的短飞，浏览器本地运行。",
+    "h1": "蝴蝶优化算法（BOA）求解 TSP 在线演示",
+    "lead": "香味 = 适应度的幂函数。<strong>香味越强的蝴蝶越少动</strong>（它已经是好解），香味弱的蝴蝶移动越猛——每只蝴蝶每代掷骰子决定全局搜索还是局部搜索。",
+    "intro": [
+      "BOA（Arora &amp; Singh, 2019）的隐喻：蝴蝶靠感知香味互相吸引，香味强度 f = c·I^a（I 是刺激强度，即适应度）。每只蝴蝶每代掷骰子：r &lt; p_switch → 全局搜索，向全群香味最强的蝴蝶移动；r ≥ p_switch → 局部搜索，随机抽两只同伴、向更好的那只靠近。香味强度同时调制移动步幅——好蝴蝶少动，差蝴蝶猛动。",
+      "离散化映射：向目标移动 = 交换序列前缀（步幅 ∝ 香味强度）；「香味激发的短飞」= 以香味强度为概率触发短 2-opt 试射（FA/HHO 同款诚实离散化，真实下降来源之一）。实测裸跑真实迭代进步 1.0–8.4%。"
+    ],
+    "principle": [
+      "初始化：多起点最近邻播种（蝶群）+ 轻量 2-opt 抛光。",
+      "计算香味：f = 归一化适应度的 a 次幂（最优蝴蝶 = 1，最差 → 0）。",
+      "全局搜索（r &lt; p）：向全局最优执行交换前缀，步幅 ∝ 香味强度。",
+      "局部搜索（r ≥ p）：随机抽两只同伴，向更好的那只靠近。",
+      "香味短飞：以 f 为概率对自身做短 2-opt 试射；贪心准入。"
+    ],
+    "params": [
+      [
+        "n_pop",
+        "25",
+        "蝴蝶数"
+      ],
+      [
+        "p_switch",
+        "0.8",
+        "全局搜索切换概率 p（原文建议 0.8）"
+      ],
+      [
+        "a_pow",
+        "1.0",
+        "香味功率指数 a"
+      ],
+      [
+        "step_cap",
+        "0.5",
+        "移动步幅上限"
+      ],
+      [
+        "ls_every",
+        "10",
+        "每多少代对全局最优做一次 2-opt 并回灌"
+      ]
+    ],
+    "paper": "Arora &amp; Singh, 2019, Soft Computing（蝴蝶优化算法原始论文）",
+    "faq": [
+      [
+        "p_switch 调大调小有什么影响？",
+        "它就是勘探/开发开关：p=0.8 意味着 80% 的移动朝向全局最优（开发），20% 在邻居之间横向流动（勘探+多样性）。p 太高种群快速坍塌到最优附近；太低则收敛慢。原文 0.8 在多数基准上确实不错。"
+      ],
+      [
+        "香味指数 a 的作用是什么？",
+        "f = 归一化适应度的 a 次幂，a 决定好蝴蝶和差蝴蝶的香味差距。a 大 → 只有顶尖蝴蝶香味浓、其他蝴蝶步幅普遍大（偏勘探）；a 小 → 香味普遍接近、步幅趋同（偏均一开发）。a=1 是线性，最直观。"
+      ],
+      [
+        "为什么香味强的蝴蝶反而少动？",
+        "原文的设计逻辑：香味是「它已经闻到好地方了」的信号，无需大动；香味弱的蝴蝶还在乱飞找花田。离散化后体现为交换前缀比例 ∝ f——好蝴蝶每次只微调一两步，差蝴蝶大刀阔斧向最优靠。这和 GSA「质量大的几乎不动」是同一个思想。"
+      ]
+    ],
+    "family": "F2",
+    "use_when": "香味幂函数+全局/局部切换概率 p 是最简单的「勘探/开发开关」教学样本。",
+    "avoid_when": "幂指数 a 与 p 耦合行为不直观；批评线重点观察对象，实战候选名单上几乎不出现。",
+    "origin": "<p>Arora 与 Singh (2019) 受蝴蝶的觅食与交配中的<b>香味</b>传播启发：每只蝴蝶散发强度 f = c·I^a 的香味（I 刺激强度 = 适应度），其他蝴蝶感知后向香味最强者移动（<b>全局搜索</b>），或在局部随机移动（<b>局部搜索</b>），两者由转换概率 p 切换。</p>",
+    "theory": "<p>更新式 x ← x + (r²·g* − x)·f（全局）或 x + (r²·x_j − x_k)·f（局部：两个随机个体之差）。局部项与差分进化的变异同形；全局项是向最优者按随机系数靠近。「香味 f」只是一个随适应度变化的步长缩放。参数 c、a（感知模态与幂指数）对结果敏感，需调参；理论上没有收敛证明。与其他 2015–2020 年的生物隐喻算法一样，应在平移 / 旋转的基准上评价。</p>",
+    "variants": [
+      "<b>改进 BOA</b>（混沌、自适应 c、Lévy）；<b>二进制 BOA</b>（特征选择）。"
+    ],
+    "refs": [
+      "Arora &amp; Singh (2019). Butterfly optimization algorithm: A novel approach for global optimization. Soft Computing, 23(3), 715-734",
+      "Sörensen (2015). Metaheuristics — the metaphor exposed. International Transactions in Operational Research, 22(1), 3-18",
+      "Kudela (2022). A critical problem in benchmarking and analysis of evolutionary computation methods. Nature Machine Intelligence, 4, 1238-1245",
+      "Arora &amp; Singh (2018). An improved butterfly optimization algorithm for global optimization. Advanced Science, Engineering and Medicine, 8(9), 711-717"
+    ],
+    "tagline_en": "Butterflies follow fragrance (a power function of fitness) and switch between global and local moves.",
+    "summary_en": "The Butterfly Optimization Algorithm (Arora & Singh, 2019) defines fragrance as a power function of fitness and switches between global and local search with a probability p. It is the simplest possible exploration/exploitation switch to teach, but the power exponent and p interact in non-obvious ways, and it is a key subject of the metaphor criticism on this site. On this site every algorithm solves TSP with a permutation encoding plus a shared memetic 2-opt component, so the comparison is of frameworks on equal footing, not of whose metaphor is cleverer.",
+    "name_en": "Butterfly Optimization Algorithm (BOA)"
+  },
+  {
+    "key": "ica",
+    "slug": "ica-tsp",
+    "name": "帝国竞争 ICA",
+    "title": "帝国竞争算法（ICA）求解 TSP 在线演示 · 同化、革命与帝国竞争动画",
+    "desc": "帝国竞争算法（ICA）求解旅行商问题（TSP）的在线演示：殖民地向宗主国同化、随机革命、帝国竞争与崩溃机制，浏览器本地运行。",
+    "h1": "帝国竞争算法（ICA）求解 TSP 在线演示",
+    "lead": "近万引用的社会政治隐喻代表作：<strong>最强的国家成为列强</strong>，殖民地向宗主国同化，革命随机发生，最弱帝国的殖民地被最强帝国夺走——直到只剩一个帝国。",
+    "intro": [
+      "ICA（Atashpaz-Gargari &amp; Lucas, 2007）的隐喻来自殖民史：初始种群是「国家」，最强的若干个成为「帝国主义者」（列强），其余按实力分配为各帝国的殖民地。每个帝国做三件事：同化（殖民地向宗主国移动）、革命（殖民地随机政变）、竞争（最弱帝国最差的殖民地被最强帝国夺走；失去全部殖民地的帝国崩溃，宗主国也沦为别国殖民地）。反复循环，直到只剩一个帝国。",
+      "离散化映射：同化 = 交换序列前缀（比例 β·r，步幅上限防坍塌）；革命 = 双桥/or-opt 结构突变 + 就地 2-opt 打磨，<strong>无条件接受</strong>——SSA 三连假跑教训：已收敛种群里「接受改进」类算子全部扑空，而革命在原文里本就是无条件的政变。实测裸跑真实迭代进步 2.7–8.3%。"
+    ],
+    "principle": [
+      "初始化：多起点最近邻播种（国家群）+ 轻量 2-opt 抛光；最强的 n_imp 个国家成为列强，其余轮流分配为殖民地。",
+      "同化：每个殖民地沿交换序列向宗主国移动比例 β·r；变好才接受（原文同化有收敛目标）。",
+      "革命：以 p_rev 概率对殖民地做双桥/or-opt 突变 + 就地打磨，无条件接受（原文政变不回退）。",
+      "帝国竞争：最弱帝国最差的殖民地被替换为最强帝国宗主国的扰动副本（在强盆地里重新开局）。",
+      "帝国崩溃：失去全部殖民地的帝国除名，宗主国沦为最强帝国的殖民地；本土周期性小预算 2-opt 保持先进性。"
+    ],
+    "params": [
+      [
+        "n_pop",
+        "30",
+        "国家数"
+      ],
+      [
+        "n_imp",
+        "5",
+        "列强数量（会随帝国崩溃减少）"
+      ],
+      [
+        "beta",
+        "1.5",
+        "同化吸引系数 β（原文 β∈(0,2)）"
+      ],
+      [
+        "p_rev",
+        "0.25",
+        "革命概率"
+      ],
+      [
+        "step_cap",
+        "0.5",
+        "同化步幅上限"
+      ],
+      [
+        "ls_every",
+        "10",
+        "每多少代对全局最优做一次 2-opt 并回灌"
+      ]
+    ],
+    "paper": "Atashpaz-Gargari &amp; Lucas, 2007, IEEE Congress on Evolutionary Computation（帝国竞争算法原始论文）",
+    "faq": [
+      [
+        "革命为什么「无条件接受」？政变失败不应该回退吗？",
+        "这正是本站踩过的坑：革命后如果只接受更优的解，种群一旦收敛到全局最优的 2-opt 局部最优，所有革命候选都被拒绝，200 代零进步（SSA 同款假跑）。原文连续域里革命就是无条件的随机政变——大部分被「镇压」（变差），但只要偶尔有成功的政变跳进新盆地，算法就有真实进步。无条件接受 + 革命后就地打磨，是新盆地进得去、站得住的关键。"
+      ],
+      [
+        "帝国竞争和崩溃在排列域怎么实现？",
+        "竞争 = 找出「平均殖民地成本」最差的帝国，把它最差的殖民地拿走，替换成最强帝国宗主国的扰动副本（相当于在强 Basin 里重新开一个分部）；崩溃 = 某帝国失去全部殖民地时除名，宗主国本人也沦为最强帝国的殖民地。页面上可以看到列强数 n_imp 随代数递减。"
+      ],
+      [
+        "ICA 和 GA 有什么区别？都是「种群 + 算子」啊。",
+        "框架确实相似，但驱动逻辑完全不同：GA 的交叉/变异是「混合基因」，没有社会结构；ICA 的核心是<strong>不对称的权力结构</strong>——同化永远是朝宗主国单向移动（信息从强流向弱），革命是局部随机扰动，竞争是跨帝国的马太效应（强者愈强）。你可以把 ICA 理解成「分组 MGWO + 马太效应 + 随机政变」的混合体。"
+      ]
+    ],
+    "family": "F4",
+    "use_when": "社会政治隐喻代表作：同化/革命/帝国竞争分工清晰；革命无条件接受是「真优化」校验的正确设计（页面有踩坑剖析）。",
+    "avoid_when": "列强数/革命率/同化系数参数组不小；终局「只剩单帝国」的收敛行为在多峰问题上危险，需配多样性监控。",
+    "origin": "<p>Atashpaz-Gargari 与 Lucas (2007) 受<b>帝国主义殖民竞争</b>启发：国家（解）分成帝国，每个帝国一个宗主国（最优者）与若干殖民地；<b>同化</b>（殖民地向宗主国移动）、<b>革命</b>（随机重置部分殖民地）、<b>帝国竞争</b>（弱帝国的殖民地被强帝国吞并）；弱帝国消亡，最后剩一个帝国。</p>",
+    "theory": "<p>ICA 是<b>结构化种群</b>（多子群 + 子群间竞争）的一种形式：同化步骤是带方向的随机收缩，革命相当于变异，帝国竞争则是种群级别的选择（把资源从差子群转给好子群）。这与岛屿模型 / 多种群算法有共同点，但竞争机制更激进，常导致<b>多样性快速丧失</b>。它在调度与工程设计（尤其伊朗学者）里应用广泛；理论上没有一般性收敛结果。本站实现按「帝国数、同化系数 β、革命率」设置，并通过等评价次数检验。</p>",
+    "variants": [
+      "<b>ICA 变体</b>：自适应同化、混沌、与遗传 / 禁忌混合；<b>离散 ICA</b>（排列：同化译为向宗主国排列的 OX 式交叉）。"
+    ],
+    "refs": [
+      "Atashpaz-Gargari &amp; Lucas (2007). Imperialist competitive algorithm: An algorithm for optimization inspired by imperialistic competition. In Proceedings of IEEE CEC 2007, 4661-4667",
+      "Hosseini &amp; Al Khaled (2014). A survey on the imperialist competitive algorithm metaheuristic: Implementation in engineering domain and directions for future research. Applied Soft Computing, 24, 1078-1094",
+      "Sörensen (2015). Metaheuristics — the metaphor exposed. International Transactions in Operational Research, 22(1), 3-18",
+      "Sörensen, Sevaux &amp; Glover (2018). A history of metaheuristics. In Handbook of Heuristics, Springer, 791-808"
+    ],
+    "tagline_en": "Empires assimilate colonies, revolutions occur, and the weakest empire falls.",
+    "summary_en": "The Imperialist Competitive Algorithm (Atashpaz-Gargari & Lucas, 2007) models assimilation, revolution and competition among empires. Accepting revolutions unconditionally is the right design for a ‘really optimising’ check (the page analyses the pitfall); the number of empires, revolution rate and assimilation coefficient need care, and collapsing to a single empire is dangerous on multimodal problems. On this site every algorithm solves TSP with a permutation encoding plus a shared memetic 2-opt component, so the comparison is of frameworks on equal footing, not of whose metaphor is cleverer.",
+    "name_en": "Imperialist Competitive Algorithm (ICA)"
+  },
+  {
+    "key": "salp",
+    "slug": "salp-tsp",
+    "name": "樽海鞘群 Salp",
+    "title": "樽海鞘群算法（Salp Swarm）求解 TSP 在线演示 · 链式跟随与食物源引导动画",
+    "desc": "樽海鞘群算法（Salp Swarm）求解旅行商问题（TSP）的在线演示：链首追食物源、链尾逐只跟随的链式更新与 c1 衰减调度，浏览器本地运行。",
+    "h1": "樽海鞘群算法（Salp Swarm）求解 TSP 在线演示",
+    "lead": "樽海鞘在海里连成一条链：<strong>链首朝着食物源走，链尾只跟着前一只</strong>。衰减系数 c1 从 2 滑到 0，整条链从大步勘探渐渐转为精细开发。",
+    "intro": [
+      "Salp Swarm（Mirjalili et al., 2017）的隐喻：樽海鞘是透明桶状的海洋生物，常连成长链漂浮。链首（leader）朝着食物源 F 移动，链尾（followers）只做一件事：向前一只看齐 x_j = (x_j + x_{j−1})/2。leader 的更新由衰减系数 c1 = 2·exp(−(4t/T)²) 控制——前期 c1 大，leader 大步乱跳（勘探）；后期 c1 趋 0，leader 小步微调（开发）。",
+      "离散化映射：leader = 对食物源本体做「结构性扰动 + 预算制 2-opt 下探」（ILS 同款算子，SSA 警戒远跳同款机制——这是真实下降的来源）；followers = 沿交换序列向前一只移动一半（对应原文取平均的无条件更新）+ 少量 or-opt「水流漂移」保多样性。实测裸跑真实迭代进步 2.7–9.2%。"
+    ],
+    "principle": [
+      "初始化：多起点最近邻播种（链群）+ 轻量 2-opt 抛光；食物源 F = 当前全局最优档案。",
+      "计算衰减系数 c1 = 2·exp(−(4t/T)²)：前期接近 2，后期趋近 0。",
+      "leader：对 F 本体做双桥/or-opt 扰动（幅度 ∝ c1）+ 预算制 2-opt 下探；优于 F 则更新食物源。",
+      "followers：每只沿交换序列向前一只移动一半（无条件更新），另有 10% 概率做 or-opt 水流漂移。",
+      "链上任何个体若优于食物源则更新 F（best_cost 单调保证）。"
+    ],
+    "params": [
+      [
+        "n_pop",
+        "25",
+        "樽海鞘数（链长）"
+      ],
+      [
+        "ls_every",
+        "10",
+        "每多少代对全局最优做一次 2-opt 并回灌"
+      ]
+    ],
+    "paper": "Mirjalili, S., Gandomi, A.H., Mirjalili, S.Z., Saremi, S., Faris, H. &amp; Mirjalili, S.M. (2017). Salp Swarm Algorithm: A bio-inspired optimizer for engineering design problems. Advances in Engineering Software, 114, 163-191.",
+    "faq": [
+      [
+        "为什么缩写不叫 SSA？跟麻雀撞名了。",
+        "Salp Swarm Algorithm 的官方缩写确实是 SSA——和 2020 年的麻雀搜索算法（Sparrow Search Algorithm）完全撞名，文献里两者都叫 SSA，检索时经常混到一起。本站为避免混淆，麻雀用 SSA、樽海鞘用 Salp（键名也是 salp）。"
+      ],
+      [
+        "链尾为什么「无条件移动」？变差了怎么办？",
+        "原文连续域里链式更新就是无条件的位置移动，没有选择步骤。排列域忠实还原：followers 沿交换序列向前一只移动一半，无条件接受。不会退化崩溃的原因有两个：①食物源 F 是独立档案，只有被超越才更新，best_cost 单调；②链式收缩本身是「向更好的邻居对流」——整条链会慢慢流向链首（也就是 F 附近），这正是原文的收敛机制。"
+      ],
+      [
+        "leader 的扰动 + 下探不就等于 ILS 吗？",
+        "一半是。leader 的确用了 ILS 同款算子（双桥扰动 + 预算制 2-opt 下探）——这是排列域离散化的诚实做法（SSA 警戒远跳、GSA 微滑翔同款机制）。但 Salp 的完整动力学还包括链式跟随（信息逐只传递，类似 PSO 的社会项）和 c1 调度（勘探→开发的显式时间表）。纯 ILS 没有链结构，Salp 的链让「好解的位置」以逐级传导的方式扩散到全群。"
+      ]
+    ],
+    "family": "F2",
+    "use_when": "链式跟随+衰减系数结构极简：链首带队、链尾跟随的分工好讲好实现。",
+    "avoid_when": "链式无条件跟随意味着多样性偏弱，多数基准打不过 PSO/DE；与麻雀撞名 SSA，检索文献务必分清。",
+    "origin": "<p>Mirjalili 等 (2017) 受樽海鞘「链式」游动启发：种群分成<b>领头者</b>（向食物源 F 移动，步长按 c₁ 随迭代指数递减）与<b>跟随者</b>（每个跟随者的位置取自己与前一个个体的平均：x_i = (x_i + x_{i−1})/2）。它的更新式极其简单。</p>",
+    "theory": "<p>跟随者的更新是<b>相邻个体的算术平均</b>，随迭代它们会向领头者靠拢；领头者向最优解（食物）按递减幅度的随机步移动。所以整个种群沿着一条向最优解收缩的链。Camacho-Villalón 等把它归在「以隐喻掩盖简单更新式」的一类。该算法的探索主要靠领头者的 c₂、c₃ 随机项；在多峰函数上容易早熟。一个常被忽视的事实是：<b>链式平均使得追随者的方差迅速塌缩</b>，所以后期几乎完全依赖领头者。本站的评测按等评价次数与随机搜索比较。</p>",
+    "variants": [
+      "<b>二进制 SSA</b>、<b>多目标 MSSA</b>（Mirjalili 等 2017，同一篇文章里）、<b>混沌 / Lévy 增强版</b>。"
+    ],
+    "refs": [
+      "Mirjalili, Gandomi, Mirjalili, Saremi, Faris &amp; Mirjalili (2017). Salp swarm algorithm: A bio-inspired optimizer for engineering design problems. Advances in Engineering Software, 114, 163-191",
+      "Mirjalili (2016). Dragonfly algorithm: A new meta-heuristic optimization technique for solving single-objective, discrete, and multi-objective problems. Neural Computing and Applications, 27(4), 1053-1073",
+      "Sörensen (2015). Metaheuristics — the metaphor exposed. International Transactions in Operational Research, 22(1), 3-18",
+      "Abualigah, Shehab, Alshinwan &amp; Alabool (2020). Salp swarm algorithm: A comprehensive survey. Neural Computing and Applications, 32(15), 11195-11215"
+    ],
+    "tagline_en": "A chain of salps: the leader heads for food, followers trail the one in front.",
+    "summary_en": "The Salp Swarm Algorithm (Mirjalili et al., 2017) arranges the swarm as a chain whose leader moves towards the food source while followers trail. The structure is extremely simple, but unconditional following gives weak diversity and it rarely beats PSO or DE. Do not confuse the abbreviation with the Sparrow Search Algorithm (SSA) when searching the literature. On this site every algorithm solves TSP with a permutation encoding plus a shared memetic 2-opt component, so the comparison is of frameworks on equal footing, not of whose metaphor is cleverer.",
+    "name_en": "Salp Swarm Algorithm (Salp)"
+  },
+  {
+    "key": "sfla",
+    "slug": "sfla-tsp",
+    "name": "混合蛙跳 SFLA",
+    "title": "混合蛙跳算法（SFLA）求解 TSP 在线演示 · 族群学习、洗牌与帝国竞争动画",
+    "desc": "混合蛙跳算法（SFLA）求解旅行商问题（TSP）的在线演示：族群分组、最差蛙向最优蛙学习、随机重置与周期洗牌，浏览器本地运行。",
+    "h1": "混合蛙跳算法（SFLA）求解 TSP 在线演示",
+    "lead": "青蛙按族群分群：<strong>每代让各族群里最差的蛙向最优蛙学习</strong>；学不会就跳走换一只新蛙。周期性洗牌让信息跨族群流动——水务调度算法起家的优化代表作。",
+    "intro": [
+      "SFLA（Eusuff &amp; Lansey, 2006）为水资源网络调度而生（名字里的 shuffled complex evolution 血统来自 SCE-UA）。隐喻：青蛙按族群（memeplex）分群，每代在每个族群里让最差蛙向本群最优蛙学习 X_w + r·(X_b − X_w)；没进步就改学全局最优；再没进步就生成全新随机蛙（跳走另寻出路，算法自带的反停滞机制）。每隔若干代全群洗牌重新分组，信息跨族群流动。",
+      "离散化映射：学习 = <strong>OX 顺序交叉</strong>（连续插值在排列域没有精确对应，离散 SFLA 文献的标准做法就是交叉替代插值，TLBO 同款）；全新蛙 = 双起点 NN + 预算制下探、测评取优（深度前期浅后期深，防 gen-1 踩中实例吸引子）；另加 SCE 父算法的 CCE 反射步 = 对全局最优本体的「扰动 + 下探」。实测 n=100 = 820.4（本站全场第一）、n=60 = 566.5（同分第一）。"
+    ],
+    "principle": [
+      "初始化：多起点最近邻播种 + 轻量抛光；按成本排序后轮流分配到 M 个族群（原文同款）。",
+      "族群内学习：随机抽子集，最差蛙经 OX 交叉向子集最优学习；没进步就改学全局最优。",
+      "两次学习都失败 → CCE 反射步（对全局最优扰动 + 下探）试落点；再失败 → 全新蛙跳走另寻出路。",
+      "重置深度退火：前 10 代新蛙浅探（8 步），之后深潜（20 步）——防 gen-1 踩中实例吸引子。",
+      "周期洗牌：每 shuffle_every 代重新排序分组，信息跨族群流动。"
+    ],
+    "params": [
+      [
+        "n_pop",
+        "30",
+        "蛙数"
+      ],
+      [
+        "n_mem",
+        "5",
+        "族群数（memeplex）"
+      ],
+      [
+        "shuffle_every",
+        "10",
+        "洗牌周期（代）"
+      ],
+      [
+        "ls_every",
+        "10",
+        "每多少代对全局最优做一次 2-opt 并回灌"
+      ]
+    ],
+    "paper": "Eusuff &amp; Lansey, 2003, Journal of Water Resources Planning and Management 129(3):210-225（混合蛙跳原始论文）",
+    "faq": [
+      [
+        "为什么用 OX 交叉学习，不是「向目标移动」？",
+        "连续域的学习 X_w + r·(X_b − X_w) 是精确的插值——落在两点连线上。排列域没有「连线」概念，交换序列前缀只是粗糙近似（实测假跑：种群收敛后全部扑空）。离散 SFLA 文献（TSP/流水车间方向）的标准做法就是用 OX 顺序交叉替代插值——子代继承父代的相对顺序结构，天然是「父母优良片段的重组」。TLBO 的差生向好生学习也是这么离散化的。"
+      ],
+      [
+        "什么是「秒解」现象？为什么有的实例进步为 0？",
+        "本站诚实记录：个别随机实例（如 seed=37 的 60 城实例）存在强吸引子——从多个最近邻起点只需 ≤8 步下探就能到达，而这个吸引子恰好就是 ILS 跑满 200 代的收敛值（642.2）。SFLA 的重置动力学在<strong>第 1 代</strong>就摸到了它，此后 199 代没有进步空间——但 ILS 跑满 200 代也收敛到同一个值，所以这是「秒解」而不是假跑。「真优化」校验门 2 对这类实例不适用（进步空间为零），改用正向断言：终值必须远优于 NN 基线。"
+      ],
+      [
+        "SFLA 为什么在 n=100 全场第一（820.4，超过 VNS）？",
+        "因为它的底层是「分组的 ILS」：CCE 反射步 = 对全局最优的扰动 + 完整下探，每 3 代一次——这本质上是带多种群分流的 ILS。ILS/VNS 的单一轨迹容易被一个盆地锁死；SFLA 的族群结构 + 洗牌 + 随机重置让多条「开发线」并行推进，其中一条踢出去的就是新纪录。代价是单代耗时较高（n=100 约 2.3 秒，CEM 是 6 秒量级，浏览器可接受）。"
+      ]
+    ],
+    "family": "F2",
+    "use_when": "族群分组+周期洗牌的「分组-交换」结构天然适配并行/分区问题（水务/流水车间出身）；本站 n=100 第一梯队。",
+    "avoid_when": "族群数/族群规模/洗牌周期三参数要调；连续域插值学习在排列域失效（假跑实录），跨问题复用必须重设计学习算子。",
+    "origin": "<p>Eusuff 与 Lansey (2003) 为水管网络设计提出：把种群（青蛙）按适应度排序、轮流分配到若干<b>子群（memeplex）</b>；每个子群内部做局部进化——每次选出<b>子子群</b>，让其中最差的青蛙向最好的青蛙跳（若无改进，则向全局最优跳，再无改进则随机重置）；若干代后<b>所有子群重新混合洗牌</b>，实现信息交换。它结合了 memetic 算法的局部进化与 PSO 的全局信息交换。</p>",
+    "theory": "<p>SFLA 本质上是<b>「子群局部进化 + 周期混合」的结构化种群算法</b>，与岛屿模型的区别是混合是确定性的重新分配（而不是迁移）。局部进化的更新式是「最差者向最好者按随机步长靠近」，与 PSO / DE 的更新同类。参数较多（子群数、每子群青蛙数、子子群大小、局部进化代数），对结果敏感。Elbeltagi 等 (2005) 的比较研究将它与 GA、PSO、ACO 并列，是水资源与结构工程里的常用方法。</p>",
+    "variants": [
+      "<b>改进 SFLA</b>（Elbeltagi 等 2007：自适应步长）；<b>离散 SFLA</b>（调度 / TSP：跳跃译为排列的交换序列）。"
+    ],
+    "refs": [
+      "Eusuff &amp; Lansey (2003). Optimization of water distribution network design using the shuffled frog leaping algorithm. Journal of Water Resources Planning and Management, 129(3), 210-225",
+      "Eusuff, Lansey &amp; Pasha (2006). Shuffled frog-leaping algorithm: A memetic meta-heuristic for discrete optimization. Engineering Optimization, 38(2), 129-154",
+      "Elbeltagi, Hegazy &amp; Grierson (2005). Comparison among five evolutionary-based optimization algorithms. Advanced Engineering Informatics, 19(1), 43-53",
+      "Moscato (1989). On evolution, search, optimization, genetic algorithms and martial arts: Towards memetic algorithms. Caltech Concurrent Computation Program, Report 826"
+    ],
+    "tagline_en": "Frogs are split into memeplexes, improve locally, then are shuffled together again.",
+    "summary_en": "The Shuffled Frog Leaping Algorithm (Eusuff & Lansey, 2003) divides the population into memeplexes, improves the worst frog in each by learning from the best, and periodically reshuffles. The group-and-exchange structure suits partitioned or parallel problems. The continuous interpolation step fails in the permutation domain, so porting it needs a redesigned learning operator. On this site every algorithm solves TSP with a permutation encoding plus a shared memetic 2-opt component, so the comparison is of frameworks on equal footing, not of whose metaphor is cleverer.",
+    "name_en": "Shuffled Frog Leaping Algorithm (SFLA)"
+  },
+  {
+    "key": "fpa",
+    "slug": "fpa-tsp",
+    "name": "花朵授粉 FPA",
+    "title": "花朵授粉算法（FPA）求解 TSP 在线演示 · Levy 越步授粉动画",
+    "desc": "花朵授粉算法（FPA）求解旅行商问题（TSP）的在线演示：全局 Levy 授粉与局部 OX 混交的切换、重尾步长的勘探语义，浏览器本地运行。",
+    "h1": "花朵授粉算法（FPA）求解 TSP 在线演示",
+    "lead": "花粉靠传粉者远距离传播（<strong>Levy 飞行</strong>）或邻域自花授粉：重尾步长意味着多数小步、偶尔越过大跳——本站实测 n=100 = 813.7，<strong>全场第一</strong>。",
+    "intro": [
+      "FPA（Yang, 2012）引用量 3000+，是 Yang 系继萤火虫之后最成功的工作。隐喻：全局授粉 = 花粉经传粉者（鸟、蜂、风）远距离传播，服从 Levy 飞行（重尾分布：多数小步、偶尔大跳）；局部授粉 = 同株邻域自花授粉（小范围混交）；切换概率 p = 0.8（原文推荐值）。算法专属参数只有 p 一个。",
+      "离散化映射（TSP 版）：Levy 步长 f 抽样到 [0,2]——<strong>f ≤ 1 时沿交换序列向全局最优移动 f 比例并落地短下探；f &gt; 1 时步长已超过「到最优的距离」，忠实语义是越过目标跳进新区域 = 双桥/or-opt 结构性跳出 + 下探</strong>（收敛后仍向最优走会全部原地扑空，这是本站四批收录反复验证的假跑教训）。局部授粉 = 两只随机个体 OX 交叉，同质时回退「扰动 + 下探」。实测 n=100 = 813.7（全场第一）、n=60 = 566.5（并列第一）。"
+    ],
+    "principle": [
+      "初始化：多起点最近邻播种 + 预算制 2-opt 抛光。",
+      "全局授粉（概率 p）：Levy 抽样步长 f；小步向最优走（落地打磨），大步直接跳出盆地。",
+      "局部授粉（概率 1−p）：两只随机个体 OX 交叉产生新个体。",
+      "贪心准入：新个体优于旧个体才保留；最优反射踢 = 小概率对全局最优本体「扰动 + 下探」。"
+    ],
+    "params": [
+      [
+        "n_pop",
+        "25",
+        "花朵数"
+      ],
+      [
+        "p_switch",
+        "0.8",
+        "全局/局部授粉切换概率（原文推荐值）"
+      ],
+      [
+        "ls_every",
+        "10",
+        "每多少代对全局最优做一次 2-opt 并回灌"
+      ]
+    ],
+    "paper": "Yang, 2012, Flower pollination algorithm for global optimization, Unconventional Computation and Natural Computation (UCNC 2012), LNCS 7445:240-249（花朵授粉算法原始论文）；Yang, 2014（综述扩展）",
+    "faq": [
+      [
+        "Levy 步长 f &gt; 1 为什么是「跳出」而不是「继续向最优走」？",
+        "连续域里移动量 = f·(best − x)：f &gt; 1 意味着步长超过到目标的距离，会<strong>越过目标</strong>落到另一侧——这正是 Levy 飞行的勘探能力来源。排列域若把 f &gt; 1 仍画成「向最优走」，等于把勘探算子改成开发算子：种群收敛后所有花朵贴着最优原地扑空（本站实测两个实例 200 代零进步）。修正为 f &gt; 1 = 结构性跳出 + 下探后，8 种子全部通过「真优化」校验门（真实进步 1.1–11.4%）。"
+      ],
+      [
+        "FPA 为什么能拿全场第一（813.7）？",
+        "因为它的「越步」分支本质上是<strong>自带 ILS 的种群算法</strong>：Levy 重尾分布保证约每代 20% 的个体在做「双桥扰动 + 预算下探」（ILS 的核心循环），其余个体在做向最优的开发。相当于把 VNS/ILS 的踢-下探机制以概率方式撒到整个种群。代价是单代较慢（下探多），n=100 约 2.1 秒，浏览器可接受。"
+      ],
+      [
+        "和布谷鸟 CS 都用 Levy 飞行，区别是什么？",
+        "CS 的 Levy 步作用在「巢 = 解本体」上（步长 = 片段逆转长度）；FPA 的 Levy 步调制的是「向最优移动的比例」，且 p 切换机制让勘探/开发有显式开关。两者在排列域最终都靠「长跳 + 下探」产生真实下降——殊途同归，这也是本站把它们放同一批的原因。"
+      ]
+    ],
+    "family": "F2",
+    "use_when": "Levy 越步（f>1 会越过目标落到另一侧）的勘探机制教学价值极高；本站 n=100 同 seed 实测第一。",
+    "avoid_when": "「全场第一」是单 seed 噪声、换 seed 即变；切换概率 p 与 Levy 指数都要调；生产选型先看 LKH/memetic 框架，别拿它当主力。",
+    "origin": "<p>Yang (2012) 模拟花朵授粉：<b>全局授粉</b>（异花授粉，由传粉者带着花粉做 Lévy 飞行：x ← x + L·(g* − x)）与<b>局部授粉</b>（自花授粉：x ← x + ε(x_j − x_k)，两个随机个体之差），由转换概率 p（常取 0.8）切换。它与 CS 同出一人之手。</p>",
+    "theory": "<p>局部授粉项 x + ε(x_j − x_k) 与差分进化的变异<b>同形</b>；全局授粉项是向最优解的 Lévy 步长移动——所以 FPA 是「DE 式局部变异 + 带 Lévy 步长的向最优收缩」的概率混合。Sörensen (2015) 对 Yang 系列（FA、BA、CS、FPA）的隐喻批评同样适用；Camacho-Villalón 等 (2020, 2022) 分别分析了萤火虫、蝙蝠、布谷鸟，结论一致：没有新的搜索机制。Lévy 步长的实现多用 Mantegna 算法。</p>",
+    "variants": [
+      "<b>改进 FPA</b>（自适应 p、混沌、对立学习）；<b>二进制 FPA</b>；<b>多目标 MOFPA</b>（Yang 等 2014）。"
+    ],
+    "refs": [
+      "Yang (2012). Flower pollination algorithm for global optimization. In UCNC 2012, LNCS 7445, 240-249",
+      "Yang, Karamanoglu &amp; He (2014). Flower pollination algorithm: A novel approach for multiobjective optimization. Engineering Optimization, 46(9), 1222-1237",
+      "Mantegna (1994). Fast, accurate algorithm for numerical simulation of Lévy stable stochastic processes. Physical Review E, 49(5), 4677-4683",
+      "Sörensen (2015). Metaheuristics — the metaphor exposed. International Transactions in Operational Research, 22(1), 3-18",
+      "Camacho-Villalón, Dorigo &amp; Stützle (2022). An analysis of why cuckoo search does not bring any novel ideas to optimization. Computers &amp; Operations Research, 142, 105747"
+    ],
+    "tagline_en": "Pollen carried far by pollinators (Lévy flights) or locally by self-pollination.",
+    "summary_en": "The Flower Pollination Algorithm (Yang, 2012) switches between global pollination (Lévy-flight steps) and local self-pollination with a probability p. Single-seed ‘best of the field’ results are noise and flip with the seed; the switching probability and the Lévy exponent both need tuning. Do not treat it as a workhorse. On this site every algorithm solves TSP with a permutation encoding plus a shared memetic 2-opt component, so the comparison is of frameworks on equal footing, not of whose metaphor is cleverer.",
+    "name_en": "Flower Pollination Algorithm (FPA)"
+  },
+  {
+    "key": "kh",
+    "slug": "kh-tsp",
+    "name": "磷虾群 KH",
+    "title": "磷虾群算法（KH）求解 TSP 在线演示 · 三力合成动画",
+    "desc": "磷虾群算法（KH）求解旅行商问题（TSP）的在线演示：诱发运动、觅食运动与随机扩散三力合成，时间步 Δt 衰减调度，浏览器本地运行。",
+    "h1": "磷虾群算法（KH）求解 TSP 在线演示",
+    "lead": "磷虾的移动是三种力的合成：<strong>邻居诱发 + 食物源吸引 + 随机扩散</strong>，时间步 Δt 逐代衰减（勘探→开发的显式时间表）。海洋集群隐喻的代表作之一。",
+    "intro": [
+      "KH（Gandomi &amp; Alavi, 2012）引用量 ~2000，海洋集群算法代表作。隐喻：磷虾受三种力驱动——①诱发运动（受邻居影响，保持群聚）；②觅食运动（受食物源吸引）；③随机扩散（物理扰动）。三力加权合成为移动方向，时间步 Δt 随迭代衰减：前期大步勘探、后期小步开发。",
+      "离散化映射（TSP 版）：诱发 = 与 2 只随机邻居 <strong>OX 交叉</strong>（「邻居感知方向」→ 学习邻居基因）；觅食 = 交换序列向食物源（全局最优档案）移动，步长随 Δt 衰减；扩散 = or-opt 结构突变，概率随 (1−t) 衰减。实测 n=100 = 833.5、单代仅 0.19 秒（同批最快的勘探型算法）。"
+    ],
+    "principle": [
+      "初始化：多起点最近邻播种 + 预算制 2-opt 抛光。",
+      "诱发运动：随机抽 2 只邻居做 OX 交叉（学习邻居的优良片段组合）。",
+      "觅食运动：沿交换序列向食物源移动，步长 = 0.3 + 0.5·Δt（随时间衰减）。",
+      "随机扩散：概率 0.2·Δt 触发 or-opt 结构突变（前期活跃、后期安静）。",
+      "贪心准入 + 最优反射踢（扰动 + 下探作用于全局最优本体）。"
+    ],
+    "params": [
+      [
+        "n_pop",
+        "25",
+        "磷虾数"
+      ],
+      [
+        "ls_every",
+        "10",
+        "每多少代对全局最优做一次 2-opt 并回灌"
+      ]
+    ],
+    "paper": "Gandomi, A.H. &amp; Alavi, A.H. (2012). Krill Herd: A new bio-inspired optimization algorithm. Communications in Nonlinear Science and Numerical Simulation, 17(12), 4831-4845.",
+    "faq": [
+      [
+        "三力合成在排列域怎么「加权求和」？",
+        "排列域没有向量加法，本站用「串联算子」近似：先做诱发（OX 学邻居）→ 再做觅食（向食物源走一段）→ 再按概率做扩散（结构突变）。三次操作的顺序固定，但每步的强度由 Δt 独立调度——等效于三力随时间此消彼长。这是连续域「合成方向」在组合域的标准近似方式（DE 的差向量、PSO 的速度项都是同类问题的不同解法）。"
+      ],
+      [
+        "KH 和 ABC 都是「向邻居学习 + 随机重置」，差别在哪？",
+        "ABC 的邻居学习是逐只独立的（每只蜂只看自己的邻域），KH 的诱发运动是随机配对的（信息在随机对之间流动）；更重要的是 KH 的三力有<strong>统一的时间调度 Δt</strong>——勘探到开发的过渡是全局同步的，而 ABC 的切换由每只蜂自己的停滞计数驱动（异步）。同步调度让 KH 的收敛曲线更平滑。"
+      ]
+    ],
+    "family": "F2",
+    "use_when": "三力合成+Δt 逐代衰减是最透明的勘探/开发调度教科书；「串联算子近似合成方向」的离散化思路可迁移。",
+    "avoid_when": "诱发/觅食/扩散三算子独立调度，是 45 算法里实现最重的隐喻之一；单代 0.19 秒开销偏贵，实战性价比一般。",
+    "origin": "<p>Gandomi 与 Alavi (2012) 模拟南极磷虾群的觅食：每只磷虾的位置变化由三部分合成——<b>其他个体的诱导运动</b>（朝群里的好个体靠近）、<b>觅食运动</b>（向食物重心与自己的历史最优靠近）、<b>物理扩散</b>（随机项，随时间衰减）。另有交叉与变异可选。</p>",
+    "theory": "<p>KH 的位置更新 Δx = N + F + D（诱导 + 觅食 + 扩散）是三个项的线性叠加，诱导与觅食项都包含<b>向当前最优的靠近</b>，扩散项随迭代减小——结构上与 PSO（速度 = 惯性 + 个体项 + 社会项）接近。它的参数多（最大诱导速度、觅食速度、扩散速度、惯性权重），且<b>每代评价需要 2 次以上</b>（本站实测约 2 倍），因此等评价次数比较时要特别注意。理论上没有收敛性证明，Gandomi 的原论文在 20 个函数上做了对比。</p>",
+    "variants": [
+      "<b>KH 变体</b>（带交叉 / 变异的 KHCM，Lévy / 混沌增强）；<b>离散 KH</b>：用交换序列 / 邻域操作表示三种运动。"
+    ],
+    "refs": [
+      "Gandomi &amp; Alavi (2012). Krill herd: A new bio-inspired optimization algorithm. Communications in Nonlinear Science and Numerical Simulation, 17(12), 4831-4845",
+      "Wang, Gandomi &amp; Alavi (2014). Stud krill herd algorithm. Neurocomputing, 128, 363-370",
+      "Bolaji, Al-Betar, Awadallah, Khader &amp; Abualigah (2016). A comprehensive review: Krill herd algorithm (KH) and its applications. Applied Soft Computing, 49, 437-446",
+      "Sörensen (2015). Metaheuristics — the metaphor exposed. International Transactions in Operational Research, 22(1), 3-18"
+    ],
+    "tagline_en": "Krill movement as the sum of neighbour-induced motion, foraging and random diffusion.",
+    "summary_en": "The Krill Herd algorithm (Gandomi & Alavi, 2012) composes each move from three forces: induced motion by neighbours, foraging, and random diffusion, with a time step that decays over the run. It is a transparent exploration/exploitation schedule but one of the heaviest metaphors to implement, with a high per-generation cost. On this site every algorithm solves TSP with a permutation encoding plus a shared memetic 2-opt component, so the comparison is of frameworks on equal footing, not of whose metaphor is cleverer.",
+    "name_en": "Krill Herd (KH)"
+  },
+  {
+    "key": "sos",
+    "slug": "sos-tsp",
+    "name": "共生搜索 SOS",
+    "title": "共生生物搜索（SOS）求解 TSP 在线演示 · 互利/偏利/寄生三相动画",
+    "desc": "共生生物搜索算法（SOS）求解旅行商问题（TSP）的在线演示：互利共生、偏利共生与寄生三相轮替，浏览器本地运行。",
+    "h1": "共生生物搜索（SOS）求解 TSP 在线演示",
+    "lead": "生物圈的三种共生关系就是三个优化算子：<strong>互利（配对交叉双赢）、偏利（单方获益）、寄生（突变体挑战宿主）</strong>——工程优化社区口碑极好的无参数框架。",
+    "intro": [
+      "SOS（Cheng &amp; Prayogo, 2014）引用量 1500+。隐喻：生物体的三种共生关系——互利共生（双方合作各自获益）、偏利共生（一方获益另一方无损）、寄生（寄生者改造自己试图取代宿主，失败即消亡）。每代三相轮替，算法专属参数为零（只有种群规模与迭代数）。",
+      "离散化映射（TSP 版）：互利 = 配对 <strong>OX 交叉</strong>产生「共同后代」，双方各自向后代移动一段、择优保留；偏利 = 个体沿交换序列向全局最优移动随机比例（宿主不变）；寄生 = 产出重度突变体（双桥 + 移段），胜过随机宿主则取代，否则消亡。实测 n=100 = 838.7、单代 0.24 秒。"
+    ],
+    "principle": [
+      "初始化：多起点最近邻播种 + 预算制 2-opt 抛光。",
+      "互利相：随机配对做 OX 交叉得共同后代，双方各自向后代前进一步（择优保留）。",
+      "偏利相：个体沿交换序列向全局最优移动随机比例（信息单向流动）。",
+      "寄生相：重度突变体（双桥 + 移段）挑战随机宿主——胜则取代，败则消亡。",
+      "最优反射踢（扰动 + 下探作用于全局最优本体）。"
+    ],
+    "params": [
+      [
+        "n_pop",
+        "25",
+        "生物数"
+      ],
+      [
+        "ls_every",
+        "10",
+        "每多少代对全局最优做一次 2-opt 并回灌"
+      ]
+    ],
+    "paper": "Cheng, M.-Y. &amp; Prayogo, D. (2014). Symbiotic Organisms Search: A new metaheuristic optimization algorithm. Computers &amp; Structures, 139, 98-112.",
+    "faq": [
+      [
+        "三相里哪一相在干活？",
+        "分工明确：互利相是<strong>勘探主力</strong>（OX 交叉重组两个个体的片段，产生种群中没有的新结构）；偏利相是<strong>开发主力</strong>（向最优收敛）；寄生相是<strong>多样性保镖</strong>（重度突变体大多会输，但输得掉也换得掉——它给宿主位置持续注入新挑战）。实测把寄生相关掉后多样性骤降、早熟收敛明显，三相缺一不可。"
+      ],
+      [
+        "和 GA 的交叉有什么区别？",
+        "GA 的交叉是「产生子代进下一代池」——子代与父代竞争；SOS 的互利相是「双方各自向共同后代移动一步」——<strong>亲代自己被更新</strong>，且每次只动一小步（交换序列的一半）。这更像 memetic 的局部精修而不是代际更替，收敛更稳但也更容易早熟——所以寄生相的无条件挑战反而是 SOS 「真优化」校验的关键设计。"
+      ]
+    ],
+    "family": "F2",
+    "use_when": "互利=勘探主力、偏利=开发、寄生=多样性保镖，三相分工一目了然且零算法专属参数；工程社区口碑扎实。",
+    "avoid_when": "寄生相不能关（本站实测：关掉后多样性骤降早熟）；配对交互 O(n²) 在昂贵适应度函数上要算评估账。",
+    "origin": "<p>Cheng 与 Prayogo (2014) 模拟生态系统中的<b>共生关系</b>：每个生物体依次经历三个阶段——<b>互利共生</b>（两个个体都向最优靠近，各自得益）、<b>共栖</b>（一方获益、另一方不受影响）、<b>寄生</b>（寄生个体是本个体的变异副本，替换随机宿主若更优）。它是少数几乎不需要算法特定参数的方法（只有种群与迭代数）。</p>",
+    "theory": "<p>SOS 每个个体每代执行三个阶段，<b>每代约 3 个个体评价 × 种群大小</b>（本站实测约 120 次 / 代），所以必须按评价次数公平比较。互利与共栖阶段的更新式是「向最优靠近 + 与随机个体的均值 / 差」，与 DE 变异、PSO 的社会项形式相近，寄生阶段相当于一个变异 + 贪心替换。本站在 Rastrigin（最优在原点）上观察到 SOS 恰得 0——与 HHO、SSA、FWA 一样是中心偏置的体现（Kudela 2022）。无算法特定参数是优点，但不是「免调参」：种群大小与评价预算依旧重要。</p>",
+    "variants": [
+      "<b>改进 SOS</b>（自适应收益因子、混合 DE）；<b>离散 SOS</b>（调度、TSP 的邻域版）；<b>多目标 SOS</b>。"
+    ],
+    "refs": [
+      "Cheng &amp; Prayogo (2014). Symbiotic organisms search: A new metaheuristic optimization algorithm. Computers &amp; Structures, 139, 98-112",
+      "Ezugwu &amp; Prayogo (2019). Symbiotic organisms search algorithm: Theory, recent advances and applications. Expert Systems with Applications, 119, 184-209",
+      "Kudela (2022). A critical problem in benchmarking and analysis of evolutionary computation methods. Nature Machine Intelligence, 4, 1238-1245",
+      "Sörensen (2015). Metaheuristics — the metaphor exposed. International Transactions in Operational Research, 22(1), 3-18"
+    ],
+    "tagline_en": "Mutualism, commensalism and parasitism as three operators — no algorithm-specific parameters.",
+    "summary_en": "Symbiotic Organisms Search (Cheng & Prayogo, 2014) uses three phases: mutualism (main exploration), commensalism (exploitation) and parasitism (a diversity guard). It has no algorithm-specific parameters and a good reputation in engineering; the parasite phase cannot be switched off without early convergence, and pairwise interaction is O(n²). On this site every algorithm solves TSP with a permutation encoding plus a shared memetic 2-opt component, so the comparison is of frameworks on equal footing, not of whose metaphor is cleverer.",
+    "name_en": "Symbiotic Organisms Search (SOS)"
+  },
+  {
+    "key": "jaya",
+    "slug": "jaya-tsp",
+    "name": "Jaya 算法 JAYA",
+    "title": "Jaya 算法（JAYA）求解 TSP 在线演示 · 零算法专属参数公共方向更新动画",
+    "desc": "Jaya 算法求解旅行商问题（TSP）的在线演示：全员向最优靠拢、远离最劣的零参数机制，公共边相似度度量，浏览器本地运行。",
+    "h1": "Jaya 算法（JAYA）求解 TSP 在线演示",
+    "lead": "梵语 Jaya = 胜利：<strong>每个个体力争成为胜利者</strong>——同时向最优靠拢、远离最劣。最大卖点：<strong>零算法专属参数</strong>，没有任何需要人工调节的系数。",
+    "intro": [
+      "Jaya（Rao, 2016）引用量 ~1200，最大卖点是<strong>参数自由</strong>：原文公式 x' = x + r1·(best − |x|) − r2·(worst − |x|) 里没有人工系数，移动方向完全由两个随机数 r1、r2 自适应决定。算法社区对「新算法=新参数 tuning 地狱」的批评让它格外醒目。",
+      "离散化映射（TSP 版）：向最优 = 交换序列随机前缀（r1 → 走多远随机），<strong>无条件移动</strong>后择优保留（原文语义：连续域每代无条件移动）；远离最劣 = 与最劣的<strong>公共边占比</strong>（本站为此新增的组件 _shared_edges_ratio）超过 0.5 时触发 or-opt 结构抖动（r2 → 触发与否随机）；最优反射踢同 Salp/SFLA 机制。实测 n=100 = 833.2、单代 0.15 秒。"
+    ],
+    "principle": [
+      "初始化：多起点最近邻播种 + 预算制 2-opt 抛光。",
+      "向最优：交换序列随机前缀（走多远由随机数决定），无条件移动。",
+      "远离最劣：与最劣公共边占比 &gt; 0.5 时触发 or-opt 抖动（别站在最劣的位置）。",
+      "择优保留：移动后与旧解比成本，留更优者（原文语义）。",
+      "最优反射踢（扰动 + 下探作用于全局最优本体）。"
+    ],
+    "params": [
+      [
+        "n_pop",
+        "25",
+        "个体数（算法无其他专属参数）"
+      ],
+      [
+        "ls_every",
+        "10",
+        "每多少代对全局最优做一次 2-opt 并回灌"
+      ]
+    ],
+    "paper": "Rao, R.V. (2016). Jaya: A simple and new optimization algorithm for solving constrained and unconstrained optimization problems. International Journal of Industrial Engineering Computations, 7(1), 19-34.",
+    "faq": [
+      [
+        "「零参数」是真的吗？",
+        "算法专属参数为零是真的——原文没有任何需要调节的系数（对比：GA 的交叉/变异率、SA 的温度表、FPA 的切换概率 p）。但「零参数」不等于「零调优」：种群规模、迭代数这些<strong>所有算法共有</strong>的参数仍然存在，且 Jaya 对它们比其他算法更敏感（没有内部系数兜底）。这是社区对 Jaya 的常见批评，值得知道。"
+      ],
+      [
+        "「远离最劣」怎么度量？",
+        "连续域里就是几何距离；排列域本站用<strong>公共边占比</strong>（两个路径有多少条相同的无向边）——它是排列空间里最自然的相似度度量（两条路径共享的边越多，越像同一条路）。当候选解与最劣解共享超过一半的边时，说明「正在靠近最劣的位置」，触发 or-opt 抖动把它推走。这个组件同时可用于种群多样性监控，是本站组件库的新成员。"
+      ]
+    ],
+    "family": "F3",
+    "use_when": "零算法专属参数、一行核心公式的极简基线；「向最优+远离最劣」双向力好讲好写好复现。",
+    "avoid_when": "零专属参数≠零调优：种群与迭代数它反而更敏感（没有内部系数兜底）；收敛后期全体贴最优走，多样性偏弱。",
+    "origin": "<p>Rao (2016) 提出：<b>只有一个更新式</b>——x_new = x + r₁(best − |x|) − r₂(worst − |x|)，向最好解靠近、同时远离最差解；贪心接受。名字来自梵语「胜利」。它与 TLBO 同出 Rao，主打「无算法特定参数」。</p>",
+    "theory": "<p>更新式中的 |x| 是一个<b>值得注意的细节</b>：它使更新依赖解的绝对值，也就是以原点为参照（|x| 的引入使搜索对最优点在原点的函数有利，是一种隐含的中心偏置）；Rao 的原文没有解释这一选择，后续的变体常去掉它。与 PSO、TLBO 相比，Jaya 的差别在于「向最好 + 远离最差」这个对称设计；贪心接受使它容易快速收敛。理论上没有收敛证明，评价参见 Kudela (2022) 对基准偏置的讨论。</p>",
+    "variants": [
+      "<b>SAMP-Jaya</b>（自适应子种群）、<b>Jaya 的二进制 / 离散版</b>、<b>多目标 MO-Jaya</b>。"
+    ],
+    "refs": [
+      "Rao (2016). Jaya: A simple and new optimization algorithm for solving constrained and unconstrained optimization problems. International Journal of Industrial Engineering Computations, 7(1), 19-34",
+      "Rao &amp; Saroj (2017). A self-adaptive multi-population based Jaya algorithm for engineering optimization. Swarm and Evolutionary Computation, 37, 1-26",
+      "Kudela (2022). A critical problem in benchmarking and analysis of evolutionary computation methods. Nature Machine Intelligence, 4, 1238-1245",
+      "Sörensen (2015). Metaheuristics — the metaphor exposed. International Transactions in Operational Research, 22(1), 3-18"
+    ],
+    "tagline_en": "Move towards the best and away from the worst — one formula, no algorithm-specific parameters.",
+    "summary_en": "Jaya (Rao, 2016; Sanskrit for ‘victory’) moves every individual towards the best solution and away from the worst with a single update formula. Having no algorithm-specific parameters does not mean no tuning: population size and iterations matter more, and late in the run everyone clusters around the best, so diversity is weak. On this site every algorithm solves TSP with a permutation encoding plus a shared memetic 2-opt component, so the comparison is of frameworks on equal footing, not of whose metaphor is cleverer.",
+    "name_en": "Jaya Algorithm (JAYA)"
+  },
+  {
+    "key": "da",
+    "slug": "da-tsp",
+    "name": "蜻蜓 DA",
+    "title": "蜻蜓算法（DA）求解 TSP 在线演示 · 五行为动态加权动画",
+    "desc": "蜻蜓算法求解旅行商问题（TSP）的在线演示：分离/对齐/聚合/捕食/逃离五种群聚行为动态加权，实时路径进化动画，浏览器本地运行。",
+    "h1": "蜻蜓算法（DA）求解 TSP 在线演示",
+    "lead": "蜻蜓捕食时的五种行为——<strong>分离、对齐、聚合、捕食、逃离</strong>——被 Mirjalili 搬进了优化：五个系数随迭代进度在勘探与开发之间自适应切换。",
+    "intro": [
+      "蜻蜓算法 DA（Mirjalili, 2016）引用量 ~7000，是「静态群 + 多行为加权」路线的代表：原文 x' = s·Si + a·Ai + c·Ci + f·Fi + e·Ei + w·xi——分离（别贴太近）、对齐（跟大部队同向）、聚合（向群体中心靠）、食物吸引（向最优）、天敌驱逐（远离危险）五力合成，权重 s/a/c/f/e 自适应调节勘探与开发的平衡。",
+      "离散化映射（TSP 版）：分离 = 与同伴公共边相似度过高时 or-opt 结构抖动；对齐 = 与随机同伴 <strong>OX 交叉</strong>取中庸；聚合/食物 = 交换序列向族群最优移动（惯性 w 线性衰减控制前缀比例）；本实现再加 Salp/SFLA 同款的<strong>食物反射踢</strong>（扰动 + 预算制下探作用于最优本体）保证真实迭代进步。实测 n=100 = 834.5、单代 0.13 秒。"
+    ],
+    "principle": [
+      "初始化：多起点最近邻播种 + 预算制 2-opt 抛光。",
+      "分离：与随机同伴相似度 &gt; 0.6 时 or-opt 抖动（勘探期权重更高）。",
+      "对齐：与随机同伴 OX 混交（吸收群体的「平均方向」）。",
+      "聚合/食物：交换序列向族群最优移动，前缀比例随惯性衰减。",
+      "食物反射踢 + 周期 2-opt 回灌。"
+    ],
+    "params": [
+      [
+        "n_pop",
+        "25",
+        "个体数"
+      ],
+      [
+        "ls_every",
+        "10",
+        "每多少代对全局最优做一次 2-opt 并回灌"
+      ]
+    ],
+    "paper": "Mirjalili, S. (2016). Dragonfly algorithm: A new meta-heuristic optimization technique for solving single-objective, discrete, and multi-objective problems. Neural Computing and Applications, 27(4), 1053-1073.",
+    "faq": [
+      [
+        "五行为在 TSP 里怎么对应？",
+        "连续域的五项都是向量运算，排列域没有「平均位置」，所以按语义各自找一个诚实对应：分离 = 结构抖动（保持间距）、对齐 = OX 交叉（取中间路线）、聚合/食物 = 交换前缀向最优（开发）、天敌驱逐合并进分离的抖动触发。权重 w 的线性衰减保留了原文「前期勘探、后期开发」的调度节奏。"
+      ],
+      [
+        "它和 PSO 有什么区别？",
+        "PSO 只有两力（个体记忆 + 全群最优），DA 有五力且权重自适应——行为更多样、但参数也更隐式。本站实测 n=100 上 DA 834.5 vs PSO 845.9，DA 略优但耗时也更短（0.13 秒/代）。"
+      ]
+    ],
+    "family": "F2",
+    "use_when": "五行为→五算子的语义映射是「连续算法离散化」的最佳教学案例之一；权重线性衰减保留原文调度。",
+    "avoid_when": "五个系数耦合行为不直观；注意分离/对齐/聚合的排列域对应是本站设计而非原文语义，复现别照抄。",
+    "origin": "<p>Mirjalili (2016) 模拟蜻蜓群的<b>静态（觅食、避敌）与动态（迁徙）群行为</b>：位置更新由五个因素加权——分离、对齐、聚合、向食物吸引、远离天敌；参数权重 (s, a, c, f, e) 随迭代自适应变化。它与 Reynolds (1987) 的「boids」群集模型一脉相承。</p>",
+    "theory": "<p>DA 的核心是 <b>Reynolds 三规则（分离、对齐、聚合）+ 向最优吸引 + 远离最差</b>，加上邻域半径随迭代增大的设计；当邻域内没有其他蜻蜓时用 Lévy 飞行。这相当于一个带<b>局部邻域交互</b>的 PSO。它是 Mirjalili 系列里参数最多的算法之一（5 个行为权重 + 邻域半径调度），而且评价 / 更新里<b>每个个体都要遍历邻居（O(n²)）</b>。理论分析缺失；同类批评见 Sörensen (2015)。</p>",
+    "variants": [
+      "<b>二进制 DA</b>（Mirjalili 2016，同文）；<b>多目标 MODA</b>（同文）；<b>混沌 / 自适应权重增强版</b>。"
+    ],
+    "refs": [
+      "Mirjalili (2016). Dragonfly algorithm: A new meta-heuristic optimization technique for solving single-objective, discrete, and multi-objective problems. Neural Computing and Applications, 27(4), 1053-1073",
+      "Reynolds (1987). Flocks, herds and schools: A distributed behavioral model. ACM SIGGRAPH Computer Graphics, 21(4), 25-34",
+      "Meraihi, Ramdane-Cherif, Acheli &amp; Mahseur (2020). Dragonfly algorithm: A comprehensive review and applications. Neural Computing and Applications, 32(21), 16625-16646",
+      "Sörensen (2015). Metaheuristics — the metaphor exposed. International Transactions in Operational Research, 22(1), 3-18"
+    ],
+    "tagline_en": "Five swarm behaviours — separation, alignment, cohesion, attraction to food, distraction from enemies.",
+    "summary_en": "The Dragonfly Algorithm (Mirjalili, 2016) maps five swarming behaviours onto five search operators with linearly decaying weights, a good teaching case for discretising a continuous algorithm. The five coefficients interact non-obviously, and the permutation counterparts of separation/alignment/cohesion here are this site's design, not the original semantics. On this site every algorithm solves TSP with a permutation encoding plus a shared memetic 2-opt component, so the comparison is of frameworks on equal footing, not of whose metaphor is cleverer.",
+    "name_en": "Dragonfly Algorithm (DA)"
+  },
+  {
+    "key": "mpa",
+    "slug": "mpa-tsp",
+    "name": "海洋掠食者 MPA",
+    "title": "海洋掠食者算法（MPA）求解 TSP 在线演示 · 布朗/莱维速度博弈动画",
+    "desc": "海洋掠食者算法求解旅行商问题（TSP）的在线演示：掠食者与猎物的布朗/莱维速度三相位博弈，FADS 防停滞机制，浏览器本地运行。",
+    "h1": "海洋掠食者算法（MPA）求解 TSP 在线演示",
+    "lead": "大自然的规则：<strong>掠食者与猎物，谁快谁活</strong>——前期猎物布朗乱窜（掠食者伏击）、后期掠食者莱维突袭（猎物僵住），速度优势随相位反转。",
+    "intro": [
+      "海洋掠食者 MPA（Faramarzi et al., 2020）引用量 ~5000，2020 年后成长最快的新算法之一。核心创新是<strong>速度博弈</strong>：迭代分三相位——前 1/3 猎物布朗运动快（掠食者静伏省力）、中 1/3 布朗/莱维交叉、后 1/3 掠食者莱维长跳突袭（猎物静止）。另有 FADS 鱼群聚集装置：小概率随机翻转维度防早熟。",
+      "离散化映射（TSP 版）：布朗相 = 向精英短前缀移动 + 落地短下探；莱维相 = <strong>双桥/or-opt 结构大跳</strong> + 预算制下探（跳出盆地再降到新盆底）；FADS = 小概率随机逆转片段；精英突袭踢 = 扰动 + 下探作用于最优本体（Salp/SFLA 同款）。实测 n=100 = 832.0，且单代仅 1.36 秒（大量下探但仍比 SFLA 的 2.24 秒快）。"
+    ],
+    "principle": [
+      "初始化：多起点最近邻播种 + 预算制 2-opt 抛光。",
+      "相位一（前 1/3）：布朗向精英小步 + 落地短下探。",
+      "相位二/三：布朗与莱维按概率交叉切换，莱维 = 结构大跳 + 下探。",
+      "FADS：小概率随机逆转片段防停滞。",
+      "精英突袭踢 + 周期 2-opt 回灌。",
+      "⚠️ 离散化声明：原文机制作用于连续实数向量——本页全部步骤（交换序列、2-opt 试射、双桥扰动等）都是本站为 TSP 设计的排列域对应实现；忠实于原文的是调度思想与相位结构，不是逐条公式。复现原论文请回到连续域。"
+    ],
+    "params": [
+      [
+        "n_pop",
+        "25",
+        "个体数"
+      ],
+      [
+        "ls_every",
+        "10",
+        "每多少代对全局最优做一次 2-opt 并回灌"
+      ]
+    ],
+    "paper": "Faramarzi, A., Heidarinejad, M., Mirjalili, S. &amp; Gandomi, A.H. (2020). Marine Predators Algorithm: A nature-inspired metaheuristic. Expert Systems with Applications, 152, 113377（MPA 原始论文）",
+    "faq": [
+      [
+        "布朗运动和莱维飞行差在哪？",
+        "布朗 = 小步密集的正态随机游走（开发：在当前盆地附近细搜）；莱维 = 长短悬殊的幂律步长（勘探：偶尔一步跳很远）。MPA 的聪明之处是让两者<strong>随相位换手</strong>——把「先广后深」的经典调度编码进了算法本体，而不是靠参数表。本站的莱维相直接映射成「双桥结构跳 + 2-opt 下探」，这是排列域里最贴近「莱维长跳」语义的组合。"
+      ],
+      [
+        "为什么它比烟花 FWA 快得多？",
+        "MPA 的每代成本主要在莱维相的 2-opt 下探（预算封顶 8 步），布朗相只有 4 步——总预算是显式控制的。FWA 的爆炸火花是 O(n²) 的全量重评。实测同代数下 MPA 单代 1.36 秒 vs FWA 更高，且质量更好（832.0 vs 880.8）。"
+      ]
+    ],
+    "family": "F2",
+    "use_when": "布朗/莱维随相位换手=「先广后深」调度写进算法本体的范例；FADS 防停滞机制值得任何算法借鉴。",
+    "avoid_when": "三相位硬切换时间表对非均匀地形自适应差；2020 系算法，与框架类对比暂无优势证据。",
+    "origin": "<p>Faramarzi 等 (2020) 模拟海洋掠食者与猎物的运动：按迭代进度分三个阶段——前期（高速比）猎物做 <b>Brownian</b> 运动、中期掠食者与猎物分别做 <b>Lévy / Brownian</b>、后期（低速比）掠食者做 <b>Lévy</b>；另加<b>鱼群聚集装置（FADs）效应</b>（以概率 0.2 的长跳 / 小扰动）与<b>记忆保存</b>（精英）。</p>",
+    "theory": "<p>MPA 以<b>时间分段的混合随机游走</b>为核心：Brownian（正态步长）与 Lévy（重尾步长）按阶段切换，是对「先探索后开发」的显式调度。FADs 效应是周期性的随机重置，相当于重启部分个体。它仍属「向最优 / 精英收缩」的一类，更新式用了精英矩阵（每个个体与最优位置相乘的随机步）。理论分析缺失；原论文在 CEC 2017 上有较好表现。<b>注意</b>：CEC 套件的最优点位置经过移位 / 旋转，所以原论文的 CEC 结果比未平移的标准函数更可靠。</p>",
+    "variants": [
+      "<b>二进制 MPA</b>、<b>多目标 MOMPA</b>、<b>混沌 / 精英对立增强版</b>。"
+    ],
+    "refs": [
+      "Faramarzi, Heidarinejad, Mirjalili &amp; Gandomi (2020). Marine predators algorithm: A nature-inspired metaheuristic. Expert Systems with Applications, 152, 113377",
+      "Mantegna (1994). Fast, accurate algorithm for numerical simulation of Lévy stable stochastic processes. Physical Review E, 49(5), 4677-4683",
+      "Sörensen (2015). Metaheuristics — the metaphor exposed. International Transactions in Operational Research, 22(1), 3-18",
+      "Kudela (2022). A critical problem in benchmarking and analysis of evolutionary computation methods. Nature Machine Intelligence, 4, 1238-1245"
+    ],
+    "tagline_en": "Predators and prey: Brownian first, then Lévy, with a fish-aggregating-device escape.",
+    "summary_en": "The Marine Predators Algorithm (Faramarzi et al., 2020) switches between Brownian and Lévy movement across three phases, and uses fish-aggregating-device effects to avoid stagnation. It writes a ‘wide first, deep later’ schedule into the algorithm itself; the hard phase switching adapts poorly to non-uniform landscapes, and as a 2020 algorithm it has no demonstrated advantage over framework methods yet. On this site every algorithm solves TSP with a permutation encoding plus a shared memetic 2-opt component, so the comparison is of frameworks on equal footing, not of whose metaphor is cleverer.",
+    "name_en": "Marine Predators Algorithm (MPA)"
+  },
+  {
+    "key": "cscrow",
+    "slug": "cscrow-tsp",
+    "name": "乌鸦搜索 CSA",
+    "title": "乌鸦搜索算法（CSA）求解 TSP 在线演示 · 记忆偷窃博弈动画",
+    "desc": "乌鸦搜索算法求解旅行商问题（TSP）的在线演示：藏食记忆 + 偷窃与被察觉的博弈，察觉概率 AP 与飞行长度 fl 可调，浏览器本地运行。",
+    "h1": "乌鸦搜索算法（CSA）求解 TSP 在线演示",
+    "lead": "乌鸦会藏食物，也会<strong>偷别人的</strong>——跟随者赌对方没察觉（逼近其藏食点），被察觉了就乱飞另寻机会。察觉概率 AP 是全场唯一旋钮。",
+    "intro": [
+      "乌鸦搜索 CS（Askarzadeh, 2016）引用量 ~2500（注意与布谷鸟 CS 同名不同物）。机制极简：每只乌鸦记住自己的藏食点（memory），每代随机跟随另一只去偷——对方以察觉概率 AP 发现偷窃者，则偷窃者乱飞；否则偷到对方藏食点附近。唯一参数对：AP（越小偷得越容易）与 fl（飞行长度）。",
+      "离散化映射（TSP 版）：偷窃成功 = 交换序列向对方<strong>记忆藏食点</strong>移动（fl → 前缀比例）；被发现 = <strong>双桥/or-opt 结构跳 + 预算制下探</strong>（不是纯随机——收敛后纯随机加贪心准入必然空转，本站假跑教训的标准修正）；记忆只在发现更好位置时改写（原文同款）。实测 n=100 = 839.2、单代 0.29 秒。"
+    ],
+    "principle": [
+      "初始化：多起点最近邻播种，记忆 = 初始位置。",
+      "偷窃：随机跟随同伴，察觉概率 AP 调度「跟随偷」或「乱飞」。",
+      "偷到 = 交换前缀向其记忆藏食点移动；乱飞 = 结构跳 + 预算制下探。",
+      "记忆更新：只有发现比记忆更好的位置才改写（原文同款）。",
+      "反射踢 + 周期 2-opt 回灌。"
+    ],
+    "params": [
+      [
+        "n_pop",
+        "25",
+        "个体数"
+      ],
+      [
+        "ap",
+        "0.1",
+        "察觉概率：被偷者发现偷窃者的概率（越大越难偷）"
+      ],
+      [
+        "fl",
+        "0.6",
+        "飞行长度：偷窃时向记忆点移动的比例上限"
+      ],
+      [
+        "ls_every",
+        "10",
+        "每多少代对全局最优做一次 2-opt 并回灌"
+      ]
+    ],
+    "paper": "Askarzadeh, A. (2016). A novel metaheuristic method for solving constrained engineering optimization problems: Crow search algorithm. Computers &amp; Structures, 169, 1-12.",
+    "faq": [
+      [
+        "和布谷鸟 CS 是一个算法吗？",
+        "不是，只是缩写撞了。布谷鸟 CS（Yang &amp; Deb 2009）的核心是莱维飞行 + 弃巢重置；乌鸦 CSA（Askarzadeh 2016）的核心是<strong>记忆 + 偷窃博弈</strong>。本站里布谷鸟的键是 cs、乌鸦是 cscrow，下拉框里分别叫「布谷鸟 CS」和「乌鸦搜索 CSA」。"
+      ],
+      [
+        "AP 调大调小分别发生什么？",
+        "AP→0：所有跟随都成功，全员互相偷记忆点附近，收敛快但多样性差（全挤在几个藏食点）；AP→0.5：一半概率乱飞（结构跳 + 下探），勘探强但开发慢。0.1 是原文推荐值，本站实测它在 30/60/100 三档都稳。另一个旋钮 fl 是「偷到多近」——fl 小 = 只敢远远看一眼，fl 大 = 直扑藏食点。"
+      ]
+    ],
+    "family": "F2",
+    "use_when": "记忆+偷窃博弈结构与布谷鸟 CS 完全不同（别被缩写骗到）；察觉概率 AP 全场唯一旋钮，适合做单参数敏感性教学。",
+    "avoid_when": "跟随行为在收敛后期成功率骤降；与布谷鸟 CS 的文献检索混淆是高频坑，引用时务必分清 2009/2016。",
+    "origin": "<p>Askarzadeh (2016) 模拟乌鸦把多余的食物<b>藏起来并跟踪窃取</b>：每只乌鸦保存自己找到的最好藏食点（记忆）；每一代随机选一只乌鸦 j，若 j「没发觉被跟踪」（概率 1 − AP），则本乌鸦向 j 的藏点靠近 x + fl·r·(m_j − x)，否则随机飞到新位置。参数只有感知概率 AP 与飞行长度 fl。</p>",
+    "theory": "<p>更新式 x ← x + fl·r·(m_j − x) 是<b>向随机同伴的记忆位置靠近</b>，与 PSO 的「个体最优 / 邻域最优项」或 DE 的差分更新同类；AP 提供的随机重置（以概率 AP 飞到随机位置）起到探索作用。它是参数最少的群智能算法之一，但这个简单性使得它的开发能力有限（没有向<b>全局</b>最优收缩的机制，只向随机个体的记忆靠近），对精细收敛不利。理论分析缺失。</p>",
+    "variants": [
+      "<b>改进 CSA</b>（Lévy 飞行、自适应 AP / fl）；<b>二进制 CSA</b>（特征选择）。"
+    ],
+    "refs": [
+      "Askarzadeh (2016). A novel metaheuristic method for solving constrained engineering optimization problems: Crow search algorithm. Computers &amp; Structures, 169, 1-12",
+      "Hussien, Amin, Wang, Liang, Alsanad, Gumaei &amp; Chen (2020). Crow search algorithm: Theory, recent advances, and applications. IEEE Access, 8, 173548-173565",
+      "Kudela (2022). A critical problem in benchmarking and analysis of evolutionary computation methods. Nature Machine Intelligence, 4, 1238-1245",
+      "Sörensen (2015). Metaheuristics — the metaphor exposed. International Transactions in Operational Research, 22(1), 3-18"
+    ],
+    "tagline_en": "Crows hide food and steal each other's — a memory-and-theft game.",
+    "summary_en": "The Crow Search Algorithm (Askarzadeh, 2016) has each crow follow another to its hiding place unless the owner notices (awareness probability AP). It is structurally unrelated to Cuckoo Search despite the abbreviation CS; AP is the single knob, which suits sensitivity teaching, but following success collapses late in the run. Distinguish it carefully from Cuckoo Search (2009) in citations. On this site every algorithm solves TSP with a permutation encoding plus a shared memetic 2-opt component, so the comparison is of frameworks on equal footing, not of whose metaphor is cleverer.",
+    "name_en": "Crow Search Algorithm (CSA)"
+  },
+  {
+    "key": "bbo",
+    "slug": "bbo-tsp",
+    "name": "生物地理 BBO",
+    "title": "生物地理学优化（BBO）求解 TSP 在线演示 · 栖息地迁移动画",
+    "desc": "生物地理学优化算法求解旅行商问题（TSP）的在线演示：迁入/迁出率接力与突变，栖息地即候选路径，浏览器本地运行。",
+    "h1": "生物地理学优化（BBO）求解 TSP 在线演示",
+    "lead": "岛屿上的物种数由<strong>迁入与迁出</strong>决定：差岛屿迁入率高（穷者受助）、好岛屿迁出率高（富者输出）——Simon 把这条生物地理学曲线搬进了优化。",
+    "intro": [
+      "生物地理学优化 BBO（Simon, 2008）引用量 ~5000：解 = 栖息地，适应度 = 物种数 HSI。迁移模型是<strong>线性 λ/μ 曲线</strong>：差解迁入率高（接收特征）、好解迁出率高（输出特征）——选择压力天然由排名决定，无需轮盘赌或锦标赛。另按 SCRM 概率随机修改特征防早熟。",
+      "离散化映射（TSP 版）：「特征迁移」在排列域的诚实对应是 <strong>OX 交叉</strong>而不是逐位替换（逐位替换会破坏路径合法性）；迁入者按迁出率加权轮盘选供体；随机修改 = or-opt/逆转结构抖动；再加反射踢（扰动 + 下探作用于最优本体）。实测 n=100 = 846.8、单代 0.12 秒——全场最快的算法之一。"
+    ],
+    "principle": [
+      "初始化：多起点最近邻播种 + 预算制 2-opt 抛光。",
+      "HSI 排名 → 线性迁入/迁出率（原文同款 λ/μ 曲线）。",
+      "迁入：低适应个体按迁出率轮盘选供体做 OX 混交。",
+      "突变：小概率 or-opt/逆转结构抖动（SCRM 对应）。",
+      "反射踢 + 周期 2-opt 回灌。"
+    ],
+    "params": [
+      [
+        "n_pop",
+        "25",
+        "栖息地数"
+      ],
+      [
+        "p_mut",
+        "0.05",
+        "突变率：每个栖息地每代被随机修改的概率"
+      ],
+      [
+        "ls_every",
+        "10",
+        "每多少代对全局最优做一次 2-opt 并回灌"
+      ]
+    ],
+    "paper": "Simon, D. (2008). Biogeography-Based Optimization. IEEE Transactions on Evolutionary Computation, 12(6), 702-713.",
+    "faq": [
+      [
+        "BBO 和 GA 有什么本质区别？",
+        "都用交叉，但选择机制完全不同：GA 用<strong>适配度函数</strong>（轮盘/锦标赛，压力由参数控制），BBO 用<strong>排名直接映射迁入/迁出率</strong>（压力由位置天然决定，没有额外参数）。这让 BBO 在多峰问题上更不容易被某个超级个体统治——好解的迁出率高确实传播基因，但差解的迁入率也高，总有新血液进来。"
+      ],
+      [
+        "为什么特征迁移要换成 OX？",
+        "原文的迁移是逐位替换（x_i 从供体抄一个值），在排列域逐位抄会产生重复城市——路径直接非法。排列域里「从供体吸收特征」的诚实对应是 <strong>OX 顺序交叉</strong>：保留一个片段、按顺序补齐其余城市。这是所有离散化 BBO 文献的标准做法，也是本站组件库 _ox_crossover 的第五个调用方。"
+      ]
+    ],
+    "family": "F1",
+    "use_when": "排名直接映射迁入/迁出率：选择压力天然分布、无额外参数；多峰上比 GA 更不易被超级个体统治。",
+    "avoid_when": "迁移模型（线性/余弦）与精英策略要选型；单代 0.12 秒是最快之一但收敛上限一般，适合当对照而非主力。",
+    "origin": "<p>Simon (2008) 把生物地理学的<b>岛屿物种平衡理论</b>（MacArthur &amp; Wilson 1967）移植到优化：栖息地（解）的「适宜度指数」HSI = 目标质量；好栖息地的<b>迁出率</b>高、<b>迁入率</b>低，差栖息地相反；每代按迁入 / 迁出率从其他栖息地拷贝特征分量（迁移），再加变异。</p>",
+    "theory": "<p>BBO 的迁移算子本质是<b>按适应度偏置的分量级重组</b>：差个体的每个分量以较高概率被替换成好个体对应的分量。这与遗传算法的均匀交叉 + 偏向好个体的父代选择在效果上接近；Simon 与后来的 Markov 链分析（Simon 等 2011）给出了 BBO 的种群转移与收敛性质。它的优点是迁移不改变好个体（高迁出率者几乎不被改变），自带精英主义；缺点是只做特征交换，需要变异提供新分量。BBO 在<b>组合问题</b>上（TSP 的离散版，用路径片段迁移）也有应用。</p>",
+    "variants": [
+      "<b>BBO/ES</b>（Simon 2009，与进化策略混合）；<b>PS-BBO</b>、<b>blended BBO</b>（Ma &amp; Simon 2011：混合迁移，用加权平均代替替换）；<b>多目标 BBO</b>。"
+    ],
+    "refs": [
+      "Simon (2008). Biogeography-based optimization. IEEE Transactions on Evolutionary Computation, 12(6), 702-713",
+      "MacArthur &amp; Wilson (1967). The Theory of Island Biogeography. Princeton University Press",
+      "Simon, Ergezer, Du &amp; Rarick (2011). Markov models for biogeography-based optimization. IEEE Transactions on Systems, Man, and Cybernetics, Part B, 41(1), 299-306",
+      "Ma &amp; Simon (2011). Blended biogeography-based optimization for constrained optimization. Engineering Applications of Artificial Intelligence, 24(3), 517-525",
+      "Simon (2013). Evolutionary Optimization Algorithms. Wiley"
+    ],
+    "tagline_en": "Islands exchange species: poor islands immigrate, rich islands emigrate.",
+    "summary_en": "Biogeography-Based Optimization (Simon, 2008) maps rank to immigration and emigration rates, so selection pressure is distributed naturally with no extra parameters, and super-individuals dominate less than in GA on multimodal problems. The migration model (linear or cosine) and elitism need choosing; it is fast per generation but has a modest convergence ceiling. On this site every algorithm solves TSP with a permutation encoding plus a shared memetic 2-opt component, so the comparison is of frameworks on equal footing, not of whose metaphor is cleverer.",
+    "name_en": "Biogeography-Based Optimization (BBO)"
+  },
+  {
+    "key": "grasp",
+    "slug": "grasp-tsp",
+    "name": "GRASP",
+    "title": "贪心随机自适应搜索（GRASP）求解 TSP 在线演示 · 多重启构造动画",
+    "desc": "GRASP 算法求解旅行商问题（TSP）的在线演示：RCL 半贪心构造 + 局部搜索多重启，浏览器本地运行。",
+    "h1": "贪心随机自适应搜索（GRASP）求解 TSP 在线演示",
+    "lead": "GRASP 没有「种群」——它每代独立做一次「<strong>半贪心构造 → 局部搜索下探</strong>」，用随机构造的多样性换局部最优的多样性。三十多年长青的工业级元启发式，简单到一眼看穿，好用到无处不在。",
+    "intro": [
+      "GRASP（Feo &amp; Resende, 1989）引用量近万：Greedy Randomized Adaptive Search Procedure，名字就是全部配方。构造阶段用 <strong>RCL 限制候选列表</strong>：每步从最近的 k 个候选里随机选一个（k=1 退化为最近邻，k 越大越随机）；下探阶段交给 2-opt 打磨到局部最优；每代独立重启，best 取历史所有落点的最小值。工业调度、网络设计、频谱分配领域的标配基线。",
+      "离散化踩坑记录（两次假跑换来的，值得通读）：① 区间式 RCL（原文 α 阈值式）在均匀散点上会失效——max−min 跨对角线导致候选列表膨胀到 30+ 个，构造值 1690 烂穿地心，200 代零进步；② 唯一正确形态是<strong>数量式且 k 要小</strong>：TSP 距离强聚集，k=2 构造 ~1060、打磨后 ~620-746；k=5 直接劣化到 1524/806。RCL 宽度必须小不是实现取舍，是实测结论。修完实测裸跑真实迭代进步 9.8–14.6%、n=100 = 824.0 全场第四。"
+    ],
+    "principle": [
+      "基线 = 裸最近邻（不做下探），第一代就有明确的下降故事。",
+      "构造：RCL 数量式——每步从最近 k 个候选随机选一（k=2 实测甜区）。",
+      "下探：2-opt 预算制打磨落点到（近）局部最优。",
+      "贪心准入只作用于全局 best；本代落点再差也不影响下一代。",
+      "多重启语义天然免疫「收敛种群全拒」假跑：扰动源是独立随机构造，永不枯竭。"
+    ],
+    "params": [
+      [
+        "k_rcl",
+        "2",
+        "RCL 宽度：每步从最近 k 个候选随机选"
+      ],
+      [
+        "polish",
+        "80",
+        "每次落点的 2-opt 下探预算（步数上限）"
+      ]
+    ],
+    "paper": "Feo, T.A. &amp; Resende, M.G.C. (1989). A probabilistic heuristic for a computationally difficult set covering problem. Operations Research Letters, 8(2), 67-71.",
+    "faq": [
+      [
+        "GRASP 和多起点 ILS 有什么区别？",
+        "都是多重启框架，但扰动源不同：ILS 从<strong>上一次的局部最优</strong>出发做双桥踢（扰动是局部的、有记忆的）；GRASP 每次从<strong>随机构造的全新解</strong>出发（无记忆、全局勘探）。ILS 更精（落点质量高），GRASP 更散（覆盖面广）。工程上常把两者杂交：GRASP 构造 + ILS 式迭代改进，即 GRASP+PR（路径重连）。"
+      ],
+      [
+        "为什么 k 取 2 这么小？",
+        "本站实测：k=2 构造值 ~1060、2-opt 打磨后 ~620-746，90/200 个落点能打败 NN 基线；k=5 构造值直接劣化到 ~1524、打磨后 806——离可用差了一个数量级。TSP 的距离强聚集性意味着「最近 2 个」已经包含了 90% 的贪心信息，多出来的随机候选几乎全是噪声。这也解释了为什么 NN 是如此强的构造基线。"
+      ]
+    ],
+    "family": "F10",
+    "use_when": "工业级长青框架：多重启半贪心构造+局部搜索，简单到一眼看穿；RCL 宽度 k=2 甜区有本站实测背书。",
+    "avoid_when": "每代独立重启无记忆，落点精度不如 ILS；构造器必须为问题定制——没有现成构造器（NN/RCL）的问题上优势全无。",
+    "origin": "<p>Feo 与 Resende (1989, 1995) 为集合覆盖问题提出：<b>贪心随机自适应搜索过程</b>——多次重复「随机化的贪心构造（从受限候选表 RCL 里随机选）+ 局部搜索」，取最好的结果。它是<b>多起点</b>元启发式的代表，没有记忆、各次迭代独立。</p>",
+    "theory": "<p>GRASP 的关键参数 α 控制贪心程度（α=0 纯贪心，α=1 纯随机）：构造阶段的随机性提供<b>多样的起点</b>，局部搜索把每个起点带到局部最优。由于各次迭代独立，它的性能可以用<b>极值统计</b>刻画（多次独立样本的最好值）。后续的重要增强是<b>路径重连</b>（Laguna &amp; Martí 1999）——用精英解之间的路径作为额外的搜索——与<b>反应式 GRASP</b>（自适应 α，Prais &amp; Ribeiro 2000）。Resende &amp; Ribeiro (2010) 的综述总结了二十年的应用。它没有收敛性定理，但对它的「首次命中最优」的时间分布有统计分析（Aiex 等）。</p>",
+    "variants": [
+      "<b>GRASP + 路径重连</b>（Laguna &amp; Martí 1999）；<b>反应式 GRASP</b>（Prais &amp; Ribeiro 2000）；<b>GRASP + VND</b>。"
+    ],
+    "refs": [
+      "Feo &amp; Resende (1989). A probabilistic heuristic for a computationally difficult set covering problem. Operations Research Letters, 8(2), 67-71",
+      "Feo &amp; Resende (1995). Greedy randomized adaptive search procedures. Journal of Global Optimization, 6(2), 109-133",
+      "Resende &amp; Ribeiro (2010). Greedy randomized adaptive search procedures: Advances, hybridizations, and applications. In Handbook of Metaheuristics, 2nd ed., Springer, 283-319",
+      "Laguna &amp; Martí (1999). GRASP and path relinking for 2-layer straight line crossing minimization. INFORMS Journal on Computing, 11(1), 44-52",
+      "Prais &amp; Ribeiro (2000). Reactive GRASP: An application to a matrix decomposition problem in TDMA traffic assignment. INFORMS Journal on Computing, 12(3), 164-176"
+    ],
+    "tagline_en": "Repeated semi-greedy construction (restricted candidate list) followed by local search.",
+    "summary_en": "GRASP (Feo & Resende, 1989) repeatedly builds a solution by randomised semi-greedy construction from a restricted candidate list, then improves it by local search. It is an industrial evergreen and simple to read; each restart is independent with no memory, so its precision trails ILS, and it needs a problem-specific constructor (NN or an RCL). On this site every algorithm solves TSP with a permutation encoding plus a shared memetic 2-opt component, so the comparison is of frameworks on equal footing, not of whose metaphor is cleverer.",
+    "name_en": "GRASP"
+  },
+  {
+    "key": "ais",
+    "slug": "ais-tsp",
+    "name": "克隆选择 AIS",
+    "title": "克隆选择算法（AIS/CLONALG）求解 TSP 在线演示 · 免疫克隆扩增动画",
+    "desc": "人工免疫系统克隆选择算法求解旅行商问题（TSP）的在线演示：克隆扩增+高频变异+新抗体注入，浏览器本地运行。",
+    "h1": "克隆选择算法（AIS/CLONALG）求解 TSP 在线演示",
+    "lead": "免疫系统对抗原的应答就是一场优化：<strong>匹配的 B 细胞克隆扩增、高频突变、亲和度成熟</strong>。de Castro 把这套免疫学机制搬进了数值优化，成为人工免疫系统（AIS）家族的源头。",
+    "intro": [
+      "克隆选择算法 CLONALG（de Castro &amp; Von Zuben, 2002）引用量数千：抗体=候选解，亲和度=目标函数。每代按亲和度排序后<strong>克隆扩增</strong>（好抗体克隆多）、<strong>高频变异</strong>（克隆体突变率与亲和度成反比——好的轻抖、差的重摇）、组内选择、再加<strong>随机新抗体注入</strong>保持多样性。免疫隐喻的核心贡献是把「勘探（新抗体）/开发（克隆成熟）」做成了显式的双通道。",
+      "离散化映射（TSP 版）：克隆体变异 = 逆转/or-opt/双桥按排名分档（好的 1 次轻抖、差的 3 次重摇），变异后立刻预算制 2-opt 试射打磨（memetic 化——纯突变克隆体几乎必然变差，这是 SSA/FWA 同款教训）；新抗体 = NN 重播。实测裸跑真实迭代进步 2.4–11.3%、n=100 = 830.9 全场第七——比 KH/Jaya 都好。"
+    ],
+    "principle": [
+      "初始化：多起点最近邻播种 + 预算制 2-opt 抛光。",
+      "克隆扩增：好抗体克隆多（数量 ∝ 排名），差抗体克隆少。",
+      "高频变异：变异强度与排名成反比，变异后预算制 2-opt 试射。",
+      "组内选择：每个克隆组的最优与母体贪心比较。",
+      "新抗体注入：每代 n_new 个 NN 重播替换最差（免疫多样性）。"
+    ],
+    "params": [
+      [
+        "n_pop",
+        "25",
+        "抗体数"
+      ],
+      [
+        "n_new",
+        "3",
+        "每代注入的随机新抗体个数"
+      ],
+      [
+        "ls_every",
+        "10",
+        "每多少代对全局最优做一次 2-opt 并回灌"
+      ]
+    ],
+    "paper": "de Castro &amp; Von Zuben, 2002, Learning and Optimization Using the Clonal Selection Principle, IEEE Transactions on Evolutionary Computation（CLONALG 原始论文）",
+    "faq": [
+      [
+        "克隆选择和遗传算法有何本质不同？",
+        "GA 的多样性靠<strong>交叉重组</strong>（两个父代混合），AIS 的多样性靠<strong>体细胞高频变异 + 新抗体注入</strong>（无交叉）。免疫学依据也不同：B 细胞应答是克隆自己的基因再超突变，不是有性繁殖。工程后果：AIS 不需要设计交叉算子，在无自然交叉语义的问题上更省事；但也少了 OX 这类「直接继承父代片段」的高效学习通道，所以本站给克隆体加了 2-opt 打磨补开发能力。"
+      ],
+      [
+        "为什么克隆体变异后要立刻打磨？",
+        "SSA/FWA 的同款教训：对已抛光的解做随机突变，结果几乎必然变差，贪心准入会全部拒绝——克隆再多也是白克隆。memetic AIS 的标准做法是变异后立刻做预算制 2-opt 试射，让突变「落地就站稳」。这与本站多批次验证的「结构性扰动 + 预算制下探」组合拳一致。"
+      ]
+    ],
+    "family": "F5",
+    "use_when": "问题没有自然「交配」语义时（直接编辑解结构），无交叉设计比 GA 省事；克隆∝排名+高频变异的分工清晰。",
+    "avoid_when": "克隆率/变异率/新抗体注入比例三参数要调；免疫学叙事与优化机制要分清——B 细胞比喻不是机制本身。",
+    "origin": "<p>de Castro 与 Von Zuben (2002) 受<b>克隆选择原理</b>启发提出 CLONALG：抗体（候选解）按亲和度（适应度）排序；好抗体被克隆、<b>变异率与亲和度成反比</b>（好的变得少、差的变得多，称超变异）；保留最好的，补充新的随机抗体（多样性）。它是「人工免疫系统」（AIS）家族中最常用于优化的一支，另有否定选择、免疫网络等。</p>",
+    "theory": "<p>克隆 + 超变异 + 选择，本质是一个<b>带自适应变异率的 (μ+λ)-进化策略</b>：变异率随适应度排名变化，而不是整体自适应。Timmis 等 (2008) 的批评文章指出，AIS 里不少算法与已有的进化算法没有区别，需要更严格的免疫学基础来区分；Hart &amp; Timmis (2008) 讨论了 AIS 的应用与局限。它在<b>异常检测、模式识别</b>（否定选择算法）与<b>动态优化</b>（免疫网络）上有较多研究。收敛性：Villalobos-Arias 等 (2004) 对多目标免疫算法 的马尔可夫链分析给出了带精英时的收敛。</p>",
+    "variants": [
+      "<b>CLONALG</b>（本站）；<b>aiNet</b>（免疫网络）；<b>opt-aiNet</b>（de Castro &amp; Timmis 2002，多模态优化）；<b>否定选择算法</b>（Forrest 等 1994，异常检测）。"
+    ],
+    "refs": [
+      "de Castro &amp; Von Zuben (2002). Learning and optimization using the clonal selection principle. IEEE Transactions on Evolutionary Computation, 6(3), 239-251",
+      "de Castro &amp; Timmis (2002). An artificial immune network for multimodal function optimization. In Proceedings of CEC 2002, 699-704",
+      "Forrest, Perelson, Allen &amp; Cherukuri (1994). Self-nonself discrimination in a computer. In Proceedings of IEEE Symposium on Security and Privacy, 202-212",
+      "Timmis, Hone, Stibor &amp; Clark (2008). Theoretical advances in artificial immune systems. Theoretical Computer Science, 403(1), 11-32",
+      "Hart &amp; Timmis (2008). Application areas of AIS: The past, the present and the future. Applied Soft Computing, 8(1), 191-201",
+      "Villalobos-Arias, Coello Coello &amp; Hernández-Lerma (2004). Convergence analysis of a multiobjective artificial immune system algorithm. In ICARIS 2004, LNCS 3239, 226-235"
+    ],
+    "tagline_en": "Clonal selection: clone good antibodies in proportion to rank, mutate them hard.",
+    "summary_en": "Artificial Immune System / CLONALG (de Castro & Von Zuben, 2002) clones antibodies in proportion to their rank, applies high-rate hypermutation and injects new antibodies. With no crossover it suits problems without a natural mating meaning; cloning rate, mutation rate and injection rate need tuning, and the immunology narrative should not be mistaken for the mechanism. On this site every algorithm solves TSP with a permutation encoding plus a shared memetic 2-opt component, so the comparison is of frameworks on equal footing, not of whose metaphor is cleverer.",
+    "name_en": "Clonal Selection (AIS)"
+  },
+  {
+    "key": "eo",
+    "slug": "eo-tsp",
+    "name": "均衡 EO",
+    "title": "均衡优化（EO）求解 TSP 在线演示 · 浓度平衡方程动画",
+    "desc": "均衡优化算法求解旅行商问题（TSP）的在线演示：均衡池+质量平衡方程+生成率项，浏览器本地运行。",
+    "h1": "均衡优化（EO）求解 TSP 在线演示",
+    "lead": "密闭容器里的物种浓度最终走向<strong>平衡态</strong>——Faramarzi 把质量平衡方程直接改写成了更新公式：每个粒子按指数衰减的平衡速率向「均衡池」靠拢，生成率项保留勘探能力。物理化学类算法的代表作。",
+    "intro": [
+      "均衡优化 EO（Faramarzi, 2020）引用量数千，2025 引用榜三十强在列（蓝图 R2 联网核验确认）。隐喻：粒子=控制体内不断交换质量的物种浓度，最优解=均衡浓度 C_eq。每代重建<strong>均衡池</strong>（4 个最优 + 1 个平均），每个粒子随机选一个均衡解按质量平衡方程移动：X_new = C_eq + (X − C_eq)·F + G·(1−F)/λ·U，其中 F = exp(−a·λ) 随代衰减（a = 2·(1−t/T)），G 是生成率项（勘探源）。收敛后期 F→0，粒子冻结在均衡解附近——开发与勘探由一个衰减指数天然调度。",
+      "离散化映射（TSP 版）：浓度 = <strong>随机键编码</strong>（_encode_tour / _decode_position，GSA/CEM 同款桥梁）——原文是纯连续算法，随机键是忠实嫁接的最短路径，连续更新公式原样保留、每代解码一次。解码后贪心准入自身 + 反射踢防停滞（BBO 同款）。连续公式每代无条件移动 → 排列持续变化 → 无「收敛种群全拒」问题。实测裸跑真实迭代进步 3.9–7.9%、n=100 = 832.1。"
+    ],
+    "principle": [
+      "初始化：多起点最近邻播种 + 预算制 2-opt 抛光，随机键编码。",
+      "均衡池：每代取 4 个最优 + 1 个平均（原文五元组）。",
+      "更新：X_new = C_eq + (X − C_eq)·F + G·(1−F)/λ·U，F=exp(−a·λ) 衰减。",
+      "解码：随机键 argsort 回排列，贪心准入自身。",
+      "反射踢 + 周期 2-opt 回灌（真实下降来源）。",
+      "📌 注意：本站实现把原文生成率项 G 简化为固定勘探概率；原文 G 是含 (1−F)/λ 的随机项，用于冻结前的持续勘探。"
+    ],
+    "params": [
+      [
+        "n_pop",
+        "25",
+        "粒子数"
+      ],
+      [
+        "ls_every",
+        "10",
+        "每多少代对全局最优做一次 2-opt 并回灌"
+      ]
+    ],
+    "paper": "Faramarzi, A., Heidarinejad, M., Stephens, B. &amp; Mirjalili, S. (2020). Equilibrium optimizer: A novel optimization algorithm. Knowledge-Based Systems, 191, 105190（EO 原始论文）",
+    "faq": [
+      [
+        "EO 和模拟退火都是「指数衰减」，有什么区别？",
+        "形似神不似。SA 的温度控制的是<strong>接受准则</strong>（高温时允许接受更差的解），EO 的 F 控制的是<strong>移动步幅</strong>（F→0 时粒子冻结在均衡点，不接受任何更差解）。SA 用 Metropolis 判据显式爬坑，EO 靠生成率项 G 在冻结前保持勘探。这也是为什么 EO 在排列域必须补反射踢——冻结后的种群如果没有外力就再也不会进步。"
+      ],
+      [
+        "为什么用随机键而不是交换序列？",
+        "EO 原文是纯连续算法（质量平衡方程作用在实数向量上），随机键编码让这套公式<strong>原样保留</strong>，只加一层解码——这是对原文语义最忠实的嫁接。代价是随机键的「步幅」语义模糊（0.1 的浓度变化可能对应排列大挪移），但这正是勘探能力的来源之一。本站实测对比过：交换序列版 EO 收敛更快但更容易早熟，随机键版更稳。"
+      ]
+    ],
+    "family": "F3",
+    "use_when": "质量平衡方程直接改写更新公式，物理化学系代表作；均衡池五元组（4 最优+1 平均）的结构有参考价值。",
+    "avoid_when": "随机键编码在本站 TSP 上要嫁接 2-opt 试射才打得过对照；F/G/λ 与 SA 形似神不似，别照搬退火调参经验。",
+    "origin": "<p>Faramarzi 等 (2020) 以<b>控制体积的质量平衡方程</b>为模型：每个粒子 = 一个浓度（解）；更新式 C = C_eq + (C − C_eq)·F + (G/λV)(1−F)，其中平衡浓度 C_eq 从「平衡池」（前 4 个最优解 + 它们的均值）随机选取，F 为指数项，G 为生成率。</p>",
+    "theory": "<p>EO 的新位置是<b>向「平衡池」的随机成员指数地衰减收缩</b>，再叠加生成率项——结构上是「向精英池收缩」；平衡池（4 个最优 + 均值）比单一 gbest 给出更多样的吸引中心，这是它相对 GWO / PSO 的实质差别。本站按原文实现平衡池与 GCP（生成概率）开关。物理隐喻（质量平衡）与更新式的对应关系较为松散。</p>",
+    "variants": [
+      "<b>EO 变体</b>：混沌、Lévy、自适应；<b>二进制 EO</b>（V 型传输函数）。"
+    ],
+    "refs": [
+      "Faramarzi, Heidarinejad, Stephens &amp; Mirjalili (2020). Equilibrium optimizer: A novel optimization algorithm. Knowledge-Based Systems, 191, 105190",
+      "Sörensen (2015). Metaheuristics — the metaphor exposed. International Transactions in Operational Research, 22(1), 3-18",
+      "Kudela (2022). A critical problem in benchmarking and analysis of evolutionary computation methods. Nature Machine Intelligence, 4, 1238-1245",
+      "Sörensen, Sevaux &amp; Glover (2018). A history of metaheuristics. In Handbook of Heuristics, Springer, 791-808"
+    ],
+    "tagline_en": "Concentrations tend to a mass-balance equilibrium; an equilibrium pool guides the update.",
+    "summary_en": "The Equilibrium Optimizer (Faramarzi et al., 2020) rewrites a mass-balance equation as the update rule, guided by an equilibrium pool of the four best solutions plus their average. In the random-key permutation form here it needs a 2-opt trial hook to beat its references; F, G and λ resemble but are not an annealing schedule, so do not carry over SA tuning habits. On this site every algorithm solves TSP with a permutation encoding plus a shared memetic 2-opt component, so the comparison is of frameworks on equal footing, not of whose metaphor is cleverer.",
+    "name_en": "Equilibrium Optimizer (EO)"
+  },
+  {
+    "key": "ao",
+    "slug": "ao-tsp",
+    "name": "天鹰 AO",
+    "title": "天鹰优化（AO）求解 TSP 在线演示 · 四阶段捕猎动画",
+    "desc": "天鹰优化算法求解旅行商问题（TSP）的在线演示：高飞俯冲/短滑掠/低飞慢降/地面行走四阶段调度，浏览器本地运行。",
+    "h1": "天鹰优化（AO）求解 TSP 在线演示",
+    "lead": "天鹰捕猎有四副姿态：<strong>高飞滑翔垂直俯冲（广域勘探）、短滑掠攻击（轮廓勘探）、低飞慢降进攻（定向开发）、地面行走捕获（精修）</strong>。Abualigah 把这套捕猎行为学写成四阶段调度公式，是近年上升最快的「新一代」算法之一。",
+    "intro": [
+      "天鹰优化 AO（Abualigah, 2021）引用量数千，蓝图 R2 联网核验确认补录。核心是<strong>四阶段探索-开发调度</strong>：前 1/3 迭代做广域勘探（X1 高飞俯冲）、中 1/3 做轮廓勘探（X2 短滑掠）、后 1/3 进入开发（X3 低飞慢攻、X4 地面捕获）。每阶段有不同的位置更新公式，勘探与开发的切换由迭代进度显式控制——比 WOA/HHO 那种概率切换更透明。",
+      "离散化映射（TSP 版）：X1 = 双桥大跳（结构性扰动进新盆地）+ 落地试射；X2 = Levy 越步（FPA 语义：f&gt;1 越步跳盆地、f&lt;1 短步逆转）；X3 = or-opt 围绕自身精修；X4 = OX 向 best 混交 + 预算制下探。阶段三等分轮转提供持续扰动源（前半程每代都有无条件扰动），后半程靠 OX 学习 + 下探收尾。实测裸跑真实迭代进步 3.9–11.4%、n=100 = 845.7。"
+    ],
+    "principle": [
+      "初始化：多起点最近邻播种 + 预算制 2-opt 抛光。",
+      "X1 广域勘探（前 1/3）：双桥大跳 + 落地试射。",
+      "X2 轮廓勘探（中 1/3）：Levy 越步——f>1 跳盆地、f&lt;1 短步逆转。",
+      "X3 定向开发：or-opt 自精修 + 预算制试射。",
+      "X4 地面捕获：OX 向 best 混交 + 预算制下探。",
+      "⚠️ 离散化声明：原文机制作用于连续实数向量——本页全部步骤（交换序列、2-opt 试射、双桥扰动等）都是本站为 TSP 设计的排列域对应实现；忠实于原文的是调度思想与相位结构，不是逐条公式。复现原论文请回到连续域。"
+    ],
+    "params": [
+      [
+        "n_pop",
+        "22",
+        "鹰数"
+      ],
+      [
+        "ls_every",
+        "10",
+        "每多少代对全局最优做一次 2-opt 并回灌"
+      ]
+    ],
+    "paper": "Abualigah, L., Yousri, D., Elaziz, M.A., Ewees, A.A., Al-qaness, M.A.A. &amp; Gandomi, A.H. (2021). Aquila Optimizer: A novel metaheuristic optimization algorithm. Computers &amp; Industrial Engineering, 157, 107250（AO 原始论文）",
+    "faq": [
+      [
+        "AO 和 HHO 都是「鹰派」算法，调度方式有何不同？",
+        "HHO 用<strong>逃逸能量 E</strong> 连续调度（软/硬包围按 |E| 阈值切换，同一代内不同个体可能处于不同阶段）；AO 用<strong>迭代进度三等分</strong>硬切换（同一代全体处于同一阶段）。HHO 的切换是解空间自适应的，AO 的切换是时间表式的——AO 更简单透明，HHO 更灵活。从本站实测看，两者 n=100 都在 845 附近，没有本质差距。"
+      ],
+      [
+        "为什么前半程要「无条件扰动」？",
+        "SSA 假跑三连的核心教训：如果前半程的勘探候选也要贪心准入，种群一旦收敛到 2-opt 局部最优，所有候选全被拒绝、200 代零进步。AO 的四阶段里 X1/X2 天然是「无条件跳盆地」语义（原文连续域公式每代必移动），离散化后保持这个语义——扰动后落地试射站稳，best 只在更优时更新。这是全站多批次验证过的「结构性扰动 + 预算制下探」组合拳的标准应用。"
+      ],
+      [
+        "天鹰 AO 放在群智能家族合理吗？",
+        "有争议：AO 是单领导者（天鹰个体朝猎物/最优移动）的捕食隐喻，没有蚁群蜂群式的分工协作，不少文献把它归入「物理/捕食隐喻」。本站按主流综述惯例放在 F2，读的时候知道这一点即可。"
+      ]
+    ],
+    "family": "F2",
+    "use_when": "四阶段三等分硬切换是时间表式调度的极简实现；近年上升最快的新一代之一，适合与 HHO 对照学调度设计。",
+    "avoid_when": "时间表切换对非均匀地形自适应差（HHO 是能量自适应）；2021 新算法实战证据积累不足，当主力前先自行 bench。",
+    "origin": "<p>Abualigah 等 (2021) 模拟天鹰的四种捕猎策略，按迭代进度分两段：前 2/3 以<b>探索</b>为主——高空翱翔（向全种群均值）或轮廓飞行（Lévy 飞行）；后 1/3 以<b>开发</b>为主——低空滑翔（向猎物俯冲）或步行抓取（带质量函数的随机游走）。</p>",
+    "theory": "<p>AO 的四个更新模式都围绕<b>当前最优（猎物）与种群均值</b>，带 Lévy 扰动；阶段切换由迭代进度硬性决定（2/3 之前 / 之后）。这是一种「先探索、后开发」的显式时间调度，属常见设计。原文的 CEC 实验与工程设计问题表现良好，但算法本身的更新式与其他「向最优收缩 + Lévy」的方法接近。本站的实现按原文的四阶段更新式核对过。</p>",
+    "variants": [
+      "<b>IAO / 二进制 AO</b>、<b>与 SA / DE 混合的版本</b>。"
+    ],
+    "refs": [
+      "Abualigah, Yousri, Abd Elaziz, Ewees, Al-qaness &amp; Gandomi (2021). Aquila optimizer: A novel meta-heuristic optimization algorithm. Computers &amp; Industrial Engineering, 157, 107250",
+      "Mantegna (1994). Fast, accurate algorithm for numerical simulation of Lévy stable stochastic processes. Physical Review E, 49(5), 4677-4683",
+      "Sörensen (2015). Metaheuristics — the metaphor exposed. International Transactions in Operational Research, 22(1), 3-18",
+      "Kudela (2022). A critical problem in benchmarking and analysis of evolutionary computation methods. Nature Machine Intelligence, 4, 1238-1245"
+    ],
+    "tagline_en": "Aquila's four hunting styles, switched by a fixed schedule over the run.",
+    "summary_en": "The Aquila Optimizer (Abualigah et al., 2021) divides the run into four hunting phases (high soar, contour flight, low flight, walk-and-grab) with a time-based switch — a minimal schedule-style design that contrasts with HHO's energy-adaptive one. It is one of the fastest-rising recent algorithms but has limited practical evidence; benchmark it yourself before using it as a workhorse. On this site every algorithm solves TSP with a permutation encoding plus a shared memetic 2-opt component, so the comparison is of frameworks on equal footing, not of whose metaphor is cleverer.",
+    "name_en": "Aquila Optimizer (AO)"
+  },
+  {
+    "key": "sma",
+    "slug": "sma-tsp",
+    "name": "黏菌算法 SMA",
+    "title": "黏菌算法（SMA）求解 TSP 在线演示 · 自适应权重传播波动画",
+    "desc": "黏菌算法（SMA）求解旅行商问题（TSP）的在线演示：自适应权重模拟黏菌传播波正负反馈，粗管运输/细管收缩三段更新，浏览器本地运行。",
+    "h1": "黏菌算法（SMA）求解 TSP 在线演示",
+    "lead": "多头绒泡菌用一团无脑的原质团找到最优食物网络：<strong>管径即记忆</strong>——流量大的管道变粗（正反馈），闲置的收缩（负反馈）。SMA 用自适应权重模拟这一过程。",
+    "intro": [
+      "SMA（Li, Chen, Wang, Heidari &amp; Mirjalili, 2020, <em>Future Generation Computer Systems</em> 111:300-323）引用量 ~5000+，是 2020 系新算法中攀升极快的一支。核心机制是<strong>自适应权重</strong>：适应度排序后，前一半个体权重放大（1+rand·log(ratio+1)）、后一半收缩（1−rand·log(ratio+1)）——模拟黏菌传播波「流量大的管变粗、闲置的管变细」的正负反馈。",
+      "离散化映射（TSP 版）：随机重建（z 概率）= 随机起点最近邻 + 2-opt 抖动，对应传播波重新铺开；<strong>粗管运输</strong> = 按 W 加权轮盘选引导个体做交换序列随机前缀移动（前缀长度 ∝ 权重）；<strong>细管收缩</strong> = or-opt 结构微调。最优反射踢同 Salp/SFLA/Jaya 机制。注意：SMA 也是隐喻批评线里的常客——「黏菌」隐喻与实际更新公式的关系接近「命名层装饰」，本站如实收录机制、同时保留批评视角。"
+    ],
+    "principle": [
+      "初始化：多起点最近邻播种 + 预算制 2-opt 抛光。",
+      "自适应权重：按适应度排序，前半放大、后半收缩（正负反馈的离散模拟）。",
+      "粗管运输（0.5 概率）：权重加权选引导个体，交换序列随机前缀移动。",
+      "细管收缩（0.5−z 概率）：or-opt 片段搬运，本地路径收缩。",
+      "随机重建（z 概率）+ 最优反射踢（扰动 + 下探作用于全局最优本体）。",
+      "⚠️ 离散化声明：原文机制作用于连续实数向量——本页全部步骤（交换序列、2-opt 试射、双桥扰动等）都是本站为 TSP 设计的排列域对应实现；忠实于原文的是调度思想与相位结构，不是逐条公式。复现原论文请回到连续域。",
+      "📌 注意：本站权重更新是教学简化版（前后半段各一个 log 项）；原文为 W = 1+rand·log((rank−1)/μ+1) / 1−rand·log((μ−rank)/μ+1) 的严格分段形式。"
+    ],
+    "params": [
+      [
+        "n_pop",
+        "25",
+        "原质团个体数"
+      ],
+      [
+        "z",
+        "0.2",
+        "传播波随机重建概率（勘探占比）"
+      ],
+      [
+        "ls_every",
+        "10",
+        "每多少代对全局最优做一次 2-opt 并回灌"
+      ]
+    ],
+    "paper": "Li, S., Chen, H., Wang, M., Heidari, A.A. &amp; Mirjalili, S. (2020). Slime mould algorithm: A new method for stochastic optimization. Future Generation Computer Systems, 111, 300-323（doi:10.1016/j.future.2020.03.055）",
+    "faq": [
+      [
+        "黏菌真的会「优化」吗？",
+        "多头绒泡菌（Physarum）在实验里确实能以近最优方式连接食物源（最著名的是重建东京铁路网实验，2010 Science）——但这是一种<strong>局部正反馈的涌现现象</strong>，不是通用优化器。SMA 把这个现象抽象成了权重公式，抽象之后与真实黏菌的相似度见仁见智：这也是它进入「隐喻算法批评线」的原因。本站收录它的机制本身（权重自适应 + 三段更新），机制是有信息量的。"
+      ],
+      [
+        "权重公式为什么长这样？",
+        "W = 1±rand·log(ratio+1) 的设计意图：ratio ∈ [0,1] 衡量个体与最优的距离，log(ratio+1) ∈ [0, log2≈0.69] 让权重的调节幅度适中——最优个体权重最高约 1.69、最劣最低约 0.31，<strong>永远不会归零</strong>（最差的个体也保留 31% 的「管径」）。这保证了种群多样性不被过早绞杀，是 SMA 在多峰地形上表现尚可的原因之一。"
+      ]
+    ],
+    "use_when": "想先跑一个权重自适应、参数少、上手快的通用基线看水位；权重公式对编码不挑，连续 / 组合都容易套（本站 TSP 域有实测成绩）。",
+    "avoid_when": "对收敛精度要求苛刻的场合——2020 系隐喻算法的通病是后期开发不足；需要论证机制合理性的论文场景（它在本站「隐喻算法批评线」上：权重公式与真实黏菌行为的相似度见仁见智）。",
+    "family": "F2",
+    "origin": "<p>Li 等 (2020) 模拟黏菌（多头绒泡菌）觅食时<b>细胞质的振荡 / 管道收缩</b>：个体按适应度计算权重 W（用 log 函数使好个体权重更大），搜索时向「好个体」靠近（概率 p 由个体适应度与全局最优的 tanh 差决定），并在一定概率下做随机重置（z）。</p>",
+    "theory": "<p>SMA 的更新式 X = best + vb·(W·X_A − X_B)（向最优 + 两个随机个体加权差）与差分进化的变异形同，权重 W 与 p 的 tanh 项把「适应度排名」引入步长。本站按原文（含对数权重）实现，并在多个问题上通过等评价次数检验；但<b>在若干问题上 SMA 输给随机基线</b>（位向量与排列版本的 pk_sma / bv_sma 在测试中被撤下的格子较多）——这提醒读者：一个在连续基准上表现好的算法搬到离散编码后不一定好用。理论分析缺失；一个公认的实现细节是 vb、vc 的取值区间（[−a, a] 与 [−1, 1] 递减）。</p>",
+    "variants": [
+      "<b>改进 SMA</b>（混沌、对立学习、Lévy）；<b>二进制 SMA</b>；<b>多目标 MOSMA</b>。"
+    ],
+    "refs": [
+      "Li, Chen, Wang, Heidari &amp; Mirjalili (2020). Slime mould algorithm: A new method for stochastic optimization. Future Generation Computer Systems, 111, 300-323",
+      "Nakagaki, Yamada &amp; Tóth (2000). Maze-solving by an amoeboid organism. Nature, 407, 470",
+      "Sörensen (2015). Metaheuristics — the metaphor exposed. International Transactions in Operational Research, 22(1), 3-18",
+      "Kudela (2022). A critical problem in benchmarking and analysis of evolutionary computation methods. Nature Machine Intelligence, 4, 1238-1245"
+    ],
+    "tagline_en": "A slime mould's tube network thickens along good paths — adaptive weights drive the update.",
+    "summary_en": "The Slime Mould Algorithm (Li et al., 2020) updates positions with fitness-based weights that mimic a slime mould's tube thickening, with few parameters and little dependence on the encoding. It is a quick general baseline, but like many 2020-era metaphor algorithms it under-exploits late in the run, and on parts of this site's benchmark matrix it does not clearly beat random search at equal evaluation budget — see the coverage page for the ledger. On this site every algorithm solves TSP with a permutation encoding plus a shared memetic 2-opt component, so the comparison is of frameworks on equal footing, not of whose metaphor is cleverer.",
+    "name_en": "Slime Mould Algorithm (SMA)"
+  }
+]

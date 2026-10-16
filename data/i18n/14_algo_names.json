@@ -1,0 +1,99 @@
+{
+ "strings": {
+  "CMA-ES": "CMA-ES",
+  "DPLL 精确": "DPLL (exact)",
+  "IBEA": "IBEA (indicator-based EA)",
+  "Jaya": "Jaya",
+  "MOEA-D": "MOEA/D",
+  "MOEA/D": "MOEA/D",
+  "NSGA-II": "NSGA-II",
+  "NSGA-III": "NSGA-III",
+  "R-NSGA-II": "R-NSGA-II (reference-point NSGA-II)",
+  "SPEA2": "SPEA2",
+  "TLBO": "TLBO",
+  "UFLP 局部搜索": "UFLP local search",
+  "WalkSAT": "WalkSAT",
+  "乌鸦搜索 CSA": "Crow Search (CSA)",
+  "交叉熵 CEM": "Cross-Entropy (CEM)",
+  "人工鱼群 AFSA": "Artificial Fish Swarm (AFSA)",
+  "克隆选择 AIS": "Clonal Selection (AIS)",
+  "共生搜索 SOS": "Symbiotic Organisms Search (SOS)",
+  "和声 HS": "Harmony Search (HS)",
+  "哈里斯鹰 HHO": "Harris Hawks (HHO)",
+  "均衡 EO": "Equilibrium Optimizer (EO)",
+  "天鹰 AO": "Aquila Optimizer (AO)",
+  "密度贪心": "Density greedy",
+  "帝国竞争 ICA": "Imperialist Competitive (ICA)",
+  "度升序贪心": "Ascending-degree greedy",
+  "度序贪心": "Degree-order greedy",
+  "引力 GSA": "Gravitational Search (GSA)",
+  "构造贪心": "Constructive greedy",
+  "樽海鞘群 Salp": "Salp Swarm (Salp)",
+  "正弦余弦 SCA": "Sine Cosine (SCA)",
+  "海洋掠食者 MPA": "Marine Predators (MPA)",
+  "混合蛙跳 SFLA": "Shuffled Frog Leaping (SFLA)",
+  "烟花算法 FWA": "Fireworks (FWA)",
+  "生物地理 BBO": "Biogeography-Based (BBO)",
+  "磷虾群 KH": "Krill Herd (KH)",
+  "粒子群 PSO": "Particle Swarm (PSO)",
+  "精确 DP": "Exact DP",
+  "细菌觅食 BFO": "Bacterial Foraging (BFO)",
+  "花朵授粉 FPA": "Flower Pollination (FPA)",
+  "萤火虫 FA": "Firefly (FA)",
+  "蚁狮优化 ALO": "Ant Lion (ALO)",
+  "蛾焰 MFO": "Moth-Flame (MFO)",
+  "蜻蜓 DA": "Dragonfly (DA)",
+  "蝙蝠 BA": "Bat (BA)",
+  "蝴蝶优化 BOA": "Butterfly (BOA)",
+  "贪心 ln n": "Greedy (ln n approximation)",
+  "贪心锚点": "Greedy anchor",
+  "麻雀搜索 SSA": "Sparrow Search (SSA)",
+  "黏菌 SMA": "Slime Mould (SMA)",
+  "基线": "Baseline",
+  "构造启发": "Constructive heuristics",
+  "精确算法": "Exact algorithms",
+  "局部搜索": "Local search",
+  "群体智能": "Swarm intelligence",
+  "进化计算": "Evolutionary computation",
+  "物理·化学·数学启发": "Physics, chemistry and mathematics inspired",
+  "Jaya（位）（max）": "Jaya – bit-vector (max)"
+ },
+ "patterns": [
+  [
+   "^(.+)（位·max）$",
+   "$1 – bit-vector (max)"
+  ],
+  [
+   "^(.+)（位·对角近似）$",
+   "$1 – bit-vector, diagonal approx."
+  ],
+  [
+   "^(.+)（指派·对角近似）$",
+   "$1 – assignment, diagonal approx."
+  ],
+  [
+   "^(.+)（max）$",
+   "$1 (max)"
+  ],
+  [
+   "^(.+)（位）$",
+   "$1 – bit-vector"
+  ],
+  [
+   "^(.+)（指派）$",
+   "$1 – assignment"
+  ],
+  [
+   "^(.+)（分解）$",
+   "$1 (decomposition)"
+  ],
+  [
+   "^(.+)（强度Pareto）$",
+   "$1 (strength Pareto)"
+  ],
+  [
+   "^(.+)（MIS）$",
+   "$1 (MIS)"
+  ]
+ ]
+}

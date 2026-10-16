@@ -1,0 +1,163 @@
+{
+ "x1": {
+  "title": "X1 · 家族 × 问题域 SOTA（当前最优）矩阵",
+  "hint": "「谁擅长什么」一表定音。单元格链接到家族页/问题页，正文不重复。",
+  "cols": [
+   "问题域",
+   "域内最强家族（SOTA）",
+   "关键证据",
+   "普通元启发式的位置"
+  ],
+  "rows": [
+   [
+    "<a href='../index.html'>TSP</a>",
+    "LKH 系 ≫ EAX/CLK 种群系 ≫ 一切通用隐喻算法",
+    "LKH 保持全部未知最优实例纪录；MABB-LKH 2025 再增强",
+    "通用隐喻算法与 LKH 差距数量级——「专用算子为什么赢」的科普核心"
+   ],
+   [
+    "<a href='../problem/continuous/'>连续无约束</a>",
+    "DE 系（L-SHADE→RDEx）≈ CMA-ES 系 ≫ 隐喻新算法",
+    "CEC 2014-2025 冠军全为 DE 系；RDEx 四轨卫冕",
+    "隐喻新算法整体垫底但引用最高——流量与性能脱钩"
+   ],
+   [
+    "<a href='../problem/multiobj/'>多目标</a>",
+    "NSGA-II / MOEA/D / NSGA-III（GA 分支）",
+    "真实约束问题上 GDE3/NSGA-II 常胜 25 个新算法",
+    "按高维（参考点）/ 实时（低开销）场景分工"
+   ],
+   [
+    "<a href='../problem/binpack/'>装箱 BPP</a>",
+    "精确线（分支定价）+ 构造启发式（FFD/BFD）+ RL 新贵",
+    "1D 分组 GA/DP 主力、2D 混合 CP+RL、3D DRL 统治",
+    "群体隐喻算法只是配角——FFD 基线 vs 元启发式 vs LB 三层结构"
+   ],
+   [
+    "<a href='../problem/graphcolor/'>图着色</a>",
+    "HEAD（模因）+ 蒙特卡洛 NRPA + DSATUR 精确线",
+    "DIMACS 常用数据集最好已知着色全部出自局部搜索/模因",
+    "构造式保证可行，模因负责压色数"
+   ],
+   [
+    "<a href='../problem/knapsack/'>背包 KP</a>",
+    "DP 精确（伪多项式）+ 贪心 FPTAS",
+    "经典精确可解——通用元启发式无主场",
+    "「精确可解 vs NP-hard」光谱的教学对照点"
+   ],
+   [
+    "<a href='../problem/assignment/'>分配/选址</a>",
+    "Tabu Search + 模因算法（QAPLIB 霸榜）；GA（MEXCLP 大规模）",
+    "Taillard TS 至今头部；Aytug &amp; Saydam GA 胜整数规划",
+    "子集/分配编码邻域小，局部搜索极有效"
+   ],
+   [
+    "<a href='../problem/qubo/'>QUBO P8</a>",
+    "DE/PT 经典混合（PT-ICM）+ 专用硬件（SBM/DA/HSS）",
+    "四求解器分项冠军各不相同——没有全能求解器",
+    "元启发式是混合求解生态的一环而非全部"
+   ]
+  ]
+ },
+ "x2": {
+  "title": "X2 · 算法 × 编码方案矩阵",
+  "hint": "编码是算法设计的第一关键决策——决定解空间定义与可用算子集（Osaba et al. arXiv 2410.03205 教程经典）。同一算法换编码即换问题域。",
+  "cols": [
+   "编码",
+   "典型问题",
+   "配套算子",
+   "本站落地"
+  ],
+  "rows": [
+   [
+    "二进制",
+    "背包 / 特征选择",
+    "位翻转变异、单/双点均匀交叉",
+    "<a href='../problem/knapsack/'>背包演示</a>（10 算法）"
+   ],
+   [
+    "排列",
+    "TSP / 调度 / QAP",
+    "PMX/OX/CX/边重组 + swap/inversion 变异",
+    "本站 45 个 TSP 算法页（genotype=phenotype）"
+   ],
+   [
+    "实值",
+    "连续优化",
+    "SBX/BLX-α/高斯/多项式变异 + Levy 飞行",
+    "<a href='../problem/continuous/'>连续函数演示</a>（PSO/DE 原生域）"
+   ],
+   [
+    "随机键 Random-Keys",
+    "排序类转移优化",
+    "标准实值算子 + 排序解码",
+    "跨域转移标准做法（解码耗时，实时系统避免）"
+   ],
+   [
+    "树",
+    "遗传编程",
+    "子树交换 / 点变异",
+    "程序/表达式进化（超启发式底层）"
+   ]
+  ]
+ },
+ "x3": {
+  "title": "X3 · 问题 × 算子矩阵",
+  "hint": "各问题类的标准算子，及其原始文献出处。矩阵单元链接到问题页，不复制正文。",
+  "cols": [
+   "问题类",
+   "构造",
+   "邻域/变异",
+   "交叉",
+   "修复/约束"
+  ],
+  "rows": [
+   [
+    "<a href='../index.html'>TSP</a>",
+    "最近邻 / 最远插入 / Christofides（1.5 倍保证）",
+    "2-opt（Croes 1958）/ 3-opt / Or-opt / LK 变深度",
+    "OX / PMX / ERX",
+    "—（排列天然可行）"
+   ],
+   [
+    "<a href='../problem/knapsack/'>背包族</a>",
+    "单位价值贪心",
+    "位翻转",
+    "均匀/单点交叉",
+    "贪心修复（单位价值最低先扔）"
+   ],
+   [
+    "<a href='../problem/binpack/'>装箱</a>",
+    "FFD / BFD",
+    "swap / 迁移",
+    "OX（排列编码）",
+    "First-Fit 解码构造保证可行"
+   ],
+   [
+    "<a href='../problem/graphcolor/'>图着色</a>",
+    "DSATUR / 随机序 FF",
+    "Kempe 链 / 重染色",
+    "排列交叉 + FF 解码",
+    "FF 解码构造保证合法"
+   ],
+   [
+    "<a href='../problem/assignment/'>分配/选址</a>",
+    "覆盖增益贪心",
+    "swap（换出一个进一个）/ 单点迁移",
+    "分配互换",
+    "容量贪心修复"
+   ],
+   [
+    "<a href='../problem/continuous/'>连续</a>",
+    "拉丁超方 / 随机",
+    "高斯 / 多项式 / Levy 变异",
+    "SBX / BLX-α",
+    "边界钳制 / 罚函数"
+   ]
+  ]
+ },
+ "x4": {
+  "title": "X4 · 本站实测矩阵",
+  "hint": "45 算法 × TSP（统一 200 代预算、seed=7、同一随机实例，bench.py 实测）——完整收敛曲线见各算法页；跨问题域实测见各问题页实测表。预算敏感性警告见批评史页：不同预算下排名会翻转。"
+ }
+}

@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title data-en="DTLZ Scalable Test Problems (3 objectives) (DTLZ) · abstract problem type">DTLZ 三目标基准（DTLZ Scalable Test Problems (3 objectives), DTLZ）· 抽象问题类型</title>
+<meta name="description" content="DTLZ 三目标基准（DTLZ）：抽象定义、与背包家族的结构差异、求解路径与原始文献出处（归类锚 A6）。">
+<script src="../../js/i18n.js"></script>
+<script>
+(function(){var t=null;try{t=localStorage.getItem("theme")}catch(e){}
+if(!t)t=(window.matchMedia&&matchMedia("(prefers-color-scheme: dark)").matches)?"dark":"light";
+document.documentElement.setAttribute("data-theme",t);})();
+</script>
+<link rel="stylesheet" href="../../css/style.css">
+<link rel="canonical" href="https://funnywayike.github.io/swarm-encyclopedia/problem/dtlz/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="群智能算法百科">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:title" content="DTLZ 三目标基准（DTLZ Scalable Test Problems (3 objectives), DTLZ）· 抽象问题类型">
+<meta property="og:description" content="DTLZ 三目标基准（DTLZ）：抽象定义、与背包家族的结构差异、求解路径与原始文献出处（归类锚 A6）。">
+<meta property="og:url" content="https://funnywayike.github.io/swarm-encyclopedia/problem/dtlz/">
+<meta property="og:image" content="https://funnywayike.github.io/swarm-encyclopedia/assets/og-cover.png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="DTLZ 三目标基准（DTLZ Scalable Test Problems (3 objectives), DTLZ）· 抽象问题类型">
+<meta name="twitter:description" content="DTLZ 三目标基准（DTLZ）：抽象定义、与背包家族的结构差异、求解路径与原始文献出处（归类锚 A6）。">
+<meta name="twitter:image" content="https://funnywayike.github.io/swarm-encyclopedia/assets/og-cover.png">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 100 100%27%3E%3Ctext y=%27.9em%27 font-size=%2790%27%3E%F0%9F%90%9D%3C/text%3E%3C/svg%3E">
+<meta name="theme-color" content="#f7f7f8" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#0b0d12" media="(prefers-color-scheme: dark)">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "首页", "item": "https://funnywayike.github.io/swarm-encyclopedia/"}, {"@type": "ListItem", "position": 2, "name": "dtlz", "item": "https://funnywayike.github.io/swarm-encyclopedia/problem/dtlz/"}]}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "Article", "name": "DTLZ 三目标基准（DTLZ Scalable Test Problems (3 objectives), DTLZ）· 抽象问题类型", "description": "DTLZ 三目标基准（DTLZ）：抽象定义、与背包家族的结构差异、求解路径与原始文献出处（归类锚 A6）。", "inLanguage": "zh-CN", "isPartOf": {"@type": "WebSite", "name": "群智能算法百科", "url": "https://funnywayike.github.io/swarm-encyclopedia"}}</script>
+</head>
+<body>
+<a class="skip-link" href="#main">跳到主内容</a>
+<nav class="nav"><div class="nav-inner">
+  <a class="brand" href="../../index.html"><span class="logo">🐝</span>群智能算法百科</a>
+  <div class="nav-links">
+  <a href="../../index.html">首页</a>
+  <div class="dd"><a class="dd-btn" href="../../algo/index.html">算法 <span class="caret">▾</span></a><div class="dd-panel dd-wide"><div class="dd-grid"><div class="dd-group"><a class="dd-fam" title="种群 + 选择 + 重组/变异的 Darwin 机器——EC 正统主线，本站收录 GA、DE、BBO 与 EDA/ES 分支。" href="../../algo/f1-ea/index.html">进化算法族 EA<span class="hint">5 算法 · 1 配方 · 9 词条</span></a><a class="dd-item" href="../../algo/f1-ea/ga/index.html">🧬&nbsp;遗传算法 GA</a><a class="dd-item" href="../../algo/f1-ea/de/index.html">📉&nbsp;差分进化 DE</a><a class="dd-item" href="../../algo/f1-ea/cem/index.html">🎲&nbsp;交叉熵方法 CEM</a><a class="dd-item" href="../../algo/f1-ea/cma-es/index.html">⚙&nbsp;协方差矩阵自适应进化策略 CMA-ES</a><a class="dd-item" href="../../algo/f1-ea/bbo/index.html">🏝️&nbsp;生物地理 BBO</a><a class="dd-item" href="../../algo/f1-ea/steady-ga/index.html">🧪&nbsp;稳态 GA（组合）</a></div><div class="dd-group"><a class="dd-fam" title="简单个体的局部交互涌现出群体智能——本站收录最密的家族。" href="../../algo/f2-si/index.html">群智能族 SI<span class="hint">26 算法 · 1 词条</span></a><a class="dd-item" href="../../algo/f2-si/pso/index.html">🌀&nbsp;粒子群算法 PSO</a><a class="dd-item" href="../../algo/f2-si/aco/index.html">🐜&nbsp;蚁群算法 ACO</a><a class="dd-item" href="../../algo/f2-si/abc/index.html">🐝&nbsp;人工蜂群 ABC</a><a class="dd-item" href="../../algo/f2-si/fa/index.html">✨&nbsp;萤火虫算法 FA</a><a class="dd-item" href="../../algo/f2-si/woa/index.html">🐋&nbsp;鲸鱼优化 WOA</a><a class="dd-item" href="../../algo/f2-si/gwo/index.html">🐺&nbsp;灰狼优化 GWO</a><a class="dd-item" href="../../algo/f2-si/cs/index.html">🐦&nbsp;布谷鸟搜索 CS</a><a class="dd-item" href="../../algo/f2-si/hho/index.html">🦅&nbsp;哈里斯鹰 HHO</a><a class="dd-item" href="../../algo/f2-si/ba/index.html">🦇&nbsp;蝙蝠算法 BA</a><a class="dd-item" href="../../algo/f2-si/bfo/index.html">🦠&nbsp;细菌觅食 BFO</a><a class="dd-item" href="../../algo/f2-si/mfo/index.html">🕯️&nbsp;蛾焰优化 MFO</a><a class="dd-item" href="../../algo/f2-si/fwa/index.html">🎆&nbsp;烟花算法 FWA</a><a class="dd-item" href="../../algo/f2-si/afsa/index.html">🐟&nbsp;人工鱼群 AFSA</a><a class="dd-item" href="../../algo/f2-si/ssa/index.html">🐦&nbsp;麻雀搜索 SSA</a><a class="dd-item" href="../../algo/f2-si/alo/index.html">🕳️&nbsp;蚁狮优化 ALO</a><a class="dd-item" href="../../algo/f2-si/boa/index.html">🦋&nbsp;蝴蝶优化 BOA</a><a class="dd-item" href="../../algo/f2-si/salp/index.html">⛓️&nbsp;樽海鞘群 Salp</a><a class="dd-item" href="../../algo/f2-si/sfla/index.html">🐸&nbsp;混合蛙跳 SFLA</a><a class="dd-item" href="../../algo/f2-si/fpa/index.html">🌸&nbsp;花朵授粉 FPA</a><a class="dd-item" href="../../algo/f2-si/kh/index.html">🦐&nbsp;磷虾群 KH</a><a class="dd-item" href="../../algo/f2-si/sos/index.html">🤝&nbsp;共生搜索 SOS</a><a class="dd-item" href="../../algo/f2-si/da/index.html">🐉&nbsp;蜻蜓 DA</a><a class="dd-item" href="../../algo/f2-si/mpa/index.html">🦈&nbsp;海洋掠食者 MPA</a><a class="dd-item" href="../../algo/f2-si/cscrow/index.html">🐦‍⬛&nbsp;乌鸦搜索 CSA</a><a class="dd-item" href="../../algo/f2-si/ao/index.html">🦅&nbsp;天鹰 AO</a><a class="dd-item" href="../../algo/f2-si/sma/index.html">🟠&nbsp;黏菌算法 SMA</a></div><div class="dd-group"><a class="dd-fam" title="退火、引力、均衡池、正弦余弦、零参数——把物理过程或数学公式当搜索算子，不靠生物隐喻。" href="../../algo/f3-phys/index.html">物理、化学与数学启发<span class="hint">5 算法 · 3 词条</span></a><a class="dd-item" href="../../algo/f3-phys/sa/index.html">🌡️&nbsp;模拟退火 SA</a><a class="dd-item" href="../../algo/f3-phys/sca/index.html">🌊&nbsp;正弦余弦 SCA</a><a class="dd-item" href="../../algo/f3-phys/gsa/index.html">🪐&nbsp;引力搜索 GSA</a><a class="dd-item" href="../../algo/f3-phys/jaya/index.html">🏆&nbsp;Jaya 算法 JAYA</a><a class="dd-item" href="../../algo/f3-phys/eo/index.html">⚗️&nbsp;均衡 EO</a></div><div class="dd-group"><a class="dd-fam" title="教学、和声、帝国竞争——把人类的学习、艺术与政治行为当搜索隐喻。" href="../../algo/f4-human/index.html">人类与社会启发<span class="hint">3 算法 · 1 词条</span></a><a class="dd-item" href="../../algo/f4-human/hs/index.html">🎵&nbsp;和声搜索 HS</a><a class="dd-item" href="../../algo/f4-human/tlbo/index.html">🎓&nbsp;教与学优化 TLBO</a><a class="dd-item" href="../../algo/f4-human/ica/index.html">🏛️&nbsp;帝国竞争 ICA</a></div><div class="dd-group"><a class="dd-fam" title="免疫系统——SI/EA 之外的生物启发收容位。" href="../../algo/f5-bio/index.html">免疫与其他生物<span class="hint">1 算法 · 1 词条</span></a><a class="dd-item" href="../../algo/f5-bio/ais/index.html">🛡️&nbsp;克隆选择 AIS</a></div><div class="dd-group"><a class="dd-fam" title="不靠种群隐喻，靠「邻域结构 + 接受准则」的工程学——禁忌、变邻域、迭代局部搜索、GRASP。" href="../../algo/f10-trajectory/index.html">局部搜索与轨迹法<span class="hint">4 算法 · 1 词条</span></a><a class="dd-item" href="../../algo/f10-trajectory/ts/index.html">🔒&nbsp;禁忌搜索 TS</a><a class="dd-item" href="../../algo/f10-trajectory/ils/index.html">🔄&nbsp;迭代局部搜索 ILS</a><a class="dd-item" href="../../algo/f10-trajectory/vns/index.html">🧭&nbsp;变邻域搜索 VNS</a><a class="dd-item" href="../../algo/f10-trajectory/grasp/index.html">🎲&nbsp;GRASP</a></div><div class="dd-group"><a class="dd-fam" title="元启发式 × 数学规划 × 代理模型 × 自动配置——不发明新隐喻，只做组装厂，实战价值密度最高的家族。" href="../../algo/f6-hybrid/index.html">混合与框架层<span class="hint">5 配方 · 5 词条</span></a><a class="dd-item" href="../../algo/f6-hybrid/memetic/index.html">🧪&nbsp;Memetic GA（组合）</a><a class="dd-item" href="../../algo/f6-hybrid/ils/index.html">🧪&nbsp;迭代局部搜索 ILS（组合）</a><a class="dd-item" href="../../algo/f6-hybrid/hh/index.html">🧪&nbsp;选择式超启发式（组合）</a><a class="dd-item" href="../../algo/f6-hybrid/saea/index.html">🧪&nbsp;代理辅助进化 SAEA（组合）</a><a class="dd-item" href="../../algo/f6-hybrid/matheur/index.html">🧪&nbsp;Fix-and-Optimize（组合）</a></div><div class="dd-group"><a class="dd-fam" title="Pareto 支配下的进化计算——NSGA 五代演进与分解式方法的双雄会。" href="../../algo/f7-mo/index.html">多目标专族<span class="hint">2 域内实现 · 3 词条</span></a><a class="dd-item" href="../../problem/multiobj/?algo=nsga2#demo">NSGA-II（Deb 2002）&nbsp;<span class="hint">域内实现</span></a><a class="dd-item" href="../../problem/multiobj/?algo=wsga#demo">加权 GA（WSGA）&nbsp;<span class="hint">域内实现</span></a></div><div class="dd-group"><a class="dd-fam" title="Quality-Diversity、神经组合优化、LLM 自动算法设计——元启发式的新大陆。" href="../../algo/f8-new/index.html">新范式（2020s）<span class="hint">1 配方 · 4 词条</span></a><a class="dd-item" href="../../algo/f8-new/mapelites/index.html">🧪&nbsp;MAP-Elites QD（组合）</a></div><div class="dd-group"><a class="dd-fam" title="一隐喻一算法的量产线——本站如实收录机制，同时强制挂批评视角，这是全网同类站都没有的诚实。" href="../../algo/f9-metaphor/index.html">隐喻量产线（批评视角专区）<span class="hint">66 词条</span></a><a class="dd-item dd-entry" href="../../algo/f9-metaphor/index.html">查看 66 个收录词条 →</a></div><div class="dd-group"><a class="dd-fam" title="非元启发式的专用结构化搜索与精确求解器对照位——现役首例：TSP 的 LKH 谱系，随各问题域扩容。" href="../../algo/f0-elite/index.html">专用求解对照系<span class="hint">1 算法 · 1 词条</span></a><a class="dd-item" href="../../algo/f0-elite/lk/index.html">🧭&nbsp;Lin–Kernighan LK</a></div></div><div class="hint" style="padding:10px 6px 0">共 45 个实际算法（⚙ 图标）；🧪 标记为组合配方、f7/f8 组内带域内实现入口——比算法本体多几项属正常。</div></div></div>
+  <div class="dd"><a class="dd-btn" href="../../problem/index.html">问题 <span class="caret">▾</span></a><div class="dd-panel dd-wide prob-wide"><div class="prob-cols"><div class="dd-col"><a class="dd-fam" href="../../problem/tsp/index.html">旅行商问题 TSP</a><a class="dd-item" href="../../problem/lop/index.html">线性排序问题 LOP</a><a class="dd-item" href="../../problem/vrp/index.html">车辆路径问题 VRP</a><a class="dd-item" href="../../problem/vrptw/index.html">带时间窗的车辆路径问题 VRPTW</a><a class="dd-item" href="../../problem/vrpstw/index.html">软时间窗车辆路径问题 VRPSTW</a><a class="dd-item" href="../../problem/mdvrp/index.html">多车场车辆路径问题 MDVRP</a><a class="dd-item" href="../../problem/sms/index.html">单机调度 SMS</a><a class="dd-item" href="../../problem/fss/index.html">流水车间调度 FSS</a><a class="dd-item" href="../../problem/jss/index.html">作业车间调度 JSS</a><a class="dd-item" href="../../problem/hcycle/index.html">哈密顿回路 HC</a><a class="dd-item" href="../../problem/lpath/index.html">最长路径 LP</a><a class="dd-item" href="../../problem/fjsp/index.html">柔性作业车间调度 FJSP</a><a class="dd-item" href="../../problem/carp/index.html">带容量弧路由问题 CARP</a><a class="dd-item" href="../../problem/rpostman/index.html">乡村邮递员问题 RPP</a><a class="dd-item" href="../../problem/oss/index.html">开放车间调度 OSS</a><a class="dd-item" href="../../problem/rcpsp/index.html">资源受限项目调度 RCPSP</a><a class="dd-item" href="../../problem/orienteering/index.html">定向运动问题 OP</a><a class="dd-item" href="../../problem/atsp/index.html">非对称旅行商问题 ATSP</a><a class="dd-item" href="../../problem/pms/index.html">并行机调度（最小化最大完工时间） PMS</a></div><div class="dd-col"><a class="dd-fam" href="../../problem/knapsack/index.html">背包问题枢纽</a><a class="dd-item" href="../../problem/knapsack/fractional/index.html">分数背包</a><a class="dd-item" href="../../problem/knapsack/bounded/index.html">有界背包</a><a class="dd-item" href="../../problem/knapsack/unbounded/index.html">无界背包</a><a class="dd-item" href="../../problem/knapsack/changemaking/index.html">找零问题</a><a class="dd-item" href="../../problem/knapsack/multiple/index.html">多背包</a><a class="dd-item" href="../../problem/knapsack/multiplechoice/index.html">多选择背包</a><a class="dd-item" href="../../problem/knapsack/multidim/index.html">多维背包</a><a class="dd-item" href="../../problem/knapsack/discounted/index.html">折扣背包</a><a class="dd-item" href="../../problem/knapsack/quadratic/index.html">二次背包</a><a class="dd-item" href="../../problem/knapsack/subsetsum/index.html">子集和</a><a class="dd-item" href="../../problem/setcover/index.html">集合覆盖 SCP</a><a class="dd-item" href="../../problem/misindep/index.html">最大独立集 MIS</a><a class="dd-item" href="../../problem/vcover/index.html">顶点覆盖 VC</a><a class="dd-item" href="../../problem/domset/index.html">支配集 DS</a><a class="dd-item" href="../../problem/mclique/index.html">最大团 MCP</a><a class="dd-item" href="../../problem/setpack/index.html">集合打包 SPK</a><a class="dd-item" href="../../problem/hset/index.html">碰集/击集 HIT</a><a class="dd-item" href="../../problem/fvs/index.html">反馈顶点集 FVS</a></div><div class="dd-col"><a class="dd-fam" href="../../problem/assignment/index.html">分配与选址</a><a class="dd-item" href="../../problem/lap/index.html">线性指派 LAP</a><a class="dd-item" href="../../problem/tdm/index.html">3-维匹配 3DM</a></div><div class="dd-col"><a class="dd-fam" href="../../problem/binpack/index.html">装箱问题</a><a class="dd-item" href="../../problem/binpack2d/index.html">二维装箱 2D-BPP</a><a class="dd-item" href="../../problem/strippack/index.html">条带装箱 SPP</a><a class="dd-item" href="../../problem/vsbinpack/index.html">变尺寸箱装箱 VSBPP</a><a class="dd-item" href="../../problem/cutstock/index.html">一维下料 CSP</a><a class="dd-item" href="../../problem/gpp/index.html">图划分 GPP</a><a class="dd-item" href="../../problem/numpart/index.html">数分割问题 NPP</a></div><div class="dd-col"><a class="dd-fam" href="../../problem/graphcolor/index.html">图着色</a><a class="dd-item" href="../../problem/listcolor/index.html">列表着色 LCP</a><a class="dd-item" href="../../problem/edgecolor/index.html">边着色 ECP</a><a class="dd-item" href="../../problem/precolor/index.html">预着色扩展 PrExt</a><a class="dd-item" href="../../problem/totalcolor/index.html">全着色 TCP</a><a class="dd-item" href="../../problem/freqasg/index.html">频率分配问题 FAP</a></div><div class="dd-col"><a class="dd-fam" href="../../problem/qubo/index.html">QUBO 与密码类</a><a class="dd-item" href="../../problem/sat/index.html">可满足性问题 SAT</a><a class="dd-item" href="../../problem/maxsat/index.html">最大可满足性 MAX-SAT</a><a class="dd-item" href="../../problem/maxcut/index.html">最大割 MAX-CUT</a><a class="dd-item" href="../../problem/csplogic/index.html">约束满足问题 CSP-Logic</a></div><div class="dd-col"><a class="dd-fam" href="../../problem/continuous/index.html">连续优化</a><a class="dd-item" href="../../problem/bbob/index.html">BBOB 基准套件 BBOB</a><a class="dd-item" href="../../problem/cbbb/index.html">约束黑箱优化 CBBB</a><a class="dd-item" href="../../problem/nbbb/index.html">噪声黑箱优化 NBBB</a><a class="dd-item" href="../../problem/lbbb/index.html">大规模黑箱优化 LBBB</a><a class="dd-item" href="../../problem/ebbb/index.html">昂贵黑箱优化 EBBB</a><a class="dd-item" href="../../problem/ecd/index.html">工程约束设计 ECD</a></div><div class="dd-col"><a class="dd-fam" href="../../problem/multiobj/index.html">多目标优化</a><a class="dd-item" href="../../problem/zdt/index.html">ZDT 双目标基准 ZDT</a><a class="dd-item" href="../../problem/dtlz/index.html">DTLZ 三目标基准 DTLZ</a><a class="dd-item" href="../../problem/maop/index.html">超多目标优化 MaOP</a><a class="dd-item" href="../../problem/moco/index.html">组合多目标优化 MOCO</a><a class="dd-item" href="../../problem/prefmo/index.html">偏好多目标范式 PREFMO</a><a class="dd-item" href="../../problem/decompo/index.html">分解多目标范式 DECOMPO</a><a class="dd-item" href="../../problem/indicmo/index.html">指标多目标范式 INDICMO</a></div><div class="dd-col"><a class="dd-fam" href="../../problem/uflp/index.html">设施选址 UFLP</a><a class="dd-item" href="../../problem/cflp/index.html">容量设施选址 CFLP</a><a class="dd-item" href="../../problem/lrp/index.html">选址-路径联合 LRP</a><a class="dd-item" href="../../problem/stp/index.html">斯坦纳树 STP</a><a class="dd-item" href="../../problem/ndp/index.html">网络设计 NDP</a><a class="dd-item" href="../../problem/qap/index.html">二次分配问题 QAP</a><a class="dd-item" href="../../problem/pmedian/index.html">p-中位问题 PMED</a><a class="dd-item" href="../../problem/pcenter/index.html">p-中心问题 PCEN</a><a class="dd-item" href="../../problem/kmeans/index.html">k-均值聚类（中心点优化） KMEANS</a></div><div class="dd-col"><span class="dd-fam">排课与排班（纯词条）</span><a class="dd-item" href="../../problem/etp/index.html">考试排课 ETP</a><a class="dd-item" href="../../problem/ctp/index.html">课程排课 CTP</a><a class="dd-item" href="../../problem/nrp/index.html">护士排班 NRP</a><a class="dd-item" href="../../problem/ttp/index.html">旅行锦标赛问题 TTP</a><a class="dd-item" href="../../problem/sls/index.html">体育联赛排程 SLS</a></div><div class="dd-col"><span class="dd-fam">图与网络流（词条与多项式可解对照）</span><a class="dd-item" href="../../problem/mst/index.html">最小生成树 MST</a><a class="dd-item" href="../../problem/shortestpath/index.html">最短路径 SP</a><a class="dd-item" href="../../problem/maxflow/index.html">最大流问题 MF</a><a class="dd-item" href="../../problem/mincostflow/index.html">最小费用流问题 MCF</a><a class="dd-item" href="../../problem/topsort/index.html">拓扑排序 TSORT</a><a class="dd-item" href="../../problem/gmatch/index.html">一般图匹配 GM</a></div><div class="dd-col"><span class="dd-fam">开放登记（优化场景与应用专题）</span><a class="dd-item" href="../../problem/blo/index.html">双层优化 BLO</a><a class="dd-item" href="../../problem/ro/index.html">鲁棒优化 RO</a><a class="dd-item" href="../../problem/mmo/index.html">多模态优化 MMO</a><a class="dd-item" href="../../problem/dop/index.html">动态优化 DOP</a><a class="dd-item" href="../../problem/ged/index.html">生成式设计 GD</a><a class="dd-item" href="../../problem/proteinfold/index.html">蛋白质折叠（格点模型） HP</a><a class="dd-item" href="../../problem/msa/index.html">多序列比对 MSA</a></div><div class="dd-col"><a class="dd-fam" href="../../problem/reductions/index.html">归约页 · 全谱词条</a></div></div></div></div>
+  <div class="dd"><a class="dd-btn" href="../../encyclopedia/index.html">科普 <span class="caret">▾</span></a><div class="dd-panel"><div class="dd-col"><a class="dd-item" href="../../encyclopedia/index.html#intro">❓&nbsp;什么是元启发式？（3 分钟入门）</a><div class="hint" style="padding:2px 10px 8px">小白从这里进：入门 → 理论/批评/实验方法学 → 交叉矩阵与应用地图（研究级硬核内容，按需取用）。</div><a class="dd-item" href="../../meta/theory/index.html">📐&nbsp;理论基础</a><a class="dd-item" href="../../meta/criticism/index.html">🔍&nbsp;批评史</a><a class="dd-item" href="../../meta/methodology/index.html">🧪&nbsp;实验方法学</a><a class="dd-item" href="../../meta/timeline/index.html">🕰️&nbsp;五十年时间轴</a><a class="dd-item" href="../../encyclopedia/index.html" title="百科全书（研究级）">📌&nbsp;百科全书</a><a class="dd-item" href="../../matrix/index.html" title="交叉矩阵（研究级）">📌&nbsp;交叉矩阵</a><a class="dd-item" href="../../applications/index.html" title="应用地图（研究级）">📌&nbsp;应用地图</a><span class="dd-fam">给贡献者</span><a class="dd-item" href="../../coverage/index.html" title="覆盖看板：写给想参与维护或扩展本站的人">🛠&nbsp;覆盖看板</a><a class="dd-item" href="../../components/index.html" title="组件库：写给想参与维护或扩展本站的人">🛠&nbsp;组件库</a><a class="dd-item" href="../../discovery/index.html" title="候选发现池：写给想参与维护或扩展本站的人">🛠&nbsp;候选发现池</a></div></div></div>
+  <a href="../../demo/index.html">▶ 演示</a>
+  <a href="../../guide/index.html">上手</a>
+  <a href="../../compare/index.html">算法对比</a>
+  </div>
+  <button id="langToggle" class="theme-btn lang-btn" title="Switch to English / 切换到英文" aria-label="Language">EN</button><button id="themeToggle" class="theme-btn" title="切换日间/夜间模式" aria-label="切换主题">🌙</button>
+</div></nav>
+
+<div class="wrap" id="main" role="main">
+
+  <div class="crumbs"><a href="../../index.html">首页</a> · 问题 · <a href="../../problem/reductions/index.html">抽象类型谱</a> · DTLZ 三目标基准</div>
+  <div class="hero">
+    <h1 data-en="DTLZ Scalable Test Problems (3 objectives) (DTLZ)">DTLZ 三目标基准 <span class="grad">DTLZ Scalable Test Problems (3 objectives)（DTLZ）</span></h1>
+    <div class="sub">抽象问题类型 · Ⅷ 多目标抽象类（前沿编码）</div>
+  </div>
+  <section class="en-summary" lang="en"><h2>In brief</h2><p>DTLZ is a family of scalable multi-objective test problems whose number of objectives can be chosen freely. The site includes DTLZ1–7 with exactly three objectives, runs NSGA-II, MOEA/D, a weighted-sum GA and random search, and reports IGD and the hypervolume ratio against reference points sampled from the analytic front. It does not show DTLZ's main selling point — scaling to 5, 8 or 10 objectives.</p></section>
+  
+  <h2 id="demo">在线求解演示 · DTLZ 三目标基准</h2>
+  <div class="fidelity fid-standard" role="note"><b>✅ 标准模型</b>　与教科书/文献定义一致，结果可与文献对照。</div>
+  <div class="panel">
+    <div class="panel-head">运行设置</div>
+    <div class="row">
+      <div class="field"><label for="algoSel">算法</label><select id="algoSel"><optgroup label="基线"><option value="random" data-tune='[]'>随机搜索</option></optgroup><optgroup label="进化计算"><option value="wsga" data-tune='[]'>加权和 GA</option><option value="nsga2" data-tune='[]'>NSGA-II</option><option value="moead" data-tune='[]'>MOEA/D</option><option value="ibea" data-tune='[]'>IBEA</option><option value="rnsga2" data-tune='[]'>R-NSGA-II</option></optgroup></select></div>
+      <div class="field"><label for="presetSel">实例</label><select id="presetSel"><option value="dtlz2">DTLZ2 · 球面前沿</option>
+<option value="dtlz1">DTLZ1 · 线性前沿 + 多峰（难）</option>
+<option value="dtlz3">DTLZ3 · 球面前沿 + 大量局部前沿（很难）</option>
+<option value="dtlz4">DTLZ4 · 球面前沿，解密度极不均</option>
+<option value="dtlz5">DTLZ5 · 前沿退化成一条曲线</option>
+<option value="dtlz6">DTLZ6 · 退化曲线 + 难收敛</option>
+<option value="dtlz7">DTLZ7 · 4 块不连通的前沿</option>
+<option value="__custom">⚙ 自定义…</option></select></div>
+      <div class="field"><label for="iterInp">迭代次数</label><input id="iterInp" type="number" value="200" min="10" max="2000"></div>
+      <div class="field"><label for="seedInp">随机种子</label><input id="seedInp" type="number" value="7" min="1"></div>
+      <div class="field"><label for="speedSel">速度（代/帧）</label><select id="speedSel"><option>1</option><option selected>2</option><option>5</option><option>10</option></select></div>
+      <button id="btnStart" class="primary">▶ 开始</button>
+      <button id="btnStop">⏸ 暂停</button>
+      <button id="btnStep" title="推进一代">⏭ 单步</button>
+      <button id="btnReset">⟳ 重置</button>
+      <button id="btnExportDom" class="ghost">↧ 导出结果</button>
+      <button id="btnPngDom" class="ghost">↧ 图像PNG</button>
+      <button id="btnConvDom" class="ghost">↧ 曲线PNG</button>
+      <button id="btnCsvDom" class="ghost">↧ 导出CSV</button>
+      <button id="btnBundleDom" class="ghost">📦 实验包</button>
+      <button id="btnImportDom" class="ghost">↥ 导入实例</button>
+      <input id="domFileInput" type="file" accept=".json,.csv,.txt,.cnf,.col,.tsp,.atsp,application/json,text/csv" hidden>
+    </div>
+    <div class="row" id="tuneBox"></div>
+    <div class="row" id="customRow" hidden><div class="field"><label>决策变量数 n</label><input id="cst_n" type="number" value="12" min="3" max="100" step="1"></div></div>
+  </div>
+  <div class="statusline">
+    <span class="pill" id="statusPill"><span class="dot"></span><span id="statusText" role="status" aria-live="polite">初始化中…</span></span>
+    <span id="statusExtra">三个目标用斜投影画出（点色 = 目标3）；淡点 = 解析真前沿，圈 = 当前非支配解</span>
+  </div>
+  <div id="importReport" class="import-report" role="status" hidden></div>
+  <p class="hint import-hint">「导入实例」支持 .json / .csv / .cnf / .col，导入前会先校验并指出问题所在。
+    <a id="lnkSample" download>下载本页示例数据</a> · <a id="lnkFormats" target="_blank" rel="noopener">格式说明</a></p>
+
+  <div class="cols" style="margin-top:10px">
+    <div>
+      <div class="chart-card">
+        <div class="chart-head"><span class="chart-title">问题可视化</span></div>
+        <div class="chart-body"><canvas id="vizCanvas" role="img" aria-label="问题可视化：当前实例与解状态的可视化，数值可导出 JSON" width="760" height="430"></canvas></div>
+      </div>
+    </div>
+    <div>
+      <div class="chart-card">
+        <div class="chart-head"><span class="chart-title">收敛曲线</span>
+          <div class="legend"><span><i class="dotm" style="background:var(--cv-best)"></i>全局最优</span><span><i class="dotm" style="background:var(--cv-cur)"></i>当代</span></div>
+        </div>
+        <div class="chart-body"><canvas id="convCanvas" role="img" aria-label="收敛曲线：全局最优与当代值随迭代变化，数值可导出 JSON" width="760" height="430"></canvas></div>
+      </div>
+    </div>
+  </div>
+  <p class="hint">红线=全局最优（单调），灰线=当代值（允许波动）。算法在浏览器本地运行（Pyodide），首次加载约 10MB。</p>
+  
+  <div class="mo-metrics" id="moMetrics">
+    <div class="mm-card"><span class="mm-label">IGD（到真前沿的平均距离，越小越好）</span><span class="mm-val" id="mcIGD">—</span></div>
+    <div class="mm-card"><span class="mm-label">超体积占真前沿的比例（越大越好）</span><span class="mm-val" id="mcHV">—</span></div>
+    <div class="mm-card"><span class="mm-label">非支配解数</span><span class="mm-val" id="mcND">—</span></div>
+    <p class="mm-note" id="moNote">这些函数的真前沿有解析式，所以两个指标都有绝对意义：IGD 同时惩罚「没收敛」和「没铺开」；HV 的参考点按函数固定、不随结果变（多数是各目标 1.1；DTLZ1 是 0.6；ZDT5 是 (32, 11)；DTLZ7 是 (1.1, 1.1, 7)）。曲线图画的是历史最好 IGD。</p>
+  </div>
+  <script>
+  window.PAGE_DOMAIN = "mocont";
+  window.PAGE_PRESETS = {"dtlz2": {"variant": "dtlz2"}, "dtlz1": {"variant": "dtlz1"}, "dtlz3": {"variant": "dtlz3"}, "dtlz4": {"variant": "dtlz4"}, "dtlz5": {"variant": "dtlz5"}, "dtlz6": {"variant": "dtlz6"}, "dtlz7": {"variant": "dtlz7"}};
+  window.PAGE_CUSTOM_FIELDS = [{"key": "n", "label": "决策变量数 n", "min": 3, "max": 100, "val": 12}];
+  window.PAGE_CUSTOM_BASE = "dtlz2";
+  window.PAGE_DEFAULTS = {"n_pop": 60, "max_iter": 300, "seed": 7};
+  </script>
+  <script src="../../js/compat.js"></script>
+  <script src="../../js/domain_page.js"></script>
+
+  <div class="fambox"><div class="chips"><span class="chip"><b>编码</b>&nbsp;实数向量</span><span class="chip"><b>目标</b>&nbsp;3 个，都越小越好（原文可扩展到任意个）</span><span class="chip"><b>真前沿</b>&nbsp;有解析式（单纯形 / 球面）</span><span class="chip"><b>考点</b>&nbsp;三维前沿覆盖；多峰收敛</span></div></div>
+  <h2>抽象定义</h2>
+  <p><b>模型</b>：DTLZ 是目标数可任意扩展的基准族。本站取 3 个目标（原文的 DTLZ1–7 全部收录），决策变量 x∈[0,1]ⁿ 分成两段：前 2 个变量 (x₁, x₂) 决定「在前沿曲面上的位置」，其余 k 个变量通过 g 决定「离曲面有多远」，g = 0 时就在真前沿上。</p><ul><li><b>DTLZ1</b>（n=7，k=5）：g = 100·[k + Σ((xᵢ−0.5)² − cos(20π(xᵢ−0.5)))]；f₁ = ½x₁x₂(1+g)，f₂ = ½x₁(1−x₂)(1+g)，f₃ = ½(1−x₁)(1+g)。真前沿是平面 f₁+f₂+f₃ = 0.5。g 里的余弦项制造了 11⁵−1 个局部前沿，<b>多峰，收敛很难</b>。</li><li><b>DTLZ2</b>（n=12，k=10）：g = Σ(xᵢ−0.5)²；f₁ = (1+g)cos(x₁π/2)cos(x₂π/2)，f₂ = (1+g)cos(x₁π/2)sin(x₂π/2)，f₃ = (1+g)sin(x₁π/2)。真前沿是单位球面的第一卦限 f₁²+f₂²+f₃² = 1。单峰，主要考三维前沿的<b>覆盖是否均匀</b>。</li><li><b>DTLZ3</b>（n=12）：g 同 DTLZ1（余弦项），形状同 DTLZ2。真前沿仍是单位球面，但有 3¹⁰−1 个局部前沿，<b>最难收敛</b>的一个。</li><li><b>DTLZ4</b>（n=12）：同 DTLZ2，但把 x₁、x₂ 换成 x₁¹⁰⁰、x₂¹⁰⁰。真前沿不变，可是随机解几乎都挤在 f₃ ≈ 0 的面上，<b>考多样性维护</b>：算法容易只覆盖前沿的一小块。</li><li><b>DTLZ5</b>（n=12）：第二个角度 θ₂ = π/(4(1+g))·(1 + 2g·x₂)，g = 0 时恒为 π/4。真前沿<b>退化成一条曲线</b>（f₁ = f₂，f₁²+f₂²+f₃² = 1），而不是一块曲面——这是「前沿维数低于目标数」的典型。</li><li><b>DTLZ6</b>（n=12）：同 DTLZ5，但 g = Σ xᵢ^0.1，g 在 0 附近极其陡峭，<b>收敛很难</b>。</li><li><b>DTLZ7</b>（n=22，k=20）：f₁ = x₁，f₂ = x₂，f₃ = (1+g)·h，g = 1 + 9/k·Σxᵢ，h = 3 − Σ fᵢ/(1+g)·(1+sin 3πfᵢ)。g = 1 时是一块带起伏的曲面，其中非支配的部分是<b>互不相连的 4 块</b>，f₃ 的量级（到 6）也比 f₁、f₂ 大得多。</li></ul>
+  <h2>与同族问题的结构差异</h2>
+  <p>与 <a href="../../problem/zdt/index.html">ZDT</a> 的区别：目标数从 2 变成 3，前沿从一条曲线变成一块曲面，「铺开」变得更难——同样 60 个个体，在二维前沿上很密，在三维曲面上就稀了；这也是 IGD 的数值下限不会趋于 0 的原因（点数有限）。</p><p>指标和 ZDT 页相同：IGD（真前沿上的参考点到算法前沿的平均距离）与超体积占比（参考点 (1.1,1.1,1.1)；DTLZ1 的前沿很小，取 (0.6,0.6,0.6)）。</p><p>目标数继续增加（≥4）后，基于支配的排序会失去区分度，见<a href="../../problem/maop/index.html">超多目标优化</a>。</p>
+  <h2>求解路径</h2>
+  <p>算法与 ZDT 页相同。看点：</p><ul><li><b>DTLZ2</b>：NSGA-II 与 MOEA/D 都能收敛到球面，区别在覆盖——MOEA/D 的参考方向来自预先放好的权重格（Das–Dennis 单纯形格点），NSGA-II 靠拥挤度。</li><li><b>DTLZ1</b>：同样的预算下，NSGA-II 往往被局部前沿困住，分解型的 MOEA/D 则能到达真前沿附近——这是该基准被设计出来的目的（Deb et al. 2005）。</li><li><b>DTLZ3</b>：本页的算法在默认预算内都到不了真前沿（有 3¹⁰−1 个局部前沿）；把迭代次数拉到 500 以上再试，看谁能爬出来。</li><li><b>DTLZ6</b>：NSGA-II 在默认预算内收敛不了，分解型的 MOEA/D 能到真前沿附近。</li><li><b>DTLZ4</b>：看覆盖——前沿上被算法忽略的部分在图上一眼可见。</li><li><b>DTLZ5</b>：前沿是曲线；<b>DTLZ7</b>：前沿四块不相连，种群得分到四块上去。</li><li>加权和 GA 在三维前沿上只会集中到少数几个点。</li></ul><p>默认迭代 200；DTLZ1 想收敛得更好可以拉到 300 以上。</p>
+  <h2>计算复杂度与可近似性</h2>
+  <p>目标数 m 增大后，DTLZ 暴露出<b>多目标特有的复杂度</b>：（1）前沿是 (m−1) 维流形，覆盖它所需的解数随 m 指数增长——用 Das–Dennis 参考点网格（每轴 H 等分）需要 C(H+m−1, m−1) 个点，m=3、H=12 时是 91 个，m=10、H=3 时就有 220 个；（2）精确超体积计算在 m 上是 #P-困难的 (Bringmann &amp; Friedrich 2010)，所以 m>5 之后常改用蒙特卡洛估计；（3）随机两个解互相支配的概率是 2^{1−m}，m=3 时仍是 1/4，m=10 时只剩 1/512（见<a href="../../problem/maop/index.html">超多目标页</a>）。</p>
+  <h2>基准实例与已知结果</h2>
+  <p>DTLZ1–7 是多目标 / 超多目标进化算法的<b>通用考题</b>，标准设置：目标数 m 从 3 到 15 变化；位置变量数 m−1，距离变量数 k 取 DTLZ1 为 5、DTLZ2–6 为 10、DTLZ7 为 20（所以决策变量 n=m+k−1）；用 IGD 或 HV 度量，IGD 的参考点集用 Das–Dennis 网格投影到真前沿。较新的 MaOP 基准如 MaF 套件 (Cheng 等 2017)与 WFG、以及 PlatEMO 平台（Tian 等 2017）里统一实现的版本，都以 DTLZ 为蓝本又加上了退化、不连通、偏置等性质。已知的缺陷：DTLZ1–4 的最优解的距离变量都在 0.5（变量范围的正中），中心偏置的算子会占便宜。</p>
+  <h2>本站的建模方式</h2>
+  <p>mocont 域：<b>目标数固定为 3</b>，DTLZ1–7 全部收录，n 分别为 7、12、12、12、12、12、22（即 m+k−1）。真前沿的参考点集由解析式取样，指标为 IGD 与超体积占比（参考点 (1.1,1.1,1.1)，DTLZ1 取 (0.6,0.6,0.6)）。算法与 ZDT 页相同：NSGA-II、MOEA/D、加权和 GA、随机搜索。</p><p><b>与文献标准的差别</b>：（1）只有 3 个目标，没有展示 DTLZ 本来的卖点——目标数的可扩展性（5、8、10、15）；（2）最优解的距离变量在 0.5（范围正中），中心偏置会让一些算子得到偏好；（3）NSGA-II 用的是原版拥挤度，而不是 NSGA-III 的参考点选择，所以它在 3 目标的 DTLZ1/3 上表现不佳是预期内的；（4）没有 WFG 那样的变量依赖，所以不能代表复杂耦合的真实问题。</p>
+  
+  <h2>出处与经典文献</h2><ul class="src"><li>Deb, Thiele, Laumanns &amp; Zitzler (2005). Scalable test problems for evolutionary multiobjective optimization. In Evolutionary Multiobjective Optimization: Theoretical Advances and Applications, Springer, 105-145</li><li>Deb, Pratap, Agarwal &amp; Meyarivan (2002). A fast and elitist multiobjective genetic algorithm: NSGA-II. IEEE Transactions on Evolutionary Computation, 6(2), 182-197</li><li>Zhang &amp; Li (2007). MOEA/D: A multiobjective evolutionary algorithm based on decomposition. IEEE Transactions on Evolutionary Computation, 11(6), 712-731</li><li>Das &amp; Dennis (1998). Normal-boundary intersection: A new method for generating the Pareto surface in nonlinear multicriteria optimization problems. SIAM Journal on Optimization, 8(3), 631-657</li><li>Deb, Thiele, Laumanns &amp; Zitzler (2002). Scalable multi-objective optimization test problems. In Proceedings of the 2002 Congress on Evolutionary Computation (CEC 2002), 825-830</li><li>Huband, Hingston, Barone &amp; While (2006). A review of multiobjective test problems and a scalable test problem toolkit. IEEE Transactions on Evolutionary Computation, 10(5), 477-506</li><li>Deb &amp; Jain (2014). An evolutionary many-objective optimization algorithm using reference-point-based nondominated sorting approach, Part I. IEEE Transactions on Evolutionary Computation, 18(4), 577-601</li><li>Cheng, Li, Tian, Zhang, Yang, Jin &amp; Yao (2017). A benchmark test suite for evolutionary many-objective optimization. Complex &amp; Intelligent Systems, 3(1), 67-81</li><li>Tian, Cheng, Zhang &amp; Jin (2017). PlatEMO: A MATLAB platform for evolutionary multi-objective optimization. IEEE Computational Intelligence Magazine, 12(4), 73-87</li></ul>
+
+</div>
+<footer>
+</footer>
+<script>
+(function(){
+  var b=document.getElementById("themeToggle");if(!b)return;
+  var root=document.documentElement;
+  function sync(){b.textContent=root.getAttribute("data-theme")==="dark"?"☀️":"🌙";}
+  b.onclick=function(){
+    var n=root.getAttribute("data-theme")==="dark"?"light":"dark";
+    root.setAttribute("data-theme",n);
+    try{localStorage.setItem("theme",n)}catch(e){}
+    sync();
+    window.dispatchEvent(new CustomEvent("themechange"));
+  };
+  sync();
+})();
+(function(){
+  if(location.protocol!=="file:")return;
+  var d=document.createElement("div");
+  d.className="file-warn";
+  d.innerHTML="⚠️ 当前通过 <b>file://</b> 直接打开：页面浏览可用，但<b>交互演示（运行算法）需要经 http 访问</b>——请在项目目录双击 <code>start_server.bat</code>（或运行 <code>python serve.py</code>），再访问 http://localhost:8000 。";
+  document.body.insertBefore(d,document.body.firstChild);
+})();
+/* S8-C 触屏（hover 不可用）：点 .dd-btn 展开/收起面板，不再直接跳走（P1-2 修复）。
+   桌面 hover 环境不拦截（matchMedia('(hover: hover)') 为真时不处理）。 */
+(function(){
+  document.querySelectorAll(".dd-btn").forEach(function(b){
+    b.addEventListener("click", function(e){
+      if(window.matchMedia("(hover: hover)").matches) return;  // 桌面 hover 环境不拦截
+      e.preventDefault();
+      var dd=b.parentElement;
+      var wasOpen=dd.classList.contains("open");
+      document.querySelectorAll(".dd.open").forEach(function(o){ o.classList.remove("open"); });
+      if(!wasOpen) dd.classList.add("open");
+    });
+  });
+  document.addEventListener("click", function(e){
+    if(!e.target.closest(".dd")) document.querySelectorAll(".dd.open").forEach(function(o){ o.classList.remove("open"); });
+  });
+})();
+/* 长表词条过滤（planned>20 的家族页，P1-3）：输入即按行文本 includes 过滤 + 计数 */
+(function(){
+  document.querySelectorAll(".plfilter").forEach(function(inp){
+    var wrap=inp.closest(".plwrap");
+    var tbl=wrap.parentElement.querySelector(".pltbl table");
+    var cnt=wrap.querySelector(".plcount");
+    if(!tbl||!cnt) return;
+    var total=parseInt(inp.getAttribute("data-plcount"),10)||tbl.querySelectorAll("tr").length-1;
+    var trs=tbl.querySelectorAll("tr");
+    inp.addEventListener("input", function(){
+      var q=inp.value.trim().toLowerCase(), n=0;
+      for(var i=1;i<trs.length;i++){
+        var hit=!q||trs[i].textContent.toLowerCase().indexOf(q)>=0;
+        trs[i].style.display=hit?"":"none"; if(hit) n++;
+      }
+      cnt.textContent="显示 "+n+"/"+total;
+    });
+  });
+})();
+</script>
+</body>
+</html>

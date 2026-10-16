@@ -1,0 +1,2741 @@
+{
+  "updated": "2026-09-26",
+  "policy": "docs/admission-policy.md",
+  "_schema": {
+    "candidates[].type": "algo | problem",
+    "candidates[].name": "中文名（含通用缩写）",
+    "candidates[].en": "英文名",
+    "candidates[].family": "算法候选的家族 id（F0-F9），问题候选省略",
+    "candidates[].evidence": "事实依据（提出者/年份/发表渠道/复现情况），必须可溯源",
+    "candidates[].gates": "五闸门评分 {A,B,C,D,E}，取值 pass|fail；A 与 B 为算法关键闸门，A 为问题关键闸门",
+    "candidates[].gate_notes": "各闸门评分理由（尤其 B 的装配等价性论证）",
+    "candidates[].verdict": "收录册页 | 配方 | 词条 | 批评词条 | 拒绝（按 admission-policy §2/§3 判定）",
+    "candidates[].status": "proposed（待纳入）| admitted（已纳入）| rejected（已拒绝）",
+    "candidates[].src": "原始文献出处；只写可核实的来源，拿不准留空并标「待核」——禁止编造",
+    "candidates[].note": "补充说明"
+  },
+  "candidates": [
+    {
+      "type": "algo",
+      "name": "斑鬣狗优化算法 SHO",
+      "en": "Spotted Hyena Optimizer (SHO)",
+      "family": "F2",
+      "evidence": "作为 360+ 自然/社会隐喻算法之一提出（Molina et al. 2020 分类学）；按鬣狗包围/狩猎的'领导者-跟随者'位置更新，等价于带领导者的 PSO。",
+      "gates": {
+        "A": "pass",
+        "B": "fail",
+        "C": "pass",
+        "D": "pass",
+        "E": "pass"
+      },
+      "gate_notes": {
+        "A": "原始论文可查（作者/年份/出处完整），但出处待核一致性。",
+        "B": "状态转移/算子结构可用站内七槽组件等价装配（≈ PSO 的'向领导者靠拢'+随机扰动），机制不独立。",
+        "C": "已正式发表并有引用记录，计量对象。",
+        "D": "影响力批判视角度量：多数仅与同类隐喻互比。",
+        "E": "机制等价于已收录群智能，可落站内引擎（形式化等价）。"
+      },
+      "verdict": "批评词条",
+      "status": "admitted",
+      "src": "隐喻批评（伪新颖/实验薄弱/碎片化）；Sörensen 2015 (Metaheuristics — the metaphor exposed, ITOR 22(1):3–18)；原始论文出处待核",
+      "note": "换皮隐喻量产线成员：机制与 PSO/GWO 同构（中心偏置扰动 + 随机扰动），所批判的'隐喻换皮'类；详见 PyPop7 Critical Papers 目录与 Aranha 2021 联名批评。"
+    },
+    {
+      "type": "algo",
+      "name": "象群优化算法 EHO",
+      "en": "Elephant Herding Optimization (EHO)",
+      "family": "F2",
+      "evidence": "作为 360+ 自然/社会隐喻算法之一提出（Molina et al. 2020 分类学）；族长带领+分离算子，等价于 PSO 的 gbest 聚集 + 随机扩散。",
+      "gates": {
+        "A": "pass",
+        "B": "fail",
+        "C": "pass",
+        "D": "pass",
+        "E": "pass"
+      },
+      "gate_notes": {
+        "A": "原始论文可查（作者/年份/出处完整），但出处待核一致性。",
+        "B": "状态转移/算子结构可用站内七槽组件等价装配（≈ PSO 的'向领导者靠拢'+随机扰动），机制不独立。",
+        "C": "已正式发表并有引用记录，计量对象。",
+        "D": "影响力批判视角度量：多数仅与同类隐喻互比。",
+        "E": "机制等价于已收录群智能，可落站内引擎（形式化等价）。"
+      },
+      "verdict": "批评词条",
+      "status": "admitted",
+      "src": "隐喻批评（伪新颖/实验薄弱/碎片化）；Sörensen 2015 (Metaheuristics — the metaphor exposed, ITOR 22(1):3–18)；原始论文出处待核",
+      "note": "换皮隐喻量产线成员：机制与 PSO/GWO 同构（中心偏置扰动 + 随机扰动），所批判的'隐喻换皮'类；详见 PyPop7 Critical Papers 目录与 Aranha 2021 联名批评。"
+    },
+    {
+      "type": "algo",
+      "name": "旗鱼优化算法 SFO",
+      "en": "Sailfish Optimizer (SFO)",
+      "family": "F2",
+      "evidence": "作为 360+ 自然/社会隐喻算法之一提出（Molina et al. 2020 分类学）；旗鱼攻击/水母群更新，等价于精英引导的群体扰动。",
+      "gates": {
+        "A": "pass",
+        "B": "fail",
+        "C": "pass",
+        "D": "pass",
+        "E": "pass"
+      },
+      "gate_notes": {
+        "A": "原始论文可查（作者/年份/出处完整），但出处待核一致性。",
+        "B": "状态转移/算子结构可用站内七槽组件等价装配（≈ PSO 的'向领导者靠拢'+随机扰动），机制不独立。",
+        "C": "已正式发表并有引用记录，计量对象。",
+        "D": "影响力批判视角度量：多数仅与同类隐喻互比。",
+        "E": "机制等价于已收录群智能，可落站内引擎（形式化等价）。"
+      },
+      "verdict": "批评词条",
+      "status": "admitted",
+      "src": "隐喻批评（伪新颖/实验薄弱/碎片化）；Sörensen 2015 (Metaheuristics — the metaphor exposed, ITOR 22(1):3–18)；原始论文出处待核",
+      "note": "换皮隐喻量产线成员：机制与 PSO/GWO 同构（中心偏置扰动 + 随机扰动），所批判的'隐喻换皮'类；详见 PyPop7 Critical Papers 目录与 Aranha 2021 联名批评。"
+    },
+    {
+      "type": "algo",
+      "name": "蚱蜢优化算法 GOA",
+      "en": "Grasshopper Optimization Algorithm (GOA)",
+      "family": "F2",
+      "evidence": "作为 360+ 自然/社会隐喻算法之一提出（Molina et al. 2020 分类学）；社会力（引力/排斥/随机）平衡，等价于带距离衰减的群中心偏置。",
+      "gates": {
+        "A": "pass",
+        "B": "fail",
+        "C": "pass",
+        "D": "pass",
+        "E": "pass"
+      },
+      "gate_notes": {
+        "A": "原始论文可查（作者/年份/出处完整），但出处待核一致性。",
+        "B": "状态转移/算子结构可用站内七槽组件等价装配（≈ PSO 的'向领导者靠拢'+随机扰动），机制不独立。",
+        "C": "已正式发表并有引用记录，计量对象。",
+        "D": "影响力批判视角度量：多数仅与同类隐喻互比。",
+        "E": "机制等价于已收录群智能，可落站内引擎（形式化等价）。"
+      },
+      "verdict": "批评词条",
+      "status": "admitted",
+      "src": "隐喻批评（伪新颖/实验薄弱/碎片化）；Sörensen 2015 (Metaheuristics — the metaphor exposed, ITOR 22(1):3–18)；原始论文出处待核",
+      "note": "换皮隐喻量产线成员：机制与 PSO/GWO 同构（中心偏置扰动 + 随机扰动），所批判的'隐喻换皮'类；详见 PyPop7 Critical Papers 目录与 Aranha 2021 联名批评。"
+    },
+    {
+      "type": "algo",
+      "name": "蝠鲼觅食优化 MRFO",
+      "en": "Manta Ray Foraging Optimization (MRFO)",
+      "family": "F2",
+      "evidence": "作为 360+ 自然/社会隐喻算法之一提出（Molina et al. 2020 分类学）；链式觅食/螺旋/游走三机制，等价于 PSO 螺旋变体。",
+      "gates": {
+        "A": "pass",
+        "B": "fail",
+        "C": "pass",
+        "D": "pass",
+        "E": "pass"
+      },
+      "gate_notes": {
+        "A": "原始论文可查（作者/年份/出处完整），但出处待核一致性。",
+        "B": "状态转移/算子结构可用站内七槽组件等价装配（≈ PSO 的'向领导者靠拢'+随机扰动），机制不独立。",
+        "C": "已正式发表并有引用记录，计量对象。",
+        "D": "影响力批判视角度量：多数仅与同类隐喻互比。",
+        "E": "机制等价于已收录群智能，可落站内引擎（形式化等价）。"
+      },
+      "verdict": "批评词条",
+      "status": "admitted",
+      "src": "隐喻批评（伪新颖/实验薄弱/碎片化）；Sörensen 2015 (Metaheuristics — the metaphor exposed, ITOR 22(1):3–18)；原始论文出处待核",
+      "note": "换皮隐喻量产线成员：机制与 PSO/GWO 同构（中心偏置扰动 + 随机扰动），所批判的'隐喻换皮'类；详见 PyPop7 Critical Papers 目录与 Aranha 2021 联名批评。"
+    },
+    {
+      "type": "algo",
+      "name": "海狮优化算法 SLnO",
+      "en": "Sea Lion Optimization (SLnO)",
+      "family": "F2",
+      "evidence": "作为 360+ 自然/社会隐喻算法之一提出（Molina et al. 2020 分类学）；搜寻/围捕/捕食三阶段，等价于 GWO 式领导者跟随。",
+      "gates": {
+        "A": "pass",
+        "B": "fail",
+        "C": "pass",
+        "D": "pass",
+        "E": "pass"
+      },
+      "gate_notes": {
+        "A": "原始论文可查（作者/年份/出处完整），但出处待核一致性。",
+        "B": "状态转移/算子结构可用站内七槽组件等价装配（≈ PSO 的'向领导者靠拢'+随机扰动），机制不独立。",
+        "C": "已正式发表并有引用记录，计量对象。",
+        "D": "影响力批判视角度量：多数仅与同类隐喻互比。",
+        "E": "机制等价于已收录群智能，可落站内引擎（形式化等价）。"
+      },
+      "verdict": "批评词条",
+      "status": "admitted",
+      "src": "隐喻批评（伪新颖/实验薄弱/碎片化）；Sörensen 2015 (Metaheuristics — the metaphor exposed, ITOR 22(1):3–18)；原始论文出处待核",
+      "note": "换皮隐喻量产线成员：机制与 PSO/GWO 同构（中心偏置扰动 + 随机扰动），所批判的'隐喻换皮'类；详见 PyPop7 Critical Papers 目录与 Aranha 2021 联名批评。"
+    },
+    {
+      "type": "algo",
+      "name": "被囊群优化算法 TSA",
+      "en": "Tunicate Swarm Algorithm (TSA)",
+      "family": "F2",
+      "evidence": "作为 360+ 自然/社会隐喻算法之一提出（Molina et al. 2020 分类学）； jet 推进/社会力/避碰，等价于带约束的群中心偏置。",
+      "gates": {
+        "A": "pass",
+        "B": "fail",
+        "C": "pass",
+        "D": "pass",
+        "E": "pass"
+      },
+      "gate_notes": {
+        "A": "原始论文可查（作者/年份/出处完整），但出处待核一致性。",
+        "B": "状态转移/算子结构可用站内七槽组件等价装配（≈ PSO 的'向领导者靠拢'+随机扰动），机制不独立。",
+        "C": "已正式发表并有引用记录，计量对象。",
+        "D": "影响力批判视角度量：多数仅与同类隐喻互比。",
+        "E": "机制等价于已收录群智能，可落站内引擎（形式化等价）。"
+      },
+      "verdict": "批评词条",
+      "status": "admitted",
+      "src": "隐喻批评（伪新颖/实验薄弱/碎片化）；Sörensen 2015 (Metaheuristics — the metaphor exposed, ITOR 22(1):3–18)；原始论文出处待核",
+      "note": "换皮隐喻量产线成员：机制与 PSO/GWO 同构（中心偏置扰动 + 随机扰动），所批判的'隐喻换皮'类；详见 PyPop7 Critical Papers 目录与 Aranha 2021 联名批评。"
+    },
+    {
+      "type": "algo",
+      "name": "土狼优化算法 COA",
+      "en": "Coyote Optimization Algorithm (COA)",
+      "family": "F2",
+      "evidence": "作为 360+ 自然/社会隐喻算法之一提出（Molina et al. 2020 分类学）；文化代+社会组，等价于分布估计式的群体重组。",
+      "gates": {
+        "A": "pass",
+        "B": "fail",
+        "C": "pass",
+        "D": "pass",
+        "E": "pass"
+      },
+      "gate_notes": {
+        "A": "原始论文可查（作者/年份/出处完整），但出处待核一致性。",
+        "B": "状态转移/算子结构可用站内七槽组件等价装配（≈ PSO 的'向领导者靠拢'+随机扰动），机制不独立。",
+        "C": "已正式发表并有引用记录，计量对象。",
+        "D": "影响力批判视角度量：多数仅与同类隐喻互比。",
+        "E": "机制等价于已收录群智能，可落站内引擎（形式化等价）。"
+      },
+      "verdict": "批评词条",
+      "status": "admitted",
+      "src": "隐喻批评（伪新颖/实验薄弱/碎片化）；Sörensen 2015 (Metaheuristics — the metaphor exposed, ITOR 22(1):3–18)；原始论文出处待核",
+      "note": "换皮隐喻量产线成员：机制与 PSO/GWO 同构（中心偏置扰动 + 随机扰动），所批判的'隐喻换皮'类；详见 PyPop7 Critical Papers 目录与 Aranha 2021 联名批评。"
+    },
+    {
+      "type": "algo",
+      "name": "帝企鹅优化算法 EPO",
+      "en": "Emperor Penguin Optimizer (EPO)",
+      "family": "F2",
+      "evidence": "作为 360+ 自然/社会隐喻算法之一提出（Molina et al. 2020 分类学）；热聚拢/分散，等价于温度调度的群体聚集。",
+      "gates": {
+        "A": "pass",
+        "B": "fail",
+        "C": "pass",
+        "D": "pass",
+        "E": "pass"
+      },
+      "gate_notes": {
+        "A": "原始论文可查（作者/年份/出处完整），但出处待核一致性。",
+        "B": "状态转移/算子结构可用站内七槽组件等价装配（≈ PSO 的'向领导者靠拢'+随机扰动），机制不独立。",
+        "C": "已正式发表并有引用记录，计量对象。",
+        "D": "影响力批判视角度量：多数仅与同类隐喻互比。",
+        "E": "机制等价于已收录群智能，可落站内引擎（形式化等价）。"
+      },
+      "verdict": "批评词条",
+      "status": "admitted",
+      "src": "隐喻批评（伪新颖/实验薄弱/碎片化）；Sörensen 2015 (Metaheuristics — the metaphor exposed, ITOR 22(1):3–18)；原始论文出处待核",
+      "note": "换皮隐喻量产线成员：机制与 PSO/GWO 同构（中心偏置扰动 + 随机扰动），所批判的'隐喻换皮'类；详见 PyPop7 Critical Papers 目录与 Aranha 2021 联名批评。"
+    },
+    {
+      "type": "algo",
+      "name": "乌燕鸥优化算法 STOA",
+      "en": "Sooty Tern Optimization Algorithm (STOA)",
+      "family": "F2",
+      "evidence": "作为 360+ 自然/社会隐喻算法之一提出（Molina et al. 2020 分类学）；迁徙/攻击螺旋，等价于螺旋螺旋 PSO。",
+      "gates": {
+        "A": "pass",
+        "B": "fail",
+        "C": "pass",
+        "D": "pass",
+        "E": "pass"
+      },
+      "gate_notes": {
+        "A": "原始论文可查（作者/年份/出处完整），但出处待核一致性。",
+        "B": "状态转移/算子结构可用站内七槽组件等价装配（≈ PSO 的'向领导者靠拢'+随机扰动），机制不独立。",
+        "C": "已正式发表并有引用记录，计量对象。",
+        "D": "影响力批判视角度量：多数仅与同类隐喻互比。",
+        "E": "机制等价于已收录群智能，可落站内引擎（形式化等价）。"
+      },
+      "verdict": "批评词条",
+      "status": "admitted",
+      "src": "隐喻批评（伪新颖/实验薄弱/碎片化）；Sörensen 2015 (Metaheuristics — the metaphor exposed, ITOR 22(1):3–18)；原始论文出处待核",
+      "note": "换皮隐喻量产线成员：机制与 PSO/GWO 同构（中心偏置扰动 + 随机扰动），所批判的'隐喻换皮'类；详见 PyPop7 Critical Papers 目录与 Aranha 2021 联名批评。"
+    },
+    {
+      "type": "algo",
+      "name": "秃鹰搜索算法 BES",
+      "en": "Bald Eagle Search (BES)",
+      "family": "F2",
+      "evidence": "作为 360+ 自然/社会隐喻算法之一提出（Molina et al. 2020 分类学）；选择/搜索/俯冲，等价于探索-开发切换的群体搜索。",
+      "gates": {
+        "A": "pass",
+        "B": "fail",
+        "C": "pass",
+        "D": "pass",
+        "E": "pass"
+      },
+      "gate_notes": {
+        "A": "原始论文可查（作者/年份/出处完整），但出处待核一致性。",
+        "B": "状态转移/算子结构可用站内七槽组件等价装配（≈ PSO 的'向领导者靠拢'+随机扰动），机制不独立。",
+        "C": "已正式发表并有引用记录，计量对象。",
+        "D": "影响力批判视角度量：多数仅与同类隐喻互比。",
+        "E": "机制等价于已收录群智能，可落站内引擎（形式化等价）。"
+      },
+      "verdict": "批评词条",
+      "status": "admitted",
+      "src": "隐喻批评（伪新颖/实验薄弱/碎片化）；Sörensen 2015 (Metaheuristics — the metaphor exposed, ITOR 22(1):3–18)；原始论文出处待核",
+      "note": "换皮隐喻量产线成员：机制与 PSO/GWO 同构（中心偏置扰动 + 随机扰动），所批判的'隐喻换皮'类；详见 PyPop7 Critical Papers 目录与 Aranha 2021 联名批评。"
+    },
+    {
+      "type": "algo",
+      "name": "麻雀搜索算法 SSA",
+      "en": "Sparrow Search Algorithm (SSA)",
+      "family": "F2",
+      "evidence": "作为 360+ 自然/社会隐喻算法之一提出（Molina et al. 2020 分类学）；发现者/加入者/警戒者，等价于多角色 PSO 变体。",
+      "gates": {
+        "A": "pass",
+        "B": "fail",
+        "C": "pass",
+        "D": "pass",
+        "E": "pass"
+      },
+      "gate_notes": {
+        "A": "原始论文可查（作者/年份/出处完整），但出处待核一致性。",
+        "B": "状态转移/算子结构可用站内七槽组件等价装配（≈ PSO 的'向领导者靠拢'+随机扰动），机制不独立。",
+        "C": "已正式发表并有引用记录，计量对象。",
+        "D": "影响力批判视角度量：多数仅与同类隐喻互比。",
+        "E": "机制等价于已收录群智能，可落站内引擎（形式化等价）。"
+      },
+      "verdict": "批评词条",
+      "status": "admitted",
+      "src": "隐喻批评（伪新颖/实验薄弱/碎片化）；Sörensen 2015 (Metaheuristics — the metaphor exposed, ITOR 22(1):3–18)；原始论文出处待核",
+      "note": "换皮隐喻量产线成员：机制与 PSO/GWO 同构（中心偏置扰动 + 随机扰动），所批判的'隐喻换皮'类；详见 PyPop7 Critical Papers 目录与 Aranha 2021 联名批评。"
+    },
+    {
+      "type": "algo",
+      "name": "亨利气体溶解度优化 HGSO",
+      "en": "Henry Gas Solubility Optimization (HGSO)",
+      "family": "F3",
+      "evidence": "作为 360+ 自然/社会隐喻算法之一提出（Molina et al. 2020 分类学）；气体分子碰撞/扩散，等价于物理启发的位置扰动。",
+      "gates": {
+        "A": "pass",
+        "B": "fail",
+        "C": "pass",
+        "D": "pass",
+        "E": "pass"
+      },
+      "gate_notes": {
+        "A": "原始论文可查（作者/年份/出处完整），但出处待核一致性。",
+        "B": "状态转移/算子结构可用站内七槽组件等价装配（≈ PSO 的'向领导者靠拢'+随机扰动），机制不独立。",
+        "C": "已正式发表并有引用记录，计量对象。",
+        "D": "影响力批判视角度量：多数仅与同类隐喻互比。",
+        "E": "机制等价于已收录群智能，可落站内引擎（形式化等价）。"
+      },
+      "verdict": "批评词条",
+      "status": "admitted",
+      "src": "隐喻批评（伪新颖/实验薄弱/碎片化）；Sörensen 2015 (Metaheuristics — the metaphor exposed, ITOR 22(1):3–18)；原始论文出处待核",
+      "note": "换皮隐喻量产线成员：机制与 PSO/GWO 同构（中心偏置扰动 + 随机扰动），所批判的'隐喻换皮'类；详见 PyPop7 Critical Papers 目录与 Aranha 2021 联名批评。"
+    },
+    {
+      "type": "algo",
+      "name": "原子搜索优化 ASO",
+      "en": "Atom Search Optimization (ASO)",
+      "family": "F3",
+      "evidence": "作为 360+ 自然/社会隐喻算法之一提出（Molina et al. 2020 分类学）；分子力学（键长/斥力），等价于受力驱动的局部-全局搜索。",
+      "gates": {
+        "A": "pass",
+        "B": "fail",
+        "C": "pass",
+        "D": "pass",
+        "E": "pass"
+      },
+      "gate_notes": {
+        "A": "原始论文可查（作者/年份/出处完整），但出处待核一致性。",
+        "B": "状态转移/算子结构可用站内七槽组件等价装配（≈ PSO 的'向领导者靠拢'+随机扰动），机制不独立。",
+        "C": "已正式发表并有引用记录，计量对象。",
+        "D": "影响力批判视角度量：多数仅与同类隐喻互比。",
+        "E": "机制等价于已收录群智能，可落站内引擎（形式化等价）。"
+      },
+      "verdict": "批评词条",
+      "status": "admitted",
+      "src": "隐喻批评（伪新颖/实验薄弱/碎片化）；Sörensen 2015 (Metaheuristics — the metaphor exposed, ITOR 22(1):3–18)；原始论文出处待核",
+      "note": "换皮隐喻量产线成员：机制与 PSO/GWO 同构（中心偏置扰动 + 随机扰动），所批判的'隐喻换皮'类；详见 PyPop7 Critical Papers 目录与 Aranha 2021 联名批评。"
+    },
+    {
+      "type": "algo",
+      "name": "算术优化算法 AOA",
+      "en": "Arithmetic Optimization Algorithm (AOA)",
+      "family": "F3",
+      "evidence": "作为 360+ 自然/社会隐喻算法之一提出（Molina et al. 2020 分类学）；加减乘除分布，等价于算术混合的群体扰动。",
+      "gates": {
+        "A": "pass",
+        "B": "fail",
+        "C": "pass",
+        "D": "pass",
+        "E": "pass"
+      },
+      "gate_notes": {
+        "A": "原始论文可查（作者/年份/出处完整），但出处待核一致性。",
+        "B": "状态转移/算子结构可用站内七槽组件等价装配（≈ PSO 的'向领导者靠拢'+随机扰动），机制不独立。",
+        "C": "已正式发表并有引用记录，计量对象。",
+        "D": "影响力批判视角度量：多数仅与同类隐喻互比。",
+        "E": "机制等价于已收录群智能，可落站内引擎（形式化等价）。"
+      },
+      "verdict": "批评词条",
+      "status": "admitted",
+      "src": "隐喻批评（伪新颖/实验薄弱/碎片化）；Sörensen 2015 (Metaheuristics — the metaphor exposed, ITOR 22(1):3–18)；原始论文出处待核",
+      "note": "换皮隐喻量产线成员：机制与 PSO/GWO 同构（中心偏置扰动 + 随机扰动），所批判的'隐喻换皮'类；详见 PyPop7 Critical Papers 目录与 Aranha 2021 联名批评。"
+    },
+    {
+      "type": "algo",
+      "name": "白鲨优化算法 WSO",
+      "en": "White Shark Optimizer (WSO)",
+      "family": "F2",
+      "evidence": "作为 360+ 自然/社会隐喻算法之一提出（Molina et al. 2020 分类学）；嗅觉/视觉/移动，等价于带感知半径的 GWO 变体。",
+      "gates": {
+        "A": "pass",
+        "B": "fail",
+        "C": "pass",
+        "D": "pass",
+        "E": "pass"
+      },
+      "gate_notes": {
+        "A": "原始论文可查（作者/年份/出处完整），但出处待核一致性。",
+        "B": "状态转移/算子结构可用站内七槽组件等价装配（≈ PSO 的'向领导者靠拢'+随机扰动），机制不独立。",
+        "C": "已正式发表并有引用记录，计量对象。",
+        "D": "影响力批判视角度量：多数仅与同类隐喻互比。",
+        "E": "机制等价于已收录群智能，可落站内引擎（形式化等价）。"
+      },
+      "verdict": "批评词条",
+      "status": "admitted",
+      "src": "隐喻批评（伪新颖/实验薄弱/碎片化）；Sörensen 2015 (Metaheuristics — the metaphor exposed, ITOR 22(1):3–18)；原始论文出处待核",
+      "note": "换皮隐喻量产线成员：机制与 PSO/GWO 同构（中心偏置扰动 + 随机扰动），所批判的'隐喻换皮'类；详见 PyPop7 Critical Papers 目录与 Aranha 2021 联名批评。"
+    },
+    {
+      "type": "algo",
+      "name": "黑寡妇优化算法 BWO",
+      "en": "Black Widow Optimization (BWO)",
+      "family": "F2",
+      "evidence": "作为 360+ 自然/社会隐喻算法之一提出（Molina et al. 2020 分类学）；繁殖/同类相食/突变，等价于遗传式重组+选择。",
+      "gates": {
+        "A": "pass",
+        "B": "fail",
+        "C": "pass",
+        "D": "pass",
+        "E": "pass"
+      },
+      "gate_notes": {
+        "A": "原始论文可查（作者/年份/出处完整），但出处待核一致性。",
+        "B": "状态转移/算子结构可用站内七槽组件等价装配（≈ PSO 的'向领导者靠拢'+随机扰动），机制不独立。",
+        "C": "已正式发表并有引用记录，计量对象。",
+        "D": "影响力批判视角度量：多数仅与同类隐喻互比。",
+        "E": "机制等价于已收录群智能，可落站内引擎（形式化等价）。"
+      },
+      "verdict": "批评词条",
+      "status": "admitted",
+      "src": "隐喻批评（伪新颖/实验薄弱/碎片化）；Sörensen 2015 (Metaheuristics — the metaphor exposed, ITOR 22(1):3–18)；原始论文出处待核",
+      "note": "换皮隐喻量产线成员：机制与 PSO/GWO 同构（中心偏置扰动 + 随机扰动），所批判的'隐喻换皮'类；详见 PyPop7 Critical Papers 目录与 Aranha 2021 联名批评。"
+    },
+    {
+      "type": "algo",
+      "name": "红鹿算法 RDA",
+      "en": "Red Deer Algorithm (RDA)",
+      "family": "F2",
+      "evidence": "作为 360+ 自然/社会隐喻算法之一提出（Molina et al. 2020 分类学）；求偶/繁殖/迁移，等价于多阶段群体重组。",
+      "gates": {
+        "A": "pass",
+        "B": "fail",
+        "C": "pass",
+        "D": "pass",
+        "E": "pass"
+      },
+      "gate_notes": {
+        "A": "原始论文可查（作者/年份/出处完整），但出处待核一致性。",
+        "B": "状态转移/算子结构可用站内七槽组件等价装配（≈ PSO 的'向领导者靠拢'+随机扰动），机制不独立。",
+        "C": "已正式发表并有引用记录，计量对象。",
+        "D": "影响力批判视角度量：多数仅与同类隐喻互比。",
+        "E": "机制等价于已收录群智能，可落站内引擎（形式化等价）。"
+      },
+      "verdict": "批评词条",
+      "status": "admitted",
+      "src": "隐喻批评（伪新颖/实验薄弱/碎片化）；Sörensen 2015 (Metaheuristics — the metaphor exposed, ITOR 22(1):3–18)；原始论文出处待核",
+      "note": "换皮隐喻量产线成员：机制与 PSO/GWO 同构（中心偏置扰动 + 随机扰动），所批判的'隐喻换皮'类；详见 PyPop7 Critical Papers 目录与 Aranha 2021 联名批评。"
+    },
+    {
+      "type": "algo",
+      "name": "大鼠群优化算法 RSO",
+      "en": "Rat Swarm Optimizer (RSO)",
+      "family": "F2",
+      "evidence": "作为 360+ 自然/社会隐喻算法之一提出（Molina et al. 2020 分类学）；追随最优+随机权重，等价于 PSO 极简变体。",
+      "gates": {
+        "A": "pass",
+        "B": "fail",
+        "C": "pass",
+        "D": "pass",
+        "E": "pass"
+      },
+      "gate_notes": {
+        "A": "原始论文可查（作者/年份/出处完整），但出处待核一致性。",
+        "B": "状态转移/算子结构可用站内七槽组件等价装配（≈ PSO 的'向领导者靠拢'+随机扰动），机制不独立。",
+        "C": "已正式发表并有引用记录，计量对象。",
+        "D": "影响力批判视角度量：多数仅与同类隐喻互比。",
+        "E": "机制等价于已收录群智能，可落站内引擎（形式化等价）。"
+      },
+      "verdict": "批评词条",
+      "status": "admitted",
+      "src": "隐喻批评（伪新颖/实验薄弱/碎片化）；Sörensen 2015 (Metaheuristics — the metaphor exposed, ITOR 22(1):3–18)；原始论文出处待核",
+      "note": "换皮隐喻量产线成员：机制与 PSO/GWO 同构（中心偏置扰动 + 随机扰动），所批判的'隐喻换皮'类；详见 PyPop7 Critical Papers 目录与 Aranha 2021 联名批评。"
+    },
+    {
+      "type": "algo",
+      "name": "鹈鹕优化算法 POA",
+      "en": "Pelican Optimization Algorithm (POA)",
+      "family": "F2",
+      "evidence": "作为 360+ 自然/社会隐喻算法之一提出（Molina et al. 2020 分类学）；逼近猎物/水面飞行，等价于精英引导的局部搜索。",
+      "gates": {
+        "A": "pass",
+        "B": "fail",
+        "C": "pass",
+        "D": "pass",
+        "E": "pass"
+      },
+      "gate_notes": {
+        "A": "原始论文可查（作者/年份/出处完整），但出处待核一致性。",
+        "B": "状态转移/算子结构可用站内七槽组件等价装配（≈ PSO 的'向领导者靠拢'+随机扰动），机制不独立。",
+        "C": "已正式发表并有引用记录，计量对象。",
+        "D": "影响力批判视角度量：多数仅与同类隐喻互比。",
+        "E": "机制等价于已收录群智能，可落站内引擎（形式化等价）。"
+      },
+      "verdict": "批评词条",
+      "status": "admitted",
+      "src": "隐喻批评（伪新颖/实验薄弱/碎片化）；Sörensen 2015 (Metaheuristics — the metaphor exposed, ITOR 22(1):3–18)；原始论文出处待核",
+      "note": "换皮隐喻量产线成员：机制与 PSO/GWO 同构（中心偏置扰动 + 随机扰动），所批判的'隐喻换皮'类；详见 PyPop7 Critical Papers 目录与 Aranha 2021 联名批评。"
+    },
+    {
+      "type": "algo",
+      "name": "金豺优化算法 GJO",
+      "en": "Golden Jackal Optimization (GJO)",
+      "family": "F2",
+      "evidence": "作为 360+ 自然/社会隐喻算法之一提出（Molina et al. 2020 分类学）；雄雌协同狩猎，等价于双领导者 PSO。",
+      "gates": {
+        "A": "pass",
+        "B": "fail",
+        "C": "pass",
+        "D": "pass",
+        "E": "pass"
+      },
+      "gate_notes": {
+        "A": "原始论文可查（作者/年份/出处完整），但出处待核一致性。",
+        "B": "状态转移/算子结构可用站内七槽组件等价装配（≈ PSO 的'向领导者靠拢'+随机扰动），机制不独立。",
+        "C": "已正式发表并有引用记录，计量对象。",
+        "D": "影响力批判视角度量：多数仅与同类隐喻互比。",
+        "E": "机制等价于已收录群智能，可落站内引擎（形式化等价）。"
+      },
+      "verdict": "批评词条",
+      "status": "admitted",
+      "src": "隐喻批评（伪新颖/实验薄弱/碎片化）；Sörensen 2015 (Metaheuristics — the metaphor exposed, ITOR 22(1):3–18)；原始论文出处待核",
+      "note": "换皮隐喻量产线成员：机制与 PSO/GWO 同构（中心偏置扰动 + 随机扰动），所批判的'隐喻换皮'类；详见 PyPop7 Critical Papers 目录与 Aranha 2021 联名批评。"
+    },
+    {
+      "type": "algo",
+      "name": "野犬优化算法 DOA",
+      "en": "Dingo Optimization Algorithm (DOA)",
+      "family": "F2",
+      "evidence": "作为 360+ 自然/社会隐喻算法之一提出（Molina et al. 2020 分类学）；狩猎/俯冲/群体攻击，等价于 GWO 式包围。",
+      "gates": {
+        "A": "pass",
+        "B": "fail",
+        "C": "pass",
+        "D": "pass",
+        "E": "pass"
+      },
+      "gate_notes": {
+        "A": "原始论文可查（作者/年份/出处完整），但出处待核一致性。",
+        "B": "状态转移/算子结构可用站内七槽组件等价装配（≈ PSO 的'向领导者靠拢'+随机扰动），机制不独立。",
+        "C": "已正式发表并有引用记录，计量对象。",
+        "D": "影响力批判视角度量：多数仅与同类隐喻互比。",
+        "E": "机制等价于已收录群智能，可落站内引擎（形式化等价）。"
+      },
+      "verdict": "批评词条",
+      "status": "admitted",
+      "src": "隐喻批评（伪新颖/实验薄弱/碎片化）；Sörensen 2015 (Metaheuristics — the metaphor exposed, ITOR 22(1):3–18)；原始论文出处待核",
+      "note": "换皮隐喻量产线成员：机制与 PSO/GWO 同构（中心偏置扰动 + 随机扰动），所批判的'隐喻换皮'类；详见 PyPop7 Critical Papers 目录与 Aranha 2021 联名批评。"
+    },
+    {
+      "type": "algo",
+      "name": "蜜獾算法 HBA",
+      "en": "Honey Badger Algorithm (HBA)",
+      "family": "F2",
+      "evidence": "作为 360+ 自然/社会隐喻算法之一提出（Molina et al. 2020 分类学）；嗅觉/ digging，等价于 Levy 飞行扰动+局部搜索。",
+      "gates": {
+        "A": "pass",
+        "B": "fail",
+        "C": "pass",
+        "D": "pass",
+        "E": "pass"
+      },
+      "gate_notes": {
+        "A": "原始论文可查（作者/年份/出处完整），但出处待核一致性。",
+        "B": "状态转移/算子结构可用站内七槽组件等价装配（≈ PSO 的'向领导者靠拢'+随机扰动），机制不独立。",
+        "C": "已正式发表并有引用记录，计量对象。",
+        "D": "影响力批判视角度量：多数仅与同类隐喻互比。",
+        "E": "机制等价于已收录群智能，可落站内引擎（形式化等价）。"
+      },
+      "verdict": "批评词条",
+      "status": "admitted",
+      "src": "隐喻批评（伪新颖/实验薄弱/碎片化）；Sörensen 2015 (Metaheuristics — the metaphor exposed, ITOR 22(1):3–18)；原始论文出处待核",
+      "note": "换皮隐喻量产线成员：机制与 PSO/GWO 同构（中心偏置扰动 + 随机扰动），所批判的'隐喻换皮'类；详见 PyPop7 Critical Papers 目录与 Aranha 2021 联名批评。"
+    },
+    {
+      "type": "algo",
+      "name": "黑猩猩优化算法 ChOA",
+      "en": "Chimpanzee Optimizer (ChOA)",
+      "family": "F2",
+      "evidence": "作为 360+ 自然/社会隐喻算法之一提出（Molina et al. 2020 分类学）；攻击者/驱赶者/屏障/猎手四角色，等价于多领导者 GWO。",
+      "gates": {
+        "A": "pass",
+        "B": "fail",
+        "C": "pass",
+        "D": "pass",
+        "E": "pass"
+      },
+      "gate_notes": {
+        "A": "原始论文可查（作者/年份/出处完整），但出处待核一致性。",
+        "B": "状态转移/算子结构可用站内七槽组件等价装配（≈ PSO 的'向领导者靠拢'+随机扰动），机制不独立。",
+        "C": "已正式发表并有引用记录，计量对象。",
+        "D": "影响力批判视角度量：多数仅与同类隐喻互比。",
+        "E": "机制等价于已收录群智能，可落站内引擎（形式化等价）。"
+      },
+      "verdict": "批评词条",
+      "status": "admitted",
+      "src": "隐喻批评（伪新颖/实验薄弱/碎片化）；Sörensen 2015 (Metaheuristics — the metaphor exposed, ITOR 22(1):3–18)；原始论文出处待核",
+      "note": "换皮隐喻量产线成员：机制与 PSO/GWO 同构（中心偏置扰动 + 随机扰动），所批判的'隐喻换皮'类；详见 PyPop7 Critical Papers 目录与 Aranha 2021 联名批评。"
+    },
+    {
+      "type": "algo",
+      "name": "羚羊优化算法 GOA",
+      "en": "Gazelle Optimization Algorithm (GOA-g)",
+      "family": "F2",
+      "evidence": "作为 360+ 自然/社会隐喻算法之一提出（Molina et al. 2020 分类学）；追击/逃避，等价于双群体对抗式搜索。",
+      "gates": {
+        "A": "pass",
+        "B": "fail",
+        "C": "pass",
+        "D": "pass",
+        "E": "pass"
+      },
+      "gate_notes": {
+        "A": "原始论文可查（作者/年份/出处完整），但出处待核一致性。",
+        "B": "状态转移/算子结构可用站内七槽组件等价装配（≈ PSO 的'向领导者靠拢'+随机扰动），机制不独立。",
+        "C": "已正式发表并有引用记录，计量对象。",
+        "D": "影响力批判视角度量：多数仅与同类隐喻互比。",
+        "E": "机制等价于已收录群智能，可落站内引擎（形式化等价）。"
+      },
+      "verdict": "批评词条",
+      "status": "admitted",
+      "src": "隐喻批评（伪新颖/实验薄弱/碎片化）；Sörensen 2015 (Metaheuristics — the metaphor exposed, ITOR 22(1):3–18)；原始论文出处待核",
+      "note": "换皮隐喻量产线成员：机制与 PSO/GWO 同构（中心偏置扰动 + 随机扰动），所批判的'隐喻换皮'类；详见 PyPop7 Critical Papers 目录与 Aranha 2021 联名批评。"
+    },
+    {
+      "type": "algo",
+      "name": "猎豹优化算法",
+      "en": "Cheetah Optimization Algorithm",
+      "family": "F2",
+      "evidence": "作为 360+ 自然/社会隐喻算法之一提出（Molina et al. 2020 分类学）；视觉锁定/加速，等价于精英引导的梯度式搜索。",
+      "gates": {
+        "A": "pass",
+        "B": "fail",
+        "C": "pass",
+        "D": "pass",
+        "E": "pass"
+      },
+      "gate_notes": {
+        "A": "原始论文可查（作者/年份/出处完整），但出处待核一致性。",
+        "B": "状态转移/算子结构可用站内七槽组件等价装配（≈ PSO 的'向领导者靠拢'+随机扰动），机制不独立。",
+        "C": "已正式发表并有引用记录，计量对象。",
+        "D": "影响力批判视角度量：多数仅与同类隐喻互比。",
+        "E": "机制等价于已收录群智能，可落站内引擎（形式化等价）。"
+      },
+      "verdict": "批评词条",
+      "status": "admitted",
+      "src": "隐喻批评（伪新颖/实验薄弱/碎片化）；Sörensen 2015 (Metaheuristics — the metaphor exposed, ITOR 22(1):3–18)；原始论文出处待核",
+      "note": "换皮隐喻量产线成员：机制与 PSO/GWO 同构（中心偏置扰动 + 随机扰动），所批判的'隐喻换皮'类；详见 PyPop7 Critical Papers 目录与 Aranha 2021 联名批评。"
+    },
+    {
+      "type": "algo",
+      "name": "海鸥优化算法 SOA",
+      "en": "Seagull Optimization Algorithm (SOA)",
+      "family": "F2",
+      "evidence": "作为 360+ 自然/社会隐喻算法之一提出（Molina et al. 2020 分类学）；迁徙/攻击螺旋，等价于螺旋 PSO 变体。",
+      "gates": {
+        "A": "pass",
+        "B": "fail",
+        "C": "pass",
+        "D": "pass",
+        "E": "pass"
+      },
+      "gate_notes": {
+        "A": "原始论文可查（作者/年份/出处完整），但出处待核一致性。",
+        "B": "状态转移/算子结构可用站内七槽组件等价装配（≈ PSO 的'向领导者靠拢'+随机扰动），机制不独立。",
+        "C": "已正式发表并有引用记录，计量对象。",
+        "D": "影响力批判视角度量：多数仅与同类隐喻互比。",
+        "E": "机制等价于已收录群智能，可落站内引擎（形式化等价）。"
+      },
+      "verdict": "批评词条",
+      "status": "admitted",
+      "src": "隐喻批评（伪新颖/实验薄弱/碎片化）；Sörensen 2015 (Metaheuristics — the metaphor exposed, ITOR 22(1):3–18)；原始论文出处待核",
+      "note": "换皮隐喻量产线成员：机制与 PSO/GWO 同构（中心偏置扰动 + 随机扰动），所批判的'隐喻换皮'类；详见 PyPop7 Critical Papers 目录与 Aranha 2021 联名批评。"
+    },
+    {
+      "type": "algo",
+      "name": "藤壶交配优化算法 BMO",
+      "en": "Barnacles Mating Optimizer (BMO)",
+      "family": "F2",
+      "evidence": "作为 360+ 自然/社会隐喻算法之一提出（Molina et al. 2020 分类学）；交配/进化，等价于是带交叉的群体搜索（原论文的一个参数名常被批评文献点名）。",
+      "gates": {
+        "A": "pass",
+        "B": "fail",
+        "C": "pass",
+        "D": "pass",
+        "E": "pass"
+      },
+      "gate_notes": {
+        "A": "原始论文可查（作者/年份/出处完整），但出处待核一致性。",
+        "B": "状态转移/算子结构可用站内七槽组件等价装配（≈ PSO 的'向领导者靠拢'+随机扰动），机制不独立。",
+        "C": "已正式发表并有引用记录，计量对象。",
+        "D": "影响力批判视角度量：多数仅与同类隐喻互比。",
+        "E": "机制等价于已收录群智能，可落站内引擎（形式化等价）。"
+      },
+      "verdict": "批评词条",
+      "status": "admitted",
+      "src": "隐喻批评（伪新颖/实验薄弱/碎片化）；Sörensen 2015 (Metaheuristics — the metaphor exposed, ITOR 22(1):3–18)；原始论文出处待核",
+      "note": "换皮隐喻量产线成员：机制与 PSO/GWO 同构（中心偏置扰动 + 随机扰动），所批判的'隐喻换皮'类；详见 PyPop7 Critical Papers 目录与 Aranha 2021 联名批评。"
+    },
+    {
+      "type": "algo",
+      "name": "蚯蚓优化算法 EWA",
+      "en": "Earthworm Optimization Algorithm (EWA)",
+      "family": "F2",
+      "evidence": "作为 360+ 自然/社会隐喻算法之一提出（Molina et al. 2020 分类学）；繁殖/变异/扩散，等价于遗传式群体搜索。",
+      "gates": {
+        "A": "pass",
+        "B": "fail",
+        "C": "pass",
+        "D": "pass",
+        "E": "pass"
+      },
+      "gate_notes": {
+        "A": "原始论文可查（作者/年份/出处完整），但出处待核一致性。",
+        "B": "状态转移/算子结构可用站内七槽组件等价装配（≈ PSO 的'向领导者靠拢'+随机扰动），机制不独立。",
+        "C": "已正式发表并有引用记录，计量对象。",
+        "D": "影响力批判视角度量：多数仅与同类隐喻互比。",
+        "E": "机制等价于已收录群智能，可落站内引擎（形式化等价）。"
+      },
+      "verdict": "批评词条",
+      "status": "admitted",
+      "src": "隐喻批评（伪新颖/实验薄弱/碎片化）；Sörensen 2015 (Metaheuristics — the metaphor exposed, ITOR 22(1):3–18)；原始论文出处待核",
+      "note": "换皮隐喻量产线成员：机制与 PSO/GWO 同构（中心偏置扰动 + 随机扰动），所批判的'隐喻换皮'类；详见 PyPop7 Critical Papers 目录与 Aranha 2021 联名批评。"
+    },
+    {
+      "type": "algo",
+      "name": "大猩猩部队优化算法 GTO",
+      "en": "Artificial Gorilla Troops Optimizer (GTO)",
+      "family": "F2",
+      "evidence": "作为 360+ 自然/社会隐喻算法之一提出（Molina et al. 2020 分类学）；银背带领/竞争/迁移，等价于领导者 PSO 变体。",
+      "gates": {
+        "A": "pass",
+        "B": "fail",
+        "C": "pass",
+        "D": "pass",
+        "E": "pass"
+      },
+      "gate_notes": {
+        "A": "原始论文可查（作者/年份/出处完整），但出处待核一致性。",
+        "B": "状态转移/算子结构可用站内七槽组件等价装配（≈ PSO 的'向领导者靠拢'+随机扰动），机制不独立。",
+        "C": "已正式发表并有引用记录，计量对象。",
+        "D": "影响力批判视角度量：多数仅与同类隐喻互比。",
+        "E": "机制等价于已收录群智能，可落站内引擎（形式化等价）。"
+      },
+      "verdict": "批评词条",
+      "status": "admitted",
+      "src": "隐喻批评（伪新颖/实验薄弱/碎片化）；Sörensen 2015 (Metaheuristics — the metaphor exposed, ITOR 22(1):3–18)；原始论文出处待核",
+      "note": "换皮隐喻量产线成员：机制与 PSO/GWO 同构（中心偏置扰动 + 随机扰动），所批判的'隐喻换皮'类；详见 PyPop7 Critical Papers 目录与 Aranha 2021 联名批评。"
+    },
+    {
+      "type": "algo",
+      "name": "鱼鹰优化算法",
+      "en": "Osprey Optimization Algorithm",
+      "family": "F2",
+      "evidence": "作为 360+ 自然/社会隐喻算法之一提出（Molina et al. 2020 分类学）；识别/俯冲捕获，等价于精英引导的局部搜索。",
+      "gates": {
+        "A": "pass",
+        "B": "fail",
+        "C": "pass",
+        "D": "pass",
+        "E": "pass"
+      },
+      "gate_notes": {
+        "A": "原始论文可查（作者/年份/出处完整），但出处待核一致性。",
+        "B": "状态转移/算子结构可用站内七槽组件等价装配（≈ PSO 的'向领导者靠拢'+随机扰动），机制不独立。",
+        "C": "已正式发表并有引用记录，计量对象。",
+        "D": "影响力批判视角度量：多数仅与同类隐喻互比。",
+        "E": "机制等价于已收录群智能，可落站内引擎（形式化等价）。"
+      },
+      "verdict": "批评词条",
+      "status": "admitted",
+      "src": "隐喻批评（伪新颖/实验薄弱/碎片化）；Sörensen 2015 (Metaheuristics — the metaphor exposed, ITOR 22(1):3–18)；原始论文出处待核",
+      "note": "换皮隐喻量产线成员：机制与 PSO/GWO 同构（中心偏置扰动 + 随机扰动），所批判的'隐喻换皮'类；详见 PyPop7 Critical Papers 目录与 Aranha 2021 联名批评。"
+    },
+    {
+      "type": "algo",
+      "name": "非洲秃鹫优化算法 AVOA",
+      "en": "African Vultures Optimization (AVOA)",
+      "family": "F2",
+      "evidence": "作为 360+ 自然/社会隐喻算法之一提出（Molina et al. 2020 分类学）；旋转/俯冲/竞争，等价于多角色 GWO 变体。",
+      "gates": {
+        "A": "pass",
+        "B": "fail",
+        "C": "pass",
+        "D": "pass",
+        "E": "pass"
+      },
+      "gate_notes": {
+        "A": "原始论文可查（作者/年份/出处完整），但出处待核一致性。",
+        "B": "状态转移/算子结构可用站内七槽组件等价装配（≈ PSO 的'向领导者靠拢'+随机扰动），机制不独立。",
+        "C": "已正式发表并有引用记录，计量对象。",
+        "D": "影响力批判视角度量：多数仅与同类隐喻互比。",
+        "E": "机制等价于已收录群智能，可落站内引擎（形式化等价）。"
+      },
+      "verdict": "批评词条",
+      "status": "admitted",
+      "src": "隐喻批评（伪新颖/实验薄弱/碎片化）；Sörensen 2015 (Metaheuristics — the metaphor exposed, ITOR 22(1):3–18)；原始论文出处待核",
+      "note": "换皮隐喻量产线成员：机制与 PSO/GWO 同构（中心偏置扰动 + 随机扰动），所批判的'隐喻换皮'类；详见 PyPop7 Critical Papers 目录与 Aranha 2021 联名批评。"
+    },
+    {
+      "type": "algo",
+      "name": "猫群优化算法 CSO",
+      "en": "Cat Swarm Optimization (CSO)",
+      "family": "F2",
+      "evidence": "作为 360+ 自然/社会隐喻算法之一提出（Molina et al. 2020 分类学）；搜寻/追踪双模式，等价于模式切换的 PSO。",
+      "gates": {
+        "A": "pass",
+        "B": "fail",
+        "C": "pass",
+        "D": "pass",
+        "E": "pass"
+      },
+      "gate_notes": {
+        "A": "原始论文可查（作者/年份/出处完整），但出处待核一致性。",
+        "B": "状态转移/算子结构可用站内七槽组件等价装配（≈ PSO 的'向领导者靠拢'+随机扰动），机制不独立。",
+        "C": "已正式发表并有引用记录，计量对象。",
+        "D": "影响力批判视角度量：多数仅与同类隐喻互比。",
+        "E": "机制等价于已收录群智能，可落站内引擎（形式化等价）。"
+      },
+      "verdict": "批评词条",
+      "status": "admitted",
+      "src": "隐喻批评（伪新颖/实验薄弱/碎片化）；Sörensen 2015 (Metaheuristics — the metaphor exposed, ITOR 22(1):3–18)；原始论文出处待核",
+      "note": "换皮隐喻量产线成员：机制与 PSO/GWO 同构（中心偏置扰动 + 随机扰动），所批判的'隐喻换皮'类；详见 PyPop7 Critical Papers 目录与 Aranha 2021 联名批评。"
+    },
+    {
+      "type": "algo",
+      "name": "蟑螂群优化算法",
+      "en": "Cockroach Swarm Optimization",
+      "family": "F2",
+      "evidence": "作为 360+ 自然/社会隐喻算法之一提出（Molina et al. 2020 分类学）；聚群/求偶/捕食，等价于社会力群体搜索。",
+      "gates": {
+        "A": "pass",
+        "B": "fail",
+        "C": "pass",
+        "D": "pass",
+        "E": "pass"
+      },
+      "gate_notes": {
+        "A": "原始论文可查（作者/年份/出处完整），但出处待核一致性。",
+        "B": "状态转移/算子结构可用站内七槽组件等价装配（≈ PSO 的'向领导者靠拢'+随机扰动），机制不独立。",
+        "C": "已正式发表并有引用记录，计量对象。",
+        "D": "影响力批判视角度量：多数仅与同类隐喻互比。",
+        "E": "机制等价于已收录群智能，可落站内引擎（形式化等价）。"
+      },
+      "verdict": "批评词条",
+      "status": "admitted",
+      "src": "隐喻批评（伪新颖/实验薄弱/碎片化）；Sörensen 2015 (Metaheuristics — the metaphor exposed, ITOR 22(1):3–18)；原始论文出处待核",
+      "note": "换皮隐喻量产线成员：机制与 PSO/GWO 同构（中心偏置扰动 + 随机扰动），所批判的'隐喻换皮'类；详见 PyPop7 Critical Papers 目录与 Aranha 2021 联名批评。"
+    },
+    {
+      "type": "algo",
+      "name": "入侵杂草优化算法 IWO",
+      "en": "Invasive Weed Optimization (IWO)",
+      "family": "F2",
+      "evidence": "作为 360+ 自然/社会隐喻算法之一提出（Molina et al. 2020 分类学）；繁殖/空间扩散/竞争，等价于繁殖式群体搜索（较早期，仍有换皮争议）。",
+      "gates": {
+        "A": "pass",
+        "B": "fail",
+        "C": "pass",
+        "D": "pass",
+        "E": "pass"
+      },
+      "gate_notes": {
+        "A": "原始论文可查（作者/年份/出处完整），但出处待核一致性。",
+        "B": "状态转移/算子结构可用站内七槽组件等价装配（≈ PSO 的'向领导者靠拢'+随机扰动），机制不独立。",
+        "C": "已正式发表并有引用记录，计量对象。",
+        "D": "影响力批判视角度量：多数仅与同类隐喻互比。",
+        "E": "机制等价于已收录群智能，可落站内引擎（形式化等价）。"
+      },
+      "verdict": "批评词条",
+      "status": "admitted",
+      "src": "隐喻批评（伪新颖/实验薄弱/碎片化）；Sörensen 2015 (Metaheuristics — the metaphor exposed, ITOR 22(1):3–18)；原始论文出处待核",
+      "note": "换皮隐喻量产线成员：机制与 PSO/GWO 同构（中心偏置扰动 + 随机扰动），所批判的'隐喻换皮'类；详见 PyPop7 Critical Papers 目录与 Aranha 2021 联名批评。"
+    },
+    {
+      "type": "algo",
+      "name": "乌鸦搜索算法 CSA",
+      "en": "Crow Search Algorithm (CSA)",
+      "family": "F2",
+      "evidence": "作为 360+ 自然/社会隐喻算法之一提出（Molina et al. 2020 分类学）；藏食/偷窥，等价于带记忆的群体扰动（注意与 cuckoo search 区分）。",
+      "gates": {
+        "A": "pass",
+        "B": "fail",
+        "C": "pass",
+        "D": "pass",
+        "E": "pass"
+      },
+      "gate_notes": {
+        "A": "原始论文可查（作者/年份/出处完整），但出处待核一致性。",
+        "B": "状态转移/算子结构可用站内七槽组件等价装配（≈ PSO 的'向领导者靠拢'+随机扰动），机制不独立。",
+        "C": "已正式发表并有引用记录，计量对象。",
+        "D": "影响力批判视角度量：多数仅与同类隐喻互比。",
+        "E": "机制等价于已收录群智能，可落站内引擎（形式化等价）。"
+      },
+      "verdict": "批评词条",
+      "status": "admitted",
+      "src": "隐喻批评（伪新颖/实验薄弱/碎片化）；Sörensen 2015 (Metaheuristics — the metaphor exposed, ITOR 22(1):3–18)；原始论文出处待核",
+      "note": "换皮隐喻量产线成员：机制与 PSO/GWO 同构（中心偏置扰动 + 随机扰动），所批判的'隐喻换皮'类；详见 PyPop7 Critical Papers 目录与 Aranha 2021 联名批评。"
+    },
+    {
+      "type": "algo",
+      "name": "水循环算法 WCA",
+      "en": "Water Cycle Algorithm (WCA)",
+      "family": "F3",
+      "evidence": "作为 360+ 自然/社会隐喻算法之一提出（Molina et al. 2020 分类学）；河流/溪流/降雨，等价于流体力学的群体分流。",
+      "gates": {
+        "A": "pass",
+        "B": "fail",
+        "C": "pass",
+        "D": "pass",
+        "E": "pass"
+      },
+      "gate_notes": {
+        "A": "原始论文可查（作者/年份/出处完整），但出处待核一致性。",
+        "B": "状态转移/算子结构可用站内七槽组件等价装配（≈ PSO 的'向领导者靠拢'+随机扰动），机制不独立。",
+        "C": "已正式发表并有引用记录，计量对象。",
+        "D": "影响力批判视角度量：多数仅与同类隐喻互比。",
+        "E": "机制等价于已收录群智能，可落站内引擎（形式化等价）。"
+      },
+      "verdict": "批评词条",
+      "status": "admitted",
+      "src": "隐喻批评（伪新颖/实验薄弱/碎片化）；Sörensen 2015 (Metaheuristics — the metaphor exposed, ITOR 22(1):3–18)；原始论文出处待核",
+      "note": "换皮隐喻量产线成员：机制与 PSO/GWO 同构（中心偏置扰动 + 随机扰动），所批判的'隐喻换皮'类；详见 PyPop7 Critical Papers 目录与 Aranha 2021 联名批评。"
+    },
+    {
+      "type": "algo",
+      "name": "地雷爆炸算法 MBA",
+      "en": "Mine Blast Algorithm (MBA)",
+      "family": "F3",
+      "evidence": "作为 360+ 自然/社会隐喻算法之一提出（Molina et al. 2020 分类学）；爆炸/衰减，等价于爆炸式扰动搜索。",
+      "gates": {
+        "A": "pass",
+        "B": "fail",
+        "C": "pass",
+        "D": "pass",
+        "E": "pass"
+      },
+      "gate_notes": {
+        "A": "原始论文可查（作者/年份/出处完整），但出处待核一致性。",
+        "B": "状态转移/算子结构可用站内七槽组件等价装配（≈ PSO 的'向领导者靠拢'+随机扰动），机制不独立。",
+        "C": "已正式发表并有引用记录，计量对象。",
+        "D": "影响力批判视角度量：多数仅与同类隐喻互比。",
+        "E": "机制等价于已收录群智能，可落站内引擎（形式化等价）。"
+      },
+      "verdict": "批评词条",
+      "status": "admitted",
+      "src": "隐喻批评（伪新颖/实验薄弱/碎片化）；Sörensen 2015 (Metaheuristics — the metaphor exposed, ITOR 22(1):3–18)；原始论文出处待核",
+      "note": "换皮隐喻量产线成员：机制与 PSO/GWO 同构（中心偏置扰动 + 随机扰动），所批判的'隐喻换皮'类；详见 PyPop7 Critical Papers 目录与 Aranha 2021 联名批评。"
+    },
+    {
+      "type": "algo",
+      "name": "银河搜索算法 GbSA",
+      "en": "Galaxy-based Search Algorithm (GbSA)",
+      "family": "F3",
+      "evidence": "作为 360+ 自然/社会隐喻算法之一提出（Molina et al. 2020 分类学）；星体旋转/位移，等价于旋转扰动搜索。",
+      "gates": {
+        "A": "pass",
+        "B": "fail",
+        "C": "pass",
+        "D": "pass",
+        "E": "pass"
+      },
+      "gate_notes": {
+        "A": "原始论文可查（作者/年份/出处完整），但出处待核一致性。",
+        "B": "状态转移/算子结构可用站内七槽组件等价装配（≈ PSO 的'向领导者靠拢'+随机扰动），机制不独立。",
+        "C": "已正式发表并有引用记录，计量对象。",
+        "D": "影响力批判视角度量：多数仅与同类隐喻互比。",
+        "E": "机制等价于已收录群智能，可落站内引擎（形式化等价）。"
+      },
+      "verdict": "批评词条",
+      "status": "admitted",
+      "src": "隐喻批评（伪新颖/实验薄弱/碎片化）；Sörensen 2015 (Metaheuristics — the metaphor exposed, ITOR 22(1):3–18)；原始论文出处待核",
+      "note": "换皮隐喻量产线成员：机制与 PSO/GWO 同构（中心偏置扰动 + 随机扰动），所批判的'隐喻换皮'类；详见 PyPop7 Critical Papers 目录与 Aranha 2021 联名批评。"
+    },
+    {
+      "type": "algo",
+      "name": "病毒群搜索算法 VCS",
+      "en": "Virus Colony Search (VCS)",
+      "family": "F2",
+      "evidence": "作为 360+ 自然/社会隐喻算法之一提出（Molina et al. 2020 分类学）；感染/免疫/变异，等价于寄生式群体搜索。",
+      "gates": {
+        "A": "pass",
+        "B": "fail",
+        "C": "pass",
+        "D": "pass",
+        "E": "pass"
+      },
+      "gate_notes": {
+        "A": "原始论文可查（作者/年份/出处完整），但出处待核一致性。",
+        "B": "状态转移/算子结构可用站内七槽组件等价装配（≈ PSO 的'向领导者靠拢'+随机扰动），机制不独立。",
+        "C": "已正式发表并有引用记录，计量对象。",
+        "D": "影响力批判视角度量：多数仅与同类隐喻互比。",
+        "E": "机制等价于已收录群智能，可落站内引擎（形式化等价）。"
+      },
+      "verdict": "批评词条",
+      "status": "admitted",
+      "src": "隐喻批评（伪新颖/实验薄弱/碎片化）；Sörensen 2015 (Metaheuristics — the metaphor exposed, ITOR 22(1):3–18)；原始论文出处待核",
+      "note": "换皮隐喻量产线成员：机制与 PSO/GWO 同构（中心偏置扰动 + 随机扰动），所批判的'隐喻换皮'类；详见 PyPop7 Critical Papers 目录与 Aranha 2021 联名批评。"
+    },
+    {
+      "type": "algo",
+      "name": "联赛冠军算法 LCA",
+      "en": "League Championship Algorithm (LCA)",
+      "family": "F5",
+      "evidence": "作为 360+ 自然/社会隐喻算法之一提出（Molina et al. 2020 分类学）；赛季积分/排名，等价于锦标赛选择的群体优化。",
+      "gates": {
+        "A": "pass",
+        "B": "fail",
+        "C": "pass",
+        "D": "pass",
+        "E": "pass"
+      },
+      "gate_notes": {
+        "A": "原始论文可查（作者/年份/出处完整），但出处待核一致性。",
+        "B": "状态转移/算子结构可用站内七槽组件等价装配（≈ PSO 的'向领导者靠拢'+随机扰动），机制不独立。",
+        "C": "已正式发表并有引用记录，计量对象。",
+        "D": "影响力批判视角度量：多数仅与同类隐喻互比。",
+        "E": "机制等价于已收录群智能，可落站内引擎（形式化等价）。"
+      },
+      "verdict": "批评词条",
+      "status": "admitted",
+      "src": "隐喻批评（伪新颖/实验薄弱/碎片化）；Sörensen 2015 (Metaheuristics — the metaphor exposed, ITOR 22(1):3–18)；原始论文出处待核",
+      "note": "换皮隐喻量产线成员：机制与 PSO/GWO 同构（中心偏置扰动 + 随机扰动），所批判的'隐喻换皮'类；详见 PyPop7 Critical Papers 目录与 Aranha 2021 联名批评。"
+    },
+    {
+      "type": "algo",
+      "name": "群体动物行为优化 CAB",
+      "en": "Collective Animal Behavior (CAB)",
+      "family": "F2",
+      "evidence": "作为 360+ 自然/社会隐喻算法之一提出（Molina et al. 2020 分类学）；分离/对齐/聚合+个体，等价于 Boids 式群体搜索。",
+      "gates": {
+        "A": "pass",
+        "B": "fail",
+        "C": "pass",
+        "D": "pass",
+        "E": "pass"
+      },
+      "gate_notes": {
+        "A": "原始论文可查（作者/年份/出处完整），但出处待核一致性。",
+        "B": "状态转移/算子结构可用站内七槽组件等价装配（≈ PSO 的'向领导者靠拢'+随机扰动），机制不独立。",
+        "C": "已正式发表并有引用记录，计量对象。",
+        "D": "影响力批判视角度量：多数仅与同类隐喻互比。",
+        "E": "机制等价于已收录群智能，可落站内引擎（形式化等价）。"
+      },
+      "verdict": "批评词条",
+      "status": "admitted",
+      "src": "隐喻批评（伪新颖/实验薄弱/碎片化）；Sörensen 2015 (Metaheuristics — the metaphor exposed, ITOR 22(1):3–18)；原始论文出处待核",
+      "note": "换皮隐喻量产线成员：机制与 PSO/GWO 同构（中心偏置扰动 + 随机扰动），所批判的'隐喻换皮'类；详见 PyPop7 Critical Papers 目录与 Aranha 2021 联名批评。"
+    },
+    {
+      "type": "algo",
+      "name": "智能水滴算法 IWD",
+      "en": "Intelligent Water Drops (IWD)",
+      "family": "F2",
+      "evidence": "作为 360+ 自然/社会隐喻算法之一提出（Molina et al. 2020 分类学）；水滴携带土壤/速度，等价于蚁群式信息素变体。",
+      "gates": {
+        "A": "pass",
+        "B": "fail",
+        "C": "pass",
+        "D": "pass",
+        "E": "pass"
+      },
+      "gate_notes": {
+        "A": "原始论文可查（作者/年份/出处完整），但出处待核一致性。",
+        "B": "状态转移/算子结构可用站内七槽组件等价装配（≈ PSO 的'向领导者靠拢'+随机扰动），机制不独立。",
+        "C": "已正式发表并有引用记录，计量对象。",
+        "D": "影响力批判视角度量：多数仅与同类隐喻互比。",
+        "E": "机制等价于已收录群智能，可落站内引擎（形式化等价）。"
+      },
+      "verdict": "批评词条",
+      "status": "admitted",
+      "src": "隐喻批评（伪新颖/实验薄弱/碎片化）；Sörensen 2015 (Metaheuristics — the metaphor exposed, ITOR 22(1):3–18)；原始论文出处待核",
+      "note": "换皮隐喻量产线成员：机制与 PSO/GWO 同构（中心偏置扰动 + 随机扰动），所批判的'隐喻换皮'类；详见 PyPop7 Critical Papers 目录与 Aranha 2021 联名批评。"
+    },
+    {
+      "type": "algo",
+      "name": "树种子算法 TSA",
+      "en": "Tree Seed Algorithm (TSA-tree)",
+      "family": "F2",
+      "evidence": "作为 360+ 自然/社会隐喻算法之一提出（Molina et al. 2020 分类学）；树/种子位置，等价于植物启发的群体扰动。",
+      "gates": {
+        "A": "pass",
+        "B": "fail",
+        "C": "pass",
+        "D": "pass",
+        "E": "pass"
+      },
+      "gate_notes": {
+        "A": "原始论文可查（作者/年份/出处完整），但出处待核一致性。",
+        "B": "状态转移/算子结构可用站内七槽组件等价装配（≈ PSO 的'向领导者靠拢'+随机扰动），机制不独立。",
+        "C": "已正式发表并有引用记录，计量对象。",
+        "D": "影响力批判视角度量：多数仅与同类隐喻互比。",
+        "E": "机制等价于已收录群智能，可落站内引擎（形式化等价）。"
+      },
+      "verdict": "批评词条",
+      "status": "admitted",
+      "src": "隐喻批评（伪新颖/实验薄弱/碎片化）；Sörensen 2015 (Metaheuristics — the metaphor exposed, ITOR 22(1):3–18)；原始论文出处待核",
+      "note": "换皮隐喻量产线成员：机制与 PSO/GWO 同构（中心偏置扰动 + 随机扰动），所批判的'隐喻换皮'类；详见 PyPop7 Critical Papers 目录与 Aranha 2021 联名批评。"
+    },
+    {
+      "type": "algo",
+      "name": "森林优化算法 FOA",
+      "en": "Forest Optimization Algorithm (FOA)",
+      "family": "F2",
+      "evidence": "作为 360+ 自然/社会隐喻算法之一提出（Molina et al. 2020 分类学）；繁殖/光照/枯死，等价于生态式群体搜索。",
+      "gates": {
+        "A": "pass",
+        "B": "fail",
+        "C": "pass",
+        "D": "pass",
+        "E": "pass"
+      },
+      "gate_notes": {
+        "A": "原始论文可查（作者/年份/出处完整），但出处待核一致性。",
+        "B": "状态转移/算子结构可用站内七槽组件等价装配（≈ PSO 的'向领导者靠拢'+随机扰动），机制不独立。",
+        "C": "已正式发表并有引用记录，计量对象。",
+        "D": "影响力批判视角度量：多数仅与同类隐喻互比。",
+        "E": "机制等价于已收录群智能，可落站内引擎（形式化等价）。"
+      },
+      "verdict": "批评词条",
+      "status": "admitted",
+      "src": "隐喻批评（伪新颖/实验薄弱/碎片化）；Sörensen 2015 (Metaheuristics — the metaphor exposed, ITOR 22(1):3–18)；原始论文出处待核",
+      "note": "换皮隐喻量产线成员：机制与 PSO/GWO 同构（中心偏置扰动 + 随机扰动），所批判的'隐喻换皮'类；详见 PyPop7 Critical Papers 目录与 Aranha 2021 联名批评。"
+    },
+    {
+      "type": "algo",
+      "name": "多元宇宙优化算法 MVO",
+      "en": "Multi-Verse Optimizer (MVO)",
+      "family": "F3",
+      "evidence": "作为 360+ 自然/社会隐喻算法之一提出（Molina et al. 2020 分类学）；白/黑洞/虫洞，等价于基于引力的个体交换。",
+      "gates": {
+        "A": "pass",
+        "B": "fail",
+        "C": "pass",
+        "D": "pass",
+        "E": "pass"
+      },
+      "gate_notes": {
+        "A": "原始论文可查（作者/年份/出处完整），但出处待核一致性。",
+        "B": "状态转移/算子结构可用站内七槽组件等价装配（≈ PSO 的'向领导者靠拢'+随机扰动），机制不独立。",
+        "C": "已正式发表并有引用记录，计量对象。",
+        "D": "影响力批判视角度量：多数仅与同类隐喻互比。",
+        "E": "机制等价于已收录群智能，可落站内引擎（形式化等价）。"
+      },
+      "verdict": "批评词条",
+      "status": "admitted",
+      "src": "隐喻批评（伪新颖/实验薄弱/碎片化）；Sörensen 2015 (Metaheuristics — the metaphor exposed, ITOR 22(1):3–18)；原始论文出处待核",
+      "note": "换皮隐喻量产线成员：机制与 PSO/GWO 同构（中心偏置扰动 + 随机扰动），所批判的'隐喻换皮'类；详见 PyPop7 Critical Papers 目录与 Aranha 2021 联名批评。"
+    },
+    {
+      "type": "algo",
+      "name": "混沌博弈优化算法 CGO",
+      "en": "Chaos Game Optimization (CGO)",
+      "family": "F3",
+      "evidence": "作为 360+ 自然/社会隐喻算法之一提出（Molina et al. 2020 分类学）；混沌映射/博弈，等价于混沌扰动的群体搜索。",
+      "gates": {
+        "A": "pass",
+        "B": "fail",
+        "C": "pass",
+        "D": "pass",
+        "E": "pass"
+      },
+      "gate_notes": {
+        "A": "原始论文可查（作者/年份/出处完整），但出处待核一致性。",
+        "B": "状态转移/算子结构可用站内七槽组件等价装配（≈ PSO 的'向领导者靠拢'+随机扰动），机制不独立。",
+        "C": "已正式发表并有引用记录，计量对象。",
+        "D": "影响力批判视角度量：多数仅与同类隐喻互比。",
+        "E": "机制等价于已收录群智能，可落站内引擎（形式化等价）。"
+      },
+      "verdict": "批评词条",
+      "status": "admitted",
+      "src": "隐喻批评（伪新颖/实验薄弱/碎片化）；Sörensen 2015 (Metaheuristics — the metaphor exposed, ITOR 22(1):3–18)；原始论文出处待核",
+      "note": "换皮隐喻量产线成员：机制与 PSO/GWO 同构（中心偏置扰动 + 随机扰动），所批判的'隐喻换皮'类；详见 PyPop7 Critical Papers 目录与 Aranha 2021 联名批评。"
+    },
+    {
+      "type": "algo",
+      "name": "河豚优化算法",
+      "en": "Pufferfish Optimization Algorithm",
+      "family": "F2",
+      "evidence": "作为 360+ 自然/社会隐喻算法之一提出（Molina et al. 2020 分类学）；警戒/聚集，等价于双机制群体扰动。",
+      "gates": {
+        "A": "pass",
+        "B": "fail",
+        "C": "pass",
+        "D": "pass",
+        "E": "pass"
+      },
+      "gate_notes": {
+        "A": "原始论文可查（作者/年份/出处完整），但出处待核一致性。",
+        "B": "状态转移/算子结构可用站内七槽组件等价装配（≈ PSO 的'向领导者靠拢'+随机扰动），机制不独立。",
+        "C": "已正式发表并有引用记录，计量对象。",
+        "D": "影响力批判视角度量：多数仅与同类隐喻互比。",
+        "E": "机制等价于已收录群智能，可落站内引擎（形式化等价）。"
+      },
+      "verdict": "批评词条",
+      "status": "admitted",
+      "src": "隐喻批评（伪新颖/实验薄弱/碎片化）；Sörensen 2015 (Metaheuristics — the metaphor exposed, ITOR 22(1):3–18)；原始论文出处待核",
+      "note": "换皮隐喻量产线成员：机制与 PSO/GWO 同构（中心偏置扰动 + 随机扰动），所批判的'隐喻换皮'类；详见 PyPop7 Critical Papers 目录与 Aranha 2021 联名批评。"
+    },
+    {
+      "type": "algo",
+      "name": "虎鲸捕食优化算法",
+      "en": "Orca Predation Algorithm",
+      "family": "F2",
+      "evidence": "作为 360+ 自然/社会隐喻算法之一提出（Molina et al. 2020 分类学）；围捕/冲浪，等价于协作式群体搜索。",
+      "gates": {
+        "A": "pass",
+        "B": "fail",
+        "C": "pass",
+        "D": "pass",
+        "E": "pass"
+      },
+      "gate_notes": {
+        "A": "原始论文可查（作者/年份/出处完整），但出处待核一致性。",
+        "B": "状态转移/算子结构可用站内七槽组件等价装配（≈ PSO 的'向领导者靠拢'+随机扰动），机制不独立。",
+        "C": "已正式发表并有引用记录，计量对象。",
+        "D": "影响力批判视角度量：多数仅与同类隐喻互比。",
+        "E": "机制等价于已收录群智能，可落站内引擎（形式化等价）。"
+      },
+      "verdict": "批评词条",
+      "status": "admitted",
+      "src": "隐喻批评（伪新颖/实验薄弱/碎片化）；Sörensen 2015 (Metaheuristics — the metaphor exposed, ITOR 22(1):3–18)；原始论文出处待核",
+      "note": "换皮隐喻量产线成员：机制与 PSO/GWO 同构（中心偏置扰动 + 随机扰动），所批判的'隐喻换皮'类；详见 PyPop7 Critical Papers 目录与 Aranha 2021 联名批评。"
+    },
+    {
+      "type": "algo",
+      "name": "沙猫群优化算法 SCSO",
+      "en": "Sand Cat Swarm Optimization (SCSO)",
+      "family": "F2",
+      "evidence": "作为 360+ 自然/社会隐喻算法之一提出（Molina et al. 2020 分类学）；听觉搜索/漫游，等价于带感知半径的群体搜索。",
+      "gates": {
+        "A": "pass",
+        "B": "fail",
+        "C": "pass",
+        "D": "pass",
+        "E": "pass"
+      },
+      "gate_notes": {
+        "A": "原始论文可查（作者/年份/出处完整），但出处待核一致性。",
+        "B": "状态转移/算子结构可用站内七槽组件等价装配（≈ PSO 的'向领导者靠拢'+随机扰动），机制不独立。",
+        "C": "已正式发表并有引用记录，计量对象。",
+        "D": "影响力批判视角度量：多数仅与同类隐喻互比。",
+        "E": "机制等价于已收录群智能，可落站内引擎（形式化等价）。"
+      },
+      "verdict": "批评词条",
+      "status": "admitted",
+      "src": "隐喻批评（伪新颖/实验薄弱/碎片化）；Sörensen 2015 (Metaheuristics — the metaphor exposed, ITOR 22(1):3–18)；原始论文出处待核",
+      "note": "换皮隐喻量产线成员：机制与 PSO/GWO 同构（中心偏置扰动 + 随机扰动），所批判的'隐喻换皮'类；详见 PyPop7 Critical Papers 目录与 Aranha 2021 联名批评。"
+    },
+    {
+      "type": "algo",
+      "name": "非洲水牛优化算法 ABO",
+      "en": "African Buffalo Optimization (ABO)",
+      "family": "F2",
+      "evidence": "作为 360+ 自然/社会隐喻算法之一提出（Molina et al. 2020 分类学）；牛群/牛郎，等价于社会力群体搜索。",
+      "gates": {
+        "A": "pass",
+        "B": "fail",
+        "C": "pass",
+        "D": "pass",
+        "E": "pass"
+      },
+      "gate_notes": {
+        "A": "原始论文可查（作者/年份/出处完整），但出处待核一致性。",
+        "B": "状态转移/算子结构可用站内七槽组件等价装配（≈ PSO 的'向领导者靠拢'+随机扰动），机制不独立。",
+        "C": "已正式发表并有引用记录，计量对象。",
+        "D": "影响力批判视角度量：多数仅与同类隐喻互比。",
+        "E": "机制等价于已收录群智能，可落站内引擎（形式化等价）。"
+      },
+      "verdict": "批评词条",
+      "status": "admitted",
+      "src": "隐喻批评（伪新颖/实验薄弱/碎片化）；Sörensen 2015 (Metaheuristics — the metaphor exposed, ITOR 22(1):3–18)；原始论文出处待核",
+      "note": "换皮隐喻量产线成员：机制与 PSO/GWO 同构（中心偏置扰动 + 随机扰动），所批判的'隐喻换皮'类；详见 PyPop7 Critical Papers 目录与 Aranha 2021 联名批评。"
+    },
+    {
+      "type": "algo",
+      "name": "喜鹊优化算法",
+      "en": "Magpie Optimization Algorithm",
+      "family": "F2",
+      "evidence": "作为 360+ 自然/社会隐喻算法之一提出（Molina et al. 2020 分类学）；偷藏/竞争，等价于记忆式群体扰动。",
+      "gates": {
+        "A": "pass",
+        "B": "fail",
+        "C": "pass",
+        "D": "pass",
+        "E": "pass"
+      },
+      "gate_notes": {
+        "A": "原始论文可查（作者/年份/出处完整），但出处待核一致性。",
+        "B": "状态转移/算子结构可用站内七槽组件等价装配（≈ PSO 的'向领导者靠拢'+随机扰动），机制不独立。",
+        "C": "已正式发表并有引用记录，计量对象。",
+        "D": "影响力批判视角度量：多数仅与同类隐喻互比。",
+        "E": "机制等价于已收录群智能，可落站内引擎（形式化等价）。"
+      },
+      "verdict": "批评词条",
+      "status": "admitted",
+      "src": "隐喻批评（伪新颖/实验薄弱/碎片化）；Sörensen 2015 (Metaheuristics — the metaphor exposed, ITOR 22(1):3–18)；原始论文出处待核",
+      "note": "换皮隐喻量产线成员：机制与 PSO/GWO 同构（中心偏置扰动 + 随机扰动），所批判的'隐喻换皮'类；详见 PyPop7 Critical Papers 目录与 Aranha 2021 联名批评。"
+    },
+    {
+      "type": "algo",
+      "name": "带电系统搜索算法 CSS",
+      "en": "Charged System Search (CSS)",
+      "family": "F3",
+      "evidence": "作为 360+ 自然/社会隐喻算法之一提出（Molina et al. 2020 分类学）；带电粒子库仑力，等价于受力的个体间搜索。",
+      "gates": {
+        "A": "pass",
+        "B": "fail",
+        "C": "pass",
+        "D": "pass",
+        "E": "pass"
+      },
+      "gate_notes": {
+        "A": "原始论文可查（作者/年份/出处完整），但出处待核一致性。",
+        "B": "状态转移/算子结构可用站内七槽组件等价装配（≈ PSO 的'向领导者靠拢'+随机扰动），机制不独立。",
+        "C": "已正式发表并有引用记录，计量对象。",
+        "D": "影响力批判视角度量：多数仅与同类隐喻互比。",
+        "E": "机制等价于已收录群智能，可落站内引擎（形式化等价）。"
+      },
+      "verdict": "批评词条",
+      "status": "admitted",
+      "src": "隐喻批评（伪新颖/实验薄弱/碎片化）；Sörensen 2015 (Metaheuristics — the metaphor exposed, ITOR 22(1):3–18)；原始论文出处待核",
+      "note": "换皮隐喻量产线成员：机制与 PSO/GWO 同构（中心偏置扰动 + 随机扰动），所批判的'隐喻换皮'类；详见 PyPop7 Critical Papers 目录与 Aranha 2021 联名批评。"
+    },
+    {
+      "type": "algo",
+      "name": "中心力优化算法 CFO",
+      "en": "Central Force Optimization (CFO)",
+      "family": "F3",
+      "evidence": "作为 360+ 自然/社会隐喻算法之一提出（Molina et al. 2020 分类学）；向最优引力中心运动，等价于引力引导搜索。",
+      "gates": {
+        "A": "pass",
+        "B": "fail",
+        "C": "pass",
+        "D": "pass",
+        "E": "pass"
+      },
+      "gate_notes": {
+        "A": "原始论文可查（作者/年份/出处完整），但出处待核一致性。",
+        "B": "状态转移/算子结构可用站内七槽组件等价装配（≈ PSO 的'向领导者靠拢'+随机扰动），机制不独立。",
+        "C": "已正式发表并有引用记录，计量对象。",
+        "D": "影响力批判视角度量：多数仅与同类隐喻互比。",
+        "E": "机制等价于已收录群智能，可落站内引擎（形式化等价）。"
+      },
+      "verdict": "批评词条",
+      "status": "admitted",
+      "src": "隐喻批评（伪新颖/实验薄弱/碎片化）；Sörensen 2015 (Metaheuristics — the metaphor exposed, ITOR 22(1):3–18)；原始论文出处待核",
+      "note": "换皮隐喻量产线成员：机制与 PSO/GWO 同构（中心偏置扰动 + 随机扰动），所批判的'隐喻换皮'类；详见 PyPop7 Critical Papers 目录与 Aranha 2021 联名批评。"
+    },
+    {
+      "type": "algo",
+      "name": "黑洞算法 BH",
+      "en": "Black Hole Algorithm (BH)",
+      "family": "F3",
+      "evidence": "作为 360+ 自然/社会隐喻算法之一提出（Molina et al. 2020 分类学）；恒星被吸入黑洞，等价于引力塌陷式选择。",
+      "gates": {
+        "A": "pass",
+        "B": "fail",
+        "C": "pass",
+        "D": "pass",
+        "E": "pass"
+      },
+      "gate_notes": {
+        "A": "原始论文可查（作者/年份/出处完整），但出处待核一致性。",
+        "B": "状态转移/算子结构可用站内七槽组件等价装配（≈ PSO 的'向领导者靠拢'+随机扰动），机制不独立。",
+        "C": "已正式发表并有引用记录，计量对象。",
+        "D": "影响力批判视角度量：多数仅与同类隐喻互比。",
+        "E": "机制等价于已收录群智能，可落站内引擎（形式化等价）。"
+      },
+      "verdict": "批评词条",
+      "status": "admitted",
+      "src": "隐喻批评（伪新颖/实验薄弱/碎片化）；Sörensen 2015 (Metaheuristics — the metaphor exposed, ITOR 22(1):3–18)；原始论文出处待核",
+      "note": "换皮隐喻量产线成员：机制与 PSO/GWO 同构（中心偏置扰动 + 随机扰动），所批判的'隐喻换皮'类；详见 PyPop7 Critical Papers 目录与 Aranha 2021 联名批评。"
+    },
+    {
+      "type": "algo",
+      "name": "涡旋搜索算法 VS",
+      "en": "Vortex Search (VS)",
+      "family": "F3",
+      "evidence": "作为 360+ 自然/社会隐喻算法之一提出（Molina et al. 2020 分类学）；涡旋半径收缩，等价于自适应半径局部搜索。",
+      "gates": {
+        "A": "pass",
+        "B": "fail",
+        "C": "pass",
+        "D": "pass",
+        "E": "pass"
+      },
+      "gate_notes": {
+        "A": "原始论文可查（作者/年份/出处完整），但出处待核一致性。",
+        "B": "状态转移/算子结构可用站内七槽组件等价装配（≈ PSO 的'向领导者靠拢'+随机扰动），机制不独立。",
+        "C": "已正式发表并有引用记录，计量对象。",
+        "D": "影响力批判视角度量：多数仅与同类隐喻互比。",
+        "E": "机制等价于已收录群智能，可落站内引擎（形式化等价）。"
+      },
+      "verdict": "批评词条",
+      "status": "admitted",
+      "src": "隐喻批评（伪新颖/实验薄弱/碎片化）；Sörensen 2015 (Metaheuristics — the metaphor exposed, ITOR 22(1):3–18)；原始论文出处待核",
+      "note": "换皮隐喻量产线成员：机制与 PSO/GWO 同构（中心偏置扰动 + 随机扰动），所批判的'隐喻换皮'类；详见 PyPop7 Critical Papers 目录与 Aranha 2021 联名批评。"
+    },
+    {
+      "type": "algo",
+      "name": "电磁场优化算法 EFO",
+      "en": "Electromagnetic Field Optimization (EFO)",
+      "family": "F3",
+      "evidence": "作为 360+ 自然/社会隐喻算法之一提出（Molina et al. 2020 分类学）；电磁力吸引，等价于受力引导搜索。",
+      "gates": {
+        "A": "pass",
+        "B": "fail",
+        "C": "pass",
+        "D": "pass",
+        "E": "pass"
+      },
+      "gate_notes": {
+        "A": "原始论文可查（作者/年份/出处完整），但出处待核一致性。",
+        "B": "状态转移/算子结构可用站内七槽组件等价装配（≈ PSO 的'向领导者靠拢'+随机扰动），机制不独立。",
+        "C": "已正式发表并有引用记录，计量对象。",
+        "D": "影响力批判视角度量：多数仅与同类隐喻互比。",
+        "E": "机制等价于已收录群智能，可落站内引擎（形式化等价）。"
+      },
+      "verdict": "批评词条",
+      "status": "admitted",
+      "src": "隐喻批评（伪新颖/实验薄弱/碎片化）；Sörensen 2015 (Metaheuristics — the metaphor exposed, ITOR 22(1):3–18)；原始论文出处待核",
+      "note": "换皮隐喻量产线成员：机制与 PSO/GWO 同构（中心偏置扰动 + 随机扰动），所批判的'隐喻换皮'类；详见 PyPop7 Critical Papers 目录与 Aranha 2021 联名批评。"
+    },
+    {
+      "type": "algo",
+      "name": "热交换优化算法 TEO",
+      "en": "Thermal Exchange Optimization (TEO)",
+      "family": "F3",
+      "evidence": "作为 360+ 自然/社会隐喻算法之一提出（Molina et al. 2020 分类学）；热导体/绝缘体交换，等价于温度驱动的选择。",
+      "gates": {
+        "A": "pass",
+        "B": "fail",
+        "C": "pass",
+        "D": "pass",
+        "E": "pass"
+      },
+      "gate_notes": {
+        "A": "原始论文可查（作者/年份/出处完整），但出处待核一致性。",
+        "B": "状态转移/算子结构可用站内七槽组件等价装配（≈ PSO 的'向领导者靠拢'+随机扰动），机制不独立。",
+        "C": "已正式发表并有引用记录，计量对象。",
+        "D": "影响力批判视角度量：多数仅与同类隐喻互比。",
+        "E": "机制等价于已收录群智能，可落站内引擎（形式化等价）。"
+      },
+      "verdict": "批评词条",
+      "status": "admitted",
+      "src": "隐喻批评（伪新颖/实验薄弱/碎片化）；Sörensen 2015 (Metaheuristics — the metaphor exposed, ITOR 22(1):3–18)；原始论文出处待核",
+      "note": "换皮隐喻量产线成员：机制与 PSO/GWO 同构（中心偏置扰动 + 随机扰动），所批判的'隐喻换皮'类；详见 PyPop7 Critical Papers 目录与 Aranha 2021 联名批评。"
+    },
+    {
+      "type": "algo",
+      "name": "核反应优化算法 NRO",
+      "en": "Nuclear Reaction Optimization (NRO)",
+      "family": "F3",
+      "evidence": "作为 360+ 自然/社会隐喻算法之一提出（Molina et al. 2020 分类学）；核反应链，等价于链式扰动搜索。",
+      "gates": {
+        "A": "pass",
+        "B": "fail",
+        "C": "pass",
+        "D": "pass",
+        "E": "pass"
+      },
+      "gate_notes": {
+        "A": "原始论文可查（作者/年份/出处完整），但出处待核一致性。",
+        "B": "状态转移/算子结构可用站内七槽组件等价装配（≈ PSO 的'向领导者靠拢'+随机扰动），机制不独立。",
+        "C": "已正式发表并有引用记录，计量对象。",
+        "D": "影响力批判视角度量：多数仅与同类隐喻互比。",
+        "E": "机制等价于已收录群智能，可落站内引擎（形式化等价）。"
+      },
+      "verdict": "批评词条",
+      "status": "admitted",
+      "src": "隐喻批评（伪新颖/实验薄弱/碎片化）；Sörensen 2015 (Metaheuristics — the metaphor exposed, ITOR 22(1):3–18)；原始论文出处待核",
+      "note": "换皮隐喻量产线成员：机制与 PSO/GWO 同构（中心偏置扰动 + 随机扰动），所批判的'隐喻换皮'类；详见 PyPop7 Critical Papers 目录与 Aranha 2021 联名批评。"
+    },
+    {
+      "type": "algo",
+      "name": "新冠群体免疫优化 CHIO",
+      "en": "Coronavirus Herd Immunity Optimizer (CHIO)",
+      "family": "F5",
+      "evidence": "作为 360+ 自然/社会隐喻算法之一提出（Molina et al. 2020 分类学）；易感/感染/免疫，等价于人口动力学启发的群体搜索。",
+      "gates": {
+        "A": "pass",
+        "B": "fail",
+        "C": "pass",
+        "D": "pass",
+        "E": "pass"
+      },
+      "gate_notes": {
+        "A": "原始论文可查（作者/年份/出处完整），但出处待核一致性。",
+        "B": "状态转移/算子结构可用站内七槽组件等价装配（≈ PSO 的'向领导者靠拢'+随机扰动），机制不独立。",
+        "C": "已正式发表并有引用记录，计量对象。",
+        "D": "影响力批判视角度量：多数仅与同类隐喻互比。",
+        "E": "机制等价于已收录群智能，可落站内引擎（形式化等价）。"
+      },
+      "verdict": "批评词条",
+      "status": "admitted",
+      "src": "隐喻批评（伪新颖/实验薄弱/碎片化）；Sörensen 2015 (Metaheuristics — the metaphor exposed, ITOR 22(1):3–18)；原始论文出处待核",
+      "note": "换皮隐喻量产线成员：机制与 PSO/GWO 同构（中心偏置扰动 + 随机扰动），所批判的'隐喻换皮'类；详见 PyPop7 Critical Papers 目录与 Aranha 2021 联名批评。"
+    },
+    {
+      "type": "algo",
+      "name": "大逃杀优化算法 BRO",
+      "en": "Battle Royale Optimization (BRO)",
+      "family": "F5",
+      "evidence": "作为 360+ 自然/社会隐喻算法之一提出（Molina et al. 2020 分类学）；竞技淘汰，等价于基于排名的锦标赛选择。",
+      "gates": {
+        "A": "pass",
+        "B": "fail",
+        "C": "pass",
+        "D": "pass",
+        "E": "pass"
+      },
+      "gate_notes": {
+        "A": "原始论文可查（作者/年份/出处完整），但出处待核一致性。",
+        "B": "状态转移/算子结构可用站内七槽组件等价装配（≈ PSO 的'向领导者靠拢'+随机扰动），机制不独立。",
+        "C": "已正式发表并有引用记录，计量对象。",
+        "D": "影响力批判视角度量：多数仅与同类隐喻互比。",
+        "E": "机制等价于已收录群智能，可落站内引擎（形式化等价）。"
+      },
+      "verdict": "批评词条",
+      "status": "admitted",
+      "src": "隐喻批评（伪新颖/实验薄弱/碎片化）；Sörensen 2015 (Metaheuristics — the metaphor exposed, ITOR 22(1):3–18)；原始论文出处待核",
+      "note": "换皮隐喻量产线成员：机制与 PSO/GWO 同构（中心偏置扰动 + 随机扰动），所批判的'隐喻换皮'类；详见 PyPop7 Critical Papers 目录与 Aranha 2021 联名批评。"
+    },
+    {
+      "type": "algo",
+      "name": "政治优化算法",
+      "en": "Political Optimizer",
+      "family": "F5",
+      "evidence": "作为 360+ 自然/社会隐喻算法之一提出（Molina et al. 2020 分类学）；政党/选举/联盟，等价于政治隐喻的群体重组。",
+      "gates": {
+        "A": "pass",
+        "B": "fail",
+        "C": "pass",
+        "D": "pass",
+        "E": "pass"
+      },
+      "gate_notes": {
+        "A": "原始论文可查（作者/年份/出处完整），但出处待核一致性。",
+        "B": "状态转移/算子结构可用站内七槽组件等价装配（≈ PSO 的'向领导者靠拢'+随机扰动），机制不独立。",
+        "C": "已正式发表并有引用记录，计量对象。",
+        "D": "影响力批判视角度量：多数仅与同类隐喻互比。",
+        "E": "机制等价于已收录群智能，可落站内引擎（形式化等价）。"
+      },
+      "verdict": "批评词条",
+      "status": "admitted",
+      "src": "隐喻批评（伪新颖/实验薄弱/碎片化）；Sörensen 2015 (Metaheuristics — the metaphor exposed, ITOR 22(1):3–18)；原始论文出处待核",
+      "note": "换皮隐喻量产线成员：机制与 PSO/GWO 同构（中心偏置扰动 + 随机扰动），所批判的'隐喻换皮'类；详见 PyPop7 Critical Papers 目录与 Aranha 2021 联名批评。"
+    },
+    {
+      "type": "algo",
+      "name": "贫富优化算法 PRO",
+      "en": "Poor and Rich Optimization (PRO)",
+      "family": "F5",
+      "evidence": "作为 360+ 自然/社会隐喻算法之一提出（Molina et al. 2020 分类学）；财富驱动移动，等价于经济隐喻的群体扰动。",
+      "gates": {
+        "A": "pass",
+        "B": "fail",
+        "C": "pass",
+        "D": "pass",
+        "E": "pass"
+      },
+      "gate_notes": {
+        "A": "原始论文可查（作者/年份/出处完整），但出处待核一致性。",
+        "B": "状态转移/算子结构可用站内七槽组件等价装配（≈ PSO 的'向领导者靠拢'+随机扰动），机制不独立。",
+        "C": "已正式发表并有引用记录，计量对象。",
+        "D": "影响力批判视角度量：多数仅与同类隐喻互比。",
+        "E": "机制等价于已收录群智能，可落站内引擎（形式化等价）。"
+      },
+      "verdict": "批评词条",
+      "status": "admitted",
+      "src": "隐喻批评（伪新颖/实验薄弱/碎片化）；Sörensen 2015 (Metaheuristics — the metaphor exposed, ITOR 22(1):3–18)；原始论文出处待核",
+      "note": "换皮隐喻量产线成员：机制与 PSO/GWO 同构（中心偏置扰动 + 随机扰动），所批判的'隐喻换皮'类；详见 PyPop7 Critical Papers 目录与 Aranha 2021 联名批评。"
+    },
+    {
+      "type": "algo",
+      "name": "社交网络搜索算法 SNS",
+      "en": "Social Network Search (SNS)",
+      "family": "F5",
+      "evidence": "作为 360+ 自然/社会隐喻算法之一提出（Molina et al. 2020 分类学）；影响力传播，等价于网络启发的信息传播搜索。",
+      "gates": {
+        "A": "pass",
+        "B": "fail",
+        "C": "pass",
+        "D": "pass",
+        "E": "pass"
+      },
+      "gate_notes": {
+        "A": "原始论文可查（作者/年份/出处完整），但出处待核一致性。",
+        "B": "状态转移/算子结构可用站内七槽组件等价装配（≈ PSO 的'向领导者靠拢'+随机扰动），机制不独立。",
+        "C": "已正式发表并有引用记录，计量对象。",
+        "D": "影响力批判视角度量：多数仅与同类隐喻互比。",
+        "E": "机制等价于已收录群智能，可落站内引擎（形式化等价）。"
+      },
+      "verdict": "批评词条",
+      "status": "admitted",
+      "src": "隐喻批评（伪新颖/实验薄弱/碎片化）；Sörensen 2015 (Metaheuristics — the metaphor exposed, ITOR 22(1):3–18)；原始论文出处待核",
+      "note": "换皮隐喻量产线成员：机制与 PSO/GWO 同构（中心偏置扰动 + 随机扰动），所批判的'隐喻换皮'类；详见 PyPop7 Critical Papers 目录与 Aranha 2021 联名批评。"
+    },
+    {
+      "type": "algo",
+      "name": "协方差矩阵自适应进化策略 CMA-ES",
+      "en": "CMA-ES (Covariance Matrix Adaptation Evolution Strategy)",
+      "family": "F1",
+      "evidence": "Hansen &amp; Ostermeier 2001 提出，连续域 SOTA 之一；指认为连续域真正强者。",
+      "gates": {
+        "A": "pass",
+        "B": "pass",
+        "C": "pass",
+        "D": "pass",
+        "E": "pass"
+      },
+      "gate_notes": {
+        "A": "pass（原始论文可查）",
+        "B": "pass（自适应协方差采样，机制独立）",
+        "C": "pass（顶刊 + 大量基准胜出）",
+        "D": "pass（经典档影响力）",
+        "E": "pass（可落连续域引擎，实测级）"
+      },
+      "verdict": "收录册页",
+      "status": "admitted",
+      "src": "Hansen &amp; Ostermeier 2001, Evolutionary Computation 9(2):159-195；连续域 SOTA",
+      "note": ""
+    },
+    {
+      "type": "algo",
+      "name": "估计分布算法 EDA",
+      "en": "Estimation of Distribution Algorithm (EDA)",
+      "family": "F1",
+      "evidence": "Pelikan, Goldberg &amp; Cantú-Paz 2000 (BOA) 与 Larrañaga &amp; Lozano 2002 体系化；用概率模型代替交叉变异。",
+      "gates": {
+        "A": "pass",
+        "B": "pass",
+        "C": "pass",
+        "D": "pass",
+        "E": "pass"
+      },
+      "gate_notes": {
+        "A": "pass",
+        "B": "pass（概率建模机制独立）",
+        "C": "pass（经典体系）",
+        "D": "pass",
+        "E": "pass（可落连续/组合）"
+      },
+      "verdict": "词条",
+      "status": "admitted",
+      "src": "提出见 Pelikan, Goldberg &amp; Cantú-Paz 2000 (BOA)、Larrañaga &amp; Lozano 2002",
+      "note": "机制：用概率模型估计优质解分布并抽样，取代交叉变异（与 GA 同祖 EA 分支）。"
+    },
+    {
+      "type": "algo",
+      "name": "贝叶斯优化",
+      "en": "Bayesian Optimization",
+      "family": "F3",
+      "evidence": "Mockus 1975 提出；Jones, Schonlau &amp; Welch 1998 (EGO) 确立高斯过程代理+采集函数范式。",
+      "gates": {
+        "A": "pass",
+        "B": "pass",
+        "C": "pass",
+        "D": "pass",
+        "E": "pass"
+      },
+      "gate_notes": {
+        "A": "pass",
+        "B": "pass（代理模型+采集，独立机制）",
+        "C": "pass",
+        "D": "pass",
+        "E": "pass（与 SAEA 同族）"
+      },
+      "verdict": "词条",
+      "status": "admitted",
+      "src": "；Mockus 1975、Jones, Schonlau &amp; Welch 1998 (EGO, J. Global Optimization)",
+      "note": "机制：高斯过程代理模型+采集函数（EI/UCB）定向探索昂贵黑箱。"
+    },
+    {
+      "type": "algo",
+      "name": "分散搜索算法",
+      "en": "Scatter Search",
+      "family": "F4",
+      "evidence": "Glover 1977 提出；Glover &amp; Laguna 1997 体系化，路径重连(referenced)为核心。",
+      "gates": {
+        "A": "pass",
+        "B": "pass",
+        "C": "pass",
+        "D": "pass",
+        "E": "pass"
+      },
+      "gate_notes": {
+        "A": "pass",
+        "B": "pass（参考集+路径重连，独立）",
+        "C": "pass",
+        "D": "pass",
+        "E": "pass"
+      },
+      "verdict": "词条",
+      "status": "proposed",
+      "src": "",
+      "note": "待核：文献（Glover 1977；Glover &amp; Laguna 1997）尚待核对，src 留空。"
+    },
+    {
+      "type": "algo",
+      "name": "遗传编程",
+      "en": "Genetic Programming (GP)",
+      "family": "F1",
+      "evidence": "Koza 1992 提出，演化程序/树结构，与 GA 同祖但表示维度更高。",
+      "gates": {
+        "A": "pass",
+        "B": "pass",
+        "C": "pass",
+        "D": "pass",
+        "E": "pass"
+      },
+      "gate_notes": {
+        "A": "pass",
+        "B": "pass（树表示+子树交叉，独立）",
+        "C": "pass",
+        "D": "pass",
+        "E": "pass"
+      },
+      "verdict": "词条",
+      "status": "admitted",
+      "src": "Koza 1992, Genetic Programming",
+      "note": "已见于 F1 planned（GP 遗传编程），机制同祖 GA 但树表示维度更高，不重复纳入。"
+    },
+    {
+      "type": "algo",
+      "name": "进化策略",
+      "en": "Evolution Strategies (ES)",
+      "family": "F1",
+      "evidence": "Rechenberg 1965 / Schwefel 1977 提出；(μ,λ)/(μ+λ) 与 CMA-ES 一脉。",
+      "gates": {
+        "A": "pass",
+        "B": "pass",
+        "C": "pass",
+        "D": "pass",
+        "E": "pass"
+      },
+      "gate_notes": {
+        "A": "pass",
+        "B": "pass",
+        "C": "pass",
+        "D": "pass",
+        "E": "pass"
+      },
+      "verdict": "词条",
+      "status": "admitted",
+      "src": "Rechenberg 1965; Schwefel 1977; Beyer &amp; Schwefel 2002, Natural Computing",
+      "note": "已见于 F1 planned（ES 进化策略谱系），CMA-ES 已升格 F1 收录册页，不重复纳入。"
+    },
+    {
+      "type": "algo",
+      "name": "自然进化策略 NES",
+      "en": "Natural Evolution Strategies (NES)",
+      "family": "F1",
+      "evidence": "Wierstra et al. 2008/2014 提出，基于搜索分布自然梯度的黑箱优化。",
+      "gates": {
+        "A": "pass",
+        "B": "pass",
+        "C": "pass",
+        "D": "pass",
+        "E": "pass"
+      },
+      "gate_notes": {
+        "A": "pass",
+        "B": "pass（自然梯度分布估计，独立）",
+        "C": "pass",
+        "D": "pass",
+        "E": "pass"
+      },
+      "verdict": "词条",
+      "status": "proposed",
+      "src": "",
+      "note": "待核：文献（Wierstra et al. 2008, 2014, Natural Evolution Strategies）尚待核对，src 留空。"
+    },
+    {
+      "type": "algo",
+      "name": "MAP-Elites 质量-多样性",
+      "en": "MAP-Elites / Quality-Diversity",
+      "family": "F1",
+      "evidence": "Mouret &amp; Clune 2015 提出；指出此前缺失的整个范式。",
+      "gates": {
+        "A": "pass",
+        "B": "pass",
+        "C": "pass",
+        "D": "pass",
+        "E": "pass"
+      },
+      "gate_notes": {
+        "A": "pass",
+        "B": "pass（格子归档+精英，独立）",
+        "C": "pass",
+        "D": "pass",
+        "E": "pass"
+      },
+      "verdict": "词条",
+      "status": "admitted",
+      "src": "Mouret &amp; Clune 2015, IEEE TEC (MAP-Elites); ",
+      "note": "已见于 F8 planned 且已升格页 /algo/f8-new/mapelites/，Quality-Diversity 代表，不重复纳入。"
+    },
+    {
+      "type": "algo",
+      "name": "新颖性搜索",
+      "en": "Novelty Search",
+      "family": "F1",
+      "evidence": "Lehman &amp; Stanley 2011 提出，以行为新颖性而非目标适应度驱动探索。",
+      "gates": {
+        "A": "pass",
+        "B": "pass",
+        "C": "pass",
+        "D": "pass",
+        "E": "pass"
+      },
+      "gate_notes": {
+        "A": "pass",
+        "B": "pass（行为空间新颖性，独立）",
+        "C": "pass",
+        "D": "pass",
+        "E": "pass"
+      },
+      "verdict": "词条",
+      "status": "admitted",
+      "src": "；Lehman &amp; Stanley 2011, ECJ (Novelty Search)",
+      "note": "机制：行为空间新颖性驱动探索，打破局部最优。"
+    },
+    {
+      "type": "algo",
+      "name": "代理辅助进化算法",
+      "en": "Surrogate-Assisted Evolutionary Algorithm (SAEA)",
+      "family": "F1",
+      "evidence": "Jin 2011 体系化；昂贵优化主战场。",
+      "gates": {
+        "A": "pass",
+        "B": "pass",
+        "C": "pass",
+        "D": "pass",
+        "E": "pass"
+      },
+      "gate_notes": {
+        "A": "pass",
+        "B": "pass（代理模型+采样，独立）",
+        "C": "pass",
+        "D": "pass",
+        "E": "pass"
+      },
+      "verdict": "词条",
+      "status": "admitted",
+      "src": "；Jin 2011, Soft Computing (Surrogate-Assisted Evolutionary Computation)",
+      "note": "机制：代理模型替代昂贵真实评估，引导进化搜索。"
+    },
+    {
+      "type": "algo",
+      "name": "数学启发式",
+      "en": "Matheuristic",
+      "family": "F4",
+      "evidence": "Maniezzo, Stützle &amp; Voß 2009/2010 命名；数学规划×元启发式混合。",
+      "gates": {
+        "A": "pass",
+        "B": "pass",
+        "C": "pass",
+        "D": "pass",
+        "E": "pass"
+      },
+      "gate_notes": {
+        "A": "pass",
+        "B": "pass（精确+启发式耦合，独立）",
+        "C": "pass",
+        "D": "pass",
+        "E": "pass"
+      },
+      "verdict": "词条",
+      "status": "admitted",
+      "src": "；Maniezzo, Stützle &amp; Voß 2009/2010 (Matheuristics)",
+      "note": "机制：数学规划求解器与元启发式分工协作。"
+    },
+    {
+      "type": "algo",
+      "name": "超启发式",
+      "en": "Hyper-heuristics",
+      "family": "F4",
+      "evidence": "Burke et al. 2003/2010 经典分类；正统谱系。",
+      "gates": {
+        "A": "pass",
+        "B": "pass",
+        "C": "pass",
+        "D": "pass",
+        "E": "pass"
+      },
+      "gate_notes": {
+        "A": "pass",
+        "B": "pass（选择/生成低层算子，独立）",
+        "C": "pass",
+        "D": "pass",
+        "E": "pass"
+      },
+      "verdict": "词条",
+      "status": "admitted",
+      "src": "；Burke et al. 2003, 2010 (Hyper-heuristics)",
+      "note": "机制：在「选/生成低层算子」层面搜索（搜索如何搜索）。"
+    },
+    {
+      "type": "algo",
+      "name": "基于分解的多目标进化算法 MOEA/D",
+      "en": "MOEA/D (Multiobjective Evolutionary Algorithm based on Decomposition)",
+      "family": "F1",
+      "evidence": "Zhang &amp; Li 2007 提出，将 MOO 分解为标量子问题协作。",
+      "gates": {
+        "A": "pass",
+        "B": "pass",
+        "C": "pass",
+        "D": "pass",
+        "E": "pass"
+      },
+      "gate_notes": {
+        "A": "pass",
+        "B": "pass（分解+邻居协作，独立）",
+        "C": "pass",
+        "D": "pass",
+        "E": "pass"
+      },
+      "verdict": "词条",
+      "status": "admitted",
+      "src": "Zhang &amp; Li 2007, IEEE TEC 11(6) (MOEA/D)（正典白名单）",
+      "note": "机制：多目标分解为标量子问题、邻域协同进化。"
+    },
+    {
+      "type": "algo",
+      "name": "第三代非支配排序遗传算法 NSGA-III",
+      "en": "NSGA-III",
+      "family": "F1",
+      "evidence": "Deb &amp; Jain 2014 提出，面向多/超多目标。",
+      "gates": {
+        "A": "pass",
+        "B": "pass",
+        "C": "pass",
+        "D": "pass",
+        "E": "pass"
+      },
+      "gate_notes": {
+        "A": "pass",
+        "B": "pass（参考点+关联，独立）",
+        "C": "pass",
+        "D": "pass",
+        "E": "pass"
+      },
+      "verdict": "词条",
+      "status": "admitted",
+      "src": "Deb &amp; Jain 2014, EMJO (NSGA-III)；（已收录）",
+      "note": "机制：参考点+关联维持高维 Pareto 前沿分布。"
+    },
+    {
+      "type": "algo",
+      "name": "强度帕累托进化算法 2",
+      "en": "SPEA2 (Strength Pareto Evolutionary Algorithm 2)",
+      "family": "F1",
+      "evidence": "Zitzler, Laumanns &amp; Thiele 2001 提出，归档+适应度分配。",
+      "gates": {
+        "A": "pass",
+        "B": "pass",
+        "C": "pass",
+        "D": "pass",
+        "E": "pass"
+      },
+      "gate_notes": {
+        "A": "pass",
+        "B": "pass",
+        "C": "pass",
+        "D": "pass",
+        "E": "pass"
+      },
+      "verdict": "词条",
+      "status": "admitted",
+      "src": "Zitzler, Laumanns &amp; Thiele 2001, SPEA2 (TIK report)",
+      "note": "已见于 F7 planned（SPEA2），与 NSGA-II 同代双雄，不重复纳入。"
+    },
+    {
+      "type": "algo",
+      "name": "神经进化 NEAT",
+      "en": "NeuroEvolution / NEAT",
+      "family": "F1",
+      "evidence": "Stanley &amp; Miikkulainen 2002 提出，协同演化神经网络拓扑+权值。",
+      "gates": {
+        "A": "pass",
+        "B": "pass",
+        "C": "pass",
+        "D": "pass",
+        "E": "pass"
+      },
+      "gate_notes": {
+        "A": "pass",
+        "B": "pass（拓扑增量演化，独立）",
+        "C": "pass",
+        "D": "pass",
+        "E": "pass"
+      },
+      "verdict": "词条",
+      "status": "admitted",
+      "src": "Stanley &amp; Miikkulainen 2002, ECJ (NEAT)；（已收录）",
+      "note": "机制：协同演化神经网络拓扑+权值（增量拓扑）。"
+    },
+    {
+      "type": "algo",
+      "name": "量子启发式进化算法",
+      "en": "Quantum-inspired Evolutionary Algorithm",
+      "family": "F1",
+      "evidence": "Han &amp; Kim 2002 提出，量子比特编码+干涉更新。",
+      "gates": {
+        "A": "pass",
+        "B": "pass",
+        "C": "pass",
+        "D": "pass",
+        "E": "pass"
+      },
+      "gate_notes": {
+        "A": "pass",
+        "B": "pass（量子比特概率幅，独立）",
+        "C": "pass",
+        "D": "pass",
+        "E": "pass"
+      },
+      "verdict": "词条",
+      "status": "admitted",
+      "src": "（量子启发 EA 专节）；Han &amp; Kim 2002, IEEE TEC (QEA)",
+      "note": "机制：量子比特概率幅编码+量子门式干涉更新。"
+    },
+    {
+      "type": "algo",
+      "name": "文化算法",
+      "en": "Cultural Algorithm",
+      "family": "F4",
+      "evidence": "Reynolds 1994 提出，信念空间+种群双演化。",
+      "gates": {
+        "A": "pass",
+        "B": "pass",
+        "C": "pass",
+        "D": "pass",
+        "E": "pass"
+      },
+      "gate_notes": {
+        "A": "pass",
+        "B": "pass（双层文化知识传递，独立）",
+        "C": "pass",
+        "D": "pass",
+        "E": "pass"
+      },
+      "verdict": "词条",
+      "status": "admitted",
+      "src": "Reynolds 1994 (Cultural Algorithms)（待核）",
+      "note": "机制：信念空间+种群双层文化知识传递。"
+    },
+    {
+      "type": "problem",
+      "name": "顶点覆盖",
+      "en": "Vertex Cover",
+      "evidence": "给定图选最小顶点集覆盖所有边；Garey &amp; Johnson SP2，NP-hard。",
+      "gates": {
+        "A": "pass",
+        "B": "pass",
+        "C": "pass",
+        "D": "pass",
+        "E": "pass"
+      },
+      "gate_notes": {
+        "A": "可写成 (解空间, 目标函数, 约束) 三元组。",
+        "B": "归属九类问题形态之一（group=subset）。",
+        "C": "NP-hard 教科书正典 或 教科书经典问题。",
+        "D": "至少接 1 个收录册算法（文献级映射：GA/SA/ACO/PSO/TS 等可求解）。",
+        "E": "与母问题差异可量化（约束/目标数/解空间）。"
+      },
+      "verdict": "词条",
+      "status": "admitted",
+      "src": "Garey &amp; Johnson 1979, Computers and Intractability (SP2)",
+      "note": "经典集合选择类 NP-hard；GA/SA/ACO 文献级可解（教学/启发式）。"
+    },
+    {
+      "type": "problem",
+      "name": "支配集",
+      "en": "Dominating Set",
+      "evidence": "选最小顶点集使其邻域覆盖全图；Garey &amp; Johnson GT2，NP-hard。",
+      "gates": {
+        "A": "pass",
+        "B": "pass",
+        "C": "pass",
+        "D": "pass",
+        "E": "pass"
+      },
+      "gate_notes": {
+        "A": "可写成 (解空间, 目标函数, 约束) 三元组。",
+        "B": "归属九类问题形态之一（group=subset）。",
+        "C": "NP-hard 教科书正典 或 教科书经典问题。",
+        "D": "至少接 1 个收录册算法（文献级映射：GA/SA/ACO/PSO/TS 等可求解）。",
+        "E": "与母问题差异可量化（约束/目标数/解空间）。"
+      },
+      "verdict": "词条",
+      "status": "admitted",
+      "src": "Garey &amp; Johnson 1979 (GT2)",
+      "note": "图上的集合覆盖变体；群智能文献级可解。"
+    },
+    {
+      "type": "problem",
+      "name": "最大团",
+      "en": "Maximum Clique",
+      "evidence": "求最大完全子图；Garey &amp; Johnson GT1，NP-hard。",
+      "gates": {
+        "A": "pass",
+        "B": "pass",
+        "C": "pass",
+        "D": "pass",
+        "E": "pass"
+      },
+      "gate_notes": {
+        "A": "可写成 (解空间, 目标函数, 约束) 三元组。",
+        "B": "归属九类问题形态之一（group=subset）。",
+        "C": "NP-hard 教科书正典 或 教科书经典问题。",
+        "D": "至少接 1 个收录册算法（文献级映射：GA/SA/ACO/PSO/TS 等可求解）。",
+        "E": "与母问题差异可量化（约束/目标数/解空间）。"
+      },
+      "verdict": "词条",
+      "status": "admitted",
+      "src": "Garey &amp; Johnson 1979 (GT1)",
+      "note": "经典图密度问题；GA/ACO/PSO 文献级可解。"
+    },
+    {
+      "type": "problem",
+      "name": "集合打包",
+      "en": "Set Packing",
+      "evidence": "互不相交集合的最大加权并；Garey &amp; Johnson SP3，NP-hard。",
+      "gates": {
+        "A": "pass",
+        "B": "pass",
+        "C": "pass",
+        "D": "pass",
+        "E": "pass"
+      },
+      "gate_notes": {
+        "A": "可写成 (解空间, 目标函数, 约束) 三元组。",
+        "B": "归属九类问题形态之一（group=subset）。",
+        "C": "NP-hard 教科书正典 或 教科书经典问题。",
+        "D": "至少接 1 个收录册算法（文献级映射：GA/SA/ACO/PSO/TS 等可求解）。",
+        "E": "与母问题差异可量化（约束/目标数/解空间）。"
+      },
+      "verdict": "词条",
+      "status": "admitted",
+      "src": "Garey &amp; Johnson 1979 (SP3)",
+      "note": "集合覆盖的对偶；文献级可映射。"
+    },
+    {
+      "type": "problem",
+      "name": "碰集/击集",
+      "en": "Hitting Set",
+      "evidence": "选最小集合与每个给定集合相交；Garey &amp; Johnson SP8（集合覆盖对偶），NP-hard。",
+      "gates": {
+        "A": "pass",
+        "B": "pass",
+        "C": "pass",
+        "D": "pass",
+        "E": "pass"
+      },
+      "gate_notes": {
+        "A": "可写成 (解空间, 目标函数, 约束) 三元组。",
+        "B": "归属九类问题形态之一（group=subset）。",
+        "C": "NP-hard 教科书正典 或 教科书经典问题。",
+        "D": "至少接 1 个收录册算法（文献级映射：GA/SA/ACO/PSO/TS 等可求解）。",
+        "E": "与母问题差异可量化（约束/目标数/解空间）。"
+      },
+      "verdict": "词条",
+      "status": "admitted",
+      "src": "Garey &amp; Johnson 1979 (SP8)",
+      "note": "诊断/ fault localization 常用；群智能文献级可解。"
+    },
+    {
+      "type": "problem",
+      "name": "反馈顶点集",
+      "en": "Feedback Vertex Set",
+      "evidence": "删最少顶点使图无环；Garey &amp; Johnson GT7，NP-hard。",
+      "gates": {
+        "A": "pass",
+        "B": "pass",
+        "C": "pass",
+        "D": "pass",
+        "E": "pass"
+      },
+      "gate_notes": {
+        "A": "可写成 (解空间, 目标函数, 约束) 三元组。",
+        "B": "归属九类问题形态之一（group=subset）。",
+        "C": "NP-hard 教科书正典 或 教科书经典问题。",
+        "D": "至少接 1 个收录册算法（文献级映射：GA/SA/ACO/PSO/TS 等可求解）。",
+        "E": "与母问题差异可量化（约束/目标数/解空间）。"
+      },
+      "verdict": "词条",
+      "status": "admitted",
+      "src": "Garey &amp; Johnson 1979 (GT7)",
+      "note": "图论经典 NP-hard；文献级可映射。"
+    },
+    {
+      "type": "problem",
+      "name": "哈密顿回路",
+      "en": "Hamiltonian Cycle",
+      "evidence": "经过每点恰好一次的回路；Garey &amp; Johnson GT37，NP-hard。",
+      "gates": {
+        "A": "pass",
+        "B": "pass",
+        "C": "pass",
+        "D": "pass",
+        "E": "pass"
+      },
+      "gate_notes": {
+        "A": "可写成 (解空间, 目标函数, 约束) 三元组。",
+        "B": "归属九类问题形态之一（group=sequencing）。",
+        "C": "NP-hard 教科书正典 或 教科书经典问题。",
+        "D": "至少接 1 个收录册算法（文献级映射：GA/SA/ACO/PSO/TS 等可求解）。",
+        "E": "与母问题差异可量化（约束/目标数/解空间）。"
+      },
+      "verdict": "词条",
+      "status": "admitted",
+      "src": "Garey &amp; Johnson 1979 (GT37)",
+      "note": "与 TSP 近亲但无代价最小化；GA/ACO/SA 文献级可解。"
+    },
+    {
+      "type": "problem",
+      "name": "最长路径",
+      "en": "Longest Path",
+      "evidence": "DAG/一般有向图的最长简单路径；Garey &amp; Johnson ND29，NP-hard。",
+      "gates": {
+        "A": "pass",
+        "B": "pass",
+        "C": "pass",
+        "D": "pass",
+        "E": "pass"
+      },
+      "gate_notes": {
+        "A": "可写成 (解空间, 目标函数, 约束) 三元组。",
+        "B": "归属九类问题形态之一（group=sequencing）。",
+        "C": "NP-hard 教科书正典 或 教科书经典问题。",
+        "D": "至少接 1 个收录册算法（文献级映射：GA/SA/ACO/PSO/TS 等可求解）。",
+        "E": "与母问题差异可量化（约束/目标数/解空间）。"
+      },
+      "verdict": "词条",
+      "status": "admitted",
+      "src": "Garey &amp; Johnson 1979 (ND29)",
+      "note": "最短路径的对偶难题；文献级可映射。"
+    },
+    {
+      "type": "problem",
+      "name": "二次分配问题 QAP",
+      "en": "Quadratic Assignment Problem (QAP)",
+      "evidence": "设施-位置分配使加权流量代价最小；Koopmans &amp; Beckmann 1957，NP-hard，元启发式主战场。",
+      "gates": {
+        "A": "pass",
+        "B": "pass",
+        "C": "pass",
+        "D": "pass",
+        "E": "pass"
+      },
+      "gate_notes": {
+        "A": "可写成 (解空间, 目标函数, 约束) 三元组。",
+        "B": "归属九类问题形态之一（group=assignment）。",
+        "C": "NP-hard 教科书正典 或 教科书经典问题。",
+        "D": "至少接 1 个收录册算法（文献级映射：GA/SA/ACO/PSO/TS 等可求解）。",
+        "E": "与母问题差异可量化（约束/目标数/解空间）。"
+      },
+      "verdict": "词条",
+      "status": "admitted",
+      "src": "Koopmans &amp; Beckmann 1957 (QAP); 组合主战场",
+      "note": "已见于 abstract_types（qap entry，Koopmans &amp; Beckmann 1957）；经 assignment 键已挂 4 条文献级映射（GA/SA/TS/ACO），D 联动已满足。"
+    },
+    {
+      "type": "problem",
+      "name": "开放车间调度",
+      "en": "Open Shop Scheduling",
+      "evidence": "多工序无机器顺序约束的完工最小化；经典调度 NP-hard。",
+      "gates": {
+        "A": "pass",
+        "B": "pass",
+        "C": "pass",
+        "D": "pass",
+        "E": "pass"
+      },
+      "gate_notes": {
+        "A": "可写成 (解空间, 目标函数, 约束) 三元组。",
+        "B": "归属九类问题形态之一（group=sequencing）。",
+        "C": "NP-hard 教科书正典 或 教科书经典问题。",
+        "D": "至少接 1 个收录册算法（文献级映射：GA/SA/ACO/PSO/TS 等可求解）。",
+        "E": "与母问题差异可量化（约束/目标数/解空间）。"
+      },
+      "verdict": "词条",
+      "status": "admitted",
+      "src": "Garey &amp; Johnson 1979 (SS2, Open Shop)",
+      "note": "词条级登记（只出词条，不单独建页）；GA/PSO 文献级可解。已纳入 abstract_types（oss）。"
+    },
+    {
+      "type": "problem",
+      "name": "柔性作业车间调度",
+      "en": "Flexible Job Shop Scheduling (FJSP)",
+      "evidence": "工序可选机器+顺序约束；Brucker et al. 1994，强 NP-hard。",
+      "gates": {
+        "A": "pass",
+        "B": "pass",
+        "C": "pass",
+        "D": "pass",
+        "E": "pass"
+      },
+      "gate_notes": {
+        "A": "可写成 (解空间, 目标函数, 约束) 三元组。",
+        "B": "归属九类问题形态之一（group=sequencing）。",
+        "C": "NP-hard 教科书正典 或 教科书经典问题。",
+        "D": "至少接 1 个收录册算法（文献级映射：GA/SA/ACO/PSO/TS 等可求解）。",
+        "E": "与母问题差异可量化（约束/目标数/解空间）。"
+      },
+      "verdict": "词条",
+      "status": "admitted",
+      "src": "Brucker et al. 1994 (FJSP); 连续/调度",
+      "note": "调度冻结域，仅词条形式；GA/ACO/TS 文献级可解。"
+    },
+    {
+      "type": "problem",
+      "name": "资源受限项目调度",
+      "en": "Resource-Constrained Project Scheduling (RCPSP)",
+      "evidence": "有限资源下最小化工期；Kelley 1963，NP-hard。",
+      "gates": {
+        "A": "pass",
+        "B": "pass",
+        "C": "pass",
+        "D": "pass",
+        "E": "pass"
+      },
+      "gate_notes": {
+        "A": "可写成 (解空间, 目标函数, 约束) 三元组。",
+        "B": "归属九类问题形态之一（group=sequencing）。",
+        "C": "NP-hard 教科书正典 或 教科书经典问题。",
+        "D": "至少接 1 个收录册算法（文献级映射：GA/SA/ACO/PSO/TS 等可求解）。",
+        "E": "与母问题差异可量化（约束/目标数/解空间）。"
+      },
+      "verdict": "词条",
+      "status": "admitted",
+      "src": "Kelley 1963; ",
+      "note": "词条级登记（只出词条，不单独建页）；GA/PSO/ACO 文献级可解。已纳入 abstract_types（rcpsp）。"
+    },
+    {
+      "type": "problem",
+      "name": "p-中位问题",
+      "en": "p-Median Problem",
+      "evidence": "选 p 个设施使需求点到最近设施总距离最小；Hakimi 1964，NP-hard。",
+      "gates": {
+        "A": "pass",
+        "B": "pass",
+        "C": "pass",
+        "D": "pass",
+        "E": "pass"
+      },
+      "gate_notes": {
+        "A": "可写成 (解空间, 目标函数, 约束) 三元组。",
+        "B": "归属九类问题形态之一（group=location）。",
+        "C": "NP-hard 教科书正典 或 教科书经典问题。",
+        "D": "至少接 1 个收录册算法（文献级映射：GA/SA/ACO/PSO/TS 等可求解）。",
+        "E": "与母问题差异可量化（约束/目标数/解空间）。"
+      },
+      "verdict": "词条",
+      "status": "admitted",
+      "src": "Hakimi 1964 (p-median); ",
+      "note": "选址经典；GA/SA/ACO/PSO 文献级可解。"
+    },
+    {
+      "type": "problem",
+      "name": "p-中心问题",
+      "en": "p-Center Problem",
+      "evidence": "选 p 个设施最小化最大服务距离；Hakimi 1964/1965，NP-hard。",
+      "gates": {
+        "A": "pass",
+        "B": "pass",
+        "C": "pass",
+        "D": "pass",
+        "E": "pass"
+      },
+      "gate_notes": {
+        "A": "可写成 (解空间, 目标函数, 约束) 三元组。",
+        "B": "归属九类问题形态之一（group=location）。",
+        "C": "NP-hard 教科书正典 或 教科书经典问题。",
+        "D": "至少接 1 个收录册算法（文献级映射：GA/SA/ACO/PSO/TS 等可求解）。",
+        "E": "与母问题差异可量化（约束/目标数/解空间）。"
+      },
+      "verdict": "词条",
+      "status": "admitted",
+      "src": "Hakimi 1964/1965 (p-center)",
+      "note": "选址经典（极大极小）；群智能文献级可解。"
+    },
+    {
+      "type": "problem",
+      "name": "频率分配问题",
+      "en": "Frequency Assignment Problem",
+      "evidence": "为发射机分配频率避免干扰（图着色应用）；Hale 1980，NP-hard。",
+      "gates": {
+        "A": "pass",
+        "B": "pass",
+        "C": "pass",
+        "D": "pass",
+        "E": "pass"
+      },
+      "gate_notes": {
+        "A": "可写成 (解空间, 目标函数, 约束) 三元组。",
+        "B": "归属九类问题形态之一（group=coloring）。",
+        "C": "NP-hard 教科书正典 或 教科书经典问题。",
+        "D": "至少接 1 个收录册算法（文献级映射：GA/SA/ACO/PSO/TS 等可求解）。",
+        "E": "与母问题差异可量化（约束/目标数/解空间）。"
+      },
+      "verdict": "词条",
+      "status": "admitted",
+      "src": "Hale 1980 (Frequency Assignment); ",
+      "note": "图着色的工业形态；GA/ACO/TS 文献级可解。"
+    },
+    {
+      "type": "problem",
+      "name": "蛋白质折叠（格点模型）",
+      "en": "Protein Folding (Lattice Model)",
+      "evidence": "HP 格点模型寻最低能量构象；Berger &amp; Leighton 1998，NP-hard。",
+      "gates": {
+        "A": "pass",
+        "B": "pass",
+        "C": "pass",
+        "D": "pass",
+        "E": "pass"
+      },
+      "gate_notes": {
+        "A": "可写成 (解空间, 目标函数, 约束) 三元组。",
+        "B": "归属九类问题形态之一（group=open）。",
+        "C": "NP-hard 教科书正典 或 教科书经典问题。",
+        "D": "至少接 1 个收录册算法（文献级映射：GA/SA/ACO/PSO/TS 等可求解）。",
+        "E": "与母问题差异可量化（约束/目标数/解空间）。"
+      },
+      "verdict": "词条",
+      "status": "admitted",
+      "src": "Berger &amp; Leighton 1998 (HP lattice, NP-hard)",
+      "note": "词条轨 entry；GA/ACO/PSO 文献级可解（教学）。已纳入 abstract_types（proteinfold）。"
+    },
+    {
+      "type": "problem",
+      "name": "多序列比对",
+      "en": "Multiple Sequence Alignment",
+      "evidence": "多序列插入空格使相似性最大；Just 2001 证明 NP-hard。",
+      "gates": {
+        "A": "pass",
+        "B": "pass",
+        "C": "pass",
+        "D": "pass",
+        "E": "pass"
+      },
+      "gate_notes": {
+        "A": "可写成 (解空间, 目标函数, 约束) 三元组。",
+        "B": "归属九类问题形态之一（group=open）。",
+        "C": "NP-hard 教科书正典 或 教科书经典问题。",
+        "D": "至少接 1 个收录册算法（文献级映射：GA/SA/ACO/PSO/TS 等可求解）。",
+        "E": "与母问题差异可量化（约束/目标数/解空间）。"
+      },
+      "verdict": "词条",
+      "status": "admitted",
+      "src": "Just 2001 (MSA NP-hard); Carrillo &amp; Lipman 1988",
+      "note": "词条轨 entry；GA/PSO/ACO 文献级可解。已纳入 abstract_types（msa）。"
+    },
+    {
+      "type": "problem",
+      "name": "定向运动问题",
+      "en": "Orienteering Problem",
+      "evidence": "路径上采集最大分值且限时长；Golden 1987，NP-hard。",
+      "gates": {
+        "A": "pass",
+        "B": "pass",
+        "C": "pass",
+        "D": "pass",
+        "E": "pass"
+      },
+      "gate_notes": {
+        "A": "可写成 (解空间, 目标函数, 约束) 三元组。",
+        "B": "归属九类问题形态之一（group=sequencing）。",
+        "C": "NP-hard 教科书正典 或 教科书经典问题。",
+        "D": "至少接 1 个收录册算法（文献级映射：GA/SA/ACO/PSO/TS 等可求解）。",
+        "E": "与母问题差异可量化（约束/目标数/解空间）。"
+      },
+      "verdict": "词条",
+      "status": "admitted",
+      "src": "Golden 1987 (Orienteering); ",
+      "note": "词条轨 entry（奖赏收集型 TSP 变体）；GA/ACO/SA 文献级可解。已纳入 abstract_types（orienteering）。"
+    },
+    {
+      "type": "problem",
+      "name": "带容量弧路由问题 CARP",
+      "en": "Capacitated Arc Routing Problem (CARP)",
+      "evidence": "在需服务的边上规划最小成本车队路线；Golden &amp; Wong 1981，NP-hard。",
+      "gates": {
+        "A": "pass",
+        "B": "pass",
+        "C": "pass",
+        "D": "pass",
+        "E": "pass"
+      },
+      "gate_notes": {
+        "A": "可写成 (解空间, 目标函数, 约束) 三元组。",
+        "B": "归属九类问题形态之一（group=sequencing）。",
+        "C": "NP-hard 教科书正典 或 教科书经典问题。",
+        "D": "至少接 1 个收录册算法（文献级映射：GA/SA/ACO/PSO/TS 等可求解）。",
+        "E": "与母问题差异可量化（约束/目标数/解空间）。"
+      },
+      "verdict": "词条",
+      "status": "admitted",
+      "src": "Golden &amp; Wong 1981 (CARP)",
+      "note": "路由经典；GA/ACO/TS 文献级可解。"
+    },
+    {
+      "type": "problem",
+      "name": "乡村邮递员问题",
+      "en": "Rural Postman Problem",
+      "evidence": "服务给定边子集的最短回路；Orloff 1974，NP-hard。",
+      "gates": {
+        "A": "pass",
+        "B": "pass",
+        "C": "pass",
+        "D": "pass",
+        "E": "pass"
+      },
+      "gate_notes": {
+        "A": "可写成 (解空间, 目标函数, 约束) 三元组。",
+        "B": "归属九类问题形态之一（group=sequencing）。",
+        "C": "NP-hard 教科书正典 或 教科书经典问题。",
+        "D": "至少接 1 个收录册算法（文献级映射：GA/SA/ACO/PSO/TS 等可求解）。",
+        "E": "与母问题差异可量化（约束/目标数/解空间）。"
+      },
+      "verdict": "词条",
+      "status": "admitted",
+      "src": "Orloff 1974 (RPP)",
+      "note": "中国邮递员问题推广；群智能文献级可解。"
+    },
+    {
+      "type": "problem",
+      "name": "旅行锦标赛问题 TTP",
+      "en": "Traveling Tournament Problem (TTP)",
+      "evidence": "安排主客场赛程使总行程最短；Easton &amp; Nemhauser 2001，NP-hard。",
+      "gates": {
+        "A": "pass",
+        "B": "pass",
+        "C": "pass",
+        "D": "pass",
+        "E": "pass"
+      },
+      "gate_notes": {
+        "A": "可写成 (解空间, 目标函数, 约束) 三元组。",
+        "B": "归属九类问题形态之一（group=timetabling）。",
+        "C": "NP-hard 教科书正典 或 教科书经典问题。",
+        "D": "至少接 1 个收录册算法（文献级映射：GA/SA/ACO/PSO/TS 等可求解）。",
+        "E": "与母问题差异可量化（约束/目标数/解空间）。"
+      },
+      "verdict": "词条",
+      "status": "admitted",
+      "src": "Easton &amp; Nemhauser 2001 (TTP)",
+      "note": "已见于 abstract_types（ttp entry，Easton &amp; Nemhauser 2001）；不重复纳入。"
+    },
+    {
+      "type": "problem",
+      "name": "体育联赛排程",
+      "en": "Sports League Scheduling",
+      "evidence": "循环赛/双循环赛程满足约束；de Werra 1980，经典排程。",
+      "gates": {
+        "A": "pass",
+        "B": "pass",
+        "C": "pass",
+        "D": "pass",
+        "E": "pass"
+      },
+      "gate_notes": {
+        "A": "可写成 (解空间, 目标函数, 约束) 三元组。",
+        "B": "归属九类问题形态之一（group=timetabling）。",
+        "C": "NP-hard 教科书正典 或 教科书经典问题。",
+        "D": "至少接 1 个收录册算法（文献级映射：GA/SA/ACO/PSO/TS 等可求解）。",
+        "E": "与母问题差异可量化（约束/目标数/解空间）。"
+      },
+      "verdict": "词条",
+      "status": "admitted",
+      "src": "de Werra 1980 (Sports Scheduling)",
+      "note": "赛程编排经典；GA/TS 文献级可解。"
+    },
+    {
+      "type": "problem",
+      "name": "最小生成树",
+      "en": "Minimum Spanning Tree (MST)",
+      "evidence": "连接全点的最小总权边集；Cormen et al. (CLRS) 经典，多项式但教科书正典。",
+      "gates": {
+        "A": "pass",
+        "B": "pass",
+        "C": "pass",
+        "D": "pass",
+        "E": "pass"
+      },
+      "gate_notes": {
+        "A": "可写成 (解空间, 目标函数, 约束) 三元组。",
+        "B": "归属九类问题形态之一（group=subset）。",
+        "C": "NP-hard 教科书正典 或 教科书经典问题。",
+        "D": "至少接 1 个收录册算法（文献级映射：GA/SA/ACO/PSO/TS 等可求解）。",
+        "E": "与母问题差异可量化（约束/目标数/解空间）。"
+      },
+      "verdict": "词条",
+      "status": "admitted",
+      "src": "Cormen, Leiserson, Rivest &amp; Stein, Introduction to Algorithms (CLRS)",
+      "note": "词条轨 entry（P 类教科书经典，教学演示）；已纳入 abstract_types（mst）。"
+    },
+    {
+      "type": "problem",
+      "name": "最短路径",
+      "en": "Shortest Path Problem",
+      "evidence": "单源到各点最小代价；Dijkstra 1959，多项式教科书经典。",
+      "gates": {
+        "A": "pass",
+        "B": "pass",
+        "C": "pass",
+        "D": "pass",
+        "E": "pass"
+      },
+      "gate_notes": {
+        "A": "可写成 (解空间, 目标函数, 约束) 三元组。",
+        "B": "归属九类问题形态之一（group=subset）。",
+        "C": "NP-hard 教科书正典 或 教科书经典问题。",
+        "D": "至少接 1 个收录册算法（文献级映射：GA/SA/ACO/PSO/TS 等可求解）。",
+        "E": "与母问题差异可量化（约束/目标数/解空间）。"
+      },
+      "verdict": "词条",
+      "status": "admitted",
+      "src": "Dijkstra 1959; CLRS",
+      "note": "词条轨 entry（P 类教科书经典，教学演示）；已纳入 abstract_types（shortestpath）。"
+    },
+    {
+      "type": "problem",
+      "name": "最大流问题",
+      "en": "Maximum Flow Problem",
+      "evidence": "网络源汇最大流量；Ford &amp; Fulkerson 1956，多项式教科书经典。",
+      "gates": {
+        "A": "pass",
+        "B": "pass",
+        "C": "pass",
+        "D": "pass",
+        "E": "pass"
+      },
+      "gate_notes": {
+        "A": "可写成 (解空间, 目标函数, 约束) 三元组。",
+        "B": "归属九类问题形态之一（group=subset）。",
+        "C": "NP-hard 教科书正典 或 教科书经典问题。",
+        "D": "至少接 1 个收录册算法（文献级映射：GA/SA/ACO/PSO/TS 等可求解）。",
+        "E": "与母问题差异可量化（约束/目标数/解空间）。"
+      },
+      "verdict": "词条",
+      "status": "admitted",
+      "src": "Ford &amp; Fulkerson 1956; CLRS",
+      "note": "词条轨 entry（P 类教科书经典，教学演示）；已纳入 abstract_types（maxflow）。"
+    },
+    {
+      "type": "problem",
+      "name": "最小费用流问题",
+      "en": "Minimum Cost Flow Problem",
+      "evidence": "满足供需的最小费用流；Ahuja, Magnanti &amp; Orlin 经典，多项式。",
+      "gates": {
+        "A": "pass",
+        "B": "pass",
+        "C": "pass",
+        "D": "pass",
+        "E": "pass"
+      },
+      "gate_notes": {
+        "A": "可写成 (解空间, 目标函数, 约束) 三元组。",
+        "B": "归属九类问题形态之一（group=subset）。",
+        "C": "NP-hard 教科书正典 或 教科书经典问题。",
+        "D": "至少接 1 个收录册算法（文献级映射：GA/SA/ACO/PSO/TS 等可求解）。",
+        "E": "与母问题差异可量化（约束/目标数/解空间）。"
+      },
+      "verdict": "词条",
+      "status": "admitted",
+      "src": "Ahuja, Magnanti &amp; Orlin 1993 (Network Flows)",
+      "note": "词条轨 entry（P 类教科书经典，教学演示）；已纳入 abstract_types（mincostflow）。"
+    },
+    {
+      "type": "problem",
+      "name": "拓扑排序",
+      "en": "Topological Sort",
+      "evidence": "DAG 的线性化排序；Kahn 1962 / CLRS，多项式教科书经典。",
+      "gates": {
+        "A": "pass",
+        "B": "pass",
+        "C": "pass",
+        "D": "pass",
+        "E": "pass"
+      },
+      "gate_notes": {
+        "A": "可写成 (解空间, 目标函数, 约束) 三元组。",
+        "B": "归属九类问题形态之一（group=open）。",
+        "C": "NP-hard 教科书正典 或 教科书经典问题。",
+        "D": "至少接 1 个收录册算法（文献级映射：GA/SA/ACO/PSO/TS 等可求解）。",
+        "E": "与母问题差异可量化（约束/目标数/解空间）。"
+      },
+      "verdict": "词条",
+      "status": "admitted",
+      "src": "Kahn 1962; CLRS",
+      "note": "词条轨 entry（P 类教科书经典，教学对照）；已纳入 abstract_types（topsort）。"
+    },
+    {
+      "type": "problem",
+      "name": "一般图匹配",
+      "en": "General Graph Matching",
+      "evidence": "最大权一般图匹配（blossom）；Edmonds 1965，多项式但经典。",
+      "gates": {
+        "A": "pass",
+        "B": "pass",
+        "C": "pass",
+        "D": "pass",
+        "E": "pass"
+      },
+      "gate_notes": {
+        "A": "可写成 (解空间, 目标函数, 约束) 三元组。",
+        "B": "归属九类问题形态之一（group=assignment）。",
+        "C": "NP-hard 教科书正典 或 教科书经典问题。",
+        "D": "至少接 1 个收录册算法（文献级映射：GA/SA/ACO/PSO/TS 等可求解）。",
+        "E": "与母问题差异可量化（约束/目标数/解空间）。"
+      },
+      "verdict": "词条",
+      "status": "admitted",
+      "src": "Edmonds 1965 (blossom algorithm)",
+      "note": "词条轨 entry（组合优化里程碑，教学演示）；已纳入 abstract_types（gmatch）。"
+    }
+  ]
+}

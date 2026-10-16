@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title data-en="Continuous benchmark functions · online demo">连续函数优化在线演示 · PSO/DE/GWO/WOA/SCA 原生域基准测试</title>
+<meta name="description" content="在 Sphere/Rastrigin/Rosenbrock/Ackley 基准函数上在线运行 PSO、DE、灰狼、鲸鱼、SCA 等算法：粒子热力图动画与收敛曲线，连续优化的原生域。">
+<script src="../../js/i18n.js"></script>
+<script>
+(function(){var t=null;try{t=localStorage.getItem("theme")}catch(e){}
+if(!t)t=(window.matchMedia&&matchMedia("(prefers-color-scheme: dark)").matches)?"dark":"light";
+document.documentElement.setAttribute("data-theme",t);})();
+</script>
+<link rel="stylesheet" href="../../css/style.css">
+<link rel="canonical" href="https://funnywayike.github.io/swarm-encyclopedia/problem/continuous/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="群智能算法百科">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:title" content="连续函数优化在线演示 · PSO/DE/GWO/WOA/SCA 原生域基准测试">
+<meta property="og:description" content="在 Sphere/Rastrigin/Rosenbrock/Ackley 基准函数上在线运行 PSO、DE、灰狼、鲸鱼、SCA 等算法：粒子热力图动画与收敛曲线，连续优化的原生域。">
+<meta property="og:url" content="https://funnywayike.github.io/swarm-encyclopedia/problem/continuous/">
+<meta property="og:image" content="https://funnywayike.github.io/swarm-encyclopedia/assets/og-cover.png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="连续函数优化在线演示 · PSO/DE/GWO/WOA/SCA 原生域基准测试">
+<meta name="twitter:description" content="在 Sphere/Rastrigin/Rosenbrock/Ackley 基准函数上在线运行 PSO、DE、灰狼、鲸鱼、SCA 等算法：粒子热力图动画与收敛曲线，连续优化的原生域。">
+<meta name="twitter:image" content="https://funnywayike.github.io/swarm-encyclopedia/assets/og-cover.png">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 100 100%27%3E%3Ctext y=%27.9em%27 font-size=%2790%27%3E%F0%9F%90%9D%3C/text%3E%3C/svg%3E">
+<meta name="theme-color" content="#f7f7f8" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#0b0d12" media="(prefers-color-scheme: dark)">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "首页", "item": "https://funnywayike.github.io/swarm-encyclopedia/"}, {"@type": "ListItem", "position": 2, "name": "连续优化", "item": "https://funnywayike.github.io/swarm-encyclopedia/problem/continuous/"}]}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "SoftwareApplication", "name": "连续函数优化在线演示", "description": "PSO/DE/GWO/WOA/SCA 原生域基准函数在线演示", "applicationCategory": "EducationalApplication", "operatingSystem": "Any（浏览器）", "offers": {"@type": "Offer", "price": "0", "priceCurrency": "CNY"}}</script>
+</head>
+<body>
+<a class="skip-link" href="#main">跳到主内容</a>
+<nav class="nav"><div class="nav-inner">
+  <a class="brand" href="../../index.html"><span class="logo">🐝</span>群智能算法百科</a>
+  <div class="nav-links">
+  <a href="../../index.html">首页</a>
+  <div class="dd"><a class="dd-btn" href="../../algo/index.html">算法 <span class="caret">▾</span></a><div class="dd-panel dd-wide"><div class="dd-grid"><div class="dd-group"><a class="dd-fam" title="种群 + 选择 + 重组/变异的 Darwin 机器——EC 正统主线，本站收录 GA、DE、BBO 与 EDA/ES 分支。" href="../../algo/f1-ea/index.html">进化算法族 EA<span class="hint">5 算法 · 1 配方 · 9 词条</span></a><a class="dd-item" href="../../algo/f1-ea/ga/index.html">🧬&nbsp;遗传算法 GA</a><a class="dd-item" href="../../algo/f1-ea/de/index.html">📉&nbsp;差分进化 DE</a><a class="dd-item" href="../../algo/f1-ea/cem/index.html">🎲&nbsp;交叉熵方法 CEM</a><a class="dd-item" href="../../algo/f1-ea/cma-es/index.html">⚙&nbsp;协方差矩阵自适应进化策略 CMA-ES</a><a class="dd-item" href="../../algo/f1-ea/bbo/index.html">🏝️&nbsp;生物地理 BBO</a><a class="dd-item" href="../../algo/f1-ea/steady-ga/index.html">🧪&nbsp;稳态 GA（组合）</a></div><div class="dd-group"><a class="dd-fam" title="简单个体的局部交互涌现出群体智能——本站收录最密的家族。" href="../../algo/f2-si/index.html">群智能族 SI<span class="hint">26 算法 · 1 词条</span></a><a class="dd-item" href="../../algo/f2-si/pso/index.html">🌀&nbsp;粒子群算法 PSO</a><a class="dd-item" href="../../algo/f2-si/aco/index.html">🐜&nbsp;蚁群算法 ACO</a><a class="dd-item" href="../../algo/f2-si/abc/index.html">🐝&nbsp;人工蜂群 ABC</a><a class="dd-item" href="../../algo/f2-si/fa/index.html">✨&nbsp;萤火虫算法 FA</a><a class="dd-item" href="../../algo/f2-si/woa/index.html">🐋&nbsp;鲸鱼优化 WOA</a><a class="dd-item" href="../../algo/f2-si/gwo/index.html">🐺&nbsp;灰狼优化 GWO</a><a class="dd-item" href="../../algo/f2-si/cs/index.html">🐦&nbsp;布谷鸟搜索 CS</a><a class="dd-item" href="../../algo/f2-si/hho/index.html">🦅&nbsp;哈里斯鹰 HHO</a><a class="dd-item" href="../../algo/f2-si/ba/index.html">🦇&nbsp;蝙蝠算法 BA</a><a class="dd-item" href="../../algo/f2-si/bfo/index.html">🦠&nbsp;细菌觅食 BFO</a><a class="dd-item" href="../../algo/f2-si/mfo/index.html">🕯️&nbsp;蛾焰优化 MFO</a><a class="dd-item" href="../../algo/f2-si/fwa/index.html">🎆&nbsp;烟花算法 FWA</a><a class="dd-item" href="../../algo/f2-si/afsa/index.html">🐟&nbsp;人工鱼群 AFSA</a><a class="dd-item" href="../../algo/f2-si/ssa/index.html">🐦&nbsp;麻雀搜索 SSA</a><a class="dd-item" href="../../algo/f2-si/alo/index.html">🕳️&nbsp;蚁狮优化 ALO</a><a class="dd-item" href="../../algo/f2-si/boa/index.html">🦋&nbsp;蝴蝶优化 BOA</a><a class="dd-item" href="../../algo/f2-si/salp/index.html">⛓️&nbsp;樽海鞘群 Salp</a><a class="dd-item" href="../../algo/f2-si/sfla/index.html">🐸&nbsp;混合蛙跳 SFLA</a><a class="dd-item" href="../../algo/f2-si/fpa/index.html">🌸&nbsp;花朵授粉 FPA</a><a class="dd-item" href="../../algo/f2-si/kh/index.html">🦐&nbsp;磷虾群 KH</a><a class="dd-item" href="../../algo/f2-si/sos/index.html">🤝&nbsp;共生搜索 SOS</a><a class="dd-item" href="../../algo/f2-si/da/index.html">🐉&nbsp;蜻蜓 DA</a><a class="dd-item" href="../../algo/f2-si/mpa/index.html">🦈&nbsp;海洋掠食者 MPA</a><a class="dd-item" href="../../algo/f2-si/cscrow/index.html">🐦‍⬛&nbsp;乌鸦搜索 CSA</a><a class="dd-item" href="../../algo/f2-si/ao/index.html">🦅&nbsp;天鹰 AO</a><a class="dd-item" href="../../algo/f2-si/sma/index.html">🟠&nbsp;黏菌算法 SMA</a></div><div class="dd-group"><a class="dd-fam" title="退火、引力、均衡池、正弦余弦、零参数——把物理过程或数学公式当搜索算子，不靠生物隐喻。" href="../../algo/f3-phys/index.html">物理、化学与数学启发<span class="hint">5 算法 · 3 词条</span></a><a class="dd-item" href="../../algo/f3-phys/sa/index.html">🌡️&nbsp;模拟退火 SA</a><a class="dd-item" href="../../algo/f3-phys/sca/index.html">🌊&nbsp;正弦余弦 SCA</a><a class="dd-item" href="../../algo/f3-phys/gsa/index.html">🪐&nbsp;引力搜索 GSA</a><a class="dd-item" href="../../algo/f3-phys/jaya/index.html">🏆&nbsp;Jaya 算法 JAYA</a><a class="dd-item" href="../../algo/f3-phys/eo/index.html">⚗️&nbsp;均衡 EO</a></div><div class="dd-group"><a class="dd-fam" title="教学、和声、帝国竞争——把人类的学习、艺术与政治行为当搜索隐喻。" href="../../algo/f4-human/index.html">人类与社会启发<span class="hint">3 算法 · 1 词条</span></a><a class="dd-item" href="../../algo/f4-human/hs/index.html">🎵&nbsp;和声搜索 HS</a><a class="dd-item" href="../../algo/f4-human/tlbo/index.html">🎓&nbsp;教与学优化 TLBO</a><a class="dd-item" href="../../algo/f4-human/ica/index.html">🏛️&nbsp;帝国竞争 ICA</a></div><div class="dd-group"><a class="dd-fam" title="免疫系统——SI/EA 之外的生物启发收容位。" href="../../algo/f5-bio/index.html">免疫与其他生物<span class="hint">1 算法 · 1 词条</span></a><a class="dd-item" href="../../algo/f5-bio/ais/index.html">🛡️&nbsp;克隆选择 AIS</a></div><div class="dd-group"><a class="dd-fam" title="不靠种群隐喻，靠「邻域结构 + 接受准则」的工程学——禁忌、变邻域、迭代局部搜索、GRASP。" href="../../algo/f10-trajectory/index.html">局部搜索与轨迹法<span class="hint">4 算法 · 1 词条</span></a><a class="dd-item" href="../../algo/f10-trajectory/ts/index.html">🔒&nbsp;禁忌搜索 TS</a><a class="dd-item" href="../../algo/f10-trajectory/ils/index.html">🔄&nbsp;迭代局部搜索 ILS</a><a class="dd-item" href="../../algo/f10-trajectory/vns/index.html">🧭&nbsp;变邻域搜索 VNS</a><a class="dd-item" href="../../algo/f10-trajectory/grasp/index.html">🎲&nbsp;GRASP</a></div><div class="dd-group"><a class="dd-fam" title="元启发式 × 数学规划 × 代理模型 × 自动配置——不发明新隐喻，只做组装厂，实战价值密度最高的家族。" href="../../algo/f6-hybrid/index.html">混合与框架层<span class="hint">5 配方 · 5 词条</span></a><a class="dd-item" href="../../algo/f6-hybrid/memetic/index.html">🧪&nbsp;Memetic GA（组合）</a><a class="dd-item" href="../../algo/f6-hybrid/ils/index.html">🧪&nbsp;迭代局部搜索 ILS（组合）</a><a class="dd-item" href="../../algo/f6-hybrid/hh/index.html">🧪&nbsp;选择式超启发式（组合）</a><a class="dd-item" href="../../algo/f6-hybrid/saea/index.html">🧪&nbsp;代理辅助进化 SAEA（组合）</a><a class="dd-item" href="../../algo/f6-hybrid/matheur/index.html">🧪&nbsp;Fix-and-Optimize（组合）</a></div><div class="dd-group"><a class="dd-fam" title="Pareto 支配下的进化计算——NSGA 五代演进与分解式方法的双雄会。" href="../../algo/f7-mo/index.html">多目标专族<span class="hint">2 域内实现 · 3 词条</span></a><a class="dd-item" href="../../problem/multiobj/?algo=nsga2#demo">NSGA-II（Deb 2002）&nbsp;<span class="hint">域内实现</span></a><a class="dd-item" href="../../problem/multiobj/?algo=wsga#demo">加权 GA（WSGA）&nbsp;<span class="hint">域内实现</span></a></div><div class="dd-group"><a class="dd-fam" title="Quality-Diversity、神经组合优化、LLM 自动算法设计——元启发式的新大陆。" href="../../algo/f8-new/index.html">新范式（2020s）<span class="hint">1 配方 · 4 词条</span></a><a class="dd-item" href="../../algo/f8-new/mapelites/index.html">🧪&nbsp;MAP-Elites QD（组合）</a></div><div class="dd-group"><a class="dd-fam" title="一隐喻一算法的量产线——本站如实收录机制，同时强制挂批评视角，这是全网同类站都没有的诚实。" href="../../algo/f9-metaphor/index.html">隐喻量产线（批评视角专区）<span class="hint">66 词条</span></a><a class="dd-item dd-entry" href="../../algo/f9-metaphor/index.html">查看 66 个收录词条 →</a></div><div class="dd-group"><a class="dd-fam" title="非元启发式的专用结构化搜索与精确求解器对照位——现役首例：TSP 的 LKH 谱系，随各问题域扩容。" href="../../algo/f0-elite/index.html">专用求解对照系<span class="hint">1 算法 · 1 词条</span></a><a class="dd-item" href="../../algo/f0-elite/lk/index.html">🧭&nbsp;Lin–Kernighan LK</a></div></div><div class="hint" style="padding:10px 6px 0">共 45 个实际算法（⚙ 图标）；🧪 标记为组合配方、f7/f8 组内带域内实现入口——比算法本体多几项属正常。</div></div></div>
+  <div class="dd"><a class="dd-btn" href="../../problem/index.html">问题 <span class="caret">▾</span></a><div class="dd-panel dd-wide prob-wide"><div class="prob-cols"><div class="dd-col"><a class="dd-fam" href="../../problem/tsp/index.html">旅行商问题 TSP</a><a class="dd-item" href="../../problem/lop/index.html">线性排序问题 LOP</a><a class="dd-item" href="../../problem/vrp/index.html">车辆路径问题 VRP</a><a class="dd-item" href="../../problem/vrptw/index.html">带时间窗的车辆路径问题 VRPTW</a><a class="dd-item" href="../../problem/vrpstw/index.html">软时间窗车辆路径问题 VRPSTW</a><a class="dd-item" href="../../problem/mdvrp/index.html">多车场车辆路径问题 MDVRP</a><a class="dd-item" href="../../problem/sms/index.html">单机调度 SMS</a><a class="dd-item" href="../../problem/fss/index.html">流水车间调度 FSS</a><a class="dd-item" href="../../problem/jss/index.html">作业车间调度 JSS</a><a class="dd-item" href="../../problem/hcycle/index.html">哈密顿回路 HC</a><a class="dd-item" href="../../problem/lpath/index.html">最长路径 LP</a><a class="dd-item" href="../../problem/fjsp/index.html">柔性作业车间调度 FJSP</a><a class="dd-item" href="../../problem/carp/index.html">带容量弧路由问题 CARP</a><a class="dd-item" href="../../problem/rpostman/index.html">乡村邮递员问题 RPP</a><a class="dd-item" href="../../problem/oss/index.html">开放车间调度 OSS</a><a class="dd-item" href="../../problem/rcpsp/index.html">资源受限项目调度 RCPSP</a><a class="dd-item" href="../../problem/orienteering/index.html">定向运动问题 OP</a><a class="dd-item" href="../../problem/atsp/index.html">非对称旅行商问题 ATSP</a><a class="dd-item" href="../../problem/pms/index.html">并行机调度（最小化最大完工时间） PMS</a></div><div class="dd-col"><a class="dd-fam" href="../../problem/knapsack/index.html">背包问题枢纽</a><a class="dd-item" href="../../problem/knapsack/fractional/index.html">分数背包</a><a class="dd-item" href="../../problem/knapsack/bounded/index.html">有界背包</a><a class="dd-item" href="../../problem/knapsack/unbounded/index.html">无界背包</a><a class="dd-item" href="../../problem/knapsack/changemaking/index.html">找零问题</a><a class="dd-item" href="../../problem/knapsack/multiple/index.html">多背包</a><a class="dd-item" href="../../problem/knapsack/multiplechoice/index.html">多选择背包</a><a class="dd-item" href="../../problem/knapsack/multidim/index.html">多维背包</a><a class="dd-item" href="../../problem/knapsack/discounted/index.html">折扣背包</a><a class="dd-item" href="../../problem/knapsack/quadratic/index.html">二次背包</a><a class="dd-item" href="../../problem/knapsack/subsetsum/index.html">子集和</a><a class="dd-item" href="../../problem/setcover/index.html">集合覆盖 SCP</a><a class="dd-item" href="../../problem/misindep/index.html">最大独立集 MIS</a><a class="dd-item" href="../../problem/vcover/index.html">顶点覆盖 VC</a><a class="dd-item" href="../../problem/domset/index.html">支配集 DS</a><a class="dd-item" href="../../problem/mclique/index.html">最大团 MCP</a><a class="dd-item" href="../../problem/setpack/index.html">集合打包 SPK</a><a class="dd-item" href="../../problem/hset/index.html">碰集/击集 HIT</a><a class="dd-item" href="../../problem/fvs/index.html">反馈顶点集 FVS</a></div><div class="dd-col"><a class="dd-fam" href="../../problem/assignment/index.html">分配与选址</a><a class="dd-item" href="../../problem/lap/index.html">线性指派 LAP</a><a class="dd-item" href="../../problem/tdm/index.html">3-维匹配 3DM</a></div><div class="dd-col"><a class="dd-fam" href="../../problem/binpack/index.html">装箱问题</a><a class="dd-item" href="../../problem/binpack2d/index.html">二维装箱 2D-BPP</a><a class="dd-item" href="../../problem/strippack/index.html">条带装箱 SPP</a><a class="dd-item" href="../../problem/vsbinpack/index.html">变尺寸箱装箱 VSBPP</a><a class="dd-item" href="../../problem/cutstock/index.html">一维下料 CSP</a><a class="dd-item" href="../../problem/gpp/index.html">图划分 GPP</a><a class="dd-item" href="../../problem/numpart/index.html">数分割问题 NPP</a></div><div class="dd-col"><a class="dd-fam" href="../../problem/graphcolor/index.html">图着色</a><a class="dd-item" href="../../problem/listcolor/index.html">列表着色 LCP</a><a class="dd-item" href="../../problem/edgecolor/index.html">边着色 ECP</a><a class="dd-item" href="../../problem/precolor/index.html">预着色扩展 PrExt</a><a class="dd-item" href="../../problem/totalcolor/index.html">全着色 TCP</a><a class="dd-item" href="../../problem/freqasg/index.html">频率分配问题 FAP</a></div><div class="dd-col"><a class="dd-fam" href="../../problem/qubo/index.html">QUBO 与密码类</a><a class="dd-item" href="../../problem/sat/index.html">可满足性问题 SAT</a><a class="dd-item" href="../../problem/maxsat/index.html">最大可满足性 MAX-SAT</a><a class="dd-item" href="../../problem/maxcut/index.html">最大割 MAX-CUT</a><a class="dd-item" href="../../problem/csplogic/index.html">约束满足问题 CSP-Logic</a></div><div class="dd-col"><a class="dd-fam" href="../../problem/continuous/index.html">连续优化</a><a class="dd-item" href="../../problem/bbob/index.html">BBOB 基准套件 BBOB</a><a class="dd-item" href="../../problem/cbbb/index.html">约束黑箱优化 CBBB</a><a class="dd-item" href="../../problem/nbbb/index.html">噪声黑箱优化 NBBB</a><a class="dd-item" href="../../problem/lbbb/index.html">大规模黑箱优化 LBBB</a><a class="dd-item" href="../../problem/ebbb/index.html">昂贵黑箱优化 EBBB</a><a class="dd-item" href="../../problem/ecd/index.html">工程约束设计 ECD</a></div><div class="dd-col"><a class="dd-fam" href="../../problem/multiobj/index.html">多目标优化</a><a class="dd-item" href="../../problem/zdt/index.html">ZDT 双目标基准 ZDT</a><a class="dd-item" href="../../problem/dtlz/index.html">DTLZ 三目标基准 DTLZ</a><a class="dd-item" href="../../problem/maop/index.html">超多目标优化 MaOP</a><a class="dd-item" href="../../problem/moco/index.html">组合多目标优化 MOCO</a><a class="dd-item" href="../../problem/prefmo/index.html">偏好多目标范式 PREFMO</a><a class="dd-item" href="../../problem/decompo/index.html">分解多目标范式 DECOMPO</a><a class="dd-item" href="../../problem/indicmo/index.html">指标多目标范式 INDICMO</a></div><div class="dd-col"><a class="dd-fam" href="../../problem/uflp/index.html">设施选址 UFLP</a><a class="dd-item" href="../../problem/cflp/index.html">容量设施选址 CFLP</a><a class="dd-item" href="../../problem/lrp/index.html">选址-路径联合 LRP</a><a class="dd-item" href="../../problem/stp/index.html">斯坦纳树 STP</a><a class="dd-item" href="../../problem/ndp/index.html">网络设计 NDP</a><a class="dd-item" href="../../problem/qap/index.html">二次分配问题 QAP</a><a class="dd-item" href="../../problem/pmedian/index.html">p-中位问题 PMED</a><a class="dd-item" href="../../problem/pcenter/index.html">p-中心问题 PCEN</a><a class="dd-item" href="../../problem/kmeans/index.html">k-均值聚类（中心点优化） KMEANS</a></div><div class="dd-col"><span class="dd-fam">排课与排班（纯词条）</span><a class="dd-item" href="../../problem/etp/index.html">考试排课 ETP</a><a class="dd-item" href="../../problem/ctp/index.html">课程排课 CTP</a><a class="dd-item" href="../../problem/nrp/index.html">护士排班 NRP</a><a class="dd-item" href="../../problem/ttp/index.html">旅行锦标赛问题 TTP</a><a class="dd-item" href="../../problem/sls/index.html">体育联赛排程 SLS</a></div><div class="dd-col"><span class="dd-fam">图与网络流（词条与多项式可解对照）</span><a class="dd-item" href="../../problem/mst/index.html">最小生成树 MST</a><a class="dd-item" href="../../problem/shortestpath/index.html">最短路径 SP</a><a class="dd-item" href="../../problem/maxflow/index.html">最大流问题 MF</a><a class="dd-item" href="../../problem/mincostflow/index.html">最小费用流问题 MCF</a><a class="dd-item" href="../../problem/topsort/index.html">拓扑排序 TSORT</a><a class="dd-item" href="../../problem/gmatch/index.html">一般图匹配 GM</a></div><div class="dd-col"><span class="dd-fam">开放登记（优化场景与应用专题）</span><a class="dd-item" href="../../problem/blo/index.html">双层优化 BLO</a><a class="dd-item" href="../../problem/ro/index.html">鲁棒优化 RO</a><a class="dd-item" href="../../problem/mmo/index.html">多模态优化 MMO</a><a class="dd-item" href="../../problem/dop/index.html">动态优化 DOP</a><a class="dd-item" href="../../problem/ged/index.html">生成式设计 GD</a><a class="dd-item" href="../../problem/proteinfold/index.html">蛋白质折叠（格点模型） HP</a><a class="dd-item" href="../../problem/msa/index.html">多序列比对 MSA</a></div><div class="dd-col"><a class="dd-fam" href="../../problem/reductions/index.html">归约页 · 全谱词条</a></div></div></div></div>
+  <div class="dd"><a class="dd-btn" href="../../encyclopedia/index.html">科普 <span class="caret">▾</span></a><div class="dd-panel"><div class="dd-col"><a class="dd-item" href="../../encyclopedia/index.html#intro">❓&nbsp;什么是元启发式？（3 分钟入门）</a><div class="hint" style="padding:2px 10px 8px">小白从这里进：入门 → 理论/批评/实验方法学 → 交叉矩阵与应用地图（研究级硬核内容，按需取用）。</div><a class="dd-item" href="../../meta/theory/index.html">📐&nbsp;理论基础</a><a class="dd-item" href="../../meta/criticism/index.html">🔍&nbsp;批评史</a><a class="dd-item" href="../../meta/methodology/index.html">🧪&nbsp;实验方法学</a><a class="dd-item" href="../../meta/timeline/index.html">🕰️&nbsp;五十年时间轴</a><a class="dd-item" href="../../encyclopedia/index.html" title="百科全书（研究级）">📌&nbsp;百科全书</a><a class="dd-item" href="../../matrix/index.html" title="交叉矩阵（研究级）">📌&nbsp;交叉矩阵</a><a class="dd-item" href="../../applications/index.html" title="应用地图（研究级）">📌&nbsp;应用地图</a><span class="dd-fam">给贡献者</span><a class="dd-item" href="../../coverage/index.html" title="覆盖看板：写给想参与维护或扩展本站的人">🛠&nbsp;覆盖看板</a><a class="dd-item" href="../../components/index.html" title="组件库：写给想参与维护或扩展本站的人">🛠&nbsp;组件库</a><a class="dd-item" href="../../discovery/index.html" title="候选发现池：写给想参与维护或扩展本站的人">🛠&nbsp;候选发现池</a></div></div></div>
+  <a href="../../demo/index.html">▶ 演示</a>
+  <a href="../../guide/index.html">上手</a>
+  <a href="../../compare/index.html">算法对比</a>
+  </div>
+  <button id="langToggle" class="theme-btn lang-btn" title="Switch to English / 切换到英文" aria-label="Language">EN</button><button id="themeToggle" class="theme-btn" title="切换日间/夜间模式" aria-label="切换主题">🌙</button>
+</div></nav>
+
+<div class="wrap" id="main" role="main">
+  <div class="hero" style="padding-top:18px">
+    <div class="crumbs"><a href="../../index.html">首页</a> · 问题库 · 连续函数优化</div>
+    <h1 style="font-size:28px" data-en="Continuous benchmark functions">连续函数优化在线演示<br><span class='grad'>算法的「原生域」长这样</span></h1>
+    <div class="sub">PSO/DE/GWO/WOA/SCA 的教科书公式本来是为实数空间写的——这里不做任何离散化，原样运行。看完这页再回 TSP 页，就知道离散化改掉了什么。</div>
+  </div>
+  
+  <p>灰底热力图是目标函数地形（越暗=越低=越好），粒子是候选解，十字标是全局最优。四个基准函数各有考点：</p>
+  <p><strong>Sphere</strong>（单峰碗状）：考收敛速度；<strong>Rosenbrock</strong>（香蕉谷）：谷底平坦，考细步推进；<strong>Rastrigin</strong>（遍地尖谷）：考逃逸局部最优能力；<strong>Ackley</strong>：近全局平坦+边缘粗糙。</p>
+  <p>把维度切到 10 维再跑一次——低维演示里凶悍的算法可能当场翻车，这是「维度灾难」的直观版本。</p>
+
+  
+  <h2 id="demo">在线求解演示</h2>
+  <div class="fidelity fid-standard" role="note"><b>✅ 标准模型</b>　与教科书/文献定义一致，结果可与文献对照。</div>
+  <div class="panel">
+    <div class="panel-head">运行设置</div>
+    <div class="row">
+      <div class="field"><label for="algoSel">算法</label><select id="algoSel"><optgroup label="基线"><option value="random" data-tune='[]'>随机搜索</option></optgroup><optgroup label="物理·化学·数学启发"><option value="sa" data-tune='["t0", "decay", "restart_at"]'>模拟退火 SA</option><option value="sca" data-tune='["a_max"]'>正弦余弦 SCA</option><option value="jaya" data-tune='[]'>Jaya 算法 JAYA</option><option value="gsa" data-tune='[]'>引力搜索 GSA</option><option value="eo" data-tune='[]'>均衡优化 EO</option></optgroup><optgroup label="群体智能"><option value="pso" data-tune='["w_max", "w_min", "c1", "c2"]'>粒子群 PSO</option><option value="gwo" data-tune='[]'>灰狼 GWO</option><option value="woa" data-tune='[]'>鲸鱼 WOA</option><option value="fa" data-tune='[]'>萤火虫 FA</option><option value="ba" data-tune='[]'>蝙蝠 BA</option><option value="mfo" data-tune='[]'>蛾焰 MFO</option><option value="abc" data-tune='[]'>人工蜂群 ABC</option><option value="ao" data-tune='[]'>天鹰 AO</option><option value="sma" data-tune='[]'>黏菌 SMA</option><option value="hho" data-tune='[]'>哈里斯鹰 HHO</option><option value="ssa" data-tune='[]'>麻雀搜索 SSA</option><option value="alo" data-tune='[]'>蚁狮优化 ALO</option><option value="boa" data-tune='[]'>蝴蝶优化 BOA</option><option value="salp" data-tune='[]'>樽海鞘群 Salp</option><option value="fpa" data-tune='[]'>花朵授粉 FPA</option><option value="da" data-tune='[]'>蜻蜓 DA</option><option value="mpa" data-tune='[]'>海洋掠食者 MPA</option><option value="cscrow" data-tune='[]'>乌鸦搜索 CSA</option><option value="kh" data-tune='[]'>磷虾群 KH</option><option value="afsa" data-tune='[]'>人工鱼群 AFSA</option><option value="fwa" data-tune='[]'>烟花算法 FWA</option><option value="sfla" data-tune='[]'>混合蛙跳 SFLA</option><option value="sos" data-tune='[]'>共生搜索 SOS</option></optgroup><optgroup label="进化计算"><option value="de" data-tune='["F", "CR"]'>差分进化 DE</option><option value="cmaes" data-tune='[]'>协方差自适应 CMA-ES</option><option value="cem" data-tune='[]'>交叉熵 CEM</option><option value="bbo" data-tune='[]'>生物地理 BBO</option></optgroup><optgroup label="人类与社会启发"><option value="tlbo" data-tune='[]'>教与学 TLBO</option><option value="hs" data-tune='[]'>和声搜索 HS</option><option value="ica" data-tune='[]'>帝国竞争 ICA</option></optgroup><optgroup label="免疫与其他生物"><option value="ais" data-tune='[]'>克隆选择 AIS</option></optgroup><optgroup label="局部搜索与轨迹法"><option value="ils" data-tune='[]'>迭代局部搜索 ILS</option><option value="vns" data-tune='[]'>变邻域搜索 VNS</option></optgroup></select></div>
+      <div class="field"><label for="presetSel">实例</label><select id="presetSel"><option value="rastrigin2">Rastrigin 2D</option>
+<option value="sphere2">Sphere 2D</option>
+<option value="rosenbrock2">Rosenbrock 2D</option>
+<option value="ackley2">Ackley 2D</option>
+<option value="rastrigin10">Rastrigin 10D（难）</option>
+<option value="sphere10">Sphere 10D</option>
+<option value="rosenbrock10">Rosenbrock 10D</option>
+<option value="ackley10">Ackley 10D</option>
+<option value="rastrigin30">Rastrigin 30D（维度灾难）</option>
+<option value="sphere30">Sphere 30D</option>
+<option value="rosenbrock30">Rosenbrock 30D</option>
+<option value="ackley30">Ackley 30D</option>
+<option value="griewank2">Griewank 2D</option>
+<option value="griewank10">Griewank 10D</option>
+<option value="levy2">Lévy 2D</option>
+<option value="levy10">Lévy 10D</option>
+<option value="schwefel2">Schwefel（欺骗性） 2D</option>
+<option value="schwefel10">Schwefel（欺骗性） 10D</option>
+<option value="zakharov2">Zakharov 2D</option>
+<option value="zakharov10">Zakharov 10D</option>
+<option value="dixon_price2">Dixon–Price 2D</option>
+<option value="dixon_price10">Dixon–Price 10D</option>
+<option value="styblinski_tang2">Styblinski–Tang 2D</option>
+<option value="styblinski_tang10">Styblinski–Tang 10D</option>
+<option value="__custom">⚙ 自定义…</option></select></div>
+      <div class="field"><label for="iterInp">迭代次数</label><input id="iterInp" type="number" value="200" min="10" max="2000"></div>
+      <div class="field"><label for="seedInp">随机种子</label><input id="seedInp" type="number" value="7" min="1"></div>
+      <div class="field"><label for="speedSel">速度（代/帧）</label><select id="speedSel"><option>1</option><option selected>2</option><option>5</option><option>10</option></select></div>
+      <button id="btnStart" class="primary">▶ 开始</button>
+      <button id="btnStop">⏸ 暂停</button>
+      <button id="btnStep" title="推进一代">⏭ 单步</button>
+      <button id="btnReset">⟳ 重置</button>
+      <button id="btnExportDom" class="ghost">↧ 导出结果</button>
+      <button id="btnPngDom" class="ghost">↧ 图像PNG</button>
+      <button id="btnConvDom" class="ghost">↧ 曲线PNG</button>
+      <button id="btnCsvDom" class="ghost">↧ 导出CSV</button>
+      <button id="btnBundleDom" class="ghost">📦 实验包</button>
+      <button id="btnImportDom" class="ghost">↥ 导入实例</button>
+      <input id="domFileInput" type="file" accept=".json,.csv,.txt,.cnf,.col,.tsp,.atsp,application/json,text/csv" hidden>
+    </div>
+    <div class="row" id="tuneBox"></div>
+    <div class="row" id="customRow" hidden><div class="field"><label>维度 dim</label><input id="cst_dim" type="number" value="2" min="1" max="30" step="1"></div></div>
+  </div>
+  <div class="statusline">
+    <span class="pill" id="statusPill"><span class="dot"></span><span id="statusText" role="status" aria-live="polite">初始化中…</span></span>
+    <span id="statusExtra">热力图越暗越好，十字=全局最优，灰点=粒子</span>
+  </div>
+  <div id="importReport" class="import-report" role="status" hidden></div>
+  <p class="hint import-hint">「导入实例」支持 .json / .csv / .cnf / .col，导入前会先校验并指出问题所在。
+    <a id="lnkSample" download>下载本页示例数据</a> · <a id="lnkFormats" target="_blank" rel="noopener">格式说明</a></p>
+
+  <div class="cols" style="margin-top:10px">
+    <div>
+      <div class="chart-card">
+        <div class="chart-head"><span class="chart-title">问题可视化</span></div>
+        <div class="chart-body"><canvas id="vizCanvas" role="img" aria-label="问题可视化：当前实例与解状态的可视化，数值可导出 JSON" width="760" height="430"></canvas></div>
+      </div>
+    </div>
+    <div>
+      <div class="chart-card">
+        <div class="chart-head"><span class="chart-title">收敛曲线</span>
+          <div class="legend"><span><i class="dotm" style="background:var(--cv-best)"></i>全局最优</span><span><i class="dotm" style="background:var(--cv-cur)"></i>当代</span></div>
+        </div>
+        <div class="chart-body"><canvas id="convCanvas" role="img" aria-label="收敛曲线：全局最优与当代值随迭代变化，数值可导出 JSON" width="760" height="430"></canvas></div>
+      </div>
+    </div>
+  </div>
+  <p class="hint">红线=全局最优（单调），灰线=当代值（允许波动）。算法在浏览器本地运行（Pyodide），首次加载约 10MB。</p>
+  
+  <script>
+  window.PAGE_DOMAIN = "continuous";
+  window.PAGE_PRESETS = {"rastrigin2": {"fn": "rastrigin", "dim": 2}, "sphere2": {"fn": "sphere", "dim": 2}, "rosenbrock2": {"fn": "rosenbrock", "dim": 2}, "ackley2": {"fn": "ackley", "dim": 2}, "rastrigin10": {"fn": "rastrigin", "dim": 10}, "sphere10": {"fn": "sphere", "dim": 10}, "rosenbrock10": {"fn": "rosenbrock", "dim": 10}, "ackley10": {"fn": "ackley", "dim": 10}, "rastrigin30": {"fn": "rastrigin", "dim": 30}, "sphere30": {"fn": "sphere", "dim": 30}, "rosenbrock30": {"fn": "rosenbrock", "dim": 30}, "ackley30": {"fn": "ackley", "dim": 30}, "griewank2": {"fn": "griewank", "dim": 2}, "griewank10": {"fn": "griewank", "dim": 10}, "levy2": {"fn": "levy", "dim": 2}, "levy10": {"fn": "levy", "dim": 10}, "schwefel2": {"fn": "schwefel", "dim": 2}, "schwefel10": {"fn": "schwefel", "dim": 10}, "zakharov2": {"fn": "zakharov", "dim": 2}, "zakharov10": {"fn": "zakharov", "dim": 10}, "dixon_price2": {"fn": "dixon_price", "dim": 2}, "dixon_price10": {"fn": "dixon_price", "dim": 10}, "styblinski_tang2": {"fn": "styblinski_tang", "dim": 2}, "styblinski_tang10": {"fn": "styblinski_tang", "dim": 10}};
+  window.PAGE_CUSTOM_FIELDS = [{"key": "dim", "label": "维度 dim", "min": 1, "max": 30, "val": 2}];
+  window.PAGE_CUSTOM_BASE = "rastrigin2";
+  window.PAGE_DEFAULTS = {"n_pop": 30, "sigma": 0.6, "t0": 10.0, "decay": 0.98, "w_max": 0.9, "w_min": 0.4, "c1": 1.5, "c2": 1.5, "F": 0.7, "CR": 0.9, "a_max": 2.0, "restart_at": 25, "max_iter": 200, "seed": 7};
+  </script>
+  <script src="../../js/compat.js"></script>
+  <script src="../../js/domain_page.js"></script>
+
+
+  
+<h2>实测参考（2D，seed=7，200 代）</h2>
+<div class="tablewrap"><table>
+<tr><th>算法</th><th class="num">Sphere</th><th class="num">Rastrigin</th></tr>
+<tr><td>随机搜索（基线）</td><td class="num">1.08</td><td class="num">0.62</td></tr>
+<tr><td>爬山 HC（带重启）</td><td class="num">≈0</td><td class="num">1.9</td></tr>
+<tr><td>模拟退火 SA（带重启）</td><td class="num">≈0</td><td class="num">≈1.0</td></tr>
+<tr><td>粒子群 PSO</td><td class="num">≈0</td><td class="num">0.001</td></tr>
+<tr><td>差分进化 DE</td><td class="num">≈0</td><td class="num">0</td></tr>
+<tr><td>灰狼 GWO</td><td class="num">≈0</td><td class="num">0</td></tr>
+<tr><td>鲸鱼 WOA</td><td class="num">≈0</td><td class="num">0</td></tr>
+<tr><td>正弦余弦 SCA</td><td class="num">≈0</td><td class="num">0</td></tr>
+</table></div>
+<p class="hint">注意 Rastrigin 列：随机搜索 0.62 比单链方法（SA/HC）还好——<strong>低维、评价便宜时均匀采样本来就是强基线</strong>，这是元启发式文献的常识但很少有人说破。种群算法（PSO/DE/GWO/WOA/SCA）靠群体多样性+精细收缩才能压到 0。</p>
+
+
+  <h2 id="roster">哪些算法能治</h2>
+  <p class="hint">从映射层派生（<a href="../../problem/reductions/index.html">问题归约</a> · <a href="../../matrix/index.html">交叉矩阵</a>）。「实测」成绩来自本页下方实测参考表。</p>
+  <div class="maplist"><div class="map-row"><span class="map-name"><a href="../../algo/f3-phys/sa/index.html">模拟退火 SA</a><span class="tier t-shi">实测</span></span><span class="map-how">连续域 Metropolis + 卡死重启（退火原论文场景就是芯片布局这类问题）</span><span class="map-act"><a class="chip mini" href="../../problem/continuous/index.html?algo=sa#demo">▶ 演示</a><div class="hint">连续域实测 ≈0（Sphere）</div></span></div>
+<div class="map-row"><span class="map-name"><a href="../../algo/f2-si/pso/index.html">粒子群算法 PSO</a><span class="tier t-shi">实测</span></span><span class="map-how">原生域：速度-位置公式原样，不做任何离散化</span><span class="map-act"><a class="chip mini" href="../../problem/continuous/index.html?algo=pso#demo">▶ 演示</a><div class="hint">连续域实测 Rastrigin 0.001</div></span></div>
+<div class="map-row"><span class="map-name"><a href="../../algo/f1-ea/de/index.html">差分进化 DE</a><span class="tier t-shi">实测</span></span><span class="map-how">原生域：差向量实数运算</span><span class="map-act"><a class="chip mini" href="../../problem/continuous/index.html?algo=de#demo">▶ 演示</a><div class="hint">连续域实测 Rastrigin 0</div></span></div>
+<div class="map-row"><span class="map-name"><a href="../../algo/f2-si/gwo/index.html">灰狼优化 GWO</a><span class="tier t-shi">实测</span></span><span class="map-how">原生域：三狼包围收缩</span><span class="map-act"><a class="chip mini" href="../../problem/continuous/index.html?algo=gwo#demo">▶ 演示</a><div class="hint">连续域实测 Rastrigin 0</div></span></div>
+<div class="map-row"><span class="map-name"><a href="../../algo/f2-si/woa/index.html">鲸鱼优化 WOA</a><span class="tier t-shi">实测</span></span><span class="map-how">原生域：包围/螺旋更新</span><span class="map-act"><a class="chip mini" href="../../problem/continuous/index.html?algo=woa#demo">▶ 演示</a><div class="hint">连续域实测 Rastrigin 0</div></span></div>
+<div class="map-row"><span class="map-name"><a href="../../algo/f3-phys/sca/index.html">正弦余弦 SCA</a><span class="tier t-shi">实测</span></span><span class="map-how">原生域：正弦余弦振荡包围</span><span class="map-act"><a class="chip mini" href="../../problem/continuous/index.html?algo=sca#demo">▶ 演示</a><div class="hint">连续域实测 Rastrigin 0</div></span></div>
+<div class="map-row"><span class="map-name"><a href="../../algo/f2-si/fa/index.html">萤火虫算法 FA</a><span class="tier t-wen">文献</span></span><span class="map-how">萤火虫算法原生为连续空间设计（亮度∝目标值、距离衰减吸引）<span class="hint">（Yang, Nature-Inspired Metaheuristic Algorithms, 2008）</span></span><span class="map-act"></span></div>
+<div class="map-row"><span class="map-name"><a href="../../algo/f3-phys/gsa/index.html">引力搜索 GSA</a><span class="tier t-wen">文献</span></span><span class="map-how">引力搜索原生连续：解=天体，质量∝适应度<span class="hint">（Rashedi, Nezamabadi-pour &amp; Saryazdi, Inf. Sci. 179:2232, 2009）</span></span><span class="map-act"></span></div>
+<div class="map-row"><span class="map-name"><a href="../../algo/f2-si/ba/index.html">蝙蝠算法 BA</a><span class="tier t-wen">文献</span></span><span class="map-how">蝙蝠算法原生连续：响度/频率随迭代收缩<span class="hint">（Yang, Neural Computing and Applications 20:873, 2010）</span></span><span class="map-act"></span></div>
+<div class="map-row"><span class="map-name"><a href="../../algo/f1-ea/cem/index.html">交叉熵方法 CEM</a><span class="tier t-wen">文献</span></span><span class="map-how">连续分布估计原生域<span class="hint">（编码适配与着色应用）</span></span><span class="map-act"><div class="hint">CEM 连续优化文献</div></span></div>
+<div class="map-row"><span class="map-name"><a href="../../algo/f4-human/hs/index.html">和声搜索 HS</a><span class="tier t-wen">文献</span></span><span class="map-how">和声向量实数编码<span class="hint">（编码适配与着色应用）</span></span><span class="map-act"><div class="hint">和声搜索连续应用文献</div></span></div>
+<div class="map-row"><span class="map-name"><a href="../../algo/f1-ea/cma-es/index.html">协方差矩阵自适应进化策略 CMA-ES</a><span class="tier t-wen">文献</span></span><span class="map-how">连续域原生主场：全协方差自适应 + σ 自适应 + 进化路径 pc/ps（标准 (μ,λ)-CMA-ES）<span class="hint">（Hansen &amp; Ostermeier 2001, Evolutionary Computation 9(2):159-195）</span></span><span class="map-act"><div class="hint">Hansen &amp; Ostermeier 2001, Evolutionary Computation 9(2):159-195；连续域 SOTA</div></span></div>
+  </div>
+
+  <h2>常见问题</h2>
+  <details class="faq-item"><summary>为什么随机搜索在 Rastrigin 上比 SA/HC 还强？</summary><div class="faq-body">2D、评价便宜时，均匀采样 6000 个点的最好值本来就约 0.6，而单链算法容易困在某个尖谷里。这不是 SA 写错了——是多峰地形+低维的客观规律。切到 10 维试试：随机搜索立刻失效，种群算法优势才会显现。</div></details>
+  <details class="faq-item"><summary>热力图在 10 维时还准吗？</summary><div class="faq-body">热力图只画前两个维度（其余维度固定 0），粒子位置也只投影前两维——你看到的是高维搜索在 2D 切片上的影子。收敛曲线始终是真实的高维目标函数值。</div></details>
+  <details class="faq-item"><summary>PSO 的速度上限是干什么用的？</summary><div class="faq-body">速度不限的话粒子会飞出边界来回震荡，永远进不了谷底。本站限制单代位移不超过搜索域的 20%，属于 PSO 工程化的标准操作。</div></details>
+</div>
+
+<footer>
+  <span class="fbrand">群智能算法百科</span>
+  <span class="ver">v0.1.0</span>
+  <span>算法由 Pyodide 在浏览器本地运行，数据不上传</span>
+</footer>
+
+<script>
+(function(){
+  var b=document.getElementById("themeToggle");if(!b)return;
+  var root=document.documentElement;
+  function sync(){b.textContent=root.getAttribute("data-theme")==="dark"?"☀️":"🌙";}
+  b.onclick=function(){
+    var n=root.getAttribute("data-theme")==="dark"?"light":"dark";
+    root.setAttribute("data-theme",n);
+    try{localStorage.setItem("theme",n)}catch(e){}
+    sync();
+    window.dispatchEvent(new CustomEvent("themechange"));
+  };
+  sync();
+})();
+(function(){
+  if(location.protocol!=="file:")return;
+  var d=document.createElement("div");
+  d.className="file-warn";
+  d.innerHTML="⚠️ 当前通过 <b>file://</b> 直接打开：页面浏览可用，但<b>交互演示（运行算法）需要经 http 访问</b>——请在项目目录双击 <code>start_server.bat</code>（或运行 <code>python serve.py</code>），再访问 http://localhost:8000 。";
+  document.body.insertBefore(d,document.body.firstChild);
+})();
+/* S8-C 触屏（hover 不可用）：点 .dd-btn 展开/收起面板，不再直接跳走（P1-2 修复）。
+   桌面 hover 环境不拦截（matchMedia('(hover: hover)') 为真时不处理）。 */
+(function(){
+  document.querySelectorAll(".dd-btn").forEach(function(b){
+    b.addEventListener("click", function(e){
+      if(window.matchMedia("(hover: hover)").matches) return;  // 桌面 hover 环境不拦截
+      e.preventDefault();
+      var dd=b.parentElement;
+      var wasOpen=dd.classList.contains("open");
+      document.querySelectorAll(".dd.open").forEach(function(o){ o.classList.remove("open"); });
+      if(!wasOpen) dd.classList.add("open");
+    });
+  });
+  document.addEventListener("click", function(e){
+    if(!e.target.closest(".dd")) document.querySelectorAll(".dd.open").forEach(function(o){ o.classList.remove("open"); });
+  });
+})();
+/* 长表词条过滤（planned>20 的家族页，P1-3）：输入即按行文本 includes 过滤 + 计数 */
+(function(){
+  document.querySelectorAll(".plfilter").forEach(function(inp){
+    var wrap=inp.closest(".plwrap");
+    var tbl=wrap.parentElement.querySelector(".pltbl table");
+    var cnt=wrap.querySelector(".plcount");
+    if(!tbl||!cnt) return;
+    var total=parseInt(inp.getAttribute("data-plcount"),10)||tbl.querySelectorAll("tr").length-1;
+    var trs=tbl.querySelectorAll("tr");
+    inp.addEventListener("input", function(){
+      var q=inp.value.trim().toLowerCase(), n=0;
+      for(var i=1;i<trs.length;i++){
+        var hit=!q||trs[i].textContent.toLowerCase().indexOf(q)>=0;
+        trs[i].style.display=hit?"":"none"; if(hit) n++;
+      }
+      cnt.textContent="显示 "+n+"/"+total;
+    });
+  });
+})();
+</script>
+</body>
+</html>

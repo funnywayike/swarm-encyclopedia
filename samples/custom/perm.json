@@ -1,0 +1,1 @@
+{"schema":"swarm-problem/v1","domain":"custom","variant":"perm","data":{"variant":"perm","n":12,"sense":"min","data":{"p":[6,3,7,1,2,9,2,6,1,9,4,1],"d":[17,39,38,16,27,17,47,39,15,48,19,26],"w":[5,1,5,5,4,1,2,1,5,2,3,4]},"objective":"sum(w[x[k]] * max(0, sum(p[x[j]] for j in range(k + 1)) - d[x[k]]) for k in range(n))"}}

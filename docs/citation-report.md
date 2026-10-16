@@ -1,0 +1,708 @@
+# 文献引用核对报告（自动生成）
+<!-- citations-sha256: fe971679f7048f7b4df36813972a07588e544b8f714ba30c21a8b4d95fe3161f -->
+
+来源：`data/*.json` 的正式引用字段；核对：Crossref。共 1196 条——NOMATCH 153，OK 927，SKIP 96，VERIFIED 20。
+
+OK = 与 Crossref 一致；VERIFIED = 人工核实的例外（`data/citation_overrides.json`，写明理由）；MISMATCH = 找到同一篇但卷/页/年份/文章号不符（**需修正**）；NOMATCH/SKIP = 自动核对不了（书、学位论文、会议论文、中文文献，或引用本身有误），**需人工核**。
+
+## NOMATCH（153）
+
+- `algos.json` `abc.paper`：Karaboga, 2005（技术报告 TR06）；Karaboga & Basturk, 2007, Journal of Global Optimization
+  - 最相近匹配度 0.15
+  - Crossref 最相近：Digital IIR Filter Design Using Differential Evolution Algorithm｜EURASIP Journal on Advances in Signal Processing 2005:856824 (2005) doi:10.1155/asp.2005.1269
+- `algos.json` `abc.refs[5]`：Karaboga, Gorkemli, Ozturk & Karaboga (2014). A comprehensive survey: Artificial bee colony (ABC) algorithm and applications. Artificial Intelligence Review, 42(1), 21-57
+  - 同名候选的年份都对不上（引用 2014）——可能是再版/转载或引用年份有误
+  - Crossref 最相近：A comprehensive survey: artificial bee colony (ABC) algorithm and applications｜Artificial Intelligence Review 42:21-57 (2012) doi:10.1007/s10462-012-9328-0
+- `algos.json` `fa.paper`：Yang, 2008, Nature-Inspired Metaheuristic Algorithms; Yang & He, 2013, Swarm Intelligence
+  - 同名候选的年份都对不上（引用 2008）——可能是再版/转载或引用年份有误
+  - Crossref 最相近：Applications of nature-inspired metaheuristic algorithms for medical image analysis｜Nature-inspired Metaheuristic Algorithms None:156-186 (2025) doi:10.1201/9781003612858-6
+- `algos.json` `fa.refs[0]`：Yang (2008). Nature-Inspired Metaheuristic Algorithms. Luniver Press
+  - 同名候选的年份都对不上（引用 2008）——可能是再版/转载或引用年份有误
+  - Crossref 最相近：Applications of nature-inspired metaheuristic algorithms for medical image analysis｜Nature-inspired Metaheuristic Algorithms None:156-186 (2025) doi:10.1201/9781003612858-6
+- `algos.json` `fa.refs[5]`：Sörensen (2015). Metaheuristics — the metaphor exposed. International Transactions in Operational Research, 22(1), 3-18
+  - 同名候选的年份都对不上（引用 2015）——可能是再版/转载或引用年份有误
+  - Crossref 最相近：Metaheuristics—the metaphor exposed｜International Transactions in Operational Research 22:3-18 (2013) doi:10.1111/itor.12001
+- `algos.json` `woa.refs[1]`：Sörensen (2015). Metaheuristics — the metaphor exposed. International Transactions in Operational Research, 22(1), 3-18
+  - 同名候选的年份都对不上（引用 2015）——可能是再版/转载或引用年份有误
+  - Crossref 最相近：Metaheuristics—the metaphor exposed｜International Transactions in Operational Research 22:3-18 (2013) doi:10.1111/itor.12001
+- `algos.json` `ga.paper`：Holland, 1975, Adaptation in Natural and Artificial Systems
+  - 同名候选的年份都对不上（引用 1975）——可能是再版/转载或引用年份有误
+  - Crossref 最相近：Adaptation in Natural and Artificial Systems｜ None:None (1992) doi:10.7551/mitpress/1090.001.0001
+- `algos.json` `ga.refs[0]`：Holland (1975). Adaptation in Natural and Artificial Systems. University of Michigan Press
+  - 同名候选的年份都对不上（引用 1975）——可能是再版/转载或引用年份有误
+  - Crossref 最相近：Adaptation in Natural and Artificial Systems｜ None:None (1992) doi:10.7551/mitpress/1090.001.0001
+- `algos.json` `gwo.refs[2]`：Sörensen (2015). Metaheuristics — the metaphor exposed. International Transactions in Operational Research, 22(1), 3-18
+  - 同名候选的年份都对不上（引用 2015）——可能是再版/转载或引用年份有误
+  - Crossref 最相近：Metaheuristics—the metaphor exposed｜International Transactions in Operational Research 22:3-18 (2013) doi:10.1111/itor.12001
+- `algos.json` `de.refs[6]`：Zaharie (2002). Critical values for the control parameters of differential evolution algorithms. In Proceedings of MENDEL 2002, 62-67
+  - 最相近匹配度 0.45
+  - Crossref 最相近：Influence of crossover on the behavior of Differential Evolution Algorithms｜Applied Soft Computing 9:1126-1138 (2009) doi:10.1016/j.asoc.2009.02.012
+- `algos.json` `cs.refs[4]`：Sörensen (2015). Metaheuristics — the metaphor exposed. International Transactions in Operational Research, 22(1), 3-18
+  - 同名候选的年份都对不上（引用 2015）——可能是再版/转载或引用年份有误
+  - Crossref 最相近：Metaheuristics—the metaphor exposed｜International Transactions in Operational Research 22:3-18 (2013) doi:10.1111/itor.12001
+- `algos.json` `sca.refs[1]`：Sörensen (2015). Metaheuristics — the metaphor exposed. International Transactions in Operational Research, 22(1), 3-18
+  - 同名候选的年份都对不上（引用 2015）——可能是再版/转载或引用年份有误
+  - Crossref 最相近：Metaheuristics—the metaphor exposed｜International Transactions in Operational Research 22:3-18 (2013) doi:10.1111/itor.12001
+- `algos.json` `hho.refs[1]`：Sörensen (2015). Metaheuristics — the metaphor exposed. International Transactions in Operational Research, 22(1), 3-18
+  - 同名候选的年份都对不上（引用 2015）——可能是再版/转载或引用年份有误
+  - Crossref 最相近：Metaheuristics—the metaphor exposed｜International Transactions in Operational Research 22:3-18 (2013) doi:10.1111/itor.12001
+- `algos.json` `ils.refs[1]`：Martin, Otto & Felten (1991). Large-step Markov chains for the traveling salesman problem. Complex Systems, 5(3), 299-326
+  - 同名候选的年份都对不上（引用 1991）——可能是再版/转载或引用年份有误
+  - Crossref 最相近：The Symmetric Circulant Traveling Salesman Problem｜Traveling Salesman Problem None:None (2008) doi:10.5772/5581
+- `algos.json` `ba.refs[3]`：Sörensen (2015). Metaheuristics — the metaphor exposed. International Transactions in Operational Research, 22(1), 3-18
+  - 同名候选的年份都对不上（引用 2015）——可能是再版/转载或引用年份有误
+  - Crossref 最相近：Metaheuristics—the metaphor exposed｜International Transactions in Operational Research 22:3-18 (2013) doi:10.1111/itor.12001
+- `algos.json` `hs.refs[3]`：Sörensen (2015). Metaheuristics — the metaphor exposed. International Transactions in Operational Research, 22(1), 3-18
+  - 同名候选的年份都对不上（引用 2015）——可能是再版/转载或引用年份有误
+  - Crossref 最相近：Metaheuristics—the metaphor exposed｜International Transactions in Operational Research 22:3-18 (2013) doi:10.1111/itor.12001
+- `algos.json` `gsa.refs[3]`：Sörensen (2015). Metaheuristics — the metaphor exposed. International Transactions in Operational Research, 22(1), 3-18
+  - 同名候选的年份都对不上（引用 2015）——可能是再版/转载或引用年份有误
+  - Crossref 最相近：Metaheuristics—the metaphor exposed｜International Transactions in Operational Research 22:3-18 (2013) doi:10.1111/itor.12001
+- `algos.json` `tlbo.refs[3]`：Sörensen (2015). Metaheuristics — the metaphor exposed. International Transactions in Operational Research, 22(1), 3-18
+  - 同名候选的年份都对不上（引用 2015）——可能是再版/转载或引用年份有误
+  - Crossref 最相近：Metaheuristics—the metaphor exposed｜International Transactions in Operational Research 22:3-18 (2013) doi:10.1111/itor.12001
+- `algos.json` `bfo.refs[3]`：Sörensen (2015). Metaheuristics — the metaphor exposed. International Transactions in Operational Research, 22(1), 3-18
+  - 同名候选的年份都对不上（引用 2015）——可能是再版/转载或引用年份有误
+  - Crossref 最相近：Metaheuristics—the metaphor exposed｜International Transactions in Operational Research 22:3-18 (2013) doi:10.1111/itor.12001
+- `algos.json` `mfo.refs[1]`：Sörensen (2015). Metaheuristics — the metaphor exposed. International Transactions in Operational Research, 22(1), 3-18
+  - 同名候选的年份都对不上（引用 2015）——可能是再版/转载或引用年份有误
+  - Crossref 最相近：Metaheuristics—the metaphor exposed｜International Transactions in Operational Research 22:3-18 (2013) doi:10.1111/itor.12001
+- `algos.json` `fwa.paper`：Tan & Zhu, 2010, ICSI 2010, LNCS 6145, pp.355-364（原版）；Zheng et al. 2013（增强版 FWA）
+  - 最相近匹配度 0.15
+  - Crossref 最相近：Fireworks Algorithm for Optimization｜Lecture Notes in Computer Science Advances in Swar None:355-364 (2010) doi:10.1007/978-3-642-13495-1_44
+- `algos.json` `fwa.refs[4]`：Sörensen (2015). Metaheuristics — the metaphor exposed. International Transactions in Operational Research, 22(1), 3-18
+  - 同名候选的年份都对不上（引用 2015）——可能是再版/转载或引用年份有误
+  - Crossref 最相近：Metaheuristics—the metaphor exposed｜International Transactions in Operational Research 22:3-18 (2013) doi:10.1111/itor.12001
+- `algos.json` `afsa.refs[2]`：Neshat, Sepidnam, Sargolzaei & Toosi (2014). Artificial fish swarm algorithm: A survey of the state-of-the-art, hybridization, combinatorial and indicative applications. Artificial Intelligence Review
+  - 同名候选的年份都对不上（引用 2014）——可能是再版/转载或引用年份有误
+  - Crossref 最相近：Artificial fish swarm algorithm: a survey of the state-of-the-art, hybridization, combinat｜Artificial Intelligence Review 42:965-997 (2012) doi:10.1007/s10462-012-9342-2
+- `algos.json` `afsa.refs[3]`：Sörensen (2015). Metaheuristics — the metaphor exposed. International Transactions in Operational Research, 22(1), 3-18
+  - 同名候选的年份都对不上（引用 2015）——可能是再版/转载或引用年份有误
+  - Crossref 最相近：Metaheuristics—the metaphor exposed｜International Transactions in Operational Research 22:3-18 (2013) doi:10.1111/itor.12001
+- `algos.json` `ssa.paper`：Xue & Shen, 2020, Systems Science & Control Engineering（麻雀搜索算法原始论文）
+  - 最相近匹配度 0.45
+  - Crossref 最相近：Optimal and robust scheduling for networked control systems｜Systems Science &amp; Control Engineering 2:500-501 (2014) doi:10.1080/21642583.2014.925634
+- `algos.json` `ssa.refs[2]`：Sörensen (2015). Metaheuristics — the metaphor exposed. International Transactions in Operational Research, 22(1), 3-18
+  - 同名候选的年份都对不上（引用 2015）——可能是再版/转载或引用年份有误
+  - Crossref 最相近：Metaheuristics—the metaphor exposed｜International Transactions in Operational Research 22:3-18 (2013) doi:10.1111/itor.12001
+- `algos.json` `alo.refs[2]`：Sörensen (2015). Metaheuristics — the metaphor exposed. International Transactions in Operational Research, 22(1), 3-18
+  - 同名候选的年份都对不上（引用 2015）——可能是再版/转载或引用年份有误
+  - Crossref 最相近：Metaheuristics—the metaphor exposed｜International Transactions in Operational Research 22:3-18 (2013) doi:10.1111/itor.12001
+- `algos.json` `boa.paper`：Arora & Singh, 2019, Soft Computing（蝴蝶优化算法原始论文）
+  - 最相近匹配度 0.40
+  - Crossref 最相近：Butterfly optimization algorithm: a novel approach for global optimization｜Soft Computing 23:715-734 (2018) doi:10.1007/s00500-018-3102-4
+- `algos.json` `boa.refs[1]`：Sörensen (2015). Metaheuristics — the metaphor exposed. International Transactions in Operational Research, 22(1), 3-18
+  - 同名候选的年份都对不上（引用 2015）——可能是再版/转载或引用年份有误
+  - Crossref 最相近：Metaheuristics—the metaphor exposed｜International Transactions in Operational Research 22:3-18 (2013) doi:10.1111/itor.12001
+- `algos.json` `boa.refs[3]`：Arora & Singh (2018). An improved butterfly optimization algorithm for global optimization. Advanced Science, Engineering and Medicine, 8(9), 711-717
+  - 同名候选的年份都对不上（引用 2018）——可能是再版/转载或引用年份有误
+  - Crossref 最相近：An Improved Butterfly Optimization Algorithm for Global Optimization｜Advanced Science, Engineering and Medicine 8:711-717 (2016) doi:10.1166/asem.2016.1904
+- `algos.json` `ica.paper`：Atashpaz-Gargari & Lucas, 2007, IEEE Congress on Evolutionary Computation（帝国竞争算法原始论文）
+  - 最相近匹配度 0.40
+  - Crossref 最相近：Imperialist competitive algorithm: An algorithm for optimization inspired by imperialistic｜2007 IEEE Congress on Evolutionary Computation None:4661-4667 (2007) doi:10.1109/cec.2007.4425083
+- `algos.json` `ica.refs[2]`：Sörensen (2015). Metaheuristics — the metaphor exposed. International Transactions in Operational Research, 22(1), 3-18
+  - 同名候选的年份都对不上（引用 2015）——可能是再版/转载或引用年份有误
+  - Crossref 最相近：Metaheuristics—the metaphor exposed｜International Transactions in Operational Research 22:3-18 (2013) doi:10.1111/itor.12001
+- `algos.json` `salp.refs[2]`：Sörensen (2015). Metaheuristics — the metaphor exposed. International Transactions in Operational Research, 22(1), 3-18
+  - 同名候选的年份都对不上（引用 2015）——可能是再版/转载或引用年份有误
+  - Crossref 最相近：Metaheuristics—the metaphor exposed｜International Transactions in Operational Research 22:3-18 (2013) doi:10.1111/itor.12001
+- `algos.json` `fpa.refs[3]`：Sörensen (2015). Metaheuristics — the metaphor exposed. International Transactions in Operational Research, 22(1), 3-18
+  - 同名候选的年份都对不上（引用 2015）——可能是再版/转载或引用年份有误
+  - Crossref 最相近：Metaheuristics—the metaphor exposed｜International Transactions in Operational Research 22:3-18 (2013) doi:10.1111/itor.12001
+- `algos.json` `kh.refs[3]`：Sörensen (2015). Metaheuristics — the metaphor exposed. International Transactions in Operational Research, 22(1), 3-18
+  - 同名候选的年份都对不上（引用 2015）——可能是再版/转载或引用年份有误
+  - Crossref 最相近：Metaheuristics—the metaphor exposed｜International Transactions in Operational Research 22:3-18 (2013) doi:10.1111/itor.12001
+- `algos.json` `sos.refs[3]`：Sörensen (2015). Metaheuristics — the metaphor exposed. International Transactions in Operational Research, 22(1), 3-18
+  - 同名候选的年份都对不上（引用 2015）——可能是再版/转载或引用年份有误
+  - Crossref 最相近：Metaheuristics—the metaphor exposed｜International Transactions in Operational Research 22:3-18 (2013) doi:10.1111/itor.12001
+- `algos.json` `jaya.refs[3]`：Sörensen (2015). Metaheuristics — the metaphor exposed. International Transactions in Operational Research, 22(1), 3-18
+  - 同名候选的年份都对不上（引用 2015）——可能是再版/转载或引用年份有误
+  - Crossref 最相近：Metaheuristics—the metaphor exposed｜International Transactions in Operational Research 22:3-18 (2013) doi:10.1111/itor.12001
+- `algos.json` `da.refs[3]`：Sörensen (2015). Metaheuristics — the metaphor exposed. International Transactions in Operational Research, 22(1), 3-18
+  - 同名候选的年份都对不上（引用 2015）——可能是再版/转载或引用年份有误
+  - Crossref 最相近：Metaheuristics—the metaphor exposed｜International Transactions in Operational Research 22:3-18 (2013) doi:10.1111/itor.12001
+- `algos.json` `mpa.refs[2]`：Sörensen (2015). Metaheuristics — the metaphor exposed. International Transactions in Operational Research, 22(1), 3-18
+  - 同名候选的年份都对不上（引用 2015）——可能是再版/转载或引用年份有误
+  - Crossref 最相近：Metaheuristics—the metaphor exposed｜International Transactions in Operational Research 22:3-18 (2013) doi:10.1111/itor.12001
+- `algos.json` `cscrow.refs[3]`：Sörensen (2015). Metaheuristics — the metaphor exposed. International Transactions in Operational Research, 22(1), 3-18
+  - 同名候选的年份都对不上（引用 2015）——可能是再版/转载或引用年份有误
+  - Crossref 最相近：Metaheuristics—the metaphor exposed｜International Transactions in Operational Research 22:3-18 (2013) doi:10.1111/itor.12001
+- `algos.json` `eo.refs[1]`：Sörensen (2015). Metaheuristics — the metaphor exposed. International Transactions in Operational Research, 22(1), 3-18
+  - 同名候选的年份都对不上（引用 2015）——可能是再版/转载或引用年份有误
+  - Crossref 最相近：Metaheuristics—the metaphor exposed｜International Transactions in Operational Research 22:3-18 (2013) doi:10.1111/itor.12001
+- `algos.json` `ao.refs[2]`：Sörensen (2015). Metaheuristics — the metaphor exposed. International Transactions in Operational Research, 22(1), 3-18
+  - 同名候选的年份都对不上（引用 2015）——可能是再版/转载或引用年份有误
+  - Crossref 最相近：Metaheuristics—the metaphor exposed｜International Transactions in Operational Research 22:3-18 (2013) doi:10.1111/itor.12001
+- `algos.json` `sma.refs[2]`：Sörensen (2015). Metaheuristics — the metaphor exposed. International Transactions in Operational Research, 22(1), 3-18
+  - 同名候选的年份都对不上（引用 2015）——可能是再版/转载或引用年份有误
+  - Crossref 最相近：Metaheuristics—the metaphor exposed｜International Transactions in Operational Research 22:3-18 (2013) doi:10.1111/itor.12001
+- `problems.json` `abstract_types.mis.sources[1]`：Garey & Johnson (1979). Computers and Intractability（GT20 INDEPENDENT SET；CLIQUE / VERTEX COVER 等价三角）
+  - 最相近匹配度 0.27
+  - Crossref 最相近：Computers and Intractability: A Guide to the Theory of NP-Completeness (Michael R. Garey a｜SIAM Review 24:90-91 (1982) doi:10.1137/1024022
+- `problems.json` `abstract_types.lcp.sources[0]`：Erdős, Rubin & Taylor (1979). Choosability in graphs. In Proceedings of the West Coast Conference on Combinatorics, Graph Theory and Computing, Congressus Numerantium 26, 125-157
+  - 最相近匹配度 0.49
+  - Crossref 最相近：Planar Graphs｜Advanced Graph Theory and Combinatorics None:99-125 (2016) doi:10.1002/9781119008989.ch6
+- `problems.json` `abstract_types.prext.sources[2]`：Kratochvíl (1993). Precoloring extension with fixed color bound. Acta Mathematica Universitatis Comenianae, 62(2), 139-153
+  - 最相近匹配度 0.15
+  - Crossref 最相近：Editorial｜Acta Facultatis Pharmaceuticae Universitatis Comen 62:8-8 (2015) doi:10.1515/afpuc-2015-0023
+- `problems.json` `abstract_types.prext.sources[5]`：Gomes & Selman (1997). Problem structure in the presence of perturbations. In Proceedings of AAAI-97, 221-226
+  - 最相近匹配度 0.42
+  - Crossref 最相近：Uncovering Hidden Structure through Parallel Problem Decomposition｜Proceedings of the AAAI Conference on Artificial I 28:None (2014) doi:10.1609/aaai.v28i1.9093
+- `problems.json` `abstract_types.sat.sources[1]`：Selman, Levesque & Mitchell (1992). A new method for solving hard satisfiability problems. AAAI 1992:440–446（GSAT）
+  - 同名候选的年份都对不上（引用 1992）——可能是再版/转载或引用年份有误
+  - Crossref 最相近：Generating hard satisfiability problems｜Artificial Intelligence 81:17-29 (1996) doi:10.1016/0004-3702(95)00045-3
+- `problems.json` `abstract_types.sat.sources[2]`：Spears (1993). Simulated annealing for hard satisfiability problems. DIMACS Series Vol. 26（SA 线）
+  - 同名候选的年份都对不上（引用 1993）——可能是再版/转载或引用年份有误
+  - Crossref 最相近：Simulated annealing for hard satisfiability problems｜DIMACS Series in Discrete Mathematics and Theoreti None:533-557 (1996) doi:10.1090/dimacs/026/26
+- `problems.json` `abstract_types.sat.sources[6]`：Mitchell, Selman & Levesque (1992). Hard and easy distributions of SAT problems. AAAI 1992:459–465
+  - 最相近匹配度 0.45
+  - Crossref 最相近：Generating hard satisfiability problems｜Artificial Intelligence 81:17-29 (1996) doi:10.1016/0004-3702(95)00045-3
+- `problems.json` `abstract_types.maxsat.sources[0]`：Garey & Johnson (1979) A9.1（MAX-SAT 收录；近似难度梯度）
+  - 最相近匹配度 0.15
+  - Crossref 最相近：Biofouling control investigations:  18-month summary report｜ None:None (1979) doi:10.2172/6253893
+- `problems.json` `abstract_types.maxsat.sources[3]`：Argelich, Li, Manyà & Planes. MaxSAT Evaluation 系列（maxsat.udl.cat 年赛基准）
+  - 最相近匹配度 0.45
+  - Crossref 最相近：Analyzing the Instances of the MaxSAT Evaluation｜Lecture Notes in Computer Science Theory and Appli None:360-361 (2011) doi:10.1007/978-3-642-21581-0_29
+- `problems.json` `abstract_types.bbob.sources[2]`：Finck, Hansen, Ros & Auger (2009). Real-parameter black-box optimization benchmarking 2009: Presentation of the noisy functions. INRIA TR RR-6869
+  - 最相近匹配度 0.38
+  - Crossref 最相近：Comparing results of 31 algorithms from the black-box optimization benchmarking BBOB-2009｜Proceedings of the 12th annual conference companio None:1689-1696 (2010) doi:10.1145/1830761.1830790
+- `problems.json` `abstract_types.uflp.sources[1]`：Garey & Johnson (1979). Computers and Intractability（设施选址为经典问题）
+  - 最相近匹配度 0.27
+  - Crossref 最相近：Computers and Intractability: A Guide to the Theory of NP-Completeness (Michael R. Garey a｜SIAM Review 24:90-91 (1982) doi:10.1137/1024022
+- `problems.json` `abstract_types.lop.sources[1]`：Garey & Johnson (1979). Computers and Intractability（LOP 为书中经典问题）
+  - 最相近匹配度 0.27
+  - Crossref 最相近：Computers and Intractability: A Guide to the Theory of NP-Completeness (Michael R. Garey a｜SIAM Review 24:90-91 (1982) doi:10.1137/1024022
+- `problems.json` `abstract_types.lop.sources[4]`：Kemeny (1959). Mathematics without numbers. Daedalus, 88(4), 577-591
+  - 同名候选的年份都对不上（引用 1959）——可能是再版/转载或引用年份有误
+  - Crossref 最相近：On mathematics, imagination &amp; the beauty of numbers｜Daedalus 134:124-130 (2005) doi:10.1162/0011526053887365
+- `problems.json` `abstract_types.sms.sources[2]`：Garey & Johnson (1979). Computers and Intractability（单机延误类为经典问题）
+  - 最相近匹配度 0.27
+  - Crossref 最相近：Computers and Intractability: A Guide to the Theory of NP-Completeness (Michael R. Garey a｜SIAM Review 24:90-91 (1982) doi:10.1137/1024022
+- `problems.json` `abstract_types.lap.sources[7]`：Birkhoff (1946). Tres observaciones sobre el algebra lineal. Universidad Nacional de Tucumán Revista, Serie A, 5, 147-151
+  - 最相近匹配度 0.30
+  - Crossref 最相近：ROJO, Roberto, Más allá de la utopía, Universidad Nacional de Tucumán, Serie Tesis, Vol. 4｜Perspectivas Metodológicas 1:None (2015) doi:10.18294/pm.2001.566
+- `problems.json` `abstract_types.tdm.sources[1]`：Garey & Johnson (1979). Computers and Intractability（SP1，THREE-DIMENSIONAL MATCHING）
+  - 最相近匹配度 0.30
+  - Crossref 最相近：]Symmetric Numerical Three-Dimensional Matching:&amp;nbsp;Intractability and Inapproximabi｜ None:None (2026) doi:10.2139/ssrn.7216038
+- `problems.json` `abstract_types.tdm.sources[4]`：Halldórsson (1995). Approximating discrete collections via local improvements. In Proceedings of SODA 1995, 160-169
+  - 最相近匹配度 0.27
+  - Crossref 最相近：Approximating the minimum maximal independence number｜Information Processing Letters 46:169-172 (1993) doi:10.1016/0020-0190(93)90022-2
+- `problems.json` `abstract_types.gpp.sources[1]`：Garey & Johnson (1979). Computers and Intractability（ND14 GRAPH PARTITIONING）
+  - 最相近匹配度 0.48
+  - Crossref 最相近：Algorithms for partitioning a graph｜Computers &amp; Industrial Engineering 28:899-909 (1995) doi:10.1016/0360-8352(95)00003-j
+- `problems.json` `abstract_types.gpp.sources[4]`：Johnson, Aragon, McGeoch & Schevon (1989). Optimization by simulated annealing: An experimental evaluation; Part I, graph partitioning. Operations Research, 37(6), 865-892
+  - 同名候选的年份都对不上（引用 1989）——可能是再版/转载或引用年份有误
+  - Crossref 最相近：Structural Optimization Using Simulated Annealing｜Simulated Annealing None:None (2008) doi:10.5772/5567
+- `problems.json` `abstract_types.maxcut.sources[9]`：Rendl, Rinaldi & Wiegele (2010). Solving max-cut to optimality by intersecting semidefinite and polyhedral relaxations. Mathematical Programming, 121(2), 307-335
+  - 同名候选的年份都对不上（引用 2010）——可能是再版/转载或引用年份有误
+  - Crossref 最相近：Solving Max-Cut to optimality by intersecting semidefinite and polyhedral relaxations｜Mathematical Programming 121:307-335 (2008) doi:10.1007/s10107-008-0235-8
+- `problems.json` `abstract_types.csplogic.sources[10]`：Cheeseman, Kanefsky & Taylor (1991). Where the really hard problems are. IJCAI 1991:331–337
+  - 最相近匹配度 0.48
+  - Crossref 最相近：Where the Really Hard Problems Went｜ None:None (None) doi:10.5463/thesis.1565
+- `problems.json` `abstract_types.ctp.sources[2]`：Bonutti, De Cesco, Di Gaspero & Schaerf (2012). Benchmarking curriculum-based course timetabling: Formulations, data formats, instances, validation, visualization, and results. Annals of Operations Re
+  - 同名候选的年份都对不上（引用 2012）——可能是再版/转载或引用年份有误
+  - Crossref 最相近：Benchmarking curriculum-based course timetabling: formulations, data formats, instances, v｜Annals of Operations Research 194:59-70 (2010) doi:10.1007/s10479-010-0707-0
+- `problems.json` `abstract_types.nrp.sources[2]`：Haspeslagh, De Causmaecker, Schaerf & Stølevik (2014). The first international nurse rostering competition 2010. Annals of Operations Research, 218(1), 221-236
+  - 同名候选的年份都对不上（引用 2014）——可能是再版/转载或引用年份有误
+  - Crossref 最相近：The first international nurse rostering competition 2010｜Annals of Operations Research 218:221-236 (2012) doi:10.1007/s10479-012-1062-0
+- `problems.json` `abstract_types.cflp.sources[1]`：Garey & Johnson (1979). Computers and Intractability（设施选址为经典问题）
+  - 最相近匹配度 0.27
+  - Crossref 最相近：Computers and Intractability: A Guide to the Theory of NP-Completeness (Michael R. Garey a｜SIAM Review 24:90-91 (1982) doi:10.1137/1024022
+- `problems.json` `abstract_types.ndp.sources[1]`：Garey & Johnson (1979). Computers and Intractability（网络设计为经典问题类）
+  - 最相近匹配度 0.27
+  - Crossref 最相近：Computers and Intractability: A Guide to the Theory of NP-Completeness (Michael R. Garey a｜SIAM Review 24:90-91 (1982) doi:10.1137/1024022
+- `problems.json` `abstract_types.cbbb.sources[1]`：Garey & Johnson (1979). Computers and Intractability（黑箱优化无经典条目，理论基础为演化计算）
+  - 最相近匹配度 0.27
+  - Crossref 最相近：Computers and Intractability: A Guide to the Theory of NP-Completeness (Michael R. Garey a｜SIAM Review 24:90-91 (1982) doi:10.1137/1024022
+- `problems.json` `abstract_types.nbbb.sources[5]`：Finck, Hansen, Ros & Auger (2009). Real-parameter black-box optimization benchmarking 2009: Presentation of the noisy functions. INRIA TR RR-6869
+  - 最相近匹配度 0.38
+  - Crossref 最相近：Comparing results of 31 algorithms from the black-box optimization benchmarking BBOB-2009｜Proceedings of the 12th annual conference companio None:1689-1696 (2010) doi:10.1145/1830761.1830790
+- `problems.json` `abstract_types.lbbb.sources[10]`：Li, Tang, Omidvar, Yang & Qin (2013). Benchmark functions for the CEC'2013 special session and competition on large-scale global optimization. Technical report, RMIT University
+  - 最相近匹配度 0.55
+  - Crossref 最相近：Initialization methods for large scale global optimization｜2013 IEEE Congress on Evolutionary Computation None:2750-2757 (2013) doi:10.1109/cec.2013.6557902
+- `problems.json` `abstract_types.ebbb.sources[3]`：Snoek, Larochelle & Adams (2012). Practical Bayesian optimization of machine learning algorithms. Advances in Neural Information Processing Systems 25 (NIPS 2012), 2951-2959
+  - 同名候选的年份都对不上（引用 2012）——可能是再版/转载或引用年份有误
+  - Crossref 最相近：Nonlinear MCMC for Bayesian Machine Learning｜Advances in Neural Information Processing Systems  None:28400-28413 (2022) doi:10.52202/068431-2059
+- `problems.json` `abstract_types.ebbb.sources[6]`：Srinivas, Krause, Kakade & Seeger (2010). Gaussian process optimization in the bandit setting: no regret and experimental design. ICML 2010, 1015-1022
+  - 最相近匹配度 0.55
+  - Crossref 最相近：Information-Theoretic Regret Bounds for Gaussian Process Optimization in the Bandit Settin｜IEEE Transactions on Information Theory 58:3250-3265 (2012) doi:10.1109/tit.2011.2182033
+- `problems.json` `abstract_types.ebbb.sources[7]`：Eriksson, Pearce, Gardner, Turner & Poloczek (2019). Scalable global optimization via local Bayesian optimization. NeurIPS 2019, 5496-5507
+  - 最相近匹配度 0.40
+  - Crossref 最相近：Scalable Bayesian global optimization of black-box functions｜ None:None (None) doi:10.15388/vu.thesis.618
+- `problems.json` `abstract_types.vcover.sources[1]`：Garey & Johnson (1979). Computers and Intractability（GT1 VERTEX COVER）
+  - 最相近匹配度 0.40
+  - Crossref 最相近：Vertex Cover Preprocessing｜SpringerReference None:None (None) doi:10.1007/springerreference_57980
+- `problems.json` `abstract_types.domset.sources[0]`：Garey & Johnson (1979). Computers and Intractability（GT2 DOMINATING SET）
+  - 最相近匹配度 0.27
+  - Crossref 最相近：Computers and Intractability: A Guide to the Theory of NP-Completeness (Michael R. Garey a｜SIAM Review 24:90-91 (1982) doi:10.1137/1024022
+- `problems.json` `abstract_types.domset.sources[3]`：Haynes, Hedetniemi & Slater (1998). Fundamentals of Domination in Graphs. Marcel Dekker（专著）
+  - 同名候选的年份都对不上（引用 1998）——可能是再版/转载或引用年份有误
+  - Crossref 最相近：Fundamentals of Domination in Graphs｜ None:None (2013) doi:10.1201/9781482246582
+- `problems.json` `abstract_types.mclique.sources[1]`：Garey & Johnson (1979). Computers and Intractability（GT19 CLIQUE）
+  - 最相近匹配度 0.30
+  - Crossref 最相近：Intractability of Clique-Width Parameterizations｜SIAM Journal on Computing 39:1941-1956 (2010) doi:10.1137/080742270
+- `problems.json` `abstract_types.setpack.sources[1]`：Garey & Johnson (1979). Computers and Intractability（SP3 SET PACKING）
+  - 最相近匹配度 0.45
+  - Crossref 最相近：A 7160 theorem for bin packing｜Journal of Complexity 1:65-106 (1985) doi:10.1016/0885-064x(85)90022-6
+- `problems.json` `abstract_types.fvs.sources[1]`：Garey & Johnson (1979). Computers and Intractability（GT7 FEEDBACK VERTEX SET）
+  - 最相近匹配度 0.27
+  - Crossref 最相近：Computers and Intractability: A Guide to the Theory of NP-Completeness (Michael R. Garey a｜SIAM Review 24:90-91 (1982) doi:10.1137/1024022
+- `problems.json` `abstract_types.fvs.sources[7]`：Dell, Husfeldt, Jansen, Kaski, Komusiewicz & Rosamond (2016). The first parameterized algorithms and computational experiments challenge. In IPEC 2016, LIPIcs 63, 30:1-30:9
+  - 最相近匹配度 0.36
+  - Crossref 最相近：Parameterized Algorithmics and Computational Experiments for Finding 2-Clubs｜Journal of Graph Algorithms and Applications 19:155-190 (2015) doi:10.7155/jgaa.00352
+- `problems.json` `abstract_types.hcycle.sources[0]`：Garey & Johnson (1979). Computers and Intractability (HAMILTONIAN CIRCUIT, GT37).
+  - 最相近匹配度 0.39
+  - Crossref 最相近：The Planar Hamiltonian Circuit Problem is NP-Complete｜SIAM Journal on Computing 5:704-714 (1976) doi:10.1137/0205049
+- `problems.json` `abstract_types.lpath.sources[0]`：Garey & Johnson (1979). Computers and Intractability (LONGEST PATH, ND29).
+  - 最相近匹配度 0.27
+  - Crossref 最相近：Computers and Intractability: A Guide to the Theory of NP-Completeness (Michael R. Garey a｜SIAM Review 24:90-91 (1982) doi:10.1137/1024022
+- `problems.json` `abstract_types.pmedian.sources[1]`：Garey & Johnson (1979). Computers and Intractability（ND51 p-中位）
+  - 最相近匹配度 0.27
+  - Crossref 最相近：Computers and Intractability: A Guide to the Theory of NP-Completeness (Michael R. Garey a｜SIAM Review 24:90-91 (1982) doi:10.1137/1024022
+- `problems.json` `abstract_types.pcenter.sources[1]`：Garey & Johnson (1979). Computers and Intractability（ND50 p-中心）
+  - 最相近匹配度 0.27
+  - Crossref 最相近：Computers and Intractability: A Guide to the Theory of NP-Completeness (Michael R. Garey a｜SIAM Review 24:90-91 (1982) doi:10.1137/1024022
+- `problems.json` `abstract_types.freqasg.sources[1]`：Garey & Johnson (1979). Computers and Intractability（频率分配归入着色类问题）
+  - 最相近匹配度 0.27
+  - Crossref 最相近：Computers and Intractability: A Guide to the Theory of NP-Completeness (Michael R. Garey a｜SIAM Review 24:90-91 (1982) doi:10.1137/1024022
+- `problems.json` `abstract_types.fjsp.sources[0]`：Garey & Johnson (1979). Computers and Intractability（车间调度族为经典问题）
+  - 最相近匹配度 0.27
+  - Crossref 最相近：Computers and Intractability: A Guide to the Theory of NP-Completeness (Michael R. Garey a｜SIAM Review 24:90-91 (1982) doi:10.1137/1024022
+- `problems.json` `abstract_types.rpostman.sources[6]`：Christofides, Campos, Corberán & Mota (1981). An algorithm for the rural postman problem. Imperial College Report IC.O.R.81.5
+  - 最相近匹配度 0.55
+  - Crossref 最相近：An algorithm for the Rural Postman problem on a directed graph｜Mathematical Programming Studies Netflow at Pisa None:155-166 (1986) doi:10.1007/bfb0121091
+- `problems.json` `abstract_types.oss.sources[0]`：Garey & Johnson (1979). Computers and Intractability (OPEN SHOP SCHEDULING, SS2).
+  - 最相近匹配度 0.34
+  - Crossref 最相近：A tabu search algorithm for the open shop scheduling problem｜Computers &amp; Operations Research 26:109-126 (1999) doi:10.1016/s0305-0548(98)00056-2
+- `problems.json` `abstract_types.oss.sources[2]`：Garey & Johnson (1979). Computers and Intractability（车间调度族为经典问题）
+  - 最相近匹配度 0.27
+  - Crossref 最相近：Computers and Intractability: A Guide to the Theory of NP-Completeness (Michael R. Garey a｜SIAM Review 24:90-91 (1982) doi:10.1137/1024022
+- `problems.json` `abstract_types.mst.sources[3]`：Borůvka (1926). O jistém problému minimálním. Práce Moravské Přírodovědecké Společnosti, 3, 37-58
+  - 最相近匹配度 0.30
+  - Crossref 最相近：Práce v hodnotovém kontextu české společnosti｜AUC PHILOSOPHICA ET HISTORICA 2001:133-147 (2018) doi:10.14712/24647055.2018.41
+- `problems.json` `abstract_types.gmatch.sources[3]`：Gabow (1990). Data structures for weighted matching and nearest common ancestors with linking. In Proceedings of SODA 1990, 434-443
+  - 同名候选的年份都对不上（引用 1990）——可能是再版/转载或引用年份有误
+  - Crossref 最相近：A Data Structure for Nearest Common Ancestors with Linking｜ACM Transactions on Algorithms 13:1-28 (2017) doi:10.1145/3108240
+- `problems.json` `abstract_types.atsp.sources[4]`：Fischetti, Lodi & Toth (2002). Exact methods for the asymmetric traveling salesman problem. In The Traveling Salesman Problem and Its Variations, Kluwer, 169-205
+  - 同名候选的年份都对不上（引用 2002）——可能是再版/转载或引用年份有误
+  - Crossref 最相近：Exact Methods for the Asymmetric Traveling Salesman Problem｜Combinatorial Optimization The Traveling Salesman  None:169-205 (2007) doi:10.1007/0-306-48213-4_4
+- `problems.json` `abstract_types.pms.sources[2]`：Garey & Johnson (1979). Computers and Intractability（MULTIPROCESSOR SCHEDULING，SS8）
+  - 最相近匹配度 0.45
+  - Crossref 最相近：An Application of Bin-Packing to Multiprocessor Scheduling｜SIAM Journal on Computing 7:1-17 (1978) doi:10.1137/0207001
+- `problems.json` `abstract_types.numpart.sources[1]`：Garey & Johnson (1979). Computers and Intractability（SP12 PARTITION）
+  - 最相近匹配度 0.27
+  - Crossref 最相近：Computers and Intractability: A Guide to the Theory of NP-Completeness (Michael R. Garey a｜SIAM Review 24:90-91 (1982) doi:10.1137/1024022
+- `problems.json` `abstract_types.kmeans.sources[1]`：MacQueen (1967). Some methods for classification and analysis of multivariate observations. In Proceedings of the Fifth Berkeley Symposium on Mathematical Statistics and Probability, vol. 1, 281-297
+  - 最相近匹配度 0.54
+  - Crossref 最相近：Classification Analysis: Allocation of Observations to Groups｜Wiley Series in Probability and Statistics Methods None:309-337 (2012) doi:10.1002/9781118391686.ch9
+- `problems.json` `abstract_types.kmeans.sources[2]`：Arthur & Vassilvitskii (2007). k-means++: The advantages of careful seeding. SODA 2007:1027–1035
+  - 最相近匹配度 0.35
+  - Crossref 最相近：How slow is the
+                    <i>k</i>
+                    -means method?｜Proceedings of the twenty-second annual symposium  None:144-153 (2006) doi:10.1145/1137856.1137880
+- `problems.json` `abstract_types.ecd.sources[6]`：Cagnina, Esquivel & Coello Coello (2008). Solving engineering optimization problems with the simple constrained particle swarm optimizer. Informatica, 32(3), 319-326
+  - 同名候选的年份都对不上（引用 2008）——可能是再版/转载或引用年份有误
+  - Crossref 最相近：Solving constrained optimization problems with a hybrid particle swarm optimization algori｜Engineering Optimization 43:843-866 (2011) doi:10.1080/0305215x.2010.522707
+- `problems.json` `knapsack_variants.subsetsum.sources[1]`：Garey & Johnson (1979). Computers and Intractability（SP13 SUBSET SUM）
+  - 最相近匹配度 0.27
+  - Crossref 最相近：Computers and Intractability: A Guide to the Theory of NP-Completeness (Michael R. Garey a｜SIAM Review 24:90-91 (1982) doi:10.1137/1024022
+- `problems.json` `class_pages.assignment.sources[4]`：Daskin, M.S. (1983). A maximum expected covering location model (MEXCLP). IIE Transactions 15；Erkut et al. (2008) 存活率批评
+  - 同名候选的年份都对不上（引用 1983）——可能是再版/转载或引用年份有误
+  - Crossref 最相近：A maximum expected covering location model with two types of servers｜IIE Transactions 41:730-741 (2009) doi:10.1080/07408170802702138
+- `problems.json` `class_pages.qubo.sources[0]`：Glover, F., Kochenberger, G., Du, Y. (2019). A Tutorial on Formulating and Using QUBO Models（QUBO 教程经典）
+  - 最相近匹配度 0.53
+  - Crossref 最相近：Quantum Bridge Analytics I: a tutorial on formulating and using QUBO models｜4OR 17:335-371 (2019) doi:10.1007/s10288-019-00424-y
+- `problems.json` `class_pages.qubo.sources[4]`：Hernández et al. (2002) GA 破译 TEA；Ali et al. (2004) RSA 时序攻击；王宝楠等《从演化密码到量子人工智能密码》
+  - 最相近匹配度 0.24
+  - Crossref 最相近：Hernández Garcia et al. supplementary movie 1｜ None:None (None) doi:10.1017/jfm.2026.11472.sm001
+- `mapping.json` `algo_solves[16].src`：Kirkpatrick, Gelatt & Vecchi, Science 220:671, 1983
+  - 最相近匹配度 0.49
+  - Crossref 最相近：(1983) S. Kirkpatrick, C. D. Gelatt, Jr., and M. P. Vecchi, "Optimization by simulated ann｜Neurocomputing, Volume 1 None:554-568 (1988) doi:10.7551/mitpress/4943.003.0034
+- `mapping.json` `algo_solves[17].src`：Taillard, Parallel Computing 17:443, 1991
+  - 最相近匹配度 0.40
+  - Crossref 最相近：Robust taboo search for the quadratic assignment problem｜Parallel Computing 17:443-455 (1991) doi:10.1016/s0167-8191(05)80147-4
+- `mapping.json` `algo_solves[18].src`：Gambardella, Taillard & Dorigo, J. Oper. Res. Soc. 50:167, 1999
+  - 最相近匹配度 0.15
+  - Crossref 最相近：Ant colonies for the quadratic assignment problem｜Journal of the Operational Research Society 50:167-176 (1999) doi:10.1057/palgrave.jors.2600676
+- `mapping.json` `algo_solves[19].src`：Costa & Hertz, J. Oper. Res. Soc. 48:295, 1997
+  - 最相近匹配度 0.15
+  - Crossref 最相近：Ants can colour graphs｜Journal of the Operational Research Society 48:295-305 (1997) doi:10.1038/sj.jors.2600357
+- `mapping.json` `algo_solves[20].src`：Rubinstein, Methodology and Computing in Applied Probability 1:127, 1999
+  - 最相近匹配度 0.40
+  - Crossref 最相近：The Cross-Entropy Method for Combinatorial and Continuous Optimization｜Methodology And Computing In Applied Probability 1:127-190 (1999) doi:10.1023/a:1010091220143
+- `mapping.json` `algo_solves[21].src`：Coello Coello, Pulido & Lechuga, IEEE Trans. Evol. Comput. 8:256, 2004
+  - 最相近匹配度 0.21
+  - Crossref 最相近：Handling multiple objectives with particle swarm optimization｜IEEE Transactions on Evolutionary Computation 8:256-279 (2004) doi:10.1109/tevc.2004.826067
+- `mapping.json` `algo_solves[23].src`：Rashedi, Nezamabadi-pour & Saryazdi, Inf. Sci. 179:2232, 2009
+  - 最相近匹配度 0.15
+  - Crossref 最相近：GSA: A Gravitational Search Algorithm｜Information Sciences 179:2232-2248 (2009) doi:10.1016/j.ins.2009.03.004
+- `mapping.json` `algo_solves[24].src`：Yang, Neural Computing and Applications 20:873, 2010
+  - 最相近匹配度 0.40
+  - Crossref 最相近：Image modeling with combined optimization techniques for image semantic annotation｜Neural Computing and Applications 20:1001-1015 (2010) doi:10.1007/s00521-010-0398-0
+- `mapping.json` `algo_solves[27].src`：Lessing, Dumitrescu & Stützle (2004). EvoCOP 2004, LNCS 3004:1–12
+  - 最相近匹配度 0.42
+  - Crossref 最相近：Lessing-Bilder｜Lessing-Handbuch None:23-32 (2004) doi:10.1007/978-3-476-03785-5_2
+- `mapping.json` `algo_solves[118].src`：Kirkpatrick, Gelatt & Vecchi, Science 220:671, 1983
+  - 最相近匹配度 0.49
+  - Crossref 最相近：(1983) S. Kirkpatrick, C. D. Gelatt, Jr., and M. P. Vecchi, "Optimization by simulated ann｜Neurocomputing, Volume 1 None:554-568 (1988) doi:10.7551/mitpress/4943.003.0034
+- `mapping.json` `algo_solves[122].src`：Karaboga, Engineering Applications of Artificial Intelligence 20:687, 2007 (ABC)
+  - 最相近匹配度 0.52
+  - Crossref 最相近：Artificial immune algorithm for IIR filter design｜Engineering Applications of Artificial Intelligenc 18:919-929 (2005) doi:10.1016/j.engappai.2005.03.009
+- `mapping.json` `algo_solves[123].src`：Storn & Price, Journal of Global Optimization 11:341, 1997
+  - 最相近匹配度 0.52
+  - Crossref 最相近：Differential Evolution – A Simple and Efficient Heuristic for global Optimization over Con｜Journal of Global Optimization 11:341-359 (1997) doi:10.1023/a:1008202821328
+- `mapping.json` `algo_solves[124].src`：Parpinelli, Lopes & Freitas, IEEE CEC 2002 (Ant-KNAPSACK)
+  - 最相近匹配度 0.21
+  - Crossref 最相近：Data mining with an ant colony optimization algorithm｜IEEE Transactions on Evolutionary Computation 6:321-332 (2002) doi:10.1109/tevc.2002.802452
+- `mapping.json` `algo_solves[128].src`：Karaboga, Engineering Applications of Artificial Intelligence 20:687, 2007 (ABC)
+  - 最相近匹配度 0.52
+  - Crossref 最相近：Artificial immune algorithm for IIR filter design｜Engineering Applications of Artificial Intelligenc 18:919-929 (2005) doi:10.1016/j.engappai.2005.03.009
+- `mapping.json` `algo_solves[129].src`：Storn & Price, Journal of Global Optimization 11:341, 1997
+  - 最相近匹配度 0.52
+  - Crossref 最相近：Differential Evolution – A Simple and Efficient Heuristic for global Optimization over Con｜Journal of Global Optimization 11:341-359 (1997) doi:10.1023/a:1008202821328
+- `mapping.json` `algo_solves[130].src`：Storn & Price, Journal of Global Optimization 11:341, 1997
+  - 最相近匹配度 0.52
+  - Crossref 最相近：Differential Evolution – A Simple and Efficient Heuristic for global Optimization over Con｜Journal of Global Optimization 11:341-359 (1997) doi:10.1023/a:1008202821328
+- `mapping.json` `algo_solves[133].src`：Dorigo, Maniezzo & Colorni, IEEE Transactions on Systems, Man, and Cybernetics 26(1):29, 1996 (Ant System)
+  - 最相近匹配度 0.47
+  - Crossref 最相近：Ant system: optimization by a colony of cooperating agents｜IEEE Transactions on Systems, Man, and Cybernetics 26:29-41 (1996) doi:10.1109/3477.484436
+- `mapping.json` `algo_solves[134].src`：Dorigo, Maniezzo & Colorni, IEEE Transactions on Systems, Man, and Cybernetics 26(1):29, 1996
+  - 最相近匹配度 0.51
+  - Crossref 最相近：1996 Index IEEE Transactions on Systems, Man, and Cybernetics Part A: Systems and Humans V｜IEEE Transactions on Systems, Man, and Cybernetics 26:1 (1996) doi:10.1109/tsmca.1996.541347
+- `mapping.json` `algo_solves[147].src`：Kirkpatrick, Gelatt & Vecchi, Science 220:671, 1983
+  - 最相近匹配度 0.49
+  - Crossref 最相近：(1983) S. Kirkpatrick, C. D. Gelatt, Jr., and M. P. Vecchi, "Optimization by simulated ann｜Neurocomputing, Volume 1 None:554-568 (1988) doi:10.7551/mitpress/4943.003.0034
+- `mapping.json` `reductions[7].src`：Loiola et al., European J. of Operational Research 176:657, 2007
+  - 最相近匹配度 0.34
+  - Crossref 最相近：A survey for the quadratic assignment problem｜European Journal of Operational Research 176:657-690 (2007) doi:10.1016/j.ejor.2005.09.032
+- `mapping.json` `reductions[13].src`：Kellerer, Pferschy & Pisinger (2004) Ch.11；Dyer (1984) J.ACM 31(3)
+  - 最相近匹配度 0.15
+  - Crossref 最相近：Knapsack Problems｜ None:None (2004) doi:10.1007/978-3-540-24777-7
+- `meta.json` `pages[0].refs[1].cite`：Jones, T. (1995). 适应度地形形式化（正文口径：地形=图(解,算子)）
+  - 最相近匹配度 0.00
+  - Crossref 最相近：地域性传统文化适度融入应用型人才培养模式的重要性｜教育研究 2:None (2019) doi:10.32629/er.v2i6.1872
+- `meta.json` `pages[0].refs[2].cite`：Stadler, P. (2002). 适应度地形形式化（正文口径）
+  - 最相近匹配度 0.00
+  - Crossref 最相近：地域性传统文化适度融入应用型人才培养模式的重要性｜教育研究 2:None (2019) doi:10.32629/er.v2i6.1872
+- `meta.json` `pages[0].refs[4].cite`：实例空间分析 ISA / MATILDA 平台（Smith-Miles 学派；综述 经典文献）
+  - 最相近匹配度 0.00
+  - Crossref 最相近：虚实之间的人文实践：基于3A游戏案例分析数字空间的人文价值与实现路径｜人文与社会科学学刊 1:10-15 (2025) doi:10.70693/rwsk.v1i5.936
+- `meta.json` `pages[0].refs[6].cite`：Stellenbosch 团队. Behavioural analysis of metaheuristics. IEEE Trans. Evol. Comput.（20 项行为特征自动聚类）
+  - 最相近匹配度 0.00
+  - Crossref 最相近：团队文化多样性对团队创新的影响及作用机制｜Advances in Psychological Science 27:1521-1539 (2019) doi:10.3724/sp.j.1042.2019.01521
+- `meta.json` `pages[0].refs[7].cite`：MEALPY 114 算法 × crossmatch 统计量行为复证
+  - 最相近匹配度 0.00
+  - Crossref 最相近：关于附加变量/主题的调查问题的良好做法｜Fāngfǎ yánjiū 暴力侵害妇女行为 统计数据编制准则 None:189-200 (2016) doi:10.18356/9b4a6455-zh
+- `meta.json` `pages[1].refs[1].cite`：Weyland (2010/2015). Harmony Search = 进化策略特例的拆解线
+  - 最相近匹配度 0.00
+  - Crossref 最相近：当前“半正式行政”的异化与改进——以征地拆迁为例｜Rural China 12:244-263 (2015) doi:10.1163/22136746-01202003
+- `meta.json` `pages[1].refs[2].cite`：Camacho-Villalón (2018-2022). 隐喻算法拆解系列（智能水滴/灰狼/萤火虫/蝙蝠/布谷鸟）
+  - 最相近匹配度 0.00
+  - Crossref 最相近：FT8数字通信模式核心DSP算法深度拆解与UI交互体验｜ None:None (2026) doi:10.65703/d.950943.13.2026.0603
+- `meta.json` `pages[1].refs[3].cite`：Swan et al. (2015). 29 人标准化议程：无隐喻语言 + 形式化描述
+  - 最相近匹配度 0.00
+  - Crossref 最相近：中高本一体化育人模式下英语课程标准衔接体系搭建｜东方教育学刊 3:None (2026) doi:10.64216/3080-1494.26.09.069
+- `meta.json` `pages[1].refs[5].cite`：Campelo & Aranha (2023). 实验方法学批评（基准过拟合 / 对比池偏置）
+  - 最相近匹配度 0.00
+  - Crossref 最相近：舞蹈美学与批评学研究｜教学方法创新与实践 3:84 (2020) doi:10.26549/jxffcxysj.v3i12.5483
+- `meta.json` `pages[1].refs[7].cite`：Piotrowski et al. (2025). 大基准 × 4 档评估预算（5k→5M FEs）：排名随预算翻转. Swarm and Evolutionary Computation
+  - 最相近匹配度 0.00
+  - Crossref 最相近：基于风险评估的供电企业应急预案优化策略｜电子通信与计算机科学 7:22-24 (2025) doi:10.37155/2717-5170-0709-8
+- `meta.json` `pages[1].refs[9].cite`：Christiansen & Smith-Miles (2025). QAPLIB 实例空间覆盖偏差
+  - 最相近匹配度 0.00
+  - Crossref 最相近：移动网络深度覆盖（室内、地下空间）建设的优化方案与成本分析｜工程技术论坛 2:None (2025) doi:10.64216/3080-1508.26.01.055
+- `meta.json` `pages[1].refs[11].cite`：GECCO 十年复现性审计
+  - 最相近匹配度 0.00
+  - Crossref 最相近：现代财务管理与审计｜ None:None (2020) doi:10.36012/978-981-14-5389-2
+- `meta.json` `pages[1].refs[12].cite`：Shaikh et al. (2025). 文献计量：超 30% 隐喻算法跑不赢纯随机搜索
+  - 最相近匹配度 0.00
+  - Crossref 最相近：基于国微DSP的大数量排序算法设计与实现｜电子通信与计算机科学 6:226-229 (2024) doi:10.37155/2717-5170-0608-76
+- `meta.json` `pages[1].refs[15].cite`：PubPeer / Retraction Watch 线：Dehghani 集群 30 帖；Gooseneck 撤稿；OMA 撤稿
+  - 最相近匹配度 0.28
+  - Crossref 最相近：A global study in the Retraction Watch Database RWDB｜A global study in the Retraction Watch Database RW None:None (2024) doi:10.14293/s2199-ssp-am24-01009
+- `meta.json` `pages[1].refs[16].cite`：Botox Optimization (2024, MDPI)：投稿到发表仅 19 天
+  - 最相近匹配度 0.00
+  - Crossref 最相近：SCI论文写作投稿经验：科研发表的五大禁忌｜Medical Research &amp; Publication None:None (2019) doi:10.14218/mrp.2019.053
+- `meta.json` `pages[1].refs[17].cite`：EC-Bestiary 讽刺名录（Campelo & Aranha 维护；含 Artif. Life 2023 复盘文《Lessons from the EC Bestiary》）
+  - 最相近匹配度 0.00
+  - Crossref 最相近：新加坡潮州文化名人录｜新加坡潮州文化名人录 None:1-228 (2016) doi:10.1142/9789813143593
+- `meta.json` `pages[1].refs[18].cite`：INFORMS OR/MS Tomorrow「学术标题党」定性
+  - 最相近匹配度 0.35
+  - Crossref 最相近：Georgia Southern University INFORMS Student Chapter｜OR/MS Tomorrow 2025:None (2025) doi:10.1287/ortm.2025.02.07
+- `meta.json` `pages[2].refs[2].cite`：Christiansen & Smith-Miles (2025). QAPLIB 实例空间覆盖偏差
+  - 最相近匹配度 0.00
+  - Crossref 最相近：移动网络深度覆盖（室内、地下空间）建设的优化方案与成本分析｜工程技术论坛 2:None (2025) doi:10.64216/3080-1508.26.01.055
+- `meta.json` `pages[2].refs[3].cite`：Loiola et al. (2007). QAP 综述. EJOR 176:657
+  - 最相近匹配度 0.15
+  - Crossref 最相近：A survey for the quadratic assignment problem｜European Journal of Operational Research 176:657-690 (2007) doi:10.1016/j.ejor.2005.09.032
+- `meta.json` `pages[2].refs[5].cite`：de Nobel et al. (2024). IOHprofiler. Evolutionary Computation 32(3)
+  - 最相近匹配度 0.25
+  - Crossref 最相近：IOHexperimenter: Benchmarking Platform for Iterative Optimization Heuristics｜Evolutionary Computation 32:205-210 (2024) doi:10.1162/evco_a_00342
+- `meta.json` `pages[2].refs[6].cite`：modCMA / modDE 模块化平台
+  - 最相近匹配度 0.00
+  - Crossref 最相近：基于模块化设计的机电产品快速开发与平台化架构研究｜工程技术前沿 1:None (2025) doi:10.63887/fet.2025.1.4.25
+- `meta.json` `pages[2].refs[7].cite`：MEALPY. 114+ 元启发式 Python 统一接口库
+  - 最相近匹配度 0.00
+  - Crossref 最相近：基于综合收费窗口实践“一站式”收费系统信息化改革与系统实时对接的研究｜社会经济导刊 2:None (2025) doi:10.64216/3080-1486.26.01.100
+- `meta.json` `pages[2].refs[8].cite`：PyPop7. 大规模 BBO 库，JMLR 2024
+  - 最相近匹配度 0.00
+  - Crossref 最相近：中国大陆第一条OLED大规模生产线投产｜Laser &amp; Optoelectronics Progress 45:6 (2008) doi:10.3788/lop20084511.0006b
+- `meta.json` `pages[2].refs[9].cite`：Ma, Wu, Suganthan et al. (2022). 500+ 自然启发算法穷举实测：SOTA 仍是 DE 系渐进改良. Swarm and Evolutionary Computation
+  - 最相近匹配度 0.40
+  - Crossref 最相近：Performance assessment and exhaustive listing of 500+ nature-inspired metaheuristic algori｜Swarm and Evolutionary Computation 77:101248 (2023) doi:10.1016/j.swevo.2023.101248
+- `meta.json` `pages[3].refs[1].cite`：Holland (1975). 遗传算法奠基（正文口径）
+  - 最相近匹配度 0.00
+  - Crossref 最相近：中国家蚕遗传学的奠基者——蒋同庆｜Hereditas (Beijing) 35:1045-1048 (2013) doi:10.3724/sp.j.1005.2013.01045
+- `meta.json` `pages[3].refs[3].cite`：Glover (1986). 禁忌搜索（正文口径）
+  - 最相近匹配度 0.00
+  - Crossref 最相近：求解不等圆Packing 问题的带全局变换禁忌搜索算法｜SCIENTIA SINICA Informationis 42:843-858 (2012) doi:10.1360/zf2012-42-7-843
+- `meta.json` `pages[3].refs[4].cite`：Dorigo (1992). 蚁群 ACO（正文口径）
+  - 最相近匹配度 0.15
+  - Crossref 最相近：The ACO/F-Race Algorithm for Combinatorial Optimization Under Uncertainty｜Operations Research/Computer Science Interfaces Se None:189-203 (None) doi:10.1007/978-0-387-71921-4_10
+- `meta.json` `pages[3].refs[5].cite`：Kennedy & Eberhart (1995). 粒子群 PSO（正文口径）
+  - 最相近匹配度 0.00
+  - Crossref 最相近：Matching Pursuit Based on PSO and Atomic Property｜Computer Science and Application 04:282-287 (2014) doi:10.12677/csa.2014.411039
+- `meta.json` `pages[3].refs[6].cite`：Chaudhary, Verma, Salgotra & Gandomi (2026). Five Decades of Genetic Algorithms. ACME（GA 26,707 篇计量）
+  - 最相近匹配度 0.49
+  - Crossref 最相近：Five Decades of Genetic Algorithms: A Systematic and Bibliometric Review (1975–2025)｜Archives of Computational Methods in Engineering 33:10825-10899 (2026) doi:10.1007/s11831-025-10487-2
+- `meta.json` `pages[3].refs[7].cite`：Salgotra et al. (2024). 系统性年表. Arch. Comput. Methods Eng.
+  - 最相近匹配度 0.00
+  - Crossref 最相近：年度数值气候预测系统及其系统性评估｜Chinese Science Bulletin 48:70-74 (2003) doi:10.1360/csb2003-48-s2-70
+
+## SKIP（96）
+
+- `algos.json` `aco.refs[5]`：Dorigo & Stützle (2004). Ant Colony Optimization. MIT Press
+  - 书籍/学位论文/中文条目，需人工核
+- `algos.json` `abc.refs[0]`：Karaboga (2005). An idea based on honey bee swarm for numerical optimization. Technical Report TR06, Erciyes University
+  - 书籍/学位论文/中文条目，需人工核
+- `algos.json` `woa.refs[4]`：Sörensen, Sevaux & Glover (2018). A history of metaheuristics. In Handbook of Heuristics, Springer, 791-808
+  - 书籍/学位论文/中文条目，需人工核
+- `algos.json` `ga.refs[1]`：Goldberg (1989). Genetic Algorithms in Search, Optimization, and Machine Learning. Addison-Wesley
+  - 书籍/学位论文/中文条目，需人工核
+- `algos.json` `ga.refs[2]`：De Jong (1975). An analysis of the behavior of a class of genetic adaptive systems. PhD thesis, University of Michigan
+  - 书籍/学位论文/中文条目，需人工核
+- `algos.json` `sa.refs[5]`：Johnson & McGeoch (1997). The traveling salesman problem: A case study in local optimization. In Local Search in Combinatorial Optimization, Wiley, 215-310
+  - 书籍/学位论文/中文条目，需人工核
+- `algos.json` `de.refs[1]`：Price, Storn & Lampinen (2005). Differential Evolution: A Practical Approach to Global Optimization. Springer
+  - 书籍/学位论文/中文条目，需人工核
+- `algos.json` `ils.paper`：Lourenço, Martin & Stützle, 2003（Iterated Local Search, Handbook of Metaheuristics）
+  - 书籍/学位论文/中文条目，需人工核
+- `algos.json` `ils.refs[0]`：Lourenço, Martin & Stützle (2003). Iterated local search. In Handbook of Metaheuristics, Springer, 320-353
+  - 书籍/学位论文/中文条目，需人工核
+- `algos.json` `vns.refs[4]`：Lourenço, Martin & Stützle (2003). Iterated local search. In Handbook of Metaheuristics, Springer, 320-353
+  - 书籍/学位论文/中文条目，需人工核
+- `algos.json` `lk.refs[1]`：Johnson & McGeoch (1997). The traveling salesman problem: A case study in local optimization. In Local Search in Combinatorial Optimization, Wiley, 215-310
+  - 书籍/学位论文/中文条目，需人工核
+- `algos.json` `lk.refs[3]`：Helsgaun (2017). An extension of the Lin-Kernighan-Helsgaun TSP solver for constrained traveling salesman and vehicle routing problems. Technical Report, Roskilde University
+  - 书籍/学位论文/中文条目，需人工核
+- `algos.json` `lk.refs[5]`：Applegate, Bixby, Chvátal & Cook (2006). The Traveling Salesman Problem: A Computational Study. Princeton University Press
+  - 书籍/学位论文/中文条目，需人工核
+- `algos.json` `tlbo.refs[1]`：Rao (2016). Teaching-Learning-Based Optimization Algorithm and Its Engineering Applications. Springer
+  - 书籍/学位论文/中文条目，需人工核
+- `algos.json` `fwa.refs[3]`：Tan (2015). Fireworks Algorithm: A Novel Swarm Intelligence Optimization Method. Springer
+  - 书籍/学位论文/中文条目，需人工核
+- `algos.json` `afsa.paper`：李晓磊, 邵之江, 钱积新, 2002, 一种基于动物自治体的寻优模式：鱼群算法, 系统工程理论与实践 22(11):32-38（人工鱼群算法原始论文）；李晓磊, 2003, 浙江大学博士论文（系统研究）
+  - 书籍/学位论文/中文条目，需人工核
+- `algos.json` `afsa.refs[0]`：李晓磊, 邵之江, 钱积新 (2002). 一种基于动物自治体的寻优模式：鱼群算法. 系统工程理论与实践, 22(11), 32-38
+  - 书籍/学位论文/中文条目，需人工核
+- `algos.json` `afsa.refs[1]`：李晓磊 (2003). 一种新型的智能优化方法：人工鱼群算法. 浙江大学博士学位论文
+  - 书籍/学位论文/中文条目，需人工核
+- `algos.json` `cem.refs[2]`：Rubinstein & Kroese (2004). The Cross-Entropy Method: A Unified Approach to Combinatorial Optimization, Monte-Carlo Simulation and Machine Learning. Springer
+  - 书籍/学位论文/中文条目，需人工核
+- `algos.json` `ica.refs[3]`：Sörensen, Sevaux & Glover (2018). A history of metaheuristics. In Handbook of Heuristics, Springer, 791-808
+  - 书籍/学位论文/中文条目，需人工核
+- `algos.json` `bbo.refs[1]`：MacArthur & Wilson (1967). The Theory of Island Biogeography. Princeton University Press
+  - 书籍/学位论文/中文条目，需人工核
+- `algos.json` `bbo.refs[4]`：Simon (2013). Evolutionary Optimization Algorithms. Wiley
+  - 书籍/学位论文/中文条目，需人工核
+- `algos.json` `grasp.refs[2]`：Resende & Ribeiro (2010). Greedy randomized adaptive search procedures: Advances, hybridizations, and applications. In Handbook of Metaheuristics, 2nd ed., Springer, 283-319
+  - 书籍/学位论文/中文条目，需人工核
+- `algos.json` `eo.refs[3]`：Sörensen, Sevaux & Glover (2018). A history of metaheuristics. In Handbook of Heuristics, Springer, 791-808
+  - 书籍/学位论文/中文条目，需人工核
+- `problems.json` `abstract_types.scp.sources[1]`：Garey & Johnson (1979). Computers and Intractability: A Guide to the Theory of NP-Completeness. W.H. Freeman（SET COVER，SP5）
+  - 书籍/学位论文/中文条目，需人工核
+- `problems.json` `abstract_types.mis.sources[10]`：Bomze, Budinich, Pardalos & Pelillo (1999). The maximum clique problem. In Handbook of Combinatorial Optimization, Kluwer（补图等价综述）
+  - 书籍/学位论文/中文条目，需人工核
+- `problems.json` `abstract_types.lcp.sources[1]`：Jensen & Toft (1995). Graph Coloring Problems. Wiley（列表着色专章）
+  - 书籍/学位论文/中文条目，需人工核
+- `problems.json` `abstract_types.ecp.sources[4]`：Jensen & Toft (1995). Graph Coloring Problems. Wiley（边着色专章）
+  - 书籍/学位论文/中文条目，需人工核
+- `problems.json` `abstract_types.ecp.sources[7]`：Stiebitz, Scheide, Toft & Favrholdt (2012). Graph Edge Coloring: Vizing's Theorem and Goldberg's Conjecture. Wiley（专著）
+  - 书籍/学位论文/中文条目，需人工核
+- `problems.json` `abstract_types.prext.sources[1]`：Jensen & Toft (1995). Graph Coloring Problems. Wiley（PrExt 开放问题）
+  - 书籍/学位论文/中文条目，需人工核
+- `problems.json` `abstract_types.tcp.sources[0]`：Behzad (1965). Graphs and their chromatic numbers. Doctoral thesis, Michigan State University
+  - 书籍/学位论文/中文条目，需人工核
+- `problems.json` `abstract_types.tcp.sources[4]`：Jensen & Toft (1995). Graph Coloring Problems. Wiley（全着色猜想）
+  - 书籍/学位论文/中文条目，需人工核
+- `problems.json` `abstract_types.tcp.sources[9]`：Yap (1996). Total Colourings of Graphs. Lecture Notes in Mathematics 1623, Springer（专著）
+  - 书籍/学位论文/中文条目，需人工核
+- `problems.json` `abstract_types.bbob.sources[0]`：Hansen, Finck, Ros & Auger (2009). Real-parameter black-box optimization benchmarking 2009: Noiseless functions definitions. INRIA Technical Report RR-6829（BBOB 经典）
+  - 书籍/学位论文/中文条目，需人工核
+- `problems.json` `abstract_types.bbob.sources[4]`：Hansen, Auger, Finck & Ros (2010). Real-parameter black-box optimization benchmarking 2010: Experimental setup. INRIA Technical Report RR-7215
+  - 书籍/学位论文/中文条目，需人工核
+- `problems.json` `abstract_types.bbob.sources[9]`：Törn & Žilinskas (1989). Global Optimization. Lecture Notes in Computer Science 350, Springer
+  - 书籍/学位论文/中文条目，需人工核
+- `problems.json` `abstract_types.dtlz.sources[0]`：Deb, Thiele, Laumanns & Zitzler (2005). Scalable test problems for evolutionary multiobjective optimization. In Evolutionary Multiobjective Optimization: Theoretical Advances and Applications, Springe
+  - 书籍/学位论文/中文条目，需人工核
+- `problems.json` `abstract_types.moco.sources[1]`：Ehrgott (2005). Multicriteria Optimization, 2nd ed. Springer（标量化体系）
+  - 书籍/学位论文/中文条目，需人工核
+- `problems.json` `abstract_types.moco.sources[2]`：Steuer (1986). Multiple Criteria Optimization: Theory, Computation and Application. Wiley
+  - 书籍/学位论文/中文条目，需人工核
+- `problems.json` `abstract_types.uflp.sources[0]`：Cornuéjols, Nemhauser & Wolsey (1990). The Uncapacitated Facility Location Problem. In Discrete Location Theory, Wiley, 119-171
+  - 书籍/学位论文/中文条目，需人工核
+- `problems.json` `abstract_types.lop.sources[0]`：Martí & Reinelt (2011). The Linear Ordering Problem: Exact and Heuristic Methods in Combinatorial Optimization. Springer
+  - 书籍/学位论文/中文条目，需人工核
+- `problems.json` `abstract_types.vrptw.sources[7]`：Kallehauge, Larsen, Madsen & Solomon (2005). Vehicle routing problem with time windows. In Column Generation, Springer, 67-98
+  - 书籍/学位论文/中文条目，需人工核
+- `problems.json` `abstract_types.sms.sources[0]`：Pinedo (2016). Scheduling: Theory, Algorithms, and Systems, 5th ed. Springer
+  - 书籍/学位论文/中文条目，需人工核
+- `problems.json` `abstract_types.fss.sources[1]`：Pinedo (2016). Scheduling: Theory, Algorithms, and Systems, 5th ed. Springer
+  - 书籍/学位论文/中文条目，需人工核
+- `problems.json` `abstract_types.jss.sources[1]`：Pinedo (2016). Scheduling: Theory, Algorithms, and Systems, 5th ed. Springer
+  - 书籍/学位论文/中文条目，需人工核
+- `problems.json` `abstract_types.jss.sources[4]`：Fisher & Thompson (1963). Probabilistic learning combinations of local job-shop scheduling rules. In Industrial Scheduling, Prentice-Hall, 225-251
+  - 书籍/学位论文/中文条目，需人工核
+- `problems.json` `abstract_types.csplogic.sources[1]`：Russell & Norvig (2020). Artificial Intelligence: A Modern Approach (4th ed.), Chapter 6（CSP 教科书标准章）
+  - 书籍/学位论文/中文条目，需人工核
+- `problems.json` `abstract_types.ctp.sources[0]`：Di Gaspero, Schaerf & McCollum (2007). The Second International Timetabling Competition (ITC-2007): Curriculum-based course timetabling (Track 3). Technical Report QUB/IEEE/Tech/ITC2007/CurriculumCTT/
+  - 书籍/学位论文/中文条目，需人工核
+- `problems.json` `abstract_types.cflp.sources[0]`：Cornuéjols, Nemhauser & Wolsey (1990). The Uncapacitated Facility Location Problem. In Discrete Location Theory, Wiley, 119-171
+  - 书籍/学位论文/中文条目，需人工核
+- `problems.json` `abstract_types.lbbb.sources[0]`：Sun, Mahdavi & Jin (2019). Large-Scale Black-Box Optimization. Springer（大规模黑箱专论）
+  - 书籍/学位论文/中文条目，需人工核
+- `problems.json` `abstract_types.lbbb.sources[1]`：Mahdavi, Rahmati & Kabiri (2021). Large-Scale Global Optimization. Springer（专论）
+  - 书籍/学位论文/中文条目，需人工核
+- `problems.json` `abstract_types.lbbb.sources[2]`：Lozano, García-Martínez, Herrera, Molina & Sánchez (2020). Large-Scale Global Optimization: Experimental Studies. Springer（分块 CMA 章节）
+  - 书籍/学位论文/中文条目，需人工核
+- `problems.json` `abstract_types.prefmo.sources[2]`：Hwang & Masud (1979). Multiple Objective Decision Making — Methods and Applications. Lecture Notes in Economics and Mathematical Systems 164, Springer
+  - 书籍/学位论文/中文条目，需人工核
+- `problems.json` `abstract_types.prefmo.sources[8]`：Branke, Deb, Miettinen & Słowiński (Eds.) (2008). Multiobjective Optimization: Interactive and Evolutionary Approaches. Lecture Notes in Computer Science 5252, Springer
+  - 书籍/学位论文/中文条目，需人工核
+- `problems.json` `abstract_types.blo.sources[7]`：Zhou, Zemkoho & Tin (2020). BOLIB: Bilevel optimization LIBrary of test problems. In Bilevel Optimization, Springer, 563-580
+  - 书籍/学位论文/中文条目，需人工核
+- `problems.json` `abstract_types.ro.sources[3]`：Ben-Tal, El Ghaoui & Nemirovski (2009). Robust Optimization. Princeton University Press
+  - 书籍/学位论文/中文条目，需人工核
+- `problems.json` `abstract_types.mmo.sources[0]`：Preuss (2015). Multimodal Optimization by Means of Evolutionary Algorithms. Springer
+  - 书籍/学位论文/中文条目，需人工核
+- `problems.json` `abstract_types.mmo.sources[6]`：Li, Engelbrecht & Epitropakis (2013). Benchmark functions for CEC'2013 special session and competition on niching methods for multimodal function optimization. Technical Report, RMIT University
+  - 书籍/学位论文/中文条目，需人工核
+- `problems.json` `abstract_types.ged.sources[5]`：Bendsøe & Sigmund (2003). Topology Optimization: Theory, Methods and Applications. Springer
+  - 书籍/学位论文/中文条目，需人工核
+- `problems.json` `abstract_types.lpath.sources[7]`：Cormen, Leiserson, Rivest & Stein (2009). Introduction to Algorithms, 3rd ed. MIT Press（最长路径与 DAG 上的动态规划）
+  - 书籍/学位论文/中文条目，需人工核
+- `problems.json` `abstract_types.qap.sources[2]`：Burkard, Çela, Pardalos & Pitsoulis (1998). The quadratic assignment problem. In Handbook of Combinatorial Optimization, vol. 3, Kluwer, 241-337
+  - 书籍/学位论文/中文条目，需人工核
+- `problems.json` `abstract_types.pcenter.sources[8]`：Daskin (1995). Network and Discrete Location: Models, Algorithms, and Applications. Wiley
+  - 书籍/学位论文/中文条目，需人工核
+- `problems.json` `abstract_types.freqasg.sources[3]`：Murphey, Pardalos & Resende (1999). Frequency assignment problems. In Handbook of Combinatorial Optimization, vol. 4, Kluwer, 295-377
+  - 书籍/学位论文/中文条目，需人工核
+- `problems.json` `abstract_types.rcpsp.sources[0]`：Kelley (1963). The critical-path method: Resources planning and scheduling. In: Industrial Scheduling, Prentice-Hall, 347-365
+  - 书籍/学位论文/中文条目，需人工核
+- `problems.json` `abstract_types.mst.sources[2]`：Cormen, Leiserson, Rivest & Stein (2009). Introduction to Algorithms, 3rd ed. MIT Press（第 23 章 最小生成树）
+  - 书籍/学位论文/中文条目，需人工核
+- `problems.json` `abstract_types.shortestpath.sources[1]`：Cormen, Leiserson, Rivest & Stein (2009). Introduction to Algorithms, 3rd ed. MIT Press（第 24 章 单源最短路径）
+  - 书籍/学位论文/中文条目，需人工核
+- `problems.json` `abstract_types.shortestpath.sources[6]`：Gen & Cheng (2000). Genetic Algorithms and Engineering Optimization. Wiley（优先级编码的最短路）
+  - 书籍/学位论文/中文条目，需人工核
+- `problems.json` `abstract_types.maxflow.sources[6]`：Ahuja, Magnanti & Orlin (1993). Network Flows: Theory, Algorithms, and Applications. Prentice Hall
+  - 书籍/学位论文/中文条目，需人工核
+- `problems.json` `abstract_types.mincostflow.sources[0]`：Ahuja, Magnanti & Orlin (1993). Network Flows: Theory, Algorithms, and Applications. Prentice Hall
+  - 书籍/学位论文/中文条目，需人工核
+- `problems.json` `abstract_types.topsort.sources[1]`：Cormen, Leiserson, Rivest & Stein (2009). Introduction to Algorithms, 3rd ed. MIT Press（第 22.4 节 拓扑排序）
+  - 书籍/学位论文/中文条目，需人工核
+- `problems.json` `abstract_types.topsort.sources[5]`：Knuth (1997). The Art of Computer Programming, Volume 1: Fundamental Algorithms, 3rd ed. Addison-Wesley（第 2.2.3 节 拓扑排序）
+  - 书籍/学位论文/中文条目，需人工核
+- `problems.json` `abstract_types.pms.sources[3]`：Pinedo (2016). Scheduling: Theory, Algorithms, and Systems, 5th ed. Springer
+  - 书籍/学位论文/中文条目，需人工核
+- `problems.json` `abstract_types.numpart.sources[2]`：Karmarkar & Karp (1982). The differencing method of set partitioning. Technical Report UCB/CSD 82/113, University of California, Berkeley
+  - 书籍/学位论文/中文条目，需人工核
+- `problems.json` `knapsack_variants.fractional.sources[1]`：Kellerer, Pferschy & Pisinger (2004). Knapsack Problems. Springer
+  - 书籍/学位论文/中文条目，需人工核
+- `problems.json` `knapsack_variants.fractional.sources[2]`：Martello & Toth (1990). Knapsack Problems: Algorithms and Computer Implementations. Wiley
+  - 书籍/学位论文/中文条目，需人工核
+- `problems.json` `knapsack_variants.bounded.sources[0]`：Kellerer, Pferschy & Pisinger (2004). Knapsack Problems. Springer（第 7 章 有界背包）
+  - 书籍/学位论文/中文条目，需人工核
+- `problems.json` `knapsack_variants.bounded.sources[2]`：Martello & Toth (1990). Knapsack Problems: Algorithms and Computer Implementations. Wiley
+  - 书籍/学位论文/中文条目，需人工核
+- `problems.json` `knapsack_variants.bounded.sources[5]`：Bellman (1957). Dynamic Programming. Princeton University Press
+  - 书籍/学位论文/中文条目，需人工核
+- `problems.json` `knapsack_variants.unbounded.sources[2]`：Kellerer, Pferschy & Pisinger (2004). Knapsack Problems. Springer（第 8 章 无界背包）
+  - 书籍/学位论文/中文条目，需人工核
+- `problems.json` `knapsack_variants.unbounded.sources[3]`：Martello & Toth (1990). Knapsack Problems: Algorithms and Computer Implementations. Wiley
+  - 书籍/学位论文/中文条目，需人工核
+- `problems.json` `knapsack_variants.changemaking.sources[3]`：Lueker (1975). Two NP-complete problems in nonnegative integer programming. Report No. 178, Department of Computer Science, Princeton University
+  - 书籍/学位论文/中文条目，需人工核
+- `problems.json` `knapsack_variants.changemaking.sources[4]`：Martello & Toth (1990). Knapsack Problems: Algorithms and Computer Implementations. Wiley
+  - 书籍/学位论文/中文条目，需人工核
+- `problems.json` `knapsack_variants.changemaking.sources[5]`：Kellerer, Pferschy & Pisinger (2004). Knapsack Problems. Springer
+  - 书籍/学位论文/中文条目，需人工核
+- `problems.json` `knapsack_variants.multiple.sources[1]`：Kellerer, Pferschy & Pisinger (2004). Knapsack Problems. Springer（第 10 章 多背包）
+  - 书籍/学位论文/中文条目，需人工核
+- `problems.json` `knapsack_variants.multiple.sources[6]`：Martello & Toth (1990). Knapsack Problems: Algorithms and Computer Implementations. Wiley
+  - 书籍/学位论文/中文条目，需人工核
+- `problems.json` `knapsack_variants.multiplechoice.sources[3]`：Kellerer, Pferschy & Pisinger (2004). Knapsack Problems. Springer（第 11 章 多选择背包）
+  - 书籍/学位论文/中文条目，需人工核
+- `problems.json` `knapsack_variants.multidim.sources[1]`：Kellerer, Pferschy & Pisinger (2004). Knapsack Problems. Springer（第 9 章 多维背包）
+  - 书籍/学位论文/中文条目，需人工核
+- `problems.json` `knapsack_variants.discounted.sources[0]`：Guldan (2007). Heuristic and exact algorithms for discounted knapsack problems. Diploma thesis, University of Erlangen-Nürnberg
+  - 书籍/学位论文/中文条目，需人工核
+- `problems.json` `knapsack_variants.discounted.sources[4]`：Kellerer, Pferschy & Pisinger (2004). Knapsack Problems. Springer
+  - 书籍/学位论文/中文条目，需人工核
+- `problems.json` `knapsack_variants.quadratic.sources[6]`：Kellerer, Pferschy & Pisinger (2004). Knapsack Problems. Springer（第 12 章 二次背包）
+  - 书籍/学位论文/中文条目，需人工核
+- `problems.json` `knapsack_variants.subsetsum.sources[2]`：Bellman (1957). Dynamic Programming. Princeton University Press
+  - 书籍/学位论文/中文条目，需人工核
+- `problems.json` `class_pages.tsp.sources[6]`：Applegate, Bixby, Chvátal & Cook (2006). The Traveling Salesman Problem: A Computational Study. Princeton University Press（Concorde 经典）
+  - 书籍/学位论文/中文条目，需人工核
+- `problems.json` `class_pages.assignment.sources[5]`：熊虎、向铁元等 (2012). 电动汽车充电站布局规划最优化. 《电力系统自动化》；Liu et al. (2016). IEEE TSTE
+  - 书籍/学位论文/中文条目，需人工核
+- `meta.json` `pages[1].refs[19].cite`：定向检索「为隐喻算法成体系辩护」零命中——批评单向性观察
+  - 书籍/学位论文/中文条目，需人工核
+- `meta.json` `pages[2].refs[0].cite`：CEC 2025 竞赛技术报告（统计协议官方口径：≥30 次独立运行 / Wilcoxon+Friedman+Nemenyi / U-score 双维评分）
+  - 书籍/学位论文/中文条目，需人工核
+- `meta.json` `pages[3].refs[8].cite`：WOA 改进/混合变体计量
+  - 书籍/学位论文/中文条目，需人工核
+
+## VERIFIED（20）
+
+- `algos.json` `fa.refs[2]`：Yang & He (2013). Firefly algorithm: Recent advances and applications. International Journal of Swarm Intelligence, 1(1), 36-50
+  - 人工核实：Yang & He (2013)，Int. J. Swarm Intelligence 1(1):36-50 无误；Crossref 只登记了首页 36
+- `algos.json` `sa.refs[3]`：Geman & Geman (1984). Stochastic relaxation, Gibbs distributions, and the Bayesian restoration of images. IEEE Transactions on Pattern Analysis and Machine Intelligence, 6(6), 721-741
+  - 人工核实：Geman & Geman (1984)，IEEE TPAMI 6(6):721-741 无误；Crossref 的卷号写作「PAMI-6」（同一刊期）
+- `algos.json` `sfla.paper`：Eusuff & Lansey, 2003, Journal of Water Resources Planning and Management 129(3):210-225（混合蛙跳原始论文）
+  - 人工核实：Eusuff & Lansey 2003, J. Water Resources Planning and Management 129(3):210-225 是真实文献（SFLA 的首篇应用论文）；Crossref 的书目检索把它匹配到了另一篇，故需人工确认
+- `problems.json` `abstract_types.spp.sources[7]`：Wäscher, Haußner & Schumann (2007). An improved typology of cutting and packing problems. European Journal of Operational Research, 183(3), 1109-1130
+  - 人工核实：Wäscher, Haußner & Schumann (2007)《An improved typology of cutting and packing problems》，EJOR 183(3):1109–1130，卷页与文献记录一致；引用里没有写标题，Crossref 书目检索无法按「作者+刊名+卷页」匹配
+- `problems.json` `abstract_types.vsbpp.sources[2]`：Wäscher, Haußner & Schumann (2007). An improved typology of cutting and packing problems. European Journal of Operational Research, 183(3), 1109-1130
+  - 人工核实：Wäscher, Haußner & Schumann (2007)《An improved typology of cutting and packing problems》，EJOR 183(3):1109–1130，卷页与文献记录一致；引用里没有写标题，Crossref 书目检索无法按「作者+刊名+卷页」匹配
+- `problems.json` `abstract_types.csp.sources[4]`：Wäscher, Haußner & Schumann (2007). An improved typology of cutting and packing problems. European Journal of Operational Research, 183(3), 1109-1130
+  - 人工核实：Wäscher, Haußner & Schumann (2007)《An improved typology of cutting and packing problems》，EJOR 183(3):1109–1130，卷页与文献记录一致；引用里没有写标题，Crossref 书目检索无法按「作者+刊名+卷页」匹配
+- `problems.json` `abstract_types.ecp.sources[0]`：Vizing (1964). On an estimate of the chromatic class of a p-graph. Diskretnyi Analiz, 3, 25-30
+  - 人工核实：Vizing (1964)，Diskret. Analiz 3:25–30 是俄文原始文献（Vizing 定理），Crossref 只收录了 1965 年的英文译本 Cybernetics 1:32–41
+- `problems.json` `abstract_types.prext.sources[6]`：Hujter & Tuza (1993). Precoloring extension. II. Graph classes related to bipartite graphs. Acta Mathematica Universitatis Comenianae, 62(1), 1-11
+  - 人工核实：Hujter & Tuza (1993)《Precoloring extension. II. Graph classes related to bipartite graphs》，Acta Math. Univ. Comenianae 62(1):1-11 是真实文献（PrExt 系列第二篇）；Crossref 书目检索把它匹配到了系列第一篇（Discrete Math. 100，另一篇独立文献，已在本页 sources[0] 引用）
+- `problems.json` `abstract_types.tcp.sources[7]`：Borodin (1989). On the total coloring of planar graphs. Journal für die reine und angewandte Mathematik, 394, 180-185
+  - 人工核实：Borodin (1989)《On the total coloring of planar graphs》，J. reine angew. Math. 394:180-185（1989）是真实文献；Crossref 把「卷」匹配成了年份 1989，卷号 394 无误
+- `problems.json` `abstract_types.moco.sources[10]`：Ulungu & Teghem (1995). The two phases method: An efficient procedure to solve bi-objective combinatorial optimization problems. Foundations of Computing and Decision Sciences, 20(2), 149-165
+  - 人工核实：Ulungu & Teghem (1995)，Foundations of Computing and Decision Sciences 20(2):149-165 是两阶段法的原始论文；Crossref 把它匹配到了两位作者 1994 年的另一篇综述（J. Multi-Criteria Decision Analysis 3:83-104）
+- `problems.json` `abstract_types.decompo.sources[4]`：Trivedi, Srinivasan, Sanyal & Ghosh (2017). A survey of multiobjective evolutionary algorithms based on decomposition. IEEE Transactions on Evolutionary Computation, 21(3), 440-462
+  - 人工核实：Trivedi 等 (2017)，IEEE TEVC 21(3):440-462 为正式出版版本；Crossref 登记的是 2016 年的提前发表记录（页码 1-1，无卷期）
+- `problems.json` `abstract_types.ged.sources[0]`：Gero (1990). Design prototypes: A knowledge representation schema for design. AI Magazine, 11(4), 26-36
+  - 人工核实：Gero (1990), AI Magazine 11(4):26–36 经 AAAI 期刊目录与 Drexel 记录核实无误；Crossref 书目检索把它匹配到了同作者的另一篇书籍章节
+- `problems.json` `abstract_types.hcycle.sources[6]`：Dirac (1952). Some theorems on abstract graphs. Proceedings of the London Mathematical Society, s3-2(1), 69-81
+  - 人工核实：Dirac (1952)，Proc. London Math. Soc. (3) 2:69-81 无误；伦敦数学会会刊第三辑在 Crossref 中的卷号写作「s3-2」，与「第 3 辑第 2 卷」的常规引法是同一刊期
+- `problems.json` `abstract_types.qap.sources[0]`：Koopmans & Beckmann (1957). Assignment problems and the location of economic activities. Econometrica, 25(1), 53-76
+  - 人工核实：Koopmans & Beckmann (1957), Econometrica 25(1):53–76 无误；Crossref 只登记了首页 53
+- `problems.json` `abstract_types.freqasg.sources[4]`：Eisenblätter, Grötschel & Koster (2002). Frequency planning and ramifications of coloring. Discussiones Mathematicae Graph Theory, 22(1), 51-88
+  - 人工核实：Eisenblätter, Grötschel & Koster (2002)，Discuss. Math. Graph Theory 22(1):51-88 无误；Crossref 只登记了首页 51
+- `problems.json` `abstract_types.numpart.sources[8]`：Hayes (2002). The easiest hard problem. American Scientist, 90(2), 113-117
+  - 人工核实：Hayes (2002)《The easiest hard problem》，American Scientist 90(2):113-117 无误；Crossref 只登记了首页 113
+- `problems.json` `abstract_types.kmeans.sources[9]`：Hartigan & Wong (1979). Algorithm AS 136: A k-means clustering algorithm. Journal of the Royal Statistical Society, Series C, 28(1), 100-108
+  - 人工核实：Hartigan & Wong (1979)，Applied Statistics (JRSS C) 28(1):100-108 无误；Crossref 只登记了首页 100
+- `problems.json` `abstract_types.ecd.sources[7]`：Gandomi, Yang & Alavi (2013). Cuckoo search algorithm: a metaheuristic approach to solve structural optimization problems. Engineering with Computers, 29(1), 17-35
+  - 人工核实：Gandomi, Yang & Alavi (2013), Engineering with Computers 29(1):17-35 无误；Crossref 把它匹配到了同名文章的勘误（29:245，2012）
+- `mapping.json` `reductions[15].src`：Wäscher, Haußner & Schumann (2007). EJOR 183(3):1109–1130（类型学）
+  - 人工核实：Wäscher, Haußner & Schumann (2007)《An improved typology of cutting and packing problems》，EJOR 183(3):1109–1130，卷页与文献记录一致；引用里没有写标题，Crossref 书目检索无法按「作者+刊名+卷页」匹配
+- `meta.json` `pages[1].refs[0].cite`：Sörensen, K. (2015). Metaheuristics—the metaphor exposed. ITOR 22(1):3-18
+  - 人工核实：Sörensen (2015), ITOR 22(1):3–18 是纸刊期次；Crossref 登记的是 2013 年在线首发日期，卷页一致
