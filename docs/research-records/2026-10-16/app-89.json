@@ -1,0 +1,3344 @@
+{
+  "retrieved": "2026-10-16",
+  "url": "https://api.crossref.org/works?query.bibliographic=sports+scheduling+metaheuristics+survey&rows=3&filter=until-pub-date%3A2026-10-16",
+  "response": {
+    "status": "ok",
+    "message-type": "work-list",
+    "message-version": "1.0.0",
+    "message": {
+      "facets": {},
+      "total-results": 1288403,
+      "items": [
+        {
+          "indexed": {
+            "date-parts": [
+              [
+                2024,
+                5,
+                12
+              ]
+            ],
+            "date-time": "2024-05-12T08:40:06Z",
+            "timestamp": 1715503206120
+          },
+          "edition-number": "1",
+          "reference-count": 37,
+          "publisher": "Wiley",
+          "isbn-type": [
+            {
+              "value": "9781848214972",
+              "type": "print"
+            },
+            {
+              "value": "9781118731598",
+              "type": "electronic"
+            }
+          ],
+          "license": [
+            {
+              "start": {
+                "date-parts": [
+                  [
+                    2013,
+                    5,
+                    13
+                  ]
+                ],
+                "date-time": "2013-05-13T00:00:00Z",
+                "timestamp": 1368403200000
+              },
+              "content-version": "tdm",
+              "delay-in-days": 0,
+              "URL": "http://doi.wiley.com/10.1002/tdm_license_1.1"
+            }
+          ],
+          "content-domain": {
+            "domain": [],
+            "crossmark-restriction": false
+          },
+          "published-print": {
+            "date-parts": [
+              [
+                2013,
+                5,
+                13
+              ]
+            ]
+          },
+          "DOI": "10.1002/9781118731598.ch9",
+          "type": "other",
+          "created": {
+            "date-parts": [
+              [
+                2013,
+                6,
+                12
+              ]
+            ],
+            "date-time": "2013-06-12T03:29:32Z",
+            "timestamp": 1371007772000
+          },
+          "page": "225-252",
+          "source": "Crossref",
+          "is-referenced-by-count": 1,
+          "title": [
+            "Metaheuristics for Biobjective Flow Shop Scheduling"
+          ],
+          "prefix": "10.1002",
+          "author": [
+            {
+              "given": "Matthieu",
+              "family": "Basseur",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Arnaud",
+              "family": "Liefooghe",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            }
+          ],
+          "member": "311",
+          "published-online": {
+            "date-parts": [
+              [
+                2013,
+                6,
+                11
+              ]
+            ]
+          },
+          "reference": [
+            {
+              "key": "e_1_2_1_2_1",
+              "first-page": "1151",
+              "volume-title": "IEEE Congress on Evolutionary Computation (CEC 2002)",
+              "author": "Basseur M.",
+              "year": "2002"
+            },
+            {
+              "key": "e_1_2_1_3_1",
+              "volume-title": "Conception d'algorithmes coopératifs pour l'optimisation multiobjectif: application aux problèmes d'ordonnancement de type Flow‐shop",
+              "author": "Basseur M.",
+              "year": "2005"
+            },
+            {
+              "key": "e_1_2_1_4_1",
+              "first-page": "1",
+              "article-title": "Hypervolume‐based multi‐objective local search",
+              "volume": "15",
+              "author": "Basseur M.",
+              "year": "2011",
+              "journal-title": "Neural Computing and Applications"
+            },
+            {
+              "key": "e_1_2_1_5_1",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1007/3-540-36970-8_35"
+            },
+            {
+              "key": "e_1_2_1_6_1",
+              "volume-title": "Evolutionary Algorithms for Solving Multi‐Objective Problems",
+              "author": "Coello Coello C.A.",
+              "year": "2007"
+            },
+            {
+              "key": "e_1_2_1_7_1",
+              "volume-title": "Multi‐Objective Optimization Using Evolutionary Algorithms",
+              "author": "Deb K.",
+              "year": "2001"
+            },
+            {
+              "key": "e_1_2_1_8_1",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1109/4235.996017"
+            },
+            {
+              "key": "e_1_2_1_9_1",
+              "volume-title": "jMetal: A java framework for developing multi‐objective optimization metaheuristics",
+              "author": "Durillo J.J",
+              "year": "2006"
+            },
+            {
+              "key": "e_1_2_1_10_1",
+              "volume-title": "Multicriteria Optimization",
+              "author": "Ehrgott M.",
+              "year": "2005"
+            },
+            {
+              "key": "e_1_2_1_11_1",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1142/S021821300600262X"
+            },
+            {
+              "key": "e_1_2_1_12_1",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1016/S0167-5060(08)70356-X"
+            },
+            {
+              "key": "e_1_2_1_13_1",
+              "volume-title": "Evaluating the quality of approximations of the non‐dominated set",
+              "author": "Hansen M.P",
+              "year": "1998"
+            },
+            {
+              "key": "e_1_2_1_14_1",
+              "first-page": "993",
+              "article-title": "Shark",
+              "volume": "9",
+              "author": "Igel C.",
+              "year": "2008",
+              "journal-title": "Journal of Machine Learning Research"
+            },
+            {
+              "key": "e_1_2_1_15_1",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1109/5326.704576"
+            },
+            {
+              "key": "e_1_2_1_16_1",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1007/978-3-642-17144-4_4"
+            },
+            {
+              "key": "e_1_2_1_17_1",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1007/978-3-540-70928-2_36"
+            },
+            {
+              "key": "e_1_2_1_18_1",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1007/978-3-540-70928-2_31"
+            },
+            {
+              "key": "e_1_2_1_19_1",
+              "volume-title": "Métaheuristiques pour l'optimisation multiobjectif: approches coopératives, prise en compte de l'incertitude et application en logistique",
+              "author": "Liefooghe A",
+              "year": "2009"
+            },
+            {
+              "key": "e_1_2_1_20_1",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1016/j.ejor.2010.07.023"
+            },
+            {
+              "key": "e_1_2_1_21_1",
+              "first-page": "317",
+              "volume-title": "IEEE Congress on Evolutionary Computation (CEC 2000)",
+              "author": "Meunier H.",
+              "year": "2000"
+            },
+            {
+              "key": "e_1_2_1_22_1",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1007/978-3-642-17144-4_7"
+            },
+            {
+              "key": "e_1_2_1_23_1",
+              "volume-title": "Fault tolerant design using single and multicriteria genetic algorithm optimization",
+              "author": "Schott J.R.",
+              "year": "1995"
+            },
+            {
+              "key": "e_1_2_1_24_1",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1016/j.cor.2005.11.022"
+            },
+            {
+              "key": "e_1_2_1_25_1",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1007/978-1-4899-3324-9"
+            },
+            {
+              "key": "e_1_2_1_26_1",
+              "volume-title": "JavaEvA: a java based framework for evolutionary algorithms",
+              "author": "Streichert F",
+              "year": "2005"
+            },
+            {
+              "key": "e_1_2_1_27_1",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1016/0377-2217(93)90182-M"
+            },
+            {
+              "key": "e_1_2_1_28_1",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1023/A:1016540724870"
+            },
+            {
+              "key": "e_1_2_1_29_1",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1002/9780470496916"
+            },
+            {
+              "key": "e_1_2_1_30_1",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1007/978-94-011-1192-8"
+            },
+            {
+              "key": "e_1_2_1_31_1",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1109/3477.938259"
+            },
+            {
+              "key": "e_1_2_1_32_1",
+              "volume-title": "Multicriteria Scheduling: Theory, Models and Algorithms",
+              "author": "T'Kindt v",
+              "year": "2005"
+            },
+            {
+              "key": "e_1_2_1_33_1",
+              "first-page": "204",
+              "volume-title": "IEEE Congress on Evolutionary Computation (CEC 2000)",
+              "author": "Veldhuizen D.A.V.",
+              "year": "2000"
+            },
+            {
+              "key": "e_1_2_1_34_1",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1109/4235.797969"
+            },
+            {
+              "key": "e_1_2_1_35_1",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1109/TEVC.2003.810758"
+            },
+            {
+              "key": "e_1_2_1_36_1",
+              "first-page": "832",
+              "volume-title": "Conference on Parallel Problem Solving from Nature (PPSN VIII)",
+              "author": "Zitzler E",
+              "year": "2004"
+            },
+            {
+              "key": "e_1_2_1_37_1",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1007/978-3-642-17144-4_1"
+            },
+            {
+              "key": "e_1_2_1_38_1",
+              "doi-asserted-by": "crossref",
+              "first-page": "373",
+              "DOI": "10.1007/978-3-540-88908-3_14",
+              "volume-title": "Multiobjective Optimization – Interactive and Evolutionary Approaches",
+              "author": "Zitzler E",
+              "year": "2008"
+            }
+          ],
+          "container-title": [
+            "Metaheuristics for Production Scheduling"
+          ],
+          "language": "en",
+          "link": [
+            {
+              "URL": "https://onlinelibrary.wiley.com/doi/pdf/10.1002/9781118731598.ch9",
+              "content-type": "unspecified",
+              "content-version": "vor",
+              "intended-application": "similarity-checking"
+            }
+          ],
+          "deposited": {
+            "date-parts": [
+              [
+                2024,
+                5,
+                12
+              ]
+            ],
+            "date-time": "2024-05-12T08:03:44Z",
+            "timestamp": 1715501024000
+          },
+          "score": 26.807665,
+          "resource": {
+            "primary": {
+              "URL": "https://onlinelibrary.wiley.com/doi/10.1002/9781118731598.ch9"
+            }
+          },
+          "issued": {
+            "date-parts": [
+              [
+                2013,
+                5,
+                13
+              ]
+            ]
+          },
+          "ISBN": [
+            "9781848214972",
+            "9781118731598"
+          ],
+          "references-count": 37,
+          "alternative-id": [
+            "10.1002/9781118731598.ch9",
+            "10.1002/9781118731598"
+          ],
+          "URL": "https://doi.org/10.1002/9781118731598.ch9",
+          "archive": [
+            "Portico"
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2013,
+                5,
+                13
+              ]
+            ]
+          }
+        },
+        {
+          "indexed": {
+            "date-parts": [
+              [
+                2025,
+                10,
+                1
+              ]
+            ],
+            "date-time": "2025-10-01T15:36:50Z",
+            "timestamp": 1759333010770,
+            "version": "3.40.5"
+          },
+          "publisher-location": "Cham",
+          "reference-count": 130,
+          "publisher": "Springer Nature Switzerland",
+          "isbn-type": [
+            {
+              "type": "print",
+              "value": "9783319071534"
+            },
+            {
+              "type": "electronic",
+              "value": "9783319071534"
+            }
+          ],
+          "license": [
+            {
+              "start": {
+                "date-parts": [
+                  [
+                    2025,
+                    1,
+                    1
+                  ]
+                ],
+                "date-time": "2025-01-01T00:00:00Z",
+                "timestamp": 1735689600000
+              },
+              "content-version": "tdm",
+              "delay-in-days": 0,
+              "URL": "https://www.springernature.com/gp/researchers/text-and-data-mining"
+            },
+            {
+              "start": {
+                "date-parts": [
+                  [
+                    2025,
+                    1,
+                    1
+                  ]
+                ],
+                "date-time": "2025-01-01T00:00:00Z",
+                "timestamp": 1735689600000
+              },
+              "content-version": "vor",
+              "delay-in-days": 0,
+              "URL": "https://www.springernature.com/gp/researchers/text-and-data-mining"
+            }
+          ],
+          "content-domain": {
+            "domain": [
+              "link.springer.com"
+            ],
+            "crossmark-restriction": false
+          },
+          "published-print": {
+            "date-parts": [
+              [
+                2025
+              ]
+            ]
+          },
+          "DOI": "10.1007/978-3-319-07153-4_62-1",
+          "type": "book-chapter",
+          "created": {
+            "date-parts": [
+              [
+                2025,
+                5,
+                12
+              ]
+            ],
+            "date-time": "2025-05-12T04:50:04Z",
+            "timestamp": 1747025404000
+          },
+          "page": "1-30",
+          "update-policy": "https://doi.org/10.1007/springer_crossmark_policy",
+          "source": "Crossref",
+          "is-referenced-by-count": 1,
+          "title": [
+            "Metaheuristics for Problems in Sports Scheduling"
+          ],
+          "prefix": "10.1007",
+          "author": [
+            {
+              "given": "Celso C.",
+              "family": "Ribeiro",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Sebastián",
+              "family": "Urrutia",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Dominique",
+              "family": "de Werra",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            }
+          ],
+          "member": "297",
+          "published-online": {
+            "date-parts": [
+              [
+                2025,
+                2,
+                4
+              ]
+            ]
+          },
+          "reference": [
+            {
+              "key": "62-1_CR1",
+              "volume-title": "Simulated annealing and Boltzmann machines: a stochastic approach to combinatorial optimization and neural computing",
+              "author": "E Aarts",
+              "year": "1989",
+              "unstructured": "Aarts E, Korst J (1989) Simulated annealing and Boltzmann machines: a stochastic approach to combinatorial optimization and neural computing. Wiley, Hoboken, New Jersey, U.S"
+            },
+            {
+              "key": "62-1_CR2",
+              "first-page": "1",
+              "volume-title": "Essays and surveys in metaheuristics",
+              "author": "E Aarts",
+              "year": "2002",
+              "unstructured": "Aarts E, Korst J (2002) Selected topics in simulated annealing. In: Ribeiro CC, Hansen P (eds) Essays and surveys in metaheuristics. Kluwer, Dordrecht, Netherlands, pp 1–37"
+            },
+            {
+              "key": "62-1_CR3",
+              "doi-asserted-by": "publisher",
+              "first-page": "177",
+              "DOI": "10.1007/s10951-006-7187-8",
+              "volume": "9",
+              "author": "A Anagnostopoulos",
+              "year": "2006",
+              "unstructured": "Anagnostopoulos A, Michel L, Van Hentenryck P, Vergados Y (2006) A simulated annealing approach to the traveling tournament problem. J Schedul 9:177–193",
+              "journal-title": "J Schedul"
+            },
+            {
+              "key": "62-1_CR4",
+              "first-page": "15",
+              "volume-title": "Lagrange relaxation and constraint programming collaborative schemes for travelling tournament problems",
+              "author": "T Benoist",
+              "year": "2001",
+              "unstructured": "Benoist T, Laburthe F, Rottembourg B (2001) Lagrange relaxation and constraint programming collaborative schemes for travelling tournament problems. In: Proceedings of the third international workshop on integration of AI and OR techniques in constraint programming for combinatorial optimization problems, pp 15–26"
+            },
+            {
+              "key": "62-1_CR5",
+              "doi-asserted-by": "publisher",
+              "first-page": "245",
+              "DOI": "10.1287/inte.1110.0587",
+              "volume": "42",
+              "author": "F Bonomo",
+              "year": "2012",
+              "unstructured": "Bonomo F, Cardemil A, Durán G, Marenco J, Sabán D (2012) An application of the traveling tournament problem: the Argentine volleyball league. Interfaces 42:245–259",
+              "journal-title": "Interfaces"
+            },
+            {
+              "key": "62-1_CR6",
+              "doi-asserted-by": "publisher",
+              "first-page": "823",
+              "DOI": "10.1111/itor.12178",
+              "volume": "22",
+              "author": "JS Brandão",
+              "year": "2015",
+              "unstructured": "Brandão JS, Noronha TF, Resende MGC, Ribeiro CC (2015) A biased random-key genetic algorithm for single-round divisible load scheduling. Int Trans Oper Res 22:823–839",
+              "journal-title": "Int Trans Oper Res"
+            },
+            {
+              "key": "62-1_CR7",
+              "doi-asserted-by": "publisher",
+              "first-page": "1061",
+              "DOI": "10.1111/itor.12429",
+              "volume": "27",
+              "author": "JS Brandão",
+              "year": "2017",
+              "unstructured": "Brandão JS, Noronha TF, Resende MGC, Ribeiro CC (2017) A biased random-key genetic algorithm for scheduling heterogeneous multi-round systems. Int Trans Oper Res 27: 1061–1077",
+              "journal-title": "Int Trans Oper Res"
+            },
+            {
+              "key": "62-1_CR8",
+              "doi-asserted-by": "publisher",
+              "first-page": "36",
+              "DOI": "10.1002/net.20070",
+              "volume": "46",
+              "author": "LS Buriol",
+              "year": "2005",
+              "unstructured": "Buriol LS, Resende MGC, Ribeiro CC, Thorup M (2005) A hybrid genetic algorithm for the weight setting problem in OSPF/IS-IS routing. Networks 46:36–56",
+              "journal-title": "Networks"
+            },
+            {
+              "volume-title": "Search methodologies: introductory tutorials in optimization and decision support techniques",
+              "year": "2005",
+              "unstructured": "Burke E, Kendall G (eds) (2005) Search methodologies: introductory tutorials in optimization and decision support techniques. Springer, New York City, New York, US",
+              "key": "62-1_CR9"
+            },
+            {
+              "volume-title": "Search methodologies: introductorial tutorials in optimization and decision support techniques, 2nd edn",
+              "year": "2014",
+              "unstructured": "Burke E, Kendall G (eds) (2014) Search methodologies: introductorial tutorials in optimization and decision support techniques, 2nd edn. Springer, New York City, New York, US",
+              "key": "62-1_CR10"
+            },
+            {
+              "key": "62-1_CR11",
+              "doi-asserted-by": "publisher",
+              "first-page": "50",
+              "DOI": "10.1002/net.1023",
+              "volume": "38",
+              "author": "S Canuto",
+              "year": "2001",
+              "unstructured": "Canuto S, Resende MGC, Ribeiro CC (2001) Local search with perturbations for the prize-collecting Steiner tree problem in graphs. Networks 38:50–58",
+              "journal-title": "Networks"
+            },
+            {
+              "key": "62-1_CR12",
+              "first-page": "161",
+              "volume": "33",
+              "author": "D Costa",
+              "year": "1995",
+              "unstructured": "Costa D (1995) An evolutionary tabu search algorithm and the NHL scheduling problem. INFOR 33:161–178",
+              "journal-title": "INFOR"
+            },
+            {
+              "unstructured": "Costa FN, Urrutia S, Ribeiro CC (2008) An ILS heuristic for the traveling tournament problem with fixed venues. In: Burke EK, Gendreau M (eds) Proceedings of the 7th international conference on the practice and theory of automated timetabling",
+              "key": "62-1_CR13"
+            },
+            {
+              "key": "62-1_CR14",
+              "doi-asserted-by": "publisher",
+              "first-page": "137",
+              "DOI": "10.1007/s10479-010-0719-9",
+              "volume": "194",
+              "author": "FN Costa",
+              "year": "2012",
+              "unstructured": "Costa FN, Urrutia S, Ribeiro CC (2012) An ILS heuristic for the traveling tournament problem with predefined venues. Ann Oper Res 194:137–150",
+              "journal-title": "Ann Oper Res"
+            },
+            {
+              "key": "62-1_CR15",
+              "series-title": "Lecture notes in computer science",
+              "doi-asserted-by": "publisher",
+              "first-page": "150",
+              "DOI": "10.1007/11890584_12",
+              "volume-title": "Hybrid metaheuristics",
+              "author": "C Cotta",
+              "year": "2006",
+              "unstructured": "Cotta C, Dotú I, Fernández AJ, Van Hentenryck P (2006) Scheduling social golfers with memetic evolutionary programming. In: Almeida F, Aguilera MJB, Blum C, Moreno Vega JM, Pérez Pérez M, Roli A, Sampels M (eds) Hybrid metaheuristics. Lecture notes in computer science, vol 4030. Springer, New York City, New York, US, pp 150–161"
+            },
+            {
+              "key": "62-1_CR16",
+              "series-title": "Lecture notes in computer science",
+              "doi-asserted-by": "publisher",
+              "first-page": "381",
+              "DOI": "10.1007/978-3-642-10439-8_39",
+              "volume-title": "AI 2009: advances in artificial intelligence",
+              "author": "S Craig",
+              "year": "2009",
+              "unstructured": "Craig S, While L, Barone L (2009) Scheduling for the National Hockey League using a multi-objective evolutionary algorithm. In: Nicholson A, Li X (eds) AI 2009: advances in artificial intelligence. Lecture notes in computer science, vol 5866. Springer, New York City, New York, US, pp 381–390"
+            },
+            {
+              "key": "62-1_CR17",
+              "doi-asserted-by": "publisher",
+              "first-page": "791",
+              "DOI": "10.1287/opre.6.6.791",
+              "volume": "6",
+              "author": "G Croes",
+              "year": "1958",
+              "unstructured": "Croes G (1958) A method for solving traveling-salesman problems. Oper Res 6:791–812",
+              "journal-title": "Oper Res"
+            },
+            {
+              "key": "62-1_CR18",
+              "doi-asserted-by": "publisher",
+              "first-page": "349",
+              "DOI": "10.1023/A:1018999101596",
+              "volume": "92",
+              "author": "F Della Croce",
+              "year": "1999",
+              "unstructured": "Della Croce F, Tadei R, Asioli P (1999) Scheduling a round robin tennis tournament under courts and players availability constraints. Ann Oper Res 92:349–361",
+              "journal-title": "Ann Oper Res"
+            },
+            {
+              "key": "62-1_CR19",
+              "doi-asserted-by": "publisher",
+              "first-page": "189",
+              "DOI": "10.1007/s10732-006-9007-x",
+              "volume": "13",
+              "author": "L Di Gaspero",
+              "year": "2007",
+              "unstructured": "Di Gaspero L, Schaerf A (2007) A composite-neighborhood tabu search approach to the traveling tournament problem. J Heuristics 13:189–207",
+              "journal-title": "J Heuristics"
+            },
+            {
+              "key": "62-1_CR20",
+              "doi-asserted-by": "publisher",
+              "first-page": "273",
+              "DOI": "10.1002/jcd.3180020406",
+              "volume": "2",
+              "author": "JH Dinitz",
+              "year": "1994",
+              "unstructured": "Dinitz JH, Garnick DK, McKay BD (1994) There are 526,915,620 nonisomorphic one-factorizations of K12. J Comb Des 2:273–285",
+              "journal-title": "J Comb Des"
+            },
+            {
+              "unstructured": "van Doornmalen J, Hojny C, Lambers R, Spieksma F (2021) A hybrid model to find schedules for double round robin tournaments with side constraints. In: Proceedings of the 13th international conference on the practice and theory of automated timetabling-PATAT 2021, p 412",
+              "key": "62-1_CR21"
+            },
+            {
+              "unstructured": "Duarte AR, Ribeiro CC (2008) Referee assignment in sports leagues: approximate and exact multi-objective approaches. In: 19th international conference on multiple criteria decision making, Auckland, pp 58–60",
+              "key": "62-1_CR22"
+            },
+            {
+              "key": "62-1_CR23",
+              "series-title": "Lecture notes in computer science",
+              "doi-asserted-by": "publisher",
+              "first-page": "82",
+              "DOI": "10.1007/978-3-540-75514-2_7",
+              "volume-title": "Hybrid metaheuristics",
+              "author": "AR Duarte",
+              "year": "2007",
+              "unstructured": "Duarte AR, Ribeiro CC, Urrutia S (2007) A hybrid ILS heuristic to the referee assignment problem with an embedded MIP strategy. In: Bartz-Beielstein T, Aguilera MJB, Blum C, Naujoks B, Roli A, Rudolph G, Sampels M (eds) Hybrid metaheuristics. Lecture notes in computer science, vol 4771. Springer, New York City, New York, US, pp 82–95"
+            },
+            {
+              "key": "62-1_CR24",
+              "series-title": "Lecture notes in computer science",
+              "doi-asserted-by": "publisher",
+              "first-page": "158",
+              "DOI": "10.1007/978-3-540-77345-0_11",
+              "volume-title": "Practice and theory of automated timetabling VI",
+              "author": "AR Duarte",
+              "year": "2007",
+              "unstructured": "Duarte AR, Ribeiro CC, Urrutia S, Haeusler EH (2007) Referee assignment in sports leagues. In: Burke EK, Rudová H (eds) Practice and theory of automated timetabling VI. Lecture notes in computer science, vol 3867. Springer, New York City, New York, US, pp 158–173"
+            },
+            {
+              "key": "62-1_CR25",
+              "doi-asserted-by": "publisher",
+              "first-page": "67",
+              "DOI": "10.1016/0167-6377(89)90002-3",
+              "volume": "8",
+              "author": "TA Feo",
+              "year": "1989",
+              "unstructured": "Feo TA, Resende MGC (1989) A probabilistic heuristic for a computationally difficult set covering problem. Oper Res Lett 8:67–71",
+              "journal-title": "Oper Res Lett"
+            },
+            {
+              "key": "62-1_CR26",
+              "doi-asserted-by": "publisher",
+              "first-page": "109",
+              "DOI": "10.1007/BF01096763",
+              "volume": "6",
+              "author": "TA Feo",
+              "year": "1995",
+              "unstructured": "Feo TA, Resende MGC (1995) Greedy randomized adaptive search procedures. J Glob Optim 6:109–133",
+              "journal-title": "J Glob Optim"
+            },
+            {
+              "key": "62-1_CR27",
+              "doi-asserted-by": "publisher",
+              "first-page": "325",
+              "DOI": "10.1007/978-1-4615-1507-4_15",
+              "volume-title": "Essays and surveys in metaheuristics",
+              "author": "P Festa",
+              "year": "2002",
+              "unstructured": "Festa P, Resende MGC (2002) GRASP: an annotated bibliography. In: Ribeiro CC, Hansen P (eds) Essays and surveys in metaheuristics. Kluwer, Dordrecht, Netherlands, pp 325–367"
+            },
+            {
+              "key": "62-1_CR28",
+              "doi-asserted-by": "publisher",
+              "first-page": "131",
+              "DOI": "10.1111/j.1475-3995.2009.00664.x",
+              "volume": "16",
+              "author": "P Festa",
+              "year": "2009",
+              "unstructured": "Festa P, Resende MGC (2009) An annotated bibliography of GRASP, Part II: applications. Int Trans Oper Res 16:131–172",
+              "journal-title": "Int Trans Oper Res"
+            },
+            {
+              "key": "62-1_CR29",
+              "doi-asserted-by": "publisher",
+              "first-page": "1033",
+              "DOI": "10.1080/1055678021000090033",
+              "volume": "7",
+              "author": "P Festa",
+              "year": "2002",
+              "unstructured": "Festa P, Pardalos P, Resende MGC, Ribeiro CC (2002) Randomized heuristics for the max-cut problem. Optim Methods Softw 7:1033–1058",
+              "journal-title": "Optim Methods Softw"
+            },
+            {
+              "volume-title": "Handbook of metaheuristics, 3rd edn",
+              "year": "2019",
+              "unstructured": "Gendreau M, Potvin JY (eds) (2019) Handbook of metaheuristics, 3rd edn. Springer, New York City, New York, US",
+              "key": "62-1_CR30"
+            },
+            {
+              "key": "62-1_CR31",
+              "doi-asserted-by": "publisher",
+              "first-page": "190",
+              "DOI": "10.1287/ijoc.1.3.190",
+              "volume": "1",
+              "author": "F Glover",
+              "year": "1989",
+              "unstructured": "Glover F (1989) Tabu search – Part I. ORSA J Comput 1:190–206",
+              "journal-title": "ORSA J Comput"
+            },
+            {
+              "key": "62-1_CR32",
+              "doi-asserted-by": "publisher",
+              "first-page": "4",
+              "DOI": "10.1287/ijoc.2.1.4",
+              "volume": "2",
+              "author": "F Glover",
+              "year": "1990",
+              "unstructured": "Glover F (1990) Tabu search – Part II. ORSA J Comput 2:4–32",
+              "journal-title": "ORSA J Comput"
+            },
+            {
+              "key": "62-1_CR33",
+              "first-page": "1",
+              "volume-title": "Interfaces in computer science and operations research",
+              "author": "F Glover",
+              "year": "1996",
+              "unstructured": "Glover F (1996) Tabu search and adaptive memory programming – advances, applications and challenges. In: Barr R, Helgason R, Kennington J (eds) Interfaces in computer science and operations research. Kluwer, Dordrecht, Netherlands, pp 1–75"
+            },
+            {
+              "key": "62-1_CR34",
+              "doi-asserted-by": "publisher",
+              "first-page": "1306",
+              "DOI": "10.1287/ijoc.2022.1187",
+              "volume": "34",
+              "author": "F Glover",
+              "year": "2022",
+              "unstructured": "Glover F (2022) Unforeseen consequences of “Tabu” choices – a retrospective. INFORMS J Comput 34:1306–1308",
+              "journal-title": "INFORMS J Comput"
+            },
+            {
+              "volume-title": "Handbook of metaheuristics",
+              "year": "2003",
+              "unstructured": "Glover F, Kochenberger G (eds) (2003) Handbook of metaheuristics. Kluwer, Dordrecht, Netherlands",
+              "key": "62-1_CR35"
+            },
+            {
+              "key": "62-1_CR36",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1007/978-1-4615-6089-0",
+              "volume-title": "Tabu search",
+              "author": "F Glover",
+              "year": "1997",
+              "unstructured": "Glover F, Laguna M (1997) Tabu search. Kluwer, Dordrecht, Netherlands"
+            },
+            {
+              "key": "62-1_CR37",
+              "doi-asserted-by": "publisher",
+              "first-page": "3",
+              "DOI": "10.1007/BF02078647",
+              "volume": "41",
+              "author": "F Glover",
+              "year": "1993",
+              "unstructured": "Glover F, Taillard E, de Werra D (1993) A user’s guide to tabu search. Ann Oper Res 41:3–28",
+              "journal-title": "Ann Oper Res"
+            },
+            {
+              "key": "62-1_CR38",
+              "doi-asserted-by": "publisher",
+              "first-page": "343",
+              "DOI": "10.1007/s10479-014-1586-6",
+              "volume": "239",
+              "author": "M Goerigk",
+              "year": "2016",
+              "unstructured": "Goerigk M, Westphal S (2016) A combined local search and integer programming approach to the traveling tournament problem. Ann Oper Res 239:343–354",
+              "journal-title": "Ann Oper Res"
+            },
+            {
+              "key": "62-1_CR39",
+              "volume-title": "Genetic algorithms in search, optimization and machine learning",
+              "author": "DE Goldberg",
+              "year": "1989",
+              "unstructured": "Goldberg DE (1989) Genetic algorithms in search, optimization and machine learning. Addison-Wesley, Boston, MA, US"
+            },
+            {
+              "key": "62-1_CR40",
+              "doi-asserted-by": "publisher",
+              "first-page": "487",
+              "DOI": "10.1007/s10732-010-9143-1",
+              "volume": "17",
+              "author": "JF Goncalves",
+              "year": "2011",
+              "unstructured": "Goncalves JF, Resende MGC (2011) Biased random-key genetic algorithms for combinatorial optimization. J Heuristics 17:487–525",
+              "journal-title": "J Heuristics"
+            },
+            {
+              "key": "62-1_CR41",
+              "doi-asserted-by": "publisher",
+              "first-page": "655",
+              "DOI": "10.1007/s10951-011-0244-y",
+              "volume": "14",
+              "author": "ACB Guedes",
+              "year": "2011",
+              "unstructured": "Guedes ACB, Ribeiro CC (2011) A heuristic for minimizing weighted carry-over effects in round robin tournaments. J Schedul 14:655–667",
+              "journal-title": "J Schedul"
+            },
+            {
+              "key": "62-1_CR42",
+              "series-title": "Lecture notes in artificial intelligence",
+              "doi-asserted-by": "publisher",
+              "first-page": "24",
+              "DOI": "10.1007/3-540-45612-0_2",
+              "volume-title": "Local search for planning and scheduling",
+              "author": "JP Hamiez",
+              "year": "2001",
+              "unstructured": "Hamiez JP, Hao JK (2001) Solving the sports league scheduling problem with tabu search. In: Nareyek A (ed) Local search for planning and scheduling. Lecture notes in artificial intelligence, vol 2148. Springer, New York City, New York, US, pp 24–36"
+            },
+            {
+              "key": "62-1_CR43",
+              "doi-asserted-by": "publisher",
+              "first-page": "415",
+              "DOI": "10.1007/978-1-4615-1507-4_19",
+              "volume-title": "Essays and surveys in metaheuristics",
+              "author": "P Hansen",
+              "year": "2002",
+              "unstructured": "Hansen P, Mladenović N (2002) Developments of variable neighborhood search. In: Ribeiro CC, Hansen P (eds) Essays and surveys in metaheuristics. Kluwer, Dordrecht, Netherlands, pp 415–439"
+            },
+            {
+              "key": "62-1_CR44",
+              "doi-asserted-by": "publisher",
+              "first-page": "145",
+              "DOI": "10.1007/0-306-48056-5_6",
+              "volume-title": "Handbook of metaheuristics",
+              "author": "P Hansen",
+              "year": "2003",
+              "unstructured": "Hansen P, Mladenović N (2003) Variable neighborhood search. In: Glover F, Kochenberger G (eds) Handbook of metaheuristics. Kluwer, Dordrecht, Netherlands, pp 145–184"
+            },
+            {
+              "key": "62-1_CR45",
+              "doi-asserted-by": "publisher",
+              "first-page": "287",
+              "DOI": "10.1007/0-306-48056-5_10",
+              "volume-title": "Handbook of metaheuristics",
+              "author": "D Henderson",
+              "year": "2003",
+              "unstructured": "Henderson D, Jacobson S, Johnson A (2003) The theory and practice of simulated annealing. In: Glover F, Kochenberger G (eds) Handbook of metaheuristics. Kluwer, Dordrecht, Netherlands, pp 287–319"
+            },
+            {
+              "key": "62-1_CR46",
+              "doi-asserted-by": "publisher",
+              "first-page": "163",
+              "DOI": "10.1287/opre.49.1.163.11193",
+              "volume": "49",
+              "author": "M Henz",
+              "year": "2001",
+              "unstructured": "Henz M (2001) Scheduling a major college basketball conference – revisited. Oper Res 49:163–168",
+              "journal-title": "Oper Res"
+            },
+            {
+              "doi-asserted-by": "crossref",
+              "unstructured": "Hertz A, Taillard E, de Werra D (1997) Tabu search. In: Aarts E, Lenstra JK (eds) Local search in combinatorial optimization. Wiley, Hoboken, New Jersey, U.S, pp 121–143",
+              "key": "62-1_CR47",
+              "DOI": "10.2307/j.ctv346t9c.10"
+            },
+            {
+              "key": "62-1_CR48",
+              "volume-title": "Adaptation in natural and artificial systems",
+              "author": "J Holland",
+              "year": "1975",
+              "unstructured": "Holland J (1975) Adaptation in natural and artificial systems. University of Michigan Press, Ann Arbor, Michigan, US"
+            },
+            {
+              "key": "62-1_CR49",
+              "doi-asserted-by": "publisher",
+              "first-page": "44",
+              "DOI": "10.1038/scientificamerican0792-66",
+              "volume": "267",
+              "author": "J Holland",
+              "year": "1992",
+              "unstructured": "Holland J (1992) Genetic algorithms. Sci Am 267:44–50",
+              "journal-title": "Sci Am"
+            },
+            {
+              "key": "62-1_CR50",
+              "volume-title": "Stochastic local search: foundations and applications",
+              "author": "H Hoos",
+              "year": "2005",
+              "unstructured": "Hoos H, Stützle T (2005) Stochastic local search: foundations and applications. Elsevier, Amsterdam, Netherlands"
+            },
+            {
+              "key": "62-1_CR51",
+              "doi-asserted-by": "publisher",
+              "first-page": "127",
+              "DOI": "10.1016/j.cor.2015.12.016",
+              "volume": "70",
+              "author": "T Januario",
+              "year": "2016",
+              "unstructured": "Januario T, Urrutia S (2016) A new neighborhood structure for round robin scheduling problems. Comput Oper Res 70:127–139",
+              "journal-title": "Comput Oper Res"
+            },
+            {
+              "key": "62-1_CR52",
+              "doi-asserted-by": "publisher",
+              "first-page": "1",
+              "DOI": "10.1016/j.ejor.2016.03.038",
+              "volume": "254",
+              "author": "T Januario",
+              "year": "2016",
+              "unstructured": "Januario T, Urrutia S, Ribeiro CC, de Werra D (2016) Edge coloring: a natural model for sports scheduling. Eur J Oper Res 254:1–8",
+              "journal-title": "Eur J Oper Res"
+            },
+            {
+              "key": "62-1_CR53",
+              "doi-asserted-by": "publisher",
+              "first-page": "113",
+              "DOI": "10.1016/j.dam.2016.04.018",
+              "volume": "211",
+              "author": "T Januario",
+              "year": "2016",
+              "unstructured": "Januario T, Urrutia S, de Werra D (2016) Sports scheduling search space connectivity: a riffle shuffle driven approach. Discret Appl Math 211:113–120",
+              "journal-title": "Discret Appl Math"
+            },
+            {
+              "key": "62-1_CR54",
+              "doi-asserted-by": "publisher",
+              "first-page": "484",
+              "DOI": "10.3938/jkps.61.484",
+              "volume": "61",
+              "author": "HM Jeong",
+              "year": "2012",
+              "unstructured": "Jeong HM, Kim SW, Choi Y, Kim AJ, Eun J, Kim BJ (2012) Traveling baseball players’ problem in Korea. J Korean Phys Soc 61:484–492",
+              "journal-title": "J Korean Phys Soc"
+            },
+            {
+              "key": "62-1_CR55",
+              "doi-asserted-by": "publisher",
+              "first-page": "1292",
+              "DOI": "10.1057/jors.2013.80",
+              "volume": "65",
+              "author": "M Johnston",
+              "year": "2014",
+              "unstructured": "Johnston M, Wright M (2014) Prior analysis and scheduling of the 2011 Rugby Union ITM Cup in New Zealand. J Oper Res Soc 65:1292–1300",
+              "journal-title": "J Oper Res Soc"
+            },
+            {
+              "key": "62-1_CR56",
+              "doi-asserted-by": "publisher",
+              "first-page": "147",
+              "DOI": "10.1002/jcd.20188",
+              "volume": "17",
+              "author": "P Kaski",
+              "year": "2009",
+              "unstructured": "Kaski P, Ostergard PRJ (2009) There are 1,132,835,421,602,062,347 nonisomorphic one-factorizations of K14. J Comb Des 17:147–159",
+              "journal-title": "J Comb Des"
+            },
+            {
+              "key": "62-1_CR57",
+              "series-title": "Studies in computational intelligence",
+              "doi-asserted-by": "publisher",
+              "first-page": "369",
+              "DOI": "10.1007/978-3-642-30671-6_14",
+              "volume-title": "Hybrid metaheuristics",
+              "author": "G Kendall",
+              "year": "2013",
+              "unstructured": "Kendall G, McCollum B, Cruz FRB, McMullan P, While L (2013) Scheduling English football fixtures: consideration of two conflicting objectives. In: Talbi EG (ed) Hybrid metaheuristics. Studies in computational intelligence, vol 434. Springer, New York City, New York, US, pp 369–385"
+            },
+            {
+              "key": "62-1_CR58",
+              "first-page": "191",
+              "volume": "2",
+              "author": "TP Kirkman",
+              "year": "1847",
+              "unstructured": "Kirkman TP (1847) On a problem in combinations. Camb Dublin Math J 2:191–204",
+              "journal-title": "Camb Dublin Math J"
+            },
+            {
+              "issue": "4598",
+              "key": "62-1_CR59",
+              "doi-asserted-by": "publisher",
+              "first-page": "671",
+              "DOI": "10.1126/science.220.4598.671",
+              "volume": "220",
+              "author": "S Kirkpatrick",
+              "year": "1983",
+              "unstructured": "Kirkpatrick S, Gelatt Jr C, Vecchi M (1983) Optimization by simulated annealing. Science 220(4598):671–680",
+              "journal-title": "Science"
+            },
+            {
+              "unstructured": "Knust S (2022) Classification of literature on sports scheduling. Online reference at http://www2.inf.uos.de/knust/sportssched/sportlit_class/, last access on 12 Sep 2022",
+              "key": "62-1_CR60"
+            },
+            {
+              "key": "62-1_CR61",
+              "doi-asserted-by": "publisher",
+              "first-page": "351",
+              "DOI": "10.1007/BF01788690",
+              "volume": "5",
+              "author": "M Kobayashi",
+              "year": "1989",
+              "unstructured": "Kobayashi M (1989) On perfect one-factorization of the complete graph K2p. Graphs Comb 5:351–353",
+              "journal-title": "Graphs Comb"
+            },
+            {
+              "doi-asserted-by": "crossref",
+              "unstructured": "Kyngäs J, Nurmi K (2009) Scheduling the Finnish major ice hockey league. In: Proceedings of the 2009 IEEE symposium on computational intelligence in scheduling. IEEE, pp 84–89",
+              "key": "62-1_CR62",
+              "DOI": "10.1109/SCIS.2009.4927019"
+            },
+            {
+              "key": "62-1_CR63",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1007/978-94-015-7744-1",
+              "volume-title": "Simulated annealing: theory and applications",
+              "author": "P van Laarhoven",
+              "year": "1987",
+              "unstructured": "van Laarhoven P, Aarts E (1987) Simulated annealing: theory and applications. Kluwer, Dordrecht, Netherlands"
+            },
+            {
+              "key": "62-1_CR64",
+              "doi-asserted-by": "publisher",
+              "first-page": "44",
+              "DOI": "10.1287/ijoc.11.1.44",
+              "volume": "11",
+              "author": "M Laguna",
+              "year": "1999",
+              "unstructured": "Laguna M, Martí R (1999) GRASP and path relinking for 2-layer straight line crossing minimization. INFORMS J Comput 11:44–52",
+              "journal-title": "INFORMS J Comput"
+            },
+            {
+              "key": "62-1_CR65",
+              "doi-asserted-by": "publisher",
+              "first-page": "190",
+              "DOI": "10.1016/j.cor.2010.04.012",
+              "volume": "38",
+              "author": "R Lewis",
+              "year": "2011",
+              "unstructured": "Lewis R, Thompson J (2011) On the application of graph colouring techniques in round-robin sports scheduling. Comput Oper Res 38:190–204",
+              "journal-title": "Comput Oper Res"
+            },
+            {
+              "key": "62-1_CR66",
+              "volume-title": "Grouping and scheduling multiple sports leagues: an integrated approach",
+              "author": "M Li",
+              "year": "2024",
+              "unstructured": "Li M, Goossens D (2024) Grouping and scheduling multiple sports leagues: an integrated approach. J Oper Res Soc. https://doi.org/10.1080/01605682.2024.2391516"
+            },
+            {
+              "key": "62-1_CR67",
+              "doi-asserted-by": "publisher",
+              "first-page": "313",
+              "DOI": "10.1016/j.ejor.2022.10.010",
+              "volume": "307",
+              "author": "M Li",
+              "year": "2023",
+              "unstructured": "Li M, Davari M, Goossens D (2023) Multi-league sports scheduling with different leagues sizes. Eur J Oper Res 307:313–327",
+              "journal-title": "Eur J Oper Res"
+            },
+            {
+              "key": "62-1_CR68",
+              "doi-asserted-by": "publisher",
+              "first-page": "171",
+              "DOI": "10.1016/j.ejor.2005.03.029",
+              "volume": "175",
+              "author": "A Lim",
+              "year": "2006",
+              "unstructured": "Lim A, Rodrigues B, Zhang X (2006) Scheduling sports competitions at multiple venues – revisited. Eur J Oper Res 175:171–186",
+              "journal-title": "Eur J Oper Res"
+            },
+            {
+              "key": "62-1_CR69",
+              "doi-asserted-by": "publisher",
+              "first-page": "1459",
+              "DOI": "10.1016/j.ejor.2005.02.065",
+              "volume": "174",
+              "author": "A Lim",
+              "year": "2006",
+              "unstructured": "Lim A, Rodrigues B, Zhang X (2006) A simulated annealing and hill-climbing algorithm for the traveling tournament problem. Eur J Oper Res 174:1459–1478",
+              "journal-title": "Eur J Oper Res"
+            },
+            {
+              "key": "62-1_CR70",
+              "doi-asserted-by": "publisher",
+              "first-page": "498",
+              "DOI": "10.1287/opre.21.2.498",
+              "volume": "21",
+              "author": "S Lin",
+              "year": "1973",
+              "unstructured": "Lin S, Kernighan B (1973) An effective heuristic algorithm for the traveling-salesman problem. Oper Res 21:498–516",
+              "journal-title": "Oper Res"
+            },
+            {
+              "key": "62-1_CR71",
+              "doi-asserted-by": "publisher",
+              "first-page": "1",
+              "DOI": "10.1016/j.ejor.2024.03.030",
+              "volume": "321",
+              "author": "MA Londe",
+              "year": "2035",
+              "unstructured": "Londe MA, Pessoa LS, Andrade CE, Resende MGC (2035) Biased random-key genetic algorithms: a review. Eur J Oper Res 321:1–22",
+              "journal-title": "Eur J Oper Res"
+            },
+            {
+              "key": "62-1_CR72",
+              "first-page": "321",
+              "volume-title": "Handbook of metaheuristics",
+              "author": "HR Lourenço",
+              "year": "2003",
+              "unstructured": "Lourenço HR, Martin OC, Stutzle T (2003) Iterated local search. In: Glover F, Kochenberger GA (eds) Handbook of metaheuristics. Kluwer, Dordrecht, Netherlands, pp 321–353"
+            },
+            {
+              "key": "62-1_CR73",
+              "doi-asserted-by": "publisher",
+              "first-page": "57",
+              "DOI": "10.1007/BF02601639",
+              "volume": "63",
+              "author": "OC Martin",
+              "year": "1996",
+              "unstructured": "Martin OC, Otto SW (1996) Combining simulated annealing with local search heuristics. Ann Oper Res 63:57–75",
+              "journal-title": "Ann Oper Res"
+            },
+            {
+              "key": "62-1_CR74",
+              "first-page": "299",
+              "volume": "5",
+              "author": "OC Martin",
+              "year": "1991",
+              "unstructured": "Martin OC, Otto SW, Felten EW (1991) Large-step Markov chains for the traveling salesman problem. Complex Syst 5:299–326",
+              "journal-title": "Complex Syst"
+            },
+            {
+              "key": "62-1_CR75",
+              "series-title": "Lecture notes in computer science",
+              "doi-asserted-by": "publisher",
+              "first-page": "205",
+              "DOI": "10.1007/978-3-540-30176-9_27",
+              "volume-title": "Applied computing",
+              "author": "SL Martins",
+              "year": "2004",
+              "unstructured": "Martins SL, Ribeiro CC, Rosseti I (2004) Applications and parallel implementations of metaheuristics in network design and routing. In: Manandhar S, Austin J, Desai U, Oyanagi Y, Talukder AK (eds) Applied computing. Lecture notes in computer science, vol 3285. Springer, New York City, New York, US, pp 205–213"
+            },
+            {
+              "key": "62-1_CR76",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1007/978-3-662-03315-9",
+              "volume-title": "Genetic algorithms + Data structures = Evolution programs",
+              "author": "Z Michalewicz",
+              "year": "1996",
+              "unstructured": "Michalewicz Z (1996) Genetic algorithms + Data structures = Evolution programs. Springer, New York City, New York, US"
+            },
+            {
+              "key": "62-1_CR77",
+              "volume-title": "Theoretical aspects of local search",
+              "author": "W Michiels",
+              "year": "2007",
+              "unstructured": "Michiels W, Aarts E, Korst J (2007) Theoretical aspects of local search. Springer, New York City, New York, US"
+            },
+            {
+              "key": "62-1_CR78",
+              "doi-asserted-by": "publisher",
+              "first-page": "1097",
+              "DOI": "10.1016/S0305-0548(97)00031-2",
+              "volume": "34",
+              "author": "N Mladenovic",
+              "year": "1997",
+              "unstructured": "Mladenovic N, Hansen P (1997) Variable neighborhood search. Comput Oper Res 34:1097–1100",
+              "journal-title": "Comput Oper Res"
+            },
+            {
+              "key": "62-1_CR79",
+              "doi-asserted-by": "publisher",
+              "first-page": "1",
+              "DOI": "10.1287/opre.46.1.1",
+              "volume": "46",
+              "author": "GL Nemhauser",
+              "year": "1998",
+              "unstructured": "Nemhauser GL, Trick MA (1998) Scheduling a major college basketball conference. Oper Res 46:1–8",
+              "journal-title": "Oper Res"
+            },
+            {
+              "key": "62-1_CR80",
+              "doi-asserted-by": "publisher",
+              "first-page": "110",
+              "DOI": "10.1145/3665065.3665083",
+              "volume-title": "ISMSI 2024: proceedings of the 2024 8th international conference on intelligent systems, metaheuristics & swarm intelligence (ISMSI)",
+              "author": "TF Noronha",
+              "year": "2024",
+              "unstructured": "Noronha TF, Ribeiro CC (2024) Biased random-key genetic algorithms: a tutorial with applications. In: ISMSI 2024: proceedings of the 2024 8th international conference on intelligent systems, metaheuristics & swarm intelligence (ISMSI). ACM, New York, pp 110–115"
+            },
+            {
+              "key": "62-1_CR81",
+              "doi-asserted-by": "publisher",
+              "first-page": "503",
+              "DOI": "10.1007/s10898-010-9608-7",
+              "volume": "50",
+              "author": "TF Noronha",
+              "year": "2011",
+              "unstructured": "Noronha TF, Resende MGC, Ribeiro CC (2011) A biased random-key genetic algorithm for routing and wavelength assignment. J Glob Optim 50:503–518",
+              "journal-title": "J Glob Optim"
+            },
+            {
+              "unstructured": "Phillips AE, O’Sullivan M, Walker C (2021) An adaptive large neighbourhood search matheuristic for the itc2021 sports timetabling competition. In: Proceedings of the 13th international conference on the practice and theory of automated timetabling-PATAT, vol 2",
+              "key": "62-1_CR82"
+            },
+            {
+              "key": "62-1_CR83",
+              "doi-asserted-by": "publisher",
+              "first-page": "949",
+              "DOI": "10.1007/s10898-020-00877-0",
+              "volume": "77",
+              "author": "BQ Pinto",
+              "year": "2020",
+              "unstructured": "Pinto BQ, Ribeiro CC, Rosseti I, Noronha TF (2020) A biased random-key genetic algorithm for routing and wavelength assignment under a sliding scheduled traffic model. J Glob Optim 77:949–973",
+              "journal-title": "J Glob Optim"
+            },
+            {
+              "key": "62-1_CR84",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1007/s10479-024-06285-x",
+              "volume-title": "Efficient iterated local search based metaheuristic approach for solving sports timetabling problems of International Timetabling Competition 2021",
+              "author": "IGA Premananda",
+              "year": "2024",
+              "unstructured": "Premananda IGA, Tjahyanto A, Mukhlason A (2024) Efficient iterated local search based metaheuristic approach for solving sports timetabling problems of International Timetabling Competition 2021. Ann Oper Res. https://doi.org/10.1007/s10479-024-06285-x"
+            },
+            {
+              "volume-title": "Modern heuristic techniques for combinatorial problems",
+              "year": "1993",
+              "unstructured": "Reeves C (ed) (1993) Modern heuristic techniques for combinatorial problems. Blackwell, Oxford, UK",
+              "key": "62-1_CR85"
+            },
+            {
+              "key": "62-1_CR86",
+              "first-page": "65",
+              "volume-title": "Handbook of metaheuristics",
+              "author": "C Reeves",
+              "year": "2003",
+              "unstructured": "Reeves C (2003) Genetic algorithms. In: Glover F, Kochenberger G (eds) Handbook of metaheuristics. Kluwer, Dordrecht, Netherlands, pp 65–82"
+            },
+            {
+              "key": "62-1_CR87",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1007/b101880",
+              "volume-title": "Genetic algorithms: principles and perspectives",
+              "author": "C Reeves",
+              "year": "2002",
+              "unstructured": "Reeves C, Rowe J (2002) Genetic algorithms: principles and perspectives. Springer, New York City, New York, US"
+            },
+            {
+              "key": "62-1_CR88",
+              "doi-asserted-by": "publisher",
+              "first-page": "45",
+              "DOI": "10.1162/evco.1998.6.1.45",
+              "volume": "6",
+              "author": "C Reeves",
+              "year": "1998",
+              "unstructured": "Reeves C, Yamada T (1998) Genetic algorithms, path relinking and the flowshop sequencing problem. Evol Comput 6:45–60",
+              "journal-title": "Evol Comput"
+            },
+            {
+              "key": "62-1_CR89",
+              "doi-asserted-by": "publisher",
+              "first-page": "104",
+              "DOI": "10.1002/net.10065",
+              "volume": "41",
+              "author": "MGC Resende",
+              "year": "2003",
+              "unstructured": "Resende MGC, Ribeiro CC (2003) A GRASP with path-relinking for private virtual circuit routing. Networks 41:104–114",
+              "journal-title": "Networks"
+            },
+            {
+              "key": "62-1_CR90",
+              "doi-asserted-by": "publisher",
+              "first-page": "219",
+              "DOI": "10.1007/0-306-48056-5_8",
+              "volume-title": "Handbook of metaheuristics",
+              "author": "MGC Resende",
+              "year": "2003",
+              "unstructured": "Resende MGC, Ribeiro CC (2003) Greedy randomized adaptive search procedures. In: Glover F, Kochenberger G (eds) Handbook of metaheuristics. Kluwer, Dordrecht, Netherlands, pp 219–249"
+            },
+            {
+              "key": "62-1_CR91",
+              "doi-asserted-by": "publisher",
+              "first-page": "29",
+              "DOI": "10.1007/0-387-25383-1_2",
+              "volume-title": "Metaheuristics: progress as real problem solvers",
+              "author": "MGC Resende",
+              "year": "2005",
+              "unstructured": "Resende MGC, Ribeiro CC (2005) GRASP with path-relinking: Recent advances and applications. In: Ibaraki T, Nonobe K, Yagiura M (eds) Metaheuristics: progress as real problem solvers. Springer, New York City, New York, US, pp 29–63"
+            },
+            {
+              "key": "62-1_CR92",
+              "first-page": "293",
+              "volume-title": "Handbook of metaheuristics",
+              "author": "MGC Resende",
+              "year": "2010",
+              "unstructured": "Resende MGC, Ribeiro CC (2010) Greedy randomized adaptive search procedures: advances and applications. In: Gendreau M, Potvin JY (eds) Handbook of metaheuristics, 2nd edn. Springer, New York City, New York, US, pp 293–319",
+              "edition": "2"
+            },
+            {
+              "key": "62-1_CR93",
+              "doi-asserted-by": "publisher",
+              "first-page": "287",
+              "DOI": "10.1007/978-1-4614-6940-7_11",
+              "volume-title": "Search methodologies: introductorial tutorials in optimization and decision support systems, chap 11",
+              "author": "MGC Resende",
+              "year": "2014",
+              "unstructured": "Resende MGC, Ribeiro CC (2014) GRASP: greedy randomized adaptive search procedures. In: Burke E, Kendall G (eds) Search methodologies: introductorial tutorials in optimization and decision support systems, chap 11, 2nd edn. Springer, New York City, New York, US, pp 287–312",
+              "edition": "2"
+            },
+            {
+              "doi-asserted-by": "crossref",
+              "unstructured": "Resende MGC, Ribeiro CC (2016) Biased-random key genetic algorithms: an advanced tutorial. In: Companion volume – proceedings of the 2016 genetic and evolutionary computation conference – GECCO’16. ACM, pp 483–514",
+              "key": "62-1_CR94",
+              "DOI": "10.1145/2908961.2926996"
+            },
+            {
+              "key": "62-1_CR95",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1007/978-1-4939-6530-4",
+              "volume-title": "Optimization by GRASP: greedy randomized adaptive search procedures",
+              "author": "MGC Resende",
+              "year": "2016",
+              "unstructured": "Resende MGC, Ribeiro CC (2016) Optimization by GRASP: greedy randomized adaptive search procedures. Springer, New York City, New York, US"
+            },
+            {
+              "key": "62-1_CR96",
+              "doi-asserted-by": "publisher",
+              "first-page": "59",
+              "DOI": "10.1023/B:HEUR.0000019986.96257.50",
+              "volume": "10",
+              "author": "MGC Resende",
+              "year": "2004",
+              "unstructured": "Resende MGC, Werneck RF (2004) A hybrid heuristic for the p-median problem. J Heuristics 10:59–88",
+              "journal-title": "J Heuristics"
+            },
+            {
+              "key": "62-1_CR97",
+              "first-page": "153",
+              "volume-title": "Optimisation approchée en recherche opérationnelle",
+              "author": "CC Ribeiro",
+              "year": "2002",
+              "unstructured": "Ribeiro CC (2002) GRASP: Une métaheuristique gloutone et probabiliste. In: Teghem J, Pirlot M (eds) Optimisation approchée en recherche opérationnelle, Hermès, Paris, France, pp 153–176"
+            },
+            {
+              "key": "62-1_CR98",
+              "series-title": "Lecture notes in computer science",
+              "doi-asserted-by": "publisher",
+              "first-page": "922",
+              "DOI": "10.1007/3-540-45706-2_131",
+              "volume-title": "Euro-Par 2002 parallel processing",
+              "author": "CC Ribeiro",
+              "year": "2002",
+              "unstructured": "Ribeiro CC, Rosseti I (2002) A parallel GRASP heuristic for the 2-path network design problem. In: Monien B, Feldmann R (eds) Euro-Par 2002 parallel processing. Lecture notes in computer science, vol 2400. Springer, New York City, New York, US, pp 922–926"
+            },
+            {
+              "key": "62-1_CR99",
+              "doi-asserted-by": "publisher",
+              "first-page": "21",
+              "DOI": "10.1016/j.parco.2006.11.007",
+              "volume": "33",
+              "author": "CC Ribeiro",
+              "year": "2007",
+              "unstructured": "Ribeiro CC, Rosseti I (2007) Efficient parallel cooperative implementations of GRASP heuristics. Parallel Comput 33:21–35",
+              "journal-title": "Parallel Comput"
+            },
+            {
+              "key": "62-1_CR100",
+              "doi-asserted-by": "publisher",
+              "first-page": "775",
+              "DOI": "10.1016/j.ejor.2005.03.061",
+              "volume": "179",
+              "author": "CC Ribeiro",
+              "year": "2007",
+              "unstructured": "Ribeiro CC, Urrutia S (2007) Heuristics for the mirrored traveling tournament problem. Eur J Oper Res 179:775–787",
+              "journal-title": "Eur J Oper Res"
+            },
+            {
+              "key": "62-1_CR101",
+              "doi-asserted-by": "publisher",
+              "first-page": "641",
+              "DOI": "10.1111/j.1475-3995.2009.00699.x",
+              "volume": "16",
+              "author": "CC Ribeiro",
+              "year": "2009",
+              "unstructured": "Ribeiro CC, Vianna DS (2009) A hybrid genetic algorithm for the phylogeny problem using path-relinking as a progressive crossover strategy. Int Trans Oper Res 16:641–657",
+              "journal-title": "Int Trans Oper Res"
+            },
+            {
+              "key": "62-1_CR102",
+              "doi-asserted-by": "publisher",
+              "first-page": "228",
+              "DOI": "10.1287/ijoc.14.3.228.116",
+              "volume": "14",
+              "author": "CC Ribeiro",
+              "year": "2002",
+              "unstructured": "Ribeiro CC, Uchoa E, Werneck R (2002) A hybrid GRASP with perturbations for the Steiner problem in graphs. INFORMS J Comput 14:228–246",
+              "journal-title": "INFORMS J Comput"
+            },
+            {
+              "key": "62-1_CR103",
+              "doi-asserted-by": "publisher",
+              "first-page": "656",
+              "DOI": "10.1016/j.comcom.2006.08.027",
+              "volume": "30",
+              "author": "CC Ribeiro",
+              "year": "2007",
+              "unstructured": "Ribeiro CC, Martins SL, Rosseti I (2007) Metaheuristics for optimization problems in computer communications. Comput Commun 30:656–669",
+              "journal-title": "Comput Commun"
+            },
+            {
+              "key": "62-1_CR104",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1007/978-3-031-37283-4",
+              "volume-title": "Combinatorial models for scheduling sports tournaments",
+              "author": "CC Ribeiro",
+              "year": "2023",
+              "unstructured": "Ribeiro CC, Urrutia S, de Werra D (2023) Combinatorial models for scheduling sports tournaments. Springer, New York City, New York, US"
+            },
+            {
+              "key": "62-1_CR105",
+              "doi-asserted-by": "publisher",
+              "first-page": "301",
+              "DOI": "10.1007/s10951-022-00740-y",
+              "volume": "25",
+              "author": "RM Rosati",
+              "year": "2022",
+              "unstructured": "Rosati RM, Petris M, Di Gaspero L, Schaerf A (2022) Multi-neighborhood simulated annealing for the sports timetabling competition ITC2021. J Schedul 25:301–319",
+              "journal-title": "J Schedul"
+            },
+            {
+              "doi-asserted-by": "crossref",
+              "unstructured": "Schönberger J, Mattfeld DC (2000) Automated timetable generation for rounds of a table-tennis league. In: Proceedings of the 2000 congress on evolutionary computation, pp 277–284",
+              "key": "62-1_CR106",
+              "DOI": "10.1109/CEC.2000.870307"
+            },
+            {
+              "key": "62-1_CR107",
+              "doi-asserted-by": "publisher",
+              "first-page": "102",
+              "DOI": "10.1016/S0377-2217(03)00102-4",
+              "volume": "153",
+              "author": "J Schönberger",
+              "year": "2004",
+              "unstructured": "Schönberger J, Mattfeld DC, Kopfer H (2004) Memetic algorithm timetabling for non-commercial sport leagues. Eur J Oper Res 153:102–116",
+              "journal-title": "Eur J Oper Res"
+            },
+            {
+              "key": "62-1_CR108",
+              "doi-asserted-by": "publisher",
+              "first-page": "627",
+              "DOI": "10.1007/978-1-4757-4137-7_30",
+              "volume-title": "Metaheuristics: computer decision making",
+              "author": "MC Souza",
+              "year": "2003",
+              "unstructured": "Souza MC, Duhamel C, Ribeiro CC (2003) A GRASP with path-relinking heuristic for the capacitated minimum spanning tree problem. In: Resende MGC, Souza J (eds) Metaheuristics: computer decision making. Kluwer, Dordrecht, Netherlands, pp 627–658"
+            },
+            {
+              "key": "62-1_CR109",
+              "series-title": "Lecture notes in computer science",
+              "doi-asserted-by": "publisher",
+              "first-page": "63",
+              "DOI": "10.1007/978-3-540-45157-0_4",
+              "volume-title": "Practice and theory of automated timetabling IV",
+              "author": "MA Trick",
+              "year": "2003",
+              "unstructured": "Trick MA (2003) Integer and constraint programming approaches for round robin tournament scheduling. In: Burke E, de Causmaecker P (eds) Practice and theory of automated timetabling IV. Lecture notes in computer science, vol 2740. Springer, New York City, New York, US, pp 63–77"
+            },
+            {
+              "key": "62-1_CR110",
+              "doi-asserted-by": "publisher",
+              "first-page": "286",
+              "DOI": "10.1016/j.ejor.2011.07.049",
+              "volume": "216",
+              "author": "MA Trick",
+              "year": "2012",
+              "unstructured": "Trick MA, Yildiz H (2012) Locally optimized crossover for the traveling umpire problem. Eur J Oper Res 216:286–292",
+              "journal-title": "Eur J Oper Res"
+            },
+            {
+              "key": "62-1_CR111",
+              "doi-asserted-by": "publisher",
+              "first-page": "232",
+              "DOI": "10.1287/inte.1100.0514",
+              "volume": "42",
+              "author": "MA Trick",
+              "year": "2012",
+              "unstructured": "Trick MA, Yildiz H, Yunes T (2012) Scheduling Major League Baseball umpires and the traveling umpire problem. Interfaces 42:232–244",
+              "journal-title": "Interfaces"
+            },
+            {
+              "key": "62-1_CR112",
+              "doi-asserted-by": "publisher",
+              "first-page": "36",
+              "DOI": "10.1016/j.tcs.2021.03.029",
+              "volume": "877",
+              "author": "S Urrutia",
+              "year": "2021",
+              "unstructured": "Urrutia S, de Werra D, Januario T (2021) Recoloring subgraphs of K2n for sports scheduling. Theor Comput Sci 877:36–45",
+              "journal-title": "Theor Comput Sci"
+            },
+            {
+              "key": "62-1_CR113",
+              "series-title": "Lecture notes in computer science",
+              "doi-asserted-by": "publisher",
+              "first-page": "243",
+              "DOI": "10.1007/978-3-540-87527-7_23",
+              "volume-title": "Ant colony optimization and swarm intelligence",
+              "author": "DC Uthus",
+              "year": "2008",
+              "unstructured": "Uthus DC, Riddle PJ, Guesgen HW (2008) Ant colony optimization and the single round robin maximum value problem. In: Dorigo M, Birattari M, Blum C, Clerc M, Stützle T, Winfield AFT (eds) Ant colony optimization and swarm intelligence. Lecture notes in computer science, vol 5217. Springer, New York City, New York, US, pp 243–250"
+            },
+            {
+              "doi-asserted-by": "crossref",
+              "unstructured": "Uthus DC, Riddle PJ, Guesgen HW (2009) An ant colony optimization approach to the traveling tournament problem. In: GECCO’09: proceedings of the 11th annual conference on genetic and evolutionary computation. ACM, pp 81–88",
+              "key": "62-1_CR114",
+              "DOI": "10.1145/1569901.1569913"
+            },
+            {
+              "key": "62-1_CR115",
+              "doi-asserted-by": "publisher",
+              "first-page": "1249",
+              "DOI": "10.1016/j.ejor.2022.11.046",
+              "volume": "308",
+              "author": "D Van Bulck",
+              "year": "2023",
+              "unstructured": "Van Bulck D, Goossen D (2023) The international timetabling competition on sports timetabling (ITC2021). Eur J Oper Res 308:1249–1267",
+              "journal-title": "Eur J Oper Res"
+            },
+            {
+              "key": "62-1_CR116",
+              "doi-asserted-by": "publisher",
+              "first-page": "326",
+              "DOI": "10.1016/j.orl.2023.03.014",
+              "volume": "51",
+              "author": "D Van Bulck",
+              "year": "2023",
+              "unstructured": "Van Bulck D, Goossens D (2023) First-break-heuristically-schedule: constructing highly-constrained sports timetables. Oper Res Lett 51:326–331",
+              "journal-title": "Oper Res Lett"
+            },
+            {
+              "key": "62-1_CR117",
+              "doi-asserted-by": "publisher",
+              "first-page": "715",
+              "DOI": "10.1007/s10479-018-3013-x",
+              "volume": "275",
+              "author": "D Van Bulck",
+              "year": "2019",
+              "unstructured": "Van Bulck D, Goossens DR, Spieksma F (2019) Scheduling a non-professional indoor football league: a tabu search based approach. Ann Oper Res 275:715–730",
+              "journal-title": "Ann Oper Res"
+            },
+            {
+              "key": "62-1_CR118",
+              "doi-asserted-by": "publisher",
+              "first-page": "575",
+              "DOI": "10.1016/j.ejor.2024.06.005",
+              "volume": "318",
+              "author": "D Van Bulck",
+              "year": "2024",
+              "unstructured": "Van Bulck D, Goossens D, Clarner JP, Dimitsas A, Fonseca GH, Lamas-Fernandez C, Lester MM, Pedersen J, Phillips AE, Rosati RM (2024) Which algorithm to select in sports timetabling? Eur J Oper Res 318:575–591",
+              "journal-title": "Eur J Oper Res"
+            },
+            {
+              "doi-asserted-by": "crossref",
+              "unstructured": "Van Hentenryck P, Vergados Y (2006) Traveling tournament scheduling: a systematic evaluation of simulated annealling. In: Integration of AI and OR techniques in constraint programming for combinatorial optimization problems. Lecture notes in computer science, vol 3990. Springer, New York City, New York, US, pp 228–243",
+              "key": "62-1_CR119",
+              "DOI": "10.1007/11757375_19"
+            },
+            {
+              "key": "62-1_CR120",
+              "first-page": "25",
+              "volume": "3",
+              "author": "VG Vizing",
+              "year": "1964",
+              "unstructured": "Vizing VG (1964) On an estimate of the chromatic class of a p-graph. Diskrete Analiz 3:25–30, in Russian",
+              "journal-title": "Diskrete Analiz"
+            },
+            {
+              "key": "62-1_CR121",
+              "doi-asserted-by": "publisher",
+              "first-page": "886",
+              "DOI": "10.1016/j.ejor.2014.04.043",
+              "volume": "238",
+              "author": "T Wauters",
+              "year": "2014",
+              "unstructured": "Wauters T, Malderen SV, Berghe GV (2014) Decomposition and local search based methods for the traveling umpire problem. Eur J Oper Res 238:886–898",
+              "journal-title": "Eur J Oper Res"
+            },
+            {
+              "key": "62-1_CR122",
+              "series-title": "Lecture notes in computer science",
+              "doi-asserted-by": "publisher",
+              "first-page": "842",
+              "DOI": "10.1007/978-3-319-10762-2_83",
+              "volume-title": "Parallel problem solving from nature – PPSN XIII",
+              "author": "L While",
+              "year": "2014",
+              "unstructured": "While L, Kendall G (2014) Scheduling the English football league with a multi-objective evolutionary algorithm. In: Bartz-Beielstein T, Branke J, Filipič B, Smith J (eds) Parallel problem solving from nature – PPSN XIII. Lecture notes in computer science, vol 8672. Springer, New York City, New York, US, pp 842–851"
+            },
+            {
+              "key": "62-1_CR123",
+              "doi-asserted-by": "publisher",
+              "first-page": "276",
+              "DOI": "10.1057/jors.1994.40",
+              "volume": "45",
+              "author": "RJ Willis",
+              "year": "1994",
+              "unstructured": "Willis RJ, Terrill BJ (1994) Scheduling the Australian state cricket season using simulated annealing. J Oper Res Soc 45:276–280",
+              "journal-title": "J Oper Res Soc"
+            },
+            {
+              "key": "62-1_CR124",
+              "doi-asserted-by": "publisher",
+              "first-page": "195",
+              "DOI": "10.1057/jors.1992.29",
+              "volume": "43",
+              "author": "M Wright",
+              "year": "1992",
+              "unstructured": "Wright M (1992) A fair allocation of county cricket opponents. J Oper Res Soc 43:195–201",
+              "journal-title": "J Oper Res Soc"
+            },
+            {
+              "key": "62-1_CR125",
+              "doi-asserted-by": "publisher",
+              "first-page": "758",
+              "DOI": "10.1057/jors.1994.120",
+              "volume": "45",
+              "author": "M Wright",
+              "year": "1994",
+              "unstructured": "Wright M (1994) Timetabling county cricket fixtures using a form of tabu search. J Oper Res Soc 45:758–770",
+              "journal-title": "J Oper Res Soc"
+            },
+            {
+              "key": "62-1_CR126",
+              "first-page": "99",
+              "volume": "16",
+              "author": "M Wright",
+              "year": "2005",
+              "unstructured": "Wright M (2005) Scheduling fixtures for New Zealand cricket. IMA J Manag Math 16: 99–112",
+              "journal-title": "IMA J Manag Math"
+            },
+            {
+              "key": "62-1_CR127",
+              "doi-asserted-by": "publisher",
+              "first-page": "1875",
+              "DOI": "10.1016/j.cor.2004.09.024",
+              "volume": "33",
+              "author": "M Wright",
+              "year": "2006",
+              "unstructured": "Wright M (2006) Scheduling fixtures for basketball New Zealand. Comput Oper Res 33:1875–1893",
+              "journal-title": "Comput Oper Res"
+            },
+            {
+              "key": "62-1_CR128",
+              "doi-asserted-by": "publisher",
+              "first-page": "1854",
+              "DOI": "10.1080/01605682.2017.1415642",
+              "volume": "69",
+              "author": "M Wright",
+              "year": "2018",
+              "unstructured": "Wright M (2018) Scheduling an amateur cricket league over a nine-year period. J Oper Res Soc 69:1854–1862",
+              "journal-title": "J Oper Res Soc"
+            },
+            {
+              "key": "62-1_CR129",
+              "first-page": "104",
+              "volume-title": "Pardalos P",
+              "author": "M Yagiura",
+              "year": "2002",
+              "unstructured": "Yagiura M, Ibaraki T (2002) Local search. In: Pardalos P, Resende M (eds) Handbook of applied optimization. Oxford University Press, pp 104–123"
+            },
+            {
+              "key": "62-1_CR130",
+              "doi-asserted-by": "publisher",
+              "first-page": "2937",
+              "DOI": "10.1016/j.cor.2007.01.004",
+              "volume": "35",
+              "author": "M Yavuz",
+              "year": "2008",
+              "unstructured": "Yavuz M, Inan UH, Figlali A (2008) Fair referee assignments for professional football leagues. Comput Oper Res 35:2937–2951",
+              "journal-title": "Comput Oper Res"
+            }
+          ],
+          "container-title": [
+            "Handbook of Heuristics"
+          ],
+          "language": "en",
+          "link": [
+            {
+              "URL": "https://link.springer.com/content/pdf/10.1007/978-3-319-07153-4_62-1",
+              "content-type": "unspecified",
+              "content-version": "vor",
+              "intended-application": "similarity-checking"
+            }
+          ],
+          "deposited": {
+            "date-parts": [
+              [
+                2025,
+                5,
+                12
+              ]
+            ],
+            "date-time": "2025-05-12T06:02:40Z",
+            "timestamp": 1747029760000
+          },
+          "score": 26.575718,
+          "resource": {
+            "primary": {
+              "URL": "https://link.springer.com/10.1007/978-3-319-07153-4_62-1"
+            }
+          },
+          "issued": {
+            "date-parts": [
+              [
+                2025
+              ]
+            ]
+          },
+          "ISBN": [
+            "9783319071534",
+            "9783319071534"
+          ],
+          "references-count": 130,
+          "URL": "https://doi.org/10.1007/978-3-319-07153-4_62-1",
+          "published": {
+            "date-parts": [
+              [
+                2025
+              ]
+            ]
+          },
+          "assertion": [
+            {
+              "value": "4 February 2025",
+              "order": 1,
+              "name": "first_online",
+              "label": "First Online",
+              "group": {
+                "name": "ChapterHistory",
+                "label": "Chapter History"
+              }
+            }
+          ]
+        },
+        {
+          "indexed": {
+            "date-parts": [
+              [
+                2026,
+                8,
+                11
+              ]
+            ],
+            "date-time": "2026-08-11T22:28:59Z",
+            "timestamp": 1786487339731,
+            "version": "build-2736575974"
+          },
+          "publisher-location": "Cham",
+          "reference-count": 130,
+          "publisher": "Springer Nature Switzerland",
+          "isbn-type": [
+            {
+              "value": "9783032003843",
+              "type": "print"
+            },
+            {
+              "value": "9783032003850",
+              "type": "electronic"
+            }
+          ],
+          "license": [
+            {
+              "start": {
+                "date-parts": [
+                  [
+                    2025,
+                    1,
+                    1
+                  ]
+                ],
+                "date-time": "2025-01-01T00:00:00Z",
+                "timestamp": 1735689600000
+              },
+              "content-version": "tdm",
+              "delay-in-days": 0,
+              "URL": "https://www.springernature.com/gp/researchers/text-and-data-mining"
+            },
+            {
+              "start": {
+                "date-parts": [
+                  [
+                    2025,
+                    1,
+                    1
+                  ]
+                ],
+                "date-time": "2025-01-01T00:00:00Z",
+                "timestamp": 1735689600000
+              },
+              "content-version": "vor",
+              "delay-in-days": 0,
+              "URL": "https://www.springernature.com/gp/researchers/text-and-data-mining"
+            }
+          ],
+          "content-domain": {
+            "domain": [
+              "link.springer.com"
+            ],
+            "crossmark-restriction": false
+          },
+          "published-print": {
+            "date-parts": [
+              [
+                2025
+              ]
+            ]
+          },
+          "DOI": "10.1007/978-3-032-00385-0_62",
+          "type": "book-chapter",
+          "created": {
+            "date-parts": [
+              [
+                2025,
+                10,
+                16
+              ]
+            ],
+            "date-time": "2025-10-16T16:46:13Z",
+            "timestamp": 1760633173000
+          },
+          "page": "1493-1522",
+          "update-policy": "https://doi.org/10.1007/springer_crossmark_policy",
+          "source": "Crossref",
+          "is-referenced-by-count": 0,
+          "title": [
+            "Metaheuristics for Problems in Sports Scheduling"
+          ],
+          "prefix": "10.1007",
+          "author": [
+            {
+              "given": "Celso C.",
+              "family": "Ribeiro",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Sebastián",
+              "family": "Urrutia",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Dominique",
+              "family": "de Werra",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            }
+          ],
+          "member": "297",
+          "published-online": {
+            "date-parts": [
+              [
+                2025,
+                10,
+                17
+              ]
+            ]
+          },
+          "reference": [
+            {
+              "key": "62_CR1",
+              "volume-title": "Simulated annealing and Boltzmann machines: a stochastic approach to combinatorial optimization and neural computing",
+              "author": "E Aarts",
+              "year": "1989",
+              "unstructured": "Aarts E, Korst J (1989) Simulated annealing and Boltzmann machines: a stochastic approach to combinatorial optimization and neural computing. Wiley, Hoboken, New Jersey, U.S"
+            },
+            {
+              "key": "62_CR2",
+              "first-page": "1",
+              "volume-title": "Essays and surveys in metaheuristics",
+              "author": "E Aarts",
+              "year": "2002",
+              "unstructured": "Aarts E, Korst J (2002) Selected topics in simulated annealing. In: Ribeiro CC, Hansen P (eds) Essays and surveys in metaheuristics. Kluwer, Dordrecht, Netherlands, pp 1–37"
+            },
+            {
+              "key": "62_CR3",
+              "doi-asserted-by": "crossref",
+              "first-page": "177",
+              "DOI": "10.1007/s10951-006-7187-8",
+              "volume": "9",
+              "author": "A Anagnostopoulos",
+              "year": "2006",
+              "unstructured": "Anagnostopoulos A, Michel L, Van Hentenryck P, Vergados Y (2006) A simulated annealing approach to the traveling tournament problem. J Schedul 9:177–193",
+              "journal-title": "J Schedul"
+            },
+            {
+              "key": "62_CR4",
+              "first-page": "15",
+              "volume-title": "Lagrange relaxation and constraint programming collaborative schemes for travelling tournament problems",
+              "author": "T Benoist",
+              "year": "2001",
+              "unstructured": "Benoist T, Laburthe F, Rottembourg B (2001) Lagrange relaxation and constraint programming collaborative schemes for travelling tournament problems. In: Proceedings of the third international workshop on integration of AI and OR techniques in constraint programming for combinatorial optimization problems, pp 15–26"
+            },
+            {
+              "key": "62_CR5",
+              "doi-asserted-by": "crossref",
+              "first-page": "245",
+              "DOI": "10.1287/inte.1110.0587",
+              "volume": "42",
+              "author": "F Bonomo",
+              "year": "2012",
+              "unstructured": "Bonomo F, Cardemil A, Durán G, Marenco J, Sabán D (2012) An application of the traveling tournament problem: the Argentine volleyball league. Interfaces 42:245–259",
+              "journal-title": "Interfaces"
+            },
+            {
+              "key": "62_CR6",
+              "doi-asserted-by": "crossref",
+              "first-page": "823",
+              "DOI": "10.1111/itor.12178",
+              "volume": "22",
+              "author": "JS Brandão",
+              "year": "2015",
+              "unstructured": "Brandão JS, Noronha TF, Resende MGC, Ribeiro CC (2015) A biased random-key genetic algorithm for single-round divisible load scheduling. Int Trans Oper Res 22:823–839",
+              "journal-title": "Int Trans Oper Res"
+            },
+            {
+              "key": "62_CR7",
+              "doi-asserted-by": "crossref",
+              "first-page": "1061",
+              "DOI": "10.1111/itor.12429",
+              "volume": "27",
+              "author": "JS Brandão",
+              "year": "2017",
+              "unstructured": "Brandão JS, Noronha TF, Resende MGC, Ribeiro CC (2017) A biased random-key genetic algorithm for scheduling heterogeneous multi-round systems. Int Trans Oper Res 27: 1061–1077",
+              "journal-title": "Int Trans Oper Res"
+            },
+            {
+              "key": "62_CR8",
+              "doi-asserted-by": "crossref",
+              "first-page": "36",
+              "DOI": "10.1002/net.20070",
+              "volume": "46",
+              "author": "LS Buriol",
+              "year": "2005",
+              "unstructured": "Buriol LS, Resende MGC, Ribeiro CC, Thorup M (2005) A hybrid genetic algorithm for the weight setting problem in OSPF/IS-IS routing. Networks 46:36–56",
+              "journal-title": "Networks"
+            },
+            {
+              "key": "62_CR9",
+              "volume-title": "Search methodologies: introductory tutorials in optimization and decision support techniques",
+              "year": "2005",
+              "unstructured": "Burke E, Kendall G (eds) (2005) Search methodologies: introductory tutorials in optimization and decision support techniques. Springer, New York City, New York, US"
+            },
+            {
+              "key": "62_CR10",
+              "volume-title": "Search methodologies: introductorial tutorials in optimization and decision support techniques, 2nd edn",
+              "year": "2014",
+              "unstructured": "Burke E, Kendall G (eds) (2014) Search methodologies: introductorial tutorials in optimization and decision support techniques, 2nd edn. Springer, New York City, New York, US"
+            },
+            {
+              "key": "62_CR11",
+              "doi-asserted-by": "crossref",
+              "first-page": "50",
+              "DOI": "10.1002/net.1023",
+              "volume": "38",
+              "author": "S Canuto",
+              "year": "2001",
+              "unstructured": "Canuto S, Resende MGC, Ribeiro CC (2001) Local search with perturbations for the prize-collecting Steiner tree problem in graphs. Networks 38:50–58",
+              "journal-title": "Networks"
+            },
+            {
+              "key": "62_CR12",
+              "first-page": "161",
+              "volume": "33",
+              "author": "D Costa",
+              "year": "1995",
+              "unstructured": "Costa D (1995) An evolutionary tabu search algorithm and the NHL scheduling problem. INFOR 33:161–178",
+              "journal-title": "INFOR"
+            },
+            {
+              "key": "62_CR13",
+              "unstructured": "Costa FN, Urrutia S, Ribeiro CC (2008) An ILS heuristic for the traveling tournament problem with fixed venues. In: Burke EK, Gendreau M (eds) Proceedings of the 7th international conference on the practice and theory of automated timetabling"
+            },
+            {
+              "key": "62_CR14",
+              "doi-asserted-by": "publisher",
+              "first-page": "137",
+              "DOI": "10.1007/s10479-010-0719-9",
+              "volume": "194",
+              "author": "FN Costa",
+              "year": "2012",
+              "unstructured": "Costa FN, Urrutia S, Ribeiro CC (2012) An ILS heuristic for the traveling tournament problem with predefined venues. Ann Oper Res 194:137–150",
+              "journal-title": "Ann Oper Res"
+            },
+            {
+              "key": "62_CR15",
+              "series-title": "Lecture notes in computer science",
+              "doi-asserted-by": "crossref",
+              "first-page": "150",
+              "DOI": "10.1007/11890584_12",
+              "volume-title": "Hybrid metaheuristics",
+              "author": "C Cotta",
+              "year": "2006",
+              "unstructured": "Cotta C, Dotú I, Fernández AJ, Van Hentenryck P (2006) Scheduling social golfers with memetic evolutionary programming. In: Almeida F, Aguilera MJB, Blum C, Moreno Vega JM, Pérez Pérez M, Roli A, Sampels M (eds) Hybrid metaheuristics. Lecture notes in computer science, vol 4030. Springer, New York City, New York, US, pp 150–161"
+            },
+            {
+              "key": "62_CR16",
+              "series-title": "Lecture notes in computer science",
+              "doi-asserted-by": "crossref",
+              "first-page": "381",
+              "DOI": "10.1007/978-3-642-10439-8_39",
+              "volume-title": "AI 2009: advances in artificial intelligence",
+              "author": "S Craig",
+              "year": "2009",
+              "unstructured": "Craig S, While L, Barone L (2009) Scheduling for the National Hockey League using a multi-objective evolutionary algorithm. In: Nicholson A, Li X (eds) AI 2009: advances in artificial intelligence. Lecture notes in computer science, vol 5866. Springer, New York City, New York, US, pp 381–390"
+            },
+            {
+              "key": "62_CR17",
+              "doi-asserted-by": "crossref",
+              "first-page": "791",
+              "DOI": "10.1287/opre.6.6.791",
+              "volume": "6",
+              "author": "G Croes",
+              "year": "1958",
+              "unstructured": "Croes G (1958) A method for solving traveling-salesman problems. Oper Res 6:791–812",
+              "journal-title": "Oper Res"
+            },
+            {
+              "key": "62_CR18",
+              "doi-asserted-by": "publisher",
+              "first-page": "349",
+              "DOI": "10.1023/A:1018999101596",
+              "volume": "92",
+              "author": "F Della Croce",
+              "year": "1999",
+              "unstructured": "Della Croce F, Tadei R, Asioli P (1999) Scheduling a round robin tennis tournament under courts and players availability constraints. Ann Oper Res 92:349–361",
+              "journal-title": "Ann Oper Res"
+            },
+            {
+              "key": "62_CR19",
+              "doi-asserted-by": "publisher",
+              "first-page": "189",
+              "DOI": "10.1007/s10732-006-9007-x",
+              "volume": "13",
+              "author": "L Di Gaspero",
+              "year": "2007",
+              "unstructured": "Di Gaspero L, Schaerf A (2007) A composite-neighborhood tabu search approach to the traveling tournament problem. J Heuristics 13:189–207",
+              "journal-title": "J Heuristics"
+            },
+            {
+              "key": "62_CR20",
+              "doi-asserted-by": "crossref",
+              "first-page": "273",
+              "DOI": "10.1002/jcd.3180020406",
+              "volume": "2",
+              "author": "JH Dinitz",
+              "year": "1994",
+              "unstructured": "Dinitz JH, Garnick DK, McKay BD (1994) There are 526,915,620 nonisomorphic one-factorizations of $$K_{12}$$. J Comb Des 2:273–285",
+              "journal-title": "J Comb Des"
+            },
+            {
+              "key": "62_CR21",
+              "unstructured": "van Doornmalen J, Hojny C, Lambers R, Spieksma F (2021) A hybrid model to find schedules for double round robin tournaments with side constraints. In: Proceedings of the 13th international conference on the practice and theory of automated timetabling-PATAT 2021, p 412"
+            },
+            {
+              "key": "62_CR22",
+              "unstructured": "Duarte AR, Ribeiro CC (2008) Referee assignment in sports leagues: approximate and exact multi-objective approaches. In: 19th international conference on multiple criteria decision making, Auckland, pp 58–60"
+            },
+            {
+              "key": "62_CR23",
+              "series-title": "Lecture notes in computer science",
+              "doi-asserted-by": "crossref",
+              "first-page": "82",
+              "DOI": "10.1007/978-3-540-75514-2_7",
+              "volume-title": "Hybrid metaheuristics",
+              "author": "AR Duarte",
+              "year": "2007",
+              "unstructured": "Duarte AR, Ribeiro CC, Urrutia S (2007) A hybrid ILS heuristic to the referee assignment problem with an embedded MIP strategy. In: Bartz-Beielstein T, Aguilera MJB, Blum C, Naujoks B, Roli A, Rudolph G, Sampels M (eds) Hybrid metaheuristics. Lecture notes in computer science, vol 4771. Springer, New York City, New York, US, pp 82–95"
+            },
+            {
+              "key": "62_CR24",
+              "series-title": "Lecture notes in computer science",
+              "doi-asserted-by": "crossref",
+              "first-page": "158",
+              "DOI": "10.1007/978-3-540-77345-0_11",
+              "volume-title": "Practice and theory of automated timetabling VI",
+              "author": "AR Duarte",
+              "year": "2007",
+              "unstructured": "Duarte AR, Ribeiro CC, Urrutia S, Haeusler EH (2007) Referee assignment in sports leagues. In: Burke EK, Rudová H (eds) Practice and theory of automated timetabling VI. Lecture notes in computer science, vol 3867. Springer, New York City, New York, US, pp 158–173"
+            },
+            {
+              "key": "62_CR25",
+              "doi-asserted-by": "crossref",
+              "first-page": "67",
+              "DOI": "10.1016/0167-6377(89)90002-3",
+              "volume": "8",
+              "author": "TA Feo",
+              "year": "1989",
+              "unstructured": "Feo TA, Resende MGC (1989) A probabilistic heuristic for a computationally difficult set covering problem. Oper Res Lett 8:67–71",
+              "journal-title": "Oper Res Lett"
+            },
+            {
+              "key": "62_CR26",
+              "doi-asserted-by": "publisher",
+              "first-page": "109",
+              "DOI": "10.1007/BF01096763",
+              "volume": "6",
+              "author": "TA Feo",
+              "year": "1995",
+              "unstructured": "Feo TA, Resende MGC (1995) Greedy randomized adaptive search procedures. J Glob Optim 6:109–133",
+              "journal-title": "J Glob Optim"
+            },
+            {
+              "key": "62_CR27",
+              "doi-asserted-by": "crossref",
+              "first-page": "325",
+              "DOI": "10.1007/978-1-4615-1507-4_15",
+              "volume-title": "Essays and surveys in metaheuristics",
+              "author": "P Festa",
+              "year": "2002",
+              "unstructured": "Festa P, Resende MGC (2002) GRASP: an annotated bibliography. In: Ribeiro CC, Hansen P (eds) Essays and surveys in metaheuristics. Kluwer, Dordrecht, Netherlands, pp 325–367"
+            },
+            {
+              "key": "62_CR28",
+              "doi-asserted-by": "crossref",
+              "first-page": "131",
+              "DOI": "10.1111/j.1475-3995.2009.00664.x",
+              "volume": "16",
+              "author": "P Festa",
+              "year": "2009",
+              "unstructured": "Festa P, Resende MGC (2009) An annotated bibliography of GRASP, Part II: applications. Int Trans Oper Res 16:131–172",
+              "journal-title": "Int Trans Oper Res"
+            },
+            {
+              "key": "62_CR29",
+              "doi-asserted-by": "crossref",
+              "first-page": "1033",
+              "DOI": "10.1080/1055678021000090033",
+              "volume": "7",
+              "author": "P Festa",
+              "year": "2002",
+              "unstructured": "Festa P, Pardalos P, Resende MGC, Ribeiro CC (2002) Randomized heuristics for the max-cut problem. Optim Methods Softw 7:1033–1058",
+              "journal-title": "Optim Methods Softw"
+            },
+            {
+              "key": "62_CR30",
+              "volume-title": "Handbook of metaheuristics, 3rd edn",
+              "year": "2019",
+              "unstructured": "Gendreau M, Potvin JY (eds) (2019) Handbook of metaheuristics, 3rd edn. Springer, New York City, New York, US"
+            },
+            {
+              "key": "62_CR31",
+              "doi-asserted-by": "crossref",
+              "first-page": "190",
+              "DOI": "10.1287/ijoc.1.3.190",
+              "volume": "1",
+              "author": "F Glover",
+              "year": "1989",
+              "unstructured": "Glover F (1989) Tabu search – Part I. ORSA J Comput 1:190–206",
+              "journal-title": "ORSA J Comput"
+            },
+            {
+              "key": "62_CR32",
+              "doi-asserted-by": "crossref",
+              "first-page": "4",
+              "DOI": "10.1287/ijoc.2.1.4",
+              "volume": "2",
+              "author": "F Glover",
+              "year": "1990",
+              "unstructured": "Glover F (1990) Tabu search – Part II. ORSA J Comput 2:4–32",
+              "journal-title": "ORSA J Comput"
+            },
+            {
+              "key": "62_CR33",
+              "first-page": "1",
+              "volume-title": "Interfaces in computer science and operations research",
+              "author": "F Glover",
+              "year": "1996",
+              "unstructured": "Glover F (1996) Tabu search and adaptive memory programming – advances, applications and challenges. In: Barr R, Helgason R, Kennington J (eds) Interfaces in computer science and operations research. Kluwer, Dordrecht, Netherlands, pp 1–75"
+            },
+            {
+              "key": "62_CR34",
+              "doi-asserted-by": "crossref",
+              "first-page": "1306",
+              "DOI": "10.1287/ijoc.2022.1187",
+              "volume": "34",
+              "author": "F Glover",
+              "year": "2022",
+              "unstructured": "Glover F (2022) Unforeseen consequences of “Tabu” choices – a retrospective. INFORMS J Comput 34:1306–1308",
+              "journal-title": "INFORMS J Comput"
+            },
+            {
+              "key": "62_CR35",
+              "volume-title": "Handbook of metaheuristics",
+              "year": "2003",
+              "unstructured": "Glover F, Kochenberger G (eds) (2003) Handbook of metaheuristics. Kluwer, Dordrecht, Netherlands"
+            },
+            {
+              "key": "62_CR36",
+              "doi-asserted-by": "crossref",
+              "DOI": "10.1007/978-1-4615-6089-0",
+              "volume-title": "Tabu search",
+              "author": "F Glover",
+              "year": "1997",
+              "unstructured": "Glover F, Laguna M (1997) Tabu search. Kluwer, Dordrecht, Netherlands"
+            },
+            {
+              "key": "62_CR37",
+              "doi-asserted-by": "crossref",
+              "first-page": "3",
+              "DOI": "10.1007/BF02078647",
+              "volume": "41",
+              "author": "F Glover",
+              "year": "1993",
+              "unstructured": "Glover F, Taillard E, de Werra D (1993) A user’s guide to tabu search. Ann Oper Res 41:3–28",
+              "journal-title": "Ann Oper Res"
+            },
+            {
+              "key": "62_CR38",
+              "doi-asserted-by": "publisher",
+              "first-page": "343",
+              "DOI": "10.1007/s10479-014-1586-6",
+              "volume": "239",
+              "author": "M Goerigk",
+              "year": "2016",
+              "unstructured": "Goerigk M, Westphal S (2016) A combined local search and integer programming approach to the traveling tournament problem. Ann Oper Res 239:343–354",
+              "journal-title": "Ann Oper Res"
+            },
+            {
+              "key": "62_CR39",
+              "volume-title": "Genetic algorithms in search, optimization and machine learning",
+              "author": "DE Goldberg",
+              "year": "1989",
+              "unstructured": "Goldberg DE (1989) Genetic algorithms in search, optimization and machine learning. Addison-Wesley, Boston, MA, US"
+            },
+            {
+              "key": "62_CR40",
+              "doi-asserted-by": "publisher",
+              "first-page": "487",
+              "DOI": "10.1007/s10732-010-9143-1",
+              "volume": "17",
+              "author": "JF Goncalves",
+              "year": "2011",
+              "unstructured": "Goncalves JF, Resende MGC (2011) Biased random-key genetic algorithms for combinatorial optimization. J Heuristics 17:487–525",
+              "journal-title": "J Heuristics"
+            },
+            {
+              "key": "62_CR41",
+              "doi-asserted-by": "crossref",
+              "first-page": "655",
+              "DOI": "10.1007/s10951-011-0244-y",
+              "volume": "14",
+              "author": "ACB Guedes",
+              "year": "2011",
+              "unstructured": "Guedes ACB, Ribeiro CC (2011) A heuristic for minimizing weighted carry-over effects in round robin tournaments. J Schedul 14:655–667",
+              "journal-title": "J Schedul"
+            },
+            {
+              "key": "62_CR42",
+              "series-title": "Lecture notes in artificial intelligence",
+              "doi-asserted-by": "crossref",
+              "first-page": "24",
+              "DOI": "10.1007/3-540-45612-0_2",
+              "volume-title": "Local search for planning and scheduling",
+              "author": "JP Hamiez",
+              "year": "2001",
+              "unstructured": "Hamiez JP, Hao JK (2001) Solving the sports league scheduling problem with tabu search. In: Nareyek A (ed) Local search for planning and scheduling. Lecture notes in artificial intelligence, vol 2148. Springer, New York City, New York, US, pp 24–36"
+            },
+            {
+              "key": "62_CR43",
+              "doi-asserted-by": "crossref",
+              "first-page": "415",
+              "DOI": "10.1007/978-1-4615-1507-4_19",
+              "volume-title": "Essays and surveys in metaheuristics",
+              "author": "P Hansen",
+              "year": "2002",
+              "unstructured": "Hansen P, Mladenović N (2002) Developments of variable neighborhood search. In: Ribeiro CC, Hansen P (eds) Essays and surveys in metaheuristics. Kluwer, Dordrecht, Netherlands, pp 415–439"
+            },
+            {
+              "key": "62_CR44",
+              "doi-asserted-by": "crossref",
+              "first-page": "145",
+              "DOI": "10.1007/0-306-48056-5_6",
+              "volume-title": "Handbook of metaheuristics",
+              "author": "P Hansen",
+              "year": "2003",
+              "unstructured": "Hansen P, Mladenović N (2003) Variable neighborhood search. In: Glover F, Kochenberger G (eds) Handbook of metaheuristics. Kluwer, Dordrecht, Netherlands, pp 145–184"
+            },
+            {
+              "key": "62_CR45",
+              "doi-asserted-by": "crossref",
+              "first-page": "287",
+              "DOI": "10.1007/0-306-48056-5_10",
+              "volume-title": "Handbook of metaheuristics",
+              "author": "D Henderson",
+              "year": "2003",
+              "unstructured": "Henderson D, Jacobson S, Johnson A (2003) The theory and practice of simulated annealing. In: Glover F, Kochenberger G (eds) Handbook of metaheuristics. Kluwer, Dordrecht, Netherlands, pp 287–319"
+            },
+            {
+              "key": "62_CR46",
+              "doi-asserted-by": "crossref",
+              "first-page": "163",
+              "DOI": "10.1287/opre.49.1.163.11193",
+              "volume": "49",
+              "author": "M Henz",
+              "year": "2001",
+              "unstructured": "Henz M (2001) Scheduling a major college basketball conference – revisited. Oper Res 49:163–168",
+              "journal-title": "Oper Res"
+            },
+            {
+              "key": "62_CR47",
+              "doi-asserted-by": "crossref",
+              "unstructured": "Hertz A, Taillard E, de Werra D (1997) Tabu search. In: Aarts E, Lenstra JK (eds) Local search in combinatorial optimization. Wiley, Hoboken, New Jersey, U.S, pp 121–143",
+              "DOI": "10.2307/j.ctv346t9c.10"
+            },
+            {
+              "key": "62_CR48",
+              "volume-title": "Adaptation in natural and artificial systems",
+              "author": "J Holland",
+              "year": "1975",
+              "unstructured": "Holland J (1975) Adaptation in natural and artificial systems. University of Michigan Press, Ann Arbor, Michigan, US"
+            },
+            {
+              "key": "62_CR49",
+              "doi-asserted-by": "crossref",
+              "first-page": "44",
+              "DOI": "10.1038/scientificamerican0792-66",
+              "volume": "267",
+              "author": "J Holland",
+              "year": "1992",
+              "unstructured": "Holland J (1992) Genetic algorithms. Sci Am 267:44–50",
+              "journal-title": "Sci Am"
+            },
+            {
+              "key": "62_CR50",
+              "volume-title": "Stochastic local search: foundations and applications",
+              "author": "H Hoos",
+              "year": "2005",
+              "unstructured": "Hoos H, Stützle T (2005) Stochastic local search: foundations and applications. Elsevier, Amsterdam, Netherlands"
+            },
+            {
+              "key": "62_CR51",
+              "doi-asserted-by": "crossref",
+              "first-page": "127",
+              "DOI": "10.1016/j.cor.2015.12.016",
+              "volume": "70",
+              "author": "T Januario",
+              "year": "2016",
+              "unstructured": "Januario T, Urrutia S (2016) A new neighborhood structure for round robin scheduling problems. Comput Oper Res 70:127–139",
+              "journal-title": "Comput Oper Res"
+            },
+            {
+              "key": "62_CR52",
+              "doi-asserted-by": "crossref",
+              "first-page": "1",
+              "DOI": "10.1016/j.ejor.2016.03.038",
+              "volume": "254",
+              "author": "T Januario",
+              "year": "2016",
+              "unstructured": "Januario T, Urrutia S, Ribeiro CC, de Werra D (2016) Edge coloring: a natural model for sports scheduling. Eur J Oper Res 254:1–8",
+              "journal-title": "Eur J Oper Res"
+            },
+            {
+              "key": "62_CR53",
+              "doi-asserted-by": "crossref",
+              "first-page": "113",
+              "DOI": "10.1016/j.dam.2016.04.018",
+              "volume": "211",
+              "author": "T Januario",
+              "year": "2016",
+              "unstructured": "Januario T, Urrutia S, de Werra D (2016) Sports scheduling search space connectivity: a riffle shuffle driven approach. Discret Appl Math 211:113–120",
+              "journal-title": "Discret Appl Math"
+            },
+            {
+              "key": "62_CR54",
+              "doi-asserted-by": "publisher",
+              "first-page": "484",
+              "DOI": "10.3938/jkps.61.484",
+              "volume": "61",
+              "author": "HM Jeong",
+              "year": "2012",
+              "unstructured": "Jeong HM, Kim SW, Choi Y, Kim AJ, Eun J, Kim BJ (2012) Traveling baseball players’ problem in Korea. J Korean Phys Soc 61:484–492",
+              "journal-title": "J Korean Phys Soc"
+            },
+            {
+              "key": "62_CR55",
+              "doi-asserted-by": "publisher",
+              "first-page": "1292",
+              "DOI": "10.1057/jors.2013.80",
+              "volume": "65",
+              "author": "M Johnston",
+              "year": "2014",
+              "unstructured": "Johnston M, Wright M (2014) Prior analysis and scheduling of the 2011 Rugby Union ITM Cup in New Zealand. J Oper Res Soc 65:1292–1300",
+              "journal-title": "J Oper Res Soc"
+            },
+            {
+              "key": "62_CR56",
+              "doi-asserted-by": "crossref",
+              "first-page": "147",
+              "DOI": "10.1002/jcd.20188",
+              "volume": "17",
+              "author": "P Kaski",
+              "year": "2009",
+              "unstructured": "Kaski P, Ostergard PRJ (2009) There are 1,132,835,421,602,062,347 nonisomorphic one-factorizations of $$K_{14}$$. J Comb Des 17:147–159",
+              "journal-title": "J Comb Des"
+            },
+            {
+              "key": "62_CR57",
+              "series-title": "Studies in computational intelligence",
+              "doi-asserted-by": "crossref",
+              "first-page": "369",
+              "DOI": "10.1007/978-3-642-30671-6_14",
+              "volume-title": "Hybrid metaheuristics",
+              "author": "G Kendall",
+              "year": "2013",
+              "unstructured": "Kendall G, McCollum B, Cruz FRB, McMullan P, While L (2013) Scheduling English football fixtures: consideration of two conflicting objectives. In: Talbi EG (ed) Hybrid metaheuristics. Studies in computational intelligence, vol 434. Springer, New York City, New York, US, pp 369–385"
+            },
+            {
+              "key": "62_CR58",
+              "first-page": "191",
+              "volume": "2",
+              "author": "TP Kirkman",
+              "year": "1847",
+              "unstructured": "Kirkman TP (1847) On a problem in combinations. Camb Dublin Math J 2:191–204",
+              "journal-title": "Camb Dublin Math J"
+            },
+            {
+              "issue": "4598",
+              "key": "62_CR59",
+              "doi-asserted-by": "crossref",
+              "first-page": "671",
+              "DOI": "10.1126/science.220.4598.671",
+              "volume": "220",
+              "author": "S Kirkpatrick",
+              "year": "1983",
+              "unstructured": "Kirkpatrick S, Gelatt Jr C, Vecchi M (1983) Optimization by simulated annealing. Science 220(4598):671–680",
+              "journal-title": "Science"
+            },
+            {
+              "key": "62_CR60",
+              "unstructured": "Knust S (2022) Classification of literature on sports scheduling. Online reference at http://www2.inf.uos.de/knust/sportssched/sportlit_class/, last access on 12 Sep 2022"
+            },
+            {
+              "key": "62_CR61",
+              "doi-asserted-by": "crossref",
+              "first-page": "351",
+              "DOI": "10.1007/BF01788690",
+              "volume": "5",
+              "author": "M Kobayashi",
+              "year": "1989",
+              "unstructured": "Kobayashi M (1989) On perfect one-factorization of the complete graph K$$_{2p}$$. Graphs Comb 5:351–353",
+              "journal-title": "Graphs Comb"
+            },
+            {
+              "key": "62_CR62",
+              "doi-asserted-by": "crossref",
+              "unstructured": "Kyngäs J, Nurmi K (2009) Scheduling the Finnish major ice hockey league. In: Proceedings of the 2009 IEEE symposium on computational intelligence in scheduling. IEEE, pp 84–89",
+              "DOI": "10.1109/SCIS.2009.4927019"
+            },
+            {
+              "key": "62_CR63",
+              "doi-asserted-by": "crossref",
+              "DOI": "10.1007/978-94-015-7744-1",
+              "volume-title": "Simulated annealing: theory and applications",
+              "author": "P van Laarhoven",
+              "year": "1987",
+              "unstructured": "van Laarhoven P, Aarts E (1987) Simulated annealing: theory and applications. Kluwer, Dordrecht, Netherlands"
+            },
+            {
+              "key": "62_CR64",
+              "doi-asserted-by": "crossref",
+              "first-page": "44",
+              "DOI": "10.1287/ijoc.11.1.44",
+              "volume": "11",
+              "author": "M Laguna",
+              "year": "1999",
+              "unstructured": "Laguna M, Martí R (1999) GRASP and path relinking for 2-layer straight line crossing minimization. INFORMS J Comput 11:44–52",
+              "journal-title": "INFORMS J Comput"
+            },
+            {
+              "key": "62_CR65",
+              "doi-asserted-by": "crossref",
+              "first-page": "190",
+              "DOI": "10.1016/j.cor.2010.04.012",
+              "volume": "38",
+              "author": "R Lewis",
+              "year": "2011",
+              "unstructured": "Lewis R, Thompson J (2011) On the application of graph colouring techniques in round-robin sports scheduling. Comput Oper Res 38:190–204",
+              "journal-title": "Comput Oper Res"
+            },
+            {
+              "key": "62_CR66",
+              "volume-title": "Grouping and scheduling multiple sports leagues: an integrated approach",
+              "author": "M Li",
+              "year": "2024",
+              "unstructured": "Li M, Goossens D (2024) Grouping and scheduling multiple sports leagues: an integrated approach. J Oper Res Soc. https://doi.org/10.1080/01605682.2024.2391516"
+            },
+            {
+              "key": "62_CR67",
+              "doi-asserted-by": "crossref",
+              "first-page": "313",
+              "DOI": "10.1016/j.ejor.2022.10.010",
+              "volume": "307",
+              "author": "M Li",
+              "year": "2023",
+              "unstructured": "Li M, Davari M, Goossens D (2023) Multi-league sports scheduling with different leagues sizes. Eur J Oper Res 307:313–327",
+              "journal-title": "Eur J Oper Res"
+            },
+            {
+              "key": "62_CR68",
+              "doi-asserted-by": "crossref",
+              "first-page": "171",
+              "DOI": "10.1016/j.ejor.2005.03.029",
+              "volume": "175",
+              "author": "A Lim",
+              "year": "2006",
+              "unstructured": "Lim A, Rodrigues B, Zhang X (2006) Scheduling sports competitions at multiple venues – revisited. Eur J Oper Res 175:171–186",
+              "journal-title": "Eur J Oper Res"
+            },
+            {
+              "key": "62_CR69",
+              "doi-asserted-by": "crossref",
+              "first-page": "1459",
+              "DOI": "10.1016/j.ejor.2005.02.065",
+              "volume": "174",
+              "author": "A Lim",
+              "year": "2006",
+              "unstructured": "Lim A, Rodrigues B, Zhang X (2006) A simulated annealing and hill-climbing algorithm for the traveling tournament problem. Eur J Oper Res 174:1459–1478",
+              "journal-title": "Eur J Oper Res"
+            },
+            {
+              "key": "62_CR70",
+              "doi-asserted-by": "crossref",
+              "first-page": "498",
+              "DOI": "10.1287/opre.21.2.498",
+              "volume": "21",
+              "author": "S Lin",
+              "year": "1973",
+              "unstructured": "Lin S, Kernighan B (1973) An effective heuristic algorithm for the traveling-salesman problem. Oper Res 21:498–516",
+              "journal-title": "Oper Res"
+            },
+            {
+              "key": "62_CR71",
+              "doi-asserted-by": "crossref",
+              "first-page": "1",
+              "DOI": "10.1016/j.ejor.2024.03.030",
+              "volume": "321",
+              "author": "MA Londe",
+              "year": "2035",
+              "unstructured": "Londe MA, Pessoa LS, Andrade CE, Resende MGC (2035) Biased random-key genetic algorithms: a review. Eur J Oper Res 321:1–22",
+              "journal-title": "Eur J Oper Res"
+            },
+            {
+              "key": "62_CR72",
+              "first-page": "321",
+              "volume-title": "Handbook of metaheuristics",
+              "author": "HR Lourenço",
+              "year": "2003",
+              "unstructured": "Lourenço HR, Martin OC, Stutzle T (2003) Iterated local search. In: Glover F, Kochenberger GA (eds) Handbook of metaheuristics. Kluwer, Dordrecht, Netherlands, pp 321–353"
+            },
+            {
+              "key": "62_CR73",
+              "doi-asserted-by": "publisher",
+              "first-page": "57",
+              "DOI": "10.1007/BF02601639",
+              "volume": "63",
+              "author": "OC Martin",
+              "year": "1996",
+              "unstructured": "Martin OC, Otto SW (1996) Combining simulated annealing with local search heuristics. Ann Oper Res 63:57–75",
+              "journal-title": "Ann Oper Res"
+            },
+            {
+              "key": "62_CR74",
+              "first-page": "299",
+              "volume": "5",
+              "author": "OC Martin",
+              "year": "1991",
+              "unstructured": "Martin OC, Otto SW, Felten EW (1991) Large-step Markov chains for the traveling salesman problem. Complex Syst 5:299–326",
+              "journal-title": "Complex Syst"
+            },
+            {
+              "key": "62_CR75",
+              "series-title": "Lecture notes in computer science",
+              "doi-asserted-by": "crossref",
+              "first-page": "205",
+              "DOI": "10.1007/978-3-540-30176-9_27",
+              "volume-title": "Applied computing",
+              "author": "SL Martins",
+              "year": "2004",
+              "unstructured": "Martins SL, Ribeiro CC, Rosseti I (2004) Applications and parallel implementations of metaheuristics in network design and routing. In: Manandhar S, Austin J, Desai U, Oyanagi Y, Talukder AK (eds) Applied computing. Lecture notes in computer science, vol 3285. Springer, New York City, New York, US, pp 205–213"
+            },
+            {
+              "key": "62_CR76",
+              "doi-asserted-by": "crossref",
+              "DOI": "10.1007/978-3-662-03315-9",
+              "volume-title": "Genetic algorithms + Data structures = Evolution programs",
+              "author": "Z Michalewicz",
+              "year": "1996",
+              "unstructured": "Michalewicz Z (1996) Genetic algorithms + Data structures = Evolution programs. Springer, New York City, New York, US"
+            },
+            {
+              "key": "62_CR77",
+              "volume-title": "Theoretical aspects of local search",
+              "author": "W Michiels",
+              "year": "2007",
+              "unstructured": "Michiels W, Aarts E, Korst J (2007) Theoretical aspects of local search. Springer, New York City, New York, US"
+            },
+            {
+              "key": "62_CR78",
+              "doi-asserted-by": "crossref",
+              "first-page": "1097",
+              "DOI": "10.1016/S0305-0548(97)00031-2",
+              "volume": "34",
+              "author": "N Mladenovic",
+              "year": "1997",
+              "unstructured": "Mladenovic N, Hansen P (1997) Variable neighborhood search. Comput Oper Res 34:1097–1100",
+              "journal-title": "Comput Oper Res"
+            },
+            {
+              "key": "62_CR79",
+              "doi-asserted-by": "crossref",
+              "first-page": "1",
+              "DOI": "10.1287/opre.46.1.1",
+              "volume": "46",
+              "author": "GL Nemhauser",
+              "year": "1998",
+              "unstructured": "Nemhauser GL, Trick MA (1998) Scheduling a major college basketball conference. Oper Res 46:1–8",
+              "journal-title": "Oper Res"
+            },
+            {
+              "key": "62_CR80",
+              "doi-asserted-by": "crossref",
+              "first-page": "110",
+              "DOI": "10.1145/3665065.3665083",
+              "volume-title": "ISMSI 2024: proceedings of the 2024 8th international conference on intelligent systems, metaheuristics & swarm intelligence (ISMSI)",
+              "author": "TF Noronha",
+              "year": "2024",
+              "unstructured": "Noronha TF, Ribeiro CC (2024) Biased random-key genetic algorithms: a tutorial with applications. In: ISMSI 2024: proceedings of the 2024 8th international conference on intelligent systems, metaheuristics & swarm intelligence (ISMSI). ACM, New York, pp 110–115"
+            },
+            {
+              "key": "62_CR81",
+              "doi-asserted-by": "publisher",
+              "first-page": "503",
+              "DOI": "10.1007/s10898-010-9608-7",
+              "volume": "50",
+              "author": "TF Noronha",
+              "year": "2011",
+              "unstructured": "Noronha TF, Resende MGC, Ribeiro CC (2011) A biased random-key genetic algorithm for routing and wavelength assignment. J Glob Optim 50:503–518",
+              "journal-title": "J Glob Optim"
+            },
+            {
+              "key": "62_CR82",
+              "unstructured": "Phillips AE, O’Sullivan M, Walker C (2021) An adaptive large neighbourhood search matheuristic for the itc2021 sports timetabling competition. In: Proceedings of the 13th international conference on the practice and theory of automated timetabling-PATAT, vol 2"
+            },
+            {
+              "key": "62_CR83",
+              "doi-asserted-by": "publisher",
+              "first-page": "949",
+              "DOI": "10.1007/s10898-020-00877-0",
+              "volume": "77",
+              "author": "BQ Pinto",
+              "year": "2020",
+              "unstructured": "Pinto BQ, Ribeiro CC, Rosseti I, Noronha TF (2020) A biased random-key genetic algorithm for routing and wavelength assignment under a sliding scheduled traffic model. J Glob Optim 77:949–973",
+              "journal-title": "J Glob Optim"
+            },
+            {
+              "key": "62_CR84",
+              "volume-title": "Efficient iterated local search based metaheuristic approach for solving sports timetabling problems of International Timetabling Competition 2021",
+              "author": "IGA Premananda",
+              "year": "2024",
+              "unstructured": "Premananda IGA, Tjahyanto A, Mukhlason A (2024) Efficient iterated local search based metaheuristic approach for solving sports timetabling problems of International Timetabling Competition 2021. Ann Oper Res. https://doi.org/10.1007/s10479-024-06285-x"
+            },
+            {
+              "key": "62_CR85",
+              "volume-title": "Modern heuristic techniques for combinatorial problems",
+              "year": "1993",
+              "unstructured": "Reeves C (ed) (1993) Modern heuristic techniques for combinatorial problems. Blackwell, Oxford, UK"
+            },
+            {
+              "key": "62_CR86",
+              "first-page": "65",
+              "volume-title": "Handbook of metaheuristics",
+              "author": "C Reeves",
+              "year": "2003",
+              "unstructured": "Reeves C (2003) Genetic algorithms. In: Glover F, Kochenberger G (eds) Handbook of metaheuristics. Kluwer, Dordrecht, Netherlands, pp 65–82"
+            },
+            {
+              "key": "62_CR87",
+              "doi-asserted-by": "crossref",
+              "DOI": "10.1007/b101880",
+              "volume-title": "Genetic algorithms: principles and perspectives",
+              "author": "C Reeves",
+              "year": "2002",
+              "unstructured": "Reeves C, Rowe J (2002) Genetic algorithms: principles and perspectives. Springer, New York City, New York, US"
+            },
+            {
+              "key": "62_CR88",
+              "doi-asserted-by": "crossref",
+              "first-page": "45",
+              "DOI": "10.1162/evco.1998.6.1.45",
+              "volume": "6",
+              "author": "C Reeves",
+              "year": "1998",
+              "unstructured": "Reeves C, Yamada T (1998) Genetic algorithms, path relinking and the flowshop sequencing problem. Evol Comput 6:45–60",
+              "journal-title": "Evol Comput"
+            },
+            {
+              "key": "62_CR89",
+              "doi-asserted-by": "crossref",
+              "first-page": "104",
+              "DOI": "10.1002/net.10065",
+              "volume": "41",
+              "author": "MGC Resende",
+              "year": "2003",
+              "unstructured": "Resende MGC, Ribeiro CC (2003) A GRASP with path-relinking for private virtual circuit routing. Networks 41:104–114",
+              "journal-title": "Networks"
+            },
+            {
+              "key": "62_CR90",
+              "doi-asserted-by": "crossref",
+              "first-page": "219",
+              "DOI": "10.1007/0-306-48056-5_8",
+              "volume-title": "Handbook of metaheuristics",
+              "author": "MGC Resende",
+              "year": "2003",
+              "unstructured": "Resende MGC, Ribeiro CC (2003) Greedy randomized adaptive search procedures. In: Glover F, Kochenberger G (eds) Handbook of metaheuristics. Kluwer, Dordrecht, Netherlands, pp 219–249"
+            },
+            {
+              "key": "62_CR91",
+              "doi-asserted-by": "crossref",
+              "first-page": "29",
+              "DOI": "10.1007/0-387-25383-1_2",
+              "volume-title": "Metaheuristics: progress as real problem solvers",
+              "author": "MGC Resende",
+              "year": "2005",
+              "unstructured": "Resende MGC, Ribeiro CC (2005) GRASP with path-relinking: Recent advances and applications. In: Ibaraki T, Nonobe K, Yagiura M (eds) Metaheuristics: progress as real problem solvers. Springer, New York City, New York, US, pp 29–63"
+            },
+            {
+              "key": "62_CR92",
+              "first-page": "293",
+              "volume-title": "Handbook of metaheuristics",
+              "author": "MGC Resende",
+              "year": "2010",
+              "unstructured": "Resende MGC, Ribeiro CC (2010) Greedy randomized adaptive search procedures: advances and applications. In: Gendreau M, Potvin JY (eds) Handbook of metaheuristics, 2nd edn. Springer, New York City, New York, US, pp 293–319",
+              "edition": "2"
+            },
+            {
+              "key": "62_CR93",
+              "doi-asserted-by": "crossref",
+              "first-page": "287",
+              "DOI": "10.1007/978-1-4614-6940-7_11",
+              "volume-title": "Search methodologies: introductorial tutorials in optimization and decision support systems, chap 11",
+              "author": "MGC Resende",
+              "year": "2014",
+              "unstructured": "Resende MGC, Ribeiro CC (2014) GRASP: greedy randomized adaptive search procedures. In: Burke E, Kendall G (eds) Search methodologies: introductorial tutorials in optimization and decision support systems, chap 11, 2nd edn. Springer, New York City, New York, US, pp 287–312",
+              "edition": "2"
+            },
+            {
+              "key": "62_CR94",
+              "doi-asserted-by": "crossref",
+              "unstructured": "Resende MGC, Ribeiro CC (2016) Biased-random key genetic algorithms: an advanced tutorial. In: Companion volume – proceedings of the 2016 genetic and evolutionary computation conference – GECCO’16. ACM, pp 483–514",
+              "DOI": "10.1145/2908961.2926996"
+            },
+            {
+              "key": "62_CR95",
+              "doi-asserted-by": "crossref",
+              "DOI": "10.1007/978-1-4939-6530-4",
+              "volume-title": "Optimization by GRASP: greedy randomized adaptive search procedures",
+              "author": "MGC Resende",
+              "year": "2016",
+              "unstructured": "Resende MGC, Ribeiro CC (2016) Optimization by GRASP: greedy randomized adaptive search procedures. Springer, New York City, New York, US"
+            },
+            {
+              "key": "62_CR96",
+              "doi-asserted-by": "publisher",
+              "first-page": "59",
+              "DOI": "10.1023/B:HEUR.0000019986.96257.50",
+              "volume": "10",
+              "author": "MGC Resende",
+              "year": "2004",
+              "unstructured": "Resende MGC, Werneck RF (2004) A hybrid heuristic for the p-median problem. J Heuristics 10:59–88",
+              "journal-title": "J Heuristics"
+            },
+            {
+              "key": "62_CR97",
+              "first-page": "153",
+              "volume-title": "Optimisation approchée en recherche opérationnelle",
+              "author": "CC Ribeiro",
+              "year": "2002",
+              "unstructured": "Ribeiro CC (2002) GRASP: Une métaheuristique gloutone et probabiliste. In: Teghem J, Pirlot M (eds) Optimisation approchée en recherche opérationnelle, Hermès, Paris, France, pp 153–176"
+            },
+            {
+              "key": "62_CR98",
+              "series-title": "Lecture notes in computer science",
+              "doi-asserted-by": "crossref",
+              "first-page": "922",
+              "DOI": "10.1007/3-540-45706-2_131",
+              "volume-title": "Euro-Par 2002 parallel processing",
+              "author": "CC Ribeiro",
+              "year": "2002",
+              "unstructured": "Ribeiro CC, Rosseti I (2002) A parallel GRASP heuristic for the 2-path network design problem. In: Monien B, Feldmann R (eds) Euro-Par 2002 parallel processing. Lecture notes in computer science, vol 2400. Springer, New York City, New York, US, pp 922–926"
+            },
+            {
+              "key": "62_CR99",
+              "doi-asserted-by": "crossref",
+              "first-page": "21",
+              "DOI": "10.1016/j.parco.2006.11.007",
+              "volume": "33",
+              "author": "CC Ribeiro",
+              "year": "2007",
+              "unstructured": "Ribeiro CC, Rosseti I (2007) Efficient parallel cooperative implementations of GRASP heuristics. Parallel Comput 33:21–35",
+              "journal-title": "Parallel Comput"
+            },
+            {
+              "key": "62_CR100",
+              "doi-asserted-by": "crossref",
+              "first-page": "775",
+              "DOI": "10.1016/j.ejor.2005.03.061",
+              "volume": "179",
+              "author": "CC Ribeiro",
+              "year": "2007",
+              "unstructured": "Ribeiro CC, Urrutia S (2007) Heuristics for the mirrored traveling tournament problem. Eur J Oper Res 179:775–787",
+              "journal-title": "Eur J Oper Res"
+            },
+            {
+              "key": "62_CR101",
+              "doi-asserted-by": "crossref",
+              "first-page": "641",
+              "DOI": "10.1111/j.1475-3995.2009.00699.x",
+              "volume": "16",
+              "author": "CC Ribeiro",
+              "year": "2009",
+              "unstructured": "Ribeiro CC, Vianna DS (2009) A hybrid genetic algorithm for the phylogeny problem using path-relinking as a progressive crossover strategy. Int Trans Oper Res 16:641–657",
+              "journal-title": "Int Trans Oper Res"
+            },
+            {
+              "key": "62_CR102",
+              "doi-asserted-by": "crossref",
+              "first-page": "228",
+              "DOI": "10.1287/ijoc.14.3.228.116",
+              "volume": "14",
+              "author": "CC Ribeiro",
+              "year": "2002",
+              "unstructured": "Ribeiro CC, Uchoa E, Werneck R (2002) A hybrid GRASP with perturbations for the Steiner problem in graphs. INFORMS J Comput 14:228–246",
+              "journal-title": "INFORMS J Comput"
+            },
+            {
+              "key": "62_CR103",
+              "doi-asserted-by": "crossref",
+              "first-page": "656",
+              "DOI": "10.1016/j.comcom.2006.08.027",
+              "volume": "30",
+              "author": "CC Ribeiro",
+              "year": "2007",
+              "unstructured": "Ribeiro CC, Martins SL, Rosseti I (2007) Metaheuristics for optimization problems in computer communications. Comput Commun 30:656–669",
+              "journal-title": "Comput Commun"
+            },
+            {
+              "key": "62_CR104",
+              "doi-asserted-by": "crossref",
+              "DOI": "10.1007/978-3-031-37283-4",
+              "volume-title": "Combinatorial models for scheduling sports tournaments",
+              "author": "CC Ribeiro",
+              "year": "2023",
+              "unstructured": "Ribeiro CC, Urrutia S, de Werra D (2023) Combinatorial models for scheduling sports tournaments. Springer, New York City, New York, US"
+            },
+            {
+              "key": "62_CR105",
+              "doi-asserted-by": "crossref",
+              "first-page": "301",
+              "DOI": "10.1007/s10951-022-00740-y",
+              "volume": "25",
+              "author": "RM Rosati",
+              "year": "2022",
+              "unstructured": "Rosati RM, Petris M, Di Gaspero L, Schaerf A (2022) Multi-neighborhood simulated annealing for the sports timetabling competition ITC2021. J Schedul 25:301–319",
+              "journal-title": "J Schedul"
+            },
+            {
+              "key": "62_CR106",
+              "doi-asserted-by": "crossref",
+              "unstructured": "Schönberger J, Mattfeld DC (2000) Automated timetable generation for rounds of a table-tennis league. In: Proceedings of the 2000 congress on evolutionary computation, pp 277–284",
+              "DOI": "10.1109/CEC.2000.870307"
+            },
+            {
+              "key": "62_CR107",
+              "doi-asserted-by": "crossref",
+              "first-page": "102",
+              "DOI": "10.1016/S0377-2217(03)00102-4",
+              "volume": "153",
+              "author": "J Schönberger",
+              "year": "2004",
+              "unstructured": "Schönberger J, Mattfeld DC, Kopfer H (2004) Memetic algorithm timetabling for non-commercial sport leagues. Eur J Oper Res 153:102–116",
+              "journal-title": "Eur J Oper Res"
+            },
+            {
+              "key": "62_CR108",
+              "doi-asserted-by": "crossref",
+              "first-page": "627",
+              "DOI": "10.1007/978-1-4757-4137-7_30",
+              "volume-title": "Metaheuristics: computer decision making",
+              "author": "MC Souza",
+              "year": "2003",
+              "unstructured": "Souza MC, Duhamel C, Ribeiro CC (2003) A GRASP with path-relinking heuristic for the capacitated minimum spanning tree problem. In: Resende MGC, Souza J (eds) Metaheuristics: computer decision making. Kluwer, Dordrecht, Netherlands, pp 627–658"
+            },
+            {
+              "key": "62_CR109",
+              "series-title": "Lecture notes in computer science",
+              "doi-asserted-by": "crossref",
+              "first-page": "63",
+              "DOI": "10.1007/978-3-540-45157-0_4",
+              "volume-title": "Practice and theory of automated timetabling IV",
+              "author": "MA Trick",
+              "year": "2003",
+              "unstructured": "Trick MA (2003) Integer and constraint programming approaches for round robin tournament scheduling. In: Burke E, de Causmaecker P (eds) Practice and theory of automated timetabling IV. Lecture notes in computer science, vol 2740. Springer, New York City, New York, US, pp 63–77"
+            },
+            {
+              "key": "62_CR110",
+              "doi-asserted-by": "crossref",
+              "first-page": "286",
+              "DOI": "10.1016/j.ejor.2011.07.049",
+              "volume": "216",
+              "author": "MA Trick",
+              "year": "2012",
+              "unstructured": "Trick MA, Yildiz H (2012) Locally optimized crossover for the traveling umpire problem. Eur J Oper Res 216:286–292",
+              "journal-title": "Eur J Oper Res"
+            },
+            {
+              "key": "62_CR111",
+              "doi-asserted-by": "crossref",
+              "first-page": "232",
+              "DOI": "10.1287/inte.1100.0514",
+              "volume": "42",
+              "author": "MA Trick",
+              "year": "2012",
+              "unstructured": "Trick MA, Yildiz H, Yunes T (2012) Scheduling Major League Baseball umpires and the traveling umpire problem. Interfaces 42:232–244",
+              "journal-title": "Interfaces"
+            },
+            {
+              "key": "62_CR112",
+              "doi-asserted-by": "crossref",
+              "first-page": "36",
+              "DOI": "10.1016/j.tcs.2021.03.029",
+              "volume": "877",
+              "author": "S Urrutia",
+              "year": "2021",
+              "unstructured": "Urrutia S, de Werra D, Januario T (2021) Recoloring subgraphs of $${K}_{2n}$$ for sports scheduling. Theor Comput Sci 877:36–45",
+              "journal-title": "Theor Comput Sci"
+            },
+            {
+              "key": "62_CR113",
+              "series-title": "Lecture notes in computer science",
+              "doi-asserted-by": "crossref",
+              "first-page": "243",
+              "DOI": "10.1007/978-3-540-87527-7_23",
+              "volume-title": "Ant colony optimization and swarm intelligence",
+              "author": "DC Uthus",
+              "year": "2008",
+              "unstructured": "Uthus DC, Riddle PJ, Guesgen HW (2008) Ant colony optimization and the single round robin maximum value problem. In: Dorigo M, Birattari M, Blum C, Clerc M, Stützle T, Winfield AFT (eds) Ant colony optimization and swarm intelligence. Lecture notes in computer science, vol 5217. Springer, New York City, New York, US, pp 243–250"
+            },
+            {
+              "key": "62_CR114",
+              "doi-asserted-by": "crossref",
+              "unstructured": "Uthus DC, Riddle PJ, Guesgen HW (2009) An ant colony optimization approach to the traveling tournament problem. In: GECCO’09: proceedings of the 11th annual conference on genetic and evolutionary computation. ACM, pp 81–88",
+              "DOI": "10.1145/1569901.1569913"
+            },
+            {
+              "key": "62_CR115",
+              "doi-asserted-by": "crossref",
+              "first-page": "1249",
+              "DOI": "10.1016/j.ejor.2022.11.046",
+              "volume": "308",
+              "author": "D Van Bulck",
+              "year": "2023",
+              "unstructured": "Van Bulck D, Goossen D (2023) The international timetabling competition on sports timetabling (ITC2021). Eur J Oper Res 308:1249–1267",
+              "journal-title": "Eur J Oper Res"
+            },
+            {
+              "key": "62_CR116",
+              "doi-asserted-by": "crossref",
+              "first-page": "326",
+              "DOI": "10.1016/j.orl.2023.03.014",
+              "volume": "51",
+              "author": "D Van Bulck",
+              "year": "2023",
+              "unstructured": "Van Bulck D, Goossens D (2023) First-break-heuristically-schedule: constructing highly-constrained sports timetables. Oper Res Lett 51:326–331",
+              "journal-title": "Oper Res Lett"
+            },
+            {
+              "key": "62_CR117",
+              "doi-asserted-by": "publisher",
+              "first-page": "715",
+              "DOI": "10.1007/s10479-018-3013-x",
+              "volume": "275",
+              "author": "D Van Bulck",
+              "year": "2019",
+              "unstructured": "Van Bulck D, Goossens DR, Spieksma F (2019) Scheduling a non-professional indoor football league: a tabu search based approach. Ann Oper Res 275:715–730",
+              "journal-title": "Ann Oper Res"
+            },
+            {
+              "key": "62_CR118",
+              "doi-asserted-by": "crossref",
+              "first-page": "575",
+              "DOI": "10.1016/j.ejor.2024.06.005",
+              "volume": "318",
+              "author": "D Van Bulck",
+              "year": "2024",
+              "unstructured": "Van Bulck D, Goossens D, Clarner JP, Dimitsas A, Fonseca GH, Lamas-Fernandez C, Lester MM, Pedersen J, Phillips AE, Rosati RM (2024) Which algorithm to select in sports timetabling? Eur J Oper Res 318:575–591",
+              "journal-title": "Eur J Oper Res"
+            },
+            {
+              "key": "62_CR119",
+              "doi-asserted-by": "crossref",
+              "unstructured": "Van Hentenryck P, Vergados Y (2006) Traveling tournament scheduling: a systematic evaluation of simulated annealling. In: Integration of AI and OR techniques in constraint programming for combinatorial optimization problems. Lecture notes in computer science, vol 3990. Springer, New York City, New York, US, pp 228–243",
+              "DOI": "10.1007/11757375_19"
+            },
+            {
+              "key": "62_CR120",
+              "first-page": "25",
+              "volume": "3",
+              "author": "VG Vizing",
+              "year": "1964",
+              "unstructured": "Vizing VG (1964) On an estimate of the chromatic class of a p-graph. Diskrete Analiz 3:25–30, in Russian",
+              "journal-title": "Diskrete Analiz"
+            },
+            {
+              "key": "62_CR121",
+              "doi-asserted-by": "crossref",
+              "first-page": "886",
+              "DOI": "10.1016/j.ejor.2014.04.043",
+              "volume": "238",
+              "author": "T Wauters",
+              "year": "2014",
+              "unstructured": "Wauters T, Malderen SV, Berghe GV (2014) Decomposition and local search based methods for the traveling umpire problem. Eur J Oper Res 238:886–898",
+              "journal-title": "Eur J Oper Res"
+            },
+            {
+              "key": "62_CR122",
+              "series-title": "Lecture notes in computer science",
+              "doi-asserted-by": "crossref",
+              "first-page": "842",
+              "DOI": "10.1007/978-3-319-10762-2_83",
+              "volume-title": "Parallel problem solving from nature – PPSN XIII",
+              "author": "L While",
+              "year": "2014",
+              "unstructured": "While L, Kendall G (2014) Scheduling the English football league with a multi-objective evolutionary algorithm. In: Bartz-Beielstein T, Branke J, Filipič B, Smith J (eds) Parallel problem solving from nature – PPSN XIII. Lecture notes in computer science, vol 8672. Springer, New York City, New York, US, pp 842–851"
+            },
+            {
+              "key": "62_CR123",
+              "doi-asserted-by": "publisher",
+              "first-page": "276",
+              "DOI": "10.1057/jors.1994.40",
+              "volume": "45",
+              "author": "RJ Willis",
+              "year": "1994",
+              "unstructured": "Willis RJ, Terrill BJ (1994) Scheduling the Australian state cricket season using simulated annealing. J Oper Res Soc 45:276–280",
+              "journal-title": "J Oper Res Soc"
+            },
+            {
+              "key": "62_CR124",
+              "doi-asserted-by": "publisher",
+              "first-page": "195",
+              "DOI": "10.1057/jors.1992.29",
+              "volume": "43",
+              "author": "M Wright",
+              "year": "1992",
+              "unstructured": "Wright M (1992) A fair allocation of county cricket opponents. J Oper Res Soc 43:195–201",
+              "journal-title": "J Oper Res Soc"
+            },
+            {
+              "key": "62_CR125",
+              "doi-asserted-by": "publisher",
+              "first-page": "758",
+              "DOI": "10.1057/jors.1994.120",
+              "volume": "45",
+              "author": "M Wright",
+              "year": "1994",
+              "unstructured": "Wright M (1994) Timetabling county cricket fixtures using a form of tabu search. J Oper Res Soc 45:758–770",
+              "journal-title": "J Oper Res Soc"
+            },
+            {
+              "key": "62_CR126",
+              "first-page": "99",
+              "volume": "16",
+              "author": "M Wright",
+              "year": "2005",
+              "unstructured": "Wright M (2005) Scheduling fixtures for New Zealand cricket. IMA J Manag Math 16: 99–112",
+              "journal-title": "IMA J Manag Math"
+            },
+            {
+              "key": "62_CR127",
+              "doi-asserted-by": "crossref",
+              "first-page": "1875",
+              "DOI": "10.1016/j.cor.2004.09.024",
+              "volume": "33",
+              "author": "M Wright",
+              "year": "2006",
+              "unstructured": "Wright M (2006) Scheduling fixtures for basketball New Zealand. Comput Oper Res 33:1875–1893",
+              "journal-title": "Comput Oper Res"
+            },
+            {
+              "key": "62_CR128",
+              "doi-asserted-by": "crossref",
+              "first-page": "1854",
+              "DOI": "10.1080/01605682.2017.1415642",
+              "volume": "69",
+              "author": "M Wright",
+              "year": "2018",
+              "unstructured": "Wright M (2018) Scheduling an amateur cricket league over a nine-year period. J Oper Res Soc 69:1854–1862",
+              "journal-title": "J Oper Res Soc"
+            },
+            {
+              "key": "62_CR129",
+              "first-page": "104",
+              "volume-title": "Pardalos P",
+              "author": "M Yagiura",
+              "year": "2002",
+              "unstructured": "Yagiura M, Ibaraki T (2002) Local search. In: Pardalos P, Resende M (eds) Handbook of applied optimization. Oxford University Press, pp 104–123"
+            },
+            {
+              "key": "62_CR130",
+              "doi-asserted-by": "crossref",
+              "first-page": "2937",
+              "DOI": "10.1016/j.cor.2007.01.004",
+              "volume": "35",
+              "author": "M Yavuz",
+              "year": "2008",
+              "unstructured": "Yavuz M, Inan UH, Figlali A (2008) Fair referee assignments for professional football leagues. Comput Oper Res 35:2937–2951",
+              "journal-title": "Comput Oper Res"
+            }
+          ],
+          "container-title": [
+            "Handbook of Heuristics"
+          ],
+          "language": "en",
+          "link": [
+            {
+              "URL": "https://link.springer.com/content/pdf/10.1007/978-3-032-00385-0_62",
+              "content-type": "unspecified",
+              "content-version": "vor",
+              "intended-application": "similarity-checking"
+            }
+          ],
+          "deposited": {
+            "date-parts": [
+              [
+                2026,
+                8,
+                11
+              ]
+            ],
+            "date-time": "2026-08-11T21:45:44Z",
+            "timestamp": 1786484744000
+          },
+          "score": 26.557339,
+          "resource": {
+            "primary": {
+              "URL": "https://link.springer.com/10.1007/978-3-032-00385-0_62"
+            }
+          },
+          "issued": {
+            "date-parts": [
+              [
+                2025
+              ]
+            ]
+          },
+          "ISBN": [
+            "9783032003843",
+            "9783032003850"
+          ],
+          "references-count": 130,
+          "URL": "https://doi.org/10.1007/978-3-032-00385-0_62",
+          "published": {
+            "date-parts": [
+              [
+                2025
+              ]
+            ]
+          },
+          "assertion": [
+            {
+              "value": "17 October 2025",
+              "order": 1,
+              "name": "first_online",
+              "label": "First Online",
+              "group": {
+                "name": "ChapterHistory",
+                "label": "Chapter History"
+              }
+            }
+          ]
+        }
+      ],
+      "items-per-page": 3,
+      "query": {
+        "start-index": 0,
+        "search-terms": null
+      }
+    }
+  }
+}

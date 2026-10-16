@@ -1,0 +1,911 @@
+{
+  "retrieved": "2026-10-16",
+  "url": "https://api.crossref.org/works?query.bibliographic=optimal+phasor+measurement+unit+placement+genetic+algorithm&rows=3&filter=until-pub-date%3A2026-10-16",
+  "response": {
+    "status": "ok",
+    "message-type": "work-list",
+    "message-version": "1.0.0",
+    "message": {
+      "facets": {},
+      "total-results": 2914298,
+      "items": [
+        {
+          "indexed": {
+            "date-parts": [
+              [
+                2026,
+                8,
+                13
+              ]
+            ],
+            "date-time": "2026-08-13T16:04:51Z",
+            "timestamp": 1786637091695,
+            "version": "build-2736575974"
+          },
+          "posted": {
+            "date-parts": [
+              [
+                2021
+              ]
+            ]
+          },
+          "group-title": "SSRN",
+          "reference-count": 31,
+          "publisher": "Elsevier BV",
+          "content-domain": {
+            "domain": [],
+            "crossmark-restriction": false
+          },
+          "abstract": "",
+          "DOI": "10.2139/ssrn.3993184",
+          "type": "posted-content",
+          "created": {
+            "date-parts": [
+              [
+                2022,
+                3,
+                11
+              ]
+            ],
+            "date-time": "2022-03-11T22:06:57Z",
+            "timestamp": 1647036417000
+          },
+          "source": "Crossref",
+          "is-referenced-by-count": 0,
+          "title": [
+            "A Novel Algorithm for Optimal Phasor Measurement Unit Placement for Full Power System Topological Observability"
+          ],
+          "prefix": "10.2139",
+          "author": [
+            {
+              "ORCID": "https://orcid.org/0000-0002-2679-9354",
+              "authenticated-orcid": true,
+              "given": "Vladimir  Bozidar",
+              "family": "Becejac",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "ORCID": "https://orcid.org/0000-0003-4054-2202",
+              "authenticated-orcid": true,
+              "given": "Predrag",
+              "family": "Stefanov",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            }
+          ],
+          "member": "78",
+          "reference": [
+            {
+              "key": "ref1",
+              "journal-title": "Comparison of maximal SORI between two methods IEEE 30-bus without algorithm (SORI) IEEE 30-bus with algorithm (SORI)"
+            },
+            {
+              "issue": "2",
+              "key": "ref2",
+              "doi-asserted-by": "crossref",
+              "first-page": "10",
+              "DOI": "10.1109/67.207465",
+              "article-title": "Synchronized phasor measurements in power systems",
+              "volume": "6",
+              "author": "A G Phadke",
+              "year": "1993",
+              "journal-title": "IEEE Computer Applications in power"
+            },
+            {
+              "key": "ref3",
+              "doi-asserted-by": "crossref",
+              "DOI": "10.1109/PICA.1997.599383",
+              "article-title": "Generalized observability analysis and measurement classification",
+              "author": "A G Exposito",
+              "year": "1997",
+              "journal-title": "Proceedings of the 20th International Conference on Power Industry Computer Applications"
+            },
+            {
+              "issue": "4",
+              "key": "ref4",
+              "doi-asserted-by": "crossref",
+              "first-page": "1608",
+              "DOI": "10.1109/TPWRS.2006.881149",
+              "article-title": "Placement of PMUs to enable bad data detection in state estimation",
+              "volume": "21",
+              "author": "J Chen",
+              "year": "2006",
+              "journal-title": "IEEE Trans. Power Syst"
+            },
+            {
+              "issue": "6",
+              "key": "ref5",
+              "doi-asserted-by": "crossref",
+              "first-page": "3403",
+              "DOI": "10.1109/TIM.2019.2932208",
+              "article-title": "Optimal Allocation of Phasor Measurement Units Considering Various Contingencies and Measurement Redundancy",
+              "volume": "69",
+              "author": "N M Manousakis",
+              "year": "2020",
+              "journal-title": "IEEE Transactions on Instrumentation and Measurement"
+            },
+            {
+              "key": "ref6",
+              "doi-asserted-by": "crossref",
+              "first-page": "3328",
+              "DOI": "10.1109/TPWRS.2015.2490599",
+              "article-title": "Optimal PMU Placement for Numerical Observability Considering Fixed Channel Capacity-A Semidefinite Programming Approach",
+              "volume": "31",
+              "author": "N M Manousakis",
+              "year": "2016",
+              "journal-title": "IEEE Transactions on Power Systems"
+            },
+            {
+              "key": "ref7",
+              "first-page": "943",
+              "article-title": "Observability analysis and measurement placement for systems with PMUs",
+              "author": "B Xu",
+              "year": "2004",
+              "journal-title": "IEEE PES Power Systems Conference and Exposition"
+            },
+            {
+              "issue": "4",
+              "key": "ref8",
+              "doi-asserted-by": "crossref",
+              "first-page": "2381",
+              "DOI": "10.1109/TPWRD.2005.855457",
+              "article-title": "Phasor measurement unit placement techniques for complete and incomplete observability",
+              "volume": "20",
+              "author": "R F Nuqui",
+              "year": "2005",
+              "journal-title": "IEEE Transactions on Power Delivery"
+            },
+            {
+              "issue": "3",
+              "key": "ref9",
+              "doi-asserted-by": "crossref",
+              "first-page": "1099",
+              "DOI": "10.1109/TPWRS.2008.926475",
+              "article-title": "Generalized integer linear programming formulation for optimal PMU placement",
+              "volume": "23",
+              "author": "B Gou",
+              "year": "2008",
+              "journal-title": "IEEE transactions on Power Systems"
+            },
+            {
+              "issue": "3",
+              "key": "ref10",
+              "doi-asserted-by": "crossref",
+              "first-page": "3499",
+              "DOI": "10.1109/TPWRS.2013.2242698",
+              "article-title": "A weighted least squares algorithm for optimal PMU placement",
+              "volume": "28",
+              "author": "N M Manousakis",
+              "year": "2013",
+              "journal-title": "IEEE Transactions on Power Systems"
+            },
+            {
+              "issue": "12",
+              "key": "ref11",
+              "doi-asserted-by": "crossref",
+              "first-page": "3185",
+              "DOI": "10.1002/etep.2027",
+              "article-title": "A sequential quadratic programming method for contingency-constrained phasor measurement unit placement",
+              "volume": "25",
+              "author": "N P Theodorakatos",
+              "year": "2015",
+              "journal-title": "International Transactions on Electrical Energy Systems"
+            },
+            {
+              "issue": "15",
+              "key": "ref12",
+              "doi-asserted-by": "crossref",
+              "first-page": "2427",
+              "DOI": "10.1049/iet-gtd.2015.0662",
+              "article-title": "Optimal phasor measurement unit placement for numerical observability in the presence of conventional measurements using semidefinite programming",
+              "volume": "9",
+              "author": "G N Korres",
+              "year": "2015",
+              "journal-title": "IET Generation Transmission & Distribution"
+            },
+            {
+              "key": "ref13",
+              "article-title": "A nonlinear well-determined model for power system observability using Interior-Point methods",
+              "volume": "152",
+              "author": "Nikolaos P Theodorakatos",
+              "year": "2020",
+              "journal-title": "Measurement"
+            },
+            {
+              "key": "ref14",
+              "first-page": "1843",
+              "volume": "43",
+              "author": "P Gopakumar",
+              "year": "2015",
+              "journal-title": "A novel topological genetic algorithm-based phasor measurement unit placement and scheduling methodology for enhanced state estimation"
+            },
+            {
+              "issue": "4",
+              "key": "ref15",
+              "doi-asserted-by": "crossref",
+              "first-page": "223",
+              "DOI": "10.1016/j.ijepes.2005.05.005",
+              "article-title": "Optimal PMU placement for full network observability using Tabu search algorithm",
+              "volume": "28",
+              "author": "J Peng",
+              "year": "2006",
+              "journal-title": "International Journal of Electrical Power & Energy Systems"
+            },
+            {
+              "key": "ref16",
+              "doi-asserted-by": "crossref",
+              "first-page": "17",
+              "DOI": "10.1109/ISSP.2013.6526867",
+              "article-title": "Optimal placement of PMUs using differential evolution",
+              "author": "B Vedik",
+              "year": "2013",
+              "journal-title": "2013 International Conference on Intelligent Systems and Signal Processing (ISSP)"
+            },
+            {
+              "issue": "11",
+              "key": "ref17",
+              "doi-asserted-by": "crossref",
+              "first-page": "2817",
+              "DOI": "10.1049/iet-gtd.2016.0287",
+              "article-title": "Optimal PMU placement for full observability of the power network with maximum redundancy using modified binary cuckoo optimisation algorithm",
+              "volume": "10",
+              "author": "M Dalali",
+              "year": "2016",
+              "journal-title": "IET Generation, Transmission & Distribution"
+            },
+            {
+              "key": "ref18",
+              "article-title": "Groebner bases algorithm for optimal PMU placement",
+              "volume": "115",
+              "author": "Vladimir Becejac",
+              "year": "2020",
+              "journal-title": "International Journal of Electrical Power & Energy Systems"
+            },
+            {
+              "key": "ref19",
+              "doi-asserted-by": "crossref",
+              "DOI": "10.1002/0471787779",
+              "author": "M S Bazaraa",
+              "year": "2006",
+              "journal-title": "Nonlinear programming. Theory and algorithms"
+            },
+            {
+              "key": "ref20",
+              "doi-asserted-by": "crossref",
+              "first-page": "1812",
+              "DOI": "10.1109/TPWRD.2008.919046",
+              "article-title": "Optimal multistage scheduling of PMU placement: An ILP approach",
+              "volume": "23",
+              "author": "Devesh Dua",
+              "year": "2008",
+              "journal-title": "IEEE Transactions on Power delivery"
+            },
+            {
+              "issue": "1",
+              "key": "ref21",
+              "doi-asserted-by": "crossref",
+              "first-page": "71",
+              "DOI": "10.1016/j.ijepes.2012.03.011",
+              "article-title": "An optimal PMU placement technique for power system observability",
+              "volume": "42",
+              "author": "B S Roy",
+              "year": "2012",
+              "journal-title": "International Journal of Electrical Power & Energy Systems"
+            },
+            {
+              "key": "ref22",
+              "article-title": "Optimal placement and utilization of phasor measurements for state estimation",
+              "volume": "1",
+              "author": "Xu Bei",
+              "year": "2005",
+              "journal-title": "PSERC Publication"
+            },
+            {
+              "issue": "5",
+              "key": "ref23",
+              "doi-asserted-by": "crossref",
+              "first-page": "625",
+              "DOI": "10.1016/j.jare.2016.06.003",
+              "article-title": "Optimal PMU placement using topology transformation method in power systems",
+              "volume": "7",
+              "author": "Nadia Ha Rahman",
+              "year": "2016",
+              "journal-title": "Journal of Advanced Research"
+            },
+            {
+              "key": "ref24",
+              "first-page": "158",
+              "author": "Nikolaos M Manousakis",
+              "year": "2010",
+              "journal-title": "Observability analysis for power systems including conventional and phasor measurements"
+            },
+            {
+              "key": "ref25",
+              "first-page": "357",
+              "volume": "47",
+              "author": "Nikolaos P Theodorakatos",
+              "year": "2019",
+              "journal-title": "Optimal phasor measurement unit placement for numerical observability using branch-and-bound and a binary-coded genetic algorithm"
+            },
+            {
+              "issue": "9",
+              "key": "ref26",
+              "doi-asserted-by": "crossref",
+              "first-page": "1154",
+              "DOI": "10.1016/j.epsr.2010.03.005",
+              "article-title": "Optimal PMU placement method for complete topological and numerical observability of power system",
+              "volume": "80",
+              "author": "Ranjana Sodhi",
+              "year": "2010",
+              "journal-title": "Electric Power Systems Research"
+            },
+            {
+              "key": "ref27",
+              "doi-asserted-by": "crossref",
+              "first-page": "625",
+              "DOI": "10.1109/59.867151",
+              "article-title": "A direct numerical method for observability analysis",
+              "volume": "15",
+              "author": "Bei Gou",
+              "year": "2000",
+              "journal-title": "IEEE Transactions on Power Systems"
+            },
+            {
+              "key": "ref28",
+              "author": "Nikolaos Theodorakatos",
+              "year": "2015",
+              "journal-title": "Optimal PMU placement using nonlinear programming"
+            },
+            {
+              "key": "ref29",
+              "article-title": "Observability analysis and measurement placement for systems with PMUs",
+              "author": "Bei Xu",
+              "year": "2004",
+              "journal-title": "IEEE PES Power Systems Conference and Exposition"
+            },
+            {
+              "key": "ref30",
+              "doi-asserted-by": "crossref",
+              "first-page": "54417",
+              "DOI": "10.1109/ACCESS.2018.2865513",
+              "article-title": "An optimal PMU placement with reliable zero injection 305 observation",
+              "volume": "6",
+              "author": "Chengchao Lu",
+              "year": "2018",
+              "journal-title": "IEEE Access"
+            },
+            {
+              "key": "ref31",
+              "doi-asserted-by": "crossref",
+              "first-page": "742",
+              "DOI": "10.1109/TPWRS.2013.2285578",
+              "article-title": "Optimal PMU placement considering controlled islanding of power system",
+              "volume": "29",
+              "author": "Lei Huang",
+              "year": "2013",
+              "journal-title": "IEEE Transactions on Power Systems"
+            }
+          ],
+          "deposited": {
+            "date-parts": [
+              [
+                2026,
+                8,
+                13
+              ]
+            ],
+            "date-time": "2026-08-13T15:07:17Z",
+            "timestamp": 1786633637000
+          },
+          "score": 48.149178,
+          "resource": {
+            "primary": {
+              "URL": "https://www.ssrn.com/abstract=3993184"
+            }
+          },
+          "issued": {
+            "date-parts": [
+              [
+                2021
+              ]
+            ]
+          },
+          "references-count": 31,
+          "URL": "https://doi.org/10.2139/ssrn.3993184",
+          "published": {
+            "date-parts": [
+              [
+                2021
+              ]
+            ]
+          },
+          "subtype": "preprint"
+        },
+        {
+          "indexed": {
+            "date-parts": [
+              [
+                2026,
+                8,
+                25
+              ]
+            ],
+            "date-time": "2026-08-25T15:06:49Z",
+            "timestamp": 1787670409658,
+            "version": "build-2736575974"
+          },
+          "reference-count": 17,
+          "publisher": "IEEE",
+          "license": [
+            {
+              "start": {
+                "date-parts": [
+                  [
+                    2025,
+                    9,
+                    10
+                  ]
+                ],
+                "date-time": "2025-09-10T00:00:00Z",
+                "timestamp": 1757462400000
+              },
+              "content-version": "stm-asf",
+              "delay-in-days": 0,
+              "URL": "https://doi.org/10.15223/policy-029"
+            },
+            {
+              "start": {
+                "date-parts": [
+                  [
+                    2025,
+                    9,
+                    10
+                  ]
+                ],
+                "date-time": "2025-09-10T00:00:00Z",
+                "timestamp": 1757462400000
+              },
+              "content-version": "stm-asf",
+              "delay-in-days": 0,
+              "URL": "https://doi.org/10.15223/policy-037"
+            }
+          ],
+          "funder": [
+            {
+              "DOI": "10.13039/501100002385",
+              "name": "Ministry of Higher Education",
+              "doi-asserted-by": "publisher",
+              "id": [
+                {
+                  "id": "10.13039/501100002385",
+                  "id-type": "DOI",
+                  "asserted-by": "publisher"
+                }
+              ]
+            },
+            {
+              "DOI": "10.13039/501100007297",
+              "name": "International Islamic University Malaysia",
+              "doi-asserted-by": "publisher",
+              "id": [
+                {
+                  "id": "10.13039/501100007297",
+                  "id-type": "DOI",
+                  "asserted-by": "publisher"
+                }
+              ]
+            }
+          ],
+          "content-domain": {
+            "domain": [],
+            "crossmark-restriction": false
+          },
+          "published-print": {
+            "date-parts": [
+              [
+                2025,
+                9,
+                10
+              ]
+            ]
+          },
+          "DOI": "10.1109/icsima66552.2025.11233472",
+          "type": "proceedings-article",
+          "created": {
+            "date-parts": [
+              [
+                2025,
+                11,
+                14
+              ]
+            ],
+            "date-time": "2025-11-14T18:46:50Z",
+            "timestamp": 1763146010000
+          },
+          "page": "263-267",
+          "source": "Crossref",
+          "is-referenced-by-count": 2,
+          "title": [
+            "Optimal Placement of Phasor Measurement Unit (PMU) using Genetic Algorithm &amp; Cuckoo Search Algorithm"
+          ],
+          "prefix": "10.1109",
+          "author": [
+            {
+              "given": "Nur Shahida",
+              "family": "Midi",
+              "sequence": "first",
+              "affiliation": [
+                {
+                  "name": "International Islamic University Malaysia,Department of Electrical and Computer Engineering,Kuala Lumpur,Malaysia"
+                }
+              ],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Nurhazwani",
+              "family": "Mohd Hanafi",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "International Islamic University Malaysia,Department of Electrical and Computer Engineering,Kuala Lumpur,Malaysia"
+                }
+              ],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Mohd Fahmi",
+              "family": "Hussin",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "International Islamic University Malaysia,Department of Electrical and Computer Engineering,Kuala Lumpur,Malaysia"
+                }
+              ],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Mohd",
+              "family": "Shahrin Abu Hanifah",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "International Islamic University Malaysia,Department of Electrical and Computer Engineering,Kuala Lumpur,Malaysia"
+                }
+              ],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            }
+          ],
+          "member": "263",
+          "reference": [
+            {
+              "key": "ref1",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1109/scored.2019.8896339"
+            },
+            {
+              "key": "ref2",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.3390/en15062125"
+            },
+            {
+              "key": "ref3",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1109/icecce49384.2020.9179214"
+            },
+            {
+              "key": "ref4",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1016/j.egyr.2023.09.106"
+            },
+            {
+              "key": "ref5",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.25103/jestr.131.02"
+            },
+            {
+              "key": "ref6",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1109/icscc.2019.8843624"
+            },
+            {
+              "key": "ref7",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1109/isgt-asia.2019.8881465"
+            },
+            {
+              "key": "ref8",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1109/icepes52894.2021.9699810"
+            },
+            {
+              "key": "ref9",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1109/icpee50452.2021.9358754"
+            },
+            {
+              "key": "ref10",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1109/skima57145.2022.10029514"
+            },
+            {
+              "key": "ref11",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1109/icpea1.2019.8911178"
+            },
+            {
+              "key": "ref12",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.25046/aj060164"
+            },
+            {
+              "key": "ref13",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1109/incos59338.2024.10527770"
+            },
+            {
+              "key": "ref14",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.25046/aj060164"
+            },
+            {
+              "key": "ref15",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1007/s10586-024-04410-w"
+            },
+            {
+              "key": "ref16",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1109/iccce.2018.8539252"
+            },
+            {
+              "key": "ref17",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1109/icaect49130.2021.9392603"
+            }
+          ],
+          "event": {
+            "name": "2025 IEEE 11th International Conference on Smart Instrumentation, Measurement and Applications (ICSIMA)",
+            "location": "KUALA LUMPUR, Malaysia",
+            "start": {
+              "date-parts": [
+                [
+                  2025,
+                  9,
+                  10
+                ]
+              ]
+            },
+            "end": {
+              "date-parts": [
+                [
+                  2025,
+                  9,
+                  11
+                ]
+              ]
+            }
+          },
+          "container-title": [
+            "2025 IEEE 11th International Conference on Smart Instrumentation, Measurement and Applications (ICSIMA)"
+          ],
+          "link": [
+            {
+              "URL": "http://xplorestaging.ieee.org/ielx8/11233222/11233245/11233472.pdf?arnumber=11233472",
+              "content-type": "unspecified",
+              "content-version": "vor",
+              "intended-application": "similarity-checking"
+            }
+          ],
+          "deposited": {
+            "date-parts": [
+              [
+                2025,
+                11,
+                15
+              ]
+            ],
+            "date-time": "2025-11-15T07:15:26Z",
+            "timestamp": 1763190926000
+          },
+          "score": 46.852577,
+          "resource": {
+            "primary": {
+              "URL": "https://ieeexplore.ieee.org/document/11233472/"
+            }
+          },
+          "issued": {
+            "date-parts": [
+              [
+                2025,
+                9,
+                10
+              ]
+            ]
+          },
+          "references-count": 17,
+          "URL": "https://doi.org/10.1109/icsima66552.2025.11233472",
+          "published": {
+            "date-parts": [
+              [
+                2025,
+                9,
+                10
+              ]
+            ]
+          }
+        },
+        {
+          "indexed": {
+            "date-parts": [
+              [
+                2022,
+                4,
+                3
+              ]
+            ],
+            "date-time": "2022-04-03T08:39:25Z",
+            "timestamp": 1648975165350
+          },
+          "reference-count": 0,
+          "publisher": "Science Publishing Group",
+          "issue": "1",
+          "content-domain": {
+            "domain": [],
+            "crossmark-restriction": false
+          },
+          "short-container-title": [
+            "IJEPE"
+          ],
+          "published-print": {
+            "date-parts": [
+              [
+                2013
+              ]
+            ]
+          },
+          "DOI": "10.11648/j.ijepe.20130201.12",
+          "type": "journal-article",
+          "created": {
+            "date-parts": [
+              [
+                2013,
+                6,
+                6
+              ]
+            ],
+            "date-time": "2013-06-06T09:37:43Z",
+            "timestamp": 1370511463000
+          },
+          "page": "12",
+          "source": "Crossref",
+          "is-referenced-by-count": 3,
+          "title": [
+            "Optimal Placement of Phasor Measurement Units by Genetic Algorithm"
+          ],
+          "prefix": "10.11648",
+          "volume": "2",
+          "author": [
+            {
+              "given": "Allagui",
+              "family": "B.",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            }
+          ],
+          "member": "4911",
+          "container-title": [
+            "International Journal of Energy and Power Engineering"
+          ],
+          "language": "en",
+          "link": [
+            {
+              "URL": "http://article.sciencepublishinggroup.com/pdf/10.11648.j.ijepe.20130201.12.pdf",
+              "content-type": "unspecified",
+              "content-version": "vor",
+              "intended-application": "similarity-checking"
+            }
+          ],
+          "deposited": {
+            "date-parts": [
+              [
+                2020,
+                10,
+                17
+              ]
+            ],
+            "date-time": "2020-10-17T07:18:25Z",
+            "timestamp": 1602919105000
+          },
+          "score": 44.421318,
+          "resource": {
+            "primary": {
+              "URL": "http://www.sciencepublishinggroup.com/journal/paperinfo.aspx?journalid=164&doi=10.11648/j.ijepe.20130201.12"
+            }
+          },
+          "issued": {
+            "date-parts": [
+              [
+                2013
+              ]
+            ]
+          },
+          "references-count": 0,
+          "journal-issue": {
+            "issue": "1",
+            "published-print": {
+              "date-parts": [
+                [
+                  2013
+                ]
+              ]
+            }
+          },
+          "alternative-id": [
+            "1640108"
+          ],
+          "URL": "https://doi.org/10.11648/j.ijepe.20130201.12",
+          "ISSN": [
+            "2326-957X"
+          ],
+          "issn-type": [
+            {
+              "value": "2326-957X",
+              "type": "print"
+            }
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2013
+              ]
+            ]
+          }
+        }
+      ],
+      "items-per-page": 3,
+      "query": {
+        "start-index": 0,
+        "search-terms": null
+      }
+    }
+  }
+}

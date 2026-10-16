@@ -1,0 +1,967 @@
+{
+  "retrieved": "2026-10-16",
+  "url": "https://api.crossref.org/works?query.bibliographic=credit+scoring+genetic+algorithm+feature+selection+review&rows=3&filter=until-pub-date%3A2026-10-16",
+  "response": {
+    "status": "ok",
+    "message-type": "work-list",
+    "message-version": "1.0.0",
+    "message": {
+      "facets": {},
+      "total-results": 9483042,
+      "items": [
+        {
+          "indexed": {
+            "date-parts": [
+              [
+                2025,
+                12,
+                18
+              ]
+            ],
+            "date-time": "2025-12-18T09:36:23Z",
+            "timestamp": 1766050583215,
+            "version": "3.48.0"
+          },
+          "reference-count": 56,
+          "publisher": "MDPI AG",
+          "issue": "12",
+          "license": [
+            {
+              "start": {
+                "date-parts": [
+                  [
+                    2025,
+                    12,
+                    18
+                  ]
+                ],
+                "date-time": "2025-12-18T00:00:00Z",
+                "timestamp": 1766016000000
+              },
+              "content-version": "vor",
+              "delay-in-days": 0,
+              "URL": "https://creativecommons.org/licenses/by/4.0/"
+            }
+          ],
+          "funder": [
+            {
+              "name": "Dakota State University",
+              "award": [
+                "81R203"
+              ],
+              "award-info": [
+                {
+                  "award-number": [
+                    "81R203"
+                  ]
+                }
+              ]
+            }
+          ],
+          "content-domain": {
+            "domain": [],
+            "crossmark-restriction": false
+          },
+          "short-container-title": [
+            "Computers"
+          ],
+          "abstract": "",
+          "DOI": "10.3390/computers14120566",
+          "type": "journal-article",
+          "created": {
+            "date-parts": [
+              [
+                2025,
+                12,
+                18
+              ]
+            ],
+            "date-time": "2025-12-18T09:15:21Z",
+            "timestamp": 1766049321000
+          },
+          "page": "566",
+          "update-policy": "https://doi.org/10.3390/mdpi_crossmark_policy",
+          "source": "Crossref",
+          "is-referenced-by-count": 0,
+          "title": [
+            "FastTree-Guided Genetic Algorithm for Credit Scoring Feature Selection"
+          ],
+          "prefix": "10.3390",
+          "volume": "14",
+          "author": [
+            {
+              "ORCID": "https://orcid.org/0009-0004-3116-6983",
+              "authenticated-orcid": false,
+              "given": "Rashed",
+              "family": "Bahlool",
+              "sequence": "first",
+              "affiliation": [
+                {
+                  "name": "College of Information Technology, University of Bahrain, Zallaq 1054, Bahrain"
+                }
+              ],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "ORCID": "https://orcid.org/0000-0002-5870-2609",
+              "authenticated-orcid": false,
+              "given": "Nabil",
+              "family": "Hewahi",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "College of Information Technology, University of Bahrain, Zallaq 1054, Bahrain"
+                }
+              ],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "ORCID": "https://orcid.org/0000-0001-6784-6199",
+              "authenticated-orcid": false,
+              "given": "Youssef",
+              "family": "Harrath",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "Beacom College of Computer and Cyber Sciences, Dakota State University, Madison, SD 57042, USA"
+                }
+              ],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            }
+          ],
+          "member": "1968",
+          "published-online": {
+            "date-parts": [
+              [
+                2025,
+                12,
+                18
+              ]
+            ]
+          },
+          "reference": [
+            {
+              "key": "ref_1",
+              "doi-asserted-by": "crossref",
+              "first-page": "189",
+              "DOI": "10.30574/gscarr.2024.18.3.0104",
+              "article-title": "Evaluating the fairness of credit scoring models: A literature review on mortgage accessibility for under-reserved populations",
+              "volume": "18",
+              "author": "Adegoke",
+              "year": "2024",
+              "journal-title": "GSC Adv. Res. Rev."
+            },
+            {
+              "key": "ref_2",
+              "first-page": "29",
+              "article-title": "Machine Learning Approaches for Credit Risk Assessment in Banking and Insurance",
+              "volume": "3",
+              "author": "Zanke",
+              "year": "2023",
+              "journal-title": "Internet Things Edge Comput. J."
+            },
+            {
+              "key": "ref_3",
+              "doi-asserted-by": "crossref",
+              "first-page": "101284",
+              "DOI": "10.1016/j.jfs.2024.101284",
+              "article-title": "How do machine learning and non-traditional data affect credit scoring? New evidence from a Chinese fintech firm",
+              "volume": "73",
+              "author": "Gambacorta",
+              "year": "2024",
+              "journal-title": "J. Financ. Stab."
+            },
+            {
+              "key": "ref_4",
+              "doi-asserted-by": "crossref",
+              "first-page": "501",
+              "DOI": "10.1287/mnsc.37.5.501",
+              "article-title": "Interaction of judgemental and statistical forecasting methods: Issues & analysis",
+              "volume": "37",
+              "author": "Bunn",
+              "year": "1991",
+              "journal-title": "Manag. Sci."
+            },
+            {
+              "key": "ref_5",
+              "first-page": "59",
+              "article-title": "Credit scoring, statistical techniques and evaluation criteria: A review of the literature",
+              "volume": "18",
+              "author": "Abdou",
+              "year": "2011",
+              "journal-title": "Intell. Syst. Account. Financ. Manag."
+            },
+            {
+              "key": "ref_6",
+              "doi-asserted-by": "crossref",
+              "first-page": "1178",
+              "DOI": "10.1016/j.ejor.2021.06.053",
+              "article-title": "Machine Learning for Credit Scoring: Improving Logistic Regression with Non-Linear Decision-Tree Effects",
+              "volume": "297",
+              "author": "Dumitrescu",
+              "year": "2022",
+              "journal-title": "Eur. J. Oper. Res."
+            },
+            {
+              "key": "ref_7",
+              "doi-asserted-by": "crossref",
+              "unstructured": "Kanaparthi, V. (2023, January 26–28). Credit Risk Prediction using Ensemble Machine Learning Algorithms. Proceedings of the 2023 International Conference on Inventive Computation Technologies (ICICT), Lalitpur, Nepal.",
+              "DOI": "10.1109/ICICT57646.2023.10134486"
+            },
+            {
+              "key": "ref_8",
+              "doi-asserted-by": "crossref",
+              "first-page": "236",
+              "DOI": "10.3934/DSFE.2024009",
+              "article-title": "Credit Scoring Using Machine Learning and Deep Learning-Based Models",
+              "volume": "2",
+              "author": "Mestiri",
+              "year": "2024",
+              "journal-title": "Data Sci. Financ. Econ."
+            },
+            {
+              "key": "ref_9",
+              "doi-asserted-by": "crossref",
+              "first-page": "849",
+              "DOI": "10.1007/s11135-023-01673-0",
+              "article-title": "Examining the Research Taxonomy of Artificial Intelligence, Deep Learning & Machine Learning in the Financial Sphere—A Bibliometric Analysis",
+              "volume": "58",
+              "author": "Biju",
+              "year": "2024",
+              "journal-title": "Qual. Quant."
+            },
+            {
+              "key": "ref_10",
+              "doi-asserted-by": "crossref",
+              "first-page": "357",
+              "DOI": "10.1016/j.ejor.2023.06.036",
+              "article-title": "Interpretable Machine Learning for Imbalanced Credit Scoring Datasets",
+              "volume": "312",
+              "author": "Chen",
+              "year": "2024",
+              "journal-title": "Eur. J. Oper. Res."
+            },
+            {
+              "key": "ref_11",
+              "unstructured": "Mane, M.N.S., and Joshi, P. (2023). Role of AI based E-Wallets in Business and Financial Transactions. Int. Res. J. Humanit. Interdiscip. Stud. (IRJHIS), 77–82. Available online: https://www.researchgate.net/publication/377780543_Role_of_AI_based_E-Wallets_in_Business_and_Financial_Transactions."
+            },
+            {
+              "key": "ref_12",
+              "unstructured": "Challoumis, C. (2024, January 5–6). The Landscape of AI in Finance. Proceedings of the XVII International Scientific Conference, London, UK."
+            },
+            {
+              "key": "ref_13",
+              "doi-asserted-by": "crossref",
+              "first-page": "81",
+              "DOI": "10.1007/s41060-021-00278-w",
+              "article-title": "Data Science and AI in FinTech: An Overview",
+              "volume": "12",
+              "author": "Cao",
+              "year": "2021",
+              "journal-title": "Int. J. Data Sci. Anal."
+            },
+            {
+              "key": "ref_14",
+              "unstructured": "Bozanic, Z., Kraft, P., and Tillet, A. (2025, April 22). Qualitative Disclosure and Credit Analysts’ Soft Rating Adjustments. Accepted for Publication in *Accounting and Business Research*. Available online: https://ssrn.com/abstract=2962491."
+            },
+            {
+              "key": "ref_15",
+              "doi-asserted-by": "crossref",
+              "first-page": "119599",
+              "DOI": "10.1016/j.eswa.2023.119599",
+              "article-title": "On the dynamics of credit history and social interaction features, and their impact on creditworthiness assessment performance",
+              "volume": "218",
+              "author": "Bravo",
+              "year": "2023",
+              "journal-title": "Expert Syst. Appl."
+            },
+            {
+              "key": "ref_16",
+              "unstructured": "Chatla, S., and Shmueli, G. (2025, December 05). Linear Probability Models (LPM) and Big Data: The Good, the Bad, and the Ugly. SSRNWorking Paper. Available online: https://ssrn.com/abstract=2353841."
+            },
+            {
+              "key": "ref_17",
+              "unstructured": "Xu, J., Cheng, Y., Wang, L., Xu, K., and Li, Z. (2024). Credit Scoring Models Enhancement Using Support Vector Machines, ResearchGate."
+            },
+            {
+              "key": "ref_18",
+              "doi-asserted-by": "crossref",
+              "first-page": "2161",
+              "DOI": "10.1109/ACCESS.2018.2887138",
+              "article-title": "A deep learning approach for credit scoring of peer-to-peer lending using attention mechanism LSTM",
+              "volume": "7",
+              "author": "Wang",
+              "year": "2018",
+              "journal-title": "IEEE Access"
+            },
+            {
+              "key": "ref_19",
+              "first-page": "291",
+              "article-title": "Feature Selection Methods: Case of Filter and Wrapper Approaches for Maximising Classification Accuracy",
+              "volume": "26",
+              "author": "Wah",
+              "year": "2018",
+              "journal-title": "Pertanika J. Sci. Technol."
+            },
+            {
+              "key": "ref_20",
+              "doi-asserted-by": "crossref",
+              "first-page": "115124",
+              "DOI": "10.1109/ACCESS.2024.3445499",
+              "article-title": "Feature Enhanced Ensemble Modeling with Voting Optimization for Credit Risk Assessment",
+              "volume": "12",
+              "author": "Yang",
+              "year": "2024",
+              "journal-title": "IEEE Access"
+            },
+            {
+              "key": "ref_21",
+              "doi-asserted-by": "crossref",
+              "unstructured": "Zhao, Z., Cui, T., Ding, S., Li, J., and Bellotti, A.G. (2024). Resampling Techniques Study on Class Imbalance Problem in Credit Risk Prediction. Mathematics, 12.",
+              "DOI": "10.3390/math12050701"
+            },
+            {
+              "key": "ref_22",
+              "doi-asserted-by": "crossref",
+              "first-page": "3550",
+              "DOI": "10.1109/TKDE.2020.2974949",
+              "article-title": "Expediting the Accuracy-Improving Process of SVMs for Class Imbalance Learning",
+              "volume": "33",
+              "author": "Cao",
+              "year": "2021",
+              "journal-title": "IEEE Trans. Knowl. Data Eng."
+            },
+            {
+              "key": "ref_23",
+              "doi-asserted-by": "crossref",
+              "first-page": "883",
+              "DOI": "10.1109/TKDE.2019.2894148",
+              "article-title": "Boosting with Lexicographic Programming: Addressing Class Imbalance without Cost Tuning",
+              "volume": "32",
+              "author": "Datta",
+              "year": "2020",
+              "journal-title": "IEEE Trans. Knowl. Data Eng."
+            },
+            {
+              "key": "ref_24",
+              "doi-asserted-by": "crossref",
+              "unstructured": "Jemai, J., and Zarrad, A. (2023). Feature Selection Engineering for Credit Risk Assessment in Retail Banking. Information, 14.",
+              "DOI": "10.3390/info14030200"
+            },
+            {
+              "key": "ref_25",
+              "doi-asserted-by": "crossref",
+              "first-page": "16",
+              "DOI": "10.1016/j.compeleceng.2013.11.024",
+              "article-title": "A Survey on Feature Selection Methods",
+              "volume": "40",
+              "author": "Chandrashekar",
+              "year": "2014",
+              "journal-title": "Comput. Electr. Eng."
+            },
+            {
+              "key": "ref_26",
+              "doi-asserted-by": "crossref",
+              "first-page": "133",
+              "DOI": "10.7494/csci.2022.23.1.4120",
+              "article-title": "Efficient Multi-Classifier Wrapper Feature-Selection Model: Application for Dimension Reduction in Credit Scoring",
+              "volume": "23",
+              "author": "Bouaguel",
+              "year": "2022",
+              "journal-title": "Comput. Sci."
+            },
+            {
+              "key": "ref_27",
+              "doi-asserted-by": "crossref",
+              "first-page": "6655510",
+              "DOI": "10.1155/2021/6655510",
+              "article-title": "XGBoost Optimized by Adaptive Particle Swarm Optimization for Credit Scoring",
+              "volume": "2021",
+              "author": "Qin",
+              "year": "2021",
+              "journal-title": "Math. Probl. Eng."
+            },
+            {
+              "key": "ref_28",
+              "doi-asserted-by": "crossref",
+              "unstructured": "Krishna, G.J., and Ravi, V. (2019, January 3–5). Feature Subset Selection Using Adaptive Differential Evolution: An Application to Banking. Proceedings of the ACM India Joint International Conference on Data Science and Management of Data (CoDS-COMAD), Kolkata, India.",
+              "DOI": "10.1145/3297001.3297021"
+            },
+            {
+              "key": "ref_29",
+              "doi-asserted-by": "crossref",
+              "first-page": "703",
+              "DOI": "10.1109/JAS.2019.1911447",
+              "article-title": "An Embedded Feature Selection Method for Imbalanced Data Classification",
+              "volume": "6",
+              "author": "Liu",
+              "year": "2019",
+              "journal-title": "IEEE/CAA J. Autom. Sin."
+            },
+            {
+              "key": "ref_30",
+              "doi-asserted-by": "crossref",
+              "unstructured": "Zhang, X., Yang, Y., and Zhou, Z. (2018, January 8–10). A Novel Credit Scoring Model Based on Optimized Random Forest. Proceedings of the 2018 IEEE 8th Annual Computing and Communication Workshop and Conference (CCWC), Las Vegas, NV, USA.",
+              "DOI": "10.1109/CCWC.2018.8301707"
+            },
+            {
+              "key": "ref_31",
+              "doi-asserted-by": "crossref",
+              "first-page": "012107",
+              "DOI": "10.1088/1742-6596/1108/1/012107",
+              "article-title": "Split and Conquer Method in Penalized Logistic Regression with LASSO (Application on Credit Scoring Data)",
+              "volume": "1108",
+              "author": "Shofiyah",
+              "year": "2018",
+              "journal-title": "J. Phys. Conf. Ser."
+            },
+            {
+              "key": "ref_32",
+              "doi-asserted-by": "crossref",
+              "first-page": "1189",
+              "DOI": "10.1214/aos/1013203451",
+              "article-title": "Greedy Function Approximation: A Gradient Boosting Machine",
+              "volume": "29",
+              "author": "Friedman",
+              "year": "2001",
+              "journal-title": "Ann. Stat."
+            },
+            {
+              "key": "ref_33",
+              "doi-asserted-by": "crossref",
+              "unstructured": "Ahmed, Z., Amizadeh, S., Bilenko, M., Carr, R., Chin, W.S., Dekel, Y., Dupré, X., Eksarevskiy, V., Erhardt, E., and Eseanu, C. (2019, January 4–8). Machine Learning at Microsoft with ML.NET. Proceedings of the 25th ACM SIGKDD International Conference on Knowledge Discovery & Data Mining, Anchorage, AK, USA.",
+              "DOI": "10.1145/3292500.3330667"
+            },
+            {
+              "key": "ref_34",
+              "unstructured": "Microsoft Docs (2025, April 03). FastTree Binary Classifier. Available online: https://learn.microsoft.com/en-us/dotnet/machine-learning/algorithms/fasttree."
+            },
+            {
+              "key": "ref_35",
+              "doi-asserted-by": "crossref",
+              "first-page": "157",
+              "DOI": "10.1007/PL00013827",
+              "article-title": "Classification Accuracy Based on Observed Margin",
+              "volume": "22",
+              "year": "1998",
+              "journal-title": "Algorithmica"
+            },
+            {
+              "key": "ref_36",
+              "unstructured": "Dua, D., and Graff, C. (2019). Statlog (German Credit Data) Dataset, UCI Machine Learning Repository."
+            },
+            {
+              "key": "ref_37",
+              "doi-asserted-by": "crossref",
+              "first-page": "127172",
+              "DOI": "10.1016/j.neucom.2023.127172",
+              "article-title": "FAUC-S: Deep AUC Maximization by Focusing on Hard Samples",
+              "volume": "571",
+              "author": "Xu",
+              "year": "2024",
+              "journal-title": "Neurocomputing"
+            },
+            {
+              "key": "ref_38",
+              "unstructured": "Dua, D., and Graff, C. (2019). Australian Credit Approval Dataset, UCI Machine Learning Repository."
+            },
+            {
+              "key": "ref_39",
+              "unstructured": "Yamane, T. (2020). Japanese Credit Scoring Dataset, Kaggle."
+            },
+            {
+              "key": "ref_40",
+              "unstructured": "Yeh, I.C. (2009). Default of Credit Card Clients Dataset, UCI Machine Learning Repository."
+            },
+            {
+              "key": "ref_41",
+              "doi-asserted-by": "crossref",
+              "unstructured": "Khatir, A.A.H.A., Almustfa, A., and Bee, M. (2022). Machine Learning Models and Data-Balancing Techniques for Credit Scoring: What Is the Best Combination?. Risks, 10.",
+              "DOI": "10.3390/risks10090169"
+            },
+            {
+              "key": "ref_42",
+              "doi-asserted-by": "crossref",
+              "first-page": "4847",
+              "DOI": "10.1007/s00521-023-09232-2",
+              "article-title": "Toward Interpretable Credit Scoring: Integrating Explainable Artificial Intelligence with Deep Learning for Credit Card Default Prediction",
+              "volume": "36",
+              "author": "Talaat",
+              "year": "2024",
+              "journal-title": "Neural Comput. Appl."
+            },
+            {
+              "key": "ref_43",
+              "doi-asserted-by": "crossref",
+              "first-page": "6086",
+              "DOI": "10.1038/s41598-024-56706-x",
+              "article-title": "Evaluation Metrics and Statistical Tests for Machine Learning",
+              "volume": "14",
+              "author": "Rainio",
+              "year": "2024",
+              "journal-title": "Sci. Rep."
+            },
+            {
+              "key": "ref_44",
+              "doi-asserted-by": "crossref",
+              "unstructured": "Li, J. (2024). Area Under the ROC Curve Has the Most Consistent Evaluation for Binary Classification. PLoS ONE, 19.",
+              "DOI": "10.1371/journal.pone.0316019"
+            },
+            {
+              "key": "ref_45",
+              "doi-asserted-by": "crossref",
+              "first-page": "77",
+              "DOI": "10.4018/JITR.2019010106",
+              "article-title": "A New Hybrid Support Vector Machine Ensemble Classification Model for Credit Scoring",
+              "volume": "12",
+              "author": "Yao",
+              "year": "2019",
+              "journal-title": "J. Inf. Technol. Res. (JITR)"
+            },
+            {
+              "key": "ref_46",
+              "doi-asserted-by": "crossref",
+              "unstructured": "Goh, R.Y., Lee, L.S., Seow, H.V., and Gopal, K. (2020). Hybrid Harmony Search–Artificial Intelligence Models in Credit Scoring. Entropy, 22.",
+              "DOI": "10.3390/e22090989"
+            },
+            {
+              "key": "ref_47",
+              "doi-asserted-by": "crossref",
+              "unstructured": "Li, G., Ma, H.D., Liu, R.Y., Shen, M.D., and Zhang, K.X. (2021). A Two-Stage Hybrid Default Discriminant Model Based on Deep Forest. Entropy, 23.",
+              "DOI": "10.3390/e23050582"
+            },
+            {
+              "key": "ref_48",
+              "doi-asserted-by": "crossref",
+              "first-page": "114744",
+              "DOI": "10.1016/j.eswa.2021.114744",
+              "article-title": "A new hybrid ensemble model with voting-based outlier detection and balanced sampling for credit scoring",
+              "volume": "174",
+              "author": "Zhang",
+              "year": "2021",
+              "journal-title": "Expert Syst. Appl."
+            },
+            {
+              "key": "ref_49",
+              "doi-asserted-by": "crossref",
+              "first-page": "301",
+              "DOI": "10.1016/j.eswa.2019.02.033",
+              "article-title": "Integration of unsupervised and supervised machine learning algorithms for credit risk assessment",
+              "volume": "128",
+              "author": "Bao",
+              "year": "2019",
+              "journal-title": "Expert Syst. Appl."
+            },
+            {
+              "key": "ref_50",
+              "doi-asserted-by": "crossref",
+              "first-page": "101536",
+              "DOI": "10.1016/j.ribaf.2021.101536",
+              "article-title": "A novel two-stage hybrid default prediction model with k-means clustering and support vector domain description",
+              "volume": "59",
+              "author": "Yuan",
+              "year": "2022",
+              "journal-title": "Res. Int. Bus. Financ."
+            },
+            {
+              "key": "ref_51",
+              "first-page": "9471",
+              "article-title": "A novel multi-stage ensemble model with multiple k-means-based selective undersampling: An application in credit scoring",
+              "volume": "40",
+              "author": "Jin",
+              "year": "2021",
+              "journal-title": "J. Intell. Fuzzy Syst."
+            },
+            {
+              "key": "ref_52",
+              "doi-asserted-by": "crossref",
+              "unstructured": "Jiao, W., Hao, X., and Qin, C. (2021). The image classification method with CNN–XGBoost model based on adaptive particle swarm optimization. Information, 12.",
+              "DOI": "10.3390/info12040156"
+            },
+            {
+              "key": "ref_53",
+              "first-page": "11",
+              "article-title": "The optimization of credit scoring model using stacking ensemble learning and oversampling techniques",
+              "volume": "2",
+              "author": "Rofik",
+              "year": "2024",
+              "journal-title": "J. Inf. Syst. Explor. Res."
+            },
+            {
+              "key": "ref_54",
+              "first-page": "10643",
+              "article-title": "Multi-grained and multi-layered gradient boosting decision tree for credit scoring",
+              "volume": "51",
+              "author": "Liu",
+              "year": "2021",
+              "journal-title": "Appl. Intell."
+            },
+            {
+              "key": "ref_55",
+              "doi-asserted-by": "crossref",
+              "unstructured": "Zou, Y., and Gao, C. (2022). Extreme learning machine enhanced gradient boosting for credit scoring. Algorithms, 15.",
+              "DOI": "10.3390/a15050149"
+            },
+            {
+              "key": "ref_56",
+              "doi-asserted-by": "crossref",
+              "first-page": "5477",
+              "DOI": "10.11591/ijece.v11i6.pp5477-5487",
+              "article-title": "Improved credit scoring model using XGBoost with Bayesian hyper-parameter optimization",
+              "volume": "11",
+              "author": "Yotsawat",
+              "year": "2021",
+              "journal-title": "Int. J. Electr. Comput. Eng."
+            }
+          ],
+          "container-title": [
+            "Computers"
+          ],
+          "language": "en",
+          "link": [
+            {
+              "URL": "https://www.mdpi.com/2073-431X/14/12/566/pdf",
+              "content-type": "unspecified",
+              "content-version": "vor",
+              "intended-application": "similarity-checking"
+            }
+          ],
+          "deposited": {
+            "date-parts": [
+              [
+                2025,
+                12,
+                18
+              ]
+            ],
+            "date-time": "2025-12-18T09:31:08Z",
+            "timestamp": 1766050268000
+          },
+          "score": 44.99031,
+          "resource": {
+            "primary": {
+              "URL": "https://www.mdpi.com/2073-431X/14/12/566"
+            }
+          },
+          "issued": {
+            "date-parts": [
+              [
+                2025,
+                12,
+                18
+              ]
+            ]
+          },
+          "references-count": 56,
+          "journal-issue": {
+            "issue": "12",
+            "published-online": {
+              "date-parts": [
+                [
+                  2025,
+                  12
+                ]
+              ]
+            }
+          },
+          "alternative-id": [
+            "computers14120566"
+          ],
+          "URL": "https://doi.org/10.3390/computers14120566",
+          "ISSN": [
+            "2073-431X"
+          ],
+          "issn-type": [
+            {
+              "value": "2073-431X",
+              "type": "electronic"
+            }
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2025,
+                12,
+                18
+              ]
+            ]
+          }
+        },
+        {
+          "indexed": {
+            "date-parts": [
+              [
+                2024,
+                9,
+                11
+              ]
+            ],
+            "date-time": "2024-09-11T03:23:50Z",
+            "timestamp": 1726025030868
+          },
+          "edition-number": "0",
+          "reference-count": 1,
+          "publisher": "Auerbach Publications",
+          "isbn-type": [
+            {
+              "type": "electronic",
+              "value": "9780429160998"
+            }
+          ],
+          "content-domain": {
+            "domain": [],
+            "crossmark-restriction": false
+          },
+          "published-print": {
+            "date-parts": [
+              [
+                2015,
+                3,
+                16
+              ]
+            ]
+          },
+          "DOI": "10.1201/b18231-21",
+          "type": "book-chapter",
+          "created": {
+            "date-parts": [
+              [
+                2015,
+                3,
+                5
+              ]
+            ],
+            "date-time": "2015-03-05T23:04:58Z",
+            "timestamp": 1425596698000
+          },
+          "page": "366-395",
+          "source": "Crossref",
+          "is-referenced-by-count": 0,
+          "title": [
+            "A New Feature Selection Technique Applied to Credit Scoring Data Using a Rank Aggregation Approach Based on Optimization, Genetic Algorithm, and Similarity"
+          ],
+          "prefix": "10.1201",
+          "member": "301",
+          "reference": [
+            {
+              "key": "ref17",
+              "doi-asserted-by": "crossref",
+              "unstructured": "Arauzo-Azofra, A., J. M. Benitez, and J. L. Castro (2008). Consistency measures for feature selection. J. Intell. Inf. Syst. 30(3), 273–292.",
+              "DOI": "10.1007/s10844-007-0037-0"
+            }
+          ],
+          "container-title": [
+            "Knowledge Discovery Process and Methods to Enhance Organizational Performance"
+          ],
+          "language": "en",
+          "deposited": {
+            "date-parts": [
+              [
+                2020,
+                12,
+                23
+              ]
+            ],
+            "date-time": "2020-12-23T01:39:10Z",
+            "timestamp": 1608687550000
+          },
+          "score": 38.538742,
+          "resource": {
+            "primary": {
+              "URL": "https://www.taylorfrancis.com/books/9781482212389/chapters/10.1201/b18231-21"
+            }
+          },
+          "issued": {
+            "date-parts": [
+              [
+                2015,
+                3,
+                16
+              ]
+            ]
+          },
+          "ISBN": [
+            "9780429160998"
+          ],
+          "references-count": 1,
+          "URL": "https://doi.org/10.1201/b18231-21",
+          "published": {
+            "date-parts": [
+              [
+                2015,
+                3,
+                16
+              ]
+            ]
+          }
+        },
+        {
+          "indexed": {
+            "date-parts": [
+              [
+                2023,
+                9,
+                29
+              ]
+            ],
+            "date-time": "2023-09-29T11:32:08Z",
+            "timestamp": 1695987128203
+          },
+          "reference-count": 0,
+          "publisher": "Academy and Industry Research Collaboration Center (AIRCC)",
+          "issue": "4",
+          "content-domain": {
+            "domain": [],
+            "crossmark-restriction": false
+          },
+          "short-container-title": [
+            "IJMIT"
+          ],
+          "published-print": {
+            "date-parts": [
+              [
+                2013,
+                11,
+                30
+              ]
+            ]
+          },
+          "DOI": "10.5121/ijmit.2013.5402",
+          "type": "journal-article",
+          "created": {
+            "date-parts": [
+              [
+                2013,
+                12,
+                7
+              ]
+            ],
+            "date-time": "2013-12-07T01:10:52Z",
+            "timestamp": 1386378652000
+          },
+          "page": "13-32",
+          "source": "Crossref",
+          "is-referenced-by-count": 4,
+          "title": [
+            "The Use of Genetic Algorithm, Clustering and Feature Selection Techniques in Construction of Decision Tree Models for Credit Scoring"
+          ],
+          "prefix": "10.5121",
+          "volume": "5",
+          "author": [
+            {
+              "given": "Mohammad",
+              "family": "Khanbabaei",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Mahmood",
+              "family": "Alborzi",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            }
+          ],
+          "member": "3062",
+          "container-title": [
+            "International Journal of Managing Information Technology"
+          ],
+          "deposited": {
+            "date-parts": [
+              [
+                2013,
+                12,
+                7
+              ]
+            ],
+            "date-time": "2013-12-07T01:10:54Z",
+            "timestamp": 1386378654000
+          },
+          "score": 36.37521,
+          "resource": {
+            "primary": {
+              "URL": "http://www.airccse.org/journal/ijmit/papers/5413ijmit02.pdf"
+            }
+          },
+          "issued": {
+            "date-parts": [
+              [
+                2013,
+                11,
+                30
+              ]
+            ]
+          },
+          "references-count": 0,
+          "journal-issue": {
+            "issue": "4",
+            "published-print": {
+              "date-parts": [
+                [
+                  2013,
+                  11,
+                  30
+                ]
+              ]
+            }
+          },
+          "URL": "https://doi.org/10.5121/ijmit.2013.5402",
+          "ISSN": [
+            "0975-5926",
+            "0975-5586"
+          ],
+          "issn-type": [
+            {
+              "value": "0975-5926",
+              "type": "print"
+            },
+            {
+              "value": "0975-5586",
+              "type": "electronic"
+            }
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2013,
+                11,
+                30
+              ]
+            ]
+          }
+        }
+      ],
+      "items-per-page": 3,
+      "query": {
+        "start-index": 0,
+        "search-terms": null
+      }
+    }
+  }
+}

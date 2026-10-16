@@ -1,0 +1,678 @@
+{
+  "retrieved": "2026-10-16",
+  "url": "https://api.crossref.org/works?query.bibliographic=ParamILS+automatic+algorithm+configuration+framework&rows=3&filter=until-pub-date%3A2026-10-16",
+  "response": {
+    "status": "ok",
+    "message-type": "work-list",
+    "message-version": "1.0.0",
+    "message": {
+      "facets": {},
+      "total-results": 1901043,
+      "items": [
+        {
+          "indexed": {
+            "date-parts": [
+              [
+                2026,
+                10,
+                15
+              ]
+            ],
+            "date-time": "2026-10-15T13:32:58Z",
+            "timestamp": 1792071178028,
+            "version": "4.4.0"
+          },
+          "reference-count": 0,
+          "publisher": "AI Access Foundation",
+          "content-domain": {
+            "domain": [],
+            "crossmark-restriction": false
+          },
+          "short-container-title": [
+            "jair"
+          ],
+          "abstract": "",
+          "DOI": "10.1613/jair.2861",
+          "type": "journal-article",
+          "created": {
+            "date-parts": [
+              [
+                2018,
+                7,
+                17
+              ]
+            ],
+            "date-time": "2018-07-17T14:33:16Z",
+            "timestamp": 1531837996000
+          },
+          "page": "267-306",
+          "source": "Crossref",
+          "is-referenced-by-count": 675,
+          "title": [
+            "ParamILS: An Automatic Algorithm Configuration Framework"
+          ],
+          "prefix": "10.1613",
+          "volume": "36",
+          "author": [
+            {
+              "given": "F.",
+              "family": "Hutter",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "H. H.",
+              "family": "Hoos",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "K.",
+              "family": "Leyton-Brown",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "T.",
+              "family": "Stuetzle",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            }
+          ],
+          "member": "16860",
+          "published-online": {
+            "date-parts": [
+              [
+                2009,
+                10,
+                30
+              ]
+            ]
+          },
+          "container-title": [
+            "Journal of Artificial Intelligence Research"
+          ],
+          "link": [
+            {
+              "URL": "https://jair.org/index.php/jair/article/download/10628/25415",
+              "content-type": "application/pdf",
+              "content-version": "vor",
+              "intended-application": "text-mining"
+            },
+            {
+              "URL": "https://jair.org/index.php/jair/article/download/10628/25414",
+              "content-type": "application/postscript",
+              "content-version": "vor",
+              "intended-application": "text-mining"
+            },
+            {
+              "URL": "https://jair.org/index.php/jair/article/download/10628/25415",
+              "content-type": "unspecified",
+              "content-version": "vor",
+              "intended-application": "similarity-checking"
+            }
+          ],
+          "deposited": {
+            "date-parts": [
+              [
+                2019,
+                10,
+                21
+              ]
+            ],
+            "date-time": "2019-10-21T22:23:27Z",
+            "timestamp": 1571696607000
+          },
+          "score": 41.64524,
+          "resource": {
+            "primary": {
+              "URL": "https://jair.org/index.php/jair/article/view/10628"
+            }
+          },
+          "issued": {
+            "date-parts": [
+              [
+                2009,
+                10,
+                30
+              ]
+            ]
+          },
+          "references-count": 0,
+          "URL": "https://doi.org/10.1613/jair.2861",
+          "ISSN": [
+            "1076-9757"
+          ],
+          "issn-type": [
+            {
+              "value": "1076-9757",
+              "type": "electronic"
+            }
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2009,
+                10,
+                30
+              ]
+            ]
+          }
+        },
+        {
+          "indexed": {
+            "date-parts": [
+              [
+                2026,
+                10,
+                6
+              ]
+            ],
+            "date-time": "2026-10-06T09:26:58Z",
+            "timestamp": 1791278818676,
+            "version": "4.1.0"
+          },
+          "publisher-location": "Cham",
+          "reference-count": 14,
+          "publisher": "Springer International Publishing",
+          "isbn-type": [
+            {
+              "value": "9783319503486",
+              "type": "print"
+            },
+            {
+              "value": "9783319503493",
+              "type": "electronic"
+            }
+          ],
+          "license": [
+            {
+              "start": {
+                "date-parts": [
+                  [
+                    2016,
+                    1,
+                    1
+                  ]
+                ],
+                "date-time": "2016-01-01T00:00:00Z",
+                "timestamp": 1451606400000
+              },
+              "content-version": "unspecified",
+              "delay-in-days": 0,
+              "URL": "http://www.springer.com/tdm"
+            }
+          ],
+          "content-domain": {
+            "domain": [],
+            "crossmark-restriction": false
+          },
+          "published-print": {
+            "date-parts": [
+              [
+                2016
+              ]
+            ]
+          },
+          "DOI": "10.1007/978-3-319-50349-3_3",
+          "type": "book-chapter",
+          "created": {
+            "date-parts": [
+              [
+                2016,
+                11,
+                30
+              ]
+            ],
+            "date-time": "2016-11-30T02:12:11Z",
+            "timestamp": 1480471931000
+          },
+          "page": "32-47",
+          "source": "Crossref",
+          "is-referenced-by-count": 50,
+          "title": [
+            "MO-ParamILS: A Multi-objective Automatic Algorithm Configuration Framework"
+          ],
+          "prefix": "10.1007",
+          "author": [
+            {
+              "given": "Aymeric",
+              "family": "Blot",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Holger H.",
+              "family": "Hoos",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Laetitia",
+              "family": "Jourdan",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Marie-Éléonore",
+              "family": "Kessaci-Marmion",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Heike",
+              "family": "Trautmann",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            }
+          ],
+          "member": "297",
+          "published-online": {
+            "date-parts": [
+              [
+                2016,
+                12,
+                1
+              ]
+            ]
+          },
+          "reference": [
+            {
+              "issue": "1",
+              "key": "3_CR1",
+              "doi-asserted-by": "crossref",
+              "first-page": "99",
+              "DOI": "10.1287/opre.1050.0243",
+              "volume": "54",
+              "author": "B Adenso-Díaz",
+              "year": "2006",
+              "unstructured": "Adenso-Díaz, B., Laguna, M.: Fine-tuning of algorithms using fractional experimental designs and local search. Oper. Res. 54(1), 99–114 (2006)",
+              "journal-title": "Oper. Res."
+            },
+            {
+              "key": "3_CR2",
+              "doi-asserted-by": "crossref",
+              "first-page": "311",
+              "DOI": "10.1007/978-3-642-02538-9_13",
+              "volume-title": "Experimental Methods for the Analysis of Optimization Algorithms",
+              "author": "M Birattari",
+              "year": "2010",
+              "unstructured": "Birattari, M., Yuan, Z., Balaprakash, P., Stützle, T.: F-Race and iterated F-Race: an overview. In: Bartz-Beielstein, T., Chiarandini, M., Paquete, L., Preuss, M. (eds.) Experimental Methods for the Analysis of Optimization Algorithms, pp. 311–336. Springer, Berlin (2010)"
+            },
+            {
+              "key": "3_CR3",
+              "series-title": "Lecture Notes in Computer Science",
+              "doi-asserted-by": "publisher",
+              "first-page": "34",
+              "DOI": "10.1007/978-3-319-15934-8_3",
+              "volume-title": "Evolutionary Multi-Criterion Optimization",
+              "author": "A Blot",
+              "year": "2015",
+              "unstructured": "Blot, A., Aguirre, H., Dhaenens, C., Jourdan, L., Marmion, M.-E., Tanaka, K.: Neutral but a winner! How neutrality helps multiobjective local search algorithms. In: Gaspar-Cunha, A., Henggeler Antunes, C., Coello, C.C. (eds.) EMO 2015. LNCS, vol. 9018, pp. 34–47. Springer, Heidelberg (2015). doi: 10.1007/978-3-319-15934-8_3"
+            },
+            {
+              "key": "3_CR4",
+              "unstructured": "Geiger, M.J.: Foundations of the Pareto iterated local search metaheuristic. CoRR abs/0809.0406 (2008). http://arxiv.org/abs/0809.0406"
+            },
+            {
+              "key": "3_CR5",
+              "series-title": "Lecture Notes in Computer Science",
+              "doi-asserted-by": "publisher",
+              "first-page": "507",
+              "DOI": "10.1007/978-3-642-25566-3_40",
+              "volume-title": "Learning and Intelligent Optimization",
+              "author": "F Hutter",
+              "year": "2011",
+              "unstructured": "Hutter, F., Hoos, H.H., Leyton-Brown, K.: Sequential model-based optimization for general algorithm configuration. In: Coello, C.A.C. (ed.) LION 2011. LNCS, vol. 6683, pp. 507–523. Springer, Heidelberg (2011). doi: 10.1007/978-3-642-25566-3_40"
+            },
+            {
+              "key": "3_CR6",
+              "doi-asserted-by": "crossref",
+              "first-page": "267",
+              "DOI": "10.1613/jair.2861",
+              "volume": "36",
+              "author": "F Hutter",
+              "year": "2009",
+              "unstructured": "Hutter, F., Hoos, H.H., Leyton-Brown, K., Stützle, T.: ParamILS: an automatic algorithm configuration framework. JAIR 36, 267–306 (2009)",
+              "journal-title": "JAIR"
+            },
+            {
+              "key": "3_CR7",
+              "unstructured": "Hutter, F., Hoos, H.H., Stützle, T.: Automatic algorithm configuration based on local search. In: AAAI 2007, pp. 1152–1157 (2007)"
+            },
+            {
+              "key": "3_CR8",
+              "unstructured": "Knowles, J., Thiele, L., Zitzler, E.: A tutorial on the performance assessment of stochastic multiobjective optimizers. Technical report 214, Computer Engineering and Networks Laboratory (TIK), ETH Zurich, Switzerland, revised version (2006)"
+            },
+            {
+              "issue": "2",
+              "key": "3_CR9",
+              "doi-asserted-by": "crossref",
+              "first-page": "317",
+              "DOI": "10.1007/s10732-011-9181-3",
+              "volume": "18",
+              "author": "A Liefooghe",
+              "year": "2012",
+              "unstructured": "Liefooghe, A., Humeau, J., Mesmoudi, S., Jourdan, L., Talbi, E.: On dominance-based multiobjective local search: design, implementation and experimental analysis on scheduling and traveling salesman problems. J. Heuristics 18(2), 317–352 (2012)",
+              "journal-title": "J. Heuristics"
+            },
+            {
+              "key": "3_CR10",
+              "doi-asserted-by": "crossref",
+              "unstructured": "López-Ibáñez, M., Dubois-Lacoste, J., Stützle, T., Birattari, M.: The irace package, iterated race for automatic algorithm configuration. Technical report, TR/IRIDIA/2011-004, IRIDIA, Université Libre de Bruxelles, Belgium (2011)",
+              "DOI": "10.32614/CRAN.package.irace"
+            },
+            {
+              "key": "3_CR11",
+              "doi-asserted-by": "crossref",
+              "first-page": "363",
+              "DOI": "10.1007/978-1-4419-1665-5_12",
+              "volume-title": "Handbook of Metaheuristics",
+              "author": "H Lourenço",
+              "year": "2010",
+              "unstructured": "Lourenço, H., Martin, O., Stützle, T.: Iterated local search: framework and applications. In: Gendreau, M., Potvin, J.-Y. (eds.) Handbook of Metaheuristics, vol. 2, pp. 363–397. Springer, New York (2010)"
+            },
+            {
+              "key": "3_CR12",
+              "series-title": "Lecture Notes in Computer Science",
+              "doi-asserted-by": "publisher",
+              "first-page": "144",
+              "DOI": "10.1007/978-3-642-38516-2_12",
+              "volume-title": "Hybrid Metaheuristics",
+              "author": "M-E Marmion",
+              "year": "2013",
+              "unstructured": "Marmion, M.-E., Mascia, F., López-Ibáñez, M., Stützle, T.: Automatic design of hybrid stochastic local search algorithms. In: Blesa, M.J., Blum, C., Festa, P., Roli, A., Sampels, M. (eds.) HM 2013. LNCS, vol. 7919, pp. 144–158. Springer, Heidelberg (2013). doi: 10.1007/978-3-642-38516-2_12"
+            },
+            {
+              "key": "3_CR13",
+              "doi-asserted-by": "crossref",
+              "unstructured": "Zhang, T., Georgiopoulos, M., Anagnostopoulos, G.C.: S-Race: a multi-objective racing algorithm. In: GECCO 2013, pp. 1565–1572 (2013)",
+              "DOI": "10.1145/2463372.2463561"
+            },
+            {
+              "key": "3_CR14",
+              "doi-asserted-by": "crossref",
+              "unstructured": "Zhang, T., Georgiopoulos, M., Anagnostopoulos, G.C.: SPRINT multi-objective model racing. In: GECCO 2015, pp. 1383–1390 (2015)",
+              "DOI": "10.1145/2739480.2754791"
+            }
+          ],
+          "container-title": [
+            "Lecture Notes in Computer Science",
+            "Learning and Intelligent Optimization"
+          ],
+          "link": [
+            {
+              "URL": "http://link.springer.com/content/pdf/10.1007/978-3-319-50349-3_3",
+              "content-type": "unspecified",
+              "content-version": "vor",
+              "intended-application": "similarity-checking"
+            }
+          ],
+          "deposited": {
+            "date-parts": [
+              [
+                2024,
+                6,
+                20
+              ]
+            ],
+            "date-time": "2024-06-20T17:57:06Z",
+            "timestamp": 1718906226000
+          },
+          "score": 35.923412,
+          "resource": {
+            "primary": {
+              "URL": "http://link.springer.com/10.1007/978-3-319-50349-3_3"
+            }
+          },
+          "issued": {
+            "date-parts": [
+              [
+                2016
+              ]
+            ]
+          },
+          "ISBN": [
+            "9783319503486",
+            "9783319503493"
+          ],
+          "references-count": 14,
+          "URL": "https://doi.org/10.1007/978-3-319-50349-3_3",
+          "ISSN": [
+            "0302-9743",
+            "1611-3349"
+          ],
+          "issn-type": [
+            {
+              "value": "0302-9743",
+              "type": "print"
+            },
+            {
+              "value": "1611-3349",
+              "type": "electronic"
+            }
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2016
+              ]
+            ]
+          }
+        },
+        {
+          "indexed": {
+            "date-parts": [
+              [
+                2024,
+                7,
+                23
+              ]
+            ],
+            "date-time": "2024-07-23T05:59:08Z",
+            "timestamp": 1721714348723
+          },
+          "publisher-location": "Reston, Virginia",
+          "reference-count": 3,
+          "publisher": "American Institute of Aeronautics and Astronautics",
+          "content-domain": {
+            "domain": [
+              "arc.aiaa.org"
+            ],
+            "crossmark-restriction": true
+          },
+          "published-print": {
+            "date-parts": [
+              [
+                2016,
+                5,
+                16
+              ]
+            ]
+          },
+          "DOI": "10.2514/6.2016-2610",
+          "type": "proceedings-article",
+          "created": {
+            "date-parts": [
+              [
+                2016,
+                5,
+                13
+              ]
+            ],
+            "date-time": "2016-05-13T14:19:28Z",
+            "timestamp": 1463149168000
+          },
+          "update-policy": "http://dx.doi.org/10.2514/aiaa_crossmarkpolicy",
+          "source": "Crossref",
+          "is-referenced-by-count": 2,
+          "title": [
+            "Automatic Configuration Management - Autodiscovery of Configuration Items and Automatic Configuration Verification"
+          ],
+          "prefix": "10.2514",
+          "author": [
+            {
+              "given": "Nadine",
+              "family": "Perera",
+              "sequence": "first",
+              "affiliation": [
+                {
+                  "name": "German Aerospace Center (DLR)"
+                }
+              ],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            }
+          ],
+          "member": "1387",
+          "published-online": {
+            "date-parts": [
+              [
+                2016,
+                5,
+                13
+              ]
+            ]
+          },
+          "reference": [
+            {
+              "key": "p_1",
+              "volume-title": "Third issue Revision 1",
+              "year": "2009"
+            },
+            {
+              "key": "p_2",
+              "volume-title": "Proceedings of the 16th International Conference on SpaceOperations,May2016",
+              "author": "Beck T."
+            },
+            {
+              "key": "p_3",
+              "volume-title": "Configuration and Testing: Improved Management through Semi-automatic Processes",
+              "author": "Lopez Delgado T.",
+              "year": "2014"
+            }
+          ],
+          "event": {
+            "name": "SpaceOps 2016 Conference",
+            "location": "Daejeon, Korea"
+          },
+          "container-title": [
+            "SpaceOps 2016 Conference"
+          ],
+          "link": [
+            {
+              "URL": "http://arc.aiaa.org/doi/pdf/10.2514/6.2016-2610",
+              "content-type": "unspecified",
+              "content-version": "vor",
+              "intended-application": "similarity-checking"
+            }
+          ],
+          "deposited": {
+            "date-parts": [
+              [
+                2021,
+                4,
+                21
+              ]
+            ],
+            "date-time": "2021-04-21T18:04:05Z",
+            "timestamp": 1619028245000
+          },
+          "score": 23.324387,
+          "resource": {
+            "primary": {
+              "URL": "https://arc.aiaa.org/doi/10.2514/6.2016-2610"
+            }
+          },
+          "issued": {
+            "date-parts": [
+              [
+                2016,
+                5,
+                13
+              ]
+            ]
+          },
+          "references-count": 3,
+          "alternative-id": [
+            "10.2514/6.2016-2610",
+            "10.2514/MSPOPS16"
+          ],
+          "URL": "https://doi.org/10.2514/6.2016-2610",
+          "published": {
+            "date-parts": [
+              [
+                2016,
+                5,
+                13
+              ]
+            ]
+          }
+        }
+      ],
+      "items-per-page": 3,
+      "query": {
+        "start-index": 0,
+        "search-terms": null
+      }
+    }
+  }
+}

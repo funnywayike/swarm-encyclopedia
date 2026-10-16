@@ -1,939 +1,1323 @@
 {
- "categories": [
-  {
-   "id": "cont",
-   "ico": "📐",
-   "name": "连续与参数寻优",
-   "hint": "实数向量编码——参数整定、反演、昂贵黑箱，应用体量最大的一族"
-  },
-  {
-   "id": "sched",
-   "ico": "⏱️",
-   "name": "调度与排程",
-   "hint": "把任务/负荷/班次在时间轴上排开——强约束组合优化"
-  },
-  {
-   "id": "assign",
-   "ico": "🏥",
-   "name": "分配与选址",
-   "hint": "谁放在哪——QAP、覆盖、p-中位与排列编码（设施布局、传感器、急救站）"
-  },
-  {
-   "id": "subset",
-   "ico": "🧩",
-   "name": "子集与组合选择",
-   "hint": "从全集里挑子集——特征选择、装卸决策，背包同构（0-1/多维/二次）"
-  },
-  {
-   "id": "multiobj",
-   "ico": "⚖️",
-   "name": "多目标权衡",
-   "hint": "Pareto 前沿驱动——成本/性能/鲁棒性取舍即主问题形态的条目"
-  },
-  {
-   "id": "gen",
-   "ico": "🎨",
-   "name": "生成式设计",
-   "hint": "GP/进化创意——分子、天线、艺术、游戏内容、机器人形态"
-  },
-  {
-   "id": "adv",
-   "ico": "🛡️",
-   "name": "对抗与安全",
-   "hint": "攻防、博弈、密码破译——对手在环的搜索"
-  },
-  {
-   "id": "network",
-   "ico": "🕸️",
-   "name": "网络与路径",
-   "hint": "图上找路与流——路由、疏散（VRP 域冻结，仅词条）"
-  },
-  {
-   "id": "metatool",
-   "ico": "🧰",
-   "name": "元层工具",
-   "hint": "搜索搜索者——超启发式、算法自动配置、QUBO 统一接口"
-  }
- ],
- "industries": [
-  "能源电力",
-  "农业水利",
-  "交通运输",
-  "土木建筑",
-  "制造工艺",
-  "生物医药",
-  "信息工程",
-  "航天军工",
-  "地球环境",
-  "金融经济",
-  "安全博弈",
-  "人文教艺",
-  "前沿工具"
- ],
- "entries": [
-  {
-   "title": "微电网调度",
-   "industry": "能源电力",
-   "oneliner": "微电网经济调度——混合整数调度类，NSGA-II 多目标主力",
-   "link": "/problem/continuous/",
-   "src": "10.16",
-   "cat": "sched",
-   "abstract_type": "sms"
-  },
-  {
-   "title": "机组组合 UC",
-   "industry": "能源电力",
-   "oneliner": "「开哪些机组」的大规模混合整数问题，GA/改进 PSO 与数学规划混战",
-   "link": "/problem/continuous/",
-   "src": "10.49",
-   "cat": "sched",
-   "abstract_type": "sms"
-  },
-  {
-   "title": "配电网重构",
-   "industry": "能源电力",
-   "oneliner": "开关状态组合优化，目标网损/电压——二进制+图结构",
-   "link": "",
-   "src": "10.37",
-   "cat": "subset",
-   "abstract_type": "subset"
-  },
-  {
-   "title": "电网 PMU 布置",
-   "industry": "能源电力",
-   "oneliner": "相量测量单元最优布置——带可观性约束的集合覆盖",
-   "link": "/problem/assignment/",
-   "src": "10.51",
-   "cat": "assign",
-   "abstract_type": "scp"
-  },
-  {
-   "title": "风光储容量配置",
-   "industry": "能源电力",
-   "oneliner": "风光储联合容量——多目标（成本/可靠性/弃风）",
-   "link": "/problem/multiobj/",
-   "src": "10.55",
-   "cat": "multiobj",
-   "abstract_type": "multiobj"
-  },
-  {
-   "title": "需求响应 DSM",
-   "industry": "能源电力",
-   "oneliner": "用户侧负荷调度——约束组合优化",
-   "link": "/problem/continuous/",
-   "src": "10.56",
-   "cat": "sched",
-   "abstract_type": "sms"
-  },
-  {
-   "title": "风电场布局 WFLO",
-   "industry": "能源电力",
-   "oneliner": "机位微调降尾流损失——连续+排列混合",
-   "link": "/problem/continuous/",
-   "src": "10.47",
-   "cat": "cont",
-   "abstract_type": "continuous"
-  },
-  {
-   "title": "光伏参数提取",
-   "industry": "能源电力",
-   "oneliner": "光伏电池模型参数辨识——昂贵非线性最小二乘",
-   "link": "/problem/continuous/",
-   "src": "10.44",
-   "cat": "cont",
-   "abstract_type": "continuous"
-  },
-  {
-   "title": "混动能量管理 EMS",
-   "industry": "能源电力",
-   "oneliner": "油电功率分配——动态规划/ECMS 占据，元启发式为对照",
-   "link": "/problem/continuous/",
-   "src": "10.60",
-   "cat": "cont",
-   "abstract_type": "continuous"
-  },
-  {
-   "title": "充电站选址",
-   "industry": "能源电力",
-   "oneliner": "MCLP + p-中位 + 仿真校验的电力设施布局",
-   "link": "/problem/assignment/",
-   "src": "10.61",
-   "cat": "assign",
-   "abstract_type": "uflp"
-  },
-  {
-   "title": "建筑节能改造",
-   "industry": "能源电力",
-   "oneliner": "改造措施组合选择——组合优化（专用工具链占据）",
-   "link": "/problem/knapsack/",
-   "src": "10.61",
-   "cat": "subset",
-   "abstract_type": "subset"
-  },
-  {
-   "title": "农业水利综合",
-   "industry": "农业水利",
-   "oneliner": "灌溉制度/水-能关联优化——SA/GA/PSO 主力",
-   "link": "/problem/continuous/",
-   "src": "10.13",
-   "cat": "cont",
-   "abstract_type": "continuous"
-  },
-  {
-   "title": "精准农业",
-   "industry": "农业水利",
-   "oneliner": "变量施用/作业调度——约束优化",
-   "link": "/problem/continuous/",
-   "src": "10.23",
-   "cat": "cont",
-   "abstract_type": "continuous"
-  },
-  {
-   "title": "作物种植规划",
-   "industry": "农业水利",
-   "oneliner": "种植结构多目标规划，二十年 2.19×10⁷ ha 纽带框架",
-   "link": "/problem/multiobj/",
-   "src": "10.58",
-   "cat": "multiobj",
-   "abstract_type": "multiobj"
-  },
-  {
-   "title": "水分配网络设计",
-   "industry": "农业水利",
-   "oneliner": "管径组合优化——0-1 背包可归约，GA 最常用",
-   "link": "/problem/knapsack/",
-   "src": "10.26",
-   "cat": "subset",
-   "abstract_type": "subset"
-  },
-  {
-   "title": "水库群调度",
-   "industry": "农业水利",
-   "oneliner": "梯级水库发电/供水多目标调度",
-   "link": "/problem/multiobj/",
-   "src": "10.34",
-   "cat": "multiobj",
-   "abstract_type": "multiobj"
-  },
-  {
-   "title": "森林野火管理",
-   "industry": "农业水利",
-   "oneliner": "消防资源部署与扑救调度——覆盖+动态",
-   "link": "/problem/assignment/",
-   "src": "10.29",
-   "cat": "assign",
-   "abstract_type": "subset"
-  },
-  {
-   "title": "雨洪管理",
-   "industry": "农业水利",
-   "oneliner": "LID 设施空间配置——SWMM 仿真驱动的组合优化",
-   "link": "/problem/assignment/",
-   "src": "10.58",
-   "cat": "assign",
-   "abstract_type": "subset"
-  },
-  {
-   "title": "交通信号控制",
-   "industry": "交通运输",
-   "oneliner": "信号配时/相位优化——仿真驱动连续+离散混合",
-   "link": "/problem/continuous/",
-   "src": "10.21",
-   "cat": "cont",
-   "abstract_type": "continuous"
-  },
-  {
-   "title": "公交线网设计",
-   "industry": "交通运输",
-   "oneliner": "线路布设与班次——多目标网络设计",
-   "link": "/problem/multiobj/",
-   "src": "10.38",
-   "cat": "multiobj",
-   "abstract_type": "multiobj"
-  },
-  {
-   "title": "港口调度",
-   "industry": "交通运输",
-   "oneliner": "岸桥/泊位分配——QAP/调度同构",
-   "link": "/problem/assignment/",
-   "src": "10.31",
-   "cat": "assign",
-   "abstract_type": "jss"
-  },
-  {
-   "title": "供应链网络设计",
-   "industry": "交通运输",
-   "oneliner": "设施选址+流量分配——混合整数选址-分配",
-   "link": "/problem/assignment/",
-   "src": "10.22",
-   "cat": "assign",
-   "abstract_type": "ndp"
-  },
-  {
-   "title": "仓储运营",
-   "industry": "交通运输",
-   "oneliner": "货位分配——QAP 同构",
-   "link": "/problem/assignment/",
-   "src": "10.39",
-   "cat": "assign",
-   "abstract_type": "assignment"
-  },
-  {
-   "title": "电梯群控",
-   "industry": "交通运输",
-   "oneliner": "梯群派梯——轻量调度类（关联收录）",
-   "link": "",
-   "src": "10.55",
-   "cat": "sched",
-   "abstract_type": "sms"
-  },
-  {
-   "title": "无人机路径规划",
-   "industry": "交通运输",
-   "oneliner": "三维航迹——约束连续+离散混合",
-   "link": "/problem/continuous/",
-   "src": "10.45",
-   "cat": "cont",
-   "abstract_type": "sequencing"
-  },
-  {
-   "title": "桁架结构优化",
-   "industry": "土木建筑",
-   "oneliner": "截面/拓扑优化——约束连续主力",
-   "link": "/problem/continuous/",
-   "src": "10.32",
-   "cat": "cont",
-   "abstract_type": "continuous"
-  },
-  {
-   "title": "岩土边坡稳定",
-   "industry": "土木建筑",
-   "oneliner": "临界滑面搜索——昂贵非线性",
-   "link": "/problem/continuous/",
-   "src": "10.38",
-   "cat": "cont",
-   "abstract_type": "continuous"
-  },
-  {
-   "title": "结构损伤检测",
-   "industry": "土木建筑",
-   "oneliner": "由响应反推损伤位置——反问题+特征选择",
-   "link": "/problem/knapsack/",
-   "src": "10.52",
-   "cat": "subset",
-   "abstract_type": "subset"
-  },
-  {
-   "title": "进化建筑设计",
-   "industry": "土木建筑",
-   "oneliner": "平面生成与性能寻优——GP+多目标",
-   "link": "/problem/multiobj/",
-   "src": "10.30",
-   "cat": "multiobj",
-   "abstract_type": "multiobj"
-  },
-  {
-   "title": "设施布局 FLP",
-   "industry": "土木建筑",
-   "oneliner": "QAP 的工程形态——流量×距离二次目标",
-   "link": "/problem/assignment/",
-   "src": "10.60",
-   "cat": "assign",
-   "abstract_type": "uflp"
-  },
-  {
-   "title": "数控加工参数",
-   "industry": "制造工艺",
-   "oneliner": "切削参数寻优——约束连续",
-   "link": "/problem/continuous/",
-   "src": "10.57",
-   "cat": "cont",
-   "abstract_type": "continuous"
-  },
-  {
-   "title": "增材制造",
-   "industry": "制造工艺",
-   "oneliner": "工艺参数/支撑结构——10 种元启发式趋同的诚实负结果域",
-   "link": "/problem/continuous/",
-   "src": "10.53",
-   "cat": "cont",
-   "abstract_type": "continuous"
-  },
-  {
-   "title": "铸造焊接工艺",
-   "industry": "制造工艺",
-   "oneliner": "工艺窗口多目标寻优",
-   "link": "/problem/multiobj/",
-   "src": "10.53",
-   "cat": "multiobj",
-   "abstract_type": "multiobj"
-  },
-  {
-   "title": "化工排产",
-   "industry": "制造工艺",
-   "oneliner": "批次调度——强约束调度类",
-   "link": "",
-   "src": "10.23",
-   "cat": "sched",
-   "abstract_type": "jss"
-  },
-  {
-   "title": "装配线平衡",
-   "industry": "制造工艺",
-   "oneliner": "任务分配到工位——约束分配类（SALBP）",
-   "link": "/problem/assignment/",
-   "src": "10.27",
-   "cat": "assign",
-   "abstract_type": "fss"
-  },
-  {
-   "title": "材料逆向设计",
-   "industry": "制造工艺",
-   "oneliner": "由性能反推配方/结构——昂贵黑箱",
-   "link": "/problem/continuous/",
-   "src": "10.52",
-   "cat": "cont",
-   "abstract_type": "continuous"
-  },
-  {
-   "title": "晶体结构预测",
-   "industry": "制造工艺",
-   "oneliner": "势能面全局搜索——USPEX 演化经典",
-   "link": "/problem/continuous/",
-   "src": "10.30",
-   "cat": "cont",
-   "abstract_type": "continuous"
-  },
-  {
-   "title": "食品配方",
-   "industry": "制造工艺",
-   "oneliner": "配方组合——多目标感官/成本权衡",
-   "link": "/problem/multiobj/",
-   "src": "10.40",
-   "cat": "multiobj",
-   "abstract_type": "multiobj"
-  },
-  {
-   "title": "时尚设计",
-   "industry": "制造工艺",
-   "oneliner": "款式要素组合生成——GP/约束组合",
-   "link": "",
-   "src": "10.40",
-   "cat": "gen",
-   "abstract_type": "ged"
-  },
-  {
-   "title": "分子设计",
-   "industry": "生物医药",
-   "oneliner": "药物分子结构生成——GP/图进化",
-   "link": "",
-   "src": "10.17",
-   "cat": "gen",
-   "abstract_type": "ged"
-  },
-  {
-   "title": "蛋白质结构预测",
-   "industry": "生物医药",
-   "oneliner": "构象搜索——连续+组合混合巨型问题",
-   "link": "/problem/continuous/",
-   "src": "10.41",
-   "cat": "cont",
-   "abstract_type": "continuous"
-  },
-  {
-   "title": "分子对接",
-   "industry": "生物医药",
-   "oneliner": "配体构象搜索——昂贵评分函数",
-   "link": "/problem/continuous/",
-   "src": "10.41",
-   "cat": "cont",
-   "abstract_type": "continuous"
-  },
-  {
-   "title": "多序列比对",
-   "industry": "生物医药",
-   "oneliner": "生物序列排列——排列/集合编码",
-   "link": "",
-   "src": "10.42",
-   "cat": "assign",
-   "abstract_type": "assignment"
-  },
-  {
-   "title": "GWAS 基因特征选择",
-   "industry": "生物医药",
-   "oneliner": "SNP 子集选择——大规模二进制（MKP 同构）",
-   "link": "/problem/knapsack/",
-   "src": "10.43",
-   "cat": "subset",
-   "abstract_type": "subset"
-  },
-  {
-   "title": "手术排程",
-   "industry": "生物医药",
-   "oneliner": "手术室时刻表——强约束调度",
-   "link": "",
-   "src": "10.43",
-   "cat": "sched",
-   "abstract_type": "sms"
-  },
-  {
-   "title": "放射治疗计划",
-   "industry": "生物医药",
-   "oneliner": "IMRT 射束权重——束角选择组合+剂量连续双层",
-   "link": "/problem/continuous/",
-   "src": "10.48",
-   "cat": "cont",
-   "abstract_type": "continuous"
-  },
-  {
-   "title": "急救车选址",
-   "industry": "生物医药",
-   "oneliner": "MEXCLP 四十年谱系——从覆盖到存活率",
-   "link": "/problem/assignment/",
-   "src": "10.46",
-   "cat": "assign",
-   "abstract_type": "uflp"
-  },
-  {
-   "title": "护士排班",
-   "industry": "生物医药",
-   "oneliner": "班表约束满足——调度类（域冻结词条）",
-   "link": "",
-   "src": "10.17",
-   "cat": "sched",
-   "abstract_type": "nrp"
-  },
-  {
-   "title": "特征选择",
-   "industry": "信息工程",
-   "oneliner": "ML 组合优化第一主战场——二进制编码（群智能占新算法 55%）",
-   "link": "/problem/knapsack/",
-   "src": "10.19",
-   "cat": "subset",
-   "abstract_type": "subset"
-  },
-  {
-   "title": "图像分割",
-   "industry": "信息工程",
-   "oneliner": "阈值/聚类分割——多目标（结构/熵权衡）",
-   "link": "/problem/multiobj/",
-   "src": "10.18",
-   "cat": "multiobj",
-   "abstract_type": "multiobj"
-  },
-  {
-   "title": "进化聚类",
-   "industry": "信息工程",
-   "oneliner": "聚类中心/划分搜索——多目标（紧致度/分离度）",
-   "link": "/problem/multiobj/",
-   "src": "10.28",
-   "cat": "multiobj",
-   "abstract_type": "multiobj"
-  },
-  {
-   "title": "传感器部署",
-   "industry": "信息工程",
-   "oneliner": "WSN 覆盖+连通+寿命——集合覆盖/多目标",
-   "link": "/problem/assignment/",
-   "src": "10.28",
-   "cat": "assign",
-   "abstract_type": "scp"
-  },
-  {
-   "title": "进化神经架构搜索",
-   "industry": "信息工程",
-   "oneliner": "NAS——昂贵黑箱（GPU 预算）",
-   "link": "/problem/continuous/",
-   "src": "10.44",
-   "cat": "cont",
-   "abstract_type": "continuous"
-  },
-  {
-   "title": "进化强化学习",
-   "industry": "信息工程",
-   "oneliner": "超参/策略进化——混合优化",
-   "link": "/problem/continuous/",
-   "src": "10.42",
-   "cat": "cont",
-   "abstract_type": "continuous"
-  },
-  {
-   "title": "云计算调度",
-   "industry": "信息工程",
-   "oneliner": "任务→虚拟机分配——多目标（时延/成本/能耗）",
-   "link": "/problem/assignment/",
-   "src": "10.22",
-   "cat": "assign",
-   "abstract_type": "sms"
-  },
-  {
-   "title": "边缘计算卸载",
-   "industry": "信息工程",
-   "oneliner": "任务卸载决策——二进制+资源约束",
-   "link": "/problem/knapsack/",
-   "src": "10.48",
-   "cat": "subset",
-   "abstract_type": "subset"
-  },
-  {
-   "title": "水声网络路由",
-   "industry": "信息工程",
-   "oneliner": "路由路径选择——图优化+时延约束",
-   "link": "",
-   "src": "10.57",
-   "cat": "network",
-   "abstract_type": "stp"
-  },
-  {
-   "title": "演化机器人学",
-   "industry": "信息工程",
-   "oneliner": "形态/控制器协同进化——GP+仿真",
-   "link": "",
-   "src": "10.14",
-   "cat": "gen",
-   "abstract_type": "ged"
-  },
-  {
-   "title": "群体机器人",
-   "industry": "信息工程",
-   "oneliner": "群控策略进化——分布式控制",
-   "link": "",
-   "src": "10.27",
-   "cat": "gen",
-   "abstract_type": "ged"
-  },
-  {
-   "title": "搜索式软件测试",
-   "industry": "信息工程",
-   "oneliner": "测试用例生成 SBST——1976 年起的经典谱系",
-   "link": "",
-   "src": "10.47",
-   "cat": "gen",
-   "abstract_type": "ged"
-  },
-  {
-   "title": "图像水印",
-   "industry": "信息工程",
-   "oneliner": "水印嵌入位置/强度——多目标（鲁棒性/透明性）",
-   "link": "/problem/multiobj/",
-   "src": "10.49",
-   "cat": "multiobj",
-   "abstract_type": "multiobj"
-  },
-  {
-   "title": "卫星任务规划",
-   "industry": "航天军工",
-   "oneliner": "成像任务调度——带时间窗约束调度",
-   "link": "",
-   "src": "10.20",
-   "cat": "sched",
-   "abstract_type": "sms"
-  },
-  {
-   "title": "航天轨道转移",
-   "industry": "航天军工",
-   "oneliner": "Lambert 问题×EA——250 年解析传统融合",
-   "link": "/problem/continuous/",
-   "src": "10.46",
-   "cat": "cont",
-   "abstract_type": "continuous"
-  },
-  {
-   "title": "天文调度",
-   "industry": "航天军工",
-   "oneliner": "望远镜观测排程——约束调度",
-   "link": "",
-   "src": "10.15",
-   "cat": "sched",
-   "abstract_type": "sms"
-  },
-  {
-   "title": "军事运筹",
-   "industry": "航天军工",
-   "oneliner": "兵力分配/路径——对抗性组合优化",
-   "link": "",
-   "src": "10.15",
-   "cat": "adv",
-   "abstract_type": "open"
-  },
-  {
-   "title": "雷达波形设计",
-   "industry": "航天军工",
-   "oneliner": "波形参数寻优——梯度法入侵、GA 仍最流行（312 篇统计）",
-   "link": "/problem/continuous/",
-   "src": "10.51",
-   "cat": "cont",
-   "abstract_type": "continuous"
-  },
-  {
-   "title": "进化天线设计",
-   "industry": "航天军工",
-   "oneliner": "天线结构进化——NASA ST5 经典（GP 旗舰应用）",
-   "link": "",
-   "src": "10.31",
-   "cat": "gen",
-   "abstract_type": "ged"
-  },
-  {
-   "title": "核燃料装载",
-   "industry": "航天军工",
-   "oneliner": "堆芯装载模式——排列+安全约束",
-   "link": "",
-   "src": "10.39",
-   "cat": "assign",
-   "abstract_type": "subset"
-  },
-  {
-   "title": "托卡马克聚变",
-   "industry": "航天军工",
-   "oneliner": "等离子体控制参数——并行 GA 加速比 5.21",
-   "link": "/problem/continuous/",
-   "src": "10.59",
-   "cat": "cont",
-   "abstract_type": "continuous"
-  },
-  {
-   "title": "地球物理反演",
-   "industry": "地球环境",
-   "oneliner": "地球内部参数反演——病态反问题经典（Ayvaz 2016）",
-   "link": "/problem/continuous/",
-   "src": "10.21",
-   "cat": "cont",
-   "abstract_type": "continuous"
-  },
-  {
-   "title": "地下水污染反演",
-   "industry": "地球环境",
-   "oneliner": "污染源识别——反问题+代理模型",
-   "link": "/problem/continuous/",
-   "src": "10.56",
-   "cat": "cont",
-   "abstract_type": "continuous"
-  },
-  {
-   "title": "海洋能源布局",
-   "industry": "地球环境",
-   "oneliner": "潮流能机组布置——WFLO 海洋版",
-   "link": "/problem/continuous/",
-   "src": "10.19",
-   "cat": "cont",
-   "abstract_type": "continuous"
-  },
-  {
-   "title": "污水处理",
-   "industry": "地球环境",
-   "oneliner": "曝气/加药控制——仿真驱动优化",
-   "link": "/problem/continuous/",
-   "src": "10.50",
-   "cat": "cont",
-   "abstract_type": "continuous"
-  },
-  {
-   "title": "应急疏散",
-   "industry": "地球环境",
-   "oneliner": "疏散路径/出口分配——动态流优化",
-   "link": "",
-   "src": "10.24",
-   "cat": "network",
-   "abstract_type": "ndp"
-  },
-  {
-   "title": "投资组合",
-   "industry": "金融经济",
-   "oneliner": "资产权重选择——约束二次规划（QKP 同构）",
-   "link": "/problem/knapsack/quadratic/",
-   "src": "10.18",
-   "cat": "subset",
-   "abstract_type": "subset"
-  },
-  {
-   "title": "进化交易规则",
-   "industry": "金融经济",
-   "oneliner": "交易规则 GP 挖掘——过拟合风险预警是共识",
-   "link": "",
-   "src": "10.33",
-   "cat": "gen",
-   "abstract_type": "ged"
-  },
-  {
-   "title": "期权模型校准",
-   "industry": "金融经济",
-   "oneliner": "波动率参数校准——昂贵非线性最小二乘",
-   "link": "/problem/continuous/",
-   "src": "10.45",
-   "cat": "cont",
-   "abstract_type": "continuous"
-  },
-  {
-   "title": "信贷评分",
-   "industry": "金融经济",
-   "oneliner": "特征/规则组合——二进制+约束",
-   "link": "/problem/knapsack/",
-   "src": "10.37",
-   "cat": "subset",
-   "abstract_type": "subset"
-  },
-  {
-   "title": "选区划分",
-   "industry": "金融经济",
-   "oneliner": "划分组合优化——多目标+公平性约束",
-   "link": "/problem/multiobj/",
-   "src": "10.36",
-   "cat": "multiobj",
-   "abstract_type": "multiobj"
-  },
-  {
-   "title": "石油工程",
-   "industry": "金融经济",
-   "oneliner": "油藏开发方案/井位——昂贵仿真",
-   "link": "/problem/continuous/",
-   "src": "10.36",
-   "cat": "cont",
-   "abstract_type": "continuous"
-  },
-  {
-   "title": "演化密码学",
-   "industry": "安全博弈",
-   "oneliner": "S 盒/Bent 函数设计与密码破译——GA 破译 TEA 经典",
-   "link": "/problem/qubo/",
-   "src": "10.33",
-   "cat": "adv",
-   "abstract_type": "subset"
-  },
-  {
-   "title": "网络攻防",
-   "industry": "安全博弈",
-   "oneliner": "渗透测试路径/防御配置——对抗性搜索",
-   "link": "",
-   "src": "10.54",
-   "cat": "adv",
-   "abstract_type": "open"
-  },
-  {
-   "title": "进化博弈论",
-   "industry": "安全博弈",
-   "oneliner": "策略均衡搜索——演化稳定策略计算",
-   "link": "",
-   "src": "10.26",
-   "cat": "adv",
-   "abstract_type": "open"
-  },
-  {
-   "title": "EC×艺术",
-   "industry": "人文教艺",
-   "oneliner": "生成艺术/配色/构图——GP 创意探索",
-   "link": "",
-   "src": "10.13",
-   "cat": "gen",
-   "abstract_type": "ged"
-  },
-  {
-   "title": "进化音乐",
-   "industry": "人文教艺",
-   "oneliner": "旋律/和声生成——GP+评价函数",
-   "link": "",
-   "src": "10.20",
-   "cat": "gen",
-   "abstract_type": "ged"
-  },
-  {
-   "title": "游戏内容生成",
-   "industry": "人文教艺",
-   "oneliner": "关卡/地图 PCG——搜索式生成",
-   "link": "",
-   "src": "10.32",
-   "cat": "gen",
-   "abstract_type": "ged"
-  },
-  {
-   "title": "游戏对局 AI",
-   "industry": "人文教艺",
-   "oneliner": "NEAT/HyperNEAT 神经进化——Atari 破人类高分",
-   "link": "",
-   "src": "10.50",
-   "cat": "gen",
-   "abstract_type": "ged"
-  },
-  {
-   "title": "自动组卷",
-   "industry": "人文教艺",
-   "oneliner": "试题集选取——多维约束组合（GASA 并行 k 试卷）",
-   "link": "/problem/knapsack/multiple/",
-   "src": "10.54",
-   "cat": "subset",
-   "abstract_type": "subset"
-  },
-  {
-   "title": "大学课程表",
-   "industry": "人文教艺",
-   "oneliner": "课表约束满足——调度类（域冻结词条）",
-   "link": "",
-   "src": "10.34",
-   "cat": "sched",
-   "abstract_type": "ctp"
-  },
-  {
-   "title": "体育赛程",
-   "industry": "人文教艺",
-   "oneliner": "循环赛程安排——约束调度",
-   "link": "",
-   "src": "10.16",
-   "cat": "sched",
-   "abstract_type": "etp"
-  },
-  {
-   "title": "考古文化遗产",
-   "industry": "人文教艺",
-   "oneliner": "遗址归属/修复方案——罕见人文应用",
-   "link": "",
-   "src": "10.35",
-   "cat": "subset",
-   "abstract_type": "subset"
-  },
-  {
-   "title": "司法应用",
-   "industry": "人文教艺",
-   "oneliner": "案件排期/资源分配——约束调度",
-   "link": "",
-   "src": "10.35",
-   "cat": "sched",
-   "abstract_type": "ctp"
-  },
-  {
-   "title": "超启发式",
-   "industry": "前沿工具",
-   "oneliner": "「搜索启发式的启发式」——选择/生成两派",
-   "link": "",
-   "src": "10.24",
-   "cat": "metatool",
-   "abstract_type": "open"
-  },
-  {
-   "title": "算法自动配置",
-   "industry": "前沿工具",
-   "oneliner": "ParamILS/irace/SMAC——SPEAR 787.1s→1.5s 英雄结果",
-   "link": "/problem/qubo/",
-   "src": "10.25",
-   "cat": "metatool",
-   "abstract_type": "open"
-  },
-  {
-   "title": "QUBO/量子退火",
-   "industry": "前沿工具",
-   "oneliner": "xᵀQx 统一形式对接伊辛机生态",
-   "link": "/problem/qubo/",
-   "src": "10.25",
-   "cat": "metatool",
-   "abstract_type": "logic"
-  },
-  {
-   "title": "进化语音",
-   "industry": "前沿工具",
-   "oneliner": "语音特征/模型进化——小众应用域",
-   "link": "",
-   "src": "10.29",
-   "cat": "gen",
-   "abstract_type": "ged"
-  }
- ]
+  "categories": [
+    {
+      "id": "cont",
+      "ico": "📐",
+      "name": "连续与参数寻优",
+      "hint": "参数拟合、设计和反演：变量常是实数，但约束和评价成本各不相同。"
+    },
+    {
+      "id": "sched",
+      "ico": "⏱️",
+      "name": "调度与排程",
+      "hint": "把任务/负荷/班次在时间轴上排开——强约束组合优化"
+    },
+    {
+      "id": "assign",
+      "ico": "🏥",
+      "name": "分配与选址",
+      "hint": "谁放在哪——QAP、覆盖、p-中位与排列编码（设施布局、传感器、急救站）"
+    },
+    {
+      "id": "subset",
+      "ico": "🧩",
+      "name": "子集与组合选择",
+      "hint": "选择特征、措施或物品；具体约束决定模型，不能仅凭选择结构就视为背包。"
+    },
+    {
+      "id": "multiobj",
+      "ico": "⚖️",
+      "name": "多目标权衡",
+      "hint": "Pareto 前沿驱动——成本/性能/鲁棒性取舍即主问题形态的条目"
+    },
+    {
+      "id": "gen",
+      "ico": "🎨",
+      "name": "生成式设计",
+      "hint": "GP/进化创意——分子、天线、艺术、游戏内容、机器人形态"
+    },
+    {
+      "id": "adv",
+      "ico": "🛡️",
+      "name": "对抗与安全",
+      "hint": "安全设计、攻防决策与策略演化；这些研究不都属于最优化。"
+    },
+    {
+      "id": "network",
+      "ico": "🕸️",
+      "name": "网络与路径",
+      "hint": "网络中的路径、路由与流；需区分单条路线和多车、多资源模型。"
+    },
+    {
+      "id": "metatool",
+      "ico": "🧰",
+      "name": "元层工具",
+      "hint": "搜索搜索者——超启发式、算法自动配置、QUBO 统一接口"
+    }
+  ],
+  "industries": [
+    "能源电力",
+    "农业水利",
+    "交通运输",
+    "土木建筑",
+    "制造工艺",
+    "生物医药",
+    "信息工程",
+    "航天军工",
+    "地球环境",
+    "金融经济",
+    "安全博弈",
+    "人文教艺",
+    "前沿工具"
+  ],
+  "entries": [
+    {
+      "title": "微电网调度",
+      "industry": "能源电力",
+      "oneliner": "协调分布式发电、储能和用电需求，比较成本、排放与供电可靠性的取舍。",
+      "link": "/problem/continuous/",
+      "src": "10.16",
+      "cat": "sched",
+      "abstract_type": "sms",
+      "researchRefs": [
+        "app000"
+      ],
+      "sourceScope": "代表性研究入口；关联问题页仅解释相关模型，不表示复现此论文或覆盖行业全部约束。"
+    },
+    {
+      "title": "机组组合 UC",
+      "industry": "能源电力",
+      "oneliner": "决定各时段哪些机组启停及其出力，需同时满足需求与机组运行约束。",
+      "link": "/problem/continuous/",
+      "src": "10.49",
+      "cat": "sched",
+      "abstract_type": "sms",
+      "researchRefs": [
+        "app001"
+      ],
+      "sourceScope": "代表性研究入口；关联问题页仅解释相关模型，不表示复现此论文或覆盖行业全部约束。"
+    },
+    {
+      "title": "配电网重构",
+      "industry": "能源电力",
+      "oneliner": "选择配电网开关状态，在网络运行约束下研究网损与电压等指标。",
+      "link": "",
+      "src": "10.37",
+      "cat": "subset",
+      "abstract_type": "subset",
+      "researchRefs": [
+        "app002"
+      ],
+      "sourceScope": "代表性研究入口；关联问题页仅解释相关模型，不表示复现此论文或覆盖行业全部约束。"
+    },
+    {
+      "title": "电网 PMU 布置",
+      "industry": "能源电力",
+      "oneliner": "选择相量测量单元的位置，使电网满足指定的可观测性要求。",
+      "link": "/problem/assignment/",
+      "src": "10.51",
+      "cat": "assign",
+      "abstract_type": "scp",
+      "researchRefs": [
+        "app003"
+      ],
+      "sourceScope": "代表性研究入口；关联问题页仅解释相关模型，不表示复现此论文或覆盖行业全部约束。"
+    },
+    {
+      "title": "风光储容量配置",
+      "industry": "能源电力",
+      "oneliner": "选择可再生能源与储能容量，权衡系统成本和供电可靠性。",
+      "link": "/problem/multiobj/",
+      "src": "10.55",
+      "cat": "multiobj",
+      "abstract_type": "multiobj",
+      "researchRefs": [
+        "app004"
+      ],
+      "sourceScope": "代表性研究入口；关联问题页仅解释相关模型，不表示复现此论文或覆盖行业全部约束。"
+    },
+    {
+      "title": "需求响应 DSM",
+      "industry": "能源电力",
+      "oneliner": "安排可转移负荷的用电时间，研究电费、峰值需求与使用约束。",
+      "link": "/problem/continuous/",
+      "src": "10.56",
+      "cat": "sched",
+      "abstract_type": "sms",
+      "researchRefs": [
+        "app005"
+      ],
+      "sourceScope": "代表性研究入口；关联问题页仅解释相关模型，不表示复现此论文或覆盖行业全部约束。"
+    },
+    {
+      "title": "风电场布局 WFLO",
+      "industry": "能源电力",
+      "oneliner": "选择风机位置，考虑尾流相互影响及场地、成本等约束。",
+      "link": "/problem/continuous/",
+      "src": "10.47",
+      "cat": "cont",
+      "abstract_type": "continuous",
+      "researchRefs": [
+        "app006"
+      ],
+      "sourceScope": "代表性研究入口；关联问题页仅解释相关模型，不表示复现此论文或覆盖行业全部约束。"
+    },
+    {
+      "title": "光伏参数提取",
+      "industry": "能源电力",
+      "oneliner": "用测量数据拟合光伏电池模型参数，比较拟合误差与求解成本。",
+      "link": "/problem/continuous/",
+      "src": "10.44",
+      "cat": "cont",
+      "abstract_type": "continuous",
+      "researchRefs": [
+        "app007"
+      ],
+      "sourceScope": "代表性研究入口；关联问题页仅解释相关模型，不表示复现此论文或覆盖行业全部约束。"
+    },
+    {
+      "title": "混动能量管理 EMS",
+      "industry": "能源电力",
+      "oneliner": "搜索混合动力车辆的能量分配策略；结论取决于车型、工况和评价目标。",
+      "link": "/problem/continuous/",
+      "src": "10.60",
+      "cat": "cont",
+      "abstract_type": "continuous",
+      "researchRefs": [
+        "app008"
+      ],
+      "sourceScope": "代表性研究入口；关联问题页仅解释相关模型，不表示复现此论文或覆盖行业全部约束。"
+    },
+    {
+      "title": "充电站选址",
+      "industry": "能源电力",
+      "oneliner": "选择充电站地点与配置，需结合出行需求、电网和服务能力。",
+      "link": "/problem/assignment/",
+      "src": "10.61",
+      "cat": "assign",
+      "abstract_type": "uflp",
+      "researchRefs": [
+        "app009"
+      ],
+      "sourceScope": "代表性研究入口；关联问题页仅解释相关模型，不表示复现此论文或覆盖行业全部约束。"
+    },
+    {
+      "title": "建筑节能改造",
+      "industry": "能源电力",
+      "oneliner": "选择建筑改造措施，比较投资、能耗等目标；建筑模型决定结果适用范围。",
+      "link": "/problem/knapsack/",
+      "src": "10.61",
+      "cat": "subset",
+      "abstract_type": "subset",
+      "researchRefs": [
+        "app010"
+      ],
+      "sourceScope": "代表性研究入口；关联问题页仅解释相关模型，不表示复现此论文或覆盖行业全部约束。"
+    },
+    {
+      "title": "农业水利综合",
+      "industry": "农业水利",
+      "oneliner": "在水量、土地与作物需求约束下安排灌溉资源。",
+      "link": "/problem/continuous/",
+      "src": "10.13",
+      "cat": "cont",
+      "abstract_type": "continuous",
+      "researchRefs": [
+        "app011"
+      ],
+      "sourceScope": "代表性研究入口；关联问题页仅解释相关模型，不表示复现此论文或覆盖行业全部约束。"
+    },
+    {
+      "title": "精准农业",
+      "industry": "农业水利",
+      "oneliner": "把传感数据与优化结合，辅助精准农业中的资源管理决策。",
+      "link": "/problem/continuous/",
+      "src": "10.23",
+      "cat": "cont",
+      "abstract_type": "continuous",
+      "researchRefs": [
+        "app012"
+      ],
+      "sourceScope": "代表性研究入口；关联问题页仅解释相关模型，不表示复现此论文或覆盖行业全部约束。"
+    },
+    {
+      "title": "作物种植规划",
+      "industry": "农业水利",
+      "oneliner": "选择作物及其种植面积，在土地、水资源和经济目标之间权衡。",
+      "link": "/problem/multiobj/",
+      "src": "10.58",
+      "cat": "multiobj",
+      "abstract_type": "multiobj",
+      "researchRefs": [
+        "croppingReview2024"
+      ],
+      "sourceScope": "代表性研究入口；关联问题页仅解释相关模型，不表示复现此论文或覆盖行业全部约束。"
+    },
+    {
+      "title": "水分配网络设计",
+      "industry": "农业水利",
+      "oneliner": "研究供水管网设计与管理；管径、泵运行和水力约束需要专门模型。",
+      "link": "/problem/knapsack/",
+      "src": "10.26",
+      "cat": "subset",
+      "abstract_type": "subset",
+      "researchRefs": [
+        "app014"
+      ],
+      "sourceScope": "代表性研究入口；关联问题页仅解释相关模型，不表示复现此论文或覆盖行业全部约束。"
+    },
+    {
+      "title": "水库群调度",
+      "industry": "农业水利",
+      "oneliner": "搜索水库调度策略，处理来水不确定性与多个运行目标。",
+      "link": "/problem/multiobj/",
+      "src": "10.34",
+      "cat": "multiobj",
+      "abstract_type": "multiobj",
+      "researchRefs": [
+        "app015"
+      ],
+      "sourceScope": "代表性研究入口；关联问题页仅解释相关模型，不表示复现此论文或覆盖行业全部约束。"
+    },
+    {
+      "title": "森林野火管理",
+      "industry": "农业水利",
+      "oneliner": "安排野火扑救资源的位置；代表研究使用迭代局部搜索比较部署方案。",
+      "link": "/problem/assignment/",
+      "src": "10.29",
+      "cat": "assign",
+      "abstract_type": "subset",
+      "researchRefs": [
+        "app016"
+      ],
+      "sourceScope": "代表性研究入口；关联问题页仅解释相关模型，不表示复现此论文或覆盖行业全部约束。"
+    },
+    {
+      "title": "雨洪管理",
+      "industry": "农业水利",
+      "oneliner": "把雨洪仿真与多目标搜索结合，比较低影响开发设施配置方案。",
+      "link": "/problem/assignment/",
+      "src": "10.58",
+      "cat": "assign",
+      "abstract_type": "subset",
+      "researchRefs": [
+        "app017"
+      ],
+      "sourceScope": "代表性研究入口；关联问题页仅解释相关模型，不表示复现此论文或覆盖行业全部约束。"
+    },
+    {
+      "title": "交通信号控制",
+      "industry": "交通运输",
+      "oneliner": "搜索交通信号控制策略；代表研究关注可解释的遗传程序设计方法。",
+      "link": "/problem/continuous/",
+      "src": "10.21",
+      "cat": "cont",
+      "abstract_type": "continuous",
+      "researchRefs": [
+        "app018"
+      ],
+      "sourceScope": "代表性研究入口；关联问题页仅解释相关模型，不表示复现此论文或覆盖行业全部约束。"
+    },
+    {
+      "title": "公交线网设计",
+      "industry": "交通运输",
+      "oneliner": "研究公交线路与班次的组合决策，目标和约束随运营场景变化。",
+      "link": "/problem/multiobj/",
+      "src": "10.38",
+      "cat": "multiobj",
+      "abstract_type": "multiobj",
+      "researchRefs": [
+        "app019"
+      ],
+      "sourceScope": "代表性研究入口；关联问题页仅解释相关模型，不表示复现此论文或覆盖行业全部约束。"
+    },
+    {
+      "title": "港口调度",
+      "industry": "交通运输",
+      "oneliner": "联合考虑泊位与岸桥调度，减少作业冲突与等待；不能直接等同于一般分配模型。",
+      "link": "/problem/assignment/",
+      "src": "10.31",
+      "cat": "assign",
+      "abstract_type": "jss",
+      "researchRefs": [
+        "app020"
+      ],
+      "sourceScope": "代表性研究入口；关联问题页仅解释相关模型，不表示复现此论文或覆盖行业全部约束。"
+    },
+    {
+      "title": "供应链网络设计",
+      "industry": "交通运输",
+      "oneliner": "研究药品供应链网络中的设施、运输与可持续性决策。",
+      "link": "/problem/assignment/",
+      "src": "10.22",
+      "cat": "assign",
+      "abstract_type": "ndp",
+      "researchRefs": [
+        "app021"
+      ],
+      "sourceScope": "代表性研究入口；关联问题页仅解释相关模型，不表示复现此论文或覆盖行业全部约束。"
+    },
+    {
+      "title": "仓储运营",
+      "industry": "交通运输",
+      "oneliner": "搜索仓库储位分配方案，比较订单拣选等运行指标。",
+      "link": "/problem/assignment/",
+      "src": "10.39",
+      "cat": "assign",
+      "abstract_type": "assignment",
+      "researchRefs": [
+        "app022"
+      ],
+      "sourceScope": "代表性研究入口；关联问题页仅解释相关模型，不表示复现此论文或覆盖行业全部约束。"
+    },
+    {
+      "title": "电梯群控",
+      "industry": "交通运输",
+      "oneliner": "选择多台电梯的派梯规则，评价乘客等待与服务表现。",
+      "link": "",
+      "src": "10.55",
+      "cat": "sched",
+      "abstract_type": "sms",
+      "researchRefs": [
+        "app023"
+      ],
+      "sourceScope": "代表性研究入口；关联问题页仅解释相关模型，不表示复现此论文或覆盖行业全部约束。"
+    },
+    {
+      "title": "无人机路径规划",
+      "industry": "交通运输",
+      "oneliner": "搜索灾害场景中无人机群的路径，需处理环境障碍与任务约束。",
+      "link": "/problem/continuous/",
+      "src": "10.45",
+      "cat": "cont",
+      "abstract_type": "sequencing",
+      "researchRefs": [
+        "app024"
+      ],
+      "sourceScope": "代表性研究入口；关联问题页仅解释相关模型，不表示复现此论文或覆盖行业全部约束。"
+    },
+    {
+      "title": "桁架结构优化",
+      "industry": "土木建筑",
+      "oneliner": "选择桁架结构参数，在重量和力学约束之间权衡。",
+      "link": "/problem/continuous/",
+      "src": "10.32",
+      "cat": "cont",
+      "abstract_type": "continuous",
+      "researchRefs": [
+        "app025"
+      ],
+      "sourceScope": "代表性研究入口；关联问题页仅解释相关模型，不表示复现此论文或覆盖行业全部约束。"
+    },
+    {
+      "title": "岩土边坡稳定",
+      "industry": "土木建筑",
+      "oneliner": "搜索可能的滑动面，配合岩土力学模型评估边坡稳定性。",
+      "link": "/problem/continuous/",
+      "src": "10.38",
+      "cat": "cont",
+      "abstract_type": "continuous",
+      "researchRefs": [
+        "app026"
+      ],
+      "sourceScope": "代表性研究入口；关联问题页仅解释相关模型，不表示复现此论文或覆盖行业全部约束。"
+    },
+    {
+      "title": "结构损伤检测",
+      "industry": "土木建筑",
+      "oneliner": "根据结构响应数据识别损伤参数；结果受测量噪声和结构模型影响。",
+      "link": "/problem/knapsack/",
+      "src": "10.52",
+      "cat": "subset",
+      "abstract_type": "subset",
+      "researchRefs": [
+        "app027"
+      ],
+      "sourceScope": "代表性研究入口；关联问题页仅解释相关模型，不表示复现此论文或覆盖行业全部约束。"
+    },
+    {
+      "title": "进化建筑设计",
+      "industry": "土木建筑",
+      "oneliner": "生成和评价建筑布局候选方案，把空间需求转为可计算的约束与目标。",
+      "link": "/problem/multiobj/",
+      "src": "10.30",
+      "cat": "multiobj",
+      "abstract_type": "multiobj",
+      "researchRefs": [
+        "app028"
+      ],
+      "sourceScope": "代表性研究入口；关联问题页仅解释相关模型，不表示复现此论文或覆盖行业全部约束。"
+    },
+    {
+      "title": "设施布局 FLP",
+      "industry": "土木建筑",
+      "oneliner": "研究设施布局及其模型与求解方法；只有部分布局形式可写成二次分配。",
+      "link": "/problem/assignment/",
+      "src": "10.60",
+      "cat": "assign",
+      "abstract_type": "uflp",
+      "researchRefs": [
+        "app029"
+      ],
+      "sourceScope": "代表性研究入口；关联问题页仅解释相关模型，不表示复现此论文或覆盖行业全部约束。"
+    },
+    {
+      "title": "数控加工参数",
+      "industry": "制造工艺",
+      "oneliner": "搜索切削工艺参数，权衡加工质量、效率与成本。",
+      "link": "/problem/continuous/",
+      "src": "10.57",
+      "cat": "cont",
+      "abstract_type": "continuous",
+      "researchRefs": [
+        "app030"
+      ],
+      "sourceScope": "代表性研究入口；关联问题页仅解释相关模型，不表示复现此论文或覆盖行业全部约束。"
+    },
+    {
+      "title": "增材制造",
+      "industry": "制造工艺",
+      "oneliner": "研究增材制造中的优化问题与方法；具体效果依赖工艺、模型和试验条件。",
+      "link": "/problem/continuous/",
+      "src": "10.53",
+      "cat": "cont",
+      "abstract_type": "continuous",
+      "researchRefs": [
+        "app031"
+      ],
+      "sourceScope": "代表性研究入口；关联问题页仅解释相关模型，不表示复现此论文或覆盖行业全部约束。"
+    },
+    {
+      "title": "铸造焊接工艺",
+      "industry": "制造工艺",
+      "oneliner": "搜索焊接工艺参数；不能把单一工艺试验的结论推广到全部连接与铸造过程。",
+      "link": "/problem/multiobj/",
+      "src": "10.53",
+      "cat": "multiobj",
+      "abstract_type": "multiobj",
+      "researchRefs": [
+        "app032"
+      ],
+      "sourceScope": "代表性研究入口；关联问题页仅解释相关模型，不表示复现此论文或覆盖行业全部约束。"
+    },
+    {
+      "title": "化工排产",
+      "industry": "制造工艺",
+      "oneliner": "安排化工生产任务，处理设备、时间和工艺约束。",
+      "link": "",
+      "src": "10.23",
+      "cat": "sched",
+      "abstract_type": "jss",
+      "researchRefs": [
+        "app033"
+      ],
+      "sourceScope": "代表性研究入口；关联问题页仅解释相关模型，不表示复现此论文或覆盖行业全部约束。"
+    },
+    {
+      "title": "装配线平衡",
+      "industry": "制造工艺",
+      "oneliner": "把装配任务分配给工位，在先后关系与节拍约束下平衡负荷。",
+      "link": "/problem/assignment/",
+      "src": "10.27",
+      "cat": "assign",
+      "abstract_type": "fss",
+      "researchRefs": [
+        "app034"
+      ],
+      "sourceScope": "代表性研究入口；关联问题页仅解释相关模型，不表示复现此论文或覆盖行业全部约束。"
+    },
+    {
+      "title": "材料逆向设计",
+      "industry": "制造工艺",
+      "oneliner": "利用演化搜索探索材料设计候选；预测性质仍需物理模型或实验核验。",
+      "link": "/problem/continuous/",
+      "src": "10.52",
+      "cat": "cont",
+      "abstract_type": "continuous",
+      "researchRefs": [
+        "app035"
+      ],
+      "sourceScope": "代表性研究入口；关联问题页仅解释相关模型，不表示复现此论文或覆盖行业全部约束。"
+    },
+    {
+      "title": "晶体结构预测",
+      "industry": "制造工艺",
+      "oneliner": "利用演化搜索产生并筛选晶体结构候选，结合能量计算寻找稳定结构。",
+      "link": "/problem/continuous/",
+      "src": "10.30",
+      "cat": "cont",
+      "abstract_type": "continuous",
+      "researchRefs": [
+        "uspex2006"
+      ],
+      "sourceScope": "代表性研究入口；关联问题页仅解释相关模型，不表示复现此论文或覆盖行业全部约束。"
+    },
+    {
+      "title": "食品配方",
+      "industry": "制造工艺",
+      "oneliner": "选择食品配方或处理参数，评价营养、质量和生产目标。",
+      "link": "/problem/multiobj/",
+      "src": "10.40",
+      "cat": "multiobj",
+      "abstract_type": "multiobj",
+      "researchRefs": [
+        "app037"
+      ],
+      "sourceScope": "代表性研究入口；关联问题页仅解释相关模型，不表示复现此论文或覆盖行业全部约束。"
+    },
+    {
+      "title": "时尚设计",
+      "industry": "制造工艺",
+      "oneliner": "通过交互式进化让人的偏好参与服装设计候选的选择。",
+      "link": "",
+      "src": "10.40",
+      "cat": "gen",
+      "abstract_type": "ged",
+      "researchRefs": [
+        "app038"
+      ],
+      "sourceScope": "代表性研究入口；关联问题页仅解释相关模型，不表示复现此论文或覆盖行业全部约束。"
+    },
+    {
+      "title": "分子设计",
+      "industry": "生物医药",
+      "oneliner": "在分子图空间中生成、变异和筛选候选分子；评分不等于合成或药效验证。",
+      "link": "",
+      "src": "10.17",
+      "cat": "gen",
+      "abstract_type": "ged",
+      "researchRefs": [
+        "app039"
+      ],
+      "sourceScope": "代表性研究入口；关联问题页仅解释相关模型，不表示复现此论文或覆盖行业全部约束。"
+    },
+    {
+      "title": "蛋白质结构预测",
+      "industry": "生物医药",
+      "oneliner": "用演化搜索和力场寻找蛋白质构象；代表研究明确指出力场精度仍限制盲预测。",
+      "link": "/problem/continuous/",
+      "src": "10.41",
+      "cat": "cont",
+      "abstract_type": "continuous",
+      "researchRefs": [
+        "app040"
+      ],
+      "sourceScope": "代表性研究入口；关联问题页仅解释相关模型，不表示复现此论文或覆盖行业全部约束。"
+    },
+    {
+      "title": "分子对接",
+      "industry": "生物医药",
+      "oneliner": "搜索配体与受体的结合姿态，结合局部搜索与经验能量评分。",
+      "link": "/problem/continuous/",
+      "src": "10.41",
+      "cat": "cont",
+      "abstract_type": "continuous",
+      "researchRefs": [
+        "app041"
+      ],
+      "sourceScope": "代表性研究入口；关联问题页仅解释相关模型，不表示复现此论文或覆盖行业全部约束。"
+    },
+    {
+      "title": "多序列比对",
+      "industry": "生物医药",
+      "oneliner": "搜索多序列比对方案；生物学解释仍依赖评分函数和数据。",
+      "link": "",
+      "src": "10.42",
+      "cat": "assign",
+      "abstract_type": "assignment",
+      "researchRefs": [
+        "app042"
+      ],
+      "sourceScope": "代表性研究入口；关联问题页仅解释相关模型，不表示复现此论文或覆盖行业全部约束。"
+    },
+    {
+      "title": "GWAS 基因特征选择",
+      "industry": "生物医药",
+      "oneliner": "用遗传算法与预测模型筛选遗传标记；预测关联不自动等于因果关系。",
+      "link": "/problem/knapsack/",
+      "src": "10.43",
+      "cat": "subset",
+      "abstract_type": "subset",
+      "researchRefs": [
+        "app043"
+      ],
+      "sourceScope": "代表性研究入口；关联问题页仅解释相关模型，不表示复现此论文或覆盖行业全部约束。"
+    },
+    {
+      "title": "手术排程",
+      "industry": "生物医药",
+      "oneliner": "安排手术的顺序与资源，考虑无等待流程等具体约束。",
+      "link": "",
+      "src": "10.43",
+      "cat": "sched",
+      "abstract_type": "sms",
+      "researchRefs": [
+        "app044"
+      ],
+      "sourceScope": "代表性研究入口；关联问题页仅解释相关模型，不表示复现此论文或覆盖行业全部约束。"
+    },
+    {
+      "title": "放射治疗计划",
+      "industry": "生物医药",
+      "oneliner": "选择放疗照射角度，在剂量目标与器官保护要求之间权衡。",
+      "link": "/problem/continuous/",
+      "src": "10.48",
+      "cat": "cont",
+      "abstract_type": "continuous",
+      "researchRefs": [
+        "app045"
+      ],
+      "sourceScope": "代表性研究入口；关联问题页仅解释相关模型，不表示复现此论文或覆盖行业全部约束。"
+    },
+    {
+      "title": "急救车选址",
+      "industry": "生物医药",
+      "oneliner": "选择急救车辆布点，考虑需求覆盖与车辆可用性。",
+      "link": "/problem/assignment/",
+      "src": "10.46",
+      "cat": "assign",
+      "abstract_type": "uflp",
+      "researchRefs": [
+        "app046"
+      ],
+      "sourceScope": "代表性研究入口；关联问题页仅解释相关模型，不表示复现此论文或覆盖行业全部约束。"
+    },
+    {
+      "title": "护士排班",
+      "industry": "生物医药",
+      "oneliner": "安排护士班次，兼顾覆盖、合同规则与偏好；研究模型和本站教学模型需区分。",
+      "link": "",
+      "src": "10.17",
+      "cat": "sched",
+      "abstract_type": "nrp",
+      "researchRefs": [
+        "app047"
+      ],
+      "sourceScope": "代表性研究入口；关联问题页仅解释相关模型，不表示复现此论文或覆盖行业全部约束。"
+    },
+    {
+      "title": "特征选择",
+      "industry": "信息工程",
+      "oneliner": "选择较小而有效的特征集合；需用独立测试数据评价泛化效果。",
+      "link": "/problem/knapsack/",
+      "src": "10.19",
+      "cat": "subset",
+      "abstract_type": "subset",
+      "researchRefs": [
+        "evolutionaryFeatureSelection2024"
+      ],
+      "sourceScope": "代表性研究入口；关联问题页仅解释相关模型，不表示复现此论文或覆盖行业全部约束。"
+    },
+    {
+      "title": "图像分割",
+      "industry": "信息工程",
+      "oneliner": "搜索图像多阈值分割的阈值组合；这只是图像分割研究中的一种建模方式。",
+      "link": "/problem/multiobj/",
+      "src": "10.18",
+      "cat": "multiobj",
+      "abstract_type": "multiobj",
+      "researchRefs": [
+        "app049"
+      ],
+      "sourceScope": "代表性研究入口；关联问题页仅解释相关模型，不表示复现此论文或覆盖行业全部约束。"
+    },
+    {
+      "title": "进化聚类",
+      "industry": "信息工程",
+      "oneliner": "用演化方法搜索数据分组方案，评价聚类质量和计算成本。",
+      "link": "/problem/multiobj/",
+      "src": "10.28",
+      "cat": "multiobj",
+      "abstract_type": "multiobj",
+      "researchRefs": [
+        "app050"
+      ],
+      "sourceScope": "代表性研究入口；关联问题页仅解释相关模型，不表示复现此论文或覆盖行业全部约束。"
+    },
+    {
+      "title": "传感器部署",
+      "industry": "信息工程",
+      "oneliner": "选择无线传感器部署位置，考虑覆盖、连接和资源限制。",
+      "link": "/problem/assignment/",
+      "src": "10.28",
+      "cat": "assign",
+      "abstract_type": "scp",
+      "researchRefs": [
+        "app051"
+      ],
+      "sourceScope": "代表性研究入口；关联问题页仅解释相关模型，不表示复现此论文或覆盖行业全部约束。"
+    },
+    {
+      "title": "进化神经架构搜索",
+      "industry": "信息工程",
+      "oneliner": "搜索神经网络结构；比较时需说明训练预算、数据划分和评价成本。",
+      "link": "/problem/continuous/",
+      "src": "10.44",
+      "cat": "cont",
+      "abstract_type": "continuous",
+      "researchRefs": [
+        "evolutionaryNasSurvey2026"
+      ],
+      "sourceScope": "代表性研究入口；关联问题页仅解释相关模型，不表示复现此论文或覆盖行业全部约束。"
+    },
+    {
+      "title": "进化强化学习",
+      "industry": "信息工程",
+      "oneliner": "把种群策略搜索与梯度强化学习结合，研究探索与样本利用之间的取舍。",
+      "link": "/problem/continuous/",
+      "src": "10.42",
+      "cat": "cont",
+      "abstract_type": "continuous",
+      "researchRefs": [
+        "erl2018"
+      ],
+      "sourceScope": "代表性研究入口；关联问题页仅解释相关模型，不表示复现此论文或覆盖行业全部约束。"
+    },
+    {
+      "title": "云计算调度",
+      "industry": "信息工程",
+      "oneliner": "把计算任务分配到云资源，比较完成时间、成本等指标。",
+      "link": "/problem/assignment/",
+      "src": "10.22",
+      "cat": "assign",
+      "abstract_type": "sms",
+      "researchRefs": [
+        "app054"
+      ],
+      "sourceScope": "代表性研究入口；关联问题页仅解释相关模型，不表示复现此论文或覆盖行业全部约束。"
+    },
+    {
+      "title": "边缘计算卸载",
+      "industry": "信息工程",
+      "oneliner": "选择任务在终端、边缘或云端的执行位置，考虑时延、能耗和资源。",
+      "link": "/problem/knapsack/",
+      "src": "10.48",
+      "cat": "subset",
+      "abstract_type": "subset",
+      "researchRefs": [
+        "edgeOffloadingReview2025"
+      ],
+      "sourceScope": "代表性研究入口；关联问题页仅解释相关模型，不表示复现此论文或覆盖行业全部约束。"
+    },
+    {
+      "title": "水声网络路由",
+      "industry": "信息工程",
+      "oneliner": "研究水声传感网络路由，其中部分方法使用智能优化；通信环境约束与地面网络不同。",
+      "link": "",
+      "src": "10.57",
+      "cat": "network",
+      "abstract_type": "stp",
+      "researchRefs": [
+        "app056"
+      ],
+      "sourceScope": "代表性研究入口；关联问题页仅解释相关模型，不表示复现此论文或覆盖行业全部约束。"
+    },
+    {
+      "title": "演化机器人学",
+      "industry": "信息工程",
+      "oneliner": "共同演化虚拟生物的形态和控制器，在仿真任务中评价行为。",
+      "link": "",
+      "src": "10.14",
+      "cat": "gen",
+      "abstract_type": "ged",
+      "researchRefs": [
+        "sims1994"
+      ],
+      "sourceScope": "代表性研究入口；关联问题页仅解释相关模型，不表示复现此论文或覆盖行业全部约束。"
+    },
+    {
+      "title": "群体机器人",
+      "industry": "信息工程",
+      "oneliner": "研究机器人通过局部交互协作完成任务，需验证通信、感知和硬件限制。",
+      "link": "",
+      "src": "10.27",
+      "cat": "gen",
+      "abstract_type": "ged",
+      "researchRefs": [
+        "brambilla2013"
+      ],
+      "sourceScope": "代表性研究入口；关联问题页仅解释相关模型，不表示复现此论文或覆盖行业全部约束。"
+    },
+    {
+      "title": "搜索式软件测试",
+      "industry": "信息工程",
+      "oneliner": "将测试数据生成等软件测试任务表达为搜索问题，比较覆盖率和故障发现能力。",
+      "link": "",
+      "src": "10.47",
+      "cat": "gen",
+      "abstract_type": "ged",
+      "researchRefs": [
+        "app059"
+      ],
+      "sourceScope": "代表性研究入口；关联问题页仅解释相关模型，不表示复现此论文或覆盖行业全部约束。"
+    },
+    {
+      "title": "图像水印",
+      "industry": "信息工程",
+      "oneliner": "用遗传算法调节数字图像水印方案，权衡不可感知性与抗攻击能力。",
+      "link": "/problem/multiobj/",
+      "src": "10.49",
+      "cat": "multiobj",
+      "abstract_type": "multiobj",
+      "researchRefs": [
+        "app060"
+      ],
+      "sourceScope": "代表性研究入口；关联问题页仅解释相关模型，不表示复现此论文或覆盖行业全部约束。"
+    },
+    {
+      "title": "卫星任务规划",
+      "industry": "航天军工",
+      "oneliner": "安排卫星观测任务，处理可见窗口、姿态机动与资源限制。",
+      "link": "",
+      "src": "10.20",
+      "cat": "sched",
+      "abstract_type": "sms",
+      "researchRefs": [
+        "satelliteSchedulingSurvey2025"
+      ],
+      "sourceScope": "代表性研究入口；关联问题页仅解释相关模型，不表示复现此论文或覆盖行业全部约束。"
+    },
+    {
+      "title": "航天轨道转移",
+      "industry": "航天军工",
+      "oneliner": "优化行星际轨道设计参数；任务约束与动力学模型决定可行性。",
+      "link": "/problem/continuous/",
+      "src": "10.46",
+      "cat": "cont",
+      "abstract_type": "continuous",
+      "researchRefs": [
+        "app062"
+      ],
+      "sourceScope": "代表性研究入口；关联问题页仅解释相关模型，不表示复现此论文或覆盖行业全部约束。"
+    },
+    {
+      "title": "天文调度",
+      "industry": "航天军工",
+      "oneliner": "安排天文观测任务的短期顺序；这是观测排程案例，不代表所有天文搜索方法。",
+      "link": "",
+      "src": "10.15",
+      "cat": "sched",
+      "abstract_type": "sms",
+      "researchRefs": [
+        "app063"
+      ],
+      "sourceScope": "代表性研究入口；关联问题页仅解释相关模型，不表示复现此论文或覆盖行业全部约束。"
+    },
+    {
+      "title": "军事运筹",
+      "industry": "航天军工",
+      "oneliner": "研究目标与资源的分配模型和算法；本文献入口不构成实际系统部署证据。",
+      "link": "",
+      "src": "10.15",
+      "cat": "adv",
+      "abstract_type": "open",
+      "researchRefs": [
+        "weaponTargetAssignmentSurvey2024"
+      ],
+      "sourceScope": "代表性研究入口；关联问题页仅解释相关模型，不表示复现此论文或覆盖行业全部约束。"
+    },
+    {
+      "title": "雷达波形设计",
+      "industry": "航天军工",
+      "oneliner": "搜索雷达波形等设计变量，评价指定信号模型下的性能指标。",
+      "link": "/problem/continuous/",
+      "src": "10.51",
+      "cat": "cont",
+      "abstract_type": "continuous",
+      "researchRefs": [
+        "app065"
+      ],
+      "sourceScope": "代表性研究入口；关联问题页仅解释相关模型，不表示复现此论文或覆盖行业全部约束。"
+    },
+    {
+      "title": "进化天线设计",
+      "industry": "航天军工",
+      "oneliner": "以演化设计天线为工程案例；需要区分设计试验、发射和在轨验证。",
+      "link": "",
+      "src": "10.31",
+      "cat": "gen",
+      "abstract_type": "ged",
+      "researchRefs": [
+        "nasaFlight2010"
+      ],
+      "sourceScope": "代表性研究入口；关联问题页仅解释相关模型，不表示复现此论文或覆盖行业全部约束。"
+    },
+    {
+      "title": "核燃料装载",
+      "industry": "航天军工",
+      "oneliner": "研究核电堆芯燃料装载方案的优化，评价需依赖专业仿真与安全约束。",
+      "link": "",
+      "src": "10.39",
+      "cat": "assign",
+      "abstract_type": "subset",
+      "researchRefs": [
+        "app067"
+      ],
+      "sourceScope": "代表性研究入口；关联问题页仅解释相关模型，不表示复现此论文或覆盖行业全部约束。"
+    },
+    {
+      "title": "托卡马克聚变",
+      "industry": "航天军工",
+      "oneliner": "用遗传算法优化托卡马克极向场线圈的位置和电流；这是磁体设计案例。",
+      "link": "/problem/continuous/",
+      "src": "10.59",
+      "cat": "cont",
+      "abstract_type": "continuous",
+      "researchRefs": [
+        "app068"
+      ],
+      "sourceScope": "代表性研究入口；关联问题页仅解释相关模型，不表示复现此论文或覆盖行业全部约束。"
+    },
+    {
+      "title": "地球物理反演",
+      "industry": "地球环境",
+      "oneliner": "用粒子群等方法反演地球物理参数；代表研究针对浅层 Scholte 波数据。",
+      "link": "/problem/continuous/",
+      "src": "10.21",
+      "cat": "cont",
+      "abstract_type": "continuous",
+      "researchRefs": [
+        "app069"
+      ],
+      "sourceScope": "代表性研究入口；关联问题页仅解释相关模型，不表示复现此论文或覆盖行业全部约束。"
+    },
+    {
+      "title": "地下水污染反演",
+      "industry": "地球环境",
+      "oneliner": "从观测数据反演地下水模型参数，关注参数可识别性与不确定性。",
+      "link": "/problem/continuous/",
+      "src": "10.56",
+      "cat": "cont",
+      "abstract_type": "continuous",
+      "researchRefs": [
+        "groundwaterInversionReview2024"
+      ],
+      "sourceScope": "代表性研究入口；关联问题页仅解释相关模型，不表示复现此论文或覆盖行业全部约束。"
+    },
+    {
+      "title": "海洋能源布局",
+      "industry": "地球环境",
+      "oneliner": "选择潮流能机组的布置和规模，考虑水动力相互影响与经济目标。",
+      "link": "/problem/continuous/",
+      "src": "10.19",
+      "cat": "cont",
+      "abstract_type": "continuous",
+      "researchRefs": [
+        "tidalFarmReview2024"
+      ],
+      "sourceScope": "代表性研究入口；关联问题页仅解释相关模型，不表示复现此论文或覆盖行业全部约束。"
+    },
+    {
+      "title": "污水处理",
+      "industry": "地球环境",
+      "oneliner": "研究污水处理厂的运行优化，兼顾水质、能耗和工艺约束。",
+      "link": "/problem/continuous/",
+      "src": "10.50",
+      "cat": "cont",
+      "abstract_type": "continuous",
+      "researchRefs": [
+        "wastewaterOptimizationReview2026"
+      ],
+      "sourceScope": "代表性研究入口；关联问题页仅解释相关模型，不表示复现此论文或覆盖行业全部约束。"
+    },
+    {
+      "title": "应急疏散",
+      "industry": "地球环境",
+      "oneliner": "研究应急疏散的路径和资源安排；仿真效果不能替代现场验证。",
+      "link": "",
+      "src": "10.24",
+      "cat": "network",
+      "abstract_type": "ndp",
+      "researchRefs": [
+        "evacuationSwarmReview2025"
+      ],
+      "sourceScope": "代表性研究入口；关联问题页仅解释相关模型，不表示复现此论文或覆盖行业全部约束。"
+    },
+    {
+      "title": "投资组合",
+      "industry": "金融经济",
+      "oneliner": "选择投资组合权重及可选资产，权衡收益、风险和约束；并非所有组合模型都是背包。",
+      "link": "/problem/knapsack/quadratic/",
+      "src": "10.18",
+      "cat": "subset",
+      "abstract_type": "subset",
+      "researchRefs": [
+        "portfolioMetaReview2023"
+      ],
+      "sourceScope": "代表性研究入口；关联问题页仅解释相关模型，不表示复现此论文或覆盖行业全部约束。"
+    },
+    {
+      "title": "进化交易规则",
+      "industry": "金融经济",
+      "oneliner": "用遗传算法搜索交易规则；历史数据上的规则表现需要样本外检验。",
+      "link": "",
+      "src": "10.33",
+      "cat": "gen",
+      "abstract_type": "ged",
+      "researchRefs": [
+        "app075"
+      ],
+      "sourceScope": "代表性研究入口；关联问题页仅解释相关模型，不表示复现此论文或覆盖行业全部约束。"
+    },
+    {
+      "title": "期权模型校准",
+      "industry": "金融经济",
+      "oneliner": "用差分进化校准利率和期权模型参数；此处链接为工作论文版本。",
+      "link": "/problem/continuous/",
+      "src": "10.45",
+      "cat": "cont",
+      "abstract_type": "continuous",
+      "researchRefs": [
+        "app076"
+      ],
+      "sourceScope": "代表性研究入口；关联问题页仅解释相关模型，不表示复现此论文或覆盖行业全部约束。"
+    },
+    {
+      "title": "信贷评分",
+      "industry": "金融经济",
+      "oneliner": "用特征选择辅助信用评分；结果取决于样本、时间划分和误判成本。",
+      "link": "/problem/knapsack/",
+      "src": "10.37",
+      "cat": "subset",
+      "abstract_type": "subset",
+      "researchRefs": [
+        "app077"
+      ],
+      "sourceScope": "代表性研究入口；关联问题页仅解释相关模型，不表示复现此论文或覆盖行业全部约束。"
+    },
+    {
+      "title": "选区划分",
+      "industry": "金融经济",
+      "oneliner": "搜索选区划分候选方案；人口平衡、连通性与公平标准需要明确建模。",
+      "link": "/problem/multiobj/",
+      "src": "10.36",
+      "cat": "multiobj",
+      "abstract_type": "multiobj",
+      "researchRefs": [
+        "app078"
+      ],
+      "sourceScope": "代表性研究入口；关联问题页仅解释相关模型，不表示复现此论文或覆盖行业全部约束。"
+    },
+    {
+      "title": "石油工程",
+      "industry": "金融经济",
+      "oneliner": "搜索油藏开发等方案，结合仿真评价经济与工程目标。",
+      "link": "/problem/continuous/",
+      "src": "10.36",
+      "cat": "cont",
+      "abstract_type": "continuous",
+      "researchRefs": [
+        "app079"
+      ],
+      "sourceScope": "代表性研究入口；关联问题页仅解释相关模型，不表示复现此论文或覆盖行业全部约束。"
+    },
+    {
+      "title": "演化密码学",
+      "industry": "安全博弈",
+      "oneliner": "用元启发式设计密码学布尔函数；这不等于能够破解通用现代密码。",
+      "link": "/problem/qubo/",
+      "src": "10.33",
+      "cat": "adv",
+      "abstract_type": "subset",
+      "researchRefs": [
+        "cryptoBooleanSurvey2023"
+      ],
+      "sourceScope": "代表性研究入口；关联问题页仅解释相关模型，不表示复现此论文或覆盖行业全部约束。"
+    },
+    {
+      "title": "网络攻防",
+      "industry": "安全博弈",
+      "oneliner": "研究移动目标防御与博弈模型；属于相邻的安全决策研究，并非全部使用元启发式。",
+      "link": "",
+      "src": "10.54",
+      "cat": "adv",
+      "abstract_type": "open",
+      "researchRefs": [
+        "movingTargetGameSurvey2023"
+      ],
+      "sourceScope": "代表性研究入口；关联问题页仅解释相关模型，不表示复现此论文或覆盖行业全部约束。"
+    },
+    {
+      "title": "进化博弈论",
+      "industry": "安全博弈",
+      "oneliner": "研究演化博弈中的策略动态；描述策略演化与求最优方案是不同问题。",
+      "link": "",
+      "src": "10.26",
+      "cat": "adv",
+      "abstract_type": "open",
+      "researchRefs": [
+        "app082"
+      ],
+      "sourceScope": "代表性研究入口；关联问题页仅解释相关模型，不表示复现此论文或覆盖行业全部约束。"
+    },
+    {
+      "title": "EC×艺术",
+      "industry": "人文教艺",
+      "oneliner": "用交互式进化生成视觉作品，由人的选择引导候选变化。",
+      "link": "",
+      "src": "10.13",
+      "cat": "gen",
+      "abstract_type": "ged",
+      "researchRefs": [
+        "app083"
+      ],
+      "sourceScope": "代表性研究入口；关联问题页仅解释相关模型，不表示复现此论文或覆盖行业全部约束。"
+    },
+    {
+      "title": "进化音乐",
+      "industry": "人文教艺",
+      "oneliner": "用演化计算生成或辅助创作音乐，评价可能结合规则、模型和听者偏好。",
+      "link": "",
+      "src": "10.20",
+      "cat": "gen",
+      "abstract_type": "ged",
+      "researchRefs": [
+        "evolutionaryMusicReview2020"
+      ],
+      "sourceScope": "代表性研究入口；关联问题页仅解释相关模型，不表示复现此论文或覆盖行业全部约束。"
+    },
+    {
+      "title": "游戏内容生成",
+      "industry": "人文教艺",
+      "oneliner": "用搜索生成游戏内容，按可玩性、难度与设计目标评价候选。",
+      "link": "",
+      "src": "10.32",
+      "cat": "gen",
+      "abstract_type": "ged",
+      "researchRefs": [
+        "app085"
+      ],
+      "sourceScope": "代表性研究入口；关联问题页仅解释相关模型，不表示复现此论文或覆盖行业全部约束。"
+    },
+    {
+      "title": "游戏对局 AI",
+      "industry": "人文教艺",
+      "oneliner": "NERO 游戏用实时神经进化训练智能体行为；具体任务的学习效果不等于通用游戏智能。",
+      "link": "",
+      "src": "10.50",
+      "cat": "gen",
+      "abstract_type": "ged",
+      "researchRefs": [
+        "nero2005"
+      ],
+      "sourceScope": "代表性研究入口；关联问题页仅解释相关模型，不表示复现此论文或覆盖行业全部约束。"
+    },
+    {
+      "title": "自动组卷",
+      "industry": "人文教艺",
+      "oneliner": "组装试卷，在题量、内容与测量要求之间寻找满足约束的题目组合。",
+      "link": "/problem/knapsack/multiple/",
+      "src": "10.54",
+      "cat": "subset",
+      "abstract_type": "subset",
+      "researchRefs": [
+        "app087"
+      ],
+      "sourceScope": "代表性研究入口；关联问题页仅解释相关模型，不表示复现此论文或覆盖行业全部约束。"
+    },
+    {
+      "title": "大学课程表",
+      "industry": "人文教艺",
+      "oneliner": "安排课程与教室时间，满足冲突、容量和偏好等要求。",
+      "link": "",
+      "src": "10.34",
+      "cat": "sched",
+      "abstract_type": "ctp",
+      "researchRefs": [
+        "universityTimetablingSurvey2023"
+      ],
+      "sourceScope": "代表性研究入口；关联问题页仅解释相关模型，不表示复现此论文或覆盖行业全部约束。"
+    },
+    {
+      "title": "体育赛程",
+      "industry": "人文教艺",
+      "oneliner": "安排体育赛事的对阵和时间；旅行距离与赛制完整性等约束需分别核验。",
+      "link": "",
+      "src": "10.16",
+      "cat": "sched",
+      "abstract_type": "etp",
+      "researchRefs": [
+        "app089"
+      ],
+      "sourceScope": "代表性研究入口；关联问题页仅解释相关模型，不表示复现此论文或覆盖行业全部约束。"
+    },
+    {
+      "title": "考古文化遗产",
+      "industry": "人文教艺",
+      "oneliner": "通过搜索辅助重组考古壁画碎片；几何匹配与人工核验仍是关键。",
+      "link": "",
+      "src": "10.35",
+      "cat": "subset",
+      "abstract_type": "subset",
+      "researchRefs": [
+        "app090"
+      ],
+      "sourceScope": "代表性研究入口；关联问题页仅解释相关模型，不表示复现此论文或覆盖行业全部约束。"
+    },
+    {
+      "title": "司法应用",
+      "industry": "人文教艺",
+      "oneliner": "研究法院审理排期的优化模型；此来源证明排期研究，不预设采用群智能方法。",
+      "link": "",
+      "src": "10.35",
+      "cat": "sched",
+      "abstract_type": "ctp",
+      "researchRefs": [
+        "app091"
+      ],
+      "sourceScope": "代表性研究入口；关联问题页仅解释相关模型，不表示复现此论文或覆盖行业全部约束。"
+    },
+    {
+      "title": "超启发式",
+      "industry": "前沿工具",
+      "oneliner": "学习选择或生成启发式方法，使算法设计本身成为搜索问题。",
+      "link": "",
+      "src": "10.24",
+      "cat": "metatool",
+      "abstract_type": "open",
+      "researchRefs": [
+        "hyper2024"
+      ],
+      "sourceScope": "代表性研究入口；关联问题页仅解释相关模型，不表示复现此论文或覆盖行业全部约束。"
+    },
+    {
+      "title": "算法自动配置",
+      "industry": "前沿工具",
+      "oneliner": "自动调整算法参数配置；结论需区分训练实例与独立测试实例。",
+      "link": "/problem/qubo/",
+      "src": "10.25",
+      "cat": "metatool",
+      "abstract_type": "open",
+      "researchRefs": [
+        "paramils2009"
+      ],
+      "sourceScope": "代表性研究入口；关联问题页仅解释相关模型，不表示复现此论文或覆盖行业全部约束。"
+    },
+    {
+      "title": "QUBO/量子退火",
+      "industry": "前沿工具",
+      "oneliner": "把适合的问题转换成二次二元目标；这是建模接口，不保证求解更快。",
+      "link": "/problem/qubo/",
+      "src": "10.25",
+      "cat": "metatool",
+      "abstract_type": "logic",
+      "researchRefs": [
+        "app094"
+      ],
+      "sourceScope": "代表性研究入口；关联问题页仅解释相关模型，不表示复现此论文或覆盖行业全部约束。"
+    },
+    {
+      "title": "进化语音",
+      "industry": "前沿工具",
+      "oneliner": "用元启发式选择或调节语音情感识别特征，评价分类效果与泛化。",
+      "link": "",
+      "src": "10.29",
+      "cat": "gen",
+      "abstract_type": "ged",
+      "researchRefs": [
+        "app095"
+      ],
+      "sourceScope": "代表性研究入口；关联问题页仅解释相关模型，不表示复现此论文或覆盖行业全部约束。"
+    }
+  ]
 }

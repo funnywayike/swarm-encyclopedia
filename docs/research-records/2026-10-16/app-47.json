@@ -1,0 +1,1027 @@
+{
+  "retrieved": "2026-10-16",
+  "url": "https://api.crossref.org/works?query.bibliographic=nurse+rostering+solution+methodologies+survey&rows=3&filter=until-pub-date%3A2026-10-16",
+  "response": {
+    "status": "ok",
+    "message-type": "work-list",
+    "message-version": "1.0.0",
+    "message": {
+      "facets": {},
+      "total-results": 1474294,
+      "items": [
+        {
+          "indexed": {
+            "date-parts": [
+              [
+                2026,
+                10,
+                1
+              ]
+            ],
+            "date-time": "2026-10-01T23:42:57Z",
+            "timestamp": 1790898177479,
+            "version": "4.1.0"
+          },
+          "reference-count": 87,
+          "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+          "license": [
+            {
+              "start": {
+                "date-parts": [
+                  [
+                    2022,
+                    1,
+                    1
+                  ]
+                ],
+                "date-time": "2022-01-01T00:00:00Z",
+                "timestamp": 1640995200000
+              },
+              "content-version": "vor",
+              "delay-in-days": 0,
+              "URL": "https://creativecommons.org/licenses/by/4.0/legalcode"
+            }
+          ],
+          "funder": [
+            {
+              "DOI": "10.13039/501100008127",
+              "name": "Universiti Malaysia Sarawak",
+              "doi-asserted-by": "publisher",
+              "award": [
+                "F08/PARTNERS/2109/2021"
+              ],
+              "award-info": [
+                {
+                  "award-number": [
+                    "F08/PARTNERS/2109/2021"
+                  ]
+                }
+              ],
+              "id": [
+                {
+                  "id": "10.13039/501100008127",
+                  "id-type": "DOI",
+                  "asserted-by": "publisher"
+                }
+              ]
+            }
+          ],
+          "content-domain": {
+            "domain": [],
+            "crossmark-restriction": false
+          },
+          "short-container-title": [
+            "IEEE Access"
+          ],
+          "published-print": {
+            "date-parts": [
+              [
+                2022
+              ]
+            ]
+          },
+          "DOI": "10.1109/access.2022.3177280",
+          "type": "journal-article",
+          "created": {
+            "date-parts": [
+              [
+                2022,
+                5,
+                23
+              ]
+            ],
+            "date-time": "2022-05-23T20:41:28Z",
+            "timestamp": 1653338488000
+          },
+          "page": "56504-56524",
+          "source": "Crossref",
+          "is-referenced-by-count": 51,
+          "title": [
+            "A Survey of the Nurse Rostering Solution Methodologies: The State-of-the-Art and Emerging Trends"
+          ],
+          "prefix": "10.1109",
+          "volume": "10",
+          "author": [
+            {
+              "ORCID": "https://orcid.org/0000-0002-1523-6564",
+              "authenticated-orcid": false,
+              "given": "Chong Man",
+              "family": "Ngoo",
+              "sequence": "first",
+              "affiliation": [
+                {
+                  "name": "Optimisation Research Group, Faculty of Computing and Informatics, Universiti Malaysia Sabah Kampus Antarabangsa Labuan, Labuan, Malaysia"
+                }
+              ],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "ORCID": "https://orcid.org/0000-0003-4562-2519",
+              "authenticated-orcid": false,
+              "given": "Say Leng",
+              "family": "Goh",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "Optimisation Research Group, Faculty of Computing and Informatics, Universiti Malaysia Sabah Kampus Antarabangsa Labuan, Labuan, Malaysia"
+                }
+              ],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "San Nah",
+              "family": "Sze",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "Faculty of Computer Science and Information Technology, Universiti Malaysia Sarawak, Kota Samarahan, Sarawak, Malaysia"
+                }
+              ],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "ORCID": "https://orcid.org/0000-0002-0276-4704",
+              "authenticated-orcid": false,
+              "given": "Nasser R.",
+              "family": "Sabar",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "Department of Computer Science and Information Technology, La Trobe University, Melbourne, VIC, Australia"
+                }
+              ],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "ORCID": "https://orcid.org/0000-0003-0037-841X",
+              "authenticated-orcid": false,
+              "given": "Salwani",
+              "family": "Abdullah",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "Faculty of Information Science and Technology, Universiti Kebangsaan Malaysia, UKM Bangi, Selangor, Malaysia"
+                }
+              ],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Graham",
+              "family": "Kendall",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "School of Computer Science, University of Nottingham Malaysia Campus, Semenyih, Selangor, Malaysia"
+                }
+              ],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            }
+          ],
+          "member": "263",
+          "reference": [
+            {
+              "key": "ref1",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.3934/jimo.2020058"
+            },
+            {
+              "key": "ref2",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.11591/ijece.v11i1.pp471-480"
+            },
+            {
+              "key": "ref3",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1007/s10951-020-00639-6"
+            },
+            {
+              "key": "ref4",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1080/18756891.2012.670525"
+            },
+            {
+              "key": "ref5",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1016/j.cie.2019.05.012"
+            },
+            {
+              "key": "ref6",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1109/ACCESS.2020.2993491"
+            },
+            {
+              "key": "ref7",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1007/s00521-015-2076-8"
+            },
+            {
+              "key": "ref8",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1016/j.asoc.2015.07.004"
+            },
+            {
+              "key": "ref9",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1142/S0217595914500146"
+            },
+            {
+              "key": "ref10",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1016/j.asoc.2014.02.017"
+            },
+            {
+              "key": "ref11",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1016/j.cie.2016.02.023"
+            },
+            {
+              "issue": "1",
+              "key": "ref12",
+              "first-page": "1",
+              "article-title": "A review of population-based meta-heuristic algorithm",
+              "volume": "5",
+              "author": "Beheshti",
+              "year": "2013",
+              "journal-title": "Int. J. Adv. Soft Comput. Appl."
+            },
+            {
+              "key": "ref13",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1016/j.ejor.2020.11.017"
+            },
+            {
+              "key": "ref14",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1023/B:JOSH.0000046076.75950.0b"
+            },
+            {
+              "key": "ref15",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1016/j.ejor.2014.01.039"
+            },
+            {
+              "key": "ref16",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1016/j.ejor.2007.04.030"
+            },
+            {
+              "key": "ref17",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1287/ijoc.1120.0510"
+            },
+            {
+              "key": "ref18",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1007/978-1-4419-1665-5_15"
+            },
+            {
+              "key": "ref19",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1007/978-1-4614-6940-7"
+            },
+            {
+              "key": "ref20",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1016/j.ejor.2009.07.036"
+            },
+            {
+              "key": "ref21",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1080/18756891.2014.853957"
+            },
+            {
+              "key": "ref22",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1007/s10951-010-0211-z"
+            },
+            {
+              "key": "ref23",
+              "article-title": "Second international nurse rostering competition (INRC-II)—Problem description and rules—",
+              "author": "Ceschia",
+              "year": "2015",
+              "journal-title": "arXiv:1501.04177"
+            },
+            {
+              "key": "ref24",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1007/s10479-020-03527-6"
+            },
+            {
+              "key": "ref25",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1515/jisys-2017-0150"
+            },
+            {
+              "key": "ref26",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1016/S0377-2217(03)00021-3"
+            },
+            {
+              "key": "ref27",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1109/ACCESS.2021.3100613"
+            },
+            {
+              "key": "ref28",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1016/j.asoc.2020.106336"
+            },
+            {
+              "key": "ref29",
+              "article-title": "A comparison of approaches to the nurse scheduling problem",
+              "author": "Chen",
+              "year": "2016"
+            },
+            {
+              "key": "ref30",
+              "first-page": "154",
+              "article-title": "Competitive nurse rostering and rerostering",
+              "author": "Chiaramonte",
+              "year": "2008"
+            },
+            {
+              "key": "ref31",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1007/s10479-013-1357-9"
+            },
+            {
+              "key": "ref32",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1007/3-540-44629-X_11"
+            },
+            {
+              "key": "ref33",
+              "article-title": "Computational results on new staff scheduling benchmark instances",
+              "author": "Curtois",
+              "year": "2014"
+            },
+            {
+              "key": "ref34",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1007/s10479-012-1235-x"
+            },
+            {
+              "key": "ref35",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1016/j.ejor.2019.07.073"
+            },
+            {
+              "key": "ref36",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.18517/ijaseit.9.6.10224"
+            },
+            {
+              "key": "ref37",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1007/s12597-020-00444-x"
+            },
+            {
+              "key": "ref38",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1080/01966324.2019.1570882"
+            },
+            {
+              "key": "ref39",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1080/17509653.2018.1534619"
+            },
+            {
+              "key": "ref40",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1016/j.ins.2012.12.025"
+            },
+            {
+              "key": "ref41",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1007/s10479-012-1062-0"
+            },
+            {
+              "key": "ref42",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1109/ACCESS.2020.3032851"
+            },
+            {
+              "key": "ref43",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1007/s10878-020-00667-0"
+            },
+            {
+              "key": "ref44",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1016/j.cor.2012.04.018"
+            },
+            {
+              "key": "ref45",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1007/s00521-013-1536-2"
+            },
+            {
+              "key": "ref46",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1007/s40815-015-0051-2"
+            },
+            {
+              "key": "ref47",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1016/j.asoc.2016.01.002"
+            },
+            {
+              "key": "ref48",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.3390/su9071090"
+            },
+            {
+              "key": "ref49",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1002/leap.1374"
+            },
+            {
+              "key": "ref50",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1016/j.cor.2021.105221"
+            },
+            {
+              "key": "ref51",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1007/s10479-017-2546-8"
+            },
+            {
+              "key": "ref52",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1016/j.ejor.2011.12.016"
+            },
+            {
+              "key": "ref53",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1016/j.ejor.2018.09.027"
+            },
+            {
+              "key": "ref54",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1007/s12532-019-00172-4"
+            },
+            {
+              "key": "ref55",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1109/TETCI.2018.2886585"
+            },
+            {
+              "key": "ref56",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1016/j.ejor.2019.06.005"
+            },
+            {
+              "key": "ref57",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1007/s10479-014-1701-8"
+            },
+            {
+              "key": "ref58",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1287/opre.24.5.857"
+            },
+            {
+              "key": "ref59",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1016/j.advengsoft.2013.12.007"
+            },
+            {
+              "key": "ref60",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1007/s10479-017-2623-z"
+            },
+            {
+              "key": "ref61",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1007/3-540-40996-3_7"
+            },
+            {
+              "key": "ref62",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1016/j.ejor.2016.09.030"
+            },
+            {
+              "key": "ref63",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1016/j.cor.2017.01.016"
+            },
+            {
+              "key": "ref64",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1155/2017/6563498"
+            },
+            {
+              "key": "ref65",
+              "first-page": "1",
+              "volume-title": "Modern Heuristic Search Methods, Chapter Modern Heuristic Techniques",
+              "author": "Reeves",
+              "year": "1996"
+            },
+            {
+              "key": "ref66",
+              "first-page": "549",
+              "article-title": "A direct MILP approach based on state-expanded network flows and anticipation for multi-stage nurse rostering under uncertainty",
+              "volume-title": "Proc. 11th Int. Conf. Pract. Theory Automated Timetabling (PATAT)",
+              "author": "Romer"
+            },
+            {
+              "key": "ref67",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1109/TASE.2021.3097778"
+            },
+            {
+              "key": "ref68",
+              "first-page": "161",
+              "article-title": "A stepping horizon view on nurse rostering",
+              "volume-title": "Proc. 9th Int. Conf. Pract. Theory Automated Timetabling",
+              "author": "Salassa"
+            },
+            {
+              "key": "ref69",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1007/s10479-014-1594-6"
+            },
+            {
+              "key": "ref70",
+              "article-title": "Optimization/mathematical programming",
+              "author": "Singh",
+              "year": "2014"
+            },
+            {
+              "key": "ref71",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1007/s10479-012-1116-3"
+            },
+            {
+              "key": "ref72",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1016/j.ejor.2015.08.025"
+            },
+            {
+              "key": "ref73",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1007/978-3-642-39304-4_6"
+            },
+            {
+              "key": "ref74",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1016/j.cor.2020.104945"
+            },
+            {
+              "key": "ref75",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1016/j.eswa.2020.113943"
+            },
+            {
+              "key": "ref76",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1007/s12065-020-00473-x"
+            },
+            {
+              "key": "ref77",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1016/j.cor.2015.02.009"
+            },
+            {
+              "key": "ref78",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1016/j.cie.2020.106531"
+            },
+            {
+              "key": "ref79",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1016/j.ejor.2011.12.042"
+            },
+            {
+              "key": "ref80",
+              "first-page": "151",
+              "article-title": "NSPLib—A nurse scheduling problem library: A tool to evaluate (meta-) heuristic procedures",
+              "volume-title": "Proc. 31st Annu. Meeting Work. Group Oper. Res. Appl. Health Services",
+              "author": "Vanhoucke"
+            },
+            {
+              "key": "ref81",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1287/opre.24.5.842"
+            },
+            {
+              "key": "ref82",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1007/s10479-020-03552-5"
+            },
+            {
+              "key": "ref83",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1016/j.cor.2018.12.014"
+            },
+            {
+              "key": "ref84",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1016/j.cor.2014.08.016"
+            },
+            {
+              "issue": "5",
+              "key": "ref85",
+              "first-page": "2043",
+              "article-title": "Cyber swarm algorithms for multi-objective nurse rostering problem",
+              "volume": "9",
+              "author": "Yin",
+              "year": "2013",
+              "journal-title": "Int. J. Innov. Comput., Inf. Control"
+            },
+            {
+              "key": "ref86",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1016/j.cie.2018.09.027"
+            },
+            {
+              "key": "ref87",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1016/j.cie.2017.05.027"
+            }
+          ],
+          "container-title": [
+            "IEEE Access"
+          ],
+          "link": [
+            {
+              "URL": "http://xplorestaging.ieee.org/ielx7/6287639/9668973/09780256.pdf?arnumber=9780256",
+              "content-type": "unspecified",
+              "content-version": "vor",
+              "intended-application": "similarity-checking"
+            }
+          ],
+          "deposited": {
+            "date-parts": [
+              [
+                2024,
+                1,
+                22
+              ]
+            ],
+            "date-time": "2024-01-22T22:28:45Z",
+            "timestamp": 1705962525000
+          },
+          "score": 35.50863,
+          "resource": {
+            "primary": {
+              "URL": "https://ieeexplore.ieee.org/document/9780256/"
+            }
+          },
+          "issued": {
+            "date-parts": [
+              [
+                2022
+              ]
+            ]
+          },
+          "references-count": 87,
+          "URL": "https://doi.org/10.1109/access.2022.3177280",
+          "ISSN": [
+            "2169-3536"
+          ],
+          "issn-type": [
+            {
+              "value": "2169-3536",
+              "type": "electronic"
+            }
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2022
+              ]
+            ]
+          }
+        },
+        {
+          "indexed": {
+            "date-parts": [
+              [
+                2026,
+                8,
+                16
+              ]
+            ],
+            "date-time": "2026-08-16T16:37:37Z",
+            "timestamp": 1786898257508,
+            "version": "build-2736575974"
+          },
+          "posted": {
+            "date-parts": [
+              [
+                2016
+              ]
+            ]
+          },
+          "group-title": "SSRN",
+          "reference-count": 10,
+          "publisher": "Elsevier BV",
+          "content-domain": {
+            "domain": [],
+            "crossmark-restriction": false
+          },
+          "abstract": "",
+          "DOI": "10.2139/ssrn.2832070",
+          "type": "posted-content",
+          "created": {
+            "date-parts": [
+              [
+                2016,
+                9,
+                14
+              ]
+            ],
+            "date-time": "2016-09-14T11:00:44Z",
+            "timestamp": 1473850844000
+          },
+          "source": "Crossref",
+          "is-referenced-by-count": 1,
+          "title": [
+            "Nurse Rostering with Genetic Algorithms"
+          ],
+          "prefix": "10.2139",
+          "author": [
+            {
+              "ORCID": "https://orcid.org/0000-0002-2679-2275",
+              "authenticated-orcid": true,
+              "given": "Uwe",
+              "family": "Aickelin",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            }
+          ],
+          "member": "78",
+          "reference": [
+            {
+              "key": "ref1",
+              "article-title": "An Iterative Search Strategy for Genetic Algorithms",
+              "author": "D Whitley",
+              "year": "1993",
+              "journal-title": "Foundations of Genetic Algorithms 2 59ff"
+            },
+            {
+              "key": "ref2",
+              "journal-title": "? Run a standard genetic algorithm with a random starting population until finished"
+            },
+            {
+              "key": "ref3",
+              "journal-title": "Run genetic algorithm again, but initialise new population as a hypercube surrounding the best previous solution"
+            },
+            {
+              "key": "ref4",
+              "journal-title": "? Does not work for a discontinuous solution space"
+            },
+            {
+              "key": "ref5",
+              "journal-title": "Allow to swap worked shift patterns between all nurses with the same qualification and working hours, as long as the sum of all their satisfied requests improves"
+            },
+            {
+              "key": "ref6",
+              "journal-title": "? Swaps are time expensive and therefore restricted to the top solution in each generation"
+            },
+            {
+              "key": "ref7",
+              "doi-asserted-by": "publisher",
+              "author": "Special Swaps",
+              "DOI": "10.1002/9781119206224.ch7"
+            },
+            {
+              "key": "ref8",
+              "volume": "3",
+              "journal-title": "? Due to work contracts some nurses work either 3 day or 3 night shifts (3/3) whilst others work either 4 day or"
+            },
+            {
+              "key": "ref9",
+              "journal-title": "? The GA cannot resolve such a situation if a high degree of deceptiveness is present"
+            },
+            {
+              "key": "ref10",
+              "journal-title": "? A special swap operator is introduced to check if such a situation is present, and if so, it swaps the two nurses"
+            }
+          ],
+          "deposited": {
+            "date-parts": [
+              [
+                2026,
+                8,
+                16
+              ]
+            ],
+            "date-time": "2026-08-16T16:21:33Z",
+            "timestamp": 1786897293000
+          },
+          "score": 27.988686,
+          "resource": {
+            "primary": {
+              "URL": "https://www.ssrn.com/abstract=2832070"
+            }
+          },
+          "issued": {
+            "date-parts": [
+              [
+                2016
+              ]
+            ]
+          },
+          "references-count": 10,
+          "URL": "https://doi.org/10.2139/ssrn.2832070",
+          "published": {
+            "date-parts": [
+              [
+                2016
+              ]
+            ]
+          },
+          "subtype": "preprint"
+        },
+        {
+          "indexed": {
+            "date-parts": [
+              [
+                2022,
+                3,
+                29
+              ]
+            ],
+            "date-time": "2022-03-29T15:19:17Z",
+            "timestamp": 1648567157203
+          },
+          "reference-count": 0,
+          "publisher": "China Science Publishing & Media Ltd.",
+          "issue": "2",
+          "content-domain": {
+            "domain": [],
+            "crossmark-restriction": false
+          },
+          "short-container-title": [
+            "Journal of Computer Applications"
+          ],
+          "published-print": {
+            "date-parts": [
+              [
+                2013,
+                9,
+                23
+              ]
+            ]
+          },
+          "DOI": "10.3724/sp.j.1087.2013.00338",
+          "type": "journal-article",
+          "created": {
+            "date-parts": [
+              [
+                2013,
+                9,
+                23
+              ]
+            ],
+            "date-time": "2013-09-23T08:14:41Z",
+            "timestamp": 1379924081000
+          },
+          "page": "338-341",
+          "source": "Crossref",
+          "is-referenced-by-count": 2,
+          "title": [
+            "Variable neighborhood search algorithm for nurse rostering problem"
+          ],
+          "prefix": "10.3724",
+          "volume": "33",
+          "author": [
+            {
+              "given": "Chao",
+              "family": "WANG",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Xingye",
+              "family": "DONG",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            }
+          ],
+          "member": "2026",
+          "container-title": [
+            "Journal of Computer Applications"
+          ],
+          "language": "en",
+          "deposited": {
+            "date-parts": [
+              [
+                2013,
+                9,
+                23
+              ]
+            ],
+            "date-time": "2013-09-23T08:14:42Z",
+            "timestamp": 1379924082000
+          },
+          "score": 26.024834,
+          "resource": {
+            "primary": {
+              "URL": "http://pub.chinasciencejournal.com/article/getArticleRedirect.action?doiCode=10.3724/SP.J.1087.2013.00338"
+            }
+          },
+          "subtitle": [
+            "Variable neighborhood search algorithm for nurse rostering problem"
+          ],
+          "issued": {
+            "date-parts": [
+              [
+                2013,
+                9,
+                23
+              ]
+            ]
+          },
+          "references-count": 0,
+          "journal-issue": {
+            "issue": "2",
+            "published-print": {
+              "date-parts": [
+                [
+                  2013,
+                  9,
+                  16
+                ]
+              ]
+            }
+          },
+          "URL": "https://doi.org/10.3724/sp.j.1087.2013.00338",
+          "ISSN": [
+            "1001-9081"
+          ],
+          "issn-type": [
+            {
+              "value": "1001-9081",
+              "type": "print"
+            }
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2013,
+                9,
+                23
+              ]
+            ]
+          }
+        }
+      ],
+      "items-per-page": 3,
+      "query": {
+        "start-index": 0,
+        "search-terms": null
+      }
+    }
+  }
+}

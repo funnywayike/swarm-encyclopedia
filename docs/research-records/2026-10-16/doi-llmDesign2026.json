@@ -1,0 +1,1915 @@
+{
+  "retrieved": "2026-10-16",
+  "url": "https://api.crossref.org/works/10.1145/3787585",
+  "response": {
+    "status": "ok",
+    "message-type": "work",
+    "message-version": "1.0.0",
+    "message": {
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            10,
+            4
+          ]
+        ],
+        "date-time": "2026-10-04T02:55:15Z",
+        "timestamp": 1791082515371,
+        "version": "4.1.0"
+      },
+      "reference-count": 196,
+      "publisher": "Association for Computing Machinery (ACM)",
+      "issue": "8",
+      "funder": [
+        {
+          "name": "Research Grants Council of the Hong Kong Special Administrative Region",
+          "award": [
+            "CityU11217325"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "CityU11217325"
+              ]
+            }
+          ]
+        }
+      ],
+      "content-domain": {
+        "domain": [
+          "dl.acm.org"
+        ],
+        "crossmark-restriction": true
+      },
+      "short-container-title": [
+        "ACM Comput. Surv."
+      ],
+      "published-print": {
+        "date-parts": [
+          [
+            2026,
+            6,
+            30
+          ]
+        ]
+      },
+      "abstract": "",
+      "DOI": "10.1145/3787585",
+      "type": "journal-article",
+      "created": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            12
+          ]
+        ],
+        "date-time": "2026-01-12T21:09:21Z",
+        "timestamp": 1768252161000
+      },
+      "page": "1-32",
+      "update-policy": "https://doi.org/10.1145/crossmark-policy",
+      "source": "Crossref",
+      "is-referenced-by-count": 33,
+      "title": [
+        "A Systematic Survey on Large Language Models for Algorithm Design"
+      ],
+      "prefix": "10.1145",
+      "volume": "58",
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0000-0001-6719-0409",
+          "authenticated-orcid": false,
+          "given": "Fei",
+          "family": "Liu",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "City University of Hong Kong",
+              "place": [
+                "Hong Kong, Hong Kong"
+              ]
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0009-0000-7069-6304",
+          "authenticated-orcid": false,
+          "given": "Yiming",
+          "family": "Yao",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "City University of Hong Kong",
+              "place": [
+                "Hong Kong, Hong Kong"
+              ]
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0001-5412-914X",
+          "authenticated-orcid": false,
+          "given": "Ping",
+          "family": "Guo",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "City University of Hong Kong",
+              "place": [
+                "Hong Kong, Hong Kong"
+              ]
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0003-1738-6096",
+          "authenticated-orcid": false,
+          "given": "Zhiyuan",
+          "family": "Yang",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Huawei Noah's Ark Lab",
+              "place": [
+                "Hong Kong, Hong Kong"
+              ]
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0001-5298-6893",
+          "authenticated-orcid": false,
+          "given": "Xi",
+          "family": "Lin",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Xi'an Jiaotong University",
+              "place": [
+                "Xi'an, China"
+              ]
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-8942-8761",
+          "authenticated-orcid": false,
+          "given": "Zhe",
+          "family": "Zhao",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "City University of Hong Kong",
+              "place": [
+                "Hong Kong, Hong Kong"
+              ]
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0009-0006-8153-1576",
+          "authenticated-orcid": false,
+          "given": "Xialiang",
+          "family": "Tong",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Huawei Noah’s Ark Lab",
+              "place": [
+                "Shenzhen, China"
+              ]
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-0902-3167",
+          "authenticated-orcid": false,
+          "given": "Kun",
+          "family": "Mao",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Huawei Cloud EI Service Product Dept",
+              "place": [
+                "Shenzhen, China"
+              ]
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-4618-3573",
+          "authenticated-orcid": false,
+          "given": "Zhichao",
+          "family": "Lu",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "City University of Hong Kong",
+              "place": [
+                "Hong Kong, Hong Kong"
+              ]
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0003-1152-6780",
+          "authenticated-orcid": false,
+          "given": "Zhenkun",
+          "family": "Wang",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Southern University of Science and Technology",
+              "place": [
+                "Shenzhen, China"
+              ]
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-2236-8784",
+          "authenticated-orcid": false,
+          "given": "Mingxuan",
+          "family": "Yuan",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Huawei Noah's Ark Lab",
+              "place": [
+                "Hong Kong, Hong Kong"
+              ]
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0003-0786-0671",
+          "authenticated-orcid": false,
+          "given": "Qingfu",
+          "family": "Zhang",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "City University of Hong Kong",
+              "place": [
+                "Hong Kong, Hong Kong"
+              ]
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "320",
+      "published-online": {
+        "date-parts": [
+          [
+            2026,
+            2,
+            10
+          ]
+        ]
+      },
+      "reference": [
+        {
+          "key": "e_1_3_1_2_2",
+          "volume-title": "Proceedings of the 42nd International Conference on Machine Learning",
+          "author": "Aglietti Virginia",
+          "year": "2025",
+          "unstructured": "Virginia Aglietti, Ira Ktena, Jessica Schrouff, Eleni Sgouritsa, Francisco Ruiz, Alan Malek, Alexis Bellot, and Silvia Chiappa. 2025. FunBO: Discovering acquisition functions for Bayesian optimization with funsearch. In Proceedings of the 42nd International Conference on Machine Learning."
+        },
+        {
+          "key": "e_1_3_1_3_2",
+          "first-page": "577",
+          "volume-title": "Proceedings of the 41st International Conference on Machine Learning",
+          "author": "AhmadiTeshnizi Ali",
+          "year": "2024",
+          "unstructured": "Ali AhmadiTeshnizi, Wenzhi Gao, and Madeleine Udell. 2024. OptiMUS: Scalable optimization modeling with (MI) LP solvers and large language models. In Proceedings of the 41st International Conference on Machine Learning. 577–596."
+        },
+        {
+          "key": "e_1_3_1_4_2",
+          "article-title": "LM4OPT: Unveiling the potential of Large Language Models in formulating mathematical optimization problems",
+          "author": "Ahmed Tasnim",
+          "year": "2024",
+          "unstructured": "Tasnim Ahmed and Salimur Choudhury. 2024. LM4OPT: Unveiling the potential of Large Language Models in formulating mathematical optimization problems. INFOR: Information Systems and Operational Research 62, 4 (2024), 559–572.",
+          "journal-title": "INFOR: Information Systems and Operational Research"
+        },
+        {
+          "key": "e_1_3_1_5_2",
+          "first-page": "225",
+          "volume-title": "Proceedings of the 18th Conference of the European Chapter of the Association for Computational Linguistics: Student Research Workshop",
+          "author": "Ahn Janice",
+          "year": "2024",
+          "unstructured": "Janice Ahn, Rishu Verma, Renze Lou, Di Liu, Rui Zhang, and Wenpeng Yin. 2024. Large language models for mathematical reasoning: Progresses and challenges. In Proceedings of the 18th Conference of the European Chapter of the Association for Computational Linguistics: Student Research Workshop. 225–237."
+        },
+        {
+          "key": "e_1_3_1_6_2",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Mohammad Alipour-Vaezi and Kwok-Leung Tsui. 2024. Data-driven portfolio management for motion pictures industry: A new data-driven optimization methodology using a large language model as the expert. Computers & Industrial Engineering 197 (2024) 110574.",
+          "DOI": "10.1016/j.cie.2024.110574"
+        },
+        {
+          "key": "e_1_3_1_7_2",
+          "unstructured": "Zeyuan Allen-Zhu and Yuanzhi Li. 2023. Physics of language models: Part 3.1 knowledge storage and extraction. In International Conference on Machine Learning. 1067–1077."
+        },
+        {
+          "issue": "2",
+          "key": "e_1_3_1_8_2",
+          "doi-asserted-by": "crossref",
+          "first-page": "405",
+          "DOI": "10.1016/j.ejor.2020.07.063",
+          "article-title": "Machine learning for combinatorial optimization: A methodological tour d’horizon",
+          "volume": "290",
+          "author": "Bengio Yoshua",
+          "year": "2021",
+          "unstructured": "Yoshua Bengio, Andrea Lodi, and Antoine Prouvost. 2021. Machine learning for combinatorial optimization: A methodological tour d’horizon. European Journal of Operational Research 290, 2 (2021), 405–421.",
+          "journal-title": "European Journal of Operational Research"
+        },
+        {
+          "key": "e_1_3_1_9_2",
+          "volume-title": "Proceedings of the NeurIPS 2024 Workshop on Open-World Agents",
+          "year": "2024",
+          "unstructured": "Siddhant Bhambri, Amrita Bhattacharjee, huan liu, and Subbarao Kambhampati. 2024. Efficient reinforcement learning via large language model-based search. In Proceedings of the NeurIPS 2024 Workshop on Open-World Agents."
+        },
+        {
+          "key": "e_1_3_1_10_2",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1021/acs.jcim.4c01396",
+          "article-title": "Large language models as molecular design engines",
+          "author": "Bhattacharya Debjyoti",
+          "year": "2024",
+          "unstructured": "Debjyoti Bhattacharya, Harrison J. Cassady, Michael A Hickner, and Wesley F. Reinhart. 2024. Large language models as molecular design engines. Journal of Chemical Information and Modeling 64, 18 (2024), 7086–7096.",
+          "journal-title": "Journal of Chemical Information and Modeling"
+        },
+        {
+          "key": "e_1_3_1_11_2",
+          "unstructured": "Thomas Bömer Nico Koltermann Max Disselnmeyer Laura Dörr and Anne Meyer. 2025. Leveraging large language models to develop heuristics for emerging optimization problems. arXiv:2503.03350. Retrieved from https://arxiv.org/abs/2503.03350"
+        },
+        {
+          "key": "e_1_3_1_12_2",
+          "doi-asserted-by": "crossref",
+          "first-page": "129272",
+          "DOI": "10.1016/j.neucom.2024.129272",
+          "article-title": "Large language model-based evolutionary optimizer: Reasoning with elitism",
+          "volume": "622",
+          "author": "Brahmachary Shuvayan",
+          "year": "2025",
+          "unstructured": "Shuvayan Brahmachary, Subodh M. Joshi, Aniruddha Panda, Kaushik Koneripalli, Arun Kumar Sagotra, Harshil Patel, Ankush Sharma, Ameya D. Jagtap, and Kaushic Kalyanaraman. 2025. Large language model-based evolutionary optimizer: Reasoning with elitism. Neurocomputing 622 (2025), 129272.",
+          "journal-title": "Neurocomputing"
+        },
+        {
+          "issue": "2",
+          "key": "e_1_3_1_13_2",
+          "article-title": "X-LoRA: Mixture of low-rank adapter experts, a flexible framework for large language models with applications in protein mechanics and molecular design",
+          "volume": "2",
+          "author": "Buehler Eric L.",
+          "year": "2024",
+          "unstructured": "Eric L. Buehler and Markus J. Buehler. 2024. X-LoRA: Mixture of low-rank adapter experts, a flexible framework for large language models with applications in protein mechanics and molecular design. APL Machine Learning 2, 2 (2024).",
+          "journal-title": "APL Machine Learning"
+        },
+        {
+          "key": "e_1_3_1_14_2",
+          "doi-asserted-by": "crossref",
+          "first-page": "105454",
+          "DOI": "10.1016/j.jmps.2023.105454",
+          "article-title": "MeLM, a generative pretrained language modeling framework that solves forward and inverse mechanics problems",
+          "volume": "181",
+          "author": "Buehler Markus J.",
+          "year": "2023",
+          "unstructured": "Markus J. Buehler. 2023. MeLM, a generative pretrained language modeling framework that solves forward and inverse mechanics problems. Journal of the Mechanics and Physics of Solids 181 (2023), 105454.",
+          "journal-title": "Journal of the Mechanics and Physics of Solids"
+        },
+        {
+          "key": "e_1_3_1_15_2",
+          "doi-asserted-by": "crossref",
+          "first-page": "160",
+          "DOI": "10.1145/3638529.3654086",
+          "volume-title": "Proceedings of the Genetic and Evolutionary Computation Conference",
+          "author": "Sartori Camilo Chacón",
+          "year": "2024",
+          "unstructured": "Camilo Chacón Sartori, Christian Blum, and Gabriela Ochoa. 2024. Large language models for the automated analysis of optimization algorithms. In Proceedings of the Genetic and Evolutionary Computation Conference. 160–168."
+        },
+        {
+          "key": "e_1_3_1_16_2",
+          "article-title": "EvoPrompting: Language models for code-level neural architecture search",
+          "volume": "36",
+          "author": "Chen Angelica",
+          "year": "2024",
+          "unstructured": "Angelica Chen, David Dohan, and David So. 2024. EvoPrompting: Language models for code-level neural architecture search. Advances in Neural Information Processing Systems 36 (2024).",
+          "journal-title": "Advances in Neural Information Processing Systems"
+        },
+        {
+          "key": "e_1_3_1_17_2",
+          "unstructured": "Chentong Chen Mengyuan Zhong Jianyong Sun Ye Fan and Jialong Shi. 2025. HiFo-Prompt: Prompting with hindsight and foresight for LLM-based automatic heuristic design. arXiv:2508.13333. Retrieved from https://arxiv.org/abs/2508.13333"
+        },
+        {
+          "key": "e_1_3_1_18_2",
+          "unstructured": "Hongzheng Chen Yingheng Wang Yaohui Cai Hins Hu Jiajie Li Shirley Huang Chenhui Deng Rongjian Liang Shufeng Kong Haoxing Ren et al. 2025. HeuriGym: An agentic benchmark for LLM-crafted heuristics in combinatorial optimization. arXiv:2506.07972. Retrieved from https://arxiv.org/abs/2506.07972"
+        },
+        {
+          "key": "e_1_3_1_19_2",
+          "volume-title": "Proceedings of the 30th ACM SIGKDD Conference on Knowledge Discovery and Data Mining, KDD",
+          "author": "Chen Lin",
+          "year": "2024",
+          "unstructured": "Lin Chen, Fengli Xu, Nian Li, Zhenyu Han, Meng Wang, Yong Li, and Pan Hui. 2024. Large language model-driven meta-structure discovery in heterogeneous information network. In Proceedings of the 30th ACM SIGKDD Conference on Knowledge Discovery and Data Mining, KDD. ACM."
+        },
+        {
+          "key": "e_1_3_1_20_2",
+          "unstructured": "Yanxi Chen Yaliang Li Bolin Ding and Jingren Zhou. 2024. On the design and analysis of LLM-based algorithms. arXiv:2407.14788. Retrieved from https://arxiv.org/abs/2407.14788"
+        },
+        {
+          "key": "e_1_3_1_21_2",
+          "volume-title": "Proceedings of the 12th International Conference on Learning Representations",
+          "author": "Chen Zhikai",
+          "year": "2024",
+          "unstructured": "Zhikai Chen, Haitao Mao, Hongzhi Wen, Haoyu Han, Wei Jin, Haiyang Zhang, Hui Liu, and Jiliang Tang. 2024. Label-free node classification on graphs with large language models (LLMs). In Proceedings of the 12th International Conference on Learning Representations."
+        },
+        {
+          "key": "e_1_3_1_22_2",
+          "unstructured": "Zhen-Song Chen Hong-Wei Ding Xian-Jia Wang and Witold Pedrycz. 2025. LLM4CMO: Large language model-aided algorithm design for constrained multiobjective optimization. arXiv:2508.11871. Retrieved from https://arxiv.org/abs/2508.11871"
+        },
+        {
+          "key": "e_1_3_1_23_2",
+          "first-page": "183",
+          "volume-title": "Proceedings of the European Conference on Computer Vision",
+          "author": "Chiquier Mia",
+          "year": "2024",
+          "unstructured": "Mia Chiquier, Utkarsh Mall, and Carl Vondrick. 2024. Evolving interpretable visual classifiers with large language models. In Proceedings of the European Conference on Computer Vision. Springer, 183–201."
+        },
+        {
+          "key": "e_1_3_1_24_2",
+          "unstructured": "Karl Cobbe Vineet Kosaraju Mohammad Bavarian Mark Chen Heewoo Jun Lukasz Kaiser Matthias Plappert Jerry Tworek Jacob Hilton Reiichiro Nakano et al. 2021. Training verifiers to solve math word problems. arXiv:2110.14168. Retrieved from https://arxiv.org/abs/2110.14168"
+        },
+        {
+          "key": "e_1_3_1_25_2",
+          "volume-title": "Introduction to Algorithms",
+          "author": "Cormen Thomas H.",
+          "year": "2022",
+          "unstructured": "Thomas H. Cormen, Charles E. Leiserson, Ronald L. Rivest, and Clifford Stein. 2022. Introduction to Algorithms. MIT Press."
+        },
+        {
+          "key": "e_1_3_1_26_2",
+          "doi-asserted-by": "crossref",
+          "first-page": "1838",
+          "DOI": "10.1145/3638530.3664163",
+          "volume-title": "Proceedings of the Genetic and Evolutionary Computation Conference Companion",
+          "author": "Custode Leonardo Lucio",
+          "year": "2024",
+          "unstructured": "Leonardo Lucio Custode, Fabio Caraffini, Anil Yaman, and Giovanni Iacca. 2024. An investigation on the use of large language models for hyperparameter tuning in evolutionary algorithms. In Proceedings of the Genetic and Evolutionary Computation Conference Companion. 1838–1845."
+        },
+        {
+          "key": "e_1_3_1_27_2",
+          "unstructured": "Francesca Da Ros Michael Soprano Luca Di Gaspero and Kevin Roitero. 2025. Large language models for combinatorial optimization: A systematic review. arXiv:2507.03637. Retrieved from https://arxiv.org/abs/2507.03637"
+        },
+        {
+          "key": "e_1_3_1_28_2",
+          "doi-asserted-by": "crossref",
+          "first-page": "475",
+          "DOI": "10.1145/3674805.3690753",
+          "volume-title": "Proceedings of the 18th ACM/IEEE International Symposium on Empirical Software Engineering and Measurement",
+          "author": "d’Aloisio Giordano",
+          "year": "2024",
+          "unstructured": "Giordano d’Aloisio, Sophie Fortz, Carol Hanna, Daniel Fortunato, Avner Bensoussan, Eñaut Mendiluze Usandizaga, and Federica Sarro. 2024. Exploring LLM-driven explanations for quantum algorithms. In Proceedings of the 18th ACM/IEEE International Symposium on Empirical Software Engineering and Measurement. 475–481."
+        },
+        {
+          "key": "e_1_3_1_29_2",
+          "first-page": "26931",
+          "volume-title": "Proceedings of the AAAI Conference on Artificial Intelligence",
+          "volume": "39",
+          "author": "Dat Pham Vu Tuan",
+          "year": "2025",
+          "unstructured": "Pham Vu Tuan Dat, Long Doan, and Huynh Thi Thanh Binh. 2025. Hsevo: Elevating automatic heuristic design with diversity-driven harmony search and genetic algorithm using LLMs. In Proceedings of the AAAI Conference on Artificial Intelligence, Vol. 39. 26931–26938."
+        },
+        {
+          "key": "e_1_3_1_30_2",
+          "article-title": "Iohexperimenter: Benchmarking platform for iterative optimization heuristics",
+          "author": "Nobel Jacob de",
+          "year": "2024",
+          "unstructured": "Jacob de Nobel, Furong Ye, Diederick Vermetten, Hao Wang, Carola Doerr, and Thomas Bäck. 2024. Iohexperimenter: Benchmarking platform for iterative optimization heuristics. Evolutionary Computation 32, 3 (2024), 205–210.",
+          "journal-title": "Evolutionary Computation"
+        },
+        {
+          "key": "e_1_3_1_31_2",
+          "first-page": "11763",
+          "article-title": "Lift: Language-interfaced fine-tuning for non-language machine learning tasks",
+          "volume": "35",
+          "author": "Dinh Tuan",
+          "year": "2022",
+          "unstructured": "Tuan Dinh, Yuchen Zeng, Ruisu Zhang, Ziqian Lin, Michael Gira, Shashank Rajput, Jy-yong Sohn, Dimitris Papailiopoulos, and Kangwook Lee. 2022. Lift: Language-interfaced fine-tuning for non-language machine learning tasks. Advances in Neural Information Processing Systems 35 (2022), 11763–11784.",
+          "journal-title": "Advances in Neural Information Processing Systems"
+        },
+        {
+          "key": "e_1_3_1_32_2",
+          "unstructured": "Hongyang Du Guangyuan Liu Yijing Lin Dusit Niyato Jiawen Kang Zehui Xiong and Dong In Kim. 2024. Mixture of experts for network optimization: A large language model-enabled approach. arXiv:2402.09756. Retrieved from https://arxiv.org/abs/2402.09756"
+        },
+        {
+          "issue": "9",
+          "key": "e_1_3_1_33_2",
+          "article-title": "Large language models for automatic equation discovery of nonlinear dynamics",
+          "volume": "36",
+          "author": "Du Mengge",
+          "year": "2024",
+          "unstructured": "Mengge Du, Yuntian Chen, Zhongzheng Wang, Longfeng Nie, and Dongxiao Zhang. 2024. Large language models for automatic equation discovery of nonlinear dynamics. Physics of Fluids 36, 9 (2024).",
+          "journal-title": "Physics of Fluids"
+        },
+        {
+          "key": "e_1_3_1_34_2",
+          "unstructured": "Mengge Du Yuntian Chen Zhongzheng Wang Longfeng Nie and Dongxiao Zhang. 2024. LLM4ED: Large language models for automatic equation discovery. arXiv:2405.07761. Retrieved from https://arxiv.org/abs/2405.07761"
+        },
+        {
+          "key": "e_1_3_1_35_2",
+          "unstructured": "Ruibo Duan Yuxin Liu Xinyao Dong and Chenglin Fan. 2025. EALG: Evolutionary adversarial generation of language model-guided generators for combinatorial optimization. arXiv:2506.02594. Retrieved from https://arxiv.org/abs/2506.02594"
+        },
+        {
+          "key": "e_1_3_1_36_2",
+          "article-title": "Using imperfect surrogates for downstream inference: Design-based supervised learning for social science applications of large language models",
+          "volume": "36",
+          "author": "Egami Naoki",
+          "year": "2024",
+          "unstructured": "Naoki Egami, Musashi Hinck, Brandon Stewart, and Hanying Wei. 2024. Using imperfect surrogates for downstream inference: Design-based supervised learning for social science applications of large language models. Advances in Neural Information Processing Systems 36 (2024).",
+          "journal-title": "Advances in Neural Information Processing Systems"
+        },
+        {
+          "key": "e_1_3_1_37_2",
+          "volume-title": "Proceedings of the 35th Conference on Neural Information Processing Systems Datasets and Benchmarks Track (Round 2)",
+          "author": "Eggensperger Katharina",
+          "year": "2021",
+          "unstructured": "Katharina Eggensperger, Philipp Müller, Neeratyoy Mallik, Matthias Feurer, Rene Sass, Aaron Klein, Noor Awad, Marius Lindauer, and Frank Hutter. 2021. HPOBench: A collection of reproducible multi-fidelity benchmark problems for HPO. In Proceedings of the 35th Conference on Neural Information Processing Systems Datasets and Benchmarks Track (Round 2)."
+        },
+        {
+          "key": "e_1_3_1_38_2",
+          "unstructured": "Zhenan Fan Bissan Ghaddar Xinglu Wang Linzi Xing Yong Zhang and Zirui Zhou. 2024. Artificial intelligence for operations research: Revolutionizing the operations research process. arXiv:2401.03244. Retrieved from https://arxiv.org/abs/2401.03244"
+        },
+        {
+          "issue": "3",
+          "key": "e_1_3_1_39_2",
+          "doi-asserted-by": "crossref",
+          "first-page": "339",
+          "DOI": "10.1162/evco_a_00259",
+          "article-title": "Difficulty adjustable and scalable constrained multiobjective test problem toolkit",
+          "volume": "28",
+          "author": "Fan Zhun",
+          "year": "2020",
+          "unstructured": "Zhun Fan, Wenji Li, Xinye Cai, Hui Li, Caimin Wei, Qingfu Zhang, Kalyanmoy Deb, and Erik Goodman. 2020. Difficulty adjustable and scalable constrained multiobjective test problem toolkit. Evolutionary Computation 28, 3 (2020), 339–378.",
+          "journal-title": "Evolutionary Computation"
+        },
+        {
+          "key": "e_1_3_1_40_2",
+          "unstructured": "Chao Feng Xinyu Zhang and Zichu Fei. 2023. Knowledge solver: Teaching LLMs to search for domain knowledge from knowledge graphs. arXiv:2309.03118. Retrieved from https://arxiv.org/abs/2309.03118"
+        },
+        {
+          "key": "e_1_3_1_41_2",
+          "article-title": "Large language models for biomolecular analysis: From methods to applications",
+          "author": "Feng Ruijun",
+          "year": "2024",
+          "unstructured": "Ruijun Feng, Chi Zhang, and Yang Zhang. 2024. Large language models for biomolecular analysis: From methods to applications. TrAC Trends in Analytical Chemistry 171, 6 (2024), 117540.",
+          "journal-title": "TrAC Trends in Analytical Chemistry"
+        },
+        {
+          "key": "e_1_3_1_42_2",
+          "unstructured": "Mohamed Amine Ferrag Norbert Tihanyi and Merouane Debbah. 2025. From LLM reasoning to autonomous AI agents: A comprehensive review. arXiv:2504.19678. Retrieved from https://arxiv.org/abs/2504.19678"
+        },
+        {
+          "key": "e_1_3_1_43_2",
+          "doi-asserted-by": "crossref",
+          "first-page": "45",
+          "DOI": "10.1007/978-3-319-23871-5_3",
+          "article-title": "Bayesian optimization for materials design",
+          "author": "Frazier Peter I.",
+          "year": "2016",
+          "unstructured": "Peter I. Frazier and Jialei Wang. 2016. Bayesian optimization for materials design. Information Science for Materials Discovery and Design (2016), 45–75.",
+          "journal-title": "Information Science for Materials Discovery and Design"
+        },
+        {
+          "key": "e_1_3_1_44_2",
+          "first-page": "96797",
+          "article-title": "Strategyllm: Large language models as strategy generators, executors, optimizers, and evaluators for problem solving",
+          "volume": "37",
+          "author": "Gao Chang",
+          "year": "2024",
+          "unstructured": "Chang Gao, Haiyun Jiang, Deng Cai, Shuming Shi, and Wai Lam. 2024. Strategyllm: Large language models as strategy generators, executors, optimizers, and evaluators for problem solving. Advances in Neural Information Processing Systems 37 (2024), 96797–96846.",
+          "journal-title": "Advances in Neural Information Processing Systems"
+        },
+        {
+          "key": "e_1_3_1_45_2",
+          "article-title": "MORA-LLM: Enhancing multi-objective optimization recommendation algorithm by integrating large language models",
+          "author": "Ge Yuanyuan",
+          "year": "2025",
+          "unstructured": "Yuanyuan Ge, Likang Wu, Haipeng Yang, Fan Cheng, Hongke Zhao, and Lei Zhang. 2025. MORA-LLM: Enhancing multi-objective optimization recommendation algorithm by integrating large language models. IEEE Transactions on Evolutionary Computation (2025).",
+          "journal-title": "IEEE Transactions on Evolutionary Computation"
+        },
+        {
+          "key": "e_1_3_1_46_2",
+          "volume-title": "Handbook of Metaheuristics",
+          "year": "2010",
+          "unstructured": "Michel Gendreau and Jean-Yves Potvin. 2010. Handbook of Metaheuristics. Vol. 2. Springer."
+        },
+        {
+          "key": "e_1_3_1_47_2",
+          "article-title": "Ideas are dimes a dozen: Large language models for idea generation in innovation",
+          "author": "Girotra Karan",
+          "year": "2023",
+          "unstructured": "Karan Girotra, Lennart Meincke, Christian Terwiesch, and Karl T. Ulrich. 2023. Ideas are dimes a dozen: Large language models for idea generation in innovation. The Wharton School Research Paper Forthcoming. Available at SSRN 4526071 (2023).",
+          "journal-title": "Available at SSRN 4526071"
+        },
+        {
+          "key": "e_1_3_1_48_2",
+          "volume-title": "Handbook of Metaheuristics",
+          "author": "Glover Fred W.",
+          "year": "2006",
+          "unstructured": "Fred W. Glover and Gary A. Kochenberger. 2006. Handbook of Metaheuristics. Vol. 57. Springer Science & Business Media."
+        },
+        {
+          "key": "e_1_3_1_49_2",
+          "unstructured": "Naiqing Guan Kaiwen Chen and Nick Koudas. 2023. Can large language models design accurate label functions? arXiv:2311.00739. Retrieved from https://arxiv.org/abs/2311.00739"
+        },
+        {
+          "key": "e_1_3_1_50_2",
+          "unstructured": "Daya Guo Dejian Yang Haowei Zhang Junxiao Song Ruoyu Zhang Runxin Xu Qihao Zhu Shirong Ma Peiyi Wang Xiao Bi et al. 2025. Deepseek-r1: Incentivizing reasoning capability in LLMs via reinforcement learning. arXiv:2501.12948. Retrieved from https://arxiv.org/abs/2501.12948"
+        },
+        {
+          "key": "e_1_3_1_51_2",
+          "first-page": "1846",
+          "volume-title": "Proceedings of the Genetic and Evolutionary Computation Conference Companion",
+          "author": "Guo Ping",
+          "year": "2024",
+          "unstructured": "Ping Guo, Fei Liu, Xi Lin, Qingchuan Zhao, and Qingfu Zhang. 2024. L-autoda: Large language models for automatically evolving decision-based adversarial attacks. In Proceedings of the Genetic and Evolutionary Computation Conference Companion. 1846–1854."
+        },
+        {
+          "key": "e_1_3_1_52_2",
+          "volume-title": "Proceedings of the 12th International Conference on Learning Representations",
+          "author": "Guo Qingyan",
+          "year": "2024",
+          "unstructured": "Qingyan Guo, Rui Wang, Junliang Guo, Bei Li, Kaitao Song, Xu Tan, Guoqing Liu, Jiang Bian, and Yujiu Yang. 2024. Connecting large language models with evolutionary algorithms yields powerful prompt optimizers. In Proceedings of the 12th International Conference on Learning Representations."
+        },
+        {
+          "key": "e_1_3_1_53_2",
+          "first-page": "8048",
+          "volume-title": "Proceedings of the 33rd International Joint Conference on Artificial Intelligence",
+          "author": "Guo Taicheng",
+          "year": "2024",
+          "unstructured": "Taicheng Guo, Xiuying Chen, Yaqi Wang, Ruidi Chang, Shichao Pei, Nitesh V. Chawla, Olaf Wiest, and Xiangliang Zhang. 2024. Large language model based multi-agents: A survey of progress and challenges. In Proceedings of the 33rd International Joint Conference on Artificial Intelligence. 8048–8057."
+        },
+        {
+          "key": "e_1_3_1_54_2",
+          "unstructured": "Zixian Guo Ming Liu Zhilong Ji Jinfeng Bai Yiwen Guo and Wangmeng Zuo. 2024. Two optimizers are better than one: LLM catalyst for enhancing gradient-based optimization. arXiv:2405.19732. Retrieved from https://arxiv.org/abs/2405.19732"
+        },
+        {
+          "key": "e_1_3_1_55_2",
+          "doi-asserted-by": "crossref",
+          "first-page": "2309",
+          "DOI": "10.1145/3712255.3734368",
+          "volume-title": "Proceedings of the Genetic and Evolutionary Computation Conference Companion",
+          "author": "Gurkan Can",
+          "year": "2025",
+          "unstructured": "Can Gurkan, Narasimha Karthik Jwalapuram, Kevin Wang, Rudy Danda, Leif Rasmussen, John Chen, and Uri Wilensky. 2025. LEAR: LLM-driven evolution of agent-based rules. In Proceedings of the Genetic and Evolutionary Computation Conference Companion. 2309–2326."
+        },
+        {
+          "key": "e_1_3_1_56_2",
+          "doi-asserted-by": "crossref",
+          "first-page": "1519",
+          "DOI": "10.1145/1830761.1830768",
+          "volume-title": "Proceedings of the 12th Annual Conference Companion on Genetic and Evolutionary Computation",
+          "author": "Hansen Nikolaus",
+          "year": "2010",
+          "unstructured": "Nikolaus Hansen and Raymond Ros. 2010. Black-box optimization benchmarking of NEWUOA compared to BIPOP-CMA-ES: On the BBOB noiseless testbed. In Proceedings of the 12th Annual Conference Companion on Genetic and Evolutionary Computation. 1519–1526."
+        },
+        {
+          "key": "e_1_3_1_57_2",
+          "doi-asserted-by": "crossref",
+          "first-page": "101741",
+          "DOI": "10.1016/j.swevo.2024.101741",
+          "article-title": "Large language models as surrogate models in evolutionary algorithms: A preliminary study",
+          "volume": "91",
+          "author": "Hao Hao",
+          "year": "2024",
+          "unstructured": "Hao Hao, Xiaoqun Zhang, and Aimin Zhou. 2024. Large language models as surrogate models in evolutionary algorithms: A preliminary study. Swarm and Evolutionary Computation 91 (2024), 101741.",
+          "journal-title": "Swarm and Evolutionary Computation"
+        },
+        {
+          "issue": "2",
+          "key": "e_1_3_1_58_2",
+          "doi-asserted-by": "crossref",
+          "first-page": "21",
+          "DOI": "10.1007/s10710-024-09494-2",
+          "article-title": "Evolving code with a large language model",
+          "volume": "25",
+          "author": "Hemberg Erik",
+          "year": "2024",
+          "unstructured": "Erik Hemberg, Stephen Moskal, and Una-May O’Reilly. 2024. Evolving code with a large language model. Genetic Programming and Evolvable Machines 25, 2 (2024), 21.",
+          "journal-title": "Genetic Programming and Evolvable Machines"
+        },
+        {
+          "key": "e_1_3_1_59_2",
+          "doi-asserted-by": "crossref",
+          "first-page": "1935",
+          "DOI": "10.18653/v1/2023.acl-long.108",
+          "volume-title": "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+          "author": "Honovich Or",
+          "year": "2023",
+          "unstructured": "Or Honovich, Uri Shaham, Samuel Bowman, and Omer Levy. 2023. Instruction induction: From few examples to natural language task descriptions. In Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers). 1935–1952."
+        },
+        {
+          "key": "e_1_3_1_60_2",
+          "first-page": "38873",
+          "article-title": "Exploring evolution-aware &-free protein language models as protein function predictors",
+          "volume": "35",
+          "author": "Hu Mingyang",
+          "year": "2022",
+          "unstructured": "Mingyang Hu, Fajie Yuan, Kevin Yang, Fusong Ju, Jin Su, Hui Wang, Fei Yang, and Qiuyang Ding. 2022. Exploring evolution-aware &-free protein language models as protein function predictors. Advances in Neural Information Processing Systems 35 (2022), 38873–38884.",
+          "journal-title": "Advances in Neural Information Processing Systems"
+        },
+        {
+          "key": "e_1_3_1_61_2",
+          "unstructured": "Qinglong Hu Xialiang Tong Mingxuan Yuan Fei Liu Zhichao Lu and Qingfu Zhang. 2025. Discovering interpretable programmatic policies via multimodal LLM-assisted evolutionary search. arXiv:2508.05433. Retrieved from https://arxiv.org/abs/2508.05433"
+        },
+        {
+          "key": "e_1_3_1_62_2",
+          "volume-title": "Proceedings of the 39th Annual Conference on Neural Information Processing Systems",
+          "author": "Hu Qinglong",
+          "year": "2025",
+          "unstructured": "Qinglong Hu and Qingfu Zhang. 2025. Partition to evolve: Niching-enhanced evolution with LLMs for automated algorithm discovery. In Proceedings of the 39th Annual Conference on Neural Information Processing Systems."
+        },
+        {
+          "key": "e_1_3_1_63_2",
+          "volume-title": "Proceedings of the 13th International Conference on Learning Representations",
+          "author": "Hu Shengran",
+          "year": "2025",
+          "unstructured": "Shengran Hu, Cong Lu, and Jeff Clune. 2025. Automated design of agentic systems. In Proceedings of the 13th International Conference on Learning Representations."
+        },
+        {
+          "key": "e_1_3_1_64_2",
+          "article-title": "ORLM: A customizable framework in training large models for automated optimization modeling",
+          "author": "Huang Chenyu",
+          "year": "2025",
+          "unstructured": "Chenyu Huang, Zhengyang Tang, Shixi Hu, Ruoqing Jiang, Xin Zheng, Dongdong Ge, Benyou Wang, and Zizhuo Wang. 2025. ORLM: A customizable framework in training large models for automated optimization modeling. Operations Research 73, 6 (2025), 2867–3452.",
+          "journal-title": "Operations Research"
+        },
+        {
+          "key": "e_1_3_1_65_2",
+          "doi-asserted-by": "crossref",
+          "first-page": "101663",
+          "DOI": "10.1016/j.swevo.2024.101663",
+          "article-title": "When large language model meets optimization",
+          "volume": "90",
+          "author": "Huang Sen",
+          "year": "2024",
+          "unstructured": "Sen Huang, Kaixiang Yang, Sheng Qi, and Rui Wang. 2024. When large language model meets optimization. Swarm and Evolutionary Computation 90 (2024), 101663.",
+          "journal-title": "Swarm and Evolutionary Computation"
+        },
+        {
+          "key": "e_1_3_1_66_2",
+          "first-page": "1",
+          "volume-title": "Proceedings of the 2025 IEEE Symposium for Multidisciplinary Computational Intelligence Incubators (MCII)",
+          "author": "Huang Yuxiao",
+          "year": "2025",
+          "unstructured": "Yuxiao Huang, Wenjie Zhang, Liang Feng, Xingyu Wu, and Kay Chen Tan. 2025. How multimodal integration boost the performance of LLM for optimization: Case study on capacitated vehicle routing problems. In Proceedings of the 2025 IEEE Symposium for Multidisciplinary Computational Intelligence Incubators (MCII). IEEE, 1–7."
+        },
+        {
+          "key": "e_1_3_1_67_2",
+          "unstructured": "Ziyao Huang Weiwei Wu Kui Wu Jianping Wang and Wei-Bin Lee. 2025. Calm: Co-evolution of algorithms and language model for automatic heuristic design. arXiv:2505.12285. Retrieved from https://arxiv.org/abs/2505.12285"
+        },
+        {
+          "key": "e_1_3_1_68_2",
+          "article-title": "Self-organized agents: A LLM multi-agent framework toward ultra large-scale code generation and optimization",
+          "author": "Ishibashi Yoichi",
+          "year": "2024",
+          "unstructured": "Yoichi Ishibashi and Yoshimasa Nishimura. 2024. Self-organized agents: A LLM multi-agent framework toward ultra large-scale code generation and optimization. CoRR (2024).",
+          "journal-title": "CoRR"
+        },
+        {
+          "issue": "1",
+          "key": "e_1_3_1_69_2",
+          "doi-asserted-by": "crossref",
+          "first-page": "36",
+          "DOI": "10.1186/s13321-025-00984-8",
+          "article-title": "Large language models open new way of AI-assisted molecule design for chemists",
+          "volume": "17",
+          "author": "Ishida Shoichi",
+          "year": "2025",
+          "unstructured": "Shoichi Ishida, Tomohiro Sato, Teruki Honma, and Kei Terayama. 2025. Large language models open new way of AI-assisted molecule design for chemists. Journal of Cheminformatics 17, 1 (2025), 36.",
+          "journal-title": "Journal of Cheminformatics"
+        },
+        {
+          "key": "e_1_3_1_70_2",
+          "volume-title": "Findings of the Association for Computational Linguistics: ACL 2024",
+          "author": "Jawahar Ganesh",
+          "year": "2024",
+          "unstructured": "Ganesh Jawahar, Muhammad Abdul-Mageed, Laks V. S. Lakshmanan, and Dujian Ding. 2024. LLM performance predictors are good initializers for architecture search. In Findings of the Association for Computational Linguistics: ACL 2024."
+        },
+        {
+          "key": "e_1_3_1_71_2",
+          "unstructured": "Shuyi Jia Chao Zhang and Victor Fung. 2024. LLMatDesign: Autonomous materials discovery with large language models. arXiv:2406.13163. Retrieved from https://arxiv.org/abs/2406.13163"
+        },
+        {
+          "key": "e_1_3_1_72_2",
+          "unstructured": "Juyong Jiang Fan Wang Jiasi Shen Sungju Kim and Sunghun Kim. 2024. A survey on large language models for code generation. arXiv:2406.00515. Retrieved from https://arxiv.org/abs/2406.00515"
+        },
+        {
+          "key": "e_1_3_1_73_2",
+          "unstructured": "Xia Jiang Yaoxin Wu Yuan Wang and Yingqian Zhang. 2024. Bridging large language models and optimization: A unified framework for text-attributed combinatorial optimization. arXiv:2408.12214. Retrieved from https://arxiv.org/abs/2408.12214"
+        },
+        {
+          "issue": "3",
+          "key": "e_1_3_1_74_2",
+          "first-page": "442",
+          "article-title": "Data-driven evolutionary optimization: An overview and case studies",
+          "volume": "23",
+          "author": "Jin Yaochu",
+          "year": "2018",
+          "unstructured": "Yaochu Jin, Handing Wang, Tinkle Chugh, Dan Guo, and Kaisa Miettinen. 2018. Data-driven evolutionary optimization: An overview and case studies. IEEE Transactions on Evolutionary Computation 23, 3 (2018), 442–458.",
+          "journal-title": "IEEE Transactions on Evolutionary Computation"
+        },
+        {
+          "key": "e_1_3_1_75_2",
+          "article-title": "A survey on LLM-based code generation for low-resource and domain-specific programming languages",
+          "author": "Joel Sathvik",
+          "year": "2024",
+          "unstructured": "Sathvik Joel, Jie Wu, and Fatemeh Fard. 2024. A survey on LLM-based code generation for low-resource and domain-specific programming languages. ACM Transactions on Software Engineering and Methodology (2024).",
+          "journal-title": "ACM Transactions on Software Engineering and Methodology"
+        },
+        {
+          "key": "e_1_3_1_76_2",
+          "volume-title": "Algorithm Design",
+          "author": "Kleinberg J.",
+          "year": "2006",
+          "unstructured": "J. Kleinberg. 2006. Algorithm Design. Vol. 92. Pearson Education."
+        },
+        {
+          "key": "e_1_3_1_77_2",
+          "volume-title": "Proceedings of the 41st International Conference on Machine Learning",
+          "author": "Kristiadi Agustinus",
+          "year": "2024",
+          "unstructured": "Agustinus Kristiadi, Felix Strieth-Kalthoff, Marta Skreta, Pascal Poupart, Alan Aspuru-Guzik, and Geoff Pleiss. 2024. A sober look at LLMs for material discovery: Are they actually good for Bayesian optimization over molecules?. In Proceedings of the 41st International Conference on Machine Learning."
+        },
+        {
+          "key": "e_1_3_1_78_2",
+          "doi-asserted-by": "crossref",
+          "first-page": "579",
+          "DOI": "10.1145/3638530.3654238",
+          "volume-title": "Proceedings of the Genetic and Evolutionary Computation Conference Companion",
+          "author": "Lange Robert",
+          "year": "2024",
+          "unstructured": "Robert Lange, Yingtao Tian, and Yujin Tang. 2024. Large language models as evolution strategies. In Proceedings of the Genetic and Evolutionary Computation Conference Companion. 579–582."
+        },
+        {
+          "issue": "2",
+          "key": "e_1_3_1_79_2",
+          "doi-asserted-by": "crossref",
+          "first-page": "231",
+          "DOI": "10.1016/0377-2217(92)90138-Y",
+          "article-title": "The traveling salesman problem: An overview of exact and approximate algorithms",
+          "volume": "59",
+          "author": "Laporte Gilbert",
+          "year": "1992",
+          "unstructured": "Gilbert Laporte. 1992. The traveling salesman problem: An overview of exact and approximate algorithms. European Journal of Operational Research 59, 2 (1992), 231–247.",
+          "journal-title": "European Journal of Operational Research"
+        },
+        {
+          "key": "e_1_3_1_80_2",
+          "unstructured": "Hoon Lee Wentao Zhou Merouane Debbah and Inkyu Lee. 2025. On the convergence of large language model optimizer for black-box network management. arXiv:2507.02689. Retrieved from https://arxiv.org/abs/2507.02689"
+        },
+        {
+          "key": "e_1_3_1_81_2",
+          "first-page": "16426",
+          "volume-title": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+          "author": "Li Hao",
+          "year": "2024",
+          "unstructured": "Hao Li, Xue Yang, Zhaokai Wang, Xizhou Zhu, Jie Zhou, Yu Qiao, Xiaogang Wang, Hongsheng Li, Lewei Lu, and Jifeng Dai. 2024. Auto mc-reward: Automated dense reward design with large language models for minecraft. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition. 16426–16435."
+        },
+        {
+          "key": "e_1_3_1_82_2",
+          "article-title": "CoCoEvo: Co-evolution of programs and test cases to enhance code generation",
+          "author": "Li Kefan",
+          "year": "2025",
+          "unstructured": "Kefan Li, Yuan Yuan, Hongyue Yu, Tingyu Guo, and Shijie Cao. 2025. CoCoEvo: Co-evolution of programs and test cases to enhance code generation. IEEE Transactions on Evolutionary Computation (2025).",
+          "journal-title": "IEEE Transactions on Evolutionary Computation"
+        },
+        {
+          "key": "e_1_3_1_83_2",
+          "article-title": "LLM-assisted automatic memetic algorithm for lot-streaming hybrid job shop scheduling with variable sublots",
+          "author": "Li Rui",
+          "year": "2025",
+          "unstructured": "Rui Li, Ling Wang, Hongyan Sang, Lizhong Yao, and Lijun Pan. 2025. LLM-assisted automatic memetic algorithm for lot-streaming hybrid job shop scheduling with variable sublots. IEEE Transactions on Evolutionary Computation (2025).",
+          "journal-title": "IEEE Transactions on Evolutionary Computation"
+        },
+        {
+          "key": "e_1_3_1_84_2",
+          "volume-title": "Proceedings of the NeurIPS 2023 Generative AI and Biology (GenBio) Workshop",
+          "author": "Li Sizhen",
+          "year": "2023",
+          "unstructured": "Sizhen Li, Saeed Moayedpour, Ruijiang Li, Michael Bailey, Saleh Riahi, Milad Miladi, Jacob Miner, Dinghai Zheng, Jun Wang, Akshay Balsubramani, et al. 2023. CodonBERT: Large language models for mRNA design and optimization. In Proceedings of the NeurIPS 2023 Generative AI and Biology (GenBio) Workshop."
+        },
+        {
+          "key": "e_1_3_1_85_2",
+          "unstructured": "Xijun Li Jiexiang Yang Jinghao Wang Bo Peng Jianguo Yao and Haibing Guan. 2025. STRCMP: Integrating graph structural priors with language models for combinatorial optimization. arXiv:2506.11057. Retrieved from https://arxiv.org/abs/2506.11057"
+        },
+        {
+          "key": "e_1_3_1_86_2",
+          "first-page": "4582",
+          "volume-title": "Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (Volume 1: Long Papers)",
+          "author": "Li Xiang Lisa",
+          "year": "2021",
+          "unstructured": "Xiang Lisa Li and Percy Liang. 2021. Prefix-tuning: Optimizing continuous prompts for generation. In Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (Volume 1: Long Papers). 4582–4597."
+        },
+        {
+          "key": "e_1_3_1_87_2",
+          "first-page": "4465",
+          "volume-title": "Findings of the Association for Computational Linguistics: NAACL 2024",
+          "author": "Lin Xiaohan",
+          "year": "2024",
+          "unstructured": "Xiaohan Lin, Qingxing Cao, Yinya Huang, Zhicheng Yang, Zhengying Liu, Zhenguo Li, and Xiaodan Liang. 2024. ATG: Benchmarking automated theorem generation for generative language models. In Findings of the Association for Computational Linguistics: NAACL 2024. 4465–4480."
+        },
+        {
+          "key": "e_1_3_1_88_2",
+          "unstructured": "Hongyi Ling Shubham Parashar Sambhav Khurana Blake Olson Anwesha Basu Gaurangi Sinha Zhengzhong Tu James Caverlee and Shuiwang Ji. 2025. Complex LLM planning via automated heuristics discovery. arXiv:2502.19295. Retrieved from https://arxiv.org/abs/2502.19295"
+        },
+        {
+          "key": "e_1_3_1_89_2",
+          "first-page": "178",
+          "volume-title": "Proceedings of the International Conference on Evolutionary Multi-Criterion Optimization",
+          "author": "Liu Fei",
+          "year": "2025",
+          "unstructured": "Fei Liu, Xi Lin, Shunyu Yao, Zhenkun Wang, Xialiang Tong, Mingxuan Yuan, and Qingfu Zhang. 2025. Large language model for multiobjective evolutionary optimization. In Proceedings of the International Conference on Evolutionary Multi-Criterion Optimization. Springer, 178–191."
+        },
+        {
+          "key": "e_1_3_1_90_2",
+          "article-title": "EoH-S: Evolution of heuristic set using LLMs for automated heuristic design",
+          "author": "Liu Fei",
+          "year": "2026",
+          "unstructured": "Fei Liu, Yilu Liu, Qingfu Zhang, Xialiang Tong, and Mingxuan Yuan. 2026. EoH-S: Evolution of heuristic set using LLMs for automated heuristic design. In Proceedings of the AAAI Conference on Artificial Intelligence .",
+          "journal-title": "Proceedings of the AAAI Conference on Artificial Intelligence"
+        },
+        {
+          "key": "e_1_3_1_91_2",
+          "unstructured": "Fei Liu Xialiang Tong Mingxuan Yuan and Qingfu Zhang. 2023. Algorithm evolution using large language model. arXiv:2311.15249. Retrieved from https://arxiv.org/abs/2311.15249"
+        },
+        {
+          "key": "e_1_3_1_92_2",
+          "volume-title": "Proceedings of the 41st International Conference on Machine Learning",
+          "author": "Liu Fei",
+          "year": "2024",
+          "unstructured": "Fei Liu, Tong Xialiang, Mingxuan Yuan, Xi Lin, Fu Luo, Zhenkun Wang, Zhichao Lu, and Qingfu Zhang. 2024. Evolution of Heuristics: Towards efficient automatic algorithm design using large language model. In Proceedings of the 41st International Conference on Machine Learning."
+        },
+        {
+          "key": "e_1_3_1_93_2",
+          "unstructured": "Fei Liu Qingfu Zhang Jialong Shi Xialiang Tong Kun Mao and Mingxuan Yuan. 2025. Fitness landscape of large language model-assisted automated algorithm search. arXiv:2504.19636. Retrieved from https://arxiv.org/abs/2504.19636"
+        },
+        {
+          "key": "e_1_3_1_94_2",
+          "unstructured": "Fei Liu Rui Zhang Xi Lin Zhichao Lu and Qingfu Zhang. 2025. Fine-tuning large language model for automated algorithm design. arXiv:2507.10614. Retrieved from https://arxiv.org/abs/2507.10614"
+        },
+        {
+          "key": "e_1_3_1_95_2",
+          "unstructured": "Fei Liu Rui Zhang Zhuoliang Xie Rui Sun Kai Li Xi Lin Zhenkun Wang Zhichao Lu and Qingfu Zhang. 2024. LLM4AD: A platform for algorithm design with large language model. arXiv:2412.17287. Retrieved from https://arxiv.org/abs/2412.17287"
+        },
+        {
+          "key": "e_1_3_1_96_2",
+          "volume-title": "Proceedings of the 13th International Conference on Learning Representations",
+          "author": "Liu Gang",
+          "year": "2025",
+          "unstructured": "Gang Liu, Michael Sun, Wojciech Matusik, Meng Jiang, and Jie Chen. 2025. Multimodal large language models for inverse molecular design with retrosynthetic planning. In Proceedings of the 13th International Conference on Learning Representations."
+        },
+        {
+          "key": "e_1_3_1_97_2",
+          "unstructured": "Jiayuan Liu Mingyu Guo and Vincent Conitzer. 2025. An interpretable automated mechanism design framework with large language models. arXiv:2502.12203. Retrieved from https://arxiv.org/abs/2502.12203"
+        },
+        {
+          "key": "e_1_3_1_98_2",
+          "article-title": "Language model evolutionary algorithms for recommender systems: Benchmarks and algorithm comparisons",
+          "author": "Liu Jiao",
+          "year": "2025",
+          "unstructured": "Jiao Liu, Zhu Sun, Shanshan Feng, Caishun Chen, and Yew-Soon Ong. 2025. Language model evolutionary algorithms for recommender systems: Benchmarks and algorithm comparisons. IEEE Transactions on Evolutionary Computation (2025).",
+          "journal-title": "IEEE Transactions on Evolutionary Computation"
+        },
+        {
+          "key": "e_1_3_1_99_2",
+          "first-page": "1",
+          "volume-title": "Proceedings of the 2024 IEEE Congress on Evolutionary Computation (CEC)",
+          "author": "Liu Shengcai",
+          "year": "2024",
+          "unstructured": "Shengcai Liu, Caishun Chen, Xinghua Qu, Ke Tang, and Yew-Soon Ong. 2024. Large language models as evolutionary optimizers. In Proceedings of the 2024 IEEE Congress on Evolutionary Computation (CEC). IEEE, 1–8."
+        },
+        {
+          "key": "e_1_3_1_100_2",
+          "volume-title": "Proceedings of the 12th International Conference on Learning Representations",
+          "author": "Liu Tennison",
+          "year": "2024",
+          "unstructured": "Tennison Liu, Nicolás Astorga, Nabeel Seedat, and Mihaela van der Schaar. 2024. Large language models to enhance Bayesian optimization. In Proceedings of the 12th International Conference on Learning Representations."
+        },
+        {
+          "key": "e_1_3_1_101_2",
+          "unstructured": "Zhiwei Liu Weiran Yao Jianguo Zhang Liangwei Yang Zuxin Liu Juntao Tan Prafulla K. Choubey Tian Lan Jason Wu Huan Wang et al. 2024. AgentLite: A lightweight library for building and advancing task-oriented LLM agent system. arXiv:2402.15538. Retrieved from https://arxiv.org/abs/2402.15538"
+        },
+        {
+          "key": "e_1_3_1_102_2",
+          "article-title": "Prollama: A protein large language model for multi-task protein language processing",
+          "author": "Lv Liuzhenghao",
+          "year": "2025",
+          "unstructured": "Liuzhenghao Lv, Zongying Lin, Hao Li, Yuyang Liu, Jiaxi Cui, Calvin Yu-Chian Chen, Li Yuan, and Yonghong Tian. 2025. Prollama: A protein large language model for multi-task protein language processing. IEEE Transactions on Artificial Intelligence (2025).",
+          "journal-title": "IEEE Transactions on Artificial Intelligence"
+        },
+        {
+          "key": "e_1_3_1_103_2",
+          "volume-title": "Proceedings of the 41st International Conference on Machine Learning",
+          "author": "Ma Pingchuan",
+          "year": "2024",
+          "unstructured": "Pingchuan Ma, Tsun-Hsuan Wang, Minghao Guo, Zhiqing Sun, Joshua B. Tenenbaum, Daniela Rus, Chuang Gan, and Wojciech Matusik. 2024. LLM and simulation as bilevel optimizers: A new paradigm to advance physical scientific discovery. In Proceedings of the 41st International Conference on Machine Learning."
+        },
+        {
+          "key": "e_1_3_1_104_2",
+          "unstructured": "Ruotian Ma Xiaolei Wang Xin Zhou Jian Li Nan Du Tao Gui Qi Zhang and Xuanjing Huang. 2024. Are large language models good prompt optimizers? arXiv:2402.02101. Retrieved from https://arxiv.org/abs/2402.02101"
+        },
+        {
+          "key": "e_1_3_1_105_2",
+          "volume-title": "Proceedings of the 12th International Conference on Learning Representations",
+          "author": "Ma Yecheng Jason",
+          "year": "2024",
+          "unstructured": "Yecheng Jason Ma, William Liang, Guanzhi Wang, De-An Huang, Osbert Bastani, Dinesh Jayaraman, Yuke Zhu, Linxi Fan, and Anima Anandkumar. 2024. Eureka: Human-level reward design via coding large language models. In Proceedings of the 12th International Conference on Learning Representations."
+        },
+        {
+          "key": "e_1_3_1_106_2",
+          "unstructured": "Zeyuan Ma Hongshu Guo Jiacheng Chen Guojun Peng Zhiguang Cao Yining Ma and Yue-Jiao Gong. 2024. LLaMoCo: Instruction tuning of large language models for optimization code generation. arXiv:2403.01131. Retrieved from https://arxiv.org/abs/2403.01131"
+        },
+        {
+          "key": "e_1_3_1_107_2",
+          "article-title": "Toward automated algorithm design: A survey and practical guide to meta-black-box-optimization",
+          "author": "Ma Zeyuan",
+          "year": "2025",
+          "unstructured": "Zeyuan Ma, Hongshu Guo, Yue-Jiao Gong, Jun Zhang, and Kay Chen Tan. 2025. Toward automated algorithm design: A survey and practical guide to meta-black-box-optimization. IEEE Transactions on Evolutionary Computation (2025).",
+          "journal-title": "IEEE Transactions on Evolutionary Computation"
+        },
+        {
+          "key": "e_1_3_1_108_2",
+          "unstructured": "Jinzhu Mao Dongyun Zou Li Sheng Siyi Liu Chen Gao Yue Wang and Yong Li. 2024. Identify critical nodes in complex network with large language models. arXiv:2403.03962. Retrieved from https://arxiv.org/abs/2403.03962"
+        },
+        {
+          "key": "e_1_3_1_109_2",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1007/s12145-024-01463-8",
+          "article-title": "Enriching building function classification using Large Language Model embeddings of OpenStreetMap tags",
+          "author": "Memduhoğlu Abdulkadir",
+          "year": "2024",
+          "unstructured": "Abdulkadir Memduhoğlu, Nir Fulman, and Alexander Zipf. 2024. Enriching building function classification using Large Language Model embeddings of OpenStreetMap tags. Earth Science Informatics 17, 6 (2024), 5403–5418.",
+          "journal-title": "Earth Science Informatics"
+        },
+        {
+          "key": "e_1_3_1_110_2",
+          "first-page": "19493",
+          "volume-title": "Proceedings of the AAAI Conference on Artificial Intelligence",
+          "volume": "39",
+          "author": "Mo Shibing",
+          "year": "2025",
+          "unstructured": "Shibing Mo, Kai Wu, Qixuan Gao, Xiangyi Teng, and Jing Liu. 2025. AutoSGNN: Automatic propagation mechanism discovery for spectral graph neural networks. In Proceedings of the AAAI Conference on Artificial Intelligence, Vol. 39. 19493–19502."
+        },
+        {
+          "key": "e_1_3_1_111_2",
+          "doi-asserted-by": "crossref",
+          "first-page": "377",
+          "DOI": "10.1145/3638529.3654178",
+          "volume-title": "Proceedings of the Genetic and Evolutionary Computation Conference",
+          "author": "Morris Clint",
+          "year": "2024",
+          "unstructured": "Clint Morris, Michael Jurado, and Jason Zutty. 2024. LLM guided evolution-The automation of models advancing models. In Proceedings of the Genetic and Evolutionary Computation Conference. 377–384."
+        },
+        {
+          "issue": "1",
+          "key": "e_1_3_1_112_2",
+          "doi-asserted-by": "crossref",
+          "first-page": "bbae675",
+          "DOI": "10.1093/bib/bbae675",
+          "article-title": "Integrating genetic algorithms and language models for enhanced enzyme design",
+          "volume": "26",
+          "author": "Teukam Yves Gaetan Nana",
+          "year": "2025",
+          "unstructured": "Yves Gaetan Nana Teukam, Federico Zipoli, Teodoro Laino, Emanuele Criscuolo, Francesca Grisoni, and Matteo Manica. 2025. Integrating genetic algorithms and language models for enhanced enzyme design. Briefings in Bioinformatics 26, 1 (2025), bbae675.",
+          "journal-title": "Briefings in Bioinformatics"
+        },
+        {
+          "key": "e_1_3_1_113_2",
+          "doi-asserted-by": "crossref",
+          "first-page": "202",
+          "DOI": "10.18653/v1/2024.alvr-1.18",
+          "volume-title": "Proceedings of the 3rd Workshop on Advances in Language and Vision Research (ALVR)",
+          "author": "Narin Ali",
+          "year": "2024",
+          "unstructured": "Ali Narin. 2024. Evolutionary reward design and optimization with multimodal large language models. In Proceedings of the 3rd Workshop on Advances in Language and Vision Research (ALVR). 202–208."
+        },
+        {
+          "key": "e_1_3_1_114_2",
+          "doi-asserted-by": "crossref",
+          "first-page": "1110",
+          "DOI": "10.1145/3638529.3654017",
+          "volume-title": "Proceedings of the Genetic and Evolutionary Computation Conference",
+          "author": "Nasir Muhammad Umair",
+          "year": "2024",
+          "unstructured": "Muhammad Umair Nasir, Sam Earle, Julian Togelius, Steven James, and Christopher Cleghorn. 2024. Llmatic: Neural architecture search via large language models and quality diversity optimization. In Proceedings of the Genetic and Evolutionary Computation Conference. 1110–1118."
+        },
+        {
+          "key": "e_1_3_1_115_2",
+          "doi-asserted-by": "crossref",
+          "first-page": "102131",
+          "DOI": "10.1016/j.eml.2024.102131",
+          "article-title": "MechAgents: Large language model multi-agent collaborations can solve mechanics problems, generate new data, and integrate knowledge",
+          "volume": "67",
+          "author": "Ni Bo",
+          "year": "2024",
+          "unstructured": "Bo Ni and Markus J. Buehler. 2024. MechAgents: Large language model multi-agent collaborations can solve mechanics problems, generate new data, and integrate knowledge. Extreme Mechanics Letters 67 (2024), 102131.",
+          "journal-title": "Extreme Mechanics Letters"
+        },
+        {
+          "key": "e_1_3_1_116_2",
+          "unstructured": "Allen Nie Ching-An Cheng Andrey Kolobov and Adith Swaminathan. 2024. The importance of directional feedback for LLM-based optimizers. arXiv:2405.16434. Retrieved from https://arxiv.org/abs/2405.16434"
+        },
+        {
+          "key": "e_1_3_1_117_2",
+          "unstructured": "Alexander Novikov Ngân Vũ Marvin Eisenberger Emilien Dupont Po-Sen Huang Adam Zsolt Wagner Sergey Shirobokov Borislav Kozlovskii Francisco J. R. Ruiz Abbas Mehrabian et al. 2025. AlphaEvolve: A coding agent for scientific and algorithmic discovery. arXiv:2506.13131. Retrieved from https://arxiv.org/abs/2506.13131"
+        },
+        {
+          "key": "e_1_3_1_118_2",
+          "first-page": "432",
+          "volume-title": "Proceedings of the International Conference on Automated Planning and Scheduling",
+          "volume": "34",
+          "author": "Pallagani Vishal",
+          "year": "2024",
+          "unstructured": "Vishal Pallagani, Bharath Chandra Muppasani, Kaushik Roy, Francesco Fabiano, Andrea Loreggia, Keerthiram Murugesan, Biplav Srivastava, Francesca Rossi, Lior Horesh, and Amit Sheth. 2024. On the prospects of incorporating large language models (LLMs) in automated planning and scheduling (APS). In Proceedings of the International Conference on Automated Planning and Scheduling, Vol. 34. 432–444."
+        },
+        {
+          "issue": "1",
+          "key": "e_1_3_1_119_2",
+          "doi-asserted-by": "crossref",
+          "first-page": "49",
+          "DOI": "10.1038/s42005-025-01956-y",
+          "article-title": "Quantum many-body physics calculations with large language models",
+          "volume": "8",
+          "author": "Pan Haining",
+          "year": "2025",
+          "unstructured": "Haining Pan, Nayantara Mudur, William Taranto, Maria Tikhanovskaya, Subhashini Venugopalan, Yasaman Bahri, Michael P. Brenner, and Eun-Ah Kim. 2025. Quantum many-body physics calculations with large language models. Communications Physics 8, 1 (2025), 49.",
+          "journal-title": "Communications Physics"
+        },
+        {
+          "key": "e_1_3_1_120_2",
+          "doi-asserted-by": "crossref",
+          "first-page": "1812",
+          "DOI": "10.1145/3583133.3596401",
+          "volume-title": "Proceedings of the Companion Conference on Genetic and Evolutionary Computation",
+          "author": "Pluhacek Michal",
+          "year": "2023",
+          "unstructured": "Michal Pluhacek, Anezka Kazikova, Tomas Kadavy, Adam Viktorin, and Roman Senkerik. 2023. Leveraging large language models for the generation of novel metaheuristic optimization algorithms. In Proceedings of the Companion Conference on Genetic and Evolutionary Computation. 1812–1820."
+        },
+        {
+          "key": "e_1_3_1_121_2",
+          "volume-title": "Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing",
+          "author": "Pryzant Reid",
+          "year": "2023",
+          "unstructured": "Reid Pryzant, Dan Iter, Jerry Li, Yin Tat Lee, Chenguang Zhu, and Michael Zeng. 2023. Automatic prompt optimization with ”Gradient Descent” and beam search. In Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing."
+        },
+        {
+          "key": "e_1_3_1_122_2",
+          "first-page": "189",
+          "volume-title": "NeurIPS 2022 Competition Track",
+          "author": "Ramamonjison Rindranirina",
+          "year": "2023",
+          "unstructured": "Rindranirina Ramamonjison, Timothy Yu, Raymond Li, Haley Li, Giuseppe Carenini, Bissan Ghaddar, Shiqi He, Mahdi Mostajabdaveh, Amin Banitalebi-Dehkordi, Zirui Zhou, et al. 2023. Nl4opt competition: Formulating optimization problems based on their natural language descriptions. In NeurIPS 2022 Competition Track. PMLR, 189–203."
+        },
+        {
+          "key": "e_1_3_1_123_2",
+          "unstructured": "Mayk Caldas Ramos Shane S. Michtavy Marc D. Porosoff and Andrew D. White. 2023. Bayesian optimization of catalysts with in-context learning. arXiv:2304.05341. Retrieved from https://arxiv.org/abs/2304.05341"
+        },
+        {
+          "key": "e_1_3_1_124_2",
+          "volume-title": "Proceedings of the NeurIPS 2023 Workshop on Adaptive Experimental Design and Active Learning in the Real World",
+          "author": "Ranković Bojana",
+          "year": "2023",
+          "unstructured": "Bojana Ranković and Philippe Schwaller. 2023. BoChemian: Large language model embeddings for Bayesian optimization of chemical reactions. In Proceedings of the NeurIPS 2023 Workshop on Adaptive Experimental Design and Active Learning in the Real World."
+        },
+        {
+          "issue": "7995",
+          "key": "e_1_3_1_125_2",
+          "doi-asserted-by": "crossref",
+          "first-page": "468",
+          "DOI": "10.1038/s41586-023-06924-6",
+          "article-title": "Mathematical discoveries from program search with large language models",
+          "volume": "625",
+          "author": "Romera-Paredes Bernardino",
+          "year": "2024",
+          "unstructured": "Bernardino Romera-Paredes, Mohammadamin Barekatain, Alexander Novikov, Matej Balog, M. Pawan Kumar, Emilien Dupont, Francisco J. R. Ruiz, Jordan S. Ellenberg, Pengming Wang, Omar Fawzi, et al. 2024. Mathematical discoveries from program search with large language models. Nature 625, 7995 (2024), 468–475.",
+          "journal-title": "Nature"
+        },
+        {
+          "issue": "8",
+          "key": "e_1_3_1_126_2",
+          "doi-asserted-by": "crossref",
+          "first-page": "3224",
+          "DOI": "10.1021/acs.jchemed.4c00193",
+          "article-title": "Using ChatGPT for method development and green chemistry education in upper-level laboratory courses",
+          "volume": "101",
+          "author": "Ruff Emily F.",
+          "year": "2024",
+          "unstructured": "Emily F. Ruff, Jeanne L. Franz, and Joseph K. West. 2024. Using ChatGPT for method development and green chemistry education in upper-level laboratory courses. Journal of Chemical Education 101, 8 (2024), 3224–3232.",
+          "journal-title": "Journal of Chemical Education"
+        },
+        {
+          "key": "e_1_3_1_127_2",
+          "article-title": "Metaheuristics and large language models join forces: Towards an integrated optimization approach",
+          "author": "Sartori Camilo Chacón",
+          "year": "2024",
+          "unstructured": "Camilo Chacón Sartori, Christian Blum, Filippo Bistaffa, and Guillem Rodríguez Corominas. 2024. Metaheuristics and large language models join forces: Towards an integrated optimization approach. IEEE Access 13 (2024), 2058–2079.",
+          "journal-title": "IEEE Access"
+        },
+        {
+          "key": "e_1_3_1_128_2",
+          "first-page": "2683",
+          "volume-title": "Proceedings of the Conference on Robot Learning",
+          "author": "Shah Dhruv",
+          "year": "2023",
+          "unstructured": "Dhruv Shah, Michael Robert Equi, Błażej Osiński, Fei Xia, Brian Ichter, and Sergey Levine. 2023. Navigation with large language models: Semantic guesswork as a heuristic for planning. In Proceedings of the Conference on Robot Learning. PMLR, 2683–2699."
+        },
+        {
+          "key": "e_1_3_1_129_2",
+          "first-page": "2382",
+          "volume-title": "Proceedings of the 2024 IEEE International Conference on Bioinformatics and Biomedicine (BIBM)",
+          "author": "Shen Yiqing",
+          "year": "2024",
+          "unstructured": "Yiqing Shen, Zan Chen, Michail Mamalakis, Yungeng Liu, Tianbin Li, Yanzhou Su, Junjun He, Pietro Liò, and Yu Guang Wang. 2024. Toursynbio: A multi-modal large model and agent framework to bridge text and protein sequences for protein engineering. In Proceedings of the 2024 IEEE International Conference on Bioinformatics and Biomedicine (BIBM). IEEE, 2382–2389."
+        },
+        {
+          "key": "e_1_3_1_130_2",
+          "first-page": "6",
+          "volume-title": "Proceedings of the 2025 IEEE/ACM 47th International Conference on Software Engineering: New Ideas and Emerging Results (ICSE-NIER)",
+          "author": "Sheng Junjie",
+          "year": "2025",
+          "unstructured": "Junjie Sheng, Yanqiu Lin, Jiehao Wu, Yanhong Huang, Jianqi Shi, Min Zhang, and Xiangfeng Wang. 2025. SolSearch: An LLM-driven framework for efficient SAT-solving code generation. In Proceedings of the 2025 IEEE/ACM 47th International Conference on Software Engineering: New Ideas and Emerging Results (ICSE-NIER). IEEE, 6–10."
+        },
+        {
+          "key": "e_1_3_1_131_2",
+          "unstructured": "Yiding Shi Jianan Zhou Wen Song Jieyi Bi Yaoxin Wu and Jie Zhang. 2025. Generalizable heuristic generation through large language models with meta-optimization. arXiv:2505.20881. Retrieved from https://arxiv.org/abs/2505.20881"
+        },
+        {
+          "key": "e_1_3_1_132_2",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Yamato Shinohara Jinglue Xu Tianshui Li and Hitoshi Iba. 2025. Large language models as particle swarm optimizers. arXiv:2504.09247. Retrieved from https://arxiv.org/abs/2504.09247",
+          "DOI": "10.1109/CEC65147.2025.11043021"
+        },
+        {
+          "key": "e_1_3_1_133_2",
+          "volume-title": "Proceedings of the 13th International Conference on Learning Representations",
+          "author": "Shojaee Parshin",
+          "year": "2025",
+          "unstructured": "Parshin Shojaee, Kazem Meidani, Shashank Gupta, Amir Barati Farimani, and Chandan K. Reddy. 2025. LLM-SR: Scientific equation discovery via programming with large language models. In Proceedings of the 13th International Conference on Learning Representations."
+        },
+        {
+          "key": "e_1_3_1_134_2",
+          "volume-title": "Proceedings of the 13th International Conference on Learning Representations",
+          "author": "Si Chenglei",
+          "year": "2025",
+          "unstructured": "Chenglei Si, Diyi Yang, and Tatsunori Hashimoto. 2025. Can LLMs generate novel research ideas? A large-scale human study with 100+ NLP researchers. In Proceedings of the 13th International Conference on Learning Representations."
+        },
+        {
+          "key": "e_1_3_1_135_2",
+          "first-page": "386",
+          "volume-title": "Proceedings of the International Conference on the Applications of Evolutionary Computation (Part of EvoStar)",
+          "author": "Sim Kevin",
+          "year": "2025",
+          "unstructured": "Kevin Sim, Quentin Renau, and Emma Hart. 2025. Beyond the hype: Benchmarking LLM-evolved heuristics for bin packing. In Proceedings of the International Conference on the Applications of Evolutionary Computation (Part of EvoStar). Springer, 386–402."
+        },
+        {
+          "key": "e_1_3_1_136_2",
+          "first-page": "1",
+          "volume-title": "Proceedings of the 2024 International Joint Conference on Neural Networks (IJCNN)",
+          "author": "Singh Gaurav",
+          "year": "2024",
+          "unstructured": "Gaurav Singh and Kavitesh Kumar Bali. 2024. Enhancing decision-making in optimization through LLM-assisted inference: A neural networks perspective. In Proceedings of the 2024 International Joint Conference on Neural Networks (IJCNN). IEEE, 1–7."
+        },
+        {
+          "key": "e_1_3_1_137_2",
+          "volume-title": "AI for Accelerated Materials Design-NeurIPS 2023 Workshop",
+          "author": "Soares Eduardo",
+          "year": "2023",
+          "unstructured": "Eduardo Soares, Vidushi Sharma, Emilio Vital Brazil, Renato Cerqueira, and Young-Hye Na. 2023. Capturing formulation design of battery electrolytes with chemical large language model. In AI for Accelerated Materials Design-NeurIPS 2023 Workshop."
+        },
+        {
+          "key": "e_1_3_1_138_2",
+          "unstructured": "Chuanneng Sun Songjun Huang and Dario Pompili. 2024. LLM-based multi-agent reinforcement learning: Current and future directions. arXiv:2405.11106. Retrieved from https://arxiv.org/abs/2405.11106"
+        },
+        {
+          "key": "e_1_3_1_139_2",
+          "unstructured": "Weiwei Sun Shengyu Feng Shanda Li and Yiming Yang. 2025. Co-bench: Benchmarking language model agents in algorithm search for combinatorial optimization. arXiv:2504.04310. Retrieved from https://arxiv.org/abs/2504.04310"
+        },
+        {
+          "key": "e_1_3_1_140_2",
+          "unstructured": "Anja Surina Amin Mansouri Lars Quaedvlieg Amal Seddas Maryna Viazovska Emmanuel Abbe and Caglar Gulcehre. 2025. Algorithm discovery with LLMs: Evolutionary search meets reinforcement learning. arXiv:2504.05108. Retrieved from https://arxiv.org/abs/2504.05108"
+        },
+        {
+          "key": "e_1_3_1_141_2",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Mirac Suzgun Nathan Scales Nathanael Schärli Sebastian Gehrmann Yi Tay Hyung Won Chung Aakanksha Chowdhery Quoc V. Le Ed H. Chi Denny Zhou et al. 2022. Challenging big-bench tasks and whether chain-of-thought can solve them. arXiv:2210.09261. Retrieved from https://arxiv.org/abs/2210.09261",
+          "DOI": "10.18653/v1/2023.findings-acl.824"
+        },
+        {
+          "key": "e_1_3_1_142_2",
+          "doi-asserted-by": "crossref",
+          "first-page": "103254",
+          "DOI": "10.1016/j.inffus.2025.103254",
+          "article-title": "Ontology matching with large language models and prioritized depth-first search",
+          "author": "Taboada Maria",
+          "year": "2025",
+          "unstructured": "Maria Taboada, Diego Martinez, Mohammed Arideh, and Rosa Mosquera. 2025. Ontology matching with large language models and prioritized depth-first search. Information Fusion (2025), 103254.",
+          "journal-title": "Information Fusion"
+        },
+        {
+          "key": "e_1_3_1_143_2",
+          "article-title": "Learn to optimize-A brief overview",
+          "author": "Tang Ke",
+          "year": "2024",
+          "unstructured": "Ke Tang and Xin Yao. 2024. Learn to optimize-A brief overview. National Science Review 11, 8 (2024), nwae132.",
+          "journal-title": "National Science Review"
+        },
+        {
+          "key": "e_1_3_1_144_2",
+          "first-page": "25264",
+          "volume-title": "Proceedings of the AAAI Conference on Artificial Intelligence",
+          "volume": "39",
+          "author": "Tang Xinyu",
+          "year": "2025",
+          "unstructured": "Xinyu Tang, Xiaolei Wang, Wayne Xin Zhao, Siyuan Lu, Yaliang Li, and Ji-Rong Wen. 2025. Unleashing the potential of large language models as prompt optimizers: Analogical analysis with gradient-based model optimizers. In Proceedings of the AAAI Conference on Artificial Intelligence, Vol. 39. 25264–25272."
+        },
+        {
+          "key": "e_1_3_1_145_2",
+          "article-title": "Protein design by directed evolution guided by large language models",
+          "author": "Tran Thanh V. T.",
+          "year": "2024",
+          "unstructured": "Thanh V. T. Tran and Truong Son Hy. 2024. Protein design by directed evolution guided by large language models. IEEE Transactions on Evolutionary Computation 29, 2 (2024), 418–428.",
+          "journal-title": "IEEE Transactions on Evolutionary Computation"
+        },
+        {
+          "key": "e_1_3_1_146_2",
+          "article-title": "Planbench: An extensible benchmark for evaluating large language models on planning and reasoning about change",
+          "volume": "36",
+          "author": "Valmeekam Karthik",
+          "year": "2024",
+          "unstructured": "Karthik Valmeekam, Matthew Marquez, Alberto Olmo, Sarath Sreedharan, and Subbarao Kambhampati. 2024. Planbench: An extensible benchmark for evaluating large language models on planning and reasoning about change. Advances in Neural Information Processing Systems 36 (2024).",
+          "journal-title": "Advances in Neural Information Processing Systems"
+        },
+        {
+          "key": "e_1_3_1_147_2",
+          "article-title": "Llamea: A large language model evolutionary algorithm for automatically generating metaheuristics",
+          "author": "Stein Niki van",
+          "year": "2024",
+          "unstructured": "Niki van Stein and Thomas Bäck. 2024. Llamea: A large language model evolutionary algorithm for automatically generating metaheuristics. IEEE Transactions on Evolutionary Computation 29, 2 (2024), 331–345.",
+          "journal-title": "IEEE Transactions on Evolutionary Computation"
+        },
+        {
+          "key": "e_1_3_1_148_2",
+          "doi-asserted-by": "crossref",
+          "first-page": "943",
+          "DOI": "10.1145/3712256.3726328",
+          "volume-title": "Proceedings of the Genetic and Evolutionary Computation Conference",
+          "author": "Stein Niki van",
+          "year": "2025",
+          "unstructured": "Niki van Stein, Anna V. Kononova, Lars Kotthoff, and Thomas Bäck. 2025. Code evolution graphs: Understanding large language model driven design of algorithms. In Proceedings of the Genetic and Evolutionary Computation Conference. 943–951."
+        },
+        {
+          "key": "e_1_3_1_149_2",
+          "doi-asserted-by": "crossref",
+          "first-page": "2336",
+          "DOI": "10.1145/3712255.3734347",
+          "volume-title": "Proceedings of the Genetic and Evolutionary Computation Conference Companion",
+          "author": "Stein Niki van",
+          "year": "2025",
+          "unstructured": "Niki van Stein, Anna V. Kononova, Haoran Yin, and Thomas Bäck. 2025. BLADE: Benchmark suite for LLM-driven automated design and evolution of iterative optimisation heuristics. In Proceedings of the Genetic and Evolutionary Computation Conference Companion. 2336–2344."
+        },
+        {
+          "key": "e_1_3_1_150_2",
+          "article-title": "In-the-loop hyper-parameter optimization for LLM-based automated design of heuristics",
+          "author": "Stein Niki van",
+          "year": "2024",
+          "unstructured": "Niki van Stein, Diederick Vermetten, and Thomas Bäck. 2024. In-the-loop hyper-parameter optimization for LLM-based automated design of heuristics. ACM Transactions on Evolutionary Learning (2024).",
+          "journal-title": "ACM Transactions on Evolutionary Learning"
+        },
+        {
+          "key": "e_1_3_1_151_2",
+          "first-page": "22084",
+          "volume-title": "Proceedings of the International Conference on Machine Learning",
+          "author": "Veličković Petar",
+          "year": "2022",
+          "unstructured": "Petar Veličković, Adrià Puigdomènech Badia, David Budden, Razvan Pascanu, Andrea Banino, Misha Dashevskiy, Raia Hadsell, and Charles Blundell. 2022. The CLRS algorithmic reasoning benchmark. In Proceedings of the International Conference on Machine Learning. PMLR, 22084–22102."
+        },
+        {
+          "key": "e_1_3_1_152_2",
+          "first-page": "103151",
+          "article-title": "Surgery scheduling based on large language models",
+          "author": "Wan Fang",
+          "year": "2025",
+          "unstructured": "Fang Wan, Tao Wang, Kezhi Wang, Yuanhang Si, Julien Fondrevelle, Shuimiao Du, and Antoine Duclos. 2025. Surgery scheduling based on large language models. Artificial Intelligence in Medicine 166 (2025), 103151.",
+          "journal-title": "Artificial Intelligence in Medicine"
+        },
+        {
+          "key": "e_1_3_1_153_2",
+          "first-page": "284",
+          "volume-title": "Proceedings of the 2023 IEEE International Conference on Medical Artificial Intelligence (MedAI)",
+          "author": "Wang Jianxun",
+          "year": "2023",
+          "unstructured": "Jianxun Wang and Yixiang Chen. 2023. A review on code generation with LLMs: Application and evaluation. In Proceedings of the 2023 IEEE International Conference on Medical Artificial Intelligence (MedAI). IEEE, 284–289."
+        },
+        {
+          "key": "e_1_3_1_154_2",
+          "article-title": "CataLM: Empowering catalyst design through large language models",
+          "author": "Wang Ludi",
+          "year": "2025",
+          "unstructured": "Ludi Wang, Xueqing Chen, Yi Du, Yuanchun Zhou, Yang Gao, and Wenjuan Cui. 2025. CataLM: Empowering catalyst design through large language models. International Journal of Machine Learning and Cybernetics 16 (2025), 3681–3691.",
+          "journal-title": "International Journal of Machine Learning and Cybernetics"
+        },
+        {
+          "issue": "6",
+          "key": "e_1_3_1_155_2",
+          "doi-asserted-by": "crossref",
+          "first-page": "186345",
+          "DOI": "10.1007/s11704-024-40231-1",
+          "article-title": "A survey on large language model based autonomous agents",
+          "volume": "18",
+          "author": "Wang Lei",
+          "year": "2024",
+          "unstructured": "Lei Wang, Chen Ma, Xueyang Feng, Zeyu Zhang, Hao Yang, Jingsen Zhang, Zhiyuan Chen, Jiakai Tang, Xu Chen, Yankai Lin, et al. 2024. A survey on large language model based autonomous agents. Frontiers of Computer Science 18, 6 (2024), 186345.",
+          "journal-title": "Frontiers of Computer Science"
+        },
+        {
+          "key": "e_1_3_1_156_2",
+          "doi-asserted-by": "crossref",
+          "first-page": "1360",
+          "DOI": "10.1145/3701716.3715595",
+          "volume-title": "Companion Proceedings of the ACM on Web Conference 2025",
+          "author": "Wang Shuai",
+          "year": "2025",
+          "unstructured": "Shuai Wang, Shengyao Zhuang, Bevan Koopman, and Guido Zuccon. 2025. Resllm: Large language models are strong resource selectors for federated search. In Companion Proceedings of the ACM on Web Conference 2025. 1360–1364."
+        },
+        {
+          "key": "e_1_3_1_157_2",
+          "volume-title": "Proceedings of the 12th International Conference on Learning Representations",
+          "author": "Wang Xinyuan",
+          "year": "2024",
+          "unstructured": "Xinyuan Wang, Chenxi Li, Zhen Wang, Fan Bai, Haotian Luo, Jiayou Zhang, Nebojsa Jojic, Eric Xing, and Zhiting Hu. 2024. PromptAgent: Strategic planning with language models enables expert-level prompt optimization. In Proceedings of the 12th International Conference on Learning Representations."
+        },
+        {
+          "key": "e_1_3_1_158_2",
+          "first-page": "693",
+          "volume-title": "Proceedings of the 2024 IEEE International Symposium on Parallel and Distributed Processing with Applications (ISPA)",
+          "author": "Wang Yatong",
+          "year": "2024",
+          "unstructured": "Yatong Wang, Yuchen Pei, and Yuqi Zhao. 2024. TS-EoH: An edge server task scheduling algorithm based on evolution of heuristic. In Proceedings of the 2024 IEEE International Symposium on Parallel and Distributed Processing with Applications (ISPA). IEEE, 693–700."
+        },
+        {
+          "key": "e_1_3_1_159_2",
+          "first-page": "9086",
+          "volume-title": "Proceedings of the 34th International Joint Conference on Artificial Intelligence",
+          "author": "Wang Zidong",
+          "year": "2025",
+          "unstructured": "Zidong Wang, Fei Liu, Qi Feng, Qingfu Zhang, and Xiaoguang Gao. 2025. LLM-enhanced score function evolution for causal structure learning. In Proceedings of the 34th International Joint Conference on Artificial Intelligence. 9086–9094."
+        },
+        {
+          "key": "e_1_3_1_160_2",
+          "first-page": "218",
+          "volume-title": "Proceedings of the International Conference on Intelligent Computing",
+          "author": "Wang Zeyi",
+          "year": "2024",
+          "unstructured": "Zeyi Wang, Songbai Liu, Jianyong Chen, and Kay Chen Tan. 2024. Large language model-aided evolutionary search for constrained multiobjective optimization. In Proceedings of the International Conference on Intelligent Computing. Springer, 218–230."
+        },
+        {
+          "key": "e_1_3_1_161_2",
+          "unstructured": "Segev Wasserkrug Leonard Boussioux Dick den Hertog Farzaneh Mirzazadeh Ilker Birbil Jannis Kurtz and Donato Maragno. 2024. From large language models and optimization to decision optimization CoPilot: A research manifesto. arXiv:2402.16269. Retrieved from https://arxiv.org/abs/2402.16269"
+        },
+        {
+          "key": "e_1_3_1_162_2",
+          "unstructured": "Melvin Wong Jiao Liu Thiago Rios Stefan Menzel and Yew Soon Ong. 2024. LLM2FEA: Discover novel designs with generative evolutionary multitasking. arXiv:2406.14917. Retrieved from https://arxiv.org/abs/2406.14917"
+        },
+        {
+          "key": "e_1_3_1_163_2",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Melvin Wong Thiago Rios Stefan Menzel and Yew Soon Ong. 2024. Generative AI-based prompt evolution engineering design optimization with vision-language model. arXiv:2406.09143. Retrieved from https://arxiv.org/abs/2406.09143",
+          "DOI": "10.1109/CEC60901.2024.10611898"
+        },
+        {
+          "key": "e_1_3_1_164_2",
+          "article-title": "Evolutionary computation in the era of large language model: Survey and roadmap",
+          "author": "Wu Xingyu",
+          "year": "2024",
+          "unstructured": "Xingyu Wu, Sheng-hao Wu, Jibin Wu, Liang Feng, and Kay Chen Tan. 2024. Evolutionary computation in the era of large language model: Survey and roadmap. IEEE Transactions on Evolutionary Computation 29, 2 (2024), 534–554.",
+          "journal-title": "IEEE Transactions on Evolutionary Computation"
+        },
+        {
+          "key": "e_1_3_1_165_2",
+          "first-page": "5235",
+          "volume-title": "Proceedings of the 33rd International Joint Conference on Artificial Intelligence, IJCAI 2024",
+          "author": "Wu Xingyu",
+          "year": "2024",
+          "unstructured": "Xingyu Wu, Yan Zhong, Jibin Wu, Bingbing Jiang, and Kay Chen Tan. 2024. Large language model-enhanced algorithm selection: Towards comprehensive algorithm representation. In Proceedings of the 33rd International Joint Conference on Artificial Intelligence, IJCAI 2024. 5235–5244."
+        },
+        {
+          "key": "e_1_3_1_166_2",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Ziyang Xiao Jingrong Xie Lilin Xu Shisi Guan Jingyan Zhu Xiongwei Han Xiaojin Fu WingYin Yu Han Wu Wei Shi et al. 2025. A survey of optimization modeling meets LLMs: Progress and future directions. arXiv:2508.10047. Retrieved from https://arxiv.org/abs/2508.10047",
+          "DOI": "10.24963/ijcai.2025/1192"
+        },
+        {
+          "key": "e_1_3_1_167_2",
+          "unstructured": "Lindong Xie Genghui Li Zhenkun Wang Edward Chung and Maoguo Gong. 2025. Large language model-driven surrogate-assisted evolutionary algorithm for expensive optimization. arXiv:2507.02892. Retrieved from https://arxiv.org/abs/2507.02892"
+        },
+        {
+          "key": "e_1_3_1_168_2",
+          "first-page": "1",
+          "volume-title": "Proceedings of the 2025 IEEE Congress on Evolutionary Computation (CEC)",
+          "author": "Xie Zhuoliang",
+          "year": "2025",
+          "unstructured": "Zhuoliang Xie, Fei Liu, Zhenkun Wang, and Qingfu Zhang. 2025. LLM-driven neighborhood search for efficient heuristic design. In Proceedings of the 2025 IEEE Congress on Evolutionary Computation (CEC). IEEE, 1–8."
+        },
+        {
+          "key": "e_1_3_1_169_2",
+          "unstructured": "Meng Xu Jiao Liu and Yew Soon Ong. 2025. EvoSpeak: Large language models for interpretable genetic programming-evolved heuristics. arXiv:2510.02686. Retrieved from https://arxiv.org/abs/2510.02686"
+        },
+        {
+          "key": "e_1_3_1_170_2",
+          "unstructured": "Zhenxing Xu Yizhe Zhang Weidong Bao Hao Wang Ming Chen Haoran Ye Wenzheng Jiang Hui Yan and Ji Wang. 2025. AutoEP: LLMs-driven automation of hyperparameter evolution for metaheuristic algorithms. arXiv:2509.23189. Retrieved from https://arxiv.org/abs/2509.23189"
+        },
+        {
+          "key": "e_1_3_1_171_2",
+          "volume-title": "Proceedings of the 12th International Conference on Learning Representations",
+          "author": "Yang Chengrun",
+          "year": "2024",
+          "unstructured": "Chengrun Yang, Xuezhi Wang, Yifeng Lu, Hanxiao Liu, Quoc V. Le, Denny Zhou, and Xinyun Chen. 2024. Large language models as optimizers. In Proceedings of the 12th International Conference on Learning Representations."
+        },
+        {
+          "key": "e_1_3_1_172_2",
+          "unstructured": "Xu Yang Rui Wang Kaiwen Li Wenhua Li and Weixiong Huang. 2025. Large language model-assisted meta-optimizer for automated design of constrained evolutionary algorithm. arXiv:2509.13251. Retrieved from https://arxiv.org/abs/2509.13251"
+        },
+        {
+          "key": "e_1_3_1_173_2",
+          "first-page": "27144",
+          "volume-title": "Proceedings of the AAAI Conference on Artificial Intelligence",
+          "volume": "39",
+          "author": "Yao Shunyu",
+          "year": "2025",
+          "unstructured": "Shunyu Yao, Fei Liu, Xi Lin, Zhichao Lu, Zhenkun Wang, and Qingfu Zhang. 2025. Multi-objective evolution of heuristic using large language model. In Proceedings of the AAAI Conference on Artificial Intelligence, Vol. 39. 27144–27152."
+        },
+        {
+          "key": "e_1_3_1_174_2",
+          "unstructured": "Xufeng Yao Jiaxi Jiang Yuxuan Zhao Peiyu Liao Yibo Lin and Bei Yu. 2025. Evolution of optimization algorithms for global placement via large language models. arXiv:2504.17801. Retrieved from https://arxiv.org/abs/2504.17801"
+        },
+        {
+          "key": "e_1_3_1_175_2",
+          "first-page": "374",
+          "volume-title": "Proceedings of the International Conference on Parallel Problem Solving from Nature",
+          "author": "Yao Yiming",
+          "year": "2024",
+          "unstructured": "Yiming Yao, Fei Liu, Ji Cheng, and Qingfu Zhang. 2024. Evolve cost-aware acquisition functions using large language models. In Proceedings of the International Conference on Parallel Problem Solving from Nature. Springer, 374–390."
+        },
+        {
+          "key": "e_1_3_1_176_2",
+          "unstructured": "Milad Yazdani Mahdi Mostajabdaveh Samin Aref and Zirui Zhou. 2025. EvoCut: Strengthening integer programs via evolution-guided language models. arXiv:2508.11850. Retrieved from https://arxiv.org/abs/2508.11850"
+        },
+        {
+          "issue": "1",
+          "key": "e_1_3_1_177_2",
+          "doi-asserted-by": "crossref",
+          "first-page": "20",
+          "DOI": "10.1007/s10822-024-00559-z",
+          "article-title": "De novo drug design as GPT language modeling: Large chemistry models with supervised and reinforcement learning",
+          "volume": "38",
+          "author": "Ye Gavin",
+          "year": "2024",
+          "unstructured": "Gavin Ye. 2024. De novo drug design as GPT language modeling: Large chemistry models with supervised and reinforcement learning. Journal of Computer-Aided Molecular Design 38, 1 (2024), 20.",
+          "journal-title": "Journal of Computer-Aided Molecular Design"
+        },
+        {
+          "issue": "1",
+          "key": "e_1_3_1_178_2",
+          "first-page": "bbae693",
+          "article-title": "Drugassist: A large language model for molecule optimization",
+          "volume": "26",
+          "author": "Ye Geyan",
+          "year": "2025",
+          "unstructured": "Geyan Ye, Xibao Cai, Houtim Lai, Xing Wang, Junhong Huang, Longyue Wang, Wei Liu, and Xiangxiang Zeng. 2025. Drugassist: A large language model for molecule optimization. Briefings in Bioinformatics 26, 1 (2025), bbae693.",
+          "journal-title": "Briefings in Bioinformatics"
+        },
+        {
+          "key": "e_1_3_1_179_2",
+          "first-page": "43571",
+          "volume-title": "Proceedings of the 38th International Conference on Neural Information Processing Systems",
+          "author": "Ye Haoran",
+          "year": "2024",
+          "unstructured": "Haoran Ye, Jiarui Wang, Zhiguang Cao, Federico Berto, Chuanbo Hua, Haeyeon Kim, Jinkyoo Park, and Guojie Song. 2024. ReEvo: Large language models as hyper-heuristics with reflective evolution. In Proceedings of the 38th International Conference on Neural Information Processing Systems. 43571–43608."
+        },
+        {
+          "key": "e_1_3_1_180_2",
+          "unstructured": "He Yu and Jing Liu. 2024. Deep insights into automated optimization with large language models and evolutionary algorithms. arXiv:2410.20848. Retrieved from https://arxiv.org/abs/2410.20848"
+        },
+        {
+          "key": "e_1_3_1_181_2",
+          "volume-title": "Proceedings of the 41st International Conference on Machine Learning, ICML",
+          "author": "Zeng Junhua",
+          "year": "2024",
+          "unstructured": "Junhua Zeng, Chao Li, Zhun Sun, Qibin Zhao, and Guoxu Zhou. 2024. tnGPS: Discovering unknown tensor network structure search algorithms via large language models (LLMs). In Proceedings of the 41st International Conference on Machine Learning, ICML."
+        },
+        {
+          "key": "e_1_3_1_182_2",
+          "doi-asserted-by": "crossref",
+          "first-page": "3369",
+          "DOI": "10.18653/v1/2024.findings-emnlp.192",
+          "volume-title": "Findings of the Association for Computational Linguistics: EMNLP 2024",
+          "author": "Zhang Huan",
+          "year": "2024",
+          "unstructured": "Huan Zhang, Yu Song, Ziyu Hou, Santiago Miret, and Bang Liu. 2024. HoneyComb: A flexible LLM-based agent system for materials science. In Findings of the Association for Computational Linguistics: EMNLP 2024. 3369–3382."
+        },
+        {
+          "key": "e_1_3_1_183_2",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Jenny Zhang Shengran Hu Cong Lu Robert Lange and Jeff Clune. 2025. Darwin godel machine: Open-ended evolution of self-improving agents. arXiv:2505.22954. Retrieved from https://arxiv.org/abs/2505.22954",
+          "DOI": "10.70777/si.v2i3.15063"
+        },
+        {
+          "key": "e_1_3_1_184_2",
+          "volume-title": "Proceedings of the NeurIPS 2023 Foundation Models for Decision Making Workshop",
+          "author": "Zhang Michael R.",
+          "year": "2023",
+          "unstructured": "Michael R. Zhang, Nishkrit Desai, Juhan Bae, Jonathan Lorraine, and Jimmy Ba. 2023. Using large language models for hyperparameter optimization. In Proceedings of the NeurIPS 2023 Foundation Models for Decision Making Workshop."
+        },
+        {
+          "key": "e_1_3_1_185_2",
+          "doi-asserted-by": "crossref",
+          "first-page": "694",
+          "DOI": "10.18653/v1/2025.naacl-long.30",
+          "volume-title": "Proceedings of the 2025 Conference of the Nations of the Americas Chapter of the Association for Computational Linguistics: Human Language Technologies (Volume 1: Long Papers)",
+          "author": "Zhang Ruohong",
+          "year": "2025",
+          "unstructured": "Ruohong Zhang, Liangke Gui, Zhiqing Sun, Yihao Feng, Keyang Xu, Yuanhan Zhang, Di Fu, Chunyuan Li, Alexander G. Hauptmann, Yonatan Bisk, et al. 2025. Direct preference optimization of video large multimodal models from language model reward. In Proceedings of the 2025 Conference of the Nations of the Americas Chapter of the Association for Computational Linguistics: Human Language Technologies (Volume 1: Long Papers). 694–717."
+        },
+        {
+          "key": "e_1_3_1_186_2",
+          "first-page": "185",
+          "volume-title": "Proceedings of the International Conference on Parallel Problem Solving from Nature",
+          "author": "Zhang Rui",
+          "year": "2024",
+          "unstructured": "Rui Zhang, Fei Liu, Xi Lin, Zhenkun Wang, Zhichao Lu, and Qingfu Zhang. 2024. Understanding the importance of evolutionary search in automated heuristic design with large language models. In Proceedings of the International Conference on Parallel Problem Solving from Nature. Springer, 185–202."
+        },
+        {
+          "key": "e_1_3_1_187_2",
+          "article-title": "AutoAlign: Fully automatic and effective knowledge graph alignment enabled by large language models",
+          "author": "Zhang Rui",
+          "year": "2024",
+          "unstructured": "Rui Zhang, Yixin Su, Bayu Distiawan Trisedya, Xiaoyan Zhao, Min Yang, Hong Cheng, and Jianzhong Qi. 2024. AutoAlign: Fully automatic and effective knowledge graph alignment enabled by large language models. IEEE Transactions on Knowledge and Data Engineering 36, 6 (2024), 2357–2371.",
+          "journal-title": "IEEE Transactions on Knowledge and Data Engineering"
+        },
+        {
+          "key": "e_1_3_1_188_2",
+          "unstructured": "Shaofeng Zhang Shengcai Liu Ning Lu Jiahao Wu Ji Liu Yew-Soon Ong and Ke Tang. 2025. Llm-driven instance-specific heuristic generation and selection. arXiv:2506.00490. Retrieved from https://arxiv.org/abs/2506.00490"
+        },
+        {
+          "key": "e_1_3_1_189_2",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Shenao Zhang Sirui Zheng Shuqi Ke Zhihan Liu Wanxin Jin Jianbo Yuan Yingxiang Yang Hongxia Yang and Zhaoran Wang. 2024. How can LLM guide RL? A value-based approach. arXiv:2402.16181. Retrieved from https://arxiv.org/abs/2402.16181",
+          "DOI": "10.1109/LCOMM.2024.3443529"
+        },
+        {
+          "key": "e_1_3_1_190_2",
+          "unstructured": "Yisong Zhang Ran Cheng Guoxing Yi and Kay Chen Tan. 2025. A systematic survey on large language models for evolutionary optimization: From modeling to solving. arXiv:2509.08269. Retrieved from https://arxiv.org/abs/2509.08269"
+        },
+        {
+          "issue": "1",
+          "key": "e_1_3_1_191_2",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1063/5.0247759",
+          "article-title": "AutoTurb: Using large language models for automatic algebraic turbulence model discovery",
+          "volume": "37",
+          "author": "Zhang Yu",
+          "year": "2025",
+          "unstructured": "Yu Zhang, Kefeng Zheng, Fei Liu, Qingfu Zhang, and Zhenkun Wang. 2025. AutoTurb: Using large language models for automatic algebraic turbulence model discovery. Physics of Fluids 37, 1 (2025), 015211.",
+          "journal-title": "Physics of Fluids"
+        },
+        {
+          "key": "e_1_3_1_192_2",
+          "article-title": "Automated design of metaheuristic algorithms: A survey",
+          "author": "Zhao Qi",
+          "year": "2024",
+          "unstructured": "Qi Zhao, Qiqi Duan, Bai Yan, Shi Cheng, and Yuhui Shi. 2024. Automated design of metaheuristic algorithms: A survey. Transactions on Machine Learning Research (2024).",
+          "journal-title": "Transactions on Machine Learning Research"
+        },
+        {
+          "key": "e_1_3_1_193_2",
+          "unstructured": "Wayne Xin Zhao Kun Zhou Junyi Li Tianyi Tang Xiaolei Wang Yupeng Hou Yingqian Min Beichen Zhang Junjie Zhang Zican Dong et al. 2023. A survey of large language models. arXiv:2303.18223. Retrieved from https://arxiv.org/abs/2303.18223"
+        },
+        {
+          "key": "e_1_3_1_194_2",
+          "unstructured": "Zibin Zheng Kaiwen Ning Yanlin Wang Jingwen Zhang Dewu Zheng Mingxi Ye and Jiachi Chen. 2023. A survey of large language models for code: Evolution benchmarking and future trends. arXiv:2311.10372. Retrieved from https://arxiv.org/abs/2311.10372"
+        },
+        {
+          "key": "e_1_3_1_195_2",
+          "volume-title": "Proceedings of the 42nd International Conference on Machine Learning",
+          "author": "Zheng Zhi",
+          "year": "2025",
+          "unstructured": "Zhi Zheng, Zhuoliang Xie, Zhenkun Wang, and Bryan Hooi. 2025. Monte Carlo tree search for comprehensive exploration in LLM-based automatic heuristic design. In Proceedings of the 42nd International Conference on Machine Learning."
+        },
+        {
+          "key": "e_1_3_1_196_2",
+          "first-page": "23000",
+          "volume-title": "Proceedings of the AAAI Conference on Artificial Intelligence",
+          "volume": "39",
+          "author": "Zhou Xun",
+          "year": "2025",
+          "unstructured": "Xun Zhou, Xingyu Wu, Liang Feng, Zhichao Lu, and Kay Chen Tan. 2025. Design principle transfer in neural architecture search via large language models. In Proceedings of the AAAI Conference on Artificial Intelligence, Vol. 39. 23000–23008."
+        },
+        {
+          "key": "e_1_3_1_197_2",
+          "volume-title": "Proceedings of the 11th International Conference on Learning Representations",
+          "author": "Zhou Yongchao",
+          "year": "2022",
+          "unstructured": "Yongchao Zhou, Andrei Ioan Muresanu, Ziwen Han, Keiran Paster, Silviu Pitis, Harris Chan, and Jimmy Ba. 2022. Large language models are human-level prompt engineers. In Proceedings of the 11th International Conference on Learning Representations."
+        }
+      ],
+      "container-title": [
+        "ACM Computing Surveys"
+      ],
+      "original-title": [],
+      "language": "en",
+      "link": [
+        {
+          "URL": "https://dl.acm.org/doi/pdf/10.1145/3787585",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            2,
+            10
+          ]
+        ],
+        "date-time": "2026-02-10T13:53:24Z",
+        "timestamp": 1770731604000
+      },
+      "score": 1,
+      "resource": {
+        "primary": {
+          "URL": "https://dl.acm.org/doi/10.1145/3787585"
+        }
+      },
+      "subtitle": [],
+      "short-title": [],
+      "issued": {
+        "date-parts": [
+          [
+            2026,
+            2,
+            10
+          ]
+        ]
+      },
+      "references-count": 196,
+      "journal-issue": {
+        "issue": "8",
+        "published-print": {
+          "date-parts": [
+            [
+              2026,
+              6,
+              30
+            ]
+          ]
+        }
+      },
+      "alternative-id": [
+        "10.1145/3787585"
+      ],
+      "URL": "https://doi.org/10.1145/3787585",
+      "relation": {},
+      "ISSN": [
+        "0360-0300",
+        "1557-7341"
+      ],
+      "issn-type": [
+        {
+          "value": "0360-0300",
+          "type": "print"
+        },
+        {
+          "value": "1557-7341",
+          "type": "electronic"
+        }
+      ],
+      "subject": [],
+      "published": {
+        "date-parts": [
+          [
+            2026,
+            2,
+            10
+          ]
+        ]
+      },
+      "assertion": [
+        {
+          "value": "2024-11-01",
+          "order": 0,
+          "name": "received",
+          "label": "Received",
+          "group": {
+            "name": "publication_history",
+            "label": "Publication History"
+          }
+        },
+        {
+          "value": "2025-12-26",
+          "order": 2,
+          "name": "accepted",
+          "label": "Accepted",
+          "group": {
+            "name": "publication_history",
+            "label": "Publication History"
+          }
+        },
+        {
+          "value": "2026-02-10",
+          "order": 3,
+          "name": "published",
+          "label": "Published",
+          "group": {
+            "name": "publication_history",
+            "label": "Publication History"
+          }
+        }
+      ]
+    }
+  }
+}

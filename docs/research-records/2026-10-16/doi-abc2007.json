@@ -1,0 +1,352 @@
+{
+  "retrieved": "2026-10-16",
+  "url": "https://api.crossref.org/works/10.1007/s10898-007-9149-x",
+  "response": {
+    "status": "ok",
+    "message-type": "work",
+    "message-version": "1.0.0",
+    "message": {
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            10,
+            15
+          ]
+        ],
+        "date-time": "2026-10-15T13:19:45Z",
+        "timestamp": 1792070385533,
+        "version": "4.4.0"
+      },
+      "reference-count": 22,
+      "publisher": "Springer Science and Business Media LLC",
+      "issue": "3",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2007,
+                4,
+                13
+              ]
+            ],
+            "date-time": "2007-04-13T00:00:00Z",
+            "timestamp": 1176422400000
+          },
+          "content-version": "tdm",
+          "delay-in-days": 0,
+          "URL": "http://www.springer.com/tdm"
+        }
+      ],
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "short-container-title": [
+        "J Glob Optim"
+      ],
+      "published-print": {
+        "date-parts": [
+          [
+            2007,
+            10,
+            9
+          ]
+        ]
+      },
+      "DOI": "10.1007/s10898-007-9149-x",
+      "type": "journal-article",
+      "created": {
+        "date-parts": [
+          [
+            2007,
+            4,
+            18
+          ]
+        ],
+        "date-time": "2007-04-18T13:24:28Z",
+        "timestamp": 1176902668000
+      },
+      "page": "459-471",
+      "source": "Crossref",
+      "is-referenced-by-count": 6646,
+      "title": [
+        "A powerful and efficient algorithm for numerical function optimization: artificial bee colony (ABC) algorithm"
+      ],
+      "prefix": "10.1007",
+      "volume": "39",
+      "author": [
+        {
+          "given": "Dervis",
+          "family": "Karaboga",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Bahriye",
+          "family": "Basturk",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "297",
+      "published-online": {
+        "date-parts": [
+          [
+            2007,
+            4,
+            13
+          ]
+        ]
+      },
+      "reference": [
+        {
+          "key": "9149_CR1",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1007/978-1-4471-0721-7",
+          "volume-title": "Intelligent Optimisation Techniques",
+          "author": "D.T. Pham",
+          "year": "2000",
+          "unstructured": "Pham D.T., Karaboga D. (2000). Intelligent Optimisation Techniques. Springer, London"
+        },
+        {
+          "key": "9149_CR2",
+          "volume-title": "Adaptation in Natural and Artificial Systems",
+          "author": "J.H. Holland",
+          "year": "1975",
+          "unstructured": "Holland J.H. (1975). Adaptation in Natural and Artificial Systems. University of Michigan Press, Ann Arbor, MI"
+        },
+        {
+          "key": "9149_CR3",
+          "unstructured": "De Castro, L.N., Von Zuben, F.J.: Artificial Immune Systems. Part I. Basic Theory And Applications. Technical Report No. Rt Dca 01/99, Feec/Unicamp, Brazil (1999)"
+        },
+        {
+          "key": "9149_CR4",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Kennedy, J., Eberhart, R.C.: Particle swarm optimization. In: Proceedings of the 1995 IEEE International Conference on Neural Networks, vol. 4, pp. 1942–1948. IEEE Service Center, Piscat away (1995)",
+          "DOI": "10.1109/ICNN.1995.488968"
+        },
+        {
+          "key": "9149_CR5",
+          "unstructured": "Fukuyama, Y., Takayama, S., Nakanishi, Y., Yoshida, H.: A particle swarm optimization for reactive power and voltage control in electric power systems. In: Proceedings of the Genetic and Evolutionary Computation Conference, pp. 1523–1528. Orlando, Florida, USA (1999)"
+        },
+        {
+          "key": "9149_CR6",
+          "doi-asserted-by": "crossref",
+          "first-page": "807",
+          "DOI": "10.1007/3-540-45356-3_79",
+          "volume-title": "Parallel Problem Solving from Nature VI. Lecture Notes in Computer Science",
+          "author": "V. Tereshko",
+          "year": "2000",
+          "unstructured": "Tereshko V. (2000). Reaction-diffusion model of a honeybee colony’s foraging behaviour. In: Schoenauer, M. (eds) Parallel Problem Solving from Nature VI. Lecture Notes in Computer Science, pp 807–816. Springer, Berlin"
+        },
+        {
+          "key": "9149_CR7",
+          "doi-asserted-by": "crossref",
+          "first-page": "181",
+          "DOI": "10.1023/A:1015652810815",
+          "volume": "9",
+          "author": "V. Tereshko",
+          "year": "2002",
+          "unstructured": "Tereshko V., Lee T. (2002). How information mapping patterns determine foraging behaviour of a honey bee colony. Open Syst. Inf. Dyn. 9: 181–193",
+          "journal-title": "Open Syst. Inf. Dyn."
+        },
+        {
+          "issue": "3",
+          "key": "9149_CR8",
+          "first-page": "1",
+          "volume": "9",
+          "author": "V. Tereshko",
+          "year": "2005",
+          "unstructured": "Tereshko V., Loengarov A. (2005). Collective Decision-Making in Honey Bee Foraging Dynamics. Comput. Inf. Sys. J. 9(3): 1–7",
+          "journal-title": "Comput. Inf. Sys. J."
+        },
+        {
+          "issue": "4",
+          "key": "9149_CR9",
+          "doi-asserted-by": "crossref",
+          "first-page": "289",
+          "DOI": "10.1080/0308106032000154593",
+          "volume": "26",
+          "author": "D. Teodorović",
+          "year": "2003",
+          "unstructured": "Teodorović D. (2003). Transport Modeling By Multi-Agent Systems: A Swarm Intellgence Approach, Transport. Plan. Technol. 26(4): 289–312",
+          "journal-title": "Plan. Technol."
+        },
+        {
+          "key": "9149_CR10",
+          "unstructured": "Lucic, P., Teodorović, D.: Transportation Modeling: An Artificial Life Approach. ICTAI, pp. 216–223. Washington D.C. (2002)"
+        },
+        {
+          "key": "9149_CR11",
+          "unstructured": "Teodorović, D., Dell’Orco, M.: Bee colony optimization—a cooperative learning approach to complex transportation problems. In: Proceedings of the 10th EWGT Meeting, Poznan, 13–16 September 2005"
+        },
+        {
+          "key": "9149_CR12",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Drias, H., Sadeg, S., Yahi, S.: Cooperative bees swarm for solving the maximum weighted satisfiability problem, computational intelligence and bioinspired Systems. In: Proceedings of the 8th International Workshop on Artificial Neural Networks, IWANN 2005, Vilanova i la Geltr, Barcelona, Spain, 8–10 June 2005",
+          "DOI": "10.1007/11494669_39"
+        },
+        {
+          "key": "9149_CR13",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Benatchba, K., Admane, L., Koudil, M.: Using bees to solve a data-mining problem expressed as a max-sat one, artificial intelligence and knowledge engineering applications: a bioinspired approach. In: Proceedings of the First International Work-Conference on the Interplay Between Natural and Artificial Computation, IWINAC 2005, Las Palmas, Canary Islands, Spain, 15–18 June 2005",
+          "DOI": "10.1007/11499305_22"
+        },
+        {
+          "key": "9149_CR14",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Wedde, H.F., Farooq, M., Zhang, Y.: BeeHive: an efficient fault-tolerant routing algorithm inspired by honey bee behavior, ant colony, optimization and swarm intelligence. In: Proceedings of the 4th International Workshop, ANTS 2004, Brussels, Belgium, 5–8 September 2004",
+          "DOI": "10.1007/978-3-540-28646-2_8"
+        },
+        {
+          "key": "9149_CR15",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Yang, X.S.: Engineering optimizations via nature-inspired virtual bee algorithms. Lecture Notes in Computer Science, pp. 317–323. Springer, GmbH (2005)",
+          "DOI": "10.1007/11499305_33"
+        },
+        {
+          "key": "9149_CR16",
+          "unstructured": "Karaboga, D.: An idea based on honey bee swarm for numerical optimization. Technical Report-TR06, Erciyes University, Engineering Faculty, Computer Engineering Department, 2005"
+        },
+        {
+          "key": "9149_CR17",
+          "unstructured": "Basturk, B., Karaboga, D.: An artificial bee colony (ABC) algorithm for numeric function optimization. In: Proceedings of the IEEE Swarm Intelligence Symposium 2006, Indianapolis, Indiana, USA, 12–14 May 2006"
+        },
+        {
+          "key": "9149_CR18",
+          "volume-title": "Nonlinear and Dynamics Programming",
+          "author": "G. Hadley",
+          "year": "1964",
+          "unstructured": "Hadley G. (1964). Nonlinear and Dynamics Programming. Addison Wesley, Reading, MA"
+        },
+        {
+          "key": "9149_CR19",
+          "unstructured": "Boyer, D.O., Martnez, C.H., Pedrajas, N.G.: Crossover Operator for Evolutionary Algorithms Based on Population Features. http://www.cs.cmu.edu/afs/cs/project/jair/pub/volume24/ortizboyer05a-html/Ortiz-Boyer.html."
+        },
+        {
+          "key": "9149_CR20",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Friedman, J.H.: An overview of predictive learning and function approximation. From Statistics to Neural Networks, Theory and Pattern Recognition Applications, NATO ASI Series F, vol. 136, pp. 1–61. Springer, Berlin (1994)",
+          "DOI": "10.1007/978-3-642-79119-2_1"
+        },
+        {
+          "key": "9149_CR21",
+          "unstructured": "Srinivasan, D., Seow, T.H.: Evolutionary Computation, CEC ’03, 8–12 Dec. 2003, 4(2003), Canberra, Australia, pp. 2292–2297."
+        },
+        {
+          "key": "9149_CR22",
+          "unstructured": "http://mf.erciyes.edu.tr/abc"
+        }
+      ],
+      "container-title": [
+        "Journal of Global Optimization"
+      ],
+      "original-title": [],
+      "language": "en",
+      "link": [
+        {
+          "URL": "http://link.springer.com/content/pdf/10.1007/s10898-007-9149-x.pdf",
+          "content-type": "application/pdf",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        },
+        {
+          "URL": "http://link.springer.com/article/10.1007/s10898-007-9149-x/fulltext.html",
+          "content-type": "text/html",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        },
+        {
+          "URL": "http://link.springer.com/content/pdf/10.1007/s10898-007-9149-x",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2019,
+            5,
+            31
+          ]
+        ],
+        "date-time": "2019-05-31T08:12:08Z",
+        "timestamp": 1559290328000
+      },
+      "score": 1,
+      "resource": {
+        "primary": {
+          "URL": "http://link.springer.com/10.1007/s10898-007-9149-x"
+        }
+      },
+      "subtitle": [],
+      "short-title": [],
+      "issued": {
+        "date-parts": [
+          [
+            2007,
+            4,
+            13
+          ]
+        ]
+      },
+      "references-count": 22,
+      "journal-issue": {
+        "issue": "3",
+        "published-print": {
+          "date-parts": [
+            [
+              2007,
+              10,
+              9
+            ]
+          ]
+        }
+      },
+      "alternative-id": [
+        "9149"
+      ],
+      "URL": "https://doi.org/10.1007/s10898-007-9149-x",
+      "relation": {},
+      "ISSN": [
+        "0925-5001",
+        "1573-2916"
+      ],
+      "issn-type": [
+        {
+          "value": "0925-5001",
+          "type": "print"
+        },
+        {
+          "value": "1573-2916",
+          "type": "electronic"
+        }
+      ],
+      "subject": [],
+      "published": {
+        "date-parts": [
+          [
+            2007,
+            4,
+            13
+          ]
+        ]
+      }
+    }
+  }
+}

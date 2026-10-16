@@ -1,0 +1,800 @@
+{
+  "retrieved": "2026-10-16",
+  "url": "https://api.crossref.org/works/10.1016/j.engappai.2012.03.011",
+  "response": {
+    "status": "ok",
+    "message-type": "work",
+    "message-version": "1.0.0",
+    "message": {
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            10,
+            5
+          ]
+        ],
+        "date-time": "2026-10-05T00:37:09Z",
+        "timestamp": 1791160629170,
+        "version": "4.1.0"
+      },
+      "reference-count": 70,
+      "publisher": "Elsevier BV",
+      "issue": "1",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2013,
+                1,
+                1
+              ]
+            ],
+            "date-time": "2013-01-01T00:00:00Z",
+            "timestamp": 1356998400000
+          },
+          "content-version": "tdm",
+          "delay-in-days": 0,
+          "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+        }
+      ],
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "short-container-title": [
+        "Engineering Applications of Artificial Intelligence"
+      ],
+      "published-print": {
+        "date-parts": [
+          [
+            2013,
+            1
+          ]
+        ]
+      },
+      "DOI": "10.1016/j.engappai.2012.03.011",
+      "type": "journal-article",
+      "created": {
+        "date-parts": [
+          [
+            2012,
+            5,
+            2
+          ]
+        ],
+        "date-time": "2012-05-02T22:51:05Z",
+        "timestamp": 1335999065000
+      },
+      "page": "150-161",
+      "source": "Crossref",
+      "is-referenced-by-count": 82,
+      "title": [
+        "Literature review regarding Ant Colony Optimization applied to scheduling problems: Guidelines for implementation and directions for future research"
+      ],
+      "prefix": "10.1016",
+      "volume": "26",
+      "author": [
+        {
+          "given": "R.F.",
+          "family": "Tavares Neto",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "M.",
+          "family": "Godinho Filho",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "78",
+      "reference": [
+        {
+          "key": "10.1016/j.engappai.2012.03.011_bib1",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Ahmadizar, F., Barzinpour, F., Arkat, J., 2007. Solving permutation flow shop sequencing using ant colony optimization. In: 2007 IEEE International Conference on Industrial Engineering and Engineering Management, pp. 753–757.",
+          "DOI": "10.1109/IEEM.2007.4419291"
+        },
+        {
+          "issue": "9",
+          "key": "10.1016/j.engappai.2012.03.011_bib2",
+          "doi-asserted-by": "crossref",
+          "first-page": "2682",
+          "DOI": "10.1016/j.cor.2008.11.018",
+          "article-title": "Heuristics for a two-stage assembly flowshop with bicriteria of maximum lateness and makespan",
+          "volume": "36",
+          "author": "Al-Anzi",
+          "year": "2009",
+          "journal-title": "Comput. Oper. Res."
+        },
+        {
+          "key": "10.1016/j.engappai.2012.03.011_bib3",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Anghinolfi, D., Boccalatte, A., Paolucci, M., Vecchiola, C., 2008. Performance evaluation of an adaptive ant colony optimization applied to single machine scheduling. In: Simulated Evolution and Learning. Springer, Berlin/Heidelberg, pp. 411–420.",
+          "DOI": "10.1007/978-3-540-89694-4_42"
+        },
+        {
+          "key": "10.1016/j.engappai.2012.03.011_bib4",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Arnaout, J., Musa, R., Rabadi, G., 2008. Ant colony optimization algorithm to parallel machine scheduling problem with setups. In: 4th IEEE Conference on Automation Science and Engineering.",
+          "DOI": "10.1109/COASE.2008.4626566"
+        },
+        {
+          "key": "10.1016/j.engappai.2012.03.011_bib5",
+          "article-title": "A two-stage ant colony optimization algorithm to minimize the makespan on unrelated parallel machines with sequence-dependent setup times",
+          "author": "Arnaout",
+          "year": "2009",
+          "journal-title": "J. Intell. Manuf"
+        },
+        {
+          "key": "10.1016/j.engappai.2012.03.011_bib6",
+          "series-title": "Introduction to Sequencing and Scheduling",
+          "author": "Baker",
+          "year": "1943"
+        },
+        {
+          "key": "10.1016/j.engappai.2012.03.011_bib7",
+          "unstructured": "Bauer, A., Bullnheimer, B., Hartl, R.F., Staruss, C., 1999. Applying Ant Colony Optimization to Solve the Single Machine Total Tardiness Problem. Technical Report. Vienna University of Economics and Business Administration."
+        },
+        {
+          "issue": "6",
+          "key": "10.1016/j.engappai.2012.03.011_bib8",
+          "doi-asserted-by": "crossref",
+          "first-page": "9637",
+          "DOI": "10.1016/j.eswa.2008.10.007",
+          "article-title": "Parallel-machine scheduling problems with sequence-dependent setup times using an ACO, SA and VNS hybrid algorithm",
+          "volume": "36",
+          "author": "Behnamian",
+          "year": "2009",
+          "journal-title": "Expert Syst. Appl."
+        },
+        {
+          "key": "10.1016/j.engappai.2012.03.011_bib9",
+          "series-title": "Scheduling Algorithms",
+          "author": "Brucker",
+          "year": "2007"
+        },
+        {
+          "key": "10.1016/j.engappai.2012.03.011_bib10",
+          "doi-asserted-by": "crossref",
+          "first-page": "319",
+          "DOI": "10.1023/A:1018940026670",
+          "article-title": "An improved ant system algorithm for the vehicle routing problem",
+          "volume": "89",
+          "author": "Bullnheimer",
+          "year": "1997",
+          "journal-title": "Ann. Oper. Res."
+        },
+        {
+          "key": "10.1016/j.engappai.2012.03.011_bib11",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Chen, R., Lo, S., Wu, C., Lin, T., 2008. An effective ant colony optimization-based algorithm for flow shop scheduling. In: IEEE Conference on Soft Computing in Industrial Applications.",
+          "DOI": "10.1109/SMCIA.2008.5045943"
+        },
+        {
+          "key": "10.1016/j.engappai.2012.03.011_bib12",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Cheng, B.-Y., Chen, H.-P., Shao, H., Xu, R., Huang, G.Q., 2008. A chaotic ant colony optimization method for scheduling a single batch-processing machine with non-identical job sizes. In: IEEE Congress on Evolutionary Computation, pp. 40–43.",
+          "DOI": "10.1109/CEC.2008.4630773"
+        },
+        {
+          "issue": "2",
+          "key": "10.1016/j.engappai.2012.03.011_bib13",
+          "doi-asserted-by": "crossref",
+          "first-page": "308",
+          "DOI": "10.1016/j.cor.2007.10.002",
+          "article-title": "A hybrid algorithm for the single-machine total tardiness problem",
+          "volume": "36",
+          "author": "Cheng",
+          "year": "2009",
+          "journal-title": "Comput. Oper. Res."
+        },
+        {
+          "key": "10.1016/j.engappai.2012.03.011_bib14",
+          "unstructured": "Colorni, A., Dorigo, M., Maniezzo, V., 1991. Distributed optimization by ant colonies. In: European Conference of Artificial Life, pp. 134–142."
+        },
+        {
+          "key": "10.1016/j.engappai.2012.03.011_bib15",
+          "article-title": "Ant system for job-shop scheduling",
+          "author": "Colorni",
+          "year": "1994",
+          "journal-title": "Belg. J. Oper. Res"
+        },
+        {
+          "key": "10.1016/j.engappai.2012.03.011_bib16",
+          "unstructured": "Cordon, O., Vianna, I.F., Herrera, F., Moreno, L., 2000. A new ACO model integrating evolutionary computation concepts: the best–worst ant system. In: Ants2000."
+        },
+        {
+          "key": "10.1016/j.engappai.2012.03.011_bib17",
+          "doi-asserted-by": "crossref",
+          "unstructured": "den Besten, M., Stützle, T., Dorigo, M., 2000. Ant colony optimization for the total weighted tardiness problem. In: PPSN VI: Proceedings of the 6th International Conference on Parallel Problem Solving from Nature. Springer-Verlag, London, UK, pp. 611–620.",
+          "DOI": "10.1007/3-540-45356-3_60"
+        },
+        {
+          "key": "10.1016/j.engappai.2012.03.011_bib18",
+          "doi-asserted-by": "crossref",
+          "first-page": "53",
+          "DOI": "10.1109/4235.585892",
+          "article-title": "Ant colony system: a cooperative learning approach to the traveling salesman problem",
+          "volume": "1",
+          "author": "Dorigo",
+          "year": "1997",
+          "journal-title": "IEEE Trans. Evol. Comput."
+        },
+        {
+          "key": "10.1016/j.engappai.2012.03.011_bib19",
+          "doi-asserted-by": "crossref",
+          "first-page": "29",
+          "DOI": "10.1109/3477.484436",
+          "article-title": "The ant system: optimization by a colony of cooperating agents",
+          "volume": "26",
+          "author": "Dorigo",
+          "year": "1996",
+          "journal-title": "IEEE Trans. Syst. Man Cybern. B"
+        },
+        {
+          "key": "10.1016/j.engappai.2012.03.011_bib20",
+          "series-title": "Ant Colony Optimization",
+          "author": "Dorigo",
+          "year": "2004"
+        },
+        {
+          "key": "10.1016/j.engappai.2012.03.011_bib21",
+          "doi-asserted-by": "crossref",
+          "first-page": "426",
+          "DOI": "10.1057/palgrave.jors.2601830",
+          "article-title": "Ant colony optimization for the examination scheduling problem",
+          "volume": "56",
+          "author": "Dowsland",
+          "year": "2005",
+          "journal-title": "J. Oper. Res. Soc."
+        },
+        {
+          "key": "10.1016/j.engappai.2012.03.011_bib22",
+          "doi-asserted-by": "crossref",
+          "first-page": "1004",
+          "DOI": "10.1007/s00170-008-1404-x",
+          "article-title": "Hybridizing tabu search with ant colony optimization for solving job shop scheduling problems",
+          "volume": "40",
+          "author": "Eswaramurthy",
+          "year": "2009",
+          "journal-title": "Int. J. Adv. Manuf. Technol."
+        },
+        {
+          "key": "10.1016/j.engappai.2012.03.011_bib23",
+          "doi-asserted-by": "crossref",
+          "first-page": "895",
+          "DOI": "10.1057/palgrave.jors.2601390",
+          "article-title": "Comparing an ACO algorithm with other heuristics for the single machine scheduling problem with sequence-dependent setup times",
+          "volume": "53",
+          "author": "Gagn",
+          "year": "2002",
+          "journal-title": "J. Oper. Res. Soc."
+        },
+        {
+          "key": "10.1016/j.engappai.2012.03.011_bib24",
+          "doi-asserted-by": "crossref",
+          "first-page": "259",
+          "DOI": "10.1016/j.ijpe.2005.01.003",
+          "article-title": "An ant-colony optimization algorithm for minimizing the completion-time variance of jobs in flowshops",
+          "volume": "101",
+          "author": "Gajpal",
+          "year": "2006",
+          "journal-title": "Int. J. Prod. Econ."
+        },
+        {
+          "key": "10.1016/j.engappai.2012.03.011_bib25",
+          "first-page": "84",
+          "article-title": "An ACO approach for the parallel machines scheduling problem",
+          "volume": "46",
+          "author": "Gatica",
+          "year": "2010",
+          "journal-title": "Intell. Artif."
+        },
+        {
+          "key": "10.1016/j.engappai.2012.03.011_bib26",
+          "doi-asserted-by": "crossref",
+          "first-page": "287",
+          "DOI": "10.1016/S0167-5060(08)70356-X",
+          "article-title": "Optimization and approximation in deterministic machine scheduling: a survey",
+          "volume": "5",
+          "author": "Graham",
+          "year": "1979",
+          "journal-title": "Ann. Discrete Math."
+        },
+        {
+          "key": "10.1016/j.engappai.2012.03.011_bib27",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1016/j.cor.2005.03.018",
+          "article-title": "An ACO algorithm for a dynamic regional nurse-scheduling problem in Austria",
+          "volume": "34",
+          "author": "Gutjahr",
+          "year": "2007",
+          "journal-title": "Comput. Oper. Res."
+        },
+        {
+          "key": "10.1016/j.engappai.2012.03.011_bib28",
+          "first-page": "989",
+          "article-title": "Hybrid ant colony optimization and visibility studies applied to a job-shop scheduling problem",
+          "volume": "187",
+          "author": "Heinonen",
+          "year": "2007",
+          "journal-title": "Appl. Math. Comput."
+        },
+        {
+          "key": "10.1016/j.engappai.2012.03.011_bib29",
+          "doi-asserted-by": "crossref",
+          "first-page": "947",
+          "DOI": "10.1057/palgrave.jors.2601906",
+          "article-title": "A fast ant-colony algorithm for single-machine scheduling to minimize the sum of weighted tardiness of jobs",
+          "volume": "56",
+          "author": "Holthaus",
+          "year": "2005",
+          "journal-title": "J. Oper. Res. Soc."
+        },
+        {
+          "key": "10.1016/j.engappai.2012.03.011_bib30",
+          "doi-asserted-by": "crossref",
+          "first-page": "1030",
+          "DOI": "10.1016/j.cor.2006.07.003",
+          "article-title": "Ant colony optimization combined with taboo search for the job shop scheduling problem",
+          "volume": "35",
+          "author": "Huang",
+          "year": "2008",
+          "journal-title": "Comput. Oper. Res."
+        },
+        {
+          "key": "10.1016/j.engappai.2012.03.011_bib31",
+          "doi-asserted-by": "crossref",
+          "first-page": "151",
+          "DOI": "10.1007/s00170-007-1203-9",
+          "article-title": "Ant colony system for job shop scheduling with time windows",
+          "volume": "39",
+          "author": "Huang",
+          "year": "2008",
+          "journal-title": "Int. J. Adv. Manuf. Technol."
+        },
+        {
+          "key": "10.1016/j.engappai.2012.03.011_bib32",
+          "doi-asserted-by": "crossref",
+          "first-page": "955",
+          "DOI": "10.1007/s00170-008-1652-9",
+          "article-title": "Solving a multi-objective overlapping flow-shop scheduling",
+          "volume": "42",
+          "author": "Huang",
+          "year": "2009",
+          "journal-title": "Int. J. Adv. Manuf. Technol."
+        },
+        {
+          "key": "10.1016/j.engappai.2012.03.011_bib33",
+          "doi-asserted-by": "crossref",
+          "first-page": "61",
+          "DOI": "10.1002/nav.3800010110",
+          "article-title": "Optimal two- and three-stage production schedules with setup times included",
+          "volume": "1",
+          "author": "Johnson",
+          "year": "1953",
+          "journal-title": "Naval Res. Log. Q."
+        },
+        {
+          "key": "10.1016/j.engappai.2012.03.011_bib34",
+          "doi-asserted-by": "crossref",
+          "first-page": "1269",
+          "DOI": "10.1057/palgrave.jors.2602448",
+          "article-title": "Scheduling a single batch-processing machine with arbitrary job sizes and incompatible job families: an ant colony framework",
+          "volume": "59",
+          "author": "Kashan",
+          "year": "2008",
+          "journal-title": "J. Oper. Res. Soc."
+        },
+        {
+          "key": "10.1016/j.engappai.2012.03.011_bib35",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Li, J., Zhang, W., 2006. Solution to multi-objective optimization of flow shop problem based on ACO algorithm. In: 2006 International Conference on Computational Intelligence and Security.",
+          "DOI": "10.1109/ICCIAS.2006.294166"
+        },
+        {
+          "key": "10.1016/j.engappai.2012.03.011_bib36",
+          "doi-asserted-by": "crossref",
+          "first-page": "985",
+          "DOI": "10.1007/s00170-008-1904-8",
+          "article-title": "ACO-based multi-objective scheduling of parallel batch processing machines with advanced process control constraints",
+          "volume": "44",
+          "author": "Li",
+          "year": "2009",
+          "journal-title": "Int. J. Adv. Manuf. Technol."
+        },
+        {
+          "key": "10.1016/j.engappai.2012.03.011_bib37",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Li, L., Quiao, F., Wu, Q., 2008. ACO-based scheduling of parallel batch processing machines with incompatible job families to minimize total weighted tardiness. In: Ant Colony Optimization and Swarm Intelligence. Springer, Berlin/Heidelberg, pp. 219–226.",
+          "DOI": "10.1007/978-3-540-87527-7_20"
+        },
+        {
+          "key": "10.1016/j.engappai.2012.03.011_bib38",
+          "doi-asserted-by": "crossref",
+          "first-page": "152",
+          "DOI": "10.1016/j.cor.2010.04.009",
+          "article-title": "Flow shop scheduling to minimize the total completion time with a permanently present operator: models and ant colony optimization metaheuristic",
+          "volume": "38",
+          "author": "Li",
+          "year": "2011",
+          "journal-title": "Comput. Oper. Res."
+        },
+        {
+          "issue": "7",
+          "key": "10.1016/j.engappai.2012.03.011_bib39",
+          "doi-asserted-by": "crossref",
+          "first-page": "1899",
+          "DOI": "10.1016/j.cor.2005.07.020",
+          "article-title": "An ant colony optimization for single-machine tardiness scheduling with sequence-dependent setups",
+          "volume": "34",
+          "author": "Liao",
+          "year": "2007",
+          "journal-title": "Comput. Oper. Res."
+        },
+        {
+          "issue": "2",
+          "key": "10.1016/j.engappai.2012.03.011_bib40",
+          "doi-asserted-by": "crossref",
+          "first-page": "742",
+          "DOI": "10.1016/j.ijpe.2007.06.007",
+          "article-title": "Development of new features of ant colony optimization for flowshop scheduling",
+          "volume": "112",
+          "author": "Lin",
+          "year": "2008",
+          "journal-title": "Int. J. Prod. Econ."
+        },
+        {
+          "key": "10.1016/j.engappai.2012.03.011_bib41",
+          "doi-asserted-by": "crossref",
+          "first-page": "1026",
+          "DOI": "10.1016/j.jmatprotec.2008.03.013",
+          "article-title": "Threshold accepting and ant-colony optimization algorithms for scheduling m-machine flow shops with lot streaming",
+          "volume": "209",
+          "author": "Marimuthu",
+          "year": "2009",
+          "journal-title": "J. Mater. Process. Technol."
+        },
+        {
+          "key": "10.1016/j.engappai.2012.03.011_bib42",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Merkle, D., Middendorf, M., 2000. An ant algorithm with a new pheromone evaluation rule for total tardiness problems. In: EvoWorkshops, pp. 287–296. URL 〈citeseer.ist.psu.edu/article/merkle00ant.html〉.",
+          "DOI": "10.1007/3-540-45561-2_28"
+        },
+        {
+          "key": "10.1016/j.engappai.2012.03.011_bib43",
+          "doi-asserted-by": "crossref",
+          "first-page": "105",
+          "DOI": "10.1023/A:1020999407672",
+          "article-title": "Ant colony optimization with global pheromone evaluation for scheduling a single machine",
+          "volume": "1",
+          "author": "Merkle",
+          "year": "2003",
+          "journal-title": "Appl. Intell."
+        },
+        {
+          "key": "10.1016/j.engappai.2012.03.011_bib44",
+          "doi-asserted-by": "crossref",
+          "first-page": "317",
+          "DOI": "10.1007/s00170-010-3037-0",
+          "article-title": "Ant colony optimization technique for the sequence-dependent flowshop scheduling problem",
+          "volume": "55",
+          "author": "Mirabi",
+          "year": "2011",
+          "journal-title": "Int. J. Adv. Manuf. Technol."
+        },
+        {
+          "key": "10.1016/j.engappai.2012.03.011_bib45",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Monch, L., 2008. Heuristics to minimize total weighted tardiness of jobs on unrelated parallel machines. In: IEEE International Conference on Automation Science and Engineering, 2008 (CASE 2008).",
+          "DOI": "10.1109/COASE.2008.4626531"
+        },
+        {
+          "key": "10.1016/j.engappai.2012.03.011_bib46",
+          "doi-asserted-by": "crossref",
+          "first-page": "91",
+          "DOI": "10.1016/0305-0483(83)90088-9",
+          "article-title": "A heuristic algorithm for the m-machine, n-job flow-shop sequencing problem",
+          "volume": "11",
+          "author": "Nawaz",
+          "year": "1983",
+          "journal-title": "Omega"
+        },
+        {
+          "key": "10.1016/j.engappai.2012.03.011_bib47",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Pasia, J.M., Hartl, R.F., Doerner, K.F., 2006. Solving a bi-objective flowshop scheduling problem by pareto-ant colony optimization. Lect. Notes Comput. Sci. 4150, 294–305 (Including Subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics).",
+          "DOI": "10.1007/11839088_26"
+        },
+        {
+          "key": "10.1016/j.engappai.2012.03.011_bib48",
+          "series-title": "Scheduling: Theory, Algorithms and Systems",
+          "author": "Pinedo",
+          "year": "2008"
+        },
+        {
+          "key": "10.1016/j.engappai.2012.03.011_bib49",
+          "series-title": "Planning and Scheduling in Manufacturing and Services",
+          "author": "Pinedo",
+          "year": "2009"
+        },
+        {
+          "key": "10.1016/j.engappai.2012.03.011_bib50",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Raghavan, N.R.S., Venkataramana, M., 2006. Scheduling parallel batch processors with incompatible job families using ant colony optimization. In: Proceeding of the 2006 IEEE International Conference on Automation Science and Engineering.",
+          "DOI": "10.1109/COASE.2006.326933"
+        },
+        {
+          "issue": "2",
+          "key": "10.1016/j.engappai.2012.03.011_bib51",
+          "doi-asserted-by": "crossref",
+          "first-page": "426",
+          "DOI": "10.1016/S0377-2217(02)00908-6",
+          "article-title": "Ant-colony algorithms for permutation flowshop scheduling to minimize makespan/total flowtime of jobs",
+          "volume": "155",
+          "author": "Rajendran",
+          "year": "2004",
+          "journal-title": "Eur. J. Oper. Res."
+        },
+        {
+          "issue": "4",
+          "key": "10.1016/j.engappai.2012.03.011_bib52",
+          "doi-asserted-by": "crossref",
+          "first-page": "789",
+          "DOI": "10.1016/j.cie.2004.12.009",
+          "article-title": "Two ant-colony algorithms for minimizing total flowtime in permutation flowshops",
+          "volume": "48",
+          "author": "Rajendran",
+          "year": "2005",
+          "journal-title": "Comput. Ind. Eng."
+        },
+        {
+          "key": "10.1016/j.engappai.2012.03.011_bib53",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Sankar, S.S., Ponnambalam, S.G., Rathinavel, V., Visveshvaren, M.S., 2005. Scheduling in parallel machine shop: an ant colony optimization approach. In: IEEE International Conference on Industrial Technology, 2005 (ICIT 2005), pp. 276–280. URL 〈http://dx.doi.org/10.1109/ICIT.2005.1600649〉.",
+          "DOI": "10.1109/ICIT.2005.1600649"
+        },
+        {
+          "key": "10.1016/j.engappai.2012.03.011_bib54",
+          "unstructured": "Shih-Pang, T., Chun-Wei, T., Jui-Le, C., Ming-Chao, C., Chu-Sing, Y., 2011. Job shop scheduling based on ACO with a hybrid solution construction strategy. In: IEEE International Conference on Fuzzy Systems (FUZZ)."
+        },
+        {
+          "key": "10.1016/j.engappai.2012.03.011_bib55",
+          "doi-asserted-by": "crossref",
+          "first-page": "181",
+          "DOI": "10.1016/j.cie.2004.06.006",
+          "article-title": "Application of ant colony optimization for no-wait flowshop scheduling problem to minimize the total completion time",
+          "volume": "47",
+          "author": "Shyu",
+          "year": "2004",
+          "journal-title": "Comput. Ind. Eng."
+        },
+        {
+          "issue": "9",
+          "key": "10.1016/j.engappai.2012.03.011_bib56",
+          "doi-asserted-by": "crossref",
+          "first-page": "889",
+          "DOI": "10.1016/S0167-739X(00)00043-1",
+          "article-title": "Max–min ant system",
+          "volume": "16",
+          "author": "Stützle",
+          "year": "2000",
+          "journal-title": "Future Gener. Comput. Syst."
+        },
+        {
+          "key": "10.1016/j.engappai.2012.03.011_bib57",
+          "doi-asserted-by": "crossref",
+          "first-page": "1286",
+          "DOI": "10.1016/j.cor.2010.11.010",
+          "article-title": "An ant colony optimization approach to a permutational flowshop scheduling problem with outsourcing allowed",
+          "volume": "38",
+          "author": "Tavares Neto",
+          "year": "2011",
+          "journal-title": "Comput. Oper. Res."
+        },
+        {
+          "key": "10.1016/j.engappai.2012.03.011_bib58",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Thiruvady, D., Blum, C., Meyer, B., Ernst, A., 2009. Hybridizing beam-ACO with constraint programming for single machine job scheduling. In: Lecture Notes in Computer Science. Springer Link, pp. 30–44.",
+          "DOI": "10.1007/978-3-642-04918-7_3"
+        },
+        {
+          "issue": "2",
+          "key": "10.1016/j.engappai.2012.03.011_bib59",
+          "doi-asserted-by": "crossref",
+          "first-page": "250",
+          "DOI": "10.1016/S0377-2217(02)00265-5",
+          "article-title": "An ant colony optimization algorithm to solve a 2-machine bicriteria flowshop scheduling problem",
+          "volume": "142",
+          "author": "T'kindt",
+          "year": "2002",
+          "journal-title": "Eur. J. Oper. Res."
+        },
+        {
+          "key": "10.1016/j.engappai.2012.03.011_bib60",
+          "doi-asserted-by": "crossref",
+          "first-page": "4155",
+          "DOI": "10.1080/00207540600990432",
+          "article-title": "Multiple colony ant algorithm for job-shop scheduling problem",
+          "volume": "46",
+          "author": "Udomsakdigool",
+          "year": "2008",
+          "journal-title": "Int. J. Prod. Res."
+        },
+        {
+          "key": "10.1016/j.engappai.2012.03.011_bib61",
+          "doi-asserted-by": "crossref",
+          "first-page": "582",
+          "DOI": "10.1016/j.cor.2011.05.011",
+          "article-title": "Makespan minimization on single batch-processing machine via ant colony optimization",
+          "volume": "39",
+          "author": "Xu",
+          "year": "2012",
+          "journal-title": "Comput. Oper. Res."
+        },
+        {
+          "key": "10.1016/j.engappai.2012.03.011_bib62",
+          "doi-asserted-by": "crossref",
+          "first-page": "411",
+          "DOI": "10.1016/j.cie.2007.08.003",
+          "article-title": "Ant colony optimization for multi-objective flow shop scheduling problem",
+          "volume": "54",
+          "author": "Yagmahan",
+          "year": "2008",
+          "journal-title": "Comput. Ind. Eng."
+        },
+        {
+          "issue": "10",
+          "key": "10.1016/j.engappai.2012.03.011_bib63",
+          "volume": "6",
+          "author": "Hu",
+          "year": "2005",
+          "journal-title": "J. Zhejiang Univ. Sci. A"
+        },
+        {
+          "key": "10.1016/j.engappai.2012.03.011_bib64",
+          "doi-asserted-by": "crossref",
+          "first-page": "793",
+          "DOI": "10.1007/s00170-006-0492-8",
+          "article-title": "Multi-heuristic desirability ant colony system heuristic for non-permutation flowshop scheduling problems",
+          "volume": "33",
+          "author": "Ying",
+          "year": "2007",
+          "journal-title": "Int. J. Adv. Manuf. Technol."
+        },
+        {
+          "key": "10.1016/j.engappai.2012.03.011_bib65",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1080/0953728031000089988",
+          "article-title": "An ant colony system approach for scheduling problems",
+          "volume": "14",
+          "author": "Ying",
+          "year": "2003",
+          "journal-title": "Prod. Plann. Control"
+        },
+        {
+          "key": "10.1016/j.engappai.2012.03.011_bib66",
+          "unstructured": "Yoshikawa, M., Terai, H., 2006. A hybrid ant colony optimization technique for job-shop scheduling problems. In: Proceedings of the 4th International Conference on Software Engineering Research, Management and Applications."
+        },
+        {
+          "key": "10.1016/j.engappai.2012.03.011_bib67",
+          "unstructured": "Zhang, Z., Zhang, J., Li, S., 2010. A modified ant colony algorithm for the job shop scheduling problem to minimize makespan. In: International Conference on Mechanic Automation and Control Engineering (MACE)."
+        },
+        {
+          "key": "10.1016/j.engappai.2012.03.011_bib68",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Zhou, H., Li, Z., Wu, X., 2007. Scheduling unrelated parallel machine to minimize total weighted tardiness using ant colony optimization. In: IEEE International Conference on Automation and Logistics.",
+          "DOI": "10.1109/ICAL.2007.4338544"
+        },
+        {
+          "key": "10.1016/j.engappai.2012.03.011_bib69",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Zhou, P., Qingshan, D., 2009. Hybridizing fast taboo search with ant colony optimization algorithm for solving large scale permutation flow shop scheduling problem. In: IEEE International Conference on Granular Computing.",
+          "DOI": "10.1109/GRC.2009.5255011"
+        },
+        {
+          "key": "10.1016/j.engappai.2012.03.011_bib70",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Zhuo, X., Zhang, J., Chen, W., 2007. A new pheromone design in ACS for solving JSP. In: IEEE Congress on Evolutionary Computation.",
+          "DOI": "10.1109/CEC.2007.4424714"
+        }
+      ],
+      "container-title": [
+        "Engineering Applications of Artificial Intelligence"
+      ],
+      "original-title": [],
+      "language": "en",
+      "link": [
+        {
+          "URL": "https://api.elsevier.com/content/article/PII:S095219761200067X?httpAccept=text/xml",
+          "content-type": "text/xml",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        },
+        {
+          "URL": "https://api.elsevier.com/content/article/PII:S095219761200067X?httpAccept=text/plain",
+          "content-type": "text/plain",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2020,
+            3,
+            11
+          ]
+        ],
+        "date-time": "2020-03-11T10:46:15Z",
+        "timestamp": 1583923575000
+      },
+      "score": 1,
+      "resource": {
+        "primary": {
+          "URL": "https://linkinghub.elsevier.com/retrieve/pii/S095219761200067X"
+        }
+      },
+      "subtitle": [],
+      "short-title": [],
+      "issued": {
+        "date-parts": [
+          [
+            2013,
+            1
+          ]
+        ]
+      },
+      "references-count": 70,
+      "journal-issue": {
+        "issue": "1",
+        "published-print": {
+          "date-parts": [
+            [
+              2013,
+              1
+            ]
+          ]
+        }
+      },
+      "alternative-id": [
+        "S095219761200067X"
+      ],
+      "URL": "https://doi.org/10.1016/j.engappai.2012.03.011",
+      "relation": {},
+      "ISSN": [
+        "0952-1976"
+      ],
+      "issn-type": [
+        {
+          "value": "0952-1976",
+          "type": "print"
+        }
+      ],
+      "subject": [],
+      "published": {
+        "date-parts": [
+          [
+            2013,
+            1
+          ]
+        ]
+      }
+    }
+  }
+}

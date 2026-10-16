@@ -1,0 +1,2834 @@
+{
+  "retrieved": "2026-10-16",
+  "url": "https://api.crossref.org/works/10.1016/j.swevo.2024.101661",
+  "response": {
+    "status": "ok",
+    "message-type": "work",
+    "message-version": "1.0.0",
+    "message": {
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            10,
+            2
+          ]
+        ],
+        "date-time": "2026-10-02T16:54:47Z",
+        "timestamp": 1790960087380,
+        "version": "4.1.0"
+      },
+      "reference-count": 224,
+      "publisher": "Elsevier BV",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2024,
+                10,
+                1
+              ]
+            ],
+            "date-time": "2024-10-01T00:00:00Z",
+            "timestamp": 1727740800000
+          },
+          "content-version": "tdm",
+          "delay-in-days": 0,
+          "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+        },
+        {
+          "start": {
+            "date-parts": [
+              [
+                2024,
+                10,
+                1
+              ]
+            ],
+            "date-time": "2024-10-01T00:00:00Z",
+            "timestamp": 1727740800000
+          },
+          "content-version": "tdm",
+          "delay-in-days": 0,
+          "URL": "https://www.elsevier.com/legal/tdmrep-license"
+        },
+        {
+          "start": {
+            "date-parts": [
+              [
+                2024,
+                10,
+                1
+              ]
+            ],
+            "date-time": "2024-10-01T00:00:00Z",
+            "timestamp": 1727740800000
+          },
+          "content-version": "stm-asf",
+          "delay-in-days": 0,
+          "URL": "https://doi.org/10.15223/policy-017"
+        },
+        {
+          "start": {
+            "date-parts": [
+              [
+                2024,
+                10,
+                1
+              ]
+            ],
+            "date-time": "2024-10-01T00:00:00Z",
+            "timestamp": 1727740800000
+          },
+          "content-version": "stm-asf",
+          "delay-in-days": 0,
+          "URL": "https://doi.org/10.15223/policy-037"
+        },
+        {
+          "start": {
+            "date-parts": [
+              [
+                2024,
+                10,
+                1
+              ]
+            ],
+            "date-time": "2024-10-01T00:00:00Z",
+            "timestamp": 1727740800000
+          },
+          "content-version": "stm-asf",
+          "delay-in-days": 0,
+          "URL": "https://doi.org/10.15223/policy-012"
+        },
+        {
+          "start": {
+            "date-parts": [
+              [
+                2024,
+                10,
+                1
+              ]
+            ],
+            "date-time": "2024-10-01T00:00:00Z",
+            "timestamp": 1727740800000
+          },
+          "content-version": "stm-asf",
+          "delay-in-days": 0,
+          "URL": "https://doi.org/10.15223/policy-029"
+        },
+        {
+          "start": {
+            "date-parts": [
+              [
+                2024,
+                10,
+                1
+              ]
+            ],
+            "date-time": "2024-10-01T00:00:00Z",
+            "timestamp": 1727740800000
+          },
+          "content-version": "stm-asf",
+          "delay-in-days": 0,
+          "URL": "https://doi.org/10.15223/policy-004"
+        }
+      ],
+      "funder": [
+        {
+          "DOI": "10.13039/501100002858",
+          "name": "China Postdoctoral Science Foundation",
+          "doi-asserted-by": "publisher",
+          "award": [
+            "2023T160687"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "2023T160687"
+              ]
+            }
+          ],
+          "id": [
+            {
+              "id": "10.13039/501100002858",
+              "id-type": "DOI",
+              "asserted-by": "publisher"
+            }
+          ]
+        },
+        {
+          "DOI": "10.13039/501100012226",
+          "name": "Fundamental Research Funds for the Central Universities",
+          "doi-asserted-by": "publisher",
+          "award": [
+            "2022QN1055"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "2022QN1055"
+              ]
+            }
+          ],
+          "id": [
+            {
+              "id": "10.13039/501100012226",
+              "id-type": "DOI",
+              "asserted-by": "publisher"
+            }
+          ]
+        },
+        {
+          "DOI": "10.13039/501100013804",
+          "name": "Fundamental Research Funds for the Central Universities",
+          "doi-asserted-by": "publisher",
+          "id": [
+            {
+              "id": "10.13039/501100013804",
+              "id-type": "DOI",
+              "asserted-by": "publisher"
+            }
+          ]
+        },
+        {
+          "DOI": "10.13039/501100001809",
+          "name": "National Natural Science Foundation of China",
+          "doi-asserted-by": "publisher",
+          "award": [
+            "62203446"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "62203446"
+              ]
+            }
+          ],
+          "id": [
+            {
+              "id": "10.13039/501100001809",
+              "id-type": "DOI",
+              "asserted-by": "publisher"
+            }
+          ]
+        },
+        {
+          "DOI": "10.13039/501100001809",
+          "name": "National Natural Science Foundation of China",
+          "doi-asserted-by": "publisher",
+          "award": [
+            "62273348"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "62273348"
+              ]
+            }
+          ],
+          "id": [
+            {
+              "id": "10.13039/501100001809",
+              "id-type": "DOI",
+              "asserted-by": "publisher"
+            }
+          ]
+        },
+        {
+          "DOI": "10.13039/501100003995",
+          "name": "Anhui Provincial Natural Science Foundation",
+          "doi-asserted-by": "publisher",
+          "award": [
+            "2308085QF209"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "2308085QF209"
+              ]
+            }
+          ],
+          "id": [
+            {
+              "id": "10.13039/501100003995",
+              "id-type": "DOI",
+              "asserted-by": "publisher"
+            }
+          ]
+        }
+      ],
+      "content-domain": {
+        "domain": [
+          "elsevier.com",
+          "sciencedirect.com"
+        ],
+        "crossmark-restriction": true
+      },
+      "short-container-title": [
+        "Swarm and Evolutionary Computation"
+      ],
+      "published-print": {
+        "date-parts": [
+          [
+            2024,
+            10
+          ]
+        ]
+      },
+      "DOI": "10.1016/j.swevo.2024.101661",
+      "type": "journal-article",
+      "created": {
+        "date-parts": [
+          [
+            2024,
+            7,
+            22
+          ]
+        ],
+        "date-time": "2024-07-22T05:31:21Z",
+        "timestamp": 1721626281000
+      },
+      "page": "101661",
+      "update-policy": "https://doi.org/10.1016/elsevier_cm_policy",
+      "source": "Crossref",
+      "is-referenced-by-count": 92,
+      "special_numbering": "C",
+      "title": [
+        "Evolutionary computation for feature selection in classification: A comprehensive survey of solutions, applications and challenges"
+      ],
+      "prefix": "10.1016",
+      "volume": "90",
+      "author": [
+        {
+          "given": "Xianfang",
+          "family": "Song",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Yong",
+          "family": "Zhang",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Wanqiu",
+          "family": "Zhang",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Chunlin",
+          "family": "He",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Ying",
+          "family": "Hu",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Jian",
+          "family": "Wang",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Dunwei",
+          "family": "Gong",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "78",
+      "reference": [
+        {
+          "issue": "4",
+          "key": "10.1016/j.swevo.2024.101661_b1",
+          "doi-asserted-by": "crossref",
+          "first-page": "606",
+          "DOI": "10.1109/TEVC.2015.2504420",
+          "article-title": "A survey on evolutionary computation approaches to feature selection",
+          "volume": "20",
+          "author": "Xue",
+          "year": "2016",
+          "journal-title": "IEEE Trans. Evol. Comput."
+        },
+        {
+          "key": "10.1016/j.swevo.2024.101661_b2",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1016/j.engappai.2021.104210",
+          "article-title": "Review of swarm intelligence-based feature selection methods",
+          "volume": "100",
+          "author": "Rostami",
+          "year": "2021",
+          "journal-title": "Eng. Appl. Artif. Intell."
+        },
+        {
+          "key": "10.1016/j.swevo.2024.101661_b3",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1016/j.patcog.2021.107988",
+          "article-title": "Feature selection with kernelized multi-class support vector machine",
+          "volume": "117",
+          "author": "Guo",
+          "year": "2021",
+          "journal-title": "Pattern Recognit."
+        },
+        {
+          "key": "10.1016/j.swevo.2024.101661_b4",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1016/j.asoc.2019.105581",
+          "article-title": "Evolutionary feature subsets selection based on interaction information for high dimensional imbalanced data classification",
+          "volume": "82",
+          "author": "Hosseini",
+          "year": "2019",
+          "journal-title": "Appl. Soft Comput."
+        },
+        {
+          "issue": "9",
+          "key": "10.1016/j.swevo.2024.101661_b5",
+          "doi-asserted-by": "crossref",
+          "first-page": "4562",
+          "DOI": "10.1109/TNNLS.2021.3058172",
+          "article-title": "Feature selection boosted by unselected features",
+          "volume": "33",
+          "author": "Zheng",
+          "year": "2022",
+          "journal-title": "IEEE Trans. Neural Netw. Learn. Syst."
+        },
+        {
+          "issue": "3",
+          "key": "10.1016/j.swevo.2024.101661_b6",
+          "doi-asserted-by": "crossref",
+          "first-page": "464",
+          "DOI": "10.1109/TEVC.2017.2737600",
+          "article-title": "Evolutionary computation for community detection in networks: A review",
+          "volume": "22",
+          "author": "Pizzuti",
+          "year": "2018",
+          "journal-title": "IEEE Trans. Evol. Comput."
+        },
+        {
+          "key": "10.1016/j.swevo.2024.101661_b7",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1016/j.knosys.2021.107218",
+          "article-title": "Adaptive crossover operator based multi-objective binary genetic algorithm for feature selection in classification",
+          "volume": "227",
+          "author": "Xue",
+          "year": "2021",
+          "journal-title": "Knowl.-Based Syst."
+        },
+        {
+          "issue": "2",
+          "key": "10.1016/j.swevo.2024.101661_b8",
+          "doi-asserted-by": "crossref",
+          "first-page": "589",
+          "DOI": "10.1109/TCYB.2019.2944141",
+          "article-title": "A new binary particle swarm optimization approach: Momentum and dynamic balance between exploration and exploitation",
+          "volume": "51",
+          "author": "Nguyen",
+          "year": "2021",
+          "journal-title": "IEEE Trans. Cybern."
+        },
+        {
+          "issue": "2",
+          "key": "10.1016/j.swevo.2024.101661_b9",
+          "doi-asserted-by": "crossref",
+          "first-page": "296",
+          "DOI": "10.1109/TEVC.2022.3168052",
+          "article-title": "Differential evolution based feature selection: A niching-based multi-objective approach",
+          "volume": "27",
+          "author": "Wang",
+          "year": "2023",
+          "journal-title": "IEEE Trans. Evol. Comput."
+        },
+        {
+          "issue": "2",
+          "key": "10.1016/j.swevo.2024.101661_b10",
+          "article-title": "A survey on swarm intelligence approaches to feature selection in data mining",
+          "volume": "54",
+          "author": "Nguyen",
+          "year": "2020",
+          "journal-title": "Swarm Evol. Comput."
+        },
+        {
+          "issue": "14",
+          "key": "10.1016/j.swevo.2024.101661_b11",
+          "doi-asserted-by": "crossref",
+          "first-page": "269",
+          "DOI": "10.1016/j.neucom.2022.04.083",
+          "article-title": "A comprehensive survey on recent metaheuristics for feature selection",
+          "volume": "494",
+          "author": "Dokeroglu",
+          "year": "2022",
+          "journal-title": "Neurocomputing"
+        },
+        {
+          "key": "10.1016/j.swevo.2024.101661_b12",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1109/TEVC.2023.3292527",
+          "article-title": "A survey on evolutionary multiobjective feature selection in classification: Approaches, applications, and challenges",
+          "author": "Jiao",
+          "year": "2024",
+          "journal-title": "IEEE Trans. Evol. Comput."
+        },
+        {
+          "key": "10.1016/j.swevo.2024.101661_b13",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1016/j.patcog.2020.107804",
+          "article-title": "Feature selection using bare-bones particle swarm optimization with mutual information",
+          "volume": "112",
+          "author": "Song",
+          "year": "2021",
+          "journal-title": "Pattern Recognit."
+        },
+        {
+          "key": "10.1016/j.swevo.2024.101661_b14",
+          "doi-asserted-by": "crossref",
+          "first-page": "401",
+          "DOI": "10.1016/j.ins.2020.05.102",
+          "article-title": "Multilabel feature selection using ML-ReliefF and neighborhood mutual information for multilabel neighborhood decision systems",
+          "volume": "537",
+          "author": "Sun",
+          "year": "2020",
+          "journal-title": "Inform. Sci."
+        },
+        {
+          "key": "10.1016/j.swevo.2024.101661_b15",
+          "doi-asserted-by": "crossref",
+          "first-page": "887",
+          "DOI": "10.1016/j.ins.2021.08.032",
+          "article-title": "Feature selection using Fisher score and multilabel neighborhood rough sets for multilabel classification",
+          "volume": "578",
+          "author": "Sun",
+          "year": "2021",
+          "journal-title": "Inform. Sci."
+        },
+        {
+          "key": "10.1016/j.swevo.2024.101661_b16",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1016/j.swevo.2024.101519",
+          "article-title": "Evolutionary modeling approach based on multiobjective genetic programming for strip quality prediction",
+          "volume": "86",
+          "author": "Wang",
+          "year": "2024",
+          "journal-title": "Swarm Evol. Comput."
+        },
+        {
+          "key": "10.1016/j.swevo.2024.101661_b17",
+          "doi-asserted-by": "crossref",
+          "first-page": "449",
+          "DOI": "10.1016/j.ins.2022.02.024",
+          "article-title": "Feature-specific mutual information variation for multi-label feature selection",
+          "volume": "593",
+          "author": "Hu",
+          "year": "2022",
+          "journal-title": "Inform. Sci."
+        },
+        {
+          "key": "10.1016/j.swevo.2024.101661_b18",
+          "doi-asserted-by": "crossref",
+          "first-page": "105",
+          "DOI": "10.1016/j.ins.2021.01.020",
+          "article-title": "TAGA: Tabu asexual genetic algorithm embedded in a filter/filter feature selection approach for high-dimensional data",
+          "volume": "565",
+          "author": "Salesi",
+          "year": "2021",
+          "journal-title": "Inform. Sci."
+        },
+        {
+          "key": "10.1016/j.swevo.2024.101661_b19",
+          "doi-asserted-by": "crossref",
+          "first-page": "150",
+          "DOI": "10.1016/j.neucom.2012.09.049",
+          "article-title": "Feature selection algorithm based on bare bones particle swarm optimization",
+          "volume": "148",
+          "author": "Zhang",
+          "year": "2015",
+          "journal-title": "Neurocomputing"
+        },
+        {
+          "issue": "6",
+          "key": "10.1016/j.swevo.2024.101661_b20",
+          "doi-asserted-by": "crossref",
+          "first-page": "1765",
+          "DOI": "10.1109/TCBB.2016.2602263",
+          "article-title": "Feature selection for optimized high-dimensional biomedical data using an improved shuffled frog leaping algorithm",
+          "volume": "15",
+          "author": "Hu",
+          "year": "2018",
+          "journal-title": "IEEE/ACM Trans. Comput. Biol. Bioinform."
+        },
+        {
+          "issue": "3",
+          "key": "10.1016/j.swevo.2024.101661_b21",
+          "doi-asserted-by": "crossref",
+          "first-page": "1323",
+          "DOI": "10.1109/TIP.2017.2781298",
+          "article-title": "Cost-sensitive feature selection by optimizing F-measures",
+          "volume": "27",
+          "author": "Liu",
+          "year": "2018",
+          "journal-title": "IEEE Trans. Image Process."
+        },
+        {
+          "issue": "1",
+          "key": "10.1016/j.swevo.2024.101661_b22",
+          "doi-asserted-by": "crossref",
+          "first-page": "376",
+          "DOI": "10.1038/s41598-017-00416-0",
+          "article-title": "A PSO-based multi-objective multi-label feature selection method in classification",
+          "volume": "7",
+          "author": "Zhang",
+          "year": "2017",
+          "journal-title": "Sci. Rep."
+        },
+        {
+          "key": "10.1016/j.swevo.2024.101661_b23",
+          "doi-asserted-by": "crossref",
+          "first-page": "46",
+          "DOI": "10.1016/j.eswa.2019.06.044",
+          "article-title": "Cost-sensitive feature selection using two-archive multi-objective artificial bee colony algorithm",
+          "volume": "137",
+          "author": "Zhang",
+          "year": "2019",
+          "journal-title": "Expert Syst. Appl."
+        },
+        {
+          "issue": "1",
+          "key": "10.1016/j.swevo.2024.101661_b24",
+          "doi-asserted-by": "crossref",
+          "first-page": "64",
+          "DOI": "10.1109/TCBB.2015.2476796",
+          "article-title": "Multi-objective particle swarm optimization approach for cost-based feature selection in classification",
+          "volume": "14",
+          "author": "Zhang",
+          "year": "2017",
+          "journal-title": "IEEE/ACM Trans. Comput. Biol. Bioinform."
+        },
+        {
+          "issue": "14",
+          "key": "10.1016/j.swevo.2024.101661_b25",
+          "doi-asserted-by": "crossref",
+          "first-page": "16265",
+          "DOI": "10.1007/s10489-022-03327-4",
+          "article-title": "A repetitive feature selection method based on improved ReliefF for missing data",
+          "volume": "52",
+          "author": "Fan",
+          "year": "2022",
+          "journal-title": "Appl. Intell."
+        },
+        {
+          "key": "10.1016/j.swevo.2024.101661_b26",
+          "doi-asserted-by": "crossref",
+          "first-page": "654",
+          "DOI": "10.1016/j.patcog.2018.12.020",
+          "article-title": "A label-specific multi-label feature selection algorithm based on Pareto dominance concept",
+          "volume": "88",
+          "author": "Kashef",
+          "year": "2019",
+          "journal-title": "Pattern Recognit."
+        },
+        {
+          "issue": "2",
+          "key": "10.1016/j.swevo.2024.101661_b27",
+          "doi-asserted-by": "crossref",
+          "first-page": "382",
+          "DOI": "10.1109/TTE.2020.3017090",
+          "article-title": "Battery health prediction using fusion-based feature selection and machine learning",
+          "volume": "7",
+          "author": "Hu",
+          "year": "2021",
+          "journal-title": "IEEE Trans. Transp. Electr."
+        },
+        {
+          "key": "10.1016/j.swevo.2024.101661_b28",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1016/j.comnet.2020.107190",
+          "article-title": "Consistency measure based simultaneous feature selection and instance purification for multimedia traffic classification",
+          "volume": "173",
+          "author": "Wu",
+          "year": "2020",
+          "journal-title": "Comput. Netw."
+        },
+        {
+          "issue": "2",
+          "key": "10.1016/j.swevo.2024.101661_b29",
+          "doi-asserted-by": "crossref",
+          "first-page": "907",
+          "DOI": "10.1007/s10462-019-09682-y",
+          "article-title": "A review of unsupervised feature selection methods",
+          "volume": "53",
+          "author": "Solorio-Fernández",
+          "year": "2020",
+          "journal-title": "Artif. Intell. Rev."
+        },
+        {
+          "issue": "2",
+          "key": "10.1016/j.swevo.2024.101661_b30",
+          "doi-asserted-by": "crossref",
+          "first-page": "201",
+          "DOI": "10.1109/TKDE.2018.2836440",
+          "article-title": "A correlation-based feature weighting filter for naive Bayes",
+          "volume": "31",
+          "author": "Jiang",
+          "year": "2019",
+          "journal-title": "IEEE Trans. Knowl. Data Eng."
+        },
+        {
+          "issue": "5",
+          "key": "10.1016/j.swevo.2024.101661_b31",
+          "doi-asserted-by": "crossref",
+          "first-page": "1831",
+          "DOI": "10.1109/TNNLS.2020.2991336",
+          "article-title": "Supervised feature selection with orthogonal regression and feature weighting",
+          "volume": "32",
+          "author": "Wu",
+          "year": "2021",
+          "journal-title": "IEEE Trans. Neural Netw. Learn. Syst."
+        },
+        {
+          "issue": "2",
+          "key": "10.1016/j.swevo.2024.101661_b32",
+          "doi-asserted-by": "crossref",
+          "first-page": "707",
+          "DOI": "10.1109/TCYB.2021.3139898",
+          "article-title": "Feature selection with maximal relevance and minimal supervised redundancy",
+          "volume": "53",
+          "author": "Wang",
+          "year": "2023",
+          "journal-title": "IEEE Trans. Cybern."
+        },
+        {
+          "key": "10.1016/j.swevo.2024.101661_b33",
+          "doi-asserted-by": "crossref",
+          "first-page": "178",
+          "DOI": "10.1016/j.ins.2021.02.035",
+          "article-title": "Adaptive discriminant analysis for semi-supervised feature selection",
+          "volume": "566",
+          "author": "Zhong",
+          "year": "2021",
+          "journal-title": "Inform. Sci."
+        },
+        {
+          "issue": "1",
+          "key": "10.1016/j.swevo.2024.101661_b34",
+          "doi-asserted-by": "crossref",
+          "first-page": "165",
+          "DOI": "10.1109/TKDE.2018.2879797",
+          "article-title": "Semi-supervised feature selection via sparse rescaled linear square regression",
+          "volume": "32",
+          "author": "Chen",
+          "year": "2020",
+          "journal-title": "IEEE Trans. Knowl. Data Eng."
+        },
+        {
+          "issue": "3",
+          "key": "10.1016/j.swevo.2024.101661_b35",
+          "first-page": "2299",
+          "article-title": "Binary label learning for semi-supervised feature selection",
+          "volume": "35",
+          "author": "Shi",
+          "year": "2023",
+          "journal-title": "IEEE Trans. Knowl. Data Eng."
+        },
+        {
+          "issue": "12",
+          "key": "10.1016/j.swevo.2024.101661_b36",
+          "doi-asserted-by": "crossref",
+          "first-page": "3743",
+          "DOI": "10.1109/TFUZZ.2020.3026834",
+          "article-title": "Regularized regression with fuzzy membership embedding for unsupervised feature selection",
+          "volume": "29",
+          "author": "Zhang",
+          "year": "2021",
+          "journal-title": "IEEE Trans. Fuzzy Syst."
+        },
+        {
+          "issue": "2",
+          "key": "10.1016/j.swevo.2024.101661_b37",
+          "doi-asserted-by": "crossref",
+          "first-page": "942",
+          "DOI": "10.1109/TKDE.2020.2983396",
+          "article-title": "Unsupervised discriminative projection for feature selection",
+          "volume": "34",
+          "author": "Wang",
+          "year": "2022",
+          "journal-title": "IEEE Trans. Knowl. Data Eng."
+        },
+        {
+          "issue": "4",
+          "key": "10.1016/j.swevo.2024.101661_b38",
+          "doi-asserted-by": "crossref",
+          "first-page": "1702",
+          "DOI": "10.1109/TNNLS.2020.3043362",
+          "article-title": "Unsupervised feature selection with constrained ℓ2,0-norm and optimized graph",
+          "volume": "33",
+          "author": "Nie",
+          "year": "2022",
+          "journal-title": "IEEE Trans. Neural Netw. Learn. Syst."
+        },
+        {
+          "key": "10.1016/j.swevo.2024.101661_b39",
+          "doi-asserted-by": "crossref",
+          "first-page": "56",
+          "DOI": "10.1016/j.patrec.2015.08.007",
+          "article-title": "Optimal feature selection for nonlinear data using branch-and-bound in kernel space",
+          "volume": "68",
+          "author": "Ring",
+          "year": "2015",
+          "journal-title": "Pattern Recognit. Lett."
+        },
+        {
+          "key": "10.1016/j.swevo.2024.101661_b40",
+          "doi-asserted-by": "crossref",
+          "first-page": "172",
+          "DOI": "10.1016/j.patcog.2017.08.013",
+          "article-title": "A fast branch-and-bound algorithm for U-curve feature selection",
+          "volume": "73",
+          "author": "Atashpaz-Gargari",
+          "year": "2018",
+          "journal-title": "Pattern Recognit."
+        },
+        {
+          "key": "10.1016/j.swevo.2024.101661_b41",
+          "doi-asserted-by": "crossref",
+          "first-page": "189",
+          "DOI": "10.1016/j.jbi.2018.07.014",
+          "article-title": "Relief-based feature selection: Introduction and review",
+          "volume": "85",
+          "author": "Urbanowicz",
+          "year": "2017",
+          "journal-title": "J. Biomed. Inform."
+        },
+        {
+          "issue": "1–2",
+          "key": "10.1016/j.swevo.2024.101661_b42",
+          "doi-asserted-by": "crossref",
+          "first-page": "23",
+          "DOI": "10.1023/A:1025667309714",
+          "article-title": "Theoretical and empirical analysis of ReliefF and RReliefF",
+          "volume": "53",
+          "author": "Robnik-Sikonja",
+          "year": "2003",
+          "journal-title": "Mach. Learn."
+        },
+        {
+          "issue": "5",
+          "key": "10.1016/j.swevo.2024.101661_b43",
+          "doi-asserted-by": "crossref",
+          "first-page": "792",
+          "DOI": "10.3390/diagnostics11050792",
+          "article-title": "Prediction of hypertension outcomes based on gain sequence forward tabu search feature selection and XGBoost",
+          "volume": "11",
+          "author": "Chang",
+          "year": "2021",
+          "journal-title": "Diagnostics"
+        },
+        {
+          "key": "10.1016/j.swevo.2024.101661_b44",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1016/j.scitotenv.2019.135161",
+          "article-title": "Flash-flood hazard assessment using ensembles and Bayesian-based machine learning models: Application of the simulated annealing feature selection method",
+          "volume": "711",
+          "author": "Hosseini",
+          "year": "2020",
+          "journal-title": "Sci. Total Environ."
+        },
+        {
+          "issue": "9",
+          "key": "10.1016/j.swevo.2024.101661_b45",
+          "doi-asserted-by": "crossref",
+          "first-page": "1100",
+          "DOI": "10.1109/T-C.1971.223410",
+          "article-title": "A direct method of nonparametric measurement selection",
+          "volume": "20",
+          "author": "Whitney",
+          "year": "1971",
+          "journal-title": "IEEE Trans. Comput."
+        },
+        {
+          "issue": "1",
+          "key": "10.1016/j.swevo.2024.101661_b46",
+          "doi-asserted-by": "crossref",
+          "first-page": "11",
+          "DOI": "10.1109/TIT.1963.1057810",
+          "article-title": "On the effectiveness of receptors in recognition systems",
+          "volume": "9",
+          "author": "Marill",
+          "year": "1963",
+          "journal-title": "IEEE Trans. Inform. Theory"
+        },
+        {
+          "issue": "11",
+          "key": "10.1016/j.swevo.2024.101661_b47",
+          "doi-asserted-by": "crossref",
+          "first-page": "1119",
+          "DOI": "10.1016/0167-8655(94)90127-9",
+          "article-title": "Floating search methods in feature selection",
+          "volume": "15",
+          "author": "Pudil",
+          "year": "1994",
+          "journal-title": "Pattern Recognit. Lett."
+        },
+        {
+          "key": "10.1016/j.swevo.2024.101661_b48",
+          "first-page": "18",
+          "article-title": "Algorithms for feature selection: An evaluation",
+          "volume": "vol. 2",
+          "author": "Zongker",
+          "year": "1996"
+        },
+        {
+          "key": "10.1016/j.swevo.2024.101661_b49",
+          "unstructured": "S.D. Strearns, On selecting features for pattern classifiers, in: International Conference on Pattern Recognition, 1976."
+        },
+        {
+          "key": "10.1016/j.swevo.2024.101661_b50",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1016/j.asoc.2022.108736",
+          "article-title": "Multi-surrogate assisted binary particle swarm optimization algorithm and its application for feature selection",
+          "volume": "121",
+          "author": "Hu",
+          "year": "2022",
+          "journal-title": "Appl. Soft Comput."
+        },
+        {
+          "issue": "3",
+          "key": "10.1016/j.swevo.2024.101661_b51",
+          "doi-asserted-by": "crossref",
+          "first-page": "63",
+          "DOI": "10.1145/3397161",
+          "article-title": "Hybrid feature selection algorithm based on discrete artificial bee colony for Parkinson diagnosis",
+          "volume": "21",
+          "author": "Li",
+          "year": "2021",
+          "journal-title": "ACM Trans. Internet Technol."
+        },
+        {
+          "key": "10.1016/j.swevo.2024.101661_b52",
+          "article-title": "Binary coyote optimization algorithm for feature selection",
+          "volume": "107",
+          "author": "Souza",
+          "year": "2020",
+          "journal-title": "Pattern Recognit."
+        },
+        {
+          "key": "10.1016/j.swevo.2024.101661_b53",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1016/j.knosys.2021.107633",
+          "article-title": "A self-adaptive weighted differential evolution approach for large-scale feature selection",
+          "volume": "235",
+          "author": "Wang",
+          "year": "2022",
+          "journal-title": "Knowl.-Based Syst."
+        },
+        {
+          "key": "10.1016/j.swevo.2024.101661_b54",
+          "doi-asserted-by": "crossref",
+          "first-page": "43",
+          "DOI": "10.1016/j.knosys.2018.05.009",
+          "article-title": "An efficient binary salp swarm algorithm with crossover scheme for feature selection problems",
+          "volume": "154",
+          "author": "Faris",
+          "year": "2018",
+          "journal-title": "Knowl.-Based Syst."
+        },
+        {
+          "issue": "7",
+          "key": "10.1016/j.swevo.2024.101661_b55",
+          "doi-asserted-by": "crossref",
+          "first-page": "7172",
+          "DOI": "10.1109/TCYB.2020.3042243",
+          "article-title": "An evolutionary multitasking-based feature selection method for high-dimensional classification",
+          "volume": "52",
+          "author": "Chen",
+          "year": "2022",
+          "journal-title": "IEEE Trans. Cybern."
+        },
+        {
+          "issue": "5",
+          "key": "10.1016/j.swevo.2024.101661_b56",
+          "doi-asserted-by": "crossref",
+          "first-page": "882",
+          "DOI": "10.1109/TEVC.2020.2968743",
+          "article-title": "Variable-size cooperative coevolutionary particle swarm optimization for feature selection on high-dimensional data",
+          "volume": "24",
+          "author": "Song",
+          "year": "2020",
+          "journal-title": "IEEE Trans. Evol. Comput."
+        },
+        {
+          "issue": "9",
+          "key": "10.1016/j.swevo.2024.101661_b57",
+          "doi-asserted-by": "crossref",
+          "first-page": "9573",
+          "DOI": "10.1109/TCYB.2021.3061152",
+          "article-title": "A fast hybrid feature selection based on correlation-guided clustering and particle swarm optimization for high-dimensional data",
+          "volume": "52",
+          "author": "Song",
+          "year": "2022",
+          "journal-title": "IEEE Trans. Cybern."
+        },
+        {
+          "issue": "3",
+          "key": "10.1016/j.swevo.2024.101661_b58",
+          "doi-asserted-by": "crossref",
+          "first-page": "595",
+          "DOI": "10.1109/TEVC.2022.3175226",
+          "article-title": "Surrogate sample-assisted particle swarm optimization for feature selection on high-dimensional data",
+          "volume": "27",
+          "author": "Song",
+          "year": "2023",
+          "journal-title": "IEEE Trans. Evol. Comput."
+        },
+        {
+          "key": "10.1016/j.swevo.2024.101661_b59",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1016/j.knosys.2024.111529",
+          "article-title": "Variable selection in the prediction of business failure using genetic programming",
+          "volume": "289",
+          "author": "Beade",
+          "year": "2024",
+          "journal-title": "Knowl.-Based Syst."
+        },
+        {
+          "issue": "4",
+          "key": "10.1016/j.swevo.2024.101661_b60",
+          "doi-asserted-by": "crossref",
+          "first-page": "1797",
+          "DOI": "10.1109/TCYB.2020.3024849",
+          "article-title": "Evolving scheduling heuristics via genetic programming with feature selection in dynamic flexible job-shop scheduling",
+          "volume": "51",
+          "author": "Zhang",
+          "year": "2021",
+          "journal-title": "IEEE Trans. Cybern."
+        },
+        {
+          "key": "10.1016/j.swevo.2024.101661_b61",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1016/j.asoc.2023.110211",
+          "article-title": "AMFSA: Adaptive fuzzy neighborhood-based multilabel feature selection with ant colony optimization",
+          "volume": "138",
+          "author": "Sun",
+          "year": "2023",
+          "journal-title": "Appl. Soft Comput."
+        },
+        {
+          "key": "10.1016/j.swevo.2024.101661_b62",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1016/j.patcog.2021.107933",
+          "article-title": "A two-stage hybrid ant colony optimization for high-dimensional feature selection",
+          "volume": "116",
+          "author": "Ma",
+          "year": "2021",
+          "journal-title": "Pattern Recognit."
+        },
+        {
+          "issue": "3",
+          "key": "10.1016/j.swevo.2024.101661_b63",
+          "first-page": "335",
+          "article-title": "Improved salp swarm algorithm for feature selection",
+          "volume": "32",
+          "author": "Aeh",
+          "year": "2020",
+          "journal-title": "J. King Saud Univ., Comput. Inf. Sci."
+        },
+        {
+          "key": "10.1016/j.swevo.2024.101661_b64",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1016/j.asoc.2019.106041",
+          "article-title": "Multi-objective feature selection based on artificial bee colony: An acceleration approach with variable sample size",
+          "volume": "88",
+          "author": "Wang",
+          "year": "2020",
+          "journal-title": "Appl. Soft Comput."
+        },
+        {
+          "key": "10.1016/j.swevo.2024.101661_b65",
+          "doi-asserted-by": "crossref",
+          "first-page": "67",
+          "DOI": "10.1016/j.ins.2019.08.040",
+          "article-title": "Binary differential evolution with self-learning for multi-objective feature selection",
+          "volume": "507",
+          "author": "Zhang",
+          "year": "2020",
+          "journal-title": "Inform. Sci."
+        },
+        {
+          "key": "10.1016/j.swevo.2024.101661_b66",
+          "doi-asserted-by": "crossref",
+          "first-page": "441",
+          "DOI": "10.1016/j.asoc.2017.11.006",
+          "article-title": "Whale optimization approaches for wrapper feature selection",
+          "volume": "62",
+          "author": "Mafarja",
+          "year": "2018",
+          "journal-title": "Appl. Soft Comput."
+        },
+        {
+          "key": "10.1016/j.swevo.2024.101661_b67",
+          "doi-asserted-by": "crossref",
+          "first-page": "2823",
+          "DOI": "10.1007/s11277-018-5309-1",
+          "article-title": "An improved firefly algorithm for feature selection in classification",
+          "volume": "102",
+          "author": "Xu",
+          "year": "2018",
+          "journal-title": "Wirel. Pers. Commun."
+        },
+        {
+          "issue": "5",
+          "key": "10.1016/j.swevo.2024.101661_b68",
+          "doi-asserted-by": "crossref",
+          "first-page": "1688",
+          "DOI": "10.1007/s10489-018-1334-8",
+          "article-title": "Improved whale optimization algorithm for feature selection in Arabic sentiment analysis",
+          "volume": "49",
+          "author": "Tubishat",
+          "year": "2019",
+          "journal-title": "Appl. Intell."
+        },
+        {
+          "issue": "4",
+          "key": "10.1016/j.swevo.2024.101661_b69",
+          "first-page": "13547",
+          "article-title": "An opposition-based social spider optimization for feature selection",
+          "volume": "23",
+          "author": "Ibrahim",
+          "year": "2019",
+          "journal-title": "Appl. Intell."
+        },
+        {
+          "key": "10.1016/j.swevo.2024.101661_b70",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1016/j.asoc.2021.107302",
+          "article-title": "Improved binary particle swarm optimization for feature selection with new initialization and search space reduction strategies",
+          "volume": "106",
+          "author": "Li",
+          "year": "2021",
+          "journal-title": "Appl. Soft Comput."
+        },
+        {
+          "issue": "4",
+          "key": "10.1016/j.swevo.2024.101661_b71",
+          "article-title": "A novel multi population based particle swarm optimization for feature selection",
+          "volume": "219",
+          "author": "Kilic",
+          "year": "2021",
+          "journal-title": "Knowl.-Based Syst."
+        },
+        {
+          "key": "10.1016/j.swevo.2024.101661_b72",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1016/j.eswa.2021.115882",
+          "article-title": "Efficient high-dimension feature selection based on enhanced equilibrium optimizer",
+          "volume": "187",
+          "author": "Ouadfel",
+          "year": "2022",
+          "journal-title": "Expert Syst. Appl."
+        },
+        {
+          "issue": "4",
+          "key": "10.1016/j.swevo.2024.101661_b73",
+          "doi-asserted-by": "crossref",
+          "first-page": "616",
+          "DOI": "10.1109/TEVC.2021.3106975",
+          "article-title": "Clustering-guided particle swarm feature selection algorithm for high-dimensional imbalanced data with missing values",
+          "volume": "26",
+          "author": "Zhang",
+          "year": "2022",
+          "journal-title": "IEEE Trans. Evol. Comput."
+        },
+        {
+          "issue": "2",
+          "key": "10.1016/j.swevo.2024.101661_b74",
+          "doi-asserted-by": "crossref",
+          "first-page": "266",
+          "DOI": "10.1109/TEVC.2022.3160458",
+          "article-title": "A variable granularity search based multi-objective feature selection algorithm for high-dimensional data classification",
+          "volume": "27",
+          "author": "Cheng",
+          "year": "2023",
+          "journal-title": "IEEE Trans. Evol. Comput."
+        },
+        {
+          "key": "10.1016/j.swevo.2024.101661_b75",
+          "doi-asserted-by": "crossref",
+          "first-page": "841",
+          "DOI": "10.1016/j.ins.2020.08.083",
+          "article-title": "A problem-specific non-dominated sorting genetic algorithm for supervised feature selection",
+          "volume": "547",
+          "author": "Zhou",
+          "year": "2021",
+          "journal-title": "Inform. Sci."
+        },
+        {
+          "key": "10.1016/j.swevo.2024.101661_b76",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1016/j.ins.2023.119794",
+          "article-title": "Dynamic niching particle swarm optimization with an external archive-guided mechanism for multimodal multi-objective optimization",
+          "volume": "653",
+          "author": "Sun",
+          "year": "2024",
+          "journal-title": "Inform. Sci."
+        },
+        {
+          "key": "10.1016/j.swevo.2024.101661_b77",
+          "doi-asserted-by": "crossref",
+          "first-page": "462",
+          "DOI": "10.1016/j.ins.2017.09.028",
+          "article-title": "Pareto front feature selection based on artificial bee colony optimization",
+          "volume": "422",
+          "author": "Hancer",
+          "year": "2018",
+          "journal-title": "Inform. Sci."
+        },
+        {
+          "key": "10.1016/j.swevo.2024.101661_b78",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1016/j.ins.2024.120185",
+          "article-title": "Reinforcement learning-based multi-objective differential evolution algorithm for feature selection",
+          "volume": "661",
+          "author": "Yu",
+          "year": "2024",
+          "journal-title": "Inform. Sci."
+        },
+        {
+          "issue": "2",
+          "key": "10.1016/j.swevo.2024.101661_b79",
+          "doi-asserted-by": "crossref",
+          "first-page": "4294",
+          "DOI": "10.1007/s10489-019-01513-5",
+          "article-title": "Brain storm optimization for feature selection using new individual clustering and updating mechanism",
+          "volume": "49",
+          "author": "Zhang",
+          "year": "2019",
+          "journal-title": "Appl. Intell."
+        },
+        {
+          "key": "10.1016/j.swevo.2024.101661_b80",
+          "doi-asserted-by": "crossref",
+          "first-page": "140",
+          "DOI": "10.1016/j.eswa.2019.03.039",
+          "article-title": "Hybrid particle swarm optimization with spiral-shaped mechanism for feature selection",
+          "volume": "128",
+          "author": "Chen",
+          "year": "2019",
+          "journal-title": "Expert Syst. Appl."
+        },
+        {
+          "key": "10.1016/j.swevo.2024.101661_b81",
+          "doi-asserted-by": "crossref",
+          "first-page": "561",
+          "DOI": "10.1016/j.ins.2017.08.047",
+          "article-title": "A return-cost-based binary firefly algorithm for feature selection",
+          "volume": "418",
+          "author": "Zhang",
+          "year": "2017",
+          "journal-title": "Inform. Sci."
+        },
+        {
+          "key": "10.1016/j.swevo.2024.101661_b82",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1016/j.eswa.2021.115620",
+          "article-title": "Particle distance rank feature selection by particle swarm optimization",
+          "volume": "185",
+          "author": "Shafipour",
+          "year": "2021",
+          "journal-title": "Expert Syst. Appl."
+        },
+        {
+          "issue": "5",
+          "key": "10.1016/j.swevo.2024.101661_b83",
+          "doi-asserted-by": "crossref",
+          "first-page": "1015",
+          "DOI": "10.1109/TEVC.2021.3134804",
+          "article-title": "Correlation-guided updating strategy for feature selection in classification with surrogate-assisted particle swarm optimization",
+          "volume": "26",
+          "author": "Chen",
+          "year": "2022",
+          "journal-title": "IEEE Trans. Evol. Comput."
+        },
+        {
+          "issue": "3",
+          "key": "10.1016/j.swevo.2024.101661_b84",
+          "doi-asserted-by": "crossref",
+          "first-page": "270",
+          "DOI": "10.1080/09540091.2016.1185392",
+          "article-title": "Investigation on particle swarm optimisation for feature selection on high-dimensional data: Local search and selection bias",
+          "volume": "28",
+          "author": "Tran",
+          "year": "2016",
+          "journal-title": "Connect. Sci."
+        },
+        {
+          "key": "10.1016/j.swevo.2024.101661_b85",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1016/j.eswa.2020.113873",
+          "article-title": "Dynamic salp swarm algorithm for feature selection",
+          "volume": "164",
+          "author": "Tubishat",
+          "year": "2021",
+          "journal-title": "Expert Syst. Appl."
+        },
+        {
+          "key": "10.1016/j.swevo.2024.101661_b86",
+          "doi-asserted-by": "crossref",
+          "first-page": "219",
+          "DOI": "10.1016/j.ins.2019.05.038",
+          "article-title": "An evolutionary gravitational search-based feature selection",
+          "volume": "497",
+          "author": "Taradeh",
+          "year": "2019",
+          "journal-title": "Inform. Sci."
+        },
+        {
+          "key": "10.1016/j.swevo.2024.101661_b87",
+          "doi-asserted-by": "crossref",
+          "first-page": "64",
+          "DOI": "10.1016/j.dss.2017.12.001",
+          "article-title": "Feature selection using firefly optimization for classification and regression models",
+          "volume": "106",
+          "author": "Zhang",
+          "year": "2018",
+          "journal-title": "Decis. Support Syst."
+        },
+        {
+          "key": "10.1016/j.swevo.2024.101661_b88",
+          "doi-asserted-by": "crossref",
+          "unstructured": "N. Zhang, X. Jiang, Z. Jing, L. Thompson, Feature Selection Method Using BPSO-EA with ENN Classifier, in: 2018 Eighth International Conference on Information Science and Technology, 2018, pp. 364–369.",
+          "DOI": "10.1109/ICIST.2018.8426154"
+        },
+        {
+          "key": "10.1016/j.swevo.2024.101661_b89",
+          "doi-asserted-by": "crossref",
+          "first-page": "2889",
+          "DOI": "10.1007/s10489-019-01420-9",
+          "article-title": "A filter-based bare-bone particle swarm optimization algorithm for unsupervised feature selection",
+          "volume": "49",
+          "author": "Zhang",
+          "year": "2019",
+          "journal-title": "Appl. Intell."
+        },
+        {
+          "issue": "8",
+          "key": "10.1016/j.swevo.2024.101661_b90",
+          "doi-asserted-by": "crossref",
+          "first-page": "12074",
+          "DOI": "10.1109/TITS.2021.3109632",
+          "article-title": "A sound-based fault diagnosis method for railway point machines based on two-stage feature selection strategy and ensemble classifier",
+          "volume": "23",
+          "author": "Cao",
+          "year": "2022",
+          "journal-title": "IEEE Trans. Intell. Transp. Syst."
+        },
+        {
+          "key": "10.1016/j.swevo.2024.101661_b91",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1016/j.engappai.2020.104079",
+          "article-title": "A hybrid feature selection method based on information theory and binary butterfly optimization algorithm - ScienceDirect",
+          "volume": "97",
+          "author": "Sadeghian",
+          "year": "2021",
+          "journal-title": "Eng. Appl. Artif. Intell."
+        },
+        {
+          "key": "10.1016/j.swevo.2024.101661_b92",
+          "doi-asserted-by": "crossref",
+          "first-page": "2426",
+          "DOI": "10.1016/j.neucom.2017.11.016",
+          "article-title": "A two-stage feature selection and intelligent fault diagnosis method for rotating machinery using hybrid filter and wrapper method",
+          "volume": "275",
+          "author": "Zhang",
+          "year": "2018",
+          "journal-title": "Neurocomputing"
+        },
+        {
+          "key": "10.1016/j.swevo.2024.101661_b93",
+          "article-title": "A clustering-guided integer brain storm optimizer for feature selection in high-dimensional data",
+          "volume": "2021",
+          "author": "Jia",
+          "year": "2021",
+          "journal-title": "Discrete Dyn. Nat. Soc."
+        },
+        {
+          "issue": "1",
+          "key": "10.1016/j.swevo.2024.101661_b94",
+          "doi-asserted-by": "crossref",
+          "first-page": "1",
+          "DOI": "10.1186/s12911-021-01696-3",
+          "article-title": "A graph-based gene selection method for medical diagnosis problems using a many-objective PSO algorithm",
+          "volume": "21",
+          "author": "Azadifar",
+          "year": "2021",
+          "journal-title": "BMC Med. Inform. Decis. Mak."
+        },
+        {
+          "issue": "4",
+          "key": "10.1016/j.swevo.2024.101661_b95",
+          "doi-asserted-by": "crossref",
+          "first-page": "1617",
+          "DOI": "10.1109/TCYB.2018.2877663",
+          "article-title": "Geometric structural ensemble learning for imbalanced problems",
+          "volume": "50",
+          "author": "Zhu",
+          "year": "2020",
+          "journal-title": "IEEE Trans. Cybern."
+        },
+        {
+          "key": "10.1016/j.swevo.2024.101661_b96",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1016/j.asoc.2021.107625",
+          "article-title": "A multi-surrogate-assisted dual-layer ensemble feature selection algorithm",
+          "volume": "110",
+          "author": "Jiang",
+          "year": "2021",
+          "journal-title": "Appl. Soft Comput."
+        },
+        {
+          "issue": "1",
+          "key": "10.1016/j.swevo.2024.101661_b97",
+          "article-title": "Ensemble learning-based filter-centric hybrid feature selection framework for high-dimensional imbalanced data",
+          "volume": "220",
+          "author": "Kim",
+          "year": "2021",
+          "journal-title": "Knowl.-Based Syst."
+        },
+        {
+          "key": "10.1016/j.swevo.2024.101661_b98",
+          "doi-asserted-by": "crossref",
+          "first-page": "153",
+          "DOI": "10.1016/j.ins.2019.01.064",
+          "article-title": "A new hybrid ensemble feature selection framework for machine learning-based phishing detection system",
+          "volume": "484",
+          "author": "Chiew",
+          "year": "2019",
+          "journal-title": "Inform. Sci."
+        },
+        {
+          "key": "10.1016/j.swevo.2024.101661_b99",
+          "doi-asserted-by": "crossref",
+          "first-page": "1",
+          "DOI": "10.1016/j.inffus.2018.11.008",
+          "article-title": "Ensembles for feature selection: A review and future trends",
+          "volume": "52",
+          "author": "Bolon-Canedo",
+          "year": "2019",
+          "journal-title": "Inf. Fusion"
+        },
+        {
+          "key": "10.1016/j.swevo.2024.101661_b100",
+          "doi-asserted-by": "crossref",
+          "first-page": "124",
+          "DOI": "10.1016/j.knosys.2016.11.017",
+          "article-title": "Ensemble feature selection: Homogeneous and heterogeneous approaches",
+          "volume": "118",
+          "author": "Seijo-Pardo",
+          "year": "2017",
+          "journal-title": "Knowl.-Based Syst."
+        },
+        {
+          "key": "10.1016/j.swevo.2024.101661_b101",
+          "doi-asserted-by": "crossref",
+          "first-page": "1",
+          "DOI": "10.1155/2018/7837696",
+          "article-title": "MOFSRank: A multiobjective evolutionary algorithm for feature selection in learning to rank",
+          "volume": "2018",
+          "author": "Cheng",
+          "year": "2018",
+          "journal-title": "Complexity"
+        },
+        {
+          "key": "10.1016/j.swevo.2024.101661_b102",
+          "doi-asserted-by": "crossref",
+          "first-page": "116",
+          "DOI": "10.1016/j.knosys.2017.02.013",
+          "article-title": "Ensemble feature selection using bi-objective genetic algorithm",
+          "volume": "123",
+          "author": "Das",
+          "year": "2017",
+          "journal-title": "Knowl.-Based Syst."
+        },
+        {
+          "key": "10.1016/j.swevo.2024.101661_b103",
+          "doi-asserted-by": "crossref",
+          "first-page": "137",
+          "DOI": "10.1186/s12911-018-0710-y",
+          "article-title": "Neuropsychological predictors of conversion from mild cognitive impairment to Alzheimer’s disease: A feature selection ensemble combining stability and predictability",
+          "volume": "18",
+          "author": "Pereira",
+          "year": "2018",
+          "journal-title": "BMC Med. Inform. Decis. Mak."
+        },
+        {
+          "key": "10.1016/j.swevo.2024.101661_b104",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1016/j.eswa.2021.115290",
+          "article-title": "A parallel metaheuristic approach for ensemble feature selection based on multi-core architectures",
+          "volume": "182",
+          "author": "Hijazi",
+          "year": "2021",
+          "journal-title": "Expert Syst. Appl."
+        },
+        {
+          "issue": "5",
+          "key": "10.1016/j.swevo.2024.101661_b105",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1111/exsy.12553",
+          "article-title": "Ensemble feature selection in medical datasets: Combining filter, wrapper, and embedded feature selection results",
+          "volume": "37",
+          "author": "Chen",
+          "year": "2020",
+          "journal-title": "Expert Syst."
+        },
+        {
+          "issue": "5",
+          "key": "10.1016/j.swevo.2024.101661_b106",
+          "doi-asserted-by": "crossref",
+          "first-page": "1087",
+          "DOI": "10.1109/TEVC.2022.3149601",
+          "article-title": "A surrogate-assisted evolutionary feature selection algorithm with parallel random grouping for high-dimensional classification",
+          "volume": "26",
+          "author": "Liu",
+          "year": "2022",
+          "journal-title": "IEEE Trans. Evol. Comput."
+        },
+        {
+          "issue": "3",
+          "key": "10.1016/j.swevo.2024.101661_b107",
+          "doi-asserted-by": "crossref",
+          "first-page": "446",
+          "DOI": "10.1109/TEVC.2021.3100056",
+          "article-title": "Evolutionary multitasking for feature selection in high-dimensional classification via particle swarm optimization",
+          "volume": "26",
+          "author": "Chen",
+          "year": "2022",
+          "journal-title": "IEEE Trans. Evol. Comput."
+        },
+        {
+          "issue": "12",
+          "key": "10.1016/j.swevo.2024.101661_b108",
+          "article-title": "A hybrid feature selection method based on binary Jaya algorithm for micro-array data classification",
+          "volume": "90",
+          "author": "Chaudhuri",
+          "year": "2021",
+          "journal-title": "Comput. Electr. Eng."
+        },
+        {
+          "issue": "20",
+          "key": "10.1016/j.swevo.2024.101661_b109",
+          "first-page": "56",
+          "article-title": "A hybrid feature selection algorithm for gene expression data classification",
+          "volume": "256",
+          "author": "Lu",
+          "year": "2016",
+          "journal-title": "Neurocomputing"
+        },
+        {
+          "issue": "6",
+          "key": "10.1016/j.swevo.2024.101661_b110",
+          "doi-asserted-by": "crossref",
+          "first-page": "1566",
+          "DOI": "10.1109/TEVC.2022.3159253",
+          "article-title": "A multi-task bee colony band selection algorithm with variable-size clustering for hyperspectral images",
+          "volume": "26",
+          "author": "He",
+          "year": "2022",
+          "journal-title": "IEEE Trans. Evol. Comput."
+        },
+        {
+          "key": "10.1016/j.swevo.2024.101661_b111",
+          "doi-asserted-by": "crossref",
+          "unstructured": "H.B. Nguyen, B. Xue, P. Andreae, Surrogate-Model Based Particle Swarm Optimisation with Local Search for Feature Selection in Classification, in: European Conference on the Applications of Evolutionary Computation, 2017, pp. 487–505.",
+          "DOI": "10.1007/978-3-319-55849-3_32"
+        },
+        {
+          "issue": "5",
+          "key": "10.1016/j.swevo.2024.101661_b112",
+          "first-page": "1",
+          "article-title": "PSO with surrogate models for feature selection: Static and dynamic clustering-based methods",
+          "volume": "10",
+          "author": "Nguyen",
+          "year": "2018",
+          "journal-title": "Memetic Comput."
+        },
+        {
+          "issue": "5",
+          "key": "10.1016/j.swevo.2024.101661_b113",
+          "doi-asserted-by": "crossref",
+          "first-page": "904",
+          "DOI": "10.1109/TEVC.2018.2883094",
+          "article-title": "Distance-based subset selection for benchmarking in evolutionary multi/many-objective optimization",
+          "volume": "23",
+          "author": "Singh",
+          "year": "2019",
+          "journal-title": "IEEE Trans. Evol. Comput."
+        },
+        {
+          "key": "10.1016/j.swevo.2024.101661_b114",
+          "doi-asserted-by": "crossref",
+          "first-page": "47",
+          "DOI": "10.1016/j.neucom.2015.06.016",
+          "article-title": "Global mutual information-based feature selection approach using single-objective and multi-objective optimization",
+          "volume": "168",
+          "author": "Han",
+          "year": "2015",
+          "journal-title": "Neurocomputing"
+        },
+        {
+          "key": "10.1016/j.swevo.2024.101661_b115",
+          "doi-asserted-by": "crossref",
+          "first-page": "219",
+          "DOI": "10.1016/j.cmpb.2019.06.029",
+          "article-title": "C-HMOSHSSA: Gene selection for cancer classification using multi-objective meta-heuristic and machine learning methods - ScienceDirect",
+          "volume": "178",
+          "author": "Aman",
+          "year": "2019",
+          "journal-title": "Comput. Methods Programs Biomed."
+        },
+        {
+          "key": "10.1016/j.swevo.2024.101661_b116",
+          "doi-asserted-by": "crossref",
+          "unstructured": "T.M. Hamdani, J.M. Won, A.M. Alimi, F. Karray, Multi-objective Feature Selection with NSGA II, in: Adaptive and Natural Computing Algorithms: 8th International Conference, 2007, pp. 240–247.",
+          "DOI": "10.1007/978-3-540-71618-1_27"
+        },
+        {
+          "issue": "1",
+          "key": "10.1016/j.swevo.2024.101661_b117",
+          "doi-asserted-by": "crossref",
+          "first-page": "4",
+          "DOI": "10.1109/TEVC.2013.2290086",
+          "article-title": "A survey of multiobjective evolutionary algorithms for data mining: Part I",
+          "volume": "18",
+          "author": "Mukhopadhyay",
+          "year": "2014",
+          "journal-title": "IEEE Trans. Evol. Comput."
+        },
+        {
+          "issue": "7",
+          "key": "10.1016/j.swevo.2024.101661_b118",
+          "doi-asserted-by": "crossref",
+          "first-page": "1187",
+          "DOI": "10.1016/j.apr.2020.04.013",
+          "article-title": "PM 2.5 concentrations forecasting using a new multi-objective feature selection and ensemble framework",
+          "volume": "11",
+          "author": "Wu",
+          "year": "2020",
+          "journal-title": "Atmos. Pollut. Res."
+        },
+        {
+          "issue": "1",
+          "key": "10.1016/j.swevo.2024.101661_b119",
+          "article-title": "Online feature selection system for big data classification based on multi-objective automated negotiation",
+          "volume": "110",
+          "author": "Bensaid",
+          "year": "2021",
+          "journal-title": "Pattern Recognit."
+        },
+        {
+          "issue": "5",
+          "key": "10.1016/j.swevo.2024.101661_b120",
+          "doi-asserted-by": "crossref",
+          "first-page": "3638",
+          "DOI": "10.1016/j.eswa.2009.10.027",
+          "article-title": "Multi-objective feature selection by using NSGA-II for customer churn prediction in telecommunications",
+          "volume": "37",
+          "author": "Huang",
+          "year": "2010",
+          "journal-title": "Expert Syst. Appl."
+        },
+        {
+          "key": "10.1016/j.swevo.2024.101661_b121",
+          "doi-asserted-by": "crossref",
+          "first-page": "245",
+          "DOI": "10.1016/j.ins.2020.03.032",
+          "article-title": "Multi-objective feature selection using hybridization of a genetic algorithm and direct multisearch for key quality characteristic selection",
+          "volume": "523",
+          "author": "Li",
+          "year": "2020",
+          "journal-title": "Inform. Sci."
+        },
+        {
+          "key": "10.1016/j.swevo.2024.101661_b122",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1016/j.eswa.2020.113276",
+          "article-title": "A multi-objective genetic algorithm for text feature selection using the relative discriminative criterion",
+          "volume": "149",
+          "author": "Labani",
+          "year": "2020",
+          "journal-title": "Expert Syst. Appl."
+        },
+        {
+          "key": "10.1016/j.swevo.2024.101661_b123",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1016/j.swevo.2021.100925",
+          "article-title": "An interactive filter-wrapper multi-objective evolutionary algorithm for feature selection",
+          "volume": "65",
+          "author": "Liu",
+          "year": "2021",
+          "journal-title": "Swarm Evol. Comput."
+        },
+        {
+          "issue": "2",
+          "key": "10.1016/j.swevo.2024.101661_b124",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1007/s11432-023-3864-6",
+          "article-title": "An evolutionary multiobjective method based on dominance and decomposition for feature selection in classification",
+          "volume": "67",
+          "author": "Liang",
+          "year": "2024",
+          "journal-title": "Sci. China Inf. Sci."
+        },
+        {
+          "issue": "6",
+          "key": "10.1016/j.swevo.2024.101661_b125",
+          "doi-asserted-by": "crossref",
+          "first-page": "1656",
+          "DOI": "10.1109/TSMCB.2012.2227469",
+          "article-title": "Particle swarm optimization for feature selection in classification: A multi-objective approach",
+          "volume": "43",
+          "author": "Xue",
+          "year": "2013",
+          "journal-title": "IEEE Trans. Cybern."
+        },
+        {
+          "key": "10.1016/j.swevo.2024.101661_b126",
+          "doi-asserted-by": "crossref",
+          "first-page": "499",
+          "DOI": "10.1016/j.eswa.2018.07.013",
+          "article-title": "Optimizing multi-objective PSO based feature selection method using a feature elitism mechanism",
+          "volume": "113",
+          "author": "Amoozegar",
+          "year": "2018",
+          "journal-title": "Expert Syst. Appl."
+        },
+        {
+          "issue": "6",
+          "key": "10.1016/j.swevo.2024.101661_b127",
+          "doi-asserted-by": "crossref",
+          "first-page": "4370",
+          "DOI": "10.1016/j.ygeno.2020.07.027",
+          "article-title": "Integration of multi-objective PSO based feature selection and node centrality for medical datasets",
+          "volume": "112",
+          "author": "Rostami",
+          "year": "2020",
+          "journal-title": "Genomics"
+        },
+        {
+          "key": "10.1016/j.swevo.2024.101661_b128",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1016/j.swevo.2020.100770",
+          "article-title": "An evolutionary multi-objective optimization framework of discretization-based feature selection for classification",
+          "volume": "60",
+          "author": "Zhou",
+          "year": "2021",
+          "journal-title": "Swarm Evol. Comput."
+        },
+        {
+          "issue": "6",
+          "key": "10.1016/j.swevo.2024.101661_b129",
+          "article-title": "Multi-objective particle swarm optimization with adaptive strategies for feature selection",
+          "volume": "62",
+          "author": "Han",
+          "year": "2021",
+          "journal-title": "Swarm Evol. Comput."
+        },
+        {
+          "issue": "2",
+          "key": "10.1016/j.swevo.2024.101661_b130",
+          "doi-asserted-by": "crossref",
+          "first-page": "874",
+          "DOI": "10.1109/TCYB.2020.3015756",
+          "article-title": "Multiobjective particle swarm optimization for feature selection with fuzzy cost",
+          "volume": "51",
+          "author": "Hu",
+          "year": "2021",
+          "journal-title": "IEEE Trans. Cybern."
+        },
+        {
+          "issue": "6",
+          "key": "10.1016/j.swevo.2024.101661_b131",
+          "article-title": "A multi-objective feature selection method using Newton’s law based PSO with GWO",
+          "volume": "107",
+          "author": "Dhal",
+          "year": "2021",
+          "journal-title": "Appl. Soft Comput."
+        },
+        {
+          "key": "10.1016/j.swevo.2024.101661_b132",
+          "unstructured": "Y. Zhang, M. Rong, D. Gong, A multi-objective feature selection based on art, in: The 2015 International Conference on Control, 2015, pp. 29–31."
+        },
+        {
+          "key": "10.1016/j.swevo.2024.101661_b133",
+          "doi-asserted-by": "crossref",
+          "first-page": "129",
+          "DOI": "10.1016/j.eswa.2017.07.037",
+          "article-title": "Multi-objective differential evolution for feature selection in facial expression recognition systems",
+          "volume": "89",
+          "author": "Mlakar",
+          "year": "2017",
+          "journal-title": "Expert Syst. Appl."
+        },
+        {
+          "key": "10.1016/j.swevo.2024.101661_b134",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1016/j.engappai.2019.103307",
+          "article-title": "A new multi-objective differential evolution approach for simultaneous clustering and feature selection",
+          "volume": "87",
+          "author": "Hancer",
+          "year": "2020",
+          "journal-title": "Eng. Appl. Artif. Intell."
+        },
+        {
+          "key": "10.1016/j.swevo.2024.101661_b135",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1016/j.asoc.2020.106442",
+          "article-title": "A multi-objective artificial butterfly optimization approach for feature selection",
+          "volume": "94",
+          "author": "Rodrigues",
+          "year": "2020",
+          "journal-title": "Appl. Soft Comput."
+        },
+        {
+          "key": "10.1016/j.swevo.2024.101661_b136",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1016/j.asoc.2019.106041",
+          "article-title": "Multi-objective feature selection based on artificial bee colony: An acceleration approach with variable sample size",
+          "volume": "88",
+          "author": "Wang",
+          "year": "2020",
+          "journal-title": "Appl. Soft Comput."
+        },
+        {
+          "issue": "3",
+          "key": "10.1016/j.swevo.2024.101661_b137",
+          "article-title": "A novel multi-objective forest optimization algorithm for wrapper feature selection",
+          "volume": "175",
+          "author": "Nouri-Moghaddam",
+          "year": "2021",
+          "journal-title": "Expert Syst. Appl."
+        },
+        {
+          "key": "10.1016/j.swevo.2024.101661_b138",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1016/j.asoc.2021.107745",
+          "article-title": "Energy consumption prediction of appliances using machine learning and multi-objective binary grey wolf optimization for feature selection",
+          "volume": "111",
+          "author": "Moldovan",
+          "year": "2021",
+          "journal-title": "Appl. Soft Comput."
+        },
+        {
+          "key": "10.1016/j.swevo.2024.101661_b139",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1016/j.eswa.2021.115312",
+          "article-title": "Hybrid filter-wrapper feature selection using whale optimization algorithm: A multi-objective approach",
+          "volume": "183",
+          "author": "Got",
+          "year": "2021",
+          "journal-title": "Expert Syst. Appl."
+        },
+        {
+          "key": "10.1016/j.swevo.2024.101661_b140",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1016/j.asoc.2021.107794",
+          "article-title": "A multi-objective feature selection approach based on chemical reaction optimization",
+          "volume": "112",
+          "author": "Qiu",
+          "year": "2021",
+          "journal-title": "Appl. Soft Comput."
+        },
+        {
+          "key": "10.1016/j.swevo.2024.101661_b141",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1016/j.cie.2020.106628",
+          "article-title": "A dynamic locality multi-objective salp swarm algorithm for feature selection",
+          "volume": "147",
+          "author": "Aljarah",
+          "year": "2020",
+          "journal-title": "Comput. Ind. Eng."
+        },
+        {
+          "issue": "4",
+          "key": "10.1016/j.swevo.2024.101661_b142",
+          "article-title": "Multi-objective symbiotic organism search algorithm for optimal feature selection in brain computer interfaces",
+          "volume": "165",
+          "author": "Baysal",
+          "year": "2020",
+          "journal-title": "Expert Syst. Appl."
+        },
+        {
+          "issue": "2",
+          "key": "10.1016/j.swevo.2024.101661_b143",
+          "first-page": "174",
+          "article-title": "Elitism based multi-objective differential evolution for feature selection: A filter approach with an efficient redundancy measure",
+          "volume": "32",
+          "author": "Nayak",
+          "year": "2020",
+          "journal-title": "J. King Saud Univ., Comput. Inf. Sci."
+        },
+        {
+          "key": "10.1016/j.swevo.2024.101661_b144",
+          "doi-asserted-by": "crossref",
+          "first-page": "407",
+          "DOI": "10.1016/j.neucom.2019.01.017",
+          "article-title": "A new multi-objective wrapper method for feature selection-accuracy and stability analysis for BCI",
+          "volume": "333",
+          "author": "Gonzalez",
+          "year": "2019",
+          "journal-title": "Neurocomputing"
+        },
+        {
+          "issue": "1",
+          "key": "10.1016/j.swevo.2024.101661_b145",
+          "doi-asserted-by": "crossref",
+          "first-page": "194",
+          "DOI": "10.1109/JBHI.2019.2902298",
+          "article-title": "Multi-objective-based radiomic feature selection for lesion malignancy classification",
+          "volume": "24",
+          "author": "Zhou",
+          "year": "2020",
+          "journal-title": "IEEE J. Biomed. Health Inf."
+        },
+        {
+          "issue": "8",
+          "key": "10.1016/j.swevo.2024.101661_b146",
+          "doi-asserted-by": "crossref",
+          "first-page": "3784",
+          "DOI": "10.1109/TLA.2016.7786364",
+          "article-title": "An empirical comparison of feature selection methods in problem transformation multi-label classification",
+          "volume": "14",
+          "author": "Rodriguez",
+          "year": "2016",
+          "journal-title": "IEEE Lat. Am. Trans."
+        },
+        {
+          "key": "10.1016/j.swevo.2024.101661_b147",
+          "doi-asserted-by": "crossref",
+          "first-page": "135",
+          "DOI": "10.1016/j.entcs.2013.02.010",
+          "article-title": "A comparison of multi-label feature selection methods using the problem transformation approach",
+          "volume": "292",
+          "author": "Spolaôr",
+          "year": "2013",
+          "journal-title": "Electron. Notes Theor. Comput. Sci."
+        },
+        {
+          "key": "10.1016/j.swevo.2024.101661_b148",
+          "doi-asserted-by": "crossref",
+          "first-page": "3",
+          "DOI": "10.1016/j.neucom.2015.07.118",
+          "article-title": "A systematic review of multi-label feature selection and a new method based on label construction",
+          "volume": "180",
+          "author": "Spolaor",
+          "year": "2016",
+          "journal-title": "Neurocomputing"
+        },
+        {
+          "key": "10.1016/j.swevo.2024.101661_b149",
+          "doi-asserted-by": "crossref",
+          "first-page": "273",
+          "DOI": "10.1016/j.patcog.2018.07.021",
+          "article-title": "Online multi-label streaming feature selection based on neighborhood rough set",
+          "volume": "84",
+          "author": "Liu",
+          "year": "2018",
+          "journal-title": "Pattern Recognit."
+        },
+        {
+          "issue": "8)",
+          "key": "10.1016/j.swevo.2024.101661_b150",
+          "article-title": "Multi-label feature selection via manifold regularization and dependence maximization",
+          "volume": "120",
+          "author": "Huang",
+          "year": "2021",
+          "journal-title": "Pattern Recognit."
+        },
+        {
+          "key": "10.1016/j.swevo.2024.101661_b151",
+          "doi-asserted-by": "crossref",
+          "unstructured": "S. Kashef, H. Nezamabadi-pour, An effective method of multi-label feature selection employing evolutionary algorithms, in: 2017 2nd Conference on Swarm Intelligence and Evolutionary Computation, 2017, pp. 21–25.",
+          "DOI": "10.1109/CSIEC.2017.7940162"
+        },
+        {
+          "key": "10.1016/j.swevo.2024.101661_b152",
+          "doi-asserted-by": "crossref",
+          "first-page": "80",
+          "DOI": "10.1016/j.ins.2014.09.020",
+          "article-title": "Memetic feature selection algorithm for multi-label classification",
+          "volume": "293",
+          "author": "Lee",
+          "year": "2015",
+          "journal-title": "Inform. Sci."
+        },
+        {
+          "key": "10.1016/j.swevo.2024.101661_b153",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1016/j.knosys.2019.105285",
+          "article-title": "MLACO: A multi-label feature selection algorithm based on ant colony optimization",
+          "volume": "192",
+          "author": "Paniri",
+          "year": "2020",
+          "journal-title": "Knowl.-Based Syst."
+        },
+        {
+          "key": "10.1016/j.swevo.2024.101661_b154",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Y. Tao, J. Li, J. Xu, Multi-label Feature Selection Method via Maximizing Correlation-based Criterion with Mutation Binary Bat Algorithm, in: 2020 International Joint Conference on Neural Networks, 2020, pp. 1–8.",
+          "DOI": "10.1109/IJCNN48605.2020.9207541"
+        },
+        {
+          "key": "10.1016/j.swevo.2024.101661_b155",
+          "doi-asserted-by": "crossref",
+          "unstructured": "N.V. Varghese, A. Singh, A. Suresh, S. Rahnamayan, Binary Hybrid Differential Evolution Algorithm for Multi-label Feature Selection, in: 2020 IEEE International Conference on Systems, Man, and Cybernetics, 2020, pp. 4386–4391.",
+          "DOI": "10.1109/SMC42975.2020.9283208"
+        },
+        {
+          "key": "10.1016/j.swevo.2024.101661_b156",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1016/j.swevo.2021.100892",
+          "article-title": "Ant-TD: Ant colony optimization plus temporal difference reinforcement learning for multi-label feature selection",
+          "volume": "64",
+          "author": "Paniri",
+          "year": "2021",
+          "journal-title": "Swarm Evol. Comput."
+        },
+        {
+          "key": "10.1016/j.swevo.2024.101661_b157",
+          "doi-asserted-by": "crossref",
+          "unstructured": "J. Desai, B.H. Nguyen, B. Xue, Multi-Label Feature Selection Using Particle Swarm Optimization: Novel Local Search Mechanisms, in: 2019 IEEE Symposium Series on Computational Intelligence, 2019, pp. 1762–1769.",
+          "DOI": "10.1109/SSCI44817.2019.9002734"
+        },
+        {
+          "key": "10.1016/j.swevo.2024.101661_b158",
+          "doi-asserted-by": "crossref",
+          "unstructured": "A.A. Bidgoli, H. Ebrahimpour-Komleh, S. Rahnamayan, A Novel Multi-objective Binary Differential Evolution Algorithm for Multi-label Feature Selection, in: 2019 IEEE Congress on Evolutionary Computation, 2019, pp. 1588–1595.",
+          "DOI": "10.1109/CEC.2019.8790287"
+        },
+        {
+          "key": "10.1016/j.swevo.2024.101661_b159",
+          "doi-asserted-by": "crossref",
+          "first-page": "1",
+          "DOI": "10.1016/j.ins.2020.08.004",
+          "article-title": "Reference-point-based multi-objective optimization algorithm with opposition-based voting scheme for multi-label feature selection",
+          "volume": "547",
+          "author": "Bidgoli",
+          "year": "2021",
+          "journal-title": "Inform. Sci."
+        },
+        {
+          "key": "10.1016/j.swevo.2024.101661_b160",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1016/j.knosys.2020.106456",
+          "article-title": "A many-objective feature selection for multi-label classification",
+          "volume": "208",
+          "author": "Dong",
+          "year": "2020",
+          "journal-title": "Knowl.-Based Syst."
+        },
+        {
+          "key": "10.1016/j.swevo.2024.101661_b161",
+          "doi-asserted-by": "crossref",
+          "unstructured": "K. Demir, B.H. Nguyen, B. Xue, M. Zhang, Multi-objective Multi-label Feature Selection with an Aggregated Performance Metric and Dominance-based Initialisation, in: 2021 IEEE Congress on Evolutionary Computation, 2021, pp. 760–767.",
+          "DOI": "10.1109/CEC45853.2021.9504960"
+        },
+        {
+          "key": "10.1016/j.swevo.2024.101661_b162",
+          "doi-asserted-by": "crossref",
+          "first-page": "27",
+          "DOI": "10.1016/j.knosys.2016.09.022",
+          "article-title": "Centralized vs. distributed feature selection methods based on data complexity measures",
+          "volume": "117",
+          "author": "Morán-Fernández",
+          "year": "2017",
+          "journal-title": "Knowl. Based Syst."
+        },
+        {
+          "issue": "5",
+          "key": "10.1016/j.swevo.2024.101661_b163",
+          "doi-asserted-by": "crossref",
+          "first-page": "846",
+          "DOI": "10.1109/TFUZZ.2019.2955894",
+          "article-title": "Distributed feature selection for big data using fuzzy rough sets",
+          "volume": "28",
+          "author": "Kong",
+          "year": "2020",
+          "journal-title": "IEEE Trans. Fuzzy Syst."
+        },
+        {
+          "issue": "3",
+          "key": "10.1016/j.swevo.2024.101661_b164",
+          "first-page": "2193",
+          "article-title": "A distributed integrated feature selection scheme for column subset selection",
+          "volume": "35",
+          "author": "Xiao",
+          "year": "2023",
+          "journal-title": "IEEE Trans. Knowl. Data Eng."
+        },
+        {
+          "key": "10.1016/j.swevo.2024.101661_b165",
+          "doi-asserted-by": "crossref",
+          "unstructured": "M. Galar, I. Triguero, H. Bustince, F. Herrera, A Preliminary Study of the Feasibility of Global Evolutionary Feature Selection for Big Datasets under Apache Spark, in: 2018 IEEE Congress on Evolutionary Computation, 2018, pp. 1–8.",
+          "DOI": "10.1109/CEC.2018.8477878"
+        },
+        {
+          "key": "10.1016/j.swevo.2024.101661_b166",
+          "doi-asserted-by": "crossref",
+          "unstructured": "H. Chen, Z. Hu, L. Han, Q. Hou, Z. Ye, J. Yuan, J. Zeng, A Spark-based Distributed Whale Optimization Algorithm for Feature Selection, in: 2019 10th IEEE International Conference on Intelligent Data Acquisition and Advanced Computing Systems: Technology and Applications, 2019, pp. 70–74.",
+          "DOI": "10.1109/IDAACS.2019.8924334"
+        },
+        {
+          "key": "10.1016/j.swevo.2024.101661_b167",
+          "doi-asserted-by": "crossref",
+          "unstructured": "H. Chen, Q. Hou, L. Han, Z. Hu, Z. Ye, J. Zeng, J. Yuan, Distributed Text Feature Selection Based On Bat Algorithm Optimization, in: 2019 10th IEEE International Conference on Intelligent Data Acquisition and Advanced Computing Systems: Technology and Applications, 2019, pp. 75–80.",
+          "DOI": "10.1109/IDAACS.2019.8924308"
+        },
+        {
+          "key": "10.1016/j.swevo.2024.101661_b168",
+          "doi-asserted-by": "crossref",
+          "unstructured": "H. Chen, H. Fu, Q. Cao, L. Han, L. Yan, Feature Selection of Parallel Binary Moth-flame Optimization Algorithm Based on Spark, in: 2019 IEEE 3rd Information Technology, Networking, Electronic and Automation Control Conference, 2019, pp. 408–412.",
+          "DOI": "10.1109/ITNEC.2019.8729350"
+        },
+        {
+          "key": "10.1016/j.swevo.2024.101661_b169",
+          "doi-asserted-by": "crossref",
+          "first-page": "952",
+          "DOI": "10.1016/j.future.2019.02.030",
+          "article-title": "Multiobjective feature selection for microarray data via distributed parallel algorithms",
+          "volume": "100",
+          "author": "Cao",
+          "year": "2019",
+          "journal-title": "Future Gener. Comput. Syst."
+        },
+        {
+          "issue": "2",
+          "key": "10.1016/j.swevo.2024.101661_b170",
+          "doi-asserted-by": "crossref",
+          "first-page": "425",
+          "DOI": "10.1109/TCYB.2018.2859342",
+          "article-title": "Multiple relevant feature ensemble selection based on multilayer Co-evolutionary consensus MapReduce",
+          "volume": "50",
+          "author": "Ding",
+          "year": "2020",
+          "journal-title": "IEEE Trans. Cybern."
+        },
+        {
+          "issue": "7",
+          "key": "10.1016/j.swevo.2024.101661_b171",
+          "doi-asserted-by": "crossref",
+          "first-page": "1652",
+          "DOI": "10.1109/TCYB.2016.2554622",
+          "article-title": "Multiobjective multifactorial optimization in evolutionary multitasking",
+          "volume": "47",
+          "author": "Gupta",
+          "year": "2016",
+          "journal-title": "IEEE Trans. Cybern."
+        },
+        {
+          "issue": "7",
+          "key": "10.1016/j.swevo.2024.101661_b172",
+          "doi-asserted-by": "crossref",
+          "first-page": "7172",
+          "DOI": "10.1109/TCYB.2020.3042243",
+          "article-title": "An evolutionary multitasking-based feature selection method for high-dimensional classification",
+          "volume": "52",
+          "author": "Chen",
+          "year": "2022",
+          "journal-title": "IEEE Trans. Cybern."
+        },
+        {
+          "issue": "3",
+          "key": "10.1016/j.swevo.2024.101661_b173",
+          "doi-asserted-by": "crossref",
+          "first-page": "446",
+          "DOI": "10.1109/TEVC.2021.3100056",
+          "article-title": "Evolutionary multitasking for feature selection in high-dimensional classification via particle swarm optimization",
+          "volume": "26",
+          "author": "Chen",
+          "year": "2022",
+          "journal-title": "IEEE Trans. Evol. Comput."
+        },
+        {
+          "issue": "4",
+          "key": "10.1016/j.swevo.2024.101661_b174",
+          "doi-asserted-by": "crossref",
+          "first-page": "802",
+          "DOI": "10.1109/TEVC.2023.3254155",
+          "article-title": "An evolutionary multitasking algorithm with multiple filtering for high-dimensional feature selection",
+          "volume": "27",
+          "author": "Li",
+          "year": "2023",
+          "journal-title": "IEEE Trans. Evol. Comput."
+        },
+        {
+          "key": "10.1016/j.swevo.2024.101661_b175",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1109/TEVC.2023.3284867",
+          "article-title": "A multiform optimization framework for multi-objective feature selection in classification",
+          "author": "Liang",
+          "year": "2024",
+          "journal-title": "IEEE Trans. Evol. Comput."
+        },
+        {
+          "issue": "12",
+          "key": "10.1016/j.swevo.2024.101661_b176",
+          "doi-asserted-by": "crossref",
+          "first-page": "7773",
+          "DOI": "10.1109/TCYB.2022.3218345",
+          "article-title": "Benefiting from single-objective feature selection to multiobjective feature selection: A multiform approach",
+          "volume": "53",
+          "author": "Jiao",
+          "year": "2023",
+          "journal-title": "IEEE Trans. Cybern."
+        },
+        {
+          "key": "10.1016/j.swevo.2024.101661_b177",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1016/j.asoc.2022.108606",
+          "article-title": "A two-archive model based evolutionary algorithm for multimodal multi-objective optimization problems",
+          "volume": "119",
+          "author": "Hu",
+          "year": "2022",
+          "journal-title": "Appl. Soft Comput."
+        },
+        {
+          "issue": "12",
+          "key": "10.1016/j.swevo.2024.101661_b178",
+          "doi-asserted-by": "crossref",
+          "first-page": "7845",
+          "DOI": "10.1109/TSMC.2022.3171549",
+          "article-title": "Competition-driven multimodal multiobjective optimization and its application to feature selection for credit card fraud detection",
+          "volume": "52",
+          "author": "Han",
+          "year": "2022",
+          "journal-title": "IEEE Trans. Syst. Man Cybern. A"
+        },
+        {
+          "key": "10.1016/j.swevo.2024.101661_b179",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1016/j.engappai.2024.108040",
+          "article-title": "Manifold assistant multi-modal multi-objective differential evolution algorithm and its application in actual rolling bearing fault diagnosis",
+          "volume": "133",
+          "author": "Yang",
+          "year": "2024",
+          "journal-title": "Eng. Appl. Artif. Intell."
+        },
+        {
+          "key": "10.1016/j.swevo.2024.101661_b180",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1016/j.compbiomed.2022.105536",
+          "article-title": "An enhance multimodal multiobjective optimization genetic algorithm with special crowding distance for pulmonary hypertension feature selection",
+          "volume": "146",
+          "author": "Wang",
+          "year": "2022",
+          "journal-title": "Comput. Biol. Med."
+        },
+        {
+          "key": "10.1016/j.swevo.2024.101661_b181",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1109/TAI.2024.3380590",
+          "article-title": "A multimodal multi-objective evolutionary algorithm for filter feature selection in multi-label classification",
+          "author": "Hancer",
+          "year": "2024",
+          "journal-title": "IEEE Trans. Artif. Intell."
+        },
+        {
+          "issue": "8",
+          "key": "10.1016/j.swevo.2024.101661_b182",
+          "doi-asserted-by": "crossref",
+          "first-page": "1495",
+          "DOI": "10.1587/transinf.2021EDL8095",
+          "article-title": "An interpretable feature selection based on particle swarm optimization",
+          "volume": "105",
+          "author": "Liu",
+          "year": "2022",
+          "journal-title": "IEICE Trans. Inf. Syst."
+        },
+        {
+          "key": "10.1016/j.swevo.2024.101661_b183",
+          "doi-asserted-by": "crossref",
+          "first-page": "46604",
+          "DOI": "10.1109/ACCESS.2023.3274490",
+          "article-title": "Evolutionary approach for interpretable feature selection algorithm in manufacturing industry",
+          "volume": "11",
+          "author": "Oh",
+          "year": "2023",
+          "journal-title": "IEEE Access"
+        },
+        {
+          "issue": "1",
+          "key": "10.1016/j.swevo.2024.101661_b184",
+          "doi-asserted-by": "crossref",
+          "first-page": "10",
+          "DOI": "10.1049/ell2.12350",
+          "article-title": "Stable feature selection based on brain storm optimisation for high-dimensional data",
+          "volume": "58",
+          "author": "Li",
+          "year": "2022",
+          "journal-title": "Electron. Lett."
+        },
+        {
+          "key": "10.1016/j.swevo.2024.101661_b185",
+          "first-page": "437",
+          "article-title": "Stable feature selection for gene expression using enhanced binary particle swarm optimization",
+          "volume": "vol. 2",
+          "author": "Dhrif",
+          "year": "2020"
+        },
+        {
+          "issue": "7",
+          "key": "10.1016/j.swevo.2024.101661_b186",
+          "doi-asserted-by": "crossref",
+          "first-page": "4092",
+          "DOI": "10.1109/TGRS.2013.2279591",
+          "article-title": "Hyperspectral band selection based on trivariate mutual information and clonal selection",
+          "volume": "52",
+          "author": "Feng",
+          "year": "2014",
+          "journal-title": "IEEE Trans. Geosci. Remote Sens."
+        },
+        {
+          "key": "10.1016/j.swevo.2024.101661_b187",
+          "doi-asserted-by": "crossref",
+          "unstructured": "D. Saqui, J. Saito, D. de Lima, L. Jorge, E. Ferreira, S. Ataky, F. Fambrini, NSGA2-based method for band selection for supervised segmentation in hyperspectral imaging, in: 2019 IEEE International Conference on Systems, Man and Cybernetics, 2019, pp. 3580–3585.",
+          "DOI": "10.1109/SMC.2019.8913846"
+        },
+        {
+          "key": "10.1016/j.swevo.2024.101661_b188",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1016/j.patcog.2020.107213",
+          "article-title": "MIMN-DPP: Maximum-information and minimum-noise determinantal point processes for unsupervised hyperspectral band selection",
+          "volume": "102",
+          "author": "Chen",
+          "year": "2020",
+          "journal-title": "Pattern Recognit."
+        },
+        {
+          "key": "10.1016/j.swevo.2024.101661_b189",
+          "doi-asserted-by": "crossref",
+          "first-page": "336",
+          "DOI": "10.1016/j.eswa.2017.12.034",
+          "article-title": "A binary social spider optimization algorithm for unsupervised band selection in compressed hyperspectral images",
+          "volume": "97",
+          "author": "Shukla",
+          "year": "2018",
+          "journal-title": "Expert Syst. Appl."
+        },
+        {
+          "key": "10.1016/j.swevo.2024.101661_b190",
+          "doi-asserted-by": "crossref",
+          "first-page": "189",
+          "DOI": "10.1016/j.inffus.2019.02.005",
+          "article-title": "MIMR-DGSA: Unsupervised hyperspectral band selection based on information theory and a modified discrete gravitational search algorithm",
+          "volume": "51",
+          "author": "Tschannerl",
+          "year": "2019",
+          "journal-title": "Int. J. Inf. Fusion"
+        },
+        {
+          "key": "10.1016/j.swevo.2024.101661_b191",
+          "doi-asserted-by": "crossref",
+          "first-page": "428",
+          "DOI": "10.1016/j.asoc.2018.11.014",
+          "article-title": "Unsupervised band selection based on artificial bee colony algorithm for hyperspectral image classification",
+          "volume": "75",
+          "author": "Xie",
+          "year": "2019",
+          "journal-title": "Appl. Soft Comput."
+        },
+        {
+          "key": "10.1016/j.swevo.2024.101661_b192",
+          "doi-asserted-by": "crossref",
+          "unstructured": "M. Zhang, J. Ma, M. Gong, H. Li, J. Liu, Memetic algorithm based feature selection for hyperspectral images classification, in: 2017 IEEE Congress on Evolutionary Computation, 2017, pp. 495–502.",
+          "DOI": "10.1109/CEC.2017.7969352"
+        },
+        {
+          "issue": "11",
+          "key": "10.1016/j.swevo.2024.101661_b193",
+          "doi-asserted-by": "crossref",
+          "first-page": "2112",
+          "DOI": "10.1109/LGRS.2017.2753237",
+          "article-title": "A new unsupervised hyperspectral band selection method based on multiobjective optimization",
+          "volume": "14",
+          "author": "Xu",
+          "year": "2017",
+          "journal-title": "IEEE Geosci. Remote Sens. Lett."
+        },
+        {
+          "key": "10.1016/j.swevo.2024.101661_b194",
+          "doi-asserted-by": "crossref",
+          "first-page": "604",
+          "DOI": "10.1016/j.asoc.2018.06.009",
+          "article-title": "Hyperspectral band selection based on multi-objective optimization with high information and low redundancy",
+          "volume": "70",
+          "author": "Zhang",
+          "year": "2018",
+          "journal-title": "Appl. Soft Comput."
+        },
+        {
+          "issue": "1",
+          "key": "10.1016/j.swevo.2024.101661_b195",
+          "doi-asserted-by": "crossref",
+          "first-page": "544",
+          "DOI": "10.1109/TGRS.2015.2461653",
+          "article-title": "Unsupervised band selection based on evolutionary multiobjective optimization for hyperspectral images",
+          "volume": "54",
+          "author": "Gong",
+          "year": "2016",
+          "journal-title": "IEEE Trans. Geosci. Remote Sens."
+        },
+        {
+          "issue": "1",
+          "key": "10.1016/j.swevo.2024.101661_b196",
+          "article-title": "A multi-strategy integrated multi-objective artificial bee colony for unsupervised band selection of hyperspectral images",
+          "volume": "60",
+          "author": "Zhang",
+          "year": "2021",
+          "journal-title": "Swarm Evol. Comput."
+        },
+        {
+          "issue": "4",
+          "key": "10.1016/j.swevo.2024.101661_b197",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1142/S0219720013500054",
+          "article-title": "A variational Bayes beta mixture model for feature selection in DNA methylation studies",
+          "volume": "11",
+          "author": "Ma",
+          "year": "2013",
+          "journal-title": "J. Bioinform. Comput. Biol."
+        },
+        {
+          "issue": "2",
+          "key": "10.1016/j.swevo.2024.101661_b198",
+          "doi-asserted-by": "crossref",
+          "first-page": "152",
+          "DOI": "10.1109/TNB.2014.2312132",
+          "article-title": "Fuzzy preference based feature selection and semisupervised SVM for cancer classification",
+          "volume": "13",
+          "author": "Maulik",
+          "year": "2014",
+          "journal-title": "IEEE Trans. NanoBioscience"
+        },
+        {
+          "issue": "4",
+          "key": "10.1016/j.swevo.2024.101661_b199",
+          "doi-asserted-by": "crossref",
+          "first-page": "669",
+          "DOI": "10.1016/j.ygeno.2018.04.004",
+          "article-title": "Gene selection using hybrid binary black hole algorithm and modified binary particle swarm optimization",
+          "volume": "111",
+          "author": "Pashaei",
+          "year": "2018",
+          "journal-title": "Genomics"
+        },
+        {
+          "issue": "1",
+          "key": "10.1016/j.swevo.2024.101661_b200",
+          "doi-asserted-by": "crossref",
+          "first-page": "85",
+          "DOI": "10.1109/TCBB.2015.2465906",
+          "article-title": "A gene selection method for microarray data based on binary PSO encoding gene-to-class sensitivity information",
+          "volume": "14",
+          "author": "Han",
+          "year": "2017",
+          "journal-title": "IEEE/ACM Trans. Comput. Biol. Bioinform."
+        },
+        {
+          "key": "10.1016/j.swevo.2024.101661_b201",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1016/j.asoc.2020.106994",
+          "article-title": "A gene selection algorithm using simplified swarm optimization with multi-filter ensemble technique",
+          "volume": "100",
+          "author": "Lai",
+          "year": "2021",
+          "journal-title": "Appl. Soft Comput."
+        },
+        {
+          "issue": "15",
+          "key": "10.1016/j.swevo.2024.101661_b202",
+          "doi-asserted-by": "crossref",
+          "first-page": "11897",
+          "DOI": "10.1007/s00521-019-04671-2",
+          "article-title": "Multi-population adaptive genetic algorithm for selection of microarray biomarkers",
+          "volume": "32",
+          "author": "Shukla",
+          "year": "2020",
+          "journal-title": "Neural Comput. Appl."
+        },
+        {
+          "key": "10.1016/j.swevo.2024.101661_b203",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1016/j.knosys.2020.106323",
+          "article-title": "Artificial bee colony algorithm based on dominance (ABCD) for a hybrid gene selection method-ScienceDirect",
+          "volume": "205",
+          "author": "Coleto-Alcudia",
+          "year": "2020",
+          "journal-title": "Knowl.-Based Syst."
+        },
+        {
+          "issue": "1",
+          "key": "10.1016/j.swevo.2024.101661_b204",
+          "doi-asserted-by": "crossref",
+          "first-page": "8978",
+          "DOI": "10.1038/s41598-019-45223-x",
+          "article-title": "A hybrid gene selection method based on ReliefF and ant colony optimization algorithm for tumor classification",
+          "volume": "9",
+          "author": "Sun",
+          "year": "2019",
+          "journal-title": "Sci. Rep."
+        },
+        {
+          "key": "10.1016/j.swevo.2024.101661_b205",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1016/j.swevo.2020.100661",
+          "article-title": "Gene selection for cancer types classification using novel hybrid metaheuristics approach",
+          "volume": "54",
+          "author": "Shukla",
+          "year": "2020",
+          "journal-title": "Swarm Evol. Comput."
+        },
+        {
+          "key": "10.1016/j.swevo.2024.101661_b206",
+          "doi-asserted-by": "crossref",
+          "first-page": "63",
+          "DOI": "10.1016/j.patrec.2021.03.034",
+          "article-title": "Feature selection using hybrid poor and rich optimization algorithm for text classification",
+          "volume": "147",
+          "author": "Thirumoorthy",
+          "year": "2021",
+          "journal-title": "Pattern Recognit. Lett."
+        },
+        {
+          "key": "10.1016/j.swevo.2024.101661_b207",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1016/j.knosys.2023.110635",
+          "article-title": "Enhanced binary black hole algorithm for text feature selection on resources classification",
+          "volume": "274",
+          "author": "Wu",
+          "year": "2023",
+          "journal-title": "Knowl.-Based Syst."
+        },
+        {
+          "key": "10.1016/j.swevo.2024.101661_b208",
+          "doi-asserted-by": "crossref",
+          "first-page": "263",
+          "DOI": "10.1016/j.ins.2019.02.021",
+          "article-title": "Memetic feature selection for multilabel text categorization using label frequency difference",
+          "volume": "485",
+          "author": "Lee",
+          "year": "2019",
+          "journal-title": "Inform. Sci."
+        },
+        {
+          "issue": "5",
+          "key": "10.1016/j.swevo.2024.101661_b209",
+          "doi-asserted-by": "crossref",
+          "first-page": "10235",
+          "DOI": "10.3233/JIFS-201803",
+          "article-title": "Fault detection in mixture production process based on wavelet packet and support vector machine",
+          "volume": "40",
+          "author": "Chen",
+          "year": "2021",
+          "journal-title": "J. Intell. Fuzzy Systems"
+        },
+        {
+          "key": "10.1016/j.swevo.2024.101661_b210",
+          "doi-asserted-by": "crossref",
+          "unstructured": "A.R. Lemos, T.W. Rauber, C.J. Munaro, Feature Selection for Fault Detection in Industrial Processes Based on the SHAP Algorithm, in: 2023 15th IEEE International Conference on Industry Applications, INDUSCON, 2023, pp. 1300–1305.",
+          "DOI": "10.1109/INDUSCON58041.2023.10374708"
+        },
+        {
+          "issue": "8",
+          "key": "10.1016/j.swevo.2024.101661_b211",
+          "doi-asserted-by": "crossref",
+          "first-page": "12074",
+          "DOI": "10.1109/TITS.2021.3109632",
+          "article-title": "A sound-based fault diagnosis method for railway point machines based on two-stage feature selection strategy and ensemble classifier",
+          "volume": "23",
+          "author": "Cao",
+          "year": "2022",
+          "journal-title": "IEEE Trans. Intell. Transp. Syst."
+        },
+        {
+          "key": "10.1016/j.swevo.2024.101661_b212",
+          "doi-asserted-by": "crossref",
+          "first-page": "18",
+          "DOI": "10.1016/j.future.2020.05.020",
+          "article-title": "Augmented whale feature selection for IoT attacks: Structure, analysis and applications",
+          "volume": "112",
+          "author": "Mafarja",
+          "year": "2020",
+          "journal-title": "Future Gener. Comput. Syst."
+        },
+        {
+          "issue": "2",
+          "key": "10.1016/j.swevo.2024.101661_b213",
+          "article-title": "A multi-objective immune algorithm for intrusion feature selection",
+          "volume": "95",
+          "author": "Wei",
+          "year": "2020",
+          "journal-title": "Appl. Soft Comput."
+        },
+        {
+          "issue": "12",
+          "key": "10.1016/j.swevo.2024.101661_b214",
+          "doi-asserted-by": "crossref",
+          "first-page": "8599",
+          "DOI": "10.1007/s00521-019-04355-x",
+          "article-title": "A new optimal gene selection approach for cancer classification using enhanced Jaya-based forest optimization algorithm",
+          "volume": "32",
+          "author": "Baliarsingh",
+          "year": "2020",
+          "journal-title": "Neural Comput. Appl."
+        },
+        {
+          "issue": "3",
+          "key": "10.1016/j.swevo.2024.101661_b215",
+          "doi-asserted-by": "crossref",
+          "first-page": "902",
+          "DOI": "10.1109/TCBB.2019.2903804",
+          "article-title": "CCFS: A confidence-based cost-effective feature selection scheme for healthcare data classification",
+          "volume": "18",
+          "author": "Chen",
+          "year": "2021",
+          "journal-title": "IEEE/ACM Trans. Comput. Biol. Bioinform."
+        },
+        {
+          "key": "10.1016/j.swevo.2024.101661_b216",
+          "doi-asserted-by": "crossref",
+          "first-page": "18463",
+          "DOI": "10.1007/s00500-020-05070-9",
+          "article-title": "Differential evolution and ACO based global optimal feature selection with fuzzy rough set for cancer data classification",
+          "volume": "24",
+          "author": "Meenachi",
+          "year": "2020",
+          "journal-title": "Soft Comput."
+        },
+        {
+          "key": "10.1016/j.swevo.2024.101661_b217",
+          "doi-asserted-by": "crossref",
+          "first-page": "870",
+          "DOI": "10.1016/j.ins.2020.08.081",
+          "article-title": "A differential evolution based feature combination selection algorithm for high-dimensional data",
+          "volume": "547",
+          "author": "Guan",
+          "year": "2021",
+          "journal-title": "Inform. Sci."
+        },
+        {
+          "issue": "1",
+          "key": "10.1016/j.swevo.2024.101661_b218",
+          "doi-asserted-by": "crossref",
+          "first-page": "53",
+          "DOI": "10.1007/s13042-020-01156-w",
+          "article-title": "A new framework of multi-objective evolutionary algorithms for feature selection and multi-label classification of video data",
+          "volume": "12",
+          "author": "Karagoz",
+          "year": "2021",
+          "journal-title": "Int. J. Mach. Learn. Cybern."
+        },
+        {
+          "issue": "9",
+          "key": "10.1016/j.swevo.2024.101661_b219",
+          "first-page": "1",
+          "article-title": "Optimizing activity recognition in video using evolutionary computation",
+          "volume": "24",
+          "author": "Yagnik",
+          "year": "2021",
+          "journal-title": "Eng. Lett."
+        },
+        {
+          "issue": "4",
+          "key": "10.1016/j.swevo.2024.101661_b220",
+          "first-page": "1",
+          "article-title": "Image steganalysis using improved particle swarm optimization based feature selection",
+          "volume": "48",
+          "author": "Adeli",
+          "year": "2017",
+          "journal-title": "Appl. Intell."
+        },
+        {
+          "key": "10.1016/j.swevo.2024.101661_b221",
+          "first-page": "323",
+          "article-title": "GA-SVM based feature selection and parameter optimization in hospitalization expense modeling",
+          "volume": "75",
+          "author": "Zhou",
+          "year": "2018",
+          "journal-title": "Appl. Soft Comput."
+        },
+        {
+          "key": "10.1016/j.swevo.2024.101661_b222",
+          "doi-asserted-by": "crossref",
+          "first-page": "552",
+          "DOI": "10.1016/j.asoc.2015.06.060",
+          "article-title": "Privacy preserving sub-feature selection in distributed data mining",
+          "volume": "36",
+          "author": "Bhuyan",
+          "year": "2015",
+          "journal-title": "Appl. Soft Comput."
+        },
+        {
+          "key": "10.1016/j.swevo.2024.101661_b223",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Y. Lu, M. Yan, M. Han, Q. Zhang, Y. Zhang, Privacy Preserving Multiclass Classification for Horizontally Distributed Data, in: The 19th Annual SIG Conference, 2018, p. 165.",
+          "DOI": "10.1145/3241815.3241889"
+        },
+        {
+          "key": "10.1016/j.swevo.2024.101661_b224",
+          "doi-asserted-by": "crossref",
+          "unstructured": "M. Sheikhalishahi, F. Martinelli, Privacy-Utility Feature Selection as a Privacy Mechanism in Collaborative Data Classification, in: 2017 IEEE 26th International Conference on Enabling Technologies: Infrastructure for Collaborative Enterprises, 2017, pp. 244–249.",
+          "DOI": "10.1109/WETICE.2017.15"
+        }
+      ],
+      "container-title": [
+        "Swarm and Evolutionary Computation"
+      ],
+      "original-title": [],
+      "language": "en",
+      "link": [
+        {
+          "URL": "https://api.elsevier.com/content/article/PII:S2210650224001998?httpAccept=text/xml",
+          "content-type": "text/xml",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        },
+        {
+          "URL": "https://api.elsevier.com/content/article/PII:S2210650224001998?httpAccept=text/plain",
+          "content-type": "text/plain",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2024,
+            8,
+            18
+          ]
+        ],
+        "date-time": "2024-08-18T20:07:04Z",
+        "timestamp": 1724011624000
+      },
+      "score": 1,
+      "resource": {
+        "primary": {
+          "URL": "https://linkinghub.elsevier.com/retrieve/pii/S2210650224001998"
+        }
+      },
+      "subtitle": [],
+      "short-title": [],
+      "issued": {
+        "date-parts": [
+          [
+            2024,
+            10
+          ]
+        ]
+      },
+      "references-count": 224,
+      "alternative-id": [
+        "S2210650224001998"
+      ],
+      "URL": "https://doi.org/10.1016/j.swevo.2024.101661",
+      "relation": {},
+      "ISSN": [
+        "2210-6502"
+      ],
+      "issn-type": [
+        {
+          "value": "2210-6502",
+          "type": "print"
+        }
+      ],
+      "subject": [],
+      "published": {
+        "date-parts": [
+          [
+            2024,
+            10
+          ]
+        ]
+      },
+      "assertion": [
+        {
+          "value": "Elsevier",
+          "name": "publisher",
+          "label": "This article is maintained by"
+        },
+        {
+          "value": "Evolutionary computation for feature selection in classification: A comprehensive survey of solutions, applications and challenges",
+          "name": "articletitle",
+          "label": "Article Title"
+        },
+        {
+          "value": "Swarm and Evolutionary Computation",
+          "name": "journaltitle",
+          "label": "Journal Title"
+        },
+        {
+          "value": "https://doi.org/10.1016/j.swevo.2024.101661",
+          "name": "articlelink",
+          "label": "CrossRef DOI link to publisher maintained version"
+        },
+        {
+          "value": "article",
+          "name": "content_type",
+          "label": "Content Type"
+        },
+        {
+          "value": "© 2024 Elsevier B.V. All rights are reserved, including those for text and data mining, AI training, and similar technologies.",
+          "name": "copyright",
+          "label": "Copyright"
+        }
+      ],
+      "article-number": "101661"
+    }
+  }
+}

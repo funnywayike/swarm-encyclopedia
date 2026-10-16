@@ -1,0 +1,989 @@
+{
+  "url": "https://api.crossref.org/works/10.1016%2Fj.paerosci.2008.11.001",
+  "retrieved": "2026-10-16",
+  "response": {
+    "status": "ok",
+    "message-type": "work",
+    "message-version": "1.0.0",
+    "message": {
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            10,
+            16
+          ]
+        ],
+        "date-time": "2026-10-16T02:20:50Z",
+        "timestamp": 1792117250615,
+        "version": "4.4.0"
+      },
+      "reference-count": 87,
+      "publisher": "Elsevier BV",
+      "issue": "1-3",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2009,
+                1,
+                1
+              ]
+            ],
+            "date-time": "2009-01-01T00:00:00Z",
+            "timestamp": 1230768000000
+          },
+          "content-version": "tdm",
+          "delay-in-days": 0,
+          "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+        }
+      ],
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "short-container-title": [
+        "Progress in Aerospace Sciences"
+      ],
+      "published-print": {
+        "date-parts": [
+          [
+            2009,
+            1
+          ]
+        ]
+      },
+      "DOI": "10.1016/j.paerosci.2008.11.001",
+      "type": "journal-article",
+      "created": {
+        "date-parts": [
+          [
+            2009,
+            1,
+            11
+          ]
+        ],
+        "date-time": "2009-01-11T04:57:17Z",
+        "timestamp": 1231649837000
+      },
+      "page": "50-79",
+      "source": "Crossref",
+      "is-referenced-by-count": 2160,
+      "title": [
+        "Recent advances in surrogate-based optimization"
+      ],
+      "prefix": "10.1016",
+      "volume": "45",
+      "author": [
+        {
+          "given": "Alexander I.J.",
+          "family": "Forrester",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Andy J.",
+          "family": "Keane",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "78",
+      "reference": [
+        {
+          "key": "10.1016/j.paerosci.2008.11.001_bib1",
+          "doi-asserted-by": "crossref",
+          "first-page": "1",
+          "DOI": "10.1016/j.paerosci.2005.02.001",
+          "article-title": "Surrogate-based analysis and optimization",
+          "volume": "41",
+          "author": "Queipo",
+          "year": "2005",
+          "journal-title": "Progress in Aerospace Sciences"
+        },
+        {
+          "key": "10.1016/j.paerosci.2008.11.001_bib2",
+          "unstructured": "Simpson TW, Toropov V, Balabanov V, Viana FAC. Design and analysis of computer experiments in multidisciplinary design optimization: a review of how we have come—or not. In: 12th AIAA/ISSMO multidisciplinary analysis and optimization conference, Victoria, British Colombia, 10–12 September, 2008."
+        },
+        {
+          "issue": "4",
+          "key": "10.1016/j.paerosci.2008.11.001_bib3",
+          "doi-asserted-by": "crossref",
+          "first-page": "409",
+          "DOI": "10.1214/ss/1177012413",
+          "article-title": "Design and analysis of computer experiments",
+          "volume": "4",
+          "author": "Sacks",
+          "year": "1989",
+          "journal-title": "Statistical Science"
+        },
+        {
+          "issue": "2",
+          "key": "10.1016/j.paerosci.2008.11.001_bib4",
+          "doi-asserted-by": "crossref",
+          "first-page": "161",
+          "DOI": "10.2307/1269043",
+          "article-title": "Factorial sampling plans for preliminary computational experiments",
+          "volume": "33",
+          "author": "Morris",
+          "year": "1991",
+          "journal-title": "Technometrics"
+        },
+        {
+          "key": "10.1016/j.paerosci.2008.11.001_bib5",
+          "doi-asserted-by": "crossref",
+          "first-page": "131",
+          "DOI": "10.1016/0378-3758(90)90122-B",
+          "article-title": "Minimax and maximin distance designs",
+          "volume": "26",
+          "author": "Johnson",
+          "year": "1990",
+          "journal-title": "Journal of Statistical Planning and Inference"
+        },
+        {
+          "issue": "2",
+          "key": "10.1016/j.paerosci.2008.11.001_bib6",
+          "doi-asserted-by": "crossref",
+          "first-page": "239",
+          "DOI": "10.2307/1268522",
+          "article-title": "A comparison of three methods for selecting values of input variables in the analysis of output from a computer code",
+          "volume": "21",
+          "author": "McKay",
+          "year": "1979",
+          "journal-title": "Technometrics"
+        },
+        {
+          "key": "10.1016/j.paerosci.2008.11.001_bib7",
+          "doi-asserted-by": "crossref",
+          "first-page": "381",
+          "DOI": "10.1016/0378-3758(94)00035-T",
+          "article-title": "Exploratory designs for computational experiments",
+          "volume": "43",
+          "author": "Morris",
+          "year": "1995",
+          "journal-title": "Journal of Statistical Planning and Inference"
+        },
+        {
+          "key": "10.1016/j.paerosci.2008.11.001_bib8",
+          "series-title": "Engineering design via surrogate modelling: a practical guide",
+          "author": "Forrester",
+          "year": "2008"
+        },
+        {
+          "key": "10.1016/j.paerosci.2008.11.001_bib9",
+          "series-title": "The elements of statistical learning",
+          "author": "Hastie",
+          "year": "2001"
+        },
+        {
+          "key": "10.1016/j.paerosci.2008.11.001_bib10",
+          "series-title": "Empirical model building and response surfaces",
+          "author": "Box",
+          "year": "1987"
+        },
+        {
+          "key": "10.1016/j.paerosci.2008.11.001_bib11",
+          "series-title": "Learning from data—concepts, theory, and methods",
+          "author": "Cherkassky",
+          "year": "1998"
+        },
+        {
+          "key": "10.1016/j.paerosci.2008.11.001_bib12",
+          "series-title": "A first course in numerical analysis",
+          "author": "Ralston",
+          "year": "1978"
+        },
+        {
+          "key": "10.1016/j.paerosci.2008.11.001_bib13",
+          "series-title": "Response surface methodology: process and product optimization using designed experiments",
+          "author": "Myers",
+          "year": "1995"
+        },
+        {
+          "key": "10.1016/j.paerosci.2008.11.001_bib14",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Goel T, Haftka R. Comparing error estimation measures for polynomial and Kriging approximation of noise-free functions. Structural and Multidisciplinary Optimization 2008; in press, doi:10.1007/s00158-008-0290-z.",
+          "DOI": "10.1007/s00158-008-0290-z"
+        },
+        {
+          "issue": "155",
+          "key": "10.1016/j.paerosci.2008.11.001_bib15",
+          "doi-asserted-by": "crossref",
+          "first-page": "141",
+          "DOI": "10.1090/S0025-5718-1981-0616367-1",
+          "article-title": "Surfaces generated by moving least squares methods",
+          "volume": "37",
+          "author": "Lancaster",
+          "year": "1981",
+          "journal-title": "Mathematics of Computation"
+        },
+        {
+          "issue": "224",
+          "key": "10.1016/j.paerosci.2008.11.001_bib16",
+          "doi-asserted-by": "crossref",
+          "first-page": "1517",
+          "DOI": "10.1090/S0025-5718-98-00974-0",
+          "article-title": "The approximation power of moving least-squares",
+          "volume": "67",
+          "author": "Levin",
+          "year": "1998",
+          "journal-title": "Mathematics of Computation"
+        },
+        {
+          "key": "10.1016/j.paerosci.2008.11.001_bib17",
+          "doi-asserted-by": "crossref",
+          "first-page": "42",
+          "DOI": "10.1017/S0370164600014346",
+          "article-title": "On least squares and linear combinations of observations",
+          "volume": "55",
+          "author": "Aitken",
+          "year": "1935",
+          "journal-title": "Proceedings of the Royal Society of Edinburgh"
+        },
+        {
+          "key": "10.1016/j.paerosci.2008.11.001_bib18",
+          "unstructured": "Toropov VV, Schramm U, Sahai A, Jones RD, Zeguer T. Design optimization and stochastic analysis based on the moving least squares method. In: 6th World congress of structural and multidisciplinary optimization, Rio de Janeiro, 30th May–3rd June, 2005."
+        },
+        {
+          "issue": "11",
+          "key": "10.1016/j.paerosci.2008.11.001_bib19",
+          "doi-asserted-by": "crossref",
+          "first-page": "2404",
+          "DOI": "10.2514/1.12366",
+          "article-title": "Efficient response surface modeling by using moving least-squares method and sensitivity",
+          "volume": "43",
+          "author": "Kim",
+          "year": "2005",
+          "journal-title": "AIAA Journal"
+        },
+        {
+          "issue": "4",
+          "key": "10.1016/j.paerosci.2008.11.001_bib20",
+          "doi-asserted-by": "crossref",
+          "first-page": "604",
+          "DOI": "10.1108/03321640210437851",
+          "article-title": "Developments of an efficient global optimal design technique—a combined approach of MLS and SA algorithm",
+          "volume": "21",
+          "author": "Ho",
+          "year": "2002",
+          "journal-title": "COMPEL"
+        },
+        {
+          "key": "10.1016/j.paerosci.2008.11.001_bib21",
+          "first-page": "321",
+          "article-title": "Multivariate functional interpolation and adaptive networks",
+          "volume": "2",
+          "author": "Broomhead",
+          "year": "1988",
+          "journal-title": "Complex Systems"
+        },
+        {
+          "key": "10.1016/j.paerosci.2008.11.001_bib22",
+          "unstructured": "Sóbester A. Enhancements to global optimisation. PhD thesis, University of Southampton, Southampton, UK; October 2003."
+        },
+        {
+          "key": "10.1016/j.paerosci.2008.11.001_bib23",
+          "series-title": "Statistical learning theory",
+          "author": "Vapnik",
+          "year": "1998"
+        },
+        {
+          "key": "10.1016/j.paerosci.2008.11.001_bib24",
+          "series-title": "Computational approaches to aerospace design: the pursuit of excellence",
+          "author": "Keane",
+          "year": "2005"
+        },
+        {
+          "key": "10.1016/j.paerosci.2008.11.001_bib25",
+          "unstructured": "Gibbs MN. Bayesian Gaussian processes for regression and classification. Dphil dissertation, University of Cambridge; 1997."
+        },
+        {
+          "key": "10.1016/j.paerosci.2008.11.001_bib26",
+          "doi-asserted-by": "crossref",
+          "first-page": "978",
+          "DOI": "10.1126/science.247.4945.978",
+          "article-title": "Regularization algorithms for learning that are equivalent to multilayer networks",
+          "volume": "247",
+          "author": "Poggio",
+          "year": "1990",
+          "journal-title": "Science"
+        },
+        {
+          "issue": "3",
+          "key": "10.1016/j.paerosci.2008.11.001_bib27",
+          "doi-asserted-by": "crossref",
+          "first-page": "606",
+          "DOI": "10.1162/neco.1995.7.3.606",
+          "article-title": "Regularisation in the selection of RBF centres",
+          "volume": "7",
+          "author": "Orr",
+          "year": "1995",
+          "journal-title": "Neural Computation"
+        },
+        {
+          "issue": "3",
+          "key": "10.1016/j.paerosci.2008.11.001_bib28",
+          "doi-asserted-by": "crossref",
+          "first-page": "315",
+          "DOI": "10.2307/1268315",
+          "article-title": "A comparison of algorithms for constructing exact D-optimal designs",
+          "volume": "22",
+          "author": "Cook",
+          "year": "1980",
+          "journal-title": "Technometrics"
+        },
+        {
+          "key": "10.1016/j.paerosci.2008.11.001_bib29",
+          "first-page": "39",
+          "article-title": "Design search and optimisation using radial basis functions with regression capabilities",
+          "volume": "vol. VI",
+          "author": "Keane",
+          "year": "2004"
+        },
+        {
+          "key": "10.1016/j.paerosci.2008.11.001_bib30",
+          "doi-asserted-by": "crossref",
+          "first-page": "1246",
+          "DOI": "10.2113/gsecongeo.58.8.1246",
+          "article-title": "Principles of geostatistics",
+          "volume": "58",
+          "author": "Matheron",
+          "year": "1963",
+          "journal-title": "Economic Geology"
+        },
+        {
+          "issue": "6",
+          "key": "10.1016/j.paerosci.2008.11.001_bib31",
+          "first-page": "119",
+          "article-title": "A statistical approach to some basic mine valuation problems on the Witwatersrand",
+          "volume": "52",
+          "author": "Krige",
+          "year": "1951",
+          "journal-title": "Journal of the Chemical, Metallurgical and Mining Engineering Society of South Africa"
+        },
+        {
+          "key": "10.1016/j.paerosci.2008.11.001_bib32",
+          "doi-asserted-by": "crossref",
+          "first-page": "345",
+          "DOI": "10.1023/A:1012771025575",
+          "article-title": "A taxonomy of global optimization methods based on response surfaces",
+          "volume": "21",
+          "author": "Jones",
+          "year": "2001",
+          "journal-title": "Journal of Global Optimisation"
+        },
+        {
+          "issue": "5",
+          "key": "10.1016/j.paerosci.2008.11.001_bib33",
+          "doi-asserted-by": "crossref",
+          "first-page": "1240",
+          "DOI": "10.2514/1.34822",
+          "article-title": "Kriging hyperparameter tuning strategies",
+          "volume": "46",
+          "author": "Toal",
+          "year": "2008",
+          "journal-title": "AIAA Journal"
+        },
+        {
+          "key": "10.1016/j.paerosci.2008.11.001_bib34",
+          "doi-asserted-by": "crossref",
+          "first-page": "1264",
+          "DOI": "10.1016/j.amc.2005.01.113",
+          "article-title": "Exploiting hessian matrix and trust-region algorithm in hyperparameters estimation of gaussian process",
+          "volume": "171",
+          "author": "Zhang",
+          "year": "2005",
+          "journal-title": "Applied Mathematics and Computation"
+        },
+        {
+          "issue": "4",
+          "key": "10.1016/j.paerosci.2008.11.001_bib35",
+          "doi-asserted-by": "crossref",
+          "first-page": "741",
+          "DOI": "10.2514/2.3153",
+          "article-title": "Wing optimization using design of experiment, response surface, and data fusion methods",
+          "volume": "40",
+          "author": "Keane",
+          "year": "2003",
+          "journal-title": "Journal of Aircraft"
+        },
+        {
+          "key": "10.1016/j.paerosci.2008.11.001_bib36",
+          "series-title": "Statistics for spatial data, probability and mathematical statistics",
+          "author": "Cressie",
+          "year": "1993"
+        },
+        {
+          "key": "10.1016/j.paerosci.2008.11.001_bib37",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1115/1.2829873",
+          "article-title": "Blind Kriging: a new method for developing metamodels",
+          "volume": "130",
+          "author": "Joseph",
+          "year": "2008",
+          "journal-title": "ASME Journal of Mechanical Design"
+        },
+        {
+          "key": "10.1016/j.paerosci.2008.11.001_bib38",
+          "doi-asserted-by": "crossref",
+          "first-page": "219",
+          "DOI": "10.1198/004017005000000652",
+          "article-title": "A Bayesian approach to the design and analysis of fractional experiments",
+          "volume": "48",
+          "author": "Joseph",
+          "year": "2006",
+          "journal-title": "Technometrics"
+        },
+        {
+          "key": "10.1016/j.paerosci.2008.11.001_bib39",
+          "series-title": "Experiments: planning, analysis, and parameter design optimization",
+          "author": "Wu",
+          "year": "2000"
+        },
+        {
+          "key": "10.1016/j.paerosci.2008.11.001_bib40",
+          "unstructured": "Hoyle N. Automated multi-stage geometry parameterization of internal fluid flow applications. PhD thesis, University of Southampton, Southampton, UK; 2006."
+        },
+        {
+          "issue": "10",
+          "key": "10.1016/j.paerosci.2008.11.001_bib41",
+          "doi-asserted-by": "crossref",
+          "first-page": "2331",
+          "DOI": "10.2514/1.20068",
+          "article-title": "Design and analysis of ‘noisy’ computer experiments",
+          "volume": "44",
+          "author": "Forrester",
+          "year": "2006",
+          "journal-title": "AIAA Journal"
+        },
+        {
+          "key": "10.1016/j.paerosci.2008.11.001_bib42",
+          "series-title": "The nature of statistical learning theory",
+          "author": "Vapnik",
+          "year": "1995"
+        },
+        {
+          "key": "10.1016/j.paerosci.2008.11.001_bib43",
+          "series-title": "Learning with kernels",
+          "author": "Schölkopf",
+          "year": "2002"
+        },
+        {
+          "key": "10.1016/j.paerosci.2008.11.001_bib44",
+          "doi-asserted-by": "crossref",
+          "first-page": "199",
+          "DOI": "10.1023/B:STCO.0000035301.49549.88",
+          "article-title": "A tutorial on support vector regression",
+          "volume": "14",
+          "author": "Smola",
+          "year": "2004",
+          "journal-title": "Statistics and Computing"
+        },
+        {
+          "key": "10.1016/j.paerosci.2008.11.001_bib45",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1115/1.1897403",
+          "article-title": "Analysis of support vector regression for approximation of complex engineering analyses",
+          "volume": "127",
+          "author": "Clarke",
+          "year": "2005",
+          "journal-title": "Journal of Mechanical Design"
+        },
+        {
+          "key": "10.1016/j.paerosci.2008.11.001_bib46",
+          "doi-asserted-by": "crossref",
+          "first-page": "110",
+          "DOI": "10.1137/S003614459631241X",
+          "article-title": "Using complex variables to estimate derivatives of real functions",
+          "volume": "40",
+          "author": "Squire",
+          "year": "1998",
+          "journal-title": "SIAM Review"
+        },
+        {
+          "key": "10.1016/j.paerosci.2008.11.001_bib47",
+          "series-title": "Frontiers in applied mathematics",
+          "article-title": "Evaluating derivatives: principles and techniques of algorithmic differentiation",
+          "author": "Griewank",
+          "year": "2000"
+        },
+        {
+          "key": "10.1016/j.paerosci.2008.11.001_bib48",
+          "doi-asserted-by": "crossref",
+          "first-page": "393",
+          "DOI": "10.1023/A:1011430410075",
+          "article-title": "An introduction to the adjoint approach to design",
+          "volume": "65",
+          "author": "Giles",
+          "year": "2000",
+          "journal-title": "Flow, Turbulence and Combustion"
+        },
+        {
+          "issue": "6",
+          "key": "10.1016/j.paerosci.2008.11.001_bib49",
+          "doi-asserted-by": "crossref",
+          "first-page": "465",
+          "DOI": "10.1007/BF00293052",
+          "article-title": "Physically based sensitivity derivatives for structural analysis programs",
+          "volume": "4",
+          "author": "Barthelemy",
+          "year": "1989",
+          "journal-title": "Computational Mechanics"
+        },
+        {
+          "key": "10.1016/j.paerosci.2008.11.001_bib50",
+          "doi-asserted-by": "crossref",
+          "first-page": "337",
+          "DOI": "10.1007/s00158-004-0392-1",
+          "article-title": "Gradient-enhanced response surface building",
+          "volume": "27",
+          "author": "van Keulen",
+          "year": "2004",
+          "journal-title": "Structural and Multidisciplinary Optimization"
+        },
+        {
+          "key": "10.1016/j.paerosci.2008.11.001_bib51",
+          "series-title": "Springer series in statistics",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1007/978-1-4757-3799-8_5",
+          "article-title": "Design and analysis of computer experiments",
+          "author": "Santner",
+          "year": "2003"
+        },
+        {
+          "issue": "3",
+          "key": "10.1016/j.paerosci.2008.11.001_bib52",
+          "doi-asserted-by": "crossref",
+          "first-page": "297",
+          "DOI": "10.1023/A:1023283917997",
+          "article-title": "A knowledge-based approach to response surface modelling in multifidelity optimization",
+          "volume": "26",
+          "author": "Leary",
+          "year": "2003",
+          "journal-title": "Journal of Global Optimization"
+        },
+        {
+          "issue": "2071",
+          "key": "10.1016/j.paerosci.2008.11.001_bib53",
+          "doi-asserted-by": "crossref",
+          "first-page": "2177",
+          "DOI": "10.1098/rspa.2006.1679",
+          "article-title": "Optimization using surrogate models and partially converged computational fluid dynamics simulations",
+          "volume": "462",
+          "author": "Forrester",
+          "year": "2006",
+          "journal-title": "Proceedings of the Royal Society A"
+        },
+        {
+          "key": "10.1016/j.paerosci.2008.11.001_bib54",
+          "doi-asserted-by": "crossref",
+          "first-page": "337",
+          "DOI": "10.1109/TMTT.2003.820904",
+          "article-title": "Space mapping: the state of the art",
+          "volume": "52",
+          "author": "Bandler",
+          "year": "2004",
+          "journal-title": "IEEE Transactions on Microwave Theory and Techniques"
+        },
+        {
+          "key": "10.1016/j.paerosci.2008.11.001_bib55",
+          "doi-asserted-by": "crossref",
+          "first-page": "677",
+          "DOI": "10.1175/1520-0450(1992)031<0677:PEIMTU>2.0.CO;2",
+          "article-title": "Precipitation estimation in mountainous terrain using multivariate geostatistics. Part II: isohyetal maps",
+          "volume": "31",
+          "author": "Hevesi",
+          "year": "1992",
+          "journal-title": "Journal of Applied Meteorology"
+        },
+        {
+          "issue": "1",
+          "key": "10.1016/j.paerosci.2008.11.001_bib56",
+          "doi-asserted-by": "crossref",
+          "first-page": "1",
+          "DOI": "10.1093/biomet/87.1.1",
+          "article-title": "Predicting the output from complex computer code when fast approximations are available",
+          "volume": "87",
+          "author": "Kennedy",
+          "year": "2000",
+          "journal-title": "Biometrika"
+        },
+        {
+          "issue": "2088",
+          "key": "10.1016/j.paerosci.2008.11.001_bib57",
+          "doi-asserted-by": "crossref",
+          "first-page": "3251",
+          "DOI": "10.1098/rspa.2007.1900",
+          "article-title": "Multi-fidelity optimization via surrogate modelling",
+          "volume": "463",
+          "author": "Forrester",
+          "year": "2007",
+          "journal-title": "Proceedings of the Royal Society A"
+        },
+        {
+          "key": "10.1016/j.paerosci.2008.11.001_bib58",
+          "doi-asserted-by": "crossref",
+          "first-page": "455",
+          "DOI": "10.1023/A:1008306431147",
+          "article-title": "Efficient global optimisation of expensive black-box functions",
+          "volume": "13",
+          "author": "Jones",
+          "year": "1998",
+          "journal-title": "Journal of Global Optimisation"
+        },
+        {
+          "key": "10.1016/j.paerosci.2008.11.001_bib59",
+          "doi-asserted-by": "crossref",
+          "first-page": "16",
+          "DOI": "10.1007/BF01197433",
+          "article-title": "A trust region framework for managing the use of approximation models in optimization",
+          "volume": "15",
+          "author": "Alexandrov",
+          "year": "1998",
+          "journal-title": "Structural Optimization"
+        },
+        {
+          "issue": "9",
+          "key": "10.1016/j.paerosci.2008.11.001_bib60",
+          "doi-asserted-by": "crossref",
+          "first-page": "1523",
+          "DOI": "10.2514/3.10768",
+          "article-title": "Combining global and local approximations",
+          "volume": "29",
+          "author": "Haftka",
+          "year": "1991",
+          "journal-title": "AIAA Journal"
+        },
+        {
+          "key": "10.1016/j.paerosci.2008.11.001_bib61",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Eldred MS, Giunta AA, Collis SS. Second-order corrections for surrogate-based optimization with model hierarchies. In: 10th AIAA/ISSMO multidisciplinary analysis and optimization conference, Albany, New York, 30–31 August 2004.",
+          "DOI": "10.2514/6.2004-4457"
+        },
+        {
+          "key": "10.1016/j.paerosci.2008.11.001_bib62",
+          "series-title": "Numerical methods for unconstrained optimization and nonlinear equations",
+          "author": "Dennis",
+          "year": "1983"
+        },
+        {
+          "issue": "6",
+          "key": "10.1016/j.paerosci.2008.11.001_bib63",
+          "doi-asserted-by": "crossref",
+          "first-page": "1093",
+          "DOI": "10.2514/2.2877",
+          "article-title": "Approximation and model management in aerodynamic optimization with variable-fidelity models",
+          "volume": "38",
+          "author": "Alexandrov",
+          "year": "2001",
+          "journal-title": "Journal of Aircraft"
+        },
+        {
+          "key": "10.1016/j.paerosci.2008.11.001_bib64",
+          "doi-asserted-by": "crossref",
+          "first-page": "790",
+          "DOI": "10.1137/0716058",
+          "article-title": "On the systematic search in a hypercube",
+          "volume": "16",
+          "author": "Sobol",
+          "year": "1979",
+          "journal-title": "SIAM Journal of Numerical Analysis"
+        },
+        {
+          "key": "10.1016/j.paerosci.2008.11.001_bib65",
+          "series-title": "Multicriteria optimization and engineering: theory and practice",
+          "author": "Statnikov",
+          "year": "1995"
+        },
+        {
+          "key": "10.1016/j.paerosci.2008.11.001_bib66",
+          "doi-asserted-by": "crossref",
+          "first-page": "733",
+          "DOI": "10.1002/nme.1969",
+          "article-title": "A non-stationary covariance-based Kriging method for metamodelling in engineering design",
+          "volume": "71",
+          "author": "Xiong",
+          "year": "2007",
+          "journal-title": "International Journal for Numerical Methods in Engineering"
+        },
+        {
+          "key": "10.1016/j.paerosci.2008.11.001_bib67",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Holden C. Visualization methodologies in aircraft design optimization. PhD thesis, University of Southampton, Southampton, UK; January 2004.",
+          "DOI": "10.2514/6.2004-4449"
+        },
+        {
+          "key": "10.1016/j.paerosci.2008.11.001_bib68",
+          "unstructured": "Jones DR, Welch WJ. Global optimization using response surfaces. In: Fifth SIAM conference on optimization, Victoria, Canada, 20–22 May, 1996."
+        },
+        {
+          "issue": "3",
+          "key": "10.1016/j.paerosci.2008.11.001_bib69",
+          "doi-asserted-by": "crossref",
+          "first-page": "201",
+          "DOI": "10.1023/A:1011255519438",
+          "article-title": "A radial basis function method for global optimization",
+          "volume": "19",
+          "author": "Gutmann",
+          "year": "2001",
+          "journal-title": "Journal of Global Optimization"
+        },
+        {
+          "key": "10.1016/j.paerosci.2008.11.001_bib70",
+          "doi-asserted-by": "crossref",
+          "first-page": "31",
+          "DOI": "10.1007/s10898-004-6733-1",
+          "article-title": "On the design of optimization strategies based on global response surface approximation models",
+          "volume": "33",
+          "author": "Sóbester",
+          "year": "2005",
+          "journal-title": "Journal of Global Optimization"
+        },
+        {
+          "key": "10.1016/j.paerosci.2008.11.001_bib71",
+          "unstructured": "Forrester AIJ. Efficient global optimisation using expensive CFD simulations. PhD thesis, University of Southampton, Southampton, UK; November 2004."
+        },
+        {
+          "issue": "4",
+          "key": "10.1016/j.paerosci.2008.11.001_bib72",
+          "doi-asserted-by": "crossref",
+          "first-page": "400",
+          "DOI": "10.1057/palgrave.jors.2601997",
+          "article-title": "The correct Kriging variance estimated by bootstrapping",
+          "volume": "57",
+          "author": "den Hertog",
+          "year": "2006",
+          "journal-title": "Journal of the Operational Research Society"
+        },
+        {
+          "key": "10.1016/j.paerosci.2008.11.001_bib73",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Forrester AIJ, Jones DR. Global optimization of deceptive functions with sparse sampling. In: 12th AIAA/ISSMO multidisciplinary analysis and optimization conference, Victoria, British Colombia, 10–12 September 2008.",
+          "DOI": "10.2514/6.2008-5996"
+        },
+        {
+          "key": "10.1016/j.paerosci.2008.11.001_bib74",
+          "doi-asserted-by": "crossref",
+          "first-page": "371",
+          "DOI": "10.1007/s00158-004-0397-9",
+          "article-title": "A parallel updating scheme for approximating and optimizing high fidelity computer simulations",
+          "volume": "27",
+          "author": "Sóbester",
+          "year": "2004",
+          "journal-title": "Structural and multidisciplinary optimization"
+        },
+        {
+          "key": "10.1016/j.paerosci.2008.11.001_bib75",
+          "unstructured": "Schonlau M. Computer experiments and global optimization. PhD thesis, University of Waterloo, Waterloo, Ontario, Canada; 1997."
+        },
+        {
+          "key": "10.1016/j.paerosci.2008.11.001_bib76",
+          "series-title": "Optimal engineering design: principles and applications",
+          "author": "Siddall",
+          "year": "1982"
+        },
+        {
+          "issue": "2067",
+          "key": "10.1016/j.paerosci.2008.11.001_bib77",
+          "doi-asserted-by": "crossref",
+          "first-page": "935",
+          "DOI": "10.1098/rspa.2005.1608",
+          "article-title": "Optimization with missing data",
+          "volume": "462",
+          "author": "Forrester",
+          "year": "2006",
+          "journal-title": "Proceedings of the Royal Society A"
+        },
+        {
+          "issue": "1",
+          "key": "10.1016/j.paerosci.2008.11.001_bib78",
+          "doi-asserted-by": "crossref",
+          "first-page": "1",
+          "DOI": "10.1162/evco.1995.3.1.1",
+          "article-title": "An overview of evolutionary algorithms in multiobjective optimization",
+          "volume": "3",
+          "author": "Fonseca",
+          "year": "1995",
+          "journal-title": "IEEE Transactions on Evolutionary Computation"
+        },
+        {
+          "issue": "2",
+          "key": "10.1016/j.paerosci.2008.11.001_bib79",
+          "doi-asserted-by": "crossref",
+          "first-page": "182",
+          "DOI": "10.1109/4235.996017",
+          "article-title": "A fast and elitist multiobjective genetic algorithm: NSGA-II",
+          "volume": "6",
+          "author": "Deb",
+          "year": "2002",
+          "journal-title": "IEEE Transactions on Evolutionary Computation"
+        },
+        {
+          "key": "10.1016/j.paerosci.2008.11.001_bib80",
+          "doi-asserted-by": "crossref",
+          "first-page": "31",
+          "DOI": "10.1023/A:1011818803494",
+          "article-title": "Efficient Pareto frontier exploration using surrogate approximations",
+          "volume": "2",
+          "author": "Wilson",
+          "year": "2001",
+          "journal-title": "Optimization and Engineering"
+        },
+        {
+          "key": "10.1016/j.paerosci.2008.11.001_bib81",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Knowles J, Hughes EJ. Multiobjective optimization on a budget of 250 evaluations. In: Coello C, et al., editor. Evolutionary multi-criterion optimization (EMO-2005). Lecture notes in computer science, vol. 3410. Berlin: Springer; 2005.",
+          "DOI": "10.1007/978-3-540-31880-4_13"
+        },
+        {
+          "key": "10.1016/j.paerosci.2008.11.001_bib82",
+          "unstructured": "Voutchkov II, Keane AJ. Multi-objective optimization using surrogates. In: Proceedings of the 7th international conference on adaptive computing in design and manufacture, Bristol, 2006. p. 167–75 (ACDM 2006, ISBN 0-9552885-0-9)."
+        },
+        {
+          "issue": "4",
+          "key": "10.1016/j.paerosci.2008.11.001_bib83",
+          "doi-asserted-by": "crossref",
+          "first-page": "879",
+          "DOI": "10.2514/1.16875",
+          "article-title": "Statistical improvement criteria for use in multiobjective design optimization",
+          "volume": "44",
+          "author": "Keane",
+          "year": "2006",
+          "journal-title": "AIAA Journal"
+        },
+        {
+          "key": "10.1016/j.paerosci.2008.11.001_bib84",
+          "unstructured": "Sóbester A, Leary SJ, Keane AJ. A parallel updating scheme for approximating and optimizing high fidelity computer simulations. In: 3rd ISSMO/AIAA internet conference on approximations in optimization, 2002."
+        },
+        {
+          "issue": "382",
+          "key": "10.1016/j.paerosci.2008.11.001_bib85",
+          "doi-asserted-by": "crossref",
+          "first-page": "316",
+          "DOI": "10.2307/2288636",
+          "article-title": "Estimating the error rate of a prediction rule: improvement on cross-validation",
+          "volume": "78",
+          "author": "Efron",
+          "year": "1983",
+          "journal-title": "Journal of the American Statistical Association"
+        },
+        {
+          "key": "10.1016/j.paerosci.2008.11.001_bib86",
+          "doi-asserted-by": "crossref",
+          "first-page": "199",
+          "DOI": "10.1007/s00158-006-0051-9",
+          "article-title": "Ensemble of surrogates",
+          "volume": "33",
+          "author": "Goel",
+          "year": "2007",
+          "journal-title": "Structural and Multidisciplinary Optimization"
+        },
+        {
+          "key": "10.1016/j.paerosci.2008.11.001_bib87",
+          "doi-asserted-by": "crossref",
+          "first-page": "2719",
+          "DOI": "10.1162/089976600300014908",
+          "article-title": "A Bayesian committee machine",
+          "volume": "12",
+          "author": "Tresp",
+          "year": "2000",
+          "journal-title": "Neural Computation"
+        }
+      ],
+      "container-title": [
+        "Progress in Aerospace Sciences"
+      ],
+      "original-title": [],
+      "language": "en",
+      "link": [
+        {
+          "URL": "https://api.elsevier.com/content/article/PII:S0376042108000766?httpAccept=text/xml",
+          "content-type": "text/xml",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        },
+        {
+          "URL": "https://api.elsevier.com/content/article/PII:S0376042108000766?httpAccept=text/plain",
+          "content-type": "text/plain",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2019,
+            5,
+            17
+          ]
+        ],
+        "date-time": "2019-05-17T01:14:02Z",
+        "timestamp": 1558055642000
+      },
+      "score": 1,
+      "resource": {
+        "primary": {
+          "URL": "https://linkinghub.elsevier.com/retrieve/pii/S0376042108000766"
+        }
+      },
+      "subtitle": [],
+      "short-title": [],
+      "issued": {
+        "date-parts": [
+          [
+            2009,
+            1
+          ]
+        ]
+      },
+      "references-count": 87,
+      "journal-issue": {
+        "issue": "1-3",
+        "published-print": {
+          "date-parts": [
+            [
+              2009,
+              1
+            ]
+          ]
+        }
+      },
+      "alternative-id": [
+        "S0376042108000766"
+      ],
+      "URL": "https://doi.org/10.1016/j.paerosci.2008.11.001",
+      "relation": {},
+      "ISSN": [
+        "0376-0421"
+      ],
+      "issn-type": [
+        {
+          "value": "0376-0421",
+          "type": "print"
+        }
+      ],
+      "subject": [],
+      "published": {
+        "date-parts": [
+          [
+            2009,
+            1
+          ]
+        ]
+      }
+    }
+  }
+}

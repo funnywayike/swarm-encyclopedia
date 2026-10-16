@@ -1,0 +1,452 @@
+{
+  "doi": "10.1016/j.cpc.2006.07.020",
+  "url": "https://api.crossref.org/works/10.1016%2Fj.cpc.2006.07.020",
+  "retrieved": "2026-10-16",
+  "response": {
+    "status": "ok",
+    "message-type": "work",
+    "message-version": "1.0.0",
+    "message": {
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            10,
+            14
+          ]
+        ],
+        "date-time": "2026-10-14T02:25:44Z",
+        "timestamp": 1791944744846,
+        "version": "4.3.4"
+      },
+      "reference-count": 24,
+      "publisher": "Elsevier BV",
+      "issue": "11-12",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2006,
+                12,
+                1
+              ]
+            ],
+            "date-time": "2006-12-01T00:00:00Z",
+            "timestamp": 1164931200000
+          },
+          "content-version": "tdm",
+          "delay-in-days": 0,
+          "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+        }
+      ],
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "short-container-title": [
+        "Computer Physics Communications"
+      ],
+      "published-print": {
+        "date-parts": [
+          [
+            2006,
+            12
+          ]
+        ]
+      },
+      "DOI": "10.1016/j.cpc.2006.07.020",
+      "type": "journal-article",
+      "created": {
+        "date-parts": [
+          [
+            2006,
+            9,
+            21
+          ]
+        ],
+        "date-time": "2006-09-21T07:29:00Z",
+        "timestamp": 1158823740000
+      },
+      "page": "713-720",
+      "source": "Crossref",
+      "is-referenced-by-count": 1244,
+      "title": [
+        "USPEX—Evolutionary crystal structure prediction"
+      ],
+      "prefix": "10.1016",
+      "volume": "175",
+      "author": [
+        {
+          "given": "Colin W.",
+          "family": "Glass",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Artem R.",
+          "family": "Oganov",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Nikolaus",
+          "family": "Hansen",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "78",
+      "reference": [
+        {
+          "key": "10.1016/j.cpc.2006.07.020_bib001",
+          "doi-asserted-by": "crossref",
+          "first-page": "343",
+          "DOI": "10.1038/346343a0",
+          "article-title": "Prediction of crystal structures from crystal chemistry rules by simulated annealing",
+          "volume": "346",
+          "author": "Pannetier",
+          "year": "1990",
+          "journal-title": "Nature"
+        },
+        {
+          "key": "10.1016/j.cpc.2006.07.020_bib002",
+          "first-page": "1287",
+          "article-title": "First step towards planning of syntheses in solid-state chemistry: Determination of promising structure candidates by global optimization",
+          "volume": "35",
+          "author": "Sch'´on",
+          "year": "1996",
+          "journal-title": "Angew. Chem. Int. Ed."
+        },
+        {
+          "key": "10.1016/j.cpc.2006.07.020_bib003",
+          "doi-asserted-by": "crossref",
+          "first-page": "489",
+          "DOI": "10.1524/zkri.220.5.489.65078",
+          "article-title": "Simulation of structural phase transitions by metadynamics",
+          "volume": "220",
+          "author": "Martoňák",
+          "year": "2005",
+          "journal-title": "Z. Krist."
+        },
+        {
+          "key": "10.1016/j.cpc.2006.07.020_bib004",
+          "doi-asserted-by": "crossref",
+          "first-page": "075503",
+          "DOI": "10.1103/PhysRevLett.90.075503",
+          "article-title": "Predicting crystal structures: The Parrinello–Rahman method revisited",
+          "volume": "90",
+          "author": "Martoňák",
+          "year": "2003",
+          "journal-title": "Phys. Rev. Lett."
+        },
+        {
+          "key": "10.1016/j.cpc.2006.07.020_bib005",
+          "doi-asserted-by": "crossref",
+          "first-page": "9911",
+          "DOI": "10.1063/1.1724816",
+          "article-title": "Minima hopping: An efficient search method for the global minimum of the potential energy surface of complex molecular systems",
+          "volume": "120",
+          "author": "Gödecker",
+          "year": "2004",
+          "journal-title": "J. Chem. Phys."
+        },
+        {
+          "key": "10.1016/j.cpc.2006.07.020_bib006",
+          "doi-asserted-by": "crossref",
+          "first-page": "1269",
+          "DOI": "10.1039/jm9950501269",
+          "article-title": "Evolutionary programming techniques for predicting inorganic crystal structures",
+          "volume": "5",
+          "author": "Bush",
+          "year": "1995",
+          "journal-title": "J. Mater. Chem."
+        },
+        {
+          "key": "10.1016/j.cpc.2006.07.020_bib007",
+          "doi-asserted-by": "crossref",
+          "first-page": "2535",
+          "DOI": "10.1039/a901227c",
+          "article-title": "The prediction of inorganic crystal structures using a genetic algorithm and energy minimization",
+          "volume": "1",
+          "author": "Woodley",
+          "year": "1999",
+          "journal-title": "Phys. Chem. Chem. Phys."
+        },
+        {
+          "key": "10.1016/j.cpc.2006.07.020_bib008",
+          "doi-asserted-by": "crossref",
+          "first-page": "95",
+          "DOI": "10.1007/b13934",
+          "article-title": "Prediction of crystal structures using evolutionary algorithms and related techniques",
+          "volume": "110",
+          "author": "Woodley",
+          "year": "2004",
+          "journal-title": "Structure and Bonding"
+        },
+        {
+          "key": "10.1016/j.cpc.2006.07.020_bib009",
+          "doi-asserted-by": "crossref",
+          "first-page": "201",
+          "DOI": "10.1038/335201a0",
+          "article-title": "Crystals from first principles",
+          "volume": "335",
+          "author": "Maddox",
+          "year": "1988",
+          "journal-title": "Nature"
+        },
+        {
+          "key": "10.1016/j.cpc.2006.07.020_bib010",
+          "doi-asserted-by": "crossref",
+          "first-page": "511",
+          "DOI": "10.1107/S0108768105016563",
+          "article-title": "A third blind test of crystal structure prediction",
+          "volume": "61",
+          "author": "Day",
+          "year": "2005",
+          "journal-title": "Acta Cryst. B"
+        },
+        {
+          "key": "10.1016/j.cpc.2006.07.020_bib011",
+          "doi-asserted-by": "crossref",
+          "first-page": "2745",
+          "DOI": "10.1088/0953-8984/14/11/302",
+          "article-title": "The SIESTA method for ab initio order-n materials simulation",
+          "volume": "14",
+          "author": "Soler",
+          "year": "2002",
+          "journal-title": "J. Phys.: Condens. Matter"
+        },
+        {
+          "key": "10.1016/j.cpc.2006.07.020_bib012",
+          "doi-asserted-by": "crossref",
+          "first-page": "11169",
+          "DOI": "10.1103/PhysRevB.54.11169",
+          "article-title": "Efficient iterative schemes for ab initio total-energy calculations using a plane wave basis set",
+          "volume": "54",
+          "author": "Kresse",
+          "year": "1996",
+          "journal-title": "Phys. Rev. B"
+        },
+        {
+          "key": "10.1016/j.cpc.2006.07.020_bib013",
+          "series-title": "How to Solve It: Modern Heuristics",
+          "author": "Michalewicz",
+          "year": "2004"
+        },
+        {
+          "key": "10.1016/j.cpc.2006.07.020_bib014",
+          "doi-asserted-by": "crossref",
+          "first-page": "65",
+          "DOI": "10.1016/0167-8191(88)90098-1",
+          "article-title": "Evolution algorithms in combinatorial optimization",
+          "volume": "7",
+          "author": "M'´uhlenbein",
+          "year": "1988",
+          "journal-title": "Parallel Comput."
+        },
+        {
+          "key": "10.1016/j.cpc.2006.07.020_bib015",
+          "doi-asserted-by": "crossref",
+          "first-page": "288",
+          "DOI": "10.1103/PhysRevLett.75.288",
+          "article-title": "Molecular geometry optimization with a genetic algorithm",
+          "volume": "75",
+          "author": "Deaven",
+          "year": "1995",
+          "journal-title": "Phys. Rev. Lett."
+        },
+        {
+          "key": "10.1016/j.cpc.2006.07.020_bib016",
+          "doi-asserted-by": "crossref",
+          "first-page": "585",
+          "DOI": "10.1524/zkri.220.5.585.65068",
+          "article-title": "STM3: a chemistry visualization platform",
+          "volume": "220",
+          "author": "Valle",
+          "year": "2005",
+          "journal-title": "Z. Krist."
+        },
+        {
+          "key": "10.1016/j.cpc.2006.07.020_bib017",
+          "doi-asserted-by": "crossref",
+          "first-page": "445",
+          "DOI": "10.1038/nature02701",
+          "article-title": "Theoretical and experimental evidence for a post-perovskite phase of MgSiO3 in Earth's D\" layer",
+          "volume": "430",
+          "author": "Oganov",
+          "year": "2004",
+          "journal-title": "Nature"
+        },
+        {
+          "key": "10.1016/j.cpc.2006.07.020_bib018",
+          "doi-asserted-by": "crossref",
+          "first-page": "855",
+          "DOI": "10.1126/science.1095932",
+          "article-title": "Post-perovskite phase transition in MgSiO3",
+          "volume": "304",
+          "author": "Murakami",
+          "year": "2004",
+          "journal-title": "Science"
+        },
+        {
+          "key": "10.1016/j.cpc.2006.07.020_bib019",
+          "doi-asserted-by": "crossref",
+          "first-page": "1527",
+          "DOI": "10.1016/j.jpcs.2003.11.042",
+          "article-title": "High-pressure phase transition of hematite, Fe2O3",
+          "volume": "65",
+          "author": "Ono",
+          "year": "2004",
+          "journal-title": "J. Phys. Chem. Solids"
+        },
+        {
+          "key": "10.1016/j.cpc.2006.07.020_bib020",
+          "doi-asserted-by": "crossref",
+          "first-page": "95",
+          "DOI": "10.1016/j.epsl.2005.10.014",
+          "article-title": "High-pressure phases of CaCO3: crystal structure prediction and experiment",
+          "volume": "241",
+          "author": "Oganov",
+          "year": "2006",
+          "journal-title": "Earth Planet. Sci. Lett."
+        },
+        {
+          "key": "10.1016/j.cpc.2006.07.020_bib021",
+          "doi-asserted-by": "crossref",
+          "first-page": "667",
+          "DOI": "10.2138/am.2005.1610",
+          "article-title": "Post-aragonite phase transformation in CaCO3 at 40 GPa",
+          "volume": "90",
+          "author": "Ono",
+          "year": "2005",
+          "journal-title": "Am. Mineral."
+        },
+        {
+          "key": "10.1016/j.cpc.2006.07.020_bib022",
+          "unstructured": "S. Ono, Pers. comm"
+        },
+        {
+          "key": "10.1016/j.cpc.2006.07.020_bib023",
+          "doi-asserted-by": "crossref",
+          "first-page": "255506",
+          "DOI": "10.1103/PhysRevLett.88.255506",
+          "article-title": "Combined electronic structure and evolutionary search approach to materials design",
+          "volume": "88",
+          "author": "Jóhannesson",
+          "year": "2002",
+          "journal-title": "Phys. Rev. Lett."
+        },
+        {
+          "key": "10.1016/j.cpc.2006.07.020_bib024",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1063/1.2210932",
+          "article-title": "Crystal structure prediction using ab initio evolutionary techniques: Principles and applications",
+          "volume": "124",
+          "author": "Oganov",
+          "year": "2006",
+          "journal-title": "J. Chem. Phys."
+        }
+      ],
+      "container-title": [
+        "Computer Physics Communications"
+      ],
+      "original-title": [],
+      "language": "en",
+      "link": [
+        {
+          "URL": "https://api.elsevier.com/content/article/PII:S0010465506002931?httpAccept=text/xml",
+          "content-type": "text/xml",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        },
+        {
+          "URL": "https://api.elsevier.com/content/article/PII:S0010465506002931?httpAccept=text/plain",
+          "content-type": "text/plain",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2019,
+            1,
+            12
+          ]
+        ],
+        "date-time": "2019-01-12T21:25:47Z",
+        "timestamp": 1547328347000
+      },
+      "score": 1,
+      "resource": {
+        "primary": {
+          "URL": "https://linkinghub.elsevier.com/retrieve/pii/S0010465506002931"
+        }
+      },
+      "subtitle": [],
+      "short-title": [],
+      "issued": {
+        "date-parts": [
+          [
+            2006,
+            12
+          ]
+        ]
+      },
+      "references-count": 24,
+      "journal-issue": {
+        "issue": "11-12",
+        "published-print": {
+          "date-parts": [
+            [
+              2006,
+              12
+            ]
+          ]
+        }
+      },
+      "alternative-id": [
+        "S0010465506002931"
+      ],
+      "URL": "https://doi.org/10.1016/j.cpc.2006.07.020",
+      "relation": {},
+      "ISSN": [
+        "0010-4655"
+      ],
+      "issn-type": [
+        {
+          "value": "0010-4655",
+          "type": "print"
+        }
+      ],
+      "subject": [],
+      "published": {
+        "date-parts": [
+          [
+            2006,
+            12
+          ]
+        ]
+      }
+    }
+  }
+}

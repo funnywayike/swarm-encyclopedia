@@ -1,0 +1,2011 @@
+{
+  "retrieved": "2026-10-16",
+  "url": "https://api.crossref.org/works/10.1016/j.swevo.2021.100888",
+  "response": {
+    "status": "ok",
+    "message-type": "work",
+    "message-version": "1.0.0",
+    "message": {
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            10,
+            13
+          ]
+        ],
+        "date-time": "2026-10-13T05:13:59Z",
+        "timestamp": 1791868439668,
+        "version": "4.3.4"
+      },
+      "reference-count": 159,
+      "publisher": "Elsevier BV",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2021,
+                7,
+                1
+              ]
+            ],
+            "date-time": "2021-07-01T00:00:00Z",
+            "timestamp": 1625097600000
+          },
+          "content-version": "tdm",
+          "delay-in-days": 0,
+          "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+        },
+        {
+          "start": {
+            "date-parts": [
+              [
+                2021,
+                7,
+                1
+              ]
+            ],
+            "date-time": "2021-07-01T00:00:00Z",
+            "timestamp": 1625097600000
+          },
+          "content-version": "tdm",
+          "delay-in-days": 0,
+          "URL": "https://www.elsevier.com/legal/tdmrep-license"
+        },
+        {
+          "start": {
+            "date-parts": [
+              [
+                2021,
+                7,
+                1
+              ]
+            ],
+            "date-time": "2021-07-01T00:00:00Z",
+            "timestamp": 1625097600000
+          },
+          "content-version": "stm-asf",
+          "delay-in-days": 0,
+          "URL": "https://doi.org/10.15223/policy-017"
+        },
+        {
+          "start": {
+            "date-parts": [
+              [
+                2021,
+                7,
+                1
+              ]
+            ],
+            "date-time": "2021-07-01T00:00:00Z",
+            "timestamp": 1625097600000
+          },
+          "content-version": "stm-asf",
+          "delay-in-days": 0,
+          "URL": "https://doi.org/10.15223/policy-037"
+        },
+        {
+          "start": {
+            "date-parts": [
+              [
+                2021,
+                7,
+                1
+              ]
+            ],
+            "date-time": "2021-07-01T00:00:00Z",
+            "timestamp": 1625097600000
+          },
+          "content-version": "stm-asf",
+          "delay-in-days": 0,
+          "URL": "https://doi.org/10.15223/policy-012"
+        },
+        {
+          "start": {
+            "date-parts": [
+              [
+                2021,
+                7,
+                1
+              ]
+            ],
+            "date-time": "2021-07-01T00:00:00Z",
+            "timestamp": 1625097600000
+          },
+          "content-version": "stm-asf",
+          "delay-in-days": 0,
+          "URL": "https://doi.org/10.15223/policy-029"
+        },
+        {
+          "start": {
+            "date-parts": [
+              [
+                2021,
+                7,
+                1
+              ]
+            ],
+            "date-time": "2021-07-01T00:00:00Z",
+            "timestamp": 1625097600000
+          },
+          "content-version": "stm-asf",
+          "delay-in-days": 0,
+          "URL": "https://doi.org/10.15223/policy-004"
+        }
+      ],
+      "funder": [
+        {
+          "DOI": "10.13039/501100004837",
+          "name": "Ministerio de Ciencia e Innovación",
+          "doi-asserted-by": "publisher",
+          "award": [
+            "TIN2017-83132-C2-2-R"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "TIN2017-83132-C2-2-R"
+              ]
+            }
+          ],
+          "id": [
+            {
+              "id": "10.13039/501100004837",
+              "id-type": "DOI",
+              "asserted-by": "publisher"
+            }
+          ]
+        },
+        {
+          "DOI": "10.13039/501100006280",
+          "name": "Ministerio de Ciencia y Tecnología",
+          "doi-asserted-by": "publisher",
+          "award": [
+            "TIN2017-89517-P"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "TIN2017-89517-P"
+              ]
+            }
+          ],
+          "id": [
+            {
+              "id": "10.13039/501100006280",
+              "id-type": "DOI",
+              "asserted-by": "publisher"
+            }
+          ]
+        },
+        {
+          "DOI": "10.13039/100007406",
+          "name": "Fundacion BBVA",
+          "doi-asserted-by": "publisher",
+          "id": [
+            {
+              "id": "10.13039/100007406",
+              "id-type": "DOI",
+              "asserted-by": "publisher"
+            }
+          ]
+        },
+        {
+          "DOI": "10.13039/501100003141",
+          "name": "Consejo Nacional de Ciencia y Tecnología",
+          "doi-asserted-by": "publisher",
+          "award": [
+            "2016-01-1920"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "2016-01-1920"
+              ]
+            }
+          ],
+          "id": [
+            {
+              "id": "10.13039/501100003141",
+              "id-type": "DOI",
+              "asserted-by": "publisher"
+            }
+          ]
+        },
+        {
+          "DOI": "10.13039/501100003086",
+          "name": "Eusko Jaurlaritza",
+          "doi-asserted-by": "publisher",
+          "id": [
+            {
+              "id": "10.13039/501100003086",
+              "id-type": "DOI",
+              "asserted-by": "publisher"
+            }
+          ]
+        }
+      ],
+      "content-domain": {
+        "domain": [
+          "elsevier.com",
+          "sciencedirect.com"
+        ],
+        "crossmark-restriction": true
+      },
+      "short-container-title": [
+        "Swarm and Evolutionary Computation"
+      ],
+      "published-print": {
+        "date-parts": [
+          [
+            2021,
+            7
+          ]
+        ]
+      },
+      "DOI": "10.1016/j.swevo.2021.100888",
+      "type": "journal-article",
+      "created": {
+        "date-parts": [
+          [
+            2021,
+            4,
+            28
+          ]
+        ],
+        "date-time": "2021-04-28T04:53:15Z",
+        "timestamp": 1619585595000
+      },
+      "page": "100888",
+      "update-policy": "https://doi.org/10.1016/elsevier_cm_policy",
+      "source": "Crossref",
+      "is-referenced-by-count": 392,
+      "special_numbering": "C",
+      "title": [
+        "A Tutorial On the design, experimentation and application of metaheuristic algorithms to real-World optimization problems"
+      ],
+      "prefix": "10.1016",
+      "volume": "64",
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0000-0001-7863-9910",
+          "authenticated-orcid": false,
+          "given": "Eneko",
+          "family": "Osaba",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Esther",
+          "family": "Villar-Rodriguez",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Javier",
+          "family": "Del Ser",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Antonio J.",
+          "family": "Nebro",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Daniel",
+          "family": "Molina",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-8718-5735",
+          "authenticated-orcid": false,
+          "given": "Antonio",
+          "family": "LaTorre",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Ponnuthurai N.",
+          "family": "Suganthan",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Carlos A.",
+          "family": "Coello Coello",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Francisco",
+          "family": "Herrera",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "78",
+      "reference": [
+        {
+          "issue": "4",
+          "key": "10.1016/j.swevo.2021.100888_bib0001",
+          "doi-asserted-by": "crossref",
+          "first-page": "2191",
+          "DOI": "10.1007/s10462-017-9605-z",
+          "article-title": "Metaheuristic research: a comprehensive survey",
+          "volume": "52",
+          "author": "Hussain",
+          "year": "2019",
+          "journal-title": "Artif Intell Rev"
+        },
+        {
+          "key": "10.1016/j.swevo.2021.100888_bib0002",
+          "doi-asserted-by": "crossref",
+          "first-page": "82",
+          "DOI": "10.1016/j.ins.2013.02.041",
+          "article-title": "A survey on optimization metaheuristics",
+          "volume": "237",
+          "author": "BoussaïD",
+          "year": "2013",
+          "journal-title": "Inf Sci (Ny)"
+        },
+        {
+          "key": "10.1016/j.swevo.2021.100888_bib0003",
+          "series-title": "Handbook of nature-inspired and innovative computing",
+          "first-page": "187",
+          "article-title": "Swarm Intelligence",
+          "author": "Kennedy",
+          "year": "2006"
+        },
+        {
+          "issue": "7553",
+          "key": "10.1016/j.swevo.2021.100888_bib0004",
+          "doi-asserted-by": "crossref",
+          "first-page": "476",
+          "DOI": "10.1038/nature14544",
+          "article-title": "From evolutionary computation to the evolution of things",
+          "volume": "521",
+          "author": "Eiben",
+          "year": "2015",
+          "journal-title": "Nature"
+        },
+        {
+          "key": "10.1016/j.swevo.2021.100888_bib0005",
+          "doi-asserted-by": "crossref",
+          "first-page": "220",
+          "DOI": "10.1016/j.swevo.2019.04.008",
+          "article-title": "Bio-inspired computation: where we stand and what’s next",
+          "volume": "48",
+          "author": "Del Ser",
+          "year": "2019",
+          "journal-title": "Swarm Evol Comput"
+        },
+        {
+          "key": "10.1016/j.swevo.2021.100888_bib0006",
+          "series-title": "Nature-Inspired Algorithms and Applied Optimization",
+          "first-page": "1",
+          "article-title": "Mathematical Analysis of Nature-inspired Algorithms",
+          "author": "Yang",
+          "year": "2018"
+        },
+        {
+          "issue": "4",
+          "key": "10.1016/j.swevo.2021.100888_bib0007",
+          "doi-asserted-by": "crossref",
+          "first-page": "587",
+          "DOI": "10.1007/s10732-014-9279-5",
+          "article-title": "An iterated greedy metaheuristic for the blocking job shop scheduling problem",
+          "volume": "22",
+          "author": "Pranzo",
+          "year": "2016",
+          "journal-title": "Journal of Heuristics"
+        },
+        {
+          "key": "10.1016/j.swevo.2021.100888_bib0008",
+          "doi-asserted-by": "crossref",
+          "first-page": "87",
+          "DOI": "10.1016/j.cor.2014.10.019",
+          "article-title": "Hybrid metaheuristics for the clustered vehicle routing problem",
+          "volume": "58",
+          "author": "Vidal",
+          "year": "2015",
+          "journal-title": "Computers & Operations Research"
+        },
+        {
+          "issue": "3",
+          "key": "10.1016/j.swevo.2021.100888_bib0009",
+          "doi-asserted-by": "crossref",
+          "first-page": "119",
+          "DOI": "10.1556/Pollack.8.2013.3.12",
+          "article-title": "A statistically correct methodology to compare metaheuristics in resource-constrained project scheduling",
+          "volume": "8",
+          "author": "Danka",
+          "year": "2013",
+          "journal-title": "Pollack Periodica"
+        },
+        {
+          "issue": "4",
+          "key": "10.1016/j.swevo.2021.100888_bib0010",
+          "doi-asserted-by": "crossref",
+          "first-page": "676",
+          "DOI": "10.1057/jors.2015.77",
+          "article-title": "Good laboratory practice for optimization research",
+          "volume": "67",
+          "author": "Kendall",
+          "year": "2016",
+          "journal-title": "Journal of the Operational Research Society"
+        },
+        {
+          "key": "10.1016/j.swevo.2021.100888_bib0011",
+          "series-title": "Metaheuristics for multiobjective optimisation",
+          "first-page": "65",
+          "article-title": "Evaluation of Multiple Objective Metaheuristics",
+          "author": "Jaszkiewicz",
+          "year": "2004"
+        },
+        {
+          "key": "10.1016/j.swevo.2021.100888_bib0012",
+          "series-title": "Technical Report",
+          "article-title": "Experiments on metaheuristics: Methodological overview and open issues",
+          "author": "Chiarandini",
+          "year": "2007"
+        },
+        {
+          "issue": "2",
+          "key": "10.1016/j.swevo.2021.100888_bib0013",
+          "doi-asserted-by": "crossref",
+          "first-page": "40",
+          "DOI": "10.1145/261342.571216",
+          "article-title": "Approximation algorithms for np-hard problems",
+          "volume": "28",
+          "author": "Hochba",
+          "year": "1997",
+          "journal-title": "ACM Sigact News"
+        },
+        {
+          "key": "10.1016/j.swevo.2021.100888_bib0014",
+          "series-title": "Combinatorial optimization: Algorithms and complexity",
+          "author": "Papadimitriou",
+          "year": "1998"
+        },
+        {
+          "issue": "3",
+          "key": "10.1016/j.swevo.2021.100888_bib0015",
+          "doi-asserted-by": "crossref",
+          "first-page": "425",
+          "DOI": "10.1016/0022-0000(91)90023-X",
+          "article-title": "Optimization, approximation, and complexity classes",
+          "volume": "43",
+          "author": "Papadimitriou",
+          "year": "1991",
+          "journal-title": "J Comput Syst Sci"
+        },
+        {
+          "issue": "3",
+          "key": "10.1016/j.swevo.2021.100888_bib0016",
+          "doi-asserted-by": "crossref",
+          "first-page": "268",
+          "DOI": "10.1145/937503.937505",
+          "article-title": "Metaheuristics in combinatorial optimization: overview and conceptual comparison",
+          "volume": "35",
+          "author": "Blum",
+          "year": "2003",
+          "journal-title": "ACM computing surveys (CSUR)"
+        },
+        {
+          "key": "10.1016/j.swevo.2021.100888_bib0017",
+          "doi-asserted-by": "crossref",
+          "first-page": "106040",
+          "DOI": "10.1016/j.cie.2019.106040",
+          "article-title": "A survey on new generation metaheuristic algorithms",
+          "author": "Dokeroglu",
+          "year": "2019",
+          "journal-title": "Computers & Industrial Engineering"
+        },
+        {
+          "key": "10.1016/j.swevo.2021.100888_bib0018",
+          "series-title": "Swarm intelligence and bio-inspired computation: Theory and applications",
+          "author": "Yang",
+          "year": "2013"
+        },
+        {
+          "key": "10.1016/j.swevo.2021.100888_bib0019",
+          "series-title": "Swarm intelligence: From natural to artificial systems",
+          "author": "Bonabeau",
+          "year": "1999"
+        },
+        {
+          "key": "10.1016/j.swevo.2021.100888_bib0020",
+          "series-title": "Evolutionary computation: A unified approach",
+          "author": "De Jong",
+          "year": "2006"
+        },
+        {
+          "key": "10.1016/j.swevo.2021.100888_bib0021",
+          "series-title": "Genetic algorithms in search, optimization, and machine learning",
+          "author": "Goldberg",
+          "year": "1989"
+        },
+        {
+          "key": "10.1016/j.swevo.2021.100888_bib0022",
+          "series-title": "Analysis of the behavior of a class of genetic adaptive systems",
+          "author": "De Jong",
+          "year": "1975"
+        },
+        {
+          "key": "10.1016/j.swevo.2021.100888_bib0023",
+          "series-title": "Proceedings of IEEE international conference on neural networks",
+          "first-page": "1942",
+          "article-title": "Particle swarm optimization",
+          "volume": "volume 4",
+          "author": "Kennedy",
+          "year": "1995"
+        },
+        {
+          "issue": "1",
+          "key": "10.1016/j.swevo.2021.100888_bib0024",
+          "doi-asserted-by": "crossref",
+          "first-page": "53",
+          "DOI": "10.1109/4235.585892",
+          "article-title": "Ant colony system: a cooperative learning approach to the traveling salesman problem",
+          "volume": "1",
+          "author": "Dorigo",
+          "year": "1997",
+          "journal-title": "IEEE Trans. Evol. Comput."
+        },
+        {
+          "key": "10.1016/j.swevo.2021.100888_bib0025",
+          "article-title": "Comprehensive taxonomies of nature-and bio-inspired optimization: inspiration versus algorithmic behavior, critical analysis and recommendations",
+          "author": "Molina",
+          "year": "2020",
+          "journal-title": "arXiv preprint arXiv:2002.08136"
+        },
+        {
+          "issue": "1",
+          "key": "10.1016/j.swevo.2021.100888_bib0026",
+          "doi-asserted-by": "crossref",
+          "first-page": "3",
+          "DOI": "10.1111/itor.12001",
+          "article-title": "Metaheuristics the metaphor exposed",
+          "volume": "22",
+          "author": "Sörensen",
+          "year": "2015",
+          "journal-title": "International Transactions in Operational Research"
+        },
+        {
+          "key": "10.1016/j.swevo.2021.100888_bib0027",
+          "first-page": "1",
+          "article-title": "A history of metaheuristics",
+          "author": "Sörensen",
+          "year": "2018",
+          "journal-title": "Handbook of heuristics"
+        },
+        {
+          "issue": "1",
+          "key": "10.1016/j.swevo.2021.100888_bib0028",
+          "doi-asserted-by": "crossref",
+          "first-page": "3",
+          "DOI": "10.1016/j.swevo.2011.02.002",
+          "article-title": "A practical tutorial on the use of nonparametric statistical tests as a methodology for comparing evolutionary and swarm intelligence algorithms",
+          "volume": "1",
+          "author": "Derrac",
+          "year": "2011",
+          "journal-title": "Swarm Evol Comput"
+        },
+        {
+          "issue": "1",
+          "key": "10.1016/j.swevo.2021.100888_bib0029",
+          "doi-asserted-by": "crossref",
+          "first-page": "104",
+          "DOI": "10.1287/trsc.1030.0056",
+          "article-title": "Vehicle routing problem with time windows, part i: route construction and local search algorithms",
+          "volume": "39",
+          "author": "Bräysy",
+          "year": "2005",
+          "journal-title": "Transportation science"
+        },
+        {
+          "key": "10.1016/j.swevo.2021.100888_bib0030",
+          "doi-asserted-by": "crossref",
+          "first-page": "2",
+          "DOI": "10.1016/j.neucom.2016.11.098",
+          "article-title": "Good practice proposal for the implementation, presentation, and comparison of metaheuristics for solving routing problems",
+          "volume": "271",
+          "author": "Osaba",
+          "year": "2018",
+          "journal-title": "Neurocomputing"
+        },
+        {
+          "key": "10.1016/j.swevo.2021.100888_bib0031",
+          "doi-asserted-by": "crossref",
+          "first-page": "861",
+          "DOI": "10.1613/jair.1.11420",
+          "article-title": "Pitfalls and best practices in algorithm configuration",
+          "volume": "64",
+          "author": "Eggensperger",
+          "year": "2019",
+          "journal-title": "Journal of Artificial Intelligence Research"
+        },
+        {
+          "key": "10.1016/j.swevo.2021.100888_bib0032",
+          "series-title": "Proceedings of the 2002 Congress on Evolutionary Computation. CEC’02 (Cat. No. 02TH8600)",
+          "first-page": "582",
+          "article-title": "A critical note on experimental research methodology in ec",
+          "volume": "volume 1",
+          "author": "Eiben",
+          "year": "2002"
+        },
+        {
+          "key": "10.1016/j.swevo.2021.100888_bib0033",
+          "doi-asserted-by": "crossref",
+          "first-page": "161",
+          "DOI": "10.1016/j.asoc.2014.02.009",
+          "article-title": "Replication and comparison of computational experiments in applied evolutionary computing: common pitfalls and guidelines to avoid them",
+          "volume": "19",
+          "author": "Črepinšek",
+          "year": "2014",
+          "journal-title": "Appl Soft Comput"
+        },
+        {
+          "key": "10.1016/j.swevo.2021.100888_bib0034",
+          "article-title": "Fairness in bio-inspired optimization research: aprescription of methodological guidelines for comparing meta-heuristics",
+          "author": "LaTorre",
+          "year": "2020",
+          "journal-title": "arXiv preprint arXiv:2004.09969"
+        },
+        {
+          "key": "10.1016/j.swevo.2021.100888_bib0035",
+          "article-title": "Coco: performance assessment",
+          "author": "Hansen",
+          "year": "2016",
+          "journal-title": "arXiv preprint arXiv:1605.03560"
+        },
+        {
+          "key": "10.1016/j.swevo.2021.100888_bib0036",
+          "series-title": "Definition of Optimization Problems",
+          "first-page": "171",
+          "author": "Edmonds",
+          "year": "2008"
+        },
+        {
+          "key": "10.1016/j.swevo.2021.100888_bib0037",
+          "series-title": "Technical Report",
+          "article-title": "Problem definitions for performance assessment of multi-objective optimization algorithms",
+          "author": "Huang",
+          "year": "2007"
+        },
+        {
+          "key": "10.1016/j.swevo.2021.100888_bib0038",
+          "series-title": "Research methodology: a step-by-step guide for beginners",
+          "author": "Kumar",
+          "year": "2010"
+        },
+        {
+          "issue": "3",
+          "key": "10.1016/j.swevo.2021.100888_bib0039",
+          "doi-asserted-by": "crossref",
+          "first-page": "879",
+          "DOI": "10.1016/j.ejor.2018.07.002",
+          "article-title": "The two-echelon capacitated electric vehicle routing problem with battery swapping stations: formulation and efficient methodology",
+          "volume": "272",
+          "author": "Jie",
+          "year": "2019",
+          "journal-title": "Eur J Oper Res"
+        },
+        {
+          "issue": "1",
+          "key": "10.1016/j.swevo.2021.100888_bib0040",
+          "doi-asserted-by": "crossref",
+          "first-page": "1",
+          "DOI": "10.1016/j.ejor.2016.04.030",
+          "article-title": "Bin packing and cutting stock problems: mathematical models and exact algorithms",
+          "volume": "255",
+          "author": "Delorme",
+          "year": "2016",
+          "journal-title": "Eur J Oper Res"
+        },
+        {
+          "key": "10.1016/j.swevo.2021.100888_bib0041",
+          "series-title": "15th IEEE International Requirements Engineering Conference (RE 2007)",
+          "first-page": "21",
+          "article-title": "On non-functional requirements",
+          "author": "Glinz",
+          "year": "2007"
+        },
+        {
+          "key": "10.1016/j.swevo.2021.100888_bib0042",
+          "series-title": "Mastering the requirements process: Getting requirements right",
+          "author": "Robertson",
+          "year": "2012"
+        },
+        {
+          "key": "10.1016/j.swevo.2021.100888_bib0043",
+          "article-title": "Software engineering",
+          "author": "Sommerville",
+          "year": "2001",
+          "journal-title": "Ed., Harlow, UK.: Addison-Wesley"
+        },
+        {
+          "key": "10.1016/j.swevo.2021.100888_bib0044",
+          "article-title": "Software requirements",
+          "author": "Davis",
+          "year": "1993",
+          "journal-title": "OBJECTS FUNCTIONS & STATUS"
+        },
+        {
+          "key": "10.1016/j.swevo.2021.100888_bib0045",
+          "series-title": "Approximation Algorithms for NP-Hard Problems",
+          "first-page": "46",
+          "author": "Coffman",
+          "year": "1996"
+        },
+        {
+          "issue": "1",
+          "key": "10.1016/j.swevo.2021.100888_bib0046",
+          "doi-asserted-by": "crossref",
+          "first-page": "1",
+          "DOI": "10.1080/10618600.2000.10474858",
+          "article-title": "Optimization transfer using surrogate objective functions",
+          "volume": "9",
+          "author": "Lange",
+          "year": "2000",
+          "journal-title": "Journal of computational and graphical statistics"
+        },
+        {
+          "issue": "2",
+          "key": "10.1016/j.swevo.2021.100888_bib0047",
+          "doi-asserted-by": "crossref",
+          "first-page": "417",
+          "DOI": "10.1137/18M1167978",
+          "article-title": "Global sensitivity analysis for optimization with variable selection",
+          "volume": "7",
+          "author": "Spagnol",
+          "year": "2019",
+          "journal-title": "SIAM/ASA Journal on Uncertainty Quantification"
+        },
+        {
+          "key": "10.1016/j.swevo.2021.100888_bib0048",
+          "series-title": "Convex optimization",
+          "author": "Boyd",
+          "year": "2004"
+        },
+        {
+          "key": "10.1016/j.swevo.2021.100888_bib0049",
+          "series-title": "2018 IEEE International Conference on Robotics and Automation (ICRA)",
+          "first-page": "5776",
+          "article-title": "On time optimization of centroidal momentum dynamics",
+          "author": "Ponton",
+          "year": "2018"
+        },
+        {
+          "key": "10.1016/j.swevo.2021.100888_bib0050",
+          "series-title": "The roles of mutation, inbreeding, crossbreeding, and selection in evolution",
+          "volume": "volume 1",
+          "author": "Wright",
+          "year": "1932"
+        },
+        {
+          "issue": "1",
+          "key": "10.1016/j.swevo.2021.100888_bib0051",
+          "doi-asserted-by": "crossref",
+          "first-page": "3",
+          "DOI": "10.1137/S0036144501395952",
+          "article-title": "Combinatorial landscapes",
+          "volume": "44",
+          "author": "Reidys",
+          "year": "2002",
+          "journal-title": "SIAM Rev."
+        },
+        {
+          "key": "10.1016/j.swevo.2021.100888_bib0052",
+          "series-title": "Recent advances in intelligent engineering systems",
+          "first-page": "161",
+          "article-title": "A Comprehensive Survey on Fitness Landscape Analysis",
+          "author": "Pitzer",
+          "year": "2012"
+        },
+        {
+          "key": "10.1016/j.swevo.2021.100888_bib0053",
+          "first-page": "245",
+          "article-title": "Fitness landscapes and memetic algorithm design",
+          "author": "Merz",
+          "year": "1999",
+          "journal-title": "New ideas in optimization"
+        },
+        {
+          "key": "10.1016/j.swevo.2021.100888_bib0054",
+          "series-title": "Proceedings of 1997 IEEE International Conference on Evolutionary Computation (ICEC’97)",
+          "first-page": "43",
+          "article-title": "Robust encodings in genetic algorithms: A survey of encoding issues",
+          "author": "Ronald",
+          "year": "1997"
+        },
+        {
+          "key": "10.1016/j.swevo.2021.100888_bib0055",
+          "series-title": "Metaheuristics: from design to implementation",
+          "volume": "volume 74",
+          "author": "Talbi",
+          "year": "2009"
+        },
+        {
+          "issue": "3–4",
+          "key": "10.1016/j.swevo.2021.100888_bib0056",
+          "doi-asserted-by": "crossref",
+          "first-page": "253",
+          "DOI": "10.1016/S0020-0255(03)00178-6",
+          "article-title": "An analysis of gray versus binary encoding in genetic search",
+          "volume": "156",
+          "author": "Chakraborty",
+          "year": "2003",
+          "journal-title": "Inf Sci (Ny)"
+        },
+        {
+          "key": "10.1016/j.swevo.2021.100888_bib0057",
+          "series-title": "International Conference on Parallel Problem Solving from Nature",
+          "first-page": "310",
+          "article-title": "On permutation representations for scheduling problems",
+          "author": "Bierwirth",
+          "year": "1996"
+        },
+        {
+          "issue": "2",
+          "key": "10.1016/j.swevo.2021.100888_bib0058",
+          "doi-asserted-by": "crossref",
+          "first-page": "154",
+          "DOI": "10.1287/ijoc.6.2.154",
+          "article-title": "Genetic algorithms and random keys for sequencing and optimization",
+          "volume": "6",
+          "author": "Bean",
+          "year": "1994",
+          "journal-title": "ORSA journal on computing"
+        },
+        {
+          "key": "10.1016/j.swevo.2021.100888_bib0059",
+          "series-title": "Representations for Genetic and Evolutionary Algorithms",
+          "first-page": "9",
+          "article-title": "Representations for Genetic and Evolutionary Algorithms",
+          "author": "Rothlauf",
+          "year": "2006"
+        },
+        {
+          "issue": "2",
+          "key": "10.1016/j.swevo.2021.100888_bib0060",
+          "doi-asserted-by": "crossref",
+          "first-page": "129",
+          "DOI": "10.1023/A:1006529012972",
+          "article-title": "Genetic algorithms for the travelling salesman problem: a review of representations and operators",
+          "volume": "13",
+          "author": "Larranaga",
+          "year": "1999",
+          "journal-title": "Artif Intell Rev"
+        },
+        {
+          "key": "10.1016/j.swevo.2021.100888_bib0061",
+          "series-title": "Proceedings of the 1999 congress on evolutionary computation-CEC99 (Cat. No. 99TH8406)",
+          "first-page": "1470",
+          "article-title": "Ant colony optimization: a new meta-heuristic",
+          "volume": "volume 2",
+          "author": "Dorigo",
+          "year": "1999"
+        },
+        {
+          "key": "10.1016/j.swevo.2021.100888_bib0062",
+          "series-title": "Proceedings of the 2002 Congress on Evolutionary Computation. CEC’02 (Cat. No. 02TH8600)",
+          "first-page": "1558",
+          "article-title": "Ant colony optimization for fop shop scheduling: a case study on different pheromone representations",
+          "volume": "volume 2",
+          "author": "Blum",
+          "year": "2002"
+        },
+        {
+          "key": "10.1016/j.swevo.2021.100888_bib0063",
+          "series-title": "2018 21st International Conference on Intelligent Transportation Systems (ITSC)",
+          "first-page": "865",
+          "article-title": "Multi-objective optimization of bike routes for last-mile package delivery with drop-offs",
+          "author": "Osaba",
+          "year": "2018"
+        },
+        {
+          "key": "10.1016/j.swevo.2021.100888_bib0064",
+          "series-title": "International Conference on Artificial Neural Networks",
+          "first-page": "547",
+          "article-title": "Feature selection via genetic optimization",
+          "author": "Salcedo-Sanz",
+          "year": "2002"
+        },
+        {
+          "issue": "4",
+          "key": "10.1016/j.swevo.2021.100888_bib0065",
+          "doi-asserted-by": "crossref",
+          "first-page": "398",
+          "DOI": "10.1109/TSMCC.2004.833301",
+          "article-title": "Enhancing genetic feature selection through restricted search and walsh analysis",
+          "volume": "34",
+          "author": "Salcedo-Sanz",
+          "year": "2004",
+          "journal-title": "IEEE Transactions on Systems, Man, and Cybernetics, Part C (Applications and Reviews)"
+        },
+        {
+          "issue": "1",
+          "key": "10.1016/j.swevo.2021.100888_bib0066",
+          "doi-asserted-by": "crossref",
+          "first-page": "91",
+          "DOI": "10.1016/j.cor.2005.05.001",
+          "article-title": "Improving metaheuristics convergence properties in inductive query by example using two strategies for reducing the search space",
+          "volume": "34",
+          "author": "Salcedo-Sanz",
+          "year": "2007",
+          "journal-title": "Computers & operations research"
+        },
+        {
+          "issue": "3",
+          "key": "10.1016/j.swevo.2021.100888_bib0067",
+          "doi-asserted-by": "crossref",
+          "first-page": "343",
+          "DOI": "10.1109/TEVC.2015.2458037",
+          "article-title": "Multifactorial evolution: toward evolutionary multitasking",
+          "volume": "20",
+          "author": "Gupta",
+          "year": "2015",
+          "journal-title": "IEEE Trans. Evol. Comput."
+        },
+        {
+          "issue": "1",
+          "key": "10.1016/j.swevo.2021.100888_bib0068",
+          "doi-asserted-by": "crossref",
+          "first-page": "51",
+          "DOI": "10.1109/TETCI.2017.2769104",
+          "article-title": "Insights on transfer optimization: because experience is the best teacher",
+          "volume": "2",
+          "author": "Gupta",
+          "year": "2017",
+          "journal-title": "IEEE Transactions on Emerging Topics in Computational Intelligence"
+        },
+        {
+          "issue": "4598",
+          "key": "10.1016/j.swevo.2021.100888_bib0069",
+          "doi-asserted-by": "crossref",
+          "first-page": "671",
+          "DOI": "10.1126/science.220.4598.671",
+          "article-title": "Optimization by simulated annealing",
+          "volume": "220",
+          "author": "Kirkpatrick",
+          "year": "1983",
+          "journal-title": "Science"
+        },
+        {
+          "key": "10.1016/j.swevo.2021.100888_bib0070",
+          "series-title": "Handbook of combinatorial optimization",
+          "first-page": "2093",
+          "article-title": "Tabu Search",
+          "author": "Glover",
+          "year": "1998"
+        },
+        {
+          "key": "10.1016/j.swevo.2021.100888_bib0071",
+          "series-title": "Parallel metaheuristics: A new class of algorithms",
+          "volume": "volume 47",
+          "author": "Alba",
+          "year": "2005"
+        },
+        {
+          "issue": "1",
+          "key": "10.1016/j.swevo.2021.100888_bib0072",
+          "doi-asserted-by": "crossref",
+          "first-page": "1",
+          "DOI": "10.1111/j.1475-3995.2012.00862.x",
+          "article-title": "Parallel metaheuristics: recent advances and new trends",
+          "volume": "20",
+          "author": "Alba",
+          "year": "2013",
+          "journal-title": "International Transactions in Operational Research"
+        },
+        {
+          "key": "10.1016/j.swevo.2021.100888_bib0073",
+          "series-title": "2007 IEEE congress on evolutionary computation",
+          "first-page": "4661",
+          "article-title": "Imperialist competitive algorithm: an algorithm for optimization inspired by imperialistic competition",
+          "author": "Atashpaz-Gargari",
+          "year": "2007"
+        },
+        {
+          "key": "10.1016/j.swevo.2021.100888_bib0074",
+          "series-title": "Parallel genetic algorithms: Theory and real world applications",
+          "volume": "volume 367",
+          "author": "Luque",
+          "year": "2011"
+        },
+        {
+          "issue": "2",
+          "key": "10.1016/j.swevo.2021.100888_bib0075",
+          "first-page": "141",
+          "article-title": "A survey of parallel genetic algorithms",
+          "volume": "10",
+          "author": "Cantú-Paz",
+          "year": "1998",
+          "journal-title": "Calculateurs paralleles, reseaux et systems repartis"
+        },
+        {
+          "key": "10.1016/j.swevo.2021.100888_bib0076",
+          "series-title": "International fuzzy systems association world congress",
+          "first-page": "789",
+          "article-title": "Artificial bee colony (abc) optimization algorithm for solving constrained optimization problems",
+          "author": "Karaboga",
+          "year": "2007"
+        },
+        {
+          "key": "10.1016/j.swevo.2021.100888_bib0077",
+          "series-title": "2009 World Congress on Nature & Biologically Inspired Computing (NaBIC)",
+          "first-page": "210",
+          "article-title": "Cuckoo search via lévy flights",
+          "author": "Yang",
+          "year": "2009"
+        },
+        {
+          "issue": "2",
+          "key": "10.1016/j.swevo.2021.100888_bib0078",
+          "doi-asserted-by": "crossref",
+          "first-page": "71",
+          "DOI": "10.1016/j.swevo.2011.05.005",
+          "article-title": "Real-parameter evolutionary multimodal optimization a survey of the state-of-the-art",
+          "volume": "1",
+          "author": "Das",
+          "year": "2011",
+          "journal-title": "Swarm Evol Comput"
+        },
+        {
+          "key": "10.1016/j.swevo.2021.100888_bib0079",
+          "series-title": "International symposium on stochastic algorithms",
+          "first-page": "169",
+          "article-title": "Firefly algorithms for multimodal optimization",
+          "author": "Yang",
+          "year": "2009"
+        },
+        {
+          "issue": "5",
+          "key": "10.1016/j.swevo.2021.100888_bib0080",
+          "first-page": "3792",
+          "article-title": "A review of selection methods in genetic algorithm",
+          "volume": "3",
+          "author": "Sivaraj",
+          "year": "2011",
+          "journal-title": "International journal of engineering science and technology"
+        },
+        {
+          "issue": "1",
+          "key": "10.1016/j.swevo.2021.100888_bib0081",
+          "doi-asserted-by": "crossref",
+          "first-page": "97",
+          "DOI": "10.1007/s10462-015-9441-y",
+          "article-title": "Metaheuristic algorithms and probabilistic behaviour: a comprehensive analysis of ant colony optimization and its variants",
+          "volume": "45",
+          "author": "Prakasam",
+          "year": "2016",
+          "journal-title": "Artif Intell Rev"
+        },
+        {
+          "key": "10.1016/j.swevo.2021.100888_bib0082",
+          "doi-asserted-by": "crossref",
+          "first-page": "633",
+          "DOI": "10.1016/S0927-0507(06)13021-2",
+          "article-title": "Metaheuristics",
+          "volume": "13",
+          "author": "Ólafsson",
+          "year": "2006",
+          "journal-title": "Handbooks in operations research and management science"
+        },
+        {
+          "issue": "1",
+          "key": "10.1016/j.swevo.2021.100888_bib0083",
+          "doi-asserted-by": "crossref",
+          "first-page": "3",
+          "DOI": "10.1162/evco_a_00242",
+          "article-title": "Automated algorithm selection: survey and perspectives",
+          "volume": "27",
+          "author": "Kerschke",
+          "year": "2019",
+          "journal-title": "Evol Comput"
+        },
+        {
+          "key": "10.1016/j.swevo.2021.100888_bib0084",
+          "series-title": "Technical Report",
+          "article-title": "No free lunch theorems for search",
+          "author": "Wolpert",
+          "year": "1995"
+        },
+        {
+          "key": "10.1016/j.swevo.2021.100888_bib0085",
+          "doi-asserted-by": "crossref",
+          "first-page": "17",
+          "DOI": "10.1016/j.ins.2011.11.025",
+          "article-title": "Ockham’S razor in memetic computing: three stage optimal memetic exploration",
+          "volume": "188",
+          "author": "Iacca",
+          "year": "2012",
+          "journal-title": "Inf Sci (Ny)"
+        },
+        {
+          "key": "10.1016/j.swevo.2021.100888_bib0086",
+          "series-title": "2012 12th UK Workshop on Computational Intelligence (UKCI)",
+          "first-page": "1",
+          "article-title": "Three variants of three stage optimal memetic exploration for handling non-separable fitness landscapes",
+          "author": "Caraffini",
+          "year": "2012"
+        },
+        {
+          "key": "10.1016/j.swevo.2021.100888_bib0087",
+          "series-title": "Adaptive and multilevel metaheuristics",
+          "volume": "volume 136",
+          "author": "Cotta",
+          "year": "2008"
+        },
+        {
+          "key": "10.1016/j.swevo.2021.100888_bib0088",
+          "series-title": "Proceedings of the 13th annual conference companion on Genetic and evolutionary computation",
+          "first-page": "583",
+          "article-title": "Automatically designing selection heuristics",
+          "author": "Woodward",
+          "year": "2011"
+        },
+        {
+          "key": "10.1016/j.swevo.2021.100888_bib0089",
+          "series-title": "Proceedings of the 14th annual conference companion on Genetic and evolutionary computation",
+          "first-page": "67",
+          "article-title": "The automatic generation of mutation operators for genetic algorithms",
+          "author": "Woodward",
+          "year": "2012"
+        },
+        {
+          "issue": "4",
+          "key": "10.1016/j.swevo.2021.100888_bib0090",
+          "doi-asserted-by": "crossref",
+          "first-page": "777",
+          "DOI": "10.1109/TEVC.2019.2955110",
+          "article-title": "Paradoxes in numerical comparison of optimization algorithms",
+          "volume": "24",
+          "author": "Liu",
+          "year": "2020",
+          "journal-title": "IEEE Trans. Evol. Comput."
+        },
+        {
+          "key": "10.1016/j.swevo.2021.100888_bib0091",
+          "doi-asserted-by": "crossref",
+          "first-page": "106078",
+          "DOI": "10.1016/j.asoc.2020.106078",
+          "article-title": "An easy-to-use real-world multi-objective optimization problem suite",
+          "volume": "89",
+          "author": "Tanabe",
+          "year": "2020",
+          "journal-title": "Appl Soft Comput"
+        },
+        {
+          "issue": "1",
+          "key": "10.1016/j.swevo.2021.100888_bib0092",
+          "doi-asserted-by": "crossref",
+          "first-page": "67",
+          "DOI": "10.1007/s40747-017-0039-7",
+          "article-title": "A benchmark test suite for evolutionary many-objective optimization",
+          "volume": "3",
+          "author": "Cheng",
+          "year": "2017",
+          "journal-title": "Complex & Intelligent Systems"
+        },
+        {
+          "key": "10.1016/j.swevo.2021.100888_bib0093",
+          "series-title": "International Conference on Parallel Problem Solving from Nature",
+          "first-page": "201",
+          "article-title": "Proposal of a realistic many-objective test suite",
+          "author": "Chen",
+          "year": "2020"
+        },
+        {
+          "key": "10.1016/j.swevo.2021.100888_bib0094",
+          "article-title": "Realistic constrained multi-objective optimization benchmark problems from design",
+          "author": "Picard",
+          "year": "2020",
+          "journal-title": "IEEE Trans. Evol. Comput."
+        },
+        {
+          "key": "10.1016/j.swevo.2021.100888_bib0095",
+          "doi-asserted-by": "crossref",
+          "first-page": "100693",
+          "DOI": "10.1016/j.swevo.2020.100693",
+          "article-title": "A test-suite of non-convex constrained optimization problems from the real-world and some baseline results",
+          "author": "Kumar",
+          "year": "2020",
+          "journal-title": "Swarm Evol Comput"
+        },
+        {
+          "key": "10.1016/j.swevo.2021.100888_bib0096",
+          "first-page": "1",
+          "article-title": "A repository of real-world datasets for data-driven evolutionary multiobjective optimization",
+          "author": "He",
+          "year": "2019",
+          "journal-title": "Complex & Intelligent Systems"
+        },
+        {
+          "key": "10.1016/j.swevo.2021.100888_bib0097",
+          "doi-asserted-by": "crossref",
+          "first-page": "287",
+          "DOI": "10.1016/j.swevo.2018.04.005",
+          "article-title": "On constructing alternative benchmark suite for evolutionary algorithms",
+          "volume": "44",
+          "author": "Lou",
+          "year": "2019",
+          "journal-title": "Swarm Evol Comput"
+        },
+        {
+          "key": "10.1016/j.swevo.2021.100888_bib0098",
+          "series-title": "2019 IEEE Congress on Evolutionary Computation (CEC)",
+          "first-page": "310",
+          "article-title": "A scalable multimodal multiobjective test problem",
+          "author": "Ishibuchi",
+          "year": "2019"
+        },
+        {
+          "key": "10.1016/j.swevo.2021.100888_bib0099",
+          "doi-asserted-by": "crossref",
+          "first-page": "419",
+          "DOI": "10.1016/j.ins.2014.12.062",
+          "article-title": "Designing benchmark problems for large-scale continuous optimization",
+          "volume": "316",
+          "author": "Omidvar",
+          "year": "2015",
+          "journal-title": "Inf Sci (Ny)"
+        },
+        {
+          "issue": "1",
+          "key": "10.1016/j.swevo.2021.100888_bib0100",
+          "doi-asserted-by": "crossref",
+          "first-page": "172",
+          "DOI": "10.1137/080724083",
+          "article-title": "Benchmarking derivative-free optimization algorithms",
+          "volume": "20",
+          "author": "Moré",
+          "year": "2009",
+          "journal-title": "SIAM J. Optim."
+        },
+        {
+          "issue": "9",
+          "key": "10.1016/j.swevo.2021.100888_bib0101",
+          "doi-asserted-by": "crossref",
+          "first-page": "2924",
+          "DOI": "10.1109/TCYB.2017.2659659",
+          "article-title": "Benchmarking stochastic algorithms for global optimization problems by visualizing confidence intervals",
+          "volume": "47",
+          "author": "Liu",
+          "year": "2017",
+          "journal-title": "IEEE Trans Cybern"
+        },
+        {
+          "issue": "11",
+          "key": "10.1016/j.swevo.2021.100888_bib0102",
+          "first-page": "2187",
+          "article-title": "A MOS-based dynamic memetic differential evolution algorithm for continuous optimization: a scalability test",
+          "volume": "15",
+          "author": "LaTorre",
+          "year": "2010",
+          "journal-title": "Soft Computing - A Fusion of Foundations, Methodologies and Applications"
+        },
+        {
+          "key": "10.1016/j.swevo.2021.100888_bib0103",
+          "article-title": "Genetic and memetic algorithm with diversity equilibrium based on greedy diversification",
+          "volume": "abs/1702.03594",
+          "author": "Herrera-Poyatos",
+          "year": "2017",
+          "journal-title": "CoRR"
+        },
+        {
+          "issue": "3",
+          "key": "10.1016/j.swevo.2021.100888_bib0104",
+          "doi-asserted-by": "crossref",
+          "first-page": "1",
+          "DOI": "10.1145/2480741.2480752",
+          "article-title": "Exploration and exploitation in evolutionary algorithms: a survey",
+          "volume": "45",
+          "author": "Črepinšek",
+          "year": "2013",
+          "journal-title": "ACM Comput Surv"
+        },
+        {
+          "issue": "4",
+          "key": "10.1016/j.swevo.2021.100888_bib0105",
+          "doi-asserted-by": "crossref",
+          "first-page": "308",
+          "DOI": "10.1109/TSE.1976.233837",
+          "article-title": "A complexity measure",
+          "volume": "SE-2",
+          "author": "McCabe",
+          "year": "1976",
+          "journal-title": "IEEE Trans. Software Eng."
+        },
+        {
+          "key": "10.1016/j.swevo.2021.100888_bib0106",
+          "first-page": "1",
+          "article-title": "Statistical comparisons of classifiers over multiple data sets",
+          "volume": "7",
+          "author": "Demšar",
+          "year": "2006",
+          "journal-title": "The Journal of Machine Learning Research"
+        },
+        {
+          "issue": "4",
+          "key": "10.1016/j.swevo.2021.100888_bib0107",
+          "doi-asserted-by": "crossref",
+          "first-page": "337",
+          "DOI": "10.1007/s10654-016-0149-3",
+          "article-title": "Statistical tests, p values, confidence intervals, and power: a guide to misinterpretations",
+          "volume": "31",
+          "author": "Greenland",
+          "year": "2016",
+          "journal-title": "Eur. J. Epidemiol."
+        },
+        {
+          "issue": "1",
+          "key": "10.1016/j.swevo.2021.100888_bib0108",
+          "first-page": "2653",
+          "article-title": "Time for a change: a tutorial for comparing multiple classifiers through bayesian analysis",
+          "volume": "18",
+          "author": "Benavoli",
+          "year": "2017",
+          "journal-title": "The Journal of Machine Learning Research"
+        },
+        {
+          "key": "10.1016/j.swevo.2021.100888_bib0109",
+          "series-title": "Proceedings of the Genetic and Evolutionary Computation Conference Companion",
+          "first-page": "247",
+          "article-title": "On equivalence of algorithm’s implementations: The CMA-ES algorithm and its five implementations",
+          "author": "Biedrzycki",
+          "year": "2019"
+        },
+        {
+          "issue": "1",
+          "key": "10.1016/j.swevo.2021.100888_bib0110",
+          "doi-asserted-by": "crossref",
+          "first-page": "109",
+          "DOI": "10.1007/s40614-018-0171-8",
+          "article-title": "Predict, control, and replicate to understand: how statistics can foster the fundamental goals of science",
+          "volume": "42",
+          "author": "Killeen",
+          "year": "2019",
+          "journal-title": "Perspectives on Behavior Science"
+        },
+        {
+          "issue": "6060",
+          "key": "10.1016/j.swevo.2021.100888_bib0111",
+          "doi-asserted-by": "crossref",
+          "first-page": "1226",
+          "DOI": "10.1126/science.1213847",
+          "article-title": "Reproducible research in computational science",
+          "volume": "334",
+          "author": "Peng",
+          "year": "2011",
+          "journal-title": "Science"
+        },
+        {
+          "key": "10.1016/j.swevo.2021.100888_bib0112",
+          "series-title": "SSRN Scholarly Paper",
+          "article-title": "The Reproducibility Project: A Model of Large-Scale Collaboration for Empirical Research on Reproducibility",
+          "author": "Collaboration",
+          "year": "2013"
+        },
+        {
+          "key": "10.1016/j.swevo.2021.100888_bib0113",
+          "series-title": "Proceedings of the Genetic and Evolutionary Computation Conference Companion",
+          "first-page": "1391",
+          "article-title": "ECJ at 20: Toward a general metaheuristics toolkit",
+          "author": "Scott",
+          "year": "2019"
+        },
+        {
+          "key": "10.1016/j.swevo.2021.100888_bib0114",
+          "first-page": "197",
+          "article-title": "Advanced Methods and Applications in Computational Intelligence",
+          "volume": "vol. 6",
+          "author": "Wagner",
+          "year": "2014"
+        },
+        {
+          "key": "10.1016/j.swevo.2021.100888_bib0115",
+          "doi-asserted-by": "crossref",
+          "first-page": "760",
+          "DOI": "10.1016/j.advengsoft.2011.05.014",
+          "article-title": "Jmetal: a java framework for multi-objective optimization",
+          "volume": "42",
+          "author": "Durillo",
+          "year": "2011",
+          "journal-title": "Adv. Eng. Software"
+        },
+        {
+          "key": "10.1016/j.swevo.2021.100888_bib0116",
+          "series-title": "Proceedings of the Companion Publication of the 2015 Annual Conference on Genetic and Evolutionary Computation",
+          "first-page": "1093",
+          "article-title": "Redesigning the jMetal multi-objective optimization framework",
+          "author": "Nebro",
+          "year": "2015"
+        },
+        {
+          "issue": "3",
+          "key": "10.1016/j.swevo.2021.100888_bib0117",
+          "doi-asserted-by": "crossref",
+          "first-page": "437",
+          "DOI": "10.1093/bioinformatics/btt679",
+          "article-title": "Jmetalcpp: optimizing molecular docking problems with a c++ metaheuristic framework",
+          "volume": "30",
+          "author": "López-Camacho",
+          "year": "2013",
+          "journal-title": "Bioinformatics"
+        },
+        {
+          "key": "10.1016/j.swevo.2021.100888_bib0118",
+          "doi-asserted-by": "crossref",
+          "first-page": "100598",
+          "DOI": "10.1016/j.swevo.2019.100598",
+          "article-title": "Jmetalpy: a python framework for multi-objective optimization with metaheuristics",
+          "volume": "51",
+          "author": "Benítez-Hidalgo",
+          "year": "2019",
+          "journal-title": "Swarm Evol Comput"
+        },
+        {
+          "key": "10.1016/j.swevo.2021.100888_bib0119",
+          "unstructured": "D. Hadka, MOEA Framework. A Free and Open Source Java Framework for Multiobjective Optimization, 2020. http://moeaframework.org/."
+        },
+        {
+          "key": "10.1016/j.swevo.2021.100888_bib0120",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.21105/joss.00613",
+          "article-title": "Niapy: python microframework for building nature-inspired algorithms",
+          "volume": "3",
+          "author": "Vrbančič",
+          "year": "2018",
+          "journal-title": "Journal of Open Source Software"
+        },
+        {
+          "key": "10.1016/j.swevo.2021.100888_bib0121",
+          "unstructured": "F. Biscani, D. Izzo, pagmo, 2020. https://esa.github.io/pagmo2/."
+        },
+        {
+          "key": "10.1016/j.swevo.2021.100888_bib0122",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1023/B:HEUR.0000026900.92269.ec",
+          "article-title": "Paradiseo: a framework for the reusable design of parallel and distributed metaheuristics",
+          "author": "Cahon",
+          "year": "2004",
+          "journal-title": "Journal of Heuristics"
+        },
+        {
+          "issue": "4",
+          "key": "10.1016/j.swevo.2021.100888_bib0123",
+          "doi-asserted-by": "crossref",
+          "first-page": "73",
+          "DOI": "10.1109/MCI.2017.2742868",
+          "article-title": "Platemo: a MATLAB platform for evolutionary multi-objective optimization",
+          "volume": "12",
+          "author": "Tian",
+          "year": "2017",
+          "journal-title": "IEEE Comput Intell Mag"
+        },
+        {
+          "key": "10.1016/j.swevo.2021.100888_bib0124",
+          "unstructured": "F. Biscani, D. Izzo, pygmo, 2020. https://esa.github.io/pygmo2/."
+        },
+        {
+          "key": "10.1016/j.swevo.2021.100888_bib0125",
+          "unstructured": "D. Hadka, Platypus - Multiobjective Optimization in Python, 2020. https://platypus.readthedocs.io/."
+        },
+        {
+          "issue": "2",
+          "key": "10.1016/j.swevo.2021.100888_bib0126",
+          "doi-asserted-by": "crossref",
+          "first-page": "201",
+          "DOI": "10.1109/TEVC.2019.2921598",
+          "article-title": "A survey of automatic parameter tuning methods for metaheuristics",
+          "volume": "24",
+          "author": "Huang",
+          "year": "2020",
+          "journal-title": "IEEE Trans. Evol. Comput."
+        },
+        {
+          "key": "10.1016/j.swevo.2021.100888_sbref0127",
+          "first-page": "43",
+          "article-title": "The irace package: iterated racing for automatic algorithm configuration",
+          "volume": "3",
+          "author": "nez",
+          "year": "2016",
+          "journal-title": "Oper. Res. Perspect."
+        },
+        {
+          "issue": "1",
+          "key": "10.1016/j.swevo.2021.100888_bib0128",
+          "first-page": "267",
+          "article-title": "Paramils: an automatic algorithm configuration framework",
+          "volume": "36",
+          "author": "Hutter",
+          "year": "2009",
+          "journal-title": "J. Artif. Int. Res."
+        },
+        {
+          "issue": "3",
+          "key": "10.1016/j.swevo.2021.100888_bib0129",
+          "doi-asserted-by": "crossref",
+          "first-page": "471",
+          "DOI": "10.1016/j.ejor.2013.09.036",
+          "article-title": "Recent advances in robust optimization: an overview",
+          "volume": "235",
+          "author": "Gabrel",
+          "year": "2014",
+          "journal-title": "Eur J Oper Res"
+        },
+        {
+          "issue": "3",
+          "key": "10.1016/j.swevo.2021.100888_bib0130",
+          "doi-asserted-by": "crossref",
+          "first-page": "303",
+          "DOI": "10.1109/TEVC.2005.846356",
+          "article-title": "Evolutionary optimization in uncertain environments-a survey",
+          "volume": "9",
+          "author": "Jin",
+          "year": "2005",
+          "journal-title": "IEEE Trans. Evol. Comput."
+        },
+        {
+          "issue": "4",
+          "key": "10.1016/j.swevo.2021.100888_bib0131",
+          "doi-asserted-by": "crossref",
+          "first-page": "405",
+          "DOI": "10.1109/TEVC.2005.859465",
+          "article-title": "Efficient search for robust solutions by means of evolutionary algorithms and fitness approximation",
+          "volume": "10",
+          "author": "Paenke",
+          "year": "2006",
+          "journal-title": "IEEE Trans. Evol. Comput."
+        },
+        {
+          "issue": "1",
+          "key": "10.1016/j.swevo.2021.100888_bib0132",
+          "doi-asserted-by": "crossref",
+          "first-page": "1",
+          "DOI": "10.1016/S0167-6377(99)00016-4",
+          "article-title": "Robust solutions of uncertain linear programs",
+          "volume": "25",
+          "author": "Ben-Tal",
+          "year": "1999",
+          "journal-title": "Operations research letters"
+        },
+        {
+          "key": "10.1016/j.swevo.2021.100888_bib0133",
+          "series-title": "International Conference on Evolutionary Multi-Criterion Optimization",
+          "first-page": "237",
+          "article-title": "Trade-off between performance and robustness: An evolutionary multiobjective approach",
+          "author": "Jin",
+          "year": "2003"
+        },
+        {
+          "issue": "5",
+          "key": "10.1016/j.swevo.2021.100888_bib0134",
+          "doi-asserted-by": "crossref",
+          "first-page": "1054",
+          "DOI": "10.1109/TEVC.2009.2014361",
+          "article-title": "Reliability-based optimization using evolutionary algorithms",
+          "volume": "13",
+          "author": "Deb",
+          "year": "2009",
+          "journal-title": "IEEE Trans. Evol. Comput."
+        },
+        {
+          "key": "10.1016/j.swevo.2021.100888_bib0135",
+          "article-title": "Towards realistic optimization benchmarks: aquestionnaire on the properties of real-world problems",
+          "author": "van der Blom",
+          "year": "2020",
+          "journal-title": "arXiv preprint arXiv:2004.06395"
+        },
+        {
+          "issue": "2",
+          "key": "10.1016/j.swevo.2021.100888_bib0136",
+          "doi-asserted-by": "crossref",
+          "first-page": "295",
+          "DOI": "10.1137/15M1020575",
+          "article-title": "Jump: a modeling language for mathematical optimization",
+          "volume": "59",
+          "author": "Dunning",
+          "year": "2017",
+          "journal-title": "SIAM Rev."
+        },
+        {
+          "issue": "1",
+          "key": "10.1016/j.swevo.2021.100888_bib0137",
+          "doi-asserted-by": "crossref",
+          "first-page": "353",
+          "DOI": "10.1016/j.asoc.2011.08.037",
+          "article-title": "A new gradient based particle swarm optimization algorithm for accurate computation of global minimum",
+          "volume": "12",
+          "author": "Noel",
+          "year": "2012",
+          "journal-title": "Appl Soft Comput"
+        },
+        {
+          "issue": "3",
+          "key": "10.1016/j.swevo.2021.100888_bib0138",
+          "doi-asserted-by": "crossref",
+          "first-page": "256",
+          "DOI": "10.1109/TEVC.2005.857695",
+          "article-title": "Evolutionary algorithms+ domain knowledge= real-world evolutionary computation",
+          "volume": "10",
+          "author": "Bonissone",
+          "year": "2006",
+          "journal-title": "IEEE Trans. Evol. Comput."
+        },
+        {
+          "key": "10.1016/j.swevo.2021.100888_bib0139",
+          "series-title": "Handbook of Heuristics",
+          "first-page": "121",
+          "article-title": "Matheuristics",
+          "author": "Fischetti",
+          "year": "2018"
+        },
+        {
+          "key": "10.1016/j.swevo.2021.100888_bib0140",
+          "doi-asserted-by": "crossref",
+          "first-page": "774",
+          "DOI": "10.1016/j.asoc.2015.09.007",
+          "article-title": "A variable reduction strategy for evolutionary algorithms handling equality constraints",
+          "volume": "37",
+          "author": "Wu",
+          "year": "2015",
+          "journal-title": "Appl Soft Comput"
+        },
+        {
+          "key": "10.1016/j.swevo.2021.100888_bib0141",
+          "first-page": "341",
+          "article-title": "Problem definitions and evaluation criteria for cec 2011 competition on testing evolutionary algorithms on real world optimization problems",
+          "author": "Das",
+          "year": "2010",
+          "journal-title": "Jadavpur University, Nanyang Technological University, Kolkata"
+        },
+        {
+          "key": "10.1016/j.swevo.2021.100888_bib0142",
+          "first-page": "62",
+          "article-title": "A review of simheuristics: extending metaheuristics to deal with stochastic combinatorial optimization problems",
+          "volume": "2",
+          "author": "Juan",
+          "year": "2015",
+          "journal-title": "Oper. Res. Perspect."
+        },
+        {
+          "key": "10.1016/j.swevo.2021.100888_bib0143",
+          "article-title": "Why simheuristics? benefits, limitations, and best practices when combining metaheuristics with simulation",
+          "author": "Chica",
+          "year": "2017",
+          "journal-title": "Benefits, Limitations, and Best Practices When Combining Metaheuristics with Simulation (January 1, 2017)"
+        },
+        {
+          "issue": "2",
+          "key": "10.1016/j.swevo.2021.100888_bib0144",
+          "doi-asserted-by": "crossref",
+          "first-page": "61",
+          "DOI": "10.1016/j.swevo.2011.05.001",
+          "article-title": "Surrogate-assisted evolutionary computation: recent advances and future challenges",
+          "volume": "1",
+          "author": "Jin",
+          "year": "2011",
+          "journal-title": "Swarm Evol Comput"
+        },
+        {
+          "issue": "1",
+          "key": "10.1016/j.swevo.2021.100888_bib0145",
+          "doi-asserted-by": "crossref",
+          "first-page": "3",
+          "DOI": "10.1007/s00500-003-0328-5",
+          "article-title": "A comprehensive survey of fitness approximation in evolutionary computation",
+          "volume": "9",
+          "author": "Jin",
+          "year": "2005",
+          "journal-title": "Soft comput"
+        },
+        {
+          "key": "10.1016/j.swevo.2021.100888_bib0146",
+          "series-title": "Proceedings of the 2nd Annual Conference on Genetic and Evolutionary Computation",
+          "first-page": "628",
+          "article-title": "Informed operators: Speeding up genetic-algorithm-based design optimization using reduced models",
+          "author": "Rasheed",
+          "year": "2000"
+        },
+        {
+          "issue": "5",
+          "key": "10.1016/j.swevo.2021.100888_bib0147",
+          "doi-asserted-by": "crossref",
+          "first-page": "481",
+          "DOI": "10.1109/TEVC.2002.800884",
+          "article-title": "A framework for evolutionary optimization with approximate fitness functions",
+          "volume": "6",
+          "author": "Jin",
+          "year": "2002",
+          "journal-title": "IEEE Trans. Evol. Comput."
+        },
+        {
+          "key": "10.1016/j.swevo.2021.100888_bib0148",
+          "doi-asserted-by": "crossref",
+          "first-page": "250",
+          "DOI": "10.1016/j.compchemeng.2017.09.017",
+          "article-title": "Advances in surrogate based modeling, feasibility analysis, and optimization: a review",
+          "volume": "108",
+          "author": "Bhosekar",
+          "year": "2018",
+          "journal-title": "Computers & Chemical Engineering"
+        },
+        {
+          "key": "10.1016/j.swevo.2021.100888_bib0149",
+          "doi-asserted-by": "crossref",
+          "first-page": "82",
+          "DOI": "10.1016/j.inffus.2019.12.012",
+          "article-title": "Explainable artificial intelligence (xai): concepts, taxonomies, opportunities and challenges toward responsible ai",
+          "volume": "58",
+          "author": "Arrieta",
+          "year": "2020",
+          "journal-title": "Information Fusion"
+        },
+        {
+          "key": "10.1016/j.swevo.2021.100888_bib0150",
+          "article-title": "A survey of learning causality with data: problems and methods",
+          "author": "Guo",
+          "year": "2018",
+          "journal-title": "arXiv preprint arXiv:1809.09337"
+        },
+        {
+          "issue": "1",
+          "key": "10.1016/j.swevo.2021.100888_bib0151",
+          "doi-asserted-by": "crossref",
+          "first-page": "18",
+          "DOI": "10.1145/3400051.3400058",
+          "article-title": "Causal interpretability for machine learning-problems, methods and evaluation",
+          "volume": "22",
+          "author": "Moraffah",
+          "year": "2020",
+          "journal-title": "ACM SIGKDD Explorations Newsletter"
+        },
+        {
+          "issue": "2",
+          "key": "10.1016/j.swevo.2021.100888_bib0152",
+          "doi-asserted-by": "crossref",
+          "first-page": "201",
+          "DOI": "10.1109/TEVC.2019.2921598",
+          "article-title": "A survey of automatic parameter tuning methods for metaheuristics",
+          "volume": "24",
+          "author": "Huang",
+          "year": "2020",
+          "journal-title": "IEEE Trans. Evol. Comput."
+        },
+        {
+          "key": "10.1016/j.swevo.2021.100888_bib0153",
+          "series-title": "2008 IEEE International Joint Conference on Neural Networks (IEEE World Congress on Computational Intelligence)",
+          "first-page": "4118",
+          "article-title": "Towards insightful algorithm selection for optimisation using meta-learning concepts",
+          "author": "Smith-Miles",
+          "year": "2008"
+        },
+        {
+          "key": "10.1016/j.swevo.2021.100888_bib0154",
+          "series-title": "Data Mining and Constraint Programming",
+          "first-page": "149",
+          "article-title": "Algorithm Selection for Combinatorial Search Problems: A Survey",
+          "author": "Kotthoff",
+          "year": "2016"
+        },
+        {
+          "issue": "2",
+          "key": "10.1016/j.swevo.2021.100888_bib0155",
+          "doi-asserted-by": "crossref",
+          "first-page": "87",
+          "DOI": "10.1007/s10472-011-9230-5",
+          "article-title": "Discovering the suitability of optimisation algorithms by learning from evolved instances",
+          "volume": "61",
+          "author": "Smith-Miles",
+          "year": "2011",
+          "journal-title": "Ann Math Artif Intell"
+        },
+        {
+          "key": "10.1016/j.swevo.2021.100888_bib0156",
+          "doi-asserted-by": "crossref",
+          "first-page": "393",
+          "DOI": "10.1016/j.neucom.2016.04.027",
+          "article-title": "Meta-learning to select the best meta-heuristic for the traveling salesman problem: a comparison of meta-features",
+          "volume": "205",
+          "author": "Kanda",
+          "year": "2016",
+          "journal-title": "Neurocomputing"
+        },
+        {
+          "key": "10.1016/j.swevo.2021.100888_bib0157",
+          "doi-asserted-by": "crossref",
+          "first-page": "470",
+          "DOI": "10.1016/j.eswa.2018.10.036",
+          "article-title": "Selecting meta-heuristics for solving vehicle routing problems with time windows via meta-learning",
+          "volume": "118",
+          "author": "Gutierrez-Rodríguez",
+          "year": "2019",
+          "journal-title": "Expert Syst Appl"
+        },
+        {
+          "key": "10.1016/j.swevo.2021.100888_bib0158",
+          "series-title": "Proceedings of the Genetic and Evolutionary Computation Conference",
+          "first-page": "925",
+          "article-title": "Meta-learning on flowshop using fitness landscape analysis",
+          "author": "Pavelski",
+          "year": "2019"
+        },
+        {
+          "key": "10.1016/j.swevo.2021.100888_bib0159",
+          "doi-asserted-by": "crossref",
+          "first-page": "695",
+          "DOI": "10.1016/j.swevo.2018.08.015",
+          "article-title": "Ensemble strategies for population-based optimization algorithms–a survey",
+          "volume": "44",
+          "author": "Wu",
+          "year": "2019",
+          "journal-title": "Swarm Evol Comput"
+        }
+      ],
+      "container-title": [
+        "Swarm and Evolutionary Computation"
+      ],
+      "original-title": [],
+      "language": "en",
+      "link": [
+        {
+          "URL": "https://api.elsevier.com/content/article/PII:S2210650221000493?httpAccept=text/xml",
+          "content-type": "text/xml",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        },
+        {
+          "URL": "https://api.elsevier.com/content/article/PII:S2210650221000493?httpAccept=text/plain",
+          "content-type": "text/plain",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2025,
+            10,
+            31
+          ]
+        ],
+        "date-time": "2025-10-31T05:51:03Z",
+        "timestamp": 1761889863000
+      },
+      "score": 1,
+      "resource": {
+        "primary": {
+          "URL": "https://linkinghub.elsevier.com/retrieve/pii/S2210650221000493"
+        }
+      },
+      "subtitle": [],
+      "short-title": [],
+      "issued": {
+        "date-parts": [
+          [
+            2021,
+            7
+          ]
+        ]
+      },
+      "references-count": 159,
+      "alternative-id": [
+        "S2210650221000493"
+      ],
+      "URL": "https://doi.org/10.1016/j.swevo.2021.100888",
+      "relation": {},
+      "ISSN": [
+        "2210-6502"
+      ],
+      "issn-type": [
+        {
+          "value": "2210-6502",
+          "type": "print"
+        }
+      ],
+      "subject": [],
+      "published": {
+        "date-parts": [
+          [
+            2021,
+            7
+          ]
+        ]
+      },
+      "assertion": [
+        {
+          "value": "Elsevier",
+          "name": "publisher",
+          "label": "This article is maintained by"
+        },
+        {
+          "value": "A Tutorial On the design, experimentation and application of metaheuristic algorithms to real-World optimization problems",
+          "name": "articletitle",
+          "label": "Article Title"
+        },
+        {
+          "value": "Swarm and Evolutionary Computation",
+          "name": "journaltitle",
+          "label": "Journal Title"
+        },
+        {
+          "value": "https://doi.org/10.1016/j.swevo.2021.100888",
+          "name": "articlelink",
+          "label": "CrossRef DOI link to publisher maintained version"
+        },
+        {
+          "value": "article",
+          "name": "content_type",
+          "label": "Content Type"
+        },
+        {
+          "value": "© 2021 Elsevier B.V. All rights reserved.",
+          "name": "copyright",
+          "label": "Copyright"
+        }
+      ],
+      "article-number": "100888"
+    }
+  }
+}

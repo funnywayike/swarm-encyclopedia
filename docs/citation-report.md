@@ -1,11 +1,11 @@
 # 文献引用核对报告（自动生成）
-<!-- citations-sha256: fe971679f7048f7b4df36813972a07588e544b8f714ba30c21a8b4d95fe3161f -->
+<!-- citations-sha256: 7e6349d82a7f385ec88935f1f32bdbb1e637192122a10bea270102ec87664f04 -->
 
-来源：`data/*.json` 的正式引用字段；核对：Crossref。共 1196 条——NOMATCH 153，OK 927，SKIP 96，VERIFIED 20。
+来源：`data/*.json` 的正式引用字段；核对：Crossref。共 1209 条——NOMATCH 123，OK 968，SKIP 95，VERIFIED 23。
 
 OK = 与 Crossref 一致；VERIFIED = 人工核实的例外（`data/citation_overrides.json`，写明理由）；MISMATCH = 找到同一篇但卷/页/年份/文章号不符（**需修正**）；NOMATCH/SKIP = 自动核对不了（书、学位论文、会议论文、中文文献，或引用本身有误），**需人工核**。
 
-## NOMATCH（153）
+## NOMATCH（123）
 
 - `algos.json` `abc.paper`：Karaboga, 2005（技术报告 TR06）；Karaboga & Basturk, 2007, Journal of Global Optimization
   - 最相近匹配度 0.15
@@ -378,98 +378,8 @@ OK = 与 Crossref 一致；VERIFIED = 人工核实的例外（`data/citation_ove
 - `mapping.json` `reductions[13].src`：Kellerer, Pferschy & Pisinger (2004) Ch.11；Dyer (1984) J.ACM 31(3)
   - 最相近匹配度 0.15
   - Crossref 最相近：Knapsack Problems｜ None:None (2004) doi:10.1007/978-3-540-24777-7
-- `meta.json` `pages[0].refs[1].cite`：Jones, T. (1995). 适应度地形形式化（正文口径：地形=图(解,算子)）
-  - 最相近匹配度 0.00
-  - Crossref 最相近：地域性传统文化适度融入应用型人才培养模式的重要性｜教育研究 2:None (2019) doi:10.32629/er.v2i6.1872
-- `meta.json` `pages[0].refs[2].cite`：Stadler, P. (2002). 适应度地形形式化（正文口径）
-  - 最相近匹配度 0.00
-  - Crossref 最相近：地域性传统文化适度融入应用型人才培养模式的重要性｜教育研究 2:None (2019) doi:10.32629/er.v2i6.1872
-- `meta.json` `pages[0].refs[4].cite`：实例空间分析 ISA / MATILDA 平台（Smith-Miles 学派；综述 经典文献）
-  - 最相近匹配度 0.00
-  - Crossref 最相近：虚实之间的人文实践：基于3A游戏案例分析数字空间的人文价值与实现路径｜人文与社会科学学刊 1:10-15 (2025) doi:10.70693/rwsk.v1i5.936
-- `meta.json` `pages[0].refs[6].cite`：Stellenbosch 团队. Behavioural analysis of metaheuristics. IEEE Trans. Evol. Comput.（20 项行为特征自动聚类）
-  - 最相近匹配度 0.00
-  - Crossref 最相近：团队文化多样性对团队创新的影响及作用机制｜Advances in Psychological Science 27:1521-1539 (2019) doi:10.3724/sp.j.1042.2019.01521
-- `meta.json` `pages[0].refs[7].cite`：MEALPY 114 算法 × crossmatch 统计量行为复证
-  - 最相近匹配度 0.00
-  - Crossref 最相近：关于附加变量/主题的调查问题的良好做法｜Fāngfǎ yánjiū 暴力侵害妇女行为 统计数据编制准则 None:189-200 (2016) doi:10.18356/9b4a6455-zh
-- `meta.json` `pages[1].refs[1].cite`：Weyland (2010/2015). Harmony Search = 进化策略特例的拆解线
-  - 最相近匹配度 0.00
-  - Crossref 最相近：当前“半正式行政”的异化与改进——以征地拆迁为例｜Rural China 12:244-263 (2015) doi:10.1163/22136746-01202003
-- `meta.json` `pages[1].refs[2].cite`：Camacho-Villalón (2018-2022). 隐喻算法拆解系列（智能水滴/灰狼/萤火虫/蝙蝠/布谷鸟）
-  - 最相近匹配度 0.00
-  - Crossref 最相近：FT8数字通信模式核心DSP算法深度拆解与UI交互体验｜ None:None (2026) doi:10.65703/d.950943.13.2026.0603
-- `meta.json` `pages[1].refs[3].cite`：Swan et al. (2015). 29 人标准化议程：无隐喻语言 + 形式化描述
-  - 最相近匹配度 0.00
-  - Crossref 最相近：中高本一体化育人模式下英语课程标准衔接体系搭建｜东方教育学刊 3:None (2026) doi:10.64216/3080-1494.26.09.069
-- `meta.json` `pages[1].refs[5].cite`：Campelo & Aranha (2023). 实验方法学批评（基准过拟合 / 对比池偏置）
-  - 最相近匹配度 0.00
-  - Crossref 最相近：舞蹈美学与批评学研究｜教学方法创新与实践 3:84 (2020) doi:10.26549/jxffcxysj.v3i12.5483
-- `meta.json` `pages[1].refs[7].cite`：Piotrowski et al. (2025). 大基准 × 4 档评估预算（5k→5M FEs）：排名随预算翻转. Swarm and Evolutionary Computation
-  - 最相近匹配度 0.00
-  - Crossref 最相近：基于风险评估的供电企业应急预案优化策略｜电子通信与计算机科学 7:22-24 (2025) doi:10.37155/2717-5170-0709-8
-- `meta.json` `pages[1].refs[9].cite`：Christiansen & Smith-Miles (2025). QAPLIB 实例空间覆盖偏差
-  - 最相近匹配度 0.00
-  - Crossref 最相近：移动网络深度覆盖（室内、地下空间）建设的优化方案与成本分析｜工程技术论坛 2:None (2025) doi:10.64216/3080-1508.26.01.055
-- `meta.json` `pages[1].refs[11].cite`：GECCO 十年复现性审计
-  - 最相近匹配度 0.00
-  - Crossref 最相近：现代财务管理与审计｜ None:None (2020) doi:10.36012/978-981-14-5389-2
-- `meta.json` `pages[1].refs[12].cite`：Shaikh et al. (2025). 文献计量：超 30% 隐喻算法跑不赢纯随机搜索
-  - 最相近匹配度 0.00
-  - Crossref 最相近：基于国微DSP的大数量排序算法设计与实现｜电子通信与计算机科学 6:226-229 (2024) doi:10.37155/2717-5170-0608-76
-- `meta.json` `pages[1].refs[15].cite`：PubPeer / Retraction Watch 线：Dehghani 集群 30 帖；Gooseneck 撤稿；OMA 撤稿
-  - 最相近匹配度 0.28
-  - Crossref 最相近：A global study in the Retraction Watch Database RWDB｜A global study in the Retraction Watch Database RW None:None (2024) doi:10.14293/s2199-ssp-am24-01009
-- `meta.json` `pages[1].refs[16].cite`：Botox Optimization (2024, MDPI)：投稿到发表仅 19 天
-  - 最相近匹配度 0.00
-  - Crossref 最相近：SCI论文写作投稿经验：科研发表的五大禁忌｜Medical Research &amp; Publication None:None (2019) doi:10.14218/mrp.2019.053
-- `meta.json` `pages[1].refs[17].cite`：EC-Bestiary 讽刺名录（Campelo & Aranha 维护；含 Artif. Life 2023 复盘文《Lessons from the EC Bestiary》）
-  - 最相近匹配度 0.00
-  - Crossref 最相近：新加坡潮州文化名人录｜新加坡潮州文化名人录 None:1-228 (2016) doi:10.1142/9789813143593
-- `meta.json` `pages[1].refs[18].cite`：INFORMS OR/MS Tomorrow「学术标题党」定性
-  - 最相近匹配度 0.35
-  - Crossref 最相近：Georgia Southern University INFORMS Student Chapter｜OR/MS Tomorrow 2025:None (2025) doi:10.1287/ortm.2025.02.07
-- `meta.json` `pages[2].refs[2].cite`：Christiansen & Smith-Miles (2025). QAPLIB 实例空间覆盖偏差
-  - 最相近匹配度 0.00
-  - Crossref 最相近：移动网络深度覆盖（室内、地下空间）建设的优化方案与成本分析｜工程技术论坛 2:None (2025) doi:10.64216/3080-1508.26.01.055
-- `meta.json` `pages[2].refs[3].cite`：Loiola et al. (2007). QAP 综述. EJOR 176:657
-  - 最相近匹配度 0.15
-  - Crossref 最相近：A survey for the quadratic assignment problem｜European Journal of Operational Research 176:657-690 (2007) doi:10.1016/j.ejor.2005.09.032
-- `meta.json` `pages[2].refs[5].cite`：de Nobel et al. (2024). IOHprofiler. Evolutionary Computation 32(3)
-  - 最相近匹配度 0.25
-  - Crossref 最相近：IOHexperimenter: Benchmarking Platform for Iterative Optimization Heuristics｜Evolutionary Computation 32:205-210 (2024) doi:10.1162/evco_a_00342
-- `meta.json` `pages[2].refs[6].cite`：modCMA / modDE 模块化平台
-  - 最相近匹配度 0.00
-  - Crossref 最相近：基于模块化设计的机电产品快速开发与平台化架构研究｜工程技术前沿 1:None (2025) doi:10.63887/fet.2025.1.4.25
-- `meta.json` `pages[2].refs[7].cite`：MEALPY. 114+ 元启发式 Python 统一接口库
-  - 最相近匹配度 0.00
-  - Crossref 最相近：基于综合收费窗口实践“一站式”收费系统信息化改革与系统实时对接的研究｜社会经济导刊 2:None (2025) doi:10.64216/3080-1486.26.01.100
-- `meta.json` `pages[2].refs[8].cite`：PyPop7. 大规模 BBO 库，JMLR 2024
-  - 最相近匹配度 0.00
-  - Crossref 最相近：中国大陆第一条OLED大规模生产线投产｜Laser &amp; Optoelectronics Progress 45:6 (2008) doi:10.3788/lop20084511.0006b
-- `meta.json` `pages[2].refs[9].cite`：Ma, Wu, Suganthan et al. (2022). 500+ 自然启发算法穷举实测：SOTA 仍是 DE 系渐进改良. Swarm and Evolutionary Computation
-  - 最相近匹配度 0.40
-  - Crossref 最相近：Performance assessment and exhaustive listing of 500+ nature-inspired metaheuristic algori｜Swarm and Evolutionary Computation 77:101248 (2023) doi:10.1016/j.swevo.2023.101248
-- `meta.json` `pages[3].refs[1].cite`：Holland (1975). 遗传算法奠基（正文口径）
-  - 最相近匹配度 0.00
-  - Crossref 最相近：中国家蚕遗传学的奠基者——蒋同庆｜Hereditas (Beijing) 35:1045-1048 (2013) doi:10.3724/sp.j.1005.2013.01045
-- `meta.json` `pages[3].refs[3].cite`：Glover (1986). 禁忌搜索（正文口径）
-  - 最相近匹配度 0.00
-  - Crossref 最相近：求解不等圆Packing 问题的带全局变换禁忌搜索算法｜SCIENTIA SINICA Informationis 42:843-858 (2012) doi:10.1360/zf2012-42-7-843
-- `meta.json` `pages[3].refs[4].cite`：Dorigo (1992). 蚁群 ACO（正文口径）
-  - 最相近匹配度 0.15
-  - Crossref 最相近：The ACO/F-Race Algorithm for Combinatorial Optimization Under Uncertainty｜Operations Research/Computer Science Interfaces Se None:189-203 (None) doi:10.1007/978-0-387-71921-4_10
-- `meta.json` `pages[3].refs[5].cite`：Kennedy & Eberhart (1995). 粒子群 PSO（正文口径）
-  - 最相近匹配度 0.00
-  - Crossref 最相近：Matching Pursuit Based on PSO and Atomic Property｜Computer Science and Application 04:282-287 (2014) doi:10.12677/csa.2014.411039
-- `meta.json` `pages[3].refs[6].cite`：Chaudhary, Verma, Salgotra & Gandomi (2026). Five Decades of Genetic Algorithms. ACME（GA 26,707 篇计量）
-  - 最相近匹配度 0.49
-  - Crossref 最相近：Five Decades of Genetic Algorithms: A Systematic and Bibliometric Review (1975–2025)｜Archives of Computational Methods in Engineering 33:10825-10899 (2026) doi:10.1007/s11831-025-10487-2
-- `meta.json` `pages[3].refs[7].cite`：Salgotra et al. (2024). 系统性年表. Arch. Comput. Methods Eng.
-  - 最相近匹配度 0.00
-  - Crossref 最相近：年度数值气候预测系统及其系统性评估｜Chinese Science Bulletin 48:70-74 (2003) doi:10.1360/csb2003-48-s2-70
 
-## SKIP（96）
+## SKIP（95）
 
 - `algos.json` `aco.refs[5]`：Dorigo & Stützle (2004). Ant Colony Optimization. MIT Press
   - 书籍/学位论文/中文条目，需人工核
@@ -657,14 +567,12 @@ OK = 与 Crossref 一致；VERIFIED = 人工核实的例外（`data/citation_ove
   - 书籍/学位论文/中文条目，需人工核
 - `problems.json` `class_pages.assignment.sources[5]`：熊虎、向铁元等 (2012). 电动汽车充电站布局规划最优化. 《电力系统自动化》；Liu et al. (2016). IEEE TSTE
   - 书籍/学位论文/中文条目，需人工核
-- `meta.json` `pages[1].refs[19].cite`：定向检索「为隐喻算法成体系辩护」零命中——批评单向性观察
+- `meta.json` `pages[3].refs[1].cite`：Rechenberg, I. (1973). Evolutionsstrategie: Optimierung technischer Systeme nach Prinzipien der biologischen Evolution. Book. Frommann-Holzboog.
   - 书籍/学位论文/中文条目，需人工核
-- `meta.json` `pages[2].refs[0].cite`：CEC 2025 竞赛技术报告（统计协议官方口径：≥30 次独立运行 / Wilcoxon+Friedman+Nemenyi / U-score 双维评分）
-  - 书籍/学位论文/中文条目，需人工核
-- `meta.json` `pages[3].refs[8].cite`：WOA 改进/混合变体计量
+- `meta.json` `pages[3].refs[2].cite`：Holland, J. H. (1975). Adaptation in Natural and Artificial Systems. Book. University of Michigan Press. MIT Press reprint, 1992.
   - 书籍/学位论文/中文条目，需人工核
 
-## VERIFIED（20）
+## VERIFIED（23）
 
 - `algos.json` `fa.refs[2]`：Yang & He (2013). Firefly algorithm: Recent advances and applications. International Journal of Swarm Intelligence, 1(1), 36-50
   - 人工核实：Yang & He (2013)，Int. J. Swarm Intelligence 1(1):36-50 无误；Crossref 只登记了首页 36
@@ -704,5 +612,11 @@ OK = 与 Crossref 一致；VERIFIED = 人工核实的例外（`data/citation_ove
   - 人工核实：Gandomi, Yang & Alavi (2013), Engineering with Computers 29(1):17-35 无误；Crossref 把它匹配到了同名文章的勘误（29:245，2012）
 - `mapping.json` `reductions[15].src`：Wäscher, Haußner & Schumann (2007). EJOR 183(3):1109–1130（类型学）
   - 人工核实：Wäscher, Haußner & Schumann (2007)《An improved typology of cutting and packing problems》，EJOR 183(3):1109–1130，卷页与文献记录一致；引用里没有写标题，Crossref 书目检索无法按「作者+刊名+卷页」匹配
-- `meta.json` `pages[1].refs[0].cite`：Sörensen, K. (2015). Metaheuristics—the metaphor exposed. ITOR 22(1):3-18
-  - 人工核实：Sörensen (2015), ITOR 22(1):3–18 是纸刊期次；Crossref 登记的是 2013 年在线首发日期，卷页一致
+- `meta.json` `pages[1].refs[1].cite`：Swan et al. (2015). A Research Agenda for Metaheuristic Standardization. MIC 2015: The XI Metaheuristics International Conference.
+  - 人工核实：已根据作者机构公开论文、正式会议记录或原始项目发布核对题名与年份；该来源不依赖Crossref题名自动匹配，也不代表所引实验已被本站复现。
+- `meta.json` `pages[2].refs[5].cite`：Swan et al. (2015). A Research Agenda for Metaheuristic Standardization. MIC 2015: The XI Metaheuristics International Conference.
+  - 人工核实：已根据作者机构公开论文、正式会议记录或原始项目发布核对题名与年份；该来源不依赖Crossref题名自动匹配，也不代表所引实验已被本站复现。
+- `meta.json` `pages[3].refs[24].cite`：Khadka, S. & Tumer, K. (2018). Evolution-Guided Policy Gradient in Reinforcement Learning. Advances in Neural Information Processing Systems 31.
+  - 人工核实：已根据作者机构公开论文、正式会议记录或原始项目发布核对题名与年份；该来源不依赖Crossref题名自动匹配，也不代表所引实验已被本站复现。
+- `meta.json` `pages[3].refs[29].cite`：(2025). AlphaEvolve: A coding agent for scientific and algorithmic discovery
+  - 人工核实：已根据作者机构公开论文、正式会议记录或原始项目发布核对题名与年份；该来源不依赖Crossref题名自动匹配，也不代表所引实验已被本站复现。

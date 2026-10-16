@@ -1,0 +1,899 @@
+{
+  "retrieved": "2026-10-16",
+  "url": "https://api.crossref.org/works?query.bibliographic=warehouse+storage+assignment+genetic+algorithm&rows=3&filter=until-pub-date%3A2026-10-16",
+  "response": {
+    "status": "ok",
+    "message-type": "work-list",
+    "message-version": "1.0.0",
+    "message": {
+      "facets": {},
+      "total-results": 1819895,
+      "items": [
+        {
+          "indexed": {
+            "date-parts": [
+              [
+                2024,
+                9,
+                7
+              ]
+            ],
+            "date-time": "2024-09-07T12:04:53Z",
+            "timestamp": 1725710693279
+          },
+          "reference-count": 16,
+          "publisher": "IEEE",
+          "license": [
+            {
+              "start": {
+                "date-parts": [
+                  [
+                    2021,
+                    12,
+                    12
+                  ]
+                ],
+                "date-time": "2021-12-12T00:00:00Z",
+                "timestamp": 1639267200000
+              },
+              "content-version": "stm-asf",
+              "delay-in-days": 0,
+              "URL": "https://doi.org/10.15223/policy-029"
+            },
+            {
+              "start": {
+                "date-parts": [
+                  [
+                    2021,
+                    12,
+                    12
+                  ]
+                ],
+                "date-time": "2021-12-12T00:00:00Z",
+                "timestamp": 1639267200000
+              },
+              "content-version": "stm-asf",
+              "delay-in-days": 0,
+              "URL": "https://doi.org/10.15223/policy-037"
+            }
+          ],
+          "content-domain": {
+            "domain": [],
+            "crossmark-restriction": false
+          },
+          "published-print": {
+            "date-parts": [
+              [
+                2021,
+                12,
+                12
+              ]
+            ]
+          },
+          "DOI": "10.1109/wsc52266.2021.9715463",
+          "type": "proceedings-article",
+          "created": {
+            "date-parts": [
+              [
+                2022,
+                2,
+                23
+              ]
+            ],
+            "date-time": "2022-02-23T15:38:43Z",
+            "timestamp": 1645630723000
+          },
+          "page": "1-10",
+          "source": "Crossref",
+          "is-referenced-by-count": 1,
+          "title": [
+            "Warehouse Storage Assignment For Surface Mount Components Using An Improved Genetic Algorithm"
+          ],
+          "prefix": "10.1109",
+          "author": [
+            {
+              "given": "Shin Woong",
+              "family": "Sung",
+              "sequence": "first",
+              "affiliation": [
+                {
+                  "name": "Global Technology Center,Samsung Electronics,Suwon,REPUBLIC OF KOREA,16677"
+                }
+              ],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Seungmin",
+              "family": "Jeong",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "Global Technology Center,Samsung Electronics,Suwon,REPUBLIC OF KOREA,16677"
+                }
+              ],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Siwoo",
+              "family": "Park",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "Global Technology Center,Samsung Electronics,Suwon,REPUBLIC OF KOREA,16677"
+                }
+              ],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Eoksu",
+              "family": "Sim",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "Global Technology Center,Samsung Electronics,Suwon,REPUBLIC OF KOREA,16677"
+                }
+              ],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Chong Keun",
+              "family": "Kim",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "Global Technology Center,Samsung Electronics,Suwon,REPUBLIC OF KOREA,16677"
+                }
+              ],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            }
+          ],
+          "member": "263",
+          "reference": [
+            {
+              "key": "ref10",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1016/j.cie.2008.01.002"
+            },
+            {
+              "key": "ref11",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1016/j.cie.2014.12.010"
+            },
+            {
+              "key": "ref12",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1016/j.ejor.2008.01.038"
+            },
+            {
+              "key": "ref13",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1016/S0377-2217(99)00020-X"
+            },
+            {
+              "key": "ref14",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1109/WSC.2018.8632435"
+            },
+            {
+              "key": "ref15",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1016/j.cie.2019.106186"
+            },
+            {
+              "key": "ref16",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1080/00207540802555736"
+            },
+            {
+              "key": "ref4",
+              "first-page": "162",
+              "article-title": "Applying Adaptive Algorithms to Epistatic Domains",
+              "author": "davis",
+              "year": "0",
+              "journal-title": "Proceedings of the Ninth International Joint Conference on Artificial Intelligence"
+            },
+            {
+              "key": "ref3",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1080/13675567.2012.694860"
+            },
+            {
+              "key": "ref6",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1007/s00170-011-3593-y"
+            },
+            {
+              "key": "ref5",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1016/j.ejor.2006.07.009"
+            },
+            {
+              "key": "ref8",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1038/scientificamerican0792-66"
+            },
+            {
+              "key": "ref7",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.4236/ajor.2018.86027"
+            },
+            {
+              "key": "ref2",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1016/j.cie.2008.03.012"
+            },
+            {
+              "key": "ref1",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1109/WSC48552.2020.9384029"
+            },
+            {
+              "key": "ref9",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1007/s00170-015-7806-7"
+            }
+          ],
+          "event": {
+            "name": "2021 Winter Simulation Conference (WSC)",
+            "start": {
+              "date-parts": [
+                [
+                  2021,
+                  12,
+                  12
+                ]
+              ]
+            },
+            "location": "Phoenix, AZ, USA",
+            "end": {
+              "date-parts": [
+                [
+                  2021,
+                  12,
+                  15
+                ]
+              ]
+            }
+          },
+          "container-title": [
+            "2021 Winter Simulation Conference (WSC)"
+          ],
+          "link": [
+            {
+              "URL": "http://xplorestaging.ieee.org/ielx7/9715283/9715284/09715463.pdf?arnumber=9715463",
+              "content-type": "unspecified",
+              "content-version": "vor",
+              "intended-application": "similarity-checking"
+            }
+          ],
+          "deposited": {
+            "date-parts": [
+              [
+                2022,
+                6,
+                15
+              ]
+            ],
+            "date-time": "2022-06-15T16:16:50Z",
+            "timestamp": 1655309810000
+          },
+          "score": 35.10519,
+          "resource": {
+            "primary": {
+              "URL": "https://ieeexplore.ieee.org/document/9715463/"
+            }
+          },
+          "issued": {
+            "date-parts": [
+              [
+                2021,
+                12,
+                12
+              ]
+            ]
+          },
+          "references-count": 16,
+          "URL": "https://doi.org/10.1109/wsc52266.2021.9715463",
+          "published": {
+            "date-parts": [
+              [
+                2021,
+                12,
+                12
+              ]
+            ]
+          }
+        },
+        {
+          "indexed": {
+            "date-parts": [
+              [
+                2024,
+                6,
+                7
+              ]
+            ],
+            "date-time": "2024-06-07T00:04:38Z",
+            "timestamp": 1717718678177
+          },
+          "reference-count": 6,
+          "publisher": "Trans Tech Publications, Ltd.",
+          "license": [
+            {
+              "start": {
+                "date-parts": [
+                  [
+                    2013,
+                    2,
+                    13
+                  ]
+                ],
+                "date-time": "2013-02-13T00:00:00Z",
+                "timestamp": 1360713600000
+              },
+              "content-version": "vor",
+              "delay-in-days": 0,
+              "URL": "https://www.scientific.net/PolicyAndEthics/PublishingPolicies"
+            },
+            {
+              "start": {
+                "date-parts": [
+                  [
+                    2013,
+                    2,
+                    13
+                  ]
+                ],
+                "date-time": "2013-02-13T00:00:00Z",
+                "timestamp": 1360713600000
+              },
+              "content-version": "tdm",
+              "delay-in-days": 0,
+              "URL": "https://www.scientific.net/license/TDM_Licenser.pdf"
+            }
+          ],
+          "content-domain": {
+            "domain": [],
+            "crossmark-restriction": false
+          },
+          "short-container-title": [
+            "AMM"
+          ],
+          "abstract": "",
+          "DOI": "10.4028/www.scientific.net/amm.307.459",
+          "type": "journal-article",
+          "created": {
+            "date-parts": [
+              [
+                2013,
+                3,
+                11
+              ]
+            ],
+            "date-time": "2013-03-11T16:40:13Z",
+            "timestamp": 1363020013000
+          },
+          "page": "459-463",
+          "source": "Crossref",
+          "is-referenced-by-count": 2,
+          "title": [
+            "Solving Stereo Warehouse Storage Location Assignment Problem Based on Genetic Algorithm"
+          ],
+          "prefix": "10.4028",
+          "volume": "307",
+          "author": [
+            {
+              "given": "Meng",
+              "family": "Jin",
+              "sequence": "first",
+              "affiliation": [
+                {
+                  "name": "Mechanical Engineering College"
+                }
+              ],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Xi Hui",
+              "family": "Mu",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "Research Institute of Mechanical Technology"
+                }
+              ],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Liang Chun",
+              "family": "Li",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "Research Institute of Mechanical Technology"
+                }
+              ],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Feng Po",
+              "family": "Du",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "Research Institute of Mechanical Technology"
+                }
+              ],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            }
+          ],
+          "member": "2457",
+          "published-online": {
+            "date-parts": [
+              [
+                2013,
+                2,
+                13
+              ]
+            ]
+          },
+          "reference": [
+            {
+              "key": "1591357",
+              "doi-asserted-by": "publisher",
+              "unstructured": "Li S, Ragu-Nathan B, Ragu-Nathan TS, Subba Rao S. The impact of supply chain management practices on competitive advantage and organizational performance. Omega 2006; 34(2): 107–24.",
+              "DOI": "10.1016/j.omega.2004.08.002"
+            },
+            {
+              "key": "1591358",
+              "doi-asserted-by": "publisher",
+              "unstructured": "Wen U-P, Chang D-T. Picking rules for a carousel conveyor in an automated warehouse. Omega 1988; 16(2): 145–51.",
+              "DOI": "10.1016/0305-0483(88)90045-x"
+            },
+            {
+              "key": "1591359",
+              "unstructured": "Frazelle E. World-class warehousing and material handling. New York, NY: McGraw-Hill; (2002)."
+            },
+            {
+              "key": "1591360",
+              "doi-asserted-by": "publisher",
+              "unstructured": "Hausman WH, Schwarz LB, Graves SC. Optimal storage assignment in automatic warehousing systems. Management Science 1976; 22(6): 629–38.",
+              "DOI": "10.1287/mnsc.22.6.629"
+            },
+            {
+              "key": "1591361",
+              "doi-asserted-by": "publisher",
+              "unstructured": "Petersen CG, Aase GR, Heiser DR. Improving order-picking performance through the implementation of class-based storage. International Journal of Physical Distribution and Logistics Management 2004; 34(7): 534–44.",
+              "DOI": "10.1108/09600030410552230"
+            },
+            {
+              "key": "1591362",
+              "doi-asserted-by": "publisher",
+              "unstructured": "V.R. Muppani (Muppant), G.K. Adil Efﬁcient formation of storage classes forwarehouse storage location assignment: Asimulated annealing approach. Omega 36 (2008) 609 – 618.",
+              "DOI": "10.1016/j.omega.2007.01.006"
+            }
+          ],
+          "container-title": [
+            "Applied Mechanics and Materials"
+          ],
+          "link": [
+            {
+              "URL": "https://www.scientific.net/AMM.307.459.pdf",
+              "content-type": "unspecified",
+              "content-version": "vor",
+              "intended-application": "similarity-checking"
+            }
+          ],
+          "deposited": {
+            "date-parts": [
+              [
+                2024,
+                6,
+                6
+              ]
+            ],
+            "date-time": "2024-06-06T20:02:29Z",
+            "timestamp": 1717704149000
+          },
+          "score": 34.676823,
+          "resource": {
+            "primary": {
+              "URL": "https://www.scientific.net/AMM.307.459"
+            }
+          },
+          "issued": {
+            "date-parts": [
+              [
+                2013,
+                2,
+                13
+              ]
+            ]
+          },
+          "references-count": 6,
+          "URL": "https://doi.org/10.4028/www.scientific.net/amm.307.459",
+          "ISSN": [
+            "1662-7482"
+          ],
+          "issn-type": [
+            {
+              "value": "1662-7482",
+              "type": "electronic"
+            }
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2013,
+                2,
+                13
+              ]
+            ]
+          }
+        },
+        {
+          "indexed": {
+            "date-parts": [
+              [
+                2026,
+                6,
+                21
+              ]
+            ],
+            "date-time": "2026-06-21T12:45:09Z",
+            "timestamp": 1782045909688,
+            "version": "3.54.5"
+          },
+          "publisher-location": "Singapore",
+          "reference-count": 10,
+          "publisher": "Springer Singapore",
+          "isbn-type": [
+            {
+              "value": "9789811556814",
+              "type": "print"
+            },
+            {
+              "value": "9789811556821",
+              "type": "electronic"
+            }
+          ],
+          "license": [
+            {
+              "start": {
+                "date-parts": [
+                  [
+                    2020,
+                    1,
+                    1
+                  ]
+                ],
+                "date-time": "2020-01-01T00:00:00Z",
+                "timestamp": 1577836800000
+              },
+              "content-version": "tdm",
+              "delay-in-days": 0,
+              "URL": "http://www.springer.com/tdm"
+            },
+            {
+              "start": {
+                "date-parts": [
+                  [
+                    2020,
+                    1,
+                    1
+                  ]
+                ],
+                "date-time": "2020-01-01T00:00:00Z",
+                "timestamp": 1577836800000
+              },
+              "content-version": "vor",
+              "delay-in-days": 0,
+              "URL": "http://www.springer.com/tdm"
+            }
+          ],
+          "content-domain": {
+            "domain": [
+              "link.springer.com"
+            ],
+            "crossmark-restriction": false
+          },
+          "published-print": {
+            "date-parts": [
+              [
+                2020
+              ]
+            ]
+          },
+          "DOI": "10.1007/978-981-15-5682-1_22",
+          "type": "book-chapter",
+          "created": {
+            "date-parts": [
+              [
+                2020,
+                7,
+                9
+              ]
+            ],
+            "date-time": "2020-07-09T22:16:57Z",
+            "timestamp": 1594333017000
+          },
+          "page": "297-311",
+          "update-policy": "https://doi.org/10.1007/springer_crossmark_policy",
+          "source": "Crossref",
+          "is-referenced-by-count": 5,
+          "title": [
+            "Optimization of Automated Warehouse Storage Location Assignment Problem Based on Improved Genetic Algorithm"
+          ],
+          "prefix": "10.1007",
+          "author": [
+            {
+              "given": "Wenyi",
+              "family": "Zhang",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Jie",
+              "family": "Zhu",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Ruiping",
+              "family": "Yuan",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            }
+          ],
+          "member": "297",
+          "published-online": {
+            "date-parts": [
+              [
+                2020,
+                7,
+                10
+              ]
+            ]
+          },
+          "reference": [
+            {
+              "issue": "6",
+              "key": "22_CR1",
+              "first-page": "107",
+              "volume": "21",
+              "author": "AM Deng",
+              "year": "2013",
+              "unstructured": "Deng, A. M., Cai, J., & Mao, L. (2013). The optimization model of automated warehouse slotting allocation based on time. China Scientific Management, 21(6), 107–112.",
+              "journal-title": "China Scientific Management"
+            },
+            {
+              "issue": "1",
+              "key": "22_CR2",
+              "first-page": "247",
+              "volume": "25",
+              "author": "W Yang",
+              "year": "2019",
+              "unstructured": "Yang, W., Li, J., & Yue, T. (2019). Integrated optimization of location assignment and job scheduling in multi-carrier automated storage and retrieval. Computer Integrated Manufacturing Systems, 25(1), 247–255.",
+              "journal-title": "Computer Integrated Manufacturing Systems"
+            },
+            {
+              "issue": "5",
+              "key": "22_CR3",
+              "first-page": "70",
+              "volume": "25",
+              "author": "PF Li",
+              "year": "2017",
+              "unstructured": "Li, P. F., & Ma, H. (2017). Virus based on cooperative genetic algorithm automated warehouse space optimization model. China Scientific Management, 25(5), 70–77.",
+              "journal-title": "China Scientific Management"
+            },
+            {
+              "issue": "3",
+              "key": "22_CR4",
+              "first-page": "430",
+              "volume": "25",
+              "author": "E Xiao-Zheng",
+              "year": "2013",
+              "unstructured": "Xiao-Zheng, E., Zu, Q. H., & Cao, M. M. (2013). Slotting optimization of AS/RS for automotive parts based on genetic algorithm. Journal of System Simulation, 25(3), 430–435.",
+              "journal-title": "Journal of System Simulation"
+            },
+            {
+              "issue": "b11",
+              "key": "22_CR5",
+              "first-page": "35",
+              "volume": "41",
+              "author": "TC Wang",
+              "year": "2014",
+              "unstructured": "Wang, T. C., Qiu, J. D., & Shang, Q. J. (2014). Research on application of automated storage and retrieval system slotting optimization based on virus co-evolutionary genetic algorithm. Computer Science, 41(b11), 35–38.",
+              "journal-title": "Computer Science"
+            },
+            {
+              "issue": "29",
+              "key": "22_CR6",
+              "first-page": "211",
+              "volume": "4",
+              "author": "WQ Bie",
+              "year": "2009",
+              "unstructured": "Bie, W. Q., & Li, Y. J. (2009). Dynamic location assignment of AS/RS based on genetic algorithm. Computer Engineering and Applications, 4(29), 211–213.",
+              "journal-title": "Computer Engineering and Applications"
+            },
+            {
+              "issue": "5",
+              "key": "22_CR7",
+              "first-page": "1398",
+              "volume": "48",
+              "author": "YL Jiao",
+              "year": "2018",
+              "unstructured": "Jiao, Y. L., Zhang, P., & Tian, G. D. (2018). Slotting optimization of automated warehouse based on multi-population GA. Journal of Jilin University (Engineering and Technology Edition), 48(5), 1398–1404.",
+              "journal-title": "Journal of Jilin University (Engineering and Technology Edition)"
+            },
+            {
+              "issue": "1",
+              "key": "22_CR8",
+              "doi-asserted-by": "publisher",
+              "first-page": "286",
+              "DOI": "10.1016/j.cie.2011.09.016",
+              "volume": "62",
+              "author": "BS Kim",
+              "year": "2012",
+              "unstructured": "Kim, B. S., & Smith, J. S. (2012). Slotting methodology using correlated improvement for a zone-based carton picking distribution system. Computers & Industrial Engineering, 62(1), 286–295.",
+              "journal-title": "Computers & Industrial Engineering"
+            },
+            {
+              "issue": "1",
+              "key": "22_CR9",
+              "doi-asserted-by": "publisher",
+              "first-page": "171",
+              "DOI": "10.1016/j.tre.2009.07.004",
+              "volume": "46",
+              "author": "C Park",
+              "year": "2010",
+              "unstructured": "Park, C., & Seo, J. (2010). Comparing heuristic algorithms of the planar storage location assignment problem. Transportation Research Part E Logistics & Transportation Review, 46(1), 171–185.",
+              "journal-title": "Transportation Research Part E Logistics & Transportation Review"
+            },
+            {
+              "issue": "C",
+              "key": "22_CR10",
+              "doi-asserted-by": "publisher",
+              "first-page": "1",
+              "DOI": "10.1016/j.cie.2014.12.010",
+              "volume": "81",
+              "author": "CH Pan",
+              "year": "2015",
+              "unstructured": "Pan, C. H., & Shih, P. H. (2015). A storage assignment heuristic method based on genetic algorithm for a pick-and-pass warehousing system. Computers & Industrial Engineering, 81(C), 1–13.",
+              "journal-title": "Computers & Industrial Engineering"
+            }
+          ],
+          "container-title": [
+            "LISS2019"
+          ],
+          "language": "en",
+          "link": [
+            {
+              "URL": "http://link.springer.com/content/pdf/10.1007/978-981-15-5682-1_22",
+              "content-type": "unspecified",
+              "content-version": "vor",
+              "intended-application": "similarity-checking"
+            }
+          ],
+          "deposited": {
+            "date-parts": [
+              [
+                2020,
+                7,
+                9
+              ]
+            ],
+            "date-time": "2020-07-09T22:21:02Z",
+            "timestamp": 1594333262000
+          },
+          "score": 32.58784,
+          "resource": {
+            "primary": {
+              "URL": "http://link.springer.com/10.1007/978-981-15-5682-1_22"
+            }
+          },
+          "issued": {
+            "date-parts": [
+              [
+                2020
+              ]
+            ]
+          },
+          "ISBN": [
+            "9789811556814",
+            "9789811556821"
+          ],
+          "references-count": 10,
+          "URL": "https://doi.org/10.1007/978-981-15-5682-1_22",
+          "published": {
+            "date-parts": [
+              [
+                2020
+              ]
+            ]
+          },
+          "assertion": [
+            {
+              "value": "10 July 2020",
+              "order": 1,
+              "name": "first_online",
+              "label": "First Online",
+              "group": {
+                "name": "ChapterHistory",
+                "label": "Chapter History"
+              }
+            }
+          ]
+        }
+      ],
+      "items-per-page": 3,
+      "query": {
+        "start-index": 0,
+        "search-terms": null
+      }
+    }
+  }
+}

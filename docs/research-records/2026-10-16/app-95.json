@@ -1,0 +1,1152 @@
+{
+  "retrieved": "2026-10-16",
+  "url": "https://api.crossref.org/works?query.bibliographic=speech+recognition+evolutionary+optimization+genetic+algorithm&rows=3&filter=until-pub-date%3A2026-10-16",
+  "response": {
+    "status": "ok",
+    "message-type": "work-list",
+    "message-version": "1.0.0",
+    "message": {
+      "facets": {},
+      "total-results": 3276892,
+      "items": [
+        {
+          "indexed": {
+            "date-parts": [
+              [
+                2026,
+                4,
+                17
+              ]
+            ],
+            "date-time": "2026-04-17T16:19:09Z",
+            "timestamp": 1776442749330,
+            "version": "3.51.2"
+          },
+          "reference-count": 12,
+          "publisher": "IEEE",
+          "license": [
+            {
+              "start": {
+                "date-parts": [
+                  [
+                    2023,
+                    10,
+                    20
+                  ]
+                ],
+                "date-time": "2023-10-20T00:00:00Z",
+                "timestamp": 1697760000000
+              },
+              "content-version": "stm-asf",
+              "delay-in-days": 0,
+              "URL": "https://doi.org/10.15223/policy-029"
+            },
+            {
+              "start": {
+                "date-parts": [
+                  [
+                    2023,
+                    10,
+                    20
+                  ]
+                ],
+                "date-time": "2023-10-20T00:00:00Z",
+                "timestamp": 1697760000000
+              },
+              "content-version": "stm-asf",
+              "delay-in-days": 0,
+              "URL": "https://doi.org/10.15223/policy-037"
+            }
+          ],
+          "content-domain": {
+            "domain": [],
+            "crossmark-restriction": false
+          },
+          "published-print": {
+            "date-parts": [
+              [
+                2023,
+                10,
+                20
+              ]
+            ]
+          },
+          "DOI": "10.1109/easct59475.2023.10392501",
+          "type": "proceedings-article",
+          "created": {
+            "date-parts": [
+              [
+                2024,
+                1,
+                22
+              ]
+            ],
+            "date-time": "2024-01-22T18:32:53Z",
+            "timestamp": 1705948373000
+          },
+          "page": "1-6",
+          "source": "Crossref",
+          "is-referenced-by-count": 3,
+          "title": [
+            "Application of Speech Recognition Translator based on Evolutionary Multi-objective Optimization Algorithm"
+          ],
+          "prefix": "10.1109",
+          "author": [
+            {
+              "given": "Liyuan",
+              "family": "Liu",
+              "sequence": "first",
+              "affiliation": [
+                {
+                  "name": "Jilin Agricultural Science and Technology University,Foreign Language School,Jilin,China"
+                }
+              ],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            }
+          ],
+          "member": "263",
+          "reference": [
+            {
+              "issue": "4",
+              "key": "ref1",
+              "first-page": "438",
+              "article-title": "Research and implementation of closed form methods for cosine correction filter banks based on multi window functions",
+              "volume": "17",
+              "author": "Kunar",
+              "year": "2019",
+              "journal-title": "International Journal of Speech Technology."
+            },
+            {
+              "issue": "1",
+              "key": "ref2",
+              "first-page": "16",
+              "article-title": "Multi channel signal wave digital multi sector filter banks, multi plane multidimensional systems, and signal processing",
+              "volume": "25",
+              "author": "Rajapa",
+              "year": "2020",
+              "journal-title": "IEEE Journal of Selected Topic."
+            },
+            {
+              "issue": "2",
+              "key": "ref3",
+              "first-page": "349",
+              "article-title": "The memory neural network based on Evolutionary algorithm realizes noise reduction and separation of sound sources in complex domain",
+              "volume": "13",
+              "author": "Sun",
+              "year": "2021",
+              "journal-title": "IEEE Journal of Selected Topic."
+            },
+            {
+              "key": "ref4",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1109/ICDSP.2014.6900749"
+            },
+            {
+              "key": "ref5",
+              "first-page": "57",
+              "article-title": "The optimal coupling algorithm for high output power speech storage based on WPT system",
+              "author": "Se",
+              "year": "2021",
+              "journal-title": "IEEE Transactions on Power Electronics"
+            },
+            {
+              "key": "ref6",
+              "first-page": "54",
+              "article-title": "Everything you always wanted to know about compiled and vectorized queries but were afraid to ask",
+              "volume-title": "Proceedings of the VLDB Endowment",
+              "author": "Timo"
+            },
+            {
+              "key": "ref7",
+              "first-page": "78",
+              "article-title": "Linux calls the development of system functions and fixed Audio signal processing functions. Cordy",
+              "author": "Bagher",
+              "year": "2018",
+              "journal-title": "Empirical Software Engineering"
+            },
+            {
+              "key": "ref8",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1016/j.infsof.2017.08.014"
+            },
+            {
+              "key": "ref9",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1145/3140582.3081029"
+            },
+            {
+              "key": "ref10",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1145/3057269"
+            },
+            {
+              "key": "ref11",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1016/j.ymssp.2020.107463"
+            },
+            {
+              "key": "ref12",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1016/j.parco.2020.102724"
+            }
+          ],
+          "event": {
+            "name": "2023 International Conference on Evolutionary Algorithms and Soft Computing Techniques (EASCT)",
+            "location": "Bengaluru, India",
+            "start": {
+              "date-parts": [
+                [
+                  2023,
+                  10,
+                  20
+                ]
+              ]
+            },
+            "end": {
+              "date-parts": [
+                [
+                  2023,
+                  10,
+                  21
+                ]
+              ]
+            }
+          },
+          "container-title": [
+            "2023 International Conference on Evolutionary Algorithms and Soft Computing Techniques (EASCT)"
+          ],
+          "link": [
+            {
+              "URL": "http://xplorestaging.ieee.org/ielx7/10391855/10391862/10392501.pdf?arnumber=10392501",
+              "content-type": "unspecified",
+              "content-version": "vor",
+              "intended-application": "similarity-checking"
+            }
+          ],
+          "deposited": {
+            "date-parts": [
+              [
+                2024,
+                2,
+                1
+              ]
+            ],
+            "date-time": "2024-02-01T02:07:01Z",
+            "timestamp": 1706753221000
+          },
+          "score": 33.371044,
+          "resource": {
+            "primary": {
+              "URL": "https://ieeexplore.ieee.org/document/10392501/"
+            }
+          },
+          "issued": {
+            "date-parts": [
+              [
+                2023,
+                10,
+                20
+              ]
+            ]
+          },
+          "references-count": 12,
+          "URL": "https://doi.org/10.1109/easct59475.2023.10392501",
+          "published": {
+            "date-parts": [
+              [
+                2023,
+                10,
+                20
+              ]
+            ]
+          }
+        },
+        {
+          "indexed": {
+            "date-parts": [
+              [
+                2026,
+                9,
+                17
+              ]
+            ],
+            "date-time": "2026-09-17T06:11:24Z",
+            "timestamp": 1789625484873,
+            "version": "build-2803163510"
+          },
+          "reference-count": 47,
+          "publisher": "Springer Science and Business Media LLC",
+          "issue": "1",
+          "license": [
+            {
+              "start": {
+                "date-parts": [
+                  [
+                    2024,
+                    11,
+                    15
+                  ]
+                ],
+                "date-time": "2024-11-15T00:00:00Z",
+                "timestamp": 1731628800000
+              },
+              "content-version": "tdm",
+              "delay-in-days": 0,
+              "URL": "https://www.springernature.com/gp/researchers/text-and-data-mining"
+            },
+            {
+              "start": {
+                "date-parts": [
+                  [
+                    2024,
+                    11,
+                    15
+                  ]
+                ],
+                "date-time": "2024-11-15T00:00:00Z",
+                "timestamp": 1731628800000
+              },
+              "content-version": "vor",
+              "delay-in-days": 0,
+              "URL": "https://www.springernature.com/gp/researchers/text-and-data-mining"
+            }
+          ],
+          "content-domain": {
+            "domain": [
+              "link.springer.com"
+            ],
+            "crossmark-restriction": false
+          },
+          "short-container-title": [
+            "Evol. Intel."
+          ],
+          "published-print": {
+            "date-parts": [
+              [
+                2025,
+                2
+              ]
+            ]
+          },
+          "DOI": "10.1007/s12065-024-00994-9",
+          "type": "journal-article",
+          "created": {
+            "date-parts": [
+              [
+                2024,
+                11,
+                15
+              ]
+            ],
+            "date-time": "2024-11-15T08:23:41Z",
+            "timestamp": 1731659021000
+          },
+          "update-policy": "https://doi.org/10.1007/springer_crossmark_policy",
+          "source": "Crossref",
+          "is-referenced-by-count": 7,
+          "title": [
+            "Brhamo: metaheuristic optimization algorithm for speech emotion recognition using spectral and hybrid features"
+          ],
+          "prefix": "10.1007",
+          "volume": "18",
+          "author": [
+            {
+              "given": "Akshat",
+              "family": "Agrawal",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Anurag",
+              "family": "Jain",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            }
+          ],
+          "member": "297",
+          "published-online": {
+            "date-parts": [
+              [
+                2024,
+                11,
+                15
+              ]
+            ]
+          },
+          "reference": [
+            {
+              "issue": "17",
+              "key": "994_CR1",
+              "doi-asserted-by": "publisher",
+              "first-page": "23963",
+              "DOI": "10.1007/s11042-022-12747-w",
+              "volume": "81",
+              "author": "MA Albadr",
+              "year": "2022",
+              "unstructured": "Albadr MA, Tiun S, Ayob M, AL-Dhief FT, Omar K, Maen MK (2022) Speech emotion recognition using optimized genetic algorithm-extreme learning machine. Multimed Tools Appl 81(17):23963",
+              "journal-title": "Multimed Tools Appl"
+            },
+            {
+              "issue": "5",
+              "key": "994_CR2",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1371/journal.pone.0196391",
+              "volume": "13",
+              "author": "SR Livingstone",
+              "year": "2018",
+              "unstructured": "Livingstone SR, Russo FA (2018) The Ryerson Audio-Visual Database of Emotional Speech and Song (RAVDESS): A dynamic, multimodal set of facial and vocal expressions in North American English. PLoS One. 13(5):e0196391",
+              "journal-title": "PLoS One."
+            },
+            {
+              "issue": "4",
+              "key": "994_CR3",
+              "doi-asserted-by": "publisher",
+              "first-page": "377",
+              "DOI": "10.1109/TAFFC.2014.2336244",
+              "volume": "5",
+              "author": "H Cao",
+              "year": "2014",
+              "unstructured": "Cao H, Cooper DG, Keutmann MK, Gur RC, Nenkova A, Verma R (2014) CREMA-D: Crowd-Sourced Emotional Multimodal Actors Dataset. IEEE Trans Affect Comput 5(4):377",
+              "journal-title": "IEEE Trans Affect Comput"
+            },
+            {
+              "key": "994_CR4",
+              "doi-asserted-by": "publisher",
+              "unstructured": "Pichora-Fuller MK, Dupuis K (2020) Toronto emotional speech set (TESS) [Internet]. Borealis; Available from: https://doi.org/10.5683/SP2/E8H2MF",
+              "DOI": "10.5683/SP2/E8H2MF"
+            },
+            {
+              "key": "994_CR5",
+              "first-page": "1517",
+              "volume": "5",
+              "author": "F Burkhardt",
+              "year": "2005",
+              "unstructured": "Burkhardt F, Paeschke A, Rolfes M, Sendlmeier WF, Weiss B (2005) A database of German emotional speech. Interspeech 5:1517–1520",
+              "journal-title": "Interspeech"
+            },
+            {
+              "key": "994_CR6",
+              "doi-asserted-by": "crossref",
+              "unstructured": "Koolagudi SG, Reddy R, Yadav J, Rao KS (2011) IITKGP-SEHSC: Hindi Speech Corpus for Emotion Analysis. In: 2011 International Conference on Devices and Communications (ICDeCom). p. 1-5",
+              "DOI": "10.1109/ICDECOM.2011.5738540"
+            },
+            {
+              "key": "994_CR7",
+              "doi-asserted-by": "crossref",
+              "unstructured": "Albadr MA, Tiun S, Ayob M, Al-Dhief FT, Abdali TA, Abbas AF (2021) Extreme learning machine for automatic language identification utilizing emotion speech data. In: 2021 international conference on electrical, communication, and computer engineering (ICECCE) Jun 12 (pp. 1-6). IEEE",
+              "DOI": "10.1109/ICECCE52056.2021.9514107"
+            },
+            {
+              "key": "994_CR8",
+              "doi-asserted-by": "crossref",
+              "unstructured": "Umamaheswari J, Akila A (2019) An Enhanced Human Speech Emotion Recognition Using Hybrid of PRNN and KNN. In: Proceedings of the International Conference on Machine Learning, Big Data, Cloud and Parallel Computing: Trends, Prespectives and Prospects, COMITCon 2019. Institute of Electrical and Electronics Engineers Inc.; p. 177?83",
+              "DOI": "10.1109/COMITCon.2019.8862221"
+            },
+            {
+              "key": "994_CR9",
+              "doi-asserted-by": "publisher",
+              "first-page": "251",
+              "DOI": "10.1016/j.procs.2020.08.027",
+              "volume": "176",
+              "author": "H Aouani",
+              "year": "2020",
+              "unstructured": "Aouani H (2020) Speech emotion recognition with deep learning. Procedia Comput Sci 176:251–260",
+              "journal-title": "Procedia Comput Sci"
+            },
+            {
+              "key": "994_CR10",
+              "doi-asserted-by": "crossref",
+              "unstructured": "Zheng L, Li Q, Ban H, Liu S (2018) Speech emotion recognition based on convolution neural network combined with random forest. In: 2018 Chinese control and decision conference (CCDC). p. 4143?7",
+              "DOI": "10.1109/CCDC.2018.8407844"
+            },
+            {
+              "key": "994_CR11",
+              "doi-asserted-by": "crossref",
+              "unstructured": "Panigrahi SN, Palo HK (2021) Emotional speech recognition using particle swarm optimization algorithm. In: 2021 International Conference in Advances in Power, Signal, and Information Technology (APSIT). p. 1?5",
+              "DOI": "10.1109/APSIT52773.2021.9641247"
+            },
+            {
+              "issue": "3",
+              "key": "994_CR12",
+              "first-page": "297",
+              "volume": "54",
+              "author": "B Rajasekhar",
+              "year": "2020",
+              "unstructured": "Rajasekhar B, Kamaraju M, Sumalatha V (2020) A novel speech emotion recognition model using mean update of particle swarm and whale optimization-based deep belief network. Data Technol Appl 54(3):297–322",
+              "journal-title": "Data Technol Appl"
+            },
+            {
+              "issue": "4",
+              "key": "994_CR13",
+              "doi-asserted-by": "publisher",
+              "first-page": "4020",
+              "DOI": "10.11591/ijece.v13i4.pp4020-4028",
+              "volume": "13",
+              "author": "KL Ong",
+              "year": "2023",
+              "unstructured": "Ong KL, Lee CP, Lim HS, Lim KM (2023) Speech emotion recognition with light gradient boosting decision trees machine. Int J Electr Comput Eng (IJECE) 13(4):4020",
+              "journal-title": "Int J Electr Comput Eng (IJECE)"
+            },
+            {
+              "issue": "2",
+              "key": "994_CR14",
+              "doi-asserted-by": "publisher",
+              "first-page": "401",
+              "DOI": "10.1049/cit2.12233",
+              "volume": "8",
+              "author": "N Saleem",
+              "year": "2023",
+              "unstructured": "Saleem N, Gao J, Irfan R, Almadhor A, Rauf HT, Zhang Y, Kadry S (2023) DeepCNN: spectro-temporal feature representation for speech emotion recognition. CAAI Trans Intell Technol 8(2):401–417",
+              "journal-title": "CAAI Trans Intell Technol"
+            },
+            {
+              "key": "994_CR15",
+              "doi-asserted-by": "publisher",
+              "first-page": "79861",
+              "DOI": "10.1109/ACCESS.2020.2990405",
+              "volume": "8",
+              "author": "M Sajjad",
+              "year": "2020",
+              "unstructured": "Sajjad M, Kwon S et al (2020) Clustering-based speech emotion recognition by incorporating learned features and deep BiLSTM. IEEE Access 8:79861–79875",
+              "journal-title": "IEEE Access"
+            },
+            {
+              "key": "994_CR16",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1109/ACCESS.2020.3035531",
+              "volume": "8",
+              "author": "A Dey",
+              "year": "2020",
+              "unstructured": "Dey A, Chattopadhyay S, Singh PK, Ahmadian A, Ferrara M, Sarkar R (2020) A hybrid meta-heuristic feature selection method using golden ratio and equilibrium optimization algorithms for speech emotion recognition. IEEE Access 8:200953",
+              "journal-title": "IEEE Access"
+            },
+            {
+              "issue": "1",
+              "key": "994_CR17",
+              "doi-asserted-by": "publisher",
+              "first-page": "449",
+              "DOI": "10.1007/s00034-022-02130-3",
+              "volume": "42",
+              "author": "MR Falahzadeh",
+              "year": "2023",
+              "unstructured": "Falahzadeh MR, Farokhi F, Harimi A, Sabbaghi-Nadooshan R (2023) Deep convolutional neural network and gray wolf optimization algorithm for speech emotion recognition. Circuits, Syst Signal Process 42(1):449",
+              "journal-title": "Circuits, Syst Signal Process"
+            },
+            {
+              "issue": "1",
+              "key": "994_CR18",
+              "first-page": "299",
+              "volume": "25",
+              "author": "X Zhang",
+              "year": "2024",
+              "unstructured": "Zhang X (2024) Research on the Application of Speech Database based on Emotional Feature Extraction in International Chinese Education and Teaching. Scalable Comput: Practice Exp 25(1):299–311",
+              "journal-title": "Scalable Comput: Practice Exp"
+            },
+            {
+              "issue": "1",
+              "key": "994_CR19",
+              "doi-asserted-by": "publisher",
+              "first-page": "311",
+              "DOI": "10.1080/09720502.2020.1721926",
+              "volume": "23",
+              "author": "A Agrawal",
+              "year": "2020",
+              "unstructured": "Agrawal A, Jain A (2020) Speech emotion recognition of Hindi speech using statistical and machine learning techniques. J Interdiscip Math 23(1):311–9",
+              "journal-title": "J Interdiscip Math"
+            },
+            {
+              "issue": "20",
+              "key": "994_CR20",
+              "doi-asserted-by": "publisher",
+              "first-page": "4376",
+              "DOI": "10.3390/electronics12204376",
+              "volume": "12",
+              "author": "K Mountzouris",
+              "year": "2023",
+              "unstructured": "Mountzouris K, Perikos I, Hatzilygeroudis I (2023) Speech Emotion Recognition Using Convolutional Neural Networks with Attention Mechanism. Electronics 12(20):4376",
+              "journal-title": "Electronics"
+            },
+            {
+              "key": "994_CR21",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1016/j.eswa.2023.119633",
+              "volume": "218",
+              "author": "MR Ahmed",
+              "year": "2023",
+              "unstructured": "Ahmed MR, Islam S, Islam AKMM, Shatabda S (2023) An ensemble 1D-CNN-LSTM-GRU model with data augmentation for speech emotion recognition. Expert Syst Appl. 218:119633",
+              "journal-title": "Expert Syst Appl."
+            },
+            {
+              "key": "994_CR22",
+              "doi-asserted-by": "publisher",
+              "first-page": "104886",
+              "DOI": "10.1016/j.knosys.2019.104886",
+              "volume": "184",
+              "author": "A Bhavan",
+              "year": "2019",
+              "unstructured": "Bhavan A, Chauhan P, Shah RR et al (2019) Bagged support vector machines for emotion recognition from speech. Knowle-Based Syst 184:104886",
+              "journal-title": "Knowle-Based Syst"
+            },
+            {
+              "issue": "4",
+              "key": "994_CR23",
+              "doi-asserted-by": "publisher",
+              "first-page": "1323",
+              "DOI": "10.1007/s11045-022-00845-9",
+              "volume": "33",
+              "author": "B Yalamanchili",
+              "year": "2022",
+              "unstructured": "Yalamanchili B, Samayamantula SK, Anne KR (2022) Neural network-based blended ensemble learning for speech emotion recognition. Multidimens Syst Signal Process 33(4):1323–1348",
+              "journal-title": "Multidimens Syst Signal Process"
+            },
+            {
+              "key": "994_CR24",
+              "doi-asserted-by": "publisher",
+              "first-page": "166518",
+              "DOI": "10.1109/ACCESS.2021.3135658",
+              "volume": "9",
+              "author": "KK Sahoo",
+              "year": "2021",
+              "unstructured": "Sahoo KK, Dutta I, Ijaz MF, Woźniak M, Singh PK (2021) TLEFuzzyNet: fuzzy rank-based ensemble of transfer learning models for emotion recognition from human speeches. IEEE Access 9:166518",
+              "journal-title": "IEEE Access"
+            },
+            {
+              "key": "994_CR25",
+              "doi-asserted-by": "publisher",
+              "first-page": "271",
+              "DOI": "10.1016/j.neucom.2017.07.050",
+              "volume": "273",
+              "author": "Z-T Liu",
+              "year": "2018",
+              "unstructured": "Liu Z-T, Wu M, Cao W-H, Mao J-W, Xu J-P, Tan G-Z (2018) Speech emotion recognition based on feature selection and extreme learning machine decision tree. Neurocomputing 273:271–280",
+              "journal-title": "Neurocomputing"
+            },
+            {
+              "key": "994_CR26",
+              "doi-asserted-by": "crossref",
+              "unstructured": "Wani TM, Gunawan TS, Qadri SA, Mansor H, Kartiwi M, Ismail N (2020) Speech emotion recognition using convolution neural networks and deep stride convolutional neural networks. In: 2020 6th International Conference on Wireless and Telematics (ICWT) Sep 3 (pp. 1-6). IEEE",
+              "DOI": "10.1109/ICWT50448.2020.9243622"
+            },
+            {
+              "key": "994_CR27",
+              "doi-asserted-by": "crossref",
+              "unstructured": "Kumbhar HS, Bhandari SU (2019) Speech emotion recognition using MFCC features and LSTM network. In: 2019 5th international conference on computing, communication, control and automation (ICCUBEA) Sep 19 (pp. 1-3). IEEE",
+              "DOI": "10.1109/ICCUBEA47591.2019.9129067"
+            },
+            {
+              "issue": "1",
+              "key": "994_CR28",
+              "doi-asserted-by": "publisher",
+              "first-page": "45",
+              "DOI": "10.1007/s10772-020-09672-4",
+              "volume": "23",
+              "author": "A Koduru",
+              "year": "2020",
+              "unstructured": "Koduru A, Valiveti HB, Budati AK (2020) Feature extraction algorithms to improve the speech emotion recognition rate. Int J Speech Technol 23(1):45–55",
+              "journal-title": "Int J Speech Technol"
+            },
+            {
+              "key": "994_CR29",
+              "doi-asserted-by": "crossref",
+              "unstructured": "Xu M, Zhang F, Khan SU (2020) Improve accuracy of speech emotion recognition with attention head fusion. In: 2020 10th annual computing and communication workshop and conference (CCWC) Jan 6 (pp. 1058-1064). IEEE",
+              "DOI": "10.1109/CCWC47524.2020.9031207"
+            },
+            {
+              "issue": "2",
+              "key": "994_CR30",
+              "doi-asserted-by": "publisher",
+              "first-page": "239",
+              "DOI": "10.1007/s10772-017-9396-2",
+              "volume": "20",
+              "author": "F Noroozi",
+              "year": "2017",
+              "unstructured": "Noroozi F, Sapiński T, Kamińska D, Anbarjafari G (2017) Vocal-based emotion recognition using random forests and decision tree. Int J Speech Technol 20(2):239–46",
+              "journal-title": "Int J Speech Technol"
+            },
+            {
+              "key": "994_CR31",
+              "doi-asserted-by": "publisher",
+              "first-page": "67",
+              "DOI": "10.1016/j.asoc.2018.08.012",
+              "volume": "73",
+              "author": "Q Liu",
+              "year": "2018",
+              "unstructured": "Liu Q, Wu L, Xiao W, Wang F, Zhang L (2018) A novel hybrid bat algorithm for solving continuous optimization problems. Appl Soft Comput 73:67–82",
+              "journal-title": "Appl Soft Comput"
+            },
+            {
+              "key": "994_CR32",
+              "volume-title": "Surrey audio-visual expressed emotion (savee) database",
+              "author": "P Jackson",
+              "year": "2014",
+              "unstructured": "Jackson P, Sju Haq (2014) Surrey audio-visual expressed emotion (savee) database. Univ Surrey, Guildford"
+            },
+            {
+              "key": "994_CR33",
+              "doi-asserted-by": "crossref",
+              "unstructured": "Babu PA, Nagaraju VS, Vallabhuni RR (2021) Speech emotion recognition system with librosa. In: 2021 10th IEEE International Conference on Communication Systems and Network Technologies (CSNT). p. 421-424",
+              "DOI": "10.1109/CSNT51715.2021.9509690"
+            },
+            {
+              "key": "994_CR34",
+              "doi-asserted-by": "publisher",
+              "first-page": "1136",
+              "DOI": "10.1007/s12559-021-09914-w",
+              "volume": "13",
+              "author": "MA Albadr",
+              "year": "2021",
+              "unstructured": "Albadr MA, Tiun S, Ayob M, Mohammed M, AL-Dhief FT (2021) Mel-frequency cepstral coefficient features based on standard deviation and principal component analysis for language identification systems. Cognitive Comput 13:1136–1153",
+              "journal-title": "Cognitive Comput"
+            },
+            {
+              "issue": "156",
+              "key": "994_CR35",
+              "doi-asserted-by": "publisher",
+              "first-page": "103010",
+              "DOI": "10.1016/j.specom.2023.103010",
+              "volume": "1",
+              "author": "M Liu",
+              "year": "2024",
+              "unstructured": "Liu M, Raj AN, Rajangam V, Ma K, Zhuang Z, Zhuang S (2024) Multiscale-multichannel feature extraction and classification through one-dimensional convolutional neural network for Speech emotion recognition. Speech Commun 1(156):103010",
+              "journal-title": "Speech Commun"
+            },
+            {
+              "issue": "3",
+              "key": "994_CR36",
+              "doi-asserted-by": "publisher",
+              "first-page": "1389",
+              "DOI": "10.1007/s12065-023-00828-0",
+              "volume": "17",
+              "author": "O Sawant",
+              "year": "2024",
+              "unstructured": "Sawant O, Bhowmick A, Bhagwat G (2024) Separation of speech & music using temporal-spectral features and neural classifiers. Evolutionary Intell 17(3):1389–403",
+              "journal-title": "Evolutionary Intell"
+            },
+            {
+              "issue": "51",
+              "key": "994_CR37",
+              "doi-asserted-by": "publisher",
+              "first-page": "109741",
+              "DOI": "10.1016/j.dib.2023.109741",
+              "volume": "1",
+              "author": "MM Billah",
+              "year": "2023",
+              "unstructured": "Billah MM, Sarker ML, Akhand MA (2023) KBES: a dataset for realistic Bangla speech emotion recognition with intensity level. Data in Brief 1(51):109741",
+              "journal-title": "Data in Brief"
+            },
+            {
+              "key": "994_CR38",
+              "doi-asserted-by": "publisher",
+              "first-page": "102974",
+              "DOI": "10.1016/j.specom.2023.102974",
+              "volume": "7",
+              "author": "A Hashem",
+              "year": "2023",
+              "unstructured": "Hashem A, Arif M, Alghamdi M (2023) Speech emotion recognition approaches: a systematic review. Speech Commun 7:102974",
+              "journal-title": "Speech Commun"
+            },
+            {
+              "issue": "18",
+              "key": "994_CR39",
+              "doi-asserted-by": "publisher",
+              "first-page": "27165",
+              "DOI": "10.1007/s11042-023-14473-3",
+              "volume": "82",
+              "author": "MA Albadr",
+              "year": "2023",
+              "unstructured": "Albadr MA, Tiun S, Ayob M, Nazri MZ (2023) Grey wolf optimization-extreme learning machine for automatic spoken language identification. Multimed Tools Appl 82(18):27165–91",
+              "journal-title": "Multimed Tools Appl"
+            },
+            {
+              "issue": "1",
+              "key": "994_CR40",
+              "doi-asserted-by": "publisher",
+              "first-page": "153",
+              "DOI": "10.1007/s11760-023-02716-7",
+              "volume": "18",
+              "author": "SP Mishra",
+              "year": "2024",
+              "unstructured": "Mishra SP, Warule P, Deb S (2024) Speech emotion recognition using MFCC-based entropy feature. Signal, Image and Video Process 18(1):153–61",
+              "journal-title": "Signal, Image and Video Process"
+            },
+            {
+              "issue": "13",
+              "key": "994_CR41",
+              "doi-asserted-by": "publisher",
+              "first-page": "1150840",
+              "DOI": "10.3389/fonc.2023.1150840",
+              "volume": "27",
+              "author": "MA Albadr",
+              "year": "2023",
+              "unstructured": "Albadr MA, Ayob M, Tiun S, Al-Dhief FT, Arram A, Khalaf S (2023) Breast cancer diagnosis using the fast learning network algorithm. Front Oncology 27(13):1150840",
+              "journal-title": "Front Oncology"
+            },
+            {
+              "key": "994_CR42",
+              "first-page": "1",
+              "volume": "7",
+              "author": "MA Albadr",
+              "year": "2024",
+              "unstructured": "Albadr MA, AL-Dhief FT, Man L, Abbas AH, Homod RZ (2024) Online sequential extreme learning machine approach for breast cancer diagnosis. Neural Comput Appl 7:1–7",
+              "journal-title": "Neural Comput Appl"
+            },
+            {
+              "issue": "11",
+              "key": "994_CR43",
+              "doi-asserted-by": "publisher",
+              "first-page": "1758",
+              "DOI": "10.3390/sym12111758",
+              "volume": "12",
+              "author": "MA Albadr",
+              "year": "2020",
+              "unstructured": "Albadr MA, Tiun S, Ayob M, Al-Dhief F (2020) Genetic algorithm based on natural selection theory for optimization problems. Symmetry. 12(11):1758",
+              "journal-title": "Symmetry."
+            },
+            {
+              "issue": "22",
+              "key": "994_CR44",
+              "doi-asserted-by": "publisher",
+              "first-page": "12262",
+              "DOI": "10.3390/app132212262",
+              "volume": "13",
+              "author": "L Yue",
+              "year": "2023",
+              "unstructured": "Yue L, Hu P, Chu SC, Pan JS (2023) English Speech Emotion Classification Based on Multi-Objective Differential Evolution. Appl Sci 13(22):12262",
+              "journal-title": "Appl Sci"
+            },
+            {
+              "issue": "1",
+              "key": "994_CR45",
+              "doi-asserted-by": "publisher",
+              "first-page": "183",
+              "DOI": "10.3390/s20010183",
+              "volume": "20",
+              "author": "Kwon S Mustaqeem",
+              "year": "2019",
+              "unstructured": "Mustaqeem Kwon S (2019) A CNN-assisted enhanced audio signal processing for speech emotion recognition. Sensors 20(1):183",
+              "journal-title": "Sensors"
+            },
+            {
+              "issue": "218",
+              "key": "994_CR46",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1016/j.eswa.2023.119633",
+              "volume": "15",
+              "author": "MR Ahmed",
+              "year": "2023",
+              "unstructured": "Ahmed MR, Islam S, Islam AM, Shatabda S (2023) An ensemble 1D-CNN-LSTM-GRU model with data augmentation for speech emotion recognition. Expert Syst Appl 15(218):119633",
+              "journal-title": "Expert Syst Appl"
+            },
+            {
+              "issue": "4",
+              "key": "994_CR47",
+              "doi-asserted-by": "publisher",
+              "first-page": "1414",
+              "DOI": "10.3390/s22041414",
+              "volume": "22",
+              "author": "L Van Trinh",
+              "year": "2022",
+              "unstructured": "Van Trinh L, Le Dao Thi T, Le Xuan T, Castelli E (2022) Emotional speech recognition using deep neural networks. Sensors 22(4):1414",
+              "journal-title": "Sensors"
+            }
+          ],
+          "container-title": [
+            "Evolutionary Intelligence"
+          ],
+          "language": "en",
+          "link": [
+            {
+              "URL": "https://link.springer.com/content/pdf/10.1007/s12065-024-00994-9.pdf",
+              "content-type": "application/pdf",
+              "content-version": "vor",
+              "intended-application": "text-mining"
+            },
+            {
+              "URL": "https://link.springer.com/article/10.1007/s12065-024-00994-9/fulltext.html",
+              "content-type": "text/html",
+              "content-version": "vor",
+              "intended-application": "text-mining"
+            },
+            {
+              "URL": "https://link.springer.com/content/pdf/10.1007/s12065-024-00994-9.pdf",
+              "content-type": "application/pdf",
+              "content-version": "vor",
+              "intended-application": "similarity-checking"
+            }
+          ],
+          "deposited": {
+            "date-parts": [
+              [
+                2025,
+                2,
+                21
+              ]
+            ],
+            "date-time": "2025-02-21T06:29:54Z",
+            "timestamp": 1740119394000
+          },
+          "score": 30.633907,
+          "resource": {
+            "primary": {
+              "URL": "https://link.springer.com/10.1007/s12065-024-00994-9"
+            }
+          },
+          "issued": {
+            "date-parts": [
+              [
+                2024,
+                11,
+                15
+              ]
+            ]
+          },
+          "references-count": 47,
+          "journal-issue": {
+            "issue": "1",
+            "published-print": {
+              "date-parts": [
+                [
+                  2025,
+                  2
+                ]
+              ]
+            }
+          },
+          "alternative-id": [
+            "994"
+          ],
+          "URL": "https://doi.org/10.1007/s12065-024-00994-9",
+          "ISSN": [
+            "1864-5909",
+            "1864-5917"
+          ],
+          "issn-type": [
+            {
+              "value": "1864-5909",
+              "type": "print"
+            },
+            {
+              "value": "1864-5917",
+              "type": "electronic"
+            }
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2024,
+                11,
+                15
+              ]
+            ]
+          },
+          "assertion": [
+            {
+              "value": "25 May 2024",
+              "order": 1,
+              "name": "received",
+              "label": "Received",
+              "group": {
+                "name": "ArticleHistory",
+                "label": "Article History"
+              }
+            },
+            {
+              "value": "12 September 2024",
+              "order": 2,
+              "name": "revised",
+              "label": "Revised",
+              "group": {
+                "name": "ArticleHistory",
+                "label": "Article History"
+              }
+            },
+            {
+              "value": "14 September 2024",
+              "order": 3,
+              "name": "accepted",
+              "label": "Accepted",
+              "group": {
+                "name": "ArticleHistory",
+                "label": "Article History"
+              }
+            },
+            {
+              "value": "15 November 2024",
+              "order": 4,
+              "name": "first_online",
+              "label": "First Online",
+              "group": {
+                "name": "ArticleHistory",
+                "label": "Article History"
+              }
+            },
+            {
+              "order": 1,
+              "name": "Ethics",
+              "group": {
+                "name": "EthicsHeading",
+                "label": "Declarations"
+              }
+            },
+            {
+              "value": "No Conflict of interest",
+              "order": 2,
+              "name": "Ethics",
+              "group": {
+                "name": "EthicsHeading",
+                "label": "Conflict of interest"
+              }
+            },
+            {
+              "value": "Not applicable",
+              "order": 3,
+              "name": "Ethics",
+              "group": {
+                "name": "EthicsHeading",
+                "label": "Ethics approval"
+              }
+            }
+          ],
+          "article-number": "4"
+        },
+        {
+          "indexed": {
+            "date-parts": [
+              [
+                2024,
+                5,
+                12
+              ]
+            ],
+            "date-time": "2024-05-12T22:18:00Z",
+            "timestamp": 1715552280360
+          },
+          "publisher-location": "Boca Raton",
+          "edition-number": "1",
+          "reference-count": 0,
+          "publisher": "CRC Press",
+          "isbn-type": [
+            {
+              "value": "9781003206477",
+              "type": "electronic"
+            }
+          ],
+          "content-domain": {
+            "domain": [],
+            "crossmark-restriction": false
+          },
+          "published-print": {
+            "date-parts": [
+              [
+                2021,
+                8,
+                19
+              ]
+            ]
+          },
+          "DOI": "10.1201/9781003206477-3",
+          "type": "book-chapter",
+          "created": {
+            "date-parts": [
+              [
+                2021,
+                8,
+                19
+              ]
+            ],
+            "date-time": "2021-08-19T14:21:38Z",
+            "timestamp": 1629382898000
+          },
+          "page": "29-70",
+          "source": "Crossref",
+          "is-referenced-by-count": 2,
+          "title": [
+            "Genetic Algorithm"
+          ],
+          "prefix": "10.1201",
+          "author": [
+            {
+              "given": "Altaf Q. H.",
+              "family": "Badar",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            }
+          ],
+          "member": "301",
+          "container-title": [
+            "Evolutionary Optimization Algorithms"
+          ],
+          "language": "en",
+          "deposited": {
+            "date-parts": [
+              [
+                2021,
+                8,
+                19
+              ]
+            ],
+            "date-time": "2021-08-19T14:21:40Z",
+            "timestamp": 1629382900000
+          },
+          "score": 30.158913,
+          "resource": {
+            "primary": {
+              "URL": "https://www.taylorfrancis.com/books/9781003206477/chapters/10.1201/9781003206477-3"
+            }
+          },
+          "issued": {
+            "date-parts": [
+              [
+                2021,
+                8,
+                19
+              ]
+            ]
+          },
+          "ISBN": [
+            "9781003206477"
+          ],
+          "references-count": 0,
+          "URL": "https://doi.org/10.1201/9781003206477-3",
+          "published": {
+            "date-parts": [
+              [
+                2021,
+                8,
+                19
+              ]
+            ]
+          }
+        }
+      ],
+      "items-per-page": 3,
+      "query": {
+        "start-index": 0,
+        "search-terms": null
+      }
+    }
+  }
+}

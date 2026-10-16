@@ -1,0 +1,327 @@
+{
+  "retrieved": "2026-10-16",
+  "url": "https://api.crossref.org/works?query.bibliographic=demand+side+management+load+scheduling+genetic+algorithm+review&rows=3&filter=until-pub-date%3A2026-10-16",
+  "response": {
+    "status": "ok",
+    "message-type": "work-list",
+    "message-version": "1.0.0",
+    "message": {
+      "facets": {},
+      "total-results": 13297585,
+      "items": [
+        {
+          "indexed": {
+            "date-parts": [
+              [
+                2024,
+                3,
+                12
+              ]
+            ],
+            "date-time": "2024-03-12T00:29:32Z",
+            "timestamp": 1710203372356
+          },
+          "posted": {
+            "date-parts": [
+              [
+                2024
+              ]
+            ]
+          },
+          "group-title": "SSRN",
+          "reference-count": 0,
+          "publisher": "Elsevier BV",
+          "content-domain": {
+            "domain": [],
+            "crossmark-restriction": false
+          },
+          "DOI": "10.2139/ssrn.4755072",
+          "type": "posted-content",
+          "created": {
+            "date-parts": [
+              [
+                2024,
+                3,
+                11
+              ]
+            ],
+            "date-time": "2024-03-11T13:17:20Z",
+            "timestamp": 1710163040000
+          },
+          "source": "Crossref",
+          "is-referenced-by-count": 0,
+          "title": [
+            "An Assessment of Load Scheduling Approaches in the Smart Grid for Demand Side Management Based on Particle Swarm Optimization and Genetic Algorithm"
+          ],
+          "prefix": "10.2139",
+          "author": [
+            {
+              "given": "Sayemul",
+              "family": "Islam",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Naruttam Kumar",
+              "family": "Roy",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            }
+          ],
+          "member": "78",
+          "deposited": {
+            "date-parts": [
+              [
+                2024,
+                3,
+                11
+              ]
+            ],
+            "date-time": "2024-03-11T13:17:22Z",
+            "timestamp": 1710163042000
+          },
+          "score": 44.506493,
+          "resource": {
+            "primary": {
+              "URL": "https://www.ssrn.com/abstract=4755072"
+            }
+          },
+          "issued": {
+            "date-parts": [
+              [
+                2024
+              ]
+            ]
+          },
+          "references-count": 0,
+          "URL": "https://doi.org/10.2139/ssrn.4755072",
+          "published": {
+            "date-parts": [
+              [
+                2024
+              ]
+            ]
+          },
+          "subtype": "preprint"
+        },
+        {
+          "indexed": {
+            "date-parts": [
+              [
+                2026,
+                5,
+                21
+              ]
+            ],
+            "date-time": "2026-05-21T21:35:42Z",
+            "timestamp": 1779399342727,
+            "version": "3.53.1"
+          },
+          "reference-count": 0,
+          "publisher": "Wiley",
+          "content-domain": {
+            "domain": []
+          },
+          "published-print": {
+            "date-parts": [
+              [
+                2025,
+                1,
+                14
+              ]
+            ]
+          },
+          "DOI": "10.1002/eng2.70017/v2/review1",
+          "type": "peer-review",
+          "created": {
+            "date-parts": [
+              [
+                2025,
+                3,
+                12
+              ]
+            ],
+            "date-time": "2025-03-12T17:09:56Z",
+            "timestamp": 1741799396000
+          },
+          "source": "Crossref",
+          "is-referenced-by-count": 0,
+          "title": [
+            "Review for \"Optimal Scheduling Model of Load Aggregator on Demand Side Under Demand Response\""
+          ],
+          "prefix": "10.1002",
+          "member": "311",
+          "review": {
+            "type": "referee-report",
+            "running-number": "PR3V2",
+            "revision-round": "2",
+            "stage": "pre-publication"
+          },
+          "deposited": {
+            "date-parts": [
+              [
+                2025,
+                3,
+                12
+              ]
+            ],
+            "date-time": "2025-03-12T17:09:58Z",
+            "timestamp": 1741799398000
+          },
+          "score": 41.73529,
+          "resource": {
+            "primary": {
+              "URL": "https://www.webofscience.com/api/gateway/wos/peer-review/10.1002/ENG2.70017"
+            }
+          },
+          "issued": {
+            "date-parts": [
+              [
+                2025,
+                1,
+                14
+              ]
+            ]
+          },
+          "references-count": 0,
+          "URL": "https://doi.org/10.1002/eng2.70017/v2/review1",
+          "relation": {
+            "is-review-of": [
+              {
+                "id-type": "doi",
+                "id": "10.1002/ENG2.70017",
+                "asserted-by": "subject"
+              }
+            ]
+          },
+          "published": {
+            "date-parts": [
+              [
+                2025,
+                1,
+                14
+              ]
+            ]
+          }
+        },
+        {
+          "indexed": {
+            "date-parts": [
+              [
+                2026,
+                5,
+                21
+              ]
+            ],
+            "date-time": "2026-05-21T20:12:38Z",
+            "timestamp": 1779394358244,
+            "version": "3.53.1"
+          },
+          "reference-count": 0,
+          "publisher": "Wiley",
+          "content-domain": {
+            "domain": []
+          },
+          "published-print": {
+            "date-parts": [
+              [
+                2025,
+                1,
+                4
+              ]
+            ]
+          },
+          "DOI": "10.1002/eng2.70017/v1/review2",
+          "type": "peer-review",
+          "created": {
+            "date-parts": [
+              [
+                2025,
+                3,
+                12
+              ]
+            ],
+            "date-time": "2025-03-12T17:09:56Z",
+            "timestamp": 1741799396000
+          },
+          "source": "Crossref",
+          "is-referenced-by-count": 0,
+          "title": [
+            "Review for \"Optimal Scheduling Model of Load Aggregator on Demand Side Under Demand Response\""
+          ],
+          "prefix": "10.1002",
+          "member": "311",
+          "review": {
+            "type": "referee-report",
+            "running-number": "PR1V1",
+            "revision-round": "1",
+            "stage": "pre-publication"
+          },
+          "deposited": {
+            "date-parts": [
+              [
+                2025,
+                3,
+                12
+              ]
+            ],
+            "date-time": "2025-03-12T17:09:59Z",
+            "timestamp": 1741799399000
+          },
+          "score": 41.656345,
+          "resource": {
+            "primary": {
+              "URL": "https://www.webofscience.com/api/gateway/wos/peer-review/10.1002/ENG2.70017"
+            }
+          },
+          "issued": {
+            "date-parts": [
+              [
+                2025,
+                1,
+                4
+              ]
+            ]
+          },
+          "references-count": 0,
+          "URL": "https://doi.org/10.1002/eng2.70017/v1/review2",
+          "relation": {
+            "is-review-of": [
+              {
+                "id-type": "doi",
+                "id": "10.1002/ENG2.70017",
+                "asserted-by": "subject"
+              }
+            ]
+          },
+          "published": {
+            "date-parts": [
+              [
+                2025,
+                1,
+                4
+              ]
+            ]
+          }
+        }
+      ],
+      "items-per-page": 3,
+      "query": {
+        "start-index": 0,
+        "search-terms": null
+      }
+    }
+  }
+}

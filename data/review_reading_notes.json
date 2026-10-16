@@ -1,0 +1,249 @@
+{
+  "updated": "2026-10-16",
+  "notes": {
+    "review-pso-9ebaa0": {
+      "readingLevel": "abstract",
+      "readingLabel": "已核读摘要",
+      "readingLocation": "Springer 摘要与参考文献列表",
+      "scopeNote": "回顾 PSO 的变体、参数、理论与应用；参考文献含离散和二进制适配，不能将连续版本综述当作全部实现规范。",
+      "readingURL": "https://link.springer.com/article/10.1007/s11721-007-0002-0"
+    },
+    "review-pso-modern-25f3c4": {
+      "readingLevel": "abstract",
+      "readingLabel": "已核读摘要",
+      "readingLocation": "MIT Press 摘要",
+      "scopeNote": "范围明确限定为单目标连续空间；不能直接替代离散、约束、多目标 PSO 的专门证据。",
+      "readingURL": "https://direct.mit.edu/evco/article/25/1/1/1040/Particle-Swarm-Optimization-for-Single-Objective"
+    },
+    "review-abc-98ba57": {
+      "readingLevel": "abstract",
+      "readingLabel": "已核读摘要",
+      "readingLocation": "Springer 摘要与出版日期",
+      "scopeNote": "ABC 专题与应用综述；在线发表于2012年，正式卷期为2014年；作者包含算法提出者，不能视为独立第三方复现。",
+      "readingURL": "https://link.springer.com/article/10.1007/s10462-012-9328-0"
+    },
+    "rajwar2023": {
+      "readingLevel": "abstract",
+      "readingLabel": "已核读摘要",
+      "readingLocation": "Springer 摘要",
+      "scopeNote": "大规模算法名称目录和按控制参数分类，提出重复命名与新颖性问题；其收录数量不能当作经典机制数量。",
+      "readingURL": "https://link.springer.com/article/10.1007/s10462-023-10470-y"
+    },
+    "uncertainty2005": {
+      "readingLevel": "sections",
+      "readingLabel": "已核读指定章节",
+      "readingLocation": "作者公开论文，印刷页303—304，摘要与第I节",
+      "scopeNote": "区分评价噪声、解的稳健性、适应度近似与随时间变化的目标；这些对象有关联，但误差来源与求解目标不同。",
+      "readingURL": "https://www.tech.dmu.ac.uk/~syang/TF-ECiDUE/JinBranke-TEVC05.pdf"
+    },
+    "review-dynamic-2c003a": {
+      "readingLevel": "sections",
+      "readingLabel": "已核读指定章节",
+      "readingLocation": "作者公开稿 PDF 前4页，摘要与引言",
+      "scopeNote": "讨论在线变化环境中追踪解的动态优化；目标、实例或约束的变化需要具体说明，不能把所有带时间变量的静态模型归入该类。",
+      "readingURL": "https://optimization-online.org/wp-content/uploads/2012/05/3480.pdf"
+    },
+    "review-surrogates-2e8c4a": {
+      "readingLevel": "sections",
+      "readingLabel": "已核读指定章节",
+      "readingLocation": "ScienceDirect 摘要与引言预览",
+      "scopeNote": "以昂贵工程评估为背景讨论代理模型与优化策略；作者明确说明选择范围并非穷尽，其应用视角不等于整个进化计算领域。",
+      "readingURL": "https://www.sciencedirect.com/science/article/pii/S0376042108000766"
+    },
+    "review-surrogates-4ce90e": {
+      "readingLevel": "abstract",
+      "readingLabel": "已核读摘要",
+      "readingLocation": "Surrey 机构库摘要",
+      "scopeNote": "回顾代理辅助进化计算的进展与挑战；与 Jin 早期相关综述具有作者延续，不能仅按论文数量增加独立证据权重。",
+      "readingURL": "https://openresearch.surrey.ac.uk/esploro/outputs/journalArticle/Surrogate-assisted-evolutionary-computation-Recent-advances-and/99511358902346"
+    },
+    "qd2016": {
+      "readingLevel": "sections",
+      "readingLabel": "已核读指定章节",
+      "readingLocation": "Frontiers 正文第2.1—2.3节",
+      "scopeNote": "QD 同时关注行为空间中的覆盖与各区域解的质量；多目标前沿、多个局部峰和行为多样性不是同一个对象。",
+      "readingURL": "https://www.frontiersin.org/journals/robotics-and-ai/articles/10.3389/frobt.2016.00040/full"
+    },
+    "review-hyper-a1ea2b": {
+      "readingLevel": "sections",
+      "readingLabel": "已核读指定章节",
+      "readingLocation": "Springer 摘要与第1节",
+      "scopeNote": "在多目标超启发式范围内组织选择、生成、组合与配置；引言区分 Pareto 折中与解集近似，不提供所有问题上的优胜算法。",
+      "readingURL": "https://link.springer.com/article/10.1007/s10462-025-11486-2"
+    },
+    "review-hyper-3f59ee": {
+      "readingLevel": "abstract",
+      "readingLabel": "已核读摘要",
+      "readingLocation": "Stirling 正式论文机构库摘要",
+      "scopeNote": "以启发式的选择或生成为核心；公开作者稿与正式记录作者列表不同，书目采用正式发表记录。",
+      "readingURL": "https://dspace.stir.ac.uk/handle/1893/18261"
+    },
+    "review-configuration-8bd9fb": {
+      "readingLevel": "abstract",
+      "readingLabel": "已核读摘要",
+      "readingLocation": "Crossref 提供的论文摘要",
+      "scopeNote": "按实例选择算法，利用候选算法的互补优势；选择、配置、调度和算法组合相互关联，但不能省略决策对象的区别。"
+    },
+    "review-taxonomy-431f12": {
+      "readingLevel": "abstract",
+      "readingLabel": "已核读摘要",
+      "readingLocation": "Crossref 提供的论文摘要",
+      "scopeNote": "从机器学习辅助低层、高层与问题相关组件的视角分类；该分类是观察方式，不构成一条线性算法发展史。"
+    },
+    "llmDesign2026": {
+      "readingLevel": "abstract",
+      "readingLabel": "已核读摘要",
+      "readingLocation": "Crossref 提供的论文摘要",
+      "scopeNote": "区分大模型作为优化器、预测器、信息提取器、设计者的角色；不能把该综述范围外的研究纳入其统计分母。"
+    },
+    "evolutionaryNasSurvey2026": {
+      "readingLevel": "abstract",
+      "readingLabel": "已核读摘要",
+      "readingLocation": "Crossref 提供的论文摘要",
+      "scopeNote": "研究样本为2020—2024年的演化神经架构搜索文献；其中方法占比不能推广为整个群智能或进化计算领域占比。"
+    },
+    "isa2023": {
+      "readingLevel": "abstract",
+      "readingLabel": "已核读摘要",
+      "readingLocation": "Crossref 提供的论文摘要",
+      "scopeNote": "通过实例特征空间观察算法的优势区域与基准覆盖；个别测试集排名不能自动外推到全部实例。"
+    },
+    "brambilla2013": {
+      "readingLevel": "abstract",
+      "readingLabel": "已核读摘要",
+      "readingLocation": "Springer 摘要",
+      "scopeNote": "从群体工程角度整理设计、建模、验证与运行等问题，并分别讨论工程方法和群体行为。",
+      "readingURL": "https://link.springer.com/article/10.1007/s11721-012-0075-2"
+    },
+    "robotics2023": {
+      "readingLevel": "abstract",
+      "readingLabel": "已核读摘要",
+      "readingLocation": "Crossref 提供的论文摘要",
+      "scopeNote": "讨论动物群体行为与空中、地面、海洋机器人协同；物理群体的通信和执行问题不能由黑箱优化演示替代。"
+    },
+    "app059": {
+      "readingLevel": "abstract",
+      "readingLabel": "已核读摘要",
+      "readingLocation": "Crossref 提供的论文摘要",
+      "scopeNote": "范围是搜索式软件测试数据生成，包括结构、功能及其他测试目标；不等于所有软件工程活动。"
+    },
+    "app056": {
+      "readingLevel": "abstract",
+      "readingLabel": "已核读摘要",
+      "readingLocation": "Crossref 提供的论文摘要",
+      "scopeNote": "综述水下声学传感网络路由，范围包含多种协议；不能把整篇综述覆盖范围都计入元启发式成果。"
+    },
+    "app019": {
+      "readingLevel": "abstract",
+      "readingLabel": "已核读摘要",
+      "readingLocation": "Crossref 提供的论文摘要",
+      "scopeNote": "讨论遗传算法用于公交网络设计与排程；摘要的有效性评价不能证明任意实际城市部署收益。"
+    },
+    "waterManagementReview2022": {
+      "readingLevel": "abstract",
+      "readingLabel": "已核读摘要",
+      "readingLocation": "Crossref 提供的论文摘要",
+      "scopeNote": "涉及水资源管理的不确定来水、复杂约束与混合方法；没有据此确认一种算法全面优胜。"
+    },
+    "cryptoBooleanSurvey2023": {
+      "readingLevel": "abstract",
+      "readingLabel": "已核读摘要",
+      "readingLocation": "Crossref 提供的论文摘要",
+      "scopeNote": "关注密码布尔函数的设计；不能转述成能够破解现有密码系统。"
+    },
+    "portfolioMetaReview2023": {
+      "readingLevel": "abstract",
+      "readingLabel": "已核读摘要",
+      "readingLocation": "Crossref 提供的论文摘要",
+      "scopeNote": "区分投资组合模型中的约束和目标；摘要合并讨论多类约束，不能据此断言只要有边界约束就必然 NP-hard。"
+    },
+    "app014": {
+      "readingLevel": "abstract",
+      "readingLabel": "已核读摘要",
+      "readingLocation": "Crossref 提供的论文摘要",
+      "scopeNote": "水分配网络涉及水力约束及设计、扩展、改造；不能只凭优化形式相似宣称它与某个教学背包模型完全等价。"
+    },
+    "matheur2024": {
+      "readingLevel": "abstract",
+      "readingLabel": "已核读摘要",
+      "readingLocation": "Crossref 提供的论文摘要",
+      "scopeNote": "强调数学规划与启发式的结合；这是早期综述的更新扩展，版本延续不能计作独立重复验证。"
+    },
+    "pcgGamesSurvey2024": {
+      "readingLevel": "abstract",
+      "readingLabel": "已核读摘要",
+      "readingLocation": "Crossref 提供的论文摘要",
+      "scopeNote": "程序化内容生成还包含机器学习、噪声函数等方法；全文领域范围不等于元启发式应用规模。"
+    },
+    "healthcareMhReview2024": {
+      "readingLevel": "abstract",
+      "readingLabel": "已核读摘要",
+      "readingLocation": "Crossref 提供的论文摘要",
+      "scopeNote": "覆盖诊断、影像、运营和公共卫生研究；摘要不足以确认临床前瞻试验、监管批准或真实部署。"
+    },
+    "civilInfrastructureReview2024": {
+      "readingLevel": "abstract",
+      "readingLabel": "已核读摘要",
+      "readingLocation": "Crossref 提供的论文摘要",
+      "scopeNote": "整理土木基础设施优化应用；领域综述存在不能作为相对所有传统方法全面更优的证明。"
+    },
+    "review-scheduling-8245c2": {
+      "readingLevel": "abstract",
+      "readingLabel": "已核读摘要",
+      "readingLocation": "Crossref 提供的论文摘要",
+      "scopeNote": "范围包含制造业作业车间及柔性作业车间的多类智能调度方法；并非只覆盖群智能算法。"
+    },
+    "review-coverage-parameter-control-07589f": {
+      "readingLevel": "abstract",
+      "readingLabel": "已核读摘要",
+      "readingLocation": "VU 机构库完整摘要",
+      "scopeNote": "按进化算法的参数与组件回顾控制方法和方法学问题；不能直接推出某种控制策略普遍优胜。",
+      "readingURL": "https://research.vu.nl/en/publications/parameter-control-in-evolutionary-algorithms-trends-and-challenge/"
+    },
+    "review-coverage-parameter-general-e003bd": {
+      "readingLevel": "abstract",
+      "readingLabel": "已核读摘要",
+      "readingLocation": "Crossref 提供的论文摘要",
+      "scopeNote": "关注优化运行中的适应性参数控制，以反馈适应流程组织四步分类；不等于运行前的固定调参。"
+    },
+    "review-coverage-landscape-update-3cc005": {
+      "readingLevel": "abstract",
+      "readingLabel": "已核读摘要",
+      "readingLocation": "Crossref 提供的论文摘要",
+      "scopeNote": "更新2013年景观综述，涉及多目标、约束、动态等景观；与早期综述共享 Malan，不能作为独立重复验证。"
+    },
+    "review-coverage-theory-684479": {
+      "readingLevel": "abstract",
+      "readingLabel": "已核读摘要",
+      "readingLocation": "Crossref 提供的论文摘要",
+      "scopeNote": "范围是离散优化理论，包括运行时间、参数、随机与动态问题、EDA及漂移分析；不能直接外推连续工程任务。"
+    },
+    "review-coverage-set-pso-8d9bec": {
+      "readingLevel": "abstract",
+      "readingLabel": "已核读摘要",
+      "readingLocation": "Crossref 提供的论文摘要",
+      "scopeNote": "重点是基于集合的PSO，不涵盖全部离散PSO；摘要对其通用性的评价需结合假设与其他方法核对。"
+    },
+    "review-coverage-tabu-4a1cbc": {
+      "readingLevel": "abstract",
+      "readingLabel": "已核读摘要",
+      "readingLocation": "Crossref 提供的论文摘要",
+      "scopeNote": "将禁忌搜索解释为利用记忆、禁忌限制、特赦与强化/分散策略引导搜索的框架；教程中的应用例子不证明普遍优胜。"
+    },
+    "review-coverage-large-scale-c3d1a1": {
+      "readingLevel": "abstract",
+      "readingLabel": "已核读摘要",
+      "readingLocation": "White Rose 机构库完整摘要",
+      "scopeNote": "本系列第二部分讨论采样变异、代理、初始化、并行化及相关问题；与第一部分属于同一作者系列，不是两次独立验证。",
+      "readingURL": "https://eprints.whiterose.ac.uk/id/eprint/180821/"
+    }
+  },
+  "categoryOverrides": {
+    "automatedMhDesignSurvey2023": "学习与自动设计",
+    "matheur2024": "复杂优化与混合机制",
+    "rlco2021": "学习与自动设计",
+    "review-hyper-a1ea2b": "学习与自动设计",
+    "app085": "行业与问题应用",
+    "acoSchedule2013": "行业与问题应用"
+  }
+}

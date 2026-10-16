@@ -1,0 +1,845 @@
+{
+  "retrieved": "2026-10-16",
+  "url": "https://api.crossref.org/works?query.bibliographic=evolutionary+art+interactive+genetic+programming&rows=3&filter=until-pub-date%3A2026-10-16",
+  "response": {
+    "status": "ok",
+    "message-type": "work-list",
+    "message-version": "1.0.0",
+    "message": {
+      "facets": {},
+      "total-results": 2019639,
+      "items": [
+        {
+          "indexed": {
+            "date-parts": [
+              [
+                2025,
+                3,
+                27
+              ]
+            ],
+            "date-time": "2025-03-27T17:13:02Z",
+            "timestamp": 1743095582900,
+            "version": "3.40.3"
+          },
+          "publisher-location": "New York, NY",
+          "reference-count": 26,
+          "publisher": "Springer New York",
+          "isbn-type": [
+            {
+              "type": "print",
+              "value": "9781441977465"
+            },
+            {
+              "type": "electronic",
+              "value": "9781441977472"
+            }
+          ],
+          "license": [
+            {
+              "start": {
+                "date-parts": [
+                  [
+                    2010,
+                    10,
+                    20
+                  ]
+                ],
+                "date-time": "2010-10-20T00:00:00Z",
+                "timestamp": 1287532800000
+              },
+              "content-version": "tdm",
+              "delay-in-days": 0,
+              "URL": "https://www.springernature.com/gp/researchers/text-and-data-mining"
+            },
+            {
+              "start": {
+                "date-parts": [
+                  [
+                    2010,
+                    10,
+                    20
+                  ]
+                ],
+                "date-time": "2010-10-20T00:00:00Z",
+                "timestamp": 1287532800000
+              },
+              "content-version": "vor",
+              "delay-in-days": 0,
+              "URL": "https://www.springernature.com/gp/researchers/text-and-data-mining"
+            }
+          ],
+          "content-domain": {
+            "domain": [
+              "link.springer.com"
+            ],
+            "crossmark-restriction": false
+          },
+          "published-print": {
+            "date-parts": [
+              [
+                2011
+              ]
+            ]
+          },
+          "DOI": "10.1007/978-1-4419-7747-2_14",
+          "type": "book-chapter",
+          "created": {
+            "date-parts": [
+              [
+                2010,
+                10,
+                19
+              ]
+            ],
+            "date-time": "2010-10-19T22:07:53Z",
+            "timestamp": 1287526073000
+          },
+          "page": "227-244",
+          "update-policy": "https://doi.org/10.1007/springer_crossmark_policy",
+          "source": "Crossref",
+          "is-referenced-by-count": 9,
+          "title": [
+            "Evolutionary Art Using Summed Multi-Objective Ranks"
+          ],
+          "prefix": "10.1007",
+          "author": [
+            {
+              "given": "Steven",
+              "family": "Bergen",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Brian J.",
+              "family": "Ross",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            }
+          ],
+          "member": "297",
+          "published-online": {
+            "date-parts": [
+              [
+                2010,
+                10,
+                20
+              ]
+            ]
+          },
+          "reference": [
+            {
+              "issue": "2/3",
+              "key": "14_CR1",
+              "doi-asserted-by": "publisher",
+              "first-page": "325",
+              "DOI": "10.1080/09540099408915729",
+              "volume": "6",
+              "author": "S. Baluja",
+              "year": "1994",
+              "unstructured": "Baluja, S., Pomerleau, D., and Jochem, T. (1994). TowardsAutomated Artificial Evolution for Computer-generated Images. Connection Science, 6(2/3):325–354.",
+              "journal-title": "Connection Science"
+            },
+            {
+              "key": "14_CR2",
+              "doi-asserted-by": "crossref",
+              "unstructured": "Bentley, P. and Corne, D.W. (2002). Creative Evolutionary Systems. Morgan Kaufmann.",
+              "DOI": "10.1016/B978-155860673-9/50035-5"
+            },
+            {
+              "key": "14_CR3",
+              "doi-asserted-by": "crossref",
+              "unstructured": "Bentley, P.J. and Wakefield, J.P. (1997). Finding acceptable solutions in the pareto-optimal range using multiobjective genetic algorithms. In Soft Computing in Engineering Design and Manufacturing. Springer Verlag.",
+              "DOI": "10.1007/978-1-4471-0427-8_25"
+            },
+            {
+              "key": "14_CR4",
+              "unstructured": "Coello, C.A. Coello, Lamont, G.B., and Veldhuizen, D.A. Van (2007). Evolutionary Algorithms for Solving Multi-Objective Problems. Kluwer, 2 edition."
+            },
+            {
+              "key": "14_CR5",
+              "doi-asserted-by": "crossref",
+              "unstructured": "Corne, D. and Knowles, J. (2007). Techniques for highly multiobjective optimisation: Some nondominated points are better than others. In Proceedings GECCO 2007, pages 773–780. ACM Press.",
+              "DOI": "10.1145/1276958.1277115"
+            },
+            {
+              "key": "14_CR6",
+              "doi-asserted-by": "crossref",
+              "unstructured": "Dawkins, R. (1996). The Blind Watchmaker. W.W Norton.",
+              "DOI": "10.1142/9789812832061_0004"
+            },
+            {
+              "key": "14_CR7",
+              "doi-asserted-by": "crossref",
+              "unstructured": "Dorin, A. (2001). Aesthetic Fitness and Artificial Evolution for the Selection of Imagery from the Mythical Infinite Library. In Advances in Artificial Life –Proc. 6th European Conference on Artificial Life, pages 659–668. Springer-Verlag.",
+              "DOI": "10.1007/3-540-44811-X_76"
+            },
+            {
+              "key": "14_CR8",
+              "unstructured": "Ebert, D.S., Musgrave, F.K., Peachey, D., Perlin, K., and Worley, S. (1998). Texturing andModeling: a Procedural Approach. Academic Press, 2 edition."
+            },
+            {
+              "key": "14_CR9",
+              "unstructured": "Goldberg, D.E. (1989). Genetic Algorithms in Search, Optimization, and Machine Learning. Addison Wesley."
+            },
+            {
+              "key": "14_CR10",
+              "doi-asserted-by": "crossref",
+              "unstructured": "Graf, J. and Banzhaf, W. (1995). Interactive Evolution of Images. In Proc. Intl. Conf. on Evolutionary Programming, pages 53–65.",
+              "DOI": "10.7551/mitpress/2887.003.0010"
+            },
+            {
+              "key": "14_CR11",
+              "unstructured": "Ibrahim, A.E.M. (1998). GenShade: an Evolutionary Approach to Automatic and Interactive Procedural Texture Generation. PhD thesis, Texas A&M University."
+            },
+            {
+              "key": "14_CR12",
+              "unstructured": "Lewis,M. (2000). Aesthetic Evolutionary Design with Data Flow Networks. In Proc. Generative Art 2000."
+            },
+            {
+              "key": "14_CR13",
+              "unstructured": "Luke, S. (2010). Ecj. Last accessed Feb 24, 2010."
+            },
+            {
+              "key": "14_CR14",
+              "doi-asserted-by": "crossref",
+              "unstructured": "Machado, P. and Cardoso, A. (1998). Computing Aesthetics. In Proc. XIVth Brazilian Symposium on AI, pages 239–249. Springer-Verlag.",
+              "DOI": "10.1007/10692710_23"
+            },
+            {
+              "issue": "2",
+              "key": "14_CR15",
+              "doi-asserted-by": "crossref",
+              "first-page": "101",
+              "DOI": "10.1023/A:1013662402341",
+              "volume": "16",
+              "author": "P. Machado",
+              "year": "2002",
+              "unstructured": "Machado, P. and Cardoso, A. (2002). All the Truth About NEvAr. Applied Intelligence, 16(2):101–118.",
+              "journal-title": "Applied Intelligence"
+            },
+            {
+              "key": "14_CR16",
+              "doi-asserted-by": "crossref",
+              "unstructured": "Neufeld, C.,Ross, B., and Ralph,W. (2008). The Evolution of Artistic Filters. In Romero, J. and Machado, P., editors, The Art of Artificial Evolution. Springer.",
+              "DOI": "10.1007/978-3-540-72877-1_16"
+            },
+            {
+              "key": "14_CR17",
+              "unstructured": "Ralph, W. (2006). Painting the Bell Curve: The Occurrence of the Normal Distribution in Fine Art. In preparation."
+            },
+            {
+              "key": "14_CR18",
+              "doi-asserted-by": "crossref",
+              "unstructured": "Romero, J. and Machado, P. (2008). The Art of Artificial Evolution. Springer.",
+              "DOI": "10.1007/978-3-540-72877-1"
+            },
+            {
+              "key": "14_CR19",
+              "doi-asserted-by": "crossref",
+              "unstructured": "Rooke, S. (2002). Eons of Genetically Evolved Algorithmic Images. In Bentley, P.J. and Corne,D.W., editors,Creative Evolutionary Systems, pages 330–365. Morgan Kaufmann.",
+              "DOI": "10.1016/B978-155860673-9/50052-5"
+            },
+            {
+              "key": "14_CR20",
+              "doi-asserted-by": "crossref",
+              "unstructured": "Ross, B.J., Ralph, W., and Zong, H. (2006).Evolutionary Image Synthesis Using a Model of Aesthetics. In CEC 2006.",
+              "DOI": "10.1109/CEC.2006.1688430"
+            },
+            {
+              "key": "14_CR21",
+              "doi-asserted-by": "publisher",
+              "first-page": "466",
+              "DOI": "10.1007/BF01888721",
+              "volume": "9",
+              "author": "K. Sims",
+              "year": "1993",
+              "unstructured": "Sims, K. (1993). Interactive evolution of equations for procedural models. The Visual Computer, 9:466–476.",
+              "journal-title": "The Visual Computer"
+            },
+            {
+              "key": "14_CR22",
+              "unstructured": "Spector, L. and Alpern, A. (1994). Criticism, culture, and the automatic generation of artworks. In Proc. AAAI-94, pages 3–8. AAAI Press/MIT Press."
+            },
+            {
+              "key": "14_CR23",
+              "doi-asserted-by": "crossref",
+              "unstructured": "Svangard, N. and Nordin, P. (2004). Automated Aesthetic Selection of Evolutionary Art by Distance Based Classification of Genomes and Phenomes using the Universal Similarity Metric. In Applications of Evolutionary Computing: EvoWorkshops 2004, pages 447–456. Springer. LNCS 3005.",
+              "DOI": "10.1007/978-3-540-24653-4_46"
+            },
+            {
+              "key": "14_CR24",
+              "unstructured": "Todd, S. and Latham, W. (1992). Evolutionary Art and Computers. Academic Press."
+            },
+            {
+              "key": "14_CR25",
+              "doi-asserted-by": "crossref",
+              "unstructured": "Whitelaw,M. (2002). Breeding Aesthetic Objects: Art and Artificial Evolution. In Bentley, P. and Corne,D.W., editors,CreativeEvolutionary Systems, pages 129–145. Morgan Kaufmann.",
+              "DOI": "10.1016/B978-155860673-9/50039-2"
+            },
+            {
+              "issue": "1",
+              "key": "14_CR26",
+              "doi-asserted-by": "publisher",
+              "first-page": "75",
+              "DOI": "10.1016/S0097-8493(01)00159-5",
+              "volume": "26",
+              "author": "A.L. Wiens",
+              "year": "2002",
+              "unstructured": "Wiens, A.L. and Ross, B.J. (2002). Gentropy: Evolutionary 2D Texture Generation. Computers and Graphics Journal, 26(1):75–88.",
+              "journal-title": "Computers and Graphics Journal"
+            }
+          ],
+          "container-title": [
+            "Genetic and Evolutionary Computation",
+            "Genetic Programming Theory and Practice VIII"
+          ],
+          "language": "en",
+          "link": [
+            {
+              "URL": "https://link.springer.com/content/pdf/10.1007/978-1-4419-7747-2_14",
+              "content-type": "unspecified",
+              "content-version": "vor",
+              "intended-application": "similarity-checking"
+            }
+          ],
+          "deposited": {
+            "date-parts": [
+              [
+                2025,
+                2,
+                26
+              ]
+            ],
+            "date-time": "2025-02-26T22:06:19Z",
+            "timestamp": 1740607579000
+          },
+          "score": 29.566479,
+          "resource": {
+            "primary": {
+              "URL": "https://link.springer.com/10.1007/978-1-4419-7747-2_14"
+            }
+          },
+          "issued": {
+            "date-parts": [
+              [
+                2010,
+                10,
+                20
+              ]
+            ]
+          },
+          "ISBN": [
+            "9781441977465",
+            "9781441977472"
+          ],
+          "references-count": 26,
+          "URL": "https://doi.org/10.1007/978-1-4419-7747-2_14",
+          "ISSN": [
+            "1932-0167"
+          ],
+          "issn-type": [
+            {
+              "type": "print",
+              "value": "1932-0167"
+            }
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2010,
+                10,
+                20
+              ]
+            ]
+          },
+          "assertion": [
+            {
+              "value": "20 October 2010",
+              "order": 1,
+              "name": "first_online",
+              "label": "First Online",
+              "group": {
+                "name": "ChapterHistory",
+                "label": "Chapter History"
+              }
+            }
+          ]
+        },
+        {
+          "indexed": {
+            "date-parts": [
+              [
+                2025,
+                9,
+                19
+              ]
+            ],
+            "date-time": "2025-09-19T08:01:22Z",
+            "timestamp": 1758268882055,
+            "version": "3.41.0"
+          },
+          "publisher-location": "Cham",
+          "reference-count": 29,
+          "publisher": "Springer International Publishing",
+          "isbn-type": [
+            {
+              "type": "print",
+              "value": "9783319208824"
+            },
+            {
+              "type": "electronic",
+              "value": "9783319208831"
+            }
+          ],
+          "license": [
+            {
+              "start": {
+                "date-parts": [
+                  [
+                    2015,
+                    1,
+                    1
+                  ]
+                ],
+                "date-time": "2015-01-01T00:00:00Z",
+                "timestamp": 1420070400000
+              },
+              "content-version": "tdm",
+              "delay-in-days": 0,
+              "URL": "https://www.springernature.com/gp/researchers/text-and-data-mining"
+            },
+            {
+              "start": {
+                "date-parts": [
+                  [
+                    2015,
+                    1,
+                    1
+                  ]
+                ],
+                "date-time": "2015-01-01T00:00:00Z",
+                "timestamp": 1420070400000
+              },
+              "content-version": "vor",
+              "delay-in-days": 0,
+              "URL": "https://www.springernature.com/gp/researchers/text-and-data-mining"
+            }
+          ],
+          "content-domain": {
+            "domain": [],
+            "crossmark-restriction": false
+          },
+          "published-print": {
+            "date-parts": [
+              [
+                2015
+              ]
+            ]
+          },
+          "DOI": "10.1007/978-3-319-20883-1_1",
+          "type": "book-chapter",
+          "created": {
+            "date-parts": [
+              [
+                2015,
+                11,
+                6
+              ]
+            ],
+            "date-time": "2015-11-06T15:05:29Z",
+            "timestamp": 1446822329000
+          },
+          "page": "3-36",
+          "source": "Crossref",
+          "is-referenced-by-count": 5,
+          "title": [
+            "Graph-Based Evolutionary Art"
+          ],
+          "prefix": "10.1007",
+          "author": [
+            {
+              "given": "Penousal",
+              "family": "Machado",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "João",
+              "family": "Correia",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Filipe",
+              "family": "Assunção",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            }
+          ],
+          "member": "297",
+          "reference": [
+            {
+              "key": "1_CR1",
+              "unstructured": "E. Baker and M. Seltzer. Evolving line drawings. In Proceedings of the Fifth International Conference on Genetic Algorithms, pages 91–100. Morgan Kaufmann Publishers, 1994."
+            },
+            {
+              "key": "1_CR2",
+              "doi-asserted-by": "crossref",
+              "unstructured": "J. Bird, P. Husbands, M. Perris, B. Bigge, and P. Brown. Implicit fitness functions for evolving a drawing robot. In Applications of Evolutionary Computing, pages 473–478. Springer, 2008.",
+              "DOI": "10.1007/978-3-540-78761-7_50"
+            },
+            {
+              "key": "1_CR3",
+              "unstructured": "J. Bird and D. Stokes. Minimal creativity, evaluation and fractal pattern discrimination. Programme Committee and Reviewers, page 121, 2007."
+            },
+            {
+              "key": "1_CR4",
+              "unstructured": "A. Borrell. CFDG Mutate. http://www.wickedbean.co.uk/cfdg/index.html, last accessed in November 2014."
+            },
+            {
+              "key": "1_CR5",
+              "unstructured": "C. Coyne. Context Free Design Grammar. http://www.chriscoyne.com/cfdg/, last accessed in November 2014."
+            },
+            {
+              "key": "1_CR6",
+              "doi-asserted-by": "crossref",
+              "unstructured": "E. den Heijer and A. E. Eiben. Evolving art with scalable vector graphics. In N. Krasnogor and P. L. Lanzi, editors, GECCO, pages 427–434. ACM, 2011.",
+              "DOI": "10.1145/2001576.2001635"
+            },
+            {
+              "volume-title": "Fractal Image Compression: Theory and Application",
+              "year": "1995",
+              "key": "1_CR7",
+              "unstructured": "Y. Fisher, editor. Fractal Image Compression: Theory and Application. Springer, London, 1995."
+            },
+            {
+              "key": "1_CR8",
+              "unstructured": "D. A. Hart. Toward greater artistic control for interactive evolution of images and animation. In Proceedings of the 2007 EvoWorkshops 2007 on EvoCoMnet, EvoFIN, EvoIASP, EvoINTERACTION, EvoMUSART, EvoSTOC and EvoTransLog, pages 527–536, Berlin, Heidelberg, 2007. Springer-Verlag."
+            },
+            {
+              "key": "1_CR9",
+              "unstructured": "J. Horigan and M. Lentczner. Context Free. http://www.contextfreeart.org/, last accessed in September 2009."
+            },
+            {
+              "key": "1_CR10",
+              "volume-title": "GIF Graphics Interchange Format: A standard defining a mechanism for the storage and transmission of bitmap-based graphics information",
+              "author": "C. Incorporated",
+              "year": "1987",
+              "unstructured": "C. Incorporated. GIF Graphics Interchange Format: A standard defining a mechanism for the storage and transmission of bitmap-based graphics information. Columbus, OH, USA, 1987."
+            },
+            {
+              "key": "1_CR11",
+              "unstructured": "A. Karperien. Fraclac for imagej. In http://rsb.info.nih.gov/ij/plugins/fraclac/FLHelp/Introduction.htm, 1999–2013."
+            },
+            {
+              "issue": "2",
+              "key": "1_CR12",
+              "first-page": "101",
+              "volume": "16",
+              "author": "P. Machado",
+              "year": "2002",
+              "unstructured": "P. Machado and A. Cardoso. All the truth about NEvAr. Applied Intelligence, Special Issue on Creative Systems, 16(2):101–119, 2002.",
+              "journal-title": "Applied Intelligence, Special Issue on Creative Systems"
+            },
+            {
+              "key": "1_CR13",
+              "unstructured": "P. Machado and H. Nunes. A step towards the evolution of visual languages. In First International Conference on Computational Creativity, Lisbon, Portugal, 2010."
+            },
+            {
+              "key": "1_CR14",
+              "doi-asserted-by": "crossref",
+              "unstructured": "P. Machado, H. Nunes, and J. Romero. Graph-based evolution of visual languages. In C. D. Chio, A. Brabazon, G. A. D. Caro, M. Ebner, M. Farooq, A. Fink, J. Grahl, G. Greenfield, P. Machado, M. ONeill, E. Tarantino, and N. Urquhart, editors, Applications of Evolutionary Computation, EvoApplications 2010: EvoCOMNET, EvoENVIRONMENT, EvoFIN, EvoMUSART, and EvoTRANSLOG, Istanbul, Turkey, April 7–9, 2010, Proceedings, Part II, volume 6025 of Lecture Notes in Computer Science, pages 271–280. Springer, 2010.",
+              "DOI": "10.1007/978-3-642-12242-2_28"
+            },
+            {
+              "key": "1_CR15",
+              "doi-asserted-by": "crossref",
+              "unstructured": "P. Machado, J. Romero, A. Cardoso, and A. Santos. Partially interactive evolutionary artists. New Generation Computing – Special Issue on Interactive Evolutionary Computation, 23(42):143–155, 2005.",
+              "DOI": "10.1007/BF03037491"
+            },
+            {
+              "key": "1_CR16",
+              "doi-asserted-by": "crossref",
+              "unstructured": "P. Machado, J. Romero, and B. Manaris. Experiments in computational aesthetics: an iterative approach to stylistic change in evolutionary art. In J. Romero and P. Machado, editors, The Art of Artificial Evolution: A Handbook on Evolutionary Art and Music, pages 381–415. Springer Berlin Heidelberg, 2007.",
+              "DOI": "10.1007/978-3-540-72877-1_18"
+            },
+            {
+              "key": "1_CR17",
+              "doi-asserted-by": "crossref",
+              "unstructured": "J. McCormack. Facing the future: Evolutionary possibilities for human-machine creativity. In J. Romero and P. Machado, editors, The Art of Artificial Evolution: A Handbook on Evolutionary Art and Music, pages 417–451. Springer Berlin Heidelberg, 2007.",
+              "DOI": "10.1007/978-3-540-72877-1_19"
+            },
+            {
+              "issue": "9",
+              "key": "1_CR18",
+              "doi-asserted-by": "publisher",
+              "first-page": "581",
+              "DOI": "10.1177/004051759606600906",
+              "volume": "66",
+              "author": "T. Mori",
+              "year": "1996",
+              "unstructured": "T. Mori, Y. Endou, and A. Nakayama. Fractal analysis and aesthetic evaluation of geometrically overlapping patterns. Textile research journal, 66(9):581–586, 1996.",
+              "journal-title": "Textile research journal"
+            },
+            {
+              "issue": "1",
+              "key": "1_CR19",
+              "doi-asserted-by": "publisher",
+              "first-page": "4",
+              "DOI": "10.1504/IJDE.2010.032820",
+              "volume": "3",
+              "author": "M. O’Neill",
+              "year": "2010",
+              "unstructured": "M. O’Neill, J. McDermott, J. M. Swafford, J. Byrne, E. Hemberg, A. Brabazon, E. Shotton, C. McNally, and M. Hemberg. Evolutionary design using grammatical evolution and shape grammars: Designing a shelter. International Journal of Design Engineering, 3(1):4–24, 2010.",
+              "journal-title": "International Journal of Design Engineering"
+            },
+            {
+              "key": "1_CR20",
+              "doi-asserted-by": "crossref",
+              "unstructured": "M. O’Neill and C. Ryan. Grammatical evolution: evolutionary automatic programming in an arbitrary language, volume 4. Springer, 2003.",
+              "DOI": "10.1007/978-1-4615-0447-4_2"
+            },
+            {
+              "key": "1_CR21",
+              "doi-asserted-by": "crossref",
+              "unstructured": "M. O’Neill, J. M. Swafford, J. McDermott, J. Byrne, A. Brabazon, E. Shotton, C. McNally, and M. Hemberg. Shape grammars and grammatical evolution for evolutionary design. In Proceedings of the 11th Annual Conference on Genetic and Evolutionary Computation, GECCO ’09, pages 1035–1042, New York, NY, USA, 2009. ACM.",
+              "DOI": "10.1145/1569901.1570041"
+            },
+            {
+              "key": "1_CR22",
+              "unstructured": "F. B. Pereira, P. Machado, E. Costa, and A. Cardoso. Graph based crossover – a case study with the busy beaver problem. In Proceedings of the 1999 Genetic and Evolutionary Computation Conference, 1999."
+            },
+            {
+              "key": "1_CR23",
+              "doi-asserted-by": "crossref",
+              "unstructured": "B. J. Ross, W. Ralph, and Z. Hai. Evolutionary image synthesis using a model of aesthetics. In G. G. Yen, S. M. Lucas, G. Fogel, G. Kendall, R. Salomon, B.-T. Zhang, C. A. C. Coello, and T. P. Runarsson, editors, Proceedings of the 2006 IEEE Congress on Evolutionary Computation, pages 1087–1094, Vancouver, BC, Canada, 16–21 July 2006. IEEE Press.",
+              "DOI": "10.1109/CEC.2006.1688430"
+            },
+            {
+              "key": "1_CR24",
+              "doi-asserted-by": "crossref",
+              "unstructured": "R. Saunders and K. Grace. Teaching evolutionary design systems by extending “Context Free”. In EvoWorkshops ’09: Proceedings of the EvoWorkshops 2009 on Applications of Evolutionary Computing, pages 591–596. Springer-Verlag, 2009.",
+              "DOI": "10.1007/978-3-642-01129-0_67"
+            },
+            {
+              "key": "1_CR25",
+              "doi-asserted-by": "publisher",
+              "first-page": "319",
+              "DOI": "10.1145/127719.122752",
+              "volume": "25",
+              "author": "K. Sims",
+              "year": "1991",
+              "unstructured": "K. Sims. Artificial evolution for computer graphics. ACM Computer Graphics, 25:319–328, 1991.",
+              "journal-title": "ACM Computer Graphics"
+            },
+            {
+              "issue": "5",
+              "key": "1_CR26",
+              "doi-asserted-by": "publisher",
+              "first-page": "813",
+              "DOI": "10.1016/S0097-8493(03)00154-7",
+              "volume": "27",
+              "author": "B. Spehar",
+              "year": "2003",
+              "unstructured": "B. Spehar, C. W. G. Clifford, N. Newell, and R. P. Taylor. Universal aesthetic of fractals. Computers and Graphics, 27(5):813–820, Oct. 2003.",
+              "journal-title": "Computers and Graphics"
+            },
+            {
+              "key": "1_CR27",
+              "unstructured": "G. Stiny and J. Gips. Shape grammars and the generative specification of paintings and sculpture. In C. V. Freiman, editor, Information Processing 71, pages 1460–1465, Amsterdam, 1971. North Holland Publishing Co."
+            },
+            {
+              "key": "1_CR28",
+              "doi-asserted-by": "crossref",
+              "unstructured": "T. Unemi. SBART2.4: Breeding 2D CG images and movies, and creating a type of collage. In The Third International Conference on Knowledge-based Intelligent Information Engineering Systems, pages 288–291, Adelaide, Australia, 1999.",
+              "DOI": "10.1109/KES.1999.820180"
+            },
+            {
+              "key": "1_CR29",
+              "doi-asserted-by": "crossref",
+              "unstructured": "L. World. Aesthetic selection: The evolutionary art of Steven Rooke. IEEE Computer Graphics and Applications, 16(1), 1996.",
+              "DOI": "10.1109/MCG.1996.481558"
+            }
+          ],
+          "container-title": [
+            "Handbook of Genetic Programming Applications"
+          ],
+          "language": "en",
+          "link": [
+            {
+              "URL": "https://link.springer.com/content/pdf/10.1007/978-3-319-20883-1_1",
+              "content-type": "unspecified",
+              "content-version": "vor",
+              "intended-application": "similarity-checking"
+            }
+          ],
+          "deposited": {
+            "date-parts": [
+              [
+                2025,
+                5,
+                31
+              ]
+            ],
+            "date-time": "2025-05-31T10:14:00Z",
+            "timestamp": 1748686440000
+          },
+          "score": 28.387596,
+          "resource": {
+            "primary": {
+              "URL": "https://link.springer.com/10.1007/978-3-319-20883-1_1"
+            }
+          },
+          "issued": {
+            "date-parts": [
+              [
+                2015
+              ]
+            ]
+          },
+          "ISBN": [
+            "9783319208824",
+            "9783319208831"
+          ],
+          "references-count": 29,
+          "URL": "https://doi.org/10.1007/978-3-319-20883-1_1",
+          "published": {
+            "date-parts": [
+              [
+                2015
+              ]
+            ]
+          }
+        },
+        {
+          "indexed": {
+            "date-parts": [
+              [
+                2024,
+                5,
+                10
+              ]
+            ],
+            "date-time": "2024-05-10T18:32:23Z",
+            "timestamp": 1715365943643
+          },
+          "reference-count": 0,
+          "publisher": "The MIT Press",
+          "isbn-type": [
+            {
+              "value": "9780262290920",
+              "type": "print"
+            }
+          ],
+          "content-domain": {
+            "domain": [],
+            "crossmark-restriction": false
+          },
+          "published-print": {
+            "date-parts": [
+              [
+                1995
+              ]
+            ]
+          },
+          "DOI": "10.7551/mitpress/2887.003.0059",
+          "type": "book-chapter",
+          "created": {
+            "date-parts": [
+              [
+                2020,
+                1,
+                17
+              ]
+            ],
+            "date-time": "2020-01-17T17:56:20Z",
+            "timestamp": 1579283780000
+          },
+          "source": "Crossref",
+          "is-referenced-by-count": 0,
+          "title": [
+            "Genetic and Inductive Logic Programming"
+          ],
+          "prefix": "10.7551",
+          "member": "281",
+          "container-title": [
+            "Evolutionary Programming IV"
+          ],
+          "language": "en",
+          "deposited": {
+            "date-parts": [
+              [
+                2020,
+                1,
+                17
+              ]
+            ],
+            "date-time": "2020-01-17T18:05:07Z",
+            "timestamp": 1579284307000
+          },
+          "score": 28.201416,
+          "resource": {
+            "primary": {
+              "URL": "https://direct.mit.edu/books/book/4503/chapter/192916"
+            }
+          },
+          "issued": {
+            "date-parts": [
+              [
+                1995
+              ]
+            ]
+          },
+          "ISBN": [
+            "9780262290920"
+          ],
+          "references-count": 0,
+          "URL": "https://doi.org/10.7551/mitpress/2887.003.0059",
+          "published": {
+            "date-parts": [
+              [
+                1995
+              ]
+            ]
+          }
+        }
+      ],
+      "items-per-page": 3,
+      "query": {
+        "start-index": 0,
+        "search-terms": null
+      }
+    }
+  }
+}

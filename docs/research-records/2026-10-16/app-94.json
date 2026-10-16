@@ -1,0 +1,2142 @@
+{
+  "retrieved": "2026-10-16",
+  "url": "https://api.crossref.org/works?query.bibliographic=tutorial+formulating+using+QUBO+models&rows=3&filter=until-pub-date%3A2026-10-16",
+  "response": {
+    "status": "ok",
+    "message-type": "work-list",
+    "message-version": "1.0.0",
+    "message": {
+      "facets": {},
+      "total-results": 6232608,
+      "items": [
+        {
+          "indexed": {
+            "date-parts": [
+              [
+                2026,
+                10,
+                16
+              ]
+            ],
+            "date-time": "2026-10-16T06:44:34Z",
+            "timestamp": 1792133074861,
+            "version": "4.4.0"
+          },
+          "reference-count": 78,
+          "publisher": "Springer Science and Business Media LLC",
+          "issue": "4",
+          "license": [
+            {
+              "start": {
+                "date-parts": [
+                  [
+                    2019,
+                    11,
+                    26
+                  ]
+                ],
+                "date-time": "2019-11-26T00:00:00Z",
+                "timestamp": 1574726400000
+              },
+              "content-version": "tdm",
+              "delay-in-days": 0,
+              "URL": "http://www.springer.com/tdm"
+            },
+            {
+              "start": {
+                "date-parts": [
+                  [
+                    2019,
+                    11,
+                    26
+                  ]
+                ],
+                "date-time": "2019-11-26T00:00:00Z",
+                "timestamp": 1574726400000
+              },
+              "content-version": "vor",
+              "delay-in-days": 0,
+              "URL": "http://www.springer.com/tdm"
+            }
+          ],
+          "content-domain": {
+            "domain": [
+              "link.springer.com"
+            ],
+            "crossmark-restriction": false
+          },
+          "short-container-title": [
+            "4OR-Q J Oper Res"
+          ],
+          "published-print": {
+            "date-parts": [
+              [
+                2019,
+                12
+              ]
+            ]
+          },
+          "DOI": "10.1007/s10288-019-00424-y",
+          "type": "journal-article",
+          "created": {
+            "date-parts": [
+              [
+                2019,
+                11,
+                26
+              ]
+            ],
+            "date-time": "2019-11-26T06:03:08Z",
+            "timestamp": 1574748188000
+          },
+          "page": "335-371",
+          "update-policy": "https://doi.org/10.1007/springer_crossmark_policy",
+          "source": "Crossref",
+          "is-referenced-by-count": 269,
+          "title": [
+            "Quantum Bridge Analytics I: a tutorial on formulating and using QUBO models"
+          ],
+          "prefix": "10.1007",
+          "volume": "17",
+          "author": [
+            {
+              "ORCID": "https://orcid.org/0000-0001-6945-0438",
+              "authenticated-orcid": false,
+              "given": "Fred",
+              "family": "Glover",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Gary",
+              "family": "Kochenberger",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Yu",
+              "family": "Du",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            }
+          ],
+          "member": "297",
+          "published-online": {
+            "date-parts": [
+              [
+                2019,
+                11,
+                26
+              ]
+            ]
+          },
+          "reference": [
+            {
+              "issue": "5",
+              "key": "424_CR1",
+              "doi-asserted-by": "publisher",
+              "first-page": "23",
+              "DOI": "10.1145/1411509.1411513",
+              "volume": "55",
+              "author": "N Ailon",
+              "year": "2008",
+              "unstructured": "Ailon N, Charikar M, Newman A (2008) Aggregating inconsistent information: ranking and clustering. J ACM (JACM) 55(5):23",
+              "journal-title": "J ACM (JACM)"
+            },
+            {
+              "key": "424_CR2",
+              "unstructured": "Aimone JB, Hamilton KE, Mniszewsk S, Reeder L, Schuman CD, Severa WM (2018) Non-neural network applications for spiking neuromorphic hardware. In: PMES workshop"
+            },
+            {
+              "key": "424_CR3",
+              "doi-asserted-by": "crossref",
+              "unstructured": "Albash T, Lidar DA (2015) Decoherence in adiabatic quantum computation. Phys Rev A 91: 062320. arXiv:1503.08767v2",
+              "DOI": "10.1103/PhysRevA.91.062320"
+            },
+            {
+              "key": "424_CR4",
+              "doi-asserted-by": "crossref",
+              "unstructured": "Albash T, Hen I, Spedalieri FM, Lidar DA (2015) Reexamination of the evidence for entanglement in the D-Wave processor. Phys Rev A 92:62328. arXiv:1506.03539v2",
+              "DOI": "10.1103/PhysRevA.92.062328"
+            },
+            {
+              "issue": "2",
+              "key": "424_CR5",
+              "first-page": "135",
+              "volume": "9",
+              "author": "B Aliadee",
+              "year": "2005",
+              "unstructured": "Aliadee B, Glover F, Kochenberger G, Rego C (2005) A new modeling and solution approach for the number partitioning problem. Appl Math Decis Sci 9(2):135–145",
+              "journal-title": "Appl Math Decis Sci"
+            },
+            {
+              "issue": "2",
+              "key": "424_CR6",
+              "doi-asserted-by": "publisher",
+              "first-page": "504",
+              "DOI": "10.1016/j.ejor.2006.12.068",
+              "volume": "186",
+              "author": "B Alidaee",
+              "year": "2008",
+              "unstructured": "Alidaee B, Kochenberger G, Lewis K, Lewis M, Wang H (2008) A new approach for modeling and solving set packing problems. Eur J Oper Res 186(2):504–512",
+              "journal-title": "Eur J Oper Res"
+            },
+            {
+              "issue": "4",
+              "key": "424_CR7",
+              "doi-asserted-by": "publisher",
+              "first-page": "046112",
+              "DOI": "10.1103/PhysRevE.82.046112",
+              "volume": "82",
+              "author": "D Aloise",
+              "year": "2010",
+              "unstructured": "Aloise D, Cafieri S, Caporossi G, Hansen P, Perron S, Liberti L (2010) Column generation algorithms for exact modularity maximization in networks. Phys Rev E 82(4):046112",
+              "journal-title": "Phys Rev E"
+            },
+            {
+              "key": "424_CR8",
+              "doi-asserted-by": "publisher",
+              "unstructured": "Alom MZ, Van Essen B, Moody AT, Widemann DP, Taha TM (2017) Quadratic unconstrained binary optimization (QUBO) on neuromorphic computing system. In: IEEE 2017 international joint conference on neural networks (IJCNN). https://doi.org/10.1109/ijcnn.2017.7966350",
+              "DOI": "10.1109/ijcnn.2017.7966350"
+            },
+            {
+              "key": "424_CR9",
+              "unstructured": "Alpha-QUBO (2019). http://meta-analytics.net/Home/AlphaQUBO"
+            },
+            {
+              "key": "424_CR10",
+              "doi-asserted-by": "crossref",
+              "unstructured": "Amin MHS, Truncik CJS, Averin DV (2008) Role of single qubit decoherence time in adiabatic quantum computation. Phys Rev A 80: 022303. arXiv:0803.1196v2",
+              "DOI": "10.1103/PhysRevA.80.022303"
+            },
+            {
+              "issue": "1–2",
+              "key": "424_CR11",
+              "doi-asserted-by": "publisher",
+              "first-page": "115",
+              "DOI": "10.1007/s10107-016-1032-4",
+              "volume": "162",
+              "author": "M Anthony",
+              "year": "2017",
+              "unstructured": "Anthony M, Boros E, Crama Y, Gruber A (2017) Quadratic reformulations of nonlinear binary optimization problems. Math Program 162(1–2):115–144",
+              "journal-title": "Math Program"
+            },
+            {
+              "key": "424_CR12",
+              "doi-asserted-by": "publisher",
+              "first-page": "48",
+              "DOI": "10.3389/fphy.2019.00048",
+              "volume": "7",
+              "author": "M Aramon",
+              "year": "2019",
+              "unstructured": "Aramon M, Rosenberger G, Valiante E, Miyazawa T, Tamura H, Katzgraber HG (2019) Physics-inspired optimization for quadratic unconstrained problems using a digital annealer. Front Phys 7:48",
+              "journal-title": "Front Phys"
+            },
+            {
+              "key": "424_CR13",
+              "unstructured": "Berwald JJ, Gottlieb JM, Munch E (2018) Computing Wasserstein distance for persistence diagrams on a quantum computer. arXiv:1809.06433"
+            },
+            {
+              "key": "424_CR14",
+              "doi-asserted-by": "publisher",
+              "first-page": "218",
+              "DOI": "10.1038/nphys2900",
+              "volume": "10",
+              "author": "S Boixo",
+              "year": "2014",
+              "unstructured": "Boixo S, Rønnow TF, Isakov SV, Wang Z, Wecker D, Lidar DA, Martinis JM, Troyer M (2014) Evidence for quantum annealing with more than one hundred qubits. Nat Phys 10:218–224",
+              "journal-title": "Nat Phys"
+            },
+            {
+              "issue": "3",
+              "key": "424_CR15",
+              "doi-asserted-by": "publisher",
+              "first-page": "151",
+              "DOI": "10.1007/BF02115753",
+              "volume": "33",
+              "author": "E Boros",
+              "year": "1991",
+              "unstructured": "Boros E, Hammer P (1991) The max-cut problem and quadratic 0–1 optimization: polyhedral aspects, relaxations and bounds. Ann Oper Res 33(3):151–180",
+              "journal-title": "Ann Oper Res"
+            },
+            {
+              "issue": "1",
+              "key": "424_CR16",
+              "doi-asserted-by": "publisher",
+              "first-page": "155",
+              "DOI": "10.1016/S0166-218X(01)00341-9",
+              "volume": "123",
+              "author": "E Boros",
+              "year": "2002",
+              "unstructured": "Boros E, Hammer P (2002) Pseudo-boolean optimization. Discrete Appl Math 123(1):155–225",
+              "journal-title": "Discrete Appl Math"
+            },
+            {
+              "issue": "2",
+              "key": "424_CR17",
+              "doi-asserted-by": "publisher",
+              "first-page": "501",
+              "DOI": "10.1016/j.disopt.2007.02.001",
+              "volume": "5",
+              "author": "E Boros",
+              "year": "2008",
+              "unstructured": "Boros E, Hammer PL, Sun R, Tavares G (2008) A max-flow approach to improved lower bounds for quadratic unconstrained binary optimization (QUBO). Discrete Optim 5(2):501–529",
+              "journal-title": "Discrete Optim"
+            },
+            {
+              "key": "424_CR18",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1007/s11265-018-1357-8",
+              "author": "G Chapuis",
+              "year": "2018",
+              "unstructured": "Chapuis G, Djidjev H, Hahn G, Rizk G (2018) Finding maximum cliques on the D-wave quantum annealer. J Signal Process Syst. https://doi.org/10.1007/s11265-018-1357-8",
+              "journal-title": "J Signal Process Syst"
+            },
+            {
+              "key": "424_CR19",
+              "doi-asserted-by": "crossref",
+              "unstructured": "Clark J, West T, Zammit J, Guo X, Mason L, Russell D (2019) Towards real time multi-robot routing using quantum computing technologies. In: HPC Asia 2019 proceedings of the international conference on high performance computing in Asia-Pacific region, pp 111–119",
+              "DOI": "10.1145/3293320.3293333"
+            },
+            {
+              "key": "424_CR20",
+              "doi-asserted-by": "publisher",
+              "first-page": "117",
+              "DOI": "10.1007/s11128-019-2236-3",
+              "volume": "18",
+              "author": "P Date",
+              "year": "2019",
+              "unstructured": "Date P, Patton R, Schuman C, Potok T (2019) Efficiently embedding QUBO problems on adiabatic quantum computers. Quantum Inf Process 18:117. https://doi.org/10.1007/s11128-019-2236-3",
+              "journal-title": "Quantum Inf Process"
+            },
+            {
+              "issue": "3",
+              "key": "424_CR21",
+              "first-page": "24",
+              "volume": "5",
+              "author": "EP Debenedictis",
+              "year": "2019",
+              "unstructured": "Debenedictis EP (2019) A future with quantum machine learning. IEEE Comput Edge 5(3):24–27",
+              "journal-title": "IEEE Comput Edge"
+            },
+            {
+              "key": "424_CR22",
+              "unstructured": "Elsokkary N, Khan FS, Humble TS, Torre DL, Gottlieb J (2017) Financial portfolio management using D-wave, quantum optimizer: the case of abu dhabi securities exchange. In: 2017 IEEE high-performance extreme computing (HPEC)"
+            },
+            {
+              "key": "424_CR23",
+              "unstructured": "Farhi E, Goldstone J (2014) A quantum approximate optimization algorithm. arXiv:1411.4028"
+            },
+            {
+              "key": "424_CR24",
+              "unstructured": "Feld S, Roch C, Gabor T, Seidel C, Neukart F, Galter I, Mauerer W, Linnhoff-Popien C (2018) A hybrid solution method for the capacitated vehicle routing problem using a quantum annealer. arXiv:1811.07403"
+            },
+            {
+              "key": "424_CR25",
+              "first-page": "1",
+              "volume-title": "Interfaces in computer science and operations research",
+              "author": "F Glover",
+              "year": "1996",
+              "unstructured": "Glover F (1996) Tabu search and adaptive memory programming–advances, applications and challenges. In: Barr RS, Helgason RV, Kennington JL (eds) Interfaces in computer science and operations research. Kluwer Academic Publishers, Springer, pp 1–75"
+            },
+            {
+              "key": "424_CR26",
+              "unstructured": "Glover F (1997) A template for scatter search and path relinking, in artificial evolution. In: Hao JK, Lutton E, Ronald E, Schoenauer M, Snyers D (eds) Lecture notes in computer science, vol 1363. Springer, pp 13–54"
+            },
+            {
+              "key": "424_CR27",
+              "unstructured": "Glover F, Kochenberger G (2019) Quantum bridge analytics & QUBO 2.0. In: Quantum insight conference 2019, invited presentation 10/04/19, LHOFT—Luxembourg House of Financial Technology, 9, rue du Laboratoire, Luxembourg"
+            },
+            {
+              "key": "424_CR28",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1007/978-1-4615-6089-0",
+              "volume-title": "Tabu search",
+              "author": "F Glover",
+              "year": "1997",
+              "unstructured": "Glover F, Laguna M (1997) Tabu search. Kluwer Academic Publishers, Boston"
+            },
+            {
+              "key": "424_CR29",
+              "doi-asserted-by": "publisher",
+              "first-page": "212",
+              "DOI": "10.1007/978-1-4757-2876-7_10",
+              "volume-title": "Industrial applications of combinatorial optimization",
+              "author": "F Glover",
+              "year": "1998",
+              "unstructured": "Glover F, Mulvey J, Bai D, Tapia M (1998) Integrative population analysis for better solutions to large-scale mathematical programs. In: Yu G (ed) Industrial applications of combinatorial optimization. Kluwer Academic Publishers, Boston, pp 212–237"
+            },
+            {
+              "key": "424_CR30",
+              "first-page": "272",
+              "volume-title": "Combinatorial and global optimization",
+              "author": "F Glover",
+              "year": "2002",
+              "unstructured": "Glover F, Kochenberger G, Alidaee B, Amini M (2002) Solving quadratic knapsack problems by reformulation and tabu search. In: Pardalos PM, Megados A, Burkard R (eds) Combinatorial and global optimization. World Scientific Publishing Co., Singapore, pp 272–287"
+            },
+            {
+              "key": "424_CR31",
+              "unstructured": "Glover F, Kochenberger G, Wang Y (2018a) A new QUBO model for unsupervised machine learning. Res Prog (work in progress)"
+            },
+            {
+              "issue": "2018",
+              "key": "424_CR32",
+              "doi-asserted-by": "publisher",
+              "first-page": "829",
+              "DOI": "10.1016/j.ejor.2017.08.025",
+              "volume": "265",
+              "author": "F Glover",
+              "year": "2018",
+              "unstructured": "Glover F, Lewis M, Kochenberger G (2018b) Logical and inequality implications for reducing the size and difficulty of unconstrained binary optimization problems. Eur J Oper Res 265(2018):829–842",
+              "journal-title": "Eur J Oper Res"
+            },
+            {
+              "key": "424_CR33",
+              "doi-asserted-by": "publisher",
+              "unstructured": "Hahn G, Djidjev H (2017) Reducing binary quadratic forms for more scalable quantum annealing. In: 2017 IEEE international conference on rebooting computing. https://doi.org/10.1109/ICRC.2017.8123654",
+              "DOI": "10.1109/ICRC.2017.8123654"
+            },
+            {
+              "key": "424_CR34",
+              "doi-asserted-by": "publisher",
+              "unstructured": "Hamilton K, Schuman CD, Young SR, Imam N, Humble TS (2018) Neural networks and graph alogrithms with next-generation processors. In: 2018 IEEE international parallel and distributed processing symposium workshops (IPDPSW). https://doi.org/10.1109/IPDPSW.2018.00184",
+              "DOI": "10.1109/IPDPSW.2018.00184"
+            },
+            {
+              "issue": "2",
+              "key": "424_CR35",
+              "doi-asserted-by": "publisher",
+              "first-page": "70",
+              "DOI": "10.1145/2076450.2076469",
+              "volume": "55",
+              "author": "HH Hoos",
+              "year": "2012",
+              "unstructured": "Hoos HH (2012) Programming by optimization. Commun ACM 55(2):70–80",
+              "journal-title": "Commun ACM"
+            },
+            {
+              "key": "424_CR36",
+              "doi-asserted-by": "crossref",
+              "unstructured": "Kalra A, Qureshi F, Tisi M (2018) Portfolio asset identification using graph algorithms on a quantum annealer. http://www.henryyuen.net/fall2018/projects/qfinance.pdf",
+              "DOI": "10.2139/ssrn.3333537"
+            },
+            {
+              "key": "424_CR37",
+              "unstructured": "Kerberos (2019) The network authentication protocol. https://web.mit.edu/kerberos/"
+            },
+            {
+              "key": "424_CR38",
+              "doi-asserted-by": "publisher",
+              "first-page": "101",
+              "DOI": "10.1007/0-387-29550-X_4",
+              "volume-title": "Multiscale optimization methods and applications",
+              "author": "G Kochenberger",
+              "year": "2006",
+              "unstructured": "Kochenberger G, Glover F (2006) A unified framework for modeling and solving combinatorial optimization problems: a tutorial. In: Hager W, Huang SJ, Pardalos P, Prokopyev O (eds) Multiscale optimization methods and applications. Springer, Berlin, pp 101–124"
+            },
+            {
+              "issue": "1",
+              "key": "424_CR39",
+              "first-page": "89",
+              "volume": "1",
+              "author": "G Kochenberger",
+              "year": "2005",
+              "unstructured": "Kochenberger G, Glover F, Alidaee B, Lewis K (2005a) Using the unconstrained quadratic program to model and solve Max 2-Sat problems. Int J OR 1(1):89–100",
+              "journal-title": "Int J OR"
+            },
+            {
+              "issue": "1–4",
+              "key": "424_CR40",
+              "doi-asserted-by": "publisher",
+              "first-page": "229",
+              "DOI": "10.1007/s10479-005-3449-7",
+              "volume": "139",
+              "author": "G Kochenberger",
+              "year": "2005",
+              "unstructured": "Kochenberger G, Glover F, Alidaee B, Rego C (2005b) An unconstrained quadratic binary programming approach to the vertex coloring problem. Ann OR 139(1–4):229–241",
+              "journal-title": "Ann OR"
+            },
+            {
+              "issue": "4",
+              "key": "424_CR41",
+              "doi-asserted-by": "publisher",
+              "first-page": "565",
+              "DOI": "10.1007/s10732-011-9189-8",
+              "volume": "19",
+              "author": "G Kochenberger",
+              "year": "2013",
+              "unstructured": "Kochenberger G, Hao J-K, Lu S, Wang H, Glover F (2013) Solving large scale max cut problems via tabu search. J Heuristics 19(4):565–571",
+              "journal-title": "J Heuristics"
+            },
+            {
+              "issue": "1",
+              "key": "424_CR42",
+              "doi-asserted-by": "publisher",
+              "first-page": "58",
+              "DOI": "10.1007/s10878-014-9734-0",
+              "volume": "28",
+              "author": "G Kochenberger",
+              "year": "2014",
+              "unstructured": "Kochenberger G, Hao J-K, Glover F, Lewis M, Lu Z, Wang H, Wang Y (2014) The unconstrained binary quadratic programming problem: a survey. J Comb Optim 28(1):58–81",
+              "journal-title": "J Comb Optim"
+            },
+            {
+              "key": "424_CR43",
+              "unstructured": "Kochenberger G, Badgett A, Chawla R, Glover F, Wang Y, Du Y (2019) Comparison of QAOA and alpha QUBO algorithms (work in progress)"
+            },
+            {
+              "key": "424_CR44",
+              "doi-asserted-by": "crossref",
+              "unstructured": "Lanting AJ, Przybysz A, Smirnov Y, Spedalieri FM, Amin MH, Berkley AJ, Harris R, Altomare F, Boixo S, Bunyk P, Dickson N, Enderud C, Hilton JP, Hoskinson E, Johnson MW, Ladizinsky E, Ladizinsky N, Neufeld R, Oh T, Perminov I, Rich C, Thom MC, Tolkacheva E, Uchaikin S, Wilson AB, Rose G (2014) Entanglement in a quantum annealing processor. Phys Rev X 4:021041. arXiv:1401.3500v1",
+              "DOI": "10.1103/PhysRevX.4.021041"
+            },
+            {
+              "issue": "3",
+              "key": "424_CR45",
+              "doi-asserted-by": "publisher",
+              "first-page": "807",
+              "DOI": "10.1016/j.cor.2006.04.002",
+              "volume": "35",
+              "author": "M Lewis",
+              "year": "2008",
+              "unstructured": "Lewis M (2008) A new modeling and solution approach for the set partitioning problem. Comput OR 35(3):807–813",
+              "journal-title": "Comput OR"
+            },
+            {
+              "key": "424_CR46",
+              "doi-asserted-by": "crossref",
+              "unstructured": "Lucas A (2014) Ising formulations of many NP problems. Front Phys 5:2. arXiv:1302.5843",
+              "DOI": "10.3389/fphy.2014.00005"
+            },
+            {
+              "key": "424_CR47",
+              "doi-asserted-by": "crossref",
+              "unstructured": "Mniszewski S, Negre C, Ushijima-Mwesigwa H (2016) Graph partitioning using the D-wave for electronic structure problems. LA-UR-16-27873, pp 1–21",
+              "DOI": "10.2172/1330055"
+            },
+            {
+              "key": "424_CR48",
+              "unstructured": "Mniszewski SM, Negre CFA, Ushijima-Mwesigwa (2018) Graph clustering approaches using near term quantum computing. In: Argonne quantum computing workshop"
+            },
+            {
+              "key": "424_CR49",
+              "unstructured": "Negre CFA, Ushijima-Mwesigwa H, Mniszewsk SM (2019) Detecting multiple communities using quantum annealing on the D-wave system. arXiv:1901.09756"
+            },
+            {
+              "key": "424_CR50",
+              "doi-asserted-by": "crossref",
+              "unstructured": "Neukart F, Compostella G, Seidel C, Dollen D, Yarkoni S, Parney B (2017) Traffic flow optimization using a quantum annealer. arXiv:1708.01625",
+              "DOI": "10.3389/fict.2017.00029"
+            },
+            {
+              "key": "424_CR51",
+              "unstructured": "Ohzeki M, Miki A, Miyama MJ, Terabe M (2018) Control of automated guided vehicles without collision by quantum annealer and digital devices. arXiv:1812.01532"
+            },
+            {
+              "issue": "8",
+              "key": "424_CR52",
+              "doi-asserted-by": "publisher",
+              "first-page": "1840007",
+              "DOI": "10.1142/S0219749918400075",
+              "volume": "16",
+              "author": "NMD Oliveira",
+              "year": "2018",
+              "unstructured": "Oliveira NMD, Silva RMDA, Oliveira WRD (2018) QUBO formulation for the contact map overlap problem. Int J Quantum Inf 16(8):1840007",
+              "journal-title": "Int J Quantum Inf"
+            },
+            {
+              "issue": "12",
+              "key": "424_CR53",
+              "doi-asserted-by": "publisher",
+              "first-page": "e0206653",
+              "DOI": "10.1371/journal.pone.0206653",
+              "volume": "13",
+              "author": "D O’Malley",
+              "year": "2018",
+              "unstructured": "O’Malley D, Vesselinov VV, Alexandrov BS, Alexandrov LB (2018) Nonnegative/binary matrix factorization with a D-Wave quantum annealer. PLoS ONE 13(12):e0206653. https://doi.org/10.1371/journal.pone.0206653",
+              "journal-title": "PLoS ONE"
+            },
+            {
+              "key": "424_CR54",
+              "doi-asserted-by": "crossref",
+              "unstructured": "Pakin S (2017) Navigating a maze using a quantum annealer. In: Proceedings of the second international workshop on post Moores era supercomputing, pp 30–36",
+              "DOI": "10.1145/3149526.3149532"
+            },
+            {
+              "key": "424_CR55",
+              "unstructured": "Pakin S (2018) QMASM–quantum macro assembler. https://ccsweb.lanl.gov/~pakin/software/; https://github.com/lanl/qmasm"
+            },
+            {
+              "issue": "3",
+              "key": "424_CR56",
+              "doi-asserted-by": "publisher",
+              "first-page": "301",
+              "DOI": "10.1007/BF01098364",
+              "volume": "4",
+              "author": "P Pardalos",
+              "year": "1999",
+              "unstructured": "Pardalos P, Xue J (1999) The maximum clique problem. J Glob Optim 4(3):301–328",
+              "journal-title": "J Glob Optim"
+            },
+            {
+              "key": "424_CR57",
+              "doi-asserted-by": "publisher",
+              "first-page": "123",
+              "DOI": "10.1007/978-3-030-14082-3_11",
+              "volume-title": "Quantum Technology and Optimization Problems",
+              "author": "Elijah Pelofske",
+              "year": "2019",
+              "unstructured": "Pelofske E, Hahn G, Djidjev H (2019) Solving large Maximum Clique problems on a quantum annealer. arXiv:1901.07657"
+            },
+            {
+              "key": "424_CR58",
+              "unstructured": "Preskill J (2019) Why i called it “quantum supremacy, quanta magazine. https://www.quantamagazine.org/john-preskill-explains-quantum-supremacy-20191002/"
+            },
+            {
+              "issue": "5",
+              "key": "424_CR59",
+              "doi-asserted-by": "publisher",
+              "first-page": "2027",
+              "DOI": "10.1007/s11128-012-0506-4",
+              "volume": "12",
+              "author": "KL Pudenz",
+              "year": "2013",
+              "unstructured": "Pudenz KL, Lidar DA (2013) Quantum adiabatic machine learning. Quantum Inf Process 12(5):2027–2070",
+              "journal-title": "Quantum Inf Process"
+            },
+            {
+              "key": "424_CR60",
+              "unstructured": "Qbsolv (2017) D-Wave initiates open quantum software environment. www.dwavesys.com/press-releases/d-wave-initiates-open-quantum-software-environment"
+            },
+            {
+              "key": "424_CR61",
+              "unstructured": "Reedy C (2017) When will quantum computers be consumer products? Futurism. https://futurism.com/when-will-quantum-computers-be-consumer-products"
+            },
+            {
+              "key": "424_CR62",
+              "unstructured": "Reinhardt S (2018) Detecting lateral movement with a compute-intense graph kernel. http://www.clsac.org/uploads/5/0/6/3/50633811/reinhardt-clsac-2018.pdf"
+            },
+            {
+              "key": "424_CR63",
+              "doi-asserted-by": "crossref",
+              "unstructured": "Rodriguez-Heck E (2018) Linear ad quadratic reformulations of nonlinear optimization problems in binary variables. Ph.D. Dissertation, Liege University",
+              "DOI": "10.1007/s10288-018-0392-4"
+            },
+            {
+              "key": "424_CR64",
+              "first-page": "71",
+              "volume": "17",
+              "author": "I Rosenberg",
+              "year": "1975",
+              "unstructured": "Rosenberg I (1975) Reduction of bivalent maximization to the quadratic case. Cahiers du Centre d’Etudes de Recherche Operationnelle 17:71–74",
+              "journal-title": "Cahiers du Centre d’Etudes de Recherche Operationnelle"
+            },
+            {
+              "key": "424_CR65",
+              "unstructured": "Sahner D (2018) A potential role for quantum annealing in the enhancement of patient outcomes?. https://www.dwavesys.com/sites/default/files/Sahner.2018.pdf"
+            },
+            {
+              "issue": "4–5",
+              "key": "424_CR66",
+              "doi-asserted-by": "publisher",
+              "first-page": "629",
+              "DOI": "10.1007/s10732-018-9403-z",
+              "volume": "25",
+              "author": "M Samorani",
+              "year": "2019",
+              "unstructured": "Samorani M, Wang Y, Wang Y, Lv Z, Glover F (2019) Clustering-Driven evolutionary algorithms: an application of path relinking to the quadratic unconstrained binary optimization problem. J Heuristics 25(4–5):629–642",
+              "journal-title": "J Heuristics"
+            },
+            {
+              "issue": "7087",
+              "key": "424_CR67",
+              "doi-asserted-by": "publisher",
+              "first-page": "1007",
+              "DOI": "10.1038/nature04701",
+              "volume": "440",
+              "author": "E Schneidman",
+              "year": "2006",
+              "unstructured": "Schneidman E, Berry MJ, Segev R, Bialek W (2006) Weak pairwise correlations imply strongly correlated network states in a neural population. Nature 440(7087):1007–1012",
+              "journal-title": "Nature"
+            },
+            {
+              "key": "424_CR68",
+              "unstructured": "Shaydulin R, Ushijima-Mwesigwa H, Safro I, Mniszewski S, Alexeev Y (2018) Community detection across emerging quantum architectures. In: PMES workshop"
+            },
+            {
+              "key": "424_CR69",
+              "unstructured": "The National Academies of Sciences, Engineering and Medicine Consensus Study Report (2019) Quantum computing: progress and prospects. https://www.nap.edu/catalog/25196/quantum-computing-progress-and-prospects"
+            },
+            {
+              "key": "424_CR70",
+              "doi-asserted-by": "crossref",
+              "unstructured": "Ushijima-Mwesigwa H, Negre CFA, Mniszewsk SM (2017) Graph partitioning using quantum annealing on the D-wave system. arXiv:1705.03082",
+              "DOI": "10.1145/3149526.3149531"
+            },
+            {
+              "key": "424_CR71",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1007/s11590-019-01460-7",
+              "author": "A Verma",
+              "year": "2019",
+              "unstructured": "Verma A, Lewis M (2019) Optimal quadratic reformulations of fourth degree Pseudo-Boolean functions. Optim Lett. https://doi.org/10.1007/s11590-019-01460-7",
+              "journal-title": "Optim Lett"
+            },
+            {
+              "key": "424_CR72",
+              "doi-asserted-by": "crossref",
+              "unstructured": "Vyskocil T, Pakin S, Djidjev HN (2019) Embedding inequality constraints for quantum annealling optimization, quantum technology and optimization problems. QTOP 2019. Lecture notes in computer science, vol 11413. Springer",
+              "DOI": "10.1007/978-3-030-14082-3_2"
+            },
+            {
+              "key": "424_CR73",
+              "unstructured": "Wang Q, Abdullah T (2018) An introduction to quantum optimization approximation algorithm. https://www.cs.umd.edu/class/fall2018/cmsc657/projects/group_16.pdf"
+            },
+            {
+              "issue": "3",
+              "key": "424_CR74",
+              "doi-asserted-by": "publisher",
+              "first-page": "595",
+              "DOI": "10.1016/j.ejor.2012.07.012",
+              "volume": "223",
+              "author": "Y Wang",
+              "year": "2012",
+              "unstructured": "Wang Y, Lu Z, Glover F, Hao J-K (2012) Path relinking for unconstrained binary quadratic programming. Eur J Oper Res 223(3):595–604",
+              "journal-title": "Eur J Oper Res"
+            },
+            {
+              "issue": "4",
+              "key": "424_CR75",
+              "doi-asserted-by": "publisher",
+              "first-page": "679",
+              "DOI": "10.1007/s10732-011-9164-4",
+              "volume": "19",
+              "author": "Y Wang",
+              "year": "2013",
+              "unstructured": "Wang Y, Lu Z, Glover F, Hao J-K (2013) Backbone guided tabu search for solving the UBQP problem. J Heuristics 19(4):679–695",
+              "journal-title": "J Heuristics"
+            },
+            {
+              "key": "424_CR76",
+              "unstructured": "Wang H, Wang Y, Resende M, Kochenberger G (2016) A QUBO approach to solving QAP problems (unpublished manuscript)"
+            },
+            {
+              "issue": "11",
+              "key": "424_CR77",
+              "doi-asserted-by": "publisher",
+              "first-page": "110303",
+              "DOI": "10.1088/0256-307X/35/11/110303",
+              "volume": "35",
+              "author": "Hongye Yu",
+              "year": "2018",
+              "unstructured": "Yu H, Huang Y, Wu B (2018) Exact equivalence between quantum adiabatic algorithm and quantum circuit algorithm. arXiv: 1706.07646v3 [quant-ph], https://doi.org/10.1088/0256-307X/35/11/110303",
+              "journal-title": "Chinese Physics Letters"
+            },
+            {
+              "key": "424_CR78",
+              "unstructured": "Zhou L, Wang S, Choi S, Pichler H, Lukin MD (2018) Quantum approximate optimization algorithm: performance, mechanism, and implementation on near-term devices. arXiv:1812.01041"
+            }
+          ],
+          "container-title": [
+            "4OR"
+          ],
+          "language": "en",
+          "link": [
+            {
+              "URL": "http://link.springer.com/content/pdf/10.1007/s10288-019-00424-y.pdf",
+              "content-type": "application/pdf",
+              "content-version": "vor",
+              "intended-application": "text-mining"
+            },
+            {
+              "URL": "http://link.springer.com/article/10.1007/s10288-019-00424-y/fulltext.html",
+              "content-type": "text/html",
+              "content-version": "vor",
+              "intended-application": "text-mining"
+            },
+            {
+              "URL": "http://link.springer.com/content/pdf/10.1007/s10288-019-00424-y.pdf",
+              "content-type": "application/pdf",
+              "content-version": "vor",
+              "intended-application": "similarity-checking"
+            }
+          ],
+          "deposited": {
+            "date-parts": [
+              [
+                2020,
+                11,
+                24
+              ]
+            ],
+            "date-time": "2020-11-24T19:28:50Z",
+            "timestamp": 1606246130000
+          },
+          "score": 40.088867,
+          "resource": {
+            "primary": {
+              "URL": "http://link.springer.com/10.1007/s10288-019-00424-y"
+            }
+          },
+          "issued": {
+            "date-parts": [
+              [
+                2019,
+                11,
+                26
+              ]
+            ]
+          },
+          "references-count": 78,
+          "journal-issue": {
+            "issue": "4",
+            "published-print": {
+              "date-parts": [
+                [
+                  2019,
+                  12
+                ]
+              ]
+            }
+          },
+          "alternative-id": [
+            "424"
+          ],
+          "URL": "https://doi.org/10.1007/s10288-019-00424-y",
+          "ISSN": [
+            "1619-4500",
+            "1614-2411"
+          ],
+          "issn-type": [
+            {
+              "value": "1619-4500",
+              "type": "print"
+            },
+            {
+              "value": "1614-2411",
+              "type": "electronic"
+            }
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2019,
+                11,
+                26
+              ]
+            ]
+          },
+          "assertion": [
+            {
+              "value": "2 November 2019",
+              "order": 1,
+              "name": "received",
+              "label": "Received",
+              "group": {
+                "name": "ArticleHistory",
+                "label": "Article History"
+              }
+            },
+            {
+              "value": "14 November 2019",
+              "order": 2,
+              "name": "revised",
+              "label": "Revised",
+              "group": {
+                "name": "ArticleHistory",
+                "label": "Article History"
+              }
+            },
+            {
+              "value": "26 November 2019",
+              "order": 3,
+              "name": "first_online",
+              "label": "First Online",
+              "group": {
+                "name": "ArticleHistory",
+                "label": "Article History"
+              }
+            },
+            {
+              "value": "The authors declare that they have no conflict of interest.",
+              "order": 1,
+              "name": "Ethics",
+              "group": {
+                "name": "EthicsHeading",
+                "label": "Conflict of interest"
+              }
+            }
+          ]
+        },
+        {
+          "indexed": {
+            "date-parts": [
+              [
+                2026,
+                10,
+                12
+              ]
+            ],
+            "date-time": "2026-10-12T02:25:31Z",
+            "timestamp": 1791771931843,
+            "version": "4.3.4"
+          },
+          "reference-count": 109,
+          "publisher": "Springer Science and Business Media LLC",
+          "issue": "1",
+          "license": [
+            {
+              "start": {
+                "date-parts": [
+                  [
+                    2022,
+                    4,
+                    7
+                  ]
+                ],
+                "date-time": "2022-04-07T00:00:00Z",
+                "timestamp": 1649289600000
+              },
+              "content-version": "tdm",
+              "delay-in-days": 0,
+              "URL": "https://www.springer.com/tdm"
+            },
+            {
+              "start": {
+                "date-parts": [
+                  [
+                    2022,
+                    4,
+                    7
+                  ]
+                ],
+                "date-time": "2022-04-07T00:00:00Z",
+                "timestamp": 1649289600000
+              },
+              "content-version": "vor",
+              "delay-in-days": 0,
+              "URL": "https://www.springer.com/tdm"
+            }
+          ],
+          "content-domain": {
+            "domain": [
+              "link.springer.com"
+            ],
+            "crossmark-restriction": false
+          },
+          "short-container-title": [
+            "Ann Oper Res"
+          ],
+          "published-print": {
+            "date-parts": [
+              [
+                2022,
+                7
+              ]
+            ]
+          },
+          "DOI": "10.1007/s10479-022-04634-2",
+          "type": "journal-article",
+          "created": {
+            "date-parts": [
+              [
+                2022,
+                4,
+                7
+              ]
+            ],
+            "date-time": "2022-04-07T10:08:58Z",
+            "timestamp": 1649326138000
+          },
+          "page": "141-183",
+          "update-policy": "https://doi.org/10.1007/springer_crossmark_policy",
+          "source": "Crossref",
+          "is-referenced-by-count": 312,
+          "title": [
+            "Quantum bridge analytics I: a tutorial on formulating and using QUBO models"
+          ],
+          "prefix": "10.1007",
+          "volume": "314",
+          "author": [
+            {
+              "ORCID": "https://orcid.org/0000-0001-6945-0438",
+              "authenticated-orcid": false,
+              "given": "Fred",
+              "family": "Glover",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Gary",
+              "family": "Kochenberger",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Rick",
+              "family": "Hennig",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Yu",
+              "family": "Du",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            }
+          ],
+          "member": "297",
+          "published-online": {
+            "date-parts": [
+              [
+                2022,
+                4,
+                7
+              ]
+            ]
+          },
+          "reference": [
+            {
+              "key": "4634_CR1",
+              "doi-asserted-by": "crossref",
+              "unstructured": "Ailon, N., Charikar,M. A., Newman (2008) “Aggregating inconsistent information: ranking and clustering. Journal of the ACM (JACM), 55(5), 2",
+              "DOI": "10.1145/1411509.1411513"
+            },
+            {
+              "key": "4634_CR2",
+              "unstructured": "Aimone,J. B., Hamilton, K. E., Mniszewsk, S., Reeder, L., Schuman, C. D., Severa,W. M. (2018). Non-neural network applications for spiking neuromorphic hardware. In PMES Workshop."
+            },
+            {
+              "key": "4634_CR3",
+              "doi-asserted-by": "crossref",
+              "unstructured": "Albash, T., Lidar D. A. (2015) Decoherence in adiabatic quantum computation. Physical Review A vol. 91, p. 062320. arXiv:1503.08767v2.",
+              "DOI": "10.1103/PhysRevA.91.062320"
+            },
+            {
+              "key": "4634_CR4",
+              "doi-asserted-by": "crossref",
+              "unstructured": "Albash, T., Hen, I., Spedalieri, F. M., Lidar, D. A. (2015). Reexamination of the evidence for entanglement in the D-Wave processor. Physical Review A vol. 92, pp. 62328. arXiv:1506.03539v2",
+              "DOI": "10.1103/PhysRevA.92.062328"
+            },
+            {
+              "issue": "2",
+              "key": "4634_CR5",
+              "first-page": "135",
+              "volume": "9",
+              "author": "B Alidaee",
+              "year": "2005",
+              "unstructured": "Alidaee, B., Glover, F., Kochenberger, G., & Rego, C. (2005). A new modeling and solution approach for the number partitioning problem. Journal of Applied Mathematics and Decision Sciences, 9(2), 135–145.",
+              "journal-title": "Journal of Applied Mathematics and Decision Sciences"
+            },
+            {
+              "issue": "2",
+              "key": "4634_CR6",
+              "doi-asserted-by": "publisher",
+              "first-page": "504",
+              "DOI": "10.1016/j.ejor.2006.12.068",
+              "volume": "186",
+              "author": "B Alidaee",
+              "year": "2008",
+              "unstructured": "Alidaee, B., Kochenberger, G., Lewis, K., Lewis, M., & Wang, H. (2008). A new approach for modeling and solving set packing problems. European Journal of Operational Research, 186(2), 504–512.",
+              "journal-title": "European Journal of Operational Research"
+            },
+            {
+              "issue": "4",
+              "key": "4634_CR7",
+              "doi-asserted-by": "publisher",
+              "first-page": "046112",
+              "DOI": "10.1103/PhysRevE.82.046112",
+              "volume": "82",
+              "author": "D Aloise",
+              "year": "2010",
+              "unstructured": "Aloise, D., Cafieri, S., Caporossi, G., Hansen, P., Perron, S., & Liberti, L. (2010). Column generation algorithms for exact modularity maximization in networks. Physical Review E, 82(4), 046112.",
+              "journal-title": "Physical Review E"
+            },
+            {
+              "key": "4634_CR8",
+              "doi-asserted-by": "publisher",
+              "unstructured": "Alom, M. Z., Van Essen, B., Moody, A. T., Widemann, D. P., Taha, T. M. (2017). Quadratic unconstrained binary optimization (QUBO) on neuromorphic computing system. In IEEE 2017 International joint conference on neural networks (IJCNN). Doi https://doi.org/10.1109/ijcnn.2017.7966350.",
+              "DOI": "10.1109/ijcnn.2017.7966350"
+            },
+            {
+              "key": "4634_CR9",
+              "unstructured": "AlphaQUBO. (2021). http://meta-analytics.net/Home/AlphaQUBO"
+            },
+            {
+              "key": "4634_CR10",
+              "doi-asserted-by": "crossref",
+              "unstructured": "Amin, M. H. S., Truncik, C. J. S., Averin, D. V. (2008). Role of single qubit decoherence time in adiabatic quantum computation. Physical Review A, vol. 80, p. 022303. arXiv:0803.1196v2",
+              "DOI": "10.1103/PhysRevA.80.022303"
+            },
+            {
+              "issue": "1–2",
+              "key": "4634_CR11",
+              "doi-asserted-by": "publisher",
+              "first-page": "115",
+              "DOI": "10.1007/s10107-016-1032-4",
+              "volume": "162",
+              "author": "M Anthony",
+              "year": "2017",
+              "unstructured": "Anthony, M., Boros, E., Crama, Y., & Gruber, A. (2017). Quadratic reformulations of nonlinear binary optimization problems. Mathematical Programming, 162(1–2), 115–144.",
+              "journal-title": "Mathematical Programming"
+            },
+            {
+              "key": "4634_CR12",
+              "doi-asserted-by": "publisher",
+              "first-page": "48",
+              "DOI": "10.3389/fphy.2019.00048",
+              "volume": "7",
+              "author": "M Aramon",
+              "year": "2019",
+              "unstructured": "Aramon, M., Rosenberger, G., Valiante, E., Tamura, H., Miyazawa, T., & Katzgraber, H. G. (2019). Physics-inspired optimization for quadratic unconstrained problems using a digital annealer. Frontiers in Physics, 7, 48.",
+              "journal-title": "Frontiers in Physics"
+            },
+            {
+              "key": "4634_CR13",
+              "unstructured": "Bauckhage, C., Piatkowski, N., Sifa, R., Hecker, D and Wrobel, S. (2019). A QUBO formulation of the k-medoids problem. LWDA."
+            },
+            {
+              "key": "4634_CR14",
+              "unstructured": "Berwald, J. J., Gottlieb, J. M., Munch, E. (2018). Computing wasserstein distance for persistence diagrams on a quantum computer. arXiv:1809.06433"
+            },
+            {
+              "key": "4634_CR15",
+              "doi-asserted-by": "publisher",
+              "first-page": "218",
+              "DOI": "10.1038/nphys2900",
+              "volume": "10",
+              "author": "S Boixo",
+              "year": "2014",
+              "unstructured": "Boixo, S., Rønnow, T. F., Isakov, S. V., Wang, Z., Wecker, D., Lidar, D. A., Martinis, J. M., & Troyer, M. (2014). Evidence for quantum annealing with more than one hundred qubits. Nature Physics, 10, 218–224.",
+              "journal-title": "Nature Physics"
+            },
+            {
+              "issue": "3",
+              "key": "4634_CR18",
+              "doi-asserted-by": "publisher",
+              "first-page": "151",
+              "DOI": "10.1007/BF02115753",
+              "volume": "33",
+              "author": "E Boros",
+              "year": "1991",
+              "unstructured": "Boros, E., & Hammer, P. (1991). The max-cut problem and quadratic 0–1 optimization: polyhedral aspects, relaxations and bounds. Annals of Operations Research, 33(3), 151–180.",
+              "journal-title": "Annals of Operations Research"
+            },
+            {
+              "issue": "1",
+              "key": "4634_CR19",
+              "doi-asserted-by": "publisher",
+              "first-page": "155",
+              "DOI": "10.1016/S0166-218X(01)00341-9",
+              "volume": "123",
+              "author": "E Boros",
+              "year": "2002",
+              "unstructured": "Boros, E., & Hammer, P. (2002). Pseudo-Boolean optimization. Discrete Applied Mathematics, 123(1), 155–225.",
+              "journal-title": "Discrete Applied Mathematics"
+            },
+            {
+              "issue": "2",
+              "key": "4634_CR20",
+              "doi-asserted-by": "publisher",
+              "first-page": "501",
+              "DOI": "10.1016/j.disopt.2007.02.001",
+              "volume": "5",
+              "author": "E Boros",
+              "year": "2008",
+              "unstructured": "Boros, E., Hammer, P. L., Sun, R., & Tavares, G. (2008). A max-flow approach to improved lower bounds for quadratic unconstrained binary optimization (QUBO). Discrete Optimization, 5(2), 501–529.",
+              "journal-title": "Discrete Optimization"
+            },
+            {
+              "key": "4634_CR22",
+              "doi-asserted-by": "publisher",
+              "unstructured": "Chapuis, G., Djidjev, H., Hahn,  G., Rizk,  G. (2018). Finding maximum cliques on the D-Wave quantum annealer,” To be published in: Journal of Signal Processing Systems, DOI https://doi.org/10.1007/s11265-018-1357-8.",
+              "DOI": "10.1007/s11265-018-1357-8"
+            },
+            {
+              "key": "4634_CR23",
+              "doi-asserted-by": "crossref",
+              "unstructured": "Clark J., West, T., Zammit, J., Guo, X., Mason, L., Russell, D .(2019). Towards real time multi-robot routing using quantum computing technologies In HPC Asia 2019 proceedings of the international conference on high performance computing in Asia-Pacific Region, pp. 111–119.",
+              "DOI": "10.1145/3293320.3293333"
+            },
+            {
+              "key": "4634_CR25",
+              "unstructured": "Cohen, J., Khan, A., and Alexander, C. (2020). Portfolio optimization of 60 stocks using classical and quantum algorithms. arXiv:2008.08669"
+            },
+            {
+              "issue": "18",
+              "key": "4634_CR26",
+              "doi-asserted-by": "publisher",
+              "first-page": "117",
+              "DOI": "10.1007/s11128-019-2236-3",
+              "volume": "2019",
+              "author": "P Date",
+              "year": "2019",
+              "unstructured": "Date, P., Patton, R., Schuman, C., & Potok, T. (2019). Efficiently embedding QUBO problems on adiabatic quantum computers. Quantum Information Processing, 2019(18), 117. https://doi.org/10.1007/s11128-019-2236-3",
+              "journal-title": "Quantum Information Processing"
+            },
+            {
+              "issue": "3",
+              "key": "4634_CR27",
+              "first-page": "24",
+              "volume": "5",
+              "author": "EP Debenedictis",
+              "year": "2019",
+              "unstructured": "Debenedictis, E. P. (2019). A future with quantum machine learning. IEEE Computing Edge, 5(3), 24–27.",
+              "journal-title": "IEEE Computing Edge"
+            },
+            {
+              "key": "4634_CR28",
+              "unstructured": "Du, Y., Glover, F., Hennig, R., Kochenberger, G and Wang, H. (2020a) .Optimal solutions to the set partitioning problem: a comparison of alternative models Working paper, University of Colorado Denver."
+            },
+            {
+              "key": "4634_CR144",
+              "doi-asserted-by": "crossref",
+              "unstructured": "Du, Y., Kochenberger, G., Glover, F., Wang, H., Lewis, M., Tsuyuguchi, T., & Hulandageri, A. (2020b). Solving clique partitioning problems: A comparison of models and commercial solvers. International Journal of Information Technology & Decision Making, 21(01), 59–81.",
+              "DOI": "10.1142/S0219622021500504"
+            },
+            {
+              "issue": "3",
+              "key": "4634_CR29",
+              "doi-asserted-by": "publisher",
+              "first-page": "608",
+              "DOI": "10.1287/ijoc.2017.0798",
+              "volume": "30",
+              "author": "L Dunning",
+              "year": "2018",
+              "unstructured": "Dunning, L., Gupta, S., & Silberholz, J. (2018). What works best when? A systematic evaluation of heuristics for Max-Cut and QUBO. INFORMS Journal on Computing, 30(3), 608–624.",
+              "journal-title": "INFORMS Journal on Computing"
+            },
+            {
+              "key": "4634_CR30",
+              "unstructured": "Elsokkary, N., Khan, F.S., Humble, T. S., Torre, D. L., & Gottlieb, J. (2017). Financial portfolio management using D-Wave’s quantum optimizer: the case of Abu Dhabi securities exchange. 2017 IEEE High-performance Extreme Computing (HPEC)."
+            },
+            {
+              "key": "4634_CR31",
+              "doi-asserted-by": "publisher",
+              "unstructured": "Yarkoni, S., Plaat, A., &  Back, T. (2018). First results solving arbitrarily structured maximum independent set problems asing Q]quantum annealing. In 2018 IEEE Congress on evolutionary computation (CEC), Rio de Janeiro, pp. 1–6. Doi: https://doi.org/10.1109/CEC.2018.8477865.",
+              "DOI": "10.1109/CEC.2018.8477865"
+            },
+            {
+              "key": "4634_CR32",
+              "unstructured": "Farhi, E., Goldstone, J. (2014). A quantum approximate optimization algorithm. arXiv:1411.4028"
+            },
+            {
+              "key": "4634_CR33",
+              "doi-asserted-by": "crossref",
+              "unstructured": "Feld, S., Roch, C., Gabor, T., Seidel, C., Neukart, F., Galter, I., Mauerer, W., Linnhoff-Popien, C. (2018). A hybrid solution method for the capacitated vehicle routing problem using a quantum annealer. arXiv:1811.07403",
+              "DOI": "10.3389/fict.2019.00013"
+            },
+            {
+              "key": "4634_CR34",
+              "doi-asserted-by": "publisher",
+              "first-page": "21",
+              "DOI": "10.1155/2020/5974820",
+              "volume": "2020",
+              "author": "RJ Forrester",
+              "year": "2020",
+              "unstructured": "Forrester, R. J., & Hunt-Isaak, N. (2020). Computational comparison of exact solution methods for 0–1 quadratic programs: recommendations for practitioners. Journal of Applied Mathematics, 2020, 21.",
+              "journal-title": "Journal of Applied Mathematics"
+            },
+            {
+              "key": "4634_CR35",
+              "doi-asserted-by": "crossref",
+              "unstructured": "Glover, F.  (1997). A template for scatter search and path relinking. In J.-K. Hao, E. Lutton, E. Ronald, M. Schoenauer & D. Snyers (Eds.), Artificial evolution, lecture notes in computer science (pp. 13–54). Springer.",
+              "DOI": "10.1007/BFb0026589"
+            },
+            {
+              "key": "4634_CR36",
+              "doi-asserted-by": "crossref",
+              "unstructured": "Glover, F., Kochenberger, G., Alidaee, B., Amini, M. (2002b) . Solving quadratic Knapsack problems by reformulation and Tabu search. In P.M. Pardalos, A. Megados, R. Burkard (Eds.) Combinatorial and global optimization, World Scientific Publishing Co., pp. 272–287",
+              "DOI": "10.1142/9789812778215_0008"
+            },
+            {
+              "key": "4634_CR37",
+              "unstructured": "Glover, F., Kochenberger, G., Wang, Y. (2018a). A new QUBO model for unsupervised machine learning. Research in Progress."
+            },
+            {
+              "key": "4634_CR38",
+              "unstructured": "Glover, F., Kochenberger, G. (2019). Quantum bridge analytics & QUBO 2.0. In Quantum insight conference 2019, invited presentation 10/04/19, LHOFT—Luxembourg house of financial technology, 9, rue du Laboratoire, Luxembourg."
+            },
+            {
+              "issue": "1",
+              "key": "4634_CR39",
+              "doi-asserted-by": "publisher",
+              "first-page": "156",
+              "DOI": "10.1111/j.1540-5915.1977.tb01074.x",
+              "volume": "8",
+              "author": "F Glover",
+              "year": "1977",
+              "unstructured": "Glover, F. (1977). Heuristics for Integer programming using surrogate constraints. Decision Sciences, 8(1), 156–166.",
+              "journal-title": "Decision Sciences"
+            },
+            {
+              "key": "4634_CR40",
+              "volume-title": "interfaces in computer science and operations research",
+              "author": "F Glover",
+              "year": "1996",
+              "unstructured": "Glover, F. (1996). Tabu search and adaptive memory programming - advances, applications and challenges. In R. S. Barr, R. V. Helgason, & J. L. Kennington (Eds.), interfaces in computer science and operations research. Kluwer Academic Publishers Springer."
+            },
+            {
+              "issue": "2",
+              "key": "4634_CR41",
+              "doi-asserted-by": "publisher",
+              "first-page": "272",
+              "DOI": "10.1016/S0377-2217(01)00209-0",
+              "volume": "137",
+              "author": "F Glover",
+              "year": "2002",
+              "unstructured": "Glover, F., Alidaee, B., Rego, C., & Kochenberger, G. (2002a). One-pass heuristics for large scale unconstrained binary quadratic problems. European Journal of Operational Research, 137(2), 272–287.",
+              "journal-title": "European Journal of Operational Research"
+            },
+            {
+              "issue": "3",
+              "key": "4634_CR43",
+              "doi-asserted-by": "publisher",
+              "first-page": "336",
+              "DOI": "10.1287/mnsc.44.3.336",
+              "volume": "44",
+              "author": "F Glover",
+              "year": "1998",
+              "unstructured": "Glover, F., Kochenberger, G., & Alidaee, B. (1998a). adaptive memory tabu search for binary quadratic programs. Management Science, 44(3), 336–345.",
+              "journal-title": "Management Science"
+            },
+            {
+              "key": "4634_CR45",
+              "doi-asserted-by": "publisher",
+              "first-page": "335",
+              "DOI": "10.1007/s10288-019-00424-y",
+              "volume": "17",
+              "author": "F Glover",
+              "year": "2019",
+              "unstructured": "Glover, F., Kochenberger, G., & Du, Y. (2019). Quantum bridge analytics I: A tutorial on formulating and using QUBO models. 4OR Quarterly Journal of Operations Research Invited Survey, 17, 335–371.",
+              "journal-title": "4OR Quarterly Journal of Operations Research Invited Survey"
+            },
+            {
+              "key": "4634_CR46",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1007/978-1-4615-6089-0",
+              "volume-title": "Tabu search",
+              "author": "F Glover",
+              "year": "1997",
+              "unstructured": "Glover, F., & Laguna, M. (1997). Tabu search. Kluwer Academic Publishers."
+            },
+            {
+              "issue": "2018",
+              "key": "4634_CR47",
+              "doi-asserted-by": "publisher",
+              "first-page": "829",
+              "DOI": "10.1016/j.ejor.2017.08.025",
+              "volume": "265",
+              "author": "F Glover",
+              "year": "2018",
+              "unstructured": "Glover, F., Lewis, M., & Kochenberger, G. (2018b). Logical and inequality implications for reducing the size and difficulty of unconstrained binary optimization problems. European Journal of Operational Research, 265(2018), 829–842.",
+              "journal-title": "European Journal of Operational Research"
+            },
+            {
+              "key": "4634_CR48",
+              "doi-asserted-by": "publisher",
+              "first-page": "212",
+              "DOI": "10.1007/978-1-4757-2876-7_10",
+              "volume-title": "Industrial applications of combinatorial optimization",
+              "author": "F Glover",
+              "year": "1998",
+              "unstructured": "Glover, F., Mulvey, J., Bai, D., & Tapia, M. (1998b). Integrative Population analysis for better solutions to large-scale mathematical programs. In G. Yu (Ed.), Industrial applications of combinatorial optimization (pp. 212–237). Kluwer Academic Publishers."
+            },
+            {
+              "key": "4634_CR50",
+              "doi-asserted-by": "crossref",
+              "unstructured": "Grant, E., Humble, T. (2020). Benchmarking quantum annealing controls with portfolio optimization. arXiv:2007.03005v1.",
+              "DOI": "10.1103/PhysRevApplied.15.014012"
+            },
+            {
+              "key": "4634_CR51",
+              "doi-asserted-by": "publisher",
+              "unstructured": "Hahn, G., Djidjev, H. (2017). Reducing binary quadratic forms for more scalable quantum annealing. 2017 IEEE international conference on rebooting computing. DOI: https://doi.org/10.1109/ICRC.2017.8123654.",
+              "DOI": "10.1109/ICRC.2017.8123654"
+            },
+            {
+              "key": "4634_CR52",
+              "doi-asserted-by": "publisher",
+              "unstructured": "Hamilton, K., Schuman, C.D., Young, S. R., Imam, N., Humble, T. S. (2018). Neural networks and graph alogrithms with next-generation processors. In 2018 IEEE International parallel and distributed processing symposium workshops (IPDPSW). DOI: https://doi.org/10.1109/IPDPSW.2018.00184",
+              "DOI": "10.1109/IPDPSW.2018.00184"
+            },
+            {
+              "key": "4634_CR54",
+              "doi-asserted-by": "publisher",
+              "first-page": "34",
+              "DOI": "10.3390/jrfm14010034",
+              "volume": "14",
+              "author": "SW Hong",
+              "year": "2021",
+              "unstructured": "Hong, S. W., Miasnikof, P., Kwon, R., & Lawryshyn, Y. (2021). Market graph clustering via QUBO and digital annealing. Risk and Financial Management, 14, 34.",
+              "journal-title": "Risk and Financial Management"
+            },
+            {
+              "issue": "2",
+              "key": "4634_CR55",
+              "doi-asserted-by": "publisher",
+              "first-page": "70",
+              "DOI": "10.1145/2076450.2076469",
+              "volume": "55",
+              "author": "HH Hoos",
+              "year": "2012",
+              "unstructured": "Hoos, H. H. (2012). Programming by optimization. Communications of the ACM, 55(2), 70–80.",
+              "journal-title": "Communications of the ACM"
+            },
+            {
+              "key": "4634_CR57",
+              "doi-asserted-by": "crossref",
+              "unstructured": "Kalra, A,. Qureshi, F., Tisi, M. (2018). Portfolio asset identification using graph algorithms on a quantum annealer. http://www.henryyuen.net/fall2018/projects/qfinance.pdf",
+              "DOI": "10.2139/ssrn.3333537"
+            },
+            {
+              "key": "4634_CR58",
+              "unstructured": "Kerberos (2019) Kerberos: the network authentication protocol, https://web.mit.edu/kerberos/."
+            },
+            {
+              "key": "4634_CR59",
+              "doi-asserted-by": "crossref",
+              "unstructured": "Kochenberger, G., Glover, F. (2006). A unified framework for modeling and solving combinatorial optimization problems: A tutorial. In: W. Hager, S-J Huang, P. Pardalos, O. Prokopyev (Eds.), Multiscale optimization methods and applications (pp. 101–124). Springer.",
+              "DOI": "10.1007/0-387-29550-X_4"
+            },
+            {
+              "issue": "1",
+              "key": "4634_CR62",
+              "first-page": "89",
+              "volume": "1",
+              "author": "G Kochenberger",
+              "year": "2005",
+              "unstructured": "Kochenberger, G., Glover, F., Alidaee, B., & Lewis, K. (2005c). Using the unconstrained quadratic program to model and solve max 2-sat problems. International Journal of OR, 1(1), 89–100.",
+              "journal-title": "International Journal of OR"
+            },
+            {
+              "issue": "1–4",
+              "key": "4634_CR63",
+              "doi-asserted-by": "publisher",
+              "first-page": "229",
+              "DOI": "10.1007/s10479-005-3449-7",
+              "volume": "139",
+              "author": "G Kochenberger",
+              "year": "2005",
+              "unstructured": "Kochenberger, G., Glover, F., Alidaee, B., & Rego, C. (2005a). An unconstrained quadratic binary programming approach to the vertex coloring problem. Annals of OR, 139(1–4), 229–241.",
+              "journal-title": "Annals of OR"
+            },
+            {
+              "issue": "1",
+              "key": "4634_CR64",
+              "doi-asserted-by": "publisher",
+              "first-page": "77",
+              "DOI": "10.1007/s10878-005-1861-1",
+              "volume": "10",
+              "author": "G Kochenberger",
+              "year": "2005",
+              "unstructured": "Kochenberger, G., Glover, F., Alidaee, B., & Wang, H. (2005b). Clustering of micro array data via clique partitioning. Journal of Combinatorial Optimization, 10(1), 77–92.",
+              "journal-title": "Journal of Combinatorial Optimization"
+            },
+            {
+              "issue": "1",
+              "key": "4634_CR65",
+              "doi-asserted-by": "publisher",
+              "first-page": "58",
+              "DOI": "10.1007/s10878-014-9734-0",
+              "volume": "28",
+              "author": "G Kochenberger",
+              "year": "2014",
+              "unstructured": "Kochenberger, G., Hao, J.-K., Glover, F., Lewis, M., Lu, Z., Wang, H., & Wang, Y. (2014). The Unconstrained binary quadratic programming problem: A survey. Journal of Combinatorial Optimization, 28(1), 58–81.",
+              "journal-title": "Journal of Combinatorial Optimization"
+            },
+            {
+              "issue": "4",
+              "key": "4634_CR66",
+              "doi-asserted-by": "publisher",
+              "first-page": "565",
+              "DOI": "10.1007/s10732-011-9189-8",
+              "volume": "19",
+              "author": "G Kochenberger",
+              "year": "2013",
+              "unstructured": "Kochenberger, G., Hao, J.-K., Lu, S., Wang, H., & Glover, F. (2013). Solving large scale max cut problems via Tabu search. Journal of Heuristics, 19(4), 565–571.",
+              "journal-title": "Journal of Heuristics"
+            },
+            {
+              "key": "4634_CR67",
+              "volume-title": "Quantum computing applications of QUBO models to portfolio optimization",
+              "author": "G Kochenberger",
+              "year": "2019",
+              "unstructured": "Kochenberger, G., & Ma, M. (2019). Quantum computing applications of QUBO models to portfolio optimization. Denver: University of Colorado."
+            },
+            {
+              "key": "4634_CR143",
+              "unstructured": "Kochenberger, G., Du, Y. Glover, F., Wang, H., Lewis, M., Tsuyuguchi, T., & Hulandageri, A. (2021). Solving clique partitioning problems: A comparison of models and commercial solvers, working paper."
+            },
+            {
+              "key": "4634_CR68",
+              "unstructured": "Kowalsky, M., Albash, T., Hen, I., & Lidar, D. (2021). Benchmarking state of the art ising machines. APS March Meeting 2021. Bulletin of the American Physical Society, 66(1)."
+            },
+            {
+              "key": "4634_CR69",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1103/PhysRevX.4.021041",
+              "author": "AJ Lanting",
+              "year": "2014",
+              "unstructured": "Lanting, A. J., Przybysz, AYu., Smirnov, F. M., Spedalieri, M. H., Amin, A. J., Berkley, R., Harris, F., Altomare, S., Boixo, P., Bunyk, N., Dickson, C., Enderud, J. P., Hilton, E., Hoskinson, M. W., Johnson, E., Ladizinsky, N., Ladizinsky, R., Neufeld, T., Oh, I., Wilson, G. R. (2014). Entanglement in a quantum annealing processor. Physical Review. https://doi.org/10.1103/PhysRevX.4.021041",
+              "journal-title": "Physical Review"
+            },
+            {
+              "key": "4634_CR70",
+              "unstructured": "Lewis, M., Verma, A. (2021). Working Paper, Missouri Western University."
+            },
+            {
+              "issue": "3",
+              "key": "4634_CR73",
+              "doi-asserted-by": "publisher",
+              "first-page": "807",
+              "DOI": "10.1016/j.cor.2006.04.002",
+              "volume": "35",
+              "author": "M Lewis",
+              "year": "2008",
+              "unstructured": "Lewis, M., Kochenberger, G., & Alidaee, B. (2008). A new modeling and solution approach for the set partitioning problem. Computers and OR, 35(3), 807–813.",
+              "journal-title": "Computers and OR"
+            },
+            {
+              "key": "4634_CR74",
+              "doi-asserted-by": "publisher",
+              "first-page": "41",
+              "DOI": "10.1016/j.cor.2017.04.006",
+              "volume": "86",
+              "author": "X Liu",
+              "year": "2017",
+              "unstructured": "Liu, X., Laporte, G., Chen, Y., & He, R. (2017). An adaptive large neighborhood search metaheuristic for agile satellite scheduling with time-dependent transition time. Computers and Operations Research, 86, 41–53.",
+              "journal-title": "Computers and Operations Research"
+            },
+            {
+              "key": "4634_CR75",
+              "first-page": "2",
+              "volume": "5",
+              "author": "A Lucas",
+              "year": "2014",
+              "unstructured": "Lucas, A. (2014). Ising formulations of many NP problems. Frontiers in Physics, 5, 2.",
+              "journal-title": "Frontiers in Physics"
+            },
+            {
+              "key": "4634_CR77",
+              "unstructured": "Meta-Analytics. (2020). QUBO based portfolio model. Working paper. http://meta-analytics.net/index.php/resources/."
+            },
+            {
+              "key": "4634_CR78",
+              "doi-asserted-by": "publisher",
+              "unstructured": "Mniszewski, S., Negre, C., & Ushijima-Mwesigwa, H. (2017). Graph partitioning using the D-wave for electronic. In Proceedings of the Second International Workshop on Post Moores Era Supercomputing (pp. 22–29). November 2017. https://doi.org/10.1145/3149526.3149531.",
+              "DOI": "10.1145/3149526.3149531"
+            },
+            {
+              "key": "4634_CR79",
+              "unstructured": "Mniszewski, S. M., Negre, C. F. A., & Ushijima-Mwesigwa, H. (2018). Graph clustering approaches using near term quantum computing. In QUBITS 2018 D-Wave Users Conference. September 2018. https://www.dwavesys.com/media/wafcrbie/18_wed_am_graph_lanl.pdf."
+            },
+            {
+              "key": "4634_CR81",
+              "unstructured": "Mugel, S., Kuchkovsky, C., Sanchez, E., Fernandez-Lorenzo, S., Luis-Hita, J., Lizaso, E., Orus, R. (2020). Dynamic Portfolio optimization with real datasets using quantum processors and quantum-inspired tensor networks. arXiv:2007.00017v1."
+            },
+            {
+              "key": "4634_CR82",
+              "unstructured": "Multiverse. (2020a). Credit card fraud, (A Company White paper) https://www.multiversecomputing.com/"
+            },
+            {
+              "key": "4634_CR83",
+              "unstructured": "Multiverse (2020b), Credit Scoring, (A Company White paper) https://www.multiversecomputing.com/"
+            },
+            {
+              "key": "4634_CR84",
+              "doi-asserted-by": "crossref",
+              "unstructured": "Negre, C. F. A., Ushijima-Mwesigwa, H., Mniszewsk, S. M. (2019). Detecting multiple communities using quantum annealing on the D-Wave system. arXiv:1901.09756",
+              "DOI": "10.1371/journal.pone.0227538"
+            },
+            {
+              "key": "4634_CR85",
+              "doi-asserted-by": "crossref",
+              "unstructured": "Neukart, F., Compostella, G., Seidel, C., Dollen, D., Yarkoni, S., Parney, B. (2017). Traffic flow optimization using a quantum annealer. arXiv:1708.01625",
+              "DOI": "10.3389/fict.2017.00029"
+            },
+            {
+              "issue": "12",
+              "key": "4634_CR86",
+              "doi-asserted-by": "publisher",
+              "first-page": "e0206653",
+              "DOI": "10.1371/journal.pone.0206653",
+              "volume": "13",
+              "author": "D O’Malley",
+              "year": "2018",
+              "unstructured": "O’Malley, D., Vesselinov, V. V., Alexandrov, B. S., & Alexandrov, L. B. (2018). Nonnegative/binary matrix factorization with a D-Wave quantum annealer. PLoS ONE, 13(12), e0206653. https://doi.org/10.1371/journal.pone.0206653",
+              "journal-title": "PLoS ONE"
+            },
+            {
+              "key": "4634_CR87",
+              "doi-asserted-by": "crossref",
+              "unstructured": "Ohzeki, M., Miki, A., Miyama, M.J., Terabe, M. (2018). Control of automated guided vehicles without collision by quantum annealer and digital devices. arXiv:1812.01532",
+              "DOI": "10.3389/fcomp.2019.00009"
+            },
+            {
+              "key": "4634_CR140",
+              "doi-asserted-by": "crossref",
+              "unstructured": "Oliveira, N. M. D., Silva, R. M. D. A., & Oliveira, W. R. D. (2018). QUBO formulation for the contact map overlap problem. International Journal of Quantum Information, 16(8), 1840007.",
+              "DOI": "10.1142/S0219749918400075"
+            },
+            {
+              "key": "4634_CR88",
+              "doi-asserted-by": "crossref",
+              "unstructured": "Oshiyama, H., Ohzeki, M. (2021). Benchmark of quantum-inspired heuristic solvers for quadratic unconstrained binary optimization. arXiv preprint arXiv:2104.14096.",
+              "DOI": "10.1038/s41598-022-06070-5"
+            },
+            {
+              "key": "4634_CR89",
+              "doi-asserted-by": "crossref",
+              "unstructured": "Pakin, S. (2017). Navigating a maze using a quantum annealer. In Proceedings of the second international workshop on post moores era supercomputing, Pp. 30–36.",
+              "DOI": "10.1145/3149526.3149532"
+            },
+            {
+              "key": "4634_CR90",
+              "unstructured": "Pakin, S. (2018) QMASM—quantum macro assembler. https://ccsweb.lanl.gov/~pakin/software/ and https://github.com/lanl/qmasm"
+            },
+            {
+              "key": "4634_CR91",
+              "unstructured": "Palmer, S., Sahin, S., Hernandez, R., Mugel, S., Orus, R. (2021). Quantum portfolio optimization with investments bands and target volatility. arXiv:2106.06735v3"
+            },
+            {
+              "issue": "3",
+              "key": "4634_CR95",
+              "doi-asserted-by": "publisher",
+              "first-page": "301",
+              "DOI": "10.1007/BF01098364",
+              "volume": "4",
+              "author": "P Pardalos",
+              "year": "1999",
+              "unstructured": "Pardalos, P., & Xue, J. (1999). The maximum clique problem. Journal of Global Optimization, 4(3), 301–328.",
+              "journal-title": "Journal of Global Optimization"
+            },
+            {
+              "key": "4634_CR96",
+              "doi-asserted-by": "crossref",
+              "unstructured": "Pelofske, E., Hahn, G., Djidjev., H. (2019) Solving large maximum clique problems on a quantum annealer. arXiv:1901.07657",
+              "DOI": "10.1145/3310273.3321562"
+            },
+            {
+              "key": "4634_CR97",
+              "unstructured": "Phillipson, F., Bhatia, H.S. (2020). Portfolio optimization using the D-Wave quantum annealer. arXiv:2012.01121v1"
+            },
+            {
+              "key": "4634_CR98",
+              "unstructured": "Preskill, J. (2019). Why I called it ‘quantum supremacy’. Quanta Magazine. https://www.quantamagazine.org/john-preskill-explains-quantum-supremacy-20191002/"
+            },
+            {
+              "issue": "5",
+              "key": "4634_CR99",
+              "doi-asserted-by": "publisher",
+              "first-page": "2027",
+              "DOI": "10.1007/s11128-012-0506-4",
+              "volume": "12",
+              "author": "KL Pudenz",
+              "year": "2013",
+              "unstructured": "Pudenz, K. L., & Lidar, D. A. (2013). Quantum adiabatic machine learning. Quantum Information Processing, 12(5), 2027–2070.",
+              "journal-title": "Quantum Information Processing"
+            },
+            {
+              "key": "4634_CR100",
+              "unstructured": "Qbit 1 (2017) Optimal feature selection in credit scoring and classification using a quantum annealer (A Company White paper), http://1qbit.com/files/white-papers/1QBit-White-Paper-%E2%80%93-Optimal-Feature-Selection-in-Credit-Scoring-and-Classification-Using-a-Quantum-Annealer_-_2017.04.13.pdf"
+            },
+            {
+              "key": "4634_CR101",
+              "unstructured": "Qbsolv (2017). D-Wave initiates open quantum software environment. www.dwavesys.com/press-releases/d-wave-initiates-open-quantum-software-environment."
+            },
+            {
+              "key": "4634_CR141",
+              "unstructured": "QC Ware Corporation. (2018). A quadratic unconstrainted binary optimization problem formulation for single-period index tracking with cardinality constraints. http://web.stanford.edu/~rsarkar/materials/index-tracking-white-paper.pdf."
+            },
+            {
+              "key": "4634_CR103",
+              "unstructured": "Reedy, C. (2017). When will quantum computers be consumer products?” Futurism, https://futurism.com/when-will-quantum-computers-be-consumer-products"
+            },
+            {
+              "key": "4634_CR104",
+              "unstructured": "Reinhardt, S. (2018). Detecting lateral movement with a compute-intense graph Kernel. http://www.clsac.org/uploads/5/0/6/3/50633811/reinhardt-clsac-2018.pdf"
+            },
+            {
+              "key": "4634_CR105",
+              "doi-asserted-by": "crossref",
+              "unstructured": "Rodriguez-Heck, E. (2018). Linear ad quadratic reformulations of nonlinear optimization problems in binary variables. PhD Dissertation, Liege University",
+              "DOI": "10.1007/s10288-018-0392-4"
+            },
+            {
+              "key": "4634_CR106",
+              "unstructured": "Rosenberg, I. (1975). Reduction of bivalent maximization to the quadratic case. Cahiers du Centre d’Etudes de Recherche Operationnelle, 17, 71–74."
+            },
+            {
+              "key": "4634_CR107",
+              "unstructured": "Sahner, D. (2018). A potential role for quantum annealing in the enhancement of patient outcomes? https://www.dwavesys.com/sites/default/files/Sahner.2018.pdf"
+            },
+            {
+              "key": "4634_CR108",
+              "doi-asserted-by": "crossref",
+              "unstructured": "Samorani, M., Wang, Y., Wang, Z., Lu, Y., & Glover, F. (2019). Clustering-driven evolutionary algorithms: An application of path relinking to the quadratic unconstrained binary optimization problem. Special Issue on Learning, Intensification and Diversification. Journal of Heuristics, 25, 629–642.",
+              "DOI": "10.1007/s10732-018-9403-z"
+            },
+            {
+              "issue": "7087",
+              "key": "4634_CR109",
+              "doi-asserted-by": "publisher",
+              "first-page": "1007",
+              "DOI": "10.1038/nature04701",
+              "volume": "440",
+              "author": "E Schneidman",
+              "year": "2006",
+              "unstructured": "Schneidman, E., Berry, M. J., Segev, R., & Bialek, W. (2006). Weak pairwise correlations imply strongly correlated network states in a neural population. Nature, 440(7087), 1007–1012.",
+              "journal-title": "Nature"
+            },
+            {
+              "key": "4634_CR110",
+              "doi-asserted-by": "crossref",
+              "unstructured": "Schuetz, M. J. A., Brubaker, J. K., Katzgraber, H. G. (2021). Combinatorial optimization with physics-inspired graph neural networks. arXiv preprint arXiv:2107.01188.",
+              "DOI": "10.1038/s42256-022-00468-6"
+            },
+            {
+              "key": "4634_CR111",
+              "unstructured": "Shaydulin, R., Ushijima-Mwesigwa, H., Safro, I., Mniszewski, S., Alexeev, Y. (2018). Community detection across emerging quantum architectures. PMES workshop."
+            },
+            {
+              "key": "4634_CR116",
+              "doi-asserted-by": "publisher",
+              "unstructured": "Tomasiewicz, D., Pawlik, M., Malawski., M., Rycerz, K. (2020). Foundations for workflow application scheduling on D-Wave System. In Computational science—ICCS 2020: 20th International conference, Amsterdam, The Netherlands, June 3–5, 2020, Proceedings, Part VI, 12142, 516–530. Doi: https://doi.org/10.1007/978-3-030-50433-5_40",
+              "DOI": "10.1007/978-3-030-50433-5_40"
+            },
+            {
+              "key": "4634_CR117",
+              "doi-asserted-by": "crossref",
+              "unstructured": "Ushijima-Mwesigwa, H., Negre, C. F. A., Mniszewsk, S. M. (2017). Graph partitioning using quantum annealing on the D-Wave System. arXiv:1705.03082.",
+              "DOI": "10.1145/3149526.3149531"
+            },
+            {
+              "key": "4634_CR118",
+              "doi-asserted-by": "crossref",
+              "unstructured": "Venturelli, D., Kondratyev, A. (2018). Reverse quantum annealing approach to portfolio optimization problems. arXiv:1810.08584v2.",
+              "DOI": "10.1007/s42484-019-00001-w"
+            },
+            {
+              "key": "4634_CR120",
+              "doi-asserted-by": "crossref",
+              "unstructured": "Vyskocil, T., Djidjev, H. N. (2019). Constraint embedding for solving optimization problems on quantum annealers. In 2019 IEEE international parallel and distributed processing somposium workshops, P. 635–644.",
+              "DOI": "10.1109/IPDPSW.2019.00109"
+            },
+            {
+              "key": "4634_CR121",
+              "volume-title": "Quantum technology and optimization problems QTOP 2019. Lecture notes in computer science",
+              "author": "T Vyskocil",
+              "year": "2019",
+              "unstructured": "Vyskocil, T., Pakin, S., & Djidjev, H. N. (2019). Embedding inequality constraints for quantum annealling optimization. In S. Feld & C. Linnhoff-Popien (Eds.), Quantum technology and optimization problems QTOP 2019. Lecture notes in computer science. Springer."
+            },
+            {
+              "key": "4634_CR122",
+              "unstructured": "Wang, H., Wang, Y., Resende, M., Kochenberger, G. (2016). A QUBO approach to solving QAP problems. Unpublished manuscript."
+            },
+            {
+              "key": "4634_CR124",
+              "unstructured": "Wang, Q., Abdullah, T. (2018). An introduction to quantum optimization approximation algorithm. https://www.cs.umd.edu/class/fall2018/cmsc657/projects/group_16.pdf"
+            },
+            {
+              "issue": "2",
+              "key": "4634_CR125",
+              "doi-asserted-by": "publisher",
+              "first-page": "77",
+              "DOI": "10.1007/s10696-006-9011-3",
+              "volume": "18",
+              "author": "H Wang",
+              "year": "2006",
+              "unstructured": "Wang, H., Alidaee, B., Glover, F., & Kochenberger, G. (2006). Solving group technology problems via clique partitioning. International Journal of Flexible Manufacturing Systems, 18(2), 77–87.",
+              "journal-title": "International Journal of Flexible Manufacturing Systems"
+            },
+            {
+              "issue": "3",
+              "key": "4634_CR126",
+              "doi-asserted-by": "publisher",
+              "first-page": "595",
+              "DOI": "10.1016/j.ejor.2012.07.012",
+              "volume": "223",
+              "author": "Y Wang",
+              "year": "2012",
+              "unstructured": "Wang, Y., Lu, Z., Glover, F., & Hao, J.-K. (2012). Path relinking for unconstrained binary quadratic programming. European Journal of Operational Research, 223(3), 595–604.",
+              "journal-title": "European Journal of Operational Research"
+            },
+            {
+              "issue": "4",
+              "key": "4634_CR127",
+              "doi-asserted-by": "publisher",
+              "first-page": "679",
+              "DOI": "10.1007/s10732-011-9164-4",
+              "volume": "19",
+              "author": "Y Wang",
+              "year": "2013",
+              "unstructured": "Wang, Y., Lu, Z., Glover, F., & Hao, J.-K. (2013). Backbone guided tabu search for solving the UBQP problem. Journal of Heuristics, 19(4), 679–695.",
+              "journal-title": "Journal of Heuristics"
+            },
+            {
+              "key": "4634_CR128",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1109/ACCESS.2019.2902669",
+              "author": "P Xie",
+              "year": "2019",
+              "unstructured": "Xie, P., Wang, H., Chen, Y., & Wang, P. (2019). A Heuristic algorithm based on temporal conflict network for agile earth observing satellite scheduling problem. IEEE Access Digital Object Identifier. https://doi.org/10.1109/ACCESS.2019.2902669",
+              "journal-title": "IEEE Access Digital Object Identifier"
+            },
+            {
+              "key": "4634_CR129",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1088/0256-307X/35/11/110303",
+              "author": "H Yu",
+              "year": "2018",
+              "unstructured": "Yu, H., Huang, Y., & Wu, B. (2018). Exact equivalence between quantum adiabatic algorithm and quantum circuit algorithm. Chinese Physics Letters. https://doi.org/10.1088/0256-307X/35/11/110303",
+              "journal-title": "Chinese Physics Letters"
+            },
+            {
+              "key": "4634_CR130",
+              "unstructured": "Zhou, L., Wang, S., Choi, S., Pichler, H., Lukin, M. D. (2018). Quantum approximate optimization algorithm: performance, mechanism, and implementation on near-term devices. arXiv:1812.01041"
+            }
+          ],
+          "container-title": [
+            "Annals of Operations Research"
+          ],
+          "language": "en",
+          "link": [
+            {
+              "URL": "https://link.springer.com/content/pdf/10.1007/s10479-022-04634-2.pdf",
+              "content-type": "application/pdf",
+              "content-version": "vor",
+              "intended-application": "text-mining"
+            },
+            {
+              "URL": "https://link.springer.com/article/10.1007/s10479-022-04634-2/fulltext.html",
+              "content-type": "text/html",
+              "content-version": "vor",
+              "intended-application": "text-mining"
+            },
+            {
+              "URL": "https://link.springer.com/content/pdf/10.1007/s10479-022-04634-2.pdf",
+              "content-type": "application/pdf",
+              "content-version": "vor",
+              "intended-application": "similarity-checking"
+            }
+          ],
+          "deposited": {
+            "date-parts": [
+              [
+                2022,
+                6,
+                30
+              ]
+            ],
+            "date-time": "2022-06-30T06:26:12Z",
+            "timestamp": 1656570372000
+          },
+          "score": 38.766815,
+          "resource": {
+            "primary": {
+              "URL": "https://link.springer.com/10.1007/s10479-022-04634-2"
+            }
+          },
+          "issued": {
+            "date-parts": [
+              [
+                2022,
+                4,
+                7
+              ]
+            ]
+          },
+          "references-count": 109,
+          "journal-issue": {
+            "issue": "1",
+            "published-print": {
+              "date-parts": [
+                [
+                  2022,
+                  7
+                ]
+              ]
+            }
+          },
+          "alternative-id": [
+            "4634"
+          ],
+          "URL": "https://doi.org/10.1007/s10479-022-04634-2",
+          "ISSN": [
+            "0254-5330",
+            "1572-9338"
+          ],
+          "issn-type": [
+            {
+              "value": "0254-5330",
+              "type": "print"
+            },
+            {
+              "value": "1572-9338",
+              "type": "electronic"
+            }
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2022,
+                4,
+                7
+              ]
+            ]
+          },
+          "assertion": [
+            {
+              "value": "18 February 2022",
+              "order": 1,
+              "name": "accepted",
+              "label": "Accepted",
+              "group": {
+                "name": "ArticleHistory",
+                "label": "Article History"
+              }
+            },
+            {
+              "value": "7 April 2022",
+              "order": 2,
+              "name": "first_online",
+              "label": "First Online",
+              "group": {
+                "name": "ArticleHistory",
+                "label": "Article History"
+              }
+            }
+          ]
+        },
+        {
+          "indexed": {
+            "date-parts": [
+              [
+                2025,
+                7,
+                30
+              ]
+            ],
+            "date-time": "2025-07-30T15:02:44Z",
+            "timestamp": 1753887764121,
+            "version": "3.41.2"
+          },
+          "reference-count": 0,
+          "publisher": "Association of American Medical Colleges",
+          "content-domain": {
+            "domain": [],
+            "crossmark-restriction": false
+          },
+          "short-container-title": [
+            "MedEdPORTAL"
+          ],
+          "DOI": "10.15766/mep_2374-8265.741",
+          "type": "journal-article",
+          "created": {
+            "date-parts": [
+              [
+                2014,
+                9,
+                25
+              ]
+            ],
+            "date-time": "2014-09-25T15:57:36Z",
+            "timestamp": 1411660656000
+          },
+          "source": "Crossref",
+          "is-referenced-by-count": 0,
+          "title": [
+            "EBM Tutorial: Formulating a Clinical Question (Out of Print)"
+          ],
+          "prefix": "10.15766",
+          "author": [
+            {
+              "given": "Lauren",
+              "family": "Maggio",
+              "sequence": "first",
+              "affiliation": [
+                {
+                  "name": "Boston University School of Medicine"
+                }
+              ],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "John",
+              "family": "Wiecha",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "Boston University School of Medicine"
+                }
+              ],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Keven",
+              "family": "Jeffery",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "Boston University School of Medicine"
+                }
+              ],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Mary",
+              "family": "Blanchard",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "Boston University School of Medicine"
+                }
+              ],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            }
+          ],
+          "member": "6540",
+          "published-online": {
+            "date-parts": [
+              [
+                2007,
+                12,
+                26
+              ]
+            ]
+          },
+          "container-title": [
+            "MedEdPORTAL"
+          ],
+          "language": "en",
+          "link": [
+            {
+              "URL": "http://www.mededportal.org/doi/full/10.15766/mep_2374-8265.741",
+              "content-type": "unspecified",
+              "content-version": "vor",
+              "intended-application": "similarity-checking"
+            }
+          ],
+          "deposited": {
+            "date-parts": [
+              [
+                2023,
+                5,
+                3
+              ]
+            ],
+            "date-time": "2023-05-03T19:26:47Z",
+            "timestamp": 1683142007000
+          },
+          "score": 22.519104,
+          "resource": {
+            "primary": {
+              "URL": "http://www.mededportal.org/doi/10.15766/mep_2374-8265.741"
+            }
+          },
+          "issued": {
+            "date-parts": [
+              [
+                2007,
+                12,
+                26
+              ]
+            ]
+          },
+          "references-count": 0,
+          "alternative-id": [
+            "10.15766/mep_2374-8265.741"
+          ],
+          "URL": "https://doi.org/10.15766/mep_2374-8265.741",
+          "ISSN": [
+            "2374-8265"
+          ],
+          "issn-type": [
+            {
+              "type": "electronic",
+              "value": "2374-8265"
+            }
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2007,
+                12,
+                26
+              ]
+            ]
+          },
+          "article-number": "741"
+        }
+      ],
+      "items-per-page": 3,
+      "query": {
+        "start-index": 0,
+        "search-terms": null
+      }
+    }
+  }
+}

@@ -1,0 +1,621 @@
+{
+  "retrieved": "2026-10-16",
+  "url": "https://api.crossref.org/works?query.bibliographic=unit+commitment+genetic+algorithm+review&rows=3&filter=until-pub-date%3A2026-10-16",
+  "response": {
+    "status": "ok",
+    "message-type": "work-list",
+    "message-version": "1.0.0",
+    "message": {
+      "facets": {},
+      "total-results": 9090112,
+      "items": [
+        {
+          "indexed": {
+            "date-parts": [
+              [
+                2025,
+                5,
+                19
+              ]
+            ],
+            "date-time": "2025-05-19T11:05:19Z",
+            "timestamp": 1747652719418
+          },
+          "reference-count": 0,
+          "publisher": "IEE",
+          "content-domain": {
+            "domain": [],
+            "crossmark-restriction": false
+          },
+          "published-print": {
+            "date-parts": [
+              [
+                1997
+              ]
+            ]
+          },
+          "DOI": "10.1049/cp:19971183",
+          "type": "proceedings-article",
+          "created": {
+            "date-parts": [
+              [
+                2005,
+                11,
+                9
+              ]
+            ],
+            "date-time": "2005-11-09T22:06:20Z",
+            "timestamp": 1131573980000
+          },
+          "page": "215-220",
+          "source": "Crossref",
+          "is-referenced-by-count": 9,
+          "title": [
+            "A new genetic algorithm approach for unit commitment"
+          ],
+          "prefix": "10.1049",
+          "volume": "1997",
+          "author": [
+            {
+              "given": "A.H.",
+              "family": "Mantawy",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            }
+          ],
+          "member": "265",
+          "event": {
+            "name": "Second International Conference on Genetic Algorithms in Engineering Systems",
+            "location": "Glasgow, UK"
+          },
+          "container-title": [
+            "Second International Conference on Genetic Algorithms in Engineering Systems"
+          ],
+          "deposited": {
+            "date-parts": [
+              [
+                2018,
+                12,
+                6
+              ]
+            ],
+            "date-time": "2018-12-06T17:37:43Z",
+            "timestamp": 1544117863000
+          },
+          "score": 31.34503,
+          "resource": {
+            "primary": {
+              "URL": "https://digital-library.theiet.org/content/conferences/10.1049/cp_19971183"
+            },
+            "secondary": [
+              {
+                "URL": "http://ieeexplore.ieee.org/lpdocs/epic03/wrapper.htm?arnumber=681015",
+                "label": "Xplore"
+              }
+            ]
+          },
+          "issued": {
+            "date-parts": [
+              [
+                1997
+              ]
+            ]
+          },
+          "references-count": 0,
+          "URL": "https://doi.org/10.1049/cp:19971183",
+          "published": {
+            "date-parts": [
+              [
+                1997
+              ]
+            ]
+          }
+        },
+        {
+          "indexed": {
+            "date-parts": [
+              [
+                2025,
+                10,
+                24
+              ]
+            ],
+            "date-time": "2025-10-24T07:57:38Z",
+            "timestamp": 1761292658431
+          },
+          "reference-count": 22,
+          "publisher": "IEEE",
+          "content-domain": {
+            "domain": [],
+            "crossmark-restriction": false
+          },
+          "published-print": {
+            "date-parts": [
+              [
+                2009,
+                6
+              ]
+            ]
+          },
+          "DOI": "10.1109/ptc.2009.5282117",
+          "type": "proceedings-article",
+          "created": {
+            "date-parts": [
+              [
+                2009,
+                10,
+                12
+              ]
+            ],
+            "date-time": "2009-10-12T15:48:18Z",
+            "timestamp": 1255362498000
+          },
+          "page": "1-6",
+          "source": "Crossref",
+          "is-referenced-by-count": 4,
+          "title": [
+            "Unit Commitment optimization using improved Genetic Algorithm"
+          ],
+          "prefix": "10.1109",
+          "author": [
+            {
+              "given": "Kaveh",
+              "family": "Abookazemi",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Mohd Wazir",
+              "family": "Mustafa",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            }
+          ],
+          "member": "263",
+          "reference": [
+            {
+              "key": "19",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1109/ICPST.2004.1460054"
+            },
+            {
+              "key": "22",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1109/NAPS.2006.359607"
+            },
+            {
+              "key": "17",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1109/59.589634"
+            },
+            {
+              "key": "18",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1016/0378-7796(95)00954-G"
+            },
+            {
+              "key": "15",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1109/59.536120"
+            },
+            {
+              "key": "16",
+              "article-title": "Hybrid genetic algorithm/fuzzy system approach to short-term thermal generating unit commitment",
+              "author": "tsao",
+              "year": "2001",
+              "journal-title": "The Fifth International Power Engineering Conference (IPEC 200l)"
+            },
+            {
+              "journal-title": "Applications of the Genetic Algorithm to the Unit Commitment Problem in Power Generation Industry",
+              "year": "1995",
+              "author": "yang",
+              "key": "13"
+            },
+            {
+              "key": "14",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1109/59.485989"
+            },
+            {
+              "key": "11",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1049/ip-gtd:19941221"
+            },
+            {
+              "journal-title": "Optimization of Unit Commitment Using Parallel Structures of Genetic Algorithm",
+              "year": "1995",
+              "author": "yang",
+              "key": "12"
+            },
+            {
+              "key": "21",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1109/TPWRS.2002.804953"
+            },
+            {
+              "key": "3",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1109/59.41687"
+            },
+            {
+              "key": "20",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1109/PESW.2002.984954"
+            },
+            {
+              "key": "2",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1109/59.317549"
+            },
+            {
+              "journal-title": "Power Generation Operation and Control",
+              "year": "1984",
+              "author": "wood",
+              "key": "1"
+            },
+            {
+              "journal-title": "Genetic Algorithm in Search Optimization and Machine Learning",
+              "year": "1999",
+              "author": "goldberg",
+              "key": "10"
+            },
+            {
+              "key": "7",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1109/59.744484"
+            },
+            {
+              "key": "6",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1109/59.141769"
+            },
+            {
+              "key": "5",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1109/TPWRS.1987.4335178"
+            },
+            {
+              "key": "4",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1109/59.192933"
+            },
+            {
+              "key": "9",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1109/59.630461"
+            },
+            {
+              "key": "8",
+              "article-title": "Thermal unit commitment including optimum AC power flow constraints",
+              "author": "murillo-sanchez",
+              "year": "1997",
+              "journal-title": "Proc Hawaii Int'l Conf System Sciences"
+            }
+          ],
+          "event": {
+            "name": "2009 IEEE Bucharest PowerTech (POWERTECH)",
+            "start": {
+              "date-parts": [
+                [
+                  2009,
+                  6,
+                  28
+                ]
+              ]
+            },
+            "location": "Bucharest, Romania",
+            "end": {
+              "date-parts": [
+                [
+                  2009,
+                  7,
+                  2
+                ]
+              ]
+            }
+          },
+          "container-title": [
+            "2009 IEEE Bucharest PowerTech"
+          ],
+          "link": [
+            {
+              "URL": "http://xplorestaging.ieee.org/ielx5/5271856/5281781/05282117.pdf?arnumber=5282117",
+              "content-type": "unspecified",
+              "content-version": "vor",
+              "intended-application": "similarity-checking"
+            }
+          ],
+          "deposited": {
+            "date-parts": [
+              [
+                2017,
+                3,
+                19
+              ]
+            ],
+            "date-time": "2017-03-19T01:45:18Z",
+            "timestamp": 1489887918000
+          },
+          "score": 30.809605,
+          "resource": {
+            "primary": {
+              "URL": "http://ieeexplore.ieee.org/document/5282117/"
+            }
+          },
+          "issued": {
+            "date-parts": [
+              [
+                2009,
+                6
+              ]
+            ]
+          },
+          "references-count": 22,
+          "URL": "https://doi.org/10.1109/ptc.2009.5282117",
+          "published": {
+            "date-parts": [
+              [
+                2009,
+                6
+              ]
+            ]
+          }
+        },
+        {
+          "indexed": {
+            "date-parts": [
+              [
+                2026,
+                2,
+                8
+              ]
+            ],
+            "date-time": "2026-02-08T09:46:34Z",
+            "timestamp": 1770543994955,
+            "version": "3.49.0"
+          },
+          "reference-count": 16,
+          "publisher": "IEEE",
+          "content-domain": {
+            "domain": [],
+            "crossmark-restriction": false
+          },
+          "published-print": {
+            "date-parts": [
+              [
+                2010,
+                10
+              ]
+            ]
+          },
+          "DOI": "10.1109/ipecon.2010.5697083",
+          "type": "proceedings-article",
+          "created": {
+            "date-parts": [
+              [
+                2011,
+                1,
+                21
+              ]
+            ],
+            "date-time": "2011-01-21T15:33:23Z",
+            "timestamp": 1295624003000
+          },
+          "page": "842-847",
+          "source": "Crossref",
+          "is-referenced-by-count": 22,
+          "title": [
+            "Unit commitment in microgrids by improved genetic algorithm"
+          ],
+          "prefix": "10.1109",
+          "author": [
+            {
+              "given": "H.Z.",
+              "family": "Liang",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "H.B.",
+              "family": "Gooi",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            }
+          ],
+          "member": "263",
+          "reference": [
+            {
+              "key": "ref10",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1109/59.780892"
+            },
+            {
+              "key": "ref11",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1109/TPWRS.2003.821625"
+            },
+            {
+              "key": "ref12",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1109/ICICISYS.2009.5357777"
+            },
+            {
+              "key": "ref13",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1109/59.982197"
+            },
+            {
+              "key": "ref14",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1109/TDC.1999.755330"
+            },
+            {
+              "key": "ref15",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1109/TPWRS.2005.860922"
+            },
+            {
+              "key": "ref16",
+              "doi-asserted-by": "crossref",
+              "first-page": "595",
+              "DOI": "10.1049/ip-gtd:19952215",
+              "article-title": "unit commitment by parallel simulated annealing",
+              "volume": "142",
+              "author": "annakkage",
+              "year": "1995",
+              "journal-title": "Generation Transmission and Distribution IEE Proceedings-"
+            },
+            {
+              "key": "ref4",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1109/TPWRS.2003.821611"
+            },
+            {
+              "key": "ref3",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1109/TD-ASIA.2009.5356870"
+            },
+            {
+              "key": "ref6",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1109/59.801936"
+            },
+            {
+              "key": "ref5",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1049/iet-gtd:20060529"
+            },
+            {
+              "key": "ref8",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1109/59.536120"
+            },
+            {
+              "key": "ref7",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1109/59.801925"
+            },
+            {
+              "key": "ref2",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1109/TENCON.2009.5396184"
+            },
+            {
+              "key": "ref1",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1109/TIA.2005.847277"
+            },
+            {
+              "key": "ref9",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1109/59.485989"
+            }
+          ],
+          "event": {
+            "name": "Energy Conference (IPEC 2010)",
+            "location": "Singapore, Singapore",
+            "start": {
+              "date-parts": [
+                [
+                  2010,
+                  10,
+                  27
+                ]
+              ]
+            },
+            "end": {
+              "date-parts": [
+                [
+                  2010,
+                  10,
+                  29
+                ]
+              ]
+            }
+          },
+          "container-title": [
+            "2010 Conference Proceedings IPEC"
+          ],
+          "link": [
+            {
+              "URL": "http://xplorestaging.ieee.org/ielx5/5685176/5696950/05697083.pdf?arnumber=5697083",
+              "content-type": "unspecified",
+              "content-version": "vor",
+              "intended-application": "similarity-checking"
+            }
+          ],
+          "deposited": {
+            "date-parts": [
+              [
+                2017,
+                6,
+                19
+              ]
+            ],
+            "date-time": "2017-06-19T14:45:12Z",
+            "timestamp": 1497883512000
+          },
+          "score": 30.734884,
+          "resource": {
+            "primary": {
+              "URL": "http://ieeexplore.ieee.org/document/5697083/"
+            }
+          },
+          "issued": {
+            "date-parts": [
+              [
+                2010,
+                10
+              ]
+            ]
+          },
+          "references-count": 16,
+          "URL": "https://doi.org/10.1109/ipecon.2010.5697083",
+          "published": {
+            "date-parts": [
+              [
+                2010,
+                10
+              ]
+            ]
+          }
+        }
+      ],
+      "items-per-page": 3,
+      "query": {
+        "start-index": 0,
+        "search-terms": null
+      }
+    }
+  }
+}

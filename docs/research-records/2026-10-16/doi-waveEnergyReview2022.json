@@ -1,0 +1,2368 @@
+{
+  "retrieved": "2026-10-16",
+  "url": "https://api.crossref.org/works/10.1016/j.egyr.2022.10.403",
+  "response": {
+    "status": "ok",
+    "message-type": "work",
+    "message-version": "1.0.0",
+    "message": {
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            10,
+            9
+          ]
+        ],
+        "date-time": "2026-10-09T04:36:54Z",
+        "timestamp": 1791520614353,
+        "version": "4.3.4"
+      },
+      "reference-count": 210,
+      "publisher": "Elsevier BV",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2022,
+                11,
+                1
+              ]
+            ],
+            "date-time": "2022-11-01T00:00:00Z",
+            "timestamp": 1667260800000
+          },
+          "content-version": "tdm",
+          "delay-in-days": 0,
+          "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+        },
+        {
+          "start": {
+            "date-parts": [
+              [
+                2022,
+                11,
+                1
+              ]
+            ],
+            "date-time": "2022-11-01T00:00:00Z",
+            "timestamp": 1667260800000
+          },
+          "content-version": "tdm",
+          "delay-in-days": 0,
+          "URL": "https://www.elsevier.com/legal/tdmrep-license"
+        },
+        {
+          "start": {
+            "date-parts": [
+              [
+                2022,
+                10,
+                25
+              ]
+            ],
+            "date-time": "2022-10-25T00:00:00Z",
+            "timestamp": 1666656000000
+          },
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "URL": "http://creativecommons.org/licenses/by/4.0/"
+        }
+      ],
+      "content-domain": {
+        "domain": [
+          "elsevier.com",
+          "sciencedirect.com"
+        ],
+        "crossmark-restriction": true
+      },
+      "short-container-title": [
+        "Energy Reports"
+      ],
+      "published-print": {
+        "date-parts": [
+          [
+            2022,
+            11
+          ]
+        ]
+      },
+      "DOI": "10.1016/j.egyr.2022.10.403",
+      "type": "journal-article",
+      "created": {
+        "date-parts": [
+          [
+            2022,
+            11,
+            23
+          ]
+        ],
+        "date-time": "2022-11-23T16:04:38Z",
+        "timestamp": 1669219478000
+      },
+      "page": "15446-15479",
+      "update-policy": "https://doi.org/10.1016/elsevier_cm_policy",
+      "source": "Crossref",
+      "is-referenced-by-count": 49,
+      "special_numbering": "C",
+      "title": [
+        "Layout and design optimization of ocean wave energy converters: A scoping review of state-of-the-art canonical, hybrid, cooperative, and combinatorial optimization methods"
+      ],
+      "prefix": "10.1016",
+      "volume": "8",
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0000-0003-2997-7096",
+          "authenticated-orcid": false,
+          "given": "Danial",
+          "family": "Golbaz",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-7112-943X",
+          "authenticated-orcid": false,
+          "given": "Rojin",
+          "family": "Asadi",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0001-9002-3203",
+          "authenticated-orcid": false,
+          "given": "Erfan",
+          "family": "Amini",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Hossein",
+          "family": "Mehdipour",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0001-6776-4791",
+          "authenticated-orcid": false,
+          "given": "Mahdieh",
+          "family": "Nasiri",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Bahareh",
+          "family": "Etaati",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-9834-7138",
+          "authenticated-orcid": false,
+          "given": "Seyed Taghi Omid",
+          "family": "Naeeni",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-9537-9513",
+          "authenticated-orcid": false,
+          "given": "Mehdi",
+          "family": "Neshat",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-1443-9458",
+          "authenticated-orcid": false,
+          "given": "Seyedali",
+          "family": "Mirjalili",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-2798-0104",
+          "authenticated-orcid": false,
+          "given": "Amir H.",
+          "family": "Gandomi",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "78",
+      "reference": [
+        {
+          "key": "10.1016/j.egyr.2022.10.403_b1",
+          "series-title": "Albany wave energy deal with carnegie clean energy cancelled by wa government",
+          "author": "ABC News",
+          "year": "2019"
+        },
+        {
+          "key": "10.1016/j.egyr.2022.10.403_b2",
+          "doi-asserted-by": "crossref",
+          "first-page": "187",
+          "DOI": "10.1016/j.oceaneng.2018.05.023",
+          "article-title": "Optimization of nonlinear wave energy converters",
+          "volume": "162",
+          "author": "Abdelkhalik",
+          "year": "2018",
+          "journal-title": "Ocean Eng."
+        },
+        {
+          "issue": "2",
+          "key": "10.1016/j.egyr.2022.10.403_b3",
+          "doi-asserted-by": "crossref",
+          "first-page": "324",
+          "DOI": "10.1109/TSTE.2012.2224392",
+          "article-title": "Optimal active control and optimization of a wave energy converter",
+          "volume": "4",
+          "author": "Abraham",
+          "year": "2012",
+          "journal-title": "IEEE Trans. Sustain. Energy"
+        },
+        {
+          "key": "10.1016/j.egyr.2022.10.403_b4",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1016/j.oceaneng.2020.107248",
+          "article-title": "Advancements of wave energy converters based on power take off (pto) systems: A review",
+          "volume": "204",
+          "author": "Ahamed",
+          "year": "2020",
+          "journal-title": "Ocean Eng."
+        },
+        {
+          "key": "10.1016/j.egyr.2022.10.403_b5",
+          "doi-asserted-by": "crossref",
+          "first-page": "1",
+          "DOI": "10.1016/j.renene.2018.06.117",
+          "article-title": "A parameter study and optimization of two body wave energy converters",
+          "volume": "131",
+          "author": "Al Shami",
+          "year": "2019",
+          "journal-title": "Renew. Energy"
+        },
+        {
+          "issue": "22",
+          "key": "10.1016/j.egyr.2022.10.403_b6",
+          "doi-asserted-by": "crossref",
+          "first-page": "6095",
+          "DOI": "10.3390/en13226095",
+          "article-title": "A parametric study of wave energy converter layouts in real wave models",
+          "volume": "13",
+          "author": "Amini",
+          "year": "2020",
+          "journal-title": "Energies"
+        },
+        {
+          "issue": "5",
+          "key": "10.1016/j.egyr.2022.10.403_b7",
+          "doi-asserted-by": "crossref",
+          "first-page": "490",
+          "DOI": "10.3390/jmse9050490",
+          "article-title": "A comparative study of metaheuristic algorithms for wave energy converter power take-off optimisation: A case study for eastern australia",
+          "volume": "9",
+          "author": "Amini",
+          "year": "2021",
+          "journal-title": "J. Mar. Sci. Eng."
+        },
+        {
+          "key": "10.1016/j.egyr.2022.10.403_b8",
+          "series-title": "User manual release 15.0",
+          "author": "Ansys",
+          "year": "2013"
+        },
+        {
+          "issue": "3",
+          "key": "10.1016/j.egyr.2022.10.403_b9",
+          "doi-asserted-by": "crossref",
+          "first-page": "899",
+          "DOI": "10.1016/j.rser.2009.11.003",
+          "article-title": "Wave energy utilization: A review of the technologies",
+          "volume": "14",
+          "author": "Antonio",
+          "year": "2010",
+          "journal-title": "Renew. Sustain. Energy Rev."
+        },
+        {
+          "issue": "1",
+          "key": "10.1016/j.egyr.2022.10.403_b10",
+          "doi-asserted-by": "crossref",
+          "first-page": "147",
+          "DOI": "10.1093/pubmed/fdr015",
+          "article-title": "‘Scoping the scope ‘of a Cochrane review",
+          "volume": "33",
+          "author": "Armstrong",
+          "year": "2011",
+          "journal-title": "J. Publ. Health"
+        },
+        {
+          "key": "10.1016/j.egyr.2022.10.403_b11",
+          "series-title": "Wave energy converters",
+          "author": "Aubry",
+          "year": "2011"
+        },
+        {
+          "key": "10.1016/j.egyr.2022.10.403_b12",
+          "series-title": "Bombora wave power cost of energy study",
+          "author": "Australian Renewable Energy Agency",
+          "year": "2020"
+        },
+        {
+          "key": "10.1016/j.egyr.2022.10.403_b13",
+          "series-title": "Carnegie ceto 6 technology",
+          "author": "Australian Renewable Energy Agency",
+          "year": "2021"
+        },
+        {
+          "key": "10.1016/j.egyr.2022.10.403_b14",
+          "series-title": "Uniwave200 king island project – wave swell",
+          "author": "Australian Renewable Energy Agency",
+          "year": "2021"
+        },
+        {
+          "issue": "8-9",
+          "key": "10.1016/j.egyr.2022.10.403_b15",
+          "doi-asserted-by": "crossref",
+          "first-page": "718",
+          "DOI": "10.1016/j.oceaneng.2010.02.002",
+          "article-title": "Impact of long separating distances on the energy production of two interacting wave energy converters",
+          "volume": "37",
+          "author": "Babarit",
+          "year": "2010",
+          "journal-title": "Ocean Eng."
+        },
+        {
+          "key": "10.1016/j.egyr.2022.10.403_b16",
+          "series-title": "Ocean Wave Energy Conversion: Resource, Technologies and Performance",
+          "author": "Babarit",
+          "year": "2017"
+        },
+        {
+          "key": "10.1016/j.egyr.2022.10.403_b17",
+          "unstructured": "Babarit, A., Clement, A., 2006. Shape optimisation of the searev wave energy converter. In: World Renewable Energy Conference. pp. 1–6."
+        },
+        {
+          "key": "10.1016/j.egyr.2022.10.403_b18",
+          "series-title": "International Conference on Offshore Mechanics and Arctic Engineering, vol. 45547",
+          "article-title": "Control-influenced layout optimization of arrays of wave energy converters",
+          "author": "Balitsky",
+          "year": "2014"
+        },
+        {
+          "issue": "6",
+          "key": "10.1016/j.egyr.2022.10.403_b19",
+          "doi-asserted-by": "crossref",
+          "first-page": "1137",
+          "DOI": "10.3390/w11061137",
+          "article-title": "Analysing the near-field effects and the power production of near-shore wec array using a new wave-to-wire model",
+          "volume": "11",
+          "author": "Balitsky",
+          "year": "2019",
+          "journal-title": "Water"
+        },
+        {
+          "key": "10.1016/j.egyr.2022.10.403_b20",
+          "unstructured": "Balitsky, P., Verao Fernandez, G., Stratigaki, V., Troch, P., 2017. Assessing the impact on power production of wec array separation distance in a wave farm using one-way coupling of a bem solver and a wave propagation model. In: EWTEC2017. pp. 1176–1186."
+        },
+        {
+          "key": "10.1016/j.egyr.2022.10.403_b21",
+          "series-title": "Evolutionary and Swarm Intelligence Algorithms, vol. 779",
+          "author": "Bansal",
+          "year": "2019"
+        },
+        {
+          "issue": "1",
+          "key": "10.1016/j.egyr.2022.10.403_b22",
+          "article-title": "On optimizing the wave energy converters configuration in a farm",
+          "volume": "1",
+          "author": "Behzad",
+          "year": "2019",
+          "journal-title": "Fluid Mech. Res. J."
+        },
+        {
+          "issue": "4",
+          "key": "10.1016/j.egyr.2022.10.403_b23",
+          "doi-asserted-by": "crossref",
+          "first-page": "815",
+          "DOI": "10.1007/s11081-017-9366-1",
+          "article-title": "Best practices for comparing optimization algorithms",
+          "volume": "18",
+          "author": "Beiranvand",
+          "year": "2017",
+          "journal-title": "Opt. Eng."
+        },
+        {
+          "key": "10.1016/j.egyr.2022.10.403_b24",
+          "series-title": "Numerical Analysis of Arrays of Wave Energy Converters",
+          "author": "Bharath",
+          "year": "2018"
+        },
+        {
+          "issue": "2",
+          "key": "10.1016/j.egyr.2022.10.403_b25",
+          "first-page": "137",
+          "article-title": "A survey of bio inspired optimization algorithms",
+          "volume": "2",
+          "author": "Binitha",
+          "year": "2012",
+          "journal-title": "Int. J. Soft Comput. Eng."
+        },
+        {
+          "key": "10.1016/j.egyr.2022.10.403_b26",
+          "doi-asserted-by": "crossref",
+          "first-page": "502",
+          "DOI": "10.1016/j.renene.2019.08.101",
+          "article-title": "Modelling of operation and optimum design of a wave power take-off system with energy storage",
+          "volume": "147",
+          "author": "Bonovas",
+          "year": "2020",
+          "journal-title": "Renew. Energy"
+        },
+        {
+          "key": "10.1016/j.egyr.2022.10.403_b27",
+          "doi-asserted-by": "crossref",
+          "first-page": "79",
+          "DOI": "10.1016/j.oceaneng.2011.12.025",
+          "article-title": "Impact of wave interactions effects on energy absorption in large arrays of wave energy converters",
+          "volume": "41",
+          "author": "Borgarino",
+          "year": "2012",
+          "journal-title": "Ocean Eng."
+        },
+        {
+          "issue": "3",
+          "key": "10.1016/j.egyr.2022.10.403_b28",
+          "doi-asserted-by": "crossref",
+          "first-page": "137",
+          "DOI": "10.36688/imej.3.137-143",
+          "article-title": "Array modeling and testing of fixed owc type wave energy converters",
+          "volume": "3",
+          "author": "Bosma",
+          "year": "2020",
+          "journal-title": "Int. Mar. Energy J."
+        },
+        {
+          "key": "10.1016/j.egyr.2022.10.403_b29",
+          "doi-asserted-by": "crossref",
+          "first-page": "162",
+          "DOI": "10.1016/j.oceaneng.2017.01.004",
+          "article-title": "Sequential optimization and performance prediction of an oscillating water column wave energy converter",
+          "volume": "131",
+          "author": "Bouali",
+          "year": "2017",
+          "journal-title": "Ocean Eng."
+        },
+        {
+          "key": "10.1016/j.egyr.2022.10.403_b30",
+          "doi-asserted-by": "crossref",
+          "first-page": "378",
+          "DOI": "10.1016/j.energy.2017.01.094",
+          "article-title": "Wave energy farm design in real wave climates: the italian offshore",
+          "volume": "122",
+          "author": "Bozzi",
+          "year": "2017",
+          "journal-title": "Energy"
+        },
+        {
+          "key": "10.1016/j.egyr.2022.10.403_b31",
+          "series-title": "2018 International Joint Conference on Neural Networks",
+          "first-page": "1",
+          "article-title": "Energy transduction optimization of a wave energy converter by evolutionaryalgorithms",
+          "author": "Capillo",
+          "year": "2018"
+        },
+        {
+          "key": "10.1016/j.egyr.2022.10.403_b32",
+          "doi-asserted-by": "crossref",
+          "first-page": "19",
+          "DOI": "10.1016/j.esd.2020.02.007",
+          "article-title": "Design optimization and experimental validation of a two-body wave energy converter with adjustable power take-off parameters",
+          "volume": "56",
+          "author": "Castro",
+          "year": "2020",
+          "journal-title": "Energy Sustain. Dev."
+        },
+        {
+          "key": "10.1016/j.egyr.2022.10.403_b33",
+          "doi-asserted-by": "crossref",
+          "first-page": "43",
+          "DOI": "10.1016/j.ins.2014.08.039",
+          "article-title": "A social learning particle swarm optimization algorithm for scalable optimization",
+          "volume": "291",
+          "author": "Cheng",
+          "year": "2015",
+          "journal-title": "Inform. Sci."
+        },
+        {
+          "key": "10.1016/j.egyr.2022.10.403_b34",
+          "unstructured": "Child, B., Cruz, J., Livingstone, M., 2011. The development of a tool for optimising of arrays of wave energy converters. In: Proceedings of the 9th European Wave and Tidal Energy Conference, Southampton, UK. pp. 5–9."
+        },
+        {
+          "issue": "16",
+          "key": "10.1016/j.egyr.2022.10.403_b35",
+          "doi-asserted-by": "crossref",
+          "first-page": "1402",
+          "DOI": "10.1016/j.oceaneng.2010.06.010",
+          "article-title": "Optimal configurations of wave energy device arrays",
+          "volume": "37",
+          "author": "Child",
+          "year": "2010",
+          "journal-title": "Ocean Eng."
+        },
+        {
+          "issue": "16",
+          "key": "10.1016/j.egyr.2022.10.403_b36",
+          "doi-asserted-by": "crossref",
+          "first-page": "1402",
+          "DOI": "10.1016/j.oceaneng.2010.06.010",
+          "article-title": "Optimal configurations of wave energy device arrays",
+          "volume": "37",
+          "author": "Child",
+          "year": "2010",
+          "journal-title": "Ocean Eng."
+        },
+        {
+          "key": "10.1016/j.egyr.2022.10.403_b37",
+          "series-title": "Zhoushan - first 500kw sharp eagle wave energy converter delivered",
+          "author": "Chinese Academy of Sciences",
+          "year": "2020"
+        },
+        {
+          "key": "10.1016/j.egyr.2022.10.403_b38",
+          "unstructured": "Clark, C.E., Garcia-Teruel, A., DuPont, B., Forehand, D., 2019. Towards reliability-based geometry optimization of a point-absorber with pto reliability objectives. In: Proceedings of the European Wave and Tidal Energy Conference, Naples, Italy."
+        },
+        {
+          "key": "10.1016/j.egyr.2022.10.403_b39",
+          "series-title": "Extreme Conditions Modeling for Wecs",
+          "author": "Coe",
+          "year": "2016"
+        },
+        {
+          "key": "10.1016/j.egyr.2022.10.403_b40",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Colby, M.K., Nasroullahi, E.M., Tumer, K., 2011. Optimizing ballast design of wave energy converters using evolutionary algorithms. In: Proceedings of the 13th Annual Conference on Genetic and Evolutionary Computation. pp. 1739–1746.",
+          "DOI": "10.1145/2001576.2001810"
+        },
+        {
+          "key": "10.1016/j.egyr.2022.10.403_b41",
+          "series-title": "Hiwave-5",
+          "author": "CorPower Ocean",
+          "year": "2019"
+        },
+        {
+          "issue": "9",
+          "key": "10.1016/j.egyr.2022.10.403_b42",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1063/5.0022401",
+          "article-title": "Comparison of wave–structure interaction dynamics of a submerged cylindrical point absorber with three degrees of freedom using potential flow and computational fluid dynamics models",
+          "volume": "32",
+          "author": "Dafnakis",
+          "year": "2020",
+          "journal-title": "Phys. Fluids"
+        },
+        {
+          "issue": "1",
+          "key": "10.1016/j.egyr.2022.10.403_b43",
+          "doi-asserted-by": "crossref",
+          "first-page": "35",
+          "DOI": "10.3390/jmse8010035",
+          "article-title": "Efficient nonlinear hydrodynamic models for wave energy converter design—a scoping study",
+          "volume": "8",
+          "author": "Davidson",
+          "year": "2020",
+          "journal-title": "J. Mar. Sci. Eng."
+        },
+        {
+          "key": "10.1016/j.egyr.2022.10.403_b44",
+          "doi-asserted-by": "crossref",
+          "first-page": "32",
+          "DOI": "10.1016/j.oceaneng.2014.02.027",
+          "article-title": "Factors that influence array layout on wave energy farms",
+          "volume": "82",
+          "author": "De Andrés",
+          "year": "2014",
+          "journal-title": "Ocean Eng."
+        },
+        {
+          "issue": "3",
+          "key": "10.1016/j.egyr.2022.10.403_b45",
+          "doi-asserted-by": "crossref",
+          "first-page": "641",
+          "DOI": "10.3390/en11030641",
+          "article-title": "Cfd simulations of floating point absorber wave energy converter arrays subjected to regular waves",
+          "volume": "11",
+          "author": "Devolder",
+          "year": "2018",
+          "journal-title": "Energies"
+        },
+        {
+          "key": "10.1016/j.egyr.2022.10.403_b46",
+          "series-title": "Doklady Akademii Nauk, vol. 174",
+          "first-page": "747",
+          "article-title": "Iterative solution of problems of linear and quadratic programming",
+          "author": "Dikin",
+          "year": "1967"
+        },
+        {
+          "key": "10.1016/j.egyr.2022.10.403_b47",
+          "series-title": "Niching-based evolutionary diversity optimization for the traveling salesperson problem",
+          "author": "Do",
+          "year": "2022"
+        },
+        {
+          "key": "10.1016/j.egyr.2022.10.403_b48",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1016/j.oceaneng.2020.108454",
+          "article-title": "Experimental and numerical study of a two-body heaving wave energy converter with different power take-off models",
+          "volume": "220",
+          "author": "Dong",
+          "year": "2021",
+          "journal-title": "Ocean Eng."
+        },
+        {
+          "issue": "8",
+          "key": "10.1016/j.egyr.2022.10.403_b49",
+          "doi-asserted-by": "crossref",
+          "first-page": "887",
+          "DOI": "10.1243/09576509JPE782",
+          "article-title": "A review of wave energy converter technology",
+          "volume": "223",
+          "author": "Drew",
+          "year": "2009",
+          "journal-title": "Proc. Inst. Mech. Eng. A"
+        },
+        {
+          "issue": "2",
+          "key": "10.1016/j.egyr.2022.10.403_b50",
+          "doi-asserted-by": "crossref",
+          "first-page": "348",
+          "DOI": "10.1016/j.renene.2009.04.028",
+          "article-title": "Design, construction, and ocean testing of a taut-moored dual-body wave energy converter with a linear generator power take-off",
+          "volume": "35",
+          "author": "Elwood",
+          "year": "2010",
+          "journal-title": "Renew. Energy"
+        },
+        {
+          "key": "10.1016/j.egyr.2022.10.403_b51",
+          "series-title": "Wello’s penguin wave energy converter sinks off the coast of Orkney",
+          "author": "Energy global news",
+          "year": "2019"
+        },
+        {
+          "key": "10.1016/j.egyr.2022.10.403_b52",
+          "series-title": "Corpower and ops primed for ‘industry advancing’ wave energy project",
+          "author": "ENERGY INDUSTRY REVIEW",
+          "year": "2021"
+        },
+        {
+          "issue": "1",
+          "key": "10.1016/j.egyr.2022.10.403_b53",
+          "doi-asserted-by": "crossref",
+          "first-page": "38",
+          "DOI": "10.1002/ese3.507",
+          "article-title": "Energy absorption from parks of point-absorbing wave energy converters in the swedish exclusive economic zone",
+          "volume": "8",
+          "author": "Engström",
+          "year": "2020",
+          "journal-title": "Energy Sci. Eng."
+        },
+        {
+          "key": "10.1016/j.egyr.2022.10.403_b54",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1016/j.oceaneng.2020.108275",
+          "article-title": "A parametric optimization study towards the preliminary design of point absorber type wave energy converters suitable for the turkish coasts of the black sea",
+          "volume": "218",
+          "author": "Erselcan",
+          "year": "2020",
+          "journal-title": "Ocean Eng."
+        },
+        {
+          "key": "10.1016/j.egyr.2022.10.403_b55",
+          "doi-asserted-by": "crossref",
+          "first-page": "186",
+          "DOI": "10.1016/j.oceaneng.2019.01.029",
+          "article-title": "Shape optimization of wave energy converters for broadband directional incident waves",
+          "volume": "174",
+          "author": "Esmaeilzadeh",
+          "year": "2019",
+          "journal-title": "Ocean Eng."
+        },
+        {
+          "key": "10.1016/j.egyr.2022.10.403_b56",
+          "doi-asserted-by": "crossref",
+          "first-page": "611",
+          "DOI": "10.1007/s42235-020-0049-9",
+          "article-title": "Review and classification of bio-inspired algorithms and their applications",
+          "volume": "17",
+          "author": "Fan",
+          "year": "2020",
+          "journal-title": "J. Bionic Eng."
+        },
+        {
+          "issue": "12",
+          "key": "10.1016/j.egyr.2022.10.403_b57",
+          "doi-asserted-by": "crossref",
+          "first-page": "3522",
+          "DOI": "10.3390/en11123522",
+          "article-title": "Optimization of wave energy converter arrays by an improved differential evolution algorithm",
+          "volume": "11",
+          "author": "Fang",
+          "year": "2018",
+          "journal-title": "Energies"
+        },
+        {
+          "issue": "12",
+          "key": "10.1016/j.egyr.2022.10.403_b58",
+          "doi-asserted-by": "crossref",
+          "first-page": "3522",
+          "DOI": "10.3390/en11123522",
+          "article-title": "Optimization of wave energy converter arrays by an improved differential evolution algorithm",
+          "volume": "11",
+          "author": "Fang",
+          "year": "2018",
+          "journal-title": "Energies"
+        },
+        {
+          "key": "10.1016/j.egyr.2022.10.403_b59",
+          "doi-asserted-by": "crossref",
+          "first-page": "402",
+          "DOI": "10.1016/j.egyr.2020.11.223",
+          "article-title": "Investigation of a double-degree-of-freedom wave energy converter",
+          "volume": "6",
+          "author": "Fang",
+          "year": "2020",
+          "journal-title": "Energy Rep."
+        },
+        {
+          "key": "10.1016/j.egyr.2022.10.403_b60",
+          "series-title": "Advances in Renewable Energies Offshore: Proceedings of the 3rd International Conference on Renewable Energies Offshore (RENEW), Ed G",
+          "first-page": "633",
+          "article-title": "Design of an optimization scheme for the wavesub array",
+          "author": "Faraggiana",
+          "year": "2019"
+        },
+        {
+          "key": "10.1016/j.egyr.2022.10.403_b61",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1016/j.knosys.2019.105190",
+          "article-title": "Equilibrium optimizer: A novel optimization algorithm",
+          "volume": "191",
+          "author": "Faramarzi",
+          "year": "2020",
+          "journal-title": "Knowl.-Based Syst."
+        },
+        {
+          "issue": "3",
+          "key": "10.1016/j.egyr.2022.10.403_b62",
+          "doi-asserted-by": "crossref",
+          "first-page": "773",
+          "DOI": "10.1109/TSTE.2015.2410784",
+          "article-title": "Latchingdeclutching control of wave energy converters using derivative-free optimization",
+          "volume": "6",
+          "author": "Feng",
+          "year": "2015",
+          "journal-title": "IEEE Trans. Sustain. Energy"
+        },
+        {
+          "key": "10.1016/j.egyr.2022.10.403_b63",
+          "series-title": "Comparison of RANS and Potential Flow Force Computations for the ONR Tumblehome Hullfrom in Vertical Plane Radiation and Diffraction Problems",
+          "author": "Field",
+          "year": "2013"
+        },
+        {
+          "key": "10.1016/j.egyr.2022.10.403_b64",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1016/j.oceaneng.2020.108416",
+          "article-title": "Development of a numerical model of the ceco wave energy converter using computational fluid dynamics",
+          "volume": "219",
+          "author": "Finnegan",
+          "year": "2021",
+          "journal-title": "Ocean Eng."
+        },
+        {
+          "key": "10.1016/j.egyr.2022.10.403_b65",
+          "doi-asserted-by": "crossref",
+          "first-page": "299",
+          "DOI": "10.1016/j.oceaneng.2017.11.026",
+          "article-title": "A numerical tool for the frequency domain simulation of large arrays of identical floating bodies in waves",
+          "volume": "148",
+          "author": "Flavià",
+          "year": "2018",
+          "journal-title": "Ocean Eng."
+        },
+        {
+          "key": "10.1016/j.egyr.2022.10.403_b66",
+          "series-title": "International Conference on Offshore Mechanics and Arctic Engineering, vol. 44946",
+          "first-page": "535",
+          "article-title": "A review of numerical modelling of wave energy converter arrays",
+          "author": "Folley",
+          "year": "2012"
+        },
+        {
+          "key": "10.1016/j.egyr.2022.10.403_b67",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Galván, B., Greiner, D., Periaux, J., Sefrioui, M., Winter, G., 2003. Parallel evolutionary computation for solving complex cfd optimization problems: a review and some nozzle applications. In: Parallel Computational Fluid Dynamics 2002. pp. 573–604.",
+          "DOI": "10.1016/B978-044450680-1/50072-3"
+        },
+        {
+          "issue": "2",
+          "key": "10.1016/j.egyr.2022.10.403_b68",
+          "doi-asserted-by": "crossref",
+          "first-page": "575",
+          "DOI": "10.1109/TSTE.2015.2394750",
+          "article-title": "Control-informed optimal array layout for wave farms",
+          "volume": "6",
+          "author": "Garcia-Rosa",
+          "year": "2015",
+          "journal-title": "IEEE Trans. Sustain. Energy"
+        },
+        {
+          "key": "10.1016/j.egyr.2022.10.403_b69",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1016/j.rser.2020.110593",
+          "article-title": "A review of geometry optimisation of wave energy converters",
+          "volume": "139",
+          "author": "Garcia-Teruel",
+          "year": "2021",
+          "journal-title": "Renew. Sustain. Energy Rev."
+        },
+        {
+          "key": "10.1016/j.egyr.2022.10.403_b70",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1016/j.rser.2020.110593",
+          "article-title": "A review of geometry optimisation of wave energy converters",
+          "volume": "139",
+          "author": "Garcia-Teruel",
+          "year": "2021",
+          "journal-title": "Renew. Sustain. Energy Rev."
+        },
+        {
+          "issue": "8",
+          "key": "10.1016/j.egyr.2022.10.403_b71",
+          "doi-asserted-by": "crossref",
+          "first-page": "1772",
+          "DOI": "10.2514/1.J050232",
+          "article-title": "Large-eddy simulation: current capabilities recommended practices, and future research",
+          "volume": "48",
+          "author": "Georgiadis",
+          "year": "2010",
+          "journal-title": "AIAA J."
+        },
+        {
+          "key": "10.1016/j.egyr.2022.10.403_b72",
+          "first-page": "1",
+          "article-title": "Cqffa: A chaotic quasi-oppositional farmland fertility algorithm for solving engineering optimization problems",
+          "author": "Gharehchopogh",
+          "year": "2022",
+          "journal-title": "J. Bionic Eng."
+        },
+        {
+          "issue": "01",
+          "key": "10.1016/j.egyr.2022.10.403_b73",
+          "doi-asserted-by": "crossref",
+          "first-page": "697",
+          "DOI": "10.4236/jmf.2020.104040",
+          "article-title": "Adaptive risk hedging for call options under cox-ingersoll- ross interest rates",
+          "volume": "10",
+          "author": "Ghorbani",
+          "year": "2020",
+          "journal-title": "J. Math. Finance"
+        },
+        {
+          "key": "10.1016/j.egyr.2022.10.403_b74",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1016/j.apor.2020.102274",
+          "article-title": "Economical layout optimization of wave energy parks clustered in electrical subsystems",
+          "volume": "101",
+          "author": "Giassi",
+          "year": "2020",
+          "journal-title": "Appl. Ocean Res."
+        },
+        {
+          "issue": "10",
+          "key": "10.1016/j.egyr.2022.10.403_b75",
+          "doi-asserted-by": "crossref",
+          "first-page": "750",
+          "DOI": "10.3390/jmse8100750",
+          "article-title": "Comparison of wave energy park layouts by experimental and numerical methods",
+          "volume": "8",
+          "author": "Giassi",
+          "year": "2020",
+          "journal-title": "J. Mar. Sci. Eng."
+        },
+        {
+          "key": "10.1016/j.egyr.2022.10.403_b76",
+          "unstructured": "Giassi, M., Göteman, M., 2017. Parameter optimization in wave energy design by a genetic algorithm. In: 32nd International Workshop on Water Waves and Floating Bodies (IWWWFB), 23-26th April, 2017, Dalian, China. pp. 1–6."
+        },
+        {
+          "key": "10.1016/j.egyr.2022.10.403_b77",
+          "doi-asserted-by": "crossref",
+          "first-page": "252",
+          "DOI": "10.1016/j.oceaneng.2018.01.096",
+          "article-title": "Layout design of wave energy parks by a genetic algorithm",
+          "volume": "154",
+          "author": "Giassi",
+          "year": "2018",
+          "journal-title": "Ocean Eng."
+        },
+        {
+          "key": "10.1016/j.egyr.2022.10.403_b78",
+          "unstructured": "Giassi, M., Göteman, M., Thomas, S., Engström, J., Eriksson, M., Isberg, J., 2017. Multi-parameter optimization of hybrid arrays of point absorber wave energy converters. In: 12th European Wave and Tidal Energy Conference (EWTEC), Cork, Ireland, August (2017) 27-31. pp. 1–6."
+        },
+        {
+          "key": "10.1016/j.egyr.2022.10.403_b79",
+          "series-title": "The Twentieth International Offshore and Polar Engineering Conference",
+          "first-page": "1",
+          "article-title": "Ips two-body wave energy converter: acceleration tube optimization",
+          "author": "Gomes",
+          "year": "2010"
+        },
+        {
+          "key": "10.1016/j.egyr.2022.10.403_b80",
+          "doi-asserted-by": "crossref",
+          "first-page": "328",
+          "DOI": "10.1016/j.renene.2012.01.105",
+          "article-title": "Hydrodynamic optimization of an axisymmetric floating oscillating water column for wave energy conversion",
+          "volume": "44",
+          "author": "Gomes",
+          "year": "2012",
+          "journal-title": "Renew. Energy"
+        },
+        {
+          "key": "10.1016/j.egyr.2022.10.403_b81",
+          "doi-asserted-by": "crossref",
+          "first-page": "142",
+          "DOI": "10.1016/j.jfluidstructs.2017.07.012",
+          "article-title": "Wave energy parks with point-absorbers of different dimensions",
+          "volume": "74",
+          "author": "Göteman",
+          "year": "2017",
+          "journal-title": "J. Fluids Struct."
+        },
+        {
+          "issue": "12",
+          "key": "10.1016/j.egyr.2022.10.403_b82",
+          "doi-asserted-by": "crossref",
+          "first-page": "13741",
+          "DOI": "10.3390/en81212394",
+          "article-title": "Fast modeling of large wave energy farms using interaction distance cut-off",
+          "volume": "8",
+          "author": "Göteman",
+          "year": "2015",
+          "journal-title": "Energies"
+        },
+        {
+          "key": "10.1016/j.egyr.2022.10.403_b83",
+          "doi-asserted-by": "crossref",
+          "first-page": "113",
+          "DOI": "10.1016/j.ijome.2015.02.001",
+          "article-title": "Optimizing wave energy parks with over 1000 interacting point-absorbers using an approximate analytical method",
+          "volume": "10",
+          "author": "Göteman",
+          "year": "2015",
+          "journal-title": "Int. J. Mar. Energy"
+        },
+        {
+          "issue": "4",
+          "key": "10.1016/j.egyr.2022.10.403_b84",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1063/1.4889880",
+          "article-title": "Methods of reducing power fluctuations in wave energy parks",
+          "volume": "6",
+          "author": "Göteman",
+          "year": "2014",
+          "journal-title": "J. Renew. Sustain. Energy"
+        },
+        {
+          "key": "10.1016/j.egyr.2022.10.403_b85",
+          "doi-asserted-by": "crossref",
+          "first-page": "26",
+          "DOI": "10.3389/fenrg.2020.00026",
+          "article-title": "Advances and challenges in wave energy park optimization—a review",
+          "volume": "8",
+          "author": "Göteman",
+          "year": "2020",
+          "journal-title": "Front. Energy Res."
+        },
+        {
+          "issue": "4",
+          "key": "10.1016/j.egyr.2022.10.403_b86",
+          "doi-asserted-by": "crossref",
+          "first-page": "964",
+          "DOI": "10.3390/en11040964",
+          "article-title": "Arrays of point-absorbing wave energy converters in short-crested irregular waves",
+          "volume": "11",
+          "author": "Göteman",
+          "year": "2018",
+          "journal-title": "Energies"
+        },
+        {
+          "key": "10.1016/j.egyr.2022.10.403_b87",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1016/j.apenergy.2021.117100",
+          "article-title": "Geometric optimisation of wave energy conversion devices: A survey",
+          "volume": "297",
+          "author": "Guo",
+          "year": "2021",
+          "journal-title": "Appl. Energy"
+        },
+        {
+          "key": "10.1016/j.egyr.2022.10.403_b88",
+          "doi-asserted-by": "crossref",
+          "first-page": "75",
+          "DOI": "10.1007/3-540-32494-1_4",
+          "article-title": "The cma evolution strategy: a comparing review",
+          "author": "Hansen",
+          "year": "2006",
+          "journal-title": "Towards New Evolut. Comput."
+        },
+        {
+          "key": "10.1016/j.egyr.2022.10.403_b89",
+          "series-title": "Proceedings of IEEE International Conference on Evolutionary Computation",
+          "first-page": "312",
+          "article-title": "Adapting arbitrary normal mutation distributions in evolution strategies: The covariance matrix adaptation",
+          "author": "Hansen",
+          "year": "1996"
+        },
+        {
+          "issue": "10",
+          "key": "10.1016/j.egyr.2022.10.403_b90",
+          "doi-asserted-by": "crossref",
+          "first-page": "2107",
+          "DOI": "10.1007/s10098-020-01962-4",
+          "article-title": "Identifying cost-optimal options for a typical residential nearly zero energy building’s design in developing countries",
+          "volume": "22",
+          "author": "Heravi",
+          "year": "2020",
+          "journal-title": "Clean Technol. Environ. Policy"
+        },
+        {
+          "issue": "1",
+          "key": "10.1016/j.egyr.2022.10.403_b91",
+          "doi-asserted-by": "crossref",
+          "first-page": "66",
+          "DOI": "10.1038/scientificamerican0792-66",
+          "article-title": "Genetic algorithms",
+          "volume": "267",
+          "author": "Holland",
+          "year": "1992",
+          "journal-title": "Sci. Am."
+        },
+        {
+          "issue": "3",
+          "key": "10.1016/j.egyr.2022.10.403_b92",
+          "doi-asserted-by": "crossref",
+          "first-page": "1",
+          "DOI": "10.1109/TASC.2013.2288095",
+          "article-title": "Winding configuration and performance investigations of a tubular superconducting flux-switching linear generator",
+          "volume": "25",
+          "author": "Huang",
+          "year": "2014",
+          "journal-title": "IEEE Trans. Appl. Supercond."
+        },
+        {
+          "issue": "5",
+          "key": "10.1016/j.egyr.2022.10.403_b93",
+          "doi-asserted-by": "crossref",
+          "first-page": "1917",
+          "DOI": "10.1109/TMAG.2013.2239981",
+          "article-title": "Research on a tubular primary permanent-magnet linear generator for wave energy conversions",
+          "volume": "49",
+          "author": "Huang",
+          "year": "2013",
+          "journal-title": "IEEE Trans. Magn."
+        },
+        {
+          "issue": "5",
+          "key": "10.1016/j.egyr.2022.10.403_b94",
+          "doi-asserted-by": "crossref",
+          "first-page": "1034",
+          "DOI": "10.1109/TMAG.2010.2093509",
+          "article-title": "A novel flux-switching permanent-magnet linear generator for wave energy extraction application",
+          "volume": "47",
+          "author": "Huang",
+          "year": "2011",
+          "journal-title": "IEEE Trans. Magn."
+        },
+        {
+          "key": "10.1016/j.egyr.2022.10.403_b95",
+          "article-title": "Hydrokinetic energy harnessing technologies: A review",
+          "volume": "7",
+          "author": "Ibrahim",
+          "year": "2021",
+          "journal-title": "Energy Rep."
+        },
+        {
+          "issue": "1",
+          "key": "10.1016/j.egyr.2022.10.403_b96",
+          "doi-asserted-by": "crossref",
+          "first-page": "79",
+          "DOI": "10.3390/en14010079",
+          "article-title": "An estimation of hydraulic power take-off unit parameters for wave energy converter device using non-evolutionary nlpql and evolutionary ga approaches",
+          "volume": "14",
+          "author": "Jusoh",
+          "year": "2021",
+          "journal-title": "Energies"
+        },
+        {
+          "key": "10.1016/j.egyr.2022.10.403_b97",
+          "doi-asserted-by": "crossref",
+          "first-page": "189",
+          "DOI": "10.1017/S0022112086000101",
+          "article-title": "Interactions among multiple three-dimensional bodies in water waves: an exact algebraic method",
+          "volume": "166",
+          "author": "Kagemoto",
+          "year": "1986",
+          "journal-title": "J. Fluid Mech."
+        },
+        {
+          "issue": "4",
+          "key": "10.1016/j.egyr.2022.10.403_b98",
+          "doi-asserted-by": "crossref",
+          "first-page": "851",
+          "DOI": "10.1137/S0895479894273134",
+          "article-title": "Some noninterior continuation methods for linear complementarity problems",
+          "volume": "17",
+          "author": "Kanzow",
+          "year": "1996",
+          "journal-title": "SIAM J. Matrix Anal. Appl."
+        },
+        {
+          "key": "10.1016/j.egyr.2022.10.403_b99",
+          "doi-asserted-by": "crossref",
+          "first-page": "1",
+          "DOI": "10.1016/j.asoc.2017.11.046",
+          "article-title": "Evolutionary multi-objective optimization assisted by metamodels, Kernel Pca and multi-criteria decision making techniques with applications in aerodynamics",
+          "volume": "64",
+          "author": "Kapsoulis",
+          "year": "2018",
+          "journal-title": "Appl. Soft Comput."
+        },
+        {
+          "key": "10.1016/j.egyr.2022.10.403_b100",
+          "series-title": "Proceedings of ICNN’95-International Conference on Neural Networks, vol. 4",
+          "first-page": "1942",
+          "article-title": "Particle swarm optimization",
+          "author": "Kennedy",
+          "year": "1995"
+        },
+        {
+          "key": "10.1016/j.egyr.2022.10.403_b101",
+          "series-title": "Marine Energy in the United States: An Overview of Opportunities",
+          "author": "Kilcher",
+          "year": "2021"
+        },
+        {
+          "issue": "4598",
+          "key": "10.1016/j.egyr.2022.10.403_b102",
+          "doi-asserted-by": "crossref",
+          "first-page": "671",
+          "DOI": "10.1126/science.220.4598.671",
+          "article-title": "Optimization by simulated annealing",
+          "volume": "220",
+          "author": "Kirkpatrick",
+          "year": "1983",
+          "journal-title": "Science"
+        },
+        {
+          "issue": "01",
+          "key": "10.1016/j.egyr.2022.10.403_b103",
+          "doi-asserted-by": "crossref",
+          "first-page": "152",
+          "DOI": "10.4236/jmf.2021.111007",
+          "article-title": "Put options with linear investment for hull-white interest rates",
+          "volume": "11",
+          "author": "Korzeniowski",
+          "year": "2021",
+          "journal-title": "J. Math. Finance"
+        },
+        {
+          "issue": "3",
+          "key": "10.1016/j.egyr.2022.10.403_b104",
+          "doi-asserted-by": "crossref",
+          "first-page": "262",
+          "DOI": "10.1145/192115.192124",
+          "article-title": "Algorithm 733: Tomp–fortran modules for optimal control calculations",
+          "volume": "20",
+          "author": "Kraft",
+          "year": "1994",
+          "journal-title": "ACM Trans. Math. Softw."
+        },
+        {
+          "issue": "3",
+          "key": "10.1016/j.egyr.2022.10.403_b105",
+          "doi-asserted-by": "crossref",
+          "first-page": "209",
+          "DOI": "10.3233/MGS-2006-2301",
+          "article-title": "Glowworm swarm based optimization algorithm for multimodal functions with collective robotics applications",
+          "volume": "2",
+          "author": "Krishnan",
+          "year": "2006",
+          "journal-title": "Multiagent Grid Syst."
+        },
+        {
+          "key": "10.1016/j.egyr.2022.10.403_b106",
+          "doi-asserted-by": "crossref",
+          "first-page": "5067",
+          "DOI": "10.1016/j.egyr.2022.03.177",
+          "article-title": "Wave energy assessment based on reanalysis data calibrated by buoy observations in the southern south China sea",
+          "volume": "8",
+          "author": "Li",
+          "year": "2022",
+          "journal-title": "Energy Rep."
+        },
+        {
+          "key": "10.1016/j.egyr.2022.10.403_b107",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1016/j.energy.2020.116927",
+          "article-title": "Optimum power analysis of a self-reactive wave energy point absorber with mechanically-driven power take-offs",
+          "volume": "195",
+          "author": "Li",
+          "year": "2020",
+          "journal-title": "Energy"
+        },
+        {
+          "issue": "1",
+          "key": "10.1016/j.egyr.2022.10.403_b108",
+          "doi-asserted-by": "crossref",
+          "first-page": "205",
+          "DOI": "10.3390/w12010205",
+          "article-title": "Numerical analysis of combined wave radiation and diffraction on a floating barge",
+          "volume": "12",
+          "author": "Li",
+          "year": "2020",
+          "journal-title": "Water"
+        },
+        {
+          "key": "10.1016/j.egyr.2022.10.403_b109",
+          "doi-asserted-by": "crossref",
+          "first-page": "01073",
+          "DOI": "10.1051/e3sconf/202018501073",
+          "article-title": "Optimization design for ocean wave energy convertor",
+          "volume": "185",
+          "author": "Liu",
+          "year": "2020",
+          "journal-title": "E3S Web Conf."
+        },
+        {
+          "key": "10.1016/j.egyr.2022.10.403_b110",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1016/j.enconman.2020.112677",
+          "article-title": "Prediction and optimization of oscillating wave surge converter using machine learning techniques",
+          "volume": "210",
+          "author": "Liu",
+          "year": "2020",
+          "journal-title": "Energy Convers. Manage."
+        },
+        {
+          "key": "10.1016/j.egyr.2022.10.403_b111",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1016/j.oceaneng.2020.108380",
+          "article-title": "Proposal of a novel analytical wake model and array optimization of oscillating wave surge converter using differential evolution algorithm",
+          "volume": "219",
+          "author": "Liu",
+          "year": "2021",
+          "journal-title": "Ocean Eng."
+        },
+        {
+          "key": "10.1016/j.egyr.2022.10.403_b112",
+          "doi-asserted-by": "crossref",
+          "first-page": "644",
+          "DOI": "10.1007/s10409-020-00958-z",
+          "article-title": "Survey of the mechanisms of power take-off (pto) devices of wave energy converters",
+          "volume": "36",
+          "author": "Liu",
+          "year": "2020",
+          "journal-title": "Acta Mech. Sinica"
+        },
+        {
+          "key": "10.1016/j.egyr.2022.10.403_b113",
+          "series-title": "Powering the Blue Economy; Exploring Opportunities for Marine Renewable Energy in Maritime Markets",
+          "first-page": "207",
+          "author": "LiVecchi",
+          "year": "2019"
+        },
+        {
+          "key": "10.1016/j.egyr.2022.10.403_b114",
+          "doi-asserted-by": "crossref",
+          "first-page": "413",
+          "DOI": "10.1016/j.rser.2013.07.009",
+          "article-title": "Review of wave energy technologies and the necessary power equipment",
+          "volume": "27",
+          "author": "López",
+          "year": "2013",
+          "journal-title": "Renew. Sustain. Energy Rev."
+        },
+        {
+          "key": "10.1016/j.egyr.2022.10.403_b115",
+          "doi-asserted-by": "crossref",
+          "first-page": "126",
+          "DOI": "10.1016/j.energy.2018.04.018",
+          "article-title": "A methodology for the long-term simulation and uncertainty analysis of the operational lifetime performance of wave energy converter arrays",
+          "volume": "153",
+          "author": "López-Ruiz",
+          "year": "2018",
+          "journal-title": "Energy"
+        },
+        {
+          "key": "10.1016/j.egyr.2022.10.403_b116",
+          "doi-asserted-by": "crossref",
+          "first-page": "20",
+          "DOI": "10.1016/j.apenergy.2017.10.062",
+          "article-title": "Towards an optimum design of wave energy converter arrays through an integrated approach of life cycle performance and operational capacity",
+          "volume": "209",
+          "author": "López-Ruiz",
+          "year": "2018",
+          "journal-title": "Appl. Energy"
+        },
+        {
+          "key": "10.1016/j.egyr.2022.10.403_b117",
+          "doi-asserted-by": "crossref",
+          "first-page": "189",
+          "DOI": "10.1016/j.renene.2021.07.040",
+          "article-title": "Layout optimization of heaving wave energy converters linear arrays in front of a vertical wall",
+          "volume": "179",
+          "author": "Loukogeorgaki",
+          "year": "2021",
+          "journal-title": "Renew. Energy"
+        },
+        {
+          "key": "10.1016/j.egyr.2022.10.403_b118",
+          "series-title": "Strategic Research and Innovation Agenda for Ocean Energy",
+          "author": "Luis Villate",
+          "year": "2020"
+        },
+        {
+          "key": "10.1016/j.egyr.2022.10.403_b119",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1016/j.oceaneng.2019.106543",
+          "article-title": "Optimization of dimensions and layout of an array of wave energy converters",
+          "volume": "192",
+          "author": "Lyu",
+          "year": "2019",
+          "journal-title": "Ocean Eng."
+        },
+        {
+          "issue": "11",
+          "key": "10.1016/j.egyr.2022.10.403_b120",
+          "doi-asserted-by": "crossref",
+          "first-page": "3866",
+          "DOI": "10.1002/ese3.783",
+          "article-title": "Research on design and optimization of the pitching float wave energy converter",
+          "volume": "8",
+          "author": "Ma",
+          "year": "2020",
+          "journal-title": "Energy Sci. Eng."
+        },
+        {
+          "key": "10.1016/j.egyr.2022.10.403_b121",
+          "series-title": "Ocean Energy Technology Development Report 2020",
+          "author": "Magagna",
+          "year": "2020"
+        },
+        {
+          "issue": "2",
+          "key": "10.1016/j.egyr.2022.10.403_b122",
+          "doi-asserted-by": "crossref",
+          "first-page": "1679",
+          "DOI": "10.1016/j.asoc.2010.04.024",
+          "article-title": "Differential evolution algorithm with ensemble of parameters and mutation strategies",
+          "volume": "11",
+          "author": "Mallipeddi",
+          "year": "2011",
+          "journal-title": "Appl. Soft Comput."
+        },
+        {
+          "key": "10.1016/j.egyr.2022.10.403_b123",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1016/j.oceaneng.2020.107765",
+          "article-title": "Development and analysis of a numerical model for a two-oscillating-body wave energy converter in shallow water",
+          "volume": "214",
+          "author": "Marchesi",
+          "year": "2020",
+          "journal-title": "Ocean Eng."
+        },
+        {
+          "key": "10.1016/j.egyr.2022.10.403_b124",
+          "series-title": "The Twenty-Second International Offshore and Polar Engineering Conference",
+          "first-page": "1",
+          "article-title": "Geometry optimization of an overtopping wave energy device implemented into the new breakwater of the hanstholm port expansion",
+          "author": "Margheritini",
+          "year": "2012"
+        },
+        {
+          "key": "10.1016/j.egyr.2022.10.403_b125",
+          "doi-asserted-by": "crossref",
+          "first-page": "727",
+          "DOI": "10.1016/j.renene.2017.11.061",
+          "article-title": "Geometric evaluation of the main operational principle of an overtopping wave energy converter by means of constructal design",
+          "volume": "118",
+          "author": "Martins",
+          "year": "2018",
+          "journal-title": "Renew. Energy"
+        },
+        {
+          "issue": "5",
+          "key": "10.1016/j.egyr.2022.10.403_b126",
+          "doi-asserted-by": "crossref",
+          "first-page": "485",
+          "DOI": "10.1016/0029-8018(91)90027-N",
+          "article-title": "Hydrodynamic coefficients for groups of interacting vertical axisymmetric bodies",
+          "volume": "18",
+          "author": "Mavrakos",
+          "year": "1991",
+          "journal-title": "Ocean Eng."
+        },
+        {
+          "issue": "3",
+          "key": "10.1016/j.egyr.2022.10.403_b127",
+          "doi-asserted-by": "crossref",
+          "first-page": "128",
+          "DOI": "10.1016/0141-1187(87)90017-4",
+          "article-title": "Hydrodynamic interaction among vertical axisymmetric bodies restrained in waves",
+          "volume": "9",
+          "author": "Mavrakos",
+          "year": "1987",
+          "journal-title": "Appl. Ocean Res."
+        },
+        {
+          "issue": "4",
+          "key": "10.1016/j.egyr.2022.10.403_b128",
+          "doi-asserted-by": "crossref",
+          "first-page": "439",
+          "DOI": "10.1007/s40722-016-0064-4",
+          "article-title": "Hydrodynamic optimisation of small arrays of heaving point absorbers",
+          "volume": "2",
+          "author": "McGuinness",
+          "year": "2016",
+          "journal-title": "J. Ocean Eng. Mar. Energy"
+        },
+        {
+          "key": "10.1016/j.egyr.2022.10.403_b129",
+          "doi-asserted-by": "crossref",
+          "first-page": "173",
+          "DOI": "10.1016/j.oceaneng.2014.11.029",
+          "article-title": "A novel method for deriving the diffraction transfer matrix and its application to multi-body interactions in water waves",
+          "volume": "94",
+          "author": "McNatt",
+          "year": "2015",
+          "journal-title": "Ocean Eng."
+        },
+        {
+          "key": "10.1016/j.egyr.2022.10.403_b130",
+          "doi-asserted-by": "crossref",
+          "first-page": "228",
+          "DOI": "10.1016/j.knosys.2015.07.006",
+          "article-title": "Moth-flame optimization algorithm: A novel nature-inspired heuristic paradigm",
+          "volume": "89",
+          "author": "Mirjalili",
+          "year": "2015",
+          "journal-title": "Knowl.-Based Syst."
+        },
+        {
+          "issue": "4",
+          "key": "10.1016/j.egyr.2022.10.403_b131",
+          "doi-asserted-by": "crossref",
+          "first-page": "1053",
+          "DOI": "10.1007/s00521-015-1920-1",
+          "article-title": "Dragonfly algorithm: a new meta-heuristic optimization technique for solving single-objective, discrete, and multi-objective problems",
+          "volume": "27",
+          "author": "Mirjalili",
+          "year": "2016",
+          "journal-title": "Neural Comput. Appl."
+        },
+        {
+          "key": "10.1016/j.egyr.2022.10.403_b132",
+          "doi-asserted-by": "crossref",
+          "first-page": "163",
+          "DOI": "10.1016/j.advengsoft.2017.07.002",
+          "article-title": "Salp swarm algorithm: A bio-inspired optimizer for engineering design problems",
+          "volume": "114",
+          "author": "Mirjalili",
+          "year": "2017",
+          "journal-title": "Adv. Eng. Softw."
+        },
+        {
+          "key": "10.1016/j.egyr.2022.10.403_b133",
+          "doi-asserted-by": "crossref",
+          "first-page": "50",
+          "DOI": "10.1016/j.knosys.2017.07.018",
+          "article-title": "Optimization of problems with multiple objectives using the multi-verse optimization algorithm",
+          "volume": "134",
+          "author": "Mirjalili",
+          "year": "2017",
+          "journal-title": "Knowl.-Based Syst."
+        },
+        {
+          "issue": "1",
+          "key": "10.1016/j.egyr.2022.10.403_b134",
+          "doi-asserted-by": "crossref",
+          "first-page": "79",
+          "DOI": "10.1007/s10489-016-0825-8",
+          "article-title": "Multi-objective ant lion optimizer: a multi-objective optimization algorithm for solving engineering problems",
+          "volume": "46",
+          "author": "Mirjalili",
+          "year": "2017",
+          "journal-title": "Appl. Intell."
+        },
+        {
+          "issue": "2",
+          "key": "10.1016/j.egyr.2022.10.403_b135",
+          "doi-asserted-by": "crossref",
+          "first-page": "495",
+          "DOI": "10.1007/s00521-015-1870-7",
+          "article-title": "Multi-verse optimizer: a nature-inspired algorithm for global optimization",
+          "volume": "27",
+          "author": "Mirjalili",
+          "year": "2016",
+          "journal-title": "Neural Comput. Appl."
+        },
+        {
+          "issue": "4",
+          "key": "10.1016/j.egyr.2022.10.403_b136",
+          "doi-asserted-by": "crossref",
+          "first-page": "805",
+          "DOI": "10.1007/s10489-017-1019-8",
+          "article-title": "Grasshopper optimization algorithm for multi-objective optimization problems",
+          "volume": "48",
+          "author": "Mirjalili",
+          "year": "2018",
+          "journal-title": "Appl. Intell."
+        },
+        {
+          "key": "10.1016/j.egyr.2022.10.403_b137",
+          "doi-asserted-by": "crossref",
+          "first-page": "185",
+          "DOI": "10.1016/j.omega.2016.06.004",
+          "article-title": "Layouts for ocean wave energy farms: Models properties, and optimization",
+          "volume": "66",
+          "author": "Moarefdoost",
+          "year": "2017",
+          "journal-title": "Omega"
+        },
+        {
+          "key": "10.1016/j.egyr.2022.10.403_b138",
+          "series-title": "The Twentieth International Offshore and Polar Engineering Conference",
+          "first-page": "1",
+          "article-title": "Rans simulations of a calm buoy in regular and irregular seas using the swense method",
+          "author": "Monroy",
+          "year": "2010"
+        },
+        {
+          "issue": "4",
+          "key": "10.1016/j.egyr.2022.10.403_b139",
+          "doi-asserted-by": "crossref",
+          "first-page": "650",
+          "DOI": "10.3390/w14040650",
+          "article-title": "Flow discharge prediction study using a cfd-based numerical model and gene expression programming",
+          "volume": "14",
+          "author": "Mozaffari",
+          "year": "2022",
+          "journal-title": "Water"
+        },
+        {
+          "issue": "6",
+          "key": "10.1016/j.egyr.2022.10.403_b140",
+          "doi-asserted-by": "crossref",
+          "first-page": "647",
+          "DOI": "10.1049/ip-epa:20030642",
+          "article-title": "Modelling the performance of the vernier hybrid machine",
+          "volume": "150",
+          "author": "Mueller",
+          "year": "2003",
+          "journal-title": "IEE Proc.-Electr. Power Appl."
+        },
+        {
+          "issue": "1",
+          "key": "10.1016/j.egyr.2022.10.403_b141",
+          "doi-asserted-by": "crossref",
+          "first-page": "1",
+          "DOI": "10.1186/s12874-018-0611-x",
+          "article-title": "Systematic review or scoping review? guidance for authors when choosing between a systematic or scoping review approach",
+          "volume": "18",
+          "author": "Munn",
+          "year": "2018",
+          "journal-title": "BMC Med. Res. Methodol."
+        },
+        {
+          "key": "10.1016/j.egyr.2022.10.403_b142",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1016/j.jocs.2022.101636",
+          "article-title": "Ggwo: Gaze cues learning-based grey wolf optimizer and its applications for solving engineering problems",
+          "volume": "61",
+          "author": "Nadimi-Shahraki",
+          "year": "2022",
+          "journal-title": "J. Comput. Sci."
+        },
+        {
+          "key": "10.1016/j.egyr.2022.10.403_b143",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1016/j.eswa.2022.116895",
+          "article-title": "Dmde: Diversity-maintained multi-trial vector differential evolution algorithm for non-decomposition large-scale global optimization",
+          "volume": "198",
+          "author": "Nadimi-Shahraki",
+          "year": "2022",
+          "journal-title": "Expert Syst. Appl."
+        },
+        {
+          "key": "10.1016/j.egyr.2022.10.403_b144",
+          "series-title": "International Conference on Neural Information Processing",
+          "first-page": "353",
+          "article-title": "Adaptive neuro-surrogate-based optimisation method for wave energyconverters placement optimisation",
+          "author": "Neshat",
+          "year": "2019"
+        },
+        {
+          "key": "10.1016/j.egyr.2022.10.403_b145",
+          "doi-asserted-by": "crossref",
+          "first-page": "1293",
+          "DOI": "10.1145/3321707.3321806",
+          "article-title": "A hybrid evolutionary algorithm framework for optimising power take off and placements of wave energy converters",
+          "author": "Neshat",
+          "year": "2019",
+          "journal-title": "Proc. Gen. Evol. Comput. Conf."
+        },
+        {
+          "key": "10.1016/j.egyr.2022.10.403_b146",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1016/j.swevo.2020.100744",
+          "article-title": "New insights into position optimisation of wave energy converters using hybrid local search",
+          "volume": "59",
+          "author": "Neshat",
+          "year": "2020",
+          "journal-title": "Swarm Evol. Comput."
+        },
+        {
+          "key": "10.1016/j.egyr.2022.10.403_b147",
+          "series-title": "Proceedings of the 2020 Genetic and Evolutionary Computation Conference",
+          "first-page": "1150",
+          "article-title": "Optimisation of large wave farms using a multi-strategy evolutionary framework",
+          "author": "Neshat",
+          "year": "2020"
+        },
+        {
+          "key": "10.1016/j.egyr.2022.10.403_b148",
+          "doi-asserted-by": "crossref",
+          "first-page": "218",
+          "DOI": "10.1016/j.ins.2020.03.112",
+          "article-title": "A hybrid cooperative co-evolution algorithm framework for optimising power take off and placements of wave energy converters",
+          "volume": "534",
+          "author": "Neshat",
+          "year": "2020",
+          "journal-title": "Inform. Sci."
+        },
+        {
+          "key": "10.1016/j.egyr.2022.10.403_b149",
+          "series-title": "Proceedings of the Genetic and Evolutionary Computation Conference",
+          "first-page": "1318",
+          "article-title": "A detailed comparison of meta-heuristic methods for optimising wave energy converter placements",
+          "author": "Neshat",
+          "year": "2018"
+        },
+        {
+          "key": "10.1016/j.egyr.2022.10.403_b150",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1016/j.energy.2021.122463",
+          "article-title": "Layout optimisation of offshore wave energy converters using a novel multi-swarm cooperative algorithm with backtracking strategy: A case study from coasts of Australia",
+          "volume": "239",
+          "author": "Neshat",
+          "year": "2022",
+          "journal-title": "Energy"
+        },
+        {
+          "issue": "20",
+          "key": "10.1016/j.egyr.2022.10.403_b151",
+          "doi-asserted-by": "crossref",
+          "first-page": "5498",
+          "DOI": "10.3390/en13205498",
+          "article-title": "A new bi-level optimisation framework for optimising a multi-mode wave energy converter design: A case study for the marettimo island Mediterranean Sea",
+          "volume": "13",
+          "author": "Neshat",
+          "year": "2020",
+          "journal-title": "Energies"
+        },
+        {
+          "issue": "13",
+          "key": "10.1016/j.egyr.2022.10.403_b152",
+          "doi-asserted-by": "crossref",
+          "first-page": "3737",
+          "DOI": "10.3390/en14133737",
+          "article-title": "Multi-mode wave energy converter design optimisation using an improved moth flame optimisation algorithm",
+          "volume": "14",
+          "author": "Neshat",
+          "year": "2021",
+          "journal-title": "Energies"
+        },
+        {
+          "key": "10.1016/j.egyr.2022.10.403_b153",
+          "series-title": "Coevolutionary pareto diversity optimization",
+          "author": "Neumann",
+          "year": "2022"
+        },
+        {
+          "key": "10.1016/j.egyr.2022.10.403_b154",
+          "doi-asserted-by": "crossref",
+          "first-page": "237",
+          "DOI": "10.1016/j.apor.2015.01.020",
+          "article-title": "Optimisation of arrays of flap-type oscillating wave surge converters",
+          "volume": "50",
+          "author": "Noad",
+          "year": "2015",
+          "journal-title": "Appl. Ocean Res."
+        },
+        {
+          "key": "10.1016/j.egyr.2022.10.403_b155",
+          "series-title": "Numerical Optimization",
+          "author": "Nocedal",
+          "year": "2006"
+        },
+        {
+          "key": "10.1016/j.egyr.2022.10.403_b156",
+          "series-title": "Ocean Energy Systems Annual Report 2019",
+          "author": "Ocean Energy Systems (OES)",
+          "year": "2020"
+        },
+        {
+          "key": "10.1016/j.egyr.2022.10.403_b157",
+          "series-title": "Proceedings of International Symposium on the Dynamics of Marine Vehicles and Structures in Waves, 1974",
+          "first-page": "1",
+          "article-title": "Hydrodynamic forces on multiple cylinders in waves",
+          "author": "Ohkusu",
+          "year": "1974"
+        },
+        {
+          "key": "10.1016/j.egyr.2022.10.403_b158",
+          "series-title": "Triton wec",
+          "author": "Oscilla Power",
+          "year": "2020"
+        },
+        {
+          "issue": "10",
+          "key": "10.1016/j.egyr.2022.10.403_b159",
+          "doi-asserted-by": "crossref",
+          "first-page": "5298",
+          "DOI": "10.1109/TPEL.2013.2292069",
+          "article-title": "On the voltage ripple reduction control of the linear switched reluctance generator for wave energy utilization",
+          "volume": "29",
+          "author": "Pan",
+          "year": "2013",
+          "journal-title": "IEEE Trans. Power Electron."
+        },
+        {
+          "issue": "11",
+          "key": "10.1016/j.egyr.2022.10.403_b160",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1063/5.0028500",
+          "article-title": "An adaptive and energy-maximizing control optimization of wave energy converters using an extremum-seeking approach",
+          "volume": "32",
+          "author": "Parrinello",
+          "year": "2020",
+          "journal-title": "Phys. Fluids"
+        },
+        {
+          "key": "10.1016/j.egyr.2022.10.403_b161",
+          "series-title": "Handbook of ocean wave energy",
+          "author": "Pecher",
+          "year": "2017"
+        },
+        {
+          "key": "10.1016/j.egyr.2022.10.403_b162",
+          "doi-asserted-by": "crossref",
+          "first-page": "1188",
+          "DOI": "10.1016/j.rser.2016.11.137",
+          "article-title": "Mathematical modelling of wave energy converters: A review of nonlinear approaches",
+          "volume": "78",
+          "author": "Penalba",
+          "year": "2017",
+          "journal-title": "Renew. Sustain. Energy Rev."
+        },
+        {
+          "key": "10.1016/j.egyr.2022.10.403_b163",
+          "doi-asserted-by": "crossref",
+          "first-page": "1188",
+          "DOI": "10.1016/j.rser.2016.11.137",
+          "article-title": "Mathematical modelling of wave energy converters: A review of nonlinear approaches",
+          "volume": "78",
+          "author": "Penalba",
+          "year": "2017",
+          "journal-title": "Renew. Sustain. Energy Rev."
+        },
+        {
+          "key": "10.1016/j.egyr.2022.10.403_b164",
+          "article-title": "Systematic complexity reduction of wave-to-wire models for wave energy system design",
+          "volume": "2017",
+          "author": "Peñalba Retes",
+          "year": "2020",
+          "journal-title": "Ocean Eng."
+        },
+        {
+          "key": "10.1016/j.egyr.2022.10.403_b165",
+          "series-title": "Advances in Optimization and Numerical Analysis",
+          "first-page": "51",
+          "article-title": "A direct search optimization method that models the objective and constraint functions by linear interpolation",
+          "author": "Powell",
+          "year": "1994"
+        },
+        {
+          "issue": "2",
+          "key": "10.1016/j.egyr.2022.10.403_b166",
+          "doi-asserted-by": "crossref",
+          "first-page": "398",
+          "DOI": "10.1109/TEVC.2008.927706",
+          "article-title": "Differential evolution algorithm with strategy adaptation for global numerical optimization",
+          "volume": "13",
+          "author": "Qin",
+          "year": "2008",
+          "journal-title": "IEEE Trans. Evol. Comput."
+        },
+        {
+          "key": "10.1016/j.egyr.2022.10.403_b167",
+          "series-title": "2005 IEEE congress on evolutionary computation, vol. 2",
+          "first-page": "1785",
+          "article-title": "Self-adaptive differential evolution algorithm for numerical optimization",
+          "author": "Qin",
+          "year": "2005"
+        },
+        {
+          "key": "10.1016/j.egyr.2022.10.403_b168",
+          "series-title": "Offshore Technology Conference",
+          "first-page": "1",
+          "article-title": "Wave energy converter arrays: Optimizing power production while minimizing environmental effects",
+          "author": "Raghukumar",
+          "year": "2019"
+        },
+        {
+          "issue": "1",
+          "key": "10.1016/j.egyr.2022.10.403_b169",
+          "first-page": "89",
+          "article-title": "Distribution of elastoplastic modulus of subgrade reactionfor analysis of raft foundations",
+          "volume": "28",
+          "author": "Rahgooy",
+          "year": "2022",
+          "journal-title": "Geomech. Eng."
+        },
+        {
+          "key": "10.1016/j.egyr.2022.10.403_b170",
+          "series-title": "Heuristic Optimization of Wave Energy Converter Arrays",
+          "author": "Raju",
+          "year": "2019"
+        },
+        {
+          "key": "10.1016/j.egyr.2022.10.403_b171",
+          "doi-asserted-by": "crossref",
+          "first-page": "966",
+          "DOI": "10.1016/j.renene.2019.11.095",
+          "article-title": "Experimental and numerical study of dynamic responses of a new combined tlp type floating wind turbine and a wave energy converter under operational conditions",
+          "volume": "151",
+          "author": "Ren",
+          "year": "2020",
+          "journal-title": "Renew. Energy"
+        },
+        {
+          "key": "10.1016/j.egyr.2022.10.403_b172",
+          "unstructured": "Renzi, E., Leech, J., Phillips, I., 2017. Wec-ga optimisation tool for an oscillating wave surge converter. In: Proceedings of the 12th European Wave and Tidal Energy Conference (EWTEC), Cork, Ireland. pp. 1–6."
+        },
+        {
+          "issue": "29",
+          "key": "10.1016/j.egyr.2022.10.403_b173",
+          "doi-asserted-by": "crossref",
+          "first-page": "62",
+          "DOI": "10.1016/j.ifacol.2018.09.470",
+          "article-title": "Wave energy control systems: robustness issues",
+          "volume": "51",
+          "author": "Ringwood",
+          "year": "2018",
+          "journal-title": "IFAC-PapersOnLine"
+        },
+        {
+          "key": "10.1016/j.egyr.2022.10.403_b174",
+          "series-title": "Development of Wec Design Loads: a Comparison of Numerical and Experimental Approaches",
+          "author": "Rosenberg",
+          "year": "2019"
+        },
+        {
+          "issue": "9",
+          "key": "10.1016/j.egyr.2022.10.403_b175",
+          "doi-asserted-by": "crossref",
+          "first-page": "1262",
+          "DOI": "10.3390/en10091262",
+          "article-title": "Layout optimisation of wave energy converter arrays",
+          "volume": "10",
+          "author": "Ruiz",
+          "year": "2017",
+          "journal-title": "Energies"
+        },
+        {
+          "key": "10.1016/j.egyr.2022.10.403_b176",
+          "doi-asserted-by": "crossref",
+          "first-page": "279",
+          "DOI": "10.1016/j.asoc.2014.10.042",
+          "article-title": "Water cycle algorithm for solving constrained multi-objective optimization problems",
+          "volume": "27",
+          "author": "Sadollah",
+          "year": "2015",
+          "journal-title": "Appl. Soft Comput."
+        },
+        {
+          "issue": "5459",
+          "key": "10.1016/j.egyr.2022.10.403_b177",
+          "doi-asserted-by": "crossref",
+          "first-page": "720",
+          "DOI": "10.1038/249720a0",
+          "article-title": "Wave power",
+          "volume": "249",
+          "author": "Salter",
+          "year": "1974",
+          "journal-title": "Nature"
+        },
+        {
+          "key": "10.1016/j.egyr.2022.10.403_b178",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1115/1.4028731",
+          "article-title": "Methodology",
+          "author": "Sandberg",
+          "year": "2015",
+          "journal-title": "J. Turbomach."
+        },
+        {
+          "key": "10.1016/j.egyr.2022.10.403_b179",
+          "series-title": "Analyze search results of ’ocean wave energy’ from scopus",
+          "author": "SCOPUS",
+          "year": "2021"
+        },
+        {
+          "key": "10.1016/j.egyr.2022.10.403_b180",
+          "doi-asserted-by": "crossref",
+          "first-page": "148",
+          "DOI": "10.1016/j.egypro.2012.03.016",
+          "article-title": "Ant colony optimization applied to control of ocean wave energy converters",
+          "volume": "20",
+          "author": "See",
+          "year": "2012",
+          "journal-title": "Energy Procedia"
+        },
+        {
+          "key": "10.1016/j.egyr.2022.10.403_b181",
+          "series-title": "Wave energy converter (wec) array simulator",
+          "author": "Sergiienko",
+          "year": "2021"
+        },
+        {
+          "key": "10.1016/j.egyr.2022.10.403_b182",
+          "series-title": "International Conference on Offshore Mechanics and Arctic Engineering, vol. 84416",
+          "article-title": "Design optimisation of a multi-mode wave energy converter",
+          "author": "Sergiienko",
+          "year": "2020"
+        },
+        {
+          "key": "10.1016/j.egyr.2022.10.403_b183",
+          "series-title": "International Design Engineering Technical Conferences and Computers and Information in Engineering Conference, vol. 57076",
+          "article-title": "Wave energy converter array optimization: A review of current work and preliminary results of a genetic algorithm approach introducing cost factors",
+          "author": "Sharp",
+          "year": "2015"
+        },
+        {
+          "key": "10.1016/j.egyr.2022.10.403_b184",
+          "doi-asserted-by": "crossref",
+          "first-page": "148",
+          "DOI": "10.1016/j.oceaneng.2018.05.071",
+          "article-title": "Wave energy converter array optimization: A genetic algorithm approach and minimum separation distance study",
+          "volume": "163",
+          "author": "Sharp",
+          "year": "2018",
+          "journal-title": "Ocean Eng."
+        },
+        {
+          "key": "10.1016/j.egyr.2022.10.403_b185",
+          "unstructured": "Sharp, C., DuPont, B., Bosma, B., Lomonaco, P., Batten, B., 2017. Array optimization of fixed oscillating water columns for active device control. In: Proceedings of the Twelfth European Wave and Tidal Energy Conference. p. 1016."
+        },
+        {
+          "key": "10.1016/j.egyr.2022.10.403_b186",
+          "doi-asserted-by": "crossref",
+          "first-page": "112",
+          "DOI": "10.1016/j.ijome.2016.04.013",
+          "article-title": "Hydrodynamic optimization of the ugen: Wave energy converter with u-shaped interior oscillating water column",
+          "volume": "15",
+          "author": "e Silva",
+          "year": "2016",
+          "journal-title": "Int. J. Mar. Energy"
+        },
+        {
+          "key": "10.1016/j.egyr.2022.10.403_b187",
+          "series-title": "The jrc-eu-times model, assessing the long-term role of the SET plan, EUR, 26292",
+          "author": "Simoes",
+          "year": "2013"
+        },
+        {
+          "key": "10.1016/j.egyr.2022.10.403_b188",
+          "series-title": "Encyclopedia of Operations Research and Management Science",
+          "article-title": "Metaheuristics",
+          "author": "Sörensen",
+          "year": "2013"
+        },
+        {
+          "issue": "4",
+          "key": "10.1016/j.egyr.2022.10.403_b189",
+          "doi-asserted-by": "crossref",
+          "first-page": "341",
+          "DOI": "10.1023/A:1008202821328",
+          "article-title": "Differential evolution–a simple and efficient heuristic for global optimization over continuous spaces",
+          "volume": "11",
+          "author": "Storn",
+          "year": "1997",
+          "journal-title": "J. Global Optim."
+        },
+        {
+          "key": "10.1016/j.egyr.2022.10.403_b190",
+          "doi-asserted-by": "crossref",
+          "first-page": "382",
+          "DOI": "10.1016/j.oceaneng.2017.09.012",
+          "article-title": "Hydrodynamic interactions of oscillating wave surge converters in an array under random sea state",
+          "volume": "145",
+          "author": "Tay",
+          "year": "2017",
+          "journal-title": "Ocean Eng."
+        },
+        {
+          "issue": "5",
+          "key": "10.1016/j.egyr.2022.10.403_b191",
+          "doi-asserted-by": "crossref",
+          "first-page": "2481",
+          "DOI": "10.3390/en6052481",
+          "article-title": "Stochastic rating of storage systems in isolated networks with increasing wave energy penetration",
+          "volume": "6",
+          "author": "Tedeschi",
+          "year": "2013",
+          "journal-title": "Energies"
+        },
+        {
+          "key": "10.1016/j.egyr.2022.10.403_b192",
+          "series-title": "Marmok-a-5 wave energy converter",
+          "author": "Tethys",
+          "year": "2020"
+        },
+        {
+          "key": "10.1016/j.egyr.2022.10.403_b193",
+          "series-title": "Wave developers",
+          "author": "The European Marine Energy Centre (EMEC)",
+          "year": "2020"
+        },
+        {
+          "issue": "11",
+          "key": "10.1016/j.egyr.2022.10.403_b194",
+          "doi-asserted-by": "crossref",
+          "first-page": "3036",
+          "DOI": "10.3390/en11113036",
+          "article-title": "Experimental and numerical collaborative latching control of wave energy converter arrays",
+          "volume": "11",
+          "author": "Thomas",
+          "year": "2018",
+          "journal-title": "Energies"
+        },
+        {
+          "key": "10.1016/j.egyr.2022.10.403_b195",
+          "series-title": "Projects to unlock the potential of marine wave energy",
+          "author": "UK Research and Innovation (UKRI)",
+          "year": "2021"
+        },
+        {
+          "key": "10.1016/j.egyr.2022.10.403_b196",
+          "series-title": "Heuristic Optimization of Wave Energy Converter Arrays",
+          "author": "Vatchavayi",
+          "year": "2019"
+        },
+        {
+          "issue": "11",
+          "key": "10.1016/j.egyr.2022.10.403_b197",
+          "doi-asserted-by": "crossref",
+          "first-page": "1697",
+          "DOI": "10.3390/en10111697",
+          "article-title": "A comparison study of a generic coupling methodology for modeling wake effects of wave energy converter arrays",
+          "volume": "10",
+          "author": "Verbrugghe",
+          "year": "2017",
+          "journal-title": "Energies"
+        },
+        {
+          "key": "10.1016/j.egyr.2022.10.403_b198",
+          "series-title": "Proceedings of the 2004 Congress on Evolutionary Computation (IEEE Cat. No. 04TH8753), vol. 2",
+          "first-page": "1980",
+          "article-title": "A comparative study of differential evolution, particle swarm optimization, and evolutionary algorithms on numerical benchmark problems",
+          "author": "Vesterstrom",
+          "year": "2004"
+        },
+        {
+          "key": "10.1016/j.egyr.2022.10.403_b199",
+          "doi-asserted-by": "crossref",
+          "first-page": "366",
+          "DOI": "10.1016/j.rser.2017.06.074",
+          "article-title": "Review of control strategies for wave energy conversion systems and their validation: the wave-to-wire approach",
+          "volume": "81",
+          "author": "Wang",
+          "year": "2018",
+          "journal-title": "Renew. Sustain. Energy Rev."
+        },
+        {
+          "issue": "SI",
+          "key": "10.1016/j.egyr.2022.10.403_b200",
+          "doi-asserted-by": "crossref",
+          "first-page": "165",
+          "DOI": "10.2112/SI99-024.1",
+          "volume": "99",
+          "author": "Wang",
+          "year": "2020",
+          "journal-title": "J. Coast. Res."
+        },
+        {
+          "key": "10.1016/j.egyr.2022.10.403_b201",
+          "unstructured": "Wang, L., Ringwood, J.V., 2019. Geometric optimization of a hinge-barge wave energy converter. In: Proceedings of the 13th European Wave and Tidal Energy Conference, Naples, Italy. pp. 1–6."
+        },
+        {
+          "key": "10.1016/j.egyr.2022.10.403_b202",
+          "doi-asserted-by": "crossref",
+          "first-page": "1159",
+          "DOI": "10.1016/j.renene.2021.02.125",
+          "article-title": "Control-informed ballast and geometric optimisation of a three-body hinge-barge wave energy converter using two-layer optimisation",
+          "volume": "171",
+          "author": "Wang",
+          "year": "2021",
+          "journal-title": "Renew. Energy"
+        },
+        {
+          "key": "10.1016/j.egyr.2022.10.403_b203",
+          "doi-asserted-by": "crossref",
+          "first-page": "610",
+          "DOI": "10.1016/j.rser.2018.05.020",
+          "article-title": "High-fidelity numerical modelling of ocean wave energy systems: A review of computational fluid dynamics-based numerical wave tanks",
+          "volume": "93",
+          "author": "Windt",
+          "year": "2018",
+          "journal-title": "Renew. Sustain. Energy Rev."
+        },
+        {
+          "key": "10.1016/j.egyr.2022.10.403_b204",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Wu, J., Shekh, S., Sergiienko, N.Y., Cazzolato, B.S., Ding, B., Neumann, F., Wagner, M., 2016. Fast and effective optimisation of arrays of submerged wave energy converters. In: Proceedings of the Genetic and Evolutionary Computation Conference 2016. pp. 1045–1052.",
+          "DOI": "10.1145/2908812.2908844"
+        },
+        {
+          "key": "10.1016/j.egyr.2022.10.403_b205",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1016/j.oceaneng.2020.107294",
+          "article-title": "Wave energy converters in array configurations—influence of interaction effects on the power performance and fatigue of mooring lines",
+          "volume": "211",
+          "author": "Yang",
+          "year": "2020",
+          "journal-title": "Ocean Eng."
+        },
+        {
+          "key": "10.1016/j.egyr.2022.10.403_b206",
+          "series-title": "2008 IEEE congress on evolutionary computation (IEEE World Congress on Computational Intelligence)",
+          "first-page": "1110",
+          "article-title": "Self-adaptive differential evolution with neighborhood search",
+          "author": "Yang",
+          "year": "2008"
+        },
+        {
+          "issue": "10",
+          "key": "10.1016/j.egyr.2022.10.403_b207",
+          "doi-asserted-by": "crossref",
+          "first-page": "884",
+          "DOI": "10.1016/j.enganabound.2010.05.001",
+          "article-title": "Development and implementation of some bem variants—a critical review",
+          "volume": "34",
+          "author": "Yu",
+          "year": "2010",
+          "journal-title": "Eng. Anal. Bound. Elem."
+        },
+        {
+          "key": "10.1016/j.egyr.2022.10.403_b208",
+          "series-title": "Numerical analysis on hydraulic power take-off for wave energy converter and power smoothing methods",
+          "author": "Yu",
+          "year": "2018"
+        },
+        {
+          "issue": "5",
+          "key": "10.1016/j.egyr.2022.10.403_b209",
+          "doi-asserted-by": "crossref",
+          "first-page": "945",
+          "DOI": "10.1109/TEVC.2009.2014613",
+          "article-title": "Jade: adaptive differential evolution with optional external archive",
+          "volume": "13",
+          "author": "Zhang",
+          "year": "2009",
+          "journal-title": "IEEE Trans. Evol. Comput."
+        },
+        {
+          "key": "10.1016/j.egyr.2022.10.403_b210",
+          "series-title": "Efficient and Reliable Power Takeoff for Ocean Wave Energy Harvesting",
+          "author": "Zuo",
+          "year": "2021"
+        }
+      ],
+      "container-title": [
+        "Energy Reports"
+      ],
+      "original-title": [],
+      "language": "en",
+      "link": [
+        {
+          "URL": "https://api.elsevier.com/content/article/PII:S235248472202337X?httpAccept=text/xml",
+          "content-type": "text/xml",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        },
+        {
+          "URL": "https://api.elsevier.com/content/article/PII:S235248472202337X?httpAccept=text/plain",
+          "content-type": "text/plain",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2025,
+            8,
+            8
+          ]
+        ],
+        "date-time": "2025-08-08T14:41:27Z",
+        "timestamp": 1754664087000
+      },
+      "score": 1,
+      "resource": {
+        "primary": {
+          "URL": "https://linkinghub.elsevier.com/retrieve/pii/S235248472202337X"
+        }
+      },
+      "subtitle": [],
+      "short-title": [],
+      "issued": {
+        "date-parts": [
+          [
+            2022,
+            11
+          ]
+        ]
+      },
+      "references-count": 210,
+      "alternative-id": [
+        "S235248472202337X"
+      ],
+      "URL": "https://doi.org/10.1016/j.egyr.2022.10.403",
+      "relation": {},
+      "ISSN": [
+        "2352-4847"
+      ],
+      "issn-type": [
+        {
+          "value": "2352-4847",
+          "type": "print"
+        }
+      ],
+      "subject": [],
+      "published": {
+        "date-parts": [
+          [
+            2022,
+            11
+          ]
+        ]
+      },
+      "assertion": [
+        {
+          "value": "Elsevier",
+          "name": "publisher",
+          "label": "This article is maintained by"
+        },
+        {
+          "value": "Layout and design optimization of ocean wave energy converters: A scoping review of state-of-the-art canonical, hybrid, cooperative, and combinatorial optimization methods",
+          "name": "articletitle",
+          "label": "Article Title"
+        },
+        {
+          "value": "Energy Reports",
+          "name": "journaltitle",
+          "label": "Journal Title"
+        },
+        {
+          "value": "https://doi.org/10.1016/j.egyr.2022.10.403",
+          "name": "articlelink",
+          "label": "CrossRef DOI link to publisher maintained version"
+        },
+        {
+          "value": "article",
+          "name": "content_type",
+          "label": "Content Type"
+        },
+        {
+          "value": "© 2022 The Authors. Published by Elsevier Ltd.",
+          "name": "copyright",
+          "label": "Copyright"
+        }
+      ]
+    }
+  }
+}

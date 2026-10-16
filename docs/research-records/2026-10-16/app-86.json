@@ -1,0 +1,1315 @@
+{
+  "retrieved": "2026-10-16",
+  "url": "https://api.crossref.org/works?query.bibliographic=evolving+neural+networks+augmenting+topologies+NEAT&rows=3&filter=until-pub-date%3A2026-10-16",
+  "response": {
+    "status": "ok",
+    "message-type": "work-list",
+    "message-version": "1.0.0",
+    "message": {
+      "facets": {},
+      "total-results": 1926823,
+      "items": [
+        {
+          "indexed": {
+            "date-parts": [
+              [
+                2026,
+                10,
+                15
+              ]
+            ],
+            "date-time": "2026-10-15T03:02:49Z",
+            "timestamp": 1792033369284,
+            "version": "4.4.0"
+          },
+          "reference-count": 19,
+          "publisher": "MIT Press",
+          "issue": "2",
+          "content-domain": {
+            "domain": [],
+            "crossmark-restriction": false
+          },
+          "short-container-title": [
+            "Evolutionary Computation"
+          ],
+          "published-print": {
+            "date-parts": [
+              [
+                2002,
+                6
+              ]
+            ]
+          },
+          "abstract": "",
+          "DOI": "10.1162/106365602320169811",
+          "type": "journal-article",
+          "created": {
+            "date-parts": [
+              [
+                2002,
+                7,
+                28
+              ]
+            ],
+            "date-time": "2002-07-28T19:13:08Z",
+            "timestamp": 1027883588000
+          },
+          "page": "99-127",
+          "source": "Crossref",
+          "is-referenced-by-count": 2476,
+          "title": [
+            "Evolving Neural Networks through Augmenting Topologies"
+          ],
+          "prefix": "10.1162",
+          "volume": "10",
+          "author": [
+            {
+              "given": "Kenneth O.",
+              "family": "Stanley",
+              "sequence": "first",
+              "affiliation": [
+                {
+                  "name": "Department of Computer Sciences, The University of Texas at Austin, Austin, TX 78712, USA"
+                }
+              ],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Risto",
+              "family": "Miikkulainen",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "Department of Computer Sciences, The University of Texas at Austin, Austin, TX 78712, USA"
+                }
+              ],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            }
+          ],
+          "member": "281",
+          "reference": [
+            {
+              "key": "p_1",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1109/37.24809"
+            },
+            {
+              "key": "p_2",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1109/72.265960"
+            },
+            {
+              "key": "p_6",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1007/BF02551274"
+            },
+            {
+              "key": "p_7",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1073/pnas.83.5.1271"
+            },
+            {
+              "key": "p_14",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1177/105971239700500305"
+            },
+            {
+              "key": "p_21",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1613/jair.301"
+            },
+            {
+              "key": "p_26",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1109/72.265959"
+            },
+            {
+              "key": "p_29",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1007/BF00114722"
+            },
+            {
+              "key": "p_31",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1613/jair.368"
+            },
+            {
+              "key": "p_35",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1023/A:1008272615525"
+            },
+            {
+              "key": "p_36",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1007/BF01411376"
+            },
+            {
+              "key": "p_37",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1146/annurev.ge.16.120182.002201"
+            },
+            {
+              "key": "p_38",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1162/evco.1997.5.1.1"
+            },
+            {
+              "key": "p_39",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1109/64.393139"
+            },
+            {
+              "key": "p_41",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1016/S0022-2836(72)80039-1"
+            },
+            {
+              "key": "p_45",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1023/A:1022674030396"
+            },
+            {
+              "key": "p_47",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1109/5.784219"
+            },
+            {
+              "key": "p_48",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1016/S0096-3003(97)10005-4"
+            },
+            {
+              "key": "p_50",
+              "first-page": "199",
+              "volume": "7",
+              "author": "Zhang B.-T.",
+              "year": "1993",
+              "journal-title": "Complex Systems"
+            }
+          ],
+          "container-title": [
+            "Evolutionary Computation"
+          ],
+          "language": "en",
+          "link": [
+            {
+              "URL": "https://www.mitpressjournals.org/doi/pdf/10.1162/106365602320169811",
+              "content-type": "unspecified",
+              "content-version": "vor",
+              "intended-application": "similarity-checking"
+            }
+          ],
+          "deposited": {
+            "date-parts": [
+              [
+                2021,
+                3,
+                12
+              ]
+            ],
+            "date-time": "2021-03-12T16:30:36Z",
+            "timestamp": 1615566636000
+          },
+          "score": 41.18253,
+          "resource": {
+            "primary": {
+              "URL": "https://direct.mit.edu/evco/article/10/2/99-127/1123"
+            }
+          },
+          "issued": {
+            "date-parts": [
+              [
+                2002,
+                6
+              ]
+            ]
+          },
+          "references-count": 19,
+          "journal-issue": {
+            "issue": "2",
+            "published-print": {
+              "date-parts": [
+                [
+                  2002,
+                  6
+                ]
+              ]
+            }
+          },
+          "alternative-id": [
+            "10.1162/106365602320169811"
+          ],
+          "URL": "https://doi.org/10.1162/106365602320169811",
+          "ISSN": [
+            "1063-6560",
+            "1530-9304"
+          ],
+          "issn-type": [
+            {
+              "value": "1063-6560",
+              "type": "print"
+            },
+            {
+              "value": "1530-9304",
+              "type": "electronic"
+            }
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2002,
+                6
+              ]
+            ]
+          }
+        },
+        {
+          "indexed": {
+            "date-parts": [
+              [
+                2026,
+                7,
+                29
+              ]
+            ],
+            "date-time": "2026-07-29T07:58:19Z",
+            "timestamp": 1785311899071,
+            "version": "3.55.0"
+          },
+          "reference-count": 27,
+          "publisher": "Wiley",
+          "license": [
+            {
+              "start": {
+                "date-parts": [
+                  [
+                    2026,
+                    7,
+                    28
+                  ]
+                ],
+                "date-time": "2026-07-28T00:00:00Z",
+                "timestamp": 1785196800000
+              },
+              "content-version": "vor",
+              "delay-in-days": 0,
+              "URL": "http://creativecommons.org/licenses/by/4.0/"
+            },
+            {
+              "start": {
+                "date-parts": [
+                  [
+                    2026,
+                    7,
+                    28
+                  ]
+                ],
+                "date-time": "2026-07-28T00:00:00Z",
+                "timestamp": 1785196800000
+              },
+              "content-version": "tdm",
+              "delay-in-days": 0,
+              "URL": "http://doi.wiley.com/10.1002/tdm_license_1.1"
+            }
+          ],
+          "funder": [
+            {
+              "DOI": "10.13039/501100001659",
+              "name": "Deutsche Forschungsgemeinschaft",
+              "doi-asserted-by": "publisher",
+              "award": [
+                "456700276"
+              ],
+              "award-info": [
+                {
+                  "award-number": [
+                    "456700276"
+                  ]
+                }
+              ],
+              "id": [
+                {
+                  "id": "10.13039/501100001659",
+                  "id-type": "DOI",
+                  "asserted-by": "publisher"
+                }
+              ]
+            }
+          ],
+          "content-domain": {
+            "domain": [
+              "advanced.onlinelibrary.wiley.com"
+            ],
+            "crossmark-restriction": true
+          },
+          "short-container-title": [
+            "Advanced Intelligent Systems"
+          ],
+          "abstract": "",
+          "DOI": "10.1002/aisy.70468",
+          "type": "journal-article",
+          "created": {
+            "date-parts": [
+              [
+                2026,
+                7,
+                29
+              ]
+            ],
+            "date-time": "2026-07-29T06:58:31Z",
+            "timestamp": 1785308311000
+          },
+          "update-policy": "https://doi.org/10.1002/crossmark_policy",
+          "source": "Crossref",
+          "is-referenced-by-count": 0,
+          "title": [
+            "A NEAT Approach to Evolving Neural‐Network‐Based Optimization of Chiral Photonic Metasurfaces: Application of a NeuroEvolution‐of‐Augmenting‐Topologies Pipeline"
+          ],
+          "prefix": "10.1002",
+          "author": [
+            {
+              "ORCID": "https://orcid.org/0009-0007-7281-2197",
+              "authenticated-orcid": false,
+              "given": "Davide",
+              "family": "Filippozzi",
+              "sequence": "first",
+              "affiliation": [
+                {
+                  "name": "I. Physikalisches Institut and Center for Materials Research Justus‐Liebig‐Universität Gießen  Giessen Germany"
+                }
+              ],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "ORCID": "https://orcid.org/0000-0003-2876-8161",
+              "authenticated-orcid": false,
+              "given": "Arash",
+              "family": "Rahimi‐Iman",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "I. Physikalisches Institut and Center for Materials Research Justus‐Liebig‐Universität Gießen  Giessen Germany"
+                }
+              ],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            }
+          ],
+          "member": "311",
+          "published-online": {
+            "date-parts": [
+              [
+                2026,
+                7,
+                28
+              ]
+            ]
+          },
+          "reference": [
+            {
+              "key": "e_1_2_10_2_1",
+              "doi-asserted-by": "crossref",
+              "first-page": "114001",
+              "DOI": "10.1016/j.sna.2022.114001",
+              "article-title": "Enhancing Terahertz Circular Dichroism Spectrum of Amino Acid Chiral Enantiomers by All‐Dielectric Metasurface",
+              "volume": "348",
+              "author": "Zhang T.",
+              "year": "2022",
+              "journal-title": "Sensors and Actuators A: Physical"
+            },
+            {
+              "issue": "5",
+              "key": "e_1_2_10_3_1",
+              "doi-asserted-by": "crossref",
+              "first-page": "327",
+              "DOI": "10.1038/s41566-021-00793-z",
+              "article-title": "Metasurfaces for Quantum Photonics",
+              "volume": "15",
+              "author": "Solntsev A. S.",
+              "year": "2021",
+              "journal-title": "Nature Photonics"
+            },
+            {
+              "issue": "7",
+              "key": "e_1_2_10_4_1",
+              "doi-asserted-by": "crossref",
+              "first-page": "4595",
+              "DOI": "10.1021/acs.nanolett.6b01897",
+              "article-title": "Multispectral Chiral Imaging with a Metalens",
+              "volume": "16",
+              "author": "Khorasaninejad M.",
+              "year": "2016",
+              "journal-title": "Nano Letters"
+            },
+            {
+              "issue": "2",
+              "key": "e_1_2_10_5_1",
+              "doi-asserted-by": "crossref",
+              "first-page": "17158",
+              "DOI": "10.1038/lsa.2017.158",
+              "article-title": "Giant Intrinsic Chiro‐Optical Activity in Planar Dielectric Nanostructures",
+              "volume": "7",
+              "author": "Zhu A. Y.",
+              "year": "2018",
+              "journal-title": "Light: Science & Applications"
+            },
+            {
+              "issue": "6",
+              "key": "e_1_2_10_6_1",
+              "doi-asserted-by": "crossref",
+              "first-page": "063005",
+              "DOI": "10.1088/1367-2630/ac71be",
+              "article-title": "Deep Learning for Circular Dichroism of Nanohole Arrays",
+              "volume": "24",
+              "author": "Li Q.",
+              "year": "2022",
+              "journal-title": "New Journal of Physics"
+            },
+            {
+              "issue": "9",
+              "key": "e_1_2_10_7_1",
+              "doi-asserted-by": "crossref",
+              "first-page": "2000068",
+              "DOI": "10.1002/aisy.202000068",
+              "article-title": "Deep Learning Designs of Anisotropic Metasurfaces in Ultrawideband Based on Generative Adversarial Networks",
+              "volume": "2",
+              "author": "Wang H. P.",
+              "year": "2020",
+              "journal-title": "Advanced Intelligent Systems"
+            },
+            {
+              "issue": "10",
+              "key": "e_1_2_10_8_1",
+              "doi-asserted-by": "crossref",
+              "first-page": "1900445",
+              "DOI": "10.1002/lpor.201900445",
+              "article-title": "Numerical Optimization Methods for Metasurfaces",
+              "volume": "14",
+              "author": "Elsawy M. M. R.",
+              "year": "2020",
+              "journal-title": "Laser & Photonics Reviews"
+            },
+            {
+              "key": "e_1_2_10_9_1",
+              "doi-asserted-by": "crossref",
+              "first-page": "5366",
+              "DOI": "10.1021/acs.nanolett.9b01857",
+              "article-title": "Global Optimization of Dielectric Metasurfaces Using a Physics‐Driven Neural Network",
+              "volume": "19",
+              "author": "Jiang J.",
+              "year": "2019",
+              "journal-title": "Nano Letters"
+            },
+            {
+              "issue": "35",
+              "key": "e_1_2_10_10_1",
+              "doi-asserted-by": "crossref",
+              "first-page": "1901111",
+              "DOI": "10.1002/adma.201901111",
+              "article-title": "Probabilistic Representation and Inverse Design of Metamaterials Based on a Deep Generative Model with Semi‐Supervised Learning Strategy",
+              "volume": "31",
+              "author": "Ma W.",
+              "year": "2019",
+              "journal-title": "Advanced Materials"
+            },
+            {
+              "issue": "5",
+              "key": "e_1_2_10_11_1",
+              "doi-asserted-by": "crossref",
+              "first-page": "7526",
+              "DOI": "10.1364/OE.419138",
+              "article-title": "Neural‐Adjoint Method for the Inverse Design of All‐Dielectric Metasurfaces",
+              "volume": "29",
+              "author": "Deng Y.",
+              "year": "2021",
+              "journal-title": "Optics Express"
+            },
+            {
+              "issue": "7",
+              "key": "e_1_2_10_12_1",
+              "doi-asserted-by": "crossref",
+              "first-page": "1729",
+              "DOI": "10.1021/acsphotonics.0c00327",
+              "article-title": "Inverse Design of Photonic Crystals through Automatic Differentiation",
+              "volume": "7",
+              "author": "Minkov M.",
+              "year": "2020",
+              "journal-title": "ACS Photonics"
+            },
+            {
+              "issue": "11",
+              "key": "e_1_2_10_13_1",
+              "doi-asserted-by": "crossref",
+              "first-page": "3010",
+              "DOI": "10.1021/acsphotonics.9b01238",
+              "article-title": "Forward‐Mode Differentiation of Maxwell's Equations",
+              "volume": "6",
+              "author": "Hughes T. W.",
+              "year": "2019",
+              "journal-title": "ACS Photonics"
+            },
+            {
+              "issue": "5",
+              "key": "e_1_2_10_14_1",
+              "doi-asserted-by": "crossref",
+              "first-page": "B182",
+              "DOI": "10.1364/PRJ.415960",
+              "article-title": "Deep Learning in Nano‐Photonics: Inverse Design and beyond",
+              "volume": "9",
+              "author": "Wiecha P. R.",
+              "year": "2021",
+              "journal-title": "Photonics Research"
+            },
+            {
+              "issue": "7",
+              "key": "e_1_2_10_15_1",
+              "doi-asserted-by": "crossref",
+              "first-page": "2178",
+              "DOI": "10.1021/acsphotonics.1c01850",
+              "article-title": "Empowering Metasurfaces with Inverse Design: Principles and Applications",
+              "volume": "9",
+              "author": "Li Z.",
+              "year": "2022",
+              "journal-title": "Acs Photonics"
+            },
+            {
+              "issue": "17",
+              "key": "e_1_2_10_16_1",
+              "doi-asserted-by": "crossref",
+              "first-page": "2923",
+              "DOI": "10.1515/nanoph-2025-0210",
+              "article-title": "Anchor‐Controlled Generative Adversarial Network for High‐Fidelity Electromagnetic and Structurally Diverse Metasurface Design",
+              "volume": "14",
+              "author": "Zeng Y.",
+              "year": "2025",
+              "journal-title": "Nanophotonics"
+            },
+            {
+              "key": "e_1_2_10_17_1",
+              "doi-asserted-by": "crossref",
+              "first-page": "92328",
+              "DOI": "10.1109/ACCESS.2024.3422240",
+              "article-title": "Design of Metamaterials for Absorbers Based on Variational Autoencoder",
+              "volume": "12",
+              "author": "Li Q.",
+              "year": "2024",
+              "journal-title": "IEEE Access"
+            },
+            {
+              "issue": "1",
+              "key": "e_1_2_10_18_1",
+              "doi-asserted-by": "crossref",
+              "first-page": "38",
+              "DOI": "10.1021/acsphotonics.5c01384",
+              "article-title": "Inverse Design of Diffractive Metasurfaces Using Diffusion Models",
+              "volume": "13",
+              "author": "Hen L.",
+              "year": "2025",
+              "journal-title": "ACS Photonics"
+            },
+            {
+              "issue": "2",
+              "key": "e_1_2_10_19_1",
+              "doi-asserted-by": "crossref",
+              "first-page": "2100571",
+              "DOI": "10.1002/pssr.202100571",
+              "article-title": "Machine Learning‐Based Optimization of Chiral Photonic Nanostructures: Evolution‐and Neural Network‐Based Designs",
+              "volume": "16",
+              "author": "Mey O.",
+              "year": "2022",
+              "journal-title": "Physica Status Solidi (RRL)–Rapid Research Letters"
+            },
+            {
+              "key": "e_1_2_10_20_1",
+              "unstructured": "N.Roy “Khepri: Kode for High‐Efficiency Propagation of Radiant Interactions ” accessed February 2025 https://github.com/Kaeryv/Khepri."
+            },
+            {
+              "key": "e_1_2_10_21_1",
+              "first-page": "1301714",
+              "article-title": "Optimization by a Genetic Algorithm of Nanopyramidal Broadband Quasi‐Perfect Absorbers with Deeper Insight into the Stability of Optimal Solutions",
+              "volume": "13017",
+              "author": "Mayer A.",
+              "year": "2024",
+              "journal-title": "Proceedings of SPIE"
+            },
+            {
+              "key": "e_1_2_10_22_1",
+              "first-page": "141040J",
+              "volume-title": "Machine Learning in Photonics II",
+              "author": "Mayer A.",
+              "year": "2026"
+            },
+            {
+              "issue": "6",
+              "key": "e_1_2_10_23_1",
+              "doi-asserted-by": "crossref",
+              "first-page": "e00223",
+              "DOI": "10.1002/apxr.202500223",
+              "article-title": "Advancing Machine Learning Optimization of Chiral Photonic Metasurface: Comparative Study of Neural Network and Genetic Algorithm Approaches",
+              "volume": "5",
+              "author": "Filippozzi D.",
+              "year": "2026",
+              "journal-title": "Advanced Physics Research"
+            },
+            {
+              "issue": "2",
+              "key": "e_1_2_10_24_1",
+              "doi-asserted-by": "crossref",
+              "first-page": "99",
+              "DOI": "10.1162/106365602320169811",
+              "article-title": "Evolving Neural Networks through Augmenting Topologies",
+              "volume": "10",
+              "author": "Stanley K. O.",
+              "year": "2002",
+              "journal-title": "Evolutionary Computation"
+            },
+            {
+              "issue": "11",
+              "key": "e_1_2_10_25_1",
+              "doi-asserted-by": "crossref",
+              "first-page": "6071",
+              "DOI": "10.1021/acsphotonics.5c01514",
+              "article-title": "An Agentic Framework for Autonomous Metamaterial Modeling and Inverse Design",
+              "volume": "12",
+              "author": "Lu D.",
+              "year": "2025",
+              "journal-title": "ACS Photonics"
+            },
+            {
+              "key": "e_1_2_10_26_1",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.5281/zenodo.19667817"
+            },
+            {
+              "key": "e_1_2_10_27_1",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1145/3730406"
+            },
+            {
+              "issue": "2",
+              "key": "e_1_2_10_28_1",
+              "doi-asserted-by": "crossref",
+              "first-page": "131",
+              "DOI": "10.1007/s10710-007-9028-8",
+              "article-title": "Compositional Pattern Producing Networks: A Novel Abstraction of Development",
+              "volume": "8",
+              "author": "Stanley K. O.",
+              "year": "2007",
+              "journal-title": "Genetic Programming and Evolvable Machines"
+            }
+          ],
+          "container-title": [
+            "Advanced Intelligent Systems"
+          ],
+          "language": "en",
+          "link": [
+            {
+              "URL": "https://advanced.onlinelibrary.wiley.com/doi/pdf/10.1002/aisy.70468",
+              "content-type": "application/pdf",
+              "content-version": "vor",
+              "intended-application": "text-mining"
+            },
+            {
+              "URL": "https://advanced.onlinelibrary.wiley.com/doi/full-xml/10.1002/aisy.70468",
+              "content-type": "application/xml",
+              "content-version": "vor",
+              "intended-application": "text-mining"
+            },
+            {
+              "URL": "https://advanced.onlinelibrary.wiley.com/doi/pdf/10.1002/aisy.70468",
+              "content-type": "unspecified",
+              "content-version": "vor",
+              "intended-application": "similarity-checking"
+            }
+          ],
+          "deposited": {
+            "date-parts": [
+              [
+                2026,
+                7,
+                29
+              ]
+            ],
+            "date-time": "2026-07-29T06:58:35Z",
+            "timestamp": 1785308315000
+          },
+          "score": 41.070763,
+          "resource": {
+            "primary": {
+              "URL": "https://advanced.onlinelibrary.wiley.com/doi/10.1002/aisy.70468"
+            }
+          },
+          "issued": {
+            "date-parts": [
+              [
+                2026,
+                7,
+                28
+              ]
+            ]
+          },
+          "references-count": 27,
+          "alternative-id": [
+            "10.1002/aisy.70468"
+          ],
+          "URL": "https://doi.org/10.1002/aisy.70468",
+          "archive": [
+            "Portico"
+          ],
+          "ISSN": [
+            "2640-4567",
+            "2640-4567"
+          ],
+          "issn-type": [
+            {
+              "value": "2640-4567",
+              "type": "print"
+            },
+            {
+              "value": "2640-4567",
+              "type": "electronic"
+            }
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2026,
+                7,
+                28
+              ]
+            ]
+          },
+          "assertion": [
+            {
+              "value": "2025-12-30",
+              "order": 0,
+              "name": "received",
+              "label": "Received",
+              "group": {
+                "name": "publication_history",
+                "label": "Publication History"
+              }
+            },
+            {
+              "value": "2026-06-18",
+              "order": 2,
+              "name": "accepted",
+              "label": "Accepted",
+              "group": {
+                "name": "publication_history",
+                "label": "Publication History"
+              }
+            },
+            {
+              "value": "2026-07-28",
+              "order": 3,
+              "name": "published",
+              "label": "Published",
+              "group": {
+                "name": "publication_history",
+                "label": "Publication History"
+              }
+            }
+          ],
+          "article-number": "e70468"
+        },
+        {
+          "indexed": {
+            "date-parts": [
+              [
+                2025,
+                11,
+                9
+              ]
+            ],
+            "date-time": "2025-11-09T03:38:39Z",
+            "timestamp": 1762659519382
+          },
+          "reference-count": 31,
+          "publisher": "Springer Science and Business Media LLC",
+          "issue": "12",
+          "license": [
+            {
+              "start": {
+                "date-parts": [
+                  [
+                    2016,
+                    11,
+                    4
+                  ]
+                ],
+                "date-time": "2016-11-04T00:00:00Z",
+                "timestamp": 1478217600000
+              },
+              "content-version": "unspecified",
+              "delay-in-days": 0,
+              "URL": "http://www.springer.com/tdm"
+            }
+          ],
+          "content-domain": {
+            "domain": [
+              "link.springer.com"
+            ],
+            "crossmark-restriction": false
+          },
+          "short-container-title": [
+            "Neural Comput &amp; Applic"
+          ],
+          "published-print": {
+            "date-parts": [
+              [
+                2018,
+                6
+              ]
+            ]
+          },
+          "DOI": "10.1007/s00521-016-2664-2",
+          "type": "journal-article",
+          "created": {
+            "date-parts": [
+              [
+                2016,
+                11,
+                4
+              ]
+            ],
+            "date-time": "2016-11-04T11:16:34Z",
+            "timestamp": 1478258194000
+          },
+          "page": "1337-1347",
+          "update-policy": "http://dx.doi.org/10.1007/springer_crossmark_policy",
+          "source": "Crossref",
+          "is-referenced-by-count": 2,
+          "title": [
+            "Artificial evolution using neuroevolution of augmenting topologies (NEAT) for kinetics study in diverse viscous mediums"
+          ],
+          "prefix": "10.1007",
+          "volume": "29",
+          "author": [
+            {
+              "given": "Sunil Kr.",
+              "family": "Jha",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Filip",
+              "family": "Josheski",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            }
+          ],
+          "member": "297",
+          "published-online": {
+            "date-parts": [
+              [
+                2016,
+                11,
+                4
+              ]
+            ]
+          },
+          "reference": [
+            {
+              "key": "2664_CR1",
+              "doi-asserted-by": "crossref",
+              "first-page": "75",
+              "DOI": "10.1162/artl.1993.1.1_2.75",
+              "volume": "1",
+              "author": "L Steels",
+              "year": "1993",
+              "unstructured": "Steels L (1993) The artificial life roots of artificial intelligence. Artif Life 1:75–110",
+              "journal-title": "Artif Life"
+            },
+            {
+              "key": "2664_CR2",
+              "volume-title": "Artificial life: an overview",
+              "author": "CG Langton",
+              "year": "1997",
+              "unstructured": "Langton CG (1997) Artificial life: an overview. MIT Press, Cambridge"
+            },
+            {
+              "key": "2664_CR3",
+              "doi-asserted-by": "crossref",
+              "first-page": "363",
+              "DOI": "10.1162/106454600300103683",
+              "volume": "6",
+              "author": "MA Bedau",
+              "year": "2000",
+              "unstructured": "Bedau MA, McCaskill JS, Packard NH, Rasmussen S, Adami C, Green DG, Ikegami T, Kaneko K, Ray TS (2000) Open problems in artificial life. Artif Life 6:363–376",
+              "journal-title": "Artif Life"
+            },
+            {
+              "key": "2664_CR4",
+              "doi-asserted-by": "crossref",
+              "DOI": "10.1007/1-84628-214-4",
+              "volume-title": "Artificial life models in software",
+              "author": "A Adamatzky",
+              "year": "2005",
+              "unstructured": "Adamatzky A, Komosinski M (2005) Artificial life models in software. Springer, Heidelberg"
+            },
+            {
+              "key": "2664_CR5",
+              "doi-asserted-by": "crossref",
+              "DOI": "10.1007/978-1-84882-530-7",
+              "volume-title": "Artificial life models in hardware",
+              "author": "A Adamatzky",
+              "year": "2009",
+              "unstructured": "Adamatzky A, Komosinski M (2009) Artificial life models in hardware. Springer, London"
+            },
+            {
+              "key": "2664_CR6",
+              "doi-asserted-by": "crossref",
+              "first-page": "505",
+              "DOI": "10.1016/j.tics.2003.09.012",
+              "volume": "7",
+              "author": "MA Bedau",
+              "year": "2003",
+              "unstructured": "Bedau MA (2003) Artificial life: organization, adaptation and complexity from the bottom up. Trends Cogn Sci 7:505–512",
+              "journal-title": "Trends Cogn Sci"
+            },
+            {
+              "key": "2664_CR7",
+              "doi-asserted-by": "crossref",
+              "first-page": "353",
+              "DOI": "10.1162/artl.1994.1.4.353",
+              "volume": "1",
+              "author": "K Sims",
+              "year": "1994",
+              "unstructured": "Sims K (1994) Evolving 3D morphology and behavior by competition. Artif Life 1:353–372",
+              "journal-title": "Artif Life"
+            },
+            {
+              "key": "2664_CR8",
+              "doi-asserted-by": "crossref",
+              "first-page": "43",
+              "DOI": "10.1016/S0020-0255(03)00125-7",
+              "volume": "155",
+              "author": "M Lee",
+              "year": "2003",
+              "unstructured": "Lee M (2003) Evolution of behaviors in autonomous robot using artificial neural network and genetic algorithm. Inf Sci 155:43–60",
+              "journal-title": "Inf Sci"
+            },
+            {
+              "key": "2664_CR9",
+              "doi-asserted-by": "crossref",
+              "first-page": "139",
+              "DOI": "10.1162/artl.2007.13.2.139",
+              "volume": "13",
+              "author": "N Chaumont",
+              "year": "2007",
+              "unstructured": "Chaumont N, Egli R (2007) Adami C (2007) Evolving virtual creatures and catapults. Artif Life 13:139–157",
+              "journal-title": "Artif Life"
+            },
+            {
+              "key": "2664_CR10",
+              "first-page": "3840",
+              "volume": "5",
+              "author": "S Shamshirband",
+              "year": "2010",
+              "unstructured": "Shamshirband S, Kalantari S, Daliri Z, Ng LS (2010) Expert security system in wireless sensor networks based on fuzzy discussion multi-agent systems. Sci Res Essays 5:3840–3849",
+              "journal-title": "Sci Res Essays"
+            },
+            {
+              "key": "2664_CR11",
+              "doi-asserted-by": "crossref",
+              "first-page": "212",
+              "DOI": "10.1016/j.measurement.2014.04.034",
+              "volume": "55",
+              "author": "S Shamshirband",
+              "year": "2014",
+              "unstructured": "Shamshirband S, Amini A, Anuar NB, Kiah LM, The YW, Furnell S (2014) D-FICCA: a density-based fuzzy imperialist competitive clustering algorithm for intrusion detection in wireless sensor networks. Measurement 55:212–226",
+              "journal-title": "Measurement"
+            },
+            {
+              "key": "2664_CR12",
+              "doi-asserted-by": "crossref",
+              "first-page": "152",
+              "DOI": "10.1016/j.jalgor.2009.04.002",
+              "volume": "64",
+              "author": "V Heidrich-Meisner",
+              "year": "2009",
+              "unstructured": "Heidrich-Meisner V, Igel C (2009) Neuroevolution strategies for episodic reinforcement learning. J Algorithms 64:152–168",
+              "journal-title": "J Algorithms"
+            },
+            {
+              "key": "2664_CR13",
+              "volume-title": "Handbook of neural network signal processing",
+              "author": "YH Hu",
+              "year": "2001",
+              "unstructured": "Hu YH, Hwang J (2001) Handbook of neural network signal processing. CRC Press, Boca Raton"
+            },
+            {
+              "key": "2664_CR14",
+              "doi-asserted-by": "crossref",
+              "first-page": "115",
+              "DOI": "10.1007/BF02478259",
+              "volume": "5",
+              "author": "WS McCulloch",
+              "year": "1943",
+              "unstructured": "McCulloch WS, Pitts WH (1943) A logical calculus of the ideas immanent in nervous activity. Bull Math Biophys 5:115–133",
+              "journal-title": "Bull Math Biophys"
+            },
+            {
+              "key": "2664_CR15",
+              "volume-title": "Artificial neural networks",
+              "author": "B Yegnanarayana",
+              "year": "2009",
+              "unstructured": "Yegnanarayana B (2009) Artificial neural networks. PHI Learning, New Delhi"
+            },
+            {
+              "key": "2664_CR16",
+              "volume-title": "Adaptation in natural and artificial systems: an introductory analysis with applications to biology, control, and artificial intelligence",
+              "author": "JH Holland",
+              "year": "1975",
+              "unstructured": "Holland JH (1975) Adaptation in natural and artificial systems: an introductory analysis with applications to biology, control, and artificial intelligence. University of Michigan Press, Ann Arbor"
+            },
+            {
+              "key": "2664_CR17",
+              "doi-asserted-by": "crossref",
+              "first-page": "95",
+              "DOI": "10.1023/A:1022602019183",
+              "volume": "3",
+              "author": "DE Goldberg",
+              "year": "1988",
+              "unstructured": "Goldberg DE, Holland JH (1988) Genetic algorithms and machine learning. Mach Learn 3:95–99",
+              "journal-title": "Mach Learn"
+            },
+            {
+              "key": "2664_CR18",
+              "doi-asserted-by": "crossref",
+              "first-page": "99",
+              "DOI": "10.1162/106365602320169811",
+              "volume": "10",
+              "author": "KO Stanley",
+              "year": "2002",
+              "unstructured": "Stanley KO, Miikkulainen R (2002) Evolving neural networks through augmenting topologies. Evol Comput 10:99–127",
+              "journal-title": "Evol Comput"
+            },
+            {
+              "key": "2664_CR19",
+              "first-page": "3",
+              "volume": "1",
+              "author": "KO Stanley",
+              "year": "1996",
+              "unstructured": "Stanley KO, Miikkulainen R (1996) Efficient reinforcement learning through evolving neural network topologies. Network (Phenotype) 1:3–10",
+              "journal-title": "Network (Phenotype)"
+            },
+            {
+              "key": "2664_CR20",
+              "doi-asserted-by": "crossref",
+              "first-page": "116",
+              "DOI": "10.1016/j.neucom.2012.01.014",
+              "volume": "86",
+              "author": "R Chandra",
+              "year": "2012",
+              "unstructured": "Chandra R, Zhang M (2012) Cooperative coevolution of Elman recurrent neural networks for chaotic time series prediction. Neurocomputing 86:116–123",
+              "journal-title": "Neurocomputing"
+            },
+            {
+              "key": "2664_CR21",
+              "doi-asserted-by": "crossref",
+              "first-page": "011001",
+              "DOI": "10.1088/1748-3182/9/1/011001",
+              "volume": "9",
+              "author": "RJ Lock",
+              "year": "2013",
+              "unstructured": "Lock RJ, Burgess SC, Vaidyanathan R (2013) Multi-modal locomotion: from animal to application. Bioinspir Biomim 9:011001",
+              "journal-title": "Bioinspir Biomim"
+            },
+            {
+              "key": "2664_CR22",
+              "doi-asserted-by": "crossref",
+              "first-page": "974",
+              "DOI": "10.1038/35023115",
+              "volume": "406",
+              "author": "H Lipson",
+              "year": "2000",
+              "unstructured": "Lipson H, Pollack JB (2000) Automatic design and manufacture of robotic lifeforms. Nature 406:974–978",
+              "journal-title": "Nature"
+            },
+            {
+              "key": "2664_CR23",
+              "doi-asserted-by": "crossref",
+              "first-page": "313",
+              "DOI": "10.1162/00240940152549230",
+              "volume": "34",
+              "author": "TS Ray",
+              "year": "2001",
+              "unstructured": "Ray TS (2001) Aesthetically evolved virtual pets. Leonardo 34:313–316",
+              "journal-title": "Leonardo"
+            },
+            {
+              "key": "2664_CR24",
+              "unstructured": "Hornby GS, Pollack JB (2001) Body-brain co-evolution using L-systems as a generative encoding. In: Proceedings of the CECCO, pp 868–875"
+            },
+            {
+              "key": "2664_CR25",
+              "unstructured": "Shim YS, Kim CH (2003) Generating flying creatures using body-brain co-evolution. In: Proceedings of the ESCA, pp 276–285"
+            },
+            {
+              "key": "2664_CR26",
+              "unstructured": "Lipson H, Pollack J (2006) Evolving physical creatures. In: Proceedings of the 7th ALIFE, pp 282–287"
+            },
+            {
+              "key": "2664_CR27",
+              "doi-asserted-by": "crossref",
+              "unstructured": "Krcah P (2007) Evolving virtual creatures revisited. In: Proceedings of the GECCO, pp 341–341",
+              "DOI": "10.1145/1276958.1284700"
+            },
+            {
+              "key": "2664_CR28",
+              "doi-asserted-by": "crossref",
+              "unstructured": "Lehman J, Stanley KO (2011) Evolving a diversity of virtual creatures through novelty search and local competition. In: Proceedings of the 13th ACGEC, pp 211–218",
+              "DOI": "10.1145/2001576.2001606"
+            },
+            {
+              "key": "2664_CR29",
+              "doi-asserted-by": "crossref",
+              "unstructured": "Krah P (2008) Towards efficient evolution of morphology and control. In: Proceedings of the 10th ACGEC, pp 287–288",
+              "DOI": "10.1145/1389095.1389142"
+            },
+            {
+              "key": "2664_CR30",
+              "unstructured": "Unity. http://unity3d.com"
+            },
+            {
+              "key": "2664_CR31",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1109/TCIAIG.2016.2535416",
+              "author": "D Jallov",
+              "year": "2016",
+              "unstructured": "Jallov D, Risi S, Togelius J (2016) EvoCommander: a novel game based on evolving and switching between artificial brains. IEEE Trans Comput Intell AI Games. doi: 10.1109/TCIAIG.2016.2535416",
+              "journal-title": "IEEE Trans Comput Intell AI Games"
+            }
+          ],
+          "container-title": [
+            "Neural Computing and Applications"
+          ],
+          "language": "en",
+          "link": [
+            {
+              "URL": "http://link.springer.com/article/10.1007/s00521-016-2664-2/fulltext.html",
+              "content-type": "text/html",
+              "content-version": "vor",
+              "intended-application": "text-mining"
+            },
+            {
+              "URL": "http://link.springer.com/content/pdf/10.1007/s00521-016-2664-2.pdf",
+              "content-type": "application/pdf",
+              "content-version": "vor",
+              "intended-application": "text-mining"
+            },
+            {
+              "URL": "http://link.springer.com/content/pdf/10.1007/s00521-016-2664-2.pdf",
+              "content-type": "application/pdf",
+              "content-version": "vor",
+              "intended-application": "similarity-checking"
+            }
+          ],
+          "deposited": {
+            "date-parts": [
+              [
+                2019,
+                9,
+                15
+              ]
+            ],
+            "date-time": "2019-09-15T04:37:34Z",
+            "timestamp": 1568522254000
+          },
+          "score": 35.212162,
+          "resource": {
+            "primary": {
+              "URL": "http://link.springer.com/10.1007/s00521-016-2664-2"
+            }
+          },
+          "issued": {
+            "date-parts": [
+              [
+                2016,
+                11,
+                4
+              ]
+            ]
+          },
+          "references-count": 31,
+          "journal-issue": {
+            "issue": "12",
+            "published-print": {
+              "date-parts": [
+                [
+                  2018,
+                  6
+                ]
+              ]
+            }
+          },
+          "alternative-id": [
+            "2664"
+          ],
+          "URL": "https://doi.org/10.1007/s00521-016-2664-2",
+          "ISSN": [
+            "0941-0643",
+            "1433-3058"
+          ],
+          "issn-type": [
+            {
+              "value": "0941-0643",
+              "type": "print"
+            },
+            {
+              "value": "1433-3058",
+              "type": "electronic"
+            }
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2016,
+                11,
+                4
+              ]
+            ]
+          }
+        }
+      ],
+      "items-per-page": 3,
+      "query": {
+        "start-index": 0,
+        "search-terms": null
+      }
+    }
+  }
+}

@@ -1,0 +1,501 @@
+{
+  "retrieved": "2026-10-16",
+  "url": "https://api.crossref.org/works?query.bibliographic=molecular+design+evolutionary+algorithm+genetic+algorithm&rows=3&filter=until-pub-date%3A2026-10-16",
+  "response": {
+    "status": "ok",
+    "message-type": "work-list",
+    "message-version": "1.0.0",
+    "message": {
+      "facets": {},
+      "total-results": 6164946,
+      "items": [
+        {
+          "indexed": {
+            "date-parts": [
+              [
+                2024,
+                5,
+                12
+              ]
+            ],
+            "date-time": "2024-05-12T05:55:42Z",
+            "timestamp": 1715493342507
+          },
+          "reference-count": 0,
+          "publisher": "Oxford University Press",
+          "isbn-type": [
+            {
+              "value": "9780195135688",
+              "type": "print"
+            },
+            {
+              "value": "9780197561621",
+              "type": "electronic"
+            }
+          ],
+          "content-domain": {
+            "domain": [],
+            "crossmark-restriction": false
+          },
+          "published-print": {
+            "date-parts": [
+              [
+                2001,
+                8,
+                16
+              ]
+            ]
+          },
+          "abstract": "",
+          "DOI": "10.1093/oso/9780195135688.003.0013",
+          "type": "book-chapter",
+          "created": {
+            "date-parts": [
+              [
+                2020,
+                11,
+                11
+              ]
+            ],
+            "date-time": "2020-11-11T01:33:28Z",
+            "timestamp": 1605058408000
+          },
+          "source": "Crossref",
+          "is-referenced-by-count": 1,
+          "title": [
+            "A Genetic Algorithm to Design Optimal Patch Configurations Using Raster Data Structures"
+          ],
+          "prefix": "10.1093",
+          "author": [
+            {
+              "given": "Christopher",
+              "family": "Brooks",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            }
+          ],
+          "member": "286",
+          "published-online": {
+            "date-parts": [
+              [
+                2020,
+                11,
+                12
+              ]
+            ]
+          },
+          "container-title": [
+            "Spatial Evolutionary Modeling"
+          ],
+          "original-title": [
+            "A Genetic Algorithm to Design Optimal Patch Configurations Using Raster Data Structures"
+          ],
+          "language": "en",
+          "deposited": {
+            "date-parts": [
+              [
+                2022,
+                8,
+                2
+              ]
+            ],
+            "date-time": "2022-08-02T21:26:03Z",
+            "timestamp": 1659475563000
+          },
+          "score": 36.653137,
+          "resource": {
+            "primary": {
+              "URL": "https://academic.oup.com/book/40800/chapter/348745263"
+            }
+          },
+          "issued": {
+            "date-parts": [
+              [
+                2001,
+                8,
+                16
+              ]
+            ]
+          },
+          "ISBN": [
+            "9780195135688",
+            "9780197561621"
+          ],
+          "references-count": 0,
+          "URL": "https://doi.org/10.1093/oso/9780195135688.003.0013",
+          "published": {
+            "date-parts": [
+              [
+                2001,
+                8,
+                16
+              ]
+            ]
+          }
+        },
+        {
+          "indexed": {
+            "date-parts": [
+              [
+                2024,
+                9,
+                7
+              ]
+            ],
+            "date-time": "2024-09-07T12:02:20Z",
+            "timestamp": 1725710540216
+          },
+          "reference-count": 7,
+          "publisher": "IEEE",
+          "content-domain": {
+            "domain": [],
+            "crossmark-restriction": false
+          },
+          "published-print": {
+            "date-parts": [
+              [
+                2012,
+                10
+              ]
+            ]
+          },
+          "DOI": "10.1109/iscid.2012.91",
+          "type": "proceedings-article",
+          "created": {
+            "date-parts": [
+              [
+                2013,
+                1,
+                17
+              ]
+            ],
+            "date-time": "2013-01-17T15:30:55Z",
+            "timestamp": 1358436655000
+          },
+          "page": "336-339",
+          "source": "Crossref",
+          "is-referenced-by-count": 3,
+          "title": [
+            "Optimization Algorithm of Evolutionary Design of Circuits Based on Genetic Algorithm"
+          ],
+          "prefix": "10.1109",
+          "author": [
+            {
+              "given": "Xuejun",
+              "family": "Song",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Yanli",
+              "family": "Cui",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Aiting",
+              "family": "Li",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            }
+          ],
+          "member": "263",
+          "reference": [
+            {
+              "key": "3",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1109/TEVC.2002.800886"
+            },
+            {
+              "key": "2",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1109/4235.788489"
+            },
+            {
+              "key": "1",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1109/EH.2005.24"
+            },
+            {
+              "key": "7",
+              "first-page": "2982",
+              "article-title": "A novel genetic algorithm with cell crossover for circuit design optimization",
+              "author": "guo",
+              "year": "2009",
+              "journal-title": "Proceedings of the IEEE International Symposium on Circuits and Systems"
+            },
+            {
+              "key": "6",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1049/el:20030383"
+            },
+            {
+              "journal-title": "The Principle and Application of the Genetic Algorithm",
+              "year": "1999",
+              "author": "zhou",
+              "key": "5"
+            },
+            {
+              "key": "4",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1016/j.sysarc.2005.05.003"
+            }
+          ],
+          "event": {
+            "name": "2012 5th International Symposium on Computational Intelligence and Design (ISCID)",
+            "start": {
+              "date-parts": [
+                [
+                  2012,
+                  10,
+                  28
+                ]
+              ]
+            },
+            "location": "Hangzhou, China",
+            "end": {
+              "date-parts": [
+                [
+                  2012,
+                  10,
+                  29
+                ]
+              ]
+            }
+          },
+          "container-title": [
+            "2012 Fifth International Symposium on Computational Intelligence and Design"
+          ],
+          "link": [
+            {
+              "URL": "http://xplorestaging.ieee.org/ielx5/6401247/6406849/06406989.pdf?arnumber=6406989",
+              "content-type": "unspecified",
+              "content-version": "vor",
+              "intended-application": "similarity-checking"
+            }
+          ],
+          "deposited": {
+            "date-parts": [
+              [
+                2017,
+                3,
+                22
+              ]
+            ],
+            "date-time": "2017-03-22T15:25:27Z",
+            "timestamp": 1490196327000
+          },
+          "score": 34.402992,
+          "resource": {
+            "primary": {
+              "URL": "http://ieeexplore.ieee.org/document/6406989/"
+            }
+          },
+          "issued": {
+            "date-parts": [
+              [
+                2012,
+                10
+              ]
+            ]
+          },
+          "references-count": 7,
+          "URL": "https://doi.org/10.1109/iscid.2012.91",
+          "published": {
+            "date-parts": [
+              [
+                2012,
+                10
+              ]
+            ]
+          }
+        },
+        {
+          "indexed": {
+            "date-parts": [
+              [
+                2025,
+                6,
+                7
+              ]
+            ],
+            "date-time": "2025-06-07T04:48:37Z",
+            "timestamp": 1749271717444
+          },
+          "reference-count": 0,
+          "publisher": "IACSIT Press",
+          "content-domain": {
+            "domain": [],
+            "crossmark-restriction": false
+          },
+          "short-container-title": [
+            "IJMO"
+          ],
+          "DOI": "10.7763/ijmo.2011.v1.41",
+          "type": "journal-article",
+          "created": {
+            "date-parts": [
+              [
+                2013,
+                11,
+                6
+              ]
+            ],
+            "date-time": "2013-11-06T09:08:43Z",
+            "timestamp": 1383728923000
+          },
+          "page": "231-235",
+          "source": "Crossref",
+          "is-referenced-by-count": 5,
+          "title": [
+            "A Novel Evolutionary Design of Sequential Logic Circuits by Using Genetic Algorithm"
+          ],
+          "prefix": "10.7763",
+          "author": [
+            {
+              "given": "P.",
+              "family": "Soleimani",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "S.",
+              "family": "Mirzakuchaki",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "K.",
+              "family": "Mohammadi",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "M.",
+              "family": "Bagheri",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            }
+          ],
+          "member": "4507",
+          "published-online": {
+            "date-parts": [
+              [
+                2011
+              ]
+            ]
+          },
+          "container-title": [
+            "International Journal of Modeling and Optimization"
+          ],
+          "original-title": [
+            "A Novel Evolutionary Design of Sequential Logic Circuits by Using Genetic Algorithm"
+          ],
+          "link": [
+            {
+              "URL": "http://www.ijmo.org/papers/41-A864.pdf",
+              "content-type": "unspecified",
+              "content-version": "vor",
+              "intended-application": "similarity-checking"
+            }
+          ],
+          "deposited": {
+            "date-parts": [
+              [
+                2015,
+                10,
+                12
+              ]
+            ],
+            "date-time": "2015-10-12T20:33:32Z",
+            "timestamp": 1444682012000
+          },
+          "score": 34.39565,
+          "resource": {
+            "primary": {
+              "URL": "http://www.ijmo.org/index.php?m=content&c=index&a=show&catid=24&id=218"
+            }
+          },
+          "issued": {
+            "date-parts": [
+              [
+                2011
+              ]
+            ]
+          },
+          "references-count": 0,
+          "URL": "https://doi.org/10.7763/ijmo.2011.v1.41",
+          "ISSN": [
+            "2010-3697"
+          ],
+          "issn-type": [
+            {
+              "value": "2010-3697",
+              "type": "print"
+            }
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2011
+              ]
+            ]
+          }
+        }
+      ],
+      "items-per-page": 3,
+      "query": {
+        "start-index": 0,
+        "search-terms": null
+      }
+    }
+  }
+}

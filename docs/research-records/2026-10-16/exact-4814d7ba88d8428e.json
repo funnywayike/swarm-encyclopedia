@@ -1,0 +1,937 @@
+{
+  "doi": "10.1016/j.knosys.2015.12.022",
+  "url": "https://api.crossref.org/works/10.1016%2Fj.knosys.2015.12.022",
+  "retrieved": "2026-10-16",
+  "response": {
+    "status": "ok",
+    "message-type": "work",
+    "message-version": "1.0.0",
+    "message": {
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            10,
+            15
+          ]
+        ],
+        "date-time": "2026-10-15T14:05:13Z",
+        "timestamp": 1792073113871,
+        "version": "4.4.0"
+      },
+      "reference-count": 75,
+      "publisher": "Elsevier BV",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2016,
+                3,
+                1
+              ]
+            ],
+            "date-time": "2016-03-01T00:00:00Z",
+            "timestamp": 1456790400000
+          },
+          "content-version": "tdm",
+          "delay-in-days": 0,
+          "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+        }
+      ],
+      "content-domain": {
+        "domain": [
+          "elsevier.com",
+          "sciencedirect.com"
+        ],
+        "crossmark-restriction": true
+      },
+      "short-container-title": [
+        "Knowledge-Based Systems"
+      ],
+      "published-print": {
+        "date-parts": [
+          [
+            2016,
+            3
+          ]
+        ]
+      },
+      "DOI": "10.1016/j.knosys.2015.12.022",
+      "type": "journal-article",
+      "created": {
+        "date-parts": [
+          [
+            2016,
+            1,
+            6
+          ]
+        ],
+        "date-time": "2016-01-06T13:33:03Z",
+        "timestamp": 1452087183000
+      },
+      "page": "120-133",
+      "update-policy": "https://doi.org/10.1016/elsevier_cm_policy",
+      "source": "Crossref",
+      "is-referenced-by-count": 5490,
+      "special_numbering": "C",
+      "title": [
+        "SCA: A Sine Cosine Algorithm for solving optimization problems"
+      ],
+      "prefix": "10.1016",
+      "volume": "96",
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0000-0002-1443-9458",
+          "authenticated-orcid": false,
+          "given": "Seyedali",
+          "family": "Mirjalili",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "78",
+      "reference": [
+        {
+          "key": "10.1016/j.knosys.2015.12.022_bib0001",
+          "doi-asserted-by": "crossref",
+          "first-page": "423",
+          "DOI": "10.1061/(ASCE)0733-9496(1994)120:4(423)",
+          "article-title": "Genetic algorithms compared to other techniques for pipe optimization",
+          "volume": "120",
+          "author": "Simpson",
+          "year": "1994",
+          "journal-title": "J. Water Resour. Plan. Manag."
+        },
+        {
+          "key": "10.1016/j.knosys.2015.12.022_bib0002",
+          "series-title": "Introduction to Stochastics Search and Optimization",
+          "author": "James",
+          "year": "2003"
+        },
+        {
+          "key": "10.1016/j.knosys.2015.12.022_bib0003",
+          "doi-asserted-by": "crossref",
+          "first-page": "82",
+          "DOI": "10.1016/j.ins.2013.02.041",
+          "article-title": "A survey on optimization metaheuristics",
+          "volume": "237",
+          "author": "Boussaïd",
+          "year": "2013",
+          "journal-title": "Inf. Sci."
+        },
+        {
+          "key": "10.1016/j.knosys.2015.12.022_bib0004",
+          "doi-asserted-by": "crossref",
+          "first-page": "527",
+          "DOI": "10.1007/s00500-011-0754-8",
+          "article-title": "Metaheuristic optimization frameworks: a survey and benchmarking",
+          "volume": "16",
+          "author": "Parejo",
+          "year": "2012",
+          "journal-title": "Soft Comput."
+        },
+        {
+          "key": "10.1016/j.knosys.2015.12.022_bib0005",
+          "doi-asserted-by": "crossref",
+          "first-page": "32",
+          "DOI": "10.1016/j.swevo.2011.03.001",
+          "article-title": "Multiobjective evolutionary algorithms: a survey of the state of the art",
+          "volume": "1",
+          "author": "Zhou",
+          "year": "2011",
+          "journal-title": "Swarm Evol. Comput."
+        },
+        {
+          "key": "10.1016/j.knosys.2015.12.022_bib0006",
+          "doi-asserted-by": "crossref",
+          "first-page": "525",
+          "DOI": "10.1007/s00224-004-1177-z",
+          "article-title": "Upper and lower bounds for randomized search heuristics in black-box optimization",
+          "volume": "39",
+          "author": "Droste",
+          "year": "2006",
+          "journal-title": "Theory of Comput. Syst."
+        },
+        {
+          "key": "10.1016/j.knosys.2015.12.022_bib0007",
+          "series-title": "Stochastic Local Search: Foundations & Applications",
+          "author": "Hoos",
+          "year": "2004"
+        },
+        {
+          "key": "10.1016/j.knosys.2015.12.022_bib0008",
+          "doi-asserted-by": "crossref",
+          "first-page": "1",
+          "DOI": "10.1504/IJBIC.2011.038700",
+          "article-title": "New inspirations in swarm intelligence: a survey",
+          "volume": "3",
+          "author": "Parpinelli",
+          "year": "2011",
+          "journal-title": "Int. J. Bio-Inspired Comput."
+        },
+        {
+          "key": "10.1016/j.knosys.2015.12.022_bib0009",
+          "doi-asserted-by": "crossref",
+          "first-page": "1",
+          "DOI": "10.1162/evco.1995.3.1.1",
+          "article-title": "An overview of evolutionary algorithms in multiobjective optimization",
+          "volume": "3",
+          "author": "Fonseca",
+          "year": "1995",
+          "journal-title": "Evol. Comput."
+        },
+        {
+          "key": "10.1016/j.knosys.2015.12.022_bib0010",
+          "article-title": "Physics-inspired optimization algorithms: a survey",
+          "volume": "2013",
+          "author": "Biswas",
+          "year": "2013",
+          "journal-title": "J. Optim."
+        },
+        {
+          "key": "10.1016/j.knosys.2015.12.022_bib0011",
+          "doi-asserted-by": "crossref",
+          "first-page": "503",
+          "DOI": "10.1080/0952813X.2013.782347",
+          "article-title": "Metaheuristics: review and application",
+          "volume": "25",
+          "author": "Gogna",
+          "year": "2013",
+          "journal-title": "J. Exp. Theor. Artif. Intell."
+        },
+        {
+          "key": "10.1016/j.knosys.2015.12.022_bib0012",
+          "article-title": "Swarm intelligence and bio-inspired computation: theory and applications",
+          "author": "Yang",
+          "year": "2013",
+          "journal-title": "Newnes"
+        },
+        {
+          "key": "10.1016/j.knosys.2015.12.022_bib0013",
+          "doi-asserted-by": "crossref",
+          "first-page": "1077",
+          "DOI": "10.1007/s00521-014-1597-x",
+          "article-title": "Biogeography-based optimisation with chaos",
+          "volume": "25",
+          "author": "Saremi",
+          "year": "2014",
+          "journal-title": "Neural Comput. Appl."
+        },
+        {
+          "key": "10.1016/j.knosys.2015.12.022_bib0014",
+          "doi-asserted-by": "crossref",
+          "first-page": "17",
+          "DOI": "10.1016/j.ins.2014.02.123",
+          "article-title": "Chaotic krill herd algorithm",
+          "volume": "274",
+          "author": "Wang",
+          "year": "2014",
+          "journal-title": "Inf. Sci."
+        },
+        {
+          "key": "10.1016/j.knosys.2015.12.022_bib0015",
+          "doi-asserted-by": "crossref",
+          "first-page": "962",
+          "DOI": "10.1108/K-11-2012-0108",
+          "article-title": "A chaotic particle-swarm krill herd algorithm for global numerical optimization",
+          "volume": "42",
+          "author": "Wang",
+          "year": "2013",
+          "journal-title": "Kybernetes"
+        },
+        {
+          "key": "10.1016/j.knosys.2015.12.022_bib0016",
+          "series-title": "Proceedings of 2014 International Conference on Soft Computing and Machine Intelligence (ISCMI)",
+          "first-page": "64",
+          "article-title": "A novel cuckoo search with chaos theory and elitism scheme",
+          "author": "Wang",
+          "year": "2014"
+        },
+        {
+          "key": "10.1016/j.knosys.2015.12.022_bib0017",
+          "first-page": "1",
+          "article-title": "Chaotic cuckoo search",
+          "author": "Wang",
+          "year": "1726",
+          "journal-title": "Soft Comput."
+        },
+        {
+          "key": "10.1016/j.knosys.2015.12.022_bib0018",
+          "doi-asserted-by": "crossref",
+          "first-page": "853",
+          "DOI": "10.1007/s00521-012-1304-8",
+          "article-title": "Incorporating mutation scheme into krill herd algorithm for global numerical optimization",
+          "volume": "24",
+          "author": "Wang",
+          "year": "2014",
+          "journal-title": "Neural Comput. Appl."
+        },
+        {
+          "key": "10.1016/j.knosys.2015.12.022_bib0019",
+          "article-title": "A bat algorithm with mutation for UCAV path planning",
+          "volume": "2012",
+          "author": "Wang",
+          "year": "2012",
+          "journal-title": "Sci. World J."
+        },
+        {
+          "key": "10.1016/j.knosys.2015.12.022_bib0020",
+          "doi-asserted-by": "crossref",
+          "first-page": "88",
+          "DOI": "10.4028/www.scientific.net/AMM.203.88",
+          "article-title": "Image matching using a bat algorithm with mutation",
+          "volume": "203",
+          "author": "Zhang",
+          "year": "2012",
+          "journal-title": "Appl. Mech. Mater."
+        },
+        {
+          "key": "10.1016/j.knosys.2015.12.022_bib0021",
+          "series-title": "Proceedings of Second International Conference on Information and Computing Science, 2009 (ICIC'09)",
+          "first-page": "66",
+          "article-title": "Particle swarm optimization algorithm with exponent decreasing inertia weight and stochastic mutation",
+          "author": "Li",
+          "year": "2009"
+        },
+        {
+          "key": "10.1016/j.knosys.2015.12.022_bib0022",
+          "series-title": "Proceedings of 2012 IEEE Congress on Evolutionary Computation (CEC)",
+          "first-page": "1",
+          "article-title": "Particle swarm optimization with pbest crossover",
+          "author": "Chen",
+          "year": "2012"
+        },
+        {
+          "key": "10.1016/j.knosys.2015.12.022_bib0023",
+          "first-page": "185",
+          "article-title": "An ant colony optimization algorithm based on mutation and dynamic pheromone updating",
+          "volume": "15",
+          "author": "Zhu",
+          "year": "2004",
+          "journal-title": "J. Softw."
+        },
+        {
+          "key": "10.1016/j.knosys.2015.12.022_bib0024",
+          "series-title": "Proceedings of 2005 IEEE Congress on Evolutionary Computation",
+          "first-page": "522",
+          "article-title": "Dynamic multi-swarm particle swarm optimizer with local search",
+          "author": "Liang",
+          "year": "2005"
+        },
+        {
+          "key": "10.1016/j.knosys.2015.12.022_bib0025",
+          "first-page": "139",
+          "article-title": "A new approach for data clustering based on PSO with local search",
+          "volume": "1",
+          "author": "Premalatha",
+          "year": "2008",
+          "journal-title": "Comput. Inf. Sci."
+        },
+        {
+          "key": "10.1016/j.knosys.2015.12.022_bib0026",
+          "doi-asserted-by": "crossref",
+          "first-page": "107",
+          "DOI": "10.1109/TEVC.2007.895272",
+          "article-title": "Accelerating differential evolution using an adaptive local search",
+          "volume": "12",
+          "author": "Noman",
+          "year": "2008",
+          "journal-title": "IEEE Trans. Evol. Comput."
+        },
+        {
+          "key": "10.1016/j.knosys.2015.12.022_bib0027",
+          "doi-asserted-by": "crossref",
+          "first-page": "705",
+          "DOI": "10.1057/palgrave.jors.2601771",
+          "article-title": "Ant colony optimization and local search for bin packing and cutting stock problems",
+          "volume": "55",
+          "author": "Levine",
+          "year": "2004",
+          "journal-title": "J. Oper. Res. Soc."
+        },
+        {
+          "key": "10.1016/j.knosys.2015.12.022_bib0028",
+          "series-title": "Hybrid Metaheuristics",
+          "first-page": "1",
+          "article-title": "Hybrid metaheuristics: an introduction",
+          "author": "Blum",
+          "year": "2008"
+        },
+        {
+          "key": "10.1016/j.knosys.2015.12.022_bib0029",
+          "series-title": "Hybrid metaheuristics",
+          "first-page": "221",
+          "article-title": "Hybrid metaheuristics for multi-objective combinatorial optimization",
+          "author": "Ehrgott",
+          "year": "2008"
+        },
+        {
+          "key": "10.1016/j.knosys.2015.12.022_bib0030",
+          "article-title": "A novel hybrid bat algorithm with harmony search for global numerical optimization",
+          "volume": "2013",
+          "author": "Wang",
+          "year": "2013",
+          "journal-title": "J. Appl. Math."
+        },
+        {
+          "key": "10.1016/j.knosys.2015.12.022_bib0031",
+          "doi-asserted-by": "crossref",
+          "first-page": "297",
+          "DOI": "10.1007/s00521-013-1485-9",
+          "article-title": "Hybrid krill herd algorithm with differential evolution for global numerical optimization",
+          "volume": "25",
+          "author": "Wang",
+          "year": "2014",
+          "journal-title": "Neural Comput. Appl."
+        },
+        {
+          "key": "10.1016/j.knosys.2015.12.022_bib0032",
+          "article-title": "A hybrid metaheuristic DE/CS algorithm for UCAV three-dimension path planning",
+          "volume": "2012",
+          "author": "Wang",
+          "year": "2012",
+          "journal-title": "Sci. World J."
+        },
+        {
+          "key": "10.1016/j.knosys.2015.12.022_bib0033",
+          "doi-asserted-by": "crossref",
+          "first-page": "2312",
+          "DOI": "10.1166/jctn.2013.3207",
+          "article-title": "Hybridizing harmony search with biogeography based optimization for global numerical optimization",
+          "volume": "10",
+          "author": "Wang",
+          "year": "2013",
+          "journal-title": "J. Comput. Theor. Nanosci."
+        },
+        {
+          "key": "10.1016/j.knosys.2015.12.022_bib0034",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1155/2012/712752",
+          "article-title": "Test-sheet composition using analytic hierarchy process and hybrid metaheuristic algorithm TS/BBO",
+          "volume": "2012",
+          "author": "Duan",
+          "year": "2012",
+          "journal-title": "Math. Probl. Eng."
+        },
+        {
+          "key": "10.1016/j.knosys.2015.12.022_bib0035",
+          "first-page": "4811",
+          "article-title": "A hybrid meta-heuristic DE/CS algorithm for UCAV path planning",
+          "volume": "5",
+          "author": "Wang",
+          "year": "2012",
+          "journal-title": "J. Inf. Comput. Sci."
+        },
+        {
+          "key": "10.1016/j.knosys.2015.12.022_bib0036",
+          "doi-asserted-by": "crossref",
+          "first-page": "255",
+          "DOI": "10.1016/j.ipl.2004.11.003",
+          "article-title": "An improved GA and a novel PSO-GA-based hybrid algorithm",
+          "volume": "93",
+          "author": "Shi",
+          "year": "2005",
+          "journal-title": "Inf. Process. Lett."
+        },
+        {
+          "key": "10.1016/j.knosys.2015.12.022_bib0037",
+          "first-page": "2",
+          "article-title": "A hybrid PSO/ACO algorithm for discovering classification rules in data mining",
+          "volume": "2008",
+          "author": "Holden",
+          "year": "2008",
+          "journal-title": "J. Artif. Evol. Appl."
+        },
+        {
+          "key": "10.1016/j.knosys.2015.12.022_bib0038",
+          "doi-asserted-by": "crossref",
+          "first-page": "12086",
+          "DOI": "10.1016/j.eswa.2009.04.023",
+          "article-title": "A novel ACO–GA hybrid algorithm for feature selection in protein function prediction",
+          "volume": "36",
+          "author": "Nemati",
+          "year": "2009",
+          "journal-title": "Expert Syst. Appl."
+        },
+        {
+          "key": "10.1016/j.knosys.2015.12.022_bib0039",
+          "doi-asserted-by": "crossref",
+          "first-page": "1096",
+          "DOI": "10.1016/j.mechmachtheory.2010.03.011",
+          "article-title": "A GA–DE hybrid evolutionary algorithm for path synthesis of four-bar linkage",
+          "volume": "45",
+          "author": "Lin",
+          "year": "2010",
+          "journal-title": "Mech. Mach. Theory"
+        },
+        {
+          "key": "10.1016/j.knosys.2015.12.022_bib0040",
+          "series-title": "Advanced Intelligent Computing Theories and Applications. With Aspects of Artificial Intelligence",
+          "first-page": "156",
+          "article-title": "A novel PSO-DE-based hybrid algorithm for global optimization",
+          "author": "Niu",
+          "year": "2008"
+        },
+        {
+          "key": "10.1016/j.knosys.2015.12.022_bib0041",
+          "doi-asserted-by": "crossref",
+          "first-page": "1104",
+          "DOI": "10.1016/j.simpat.2009.10.006",
+          "article-title": "Three-dimension path planning for UCAV using hybrid meta-heuristic ACO-DE algorithm",
+          "volume": "18",
+          "author": "Duan",
+          "year": "2010",
+          "journal-title": "Simul. Model. Pract. Theory"
+        },
+        {
+          "key": "10.1016/j.knosys.2015.12.022_bib0042",
+          "article-title": "A new hybrid method based on krill herd and cuckoo search for global optimization tasks",
+          "author": "Wang",
+          "year": "2013",
+          "journal-title": "Int. J. Bio-Inspired Comput."
+        },
+        {
+          "key": "10.1016/j.knosys.2015.12.022_bib0043",
+          "doi-asserted-by": "crossref",
+          "first-page": "2454",
+          "DOI": "10.1016/j.apm.2013.10.052",
+          "article-title": "An effective krill herd algorithm with migration operator in biogeography-based optimization",
+          "volume": "38",
+          "author": "Wang",
+          "year": "2014",
+          "journal-title": "Appl. Math. Model."
+        },
+        {
+          "issue": "63",
+          "key": "10.1016/j.knosys.2015.12.022_bib0044",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1145/1045343.1045373",
+          "article-title": "Cognitive systems based on adaptive algorithms",
+          "author": "Holland",
+          "year": "1977",
+          "journal-title": "ACM SIGART Bull."
+        },
+        {
+          "key": "10.1016/j.knosys.2015.12.022_bib0045",
+          "doi-asserted-by": "crossref",
+          "first-page": "341",
+          "DOI": "10.1023/A:1008202821328",
+          "article-title": "Differential evolution–a simple and efficient heuristic for global optimization over continuous spaces",
+          "volume": "11",
+          "author": "Storn",
+          "year": "1997",
+          "journal-title": "J. Global Optim."
+        },
+        {
+          "key": "10.1016/j.knosys.2015.12.022_bib0046",
+          "doi-asserted-by": "crossref",
+          "first-page": "232",
+          "DOI": "10.1016/j.asoc.2014.01.038",
+          "article-title": "Differential evolution based on covariance matrix learning and bimodal distribution parameter setting",
+          "volume": "18",
+          "author": "Wang",
+          "year": "2014",
+          "journal-title": "Appl. Soft Comput."
+        },
+        {
+          "key": "10.1016/j.knosys.2015.12.022_bib0047",
+          "doi-asserted-by": "crossref",
+          "first-page": "55",
+          "DOI": "10.1109/TEVC.2010.2087271",
+          "article-title": "Differential evolution with composite trial vector generation strategies and control parameters",
+          "volume": "15",
+          "author": "Wang",
+          "year": "2011",
+          "journal-title": "IEEE Trans. Evol. Comput."
+        },
+        {
+          "key": "10.1016/j.knosys.2015.12.022_bib0048",
+          "doi-asserted-by": "crossref",
+          "first-page": "153",
+          "DOI": "10.1016/j.ins.2011.09.001",
+          "article-title": "Enhancing the search ability of differential evolution through orthogonal crossover",
+          "volume": "185",
+          "author": "Wang",
+          "year": "2012",
+          "journal-title": "Inf. Sci."
+        },
+        {
+          "key": "10.1016/j.knosys.2015.12.022_bib0049",
+          "doi-asserted-by": "crossref",
+          "first-page": "702",
+          "DOI": "10.1109/TEVC.2008.919004",
+          "article-title": "Biogeography-based optimization",
+          "volume": "12",
+          "author": "Simon",
+          "year": "2008",
+          "journal-title": "IEEE Trans. Evol. Comput."
+        },
+        {
+          "key": "10.1016/j.knosys.2015.12.022_bib0050",
+          "first-page": "83",
+          "article-title": "Evolutionsstrategien",
+          "volume": "8",
+          "author": "Rechenberg",
+          "year": "1978"
+        },
+        {
+          "key": "10.1016/j.knosys.2015.12.022_bib0051",
+          "series-title": "Encyclopedia of Machine Learning",
+          "first-page": "36",
+          "article-title": "Ant colony optimization",
+          "author": "Dorigo",
+          "year": "2010"
+        },
+        {
+          "key": "10.1016/j.knosys.2015.12.022_bib0052",
+          "series-title": "Proceedings of the Sixth International Symposium on Micro Machine and Human Science",
+          "first-page": "39",
+          "article-title": "A new optimizer using particle swarm theory",
+          "author": "Eberhart",
+          "year": "1995"
+        },
+        {
+          "key": "10.1016/j.knosys.2015.12.022_bib0053",
+          "doi-asserted-by": "crossref",
+          "first-page": "459",
+          "DOI": "10.1007/s10898-007-9149-x",
+          "article-title": "A powerful and efficient algorithm for numerical function optimization: artificial bee colony (ABC) algorithm",
+          "volume": "39",
+          "author": "Karaboga",
+          "year": "2007",
+          "journal-title": "J. Global Optim."
+        },
+        {
+          "key": "10.1016/j.knosys.2015.12.022_bib0054",
+          "doi-asserted-by": "crossref",
+          "first-page": "2232",
+          "DOI": "10.1016/j.ins.2009.03.004",
+          "article-title": "GSA: a gravitational search algorithm",
+          "volume": "179",
+          "author": "Rashedi",
+          "year": "2009",
+          "journal-title": "Inf. Sci."
+        },
+        {
+          "key": "10.1016/j.knosys.2015.12.022_bib0055",
+          "doi-asserted-by": "crossref",
+          "first-page": "43",
+          "DOI": "10.1016/j.compstruc.2014.04.006",
+          "article-title": "Colliding Bodies Optimization method for optimum discrete design of truss structures",
+          "volume": "139",
+          "author": "Kaveh",
+          "year": "2014",
+          "journal-title": "Comput. Struct."
+        },
+        {
+          "key": "10.1016/j.knosys.2015.12.022_bib0056",
+          "doi-asserted-by": "crossref",
+          "first-page": "175",
+          "DOI": "10.1016/j.ins.2012.08.023",
+          "article-title": "Black hole: a new heuristic optimization approach for data clustering",
+          "volume": "222",
+          "author": "Hatamlou",
+          "year": "2013",
+          "journal-title": "Inf. Sci."
+        },
+        {
+          "key": "10.1016/j.knosys.2015.12.022_bib0057",
+          "doi-asserted-by": "crossref",
+          "first-page": "171",
+          "DOI": "10.1016/j.asoc.2013.12.005",
+          "article-title": "League Championship Algorithm (LCA): an algorithm for global optimization inspired by sport championships",
+          "volume": "16",
+          "author": "Kashan",
+          "year": "2014",
+          "journal-title": "Appl. Soft Comput."
+        },
+        {
+          "key": "10.1016/j.knosys.2015.12.022_bib0058",
+          "doi-asserted-by": "crossref",
+          "first-page": "2592",
+          "DOI": "10.1016/j.asoc.2012.11.026",
+          "article-title": "Mine blast algorithm: a new population based algorithm for solving constrained engineering optimization problems",
+          "volume": "13",
+          "author": "Sadollah",
+          "year": "2013",
+          "journal-title": "Appl. Soft Comput."
+        },
+        {
+          "key": "10.1016/j.knosys.2015.12.022_bib0059",
+          "doi-asserted-by": "crossref",
+          "first-page": "303",
+          "DOI": "10.1016/j.cad.2010.12.015",
+          "article-title": "Teaching–learning-based optimization: a novel method for constrained mechanical design optimization problems",
+          "volume": "43",
+          "author": "Rao",
+          "year": "2011",
+          "journal-title": "Comput.-Aided Des."
+        },
+        {
+          "key": "10.1016/j.knosys.2015.12.022_bib0060",
+          "doi-asserted-by": "crossref",
+          "first-page": "67",
+          "DOI": "10.1109/4235.585893",
+          "article-title": "No free lunch theorems for optimization",
+          "volume": "1",
+          "author": "Wolpert",
+          "year": "1997",
+          "journal-title": "IEEE Trans. Evol. Comput."
+        },
+        {
+          "key": "10.1016/j.knosys.2015.12.022_bib0061",
+          "doi-asserted-by": "crossref",
+          "first-page": "228",
+          "DOI": "10.1016/j.knosys.2015.07.006",
+          "article-title": "Moth-flame optimization algorithm: A novel nature-inspired heuristic paradigm",
+          "volume": "89",
+          "author": "Mirjalili",
+          "year": "2015",
+          "journal-title": "Knowl.-Based Syst."
+        },
+        {
+          "key": "10.1016/j.knosys.2015.12.022_bib0062",
+          "doi-asserted-by": "crossref",
+          "first-page": "35",
+          "DOI": "10.1145/2480741.2480752",
+          "article-title": "Exploration and exploitation in evolutionary algorithms: a survey",
+          "volume": "45",
+          "author": "Črepinšek",
+          "year": "2013",
+          "journal-title": "ACM Comput. Surv."
+        },
+        {
+          "key": "10.1016/j.knosys.2015.12.022_bib0063",
+          "doi-asserted-by": "crossref",
+          "first-page": "82",
+          "DOI": "10.1109/4235.771163",
+          "article-title": "Evolutionary programming made faster",
+          "volume": "3",
+          "author": "Yao",
+          "year": "1999",
+          "journal-title": "IEEE Trans. Evol. Comput."
+        },
+        {
+          "key": "10.1016/j.knosys.2015.12.022_bib0064",
+          "doi-asserted-by": "crossref",
+          "first-page": "481",
+          "DOI": "10.1080/00207160108805080",
+          "article-title": "On benchmarking functions for genetic algorithms",
+          "volume": "77",
+          "author": "Digalakis",
+          "year": "2001",
+          "journal-title": "Int. J. Comput. Math."
+        },
+        {
+          "key": "10.1016/j.knosys.2015.12.022_bib0065",
+          "article-title": "Test functions for optimization needs",
+          "author": "Molga",
+          "year": "2005",
+          "journal-title": "Test Funct. Optim. Needs"
+        },
+        {
+          "key": "10.1016/j.knosys.2015.12.022_bib0066",
+          "unstructured": "X.-S. Yang, Test problems in optimization, 2010. Available from arXiv:1008.0549."
+        },
+        {
+          "key": "10.1016/j.knosys.2015.12.022_bib0067",
+          "doi-asserted-by": "crossref",
+          "first-page": "78",
+          "DOI": "10.1504/IJBIC.2010.032124",
+          "article-title": "Firefly algorithm, stochastic test functions and design optimisation",
+          "volume": "2",
+          "author": "Yang",
+          "year": "2010",
+          "journal-title": "Int. J. Bio-Inspired Comput."
+        },
+        {
+          "key": "10.1016/j.knosys.2015.12.022_bib0068",
+          "series-title": "Nature Inspired Cooperative Strategies for Optimization (NICSO 2010)",
+          "first-page": "65",
+          "article-title": "A new metaheuristic bat-inspired algorithm",
+          "author": "Yang",
+          "year": "2010"
+        },
+        {
+          "key": "10.1016/j.knosys.2015.12.022_bib0069",
+          "doi-asserted-by": "crossref",
+          "first-page": "1222",
+          "DOI": "10.1080/0305215X.2013.832237",
+          "article-title": "Flower pollination algorithm: a novel approach for multiobjective optimization",
+          "volume": "46",
+          "author": "Yang",
+          "year": "2014",
+          "journal-title": "Eng. Optim."
+        },
+        {
+          "key": "10.1016/j.knosys.2015.12.022_bib0070",
+          "doi-asserted-by": "crossref",
+          "first-page": "117",
+          "DOI": "10.1109/TEVC.2010.2093582",
+          "article-title": "Combining multiobjective optimization with differential evolution to solve constrained optimization problems",
+          "volume": "16",
+          "author": "Wang",
+          "year": "2012",
+          "journal-title": "IEEE Trans. Evol. Comput."
+        },
+        {
+          "key": "10.1016/j.knosys.2015.12.022_bib0071",
+          "doi-asserted-by": "crossref",
+          "first-page": "98",
+          "DOI": "10.1016/j.knosys.2015.04.001",
+          "article-title": "Optimization of a multiproduct economic production quantity problem with stochastic constraints using sequential quadratic programming",
+          "volume": "84",
+          "author": "Pasandideh",
+          "year": "2015",
+          "journal-title": "Knowl.-Based Syst."
+        },
+        {
+          "key": "10.1016/j.knosys.2015.12.022_bib0072",
+          "article-title": "Optimizing a bi-objective reliable facility location problem with adapted stochastic measures using tuned-parameter multi-objective algorithms",
+          "author": "Jalali",
+          "year": "2015",
+          "journal-title": "Knowl.-Based Syst."
+        },
+        {
+          "key": "10.1016/j.knosys.2015.12.022_bib0073",
+          "doi-asserted-by": "crossref",
+          "first-page": "1",
+          "DOI": "10.1016/j.knosys.2014.07.025",
+          "article-title": "Stochastic fractal search: a powerful metaheuristic algorithm",
+          "volume": "75",
+          "author": "Salimi",
+          "year": "2015",
+          "journal-title": "Knowl.-Based Syst."
+        },
+        {
+          "key": "10.1016/j.knosys.2015.12.022_bib0074",
+          "doi-asserted-by": "crossref",
+          "first-page": "1245",
+          "DOI": "10.1016/S0045-7825(01)00323-1",
+          "article-title": "Theoretical and numerical constraint-handling techniques used with evolutionary algorithms: a survey of the state of the art",
+          "volume": "191",
+          "author": "Coello Coello",
+          "year": "2002",
+          "journal-title": "Comput. Methods Appl. Mech. Eng."
+        },
+        {
+          "key": "10.1016/j.knosys.2015.12.022_bib0075",
+          "series-title": "Low Reynolds number aerodynamics",
+          "first-page": "1",
+          "article-title": "XFOIL: An analysis and design system for low Reynolds number airfoils",
+          "author": "Drela",
+          "year": "1989"
+        }
+      ],
+      "container-title": [
+        "Knowledge-Based Systems"
+      ],
+      "original-title": [],
+      "language": "en",
+      "link": [
+        {
+          "URL": "https://api.elsevier.com/content/article/PII:S0950705115005043?httpAccept=text/xml",
+          "content-type": "text/xml",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        },
+        {
+          "URL": "https://api.elsevier.com/content/article/PII:S0950705115005043?httpAccept=text/plain",
+          "content-type": "text/plain",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2019,
+            9,
+            3
+          ]
+        ],
+        "date-time": "2019-09-03T03:03:35Z",
+        "timestamp": 1567479815000
+      },
+      "score": 1,
+      "resource": {
+        "primary": {
+          "URL": "https://linkinghub.elsevier.com/retrieve/pii/S0950705115005043"
+        }
+      },
+      "subtitle": [],
+      "short-title": [],
+      "issued": {
+        "date-parts": [
+          [
+            2016,
+            3
+          ]
+        ]
+      },
+      "references-count": 75,
+      "alternative-id": [
+        "S0950705115005043"
+      ],
+      "URL": "https://doi.org/10.1016/j.knosys.2015.12.022",
+      "relation": {},
+      "ISSN": [
+        "0950-7051"
+      ],
+      "issn-type": [
+        {
+          "value": "0950-7051",
+          "type": "print"
+        }
+      ],
+      "subject": [],
+      "published": {
+        "date-parts": [
+          [
+            2016,
+            3
+          ]
+        ]
+      },
+      "assertion": [
+        {
+          "value": "Elsevier",
+          "name": "publisher",
+          "label": "This article is maintained by"
+        },
+        {
+          "value": "SCA: A Sine Cosine Algorithm for solving optimization problems",
+          "name": "articletitle",
+          "label": "Article Title"
+        },
+        {
+          "value": "Knowledge-Based Systems",
+          "name": "journaltitle",
+          "label": "Journal Title"
+        },
+        {
+          "value": "https://doi.org/10.1016/j.knosys.2015.12.022",
+          "name": "articlelink",
+          "label": "CrossRef DOI link to publisher maintained version"
+        },
+        {
+          "value": "article",
+          "name": "content_type",
+          "label": "Content Type"
+        },
+        {
+          "value": "Copyright © 2016 Elsevier Ltd. All rights reserved.",
+          "name": "copyright",
+          "label": "Copyright"
+        }
+      ]
+    }
+  }
+}

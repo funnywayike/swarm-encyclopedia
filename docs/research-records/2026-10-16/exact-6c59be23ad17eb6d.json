@@ -1,0 +1,613 @@
+{
+  "doi": "10.1002/prot.26478",
+  "url": "https://api.crossref.org/works/10.1002%2Fprot.26478",
+  "retrieved": "2026-10-16",
+  "response": {
+    "status": "ok",
+    "message-type": "work",
+    "message-version": "1.0.0",
+    "message": {
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            10,
+            2
+          ]
+        ],
+        "date-time": "2026-10-02T19:47:20Z",
+        "timestamp": 1790970440545,
+        "version": "4.1.0"
+      },
+      "reference-count": 52,
+      "publisher": "Wiley",
+      "issue": "7",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2023,
+                3,
+                2
+              ]
+            ],
+            "date-time": "2023-03-02T00:00:00Z",
+            "timestamp": 1677715200000
+          },
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "URL": "http://onlinelibrary.wiley.com/termsAndConditions#vor"
+        }
+      ],
+      "content-domain": {
+        "domain": [
+          "onlinelibrary.wiley.com"
+        ],
+        "crossmark-restriction": true
+      },
+      "short-container-title": [
+        "Proteins"
+      ],
+      "published-print": {
+        "date-parts": [
+          [
+            2023,
+            7
+          ]
+        ]
+      },
+      "abstract": "",
+      "DOI": "10.1002/prot.26478",
+      "type": "journal-article",
+      "created": {
+        "date-parts": [
+          [
+            2023,
+            2,
+            13
+          ]
+        ],
+        "date-time": "2023-02-13T10:19:40Z",
+        "timestamp": 1676283580000
+      },
+      "page": "933-943",
+      "update-policy": "https://doi.org/10.1002/crossmark_policy",
+      "source": "Crossref",
+      "is-referenced-by-count": 8,
+      "title": [
+        "Protein structure prediction using the evolutionary algorithm\n                    <scp>USPEX</scp>"
+      ],
+      "prefix": "10.1002",
+      "volume": "91",
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0000-0003-0533-7940",
+          "authenticated-orcid": false,
+          "given": "Pavel",
+          "family": "Rachitskii",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "Moscow Institute of Physics and Technology  Dolgoprudny Russia"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Ivan",
+          "family": "Kruglov",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Moscow Institute of Physics and Technology  Dolgoprudny Russia"
+            },
+            {
+              "name": "Dukhov Research Institute of Automatics (VNIIA)  Moscow Russia"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Alexei V.",
+          "family": "Finkelstein",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Institute of Protein Research of the Russian Academy of Sciences  Moscow Russia"
+            },
+            {
+              "name": "Biology Department of the Lomonosov Moscow State University  Moscow Russia"
+            },
+            {
+              "name": "Biotechnology Department of the Lomonosov Moscow State University  Moscow Russia"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Artem R.",
+          "family": "Oganov",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Skolkovo Institute of Science and Technology Skolkovo Innovation Center  Moscow Russia"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "311",
+      "published-online": {
+        "date-parts": [
+          [
+            2023,
+            3,
+            2
+          ]
+        ]
+      },
+      "reference": [
+        {
+          "key": "e_1_2_9_2_1",
+          "volume-title": "Protein Physics. A Course of Lectures",
+          "author": "Finkelstein AV",
+          "year": "2016"
+        },
+        {
+          "key": "e_1_2_9_3_1",
+          "volume-title": "Principles of Protein X‐Ray Crystallography",
+          "author": "Drenth J",
+          "year": "2007"
+        },
+        {
+          "key": "e_1_2_9_4_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1111/j.1469-185X.2010.00157.x"
+        },
+        {
+          "key": "e_1_2_9_5_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/pro.3022"
+        },
+        {
+          "key": "e_1_2_9_6_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.3390/biology9110401"
+        },
+        {
+          "key": "e_1_2_9_7_1",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1002/0471650129",
+          "volume-title": "Dictionary of Bioinformatics and Computational Biology",
+          "author": "Hancock JM",
+          "year": "2004"
+        },
+        {
+          "key": "e_1_2_9_8_1",
+          "volume-title": "RCSB PDB: Homepage",
+          "author": "Protein Data Bank",
+          "year": "2019"
+        },
+        {
+          "key": "e_1_2_9_9_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nature05990"
+        },
+        {
+          "key": "e_1_2_9_10_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41586-019-1923-7"
+        },
+        {
+          "key": "e_1_2_9_11_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.1914677117"
+        },
+        {
+          "key": "e_1_2_9_12_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41586-021-03819-2"
+        },
+        {
+          "key": "e_1_2_9_13_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.181.4096.223"
+        },
+        {
+          "key": "e_1_2_9_14_1",
+          "first-page": "22",
+          "article-title": "How to fold graciously",
+          "volume": "41",
+          "author": "Levinthal C",
+          "year": "1969",
+          "journal-title": "Mössbauer Spectrosc Biol Syst Proc"
+        },
+        {
+          "key": "e_1_2_9_15_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1098/rsta.1986.0044"
+        },
+        {
+          "key": "e_1_2_9_16_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/357543a0"
+        },
+        {
+          "key": "e_1_2_9_17_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/prot.24065"
+        },
+        {
+          "key": "e_1_2_9_18_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btw316"
+        },
+        {
+          "key": "e_1_2_9_19_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1039/C7RA07461A"
+        },
+        {
+          "key": "e_1_2_9_20_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/srep16332"
+        },
+        {
+          "key": "e_1_2_9_21_1",
+          "article-title": "De novo structure prediction with deep‐learning based scoring",
+          "volume": "77",
+          "author": "Evans R",
+          "year": "2018",
+          "journal-title": "Thirteen Crit Assess Tech Protein Struct"
+        },
+        {
+          "key": "e_1_2_9_22_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.eml.2020.100652"
+        },
+        {
+          "key": "e_1_2_9_23_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/acs.jctc.7b00125"
+        },
+        {
+          "key": "e_1_2_9_24_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/978-1-4419-6247-8"
+        },
+        {
+          "key": "e_1_2_9_25_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.aaz3041"
+        },
+        {
+          "key": "e_1_2_9_26_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.1208351"
+        },
+        {
+          "key": "e_1_2_9_27_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.1800690115"
+        },
+        {
+          "key": "e_1_2_9_28_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/prot.25373"
+        },
+        {
+          "key": "e_1_2_9_29_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.cels.2019.03.006"
+        },
+        {
+          "key": "e_1_2_9_30_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1063/1.2210932"
+        },
+        {
+          "key": "e_1_2_9_31_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/ar1001318"
+        },
+        {
+          "key": "e_1_2_9_32_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.cpc.2012.12.009"
+        },
+        {
+          "key": "e_1_2_9_33_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nchem.2716"
+        },
+        {
+          "key": "e_1_2_9_34_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nature07786"
+        },
+        {
+          "key": "e_1_2_9_35_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/acs.jpclett.0c00874"
+        },
+        {
+          "key": "e_1_2_9_36_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/acs.jpclett.8b03510"
+        },
+        {
+          "key": "e_1_2_9_37_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1107/S0108768112017466"
+        },
+        {
+          "key": "e_1_2_9_38_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1107/S0108767391001071"
+        },
+        {
+          "key": "e_1_2_9_39_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/acs.jctc.8b00529"
+        },
+        {
+          "key": "e_1_2_9_40_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/prot.21123"
+        },
+        {
+          "key": "e_1_2_9_41_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/1096-987X(200009)21:12<1049::AID-JCC3>3.0.CO;2-F"
+        },
+        {
+          "key": "e_1_2_9_42_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/jp973084f"
+        },
+        {
+          "key": "e_1_2_9_43_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/jp003919d"
+        },
+        {
+          "key": "e_1_2_9_44_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/(SICI)1097-0134(19990501)35:2<133::AID-PROT1>3.0.CO;2-N"
+        },
+        {
+          "key": "e_1_2_9_45_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1517/17460441.2015.1032936"
+        },
+        {
+          "key": "e_1_2_9_46_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/prot.340230412"
+        },
+        {
+          "key": "e_1_2_9_47_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1107/S0108767310026395"
+        },
+        {
+          "key": "e_1_2_9_48_1",
+          "first-page": "1",
+          "article-title": "Topology‐based crystal structure generator",
+          "volume": "236",
+          "author": "Bushlanov PV",
+          "year": "2019",
+          "journal-title": "CompPhys Comm"
+        },
+        {
+          "key": "e_1_2_9_49_1",
+          "volume-title": "The PyMOL Molecular Graphics System, Version 1.8",
+          "author": "DeLano WL",
+          "year": "2014"
+        },
+        {
+          "key": "e_1_2_9_50_1",
+          "unstructured": "AlQuraishi M.AlphaFold2@CASP14: “It feels like one's child has left home.” [Blog post]. (2020)."
+        },
+        {
+          "key": "e_1_2_9_51_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.plrev.2017.06.025"
+        },
+        {
+          "key": "e_1_2_9_52_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.sbi.2013.12.006"
+        },
+        {
+          "key": "e_1_2_9_53_1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/biomet/57.1.97"
+        }
+      ],
+      "container-title": [
+        "Proteins: Structure, Function, and Bioinformatics"
+      ],
+      "original-title": [],
+      "language": "en",
+      "link": [
+        {
+          "URL": "https://onlinelibrary.wiley.com/doi/pdf/10.1002/prot.26478",
+          "content-type": "application/pdf",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        },
+        {
+          "URL": "https://onlinelibrary.wiley.com/doi/full-xml/10.1002/prot.26478",
+          "content-type": "application/xml",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        },
+        {
+          "URL": "https://onlinelibrary.wiley.com/doi/pdf/10.1002/prot.26478",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2023,
+            8,
+            19
+          ]
+        ],
+        "date-time": "2023-08-19T09:35:09Z",
+        "timestamp": 1692437709000
+      },
+      "score": 1,
+      "resource": {
+        "primary": {
+          "URL": "https://onlinelibrary.wiley.com/doi/10.1002/prot.26478"
+        }
+      },
+      "subtitle": [],
+      "short-title": [],
+      "issued": {
+        "date-parts": [
+          [
+            2023,
+            3,
+            2
+          ]
+        ]
+      },
+      "references-count": 52,
+      "journal-issue": {
+        "issue": "7",
+        "published-print": {
+          "date-parts": [
+            [
+              2023,
+              7
+            ]
+          ]
+        }
+      },
+      "alternative-id": [
+        "10.1002/prot.26478"
+      ],
+      "URL": "https://doi.org/10.1002/prot.26478",
+      "archive": [
+        "Portico"
+      ],
+      "relation": {
+        "has-review": [
+          {
+            "id-type": "doi",
+            "id": "10.1002/PROT.26478/v1/decision1",
+            "asserted-by": "object"
+          },
+          {
+            "id-type": "doi",
+            "id": "10.1002/PROT.26478/v3/review1",
+            "asserted-by": "object"
+          },
+          {
+            "id-type": "doi",
+            "id": "10.1002/PROT.26478/v2/review1",
+            "asserted-by": "object"
+          },
+          {
+            "id-type": "doi",
+            "id": "10.1002/PROT.26478/v2/decision1",
+            "asserted-by": "object"
+          },
+          {
+            "id-type": "doi",
+            "id": "10.1002/PROT.26478/v1/review1",
+            "asserted-by": "object"
+          },
+          {
+            "id-type": "doi",
+            "id": "10.1002/PROT.26478/v3/decision1",
+            "asserted-by": "object"
+          }
+        ]
+      },
+      "ISSN": [
+        "0887-3585",
+        "1097-0134"
+      ],
+      "issn-type": [
+        {
+          "value": "0887-3585",
+          "type": "print"
+        },
+        {
+          "value": "1097-0134",
+          "type": "electronic"
+        }
+      ],
+      "subject": [],
+      "published": {
+        "date-parts": [
+          [
+            2023,
+            3,
+            2
+          ]
+        ]
+      },
+      "assertion": [
+        {
+          "value": "2021-11-02",
+          "order": 0,
+          "name": "received",
+          "label": "Received",
+          "group": {
+            "name": "publication_history",
+            "label": "Publication History"
+          }
+        },
+        {
+          "value": "2023-02-06",
+          "order": 1,
+          "name": "accepted",
+          "label": "Accepted",
+          "group": {
+            "name": "publication_history",
+            "label": "Publication History"
+          }
+        },
+        {
+          "value": "2023-03-02",
+          "order": 2,
+          "name": "published",
+          "label": "Published",
+          "group": {
+            "name": "publication_history",
+            "label": "Publication History"
+          }
+        }
+      ]
+    }
+  }
+}

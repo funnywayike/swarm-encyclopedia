@@ -4,379 +4,857 @@
       "id": "theory",
       "dir": "theory",
       "name": "理论基础",
-      "en": "Theory: NFL, Landscape &amp; Behavior",
+      "en": "Why Search Works",
       "ico": "📐",
-      "card_title": "理论基础（M1）",
-      "card_desc": "NFL 定理的正确读法 · 适应度地形 · 行为分类学——算法优势从哪来",
-      "lead": "「哪个算法最强」是错的问题；「目标函数的几何结构是什么」才是对的。NFL 定理、适应度地形分析与行为分类学，是理解整个算法宇宙的三把钥匙。",
+      "card_title": "理论基础",
+      "card_desc": "从“怎样表示一个方案”开始，理解邻域、群体、约束与评价。机制讲得清，算法名称才有比较的意义。",
+      "lead": "从“怎样表示一个方案”开始，理解邻域、群体、约束与评价。机制讲得清，算法名称才有比较的意义。",
       "sections": [
         {
-          "h2": "NFL 定理：被引用最多、被读错最多",
-          "html": "<p><b>定理内容</b>（Wolpert &amp; Macready 1997；AMS Notices 2014 科普）：对所有可能的目标函数取平均，任何搜索算法与随机搜索<b>等价</b>。</p>\n<ul>\n<li><b>正确读法</b>：实践中算法的优势<b>必然来自对问题结构的利用</b>——凸/多峰/可分/欺骗性。NFL 是「领域知识必须注入算法」的论证，<b>不是</b>「算法都一样」的托词。</li>\n<li><b>正确的问题</b>：不是「哪个算法最强」，而是「这个问题长什么样、什么结构可利用」——这正是本站问题轴（L1 模型属性标签）存在的理由。</li>\n</ul>",
+          "h2": "先定义问题，再选择搜索方法",
+          "takeaway": "一个优化问题至少要说明变量、目标和约束。",
+          "html": "<p>旅行商问题选择城市访问顺序，连续优化选择实数参数，多目标设计比较一组折中方案。它们都可以“搜索”，但合法方案、移动方式和好坏标准并不相同。把实数更新式直接搬到排列上，会遇到重复城市或缺失城市等问题，必须重新设计表示、解码或修复。</p><div class=\"science-example\"><b>同一个“交换”有不同含义</b><p>交换两个城市改变路线；交换两项班次可能违反覆盖或工时要求。因此，看算法前先问：它移动的是什么？移动之后还合法吗？</p></div><p>元启发式提供组织搜索的策略。问题结构、评价模型和领域算子共同决定具体求解器的行为。</p>",
           "refs": [
-            "wolpert1997"
+            "boussaid2013",
+            "osaba2021"
           ]
         },
         {
-          "h2": "适应度地形：连接问题结构与算法选择的桥",
-          "html": "<p><b>形式化定义</b>（Jones 1995 / Stadler 2002）：地形 = 图(解, 算子)——<b>换算子就是换地形</b>。同一问题在 2-opt 算子下和交换算子下是完全不同的山。</p>\n<ul>\n<li>地形特征（局部最优密度、大谷结构、中性区广度）决定哪种搜索策略有效。</li>\n<li>诚实现状：「哪个算法适合哪类地形」的一般性结论<b>仍远远未解决</b>（AMS 2014）——任何宣称普适的「算法-地形配对表」都要打折。</li>\n<li>工程接口：ELA（经验地形分析）→ Deep-ELA（transformer 预训练，首次统一单/多目标）→ 实例空间分析 ISA（Smith-Miles 学派，MATILDA 平台）——地形度量正在从手Craftsmanship特征走向学习特征。</li>\n</ul>",
+          "h2": "邻域：当前方案能走到哪里",
+          "takeaway": "地形需要结合候选方案、邻域关系与目标值理解。",
+          "html": "<div class=\"science-flow\"><span>当前方案</span><span>邻域操作</span><span>候选方案</span><span>评价与接受</span></div><p>以路线为例，交换两个城市、反转一段路线、移除再插入，都能产生邻居，但得到的邻居集合不同。“局部最优”必须相对于某个邻域来定义：一个方案可能在小邻域下无法改进，却能在更大的邻域中找到出口。</p><p>VNS通过系统改变邻域组织搜索；LNS移除部分方案再重建。它们的重要贡献在于如何安排搜索范围与计算投入，而不是简单增加随机性。</p>",
           "refs": [
-            "jones1995",
-            "stadler2002",
-            "deepela2025",
-            "isa"
+            "vns1997",
+            "lns1998"
           ]
         },
         {
-          "h2": "行为分类学：比「隐喻分类」更诚实的切法",
-          "html": "<p><b>Piotrowski et al. 第二分类学</b>（arXiv 2002.08136，更新至 2024）：按「算法行为」而非隐喻来源分类——两大行为类：</p>\n<div class=\"tablewrap\"><table>\n<tr><th>行为类</th><th>机制</th><th>本质同类的算法</th></tr>\n<tr><td><b>差分向量移动</b></td><td>以参考解为基准做位移/变异</td><td>PSO、DE、GWO——狼群围猎与粒子飞行在行为上同构</td></tr>\n<tr><td><b>分布式采样/重组</b></td><td>种群重组与采样为主</td><td>GA、EDA 系</td></tr>\n</table></div>\n<p><b>Stellenbosch 行为学鉴定</b>（IEEE TEVC）：20 项行为特征套件自动聚类搜索轨迹——结论：「独特搜索行为的范围很小，<b>大多数元启发式与大多数其他元启发式共享行为</b>」。配套工作用 MEALPY 114 算法 × crossmatch 统计量复证。这为「隐喻不同但算法相同」提供了自动化鉴定工具——本站组件注册表（<a href=\"/components/\">组件页</a>）做的是同一件事。</p>\n<p><b>收敛性现状</b>：收敛证明多限于简化框架（GA 马尔可夫链分析），对工程变体几乎空白——理论落后于实践，这也是「跑分文化」得以盛行的缝隙。</p>",
+          "h2": "群体：不只是同时运行很多次",
+          "takeaway": "共享什么信息、怎样生成候选，比种群名字更重要。",
+          "html": "<div class=\"science-compare\"><div><b>PSO</b><p>利用自身与群体的信息更新搜索位置。</p></div><div><b>ACO</b><p>以信息素与启发信息引导方案构造。</p></div><div><b>CMA-ES</b><p>根据候选表现学习搜索分布。</p></div></div><p>群体允许保留多个候选，也引入信息传播和过早集中等问题。算法可能分享优秀位置、组合候选片段、更新构造概率，或学习分布参数。这些机制之间可以比较，但不能因为都使用种群就宣布数学等价。</p><p>本站部分演示针对排列空间做了适配。读原始连续方法与看TSP演示时，应分别核对更新规则、局部改进和预算。</p>",
           "refs": [
-            "piotrowski2024",
-            "stellenbosch",
-            "crossmatch"
+            "pso1995",
+            "aco1996",
+            "cma2001"
+          ]
+        },
+        {
+          "h2": "NFL：没有脱离问题条件的通用冠军",
+          "takeaway": "定理中的全函数平均，不等于某个现实领域内所有算法都一样。",
+          "html": "<p>Wolpert与Macready的NFL研究在特定有限搜索设置及对目标函数的平均条件下讨论算法性能。这个理论提醒我们：算法比较离不开所考虑的问题分布、信息与评价方式。</p><p>真实问题通常存在结构，例如变量关联、可利用的邻域、约束和昂贵评估。研究者可以利用这些结构；NFL并不否认这种领域优势，也不提供一张现成的“问题—最佳算法”对照表。</p><div class=\"science-example\"><b>阅读问题</b><p>论文只说“在测试集上更好”时，下一步应问：测试集覆盖哪些结构？换一批实例、改变预算，还成立吗？</p></div>",
+          "refs": [
+            "nfl1997",
+            "isa2023"
+          ]
+        },
+        {
+          "h2": "多个目标与约束：好方案不止一个",
+          "takeaway": "先分清可行性，再分清偏好与目标。",
+          "html": "<p>低成本、高可靠性和低排放可能相互冲突。多目标优化希望得到一组可比较的折中，而非未经说明就把不同指标压成一个分数。NSGA-II与MOEA/D展示了支配关系选择和分解协作两种研究视角。</p><p>约束处理还需要区分“合法但目标一般”与“目标漂亮却不可执行”。罚函数、修复、解码和可行性比较是不同选择；任何一种都要说明对问题结构的假设。</p><p>接下来可以在研究地图中按多目标、约束或具体算法继续阅读，也可以进入问题页观察本站采用的模型范围。</p>",
+          "refs": [
+            "nsga2002",
+            "moead2007",
+            "debconstraints2000"
           ]
         }
       ],
       "refs": [
         {
-          "id": "wolpert1997",
-          "cite": "Wolpert &amp; Macready (1997). No free lunch theorems for optimization. <i>IEEE Trans. Evol. Comput.</i> 1(1):67-82",
-          "url": "https://ieeexplore.ieee.org/document/585893"
+          "id": "boussaid2013",
+          "cite": "Boussaïd, Lepagnot, Siarry (2013). A survey on optimization metaheuristics. Information Sciences",
+          "url": "https://doi.org/10.1016/j.ins.2013.02.041",
+          "venue": "Information Sciences",
+          "year": 2013,
+          "kind": "综述",
+          "note": ""
         },
         {
-          "id": "jones1995",
-          "cite": "Jones, T. (1995). 适应度地形形式化（正文口径：地形=图(解,算子)）"
+          "id": "osaba2021",
+          "cite": "Osaba, Villar-Rodriguez, Del Ser et al. (2021). A Tutorial On the design, experimentation and application of metaheuristic algorithms to real-World optimization problems. Swarm and Evolutionary Computation",
+          "url": "https://doi.org/10.1016/j.swevo.2021.100888",
+          "venue": "Swarm and Evolutionary Computation",
+          "year": 2021,
+          "kind": "实践教程",
+          "note": ""
         },
         {
-          "id": "stadler2002",
-          "cite": "Stadler, P. (2002). 适应度地形形式化（正文口径）"
+          "id": "vns1997",
+          "cite": "Mladenović, Hansen (1997). Variable neighborhood search. Computers &amp; Operations Research",
+          "url": "https://doi.org/10.1016/S0305-0548(97)00031-2",
+          "venue": "Computers &amp; Operations Research",
+          "year": 1997,
+          "kind": "原始研究",
+          "note": ""
         },
         {
-          "id": "deepela2025",
-          "cite": "Deep-ELA (2025). Deep Exploratory Landscape Analysis with Self-Supervised Pretrained Transformers. <i>Evolutionary Computation</i> 33(4):513-540（四 transformer 百万题预训练、首次统一单/多目标）"
+          "id": "lns1998",
+          "cite": "Shaw (1998). Using Constraint Programming and Local Search Methods to Solve Vehicle Routing Problems. Lecture Notes in Computer Science Principles and Practice of Constraint Programming — CP98",
+          "url": "https://doi.org/10.1007/3-540-49481-2_30",
+          "venue": "Lecture Notes in Computer Science Principles and Practice of Constraint Programming — CP98",
+          "year": 1998,
+          "kind": "原始论文",
+          "note": ""
         },
         {
-          "id": "isa",
-          "cite": "实例空间分析 ISA / MATILDA 平台（Smith-Miles 学派；综述 经典文献）"
+          "id": "pso1995",
+          "cite": "Kennedy, Eberhart (1995). Particle swarm optimization. Proceedings of ICNN'95 - International Conference on Neural Networks",
+          "url": "https://doi.org/10.1109/ICNN.1995.488968",
+          "venue": "Proceedings of ICNN'95 - International Conference on Neural Networks",
+          "year": 1995,
+          "kind": "原始研究",
+          "note": ""
         },
         {
-          "id": "piotrowski2024",
-          "cite": "Piotrowski et al. (2024). 按算法行为分类（二分类学）. arXiv:2002.08136 v5",
-          "url": "https://arxiv.org/abs/2002.08136"
+          "id": "aco1996",
+          "cite": "Dorigo, Maniezzo, Colorni (1996). Ant system: optimization by a colony of cooperating agents. IEEE Transactions on Systems, Man, and Cybernetics, Part B (Cybernetics)",
+          "url": "https://doi.org/10.1109/3477.484436",
+          "venue": "IEEE Transactions on Systems, Man, and Cybernetics, Part B (Cybernetics)",
+          "year": 1996,
+          "kind": "原始研究",
+          "note": ""
         },
         {
-          "id": "stellenbosch",
-          "cite": "Stellenbosch 团队. Behavioural analysis of metaheuristics. <i>IEEE Trans. Evol. Comput.</i>（20 项行为特征自动聚类）"
+          "id": "cma2001",
+          "cite": "Hansen, Ostermeier (2001). Completely Derandomized Self-Adaptation in Evolution Strategies. Evolutionary Computation",
+          "url": "https://doi.org/10.1162/106365601750190398",
+          "venue": "Evolutionary Computation",
+          "year": 2001,
+          "kind": "原始研究",
+          "note": ""
         },
         {
-          "id": "crossmatch",
-          "cite": "MEALPY 114 算法 × crossmatch 统计量行为复证"
+          "id": "nfl1997",
+          "cite": "Wolpert, Macready (1997). No free lunch theorems for optimization. IEEE Transactions on Evolutionary Computation",
+          "url": "https://doi.org/10.1109/4235.585893",
+          "venue": "IEEE Transactions on Evolutionary Computation",
+          "year": 1997,
+          "kind": "理论论文",
+          "note": ""
+        },
+        {
+          "id": "isa2023",
+          "cite": "Smith-Miles, Muñoz (2023). Instance Space Analysis for Algorithm Testing: Methodology and Software Tools. ACM Computing Surveys",
+          "url": "https://doi.org/10.1145/3572895",
+          "venue": "ACM Computing Surveys",
+          "year": 2023,
+          "kind": "综述/工具",
+          "note": ""
+        },
+        {
+          "id": "nsga2002",
+          "cite": "Deb, Pratap, Agarwal et al. (2002). A fast and elitist multiobjective genetic algorithm: NSGA-II. IEEE Transactions on Evolutionary Computation",
+          "url": "https://doi.org/10.1109/4235.996017",
+          "venue": "IEEE Transactions on Evolutionary Computation",
+          "year": 2002,
+          "kind": "原始研究",
+          "note": ""
+        },
+        {
+          "id": "moead2007",
+          "cite": "Qingfu Zhang, Hui Li (2007). MOEA/D: A Multiobjective Evolutionary Algorithm Based on Decomposition. IEEE Transactions on Evolutionary Computation",
+          "url": "https://doi.org/10.1109/TEVC.2007.892759",
+          "venue": "IEEE Transactions on Evolutionary Computation",
+          "year": 2007,
+          "kind": "原始论文",
+          "note": ""
+        },
+        {
+          "id": "debconstraints2000",
+          "cite": "Deb (2000). An efficient constraint handling method for genetic algorithms. Computer Methods in Applied Mechanics and Engineering",
+          "url": "https://doi.org/10.1016/S0045-7825(99)00389-8",
+          "venue": "Computer Methods in Applied Mechanics and Engineering",
+          "year": 2000,
+          "kind": "原始论文",
+          "note": ""
         }
       ],
-      "summary_en": "A short tour of three ideas that explain where an algorithm's advantage comes from: the No Free Lunch theorem (and how it is routinely misread), fitness-landscape analysis, which links problem structure to algorithm choice, and behavioural taxonomy as a more honest alternative to metaphor-based classification. The body of the page is in Chinese."
+      "summary_en": "Understand how representation, neighborhoods, population information, constraints and multiple objectives shape a search method. The page explains what the No Free Lunch theorem does and does not imply, with primary method papers and clearly separated teaching examples.",
+      "kicker": "理解机制",
+      "points": [
+        "问题表示决定怎样移动",
+        "算法优势需要放回具体问题",
+        "多样性、可行性与目标各有作用"
+      ],
+      "featured": [
+        "nfl1997",
+        "boussaid2013",
+        "cma2001"
+      ]
     },
     {
       "id": "criticism",
       "dir": "criticism",
-      "name": "批评史",
-      "en": "The Methodology Crisis: A Timeline",
+      "name": "方法与证据的争论",
+      "en": "Claims, Mechanisms & Evidence",
       "ico": "🔍",
-      "card_title": "批评史（M2）",
-      "card_desc": "隐喻通胀 → 基准批判三重奏 → 元分析 → 撤稿线——全网少见的完整时间轴",
-      "lead": "这是本领域最重要也最少被科普的方法论争论：从 2013 年 Sörensen 点名批评，到 2025 年撤稿与「学术标题党」定性——一条完整的时间轴叙事。",
+      "card_title": "方法与证据的争论",
+      "card_desc": "把“提出了一个新名字”拆成可以检查的问题：机制新增了什么，比较是否公平，结果能否复核。",
+      "lead": "把“提出了一个新名字”拆成可以检查的问题：机制新增了什么，比较是否公平，结果能否复核。",
       "sections": [
         {
-          "h2": "2013-2021：批评奠基与三论点",
-          "html": "<p><b>三论点</b>（Sörensen 2013 ITOR / 2015《Metaheuristics—the metaphor exposed》）：</p>\n<ul>\n<li><b>① 伪新颖</b>：隐喻的「新」≠算法的「新」——Harmony Search 被证明是进化策略特例（Weyland 2010/2015）；智能水滴/灰狼/萤火虫/蝙蝠/布谷鸟相继被拆解为已有算法实例（Camacho-Villalón 2018-2022）。</li>\n<li><b>② 实验方法学薄弱</b>：只做竞争性测试不研究原理；对基准过拟合；对比池只挑同类隐喻算法（Campelo &amp; Aranha 2023）。</li>\n<li><b>③ 文献碎片化</b>：360 个隐喻把领域切成无法比较的小生态位。</li>\n<li><b>制度性回应</b>：2021 年领域顶刊编辑联名《Metaphor-based metaheuristics, a call for action》（Swarm Intelligence）；Journal of Heuristics 原话——「隐喻廉价且易得，用其包装门面不可接受；重命名不算贡献」；Swan et al. 2015 的 29 人标准化议程要求「无隐喻语言 + 形式化描述」。</li>\n</ul>",
+          "h2": "第一问：去掉故事，方法还剩下什么",
+          "takeaway": "先写出候选生成、评价、选择与更新规则。",
+          "html": "<p>Sörensen对隐喻命名的批评，针对的是用灵感故事代替算法解释或创新证明。生物、物理或社会现象可以提供设计灵感，但“来自不同动物”本身不足以说明搜索机制不同。</p><div class=\"science-flow\"><span>灵感与命名</span><span>明确操作规则</span><span>比较已有机制</span><span>验证新增价值</span></div><p>阅读新方法时，可逐项记录它如何初始化、怎样生成候选、用什么信息、怎样接受解与停止。再和已有方法在相同条件下比较。组件化描述有助于定位差异，但仍需具体分析，不能仅凭相似外观断言两个算法完全等价。</p>",
           "refs": [
             "sorensen2015",
-            "weyland2010",
-            "camacho2022",
-            "swan2015",
-            "aranha2021",
-            "campelo2023"
+            "swan2015"
           ]
         },
         {
-          "h2": "2022-2025：基准批判三重奏（系统性证伪）",
-          "html": "<div class=\"tablewrap\"><table>\n<tr><th>批判者</th><th>方法</th><th>结论</th></tr>\n<tr><td><b>Kudela 2022（Nature Machine Intelligence）</b></td><td>7 个「最新关键问题求解器」 vs 经典算法严苛对照</td><td><b>无一稳定优于 1995 年的 PSO 与 2006 年的 JADE</b>；新算法共享「中心偏置算子」内核——批评出圈到主流 ML 界</td></tr>\n<tr><td><b>Piotrowski et al. 2025（SwEC）</b></td><td>大基准集 × 4 档评估预算（5k→5M FEs）</td><td><b>评估预算是隐形变量：不同预算下算法排名完全翻转</b></td></tr>\n<tr><td><b>Molina &amp; Herrera 2025《The Paradox of Success》</b></td><td>纵向统计历代新算法</td><td><b>领域越成功，单篇边际贡献越趋近零</b>——「新算法更好」文献过拟合于自身测试套件</td></tr>\n</table></div>\n<p><b>配套证据链</b>：QAPLIB 实例空间偏差（Christiansen &amp; Smith-Miles 2025，MMAS 优势区在标准库里缺席）；CEC 十五年纵向解剖（基准设计本身是算法演化的选择压力）；GECCO 十年复现性审计（168 篇论文，唯一一次复现研究比原声明<b>差一个数量级</b>）；Shaikh et al. 2025 文献计量——<b>超 30% 的隐喻算法跑不赢纯随机搜索</b>。</p>",
+          "h2": "第二问：成绩是否来自基准的特殊位置",
+          "takeaway": "测试函数的几何设置也可能影响排名。",
+          "html": "<p>Kudela的研究分析了一组已发表方法中的中心偏置：某些基准的最优点位于可行区域中心，而算子本身容易把搜索推向中心。这会使看似优异的成绩与基准设置纠缠在一起。</p><div class=\"science-example\"><b>示意性检查，不是复现实验结果</b><p>如果一种方法总偏向搜索空间中心，就应进一步观察：平移最优点、改变边界或采用不同实例后，它的优势是否仍然存在？</p></div><p>这一案例支持检查基准偏置，不支持宣布所有新方法都无效。实例空间分析则提供另一种视角：了解测试集覆盖了哪些问题特征，以及哪些区域仍缺少证据。</p>",
           "refs": [
             "kudela2022",
-            "piotrowski2025",
-            "paradox2025",
-            "qaplib2025",
-            "cec15",
-            "recap",
-            "shaikh2025"
+            "isa2023"
           ]
         },
         {
-          "h2": "2021-2025：元分析线——组件贡献可以被单独测量",
-          "html": "<p><b>Turkeš, Sörensen &amp; Hvattum（2021, EJOR）</b>——领域<b>首个元分析</b>：134 项 ALNS 研究筛到 63 项合格，医学式随机效应模型合成效应量。结论：<b>自适应层平均只提升 0.14%</b>（95% CI 0.06-0.21%），且增加复杂度。</p>\n<p>方法论意义：组件贡献可以<b>单独、跨研究、与实现无关地测量</b>——本站把每个算法拆成组件展示（<a href=\"/components/\">组件页</a>），正是为了让组件可被这样测。Sörensen 在 NORS 2025 主旨演讲把它列为「领域应转型为经验科学」的示范。</p>",
+          "h2": "第三问：是哪一个组件带来了收益",
+          "takeaway": "改进整套系统与证明单个组件有效，是不同结论。",
+          "html": "<p>Turkeš、Sörensen与Hvattum对ALNS自适应性的元分析，示范了如何围绕明确组件提出跨研究问题。它的对象是特定框架中的自适应层，不能直接推广为所有自适应算法的效果。</p><p>对自己的方法，可以设计消融：保留其他设置，只移除或替换待研究组件；报告解质量、可行率、额外评估和运行开销。若组件只在部分实例上起作用，那些条件本身也可能是有价值的研究发现。</p>",
           "refs": [
             "turkes2021",
-            "nors2025"
+            "osaba2021"
           ]
         },
         {
-          "h2": "2024-2025：学术打假与撤稿线（观点变成实锤）",
-          "html": "<ul>\n<li><b>Dehghani 集群事件</b>（PubPeer 30 帖）：一位学者以共同作者身份量产动物算法——狼獾/军舰鸟/褶蜥/短尾猫/浣熊/云豹/袋獾/耳廓狐/薮猫/笑翠鸟/巨犰狳/河豚/琴鸟……同一套模板跨 Sci Rep 6 篇、MDPI Biomimetics 8 篇、IEEE Access 7 篇。</li>\n<li><b>撤稿案例</b>：Gooseneck Barnacle Optimization（Sci Rep，发表同年撤稿——核心公式与他人论文逐字相同）；Optical Microscope Algorithm（KBS 2025 撤稿——修正常数舍入错误后从「50 函数赢 44」跌到 43/50 且输给基线，<b>结论完全翻转</b>）。</li>\n<li><b>现行案例</b>：Botox Optimization Algorithm（2024，MDPI，投稿到发表仅 <b>19 天</b>）。</li>\n<li><b>官方定性</b>：INFORMS OR/MS Tomorrow 直接称部分隐喻算法为「学术标题党」；讽刺名录 Bestiary 竟常收到作者主动请求收录自己。</li>\n<li><b>沉默的另一面</b>：定向检索「为隐喻算法成体系辩护」零命中——<b>12 年争议完全单向</b>。</li>\n</ul>\n<p><b>本站立场</b>：每个算法页的「离散化映射」章节承担去隐喻化职责——把「警戒行为」翻译成「对当前最优的结构性扰动」。这不只是特色，而是站在方法论正确的一边。</p>",
+          "h2": "第四问：比较是否回答了真正的问题",
+          "takeaway": "算法名称不同，不足以保证实验具有解释力。",
+          "html": "<p>基线应包含与问题相关的成熟方法、简单方法及必要的领域求解器。统一迭代代数往往不能统一计算投入，因为一次迭代可能评价不同数量的候选，局部搜索也可能占据主要成本。</p><p>重复运行应呈现结果分布；跨实例比较需说明统计单位、配对关系、多重比较和效应大小。显著性并不自动等于实用价值，单个最好值也不能代表稳定表现。</p><p>本专题用公开论文讨论可检查的方法问题，不用未经逐项核实的撤稿传闻、人员指控或全领域百分比替代证据。</p>",
           "refs": [
-            "pubpeer",
-            "botox2024",
-            "bestiary",
-            "informs2026",
-            "nodefense"
+            "derrac2011",
+            "cocopaper",
+            "osaba2021"
           ]
         }
       ],
       "refs": [
         {
           "id": "sorensen2015",
-          "cite": "Sörensen, K. (2015). Metaheuristics—the metaphor exposed. <i>ITOR</i> 22(1):3-18"
-        },
-        {
-          "id": "weyland2010",
-          "cite": "Weyland (2010/2015). Harmony Search = 进化策略特例的拆解线"
-        },
-        {
-          "id": "camacho2022",
-          "cite": "Camacho-Villalón (2018-2022). 隐喻算法拆解系列（智能水滴/灰狼/萤火虫/蝙蝠/布谷鸟）"
+          "cite": "Sörensen (2015). Metaheuristics—the metaphor exposed. International Transactions in Operational Research",
+          "url": "https://doi.org/10.1111/itor.12001",
+          "venue": "International Transactions in Operational Research",
+          "year": 2015,
+          "kind": "方法评论",
+          "note": ""
         },
         {
           "id": "swan2015",
-          "cite": "Swan et al. (2015). 29 人标准化议程：无隐喻语言 + 形式化描述"
-        },
-        {
-          "id": "aranha2021",
-          "cite": "Aranha et al. (2021). Metaphor-based metaheuristics, a call for action. <i>Swarm Intelligence</i> 15"
-        },
-        {
-          "id": "campelo2023",
-          "cite": "Campelo &amp; Aranha (2023). 实验方法学批评（基准过拟合 / 对比池偏置）"
+          "cite": "Swan et al. (2015). A Research Agenda for Metaheuristic Standardization. MIC 2015: The XI Metaheuristics International Conference.",
+          "url": "https://people.cs.nott.ac.uk/pszeo/docs/publications/research-agenda-metaheuristic.pdf",
+          "venue": "研究议程",
+          "year": 2015,
+          "kind": "研究议程",
+          "note": ""
         },
         {
           "id": "kudela2022",
-          "cite": "Kudela, J. (2022). The critical problem of benchmarking optimization algorithms. <i>Nature Machine Intelligence</i> 4:1238-1245"
+          "cite": "Kudela, J. (2022). A critical problem in benchmarking and analysis of evolutionary computation methods. Nature Machine Intelligence 4:1238-1245.",
+          "url": "https://www.nature.com/articles/s42256-022-00579-0",
+          "venue": "研究论文",
+          "year": 2022,
+          "kind": "研究论文",
+          "note": ""
         },
         {
-          "id": "piotrowski2025",
-          "cite": "Piotrowski et al. (2025). 大基准 × 4 档评估预算（5k→5M FEs）：排名随预算翻转. <i>Swarm and Evolutionary Computation</i>"
-        },
-        {
-          "id": "paradox2025",
-          "cite": "Molina &amp; Herrera (2025). The Paradox of Success. <i>Swarm and Evolutionary Computation</i> 98:102063"
-        },
-        {
-          "id": "qaplib2025",
-          "cite": "Christiansen &amp; Smith-Miles (2025). QAPLIB 实例空间覆盖偏差"
-        },
-        {
-          "id": "cec15",
-          "cite": "Novák et al. 15 年 CEC 竞赛纵向解剖（基准设计=算法演化的选择压力）. arXiv:2603.24140",
-          "url": "https://arxiv.org/abs/2603.24140"
-        },
-        {
-          "id": "recap",
-          "cite": "GECCO 十年复现性审计"
-        },
-        {
-          "id": "shaikh2025",
-          "cite": "Shaikh et al. (2025). 文献计量：超 30% 隐喻算法跑不赢纯随机搜索"
+          "id": "isa2023",
+          "cite": "Smith-Miles, Muñoz (2023). Instance Space Analysis for Algorithm Testing: Methodology and Software Tools. ACM Computing Surveys",
+          "url": "https://doi.org/10.1145/3572895",
+          "venue": "ACM Computing Surveys",
+          "year": 2023,
+          "kind": "综述/工具",
+          "note": ""
         },
         {
           "id": "turkes2021",
-          "cite": "Turkeš, Sörensen &amp; Hvattum (2021). Meta-analysis of metaheuristics. <i>EJOR</i> 292(2):423-442 —— ALNS 自适应层平均仅提升 0.14%"
+          "cite": "Turkeš, Sörensen, Hvattum (2021). Meta-analysis of metaheuristics: Quantifying the effect of adaptiveness in adaptive large neighborhood search. European Journal of Operational Research",
+          "url": "https://doi.org/10.1016/j.ejor.2020.10.045",
+          "venue": "European Journal of Operational Research",
+          "year": 2021,
+          "kind": "元分析",
+          "note": ""
         },
         {
-          "id": "nors2025",
-          "cite": "Sörensen. NORS 2025 主旨《Towards an Empirical Science》"
+          "id": "osaba2021",
+          "cite": "Osaba, Villar-Rodriguez, Del Ser et al. (2021). A Tutorial On the design, experimentation and application of metaheuristic algorithms to real-World optimization problems. Swarm and Evolutionary Computation",
+          "url": "https://doi.org/10.1016/j.swevo.2021.100888",
+          "venue": "Swarm and Evolutionary Computation",
+          "year": 2021,
+          "kind": "实践教程",
+          "note": ""
         },
         {
-          "id": "pubpeer",
-          "cite": "PubPeer / Retraction Watch 线：Dehghani 集群 30 帖；Gooseneck 撤稿；OMA 撤稿"
+          "id": "derrac2011",
+          "cite": "Derrac, García, Molina et al. (2011). A practical tutorial on the use of nonparametric statistical tests as a methodology for comparing evolutionary and swarm intelligence algorithms. Swarm and Evolutionary Computation",
+          "url": "https://doi.org/10.1016/j.swevo.2011.02.002",
+          "venue": "Swarm and Evolutionary Computation",
+          "year": 2011,
+          "kind": "方法论文",
+          "note": ""
         },
         {
-          "id": "botox2024",
-          "cite": "Botox Optimization (2024, MDPI)：投稿到发表仅 19 天"
-        },
-        {
-          "id": "bestiary",
-          "cite": "EC-Bestiary 讽刺名录（Campelo &amp; Aranha 维护；含 Artif. Life 2023 复盘文《Lessons from the EC Bestiary》）",
-          "url": "https://fcampelo.github.io/EC-Bestiary/"
-        },
-        {
-          "id": "informs2026",
-          "cite": "INFORMS OR/MS Tomorrow「学术标题党」定性"
-        },
-        {
-          "id": "nodefense",
-          "cite": "定向检索「为隐喻算法成体系辩护」零命中——批评单向性观察"
+          "id": "cocopaper",
+          "cite": "Hansen, Auger, Ros et al. (2021). COCO: a platform for comparing continuous optimizers in a black-box setting. Optimization Methods and Software",
+          "url": "https://doi.org/10.1080/10556788.2020.1808977",
+          "venue": "Optimization Methods and Software",
+          "year": 2021,
+          "kind": "基准论文",
+          "note": ""
         }
       ],
-      "summary_en": "A timeline of the methodological debate in the field: from Sörensen's 2013 criticism of metaphor-based metaheuristics to benchmark critiques, meta-analyses that measure the contribution of single components, and the retractions and ‘academic clickbait’ rulings of 2024–2025. The body of the page is in Chinese; all claims carry references."
+      "summary_en": "A source-based guide to evaluating research contributions: separate inspiration from mechanism, check benchmark bias, isolate component effects, and compare methods under explicit budgets. The discussion stays within the scope of the cited analyses and avoids unsupported personal allegations or field-wide statistics.",
+      "kicker": "判断研究贡献",
+      "points": [
+        "灵感故事不是创新证据",
+        "基准与预算决定比较含义",
+        "组件贡献可以独立检验"
+      ],
+      "featured": [
+        "sorensen2015",
+        "kudela2022",
+        "turkes2021"
+      ]
     },
     {
       "id": "methodology",
       "dir": "methodology",
       "name": "实验方法学",
-      "en": "Benchmarking &amp; Experimental Protocol",
+      "en": "From Results to Evidence",
       "ico": "🧪",
-      "card_title": "实验方法学（M3）",
-      "card_desc": "CEC 统计协议 · 实例库地图 · 工具平台 · 本站协议诚实盘点",
-      "lead": "读完批评史就该读这份实践指南：怎么跑实验才不被抓包。CEC 2025 官方口径、统计检验三件套、工具平台地图，以及本站自身的诚实对照表。",
+      "card_title": "实验方法学",
+      "card_desc": "一次实验需要连接问题、实例、预算、随机性、基线和报告方式。把条件说清楚，结果才有可比较的含义。",
+      "lead": "一次实验需要连接问题、实例、预算、随机性、基线和报告方式。把条件说清楚，结果才有可比较的含义。",
       "sections": [
         {
-          "h2": "CEC 统计协议（2025 官方口径）",
-          "html": "<ul>\n<li><b>≥30 次独立运行</b>（动态赛道 31 次），固定评估预算（如 20 万次 FEs）。</li>\n<li>记录<b>检查点误差轨迹</b>（BFEV/IGD），不只记终值。</li>\n<li><b>统计检验三件套</b>：Wilcoxon 秩和检验（成对）+ Friedman/Nemenyi 事后检验（多算法排名 + 临界距离图）+ Mann-Whitney U；CEC 2025 新增 <b>U-score 双维评分</b>——把「达标速度」与「终值精度」分开计分再加总，强制暴露「快而糙」与「慢而精」的取舍。</li>\n<li><b>禁止针对单个实例调参</b>（防过拟合）。</li>\n<li><b>纵向警示</b>（Novák et al.，15 年 CEC 解剖）：稠密旋转矩阵一引入，坐标依赖算法集体让位——<b>读排名前先读基准定义</b>。</li>\n</ul>",
+          "h2": "先写下你究竟想证明什么",
+          "takeaway": "把“我的方法更强”改成有范围、能被检验的问题。",
+          "html": "<p>例如：在指定容量车辆路径实例和预算下，一个修复策略能否提高可行解比例？或：同样的目标函数评估预算下，一个连续优化变体能否更稳定地达到目标精度？研究问题越明确，越容易选择合适的实例、指标和消融。</p><div class=\"science-flow\"><span>研究假设</span><span>实例与划分</span><span>预算与基线</span><span>重复与分析</span><span>报告与复核</span></div><p>训练或调参实例与最终测试实例应分开。真实应用还要写明变量、约束、评价模型及模型外尚未验证的条件。</p>",
           "refs": [
-            "cec2025",
-            "novak"
+            "osaba2021",
+            "isa2023"
           ]
         },
         {
-          "h2": "实例库地图（按问题域）",
-          "html": "<div class=\"tablewrap\"><table>\n<tr><th>问题</th><th>标准实例库</th><th>难度要点</th></tr>\n<tr><td>TSP</td><td>TSPLIB、DIMACS</td><td>尺度 50→10⁴；LKH 作 gap 基准</td></tr>\n<tr><td>图着色</td><td><b>DSJC 均匀随机图</b>、DIMACS</td><td>随机几何图太易，必须 DSJC</td></tr>\n<tr><td>装箱</td><td>随机族 + 彩色变体</td><td>LB=⌈Σw/C⌉ 下界对照是标配</td></tr>\n<tr><td>连续</td><td>CEC 2005→2025、BBOB/COCO 24 函数</td><td>BBOB 达标停 vs CEC 固定预算，排名不同</td></tr>\n<tr><td>多目标</td><td>ZDT/DTLZ/WFG</td><td>IGD/HV 指标</td></tr>\n<tr><td>QAP</td><td>QAPLIB</td><td>实例空间分析发现覆盖偏差——库不代表问题空间</td></tr>\n</table></div>",
+          "h2": "预算：代数相同，投入可能不同",
+          "takeaway": "同时解释目标函数评估与实际运行成本。",
+          "html": "<div class=\"science-compare\"><div><b>固定评估预算</b><p>投入相同次数的目标评估后，比较解质量。</p></div><div><b>固定目标</b><p>达到指定质量需要多少评估或时间？</p></div><div><b>墙钟时间</b><p>在注明硬件、实现和计时边界后比较速度。</p></div></div><p>COCO把达到目标质量所需的评估作为重要分析视角。其他任务也可能更适合固定预算或运行时间；选择哪种协议，应由研究问题决定。昂贵仿真、批处理、并行评价和局部搜索成本都应写清。</p><p>不同竞赛、赛道和年份的协议不完全相同。本页不把某一赛道的运行次数、预算或检验方法写成全领域统一标准。</p>",
           "refs": [
-            "qaplib2025",
-            "loiola2007",
-            "tsplib"
+            "cocopaper",
+            "osaba2021"
           ]
         },
         {
-          "h2": "工具平台地图",
-          "html": "<div class=\"tablewrap\"><table>\n<tr><th>平台</th><th>覆盖</th><th>特点</th></tr>\n<tr><td><b>COCO/BBOB</b></td><td>连续 24 函数 × 6 维</td><td>达标停机制；实例集封闭</td></tr>\n<tr><td><b>IOHprofiler</b></td><td>PBO 25 题 + BBOB + CEC</td><td>离散/连续通吃（ECJ 2024 经典）</td></tr>\n<tr><td><b>modCMA / modDE</b></td><td>CMA-ES 324 变体 × DE 576 变体</td><td><b>模块化分解</b>：把 SOTA 拆成可组合模块逐一定量评估（Shapley 值）——去隐喻化的工程学巅峰</td></tr>\n<tr><td><b>MEALPY</b></td><td>114+ 元启发式 Python 库</td><td>统一接口全算法横评</td></tr>\n<tr><td><b>MATILDA</b></td><td>实例空间分析</td><td>Smith-Miles 学派在线平台</td></tr>\n<tr><td><b>PyPop7</b></td><td>大规模 BBO（JMLR 2024）</td><td>专注维数灾难的 SOTA 实现</td></tr>\n</table></div>\n<p><b>结论经典</b>（Ma, Wu, Suganthan et al. 2022，SwEC）：500+ 自然启发算法穷举实测——连续优化 SOTA 依旧是 DE 系渐进改良（L-SHADE→RDEx），<b>不是新框架</b>。</p>",
+          "h2": "重复与统计：比较分布，不只挑最好值",
+          "takeaway": "一次随机运行是一个观察，不是性能分布。",
+          "html": "<p>固定种子使某次运行可复查；多个独立种子帮助观察随机波动。重复次数应结合波动、成本和研究目的决定，并公开实际次数及失败处理方式。</p><p>Derrac等人的教程讨论了非参数检验及多算法比较。选择检验时要确认实验单位：同一实例上的配对、不同实例之间的差异，以及多重比较会影响解释。Wilcoxon秩和与Mann–Whitney U不是两份独立证据；也不能把它们与配对的符号秩检验混用。</p><p>同时报告中位数、离散程度、效应大小或区间，通常比只展示p值更有助于读者判断差异是否值得实际使用。</p>",
           "refs": [
-            "ioh2024",
-            "modcma",
-            "mealpy",
-            "pypop7",
-            "maws2022"
+            "derrac2011",
+            "osaba2021"
           ]
         },
         {
-          "h2": "本站协议诚实盘点",
-          "html": "<div class=\"tablewrap\"><table>\n<tr><th>学界要求</th><th>本站现状</th></tr>\n<tr><td>多种子独立运行 + 统计检验</td><td>关键门 5 种子（进步 5/5、胜随机 ≥4/5 硬门槛）；页面展示单种子基准</td></tr>\n<tr><td>固定预算比较</td><td>统一 200 代预算</td></tr>\n<tr><td>对比 SOTA 而非同类互比</td><td>对比池含 VNS/LK/ILS 强基线 + NN/随机下限</td></tr>\n<tr><td>下界/证书</td><td>装箱 LB 对照、TSP 对比页含 LK</td></tr>\n<tr><td>开源可复现</td><td>全站零依赖纯静态 + 固定种子</td></tr>\n<tr><td>多实例泛化</td><td>每域 2-3 规模实例（⚠️ 可扩）</td></tr>\n</table></div>",
-          "refs": []
+          "h2": "基准库：公开可比，但不会自动代表全部问题",
+          "takeaway": "同时关心实例来源、特征覆盖和难度。",
+          "html": "<div class=\"science-compare\"><div><b>TSPLIB</b><p>公开路线实例便于复核和历史对照。</p></div><div><b>COCO</b><p>连续黑盒评测的平台与实验框架。</p></div><div><b>实例空间</b><p>观察哪些问题特征被覆盖，哪些仍空缺。</p></div></div><p>同一个库内也可能包含不同结构与尺度。合成实例、领域实例、已知最优和已知最好值应分别标注。不能因为某算法在一个库上平均领先，就假定它适用于整个行业。</p>",
+          "refs": [
+            "tsplib1991",
+            "cocopaper",
+            "isa2023"
+          ]
+        },
+        {
+          "h2": "把结果交给别人复核",
+          "takeaway": "模型、数据、代码、配置和运行记录需要对得上。",
+          "html": "<p>建议保留实例版本、预处理、目标方向、约束与罚函数、代码版本、参数、种子、停止条件、原始运行结果和分析过程。无法共享原始业务数据时，应说明访问限制及可公开的替代材料。</p><p>本站提供的是具体模型与算法适配的教学试验入口。使用结果时应查看页面模型说明、实际配置、种子和导出记录；它们不能自动构成某篇论文的复现，或某个行业求解器的生产验证。</p><div class=\"science-example\"><b>开始一次自己的试验</b><p>先去<a href=\"/demo/\">求解器演示</a>观察搜索，再到<a href=\"/meta/research-map/\">研究地图</a>查看对应方法及来源。正式比较前，另行确定研究协议。</p></div>",
+          "refs": [
+            "osaba2021",
+            "swan2015"
+          ]
         }
       ],
       "refs": [
         {
-          "id": "cec2025",
-          "cite": "CEC 2025 竞赛技术报告（统计协议官方口径：≥30 次独立运行 / Wilcoxon+Friedman+Nemenyi / U-score 双维评分）"
+          "id": "osaba2021",
+          "cite": "Osaba, Villar-Rodriguez, Del Ser et al. (2021). A Tutorial On the design, experimentation and application of metaheuristic algorithms to real-World optimization problems. Swarm and Evolutionary Computation",
+          "url": "https://doi.org/10.1016/j.swevo.2021.100888",
+          "venue": "Swarm and Evolutionary Computation",
+          "year": 2021,
+          "kind": "实践教程",
+          "note": ""
         },
         {
-          "id": "novak",
-          "cite": "Novák et al. 15 年 CEC 竞赛纵向解剖. arXiv:2603.24140",
-          "url": "https://arxiv.org/abs/2603.24140"
+          "id": "isa2023",
+          "cite": "Smith-Miles, Muñoz (2023). Instance Space Analysis for Algorithm Testing: Methodology and Software Tools. ACM Computing Surveys",
+          "url": "https://doi.org/10.1145/3572895",
+          "venue": "ACM Computing Surveys",
+          "year": 2023,
+          "kind": "综述/工具",
+          "note": ""
         },
         {
-          "id": "qaplib2025",
-          "cite": "Christiansen &amp; Smith-Miles (2025). QAPLIB 实例空间覆盖偏差"
+          "id": "cocopaper",
+          "cite": "Hansen, Auger, Ros et al. (2021). COCO: a platform for comparing continuous optimizers in a black-box setting. Optimization Methods and Software",
+          "url": "https://doi.org/10.1080/10556788.2020.1808977",
+          "venue": "Optimization Methods and Software",
+          "year": 2021,
+          "kind": "基准论文",
+          "note": ""
         },
         {
-          "id": "loiola2007",
-          "cite": "Loiola et al. (2007). QAP 综述. <i>EJOR</i> 176:657"
+          "id": "derrac2011",
+          "cite": "Derrac, García, Molina et al. (2011). A practical tutorial on the use of nonparametric statistical tests as a methodology for comparing evolutionary and swarm intelligence algorithms. Swarm and Evolutionary Computation",
+          "url": "https://doi.org/10.1016/j.swevo.2011.02.002",
+          "venue": "Swarm and Evolutionary Computation",
+          "year": 2011,
+          "kind": "方法论文",
+          "note": ""
         },
         {
-          "id": "tsplib",
-          "cite": "Reinelt, G. (1991). TSPLIB—A Traveling Salesman Problem Library. <i>ORSA J. Computing</i> 3(4):376-384；TSPLIB95 官方实例库",
-          "url": "http://comopt.ifi.uni-heidelberg.de/software/TSPLIB95/"
+          "id": "tsplib1991",
+          "cite": "Reinelt (1991). TSPLIB—A Traveling Salesman Problem Library. ORSA Journal on Computing",
+          "url": "https://doi.org/10.1287/ijoc.3.4.376",
+          "venue": "ORSA Journal on Computing",
+          "year": 1991,
+          "kind": "基准/数据",
+          "note": ""
         },
         {
-          "id": "ioh2024",
-          "cite": "de Nobel et al. (2024). IOHprofiler. <i>Evolutionary Computation</i> 32(3)"
-        },
-        {
-          "id": "modcma",
-          "cite": "modCMA / modDE 模块化平台"
-        },
-        {
-          "id": "mealpy",
-          "cite": "MEALPY. 114+ 元启发式 Python 统一接口库"
-        },
-        {
-          "id": "pypop7",
-          "cite": "PyPop7. 大规模 BBO 库，<i>JMLR</i> 2024"
-        },
-        {
-          "id": "maws2022",
-          "cite": "Ma, Wu, Suganthan et al. (2022). 500+ 自然启发算法穷举实测：SOTA 仍是 DE 系渐进改良. <i>Swarm and Evolutionary Computation</i>"
+          "id": "swan2015",
+          "cite": "Swan et al. (2015). A Research Agenda for Metaheuristic Standardization. MIC 2015: The XI Metaheuristics International Conference.",
+          "url": "https://people.cs.nott.ac.uk/pszeo/docs/publications/research-agenda-metaheuristic.pdf",
+          "venue": "研究议程",
+          "year": 2015,
+          "kind": "研究议程",
+          "note": ""
         }
       ],
-      "summary_en": "A practical guide to running experiments that survive review: the CEC 2025 statistical protocol, the standard trio of statistical tests, a map of instance libraries by problem domain and of tooling platforms, and an honest inventory of how this site's own protocol falls short. The body of the page is in Chinese."
+      "summary_en": "A practical guide to experimental questions, instance selection, evaluation budgets, repeated runs, statistical comparisons and reproducible reporting. Protocols depend on the task; teaching demonstrations are distinguished from reproductions of published experiments and production validation.",
+      "kicker": "做可解释的比较",
+      "points": [
+        "比较实际计算投入",
+        "把重复运行与实例分开",
+        "同时报告质量、代价与适用范围"
+      ],
+      "featured": [
+        "osaba2021",
+        "derrac2011",
+        "cocopaper"
+      ]
     },
     {
       "id": "timeline",
       "dir": "timeline",
-      "name": "五十年时间轴",
-      "en": "Fifty Years of Metaheuristics",
+      "name": "研究发展时间轴",
+      "en": "How Research Grows",
       "ico": "🕰️",
-      "card_title": "五十年时间轴（M4）",
-      "card_desc": "1975 GA → 2026 LLM 自动设计——按 Martí/Sevaux/Sörensen EJOR 2025 梳理",
-      "lead": "五十年的五个时代：运筹学启发式传统 → 元启发式概念成形 → 群智能诞生 → 框架化与隐喻海啸 → 自动算法设计 + 反隐喻运动合流。",
+      "card_title": "研究发展时间轴",
+      "card_desc": "沿主干看代表性转折，点进年份看同年的研究旁支；也可以沿一个问题，追踪跨年代的不同答案。",
+      "lead": "沿主干看代表性转折，点进年份看同年的研究旁支；也可以沿一个问题，追踪跨年代的不同答案。",
       "sections": [
         {
-          "h2": "五个时代（Martí, Sevaux &amp; Sörensen, EJOR 2025《Fifty years of metaheuristics》）",
-          "html": "<div class=\"tablewrap\"><table>\n<tr><th>时期</th><th>里程碑</th><th>意义</th></tr>\n<tr><td>1950s-60s</td><td>爬山法、禁忌思想萌芽；Clarke-Wright 节约算法 (1964)</td><td>运筹学启发式传统</td></tr>\n<tr><td>1970s-80s</td><td><b>遗传算法</b>（Holland 1975）、<b>模拟退火</b>（Kirkpatrick et al. 1983, Science）</td><td>「元启发式」概念成形——「元」=高层策略与问题无关</td></tr>\n<tr><td>1980s-90s</td><td><b>禁忌搜索</b>（Glover 1986）、<b>蚁群 ACO</b>（Dorigo 1992）、<b>粒子群 PSO</b>（Kennedy &amp; Eberhart 1995）</td><td>群智能家族诞生；术语正式确立</td></tr>\n<tr><td>2000s</td><td>差分进化 DE、EDA、<b>NSGA-II</b>（2002）、超启发式（Burke 2003）</td><td>从单算法到框架化、多目标化</td></tr>\n<tr><td>2010s</td><td>灰狼 GWO (2014)、鲸鱼 WOA (2016)、均衡 EO (2020-21) 等</td><td><b>隐喻海啸期</b>：数量爆炸、质量参差</td></tr>\n<tr><td>2020s</td><td>LLM 超启发式（2024-）、AlphaEvolve、组件化统一框架运动</td><td>范式转移：自动算法设计 + 反隐喻运动合流</td></tr>\n</table></div>",
+          "h2": "方法的根系：搜索、选择与记忆",
+          "takeaway": "多条路线并行发展，后来相互借鉴。",
+          "html": "<p>进化计算的早期路线包括进化规划、进化策略和遗传算法。模拟退火用接受机制组织搜索，禁忌搜索强调搜索记忆。它们回应相近的困难，却不是一条由新方法依次替代旧方法的单线历史。</p><p>本页以代表性事件组织阅读；具体年份指所引作品的发表节点，不必然是思想第一次出现。Holland的1975初版与链接中的1992再版等版本差别，在出处中保留说明。</p>",
           "refs": [
-            "marti2025",
+            "fogel1966",
+            "rechenberg1973",
             "holland1975",
-            "kirkpatrick1983",
-            "glover1986",
-            "dorigo1992",
-            "ke1995"
+            "sa1983",
+            "tabu1986",
+            "boussaid2013",
+            "osaba2021"
           ]
         },
         {
-          "h2": "体量对照：文献计量的「荒诞感」",
-          "html": "<div class=\"tablewrap\"><table>\n<tr><th>家族</th><th>文献量</th><th>备注</th></tr>\n<tr><td>遗传算法 GA</td><td><b>26,707 篇</b>（1975-2025）</td><td>五十年计量经典（ACME 2026）</td></tr>\n<tr><td>粒子群 PSO</td><td><b>26,089 篇</b>（1995-2025）</td><td>30 年计量（ACME 2026）</td></tr>\n<tr><td>差分进化 DE</td><td><b>9,900+ 篇</b></td><td>SHADE/L-SHADE 系是 CEC 竞赛统治家族</td></tr>\n<tr><td>鲸鱼 WOA</td><td>59 改进 + 57 混合变体</td><td>PRISMA 综述批评：多数只比「别的算法」不比「已有变体」</td></tr>\n</table></div>\n<p>对照一句：<b>5 万天 × 5 万篇论文，组件归约后约 6 种核心机制</b>（本站 <a href=\"/components/\">组件页</a>：45 个算法共享 2-opt 87 次调用、OX 交叉 69 次调用）。文献计量的荒诞感本身就是最好的科普素材。</p>\n<p><b>分类学四种切法</b>：按解的个数（单解轨迹式 vs 种群式）/ 按灵感来源 / 按问题编码（<b>编码决定一切</b>——本站架构核心依据）/ 按组件统一视角（播种器/邻域/扰动/交叉/选择/更新方程——360 个隐喻可归约到少数组件模式）。</p>",
+          "h2": "群体与邻域：让多个候选和更大的修改产生作用",
+          "takeaway": "信息共享、候选生成与公开评测逐渐成为研究支点。",
+          "html": "<p>1990年代的代表工作包括PSO、Ant System、DE和变邻域搜索。它们分别使用位置经验、信息素构造、差向量与邻域切换等机制。TSPLIB等公开实例库让后来研究能回到共同实例进行比较。</p><p>EDA和大邻域搜索进一步展示：算法可以学习候选分布，也可以将方案的一部分移除并重建。按机制阅读比只记住名字更能看清这些联系与差异。</p>",
           "refs": [
-            "chaudhary2026",
-            "salgotra2024",
-            "woavariants"
+            "tsplib1991",
+            "pso1995",
+            "aco1996",
+            "de1997",
+            "vns1997",
+            "eda1996",
+            "lns1998"
+          ]
+        },
+        {
+          "h2": "约束与折中：从单一更新式走向完整框架",
+          "takeaway": "好方案还要可执行，并能提供多种目标取舍。",
+          "html": "<p>CMA-ES研究搜索分布的自适应；NSGA-II与MOEA/D研究多目标解集；ALNS在移除和修复中加入自适应选择。约束处理、昂贵评估和不确定环境也各自成为重要研究问题。</p><p>这些工作没有把其他方法变成过时技术。实际求解器经常组合编码、局部改进、修复、接受和参数调整。每个组成部分的作用仍需结合任务验证。</p>",
+          "refs": [
+            "cma2001",
+            "nsga2002",
+            "moead2007",
+            "alns2006",
+            "debconstraints2000",
+            "jinsurrogate2005",
+            "uncertainty2005"
+          ]
+        },
+        {
+          "h2": "科学与工程工具：研究价值来自整个流程",
+          "takeaway": "领域表示、评价模型和验证共同决定应用效果。",
+          "html": "<p>USPEX与CALYPSO把演化或群体搜索接入晶体结构预测。群体机器人研究局部交互如何形成协作行为；神经进化与强化学习则探索策略与控制器的不同生成方式。</p><p>这些案例展示了研究的应用价值，也说明一个通用算法名称不足以复现领域系统。物理近似、模拟条件、软件实现和真实验证都属于贡献的一部分。</p>",
+          "refs": [
+            "uspex2006",
+            "calypso2010",
+            "calypso2012",
+            "brambilla2013",
+            "neat2002",
+            "erl2018"
+          ]
+        },
+        {
+          "h2": "证据与自动设计：生成候选之后，仍要验证",
+          "takeaway": "自动化扩大设计空间，可信评测界定结论范围。",
+          "html": "<p>COCO、统计比较、实例空间和组件分析让研究更容易检查算法在什么条件下有效。算法选择、自动配置、超启发式与LLM辅助设计，则把部分设计过程变成新的搜索问题。</p><p>企业项目介绍、预印本、同行评审论文和可复现实验具有不同的证据作用。本页用来源标明这些区别；时间先后、同年出现或共同研究问题都不自动构成影响关系。</p>",
+          "refs": [
+            "cocopaper",
+            "derrac2011",
+            "isa2023",
+            "hyper2024",
+            "alphaevolve2025",
+            "llmdesign2026",
+            "fiftyyears2025"
           ]
         }
       ],
       "refs": [
         {
-          "id": "marti2025",
-          "cite": "Martí, Sevaux &amp; Sörensen (2025). Fifty years of metaheuristics. <i>EJOR</i>（五个时代经典骨架）"
+          "id": "fogel1966",
+          "cite": "Fogel, Owens, Walsh (1966). Intelligent decision making through a simulation of evolution. Behavioral Science",
+          "url": "https://doi.org/10.1002/bs.3830110403",
+          "venue": "Behavioral Science",
+          "year": 1966,
+          "kind": "原始研究",
+          "note": ""
+        },
+        {
+          "id": "rechenberg1973",
+          "cite": "Rechenberg, I. (1973). Evolutionsstrategie: Optimierung technischer Systeme nach Prinzipien der biologischen Evolution. Book. Frommann-Holzboog.",
+          "url": "https://katalog.bibliothek.kit.edu/bib/49092",
+          "venue": "早期专著",
+          "year": 1973,
+          "kind": "早期专著",
+          "note": ""
         },
         {
           "id": "holland1975",
-          "cite": "Holland (1975). 遗传算法奠基（正文口径）"
+          "cite": "Holland, J. H. (1975). Adaptation in Natural and Artificial Systems. Book. University of Michigan Press. MIT Press reprint, 1992.",
+          "url": "https://mitpress.mit.edu/9780262082136/adaptation-in-natural-and-artificial-systems/",
+          "venue": "专著",
+          "year": 1975,
+          "kind": "专著",
+          "note": "1975初版；链接为1992年MIT Press再版"
         },
         {
-          "id": "kirkpatrick1983",
-          "cite": "Kirkpatrick, Gelatt &amp; Vecchi (1983). Optimization by simulated annealing. <i>Science</i> 220(4598):671-680"
+          "id": "sa1983",
+          "cite": "Kirkpatrick, Gelatt, Vecchi (1983). Optimization by Simulated Annealing. Science",
+          "url": "https://doi.org/10.1126/science.220.4598.671",
+          "venue": "Science",
+          "year": 1983,
+          "kind": "原始研究",
+          "note": ""
         },
         {
-          "id": "glover1986",
-          "cite": "Glover (1986). 禁忌搜索（正文口径）"
+          "id": "tabu1986",
+          "cite": "Glover (1986). Future paths for integer programming and links to artificial intelligence. Computers &amp; Operations Research",
+          "url": "https://doi.org/10.1016/0305-0548(86)90048-1",
+          "venue": "Computers &amp; Operations Research",
+          "year": 1986,
+          "kind": "原始研究",
+          "note": ""
         },
         {
-          "id": "dorigo1992",
-          "cite": "Dorigo (1992). 蚁群 ACO（正文口径）"
+          "id": "tsplib1991",
+          "cite": "Reinelt (1991). TSPLIB—A Traveling Salesman Problem Library. ORSA Journal on Computing",
+          "url": "https://doi.org/10.1287/ijoc.3.4.376",
+          "venue": "ORSA Journal on Computing",
+          "year": 1991,
+          "kind": "基准/数据",
+          "note": ""
         },
         {
-          "id": "ke1995",
-          "cite": "Kennedy &amp; Eberhart (1995). 粒子群 PSO（正文口径）"
+          "id": "pso1995",
+          "cite": "Kennedy, Eberhart (1995). Particle swarm optimization. Proceedings of ICNN'95 - International Conference on Neural Networks",
+          "url": "https://doi.org/10.1109/ICNN.1995.488968",
+          "venue": "Proceedings of ICNN'95 - International Conference on Neural Networks",
+          "year": 1995,
+          "kind": "原始研究",
+          "note": ""
         },
         {
-          "id": "chaudhary2026",
-          "cite": "Chaudhary, Verma, Salgotra &amp; Gandomi (2026). Five Decades of Genetic Algorithms. <i>ACME</i>（GA 26,707 篇计量）"
+          "id": "aco1996",
+          "cite": "Dorigo, Maniezzo, Colorni (1996). Ant system: optimization by a colony of cooperating agents. IEEE Transactions on Systems, Man, and Cybernetics, Part B (Cybernetics)",
+          "url": "https://doi.org/10.1109/3477.484436",
+          "venue": "IEEE Transactions on Systems, Man, and Cybernetics, Part B (Cybernetics)",
+          "year": 1996,
+          "kind": "原始研究",
+          "note": ""
         },
         {
-          "id": "salgotra2024",
-          "cite": "Salgotra et al. (2024). 系统性年表. <i>Arch. Comput. Methods Eng.</i>"
+          "id": "de1997",
+          "cite": "Storn, Price (1997). Differential Evolution – A Simple and Efficient Heuristic for global Optimization over Continuous Spaces. Journal of Global Optimization",
+          "url": "https://doi.org/10.1023/A:1008202821328",
+          "venue": "Journal of Global Optimization",
+          "year": 1997,
+          "kind": "原始研究",
+          "note": ""
         },
         {
-          "id": "woavariants",
-          "cite": "WOA 改进/混合变体计量"
+          "id": "vns1997",
+          "cite": "Mladenović, Hansen (1997). Variable neighborhood search. Computers &amp; Operations Research",
+          "url": "https://doi.org/10.1016/S0305-0548(97)00031-2",
+          "venue": "Computers &amp; Operations Research",
+          "year": 1997,
+          "kind": "原始研究",
+          "note": ""
+        },
+        {
+          "id": "eda1996",
+          "cite": "Mühlenbein, Paaß (1996). From recombination of genes to the estimation of distributions I. Binary parameters. Lecture Notes in Computer Science Parallel Problem Solving from Nature — PPSN IV",
+          "url": "https://doi.org/10.1007/3-540-61723-X_982",
+          "venue": "Lecture Notes in Computer Science Parallel Problem Solving from Nature — PPSN IV",
+          "year": 1996,
+          "kind": "原始论文",
+          "note": ""
+        },
+        {
+          "id": "lns1998",
+          "cite": "Shaw (1998). Using Constraint Programming and Local Search Methods to Solve Vehicle Routing Problems. Lecture Notes in Computer Science Principles and Practice of Constraint Programming — CP98",
+          "url": "https://doi.org/10.1007/3-540-49481-2_30",
+          "venue": "Lecture Notes in Computer Science Principles and Practice of Constraint Programming — CP98",
+          "year": 1998,
+          "kind": "原始论文",
+          "note": ""
+        },
+        {
+          "id": "cma2001",
+          "cite": "Hansen, Ostermeier (2001). Completely Derandomized Self-Adaptation in Evolution Strategies. Evolutionary Computation",
+          "url": "https://doi.org/10.1162/106365601750190398",
+          "venue": "Evolutionary Computation",
+          "year": 2001,
+          "kind": "原始研究",
+          "note": ""
+        },
+        {
+          "id": "nsga2002",
+          "cite": "Deb, Pratap, Agarwal et al. (2002). A fast and elitist multiobjective genetic algorithm: NSGA-II. IEEE Transactions on Evolutionary Computation",
+          "url": "https://doi.org/10.1109/4235.996017",
+          "venue": "IEEE Transactions on Evolutionary Computation",
+          "year": 2002,
+          "kind": "原始研究",
+          "note": ""
+        },
+        {
+          "id": "moead2007",
+          "cite": "Qingfu Zhang, Hui Li (2007). MOEA/D: A Multiobjective Evolutionary Algorithm Based on Decomposition. IEEE Transactions on Evolutionary Computation",
+          "url": "https://doi.org/10.1109/TEVC.2007.892759",
+          "venue": "IEEE Transactions on Evolutionary Computation",
+          "year": 2007,
+          "kind": "原始论文",
+          "note": ""
+        },
+        {
+          "id": "alns2006",
+          "cite": "Ropke, Pisinger (2006). An Adaptive Large Neighborhood Search Heuristic for the Pickup and Delivery Problem with Time Windows. Transportation Science",
+          "url": "https://doi.org/10.1287/trsc.1050.0135",
+          "venue": "Transportation Science",
+          "year": 2006,
+          "kind": "原始研究",
+          "note": ""
+        },
+        {
+          "id": "debconstraints2000",
+          "cite": "Deb (2000). An efficient constraint handling method for genetic algorithms. Computer Methods in Applied Mechanics and Engineering",
+          "url": "https://doi.org/10.1016/S0045-7825(99)00389-8",
+          "venue": "Computer Methods in Applied Mechanics and Engineering",
+          "year": 2000,
+          "kind": "原始论文",
+          "note": ""
+        },
+        {
+          "id": "jinsurrogate2005",
+          "cite": "Jin (2005). A comprehensive survey of fitness approximation in evolutionary computation. Soft Computing",
+          "url": "https://doi.org/10.1007/s00500-003-0328-5",
+          "venue": "Soft Computing",
+          "year": 2005,
+          "kind": "专题综述",
+          "note": ""
+        },
+        {
+          "id": "uncertainty2005",
+          "cite": "Jin, Branke (2005). Evolutionary Optimization in Uncertain Environments—A Survey. IEEE Transactions on Evolutionary Computation",
+          "url": "https://doi.org/10.1109/TEVC.2005.846356",
+          "venue": "IEEE Transactions on Evolutionary Computation",
+          "year": 2005,
+          "kind": "专题综述",
+          "note": ""
+        },
+        {
+          "id": "uspex2006",
+          "cite": "Glass, Oganov, Hansen (2006). USPEX—Evolutionary crystal structure prediction. Computer Physics Communications",
+          "url": "https://doi.org/10.1016/j.cpc.2006.07.020",
+          "venue": "Computer Physics Communications",
+          "year": 2006,
+          "kind": "软件论文",
+          "note": ""
+        },
+        {
+          "id": "calypso2010",
+          "cite": "Wang, Lv, Zhu et al. (2010). Crystal structure prediction via particle-swarm optimization. Physical Review B",
+          "url": "https://doi.org/10.1103/PhysRevB.82.094116",
+          "venue": "Physical Review B",
+          "year": 2010,
+          "kind": "原始论文",
+          "note": ""
+        },
+        {
+          "id": "calypso2012",
+          "cite": "Wang, Lv, Zhu et al. (2012). CALYPSO: A method for crystal structure prediction. Computer Physics Communications",
+          "url": "https://doi.org/10.1016/j.cpc.2012.05.008",
+          "venue": "Computer Physics Communications",
+          "year": 2012,
+          "kind": "软件论文",
+          "note": ""
+        },
+        {
+          "id": "brambilla2013",
+          "cite": "Brambilla, Ferrante, Birattari et al. (2013). Swarm robotics: a review from the swarm engineering perspective. Swarm Intelligence",
+          "url": "https://doi.org/10.1007/s11721-012-0075-2",
+          "venue": "Swarm Intelligence",
+          "year": 2013,
+          "kind": "综述",
+          "note": ""
+        },
+        {
+          "id": "neat2002",
+          "cite": "Stanley, Miikkulainen (2002). Evolving Neural Networks through Augmenting Topologies. Evolutionary Computation",
+          "url": "https://doi.org/10.1162/106365602320169811",
+          "venue": "Evolutionary Computation",
+          "year": 2002,
+          "kind": "原始论文",
+          "note": ""
+        },
+        {
+          "id": "erl2018",
+          "cite": "Khadka, S. & Tumer, K. (2018). Evolution-Guided Policy Gradient in Reinforcement Learning. Advances in Neural Information Processing Systems 31.",
+          "url": "https://proceedings.neurips.cc/paper/2018/hash/85fc37b18c57097425b52fc7afbb6969-Abstract.html",
+          "venue": "会议论文",
+          "year": 2018,
+          "kind": "会议论文",
+          "note": ""
+        },
+        {
+          "id": "cocopaper",
+          "cite": "Hansen, Auger, Ros et al. (2021). COCO: a platform for comparing continuous optimizers in a black-box setting. Optimization Methods and Software",
+          "url": "https://doi.org/10.1080/10556788.2020.1808977",
+          "venue": "Optimization Methods and Software",
+          "year": 2021,
+          "kind": "基准论文",
+          "note": ""
+        },
+        {
+          "id": "derrac2011",
+          "cite": "Derrac, García, Molina et al. (2011). A practical tutorial on the use of nonparametric statistical tests as a methodology for comparing evolutionary and swarm intelligence algorithms. Swarm and Evolutionary Computation",
+          "url": "https://doi.org/10.1016/j.swevo.2011.02.002",
+          "venue": "Swarm and Evolutionary Computation",
+          "year": 2011,
+          "kind": "方法论文",
+          "note": ""
+        },
+        {
+          "id": "isa2023",
+          "cite": "Smith-Miles, Muñoz (2023). Instance Space Analysis for Algorithm Testing: Methodology and Software Tools. ACM Computing Surveys",
+          "url": "https://doi.org/10.1145/3572895",
+          "venue": "ACM Computing Surveys",
+          "year": 2023,
+          "kind": "综述/工具",
+          "note": ""
+        },
+        {
+          "id": "hyper2024",
+          "cite": "Dokeroglu, Kucukyilmaz, Talbi (2024). Hyper-heuristics: A survey and taxonomy. Computers &amp; Industrial Engineering",
+          "url": "https://doi.org/10.1016/j.cie.2023.109815",
+          "venue": "Computers &amp; Industrial Engineering",
+          "year": 2024,
+          "kind": "综述",
+          "note": ""
+        },
+        {
+          "id": "alphaevolve2025",
+          "cite": "(2025). AlphaEvolve: A coding agent for scientific and algorithmic discovery",
+          "url": "https://arxiv.org/abs/2506.13131",
+          "venue": "预印本/系统公告",
+          "year": 2025,
+          "kind": "预印本/系统公告",
+          "note": ""
+        },
+        {
+          "id": "llmdesign2026",
+          "cite": "Liu, Yao, Guo et al. (2026). A Systematic Survey on Large Language Models for Algorithm Design. ACM Computing Surveys",
+          "url": "https://doi.org/10.1145/3787585",
+          "venue": "ACM Computing Surveys",
+          "year": 2026,
+          "kind": "系统综述",
+          "note": ""
+        },
+        {
+          "id": "fiftyyears2025",
+          "cite": "Martí, Sevaux, Sörensen (2025). Fifty years of metaheuristics. European Journal of Operational Research",
+          "url": "https://doi.org/10.1016/j.ejor.2024.04.004",
+          "venue": "European Journal of Operational Research",
+          "year": 2025,
+          "kind": "批判性回顾",
+          "note": ""
+        },
+        {
+          "id": "boussaid2013",
+          "cite": "Boussaïd, Lepagnot, Siarry (2013). A survey on optimization metaheuristics. Information Sciences",
+          "url": "https://doi.org/10.1016/j.ins.2013.02.041",
+          "venue": "Information Sciences",
+          "year": 2013,
+          "kind": "综述",
+          "note": ""
+        },
+        {
+          "id": "osaba2021",
+          "cite": "Osaba, Villar-Rodriguez, Del Ser et al. (2021). A Tutorial On the design, experimentation and application of metaheuristic algorithms to real-World optimization problems. Swarm and Evolutionary Computation",
+          "url": "https://doi.org/10.1016/j.swevo.2021.100888",
+          "venue": "Swarm and Evolutionary Computation",
+          "year": 2021,
+          "kind": "实践教程",
+          "note": ""
         }
       ],
-      "summary_en": "Five eras of metaheuristics over fifty years (after Martí, Sevaux and Sörensen, EJOR 2025): the operations-research heuristic tradition, the formation of the metaheuristic concept, the birth of swarm intelligence, frameworks and the metaphor tsunami, and the convergence of automated algorithm design with the anti-metaphor movement. The body of the page is in Chinese."
+      "summary_en": "Explore research through two linked narratives: chronological turning points and recurring research questions. Main events open the selected year and its curated branches, with contributions and source links. The hierarchy is an editorial reading aid, not a ranking of citation impact or a complete annual literature index.",
+      "kicker": "时间与事件双叙事",
+      "points": [
+        "按时间看研究如何展开",
+        "按事件看问题怎样被推进",
+        "点年份读贡献与原始出处"
+      ],
+      "featured": [
+        "fiftyyears2025",
+        "boussaid2013",
+        "osaba2021"
+      ]
+    },
+    {
+      "id": "research-map",
+      "dir": "research-map",
+      "name": "研究主干地图",
+      "en": "Research Field Map",
+      "ico": "🗺️",
+      "card_title": "研究主干地图（本地研究版）",
+      "card_desc": "六条研究主线 × 历史节点 × 团队贡献 × 应用问题；每个结论可追到来源和适用边界。",
+      "lead": "从“算法清单”走进研究现场：看运筹搜索、进化计算、群智能、群体机器人、证据方法和自动设计如何并行发展、彼此交汇，以及它们各自回应什么现实问题。",
+      "summary_en": "An evidence-linked guide to six intersecting research lines in metaheuristics and swarm intelligence, with historical milestones, documented research groups, real-world problem models, and clear limits on what each source can support.",
+      "sections": [],
+      "refs": []
     }
   ]
 }

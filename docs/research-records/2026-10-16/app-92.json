@@ -1,0 +1,3097 @@
+{
+  "retrieved": "2026-10-16",
+  "url": "https://api.crossref.org/works?query.bibliographic=hyper+heuristics+survey+taxonomy&rows=3&filter=until-pub-date%3A2026-10-16",
+  "response": {
+    "status": "ok",
+    "message-type": "work-list",
+    "message-version": "1.0.0",
+    "message": {
+      "facets": {},
+      "total-results": 817678,
+      "items": [
+        {
+          "indexed": {
+            "date-parts": [
+              [
+                2026,
+                10,
+                13
+              ]
+            ],
+            "date-time": "2026-10-13T21:41:41Z",
+            "timestamp": 1791927701105,
+            "version": "4.3.4"
+          },
+          "reference-count": 188,
+          "publisher": "Elsevier BV",
+          "license": [
+            {
+              "start": {
+                "date-parts": [
+                  [
+                    2024,
+                    1,
+                    1
+                  ]
+                ],
+                "date-time": "2024-01-01T00:00:00Z",
+                "timestamp": 1704067200000
+              },
+              "content-version": "tdm",
+              "delay-in-days": 0,
+              "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+            },
+            {
+              "start": {
+                "date-parts": [
+                  [
+                    2024,
+                    1,
+                    1
+                  ]
+                ],
+                "date-time": "2024-01-01T00:00:00Z",
+                "timestamp": 1704067200000
+              },
+              "content-version": "tdm",
+              "delay-in-days": 0,
+              "URL": "https://www.elsevier.com/legal/tdmrep-license"
+            },
+            {
+              "start": {
+                "date-parts": [
+                  [
+                    2023,
+                    12,
+                    4
+                  ]
+                ],
+                "date-time": "2023-12-04T00:00:00Z",
+                "timestamp": 1701648000000
+              },
+              "content-version": "vor",
+              "delay-in-days": 0,
+              "URL": "http://creativecommons.org/licenses/by/4.0/"
+            }
+          ],
+          "content-domain": {
+            "domain": [
+              "elsevier.com",
+              "sciencedirect.com"
+            ],
+            "crossmark-restriction": true
+          },
+          "short-container-title": [
+            "Computers &amp; Industrial Engineering"
+          ],
+          "published-print": {
+            "date-parts": [
+              [
+                2024,
+                1
+              ]
+            ]
+          },
+          "DOI": "10.1016/j.cie.2023.109815",
+          "type": "journal-article",
+          "created": {
+            "date-parts": [
+              [
+                2023,
+                12,
+                4
+              ]
+            ],
+            "date-time": "2023-12-04T11:36:54Z",
+            "timestamp": 1701689814000
+          },
+          "page": "109815",
+          "update-policy": "https://doi.org/10.1016/elsevier_cm_policy",
+          "source": "Crossref",
+          "is-referenced-by-count": 76,
+          "special_numbering": "C",
+          "title": [
+            "Hyper-heuristics: A survey and taxonomy"
+          ],
+          "prefix": "10.1016",
+          "volume": "187",
+          "author": [
+            {
+              "given": "Tansel",
+              "family": "Dokeroglu",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "ORCID": "https://orcid.org/0000-0002-2551-4740",
+              "authenticated-orcid": false,
+              "given": "Tayfun",
+              "family": "Kucukyilmaz",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "El-Ghazali",
+              "family": "Talbi",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            }
+          ],
+          "member": "78",
+          "reference": [
+            {
+              "key": "10.1016/j.cie.2023.109815_b1",
+              "doi-asserted-by": "crossref",
+              "first-page": "534",
+              "DOI": "10.1016/j.procs.2015.12.333",
+              "article-title": "Ant colony hyper-heuristics for travelling salesman problem",
+              "volume": "76",
+              "author": "Abd Aziz",
+              "year": "2015",
+              "journal-title": "Procedia Computer Science"
+            },
+            {
+              "key": "10.1016/j.cie.2023.109815_b2",
+              "doi-asserted-by": "crossref",
+              "first-page": "42",
+              "DOI": "10.1016/j.knosys.2019.02.010",
+              "article-title": "A hyper-heuristic for improving the initial population of whale optimization algorithm",
+              "volume": "172",
+              "author": "Abd Elaziz",
+              "year": "2019",
+              "journal-title": "Knowledge-Based Systems"
+            },
+            {
+              "issue": "2",
+              "key": "10.1016/j.cie.2023.109815_b3",
+              "doi-asserted-by": "crossref",
+              "first-page": "545",
+              "DOI": "10.1016/j.ejor.2018.10.022",
+              "article-title": "Solving urban transit route design problem using selection hyper-heuristics",
+              "volume": "274",
+              "author": "Ahmed",
+              "year": "2019",
+              "journal-title": "European Journal of Operational Research"
+            },
+            {
+              "issue": "9",
+              "key": "10.1016/j.cie.2023.109815_b4",
+              "article-title": "Parallel multi-core hyper-heuristic GRASP to solve permutation flow-shop problem",
+              "volume": "29",
+              "author": "Alekseeva",
+              "year": "2017",
+              "journal-title": "Concurrency Computations: Practice and Experience"
+            },
+            {
+              "key": "10.1016/j.cie.2023.109815_b5",
+              "doi-asserted-by": "crossref",
+              "DOI": "10.1016/j.asoc.2020.106520",
+              "article-title": "Hyper-heuristics using multi-armed bandit models for multi-objective optimization",
+              "volume": "95",
+              "author": "Almeida",
+              "year": "2020",
+              "journal-title": "Applied Soft Computing"
+            },
+            {
+              "issue": "11",
+              "key": "10.1016/j.cie.2023.109815_b6",
+              "doi-asserted-by": "crossref",
+              "first-page": "5649",
+              "DOI": "10.3390/app12115649",
+              "article-title": "Application of multi-objective hyper-heuristics to solve the multi-objective software module clustering problem",
+              "volume": "12",
+              "author": "Alshareef",
+              "year": "2022",
+              "journal-title": "Applied Sciences"
+            },
+            {
+              "key": "10.1016/j.cie.2023.109815_b7",
+              "article-title": "MatHH: A matlab-based hyper-heuristic framework",
+              "volume": "18",
+              "author": "Amaya",
+              "year": "2022",
+              "journal-title": "SoftwareX"
+            },
+            {
+              "issue": "4",
+              "key": "10.1016/j.cie.2023.109815_b8",
+              "doi-asserted-by": "crossref",
+              "first-page": "318",
+              "DOI": "10.1007/s40314-020-01349-7",
+              "article-title": "A robust location-arc routing problem under uncertainty: mathematical model with lower and upper bounds",
+              "volume": "39",
+              "author": "Amini",
+              "year": "2020",
+              "journal-title": "Computational & Applied Mathematics"
+            },
+            {
+              "key": "10.1016/j.cie.2023.109815_b9",
+              "series-title": "Advances in genetic programming. Vol. 2",
+              "first-page": "317",
+              "article-title": "Parallel genetic programming: A scalable implementation using the transputer network architecture",
+              "author": "Andre",
+              "year": "1996"
+            },
+            {
+              "issue": "4",
+              "key": "10.1016/j.cie.2023.109815_b10",
+              "doi-asserted-by": "crossref",
+              "first-page": "223",
+              "DOI": "10.1007/s13675-014-0030-7",
+              "article-title": "A survey on matheuristics for routing problems",
+              "volume": "2",
+              "author": "Archetti",
+              "year": "2014",
+              "journal-title": "EURO Journal on Computational Optimization"
+            },
+            {
+              "key": "10.1016/j.cie.2023.109815_b11",
+              "doi-asserted-by": "crossref",
+              "first-page": "119",
+              "DOI": "10.1016/j.ins.2013.12.040",
+              "article-title": "A multi-objective optimization approach for the integration and test order problem",
+              "volume": "267",
+              "author": "Assunção",
+              "year": "2014",
+              "journal-title": "Information Sciences"
+            },
+            {
+              "key": "10.1016/j.cie.2023.109815_b12",
+              "doi-asserted-by": "crossref",
+              "first-page": "236",
+              "DOI": "10.1016/j.asoc.2015.06.063",
+              "article-title": "Robust hyper-heuristic algorithms for the offline oriented/non-oriented 2D bin packing problems",
+              "volume": "36",
+              "author": "Beyaz",
+              "year": "2015",
+              "journal-title": "Applied Soft Computing"
+            },
+            {
+              "key": "10.1016/j.cie.2023.109815_b13",
+              "series-title": "International conference on the practice and theory of automated timetabling",
+              "first-page": "394",
+              "article-title": "An experimental study on hyper-heuristics and exam timetabling",
+              "author": "Bilgin",
+              "year": "2006"
+            },
+            {
+              "key": "10.1016/j.cie.2023.109815_b14",
+              "series-title": "International conference on evolutionary multi-criterion optimization",
+              "first-page": "494",
+              "article-title": "PISA—a platform and programming language independent interface for search algorithms",
+              "author": "Bleuler",
+              "year": "2003"
+            },
+            {
+              "issue": "6",
+              "key": "10.1016/j.cie.2023.109815_b15",
+              "doi-asserted-by": "crossref",
+              "first-page": "4135",
+              "DOI": "10.1016/j.asoc.2011.02.032",
+              "article-title": "Hybrid metaheuristics in combinatorial optimization: A survey",
+              "volume": "11",
+              "author": "Blum",
+              "year": "2011",
+              "journal-title": "Applied Soft Computing"
+            },
+            {
+              "issue": "4",
+              "key": "10.1016/j.cie.2023.109815_b16",
+              "doi-asserted-by": "crossref",
+              "first-page": "251",
+              "DOI": "10.2498/cit.1002422",
+              "article-title": "A parallel hyper-heuristic approach for the two-dimensional rectangular strip-packing problem",
+              "volume": "22",
+              "author": "Borgulya",
+              "year": "2014",
+              "journal-title": "Journal of Computing and Information Technology"
+            },
+            {
+              "key": "10.1016/j.cie.2023.109815_b17",
+              "doi-asserted-by": "crossref",
+              "first-page": "82",
+              "DOI": "10.1016/j.ins.2013.02.041",
+              "article-title": "A survey on optimization metaheuristics",
+              "volume": "237",
+              "author": "Boussaïd",
+              "year": "2013",
+              "journal-title": "Information Sciences"
+            },
+            {
+              "issue": "1",
+              "key": "10.1016/j.cie.2023.109815_b18",
+              "doi-asserted-by": "crossref",
+              "first-page": "110",
+              "DOI": "10.1109/TEVC.2015.2429314",
+              "article-title": "Automated design of production scheduling heuristics: A review",
+              "volume": "20",
+              "author": "Branke",
+              "year": "2015",
+              "journal-title": "IEEE Transactions on Evolutionary Computation"
+            },
+            {
+              "key": "10.1016/j.cie.2023.109815_b19",
+              "series-title": "Search methodologies: introductory tutorials in optimization and decision support techniques",
+              "author": "Burke",
+              "year": "2014"
+            },
+            {
+              "key": "10.1016/j.cie.2023.109815_b20",
+              "series-title": "IEEE congress on evolutionary computation",
+              "first-page": "1",
+              "article-title": "Iterated local search vs. hyper-heuristics: Towards general-purpose search algorithms",
+              "author": "Burke",
+              "year": "2010"
+            },
+            {
+              "issue": "12",
+              "key": "10.1016/j.cie.2023.109815_b21",
+              "doi-asserted-by": "crossref",
+              "first-page": "1695",
+              "DOI": "10.1057/jors.2013.71",
+              "article-title": "Hyper-heuristics: A survey of the state of the art",
+              "volume": "64",
+              "author": "Burke",
+              "year": "2013",
+              "journal-title": "Journal of the Operational Research Society"
+            },
+            {
+              "key": "10.1016/j.cie.2023.109815_b22",
+              "series-title": "Computational intelligence",
+              "first-page": "177",
+              "article-title": "Exploring hyper-heuristic methodologies with genetic programming",
+              "author": "Burke",
+              "year": "2009"
+            },
+            {
+              "key": "10.1016/j.cie.2023.109815_b23",
+              "series-title": "Handbook of metaheuristics",
+              "first-page": "449",
+              "article-title": "A classification of hyper-heuristic approaches",
+              "author": "Burke",
+              "year": "2010"
+            },
+            {
+              "key": "10.1016/j.cie.2023.109815_b24",
+              "series-title": "Handbook of metaheuristics",
+              "first-page": "453",
+              "article-title": "A classification of hyper-heuristic approaches: revisited",
+              "author": "Burke",
+              "year": "2019"
+            },
+            {
+              "issue": "1",
+              "key": "10.1016/j.cie.2023.109815_b25",
+              "doi-asserted-by": "crossref",
+              "first-page": "73",
+              "DOI": "10.1007/s10479-010-0782-2",
+              "article-title": "Monte Carlo hyper-heuristics for examination timetabling",
+              "volume": "196",
+              "author": "Burke",
+              "year": "2012",
+              "journal-title": "Annals of Operations Research"
+            },
+            {
+              "key": "10.1016/j.cie.2023.109815_b26",
+              "series-title": "Handbook of metaheuristics",
+              "first-page": "457",
+              "article-title": "Hyper-heuristics: An emerging direction in modern search technology",
+              "author": "Burke",
+              "year": "2003"
+            },
+            {
+              "key": "10.1016/j.cie.2023.109815_b27",
+              "series-title": "Metaheuristics: progress as real problem solvers",
+              "first-page": "129",
+              "article-title": "Multi-objective hyper-heuristic approaches for space allocation and timetabling",
+              "author": "Burke",
+              "year": "2005"
+            },
+            {
+              "key": "10.1016/j.cie.2023.109815_b28",
+              "series-title": "Efficient and accurate parallel genetic algorithms",
+              "author": "Cantu-Paz",
+              "year": "2000"
+            },
+            {
+              "issue": "1",
+              "key": "10.1016/j.cie.2023.109815_b29",
+              "doi-asserted-by": "crossref",
+              "first-page": "16",
+              "DOI": "10.1007/s00158-022-03432-5",
+              "article-title": "A reinforcement learning hyper-heuristic in multi-objective optimization with application to structural damage identification",
+              "volume": "66",
+              "author": "Cao",
+              "year": "2023",
+              "journal-title": "Structural and Multidisciplinary Optimization"
+            },
+            {
+              "issue": "3",
+              "key": "10.1016/j.cie.2023.109815_b30",
+              "doi-asserted-by": "crossref",
+              "first-page": "751",
+              "DOI": "10.1016/j.future.2012.09.005",
+              "article-title": "Bacterial foraging based hyper-heuristic for resource scheduling in grid computing",
+              "volume": "29",
+              "author": "Chana",
+              "year": "2013",
+              "journal-title": "Future Generation Computer Systems"
+            },
+            {
+              "key": "10.1016/j.cie.2023.109815_b31",
+              "doi-asserted-by": "crossref",
+              "DOI": "10.1016/j.eswa.2020.114174",
+              "article-title": "A hyper-heuristic based ensemble genetic programming approach for stochastic resource constrained project scheduling problem",
+              "volume": "167",
+              "author": "Chen",
+              "year": "2021",
+              "journal-title": "Expert Systems with Applications"
+            },
+            {
+              "issue": "6",
+              "key": "10.1016/j.cie.2023.109815_b32",
+              "doi-asserted-by": "crossref",
+              "first-page": "1796",
+              "DOI": "10.1109/TPDS.2015.2462835",
+              "article-title": "Quantum-inspired hyper-heuristics for energy-aware scheduling on heterogeneous computing systems",
+              "volume": "27",
+              "author": "Chen",
+              "year": "2015",
+              "journal-title": "IEEE Transactions on Parallel and Distributed Systems"
+            },
+            {
+              "key": "10.1016/j.cie.2023.109815_b33",
+              "doi-asserted-by": "crossref",
+              "DOI": "10.1016/j.swevo.2021.100985",
+              "article-title": "Multi-objective Q-learning-based hyper-heuristic with Bi-criteria selection for energy-aware mixed shop scheduling",
+              "volume": "69",
+              "author": "Cheng",
+              "year": "2022",
+              "journal-title": "Swarm and Evolutionary Computation"
+            },
+            {
+              "key": "10.1016/j.cie.2023.109815_b34",
+              "doi-asserted-by": "crossref",
+              "first-page": "89",
+              "DOI": "10.1016/j.ins.2018.01.005",
+              "article-title": "Automatic design of hyper-heuristic based on reinforcement learning",
+              "volume": "436",
+              "author": "Choong",
+              "year": "2018",
+              "journal-title": "Information Sciences"
+            },
+            {
+              "key": "10.1016/j.cie.2023.109815_b35",
+              "doi-asserted-by": "crossref",
+              "unstructured": "Cora, H. K., Uyar, H. T., & Etaner-Uyar, A. Ş. (2013). HH-DSL: a domain specific language for selection hyper-heuristics. In Proceedings of the 15th annual conference companion on genetic and evolutionary computation (pp. 1317–1324).",
+              "DOI": "10.1145/2464576.2482711"
+            },
+            {
+              "key": "10.1016/j.cie.2023.109815_b36",
+              "series-title": "International conference on the practice and theory of automated timetabling",
+              "first-page": "176",
+              "article-title": "A hyperheuristic approach to scheduling a sales summit",
+              "author": "Cowling",
+              "year": "2000"
+            },
+            {
+              "key": "10.1016/j.cie.2023.109815_b37",
+              "series-title": "Handbook of metaheuristics",
+              "first-page": "475",
+              "article-title": "Parallel strategies for meta-heuristics",
+              "author": "Crainic",
+              "year": "2003"
+            },
+            {
+              "key": "10.1016/j.cie.2023.109815_b38",
+              "series-title": "Probabilistic and parametric learning combinations of local job shop scheduling rules",
+              "author": "Crowston",
+              "year": "1963"
+            },
+            {
+              "key": "10.1016/j.cie.2023.109815_b39",
+              "doi-asserted-by": "crossref",
+              "DOI": "10.1016/j.swevo.2021.100935",
+              "article-title": "Hyper-Heuristics to customise metaheuristics for continuous optimisation",
+              "volume": "66",
+              "author": "Cruz-Duarte",
+              "year": "2021",
+              "journal-title": "Swarm and Evolutionary Computation"
+            },
+            {
+              "key": "10.1016/j.cie.2023.109815_b40",
+              "doi-asserted-by": "crossref",
+              "DOI": "10.1016/j.softx.2020.100628",
+              "article-title": "CUSTOMHyS: Customising optimisation metaheuristics via hyper-heuristic search",
+              "volume": "12",
+              "author": "Cruz-Duarte",
+              "year": "2020",
+              "journal-title": "SoftwareX"
+            },
+            {
+              "key": "10.1016/j.cie.2023.109815_b41",
+              "doi-asserted-by": "crossref",
+              "DOI": "10.1016/j.softx.2022.101047",
+              "article-title": "MatHH: A matlab-based hyper-heuristic framework",
+              "volume": "18",
+              "author": "Cruz-Duarte",
+              "year": "2022",
+              "journal-title": "SoftwareX"
+            },
+            {
+              "key": "10.1016/j.cie.2023.109815_b42",
+              "doi-asserted-by": "crossref",
+              "unstructured": "Cutillas-Lozano, J.-M., Giménez, D., & Almeida, F. (2015). Hyperheuristics based on parametrized metaheuristic schemes. In Proceedings of the 2015 annual conference on genetic and evolutionary computation (pp. 361–368).",
+              "DOI": "10.1145/2739480.2754641"
+            },
+            {
+              "key": "10.1016/j.cie.2023.109815_b43",
+              "doi-asserted-by": "crossref",
+              "first-page": "164",
+              "DOI": "10.1016/j.future.2021.12.015",
+              "article-title": "Metaheuristics on quantum computers: Inspiration, simulation and real execution",
+              "volume": "130",
+              "author": "Dahi",
+              "year": "2022",
+              "journal-title": "Future Generation Computer Systems"
+            },
+            {
+              "issue": "19",
+              "key": "10.1016/j.cie.2023.109815_b44",
+              "doi-asserted-by": "crossref",
+              "first-page": "9153",
+              "DOI": "10.3390/app11199153",
+              "article-title": "Comparative analysis of selection hyper-heuristics for real-world multi-objective optimization problems",
+              "volume": "11",
+              "author": "de Carvalho",
+              "year": "2021",
+              "journal-title": "Applied Sciences"
+            },
+            {
+              "key": "10.1016/j.cie.2023.109815_b45",
+              "doi-asserted-by": "crossref",
+              "DOI": "10.1016/j.cor.2021.105442",
+              "article-title": "Arc routing under uncertainty: Introduction and literature review",
+              "volume": "135",
+              "author": "De Maio",
+              "year": "2021",
+              "journal-title": "Computers & Operations Research"
+            },
+            {
+              "key": "10.1016/j.cie.2023.109815_b46",
+              "doi-asserted-by": "crossref",
+              "DOI": "10.1016/j.asoc.2020.106760",
+              "article-title": "Hyper-heuristics based on reinforcement learning, balanced heuristic selection and group decision acceptance",
+              "volume": "97",
+              "author": "de Santiago Júnior",
+              "year": "2020",
+              "journal-title": "Applied Soft Computing"
+            },
+            {
+              "issue": "2",
+              "key": "10.1016/j.cie.2023.109815_b47",
+              "doi-asserted-by": "crossref",
+              "first-page": "182",
+              "DOI": "10.1109/4235.996017",
+              "article-title": "A fast and elitist multiobjective genetic algorithm: NSGA-II",
+              "volume": "6",
+              "author": "Deb",
+              "year": "2002",
+              "journal-title": "IEEE Transactions on Evolutionary Computation"
+            },
+            {
+              "key": "10.1016/j.cie.2023.109815_b48",
+              "series-title": "Proceedings of the 2002 congress on evolutionary computation. CEC’02. Vol. 1",
+              "first-page": "825",
+              "article-title": "Scalable multi-objective optimization test problems",
+              "author": "Deb",
+              "year": "2002"
+            },
+            {
+              "key": "10.1016/j.cie.2023.109815_b49",
+              "series-title": "International workshop on hybrid metaheuristics",
+              "first-page": "206",
+              "article-title": "Survey: matheuristics for rich vehicle routing problems",
+              "author": "Doerner",
+              "year": "2010"
+            },
+            {
+              "key": "10.1016/j.cie.2023.109815_b50",
+              "doi-asserted-by": "crossref",
+              "first-page": "10",
+              "DOI": "10.1016/j.engappai.2016.02.004",
+              "article-title": "A novel multistart hyper-heuristic algorithm on the grid for the quadratic assignment problem",
+              "volume": "52",
+              "author": "Dokeroglu",
+              "year": "2016",
+              "journal-title": "Engineering Applications of Artificial Intelligence"
+            },
+            {
+              "key": "10.1016/j.cie.2023.109815_b51",
+              "doi-asserted-by": "crossref",
+              "DOI": "10.1016/j.cie.2019.106040",
+              "article-title": "A survey on new generation metaheuristic algorithms",
+              "volume": "137",
+              "author": "Dokeroglu",
+              "year": "2019",
+              "journal-title": "Computers & Industrial Engineering"
+            },
+            {
+              "issue": "4",
+              "key": "10.1016/j.cie.2023.109815_b52",
+              "doi-asserted-by": "crossref",
+              "first-page": "28",
+              "DOI": "10.1109/MCI.2006.329691",
+              "article-title": "Ant colony optimization",
+              "volume": "1",
+              "author": "Dorigo",
+              "year": "2006",
+              "journal-title": "IEEE Computational Intelligence Magazine"
+            },
+            {
+              "issue": "2",
+              "key": "10.1016/j.cie.2023.109815_b53",
+              "doi-asserted-by": "crossref",
+              "first-page": "405",
+              "DOI": "10.1016/j.ejor.2019.07.073",
+              "article-title": "Recent advances in selection hyper-heuristics",
+              "volume": "285",
+              "author": "Drake",
+              "year": "2020",
+              "journal-title": "European Journal of Operational Research"
+            },
+            {
+              "issue": "1",
+              "key": "10.1016/j.cie.2023.109815_b54",
+              "doi-asserted-by": "crossref",
+              "first-page": "113",
+              "DOI": "10.1162/EVCO_a_00145",
+              "article-title": "A case study of controlling crossover in a selection hyper-heuristic framework using the multidimensional knapsack problem",
+              "volume": "24",
+              "author": "Drake",
+              "year": "2016",
+              "journal-title": "Evolutionary Computation"
+            },
+            {
+              "key": "10.1016/j.cie.2023.109815_b55",
+              "series-title": "2020 IEEE symposium series on computational intelligence",
+              "first-page": "489",
+              "article-title": "Automating the design of efficient distributed behaviours for a swarm of UAVs",
+              "author": "Duflo",
+              "year": "2020"
+            },
+            {
+              "key": "10.1016/j.cie.2023.109815_b56",
+              "unstructured": "Duflo, G., Danoy, G., Talbi, E.-G., & Bouvry, P. (2022). A Framework of Hyper-Heuristics based on Q-Learning. In International conference in optimization and learning."
+            },
+            {
+              "key": "10.1016/j.cie.2023.109815_b57",
+              "series-title": "Parameter control strategies of parallel hybrid metaheuristics applied to the quadratic assignment problem",
+              "author": "Duque Gallego",
+              "year": "2022"
+            },
+            {
+              "issue": "10",
+              "key": "10.1016/j.cie.2023.109815_b58",
+              "doi-asserted-by": "crossref",
+              "first-page": "760",
+              "DOI": "10.1016/j.advengsoft.2011.05.014",
+              "article-title": "jMetal: A Java framework for multi-objective optimization",
+              "volume": "42",
+              "author": "Durillo",
+              "year": "2011",
+              "journal-title": "Advances in Engineering Software"
+            },
+            {
+              "issue": "13",
+              "key": "10.1016/j.cie.2023.109815_b59",
+              "doi-asserted-by": "crossref",
+              "first-page": "5491",
+              "DOI": "10.1016/j.eswa.2015.01.038",
+              "article-title": "A grouping hyper-heuristic framework: Application on graph colouring",
+              "volume": "42",
+              "author": "Elhag",
+              "year": "2015",
+              "journal-title": "Expert Systems with Applications"
+            },
+            {
+              "key": "10.1016/j.cie.2023.109815_b60",
+              "unstructured": "Ersoy, E., Ozcan, E., & Etaner-Uyar, A. (2007). Memetic algorithms and hyperhill-climbers. In P. Baptiste, G. Kendall, A. M. Kordon, & F. Sourd (Eds.), Proc. of the 3rd multidisciplinary int. conf. on scheduling: Theory and applications (pp. 159–166)."
+            },
+            {
+              "issue": "2",
+              "key": "10.1016/j.cie.2023.109815_b61",
+              "doi-asserted-by": "crossref",
+              "first-page": "109",
+              "DOI": "10.1007/BF01096763",
+              "article-title": "Greedy randomized adaptive search procedures",
+              "volume": "6",
+              "author": "Feo",
+              "year": "1995",
+              "journal-title": "Journal of Global Optimization"
+            },
+            {
+              "key": "10.1016/j.cie.2023.109815_b62",
+              "series-title": "Genetic programming: 5th European conference, EuroGP 2002 Kinsale, Ireland, April 3–5, 2002 Proceedings",
+              "first-page": "326",
+              "article-title": "Comparing synchronous and asynchronous parallel and distributed genetic programming models",
+              "author": "Fernández",
+              "year": "2002"
+            },
+            {
+              "issue": "13",
+              "key": "10.1016/j.cie.2023.109815_b63",
+              "doi-asserted-by": "crossref",
+              "first-page": "5169",
+              "DOI": "10.1016/j.eswa.2013.03.015",
+              "article-title": "A parallel multi-objective algorithm for two-dimensional bin packing with rotations and load balancing",
+              "volume": "40",
+              "author": "Fernández",
+              "year": "2013",
+              "journal-title": "Expert Systems with Applications"
+            },
+            {
+              "key": "10.1016/j.cie.2023.109815_b64",
+              "series-title": "Genetic programming: European conference, EuroGP 2000, Edinburgh, Scotland, UK, April 15-16, 2000. Proceedings",
+              "first-page": "283",
+              "article-title": "Experimental study of multipopulation parallel genetic programming",
+              "author": "Fernández",
+              "year": "2000"
+            },
+            {
+              "key": "10.1016/j.cie.2023.109815_b65",
+              "series-title": "Handbook of heuristics",
+              "first-page": "121",
+              "article-title": "Matheuristics",
+              "author": "Fischetti",
+              "year": "2018"
+            },
+            {
+              "issue": "6",
+              "key": "10.1016/j.cie.2023.109815_b66",
+              "doi-asserted-by": "crossref",
+              "first-page": "795",
+              "DOI": "10.1007/s10732-010-9126-2",
+              "article-title": "DVRP: a hard dynamic combinatorial optimisation problem tackled by an evolutionary hyper-heuristic",
+              "volume": "16",
+              "author": "Garrido",
+              "year": "2010",
+              "journal-title": "Journal of Heuristics"
+            },
+            {
+              "key": "10.1016/j.cie.2023.109815_b67",
+              "doi-asserted-by": "crossref",
+              "DOI": "10.1016/j.engappai.2021.104284",
+              "article-title": "Q-learning and hyper-heuristic based algorithm recommendation for changing environments",
+              "volume": "102",
+              "author": "Gölcük",
+              "year": "2021",
+              "journal-title": "Engineering Applications of Artificial Intelligence"
+            },
+            {
+              "key": "10.1016/j.cie.2023.109815_b68",
+              "doi-asserted-by": "crossref",
+              "unstructured": "Gómez, R. H., & Coello, C. A. C. (2017). A hyper-heuristic of scalarizing functions. In Proceedings of the genetic and evolutionary computation conference (pp. 577–584).",
+              "DOI": "10.1145/3071178.3071220"
+            },
+            {
+              "issue": "3",
+              "key": "10.1016/j.cie.2023.109815_b69",
+              "first-page": "321",
+              "article-title": "Building general hyper-heuristics for multi-objective cutting stock problem",
+              "volume": "16",
+              "author": "Gómez",
+              "year": "2012",
+              "journal-title": "Computación y Sistemas"
+            },
+            {
+              "key": "10.1016/j.cie.2023.109815_b70",
+              "series-title": "International conference on evolutionary multi-criterion optimization",
+              "first-page": "94",
+              "article-title": "MOEA/D-HH: A hyper-heuristic for multi-objective problems",
+              "author": "Gonçalves",
+              "year": "2015"
+            },
+            {
+              "key": "10.1016/j.cie.2023.109815_b71",
+              "doi-asserted-by": "crossref",
+              "DOI": "10.7717/peerj-cs.828",
+              "article-title": "A hyper-matheuristic approach for solving mixed integer linear optimization models in the context of data envelopment analysis",
+              "volume": "8",
+              "author": "Gonzalez",
+              "year": "2022",
+              "journal-title": "PeerJ Computer Science"
+            },
+            {
+              "key": "10.1016/j.cie.2023.109815_b72",
+              "first-page": "1",
+              "article-title": "A hierarchical hyper-heuristic for the bin packing problem",
+              "author": "Guerriero",
+              "year": "2022",
+              "journal-title": "Soft Computing"
+            },
+            {
+              "key": "10.1016/j.cie.2023.109815_b73",
+              "doi-asserted-by": "crossref",
+              "unstructured": "Guizzo, G., Fritsche, G. M., Vergilio, S. R., & Pozo, A. T. R. (2015). A hyper-heuristic for the multi-objective integration and test order problem. In Proceedings of the 2015 annual conference on genetic and evolutionary computation (pp. 1343–1350).",
+              "DOI": "10.1145/2739480.2754725"
+            },
+            {
+              "key": "10.1016/j.cie.2023.109815_b74",
+              "doi-asserted-by": "crossref",
+              "first-page": "331",
+              "DOI": "10.1016/j.asoc.2017.03.012",
+              "article-title": "A multi-objective and evolutionary hyper-heuristic applied to the integration and test orderhttps://www.overleaf.com/project/630b534fdcc836f7b4a3a10d problem",
+              "volume": "56",
+              "author": "Guizzo",
+              "year": "2017",
+              "journal-title": "Applied Soft Computing"
+            },
+            {
+              "issue": "1",
+              "key": "10.1016/j.cie.2023.109815_b75",
+              "doi-asserted-by": "crossref",
+              "first-page": "35",
+              "DOI": "10.1109/TEVC.2020.2991717",
+              "article-title": "A unified framework of graph-based evolutionary multitasking hyper-heuristic",
+              "volume": "25",
+              "author": "Hao",
+              "year": "2020",
+              "journal-title": "IEEE Transactions on Evolutionary Computation"
+            },
+            {
+              "key": "10.1016/j.cie.2023.109815_b76",
+              "doi-asserted-by": "crossref",
+              "first-page": "849",
+              "DOI": "10.1016/j.future.2019.02.028",
+              "article-title": "Harris hawks optimization: Algorithm and applications",
+              "volume": "97",
+              "author": "Heidari",
+              "year": "2019",
+              "journal-title": "Future Generation Computer Systems"
+            },
+            {
+              "key": "10.1016/j.cie.2023.109815_b77",
+              "series-title": "Evolutionary multi-criterion optimization: 12th international conference, EMO 2023, Leiden, the Netherlands, March 20–24, 2023, Proceedings",
+              "first-page": "162",
+              "article-title": "Online learning hyper-heuristics in multi-objective evolutionary algorithms",
+              "author": "Heise",
+              "year": "2023"
+            },
+            {
+              "key": "10.1016/j.cie.2023.109815_b78",
+              "series-title": "International design engineering technical conferences and computers and information in engineering conference. Vol. 57083",
+              "article-title": "The effect of credit definition and aggregation strategies on multi-objective hyper-heuristics",
+              "author": "Hitomi",
+              "year": "2015"
+            },
+            {
+              "key": "10.1016/j.cie.2023.109815_b79",
+              "series-title": "Asia-pacific conference on simulated evolution and learning",
+              "first-page": "320",
+              "article-title": "A genetic programming approach to hyper-heuristic feature selection",
+              "author": "Hunt",
+              "year": "2012"
+            },
+            {
+              "issue": "1",
+              "key": "10.1016/j.cie.2023.109815_b80",
+              "doi-asserted-by": "crossref",
+              "first-page": "1",
+              "DOI": "10.1016/j.ejor.2007.03.031",
+              "article-title": "A nonlinear interval number programming method for uncertain optimization problems",
+              "volume": "188",
+              "author": "Jiang",
+              "year": "2008",
+              "journal-title": "European Journal of Operational Research"
+            },
+            {
+              "issue": "2",
+              "key": "10.1016/j.cie.2023.109815_b81",
+              "doi-asserted-by": "crossref",
+              "first-page": "61",
+              "DOI": "10.1016/j.swevo.2011.05.001",
+              "article-title": "Surrogate-assisted evolutionary computation: Recent advances and future challenges",
+              "volume": "1",
+              "author": "Jin",
+              "year": "2011",
+              "journal-title": "Swarm and Evolutionary Computation"
+            },
+            {
+              "key": "10.1016/j.cie.2023.109815_b82",
+              "first-page": "1",
+              "article-title": "Hyperheuristic approach based on reinforcement learning for air traffic complexity mitigation",
+              "author": "Juntama",
+              "year": "2022",
+              "journal-title": "Journal of Aerospace Information Systems"
+            },
+            {
+              "key": "10.1016/j.cie.2023.109815_b83",
+              "doi-asserted-by": "crossref",
+              "first-page": "237",
+              "DOI": "10.1613/jair.301",
+              "article-title": "Reinforcement learning: A survey",
+              "volume": "4",
+              "author": "Kaelbling",
+              "year": "1996",
+              "journal-title": "Journal of Artificial Intelligence Research"
+            },
+            {
+              "issue": "2",
+              "key": "10.1016/j.cie.2023.109815_b84",
+              "doi-asserted-by": "crossref",
+              "first-page": "393",
+              "DOI": "10.1016/j.ejor.2021.04.032",
+              "article-title": "Machine learning at the service of meta-heuristics for solving combinatorial optimization problems: A state-of-the-art",
+              "volume": "296",
+              "author": "Karimi-Mamaghan",
+              "year": "2022",
+              "journal-title": "European Journal of Operational Research"
+            },
+            {
+              "key": "10.1016/j.cie.2023.109815_b85",
+              "unstructured": "Kendall, G., Cowling, P., Soubeiga, E., et al. (2002). Choice function and random hyperheuristics. In Proceedings of the 4th Asia-pacific conference on simulated evolution and learning (pp. 667–671)."
+            },
+            {
+              "issue": "1",
+              "key": "10.1016/j.cie.2023.109815_b86",
+              "doi-asserted-by": "crossref",
+              "first-page": "77",
+              "DOI": "10.1016/j.ejor.2015.09.003",
+              "article-title": "An iterated multi-stage selection hyper-heuristic",
+              "volume": "250",
+              "author": "Kheiri",
+              "year": "2016",
+              "journal-title": "European Journal of Operational Research"
+            },
+            {
+              "key": "10.1016/j.cie.2023.109815_b87",
+              "series-title": "HySST: hyper-heuristic search strategies and timetabling",
+              "author": "Kheiri",
+              "year": "2012"
+            },
+            {
+              "issue": "1",
+              "key": "10.1016/j.cie.2023.109815_b88",
+              "doi-asserted-by": "crossref",
+              "first-page": "44",
+              "DOI": "10.1109/TEVC.2019.2906581",
+              "article-title": "Tackling large-scale and combinatorial bi-level problems with a genetic programming hyper-heuristic",
+              "volume": "24",
+              "author": "Kieffer",
+              "year": "2019",
+              "journal-title": "IEEE Transactions on Evolutionary Computation"
+            },
+            {
+              "key": "10.1016/j.cie.2023.109815_b89",
+              "series-title": "Proceedings of the 2000 congress on evolutionary computation. CEC00. Vol. 1",
+              "first-page": "325",
+              "article-title": "M-PAES: A memetic algorithm for multiobjective optimization",
+              "author": "Knowles",
+              "year": "2000"
+            },
+            {
+              "key": "10.1016/j.cie.2023.109815_b90",
+              "series-title": "Data mining and constraint programming",
+              "first-page": "149",
+              "article-title": "Algorithm selection for combinatorial search problems: A survey",
+              "author": "Kotthoff",
+              "year": "2016"
+            },
+            {
+              "key": "10.1016/j.cie.2023.109815_b91",
+              "doi-asserted-by": "crossref",
+              "first-page": "680",
+              "DOI": "10.1016/j.ins.2014.02.155",
+              "article-title": "A particle swarm optimization based hyper-heuristic algorithm for the classic resource constrained project scheduling problem",
+              "volume": "277",
+              "author": "Koulinas",
+              "year": "2014",
+              "journal-title": "Information Sciences"
+            },
+            {
+              "issue": "2",
+              "key": "10.1016/j.cie.2023.109815_b92",
+              "doi-asserted-by": "crossref",
+              "first-page": "523",
+              "DOI": "10.1016/j.ejor.2014.12.009",
+              "article-title": "A matheuristic approach for the pollution-routing problem",
+              "volume": "243",
+              "author": "Kramer",
+              "year": "2015",
+              "journal-title": "European Journal of Operational Research"
+            },
+            {
+              "issue": "5",
+              "key": "10.1016/j.cie.2023.109815_b93",
+              "doi-asserted-by": "crossref",
+              "first-page": "474",
+              "DOI": "10.1109/TEVC.2005.850260",
+              "article-title": "A tutorial for competent memetic algorithms: model, taxonomy, and design issues",
+              "volume": "9",
+              "author": "Krasnogor",
+              "year": "2005",
+              "journal-title": "IEEE Transactions on Evolutionary Computation"
+            },
+            {
+              "key": "10.1016/j.cie.2023.109815_b94",
+              "doi-asserted-by": "crossref",
+              "first-page": "157",
+              "DOI": "10.1016/j.cie.2018.08.021",
+              "article-title": "Cooperative parallel grouping genetic algorithm for the one-dimensional bin packing problem",
+              "volume": "125",
+              "author": "Kucukyilmaz",
+              "year": "2018",
+              "journal-title": "Computers & Industrial Engineering"
+            },
+            {
+              "key": "10.1016/j.cie.2023.109815_b95",
+              "doi-asserted-by": "crossref",
+              "first-page": "384",
+              "DOI": "10.1016/j.jss.2016.04.007",
+              "article-title": "Hyper-heuristic approach for multi-objective software module clustering",
+              "volume": "117",
+              "author": "Kumari",
+              "year": "2016",
+              "journal-title": "Journal of Systems and Software"
+            },
+            {
+              "issue": "1",
+              "key": "10.1016/j.cie.2023.109815_b96",
+              "doi-asserted-by": "crossref",
+              "first-page": "125",
+              "DOI": "10.1287/trsc.1090.0290",
+              "article-title": "An adaptive large neighbourhood search heuristic for the capacitated arc-routing problem with stochastic demands",
+              "volume": "44",
+              "author": "Laporte",
+              "year": "2010",
+              "journal-title": "Transportation Science"
+            },
+            {
+              "key": "10.1016/j.cie.2023.109815_b97",
+              "series-title": "2020 IEEE symposium series on computational intelligence",
+              "first-page": "3133",
+              "article-title": "Exploring reward-based hyper-heuristics for the job-shop scheduling problem",
+              "author": "Lara-Cárdenas",
+              "year": "2020"
+            },
+            {
+              "issue": "3",
+              "key": "10.1016/j.cie.2023.109815_b98",
+              "doi-asserted-by": "crossref",
+              "first-page": "1083",
+              "DOI": "10.1111/coin.12325",
+              "article-title": "A synergy Thompson sampling hyper-heuristic for the feature selection problem",
+              "volume": "38",
+              "author": "Lassouaoui",
+              "year": "2022",
+              "journal-title": "Computational Intelligence"
+            },
+            {
+              "issue": "7553",
+              "key": "10.1016/j.cie.2023.109815_b99",
+              "doi-asserted-by": "crossref",
+              "first-page": "436",
+              "DOI": "10.1038/nature14539",
+              "article-title": "Deep learning",
+              "volume": "521",
+              "author": "LeCun",
+              "year": "2015",
+              "journal-title": "Nature"
+            },
+            {
+              "key": "10.1016/j.cie.2023.109815_b100",
+              "doi-asserted-by": "crossref",
+              "DOI": "10.1108/IJICC-02-2015-0005",
+              "article-title": "A memetic algorithm based on hyper-heuristics for examination timetabling problems",
+              "author": "Lei",
+              "year": "2015",
+              "journal-title": "International Journal of Intelligent Computing and Cybernetics"
+            },
+            {
+              "key": "10.1016/j.cie.2023.109815_b101",
+              "doi-asserted-by": "crossref",
+              "first-page": "118",
+              "DOI": "10.1016/j.cor.2018.02.009",
+              "article-title": "A cellular memetic algorithm for the examination timetabling problem",
+              "volume": "94",
+              "author": "Leite",
+              "year": "2018",
+              "journal-title": "Computers & Operations Research"
+            },
+            {
+              "key": "10.1016/j.cie.2023.109815_b102",
+              "article-title": "A generality analysis of multiobjective hyper-heuristics",
+              "author": "Li",
+              "year": "2023",
+              "journal-title": "Information Sciences"
+            },
+            {
+              "key": "10.1016/j.cie.2023.109815_b103",
+              "doi-asserted-by": "crossref",
+              "first-page": "473",
+              "DOI": "10.1016/j.renene.2016.12.022",
+              "article-title": "Multi-objective evolutionary algorithms and hyper-heuristics for wind farm layout optimisation",
+              "volume": "105",
+              "author": "Li",
+              "year": "2017",
+              "journal-title": "Renewable Energy"
+            },
+            {
+              "key": "10.1016/j.cie.2023.109815_b104",
+              "doi-asserted-by": "crossref",
+              "DOI": "10.1016/j.eswa.2021.115978",
+              "article-title": "Semiconductor final testing scheduling using Q-learning based hyper-heuristic",
+              "volume": "187",
+              "author": "Lin",
+              "year": "2022",
+              "journal-title": "Expert Systems with Applications"
+            },
+            {
+              "issue": "C",
+              "key": "10.1016/j.cie.2023.109815_b105",
+              "doi-asserted-by": "crossref",
+              "first-page": "98",
+              "DOI": "10.1016/j.parco.2014.04.008",
+              "article-title": "A scalable parallel genetic algorithm for the generalized assignment problem",
+              "volume": "46",
+              "author": "Liu",
+              "year": "2015",
+              "journal-title": "Parallel Computing"
+            },
+            {
+              "key": "10.1016/j.cie.2023.109815_b106",
+              "doi-asserted-by": "crossref",
+              "DOI": "10.1016/j.aei.2023.101977",
+              "article-title": "Parallel hyper heuristic algorithm based on reinforcement learning for the corridor allocation problem and parallel row ordering problem",
+              "volume": "56",
+              "author": "Liu",
+              "year": "2023",
+              "journal-title": "Advanced Engineering Informatics"
+            },
+            {
+              "key": "10.1016/j.cie.2023.109815_b107",
+              "doi-asserted-by": "crossref",
+              "DOI": "10.1016/j.eswa.2023.119898",
+              "article-title": "A reinforcement learning-based hybrid Aquila Optimizer and improved Arithmetic Optimization Algorithm for global optimization",
+              "volume": "224",
+              "author": "Liu",
+              "year": "2023",
+              "journal-title": "Expert Systems with Applications"
+            },
+            {
+              "issue": "2",
+              "key": "10.1016/j.cie.2023.109815_b108",
+              "doi-asserted-by": "crossref",
+              "first-page": "1337",
+              "DOI": "10.3182/20080706-5-KR-1001.00229",
+              "article-title": "Modeling and solving uncertain optimization problems in YALMIP",
+              "volume": "41",
+              "author": "Löfberg",
+              "year": "2008",
+              "journal-title": "IFAC Proceedings Volumes"
+            },
+            {
+              "issue": "15",
+              "key": "10.1016/j.cie.2023.109815_b109",
+              "doi-asserted-by": "crossref",
+              "first-page": "6876",
+              "DOI": "10.1016/j.eswa.2014.04.043",
+              "article-title": "A unified hyper-heuristic framework for solving bin packing problems",
+              "volume": "41",
+              "author": "López-Camacho",
+              "year": "2014",
+              "journal-title": "Expert Systems with Applications"
+            },
+            {
+              "key": "10.1016/j.cie.2023.109815_b110",
+              "doi-asserted-by": "crossref",
+              "first-page": "312",
+              "DOI": "10.1016/j.asoc.2014.12.012",
+              "article-title": "Choice function based hyper-heuristics for multi-objective optimization",
+              "volume": "28",
+              "author": "Maashi",
+              "year": "2015",
+              "journal-title": "Applied Soft Computing"
+            },
+            {
+              "issue": "9",
+              "key": "10.1016/j.cie.2023.109815_b111",
+              "doi-asserted-by": "crossref",
+              "first-page": "4475",
+              "DOI": "10.1016/j.eswa.2013.12.050",
+              "article-title": "A multi-objective hyper-heuristic based on choice function",
+              "volume": "41",
+              "author": "Maashi",
+              "year": "2014",
+              "journal-title": "Expert Systems with Applications"
+            },
+            {
+              "key": "10.1016/j.cie.2023.109815_b112",
+              "series-title": "Matheuristics",
+              "author": "Maniezzo",
+              "year": "2021"
+            },
+            {
+              "key": "10.1016/j.cie.2023.109815_b113",
+              "doi-asserted-by": "crossref",
+              "DOI": "10.1016/j.asoc.2020.106139",
+              "article-title": "Scalable and customizable benchmark problems for many-objective optimization",
+              "volume": "90",
+              "author": "Meneghini",
+              "year": "2020",
+              "journal-title": "Applied Soft Computing"
+            },
+            {
+              "issue": "21",
+              "key": "10.1016/j.cie.2023.109815_b114",
+              "doi-asserted-by": "crossref",
+              "first-page": "16625",
+              "DOI": "10.1007/s00521-020-04866-y",
+              "article-title": "Dragonfly algorithm: a comprehensive review and applications",
+              "volume": "32",
+              "author": "Meraihi",
+              "year": "2020",
+              "journal-title": "Neural Computing and Applications"
+            },
+            {
+              "key": "10.1016/j.cie.2023.109815_b115",
+              "doi-asserted-by": "crossref",
+              "first-page": "80",
+              "DOI": "10.1016/j.advengsoft.2015.01.010",
+              "article-title": "The ant lion optimizer",
+              "volume": "83",
+              "author": "Mirjalili",
+              "year": "2015",
+              "journal-title": "Advances in Engineering Software"
+            },
+            {
+              "key": "10.1016/j.cie.2023.109815_b116",
+              "doi-asserted-by": "crossref",
+              "first-page": "228",
+              "DOI": "10.1016/j.knosys.2015.07.006",
+              "article-title": "Moth-flame optimization algorithm: A novel nature-inspired heuristic paradigm",
+              "volume": "89",
+              "author": "Mirjalili",
+              "year": "2015",
+              "journal-title": "Knowledge-Based Systems"
+            },
+            {
+              "key": "10.1016/j.cie.2023.109815_b117",
+              "doi-asserted-by": "crossref",
+              "first-page": "120",
+              "DOI": "10.1016/j.knosys.2015.12.022",
+              "article-title": "SCA: a sine cosine algorithm for solving optimization problems",
+              "volume": "96",
+              "author": "Mirjalili",
+              "year": "2016",
+              "journal-title": "Knowledge-Based Systems"
+            },
+            {
+              "key": "10.1016/j.cie.2023.109815_b118",
+              "doi-asserted-by": "crossref",
+              "first-page": "163",
+              "DOI": "10.1016/j.advengsoft.2017.07.002",
+              "article-title": "Salp Swarm Algorithm: A bio-inspired optimizer for engineering design problems",
+              "volume": "114",
+              "author": "Mirjalili",
+              "year": "2017",
+              "journal-title": "Advances in Engineering Software"
+            },
+            {
+              "key": "10.1016/j.cie.2023.109815_b119",
+              "doi-asserted-by": "crossref",
+              "first-page": "51",
+              "DOI": "10.1016/j.advengsoft.2016.01.008",
+              "article-title": "The whale optimization algorithm",
+              "volume": "95",
+              "author": "Mirjalili",
+              "year": "2016",
+              "journal-title": "Advances in Engineering Software"
+            },
+            {
+              "issue": "2",
+              "key": "10.1016/j.cie.2023.109815_b120",
+              "doi-asserted-by": "crossref",
+              "first-page": "495",
+              "DOI": "10.1007/s00521-015-1870-7",
+              "article-title": "Multi-verse optimizer: a nature-inspired algorithm for global optimization",
+              "volume": "27",
+              "author": "Mirjalili",
+              "year": "2016",
+              "journal-title": "Neural Computing and Applications"
+            },
+            {
+              "key": "10.1016/j.cie.2023.109815_b121",
+              "doi-asserted-by": "crossref",
+              "first-page": "46",
+              "DOI": "10.1016/j.advengsoft.2013.12.007",
+              "article-title": "Grey wolf optimizer",
+              "volume": "69",
+              "author": "Mirjalili",
+              "year": "2014",
+              "journal-title": "Advances in Engineering Software"
+            },
+            {
+              "issue": "4",
+              "key": "10.1016/j.cie.2023.109815_b122",
+              "doi-asserted-by": "crossref",
+              "first-page": "805",
+              "DOI": "10.1007/s10489-017-1019-8",
+              "article-title": "Grasshopper optimization algorithm for multi-objective optimization problems",
+              "volume": "48",
+              "author": "Mirjalili",
+              "year": "2018",
+              "journal-title": "Applied Intelligence"
+            },
+            {
+              "key": "10.1016/j.cie.2023.109815_b123",
+              "series-title": "Automated design of machine learning and search algorithms",
+              "first-page": "109",
+              "article-title": "Hyper-heuristics: autonomous problem solvers",
+              "author": "Mısır",
+              "year": "2021"
+            },
+            {
+              "issue": "1",
+              "key": "10.1016/j.cie.2023.109815_b124",
+              "doi-asserted-by": "crossref",
+              "first-page": "302",
+              "DOI": "10.1007/s11227-016-1862-0",
+              "article-title": "Using low-power platforms for evolutionary multi-objective optimization algorithms",
+              "volume": "73",
+              "author": "Moreno",
+              "year": "2017",
+              "journal-title": "The Journal of Supercomputing"
+            },
+            {
+              "key": "10.1016/j.cie.2023.109815_b125",
+              "doi-asserted-by": "crossref",
+              "DOI": "10.1016/j.cie.2022.108381",
+              "article-title": "A hyper-heuristic inspired approach for automatic failure prediction in the context of industry 4.0",
+              "volume": "171",
+              "author": "Navajas-Guerrero",
+              "year": "2022",
+              "journal-title": "Computers & Industrial Engineering"
+            },
+            {
+              "key": "10.1016/j.cie.2023.109815_b126",
+              "doi-asserted-by": "crossref",
+              "DOI": "10.1016/j.eswa.2020.113426",
+              "article-title": "H2-SLAN: A hyper-heuristic based on stochastic learning automata network for obtaining, storing, and retrieving heuristic knowledge",
+              "volume": "153",
+              "author": "Nesi",
+              "year": "2020",
+              "journal-title": "Expert Systems with Applications"
+            },
+            {
+              "key": "10.1016/j.cie.2023.109815_b127",
+              "doi-asserted-by": "crossref",
+              "first-page": "434",
+              "DOI": "10.1016/j.compchemeng.2019.03.034",
+              "article-title": "Optimization under uncertainty in the era of big data and deep learning: When machine learning meets mathematical programming",
+              "volume": "125",
+              "author": "Ning",
+              "year": "2019",
+              "journal-title": "Computers & Chemical Engineering"
+            },
+            {
+              "key": "10.1016/j.cie.2023.109815_b128",
+              "series-title": "European conference on evolutionary computation in combinatorial optimization",
+              "first-page": "136",
+              "article-title": "Hyflex: A benchmark framework for cross-domain heuristic search",
+              "author": "Ochoa",
+              "year": "2012"
+            },
+            {
+              "key": "10.1016/j.cie.2023.109815_b129",
+              "doi-asserted-by": "crossref",
+              "DOI": "10.1016/j.cie.2020.107010",
+              "article-title": "A hyper heuristic for the green vehicle routing problem with simultaneous pickup and delivery",
+              "volume": "153",
+              "author": "Olgun",
+              "year": "2021",
+              "journal-title": "Computers & Industrial Engineering"
+            },
+            {
+              "issue": "6",
+              "key": "10.1016/j.cie.2023.109815_b130",
+              "doi-asserted-by": "crossref",
+              "first-page": "2749",
+              "DOI": "10.3390/app11062749",
+              "article-title": "A general framework based on machine learning for algorithm selection in constraint satisfaction problems",
+              "volume": "11",
+              "author": "Ortiz-Bayliss",
+              "year": "2021",
+              "journal-title": "Applied Sciences"
+            },
+            {
+              "key": "10.1016/j.cie.2023.109815_b131",
+              "doi-asserted-by": "crossref",
+              "DOI": "10.1016/j.compchemeng.2021.107440",
+              "article-title": "Parallel hyper-heuristics for process engineering optimization",
+              "volume": "153",
+              "author": "Oteiza",
+              "year": "2021",
+              "journal-title": "Computers & Chemical Engineering"
+            },
+            {
+              "issue": "6",
+              "key": "10.1016/j.cie.2023.109815_b132",
+              "doi-asserted-by": "crossref",
+              "first-page": "835",
+              "DOI": "10.1007/s10732-009-9122-6",
+              "article-title": "A cooperative hyper-heuristic search framework",
+              "volume": "16",
+              "author": "Ouelhadj",
+              "year": "2010",
+              "journal-title": "Journal of Heuristics"
+            },
+            {
+              "key": "10.1016/j.cie.2023.109815_b133",
+              "doi-asserted-by": "crossref",
+              "first-page": "71",
+              "DOI": "10.1016/j.compchemeng.2019.03.002",
+              "article-title": "Dynamic scheduling of multi-product continuous biopharmaceutical facilities: A hyper-heuristic framework",
+              "volume": "125",
+              "author": "Oyebolu",
+              "year": "2019",
+              "journal-title": "Computers & Chemical Engineering"
+            },
+            {
+              "key": "10.1016/j.cie.2023.109815_b134",
+              "series-title": "International conference on the practice and theory of automated timetabling",
+              "first-page": "85",
+              "article-title": "Memes, self-generation and nurse rostering",
+              "author": "Özcan",
+              "year": "2006"
+            },
+            {
+              "issue": "1",
+              "key": "10.1016/j.cie.2023.109815_b135",
+              "doi-asserted-by": "crossref",
+              "first-page": "3",
+              "DOI": "10.3233/IDA-2008-12102",
+              "article-title": "A comprehensive analysis of hyper-heuristics",
+              "volume": "12",
+              "author": "Özcan",
+              "year": "2008",
+              "journal-title": "Intelligent Data Analysis"
+            },
+            {
+              "key": "10.1016/j.cie.2023.109815_b136",
+              "series-title": "Modeling, analysis, and applications in metaheuristic computing: advancements and trends",
+              "first-page": "34",
+              "article-title": "A reinforcement learning: great-deluge hyper-heuristic for examination timetabling",
+              "author": "Özcan",
+              "year": "2012"
+            },
+            {
+              "key": "10.1016/j.cie.2023.109815_b137",
+              "doi-asserted-by": "crossref",
+              "first-page": "261",
+              "DOI": "10.1016/j.ins.2018.06.027",
+              "article-title": "A hyper-heuristic based artificial bee colony algorithm for k-interconnected multi-depot multi-traveling salesman problem",
+              "volume": "463",
+              "author": "Pandiri",
+              "year": "2018",
+              "journal-title": "Information Sciences"
+            },
+            {
+              "issue": "1",
+              "key": "10.1016/j.cie.2023.109815_b138",
+              "doi-asserted-by": "crossref",
+              "first-page": "3",
+              "DOI": "10.1007/s10710-013-9186-9",
+              "article-title": "Contrasting meta-learning and hyper-heuristic research: the role of evolutionary algorithms",
+              "volume": "15",
+              "author": "Pappa",
+              "year": "2014",
+              "journal-title": "Genetic Programming and Evolvable Machines"
+            },
+            {
+              "key": "10.1016/j.cie.2023.109815_b139",
+              "doi-asserted-by": "crossref",
+              "first-page": "249",
+              "DOI": "10.1016/j.cor.2018.07.001",
+              "article-title": "A memetic algorithm for the cost-oriented robotic assembly line balancing problem",
+              "volume": "99",
+              "author": "Pereira",
+              "year": "2018",
+              "journal-title": "Computers & Operations Research"
+            },
+            {
+              "issue": "1",
+              "key": "10.1016/j.cie.2023.109815_b140",
+              "doi-asserted-by": "crossref",
+              "first-page": "67",
+              "DOI": "10.1016/j.ijpe.2012.10.016",
+              "article-title": "Evolutionary generation of dispatching rule sets for complex dynamic scheduling problems",
+              "volume": "145",
+              "author": "Pickardt",
+              "year": "2013",
+              "journal-title": "International Journal of Production Economics"
+            },
+            {
+              "issue": "1",
+              "key": "10.1016/j.cie.2023.109815_b141",
+              "doi-asserted-by": "crossref",
+              "first-page": "3",
+              "DOI": "10.1007/s10479-014-1688-1",
+              "article-title": "A review of hyper-heuristics for educational timetabling",
+              "volume": "239",
+              "author": "Pillay",
+              "year": "2016",
+              "journal-title": "Annals of Operations Research"
+            },
+            {
+              "key": "10.1016/j.cie.2023.109815_b142",
+              "series-title": "2017 IEEE congress on evolutionary computation",
+              "first-page": "2706",
+              "article-title": "EvoHyp - a Java toolkit for evolutionary algorithm hyper-heuristics",
+              "author": "Pillay",
+              "year": "2017"
+            },
+            {
+              "key": "10.1016/j.cie.2023.109815_b143",
+              "series-title": "Hyper-heuristics: theory and applications",
+              "author": "Pillay",
+              "year": "2018"
+            },
+            {
+              "key": "10.1016/j.cie.2023.109815_b144",
+              "doi-asserted-by": "crossref",
+              "first-page": "15",
+              "DOI": "10.1016/j.cor.2017.09.011",
+              "article-title": "A choice function hyper-heuristic framework for the allocation of maintenance tasks in Danish railways",
+              "volume": "93",
+              "author": "Pour",
+              "year": "2018",
+              "journal-title": "Computers & Operations Research"
+            },
+            {
+              "key": "10.1016/j.cie.2023.109815_b145",
+              "series-title": "Handbook of optimization",
+              "first-page": "187",
+              "article-title": "Differential evolution",
+              "author": "Price",
+              "year": "2013"
+            },
+            {
+              "key": "10.1016/j.cie.2023.109815_b146",
+              "series-title": "International conference on parallel problem solving from nature",
+              "first-page": "835",
+              "article-title": "Selection hyper-heuristics can provably be helpful in evolutionary multi-objective optimization",
+              "author": "Qian",
+              "year": "2016"
+            },
+            {
+              "key": "10.1016/j.cie.2023.109815_b147",
+              "doi-asserted-by": "crossref",
+              "DOI": "10.1016/j.cie.2021.107252",
+              "article-title": "A novel reinforcement learning-based hyper-heuristic for heterogeneous vehicle routing problem",
+              "volume": "156",
+              "author": "Qin",
+              "year": "2021",
+              "journal-title": "Computers & Industrial Engineering"
+            },
+            {
+              "key": "10.1016/j.cie.2023.109815_b148",
+              "series-title": "International conference on the practice and theory of automated timetabling",
+              "first-page": "51",
+              "article-title": "Distributed choice function hyper-heuristics for timetabling and scheduling",
+              "author": "Rattadilok",
+              "year": "2004"
+            },
+            {
+              "issue": "2",
+              "key": "10.1016/j.cie.2023.109815_b149",
+              "doi-asserted-by": "crossref",
+              "first-page": "205",
+              "DOI": "10.1002/net.21729",
+              "article-title": "The stochastic close-enough arc routing problem",
+              "volume": "69",
+              "author": "Renaud",
+              "year": "2017",
+              "journal-title": "Networks"
+            },
+            {
+              "issue": "11",
+              "key": "10.1016/j.cie.2023.109815_b150",
+              "doi-asserted-by": "crossref",
+              "first-page": "1965",
+              "DOI": "10.1080/0305215X.2018.1560435",
+              "article-title": "An urban transportation problem solved by parallel programming with hyper-heuristics",
+              "volume": "51",
+              "author": "Rodriguez",
+              "year": "2019",
+              "journal-title": "Engineering Optimization"
+            },
+            {
+              "key": "10.1016/j.cie.2023.109815_b151",
+              "unstructured": "Ross, P., Schulenburg, S., Marín-Bläzquez, J. G., & Hart, E. (2002). Hyper-heuristics: learning to combine simple heuristics in bin-packing problems. In Proceedings of the 4th annual conference on genetic and evolutionary computation (pp. 942–948)."
+            },
+            {
+              "issue": "10",
+              "key": "10.1016/j.cie.2023.109815_b152",
+              "doi-asserted-by": "crossref",
+              "first-page": "555",
+              "DOI": "10.1016/j.parco.2010.04.002",
+              "article-title": "On the impact of the migration topology on the Island Model",
+              "volume": "36",
+              "author": "Ruciński",
+              "year": "2010",
+              "journal-title": "Parallel Computing"
+            },
+            {
+              "key": "10.1016/j.cie.2023.109815_b153",
+              "unstructured": "Ryser-Welch, P., & Miller, J. F. (2014). A review of hyper-heuristic frameworks. 2014, In Proceedings of the Evo20 workshop, Aisb."
+            },
+            {
+              "issue": "3",
+              "key": "10.1016/j.cie.2023.109815_b154",
+              "doi-asserted-by": "crossref",
+              "first-page": "309",
+              "DOI": "10.1109/TEVC.2014.2319051",
+              "article-title": "Automatic design of a hyper-heuristic framework with gene expression programming for combinatorial optimization problems",
+              "volume": "19",
+              "author": "Sabar",
+              "year": "2014",
+              "journal-title": "IEEE Transactions on Evolutionary Computation"
+            },
+            {
+              "issue": "2",
+              "key": "10.1016/j.cie.2023.109815_b155",
+              "doi-asserted-by": "crossref",
+              "first-page": "217",
+              "DOI": "10.1109/TCYB.2014.2323936",
+              "article-title": "A dynamic multiarmed bandit-gene expression programming hyper-heuristic for combinatorial optimization problems",
+              "volume": "45",
+              "author": "Sabar",
+              "year": "2014",
+              "journal-title": "IEEE Transactions on Cybernetics"
+            },
+            {
+              "issue": "1",
+              "key": "10.1016/j.cie.2023.109815_b156",
+              "doi-asserted-by": "crossref",
+              "first-page": "1",
+              "DOI": "10.1007/s10489-011-0309-9",
+              "article-title": "A graph coloring constructive hyper-heuristic for examination timetabling problems",
+              "volume": "37",
+              "author": "Sabar",
+              "year": "2012",
+              "journal-title": "Applied Intelligence"
+            },
+            {
+              "key": "10.1016/j.cie.2023.109815_b157",
+              "doi-asserted-by": "crossref",
+              "first-page": "225",
+              "DOI": "10.1016/j.ins.2014.10.045",
+              "article-title": "Population based Monte Carlo tree search hyper-heuristic for combinatorial optimization problems",
+              "volume": "314",
+              "author": "Sabar",
+              "year": "2015",
+              "journal-title": "Information Sciences"
+            },
+            {
+              "key": "10.1016/j.cie.2023.109815_b158",
+              "doi-asserted-by": "crossref",
+              "first-page": "128068",
+              "DOI": "10.1109/ACCESS.2020.3009318",
+              "article-title": "A systematic review of hyper-heuristics on combinatorial optimization problems",
+              "volume": "8",
+              "author": "Sánchez",
+              "year": "2020",
+              "journal-title": "IEEE Access"
+            },
+            {
+              "issue": "1",
+              "key": "10.1016/j.cie.2023.109815_b159",
+              "doi-asserted-by": "crossref",
+              "first-page": "33",
+              "DOI": "10.1007/s12293-010-0044-5",
+              "article-title": "Parallel hyperheuristics for the frequency assignment problem",
+              "volume": "3",
+              "author": "Segura",
+              "year": "2011",
+              "journal-title": "Memetic Computing"
+            },
+            {
+              "key": "10.1016/j.cie.2023.109815_b160",
+              "article-title": "LS-HH: A learning-based selection hyper-heuristic for distributed heterogeneous hybrid blocking flow-shop scheduling",
+              "author": "Shao",
+              "year": "2022",
+              "journal-title": "IEEE Transactions on Emerging Topics in Computational Intelligence"
+            },
+            {
+              "issue": "7",
+              "key": "10.1016/j.cie.2023.109815_b161",
+              "doi-asserted-by": "crossref",
+              "first-page": "501",
+              "DOI": "10.1080/19427867.2020.1733199",
+              "article-title": "Integrated scheduling in automated container terminals considering AGV conflict-free routing",
+              "volume": "13",
+              "author": "Shouwen",
+              "year": "2021",
+              "journal-title": "Transportation Letters"
+            },
+            {
+              "key": "10.1016/j.cie.2023.109815_b162",
+              "series-title": "An online learning selection hyper-heuristic for educational timetabling",
+              "author": "Steenson",
+              "year": "2022"
+            },
+            {
+              "key": "10.1016/j.cie.2023.109815_b163",
+              "series-title": "International conference on learning and intelligent optimization",
+              "first-page": "616",
+              "article-title": "Hyperion–a recursive hyper-heuristic framework",
+              "author": "Swan",
+              "year": "2011"
+            },
+            {
+              "key": "10.1016/j.cie.2023.109815_b164",
+              "doi-asserted-by": "crossref",
+              "first-page": "42",
+              "DOI": "10.1016/j.compbiolchem.2011.12.004",
+              "article-title": "A hyper-heuristic for the longest common subsequence problem",
+              "volume": "36",
+              "author": "Tabataba",
+              "year": "2012",
+              "journal-title": "Computational Biology and Chemistry"
+            },
+            {
+              "key": "10.1016/j.cie.2023.109815_b165",
+              "series-title": "Metaheuristics: From design to implementation",
+              "author": "Talbi",
+              "year": "2009"
+            },
+            {
+              "key": "10.1016/j.cie.2023.109815_b166",
+              "series-title": "Metaheuristics for bi-level optimization",
+              "first-page": "1",
+              "article-title": "A taxonomy of metaheuristics for bi-level optimization",
+              "author": "Talbi",
+              "year": "2013"
+            },
+            {
+              "key": "10.1016/j.cie.2023.109815_b167",
+              "doi-asserted-by": "crossref",
+              "first-page": "349",
+              "DOI": "10.1016/j.jpdc.2018.04.012",
+              "article-title": "A unified view of parallel multi-objective evolutionary algorithms",
+              "volume": "133",
+              "author": "Talbi",
+              "year": "2019",
+              "journal-title": "Journal of Parallel and Distributed Computing"
+            },
+            {
+              "key": "10.1016/j.cie.2023.109815_b168",
+              "doi-asserted-by": "crossref",
+              "first-page": "21",
+              "DOI": "10.1016/j.ins.2015.11.010",
+              "article-title": "Neat genetic programming: Controlling bloat naturally",
+              "volume": "333",
+              "author": "Trujillo",
+              "year": "2016",
+              "journal-title": "Information Sciences"
+            },
+            {
+              "issue": "2",
+              "key": "10.1016/j.cie.2023.109815_b169",
+              "doi-asserted-by": "crossref",
+              "first-page": "236",
+              "DOI": "10.1109/TCC.2014.2315797",
+              "article-title": "A hyper-heuristic scheduling algorithm for cloud",
+              "volume": "2",
+              "author": "Tsai",
+              "year": "2014",
+              "journal-title": "IEEE Transactions on Cloud Computing"
+            },
+            {
+              "key": "10.1016/j.cie.2023.109815_b170",
+              "series-title": "Bi-level hyper-heuristic approaches for combinatorial optimisation problems",
+              "author": "Turky",
+              "year": "2019"
+            },
+            {
+              "key": "10.1016/j.cie.2023.109815_b171",
+              "series-title": "XXI Jornadas Chilenas de Computación. Vol. 342",
+              "article-title": "Towards an object-oriented pattern proposal for heuristic structures of diverse abstraction levels",
+              "author": "Urra",
+              "year": "2013"
+            },
+            {
+              "key": "10.1016/j.cie.2023.109815_b172",
+              "article-title": "Robust long-term aircraft heavy maintenance check scheduling optimization under uncertainty",
+              "volume": "141",
+              "author": "van der Weide",
+              "year": "2022",
+              "journal-title": "Computers & Operations Research"
+            },
+            {
+              "key": "10.1016/j.cie.2023.109815_b173",
+              "series-title": "Proceedings of the 25th Benelux conference on artificial intelligence. Vol. 28",
+              "first-page": "231",
+              "article-title": "Parhyflex: A framework for parallel hyper-heuristics",
+              "author": "Van Onsem",
+              "year": "2013"
+            },
+            {
+              "key": "10.1016/j.cie.2023.109815_b174",
+              "doi-asserted-by": "crossref",
+              "first-page": "43981",
+              "DOI": "10.1109/ACCESS.2022.3169503",
+              "article-title": "Beyond hyper-heuristics: A squared hyper-heuristic model for solving job shop scheduling problems",
+              "volume": "10",
+              "author": "Vela",
+              "year": "2022",
+              "journal-title": "IEEE Access"
+            },
+            {
+              "key": "10.1016/j.cie.2023.109815_b175",
+              "doi-asserted-by": "crossref",
+              "DOI": "10.1016/j.cor.2022.105961",
+              "article-title": "Selection hyper-heuristics for the multi and many-objective quadratic assignment problem",
+              "volume": "148",
+              "author": "Venske",
+              "year": "2022",
+              "journal-title": "Computers & Operations Research"
+            },
+            {
+              "key": "10.1016/j.cie.2023.109815_b176",
+              "series-title": "International conference on parallel problem solving from nature",
+              "first-page": "493",
+              "article-title": "Towards many-objective optimisation with hyper-heuristics: identifying good heuristics with indicators",
+              "author": "Walker",
+              "year": "2016"
+            },
+            {
+              "key": "10.1016/j.cie.2023.109815_b177",
+              "doi-asserted-by": "crossref",
+              "first-page": "60",
+              "DOI": "10.1016/j.cor.2016.10.003",
+              "article-title": "A machine-learning based memetic algorithm for the multi-objective permutation flowshop scheduling problem",
+              "volume": "79",
+              "author": "Wang",
+              "year": "2017",
+              "journal-title": "Computers & Operations Research"
+            },
+            {
+              "key": "10.1016/j.cie.2023.109815_b178",
+              "article-title": "A cooperative memetic algorithm with feedback for the energy-aware distributed flow-shops with flexible assembly scheduling",
+              "volume": "168",
+              "author": "jing Wang",
+              "year": "2022",
+              "journal-title": "Computers & Industrial Engineering"
+            },
+            {
+              "key": "10.1016/j.cie.2023.109815_b179",
+              "doi-asserted-by": "crossref",
+              "first-page": "73",
+              "DOI": "10.1016/j.cor.2016.06.013",
+              "article-title": "An adaptive large neighborhood search heuristic for the Electric Vehicle Scheduling Problem",
+              "volume": "76",
+              "author": "Wen",
+              "year": "2016",
+              "journal-title": "Computers & Operations Research"
+            },
+            {
+              "issue": "1",
+              "key": "10.1016/j.cie.2023.109815_b180",
+              "doi-asserted-by": "crossref",
+              "first-page": "67",
+              "DOI": "10.1109/4235.585893",
+              "article-title": "No free lunch theorems for optimization",
+              "volume": "1",
+              "author": "Wolpert",
+              "year": "1997",
+              "journal-title": "IEEE Transactions on Evolutionary Computation"
+            },
+            {
+              "key": "10.1016/j.cie.2023.109815_b181",
+              "doi-asserted-by": "crossref",
+              "first-page": "565",
+              "DOI": "10.1613/jair.2490",
+              "article-title": "SATzilla: Portfolio-based algorithm selection for SAT",
+              "volume": "32",
+              "author": "Xu",
+              "year": "2008",
+              "journal-title": "Journal of Artificial Intelligence Research"
+            },
+            {
+              "key": "10.1016/j.cie.2023.109815_b182",
+              "doi-asserted-by": "crossref",
+              "first-page": "482",
+              "DOI": "10.1016/j.cie.2018.10.007",
+              "article-title": "An integrated scheduling method for AGV routing in automated container terminals",
+              "volume": "126",
+              "author": "Yang",
+              "year": "2018",
+              "journal-title": "Computers & Industrial Engineering"
+            },
+            {
+              "issue": "11",
+              "key": "10.1016/j.cie.2023.109815_b183",
+              "doi-asserted-by": "crossref",
+              "first-page": "10307",
+              "DOI": "10.1109/TVT.2018.2868942",
+              "article-title": "Parallel hyper-heuristic algorithm for multi-objective route planning in a smart city",
+              "volume": "67",
+              "author": "Yao",
+              "year": "2018",
+              "journal-title": "IEEE Transactions on Vehicular Technology"
+            },
+            {
+              "issue": "2",
+              "key": "10.1016/j.cie.2023.109815_b184",
+              "doi-asserted-by": "crossref",
+              "first-page": "418",
+              "DOI": "10.1016/j.ejor.2021.10.032",
+              "article-title": "A deep reinforcement learning based hyper-heuristic for combinatorial optimisation with uncertainties",
+              "volume": "300",
+              "author": "Zhang",
+              "year": "2022",
+              "journal-title": "European Journal of Operational Research"
+            },
+            {
+              "key": "10.1016/j.cie.2023.109815_b185",
+              "series-title": "2019 IEEE congress on evolutionary computation",
+              "first-page": "1366",
+              "article-title": "Evolving dispatching rules for multi-objective dynamic flexible job shop scheduling via genetic programming hyper-heuristics",
+              "author": "Zhang",
+              "year": "2019"
+            },
+            {
+              "key": "10.1016/j.cie.2023.109815_b186",
+              "doi-asserted-by": "crossref",
+              "DOI": "10.1016/j.cma.2021.114194",
+              "article-title": "Artificial hummingbird algorithm: A new bio-inspired optimizer with its engineering applications",
+              "volume": "388",
+              "author": "Zhao",
+              "year": "2022",
+              "journal-title": "Computer Methods in Applied Mechanics and Engineering"
+            },
+            {
+              "key": "10.1016/j.cie.2023.109815_b187",
+              "doi-asserted-by": "crossref",
+              "first-page": "21147",
+              "DOI": "10.1109/ACCESS.2019.2897603",
+              "article-title": "Multi-agent based hyper-heuristics for multi-objective flexible job shop scheduling: A case study in an aero-engine blade manufacturing plant",
+              "volume": "7",
+              "author": "Zhou",
+              "year": "2019",
+              "journal-title": "IEEE Access"
+            },
+            {
+              "key": "10.1016/j.cie.2023.109815_b188",
+              "article-title": "SPEA2: Improving the strength Pareto evolutionary algorithm",
+              "volume": "103",
+              "author": "Zitzler",
+              "year": "2001",
+              "journal-title": "TIK-Report"
+            }
+          ],
+          "container-title": [
+            "Computers &amp; Industrial Engineering"
+          ],
+          "language": "en",
+          "link": [
+            {
+              "URL": "https://api.elsevier.com/content/article/PII:S0360835223008392?httpAccept=text/xml",
+              "content-type": "text/xml",
+              "content-version": "vor",
+              "intended-application": "text-mining"
+            },
+            {
+              "URL": "https://api.elsevier.com/content/article/PII:S0360835223008392?httpAccept=text/plain",
+              "content-type": "text/plain",
+              "content-version": "vor",
+              "intended-application": "text-mining"
+            }
+          ],
+          "deposited": {
+            "date-parts": [
+              [
+                2025,
+                10,
+                6
+              ]
+            ],
+            "date-time": "2025-10-06T19:09:46Z",
+            "timestamp": 1759777786000
+          },
+          "score": 34.072773,
+          "resource": {
+            "primary": {
+              "URL": "https://linkinghub.elsevier.com/retrieve/pii/S0360835223008392"
+            }
+          },
+          "issued": {
+            "date-parts": [
+              [
+                2024,
+                1
+              ]
+            ]
+          },
+          "references-count": 188,
+          "alternative-id": [
+            "S0360835223008392"
+          ],
+          "URL": "https://doi.org/10.1016/j.cie.2023.109815",
+          "ISSN": [
+            "0360-8352"
+          ],
+          "issn-type": [
+            {
+              "value": "0360-8352",
+              "type": "print"
+            }
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2024,
+                1
+              ]
+            ]
+          },
+          "assertion": [
+            {
+              "value": "Elsevier",
+              "name": "publisher",
+              "label": "This article is maintained by"
+            },
+            {
+              "value": "Hyper-heuristics: A survey and taxonomy",
+              "name": "articletitle",
+              "label": "Article Title"
+            },
+            {
+              "value": "Computers & Industrial Engineering",
+              "name": "journaltitle",
+              "label": "Journal Title"
+            },
+            {
+              "value": "https://doi.org/10.1016/j.cie.2023.109815",
+              "name": "articlelink",
+              "label": "CrossRef DOI link to publisher maintained version"
+            },
+            {
+              "value": "article",
+              "name": "content_type",
+              "label": "Content Type"
+            },
+            {
+              "value": "© 2023 The Authors. Published by Elsevier Ltd.",
+              "name": "copyright",
+              "label": "Copyright"
+            }
+          ],
+          "article-number": "109815"
+        },
+        {
+          "indexed": {
+            "date-parts": [
+              [
+                2026,
+                8,
+                11
+              ]
+            ],
+            "date-time": "2026-08-11T21:13:55Z",
+            "timestamp": 1786482835946,
+            "version": "build-2736575974"
+          },
+          "reference-count": 63,
+          "publisher": "InTech",
+          "isbn-type": [
+            {
+              "value": "9789535133834",
+              "type": "print"
+            },
+            {
+              "value": "9789535133841",
+              "type": "electronic"
+            }
+          ],
+          "license": [
+            {
+              "start": {
+                "date-parts": [
+                  [
+                    2017,
+                    8,
+                    30
+                  ]
+                ],
+                "date-time": "2017-08-30T00:00:00Z",
+                "timestamp": 1504051200000
+              },
+              "content-version": "unspecified",
+              "delay-in-days": 0,
+              "URL": "https://creativecommons.org/licenses/by/3.0/legalcode"
+            }
+          ],
+          "content-domain": {
+            "domain": [],
+            "crossmark-restriction": false
+          },
+          "DOI": "10.5772/intechopen.69222",
+          "type": "book-chapter",
+          "created": {
+            "date-parts": [
+              [
+                2017,
+                8,
+                31
+              ]
+            ],
+            "date-time": "2017-08-31T08:32:27Z",
+            "timestamp": 1504168347000
+          },
+          "source": "Crossref",
+          "is-referenced-by-count": 4,
+          "title": [
+            "Multi‐Objective Hyper‐Heuristics"
+          ],
+          "prefix": "10.5772",
+          "author": [
+            {
+              "given": "Mashael Suliaman",
+              "family": "Maashi",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            }
+          ],
+          "member": "3774",
+          "published-online": {
+            "date-parts": [
+              [
+                2017,
+                8,
+                30
+              ]
+            ]
+          },
+          "reference": [
+            {
+              "key": "ref=1",
+              "doi-asserted-by": "crossref",
+              "unstructured": "Burke E, Hyde M, Kendall G, Ochoa G, Özcan E, Woodward JR. A classification of hyper-heuristic approaches. In: Handbook of Meta-Hruristics. USA: Kluwer Academic Publisher; 2010. pp. 449-468",
+              "DOI": "10.1007/978-1-4419-1665-5_15"
+            },
+            {
+              "key": "ref=2",
+              "doi-asserted-by": "crossref",
+              "unstructured": "Özcan E, Bilgin B, Korkmaz, E. A comprehensive analysis of hyper-heuristics. Intelligent Data Analysis. 2008;12(1):3-23",
+              "DOI": "10.3233/IDA-2008-12102"
+            },
+            {
+              "key": "ref=3",
+              "doi-asserted-by": "crossref",
+              "unstructured": "Van Veldhuizen DV, Lamont G. Multiobjective evolutionary algorithms: Analyzing the state-of-the-art. Evolutionary Computation. 2000;8(2):125-147",
+              "DOI": "10.1162/106365600568158"
+            },
+            {
+              "key": "ref=4",
+              "unstructured": "Coello CC, Van Veldhuizen DV, Lamont G, editors. Evolutionary Algorithms for Solving Multi-Objective Problems. USA: Kluwer Academic Publishers; 2007"
+            },
+            {
+              "key": "ref=5",
+              "doi-asserted-by": "crossref",
+              "unstructured": "Tan KC, Lee TH, Khor EF. Evolutionary algorithms for multi-objective optimization: Performance assessments and comparisons. Artificial Intelligence Review. 2002;17:253-290",
+              "DOI": "10.1023/A:1015516501242"
+            },
+            {
+              "key": "ref=6",
+              "doi-asserted-by": "crossref",
+              "unstructured": "Landa-Silva D, Burke E, Petrovic S. An introduction to multiobjective metaheuristics for scheduling and timetabling. In: Lecture Notes in Economics and Mathematical Systems. Berlin, Heidelberg: Springer; 2004. pp. 91-129",
+              "DOI": "10.1007/978-3-642-17144-4_4"
+            },
+            {
+              "key": "ref=7",
+              "doi-asserted-by": "crossref",
+              "unstructured": "Zitzler E, Deb K, Thiele L. Comparison of multiobjective evolutionary algorithms: Empirical results. Evolutionary Computation. 2000;8(2):173-195",
+              "DOI": "10.1162/106365600568202"
+            },
+            {
+              "key": "ref=8",
+              "doi-asserted-by": "crossref",
+              "unstructured": "Burke EK, Gendreau M, Hyde M, Kendall G, Ochoa G, Özcan E, Qu R. Hyper-heuristics: A survey of the state of the art. Journal of the Operational Research Society. 2013;64:1695-1724",
+              "DOI": "10.1057/jors.2013.71"
+            },
+            {
+              "key": "ref=9",
+              "doi-asserted-by": "crossref",
+              "unstructured": "Ross P. Hyper-heuristics. In: Search Methodologies: Introductory Tutorials in Optimization and Decision Support Methodologies. Bücher: Springer; 2005. pp. 529-556",
+              "DOI": "10.1007/0-387-28356-0_17"
+            },
+            {
+              "key": "ref=10",
+              "doi-asserted-by": "crossref",
+              "unstructured": "Burke E, Kendall G, Newall J, Hart E, Ross P, Schulenburg S. Hyper-heuristics: An emerging direction in modern search technology. In: Handbook of Meta-Heuristics. USA: Kluwer Academic Publishers; 2003. pp. 457-474",
+              "DOI": "10.1007/0-306-48056-5_16"
+            },
+            {
+              "key": "ref=11",
+              "doi-asserted-by": "crossref",
+              "unstructured": "Burke E, Landa-Silva D, Soubeiga E. Multi-objective hyper-heuristic approaches for space allocation and timetabling. In: MIC 2003-Meta-Heuristics: Progress as Real Problem Solvers. USA: Springer; 2003. pp. 129-158",
+              "DOI": "10.1007/0-387-25383-1_6"
+            },
+            {
+              "key": "ref=12",
+              "doi-asserted-by": "crossref",
+              "unstructured": "McClymont K, Keedwell EC. Markov chain hyperheuristic (mchh): An online selective hyper-heuristic for multiobjective continuous problems. In: Proceedings of Genetic and Evolutionary Computation Conference (GECCO11); 2011. pp. 2003-2010",
+              "DOI": "10.1145/2001576.2001845"
+            },
+            {
+              "key": "ref=13",
+              "unstructured": "Deb K, Jain S. Running performance metrics for evolutionary multiobjective optimization. Technical Report KanGAL Report No. 2002004. India: Kanpur Genetic Algorithms Laboratory, Indian Institute of Technology Kanpur; 2002"
+            },
+            {
+              "key": "ref=14",
+              "doi-asserted-by": "crossref",
+              "unstructured": "Huband S, Hingston P, Barone L, While, L. A review of multiobjective test problems and a scalable test problem toolkit. IEEE Transactions on Evolutionary Computation. 2006;10:477-506",
+              "DOI": "10.1109/TEVC.2005.861417"
+            },
+            {
+              "key": "ref=15",
+              "doi-asserted-by": "crossref",
+              "unstructured": "McClymont K, Keedwell E, Savic, D. A general multi-objective hyper-heuristic for water distribution network design with discolouration risk. Journal of Hydroinformatics. 2013;15(3):700-716",
+              "DOI": "10.2166/hydro.2012.022"
+            },
+            {
+              "key": "ref=16",
+              "doi-asserted-by": "crossref",
+              "unstructured": "Rafique AF. Multiobjective hyper-heuristic scheme for system design and optimization. In: Proceedings of 9th International Conference on Mathematical Problems in Engineering, Aerospace and Science, AIP Conference 1493; 2012",
+              "DOI": "10.1063/1.4765574"
+            },
+            {
+              "key": "ref=17",
+              "doi-asserted-by": "crossref",
+              "unstructured": "Kirkpatrick S, Gelatt C, Vecchi M. Optimization by simulated annealing. Science. 1983;22:671-680",
+              "DOI": "10.1126/science.220.4598.671"
+            },
+            {
+              "key": "ref=18",
+              "unstructured": "Kennedy J, Eberhart R, Shi Y. Swarm Intelligence. USA: Morgan Kaufmann; 2001"
+            },
+            {
+              "key": "ref=19",
+              "doi-asserted-by": "crossref",
+              "unstructured": "Vázquez-Rodríguez J, Petrovic S. Calibrating continuous multi-objective heuristics using mixture experiments. The Journal of Heuristics. 2012;18:699-726",
+              "DOI": "10.1007/s10732-012-9204-8"
+            },
+            {
+              "key": "ref=20",
+              "doi-asserted-by": "crossref",
+              "unstructured": "Deb K, Controlled elitist nondominated sorting genetic algorithms for better convergence. In: Proceedings of Evolution Multi Criterion Optimization Conference; 2001. pp. 67-81",
+              "DOI": "10.1007/3-540-44719-9_5"
+            },
+            {
+              "key": "ref=21",
+              "doi-asserted-by": "crossref",
+              "unstructured": "Zitzler E, Künzli S. Indicator-based selection in multiobjective search. In: Lecture Notes in Computer Science, Parallel Problem Solving from Nature (PPSN VIII); USA: Springer; 2004. pp. 832-842",
+              "DOI": "10.1007/978-3-540-30217-9_84"
+            },
+            {
+              "key": "ref=22",
+              "unstructured": "Zitzler E, Laumanns M, Thiele L. Spea2: Improving the strength Pareto evolutionary algorithm for multiobjective optimization. In: EUROGEN 2001—Evolutionary Methods for Design, Optimization and Control with Applications to Industrial Problem. USA: Springer; 2001. pp. 95-100"
+            },
+            {
+              "key": "ref=23",
+              "doi-asserted-by": "crossref",
+              "unstructured": "Kumari A, Srinivas K, Gupta M. Software module clustering using a hyperheuristic based multi-objective genetic algorithm. In: Advance Computing Conference (IACC), 2013 IEEE 3rd International; 2013. pp. 813-818",
+              "DOI": "10.1109/IAdCC.2013.6514331"
+            },
+            {
+              "key": "ref=24",
+              "doi-asserted-by": "crossref",
+              "unstructured": "Maashi, MS, Özcan E, Kendall G. A multi-objective hyper-heuristic based on choice function. Expert Systems with Applications. 2014;41(9):4475-4493",
+              "DOI": "10.1016/j.eswa.2013.12.050"
+            },
+            {
+              "key": "ref=25",
+              "doi-asserted-by": "crossref",
+              "unstructured": "Maashi MS, Kendall G, Özcan E. Choice function based hyper-heuristics for multi-objective optimization. Applied Soft Computing. 2015;28:312-326",
+              "DOI": "10.1016/j.asoc.2014.12.012"
+            },
+            {
+              "key": "ref=26",
+              "doi-asserted-by": "crossref",
+              "unstructured": "Maashi MS. An investigation of multi-objective hyper-heuristics for multi-objective optimisation [thesis]. Nottingham, UK: University of Nottingham; 2014",
+              "DOI": "10.1016/j.asoc.2014.12.012"
+            },
+            {
+              "key": "ref=27",
+              "doi-asserted-by": "crossref",
+              "unstructured": "Dueck G. New optimization heuristics: The great deluge algorithm and the record to record travel. Journal of Computational Physics. 1993;104:86-92",
+              "DOI": "10.1006/jcph.1993.1010"
+            },
+            {
+              "key": "ref=28",
+              "unstructured": "Burke EK, Bykov Y. A late acceptance strategy in hill-climbing for exam timetabling problems. In: International Conference on the Practice and Theory of Automated Timetabling; 2008"
+            },
+            {
+              "key": "ref=29",
+              "doi-asserted-by": "crossref",
+              "unstructured": "Fonseca C, Fleming P. Multiobjective optimization and multiple constraint handling with evolutionary algorithms. IEEE Transactions on Systems, Man, and Cybernetics. Part A: Systems and Humans. 1998;28(1):26-37",
+              "DOI": "10.1109/3468.650319"
+            },
+            {
+              "key": "ref=30",
+              "doi-asserted-by": "crossref",
+              "unstructured": "Glover F. Future paths for integer programming and links to artificial intelligence. Computer Operations Research. 1986;13(5):533-549",
+              "DOI": "10.1016/0305-0548(86)90048-1"
+            },
+            {
+              "key": "ref=31",
+              "doi-asserted-by": "crossref",
+              "unstructured": "Liao X, Li Q, Yang X, Zhang W, Li W. Multiobjective optimization for crash safety design of vehicles using stepwise regression model. Structural and Multidisciplinary Optimization. 2008;35:561-569",
+              "DOI": "10.1007/s00158-007-0163-x"
+            },
+            {
+              "key": "ref=32",
+              "doi-asserted-by": "crossref",
+              "unstructured": "Li W, Özcan E, John R. Multi-objective evolutionary algorithms and hyper-heuristics for wind farm layout optimization. Renewable Energy. 2016;105:473-482",
+              "DOI": "10.1016/j.renene.2016.12.022"
+            },
+            {
+              "key": "ref=33",
+              "doi-asserted-by": "crossref",
+              "unstructured": "Walker D, Keedwel, editors. Multi-objective optimisation with a sequence-based selection hyper-heuristic GECCO ‘16 companion. In: Proceedings of the 2016 on Genetic and Evolutionary Computation Conference Companion; July 20-24, 2; Denver, Colorado, USA. New York, NY, USA: ACM; 2016. pp. 81-82",
+              "DOI": "10.1145/2908961.2909016"
+            },
+            {
+              "key": "ref=34",
+              "doi-asserted-by": "crossref",
+              "unstructured": "Bai R, Woensel T, Kendall G, Burke EK. A new model and a hyper-heuristic approach for two-dimensional shelf space allocation. Journal Operation Research. 2013;11:31-55",
+              "DOI": "10.1007/s10288-012-0211-2"
+            },
+            {
+              "key": "ref=35",
+              "unstructured": "Veerapen N, Landa-Silva D, Gandibleux X. Hyperheuristic as component of a multi-objective metaheuristic. In: Proceedings of the Doctoral Symposium on Engineering Stochastic Local Search Algorithms (SLS-DS 2009); 2009"
+            },
+            {
+              "key": "ref=36",
+              "doi-asserted-by": "crossref",
+              "unstructured": "Len C, Miranda G, Segura C. Hyperheuristics for a dynamic-mapped multiobjective island-based model. In: Distributed Computing, Artificial Intelligence, Bioinformatics, Soft Computing, and Ambient Assisted Living. In: Lecture Notes in Computer Science; Berlin Heidelberg: Springer; 2009. pp. 41-49",
+              "DOI": "10.1007/978-3-642-02481-8_7"
+            },
+            {
+              "key": "ref=37",
+              "doi-asserted-by": "crossref",
+              "unstructured": "Gomez J, Terashima-Marín H. Approximating multi-objective hyper-heuristics for solving 2D irregular cutting stock problems. In: Lecture Notes in Computer Science. In Advances in Soft Computing. USA: Springer; 2010. pp. 349-360",
+              "DOI": "10.1007/978-3-642-16773-7_30"
+            },
+            {
+              "key": "ref=38",
+              "doi-asserted-by": "crossref",
+              "unstructured": "Miranda G, Armas J, Segura C, León, C. Hyperheuristic codification for the multi-objective 2d guillotine strip packing problem. In: In Proceedings of IEEE Congress on Evolutionary Computation; 2010. pp. 1-8",
+              "DOI": "10.1109/CEC.2010.5585914"
+            },
+            {
+              "key": "ref=39",
+              "unstructured": "Armas J, Miranda G, and Leòn, C. Hyperheuristic encoding scheme for multiobjective guillotine cutting problems. In: In Proceedings of the 13th Annual Genetic and Evolutionary Computation Conference; 2011"
+            },
+            {
+              "key": "ref=40",
+              "doi-asserted-by": "crossref",
+              "unstructured": "Furtuna R, Curteanu S, Leon F. Multi-objective optimization of a stacked neural network using an evolutionary hyper-heuristic. Applied Soft Computing. 2012;12(1): 133-144",
+              "DOI": "10.1016/j.asoc.2011.09.001"
+            },
+            {
+              "key": "ref=41",
+              "doi-asserted-by": "crossref",
+              "unstructured": "Vrugt J, Robinson B. Improved evolutionary optimization from genetically adaptive multimethod search. Proceedings of the National Academy of Sciences. 2007;104(3):708-711",
+              "DOI": "10.1073/pnas.0610471104"
+            },
+            {
+              "key": "ref=42",
+              "doi-asserted-by": "crossref",
+              "unstructured": "Haario H, Saksman E, Tamminen, J. An adaptive metropolis algorithm. Bernoulli. 2001;7:223-242",
+              "DOI": "10.2307/3318737"
+            },
+            {
+              "key": "ref=43",
+              "doi-asserted-by": "crossref",
+              "unstructured": "Storn R, Price K. Differential evolution: A simple and efficient heuristic for global optimization over continuous. Journal of Global Optimization. 1997;(11):341-359",
+              "DOI": "10.1023/A:1008202821328"
+            },
+            {
+              "key": "ref=44",
+              "doi-asserted-by": "crossref",
+              "unstructured": "Raad D, Sinkse A, Vuuren J. Multiobjective optimization for water distribution systemdesign using a hyperheuristic. Journal of Water Resources Management. 2010;136(5):592-596",
+              "DOI": "10.1061/(ASCE)WR.1943-5452.0000061"
+            },
+            {
+              "key": "ref=45",
+              "doi-asserted-by": "crossref",
+              "unstructured": "Zhang X, Srinivasan R, Liew MV. On the use of multi-algorithm, genetically adaptive multi-objective method for multi-site calibration of the swat model. Hydrological Processes. 2010;24(8):955-1094",
+              "DOI": "10.1002/hyp.7528"
+            },
+            {
+              "key": "ref=46",
+              "doi-asserted-by": "crossref",
+              "unstructured": "Wang Y, Li B. Multi-strategy ensemble evolutionary optimization for dynamic multiobjective optimization. Memetic Computing. 2010;2:3-24",
+              "DOI": "10.1007/s12293-009-0012-0"
+            },
+            {
+              "key": "ref=47",
+              "unstructured": "Deb K, Goldberg D. An investigation on niche and species formation in genetic function optimization. In: Proceedings of 3rd International Conference on Genetic Algorithms; 1989. pp. 42-50"
+            },
+            {
+              "key": "ref=48",
+              "doi-asserted-by": "crossref",
+              "unstructured": "Bäck T. Evolutionary Algorithms in Theory and Practice. UK: Oxford University Press; 1996",
+              "DOI": "10.1093/oso/9780195099713.003.0007"
+            },
+            {
+              "key": "ref=49",
+              "unstructured": "Deb K. Multi-Objective Optimization Using Evolutionary Algorithms. US: Wiley; 2001"
+            },
+            {
+              "key": "ref=50",
+              "unstructured": "Anderson JM, Sayers TM, Bell MGH. Optimisation of a fuzzy logic traffic signal controller by a multiobjective genetic algorithm. IEEE Road Transport Information and Control. 2007;454:186-190"
+            },
+            {
+              "key": "ref=51",
+              "unstructured": "Zhang Q, Li H. Evolutionary algorithms for multi-objective optimization: Performance assessments and comparisons. IEEE Transactions on Evolutionary Computation. 2007;11(6):712-731"
+            },
+            {
+              "key": "ref=52",
+              "doi-asserted-by": "crossref",
+              "unstructured": "Li H, Zhang Q. Multiobjective optimization problems with complicated pareto sets, MOEA/D and NSGA-II. IEEE Transactions on Evolutionary Computation. 2009;13(2):284-302",
+              "DOI": "10.1109/TEVC.2008.925798"
+            },
+            {
+              "key": "ref=53",
+              "doi-asserted-by": "crossref",
+              "unstructured": "Li H, Landa-Silva D. An adaptive evolutionary multi-objective approach based on simulated annealing. Evolutionary Computation. 2011;19(4):561-595",
+              "DOI": "10.1162/EVCO_a_00038"
+            },
+            {
+              "key": "ref=54",
+              "doi-asserted-by": "crossref",
+              "unstructured": "Auger A, Bader J, Brockhoff D, Zitzler E. Hypervolume-based multiobjective optimization: Theoretical foundations and practical implications. Theoretical Computer Science. 2012;425:75-103",
+              "DOI": "10.1016/j.tcs.2011.03.012"
+            },
+            {
+              "key": "ref=55",
+              "doi-asserted-by": "crossref",
+              "unstructured": "Bader J, Zitzler E. Hype: An algorithm for fast hypervolume-based many-objective optimization. Evolutionary Computation. 2008;19(1):45-76",
+              "DOI": "10.1162/EVCO_a_00009"
+            },
+            {
+              "key": "ref=56",
+              "doi-asserted-by": "crossref",
+              "unstructured": "Sutton R, Barto A. Reinforcement Learning: An Introduction. USA: MIT Press; 1998",
+              "DOI": "10.1016/S1474-6670(17)38315-5"
+            },
+            {
+              "key": "ref=57",
+              "unstructured": "Van Veldhuizen D. Multiobjective evolutionary algorithms: Classifications, analyses, and new innovations [thesis]. Wright-Patterson AFB. Ohio: Air Force Institute of Technology; 1999"
+            },
+            {
+              "key": "ref=58",
+              "unstructured": "Glover F, Laguna M. Tabu search. In: Modern Heuristic Techniques for Combinatorial Problems. USA: John Wiley &amp; Sons; 1995. pp. 70-150"
+            },
+            {
+              "key": "ref=59",
+              "doi-asserted-by": "crossref",
+              "unstructured": "Kendall G, Mohamad M. Channel assignment in cellular communication using a great deluge hyperheuristic. In: IEEE International Conference on Network; 2004. pp. 769-773",
+              "DOI": "10.1109/ICON.2004.1409283"
+            },
+            {
+              "key": "ref=60",
+              "doi-asserted-by": "crossref",
+              "unstructured": "Zitzler E, Thiele L. Multiobjective evolutionary algorithms: A comparative case study and the strength Pareto approach. IEEE Transactions on Evolutionary Computation. 1999;3(4):253-290",
+              "DOI": "10.1109/4235.797969"
+            },
+            {
+              "key": "ref=61",
+              "doi-asserted-by": "crossref",
+              "unstructured": "Srinivas N, Deb K. Multiobjective optimization using nondominated sorting in genetic algorithms. Evolutionary Computation. 1994;2(3):221-248",
+              "DOI": "10.1162/evco.1994.2.3.221"
+            },
+            {
+              "key": "ref=62",
+              "unstructured": "Van Veldhuizen DA, Lamont G. Evolutionary computation and convergence to a pareto front. In: Proceedings of Late Breaking Papers at the Genetic Programming 1998 Conference; 1998. pp. 221-228"
+            },
+            {
+              "key": "ref=63",
+              "doi-asserted-by": "crossref",
+              "unstructured": "Coello Coello CA, Cruz Cortés N. Solving multiobjective optimization problems using an artificial immune system. Genetic Programming and Evolvable Machines. 2005;6(2):163-190",
+              "DOI": "10.1007/s10710-005-6164-x"
+            }
+          ],
+          "container-title": [
+            "Heuristics and Hyper-Heuristics - Principles and Applications"
+          ],
+          "language": "en",
+          "link": [
+            {
+              "URL": "http://www.intechopen.com/download/pdf/55594",
+              "content-type": "unspecified",
+              "content-version": "vor",
+              "intended-application": "similarity-checking"
+            }
+          ],
+          "deposited": {
+            "date-parts": [
+              [
+                2025,
+                6,
+                25
+              ]
+            ],
+            "date-time": "2025-06-25T10:11:17Z",
+            "timestamp": 1750846277000
+          },
+          "score": 30.048712,
+          "resource": {
+            "primary": {
+              "URL": "http://www.intechopen.com/books/heuristics-and-hyper-heuristics-principles-and-applications/multi-objective-hyper-heuristics"
+            }
+          },
+          "issued": {
+            "date-parts": [
+              [
+                2017,
+                8,
+                30
+              ]
+            ]
+          },
+          "ISBN": [
+            "9789535133834",
+            "9789535133841"
+          ],
+          "references-count": 63,
+          "URL": "https://doi.org/10.5772/intechopen.69222",
+          "published": {
+            "date-parts": [
+              [
+                2017,
+                8,
+                30
+              ]
+            ]
+          }
+        },
+        {
+          "indexed": {
+            "date-parts": [
+              [
+                2026,
+                9,
+                30
+              ]
+            ],
+            "date-time": "2026-09-30T19:39:11Z",
+            "timestamp": 1790797151338,
+            "version": "4.1.0"
+          },
+          "reference-count": 60,
+          "publisher": "InTech",
+          "isbn-type": [
+            {
+              "value": "9789535133834",
+              "type": "print"
+            },
+            {
+              "value": "9789535133841",
+              "type": "electronic"
+            }
+          ],
+          "license": [
+            {
+              "start": {
+                "date-parts": [
+                  [
+                    2017,
+                    8,
+                    30
+                  ]
+                ],
+                "date-time": "2017-08-30T00:00:00Z",
+                "timestamp": 1504051200000
+              },
+              "content-version": "unspecified",
+              "delay-in-days": 0,
+              "URL": "https://creativecommons.org/licenses/by/3.0/legalcode"
+            }
+          ],
+          "content-domain": {
+            "domain": [],
+            "crossmark-restriction": false
+          },
+          "DOI": "10.5772/intechopen.69225",
+          "type": "book-chapter",
+          "created": {
+            "date-parts": [
+              [
+                2017,
+                8,
+                31
+              ]
+            ],
+            "date-time": "2017-08-31T08:32:27Z",
+            "timestamp": 1504168347000
+          },
+          "source": "Crossref",
+          "is-referenced-by-count": 5,
+          "title": [
+            "Hyper‐Heuristics and Metaheuristics for Selected Bio‐Inspired Combinatorial Optimization Problems"
+          ],
+          "prefix": "10.5772",
+          "author": [
+            {
+              "given": "Aleksandra",
+              "family": "Swiercz",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            }
+          ],
+          "member": "3774",
+          "published-online": {
+            "date-parts": [
+              [
+                2017,
+                8,
+                30
+              ]
+            ]
+          },
+          "reference": [
+            {
+              "key": "ref=1",
+              "doi-asserted-by": "crossref",
+              "unstructured": "Cowling P, Kendall G, Soubeiga E. A hyperheuristic approach for scheduling a sales summit. In: Selected Papers of the 3rd International Conference on the Practice and Theory of Automated Timetabling, PATAT 2000. Berlin: Springer; 2001. pp. 176-190",
+              "DOI": "10.1007/3-540-44629-X_11"
+            },
+            {
+              "key": "ref=2",
+              "unstructured": "Fisher H, Thompson GL. Probabilistic learning combinations of local job‐shop scheduling rules. In: Muth JF and Thompson GL, editors. Industrial Scheduling. NY: Prentice‐Hall: Englewood Cliffs; 1963. pp. 225-251"
+            },
+            {
+              "key": "ref=3",
+              "doi-asserted-by": "crossref",
+              "unstructured": "Storer RH, Wu SD, Vaccari R. New search spaces for sequencing problems with application to job shop scheduling. Management Science. 1992;38(10):1495-1509",
+              "DOI": "10.1287/mnsc.38.10.1495"
+            },
+            {
+              "key": "ref=4",
+              "unstructured": "Fang H, Ross P, Corne D. A promising hybrid ga/heuristic approach for openshop scheduling problems. In: Cohn AG, editor. European Conference on Artificial Intelligence. New York: John Wiley &amp; Sons; 1994"
+            },
+            {
+              "key": "ref=5",
+              "doi-asserted-by": "crossref",
+              "unstructured": "Drechsler R, Becker B. Learning heuristics by genetic algorithms. In: Shirakawa I, editor. ASP Design Automation Conference. ACM: Makuhari, Massa, Chiba, Japan; 1995. pp. 349-352",
+              "DOI": "10.1145/224818.224920"
+            },
+            {
+              "key": "ref=6",
+              "doi-asserted-by": "crossref",
+              "unstructured": "Grefenstette J. Optimization of control parameters for genetic algorithms. IEEE Transactions on Systems, Man, and Cybernetics SMC. 1986;16(1):122-128",
+              "DOI": "10.1109/TSMC.1986.289288"
+            },
+            {
+              "key": "ref=7",
+              "doi-asserted-by": "crossref",
+              "unstructured": "Bäck T. An overview of parameter control methods by self‐adaption in evolutionary algorithms. Fundamental Journals. 1998;35(1-4):51-66",
+              "DOI": "10.3233/FI-1998-35123404"
+            },
+            {
+              "key": "ref=8",
+              "doi-asserted-by": "crossref",
+              "unstructured": "Rice JR. The algorithm selection problem. Advances in Computers. 1976;15:65-118",
+              "DOI": "10.1016/S0065-2458(08)60520-3"
+            },
+            {
+              "key": "ref=9",
+              "doi-asserted-by": "crossref",
+              "unstructured": "Sleeman D, Rissakis M, Craw S, Graner N, Sharma S, Consultant‐2: Pre–and post‐processing of machine learning applications. International Journal of Human Computer Studies. 1995;43(1):43-63",
+              "DOI": "10.1006/ijhc.1995.1035"
+            },
+            {
+              "key": "ref=10",
+              "doi-asserted-by": "crossref",
+              "unstructured": "Wah BW, Ieumwananonthachai A. Teacher: A genetics‐based system for learning and for generalizing heuristics. In: Yao X, editor. Evolutionary Computation. Singapore: World Scientific Publishing Co. Pte. Ltd.; 1999. pp. 124-170",
+              "DOI": "10.1142/9789812817471_0004"
+            },
+            {
+              "key": "ref=11",
+              "doi-asserted-by": "crossref",
+              "unstructured": "Burke EK, Gendreau M, Hyde M, Kendall G, Ochoa G, Ozcan E, Qu R. Hyper‐heuristics: A survey of the state of the art. Journal of the Operational Research Society. 2013;64:1695-1724",
+              "DOI": "10.1057/jors.2013.71"
+            },
+            {
+              "key": "ref=12",
+              "unstructured": "Pappa GL, Ochoa G, Hyde MR, Freitas AA, Woodward J, Swan J. Genetic Programming and Evolvable Machines. Contrasting meta‐learning and hyper‐heuristic research: The role of evolutionary algorithms. 2014;15(1):3-35. DOI: 10.1007/s10710-013‐9186-9"
+            },
+            {
+              "key": "ref=13",
+              "unstructured": "Lysov Y, Florent’ev V, Khorlin A, Khrapko K, Shik V, Mirzabekov A, Determination of the nucleotide sequence of DNA using hybridization with oligonucleotides. A new method. Doklady Akademii Nauk SSSR. 1988;303:1508-1511"
+            },
+            {
+              "key": "ref=14",
+              "doi-asserted-by": "crossref",
+              "unstructured": "Pevzner P, l‐tuple DNA sequencing: Computer analysis. Journal of Biomolecular Structure and Dynamics. 1989;7:63-73",
+              "DOI": "10.1080/07391102.1989.10507752"
+            },
+            {
+              "key": "ref=15",
+              "doi-asserted-by": "crossref",
+              "unstructured": "Blazewicz J, Hertz A, Kobler D, de Werra D. On some properties of DNA graphs. Discrete Applied Mathematics. 1999;98:1-19",
+              "DOI": "10.1016/S0166-218X(99)00109-2"
+            },
+            {
+              "key": "ref=16",
+              "doi-asserted-by": "crossref",
+              "unstructured": "Vrugt J, Robinson B. Improved evolutionary optimization from genetically adaptive multimethod search. Proceedings of the National Academy of Sciences. 2007;104(3):708-711",
+              "DOI": "10.1073/pnas.0610471104"
+            },
+            {
+              "key": "ref=17",
+              "doi-asserted-by": "crossref",
+              "unstructured": "Burke EK, Hyde M, Kendall G, Ochoa G, Özcan E, Woodward J. Handbook of meta‐heuristics, international series in operations research &amp; management science. Vol. 146. Chap. A Classification of Hyper‐heuristic Approaches, New York: Springer; 2010. pp. 449-468. Chapter 15",
+              "DOI": "10.1007/978-1-4419-1665-5_15"
+            },
+            {
+              "key": "ref=18",
+              "unstructured": "Ahmadi S, Barrone P, Cheng P, Burke EK, Cowling P, McCollum B. Perturbation based variable neighbourhood search in heuristic space for examination timetabling problem. In: Kendall G, Burke EK, Petrovic S, Gendreau M, editors. Multidisciplinary International Scheduling: Theory and Applications. New York: MISTA, Springer; 2003. pp. 155-171"
+            },
+            {
+              "key": "ref=19",
+              "doi-asserted-by": "crossref",
+              "unstructured": "Burke EK, McCollum B, Meisels A, Petrovic S, Qu R. A graph‐based hyperheuristic for educational timetabling problems. European Journal of Operational Research. 2007;176:177-192",
+              "DOI": "10.1016/j.ejor.2005.08.012"
+            },
+            {
+              "key": "ref=20",
+              "doi-asserted-by": "crossref",
+              "unstructured": "Sabar NR, Ayob M, Qu R, Kendall G. A graph coloring constructive hyper‐heuristic for examination timetabling problems. Applied Intelligence. 2012;37:1-11",
+              "DOI": "10.1007/s10489-011-0309-9"
+            },
+            {
+              "key": "ref=21",
+              "doi-asserted-by": "crossref",
+              "unstructured": "Cano‐Belmán J, Ríos‐Mercado R, Bautista J. A scatter search based hyperheuristic for sequencing a mixed‐model assembly line. Journal of Heuristics. 2010;16:749-770",
+              "DOI": "10.1007/s10732-009-9118-2"
+            },
+            {
+              "key": "ref=22",
+              "doi-asserted-by": "crossref",
+              "unstructured": "Dowsland KA, Soubeiga E, Burke EK. A simulated annealing hyperheuristic for determining shipper sizes for storage and transportation. European Journal of Operational Research. 2007;179(3):759-774",
+              "DOI": "10.1016/j.ejor.2005.03.058"
+            },
+            {
+              "key": "ref=23",
+              "doi-asserted-by": "crossref",
+              "unstructured": "Pisinger D, Ropke S. A general heuristic for vehicle routing problems. Computers and Operations Research. 2007;34(8):2403-2435",
+              "DOI": "10.1016/j.cor.2005.09.012"
+            },
+            {
+              "key": "ref=24",
+              "unstructured": "Pillay N. Evolving hyper‐heuristics for the uncapacitated examination timetabling problem. In: Blazewicz J, Drozdowski M, Kendall G, McCollum B (eds). Multidisciplinary International Conference on Scheduling: Theory and Applications (MISTA’09). Dublin, Ireland; 2009. pp. 447-457"
+            },
+            {
+              "key": "ref=25",
+              "doi-asserted-by": "crossref",
+              "unstructured": "Keller RE, Poli R. Cost‐benefit investigation of a genetic‐programming hyperheuristic. In: Monmarche’ N, Talbi E‐G, Collet P, Schoenauer M, Lutton E, editors. International Conference on Artificial Evolution. Berlin, Heidelberg: Springer‐Verlag; 2007. pp. 13-24",
+              "DOI": "10.1007/978-3-540-79305-2_2"
+            },
+            {
+              "key": "ref=26",
+              "doi-asserted-by": "crossref",
+              "unstructured": "Runka A. Evolving an edge selection formula for ant colony optimization. In: Genetic and evolutionary computation conference (GECCO’09). New York: ACM; 2009. pp. 1075-1081",
+              "DOI": "10.1145/1569901.1570046"
+            },
+            {
+              "key": "ref=27",
+              "doi-asserted-by": "crossref",
+              "unstructured": "Burke EK, Hyde MR, Kendall G. Evolving bin packing heuristics with genetic programming. In: Parallel Problem Solving from Nature PPSN IX, Lecture Notes in Computer Science. Runarsson T.P., Beyer HG, Burke E, Merelo-Guervós JJ, Whitley LD, Yao X (eds). Springer, Berlin, Heidelberg. Vol. 4193. 2006. pp. 860-869",
+              "DOI": "10.1007/11844297_87"
+            },
+            {
+              "key": "ref=28",
+              "doi-asserted-by": "crossref",
+              "unstructured": "Burke EK, Hyde MR, Kendall G. Grammatical evolution of local search heuristics. IEEE Transactions on Evolutionary Computation. 2012;16:406-417",
+              "DOI": "10.1109/TEVC.2011.2160401"
+            },
+            {
+              "key": "ref=29",
+              "doi-asserted-by": "crossref",
+              "unstructured": "Sim K, Hart E, Paechter B. A hyper‐heuristic classifier for one dimensional bin packing problems: Improving classification accuracy by attribute evolution. In: Parallel Problem Solving from Nature: PPSN XII, Vol. 7492. Coello CAC, Cutello V, Deb K, Forrest S, Nicosia G, Pavone M. (eds). Lecture Notes in Computer Science. Springer, Berlin, Heidelberg. 2012. pp. 348-357",
+              "DOI": "10.1007/978-3-642-32964-7_35"
+            },
+            {
+              "key": "ref=30",
+              "doi-asserted-by": "crossref",
+              "unstructured": "Ross P, Marín‐Blázquez JG. Constructive hyper‐heuristics in class timetabling. In: IEEE Congress on Evolutionary Computation (CEC’05), Edinburgh, UK. 2005. pp. 1493-1500",
+              "DOI": "10.1109/CEC.2005.1554866"
+            },
+            {
+              "key": "ref=31",
+              "doi-asserted-by": "crossref",
+              "unstructured": "Burke EK, Petrovic S, Qu R. Case based heuristic selection for timetabling problems. Journal of Scheduling. 2006;9(2):115-132",
+              "DOI": "10.1007/s10951-006-6775-y"
+            },
+            {
+              "key": "ref=32",
+              "doi-asserted-by": "crossref",
+              "unstructured": "Fukunaga AS. Automated discovery of local search heuristics for satisfiability testing. Evolutionary Computation. 2008;16(1):31-61",
+              "DOI": "10.1162/evco.2008.16.1.31"
+            },
+            {
+              "key": "ref=33",
+              "doi-asserted-by": "crossref",
+              "unstructured": "Burke EK, Hyde MR, Kendall G, Woodward J. Automating the packing heuristic design process with genetic programming. Evolutionary Computation. 2012;20(1):63-89",
+              "DOI": "10.1162/EVCO_a_00044"
+            },
+            {
+              "key": "ref=34",
+              "doi-asserted-by": "crossref",
+              "unstructured": "Krasnogor N, Gustafson S. A study on the use of “self‐generation” in memetic algorithms. Natural Computing. 2004;3(1):53-76",
+              "DOI": "10.1023/B:NACO.0000023419.83147.67"
+            },
+            {
+              "key": "ref=35",
+              "doi-asserted-by": "crossref",
+              "unstructured": "Garrido P, Riff M. Dvrp: A hard dynamic combinatorial optimisation problem tackled by an evolutionary hyper‐heuristic. Journal of Heuristics 2010;16:795-834",
+              "DOI": "10.1007/s10732-010-9126-2"
+            },
+            {
+              "key": "ref=36",
+              "doi-asserted-by": "crossref",
+              "unstructured": "Remde S, Cowling P, Dahal K, Colledge N. Binary exponential back‐off for tabu tenure in hyperheuristics. In: Cotta C, Cowling P, editors. Evolutionary Computation in Combinatorial Optimization. Vol. 5482. Berlin: Springer; 2009. pp. 109-112",
+              "DOI": "10.1007/978-3-642-01009-5_10"
+            },
+            {
+              "key": "ref=37",
+              "doi-asserted-by": "crossref",
+              "unstructured": "Terashima‐Marín H, Ross P, Farías‐Zárate CJ, López‐Camacho E, Valenzuela‐Rendón M. Generalized hyper‐heuristics for solving 2D regular and irregular packing problems. Annals of Operations Research 2010;179(1):369-392",
+              "DOI": "10.1007/s10479-008-0475-2"
+            },
+            {
+              "key": "ref=38",
+              "doi-asserted-by": "crossref",
+              "unstructured": "Rattadilok P, Gaw A, Kwan RSK. Distributed choice function hyper‐heuristics for timetabling and scheduling. In: Burke EK, Trick M, editors. The Practice and Theory of Automated Timetabling V: Selected Papers from the 5th International Conference on the Practice and Theory of Automated Timetabling. Vol. 3616. Lecture Notes in Computer Science Series. Berlin: Springer; 2005. pp. 51-70",
+              "DOI": "10.1007/11593577_4"
+            },
+            {
+              "key": "ref=39",
+              "unstructured": "Blazewicz J, Burke EK, Kendall G, Mruczkiewicz W, Oguz C, Swiercz A. A hyper‐heuristic approach to sequencing by hybridization of DNA sequences. Annals of Operations Research. 2013;207(1):27-41. DOI: 10.1007/s10479‐011‐0927‐y"
+            },
+            {
+              "key": "ref=40",
+              "unstructured": "Nareyek A. An empirical analysis of weight‐adaptation strategies for neighborhoods of heuristics. In: Sousa J, editor. Metaheuristic International Conference MIC’2001. Porto, Portugal. 2001. pp. 211-215"
+            },
+            {
+              "key": "ref=41",
+              "doi-asserted-by": "crossref",
+              "unstructured": "Burke EK, Kendall G, Soubeiga E. A tabu‐search hyperheuristic for timetabling and rostering. Journal of Heuristics. 2003;9(6):451-470",
+              "DOI": "10.1023/B:HEUR.0000012446.94732.b6"
+            },
+            {
+              "key": "ref=42",
+              "unstructured": "Koza JR. Genetic Programming: On the Programming of Computers by Means of Natural Selection. Boston, MA: The MIT Press; 1992"
+            },
+            {
+              "key": "ref=43",
+              "unstructured": "Ho NB and Tay JC. Evolving dispatching rules for solving the flexible job‐shop problem. In: IEEE Congress on Evolutionary Computation (CEC’05). Edinburgh, UK: IEEE; 2005. pp. 2848-2855"
+            },
+            {
+              "key": "ref=44",
+              "doi-asserted-by": "crossref",
+              "unstructured": "Poli R, Woodward JR and Burke EK. A histogram matching approach to the evolution of bin‐packing strategies. In: IEEE Congress on Evolutionary Computation (CEC’07). Singapore: IEEE; 2007. pp. 3500-3507",
+              "DOI": "10.1109/CEC.2007.4424926"
+            },
+            {
+              "key": "ref=45",
+              "doi-asserted-by": "crossref",
+              "unstructured": "Oltean M, Dumitrescu D. Evolving TSP heuristics using multi expression programming. In: International Conference on Computational Science (ICCS’04). Vol. 3037. Lecture Notes in Computer Science. Berlin: Springer; 2004. pp. 670-673",
+              "DOI": "10.1007/978-3-540-24687-9_99"
+            },
+            {
+              "key": "ref=46",
+              "doi-asserted-by": "crossref",
+              "unstructured": "Weiss K, Khoshgoftaar TM, Wang DD. A survey of transfer learning. Journal of Big Data. 2016;3:9",
+              "DOI": "10.1186/s40537-016-0043-6"
+            },
+            {
+              "key": "ref=47",
+              "unstructured": "Sankoff D, Kruskal J. Time Warps, String Edits and Macromolecules: The Theory and Practice of Sequence Comparisons. Addison‐Wesley. 1983"
+            },
+            {
+              "key": "ref=48",
+              "unstructured": "Storer JA. Data Compression: Methods and theory. Computer Science Press Inc.; New York, NY, USA. 1988"
+            },
+            {
+              "key": "ref=49",
+              "doi-asserted-by": "crossref",
+              "unstructured": "Tabataba FS, Mousavi SR. A hyper‐heuristic for the longest common subsequence problem. Computational Biology and Chemistry. 2012;36:42-54",
+              "DOI": "10.1016/j.compbiolchem.2011.12.004"
+            },
+            {
+              "key": "ref=50",
+              "doi-asserted-by": "crossref",
+              "unstructured": "Swiercz A, Burke EK, Cicheński M, Pawlak G, Petrovic S, Zurkowski T, Blazewicz J. Unified encoding for hyper‐heuristics with application to bioinformatics. Central European Journal of Operations Research. 2014;22:567-589",
+              "DOI": "10.1007/s10100-013-0321-8"
+            },
+            {
+              "key": "ref=51",
+              "doi-asserted-by": "crossref",
+              "unstructured": "Sanger F, Nicklen S, Coulson A. DNA sequencing with chain‐terminating inhibitors, Proceedings of the National Academy of Sciences, USA. 1977;74:5463-5467",
+              "DOI": "10.1073/pnas.74.12.5463"
+            },
+            {
+              "key": "ref=52",
+              "doi-asserted-by": "crossref",
+              "unstructured": "Myers E, Sutton G, Delcher A. A whole‐genome assembly of Drosophila, Science. 2000;287(5461):2196-2204",
+              "DOI": "10.1126/science.287.5461.2196"
+            },
+            {
+              "key": "ref=53",
+              "doi-asserted-by": "crossref",
+              "unstructured": "Simpson J, Durbin R. Efficient de novo assembly of large genomes using compressed data structures, Genome Research. 2012;22:549-556",
+              "DOI": "10.1101/gr.126953.111"
+            },
+            {
+              "key": "ref=54",
+              "doi-asserted-by": "crossref",
+              "unstructured": "Zerbino D, Birney E. Velvet: Algorithms for de novo short read assembly using de Bruijn graphs, Genome Research. 2008;18:821-829",
+              "DOI": "10.1101/gr.074492.107"
+            },
+            {
+              "key": "ref=55",
+              "doi-asserted-by": "crossref",
+              "unstructured": "Kajitani R, Toshimoto K, Noguchi H, Toyoda A, Ogura Y, Okuno M, Yabana M, Harada M, Nagayasu E, Maruyama H, Kohara Y, Fujiyama A, Hayashi T, Itoh T. Efficient de novo assembly of highly heterozygous genomes from whole‐genome shotgun short reads, Genome Research. 2014;24:1384-1395",
+              "DOI": "10.1101/gr.170720.113"
+            },
+            {
+              "key": "ref=56",
+              "doi-asserted-by": "crossref",
+              "unstructured": "Bonifaci V, Mehlhorn K, Varma G. Physarum can compute shortest paths. Journal of Theoretical Biology. 2012;309:121-133",
+              "DOI": "10.1016/j.jtbi.2012.06.017"
+            },
+            {
+              "key": "ref=57",
+              "doi-asserted-by": "crossref",
+              "unstructured": "Bonifaci V. Physarum can compute shortest paths: A short proof. Information Processing Letters. 2013;113(1-2):4-7",
+              "DOI": "10.1016/j.ipl.2012.09.005"
+            },
+            {
+              "key": "ref=58",
+              "doi-asserted-by": "crossref",
+              "unstructured": "Adleman LM. Molecular computation of solutions to combinatorial problems. Science. 1994;266:1021-1024",
+              "DOI": "10.1126/science.7973651"
+            },
+            {
+              "key": "ref=59",
+              "doi-asserted-by": "crossref",
+              "unstructured": "Ochoa G, Walker J, Hyde M, Curtois T. Adaptive evolutionary algorithms and extensions to the HyFlex hyper-heuristic framework. In: Parallel Problem Solving from Nature—PPSN XII. Lecture Notes in Computer Science. Berlin: Springer. 2012;7492:418-427",
+              "DOI": "10.1007/978-3-642-32964-7_42"
+            },
+            {
+              "key": "ref=60",
+              "unstructured": "Swan J, Özcan E, Kendall G. Hyperion—A recursive hyper‐heuristic framework. In: Coello CAC, editor. LION. Lecture Notes in Computer Science. Berlin: Springer. 2011;6683:616-630"
+            }
+          ],
+          "container-title": [
+            "Heuristics and Hyper-Heuristics - Principles and Applications"
+          ],
+          "language": "en",
+          "link": [
+            {
+              "URL": "http://www.intechopen.com/download/pdf/55554",
+              "content-type": "unspecified",
+              "content-version": "vor",
+              "intended-application": "similarity-checking"
+            }
+          ],
+          "deposited": {
+            "date-parts": [
+              [
+                2025,
+                6,
+                25
+              ]
+            ],
+            "date-time": "2025-06-25T10:10:20Z",
+            "timestamp": 1750846220000
+          },
+          "score": 28.59035,
+          "resource": {
+            "primary": {
+              "URL": "http://www.intechopen.com/books/heuristics-and-hyper-heuristics-principles-and-applications/hyper-heuristics-and-metaheuristics-for-selected-bio-inspired-combinatorial-optimization-problems"
+            }
+          },
+          "issued": {
+            "date-parts": [
+              [
+                2017,
+                8,
+                30
+              ]
+            ]
+          },
+          "ISBN": [
+            "9789535133834",
+            "9789535133841"
+          ],
+          "references-count": 60,
+          "URL": "https://doi.org/10.5772/intechopen.69225",
+          "published": {
+            "date-parts": [
+              [
+                2017,
+                8,
+                30
+              ]
+            ]
+          }
+        }
+      ],
+      "items-per-page": 3,
+      "query": {
+        "start-index": 0,
+        "search-terms": null
+      }
+    }
+  }
+}

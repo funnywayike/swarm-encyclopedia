@@ -1,0 +1,776 @@
+{
+  "doi": "10.1007/0-306-48056-5_11",
+  "url": "https://api.crossref.org/works/10.1007%2F0-306-48056-5_11",
+  "retrieved": "2026-10-16",
+  "response": {
+    "status": "ok",
+    "message-type": "work",
+    "message-version": "1.0.0",
+    "message": {
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            10,
+            6
+          ]
+        ],
+        "date-time": "2026-10-06T17:06:28Z",
+        "timestamp": 1791306388086,
+        "version": "4.3.1"
+      },
+      "publisher-location": "Boston",
+      "reference-count": 67,
+      "publisher": "Kluwer Academic Publishers",
+      "isbn-type": [
+        {
+          "value": "1402072635",
+          "type": "print"
+        }
+      ],
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "short-container-title": [],
+      "DOI": "10.1007/0-306-48056-5_11",
+      "type": "book-chapter",
+      "created": {
+        "date-parts": [
+          [
+            2006,
+            2,
+            2
+          ]
+        ],
+        "date-time": "2006-02-02T13:26:26Z",
+        "timestamp": 1138886786000
+      },
+      "page": "320-353",
+      "source": "Crossref",
+      "is-referenced-by-count": 553,
+      "title": [
+        "Iterated Local Search"
+      ],
+      "prefix": "10.1007",
+      "author": [
+        {
+          "given": "Helena R.",
+          "family": "Lourenço",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Olivier C.",
+          "family": "Martin",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Thomas",
+          "family": "Stützle",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "297",
+      "reference": [
+        {
+          "key": "11_CR1",
+          "unstructured": "D. Applegate, R. Bixby, V. Chvátal and W. Cook (2000) Finding tours in the TSP. Preliminary version of a book chapter available via www.keck.caam.rice.edu/concorde.html."
+        },
+        {
+          "key": "11_CR2",
+          "series-title": "Technical Report",
+          "volume-title": "Chained Lin-Kernighan for large traveling salesman problems",
+          "author": "D. Applegate",
+          "year": "1999",
+          "unstructured": "D. Applegate, W. Cook and A. Rohe (1999) Chained Lin-Kernighan for large traveling salesman problems. Technical Report No. 99887, Forschungsinstitut fürDiskrete Mathematik, University of Bonn, Germany."
+        },
+        {
+          "key": "11_CR3",
+          "doi-asserted-by": "crossref",
+          "unstructured": "T. Bäck (1996) Evolutionary Algorithms in Theory and Practice. Oxford University Press.",
+          "DOI": "10.1093/oso/9780195099713.001.0001"
+        },
+        {
+          "issue": "2",
+          "key": "11_CR4",
+          "doi-asserted-by": "crossref",
+          "first-page": "262",
+          "DOI": "10.1287/mnsc.44.2.262",
+          "volume": "44",
+          "author": "E. Balas",
+          "year": "1998",
+          "unstructured": "E. Balas and A. Vazacopoulos (1998) Guided local search with shifting bottleneck for job shop scheduling. Management Science, 44(2), 262–275.",
+          "journal-title": "Management Science"
+        },
+        {
+          "issue": "4",
+          "key": "11_CR5",
+          "doi-asserted-by": "publisher",
+          "first-page": "361",
+          "DOI": "10.1109/12.762522",
+          "volume": "48",
+          "author": "R. Battiti",
+          "year": "1999",
+          "unstructured": "R. Battiti and A. Bertossi (1999) Greedy, prohibition, and reactive heuristics for graph-partitioning. IEEE Transactions on Computers, 48(4), 361–385.",
+          "journal-title": "IEEE Transactions on Computers"
+        },
+        {
+          "key": "11_CR6",
+          "doi-asserted-by": "crossref",
+          "unstructured": "R. Battiti and M. Protasi (1997) Reactive search, a history-based heuristic for MAX-SAT. ACM Journal of Experimental Algorithmics, 2.",
+          "DOI": "10.1145/264216.264220"
+        },
+        {
+          "issue": "2",
+          "key": "11_CR7",
+          "doi-asserted-by": "crossref",
+          "first-page": "126",
+          "DOI": "10.1287/ijoc.6.2.126",
+          "volume": "6",
+          "author": "R. Battiti",
+          "year": "1994",
+          "unstructured": "R. Battiti and G. Tecchiolli (1994) The reactive tabu search. ORSA Journal on Computing, 6(2), 126–140.",
+          "journal-title": "ORSA Journal on Computing"
+        },
+        {
+          "key": "11_CR8",
+          "series-title": "Technical report",
+          "volume-title": "Iterated descent: A better algorithm for local search in combinatorial optimization problems",
+          "author": "E.B. Baum",
+          "year": "1986",
+          "unstructured": "E.B. Baum (1986) Iterated descent: A better algorithm for local search in combinatorial optimization problems. Technical report, Caltech, Pasadena, CA. manuscript."
+        },
+        {
+          "key": "11_CR9",
+          "doi-asserted-by": "crossref",
+          "unstructured": "E.B. Baum (1986) Towards practical “neural” computation for combinatorial optimization problems. In: J. Denker (ed.), Neural Networks for Computing. AIP conference proceedings, pp. 53–64.",
+          "DOI": "10.1063/1.36219"
+        },
+        {
+          "key": "11_CR10",
+          "doi-asserted-by": "crossref",
+          "first-page": "815",
+          "DOI": "10.1057/jors.1981.159",
+          "volume": "32",
+          "author": "J. Baxter",
+          "year": "1981",
+          "unstructured": "J. Baxter (1981) Local optima avoidance in depot location. Journal of the Operational Research Society, 32, 815–819.",
+          "journal-title": "Journal of the Operational Research Society"
+        },
+        {
+          "issue": "4",
+          "key": "11_CR11",
+          "doi-asserted-by": "crossref",
+          "first-page": "387",
+          "DOI": "10.1287/ijoc.4.4.387",
+          "volume": "4",
+          "author": "J.L. Bentley",
+          "year": "1992",
+          "unstructured": "J.L. Bentley (1992) Fast algorithms for geometric traveling salesman problems. ORSA Journal on Computing, 4(4), 387–411.",
+          "journal-title": "ORSA Journal on Computing"
+        },
+        {
+          "issue": "1–3",
+          "key": "11_CR12",
+          "doi-asserted-by": "crossref",
+          "first-page": "97",
+          "DOI": "10.1016/0166-218X(95)00030-U",
+          "volume": "65",
+          "author": "P. Brucker",
+          "year": "1996",
+          "unstructured": "P. Brucker, J. Hurink and F. Werner (1996) Improving local search heuristics for some scheduling problems—part I. Discrete Applied Mathematics, 65(1–3), 97–122.",
+          "journal-title": "Discrete Applied Mathematics"
+        },
+        {
+          "issue": "1–2",
+          "key": "11_CR13",
+          "doi-asserted-by": "crossref",
+          "first-page": "47",
+          "DOI": "10.1016/S0166-218X(96)00036-4",
+          "volume": "72",
+          "author": "P. Brucker",
+          "year": "1997",
+          "unstructured": "P. Brucker, J. Hurink and F. Werner (1997) Improving local search heuristics for some scheduling problems—part II. Discrete Applied Mathematics, 72(1–2), 47–69.",
+          "journal-title": "Discrete Applied Mathematics"
+        },
+        {
+          "key": "11_CR14",
+          "doi-asserted-by": "crossref",
+          "unstructured": "S.A. Canute, M.G.C. Resende and C.C. Ribeiro (2000) Local search with perturbations for the prize-collecting steiner tree problem in graphs. Networks (submitted).",
+          "DOI": "10.1002/net.1023"
+        },
+        {
+          "key": "11_CR15",
+          "doi-asserted-by": "publisher",
+          "first-page": "42",
+          "DOI": "10.1016/S0377-2217(82)80007-6",
+          "volume": "11",
+          "author": "J. Carlier",
+          "year": "1982",
+          "unstructured": "J. Carlier (1982) The one-machine sequencing problem European Journal of Operational Research, 11, 42–47.",
+          "journal-title": "European Journal of Operational Research"
+        },
+        {
+          "issue": "1",
+          "key": "11_CR16",
+          "doi-asserted-by": "crossref",
+          "first-page": "41",
+          "DOI": "10.1007/BF00940812",
+          "volume": "45",
+          "author": "V. Cerny",
+          "year": "1985",
+          "unstructured": "V. Cerny (1985) A thermodynamical approach to the traveling salesman problem. Journal of Optimization Theory and Applications, 45(1), 41–51.",
+          "journal-title": "Journal of Optimization Theory and Applications"
+        },
+        {
+          "key": "11_CR17",
+          "series-title": "Technical Report",
+          "volume-title": "Worst-case analysis of a new heuristic for the travelling salesman problem",
+          "author": "N. Christofides",
+          "year": "1976",
+          "unstructured": "N. Christofides (1976) Worst-case analysis of a new heuristic for the travelling salesman problem. Technical Report 388, Graduate School of Industrial Administration, Carnegie-Mellon University, Pittsburgh, PA."
+        },
+        {
+          "key": "11_CR18",
+          "doi-asserted-by": "crossref",
+          "first-page": "125",
+          "DOI": "10.1287/ijoc.8.2.125",
+          "volume": "8",
+          "author": "B. Codenotti",
+          "year": "1996",
+          "unstructured": "B. Codenotti, G. Manzini, L. Margara and G. Resta (1996) Perturbation: An efficient technique for the solution of very large instances of the Euclidean TSP. INFORMS Journal on Computing, 8, 125–133.",
+          "journal-title": "INFORMS Journal on Computing"
+        },
+        {
+          "key": "11_CR19",
+          "unstructured": "R.K. Congram, C.N. Potts and S.L. Van de Velde (2000) An iterated dynasearch algorithm for the single-machine total weighted tardiness scheduling problem. INFORMS Journal on Computing (to appear)."
+        },
+        {
+          "issue": "3",
+          "key": "11_CR20",
+          "doi-asserted-by": "crossref",
+          "first-page": "341",
+          "DOI": "10.1287/ijoc.10.3.341",
+          "volume": "10",
+          "author": "H.A.J. Crauwels",
+          "year": "1998",
+          "unstructured": "H.A.J. Crauwels, C.N. Potts and L.N. Van Wassenhove (1998) Local search heuristics for the single machine total weighted tardiness scheduling problem. INFORMS Journal on Computing, 10(3), 341–350.",
+          "journal-title": "INFORMS Journal on Computing"
+        },
+        {
+          "key": "11_CR21",
+          "doi-asserted-by": "crossref",
+          "unstructured": "M. Dorigo and G. Di Caro (1999) The ant colony optimization meta-heuristic. In: D. Corne, M. Dorigo and F. Glover (eds.), New Ideas in Optimization. McGraw Hill, pp. 11–32.",
+          "DOI": "10.1109/CEC.1999.782657"
+        },
+        {
+          "key": "11_CR22",
+          "doi-asserted-by": "publisher",
+          "first-page": "109",
+          "DOI": "10.1007/BF01096763",
+          "volume": "6",
+          "author": "T.A. Feo",
+          "year": "1995",
+          "unstructured": "T.A. Feo and M.G.C. Resende (1995) Greedy randomized adaptive search procedures. Journal of Global Optimization, 6, 109–133.",
+          "journal-title": "Journal of Global Optimization"
+        },
+        {
+          "key": "11_CR23",
+          "doi-asserted-by": "crossref",
+          "first-page": "257",
+          "DOI": "10.1007/978-1-4615-5775-3_18",
+          "volume-title": "Meta-Heuristics: Advances and Trends in Local Search Paradigms for Optimization",
+          "author": "C. Fonlupt",
+          "year": "1999",
+          "unstructured": "C. Fonlupt, D. Robilliard, P. Preux and E.-G. Talbi (1999) Fitness landscape and performance of meta-heuristics. In: S. Voss, S. Martello, I.H. Osman and C. Roucairol (eds.), Meta-Heuristics: Advances and Trends in Local Search Paradigms for Optimization. Kluwer Academic Publishers, Boston, MA, pp. 257–268."
+        },
+        {
+          "key": "11_CR24",
+          "doi-asserted-by": "publisher",
+          "first-page": "489",
+          "DOI": "10.1007/BF02156631",
+          "volume": "63",
+          "author": "C. Glass",
+          "year": "1996",
+          "unstructured": "C. Glass and C. Potts (1996) A comparison of local search methods for flow shop scheduling. Annals of Operations Research, 63, 489–509.",
+          "journal-title": "Annals of Operations Research"
+        },
+        {
+          "issue": "5",
+          "key": "11_CR25",
+          "doi-asserted-by": "crossref",
+          "first-page": "533",
+          "DOI": "10.1016/0305-0548(86)90048-1",
+          "volume": "13",
+          "author": "F. Glover",
+          "year": "1986",
+          "unstructured": "F. Glover (1986) Future paths for integer programming and links to artificial intelligence. Computers & Operations Research, 13(5), 533–549.",
+          "journal-title": "Computers & Operations Research"
+        },
+        {
+          "issue": "3",
+          "key": "11_CR26",
+          "doi-asserted-by": "crossref",
+          "first-page": "190",
+          "DOI": "10.1287/ijoc.1.3.190",
+          "volume": "1",
+          "author": "F. Glover",
+          "year": "1989",
+          "unstructured": "F. Glover (1989) Tabu search—part I. ORSA Journal on Computing, 1(3), 190–206.",
+          "journal-title": "ORSA Journal on Computing"
+        },
+        {
+          "issue": "1",
+          "key": "11_CR27",
+          "doi-asserted-by": "crossref",
+          "first-page": "4",
+          "DOI": "10.1287/ijoc.2.1.4",
+          "volume": "2",
+          "author": "F. Glover",
+          "year": "1990",
+          "unstructured": "F. Glover (1990) Tabu search—part II. ORSA Journal on Computing, 2( 1), 4–32.",
+          "journal-title": "ORSA Journal on Computing"
+        },
+        {
+          "issue": "4",
+          "key": "11_CR28",
+          "doi-asserted-by": "crossref",
+          "first-page": "426",
+          "DOI": "10.1287/ijoc.7.4.426",
+          "volume": "7",
+          "author": "F. Glover",
+          "year": "1995",
+          "unstructured": "F. Glover (1995) Tabu thresholding: Improved search by nonmonotonic trajectories. ORSA Journal on Computing, 7(4), 426–442.",
+          "journal-title": "ORSA Journal on Computing"
+        },
+        {
+          "key": "11_CR29",
+          "doi-asserted-by": "publisher",
+          "first-page": "169",
+          "DOI": "10.1007/BF00247211",
+          "volume": "2",
+          "author": "F. Glover",
+          "year": "1996",
+          "unstructured": "F. Glover (1996) Finding a best traveling salesman 4-opt move in the same time as a best 2-opt move. Journal of Heuristics, 2, 169–179.",
+          "journal-title": "Journal of Heuristics"
+        },
+        {
+          "key": "11_CR30",
+          "unstructured": "F. Glover (1999) Scatter search and path relinking. In: D. Corne, M. Dorigo and F. Glover (eds.), New Ideas in Optimization. McGraw Hill, pp. 297–316."
+        },
+        {
+          "key": "11_CR31",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1007/978-1-4615-6089-0",
+          "volume-title": "Tabu Search",
+          "author": "F. Glover",
+          "year": "1997",
+          "unstructured": "F. Glover and M. Laguna (1997) Tabu Search. Kluwer Academic Publishers, Boston, MA."
+        },
+        {
+          "key": "11_CR32",
+          "unstructured": "M.X. Goemans and D.P. Williamson (1996) The primal dual method for approximation algorithms and its application to network design problems. In: D. Hochbaum (ed.), Approximation Algorithms for NP-hard Problems. PWS Publishing, pp. 144–191."
+        },
+        {
+          "key": "11_CR33",
+          "doi-asserted-by": "crossref",
+          "first-page": "433",
+          "DOI": "10.1007/978-1-4615-5775-3_30",
+          "volume-title": "Meta-Heuristics: Advances and Trends in Local Search Paradigms for Optimization",
+          "author": "P. Hansen",
+          "year": "1999",
+          "unstructured": "P. Hansen and N. Mladenović (1999) An introduction to variable neighborhood search. In: S. Voss, S. Martello, I.H. Osman and C. Roucairol (eds.), Meta-Heuristics: Advances and Trends in Local Search Paradigms for Optimization. Kluwer Academic Publishers, Boston, MA, pp. 433–58."
+        },
+        {
+          "key": "11_CR34",
+          "doi-asserted-by": "publisher",
+          "first-page": "3",
+          "DOI": "10.1007/BF01721162",
+          "volume": "11",
+          "author": "R. Haupt",
+          "year": "1989",
+          "unstructured": "R. Haupt (1989) A survey of priority rule-based scheduling. OR Spektrum, 11, 3–6.",
+          "journal-title": "OR Spektrum"
+        },
+        {
+          "issue": "1",
+          "key": "11_CR35",
+          "doi-asserted-by": "publisher",
+          "first-page": "63",
+          "DOI": "10.1023/A:1009624916728",
+          "volume": "3",
+          "author": "I. Hong",
+          "year": "1997",
+          "unstructured": "I. Hong, A.B. Kahng and B.R. Moon (1997) Improved large-step Markov chain variants for the symmetric TSP. Journal of Heuristics, 3(1), 63–81.",
+          "journal-title": "Journal of Heuristics"
+        },
+        {
+          "issue": "4",
+          "key": "11_CR36",
+          "doi-asserted-by": "crossref",
+          "first-page": "417",
+          "DOI": "10.1287/ijoc.7.4.417",
+          "volume": "7",
+          "author": "T.C. Hu",
+          "year": "1995",
+          "unstructured": "T.C. Hu, A.B. Kahng and C.-W.A. Tsao (1995) Old bachelor acceptance: A new class of non-monotone threshold accepting methods. ORSA Journal on Computing, 7(4), 417–425.",
+          "journal-title": "ORSA Journal on Computing"
+        },
+        {
+          "key": "11_CR37",
+          "doi-asserted-by": "crossref",
+          "first-page": "446",
+          "DOI": "10.1007/BFb0032050",
+          "volume-title": "Proceedings of the 17th Colloquium on Automata, Languages, and Programming",
+          "author": "D.S. Johnson",
+          "year": "1990",
+          "unstructured": "D.S. Johnson (1990) Local optimization and the travelling salesman problem. In: Proceedings of the 17th Colloquium on Automata, Languages, and Programming, volume 443 of LNCS, Springer Verlag, Berlin, pp. 446–461."
+        },
+        {
+          "key": "11_CR38",
+          "first-page": "215",
+          "volume-title": "Local Search in Combinatorial Optimization",
+          "author": "D.S. Johnson",
+          "year": "1997",
+          "unstructured": "D.S. Johnson and L.A. McGeoch (1997) The travelling salesman problem: A case study in local optimization. In: E.H.L. Aarts and J.K. Lenstra (eds.), Local Search in Combinatorial Optimization. John Wiley & Sons, Chichester, England, pp. 215–310."
+        },
+        {
+          "key": "11_CR39",
+          "first-page": "321",
+          "volume": "1",
+          "author": "K. Katayama",
+          "year": "1999",
+          "unstructured": "K. Katayama and H. Narihisa (1999) Iterated local search approach using genetic transformation to the traveling salesman problem. In: Proceedings of GECCO’99, Vol. 1. Morgan Kaufmann, pp. 321–328.",
+          "journal-title": "Proceedings of GECCO’99"
+        },
+        {
+          "key": "11_CR40",
+          "doi-asserted-by": "crossref",
+          "first-page": "213",
+          "DOI": "10.1002/j.1538-7305.1970.tb01770.x",
+          "volume": "49",
+          "author": "B.W. Kernighan",
+          "year": "1970",
+          "unstructured": "B.W. Kernighan and S. Lin (1970) An efficient heuristic procedure forpartitioning graphs. Bell Systems Technology Journal, 49, 213–219.",
+          "journal-title": "Bell Systems Technology Journal"
+        },
+        {
+          "key": "11_CR41",
+          "doi-asserted-by": "crossref",
+          "first-page": "671",
+          "DOI": "10.1126/science.220.4598.671",
+          "volume": "220",
+          "author": "S. Kirkpatrick",
+          "year": "1983",
+          "unstructured": "S. Kirkpatrick, C.D. Gelatt Jr. and M.P. Vecchi (1983) Optimization by simulated annealing. Science, 220, 671–680.",
+          "journal-title": "Science"
+        },
+        {
+          "issue": "3",
+          "key": "11_CR42",
+          "doi-asserted-by": "publisher",
+          "first-page": "125",
+          "DOI": "10.1002/(SICI)1099-1425(200005/06)3:3<125::AID-JOS40>3.0.CO;2-C",
+          "volume": "3",
+          "author": "S. Kreipl",
+          "year": "2000",
+          "unstructured": "S. Kreipl (2000) A large step random walk for minimizing total weighted tardiness in ajob shop. Journal of Scheduling, 3(3), 125–138.",
+          "journal-title": "Journal of Scheduling"
+        },
+        {
+          "key": "11_CR43",
+          "doi-asserted-by": "crossref",
+          "first-page": "498",
+          "DOI": "10.1287/opre.21.2.498",
+          "volume": "21",
+          "author": "S. Lin",
+          "year": "1973",
+          "unstructured": "S. Lin and B.W. Kernighan (1973) An effective heuristic algorithm for the travelling salesman problem. Operations Research, 21, 498–516.",
+          "journal-title": "Operations Research"
+        },
+        {
+          "key": "11_CR44",
+          "doi-asserted-by": "publisher",
+          "first-page": "347",
+          "DOI": "10.1016/0377-2217(95)00012-F",
+          "volume": "83",
+          "author": "H.R. Lourenço",
+          "year": "1995",
+          "unstructured": "H.R. Lourenço (1995) Job-shop scheduling: Computational study of local search and large-step optimization methods. European Journal of Operational Research, 83, 347–364.",
+          "journal-title": "European Journal of Operational Research"
+        },
+        {
+          "key": "11_CR45",
+          "unstructured": "H.R. Lourenço (1998) A polynomial algorithm for a special case of the one-machine scheduling problem with time-lags. Technical Report Economic Working Papers Series, No. 339, Universitat Pompeu Fabra. Journal of Scheduling (submitted)."
+        },
+        {
+          "key": "11_CR46",
+          "doi-asserted-by": "crossref",
+          "unstructured": "H.R. Lourenço and M. Zwijnenburg (1996) Combining the large-step optimization with tabu-search: Application to the job-shop scheduling problem. In: I.H. Osman and J.P. Kelly (eds.), Meta-Heuristics: Theory & Applications. Kluwer Academic Publishers, pp. 219–236.",
+          "DOI": "10.1007/978-1-4613-1361-8_14"
+        },
+        {
+          "key": "11_CR47",
+          "doi-asserted-by": "crossref",
+          "first-page": "303",
+          "DOI": "10.1002/cpe.4330070404",
+          "volume": "7",
+          "author": "O. Martin",
+          "year": "1995",
+          "unstructured": "O. Martin and S.W. Otto (1995) Partitoning of unstructured meshes for load balancing. Concurrency: Practice and Experience, 7, 303–314.",
+          "journal-title": "Concurrency: Practice and Experience"
+        },
+        {
+          "key": "11_CR48",
+          "doi-asserted-by": "crossref",
+          "first-page": "57",
+          "DOI": "10.1007/BF02601639",
+          "volume": "63",
+          "author": "O. Martin",
+          "year": "1996",
+          "unstructured": "O. Martin and S.W. Otto (1996) Combining simulated annealing with local search heuristics. Annals of Operations Research, 63, 57–75.",
+          "journal-title": "Annals of Operations Research"
+        },
+        {
+          "issue": "3",
+          "key": "11_CR49",
+          "first-page": "299",
+          "volume": "5",
+          "author": "O. Martin",
+          "year": "1991",
+          "unstructured": "O. Martin, S.W. Otto and E.W. Felten (1991) Large-step Markov chains for the traveling salesman problem. Complex Systems, 5(3), 299–326.",
+          "journal-title": "Complex Systems"
+        },
+        {
+          "key": "11_CR50",
+          "doi-asserted-by": "publisher",
+          "first-page": "219",
+          "DOI": "10.1016/0167-6377(92)90028-2",
+          "volume": "11",
+          "author": "O. Martin",
+          "year": "1992",
+          "unstructured": "O. Martin, S.W. Otto and E.W. Felten (1992) Large-step Markov chains for the TSP incorporating local search heuristics. Operations Research Letters, 11, 219–224.",
+          "journal-title": "Operations Research Letters"
+        },
+        {
+          "issue": "1",
+          "key": "11_CR51",
+          "doi-asserted-by": "publisher",
+          "first-page": "61",
+          "DOI": "10.1162/106365600568103",
+          "volume": "8",
+          "author": "P. Merz",
+          "year": "2000",
+          "unstructured": "P. Merz and B. Freisleben (2000) Fitness landscapes, memetic algorithms and greedy operators for graph bi-partitioning. Evolutionary Computation, 8(1), 61–91.",
+          "journal-title": "Evolutionary Computation"
+        },
+        {
+          "key": "11_CR52",
+          "doi-asserted-by": "publisher",
+          "first-page": "1087",
+          "DOI": "10.1063/1.1699114",
+          "volume": "21",
+          "author": "N. Metropolis",
+          "year": "1953",
+          "unstructured": "N. Metropolis, A. Rosenbluth, M. Rosenbluth, A. Teller and M. Teller (1953) Equation of state calculations for fast computing machines. Journal of Chemical Physics, 21, 1087–1092.",
+          "journal-title": "Journal of Chemical Physics"
+        },
+        {
+          "key": "11_CR53",
+          "series-title": "Lecture Notes in Physics",
+          "volume-title": "Spin-Glass Theory and Beyond",
+          "author": "M. Mézard",
+          "year": "1987",
+          "unstructured": "M. Mézard, G. Parisi and M.A. Virasoro (1987) Spin-Glass Theory and Beyond, volume 9 of Lecture Notes in Physics. World Scientific, Singapore."
+        },
+        {
+          "key": "11_CR54",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1007/978-3-662-04131-4",
+          "volume-title": "How to Solve it: Modern Heuristics",
+          "author": "Z. Michalewicz",
+          "year": "2000",
+          "unstructured": "Z. Michalewicz and D.B. Fogel (2000) How to Solve it: Modern Heuristics. Springer-Verlag, Berlin."
+        },
+        {
+          "key": "11_CR55",
+          "doi-asserted-by": "crossref",
+          "first-page": "1097",
+          "DOI": "10.1016/S0305-0548(97)00031-2",
+          "volume": "24",
+          "author": "N. Mladenović",
+          "year": "1997",
+          "unstructured": "N. Mladenović and P. Hansen (1997) Variable neighborhood search. Computers & Operations Research, 24, 1097–1100.",
+          "journal-title": "Computers & Operations Research"
+        },
+        {
+          "key": "11_CR56",
+          "first-page": "316",
+          "volume-title": "Foundations of Genetic Algorithms",
+          "author": "H. Mühlenbein",
+          "year": "1991",
+          "unstructured": "H. Mühlenbein (1991) Evolution in time and space—the parallel genetic algorithm. In: Foundations of Genetic Algorithms. Morgan Kaufmann, San Mateo. pp. 316–337."
+        },
+        {
+          "issue": "1",
+          "key": "11_CR57",
+          "doi-asserted-by": "publisher",
+          "first-page": "91",
+          "DOI": "10.1016/0305-0483(83)90088-9",
+          "volume": "11",
+          "author": "M. Nawaz",
+          "year": "1983",
+          "unstructured": "M. Nawaz, E. Enscore Jr. and I. Ham (1983) A heuristic algorithm for the m-machine, n-job flow-shop sequencing problem. OMEGA, 11(1), 91–95.",
+          "journal-title": "OMEGA"
+        },
+        {
+          "issue": "1",
+          "key": "11_CR58",
+          "doi-asserted-by": "publisher",
+          "first-page": "231",
+          "DOI": "10.1137/S1052623497321523",
+          "volume": "10",
+          "author": "G.R. Schreiber",
+          "year": "1999",
+          "unstructured": "G.R. Schreiber and O.C. Martin (1999) Cut size statistics of graph bisection heuristics. SIAM Journal on Optimization, 10(1), 231–251.",
+          "journal-title": "SIAM Journal on Optimization"
+        },
+        {
+          "key": "11_CR59",
+          "first-page": "109",
+          "volume": "30",
+          "author": "M. Singer",
+          "year": "1997",
+          "unstructured": "M. Singer and M. Pinedo (1997) A shifting bottleneck heuristic for minimizing the total weighted tardiness in a job shop. IIE Scheduling and Logistics, 30, 109–118.",
+          "journal-title": "IIE Scheduling and Logistics"
+        },
+        {
+          "key": "11_CR60",
+          "unstructured": "T. Stützle (1998). Applying iterated local search to the permutation flow shop problem. Technical Report AIDA-98-04, FG Intellektik, TU Darmstadt, August."
+        },
+        {
+          "key": "11_CR61",
+          "unstructured": "T. Stützle (1998) Local Search Algorithms for Combinatorial Problems—Analysis, Improvements, and New Applications. PhD thesis, Darmstadt University of Technology, Department of Computer Science."
+        },
+        {
+          "key": "11_CR62",
+          "first-page": "661",
+          "volume-title": "Proceedings of PPSN-VI, volume 1917 of LNCS",
+          "author": "T. Stützle",
+          "year": "2000",
+          "unstructured": "T. Stützle, A. Grim, S. Linke and M. Rüttger (2000) A comparison of nature inspired heuristics on the traveling salesman problem. In: Deb et al. (eds.), Proceedings of PPSN-VI, volume 1917 of LNCS. Springer Verlag, Berlin, pp. 661–670."
+        },
+        {
+          "key": "11_CR63",
+          "unstructured": "T. Stützle and H.H. Hoos (2000) Analyzing the run-time behaviour of iterated local search for the TSP. Technical Report IRIDIA/2000-01, IRIDIA, Université Libre deBruxelles. Available at http://www.intellektik.informatik.tu-darmstadt.de/~tom/pub.html ."
+        },
+        {
+          "key": "11_CR64",
+          "doi-asserted-by": "publisher",
+          "first-page": "87",
+          "DOI": "10.1016/0966-8349(95)00008-6",
+          "volume": "3",
+          "author": "E.D. Taillard",
+          "year": "1995",
+          "unstructured": "E.D. Taillard (1995) Comparison of iterative searches for the quadratic assignment problem. Location Science, 3, 87–105.",
+          "journal-title": "Location Science"
+        },
+        {
+          "key": "11_CR65",
+          "doi-asserted-by": "crossref",
+          "first-page": "302",
+          "DOI": "10.1287/ijoc.8.3.302",
+          "volume": "8",
+          "author": "R.J.M. Vaessens",
+          "year": "1996",
+          "unstructured": "R.J.M. Vaessens, E.H.L. Aarts and J.K. Lenstra (1996) Job shop scheduling by local search. INFORMS Journal on Computing, 8, 302–317.",
+          "journal-title": "INFORMS Journal on Computing"
+        },
+        {
+          "key": "11_CR66",
+          "unstructured": "C. Voudouris and E. Tsang (1995) Guided Local Search. Technical Report Technical Report CSM-247, Department of Computer Science, University of Essex."
+        },
+        {
+          "issue": "2",
+          "key": "11_CR67",
+          "doi-asserted-by": "publisher",
+          "first-page": "89",
+          "DOI": "10.1002/(SICI)1099-1425(200003/04)3:2<89::AID-JOS36>3.0.CO;2-N",
+          "volume": "3",
+          "author": "Y. Yang",
+          "year": "2000",
+          "unstructured": "Y. Yang, S. Kreipl and M. Pinedo (2000) Heuristics for minimizing total weighted tardiness in flexible flow shops. Journal of Scheduling, 3(2), 89–108.",
+          "journal-title": "Journal of Scheduling"
+        }
+      ],
+      "container-title": [
+        "International Series in Operations Research &amp; Management Science",
+        "Handbook of Metaheuristics"
+      ],
+      "original-title": [],
+      "language": "en",
+      "link": [
+        {
+          "URL": "http://link.springer.com/content/pdf/10.1007/0-306-48056-5_11.pdf",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2023,
+            5,
+            6
+          ]
+        ],
+        "date-time": "2023-05-06T06:55:02Z",
+        "timestamp": 1683356102000
+      },
+      "score": 1,
+      "resource": {
+        "primary": {
+          "URL": "http://link.springer.com/10.1007/0-306-48056-5_11"
+        }
+      },
+      "subtitle": [],
+      "short-title": [],
+      "issued": {
+        "date-parts": [
+          [
+            null
+          ]
+        ]
+      },
+      "ISBN": [
+        "1402072635"
+      ],
+      "references-count": 67,
+      "URL": "https://doi.org/10.1007/0-306-48056-5_11",
+      "relation": {},
+      "subject": []
+    }
+  }
+}

@@ -1,0 +1,1856 @@
+{
+  "url": "https://api.crossref.org/works/10.1016%2Fj.asoc.2023.110545",
+  "retrieved": "2026-10-16",
+  "response": {
+    "status": "ok",
+    "message-type": "work",
+    "message-version": "1.0.0",
+    "message": {
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            10,
+            3
+          ]
+        ],
+        "date-time": "2026-10-03T16:56:54Z",
+        "timestamp": 1791046614055,
+        "version": "4.1.0"
+      },
+      "reference-count": 141,
+      "publisher": "Elsevier BV",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2023,
+                9,
+                1
+              ]
+            ],
+            "date-time": "2023-09-01T00:00:00Z",
+            "timestamp": 1693526400000
+          },
+          "content-version": "tdm",
+          "delay-in-days": 0,
+          "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+        },
+        {
+          "start": {
+            "date-parts": [
+              [
+                2023,
+                9,
+                1
+              ]
+            ],
+            "date-time": "2023-09-01T00:00:00Z",
+            "timestamp": 1693526400000
+          },
+          "content-version": "tdm",
+          "delay-in-days": 0,
+          "URL": "https://www.elsevier.com/legal/tdmrep-license"
+        },
+        {
+          "start": {
+            "date-parts": [
+              [
+                2023,
+                9,
+                1
+              ]
+            ],
+            "date-time": "2023-09-01T00:00:00Z",
+            "timestamp": 1693526400000
+          },
+          "content-version": "stm-asf",
+          "delay-in-days": 0,
+          "URL": "https://doi.org/10.15223/policy-017"
+        },
+        {
+          "start": {
+            "date-parts": [
+              [
+                2023,
+                9,
+                1
+              ]
+            ],
+            "date-time": "2023-09-01T00:00:00Z",
+            "timestamp": 1693526400000
+          },
+          "content-version": "stm-asf",
+          "delay-in-days": 0,
+          "URL": "https://doi.org/10.15223/policy-037"
+        },
+        {
+          "start": {
+            "date-parts": [
+              [
+                2023,
+                9,
+                1
+              ]
+            ],
+            "date-time": "2023-09-01T00:00:00Z",
+            "timestamp": 1693526400000
+          },
+          "content-version": "stm-asf",
+          "delay-in-days": 0,
+          "URL": "https://doi.org/10.15223/policy-012"
+        },
+        {
+          "start": {
+            "date-parts": [
+              [
+                2023,
+                9,
+                1
+              ]
+            ],
+            "date-time": "2023-09-01T00:00:00Z",
+            "timestamp": 1693526400000
+          },
+          "content-version": "stm-asf",
+          "delay-in-days": 0,
+          "URL": "https://doi.org/10.15223/policy-029"
+        },
+        {
+          "start": {
+            "date-parts": [
+              [
+                2023,
+                9,
+                1
+              ]
+            ],
+            "date-time": "2023-09-01T00:00:00Z",
+            "timestamp": 1693526400000
+          },
+          "content-version": "stm-asf",
+          "delay-in-days": 0,
+          "URL": "https://doi.org/10.15223/policy-004"
+        }
+      ],
+      "funder": [
+        {
+          "DOI": "10.13039/501100017691",
+          "name": "Guangxi Key Research and Development Program",
+          "doi-asserted-by": "publisher",
+          "award": [
+            "202206030003"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "202206030003"
+              ]
+            }
+          ],
+          "id": [
+            {
+              "id": "10.13039/501100017691",
+              "id-type": "DOI",
+              "asserted-by": "publisher"
+            }
+          ]
+        },
+        {
+          "DOI": "10.13039/501100021171",
+          "name": "Basic and Applied Basic Research Foundation of Guangdong Province",
+          "doi-asserted-by": "publisher",
+          "award": [
+            "2021A151511073"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "2021A151511073"
+              ]
+            }
+          ],
+          "id": [
+            {
+              "id": "10.13039/501100021171",
+              "id-type": "DOI",
+              "asserted-by": "publisher"
+            }
+          ]
+        },
+        {
+          "DOI": "10.13039/501100021171",
+          "name": "Basic and Applied Basic Research Foundation of Guangdong Province",
+          "doi-asserted-by": "publisher",
+          "award": [
+            "202201011236"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "202201011236"
+              ]
+            }
+          ],
+          "id": [
+            {
+              "id": "10.13039/501100021171",
+              "id-type": "DOI",
+              "asserted-by": "publisher"
+            }
+          ]
+        },
+        {
+          "DOI": "10.13039/501100021171",
+          "name": "Basic and Applied Basic Research Foundation of Guangdong Province",
+          "doi-asserted-by": "publisher",
+          "award": [
+            "2022A1515011297"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "2022A1515011297"
+              ]
+            }
+          ],
+          "id": [
+            {
+              "id": "10.13039/501100021171",
+              "id-type": "DOI",
+              "asserted-by": "publisher"
+            }
+          ]
+        }
+      ],
+      "content-domain": {
+        "domain": [
+          "elsevier.com",
+          "sciencedirect.com"
+        ],
+        "crossmark-restriction": true
+      },
+      "short-container-title": [
+        "Applied Soft Computing"
+      ],
+      "published-print": {
+        "date-parts": [
+          [
+            2023,
+            9
+          ]
+        ]
+      },
+      "DOI": "10.1016/j.asoc.2023.110545",
+      "type": "journal-article",
+      "created": {
+        "date-parts": [
+          [
+            2023,
+            6,
+            19
+          ]
+        ],
+        "date-time": "2023-06-19T02:13:56Z",
+        "timestamp": 1687140836000
+      },
+      "page": "110545",
+      "update-policy": "https://doi.org/10.1016/elsevier_cm_policy",
+      "source": "Crossref",
+      "is-referenced-by-count": 42,
+      "special_numbering": "C",
+      "title": [
+        "What makes evolutionary multi-task optimization better: A comprehensive survey"
+      ],
+      "prefix": "10.1016",
+      "volume": "145",
+      "author": [
+        {
+          "given": "Hong",
+          "family": "Zhao",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Xuhui",
+          "family": "Ning",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Xiaotao",
+          "family": "Liu",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Chao",
+          "family": "Wang",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Jing",
+          "family": "Liu",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "78",
+      "reference": [
+        {
+          "issue": "1",
+          "key": "10.1016/j.asoc.2023.110545_b1",
+          "doi-asserted-by": "crossref",
+          "first-page": "3",
+          "DOI": "10.1109/4235.585888",
+          "article-title": "Evolutionary computation: Comments on the history and current state",
+          "volume": "1",
+          "author": "Back",
+          "year": "1997",
+          "journal-title": "IEEE Trans. Evol. Comput."
+        },
+        {
+          "key": "10.1016/j.asoc.2023.110545_b2",
+          "first-page": "601",
+          "article-title": "An adaptive hybrid differential evolution algorithm for single objective optimization",
+          "volume": "231",
+          "author": "Asafuddoula",
+          "year": "2014",
+          "journal-title": "Appl. Math. Comput."
+        },
+        {
+          "issue": "3",
+          "key": "10.1016/j.asoc.2023.110545_b3",
+          "doi-asserted-by": "crossref",
+          "first-page": "221",
+          "DOI": "10.1162/evco.1994.2.3.221",
+          "article-title": "Muiltiobjective optimization using nondominated sorting in genetic algorithms",
+          "volume": "2",
+          "author": "Srinivas",
+          "year": "1994",
+          "journal-title": "Evol. Comput."
+        },
+        {
+          "key": "10.1016/j.asoc.2023.110545_b4",
+          "doi-asserted-by": "crossref",
+          "first-page": "131",
+          "DOI": "10.1016/j.ins.2012.02.011",
+          "article-title": "Niching particle swarm optimization with local search for multi-modal optimization",
+          "volume": "197",
+          "author": "Qu",
+          "year": "2012",
+          "journal-title": "Inform. Sci."
+        },
+        {
+          "key": "10.1016/j.asoc.2023.110545_b5",
+          "series-title": "Soft Computing: Methodologies and Applications",
+          "doi-asserted-by": "crossref",
+          "first-page": "113",
+          "DOI": "10.1007/3-540-32400-3_9",
+          "article-title": "An ALife-inspired evolutionary algorithm for dynamic multiobjective optimization problems",
+          "author": "Amato",
+          "year": "2005"
+        },
+        {
+          "issue": "1",
+          "key": "10.1016/j.asoc.2023.110545_b6",
+          "doi-asserted-by": "crossref",
+          "first-page": "51",
+          "DOI": "10.1109/TETCI.2017.2769104",
+          "article-title": "Insights on transfer optimization: Because experience is the best teacher",
+          "volume": "2",
+          "author": "Gupta",
+          "year": "2017",
+          "journal-title": "IEEE Trans. Emerging Top Comput. Intell."
+        },
+        {
+          "issue": "3",
+          "key": "10.1016/j.asoc.2023.110545_b7",
+          "doi-asserted-by": "crossref",
+          "first-page": "343",
+          "DOI": "10.1109/TEVC.2015.2458037",
+          "article-title": "Multifactorial evolution: Toward evolutionary multitasking",
+          "volume": "20",
+          "author": "Gupta",
+          "year": "2015",
+          "journal-title": "IEEE Trans. Evol. Comput."
+        },
+        {
+          "issue": "1",
+          "key": "10.1016/j.asoc.2023.110545_b8",
+          "doi-asserted-by": "crossref",
+          "first-page": "41",
+          "DOI": "10.1023/A:1007379606734",
+          "article-title": "Multitask learning",
+          "volume": "28",
+          "author": "Caruana",
+          "year": "1997",
+          "journal-title": "Mach. Learn."
+        },
+        {
+          "key": "10.1016/j.asoc.2023.110545_b9",
+          "series-title": "Transfer Learning",
+          "author": "Torrey",
+          "year": "2010"
+        },
+        {
+          "key": "10.1016/j.asoc.2023.110545_b10",
+          "series-title": "Proceedings of the 2019 3rd High Performance Computing and Cluster Technologies Conference",
+          "first-page": "44",
+          "article-title": "Improve theoretical upper bound of jumpk function by evolutionary multitasking",
+          "author": "Lian",
+          "year": "2019"
+        },
+        {
+          "issue": "8",
+          "key": "10.1016/j.asoc.2023.110545_b11",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1109/TCYB.2021.3052509",
+          "article-title": "From multitask gradient descent to gradient-free evolutionary multitasking: a proof of faster convergence",
+          "volume": "52",
+          "author": "Bai",
+          "year": "2022",
+          "journal-title": "IEEE Trans. Cybern."
+        },
+        {
+          "key": "10.1016/j.asoc.2023.110545_b12",
+          "series-title": "World Congress on Services",
+          "first-page": "130",
+          "article-title": "An evolutionary multitasking algorithm for cloud computing service composition",
+          "author": "Bao",
+          "year": "2018"
+        },
+        {
+          "issue": "2",
+          "key": "10.1016/j.asoc.2023.110545_b13",
+          "doi-asserted-by": "crossref",
+          "first-page": "125",
+          "DOI": "10.1007/s12559-016-9395-7",
+          "article-title": "Evolutionary multitasking: a computer science view of cognitive multitasking",
+          "volume": "8",
+          "author": "Ong",
+          "year": "2016",
+          "journal-title": "Cogn. Comput."
+        },
+        {
+          "key": "10.1016/j.asoc.2023.110545_b14",
+          "series-title": "International Conference on Neural Information Processing",
+          "first-page": "37",
+          "article-title": "Evolutionary multi-task learning for modular training of feedforward neural networks",
+          "author": "Chandra",
+          "year": "2016"
+        },
+        {
+          "issue": "8",
+          "key": "10.1016/j.asoc.2023.110545_b15",
+          "doi-asserted-by": "crossref",
+          "first-page": "864",
+          "DOI": "10.3390/math9080864",
+          "article-title": "Multi-task optimization and multi-task evolutionary computation in the past five years: A brief review",
+          "volume": "9",
+          "author": "Xu",
+          "year": "2021",
+          "journal-title": "Mathematics"
+        },
+        {
+          "issue": "1",
+          "key": "10.1016/j.asoc.2023.110545_b16",
+          "doi-asserted-by": "crossref",
+          "first-page": "22",
+          "DOI": "10.1109/MCI.2020.3039066",
+          "article-title": "Evolutionary transfer optimization-a new frontier in evolutionary computation research",
+          "volume": "16",
+          "author": "Tan",
+          "year": "2021",
+          "journal-title": "IEEE Comput. Intell. Mag."
+        },
+        {
+          "key": "10.1016/j.asoc.2023.110545_b17",
+          "doi-asserted-by": "crossref",
+          "first-page": "1",
+          "DOI": "10.1007/s12559-022-10012-8",
+          "article-title": "Evolutionary multitask optimization: a methodological overview, challenges, and future research directions",
+          "volume": "14",
+          "author": "Osaba",
+          "year": "2022",
+          "journal-title": "Cogn. Comput."
+        },
+        {
+          "key": "10.1016/j.asoc.2023.110545_b18",
+          "article-title": "A review on evolutionary multi-task optimization: Trends and challenges",
+          "author": "Wei",
+          "year": "2021",
+          "journal-title": "IEEE Trans. Evol. Comput."
+        },
+        {
+          "issue": "2",
+          "key": "10.1016/j.asoc.2023.110545_b19",
+          "doi-asserted-by": "crossref",
+          "first-page": "49",
+          "DOI": "10.1109/MCI.2022.3155332",
+          "article-title": "Half a dozen real-world applications of evolutionary multitasking, and more",
+          "volume": "17",
+          "author": "Gupta",
+          "year": "2022",
+          "journal-title": "IEEE Comput. Intell. Mag."
+        },
+        {
+          "key": "10.1016/j.asoc.2023.110545_b20",
+          "series-title": "Evolutionary multitasking for single-objective continuous optimization: Benchmark problems, performance metric, and baseline results",
+          "author": "Da",
+          "year": "2017"
+        },
+        {
+          "key": "10.1016/j.asoc.2023.110545_b21",
+          "series-title": "International Conference on Parallel Problem Solving from Nature",
+          "first-page": "634",
+          "article-title": "Analysis on the efficiency of multifactorial evolutionary algorithms",
+          "author": "Huang",
+          "year": "2020"
+        },
+        {
+          "issue": "1",
+          "key": "10.1016/j.asoc.2023.110545_b22",
+          "doi-asserted-by": "crossref",
+          "first-page": "69",
+          "DOI": "10.1109/TEVC.2019.2906927",
+          "article-title": "Multifactorial evolutionary algorithm with online transfer parameter estimation: MFEA-II",
+          "volume": "24",
+          "author": "Bali",
+          "year": "2019",
+          "journal-title": "IEEE Trans. Evol. Comput."
+        },
+        {
+          "key": "10.1016/j.asoc.2023.110545_b23",
+          "series-title": "2017 IEEE Congress on Evolutionary Computation",
+          "first-page": "921",
+          "article-title": "An empirical study of multifactorial PSO and multifactorial DE",
+          "author": "Feng",
+          "year": "2017"
+        },
+        {
+          "issue": "9",
+          "key": "10.1016/j.asoc.2023.110545_b24",
+          "doi-asserted-by": "crossref",
+          "first-page": "3457",
+          "DOI": "10.1109/TCYB.2018.2845361",
+          "article-title": "Evolutionary multitasking via explicit autoencoding",
+          "volume": "49",
+          "author": "Feng",
+          "year": "2018",
+          "journal-title": "IEEE Trans. Cybern."
+        },
+        {
+          "key": "10.1016/j.asoc.2023.110545_b25",
+          "series-title": "2017 13th International Conference on Computational Intelligence and Security",
+          "first-page": "197",
+          "article-title": "Evolutionary multi-tasking single-objective optimization based on cooperative co-evolutionary memetic algorithm",
+          "author": "Chen",
+          "year": "2017"
+        },
+        {
+          "key": "10.1016/j.asoc.2023.110545_b26",
+          "doi-asserted-by": "crossref",
+          "first-page": "13",
+          "DOI": "10.1016/j.engappai.2017.05.008",
+          "article-title": "Coevolutionary multitasking for concurrent global optimization: With case studies in complex engineering design",
+          "volume": "64",
+          "author": "Cheng",
+          "year": "2017",
+          "journal-title": "Eng. Appl. Artif. Intell."
+        },
+        {
+          "key": "10.1016/j.asoc.2023.110545_b27",
+          "series-title": "2019 IEEE Congress on Evolutionary Computation",
+          "first-page": "3404",
+          "article-title": "Multifactorial optimization using artificial bee colony and its application to car structure design optimization",
+          "author": "Yokoya",
+          "year": "2019"
+        },
+        {
+          "key": "10.1016/j.asoc.2023.110545_b28",
+          "doi-asserted-by": "crossref",
+          "first-page": "325",
+          "DOI": "10.1016/j.ins.2020.05.132",
+          "article-title": "A multifactorial optimization paradigm for linkage tree genetic algorithm",
+          "volume": "540",
+          "author": "Huynh",
+          "year": "2020",
+          "journal-title": "Inform. Sci."
+        },
+        {
+          "issue": "11",
+          "key": "10.1016/j.asoc.2023.110545_b29",
+          "doi-asserted-by": "crossref",
+          "first-page": "4492",
+          "DOI": "10.1109/TSMC.2018.2853719",
+          "article-title": "Multifactorial genetic programming for symbolic regression problems",
+          "volume": "50",
+          "author": "Zhong",
+          "year": "2018",
+          "journal-title": "IEEE Trans. Syst. Man Cybern."
+        },
+        {
+          "key": "10.1016/j.asoc.2023.110545_b30",
+          "series-title": "Proceedings of the Genetic and Evolutionary Computation Conference Companion",
+          "first-page": "255",
+          "article-title": "Multitask evolution with Cartesian genetic programming",
+          "author": "Scott",
+          "year": "2017"
+        },
+        {
+          "key": "10.1016/j.asoc.2023.110545_b31",
+          "series-title": "2020 IEEE Congress on Evolutionary Computation",
+          "first-page": "1",
+          "article-title": "Multifactorial cellular genetic algorithm (mfcga): Algorithmic design, performance comparison and genetic transferability analysis",
+          "author": "Osaba",
+          "year": "2020"
+        },
+        {
+          "key": "10.1016/j.asoc.2023.110545_b32",
+          "series-title": "2020 IEEE 23rd International Conference on Intelligent Transportation Systems",
+          "first-page": "1",
+          "article-title": "On the transferability of knowledge among vehicle routing problems by using cellular evolutionary multitasking",
+          "author": "Osaba",
+          "year": "2022"
+        },
+        {
+          "key": "10.1016/j.asoc.2023.110545_b33",
+          "doi-asserted-by": "crossref",
+          "first-page": "577",
+          "DOI": "10.1016/j.ins.2021.05.005",
+          "article-title": "AT-MFCGA: An adaptive transfer-guided multifactorial cellular genetic algorithm for evolutionary multitasking",
+          "volume": "570",
+          "author": "Osaba",
+          "year": "2021",
+          "journal-title": "Inform. Sci."
+        },
+        {
+          "key": "10.1016/j.asoc.2023.110545_b34",
+          "doi-asserted-by": "crossref",
+          "first-page": "109",
+          "DOI": "10.3389/fnbot.2019.00109",
+          "article-title": "A fireworks algorithm based on transfer spark for evolutionary multitasking",
+          "volume": "13",
+          "author": "Xu",
+          "year": "2020",
+          "journal-title": "Front. Neurorobotics"
+        },
+        {
+          "issue": "1",
+          "key": "10.1016/j.asoc.2023.110545_b35",
+          "doi-asserted-by": "crossref",
+          "first-page": "35",
+          "DOI": "10.1109/TEVC.2020.2991717",
+          "article-title": "A unified framework of graph-based evolutionary multitasking hyper-heuristic",
+          "volume": "25",
+          "author": "Hao",
+          "year": "2020",
+          "journal-title": "IEEE Trans. Evol. Comput."
+        },
+        {
+          "key": "10.1016/j.asoc.2023.110545_b36",
+          "series-title": "Proceedings of the 2020 Genetic and Evolutionary Computation Conference",
+          "first-page": "121",
+          "article-title": "Quality diversity for multi-task optimization",
+          "author": "Mouret",
+          "year": "2020"
+        },
+        {
+          "key": "10.1016/j.asoc.2023.110545_b37",
+          "series-title": "2017 IEEE Congress on Evolutionary Computation",
+          "first-page": "1295",
+          "article-title": "Linearized domain adaptation in evolutionary multitasking",
+          "author": "Bali",
+          "year": "2017"
+        },
+        {
+          "key": "10.1016/j.asoc.2023.110545_b38",
+          "series-title": "Memetic Computation. Adaptation, Learning, and Optimization",
+          "doi-asserted-by": "crossref",
+          "first-page": "83",
+          "DOI": "10.1007/978-3-030-02729-2_6",
+          "article-title": "Multitask knowledge transfer across problems",
+          "author": "Gupta",
+          "year": "2019"
+        },
+        {
+          "issue": "4",
+          "key": "10.1016/j.asoc.2023.110545_b39",
+          "doi-asserted-by": "crossref",
+          "first-page": "719",
+          "DOI": "10.1109/TEVC.2021.3131236",
+          "article-title": "A meta-knowledge transfer-based differential evolution for multitask optimization",
+          "volume": "26",
+          "author": "Li",
+          "year": "2021",
+          "journal-title": "IEEE Trans. Evol. Comput."
+        },
+        {
+          "key": "10.1016/j.asoc.2023.110545_b40",
+          "series-title": "Proceedings of the Genetic and Evolutionary Computation Conference Companion",
+          "first-page": "229",
+          "article-title": "A study of similarity measure between tasks for multifactorial evolutionary algorithm",
+          "author": "Zhou",
+          "year": "2018"
+        },
+        {
+          "issue": "4",
+          "key": "10.1016/j.asoc.2023.110545_b41",
+          "doi-asserted-by": "crossref",
+          "first-page": "1784",
+          "DOI": "10.1109/TCYB.2020.2981733",
+          "article-title": "Cognizant multitasking in multiobjective multifactorial evolution: MO-MFEA-II",
+          "volume": "51",
+          "author": "Bali",
+          "year": "2020",
+          "journal-title": "IEEE Trans. Cybern."
+        },
+        {
+          "issue": "1",
+          "key": "10.1016/j.asoc.2023.110545_b42",
+          "doi-asserted-by": "crossref",
+          "first-page": "16",
+          "DOI": "10.1109/TEVC.2019.2904696",
+          "article-title": "Self-regulated evolutionary multitask optimization",
+          "volume": "24",
+          "author": "Zheng",
+          "year": "2019",
+          "journal-title": "IEEE Trans. Evol. Comput."
+        },
+        {
+          "issue": "6",
+          "key": "10.1016/j.asoc.2023.110545_b43",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1109/TCYB.2020.3029176",
+          "article-title": "Learning task relationships in evolutionary multitasking for multiobjective continuous optimization",
+          "volume": "52",
+          "author": "Chen",
+          "year": "2020",
+          "journal-title": "IEEE Trans. Cybern."
+        },
+        {
+          "key": "10.1016/j.asoc.2023.110545_b44",
+          "series-title": "2021 IEEE Congress on Evolutionary Computation",
+          "first-page": "1696",
+          "article-title": "An adaptive multi-objective multifactorial evolutionary algorithm based on mixture Gaussian distribution",
+          "author": "Xu",
+          "year": "2021"
+        },
+        {
+          "issue": "4",
+          "key": "10.1016/j.asoc.2023.110545_b45",
+          "doi-asserted-by": "crossref",
+          "first-page": "38",
+          "DOI": "10.1109/MCI.2021.3108311",
+          "article-title": "Improving evolutionary multitasking optimization by leveraging inter-task gene similarity and mirror transformation",
+          "volume": "16",
+          "author": "Ma",
+          "year": "2021",
+          "journal-title": "IEEE Comput. Intell. Mag."
+        },
+        {
+          "issue": "2",
+          "key": "10.1016/j.asoc.2023.110545_b46",
+          "doi-asserted-by": "crossref",
+          "first-page": "304",
+          "DOI": "10.1109/TEVC.2021.3068157",
+          "article-title": "Solving multitask optimization problems with adaptive knowledge transfer via anomaly detection",
+          "volume": "26",
+          "author": "Wang",
+          "year": "2021",
+          "journal-title": "IEEE Trans. Evol. Comput."
+        },
+        {
+          "issue": "6",
+          "key": "10.1016/j.asoc.2023.110545_b47",
+          "doi-asserted-by": "crossref",
+          "first-page": "1050",
+          "DOI": "10.1109/TFUZZ.2020.2968863",
+          "article-title": "Multitasking genetic algorithm (MTGA) for fuzzy system optimization",
+          "volume": "28",
+          "author": "Wu",
+          "year": "2020",
+          "journal-title": "IEEE Trans. Fuzzy Syst."
+        },
+        {
+          "issue": "1",
+          "key": "10.1016/j.asoc.2023.110545_b48",
+          "doi-asserted-by": "crossref",
+          "first-page": "145",
+          "DOI": "10.1109/TEVC.2021.3098523",
+          "article-title": "Self-adjusting multitask particle swarm optimization",
+          "volume": "26",
+          "author": "Han",
+          "year": "2021",
+          "journal-title": "IEEE Trans. Evol. Comput."
+        },
+        {
+          "key": "10.1016/j.asoc.2023.110545_b49",
+          "doi-asserted-by": "crossref",
+          "first-page": "874",
+          "DOI": "10.1016/j.ins.2021.09.021",
+          "article-title": "Evolutionary multi-task optimization with hybrid knowledge transfer strategy",
+          "volume": "580",
+          "author": "Cai",
+          "year": "2021",
+          "journal-title": "Inform. Sci."
+        },
+        {
+          "issue": "2",
+          "key": "10.1016/j.asoc.2023.110545_b50",
+          "doi-asserted-by": "crossref",
+          "first-page": "262",
+          "DOI": "10.1109/TEVC.2020.3023480",
+          "article-title": "Regularized evolutionary multitask optimization: Learning to intertask transfer in aligned subspace",
+          "volume": "25",
+          "author": "Tang",
+          "year": "2020",
+          "journal-title": "IEEE Trans. Evol. Comput."
+        },
+        {
+          "key": "10.1016/j.asoc.2023.110545_b51",
+          "doi-asserted-by": "crossref",
+          "first-page": "1555",
+          "DOI": "10.1016/j.ins.2019.10.066",
+          "article-title": "Multifactorial optimization via explicit multipopulation evolutionary framework",
+          "volume": "512",
+          "author": "Li",
+          "year": "2020",
+          "journal-title": "Inform. Sci."
+        },
+        {
+          "key": "10.1016/j.asoc.2023.110545_b52",
+          "series-title": "Proceedings of the Genetic and Evolutionary Computation Conference Companion",
+          "first-page": "215",
+          "article-title": "Multipopulation evolution framework for multifactorial optimization",
+          "author": "Li",
+          "year": "2018"
+        },
+        {
+          "key": "10.1016/j.asoc.2023.110545_b53",
+          "series-title": "2019 IEEE Congress on Evolutionary Computation",
+          "first-page": "1914",
+          "article-title": "Differential evolutionary multi-task optimization",
+          "author": "Zheng",
+          "year": "2019"
+        },
+        {
+          "key": "10.1016/j.asoc.2023.110545_b54",
+          "series-title": "2018 IEEE Congress on Evolutionary Computation",
+          "first-page": "1",
+          "article-title": "Surrogate-assisted multi-tasking memetic algorithm",
+          "author": "Liu",
+          "year": "2018"
+        },
+        {
+          "key": "10.1016/j.asoc.2023.110545_b55",
+          "series-title": "2018 IEEE Congress on Evolutionary Computation",
+          "first-page": "1",
+          "article-title": "A fast memetic multi-objective differential evolution for multi-tasking optimization",
+          "author": "Chen",
+          "year": "2018"
+        },
+        {
+          "issue": "4",
+          "key": "10.1016/j.asoc.2023.110545_b56",
+          "article-title": "Multiobjective multitasking optimization with subspace distribution alignment and decision variable transfer",
+          "volume": "6",
+          "author": "Gao",
+          "year": "2021",
+          "journal-title": "IEEE Trans. Emerging Top. Comput. Intell."
+        },
+        {
+          "key": "10.1016/j.asoc.2023.110545_b57",
+          "series-title": "2020 2nd International Conference on Industrial Artificial Intelligence",
+          "first-page": "1",
+          "article-title": "Multi-objective multifactorial evolutionary algorithm enhanced with the weighting helper-task",
+          "author": "Zheng",
+          "year": "2022"
+        },
+        {
+          "key": "10.1016/j.asoc.2023.110545_b58",
+          "series-title": "2020 IEEE Congress on Evolutionary Computation",
+          "first-page": "1",
+          "article-title": "Large-scale optimization via evolutionary multitasking assisted random embedding",
+          "author": "Feng",
+          "year": "2020"
+        },
+        {
+          "issue": "8",
+          "key": "10.1016/j.asoc.2023.110545_b59",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1109/TCYB.2021.3050516",
+          "article-title": "Enhanced multifactorial evolutionary algorithm with meme helper-tasks",
+          "volume": "52",
+          "author": "Ma",
+          "year": "2021",
+          "journal-title": "IEEE Trans. Cybern."
+        },
+        {
+          "issue": "4",
+          "key": "10.1016/j.asoc.2023.110545_b60",
+          "doi-asserted-by": "crossref",
+          "first-page": "1930",
+          "DOI": "10.1109/TETC.2019.2945775",
+          "article-title": "Surrogate-assisted evolutionary framework with adaptive knowledge transfer for multi-task optimization",
+          "volume": "9",
+          "author": "Huang",
+          "year": "2019",
+          "journal-title": "IEEE Trans. Emerging Top. Comput."
+        },
+        {
+          "key": "10.1016/j.asoc.2023.110545_b61",
+          "doi-asserted-by": "crossref",
+          "unstructured": "E.O. Scott, K.A. De Jong, Automating knowledge transfer with multi-task optimization, in: 2019 IEEE Congress on Evolutionary Computation, CEC, 2019, pp. 2252–2259.",
+          "DOI": "10.1109/CEC.2019.8790224"
+        },
+        {
+          "issue": "6",
+          "key": "10.1016/j.asoc.2023.110545_b62",
+          "doi-asserted-by": "crossref",
+          "first-page": "3238",
+          "DOI": "10.1109/TCYB.2020.2969025",
+          "article-title": "An effective knowledge transfer approach for multiobjective multitasking optimization",
+          "volume": "51",
+          "author": "Lin",
+          "year": "2020",
+          "journal-title": "IEEE Trans. Cybern."
+        },
+        {
+          "issue": "5",
+          "key": "10.1016/j.asoc.2023.110545_b63",
+          "doi-asserted-by": "crossref",
+          "first-page": "824",
+          "DOI": "10.1109/TEVC.2019.2962747",
+          "article-title": "Multiobjective multitasking optimization based on incremental learning",
+          "volume": "24",
+          "author": "Lin",
+          "year": "2019",
+          "journal-title": "IEEE Trans. Evol. Comput."
+        },
+        {
+          "key": "10.1016/j.asoc.2023.110545_b64",
+          "article-title": "A multi-objective multitask optimization algorithm using transfer rank",
+          "author": "Chen",
+          "year": "2022",
+          "journal-title": "IEEE Trans. Evol. Comput."
+        },
+        {
+          "issue": "2",
+          "key": "10.1016/j.asoc.2023.110545_b65",
+          "doi-asserted-by": "crossref",
+          "first-page": "300",
+          "DOI": "10.1109/TETCI.2021.3051970",
+          "article-title": "Multi-task particle swarm optimization with dynamic neighbor and level-based inter-task learning",
+          "volume": "6",
+          "author": "Tang",
+          "year": "2021",
+          "journal-title": "IEEE Trans. Emerging Top. Comput. Intell."
+        },
+        {
+          "key": "10.1016/j.asoc.2023.110545_b66",
+          "series-title": "2019 IEEE Congress on Evolutionary Computation",
+          "first-page": "1541",
+          "article-title": "Towards effective mutation for knowledge transfer in multifactorial differential evolution",
+          "author": "Zhou",
+          "year": "2019"
+        },
+        {
+          "key": "10.1016/j.asoc.2023.110545_b67",
+          "series-title": "2019 IEEE Congress on Evolutionary Computation",
+          "first-page": "1898",
+          "article-title": "Multifactorial differential evolution with opposition-based learning for multi-tasking optimization",
+          "author": "Yu",
+          "year": "2019"
+        },
+        {
+          "issue": "5",
+          "key": "10.1016/j.asoc.2023.110545_b68",
+          "doi-asserted-by": "crossref",
+          "first-page": "2563",
+          "DOI": "10.1109/TCYB.2020.2974100",
+          "article-title": "Toward adaptive knowledge transfer in multifactorial evolutionary computation",
+          "volume": "51",
+          "author": "Zhou",
+          "year": "2020",
+          "journal-title": "IEEE Trans. Cybern."
+        },
+        {
+          "key": "10.1016/j.asoc.2023.110545_b69",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1016/j.asoc.2021.108071",
+          "article-title": "An information entropy-based evolutionary computation for multi-factorial optimization",
+          "volume": "114",
+          "author": "Lim",
+          "year": "2022",
+          "journal-title": "Appl. Soft Comput."
+        },
+        {
+          "issue": "5",
+          "key": "10.1016/j.asoc.2023.110545_b70",
+          "doi-asserted-by": "crossref",
+          "first-page": "760",
+          "DOI": "10.1109/TEVC.2017.2682274",
+          "article-title": "Autoencoding evolutionary search with learning across heterogeneous problems",
+          "volume": "21",
+          "author": "Feng",
+          "year": "2017",
+          "journal-title": "IEEE Trans. Evol. Comput."
+        },
+        {
+          "key": "10.1016/j.asoc.2023.110545_b71",
+          "series-title": "2017 IEEE 56th Annual Conference on Decision and Control",
+          "first-page": "76",
+          "article-title": "Two-stage assortative mating for multi-objective multifactorial evolutionary optimization",
+          "author": "Yang",
+          "year": "2017"
+        },
+        {
+          "key": "10.1016/j.asoc.2023.110545_b72",
+          "series-title": "2019 IEEE Congress on Evolutionary Computation",
+          "first-page": "2824",
+          "article-title": "A multi-objective multi-factorial evolutionary algorithm with reference-point-based approach",
+          "author": "Binh",
+          "year": "2019"
+        },
+        {
+          "key": "10.1016/j.asoc.2023.110545_b73",
+          "doi-asserted-by": "crossref",
+          "unstructured": "J. Tang, Y. Chen, Z. Deng, Y. Xiang, C.P. Joy, A Group-based Approach to Improve Multifactorial Evolutionary Algorithm, in: IJCAI, 2018, pp. 3870–3876.",
+          "DOI": "10.24963/ijcai.2018/538"
+        },
+        {
+          "key": "10.1016/j.asoc.2023.110545_b74",
+          "doi-asserted-by": "crossref",
+          "first-page": "1408",
+          "DOI": "10.3389/fnins.2019.01408",
+          "article-title": "A two-level transfer learning algorithm for evolutionary multitasking",
+          "volume": "13",
+          "author": "Ma",
+          "year": "2020",
+          "journal-title": "Front. Neurosci."
+        },
+        {
+          "issue": "8",
+          "key": "10.1016/j.asoc.2023.110545_b75",
+          "doi-asserted-by": "crossref",
+          "first-page": "2449",
+          "DOI": "10.1007/s40815-020-00954-2",
+          "article-title": "A multitasking genetic algorithm for mamdani fuzzy system with fully overlapping triangle membership functions",
+          "volume": "22",
+          "author": "Zhang",
+          "year": "2020",
+          "journal-title": "Int. J. Fuzzy Syst."
+        },
+        {
+          "key": "10.1016/j.asoc.2023.110545_b76",
+          "series-title": "2018 IEEE Congress on Evolutionary Computation",
+          "first-page": "1",
+          "article-title": "A guided differential evolutionary multi-tasking with powell search method for solving multi-objective continuous optimization",
+          "author": "Tuan",
+          "year": "2018"
+        },
+        {
+          "key": "10.1016/j.asoc.2023.110545_b77",
+          "doi-asserted-by": "crossref",
+          "first-page": "215",
+          "DOI": "10.1016/j.ins.2021.09.007",
+          "article-title": "Cultural transmission based multi-objective evolution strategy for evolutionary multitasking",
+          "volume": "582",
+          "author": "Xu",
+          "year": "2022",
+          "journal-title": "Inform. Sci."
+        },
+        {
+          "key": "10.1016/j.asoc.2023.110545_b78",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1016/j.knosys.2019.105294",
+          "article-title": "Evolutionary multitasking fuzzy cognitive map learning",
+          "volume": "192",
+          "author": "Shen",
+          "year": "2020",
+          "journal-title": "Knowl.-Based Syst."
+        },
+        {
+          "key": "10.1016/j.asoc.2023.110545_b79",
+          "series-title": "2019 IEEE Symposium Series on Computational Intelligence",
+          "first-page": "3039",
+          "article-title": "Multitasking differential evolution with difference vector sharing mechanism",
+          "author": "Cai",
+          "year": "2019"
+        },
+        {
+          "issue": "2",
+          "key": "10.1016/j.asoc.2023.110545_b80",
+          "doi-asserted-by": "crossref",
+          "first-page": "1663",
+          "DOI": "10.1007/s40747-021-00624-2",
+          "article-title": "Multiobjective multitasking optimization assisted by multidirectional prediction method",
+          "volume": "8",
+          "author": "Dang",
+          "year": "2022",
+          "journal-title": "Complex Intell. Syst."
+        },
+        {
+          "key": "10.1016/j.asoc.2023.110545_b81",
+          "doi-asserted-by": "crossref",
+          "first-page": "540",
+          "DOI": "10.1016/j.ins.2021.12.014",
+          "article-title": "Multi-objective evolutionary multi-tasking algorithm using cross-dimensional and prediction-based knowledge transfer",
+          "volume": "586",
+          "author": "Chen",
+          "year": "2022",
+          "journal-title": "Inform. Sci."
+        },
+        {
+          "key": "10.1016/j.asoc.2023.110545_b82",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1016/j.eswa.2019.07.015",
+          "article-title": "A hybrid of genetic transform and hyper-rectangle search strategies for evolutionary multi-tasking",
+          "volume": "138",
+          "author": "Liang",
+          "year": "2019",
+          "journal-title": "Expert Syst. Appl."
+        },
+        {
+          "issue": "4",
+          "key": "10.1016/j.asoc.2023.110545_b83",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1109/TCYB.2020.2980888",
+          "article-title": "Evolutionary multitasking for multiobjective optimization with subspace alignment and adaptive differential evolution",
+          "volume": "52",
+          "author": "Liang",
+          "year": "2020",
+          "journal-title": "IEEE Trans. Cybern."
+        },
+        {
+          "issue": "7",
+          "key": "10.1016/j.asoc.2023.110545_b84",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1109/TCYB.2020.3043509",
+          "article-title": "A multifactorial optimization framework based on adaptive intertask coordinate system",
+          "volume": "52",
+          "author": "Tang",
+          "year": "2021",
+          "journal-title": "IEEE Trans. Cybern."
+        },
+        {
+          "key": "10.1016/j.asoc.2023.110545_b85",
+          "article-title": "Orthogonal transfer for multitask optimization",
+          "author": "Wu",
+          "year": "2022",
+          "journal-title": "IEEE Trans. Evol. Comput."
+        },
+        {
+          "issue": "7",
+          "key": "10.1016/j.asoc.2023.110545_b86",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1109/TCYB.2020.3036393",
+          "article-title": "Affine transformation-enhanced multifactorial optimization for heterogeneous problems",
+          "volume": "52",
+          "author": "Xue",
+          "year": "2020",
+          "journal-title": "IEEE Trans. Cybern."
+        },
+        {
+          "key": "10.1016/j.asoc.2023.110545_b87",
+          "article-title": "Evolutionary multitasking multilayer network reconstruction",
+          "author": "Wu",
+          "year": "2021",
+          "journal-title": "IEEE Trans. Cybern."
+        },
+        {
+          "key": "10.1016/j.asoc.2023.110545_b88",
+          "series-title": "2017 IEEE Congress on Evolutionary Computation",
+          "first-page": "2404",
+          "article-title": "Parting ways and reallocating resources in evolutionary multitasking",
+          "author": "Wen",
+          "year": "2017"
+        },
+        {
+          "issue": "5",
+          "key": "10.1016/j.asoc.2023.110545_b89",
+          "doi-asserted-by": "crossref",
+          "first-page": "858",
+          "DOI": "10.1109/TEVC.2019.2893614",
+          "article-title": "Evolutionary multitasking with dynamic resource allocating strategy",
+          "volume": "23",
+          "author": "Gong",
+          "year": "2019",
+          "journal-title": "IEEE Trans. Evol. Comput."
+        },
+        {
+          "key": "10.1016/j.asoc.2023.110545_b90",
+          "doi-asserted-by": "crossref",
+          "first-page": "18",
+          "DOI": "10.1016/j.ins.2019.09.058",
+          "article-title": "A multiobjective multifactorial optimization algorithm based on decomposition and dynamic resource allocation strategy",
+          "volume": "511",
+          "author": "Yao",
+          "year": "2020",
+          "journal-title": "Inform. Sci."
+        },
+        {
+          "issue": "2",
+          "key": "10.1016/j.asoc.2023.110545_b91",
+          "doi-asserted-by": "crossref",
+          "first-page": "278",
+          "DOI": "10.1109/TEVC.2022.3141819",
+          "article-title": "Evolutionary competitive multitasking optimization",
+          "volume": "26",
+          "author": "Li",
+          "year": "2022",
+          "journal-title": "IEEE Trans. Evol. Comput."
+        },
+        {
+          "key": "10.1016/j.asoc.2023.110545_b92",
+          "series-title": "2019 IEEE Congress on Evolutionary Computation",
+          "first-page": "2153",
+          "article-title": "A preliminary study of adaptive task selection in explicit evolutionary many-tasking",
+          "author": "Shang",
+          "year": "2019"
+        },
+        {
+          "issue": "2",
+          "key": "10.1016/j.asoc.2023.110545_b93",
+          "doi-asserted-by": "crossref",
+          "first-page": "319",
+          "DOI": "10.1109/TEVC.2021.3101697",
+          "article-title": "Evolutionary many-task optimization based on multisource knowledge transfer",
+          "volume": "26",
+          "author": "Liang",
+          "year": "2021",
+          "journal-title": "IEEE Trans. Evol. Comput."
+        },
+        {
+          "key": "10.1016/j.asoc.2023.110545_b94",
+          "series-title": "2021 IEEE Congress on Evolutionary Computation",
+          "first-page": "1664",
+          "article-title": "Multi-armed bandits for many-task evolutionary optimization",
+          "author": "Thang",
+          "year": "2021"
+        },
+        {
+          "issue": "2",
+          "key": "10.1016/j.asoc.2023.110545_b95",
+          "doi-asserted-by": "crossref",
+          "first-page": "290",
+          "DOI": "10.1109/TEVC.2021.3107435",
+          "article-title": "Evolutionary multitask optimization with adaptive knowledge transfer",
+          "volume": "26",
+          "author": "Xu",
+          "year": "2021",
+          "journal-title": "IEEE Trans. Evol. Comput."
+        },
+        {
+          "issue": "3",
+          "key": "10.1016/j.asoc.2023.110545_b96",
+          "doi-asserted-by": "crossref",
+          "first-page": "369",
+          "DOI": "10.1109/TETCI.2019.2916051",
+          "article-title": "An adaptive archive-based evolutionary framework for many-task optimization",
+          "volume": "4",
+          "author": "Chen",
+          "year": "2019",
+          "journal-title": "IEEE Trans. Emerging Top. Comput. Intell."
+        },
+        {
+          "issue": "4",
+          "key": "10.1016/j.asoc.2023.110545_b97",
+          "doi-asserted-by": "crossref",
+          "first-page": "433",
+          "DOI": "10.1007/s12293-021-00347-4",
+          "article-title": "Parameter adaptation in multifactorial evolutionary algorithm for many-task optimization",
+          "volume": "13",
+          "author": "Thang",
+          "year": "2021",
+          "journal-title": "Memet. Comput."
+        },
+        {
+          "key": "10.1016/j.asoc.2023.110545_b98",
+          "series-title": "Proceedings of the AAAI Conference on Artificial Intelligence",
+          "first-page": "4295",
+          "article-title": "Evolutionary manytasking optimization based on symbiosis in biocoenosis",
+          "author": "Liaw",
+          "year": "2019"
+        },
+        {
+          "issue": "7",
+          "key": "10.1016/j.asoc.2023.110545_b99",
+          "doi-asserted-by": "crossref",
+          "first-page": "1652",
+          "DOI": "10.1109/TCYB.2016.2554622",
+          "article-title": "Multiobjective multifactorial optimization in evolutionary multitasking",
+          "volume": "47",
+          "author": "Gupta",
+          "year": "2016",
+          "journal-title": "IEEE Trans. Cybern."
+        },
+        {
+          "issue": "1",
+          "key": "10.1016/j.asoc.2023.110545_b100",
+          "doi-asserted-by": "crossref",
+          "first-page": "44",
+          "DOI": "10.1109/TEVC.2017.2785351",
+          "article-title": "Generalized multitasking for evolutionary optimization of expensive problems",
+          "volume": "23",
+          "author": "Ding",
+          "year": "2017",
+          "journal-title": "IEEE Trans. Evol. Comput."
+        },
+        {
+          "issue": "2",
+          "key": "10.1016/j.asoc.2023.110545_b101",
+          "doi-asserted-by": "crossref",
+          "first-page": "67",
+          "DOI": "10.1109/MCI.2022.3155325",
+          "article-title": "Evolutionary multitasking AUC optimization [research frontier]",
+          "volume": "17",
+          "author": "Wang",
+          "year": "2022",
+          "journal-title": "IEEE Comput. Intell. Mag."
+        },
+        {
+          "key": "10.1016/j.asoc.2023.110545_b102",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1016/j.knosys.2020.106262",
+          "article-title": "Multi-surrogate multi-tasking optimization of expensive problems",
+          "volume": "205",
+          "author": "Liao",
+          "year": "2020",
+          "journal-title": "Knowl.-Based Syst."
+        },
+        {
+          "key": "10.1016/j.asoc.2023.110545_b103",
+          "series-title": "2016 IEEE Symposium Series on Computational Intelligence",
+          "first-page": "1",
+          "article-title": "Evolutionary multitasking in combinatorial search spaces: A case study in capacitated vehicle routing problem",
+          "author": "Zhou",
+          "year": "2016"
+        },
+        {
+          "key": "10.1016/j.asoc.2023.110545_b104",
+          "series-title": "2020 IEEE Congress on Evolutionary Computation",
+          "first-page": "1",
+          "article-title": "Multi-objective multi-factorial memetic algorithm based on bone route and large neighborhood local search for VRPTW",
+          "author": "Zhou",
+          "year": "2020"
+        },
+        {
+          "issue": "6",
+          "key": "10.1016/j.asoc.2023.110545_b105",
+          "doi-asserted-by": "crossref",
+          "first-page": "3171",
+          "DOI": "10.1109/TCYB.2019.2955599",
+          "article-title": "Solving generalized vehicle routing problem with occasional drivers via evolutionary multitasking",
+          "volume": "51",
+          "author": "Feng",
+          "year": "2019",
+          "journal-title": "IEEE Trans. Cybern."
+        },
+        {
+          "key": "10.1016/j.asoc.2023.110545_b106",
+          "series-title": "2020 IEEE Congress on Evolutionary Computation",
+          "first-page": "1",
+          "article-title": "Multifactorial evolutionary algorithm for inter-domain path computation under domain uniqueness constraint",
+          "author": "Binh",
+          "year": "2020"
+        },
+        {
+          "key": "10.1016/j.asoc.2023.110545_b107",
+          "series-title": "Proceedings of the 2020 Genetic and Evolutionary Computation Conference Companion",
+          "first-page": "1690",
+          "article-title": "dMFEA-II: An adaptive multifactorial evolutionary algorithm for permutation-based discrete optimization problems",
+          "author": "Osaba",
+          "year": "2020"
+        },
+        {
+          "issue": "4",
+          "key": "10.1016/j.asoc.2023.110545_b108",
+          "doi-asserted-by": "crossref",
+          "first-page": "651",
+          "DOI": "10.1109/TEVC.2021.3065707",
+          "article-title": "Surrogate-assisted evolutionary multitask genetic programming for dynamic flexible job shop scheduling",
+          "volume": "25",
+          "author": "Zhang",
+          "year": "2021",
+          "journal-title": "IEEE Trans. Evol. Comput."
+        },
+        {
+          "key": "10.1016/j.asoc.2023.110545_b109",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1109/ACCESS.2020.3042004",
+          "article-title": "A novel multi-task optimization algorithm based on the brainstorming process",
+          "volume": "8",
+          "author": "Lyu",
+          "year": "2020",
+          "journal-title": "IEEE Access"
+        },
+        {
+          "key": "10.1016/j.asoc.2023.110545_b110",
+          "series-title": "2016 IEEE Region 10 Conference",
+          "first-page": "3157",
+          "article-title": "Evolutionary multitasking in permutation-based combinatorial optimization problems: Realization with TSP, QAP, LOP, and JSP",
+          "author": "Yuan",
+          "year": "2016"
+        },
+        {
+          "key": "10.1016/j.asoc.2023.110545_b111",
+          "series-title": "2020 IEEE Congress on Evolutionary Computation",
+          "first-page": "1",
+          "article-title": "MFEA-IG: A multi-task algorithm for mobile agents path planning",
+          "author": "Zhou",
+          "year": "2017"
+        },
+        {
+          "issue": "1",
+          "key": "10.1016/j.asoc.2023.110545_b112",
+          "doi-asserted-by": "crossref",
+          "first-page": "31",
+          "DOI": "10.1007/s12293-021-00352-7",
+          "article-title": "Solving vehicle routing problem by memetic search with evolutionary multitasking",
+          "volume": "14",
+          "author": "Shang",
+          "year": "2022",
+          "journal-title": "Memet. Comput."
+        },
+        {
+          "key": "10.1016/j.asoc.2023.110545_b113",
+          "doi-asserted-by": "crossref",
+          "first-page": "757",
+          "DOI": "10.1016/j.cie.2019.02.031",
+          "article-title": "Multi-factorial evolutionary algorithm based novel solution approach for multi-objective pollution-routing problem",
+          "volume": "130",
+          "author": "Rauniyar",
+          "year": "2019",
+          "journal-title": "Comput. Ind. Eng."
+        },
+        {
+          "issue": "15",
+          "key": "10.1016/j.asoc.2023.110545_b114",
+          "doi-asserted-by": "crossref",
+          "first-page": "2985",
+          "DOI": "10.1016/j.ins.2008.02.017",
+          "article-title": "Large scale evolutionary optimization using cooperative coevolution",
+          "volume": "178",
+          "author": "Yang",
+          "year": "2008",
+          "journal-title": "Inform. Sci."
+        },
+        {
+          "issue": "3",
+          "key": "10.1016/j.asoc.2023.110545_b115",
+          "doi-asserted-by": "crossref",
+          "first-page": "1499",
+          "DOI": "10.1007/s40747-021-00273-5",
+          "article-title": "Two-stage multi-tasking transform framework for large-scale many-objective optimization problems",
+          "volume": "7",
+          "author": "Chen",
+          "year": "2021",
+          "journal-title": "Complex Intell. Syst."
+        },
+        {
+          "issue": "3",
+          "key": "10.1016/j.asoc.2023.110545_b116",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1109/TEVC.2021.3110506",
+          "article-title": "Towards large-scale evolutionary multi-tasking: A GPU-based paradigm",
+          "volume": "26",
+          "author": "Huang",
+          "year": "2021",
+          "journal-title": "IEEE Trans. Evol. Comput."
+        },
+        {
+          "key": "10.1016/j.asoc.2023.110545_b117",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1016/j.knosys.2021.107934",
+          "article-title": "Multicriteria semi-supervised hyperspectral band selection based on evolutionary multitask optimization",
+          "volume": "240",
+          "author": "Shi",
+          "year": "2022",
+          "journal-title": "Knowl.-Based Syst."
+        },
+        {
+          "key": "10.1016/j.asoc.2023.110545_b118",
+          "article-title": "Evolutionary multi-task optimization for parameters extraction of photovoltaic models, energy convers",
+          "volume": "207",
+          "author": "Liang",
+          "year": "2020",
+          "journal-title": "Manage"
+        },
+        {
+          "key": "10.1016/j.asoc.2023.110545_b119",
+          "series-title": "2018 IEEE Congress on Evolutionary Computation",
+          "first-page": "1",
+          "article-title": "An effective representation scheme in multifactorial evolutionary algorithm for solving cluster shortest-path tree problem",
+          "author": "Thanh",
+          "year": "2018"
+        },
+        {
+          "issue": "3",
+          "key": "10.1016/j.asoc.2023.110545_b120",
+          "doi-asserted-by": "crossref",
+          "first-page": "185",
+          "DOI": "10.1007/s12293-020-00309-2",
+          "article-title": "Multifactorial evolutionary algorithm for solving clustered tree problems: competition among cayley codes",
+          "volume": "12",
+          "author": "Dinh",
+          "year": "2020",
+          "journal-title": "Memet. Comput."
+        },
+        {
+          "key": "10.1016/j.asoc.2023.110545_b121",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1016/j.knosys.2022.108225",
+          "article-title": "A hybrid multifactorial evolutionary algorithm and firefly algorithm for the clustered minimum routing cost tree problem",
+          "volume": "241",
+          "author": "Thang",
+          "year": "2022",
+          "journal-title": "Knowl.-Based Syst."
+        },
+        {
+          "key": "10.1016/j.asoc.2023.110545_b122",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1109/TEVC.2022.3159253",
+          "article-title": "A multi-task bee colony band selection algorithm with variable-size clustering for hyperspectral images",
+          "author": "He",
+          "year": "2022",
+          "journal-title": "IEEE Trans. Evol. Comput."
+        },
+        {
+          "key": "10.1016/j.asoc.2023.110545_b123",
+          "doi-asserted-by": "crossref",
+          "first-page": "355",
+          "DOI": "10.1016/j.ins.2021.06.056",
+          "article-title": "Multifactorial evolutionary optimization to maximize lifetime of wireless sensor network",
+          "volume": "576",
+          "author": "Tam",
+          "year": "2021",
+          "journal-title": "Inform. Sci."
+        },
+        {
+          "issue": "7",
+          "key": "10.1016/j.asoc.2023.110545_b124",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1109/TCYB.2020.3042243",
+          "article-title": "An evolutionary multitasking-based feature selection method for high-dimensional classification",
+          "volume": "52",
+          "author": "Chen",
+          "year": "2020",
+          "journal-title": "IEEE Trans. Cybern."
+        },
+        {
+          "issue": "41",
+          "key": "10.1016/j.asoc.2023.110545_b125",
+          "doi-asserted-by": "crossref",
+          "first-page": "19166",
+          "DOI": "10.1021/acs.iecr.9b03399",
+          "article-title": "Multiobjective multifactorial operation optimization for continuous annealing production process",
+          "volume": "58",
+          "author": "Wang",
+          "year": "2019",
+          "journal-title": "Ind. Eng. Chem. Res."
+        },
+        {
+          "key": "10.1016/j.asoc.2023.110545_b126",
+          "series-title": "2019 IEEE Congress on Evolutionary Computation",
+          "first-page": "2490",
+          "article-title": "Evolutionary multitasking for semantic web service composition",
+          "author": "Wang",
+          "year": "2019"
+        },
+        {
+          "key": "10.1016/j.asoc.2023.110545_b127",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1016/j.petrol.2021.108900",
+          "article-title": "Self-adaptive multifactorial evolutionary algorithm for multitasking production optimization",
+          "volume": "205",
+          "author": "Yao",
+          "year": "2021",
+          "journal-title": "J. Petrol. Sci. Eng."
+        },
+        {
+          "key": "10.1016/j.asoc.2023.110545_b128",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1016/j.asoc.2021.107441",
+          "article-title": "Learning large-scale fuzzy cognitive maps using an evolutionary many-task algorithm",
+          "volume": "108",
+          "author": "Wang",
+          "year": "2021",
+          "journal-title": "Appl. Soft Comput."
+        },
+        {
+          "key": "10.1016/j.asoc.2023.110545_b129",
+          "doi-asserted-by": "crossref",
+          "first-page": "280",
+          "DOI": "10.1016/j.ins.2020.10.024",
+          "article-title": "Evolutionary algorithm and multifactorial evolutionary algorithm on clustered shortest-path tree problem",
+          "volume": "553",
+          "author": "Hanh",
+          "year": "2021",
+          "journal-title": "Inform. Sci."
+        },
+        {
+          "issue": "5",
+          "key": "10.1016/j.asoc.2023.110545_b130",
+          "doi-asserted-by": "crossref",
+          "first-page": "733",
+          "DOI": "10.1109/TEVC.2018.2881955",
+          "article-title": "Evolutionary multitasking sparse reconstruction: Framework and case study",
+          "volume": "23",
+          "author": "Li",
+          "year": "2018",
+          "journal-title": "IEEE Trans. Evol. Comput."
+        },
+        {
+          "key": "10.1016/j.asoc.2023.110545_b131",
+          "series-title": "2019 IEEE International Conference on Systems, Man and Cybernetics",
+          "first-page": "1926",
+          "article-title": "Multifactorial pso-fa hybrid algorithm for multiple car design benchmark",
+          "author": "Xiao",
+          "year": "2019"
+        },
+        {
+          "issue": "3",
+          "key": "10.1016/j.asoc.2023.110545_b132",
+          "doi-asserted-by": "crossref",
+          "first-page": "1046",
+          "DOI": "10.1109/TASE.2018.2865593",
+          "article-title": "Multitasking multiobjective evolutionary operational indices optimization of beneficiation processes",
+          "volume": "16",
+          "author": "Yang",
+          "year": "2018",
+          "journal-title": "IEEE Trans. Autom. Sci. Eng."
+        },
+        {
+          "key": "10.1016/j.asoc.2023.110545_b133",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1016/j.swevo.2021.101021",
+          "article-title": "An improved multi-objective multifactorial evolutionary algorithm for assembly line balancing problem considering regular production and preventive maintenance scenarios",
+          "volume": "68",
+          "author": "Tang",
+          "year": "2022",
+          "journal-title": "Swarm Evol. Comput."
+        },
+        {
+          "key": "10.1016/j.asoc.2023.110545_b134",
+          "doi-asserted-by": "crossref",
+          "unstructured": "A.D. Martinez, E. Osaba, J. Del Sery, F. Herrera, Simultaneously Evolving Deep Reinforcement Learning Models using Multifactorial Optimization, in: 2020 IEEE Congress on Evolutionary Computation, CEC, 2020, pp. 1–8.",
+          "DOI": "10.1109/CEC48606.2020.9185667"
+        },
+        {
+          "issue": "2",
+          "key": "10.1016/j.asoc.2023.110545_b135",
+          "doi-asserted-by": "crossref",
+          "first-page": "233",
+          "DOI": "10.1109/TEVC.2021.3083362",
+          "article-title": "Adaptive multifactorial evolutionary optimization for multitask reinforcement learning",
+          "volume": "26",
+          "author": "Martinez",
+          "year": "2021",
+          "journal-title": "IEEE Trans. Evol. Comput."
+        },
+        {
+          "key": "10.1016/j.asoc.2023.110545_b136",
+          "series-title": "2020 IEEE Congress on Evolutionary Computation",
+          "first-page": "1",
+          "article-title": "Endmember selection of hyperspectral images based on evolutionary multitask",
+          "author": "Zhao",
+          "year": "2020"
+        },
+        {
+          "issue": "4",
+          "key": "10.1016/j.asoc.2023.110545_b137",
+          "doi-asserted-by": "crossref",
+          "first-page": "765",
+          "DOI": "10.1109/TEVC.2019.2952220",
+          "article-title": "MUMI: Multitask module identification for biological networks",
+          "volume": "24",
+          "author": "Chen",
+          "year": "2019",
+          "journal-title": "IEEE Trans. Evol. Comput."
+        },
+        {
+          "issue": "2",
+          "key": "10.1016/j.asoc.2023.110545_b138",
+          "doi-asserted-by": "crossref",
+          "first-page": "263",
+          "DOI": "10.1109/TEVC.2022.3145582",
+          "article-title": "An evolutionary multitasking optimization framework for constrained multiobjective optimization problems",
+          "volume": "26",
+          "author": "Qiao",
+          "year": "2022",
+          "journal-title": "IEEE Trans. Evol. Comput."
+        },
+        {
+          "issue": "5",
+          "key": "10.1016/j.asoc.2023.110545_b139",
+          "doi-asserted-by": "crossref",
+          "first-page": "908",
+          "DOI": "10.1109/TEVC.2020.2975381",
+          "article-title": "A multifactorial evolutionary algorithm for multitasking under interval uncertainties",
+          "volume": "24",
+          "author": "Yi",
+          "year": "2020",
+          "journal-title": "IEEE Trans. Evol. Comput."
+        },
+        {
+          "key": "10.1016/j.asoc.2023.110545_b140",
+          "series-title": "2016 IEEE Congress on Evolutionary Computation",
+          "first-page": "1695",
+          "article-title": "Evolutionary multitasking across single and multi-objective formulations for improved problem solving",
+          "author": "Da",
+          "year": "2016"
+        },
+        {
+          "issue": "1",
+          "key": "10.1016/j.asoc.2023.110545_b141",
+          "doi-asserted-by": "crossref",
+          "first-page": "34",
+          "DOI": "10.1109/MCI.2020.3039067",
+          "article-title": "Surrogate-assisted evolutionary multitasking for expensive minimax optimization in multiple scenarios",
+          "volume": "16",
+          "author": "Wang",
+          "year": "2021",
+          "journal-title": "IEEE Comput. Intell. Mag."
+        }
+      ],
+      "container-title": [
+        "Applied Soft Computing"
+      ],
+      "original-title": [],
+      "language": "en",
+      "link": [
+        {
+          "URL": "https://api.elsevier.com/content/article/PII:S156849462300563X?httpAccept=text/xml",
+          "content-type": "text/xml",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        },
+        {
+          "URL": "https://api.elsevier.com/content/article/PII:S156849462300563X?httpAccept=text/plain",
+          "content-type": "text/plain",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2025,
+            10,
+            27
+          ]
+        ],
+        "date-time": "2025-10-27T20:22:59Z",
+        "timestamp": 1761596579000
+      },
+      "score": 1,
+      "resource": {
+        "primary": {
+          "URL": "https://linkinghub.elsevier.com/retrieve/pii/S156849462300563X"
+        }
+      },
+      "subtitle": [],
+      "short-title": [],
+      "issued": {
+        "date-parts": [
+          [
+            2023,
+            9
+          ]
+        ]
+      },
+      "references-count": 141,
+      "alternative-id": [
+        "S156849462300563X"
+      ],
+      "URL": "https://doi.org/10.1016/j.asoc.2023.110545",
+      "relation": {},
+      "ISSN": [
+        "1568-4946"
+      ],
+      "issn-type": [
+        {
+          "value": "1568-4946",
+          "type": "print"
+        }
+      ],
+      "subject": [],
+      "published": {
+        "date-parts": [
+          [
+            2023,
+            9
+          ]
+        ]
+      },
+      "assertion": [
+        {
+          "value": "Elsevier",
+          "name": "publisher",
+          "label": "This article is maintained by"
+        },
+        {
+          "value": "What makes evolutionary multi-task optimization better: A comprehensive survey",
+          "name": "articletitle",
+          "label": "Article Title"
+        },
+        {
+          "value": "Applied Soft Computing",
+          "name": "journaltitle",
+          "label": "Journal Title"
+        },
+        {
+          "value": "https://doi.org/10.1016/j.asoc.2023.110545",
+          "name": "articlelink",
+          "label": "CrossRef DOI link to publisher maintained version"
+        },
+        {
+          "value": "article",
+          "name": "content_type",
+          "label": "Content Type"
+        },
+        {
+          "value": "© 2023 Elsevier B.V. All rights reserved.",
+          "name": "copyright",
+          "label": "Copyright"
+        }
+      ],
+      "article-number": "110545"
+    }
+  }
+}

@@ -1,0 +1,276 @@
+{
+  "version": 1,
+  "scope": "阅读主题关联用于筛选地图节点；不表示方法优劣、完整谱系或行业适用性保证。",
+  "methods": [
+    {
+      "id": "es",
+      "name": "进化策略 ES",
+      "nodes": [
+        "es73",
+        "cma01"
+      ]
+    },
+    {
+      "id": "ga",
+      "name": "遗传算法 GA",
+      "nodes": [
+        "holland75"
+      ]
+    },
+    {
+      "id": "sa",
+      "name": "模拟退火 SA",
+      "nodes": [
+        "sa83"
+      ]
+    },
+    {
+      "id": "ts",
+      "name": "禁忌搜索 TS",
+      "nodes": [
+        "tabu86"
+      ]
+    },
+    {
+      "id": "grasp",
+      "name": "GRASP",
+      "nodes": [
+        "grasp95"
+      ]
+    },
+    {
+      "id": "pso",
+      "name": "粒子群 PSO",
+      "nodes": [
+        "pso95",
+        "calypso10"
+      ]
+    },
+    {
+      "id": "aco",
+      "name": "蚁群 ACO",
+      "nodes": [
+        "aco96"
+      ]
+    },
+    {
+      "id": "eda",
+      "name": "分布估计 EDA",
+      "nodes": [
+        "eda96"
+      ]
+    },
+    {
+      "id": "de",
+      "name": "差分进化 DE",
+      "nodes": [
+        "de97"
+      ]
+    },
+    {
+      "id": "vns",
+      "name": "变邻域 VNS",
+      "nodes": [
+        "vns97"
+      ]
+    },
+    {
+      "id": "lns",
+      "name": "大邻域 LNS / ALNS",
+      "nodes": [
+        "lns98",
+        "alns06",
+        "turkes21"
+      ]
+    },
+    {
+      "id": "cma",
+      "name": "CMA-ES",
+      "nodes": [
+        "cma01",
+        "coco21"
+      ]
+    },
+    {
+      "id": "neuro",
+      "name": "神经进化 / NEAT",
+      "nodes": [
+        "neat02",
+        "sims94",
+        "erl18"
+      ]
+    },
+    {
+      "id": "mo",
+      "name": "多目标 NSGA-II / MOEA/D",
+      "nodes": [
+        "nsga02",
+        "moead07"
+      ]
+    },
+    {
+      "id": "abc",
+      "name": "人工蜂群 ABC",
+      "nodes": [
+        "abc07"
+      ]
+    },
+    {
+      "id": "surrogate",
+      "name": "代理辅助搜索",
+      "nodes": [
+        "surrogate05"
+      ]
+    },
+    {
+      "id": "qd",
+      "name": "质量多样性",
+      "nodes": [
+        "qd16"
+      ]
+    },
+    {
+      "id": "multitask",
+      "name": "演化多任务",
+      "nodes": [
+        "multitask16"
+      ]
+    },
+    {
+      "id": "configuration",
+      "name": "选择、配置与自动设计",
+      "nodes": [
+        "rice76",
+        "smac11",
+        "hyper24",
+        "alpha25",
+        "llm26"
+      ]
+    },
+    {
+      "id": "uspex",
+      "name": "USPEX 结构搜索",
+      "nodes": [
+        "uspex06"
+      ]
+    }
+  ],
+  "milestones": [
+    "es73",
+    "holland75",
+    "sa83",
+    "tabu86",
+    "si89",
+    "tsplib91",
+    "pso95",
+    "aco96",
+    "de97",
+    "nfl97",
+    "lns98",
+    "cma01",
+    "nsga02",
+    "surrogate05",
+    "alns06",
+    "robotics13",
+    "standard15",
+    "qd16",
+    "coco21",
+    "matheur24",
+    "alpha25"
+  ],
+  "applicationAliases": {
+    "robotics": "robot",
+    "logistics": "routes",
+    "science": "model"
+  },
+  "problemTopics": [
+    {
+      "id": "tsp",
+      "name": "旅行商与路线基准",
+      "nodes": [
+        "sa83",
+        "tabu86",
+        "tsplib91",
+        "grasp95",
+        "aco96",
+        "vns97",
+        "isa23"
+      ]
+    },
+    {
+      "id": "vrp",
+      "name": "车辆路径与取送货",
+      "nodes": [
+        "lns98",
+        "alns06",
+        "turkes21",
+        "cvrpxl26",
+        "workforce26",
+        "matheur24"
+      ]
+    },
+    {
+      "id": "scheduling",
+      "name": "排班与服务调度",
+      "nodes": [
+        "tabu86",
+        "grasp95",
+        "aco96",
+        "vns97",
+        "alns06",
+        "hyper24",
+        "workforce26"
+      ]
+    },
+    {
+      "id": "continuous",
+      "name": "连续参数与黑盒优化",
+      "nodes": [
+        "es73",
+        "pso95",
+        "de97",
+        "cma01",
+        "abc07",
+        "surrogate05",
+        "coco21",
+        "kudela22"
+      ]
+    },
+    {
+      "id": "multiobjective",
+      "name": "多目标折中",
+      "nodes": [
+        "nsga02",
+        "moead07"
+      ]
+    },
+    {
+      "id": "constraints",
+      "name": "约束与不确定性",
+      "nodes": [
+        "constraints00",
+        "uncertain05",
+        "real21"
+      ]
+    },
+    {
+      "id": "materials",
+      "name": "材料与晶体预测",
+      "nodes": [
+        "uspex06",
+        "calypso10"
+      ]
+    },
+    {
+      "id": "learning",
+      "name": "神经网络与学习控制",
+      "nodes": [
+        "neat02",
+        "erl18",
+        "multitask16",
+        "alpha25",
+        "llm26"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,2533 @@
+{
+  "doi": "10.1016/j.esr.2024.101298",
+  "url": "https://api.crossref.org/works/10.1016%2Fj.esr.2024.101298",
+  "retrieved": "2026-10-16",
+  "response": {
+    "status": "ok",
+    "message-type": "work",
+    "message-version": "1.0.0",
+    "message": {
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            10,
+            16
+          ]
+        ],
+        "date-time": "2026-10-16T03:18:14Z",
+        "timestamp": 1792120694227,
+        "version": "4.4.0"
+      },
+      "reference-count": 200,
+      "publisher": "Elsevier BV",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2024,
+                1,
+                1
+              ]
+            ],
+            "date-time": "2024-01-01T00:00:00Z",
+            "timestamp": 1704067200000
+          },
+          "content-version": "tdm",
+          "delay-in-days": 0,
+          "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+        },
+        {
+          "start": {
+            "date-parts": [
+              [
+                2024,
+                1,
+                1
+              ]
+            ],
+            "date-time": "2024-01-01T00:00:00Z",
+            "timestamp": 1704067200000
+          },
+          "content-version": "tdm",
+          "delay-in-days": 0,
+          "URL": "https://www.elsevier.com/legal/tdmrep-license"
+        },
+        {
+          "start": {
+            "date-parts": [
+              [
+                2024,
+                1,
+                4
+              ]
+            ],
+            "date-time": "2024-01-04T00:00:00Z",
+            "timestamp": 1704326400000
+          },
+          "content-version": "vor",
+          "delay-in-days": 3,
+          "URL": "http://creativecommons.org/licenses/by/4.0/"
+        }
+      ],
+      "funder": [
+        {
+          "DOI": "10.13039/501100000038",
+          "name": "Natural Sciences and Engineering Research Council of Canada",
+          "doi-asserted-by": "publisher",
+          "award": [
+            "ALLRP567550-21"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "ALLRP567550-21"
+              ]
+            }
+          ],
+          "id": [
+            {
+              "id": "10.13039/501100000038",
+              "id-type": "DOI",
+              "asserted-by": "publisher"
+            }
+          ]
+        },
+        {
+          "DOI": "10.13039/100007867",
+          "name": "Université Laval",
+          "doi-asserted-by": "publisher",
+          "id": [
+            {
+              "id": "10.13039/100007867",
+              "id-type": "DOI",
+              "asserted-by": "publisher"
+            }
+          ]
+        }
+      ],
+      "content-domain": {
+        "domain": [
+          "elsevier.com",
+          "sciencedirect.com"
+        ],
+        "crossmark-restriction": true
+      },
+      "short-container-title": [
+        "Energy Strategy Reviews"
+      ],
+      "published-print": {
+        "date-parts": [
+          [
+            2024,
+            1
+          ]
+        ]
+      },
+      "DOI": "10.1016/j.esr.2024.101298",
+      "type": "journal-article",
+      "created": {
+        "date-parts": [
+          [
+            2024,
+            1,
+            9
+          ]
+        ],
+        "date-time": "2024-01-09T08:30:46Z",
+        "timestamp": 1704789046000
+      },
+      "page": "101298",
+      "update-policy": "https://doi.org/10.1016/elsevier_cm_policy",
+      "source": "Crossref",
+      "is-referenced-by-count": 164,
+      "special_numbering": "C",
+      "title": [
+        "A review on microgrid optimization with meta-heuristic techniques: Scopes, trends and recommendation"
+      ],
+      "prefix": "10.1016",
+      "volume": "51",
+      "author": [
+        {
+          "given": "Afifa",
+          "family": "Akter",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Ehsanul Islam",
+          "family": "Zafir",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Nazia Hasan",
+          "family": "Dana",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Rahul",
+          "family": "Joysoyal",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0001-6077-8031",
+          "authenticated-orcid": false,
+          "given": "Subrata K.",
+          "family": "Sarker",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Li",
+          "family": "Li",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0003-4955-6889",
+          "authenticated-orcid": false,
+          "given": "S M",
+          "family": "Muyeen",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Sajal K.",
+          "family": "Das",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-3568-3716",
+          "authenticated-orcid": false,
+          "given": "Innocent",
+          "family": "Kamwa",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "78",
+      "reference": [
+        {
+          "key": "10.1016/j.esr.2024.101298_b1",
+          "doi-asserted-by": "crossref",
+          "first-page": "477",
+          "DOI": "10.1016/j.rser.2016.06.037",
+          "article-title": "Microgrid: Architecture, policy and future trends",
+          "volume": "64",
+          "author": "Mariam",
+          "year": "2016",
+          "journal-title": "Renew. Sustain. Energy Rev."
+        },
+        {
+          "issue": "3",
+          "key": "10.1016/j.esr.2024.101298_b2",
+          "doi-asserted-by": "crossref",
+          "first-page": "513",
+          "DOI": "10.1109/59.932289",
+          "article-title": "Inter-utilities power-exchange coordination: a market-oriented approach",
+          "volume": "16",
+          "author": "Aguado",
+          "year": "2001",
+          "journal-title": "IEEE Trans. Power Syst."
+        },
+        {
+          "issue": "1",
+          "key": "10.1016/j.esr.2024.101298_b3",
+          "doi-asserted-by": "crossref",
+          "first-page": "1",
+          "DOI": "10.1186/s41601-019-0122-8",
+          "article-title": "A survey on control issues in renewable energy integration and microgrid",
+          "volume": "4",
+          "author": "Badal",
+          "year": "2019",
+          "journal-title": "Prot. Control Mod. Power Syst."
+        },
+        {
+          "key": "10.1016/j.esr.2024.101298_b4",
+          "doi-asserted-by": "crossref",
+          "first-page": "167",
+          "DOI": "10.1016/j.rser.2015.12.201",
+          "article-title": "Microgrid stability: Classification and a review",
+          "volume": "58",
+          "author": "Shuai",
+          "year": "2016",
+          "journal-title": "Renew. Sustain. Energy Rev."
+        },
+        {
+          "issue": "1",
+          "key": "10.1016/j.esr.2024.101298_b5",
+          "doi-asserted-by": "crossref",
+          "first-page": "239",
+          "DOI": "10.1109/TSG.2013.2290894",
+          "article-title": "Smart microgrids: Optimal joint scheduling for electric vehicles and home appliances",
+          "volume": "5",
+          "author": "Tushar",
+          "year": "2014",
+          "journal-title": "IEEE Trans. Smart Grid"
+        },
+        {
+          "key": "10.1016/j.esr.2024.101298_b6",
+          "doi-asserted-by": "crossref",
+          "first-page": "47",
+          "DOI": "10.1016/j.enpol.2017.01.010",
+          "article-title": "Evaluating business models for microgrids: Interactions of technology and policy",
+          "volume": "103",
+          "author": "Hanna",
+          "year": "2017",
+          "journal-title": "Energy Policy"
+        },
+        {
+          "issue": "6",
+          "key": "10.1016/j.esr.2024.101298_b7",
+          "doi-asserted-by": "crossref",
+          "first-page": "3042",
+          "DOI": "10.1109/TSG.2015.2398853",
+          "article-title": "Hierarchical coordination of a community microgrid with AC and DC microgrids",
+          "volume": "6",
+          "author": "Che",
+          "year": "2015",
+          "journal-title": "IEEE Trans. Smart Grid"
+        },
+        {
+          "issue": "8",
+          "key": "10.1016/j.esr.2024.101298_b8",
+          "doi-asserted-by": "crossref",
+          "first-page": "1898",
+          "DOI": "10.3390/en13081898",
+          "article-title": "MILP-PSO combined optimization algorithm for an islanded microgrid scheduling with detailed battery ESS efficiency model and policy considerations",
+          "volume": "13",
+          "author": "Kim",
+          "year": "2020",
+          "journal-title": "Energies"
+        },
+        {
+          "key": "10.1016/j.esr.2024.101298_b9",
+          "doi-asserted-by": "crossref",
+          "first-page": "89",
+          "DOI": "10.1016/j.energy.2017.07.148",
+          "article-title": "An efficient cost-reliability optimization model for optimal siting and sizing of energy storage system in a microgrid in the presence of responsible load management",
+          "volume": "139",
+          "author": "Nojavan",
+          "year": "2017",
+          "journal-title": "Energy"
+        },
+        {
+          "key": "10.1016/j.esr.2024.101298_b10",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1016/j.jclepro.2020.121247",
+          "article-title": "A microgrids energy management model based on multi-agent system using adaptive weight and chaotic search particle swarm optimization considering demand response",
+          "volume": "262",
+          "author": "Li",
+          "year": "2020",
+          "journal-title": "J. Clean. Prod."
+        },
+        {
+          "issue": "9",
+          "key": "10.1016/j.esr.2024.101298_b11",
+          "doi-asserted-by": "crossref",
+          "first-page": "2472",
+          "DOI": "10.1016/j.rser.2007.06.004",
+          "article-title": "A review on distributed energy resources and MicroGrid",
+          "volume": "12",
+          "author": "Jiayi",
+          "year": "2008",
+          "journal-title": "Renew. Sustain. Energy Rev."
+        },
+        {
+          "issue": "9",
+          "key": "10.1016/j.esr.2024.101298_b12",
+          "doi-asserted-by": "crossref",
+          "first-page": "1872",
+          "DOI": "10.1109/JPROC.2019.2922543",
+          "article-title": "Optimal electrification planning incorporating on-and off-grid technologies: the Reference Electrification Model (REM)",
+          "volume": "107",
+          "author": "Ciller",
+          "year": "2019",
+          "journal-title": "Proc. IEEE"
+        },
+        {
+          "key": "10.1016/j.esr.2024.101298_b13",
+          "doi-asserted-by": "crossref",
+          "first-page": "388",
+          "DOI": "10.1016/j.renene.2013.07.028",
+          "article-title": "Off-grid electricity generation with renewable energy technologies in India: An application of HOMER",
+          "volume": "62",
+          "author": "Sen",
+          "year": "2014",
+          "journal-title": "Renew. Energy"
+        },
+        {
+          "issue": "3",
+          "key": "10.1016/j.esr.2024.101298_b14",
+          "doi-asserted-by": "crossref",
+          "first-page": "1701",
+          "DOI": "10.1016/j.enpol.2006.05.009",
+          "article-title": "ARIMA forecasting of primary energy demand by fuel in Turkey",
+          "volume": "35",
+          "author": "Ediger",
+          "year": "2007",
+          "journal-title": "Energy Policy"
+        },
+        {
+          "issue": "7",
+          "key": "10.1016/j.esr.2024.101298_b15",
+          "doi-asserted-by": "crossref",
+          "first-page": "2880",
+          "DOI": "10.3390/su12072880",
+          "article-title": "Analysis of techno-economic-environmental suitability of an isolated microgrid system located in a remote island of Bangladesh",
+          "volume": "12",
+          "author": "Masrur",
+          "year": "2020",
+          "journal-title": "Sustainability"
+        },
+        {
+          "key": "10.1016/j.esr.2024.101298_b16",
+          "doi-asserted-by": "crossref",
+          "first-page": "557",
+          "DOI": "10.1016/j.apenergy.2014.07.041",
+          "article-title": "Optimizing distributed energy resources and building retrofits with the strategic DER-CAModel",
+          "volume": "132",
+          "author": "Stadler",
+          "year": "2014",
+          "journal-title": "Appl. Energy"
+        },
+        {
+          "issue": "10",
+          "key": "10.1016/j.esr.2024.101298_b17",
+          "doi-asserted-by": "crossref",
+          "first-page": "5850",
+          "DOI": "10.1016/j.enpol.2011.06.033",
+          "article-title": "OSeMOSYS: the open source energy modeling system: an introduction to its ethos, structure and development",
+          "volume": "39",
+          "author": "Howells",
+          "year": "2011",
+          "journal-title": "Energy Policy"
+        },
+        {
+          "key": "10.1016/j.esr.2024.101298_b18",
+          "doi-asserted-by": "crossref",
+          "first-page": "130",
+          "DOI": "10.1016/j.energy.2018.07.088",
+          "article-title": "Two stage forecast engine with feature selection technique and improved meta-heuristic algorithm for electricity load forecasting",
+          "volume": "161",
+          "author": "Ghadimi",
+          "year": "2018",
+          "journal-title": "Energy"
+        },
+        {
+          "key": "10.1016/j.esr.2024.101298_b19",
+          "series-title": "2017 IEEE Conference on Control Technology and Applications",
+          "first-page": "2164",
+          "article-title": "Blockchains for decentralized optimization of energy resources in microgrid networks",
+          "author": "Münsing",
+          "year": "2017"
+        },
+        {
+          "key": "10.1016/j.esr.2024.101298_b20",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1016/j.apenergy.2021.116435",
+          "article-title": "Intelligent demand side management for optimal energy scheduling of grid connected microgrids",
+          "volume": "285",
+          "author": "Kumar",
+          "year": "2021",
+          "journal-title": "Appl. Energy"
+        },
+        {
+          "issue": "6",
+          "key": "10.1016/j.esr.2024.101298_b21",
+          "doi-asserted-by": "crossref",
+          "first-page": "5138",
+          "DOI": "10.1109/TSG.2020.3000958",
+          "article-title": "On the implementation of IoT-based digital twin for networked microgrids resiliency against cyber attacks",
+          "volume": "11",
+          "author": "Saad",
+          "year": "2020",
+          "journal-title": "IEEE Trans. Smart Grid"
+        },
+        {
+          "issue": "9",
+          "key": "10.1016/j.esr.2024.101298_b22",
+          "doi-asserted-by": "crossref",
+          "first-page": "1086",
+          "DOI": "10.3390/pr8091086",
+          "article-title": "Optimal energy management for microgrids considering uncertainties in renewable energy generation and load demand",
+          "volume": "8",
+          "author": "Wu",
+          "year": "2020",
+          "journal-title": "Processes"
+        },
+        {
+          "key": "10.1016/j.esr.2024.101298_b23",
+          "doi-asserted-by": "crossref",
+          "first-page": "1116",
+          "DOI": "10.1016/j.energy.2018.01.164",
+          "article-title": "Probabilistic operation cost minimization of Micro-Grid",
+          "volume": "148",
+          "author": "Sharma",
+          "year": "2018",
+          "journal-title": "Energy"
+        },
+        {
+          "issue": "4",
+          "key": "10.1016/j.esr.2024.101298_b24",
+          "doi-asserted-by": "crossref",
+          "first-page": "1786",
+          "DOI": "10.3390/en16041786",
+          "article-title": "A comprehensive review: Study of artificial intelligence optimization technique applications in a hybrid microgrid at times of fault outbreaks",
+          "volume": "16",
+          "author": "Zulu",
+          "year": "2023",
+          "journal-title": "Energies"
+        },
+        {
+          "issue": "1",
+          "key": "10.1016/j.esr.2024.101298_b25",
+          "doi-asserted-by": "crossref",
+          "first-page": "377",
+          "DOI": "10.1007/s40998-019-00221-7",
+          "article-title": "Robust control technique in an autonomous microgrid: A multi-stage H∞ controller based on harmony search algorithm",
+          "volume": "44",
+          "author": "Sedhom",
+          "year": "2020",
+          "journal-title": "Iran. J. sci. Technol. Trans. Electr. Eng."
+        },
+        {
+          "issue": "8",
+          "key": "10.1016/j.esr.2024.101298_b26",
+          "doi-asserted-by": "crossref",
+          "first-page": "2694",
+          "DOI": "10.3390/su10082694",
+          "article-title": "Application of multi-species differential evolution algorithm in sustainable microgrid model",
+          "volume": "10",
+          "author": "Zhang",
+          "year": "2018",
+          "journal-title": "Sustainability"
+        },
+        {
+          "key": "10.1016/j.esr.2024.101298_b27",
+          "doi-asserted-by": "crossref",
+          "first-page": "2039",
+          "DOI": "10.1016/j.rser.2017.08.007",
+          "article-title": "Hybrid renewable microgrid optimization techniques: A review",
+          "volume": "82",
+          "author": "Dawoud",
+          "year": "2018",
+          "journal-title": "Renew. Sustain. Energy Rev."
+        },
+        {
+          "issue": "10",
+          "key": "10.1016/j.esr.2024.101298_b28",
+          "doi-asserted-by": "crossref",
+          "first-page": "2842",
+          "DOI": "10.3390/en14102842",
+          "article-title": "A review of optimization of microgrid operation",
+          "volume": "14",
+          "author": "Gao",
+          "year": "2021",
+          "journal-title": "Energies"
+        },
+        {
+          "key": "10.1016/j.esr.2024.101298_b29",
+          "doi-asserted-by": "crossref",
+          "first-page": "431",
+          "DOI": "10.1016/j.rser.2015.01.059",
+          "article-title": "Optimization in microgrids with hybrid energy systems–A review",
+          "volume": "45",
+          "author": "Fathima",
+          "year": "2015",
+          "journal-title": "Renew. Sustain. Energy Rev."
+        },
+        {
+          "issue": "2",
+          "key": "10.1016/j.esr.2024.101298_b30",
+          "doi-asserted-by": "crossref",
+          "first-page": "18",
+          "DOI": "10.1109/MPEL.2019.2910292",
+          "article-title": "AC microgrid control and management strategies: Evaluation and review",
+          "volume": "6",
+          "author": "Mohammed",
+          "year": "2019",
+          "journal-title": "IEEE Power Electron. Mag."
+        },
+        {
+          "key": "10.1016/j.esr.2024.101298_b31",
+          "doi-asserted-by": "crossref",
+          "first-page": "814",
+          "DOI": "10.1016/j.rser.2016.12.106",
+          "article-title": "A review on control of ac microgrid",
+          "volume": "71",
+          "author": "Rajesh",
+          "year": "2017",
+          "journal-title": "Renew. Sustain. Energy Rev."
+        },
+        {
+          "key": "10.1016/j.esr.2024.101298_b32",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1016/j.jclepro.2020.120419",
+          "article-title": "Optimized controller for renewable energy sources integration into microgrid: Functions, constraints and suggestions",
+          "volume": "256",
+          "author": "Hannan",
+          "year": "2020",
+          "journal-title": "J. Clean. Prod."
+        },
+        {
+          "key": "10.1016/j.esr.2024.101298_b33",
+          "article-title": "Optimization-based power and energy management system in shipboard microgrid: A review",
+          "author": "Xie",
+          "year": "2021",
+          "journal-title": "IEEE Syst. J."
+        },
+        {
+          "issue": "14",
+          "key": "10.1016/j.esr.2024.101298_b34",
+          "doi-asserted-by": "crossref",
+          "first-page": "6242",
+          "DOI": "10.3390/app11146242",
+          "article-title": "A comprehensive review on integration challenges, optimization techniques and control strategies of hybrid AC/DC microgrid",
+          "volume": "11",
+          "author": "Azeem",
+          "year": "2021",
+          "journal-title": "Appl. Sci."
+        },
+        {
+          "key": "10.1016/j.esr.2024.101298_b35",
+          "doi-asserted-by": "crossref",
+          "first-page": "15935",
+          "DOI": "10.1109/ACCESS.2022.3142810",
+          "article-title": "A comprehensive review of control strategies and optimization methods for individual and community microgrids",
+          "volume": "10",
+          "author": "Salehi",
+          "year": "2022",
+          "journal-title": "IEEE Access"
+        },
+        {
+          "issue": "5",
+          "key": "10.1016/j.esr.2024.101298_b36",
+          "doi-asserted-by": "crossref",
+          "first-page": "1296",
+          "DOI": "10.3390/en14051296",
+          "article-title": "Model predictive control for microgrid functionalities: Review and future challenges",
+          "volume": "14",
+          "author": "Garcia-Torres",
+          "year": "2021",
+          "journal-title": "Energies"
+        },
+        {
+          "key": "10.1016/j.esr.2024.101298_b37",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1016/j.est.2020.101457",
+          "article-title": "Different aspects of microgrid management: A comprehensive review",
+          "volume": "30",
+          "author": "Jirdehi",
+          "year": "2020",
+          "journal-title": "J. Energy Storage"
+        },
+        {
+          "issue": "2",
+          "key": "10.1016/j.esr.2024.101298_b38",
+          "first-page": "329",
+          "article-title": "Review of energy management and planning of islanded microgrids",
+          "volume": "6",
+          "author": "Anderson",
+          "year": "2019",
+          "journal-title": "CSEE J. Power Energy Syst."
+        },
+        {
+          "key": "10.1016/j.esr.2024.101298_b39",
+          "doi-asserted-by": "crossref",
+          "first-page": "73",
+          "DOI": "10.1007/s40095-019-00332-1",
+          "article-title": "Review on the cost optimization of microgrids via particle swarm optimization",
+          "volume": "11",
+          "author": "Phommixay",
+          "year": "2020",
+          "journal-title": "Int. J. Energy Environ. Eng."
+        },
+        {
+          "key": "10.1016/j.esr.2024.101298_b40",
+          "doi-asserted-by": "crossref",
+          "first-page": "890",
+          "DOI": "10.1109/ACCESS.2015.2443119",
+          "article-title": "State of the art in research on microgrids: A review",
+          "volume": "3",
+          "author": "Parhizi",
+          "year": "2015",
+          "journal-title": "IEEE Access"
+        },
+        {
+          "key": "10.1016/j.esr.2024.101298_b41",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1016/j.energy.2019.116073",
+          "article-title": "A two-stage linear programming optimization framework for isolated hybrid microgrids in a rural context: The case study of the “El Espino” community",
+          "volume": "188",
+          "author": "Balderrama",
+          "year": "2019",
+          "journal-title": "Energy"
+        },
+        {
+          "key": "10.1016/j.esr.2024.101298_b42",
+          "doi-asserted-by": "crossref",
+          "first-page": "211924",
+          "DOI": "10.1109/ACCESS.2020.3039237",
+          "article-title": "A quadratic programming-based power dispatch method for a DC-microgrid",
+          "volume": "8",
+          "author": "Yoon",
+          "year": "2020",
+          "journal-title": "IEEE Access"
+        },
+        {
+          "key": "10.1016/j.esr.2024.101298_b43",
+          "doi-asserted-by": "crossref",
+          "first-page": "944",
+          "DOI": "10.1016/j.apenergy.2017.07.007",
+          "article-title": "Optimization of unit commitment and economic dispatch in microgrids based on genetic algorithm and mixed integer linear programming",
+          "volume": "210",
+          "author": "Nemati",
+          "year": "2018",
+          "journal-title": "Appl. Energy"
+        },
+        {
+          "key": "10.1016/j.esr.2024.101298_b44",
+          "doi-asserted-by": "crossref",
+          "first-page": "1033",
+          "DOI": "10.1016/j.apenergy.2018.04.103",
+          "article-title": "Microgrids energy management systems: A critical review on methods, solutions, and prospects",
+          "volume": "222",
+          "author": "Zia",
+          "year": "2018",
+          "journal-title": "Appl. Energy"
+        },
+        {
+          "issue": "1",
+          "key": "10.1016/j.esr.2024.101298_b45",
+          "doi-asserted-by": "crossref",
+          "first-page": "327",
+          "DOI": "10.1016/j.apenergy.2009.05.016",
+          "article-title": "A new fuzzy adaptive hybrid particle swarm optimization algorithm for non-linear, non-smooth and non-convex economic dispatch problem",
+          "volume": "87",
+          "author": "Niknam",
+          "year": "2010",
+          "journal-title": "Appl. Energy"
+        },
+        {
+          "key": "10.1016/j.esr.2024.101298_b46",
+          "series-title": "An overview of gradient descent optimization algorithms",
+          "author": "Ruder",
+          "year": "2016"
+        },
+        {
+          "issue": "1",
+          "key": "10.1016/j.esr.2024.101298_b47",
+          "doi-asserted-by": "crossref",
+          "first-page": "46",
+          "DOI": "10.1137/1019005",
+          "article-title": "Quasi-Newton methods, motivation and theory",
+          "volume": "19",
+          "author": "Dennis",
+          "year": "1977",
+          "journal-title": "SIAM Rev."
+        },
+        {
+          "issue": "10",
+          "key": "10.1016/j.esr.2024.101298_b48",
+          "doi-asserted-by": "crossref",
+          "first-page": "2887",
+          "DOI": "10.1093/nar/18.10.2887",
+          "article-title": "A novel, rapid method for the isolation of terminal sequences from yeast artificial chromosome (YAC) clones",
+          "volume": "18",
+          "author": "Riley",
+          "year": "1990",
+          "journal-title": "Nucleic Acids Res."
+        },
+        {
+          "key": "10.1016/j.esr.2024.101298_b49",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1016/j.cie.2019.106040",
+          "article-title": "A survey on new generation metaheuristic algorithms",
+          "volume": "137",
+          "author": "Dokeroglu",
+          "year": "2019",
+          "journal-title": "Comput. Ind. Eng."
+        },
+        {
+          "key": "10.1016/j.esr.2024.101298_b50",
+          "doi-asserted-by": "crossref",
+          "first-page": "554",
+          "DOI": "10.1016/j.energy.2019.02.094",
+          "article-title": "Dynamic multi agent-based management and load frequency control of PV/fuel cell/wind turbine/CHP in autonomous microgrid system",
+          "volume": "173",
+          "author": "Yu",
+          "year": "2019",
+          "journal-title": "Energy"
+        },
+        {
+          "key": "10.1016/j.esr.2024.101298_b51",
+          "doi-asserted-by": "crossref",
+          "first-page": "779",
+          "DOI": "10.1016/j.renene.2018.05.016",
+          "article-title": "A real time pricing strategy for remote micro-grid with economic emission dispatch and stochastic renewable energy sources",
+          "volume": "127",
+          "author": "Anand",
+          "year": "2018",
+          "journal-title": "Renew. Energy"
+        },
+        {
+          "key": "10.1016/j.esr.2024.101298_b52",
+          "doi-asserted-by": "crossref",
+          "first-page": "496",
+          "DOI": "10.1016/j.asoc.2019.02.042",
+          "article-title": "A modified particle swarm optimization algorithm for scheduling renewable generation in a micro-grid under load uncertainty",
+          "volume": "78",
+          "author": "Gholami",
+          "year": "2019",
+          "journal-title": "Appl. Soft Comput."
+        },
+        {
+          "issue": "1",
+          "key": "10.1016/j.esr.2024.101298_b53",
+          "doi-asserted-by": "crossref",
+          "first-page": "213",
+          "DOI": "10.3390/en16010213",
+          "article-title": "Mixed-integer distributed ant colony optimization of dump load allocation with improved islanded microgrid load flow",
+          "volume": "16",
+          "author": "Kreishan",
+          "year": "2023",
+          "journal-title": "Energies"
+        },
+        {
+          "issue": "5",
+          "key": "10.1016/j.esr.2024.101298_b54",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1002/2050-7038.12321",
+          "article-title": "Dynamic response enhancement of grid-tied ac microgrid using salp swarm optimization algorithm",
+          "volume": "30",
+          "author": "Jumani",
+          "year": "2020",
+          "journal-title": "Int. Trans. Electr. Energy Syst."
+        },
+        {
+          "issue": "14",
+          "key": "10.1016/j.esr.2024.101298_b55",
+          "first-page": "523",
+          "article-title": "A genetic algorithm approach to optimize dispatching for a microgrid energy system with renewable energy sources",
+          "volume": "9",
+          "author": "Sen",
+          "year": "2019",
+          "journal-title": "Comput. Sci. Inf. Technol. (CS IT)"
+        },
+        {
+          "issue": "5",
+          "key": "10.1016/j.esr.2024.101298_b56",
+          "doi-asserted-by": "crossref",
+          "first-page": "1318",
+          "DOI": "10.3390/en11051318",
+          "article-title": "Regulation of voltage and frequency in solid oxide fuel cell-based autonomous microgrids using the whales optimisation algorithm",
+          "volume": "11",
+          "author": "Qazi",
+          "year": "2018",
+          "journal-title": "Energies"
+        },
+        {
+          "key": "10.1016/j.esr.2024.101298_b57",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1016/j.energy.2022.123472",
+          "article-title": "Microgrid operation relying on economic problems considering renewable sources, storage system, and demand-side management using developed gray wolf optimization algorithm",
+          "volume": "248",
+          "author": "Wang",
+          "year": "2022",
+          "journal-title": "Energy"
+        },
+        {
+          "issue": "8",
+          "key": "10.1016/j.esr.2024.101298_b58",
+          "doi-asserted-by": "crossref",
+          "first-page": "1064",
+          "DOI": "10.1049/iet-rpg.2014.0171",
+          "article-title": "Review of microgrid architectures–a system of systems perspective",
+          "volume": "9",
+          "author": "Mahmoud",
+          "year": "2015",
+          "journal-title": "IET Renew. Power Gener."
+        },
+        {
+          "key": "10.1016/j.esr.2024.101298_b59",
+          "series-title": "2018 IEEE 12th International Conference on Compatibility, Power Electronics and Power Engineering",
+          "first-page": "1",
+          "article-title": "Microgrid in military applications",
+          "author": "Kashem",
+          "year": "2018"
+        },
+        {
+          "key": "10.1016/j.esr.2024.101298_b60",
+          "doi-asserted-by": "crossref",
+          "first-page": "1118",
+          "DOI": "10.1016/j.enconman.2014.06.078",
+          "article-title": "Integrated scheduling of renewable generation and demand response programs in a microgrid",
+          "volume": "86",
+          "author": "Mazidi",
+          "year": "2014",
+          "journal-title": "Energy Convers. Manage."
+        },
+        {
+          "issue": "1",
+          "key": "10.1016/j.esr.2024.101298_b61",
+          "doi-asserted-by": "crossref",
+          "first-page": "321",
+          "DOI": "10.1016/j.energy.2012.03.049",
+          "article-title": "Optimal control of a residential microgrid",
+          "volume": "42",
+          "author": "Kriett",
+          "year": "2012",
+          "journal-title": "Energy"
+        },
+        {
+          "issue": "2",
+          "key": "10.1016/j.esr.2024.101298_b62",
+          "doi-asserted-by": "crossref",
+          "first-page": "1264",
+          "DOI": "10.1109/TSG.2019.2934830",
+          "article-title": "Energy peer-to-peer trading in virtual microgrids in smart grids: A game-theoretic approach",
+          "volume": "11",
+          "author": "Anoh",
+          "year": "2019",
+          "journal-title": "IEEE Trans. Smart Grid"
+        },
+        {
+          "key": "10.1016/j.esr.2024.101298_b63",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1109/TPEL.2022.3175093",
+          "article-title": "A comprehensive review on small satellite microgrids",
+          "author": "Yaqoob",
+          "year": "2022",
+          "journal-title": "IEEE Trans. Power Electron."
+        },
+        {
+          "key": "10.1016/j.esr.2024.101298_b64",
+          "doi-asserted-by": "crossref",
+          "first-page": "726",
+          "DOI": "10.1016/j.rser.2014.11.067",
+          "article-title": "AC and DC technology in microgrids: A review",
+          "volume": "43",
+          "author": "Planas",
+          "year": "2015",
+          "journal-title": "Renew. Sustain. Energy Rev."
+        },
+        {
+          "key": "10.1016/j.esr.2024.101298_b65",
+          "doi-asserted-by": "crossref",
+          "first-page": "1251",
+          "DOI": "10.1016/j.rser.2015.07.194",
+          "article-title": "Hybrid ac/dc microgrids—Part I: Review and classification of topologies",
+          "volume": "52",
+          "author": "Unamuno",
+          "year": "2015",
+          "journal-title": "Renew. Sustain. Energy Rev."
+        },
+        {
+          "issue": "56",
+          "key": "10.1016/j.esr.2024.101298_b66",
+          "doi-asserted-by": "crossref",
+          "first-page": "32269",
+          "DOI": "10.1016/j.ijhydene.2020.08.227",
+          "article-title": "Risk-constrained scheduling of a CHP-based microgrid including hydrogen energy storage using robust optimization approach",
+          "volume": "45",
+          "author": "Nojavan",
+          "year": "2020",
+          "journal-title": "Int. J. Hydrogen Energy"
+        },
+        {
+          "issue": "2",
+          "key": "10.1016/j.esr.2024.101298_b67",
+          "doi-asserted-by": "crossref",
+          "first-page": "196",
+          "DOI": "10.36222/ejt.464197",
+          "article-title": "New swarm intelligence based optimization algorithms for the optimization of microgrids",
+          "volume": "8",
+          "author": "Agir",
+          "year": "2018",
+          "journal-title": "Eur. J. Tech. (EJT)"
+        },
+        {
+          "issue": "1",
+          "key": "10.1016/j.esr.2024.101298_b68",
+          "first-page": "67",
+          "article-title": "Robust economic dispatch of microgrid with highly penetrated renewables and energy storage system",
+          "volume": "8",
+          "author": "Dey",
+          "year": "2019",
+          "journal-title": "Int. J. Energy Optim. Eng. (IJEOE)"
+        },
+        {
+          "key": "10.1016/j.esr.2024.101298_b69",
+          "series-title": "2009 IEEE Power & Energy Society General Meeting",
+          "first-page": "1",
+          "article-title": "A review of challenges to real-time power management of microgrids",
+          "author": "Colson",
+          "year": "2009"
+        },
+        {
+          "issue": "19",
+          "key": "10.1016/j.esr.2024.101298_b70",
+          "article-title": "Robust energy efficient management of a microgrid",
+          "volume": "6",
+          "author": "Shiraz",
+          "year": "2019",
+          "journal-title": "EAI Endorsed Trans. Creative Technol."
+        },
+        {
+          "issue": "4",
+          "key": "10.1016/j.esr.2024.101298_b71",
+          "doi-asserted-by": "crossref",
+          "first-page": "885",
+          "DOI": "10.1007/s12667-019-00349-9",
+          "article-title": "Participation of responsive electrical consumers in load smoothing and reserve providing to optimize the schedule of a typical microgrid",
+          "volume": "11",
+          "author": "Nazari",
+          "year": "2020",
+          "journal-title": "Energy Syst."
+        },
+        {
+          "key": "10.1016/j.esr.2024.101298_b72",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1016/j.engappai.2021.104326",
+          "article-title": "Hybrid metaheuristic multi-layer reinforcement learning approach for two-level energy management strategy framework of multi-microgrid systems",
+          "volume": "104",
+          "author": "Yin",
+          "year": "2021",
+          "journal-title": "Eng. Appl. Artif. Intell."
+        },
+        {
+          "key": "10.1016/j.esr.2024.101298_b73",
+          "doi-asserted-by": "crossref",
+          "first-page": "192",
+          "DOI": "10.1016/j.enconman.2018.08.076",
+          "article-title": "A hybrid energy management and battery size optimization for standalone microgrids: A case study for Flinders Island, Australia",
+          "volume": "175",
+          "author": "El-Bidairi",
+          "year": "2018",
+          "journal-title": "Energy Convers. Manage."
+        },
+        {
+          "issue": "7",
+          "key": "10.1016/j.esr.2024.101298_b74",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1002/etep.2568",
+          "article-title": "A new hybrid firefly optimized P-Q and V-f controller coordination for PV-DG–based microgrid stabilization",
+          "volume": "28",
+          "author": "Satapathy",
+          "year": "2018",
+          "journal-title": "Int. Trans. Electr. Energy Syst."
+        },
+        {
+          "issue": "4",
+          "key": "10.1016/j.esr.2024.101298_b75",
+          "doi-asserted-by": "crossref",
+          "first-page": "690",
+          "DOI": "10.1049/iet-gtd.2019.1338",
+          "article-title": "Effective fault diagnosis and distance calculation for photovoltaic-based DC microgrid using adaptive EWT and kernel random vector functional link network",
+          "volume": "14",
+          "author": "Naik",
+          "year": "2020",
+          "journal-title": "IET Gener. Transm. Distrib."
+        },
+        {
+          "issue": "5",
+          "key": "10.1016/j.esr.2024.101298_b76",
+          "doi-asserted-by": "crossref",
+          "first-page": "1134",
+          "DOI": "10.3390/en11051134",
+          "article-title": "Application of hybrid meta-heuristic techniques for optimal load shedding planning and operation in an islanded distribution network integrated with distributed generation",
+          "volume": "11",
+          "author": "Jallad",
+          "year": "2018",
+          "journal-title": "Energies"
+        },
+        {
+          "key": "10.1016/j.esr.2024.101298_b77",
+          "article-title": "A review of existing microgrid architectures",
+          "volume": "2013",
+          "author": "Mariam",
+          "year": "2013",
+          "journal-title": "J. Eng."
+        },
+        {
+          "key": "10.1016/j.esr.2024.101298_b78",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1016/j.epsr.2020.106634",
+          "article-title": "Coordination of operational planning and real-time optimization in microgrids",
+          "volume": "190",
+          "author": "Dumas",
+          "year": "2021",
+          "journal-title": "Electr. Power Syst. Res."
+        },
+        {
+          "key": "10.1016/j.esr.2024.101298_b79",
+          "article-title": "Optimal scheduling of distributed generations in microgrids for reducing system peak load based on load shifting",
+          "volume": "23",
+          "author": "Ebrahimi",
+          "year": "2020",
+          "journal-title": "Sustain. Energy Grids Netw."
+        },
+        {
+          "key": "10.1016/j.esr.2024.101298_b80",
+          "doi-asserted-by": "crossref",
+          "first-page": "118",
+          "DOI": "10.1016/j.ijepes.2017.11.037",
+          "article-title": "Robust energy management of a microgrid with photovoltaic inverters in VAR compensation mode",
+          "volume": "98",
+          "author": "Sardou",
+          "year": "2018",
+          "journal-title": "Int. J. Electr. Power Energy Syst."
+        },
+        {
+          "issue": "1",
+          "key": "10.1016/j.esr.2024.101298_b81",
+          "doi-asserted-by": "crossref",
+          "first-page": "83",
+          "DOI": "10.1080/15325008.2018.1432723",
+          "article-title": "Robust frequency control in an autonomous microgrid: A two-stage adaptive fuzzy approach",
+          "volume": "46",
+          "author": "Annamraju",
+          "year": "2018",
+          "journal-title": "Electr. Power Compon. Syst."
+        },
+        {
+          "issue": "2",
+          "key": "10.1016/j.esr.2024.101298_b82",
+          "doi-asserted-by": "crossref",
+          "first-page": "1107",
+          "DOI": "10.1007/s11071-019-05252-7",
+          "article-title": "Electric load forecasting by complete ensemble empirical mode decomposition adaptive noise and support vector regression with quantum-based dragonfly algorithm",
+          "volume": "98",
+          "author": "Zhang",
+          "year": "2019",
+          "journal-title": "Nonlinear Dynam."
+        },
+        {
+          "issue": "5",
+          "key": "10.1016/j.esr.2024.101298_b83",
+          "doi-asserted-by": "crossref",
+          "first-page": "819",
+          "DOI": "10.1080/0305215X.2017.1355970",
+          "article-title": "An optimal autonomous microgrid cluster based on distributed generation droop parameter optimization and renewable energy sources using an improved grey wolf optimizer",
+          "volume": "50",
+          "author": "Moazami Goodarzi",
+          "year": "2018",
+          "journal-title": "Eng. Optim."
+        },
+        {
+          "key": "10.1016/j.esr.2024.101298_b84",
+          "doi-asserted-by": "crossref",
+          "first-page": "154",
+          "DOI": "10.1016/j.egypro.2018.12.044",
+          "article-title": "Renewable energies generation and carbon dioxide emission forecasting in microgrids and national grids using GRNN-GWO methodology",
+          "volume": "159",
+          "author": "Heydari",
+          "year": "2019",
+          "journal-title": "Energy Procedia"
+        },
+        {
+          "key": "10.1016/j.esr.2024.101298_b85",
+          "doi-asserted-by": "crossref",
+          "first-page": "496",
+          "DOI": "10.1016/j.energy.2018.06.137",
+          "article-title": "Modified harmony search algorithm for combined economic emission dispatch of microgrid incorporating renewable sources",
+          "volume": "159",
+          "author": "Elattar",
+          "year": "2018",
+          "journal-title": "Energy"
+        },
+        {
+          "issue": "6",
+          "key": "10.1016/j.esr.2024.101298_b86",
+          "doi-asserted-by": "crossref",
+          "first-page": "1261",
+          "DOI": "10.3390/app9061261",
+          "article-title": "Bacterial foraging-based algorithm for optimizing the power generation of an isolated microgrid",
+          "volume": "9",
+          "author": "Hernandez-Ocana",
+          "year": "2019",
+          "journal-title": "Appl. Sci."
+        },
+        {
+          "key": "10.1016/j.esr.2024.101298_b87",
+          "series-title": "Innovation in Electrical Power Engineering, Communication, and Computing Technology",
+          "first-page": "609",
+          "article-title": "Optimum design of PV-battery-based microgrid with mutation volatilization-dependent water cycle algorithm",
+          "author": "Mishra",
+          "year": "2020"
+        },
+        {
+          "issue": "11",
+          "key": "10.1016/j.esr.2024.101298_b88",
+          "doi-asserted-by": "crossref",
+          "first-page": "2702",
+          "DOI": "10.1109/TFUZZ.2020.3026140",
+          "article-title": "Hybrid microgrid many-objective sizing optimization with fuzzy decision",
+          "volume": "28",
+          "author": "Cao",
+          "year": "2020",
+          "journal-title": "IEEE Trans. Fuzzy Syst."
+        },
+        {
+          "key": "10.1016/j.esr.2024.101298_b89",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1016/j.est.2021.103887",
+          "article-title": "The development of a fuzzy tilt integral derivative controller based on the sailfish optimizer to solve load frequency control in a microgrid, incorporating energy storage systems",
+          "volume": "48",
+          "author": "Rai",
+          "year": "2022",
+          "journal-title": "J. Energy Storage"
+        },
+        {
+          "issue": "5",
+          "key": "10.1016/j.esr.2024.101298_b90",
+          "article-title": "Islanded microgrid congestion control by load prioritization and shedding using ABC algorithm",
+          "volume": "10",
+          "author": "Mogaka",
+          "year": "2020",
+          "journal-title": "Int. J. Electr. Comput. Eng. (2088-8708)"
+        },
+        {
+          "key": "10.1016/j.esr.2024.101298_b91",
+          "series-title": "E3S Web of Conferences, Vol. 84",
+          "first-page": "02011",
+          "article-title": "The application of the CLONALG algorithm in the process of optimal operation control of hybrid AC/DC low voltage microgrid",
+          "author": "Rokicki",
+          "year": "2019"
+        },
+        {
+          "issue": "1",
+          "key": "10.1016/j.esr.2024.101298_b92",
+          "doi-asserted-by": "crossref",
+          "first-page": "628",
+          "DOI": "10.1109/TSG.2012.2236894",
+          "article-title": "Biogeography based optimal state feedback controller for frequency regulation of a smart microgrid",
+          "volume": "4",
+          "author": "Mishra",
+          "year": "2013",
+          "journal-title": "IEEE Trans. Smart Grid"
+        },
+        {
+          "issue": "4",
+          "key": "10.1016/j.esr.2024.101298_b93",
+          "first-page": "3375",
+          "article-title": "Meta-heuristic optimization-based two-stage residential load pattern clustering approach considering intra-cluster compactness and inter-cluster separation",
+          "volume": "56",
+          "author": "Li",
+          "year": "2020",
+          "journal-title": "IEEE Trans. Ind. Appl."
+        },
+        {
+          "key": "10.1016/j.esr.2024.101298_b94",
+          "series-title": "2018 3rd International Conference on Intelligent Green Building and Smart Grid",
+          "first-page": "1",
+          "article-title": "Optimal economic dispatch for intelligent community micro-grid considering demand response",
+          "author": "Zhang",
+          "year": "2018"
+        },
+        {
+          "issue": "9",
+          "key": "10.1016/j.esr.2024.101298_b95",
+          "doi-asserted-by": "crossref",
+          "first-page": "2226",
+          "DOI": "10.3390/en11092226",
+          "article-title": "Hybridizing chaotic and quantum mechanisms and fruit fly optimization algorithm with least squares support vector regression model in electric load forecasting",
+          "volume": "11",
+          "author": "Li",
+          "year": "2018",
+          "journal-title": "Energies"
+        },
+        {
+          "issue": "10",
+          "key": "10.1016/j.esr.2024.101298_b96",
+          "doi-asserted-by": "crossref",
+          "first-page": "2763",
+          "DOI": "10.3390/su11102763",
+          "article-title": "Game theoretical energy management with storage capacity optimization and photo-voltaic cell generated power forecasting in micro grid",
+          "volume": "11",
+          "author": "Naz",
+          "year": "2019",
+          "journal-title": "Sustainability"
+        },
+        {
+          "issue": "10",
+          "key": "10.1016/j.esr.2024.101298_b97",
+          "doi-asserted-by": "crossref",
+          "first-page": "1858",
+          "DOI": "10.3390/en12101858",
+          "article-title": "Optimal operational scheduling of reconfigurable microgrids in presence of renewable energy sources",
+          "volume": "12",
+          "author": "Yaprakdal",
+          "year": "2019",
+          "journal-title": "Energies"
+        },
+        {
+          "issue": "3",
+          "key": "10.1016/j.esr.2024.101298_b98",
+          "doi-asserted-by": "crossref",
+          "first-page": "470",
+          "DOI": "10.1049/iet-gtd.2019.0869",
+          "article-title": "EMD–PSO–ANFIS-based hybrid approach for short-term load forecasting in microgrids",
+          "volume": "14",
+          "author": "Semero",
+          "year": "2020",
+          "journal-title": "IET Gener. Transm. Distrib."
+        },
+        {
+          "key": "10.1016/j.esr.2024.101298_b99",
+          "series-title": "Nature-Inspired Computation and Swarm Intelligence",
+          "first-page": "247",
+          "article-title": "Optimized controller design for islanded microgrid employing nondominated sorting firefly algorithm",
+          "author": "Islam",
+          "year": "2020"
+        },
+        {
+          "key": "10.1016/j.esr.2024.101298_b100",
+          "doi-asserted-by": "crossref",
+          "first-page": "1191",
+          "DOI": "10.1016/j.renene.2020.03.169",
+          "article-title": "Power forecasting-based coordination dispatch of PV power generation and electric vehicles charging in microgrid",
+          "volume": "155",
+          "author": "Hao",
+          "year": "2020",
+          "journal-title": "Renew. Energy"
+        },
+        {
+          "key": "10.1016/j.esr.2024.101298_b101",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1016/j.epsr.2020.106232",
+          "article-title": "Towards efficient energy management in smart grids considering microgrids with day-ahead energy forecasting",
+          "volume": "182",
+          "author": "Aslam",
+          "year": "2020",
+          "journal-title": "Electr. Power Syst. Res."
+        },
+        {
+          "key": "10.1016/j.esr.2024.101298_b102",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1016/j.rser.2020.110452",
+          "article-title": "Toward sustainable microgrids with blockchain technology-based peer-to-peer energy trading mechanism: A fuzzy meta-heuristic approach",
+          "volume": "136",
+          "author": "Tsao",
+          "year": "2021",
+          "journal-title": "Renew. Sustain. Energy Rev."
+        },
+        {
+          "issue": "8",
+          "key": "10.1016/j.esr.2024.101298_b103",
+          "doi-asserted-by": "crossref",
+          "first-page": "1733",
+          "DOI": "10.3390/sym14081733",
+          "article-title": "A metaheuristics-based inputs selection and training set formation method for load forecasting",
+          "volume": "14",
+          "author": "Panapakidis",
+          "year": "2022",
+          "journal-title": "Symmetry"
+        },
+        {
+          "key": "10.1016/j.esr.2024.101298_b104",
+          "series-title": "2022 IEEE 31st International Symposium on Industrial Electronics",
+          "first-page": "462",
+          "article-title": "Energy management system for an isolated microgrid based on Fuzzy logic control and meta-heuristic algorithms",
+          "author": "Rodriguez",
+          "year": "2022"
+        },
+        {
+          "key": "10.1016/j.esr.2024.101298_b105",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1016/j.est.2022.105311",
+          "article-title": "Optimal economic scheduling of microgrids considering renewable energy sources based on energy hub model using demand response and improved water wave optimization algorithm",
+          "volume": "55",
+          "author": "Jiang",
+          "year": "2022",
+          "journal-title": "J. Energy Storage"
+        },
+        {
+          "key": "10.1016/j.esr.2024.101298_b106",
+          "doi-asserted-by": "crossref",
+          "first-page": "187",
+          "DOI": "10.1016/j.jclepro.2018.05.190",
+          "article-title": "Multi-objective optimal load dispatch of microgrid with stochastic access of electric vehicles",
+          "volume": "195",
+          "author": "Lu",
+          "year": "2018",
+          "journal-title": "J. Clean. Prod."
+        },
+        {
+          "key": "10.1016/j.esr.2024.101298_b107",
+          "doi-asserted-by": "crossref",
+          "first-page": "93",
+          "DOI": "10.1016/j.epsr.2017.10.006",
+          "article-title": "Intelligent control strategy in the islanded network of a solar PV microgrid",
+          "volume": "155",
+          "author": "Vinayagam",
+          "year": "2018",
+          "journal-title": "Electr. Power Syst. Res."
+        },
+        {
+          "issue": "11",
+          "key": "10.1016/j.esr.2024.101298_b108",
+          "doi-asserted-by": "crossref",
+          "first-page": "840",
+          "DOI": "10.3390/pr7110840",
+          "article-title": "Salp swarm optimization algorithm-based controller for dynamic response and power quality enhancement of an islanded microgrid",
+          "volume": "7",
+          "author": "Jumani",
+          "year": "2019",
+          "journal-title": "Processes"
+        },
+        {
+          "issue": "3",
+          "key": "10.1016/j.esr.2024.101298_b109",
+          "doi-asserted-by": "crossref",
+          "first-page": "37",
+          "DOI": "10.3390/inventions4030037",
+          "article-title": "An innovative stochastic multi-agent-based energy management approach for microgrids considering uncertainties",
+          "volume": "4",
+          "author": "Ghorbani",
+          "year": "2019",
+          "journal-title": "Inventions"
+        },
+        {
+          "issue": "3",
+          "key": "10.1016/j.esr.2024.101298_b110",
+          "doi-asserted-by": "crossref",
+          "first-page": "2857",
+          "DOI": "10.3233/JIFS-171688",
+          "article-title": "Multi-objective day-ahead scheduling of microgrids using modified grey wolf optimizer algorithm",
+          "volume": "36",
+          "author": "Javidsharifi",
+          "year": "2019",
+          "journal-title": "J. Intell. Fuzzy Systems"
+        },
+        {
+          "key": "10.1016/j.esr.2024.101298_b111",
+          "series-title": "2019 International Conference on Intelligent Transportation, Big Data & Smart City",
+          "first-page": "103",
+          "article-title": "GA based multi-objective operation optimization of power microgrid",
+          "author": "Xu",
+          "year": "2019"
+        },
+        {
+          "key": "10.1016/j.esr.2024.101298_b112",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1016/j.enconman.2020.113161",
+          "article-title": "A rule-based energy management scheme for long-term optimal capacity planning of grid-independent microgrid optimized by multi-objective grasshopper optimization algorithm",
+          "volume": "221",
+          "author": "Bukar",
+          "year": "2020",
+          "journal-title": "Energy Convers. Manage."
+        },
+        {
+          "key": "10.1016/j.esr.2024.101298_b113",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1016/j.energy.2020.118716",
+          "article-title": "Smart integration of renewable energy resources, electrical, and thermal energy storage in microgrid applications",
+          "volume": "212",
+          "author": "Tooryan",
+          "year": "2020",
+          "journal-title": "Energy"
+        },
+        {
+          "key": "10.1016/j.esr.2024.101298_b114",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1016/j.energy.2020.117059",
+          "article-title": "Optimal sizing of Battery Energy Storage Systems for dynamic frequency control in an islanded microgrid: A case study of Flinders Island, Australia",
+          "volume": "195",
+          "author": "El-Bidairi",
+          "year": "2020",
+          "journal-title": "Energy"
+        },
+        {
+          "issue": "11",
+          "key": "10.1016/j.esr.2024.101298_b115",
+          "doi-asserted-by": "crossref",
+          "first-page": "12581",
+          "DOI": "10.1002/2050-7038.12581",
+          "article-title": "A mixed binary-continuous particle swarm optimisation algorithm for unit commitment in microgrids considering uncertainties and emissions",
+          "volume": "30",
+          "author": "Rezaee Jordehi",
+          "year": "2020",
+          "journal-title": "Int. Trans. Electr. Energy Syst."
+        },
+        {
+          "issue": "5",
+          "key": "10.1016/j.esr.2024.101298_b116",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1115/1.4046098",
+          "article-title": "Energy management of microgrid considering renewable energy sources and electric vehicles using the backtracking search optimization algorithm",
+          "volume": "142",
+          "author": "Li",
+          "year": "2020",
+          "journal-title": "J. Energy Resour. Technol."
+        },
+        {
+          "issue": "2",
+          "key": "10.1016/j.esr.2024.101298_b117",
+          "doi-asserted-by": "crossref",
+          "first-page": "1755",
+          "DOI": "10.1109/TIA.2020.3047587",
+          "article-title": "Reliable islanded microgrid operation using dynamic optimal power management",
+          "volume": "57",
+          "author": "Harasis",
+          "year": "2020",
+          "journal-title": "IEEE Trans. Ind. Appl."
+        },
+        {
+          "key": "10.1016/j.esr.2024.101298_b118",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1016/j.est.2020.101340",
+          "article-title": "Influence of different time horizon-based battery energy management strategies on residential microgrid profitability",
+          "volume": "29",
+          "author": "Vincent",
+          "year": "2020",
+          "journal-title": "J. Energy Storage"
+        },
+        {
+          "issue": "4",
+          "key": "10.1016/j.esr.2024.101298_b119",
+          "doi-asserted-by": "crossref",
+          "first-page": "1653",
+          "DOI": "10.3390/su12041653",
+          "article-title": "A deep neural network-assisted approach to enhance short-term optimal operational scheduling of a microgrid",
+          "volume": "12",
+          "author": "Yaprakdal",
+          "year": "2020",
+          "journal-title": "Sustainability"
+        },
+        {
+          "key": "10.1016/j.esr.2024.101298_b120",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1016/j.asoc.2019.105903",
+          "article-title": "Optimization strategies for microgrid energy management systems by genetic algorithms",
+          "volume": "86",
+          "author": "Leonori",
+          "year": "2020",
+          "journal-title": "Appl. Soft Comput."
+        },
+        {
+          "issue": "19",
+          "key": "10.1016/j.esr.2024.101298_b121",
+          "doi-asserted-by": "crossref",
+          "first-page": "5000",
+          "DOI": "10.3390/en13195000",
+          "article-title": "Smart energy management system of environmentally friendly microgrid based on grasshopper optimization technique",
+          "volume": "13",
+          "author": "Gad",
+          "year": "2020",
+          "journal-title": "Energies"
+        },
+        {
+          "key": "10.1016/j.esr.2024.101298_b122",
+          "article-title": "Design of water pumped storage systems: A sensitivity and scenario analysis for island microgrids",
+          "volume": "42",
+          "author": "Lopes",
+          "year": "2020",
+          "journal-title": "Sustain. Energy Technol. Assess."
+        },
+        {
+          "issue": "6",
+          "key": "10.1016/j.esr.2024.101298_b123",
+          "doi-asserted-by": "crossref",
+          "first-page": "4834",
+          "DOI": "10.1109/TSG.2021.3092283",
+          "article-title": "Optimal energy management of microgrids using quantum teaching learning based algorithm",
+          "volume": "12",
+          "author": "Raghav",
+          "year": "2021",
+          "journal-title": "IEEE Trans. Smart Grid"
+        },
+        {
+          "issue": "14",
+          "key": "10.1016/j.esr.2024.101298_b124",
+          "doi-asserted-by": "crossref",
+          "first-page": "7710",
+          "DOI": "10.3390/su13147710",
+          "article-title": "Optimal operation of stand-alone microgrid considering emission issues and demand response program using whale optimization algorithm",
+          "volume": "13",
+          "author": "Tahmasebi",
+          "year": "2021",
+          "journal-title": "Sustainability"
+        },
+        {
+          "issue": "1",
+          "key": "10.1016/j.esr.2024.101298_b125",
+          "doi-asserted-by": "crossref",
+          "first-page": "82",
+          "DOI": "10.1109/TASE.2021.3072862",
+          "article-title": "Efficient and sustainable reconfiguration of distribution networks via metaheuristic optimization",
+          "volume": "19",
+          "author": "Helmi",
+          "year": "2021",
+          "journal-title": "IEEE Trans. Autom. Sci. Eng."
+        },
+        {
+          "key": "10.1016/j.esr.2024.101298_b126",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1016/j.enconman.2022.115920",
+          "article-title": "Energy management model for a standalone hybrid microgrid through a particle swarm optimization and artificial neural networks approach",
+          "volume": "267",
+          "author": "Aguila-Leon",
+          "year": "2022",
+          "journal-title": "Energy Convers. Manage."
+        },
+        {
+          "key": "10.1016/j.esr.2024.101298_b127",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1016/j.est.2022.106389",
+          "article-title": "Stationary and mobile storages-based renewable off-grid system planning considering storage degradation cost based on information-gap decision theory optimization",
+          "volume": "58",
+          "author": "Jokar",
+          "year": "2023",
+          "journal-title": "J. Energy Storage"
+        },
+        {
+          "key": "10.1016/j.esr.2024.101298_b128",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1016/j.asoc.2022.109981",
+          "article-title": "Microgrid energy management using metaheuristic optimization algorithms",
+          "volume": "134",
+          "author": "Suresh",
+          "year": "2023",
+          "journal-title": "Appl. Soft Comput."
+        },
+        {
+          "key": "10.1016/j.esr.2024.101298_b129",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1016/j.egyai.2022.100212",
+          "article-title": "Consensus-based dispatch optimization of a microgrid considering meta-heuristic-based demand response scheduling and network packet loss characterization",
+          "volume": "11",
+          "author": "Jasim",
+          "year": "2023",
+          "journal-title": "Energy AI"
+        },
+        {
+          "key": "10.1016/j.esr.2024.101298_b130",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1016/j.apenergy.2023.120771",
+          "article-title": "Fuzzy logic-based energy management for isolated microgrid using meta-heuristic optimization algorithms",
+          "volume": "335",
+          "author": "Rodriguez",
+          "year": "2023",
+          "journal-title": "Appl. Energy"
+        },
+        {
+          "key": "10.1016/j.esr.2024.101298_b131",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1049/rpg2.12699",
+          "article-title": "Optimization of micro grid with distributed energy resources using physics based meta heuristic techniques",
+          "author": "Vaish",
+          "year": "2023",
+          "journal-title": "IET Renew. Power Gener."
+        },
+        {
+          "issue": "4",
+          "key": "10.1016/j.esr.2024.101298_b132",
+          "doi-asserted-by": "crossref",
+          "first-page": "1062",
+          "DOI": "10.3390/electronics12041062",
+          "article-title": "Multi-objective optimization algorithms for a hybrid AC/DC microgrid using RES: A comprehensive review",
+          "volume": "12",
+          "author": "Nallolla",
+          "year": "2023",
+          "journal-title": "Electronics"
+        },
+        {
+          "issue": "1",
+          "key": "10.1016/j.esr.2024.101298_b133",
+          "doi-asserted-by": "crossref",
+          "first-page": "491",
+          "DOI": "10.3390/smartcities6010023",
+          "article-title": "A day ahead demand schedule strategy for optimal operation of microgrid with uncertainty",
+          "volume": "6",
+          "author": "Battula",
+          "year": "2023",
+          "journal-title": "Smart Cities"
+        },
+        {
+          "issue": "1",
+          "key": "10.1016/j.esr.2024.101298_b134",
+          "doi-asserted-by": "crossref",
+          "first-page": "237",
+          "DOI": "10.3390/electronics12010237",
+          "article-title": "Decentralized energy management system in microgrid considering uncertainty and demand response",
+          "volume": "12",
+          "author": "Wynn",
+          "year": "2023",
+          "journal-title": "Electronics"
+        },
+        {
+          "key": "10.1016/j.esr.2024.101298_b135",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1016/j.apenergy.2022.120525",
+          "article-title": "A novel deep learning-based forecasting model optimized by heuristic algorithm for energy management of microgrid",
+          "volume": "332",
+          "author": "Kim",
+          "year": "2023",
+          "journal-title": "Appl. Energy"
+        },
+        {
+          "key": "10.1016/j.esr.2024.101298_b136",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1016/j.est.2023.107240",
+          "article-title": "Optimal operation of battery storage systems in standalone and grid-connected DC microgrids using parallel metaheuristic optimization algorithms",
+          "volume": "65",
+          "author": "Grisales-Noreña",
+          "year": "2023",
+          "journal-title": "J. Energy Storage"
+        },
+        {
+          "key": "10.1016/j.esr.2024.101298_b137",
+          "article-title": "A comprehensive review on sustainable energy management systems for optimal operation of future-generation of solar microgrids",
+          "volume": "58",
+          "author": "Tajjour",
+          "year": "2023",
+          "journal-title": "Sustain. Energy Technol. Assess."
+        },
+        {
+          "issue": "5",
+          "key": "10.1016/j.esr.2024.101298_b138",
+          "doi-asserted-by": "crossref",
+          "first-page": "5136",
+          "DOI": "10.1109/TSG.2018.2877999",
+          "article-title": "A multilayer and event-triggered voltage and frequency management technique for microgrid’s central controller considering operational and sustainability aspects",
+          "volume": "10",
+          "author": "Shoeb",
+          "year": "2018",
+          "journal-title": "IEEE Trans. Smart Grid"
+        },
+        {
+          "key": "10.1016/j.esr.2024.101298_b139",
+          "doi-asserted-by": "crossref",
+          "first-page": "696",
+          "DOI": "10.1016/j.epsr.2017.09.001",
+          "article-title": "Whale optimization algorithm based optimal reactive power dispatch: A case study of the Algerian power system",
+          "volume": "163",
+          "author": "ben oualid Medani",
+          "year": "2018",
+          "journal-title": "Electr. Power Syst. Res."
+        },
+        {
+          "key": "10.1016/j.esr.2024.101298_b140",
+          "doi-asserted-by": "crossref",
+          "first-page": "188",
+          "DOI": "10.1016/j.ijepes.2017.08.027",
+          "article-title": "Hierarchical control for flexible microgrid based on three-phase voltage source inverters operated in parallel",
+          "volume": "95",
+          "author": "Ziouani",
+          "year": "2018",
+          "journal-title": "Int. J. Electr. Power Energy Syst."
+        },
+        {
+          "issue": "21",
+          "key": "10.1016/j.esr.2024.101298_b141",
+          "doi-asserted-by": "crossref",
+          "first-page": "5739",
+          "DOI": "10.1049/iet-gtd.2018.5715",
+          "article-title": "Water cycle algorithm-based optimal control strategy for efficient operation of an autonomous microgrid",
+          "volume": "12",
+          "author": "Hasanien",
+          "year": "2018",
+          "journal-title": "IET Gener. Transm. Distrib."
+        },
+        {
+          "issue": "11",
+          "key": "10.1016/j.esr.2024.101298_b142",
+          "doi-asserted-by": "crossref",
+          "first-page": "3191",
+          "DOI": "10.3390/en11113191",
+          "article-title": "Optimal voltage and frequency control of an islanded microgrid using grasshopper optimization algorithm",
+          "volume": "11",
+          "author": "Jumani",
+          "year": "2018",
+          "journal-title": "Energies"
+        },
+        {
+          "key": "10.1016/j.esr.2024.101298_b143",
+          "series-title": "2019 IEEE Region 10 Symposium",
+          "first-page": "795",
+          "article-title": "Virtual power plant enabled co-ordinated frequency control of a grid connected independent hybrid microgrid using firefly algorithm",
+          "author": "Khan",
+          "year": "2019"
+        },
+        {
+          "key": "10.1016/j.esr.2024.101298_b144",
+          "doi-asserted-by": "crossref",
+          "first-page": "357",
+          "DOI": "10.1016/j.ijepes.2019.03.027",
+          "article-title": "Robust type-2 fuzzy fractional order PID controller for dynamic stability enhancement of power system having RES based microgrid penetration",
+          "volume": "110",
+          "author": "Abdulkhader",
+          "year": "2019",
+          "journal-title": "Int. J. Electr. Power Energy Syst."
+        },
+        {
+          "issue": "5",
+          "key": "10.1016/j.esr.2024.101298_b145",
+          "doi-asserted-by": "crossref",
+          "first-page": "725",
+          "DOI": "10.1049/iet-rpg.2018.5419",
+          "article-title": "Comparative performance evaluation of WCA-optimised non-integer controller employed with WPG–DSPG–PHEV based isolated two-area interconnected microgrid system",
+          "volume": "13",
+          "author": "Latif",
+          "year": "2019",
+          "journal-title": "IET Renew. Power Gener."
+        },
+        {
+          "key": "10.1016/j.esr.2024.101298_b146",
+          "doi-asserted-by": "crossref",
+          "first-page": "1166",
+          "DOI": "10.1016/j.energy.2019.06.029",
+          "article-title": "Power flow management in micro grid through renewable energy sources using a hybrid modified dragonfly algorithm with bat search algorithm",
+          "volume": "181",
+          "author": "Sureshkumar",
+          "year": "2019",
+          "journal-title": "Energy"
+        },
+        {
+          "issue": "11",
+          "key": "10.1016/j.esr.2024.101298_b147",
+          "doi-asserted-by": "crossref",
+          "first-page": "10806",
+          "DOI": "10.1109/TIE.2020.3029483",
+          "article-title": "Intelligent multiobjective NSBGA-II control of power converters in DC microgrids",
+          "volume": "68",
+          "author": "Vafamand",
+          "year": "2020",
+          "journal-title": "IEEE Trans. Ind. Electron."
+        },
+        {
+          "issue": "1",
+          "key": "10.1016/j.esr.2024.101298_b148",
+          "doi-asserted-by": "crossref",
+          "first-page": "205",
+          "DOI": "10.1007/s42835-020-00596-2",
+          "article-title": "Real time simulation for load frequency control of multisource microgrid system using grey wolf optimization based modified bias coefficient diagram method (GWO-MBCDM) controller",
+          "volume": "16",
+          "author": "Kumar",
+          "year": "2021",
+          "journal-title": "J. Electr. Eng. Technol."
+        },
+        {
+          "key": "10.1016/j.esr.2024.101298_b149",
+          "first-page": "1",
+          "article-title": "Effective control of voltage and frequency in microgrid using adjustment of PID coefficients by metaheuristic algorithms",
+          "author": "Rajamand",
+          "year": "2021",
+          "journal-title": "IETE J. Res."
+        },
+        {
+          "issue": "2",
+          "key": "10.1016/j.esr.2024.101298_b150",
+          "doi-asserted-by": "crossref",
+          "first-page": "2568",
+          "DOI": "10.1109/JSYST.2021.3100409",
+          "article-title": "Allocation of dump load in islanded microgrid using the mixed-integer distributed ant colony optimization",
+          "volume": "16",
+          "author": "Kreishan",
+          "year": "2021",
+          "journal-title": "IEEE Syst. J."
+        },
+        {
+          "key": "10.1016/j.esr.2024.101298_b151",
+          "series-title": "Sustainable Energy and Technological Advancements",
+          "first-page": "267",
+          "article-title": "Frequency control of GWO-optimized two-area microgrid with TIDF-II, I-PD and I-TD",
+          "author": "Roy",
+          "year": "2022"
+        },
+        {
+          "key": "10.1016/j.esr.2024.101298_b152",
+          "first-page": "1",
+          "article-title": "Designing optimized PID controller using improved bacterial foraging optimization algorithm for robust frequency control of islanded microgrid",
+          "author": "Luo",
+          "year": "2022",
+          "journal-title": "Int. J. Dyn. Control"
+        },
+        {
+          "issue": "2",
+          "key": "10.1016/j.esr.2024.101298_b153",
+          "first-page": "1241",
+          "article-title": "Comparative analysis of optimal power flow in renewable energy sources based microgrids",
+          "volume": "13",
+          "author": "Muzzammel",
+          "year": "2023",
+          "journal-title": "Int. J. Electr. Comput. Eng."
+        },
+        {
+          "issue": "3",
+          "key": "10.1016/j.esr.2024.101298_b154",
+          "first-page": "724",
+          "article-title": "An optimal dispatch strategy for distributed microgrids using PSO",
+          "volume": "6",
+          "author": "Yousif",
+          "year": "2019",
+          "journal-title": "CSEE J. Power Energy Syst."
+        },
+        {
+          "key": "10.1016/j.esr.2024.101298_b155",
+          "doi-asserted-by": "crossref",
+          "first-page": "337",
+          "DOI": "10.1016/j.conengprac.2018.12.004",
+          "article-title": "ABC based reduced order modelling of microgrid in grid-tied mode",
+          "volume": "84",
+          "author": "Juneja",
+          "year": "2019",
+          "journal-title": "Control Eng. Pract."
+        },
+        {
+          "key": "10.1016/j.esr.2024.101298_b156",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1016/j.est.2020.101556",
+          "article-title": "Optimization and energy management of distributed energy resources for a hybrid residential microgrid",
+          "volume": "30",
+          "author": "Tooryan",
+          "year": "2020",
+          "journal-title": "J. Energy Storage"
+        },
+        {
+          "issue": "1",
+          "key": "10.1016/j.esr.2024.101298_b157",
+          "doi-asserted-by": "crossref",
+          "first-page": "225",
+          "DOI": "10.1111/coin.12257",
+          "article-title": "Employing a gaussian particle swarm optimization method for tuning multi input multi output-fuzzy system as an integrated controller of a micro-grid with stability analysis",
+          "volume": "36",
+          "author": "Mir",
+          "year": "2020",
+          "journal-title": "Comput. Intell."
+        },
+        {
+          "issue": "21",
+          "key": "10.1016/j.esr.2024.101298_b158",
+          "doi-asserted-by": "crossref",
+          "first-page": "5726",
+          "DOI": "10.3390/en13215726",
+          "article-title": "An improved inverse-time over-current protection method for a microgrid with optimized acceleration and coordination",
+          "volume": "13",
+          "author": "Ji",
+          "year": "2020",
+          "journal-title": "Energies"
+        },
+        {
+          "key": "10.1016/j.esr.2024.101298_b159",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1016/j.enconman.2020.112495",
+          "article-title": "Probabilistic optimal coordinated planning of molten carbonate fuel cell-CHP and renewable energy sources in microgrids considering hydrogen storage with point estimate method",
+          "volume": "206",
+          "author": "Bornapour",
+          "year": "2020",
+          "journal-title": "Energy Convers. Manage."
+        },
+        {
+          "issue": "4",
+          "key": "10.1016/j.esr.2024.101298_b160",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1002/2050-7038.12195",
+          "article-title": "Generalized stochastic Petri nets for uncertain renewable-based hybrid generation and load in a microgrid system",
+          "volume": "30",
+          "author": "Jana",
+          "year": "2020",
+          "journal-title": "Int. Trans. Electr. Energy Syst."
+        },
+        {
+          "issue": "5",
+          "key": "10.1016/j.esr.2024.101298_b161",
+          "doi-asserted-by": "crossref",
+          "first-page": "738",
+          "DOI": "10.1049/iet-stg.2019.0328",
+          "article-title": "Multi-objective long-term reconfiguration of autonomous microgrids through controlled mutation differential evolution algorithm",
+          "volume": "3",
+          "author": "Gholami",
+          "year": "2020",
+          "journal-title": "IET Smart Grid"
+        },
+        {
+          "key": "10.1016/j.esr.2024.101298_b162",
+          "doi-asserted-by": "crossref",
+          "first-page": "339",
+          "DOI": "10.1016/j.enconman.2019.01.107",
+          "article-title": "Techno-economic optimization of an off-grid hybrid renewable energy system using metaheuristic optimization approaches–case of a radio transmitter station in India",
+          "volume": "185",
+          "author": "Das",
+          "year": "2019",
+          "journal-title": "Energy Convers. Manage."
+        },
+        {
+          "issue": "4",
+          "key": "10.1016/j.esr.2024.101298_b163",
+          "doi-asserted-by": "crossref",
+          "first-page": "922",
+          "DOI": "10.3390/en13040922",
+          "article-title": "Optimal coordination of overcurrent relays in microgrids considering a non-standard characteristic",
+          "volume": "13",
+          "author": "Saldarriaga-Zuluaga",
+          "year": "2020",
+          "journal-title": "Energies"
+        },
+        {
+          "key": "10.1016/j.esr.2024.101298_b164",
+          "article-title": "Urban microgrid ancillary service provision using plugin electric vehicle and waste-to-energy CHP",
+          "volume": "29",
+          "author": "Panah",
+          "year": "2020",
+          "journal-title": "J. Energy Storage"
+        },
+        {
+          "issue": "19",
+          "key": "10.1016/j.esr.2024.101298_b165",
+          "doi-asserted-by": "crossref",
+          "first-page": "8119",
+          "DOI": "10.3390/su12198119",
+          "article-title": "Goal-programming-based multi-objective optimization in off-grid microgrids",
+          "volume": "12",
+          "author": "Hussain",
+          "year": "2020",
+          "journal-title": "Sustainability"
+        },
+        {
+          "key": "10.1016/j.esr.2024.101298_b166",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1016/j.apenergy.2021.117758",
+          "article-title": "Multi-objective non-weighted optimization to explore new efficient design of electrical microgrids",
+          "volume": "304",
+          "author": "Dougier",
+          "year": "2021",
+          "journal-title": "Appl. Energy"
+        },
+        {
+          "key": "10.1016/j.esr.2024.101298_b167",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1016/j.energy.2022.126098",
+          "article-title": "Renewable source uncertainties effects in multi-carrier microgrids based on an intelligent algorithm",
+          "volume": "265",
+          "author": "Ma",
+          "year": "2023",
+          "journal-title": "Energy"
+        },
+        {
+          "key": "10.1016/j.esr.2024.101298_b168",
+          "doi-asserted-by": "crossref",
+          "first-page": "204",
+          "DOI": "10.1016/j.energy.2018.06.029",
+          "article-title": "Optimizing renewable based generations in AC/DC microgrid system using hybrid Nelder-Mead–Cuckoo search algorithm",
+          "volume": "158",
+          "author": "Kumar",
+          "year": "2018",
+          "journal-title": "Energy"
+        },
+        {
+          "issue": "7",
+          "key": "10.1016/j.esr.2024.101298_b169",
+          "doi-asserted-by": "crossref",
+          "first-page": "2173",
+          "DOI": "10.1007/s00521-016-2795-5",
+          "article-title": "An economic load dispatch and multiple environmental dispatch problem solution with microgrids using interior search algorithm",
+          "volume": "30",
+          "author": "Trivedi",
+          "year": "2018",
+          "journal-title": "Neural Comput. Appl."
+        },
+        {
+          "issue": "9",
+          "key": "10.1016/j.esr.2024.101298_b170",
+          "doi-asserted-by": "crossref",
+          "first-page": "2381",
+          "DOI": "10.3390/en11092381",
+          "article-title": "Optimal scheduling of microgrid with distributed power based on water cycle algorithm",
+          "volume": "11",
+          "author": "Yang",
+          "year": "2018",
+          "journal-title": "Energies"
+        },
+        {
+          "issue": "4",
+          "key": "10.1016/j.esr.2024.101298_b171",
+          "doi-asserted-by": "crossref",
+          "first-page": "847",
+          "DOI": "10.3390/en11040847",
+          "article-title": "Grey wolf optimization-based optimum energy-management and battery- sizing method for grid-connected microgrids",
+          "volume": "11",
+          "author": "Nimma",
+          "year": "2018",
+          "journal-title": "Energies"
+        },
+        {
+          "issue": "7",
+          "key": "10.1016/j.esr.2024.101298_b172",
+          "doi-asserted-by": "crossref",
+          "first-page": "859",
+          "DOI": "10.1049/iet-rpg.2017.0480",
+          "article-title": "Optimal sizing of wind–PV-based DC microgrid for telecom power supply in remote areas",
+          "volume": "12",
+          "author": "Kaur",
+          "year": "2018",
+          "journal-title": "IET Renew. Power Gener."
+        },
+        {
+          "key": "10.1016/j.esr.2024.101298_b173",
+          "doi-asserted-by": "crossref",
+          "first-page": "37",
+          "DOI": "10.1016/j.renene.2018.05.066",
+          "article-title": "Bi-objective economic feasibility of hybrid micro-grid systems with multiple fuel options for islanded areas in Egypt",
+          "volume": "128",
+          "author": "Abo-Elyousr",
+          "year": "2018",
+          "journal-title": "Renew. Energy"
+        },
+        {
+          "issue": "12",
+          "key": "10.1016/j.esr.2024.101298_b174",
+          "doi-asserted-by": "crossref",
+          "first-page": "3499",
+          "DOI": "10.3390/en11123499",
+          "article-title": "Application of particle swarm optimization to a scheduling strategy for microgrids coupled with natural gas networks",
+          "volume": "11",
+          "author": "Yousif",
+          "year": "2018",
+          "journal-title": "Energies"
+        },
+        {
+          "issue": "6",
+          "key": "10.1016/j.esr.2024.101298_b175",
+          "doi-asserted-by": "crossref",
+          "first-page": "1513",
+          "DOI": "10.3390/en11061513",
+          "article-title": "Jaya based optimization method with high dispatchable distributed generation for residential microgrid",
+          "volume": "11",
+          "author": "Samuel",
+          "year": "2018",
+          "journal-title": "Energies"
+        },
+        {
+          "key": "10.1016/j.esr.2024.101298_b176",
+          "doi-asserted-by": "crossref",
+          "first-page": "622",
+          "DOI": "10.1016/j.jclepro.2018.07.315",
+          "article-title": "Decentralized trading of plug-in electric vehicle aggregation agents for optimal energy management of smart renewable penetrated microgrids with the aim of CO2 emission reduction",
+          "volume": "200",
+          "author": "Shamshirband",
+          "year": "2018",
+          "journal-title": "J. Clean. Prod."
+        },
+        {
+          "key": "10.1016/j.esr.2024.101298_b177",
+          "doi-asserted-by": "crossref",
+          "first-page": "685",
+          "DOI": "10.1016/j.solener.2019.06.050",
+          "article-title": "Optimal sizing of an autonomous photovoltaic/wind/battery/diesel generator microgrid using grasshopper optimization algorithm",
+          "volume": "188",
+          "author": "Bukar",
+          "year": "2019",
+          "journal-title": "Sol. Energy"
+        },
+        {
+          "key": "10.1016/j.esr.2024.101298_b178",
+          "doi-asserted-by": "crossref",
+          "first-page": "751",
+          "DOI": "10.1016/j.energy.2019.04.152",
+          "article-title": "Optimal sizing and techno-economic analysis of energy-and cost- efficient standalone multi-carrier microgrid",
+          "volume": "178",
+          "author": "Lorestani",
+          "year": "2019",
+          "journal-title": "Energy"
+        },
+        {
+          "issue": "1",
+          "key": "10.1016/j.esr.2024.101298_b179",
+          "doi-asserted-by": "crossref",
+          "first-page": "227",
+          "DOI": "10.1109/TPWRS.2019.2924137",
+          "article-title": "A planning model for a hybrid AC–DC microgrid using a novel GA/AC OPF algorithm",
+          "volume": "35",
+          "author": "Rousis",
+          "year": "2019",
+          "journal-title": "IEEE Trans. Power Syst."
+        },
+        {
+          "issue": "18",
+          "key": "10.1016/j.esr.2024.101298_b180",
+          "first-page": "5280",
+          "article-title": "Multiobjective optimal sizing of battery energy storage in grid- connected microgrid",
+          "volume": "2019",
+          "author": "Parashar",
+          "year": "2019",
+          "journal-title": "J. Eng."
+        },
+        {
+          "key": "10.1016/j.esr.2024.101298_b181",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1016/j.enconman.2019.112105",
+          "article-title": "A demand response-centred approach to the long-term equipment capacity planning of grid-independent micro-grids optimized by the moth-flame optimization algorithm",
+          "volume": "200",
+          "author": "Mohseni",
+          "year": "2019",
+          "journal-title": "Energy Convers. Manage."
+        },
+        {
+          "issue": "11",
+          "key": "10.1016/j.esr.2024.101298_b182",
+          "doi-asserted-by": "crossref",
+          "first-page": "2143",
+          "DOI": "10.3390/en12112143",
+          "article-title": "An evolutionary computational approach for the problem of unit commitment and economic dispatch in microgrids under several operation modes",
+          "volume": "12",
+          "author": "Alvarado-Barrios",
+          "year": "2019",
+          "journal-title": "Energies"
+        },
+        {
+          "key": "10.1016/j.esr.2024.101298_b183",
+          "doi-asserted-by": "crossref",
+          "first-page": "1",
+          "DOI": "10.1016/j.ijepes.2018.09.037",
+          "article-title": "Stochastic multi-objective economic-environmental energy and reserve scheduling of microgrids considering battery energy storage system",
+          "volume": "106",
+          "author": "Sedighizadeh",
+          "year": "2019",
+          "journal-title": "Int. J. Electr. Power Energy Syst."
+        },
+        {
+          "issue": "1",
+          "key": "10.1016/j.esr.2024.101298_b184",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1063/1.5041492",
+          "article-title": "Optimal energy-emission management in hybrid AC-DC microgrids with vehicle-2-grid technology",
+          "volume": "11",
+          "author": "Papari",
+          "year": "2019",
+          "journal-title": "J. Renew. Sustain. Energy"
+        },
+        {
+          "key": "10.1016/j.esr.2024.101298_b185",
+          "doi-asserted-by": "crossref",
+          "first-page": "257",
+          "DOI": "10.1016/j.est.2018.12.021",
+          "article-title": "Energy management of community microgrids considering degradation cost of battery",
+          "volume": "22",
+          "author": "Hossain",
+          "year": "2019",
+          "journal-title": "J. Energy Storage"
+        },
+        {
+          "key": "10.1016/j.esr.2024.101298_b186",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1016/j.apenergy.2019.113399",
+          "article-title": "Optimisation framework for the design and operation of open-market urban and remote community microgrids",
+          "volume": "252",
+          "author": "Meena",
+          "year": "2019",
+          "journal-title": "Appl. Energy"
+        },
+        {
+          "key": "10.1016/j.esr.2024.101298_b187",
+          "doi-asserted-by": "crossref",
+          "first-page": "1335",
+          "DOI": "10.1016/j.enconman.2019.06.045",
+          "article-title": "The role of intelligent generation control algorithms in optimizing battery energy storage systems size in microgrids: A case study from Western Australia",
+          "volume": "196",
+          "author": "Mahmoud",
+          "year": "2019",
+          "journal-title": "Energy Convers. Manage."
+        },
+        {
+          "key": "10.1016/j.esr.2024.101298_b188",
+          "doi-asserted-by": "crossref",
+          "first-page": "17",
+          "DOI": "10.1016/j.est.2019.01.023",
+          "article-title": "A cost-efficient application of different battery energy storage technologies in microgrids considering load uncertainty",
+          "volume": "22",
+          "author": "Yamchi",
+          "year": "2019",
+          "journal-title": "J. Energy Storage"
+        },
+        {
+          "key": "10.1016/j.esr.2024.101298_b189",
+          "doi-asserted-by": "crossref",
+          "first-page": "129",
+          "DOI": "10.1016/j.ref.2020.05.002",
+          "article-title": "Optimal energy management of microgrids under environmental constraints using chaos enhanced differential evolution",
+          "volume": "34",
+          "author": "Mandal",
+          "year": "2020",
+          "journal-title": "Renew. Energy Focus"
+        },
+        {
+          "key": "10.1016/j.esr.2024.101298_b190",
+          "doi-asserted-by": "crossref",
+          "first-page": "48",
+          "DOI": "10.1016/j.ref.2021.11.004",
+          "article-title": "Energy management strategy and capacity planning of an autonomous microgrid: Performance comparison of metaheuristic optimization searching techniques",
+          "volume": "40",
+          "author": "Bukar",
+          "year": "2022",
+          "journal-title": "Renew. Energy Focus"
+        },
+        {
+          "issue": "7",
+          "key": "10.1016/j.esr.2024.101298_b191",
+          "doi-asserted-by": "crossref",
+          "first-page": "5181",
+          "DOI": "10.1007/s00521-021-06165-6",
+          "article-title": "Comparative study of metaheuristic algorithms for optimal sizing of standalone microgrids in a remote area community",
+          "volume": "34",
+          "author": "Fathi",
+          "year": "2022",
+          "journal-title": "Neural Comput. Appl."
+        },
+        {
+          "key": "10.1016/j.esr.2024.101298_b192",
+          "series-title": "Research Anthology on Smart Grid and Microgrid Development",
+          "first-page": "1213",
+          "article-title": "Economic operation of smart micro-grid: a meta-heuristic approach",
+          "author": "Khan",
+          "year": "2022"
+        },
+        {
+          "key": "10.1016/j.esr.2024.101298_b193",
+          "article-title": "Optimal heuristic economic management strategy for microgrids based PEM fuel cells",
+          "author": "Ferahtia",
+          "year": "2022",
+          "journal-title": "Int. J. Hydrogen Energy"
+        },
+        {
+          "issue": "4",
+          "key": "10.1016/j.esr.2024.101298_b194",
+          "doi-asserted-by": "crossref",
+          "first-page": "1803",
+          "DOI": "10.3390/en16041803",
+          "article-title": "Techno-economic green optimization of electrical microgrid using swarm metaheuristics",
+          "volume": "16",
+          "author": "Guerraiche",
+          "year": "2023",
+          "journal-title": "Energies"
+        },
+        {
+          "key": "10.1016/j.esr.2024.101298_b195",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1016/j.energy.2023.126756",
+          "article-title": "Multi-objective optimal sizing of hybrid micro-grid system using an integrated intelligent technique",
+          "author": "Singh",
+          "year": "2023",
+          "journal-title": "Energy"
+        },
+        {
+          "key": "10.1016/j.esr.2024.101298_b196",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1016/j.enconman.2022.116639",
+          "article-title": "Techno-economic optimization of a renewable micro grid using multi-objective particle swarm optimization algorithm",
+          "volume": "277",
+          "author": "Parvin",
+          "year": "2023",
+          "journal-title": "Energy Convers. Manage."
+        },
+        {
+          "issue": "1",
+          "key": "10.1016/j.esr.2024.101298_b197",
+          "doi-asserted-by": "crossref",
+          "first-page": "1490",
+          "DOI": "10.1080/01430750.2023.2176922",
+          "article-title": "Techno-socio-economic and sensitivity analysis of standalone micro-grid located in Central India",
+          "volume": "44",
+          "author": "Rathore",
+          "year": "2023",
+          "journal-title": "International Journal of Ambient Energy"
+        },
+        {
+          "key": "10.1016/j.esr.2024.101298_b198",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1016/j.scs.2022.104298",
+          "article-title": "Optimal sizing of standalone rural microgrid for sustainable electrification with renewable energy resources",
+          "volume": "88",
+          "author": "Kamal",
+          "year": "2023",
+          "journal-title": "Sustainable Cities Soc."
+        },
+        {
+          "key": "10.1016/j.esr.2024.101298_b199",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1016/j.jer.2023.100011",
+          "article-title": "Designing of an optimal standalone hybrid renewable energy micro-grid model through different algorithms",
+          "author": "Muleta",
+          "year": "2023",
+          "journal-title": "J. Eng. Res."
+        },
+        {
+          "issue": "9",
+          "key": "10.1016/j.esr.2024.101298_b200",
+          "doi-asserted-by": "crossref",
+          "first-page": "2289",
+          "DOI": "10.3390/en13092289",
+          "article-title": "Optimal location-reallocation of battery energy storage systems in DC microgrids",
+          "volume": "13",
+          "author": "Montoya",
+          "year": "2020",
+          "journal-title": "Energies"
+        }
+      ],
+      "container-title": [
+        "Energy Strategy Reviews"
+      ],
+      "original-title": [],
+      "language": "en",
+      "link": [
+        {
+          "URL": "https://api.elsevier.com/content/article/PII:S2211467X24000051?httpAccept=text/xml",
+          "content-type": "text/xml",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        },
+        {
+          "URL": "https://api.elsevier.com/content/article/PII:S2211467X24000051?httpAccept=text/plain",
+          "content-type": "text/plain",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2025,
+            2,
+            9
+          ]
+        ],
+        "date-time": "2025-02-09T23:23:30Z",
+        "timestamp": 1739143410000
+      },
+      "score": 1,
+      "resource": {
+        "primary": {
+          "URL": "https://linkinghub.elsevier.com/retrieve/pii/S2211467X24000051"
+        }
+      },
+      "subtitle": [],
+      "short-title": [],
+      "issued": {
+        "date-parts": [
+          [
+            2024,
+            1
+          ]
+        ]
+      },
+      "references-count": 200,
+      "alternative-id": [
+        "S2211467X24000051"
+      ],
+      "URL": "https://doi.org/10.1016/j.esr.2024.101298",
+      "relation": {},
+      "ISSN": [
+        "2211-467X"
+      ],
+      "issn-type": [
+        {
+          "value": "2211-467X",
+          "type": "print"
+        }
+      ],
+      "subject": [],
+      "published": {
+        "date-parts": [
+          [
+            2024,
+            1
+          ]
+        ]
+      },
+      "assertion": [
+        {
+          "value": "Elsevier",
+          "name": "publisher",
+          "label": "This article is maintained by"
+        },
+        {
+          "value": "A review on microgrid optimization with meta-heuristic techniques: Scopes, trends and recommendation",
+          "name": "articletitle",
+          "label": "Article Title"
+        },
+        {
+          "value": "Energy Strategy Reviews",
+          "name": "journaltitle",
+          "label": "Journal Title"
+        },
+        {
+          "value": "https://doi.org/10.1016/j.esr.2024.101298",
+          "name": "articlelink",
+          "label": "CrossRef DOI link to publisher maintained version"
+        },
+        {
+          "value": "article",
+          "name": "content_type",
+          "label": "Content Type"
+        },
+        {
+          "value": "© 2024 The Author(s). Published by Elsevier Ltd.",
+          "name": "copyright",
+          "label": "Copyright"
+        }
+      ],
+      "article-number": "101298"
+    }
+  }
+}

@@ -1,0 +1,3212 @@
+{
+  "retrieved": "2026-10-16",
+  "url": "https://api.crossref.org/works?query.bibliographic=task+offloading+cloud+fog+edge+metaheuristic+survey&rows=3&filter=until-pub-date%3A2026-10-16",
+  "response": {
+    "status": "ok",
+    "message-type": "work-list",
+    "message-version": "1.0.0",
+    "message": {
+      "facets": {},
+      "total-results": 1450918,
+      "items": [
+        {
+          "indexed": {
+            "date-parts": [
+              [
+                2025,
+                12,
+                24
+              ]
+            ],
+            "date-time": "2025-12-24T22:46:13Z",
+            "timestamp": 1766616373791,
+            "version": "3.48.0"
+          },
+          "posted": {
+            "date-parts": [
+              [
+                2025
+              ]
+            ]
+          },
+          "group-title": "SSRN",
+          "reference-count": 34,
+          "publisher": "Elsevier BV",
+          "content-domain": {
+            "domain": [],
+            "crossmark-restriction": false
+          },
+          "DOI": "10.2139/ssrn.5964391",
+          "type": "posted-content",
+          "created": {
+            "date-parts": [
+              [
+                2025,
+                12,
+                24
+              ]
+            ],
+            "date-time": "2025-12-24T22:39:36Z",
+            "timestamp": 1766615976000
+          },
+          "source": "Crossref",
+          "is-referenced-by-count": 0,
+          "title": [
+            "NATE and T-NATE: Efficient Transformers for IoT Task Offloading in Edge-Fog-Cloud Computing"
+          ],
+          "prefix": "10.2139",
+          "author": [
+            {
+              "given": "Arthur",
+              "family": "GARON",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Sonia",
+              "family": "Yassa",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Lylia",
+              "family": "Alouache",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            }
+          ],
+          "member": "78",
+          "reference": [
+            {
+              "key": "ref1",
+              "doi-asserted-by": "crossref",
+              "first-page": "87",
+              "DOI": "10.1109/TSUSC.2020.3028615",
+              "article-title": "Cloud of Things (CoT): Cloud-Fog-IoT Task Offloading for Sustainable Internet of Things",
+              "volume": "7",
+              "author": "M Aazam",
+              "year": "2022",
+              "journal-title": "IEEE Transactions on Sustainable Computing"
+            },
+            {
+              "key": "ref2",
+              "doi-asserted-by": "crossref",
+              "first-page": "5773",
+              "DOI": "10.1109/JIOT.2019.2946426",
+              "article-title": "DPTO: A Deadline and Priority-Aware Task Offloading in Fog Computing Framework Leveraging Multilevel Feedback Queueing",
+              "volume": "7",
+              "author": "M Adhikari",
+              "year": "2020",
+              "journal-title": "IEEE Internet of Things Journal"
+            },
+            {
+              "key": "ref3",
+              "first-page": "193",
+              "author": "L Bernard",
+              "year": "2024",
+              "journal-title": "D-NPGA : a new approach for tasks offloading in fog/cloud environment"
+            },
+            {
+              "key": "ref4",
+              "doi-asserted-by": "crossref",
+              "first-page": "1",
+              "DOI": "10.1155/2022/3606068",
+              "article-title": "An Intelligent Proposed Model for Task Offloading in Fog-Cloud Collaboration Using Logistics Regression",
+              "volume": "2022",
+              "author": "M M Bukhari",
+              "year": "2022",
+              "journal-title": "Computational Intelligence and Neuroscience"
+            },
+            {
+              "key": "ref5",
+              "article-title": "A review on fog computing: Issues, characteristics, challenges, and potential applications",
+              "volume": "10",
+              "author": "R Das",
+              "year": "2023",
+              "journal-title": "Telematics and Informatics Reports"
+            },
+            {
+              "key": "ref6",
+              "doi-asserted-by": "crossref",
+              "first-page": "182",
+              "DOI": "10.1109/4235.996017",
+              "article-title": "A fast and elitist multiobjective genetic algorithm: Nsga-ii",
+              "volume": "6",
+              "author": "K Deb",
+              "year": "2002",
+              "journal-title": "IEEE Trans. Evol. Comput"
+            },
+            {
+              "journal-title": "A Review of Resource Management in Fog Computing: Machine Learning Perspective",
+              "year": "2022",
+              "author": "M Fahimullah",
+              "key": "ref7"
+            },
+            {
+              "journal-title": "TPTO: A Transformer-PPO based Task Offloading Solution for Edge Computing Environments",
+              "year": "2023",
+              "author": "N Gholipour",
+              "key": "ref8"
+            },
+            {
+              "key": "ref9",
+              "first-page": "2024",
+              "author": "Google",
+              "year": "2024",
+              "journal-title": "Google Data Center Locations"
+            },
+            {
+              "journal-title": "Algorithmics and Complexity of Cost-Driven Task Offloading with Submodular Optimization in Edge-Cloud Environments",
+              "year": "2024",
+              "author": "L Guo",
+              "key": "ref10"
+            },
+            {
+              "journal-title": "Gaussian error linear units (gelus)",
+              "year": "2023",
+              "author": "D Hendrycks",
+              "key": "ref11"
+            },
+            {
+              "key": "ref12",
+              "first-page": "82",
+              "article-title": "A niched pareto genetic algorithm for multi-objective optimization",
+              "volume": "1",
+              "author": "J Horn",
+              "year": "1994",
+              "journal-title": "Proceedings of the 1st IEEE Conference on Computation Evolutionary"
+            },
+            {
+              "key": "ref13",
+              "article-title": "AI-based Fog and Edge Computing: A Systematic Review",
+              "volume": "21",
+              "author": "S Iftikhar",
+              "year": "2023",
+              "journal-title": "Taxonomy and Future Directions. Internet of Things"
+            },
+            {
+              "journal-title": "State of iot 2025: Number of connected iot devices growing 14% to 21.1 billion globally",
+              "year": "2025",
+              "author": "Iot Analytics",
+              "key": "ref14"
+            },
+            {
+              "key": "ref15",
+              "doi-asserted-by": "crossref",
+              "first-page": "1",
+              "DOI": "10.1145/3390605",
+              "article-title": "Computing Server Power Modeling in a Data Center: Survey, Taxonomy, and Performance Evaluation",
+              "volume": "53",
+              "author": "L Ismail",
+              "year": "2021",
+              "journal-title": "ACM Computing Surveys"
+            },
+            {
+              "key": "ref16",
+              "doi-asserted-by": "crossref",
+              "first-page": "8265",
+              "DOI": "10.1007/s12652-020-02561-3",
+              "article-title": "Autonomous computation offloading and auto-scaling the in the mobile fog computing: a deep reinforcement learning-based approach",
+              "volume": "12",
+              "author": "F Jazayeri",
+              "year": "2021",
+              "journal-title": "Journal of Ambient Intelligence and Humanized Computing"
+            },
+            {
+              "key": "ref17",
+              "article-title": "A reinforcement learning-based computing offloading and resource allocation scheme in F-RAN",
+              "author": "F Jiang",
+              "year": "2021",
+              "journal-title": "EURASIP Journal on Advances in Signal Processing"
+            },
+            {
+              "key": "ref18",
+              "article-title": "Task offloading for multi-server edge computing in industrial Internet with joint load balance and fuzzy security",
+              "volume": "14",
+              "author": "X Jin",
+              "year": "2024",
+              "journal-title": "Scientific Reports"
+            },
+            {
+              "key": "ref19",
+              "doi-asserted-by": "crossref",
+              "first-page": "1125",
+              "DOI": "10.1109/JIOT.2017.2683200",
+              "article-title": "A survey on internet of things: Architecture, enabling technologies, security and privacy, and applications",
+              "volume": "4",
+              "author": "J Lin",
+              "year": "2017",
+              "journal-title": "IEEE internet of things journal"
+            },
+            {
+              "key": "ref20",
+              "doi-asserted-by": "crossref",
+              "first-page": "4600",
+              "DOI": "10.1109/TNSM.2023.3282795",
+              "article-title": "A Collaborative Computation and Offloading for Compute-Intensive and Latency-Sensitive Dependency-Aware Tasks in Dew-Enabled Vehicular Fog Computing: A Federated Deep Q-Learning Approach",
+              "volume": "20",
+              "author": "K Mishra",
+              "year": "2023",
+              "journal-title": "IEEE Transactions on Network and Service Management"
+            },
+            {
+              "key": "ref21",
+              "article-title": "ETFC: Energy-efficient and deadline-aware task scheduling in fog computing",
+              "author": "A Pakmehr",
+              "year": "2024",
+              "journal-title": "Sustainable Computing: Informatics and Systems 43, 100988"
+            },
+            {
+              "key": "ref22",
+              "article-title": "Optimizing task offloading with metaheuristic algorithms across cloud, fog, and edge computing networks: A comprehensive survey and state-of-the-art schemes",
+              "author": "A M Rahmani",
+              "year": "2025",
+              "journal-title": "Sustainable Computing: Informatics and Systems 45, 101080"
+            },
+            {
+              "key": "ref23",
+              "volume": "22",
+              "author": "A Rejeb",
+              "year": "2023",
+              "journal-title": "The internet of things (iot) in healthcare: Taking stock and moving forward"
+            },
+            {
+              "key": "ref24",
+              "doi-asserted-by": "crossref",
+              "first-page": "4978",
+              "DOI": "10.1109/TII.2020.3021024",
+              "article-title": "Deep Reinforcement Learning Based Computation Offloading in Fog Enabled Industrial Internet of Things",
+              "volume": "17",
+              "author": "Y Ren",
+              "year": "2021",
+              "journal-title": "IEEE Transactions on Industrial Informatics"
+            },
+            {
+              "key": "ref25",
+              "doi-asserted-by": "crossref",
+              "first-page": "15089",
+              "DOI": "10.1007/s11227-022-04461-z",
+              "article-title": "Deep learning-based energy-efficient computational offloading strategy in heterogeneous fog computing networks",
+              "volume": "78",
+              "author": "I Sarkar",
+              "year": "2022",
+              "journal-title": "The Journal of Supercomputing"
+            },
+            {
+              "key": "ref26",
+              "doi-asserted-by": "crossref",
+              "first-page": "637",
+              "DOI": "10.1109/JIOT.2016.2579198",
+              "article-title": "Edge computing: Vision and challenges",
+              "volume": "3",
+              "author": "W Shi",
+              "year": "2016",
+              "journal-title": "IEEE internet of things journal"
+            },
+            {
+              "journal-title": "Deep neuroevolution: Genetic algorithms are a competitive alternative for training deep neural networks for reinforcement learning",
+              "year": "2018",
+              "author": "F P Such",
+              "key": "ref27"
+            },
+            {
+              "key": "ref28",
+              "article-title": "Energy and latency reductions at the fog gateway using a machine learning classifier",
+              "author": "N K Suryadevara",
+              "year": "2021",
+              "journal-title": "Sustainable Computing: Informatics and Systems 31, 100582"
+            },
+            {
+              "key": "ref29",
+              "article-title": "Task Offloading Based on LSTM Prediction and Deep Reinforcement Learning for Efficient Edge Computing in IoT",
+              "volume": "14",
+              "author": "Y Tu",
+              "year": "2022",
+              "journal-title": "Future Internet"
+            },
+            {
+              "journal-title": "Attention is all you need",
+              "year": "2023",
+              "author": "A Vaswani",
+              "key": "ref30"
+            },
+            {
+              "key": "ref31",
+              "first-page": "29",
+              "article-title": "LEAF: Simulating large energy-aware fog computing environments",
+              "author": "P Wiesner",
+              "year": "2021",
+              "journal-title": "2021 IEEE 5th International Conference on Fog and Edge Computing (ICFEC)"
+            },
+            {
+              "key": "ref32",
+              "doi-asserted-by": "crossref",
+              "first-page": "235",
+              "DOI": "10.1109/TWC.2019.2943563",
+              "article-title": "Optimal Task Offloading and Resource Allocation in Mobile-Edge Computing With Inter-User Task Dependency",
+              "volume": "19",
+              "author": "J Yan",
+              "year": "2020",
+              "journal-title": "IEEE Transactions on Wireless Communications"
+            },
+            {
+              "key": "ref33",
+              "article-title": "Osttd: Offloading of splittable tasks with topological dependence in multi-tier computing networks",
+              "author": "R Zhang",
+              "year": "2022",
+              "journal-title": "IEEE Journal on Selected Areas in Communications"
+            },
+            {
+              "journal-title": "A Survey of Computation Offloading with Task Type",
+              "year": "2024",
+              "author": "S Zhang",
+              "key": "ref34"
+            }
+          ],
+          "deposited": {
+            "date-parts": [
+              [
+                2025,
+                12,
+                24
+              ]
+            ],
+            "date-time": "2025-12-24T22:43:32Z",
+            "timestamp": 1766616212000
+          },
+          "score": 43.270645,
+          "resource": {
+            "primary": {
+              "URL": "https://www.ssrn.com/abstract=5964391"
+            }
+          },
+          "issued": {
+            "date-parts": [
+              [
+                2025
+              ]
+            ]
+          },
+          "references-count": 34,
+          "URL": "https://doi.org/10.2139/ssrn.5964391",
+          "published": {
+            "date-parts": [
+              [
+                2025
+              ]
+            ]
+          },
+          "subtype": "preprint"
+        },
+        {
+          "indexed": {
+            "date-parts": [
+              [
+                2026,
+                7,
+                21
+              ]
+            ],
+            "date-time": "2026-07-21T22:42:22Z",
+            "timestamp": 1784673742764,
+            "version": "3.55.0"
+          },
+          "reference-count": 48,
+          "publisher": "MDPI AG",
+          "issue": "5",
+          "license": [
+            {
+              "start": {
+                "date-parts": [
+                  [
+                    2026,
+                    2,
+                    27
+                  ]
+                ],
+                "date-time": "2026-02-27T00:00:00Z",
+                "timestamp": 1772150400000
+              },
+              "content-version": "vor",
+              "delay-in-days": 0,
+              "URL": "https://creativecommons.org/licenses/by/4.0/"
+            }
+          ],
+          "funder": [
+            {
+              "name": "Ongoing Research Funding Program, King Saud University, Riyadh, Saudi Arabia",
+              "award": [
+                "ORF-2026-204"
+              ],
+              "award-info": [
+                {
+                  "award-number": [
+                    "ORF-2026-204"
+                  ]
+                }
+              ]
+            }
+          ],
+          "content-domain": {
+            "domain": [],
+            "crossmark-restriction": false
+          },
+          "short-container-title": [
+            "Sensors"
+          ],
+          "abstract": "",
+          "DOI": "10.3390/s26051497",
+          "type": "journal-article",
+          "created": {
+            "date-parts": [
+              [
+                2026,
+                2,
+                27
+              ]
+            ],
+            "date-time": "2026-02-27T15:52:38Z",
+            "timestamp": 1772207558000
+          },
+          "page": "1497",
+          "update-policy": "https://doi.org/10.3390/mdpi_crossmark_policy",
+          "source": "Crossref",
+          "is-referenced-by-count": 2,
+          "title": [
+            "LITO: Lemur-Inspired Task Offloading for Edge–Fog–Cloud Continuum Systems"
+          ],
+          "prefix": "10.3390",
+          "volume": "26",
+          "author": [
+            {
+              "given": "Asma",
+              "family": "Almulifi",
+              "sequence": "first",
+              "affiliation": [
+                {
+                  "name": "Computer Science Department, College of Computer and Information Sciences, King Saud University, Riyadh 11451, Saudi Arabia"
+                }
+              ],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "ORCID": "https://orcid.org/0000-0001-6110-9657",
+              "authenticated-orcid": false,
+              "given": "Heba",
+              "family": "Kurdi",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "Computer Science Department, College of Computer and Information Sciences, King Saud University, Riyadh 11451, Saudi Arabia"
+                }
+              ],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            }
+          ],
+          "member": "1968",
+          "published-online": {
+            "date-parts": [
+              [
+                2026,
+                2,
+                27
+              ]
+            ]
+          },
+          "reference": [
+            {
+              "key": "ref_1",
+              "doi-asserted-by": "crossref",
+              "first-page": "3631",
+              "DOI": "10.1007/s11831-020-09517-y",
+              "article-title": "Review and state of art of fog computing",
+              "volume": "28",
+              "author": "Laghari",
+              "year": "2021",
+              "journal-title": "Arch. Comput. Methods Eng."
+            },
+            {
+              "key": "ref_2",
+              "doi-asserted-by": "crossref",
+              "first-page": "012017",
+              "DOI": "10.1088/1742-6596/2007/1/012017",
+              "article-title": "A review paper on fog computing paradigm to solve problems and challenges during integration of cloud with IoT",
+              "volume": "2007",
+              "author": "Saurabh",
+              "year": "2021",
+              "journal-title": "J. Phys. Conf. Ser."
+            },
+            {
+              "key": "ref_3",
+              "doi-asserted-by": "crossref",
+              "first-page": "210",
+              "DOI": "10.1016/j.comcom.2021.09.003",
+              "article-title": "Edge and fog computing for IoT: A survey on current research activities and future directions",
+              "volume": "180",
+              "author": "Laroui",
+              "year": "2021",
+              "journal-title": "Comput. Commun."
+            },
+            {
+              "key": "ref_4",
+              "doi-asserted-by": "crossref",
+              "first-page": "109137",
+              "DOI": "10.1016/j.comnet.2022.109137",
+              "article-title": "Task offloading in fog computing: A survey of algorithms and optimization techniques",
+              "volume": "214",
+              "author": "Kumari",
+              "year": "2022",
+              "journal-title": "Comput. Netw."
+            },
+            {
+              "key": "ref_5",
+              "doi-asserted-by": "crossref",
+              "first-page": "86",
+              "DOI": "10.1186/s13677-022-00365-8",
+              "article-title": "Task partitioning and offloading in IoT cloud-edge collaborative computing framework: A survey",
+              "volume": "11",
+              "author": "Chen",
+              "year": "2022",
+              "journal-title": "J. Cloud Comput."
+            },
+            {
+              "key": "ref_6",
+              "doi-asserted-by": "crossref",
+              "first-page": "1",
+              "DOI": "10.1145/3486221",
+              "article-title": "Orchestration in fog computing: A comprehensive survey",
+              "volume": "55",
+              "author": "Costa",
+              "year": "2022",
+              "journal-title": "ACM Comput. Surv."
+            },
+            {
+              "key": "ref_7",
+              "unstructured": "Meticulous Research (2025, October 31). Fog Computing Market Growth. Available online: https://www.meticulousresearch.com/product/fog-computing-market-6224."
+            },
+            {
+              "key": "ref_8",
+              "doi-asserted-by": "crossref",
+              "first-page": "108177",
+              "DOI": "10.1016/j.comnet.2021.108177",
+              "article-title": "Task offloading in edge and cloud computing: A survey on mathematical, artificial intelligence and control theory solutions",
+              "volume": "195",
+              "author": "Saeik",
+              "year": "2021",
+              "journal-title": "Comput. Netw."
+            },
+            {
+              "key": "ref_9",
+              "doi-asserted-by": "crossref",
+              "first-page": "39058",
+              "DOI": "10.1109/ACCESS.2024.3375368",
+              "article-title": "FOG offloading and task management in IoT–FoG–Cloud environment: Review of algorithms, networks, and SDN application",
+              "volume": "12",
+              "author": "Rezaee",
+              "year": "2024",
+              "journal-title": "IEEE Access"
+            },
+            {
+              "key": "ref_10",
+              "doi-asserted-by": "crossref",
+              "first-page": "113",
+              "DOI": "10.1186/s13677-024-00663-3",
+              "article-title": "HybOff: A hybrid offloading approach to improve load balancing in fog environments",
+              "volume": "13",
+              "author": "Sulimani",
+              "year": "2024",
+              "journal-title": "J. Cloud Comput. Adv. Syst. Appl."
+            },
+            {
+              "key": "ref_11",
+              "first-page": "101080",
+              "article-title": "Optimizing task offloading with metaheuristic algorithms across cloud, fog, and edge computing networks: A comprehensive survey and state-of-the-art schemes",
+              "volume": "45",
+              "author": "Rahmani",
+              "year": "2025",
+              "journal-title": "Sustain. Comput. Inform. Syst."
+            },
+            {
+              "key": "ref_12",
+              "first-page": "1",
+              "article-title": "Enhancing fog offloading and task management in IoT–fog–cloud environments: A review of cutting-edge algorithms, networks, and SDN applications",
+              "volume": "17",
+              "author": "Agarwal",
+              "year": "2025",
+              "journal-title": "Int. J. Commun. Netw. Inf. Secur."
+            },
+            {
+              "key": "ref_13",
+              "doi-asserted-by": "crossref",
+              "first-page": "125212",
+              "DOI": "10.1016/j.eswa.2024.125212",
+              "article-title": "Drawer cosine optimization enabled task offloading in fog computing",
+              "volume": "259",
+              "author": "Ameena",
+              "year": "2024",
+              "journal-title": "Expert Syst. Appl."
+            },
+            {
+              "key": "ref_14",
+              "doi-asserted-by": "crossref",
+              "first-page": "110791",
+              "DOI": "10.1016/j.comnet.2024.110791",
+              "article-title": "Task offloading strategies for mobile edge computing: A survey",
+              "volume": "254",
+              "author": "Dong",
+              "year": "2024",
+              "journal-title": "Comput. Netw."
+            },
+            {
+              "key": "ref_15",
+              "doi-asserted-by": "crossref",
+              "unstructured": "Khan, Z.A., Aziz, I.A., and Osman, N.A.B. (2023, January 13–14). A review on task offloading using meta-heuristic algorithms on fog computing. Proceedings of the IEEE 21st Student Conference on Research and Development (SCOReD), Kuala Lumpur, Malaysia.",
+              "DOI": "10.1109/SCOReD60679.2023.10563537"
+            },
+            {
+              "key": "ref_16",
+              "doi-asserted-by": "crossref",
+              "unstructured": "Matam, R., and Tripathy, S. (2024). Task offloading using fog analytics. IET eBooks, IET.",
+              "DOI": "10.1049/PBPC027E_ch1"
+            },
+            {
+              "key": "ref_17",
+              "doi-asserted-by": "crossref",
+              "first-page": "35",
+              "DOI": "10.1007/s43926-024-00089-y",
+              "article-title": "Metaheuristic task offloading approaches for minimization of energy consumption on edge computing: A systematic review",
+              "volume": "4",
+              "author": "Latip",
+              "year": "2024",
+              "journal-title": "Discov. Internet Things"
+            },
+            {
+              "key": "ref_18",
+              "doi-asserted-by": "crossref",
+              "first-page": "1261",
+              "DOI": "10.1007/s40031-025-01200-9",
+              "article-title": "Review on meta-heuristic algorithm-based priority-aware computation offloading in edge computing system",
+              "volume": "106",
+              "author": "Pilli",
+              "year": "2025",
+              "journal-title": "J. Inst. Eng. (India) Ser. B"
+            },
+            {
+              "key": "ref_19",
+              "doi-asserted-by": "crossref",
+              "first-page": "112",
+              "DOI": "10.1186/s13677-023-00461-3",
+              "article-title": "Optimizing task offloading and resource allocation in edge-cloud networks: A DRL approach",
+              "volume": "12",
+              "author": "Ullah",
+              "year": "2023",
+              "journal-title": "J. Cloud Comput."
+            },
+            {
+              "key": "ref_20",
+              "first-page": "35",
+              "article-title": "A review of the current task offloading algorithms, strategies, and approaches in edge computing systems",
+              "volume": "134",
+              "author": "Acheampong",
+              "year": "2022",
+              "journal-title": "Comput. Model. Eng. Sci."
+            },
+            {
+              "key": "ref_21",
+              "doi-asserted-by": "crossref",
+              "unstructured": "Zheng, Y., Li, A., Wen, Y., and Wang, G. (2025). A UAV trajectory optimization and task offloading strategy based on hybrid metaheuristic algorithm in mobile edge computing. Future Internet, 17.",
+              "DOI": "10.3390/fi17070300"
+            },
+            {
+              "key": "ref_22",
+              "doi-asserted-by": "crossref",
+              "unstructured": "Samarneh, A.A., and Alma’aitah, A.Y. (2024, January 8–11). Distributed task offloading in mobile edge computing using metaheuristics. Proceedings of the 6th International Conference on Communications, Signal Processing, and their Applications (ICCSPA), Istanbul, Turkey.",
+              "DOI": "10.1109/ICCSPA61559.2024.10794208"
+            },
+            {
+              "key": "ref_23",
+              "first-page": "622",
+              "article-title": "Dynamic task offloading optimization in mobile edge computing systems with time-varying workloads using improved particle swarm optimization",
+              "volume": "15",
+              "author": "Rasool",
+              "year": "2024",
+              "journal-title": "Int. J. Adv. Comput. Sci. Appl."
+            },
+            {
+              "key": "ref_24",
+              "doi-asserted-by": "crossref",
+              "first-page": "155",
+              "DOI": "10.1007/s10586-024-04833-5",
+              "article-title": "Energy-efficient task offloading and resource allocation for edge computing: A quantum-inspired particle swarm optimization approach",
+              "volume": "28",
+              "author": "Naik",
+              "year": "2025",
+              "journal-title": "Clust. Comput."
+            },
+            {
+              "key": "ref_25",
+              "doi-asserted-by": "crossref",
+              "unstructured": "Zaidi, S., Attalah, M.A., Khamer, L., and Calafate, C.T. (2024). Task offloading optimization using PSO in fog computing for the Internet of Drones. Drones, 9.",
+              "DOI": "10.3390/drones9010023"
+            },
+            {
+              "key": "ref_26",
+              "doi-asserted-by": "crossref",
+              "first-page": "51796",
+              "DOI": "10.1109/ACCESS.2024.3385636",
+              "article-title": "OD-TRA-based task offload optimization for industrial Internet of Things: Improving efficiency and performance with digital twins and metaheuristic optimization",
+              "volume": "12",
+              "author": "Swaminathan",
+              "year": "2024",
+              "journal-title": "IEEE Access"
+            },
+            {
+              "key": "ref_27",
+              "doi-asserted-by": "crossref",
+              "unstructured": "Thomas, P., and Jose, D.V. (2023). Metaheuristics-Based Task Offloading Framework in Fog Computing for Latency-Sensitive Internet of Things Applications, Springer Nature. Lecture Notes in Networks and Systems.",
+              "DOI": "10.1007/978-981-99-2322-9_17"
+            },
+            {
+              "key": "ref_28",
+              "doi-asserted-by": "crossref",
+              "first-page": "4589",
+              "DOI": "10.1007/s10586-023-04193-6",
+              "article-title": "A metaheuristic-based task offloading scheme with a trade-off between delay and resource utilization in IoT platform",
+              "volume": "27",
+              "author": "Kumari",
+              "year": "2023",
+              "journal-title": "Clust. Comput."
+            },
+            {
+              "key": "ref_29",
+              "doi-asserted-by": "crossref",
+              "unstructured": "AlShathri, S.I., Chelloug, S.A., and Hassan, D.S.M. (2022). Parallel meta-heuristics for solving dynamic offloading in fog computing. Mathematics, 10.",
+              "DOI": "10.3390/math10081258"
+            },
+            {
+              "key": "ref_30",
+              "doi-asserted-by": "crossref",
+              "first-page": "7469",
+              "DOI": "10.1007/s10586-024-04311-y",
+              "article-title": "Multi-objective task offloading optimization in fog computing environment using INSCSA algorithm",
+              "volume": "27",
+              "author": "Fard",
+              "year": "2024",
+              "journal-title": "Clust. Comput."
+            },
+            {
+              "key": "ref_31",
+              "first-page": "184158",
+              "article-title": "Joint optimization of computation offloading and task scheduling using multi-objective arithmetic optimization algorithm in cloud–fog computing",
+              "volume": "12",
+              "author": "Ali",
+              "year": "2024",
+              "journal-title": "IEEE Access"
+            },
+            {
+              "key": "ref_32",
+              "doi-asserted-by": "crossref",
+              "first-page": "200323",
+              "DOI": "10.1016/j.sasc.2025.200323",
+              "article-title": "Optimizing resource management using hybrid metaheuristic algorithm for fog layer design in edge computing",
+              "volume": "7",
+              "author": "Pillai",
+              "year": "2025",
+              "journal-title": "Syst. Soft Comput."
+            },
+            {
+              "key": "ref_33",
+              "doi-asserted-by": "crossref",
+              "unstructured": "Attalah, M.A., Zaidi, S., Mellal, N., and Calafate, C.T. (2025). Task-offloading optimization using a genetic algorithm in hybrid fog computing for the Internet of Drones. Sensors, 25.",
+              "DOI": "10.3390/s25051383"
+            },
+            {
+              "key": "ref_34",
+              "doi-asserted-by": "crossref",
+              "first-page": "1683",
+              "DOI": "10.1007/s11277-021-08714-7",
+              "article-title": "Task offloading in fog computing using smart ant colony optimization",
+              "volume": "127",
+              "author": "Kishor",
+              "year": "2021",
+              "journal-title": "Wirel. Pers. Commun."
+            },
+            {
+              "key": "ref_35",
+              "first-page": "22315",
+              "article-title": "MOTORS: Multi-objective task offloading and resource scheduling algorithm for heterogeneous fog–cloud computing scenario",
+              "volume": "80",
+              "author": "Shukla",
+              "year": "2023",
+              "journal-title": "Res. Sq."
+            },
+            {
+              "key": "ref_36",
+              "doi-asserted-by": "crossref",
+              "first-page": "159561",
+              "DOI": "10.1109/ACCESS.2024.3488032",
+              "article-title": "Multi-objectives firefly algorithm for task offloading in edge–fog–cloud computing",
+              "volume": "12",
+              "author": "Saif",
+              "year": "2024",
+              "journal-title": "IEEE Access"
+            },
+            {
+              "key": "ref_37",
+              "doi-asserted-by": "crossref",
+              "first-page": "144",
+              "DOI": "10.1007/s10462-025-11145-6",
+              "article-title": "Multi-strategy fusion mayfly algorithm on task offloading and scheduling for IoT-based fog computing multi-tasks learning",
+              "volume": "58",
+              "author": "Sui",
+              "year": "2025",
+              "journal-title": "Artif. Intell. Rev."
+            },
+            {
+              "key": "ref_38",
+              "doi-asserted-by": "crossref",
+              "first-page": "69",
+              "DOI": "10.1007/s10586-024-04766-z",
+              "article-title": "Multi-strategy fusion snake optimizer on task offloading and scheduling for IoT-based fog computing multi-tasks learning",
+              "volume": "28",
+              "author": "Zhang",
+              "year": "2024",
+              "journal-title": "Clust. Comput."
+            },
+            {
+              "key": "ref_39",
+              "doi-asserted-by": "crossref",
+              "first-page": "1825",
+              "DOI": "10.1007/s10586-020-03230-y",
+              "article-title": "Delay-aware optimization of energy consumption for task offloading in fog environments using metaheuristic algorithms",
+              "volume": "24",
+              "author": "Keshavarznejad",
+              "year": "2021",
+              "journal-title": "Clust. Comput."
+            },
+            {
+              "key": "ref_40",
+              "doi-asserted-by": "crossref",
+              "first-page": "707",
+              "DOI": "10.1023/A:1015520830318",
+              "article-title": "Evolution of primate social systems",
+              "volume": "23",
+              "author": "PKappeler",
+              "year": "2002",
+              "journal-title": "Int. J. Primatol."
+            },
+            {
+              "key": "ref_41",
+              "unstructured": "Appel, M. (2025, December 31). Lemur (36453479071).jpg. [Photograph], Wikimedia Commons. Available online: https://commons.wikimedia.org/wiki/File:Lemur_(36453479071).jpg."
+            },
+            {
+              "key": "ref_42",
+              "doi-asserted-by": "crossref",
+              "first-page": "1010",
+              "DOI": "10.1002/ece3.4735",
+              "article-title": "A description of nesting behaviors, including factors impacting nest site selection, in black-and-white ruffed lemurs (Varecia variegata)",
+              "volume": "9",
+              "author": "Baden",
+              "year": "2019",
+              "journal-title": "Ecol. Evol."
+            },
+            {
+              "key": "ref_43",
+              "doi-asserted-by": "crossref",
+              "first-page": "105",
+              "DOI": "10.1007/s41060-021-00246-4",
+              "article-title": "Energy-aware very fast decision tree",
+              "volume": "11",
+              "author": "Lavesson",
+              "year": "2021",
+              "journal-title": "Int. J. Data Sci. Anal."
+            },
+            {
+              "key": "ref_44",
+              "doi-asserted-by": "crossref",
+              "first-page": "109430",
+              "DOI": "10.1016/j.comnet.2022.109430",
+              "article-title": "Distributed resource scheduling in edge computing: Problems, solutions, and opportunities",
+              "volume": "219",
+              "author": "Sahni",
+              "year": "2022",
+              "journal-title": "Comput. Netw."
+            },
+            {
+              "key": "ref_45",
+              "doi-asserted-by": "crossref",
+              "first-page": "101311",
+              "DOI": "10.1016/j.iot.2024.101311",
+              "article-title": "Efficient Pareto-based approach for IoT task offloading on fog–cloud environments",
+              "volume": "27",
+              "author": "Bernard",
+              "year": "2024",
+              "journal-title": "Internet Things"
+            },
+            {
+              "key": "ref_46",
+              "doi-asserted-by": "crossref",
+              "first-page": "1275",
+              "DOI": "10.1002/spe.2509",
+              "article-title": "iFogSim: A toolkit for modeling and simulation of resource management techniques in the Internet of Things, Edge and Fog computing environments",
+              "volume": "47",
+              "author": "Gupta",
+              "year": "2017",
+              "journal-title": "Softw. Pract. Exp."
+            },
+            {
+              "key": "ref_47",
+              "doi-asserted-by": "crossref",
+              "first-page": "23",
+              "DOI": "10.1002/spe.995",
+              "article-title": "CloudSim: A toolkit for modeling and simulation of cloud computing environments and evaluation of resource provisioning algorithms",
+              "volume": "41",
+              "author": "Calheiros",
+              "year": "2011",
+              "journal-title": "Softw. Pract. Exp."
+            },
+            {
+              "key": "ref_48",
+              "unstructured": "Google (2026, January 29). ClusterData2019 (Trace Version 3): Borg Cluster Workload Traces (May 2019). Cluster-Data GitHub Repository, Documentation File ClusterData2019.md. Available online: https://github.com/google/cluster-data/blob/master/ClusterData2019.md."
+            }
+          ],
+          "container-title": [
+            "Sensors"
+          ],
+          "language": "en",
+          "link": [
+            {
+              "URL": "https://www.mdpi.com/1424-8220/26/5/1497/pdf",
+              "content-type": "unspecified",
+              "content-version": "vor",
+              "intended-application": "similarity-checking"
+            }
+          ],
+          "deposited": {
+            "date-parts": [
+              [
+                2026,
+                2,
+                27
+              ]
+            ],
+            "date-time": "2026-02-27T15:56:19Z",
+            "timestamp": 1772207779000
+          },
+          "score": 43.217808,
+          "resource": {
+            "primary": {
+              "URL": "https://www.mdpi.com/1424-8220/26/5/1497"
+            }
+          },
+          "issued": {
+            "date-parts": [
+              [
+                2026,
+                2,
+                27
+              ]
+            ]
+          },
+          "references-count": 48,
+          "journal-issue": {
+            "issue": "5",
+            "published-online": {
+              "date-parts": [
+                [
+                  2026,
+                  3
+                ]
+              ]
+            }
+          },
+          "alternative-id": [
+            "s26051497"
+          ],
+          "URL": "https://doi.org/10.3390/s26051497",
+          "ISSN": [
+            "1424-8220"
+          ],
+          "issn-type": [
+            {
+              "value": "1424-8220",
+              "type": "electronic"
+            }
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2026,
+                2,
+                27
+              ]
+            ]
+          }
+        },
+        {
+          "indexed": {
+            "date-parts": [
+              [
+                2026,
+                10,
+                10
+              ]
+            ],
+            "date-time": "2026-10-10T01:33:07Z",
+            "timestamp": 1791595987466,
+            "version": "4.3.4"
+          },
+          "reference-count": 188,
+          "publisher": "Elsevier BV",
+          "license": [
+            {
+              "start": {
+                "date-parts": [
+                  [
+                    2025,
+                    1,
+                    1
+                  ]
+                ],
+                "date-time": "2025-01-01T00:00:00Z",
+                "timestamp": 1735689600000
+              },
+              "content-version": "tdm",
+              "delay-in-days": 0,
+              "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+            },
+            {
+              "start": {
+                "date-parts": [
+                  [
+                    2025,
+                    1,
+                    1
+                  ]
+                ],
+                "date-time": "2025-01-01T00:00:00Z",
+                "timestamp": 1735689600000
+              },
+              "content-version": "tdm",
+              "delay-in-days": 0,
+              "URL": "https://www.elsevier.com/legal/tdmrep-license"
+            },
+            {
+              "start": {
+                "date-parts": [
+                  [
+                    2025,
+                    1,
+                    1
+                  ]
+                ],
+                "date-time": "2025-01-01T00:00:00Z",
+                "timestamp": 1735689600000
+              },
+              "content-version": "stm-asf",
+              "delay-in-days": 0,
+              "URL": "https://doi.org/10.15223/policy-017"
+            },
+            {
+              "start": {
+                "date-parts": [
+                  [
+                    2025,
+                    1,
+                    1
+                  ]
+                ],
+                "date-time": "2025-01-01T00:00:00Z",
+                "timestamp": 1735689600000
+              },
+              "content-version": "stm-asf",
+              "delay-in-days": 0,
+              "URL": "https://doi.org/10.15223/policy-037"
+            },
+            {
+              "start": {
+                "date-parts": [
+                  [
+                    2025,
+                    1,
+                    1
+                  ]
+                ],
+                "date-time": "2025-01-01T00:00:00Z",
+                "timestamp": 1735689600000
+              },
+              "content-version": "stm-asf",
+              "delay-in-days": 0,
+              "URL": "https://doi.org/10.15223/policy-012"
+            },
+            {
+              "start": {
+                "date-parts": [
+                  [
+                    2025,
+                    1,
+                    1
+                  ]
+                ],
+                "date-time": "2025-01-01T00:00:00Z",
+                "timestamp": 1735689600000
+              },
+              "content-version": "stm-asf",
+              "delay-in-days": 0,
+              "URL": "https://doi.org/10.15223/policy-029"
+            },
+            {
+              "start": {
+                "date-parts": [
+                  [
+                    2025,
+                    1,
+                    1
+                  ]
+                ],
+                "date-time": "2025-01-01T00:00:00Z",
+                "timestamp": 1735689600000
+              },
+              "content-version": "stm-asf",
+              "delay-in-days": 0,
+              "URL": "https://doi.org/10.15223/policy-004"
+            }
+          ],
+          "content-domain": {
+            "domain": [
+              "elsevier.com",
+              "sciencedirect.com"
+            ],
+            "crossmark-restriction": true
+          },
+          "short-container-title": [
+            "Sustainable Computing: Informatics and Systems"
+          ],
+          "published-print": {
+            "date-parts": [
+              [
+                2025,
+                1
+              ]
+            ]
+          },
+          "DOI": "10.1016/j.suscom.2024.101080",
+          "type": "journal-article",
+          "created": {
+            "date-parts": [
+              [
+                2025,
+                1,
+                5
+              ]
+            ],
+            "date-time": "2025-01-05T01:43:07Z",
+            "timestamp": 1736041387000
+          },
+          "page": "101080",
+          "update-policy": "https://doi.org/10.1016/elsevier_cm_policy",
+          "source": "Crossref",
+          "is-referenced-by-count": 40,
+          "special_numbering": "C",
+          "title": [
+            "Optimizing task offloading with metaheuristic algorithms across cloud, fog, and edge computing networks: A comprehensive survey and state-of-the-art schemes"
+          ],
+          "prefix": "10.1016",
+          "volume": "45",
+          "author": [
+            {
+              "given": "Amir Masoud",
+              "family": "Rahmani",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Amir",
+              "family": "Haider",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Parisa",
+              "family": "Khoshvaght",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Farhad Soleimanian",
+              "family": "Gharehchopogh",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Komeil",
+              "family": "Moghaddasi",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Shakiba",
+              "family": "Rajabi",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Mehdi",
+              "family": "Hosseinzadeh",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            }
+          ],
+          "member": "78",
+          "reference": [
+            {
+              "key": "10.1016/j.suscom.2024.101080_bib1",
+              "doi-asserted-by": "crossref",
+              "DOI": "10.1016/j.iotcps.2023.04.006",
+              "article-title": "Internet of things for smart factories in industry 4.0, a review",
+              "author": "Soori",
+              "year": "2023",
+              "journal-title": "Internet Things Cyber-Phys. Syst."
+            },
+            {
+              "key": "10.1016/j.suscom.2024.101080_bib2",
+              "doi-asserted-by": "crossref",
+              "DOI": "10.1016/j.jclepro.2020.122877",
+              "article-title": "Internet of Things (IoT): opportunities, issues and challenges towards a smart and sustainable future",
+              "volume": "274",
+              "author": "Nižetić",
+              "year": "2020",
+              "journal-title": "J. Clean. Prod."
+            },
+            {
+              "key": "10.1016/j.suscom.2024.101080_bib3",
+              "doi-asserted-by": "crossref",
+              "DOI": "10.1016/j.cie.2021.107671",
+              "article-title": "Towards decision support systems for energy management in the smart industry and Internet of Things",
+              "volume": "161",
+              "author": "Li",
+              "year": "2021",
+              "journal-title": "Comput. Ind. Eng."
+            },
+            {
+              "issue": "4",
+              "key": "10.1016/j.suscom.2024.101080_bib4",
+              "doi-asserted-by": "crossref",
+              "first-page": "2462",
+              "DOI": "10.1109/COMST.2020.3009103",
+              "article-title": "Edge computing in industrial internet of things: architecture, advances and challenges",
+              "volume": "22",
+              "author": "Qiu",
+              "year": "2020",
+              "journal-title": "IEEE Commun. Surv. Tutor."
+            },
+            {
+              "key": "10.1016/j.suscom.2024.101080_bib5",
+              "doi-asserted-by": "crossref",
+              "first-page": "39058",
+              "DOI": "10.1109/ACCESS.2024.3375368",
+              "article-title": "Fog offloading and task management in IoT-fog-cloud environment: review of algorithms, networks, and SDN application",
+              "volume": "12",
+              "author": "Rezaee",
+              "year": "2024",
+              "journal-title": "IEEE Access"
+            },
+            {
+              "key": "10.1016/j.suscom.2024.101080_bib6",
+              "doi-asserted-by": "crossref",
+              "DOI": "10.1007/s10586-024-04518-z",
+              "article-title": "Reinforcement learning based task offloading of IoT applications in fog computing: algorithms and optimization techniques",
+              "author": "Allaoui",
+              "year": "2024",
+              "journal-title": "Clust. Comput."
+            },
+            {
+              "issue": "2",
+              "key": "10.1016/j.suscom.2024.101080_bib7",
+              "doi-asserted-by": "crossref",
+              "first-page": "1423",
+              "DOI": "10.1007/s11277-023-10669-w",
+              "article-title": "Edge computing for real-time internet of things applications: future internet revolution",
+              "volume": "132",
+              "author": "Quy",
+              "year": "2023",
+              "journal-title": "Wirel. Pers. Commun."
+            },
+            {
+              "issue": "2",
+              "key": "10.1016/j.suscom.2024.101080_bib8",
+              "doi-asserted-by": "crossref",
+              "first-page": "624",
+              "DOI": "10.1109/TCCN.2020.3018159",
+              "article-title": "Collaborative cloud-edge-end task offloading in mobile-edge computing networks with limited communication capability",
+              "volume": "7",
+              "author": "Kai",
+              "year": "2021",
+              "journal-title": "IEEE Trans. Cogn. Commun. Netw."
+            },
+            {
+              "key": "10.1016/j.suscom.2024.101080_bib9",
+              "doi-asserted-by": "crossref",
+              "DOI": "10.1016/j.rineng.2024.101949",
+              "article-title": "Empowering power distribution: unleashing the synergy of IoT and cloud computing for sustainable and efficient energy systems",
+              "volume": "21",
+              "author": "Rajagopalan",
+              "year": "2024",
+              "journal-title": "Results Eng."
+            },
+            {
+              "issue": "2",
+              "key": "10.1016/j.suscom.2024.101080_bib10",
+              "doi-asserted-by": "crossref",
+              "first-page": "1199",
+              "DOI": "10.1109/COMST.2023.3239579",
+              "article-title": "Offloading using traditional optimization and machine learning in federated cloud–edge–fog systems: a survey",
+              "volume": "25",
+              "author": "Kar",
+              "year": "2023",
+              "journal-title": "IEEE Commun. Surv. Tutor."
+            },
+            {
+              "key": "10.1016/j.suscom.2024.101080_bib11",
+              "doi-asserted-by": "crossref",
+              "first-page": "101079",
+              "DOI": "10.1109/ACCESS.2020.2997831",
+              "article-title": "Edge-cloud computing and artificial intelligence in internet of medical things: architecture, technology and application",
+              "volume": "8",
+              "author": "Sun",
+              "year": "2020",
+              "journal-title": "IEEE Access"
+            },
+            {
+              "key": "10.1016/j.suscom.2024.101080_bib12",
+              "doi-asserted-by": "crossref",
+              "first-page": "56",
+              "DOI": "10.1016/j.jpdc.2021.06.005",
+              "article-title": "Fog computing: a taxonomy, systematic review, current trends and research challenges",
+              "volume": "157",
+              "author": "Singh",
+              "year": "2021",
+              "journal-title": "J. Parallel Distrib. Comput."
+            },
+            {
+              "key": "10.1016/j.suscom.2024.101080_bib13",
+              "doi-asserted-by": "crossref",
+              "first-page": "155",
+              "DOI": "10.1016/j.jpdc.2020.12.015",
+              "article-title": "A review of edge computing: features and resource virtualization",
+              "volume": "150",
+              "author": "Mansouri",
+              "year": "2021",
+              "journal-title": "J. Parallel Distrib. Comput."
+            },
+            {
+              "issue": "1",
+              "key": "10.1016/j.suscom.2024.101080_bib14",
+              "doi-asserted-by": "crossref",
+              "DOI": "10.1145/3603703",
+              "article-title": "Reinforcement learning methods for computation offloading: a systematic review",
+              "volume": "56",
+              "author": "Zabihi",
+              "year": "2023",
+              "journal-title": "ACM Comput. Surv."
+            },
+            {
+              "issue": "5",
+              "key": "10.1016/j.suscom.2024.101080_bib15",
+              "doi-asserted-by": "crossref",
+              "first-page": "3113",
+              "DOI": "10.1007/s10586-023-04100-z",
+              "article-title": "Machine learning-based computation offloading in edge and fog: a systematic review",
+              "volume": "26",
+              "author": "Taheri-abed",
+              "year": "2023",
+              "journal-title": "Clust. Comput."
+            },
+            {
+              "issue": "3",
+              "key": "10.1016/j.suscom.2024.101080_bib16",
+              "doi-asserted-by": "crossref",
+              "first-page": "912",
+              "DOI": "10.1016/j.ejor.2023.11.002",
+              "article-title": "Machine scheduling with restricted rejection: an application to task offloading in cloud–edge collaborative computing",
+              "volume": "314",
+              "author": "Li",
+              "year": "2024",
+              "journal-title": "Eur. J. Oper. Res."
+            },
+            {
+              "issue": "2",
+              "key": "10.1016/j.suscom.2024.101080_bib17",
+              "doi-asserted-by": "crossref",
+              "first-page": "1278",
+              "DOI": "10.1109/TMC.2022.3232513",
+              "article-title": "An ordered submodularity-based budget-feasible mechanism for opportunistic mobile crowdsensing task allocation and pricing",
+              "volume": "23",
+              "author": "Zhang",
+              "year": "2024",
+              "journal-title": "IEEE Trans. Mob. Comput."
+            },
+            {
+              "issue": "2",
+              "key": "10.1016/j.suscom.2024.101080_bib18",
+              "doi-asserted-by": "crossref",
+              "first-page": "1081",
+              "DOI": "10.1109/TMC.2021.3088291",
+              "article-title": "Multi-task allocation in mobile crowd sensing with mobility prediction",
+              "volume": "22",
+              "author": "Zhang",
+              "year": "2023",
+              "journal-title": "IEEE Trans. Mob. Comput."
+            },
+            {
+              "issue": "5",
+              "key": "10.1016/j.suscom.2024.101080_bib19",
+              "doi-asserted-by": "crossref",
+              "first-page": "4886",
+              "DOI": "10.1109/TNSE.2024.3400288",
+              "article-title": "Ordered submodularity-based value maximization of UAV data collection in earthquake areas",
+              "volume": "11",
+              "author": "Zhang",
+              "year": "2024",
+              "journal-title": "IEEE Trans. Netw. Sci. Eng."
+            },
+            {
+              "key": "10.1016/j.suscom.2024.101080_bib20",
+              "first-page": "1",
+              "article-title": "A critical review of moth-flame optimization algorithm and its variants: structural reviewing, performance evaluation, and statistical analysis",
+              "author": "Zamani",
+              "year": "2024",
+              "journal-title": "Arch. Comput. Methods Eng."
+            },
+            {
+              "issue": "3",
+              "key": "10.1016/j.suscom.2024.101080_bib21",
+              "doi-asserted-by": "crossref",
+              "first-page": "1755",
+              "DOI": "10.1109/TCOMM.2023.3237854",
+              "article-title": "DRL-based offloading for computation delay minimization in wireless-powered multi-access edge computing",
+              "volume": "71",
+              "author": "Zheng",
+              "year": "2023",
+              "journal-title": "IEEE Trans. Commun."
+            },
+            {
+              "issue": "2",
+              "key": "10.1016/j.suscom.2024.101080_bib22",
+              "doi-asserted-by": "crossref",
+              "first-page": "1105",
+              "DOI": "10.1109/TCOMM.2023.3325905",
+              "article-title": "DRL-based computation rate maximization for wireless powered multi-AP edge computing",
+              "volume": "72",
+              "author": "Zhang",
+              "year": "2024",
+              "journal-title": "IEEE Trans. Commun."
+            },
+            {
+              "key": "10.1016/j.suscom.2024.101080_bib23",
+              "doi-asserted-by": "crossref",
+              "DOI": "10.1016/j.adhoc.2024.103656",
+              "article-title": "A joint optimization of resource allocation management and multi-task offloading in high-mobility vehicular multi-access edge computing networks",
+              "volume": "166",
+              "author": "Min",
+              "year": "2025",
+              "journal-title": "Ad Hoc Netw."
+            },
+            {
+              "key": "10.1016/j.suscom.2024.101080_bib24",
+              "article-title": "An advanced deep reinforcement learning algorithm for three-layer D2D-edge-cloud computing architecture for efficient task offloading in the Internet of Things",
+              "volume": "43",
+              "author": "Moghaddasi",
+              "year": "2024",
+              "journal-title": "Sustain. Comput.: Inform. Syst."
+            },
+            {
+              "key": "10.1016/j.suscom.2024.101080_bib25",
+              "doi-asserted-by": "crossref",
+              "unstructured": "K. Moghaddasi and S. Rajabi, Double Deep Q-Learning Networks for Energy-Efficient IoT Task Offloading in D2D MEC Environments, in 2023 7th International Conference on Internet of Things and Applications (IoT), 25-26 Oct. 2023 2023, pp. 1-6, doi: 10.1109/IoT60973.2023.10365356.",
+              "DOI": "10.1109/IoT60973.2023.10365356"
+            },
+            {
+              "key": "10.1016/j.suscom.2024.101080_bib26",
+              "doi-asserted-by": "crossref",
+              "DOI": "10.1016/j.cosrev.2023.100559",
+              "article-title": "Advances in nature-inspired metaheuristic optimization for feature selection problem: a comprehensive survey",
+              "volume": "49",
+              "author": "Nssibi",
+              "year": "2023",
+              "journal-title": "Comput. Sci. Rev."
+            },
+            {
+              "key": "10.1016/j.suscom.2024.101080_bib27",
+              "doi-asserted-by": "crossref",
+              "DOI": "10.1007/s10586-024-04442-2",
+              "article-title": "AI-based & heuristic workflow scheduling in cloud and fog computing: a systematic review",
+              "author": "Khaledian",
+              "year": "2024",
+              "journal-title": "Clust. Comput."
+            },
+            {
+              "key": "10.1016/j.suscom.2024.101080_bib28",
+              "unstructured": "B. Kitchenham and S. Charters, Guidelines for performing systematic literature reviews in software engineering, ed: UK, 2007."
+            },
+            {
+              "issue": "5",
+              "key": "10.1016/j.suscom.2024.101080_bib29",
+              "doi-asserted-by": "crossref",
+              "first-page": "8091",
+              "DOI": "10.1007/s11042-020-10139-6",
+              "article-title": "A review on genetic algorithm: past, present, and future",
+              "volume": "80",
+              "author": "Katoch",
+              "year": "2021",
+              "journal-title": "Multimed. Tools Appl."
+            },
+            {
+              "key": "10.1016/j.suscom.2024.101080_bib30",
+              "doi-asserted-by": "crossref",
+              "first-page": "1945",
+              "DOI": "10.1109/CEC.1999.785511",
+              "article-title": "Empirical study of particle swarm optimization",
+              "volume": "3",
+              "author": "Shi",
+              "year": "1999",
+              "journal-title": "Proc. 1999 Congr. Evolut. Comput. -CEC99 (Cat. No. 99TH8406)"
+            },
+            {
+              "issue": "4",
+              "key": "10.1016/j.suscom.2024.101080_bib31",
+              "doi-asserted-by": "crossref",
+              "first-page": "28",
+              "DOI": "10.1109/MCI.2006.329691",
+              "article-title": "Ant colony optimization",
+              "volume": "1",
+              "author": "Dorigo",
+              "year": "2006",
+              "journal-title": "IEEE Comput. Intell. Mag."
+            },
+            {
+              "key": "10.1016/j.suscom.2024.101080_bib32",
+              "series-title": "Simulated Annealing: Theory and Applications",
+              "first-page": "7",
+              "article-title": "Simulated annealing",
+              "author": "van Laarhoven",
+              "year": "1987"
+            },
+            {
+              "issue": "1",
+              "key": "10.1016/j.suscom.2024.101080_bib33",
+              "doi-asserted-by": "crossref",
+              "first-page": "17",
+              "DOI": "10.1007/s00366-011-0241-y",
+              "article-title": "Cuckoo search algorithm: a metaheuristic approach to solve structural optimization problems",
+              "volume": "29",
+              "author": "Gandomi",
+              "year": "2013",
+              "journal-title": "Eng. Comput."
+            },
+            {
+              "key": "10.1016/j.suscom.2024.101080_bib34",
+              "doi-asserted-by": "crossref",
+              "first-page": "46",
+              "DOI": "10.1016/j.advengsoft.2013.12.007",
+              "article-title": "Grey wolf optimizer",
+              "volume": "69",
+              "author": "Mirjalili",
+              "year": "2014",
+              "journal-title": "Adv. Eng. Softw."
+            },
+            {
+              "key": "10.1016/j.suscom.2024.101080_bib35",
+              "doi-asserted-by": "crossref",
+              "first-page": "1",
+              "DOI": "10.1016/j.swevo.2019.03.004",
+              "article-title": "A comprehensive survey: whale optimization algorithm and its applications",
+              "volume": "48",
+              "author": "Gharehchopogh",
+              "year": "2019",
+              "journal-title": "Swarm Evolut. Comput."
+            },
+            {
+              "issue": "1",
+              "key": "10.1016/j.suscom.2024.101080_bib36",
+              "first-page": "108",
+              "article-title": "A comparative study of Artificial Bee Colony algorithm",
+              "volume": "214",
+              "author": "Karaboga",
+              "year": "2009",
+              "journal-title": "Appl. Math. Comput."
+            },
+            {
+              "issue": "15",
+              "key": "10.1016/j.suscom.2024.101080_bib37",
+              "doi-asserted-by": "crossref",
+              "first-page": "8939",
+              "DOI": "10.1007/s00521-021-05720-5",
+              "article-title": "Harris hawks optimization: a comprehensive review of recent variants and applications",
+              "volume": "33",
+              "author": "Alabool",
+              "year": "2021",
+              "journal-title": "Neural Comput. Appl."
+            },
+            {
+              "key": "10.1016/j.suscom.2024.101080_bib38",
+              "doi-asserted-by": "crossref",
+              "first-page": "849",
+              "DOI": "10.1016/j.future.2019.02.028",
+              "article-title": "Harris hawks optimization: algorithm and applications",
+              "volume": "97",
+              "author": "Heidari",
+              "year": "2019",
+              "journal-title": "Future Gener. Comput. Syst."
+            },
+            {
+              "key": "10.1016/j.suscom.2024.101080_bib39",
+              "doi-asserted-by": "crossref",
+              "first-page": "228",
+              "DOI": "10.1016/j.knosys.2015.07.006",
+              "article-title": "Moth-flame optimization algorithm: a novel nature-inspired heuristic paradigm",
+              "volume": "89",
+              "author": "Mirjalili",
+              "year": "2015",
+              "journal-title": "Knowl. -Based Syst."
+            },
+            {
+              "key": "10.1016/j.suscom.2024.101080_bib40",
+              "doi-asserted-by": "crossref",
+              "DOI": "10.7717/peerj-cs.729",
+              "article-title": "GenACO a multi-objective cached data offloading optimization based on genetic algorithm and ant colony optimization",
+              "volume": "7",
+              "author": "Indana Zulfa",
+              "year": "2021",
+              "journal-title": "PeerJ Comput. Sci."
+            },
+            {
+              "key": "10.1016/j.suscom.2024.101080_bib41",
+              "doi-asserted-by": "crossref",
+              "unstructured": "H. Wang, J. Han, S. Cao, and X. Zhang, Computation Offloading Strategy of Multi-satellite Cooperative Tasks Based on Genetic Algorithm in Satellite Edge Computing, in 2021 International Conference on Space-Air-Ground Computing (SAGC), 23-25 Oct. 2021 2021, pp. 22-28, doi: 10.1109/SAGC52752.2021.00011.",
+              "DOI": "10.1109/SAGC52752.2021.00011"
+            },
+            {
+              "key": "10.1016/j.suscom.2024.101080_bib42",
+              "unstructured": "A. LAMMARI and M. BESSEDIK, Contribution of Three-Neighborhood Local Search on the Design of a Genetic Algorithm Applied to the Optimization of Computational Offloading in Mec.\""
+            },
+            {
+              "key": "10.1016/j.suscom.2024.101080_bib43",
+              "doi-asserted-by": "crossref",
+              "unstructured": "S. Aleteemat and M. Shurman, Task Offloading Scheduling in Fog Computing Using Hybrid Genetic Algorithm, in 2023 14th International Conference on Information and Communication Systems (ICICS), 21-23 Nov. 2023 2023, pp. 1-6, doi: 10.1109/ICICS60529.2023.10330532.",
+              "DOI": "10.1109/ICICS60529.2023.10330532"
+            },
+            {
+              "issue": "1",
+              "key": "10.1016/j.suscom.2024.101080_bib44",
+              "article-title": "Offloading decision making for workflow applications using an enhanced genetic algorithm in the edge environment",
+              "volume": "2224",
+              "author": "Balasubramanian",
+              "year": "2022",
+              "journal-title": "J. Phys.: Conf. Ser."
+            },
+            {
+              "key": "10.1016/j.suscom.2024.101080_bib45",
+              "first-page": "1",
+              "article-title": "Low-cost task offloading scheme for mobile edge cloud and internet cloud using genetic algorithm",
+              "volume": "17-18",
+              "author": "Sinthiya",
+              "year": "2022",
+              "journal-title": "2022 4th Int. Conf. Sustain. Technol. Ind. 4. 0 (STI)"
+            },
+            {
+              "key": "10.1016/j.suscom.2024.101080_bib46",
+              "doi-asserted-by": "crossref",
+              "first-page": "269",
+              "DOI": "10.3233/WEB-220019",
+              "article-title": "The mobile edge computing task offloading in wireless networks based on improved genetic algorithm",
+              "volume": "20",
+              "author": "Shang",
+              "year": "2022",
+              "journal-title": "Web Intell."
+            },
+            {
+              "key": "10.1016/j.suscom.2024.101080_bib47",
+              "doi-asserted-by": "crossref",
+              "unstructured": "H. Li, W. Li, X. Zhang, A Genetic Algorithm for Task Offloading problem in Vehicular Edge Computing, in 2022 China Automation Congress (CAC), 25-27 Nov. 2022 2022, pp. 6242-6247, doi: 10.1109/CAC57257.2022.10054675.",
+              "DOI": "10.1109/CAC57257.2022.10054675"
+            },
+            {
+              "key": "10.1016/j.suscom.2024.101080_bib48",
+              "first-page": "1493",
+              "article-title": "Improved Genetic Algorithm for Computation Offloading in Cloud-Edge-Terminal Collaboration Networks",
+              "volume": "2021",
+              "author": "Wang",
+              "year": "2021"
+            },
+            {
+              "key": "10.1016/j.suscom.2024.101080_bib49",
+              "doi-asserted-by": "crossref",
+              "unstructured": "T. Li, L. Zhao, C. Mao, N. Lin, Q. He, and X. Wang, A Genetic Algorithm Based Adaptive Offloading Scheme for Domain Generalization in VEC, in 2023 IEEE Intl Conf on Parallel & Distributed Processing with Applications, Big Data & Cloud Computing, Sustainable Computing & Communications, Social Computing & Networking (ISPA/BDCloud/SocialCom/SustainCom), 21-24 Dec. 2023 2023, pp. 161-168, doi: 10.1109/ISPA-BDCloud-SocialCom-SustainCom59178.2023.00054.",
+              "DOI": "10.1109/ISPA-BDCloud-SocialCom-SustainCom59178.2023.00054"
+            },
+            {
+              "key": "10.1016/j.suscom.2024.101080_bib50",
+              "doi-asserted-by": "crossref",
+              "unstructured": "Q. Li, B. Peng, Q. Li, M. Lin, C. Chen, and S. Peng, A Latency-Optimal Task Offloading Scheme Using Genetic Algorithm for DAG Applications in Edge Computing, in 2023 8th International Conference on Cloud Computing and Big Data Analytics (ICCCBDA), 26-28 April 2023 2023, pp. 344-348, doi: 10.1109/ICCCBDA56900.2023.10154698.",
+              "DOI": "10.1109/ICCCBDA56900.2023.10154698"
+            },
+            {
+              "key": "10.1016/j.suscom.2024.101080_bib51",
+              "doi-asserted-by": "crossref",
+              "unstructured": "J. Fang, W. Li, Y. Wang, and X. Sun, A Novel Multi-Edge Cooperative Offloading Genetic Algorithm towards Environmental Monitoring System, presented at the Proceedings of the 2022 5th International Conference on Telecommunications and Communication Engineering, <conf-loc> , <city>Chengdu< /city> , <country>China< /country> , < /conf-loc> , 2023. [Online]. Available: https://doi.org/10.1145/3577065.3577088.",
+              "DOI": "10.1145/3577065.3577088"
+            },
+            {
+              "key": "10.1016/j.suscom.2024.101080_bib52",
+              "doi-asserted-by": "crossref",
+              "unstructured": "L. Zhao, H. Fang, J. Wu, Y. Wan, Y. Zhang, and J. Chen, Computing Task Offloading Based on An Enhanced Genetic Algorithm in Mobile Edge Computing, presented at the Proceedings of the 2023 4th International Conference on Computer Science and Management Technology, <conf-loc> , <city>Xi'an< /city> , <country>China< /country> , < /conf-loc> , 2024. [Online]. Available: https://doi.org/10.1145/3644523.3644545.",
+              "DOI": "10.1145/3644523.3644545"
+            },
+            {
+              "key": "10.1016/j.suscom.2024.101080_bib53",
+              "doi-asserted-by": "crossref",
+              "unstructured": "W. Huang, Y. Zhou, B. Zhang, L. Yu, and Z. Guo, Improved Genetic Offloading Algorithm Based on Edge Terminal Server of Power Distribution Station Area, in 2022 5th International Conference on Energy, Electrical and Power Engineering (CEEPE), 22-24 April 2022 2022, pp. 590-595, doi: 10.1109/CEEPE55110.2022.9783386.",
+              "DOI": "10.1109/CEEPE55110.2022.9783386"
+            },
+            {
+              "issue": "17",
+              "key": "10.1016/j.suscom.2024.101080_bib54",
+              "doi-asserted-by": "crossref",
+              "first-page": "20076",
+              "DOI": "10.1007/s11227-023-05387-w",
+              "article-title": "Energy-efficient computation offloading using hybrid GA with PSO in internet of robotic things environment",
+              "volume": "79",
+              "author": "El Menbawy",
+              "year": "2023",
+              "journal-title": "J. Supercomput."
+            },
+            {
+              "key": "10.1016/j.suscom.2024.101080_bib55",
+              "doi-asserted-by": "crossref",
+              "first-page": "42",
+              "DOI": "10.1016/j.comcom.2020.09.011",
+              "article-title": "An offloading strategy with soft time windows in mobile edge computing",
+              "volume": "164",
+              "author": "Wei",
+              "year": "2020",
+              "journal-title": "Comput. Commun."
+            },
+            {
+              "issue": "4",
+              "key": "10.1016/j.suscom.2024.101080_bib56",
+              "first-page": "1552",
+              "article-title": "Sustainable task offloading decision using genetic algorithm in sensor mobile edge computing",
+              "volume": "34",
+              "author": "Chakraborty",
+              "year": "2022",
+              "journal-title": "J. King Saud. Univ. - Comput. Inf. Sci."
+            },
+            {
+              "key": "10.1016/j.suscom.2024.101080_bib57",
+              "doi-asserted-by": "crossref",
+              "first-page": "378",
+              "DOI": "10.1016/j.future.2024.04.021",
+              "article-title": "An efficient computation offloading in edge environment using genetic algorithm with directed search techniques for IoT applications",
+              "volume": "158",
+              "author": "Rajapackiyam",
+              "year": "2024",
+              "journal-title": "Future Gener. Comput. Syst."
+            },
+            {
+              "issue": "4",
+              "key": "10.1016/j.suscom.2024.101080_bib58",
+              "doi-asserted-by": "crossref",
+              "first-page": "2329",
+              "DOI": "10.1007/s11276-019-02121-4",
+              "article-title": "Genetic algorithm based adaptive offloading for improving IoT device communication efficiency",
+              "volume": "26",
+              "author": "Hussain",
+              "year": "2020",
+              "journal-title": "Wirel. Netw."
+            },
+            {
+              "issue": "1",
+              "key": "10.1016/j.suscom.2024.101080_bib59",
+              "doi-asserted-by": "crossref",
+              "first-page": "15",
+              "DOI": "10.1186/s13677-021-00232-y",
+              "article-title": "Adaptive offloading in mobile-edge computing for ultra-dense cellular networks based on genetic algorithm",
+              "volume": "10",
+              "author": "Liao",
+              "year": "2021",
+              "journal-title": "J. Cloud Comput."
+            },
+            {
+              "issue": "2",
+              "key": "10.1016/j.suscom.2024.101080_bib60",
+              "doi-asserted-by": "crossref",
+              "first-page": "83",
+              "DOI": "10.3390/info11020083",
+              "article-title": "Genetic Algorithm-Based Optimization of Offloading and Resource Allocation in Mobile-Edge Computing",
+              "volume": "11",
+              "author": "Li",
+              "year": "2020",
+              "journal-title": "Information"
+            },
+            {
+              "key": "10.1016/j.suscom.2024.101080_bib61",
+              "doi-asserted-by": "crossref",
+              "DOI": "10.1016/j.adhoc.2023.103109",
+              "article-title": "Genetic algorithm for delay efficient computation offloading in dispersed computing",
+              "volume": "142",
+              "author": "Liu",
+              "year": "2023",
+              "journal-title": "Ad Hoc Netw."
+            },
+            {
+              "issue": "3",
+              "key": "10.1016/j.suscom.2024.101080_bib62",
+              "doi-asserted-by": "crossref",
+              "first-page": "38",
+              "DOI": "10.1007/s10723-021-09578-8",
+              "article-title": "Computing Offloading Strategy Using Improved Genetic Algorithm in Mobile Edge Computing System",
+              "volume": "19",
+              "author": "Zhu",
+              "year": "2021",
+              "journal-title": "J. Grid Comput."
+            },
+            {
+              "key": "10.1016/j.suscom.2024.101080_bib63",
+              "doi-asserted-by": "crossref",
+              "first-page": "205",
+              "DOI": "10.1016/j.future.2022.04.009",
+              "article-title": "Energy-SLA-aware genetic algorithm for edge–cloud integrated computation offloading in vehicular networks",
+              "volume": "135",
+              "author": "Materwala",
+              "year": "2022",
+              "journal-title": "Future Gener. Comput. Syst."
+            },
+            {
+              "key": "10.1016/j.suscom.2024.101080_bib64",
+              "article-title": "QoS-SLA-aware adaptive genetic algorithm for multi-request offloading in integrated edge-cloud computing in Internet of vehicles",
+              "volume": "43",
+              "author": "Materwala",
+              "year": "2023",
+              "journal-title": "Veh. Commun."
+            },
+            {
+              "key": "10.1016/j.suscom.2024.101080_bib65",
+              "doi-asserted-by": "crossref",
+              "first-page": "76752",
+              "DOI": "10.1109/ACCESS.2022.3192391",
+              "article-title": "An Adaptive Offloading Mechanism for Mobile Cloud Computing: A Niching Genetic Algorithm Perspective",
+              "volume": "10",
+              "author": "Zalat",
+              "year": "2022",
+              "journal-title": "IEEE Access"
+            },
+            {
+              "issue": "4",
+              "key": "10.1016/j.suscom.2024.101080_bib66",
+              "doi-asserted-by": "crossref",
+              "first-page": "2535",
+              "DOI": "10.1109/TNSE.2022.3165372",
+              "article-title": "Joint Optimization of Edge Computing Server Deployment and User Offloading Associations in Wireless Edge Network via a Genetic Algorithm",
+              "volume": "9",
+              "author": "Song",
+              "year": "2022",
+              "journal-title": "IEEE Trans. Netw. Sci. Eng."
+            },
+            {
+              "issue": "9",
+              "key": "10.1016/j.suscom.2024.101080_bib67",
+              "doi-asserted-by": "crossref",
+              "first-page": "7506",
+              "DOI": "10.3390/su15097506",
+              "article-title": "Sustainable internet of vehicles system: a task offloading strategy based on improved genetic algorithm",
+              "volume": "15",
+              "author": "Wang",
+              "year": "2023",
+              "journal-title": "Sustainability"
+            },
+            {
+              "key": "10.1016/j.suscom.2024.101080_bib68",
+              "first-page": "1",
+              "article-title": "DNN Partition and Offloading Strategy with Improved Particle Swarm Genetic Algorithm in VEC",
+              "author": "Li",
+              "year": "2023",
+              "journal-title": "IEEE Trans. Intell. Veh."
+            },
+            {
+              "issue": "1",
+              "key": "10.1016/j.suscom.2024.101080_bib69",
+              "doi-asserted-by": "crossref",
+              "first-page": "34",
+              "DOI": "10.1007/s10723-024-09741-x",
+              "article-title": "Joint Task Offloading Based on Distributed Deep Reinforcement Learning-Based Genetic Optimization Algorithm for Internet of Vehicles",
+              "volume": "22",
+              "author": "Jin",
+              "year": "2024",
+              "journal-title": "J. Grid Comput."
+            },
+            {
+              "key": "10.1016/j.suscom.2024.101080_bib70",
+              "first-page": "1",
+              "article-title": "Particle Swarm Optimization based Task Offloading in Vehicular Edge Computing",
+              "author": "Keshari",
+              "year": "2021",
+              "journal-title": "2021 IEEE 18th India Counc. Int. Conf. (INDICON)"
+            },
+            {
+              "key": "10.1016/j.suscom.2024.101080_bib71",
+              "doi-asserted-by": "crossref",
+              "unstructured": "S. Li, H. Ge, X. Chen, L. Liu, H. Gong, and R. Tang, Computation Offloading Strategy for Improved Particle Swarm Optimization in Mobile Edge Computing, in 2021 IEEE 6th International Conference on Cloud Computing and Big Data Analytics (ICCCBDA), 24-26 April 2021 2021, pp. 375-381, doi: 10.1109/ICCCBDA51879.2021.9442609.",
+              "DOI": "10.1109/ICCCBDA51879.2021.9442609"
+            },
+            {
+              "key": "10.1016/j.suscom.2024.101080_bib72",
+              "doi-asserted-by": "crossref",
+              "first-page": "3194",
+              "DOI": "10.1109/SMC52423.2021.9658678",
+              "article-title": "Energy-Aware Task Offloading with Genetic Particle Swarm Optimization in Hybrid Edge Computing",
+              "author": "Bi",
+              "year": "2021",
+              "journal-title": "2021 IEEE Int. Conf. Syst., Man, Cybern. (SMC)"
+            },
+            {
+              "key": "10.1016/j.suscom.2024.101080_bib73",
+              "series-title": "Advanced Intelligent Computing Technology and Applications",
+              "first-page": "340",
+              "article-title": "Particle Swarm Optimization with Genetic Evolution for Task Offloading in Device-Edge-Cloud Collaborative Computing",
+              "author": "Wang",
+              "year": "2023"
+            },
+            {
+              "key": "10.1016/j.suscom.2024.101080_bib74",
+              "doi-asserted-by": "crossref",
+              "first-page": "185",
+              "DOI": "10.1109/ICCSN52437.2021.9463602",
+              "article-title": "An Request Offloading and Scheduling Approach Base on Particle Swarm Optimization Algorithm in IoT-Fog Networks",
+              "volume": "4-7",
+              "author": "Ju",
+              "year": "2021",
+              "journal-title": "2021 13th Int. Conf. Commun. Softw. Netw. (ICCSN)"
+            },
+            {
+              "key": "10.1016/j.suscom.2024.101080_bib75",
+              "doi-asserted-by": "crossref",
+              "unstructured": "W. Li, W. Deng, R. She, N. Zhang, Y. Wang, and W. Ma, Edge Computing Offloading Strategy Based on Particle Swarm Algorithm for Power Internet of Things, in 2021 IEEE 2nd International Conference on Big Data, Artificial Intelligence and Internet of Things Engineering (ICBAIE), 26-28 March 2021 2021, pp. 145-150, doi: 10.1109/ICBAIE52039.2021.9389919.",
+              "DOI": "10.1109/ICBAIE52039.2021.9389919"
+            },
+            {
+              "key": "10.1016/j.suscom.2024.101080_bib76",
+              "doi-asserted-by": "crossref",
+              "unstructured": "Y. Deng, P. Wang, and L. Li, Task Offloading for Mixed Cloud/Fog Computing in Vehicular Network Using Genetic Particle Swarm Optimization, in 2021 4th International Conference on Information Communication and Signal Processing (ICICSP), 24-26 Sept. 2021 2021, pp. 489-494, doi: 10.1109/ICICSP54369.2021.9611841.",
+              "DOI": "10.1109/ICICSP54369.2021.9611841"
+            },
+            {
+              "issue": "5",
+              "key": "10.1016/j.suscom.2024.101080_bib77",
+              "first-page": "19",
+              "article-title": "Energy-efficient Task Offloading Using Hybrid Particle Swarm Optimization with Genetic Operations in Smart Edge",
+              "volume": "53",
+              "author": "Bi",
+              "year": "2020",
+              "journal-title": "IFAC-Pap."
+            },
+            {
+              "key": "10.1016/j.suscom.2024.101080_bib78",
+              "series-title": "Fourth International Conference on Image Processing and Capsule Networks",
+              "first-page": "597",
+              "article-title": "AdaptPSOFL: Adaptive Particle Swarm Optimization-Based Layer Offloading Framework for Federated Learning",
+              "author": "Verma",
+              "year": "2023"
+            },
+            {
+              "key": "10.1016/j.suscom.2024.101080_bib79",
+              "doi-asserted-by": "crossref",
+              "unstructured": "X. Yuan, H. Tian, W. Zhang, H. Zhao, Z. Zhao, and N. Zhang, CA-PSO: A Combinatorial Auction and Improved Particle Swarm Optimization based Computation Offloading Approach for E-Healthcare, in ICC 2022 - IEEE International Conference on Communications, 16-20 May 2022 2022, pp. 3850-3855, doi: 10.1109/ICC45855.2022.9838733.",
+              "DOI": "10.1109/ICC45855.2022.9838733"
+            },
+            {
+              "key": "10.1016/j.suscom.2024.101080_bib80",
+              "doi-asserted-by": "crossref",
+              "unstructured": "X. Chen and S. Zheng, Resource Allocation and Task Offloading Strategy Base on Hybrid Simulated Annealing-Binary Particle Swarm Optimization in Cloud-Edge Collaborative System, in 2022 IEEE 5th Advanced Information Management, Communicates, Electronic and Automation Control Conference (IMCEC), 16-18 Dec. 2022 2022, vol. 5, pp. 379-383, doi: 10.1109/IMCEC55388.2022.10019879.",
+              "DOI": "10.1109/IMCEC55388.2022.10019879"
+            },
+            {
+              "key": "10.1016/j.suscom.2024.101080_bib81",
+              "doi-asserted-by": "crossref",
+              "unstructured": "J. He and W. Bai, Computation Offloading and Task Scheduling Based on Improved Integer Particle Swarm Optimization in Fog Computing, in 2023 3rd International Conference on Neural Networks, Information and Communication Engineering (NNICE), 24-26 Feb. 2023 2023, pp. 633-638, doi: 10.1109/NNICE58320.2023.10105675.",
+              "DOI": "10.1109/NNICE58320.2023.10105675"
+            },
+            {
+              "key": "10.1016/j.suscom.2024.101080_bib82",
+              "doi-asserted-by": "crossref",
+              "unstructured": "D. Ye, X. Wang, and J. Hou, An Edge Computing Offloading Algorithm Based on Second-Order Oscillatory Particle Swarm Optimization, in 2022 3rd Information Communication Technologies Conference (ICTC), 6-8 May 2022 2022, pp. 221-226, doi: 10.1109/ICTC55111.2022.9778592.",
+              "DOI": "10.1109/ICTC55111.2022.9778592"
+            },
+            {
+              "key": "10.1016/j.suscom.2024.101080_bib83",
+              "doi-asserted-by": "crossref",
+              "unstructured": "K. Yuan and S. Chen, Improved Particle Swarm Optimization-Based Computation Offloading and Caching Decision for Internet of Things, in 2022 IEEE/CIC International Conference on Communications in China (ICCC), 11-13 Aug. 2022 2022, pp. 1068-1073, doi: 10.1109/ICCC55456.2022.9880663.",
+              "DOI": "10.1109/ICCC55456.2022.9880663"
+            },
+            {
+              "key": "10.1016/j.suscom.2024.101080_bib84",
+              "series-title": "Intelligent Data Engineering and Analytics",
+              "first-page": "309",
+              "article-title": "An Energy Efficient Offloading Technique for UAV-Assisted MEC Using Nature Inspired Algorithm",
+              "author": "Ghosh",
+              "year": "2023"
+            },
+            {
+              "key": "10.1016/j.suscom.2024.101080_bib85",
+              "first-page": "1",
+              "article-title": "Deadline-aware Cost and Energy Efficient Offloading in Mobile Edge Computing",
+              "author": "Kumar",
+              "year": "2024",
+              "journal-title": "IEEE Trans. Sustain. Comput."
+            },
+            {
+              "issue": "1",
+              "key": "10.1016/j.suscom.2024.101080_bib86",
+              "doi-asserted-by": "crossref",
+              "first-page": "587",
+              "DOI": "10.1007/s10586-022-03609-z",
+              "article-title": "Energy efficient offloading mechanism using particle swarm optimization in 5G enabled edge nodes",
+              "volume": "26",
+              "author": "Bacanin",
+              "year": "2023",
+              "journal-title": "Clust. Comput."
+            },
+            {
+              "key": "10.1016/j.suscom.2024.101080_bib87",
+              "doi-asserted-by": "crossref",
+              "DOI": "10.1016/j.asoc.2021.107790",
+              "article-title": "Dependent tasks offloading based on particle swarm optimization algorithm in multi-access edge computing",
+              "volume": "112",
+              "author": "Ma",
+              "year": "2021",
+              "journal-title": "Appl. Soft Comput."
+            },
+            {
+              "issue": "1",
+              "key": "10.1016/j.suscom.2024.101080_bib88",
+              "doi-asserted-by": "crossref",
+              "first-page": "41",
+              "DOI": "10.1186/s13677-021-00256-4",
+              "article-title": "Efficient task offloading using particle swarm optimization algorithm in edge computing for industrial internet of things",
+              "volume": "10",
+              "author": "You",
+              "year": "2021",
+              "journal-title": "J. Cloud Comput."
+            },
+            {
+              "key": "10.1016/j.suscom.2024.101080_bib89",
+              "doi-asserted-by": "crossref",
+              "first-page": "577",
+              "DOI": "10.1016/j.future.2022.12.016",
+              "article-title": "A novel offloading approach of IoT user perception task based on quantum behavior particle swarm optimization",
+              "volume": "141",
+              "author": "Chen",
+              "year": "2023",
+              "journal-title": "Future Gener. Comput. Syst."
+            },
+            {
+              "issue": "10",
+              "key": "10.1016/j.suscom.2024.101080_bib90",
+              "first-page": "10356",
+              "article-title": "Task offloading using GPU-based particle swarm optimization for high-performance vehicular edge computing",
+              "volume": "34",
+              "author": "Alqarni",
+              "year": "2022",
+              "journal-title": "J. King Saud. Univ. - Comput. Inf. Sci."
+            },
+            {
+              "issue": "8",
+              "key": "10.1016/j.suscom.2024.101080_bib91",
+              "doi-asserted-by": "crossref",
+              "first-page": "9113",
+              "DOI": "10.1109/TII.2022.3225313",
+              "article-title": "Quantum Particle Swarm Optimization for Task Offloading in Mobile Edge Computing",
+              "volume": "19",
+              "author": "Dong",
+              "year": "2023",
+              "journal-title": "IEEE Trans. Ind. Inform."
+            },
+            {
+              "key": "10.1016/j.suscom.2024.101080_bib92",
+              "doi-asserted-by": "crossref",
+              "first-page": "76636",
+              "DOI": "10.1109/ACCESS.2022.3192846",
+              "article-title": "A Particle Swarm Optimization With Lévy Flight for Service Caching and Task Offloading in Edge-Cloud Computing",
+              "volume": "10",
+              "author": "Gao",
+              "year": "2022",
+              "journal-title": "IEEE Access"
+            },
+            {
+              "issue": "1",
+              "key": "10.1016/j.suscom.2024.101080_bib93",
+              "doi-asserted-by": "crossref",
+              "first-page": "56",
+              "DOI": "10.1016/j.dcan.2022.03.009",
+              "article-title": "Joint offloading strategy based on quantum particle swarm optimization for MEC-enabled vehicular networks",
+              "volume": "9",
+              "author": "Shu",
+              "year": "2023",
+              "journal-title": "Digit. Commun. Netw."
+            },
+            {
+              "key": "10.1016/j.suscom.2024.101080_bib94",
+              "doi-asserted-by": "crossref",
+              "unstructured": "H. Zhang, S. Jin, Z. Tang, and L. Chang, Joint Offloading with Fixed-Site and UAV-Mounted Edge Servers Based on Particle Swarm Optimization, in 2023 9th International Conference on Control Science and Systems Engineering (ICCSSE), 16-18 June 2023 2023, pp. 190-195, doi: 10.1109/ICCSSE59359.2023.10245119.",
+              "DOI": "10.1109/ICCSSE59359.2023.10245119"
+            },
+            {
+              "key": "10.1016/j.suscom.2024.101080_bib95",
+              "doi-asserted-by": "crossref",
+              "unstructured": "Z. Yang, A Two-Stage Intelligent Task Offloading Approach for Cloud-Edge Collaborative Computing Based on Particle Swarm Algorithm, in 2023 5th International Conference on Frontiers Technology of Information and Computer (ICFTIC), 17-19 Nov. 2023 2023, pp. 113-118, doi: 10.1109/ICFTIC59930.2023.10455821.",
+              "DOI": "10.1109/ICFTIC59930.2023.10455821"
+            },
+            {
+              "key": "10.1016/j.suscom.2024.101080_bib96",
+              "doi-asserted-by": "crossref",
+              "unstructured": "J. Wang and H. Wang, A Secure Data Offloading Strategy for UAV Wireless Networks Based on Improved Ant Colony Algorithms, in 2022 3rd International Conference on Electronics, Communications and Information Technology (CECIT), 23-25 Dec. 2022 2022, pp. 57-61, doi: 10.1109/CECIT58139.2022.00017.",
+              "DOI": "10.1109/CECIT58139.2022.00017"
+            },
+            {
+              "key": "10.1016/j.suscom.2024.101080_bib97",
+              "doi-asserted-by": "crossref",
+              "unstructured": "Y. Wang, J. Fu, and Y. Zhang, Multi-edge Server Load Balancing Offloading Method Based On Ant Colony Algorithm, in 2021 40th Chinese Control Conference (CCC), 26-28 July 2021 2021, pp. 1826-1831, doi: 10.23919/CCC52363.2021.9549527.",
+              "DOI": "10.23919/CCC52363.2021.9549527"
+            },
+            {
+              "key": "10.1016/j.suscom.2024.101080_bib98",
+              "doi-asserted-by": "crossref",
+              "unstructured": "J. Chang, C. Liu, M. Yang, Y. Gong, L. Huang, and K. Liu, Cloud Offloading Technique based on an Optimized Ant Colony Algorithm, in 2022 3rd International Conference on Computer Science and Management Technology (ICCSMT), 18-20 Nov. 2022 2022, pp. 317-321, doi: 10.1109/ICCSMT58129.2022.00074.",
+              "DOI": "10.1109/ICCSMT58129.2022.00074"
+            },
+            {
+              "key": "10.1016/j.suscom.2024.101080_bib99",
+              "doi-asserted-by": "crossref",
+              "unstructured": "X. Huang, Y. Yang, and X. Wu, A Meta-Heuristic Computation Offloading Strategy for IoT Applications in an Edge-Cloud Framework, presented at the Proceedings of the 2019 3rd International Symposium on Computer Science and Intelligent Control, Amsterdam, Netherlands, 2020. [Online]. Available: https://doi.org/10.1145/3386164.3390513.",
+              "DOI": "10.1145/3386164.3390513"
+            },
+            {
+              "key": "10.1016/j.suscom.2024.101080_bib100",
+              "doi-asserted-by": "crossref",
+              "first-page": "37191",
+              "DOI": "10.1109/ACCESS.2020.2975741",
+              "article-title": "Efficient Task Offloading for IoT-Based Applications in Fog Computing Using Ant Colony Optimization",
+              "volume": "8",
+              "author": "Hussein",
+              "year": "2020",
+              "journal-title": "IEEE Access"
+            },
+            {
+              "key": "10.1016/j.suscom.2024.101080_bib101",
+              "doi-asserted-by": "crossref",
+              "DOI": "10.1016/j.simpat.2022.102523",
+              "article-title": "Research on computing offloading strategy based on Genetic Ant Colony fusion algorithm",
+              "volume": "118",
+              "author": "Xu",
+              "year": "2022",
+              "journal-title": "Simul. Model. Pract. Theory"
+            },
+            {
+              "key": "10.1016/j.suscom.2024.101080_bib102",
+              "doi-asserted-by": "crossref",
+              "DOI": "10.1016/j.asoc.2022.109900",
+              "article-title": "DQN-enabled content caching and quantum ant colony-based computation offloading in MEC",
+              "volume": "133",
+              "author": "Li",
+              "year": "2023",
+              "journal-title": "Appl. Soft Comput."
+            },
+            {
+              "key": "10.1016/j.suscom.2024.101080_bib103",
+              "doi-asserted-by": "crossref",
+              "first-page": "84558",
+              "DOI": "10.1109/ACCESS.2022.3197205",
+              "article-title": "Improving Cached Data Offloading Optimization Based on Enhanced Hybrid Ant Colony Genetic Algorithm",
+              "volume": "10",
+              "author": "Zulfa",
+              "year": "2022",
+              "journal-title": "IEEE Access"
+            },
+            {
+              "key": "10.1016/j.suscom.2024.101080_bib104",
+              "doi-asserted-by": "crossref",
+              "unstructured": "C.W. Danial, I.A. Saroit, and S.M. Mohamed, Energy Efficient Ant Colony Cloud Offloading Algorithm (EACO), presented at the Proceedings of the 9th International Conference on Software and Information Engineering, Cairo, Egypt, 2021. [Online]. Available: https://doi.org/10.1145/3436829.3436846.",
+              "DOI": "10.1145/3436829.3436846"
+            },
+            {
+              "key": "10.1016/j.suscom.2024.101080_bib105",
+              "doi-asserted-by": "crossref",
+              "unstructured": "B. Wang, T. Feng, D. Huang, and X. Li, Mobile Edge Computing for LEO Satellite: A Computation Offloading Strategy Based Improved Ant Colony Algorithm, in Proceedings of the 11th International Conference on Computer Engineering and Networks, Singapore, Q. Liu, X. Liu, B. Chen, Y. Zhang, and J. Peng, Eds., 2022// 2022: Springer Nature Singapore, pp. 1664-1676.",
+              "DOI": "10.1007/978-981-16-6554-7_183"
+            },
+            {
+              "issue": "2",
+              "key": "10.1016/j.suscom.2024.101080_bib106",
+              "doi-asserted-by": "crossref",
+              "first-page": "1683",
+              "DOI": "10.1007/s11277-021-08714-7",
+              "article-title": "Task Offloading in Fog Computing for Using Smart Ant Colony Optimization",
+              "volume": "127",
+              "author": "Kishor",
+              "year": "2022",
+              "journal-title": "Wirel. Pers. Commun."
+            },
+            {
+              "issue": "5",
+              "key": "10.1016/j.suscom.2024.101080_bib107",
+              "doi-asserted-by": "crossref",
+              "first-page": "3774",
+              "DOI": "10.1109/JIOT.2020.3024223",
+              "article-title": "Energy-Optimized Partial Computation Offloading in Mobile-Edge Computing With Genetic Simulated-Annealing-Based Particle Swarm Optimization",
+              "volume": "8",
+              "author": "Bi",
+              "year": "2021",
+              "journal-title": "IEEE Internet Things J."
+            },
+            {
+              "key": "10.1016/j.suscom.2024.101080_bib108",
+              "doi-asserted-by": "crossref",
+              "unstructured": "T. Huang, S. Li, and X. Gao, Computing Resource Allocation and Offloading Method based on Simulated Annealing Algorithm, in 2020 International Conference on Cyber-Enabled Distributed Computing and Knowledge Discovery (CyberC), 29-30 Oct. 2020 2020, pp. 276-282, doi: 10.1109/CyberC49757.2020.00052.",
+              "DOI": "10.1109/CyberC49757.2020.00052"
+            },
+            {
+              "issue": "2",
+              "key": "10.1016/j.suscom.2024.101080_bib109",
+              "doi-asserted-by": "crossref",
+              "DOI": "10.1145/3532093",
+              "article-title": "A MEC Offloading Strategy Based on Improved DQN and Simulated Annealing for Internet of Behavior",
+              "volume": "19",
+              "author": "Yuan",
+              "year": "2022",
+              "journal-title": "ACM Trans. Sen. Netw."
+            },
+            {
+              "key": "10.1016/j.suscom.2024.101080_bib110",
+              "doi-asserted-by": "crossref",
+              "first-page": "47",
+              "DOI": "10.1109/ICWOC52624.2021.9530216",
+              "article-title": "Optimization of Task Offloading Problem Based on Simulated Annealing Algorithm in MEC",
+              "author": "Li",
+              "year": "2021",
+              "journal-title": "2021 9th Int. Conf. Intell. Comput. Wirel. Opt. Commun. (ICWOC)"
+            },
+            {
+              "key": "10.1016/j.suscom.2024.101080_bib111",
+              "doi-asserted-by": "crossref",
+              "unstructured": "A. Mahjoubi, K.J. Grinnemo, and J. Taheri, An Efficient Simulated Annealing-based Task Scheduling Technique for Task Offloading in a Mobile Edge Architecture, in 2022 IEEE 11th International Conference on Cloud Networking (CloudNet), 7-10 Nov. 2022 2022, pp. 159-167, doi: 10.1109/CloudNet55617.2022.9978900.",
+              "DOI": "10.1109/CloudNet55617.2022.9978900"
+            },
+            {
+              "key": "10.1016/j.suscom.2024.101080_bib112",
+              "doi-asserted-by": "crossref",
+              "unstructured": "H. Yuan, J. Bi, M. Zhou, J. Zhang, and W. Zhang, Profit-Maximized Task Offloading with Simulated-annealing-based Migrating Birds Optimization in Hybrid Cloud-Edge Systems, in 2020 IEEE International Conference on Systems, Man, and Cybernetics (SMC), 11-14 Oct. 2020 2020, pp. 1218-1223, doi: 10.1109/SMC42975.2020.9283467.",
+              "DOI": "10.1109/SMC42975.2020.9283467"
+            },
+            {
+              "issue": "12",
+              "key": "10.1016/j.suscom.2024.101080_bib113",
+              "doi-asserted-by": "crossref",
+              "first-page": "8233",
+              "DOI": "10.1007/s00500-022-07733-1",
+              "article-title": "Optimization of cooperative offloading model with cost consideration in mobile edge computing",
+              "volume": "27",
+              "author": "Xu",
+              "year": "2023",
+              "journal-title": "Soft Comput."
+            },
+            {
+              "issue": "16",
+              "key": "10.1016/j.suscom.2024.101080_bib114",
+              "doi-asserted-by": "crossref",
+              "first-page": "14085",
+              "DOI": "10.1007/s00521-022-07260-y",
+              "article-title": "Dynamic scheduling of heterogeneous resources across mobile edge-cloud continuum using fruit fly-based simulated annealing optimization scheme",
+              "volume": "34",
+              "author": "Gabi",
+              "year": "2022",
+              "journal-title": "Neural Comput. Appl."
+            },
+            {
+              "key": "10.1016/j.suscom.2024.101080_bib115",
+              "doi-asserted-by": "crossref",
+              "DOI": "10.1016/j.eswa.2024.123896",
+              "article-title": "Partial and cost-minimized computation offloading in hybrid edge and cloud systems",
+              "volume": "250",
+              "author": "Yuan",
+              "year": "2024",
+              "journal-title": "Expert Syst. Appl."
+            },
+            {
+              "key": "10.1016/j.suscom.2024.101080_bib116",
+              "doi-asserted-by": "crossref",
+              "unstructured": "L.N.T. Huynh, Q.V. Pham, T.D.T. Nguyen, M.D. Hossain, J.H. Park, and E.N. Huh, A Study on Computation Offloading in MEC Systems using Whale Optimization Algorithm, in 2020 14th International Conference on Ubiquitous Information Management and Communication (IMCOM), 3-5 Jan. 2020 2020, pp. 1-4, doi: 10.1109/IMCOM48794.2020.9001756.",
+              "DOI": "10.1109/IMCOM48794.2020.9001756"
+            },
+            {
+              "key": "10.1016/j.suscom.2024.101080_bib117",
+              "doi-asserted-by": "crossref",
+              "unstructured": "J. Li, W. Zhang, P. Cheng, Y. Wang, and X. Du, Adaptive Binary Whale Optimization Algorithm for Computation Offloading Optimization in Mobile Edge Computing, in 2022 12th International Conference on Information Science and Technology (ICIST), 14-16 Oct. 2022 2022, pp. 52-57, doi: 10.1109/ICIST55546.2022.9926934.",
+              "DOI": "10.1109/ICIST55546.2022.9926934"
+            },
+            {
+              "key": "10.1016/j.suscom.2024.101080_bib118",
+              "series-title": "Soft Computing for Problem Solving",
+              "first-page": "459",
+              "article-title": "Whale Optimization-Based Task Offloading Technique in Integrated Cloud-Fog Environment",
+              "author": "Shingare",
+              "year": "2023"
+            },
+            {
+              "key": "10.1016/j.suscom.2024.101080_bib119",
+              "doi-asserted-by": "crossref",
+              "unstructured": "J. Bi, W. Gu, H. Yuan, and Z. Yu, Latency-minimized Computation Offloading in Fog Computing with Hybrid Whale optimization, in 2022 IEEE International Conference on Systems, Man, and Cybernetics (SMC), 9-12 Oct. 2022 2022, pp. 504-509, doi: 10.1109/SMC53654.2022.9945284.",
+              "DOI": "10.1109/SMC53654.2022.9945284"
+            },
+            {
+              "key": "10.1016/j.suscom.2024.101080_bib120",
+              "doi-asserted-by": "crossref",
+              "unstructured": "S. Lin et al., An Offloading Strategy for Ocean Edge Computing Based on Whale Optimization Algorithm, in 2023 3rd International Conference on Electrical, Computer, Communications and Mechatronics Engineering (ICECCME), 19-21 July 2023 2023, pp. 1-6, doi: 10.1109/ICECCME57830.2023.10252368.",
+              "DOI": "10.1109/ICECCME57830.2023.10252368"
+            },
+            {
+              "issue": "20",
+              "key": "10.1016/j.suscom.2024.101080_bib121",
+              "doi-asserted-by": "crossref",
+              "first-page": "15582",
+              "DOI": "10.1109/JIOT.2021.3073113",
+              "article-title": "Multiobjective Optimized Cloudlet Deployment and Task Offloading for Mobile-Edge Computing",
+              "volume": "8",
+              "author": "Zhu",
+              "year": "2021",
+              "journal-title": "IEEE Internet Things J."
+            },
+            {
+              "issue": "8",
+              "key": "10.1016/j.suscom.2024.101080_bib122",
+              "doi-asserted-by": "crossref",
+              "first-page": "2628",
+              "DOI": "10.3390/s21082628",
+              "article-title": "Multi-Objective Whale Optimization Algorithm for Computation Offloading Optimization in Mobile Edge Computing",
+              "volume": "21",
+              "author": "Huang",
+              "year": "2021",
+              "journal-title": "Sensors"
+            },
+            {
+              "key": "10.1016/j.suscom.2024.101080_bib123",
+              "doi-asserted-by": "crossref",
+              "first-page": "302",
+              "DOI": "10.1016/j.aej.2024.04.038",
+              "article-title": "Enhanced whale optimization algorithm for dependent tasks offloading problem in multi-edge cloud computing",
+              "volume": "97",
+              "author": "Hosny",
+              "year": "2024",
+              "journal-title": "Alex. Eng. J."
+            },
+            {
+              "issue": "1",
+              "key": "10.1016/j.suscom.2024.101080_bib124",
+              "doi-asserted-by": "crossref",
+              "first-page": "14",
+              "DOI": "10.1109/TSUSC.2023.3294447",
+              "article-title": "Optimized Multi-User Dependent Tasks Offloading in Edge-Cloud Computing Using Refined Whale Optimization Algorithm",
+              "volume": "9",
+              "author": "Hosny",
+              "year": "2024",
+              "journal-title": "IEEE Trans. Sustain. Comput."
+            },
+            {
+              "issue": "2",
+              "key": "10.1016/j.suscom.2024.101080_bib125",
+              "doi-asserted-by": "crossref",
+              "first-page": "1053",
+              "DOI": "10.1007/s12652-021-02945-z",
+              "article-title": "Exploitation whale optimization based optimal offloading approach and topology optimization in a mobile ad hoc cloud environment",
+              "volume": "13",
+              "author": "Anoop",
+              "year": "2022",
+              "journal-title": "J. Ambient Intell. Humaniz. Comput."
+            },
+            {
+              "issue": "4",
+              "key": "10.1016/j.suscom.2024.101080_bib126",
+              "doi-asserted-by": "crossref",
+              "first-page": "70",
+              "DOI": "10.1007/s10723-023-09705-7",
+              "article-title": "Hybrid Immune Whale Differential Evolution Optimization (HIWDEO) Based Computation Offloading in MEC for IoT",
+              "volume": "21",
+              "author": "Li",
+              "year": "2023",
+              "journal-title": "J. Grid Comput."
+            },
+            {
+              "issue": "3",
+              "key": "10.1016/j.suscom.2024.101080_bib127",
+              "doi-asserted-by": "crossref",
+              "first-page": "3005",
+              "DOI": "10.1007/s11227-022-04756-1",
+              "article-title": "Privacy-preserving edge computing offloading scheme based on whale optimization algorithm",
+              "volume": "79",
+              "author": "Liu",
+              "year": "2023",
+              "journal-title": "J. Supercomput."
+            },
+            {
+              "key": "10.1016/j.suscom.2024.101080_bib128",
+              "doi-asserted-by": "crossref",
+              "unstructured": "J. Bi, X. Xue, H. Yuan, and J. Zhang, Latency-Minimized Computation Offloading in Vehicle Fog Computing with Improved Whale Optimization Algorithm, in 2023 IEEE International Conference on Systems, Man, and Cybernetics (SMC), 1-4 Oct. 2023 2023, pp. 5003-5008, doi: 10.1109/SMC53992.2023.10394272.",
+              "DOI": "10.1109/SMC53992.2023.10394272"
+            },
+            {
+              "issue": "1",
+              "key": "10.1016/j.suscom.2024.101080_bib129",
+              "doi-asserted-by": "crossref",
+              "first-page": "1414",
+              "DOI": "10.1109/TCE.2023.3320673",
+              "article-title": "AI-Based Sustainable and Intelligent Offloading Framework for IIoT in Collaborative Cloud-Fog Environments",
+              "volume": "70",
+              "author": "Kumar",
+              "year": "2024",
+              "journal-title": "IEEE Trans. Consum. Electron."
+            },
+            {
+              "key": "10.1016/j.suscom.2024.101080_bib130",
+              "doi-asserted-by": "crossref",
+              "unstructured": "M. Zhang, A Binary Hybrid Grey Wolf Optimizer for MEC Offloading, in 2022 12th International Conference on Information Technology in Medicine and Education (ITME), 18-20 Nov. 2022 2022, pp. 525-529, doi: 10.1109/ITME56794.2022.00115.",
+              "DOI": "10.1109/ITME56794.2022.00115"
+            },
+            {
+              "key": "10.1016/j.suscom.2024.101080_bib131",
+              "doi-asserted-by": "crossref",
+              "unstructured": "L. Luo, Priority Task Offloading Decision Optimization Based on Multi-Objective Grey Wolf Algorithm in Internet of Things Edge Computing Scenarios, in 2023 IEEE 3rd International Conference on Data Science and Computer Application (ICDSCA), 27-29 Oct. 2023 2023, pp. 1574-1577, doi: 10.1109/ICDSCA59871.2023.10393696.",
+              "DOI": "10.1109/ICDSCA59871.2023.10393696"
+            },
+            {
+              "key": "10.1016/j.suscom.2024.101080_bib132",
+              "doi-asserted-by": "crossref",
+              "first-page": "597",
+              "DOI": "10.1109/EIECS53707.2021.9588103",
+              "article-title": "An Energy-Efficient Task Offloading Decision in Electric Power IoT Based on Edge Computing",
+              "author": "Chen",
+              "year": "2021",
+              "journal-title": "2021 Int. Conf. Electron. Inf. Eng. Comput. Sci. (EIECS)"
+            },
+            {
+              "issue": "11",
+              "key": "10.1016/j.suscom.2024.101080_bib133",
+              "doi-asserted-by": "crossref",
+              "first-page": "2533",
+              "DOI": "10.3390/electronics12112533",
+              "article-title": "Research on Offloading Strategy for Mobile Edge Computing Based on Improved Grey Wolf Optimization Algorithm",
+              "volume": "12",
+              "author": "Zhang",
+              "year": "2023",
+              "journal-title": "Electronics"
+            },
+            {
+              "issue": "1",
+              "key": "10.1016/j.suscom.2024.101080_bib134",
+              "doi-asserted-by": "crossref",
+              "first-page": "23",
+              "DOI": "10.1186/s13677-023-00570-z",
+              "article-title": "Task offloading exploiting grey wolf optimization in collaborative edge computing",
+              "volume": "13",
+              "author": "Nujhat",
+              "year": "2024",
+              "journal-title": "J. Cloud Comput."
+            },
+            {
+              "key": "10.1016/j.suscom.2024.101080_bib135",
+              "series-title": "Advanced Intelligent Computing Technology and Applications",
+              "first-page": "343",
+              "article-title": "Mobile Edge Computing Offloading Problem Based on Improved Grey Wolf Optimizer",
+              "author": "Shang",
+              "year": "2023"
+            },
+            {
+              "key": "10.1016/j.suscom.2024.101080_bib136",
+              "doi-asserted-by": "crossref",
+              "unstructured": "Y. Tang, G. Yin, P. Cong, J. Sun, and J. Zhou, A Discrete Grey Wolf Optimizer Metaheuristic for Task Offloading in Multi-Server MEC with Batteryless Devices, in 2023 IEEE 29th International Conference on Parallel and Distributed Systems (ICPADS), 17-21 Dec. 2023 2023, pp. 2235-2242, doi: 10.1109/ICPADS60453.2023.00301.",
+              "DOI": "10.1109/ICPADS60453.2023.00301"
+            },
+            {
+              "issue": "1",
+              "key": "10.1016/j.suscom.2024.101080_bib137",
+              "doi-asserted-by": "crossref",
+              "first-page": "36",
+              "DOI": "10.1186/s13634-021-00751-5",
+              "article-title": "Optimizing computation offloading strategy in mobile edge computing based on swarm intelligence algorithms",
+              "volume": "2021",
+              "author": "Feng",
+              "year": "2021",
+              "journal-title": "EURASIP J. Adv. Signal Process."
+            },
+            {
+              "key": "10.1016/j.suscom.2024.101080_bib138",
+              "doi-asserted-by": "crossref",
+              "first-page": "107846",
+              "DOI": "10.1109/ACCESS.2022.3212439",
+              "article-title": "GWO-SA: Gray Wolf Optimization Algorithm for Service Activation Management in Fog Computing",
+              "volume": "10",
+              "author": "Hashemi",
+              "year": "2022",
+              "journal-title": "IEEE Access"
+            },
+            {
+              "issue": "12",
+              "key": "10.1016/j.suscom.2024.101080_bib139",
+              "doi-asserted-by": "crossref",
+              "first-page": "16369",
+              "DOI": "10.1109/TVT.2023.3289236",
+              "article-title": "Latency-Energy Joint Optimization for Task Offloading and Resource Allocation in MEC-Assisted Vehicular Networks",
+              "volume": "72",
+              "author": "Cong",
+              "year": "2023",
+              "journal-title": "IEEE Trans. Veh. Technol."
+            },
+            {
+              "key": "10.1016/j.suscom.2024.101080_bib140",
+              "doi-asserted-by": "crossref",
+              "first-page": "63",
+              "DOI": "10.1016/j.comcom.2022.06.041",
+              "article-title": "A Binary Gray Wolf Optimization algorithm for deployment of Virtual Network Functions in 5G hybrid cloud",
+              "volume": "193",
+              "author": "Shahjalal",
+              "year": "2022",
+              "journal-title": "Comput. Commun."
+            },
+            {
+              "issue": "6",
+              "key": "10.1016/j.suscom.2024.101080_bib141",
+              "doi-asserted-by": "crossref",
+              "first-page": "1048",
+              "DOI": "10.1016/j.dcan.2022.04.001",
+              "article-title": "Energy-efficient task offloading strategy in mobile edge computing for resource-intensive mobile applications",
+              "volume": "8",
+              "author": "Mahenge",
+              "year": "2022",
+              "journal-title": "Digit. Commun. Netw."
+            },
+            {
+              "issue": "9",
+              "key": "10.1016/j.suscom.2024.101080_bib142",
+              "doi-asserted-by": "crossref",
+              "first-page": "16672",
+              "DOI": "10.1109/JIOT.2024.3354348",
+              "article-title": "Cost-Minimized Computation Offloading and User Association in Hybrid Cloud and Edge Computing",
+              "volume": "11",
+              "author": "Bi",
+              "year": "2024",
+              "journal-title": "IEEE Internet Things J."
+            },
+            {
+              "issue": "3",
+              "key": "10.1016/j.suscom.2024.101080_bib143",
+              "doi-asserted-by": "crossref",
+              "first-page": "1825",
+              "DOI": "10.1007/s10586-020-03230-y",
+              "article-title": "Delay-aware optimization of energy consumption for task offloading in fog environments using metaheuristic algorithms",
+              "volume": "24",
+              "author": "Keshavarznejad",
+              "year": "2021",
+              "journal-title": "Clust. Comput."
+            },
+            {
+              "key": "10.1016/j.suscom.2024.101080_bib144",
+              "doi-asserted-by": "crossref",
+              "DOI": "10.1016/j.comnet.2023.109647",
+              "article-title": "ODM-BCSA: An Offloading Decision-Making Framework based on Binary Cuckoo Search Algorithm for Mobile Edge Computing",
+              "volume": "226",
+              "author": "Alqarni",
+              "year": "2023",
+              "journal-title": "Comput. Netw."
+            },
+            {
+              "key": "10.1016/j.suscom.2024.101080_bib145",
+              "doi-asserted-by": "crossref",
+              "unstructured": "C. Song and H. Zhou, Computation Offloading Optimization in Mobile Edge Computing Based on Multi-Objective Cuckoo Search Algorithm, presented at the Proceedings of the 2020 the 4th International Conference on Innovation in Artificial Intelligence, Xiamen, China, 2020. [Online]. Available: https://doi.org/10.1145/3390557.3394318.",
+              "DOI": "10.1145/3390557.3394318"
+            },
+            {
+              "issue": "3",
+              "key": "10.1016/j.suscom.2024.101080_bib146",
+              "doi-asserted-by": "crossref",
+              "first-page": "4165",
+              "DOI": "10.1109/JSYST.2023.3237363",
+              "article-title": "A Bee Colony-Based Algorithm for Task Offloading in Vehicular Edge Computing",
+              "volume": "17",
+              "author": "Souza",
+              "year": "2023",
+              "journal-title": "IEEE Syst. J."
+            },
+            {
+              "key": "10.1016/j.suscom.2024.101080_bib147",
+              "doi-asserted-by": "crossref",
+              "first-page": "265",
+              "DOI": "10.1016/j.cogr.2023.07.005",
+              "article-title": "A computing offloading strategy for UAV based on improved bat algorithm",
+              "volume": "3",
+              "author": "Xu",
+              "year": "2023",
+              "journal-title": "Cogn. Robot."
+            },
+            {
+              "key": "10.1016/j.suscom.2024.101080_bib148",
+              "doi-asserted-by": "crossref",
+              "unstructured": "S. Hong, J. Zhu, Y. Yuan, and J. Sun, An Energy-Efficient Metaheuristic for Offloading Security-Critical Tasks in Mobile Edge Computing with Integrated DPUs, in 2023 IEEE 3rd International Conference on Intelligent Technology and Embedded Systems (ICITES), 27-30 Oct. 2023 2023, pp. 157-164, doi: 10.1109/ICITES59818.2023.10356875.",
+              "DOI": "10.1109/ICITES59818.2023.10356875"
+            },
+            {
+              "issue": "15",
+              "key": "10.1016/j.suscom.2024.101080_bib149",
+              "doi-asserted-by": "crossref",
+              "first-page": "16745",
+              "DOI": "10.1007/s11227-022-04501-8",
+              "article-title": "DBAHHO: Deep belief network-based adaptive Harris Hawks optimization for adaptive offloading strategy in mobile edge computing",
+              "volume": "78",
+              "author": "Priya",
+              "year": "2022",
+              "journal-title": "J. Supercomput."
+            },
+            {
+              "issue": "22",
+              "key": "10.1016/j.suscom.2024.101080_bib150",
+              "doi-asserted-by": "crossref",
+              "DOI": "10.1002/cpe.7163",
+              "article-title": "PECCO: A profit and cost-oriented computation offloading scheme in edge-cloud environment with improved Moth-flame optimization",
+              "volume": "34",
+              "author": "Wu",
+              "year": "2022",
+              "journal-title": "Concurr. Comput.: Pract. Exp."
+            },
+            {
+              "key": "10.1016/j.suscom.2024.101080_bib151",
+              "first-page": "1",
+              "article-title": "Novel Privacy Awareness Task Offloading Approach Based On Privacy Entropy",
+              "author": "Zhang",
+              "year": "2024",
+              "journal-title": "IEEE Trans. Netw. Serv. Manag."
+            },
+            {
+              "key": "10.1016/j.suscom.2024.101080_bib152",
+              "article-title": "Energy-efficient offloading based on hybrid bio-inspired algorithm for edge–cloud integrated computation",
+              "volume": "42",
+              "author": "Li",
+              "year": "2024",
+              "journal-title": "Sustain. Comput.: Inform. Syst."
+            },
+            {
+              "key": "10.1016/j.suscom.2024.101080_bib153",
+              "doi-asserted-by": "crossref",
+              "first-page": "145146",
+              "DOI": "10.1109/ACCESS.2023.3335247",
+              "article-title": "A Novel Hybrid Prairie Dog Algorithm and Harris Hawks Algorithm for Resource Allocation of Wireless Networks",
+              "volume": "11",
+              "author": "Hijjawi",
+              "year": "2023",
+              "journal-title": "IEEE Access"
+            },
+            {
+              "issue": "2",
+              "key": "10.1016/j.suscom.2024.101080_bib154",
+              "doi-asserted-by": "crossref",
+              "first-page": "1775",
+              "DOI": "10.1007/s10586-023-04041-7",
+              "article-title": "Task and resource allocation in the internet of things based on an improved version of the moth-flame optimization algorithm",
+              "volume": "27",
+              "author": "Nematollahi",
+              "year": "2024",
+              "journal-title": "Clust. Comput."
+            },
+            {
+              "issue": "1",
+              "key": "10.1016/j.suscom.2024.101080_bib155",
+              "doi-asserted-by": "crossref",
+              "first-page": "14",
+              "DOI": "10.1007/s10922-021-09622-8",
+              "article-title": "Energy-Efficient Delay-Aware Task Offloading in Fog-Cloud Computing System for IoT Sensor Applications",
+              "volume": "30",
+              "author": "Singh",
+              "year": "2021",
+              "journal-title": "J. Netw. Syst. Manag."
+            },
+            {
+              "issue": "2",
+              "key": "10.1016/j.suscom.2024.101080_bib156",
+              "doi-asserted-by": "crossref",
+              "first-page": "1503",
+              "DOI": "10.1007/s10586-023-04023-9",
+              "article-title": "An efficient edge caching approach for SDN-based IoT environments utilizing the moth flame clustering algorithm",
+              "volume": "27",
+              "author": "Jazaeri",
+              "year": "2024",
+              "journal-title": "Clust. Comput."
+            },
+            {
+              "issue": "10",
+              "key": "10.1016/j.suscom.2024.101080_bib157",
+              "doi-asserted-by": "crossref",
+              "first-page": "9062",
+              "DOI": "10.1109/JIOT.2022.3233667",
+              "article-title": "Dependency Tasks Offloading and Communication Resource Allocation in Collaborative UAV Networks: A Metaheuristic Approach",
+              "volume": "10",
+              "author": "Nguyen",
+              "year": "2023",
+              "journal-title": "IEEE Internet Things J."
+            },
+            {
+              "key": "10.1016/j.suscom.2024.101080_bib158",
+              "first-page": "1",
+              "article-title": "Evolutionary Meta-Heuristic Offloading and Scheduling Schemes Enabled Industrial Cyber-Physical System",
+              "author": "Lakhan",
+              "year": "2024",
+              "journal-title": "IEEE Syst. J."
+            },
+            {
+              "key": "10.1016/j.suscom.2024.101080_bib159",
+              "doi-asserted-by": "crossref",
+              "DOI": "10.1016/j.jnca.2023.103702",
+              "article-title": "Enhanced multi-objective gorilla troops optimizer for real-time multi-user dependent tasks offloading in edge-cloud computing",
+              "volume": "218",
+              "author": "Hosny",
+              "year": "2023",
+              "journal-title": "J. Netw. Comput. Appl."
+            },
+            {
+              "key": "10.1016/j.suscom.2024.101080_bib160",
+              "doi-asserted-by": "crossref",
+              "DOI": "10.1016/j.jnca.2023.103630",
+              "article-title": "Cost optimization of omnidirectional offloading in two-tier cloud–edge federated systems",
+              "volume": "215",
+              "author": "Kar",
+              "year": "2023",
+              "journal-title": "J. Netw. Comput. Appl."
+            },
+            {
+              "key": "10.1016/j.suscom.2024.101080_bib161",
+              "doi-asserted-by": "crossref",
+              "unstructured": "C.R. Prasad, V. S. K, P.R. Rao, S. Kollem, S. Yalabaka, and S. Samala, Optimization of Task Offloading for smart cities using IoT with Fog Computing- A Survey, in 2022 International Conference on Signal and Information Processing (IConSIP), 26-27 Aug. 2022 2022, pp. 1-5, doi: 10.1109/ICoNSIP49665.2022.10007447.",
+              "DOI": "10.1109/ICoNSIP49665.2022.10007447"
+            },
+            {
+              "key": "10.1016/j.suscom.2024.101080_bib162",
+              "series-title": "Energy Conservation Solutions for Fog-Edge Computing Paradigms",
+              "first-page": "49",
+              "article-title": "Improvement of Task Offloading for Latency Sensitive Tasks in Fog Environment",
+              "author": "Kaur",
+              "year": "2022"
+            },
+            {
+              "key": "10.1016/j.suscom.2024.101080_bib163",
+              "doi-asserted-by": "crossref",
+              "unstructured": "B.B. Dash, S.S. Patra, R. Satpathy, and B. Dash, Improvement of SDN-based Task Offloading using Golden Jackal Optimization in Fog Center, in 2023 World Conference on Communication & Computing (WCONF), 14-16 July 2023 2023, pp. 1-6, doi: 10.1109/WCONF58270.2023.10235040.",
+              "DOI": "10.1109/WCONF58270.2023.10235040"
+            },
+            {
+              "key": "10.1016/j.suscom.2024.101080_bib164",
+              "series-title": "Mobile Radio Communications and 5G Networks",
+              "first-page": "679",
+              "article-title": "Reduce Overall Execution Cost (OEC) of Computation Offloading in Mobile Cloud Computing for 5G Network Using Nature Inspired Computing (NIC) Algorithms",
+              "author": "Rao",
+              "year": "2022"
+            },
+            {
+              "key": "10.1016/j.suscom.2024.101080_bib165",
+              "doi-asserted-by": "crossref",
+              "unstructured": "M.T. Khan, L. Barik, A. Adholiya, S.S. Patra, A.N. Brahma, and R.K. Barik, Task Offloading Scheme for Latency Sensitive Tasks In 5G IOHT on Fog Assisted Cloud Computing Environment, in 2022 3rd International Conference for Emerging Technology (INCET), 27-29 May 2022 2022, pp. 1-5, doi: 10.1109/INCET54531.2022.9824699.",
+              "DOI": "10.1109/INCET54531.2022.9824699"
+            },
+            {
+              "key": "10.1016/j.suscom.2024.101080_bib166",
+              "doi-asserted-by": "crossref",
+              "unstructured": "W. He, S. Wu, and J. Sun, An Effective Metaheuristic for Partial Offloading and Resource Allocation in Multi-Device Mobile Edge Computing, in 2021 IEEE 23rd Int Conf on High Performance Computing & Communications; 7th Int Conf on Data Science & Systems; 19th Int Conf on Smart City; 7th Int Conf on Dependability in Sensor, Cloud & Big Data Systems & Application (HPCC/DSS/SmartCity/DependSys), 20-22 Dec. 2021 2021, pp. 1419-1426, doi: 10.1109/HPCC-DSS-SmartCity-DependSys53884.2021.00213.",
+              "DOI": "10.1109/HPCC-DSS-SmartCity-DependSys53884.2021.00213"
+            },
+            {
+              "key": "10.1016/j.suscom.2024.101080_bib167",
+              "doi-asserted-by": "crossref",
+              "unstructured": "C. Huang, Y. Yan, Y. Zhang, and J. Sun, A Metaheuristic Algorithm for Mobility-Aware Task Offloading for Edge Computing Using Device-to-Device Cooperation, in 2022 IEEE Smartworld, Ubiquitous Intelligence & Computing, Scalable Computing & Communications, Digital Twin, Privacy Computing, Metaverse, Autonomous & Trusted Vehicles (SmartWorld/UIC/ScalCom/DigitalTwin/PriComp/Meta), 15-18 Dec. 2022 2022, pp. 656-663, doi: 10.1109/SmartWorld-UIC-ATC-ScalCom-DigitalTwin-PriComp-Metaverse56740.2022.00106.",
+              "DOI": "10.1109/SmartWorld-UIC-ATC-ScalCom-DigitalTwin-PriComp-Metaverse56740.2022.00106"
+            },
+            {
+              "key": "10.1016/j.suscom.2024.101080_bib168",
+              "doi-asserted-by": "crossref",
+              "unstructured": "Y. Xu, Y. Wang, and J. Yang, Meta-Heuristic Search Based Model for Task Offloading and Time Allocation in Mobile Edge Computing, presented at the Proceedings of the 2020 6th International Conference on Computing and Artificial Intelligence, Tianjin, China, 2020. [Online]. Available: https://doi.org/10.1145/3404555.3404566.",
+              "DOI": "10.1145/3404555.3404566"
+            },
+            {
+              "key": "10.1016/j.suscom.2024.101080_bib169",
+              "doi-asserted-by": "crossref",
+              "unstructured": "C. Zhao and X. Ding, A Levy Flight-Based Offloading Path Decision Scheme in VANET, in 2022 IEEE 5th International Conference on Electronics Technology (ICET), 13-16 May 2022 2022, pp. 985-993, doi: 10.1109/ICET55676.2022.9824880.",
+              "DOI": "10.1109/ICET55676.2022.9824880"
+            },
+            {
+              "issue": "6",
+              "key": "10.1016/j.suscom.2024.101080_bib170",
+              "doi-asserted-by": "crossref",
+              "DOI": "10.1177/15501477211023021",
+              "article-title": "Meta-heuristic-based offloading task optimization in mobile edge computing",
+              "volume": "17",
+              "author": "Abbas",
+              "year": "2021",
+              "journal-title": "Int. J. Distrib. Sens. Netw."
+            },
+            {
+              "key": "10.1016/j.suscom.2024.101080_bib171",
+              "doi-asserted-by": "crossref",
+              "unstructured": "Y. Zeng and D. Liu, Computation Offloading Based on Improved Sparrow Search Algorithm in Edge Computing Scenario, in 2022 International Conference on Computing, Communication, Perception and Quantum Technology (CCPQT), 5-7 Aug. 2022 2022, pp. 231-236, doi: 10.1109/CCPQT56151.2022.00047.",
+              "DOI": "10.1109/CCPQT56151.2022.00047"
+            },
+            {
+              "key": "10.1016/j.suscom.2024.101080_bib172",
+              "doi-asserted-by": "crossref",
+              "unstructured": "X. Wang, F. Qi, Z. Tang, M. Su, and X. Xing, An Energy-Efficient Computing Offloading Strategy Based on Improved Sparrow Search Algorithm in Mobile Edge Computing, in Proceedings of the International Conference on Internet of Things, Communication and Intelligent Technology, Singapore, J. Dong and L. Zhang, Eds., 2023// 2023: Springer Nature Singapore, pp. 59-73.",
+              "DOI": "10.1007/978-981-99-0416-7_6"
+            },
+            {
+              "key": "10.1016/j.suscom.2024.101080_bib173",
+              "doi-asserted-by": "crossref",
+              "unstructured": "G. Wei, A. Wang, C. Chen, and K. Huang, Multi-objective Sparrow Search Algorithm Based on Knee Points for Task Offloading in Multi-Cloudlet, in 2022 7th International Conference on Intelligent Computing and Signal Processing (ICSP), 15-17 April 2022 2022, pp. 360-368, doi: 10.1109/ICSP54964.2022.9778362.",
+              "DOI": "10.1109/ICSP54964.2022.9778362"
+            },
+            {
+              "key": "10.1016/j.suscom.2024.101080_bib174",
+              "doi-asserted-by": "crossref",
+              "unstructured": "M. Jehad, A. ELMoursy, and A. Khedr, Multi Objective Task Offloading in Fog Computing using Sparrow Search algorithm, in 2022 19th International Multi-Conference on Systems, Signals & Devices (SSD), 6-10 May 2022 2022, pp. 1292-1299, doi: 10.1109/SSD54932.2022.9955791.",
+              "DOI": "10.1109/SSD54932.2022.9955791"
+            },
+            {
+              "key": "10.1016/j.suscom.2024.101080_bib175",
+              "article-title": "Efficient task offloading with swarm intelligence evolution for edge-cloud collaboration in vehicular edge computing",
+              "author": "Su",
+              "year": "2022",
+              "journal-title": "Softw.: Pract. Exp."
+            },
+            {
+              "issue": "14",
+              "key": "10.1016/j.suscom.2024.101080_bib176",
+              "doi-asserted-by": "crossref",
+              "first-page": "15459",
+              "DOI": "10.1007/s11227-023-05270-8",
+              "article-title": "SR-PSO: server residual efficiency-aware particle swarm optimization for dynamic virtual machine scheduling",
+              "volume": "79",
+              "author": "Ajmera",
+              "year": "2023",
+              "journal-title": "J. Supercomput."
+            },
+            {
+              "issue": "4",
+              "key": "10.1016/j.suscom.2024.101080_bib177",
+              "doi-asserted-by": "crossref",
+              "first-page": "3531",
+              "DOI": "10.1007/s10586-021-03320-5",
+              "article-title": "VMS-MCSA: virtual machine scheduling using modified clonal selection algorithm",
+              "volume": "24",
+              "author": "Ajmera",
+              "year": "2021",
+              "journal-title": "Clust. Comput."
+            },
+            {
+              "key": "10.1016/j.suscom.2024.101080_bib178",
+              "article-title": "A new offloading method in the green mobile cloud computing based on a hybrid meta-heuristic algorithm",
+              "volume": "36",
+              "author": "Almadhor",
+              "year": "2022",
+              "journal-title": "Sustain. Comput.: Inform. Syst."
+            },
+            {
+              "key": "10.1016/j.suscom.2024.101080_bib179",
+              "doi-asserted-by": "crossref",
+              "first-page": "51796",
+              "DOI": "10.1109/ACCESS.2024.3385636",
+              "article-title": "ODTRA-Based Task Offload Optimization for Industrial Internet of Things: Improving Efficiency and Performance With Digital Twins and Metaheuristic Optimization",
+              "volume": "12",
+              "author": "Swaminathan",
+              "year": "2024",
+              "journal-title": "IEEE Access"
+            },
+            {
+              "key": "10.1016/j.suscom.2024.101080_bib180",
+              "article-title": "A metaheuristic-based task offloading scheme with a trade-off between delay and resource utilization in IoT platform",
+              "author": "Kumari",
+              "year": "2023",
+              "journal-title": "Clust. Comput."
+            },
+            {
+              "issue": "8",
+              "key": "10.1016/j.suscom.2024.101080_bib181",
+              "doi-asserted-by": "crossref",
+              "first-page": "1258",
+              "DOI": "10.3390/math10081258",
+              "article-title": "Parallel Meta-Heuristics for Solving Dynamic Offloading in Fog Computing",
+              "volume": "10",
+              "author": "AlShathri",
+              "year": "2022",
+              "journal-title": "Mathematics"
+            },
+            {
+              "issue": "2",
+              "key": "10.1016/j.suscom.2024.101080_bib182",
+              "doi-asserted-by": "crossref",
+              "first-page": "21",
+              "DOI": "10.1007/s10723-023-09656-z",
+              "article-title": "New improved multi-objective gorilla troops algorithm for dependent tasks offloading problem in multi-access edge computing",
+              "volume": "21",
+              "author": "Hosny",
+              "year": "2023",
+              "journal-title": "J. Grid Comput."
+            },
+            {
+              "key": "10.1016/j.suscom.2024.101080_bib183",
+              "doi-asserted-by": "crossref",
+              "DOI": "10.1016/j.compeleceng.2022.108123",
+              "article-title": "A bacterial foraging based smart offloading for IoT sensors in edge computing",
+              "volume": "102",
+              "author": "Babar",
+              "year": "2022",
+              "journal-title": "Comput. Electr. Eng."
+            },
+            {
+              "issue": "3",
+              "key": "10.1016/j.suscom.2024.101080_bib184",
+              "doi-asserted-by": "crossref",
+              "first-page": "3264",
+              "DOI": "10.1109/TNSM.2022.3176829",
+              "article-title": "HNIO: a hybrid nature-inspired optimization algorithm for energy minimization in UAV-assisted mobile edge computing",
+              "volume": "19",
+              "author": "Chen",
+              "year": "2022",
+              "journal-title": "IEEE Trans. Netw. Serv. Manag."
+            },
+            {
+              "issue": "1",
+              "key": "10.1016/j.suscom.2024.101080_bib185",
+              "doi-asserted-by": "crossref",
+              "first-page": "545",
+              "DOI": "10.1007/s11760-023-02761-2",
+              "article-title": "Task offloading in Internet of Things based on the improved multi-objective aquila optimizer",
+              "volume": "18",
+              "author": "Nematollahi",
+              "year": "2024",
+              "journal-title": "Signal, Image Video Process."
+            },
+            {
+              "issue": "1",
+              "key": "10.1016/j.suscom.2024.101080_bib186",
+              "doi-asserted-by": "crossref",
+              "first-page": "3802",
+              "DOI": "10.1109/TCE.2024.3371774",
+              "article-title": "Elevating survivability in next-gen IoT-fog-cloud networks: scheduling optimization with the metaheuristic mountain gazelle algorithm",
+              "volume": "70",
+              "author": "Maashi",
+              "year": "2024",
+              "journal-title": "IEEE Trans. Consum. Electron."
+            },
+            {
+              "issue": "18",
+              "key": "10.1016/j.suscom.2024.101080_bib187",
+              "doi-asserted-by": "crossref",
+              "first-page": "9308",
+              "DOI": "10.3390/app12189308",
+              "article-title": "Task offloading strategy of vehicular networks based on improved bald eagle search optimization algorithm",
+              "volume": "12",
+              "author": "Shen",
+              "year": "2022",
+              "journal-title": "Appl. Sci."
+            },
+            {
+              "issue": "18",
+              "key": "10.1016/j.suscom.2024.101080_bib188",
+              "doi-asserted-by": "crossref",
+              "first-page": "20769",
+              "DOI": "10.1007/s11227-023-05446-2",
+              "article-title": "MSSAMTO-IoV: modified sparrow search algorithm for multi-hop task offloading for IoV",
+              "volume": "79",
+              "author": "Alseid",
+              "year": "2023",
+              "journal-title": "J. Supercomput."
+            }
+          ],
+          "container-title": [
+            "Sustainable Computing: Informatics and Systems"
+          ],
+          "language": "en",
+          "link": [
+            {
+              "URL": "https://api.elsevier.com/content/article/PII:S2210537924001252?httpAccept=text/xml",
+              "content-type": "text/xml",
+              "content-version": "vor",
+              "intended-application": "text-mining"
+            },
+            {
+              "URL": "https://api.elsevier.com/content/article/PII:S2210537924001252?httpAccept=text/plain",
+              "content-type": "text/plain",
+              "content-version": "vor",
+              "intended-application": "text-mining"
+            }
+          ],
+          "deposited": {
+            "date-parts": [
+              [
+                2025,
+                2,
+                6
+              ]
+            ],
+            "date-time": "2025-02-06T21:41:02Z",
+            "timestamp": 1738878062000
+          },
+          "score": 42.23563,
+          "resource": {
+            "primary": {
+              "URL": "https://linkinghub.elsevier.com/retrieve/pii/S2210537924001252"
+            }
+          },
+          "issued": {
+            "date-parts": [
+              [
+                2025,
+                1
+              ]
+            ]
+          },
+          "references-count": 188,
+          "alternative-id": [
+            "S2210537924001252"
+          ],
+          "URL": "https://doi.org/10.1016/j.suscom.2024.101080",
+          "ISSN": [
+            "2210-5379"
+          ],
+          "issn-type": [
+            {
+              "value": "2210-5379",
+              "type": "print"
+            }
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2025,
+                1
+              ]
+            ]
+          },
+          "assertion": [
+            {
+              "value": "Elsevier",
+              "name": "publisher",
+              "label": "This article is maintained by"
+            },
+            {
+              "value": "Optimizing task offloading with metaheuristic algorithms across cloud, fog, and edge computing networks: A comprehensive survey and state-of-the-art schemes",
+              "name": "articletitle",
+              "label": "Article Title"
+            },
+            {
+              "value": "Sustainable Computing: Informatics and Systems",
+              "name": "journaltitle",
+              "label": "Journal Title"
+            },
+            {
+              "value": "https://doi.org/10.1016/j.suscom.2024.101080",
+              "name": "articlelink",
+              "label": "CrossRef DOI link to publisher maintained version"
+            },
+            {
+              "value": "article",
+              "name": "content_type",
+              "label": "Content Type"
+            },
+            {
+              "value": "© 2025 Elsevier Inc. All rights are reserved, including those for text and data mining, AI training, and similar technologies.",
+              "name": "copyright",
+              "label": "Copyright"
+            }
+          ],
+          "article-number": "101080"
+        }
+      ],
+      "items-per-page": 3,
+      "query": {
+        "start-index": 0,
+        "search-terms": null
+      }
+    }
+  }
+}

@@ -1,0 +1,918 @@
+{
+  "doi": "10.1016/j.advengsoft.2013.12.007",
+  "url": "https://api.crossref.org/works/10.1016%2Fj.advengsoft.2013.12.007",
+  "retrieved": "2026-10-16",
+  "response": {
+    "status": "ok",
+    "message-type": "work",
+    "message-version": "1.0.0",
+    "message": {
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            10,
+            16
+          ]
+        ],
+        "date-time": "2026-10-16T03:09:05Z",
+        "timestamp": 1792120145351,
+        "version": "4.4.0"
+      },
+      "reference-count": 82,
+      "publisher": "Elsevier BV",
+      "content-domain": {
+        "domain": [
+          "elsevier.com",
+          "sciencedirect.com"
+        ],
+        "crossmark-restriction": true
+      },
+      "short-container-title": [
+        "Advances in Engineering Software"
+      ],
+      "published-print": {
+        "date-parts": [
+          [
+            2014,
+            3
+          ]
+        ]
+      },
+      "DOI": "10.1016/j.advengsoft.2013.12.007",
+      "type": "journal-article",
+      "created": {
+        "date-parts": [
+          [
+            2014,
+            1,
+            21
+          ]
+        ],
+        "date-time": "2014-01-21T20:15:54Z",
+        "timestamp": 1390335354000
+      },
+      "page": "46-61",
+      "update-policy": "https://doi.org/10.1016/elsevier_cm_policy",
+      "source": "Crossref",
+      "is-referenced-by-count": 19059,
+      "special_numbering": "C",
+      "title": [
+        "Grey Wolf Optimizer"
+      ],
+      "prefix": "10.1016",
+      "volume": "69",
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0000-0002-1443-9458",
+          "authenticated-orcid": false,
+          "given": "Seyedali",
+          "family": "Mirjalili",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Seyed Mohammad",
+          "family": "Mirjalili",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-0122-2532",
+          "authenticated-orcid": false,
+          "given": "Andrew",
+          "family": "Lewis",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "78",
+      "reference": [
+        {
+          "key": "10.1016/j.advengsoft.2013.12.007_b0005",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Bonabeau E, Dorigo M, Theraulaz G. Swarm intelligence: from natural to artificial systems: OUP USA; 1999.",
+          "DOI": "10.1093/oso/9780195131581.001.0001"
+        },
+        {
+          "key": "10.1016/j.advengsoft.2013.12.007_b0010",
+          "doi-asserted-by": "crossref",
+          "first-page": "28",
+          "DOI": "10.1109/CI-M.2006.248054",
+          "article-title": "Ant colony optimization",
+          "volume": "1",
+          "author": "Dorigo",
+          "year": "2006",
+          "journal-title": "Comput Intell Magaz, IEEE"
+        },
+        {
+          "key": "10.1016/j.advengsoft.2013.12.007_b0015",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Kennedy J, Eberhart R. Particle swarm optimization, in Neural Networks, 1995. In: Proceedings, IEEE international conference on; 1995. p. 1942–1948.",
+          "DOI": "10.1109/ICNN.1995.488968"
+        },
+        {
+          "key": "10.1016/j.advengsoft.2013.12.007_b0020",
+          "doi-asserted-by": "crossref",
+          "first-page": "67",
+          "DOI": "10.1109/4235.585893",
+          "article-title": "No free lunch theorems for optimization",
+          "volume": "1",
+          "author": "Wolpert",
+          "year": "1997",
+          "journal-title": "Evolut Comput, IEEE Trans"
+        },
+        {
+          "key": "10.1016/j.advengsoft.2013.12.007_b0025",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Kirkpatrick S, Jr. DG, Vecchi MP. Optimization by simulated annealing. Science, vol. 220; 1983. p. 671–80.",
+          "DOI": "10.1126/science.220.4598.671"
+        },
+        {
+          "key": "10.1016/j.advengsoft.2013.12.007_b0030",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Beni G, Wang J. Swarm intelligence in cellular robotic systems. In: Robots and biological systems: towards a new bionics?, ed. Springer; 1993. p. 703–12.",
+          "DOI": "10.1007/978-3-642-58069-7_38"
+        },
+        {
+          "key": "10.1016/j.advengsoft.2013.12.007_b0035",
+          "unstructured": "Basturk B, Karaboga D. An artificial bee colony (ABC) algorithm for numeric function optimization. In: IEEE swarm intelligence symposium; 2006. p. 12–4."
+        },
+        {
+          "key": "10.1016/j.advengsoft.2013.12.007_b0040",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Olorunda O, Engelbrecht AP. Measuring exploration/exploitation in particle swarms using swarm diversity. In: Evolutionary computation, 2008. CEC 2008 (IEEE World Congress on Computational Intelligence). IEEE Congress on; 2008. p. 1128–34.",
+          "DOI": "10.1109/CEC.2008.4630938"
+        },
+        {
+          "key": "10.1016/j.advengsoft.2013.12.007_b0045",
+          "doi-asserted-by": "crossref",
+          "first-page": "126",
+          "DOI": "10.1109/TEVC.2005.843751",
+          "article-title": "The exploration/exploitation tradeoff in dynamic cellular genetic algorithms",
+          "volume": "9",
+          "author": "Alba",
+          "year": "2005",
+          "journal-title": "Evolut Comput, IEEE Trans"
+        },
+        {
+          "key": "10.1016/j.advengsoft.2013.12.007_b0050",
+          "doi-asserted-by": "crossref",
+          "first-page": "157",
+          "DOI": "10.1007/s00500-008-0303-2",
+          "article-title": "Auto-tuning strategy for evolutionary algorithms: balancing between exploration and exploitation",
+          "volume": "13",
+          "author": "Lin",
+          "year": "2009",
+          "journal-title": "Soft Comput"
+        },
+        {
+          "key": "10.1016/j.advengsoft.2013.12.007_b0055",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Mirjalili S, Hashim SZM. A new hybrid PSOGSA algorithm for function optimization. In: Computer and information application (ICCIA), 2010 international conference on; 2010. p. 374–77.",
+          "DOI": "10.1109/ICCIA.2010.6141614"
+        },
+        {
+          "key": "10.1016/j.advengsoft.2013.12.007_b0060",
+          "doi-asserted-by": "crossref",
+          "first-page": "11125",
+          "DOI": "10.1016/j.amc.2012.04.069",
+          "article-title": "Training feedforward neural networks using hybrid particle swarm optimization and gravitational search algorithm",
+          "volume": "218",
+          "author": "Mirjalili",
+          "year": "2012",
+          "journal-title": "Appl Math Comput"
+        },
+        {
+          "key": "10.1016/j.advengsoft.2013.12.007_b0065",
+          "doi-asserted-by": "crossref",
+          "first-page": "66",
+          "DOI": "10.1038/scientificamerican0792-66",
+          "article-title": "Genetic algorithms",
+          "volume": "267",
+          "author": "Holland",
+          "year": "1992",
+          "journal-title": "Sci Am"
+        },
+        {
+          "key": "10.1016/j.advengsoft.2013.12.007_b0070",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Goldberg D. Genetic Algorithms in optimization, search and machine learning, Addison Wesley, New York. In: Eiben AE, Smith JE, editors. 2003 Introduction to evolutionary computing. Springer. Jacq J, Roux C (1995) Registration of non-segmented images using a genetic algorithm. Lecture notes in computer science, vol. 905; 1989. p. 205–11.",
+          "DOI": "10.1007/978-3-540-49197-2_23"
+        },
+        {
+          "key": "10.1016/j.advengsoft.2013.12.007_b0075",
+          "doi-asserted-by": "crossref",
+          "first-page": "341",
+          "DOI": "10.1023/A:1008202821328",
+          "article-title": "Differential evolution – a simple and efficient heuristic for global optimization over continuous spaces",
+          "volume": "11",
+          "author": "Storn",
+          "year": "1997",
+          "journal-title": "J Global Optim"
+        },
+        {
+          "key": "10.1016/j.advengsoft.2013.12.007_b0080",
+          "doi-asserted-by": "crossref",
+          "first-page": "82",
+          "DOI": "10.1109/4235.771163",
+          "article-title": "Evolutionary programming made faster",
+          "volume": "3",
+          "author": "Yao",
+          "year": "1999",
+          "journal-title": "Evolut Comput, IEEE Trans"
+        },
+        {
+          "key": "10.1016/j.advengsoft.2013.12.007_b0085",
+          "series-title": "Artificial intelligence through simulated evolution",
+          "author": "Fogel",
+          "year": "2009"
+        },
+        {
+          "key": "10.1016/j.advengsoft.2013.12.007_b0090",
+          "doi-asserted-by": "crossref",
+          "first-page": "1",
+          "DOI": "10.1162/106365603321828970",
+          "article-title": "Reducing the time complexity of the derandomized evolution strategy with covariance matrix adaptation (CMA-ES)",
+          "volume": "11",
+          "author": "Hansen",
+          "year": "2003",
+          "journal-title": "Evolut Comput"
+        },
+        {
+          "key": "10.1016/j.advengsoft.2013.12.007_b0095",
+          "article-title": "Evolution strategy",
+          "volume": "1",
+          "author": "Rechenberg",
+          "year": "1994",
+          "journal-title": "Comput Intel Imitat Life"
+        },
+        {
+          "key": "10.1016/j.advengsoft.2013.12.007_b0100",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Koza JR. Genetic programming; 1992.",
+          "DOI": "10.1177/105971239200100203"
+        },
+        {
+          "key": "10.1016/j.advengsoft.2013.12.007_b0105",
+          "doi-asserted-by": "crossref",
+          "first-page": "702",
+          "DOI": "10.1109/TEVC.2008.919004",
+          "article-title": "Biogeography-based optimization",
+          "volume": "12",
+          "author": "Simon",
+          "year": "2008",
+          "journal-title": "Evolut Comput IEEE Trans"
+        },
+        {
+          "key": "10.1016/j.advengsoft.2013.12.007_b0110",
+          "unstructured": "Webster B, Bernhard PJ. A local search optimization algorithm based on natural principles of gravitation. In: Proceedings of the 2003 international conference on information and knowledge engineering (IKE’03), Las Vegas, Nevada, USA; 2003. p. 255–61."
+        },
+        {
+          "key": "10.1016/j.advengsoft.2013.12.007_b0115",
+          "doi-asserted-by": "crossref",
+          "first-page": "106",
+          "DOI": "10.1016/j.advengsoft.2005.04.005",
+          "article-title": "A new optimization method: big bang–big crunch",
+          "volume": "37",
+          "author": "Erol",
+          "year": "2006",
+          "journal-title": "Adv Eng Softw"
+        },
+        {
+          "key": "10.1016/j.advengsoft.2013.12.007_b0120",
+          "doi-asserted-by": "crossref",
+          "first-page": "2232",
+          "DOI": "10.1016/j.ins.2009.03.004",
+          "article-title": "GSA: a gravitational search algorithm",
+          "volume": "179",
+          "author": "Rashedi",
+          "year": "2009",
+          "journal-title": "Inf Sci"
+        },
+        {
+          "key": "10.1016/j.advengsoft.2013.12.007_b0125",
+          "doi-asserted-by": "crossref",
+          "first-page": "267",
+          "DOI": "10.1007/s00707-009-0270-4",
+          "article-title": "A novel heuristic optimization method: charged system search",
+          "volume": "213",
+          "author": "Kaveh",
+          "year": "2010",
+          "journal-title": "Acta Mech"
+        },
+        {
+          "key": "10.1016/j.advengsoft.2013.12.007_b0130",
+          "doi-asserted-by": "crossref",
+          "first-page": "425",
+          "DOI": "10.2528/PIER07082403",
+          "article-title": "Central force optimization: a new metaheuristic with applications in applied electromagnetics",
+          "volume": "77",
+          "author": "Formato",
+          "year": "2007",
+          "journal-title": "Prog Electromag Res"
+        },
+        {
+          "key": "10.1016/j.advengsoft.2013.12.007_b0135",
+          "doi-asserted-by": "crossref",
+          "first-page": "13170",
+          "DOI": "10.1016/j.eswa.2011.04.126",
+          "article-title": "ACROA: artificial chemical reaction optimization algorithm for global optimization",
+          "volume": "38",
+          "author": "Alatas",
+          "year": "2011",
+          "journal-title": "Expert Syst Appl"
+        },
+        {
+          "key": "10.1016/j.advengsoft.2013.12.007_b0140",
+          "article-title": "Black hole: a new heuristic optimization approach for data clustering",
+          "author": "Hatamlou",
+          "year": "2012",
+          "journal-title": "Inf Sci"
+        },
+        {
+          "key": "10.1016/j.advengsoft.2013.12.007_b0145",
+          "doi-asserted-by": "crossref",
+          "first-page": "283",
+          "DOI": "10.1016/j.compstruc.2012.09.003",
+          "article-title": "A new meta-heuristic method: ray optimization",
+          "volume": "112",
+          "author": "Kaveh",
+          "year": "2012",
+          "journal-title": "Comput Struct"
+        },
+        {
+          "key": "10.1016/j.advengsoft.2013.12.007_b0150",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Du H, Wu X, Zhuang J. Small-world optimization algorithm for function optimization. In: Advances in Natural Computation, ed.: Springer; 2006. p. 264–73.",
+          "DOI": "10.1007/11881223_33"
+        },
+        {
+          "key": "10.1016/j.advengsoft.2013.12.007_b0155",
+          "doi-asserted-by": "crossref",
+          "first-page": "132",
+          "DOI": "10.1504/IJCSE.2011.041221",
+          "article-title": "Principal components analysis by the galaxy-based search algorithm: a novel metaheuristic for continuous optimisation",
+          "volume": "6",
+          "author": "Shah-Hosseini",
+          "year": "2011",
+          "journal-title": "Int J Comput Sci Eng"
+        },
+        {
+          "key": "10.1016/j.advengsoft.2013.12.007_b0160",
+          "unstructured": "Moghaddam FF, Moghaddam RF, Cheriet M. Curved space optimization: a random search based on general relativity theory. arXiv, preprint arXiv:1208.2214; 2012."
+        },
+        {
+          "key": "10.1016/j.advengsoft.2013.12.007_b0165",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Yang X-S. A new metaheuristic bat-inspired algorithm. In: Nature inspired cooperative strategies for optimization (NICSO 2010), ed.: Springer; 2010. p. 65–74.",
+          "DOI": "10.1007/978-3-642-12538-6_6"
+        },
+        {
+          "key": "10.1016/j.advengsoft.2013.12.007_b0170",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Abbass HA. MBO: Marriage in honey bees optimization – a haplometrosis polygynous swarming approach. In: Evolutionary computation, 2001. Proceedings of the 2001 congress on; 2001. p. 207–214.",
+          "DOI": "10.1109/CEC.2001.934391"
+        },
+        {
+          "key": "10.1016/j.advengsoft.2013.12.007_b0175",
+          "unstructured": "Li X. A new intelligent optimization-artificial fish swarm algorithm. Doctor thesis, Zhejiang University of Zhejiang, China; 2003."
+        },
+        {
+          "key": "10.1016/j.advengsoft.2013.12.007_b0180",
+          "unstructured": "Roth M. Termite: a swarm intelligent routing algorithm for mobile wireless ad-hoc networks; 2005."
+        },
+        {
+          "key": "10.1016/j.advengsoft.2013.12.007_b0185",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Pinto PC, Runkler TA, Sousa JM. Wasp swarm algorithm for dynamic MAX-SAT problems. In: Adaptive and Natural Computing Algorithms, ed.: Springer; 2007. p. 350–57.",
+          "DOI": "10.1007/978-3-540-71618-1_39"
+        },
+        {
+          "key": "10.1016/j.advengsoft.2013.12.007_b0190",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Mucherino A, Seref O. Monkey search: a novel metaheuristic search for global optimization. In: AIP conference proceedings; 2007. p. 162.",
+          "DOI": "10.1063/1.2817338"
+        },
+        {
+          "key": "10.1016/j.advengsoft.2013.12.007_b0195",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Lu X, Zhou Y. A novel global convergence algorithm: bee collecting pollen algorithm. In: Advanced intelligent computing theories and applications. With Aspects of Artificial Intelligence, ed.: Springer; 2008. p. 518–25.",
+          "DOI": "10.1007/978-3-540-85984-0_62"
+        },
+        {
+          "key": "10.1016/j.advengsoft.2013.12.007_b0200",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Yang X-S, Deb S. Cuckoo search via Lévy flights. In: Nature & Biologically Inspired Computing, 2009. NaBIC 2009. World Congress on; 2009. p. 210–14.",
+          "DOI": "10.1109/NABIC.2009.5393690"
+        },
+        {
+          "key": "10.1016/j.advengsoft.2013.12.007_b0205",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Shiqin Y, Jianjun J, Guangxing Y. A dolphin partner optimization. In: Intelligent systems, 2009. GCIS’09. WRI Global Congress on; 2009. p. 124–28.",
+          "DOI": "10.1109/GCIS.2009.464"
+        },
+        {
+          "key": "10.1016/j.advengsoft.2013.12.007_b0210",
+          "doi-asserted-by": "crossref",
+          "first-page": "78",
+          "DOI": "10.1504/IJBIC.2010.032124",
+          "article-title": "Firefly algorithm, stochastic test functions and design optimisation",
+          "volume": "2",
+          "author": "Yang",
+          "year": "2010",
+          "journal-title": "Int J Bio-Inspired Comput"
+        },
+        {
+          "key": "10.1016/j.advengsoft.2013.12.007_b0215",
+          "article-title": "A new heuristic optimization algorithm for modeling of proton exchange membrane fuel cell: bird mating optimizer",
+          "author": "Askarzadeh",
+          "year": "2012",
+          "journal-title": "Int J Energy Res"
+        },
+        {
+          "key": "10.1016/j.advengsoft.2013.12.007_b0220",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1016/j.cnsns.2012.05.010",
+          "article-title": "Krill Herd: a new bio-inspired optimization algorithm",
+          "author": "Gandomi",
+          "year": "2012",
+          "journal-title": "Commun Nonlinear Sci Numer Simul"
+        },
+        {
+          "key": "10.1016/j.advengsoft.2013.12.007_b0225",
+          "doi-asserted-by": "crossref",
+          "first-page": "69",
+          "DOI": "10.1016/j.knosys.2011.07.001",
+          "article-title": "A new fruit fly optimization algorithm: taking the financial distress model as an example",
+          "volume": "26",
+          "author": "Pan",
+          "year": "2012",
+          "journal-title": "Knowl-Based Syst"
+        },
+        {
+          "key": "10.1016/j.advengsoft.2013.12.007_b0230",
+          "doi-asserted-by": "crossref",
+          "first-page": "1196",
+          "DOI": "10.1139/z99-099",
+          "article-title": "Alpha status, dominance, and division of labor in wolf packs",
+          "volume": "77",
+          "author": "Mech",
+          "year": "1999",
+          "journal-title": "Can J Zool"
+        },
+        {
+          "key": "10.1016/j.advengsoft.2013.12.007_b0235",
+          "doi-asserted-by": "crossref",
+          "first-page": "192",
+          "DOI": "10.1016/j.beproc.2011.09.006",
+          "article-title": "Wolf-pack (Canis lupus) hunting strategies emerge from simple rules in computational simulations",
+          "volume": "88",
+          "author": "Muro",
+          "year": "2011",
+          "journal-title": "Behav Process"
+        },
+        {
+          "key": "10.1016/j.advengsoft.2013.12.007_b0240",
+          "doi-asserted-by": "crossref",
+          "first-page": "481",
+          "DOI": "10.1080/00207160108805080",
+          "article-title": "On benchmarking functions for genetic algorithms",
+          "volume": "77",
+          "author": "Digalakis",
+          "year": "2001",
+          "journal-title": "Int J Comput Math"
+        },
+        {
+          "key": "10.1016/j.advengsoft.2013.12.007_b0245",
+          "unstructured": "Molga M, Smutnicki C. Test functions for optimization needs. Test functions for optimization needs; 2005."
+        },
+        {
+          "key": "10.1016/j.advengsoft.2013.12.007_b0250",
+          "unstructured": "Yang X-S. Test problems in optimization, arXiv, preprint arXiv:1008.0549; 2010."
+        },
+        {
+          "key": "10.1016/j.advengsoft.2013.12.007_b0255",
+          "doi-asserted-by": "crossref",
+          "first-page": "1",
+          "DOI": "10.1016/j.swevo.2012.09.002",
+          "article-title": "S-shaped versus V-shaped transfer functions for binary Particle Swarm Optimization",
+          "volume": "9",
+          "author": "Mirjalili",
+          "year": "2013",
+          "journal-title": "Swarm Evolut Comput"
+        },
+        {
+          "key": "10.1016/j.advengsoft.2013.12.007_b0260",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Liang J, Suganthan P, Deb K. Novel composition test functions for numerical global optimization. In: Swarm intelligence symposium, 2005. SIS 2005. Proceedings 2005 IEEE; 2005. p. 68–75.",
+          "DOI": "10.1109/SIS.2005.1501604"
+        },
+        {
+          "key": "10.1016/j.advengsoft.2013.12.007_b0265",
+          "unstructured": "Suganthan PN, Hansen N, Liang JJ, Deb K, Chen YP, Auger A, et al. Problem definitions and evaluation criteria for the CEC 2005 special session on real-parameter optimization, Technical Report, Nanyang Technological University, Singapore, 2005, http://www.ntu.edu.sg/home/EPNSugan."
+        },
+        {
+          "key": "10.1016/j.advengsoft.2013.12.007_b0270",
+          "doi-asserted-by": "crossref",
+          "first-page": "937",
+          "DOI": "10.1016/j.ins.2005.02.003",
+          "article-title": "A study of particle swarm optimization particle trajectories",
+          "volume": "176",
+          "author": "van den Bergh",
+          "year": "2006",
+          "journal-title": "Inf Sci"
+        },
+        {
+          "key": "10.1016/j.advengsoft.2013.12.007_b0275",
+          "series-title": "Introduction to optimum design",
+          "author": "Arora",
+          "year": "2004"
+        },
+        {
+          "key": "10.1016/j.advengsoft.2013.12.007_b0415",
+          "doi-asserted-by": "crossref",
+          "first-page": "1583",
+          "DOI": "10.1002/nme.1620210904",
+          "article-title": "A Study of mathematical programming methods for structural optimization. Part I: Theory",
+          "volume": "21",
+          "author": "Belegundu",
+          "year": "1985",
+          "journal-title": "Int J Numer Meth Eng"
+        },
+        {
+          "key": "10.1016/j.advengsoft.2013.12.007_b0285",
+          "doi-asserted-by": "crossref",
+          "first-page": "193",
+          "DOI": "10.1016/S1474-0346(02)00011-3",
+          "article-title": "Constraint-handling in genetic algorithms through the use of dominance-based tournament selection",
+          "volume": "16",
+          "author": "Coello Coello",
+          "year": "2002",
+          "journal-title": "Adv Eng Inform"
+        },
+        {
+          "key": "10.1016/j.advengsoft.2013.12.007_b0290",
+          "doi-asserted-by": "crossref",
+          "first-page": "89",
+          "DOI": "10.1016/j.engappai.2006.03.003",
+          "article-title": "An effective co-evolutionary particle swarm optimization for constrained engineering design problems",
+          "volume": "20",
+          "author": "He",
+          "year": "2007",
+          "journal-title": "Eng Appl Artif Intell"
+        },
+        {
+          "key": "10.1016/j.advengsoft.2013.12.007_b0295",
+          "doi-asserted-by": "crossref",
+          "first-page": "443",
+          "DOI": "10.1080/03081070701303470",
+          "article-title": "An empirical study about the usefulness of evolution strategies to solve constrained optimization problems",
+          "volume": "37",
+          "author": "Mezura-Montes",
+          "year": "2008",
+          "journal-title": "Int J Gen Syst"
+        },
+        {
+          "key": "10.1016/j.advengsoft.2013.12.007_b0300",
+          "doi-asserted-by": "crossref",
+          "first-page": "113",
+          "DOI": "10.1016/S0166-3615(99)00046-9",
+          "article-title": "Use of a self-adaptive penalty approach for engineering optimization problems",
+          "volume": "41",
+          "author": "Coello Coello",
+          "year": "2000",
+          "journal-title": "Comput Ind"
+        },
+        {
+          "key": "10.1016/j.advengsoft.2013.12.007_b0305",
+          "doi-asserted-by": "crossref",
+          "first-page": "1567",
+          "DOI": "10.1016/j.amc.2006.11.033",
+          "article-title": "An improved harmony search algorithm for solving optimization problems",
+          "volume": "188",
+          "author": "Mahdavi",
+          "year": "2007",
+          "journal-title": "Appl Math Comput"
+        },
+        {
+          "key": "10.1016/j.advengsoft.2013.12.007_b0310",
+          "doi-asserted-by": "crossref",
+          "first-page": "340",
+          "DOI": "10.1016/j.amc.2006.07.105",
+          "article-title": "An effective co-evolutionary differential evolution for constrained optimization",
+          "volume": "186",
+          "author": "Huang",
+          "year": "2007",
+          "journal-title": "Appl Math Comput"
+        },
+        {
+          "key": "10.1016/j.advengsoft.2013.12.007_b0315",
+          "series-title": "Nature-inspired metaheuristic algorithms",
+          "author": "Yang",
+          "year": "2011"
+        },
+        {
+          "key": "10.1016/j.advengsoft.2013.12.007_b0320",
+          "doi-asserted-by": "crossref",
+          "first-page": "319",
+          "DOI": "10.1080/02630250008970288",
+          "article-title": "Constraint-handling using an evolutionary multiobjective optimization technique",
+          "volume": "17",
+          "author": "Carlos",
+          "year": "2000",
+          "journal-title": "Civil Eng Syst"
+        },
+        {
+          "key": "10.1016/j.advengsoft.2013.12.007_b0325",
+          "doi-asserted-by": "crossref",
+          "first-page": "2013",
+          "DOI": "10.2514/3.10834",
+          "article-title": "Optimal design of a welded beam via genetic algorithms",
+          "volume": "29",
+          "author": "Deb",
+          "year": "1991",
+          "journal-title": "AIAA J"
+        },
+        {
+          "key": "10.1016/j.advengsoft.2013.12.007_b0330",
+          "doi-asserted-by": "crossref",
+          "first-page": "311",
+          "DOI": "10.1016/S0045-7825(99)00389-8",
+          "article-title": "An efficient constraint handling method for genetic algorithms",
+          "volume": "186",
+          "author": "Deb",
+          "year": "2000",
+          "journal-title": "Comput Methods Appl Mech Eng"
+        },
+        {
+          "key": "10.1016/j.advengsoft.2013.12.007_b0335",
+          "doi-asserted-by": "crossref",
+          "first-page": "3902",
+          "DOI": "10.1016/j.cma.2004.09.007",
+          "article-title": "A new meta-heuristic algorithm for continuous engineering optimization: harmony search theory and practice",
+          "volume": "194",
+          "author": "Lee",
+          "year": "2005",
+          "journal-title": "Comput Methods Appl Mech Eng"
+        },
+        {
+          "key": "10.1016/j.advengsoft.2013.12.007_b0340",
+          "doi-asserted-by": "crossref",
+          "first-page": "1021",
+          "DOI": "10.1115/1.3438995",
+          "article-title": "Optimal design of a class of welded structures using geometric programming",
+          "volume": "98",
+          "author": "Ragsdell",
+          "year": "1976",
+          "journal-title": "ASME J Eng Indust"
+        },
+        {
+          "key": "10.1016/j.advengsoft.2013.12.007_b0345",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Deb K, Gene AS. A robust optimal design technique for mechanical component design. In: Presented at the Dasgupta D, Michalewicz Z, editors. Evolutionary algorithms in engineering applications, Berlin; 1997.",
+          "DOI": "10.1007/978-3-662-03423-1_27"
+        },
+        {
+          "key": "10.1016/j.advengsoft.2013.12.007_b0350",
+          "first-page": "155",
+          "article-title": "An improved ant colony optimization for constrained engineering design problems",
+          "volume": "27",
+          "author": "Kaveh",
+          "year": "2010",
+          "journal-title": "Eng Comput Int J Comput-Aided Eng"
+        },
+        {
+          "key": "10.1016/j.advengsoft.2013.12.007_b0355",
+          "doi-asserted-by": "crossref",
+          "first-page": "405",
+          "DOI": "10.1115/1.2919393",
+          "article-title": "An augmented Lagrange multiplier based method for mixed integer discrete continuous optimization and its applications to mechanical design",
+          "volume": "116",
+          "author": "Kannan",
+          "year": "1994",
+          "journal-title": "J Mech Des"
+        },
+        {
+          "key": "10.1016/j.advengsoft.2013.12.007_b0360",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Sandgren E. Nonlinear integer and discrete programming in mechanical design; 1988. p. 95–105.",
+          "DOI": "10.1115/DETC1988-0012"
+        },
+        {
+          "key": "10.1016/j.advengsoft.2013.12.007_b0365",
+          "doi-asserted-by": "crossref",
+          "first-page": "1298",
+          "DOI": "10.1109/LPT.2011.2158996",
+          "article-title": "Dispersion engineering of wide slot photonic crystal waveguides by Bragg-like corrugation of the slot",
+          "volume": "23",
+          "author": "Caer",
+          "year": "2011",
+          "journal-title": "Photonics Technol Lett, IEEE"
+        },
+        {
+          "key": "10.1016/j.advengsoft.2013.12.007_b0370",
+          "doi-asserted-by": "crossref",
+          "first-page": "465",
+          "DOI": "10.1038/nphoton.2008.146",
+          "article-title": "Slow light in photonic crystals",
+          "volume": "2",
+          "author": "Baba",
+          "year": "2008",
+          "journal-title": "Nat Photonics"
+        },
+        {
+          "key": "10.1016/j.advengsoft.2013.12.007_b0375",
+          "doi-asserted-by": "crossref",
+          "first-page": "3083",
+          "DOI": "10.1109/JLT.2011.2165334",
+          "article-title": "Slow light property improvement and optical buffer capability in ring-shape-hole photonic crystal waveguide",
+          "volume": "29",
+          "author": "Zhai",
+          "year": "2011",
+          "journal-title": "Light Technol J"
+        },
+        {
+          "key": "10.1016/j.advengsoft.2013.12.007_b0380",
+          "doi-asserted-by": "crossref",
+          "first-page": "5829",
+          "DOI": "10.1016/j.optcom.2011.07.080",
+          "article-title": "Slow light engineering in polyatomic photonic crystal waveguides based on square lattice",
+          "volume": "284",
+          "author": "Wang",
+          "year": "2011",
+          "journal-title": "Optics Commun"
+        },
+        {
+          "key": "10.1016/j.advengsoft.2013.12.007_b0385",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Mirjalili SM, Mirjalili S. Light property and optical buffer performance enhancement using Particle Swarm Optimization in Oblique Ring-Shape-Hole Photonic Crystal Waveguide. In: Photonics global conference (PGC); 2012. p. 1–4 [2012].",
+          "DOI": "10.1109/PGC.2012.6457997"
+        },
+        {
+          "key": "10.1016/j.advengsoft.2013.12.007_b0390",
+          "doi-asserted-by": "crossref",
+          "first-page": "5989",
+          "DOI": "10.1016/j.ijleo.2013.04.114",
+          "article-title": "Optical buffer performance enhancement using Particle Swarm Optimization in Ring-Shape-Hole Photonic Crystal Waveguide",
+          "volume": "124",
+          "author": "Mirjalili",
+          "year": "2013",
+          "journal-title": "Optik – Int J Light Elect Optics"
+        },
+        {
+          "key": "10.1016/j.advengsoft.2013.12.007_b0395",
+          "doi-asserted-by": "crossref",
+          "first-page": "146",
+          "DOI": "10.1109/LPT.2013.2290318",
+          "article-title": "A novel multi-objective optimization framework for designing photonic crystal waveguides",
+          "volume": "26",
+          "author": "Mirjalili",
+          "year": "2014",
+          "journal-title": "Photonics Technol Lett IEEE"
+        },
+        {
+          "key": "10.1016/j.advengsoft.2013.12.007_b0400",
+          "unstructured": "Mirjalili SM, Mirjalili S, Lewis A, Abedi K. A tri-objective particle swarm optimizer for designing line defect photonic crystal waveguides. Photonics and Nanostructures – Fundamentals and Applications."
+        },
+        {
+          "key": "10.1016/j.advengsoft.2013.12.007_b0405",
+          "doi-asserted-by": "crossref",
+          "first-page": "2815",
+          "DOI": "10.1016/j.optcom.2010.03.037",
+          "article-title": "Wideband and low dispersion slow light in slotted photonic crystal waveguide",
+          "volume": "283",
+          "author": "Wu",
+          "year": "2010",
+          "journal-title": "Optics Commun"
+        },
+        {
+          "key": "10.1016/j.advengsoft.2013.12.007_b0410",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Mirjalili S, Mirjalili SM, Yang X. Binary bat algorithm. Neural Comput Appl, in press, DOI: 10.1007/s00521-013-1525-5.",
+          "DOI": "10.1007/s00521-013-1525-5"
+        }
+      ],
+      "container-title": [
+        "Advances in Engineering Software"
+      ],
+      "original-title": [],
+      "language": "en",
+      "link": [
+        {
+          "URL": "https://api.elsevier.com/content/article/PII:S0965997813001853?httpAccept=text/xml",
+          "content-type": "text/xml",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        },
+        {
+          "URL": "https://api.elsevier.com/content/article/PII:S0965997813001853?httpAccept=text/plain",
+          "content-type": "text/plain",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2025,
+            5,
+            1
+          ]
+        ],
+        "date-time": "2025-05-01T12:32:24Z",
+        "timestamp": 1746102744000
+      },
+      "score": 1,
+      "resource": {
+        "primary": {
+          "URL": "https://linkinghub.elsevier.com/retrieve/pii/S0965997813001853"
+        }
+      },
+      "subtitle": [],
+      "short-title": [],
+      "issued": {
+        "date-parts": [
+          [
+            2014,
+            3
+          ]
+        ]
+      },
+      "references-count": 82,
+      "alternative-id": [
+        "S0965997813001853"
+      ],
+      "URL": "https://doi.org/10.1016/j.advengsoft.2013.12.007",
+      "relation": {},
+      "ISSN": [
+        "0965-9978"
+      ],
+      "issn-type": [
+        {
+          "value": "0965-9978",
+          "type": "print"
+        }
+      ],
+      "subject": [],
+      "published": {
+        "date-parts": [
+          [
+            2014,
+            3
+          ]
+        ]
+      },
+      "assertion": [
+        {
+          "value": "Elsevier",
+          "name": "publisher",
+          "label": "This article is maintained by"
+        },
+        {
+          "value": "Grey Wolf Optimizer",
+          "name": "articletitle",
+          "label": "Article Title"
+        },
+        {
+          "value": "Advances in Engineering Software",
+          "name": "journaltitle",
+          "label": "Journal Title"
+        },
+        {
+          "value": "https://doi.org/10.1016/j.advengsoft.2013.12.007",
+          "name": "articlelink",
+          "label": "CrossRef DOI link to publisher maintained version"
+        },
+        {
+          "value": "article",
+          "name": "content_type",
+          "label": "Content Type"
+        },
+        {
+          "value": "Copyright © 2013 Elsevier Ltd. All rights reserved.",
+          "name": "copyright",
+          "label": "Copyright"
+        }
+      ]
+    }
+  }
+}

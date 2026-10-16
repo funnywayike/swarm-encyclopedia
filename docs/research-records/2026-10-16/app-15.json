@@ -1,0 +1,1363 @@
+{
+  "retrieved": "2026-10-16",
+  "url": "https://api.crossref.org/works?query.bibliographic=reservoir+operation+multiobjective+evolutionary+algorithm&rows=3&filter=until-pub-date%3A2026-10-16",
+  "response": {
+    "status": "ok",
+    "message-type": "work-list",
+    "message-version": "1.0.0",
+    "message": {
+      "facets": {},
+      "total-results": 1349700,
+      "items": [
+        {
+          "indexed": {
+            "date-parts": [
+              [
+                2026,
+                1,
+                22
+              ]
+            ],
+            "date-time": "2026-01-22T18:55:55Z",
+            "timestamp": 1769108155866,
+            "version": "3.49.0"
+          },
+          "reference-count": 54,
+          "publisher": "IOP Publishing",
+          "issue": "12",
+          "license": [
+            {
+              "start": {
+                "date-parts": [
+                  [
+                    2022,
+                    11,
+                    23
+                  ]
+                ],
+                "date-time": "2022-11-23T00:00:00Z",
+                "timestamp": 1669161600000
+              },
+              "content-version": "vor",
+              "delay-in-days": 0,
+              "URL": "http://creativecommons.org/licenses/by/4.0/"
+            },
+            {
+              "start": {
+                "date-parts": [
+                  [
+                    2022,
+                    11,
+                    23
+                  ]
+                ],
+                "date-time": "2022-11-23T00:00:00Z",
+                "timestamp": 1669161600000
+              },
+              "content-version": "tdm",
+              "delay-in-days": 0,
+              "URL": "https://iopscience.iop.org/info/page/text-and-data-mining"
+            }
+          ],
+          "funder": [
+            {
+              "DOI": "10.13039/501100000923",
+              "name": "Australian Research Council",
+              "doi-asserted-by": "crossref",
+              "award": [
+                "DE210100117"
+              ],
+              "award-info": [
+                {
+                  "award-number": [
+                    "DE210100117"
+                  ]
+                }
+              ],
+              "id": [
+                {
+                  "id": "10.13039/501100000923",
+                  "id-type": "DOI",
+                  "asserted-by": "crossref"
+                }
+              ]
+            }
+          ],
+          "content-domain": {
+            "domain": [
+              "iopscience.iop.org"
+            ],
+            "crossmark-restriction": false
+          },
+          "short-container-title": [
+            "Environ. Res. Commun."
+          ],
+          "published-print": {
+            "date-parts": [
+              [
+                2022,
+                12,
+                1
+              ]
+            ]
+          },
+          "abstract": "",
+          "DOI": "10.1088/2515-7620/aca1fc",
+          "type": "journal-article",
+          "created": {
+            "date-parts": [
+              [
+                2022,
+                11,
+                10
+              ]
+            ],
+            "date-time": "2022-11-10T22:41:11Z",
+            "timestamp": 1668120071000
+          },
+          "page": "121001",
+          "update-policy": "https://doi.org/10.1088/crossmark-policy",
+          "source": "Crossref",
+          "is-referenced-by-count": 7,
+          "title": [
+            "Evolutionary algorithm-based multiobjective reservoir operation policy optimisation under uncertainty"
+          ],
+          "prefix": "10.1088",
+          "volume": "4",
+          "author": [
+            {
+              "ORCID": "https://orcid.org/0000-0003-3907-1570",
+              "authenticated-orcid": false,
+              "given": "Wenyan",
+              "family": "Wu",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Yuerong",
+              "family": "Zhou",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Michael",
+              "family": "Leonard",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            }
+          ],
+          "member": "266",
+          "published-online": {
+            "date-parts": [
+              [
+                2022,
+                11,
+                23
+              ]
+            ]
+          },
+          "reference": [
+            {
+              "key": "ercaca1fcbib1",
+              "doi-asserted-by": "publisher",
+              "first-page": "53",
+              "DOI": "10.1080/13241583.2017.1404550",
+              "article-title": "Impact of hydroclimate parameter uncertainty on system yield",
+              "volume": "21",
+              "author": "Berghout",
+              "year": "2017",
+              "journal-title": "Australasian Journal of Water Resources"
+            },
+            {
+              "key": "ercaca1fcbib2",
+              "doi-asserted-by": "publisher",
+              "first-page": "89497",
+              "DOI": "10.1109/ACCESS.2020.2990567",
+              "article-title": "Pymoo: multi-objective optimization in python",
+              "volume": "8",
+              "author": "Blank",
+              "year": "2020",
+              "journal-title": "IEEE Access"
+            },
+            {
+              "key": "ercaca1fcbib3",
+              "doi-asserted-by": "publisher",
+              "first-page": "2914",
+              "DOI": "10.1007/s10668-021-01560-4",
+              "article-title": "Reservoir operation under influence of the joint uncertainty of inflow and evaporation",
+              "volume": "24",
+              "author": "Bozorg-Haddad",
+              "year": "2022",
+              "journal-title": "Environment, Development and Sustainability"
+            },
+            {
+              "key": "ercaca1fcbib4",
+              "doi-asserted-by": "publisher",
+              "first-page": "189",
+              "DOI": "10.5194/hess-16-189-2012",
+              "article-title": "Assessing water reservoirs management and development in Northern Vietnam",
+              "volume": "16",
+              "author": "Castelletti",
+              "year": "2012",
+              "journal-title": "Hydrol. Earth Syst. Sci."
+            },
+            {
+              "key": "ercaca1fcbib5",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1061/(ASCE)WR.1943-5452.0001393",
+              "article-title": "Using inflow records to approximate solutions to statistical moment equations of an explicit stochastic reservoir optimization method",
+              "volume": "147",
+              "author": "Celeste",
+              "year": "2021",
+              "journal-title": "J. Water Resour. Plann. Manage."
+            },
+            {
+              "key": "ercaca1fcbib6",
+              "doi-asserted-by": "publisher",
+              "first-page": "303",
+              "DOI": "10.1016/0360-8352(93)90016-Q",
+              "article-title": "A multiobjective reservoir operation model with stochatic inflows",
+              "volume": "24",
+              "author": "Changchit",
+              "year": "1993",
+              "journal-title": "Comput. Ind. Eng."
+            },
+            {
+              "key": "ercaca1fcbib7",
+              "doi-asserted-by": "publisher",
+              "first-page": "3707",
+              "DOI": "10.1007/s11269-018-2014-5",
+              "article-title": "A derivative-free hybrid optimization model for short-term operation of a multi-objective reservoir system under uncertainty",
+              "volume": "32",
+              "author": "Chen",
+              "year": "2018",
+              "journal-title": "Water Resour. Manag."
+            },
+            {
+              "key": "ercaca1fcbib8",
+              "doi-asserted-by": "publisher",
+              "first-page": "424",
+              "DOI": "10.3390/w9060424",
+              "article-title": "Risk analysis of reservoir operations considering short-term flood control and long-term water supply: a case study for the da-han creek basin in taiwan",
+              "volume": "9",
+              "author": "Cheng",
+              "year": "2017",
+              "journal-title": "Water"
+            },
+            {
+              "key": "ercaca1fcbib9",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1061/(ASCE)WR.1943-5452.0000575",
+              "article-title": "Comparison of stochastic optimization algorithms for hydropower reservoir operation with ensemble streamflow prediction",
+              "volume": "142",
+              "author": "Cote",
+              "year": "2016",
+              "journal-title": "J. Water Resour. Plann. Manage."
+            },
+            {
+              "key": "ercaca1fcbib10",
+              "doi-asserted-by": "publisher",
+              "first-page": "6751",
+              "DOI": "10.1002/2015WR018253",
+              "article-title": "A bottom-up approach to identifying the maximum operational adaptive capacity of water resource systems to a changing climate",
+              "volume": "52",
+              "author": "Culley",
+              "year": "2016",
+              "journal-title": "Water Resour. Res."
+            },
+            {
+              "key": "ercaca1fcbib11",
+              "first-page": "849",
+              "article-title": "A fast elitist non-dominated sorting genetic algorithm for multi-objective optimization: NSGA-II",
+              "author": "Deb",
+              "year": "2000"
+            },
+            {
+              "key": "ercaca1fcbib12",
+              "doi-asserted-by": "publisher",
+              "first-page": "74",
+              "DOI": "10.1016/j.advwatres.2019.04.012",
+              "article-title": "An argument-driven classification and comparison of reservoir operation optimization methods",
+              "volume": "128",
+              "author": "Dobson",
+              "year": "2019",
+              "journal-title": "Adv. Water Res."
+            },
+            {
+              "key": "ercaca1fcbib13",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1016/j.agwat.2022.107861",
+              "article-title": "A hybrid framework for short-term irrigation demand forecasting",
+              "volume": "273",
+              "author": "Forouhar",
+              "year": "2022",
+              "journal-title": "Agric. Water Manage."
+            },
+            {
+              "key": "ercaca1fcbib14",
+              "doi-asserted-by": "publisher",
+              "first-page": "1815",
+              "DOI": "10.1007/s00477-014-0846-y",
+              "article-title": "Optimization and uncertainty analysis of operational policies for multipurpose reservoir system",
+              "volume": "28",
+              "author": "Ghimire",
+              "year": "2014",
+              "journal-title": "Stochastic Environmental Research and Risk Assessment"
+            },
+            {
+              "key": "ercaca1fcbib15",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1061/(ASCE)WR.1943-5452.0000570",
+              "article-title": "Curses, tradeoffs, and scalable management: advancing evolutionary multiobjective direct policy search to improve water reservoir operations",
+              "volume": "142",
+              "author": "Giuliani",
+              "year": "2016",
+              "journal-title": "J. Water Resour. Plann. Manage."
+            },
+            {
+              "key": "ercaca1fcbib16",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1029/2021WR029927",
+              "article-title": "A state-of-the-art review of optimal reservoir control for managing conflicting demands in a changing world",
+              "volume": "57",
+              "author": "Giuliani",
+              "year": "2021",
+              "journal-title": "Water Resources Research n/a(n/a)"
+            },
+            {
+              "key": "ercaca1fcbib17",
+              "doi-asserted-by": "publisher",
+              "first-page": "10",
+              "DOI": "10.3390/w12102688",
+              "article-title": "Aggregation-decomposition-based multi-agent reinforcement learning for multi-reservoir operations optimization",
+              "volume": "12",
+              "author": "Hooshyar",
+              "year": "2020",
+              "journal-title": "Water"
+            },
+            {
+              "key": "ercaca1fcbib18",
+              "doi-asserted-by": "publisher",
+              "first-page": "672",
+              "DOI": "10.1016/j.jhydrol.2018.08.040",
+              "article-title": "Risk analysis of flood control reservoir operation considering multiple uncertainties",
+              "volume": "565",
+              "author": "Huang",
+              "year": "2018",
+              "journal-title": "J. Hydrol."
+            },
+            {
+              "key": "ercaca1fcbib19",
+              "doi-asserted-by": "publisher",
+              "first-page": "1",
+              "DOI": "10.1111/j.1752-1688.1987.tb00778.x",
+              "article-title": "Comparison of stochastic and deterministic dynamic programming for reservoir operating rule generation1",
+              "volume": "23",
+              "author": "Karamouz",
+              "year": "1987",
+              "journal-title": "Jawra Journal of the American Water Resources Association"
+            },
+            {
+              "key": "ercaca1fcbib20",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1088/1748-9326/9/9/095006",
+              "article-title": "A global water supply reservoir yield model with uncertainty analysis",
+              "volume": "9",
+              "author": "Kuria",
+              "year": "2014",
+              "journal-title": "Environ. Res. Lett."
+            },
+            {
+              "key": "ercaca1fcbib21",
+              "doi-asserted-by": "publisher",
+              "first-page": "93",
+              "DOI": "10.1061/(ASCE)0733-9496(2004)130:2(93)",
+              "article-title": "Optimal operation of multireservoir systems: state-of-the-art review",
+              "volume": "130",
+              "author": "Labadie",
+              "year": "2004",
+              "journal-title": "J. Water Resour. Plann. Manage."
+            },
+            {
+              "key": "ercaca1fcbib22",
+              "doi-asserted-by": "publisher",
+              "first-page": "510",
+              "DOI": "10.1016/j.jhydrol.2018.06.031",
+              "article-title": "Optimizing environmental flow operations based on explicit quantification of IHA parameters",
+              "volume": "563",
+              "author": "Li",
+              "year": "2018",
+              "journal-title": "J. Hydrol."
+            },
+            {
+              "key": "ercaca1fcbib23",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1016/j.jclepro.2020.121676",
+              "article-title": "Reducing lake water-level decline by optimizing reservoir operating rule curves: a case study of the three gorges reservoir and the dongting lake",
+              "volume": "264",
+              "author": "Li",
+              "year": "2020",
+              "journal-title": "J. Clean. Prod."
+            },
+            {
+              "key": "ercaca1fcbib24",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1002/wat2.1400",
+              "article-title": "Inferring efficient operating rules in multireservoir water resource systems: a review",
+              "volume": "7",
+              "author": "Macian-Sorribes",
+              "year": "2020",
+              "journal-title": "WIREs Water"
+            },
+            {
+              "key": "ercaca1fcbib25",
+              "doi-asserted-by": "publisher",
+              "first-page": "154",
+              "DOI": "10.1016/j.envsoft.2016.03.014",
+              "article-title": "An uncertain future, deep uncertainty, scenarios, robustness and adaptation: how do they fit together ? environ. model",
+              "volume": "81",
+              "author": "Maier",
+              "year": "2016",
+              "journal-title": "Softw."
+            },
+            {
+              "key": "ercaca1fcbib26",
+              "doi-asserted-by": "publisher",
+              "first-page": "195",
+              "DOI": "10.1016/j.envsoft.2018.11.018",
+              "article-title": "Introductory overview: optimization using evolutionary algorithms and other metaheuristics",
+              "volume": "114",
+              "author": "Maier",
+              "year": "2019",
+              "journal-title": "Environ. Modelling Softw."
+            },
+            {
+              "key": "ercaca1fcbib27",
+              "doi-asserted-by": "publisher",
+              "first-page": "12",
+              "DOI": "10.1080/13241583.2020.1733743",
+              "article-title": "Australian dams and reservoirs within a global setting",
+              "volume": "24",
+              "author": "McMahon",
+              "year": "2020",
+              "journal-title": "Australasian Journal of Water Resources"
+            },
+            {
+              "key": "ercaca1fcbib28",
+              "doi-asserted-by": "publisher",
+              "first-page": "3",
+              "DOI": "10.1029/2011WR010866",
+              "article-title": "Multiobjective optimization of urban water resources: moving toward more practical solutions",
+              "volume": "48",
+              "author": "Mortazavi",
+              "year": "2012",
+              "journal-title": "Water Resour. Res."
+            },
+            {
+              "key": "ercaca1fcbib29",
+              "doi-asserted-by": "publisher",
+              "first-page": "437",
+              "DOI": "10.1016/j.envsoft.2015.02.021",
+              "article-title": "Robust optimization to secure urban bulk water supply against extreme drought and uncertain climate change",
+              "volume": "69",
+              "author": "Mortazavi-Naeini",
+              "year": "2015",
+              "journal-title": "Environ. Modelling Softw."
+            },
+            {
+              "key": "ercaca1fcbib30",
+              "doi-asserted-by": "publisher",
+              "first-page": "308",
+              "DOI": "10.2166/hydro.2019.078",
+              "article-title": "Fuzzy reliability-based optimization of a hydropower reservoir",
+              "volume": "21",
+              "author": "Nair",
+              "year": "2019",
+              "journal-title": "J. Hydroinf."
+            },
+            {
+              "key": "ercaca1fcbib31",
+              "doi-asserted-by": "publisher",
+              "first-page": "839",
+              "DOI": "10.1029/96WR03745",
+              "article-title": "Operating rules for multireservoir systems",
+              "volume": "33",
+              "author": "Oliveira",
+              "year": "1997",
+              "journal-title": "Water Resour. Res."
+            },
+            {
+              "key": "ercaca1fcbib32",
+              "doi-asserted-by": "publisher",
+              "first-page": "3815",
+              "DOI": "10.1007/s11269-019-02337-1",
+              "article-title": "A two-stage stochastic optimization for robust operation of multipurpose reservoirs",
+              "volume": "33",
+              "author": "Ortiz-Partida",
+              "year": "2019",
+              "journal-title": "Water Resour. Manage."
+            },
+            {
+              "key": "ercaca1fcbib33",
+              "doi-asserted-by": "publisher",
+              "first-page": "409",
+              "DOI": "10.1002/2014WR015380",
+              "article-title": "Robust stochastic optimization for reservoir operation",
+              "volume": "51",
+              "author": "Pan",
+              "year": "2015",
+              "journal-title": "Water Resour. Res."
+            },
+            {
+              "key": "ercaca1fcbib34",
+              "doi-asserted-by": "publisher",
+              "first-page": "989",
+              "DOI": "10.1007/s11269-019-02481-8",
+              "article-title": "Ensemble based forecasting and optimization framework to optimize releases from water supply reservoirs for flood control",
+              "volume": "34",
+              "author": "Ramaswamy",
+              "year": "2020",
+              "journal-title": "Water Resour. Manage."
+            },
+            {
+              "key": "ercaca1fcbib35",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1061/(ASCE)WR.1943-5452.0001252",
+              "article-title": "Surrogate-based multiperiod, multiobjective reservoir operation optimization for quality and quantity management",
+              "volume": "146",
+              "author": "Saadatpour",
+              "year": "2020",
+              "journal-title": "J. Water Resour. Plann. Manage."
+            },
+            {
+              "key": "ercaca1fcbib36",
+              "doi-asserted-by": "publisher",
+              "first-page": "8401",
+              "DOI": "10.1029/2018WR022753",
+              "article-title": "An ensemble optimization framework for coupled design of hydropower contracts and real-time reservoir operating rules",
+              "volume": "54",
+              "author": "Sahu",
+              "year": "2018",
+              "journal-title": "Water Resour. Res."
+            },
+            {
+              "key": "ercaca1fcbib37",
+              "first-page": "213",
+              "article-title": "Sequential decision making based on direct search",
+              "author": "Schmidhuber",
+              "year": "2001"
+            },
+            {
+              "key": "ercaca1fcbib38",
+              "doi-asserted-by": "publisher",
+              "first-page": "1635",
+              "DOI": "10.1007/s11269-014-0899-1",
+              "article-title": "Short-term reservoir optimization for flood mitigation under meteorological and hydrological forecast uncertainty",
+              "volume": "29",
+              "author": "Schwanenberg",
+              "year": "2015",
+              "journal-title": "Water Resour. Manage."
+            },
+            {
+              "key": "ercaca1fcbib39",
+              "doi-asserted-by": "publisher",
+              "first-page": "1881",
+              "DOI": "10.1007/s11269-019-02219-6",
+              "article-title": "Optimising pumping activation in multi-reservoir water supply systems under uncertainty with stochastic quasi-gradient methods",
+              "volume": "33",
+              "author": "Sechi",
+              "year": "2019",
+              "journal-title": "Water Resour. Manage."
+            },
+            {
+              "key": "ercaca1fcbib40",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1061/(ASCE)IR.1943-4774.0001065",
+              "article-title": "Reservoir operation rules with uncertainties in reservoir inflow and agricultural demand derived with stochastic dynamic programming",
+              "volume": "142",
+              "author": "Soleimani",
+              "year": "2016",
+              "journal-title": "J. Irrig. Drain. Eng."
+            },
+            {
+              "key": "ercaca1fcbib41",
+              "doi-asserted-by": "publisher",
+              "first-page": "5",
+              "DOI": "10.3390/w10050606",
+              "article-title": "Risk analysis for reservoir real-time optimal operation using the scenario tree-based stochastic optimization method",
+              "volume": "10",
+              "author": "Sun",
+              "year": "2018",
+              "journal-title": "Water"
+            },
+            {
+              "key": "ercaca1fcbib42",
+              "doi-asserted-by": "publisher",
+              "first-page": "396",
+              "DOI": "10.1016/j.envsoft.2014.09.023",
+              "article-title": "Multiobjective optimisation on a budget: exploring surrogate modelling for robust multi-reservoir rules generation under hydrological uncertainty",
+              "volume": "69",
+              "author": "Tsoukalas",
+              "year": "2015",
+              "journal-title": "Environ. Modelling Softw."
+            },
+            {
+              "key": "ercaca1fcbib43",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1029/2011WR011366",
+              "article-title": "Ensemble hydrological prediction-based real-time optimization of a multiobjective reservoir during flood season in a semiarid basin with global numerical weather predictions",
+              "volume": "48",
+              "author": "Wang",
+              "year": "2012",
+              "journal-title": "Water Resour. Res."
+            },
+            {
+              "key": "ercaca1fcbib44",
+              "doi-asserted-by": "publisher",
+              "first-page": "108",
+              "DOI": "10.1016/j.envsoft.2013.12.016",
+              "article-title": "Protocol for developing ANN models and its application to the assessment of the quality of the ANN model development process in drinking water quality modelling",
+              "volume": "54",
+              "author": "Wu",
+              "year": "2014",
+              "journal-title": "Environ. Model. Softw."
+            },
+            {
+              "key": "ercaca1fcbib45",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1002/wat2.1432",
+              "article-title": "Ensemble flood forecasting: current status and future opportunities. WIREs",
+              "volume": "7",
+              "author": "Wu",
+              "year": "2020",
+              "journal-title": "Water"
+            },
+            {
+              "key": "ercaca1fcbib46",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1016/j.jhydrol.2020.125605",
+              "article-title": "Artificial neural network based hybrid modeling approach for flood inundation modeling",
+              "volume": "592",
+              "author": "Xie",
+              "year": "2021",
+              "journal-title": "J. Hydrol."
+            },
+            {
+              "key": "ercaca1fcbib47",
+              "doi-asserted-by": "publisher",
+              "first-page": "1001",
+              "DOI": "10.5194/hess-26-1001-2022",
+              "article-title": "Exploring hydrologic post-processing of ensemble streamflow forecasts based on affine kernel dressing and non-dominated sorting genetic algorithm II",
+              "volume": "26",
+              "author": "Xu",
+              "year": "2022",
+              "journal-title": "Hydrol. Earth Syst. Sci."
+            },
+            {
+              "key": "ercaca1fcbib48",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1016/j.watres.2019.114984",
+              "article-title": "Is water shortage risk decreased at the expense of deteriorating water quality in a large water supply reservoir?",
+              "volume": "165",
+              "author": "Xu",
+              "year": "2019",
+              "journal-title": "Water Res."
+            },
+            {
+              "key": "ercaca1fcbib49",
+              "doi-asserted-by": "publisher",
+              "first-page": "297",
+              "DOI": "10.1061/JYCEAJ.0001714",
+              "article-title": "Finding reservoir operating rules",
+              "volume": "93",
+              "author": "Young",
+              "year": "1967",
+              "journal-title": "Journal of the Hydraulics Division"
+            },
+            {
+              "key": "ercaca1fcbib50",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1088/1748-9326/ac0b69",
+              "article-title": "Multi-objective game theory optimization for balancing economic, social and ecological benefits in the three gorges reservoir operation",
+              "volume": "16",
+              "author": "Yu",
+              "year": "2021",
+              "journal-title": "Environ. Res. Lett."
+            },
+            {
+              "key": "ercaca1fcbib51",
+              "doi-asserted-by": "publisher",
+              "first-page": "196",
+              "DOI": "10.1016/j.advwatres.2017.09.014",
+              "article-title": "Balancing exploration, uncertainty and computational demands in many objective reservoir optimization",
+              "volume": "109",
+              "author": "Zatarain Salazar",
+              "year": "2017",
+              "journal-title": "Adv. Water Res."
+            },
+            {
+              "key": "ercaca1fcbib52",
+              "doi-asserted-by": "publisher",
+              "first-page": "900",
+              "DOI": "10.1002/qj.3952",
+              "article-title": "Which precipitation forecasts to use ? deterministic versus coarser-resolution ensemble NWP models",
+              "volume": "147",
+              "author": "Zhao",
+              "year": "2021",
+              "journal-title": "Q. J. R. Meteorolog. Soc."
+            },
+            {
+              "key": "ercaca1fcbib53",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1016/j.jhydrol.2021.127285",
+              "article-title": "Extending a joint probability modelling approach for post-processing ensemble precipitation forecasts from numerical weather prediction models",
+              "volume": "605",
+              "author": "Zhao",
+              "year": "2022",
+              "journal-title": "J. Hydrol."
+            },
+            {
+              "key": "ercaca1fcbib54",
+              "doi-asserted-by": "publisher",
+              "first-page": "1142",
+              "DOI": "10.2166/hydro.2014.004",
+              "article-title": "Improved multiple-objective dynamic programming model for reservoir operation optimization",
+              "volume": "16",
+              "author": "Zhao",
+              "year": "2014",
+              "journal-title": "J. Hydroinf."
+            }
+          ],
+          "container-title": [
+            "Environmental Research Communications"
+          ],
+          "link": [
+            {
+              "URL": "https://iopscience.iop.org/article/10.1088/2515-7620/aca1fc",
+              "content-type": "text/html",
+              "content-version": "am",
+              "intended-application": "text-mining"
+            },
+            {
+              "URL": "https://iopscience.iop.org/article/10.1088/2515-7620/aca1fc/pdf",
+              "content-type": "application/pdf",
+              "content-version": "am",
+              "intended-application": "text-mining"
+            },
+            {
+              "URL": "https://iopscience.iop.org/article/10.1088/2515-7620/aca1fc",
+              "content-type": "text/html",
+              "content-version": "vor",
+              "intended-application": "text-mining"
+            },
+            {
+              "URL": "https://iopscience.iop.org/article/10.1088/2515-7620/aca1fc/pdf",
+              "content-type": "application/pdf",
+              "content-version": "vor",
+              "intended-application": "text-mining"
+            },
+            {
+              "URL": "https://iopscience.iop.org/article/10.1088/2515-7620/aca1fc/pdf",
+              "content-type": "application/pdf",
+              "content-version": "am",
+              "intended-application": "syndication"
+            },
+            {
+              "URL": "https://iopscience.iop.org/article/10.1088/2515-7620/aca1fc/pdf",
+              "content-type": "application/pdf",
+              "content-version": "vor",
+              "intended-application": "syndication"
+            },
+            {
+              "URL": "https://iopscience.iop.org/article/10.1088/2515-7620/aca1fc/pdf",
+              "content-type": "application/pdf",
+              "content-version": "am",
+              "intended-application": "similarity-checking"
+            },
+            {
+              "URL": "https://iopscience.iop.org/article/10.1088/2515-7620/aca1fc/pdf",
+              "content-type": "application/pdf",
+              "content-version": "vor",
+              "intended-application": "similarity-checking"
+            }
+          ],
+          "deposited": {
+            "date-parts": [
+              [
+                2022,
+                11,
+                23
+              ]
+            ],
+            "date-time": "2022-11-23T11:12:35Z",
+            "timestamp": 1669201955000
+          },
+          "score": 36.880405,
+          "resource": {
+            "primary": {
+              "URL": "https://iopscience.iop.org/article/10.1088/2515-7620/aca1fc"
+            }
+          },
+          "issued": {
+            "date-parts": [
+              [
+                2022,
+                11,
+                23
+              ]
+            ]
+          },
+          "references-count": 54,
+          "journal-issue": {
+            "issue": "12",
+            "published-online": {
+              "date-parts": [
+                [
+                  2022,
+                  11,
+                  23
+                ]
+              ]
+            },
+            "published-print": {
+              "date-parts": [
+                [
+                  2022,
+                  12,
+                  1
+                ]
+              ]
+            }
+          },
+          "URL": "https://doi.org/10.1088/2515-7620/aca1fc",
+          "ISSN": [
+            "2515-7620"
+          ],
+          "issn-type": [
+            {
+              "value": "2515-7620",
+              "type": "electronic"
+            }
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2022,
+                11,
+                23
+              ]
+            ]
+          },
+          "assertion": [
+            {
+              "value": "Evolutionary algorithm-based multiobjective reservoir operation policy optimisation under uncertainty",
+              "name": "article_title",
+              "label": "Article Title"
+            },
+            {
+              "value": "Environmental Research Communications",
+              "name": "journal_title",
+              "label": "Journal Title"
+            },
+            {
+              "value": "paper",
+              "name": "article_type",
+              "label": "Article Type"
+            },
+            {
+              "value": "© 2022 The Author(s). Published by IOP Publishing Ltd",
+              "name": "copyright_information",
+              "label": "Copyright Information"
+            },
+            {
+              "value": "2022-09-20",
+              "name": "date_received",
+              "label": "Date Received",
+              "group": {
+                "name": "publication_dates",
+                "label": "Publication dates"
+              }
+            },
+            {
+              "value": "2022-11-10",
+              "name": "date_accepted",
+              "label": "Date Accepted",
+              "group": {
+                "name": "publication_dates",
+                "label": "Publication dates"
+              }
+            },
+            {
+              "value": "2022-11-23",
+              "name": "date_epub",
+              "label": "Online publication date",
+              "group": {
+                "name": "publication_dates",
+                "label": "Publication dates"
+              }
+            }
+          ]
+        },
+        {
+          "indexed": {
+            "date-parts": [
+              [
+                2026,
+                8,
+                18
+              ]
+            ],
+            "date-time": "2026-08-18T00:12:30Z",
+            "timestamp": 1787011950877,
+            "version": "build-2736575974"
+          },
+          "reference-count": 23,
+          "publisher": "IEEE",
+          "content-domain": {
+            "domain": [],
+            "crossmark-restriction": false
+          },
+          "published-print": {
+            "date-parts": [
+              [
+                2014,
+                7
+              ]
+            ]
+          },
+          "DOI": "10.1109/cec.2014.6900470",
+          "type": "proceedings-article",
+          "created": {
+            "date-parts": [
+              [
+                2014,
+                9,
+                29
+              ]
+            ],
+            "date-time": "2014-09-29T17:35:57Z",
+            "timestamp": 1412012157000
+          },
+          "page": "1967-1973",
+          "source": "Crossref",
+          "is-referenced-by-count": 10,
+          "title": [
+            "Multiobjective evolutionary algorithm portfolio: Choosing suitable algorithm for multiobjective optimization problem"
+          ],
+          "prefix": "10.1109",
+          "author": [
+            {
+              "given": "Shiu Yin",
+              "family": "Yuen",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Xin",
+              "family": "Zhang",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            }
+          ],
+          "member": "263",
+          "reference": [
+            {
+              "key": "ref10",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1057/jors.2013.71"
+            },
+            {
+              "key": "ref11",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1109/CEC.2002.1004411"
+            },
+            {
+              "key": "ref12",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1109/CEC.2011.5949906"
+            },
+            {
+              "key": "ref13",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1145/2001576.2001845"
+            },
+            {
+              "key": "ref14",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1145/2463372.2463435"
+            },
+            {
+              "key": "ref15",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1016/j.asoc.2010.04.024"
+            },
+            {
+              "key": "ref16",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1109/4235.996017"
+            },
+            {
+              "key": "ref17",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1109/TEVC.2007.900837"
+            },
+            {
+              "key": "ref18",
+              "author": "zhang",
+              "year": "2008",
+              "journal-title": "Multiobjective optimization Test Instances for the CEC 2009 Special Session and Competition"
+            },
+            {
+              "key": "ref19",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.4018/978-1-59904-498-9.ch003"
+            },
+            {
+              "key": "ref4",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1109/KST.2012.6287740"
+            },
+            {
+              "key": "ref3",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1016/j.eswa.2008.10.076"
+            },
+            {
+              "key": "ref6",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1109/TEVC.2010.2040183"
+            },
+            {
+              "key": "ref5",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1109/TEVC.2008.924428"
+            },
+            {
+              "key": "ref8",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1016/j.swevo.2011.03.001"
+            },
+            {
+              "key": "ref7",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1073/pnas.0610471104"
+            },
+            {
+              "key": "ref2",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1109/CEC.2000.870802"
+            },
+            {
+              "key": "ref9",
+              "first-page": "2106",
+              "article-title": "Multiobjective differential evolution algorithm with opposition-based parameter control",
+              "author": "leung",
+              "year": "2012",
+              "journal-title": "Proceedings of IEEE Congress on Evolutionary Computation"
+            },
+            {
+              "key": "ref1",
+              "first-page": "190",
+              "article-title": "Algorithm portfolio design: theory vs. practice",
+              "author": "gomes",
+              "year": "1997",
+              "journal-title": "Proceedings of Thirteenth Conference on Uncertainty in Artificial Intelligence (UAI-97)"
+            },
+            {
+              "key": "ref20",
+              "first-page": "404",
+              "article-title": "An efficient differential evolution based algorithm for solving multi-objective optimization problems",
+              "volume": "217",
+              "author": "ali",
+              "year": "2012",
+              "journal-title": "European Journal of Operational Research"
+            },
+            {
+              "key": "ref22",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1007/s12293-010-0041-8"
+            },
+            {
+              "key": "ref21",
+              "first-page": "717",
+              "article-title": "MOEA/D: a multiobjective evolutionary algorithm based on decomposition",
+              "volume": "11",
+              "author": "zhang",
+              "year": "0",
+              "journal-title": "IEEE Transactions Evolutionary Computation"
+            },
+            {
+              "key": "ref23",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1007/978-3-540-69432-8"
+            }
+          ],
+          "event": {
+            "name": "2014 IEEE Congress on Evolutionary Computation (CEC)",
+            "location": "Beijing, China",
+            "start": {
+              "date-parts": [
+                [
+                  2014,
+                  7,
+                  6
+                ]
+              ]
+            },
+            "end": {
+              "date-parts": [
+                [
+                  2014,
+                  7,
+                  11
+                ]
+              ]
+            }
+          },
+          "container-title": [
+            "2014 IEEE Congress on Evolutionary Computation (CEC)"
+          ],
+          "link": [
+            {
+              "URL": "http://xplorestaging.ieee.org/ielx7/6880677/6900223/06900470.pdf?arnumber=6900470",
+              "content-type": "unspecified",
+              "content-version": "vor",
+              "intended-application": "similarity-checking"
+            }
+          ],
+          "deposited": {
+            "date-parts": [
+              [
+                2021,
+                12,
+                23
+              ]
+            ],
+            "date-time": "2021-12-23T13:03:49Z",
+            "timestamp": 1640264629000
+          },
+          "score": 30.837698,
+          "resource": {
+            "primary": {
+              "URL": "https://ieeexplore.ieee.org/document/6900470"
+            }
+          },
+          "issued": {
+            "date-parts": [
+              [
+                2014,
+                7
+              ]
+            ]
+          },
+          "references-count": 23,
+          "URL": "https://doi.org/10.1109/cec.2014.6900470",
+          "published": {
+            "date-parts": [
+              [
+                2014,
+                7
+              ]
+            ]
+          }
+        },
+        {
+          "indexed": {
+            "date-parts": [
+              [
+                2024,
+                9,
+                5
+              ]
+            ],
+            "date-time": "2024-09-05T10:11:57Z",
+            "timestamp": 1725531117251
+          },
+          "reference-count": 0,
+          "publisher": "SCITEPRESS - Science and and Technology Publications",
+          "content-domain": {
+            "domain": [],
+            "crossmark-restriction": false
+          },
+          "published-print": {
+            "date-parts": [
+              [
+                2014
+              ]
+            ]
+          },
+          "DOI": "10.5220/0005071802070214",
+          "type": "proceedings-article",
+          "created": {
+            "date-parts": [
+              [
+                2015,
+                1,
+                5
+              ]
+            ],
+            "date-time": "2015-01-05T08:28:34Z",
+            "timestamp": 1420446514000
+          },
+          "page": "207-214",
+          "source": "Crossref",
+          "is-referenced-by-count": 1,
+          "title": [
+            "DMQEA: Dual Multiobjective Quantum-inspired Evolutionary Algorithm"
+          ],
+          "prefix": "10.5220",
+          "author": [
+            {
+              "given": "Si-Jung",
+              "family": "Ryu",
+              "sequence": "first",
+              "affiliation": [
+                {
+                  "name": "Korea Advanced Institute of Science and Technology, Korea, Republic of"
+                }
+              ],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Jong-Hwan",
+              "family": "Kim",
+              "sequence": "first",
+              "affiliation": [
+                {
+                  "name": "Korea Advanced Institute of Science and Technology, Korea, Republic of"
+                }
+              ],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Ki-Baek",
+              "family": "Lee",
+              "sequence": "first",
+              "affiliation": [
+                {
+                  "name": "Kwangwoon University, Korea, Republic of"
+                }
+              ],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            }
+          ],
+          "member": "3171",
+          "event": {
+            "name": "International Conference on Evolutionary Computation Theory and Applications",
+            "start": {
+              "date-parts": [
+                [
+                  2014,
+                  10,
+                  22
+                ]
+              ]
+            },
+            "location": "Rome, Italy",
+            "end": {
+              "date-parts": [
+                [
+                  2014,
+                  10,
+                  24
+                ]
+              ]
+            }
+          },
+          "container-title": [
+            "Proceedings of the International Conference on Evolutionary Computation Theory and Applications"
+          ],
+          "original-title": [
+            "DMQEA: Dual Multiobjective Quantum-inspired Evolutionary Algorithm"
+          ],
+          "deposited": {
+            "date-parts": [
+              [
+                2015,
+                1,
+                5
+              ]
+            ],
+            "date-time": "2015-01-05T08:28:39Z",
+            "timestamp": 1420446519000
+          },
+          "score": 29.257599,
+          "resource": {
+            "primary": {
+              "URL": "http://www.scitepress.org/DigitalLibrary/Link.aspx?doi=10.5220/0005071802070214"
+            }
+          },
+          "subtitle": [
+            ""
+          ],
+          "issued": {
+            "date-parts": [
+              [
+                2014
+              ]
+            ]
+          },
+          "references-count": 0,
+          "URL": "https://doi.org/10.5220/0005071802070214",
+          "published": {
+            "date-parts": [
+              [
+                2014
+              ]
+            ]
+          }
+        }
+      ],
+      "items-per-page": 3,
+      "query": {
+        "start-index": 0,
+        "search-terms": null
+      }
+    }
+  }
+}

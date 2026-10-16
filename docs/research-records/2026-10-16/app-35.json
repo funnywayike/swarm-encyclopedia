@@ -1,0 +1,2300 @@
+{
+  "retrieved": "2026-10-16",
+  "url": "https://api.crossref.org/works?query.bibliographic=materials+inverse+design+evolutionary+algorithm&rows=3&filter=until-pub-date%3A2026-10-16",
+  "response": {
+    "status": "ok",
+    "message-type": "work-list",
+    "message-version": "1.0.0",
+    "message": {
+      "facets": {},
+      "total-results": 6822614,
+      "items": [
+        {
+          "indexed": {
+            "date-parts": [
+              [
+                2026,
+                5,
+                4
+              ]
+            ],
+            "date-time": "2026-05-04T03:41:50Z",
+            "timestamp": 1777866110892,
+            "version": "3.51.4"
+          },
+          "reference-count": 70,
+          "publisher": "Elsevier BV",
+          "license": [
+            {
+              "start": {
+                "date-parts": [
+                  [
+                    2025,
+                    8,
+                    1
+                  ]
+                ],
+                "date-time": "2025-08-01T00:00:00Z",
+                "timestamp": 1754006400000
+              },
+              "content-version": "tdm",
+              "delay-in-days": 0,
+              "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+            },
+            {
+              "start": {
+                "date-parts": [
+                  [
+                    2025,
+                    8,
+                    1
+                  ]
+                ],
+                "date-time": "2025-08-01T00:00:00Z",
+                "timestamp": 1754006400000
+              },
+              "content-version": "tdm",
+              "delay-in-days": 0,
+              "URL": "https://www.elsevier.com/legal/tdmrep-license"
+            },
+            {
+              "start": {
+                "date-parts": [
+                  [
+                    2025,
+                    7,
+                    5
+                  ]
+                ],
+                "date-time": "2025-07-05T00:00:00Z",
+                "timestamp": 1751673600000
+              },
+              "content-version": "vor",
+              "delay-in-days": 0,
+              "URL": "http://creativecommons.org/licenses/by/4.0/"
+            }
+          ],
+          "funder": [
+            {
+              "DOI": "10.13039/100012542",
+              "name": "Sichuan Provincial Science and Technology Support Program",
+              "doi-asserted-by": "publisher",
+              "award": [
+                "24MZGC0058"
+              ],
+              "award-info": [
+                {
+                  "award-number": [
+                    "24MZGC0058"
+                  ]
+                }
+              ],
+              "id": [
+                {
+                  "id": "10.13039/100012542",
+                  "id-type": "DOI",
+                  "asserted-by": "publisher"
+                }
+              ]
+            },
+            {
+              "DOI": "10.13039/501100001809",
+              "name": "National Natural Science Foundation of China",
+              "doi-asserted-by": "publisher",
+              "award": [
+                "12102220"
+              ],
+              "award-info": [
+                {
+                  "award-number": [
+                    "12102220"
+                  ]
+                }
+              ],
+              "id": [
+                {
+                  "id": "10.13039/501100001809",
+                  "id-type": "DOI",
+                  "asserted-by": "publisher"
+                }
+              ]
+            },
+            {
+              "DOI": "10.13039/501100001809",
+              "name": "National Natural Science Foundation of China",
+              "doi-asserted-by": "publisher",
+              "award": [
+                "62406062"
+              ],
+              "award-info": [
+                {
+                  "award-number": [
+                    "62406062"
+                  ]
+                }
+              ],
+              "id": [
+                {
+                  "id": "10.13039/501100001809",
+                  "id-type": "DOI",
+                  "asserted-by": "publisher"
+                }
+              ]
+            },
+            {
+              "DOI": "10.13039/501100001809",
+              "name": "National Natural Science Foundation of China",
+              "doi-asserted-by": "publisher",
+              "award": [
+                "62276055"
+              ],
+              "award-info": [
+                {
+                  "award-number": [
+                    "62276055"
+                  ]
+                }
+              ],
+              "id": [
+                {
+                  "id": "10.13039/501100001809",
+                  "id-type": "DOI",
+                  "asserted-by": "publisher"
+                }
+              ]
+            },
+            {
+              "DOI": "10.13039/501100012226",
+              "name": "Fundamental Research Funds for the Central Universities",
+              "doi-asserted-by": "publisher",
+              "id": [
+                {
+                  "id": "10.13039/501100012226",
+                  "id-type": "DOI",
+                  "asserted-by": "publisher"
+                }
+              ]
+            },
+            {
+              "DOI": "10.13039/501100002338",
+              "name": "Ministry of Education of the People&apos;s Republic of China",
+              "doi-asserted-by": "publisher",
+              "award": [
+                "YJ202374"
+              ],
+              "award-info": [
+                {
+                  "award-number": [
+                    "YJ202374"
+                  ]
+                }
+              ],
+              "id": [
+                {
+                  "id": "10.13039/501100002338",
+                  "id-type": "DOI",
+                  "asserted-by": "publisher"
+                }
+              ]
+            }
+          ],
+          "content-domain": {
+            "domain": [
+              "elsevier.com",
+              "sciencedirect.com"
+            ],
+            "crossmark-restriction": true
+          },
+          "short-container-title": [
+            "Materials &amp; Design"
+          ],
+          "published-print": {
+            "date-parts": [
+              [
+                2025,
+                8
+              ]
+            ]
+          },
+          "DOI": "10.1016/j.matdes.2025.114359",
+          "type": "journal-article",
+          "created": {
+            "date-parts": [
+              [
+                2025,
+                7,
+                15
+              ]
+            ],
+            "date-time": "2025-07-15T12:56:31Z",
+            "timestamp": 1752584191000
+          },
+          "page": "114359",
+          "update-policy": "https://doi.org/10.1016/elsevier_cm_policy",
+          "source": "Crossref",
+          "is-referenced-by-count": 4,
+          "special_numbering": "C",
+          "title": [
+            "A competitive coevolution-based evolutionary algorithm for the parallel inverse design of multiple soft network materials"
+          ],
+          "prefix": "10.1016",
+          "volume": "256",
+          "author": [
+            {
+              "ORCID": "https://orcid.org/0000-0002-8857-9760",
+              "authenticated-orcid": false,
+              "given": "Xiao",
+              "family": "Feng",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Yuchen",
+              "family": "Lai",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Xing",
+              "family": "Yang",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Yongbin",
+              "family": "Yu",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Fangling",
+              "family": "Li",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Xiangxiang",
+              "family": "Wang",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Jiacheng",
+              "family": "Liang",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Jingye",
+              "family": "Cai",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "ORCID": "https://orcid.org/0000-0002-9089-5965",
+              "authenticated-orcid": false,
+              "given": "Shunze",
+              "family": "Cao",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            }
+          ],
+          "member": "78",
+          "reference": [
+            {
+              "key": "10.1016/j.matdes.2025.114359_br0010",
+              "doi-asserted-by": "crossref",
+              "DOI": "10.1038/ncomms7566",
+              "article-title": "Soft network composite materials with deterministic and bio-inspired designs",
+              "volume": "6",
+              "author": "Jang",
+              "year": "2015",
+              "journal-title": "Nat. Commun."
+            },
+            {
+              "key": "10.1016/j.matdes.2025.114359_br0020",
+              "doi-asserted-by": "crossref",
+              "first-page": "179",
+              "DOI": "10.1016/j.jmps.2016.02.012",
+              "article-title": "A nonlinear mechanics model of bio-inspired hierarchical lattice materials consisting of horseshoe microstructures",
+              "volume": "90",
+              "author": "Ma",
+              "year": "2016",
+              "journal-title": "J. Mech. Phys. Solids"
+            },
+            {
+              "issue": "3",
+              "key": "10.1016/j.matdes.2025.114359_br0030",
+              "article-title": "Designing mechanical metamaterials with Kirigami-inspired, hierarchical constructions for giant positive and negative thermal expansion",
+              "volume": "33",
+              "author": "Guo",
+              "year": "2021",
+              "journal-title": "Adv. Mater."
+            },
+            {
+              "key": "10.1016/j.matdes.2025.114359_br0040",
+              "doi-asserted-by": "crossref",
+              "first-page": "324",
+              "DOI": "10.1016/j.mattod.2021.05.007",
+              "article-title": "Design, fabrication and applications of soft network materials",
+              "volume": "49",
+              "author": "Liu",
+              "year": "2021",
+              "journal-title": "Mater. Today"
+            },
+            {
+              "issue": "11",
+              "key": "10.1016/j.matdes.2025.114359_br0050",
+              "doi-asserted-by": "crossref",
+              "DOI": "10.1126/sciadv.abm3785",
+              "article-title": "Highly-integrated, miniaturized, stretchable electronic systems based on stacked multilayer network materials",
+              "volume": "8",
+              "author": "Song",
+              "year": "2022",
+              "journal-title": "Sci. Adv."
+            },
+            {
+              "issue": "48",
+              "key": "10.1016/j.matdes.2025.114359_br0060",
+              "doi-asserted-by": "crossref",
+              "DOI": "10.1002/adma.201905405",
+              "article-title": "2d mechanical metamaterials with widely tunable unusual modes of thermal expansion",
+              "volume": "31",
+              "author": "Ni",
+              "year": "2019",
+              "journal-title": "Adv. Mater."
+            },
+            {
+              "issue": "1",
+              "key": "10.1016/j.matdes.2025.114359_br0070",
+              "doi-asserted-by": "crossref",
+              "DOI": "10.1038/s41467-020-14996-5",
+              "article-title": "Soft three-dimensional network materials with rational bio-mimetic designs",
+              "volume": "11",
+              "author": "Yan",
+              "year": "2020",
+              "journal-title": "Nat. Commun."
+            },
+            {
+              "key": "10.1016/j.matdes.2025.114359_br0080",
+              "doi-asserted-by": "crossref",
+              "DOI": "10.1016/j.compositesb.2024.111284",
+              "article-title": "Bio-inspired design and unusual mechanical properties of 3d horseshoe-shaped soft network metamaterials",
+              "volume": "275",
+              "author": "Zhou",
+              "year": "2024",
+              "journal-title": "Composites, Part B, Eng."
+            },
+            {
+              "key": "10.1016/j.matdes.2025.114359_br0090",
+              "doi-asserted-by": "crossref",
+              "DOI": "10.1016/j.ijmecsci.2024.109781",
+              "article-title": "Nonlinear mechanics of horseshoe microstructure-based lattice design",
+              "volume": "285",
+              "author": "Zhang",
+              "year": "2025",
+              "journal-title": "Int. J. Mech. Sci."
+            },
+            {
+              "key": "10.1016/j.matdes.2025.114359_br0100",
+              "doi-asserted-by": "crossref",
+              "DOI": "10.1016/j.tws.2025.112995",
+              "article-title": "Mechanics of curved chiral beam based three-dimensional metamaterial",
+              "volume": "210",
+              "author": "Li",
+              "year": "2025",
+              "journal-title": "Thin-Walled Struct."
+            },
+            {
+              "key": "10.1016/j.matdes.2025.114359_br0110",
+              "doi-asserted-by": "crossref",
+              "DOI": "10.1016/j.eml.2022.101795",
+              "article-title": "A phenomenological framework for modeling of nonlinear mechanical responses in soft network materials with arbitrarily curved microstructures",
+              "volume": "55",
+              "author": "Cao",
+              "year": "2022",
+              "journal-title": "Extrem. Mech. Lett."
+            },
+            {
+              "issue": "43",
+              "key": "10.1016/j.matdes.2025.114359_br0120",
+              "doi-asserted-by": "crossref",
+              "DOI": "10.1002/adfm.202004226",
+              "article-title": "4d printing auxetic metamaterials with tunable, programmable, and reconfigurable mechanical properties",
+              "volume": "30",
+              "author": "Xin",
+              "year": "2020",
+              "journal-title": "Adv. Funct. Mater."
+            },
+            {
+              "issue": "10",
+              "key": "10.1016/j.matdes.2025.114359_br0130",
+              "doi-asserted-by": "crossref",
+              "first-page": "1689",
+              "DOI": "10.1039/C7LC00289K",
+              "article-title": "Design and application of ‘j-shaped’ stress-strain behavior in stretchable electronics: a review",
+              "volume": "17",
+              "author": "Ma",
+              "year": "2017",
+              "journal-title": "Lab Chip"
+            },
+            {
+              "key": "10.1016/j.matdes.2025.114359_br0140",
+              "doi-asserted-by": "crossref",
+              "DOI": "10.1016/j.eml.2024.102162",
+              "article-title": "Crack-insensitive fracture of elastomer-based soft network materials under monotonic and cyclic loads",
+              "volume": "69",
+              "author": "Liu",
+              "year": "2024",
+              "journal-title": "Extrem. Mech. Lett."
+            },
+            {
+              "issue": "49",
+              "key": "10.1016/j.matdes.2025.114359_br0150",
+              "doi-asserted-by": "crossref",
+              "DOI": "10.1002/adfm.202406789",
+              "article-title": "Metamaterial-based electronic skin with conformality and multisensory integration",
+              "volume": "34",
+              "author": "Li",
+              "year": "2024",
+              "journal-title": "Adv. Funct. Mater."
+            },
+            {
+              "key": "10.1016/j.matdes.2025.114359_br0160",
+              "doi-asserted-by": "crossref",
+              "first-page": "442",
+              "DOI": "10.1016/j.jmbbm.2018.09.005",
+              "article-title": "Optimizing the deformation behavior of stent with nonuniform Poisson's ratio distribution for curved artery",
+              "volume": "88",
+              "author": "Han",
+              "year": "2018",
+              "journal-title": "J. Mech. Behav. Biomed. Mater."
+            },
+            {
+              "issue": "39",
+              "key": "10.1016/j.matdes.2025.114359_br0170",
+              "doi-asserted-by": "crossref",
+              "DOI": "10.1126/sciadv.adi8606",
+              "article-title": "Inversely engineered biomimetic flexible network scaffolds for soft tissue regeneration",
+              "volume": "9",
+              "author": "Cao",
+              "year": "2023",
+              "journal-title": "Sci. Adv."
+            },
+            {
+              "issue": "2",
+              "key": "10.1016/j.matdes.2025.114359_br0180",
+              "doi-asserted-by": "crossref",
+              "DOI": "10.1002/adfm.202412377",
+              "article-title": "Self-powered iontronic capacitive sensing unit with high sensitivity in charge-output mode",
+              "volume": "35",
+              "author": "Liu",
+              "year": "2024",
+              "journal-title": "Adv. Funct. Mater."
+            },
+            {
+              "key": "10.1016/j.matdes.2025.114359_br0190",
+              "doi-asserted-by": "crossref",
+              "DOI": "10.1016/j.ijmecsci.2024.109448",
+              "article-title": "Design criteria for conformal integration of flexible electronics on advanced aircraft surfaces",
+              "volume": "277",
+              "author": "Wang",
+              "year": "2024",
+              "journal-title": "Int. J. Mech. Sci."
+            },
+            {
+              "key": "10.1016/j.matdes.2025.114359_br0200",
+              "doi-asserted-by": "crossref",
+              "DOI": "10.1016/j.ijmecsci.2022.107477",
+              "article-title": "Buckling of circular rings and its applications in thin-film electronics",
+              "volume": "228",
+              "author": "Yan",
+              "year": "2022",
+              "journal-title": "Int. J. Mech. Sci."
+            },
+            {
+              "issue": "7",
+              "key": "10.1016/j.matdes.2025.114359_br0210",
+              "doi-asserted-by": "crossref",
+              "DOI": "10.1115/1.4039815",
+              "article-title": "A computational model of bio-inspired soft network materials for analyzing their anisotropic mechanical properties",
+              "volume": "85",
+              "author": "Zhang",
+              "year": "2018",
+              "journal-title": "J. Appl. Mech."
+            },
+            {
+              "issue": "11",
+              "key": "10.1016/j.matdes.2025.114359_br0220",
+              "doi-asserted-by": "crossref",
+              "DOI": "10.1115/1.4034458",
+              "article-title": "Mechanics of fractal-inspired horseshoe microstructures for applications in stretchable electronics",
+              "volume": "83",
+              "author": "Ma",
+              "year": "2016",
+              "journal-title": "J. Appl. Mech."
+            },
+            {
+              "key": "10.1016/j.matdes.2025.114359_br0230",
+              "doi-asserted-by": "crossref",
+              "DOI": "10.1016/j.jmps.2021.104458",
+              "article-title": "Theoretical and experimental research on anisotropic and nonlinear mechanics of periodic network materials",
+              "volume": "152",
+              "author": "Yin",
+              "year": "2021",
+              "journal-title": "J. Mech. Phys. Solids"
+            },
+            {
+              "issue": "5",
+              "key": "10.1016/j.matdes.2025.114359_br0240",
+              "doi-asserted-by": "crossref",
+              "DOI": "10.1115/1.4039374",
+              "article-title": "A mechanics model of soft network materials with periodic lattices of arbitrarily shaped filamentary microstructures for tunable Poisson's ratios",
+              "volume": "85",
+              "author": "Liu",
+              "year": "2018",
+              "journal-title": "J. Appl. Mech."
+            },
+            {
+              "issue": "4",
+              "key": "10.1016/j.matdes.2025.114359_br0260",
+              "doi-asserted-by": "crossref",
+              "DOI": "10.1103/PhysRevApplied.17.044032",
+              "article-title": "Modeling and design of periodic polygonal lattices constructed from microstructures with varying curvatures",
+              "volume": "17",
+              "author": "Dong",
+              "year": "2022",
+              "journal-title": "Phys. Rev. Appl."
+            },
+            {
+              "issue": "7",
+              "key": "10.1016/j.matdes.2025.114359_br0270",
+              "doi-asserted-by": "crossref",
+              "DOI": "10.1115/1.4054458",
+              "article-title": "Mechanics of three-dimensional soft network materials with a class of bio-inspired designs",
+              "volume": "89",
+              "author": "Chang",
+              "year": "2022",
+              "journal-title": "J. Appl. Mech."
+            },
+            {
+              "key": "10.1016/j.matdes.2025.114359_br0280",
+              "doi-asserted-by": "crossref",
+              "DOI": "10.1016/j.jmps.2020.104210",
+              "article-title": "Mechanics of unusual soft network materials with rotatable structural nodes",
+              "volume": "146",
+              "author": "Liu",
+              "year": "2021",
+              "journal-title": "J. Mech. Phys. Solids"
+            },
+            {
+              "key": "10.1016/j.matdes.2025.114359_br0300",
+              "doi-asserted-by": "crossref",
+              "first-page": "156",
+              "DOI": "10.1016/j.jmps.2014.05.003",
+              "article-title": "Design of materials with prescribed nonlinear properties",
+              "volume": "69",
+              "author": "Wang",
+              "year": "2014",
+              "journal-title": "J. Mech. Phys. Solids"
+            },
+            {
+              "issue": "1",
+              "key": "10.1016/j.matdes.2025.114359_br0310",
+              "doi-asserted-by": "crossref",
+              "first-page": "5765",
+              "DOI": "10.1038/s41467-023-40854-1",
+              "article-title": "Rapid inverse design of metamaterials based on prescribed mechanical behavior through machine learning",
+              "volume": "14",
+              "author": "Ha",
+              "year": "2023",
+              "journal-title": "Nat. Commun."
+            },
+            {
+              "issue": "5",
+              "key": "10.1016/j.matdes.2025.114359_br0320",
+              "doi-asserted-by": "crossref",
+              "DOI": "10.1002/adem.202070018",
+              "article-title": "Accelerating auxetic metamaterial design with deep learning",
+              "volume": "22",
+              "author": "Wilt",
+              "year": "2020",
+              "journal-title": "Adv. Eng. Mater."
+            },
+            {
+              "issue": "1",
+              "key": "10.1016/j.matdes.2025.114359_br0330",
+              "doi-asserted-by": "crossref",
+              "first-page": "247",
+              "DOI": "10.1038/s41524-022-00938-w",
+              "article-title": "Inverse design of truss lattice materials with superior buckling resistance",
+              "volume": "8",
+              "author": "Maurizi",
+              "year": "2022",
+              "journal-title": "npj Comput. Mater."
+            },
+            {
+              "key": "10.1016/j.matdes.2025.114359_br0340",
+              "doi-asserted-by": "crossref",
+              "DOI": "10.1016/j.matdes.2023.112103",
+              "article-title": "Inverse design of 3d cellular materials with physics-guided machine learning",
+              "volume": "232",
+              "author": "Abu-Mualla",
+              "year": "2023",
+              "journal-title": "Mater. Des."
+            },
+            {
+              "key": "10.1016/j.matdes.2025.114359_br0350",
+              "doi-asserted-by": "crossref",
+              "DOI": "10.1016/j.eml.2024.102165",
+              "article-title": "Deep learning-based inverse design of lattice metamaterials for tuning bandgap",
+              "volume": "69",
+              "author": "Zhang",
+              "year": "2024",
+              "journal-title": "Extrem. Mech. Lett."
+            },
+            {
+              "issue": "3",
+              "key": "10.1016/j.matdes.2025.114359_br0360",
+              "doi-asserted-by": "crossref",
+              "first-page": "308",
+              "DOI": "10.2320/matertrans.MT-M2023149",
+              "article-title": "Horseshoe lattice property-structure inverse design based on deep learning",
+              "volume": "65",
+              "author": "Liu",
+              "year": "2024",
+              "journal-title": "Mater. Trans."
+            },
+            {
+              "key": "10.1016/j.matdes.2025.114359_br0370",
+              "doi-asserted-by": "crossref",
+              "DOI": "10.1016/j.tws.2024.112255",
+              "article-title": "Reconfigurable inverse design of phononic crystal sensor based on a deep learning accelerated evolution strategy",
+              "volume": "204",
+              "author": "Zhu",
+              "year": "2024",
+              "journal-title": "Thin-Walled Struct."
+            },
+            {
+              "key": "10.1016/j.matdes.2025.114359_br0380",
+              "doi-asserted-by": "crossref",
+              "DOI": "10.1016/j.matdes.2021.109937",
+              "article-title": "Inverse machine learning framework for optimizing lightweight metamaterials",
+              "volume": "208",
+              "author": "Challapalli",
+              "year": "2021",
+              "journal-title": "Mater. Des."
+            },
+            {
+              "issue": "2",
+              "key": "10.1016/j.matdes.2025.114359_br0390",
+              "doi-asserted-by": "crossref",
+              "first-page": "59",
+              "DOI": "10.1108/00022661111120944",
+              "article-title": "Optimization of geometric parameters of latticed structures using genetic algorithm",
+              "volume": "83",
+              "author": "Hashemian",
+              "year": "2011",
+              "journal-title": "Aircr. Eng. Aerosp. Technol."
+            },
+            {
+              "issue": "17",
+              "key": "10.1016/j.matdes.2025.114359_br0400",
+              "article-title": "Recent advancements in design optimization of lattice-structured materials",
+              "volume": "25",
+              "author": "Almesmari",
+              "year": "2023",
+              "journal-title": "Adv. Eng. Mater."
+            },
+            {
+              "issue": "3",
+              "key": "10.1016/j.matdes.2025.114359_br0410",
+              "doi-asserted-by": "crossref",
+              "first-page": "615",
+              "DOI": "10.1007/s40964-022-00352-0",
+              "article-title": "Evolutionary computation to design additively manufactured optimal heterogeneous lattice structures",
+              "volume": "8",
+              "author": "Després",
+              "year": "2023",
+              "journal-title": "Prog. Addit. Manuf."
+            },
+            {
+              "issue": "18",
+              "key": "10.1016/j.matdes.2025.114359_br0420",
+              "doi-asserted-by": "crossref",
+              "DOI": "10.3390/app10186374",
+              "article-title": "Design and optimization of lattice structures: a review",
+              "volume": "10",
+              "author": "Pan",
+              "year": "2020",
+              "journal-title": "Appl. Sci."
+            },
+            {
+              "key": "10.1016/j.matdes.2025.114359_br0430",
+              "doi-asserted-by": "crossref",
+              "first-page": "11",
+              "DOI": "10.1016/j.cad.2018.12.007",
+              "article-title": "Genetic-algorithm based framework for lattice support structure optimization in additive manufacturing",
+              "volume": "110",
+              "author": "Vaissier",
+              "year": "2019",
+              "journal-title": "Comput. Aided Des."
+            },
+            {
+              "key": "10.1016/j.matdes.2025.114359_br0440",
+              "article-title": "Improved multi-objective hybrid genetic algorithm for shape and size optimization of free-form latticed structures",
+              "volume": "43",
+              "author": "Wang",
+              "year": "2021",
+              "journal-title": "J. Build. Eng."
+            },
+            {
+              "key": "10.1016/j.matdes.2025.114359_br0450",
+              "doi-asserted-by": "crossref",
+              "DOI": "10.1016/j.ijsolstr.2022.111702",
+              "article-title": "Inverse metamaterial design combining genetic algorithms with asymptotic homogenization schemes",
+              "volume": "250",
+              "author": "Dos Reis",
+              "year": "2022",
+              "journal-title": "Int. J. Solids Struct."
+            },
+            {
+              "issue": "4",
+              "key": "10.1016/j.matdes.2025.114359_br0460",
+              "doi-asserted-by": "crossref",
+              "first-page": "719",
+              "DOI": "10.1109/TEVC.2021.3131236",
+              "article-title": "A meta-knowledge transfer-based differential evolution for multitask optimization",
+              "volume": "26",
+              "author": "Li",
+              "year": "2022",
+              "journal-title": "IEEE Trans. Evol. Comput."
+            },
+            {
+              "key": "10.1016/j.matdes.2025.114359_br0470",
+              "doi-asserted-by": "crossref",
+              "DOI": "10.1016/j.compositesb.2023.110623",
+              "article-title": "Mass-producible near-body temperature-triggered 4d printed shape memory biocomposites and their application in biomimetic intestinal stents",
+              "volume": "256",
+              "author": "Lin",
+              "year": "2023",
+              "journal-title": "Composites, Part B, Eng."
+            },
+            {
+              "issue": "51",
+              "key": "10.1016/j.matdes.2025.114359_br0480",
+              "doi-asserted-by": "crossref",
+              "DOI": "10.1002/adfm.201906569",
+              "article-title": "4d-printed biodegradable and remotely controllable shape memory occlusion devices",
+              "volume": "29",
+              "author": "Lin",
+              "year": "2019",
+              "journal-title": "Adv. Funct. Mater."
+            },
+            {
+              "issue": "10",
+              "key": "10.1016/j.matdes.2025.114359_br0500",
+              "doi-asserted-by": "crossref",
+              "first-page": "1689",
+              "DOI": "10.1039/C7LC00289K",
+              "article-title": "Design and application of ‘j-shaped’ stress–strain behavior in stretchable electronics: a review",
+              "volume": "17",
+              "author": "Ma",
+              "year": "2017",
+              "journal-title": "Lab Chip"
+            },
+            {
+              "key": "10.1016/j.matdes.2025.114359_br0510",
+              "doi-asserted-by": "crossref",
+              "first-page": "1",
+              "DOI": "10.1016/j.swevo.2011.11.003",
+              "article-title": "Memetic algorithms and memetic computing optimization: a literature review",
+              "volume": "2",
+              "author": "Neri",
+              "year": "2012",
+              "journal-title": "Swarm Evol. Comput."
+            },
+            {
+              "key": "10.1016/j.matdes.2025.114359_br0520",
+              "doi-asserted-by": "crossref",
+              "first-page": "341",
+              "DOI": "10.1023/A:1008202821328",
+              "article-title": "Differential evolution-a simple and efficient heuristic for global optimization over continuous spaces",
+              "volume": "11",
+              "author": "Storn",
+              "year": "1997",
+              "journal-title": "J. Glob. Optim."
+            },
+            {
+              "key": "10.1016/j.matdes.2025.114359_br0530",
+              "series-title": "2007 IEEE Congress on Evolutionary Computation, Vols 1-10, Proceedings",
+              "article-title": "Multi-objective optimization based on self-adaptive differential evolution algorithm",
+              "author": "Huang",
+              "year": "2007"
+            },
+            {
+              "issue": "8",
+              "key": "10.1016/j.matdes.2025.114359_br0540",
+              "doi-asserted-by": "crossref",
+              "first-page": "5165",
+              "DOI": "10.1109/TCYB.2022.3178132",
+              "article-title": "A multiform optimization framework for constrained multiobjective optimization",
+              "volume": "53",
+              "author": "Jiao",
+              "year": "2023",
+              "journal-title": "IEEE Trans. Cybern."
+            },
+            {
+              "key": "10.1016/j.matdes.2025.114359_br0550",
+              "doi-asserted-by": "crossref",
+              "first-page": "215",
+              "DOI": "10.1016/j.ins.2021.09.007",
+              "article-title": "Cultural transmission based multi-objective evolution strategy for evolutionary multitasking",
+              "volume": "582",
+              "author": "Xu",
+              "year": "2022",
+              "journal-title": "Inf. Sci."
+            },
+            {
+              "issue": "7",
+              "key": "10.1016/j.matdes.2025.114359_br0560",
+              "doi-asserted-by": "crossref",
+              "first-page": "4267",
+              "DOI": "10.1109/TCYB.2023.3270904",
+              "article-title": "Multifactorial evolutionary algorithm based on diffusion gradient descent",
+              "volume": "54",
+              "author": "Liu",
+              "year": "2024",
+              "journal-title": "IEEE Trans. Cybern."
+            },
+            {
+              "issue": "4",
+              "key": "10.1016/j.matdes.2025.114359_br0570",
+              "doi-asserted-by": "crossref",
+              "first-page": "73",
+              "DOI": "10.1109/MCI.2017.2742868",
+              "article-title": "Platemo: a Matlab platform for evolutionary multi-objective optimization",
+              "volume": "12",
+              "author": "Tian",
+              "year": "2017",
+              "journal-title": "IEEE Comput. Intell. Mag."
+            },
+            {
+              "key": "10.1016/j.matdes.2025.114359_br0580",
+              "doi-asserted-by": "crossref",
+              "DOI": "10.1016/j.asoc.2024.111827",
+              "article-title": "A dual-population auxiliary multiobjective coevolutionary algorithm for constrained multiobjective optimization problems",
+              "volume": "163",
+              "author": "He",
+              "year": "2024",
+              "journal-title": "Appl. Soft Comput."
+            },
+            {
+              "key": "10.1016/j.matdes.2025.114359_br0590",
+              "doi-asserted-by": "crossref",
+              "DOI": "10.1016/j.swevo.2023.101460",
+              "article-title": "Knowledge-transfer based genetic programming algorithm for multi-objective dynamic agile Earth observation satellite scheduling problem",
+              "volume": "85",
+              "author": "Wei",
+              "year": "2024",
+              "journal-title": "Swarm Evol. Comput."
+            },
+            {
+              "key": "10.1016/j.matdes.2025.114359_br0600",
+              "doi-asserted-by": "crossref",
+              "first-page": "577",
+              "DOI": "10.1016/j.ins.2021.05.005",
+              "article-title": "At-mfcga: an adaptive transfer-guided multifactorial cellular genetic algorithm for evolutionary multitasking",
+              "volume": "570",
+              "author": "Osaba",
+              "year": "2021",
+              "journal-title": "Inf. Sci."
+            },
+            {
+              "issue": "2",
+              "key": "10.1016/j.matdes.2025.114359_br0610",
+              "doi-asserted-by": "crossref",
+              "first-page": "159",
+              "DOI": "10.1162/106365601750190398",
+              "article-title": "Completely derandomized self-adaptation in evolution strategies",
+              "volume": "9",
+              "author": "Hansen",
+              "year": "2001",
+              "journal-title": "Evol. Comput."
+            },
+            {
+              "key": "10.1016/j.matdes.2025.114359_br0620",
+              "series-title": "Pacific Rim International Conference on Artificial Intelligence",
+              "first-page": "370",
+              "article-title": "Optimization of Takagi-Sugeno-Kang fuzzy model based on differential evolution with Lévy flight",
+              "author": "Feng",
+              "year": "2023"
+            },
+            {
+              "key": "10.1016/j.matdes.2025.114359_br0640",
+              "doi-asserted-by": "crossref",
+              "DOI": "10.1016/j.knosys.2022.110248",
+              "article-title": "Nutcracker optimizer: a novel nature-inspired metaheuristic algorithm for global optimization and engineering design problems",
+              "volume": "262",
+              "author": "Abdel-Basset",
+              "year": "2023",
+              "journal-title": "Knowl.-Based Syst."
+            },
+            {
+              "issue": "4",
+              "key": "10.1016/j.matdes.2025.114359_br0650",
+              "doi-asserted-by": "crossref",
+              "first-page": "644",
+              "DOI": "10.1109/TEVC.2017.2675628",
+              "article-title": "Surrogate-assisted cooperative swarm optimization of high-dimensional expensive problems",
+              "volume": "21",
+              "author": "Sun",
+              "year": "2017",
+              "journal-title": "IEEE Trans. Evol. Comput."
+            },
+            {
+              "key": "10.1016/j.matdes.2025.114359_br0660",
+              "doi-asserted-by": "crossref",
+              "first-page": "294",
+              "DOI": "10.1016/j.asoc.2016.11.047",
+              "article-title": "Optimal foraging algorithm for global optimization",
+              "volume": "51",
+              "author": "Zhu",
+              "year": "2017",
+              "journal-title": "Appl. Soft Comput."
+            },
+            {
+              "key": "10.1016/j.matdes.2025.114359_br0680",
+              "doi-asserted-by": "crossref",
+              "DOI": "10.1016/j.compstruct.2024.118021",
+              "article-title": "Additively-manufactured gradient porous bio-scaffolds: permeability, cytocompatibility and mechanical properties",
+              "volume": "336",
+              "author": "Xu",
+              "year": "2024",
+              "journal-title": "Compos. Struct."
+            },
+            {
+              "key": "10.1016/j.matdes.2025.114359_br0690",
+              "doi-asserted-by": "crossref",
+              "first-page": "36",
+              "DOI": "10.1016/j.compstruct.2015.08.054",
+              "article-title": "Flexible cell culture device made of membrane-type silicone composites for simulating human body",
+              "volume": "134",
+              "author": "Jung",
+              "year": "2015",
+              "journal-title": "Compos. Struct."
+            },
+            {
+              "key": "10.1016/j.matdes.2025.114359_br0700",
+              "doi-asserted-by": "crossref",
+              "DOI": "10.1016/j.compstruct.2023.117236",
+              "article-title": "Osteogenic and osseointegration responses of electrospun-based composites in the light of the bone regeneration problems",
+              "volume": "321",
+              "author": "Pesaran Afsharian",
+              "year": "2023",
+              "journal-title": "Compos. Struct."
+            },
+            {
+              "key": "10.1016/j.matdes.2025.114359_br0710",
+              "doi-asserted-by": "crossref",
+              "DOI": "10.1016/j.carbpol.2024.122064",
+              "article-title": "A nano-composite hyaluronic acid-based hydrogel efficiently antibacterial and scavenges ros for promoting infected diabetic wound healing",
+              "volume": "334",
+              "author": "Zhai",
+              "year": "2024",
+              "journal-title": "Carbohydr. Polym."
+            },
+            {
+              "key": "10.1016/j.matdes.2025.114359_br0720",
+              "first-page": "168",
+              "article-title": "Dynamic photoelectrical regulation of ecm protein and cellular behaviors",
+              "volume": "22",
+              "author": "Wang",
+              "year": "2023",
+              "journal-title": "Bioact. Mater."
+            },
+            {
+              "issue": "24",
+              "key": "10.1016/j.matdes.2025.114359_br0730",
+              "doi-asserted-by": "crossref",
+              "first-page": "28964",
+              "DOI": "10.1021/acsami.3c03793",
+              "article-title": "Three-dimensional bioprinting of a structure-, composition-, and mechanics-graded biomimetic scaffold coated with specific decellularized extracellular matrix to improve the tendon-to-bone healing",
+              "volume": "15",
+              "author": "Zhang",
+              "year": "2023",
+              "journal-title": "ACS Appl. Mater. Interfaces"
+            },
+            {
+              "key": "10.1016/j.matdes.2025.114359_br0740",
+              "doi-asserted-by": "crossref",
+              "DOI": "10.1016/j.compositesb.2021.108679",
+              "article-title": "A woven scaffold with continuous mineral gradients for tendon-to-bone tissue engineering",
+              "volume": "212",
+              "author": "Xie",
+              "year": "2021",
+              "journal-title": "Composites, Part B, Eng."
+            },
+            {
+              "issue": "8",
+              "key": "10.1016/j.matdes.2025.114359_br0750",
+              "first-page": "2491",
+              "article-title": "Biomimetic strategies for tendon/ligament-to-bone interface regeneration",
+              "volume": "6",
+              "author": "Lei",
+              "year": "2021",
+              "journal-title": "Bioact. Mater."
+            }
+          ],
+          "container-title": [
+            "Materials &amp; Design"
+          ],
+          "language": "en",
+          "link": [
+            {
+              "URL": "https://api.elsevier.com/content/article/PII:S0264127525007798?httpAccept=text/xml",
+              "content-type": "text/xml",
+              "content-version": "vor",
+              "intended-application": "text-mining"
+            },
+            {
+              "URL": "https://api.elsevier.com/content/article/PII:S0264127525007798?httpAccept=text/plain",
+              "content-type": "text/plain",
+              "content-version": "vor",
+              "intended-application": "text-mining"
+            }
+          ],
+          "deposited": {
+            "date-parts": [
+              [
+                2026,
+                4,
+                30
+              ]
+            ],
+            "date-time": "2026-04-30T08:02:08Z",
+            "timestamp": 1777536128000
+          },
+          "score": 28.381145,
+          "resource": {
+            "primary": {
+              "URL": "https://linkinghub.elsevier.com/retrieve/pii/S0264127525007798"
+            }
+          },
+          "issued": {
+            "date-parts": [
+              [
+                2025,
+                8
+              ]
+            ]
+          },
+          "references-count": 70,
+          "alternative-id": [
+            "S0264127525007798"
+          ],
+          "URL": "https://doi.org/10.1016/j.matdes.2025.114359",
+          "ISSN": [
+            "0264-1275"
+          ],
+          "issn-type": [
+            {
+              "value": "0264-1275",
+              "type": "print"
+            }
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2025,
+                8
+              ]
+            ]
+          },
+          "assertion": [
+            {
+              "value": "Elsevier",
+              "name": "publisher",
+              "label": "This article is maintained by"
+            },
+            {
+              "value": "A competitive coevolution-based evolutionary algorithm for the parallel inverse design of multiple soft network materials",
+              "name": "articletitle",
+              "label": "Article Title"
+            },
+            {
+              "value": "Materials & Design",
+              "name": "journaltitle",
+              "label": "Journal Title"
+            },
+            {
+              "value": "https://doi.org/10.1016/j.matdes.2025.114359",
+              "name": "articlelink",
+              "label": "CrossRef DOI link to publisher maintained version"
+            },
+            {
+              "value": "article",
+              "name": "content_type",
+              "label": "Content Type"
+            },
+            {
+              "value": "© 2025 The Author(s). Published by Elsevier Ltd.",
+              "name": "copyright",
+              "label": "Copyright"
+            }
+          ],
+          "article-number": "114359"
+        },
+        {
+          "indexed": {
+            "date-parts": [
+              [
+                2022,
+                6,
+                8
+              ]
+            ],
+            "date-time": "2022-06-08T13:14:52Z",
+            "timestamp": 1654694092688
+          },
+          "posted": {
+            "date-parts": [
+              [
+                2020,
+                9,
+                22
+              ]
+            ]
+          },
+          "reference-count": 0,
+          "publisher": "Morressier",
+          "content-domain": {
+            "domain": [],
+            "crossmark-restriction": false
+          },
+          "DOI": "10.26226/morressier.5f5f8e69aa777f8ba5bd6047",
+          "type": "posted-content",
+          "created": {
+            "date-parts": [
+              [
+                2020,
+                9,
+                22
+              ]
+            ],
+            "date-time": "2020-09-22T05:05:56Z",
+            "timestamp": 1600751156000
+          },
+          "source": "Crossref",
+          "is-referenced-by-count": 0,
+          "title": [
+            "Evolutionary Algorithm Guided Design Strategy for Functional Hard-Magnetic Soft Active Materials Printing"
+          ],
+          "prefix": "10.26226",
+          "author": [
+            {
+              "given": "Shuai",
+              "family": "Wu",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            }
+          ],
+          "member": "22980",
+          "deposited": {
+            "date-parts": [
+              [
+                2022,
+                6,
+                8
+              ]
+            ],
+            "date-time": "2022-06-08T12:47:13Z",
+            "timestamp": 1654692433000
+          },
+          "score": 25.491854,
+          "resource": {
+            "primary": {
+              "URL": "https://www.morressier.com/article/5f5f8e69aa777f8ba5bd6047"
+            }
+          },
+          "issued": {
+            "date-parts": [
+              [
+                2020,
+                9,
+                22
+              ]
+            ]
+          },
+          "references-count": 0,
+          "URL": "https://doi.org/10.26226/morressier.5f5f8e69aa777f8ba5bd6047",
+          "published": {
+            "date-parts": [
+              [
+                2020,
+                9,
+                22
+              ]
+            ]
+          },
+          "subtype": "other"
+        },
+        {
+          "indexed": {
+            "date-parts": [
+              [
+                2026,
+                7,
+                28
+              ]
+            ],
+            "date-time": "2026-07-28T04:58:44Z",
+            "timestamp": 1785214724085,
+            "version": "3.55.0"
+          },
+          "reference-count": 65,
+          "publisher": "Elsevier BV",
+          "license": [
+            {
+              "start": {
+                "date-parts": [
+                  [
+                    2026,
+                    5,
+                    1
+                  ]
+                ],
+                "date-time": "2026-05-01T00:00:00Z",
+                "timestamp": 1777593600000
+              },
+              "content-version": "tdm",
+              "delay-in-days": 0,
+              "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+            },
+            {
+              "start": {
+                "date-parts": [
+                  [
+                    2026,
+                    5,
+                    1
+                  ]
+                ],
+                "date-time": "2026-05-01T00:00:00Z",
+                "timestamp": 1777593600000
+              },
+              "content-version": "tdm",
+              "delay-in-days": 0,
+              "URL": "https://www.elsevier.com/legal/tdmrep-license"
+            },
+            {
+              "start": {
+                "date-parts": [
+                  [
+                    2026,
+                    4,
+                    14
+                  ]
+                ],
+                "date-time": "2026-04-14T00:00:00Z",
+                "timestamp": 1776124800000
+              },
+              "content-version": "vor",
+              "delay-in-days": 0,
+              "URL": "http://creativecommons.org/licenses/by-nc/4.0/"
+            }
+          ],
+          "funder": [
+            {
+              "DOI": "10.13039/501100012226",
+              "name": "Fundamental Research Funds for the Central Universities",
+              "doi-asserted-by": "publisher",
+              "award": [
+                "LX6J013"
+              ],
+              "award-info": [
+                {
+                  "award-number": [
+                    "LX6J013"
+                  ]
+                }
+              ],
+              "id": [
+                {
+                  "id": "10.13039/501100012226",
+                  "id-type": "DOI",
+                  "asserted-by": "publisher"
+                }
+              ]
+            },
+            {
+              "DOI": "10.13039/501100001809",
+              "name": "National Natural Science Foundation of China",
+              "doi-asserted-by": "publisher",
+              "award": [
+                "52375122"
+              ],
+              "award-info": [
+                {
+                  "award-number": [
+                    "52375122"
+                  ]
+                }
+              ],
+              "id": [
+                {
+                  "id": "10.13039/501100001809",
+                  "id-type": "DOI",
+                  "asserted-by": "publisher"
+                }
+              ]
+            },
+            {
+              "DOI": "10.13039/501100017596",
+              "name": "Natural Science Basic Research Program of Shaanxi Province",
+              "doi-asserted-by": "publisher",
+              "award": [
+                "2023-JC-JQ-06"
+              ],
+              "award-info": [
+                {
+                  "award-number": [
+                    "2023-JC-JQ-06"
+                  ]
+                }
+              ],
+              "id": [
+                {
+                  "id": "10.13039/501100017596",
+                  "id-type": "DOI",
+                  "asserted-by": "publisher"
+                }
+              ]
+            },
+            {
+              "DOI": "10.13039/501100017596",
+              "name": "Natural Science Basic Research Program of Shaanxi Province",
+              "doi-asserted-by": "publisher",
+              "award": [
+                "2025JC-QYXQ-001"
+              ],
+              "award-info": [
+                {
+                  "award-number": [
+                    "2025JC-QYXQ-001"
+                  ]
+                }
+              ],
+              "id": [
+                {
+                  "id": "10.13039/501100017596",
+                  "id-type": "DOI",
+                  "asserted-by": "publisher"
+                }
+              ]
+            }
+          ],
+          "content-domain": {
+            "domain": [
+              "elsevier.com",
+              "sciencedirect.com"
+            ],
+            "crossmark-restriction": true
+          },
+          "short-container-title": [
+            "Materials &amp; Design"
+          ],
+          "published-print": {
+            "date-parts": [
+              [
+                2026,
+                5
+              ]
+            ]
+          },
+          "DOI": "10.1016/j.matdes.2026.116031",
+          "type": "journal-article",
+          "created": {
+            "date-parts": [
+              [
+                2026,
+                4,
+                15
+              ]
+            ],
+            "date-time": "2026-04-15T23:10:46Z",
+            "timestamp": 1776294646000
+          },
+          "page": "116031",
+          "update-policy": "https://doi.org/10.1016/elsevier_cm_policy",
+          "source": "Crossref",
+          "is-referenced-by-count": 1,
+          "special_numbering": "C",
+          "title": [
+            "Heuristic algorithm-enhanced inverse design of deep-subwavelength hybrid metamaterials for ultra-broadband underwater sound absorption"
+          ],
+          "prefix": "10.1016",
+          "volume": "265",
+          "author": [
+            {
+              "ORCID": "https://orcid.org/0009-0000-3208-6687",
+              "authenticated-orcid": false,
+              "given": "Ming",
+              "family": "Li",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "ORCID": "https://orcid.org/0000-0001-8855-5366",
+              "authenticated-orcid": false,
+              "given": "Fengxian",
+              "family": "Xin",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            }
+          ],
+          "member": "78",
+          "reference": [
+            {
+              "key": "10.1016/j.matdes.2026.116031_b0005",
+              "doi-asserted-by": "crossref",
+              "DOI": "10.1016/j.matdes.2024.112943",
+              "article-title": "Hierarchical-porous acoustic metamaterials: a synergic approach to enhance broadband sound absorption",
+              "volume": "241",
+              "author": "Guo",
+              "year": "2024",
+              "journal-title": "Mater. Des."
+            },
+            {
+              "key": "10.1016/j.matdes.2026.116031_b0010",
+              "doi-asserted-by": "crossref",
+              "DOI": "10.1016/j.oceaneng.2025.121202",
+              "article-title": "A systematic review on mechanism and regulation strategy of marine hydrodynamic noise: advances, challenges, and perspectives",
+              "volume": "330",
+              "author": "Jin",
+              "year": "2025",
+              "journal-title": "Ocean Eng."
+            },
+            {
+              "key": "10.1016/j.matdes.2026.116031_b0015",
+              "doi-asserted-by": "crossref",
+              "DOI": "10.1016/j.marpolbul.2025.118150",
+              "article-title": "Quantifying vessel noise and acoustic habitat loss in marine soundscapes",
+              "volume": "219",
+              "author": "Hendricks",
+              "year": "2025",
+              "journal-title": "Mar. Pollut. Bull."
+            },
+            {
+              "key": "10.1016/j.matdes.2026.116031_b0020",
+              "doi-asserted-by": "crossref",
+              "DOI": "10.1002/advs.72528",
+              "article-title": "Switchable Bidirectional Sound Absorption Via Exceptional Point Modulation in Acoustic Metastructures with Interleaved Resonator Coupling",
+              "volume": "12",
+              "author": "Guo",
+              "year": "2025",
+              "journal-title": "Adv. Sci."
+            },
+            {
+              "key": "10.1016/j.matdes.2026.116031_b0025",
+              "doi-asserted-by": "crossref",
+              "first-page": "151",
+              "DOI": "10.1016/j.mattod.2025.06.029",
+              "article-title": "Emerging acousto-mechanical metamaterials: from physics-guided design to coupling-driven performance",
+              "volume": "89",
+              "author": "Li",
+              "year": "2025",
+              "journal-title": "Mater. Today"
+            },
+            {
+              "key": "10.1016/j.matdes.2026.116031_b0030",
+              "doi-asserted-by": "crossref",
+              "first-page": "298",
+              "DOI": "10.1121/1.381528",
+              "article-title": "One‐dimensional model for acoustic absorption in a viscoelastic medium containing short cylindrical cavities",
+              "volume": "62",
+              "author": "Gaunaurd",
+              "year": "1977",
+              "journal-title": "J. Acoust. Soc. Am."
+            },
+            {
+              "key": "10.1016/j.matdes.2026.116031_b0035",
+              "doi-asserted-by": "crossref",
+              "first-page": "28",
+              "DOI": "10.1016/0041-624X(81)90029-9",
+              "article-title": "Absorption mechanisms for waterborne sound in Alberich anechoic layers",
+              "volume": "19",
+              "author": "Lane",
+              "year": "1981",
+              "journal-title": "Ultrasonics"
+            },
+            {
+              "key": "10.1016/j.matdes.2026.116031_b0040",
+              "doi-asserted-by": "crossref",
+              "DOI": "10.1115/1.4042935",
+              "article-title": "Underwater Acoustic Absorption of Composite Anechoic Layers with Inner Holes",
+              "volume": "141",
+              "author": "Ye",
+              "year": "2019",
+              "journal-title": "J. Vib. Acoust."
+            },
+            {
+              "key": "10.1016/j.matdes.2026.116031_b0045",
+              "doi-asserted-by": "crossref",
+              "first-page": "104",
+              "DOI": "10.1016/j.apacoust.2018.10.005",
+              "article-title": "On the accuracy and optimization application of an axisymmetric simplified model for underwater sound absorption of anechoic coatings",
+              "volume": "145",
+              "author": "Zhong",
+              "year": "2019",
+              "journal-title": "Appl. Acoust."
+            },
+            {
+              "key": "10.1016/j.matdes.2026.116031_b0050",
+              "doi-asserted-by": "crossref",
+              "DOI": "10.1016/j.jsv.2020.115375",
+              "article-title": "Broadband underwater sound absorbing structure with gradient cavity shaped polyurethane composite array supported by carbon fiber honeycomb",
+              "volume": "479",
+              "author": "Wang",
+              "year": "2020",
+              "journal-title": "J. Sound Vib."
+            },
+            {
+              "key": "10.1016/j.matdes.2026.116031_b0055",
+              "doi-asserted-by": "crossref",
+              "DOI": "10.1016/j.jsv.2022.116985",
+              "article-title": "Theory and numerical method for the effects of hydrostatic pressure on sound absorption of underwater acoustic coatings with air cavities",
+              "volume": "533",
+              "author": "Yang",
+              "year": "2022",
+              "journal-title": "J. Sound Vib."
+            },
+            {
+              "key": "10.1016/j.matdes.2026.116031_b0060",
+              "doi-asserted-by": "crossref",
+              "first-page": "54",
+              "DOI": "10.1016/j.jsv.2018.04.008",
+              "article-title": "Influence of hole shape on sound absorption of underwater anechoic layers",
+              "volume": "426",
+              "author": "Ye",
+              "year": "2018",
+              "journal-title": "J. Sound Vib."
+            },
+            {
+              "key": "10.1016/j.matdes.2026.116031_b0065",
+              "doi-asserted-by": "crossref",
+              "DOI": "10.1088/1361-6463/abf373",
+              "article-title": "Inverse design of structured materials for broadband sound absorption",
+              "volume": "54",
+              "author": "Wang",
+              "year": "2021",
+              "journal-title": "J. Phys. D Appl. Phys."
+            },
+            {
+              "key": "10.1016/j.matdes.2026.116031_b0070",
+              "doi-asserted-by": "crossref",
+              "DOI": "10.1063/1.3216805",
+              "article-title": "Locally resonant phononic woodpile: a wide band anomalous underwater acoustic absorbing material",
+              "volume": "95",
+              "author": "Jiang",
+              "year": "2009",
+              "journal-title": "Appl. Phys. Lett."
+            },
+            {
+              "key": "10.1016/j.matdes.2026.116031_b0075",
+              "doi-asserted-by": "crossref",
+              "first-page": "1201",
+              "DOI": "10.1121/1.3621074",
+              "article-title": "Effects of locally resonant modes on underwater sound absorption in viscoelastic materials",
+              "volume": "130",
+              "author": "Wen",
+              "year": "2011",
+              "journal-title": "J. Acoust. Soc. Am."
+            },
+            {
+              "key": "10.1016/j.matdes.2026.116031_b0080",
+              "doi-asserted-by": "crossref",
+              "first-page": "4406",
+              "DOI": "10.1016/j.jsv.2012.05.027",
+              "article-title": "Optimization of locally resonant acoustic metamaterials on underwater sound absorption characteristics",
+              "volume": "331",
+              "author": "Meng",
+              "year": "2012",
+              "journal-title": "J. Sound Vib."
+            },
+            {
+              "key": "10.1016/j.matdes.2026.116031_b0085",
+              "doi-asserted-by": "crossref",
+              "DOI": "10.1016/j.apacoust.2020.107605",
+              "article-title": "Experimental investigation of underwater locally multi-resonant metamaterials under high hydrostatic pressure for low frequency sound absorption",
+              "volume": "172",
+              "author": "Gu",
+              "year": "2021",
+              "journal-title": "Appl. Acoust."
+            },
+            {
+              "key": "10.1016/j.matdes.2026.116031_b0090",
+              "doi-asserted-by": "crossref",
+              "first-page": "10065",
+              "DOI": "10.1007/s13369-022-07442-9",
+              "article-title": "An Optimization strategy of Composite Structure for Underwater Sound-Absorbing via Combining Response Surface Method and Quantum Genetic Algorithm",
+              "volume": "48",
+              "author": "Yan",
+              "year": "2022",
+              "journal-title": "Arab. J. Sci. Eng."
+            },
+            {
+              "key": "10.1016/j.matdes.2026.116031_b0095",
+              "doi-asserted-by": "crossref",
+              "DOI": "10.1063/1.5109826",
+              "article-title": "Broadband near-perfect absorption of low-frequency sound by subwavelength metasurface",
+              "volume": "115",
+              "author": "Long",
+              "year": "2019",
+              "journal-title": "Appl. Phys. Lett."
+            },
+            {
+              "key": "10.1016/j.matdes.2026.116031_b0100",
+              "doi-asserted-by": "crossref",
+              "DOI": "10.1063/5.0004520",
+              "article-title": "Labyrinthine acoustic metastructures enabling broadband sound absorption and ventilation",
+              "volume": "116",
+              "author": "Kumar",
+              "year": "2020",
+              "journal-title": "Appl. Phys. Lett."
+            },
+            {
+              "key": "10.1016/j.matdes.2026.116031_b0105",
+              "doi-asserted-by": "crossref",
+              "DOI": "10.1088/1361-665X/ad8324",
+              "article-title": "Ultra-broadband underwater meta-absorber with gradient impedance-matched composite material",
+              "volume": "33",
+              "author": "Gan",
+              "year": "2024",
+              "journal-title": "Smart Mater. Struct."
+            },
+            {
+              "key": "10.1016/j.matdes.2026.116031_b0110",
+              "doi-asserted-by": "crossref",
+              "DOI": "10.1016/j.oceaneng.2024.119525",
+              "article-title": "Experimental and numerical study on underwater noise control of multigrooved metasurface coating with antifouling and drag reduction potential",
+              "volume": "313",
+              "author": "Fu",
+              "year": "2024",
+              "journal-title": "Ocean Eng."
+            },
+            {
+              "key": "10.1016/j.matdes.2026.116031_b0115",
+              "doi-asserted-by": "crossref",
+              "DOI": "10.1016/j.compstruct.2024.118831",
+              "article-title": "Enhanced sound absorption properties of a semi-open underwater periodic acoustic metamaterial",
+              "volume": "354",
+              "author": "Feng",
+              "year": "2025",
+              "journal-title": "Compos. Struct."
+            },
+            {
+              "key": "10.1016/j.matdes.2026.116031_b0120",
+              "doi-asserted-by": "crossref",
+              "first-page": "230",
+              "DOI": "10.1016/S0022-3093(01)00458-6",
+              "article-title": "Impedance matching and acoustic absorption in granular layers of silica aerogels",
+              "volume": "285",
+              "author": "Forest",
+              "year": "2001",
+              "journal-title": "J. Non Cryst. Solids"
+            },
+            {
+              "key": "10.1016/j.matdes.2026.116031_b0125",
+              "doi-asserted-by": "crossref",
+              "DOI": "10.1016/j.matdes.2020.108870",
+              "article-title": "Acoustic behavior of composites with gradient impedance",
+              "volume": "193",
+              "author": "Feng",
+              "year": "2020",
+              "journal-title": "Mater. Des."
+            },
+            {
+              "key": "10.1016/j.matdes.2026.116031_b0130",
+              "doi-asserted-by": "crossref",
+              "DOI": "10.1088/1757-899X/733/1/012009",
+              "article-title": "Experimental research on sound absorption properties of impedance gradient composite with multiphase",
+              "volume": "733",
+              "author": "Liu",
+              "year": "2020",
+              "journal-title": "IOP Conf. Ser.: Mater. Sci. Eng."
+            },
+            {
+              "key": "10.1016/j.matdes.2026.116031_b0135",
+              "doi-asserted-by": "crossref",
+              "DOI": "10.1016/j.apacoust.2023.109474",
+              "article-title": "Sound absorption behaviors of composite functionally graded acoustic structure under hydrostatic pressure",
+              "volume": "211",
+              "author": "Shi",
+              "year": "2023",
+              "journal-title": "Appl. Acoust."
+            },
+            {
+              "key": "10.1016/j.matdes.2026.116031_b0140",
+              "doi-asserted-by": "crossref",
+              "DOI": "10.1063/5.0028135",
+              "article-title": "Tunable underwater acoustic metamaterials via quasi-Helmholtz resonance: from low-frequency to ultra-broadband",
+              "volume": "118",
+              "author": "Duan",
+              "year": "2021",
+              "journal-title": "Appl. Phys. Lett."
+            },
+            {
+              "key": "10.1016/j.matdes.2026.116031_b0145",
+              "doi-asserted-by": "crossref",
+              "DOI": "10.1063/5.0046582",
+              "article-title": "Inverse design of a Helmholtz resonator based low-frequency acoustic absorber using deep neural network",
+              "volume": "129",
+              "author": "Mahesh",
+              "year": "2021",
+              "journal-title": "J. Appl. Phys."
+            },
+            {
+              "key": "10.1016/j.matdes.2026.116031_b0150",
+              "doi-asserted-by": "crossref",
+              "DOI": "10.35848/1882-0786/ac6b14",
+              "article-title": "A foldable underwater acoustic meta-structure with broadband sound absorption at low frequency",
+              "volume": "15",
+              "author": "Ke",
+              "year": "2022",
+              "journal-title": "Appl. Phys Express"
+            },
+            {
+              "key": "10.1016/j.matdes.2026.116031_b0155",
+              "doi-asserted-by": "crossref",
+              "DOI": "10.1016/j.physleta.2022.128361",
+              "article-title": "Low-frequency underwater sound absorption of hybrid metamaterials using dissipative slow-sound",
+              "volume": "450",
+              "author": "Zhou",
+              "year": "2022",
+              "journal-title": "Phys. Lett. A"
+            },
+            {
+              "key": "10.1016/j.matdes.2026.116031_b0160",
+              "doi-asserted-by": "crossref",
+              "DOI": "10.1063/5.0131820",
+              "article-title": "Deep subwavelength hybrid metamaterial for low-frequency underwater sound absorption by quasi-Helmholtz resonance",
+              "volume": "13",
+              "author": "Duan",
+              "year": "2023",
+              "journal-title": "AIP Adv."
+            },
+            {
+              "key": "10.1016/j.matdes.2026.116031_b0165",
+              "doi-asserted-by": "crossref",
+              "DOI": "10.1016/j.jobe.2024.110935",
+              "article-title": "A novel butterfly double-panel metastructure filled with porous materials for broadband low-frequency sound absorption",
+              "volume": "97",
+              "author": "Kong",
+              "year": "2024",
+              "journal-title": "Journal of Building Engineering"
+            },
+            {
+              "key": "10.1016/j.matdes.2026.116031_b0170",
+              "doi-asserted-by": "crossref",
+              "DOI": "10.1016/j.apacoust.2025.110894",
+              "article-title": "Structural design of low-frequency broadband adaptive nonlinear underwater acoustic absorption metasurface",
+              "volume": "240",
+              "author": "Wang",
+              "year": "2025",
+              "journal-title": "Appl. Acoust."
+            },
+            {
+              "key": "10.1016/j.matdes.2026.116031_b0175",
+              "doi-asserted-by": "crossref",
+              "DOI": "10.1016/j.matdes.2025.113971",
+              "article-title": "Optimized ultrathin hybrid sound absorption metasurfaces with preserved hydrostatic pressure-resistant",
+              "volume": "253",
+              "author": "Feng",
+              "year": "2025",
+              "journal-title": "Mater. Des."
+            },
+            {
+              "key": "10.1016/j.matdes.2026.116031_b0180",
+              "doi-asserted-by": "crossref",
+              "DOI": "10.1103/PhysRevApplied.18.034054",
+              "article-title": "Ultrathin Underwater Sound-Absorbing Metasurface by Coupling Local Resonance with Cavity Resonance",
+              "volume": "18",
+              "author": "Feng",
+              "year": "2022",
+              "journal-title": "Phys. Rev. Appl"
+            },
+            {
+              "key": "10.1016/j.matdes.2026.116031_b0185",
+              "doi-asserted-by": "crossref",
+              "DOI": "10.1016/j.ijmecsci.2024.109645",
+              "article-title": "Hybrid honeycomb structure for enhanced broadband underwater sound absorption",
+              "volume": "283",
+              "author": "Cai",
+              "year": "2024",
+              "journal-title": "Int. J. Mech. Sci."
+            },
+            {
+              "key": "10.1016/j.matdes.2026.116031_b0190",
+              "doi-asserted-by": "crossref",
+              "first-page": "265",
+              "DOI": "10.1002/msd2.12053",
+              "article-title": "Grating‐like anechoic layer for broadband underwater sound absorption",
+              "volume": "2",
+              "author": "Yu",
+              "year": "2022",
+              "journal-title": "International Journal of Mechanical System Dynamics"
+            },
+            {
+              "key": "10.1016/j.matdes.2026.116031_b0195",
+              "doi-asserted-by": "crossref",
+              "DOI": "10.1016/j.tws.2025.113603",
+              "article-title": "Pressure-adaptive ultra-thin hybrid metamaterials for broadband low-frequency underwater sound absorption",
+              "volume": "216",
+              "author": "Cai",
+              "year": "2025",
+              "journal-title": "Thin-Walled Struct."
+            },
+            {
+              "key": "10.1016/j.matdes.2026.116031_b0200",
+              "doi-asserted-by": "crossref",
+              "DOI": "10.1016/j.ijmecsci.2025.109917",
+              "article-title": "Nonlocal metagrating for low-frequency and broadband underwater sound absorption",
+              "volume": "286",
+              "author": "Fang",
+              "year": "2025",
+              "journal-title": "Int. J. Mech. Sci."
+            },
+            {
+              "key": "10.1016/j.matdes.2026.116031_b0205",
+              "doi-asserted-by": "crossref",
+              "DOI": "10.1016/j.compstruct.2023.117459",
+              "article-title": "Superior underwater sound-absorbing metasurface based on wave mode conversion and cavity-plate coupling resonance",
+              "volume": "323",
+              "author": "Gu",
+              "year": "2023",
+              "journal-title": "Compos. Struct."
+            },
+            {
+              "key": "10.1016/j.matdes.2026.116031_b0210",
+              "doi-asserted-by": "crossref",
+              "DOI": "10.1016/j.apm.2025.116265",
+              "article-title": "Inverse design of hydroacoustic absorbing metastructures via incorporating multi-material topology optimization into semi-analytical method",
+              "volume": "148",
+              "author": "Xu",
+              "year": "2025",
+              "journal-title": "App. Math. Model."
+            },
+            {
+              "key": "10.1016/j.matdes.2026.116031_b0215",
+              "doi-asserted-by": "crossref",
+              "DOI": "10.1016/j.cossms.2025.101218",
+              "article-title": "Machine learning for inverse design of acoustic and elastic metamaterials",
+              "volume": "35",
+              "author": "Donda",
+              "year": "2025",
+              "journal-title": "Curr. Opin. Solid State Mater. Sci."
+            },
+            {
+              "key": "10.1016/j.matdes.2026.116031_b0220",
+              "doi-asserted-by": "crossref",
+              "DOI": "10.1103/PhysRevApplied.18.044032",
+              "article-title": "Inverse Design of an Ultrasparse Dissipated-Sound Metacage by using a Genetic Algorithm",
+              "volume": "18",
+              "author": "Long",
+              "year": "2022",
+              "journal-title": "Phys. Rev. Appl"
+            },
+            {
+              "key": "10.1016/j.matdes.2026.116031_b0225",
+              "doi-asserted-by": "crossref",
+              "DOI": "10.1103/PhysRevApplied.20.034009",
+              "article-title": "Frequency-Multiplexed Transmitted-Wave Manipulation with Multifunctional Acoustic Metasurfaces",
+              "volume": "20",
+              "author": "Cheng",
+              "year": "2023",
+              "journal-title": "Phys. Rev. Appl"
+            },
+            {
+              "key": "10.1016/j.matdes.2026.116031_b0230",
+              "doi-asserted-by": "crossref",
+              "DOI": "10.1016/j.apacoust.2023.109247",
+              "article-title": "Inverse design of broadband acoustic metasurfaces for reflective wavefront modulation through the topology optimization method",
+              "volume": "204",
+              "author": "Li",
+              "year": "2023",
+              "journal-title": "Appl. Acoust."
+            },
+            {
+              "key": "10.1016/j.matdes.2026.116031_b0235",
+              "doi-asserted-by": "crossref",
+              "DOI": "10.35848/1347-4065/ad5b9f",
+              "article-title": "A study of acoustic focusing based on the taboo genetic algorithm",
+              "volume": "63",
+              "author": "Gong",
+              "year": "2024",
+              "journal-title": "Jpn. J. Appl. Phys."
+            },
+            {
+              "key": "10.1016/j.matdes.2026.116031_b0240",
+              "doi-asserted-by": "crossref",
+              "DOI": "10.1016/j.rinp.2024.107725",
+              "article-title": "Spectrum-driven acoustic metasurface for broadband noise control",
+              "volume": "61",
+              "author": "Lin",
+              "year": "2024",
+              "journal-title": "Results Phys."
+            },
+            {
+              "key": "10.1016/j.matdes.2026.116031_b0245",
+              "doi-asserted-by": "crossref",
+              "DOI": "10.1016/j.jsv.2024.118498",
+              "article-title": "Optimal design of subwavelength broadband acoustic porous composite metasurface based genetic algorithm",
+              "volume": "586",
+              "author": "Yuan",
+              "year": "2024",
+              "journal-title": "J. Sound Vib."
+            },
+            {
+              "key": "10.1016/j.matdes.2026.116031_b0250",
+              "doi-asserted-by": "crossref",
+              "DOI": "10.1016/j.jsv.2024.118330",
+              "article-title": "Broadband low-frequency sound absorption via Helmholtz resonators with porous material lining",
+              "volume": "578",
+              "author": "Zhang",
+              "year": "2024",
+              "journal-title": "J. Sound Vib."
+            },
+            {
+              "key": "10.1016/j.matdes.2026.116031_b0255",
+              "doi-asserted-by": "crossref",
+              "DOI": "10.1016/j.apacoust.2021.108153",
+              "article-title": "Inverse design and experimental verification of an acoustic sink based on machine learning",
+              "volume": "180",
+              "author": "Gao",
+              "year": "2021",
+              "journal-title": "Appl. Acoust."
+            },
+            {
+              "key": "10.1016/j.matdes.2026.116031_b0260",
+              "doi-asserted-by": "crossref",
+              "DOI": "10.1016/j.rineng.2025.104163",
+              "article-title": "On-demand prediction of low-frequency average sound absorption coefficient of underwater coating using machine learning",
+              "volume": "25",
+              "author": "Gao",
+              "year": "2025",
+              "journal-title": "Results Eng."
+            },
+            {
+              "key": "10.1016/j.matdes.2026.116031_b0265",
+              "doi-asserted-by": "crossref",
+              "DOI": "10.1063/5.0242558",
+              "article-title": "Autoencoder artificial neural network for accelerated forward and inverse design of locally resonant acoustic metamaterials",
+              "volume": "137",
+              "author": "Jiang",
+              "year": "2025",
+              "journal-title": "J. Appl. Phys."
+            },
+            {
+              "key": "10.1016/j.matdes.2026.116031_b0270",
+              "doi-asserted-by": "crossref",
+              "DOI": "10.1063/5.0246286",
+              "article-title": "Research on the acoustic performance of MPP and inverse design",
+              "volume": "137",
+              "author": "Shi",
+              "year": "2025",
+              "journal-title": "J. Appl. Phys."
+            },
+            {
+              "key": "10.1016/j.matdes.2026.116031_b0275",
+              "doi-asserted-by": "crossref",
+              "first-page": "1946",
+              "DOI": "10.1038/s41598-025-86077-w",
+              "article-title": "Reverse design of broadband sound absorption structure based on deep learning method",
+              "volume": "15",
+              "author": "Zhou",
+              "year": "2025",
+              "journal-title": "Sci. Rep."
+            },
+            {
+              "key": "10.1016/j.matdes.2026.116031_b0280",
+              "doi-asserted-by": "crossref",
+              "DOI": "10.1016/j.jsv.2025.119469",
+              "article-title": "Achieving precise prediction of sound absorption performance for composite acoustic metamaterials utilizing machine learning",
+              "volume": "620",
+              "author": "Gao",
+              "year": "2026",
+              "journal-title": "J. Sound Vib."
+            },
+            {
+              "key": "10.1016/j.matdes.2026.116031_b0285",
+              "doi-asserted-by": "crossref",
+              "DOI": "10.1016/j.ymssp.2025.113670",
+              "article-title": "On demand design of two-dimensional phononic crystal bandgap based on machine learning and multi-objective topology optimization",
+              "volume": "242",
+              "author": "Gao",
+              "year": "2026",
+              "journal-title": "Mech. Syst. Sig. Process."
+            },
+            {
+              "key": "10.1016/j.matdes.2026.116031_b0290",
+              "doi-asserted-by": "crossref",
+              "DOI": "10.1016/j.ymssp.2024.111228",
+              "article-title": "Accelerated design of low-frequency broadband sound absorber with deep learning approach",
+              "volume": "211",
+              "author": "Xiao",
+              "year": "2024",
+              "journal-title": "Mech. Syst. Sig. Process."
+            },
+            {
+              "key": "10.1016/j.matdes.2026.116031_b0295",
+              "doi-asserted-by": "crossref",
+              "DOI": "10.1103/PhysRevApplied.23.024044",
+              "article-title": "Transformer-based inverse-design model for optimal multilayer microperforated panels",
+              "volume": "23",
+              "author": "Chen",
+              "year": "2025",
+              "journal-title": "Phys. Rev. Appl"
+            },
+            {
+              "key": "10.1016/j.matdes.2026.116031_b0300",
+              "doi-asserted-by": "crossref",
+              "DOI": "10.1016/j.ijmecsci.2025.109920",
+              "article-title": "Accelerated design of acoustic-mechanical multifunctional metamaterials via neural network",
+              "volume": "287",
+              "author": "Feng",
+              "year": "2025",
+              "journal-title": "Int. J. Mech. Sci."
+            },
+            {
+              "key": "10.1016/j.matdes.2026.116031_b0305",
+              "doi-asserted-by": "crossref",
+              "DOI": "10.1016/j.compositesb.2025.112643",
+              "article-title": "Demand-driven inverse design and optimization for ultra-thin broadband sound-absorbing metamaterials based on metaheuristic-enhanced autoencoder network",
+              "volume": "304",
+              "author": "Liang",
+              "year": "2025",
+              "journal-title": "Compos. B Eng."
+            },
+            {
+              "key": "10.1016/j.matdes.2026.116031_b0310",
+              "doi-asserted-by": "crossref",
+              "first-page": "2861",
+              "DOI": "10.1121/1.423870",
+              "article-title": "Potential of microperforated panel absorber",
+              "volume": "104",
+              "author": "Maa",
+              "year": "1998",
+              "journal-title": "J. Acoust. Soc. Am."
+            },
+            {
+              "key": "10.1016/j.matdes.2026.116031_b0315",
+              "doi-asserted-by": "crossref",
+              "DOI": "10.1088/1361-6439/ac0517",
+              "article-title": "Underwater anechoic layer with parallel metallic plate insertions: theoretical modelling",
+              "volume": "31",
+              "author": "Yu",
+              "year": "2021",
+              "journal-title": "J. Micromech. Microeng."
+            },
+            {
+              "key": "10.1016/j.matdes.2026.116031_b0320",
+              "doi-asserted-by": "crossref",
+              "DOI": "10.1016/j.apacoust.2025.111137",
+              "article-title": "Ceramic lattice-reinforced cavity resonance structure integrating plate–cavity coupling for pressure-resistant broadband underwater sound absorption",
+              "volume": "243",
+              "author": "Liu",
+              "year": "2026",
+              "journal-title": "Appl. Acoust."
+            },
+            {
+              "key": "10.1016/j.matdes.2026.116031_b0325",
+              "doi-asserted-by": "crossref",
+              "DOI": "10.1016/j.ijmecsci.2024.109137",
+              "article-title": "A novel broadband underwater sound absorption metastructure with multi-oscillators",
+              "volume": "271",
+              "author": "Zou",
+              "year": "2024",
+              "journal-title": "Int. J. Mech. Sci."
+            }
+          ],
+          "container-title": [
+            "Materials &amp; Design"
+          ],
+          "language": "en",
+          "link": [
+            {
+              "URL": "https://api.elsevier.com/content/article/PII:S0264127526006040?httpAccept=text/xml",
+              "content-type": "text/xml",
+              "content-version": "vor",
+              "intended-application": "text-mining"
+            },
+            {
+              "URL": "https://api.elsevier.com/content/article/PII:S0264127526006040?httpAccept=text/plain",
+              "content-type": "text/plain",
+              "content-version": "vor",
+              "intended-application": "text-mining"
+            }
+          ],
+          "deposited": {
+            "date-parts": [
+              [
+                2026,
+                6,
+                2
+              ]
+            ],
+            "date-time": "2026-06-02T15:39:57Z",
+            "timestamp": 1780414797000
+          },
+          "score": 25.04301,
+          "resource": {
+            "primary": {
+              "URL": "https://linkinghub.elsevier.com/retrieve/pii/S0264127526006040"
+            }
+          },
+          "issued": {
+            "date-parts": [
+              [
+                2026,
+                5
+              ]
+            ]
+          },
+          "references-count": 65,
+          "alternative-id": [
+            "S0264127526006040"
+          ],
+          "URL": "https://doi.org/10.1016/j.matdes.2026.116031",
+          "ISSN": [
+            "0264-1275"
+          ],
+          "issn-type": [
+            {
+              "value": "0264-1275",
+              "type": "print"
+            }
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2026,
+                5
+              ]
+            ]
+          },
+          "assertion": [
+            {
+              "value": "Elsevier",
+              "name": "publisher",
+              "label": "This article is maintained by"
+            },
+            {
+              "value": "Heuristic algorithm-enhanced inverse design of deep-subwavelength hybrid metamaterials for ultra-broadband underwater sound absorption",
+              "name": "articletitle",
+              "label": "Article Title"
+            },
+            {
+              "value": "Materials & Design",
+              "name": "journaltitle",
+              "label": "Journal Title"
+            },
+            {
+              "value": "https://doi.org/10.1016/j.matdes.2026.116031",
+              "name": "articlelink",
+              "label": "CrossRef DOI link to publisher maintained version"
+            },
+            {
+              "value": "article",
+              "name": "content_type",
+              "label": "Content Type"
+            },
+            {
+              "value": "© 2026 The Authors. Published by Elsevier Ltd.",
+              "name": "copyright",
+              "label": "Copyright"
+            }
+          ],
+          "article-number": "116031"
+        }
+      ],
+      "items-per-page": 3,
+      "query": {
+        "start-index": 0,
+        "search-terms": null
+      }
+    }
+  }
+}

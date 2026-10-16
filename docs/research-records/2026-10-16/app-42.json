@@ -1,0 +1,791 @@
+{
+  "retrieved": "2026-10-16",
+  "url": "https://api.crossref.org/works?query.bibliographic=multiple+sequence+alignment+evolutionary+algorithm+review&rows=3&filter=until-pub-date%3A2026-10-16",
+  "response": {
+    "status": "ok",
+    "message-type": "work-list",
+    "message-version": "1.0.0",
+    "message": {
+      "facets": {},
+      "total-results": 9512487,
+      "items": [
+        {
+          "indexed": {
+            "date-parts": [
+              [
+                2025,
+                6,
+                19
+              ]
+            ],
+            "date-time": "2025-06-19T04:43:53Z",
+            "timestamp": 1750308233163,
+            "version": "3.41.0"
+          },
+          "publisher-location": "New York, NY, USA",
+          "reference-count": 3,
+          "publisher": "ACM",
+          "license": [
+            {
+              "start": {
+                "date-parts": [
+                  [
+                    2005,
+                    6,
+                    25
+                  ]
+                ],
+                "date-time": "2005-06-25T00:00:00Z",
+                "timestamp": 1119657600000
+              },
+              "content-version": "vor",
+              "delay-in-days": 0,
+              "URL": "https://www.acm.org/publications/policies/copyright_policy#Background"
+            }
+          ],
+          "content-domain": {
+            "domain": [
+              "dl.acm.org"
+            ],
+            "crossmark-restriction": true
+          },
+          "published-print": {
+            "date-parts": [
+              [
+                2005,
+                6,
+                25
+              ]
+            ]
+          },
+          "DOI": "10.1145/1068009.1068088",
+          "type": "proceedings-article",
+          "created": {
+            "date-parts": [
+              [
+                2005,
+                8,
+                3
+              ]
+            ],
+            "date-time": "2005-08-03T08:31:47Z",
+            "timestamp": 1123057907000
+          },
+          "page": "477-478",
+          "update-policy": "https://doi.org/10.1145/crossmark-policy",
+          "source": "Crossref",
+          "is-referenced-by-count": 6,
+          "title": [
+            "A multiple objective evolutionary algorithm for multiple sequence alignment"
+          ],
+          "prefix": "10.1145",
+          "author": [
+            {
+              "given": "Pasut",
+              "family": "Seeluangsawat",
+              "sequence": "first",
+              "affiliation": [
+                {
+                  "name": "Chulalongkorn University, Bangkok, Thailand"
+                }
+              ],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Prabhas",
+              "family": "Chongstitvatana",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "Chulalongkorn University, Bangkok, Thailand"
+                }
+              ],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            }
+          ],
+          "member": "320",
+          "published-online": {
+            "date-parts": [
+              [
+                2005,
+                6,
+                25
+              ]
+            ]
+          },
+          "reference": [
+            {
+              "key": "e_1_3_2_1_1_1",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1109/CEC.2003.1299591"
+            },
+            {
+              "key": "e_1_3_2_1_2_1",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1093/nar/25.24.4876"
+            },
+            {
+              "key": "e_1_3_2_1_3_1",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1093/bioinformatics/15.1.87"
+            }
+          ],
+          "event": {
+            "name": "GECCO05: Genetic and Evolutionary Computation Conference",
+            "sponsor": [
+              "SIGEVO ACM Special Interest Group on Genetic and Evolutionary Computation",
+              "ACM Association for Computing Machinery"
+            ],
+            "location": "Washington DC USA",
+            "acronym": "GECCO05"
+          },
+          "container-title": [
+            "Proceedings of the 7th annual conference on Genetic and evolutionary computation"
+          ],
+          "link": [
+            {
+              "URL": "https://dl.acm.org/doi/10.1145/1068009.1068088",
+              "content-type": "unspecified",
+              "content-version": "vor",
+              "intended-application": "text-mining"
+            },
+            {
+              "URL": "https://dl.acm.org/doi/pdf/10.1145/1068009.1068088",
+              "content-type": "unspecified",
+              "content-version": "vor",
+              "intended-application": "similarity-checking"
+            }
+          ],
+          "deposited": {
+            "date-parts": [
+              [
+                2025,
+                6,
+                18
+              ]
+            ],
+            "date-time": "2025-06-18T16:31:41Z",
+            "timestamp": 1750264301000
+          },
+          "score": 37.749996,
+          "resource": {
+            "primary": {
+              "URL": "https://dl.acm.org/doi/10.1145/1068009.1068088"
+            }
+          },
+          "issued": {
+            "date-parts": [
+              [
+                2005,
+                6,
+                25
+              ]
+            ]
+          },
+          "references-count": 3,
+          "alternative-id": [
+            "10.1145/1068009.1068088",
+            "10.1145/1068009"
+          ],
+          "URL": "https://doi.org/10.1145/1068009.1068088",
+          "published": {
+            "date-parts": [
+              [
+                2005,
+                6,
+                25
+              ]
+            ]
+          },
+          "assertion": [
+            {
+              "value": "2005-06-25",
+              "order": 2,
+              "name": "published",
+              "label": "Published",
+              "group": {
+                "name": "publication_history",
+                "label": "Publication History"
+              }
+            }
+          ]
+        },
+        {
+          "indexed": {
+            "date-parts": [
+              [
+                2025,
+                10,
+                8
+              ]
+            ],
+            "date-time": "2025-10-08T16:16:52Z",
+            "timestamp": 1759940212581,
+            "version": "3.28.0"
+          },
+          "reference-count": 17,
+          "publisher": "IEEE",
+          "content-domain": {
+            "domain": [],
+            "crossmark-restriction": false
+          },
+          "published-print": {
+            "date-parts": [
+              [
+                2009
+              ]
+            ]
+          },
+          "DOI": "10.1109/icnc.2009.68",
+          "type": "proceedings-article",
+          "created": {
+            "date-parts": [
+              [
+                2010,
+                1,
+                7
+              ]
+            ],
+            "date-time": "2010-01-07T16:47:40Z",
+            "timestamp": 1262882860000
+          },
+          "page": "534-537",
+          "source": "Crossref",
+          "is-referenced-by-count": 1,
+          "title": [
+            "Quantum-Inspired Evolutionary Algorithm for RNA Multiple Sequence-Structure Alignment"
+          ],
+          "prefix": "10.1109",
+          "author": [
+            {
+              "given": "Zhao",
+              "family": "YingJie",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Wang",
+              "family": "ZhengZhi",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            }
+          ],
+          "member": "263",
+          "reference": [
+            {
+              "key": "ref10",
+              "article-title": "Application of Evolutionary Algorithms for Multiple Sequence Alignment",
+              "author": "choudry",
+              "year": "1999",
+              "journal-title": "Stanford University"
+            },
+            {
+              "key": "ref11",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1093/bioinformatics/btm525"
+            },
+            {
+              "key": "ref12",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1093/nar/24.8.1515"
+            },
+            {
+              "key": "ref13",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1093/nar/25.22.4570"
+            },
+            {
+              "key": "ref14",
+              "doi-asserted-by": "crossref",
+              "first-page": "580",
+              "DOI": "10.1109/TEVC.2002.804320",
+              "article-title": "Quantum-inspired evolutionary algorithm for a class of combinatorial optimization",
+              "volume": "6",
+              "author": "han",
+              "year": "0",
+              "journal-title": "IEEE Trans Evol Comput"
+            },
+            {
+              "key": "ref15",
+              "doi-asserted-by": "crossref",
+              "first-page": "62",
+              "DOI": "10.1007/s11767-003-0089-4",
+              "article-title": "Research of quantum genetic algorithm and its application in blind source separation",
+              "volume": "20",
+              "author": "junan",
+              "year": "2003",
+              "journal-title": "Journal of Electronics (China)"
+            },
+            {
+              "key": "ref16",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1093/nar/gki541"
+            },
+            {
+              "key": "ref17",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1073/pnas.0409169102"
+            },
+            {
+              "key": "ref4",
+              "first-page": "406",
+              "article-title": "The neighbor-joining method: A new method for reconstructing phylogenetic trees",
+              "volume": "4",
+              "author": "saitou",
+              "year": "1987",
+              "journal-title": "Mol Bioi Evol"
+            },
+            {
+              "key": "ref3",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1517/14622416.3.1.131"
+            },
+            {
+              "key": "ref6",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1261/rna.2144205"
+            },
+            {
+              "key": "ref5",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1109/TCBB.2005.57"
+            },
+            {
+              "key": "ref8",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1093/nar/22.22.4673"
+            },
+            {
+              "key": "ref7",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1016/S0022-2836(02)00308-X"
+            },
+            {
+              "key": "ref2",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1093/nar/27.13.2682"
+            },
+            {
+              "key": "ref1",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1017/CBO9780511574931"
+            },
+            {
+              "key": "ref9",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1007/BF02603120"
+            }
+          ],
+          "event": {
+            "name": "2009 Fifth International Conference on Natural Computation",
+            "start": {
+              "date-parts": [
+                [
+                  2009,
+                  8,
+                  14
+                ]
+              ]
+            },
+            "location": "Tianjian, China",
+            "end": {
+              "date-parts": [
+                [
+                  2009,
+                  8,
+                  16
+                ]
+              ]
+            }
+          },
+          "container-title": [
+            "2009 Fifth International Conference on Natural Computation"
+          ],
+          "link": [
+            {
+              "URL": "http://xplorestaging.ieee.org/ielx5/5362492/5362549/05362772.pdf?arnumber=5362772",
+              "content-type": "unspecified",
+              "content-version": "vor",
+              "intended-application": "similarity-checking"
+            }
+          ],
+          "deposited": {
+            "date-parts": [
+              [
+                2017,
+                6,
+                19
+              ]
+            ],
+            "date-time": "2017-06-19T03:30:17Z",
+            "timestamp": 1497843017000
+          },
+          "score": 35.28953,
+          "resource": {
+            "primary": {
+              "URL": "http://ieeexplore.ieee.org/document/5362772/"
+            }
+          },
+          "issued": {
+            "date-parts": [
+              [
+                2009
+              ]
+            ]
+          },
+          "references-count": 17,
+          "URL": "https://doi.org/10.1109/icnc.2009.68",
+          "published": {
+            "date-parts": [
+              [
+                2009
+              ]
+            ]
+          }
+        },
+        {
+          "institution": [
+            {
+              "name": "bioRxiv"
+            }
+          ],
+          "indexed": {
+            "date-parts": [
+              [
+                2026,
+                8,
+                19
+              ]
+            ],
+            "date-time": "2026-08-19T18:58:45Z",
+            "timestamp": 1787165925937,
+            "version": "build-2736575974"
+          },
+          "posted": {
+            "date-parts": [
+              [
+                2020,
+                6,
+                10
+              ]
+            ]
+          },
+          "group-title": "Evolutionary Biology",
+          "reference-count": 20,
+          "publisher": "openRxiv",
+          "license": [
+            {
+              "start": {
+                "date-parts": [
+                  [
+                    2020,
+                    6,
+                    10
+                  ]
+                ],
+                "date-time": "2020-06-10T00:00:00Z",
+                "timestamp": 1591747200000
+              },
+              "content-version": "vor",
+              "delay-in-days": 0,
+              "URL": "http://creativecommons.org/licenses/by-nc/4.0/"
+            }
+          ],
+          "content-domain": {
+            "domain": [],
+            "crossmark-restriction": false
+          },
+          "accepted": {
+            "date-parts": [
+              [
+                2020,
+                6,
+                9
+              ]
+            ]
+          },
+          "abstract": "",
+          "DOI": "10.1101/2020.06.08.140384",
+          "type": "posted-content",
+          "created": {
+            "date-parts": [
+              [
+                2020,
+                6,
+                10
+              ]
+            ],
+            "date-time": "2020-06-10T15:10:18Z",
+            "timestamp": 1591801818000
+          },
+          "source": "Crossref",
+          "is-referenced-by-count": 37,
+          "title": [
+            "ClipKIT: a multiple sequence alignment-trimming algorithm for accurate phylogenomic inference"
+          ],
+          "prefix": "10.64898",
+          "author": [
+            {
+              "ORCID": "https://orcid.org/0000-0002-8436-595X",
+              "authenticated-orcid": false,
+              "given": "Jacob L.",
+              "family": "Steenwyk",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "ORCID": "https://orcid.org/0000-0001-9367-6189",
+              "authenticated-orcid": false,
+              "suffix": "III",
+              "given": "Thomas J.",
+              "family": "Buida",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "ORCID": "https://orcid.org/0000-0002-2206-5804",
+              "authenticated-orcid": false,
+              "given": "Yuanning",
+              "family": "Li",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "ORCID": "https://orcid.org/0000-0001-5765-1419",
+              "authenticated-orcid": false,
+              "given": "Xing-Xing",
+              "family": "Shen",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "ORCID": "https://orcid.org/0000-0002-7248-6551",
+              "authenticated-orcid": false,
+              "given": "Antonis",
+              "family": "Rokas",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            }
+          ],
+          "member": "54368",
+          "reference": [
+            {
+              "key": "2024080409460059000_2020.06.08.140384v1.1",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1080/10635150701472164"
+            },
+            {
+              "key": "2024080409460059000_2020.06.08.140384v1.2",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1093/bioinformatics/btp348"
+            },
+            {
+              "key": "2024080409460059000_2020.06.08.140384v1.3",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1186/1471-2148-10-210"
+            },
+            {
+              "key": "2024080409460059000_2020.06.08.140384v1.4",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1101/2020.05.11.088658"
+            },
+            {
+              "key": "2024080409460059000_2020.06.08.140384v1.5",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1038/s41576-020-0233-0"
+            },
+            {
+              "key": "2024080409460059000_2020.06.08.140384v1.6",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1093/sysbio/syv033"
+            },
+            {
+              "key": "2024080409460059000_2020.06.08.140384v1.7",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1093/gbe/evw179"
+            },
+            {
+              "key": "2024080409460059000_2020.06.08.140384v1.8",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1093/molbev/msu300"
+            },
+            {
+              "key": "2024080409460059000_2020.06.08.140384v1.9",
+              "doi-asserted-by": "crossref",
+              "unstructured": "Steenwyk, J. L. , Shen, X.-X. , Lind, A. L. , Goldman, G. H. & Rokas, A. A Robust Phylogenomic Time Tree for Biotechnologically and Medically Important Fungi in the Genera Aspergillus and Penicillium. MBio 10, (2019).",
+              "DOI": "10.1128/mBio.00925-19"
+            },
+            {
+              "key": "2024080409460059000_2020.06.08.140384v1.10",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1073/pnas.1503453112"
+            },
+            {
+              "key": "2024080409460059000_2020.06.08.140384v1.11",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1093/sysbio/syu055"
+            },
+            {
+              "key": "2024080409460059000_2020.06.08.140384v1.12",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1543/g3.116.034744"
+            },
+            {
+              "key": "2024080409460059000_2020.06.08.140384v1.13",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1093/molbev/msp098"
+            },
+            {
+              "key": "2024080409460059000_2020.06.08.140384v1.14",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1186/1748-7188-3-7"
+            },
+            {
+              "key": "2024080409460059000_2020.06.08.140384v1.15",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1093/bioinformatics/btg412"
+            },
+            {
+              "key": "2024080409460059000_2020.06.08.140384v1.16",
+              "doi-asserted-by": "crossref",
+              "first-page": "107",
+              "DOI": "10.1186/s12920-018-0426-y",
+              "article-title": "integRATE: a desirability-based data integration framework for the prioritization of candidate genes across heterogeneous omics and its application to preterm birth",
+              "volume": "11",
+              "year": "2018",
+              "journal-title": "BMC Med. Genomics"
+            },
+            {
+              "key": "2024080409460059000_2020.06.08.140384v1.17",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1093/bioinformatics/btv234"
+            },
+            {
+              "key": "2024080409460059000_2020.06.08.140384v1.18",
+              "doi-asserted-by": "crossref",
+              "first-page": "e3000333",
+              "DOI": "10.1371/journal.pbio.3000333",
+              "article-title": "Challenges and recommendations to improve the installability and archival stability of omics computational tools",
+              "volume": "17",
+              "year": "2019",
+              "journal-title": "PLOS Biol"
+            },
+            {
+              "key": "2024080409460059000_2020.06.08.140384v1.19",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1093/bioinformatics/btp163"
+            },
+            {
+              "key": "2024080409460059000_2020.06.08.140384v1.20",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1109/MCSE.2010.145"
+            }
+          ],
+          "link": [
+            {
+              "URL": "https://syndication.highwire.org/content/doi/10.1101/2020.06.08.140384",
+              "content-type": "unspecified",
+              "content-version": "vor",
+              "intended-application": "similarity-checking"
+            }
+          ],
+          "deposited": {
+            "date-parts": [
+              [
+                2026,
+                1,
+                15
+              ]
+            ],
+            "date-time": "2026-01-15T00:29:13Z",
+            "timestamp": 1768436953000
+          },
+          "score": 33.889896,
+          "resource": {
+            "primary": {
+              "URL": "http://biorxiv.org/lookup/doi/10.1101/2020.06.08.140384"
+            }
+          },
+          "issued": {
+            "date-parts": [
+              [
+                2020,
+                6,
+                10
+              ]
+            ]
+          },
+          "references-count": 20,
+          "URL": "https://doi.org/10.1101/2020.06.08.140384",
+          "published": {
+            "date-parts": [
+              [
+                2020,
+                6,
+                10
+              ]
+            ]
+          },
+          "subtype": "preprint"
+        }
+      ],
+      "items-per-page": 3,
+      "query": {
+        "start-index": 0,
+        "search-terms": null
+      }
+    }
+  }
+}

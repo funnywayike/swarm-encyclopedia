@@ -1,0 +1,981 @@
+{
+  "retrieved": "2026-10-16",
+  "url": "https://api.crossref.org/works?query.bibliographic=wireless+sensor+network+deployment+genetic+algorithm+coverage+review&rows=3&filter=until-pub-date%3A2026-10-16",
+  "response": {
+    "status": "ok",
+    "message-type": "work-list",
+    "message-version": "1.0.0",
+    "message": {
+      "facets": {},
+      "total-results": 10800015,
+      "items": [
+        {
+          "indexed": {
+            "date-parts": [
+              [
+                2022,
+                10,
+                17
+              ]
+            ],
+            "date-time": "2022-10-17T14:53:53Z",
+            "timestamp": 1666018433011
+          },
+          "reference-count": 29,
+          "publisher": "Elsevier BV",
+          "content-domain": {
+            "domain": [],
+            "crossmark-restriction": false
+          },
+          "short-container-title": [
+            "SSRN Journal"
+          ],
+          "DOI": "10.2139/ssrn.3166501",
+          "type": "journal-article",
+          "created": {
+            "date-parts": [
+              [
+                2018,
+                5,
+                16
+              ]
+            ],
+            "date-time": "2018-05-16T15:31:45Z",
+            "timestamp": 1526484705000
+          },
+          "source": "Crossref",
+          "is-referenced-by-count": 1,
+          "title": [
+            "ODA: Optimal Deployment Algorithm for Wireless Sensor Network for Coverage Enhancement"
+          ],
+          "prefix": "10.2139",
+          "author": [
+            {
+              "given": "Gaurav",
+              "family": "Bathla",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Rajneesh",
+              "family": "Randhawa",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            }
+          ],
+          "member": "78",
+          "reference": [
+            {
+              "key": "ref1",
+              "article-title": "Introduction to wireless and mobile systems",
+              "author": "D Agrawal",
+              "year": "2010",
+              "journal-title": "Cengage Learning"
+            },
+            {
+              "issue": "8",
+              "key": "ref2",
+              "doi-asserted-by": "publisher",
+              "first-page": "102",
+              "DOI": "10.1109/mcom.2002.1024422",
+              "article-title": "Asurvey on sensor networks",
+              "volume": "40",
+              "author": "I F Akyildiz",
+              "year": "2002",
+              "journal-title": "Commun Mag IEEE"
+            },
+            {
+              "key": "ref3",
+              "doi-asserted-by": "publisher",
+              "first-page": "88",
+              "DOI": "10.1145/570748.570751",
+              "article-title": "Wireless sensor networks for habitat monitoring",
+              "author": "Alan Mainwaring",
+              "year": "2002",
+              "journal-title": "WSNA \"02 proceedings of the 1st ACM international workshop on wireless sensor networks and applications"
+            },
+            {
+              "issue": "2",
+              "key": "ref4",
+              "doi-asserted-by": "crossref",
+              "first-page": "18",
+              "DOI": "10.1109/MIC.2006.26",
+              "article-title": "Deploying a wireless sensor network on an active volcano",
+              "volume": "10",
+              "author": "G W Allen",
+              "year": "2006",
+              "journal-title": "IEEE Internet Comput"
+            },
+            {
+              "key": "ref5",
+              "article-title": "Homeland security: unmanned aerial vehicles and border surveillance",
+              "author": "Bolkcom Christopher",
+              "year": "2004",
+              "journal-title": "DTIC Doc"
+            },
+            {
+              "key": "ref6",
+              "first-page": "4429",
+              "article-title": "Virtual fences for controlling cows",
+              "author": "Butler Zack",
+              "year": "2004",
+              "journal-title": "IEEE international conference on robotics and automation"
+            },
+            {
+              "key": "ref7",
+              "doi-asserted-by": "crossref",
+              "first-page": "1247",
+              "DOI": "10.1109/JPROC.2003.814918",
+              "article-title": "Sensor networks: evolution, opportunities, and challenges",
+              "author": "Chong Chee-Yee",
+              "year": "2003",
+              "journal-title": "Proceedings of the IEEE"
+            },
+            {
+              "key": "ref8",
+              "doi-asserted-by": "publisher",
+              "first-page": "376",
+              "DOI": "10.1109/icc.2012.6363714",
+              "article-title": "Improving aerially deployed sensor networks using cooperative communications",
+              "author": "K Dorling",
+              "year": "2012",
+              "journal-title": "IEEE International Conference on Communications (ICC)"
+            },
+            {
+              "key": "ref9",
+              "article-title": "A mini unmanned aerial vehicle (UAV): system overview and image acquisition",
+              "volume": "36",
+              "author": "Eisenbeiss Henri",
+              "year": "2004",
+              "journal-title": "/W1)"
+            },
+            {
+              "key": "ref10",
+              "doi-asserted-by": "publisher",
+              "first-page": "492",
+              "DOI": "10.1109/aina.2013.40",
+              "article-title": "Optimal node placement in underwater wireless sensor networks",
+              "author": "M Felamban",
+              "year": "2013",
+              "journal-title": "27th International conference on Advanced Information Networking and Applications (AINA)"
+            },
+            {
+              "key": "ref11",
+              "doi-asserted-by": "publisher",
+              "first-page": "971",
+              "DOI": "10.1002/stc.1510",
+              "article-title": "Energyefficient deployment strategies in structural health monitoring using wireless sensor networks",
+              "volume": "20",
+              "author": "T S Fu",
+              "year": "2013",
+              "journal-title": "StructCont Health Monitor"
+            },
+            {
+              "issue": "3",
+              "key": "ref12",
+              "doi-asserted-by": "crossref",
+              "first-page": "303",
+              "DOI": "10.1016/j.pmcj.2008.02.001",
+              "article-title": "Das Sajal K. Coverage and connectivity issuesin wireless sensor networks: a survey",
+              "volume": "4",
+              "author": "Ghosh Amitabha",
+              "year": "2008",
+              "journal-title": "Pervas Mob"
+            },
+            {
+              "key": "ref13",
+              "doi-asserted-by": "crossref",
+              "first-page": "96",
+              "DOI": "10.1145/605432.605408",
+              "article-title": "Energy-efficient computing for wildlife tracking: design tradeoffs and early experiences with ZebraNet",
+              "author": "Juang Philo",
+              "year": "2002",
+              "journal-title": "ACM sigplan notices"
+            },
+            {
+              "issue": "10",
+              "key": "ref14",
+              "first-page": "1318",
+              "article-title": "Effective target tracking mechanism in a self-organizing wireless sensor network",
+              "volume": "71",
+              "author": "Khedr Ahmed",
+              "year": "2011",
+              "journal-title": "J ParallDistributComput"
+            },
+            {
+              "key": "ref15",
+              "first-page": "1252",
+              "article-title": "SDRS: split detectionand reconfiguration scheme for quick healing of wireless sensornetworks",
+              "volume": "46",
+              "author": "Kumar Ajay",
+              "year": "2013",
+              "journal-title": "Int J AdvComput"
+            },
+            {
+              "key": "ref16",
+              "doi-asserted-by": "crossref",
+              "first-page": "81",
+              "DOI": "10.1109/SAHCN.2004.1381905",
+              "article-title": "Glacsweb: A sensor network for hostile environments",
+              "author": "Martinez Kirk",
+              "year": "2004",
+              "journal-title": "First annual IEEE communications society conference on sensor and ad hoc communications and networks"
+            },
+            {
+              "key": "ref17",
+              "author": "Muhammad Sirajo"
+            },
+            {
+              "key": "ref18",
+              "article-title": "Coverage Enhancement Algorithms for Distributed Mobile Sensors Deployment in Wireless Sensor Networks",
+              "volume": "2016",
+              "author": "Hassan Abdul Hanan Abdullah",
+              "journal-title": "International Journal of Distributed Sensor Networks"
+            },
+            {
+              "key": "ref19",
+              "first-page": "1",
+              "article-title": "AWARE: Platform for autonomous selfdeploying and operation of wirelesssensor-actuator networks cooperating with unmanned aerial vehicles",
+              "author": "Ollero Anibal",
+              "year": "2007",
+              "journal-title": "International workshop on safety, security and rescue robotics"
+            },
+            {
+              "key": "ref20",
+              "doi-asserted-by": "crossref",
+              "first-page": "2",
+              "DOI": "10.1016/j.adhoc.2012.09.002",
+              "article-title": "Design, development, and deployment of a wireless sensor network for detection of landslides",
+              "volume": "13",
+              "author": "Ramesh Maneeshavinodini",
+              "year": "2014",
+              "journal-title": "Ad Hoc Netw"
+            },
+            {
+              "key": "ref21",
+              "first-page": "1",
+              "article-title": "Communication with abovegrounddevices in wireless underground sensor networks: anempirical study",
+              "author": "R Silva Agnelo",
+              "year": "2010",
+              "journal-title": "IEEE International Conference on Communications(ICC)"
+            },
+            {
+              "key": "ref22",
+              "first-page": "231",
+              "author": "R Silva Agnelo",
+              "journal-title": "Empirical evaluation ofwireless underground-to-underground communication in wirelessunderground sensor networks"
+            },
+            {
+              "issue": "2",
+              "key": "ref23",
+              "first-page": "105",
+              "article-title": "Autonomous deployment and restorationof sensor network using mobile robots",
+              "volume": "7",
+              "author": "Sugizaki Suzuki Tsuyoshi",
+              "year": "2010",
+              "journal-title": "Int J Adv Rob"
+            },
+            {
+              "issue": "6",
+              "key": "ref24",
+              "doi-asserted-by": "crossref",
+              "first-page": "836",
+              "DOI": "10.1109/TMC.2009.31",
+              "article-title": "Connectivityguaranteedand obstacle-adaptive deployment schemes for mobilesensor networks",
+              "volume": "8",
+              "author": "Tan Guang",
+              "year": "2009",
+              "journal-title": "IEEE Trans Mob Comput"
+            },
+            {
+              "key": "ref25",
+              "first-page": "298",
+              "article-title": "Unmanned aerial vehicle-aided wireless sensor network deployment system for post-disaster monitoring",
+              "volume": "304",
+              "author": "Tuna Gurkan",
+              "year": "2012",
+              "journal-title": "EmergIntellComputTechnolApplicat"
+            },
+            {
+              "key": "ref26",
+              "doi-asserted-by": "crossref",
+              "first-page": "54",
+              "DOI": "10.1016/j.adhoc.2012.06.006",
+              "article-title": "An autonomouswireless sensor network deployment system using mobile robotsfor human existence detection in case of disasters",
+              "volume": "13",
+              "author": "Tuna Gurkan",
+              "year": "2014",
+              "journal-title": "Ad Hoc"
+            },
+            {
+              "issue": "6",
+              "key": "ref27",
+              "doi-asserted-by": "crossref",
+              "first-page": "640",
+              "DOI": "10.1109/TMC.2006.80",
+              "article-title": "Movementassisted sensor deployment",
+              "volume": "5",
+              "author": "Wang Guiling",
+              "year": "2006",
+              "journal-title": "IEEE Trans Mob Comput"
+            },
+            {
+              "issue": "12",
+              "key": "ref28",
+              "first-page": "2292",
+              "article-title": "Wireless sensor network survey",
+              "volume": "52",
+              "author": "Yick Jennifer",
+              "year": "2008",
+              "journal-title": "ComputNetw"
+            },
+            {
+              "issue": "4",
+              "key": "ref29",
+              "doi-asserted-by": "crossref",
+              "first-page": "621",
+              "DOI": "10.1016/j.adhoc.2007.05.003",
+              "article-title": "Strategies and techniques for node placement in wireless sensor networks: a survey",
+              "volume": "6",
+              "author": "Younis Mohamed",
+              "year": "2008",
+              "journal-title": "Ad Hoc Netw"
+            }
+          ],
+          "container-title": [
+            "SSRN Electronic Journal"
+          ],
+          "language": "en",
+          "deposited": {
+            "date-parts": [
+              [
+                2020,
+                11,
+                2
+              ]
+            ],
+            "date-time": "2020-11-02T02:09:33Z",
+            "timestamp": 1604282973000
+          },
+          "score": 43.335743,
+          "resource": {
+            "primary": {
+              "URL": "https://www.ssrn.com/abstract=3166501"
+            }
+          },
+          "issued": {
+            "date-parts": [
+              [
+                2018
+              ]
+            ]
+          },
+          "references-count": 29,
+          "URL": "https://doi.org/10.2139/ssrn.3166501",
+          "ISSN": [
+            "1556-5068"
+          ],
+          "issn-type": [
+            {
+              "value": "1556-5068",
+              "type": "electronic"
+            }
+          ],
+          "published-other": {
+            "date-parts": [
+              [
+                2018
+              ]
+            ]
+          },
+          "published": {
+            "date-parts": [
+              [
+                2018
+              ]
+            ]
+          }
+        },
+        {
+          "indexed": {
+            "date-parts": [
+              [
+                2024,
+                9,
+                8
+              ]
+            ],
+            "date-time": "2024-09-08T08:23:55Z",
+            "timestamp": 1725783835281
+          },
+          "reference-count": 0,
+          "publisher": "SCITEPRESS - Science and Technology Publications",
+          "content-domain": {
+            "domain": [],
+            "crossmark-restriction": false
+          },
+          "published-print": {
+            "date-parts": [
+              [
+                2018
+              ]
+            ]
+          },
+          "DOI": "10.5220/0006581900850090",
+          "type": "proceedings-article",
+          "created": {
+            "date-parts": [
+              [
+                2018,
+                2,
+                1
+              ]
+            ],
+            "date-time": "2018-02-01T11:53:57Z",
+            "timestamp": 1517486037000
+          },
+          "page": "85-90",
+          "source": "Crossref",
+          "is-referenced-by-count": 12,
+          "title": [
+            "Area Coverage Optimization in Wireless Sensor Network by Semi-random Deployment"
+          ],
+          "prefix": "10.5220",
+          "author": [
+            {
+              "given": "Adda",
+              "family": "Boualem",
+              "sequence": "first",
+              "affiliation": [
+                {
+                  "name": "The High National School of Computer Science, ESI, Algeria"
+                }
+              ],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Youcef",
+              "family": "Dahmani",
+              "sequence": "first",
+              "affiliation": [
+                {
+                  "name": "The EECE Lab, Ibn Khaldoun University, Algeria"
+                }
+              ],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Abdelkader",
+              "family": "Maatoug",
+              "sequence": "first",
+              "affiliation": [
+                {
+                  "name": "The EECE Lab, Ibn Khaldoun University, Algeria"
+                }
+              ],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Cyril",
+              "family": "De-runz",
+              "sequence": "first",
+              "affiliation": [
+                {
+                  "name": "The CReSTIC, University of Reims Champagne-Ardenne, France"
+                }
+              ],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            }
+          ],
+          "member": "3171",
+          "event": {
+            "name": "7th International Conference on Sensor Networks",
+            "start": {
+              "date-parts": [
+                [
+                  2018,
+                  1,
+                  22
+                ]
+              ]
+            },
+            "location": "Funchal, Madeira, Portugal",
+            "end": {
+              "date-parts": [
+                [
+                  2018,
+                  1,
+                  24
+                ]
+              ]
+            }
+          },
+          "container-title": [
+            "Proceedings of the 7th International Conference on Sensor Networks"
+          ],
+          "original-title": [
+            "Area Coverage Optimization in Wireless Sensor Network by Semi-random Deployment"
+          ],
+          "deposited": {
+            "date-parts": [
+              [
+                2020,
+                9,
+                9
+              ]
+            ],
+            "date-time": "2020-09-09T15:17:39Z",
+            "timestamp": 1599664659000
+          },
+          "score": 42.639854,
+          "resource": {
+            "primary": {
+              "URL": "https://www.scitepress.org/DigitalLibrary/Link.aspx?doi=10.5220/0006581900850090"
+            }
+          },
+          "subtitle": [
+            ""
+          ],
+          "issued": {
+            "date-parts": [
+              [
+                2018
+              ]
+            ]
+          },
+          "references-count": 0,
+          "URL": "https://doi.org/10.5220/0006581900850090",
+          "published": {
+            "date-parts": [
+              [
+                2018
+              ]
+            ]
+          }
+        },
+        {
+          "indexed": {
+            "date-parts": [
+              [
+                2026,
+                6,
+                19
+              ]
+            ],
+            "date-time": "2026-06-19T22:13:52Z",
+            "timestamp": 1781907232904,
+            "version": "3.54.5"
+          },
+          "reference-count": 21,
+          "publisher": "IEEE",
+          "license": [
+            {
+              "start": {
+                "date-parts": [
+                  [
+                    2019,
+                    3,
+                    1
+                  ]
+                ],
+                "date-time": "2019-03-01T00:00:00Z",
+                "timestamp": 1551398400000
+              },
+              "content-version": "vor",
+              "delay-in-days": 0,
+              "URL": "https://ieeexplore.ieee.org/Xplorehelp/downloads/license-information/IEEE.html"
+            },
+            {
+              "start": {
+                "date-parts": [
+                  [
+                    2019,
+                    3,
+                    1
+                  ]
+                ],
+                "date-time": "2019-03-01T00:00:00Z",
+                "timestamp": 1551398400000
+              },
+              "content-version": "stm-asf",
+              "delay-in-days": 0,
+              "URL": "https://doi.org/10.15223/policy-029"
+            },
+            {
+              "start": {
+                "date-parts": [
+                  [
+                    2019,
+                    3,
+                    1
+                  ]
+                ],
+                "date-time": "2019-03-01T00:00:00Z",
+                "timestamp": 1551398400000
+              },
+              "content-version": "stm-asf",
+              "delay-in-days": 0,
+              "URL": "https://doi.org/10.15223/policy-037"
+            }
+          ],
+          "content-domain": {
+            "domain": [],
+            "crossmark-restriction": false
+          },
+          "published-print": {
+            "date-parts": [
+              [
+                2019,
+                3
+              ]
+            ]
+          },
+          "DOI": "10.1109/icondsc.2019.8816930",
+          "type": "proceedings-article",
+          "created": {
+            "date-parts": [
+              [
+                2019,
+                8,
+                30
+              ]
+            ],
+            "date-time": "2019-08-30T00:40:32Z",
+            "timestamp": 1567125632000
+          },
+          "page": "1-6",
+          "source": "Crossref",
+          "is-referenced-by-count": 12,
+          "title": [
+            "Design of High Speed Reconfigurable Deployment Intelligent Genetic Algorithm in Maximum Coverage Wireless Sensor Network"
+          ],
+          "prefix": "10.1109",
+          "author": [
+            {
+              "given": "M L",
+              "family": "Umashankar",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "M V",
+              "family": "Ramakrishna",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "S",
+              "family": "Mallikarjunaswamy",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            }
+          ],
+          "member": "263",
+          "reference": [
+            {
+              "key": "ref10",
+              "first-page": "1591",
+              "article-title": "WSN Path Optimization Based on Fusion of Improved Ant Colony Algorithm and Genetic Algorithm",
+              "volume": "6",
+              "author": "sun†",
+              "year": "2011",
+              "journal-title": "Journal of Computational Information Systems"
+            },
+            {
+              "key": "ref11",
+              "first-page": "199",
+              "article-title": "Multi objective Algorithm for Coverage in sensor networks",
+              "volume": "3",
+              "author": "jameii",
+              "year": "2013",
+              "journal-title": "IJCSE"
+            },
+            {
+              "key": "ref12",
+              "first-page": "85",
+              "article-title": "Wireless sensor network design through genetic algorithm",
+              "volume": "2",
+              "author": "hosseinirad",
+              "year": "2014",
+              "journal-title": "Journal of AI and Data Mining"
+            },
+            {
+              "key": "ref13",
+              "article-title": "Hierarchical Clustering Using Genetic Algorithm in Wireless Sensor Networks",
+              "author": "shurman",
+              "year": "2013",
+              "journal-title": "MIPRO 2013"
+            },
+            {
+              "key": "ref14",
+              "first-page": "956",
+              "article-title": "GA Based Node Placement Methodology for WSN",
+              "volume": "1",
+              "author": "bhondekar",
+              "year": "2009",
+              "journal-title": "IMECS"
+            },
+            {
+              "key": "ref15",
+              "first-page": "221",
+              "author": "jin",
+              "year": "0",
+              "journal-title": "Sensor Network Optimization Using a Genetic Algorithm"
+            },
+            {
+              "key": "ref16",
+              "first-page": "3221",
+              "article-title": "Node deployment for Coverage Based on Voronoi Diagram Using GA",
+              "volume": "5",
+              "author": "naeimrahmani",
+              "year": "2011",
+              "journal-title": "Journal of Basic and Applied Sciences"
+            },
+            {
+              "key": "ref17",
+              "first-page": "765",
+              "article-title": "MGA for Coverage in sensor networks",
+              "volume": "3",
+              "author": "mahdi",
+              "year": "2013",
+              "journal-title": "IJCSE"
+            },
+            {
+              "key": "ref18",
+              "first-page": "85",
+              "article-title": "Wireless sensor network design through genetic algorithm",
+              "volume": "2",
+              "author": "hosseinirad",
+              "year": "2011",
+              "journal-title": "Journal of AI and Data Mining"
+            },
+            {
+              "key": "ref19",
+              "first-page": "273",
+              "article-title": "Genetic Algorithm Based Node Deployment in Hybrid WSN",
+              "volume": "5",
+              "author": "banimelhem",
+              "year": "2013",
+              "journal-title": "Communications and Network 2013"
+            },
+            {
+              "key": "ref4",
+              "first-page": "221",
+              "article-title": "Coverage and Connectivity Issues in Wireless Sensor Networks",
+              "author": "s k",
+              "year": "2006",
+              "journal-title": "Wireless and Sensor Networks Technology Applications and Future Directions"
+            },
+            {
+              "key": "ref3",
+              "first-page": "453",
+              "article-title": "GA Based Node Placement Methodology for WSN",
+              "volume": "i",
+              "author": "renuvig",
+              "year": "2015",
+              "journal-title": "International Multi Conference of Engineer"
+            },
+            {
+              "key": "ref6",
+              "first-page": "3480",
+              "article-title": "A Simple and Effective Approach for Coverage Issue in Wireless Sensor Networks",
+              "author": "shen",
+              "year": "2017",
+              "journal-title": "IEEE International Communications Conference"
+            },
+            {
+              "key": "ref5",
+              "first-page": "34",
+              "author": "kennedy",
+              "year": "2001",
+              "journal-title": "Swarm Intelligence"
+            },
+            {
+              "key": "ref8",
+              "first-page": "221",
+              "author": "jin",
+              "year": "2017",
+              "journal-title": "Sensor Network Optimization Using a Genetic Algorithm"
+            },
+            {
+              "key": "ref7",
+              "first-page": "312",
+              "article-title": "A Genetic Algorithm-Based Method for Wireless Sensor Networks",
+              "author": "zahmatkesh",
+              "year": "2018",
+              "journal-title": "International Journal of Information and Electronics Engineering"
+            },
+            {
+              "key": "ref2",
+              "first-page": "232",
+              "article-title": "An Efficient GA for Maximum-Coverage Deployment in WSN's",
+              "author": "kim",
+              "year": "2013",
+              "journal-title": "IEEE Transactions on Cybernetics"
+            },
+            {
+              "key": "ref1",
+              "first-page": "1756",
+              "article-title": "Energy efficient coverage control based on MGA",
+              "author": "jia",
+              "year": "2017",
+              "journal-title": "Computers and Mathematics with Applications"
+            },
+            {
+              "key": "ref9",
+              "first-page": "3221",
+              "article-title": "Node Placement for Maximum Coverage Based on Voronoi Diagram Using Genetic Algorithm in WSN",
+              "volume": "5",
+              "author": "naeimrahmani",
+              "year": "2011",
+              "journal-title": "Australian Journal of Basic and Applied Sciences"
+            },
+            {
+              "key": "ref20",
+              "doi-asserted-by": "crossref",
+              "first-page": "1767",
+              "DOI": "10.1016/j.camwa.2008.10.037",
+              "article-title": "Multi-objective optimization for coverage with adjustable sensing radius",
+              "volume": "57",
+              "author": "wen",
+              "year": "2009",
+              "journal-title": "Computational Mathematics and Applications"
+            },
+            {
+              "key": "ref21",
+              "first-page": "238",
+              "article-title": "Efficient GA for Maximum Coverage Deployment in WSN",
+              "volume": "43",
+              "author": "kim",
+              "year": "2013",
+              "journal-title": "IEEE Transactions on Cybernetics"
+            }
+          ],
+          "event": {
+            "name": "2019 International Conference on Data Science and Communication (IconDSC)",
+            "location": "Bangalore, India",
+            "start": {
+              "date-parts": [
+                [
+                  2019,
+                  3,
+                  1
+                ]
+              ]
+            },
+            "end": {
+              "date-parts": [
+                [
+                  2019,
+                  3,
+                  2
+                ]
+              ]
+            }
+          },
+          "container-title": [
+            "2019 International Conference on Data Science and Communication (IconDSC)"
+          ],
+          "link": [
+            {
+              "URL": "http://xplorestaging.ieee.org/ielx7/8811688/8816866/08816930.pdf?arnumber=8816930",
+              "content-type": "unspecified",
+              "content-version": "vor",
+              "intended-application": "similarity-checking"
+            }
+          ],
+          "deposited": {
+            "date-parts": [
+              [
+                2022,
+                7,
+                17
+              ]
+            ],
+            "date-time": "2022-07-17T21:50:57Z",
+            "timestamp": 1658094657000
+          },
+          "score": 42.57366,
+          "resource": {
+            "primary": {
+              "URL": "https://ieeexplore.ieee.org/document/8816930/"
+            }
+          },
+          "issued": {
+            "date-parts": [
+              [
+                2019,
+                3
+              ]
+            ]
+          },
+          "references-count": 21,
+          "URL": "https://doi.org/10.1109/icondsc.2019.8816930",
+          "published": {
+            "date-parts": [
+              [
+                2019,
+                3
+              ]
+            ]
+          }
+        }
+      ],
+      "items-per-page": 3,
+      "query": {
+        "start-index": 0,
+        "search-terms": null
+      }
+    }
+  }
+}

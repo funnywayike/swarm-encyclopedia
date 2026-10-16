@@ -1,0 +1,690 @@
+{
+  "retrieved": "2026-10-16",
+  "url": "https://api.crossref.org/works/10.1016/j.swevo.2011.02.002",
+  "response": {
+    "status": "ok",
+    "message-type": "work",
+    "message-version": "1.0.0",
+    "message": {
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            10,
+            16
+          ]
+        ],
+        "date-time": "2026-10-16T01:55:18Z",
+        "timestamp": 1792115718967,
+        "version": "4.4.0"
+      },
+      "reference-count": 53,
+      "publisher": "Elsevier BV",
+      "issue": "1",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2011,
+                3,
+                1
+              ]
+            ],
+            "date-time": "2011-03-01T00:00:00Z",
+            "timestamp": 1298937600000
+          },
+          "content-version": "tdm",
+          "delay-in-days": 0,
+          "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+        }
+      ],
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "short-container-title": [
+        "Swarm and Evolutionary Computation"
+      ],
+      "published-print": {
+        "date-parts": [
+          [
+            2011,
+            3
+          ]
+        ]
+      },
+      "DOI": "10.1016/j.swevo.2011.02.002",
+      "type": "journal-article",
+      "created": {
+        "date-parts": [
+          [
+            2011,
+            3,
+            17
+          ]
+        ],
+        "date-time": "2011-03-17T05:05:16Z",
+        "timestamp": 1300338316000
+      },
+      "page": "3-18",
+      "source": "Crossref",
+      "is-referenced-by-count": 5257,
+      "title": [
+        "A practical tutorial on the use of nonparametric statistical tests as a methodology for comparing evolutionary and swarm intelligence algorithms"
+      ],
+      "prefix": "10.1016",
+      "volume": "1",
+      "author": [
+        {
+          "given": "Joaquín",
+          "family": "Derrac",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Salvador",
+          "family": "García",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Daniel",
+          "family": "Molina",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Francisco",
+          "family": "Herrera",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "78",
+      "reference": [
+        {
+          "key": "10.1016/j.swevo.2011.02.002_br000005",
+          "series-title": "Introduction to Modern Nonparametric Statistics",
+          "author": "Higgins",
+          "year": "2003"
+        },
+        {
+          "issue": "10",
+          "key": "10.1016/j.swevo.2011.02.002_br000010",
+          "doi-asserted-by": "crossref",
+          "first-page": "959",
+          "DOI": "10.1007/s00500-008-0392-y",
+          "article-title": "A study of statistical techniques and performance measures for genetics-based machine learning: Accuracy and interpretability",
+          "volume": "13",
+          "author": "García",
+          "year": "2009",
+          "journal-title": "Soft Computing"
+        },
+        {
+          "key": "10.1016/j.swevo.2011.02.002_br000015",
+          "doi-asserted-by": "crossref",
+          "first-page": "617",
+          "DOI": "10.1007/s10732-008-9080-4",
+          "article-title": "A study on the use of nonparametric tests for analyzing the evolutionary algorithms’ behaviour: A case study on the CEC’2005 special session on real parameter optimization",
+          "volume": "15",
+          "author": "García",
+          "year": "2009",
+          "journal-title": "Journal of Heuristics"
+        },
+        {
+          "key": "10.1016/j.swevo.2011.02.002_br000020",
+          "first-page": "1",
+          "article-title": "Statistical comparisons of classifiers over multiple data sets",
+          "volume": "7",
+          "author": "Demšar",
+          "year": "2006",
+          "journal-title": "Journal of Machine Learning Research"
+        },
+        {
+          "key": "10.1016/j.swevo.2011.02.002_br000025",
+          "first-page": "2677",
+          "article-title": "An extension on Statistical Comparisons of Classifiers over Multiple Data Sets for all pairwise comparisons",
+          "volume": "9",
+          "author": "García",
+          "year": "2008",
+          "journal-title": "Journal of Machine Learning Research"
+        },
+        {
+          "key": "10.1016/j.swevo.2011.02.002_br000030",
+          "unstructured": "P. Suganthan, N. Hansen, J. Liang, K. Deb, Y. Chen, A. Auger, S. Tiwari, Problem definitions and evaluation criteria for the CEC’2005 special session on real parameter optimization, Nanyang Technological University, Tech. Rep., 2005, Available in http://www.ntu.edu.sg/home/epnsugan/index_files/cec-05/Tech-Report-May-30-05.pdf."
+        },
+        {
+          "key": "10.1016/j.swevo.2011.02.002_br000035",
+          "doi-asserted-by": "crossref",
+          "unstructured": "J. Kennedy, R. Eberhart, Particle swarm optimization, in: Proceedings of IV IEEE International Conference on Neural Networks, Piscataway, New Jersey, 1995, pp. 1942–1948.",
+          "DOI": "10.1109/ICNN.1995.488968"
+        },
+        {
+          "key": "10.1016/j.swevo.2011.02.002_br000040",
+          "doi-asserted-by": "crossref",
+          "unstructured": "A. Auger, N. Hansen, A restart CMA evolution strategy with increasing population size, in: Proceedings of the 2005 IEEE Congress on Evolutionary Computation, 2005, pp. 1769–1776.",
+          "DOI": "10.1109/CEC.2005.1554902"
+        },
+        {
+          "key": "10.1016/j.swevo.2011.02.002_br000045",
+          "series-title": "Foundations of Genetic Algorithms",
+          "doi-asserted-by": "crossref",
+          "first-page": "265",
+          "DOI": "10.1016/B978-0-08-050684-5.50020-3",
+          "article-title": "The CHC adaptative search algorithm: How to have safe search when engaging in nontraditional genetic recombination",
+          "author": "Eshelman",
+          "year": "1991"
+        },
+        {
+          "key": "10.1016/j.swevo.2011.02.002_br000050",
+          "series-title": "Foundations of Genetic Algorithms",
+          "doi-asserted-by": "crossref",
+          "first-page": "187",
+          "DOI": "10.1016/B978-0-08-094832-4.50018-0",
+          "article-title": "Real-coded genetic algorithms and interval-schemata",
+          "author": "Eshelman",
+          "year": "1993"
+        },
+        {
+          "key": "10.1016/j.swevo.2011.02.002_br000055",
+          "doi-asserted-by": "crossref",
+          "unstructured": "C. Fernandes, A. Rosa, A study of non-random matching and varying population size in genetic algorithm using a royal road function, in: Proceedings of the 2001 Congress on Evolutionary Computation, Piscataway, New Jersey, 2001, pp. 60–66.",
+          "DOI": "10.1109/CEC.2001.934371"
+        },
+        {
+          "key": "10.1016/j.swevo.2011.02.002_br000060",
+          "doi-asserted-by": "crossref",
+          "first-page": "25",
+          "DOI": "10.1162/evco.1993.1.1.25",
+          "article-title": "Predictive models for the breeding genetic algorithm in continuous parameter optimization",
+          "volume": "1",
+          "author": "Mülenbein",
+          "year": "1993",
+          "journal-title": "Evolutionary Computation"
+        },
+        {
+          "key": "10.1016/j.swevo.2011.02.002_br000065",
+          "series-title": "Scatter Search. Methodology and Implementation in C",
+          "author": "Laguna",
+          "year": "2003"
+        },
+        {
+          "issue": "2",
+          "key": "10.1016/j.swevo.2011.02.002_br000070",
+          "doi-asserted-by": "crossref",
+          "first-page": "450",
+          "DOI": "10.1016/j.ejor.2004.08.009",
+          "article-title": "Continuous scatter search: An analysis of the integration of some combination methods and improvement strategies",
+          "volume": "169",
+          "author": "Herrera",
+          "year": "2006",
+          "journal-title": "European Journal of Operational Research"
+        },
+        {
+          "key": "10.1016/j.swevo.2011.02.002_br000075",
+          "series-title": "Differential Evolution: A Practical Approach to Global Optimization",
+          "author": "Price",
+          "year": "2005"
+        },
+        {
+          "key": "10.1016/j.swevo.2011.02.002_br000080",
+          "doi-asserted-by": "crossref",
+          "unstructured": "A.K. Qin, P.N. Suganthan, Self-adaptive differential evolution algorithm for numerical optimization, in: Proceedings of the 2005 IEEE Congress on Evolutionary Computation, vol. 2, 2005, pp. 1785–1791.",
+          "DOI": "10.1109/CEC.2005.1554904"
+        },
+        {
+          "key": "10.1016/j.swevo.2011.02.002_br000085",
+          "series-title": "Experimental Research in Evolutionary Computation: The New Experimentalism",
+          "author": "Bartz-Beielstein",
+          "year": "2006"
+        },
+        {
+          "key": "10.1016/j.swevo.2011.02.002_br000090",
+          "doi-asserted-by": "crossref",
+          "first-page": "265",
+          "DOI": "10.1007/s10732-007-9018-2",
+          "article-title": "Improving crossover operators for real-coded genetic algorithms using virtual parents",
+          "volume": "13",
+          "author": "Ortiz-Boyer",
+          "year": "2007",
+          "journal-title": "Journal of Heuristics"
+        },
+        {
+          "key": "10.1016/j.swevo.2011.02.002_br000095",
+          "series-title": "Practical Nonparametric Statistics",
+          "author": "Conover",
+          "year": "1998"
+        },
+        {
+          "key": "10.1016/j.swevo.2011.02.002_br000100",
+          "series-title": "Nonparametric Statistical Methods",
+          "author": "Hollander",
+          "year": "1999"
+        },
+        {
+          "key": "10.1016/j.swevo.2011.02.002_br000105",
+          "series-title": "Statistical Methods and Scientific Inference",
+          "author": "Fisher",
+          "year": "1959"
+        },
+        {
+          "key": "10.1016/j.swevo.2011.02.002_br000110",
+          "series-title": "Handbook of Parametric and Nonparametric Statistical Procedures",
+          "author": "Sheskin",
+          "year": "2006"
+        },
+        {
+          "issue": "10",
+          "key": "10.1016/j.swevo.2011.02.002_br000115",
+          "doi-asserted-by": "crossref",
+          "first-page": "1117",
+          "DOI": "10.1007/s00500-009-0506-1",
+          "article-title": "Evaluating a local genetic algorithm as context-independent local search operator for metaheuristics",
+          "volume": "14",
+          "author": "García-Martínez",
+          "year": "2010",
+          "journal-title": "Soft Computing"
+        },
+        {
+          "key": "10.1016/j.swevo.2011.02.002_br000120",
+          "series-title": "Nonparametric Statistical Inference",
+          "author": "Gibbons",
+          "year": "2010"
+        },
+        {
+          "key": "10.1016/j.swevo.2011.02.002_br000125",
+          "series-title": "Biostatistical Analysis",
+          "author": "Zar",
+          "year": "2009"
+        },
+        {
+          "key": "10.1016/j.swevo.2011.02.002_br000130",
+          "doi-asserted-by": "crossref",
+          "first-page": "293",
+          "DOI": "10.2307/1266590",
+          "article-title": "Tables for a treatments versus control multiple comparisons sign test",
+          "volume": "7",
+          "author": "Rhyne",
+          "year": "1965",
+          "journal-title": "Technometrics"
+        },
+        {
+          "key": "10.1016/j.swevo.2011.02.002_br000135",
+          "doi-asserted-by": "crossref",
+          "first-page": "767",
+          "DOI": "10.2307/2282500",
+          "article-title": "A multiple comparison sign test: treatments versus control",
+          "volume": "54",
+          "author": "Steel",
+          "year": "1959",
+          "journal-title": "Journal of American Statistical Association"
+        },
+        {
+          "key": "10.1016/j.swevo.2011.02.002_br000140",
+          "doi-asserted-by": "crossref",
+          "first-page": "674",
+          "DOI": "10.2307/2279372",
+          "article-title": "The use of ranks to avoid the assumption of normality implicit in the analysis of variance",
+          "volume": "32",
+          "author": "Friedman",
+          "year": "1937",
+          "journal-title": "Journal of the American Statistical Association"
+        },
+        {
+          "key": "10.1016/j.swevo.2011.02.002_br000145",
+          "doi-asserted-by": "crossref",
+          "first-page": "86",
+          "DOI": "10.1214/aoms/1177731944",
+          "article-title": "A comparison of alternative tests of significance for the problem of m rankings",
+          "volume": "11",
+          "author": "Friedman",
+          "year": "1940",
+          "journal-title": "Annals of Mathematical Statistics"
+        },
+        {
+          "key": "10.1016/j.swevo.2011.02.002_br000150",
+          "doi-asserted-by": "crossref",
+          "first-page": "571",
+          "DOI": "10.1080/03610928008827904",
+          "article-title": "Approximations of the critical region of the friedman statistic",
+          "volume": "9",
+          "author": "Iman",
+          "year": "1980",
+          "journal-title": "Communications in Statistics"
+        },
+        {
+          "key": "10.1016/j.swevo.2011.02.002_br000155",
+          "doi-asserted-by": "crossref",
+          "first-page": "482",
+          "DOI": "10.1214/aoms/1177704575",
+          "article-title": "Ranks methods for combination of independent experiments in analysis of variance",
+          "volume": "33",
+          "author": "Hodges",
+          "year": "1962",
+          "journal-title": "Annals of Mathematical Statistics"
+        },
+        {
+          "key": "10.1016/j.swevo.2011.02.002_br000160",
+          "doi-asserted-by": "crossref",
+          "first-page": "583",
+          "DOI": "10.2307/2280779",
+          "article-title": "Use of ranks in one-criterion variance analysis",
+          "volume": "47",
+          "author": "Kruskal",
+          "year": "1952",
+          "journal-title": "Journal of the American Statistical Association"
+        },
+        {
+          "key": "10.1016/j.swevo.2011.02.002_br000165",
+          "doi-asserted-by": "crossref",
+          "first-page": "680",
+          "DOI": "10.2307/2286991",
+          "article-title": "Using weighted rankings in the analysis of complete blocks with additive block effects",
+          "volume": "74",
+          "author": "Quade",
+          "year": "1979",
+          "journal-title": "Journal of the American Statistical Association"
+        },
+        {
+          "key": "10.1016/j.swevo.2011.02.002_br000170",
+          "series-title": "Handbook of Mathematical Functions, With Formulas, Graphs, and Mathematical Tables",
+          "author": "Abramowitz",
+          "year": "1974"
+        },
+        {
+          "key": "10.1016/j.swevo.2011.02.002_br000175",
+          "series-title": "Applied Nonparametric Statistics",
+          "author": "Daniel",
+          "year": "2000"
+        },
+        {
+          "key": "10.1016/j.swevo.2011.02.002_br000180",
+          "series-title": "Resampling-based Multiple Testing: Examples and Methods for p-Value Adjustment",
+          "author": "Westfall",
+          "year": "2004"
+        },
+        {
+          "key": "10.1016/j.swevo.2011.02.002_br000185",
+          "doi-asserted-by": "crossref",
+          "first-page": "52",
+          "DOI": "10.2307/2282330",
+          "article-title": "Multiple comparisons among means",
+          "volume": "56",
+          "author": "Dunn",
+          "year": "1961",
+          "journal-title": "Journal of the American Statistical Association"
+        },
+        {
+          "key": "10.1016/j.swevo.2011.02.002_br000190",
+          "first-page": "65",
+          "article-title": "A simple sequentially rejective multiple test procedure",
+          "volume": "6",
+          "author": "Holm",
+          "year": "1979",
+          "journal-title": "Scandinavian Journal of Statistics"
+        },
+        {
+          "key": "10.1016/j.swevo.2011.02.002_br000195",
+          "doi-asserted-by": "crossref",
+          "first-page": "417",
+          "DOI": "10.2307/2531823",
+          "article-title": "An improved sequentially rejective Bonferroni test procedure",
+          "volume": "43",
+          "author": "Holland",
+          "year": "1987",
+          "journal-title": "Biometrics"
+        },
+        {
+          "key": "10.1016/j.swevo.2011.02.002_br000200",
+          "doi-asserted-by": "crossref",
+          "first-page": "920",
+          "DOI": "10.2307/2290782",
+          "article-title": "On a monotonicity problem in step-down multiple test procedures",
+          "volume": "88",
+          "author": "Finner",
+          "year": "1993",
+          "journal-title": "Journal of the American Statistical Association"
+        },
+        {
+          "key": "10.1016/j.swevo.2011.02.002_br000205",
+          "doi-asserted-by": "crossref",
+          "first-page": "800",
+          "DOI": "10.1093/biomet/75.4.800",
+          "article-title": "A sharper Bonferroni procedure for multiple tests of significance",
+          "volume": "75",
+          "author": "Hochberg",
+          "year": "1988",
+          "journal-title": "Biometrika"
+        },
+        {
+          "key": "10.1016/j.swevo.2011.02.002_br000210",
+          "doi-asserted-by": "crossref",
+          "first-page": "383",
+          "DOI": "10.1093/biomet/75.2.383",
+          "article-title": "A stagewise rejective multiple test procedure based on a modified Bonferroni test",
+          "volume": "75",
+          "author": "Hommel",
+          "year": "1988",
+          "journal-title": "Biometrika"
+        },
+        {
+          "key": "10.1016/j.swevo.2011.02.002_br000215",
+          "doi-asserted-by": "crossref",
+          "first-page": "663",
+          "DOI": "10.1093/biomet/77.3.663",
+          "article-title": "A sequentially rejective test procedure based on a modified Bonferroni inequality",
+          "volume": "77",
+          "author": "Rom",
+          "year": "1990",
+          "journal-title": "Biometrika"
+        },
+        {
+          "key": "10.1016/j.swevo.2011.02.002_br000220",
+          "doi-asserted-by": "crossref",
+          "first-page": "1521",
+          "DOI": "10.1016/j.jspi.2007.04.032",
+          "article-title": "A two-step rejection procedure for testing multiple hypotheses",
+          "volume": "138",
+          "author": "Li",
+          "year": "2008",
+          "journal-title": "Journal of Statistical Planning and Inference"
+        },
+        {
+          "key": "10.1016/j.swevo.2011.02.002_br000225",
+          "doi-asserted-by": "crossref",
+          "first-page": "878",
+          "DOI": "10.1214/aoms/1177698881",
+          "article-title": "Robust procedures for some linear models with one observation per cell",
+          "volume": "38",
+          "author": "Doksum",
+          "year": "1967",
+          "journal-title": "Annals of Mathematical Statistics"
+        },
+        {
+          "key": "10.1016/j.swevo.2011.02.002_br000230",
+          "doi-asserted-by": "crossref",
+          "first-page": "2044",
+          "DOI": "10.1016/j.ins.2009.12.010",
+          "article-title": "Advanced nonparametric tests for multiple comparisons in the design of experiments in computational intelligence and data mining: Experimental analysis of power",
+          "volume": "180",
+          "author": "García",
+          "year": "2010",
+          "journal-title": "Information Sciences"
+        },
+        {
+          "key": "10.1016/j.swevo.2011.02.002_br000235",
+          "unstructured": "P.B. Nemenyi, Distribution-free Multiple comparisons, Master’s thesis, Princeton University, 1963."
+        },
+        {
+          "key": "10.1016/j.swevo.2011.02.002_br000240",
+          "doi-asserted-by": "crossref",
+          "first-page": "826",
+          "DOI": "10.2307/2289016",
+          "article-title": "Modified sequentially rejective multiple test procedures",
+          "volume": "81",
+          "author": "Shaffer",
+          "year": "1986",
+          "journal-title": "Journal of American Statistical Association"
+        },
+        {
+          "key": "10.1016/j.swevo.2011.02.002_br000245",
+          "series-title": "Multiple Hypotheses Testing",
+          "first-page": "100",
+          "article-title": "Improvements of general multiple test procedures for redundant systems of hypotheses",
+          "author": "Bergmann",
+          "year": "1988"
+        },
+        {
+          "key": "10.1016/j.swevo.2011.02.002_br000250",
+          "doi-asserted-by": "crossref",
+          "first-page": "213",
+          "DOI": "10.1016/0169-2607(94)90072-8",
+          "article-title": "A rapid algorithm and a computer program for multiple test procedures using procedures using logical structures of hypotheses",
+          "volume": "43",
+          "author": "Hommel",
+          "year": "1994",
+          "journal-title": "Computer Methods and Programs in Biomedicine"
+        },
+        {
+          "key": "10.1016/j.swevo.2011.02.002_br000255",
+          "doi-asserted-by": "crossref",
+          "first-page": "1005",
+          "DOI": "10.2307/2532694",
+          "article-title": "Adjusted p-values for simultaneous inference",
+          "volume": "48",
+          "author": "Wright",
+          "year": "1992",
+          "journal-title": "Biometrics"
+        },
+        {
+          "issue": "3",
+          "key": "10.1016/j.swevo.2011.02.002_br000260",
+          "doi-asserted-by": "crossref",
+          "first-page": "307",
+          "DOI": "10.1007/s00500-008-0323-y",
+          "article-title": "KEEL: a software tool to assess evolutionary algorithms for data mining problems",
+          "volume": "13",
+          "author": "Alcalá-Fdez",
+          "year": "2008",
+          "journal-title": "Soft Computing"
+        },
+        {
+          "issue": "2–3",
+          "key": "10.1016/j.swevo.2011.02.002_br000265",
+          "first-page": "255",
+          "article-title": "KEEL data-mining software tool: Data set repository, integration of algorithms and experimental analysis framework",
+          "volume": "17",
+          "author": "Alcalá-Fdez",
+          "year": "2011",
+          "journal-title": "Journal of Multiple-Valued Logic and Soft Computing"
+        }
+      ],
+      "container-title": [
+        "Swarm and Evolutionary Computation"
+      ],
+      "original-title": [],
+      "language": "en",
+      "link": [
+        {
+          "URL": "https://api.elsevier.com/content/article/PII:S2210650211000034?httpAccept=text/xml",
+          "content-type": "text/xml",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        },
+        {
+          "URL": "https://api.elsevier.com/content/article/PII:S2210650211000034?httpAccept=text/plain",
+          "content-type": "text/plain",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2025,
+            3,
+            4
+          ]
+        ],
+        "date-time": "2025-03-04T10:49:16Z",
+        "timestamp": 1741085356000
+      },
+      "score": 1,
+      "resource": {
+        "primary": {
+          "URL": "https://linkinghub.elsevier.com/retrieve/pii/S2210650211000034"
+        }
+      },
+      "subtitle": [],
+      "short-title": [],
+      "issued": {
+        "date-parts": [
+          [
+            2011,
+            3
+          ]
+        ]
+      },
+      "references-count": 53,
+      "journal-issue": {
+        "issue": "1",
+        "published-print": {
+          "date-parts": [
+            [
+              2011,
+              3
+            ]
+          ]
+        }
+      },
+      "alternative-id": [
+        "S2210650211000034"
+      ],
+      "URL": "https://doi.org/10.1016/j.swevo.2011.02.002",
+      "relation": {},
+      "ISSN": [
+        "2210-6502"
+      ],
+      "issn-type": [
+        {
+          "value": "2210-6502",
+          "type": "print"
+        }
+      ],
+      "subject": [],
+      "published": {
+        "date-parts": [
+          [
+            2011,
+            3
+          ]
+        ]
+      }
+    }
+  }
+}

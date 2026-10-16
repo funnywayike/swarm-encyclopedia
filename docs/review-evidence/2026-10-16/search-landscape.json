@@ -1,0 +1,2665 @@
+{
+  "query": "exploratory landscape analysis survey algorithm selection optimization",
+  "url": "https://api.crossref.org/works?query.bibliographic=exploratory+landscape+analysis+survey+algorithm+selection+optimization&rows=5&filter=until-pub-date%3A2026-10-16",
+  "retrieved": "2026-10-16",
+  "response": {
+    "status": "ok",
+    "message-type": "work-list",
+    "message-version": "1.0.0",
+    "message": {
+      "facets": {},
+      "total-results": 9272666,
+      "items": [
+        {
+          "indexed": {
+            "date-parts": [
+              [
+                2026,
+                10,
+                16
+              ]
+            ],
+            "date-time": "2026-10-16T09:44:36Z",
+            "timestamp": 1792143876826,
+            "version": "4.4.0"
+          },
+          "reference-count": 38,
+          "publisher": "MDPI AG",
+          "issue": "10",
+          "license": [
+            {
+              "start": {
+                "date-parts": [
+                  [
+                    2026,
+                    9,
+                    30
+                  ]
+                ],
+                "date-time": "2026-09-30T00:00:00Z",
+                "timestamp": 1790726400000
+              },
+              "content-version": "vor",
+              "delay-in-days": 0,
+              "URL": "https://creativecommons.org/licenses/by/4.0/"
+            },
+            {
+              "start": {
+                "date-parts": [
+                  [
+                    2026,
+                    9,
+                    30
+                  ]
+                ],
+                "date-time": "2026-09-30T00:00:00Z",
+                "timestamp": 1790726400000
+              },
+              "content-version": "tdm",
+              "delay-in-days": 0,
+              "URL": "https://creativecommons.org/licenses/by/4.0/"
+            }
+          ],
+          "content-domain": {
+            "domain": [],
+            "crossmark-restriction": false
+          },
+          "short-container-title": [
+            "Mach. Learn. Knowl. Extr.",
+            "MAKE"
+          ],
+          "abstract": "",
+          "DOI": "10.3390/make8100309",
+          "type": "journal-article",
+          "created": {
+            "date-parts": [
+              [
+                2026,
+                9,
+                30
+              ]
+            ],
+            "date-time": "2026-09-30T15:20:59Z",
+            "timestamp": 1790781659000
+          },
+          "page": "309",
+          "update-policy": "https://doi.org/10.3390/mdpi_crossmark_policy",
+          "source": "Crossref",
+          "is-referenced-by-count": 0,
+          "title": [
+            "Exploratory Landscape Analysis for Meta-Learning-Based Algorithm Selection in Continuous Optimization"
+          ],
+          "prefix": "10.3390",
+          "volume": "8",
+          "author": [
+            {
+              "given": "Vasileios",
+              "family": "Charilogis",
+              "sequence": "first",
+              "affiliation": [
+                {
+                  "name": "Department of Informatics and Telecommunications, University of Ioannina, 47150 Ioannina, Greece"
+                }
+              ],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                },
+                {
+                  "role": "conceptualization",
+                  "vocabulary": "credit"
+                },
+                {
+                  "role": "methodology",
+                  "vocabulary": "credit"
+                },
+                {
+                  "role": "software",
+                  "vocabulary": "credit"
+                }
+              ]
+            },
+            {
+              "ORCID": "https://orcid.org/0000-0002-2343-2733",
+              "authenticated-orcid": false,
+              "given": "Ioannis G.",
+              "family": "Tsoulos",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "Department of Informatics and Telecommunications, University of Ioannina, 47150 Ioannina, Greece"
+                }
+              ],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                },
+                {
+                  "role": "validation",
+                  "vocabulary": "credit"
+                },
+                {
+                  "role": "formal-analysis",
+                  "vocabulary": "credit"
+                },
+                {
+                  "role": "writing-review-editing",
+                  "vocabulary": "credit"
+                }
+              ]
+            },
+            {
+              "given": "Anna Maria",
+              "family": "Gianni",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "Department of Informatics and Telecommunications, University of Ioannina, 47150 Ioannina, Greece"
+                }
+              ],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                },
+                {
+                  "role": "visualization",
+                  "vocabulary": "credit"
+                },
+                {
+                  "role": "project-administration",
+                  "vocabulary": "credit"
+                }
+              ]
+            }
+          ],
+          "member": "1968",
+          "published-online": {
+            "date-parts": [
+              [
+                2026,
+                9,
+                30
+              ]
+            ]
+          },
+          "reference": [
+            {
+              "key": "ref_1",
+              "unstructured": "Goldberg, D.E. (1989). Genetic Algorithms in Search, Optimization, and Machine Learning, Addison-Wesley."
+            },
+            {
+              "key": "ref_2",
+              "doi-asserted-by": "crossref",
+              "first-page": "341",
+              "DOI": "10.1023/A:1008202821328",
+              "article-title": "Differential evolution—A simple and efficient heuristic for global optimization over continuous spaces",
+              "volume": "11",
+              "author": "Storn",
+              "year": "1997",
+              "journal-title": "J. Glob. Optim."
+            },
+            {
+              "key": "ref_3",
+              "doi-asserted-by": "crossref",
+              "first-page": "945",
+              "DOI": "10.1109/TEVC.2009.2014613",
+              "article-title": "JADE: Adaptive differential evolution with optional external archive",
+              "volume": "13",
+              "author": "Zhang",
+              "year": "2009",
+              "journal-title": "IEEE Trans. Evol. Comput."
+            },
+            {
+              "key": "ref_4",
+              "doi-asserted-by": "crossref",
+              "unstructured": "Tanabe, R., and Fukunaga, A. (2013). Success-history based parameter adaptation for differential evolution. 2013 IEEE Congress on Evolutionary Computation (CEC), IEEE.",
+              "DOI": "10.1109/CEC.2013.6557555"
+            },
+            {
+              "key": "ref_5",
+              "doi-asserted-by": "crossref",
+              "unstructured": "Tanabe, R., and Fukunaga, A.S. (2014). Improving the search performance of SHADE using linear population size reduction. 2014 IEEE Congress on Evolutionary Computation (CEC), IEEE.",
+              "DOI": "10.1109/CEC.2014.6900380"
+            },
+            {
+              "key": "ref_6",
+              "doi-asserted-by": "crossref",
+              "unstructured": "Brest, J., Maučec, M.S., and Bošković, B. (2017). Single objective real-parameter optimization: Algorithm jSO. 2017 IEEE Congress on Evolutionary Computation (CEC), IEEE.",
+              "DOI": "10.1109/CEC.2017.7969456"
+            },
+            {
+              "key": "ref_7",
+              "doi-asserted-by": "crossref",
+              "first-page": "159",
+              "DOI": "10.1162/106365601750190398",
+              "article-title": "Completely derandomized self-adaptation in evolution strategies",
+              "volume": "9",
+              "author": "Hansen",
+              "year": "2001",
+              "journal-title": "Evol. Comput."
+            },
+            {
+              "key": "ref_8",
+              "doi-asserted-by": "crossref",
+              "first-page": "1942",
+              "DOI": "10.1109/ICNN.1995.488968",
+              "article-title": "Particle swarm optimization",
+              "volume": "Volume 4",
+              "author": "Kennedy",
+              "year": "1995",
+              "journal-title": "Proceedings of ICNN’95—International Conference on Neural Networks"
+            },
+            {
+              "key": "ref_9",
+              "doi-asserted-by": "crossref",
+              "first-page": "1155",
+              "DOI": "10.1016/j.ejor.2006.06.046",
+              "article-title": "Ant colony optimization for continuous domains",
+              "volume": "185",
+              "author": "Socha",
+              "year": "2008",
+              "journal-title": "Eur. J. Oper. Res."
+            },
+            {
+              "key": "ref_10",
+              "doi-asserted-by": "crossref",
+              "first-page": "46",
+              "DOI": "10.1016/j.advengsoft.2013.12.007",
+              "article-title": "Grey wolf optimizer",
+              "volume": "69",
+              "author": "Mirjalili",
+              "year": "2014",
+              "journal-title": "Adv. Eng. Softw."
+            },
+            {
+              "key": "ref_11",
+              "doi-asserted-by": "crossref",
+              "first-page": "671",
+              "DOI": "10.1126/science.220.4598.671",
+              "article-title": "Optimization by simulated annealing",
+              "volume": "220",
+              "author": "Kirkpatrick",
+              "year": "1983",
+              "journal-title": "Science"
+            },
+            {
+              "key": "ref_12",
+              "doi-asserted-by": "crossref",
+              "first-page": "67",
+              "DOI": "10.1109/4235.585893",
+              "article-title": "No free lunch theorems for optimization",
+              "volume": "1",
+              "author": "Wolpert",
+              "year": "1997",
+              "journal-title": "IEEE Trans. Evol."
+            },
+            {
+              "key": "ref_13",
+              "doi-asserted-by": "crossref",
+              "first-page": "65",
+              "DOI": "10.1016/S0065-2458(08)60520-3",
+              "article-title": "The algorithm selection problem",
+              "volume": "15",
+              "author": "Rice",
+              "year": "1976",
+              "journal-title": "Adv. Comput."
+            },
+            {
+              "key": "ref_14",
+              "first-page": "6",
+              "article-title": "Cross-disciplinary perspectives on meta-learning for algorithm selection",
+              "volume": "41",
+              "year": "2009",
+              "journal-title": "ACM Comput. Surv."
+            },
+            {
+              "key": "ref_15",
+              "doi-asserted-by": "crossref",
+              "unstructured": "Cenikj, G., Nikolikj, A., Petelin, G., van Stein, N., Doerr, C., and Eftimov, T. (2024). A survey of meta-features used for automated selection of algorithms for black-box single-objective continuous optimization. arXiv.",
+              "DOI": "10.1145/3712255.3735518"
+            },
+            {
+              "key": "ref_16",
+              "doi-asserted-by": "crossref",
+              "unstructured": "Mersmann, O., Bischl, B., Trautmann, H., Preuss, M., Weihs, C., and Rudolph, G. (2011). Exploratory landscape analysis. Proceedings of the 13th Annual Conference on Genetic and Evolutionary Computation (GECCO ’11), ACM.",
+              "DOI": "10.1145/2001576.2001690"
+            },
+            {
+              "key": "ref_17",
+              "doi-asserted-by": "crossref",
+              "unstructured": "Bischl, B., Mersmann, O., Trautmann, H., and Preuss, M. (2012). Algorithm selection based on exploratory landscape analysis and cost-sensitive learning. Proceedings of the 14th Annual Conference on Genetic and Evolutionary Computation (GECCO ’12), ACM.",
+              "DOI": "10.1145/2330163.2330209"
+            },
+            {
+              "key": "ref_18",
+              "doi-asserted-by": "crossref",
+              "first-page": "99",
+              "DOI": "10.1162/evco_a_00236",
+              "article-title": "Automated algorithm selection on continuous black-box problems by combining exploratory landscape analysis and machine learning",
+              "volume": "27",
+              "author": "Kerschke",
+              "year": "2019",
+              "journal-title": "Evol. Comput."
+            },
+            {
+              "key": "ref_19",
+              "doi-asserted-by": "crossref",
+              "first-page": "3",
+              "DOI": "10.1162/evco_a_00242",
+              "article-title": "Automated algorithm selection: Survey and perspectives",
+              "volume": "27",
+              "author": "Kerschke",
+              "year": "2019",
+              "journal-title": "Evol. Comput."
+            },
+            {
+              "key": "ref_20",
+              "doi-asserted-by": "crossref",
+              "first-page": "224",
+              "DOI": "10.1016/j.ins.2015.01.037",
+              "article-title": "Algorithm selection for black-box continuous optimization problems: A survey on methods and challenges",
+              "volume": "317",
+              "author": "Sun",
+              "year": "2015",
+              "journal-title": "Inf. Sci."
+            },
+            {
+              "key": "ref_21",
+              "doi-asserted-by": "crossref",
+              "unstructured": "Malan, K.M. (2021). A survey of advances in landscape analysis for optimisation. Algorithms, 14.",
+              "DOI": "10.3390/a14020040"
+            },
+            {
+              "key": "ref_22",
+              "doi-asserted-by": "crossref",
+              "first-page": "1321",
+              "DOI": "10.1109/TEVC.2022.3169770",
+              "article-title": "Benchmarking feature-based algorithm selection systems for black-box numerical optimization",
+              "volume": "26",
+              "author": "Tanabe",
+              "year": "2022",
+              "journal-title": "IEEE Trans. Evol. Comput."
+            },
+            {
+              "key": "ref_23",
+              "doi-asserted-by": "crossref",
+              "unstructured": "Charilogis, V., Tsoulos, I.G., and Gianni, A.M. (2026). OptimSolution: A cross-platform framework for benchmarking, sensitivity, and complexity analysis of continuous optimisation methods. Software, 5.",
+              "DOI": "10.3390/software5030028"
+            },
+            {
+              "key": "ref_24",
+              "doi-asserted-by": "crossref",
+              "first-page": "675",
+              "DOI": "10.1080/01621459.1937.10503522",
+              "article-title": "The use of ranks to avoid the assumption of normality implicit in the analysis of variance",
+              "volume": "32",
+              "author": "Friedman",
+              "year": "1937",
+              "journal-title": "J. Am. Stat. Assoc."
+            },
+            {
+              "key": "ref_25",
+              "first-page": "65",
+              "article-title": "A simple sequentially rejective multiple test procedure",
+              "volume": "6",
+              "author": "Holm",
+              "year": "1979",
+              "journal-title": "Scand. J. Stat."
+            },
+            {
+              "key": "ref_26",
+              "doi-asserted-by": "crossref",
+              "first-page": "80",
+              "DOI": "10.2307/3001968",
+              "article-title": "Individual comparisons by ranking methods",
+              "volume": "1",
+              "author": "Wilcoxon",
+              "year": "1945",
+              "journal-title": "Biom. Bull."
+            },
+            {
+              "key": "ref_27",
+              "doi-asserted-by": "crossref",
+              "first-page": "617",
+              "DOI": "10.1007/s10732-008-9080-4",
+              "article-title": "A study on the use of non-parametric tests for analyzing the evolutionary algorithms’ behaviour: A case study on the CEC’2005 special session on real parameter optimization",
+              "volume": "15",
+              "author": "Molina",
+              "year": "2009",
+              "journal-title": "J. Heuristics"
+            },
+            {
+              "key": "ref_28",
+              "first-page": "1",
+              "article-title": "Statistical comparisons of classifiers over multiple data sets",
+              "volume": "7",
+              "year": "2006",
+              "journal-title": "J. Mach. Learn. Res."
+            },
+            {
+              "key": "ref_29",
+              "doi-asserted-by": "crossref",
+              "first-page": "100665",
+              "DOI": "10.1016/j.swevo.2020.100665",
+              "article-title": "Recent trends in the use of statistical tests for comparing swarm and evolutionary computing algorithms: Practical guidelines and a critical review",
+              "volume": "54",
+              "author": "Carrasco",
+              "year": "2020",
+              "journal-title": "Swarm Evol. Comput."
+            },
+            {
+              "key": "ref_30",
+              "doi-asserted-by": "crossref",
+              "first-page": "5",
+              "DOI": "10.1023/A:1010933404324",
+              "article-title": "Random forests",
+              "volume": "45",
+              "author": "Breiman",
+              "year": "2001",
+              "journal-title": "Mach. Learn."
+            },
+            {
+              "key": "ref_31",
+              "unstructured": "Awad, N.H., Ali, M.Z., Liang, J.J., Qu, B.Y., and Suganthan, P.N. (2016). Problem Definitions and Evaluation Criteria for the CEC 2017 Special Session and Competition on Single Objective Bound Constrained Real-Parameter Numerical Optimization, Nanyang Technological University. Technical Report."
+            },
+            {
+              "key": "ref_32",
+              "unstructured": "Kumar, A., Price, K.V., Mohamed, A.W., Hadi, A.A., and Suganthan, P.N. (2021). Problem Definitions and Evaluation Criteria for the CEC 2022 Special Session and Competition on Single Objective Bound Constrained Numerical Optimization, Nanyang Technological University. Technical Report."
+            },
+            {
+              "key": "ref_33",
+              "doi-asserted-by": "crossref",
+              "first-page": "211",
+              "DOI": "10.1162/evco_a_00341",
+              "article-title": "Pflacco: Feature-based landscape analysis of continuous and constrained optimization problems in Python",
+              "volume": "32",
+              "author": "Prager",
+              "year": "2024",
+              "journal-title": "Evol. Comput."
+            },
+            {
+              "key": "ref_34",
+              "doi-asserted-by": "crossref",
+              "first-page": "106138",
+              "DOI": "10.1016/j.asoc.2020.106138",
+              "article-title": "Understanding the problem space in single-objective numerical optimization using exploratory landscape analysis",
+              "volume": "90",
+              "author": "Eftimov",
+              "year": "2020",
+              "journal-title": "Appl. Soft Comput."
+            },
+            {
+              "key": "ref_35",
+              "doi-asserted-by": "crossref",
+              "unstructured": "Charilogis, V., Tsoulos, I.G., and Gianni, A.M. (2026). A Comparative Evaluation of SPARQ Against Leading Metaheuristics. AppliedMath, 6.",
+              "DOI": "10.3390/appliedmath6080138"
+            },
+            {
+              "key": "ref_36",
+              "doi-asserted-by": "crossref",
+              "unstructured": "Bujok, P., and Kolenovský, P. (2002, January 12–17). Eigen crossover in cooperative model of evolutionary algorithms applied to CEC 2022 single objective numerical optimisation. Proceedings of the IEEE Congress on Evolutionary Computation (CEC), Honolulu, HI, USA.",
+              "DOI": "10.1109/CEC55065.2022.9870433"
+            },
+            {
+              "key": "ref_37",
+              "unstructured": "Tao, S., Zhao, R., Wang, K., and Gao, S. (2024). An efficient reconstructed differential evolution variant by some of the current state-of-the-art strategies for solving single objective bound constrained problems. arXiv."
+            },
+            {
+              "key": "ref_38",
+              "doi-asserted-by": "crossref",
+              "unstructured": "Loshchilov, I. (2014, January 12–16). A computationally efficient limited memory CMA-ES for large scale optimization. Proceedings of the Genetic and Evolutionary Computation Conference (GECCO), Vancouver, BC, Canada.",
+              "DOI": "10.1145/2576768.2598294"
+            }
+          ],
+          "container-title": [
+            "Machine Learning and Knowledge Extraction"
+          ],
+          "language": "en",
+          "link": [
+            {
+              "URL": "https://www.mdpi.com/2504-4990/8/10/309/pdf",
+              "content-type": "unspecified",
+              "content-version": "vor",
+              "intended-application": "similarity-checking"
+            }
+          ],
+          "deposited": {
+            "date-parts": [
+              [
+                2026,
+                10,
+                16
+              ]
+            ],
+            "date-time": "2026-10-16T08:52:17Z",
+            "timestamp": 1792140737000
+          },
+          "score": 32.80164,
+          "resource": {
+            "primary": {
+              "URL": "https://www.mdpi.com/2504-4990/8/10/309"
+            }
+          },
+          "issued": {
+            "date-parts": [
+              [
+                2026,
+                9,
+                30
+              ]
+            ]
+          },
+          "references-count": 38,
+          "journal-issue": {
+            "issue": "10",
+            "published-online": {
+              "date-parts": [
+                [
+                  2026,
+                  10
+                ]
+              ]
+            }
+          },
+          "alternative-id": [
+            "make8100309"
+          ],
+          "URL": "https://doi.org/10.3390/make8100309",
+          "ISSN": [
+            "2504-4990"
+          ],
+          "issn-type": [
+            {
+              "value": "2504-4990",
+              "type": "electronic"
+            }
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2026,
+                9,
+                30
+              ]
+            ]
+          }
+        },
+        {
+          "indexed": {
+            "date-parts": [
+              [
+                2026,
+                10,
+                14
+              ]
+            ],
+            "date-time": "2026-10-14T02:50:11Z",
+            "timestamp": 1791946211980,
+            "version": "4.3.4"
+          },
+          "reference-count": 72,
+          "publisher": "MIT Press",
+          "issue": "1",
+          "content-domain": {
+            "domain": [],
+            "crossmark-restriction": false
+          },
+          "short-container-title": [
+            "Evolutionary Computation"
+          ],
+          "published-print": {
+            "date-parts": [
+              [
+                2019,
+                3
+              ]
+            ]
+          },
+          "abstract": "",
+          "DOI": "10.1162/evco_a_00236",
+          "type": "journal-article",
+          "created": {
+            "date-parts": [
+              [
+                2018,
+                10,
+                26
+              ]
+            ],
+            "date-time": "2018-10-26T13:25:30Z",
+            "timestamp": 1540560330000
+          },
+          "page": "99-127",
+          "source": "Crossref",
+          "is-referenced-by-count": 165,
+          "title": [
+            "Automated Algorithm Selection on Continuous Black-Box Problems by Combining Exploratory Landscape Analysis and Machine Learning"
+          ],
+          "prefix": "10.1162",
+          "volume": "27",
+          "author": [
+            {
+              "given": "Pascal",
+              "family": "Kerschke",
+              "sequence": "first",
+              "affiliation": [
+                {
+                  "name": "Information Systems and Statistics, University of Münster, 48149 Münster, Germany"
+                }
+              ],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Heike",
+              "family": "Trautmann",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "Information Systems and Statistics, University of Münster, 48149 Münster, Germany"
+                }
+              ],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            }
+          ],
+          "member": "281",
+          "reference": [
+            {
+              "key": "B1",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1007/978-3-642-44973-4_4"
+            },
+            {
+              "key": "B2",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1145/2739482.2768467"
+            },
+            {
+              "key": "B3",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1145/2464576.2482701"
+            },
+            {
+              "key": "B4",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1109/CEC.2005.1554902"
+            },
+            {
+              "key": "B5",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1145/2739480.2754717"
+            },
+            {
+              "key": "B6",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.2514/6.2002-1274"
+            },
+            {
+              "key": "B7",
+              "first-page": "237:41",
+              "author": "Bischl B.",
+              "year": "2016",
+              "journal-title": "Artificial Intelligence Journal"
+            },
+            {
+              "issue": "170",
+              "key": "B8",
+              "first-page": "1",
+              "volume": "17",
+              "author": "Bischl B.",
+              "year": "2016",
+              "journal-title": "Journal of Machine Learning Research"
+            },
+            {
+              "key": "B9",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1145/2330163.2330209"
+            },
+            {
+              "key": "B10",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.32614/RJ-2017-004"
+            },
+            {
+              "key": "B11",
+              "first-page": "215",
+              "author": "Bossek J.",
+              "year": "2018",
+              "journal-title": "Proceedings of the 12th International Conference on Learning and Intelligent Optimization"
+            },
+            {
+              "key": "B12",
+              "volume-title": "Algorithms for minimization without derivatives",
+              "author": "Brent R. P",
+              "year": "2013"
+            },
+            {
+              "issue": "3",
+              "key": "B13",
+              "first-page": "222",
+              "volume": "6",
+              "author": "Broyden C. G",
+              "year": "1970",
+              "journal-title": "Journal of Applied Mathematics"
+            },
+            {
+              "key": "B14",
+              "first-page": "457",
+              "author": "Burke E.",
+              "year": "2003",
+              "journal-title": "Hyper-Heuristics: An emerging direction in modern search technology"
+            },
+            {
+              "key": "B15",
+              "author": "Chen T.",
+              "year": "2017",
+              "journal-title": "xgboost: Extreme Gradient Boosting"
+            },
+            {
+              "key": "B16",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1162/evco_a_00193"
+            },
+            {
+              "key": "B17",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1007/978-3-662-44874-8"
+            },
+            {
+              "key": "B18",
+              "first-page": "2962",
+              "volume-title": "Advances in neural information processing systems",
+              "volume": "28",
+              "author": "Feurer M.",
+              "year": "2015"
+            },
+            {
+              "key": "B19",
+              "author": "Finck S.",
+              "year": "2010",
+              "journal-title": "Real-parameter black-box optimization benchmarking 2010: Presentation of the noiseless functions"
+            },
+            {
+              "key": "B20",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1145/1570256.1570333"
+            },
+            {
+              "key": "B22",
+              "author": "Hansen N.",
+              "year": "2016",
+              "journal-title": "CoRR"
+            },
+            {
+              "key": "B23",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1162/106365601750190398"
+            },
+            {
+              "key": "B24",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1145/3067695.3082477"
+            },
+            {
+              "key": "B25",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1145/2464576.2501592"
+            },
+            {
+              "key": "B26",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1007/978-3-642-25566-3_40"
+            },
+            {
+              "key": "B27",
+              "first-page": "206:79",
+              "author": "Hutter F.",
+              "year": "2014",
+              "journal-title": "Artificial Intelligence Journal"
+            },
+            {
+              "key": "B28",
+              "volume-title": "Proceedings of the 11th Annual Conference on Genetic and Evolutionary Computation (GECCO)",
+              "author": "Huyer W.",
+              "year": "2009"
+            },
+            {
+              "key": "B29",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1007/BF00941892"
+            },
+            {
+              "key": "B30",
+              "first-page": "184",
+              "volume-title": "Proceedings of the 6th International Conference on Genetic Algorithms",
+              "author": "Jones T.",
+              "year": "1995"
+            },
+            {
+              "key": "B31",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.18637/jss.v011.i09"
+            },
+            {
+              "key": "B33",
+              "author": "Kerschke P.",
+              "year": "2017",
+              "journal-title": "flacco: Feature-Based Landscape Analysis of Continuous and Constrained Optimization Problems"
+            },
+            {
+              "key": "B34",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1145/3205651.3208233"
+            },
+            {
+              "key": "B35",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1007/978-3-319-54157-0_23"
+            },
+            {
+              "key": "B36",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1162/evco_a_00215"
+            },
+            {
+              "key": "B37",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1007/978-3-319-07494-8_9"
+            },
+            {
+              "key": "B38",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1145/2739480.2754642"
+            },
+            {
+              "key": "B39",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1145/2908812.2908845"
+            },
+            {
+              "key": "B40",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1109/CEC.2016.7748359"
+            },
+            {
+              "key": "B41",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1007/978-3-319-45823-6_90"
+            },
+            {
+              "key": "B42",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1162/evco_a_00234"
+            },
+            {
+              "key": "B43",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1007/978-3-319-19084-6_18"
+            },
+            {
+              "key": "B44",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1007/0-306-48126-X_7"
+            },
+            {
+              "key": "B45",
+              "author": "Leisch F.",
+              "year": "2016",
+              "journal-title": "mda: Mixture and Flexible Discriminant Analysis"
+            },
+            {
+              "issue": "3",
+              "key": "B46",
+              "first-page": "18",
+              "volume": "2",
+              "author": "Liaw A.",
+              "year": "2002",
+              "journal-title": "R News"
+            },
+            {
+              "key": "B47",
+              "doi-asserted-by": "crossref",
+              "first-page": "1177",
+              "DOI": "10.1145/2464576.2482696",
+              "volume-title": "Proceedings of the 15th Annual Conference on Genetic and Evolutionary Computation (GECCO)",
+              "author": "Loshchilov I.",
+              "year": "2013"
+            },
+            {
+              "key": "B48",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1145/2463372.2463427"
+            },
+            {
+              "key": "B49",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1145/1143997.1144085"
+            },
+            {
+              "key": "B50",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1109/CEC.2009.4983112"
+            },
+            {
+              "key": "B51",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1109/CEC.2015.7257045"
+            },
+            {
+              "key": "B53",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1145/2001576.2001690"
+            },
+            {
+              "key": "B54",
+              "first-page": "69:151",
+              "author": "Mersmann O.",
+              "year": "2013",
+              "journal-title": "Annals of Mathematics and Artificial Intelligence"
+            },
+            {
+              "key": "B55",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1162/EVCO_a_00134"
+            },
+            {
+              "key": "B56",
+              "first-page": "1",
+              "author": "Morgan R.",
+              "year": "2015",
+              "journal-title": "Soft Computing"
+            },
+            {
+              "key": "B57",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1007/978-3-642-20525-5_30"
+            },
+            {
+              "key": "B58",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1109/TEVC.2014.2302006"
+            },
+            {
+              "key": "B59",
+              "first-page": "317:224",
+              "author": "Muñoz Acosta M. A.",
+              "year": "2015",
+              "journal-title": "Information Sciences"
+            },
+            {
+              "key": "B60",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1007/978-3-642-41888-4_9"
+            },
+            {
+              "key": "B61",
+              "doi-asserted-by": "crossref",
+              "first-page": "1153",
+              "DOI": "10.1145/2464576.2482693",
+              "volume-title": "Proceedings of the 15th Annual Conference on Genetic and Evolutionary Computation (GECCO)",
+              "author": "Pál L",
+              "year": "2013"
+            },
+            {
+              "key": "B62",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1109/ICTAI.2014.18"
+            },
+            {
+              "key": "B63",
+              "first-page": "1151",
+              "volume-title": "Proceedings of the 17th Annual Conference on Genetic and Evolutionary Computation (GECCO)",
+              "author": "Pošík P.",
+              "year": "2015"
+            },
+            {
+              "key": "B64",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1007/0-387-30065-1_16"
+            },
+            {
+              "key": "B65",
+              "author": "R Core Team",
+              "year": "2017",
+              "journal-title": "R: A Language and Environment for Statistical Computing"
+            },
+            {
+              "key": "B66",
+              "author": "Rasmussen C. E.",
+              "year": "2006",
+              "journal-title": "Gaussian processes for machine learning"
+            },
+            {
+              "key": "B67",
+              "first-page": "15:65",
+              "author": "Rice J. R.",
+              "year": "1976",
+              "journal-title": "Advances in Computers"
+            },
+            {
+              "key": "B68",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1007/BF02592071"
+            },
+            {
+              "key": "B69",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1007/s00500-016-2091-4"
+            },
+            {
+              "key": "B70",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1109/ICEC.1994.349896"
+            },
+            {
+              "key": "B71",
+              "author": "Therneau T.",
+              "year": "2017",
+              "journal-title": "rpart: Recursive Partitioning and Regression Trees"
+            },
+            {
+              "key": "B72",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1287/ijoc.1060.0175"
+            },
+            {
+              "key": "B73",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1109/SSCI.2016.7850138"
+            },
+            {
+              "key": "B74",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1145/3071178.3071205"
+            },
+            {
+              "key": "B75",
+              "author": "VanRossum G.",
+              "year": "2015",
+              "journal-title": "The Python Language Reference—Release 3.5.0"
+            }
+          ],
+          "container-title": [
+            "Evolutionary Computation"
+          ],
+          "language": "en",
+          "link": [
+            {
+              "URL": "https://www.mitpressjournals.org/doi/pdf/10.1162/evco_a_00236",
+              "content-type": "unspecified",
+              "content-version": "vor",
+              "intended-application": "similarity-checking"
+            }
+          ],
+          "deposited": {
+            "date-parts": [
+              [
+                2022,
+                9,
+                4
+              ]
+            ],
+            "date-time": "2022-09-04T15:22:29Z",
+            "timestamp": 1662304949000
+          },
+          "score": 28.500183,
+          "resource": {
+            "primary": {
+              "URL": "https://direct.mit.edu/evco/article/27/1/99-127/1079"
+            }
+          },
+          "issued": {
+            "date-parts": [
+              [
+                2019,
+                3
+              ]
+            ]
+          },
+          "references-count": 72,
+          "journal-issue": {
+            "issue": "1",
+            "published-print": {
+              "date-parts": [
+                [
+                  2019,
+                  3
+                ]
+              ]
+            }
+          },
+          "alternative-id": [
+            "10.1162/evco_a_00236"
+          ],
+          "URL": "https://doi.org/10.1162/evco_a_00236",
+          "ISSN": [
+            "1063-6560",
+            "1530-9304"
+          ],
+          "issn-type": [
+            {
+              "value": "1063-6560",
+              "type": "print"
+            },
+            {
+              "value": "1530-9304",
+              "type": "electronic"
+            }
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2019,
+                3
+              ]
+            ]
+          }
+        },
+        {
+          "indexed": {
+            "date-parts": [
+              [
+                2026,
+                10,
+                12
+              ]
+            ],
+            "date-time": "2026-10-12T00:37:52Z",
+            "timestamp": 1791765472272,
+            "version": "4.3.4"
+          },
+          "publisher-location": "New York, NY, USA",
+          "reference-count": 18,
+          "publisher": "ACM",
+          "license": [
+            {
+              "start": {
+                "date-parts": [
+                  [
+                    2012,
+                    7,
+                    7
+                  ]
+                ],
+                "date-time": "2012-07-07T00:00:00Z",
+                "timestamp": 1341619200000
+              },
+              "content-version": "vor",
+              "delay-in-days": 0,
+              "URL": "https://www.acm.org/publications/policies/copyright_policy#Background"
+            }
+          ],
+          "content-domain": {
+            "domain": [
+              "dl.acm.org"
+            ],
+            "crossmark-restriction": true
+          },
+          "published-print": {
+            "date-parts": [
+              [
+                2012,
+                7,
+                7
+              ]
+            ]
+          },
+          "DOI": "10.1145/2330163.2330209",
+          "type": "proceedings-article",
+          "created": {
+            "date-parts": [
+              [
+                2012,
+                7,
+                10
+              ]
+            ],
+            "date-time": "2012-07-10T12:41:12Z",
+            "timestamp": 1341924072000
+          },
+          "page": "313-320",
+          "update-policy": "https://doi.org/10.1145/crossmark-policy",
+          "source": "Crossref",
+          "is-referenced-by-count": 116,
+          "title": [
+            "Algorithm selection based on exploratory landscape analysis and cost-sensitive learning"
+          ],
+          "prefix": "10.1145",
+          "author": [
+            {
+              "given": "Bernd",
+              "family": "Bischl",
+              "sequence": "first",
+              "affiliation": [
+                {
+                  "name": "TU Dortmund, Dortmund, Germany"
+                }
+              ],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Olaf",
+              "family": "Mersmann",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "TU Dortmund, Dortmund, Germany"
+                }
+              ],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Heike",
+              "family": "Trautmann",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "TU Dortmund, Dortmund, Germany"
+                }
+              ],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Mike",
+              "family": "Preuß",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "TU Dortmund, Dortmund, Germany"
+                }
+              ],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            }
+          ],
+          "member": "320",
+          "published-online": {
+            "date-parts": [
+              [
+                2012,
+                7,
+                7
+              ]
+            ]
+          },
+          "reference": [
+            {
+              "key": "e_1_3_2_1_1_1",
+              "volume-title": "Technical Report RT-388, INRIA. 09.",
+              "author": "Auger A.",
+              "year": "2010",
+              "unstructured": "Auger , A. , Finck , S. , Hansen , N. , and Ros , R . 2010 . BBOB 2010: Comparison Tables of All Algorithms on All Noiseless Functions . Technical Report RT-388, INRIA. 09. Auger, A., Finck, S., Hansen, N., and Ros, R. 2010. BBOB 2010: Comparison Tables of All Algorithms on All Noiseless Functions. Technical Report RT-388, INRIA. 09."
+            },
+            {
+              "key": "e_1_3_2_1_2_1",
+              "doi-asserted-by": "crossref",
+              "unstructured": "Bartz-Beielstein T. and Preuss M. 2012. Experimental analysis of optimization algorithms: Tuning and beyond. In Theory and Principled Methods for Designing Metaheuristics Y. Borenstein and A. Moraglio Eds. Springer New York.  Bartz-Beielstein T. and Preuss M. 2012. Experimental analysis of optimization algorithms: Tuning and beyond. In Theory and Principled Methods for Designing Metaheuristics Y. Borenstein and A. Moraglio Eds. Springer New York.",
+              "DOI": "10.1007/978-3-642-33206-7_10"
+            },
+            {
+              "key": "e_1_3_2_1_3_1",
+              "doi-asserted-by": "crossref",
+              "unstructured": "Bleuler S. Laumanns M. Thiele L. and Zitzler E. 2003. PISA - a platform and programming language independent interface for search algorithms. In Evolutionary Multi-Criterion Optimization (EMO 2003) C. M. Fonseca P. J. Fleming E. Zitzler K. Deb and L. Thiele Eds. Lecture Notes in Computer Science. Springer Berlin 494--508.   Bleuler S. Laumanns M. Thiele L. and Zitzler E. 2003. PISA - a platform and programming language independent interface for search algorithms. In Evolutionary Multi-Criterion Optimization (EMO 2003) C. M. Fonseca P. J. Fleming E. Zitzler K. Deb and L. Thiele Eds. Lecture Notes in Computer Science. Springer Berlin 494--508.",
+              "DOI": "10.1007/3-540-36970-8_35"
+            },
+            {
+              "key": "e_1_3_2_1_4_1",
+              "volume-title": "In Proceedings of the IEEE Congress on Evolutionary Computation. IEEE Press, 1777--1784",
+              "author": "Hansen N.",
+              "unstructured": "Hansen , N. and Auger , A . 2005. Performance evaluation of an advanced local search evolutionary algorithm . In In Proceedings of the IEEE Congress on Evolutionary Computation. IEEE Press, 1777--1784 . Hansen, N. and Auger, A. 2005. Performance evaluation of an advanced local search evolutionary algorithm. In In Proceedings of the IEEE Congress on Evolutionary Computation. IEEE Press, 1777--1784."
+            },
+            {
+              "key": "e_1_3_2_1_5_1",
+              "volume-title": "Tech. Rep. RR-6828, INRIA.",
+              "author": "Hansen N.",
+              "year": "2009",
+              "unstructured": "Hansen , N. , Auger , A. , Finck , S. , and Ros , R . 2009 . Real-parameter black-box optimization benchmarking 2009: Experimental setup. Tech. Rep. RR-6828, INRIA. Hansen, N., Auger, A., Finck, S., and Ros, R. 2009. Real-parameter black-box optimization benchmarking 2009: Experimental setup. Tech. Rep. RR-6828, INRIA."
+            },
+            {
+              "key": "e_1_3_2_1_6_1",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1145/1830761.1830790"
+            },
+            {
+              "key": "e_1_3_2_1_7_1",
+              "volume-title": "Tech. Rep. RR-6829, INRIA.",
+              "author": "Hansen N.",
+              "year": "2009",
+              "unstructured": "Hansen , N. , Finck , S. , Ros , R. , and Auger , A . 2009 . Real-parameter black-box optimization benchmarking 2009: Noiseless functions definitions. Tech. Rep. RR-6829, INRIA. Hansen, N., Finck, S., Ros, R., and Auger, A. 2009. Real-parameter black-box optimization benchmarking 2009: Noiseless functions definitions. Tech. Rep. RR-6829, INRIA."
+            },
+            {
+              "key": "e_1_3_2_1_8_1",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1145/1830761.1830768"
+            },
+            {
+              "key": "e_1_3_2_1_9_1",
+              "doi-asserted-by": "crossref",
+              "unstructured": "Hastie T. Tibshirani R. and Friedman J. 2001. The Elements of Statistical Learning. Springer New York.  Hastie T. Tibshirani R. and Friedman J. 2001. The Elements of Statistical Learning. Springer New York.",
+              "DOI": "10.1007/978-0-387-21606-5"
+            },
+            {
+              "key": "e_1_3_2_1_10_1",
+              "volume-title": "Proceedings of the Sixth International Conference on Genetic Algorithms. Morgan Kaufmann, 184--192",
+              "author": "Jones T.",
+              "unstructured": "Jones , T. and Forrest , S . 1995. Fitness distance correlation as a measure of problem difficulty for genetic algorithms . In Proceedings of the Sixth International Conference on Genetic Algorithms. Morgan Kaufmann, 184--192 . Jones, T. and Forrest, S. 1995. Fitness distance correlation as a measure of problem difficulty for genetic algorithms. In Proceedings of the Sixth International Conference on Genetic Algorithms. Morgan Kaufmann, 184--192."
+            },
+            {
+              "key": "e_1_3_2_1_11_1",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.18637/jss.v011.i09"
+            },
+            {
+              "key": "e_1_3_2_1_12_1",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1145/2001576.2001690"
+            },
+            {
+              "key": "e_1_3_2_1_13_1",
+              "volume-title": "PPSN XI: Proceedings of the 11th International Conference on Parallel Problem Solving from Nature, R. Schaefer et al, Eds. Lecture Notes in Computer Science 6238",
+              "author": "Mersmann O.",
+              "unstructured": "Mersmann , O. , Preuss , M. , and Trautmann , H . 2010a. Benchmarking evolutionary algorithms: Towards exploratory landscape analysis . In PPSN XI: Proceedings of the 11th International Conference on Parallel Problem Solving from Nature, R. Schaefer et al, Eds. Lecture Notes in Computer Science 6238 . Springer, 71--80. Mersmann, O., Preuss, M., and Trautmann, H. 2010a. Benchmarking evolutionary algorithms: Towards exploratory landscape analysis. In PPSN XI: Proceedings of the 11th International Conference on Parallel Problem Solving from Nature, R. Schaefer et al, Eds. Lecture Notes in Computer Science 6238. Springer, 71--80."
+            },
+            {
+              "key": "e_1_3_2_1_14_1",
+              "unstructured": "Mersmann O. Preuss M. Trautmann H. Bischl B. and Weihs C. 2011a. Analyzing the BBOB Results by Means of Benchmarking Concepts. Evolutionary Computation Journal accepted.  Mersmann O. Preuss M. Trautmann H. Bischl B. and Weihs C. 2011a. Analyzing the BBOB Results by Means of Benchmarking Concepts. Evolutionary Computation Journal accepted."
+            },
+            {
+              "key": "e_1_3_2_1_15_1",
+              "volume-title": "Congress on Evolutionary Computation (CEC), H. Ishibuchi et al, Eds. IEEE Press, Piscataway NJ.",
+              "author": "Mersmann O.",
+              "unstructured": "Mersmann , O. , Trautmann , H. , Naujoks , B. , and Weihs , C . 2010. Benchmarking evolutionary multiobjective optimization algorithms . In Congress on Evolutionary Computation (CEC), H. Ishibuchi et al, Eds. IEEE Press, Piscataway NJ. Mersmann, O., Trautmann, H., Naujoks, B., and Weihs, C. 2010. Benchmarking evolutionary multiobjective optimization algorithms. In Congress on Evolutionary Computation (CEC), H. Ishibuchi et al, Eds. IEEE Press, Piscataway NJ."
+            },
+            {
+              "key": "e_1_3_2_1_16_1",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1016/S0065-2458(08)60520-3"
+            },
+            {
+              "key": "e_1_3_2_1_17_1",
+              "volume-title": "-T",
+              "author": "Tu H.-H.",
+              "year": "2010",
+              "unstructured": "Tu , H.-H. and Lin , H . -T . 2010 . One-sided support vector regression for multiclass cost-sensitive classification. In ICML, J. Fürnkranz and T. Joachims, Eds. Omnipress , 1095--1102. Tu, H.-H. and Lin, H.-T. 2010. One-sided support vector regression for multiclass cost-sensitive classification. In ICML, J. Fürnkranz and T. Joachims, Eds. Omnipress, 1095--1102."
+            },
+            {
+              "key": "e_1_3_2_1_18_1",
+              "volume-title": "Workshop on Cost-Sensitive Learning at the Seventeenth International Conference on Machine Learning. 15--21",
+              "author": "Turney P.",
+              "year": "2000",
+              "unstructured": "Turney , P. 2000 . Types of cost in inductive concept learning . In Workshop on Cost-Sensitive Learning at the Seventeenth International Conference on Machine Learning. 15--21 . Turney, P. 2000. Types of cost in inductive concept learning. In Workshop on Cost-Sensitive Learning at the Seventeenth International Conference on Machine Learning. 15--21."
+            }
+          ],
+          "event": {
+            "name": "GECCO '12: Genetic and Evolutionary Computation Conference",
+            "location": "Philadelphia Pennsylvania USA",
+            "acronym": "GECCO '12",
+            "sponsor": [
+              "SIGEVO ACM Special Interest Group on Genetic and Evolutionary Computation"
+            ]
+          },
+          "container-title": [
+            "Proceedings of the 14th annual conference on Genetic and evolutionary computation"
+          ],
+          "link": [
+            {
+              "URL": "https://dl.acm.org/doi/10.1145/2330163.2330209",
+              "content-type": "unspecified",
+              "content-version": "vor",
+              "intended-application": "text-mining"
+            },
+            {
+              "URL": "https://dl.acm.org/doi/pdf/10.1145/2330163.2330209",
+              "content-type": "unspecified",
+              "content-version": "vor",
+              "intended-application": "similarity-checking"
+            }
+          ],
+          "deposited": {
+            "date-parts": [
+              [
+                2025,
+                6,
+                18
+              ]
+            ],
+            "date-time": "2025-06-18T16:14:12Z",
+            "timestamp": 1750263252000
+          },
+          "score": 28.458555,
+          "resource": {
+            "primary": {
+              "URL": "https://dl.acm.org/doi/10.1145/2330163.2330209"
+            }
+          },
+          "issued": {
+            "date-parts": [
+              [
+                2012,
+                7,
+                7
+              ]
+            ]
+          },
+          "references-count": 18,
+          "alternative-id": [
+            "10.1145/2330163.2330209",
+            "10.1145/2330163"
+          ],
+          "URL": "https://doi.org/10.1145/2330163.2330209",
+          "published": {
+            "date-parts": [
+              [
+                2012,
+                7,
+                7
+              ]
+            ]
+          },
+          "assertion": [
+            {
+              "value": "2012-07-07",
+              "order": 2,
+              "name": "published",
+              "label": "Published",
+              "group": {
+                "name": "publication_history",
+                "label": "Publication History"
+              }
+            }
+          ]
+        },
+        {
+          "indexed": {
+            "date-parts": [
+              [
+                2025,
+                6,
+                19
+              ]
+            ],
+            "date-time": "2025-06-19T05:02:04Z",
+            "timestamp": 1750309324712,
+            "version": "3.41.0"
+          },
+          "publisher-location": "New York, NY, USA",
+          "reference-count": 16,
+          "publisher": "ACM",
+          "license": [
+            {
+              "start": {
+                "date-parts": [
+                  [
+                    2024,
+                    7,
+                    14
+                  ]
+                ],
+                "date-time": "2024-07-14T00:00:00Z",
+                "timestamp": 1720915200000
+              },
+              "content-version": "vor",
+              "delay-in-days": 0,
+              "URL": "https://www.acm.org/publications/policies/copyright_policy#Background"
+            }
+          ],
+          "funder": [
+            {
+              "name": "Slovenian Research and Innovation Agency",
+              "award": [
+                "P2-0098",
+                "J2-4460"
+              ],
+              "award-info": [
+                {
+                  "award-number": [
+                    "P2-0098",
+                    "J2-4460"
+                  ]
+                }
+              ]
+            }
+          ],
+          "content-domain": {
+            "domain": [
+              "dl.acm.org"
+            ],
+            "crossmark-restriction": true
+          },
+          "published-print": {
+            "date-parts": [
+              [
+                2024,
+                7,
+                14
+              ]
+            ]
+          },
+          "DOI": "10.1145/3638530.3654304",
+          "type": "proceedings-article",
+          "created": {
+            "date-parts": [
+              [
+                2024,
+                10,
+                15
+              ]
+            ],
+            "date-time": "2024-10-15T12:55:52Z",
+            "timestamp": 1728996952000
+          },
+          "page": "571-574",
+          "update-policy": "https://doi.org/10.1145/crossmark-policy",
+          "source": "Crossref",
+          "is-referenced-by-count": 0,
+          "title": [
+            "Per-Run Algorithm Performance Improvement Forecasting Using Exploratory Landscape Analysis Features: A Case Study in Single-Objective Black-Box Optimization"
+          ],
+          "prefix": "10.1145",
+          "author": [
+            {
+              "ORCID": "https://orcid.org/0000-0003-4492-4603",
+              "authenticated-orcid": false,
+              "given": "Peter",
+              "family": "Korošec",
+              "sequence": "first",
+              "affiliation": [
+                {
+                  "name": "Computer Systems Department, Jozef Stefan Institute, Ljubljana, Slovenia"
+                }
+              ],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "ORCID": "https://orcid.org/0000-0001-7330-1902",
+              "authenticated-orcid": false,
+              "given": "Tome",
+              "family": "Eftimov",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "Computer Systems Department, Jozef Stefan Institute, Ljubljana, Slovenia"
+                }
+              ],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            }
+          ],
+          "member": "320",
+          "published-online": {
+            "date-parts": [
+              [
+                2024,
+                8
+              ]
+            ]
+          },
+          "reference": [
+            {
+              "key": "e_1_3_2_1_1_1",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1145/3520304.3533974"
+            },
+            {
+              "key": "e_1_3_2_1_2_1",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1145/3071178.3071343"
+            },
+            {
+              "key": "e_1_3_2_1_3_1",
+              "volume-title": "The Frobenius norm and the commutator. Linear algebra and its applications 429, 8--9",
+              "author": "Böttcher Albrecht",
+              "year": "2008",
+              "unstructured": "Albrecht Böttcher and David Wenzel. 2008. The Frobenius norm and the commutator. Linear algebra and its applications 429, 8--9 (2008), 1864--1885."
+            },
+            {
+              "key": "e_1_3_2_1_4_1",
+              "volume-title": "Workshop on statistical learning in computer vision, ECCV",
+              "volume": "1",
+              "author": "Csurka Gabriella",
+              "year": "2004",
+              "unstructured": "Gabriella Csurka, Christopher Dance, Lixin Fan, Jutta Willamowski, and Cédric Bray. 2004. Visual categorization with bags of keypoints. In Workshop on statistical learning in computer vision, ECCV, Vol. 1. Prague, 1--2."
+            },
+            {
+              "key": "e_1_3_2_1_5_1",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1145/3319619.3326905"
+            },
+            {
+              "key": "e_1_3_2_1_6_1",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1145/3449639.3459406"
+            },
+            {
+              "key": "e_1_3_2_1_7_1",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1162/evco_a_00242"
+            },
+            {
+              "key": "e_1_3_2_1_8_1",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.2139/ssrn.4316939"
+            },
+            {
+              "key": "e_1_3_2_1_9_1",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1007/978-3-031-14714-2_4"
+            },
+            {
+              "key": "e_1_3_2_1_10_1",
+              "volume-title": "Problem definitions and evaluation criteria for the CEC 2014 special session and competition on single objective real-parameter numerical optimization. Computational Intelligence Laboratory",
+              "author": "Liang Jing J",
+              "year": "2013",
+              "unstructured": "Jing J Liang, Bo Y Qu, and Ponnuthurai N Suganthan. 2013. Problem definitions and evaluation criteria for the CEC 2014 special session and competition on single objective real-parameter numerical optimization. Computational Intelligence Laboratory, Zhengzhou University, Zhengzhou China and Technical Report, Nanyang Technological University, Singapore 635 (2013)."
+            },
+            {
+              "volume-title": "International Conference on the Applications of Evolutionary Computation (Part of EvoStar)",
+              "author": "Long Fu Xing",
+              "key": "e_1_3_2_1_11_1",
+              "unstructured": "Fu Xing Long, Diederick Vermetten, Bas van Stein, and Anna V Kononova. 2023. BBOB Instance Analysis: Landscape Properties and Algorithm Performance Across Problem Instances. In International Conference on the Applications of Evolutionary Computation (Part of EvoStar). Springer, 380--395."
+            },
+            {
+              "key": "e_1_3_2_1_12_1",
+              "first-page": "64",
+              "article-title": "Recurrent neural networks",
+              "volume": "5",
+              "author": "Medsker Larry R",
+              "year": "2001",
+              "unstructured": "Larry R Medsker and LC Jain. 2001. Recurrent neural networks. Design and Applications 5, 64--67 (2001), 2.",
+              "journal-title": "Design and Applications"
+            },
+            {
+              "key": "e_1_3_2_1_13_1",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1145/2001576.2001690"
+            },
+            {
+              "key": "e_1_3_2_1_14_1",
+              "volume-title": "Differential Evolution: A Practical Approach to Global Optimization",
+              "author": "Price Kenneth",
+              "year": "2006",
+              "unstructured": "Kenneth Price, Rainer M Storn, and Jouni A Lampinen. 2006. Differential Evolution: A Practical Approach to Global Optimization. Springer Science & Business Media."
+            },
+            {
+              "volume-title": "Proceedings of the Companion Conference on Genetic and Evolutionary Computation. 1663--1667",
+              "author": "Thomson Sarah L",
+              "key": "e_1_3_2_1_15_1",
+              "unstructured": "Sarah L Thomson, Jason Adair, Alexander EI Brownlee, and Daan van den Berg. 2023. From fitness landscapes to explainable AI and back. In Proceedings of the Companion Conference on Genetic and Evolutionary Computation. 1663--1667."
+            },
+            {
+              "key": "e_1_3_2_1_16_1",
+              "volume-title": "A review of recurrent neural networks: LSTM cells and network architectures. Neural computation 31, 7",
+              "author": "Yu Yong",
+              "year": "2019",
+              "unstructured": "Yong Yu, Xiaosheng Si, Changhua Hu, and Jianxun Zhang. 2019. A review of recurrent neural networks: LSTM cells and network architectures. Neural computation 31, 7 (2019), 1235--1270."
+            }
+          ],
+          "event": {
+            "name": "GECCO '24 Companion: Genetic and Evolutionary Computation Conference Companion",
+            "sponsor": [
+              "SIGEVO ACM Special Interest Group on Genetic and Evolutionary Computation"
+            ],
+            "location": "Melbourne VIC Australia",
+            "acronym": "GECCO '24 Companion"
+          },
+          "container-title": [
+            "Proceedings of the Genetic and Evolutionary Computation Conference Companion"
+          ],
+          "link": [
+            {
+              "URL": "https://dl.acm.org/doi/10.1145/3638530.3654304",
+              "content-type": "unspecified",
+              "content-version": "vor",
+              "intended-application": "text-mining"
+            },
+            {
+              "URL": "https://dl.acm.org/doi/pdf/10.1145/3638530.3654304",
+              "content-type": "unspecified",
+              "content-version": "vor",
+              "intended-application": "similarity-checking"
+            }
+          ],
+          "deposited": {
+            "date-parts": [
+              [
+                2025,
+                6,
+                19
+              ]
+            ],
+            "date-time": "2025-06-19T00:04:01Z",
+            "timestamp": 1750291441000
+          },
+          "score": 26.764036,
+          "resource": {
+            "primary": {
+              "URL": "https://dl.acm.org/doi/10.1145/3638530.3654304"
+            }
+          },
+          "issued": {
+            "date-parts": [
+              [
+                2024,
+                7,
+                14
+              ]
+            ]
+          },
+          "references-count": 16,
+          "alternative-id": [
+            "10.1145/3638530.3654304",
+            "10.1145/3638530"
+          ],
+          "URL": "https://doi.org/10.1145/3638530.3654304",
+          "published": {
+            "date-parts": [
+              [
+                2024,
+                7,
+                14
+              ]
+            ]
+          },
+          "assertion": [
+            {
+              "value": "2024-08-01",
+              "order": 3,
+              "name": "published",
+              "label": "Published",
+              "group": {
+                "name": "publication_history",
+                "label": "Publication History"
+              }
+            }
+          ]
+        },
+        {
+          "institution": [
+            {
+              "name": "Research Square"
+            }
+          ],
+          "indexed": {
+            "date-parts": [
+              [
+                2026,
+                9,
+                22
+              ]
+            ],
+            "date-time": "2026-09-22T23:09:59Z",
+            "timestamp": 1790118599138,
+            "version": "4.0.1"
+          },
+          "posted": {
+            "date-parts": [
+              [
+                2022,
+                12,
+                21
+              ]
+            ]
+          },
+          "group-title": "In Review",
+          "reference-count": 67,
+          "publisher": "Research Square Platform LLC",
+          "license": [
+            {
+              "start": {
+                "date-parts": [
+                  [
+                    2022,
+                    12,
+                    21
+                  ]
+                ],
+                "date-time": "2022-12-21T00:00:00Z",
+                "timestamp": 1671580800000
+              },
+              "content-version": "unspecified",
+              "delay-in-days": 0,
+              "URL": "https://creativecommons.org/licenses/by/4.0/"
+            }
+          ],
+          "content-domain": {
+            "domain": [],
+            "crossmark-restriction": false
+          },
+          "accepted": {
+            "date-parts": [
+              [
+                2022,
+                12,
+                17
+              ]
+            ]
+          },
+          "abstract": "",
+          "DOI": "10.21203/rs.3.rs-2388306/v1",
+          "type": "posted-content",
+          "created": {
+            "date-parts": [
+              [
+                2022,
+                12,
+                21
+              ]
+            ],
+            "date-time": "2022-12-21T15:06:47Z",
+            "timestamp": 1671635207000
+          },
+          "source": "Crossref",
+          "is-referenced-by-count": 2,
+          "title": [
+            "A Comprehensive Survey of Feature Selection Techniques based on Whale Optimization Algorithm"
+          ],
+          "prefix": "10.21203",
+          "author": [
+            {
+              "given": "Mohammad Amiri",
+              "family": "Ebrahimabadi",
+              "sequence": "first",
+              "affiliation": [
+                {
+                  "name": "Shahid Bahonar University of Kerman"
+                }
+              ],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Najme",
+              "family": "Mansouri",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "Shahid Bahonar University of Kerman"
+                }
+              ],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            }
+          ],
+          "member": "8761",
+          "reference": [
+            {
+              "key": "ref1",
+              "doi-asserted-by": "crossref",
+              "first-page": "104210",
+              "DOI": "10.1016/j.engappai.2021.104210",
+              "article-title": "Review of swarm intelligence-based feature selection methods",
+              "volume": "100",
+              "author": "Rostami M",
+              "year": "2021",
+              "unstructured": "Rostami, M., Berahmand, K., Nasiri, N., Forouzandeh, S.: Review of swarm intelligence-based feature selection methods. Eng. Appl. Artif. Intelligenc. 100, 104210 (2021)",
+              "journal-title": "Eng. Appl. Artif. Intelligenc"
+            },
+            {
+              "key": "ref2",
+              "doi-asserted-by": "crossref",
+              "first-page": "1029",
+              "DOI": "10.1007/s10115-020-01535-3",
+              "article-title": "Multi-layer linear embedding with feature subset selection",
+              "volume": "63",
+              "author": "Dornaika F",
+              "year": "2021",
+              "unstructured": "Dornaika, F.: Multi-layer linear embedding with feature subset selection. Knowl. Inf. Syst. 63, 1029–1043 (2021)",
+              "journal-title": "Knowl. Inf. Syst."
+            },
+            {
+              "key": "ref3",
+              "doi-asserted-by": "crossref",
+              "first-page": "125076",
+              "DOI": "10.1109/ACCESS.2020.3007291",
+              "article-title": "Approaches to multi-objective feature selection: a systematic literature review",
+              "volume": "8",
+              "author": "Al-Tashi Q",
+              "year": "2020",
+              "unstructured": "Al-Tashi, Q., Abdulkadir, S.J., Rais, H.M., Mirjalili, S., Alhussian, H.: Approaches to multi-objective feature selection: a systematic literature review. IEEE Access. 8, 125076–125096 (2020)",
+              "journal-title": "IEEE Access."
+            },
+            {
+              "key": "ref4",
+              "doi-asserted-by": "publisher",
+              "first-page": "100663",
+              "DOI": "10.1016/j.swevo.2020.100663",
+              "article-title": "A survey on swarm intelligence approaches to feature selection in data mining",
+              "volume": "54",
+              "author": "Nguyen BH",
+              "year": "2020",
+              "unstructured": "Nguyen, B.H., Xue, B., Zhang, M.: A survey on swarm intelligence approaches to feature selection in data mining. Swarm Evol. Comput. 54, 100663 (2020). https://doi.org/10.1016/j.swevo.2020.100663",
+              "journal-title": "Swarm Evol. Comput."
+            },
+            {
+              "key": "ref5",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1111/exsy.12553",
+              "article-title": "Ensemble feature selection in medical datasets: Combining filter, wrapper, and embedded feature selection results",
+              "author": "Chen CW",
+              "year": "2020",
+              "unstructured": "Chen, C.W., Tsai, Y.H., Chang, F.R., Lin, W.C.: Ensemble feature selection in medical datasets: Combining filter, wrapper, and embedded feature selection results. Expert Syst. (2020). https://doi.org/10.1111/exsy.12553",
+              "journal-title": "Expert Syst."
+            },
+            {
+              "key": "ref6",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1109/ICCISci.2019.8716478",
+              "author": "Cherrington M",
+              "year": "2019",
+              "unstructured": "Cherrington, M., Thabtah, F., Lu, J., Xu, Q.: Feature Selection: Filter methods performance challenges. In: International Conference on Computer and Information Sciences (ICCIS), pp. 1–4. (2019). https://doi.org/10.1109/ICCISci.2019.8716478"
+            },
+            {
+              "key": "ref7",
+              "doi-asserted-by": "crossref",
+              "first-page": "233",
+              "DOI": "10.1007/s10115-020-01526-4",
+              "article-title": "Dealing with heterogeneity in the context of distributed feature selection for classification",
+              "volume": "63",
+              "author": "Morillo-Salas JL",
+              "year": "2021",
+              "unstructured": "Morillo-Salas, J.L., Bolón-Canedo, V., Alonso-Betanzos, A.: Dealing with heterogeneity in the context of distributed feature selection for classification. Knowl. Inf. Syst. 63, 233–276 (2021)",
+              "journal-title": "Knowl. Inf. Syst."
+            },
+            {
+              "key": "ref8",
+              "doi-asserted-by": "crossref",
+              "first-page": "4337",
+              "DOI": "10.1007/s10115-020-01500-0",
+              "article-title": "An experimental study of graph-based semi-supervised classification with additional node information",
+              "volume": "62",
+              "author": "Lebichot B",
+              "year": "2020",
+              "unstructured": "Lebichot, B., Saerens, L.: An experimental study of graph-based semi-supervised classification with additional node information. Knowl. Inf. Syst. 62, 4337–4371 (2020)",
+              "journal-title": "Knowl. Inf. Syst."
+            },
+            {
+              "issue": "1",
+              "key": "ref9",
+              "doi-asserted-by": "crossref",
+              "first-page": "606",
+              "DOI": "10.1109/TEVC.2015.2504420",
+              "article-title": "A survey on evolutionary computation approaches to feature selection",
+              "volume": "20",
+              "author": "Xue B",
+              "year": "2016",
+              "unstructured": "Xue, B., Zhang, M., Browne, W.N., Yao, X.: A survey on evolutionary computation approaches to feature selection. IEEE Trans. Evol. Comput. 20(1), 606–626 (2016)",
+              "journal-title": "IEEE Trans. Evol. Comput."
+            },
+            {
+              "key": "ref10",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.5120/16888-6910",
+              "article-title": "Analysis of feature selection algorithms on classification: a survey",
+              "author": "Kumar KR",
+              "year": "2014",
+              "unstructured": "Kumar, K.R., Vanaja, S.: Analysis of feature selection algorithms on classification: a survey. Int. J. Comput. Appl. (2014). https://doi.org/10.5120/16888-6910",
+              "journal-title": "Int. J. Comput. Appl."
+            },
+            {
+              "key": "ref11",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1109/ICNSC.2019.8743245",
+              "author": "Liu W",
+              "year": "2019",
+              "unstructured": "Liu, W., Wang, J.: A brief survey on nature-inspired metaheuristics for feature selection in classification in this decade. In: IEEE 16th International Conference on Networking, Sensing and Control (ICNSC), pp. 424–429. (2019). https://doi.org/10.1109/ICNSC.2019.8743245"
+            },
+            {
+              "key": "ref12",
+              "doi-asserted-by": "crossref",
+              "first-page": "4519",
+              "DOI": "10.1007/s10462-019-09800-w",
+              "article-title": "A survey on feature selection approaches for clustering",
+              "volume": "53",
+              "author": "Hancer E",
+              "year": "2020",
+              "unstructured": "Hancer, E., Xue, B., Zhang, M.: A survey on feature selection approaches for clustering. Artif. Intell. Rev. 53, 4519–4554 (2020)",
+              "journal-title": "Artif. Intell. Rev."
+            },
+            {
+              "key": "ref13",
+              "doi-asserted-by": "crossref",
+              "first-page": "453",
+              "DOI": "10.1007/s10462-021-10037-9",
+              "article-title": "A survey on intrusion detection system: feature selection, model, performance measures, application perspective, challenges, and future research directions",
+              "volume": "55",
+              "author": "Thakkar A",
+              "year": "2022",
+              "unstructured": "Thakkar, A., Lohiya, R.: A survey on intrusion detection system: feature selection, model, performance measures, application perspective, challenges, and future research directions. Artif. Intell. Rev. 55, 453–563 (2022)",
+              "journal-title": "Artif. Intell. Rev."
+            },
+            {
+              "key": "ref14",
+              "author": "Kumar RA",
+              "year": "2022",
+              "unstructured": "Kumar, R.A., Franklin, J.V., Koppula, N.: A comprehensive survey on metaheuristic algorithm for feature selection techniques. Materials Today: Proceedings 64: 435–441. https://doi.org/10.1016/j.matpr.2022.04.803 (2022)"
+            },
+            {
+              "key": "ref15",
+              "doi-asserted-by": "crossref",
+              "first-page": "4543",
+              "DOI": "10.1007/s10489-021-02550-9",
+              "article-title": "A comprehensive survey on feature selection in the various fields of machine learning",
+              "volume": "52",
+              "author": "Dhal P",
+              "year": "2022",
+              "unstructured": "Dhal, P., Azad, C.: A comprehensive survey on feature selection in the various fields of machine learning. Appl. Intell. 52, 4543–4581 (2022)",
+              "journal-title": "Appl. Intell."
+            },
+            {
+              "key": "ref16",
+              "doi-asserted-by": "crossref",
+              "first-page": "2905",
+              "DOI": "10.1007/s10462-019-09750-3",
+              "article-title": "Feature selection in image analysis: a survey",
+              "volume": "53",
+              "author": "Bolón-Canedo V",
+              "year": "2020",
+              "unstructured": "Bolón-Canedo, V., Remeseiro, B.: Feature selection in image analysis: a survey. Artif. Intell. Rev. 53, 2905–2931 (2020)",
+              "journal-title": "Artif. Intell. Rev."
+            },
+            {
+              "key": "ref17",
+              "doi-asserted-by": "crossref",
+              "first-page": "479",
+              "DOI": "10.1007/s11704-016-5489-3",
+              "article-title": "A survey on online feature selection with streaming features",
+              "volume": "12",
+              "author": "Hu X",
+              "year": "2018",
+              "unstructured": "Hu, X., Zhou, P., Li, P., et al.: A survey on online feature selection with streaming features. Front. Comput. Sci. 12, 479–493 (2018)",
+              "journal-title": "Front. Comput. Sci."
+            },
+            {
+              "key": "ref18",
+              "doi-asserted-by": "crossref",
+              "first-page": "21",
+              "DOI": "10.1016/j.ymeth.2016.08.014",
+              "article-title": "Feature selection methods for big data bioinformatics: a survey from the search perspective",
+              "volume": "111",
+              "author": "Wang L",
+              "year": "2016",
+              "unstructured": "Wang, L., Wang, Y., Chang, Q.: Feature selection methods for big data bioinformatics: a survey from the search perspective. Methods. 111, 21–31 (2016)",
+              "journal-title": "Methods"
+            },
+            {
+              "key": "ref19",
+              "doi-asserted-by": "crossref",
+              "first-page": "269",
+              "DOI": "10.1016/j.neucom.2022.04.083",
+              "article-title": "A comprehensive survey on recent metaheuristics for feature selection",
+              "volume": "494",
+              "author": "Dokeroglu T",
+              "year": "2022",
+              "unstructured": "Dokeroglu, T., Deniz, A., Kiziloz, H.E.: A comprehensive survey on recent metaheuristics for feature selection. Neurocomputing. 494, 269–296 (2022)",
+              "journal-title": "Neurocomputing"
+            },
+            {
+              "key": "ref20",
+              "author": "Shahana AH",
+              "year": "2016",
+              "unstructured": "Shahana, A.H., Preeja, V.: Survey on feature subset selection for high dimensional data. In: International Conference on Circuit, Power and Computing Technologies (ICCPCT), pp. 1–4. https://doi.org/10.1109/ICCPCT.2016.7530147 (2016)"
+            },
+            {
+              "key": "ref21",
+              "doi-asserted-by": "crossref",
+              "first-page": "2821",
+              "DOI": "10.1007/s10462-021-10072-6",
+              "article-title": "A survey on feature selection methods for mixed data",
+              "volume": "55",
+              "author": "Solorio-Fernández S",
+              "year": "2022",
+              "unstructured": "Solorio-Fernández, S., Carrasco-Ochoa, J., Martínez-Trinidad, J.F.: A survey on feature selection methods for mixed data. Artif. Intell. Rev. 55, 2821–2846 (2022)",
+              "journal-title": "Artif. Intell. Rev."
+            },
+            {
+              "key": "ref22",
+              "author": "Abdullah SH",
+              "year": "2017",
+              "unstructured": "Abdullah, S.H., Ramya, C., Priyadharsini, V., Reshma, C., Selvakumar, S.: A survey on evolutionary techniques for feature selection. Conference on Emerging Devices and Smart Systems (ICEDSS), pp. 58–62. https://doi.org/10.1109/ICEDSS.2017.8073659 (2017)"
+            },
+            {
+              "key": "ref23",
+              "author": "Kothari V",
+              "year": "2011",
+              "unstructured": "Kothari, V., Anuradha, J., Shah, S., Mittal, P.: A survey on particle swarm optimization in feature selection. In: Global Trends in Information Systems and Software Applications, 270:192–201, Springer, Berlin, Heidelberg. https://doi.org/10.1007/978-3-642-29216-3_22 (2011)"
+            },
+            {
+              "issue": "2",
+              "key": "ref24",
+              "first-page": "469",
+              "article-title": "A comparative study of feature selection approaches: 2016–2020",
+              "volume": "11",
+              "author": "Asim S",
+              "year": "2020",
+              "unstructured": "Asim, S., Shah, A., Shabbir, H.M., Rehman, S.U.: A comparative study of feature selection approaches: 2016–2020. Int. J. Sci. Eng. Res. 11(2), 469–478 (2020)",
+              "journal-title": "Int. J. Sci. Eng. Res."
+            },
+            {
+              "key": "ref25",
+              "doi-asserted-by": "crossref",
+              "first-page": "107932",
+              "DOI": "10.1016/j.patcog.2021.107932",
+              "article-title": "Adaptive, Hybrid Feature Selection (AHFS)",
+              "volume": "116",
+              "author": "Viharos ZJ",
+              "year": "2021",
+              "unstructured": "Viharos, Z.J., Kis, K.B., Fodor, A., Büki, M.I.: Adaptive, Hybrid Feature Selection (AHFS). Pattern Recogn. 116, 107932 (2021)",
+              "journal-title": "Pattern Recogn."
+            },
+            {
+              "key": "ref26",
+              "doi-asserted-by": "crossref",
+              "first-page": "7839",
+              "DOI": "10.1007/s00521-019-04171-3",
+              "article-title": "A wrapper-filter feature selection technique based on ant colony optimization",
+              "volume": "32",
+              "author": "Ghosh M",
+              "year": "2020",
+              "unstructured": "Ghosh, M., Guha, R., Sarkar, Abraham, A.: A wrapper-filter feature selection technique based on ant colony optimization. Neural Comput. Appl. 32, 7839–7857 (2020)",
+              "journal-title": "Neural Comput. Appl."
+            },
+            {
+              "issue": "3",
+              "key": "ref27",
+              "doi-asserted-by": "crossref",
+              "first-page": "3117",
+              "DOI": "10.1109/JSYST.2019.2960088",
+              "article-title": "A WOA-based optimization approach for task scheduling in cloud computing systems",
+              "volume": "14",
+              "author": "Chen X",
+              "year": "2020",
+              "unstructured": "Chen, X., et al.: A WOA-based optimization approach for task scheduling in cloud computing systems. IEEE Syst. J. 14(3), 3117–3128 (2020)",
+              "journal-title": "IEEE Syst. J."
+            },
+            {
+              "key": "ref28",
+              "author": "Mirjalili S",
+              "year": "2019",
+              "unstructured": "Mirjalili, S., et al.: Whale optimization algorithm: theory, literature review, and application in designing photonic crystal filters. In: Nature-Inspired Optimizers, Studies in Computational Intelligence, 811: 219–238. https://doi.org/10.1007/978-3-030-12127-3_13 (2019)"
+            },
+            {
+              "key": "ref29",
+              "doi-asserted-by": "crossref",
+              "first-page": "16245",
+              "DOI": "10.1007/s00521-020-04849-z",
+              "article-title": "Whale optimization algorithm: a systematic review of contemporary applications, modifications and developments",
+              "volume": "32",
+              "author": "Rana N",
+              "year": "2020",
+              "unstructured": "Rana, N., Latiff, M.S.A., Abdulhamid, S.M., Chiroma, H.: Whale optimization algorithm: a systematic review of contemporary applications, modifications and developments. Neural Comput. Appl. 32, 16245–16277 (2020)",
+              "journal-title": "Neural Comput. Appl."
+            },
+            {
+              "key": "ref30",
+              "doi-asserted-by": "crossref",
+              "first-page": "53",
+              "DOI": "10.1016/j.advengsoft.2013.03.004",
+              "article-title": "A new optimization method: Dolphin echolocation",
+              "volume": "59",
+              "author": "Kaveh A",
+              "year": "2013",
+              "unstructured": "Kaveh, A., Farhoudi, N.: A new optimization method: Dolphin echolocation. Adv. Eng. Softw. 59, 53–70 (2013)",
+              "journal-title": "Adv. Eng. Softw."
+            },
+            {
+              "key": "ref31",
+              "doi-asserted-by": "publisher",
+              "first-page": "51",
+              "DOI": "10.1016/j.advengsoft.2016.01.008",
+              "article-title": "The Whale Optimization Algorithm",
+              "volume": "95",
+              "author": "Mirjalili S",
+              "year": "2016",
+              "unstructured": "Mirjalili, S., Lewis, A.: The Whale Optimization Algorithm. Adv. Eng. Softw. 95, 51–67 (2016). https://doi.org/10.1016/j.advengsoft.2016.01.008",
+              "journal-title": "Adv. Eng. Softw."
+            },
+            {
+              "key": "ref32",
+              "doi-asserted-by": "crossref",
+              "first-page": "106092",
+              "DOI": "10.1016/j.asoc.2020.106092",
+              "article-title": "Quantum based Whale Optimization Algorithm for wrapper feature selection",
+              "volume": "89",
+              "author": "Agrawal RK",
+              "year": "2020",
+              "unstructured": "Agrawal, R.K., et al.: Quantum based Whale Optimization Algorithm for wrapper feature selection. Appl. Soft Comput. J. 89, 106092 (2020)",
+              "journal-title": "Appl. Soft Comput. J."
+            },
+            {
+              "key": "ref33",
+              "doi-asserted-by": "crossref",
+              "first-page": "441",
+              "DOI": "10.1016/j.asoc.2017.11.006",
+              "article-title": "Whale Optimization Approaches for Wrapper Feature Selection",
+              "volume": "62",
+              "author": "Mafarja M",
+              "year": "2017",
+              "unstructured": "Mafarja, M., Mirjalili, S.: Whale Optimization Approaches for Wrapper Feature Selection. Appl. Soft Comput. J. 62, 441–453 (2017)",
+              "journal-title": "Appl. Soft Comput. J."
+            },
+            {
+              "key": "ref34",
+              "doi-asserted-by": "crossref",
+              "first-page": "300",
+              "DOI": "10.1007/s00357-018-9261-2",
+              "article-title": "A new chaotic whale optimization algorithm for features selection",
+              "volume": "35",
+              "author": "Sayed GI",
+              "year": "2018",
+              "unstructured": "Sayed, G.I., Darwish, A., Hassanien, A.E.: A new chaotic whale optimization algorithm for features selection. J. Classif. 35, 300–344 (2018)",
+              "journal-title": "J. Classif."
+            },
+            {
+              "key": "ref35",
+              "author": "Shuaib M",
+              "year": "2019",
+              "unstructured": "Shuaib, M., et al.: Whale optimization algorithm-based email spam feature selection method using rotation forest algorithm for classification. SN Applied Sciences. https://doi.org/10.1007/s42452-019-0394-7 (2019)"
+            },
+            {
+              "key": "ref36",
+              "doi-asserted-by": "publisher",
+              "first-page": "56847",
+              "DOI": "10.1109/ACCESS.2020.2978035",
+              "article-title": "A novel feature selection method using whale optimization algorithm and genetic operators for intrusion detection system in wireless mesh network",
+              "volume": "8",
+              "author": "Vijayanand R",
+              "year": "2020",
+              "unstructured": "Vijayanand, R., Devaraj, D.: A novel feature selection method using whale optimization algorithm and genetic operators for intrusion detection system in wireless mesh network. IEEE Access. 8, 56847–56854 (2020). https://doi.org/10.1109/ACCESS.2020.2978035",
+              "journal-title": "IEEE Access."
+            },
+            {
+              "key": "ref37",
+              "author": "Saidala RK",
+              "year": "2017",
+              "unstructured": "Saidala, R.K., Devarakonda, N.R.: Bubble-net hunting strategy of whales based optimized feature selection for e-mail classification. In: 2nd International Conference for Convergence in Technology (I2CT), pp. 626–631. https://doi.org/10.1109/I2CT.2017.8226205 (2017)"
+            },
+            {
+              "key": "ref38",
+              "author": "Hussien AG",
+              "year": "2017",
+              "unstructured": "Hussien, A.G., et al.: A binary whale optimization algorithm with hyperbolic tangent fitness function for feature selection. In: Eighth International Conference on Intelligent Computing and Information Systems (ICICIS), pp. 166–172. https://doi.org/10.1109/INTELCIS.2017.8260031 (2017)"
+            },
+            {
+              "key": "ref39",
+              "author": "Mafarja M",
+              "year": "2018",
+              "unstructured": "Mafarja, M., Jaber, I., Ahmed, S.: Whale optimization algorithm for high-dimensional small-instance feature selection. In: Fifth International Symposium on Innovation in Information and Communication Technology (ISIICT), pp. 1–6. https://doi.org/10.1109/ISIICT.2018.8613293 (2018)"
+            },
+            {
+              "key": "ref40",
+              "author": "Sharawi M",
+              "year": "2017",
+              "unstructured": "Sharawi, M., Zawbaa, H.M., Emary, E.: Feature selection approach based on whale optimization algorithm. In: Ninth International Conference on Advanced Computational Intelligence (ICACI), pp. 163–168. https://doi.org/10.1109/ICACI.2017.7974502 (2017)"
+            },
+            {
+              "key": "ref41",
+              "doi-asserted-by": "crossref",
+              "first-page": "105349",
+              "DOI": "10.1016/j.compbiomed.2022.105349",
+              "article-title": "AltWOA: Altruistic Whale Optimization Algorithm for feature selection on microarray datasets",
+              "volume": "144",
+              "author": "Kundu R",
+              "year": "2022",
+              "unstructured": "Kundu, R., Chattopadhyay, S., Cuevas, E., Sarkar, R.: AltWOA: Altruistic Whale Optimization Algorithm for feature selection on microarray datasets. Comput. Biol. Med. 144, 105349 (2022)",
+              "journal-title": "Comput. Biol. Med."
+            },
+            {
+              "key": "ref42",
+              "doi-asserted-by": "crossref",
+              "first-page": "18",
+              "DOI": "10.1016/j.future.2020.05.020",
+              "article-title": "Augmented whale feature selection for IoT attacks: Structure, analysis and applications",
+              "volume": "112",
+              "author": "Mafarja M",
+              "year": "2020",
+              "unstructured": "Mafarja, M., et al.: Augmented whale feature selection for IoT attacks: Structure, analysis and applications. Future Generation Computer Systems. 112, 18–40 (2020)",
+              "journal-title": "Future Generation Computer Systems"
+            },
+            {
+              "key": "ref43",
+              "doi-asserted-by": "publisher",
+              "first-page": "106852",
+              "DOI": "10.1016/j.cie.2020.106852",
+              "article-title": "Multiobjective feature selection for key quality characteristic identification in production processes using a nondominated-sorting-based whale optimization algorithm",
+              "volume": "149",
+              "author": "Li AD",
+              "year": "2020",
+              "unstructured": "Li, A.D., He, Z.: Multiobjective feature selection for key quality characteristic identification in production processes using a nondominated-sorting-based whale optimization algorithm. Comput. Ind. Eng. 149, 106852 (2020). https://doi.org/10.1016/j.cie.2020.106852",
+              "journal-title": "Comput. Ind. Eng."
+            },
+            {
+              "key": "ref44",
+              "doi-asserted-by": "crossref",
+              "first-page": "16229",
+              "DOI": "10.1007/s00521-021-06224-y",
+              "article-title": "Spatial bound whale optimization algorithm: an efficient high-dimensional feature selection approach",
+              "volume": "33",
+              "author": "Too J",
+              "year": "2021",
+              "unstructured": "Too, J., Mafarja, M., Mirjalili, S.: Spatial bound whale optimization algorithm: an efficient high-dimensional feature selection approach. Neural Comput. Appl. 33, 16229–16250 (2021)",
+              "journal-title": "Neural Comput. Appl."
+            },
+            {
+              "key": "ref45",
+              "author": "Javadpour A",
+              "year": "2020",
+              "unstructured": "Javadpour, A., Rezaei, S., Li, K.C., Wang, G.: A scalable feature selection and opinion miner using whale optimization algorithm. In: Advances in Signal Processing and Intelligent Recognition Systems, pp. 237–247. (2020)"
+            },
+            {
+              "key": "ref46",
+              "author": "Hussien AG",
+              "year": "2018",
+              "unstructured": "Hussien, A.G., Hassanien, A.E., Houssein, E.H., Bhattacharyya, S., Amin, M.: S-shaped binary whale optimization algorithm for feature selection. In: Recent Trends in Signal and Image Processing. Advances in Intelligent Systems and Computing, pp 79–87. https://doi.org/10.1007/978-981-10-8863-6_9 (2018)"
+            },
+            {
+              "issue": "6",
+              "key": "ref47",
+              "doi-asserted-by": "crossref",
+              "first-page": "1946",
+              "DOI": "10.1016/j.ygeno.2019.01.006",
+              "article-title": "Frequency based feature selection method using whale algorithm",
+              "volume": "111",
+              "author": "Nematzadeh H",
+              "year": "2019",
+              "unstructured": "Nematzadeh, H., Enayatifar, R., Mahmud, M., Akbari, E.: Frequency based feature selection method using whale algorithm. Genomics. 111(6), 1946–1955 (2019)",
+              "journal-title": "Genomics"
+            },
+            {
+              "key": "ref48",
+              "doi-asserted-by": "crossref",
+              "first-page": "573",
+              "DOI": "10.1007/s13042-019-00996-5",
+              "article-title": "Feature selection based on rough set approach, wrapper approach, and binary whale optimization algorithm",
+              "volume": "11",
+              "author": "Tawhid MA",
+              "year": "2020",
+              "unstructured": "Tawhid, M.A., Ibrahim, A.M.: Feature selection based on rough set approach, wrapper approach, and binary whale optimization algorithm. Int. J. Mach. Learn. Cybernet. 11, 573–602 (2020)",
+              "journal-title": "Int. J. Mach. Learn. Cybernet."
+            },
+            {
+              "key": "ref49",
+              "doi-asserted-by": "crossref",
+              "first-page": "1688",
+              "DOI": "10.1007/s10489-018-1334-8",
+              "article-title": "Improved whale optimization algorithm for feature selection in Arabic sentiment analysis",
+              "volume": "49",
+              "author": "Tubishat M",
+              "year": "2019",
+              "unstructured": "Tubishat, M., et al.: Improved whale optimization algorithm for feature selection in Arabic sentiment analysis. Appl. Intell. 49, 1688–1707 (2019)",
+              "journal-title": "Appl. Intell."
+            },
+            {
+              "key": "ref50",
+              "doi-asserted-by": "crossref",
+              "first-page": "106245",
+              "DOI": "10.1016/j.asoc.2020.106245",
+              "article-title": "Research on feature selection for rotating machinery based on Supervision Kernel Entropy Component Analysis with Whale Optimization Algorithm",
+              "volume": "92",
+              "author": "Bai L",
+              "year": "2020",
+              "unstructured": "Bai, L., et al.: Research on feature selection for rotating machinery based on Supervision Kernel Entropy Component Analysis with Whale Optimization Algorithm. Appl. Soft Comput. 92, 106245 (2020)",
+              "journal-title": "Appl. Soft Comput."
+            },
+            {
+              "key": "ref51",
+              "author": "Krithiga R",
+              "year": "2020",
+              "unstructured": "Krithiga, R., Ilavarasan, E.: A reliable modified whale optimization algorithm based approach for feature selection to classify twitter spam profiles.Microprocessors and Microsystems103451. https://doi.org/10.1016/j.micpro.2020.103451 (2020)"
+            },
+            {
+              "key": "ref52",
+              "doi-asserted-by": "crossref",
+              "first-page": "302",
+              "DOI": "10.1016/j.neucom.2017.04.053",
+              "article-title": "hybrid whale optimization algorithm with simulated annealing for feature selection",
+              "volume": "260",
+              "author": "Mafarja MM",
+              "year": "2017",
+              "unstructured": "Mafarja, M.M., Mirjalili, S.: hybrid whale optimization algorithm with simulated annealing for feature selection. Neurocomputing. 260, 302–312 (2017)",
+              "journal-title": "Neurocomputing"
+            },
+            {
+              "key": "ref53",
+              "doi-asserted-by": "crossref",
+              "first-page": "3527",
+              "DOI": "10.1007/s12652-020-02592-w",
+              "article-title": "A novel optimal feature selection technique for medical data classification using ANOVA based whale optimization",
+              "volume": "12",
+              "author": "Moorthy U",
+              "year": "2021",
+              "unstructured": "Moorthy, U., Gandhi, U.D.: A novel optimal feature selection technique for medical data classification using ANOVA based whale optimization. J. Ambient Intell. Humaniz. Comput. 12, 3527–3538 (2021)",
+              "journal-title": "J. Ambient Intell. Humaniz. Comput."
+            },
+            {
+              "key": "ref54",
+              "author": "Alwajih R",
+              "year": "2022",
+              "unstructured": "Alwajih, R., et al.: Hybrid binary whale with harris hawks for feature selection.Neural Computing and Applications. https://doi.org/10.1007/s00521-022-07522-9 (2022)"
+            },
+            {
+              "key": "ref55",
+              "doi-asserted-by": "crossref",
+              "first-page": "105858",
+              "DOI": "10.1016/j.compbiomed.2022.105858",
+              "article-title": "Enhanced whale optimization algorithm for medical feature selection: A COVID-19 case study",
+              "volume": "148",
+              "author": "Nadimi-Shahraki",
+              "year": "2022",
+              "unstructured": "Nadimi-Shahraki, et al.: Enhanced whale optimization algorithm for medical feature selection: A COVID-19 case study. Comput. Biol. Med. 148, 105858 (2022)",
+              "journal-title": "Comput. Biol. Med."
+            },
+            {
+              "key": "ref56",
+              "doi-asserted-by": "crossref",
+              "first-page": "115312",
+              "DOI": "10.1016/j.eswa.2021.115312",
+              "article-title": "Hybrid filter-wrapper feature selection using whale optimization algorithm: A multi-objective approach",
+              "volume": "183",
+              "author": "Got A",
+              "year": "2021",
+              "unstructured": "Got, A., Moussaoui, A., Zouache, D.: Hybrid filter-wrapper feature selection using whale optimization algorithm: A multi-objective approach. Expert Syst. Appl. 183, 115312 (2021)",
+              "journal-title": "Expert Syst. Appl."
+            },
+            {
+              "key": "ref57",
+              "author": "Chen",
+              "year": "2019",
+              "unstructured": "Chen, et al.: A Spark-based distributed whale optimization algorithm for feature selection. In: 10th IEEE International Conference on Intelligent Data Acquisition and Advanced Computing Systems: Technology and Applications (IDAACS), pp. 70–74, https://doi.org/10.1109/IDAACS.2019.8924334 (2019)"
+            },
+            {
+              "key": "ref58",
+              "author": "Xu H",
+              "year": "2018",
+              "unstructured": "Xu, H., et al.: An improved binary whale optimization algorithm for feature selection of network intrusion detection. In: IEEE 4th International Symposium on Wireless Systems within the International Conferences on Intelligent Data Acquisition and Advanced Computing Systems (IDAACS-SWS), pp. 10–15. https://doi.org/10.1109/IDAACS-SWS.2018.8525539 (2018)"
+            },
+            {
+              "key": "ref59",
+              "doi-asserted-by": "crossref",
+              "first-page": "2473",
+              "DOI": "10.1109/JSTARS.2021.3056593",
+              "article-title": "Cross-scene hyperspectral feature selection via hybrid whale optimization algorithm with simulated annealing",
+              "volume": "14",
+              "author": "Wang J",
+              "year": "2021",
+              "unstructured": "Wang, J., et al.: Cross-scene hyperspectral feature selection via hybrid whale optimization algorithm with simulated annealing. IEEE J. Sel. Top. Appl. Earth Observations Remote Sens. 14, 2473–2483 (2021)",
+              "journal-title": "IEEE J. Sel. Top. Appl. Earth Observations Remote Sens."
+            },
+            {
+              "key": "ref60",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1109/TELFOR52709.2021.9653166",
+              "author": "Syed EU",
+              "year": "2021",
+              "unstructured": "Syed, E.U., et al.: A modified whale optimization algorithm for enhancing the features selection process in machine learning. In: 29th Telecommunications Forum (TELFOR), pp. 1–4. (2021). https://doi.org/10.1109/TELFOR52709.2021.9653166"
+            },
+            {
+              "key": "ref61",
+              "author": "Eid MM",
+              "year": "2021",
+              "unstructured": "Eid, M.M., et al.: A binary sine cosine-modified whale optimization algorithm for feature selection. In: National Computing Colleges Conference (NCCC), pp. 1–6. https://doi.org/10.1109/NCCC49330.2021.9428794 (2021)"
+            },
+            {
+              "key": "ref62",
+              "author": "Zheng Y",
+              "unstructured": "Zheng, Y.: al. A novel hybrid algorithm for feature selection based on whale optimization algorithm.IEEE Access7:14908–14923. https://doi.org/10.1109/ACCESS.2018.2879848"
+            },
+            {
+              "key": "ref63",
+              "doi-asserted-by": "crossref",
+              "first-page": "12821",
+              "DOI": "10.1007/s00500-020-05183-1",
+              "article-title": "Embedded chaotic whale survival algorithm for filter–wrapper feature selection",
+              "volume": "24",
+              "author": "Guha R",
+              "year": "2020",
+              "unstructured": "Guha, R., et al.: Embedded chaotic whale survival algorithm for filter–wrapper feature selection. Soft. Comput. 24, 12821–12843 (2020)",
+              "journal-title": "Soft. Comput."
+            },
+            {
+              "key": "ref64",
+              "doi-asserted-by": "crossref",
+              "first-page": "453",
+              "DOI": "10.1007/s10462-021-10037-9",
+              "article-title": "A survey on intrusion detection system: feature selection, model, performance measures, application perspective, challenges, and future research directions",
+              "volume": "55",
+              "author": "Thakkar A",
+              "year": "2022",
+              "unstructured": "Thakkar, A., Lohiya, R.: A survey on intrusion detection system: feature selection, model, performance measures, application perspective, challenges, and future research directions. Artif. Intell. Rev. 55, 453–563 (2022)",
+              "journal-title": "Artif. Intell. Rev."
+            },
+            {
+              "key": "ref65",
+              "author": "Ray S",
+              "year": "2019",
+              "unstructured": "Ray, S.: A quick review of machine learning algorithms. In: International Conference on Machine Learning, Big Data, Cloud and Parallel Computing (COMITCon), pp. 35–39. https://doi.org/10.1109/COMITCon.2019.8862451 (2019)"
+            },
+            {
+              "issue": "1",
+              "key": "ref66",
+              "doi-asserted-by": "crossref",
+              "first-page": "153",
+              "DOI": "10.3390/rs70100153",
+              "article-title": "Comparing machine learning classifiers for object-based land cover classification using very high resolution imagery",
+              "volume": "7",
+              "author": "Qian Y",
+              "year": "2014",
+              "unstructured": "Qian, Y., et al.: Comparing machine learning classifiers for object-based land cover classification using very high resolution imagery. Remote Sens. 7(1), 153–168 (2014)",
+              "journal-title": "Remote Sens."
+            },
+            {
+              "key": "ref67",
+              "doi-asserted-by": "crossref",
+              "unstructured": "Brindha S, Prabha K, Sukumaran S (2016) A survey on classification techniques for text mining. 3rd International Conference on Advanced Computing and Communication Systems (ICACCS), pp. 1–5. https://doi.org/10.1109/ICACCS.2016.7586371",
+              "DOI": "10.1109/ICACCS.2016.7586371"
+            }
+          ],
+          "link": [
+            {
+              "URL": "https://www.researchsquare.com/article/rs-2388306/v1",
+              "content-type": "text/html",
+              "content-version": "vor",
+              "intended-application": "text-mining"
+            },
+            {
+              "URL": "https://www.researchsquare.com/article/rs-2388306/v1.html",
+              "content-type": "unspecified",
+              "content-version": "vor",
+              "intended-application": "similarity-checking"
+            }
+          ],
+          "deposited": {
+            "date-parts": [
+              [
+                2023,
+                3,
+                31
+              ]
+            ],
+            "date-time": "2023-03-31T12:45:29Z",
+            "timestamp": 1680266729000
+          },
+          "score": 26.358303,
+          "resource": {
+            "primary": {
+              "URL": "https://www.researchsquare.com/article/rs-2388306/v1"
+            }
+          },
+          "issued": {
+            "date-parts": [
+              [
+                2022,
+                12,
+                21
+              ]
+            ]
+          },
+          "references-count": 67,
+          "URL": "https://doi.org/10.21203/rs.3.rs-2388306/v1",
+          "published": {
+            "date-parts": [
+              [
+                2022,
+                12,
+                21
+              ]
+            ]
+          },
+          "subtype": "preprint"
+        }
+      ],
+      "items-per-page": 5,
+      "query": {
+        "start-index": 0,
+        "search-terms": null
+      }
+    }
+  }
+}

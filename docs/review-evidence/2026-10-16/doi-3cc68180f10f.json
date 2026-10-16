@@ -1,0 +1,916 @@
+{
+  "url": "https://api.crossref.org/works/10.1007%2Fs11704-018-7155-4",
+  "retrieved": "2026-10-16",
+  "response": {
+    "status": "ok",
+    "message-type": "work",
+    "message-version": "1.0.0",
+    "message": {
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            9,
+            7
+          ]
+        ],
+        "date-time": "2026-09-07T20:30:05Z",
+        "timestamp": 1788813005796,
+        "version": "build-2803163510"
+      },
+      "reference-count": 63,
+      "publisher": "Springer Science and Business Media LLC",
+      "issue": "2",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2018,
+                2,
+                13
+              ]
+            ],
+            "date-time": "2018-02-13T00:00:00Z",
+            "timestamp": 1518480000000
+          },
+          "content-version": "tdm",
+          "delay-in-days": 0,
+          "URL": "http://www.springer.com/tdm"
+        }
+      ],
+      "content-domain": {
+        "domain": [
+          "link.springer.com"
+        ],
+        "crossmark-restriction": false
+      },
+      "short-container-title": [
+        "Front. Comput. Sci."
+      ],
+      "published-print": {
+        "date-parts": [
+          [
+            2018,
+            4
+          ]
+        ]
+      },
+      "DOI": "10.1007/s11704-018-7155-4",
+      "type": "journal-article",
+      "created": {
+        "date-parts": [
+          [
+            2018,
+            2,
+            13
+          ]
+        ],
+        "date-time": "2018-02-13T02:16:02Z",
+        "timestamp": 1518488162000
+      },
+      "page": "203-216",
+      "update-policy": "https://doi.org/10.1007/springer_crossmark_policy",
+      "source": "Crossref",
+      "is-referenced-by-count": 31,
+      "title": [
+        "Set-based discrete particle swarm optimization and its applications: a survey"
+      ],
+      "prefix": "10.1007",
+      "volume": "12",
+      "author": [
+        {
+          "given": "Wei-Neng",
+          "family": "Chen",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Da-Zhao",
+          "family": "Tan",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "297",
+      "published-online": {
+        "date-parts": [
+          [
+            2018,
+            2,
+            13
+          ]
+        ]
+      },
+      "reference": [
+        {
+          "issue": "3",
+          "key": "7155_CR1",
+          "first-page": "363",
+          "volume": "21",
+          "author": "X Wen",
+          "year": "2017",
+          "unstructured": "Wen X, Chen W-N, Lin Y, Gu T, Zhang H, Li Y, Yin Y, Zhang J. Amaximal clique based multiobjective evolutionary algorithm for overlapping community detection. IEEE Transactions on Evolutionary Computation, 2017, 21(3): 363–377",
+          "journal-title": "IEEE Transactions on Evolutionary Computation"
+        },
+        {
+          "issue": "1",
+          "key": "7155_CR2",
+          "doi-asserted-by": "publisher",
+          "first-page": "29",
+          "DOI": "10.1109/TSMCC.2008.2001722",
+          "volume": "39",
+          "author": "W-N Chen",
+          "year": "2009",
+          "unstructured": "Chen W-N, Zhang J. An ant colony optimization approach to a grid workflow scheduling problem with various QoS requirements. IEEE Transactions on Systems, Man, and Cybernetics, Part C (Applications and Reviews), 2009, 39(1): 29–43",
+          "journal-title": "IEEE Transactions on Systems, Man, and Cybernetics, Part C (Applications and Reviews)"
+        },
+        {
+          "issue": "1",
+          "key": "7155_CR3",
+          "doi-asserted-by": "publisher",
+          "first-page": "1",
+          "DOI": "10.1109/TSE.2012.17",
+          "volume": "39",
+          "author": "W-N Chen",
+          "year": "2013",
+          "unstructured": "Chen W-N, Zhang J. Ant colony optimization for software project scheduling and staffing with an event-based scheduler. IEEE Transactions on Software Engineering, 2013, 39(1): 1–17",
+          "journal-title": "IEEE Transactions on Software Engineering"
+        },
+        {
+          "issue": "2",
+          "key": "7155_CR4",
+          "doi-asserted-by": "publisher",
+          "first-page": "241",
+          "DOI": "10.1109/TEVC.2011.2173577",
+          "volume": "17",
+          "author": "W-N Chen",
+          "year": "2013",
+          "unstructured": "Chen W-N, Zhang J, Lin Y, Chen N, Zhan Z H, Chung H S-H, Li Y, Shi Y-H. Particle swarm optimization with an aging leader and challengers. IEEE Transactions on Evolutionary Computation, 2013,17(2): 241–258",
+          "journal-title": "IEEE Transactions on Evolutionary Computation"
+        },
+        {
+          "key": "7155_CR5",
+          "doi-asserted-by": "publisher",
+          "first-page": "39",
+          "DOI": "10.1109/MHS.1995.494215",
+          "volume-title": "Proceedings of the 6th International Symposium on Micro Machine and Human Science",
+          "author": "R Eberhart",
+          "year": "1995",
+          "unstructured": "Eberhart R, Kennedy J. A new optimizer using particle swarm theory. In: Proceedings of the 6th International Symposium on Micro Machine and Human Science. 1995, 39–43"
+        },
+        {
+          "issue": "2",
+          "key": "7155_CR6",
+          "doi-asserted-by": "publisher",
+          "first-page": "262",
+          "DOI": "10.1109/TSMCC.2010.2054080",
+          "volume": "41",
+          "author": "R V Kulkarni",
+          "year": "2011",
+          "unstructured": "Kulkarni R V, Venayagamoorthy G K. Particle swarm optimization in wireless-sensor networks: a brief survey. IEEE Transactions on Systems, Man, and Cybernetics, Part C (Applications and Reviews), 2011, 41(2): 262–267",
+          "journal-title": "IEEE Transactions on Systems, Man, and Cybernetics, Part C (Applications and Reviews)"
+        },
+        {
+          "issue": "2",
+          "key": "7155_CR7",
+          "doi-asserted-by": "publisher",
+          "first-page": "629",
+          "DOI": "10.1109/TIE.2010.2046004",
+          "volume": "58",
+          "author": "R J Wai",
+          "year": "2011",
+          "unstructured": "Wai R J, Lee J D, Chuang K L. Real-time PID control strategy for Maglev transportation system via particle swarm optimization. IEEE Transactions on Industrial Electronics, 2011, 58(2): 629–646",
+          "journal-title": "IEEE Transactions on Industrial Electronics"
+        },
+        {
+          "key": "7155_CR8",
+          "first-page": "1671",
+          "volume-title": "Proceedings of IEEE Congress on Evolutionary Computation",
+          "author": "J Kennedy",
+          "year": "2002",
+          "unstructured": "Kennedy J, Mendes R. Population structure and particle swarm performance. In: Proceedings of IEEE Congress on Evolutionary Computation. 2002, 1671–1676"
+        },
+        {
+          "issue": "6",
+          "key": "7155_CR9",
+          "doi-asserted-by": "publisher",
+          "first-page": "1362",
+          "DOI": "10.1109/TSMCB.2009.2015956",
+          "volume": "39",
+          "author": "Z-H Zhan",
+          "year": "2009",
+          "unstructured": "Zhan Z-H, Zhang J, Li Y, Chung H S-H. Adaptive particle swarm optimization. IEEE Transactions on Systems, Man, and Cybernetics, Part B (Cybernetics), 2009, 39(6): 1362–1381",
+          "journal-title": "IEEE Transactions on Systems, Man, and Cybernetics, Part B (Cybernetics)"
+        },
+        {
+          "issue": "3",
+          "key": "7155_CR10",
+          "doi-asserted-by": "publisher",
+          "first-page": "281",
+          "DOI": "10.1109/TEVC.2005.857610",
+          "volume": "10",
+          "author": "J J Liang",
+          "year": "2006",
+          "unstructured": "Liang J J, Qin A K, Suganthan P N, Baskar S. Comprehensive learning particle swarm optimizer for global optimization of multimodal functions. IEEE Transactions on Evolutionary Computation, 2006, 10(3): 281–295",
+          "journal-title": "IEEE Transactions on Evolutionary Computation"
+        },
+        {
+          "issue": "2",
+          "key": "7155_CR11",
+          "doi-asserted-by": "publisher",
+          "first-page": "210",
+          "DOI": "10.1109/TEVC.2011.2112662",
+          "volume": "16",
+          "author": "X Li",
+          "year": "2012",
+          "unstructured": "Li X, Yao X. Cooperatively coevolving particle swarms for large scale optimization. IEEE Transactions on Evolutionary Computation, 2012, 16(2): 210–224",
+          "journal-title": "IEEE Transactions on Evolutionary Computation"
+        },
+        {
+          "issue": "2",
+          "key": "7155_CR12",
+          "doi-asserted-by": "publisher",
+          "first-page": "191",
+          "DOI": "10.1109/TCYB.2014.2322602",
+          "volume": "45",
+          "author": "R Cheng",
+          "year": "2015",
+          "unstructured": "Cheng R, Jin Y. A competitive swarm optimizer for large scale optimization. IEEE Transactions on Cybernetics, 2015, 45(2): 191–204",
+          "journal-title": "IEEE Transactions on Cybernetics"
+        },
+        {
+          "issue": "9",
+          "key": "7155_CR13",
+          "doi-asserted-by": "publisher",
+          "first-page": "2896",
+          "DOI": "10.1109/TCYB.2016.2616170",
+          "volume": "47",
+          "author": "Q Yang",
+          "year": "2017",
+          "unstructured": "Yang Q, ChenW-N, Gu T, Zhang H, Deng J D, Li Y, Zhang J. Segmentbased predominant learning swarm optimizer for large-scale optimization. IEEE Transactions on Cybernetics, 2017, 47(9): 2896–2910",
+          "journal-title": "IEEE Transactions on Cybernetics"
+        },
+        {
+          "issue": "4",
+          "key": "7155_CR14",
+          "doi-asserted-by": "publisher",
+          "first-page": "305",
+          "DOI": "10.1007/1-84628-117-2_20",
+          "volume": "23",
+          "author": "B Al-Kazemi",
+          "year": "2005",
+          "unstructured": "Al-Kazemi B, Mohan C. Discrete multi-phase particle swarm optimization. Information Processing with Evolutionary Algorithms, 2005, 23(4): 305–327",
+          "journal-title": "Information Processing with Evolutionary Algorithms"
+        },
+        {
+          "key": "7155_CR15",
+          "first-page": "4104",
+          "volume-title": "Proceedings of IEEE International Conference on Systems, Man, and Cybernetics",
+          "author": "J Kennedy",
+          "year": "1997",
+          "unstructured": "Kennedy J, Eberhart R C. A discrete binary version of the particle swarm algorithm. In: Proceedings of IEEE International Conference on Systems, Man, and Cybernetics. 1997, 4104–4108"
+        },
+        {
+          "issue": "5",
+          "key": "7155_CR16",
+          "doi-asserted-by": "publisher",
+          "first-page": "666",
+          "DOI": "10.1109/TEVC.2015.2503422",
+          "volume": "20",
+          "author": "J Liu",
+          "year": "2016",
+          "unstructured": "Liu J, Mei Y, Li X. An analysis of the inertia weight parameter for binary particle swarm optimization. IEEE Transactions on Evolutionary Computation, 2016, 20(5): 666–681",
+          "journal-title": "IEEE Transactions on Evolutionary Computation"
+        },
+        {
+          "key": "7155_CR17",
+          "first-page": "89",
+          "volume-title": "Proceedings of IEEE Congress on Evolutionary Computation",
+          "author": "G Pampara",
+          "year": "2005",
+          "unstructured": "Pampara G, Franken N, Engelbrecht A P. Combining particle swarm optimisation with angle modulation to solve binary problems. In: Proceedings of IEEE Congress on Evolutionary Computation. 2005, 89–96"
+        },
+        {
+          "issue": "12",
+          "key": "7155_CR18",
+          "doi-asserted-by": "publisher",
+          "first-page": "7141",
+          "DOI": "10.1109/TIE.2014.2314075",
+          "volume": "61",
+          "author": "M Shen",
+          "year": "2014",
+          "unstructured": "Shen M, Zhan Z-H, Chen W-N, Gong Y-J, Zhang J, Li Y. Bi-velocity discrete particle swarm optimization and its application to multicast routing problem in communication networks. IEEE Transactions on Industrial Electronics, 2014, 61(12): 7141–7151",
+          "journal-title": "IEEE Transactions on Industrial Electronics"
+        },
+        {
+          "issue": "1",
+          "key": "7155_CR19",
+          "doi-asserted-by": "publisher",
+          "first-page": "82",
+          "DOI": "10.1109/TEVC.2013.2260862",
+          "volume": "18",
+          "author": "M Gong",
+          "year": "2014",
+          "unstructured": "Gong M, Cai Q, Chen X, Ma L. Complex network clustering by multiobjective discrete particle swarm optimization based on decomposition. IEEE Transactions on Evolutionary Computation, 2014, 18(1): 82–97",
+          "journal-title": "IEEE Transactions on Evolutionary Computation"
+        },
+        {
+          "key": "7155_CR20",
+          "first-page": "217",
+          "volume-title": "Proceedings of the International Conference on Computer as a Tool",
+          "author": "F Afshinmanesh",
+          "year": "2005",
+          "unstructured": "Afshinmanesh F, Marandi A, Rahimi-Kian A. A novel binary particle swarm optimization method using artificial immune system. In: Proceedings of the International Conference on Computer as a Tool. 2005, 217–220"
+        },
+        {
+          "issue": "1",
+          "key": "7155_CR21",
+          "doi-asserted-by": "publisher",
+          "first-page": "219",
+          "DOI": "10.1007/978-3-540-39930-8_8",
+          "volume": "47",
+          "author": "M Clerc",
+          "year": "2004",
+          "unstructured": "Clerc M. Discrete particle swarm optimization, illustrated by the traveling salesman problem. New Optimization Techniques in Engineering, 2004, 47(1): 219–239",
+          "journal-title": "New Optimization Techniques in Engineering"
+        },
+        {
+          "key": "7155_CR22",
+          "first-page": "1583",
+          "volume-title": "Proceedings of International Conference on Machine Learning and Cybernetics",
+          "author": "K-P Wang",
+          "year": "2003",
+          "unstructured": "Wang K-P, Huang L, Zhou C-G, Pang W. Particle swarm optimization for traveling salesman problem. In: Proceedings of International Conference on Machine Learning and Cybernetics. 2003, 1583–1585"
+        },
+        {
+          "key": "7155_CR23",
+          "volume-title": "IEEE/ACM Transactions on Computational Biology and Bioinformatics",
+          "author": "J Huang",
+          "year": "2017",
+          "unstructured": "Huang J, Gong M, Ma L. A global network alignment method using discrete particle swarm optimization. IEEE/ACM Transactions on Computational Biology and Bioinformatics, 2017 (in press)"
+        },
+        {
+          "key": "7155_CR24",
+          "first-page": "572",
+          "volume-title": "Proceedings of International Conference on Natural Computation",
+          "author": "K Rameshkumar",
+          "year": "2005",
+          "unstructured": "Rameshkumar K, Suresh R K, Mohanasundaram K M. Discrete particle swarm optimization (DPSO) algorithm for permutation flowshop scheduling to minimize makespan. In: Proceedings of International Conference on Natural Computation. 2005, 572–581"
+        },
+        {
+          "key": "7155_CR25",
+          "first-page": "2342",
+          "volume-title": "Proceedings of International Conference on Machine Learning and Cybernetics",
+          "author": "W Pang",
+          "year": "2004",
+          "unstructured": "Pang W, Wang K-P, Zhou C-G, Dong L-J, Liu M, Zhang H-Y, Wang J-Y. Modified particle swarm optimization based on space transformation for solving traveling salesman problem. In: Proceedings of International Conference on Machine Learning and Cybernetics. 2004, 2342–2346"
+        },
+        {
+          "issue": "8",
+          "key": "7155_CR26",
+          "doi-asserted-by": "publisher",
+          "first-page": "363",
+          "DOI": "10.1016/S0141-9331(02)00053-4",
+          "volume": "26",
+          "author": "A Salman",
+          "year": "2002",
+          "unstructured": "Salman A, Ahmad I, Al-MadaniS.Particle swarm optimization for task assignment problem. Microprocessors and Microsystems, 2002, 26(8), 363–371",
+          "journal-title": "Microprocessors and Microsystems"
+        },
+        {
+          "issue": "4",
+          "key": "7155_CR27",
+          "doi-asserted-by": "publisher",
+          "first-page": "791",
+          "DOI": "10.1016/j.cie.2006.09.002",
+          "volume": "51",
+          "author": "D Y Sha",
+          "year": "2006",
+          "unstructured": "Sha D Y, Hsu C-Y. A hybrid particle swarm optimization for job shop scheduling problem. Computers & Industrial Engineering, 2006, 51(4): 791–808",
+          "journal-title": "Computers & Industrial Engineering"
+        },
+        {
+          "issue": "11",
+          "key": "7155_CR28",
+          "doi-asserted-by": "publisher",
+          "first-page": "2729",
+          "DOI": "10.3724/SP.J.1001.2011.03900",
+          "volume": "22",
+          "author": "H Zhu",
+          "year": "2011",
+          "unstructured": "Zhu H, Wang Y-P. Integration of security grid dependent tasks scheduling double-objective optimization model and algorithm. Ruanjian Xuebao/ Journal of Software, 2011, 22(11): 2729–2748",
+          "journal-title": "Ruanjian Xuebao/ Journal of Software"
+        },
+        {
+          "issue": "3",
+          "key": "7155_CR29",
+          "doi-asserted-by": "publisher",
+          "first-page": "227",
+          "DOI": "10.1016/j.epsr.2006.02.016",
+          "volume": "77",
+          "author": "Y-X Jin",
+          "year": "2007",
+          "unstructured": "Jin Y-X, Cheng H-Z, Yan J Y, Zhang L. New discrete method for particle swarm optimization and its application in transmission network expansion planning. Electric Power Systems Research, 2007, 77(3): 227–233",
+          "journal-title": "Electric Power Systems Research"
+        },
+        {
+          "issue": "4",
+          "key": "7155_CR30",
+          "doi-asserted-by": "publisher",
+          "first-page": "2030",
+          "DOI": "10.1109/TPWRS.2007.907375",
+          "volume": "22",
+          "author": "M R AlRashidi",
+          "year": "2007",
+          "unstructured": "AlRashidi M R, El-Hawary M E. Hybrid particle swarm optimization approach for solving the discrete OPF problem considering the valve loading effects. IEEE Transactions on Power Systems, 2007, 22(4): 2030–2038",
+          "journal-title": "IEEE Transactions on Power Systems"
+        },
+        {
+          "key": "7155_CR31",
+          "first-page": "1",
+          "volume-title": "Proceedings of IEEE Conference on Cybernetics and Intelligent Systems",
+          "author": "S Chandrasekaran",
+          "year": "2006",
+          "unstructured": "Chandrasekaran S, Ponnambalam S G, Suresh R K, Vijayakumar N. A hybrid discrete particle swarm optimization algorithm to solve flow shop scheduling problems. In: Proceedings of IEEE Conference on Cybernetics and Intelligent Systems. 2006, 1–6"
+        },
+        {
+          "issue": "3",
+          "key": "7155_CR32",
+          "doi-asserted-by": "publisher",
+          "first-page": "1734",
+          "DOI": "10.1109/TPWRD.2009.2035425",
+          "volume": "25",
+          "author": "A A Eajal",
+          "year": "2010",
+          "unstructured": "Eajal A A, El-Hawary M E. Optimal capacitor placement and sizing in unbalanced distribution systems with harmonics consideration using particle swarm optimization. IEEE Transactions on Power Delivery, 2010, 25(3): 1734–1741",
+          "journal-title": "IEEE Transactions on Power Delivery"
+        },
+        {
+          "issue": "4",
+          "key": "7155_CR33",
+          "doi-asserted-by": "publisher",
+          "first-page": "2044",
+          "DOI": "10.1109/TII.2014.2342378",
+          "volume": "10",
+          "author": "H Gao",
+          "year": "2014",
+          "unstructured": "Gao H, Kwong S, Fan B, Wang R. A hybrid particle-swarm tabu search algorithm for solving job shop scheduling problems. IEEE Transactions on Industrial Informatics, 2014, 10(4): 2044–2054",
+          "journal-title": "IEEE Transactions on Industrial Informatics"
+        },
+        {
+          "key": "7155_CR34",
+          "doi-asserted-by": "publisher",
+          "first-page": "99",
+          "DOI": "10.1007/11730095_9",
+          "volume-title": "Proceedings of European Conference on Evolutionary Computation in Combinatorial Optimization",
+          "author": "E F G Goldbarg",
+          "year": "2006",
+          "unstructured": "Goldbarg E F G, de Souza G R, Goldbarg M C. Particle swarm for the traveling salesman problem. In: Proceedings of European Conference on Evolutionary Computation in Combinatorial Optimization. 2006, 99–110"
+        },
+        {
+          "key": "7155_CR35",
+          "first-page": "245",
+          "volume-title": "In: proceedings of the 5th International Conference on Hybrid Intelligent Systems",
+          "author": "H S Lope",
+          "year": "2005",
+          "unstructured": "Lope H S, Coelho L S. Particle swarn optimization with fast local search for the blind traveling salesman problem. In: proceedings of the 5th International Conference on Hybrid Intelligent Systems. 2005, 245–250"
+        },
+        {
+          "issue": "1",
+          "key": "7155_CR36",
+          "doi-asserted-by": "publisher",
+          "first-page": "59",
+          "DOI": "10.1007/s10852-007-9073-6",
+          "volume": "7",
+          "author": "Y Marinakis",
+          "year": "2008",
+          "unstructured": "Marinakis Y, Marinaki M. A particle swarm optimization algorithm with path relinking for the location routing problem. Journal of Mathematical Modelling and Algorithms, 2008, 7(1): 59–78",
+          "journal-title": "Journal of Mathematical Modelling and Algorithms"
+        },
+        {
+          "key": "7155_CR37",
+          "first-page": "1",
+          "volume-title": "Proceedings of IEEE Congress on Evolutionary Computation",
+          "author": "M Rosendo",
+          "year": "2010",
+          "unstructured": "Rosendo M, Pozo A. A hybrid particle swarm optimization algorithm for combinatorial optimization problems. In: Proceedings of IEEE Congress on Evolutionary Computation. 2010, 1–8"
+        },
+        {
+          "issue": "5",
+          "key": "7155_CR38",
+          "doi-asserted-by": "publisher",
+          "first-page": "169",
+          "DOI": "10.1016/j.ipl.2007.03.010",
+          "volume": "103",
+          "author": "X H Shi",
+          "year": "2007",
+          "unstructured": "Shi X H, Liang Y C, Lee H P, Lu C, Wang Q X. Particle swarm optimization-based algorithms for TSP and generalized TSP. Information Processing Letters, 2007, 103(5): 169–176",
+          "journal-title": "Information Processing Letters"
+        },
+        {
+          "key": "7155_CR39",
+          "first-page": "53",
+          "volume-title": "Proceedings of the 18th International Conference on Genetic and Evolutionary Computation",
+          "author": "S Strasser",
+          "year": "2016",
+          "unstructured": "Strasser S, Goodman R, Sheppard J, Butcher S. A new discrete particle swarm optimization algorithm. In: Proceedings of the 18th International Conference on Genetic and Evolutionary Computation. 2016, 53–60"
+        },
+        {
+          "issue": "4",
+          "key": "7155_CR40",
+          "doi-asserted-by": "publisher",
+          "first-page": "633",
+          "DOI": "10.1016/j.neucom.2006.10.001",
+          "volume": "70",
+          "author": "Y Wang",
+          "year": "2007",
+          "unstructured": "Wang Y, Feng X-Y, Huang Y-X, Pu D-B, Zhou W-G, Liang Y-C, Zhou C-G. A novel quantum swarm evolutionary algorithm and its applications. Neurocomputing, 2007, 70(4): 633–640",
+          "journal-title": "Neurocomputing"
+        },
+        {
+          "issue": "4",
+          "key": "7155_CR41",
+          "doi-asserted-by": "publisher",
+          "first-page": "1309",
+          "DOI": "10.1016/j.cie.2008.07.021",
+          "volume": "56",
+          "author": "G Zhang",
+          "year": "2009",
+          "unstructured": "Zhang G, Shao X, Li P, Gao L. An effective hybrid particle swarm optimization algorithm for multi-objective flexible job-shop scheduling problem. Computers & Industrial Engineering, 2009, 56(4): 1309–1318",
+          "journal-title": "Computers & Industrial Engineering"
+        },
+        {
+          "issue": "2",
+          "key": "7155_CR42",
+          "doi-asserted-by": "publisher",
+          "first-page": "278",
+          "DOI": "10.1109/TEVC.2009.2030331",
+          "volume": "14",
+          "author": "W-N Chen",
+          "year": "2010",
+          "unstructured": "Chen W-N, Zhang J, Chung H S, Zhong W-L, Wu W-G, Shi Y-H. A novel set-based particle swarm optimization method for discrete optimization problems. IEEE Transactions on Evolutionary Computation, 2010, 14(2): 278–300",
+          "journal-title": "IEEE Transactions on Evolutionary Computation"
+        },
+        {
+          "issue": "2",
+          "key": "7155_CR43",
+          "doi-asserted-by": "publisher",
+          "first-page": "254",
+          "DOI": "10.1109/TSMCC.2011.2148712",
+          "volume": "42",
+          "author": "Y-J Gong",
+          "year": "2012",
+          "unstructured": "Gong Y-J, Zhang J, Liu O, Huang R-Z, Chung H S, Shi Y-H. Optimizing the vehicle routing problem with time windows: a discrete particle swarm optimization approach. IEEE Transactions on Systems, Man, and Cybernetics, Part C (Applications and Reviews), 2012, 42(2): 254–267",
+          "journal-title": "IEEE Transactions on Systems, Man, and Cybernetics, Part C (Applications and Reviews)"
+        },
+        {
+          "key": "7155_CR44",
+          "volume-title": "A dynamic logistic dispatching system with set-based particle swarm optimization",
+          "author": "Y-H Jia",
+          "year": "2017",
+          "unstructured": "Jia Y-H, Chen W-N, Gu T, Zhang H, Yuan H, Lin Y, Yu W-J, Zhang J. A dynamic logistic dispatching system with set-based particle swarm optimization. IEEE Transactions on Systems, Man, and Cybernetics: Systems, 2017 (in press)"
+        },
+        {
+          "issue": "4",
+          "key": "7155_CR45",
+          "doi-asserted-by": "publisher",
+          "first-page": "575",
+          "DOI": "10.1109/TEVC.2014.2362532",
+          "volume": "19",
+          "author": "H Wu",
+          "year": "2015",
+          "unstructured": "Wu H, Nie C, Kuo F-C, Leung H, Colbourn C J. A discrete particle swarm optimization for covering array generation. IEEE Transactions on Evolutionary Computation, 2015, 19(4): 575–591",
+          "journal-title": "IEEE Transactions on Evolutionary Computation"
+        },
+        {
+          "key": "7155_CR46",
+          "volume-title": "Journal of Sensors",
+          "author": "O Kaiwartya",
+          "year": "2015",
+          "unstructured": "Kaiwartya O, Kumar S, Lobiyal D K, Tiwari P K, Abdullah A H, Hassan A N. Multiobjective dynamic vehicle routing problem and time seed based solution using particle swarm optimization. Journal of Sensors, 2015"
+        },
+        {
+          "issue": "1",
+          "key": "7155_CR47",
+          "doi-asserted-by": "publisher",
+          "first-page": "64",
+          "DOI": "10.1109/TSMCC.2009.2027335",
+          "volume": "40",
+          "author": "W-N Chen",
+          "year": "2010",
+          "unstructured": "Chen W-N, Zhang J, Chung H S, Huang R-Z, Liu O. Optimizing discounted cash flows in project scheduling—an ant colony optimization approach. IEEE Transactions on Systems, Man, and Cybernetics, Part C (Applications and Reviews), 2010, 40(1): 64–77",
+          "journal-title": "IEEE Transactions on Systems, Man, and Cybernetics, Part C (Applications and Reviews)"
+        },
+        {
+          "key": "7155_CR48",
+          "first-page": "7",
+          "volume-title": "Proceedings of the 16th Annual Conference on Genetic and Evolutionary Computation",
+          "author": "Y-H Jia",
+          "year": "2014",
+          "unstructured": "Jia Y-H, Chen W-N, Hu X-M. A PSO approach for software project planning. In: Proceedings of the 16th Annual Conference on Genetic and Evolutionary Computation. 2014, 7–8"
+        },
+        {
+          "key": "7155_CR49",
+          "doi-asserted-by": "crossref",
+          "first-page": "71",
+          "DOI": "10.1145/2464576.2464614",
+          "volume-title": "Proceedings of the 15th Annual companion conference on Genetic and Evolutionary Computation",
+          "author": "Y-Y Ma",
+          "year": "2013",
+          "unstructured": "Ma Y-Y, Gong Y-J, Chen W-N, Zhang J. A set-based locally informed discrete particle swarm optimization. In: Proceedings of the 15th Annual companion conference on Genetic and Evolutionary Computation. 2013, 71–72"
+        },
+        {
+          "issue": "4",
+          "key": "7155_CR50",
+          "doi-asserted-by": "publisher",
+          "first-page": "297",
+          "DOI": "10.1007/s11721-012-0073-4",
+          "volume": "6",
+          "author": "J Langeveld",
+          "year": "2012",
+          "unstructured": "Langeveld J, Engelbrecht A P. Set-based particle swarm optimization applied to the multidimensional knapsack problem. Swarm Intelligence, 2012, 6(4), 297–342",
+          "journal-title": "Swarm Intelligence"
+        },
+        {
+          "issue": "8",
+          "key": "7155_CR51",
+          "doi-asserted-by": "publisher",
+          "first-page": "1771",
+          "DOI": "10.1109/TCYB.2016.2522471",
+          "volume": "46",
+          "author": "S-K Chou",
+          "year": "2016",
+          "unstructured": "Chou S-K, Jiau M-K, Huang S-C. Stochastic set-based particle swarm optimization based on local exploration for solving the carpool service problem. IEEE Transactions on Cybernetics, 2016, 46(8): 1771–1783",
+          "journal-title": "IEEE Transactions on Cybernetics"
+        },
+        {
+          "issue": "1",
+          "key": "7155_CR52",
+          "doi-asserted-by": "publisher",
+          "first-page": "98",
+          "DOI": "10.1007/s10015-015-0253-6",
+          "volume": "21",
+          "author": "T Hino",
+          "year": "2016",
+          "unstructured": "Hino T, Ito S, Liu T, Maeda M. Set-based particle swarm optimization with status memory for knapsack problem. Artificial Life and Robotics, 2016, 21(1): 98–105",
+          "journal-title": "Artificial Life and Robotics"
+        },
+        {
+          "key": "7155_CR53",
+          "first-page": "1347",
+          "volume-title": "Proceedings of IEEE International Conference on Systems, Man, and Cybernetics (SMC)",
+          "author": "Y Liu",
+          "year": "2013",
+          "unstructured": "Liu Y, Chen W-N, Zhan Z-H, Lin Y, Gong Y-J, Zhang J. A set-based discrete differential evolution algorithm. In: Proceedings of IEEE International Conference on Systems, Man, and Cybernetics (SMC). 2013, 1347–1352"
+        },
+        {
+          "key": "7155_CR54",
+          "first-page": "89",
+          "volume-title": "Proceedings of the 17th Annual Conference on Genetic and Evolutionary Computation",
+          "author": "X Yu",
+          "year": "2015",
+          "unstructured": "Yu X, Chen W-N, Hu X M, Zhang J. A set-based comprehensive learning particle swarm optimization with decomposition for multiobjective traveling salesman problem. In: Proceedings of the 17th Annual Conference on Genetic and Evolutionary Computation. 2015, 89–96"
+        },
+        {
+          "issue": "6",
+          "key": "7155_CR55",
+          "doi-asserted-by": "publisher",
+          "first-page": "712",
+          "DOI": "10.1109/TEVC.2007.892759",
+          "volume": "11",
+          "author": "Q Zhang",
+          "year": "2007",
+          "unstructured": "Zhang Q, Li H. MOEA/D: a multiobjective evolutionary algorithm based on decomposition. IEEE Transactions on evolutionary computation, 2007, 11(6): 712–731",
+          "journal-title": "IEEE Transactions on evolutionary computation"
+        },
+        {
+          "issue": "4",
+          "key": "7155_CR56",
+          "doi-asserted-by": "publisher",
+          "first-page": "503",
+          "DOI": "10.1109/TEVC.2013.2281531",
+          "volume": "18",
+          "author": "T Liao",
+          "year": "2014",
+          "unstructured": "Liao T, Socha K, de Oca MA M, Stützle T, Dorigo M. Ant colony optimization for mixed-variable optimization problems. IEEE Transactions on Evolutionary Computation, 2014, 18(4): 503–518",
+          "journal-title": "IEEE Transactions on Evolutionary Computation"
+        },
+        {
+          "issue": "3",
+          "key": "7155_CR57",
+          "doi-asserted-by": "publisher",
+          "first-page": "636",
+          "DOI": "10.1109/TCYB.2016.2523000",
+          "volume": "47",
+          "author": "Q Yang",
+          "year": "2017",
+          "unstructured": "Yang Q, Chen W-N, Li Y, Chen C L P, Xu X-M, Zhang J. Multimodal estimation of distribution algorithms. IEEE Transactions on Cybernetics, 2017, 47(3): 636–650",
+          "journal-title": "IEEE Transactions on Cybernetics"
+        },
+        {
+          "issue": "2",
+          "key": "7155_CR58",
+          "doi-asserted-by": "publisher",
+          "first-page": "191",
+          "DOI": "10.1109/TEVC.2016.2591064",
+          "volume": "21",
+          "author": "Q Yang",
+          "year": "2017",
+          "unstructured": "Yang Q, Chen W-N, Yu Z, Gu T, Li Y, Zhang H, Zhang J. Adaptive multimodal continuous ant colony optimization. IEEE Transactions on Evolutionary Computation, 2017, 21(2): 191–205",
+          "journal-title": "IEEE Transactions on Evolutionary Computation"
+        },
+        {
+          "key": "7155_CR59",
+          "doi-asserted-by": "publisher",
+          "first-page": "413",
+          "DOI": "10.1016/j.eswa.2015.09.032",
+          "volume": "44",
+          "author": "F Hafiz",
+          "year": "2016",
+          "unstructured": "Hafiz F, Abdennour A. Particle swarm algorithm variants for the quadratic assignment problems—a probabilistic learning approach. Expert Systems with Applications, 2016, 44: 413–431",
+          "journal-title": "Expert Systems with Applications"
+        },
+        {
+          "key": "7155_CR60",
+          "first-page": "318",
+          "volume-title": "Proceedings of the 8th International Conference on Advanced Computational Intelligence",
+          "author": "X-X Xu",
+          "year": "2016",
+          "unstructured": "Xu X-X, Hu X-M, Chen W-N, Li Y. Set-based particle swarm optimization for mapping and scheduling tasks on heterogeneous embedded systems. In: Proceedings of the 8th International Conference on Advanced Computational Intelligence. 2016, 318–325"
+        },
+        {
+          "issue": "1",
+          "key": "7155_CR61",
+          "doi-asserted-by": "publisher",
+          "first-page": "203",
+          "DOI": "10.1016/j.compeleceng.2013.11.012",
+          "volume": "40",
+          "author": "X Xia",
+          "year": "2014",
+          "unstructured": "Xia X, Wang X, Li J, Zhou X. Multi-objective mobile app recommendation: a system-level collaboration approach. Computers & Electrical Engineering, 2014, 40(1): 203–215",
+          "journal-title": "Computers & Electrical Engineering"
+        },
+        {
+          "issue": "3",
+          "key": "7155_CR62",
+          "doi-asserted-by": "publisher",
+          "first-page": "58",
+          "DOI": "10.4018/ijsir.2013070104",
+          "volume": "4",
+          "author": "T V V Kumar",
+          "year": "2013",
+          "unstructured": "Kumar T V V, Kumar A, Singh R. Distributed query plan generation using particle swarm optimization. International Journal of Swarm Intelligence Research (IJSIR), 2013, 4(3): 58–82",
+          "journal-title": "International Journal of Swarm Intelligence Research (IJSIR)"
+        },
+        {
+          "key": "7155_CR63",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1137/1.9780898718515",
+          "volume-title": "The Vehicle Routing Problem",
+          "author": "P Toth",
+          "year": "2002",
+          "unstructured": "Toth P, Vigo D. The Vehicle Routing Problem. Philadelphia: Society for Industrial and Applied Mathematics, 2002"
+        }
+      ],
+      "container-title": [
+        "Frontiers of Computer Science"
+      ],
+      "original-title": [],
+      "language": "en",
+      "link": [
+        {
+          "URL": "http://link.springer.com/article/10.1007/s11704-018-7155-4/fulltext.html",
+          "content-type": "text/html",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        },
+        {
+          "URL": "http://link.springer.com/content/pdf/10.1007/s11704-018-7155-4.pdf",
+          "content-type": "application/pdf",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        },
+        {
+          "URL": "http://link.springer.com/content/pdf/10.1007/s11704-018-7155-4.pdf",
+          "content-type": "application/pdf",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2022,
+            8,
+            14
+          ]
+        ],
+        "date-time": "2022-08-14T06:36:29Z",
+        "timestamp": 1660458989000
+      },
+      "score": 1,
+      "resource": {
+        "primary": {
+          "URL": "http://link.springer.com/10.1007/s11704-018-7155-4"
+        }
+      },
+      "subtitle": [],
+      "short-title": [],
+      "issued": {
+        "date-parts": [
+          [
+            2018,
+            2,
+            13
+          ]
+        ]
+      },
+      "references-count": 63,
+      "journal-issue": {
+        "issue": "2",
+        "published-print": {
+          "date-parts": [
+            [
+              2018,
+              4
+            ]
+          ]
+        }
+      },
+      "alternative-id": [
+        "7155"
+      ],
+      "URL": "https://doi.org/10.1007/s11704-018-7155-4",
+      "relation": {},
+      "ISSN": [
+        "2095-2228",
+        "2095-2236"
+      ],
+      "issn-type": [
+        {
+          "value": "2095-2228",
+          "type": "print"
+        },
+        {
+          "value": "2095-2236",
+          "type": "electronic"
+        }
+      ],
+      "subject": [],
+      "published": {
+        "date-parts": [
+          [
+            2018,
+            2,
+            13
+          ]
+        ]
+      },
+      "assertion": [
+        {
+          "value": "2 May 2017",
+          "order": 1,
+          "name": "received",
+          "label": "Received",
+          "group": {
+            "name": "ArticleHistory",
+            "label": "Article History"
+          }
+        },
+        {
+          "value": "29 November 2017",
+          "order": 2,
+          "name": "accepted",
+          "label": "Accepted",
+          "group": {
+            "name": "ArticleHistory",
+            "label": "Article History"
+          }
+        },
+        {
+          "value": "13 February 2018",
+          "order": 3,
+          "name": "first_online",
+          "label": "First Online",
+          "group": {
+            "name": "ArticleHistory",
+            "label": "Article History"
+          }
+        }
+      ]
+    }
+  }
+}

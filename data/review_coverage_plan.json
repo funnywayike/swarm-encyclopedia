@@ -1,0 +1,462 @@
+{
+  "updated": "2026-10-16",
+  "scope": "按研究地图需求设立的可扩展覆盖表，不是学科的唯一分类；核心群智能、相邻方法、理论与应用分别标明。",
+  "completionRule": "至少补齐主题的代表性与更新资料，核读关键章节，核对来源独立性及分歧；收录数或摘要数达标不自动判为完整。",
+  "topics": [
+    {
+      "id": "history",
+      "title": "历史、分类与命名批评",
+      "ring": "总览",
+      "sources": [
+        "fiftyYears2025",
+        "boussaid2013",
+        "rajwar2023"
+      ],
+      "remaining": "需区分命名目录、机制谱系与学术影响，不以名称数量衡量经典性。"
+    },
+    {
+      "id": "pso",
+      "title": "PSO：连续、离散与适配",
+      "ring": "核心群智能",
+      "sources": [
+        "review-pso-9ebaa0",
+        "review-pso-modern-25f3c4",
+        "10.1007/s11704-018-7155-4",
+        "10.3390/math11132980",
+        "10.1109/access.2022.3142859"
+      ],
+      "remaining": "离散子类不能代替全部离散 PSO；需核读二进制、排列及集合编码差别。"
+    },
+    {
+      "id": "aco",
+      "title": "ACO：组合与连续扩展",
+      "ring": "核心群智能",
+      "sources": [
+        "review-aco-cb45b0",
+        "acoSchedule2013"
+      ],
+      "remaining": "尚缺本轮已核读的近年通用更新和连续扩展综述。"
+    },
+    {
+      "id": "abc",
+      "title": "人工蜂群",
+      "ring": "核心群智能",
+      "sources": [
+        "review-abc-98ba57",
+        "10.1007/s10878-025-01296-1"
+      ],
+      "remaining": "新增2025年排程专题更新，但范围较窄且作者可能延续；仍需通用更新、独立团队与正文核读。"
+    },
+    {
+      "id": "de",
+      "title": "差分进化",
+      "ring": "相邻进化计算",
+      "sources": [
+        "review-de-5942be",
+        "review-de-d01ad3",
+        "10.1007/s11831-024-10136-0",
+        "10.1016/j.neucom.2023.126899"
+      ],
+      "remaining": "已有近年算子与探索/开发专题更新，仍需正文对照；不由收录数量推断独立共识。"
+    },
+    {
+      "id": "gaes",
+      "title": "遗传算法、演化策略与 CMA-ES",
+      "ring": "相邻进化计算",
+      "sources": [
+        "review-ga-38fcbe",
+        "cma-tutorial",
+        "10.1007/s11042-020-10139-6"
+      ],
+      "remaining": "教程与综述分开；需核读参数适应和理论结论的条件。"
+    },
+    {
+      "id": "eda",
+      "title": "分布估计算法",
+      "ring": "相邻进化计算",
+      "sources": [
+        "10.1007/978-1-4615-1539-5_3",
+        "10.1016/j.swevo.2011.08.003"
+      ],
+      "remaining": "补早期框架与近年进展，不与一般群体算法合并。"
+    },
+    {
+      "id": "gp",
+      "title": "遗传编程与程序搜索",
+      "ring": "相邻进化计算",
+      "sources": [
+        "10.1109/cec.2016.7748328"
+      ],
+      "remaining": "已补模块化专题，仍缺本轮核读的通用GP综述；不能用模块化代表整个领域。"
+    },
+    {
+      "id": "local",
+      "title": "局部搜索、退火、禁忌与迭代搜索",
+      "ring": "相邻元启发式",
+      "sources": [
+        "review-vns-abbc38",
+        "10.1287/inte.20.4.74",
+        "10.1007/978-3-319-91086-4_5",
+        "10.1057/palgrave.jors.2602068"
+      ],
+      "remaining": "已补禁忌教程、退火综述与迭代局部搜索章节；仍需核读各框架及更新资料。"
+    },
+    {
+      "id": "alns",
+      "title": "大邻域、散布搜索与路径重连",
+      "ring": "相邻元启发式",
+      "sources": [
+        "10.1016/j.cor.2022.105903"
+      ],
+      "remaining": "已补ALNS综述，散布搜索与路径重连仍需独立资料。"
+    },
+    {
+      "id": "memetic",
+      "title": "模因算法、混合与数学启发式",
+      "ring": "混合机制",
+      "sources": [
+        "review-memetic-f59230",
+        "matheur2024"
+      ],
+      "remaining": "需核读数学规划组件、局部改进和群体搜索各自承担的工作。"
+    },
+    {
+      "id": "theory",
+      "title": "运行时间、黑箱复杂性与理论边界",
+      "ring": "理论与证据",
+      "sources": [
+        "10.1145/3472304",
+        "10.1007/978-3-030-29414-4_3"
+      ],
+      "remaining": "离散理论不能替代连续或现实系统结论；需核读定理假设。"
+    },
+    {
+      "id": "landscape",
+      "title": "适应度景观、结构偏差与问题特征",
+      "ring": "理论与证据",
+      "sources": [
+        "10.1016/j.ins.2013.04.015",
+        "10.3390/a14020040",
+        "10.1016/j.swevo.2024.101812"
+      ],
+      "remaining": "新旧综述可能有作者延续；需比较景观指标的适用空间。"
+    },
+    {
+      "id": "parameters",
+      "title": "参数调优、控制与自适应",
+      "ring": "理论与证据",
+      "sources": [
+        "10.1109/tevc.2014.2308294",
+        "10.1016/j.swevo.2020.100777"
+      ],
+      "remaining": "需区别运行前调优、运行中控制与自动配置，核对分类争议。"
+    },
+    {
+      "id": "large",
+      "title": "大规模、分解与协同进化",
+      "ring": "复杂问题",
+      "sources": [
+        "10.1016/j.ins.2014.10.042",
+        "10.1109/tevc.2021.3130838",
+        "10.1109/tevc.2021.3130835"
+      ],
+      "remaining": "Part I/II 是同一综述系列，不能算独立验证；维数与预算定义需要对齐。"
+    },
+    {
+      "id": "parallel",
+      "title": "并行、分布式与计算资源",
+      "ring": "复杂问题",
+      "sources": [
+        "10.1109/tevc.2002.800880"
+      ],
+      "remaining": "需补更新；区分并行实现的加速与改变种群结构的搜索效果。"
+    },
+    {
+      "id": "constraints",
+      "title": "约束处理与可行性",
+      "ring": "复杂问题",
+      "sources": [
+        "review-constraints-194106",
+        "zhConstraints",
+        "10.1109/tevc.2022.3155533"
+      ],
+      "remaining": "已补约束多目标专题；一般约束与多目标约束不能相互替代，正文核读待完成。"
+    },
+    {
+      "id": "moo",
+      "title": "多目标与高维多目标",
+      "ring": "复杂问题",
+      "sources": [
+        "review-multiobjective-c4c7da",
+        "review-manyobjective-10a164",
+        "review-manyobjective-2155ea"
+      ],
+      "remaining": "需按支配、分解、指标等路线核读，不能只列算法名。"
+    },
+    {
+      "id": "dynamic",
+      "title": "动态、噪声与稳健性",
+      "ring": "复杂问题",
+      "sources": [
+        "uncertainty2005",
+        "review-dynamic-2c003a",
+        "10.1007/978-3-319-42978-6_2"
+      ],
+      "remaining": "已有概念核对，仍需近年更新和各子类基准的对照。"
+    },
+    {
+      "id": "surrogates",
+      "title": "昂贵优化、代理与多保真",
+      "ring": "复杂问题",
+      "sources": [
+        "jinSurrogate2005",
+        "review-surrogates-4ce90e",
+        "review-surrogates-2e8c4a",
+        "10.1016/j.swevo.2025.101879"
+      ],
+      "remaining": "新增代理辅助DE更新，但不能代表多保真及全部昂贵优化；正文仍待核读。"
+    },
+    {
+      "id": "multimodal",
+      "title": "多峰、生态位与质量多样性",
+      "ring": "复杂问题",
+      "sources": [
+        "review-de-8e140f",
+        "qd2016",
+        "review-qd-0bd86b",
+        "10.1109/tevc.2016.2638437"
+      ],
+      "remaining": "多峰、生态位与QD需分别核读；不能用一个标签覆盖。"
+    },
+    {
+      "id": "mixed",
+      "title": "混合变量、变长与多任务迁移",
+      "ring": "复杂问题",
+      "sources": [
+        "review-taxonomy-cee81b",
+        "zhMultitask",
+        "10.1016/j.asoc.2023.110545",
+        "10.1016/j.asoc.2023.110182"
+      ],
+      "remaining": "新增两篇外文多任务综述，需核对负迁移、作者独立性及任务相关性。"
+    },
+    {
+      "id": "hyper",
+      "title": "超启发式与自动算法设计",
+      "ring": "学习与设计",
+      "sources": [
+        "review-hyper-3f59ee",
+        "hyper2024",
+        "automatedMhDesignSurvey2023",
+        "review-hyper-a1ea2b"
+      ],
+      "remaining": "已有部分交叉阅读，需核读正式自动设计综述及训练/测试问题的划分。"
+    },
+    {
+      "id": "selection",
+      "title": "算法选择、配置与组合",
+      "ring": "学习与设计",
+      "sources": [
+        "review-configuration-8bd9fb",
+        "isa2023"
+      ],
+      "remaining": "需要独立自动配置资料，以及选择器评估和实例划分的核对。"
+    },
+    {
+      "id": "learning",
+      "title": "学习辅助、强化学习与大模型",
+      "ring": "学习与设计",
+      "sources": [
+        "review-taxonomy-431f12",
+        "rlco2021",
+        "review-learning-74f161",
+        "llmDesign2026",
+        "10.1016/j.swevo.2018.03.011"
+      ],
+      "remaining": "需区分学习求解、学习选择、学习设计；新预印本结论仍需追踪。"
+    },
+    {
+      "id": "nas",
+      "title": "演化学习与神经架构搜索",
+      "ring": "学习与设计",
+      "sources": [
+        "evolutionaryNasSurvey2026",
+        "evolutionaryFeatureSelection2024"
+      ],
+      "remaining": "专题统计不能外推全领域，仍需核读评估成本与公平比较。"
+    },
+    {
+      "id": "benchmarks",
+      "title": "基准、公平比较、统计与复现",
+      "ring": "理论与证据",
+      "sources": [
+        "derrac2011",
+        "benchmark-practice",
+        "osaba2021",
+        "isa2023",
+        "10.1016/j.swevo.2018.10.002"
+      ],
+      "remaining": "随机种子不足以替代独立重复、预算控制、实例划分与基准外部效度。"
+    },
+    {
+      "id": "robotics",
+      "title": "群体机器人与集体行为",
+      "ring": "物理群体",
+      "sources": [
+        "brambilla2013",
+        "review-robotics-e516d3",
+        "review-robotics-de8d9a",
+        "robotics2023"
+      ],
+      "remaining": "工程验证、硬件现实差距与物理部署需回到原始研究。"
+    },
+    {
+      "id": "energy",
+      "title": "能源与电力",
+      "ring": "应用领域",
+      "sources": [
+        "power2024",
+        "app000",
+        "app007",
+        "waveEnergyReview2022",
+        "tidalFarmReview2024"
+      ],
+      "remaining": "目前是代表性专题入口，不能代表该行业全部模型或证明真实部署收益；需按具体模型继续核读。"
+    },
+    {
+      "id": "water",
+      "title": "水系统与环境",
+      "ring": "应用领域",
+      "sources": [
+        "app014",
+        "waterManagementReview2022",
+        "groundwaterInversionReview2024",
+        "wastewaterOptimizationReview2026"
+      ],
+      "remaining": "目前是代表性专题入口，不能代表该行业全部模型或证明真实部署收益；需按具体模型继续核读。"
+    },
+    {
+      "id": "transport",
+      "title": "交通、路由与物流",
+      "ring": "应用领域",
+      "sources": [
+        "review-routing-32ebea",
+        "vrpSwarmSurvey2024",
+        "app019",
+        "evacuationSwarmReview2025"
+      ],
+      "remaining": "目前是代表性专题入口，不能代表该行业全部模型或证明真实部署收益；需按具体模型继续核读。"
+    },
+    {
+      "id": "manufacturing",
+      "title": "制造、排程与布局",
+      "ring": "应用领域",
+      "sources": [
+        "review-scheduling-8245c2",
+        "manufacturingMhRlReview2024",
+        "app029"
+      ],
+      "remaining": "目前是代表性专题入口，不能代表该行业全部模型或证明真实部署收益；需按具体模型继续核读。"
+    },
+    {
+      "id": "compute",
+      "title": "云边端计算与通信",
+      "ring": "应用领域",
+      "sources": [
+        "app054",
+        "edgeOffloadingReview2025",
+        "app056"
+      ],
+      "remaining": "目前是代表性专题入口，不能代表该行业全部模型或证明真实部署收益；需按具体模型继续核读。"
+    },
+    {
+      "id": "medical",
+      "title": "医疗、护理与公共卫生",
+      "ring": "应用领域",
+      "sources": [
+        "healthcareMhReview2024",
+        "app047"
+      ],
+      "remaining": "目前是代表性专题入口，不能代表该行业全部模型或证明真实部署收益；需按具体模型继续核读。"
+    },
+    {
+      "id": "finance",
+      "title": "金融投资组合",
+      "ring": "应用领域",
+      "sources": [
+        "portfolioMetaReview2023"
+      ],
+      "remaining": "目前是代表性专题入口，不能代表该行业全部模型或证明真实部署收益；需按具体模型继续核读。"
+    },
+    {
+      "id": "agri",
+      "title": "农业与种植资源",
+      "ring": "应用领域",
+      "sources": [
+        "croppingReview2024"
+      ],
+      "remaining": "目前是代表性专题入口，不能代表该行业全部模型或证明真实部署收益；需按具体模型继续核读。"
+    },
+    {
+      "id": "space",
+      "title": "航天任务规划",
+      "ring": "应用领域",
+      "sources": [
+        "largeScaleSatelliteReview2025",
+        "satelliteSchedulingSurvey2025"
+      ],
+      "remaining": "目前是代表性专题入口，不能代表该行业全部模型或证明真实部署收益；需按具体模型继续核读。"
+    },
+    {
+      "id": "security",
+      "title": "密码设计与安全",
+      "ring": "应用领域",
+      "sources": [
+        "cryptoBooleanSurvey2023",
+        "movingTargetGameSurvey2023"
+      ],
+      "remaining": "目前是代表性专题入口，不能代表该行业全部模型或证明真实部署收益；需按具体模型继续核读。"
+    },
+    {
+      "id": "software",
+      "title": "软件测试与程序内容生成",
+      "ring": "应用领域",
+      "sources": [
+        "app059",
+        "app085",
+        "pcgGamesSurvey2024"
+      ],
+      "remaining": "目前是代表性专题入口，不能代表该行业全部模型或证明真实部署收益；需按具体模型继续核读。"
+    },
+    {
+      "id": "civil",
+      "title": "土木与基础设施",
+      "ring": "应用领域",
+      "sources": [
+        "civilInfrastructureReview2024"
+      ],
+      "remaining": "目前是代表性专题入口，不能代表该行业全部模型或证明真实部署收益；需按具体模型继续核读。"
+    },
+    {
+      "id": "creative",
+      "title": "音乐、图像与数据分析",
+      "ring": "应用领域",
+      "sources": [
+        "evolutionaryMusicReview2020",
+        "app049",
+        "app050"
+      ],
+      "remaining": "目前是代表性专题入口，不能代表该行业全部模型或证明真实部署收益；需按具体模型继续核读。"
+    },
+    {
+      "id": "other-swarm",
+      "title": "其他命名群智能算法与机制归并",
+      "ring": "核心群智能",
+      "sources": [
+        "swarm2021",
+        "rajwar2023"
+      ],
+      "remaining": "不能以总览代替各算法专题综述；需按机制、可靠评价与历史影响筛选，避免将所有新名称升格为主干。"
+    }
+  ]
+}

@@ -1,0 +1,2100 @@
+{
+  "url": "https://api.crossref.org/works/10.1145%2F3472304",
+  "retrieved": "2026-10-16",
+  "response": {
+    "status": "ok",
+    "message-type": "work",
+    "message-version": "1.0.0",
+    "message": {
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            10,
+            3
+          ]
+        ],
+        "date-time": "2026-10-03T16:55:42Z",
+        "timestamp": 1791046542432,
+        "version": "4.1.0"
+      },
+      "reference-count": 267,
+      "publisher": "Association for Computing Machinery (ACM)",
+      "issue": "4",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2021,
+                10,
+                13
+              ]
+            ],
+            "date-time": "2021-10-13T00:00:00Z",
+            "timestamp": 1634083200000
+          },
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "URL": "https://www.acm.org/publications/policies/copyright_policy#Background"
+        }
+      ],
+      "funder": [
+        {
+          "DOI": "10.13039/100005156",
+          "name": "Alexander von Humboldt Foundation",
+          "doi-asserted-by": "crossref",
+          "id": [
+            {
+              "id": "10.13039/100005156",
+              "id-type": "DOI",
+              "asserted-by": "crossref"
+            }
+          ]
+        },
+        {
+          "name": "Humboldt Fellowship for Experienced Researchers"
+        },
+        {
+          "DOI": "10.13039/501100000923",
+          "name": "Australian Research Council",
+          "doi-asserted-by": "crossref",
+          "award": [
+            "FT200100536"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "FT200100536"
+              ]
+            }
+          ],
+          "id": [
+            {
+              "id": "10.13039/501100000923",
+              "id-type": "DOI",
+              "asserted-by": "crossref"
+            }
+          ]
+        }
+      ],
+      "content-domain": {
+        "domain": [
+          "dl.acm.org"
+        ],
+        "crossmark-restriction": true
+      },
+      "short-container-title": [
+        "ACM Trans. Evol. Learn. Optim."
+      ],
+      "published-print": {
+        "date-parts": [
+          [
+            2021,
+            12,
+            31
+          ]
+        ]
+      },
+      "abstract": "",
+      "DOI": "10.1145/3472304",
+      "type": "journal-article",
+      "created": {
+        "date-parts": [
+          [
+            2021,
+            10,
+            13
+          ]
+        ],
+        "date-time": "2021-10-13T22:05:35Z",
+        "timestamp": 1634162735000
+      },
+      "page": "1-43",
+      "update-policy": "https://doi.org/10.1145/crossmark-policy",
+      "source": "Crossref",
+      "is-referenced-by-count": 43,
+      "title": [
+        "A Survey on Recent Progress in the Theory of Evolutionary Algorithms for Discrete Optimization"
+      ],
+      "prefix": "10.1145",
+      "volume": "1",
+      "author": [
+        {
+          "given": "Benjamin",
+          "family": "Doerr",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "Laboratoire d’Informatique (LIX), CNRS, École Polytechnique, Institut Polytechnique de Paris, Palaiseau, France"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Frank",
+          "family": "Neumann",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Optimisation and Logistics, School of Computer Science, The University of Adelaide, Adelaide, Australia"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "320",
+      "published-online": {
+        "date-parts": [
+          [
+            2021,
+            10,
+            13
+          ]
+        ]
+      },
+      "reference": [
+        {
+          "key": "e_1_3_2_2_2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.5555/40713"
+        },
+        {
+          "key": "e_1_3_2_3_2",
+          "doi-asserted-by": "crossref",
+          "first-page": "801",
+          "DOI": "10.1145/3205455.3205606",
+          "volume-title": "Proceedings of the Genetic and Evolutionary Computation Conference",
+          "author": "Akimoto Youhei",
+          "year": "2018",
+          "unstructured": "Youhei Akimoto, Anne Auger, and Tobias Glasmachers. 2018. Drift theory in continuous search spaces: Expected hitting time of the (1 + 1)-ES with 1/5 success rule. In Proceedings of the Genetic and Evolutionary Computation Conference (GECCO’18). ACM, 801–808."
+        },
+        {
+          "key": "e_1_3_2_4_2",
+          "first-page": "1268",
+          "volume-title": "Proceedings of the Genetic and Evolutionary Computation Conference",
+          "author": "Antipov Denis",
+          "year": "2020",
+          "unstructured": "Denis Antipov, Maxim Buzdalov, and Benjamin Doerr. 2020. Fast mutation in crossover-based algorithms. In Proceedings of the Genetic and Evolutionary Computation Conference (GECCO’20). ACM, 1268–1276."
+        },
+        {
+          "key": "e_1_3_2_5_2",
+          "first-page": "560",
+          "volume-title": "Proceedings of the International Conference on Parallel Problem Solving From Nature (PPSN’20), Part II",
+          "author": "Antipov Denis",
+          "year": "2020",
+          "unstructured": "Denis Antipov, Maxim Buzdalov, and Benjamin Doerr. 2020. First steps towards a runtime analysis when starting with a good solution. In Proceedings of the International Conference on Parallel Problem Solving From Nature (PPSN’20), Part II. Springer, 560–573."
+        },
+        {
+          "key": "e_1_3_2_6_2",
+          "first-page": "545",
+          "volume-title": "Proceedings of the International Conference on Parallel Problem Solving From Nature (PPSN’20), Part II",
+          "author": "Antipov Denis",
+          "year": "2020",
+          "unstructured": "Denis Antipov and Benjamin Doerr. 2020. Runtime analysis of a heavy-tailed (1+(\\lambda , \\lambda)) genetic algorithm on jump functions. In Proceedings of the International Conference on Parallel Problem Solving From Nature (PPSN’20), Part II. Springer, 545–559."
+        },
+        {
+          "key": "e_1_3_2_7_2",
+          "doi-asserted-by": "crossref",
+          "first-page": "1459",
+          "DOI": "10.1145/3205455.3205627",
+          "volume-title": "Proceedings of the Genetic and Evolutionary Computation Conference",
+          "author": "Antipov Denis",
+          "year": "2018",
+          "unstructured": "Denis Antipov, Benjamin Doerr, Jiefeng Fang, and Tangi Hetet. 2018. Runtime analysis for the {(\\mu +\\lambda)} EA optimizing OneMax. In Proceedings of the Genetic and Evolutionary Computation Conference (GECCO’18). ACM, 1459–1466."
+        },
+        {
+          "key": "e_1_3_2_8_2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/3321707.3321838"
+        },
+        {
+          "key": "e_1_3_2_9_2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/290179.290180"
+        },
+        {
+          "key": "e_1_3_2_10_2",
+          "series-title": "Frontiers in Artificial Intelligence and Applications",
+          "first-page": "307",
+          "volume-title": "Proceedings of the European Conference on Artificial Intelligence (ECAI’20),",
+          "author": "Assimi Hirad",
+          "year": "2020",
+          "unstructured": "Hirad Assimi, Oscar Harper, Yue Xie, Aneta Neumann, and Frank Neumann. 2020. Evolutionary Bi-objective optimization for the dynamic chance-constrained knapsack problem based on tail bound objectives. In Proceedings of the European Conference on Artificial Intelligence (ECAI’20),Frontiers in Artificial Intelligence and Applications, Vol. 325. IOS Press, 307–314."
+        },
+        {
+          "key": "e_1_3_2_11_2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.ipl.2007.08.013"
+        },
+        {
+          "key": "e_1_3_2_12_2",
+          "first-page": "263",
+          "volume-title": "Proceedings of the European Conference on Artifical Life",
+          "author": "Bäck Thomas",
+          "year": "1992",
+          "unstructured": "Thomas Bäck. 1992. Self-adaptation in genetic algorithms. In Proceedings of the European Conference on Artifical Life (ECAL’92). MIT Press, 263–271."
+        },
+        {
+          "key": "e_1_3_2_13_2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.5555/645513.657408"
+        },
+        {
+          "key": "e_1_3_2_14_2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/oso/9780195099713.001.0001"
+        },
+        {
+          "key": "e_1_3_2_15_2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1887/0750308958"
+        },
+        {
+          "key": "e_1_3_2_16_2",
+          "first-page": "892",
+          "volume-title": "Proceedings of the International Conference on Parallel Problem Solving from Nature",
+          "author": "Badkobeh Golnaz",
+          "year": "2014",
+          "unstructured": "Golnaz Badkobeh, Per Kristian Lehre, and Dirk Sudholt. 2014. Unbiased black-box complexity of parallel search. In Proceedings of the International Conference on Parallel Problem Solving from Nature (PPSN’14). Springer, 892–901."
+        },
+        {
+          "key": "e_1_3_2_18_2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/978-3-642-33206-7_10"
+        },
+        {
+          "key": "e_1_3_2_19_2",
+          "first-page": "17:1–17:12",
+          "volume-title": "Proceedings of the European Symposium on Algorithms (ESA’20)",
+          "author": "Bertschinger Daniel",
+          "year": "2020",
+          "unstructured": "Daniel Bertschinger, Johannes Lengler, Anders Martinsson, Robert Meier, Angelika Steger, Milos Trujic, and Emo Welzl. 2020. An optimal decentralized (\\Delta + 1)-coloring algorithm. In Proceedings of the European Symposium on Algorithms (ESA’20), Vol. 173. Schloss Dagstuhl–Leibniz-Zentrum für Informatik, 17:1–17:12."
+        },
+        {
+          "key": "e_1_3_2_20_2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.envsoft.2014.09.010"
+        },
+        {
+          "key": "e_1_3_2_21_2",
+          "first-page": "3267",
+          "volume-title": "Proceedings of the Annual AAAI Conference on Artificial Intelligence",
+          "author": "Bian Chao",
+          "year": "2020",
+          "unstructured": "Chao Bian, Chao Feng, Chao Qian, and Yang Yu. 2020. An efficient evolutionary algorithm for subset selection with general cost constraints. In Proceedings of the Annual AAAI Conference on Artificial Intelligence (AAAI’20). AAAI Press, 3267–3274."
+        },
+        {
+          "key": "e_1_3_2_22_2",
+          "first-page": "165",
+          "volume-title": "Proceedings of the International Conference on Parallel Problem Solving from Nature (PPSN’18), Part II",
+          "author": "Bian Chao",
+          "year": "2018",
+          "unstructured": "Chao Bian, Chao Qian, and Ke Tang. 2018. Towards a running time analysis of the (1+1)-EA for OneMax and LeadingOnes under general bit-wise noise. In Proceedings of the International Conference on Parallel Problem Solving from Nature (PPSN’18), Part II. Springer, 165–177."
+        },
+        {
+          "key": "e_1_3_2_23_2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/978-3-319-18781-5_1"
+        },
+        {
+          "key": "e_1_3_2_24_2",
+          "first-page": "1277",
+          "volume-title": "Proceedings of the Genetic and Evolutionary Computation Conference",
+          "author": "Bossek Jakob",
+          "year": "2020",
+          "unstructured": "Jakob Bossek, Frank Neumann, Pan Peng, and Dirk Sudholt. 2020. More effective randomized search heuristics for graph coloring through dynamic optimization. In Proceedings of the Genetic and Evolutionary Computation Conference (GECCO’20). ACM, 1277–1285."
+        },
+        {
+          "key": "e_1_3_2_25_2",
+          "volume-title": "Algorithmica",
+          "author": "Bossek Jakob",
+          "year": "2021",
+          "unstructured": "Jakob Bossek, Frank Neumann, Pan Peng, and Dirk Sudholt. 2021. Time complexity analysis of randomized search heuristics for the dynamic graph coloring problem. Algorithmica (2021). https://doi.org/10.1007/s00453-021-00838-3"
+        },
+        {
+          "key": "e_1_3_2_26_2",
+          "first-page": "1",
+          "volume-title": "Proceedings of the International Conference on Parallel Problem Solving from Nature",
+          "author": "Böttcher Süntje",
+          "year": "2010",
+          "unstructured": "Süntje Böttcher, Benjamin Doerr, and Frank Neumann. 2010. Optimal fixed and adaptive mutation rates for the LeadingOnes problem. In Proceedings of the International Conference on Parallel Problem Solving from Nature (PPSN’10). Springer, 1–10."
+        },
+        {
+          "key": "e_1_3_2_27_2",
+          "volume-title": "Evolutionary Optimization in Dynamic Environments",
+          "author": "Branke Jürgen",
+          "year": "2000",
+          "unstructured": "Jürgen Branke. 2000. Evolutionary Optimization in Dynamic Environments. Ph.D. Dissertation. Universität Karlsruhe."
+        },
+        {
+          "key": "e_1_3_2_28_2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/TEVC.2008.2009064"
+        },
+        {
+          "key": "e_1_3_2_29_2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/3071178.3071297"
+        },
+        {
+          "key": "e_1_3_2_30_2",
+          "first-page": "1295",
+          "volume-title": "Proceedings of the Genetic and Evolutionary Computation Conference",
+          "author": "Buzdalov Maxim",
+          "year": "2020",
+          "unstructured": "Maxim Buzdalov, Benjamin Doerr, Carola Doerr, and Dmitry Vinokurov. 2020. Fixed-target runtime analysis. In Proceedings of the Genetic and Evolutionary Computation Conference (GECCO’20). ACM, 1295–1303."
+        },
+        {
+          "key": "e_1_3_2_31_2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/TEVC.2020.2985450"
+        },
+        {
+          "key": "e_1_3_2_32_2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/TSMCB.2008.2012167"
+        },
+        {
+          "key": "e_1_3_2_33_2",
+          "first-page": "1470",
+          "volume-title": "Proceedings of the Congress on Evolutionary Computation",
+          "author": "Chen Tianshi",
+          "year": "2009",
+          "unstructured": "Tianshi Chen, Per Kristian Lehre, Ke Tang, and Xin Yao. 2009. When is an estimation of distribution algorithm better than an evolutionary algorithm?. In Proceedings of the Congress on Evolutionary Computation (CEC’09). IEEE, 1470–1477."
+        },
+        {
+          "key": "e_1_3_2_34_2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/TEVC.2009.2040019"
+        },
+        {
+          "key": "e_1_3_2_35_2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/0166-218X(84)90003-9"
+        },
+        {
+          "key": "e_1_3_2_36_2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/TEVC.2017.2753538"
+        },
+        {
+          "key": "e_1_3_2_37_2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/s00453-016-0187-y"
+        },
+        {
+          "key": "e_1_3_2_38_2",
+          "first-page": "62",
+          "volume-title": "Proceedings of the ACM Foundations of Genetic Algorithms Conference",
+          "author": "Dang Duc-Cuong",
+          "year": "2015",
+          "unstructured": "Duc-Cuong Dang and Per Kristian Lehre. 2015. Efficient optimisation of noisy fitness functions with population-based evolutionary algorithms. In Proceedings of the ACM Foundations of Genetic Algorithms Conference (FOGA’15). ACM, 62–68."
+        },
+        {
+          "key": "e_1_3_2_39_2",
+          "first-page": "513",
+          "volume-title": "Proceedings of the Genetic and Evolutionary Computation Conference",
+          "author": "Dang Duc-Cuong",
+          "year": "2015",
+          "unstructured": "Duc-Cuong Dang and Per Kristian Lehre. 2015. Simplified runtime analysis of estimation of distribution algorithms. In Proceedings of the Genetic and Evolutionary Computation Conference (GECCO’15). ACM, 513–518."
+        },
+        {
+          "key": "e_1_3_2_40_2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/s00453-018-0507-5"
+        },
+        {
+          "key": "e_1_3_2_41_2",
+          "first-page": "803",
+          "volume-title": "Proceedings of the International Conference on Parallel Problem Solving from Nature",
+          "author": "Dang Duc-Cuong",
+          "year": "2016",
+          "unstructured": "Duc-Cuong Dang and Per Kristian Lehre. 2016. Self-adaptation of mutation rates in non-elitist populations. In Proceedings of the International Conference on Parallel Problem Solving from Nature (PPSN’16). Springer, 803–813."
+        },
+        {
+          "key": "e_1_3_2_42_2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/3205455.3205563"
+        },
+        {
+          "key": "e_1_3_2_43_2",
+          "first-page": "1057",
+          "volume-title": "Proceedings of the International Conference on Machine Learning",
+          "author": "Das Abhimanyu",
+          "year": "2011",
+          "unstructured": "Abhimanyu Das and David Kempe. 2011. Submodular meets spectral: Greedy algorithms for subset selection, sparse approximation and dictionary selection. In Proceedings of the International Conference on Machine Learning (ICML’11). Omnipress, 1057–1064."
+        },
+        {
+          "key": "e_1_3_2_44_2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.orl.2005.01.002"
+        },
+        {
+          "key": "e_1_3_2_45_2",
+          "first-page": "588",
+          "volume-title": "Proceedings of the International Conference on Parallel Problem Solving from Nature (PPSN’20),",
+          "author": "Do Anh Viet",
+          "year": "2020",
+          "unstructured": "Anh Viet Do and Frank Neumann. 2020. Maximizing submodular or monotone functions under partition matroid constraints by multi-objective evolutionary algorithms. In Proceedings of the International Conference on Parallel Problem Solving from Nature (PPSN’20),Lecture Notes in Computer Science, Vol. 12270. Springer, 588–603."
+        },
+        {
+          "key": "e_1_3_2_46_2",
+          "first-page": "1311",
+          "volume-title": "Proceedings of the Genetic and Evolutionary Computation Conference (GECCO’11), Companion Material",
+          "author": "Doerr Benjamin",
+          "year": "2011",
+          "unstructured": "Benjamin Doerr. 2011. Drift analysis. In Proceedings of the Genetic and Evolutionary Computation Conference (GECCO’11), Companion Material. ACM, 1311–1320."
+        },
+        {
+          "key": "e_1_3_2_47_2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.tcs.2018.09.024"
+        },
+        {
+          "key": "e_1_3_2_48_2",
+          "doi-asserted-by": "crossref",
+          "first-page": "25",
+          "DOI": "10.1145/3299904.3340304",
+          "volume-title": "Proceedings of the Foundations of Genetic Algorithms Conference",
+          "author": "Doerr Benjamin",
+          "year": "2019",
+          "unstructured": "Benjamin Doerr. 2019. An exponential lower bound for the runtime of the compact genetic algorithm on jump functions. In Proceedings of the Foundations of Genetic Algorithms Conference (FOGA’19). ACM, 25–33."
+        },
+        {
+          "key": "e_1_3_2_49_2",
+          "doi-asserted-by": "crossref",
+          "first-page": "1488",
+          "DOI": "10.1145/3321707.3321747",
+          "volume-title": "Proceedings of the Genetic and Evolutionary Computation Conference",
+          "author": "Doerr Benjamin",
+          "year": "2019",
+          "unstructured": "Benjamin Doerr. 2019. A tight runtime analysis for the cGA on jump functions: EDAs can cross fitness valleys at no extra cost. In Proceedings of the Genetic and Evolutionary Computation Conference (GECCO’19). ACM, 1488–1496."
+        },
+        {
+          "key": "e_1_3_2_50_2",
+          "first-page": "1304",
+          "volume-title": "Proceedings of the Genetic and Evolutionary Computation Conference",
+          "author": "Doerr Benjamin",
+          "year": "2020",
+          "unstructured": "Benjamin Doerr. 2020. Does comma selection help to cope with local optima?. In Proceedings of the Genetic and Evolutionary Computation Conference (GECCO’20). ACM, 1304–1313."
+        },
+        {
+          "key": "e_1_3_2_51_2",
+          "first-page": "604",
+          "volume-title": "Proceedings of the International Conference on Parallel Problem Solving from Nature (PPSN’20), Part II",
+          "author": "Doerr Benjamin",
+          "year": "2020",
+          "unstructured": "Benjamin Doerr. 2020. Lower bounds for non-elitist evolutionary algorithms via negative multiplicative drift. In Proceedings of the International Conference on Parallel Problem Solving from Nature (PPSN’20), Part II. Springer, 604–618."
+        },
+        {
+          "key": "e_1_3_2_52_2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/s00453-017-0354-9"
+        },
+        {
+          "key": "e_1_3_2_53_2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.tcs.2014.11.028"
+        },
+        {
+          "key": "e_1_3_2_54_2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/s00453-017-0341-1"
+        },
+        {
+          "key": "e_1_3_2_55_2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/s00453-018-0477-7"
+        },
+        {
+          "key": "e_1_3_2_56_2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/3321707.3321733"
+        },
+        {
+          "key": "e_1_3_2_57_2",
+          "first-page": "1460",
+          "volume-title": "Proceedings of the Annual AAAI Conference on Artificial Intelligence",
+          "author": "Doerr Benjamin",
+          "year": "2020",
+          "unstructured": "Benjamin Doerr, Carola Doerr, Aneta Neumann, Frank Neumann, and Andrew M. Sutton. 2020. Optimization of Chance-Constrained Submodular Functions. In Proceedings of the Annual AAAI Conference on Artificial Intelligence (AAAI’20). AAAI Press, 1460–1467."
+        },
+        {
+          "key": "e_1_3_2_58_2",
+          "first-page": "824",
+          "volume-title": "Proceedings of the International Conference on Parallel Problem Solving from Nature",
+          "author": "Doerr Benjamin",
+          "year": "2016",
+          "unstructured": "Benjamin Doerr, Carola Doerr, and Jing Yang. 2016. k-bit mutation with self-adjusting k outperforms standard bit mutation. In Proceedings of the International Conference on Parallel Problem Solving from Nature (PPSN’16). Springer, 824–834."
+        },
+        {
+          "key": "e_1_3_2_59_2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.tcs.2019.06.014"
+        },
+        {
+          "key": "e_1_3_2_60_2",
+          "first-page": "2083",
+          "volume-title": "Proceedings of the Genetic and Evolutionary Computation Conference",
+          "author": "Doerr Benjamin",
+          "year": "2011",
+          "unstructured": "Benjamin Doerr, Mahmoud Fouz, and Carsten Witt. 2011. Sharp bounds by probability-generating functions and variable drift. In Proceedings of the Genetic and Evolutionary Computation Conference (GECCO’11). ACM, 2083–2090."
+        },
+        {
+          "key": "e_1_3_2_61_2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/s00453-018-0502-x"
+        },
+        {
+          "key": "e_1_3_2_62_2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/s00453-011-9585-3"
+        },
+        {
+          "key": "e_1_3_2_63_2",
+          "first-page": "17",
+          "volume-title": "Proceedings of the Genetic and Evolutionary Computation Conference",
+          "author": "Doerr Benjamin",
+          "year": "2012",
+          "unstructured": "Benjamin Doerr, Ashish Ranjan Hota, and Timo Kötzing. 2012. Ants easily solve stochastic shortest path problems. In Proceedings of the Genetic and Evolutionary Computation Conference (GECCO’12). ACM, 17–24."
+        },
+        {
+          "key": "e_1_3_2_64_2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1162/EVCO_a_00055"
+        },
+        {
+          "key": "e_1_3_2_65_2",
+          "first-page": "1581",
+          "volume-title": "Proceedings of the Genetic and Evolutionary Computation Conference",
+          "author": "Doerr Benjamin",
+          "year": "2013",
+          "unstructured": "Benjamin Doerr, Thomas Jansen, Carsten Witt, and Christine Zarges. 2013. A method to derive fixed budget results from expected optimisation times. In Proceedings of the Genetic and Evolutionary Computation Conference (GECCO’13). ACM, 1581–1588."
+        },
+        {
+          "key": "e_1_3_2_66_2",
+          "first-page": "501",
+          "volume-title": "Proceedings of the Congress on Evolutionary Computation",
+          "author": "Doerr Benjamin",
+          "year": "2007",
+          "unstructured": "Benjamin Doerr and Daniel Johannsen. 2007. Refined runtime analysis of a basic ant colony optimization algorithm. In Proceedings of the Congress on Evolutionary Computation (CEC’07). IEEE, 501–507."
+        },
+        {
+          "key": "e_1_3_2_67_2",
+          "first-page": "759",
+          "volume-title": "Proceedings of the Genetic and Evolutionary Computation Conference",
+          "author": "Doerr Benjamin",
+          "year": "2010",
+          "unstructured": "Benjamin Doerr and Daniel Johannsen. 2010. Edge-based representation beats vertex-based representation in shortest path problems. In Proceedings of the Genetic and Evolutionary Computation Conference (GECCO’10). ACM, 759–766."
+        },
+        {
+          "key": "e_1_3_2_68_2",
+          "doi-asserted-by": "crossref",
+          "first-page": "119",
+          "DOI": "10.1145/1967654.1967665",
+          "volume-title": "Proceedings of the Foundations of Genetic Algorithms Conference",
+          "author": "Doerr Benjamin",
+          "year": "2011",
+          "unstructured": "Benjamin Doerr, Daniel Johannsen, and Martin Schmidt. 2011. Runtime analysis of the (1+1) evolutionary algorithm on strings over finite alphabets. In Proceedings of the Foundations of Genetic Algorithms Conference (FOGA’11). ACM, 119–126."
+        },
+        {
+          "key": "e_1_3_2_69_2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/s00453-012-9622-x"
+        },
+        {
+          "key": "e_1_3_2_70_2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.tcs.2012.01.048"
+        },
+        {
+          "key": "e_1_3_2_71_2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/3321707.3321819"
+        },
+        {
+          "key": "e_1_3_2_72_2",
+          "first-page": "796",
+          "volume-title": "Proceedings of the Genetic and Evolutionary Computation Conference",
+          "author": "Doerr Benjamin",
+          "year": "2020",
+          "unstructured": "Benjamin Doerr and Martin S. Krejca. 2020. Bivariate estimation-of-distribution algorithms can find an exponential number of optima. In Proceedings of the Genetic and Evolutionary Computation Conference (GECCO’20). ACM, 796–804."
+        },
+        {
+          "key": "e_1_3_2_73_2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/TEVC.2019.2956633"
+        },
+        {
+          "key": "e_1_3_2_74_2",
+          "doi-asserted-by": "crossref",
+          "first-page": "51",
+          "DOI": "10.1007/978-3-030-43680-3_4",
+          "volume-title": "Proceedings of the Evolutionary Computation in Combinatorial Optimization",
+          "author": "Doerr Benjamin",
+          "year": "2020",
+          "unstructured": "Benjamin Doerr and Martin S. Krejca. 2020. The univariate marginal distribution algorithm copes well with deception and epistasis. In Proceedings of the Evolutionary Computation in Combinatorial Optimization (EvoCOP’20). Springer, 51–66."
+        },
+        {
+          "key": "e_1_3_2_75_2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.tcs.2014.03.015"
+        },
+        {
+          "key": "e_1_3_2_76_2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/3071178.3071301"
+        },
+        {
+          "key": "e_1_3_2_77_2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/3321707.3321851"
+        },
+        {
+          "key": "e_1_3_2_78_2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/3205455.3205611"
+        },
+        {
+          "key": "e_1_3_2_79_2",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1007/978-3-030-29414-4",
+          "volume-title": "Theory of Evolutionary Computation—Recent Developments in Discrete Optimization",
+          "author": "Doerr Benjamin",
+          "year": "2020",
+          "unstructured": "Benjamin Doerr and Frank Neumann (Eds.). 2020. Theory of Evolutionary Computation—Recent Developments in Discrete Optimization. Springer."
+        },
+        {
+          "key": "e_1_3_2_80_2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.tcs.2010.12.030"
+        },
+        {
+          "key": "e_1_3_2_81_2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/s00453-016-0190-3"
+        },
+        {
+          "key": "e_1_3_2_82_2",
+          "first-page": "1317",
+          "volume-title": "Proceedings of the Genetic and Evolutionary Computation Conference",
+          "author": "Doerr Benjamin",
+          "year": "2012",
+          "unstructured": "Benjamin Doerr and Sebastian Pohl. 2012. Run-time analysis of the (1+1) evolutionary algorithm optimizing linear functions over a finite alphabet. In Proceedings of the Genetic and Evolutionary Computation Conference (GECCO’12). ACM, 1317–1324."
+        },
+        {
+          "key": "e_1_3_2_83_2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/s00453-020-00726-2"
+        },
+        {
+          "key": "e_1_3_2_84_2",
+          "first-page": "805",
+          "volume-title": "Proceedings of the Genetic and Evolutionary Computation Conference",
+          "author": "Doerr Benjamin",
+          "year": "2020",
+          "unstructured": "Benjamin Doerr and Weijie Zheng. 2020. From understanding genetic drift to a smart-restart parameter-less compact genetic algorithm. In Proceedings of the Genetic and Evolutionary Computation Conference (GECCO’20). ACM, 805–813."
+        },
+        {
+          "key": "e_1_3_2_85_2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/TEVC.2020.2987361"
+        },
+        {
+          "key": "e_1_3_2_86_2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/978-3-642-30504-7_37"
+        },
+        {
+          "key": "e_1_3_2_87_2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/978-1-4612-0515-9"
+        },
+        {
+          "key": "e_1_3_2_88_2",
+          "first-page": "55",
+          "volume-title": "Proceedings of the Congress on Evolutionary Computation",
+          "author": "Droste Stefan",
+          "year": "2002",
+          "unstructured": "Stefan Droste. 2002. Analysis of the (1+1) EA for a dynamically changing OneMax-variant. In Proceedings of the Congress on Evolutionary Computation (CEC’02). IEEE, 55–60."
+        },
+        {
+          "key": "e_1_3_2_89_2",
+          "series-title": "Lecture Notes in Computer Science",
+          "doi-asserted-by": "crossref",
+          "first-page": "909",
+          "DOI": "10.1007/3-540-45105-6_103",
+          "volume-title": "Proceedings of the Genetic and Evolutionary Computation Conference (GECCO’03),",
+          "author": "Droste Stefan",
+          "year": "2003",
+          "unstructured": "Stefan Droste. 2003. Analysis of the (1+1) EA for a Dynamically Bitwise Changing OneMax. In Proceedings of the Genetic and Evolutionary Computation Conference (GECCO’03),Lecture Notes in Computer Science, Vol. 2723. Springer, 909–921."
+        },
+        {
+          "key": "e_1_3_2_90_2",
+          "series-title": "Lecture Notes in Computer Science",
+          "doi-asserted-by": "crossref",
+          "first-page": "1088",
+          "DOI": "10.1007/978-3-540-24854-5_107",
+          "volume-title": "Proceedings of the Genetic and Evolutionary Computation Conference(GECCO’04),",
+          "author": "Droste Stefan",
+          "year": "2004",
+          "unstructured": "Stefan Droste. 2004. Analysis of the (1+1) EA for a Noisy OneMax. In Proceedings of the Genetic and Evolutionary Computation Conference(GECCO’04),Lecture Notes in Computer Science, Vol. 3102. Springer, 1088–1099."
+        },
+        {
+          "key": "e_1_3_2_91_2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/s11047-006-9001-0"
+        },
+        {
+          "key": "e_1_3_2_92_2",
+          "first-page": "275",
+          "volume-title": "Proceedings of the Foundations of Genetic Algorithms Conference",
+          "author": "Droste Stefan",
+          "year": "2000",
+          "unstructured": "Stefan Droste, Thomas Jansen, and Ingo Wegener. 2000. Dynamic parameter control in simple evolutionary algorithms. In Proceedings of the Foundations of Genetic Algorithms Conference (FOGA’00). Morgan Kaufmann, 275–294."
+        },
+        {
+          "key": "e_1_3_2_93_2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/S0304-3975(01)00182-7"
+        },
+        {
+          "key": "e_1_3_2_94_2",
+          "article-title": "Adaptivity in adaptive submodularity",
+          "volume": "1911",
+          "author": "Esfandiari Hossein",
+          "year": "2019",
+          "unstructured": "Hossein Esfandiari, Amin Karbasi, and Vahab S. Mirrokni. 2019. Adaptivity in adaptive submodularity. CoRR abs/1911.03620 (2019).",
+          "journal-title": "CoRR"
+        },
+        {
+          "key": "e_1_3_2_95_2",
+          "first-page": "65",
+          "volume-title": "Proceedings of the Foundations of Genetic Algorithms Conference",
+          "author": "Feldmann Matthias",
+          "year": "2013",
+          "unstructured": "Matthias Feldmann and Timo Kötzing. 2013. Optimizing expected path lengths with ant colony optimization using fitness proportional update. In Proceedings of the Foundations of Genetic Algorithms Conference (FOGA’13). ACM, 65–74."
+        },
+        {
+          "key": "e_1_3_2_96_2",
+          "first-page": "2272",
+          "volume-title": "Proceedings of the AAAI Conference on Artificial Intelligence",
+          "author": "Friedrich Tobias",
+          "year": "2019",
+          "unstructured": "Tobias Friedrich, Andreas Göbel, Frank Neumann, Francesco Quinzan, and Ralf Rothenberger. 2019. Greedy maximization of functions with bounded curvature under partition matroid constraints. In Proceedings of the AAAI Conference on Artificial Intelligence (AAAI’19). AAAI Press, 2272–2279."
+        },
+        {
+          "key": "e_1_3_2_97_2",
+          "article-title": "Evolutionary algorithms and submodular functions: Benefits of heavy-tailed mutations",
+          "volume": "1805",
+          "author": "Friedrich Tobias",
+          "year": "2018",
+          "unstructured": "Tobias Friedrich, Andreas Göbel, Francesco Quinzan, and Markus Wagner. 2018. Evolutionary algorithms and submodular functions: Benefits of heavy-tailed mutations. CoRR abs/1805.10902 (2018).",
+          "journal-title": "CoRR"
+        },
+        {
+          "key": "e_1_3_2_98_2",
+          "first-page": "134",
+          "volume-title": "Proceedings of the International Conference on Parallel Problem Solving from Nature (PPSN’18), Part I",
+          "author": "Friedrich Tobias",
+          "year": "2018",
+          "unstructured": "Tobias Friedrich, Andreas Göbel, Francesco Quinzan, and Markus Wagner. 2018. Heavy-tailed mutation operators in single-objective combinatorial optimization. In Proceedings of the International Conference on Parallel Problem Solving from Nature (PPSN’18), Part I. Springer, 134–145."
+        },
+        {
+          "key": "e_1_3_2_99_2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1162/EVCO_a_00003"
+        },
+        {
+          "key": "e_1_3_2_100_2",
+          "first-page": "1139",
+          "volume-title": "Proceedings of the Genetic and Evolutionary Computation Conference",
+          "author": "Friedrich Tobias",
+          "year": "2016",
+          "unstructured": "Tobias Friedrich, Timo Kötzing, and Martin S. Krejca. 2016. EDAs cannot be balanced and stable. In Proceedings of the Genetic and Evolutionary Computation Conference (GECCO’16). ACM, 1139–1146."
+        },
+        {
+          "key": "e_1_3_2_101_2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1162/EVCO_a_00178"
+        },
+        {
+          "key": "e_1_3_2_102_2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/TEVC.2016.2613739"
+        },
+        {
+          "key": "e_1_3_2_103_2",
+          "doi-asserted-by": "crossref",
+          "first-page": "25",
+          "DOI": "10.1145/3040718.3040723",
+          "volume-title": "Proceedings of the Foundations of Genetic Algorithms Conference",
+          "author": "Friedrich Tobias",
+          "year": "2017",
+          "unstructured": "Tobias Friedrich, Timo Kötzing, Francesco Quinzan, and Andrew M. Sutton. 2017. Resampling vs recombination: A statistical run time estimation. In Proceedings of the Foundations of Genetic Algorithms Conference (FOGA’17). ACM, 25–35."
+        },
+        {
+          "key": "e_1_3_2_104_2",
+          "series-title": "Lecture Notes in Computer Science",
+          "doi-asserted-by": "crossref",
+          "first-page": "922",
+          "DOI": "10.1007/978-3-319-10762-2_91",
+          "volume-title": "Proceedings of the 13th International Conference on Parallel Problem Solving from Nature (PPSN’14)",
+          "author": "Friedrich Tobias",
+          "year": "2014",
+          "unstructured": "Tobias Friedrich and Frank Neumann. 2014. Maximizing Submodular Functions under Matroid Constraints by Multi-Objective Evolutionary Algorithms. In Proceedings of the 13th International Conference on Parallel Problem Solving from Nature (PPSN’14), Lecture Notes in Computer Science, Vol. 8672. Springer, 922–931."
+        },
+        {
+          "key": "e_1_3_2_105_2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/3205455.3205515"
+        },
+        {
+          "key": "e_1_3_2_106_2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1162/evco.1999.7.2.173"
+        },
+        {
+          "key": "e_1_3_2_107_2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1162/EVCO_a_00013"
+        },
+        {
+          "key": "e_1_3_2_108_2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/s00453-015-0072-0"
+        },
+        {
+          "key": "e_1_3_2_109_2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/s00453-016-0214-z"
+        },
+        {
+          "key": "e_1_3_2_110_2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/s00453-017-0360-y"
+        },
+        {
+          "key": "e_1_3_2_111_2",
+          "unstructured": "Andreas Göbel Timo Kötzing and Martin S. Krejca. 2018. Intuitive analyses via drift theory. arxiv:1806.01919. Retrieved from https://arxiv.org/abs/1806.01919."
+        },
+        {
+          "key": "e_1_3_2_112_2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.5555/2208436.2208448"
+        },
+        {
+          "key": "e_1_3_2_113_2",
+          "doi-asserted-by": "crossref",
+          "first-page": "873",
+          "DOI": "10.1016/S0167-739X(00)00044-3",
+          "article-title": "A graph-based ant system and its convergence",
+          "volume": "16",
+          "author": "Gutjahr Walter J.",
+          "year": "2000",
+          "unstructured": "Walter J. Gutjahr. 2000. A graph-based ant system and its convergence. Fut. Gener. Comput. Syst. 16 (2000), 873–888.",
+          "journal-title": "Fut. Gener. Comput. Syst."
+        },
+        {
+          "key": "e_1_3_2_114_2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/S0020-0190(01)00258-7"
+        },
+        {
+          "key": "e_1_3_2_115_2",
+          "doi-asserted-by": "crossref",
+          "first-page": "10",
+          "DOI": "10.1007/978-3-540-39816-5_2",
+          "volume-title": "Proceedings of the Stochastic Algorithms: Foundations and Applications",
+          "author": "Gutjahr Walter J.",
+          "year": "2003",
+          "unstructured": "Walter J. Gutjahr. 2003. A converging ACO algorithm for stochastic combinatorial optimization. In Proceedings of the Stochastic Algorithms: Foundations and Applications (SAGA’03). Springer, 10–25."
+        },
+        {
+          "key": "e_1_3_2_116_2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.cor.2006.12.017"
+        },
+        {
+          "key": "e_1_3_2_117_2",
+          "doi-asserted-by": "crossref",
+          "first-page": "225",
+          "DOI": "10.1142/9789814282673_0008",
+          "volume-title": "Theory of Randomized Search Heuristics: Foundations and Recent Developments",
+          "author": "Gutjahr Walter J.",
+          "year": "2011",
+          "unstructured": "Walter J. Gutjahr. 2011. Ant colony optimization: Recent developments in theoretical analysis. In Theory of Randomized Search Heuristics: Foundations and Recent Developments, Anne Auger and Benjamin Doerr (Eds.). Vol. 1. World Scientific, 225–254."
+        },
+        {
+          "key": "e_1_3_2_118_2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/s11009-007-9047-1"
+        },
+        {
+          "key": "e_1_3_2_119_2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.2307/1426671"
+        },
+        {
+          "key": "e_1_3_2_120_2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/s10489-006-0033-z"
+        },
+        {
+          "key": "e_1_3_2_121_2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/4235.797971"
+        },
+        {
+          "key": "e_1_3_2_122_2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/3205455.3205608"
+        },
+        {
+          "key": "e_1_3_2_123_2",
+          "series-title": "Proceedings of Machine Learning Research",
+          "first-page": "1069",
+          "volume-title": "Proceedings of the Conference on Learning Theory (COLT’17)",
+          "author": "Hassidim Avinatan",
+          "year": "2017",
+          "unstructured": "Avinatan Hassidim and Yaron Singer. 2017. Submodular optimization under noise. In Proceedings of the Conference on Learning Theory (COLT’17), Proceedings of Machine Learning Research, Vol. 65. PMLR, 1069–1122."
+        },
+        {
+          "key": "e_1_3_2_124_2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.swevo.2011.08.003"
+        },
+        {
+          "key": "e_1_3_2_125_2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/S0004-3702(01)00058-3"
+        },
+        {
+          "key": "e_1_3_2_126_2",
+          "first-page": "1",
+          "volume-title": "Proceedings of the Conference on Evolutionary Computation",
+          "author": "Hohfeld Markus",
+          "year": "1997",
+          "unstructured": "Markus Hohfeld and Günter Rudolph. 1997. Towards a theory of population-based incremental learning. In Proceedings of the Conference on Evolutionary Computation. IEEE Press, 1–5."
+        },
+        {
+          "key": "e_1_3_2_127_2",
+          "first-page": "41",
+          "volume-title": "Proceedings of the International Conference on Parallel Problem Solving from Nature",
+          "author": "Jägersküpper Jens",
+          "year": "2008",
+          "unstructured": "Jens Jägersküpper. 2008. A blend of Markov-chain and drift analysis. In Proceedings of the International Conference on Parallel Problem Solving from Nature (PPSN’08). Springer, 41–51."
+        },
+        {
+          "key": "e_1_3_2_128_2",
+          "first-page": "25",
+          "volume-title": "Proceedings of the Foundations of Computational Intelligence",
+          "author": "Jägersküpper Jens",
+          "year": "2007",
+          "unstructured": "Jens Jägersküpper and Tobias Storch. 2007. When the plus strategy outperforms the comma strategy and when not. In Proceedings of the Foundations of Computational Intelligence (FOCI’07). IEEE, 25–32."
+        },
+        {
+          "key": "e_1_3_2_129_2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.5555/1757524.1757528"
+        },
+        {
+          "key": "e_1_3_2_130_2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1162/106365605774666921"
+        },
+        {
+          "key": "e_1_3_2_131_2",
+          "first-page": "87",
+          "volume-title": "Proceedings of the Foundations of Genetic Algorithms Conference",
+          "author": "Jansen Thomas",
+          "year": "2013",
+          "unstructured": "Thomas Jansen, Pietro Simone Oliveto, and Christine Zarges. 2013. Approximating vertex cover using edge-based representations. In Proceedings of the Foundations of Genetic Algorithms Conference (FOGA’13). ACM, 87–96."
+        },
+        {
+          "key": "e_1_3_2_132_2",
+          "first-page": "89",
+          "volume-title": "Proceedings of the International Conference on Parallel Problem Solving from Nature",
+          "author": "Jansen Thomas",
+          "year": "2000",
+          "unstructured": "Thomas Jansen and Ingo Wegener. 2000. On the choice of the mutation probability for the (1+1) EA. In Proceedings of the International Conference on Parallel Problem Solving from Nature (PPSN’00). Springer, 89–98."
+        },
+        {
+          "key": "e_1_3_2_133_2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.jda.2005.01.002"
+        },
+        {
+          "key": "e_1_3_2_134_2",
+          "first-page": "1325",
+          "volume-title": "Proceedings of the Genetic and Evolutionary Computation Conference",
+          "author": "Jansen Thomas",
+          "year": "2012",
+          "unstructured": "Thomas Jansen and Christine Zarges. 2012. Fixed budget computations: A different perspective on run time analysis. In Proceedings of the Genetic and Evolutionary Computation Conference (GECCO’12). ACM, 1325–1332."
+        },
+        {
+          "key": "e_1_3_2_135_2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.tcs.2013.06.007"
+        },
+        {
+          "key": "e_1_3_2_136_2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/TEVC.2014.2349160"
+        },
+        {
+          "key": "e_1_3_2_137_2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1023/B:JMMA.0000049378.57591.c6"
+        },
+        {
+          "key": "e_1_3_2_138_2",
+          "volume-title": "Random Combinatorial Structures and Randomized Search Heuristics",
+          "author": "Johannsen Daniel",
+          "year": "2010",
+          "unstructured": "Daniel Johannsen. 2010. Random Combinatorial Structures and Randomized Search Heuristics. Ph.D. Dissertation. Universität des Saarlandes."
+        },
+        {
+          "key": "e_1_3_2_139_2",
+          "unstructured": "Ari Juels Shumeet Baluja and Alistair Sinclair. 1993. The equilibrium genetic algorithm and the role of crossover. (unpublished)."
+        },
+        {
+          "key": "e_1_3_2_140_2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/TEVC.2014.2308294"
+        },
+        {
+          "key": "e_1_3_2_141_2",
+          "doi-asserted-by": "crossref",
+          "first-page": "1137",
+          "DOI": "10.1145/3319619.3323389",
+          "volume-title": "Proceedings of the Genetic and Evolutionary Computation Conference (GECCO’19)",
+          "author": "Kerschke Pascal",
+          "year": "2019",
+          "unstructured": "Pascal Kerschke and Mike Preuss. 2019. Exploratory landscape analysis. In Proceedings of the Genetic and Evolutionary Computation Conference (GECCO’19) (Companion). ACM, 1137–1155."
+        },
+        {
+          "key": "e_1_3_2_142_2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/S0020-0190(99)00031-9"
+        },
+        {
+          "key": "e_1_3_2_143_2",
+          "doi-asserted-by": "crossref",
+          "first-page": "475",
+          "DOI": "10.1145/3212734.3212788",
+          "volume-title": "Proceedings of the Symposium on Principles of Distributed Computing (PODC’18",
+          "author": "Kosowski Adrian",
+          "year": "2018",
+          "unstructured": "Adrian Kosowski and Przemyslaw Uznanski. 2018. Brief announcement: Population protocols are fast. In Proceedings of the Symposium on Principles of Distributed Computing (PODC’18). ACM, 475–477."
+        },
+        {
+          "key": "e_1_3_2_144_2",
+          "first-page": "1393",
+          "volume-title": "Proceedings of the Genetic and Evolutionary Computation Conference",
+          "author": "Kötzing Timo",
+          "year": "2010",
+          "unstructured": "Timo Kötzing, Per Kristian Lehre, Frank Neumann, and Pietro S. Oliveto. 2010. Ant colony optimization and the minimum cut problem. In Proceedings of the Genetic and Evolutionary Computation Conference (GECCO’10). ACM, 1393–1400."
+        },
+        {
+          "key": "e_1_3_2_145_2",
+          "first-page": "40",
+          "volume-title": "Proceedings of the Foundations of Genetic Algorithms Conference",
+          "author": "Kötzing Timo",
+          "year": "2015",
+          "unstructured": "Timo Kötzing, Andrei Lissovoi, and Carsten Witt. 2015. (1+1) EA on generalized dynamic onemax. In Proceedings of the Foundations of Genetic Algorithms Conference (FOGA’15). ACM, 40–51."
+        },
+        {
+          "key": "e_1_3_2_146_2",
+          "first-page": "40",
+          "volume-title": "Proceedings of the Foundations of Genetic Algorithms Conference",
+          "author": "Kötzing Timo",
+          "year": "2015",
+          "unstructured": "Timo Kötzing, Andrei Lissovoi, and Carsten Witt. 2015. (1+1) EA on generalized dynamic onemax. In Proceedings of the Foundations of Genetic Algorithms Conference (FOGA’15). ACM, 40–51. https://doi.org/10.1145/2725494.2725502"
+        },
+        {
+          "key": "e_1_3_2_147_2",
+          "series-title": ", Lecture Notes in Computer Science",
+          "doi-asserted-by": "crossref",
+          "first-page": "113",
+          "DOI": "10.1007/978-3-642-32937-1_12",
+          "volume-title": "Proceedings of the International Conference on Parallel Problem Solving from Nature (PPSN’12)",
+          "author": "Kötzing Timo",
+          "year": "2012",
+          "unstructured": "Timo Kötzing and Hendrik Molter. 2012. ACO beats EA on a dynamic pseudo-boolean function. In Proceedings of the International Conference on Parallel Problem Solving from Nature (PPSN’12)(, Lecture Notes in Computer Science, Vol. 7491. Springer, 113–122."
+        },
+        {
+          "key": "e_1_3_2_148_2",
+          "first-page": "113",
+          "volume-title": "Proceedings of the International Conference on Parallel Problem Solving from Nature (PPSN’12), Part I",
+          "author": "Kötzing Timo",
+          "year": "2012",
+          "unstructured": "Timo Kötzing and Hendrik Molter. 2012. ACO beats EA on a dynamic pseudo-Boolean function. In Proceedings of the International Conference on Parallel Problem Solving from Nature (PPSN’12), Part I. Springer, 113–122."
+        },
+        {
+          "key": "e_1_3_2_149_2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/s11721-011-0059-7"
+        },
+        {
+          "key": "e_1_3_2_150_2",
+          "series-title": "Lecture Notes in Computer Science",
+          "first-page": "204",
+          "volume-title": "Proceedings of the International Conference on Parallel Problem Solving from Nature (PPSN’10),",
+          "author": "Kratsch Stefan",
+          "year": "2010",
+          "unstructured": "Stefan Kratsch, Per Kristian Lehre, Frank Neumann, and Pietro Simone Oliveto. 2010. Fixed parameter evolutionary algorithms and maximum leaf spanning trees: A matter of mutation. In Proceedings of the International Conference on Parallel Problem Solving from Nature (PPSN’10),Lecture Notes in Computer Science, Vol. 6238. Springer, 204–213."
+        },
+        {
+          "key": "e_1_3_2_151_2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/s00453-012-9660-4"
+        },
+        {
+          "key": "e_1_3_2_152_2",
+          "doi-asserted-by": "crossref",
+          "first-page": "71",
+          "DOI": "10.1017/CBO9781139177801.004",
+          "volume-title": "Tractability",
+          "author": "Krause Andreas",
+          "year": "2014",
+          "unstructured": "Andreas Krause and Daniel Golovin. 2014. Submodular function maximization. In Tractability. Cambridge University Press, 71–104."
+        },
+        {
+          "key": "e_1_3_2_153_2",
+          "doi-asserted-by": "crossref",
+          "first-page": "405",
+          "DOI": "10.1007/978-3-030-29414-4_9",
+          "volume-title": "Theory of Evolutionary Computation: Recent Developments in Discrete Optimization",
+          "author": "Krejca Martin",
+          "year": "2020",
+          "unstructured": "Martin Krejca and Carsten Witt. 2020. Theory of estimation-of-distribution algorithms. In Theory of Evolutionary Computation: Recent Developments in Discrete Optimization, Benjamin Doerr and Frank Neumann (Eds.). Springer, 405–442."
+        },
+        {
+          "key": "e_1_3_2_154_2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.tcs.2018.06.004"
+        },
+        {
+          "key": "e_1_3_2_155_2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/978-1-4615-1539-5_2"
+        },
+        {
+          "key": "e_1_3_2_156_2",
+          "doi-asserted-by": "crossref",
+          "first-page": "181",
+          "DOI": "10.1145/1967654.1967671",
+          "volume-title": "Proceedings of the Foundations of Genetic Algorithms Conference",
+          "author": "Lässig Jörg",
+          "year": "2011",
+          "unstructured": "Jörg Lässig and Dirk Sudholt. 2011. Adaptive population models for offspring populations and parallel evolutionary algorithms. In Proceedings of the Foundations of Genetic Algorithms Conference (FOGA’11). ACM, 181–192."
+        },
+        {
+          "key": "e_1_3_2_157_2",
+          "first-page": "323",
+          "volume-title": "Proceedings of the Annual ACM Symposium on Theory of Computing",
+          "author": "Lee Jon",
+          "year": "2009",
+          "unstructured": "Jon Lee, Vahab S. Mirrokni, Viswanath Nagarajan, and Maxim Sviridenko. 2009. Non-monotone submodular maximization under matroid and knapsack constraints. In Proceedings of the Annual ACM Symposium on Theory of Computing (STOC’09). ACM, 323–332."
+        },
+        {
+          "key": "e_1_3_2_158_2",
+          "first-page": "244",
+          "volume-title": "Proceedings of the International Conference on Parallel Problem Solving from Nature",
+          "author": "Lehre Per Kristian",
+          "year": "2010",
+          "unstructured": "Per Kristian Lehre. 2010. Negative drift in populations. In Proceedings of the International Conference on Parallel Problem Solving from Nature (PPSN’10). Springer, 244–253."
+        },
+        {
+          "key": "e_1_3_2_159_2",
+          "first-page": "2075",
+          "volume-title": "Proceedings of the Genetic and Evolutionary Computation Conference",
+          "author": "Lehre Per Kristian",
+          "year": "2011",
+          "unstructured": "Per Kristian Lehre. 2011. Fitness-levels for non-elitist populations. In Proceedings of the Genetic and Evolutionary Computation Conference (GECCO’11). ACM, 2075–2082."
+        },
+        {
+          "key": "e_1_3_2_160_2",
+          "doi-asserted-by": "crossref",
+          "first-page": "1383",
+          "DOI": "10.1145/3071178.3071317",
+          "volume-title": "Proceedings of the Genetic and Evolutionary Computation Conference,",
+          "author": "Lehre Per Kristian",
+          "year": "2017",
+          "unstructured": "Per Kristian Lehre and Phan Trung Hai Nguyen. 2017. Improved runtime bounds for the univariate marginal distribution algorithm via anti-concentration. In Proceedings of the Genetic and Evolutionary Computation Conference, (GECCO’17). ACM, 1383–1390."
+        },
+        {
+          "key": "e_1_3_2_161_2",
+          "doi-asserted-by": "crossref",
+          "first-page": "154",
+          "DOI": "10.1145/3299904.3340316",
+          "volume-title": "Proceedings of the Foundations of Genetic Algorithms Conference",
+          "author": "Lehre Per Kristian",
+          "year": "2019",
+          "unstructured": "Per Kristian Lehre and Phan Trung Hai Nguyen. 2019. On the limitations of the univariate marginal distribution algorithm to deception and where bivariate EDAs might help. In Proceedings of the Foundations of Genetic Algorithms Conference (FOGA’19). ACM, 154–168."
+        },
+        {
+          "key": "e_1_3_2_162_2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/3321707.3321834"
+        },
+        {
+          "key": "e_1_3_2_163_2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/TEVC.2011.2112665"
+        },
+        {
+          "key": "e_1_3_2_164_2",
+          "doi-asserted-by": "crossref",
+          "first-page": "89",
+          "DOI": "10.1007/978-3-030-29414-4_2",
+          "volume-title": "Theory of Evolutionary Computation: Recent Developments in Discrete Optimization",
+          "author": "Lengler Johannes",
+          "year": "2020",
+          "unstructured": "Johannes Lengler. 2020. Drift analysis. In Theory of Evolutionary Computation: Recent Developments in Discrete Optimization, Benjamin Doerr and Frank Neumann (Eds.). Springer, 89–131."
+        },
+        {
+          "key": "e_1_3_2_165_2",
+          "first-page": "94",
+          "volume-title": "Proceedings of the Analytic Algorithmics and Combinatorics (ANALCO’19",
+          "author": "Lengler Johannes",
+          "year": "2019",
+          "unstructured": "Johannes Lengler, Anders Martinsson, and Angelika Steger. 2019. When does hillclimbing fail on monotone functions: an entropy compression argument. In Proceedings of the Analytic Algorithmics and Combinatorics (ANALCO’19). SIAM, 94–102."
+        },
+        {
+          "key": "e_1_3_2_166_2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1017/S0963548318000275"
+        },
+        {
+          "key": "e_1_3_2_167_2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/s00453-020-00778-4"
+        },
+        {
+          "key": "e_1_3_2_168_2",
+          "doi-asserted-by": "crossref",
+          "first-page": "3",
+          "DOI": "10.1007/978-3-540-72877-1_1",
+          "volume-title": "The Art of Artificial Evolution (Natural Computing Series)",
+          "author": "Lewis Matthew R.",
+          "year": "2008",
+          "unstructured": "Matthew R. Lewis. 2008. Evolutionary visual art and design. In The Art of Artificial Evolution (Natural Computing Series). Springer, 3–37."
+        },
+        {
+          "key": "e_1_3_2_169_2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.tcs.2014.06.035"
+        },
+        {
+          "key": "e_1_3_2_170_2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/s00453-015-9975-z"
+        },
+        {
+          "key": "e_1_3_2_171_2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/s00453-017-0377-2"
+        },
+        {
+          "key": "e_1_3_2_172_2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/1329465.1329468"
+        },
+        {
+          "key": "e_1_3_2_173_2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.5555/1526026"
+        },
+        {
+          "key": "e_1_3_2_174_2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1162/EVCO_a_00153"
+        },
+        {
+          "key": "e_1_3_2_175_2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.swevo.2016.12.005"
+        },
+        {
+          "key": "e_1_3_2_176_2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/s10472-013-9341-2"
+        },
+        {
+          "key": "e_1_3_2_177_2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1108/17563780910959893"
+        },
+        {
+          "key": "e_1_3_2_178_2",
+          "first-page": "5353",
+          "volume-title": "Proceedings of the Conference on Neural Information Processing Systems",
+          "author": "Mitrovic Marko",
+          "year": "2019",
+          "unstructured": "Marko Mitrovic, Ehsan Kazemi, Moran Feldman, Andreas Krause, and Amin Karbasi. 2019. Adaptive sequence submodularity. In Proceedings of the Conference on Neural Information Processing Systems (NeurIPS’19). 5353–5364."
+        },
+        {
+          "key": "e_1_3_2_179_2",
+          "volume-title": "Proceedings of the Conference on Neural Information Processing Systems",
+          "author": "Monemizadeh Morteza",
+          "year": "2020",
+          "unstructured": "Morteza Monemizadeh. 2020. Dynamic submodular maximization. In Proceedings of the Conference on Neural Information Processing Systems (NeurIPS’20)."
+        },
+        {
+          "key": "e_1_3_2_180_2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/s10878-005-4922-6"
+        },
+        {
+          "key": "e_1_3_2_181_2",
+          "first-page": "15",
+          "volume-title": "Proceedings of the International Conference on Parallel Problem Solving from Nature (PPSN’92",
+          "author": "Mühlenbein Heinz",
+          "year": "1992",
+          "unstructured": "Heinz Mühlenbein. 1992. How genetic algorithms really work: mutation and hillclimbing. In Proceedings of the International Conference on Parallel Problem Solving from Nature (PPSN’92). Elsevier, 15–26."
+        },
+        {
+          "key": "e_1_3_2_182_2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.5555/645823.670694"
+        },
+        {
+          "key": "e_1_3_2_183_2",
+          "first-page": "1155",
+          "volume-title": "Proceedings of the Genetic and Evolutionary Computation Conference",
+          "author": "Myburgh Christie",
+          "year": "2010",
+          "unstructured": "Christie Myburgh and Kalyanmoy Deb. 2010. Evolutionary algorithms in large-scale open pit mine scheduling. In Proceedings of the Genetic and Evolutionary Computation Conference (GECCO’10). ACM, 1155–1162."
+        },
+        {
+          "key": "e_1_3_2_184_2",
+          "first-page": "2037",
+          "volume-title": "Proceedings of the IEEE Congress on Evolutionary Computation",
+          "author": "Nallaperuma Samadhi",
+          "year": "2013",
+          "unstructured": "Samadhi Nallaperuma, Andrew M. Sutton, and Frank Neumann. 2013. Fixed-parameter evolutionary algorithms for the Euclidean Traveling Salesperson problem. In Proceedings of the IEEE Congress on Evolutionary Computation. IEEE, 2037–2044."
+        },
+        {
+          "key": "e_1_3_2_185_2",
+          "first-page": "2045",
+          "volume-title": "Proceedings of the IEEE Congress on Evolutionary Computation",
+          "author": "Nallaperuma Samadhi",
+          "year": "2013",
+          "unstructured": "Samadhi Nallaperuma, Andrew M. Sutton, and Frank Neumann. 2013. Parameterized complexity analysis and more effective construction methods for ACO algorithms and the euclidean traveling salesperson problem. In Proceedings of the IEEE Congress on Evolutionary Computation. IEEE, 2045–2052."
+        },
+        {
+          "key": "e_1_3_2_186_2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.3389/frobt.2015.00018"
+        },
+        {
+          "key": "e_1_3_2_187_2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/BF01588971"
+        },
+        {
+          "key": "e_1_3_2_188_2",
+          "doi-asserted-by": "crossref",
+          "first-page": "218",
+          "DOI": "10.1016/j.ins.2020.03.112",
+          "article-title": "A hybrid cooperative co-evolution algorithm framework for optimising power take off and placements of wave energy converters",
+          "volume": "534",
+          "author": "Neshat Mehdi",
+          "year": "2020",
+          "unstructured": "Mehdi Neshat, Bradley Alexander, and Markus Wagner. 2020. A hybrid cooperative co-evolution algorithm framework for optimising power take off and placements of wave energy converters. Inf. Sci. 534 (2020), 218–244.",
+          "journal-title": "Inf. Sci."
+        },
+        {
+          "key": "e_1_3_2_189_2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1162/evco_a_00270"
+        },
+        {
+          "key": "e_1_3_2_190_2",
+          "series-title": "Lecture Notes in Computer Science",
+          "doi-asserted-by": "crossref",
+          "first-page": "404",
+          "DOI": "10.1007/978-3-030-58112-1_28",
+          "volume-title": "Proceedings of the International Conference on Parallel Problem Solving from Nature (PPSN’20),",
+          "author": "Neumann Aneta",
+          "year": "2020",
+          "unstructured": "Aneta Neumann and Frank Neumann. 2020. Optimising monotone chance-constrained submodular functions using evolutionary multi-objective algorithms. In Proceedings of the International Conference on Parallel Problem Solving from Nature (PPSN’20),Lecture Notes in Computer Science, Vol. 12269. Springer, 404–417."
+        },
+        {
+          "key": "e_1_3_2_191_2",
+          "first-page": "835",
+          "volume-title": "Proceedings of the Genetic and Evolutionary Computation Conference",
+          "author": "Neumann Frank",
+          "year": "2009",
+          "unstructured": "Frank Neumann, Pietro S. Oliveto, and Carsten Witt. 2009. Theoretical analysis of fitness-proportional selection: landscapes and efficiency. In Proceedings of the Genetic and Evolutionary Computation Conference (GECCO’09). ACM, 835–842."
+        },
+        {
+          "key": "e_1_3_2_192_2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/3321707.3321722"
+        },
+        {
+          "key": "e_1_3_2_193_2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/s11721-008-0023-3"
+        },
+        {
+          "key": "e_1_3_2_194_2",
+          "first-page": "63",
+          "volume-title": "Proceedings of the Genetic and Evolutionary Computation Conference",
+          "author": "Neumann Frank",
+          "year": "2010",
+          "unstructured": "Frank Neumann, Dirk Sudholt, and Carsten Witt. 2010. A few ants are enough: ACO with iteration-best update. In Proceedings of the Genetic and Evolutionary Computation Conference (GECCO’10). ACM, 63–70."
+        },
+        {
+          "key": "e_1_3_2_195_2",
+          "doi-asserted-by": "crossref",
+          "first-page": "147",
+          "DOI": "10.1145/3299904.3340315",
+          "volume-title": "Proceedings of the Foundations of Genetic Algorithms Conference",
+          "author": "Neumann Frank",
+          "year": "2019",
+          "unstructured": "Frank Neumann and Andrew M. Sutton. 2019. Runtime analysis of the (1 + 1) evolutionary algorithm for the chance-constrained knapsack problem. In Proceedings of the Foundations of Genetic Algorithms Conference (FOGA’19). ACM, 147–153."
+        },
+        {
+          "key": "e_1_3_2_196_2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/s11047-006-9004-x"
+        },
+        {
+          "key": "e_1_3_2_197_2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.tcs.2006.11.002"
+        },
+        {
+          "key": "e_1_3_2_198_2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/s00453-007-9134-2"
+        },
+        {
+          "key": "e_1_3_2_199_2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.tcs.2010.02.012"
+        },
+        {
+          "key": "e_1_3_2_200_2",
+          "volume-title": "Bioinspired Computation in Combinatorial Optimization—Algorithms and Their Computational Complexity",
+          "author": "Neumann Frank",
+          "year": "2010",
+          "unstructured": "Frank Neumann and Carsten Witt. 2010. Bioinspired Computation in Combinatorial Optimization—Algorithms and Their Computational Complexity. Springer."
+        },
+        {
+          "key": "e_1_3_2_201_2",
+          "first-page": "3742",
+          "volume-title": "Proceedings of the International Joint Conference on Artificial Intelligence",
+          "author": "Neumann Frank",
+          "year": "2015",
+          "unstructured": "Frank Neumann and Carsten Witt. 2015. On the runtime of randomized local search and simple evolutionary algorithms for dynamic makespan scheduling. In Proceedings of the International Joint Conference on Artificial Intelligence (IJCAI’15). AAAI Press, 3742–3748."
+        },
+        {
+          "key": "e_1_3_2_202_2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/TEVC.2011.2180533"
+        },
+        {
+          "key": "e_1_3_2_203_2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.swevo.2012.05.001"
+        },
+        {
+          "key": "e_1_3_2_204_2",
+          "first-page": "495",
+          "volume-title": "Proceedings of the Genetic and Evolutionary Computation Conference (GECCO’02",
+          "author": "Ochoa Gabriela",
+          "year": "2002",
+          "unstructured": "Gabriela Ochoa. 2002. Setting the mutation rate: scope and limitations of the 1/L heuristic. In Proceedings of the Genetic and Evolutionary Computation Conference (GECCO’02). Morgan Kaufmann, 495–502."
+        },
+        {
+          "key": "e_1_3_2_205_2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/s10732-017-9334-0"
+        },
+        {
+          "key": "e_1_3_2_206_2",
+          "first-page": "131",
+          "volume-title": "Proceedings of the Symposium on Parallelism in Algorithms and Architectures",
+          "author": "Ogierman Adrian",
+          "year": "2012",
+          "unstructured": "Adrian Ogierman and Robert Elsässer. 2012. The impact of the power law exponent on the behavior of a dynamic epidemic type process. In Proceedings of the Symposium on Parallelism in Algorithms and Architectures (SPAA’12). ACM, 131–139."
+        },
+        {
+          "key": "e_1_3_2_207_2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/s00453-010-9387-z"
+        },
+        {
+          "key": "e_1_3_2_208_2",
+          "unstructured": "Pietro S. Oliveto and Carsten Witt. 2012. Erratum: Simplified drift analysis for proving lower bounds in evolutionary computation. arxiv:1211.7184. Retrieved from https://arxiv.org/abs/1211.7184."
+        },
+        {
+          "key": "e_1_3_2_209_2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.tcs.2015.01.002"
+        },
+        {
+          "key": "e_1_3_2_210_2",
+          "first-page": "2902",
+          "volume-title": "Proceedings of the IEEE Congress on Evolutionary Computation",
+          "author": "Osada Yuki",
+          "year": "2013",
+          "unstructured": "Yuki Osada, R. Lyndon While, Luigi Barone, and Zbigniew Michalewicz. 2013. Multi-mine Planning using a Multi-objective Evolutionary Algorithm. In Proceedings of the IEEE Congress on Evolutionary Computation. IEEE, 2902–2909."
+        },
+        {
+          "key": "e_1_3_2_211_2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/978-3-662-43505-2_45"
+        },
+        {
+          "key": "e_1_3_2_212_2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/978-3-642-23229-9_8"
+        },
+        {
+          "key": "e_1_3_2_213_2",
+          "first-page": "903",
+          "volume-title": "Proceedings of the Genetic and Evolutionary Computation Conference",
+          "author": "Pourhassan Mojgan",
+          "year": "2015",
+          "unstructured": "Mojgan Pourhassan, Wanru Gao, and Frank Neumann. 2015. Maintaining 2-approximations for the dynamic vertex cover problem using evolutionary algorithms. In Proceedings of the Genetic and Evolutionary Computation Conference (GECCO’15). ACM, 903–910."
+        },
+        {
+          "key": "e_1_3_2_214_2",
+          "doi-asserted-by": "crossref",
+          "first-page": "20",
+          "DOI": "10.1016/j.tcs.2019.03.003",
+          "article-title": "Runtime analysis of RLS and (1+1) EA for the dynamic weighted vertex cover problem",
+          "volume": "832",
+          "author": "Pourhassan Mojgan",
+          "year": "2020",
+          "unstructured": "Mojgan Pourhassan, Vahid Roostapour, and Frank Neumann. 2020. Runtime analysis of RLS and (1+1) EA for the dynamic weighted vertex cover problem. Theor. Comput. Sci. 832 (2020), 20–41.",
+          "journal-title": "Theor. Comput. Sci."
+        },
+        {
+          "key": "e_1_3_2_215_2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1162/evco_a_00255"
+        },
+        {
+          "key": "e_1_3_2_216_2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.tcs.2004.03.038"
+        },
+        {
+          "key": "e_1_3_2_217_2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/s00453-018-0488-4"
+        },
+        {
+          "key": "e_1_3_2_218_2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.5555/3172077.3172252"
+        },
+        {
+          "key": "e_1_3_2_219_2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.artint.2019.06.005"
+        },
+        {
+          "key": "e_1_3_2_220_2",
+          "first-page": "1774",
+          "volume-title": "Proceedings of the Conference on Neural Information Processing Systems",
+          "author": "Qian Chao",
+          "year": "2015",
+          "unstructured": "Chao Qian, Yang Yu, and Zhi-Hua Zhou. 2015. Subset selection by pareto optimization. In Proceedings of the Conference on Neural Information Processing Systems (NIPS’15). 1774–1782."
+        },
+        {
+          "key": "e_1_3_2_221_2",
+          "first-page": "1314",
+          "volume-title": "Proceedings of the Genetic and Evolutionary Computation Conference",
+          "author": "Rajabi Amirhossein",
+          "year": "2020",
+          "unstructured": "Amirhossein Rajabi and Carsten Witt. 2020. Self-adjusting evolutionary algorithms for multimodal optimization. In Proceedings of the Genetic and Evolutionary Computation Conference (GECCO’20). ACM, 1314–1322."
+        },
+        {
+          "key": "e_1_3_2_222_2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.swevo.2016.09.002"
+        },
+        {
+          "key": "e_1_3_2_223_2",
+          "volume-title": "Evolutionsstrategie",
+          "author": "Rechenberg Ingo",
+          "year": "1973",
+          "unstructured": "Ingo Rechenberg. 1973. Evolutionsstrategie. Friedrich Fromman Verlag (Günther Holzboog KG), Stuttgart."
+        },
+        {
+          "key": "e_1_3_2_224_2",
+          "article-title": "Advanced ore mine optimisation under uncertainty using evolution",
+          "volume": "2102",
+          "author": "Reid William",
+          "year": "2021",
+          "unstructured": "William Reid, Aneta Neumann, Simon Ratcliffe, and Frank Neumann. 2021. Advanced ore mine optimisation under uncertainty using evolution. CoRR abs/2102.05235 (2021).",
+          "journal-title": "CoRR"
+        },
+        {
+          "key": "e_1_3_2_225_2",
+          "series-title": "Studies in Computational Intelligence",
+          "doi-asserted-by": "crossref",
+          "first-page": "77",
+          "DOI": "10.1007/978-3-642-30671-6_2",
+          "volume-title": "Hybrid Metaheuristics",
+          "author": "Ritzinger Ulrike",
+          "year": "2013",
+          "unstructured": "Ulrike Ritzinger and Jakob Puchinger. 2013. Hybrid metaheuristics for dynamic and stochastic vehicle routing. In Hybrid Metaheuristics. Studies in Computational Intelligence, Vol. 434. Springer, 77–95."
+        },
+        {
+          "key": "e_1_3_2_226_2",
+          "first-page": "1713",
+          "volume-title": "Proceedings of the Genetic and Evolutionary Computation Conference",
+          "author": "Rohlfshagen Philipp",
+          "year": "2009",
+          "unstructured": "Philipp Rohlfshagen, Per Kristian Lehre, and Xin Yao. 2009. Dynamic evolutionary optimisation: An analysis of frequency and magnitude of change. In Proceedings of the Genetic and Evolutionary Computation Conference (GECCO’09). ACM, 1713–1720."
+        },
+        {
+          "key": "e_1_3_2_227_2",
+          "series-title": "Lecture Notes in Computer Science",
+          "doi-asserted-by": "crossref",
+          "first-page": "158",
+          "DOI": "10.1007/978-3-319-99253-2_13",
+          "volume-title": "Proceedings of the International Conference on Parallel Problem Solving from Nature (PPSN’18),",
+          "author": "Roostapour Vahid",
+          "year": "2018",
+          "unstructured": "Vahid Roostapour, Aneta Neumann, and Frank Neumann. 2018. On the performance of baseline evolutionary algorithms on the dynamic knapsack problem. In Proceedings of the International Conference on Parallel Problem Solving from Nature (PPSN’18),Lecture Notes in Computer Science, Vol. 11101. Springer, 158–169."
+        },
+        {
+          "key": "e_1_3_2_228_2",
+          "article-title": "Evolutionary multi-objective optimization for the dynamic knapsack problem",
+          "volume": "2004",
+          "author": "Roostapour Vahid",
+          "year": "2020",
+          "unstructured": "Vahid Roostapour, Aneta Neumann, and Frank Neumann. 2020. Evolutionary multi-objective optimization for the dynamic knapsack problem. CoRR abs/2004.12574 (2020).",
+          "journal-title": "CoRR"
+        },
+        {
+          "key": "e_1_3_2_229_2",
+          "article-title": "Pareto optimization for subset selection with dynamic cost constraints",
+          "volume": "1811",
+          "author": "Roostapour Vahid",
+          "year": "2018",
+          "unstructured": "Vahid Roostapour, Aneta Neumann, Frank Neumann, and Tobias Friedrich. 2018. Pareto optimization for subset selection with dynamic cost constraints. CoRR abs/1811.07806 (2018).",
+          "journal-title": "CoRR"
+        },
+        {
+          "key": "e_1_3_2_230_2",
+          "first-page": "2354",
+          "volume-title": "Proceedings of the AAAI Conference on Artificial Intelligence",
+          "author": "Roostapour Vahid",
+          "year": "2019",
+          "unstructured": "Vahid Roostapour, Aneta Neumann, Frank Neumann, and Tobias Friedrich. 2019. Pareto optimization for subset selection with dynamic cost constraints. In Proceedings of the AAAI Conference on Artificial Intelligence (AAAI’19). AAAI Press, 2354–2361."
+        },
+        {
+          "key": "e_1_3_2_231_2",
+          "article-title": "Analysis of evolutionary algorithms in dynamic and stochastic environments",
+          "volume": "1806",
+          "author": "Roostapour Vahid",
+          "year": "2018",
+          "unstructured": "Vahid Roostapour, Mojgan Pourhassan, and Frank Neumann. 2018. Analysis of evolutionary algorithms in dynamic and stochastic environments. CoRR abs/1806.08547 (2018).",
+          "journal-title": "CoRR"
+        },
+        {
+          "key": "e_1_3_2_232_2",
+          "doi-asserted-by": "crossref",
+          "first-page": "25",
+          "DOI": "10.1016/j.tcs.2018.02.011",
+          "article-title": "Linear multi-objective drift analysis",
+          "volume": "736",
+          "author": "Rowe Jonathan E.",
+          "year": "2018",
+          "unstructured": "Jonathan E. Rowe. 2018. Linear multi-objective drift analysis. Theor. Comput. Sci. 736 (2018), 25–40.",
+          "journal-title": "Theor. Comput. Sci."
+        },
+        {
+          "key": "e_1_3_2_233_2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.tcs.2013.09.036"
+        },
+        {
+          "key": "e_1_3_2_234_2",
+          "volume-title": "Convergence Properties of Evolutionary Algorithms",
+          "author": "Rudolph Günter",
+          "year": "1997",
+          "unstructured": "Günter Rudolph. 1997. Convergence Properties of Evolutionary Algorithms. Kovac."
+        },
+        {
+          "key": "e_1_3_2_235_2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1023/B:JMMA.0000049379.14872.f5"
+        },
+        {
+          "key": "e_1_3_2_236_2",
+          "doi-asserted-by": "crossref",
+          "first-page": "249",
+          "DOI": "10.1007/s11009-005-1485-z",
+          "article-title": "An extended ant colony algorithm and its convergence analysis",
+          "volume": "7",
+          "author": "Sebastiani Giovanni",
+          "year": "2005",
+          "unstructured": "Giovanni Sebastiani and Giovanni Luca Torrisi. 2005. An extended ant colony algorithm and its convergence analysis. Methodol. Comput. Appl. Probab. 7 (2005), 249–263.",
+          "journal-title": "Methodol. Comput. Appl. Probab."
+        },
+        {
+          "key": "e_1_3_2_237_2",
+          "first-page": "115",
+          "volume-title": "Proceedings of the Foundations of Genetic Algorithms Conference",
+          "author": "Shapiro Jonathan L.",
+          "year": "2002",
+          "unstructured": "Jonathan L. Shapiro. 2002. The sensitivity of PBIL to its learning rate, and how detailed balance can remove it. In Proceedings of the Foundations of Genetic Algorithms Conference (FOGA’02). Morgan Kaufmann, 115–132."
+        },
+        {
+          "key": "e_1_3_2_238_2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1162/1063656053583414"
+        },
+        {
+          "key": "e_1_3_2_239_2",
+          "first-page": "92",
+          "volume-title": "Proceedings of the International Conference on Parallel Problem Solving from Nature",
+          "author": "Shapiro Jonathan L.",
+          "year": "2006",
+          "unstructured": "Jonathan L. Shapiro. 2006. Diversity loss in general estimation of distribution algorithms. In Proceedings of the International Conference on Parallel Problem Solving from Nature (PPSN’06). Springer, 92–101."
+        },
+        {
+          "key": "e_1_3_2_240_2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/s00453-018-0451-4"
+        },
+        {
+          "issue": "1",
+          "key": "e_1_3_2_241_2",
+          "first-page": "2:1–2:14",
+          "article-title": "Investigating the parameter space of evolutionary algorithms",
+          "volume": "11",
+          "author": "Sipper Moshe",
+          "year": "2018",
+          "unstructured": "Moshe Sipper, Weixuan Fu, Karuna Ahuja, and Jason H. Moore. 2018. Investigating the parameter space of evolutionary algorithms. BioData Min. 11, 1 (2018), 2:1–2:14.",
+          "journal-title": "BioData Min."
+        },
+        {
+          "key": "e_1_3_2_242_2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/s10472-011-9230-5"
+        },
+        {
+          "key": "e_1_3_2_243_2",
+          "first-page": "567",
+          "volume-title": "Proceedings of the Genetic and Evolutionary Computation Conference",
+          "author": "Storch Tobias",
+          "year": "2006",
+          "unstructured": "Tobias Storch. 2006. How randomized search heuristics find maximum cliques in planar graphs. In Proceedings of the Genetic and Evolutionary Computation Conference (GECCO’06). ACM, 567–574."
+        },
+        {
+          "key": "e_1_3_2_244_2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.tcs.2007.06.008"
+        },
+        {
+          "key": "e_1_3_2_245_2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/TEVC.2002.802444"
+        },
+        {
+          "key": "e_1_3_2_246_2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/TEVC.2012.2202241"
+        },
+        {
+          "key": "e_1_3_2_247_2",
+          "doi-asserted-by": "crossref",
+          "first-page": "1523",
+          "DOI": "10.1145/3205455.3205595",
+          "volume-title": "Proceedings of the Genetic and Evolutionary Computation Conference",
+          "author": "Sudholt Dirk",
+          "year": "2018",
+          "unstructured": "Dirk Sudholt. 2018. On the robustness of evolutionary algorithms to noise: Refined results and an example where noise helps. In Proceedings of the Genetic and Evolutionary Computation Conference (GECCO’18). ACM, 1523–1530."
+        },
+        {
+          "key": "e_1_3_2_248_2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/s00453-011-9606-2"
+        },
+        {
+          "key": "e_1_3_2_249_2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/s00453-018-0480-z"
+        },
+        {
+          "key": "e_1_3_2_250_2",
+          "first-page": "1105",
+          "volume-title": "Proceedings of the 26th Conference on Artificial Intelligence",
+          "author": "Sutton Andrew M.",
+          "year": "2012",
+          "unstructured": "Andrew M. Sutton and Frank Neumann. 2012. A parameterized runtime analysis of evolutionary algorithms for the euclidean traveling salesperson problem. In Proceedings of the 26th Conference on Artificial Intelligence (AAAI’12). AAAI Press, 1105–1111."
+        },
+        {
+          "key": "e_1_3_2_251_2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1162/EVCO_a_00119"
+        },
+        {
+          "key": "e_1_3_2_252_2",
+          "first-page": "239",
+          "volume-title": "Proceedings of the Foundations of Genetic Algorithms Conference",
+          "author": "Syswerda Gilbert",
+          "year": "1993",
+          "unstructured": "Gilbert Syswerda. 1993. Simulated crossover in genetic algorithms. In Proceedings of the Foundations of Genetic Algorithms Conference (FOGA’92). Morgan Kaufmann, 239–255."
+        },
+        {
+          "key": "e_1_3_2_253_2",
+          "doi-asserted-by": "crossref",
+          "first-page": "145",
+          "DOI": "10.1007/978-3-642-01009-5_13",
+          "volume-title": "Proceedings of the Evolutionary Computation in Combinatorial Optimization",
+          "author": "Theile Madeleine",
+          "year": "2009",
+          "unstructured": "Madeleine Theile. 2009. Exact solutions to the traveling salesperson problem by a population-based evolutionary algorithm. In Proceedings of the Evolutionary Computation in Combinatorial Optimization (EvoCOP’09). Springer, 145–155."
+        },
+        {
+          "key": "e_1_3_2_254_2",
+          "first-page": "1381",
+          "volume-title": "Proceedings of the Genetic and Evolutionary Computation Conference",
+          "author": "Tran Raymond",
+          "year": "2013",
+          "unstructured": "Raymond Tran, Junhua Wu, Christopher Denison, Thomas Ackling, Markus Wagner, and Frank Neumann. 2013. Fast and effective multi-objective optimisation of wind turbine placement. In Proceedings of the Genetic and Evolutionary Computation Conference (GECCO’13). ACM, 1381–1388."
+        },
+        {
+          "key": "e_1_3_2_255_2",
+          "first-page": "253",
+          "article-title": "Submodularity and curvature: The optimal algorithm",
+          "volume": "23",
+          "author": "Vondrák Jan",
+          "year": "2010",
+          "unstructured": "Jan Vondrák. 2010. Submodularity and curvature: The optimal algorithm. RIMS Kôkyûroku Bessatsu B23 (2010), 253–266.",
+          "journal-title": "RIMS Kôkyûroku Bessatsu"
+        },
+        {
+          "key": "e_1_3_2_256_2",
+          "doi-asserted-by": "crossref",
+          "first-page": "64",
+          "DOI": "10.1007/3-540-48224-5_6",
+          "volume-title": "Proceedings of the Annual Conference on Automata, Languages and Programming",
+          "author": "Wegener Ingo",
+          "year": "2001",
+          "unstructured": "Ingo Wegener. 2001. Theoretical aspects of evolutionary algorithms. In Proceedings of the Annual Conference on Automata, Languages and Programming (ICALP’01). Springer, 64–78."
+        },
+        {
+          "key": "e_1_3_2_257_2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.tcs.2014.04.036"
+        },
+        {
+          "key": "e_1_3_2_258_2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1162/106365606776022751"
+        },
+        {
+          "key": "e_1_3_2_259_2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1017/S0963548312000600"
+        },
+        {
+          "key": "e_1_3_2_260_2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/s00453-018-0463-0"
+        },
+        {
+          "key": "e_1_3_2_261_2",
+          "first-page": "25",
+          "volume-title": "Proceedings of the Annual Conference on Intelligent Computing Methodologies (ICIC’18), Part III",
+          "author": "Wu Mengxi",
+          "year": "2018",
+          "unstructured": "Mengxi Wu, Chao Qian, and Ke Tang. 2018. Dynamic mutation based Pareto optimization for subset selection. In Proceedings of the Annual Conference on Intelligent Computing Methodologies (ICIC’18), Part III. Springer, 25–35."
+        },
+        {
+          "key": "e_1_3_2_262_2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/3321707.3321869"
+        },
+        {
+          "key": "e_1_3_2_263_2",
+          "first-page": "271",
+          "volume-title": "Proceedings of the Genetic and Evolutionary Computation Conference",
+          "author": "Xie Yue",
+          "year": "2020",
+          "unstructured": "Yue Xie, Aneta Neumann, and Frank Neumann. 2020. Specific single- and multi-objective evolutionary algorithms for the chance-constrained knapsack problem. In Proceedings of the Genetic and Evolutionary Computation Conference (GECCO’20). ACM, 271–279."
+        },
+        {
+          "key": "e_1_3_2_264_2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/3449639.3459382"
+        },
+        {
+          "key": "e_1_3_2_265_2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/3449639.3459381"
+        },
+        {
+          "key": "e_1_3_2_266_2",
+          "first-page": "819",
+          "volume-title": "Proceedings of the 30th AAAI Conference on Artificial Intelligence",
+          "author": "Zhang Haifeng",
+          "year": "2016",
+          "unstructured": "Haifeng Zhang and Yevgeniy Vorobeychik. 2016. Submodular optimization with routing constraints. In Proceedings of the 30th AAAI Conference on Artificial Intelligence (AAAI’16). AAAI Press, 819–826."
+        },
+        {
+          "key": "e_1_3_2_267_2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/3205455.3205623"
+        },
+        {
+          "key": "e_1_3_2_268_2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/TEVC.2009.2016570"
+        },
+        {
+          "key": "e_1_3_2_269_2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/978-981-13-5956-9"
+        }
+      ],
+      "container-title": [
+        "ACM Transactions on Evolutionary Learning and Optimization"
+      ],
+      "original-title": [],
+      "language": "en",
+      "link": [
+        {
+          "URL": "https://dl.acm.org/doi/10.1145/3472304",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        },
+        {
+          "URL": "https://dl.acm.org/doi/pdf/10.1145/3472304",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2025,
+            6,
+            17
+          ]
+        ],
+        "date-time": "2025-06-17T20:17:36Z",
+        "timestamp": 1750191456000
+      },
+      "score": 1,
+      "resource": {
+        "primary": {
+          "URL": "https://dl.acm.org/doi/10.1145/3472304"
+        }
+      },
+      "subtitle": [],
+      "short-title": [],
+      "issued": {
+        "date-parts": [
+          [
+            2021,
+            10,
+            13
+          ]
+        ]
+      },
+      "references-count": 267,
+      "journal-issue": {
+        "issue": "4",
+        "published-print": {
+          "date-parts": [
+            [
+              2021,
+              12,
+              31
+            ]
+          ]
+        }
+      },
+      "alternative-id": [
+        "10.1145/3472304"
+      ],
+      "URL": "https://doi.org/10.1145/3472304",
+      "relation": {},
+      "ISSN": [
+        "2688-299X",
+        "2688-3007"
+      ],
+      "issn-type": [
+        {
+          "value": "2688-299X",
+          "type": "print"
+        },
+        {
+          "value": "2688-3007",
+          "type": "electronic"
+        }
+      ],
+      "subject": [],
+      "published": {
+        "date-parts": [
+          [
+            2021,
+            10,
+            13
+          ]
+        ]
+      },
+      "assertion": [
+        {
+          "value": "2020-07-01",
+          "order": 0,
+          "name": "received",
+          "label": "Received",
+          "group": {
+            "name": "publication_history",
+            "label": "Publication History"
+          }
+        },
+        {
+          "value": "2021-06-01",
+          "order": 1,
+          "name": "accepted",
+          "label": "Accepted",
+          "group": {
+            "name": "publication_history",
+            "label": "Publication History"
+          }
+        },
+        {
+          "value": "2021-10-13",
+          "order": 2,
+          "name": "published",
+          "label": "Published",
+          "group": {
+            "name": "publication_history",
+            "label": "Publication History"
+          }
+        }
+      ]
+    }
+  }
+}

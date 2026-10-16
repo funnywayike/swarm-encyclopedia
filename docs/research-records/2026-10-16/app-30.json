@@ -1,0 +1,858 @@
+{
+  "retrieved": "2026-10-16",
+  "url": "https://api.crossref.org/works?query.bibliographic=machining+cutting+parameter+optimization+genetic+algorithm+review&rows=3&filter=until-pub-date%3A2026-10-16",
+  "response": {
+    "status": "ok",
+    "message-type": "work-list",
+    "message-version": "1.0.0",
+    "message": {
+      "facets": {},
+      "total-results": 9929871,
+      "items": [
+        {
+          "institution": [
+            {
+              "name": "Research Square"
+            }
+          ],
+          "indexed": {
+            "date-parts": [
+              [
+                2025,
+                5,
+                14
+              ]
+            ],
+            "date-time": "2025-05-14T06:46:20Z",
+            "timestamp": 1747205180331,
+            "version": "3.40.5"
+          },
+          "posted": {
+            "date-parts": [
+              [
+                2024,
+                4,
+                18
+              ]
+            ]
+          },
+          "group-title": "In Review",
+          "reference-count": 24,
+          "publisher": "Springer Science and Business Media LLC",
+          "license": [
+            {
+              "start": {
+                "date-parts": [
+                  [
+                    2024,
+                    4,
+                    18
+                  ]
+                ],
+                "date-time": "2024-04-18T00:00:00Z",
+                "timestamp": 1713398400000
+              },
+              "content-version": "unspecified",
+              "delay-in-days": 0,
+              "URL": "https://creativecommons.org/licenses/by/4.0/"
+            }
+          ],
+          "content-domain": {
+            "domain": [],
+            "crossmark-restriction": false
+          },
+          "accepted": {
+            "date-parts": [
+              [
+                2024,
+                4,
+                9
+              ]
+            ]
+          },
+          "abstract": "",
+          "DOI": "10.21203/rs.3.rs-4244240/v1",
+          "type": "posted-content",
+          "created": {
+            "date-parts": [
+              [
+                2024,
+                4,
+                18
+              ]
+            ],
+            "date-time": "2024-04-18T14:18:57Z",
+            "timestamp": 1713449937000
+          },
+          "source": "Crossref",
+          "is-referenced-by-count": 0,
+          "title": [
+            "Enhancing post machining surface finish of titanium alloy by cutting parameter optimization using ANOVA analysis"
+          ],
+          "prefix": "10.21203",
+          "author": [
+            {
+              "ORCID": "https://orcid.org/0000-0002-8572-6024",
+              "authenticated-orcid": false,
+              "given": "Ashwin",
+              "family": "Polishetty",
+              "sequence": "first",
+              "affiliation": [
+                {
+                  "name": "AUT: Auckland University of Technology"
+                }
+              ],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Guy",
+              "family": "Littlefair",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            }
+          ],
+          "member": "297",
+          "reference": [
+            {
+              "issue": "5",
+              "key": "ref1",
+              "doi-asserted-by": "crossref",
+              "first-page": "21",
+              "DOI": "10.1007/s11837-010-0071-1",
+              "article-title": "Attributes, characteristics, and applications of titanium and its alloys",
+              "volume": "62",
+              "author": "Boyer R",
+              "year": "2010",
+              "unstructured": "Boyer R (2010) Attributes, characteristics, and applications of titanium and its alloys. Jom 62(5):21–24",
+              "journal-title": "Jom"
+            },
+            {
+              "year": "2017",
+              "author": "Polishetty A",
+              "key": "ref2",
+              "unstructured": "Polishetty A et al (2017) Cutting force and surface finish analysis of machining additive manufactured titanium alloy Ti-6Al-4V. Procedia Manufacturing, 7: pp. 284–289"
+            },
+            {
+              "key": "ref3",
+              "doi-asserted-by": "crossref",
+              "first-page": "443",
+              "DOI": "10.1590/S1516-14392005000400015",
+              "article-title": "Production of titanium alloys for advanced aerospace systems by powder metallurgy",
+              "volume": "8",
+              "author": "Henriques VAR",
+              "year": "2005",
+              "unstructured": "Henriques VAR et al (2005) Production of titanium alloys for advanced aerospace systems by powder metallurgy. Mater Res 8:443–446",
+              "journal-title": "Mater Res"
+            },
+            {
+              "issue": "5",
+              "key": "ref4",
+              "doi-asserted-by": "crossref",
+              "first-page": "4849",
+              "DOI": "10.1016/j.jmrt.2019.08.033",
+              "article-title": "Investigation of machining characteristics of hard-to-machine Ti-6Al-4V-ELI alloy for biomedical applications",
+              "volume": "8",
+              "author": "Pradhan S",
+              "year": "2019",
+              "unstructured": "Pradhan S et al (2019) Investigation of machining characteristics of hard-to-machine Ti-6Al-4V-ELI alloy for biomedical applications. J Mater Res Technol 8(5):4849–4862",
+              "journal-title": "J Mater Res Technol"
+            },
+            {
+              "key": "ref5",
+              "volume-title": "Machinability studies of selective laser melted titanium alloy Ti-6Al-4V",
+              "author": "Shunmugavel M",
+              "year": "2017",
+              "unstructured": "Shunmugavel M (2017) Machinability studies of selective laser melted titanium alloy Ti-6Al-4V. Deakin University"
+            },
+            {
+              "year": "2018",
+              "author": "Polishetty A",
+              "key": "ref6",
+              "unstructured": "Polishetty A, Raju B, Littlefair G (2018) Secondary machining characteristics of additive manufactured titanium alloy Ti-6Al-4V. in Key Engineering Materials. Trans Tech Publ"
+            },
+            {
+              "issue": "7–8",
+              "key": "ref7",
+              "doi-asserted-by": "crossref",
+              "first-page": "561",
+              "DOI": "10.1016/j.ijmachtools.2009.02.008",
+              "article-title": "Characteristics of cutting forces and chip formation in machining of titanium alloys",
+              "volume": "49",
+              "author": "Sun S",
+              "year": "2009",
+              "unstructured": "Sun S, Brandt M, Dargusch MS (2009) Characteristics of cutting forces and chip formation in machining of titanium alloys. Int J Mach Tools Manuf 49(7–8):561–568",
+              "journal-title": "Int J Mach Tools Manuf"
+            },
+            {
+              "year": "2017",
+              "author": "Shunmugavel M",
+              "key": "ref8",
+              "unstructured": "Shunmugavel M et al (2017) Influence of build orientation on machinability of selective laser melted titanium alloy-Ti-6Al-4V. World Academy of Science, Engineering and Technology, International Journal of Chemical, Molecular, Nuclear, Materials and Metallurgical Engineering, 11: pp. 515–519"
+            },
+            {
+              "key": "ref9",
+              "doi-asserted-by": "crossref",
+              "first-page": "458",
+              "DOI": "10.1016/S0924-0136(03)00457-6",
+              "article-title": "Optimization of titanium alloy (6Al–4V) machining",
+              "volume": "143",
+              "author": "Ribeiro M",
+              "year": "2003",
+              "unstructured": "Ribeiro M, Moreira M, Ferreira J (2003) Optimization of titanium alloy (6Al–4V) machining. J Mater Process Technol 143:458–463",
+              "journal-title": "J Mater Process Technol"
+            },
+            {
+              "issue": "2",
+              "key": "ref10",
+              "doi-asserted-by": "crossref",
+              "first-page": "188",
+              "DOI": "10.1016/j.jmatprotec.2004.08.012",
+              "article-title": "The effect of machining on surface integrity of titanium alloy Ti–6% Al–4% V",
+              "volume": "166",
+              "author": "Che-Haron C",
+              "year": "2005",
+              "unstructured": "Che-Haron C, Jawaid A (2005) The effect of machining on surface integrity of titanium alloy Ti–6% Al–4% V. J Mater Process Technol 166(2):188–192",
+              "journal-title": "J Mater Process Technol"
+            },
+            {
+              "key": "ref11",
+              "first-page": "10",
+              "article-title": "A review on high-Speed Machining of Titanium Alloys JSME International Journal Series C Mechanical Systems",
+              "author": "Mustafizur RAHMAN",
+              "year": "2006",
+              "unstructured": "Mustafizur RAHMAN, Yoke-San Z-GW (2006) WONG, A review on high-Speed Machining of Titanium Alloys JSME International Journal Series C Mechanical Systems. Mach Elem Manuf, 49(1 Special Issue on Advanced Manufacturing Technology): p. 10",
+              "journal-title": "Mach Elem Manuf"
+            },
+            {
+              "issue": "1–2",
+              "key": "ref12",
+              "doi-asserted-by": "crossref",
+              "first-page": "15",
+              "DOI": "10.1016/j.cie.2005.10.001",
+              "article-title": "A review of optimization techniques in metal cutting processes",
+              "volume": "50",
+              "author": "Mukherjee I",
+              "year": "2006",
+              "unstructured": "Mukherjee I, Ray PK (2006) A review of optimization techniques in metal cutting processes. Comput Ind Eng 50(1–2):15–34",
+              "journal-title": "Comput Ind Eng"
+            },
+            {
+              "issue": "1",
+              "key": "ref13",
+              "doi-asserted-by": "crossref",
+              "first-page": "1",
+              "DOI": "10.1080/10910344.2014.991031",
+              "article-title": "Machining of titanium alloy (Ti-6Al-4V)—theory to application",
+              "volume": "19",
+              "author": "Pramanik A",
+              "year": "2015",
+              "unstructured": "Pramanik A, Littlefair G (2015) Machining of titanium alloy (Ti-6Al-4V)—theory to application. Mach Sci Technol 19(1):1–49",
+              "journal-title": "Mach Sci Technol"
+            },
+            {
+              "key": "ref14",
+              "doi-asserted-by": "crossref",
+              "first-page": "247",
+              "DOI": "10.4028/www.scientific.net/AMR.748.247",
+              "article-title": "A case study on effect of feed rate on machinability of austempered ductile iron",
+              "volume": "748",
+              "author": "Polishetty A",
+              "year": "2013",
+              "unstructured": "Polishetty A, Littlefair G, Pasang T (2013) A case study on effect of feed rate on machinability of austempered ductile iron. Adv Mater Res 748:247–251",
+              "journal-title": "Adv Mater Res"
+            },
+            {
+              "issue": "1",
+              "key": "ref15",
+              "first-page": "1",
+              "article-title": "Current Trends in Machinability Research",
+              "volume": "3",
+              "author": "Polishetty A",
+              "year": "2016",
+              "unstructured": "Polishetty A et al (2016) Current Trends in Machinability Research. Int J Mater Form Mach Processes (IJMFMP) 3(1):1–11",
+              "journal-title": "Int J Mater Form Mach Processes (IJMFMP)"
+            },
+            {
+              "key": "ref16",
+              "volume-title": "Machinability analysis of super austenitic stainless steel",
+              "author": "Alabdullah M",
+              "year": "2017",
+              "unstructured": "Alabdullah M (2017) Machinability analysis of super austenitic stainless steel. Deakin University"
+            },
+            {
+              "key": "ref17",
+              "volume-title": "Machinability and microstructural studies on phase transformations in Austempered Ductile Iron",
+              "author": "Polishetty A",
+              "year": "2012",
+              "unstructured": "Polishetty A (2012) Machinability and microstructural studies on phase transformations in Austempered Ductile Iron. AUT University"
+            },
+            {
+              "issue": "8",
+              "key": "ref18",
+              "doi-asserted-by": "crossref",
+              "first-page": "1459",
+              "DOI": "10.1016/j.jmatprotec.2013.03.008",
+              "article-title": "Tool life and wear mechanisms in high speed machining of Ti–6Al–4V alloy with PCD tools under various coolant pressures",
+              "volume": "213",
+              "author": "Silva RB",
+              "year": "2013",
+              "unstructured": "da Silva RB et al (2013) Tool life and wear mechanisms in high speed machining of Ti–6Al–4V alloy with PCD tools under various coolant pressures. J Mater Process Technol 213(8):1459–1464",
+              "journal-title": "J Mater Process Technol"
+            },
+            {
+              "issue": "2",
+              "key": "ref19",
+              "first-page": "99",
+              "article-title": "Selection of cutting fluids in machining processes",
+              "volume": "25",
+              "author": "Çakīr O",
+              "year": "2007",
+              "unstructured": "Çakīr O et al (2007) Selection of cutting fluids in machining processes. J Achievements Mater Manuf Eng 25(2):99–102",
+              "journal-title": "J Achievements Mater Manuf Eng"
+            },
+            {
+              "year": "1999",
+              "author": "Littlefair G",
+              "key": "ref20",
+              "unstructured": "Littlefair G (1999) Evaluating Cutting Fluid Machinability Performance. in 3rd International conference on Machining & Grinding. Cincinatti, Ohio: Society of Manufacturing Engineers"
+            },
+            {
+              "year": "2017",
+              "author": "Pervaiz S",
+              "key": "ref21",
+              "unstructured": "Pervaiz S et al (2017) Minimal quantity cooling lubrication in turning of Ti6Al4V: Influence on surface roughness, cutting force and tool wear. Proceedings of the Institution of Mechanical Engineers, Part B: Journal of Engineering Manufacture, 231(9): pp. 1542–1558"
+            },
+            {
+              "issue": "10",
+              "key": "ref22",
+              "doi-asserted-by": "crossref",
+              "first-page": "1388",
+              "DOI": "10.3390/met10101388",
+              "article-title": "The role of surfactant structure on the development of a sustainable and effective cutting fluid for machining titanium alloys",
+              "volume": "10",
+              "author": "Benedicto E",
+              "year": "2020",
+              "unstructured": "Benedicto E et al (2020) The role of surfactant structure on the development of a sustainable and effective cutting fluid for machining titanium alloys. Metals 10(10):1388",
+              "journal-title": "Metals"
+            },
+            {
+              "issue": "1",
+              "key": "ref23",
+              "doi-asserted-by": "crossref",
+              "first-page": "113",
+              "DOI": "10.1016/0043-1648(83)90011-X",
+              "article-title": "Evaluation of carbide grades and a new cutting geometry for machining titanium alloys",
+              "volume": "92",
+              "author": "Komanduri R",
+              "year": "1983",
+              "unstructured": "Komanduri R, Reed W Jr (1983) Evaluation of carbide grades and a new cutting geometry for machining titanium alloys. Wear 92(1):113–123",
+              "journal-title": "Wear"
+            },
+            {
+              "year": "1999",
+              "author": "Goldberg M",
+              "key": "ref24",
+              "unstructured": "Goldberg M et al (1999) Machinability Assessment and Surface Integrity Characteristics of Austempered Ductile Iron (ADI) Using Ultra-Hard Cutting Tools. in 3rd International Conference on Machining & Grinding. Cincinati, Ohio: Society of Manufacturing Engineers"
+            }
+          ],
+          "link": [
+            {
+              "URL": "https://www.researchsquare.com/article/rs-4244240/v1",
+              "content-type": "text/html",
+              "content-version": "vor",
+              "intended-application": "text-mining"
+            },
+            {
+              "URL": "https://www.researchsquare.com/article/rs-4244240/v1.html",
+              "content-type": "unspecified",
+              "content-version": "vor",
+              "intended-application": "similarity-checking"
+            }
+          ],
+          "deposited": {
+            "date-parts": [
+              [
+                2024,
+                6,
+                21
+              ]
+            ],
+            "date-time": "2024-06-21T20:14:25Z",
+            "timestamp": 1719000865000
+          },
+          "score": 35.690495,
+          "resource": {
+            "primary": {
+              "URL": "https://www.researchsquare.com/article/rs-4244240/v1"
+            }
+          },
+          "issued": {
+            "date-parts": [
+              [
+                2024,
+                4,
+                18
+              ]
+            ]
+          },
+          "references-count": 24,
+          "URL": "https://doi.org/10.21203/rs.3.rs-4244240/v1",
+          "relation": {
+            "is-preprint-of": [
+              {
+                "id-type": "doi",
+                "id": "10.1007/s00170-024-13878-0",
+                "asserted-by": "subject"
+              }
+            ]
+          },
+          "published": {
+            "date-parts": [
+              [
+                2024,
+                4,
+                18
+              ]
+            ]
+          },
+          "subtype": "preprint"
+        },
+        {
+          "indexed": {
+            "date-parts": [
+              [
+                2022,
+                3,
+                31
+              ]
+            ],
+            "date-time": "2022-03-31T03:32:53Z",
+            "timestamp": 1648697573628
+          },
+          "reference-count": 6,
+          "publisher": "Trans Tech Publications, Ltd.",
+          "license": [
+            {
+              "start": {
+                "date-parts": [
+                  [
+                    2014,
+                    12,
+                    17
+                  ]
+                ],
+                "date-time": "2014-12-17T00:00:00Z",
+                "timestamp": 1418774400000
+              },
+              "content-version": "vor",
+              "delay-in-days": 16,
+              "URL": "https://www.scientific.net/PolicyAndEthics/PublishingPolicies"
+            },
+            {
+              "start": {
+                "date-parts": [
+                  [
+                    2014,
+                    12,
+                    17
+                  ]
+                ],
+                "date-time": "2014-12-17T00:00:00Z",
+                "timestamp": 1418774400000
+              },
+              "content-version": "tdm",
+              "delay-in-days": 16,
+              "URL": "https://www.scientific.net/license/TDM_Licenser.pdf"
+            }
+          ],
+          "content-domain": {
+            "domain": [],
+            "crossmark-restriction": false
+          },
+          "short-container-title": [
+            "AMR"
+          ],
+          "abstract": "",
+          "DOI": "10.4028/www.scientific.net/amr.1082.138",
+          "type": "journal-article",
+          "created": {
+            "date-parts": [
+              [
+                2014,
+                12,
+                24
+              ]
+            ],
+            "date-time": "2014-12-24T14:26:56Z",
+            "timestamp": 1419431216000
+          },
+          "page": "138-142",
+          "source": "Crossref",
+          "is-referenced-by-count": 0,
+          "title": [
+            "Application of Genetic Algorithm in Cutting Parameter Optimization"
+          ],
+          "prefix": "10.4028",
+          "volume": "1082",
+          "author": [
+            {
+              "given": "Li Feng",
+              "family": "Zhu",
+              "sequence": "first",
+              "affiliation": [
+                {
+                  "name": "Changchun University of Science and Technology"
+                }
+              ],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Yan",
+              "family": "Zhang",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "Changchun University of Science and Technology"
+                }
+              ],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            }
+          ],
+          "member": "2457",
+          "published-online": {
+            "date-parts": [
+              [
+                2014,
+                12
+              ]
+            ]
+          },
+          "reference": [
+            {
+              "key": "483262",
+              "doi-asserted-by": "publisher",
+              "unstructured": "Xueguang Li, Shuren Zhang , Huiwei Wang, Jun Wang . Research& Experiment on Optimization of Cutting Elements Based on NC Machining[C] . 2010 3rdInternational Conference on Advanced Computer Theory and Engineering, 2010: V3-179~V3-183.",
+              "DOI": "10.1109/icacte.2010.5579665"
+            },
+            {
+              "key": "483263",
+              "unstructured": "Xueguang Li, Huiwei Wang, Shuren Zhang. Optimization Research of Cutting Parameters Based on Orthogonal Experiment Method[J]. MACHINE TOOL&HYDRAULICS, 2011, 39(8): 17-19."
+            },
+            {
+              "key": "483264",
+              "doi-asserted-by": "crossref",
+              "unstructured": "Sofianopoulou, S. Formation of manufacturing cells in group technology using a genetic algorithm approach. International Journal of Industrial and Systems Engineering, 2010, 5(2): 212-225.",
+              "DOI": "10.1504/IJISE.2010.030748"
+            },
+            {
+              "key": "483265",
+              "doi-asserted-by": "publisher",
+              "unstructured": "Kia, R. , Khaksar-Haghani, F., Javadian, N. Solving a multi-floor layout design model of a dynamic cellular manufacturing system by an efficient genetic algorithm[J]. Journal of Manufacturing Systems, 2014, 33(1): 218-232.",
+              "DOI": "10.1016/j.jmsy.2013.12.005"
+            },
+            {
+              "key": "483266",
+              "doi-asserted-by": "publisher",
+              "unstructured": "Yu, Xianyu, Rao, Zhiyong, Zhu, Hui. The hybrid genetic algorithm of single-machine materials manufacturing process with periodic maintenance[J]. Applied Mechanics and Materials, 2012, 142(3): 16-19.",
+              "DOI": "10.4028/www.scientific.net/amm.142.16"
+            },
+            {
+              "key": "483267",
+              "doi-asserted-by": "publisher",
+              "unstructured": "Sharda, Bikram ,  Banerjee, Amarnath. Robust manufacturing system design using multi objective genetic algorithms, Petri nets and Bayesian uncertainty representation[J]. Journal of Manufacturing Systems, 2013, 32(2): 315-324.",
+              "DOI": "10.1016/j.jmsy.2013.01.001"
+            }
+          ],
+          "container-title": [
+            "Advanced Materials Research"
+          ],
+          "link": [
+            {
+              "URL": "https://www.scientific.net/AMR.1082.138.pdf",
+              "content-type": "unspecified",
+              "content-version": "vor",
+              "intended-application": "similarity-checking"
+            }
+          ],
+          "deposited": {
+            "date-parts": [
+              [
+                2021,
+                1,
+                13
+              ]
+            ],
+            "date-time": "2021-01-13T00:00:26Z",
+            "timestamp": 1610496026000
+          },
+          "score": 34.948456,
+          "resource": {
+            "primary": {
+              "URL": "https://www.scientific.net/AMR.1082.138"
+            }
+          },
+          "issued": {
+            "date-parts": [
+              [
+                2014,
+                12
+              ]
+            ]
+          },
+          "references-count": 6,
+          "URL": "https://doi.org/10.4028/www.scientific.net/amr.1082.138",
+          "ISSN": [
+            "1662-8985"
+          ],
+          "issn-type": [
+            {
+              "value": "1662-8985",
+              "type": "electronic"
+            }
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2014,
+                12
+              ]
+            ]
+          }
+        },
+        {
+          "indexed": {
+            "date-parts": [
+              [
+                2024,
+                8,
+                6
+              ]
+            ],
+            "date-time": "2024-08-06T21:57:52Z",
+            "timestamp": 1722981472544
+          },
+          "reference-count": 0,
+          "publisher": "EJournal Publishing",
+          "issue": "2",
+          "content-domain": {
+            "domain": [],
+            "crossmark-restriction": false
+          },
+          "short-container-title": [
+            "IJMMM"
+          ],
+          "DOI": "10.18178/ijmmm.2018.6.2.352",
+          "type": "journal-article",
+          "created": {
+            "date-parts": [
+              [
+                2018,
+                7,
+                31
+              ]
+            ],
+            "date-time": "2018-07-31T09:57:57Z",
+            "timestamp": 1533031077000
+          },
+          "page": "82-87",
+          "source": "Crossref",
+          "is-referenced-by-count": 2,
+          "title": [
+            "Electrochemical Micro-Machining Process Parameter Optimization Using a Neural Network-Genetic Algorithm Based Approach"
+          ],
+          "prefix": "10.18178",
+          "volume": "6",
+          "author": [
+            {
+              "name": "Donghua University, Songjiang, District, Shanghai 201620, China",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Pan",
+              "family": "Zou",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Manik",
+              "family": "Rajora",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Mingyou",
+              "family": "Ma",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Hungyi",
+              "family": "Chen",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Wenchieh",
+              "family": "Wu",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Steven Y.",
+              "family": "Liang",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            }
+          ],
+          "member": "7629",
+          "published-online": {
+            "date-parts": [
+              [
+                2018,
+                4
+              ]
+            ]
+          },
+          "container-title": [
+            "International Journal of Materials, Mechanics and Manufacturing"
+          ],
+          "original-title": [
+            "Electrochemical Micro-Machining Process Parameter Optimization Using a Neural Network-Genetic Algorithm Based Approach"
+          ],
+          "link": [
+            {
+              "URL": "http://www.ijmmm.org/vol6/352-ICMT2017-107.pdf",
+              "content-type": "unspecified",
+              "content-version": "vor",
+              "intended-application": "similarity-checking"
+            }
+          ],
+          "deposited": {
+            "date-parts": [
+              [
+                2018,
+                7,
+                31
+              ]
+            ],
+            "date-time": "2018-07-31T09:57:58Z",
+            "timestamp": 1533031078000
+          },
+          "score": 34.894028,
+          "resource": {
+            "primary": {
+              "URL": "http://www.ijmmm.org/index.php?m=content&c=index&a=show&catid=55&id=427"
+            }
+          },
+          "issued": {
+            "date-parts": [
+              [
+                2018,
+                4
+              ]
+            ]
+          },
+          "references-count": 0,
+          "journal-issue": {
+            "issue": "2",
+            "published-online": {
+              "date-parts": [
+                [
+                  2018,
+                  4
+                ]
+              ]
+            }
+          },
+          "URL": "https://doi.org/10.18178/ijmmm.2018.6.2.352",
+          "ISSN": [
+            "1793-8198"
+          ],
+          "issn-type": [
+            {
+              "type": "print",
+              "value": "1793-8198"
+            }
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2018,
+                4
+              ]
+            ]
+          }
+        }
+      ],
+      "items-per-page": 3,
+      "query": {
+        "start-index": 0,
+        "search-terms": null
+      }
+    }
+  }
+}

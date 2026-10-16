@@ -1,0 +1,1133 @@
+{
+  "url": "https://api.crossref.org/works/10.1016%2Fj.swevo.2024.101812",
+  "retrieved": "2026-10-16",
+  "response": {
+    "status": "ok",
+    "message-type": "work",
+    "message-version": "1.0.0",
+    "message": {
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            9,
+            10
+          ]
+        ],
+        "date-time": "2026-09-10T16:02:43Z",
+        "timestamp": 1789056163856,
+        "version": "build-2803163510"
+      },
+      "reference-count": 86,
+      "publisher": "Elsevier BV",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2025,
+                2,
+                1
+              ]
+            ],
+            "date-time": "2025-02-01T00:00:00Z",
+            "timestamp": 1738368000000
+          },
+          "content-version": "tdm",
+          "delay-in-days": 0,
+          "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+        },
+        {
+          "start": {
+            "date-parts": [
+              [
+                2025,
+                2,
+                1
+              ]
+            ],
+            "date-time": "2025-02-01T00:00:00Z",
+            "timestamp": 1738368000000
+          },
+          "content-version": "tdm",
+          "delay-in-days": 0,
+          "URL": "https://www.elsevier.com/legal/tdmrep-license"
+        },
+        {
+          "start": {
+            "date-parts": [
+              [
+                2025,
+                2,
+                1
+              ]
+            ],
+            "date-time": "2025-02-01T00:00:00Z",
+            "timestamp": 1738368000000
+          },
+          "content-version": "stm-asf",
+          "delay-in-days": 0,
+          "URL": "https://doi.org/10.15223/policy-017"
+        },
+        {
+          "start": {
+            "date-parts": [
+              [
+                2025,
+                2,
+                1
+              ]
+            ],
+            "date-time": "2025-02-01T00:00:00Z",
+            "timestamp": 1738368000000
+          },
+          "content-version": "stm-asf",
+          "delay-in-days": 0,
+          "URL": "https://doi.org/10.15223/policy-037"
+        },
+        {
+          "start": {
+            "date-parts": [
+              [
+                2025,
+                2,
+                1
+              ]
+            ],
+            "date-time": "2025-02-01T00:00:00Z",
+            "timestamp": 1738368000000
+          },
+          "content-version": "stm-asf",
+          "delay-in-days": 0,
+          "URL": "https://doi.org/10.15223/policy-012"
+        },
+        {
+          "start": {
+            "date-parts": [
+              [
+                2025,
+                2,
+                1
+              ]
+            ],
+            "date-time": "2025-02-01T00:00:00Z",
+            "timestamp": 1738368000000
+          },
+          "content-version": "stm-asf",
+          "delay-in-days": 0,
+          "URL": "https://doi.org/10.15223/policy-029"
+        },
+        {
+          "start": {
+            "date-parts": [
+              [
+                2025,
+                2,
+                1
+              ]
+            ],
+            "date-time": "2025-02-01T00:00:00Z",
+            "timestamp": 1738368000000
+          },
+          "content-version": "stm-asf",
+          "delay-in-days": 0,
+          "URL": "https://doi.org/10.15223/policy-004"
+        }
+      ],
+      "funder": [
+        {
+          "DOI": "10.13039/501100001412",
+          "name": "Council of Scientific & Industrial Research",
+          "doi-asserted-by": "publisher",
+          "award": [
+            "09/143(0989)/2019-EMR-I"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "09/143(0989)/2019-EMR-I"
+              ]
+            }
+          ],
+          "id": [
+            {
+              "id": "10.13039/501100001412",
+              "id-type": "DOI",
+              "asserted-by": "publisher"
+            }
+          ]
+        }
+      ],
+      "content-domain": {
+        "domain": [
+          "elsevier.com",
+          "sciencedirect.com"
+        ],
+        "crossmark-restriction": true
+      },
+      "short-container-title": [
+        "Swarm and Evolutionary Computation"
+      ],
+      "published-print": {
+        "date-parts": [
+          [
+            2025,
+            2
+          ]
+        ]
+      },
+      "DOI": "10.1016/j.swevo.2024.101812",
+      "type": "journal-article",
+      "created": {
+        "date-parts": [
+          [
+            2024,
+            12,
+            12
+          ]
+        ],
+        "date-time": "2024-12-12T05:30:33Z",
+        "timestamp": 1733981433000
+      },
+      "page": "101812",
+      "update-policy": "https://doi.org/10.1016/elsevier_cm_policy",
+      "source": "Crossref",
+      "is-referenced-by-count": 16,
+      "special_numbering": "C",
+      "title": [
+        "Structural bias in metaheuristic algorithms: Insights, open problems, and future prospects"
+      ],
+      "prefix": "10.1016",
+      "volume": "92",
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0000-0002-7413-0057",
+          "authenticated-orcid": false,
+          "given": "Kanchan",
+          "family": "Rajwar",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0001-5821-2696",
+          "authenticated-orcid": false,
+          "given": "Kusum",
+          "family": "Deep",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "78",
+      "reference": [
+        {
+          "key": "10.1016/j.swevo.2024.101812_b1",
+          "article-title": "Uncovering structural bias in population-based optimization algorithms: A theoretical and simulation-based analysis of the generalized signature test",
+          "author": "Rajwar",
+          "year": "2023",
+          "journal-title": "Expert Syst. Appl."
+        },
+        {
+          "key": "10.1016/j.swevo.2024.101812_b2",
+          "series-title": "2011 50th IEEE Conference on Decision and Control and European Control Conference",
+          "first-page": "722",
+          "article-title": "Asymptotic bias of stochastic gradient search",
+          "author": "Tadić",
+          "year": "2011"
+        },
+        {
+          "key": "10.1016/j.swevo.2024.101812_b3",
+          "first-page": "1",
+          "article-title": "An exhaustive review of the metaheuristic algorithms for search and optimization: taxonomy, applications, and open challenges",
+          "author": "Rajwar",
+          "year": "2023",
+          "journal-title": "Artif. Intell. Rev."
+        },
+        {
+          "key": "10.1016/j.swevo.2024.101812_b4",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1016/j.swevo.2023.101248",
+          "article-title": "Performance assessment and exhaustive listing of 500+ nature-inspired metaheuristic algorithms",
+          "volume": "77",
+          "author": "Ma",
+          "year": "2023",
+          "journal-title": "Swarm Evol. Comput."
+        },
+        {
+          "key": "10.1016/j.swevo.2024.101812_b5",
+          "first-page": "1942",
+          "article-title": "Particle swarm optimization",
+          "volume": "vol. 4",
+          "author": "Kennedy",
+          "year": "1995"
+        },
+        {
+          "key": "10.1016/j.swevo.2024.101812_b6",
+          "series-title": "Adaptation in Natural and Artificial Systems: an Introductory Analysis with Applications to Biology, Control, and Artificial Intelligence",
+          "author": "Holland",
+          "year": "1992"
+        },
+        {
+          "issue": "4",
+          "key": "10.1016/j.swevo.2024.101812_b7",
+          "doi-asserted-by": "crossref",
+          "first-page": "28",
+          "DOI": "10.1109/MCI.2006.329691",
+          "article-title": "Ant colony optimization",
+          "volume": "1",
+          "author": "Dorigo",
+          "year": "2006",
+          "journal-title": "IEEE Comput. Intell. Mag."
+        },
+        {
+          "key": "10.1016/j.swevo.2024.101812_b8",
+          "doi-asserted-by": "crossref",
+          "first-page": "341",
+          "DOI": "10.1023/A:1008202821328",
+          "article-title": "Differential evolution–a simple and efficient heuristic for global optimization over continuous spaces",
+          "volume": "11",
+          "author": "Storn",
+          "year": "1997",
+          "journal-title": "J. Global Optim."
+        },
+        {
+          "issue": "4598",
+          "key": "10.1016/j.swevo.2024.101812_b9",
+          "doi-asserted-by": "crossref",
+          "first-page": "671",
+          "DOI": "10.1126/science.220.4598.671",
+          "article-title": "Optimization by simulated annealing",
+          "volume": "220",
+          "author": "Kirkpatrick",
+          "year": "1983",
+          "journal-title": "Science"
+        },
+        {
+          "issue": "3",
+          "key": "10.1016/j.swevo.2024.101812_b10",
+          "doi-asserted-by": "crossref",
+          "first-page": "1863",
+          "DOI": "10.1007/s11831-022-09853-1",
+          "article-title": "A systematic review on metaheuristic optimization techniques for feature selections in disease diagnosis: open issues and challenges",
+          "volume": "30",
+          "author": "Kaur",
+          "year": "2023",
+          "journal-title": "Arch. Comput. Methods Eng."
+        },
+        {
+          "issue": "5",
+          "key": "10.1016/j.swevo.2024.101812_b11",
+          "doi-asserted-by": "crossref",
+          "first-page": "662",
+          "DOI": "10.1109/TEVC.2011.2169968",
+          "article-title": "Multiobjective evolutionary algorithms in aeronautical and aerospace engineering",
+          "volume": "16",
+          "author": "Arias-Montano",
+          "year": "2012",
+          "journal-title": "IEEE Trans. Evol. Comput."
+        },
+        {
+          "key": "10.1016/j.swevo.2024.101812_b12",
+          "doi-asserted-by": "crossref",
+          "first-page": "45",
+          "DOI": "10.1016/j.cie.2018.11.058",
+          "article-title": "Meta-heuristics for reverse logistics: A literature review and perspectives",
+          "volume": "127",
+          "author": "Rachih",
+          "year": "2019",
+          "journal-title": "Comput. Ind. Eng."
+        },
+        {
+          "key": "10.1016/j.swevo.2024.101812_b13",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1016/j.asoc.2021.107298",
+          "article-title": "Discrete grey wolf optimizer for symmetric travelling salesman problem",
+          "volume": "105",
+          "author": "Panwar",
+          "year": "2021",
+          "journal-title": "Appl. Soft Comput."
+        },
+        {
+          "key": "10.1016/j.swevo.2024.101812_b14",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1016/j.swevo.2021.100888",
+          "article-title": "A tutorial on the design, experimentation and application of metaheuristic algorithms to real-world optimization problems",
+          "volume": "64",
+          "author": "Osaba",
+          "year": "2021",
+          "journal-title": "Swarm Evol. Comput."
+        },
+        {
+          "key": "10.1016/j.swevo.2024.101812_b15",
+          "series-title": "2007 IEEE Congress on Evolutionary Computation",
+          "first-page": "532",
+          "article-title": "Applications of multi-objective evolutionary algorithms in economics and finance: A survey",
+          "author": "Tapia",
+          "year": "2007"
+        },
+        {
+          "key": "10.1016/j.swevo.2024.101812_b16",
+          "series-title": "2024 IEEE Congress on Evolutionary Computation",
+          "article-title": "Q-learning-driven framework for high-dimensional optimization problems",
+          "author": "Rajwar",
+          "year": "2024"
+        },
+        {
+          "key": "10.1016/j.swevo.2024.101812_b17",
+          "doi-asserted-by": "crossref",
+          "first-page": "269",
+          "DOI": "10.1016/j.neucom.2022.04.083",
+          "article-title": "A comprehensive survey on recent metaheuristics for feature selection",
+          "volume": "494",
+          "author": "Dokeroglu",
+          "year": "2022",
+          "journal-title": "Neurocomputing"
+        },
+        {
+          "key": "10.1016/j.swevo.2024.101812_b18",
+          "first-page": "1",
+          "article-title": "A comprehensive survey on optimizing deep learning models by metaheuristics",
+          "author": "Akay",
+          "year": "2022",
+          "journal-title": "Artif. Intell. Rev."
+        },
+        {
+          "key": "10.1016/j.swevo.2024.101812_b19",
+          "first-page": "1",
+          "article-title": "Advanced metaheuristic optimization techniques in applications of deep neural networks: a review",
+          "author": "Abd Elaziz",
+          "year": "2021",
+          "journal-title": "Neural Comput. Appl."
+        },
+        {
+          "key": "10.1016/j.swevo.2024.101812_b20",
+          "doi-asserted-by": "crossref",
+          "first-page": "15056",
+          "DOI": "10.1109/ACCESS.2024.3358285",
+          "article-title": "Installation of smog-free towers using novel real coded genetic algorithm",
+          "volume": "12",
+          "author": "Kumar",
+          "year": "2024",
+          "journal-title": "IEEE Access"
+        },
+        {
+          "key": "10.1016/j.swevo.2024.101812_b21",
+          "first-page": "1",
+          "article-title": "Discrete marine predators algorithm for symmetric travelling salesman problem",
+          "author": "Kumar",
+          "year": "2024",
+          "journal-title": "Evol. Intell."
+        },
+        {
+          "key": "10.1016/j.swevo.2024.101812_b22",
+          "doi-asserted-by": "crossref",
+          "first-page": "4519",
+          "DOI": "10.1007/s11063-022-11055-6",
+          "article-title": "Application of meta-heuristic algorithms for training neural networks and deep learning architectures: A comprehensive review",
+          "volume": "55",
+          "author": "Kaveh",
+          "year": "2023",
+          "journal-title": "Neural Process. Lett."
+        },
+        {
+          "key": "10.1016/j.swevo.2024.101812_b23",
+          "doi-asserted-by": "crossref",
+          "first-page": "468",
+          "DOI": "10.1016/j.ins.2014.11.035",
+          "article-title": "Structural bias in population-based algorithms",
+          "volume": "298",
+          "author": "Kononova",
+          "year": "2015",
+          "journal-title": "Inform. Sci."
+        },
+        {
+          "key": "10.1016/j.swevo.2024.101812_b24",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1016/j.swevo.2020.100671",
+          "article-title": "A better balance in metaheuristic algorithms: Does it exist?",
+          "volume": "54",
+          "author": "Morales-Castañeda",
+          "year": "2020",
+          "journal-title": "Swarm Evol. Comput."
+        },
+        {
+          "issue": "3",
+          "key": "10.1016/j.swevo.2024.101812_b25",
+          "doi-asserted-by": "crossref",
+          "first-page": "1",
+          "DOI": "10.1145/2480741.2480752",
+          "article-title": "Exploration and exploitation in evolutionary algorithms: A survey",
+          "volume": "45",
+          "author": "Črepinšek",
+          "year": "2013",
+          "journal-title": "ACM Comput. Surv. (CSUR)"
+        },
+        {
+          "key": "10.1016/j.swevo.2024.101812_b26",
+          "series-title": "Machine Learning Proceedings 1988",
+          "first-page": "153",
+          "article-title": "Representation and hidden bias: Gray vs. binary coding for genetic algorithms",
+          "author": "Caruana",
+          "year": "1988"
+        },
+        {
+          "issue": "8",
+          "key": "10.1016/j.swevo.2024.101812_b27",
+          "doi-asserted-by": "crossref",
+          "first-page": "937",
+          "DOI": "10.1016/j.ins.2005.02.003",
+          "article-title": "A study of particle swarm optimization particle trajectories",
+          "volume": "176",
+          "author": "Van den Bergh",
+          "year": "2006",
+          "journal-title": "Inform. Sci."
+        },
+        {
+          "issue": "1",
+          "key": "10.1016/j.swevo.2024.101812_b28",
+          "doi-asserted-by": "crossref",
+          "first-page": "122",
+          "DOI": "10.1109/TSMC.1986.289288",
+          "article-title": "Optimization of control parameters for genetic algorithms",
+          "volume": "16",
+          "author": "Grefenstette",
+          "year": "1986",
+          "journal-title": "IEEE Trans. Syst. Man Cybern."
+        },
+        {
+          "key": "10.1016/j.swevo.2024.101812_b29",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Y. Borenstein, R. Poli, Structure and metaheuristics, in: Proceedings of the 8th Annual Conference on Genetic and Evolutionary Computation, 2006, pp. 1087–1094.",
+          "DOI": "10.1145/1143997.1144172"
+        },
+        {
+          "issue": "4",
+          "key": "10.1016/j.swevo.2024.101812_b30",
+          "doi-asserted-by": "crossref",
+          "first-page": "550",
+          "DOI": "10.1109/TEVC.2017.2744324",
+          "article-title": "Population evolvability: Dynamic fitness landscape analysis for population-based metaheuristic algorithms",
+          "volume": "22",
+          "author": "Wang",
+          "year": "2017",
+          "journal-title": "IEEE Trans. Evol. Comput."
+        },
+        {
+          "key": "10.1016/j.swevo.2024.101812_b31",
+          "series-title": "Recent Advances in the Theory and Application of Fitness Landscapes",
+          "first-page": "103",
+          "article-title": "Fitness landscape analysis for metaheuristic performance prediction",
+          "author": "Malan",
+          "year": "2014"
+        },
+        {
+          "key": "10.1016/j.swevo.2024.101812_b32",
+          "series-title": "Guided Randomness in Optimization",
+          "first-page": "139",
+          "article-title": "Biases and signatures",
+          "author": "Clerc",
+          "year": "2015"
+        },
+        {
+          "key": "10.1016/j.swevo.2024.101812_b33",
+          "series-title": "Guided Randomness in Optimization",
+          "author": "Clerc",
+          "year": "2015"
+        },
+        {
+          "issue": "5",
+          "key": "10.1016/j.swevo.2024.101812_b34",
+          "doi-asserted-by": "crossref",
+          "first-page": "945",
+          "DOI": "10.1109/TEVC.2009.2014613",
+          "article-title": "JADE: Adaptive differential evolution with optional external archive",
+          "volume": "13",
+          "author": "Zhang",
+          "year": "2009",
+          "journal-title": "IEEE Trans. Evol. Comput."
+        },
+        {
+          "key": "10.1016/j.swevo.2024.101812_b35",
+          "doi-asserted-by": "crossref",
+          "first-page": "69",
+          "DOI": "10.1007/BF01898350",
+          "article-title": "The plane with parallel coordinates",
+          "volume": "1",
+          "author": "Inselberg",
+          "year": "1985",
+          "journal-title": "Vis. Comput."
+        },
+        {
+          "key": "10.1016/j.swevo.2024.101812_b36",
+          "doi-asserted-by": "crossref",
+          "first-page": "35",
+          "DOI": "10.1007/s11721-013-0090-y",
+          "article-title": "A generalized theoretical deterministic particle swarm model",
+          "volume": "8",
+          "author": "Cleghorn",
+          "year": "2014",
+          "journal-title": "Swarm Intell."
+        },
+        {
+          "key": "10.1016/j.swevo.2024.101812_b37",
+          "doi-asserted-by": "crossref",
+          "unstructured": "C.K. Monson, K.D. Seppi, Exposing origin-seeking bias in PSO, in: Proceedings of the 7th Annual Conference on Genetic and Evolutionary Computation, 2005, pp. 241–248.",
+          "DOI": "10.1145/1068009.1068045"
+        },
+        {
+          "key": "10.1016/j.swevo.2024.101812_b38",
+          "series-title": "Proc. of the 5th Annual Conference on Evolutionary Programming",
+          "first-page": "419",
+          "article-title": "Tunig evolutionary programming for conformationally flexible molecular docking",
+          "author": "Gehlhaar",
+          "year": "1996"
+        },
+        {
+          "key": "10.1016/j.swevo.2024.101812_b39",
+          "series-title": "1998 IEEE International Conference on Evolutionary Computation Proceedings. IEEE World Congress on Computational Intelligence (Cat. No. 98TH8360)",
+          "first-page": "84",
+          "article-title": "Using selection to improve particle swarm optimization",
+          "author": "Angeline",
+          "year": "1998"
+        },
+        {
+          "key": "10.1016/j.swevo.2024.101812_b40",
+          "doi-asserted-by": "crossref",
+          "first-page": "802",
+          "DOI": "10.1016/j.ins.2014.03.094",
+          "article-title": "Evaluating center-seeking and initialization bias: The case of particle swarm and gravitational search algorithms",
+          "volume": "278",
+          "author": "Davarynejad",
+          "year": "2014",
+          "journal-title": "Inform. Sci."
+        },
+        {
+          "issue": "6",
+          "key": "10.1016/j.swevo.2024.101812_b41",
+          "doi-asserted-by": "crossref",
+          "first-page": "1380",
+          "DOI": "10.1109/TEVC.2022.3189848",
+          "article-title": "Bias: a toolbox for benchmarking structural bias in the continuous domain",
+          "volume": "26",
+          "author": "Vermetten",
+          "year": "2022",
+          "journal-title": "IEEE Trans. Evol. Comput."
+        },
+        {
+          "key": "10.1016/j.swevo.2024.101812_b42",
+          "series-title": "BIAS repository",
+          "author": "Dvermetten",
+          "year": "2023"
+        },
+        {
+          "key": "10.1016/j.swevo.2024.101812_b43",
+          "doi-asserted-by": "crossref",
+          "unstructured": "B. van Stein, D. Vermetten, F. Caraffini, A.V. Kononova, Deep bias: Detecting structural bias using explainable AI, in: Proceedings of the Companion Conference on Genetic and Evolutionary Computation, 2023, pp. 455–458.",
+          "DOI": "10.1145/3583133.3590551"
+        },
+        {
+          "key": "10.1016/j.swevo.2024.101812_b44",
+          "series-title": "Quantum random number generator",
+          "author": "Australian National University",
+          "year": "2024"
+        },
+        {
+          "key": "10.1016/j.swevo.2024.101812_b45",
+          "doi-asserted-by": "crossref",
+          "first-page": "849",
+          "DOI": "10.1016/j.future.2019.02.028",
+          "article-title": "Harris hawks optimization: Algorithm and applications",
+          "volume": "97",
+          "author": "Heidari",
+          "year": "2019",
+          "journal-title": "Future Gener. Comput. Syst."
+        },
+        {
+          "key": "10.1016/j.swevo.2024.101812_b46",
+          "doi-asserted-by": "crossref",
+          "first-page": "51",
+          "DOI": "10.1016/j.advengsoft.2016.01.008",
+          "article-title": "The whale optimization algorithm",
+          "volume": "95",
+          "author": "Mirjalili",
+          "year": "2016",
+          "journal-title": "Adv. Eng. Softw."
+        },
+        {
+          "key": "10.1016/j.swevo.2024.101812_b47",
+          "doi-asserted-by": "crossref",
+          "first-page": "46",
+          "DOI": "10.1016/j.advengsoft.2013.12.007",
+          "article-title": "Grey wolf optimizer",
+          "volume": "69",
+          "author": "Mirjalili",
+          "year": "2014",
+          "journal-title": "Adv. Eng. Softw."
+        },
+        {
+          "key": "10.1016/j.swevo.2024.101812_b48",
+          "doi-asserted-by": "crossref",
+          "first-page": "38",
+          "DOI": "10.1016/j.aej.2024.03.060",
+          "article-title": "Analysis of marine predators algorithm using BIAS toolbox and generalized signature test",
+          "volume": "95",
+          "author": "Kumar",
+          "year": "2024",
+          "journal-title": "Alex. Eng. J."
+        },
+        {
+          "key": "10.1016/j.swevo.2024.101812_b49",
+          "unstructured": "G. Syswerda, Uniform Crossover in Genetic Algorithms, in: Proc. 3rd Intl Conference on Genetic Algorithms 1989, 1989."
+        },
+        {
+          "key": "10.1016/j.swevo.2024.101812_b50",
+          "unstructured": "D. Whitley, GENITOR: A different genetic algorithm, in: Proceedings of the 4th Rocky Mountain Conference on Artificial Intelligence, 1988, 1988, pp. 1–8."
+        },
+        {
+          "key": "10.1016/j.swevo.2024.101812_b51",
+          "first-page": "69",
+          "article-title": "A comparative analysis of selection schemes used in genetic algorithms",
+          "volume": "vol. 1",
+          "author": "Goldberg",
+          "year": "1991"
+        },
+        {
+          "key": "10.1016/j.swevo.2024.101812_b52",
+          "first-page": "14",
+          "article-title": "Reducing bias and inefficiency in the selection algorithm",
+          "volume": "vol. 206",
+          "author": "Baker",
+          "year": "1987"
+        },
+        {
+          "key": "10.1016/j.swevo.2024.101812_b53",
+          "series-title": "Genetic Algorithms and Simulated Annealing",
+          "first-page": "89",
+          "article-title": "Some effects of selection procedures on hyperplane sampling by genetic algorithms",
+          "author": "Schaffer",
+          "year": "1987"
+        },
+        {
+          "key": "10.1016/j.swevo.2024.101812_b54",
+          "unstructured": "L.J. Eshelman, Biases in the crossover landscape, in: Proc. Int. Conf. Genetic Algorithms, 1989, 1989, pp. 10–19."
+        },
+        {
+          "key": "10.1016/j.swevo.2024.101812_b55",
+          "doi-asserted-by": "crossref",
+          "unstructured": "K. Rajwar, Y. Kumar, K. Deep, Investigating Structural Bias in Real-Coded Genetic Algorithms, in: Proceedings of the Genetic and Evolutionary Computation Conference Companion, 2024, pp. 447–450.",
+          "DOI": "10.1145/3638530.3654312"
+        },
+        {
+          "key": "10.1016/j.swevo.2024.101812_b56",
+          "first-page": "253",
+          "article-title": "Analysis of a simple particle swarm optimization system",
+          "volume": "vol. 8",
+          "author": "Ozcan",
+          "year": "1998"
+        },
+        {
+          "key": "10.1016/j.swevo.2024.101812_b57",
+          "series-title": "2007 IEEE Swarm Intelligence Symposium",
+          "first-page": "150",
+          "article-title": "On trajectories of particles in PSO",
+          "author": "Janson",
+          "year": "2007"
+        },
+        {
+          "key": "10.1016/j.swevo.2024.101812_b58",
+          "series-title": "Particle Swarm Optimization",
+          "author": "Clerc",
+          "year": "2010"
+        },
+        {
+          "key": "10.1016/j.swevo.2024.101812_b59",
+          "doi-asserted-by": "crossref",
+          "first-page": "307",
+          "DOI": "10.1007/s11721-016-0129-y",
+          "article-title": "Searching for structural bias in particle swarm optimization and differential evolution algorithms",
+          "volume": "10",
+          "author": "Piotrowski",
+          "year": "2016",
+          "journal-title": "Swarm Intell."
+        },
+        {
+          "key": "10.1016/j.swevo.2024.101812_b60",
+          "series-title": "Innovations and Developments of Swarm Intelligence Applications",
+          "first-page": "20",
+          "article-title": "Biases in particle swarm optimization",
+          "author": "Spears",
+          "year": "2012"
+        },
+        {
+          "key": "10.1016/j.swevo.2024.101812_b61",
+          "series-title": "Handbook of Optimization: from Classical to Modern Approach",
+          "first-page": "187",
+          "article-title": "Differential evolution",
+          "author": "Price",
+          "year": "2013"
+        },
+        {
+          "key": "10.1016/j.swevo.2024.101812_b62",
+          "doi-asserted-by": "crossref",
+          "first-page": "161",
+          "DOI": "10.1016/j.ins.2019.05.019",
+          "article-title": "Infeasibility and structural bias in differential evolution",
+          "volume": "496",
+          "author": "Caraffini",
+          "year": "2019",
+          "journal-title": "Inform. Sci."
+        },
+        {
+          "key": "10.1016/j.swevo.2024.101812_b63",
+          "doi-asserted-by": "crossref",
+          "unstructured": "B. van Stein, F. Caraffini, A.V. Kononova, Emergence of structural bias in differential evolution, in: Proceedings of the Genetic and Evolutionary Computation Conference Companion, 2021, pp. 1234–1242.",
+          "DOI": "10.1145/3449726.3463223"
+        },
+        {
+          "key": "10.1016/j.swevo.2024.101812_b64",
+          "first-page": "1558",
+          "article-title": "Ant colony optimization for FOP shop scheduling: a case study on different pheromone representations",
+          "volume": "vol. 2",
+          "author": "Blum",
+          "year": "2002"
+        },
+        {
+          "issue": "2",
+          "key": "10.1016/j.swevo.2024.101812_b65",
+          "doi-asserted-by": "crossref",
+          "first-page": "159",
+          "DOI": "10.1109/TEVC.2004.841688",
+          "article-title": "Search bias in ant colony optimization: On the role of competition-balanced systems",
+          "volume": "9",
+          "author": "Blum",
+          "year": "2005",
+          "journal-title": "IEEE Trans. Evol. Comput."
+        },
+        {
+          "issue": "3",
+          "key": "10.1016/j.swevo.2024.101812_b66",
+          "doi-asserted-by": "crossref",
+          "first-page": "235",
+          "DOI": "10.1162/106365602760234090",
+          "article-title": "Modeling the dynamics of ant colony optimization",
+          "volume": "10",
+          "author": "Merkle",
+          "year": "2002",
+          "journal-title": "Evol. Comput."
+        },
+        {
+          "key": "10.1016/j.swevo.2024.101812_b67",
+          "series-title": "Ant Colony Optimization and Swarm Intelligence: 4th International Workshop, ANTS 2004, Brussels, Belgium, September (2004) 5-8. Proceedings 4",
+          "first-page": "390",
+          "article-title": "Search bias in constructive metaheuristics and implications for ant colony optimisation",
+          "author": "Montgomery",
+          "year": "2004"
+        },
+        {
+          "issue": "9",
+          "key": "10.1016/j.swevo.2024.101812_b68",
+          "doi-asserted-by": "crossref",
+          "first-page": "2728",
+          "DOI": "10.1016/j.cor.2006.12.014",
+          "article-title": "Solution bias in ant colony optimisation: Lessons for selecting pheromone models",
+          "volume": "35",
+          "author": "Montgomery",
+          "year": "2008",
+          "journal-title": "Comput. Oper. Res."
+        },
+        {
+          "key": "10.1016/j.swevo.2024.101812_b69",
+          "series-title": "International Conference on Parallel Problem Solving from Nature",
+          "first-page": "893",
+          "article-title": "When model bias is stronger than selection pressure",
+          "author": "Blum",
+          "year": "2002"
+        },
+        {
+          "issue": "13",
+          "key": "10.1016/j.swevo.2024.101812_b70",
+          "doi-asserted-by": "crossref",
+          "first-page": "2232",
+          "DOI": "10.1016/j.ins.2009.03.004",
+          "article-title": "GSA: a gravitational search algorithm",
+          "volume": "179",
+          "author": "Rashedi",
+          "year": "2009",
+          "journal-title": "Inform. Sci."
+        },
+        {
+          "key": "10.1016/j.swevo.2024.101812_b71",
+          "doi-asserted-by": "crossref",
+          "first-page": "11195",
+          "DOI": "10.1007/s00521-019-04629-4",
+          "article-title": "Salp swarm algorithm: a comprehensive survey",
+          "volume": "32",
+          "author": "Abualigah",
+          "year": "2020",
+          "journal-title": "Neural Comput. Appl."
+        },
+        {
+          "key": "10.1016/j.swevo.2024.101812_b72",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1016/j.eswa.2021.116029",
+          "article-title": "Salp swarm optimization: a critical review",
+          "volume": "189",
+          "author": "Castelli",
+          "year": "2022",
+          "journal-title": "Expert Syst. Appl."
+        },
+        {
+          "key": "10.1016/j.swevo.2024.101812_b73",
+          "doi-asserted-by": "crossref",
+          "first-page": "37",
+          "DOI": "10.1016/j.knosys.2019.01.018",
+          "article-title": "The defect of the grey wolf optimization algorithm and its verification method",
+          "volume": "171",
+          "author": "Niu",
+          "year": "2019",
+          "journal-title": "Knowl.-Based Syst."
+        },
+        {
+          "key": "10.1016/j.swevo.2024.101812_b74",
+          "doi-asserted-by": "crossref",
+          "first-page": "225",
+          "DOI": "10.1016/j.asoc.2019.01.025",
+          "article-title": "Enhanced grey wolf optimizer with a model for dynamically estimating the location of the prey",
+          "volume": "77",
+          "author": "Luo",
+          "year": "2019",
+          "journal-title": "Appl. Soft Comput."
+        },
+        {
+          "key": "10.1016/j.swevo.2024.101812_b75",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1016/j.eswa.2023.121544",
+          "article-title": "Deficiencies of the whale optimization algorithm and its validation method",
+          "volume": "237",
+          "author": "Deng",
+          "year": "2024",
+          "journal-title": "Expert Syst. Appl."
+        },
+        {
+          "key": "10.1016/j.swevo.2024.101812_b76",
+          "series-title": "2020 IEEE Congress on Evolutionary Computation",
+          "first-page": "1",
+          "article-title": "Can single solution optimisation methods be structurally biased?",
+          "author": "Kononova",
+          "year": "2020"
+        },
+        {
+          "key": "10.1016/j.swevo.2024.101812_b77",
+          "series-title": "International Conference on Parallel Problem Solving from Nature",
+          "first-page": "229",
+          "article-title": "Can compact optimisation algorithms be structurally biased?",
+          "author": "Kononova",
+          "year": "2020"
+        },
+        {
+          "key": "10.1016/j.swevo.2024.101812_b78",
+          "series-title": "International Conference on Metaheuristics and Nature Inspired Computing",
+          "first-page": "131",
+          "article-title": "Impact of structural bias on the sine cosine algorithm: A theoretical investigation using the signature test",
+          "author": "Rajwar",
+          "year": "2023"
+        },
+        {
+          "key": "10.1016/j.swevo.2024.101812_b79",
+          "doi-asserted-by": "crossref",
+          "first-page": "38",
+          "DOI": "10.1016/j.aej.2024.03.060",
+          "article-title": "Analysis of marine predators algorithm using bias toolbox and generalized signature test",
+          "volume": "95",
+          "author": "Kumar",
+          "year": "2024",
+          "journal-title": "Alex. Eng. J."
+        },
+        {
+          "key": "10.1016/j.swevo.2024.101812_b80",
+          "article-title": "Exposing the chimp optimization algorithm: A misleading metaheuristic technique with structural bias",
+          "author": "Deng",
+          "year": "2024",
+          "journal-title": "Appl. Soft Comput."
+        },
+        {
+          "key": "10.1016/j.swevo.2024.101812_b81",
+          "doi-asserted-by": "crossref",
+          "first-page": "459",
+          "DOI": "10.1007/s10898-007-9149-x",
+          "article-title": "A powerful and efficient algorithm for numerical function optimization: artificial bee colony (ABC) algorithm",
+          "volume": "39",
+          "author": "Karaboga",
+          "year": "2007",
+          "journal-title": "J. Global Optim."
+        },
+        {
+          "issue": "2",
+          "key": "10.1016/j.swevo.2024.101812_b82",
+          "doi-asserted-by": "crossref",
+          "first-page": "60",
+          "DOI": "10.1177/003754970107600201",
+          "article-title": "A new heuristic optimization algorithm: harmony search",
+          "volume": "76",
+          "author": "Geem",
+          "year": "2001",
+          "journal-title": "Simulation"
+        },
+        {
+          "issue": "3",
+          "key": "10.1016/j.swevo.2024.101812_b83",
+          "doi-asserted-by": "crossref",
+          "first-page": "190",
+          "DOI": "10.1287/ijoc.1.3.190",
+          "article-title": "Tabu search—Part I",
+          "volume": "1",
+          "author": "Glover",
+          "year": "1989",
+          "journal-title": "ORSA J. Comput."
+        },
+        {
+          "key": "10.1016/j.swevo.2024.101812_b84",
+          "series-title": "2009 World Congress on Nature & Biologically Inspired Computing",
+          "first-page": "210",
+          "article-title": "Cuckoo search via Lévy flights",
+          "author": "Yang",
+          "year": "2009"
+        },
+        {
+          "issue": "2",
+          "key": "10.1016/j.swevo.2024.101812_b85",
+          "doi-asserted-by": "crossref",
+          "first-page": "182",
+          "DOI": "10.1109/4235.996017",
+          "article-title": "A fast and elitist multiobjective genetic algorithm: NSGA-II",
+          "volume": "6",
+          "author": "Deb",
+          "year": "2002",
+          "journal-title": "IEEE Trans. Evol. Comput."
+        },
+        {
+          "key": "10.1016/j.swevo.2024.101812_b86",
+          "series-title": "Proceedings of the 2003 IEEE Swarm Intelligence Symposium. SIS’03 (Cat. No. 03EX706)",
+          "first-page": "26",
+          "article-title": "Strategies for finding good local guides in multi-objective particle swarm optimization (MOPSO)",
+          "author": "Mostaghim",
+          "year": "2003"
+        }
+      ],
+      "container-title": [
+        "Swarm and Evolutionary Computation"
+      ],
+      "original-title": [],
+      "language": "en",
+      "link": [
+        {
+          "URL": "https://api.elsevier.com/content/article/PII:S221065022400350X?httpAccept=text/xml",
+          "content-type": "text/xml",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        },
+        {
+          "URL": "https://api.elsevier.com/content/article/PII:S221065022400350X?httpAccept=text/plain",
+          "content-type": "text/plain",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2025,
+            1,
+            10
+          ]
+        ],
+        "date-time": "2025-01-10T15:30:27Z",
+        "timestamp": 1736523027000
+      },
+      "score": 1,
+      "resource": {
+        "primary": {
+          "URL": "https://linkinghub.elsevier.com/retrieve/pii/S221065022400350X"
+        }
+      },
+      "subtitle": [],
+      "short-title": [],
+      "issued": {
+        "date-parts": [
+          [
+            2025,
+            2
+          ]
+        ]
+      },
+      "references-count": 86,
+      "alternative-id": [
+        "S221065022400350X"
+      ],
+      "URL": "https://doi.org/10.1016/j.swevo.2024.101812",
+      "relation": {},
+      "ISSN": [
+        "2210-6502"
+      ],
+      "issn-type": [
+        {
+          "value": "2210-6502",
+          "type": "print"
+        }
+      ],
+      "subject": [],
+      "published": {
+        "date-parts": [
+          [
+            2025,
+            2
+          ]
+        ]
+      },
+      "assertion": [
+        {
+          "value": "Elsevier",
+          "name": "publisher",
+          "label": "This article is maintained by"
+        },
+        {
+          "value": "Structural bias in metaheuristic algorithms: Insights, open problems, and future prospects",
+          "name": "articletitle",
+          "label": "Article Title"
+        },
+        {
+          "value": "Swarm and Evolutionary Computation",
+          "name": "journaltitle",
+          "label": "Journal Title"
+        },
+        {
+          "value": "https://doi.org/10.1016/j.swevo.2024.101812",
+          "name": "articlelink",
+          "label": "CrossRef DOI link to publisher maintained version"
+        },
+        {
+          "value": "article",
+          "name": "content_type",
+          "label": "Content Type"
+        },
+        {
+          "value": "© 2024 Elsevier B.V. All rights are reserved, including those for text and data mining, AI training, and similar technologies.",
+          "name": "copyright",
+          "label": "Copyright"
+        }
+      ],
+      "article-number": "101812"
+    }
+  }
+}

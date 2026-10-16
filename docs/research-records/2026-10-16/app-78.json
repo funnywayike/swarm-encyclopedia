@@ -1,0 +1,1515 @@
+{
+  "retrieved": "2026-10-16",
+  "url": "https://api.crossref.org/works?query.bibliographic=political+districting+optimization+genetic+algorithm&rows=3&filter=until-pub-date%3A2026-10-16",
+  "response": {
+    "status": "ok",
+    "message-type": "work-list",
+    "message-version": "1.0.0",
+    "message": {
+      "facets": {},
+      "total-results": 3125091,
+      "items": [
+        {
+          "indexed": {
+            "date-parts": [
+              [
+                2026,
+                7,
+                4
+              ]
+            ],
+            "date-time": "2026-07-04T16:15:25Z",
+            "timestamp": 1783181725290,
+            "version": "3.54.6"
+          },
+          "publisher-location": "Cham",
+          "reference-count": 115,
+          "publisher": "Springer International Publishing",
+          "isbn-type": [
+            {
+              "value": "9783030546212",
+              "type": "print"
+            },
+            {
+              "value": "9783030546212",
+              "type": "electronic"
+            }
+          ],
+          "license": [
+            {
+              "start": {
+                "date-parts": [
+                  [
+                    2023,
+                    1,
+                    1
+                  ]
+                ],
+                "date-time": "2023-01-01T00:00:00Z",
+                "timestamp": 1672531200000
+              },
+              "content-version": "tdm",
+              "delay-in-days": 0,
+              "URL": "https://www.springernature.com/gp/researchers/text-and-data-mining"
+            },
+            {
+              "start": {
+                "date-parts": [
+                  [
+                    2023,
+                    1,
+                    1
+                  ]
+                ],
+                "date-time": "2023-01-01T00:00:00Z",
+                "timestamp": 1672531200000
+              },
+              "content-version": "vor",
+              "delay-in-days": 0,
+              "URL": "https://www.springernature.com/gp/researchers/text-and-data-mining"
+            }
+          ],
+          "content-domain": {
+            "domain": [
+              "link.springer.com"
+            ],
+            "crossmark-restriction": false
+          },
+          "published-print": {
+            "date-parts": [
+              [
+                2023
+              ]
+            ]
+          },
+          "DOI": "10.1007/978-3-030-54621-2_893-1",
+          "type": "book-chapter",
+          "created": {
+            "date-parts": [
+              [
+                2023,
+                9,
+                14
+              ]
+            ],
+            "date-time": "2023-09-14T18:03:15Z",
+            "timestamp": 1694714595000
+          },
+          "page": "1-13",
+          "update-policy": "https://doi.org/10.1007/springer_crossmark_policy",
+          "source": "Crossref",
+          "is-referenced-by-count": 7,
+          "title": [
+            "Political Districting"
+          ],
+          "prefix": "10.1007",
+          "author": [
+            {
+              "given": "Austin",
+              "family": "Buchanan",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            }
+          ],
+          "member": "297",
+          "published-online": {
+            "date-parts": [
+              [
+                2023,
+                7,
+                11
+              ]
+            ]
+          },
+          "reference": [
+            {
+              "key": "893-1_CR1",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1515/9780691187563",
+              "volume-title": "Local search in combinatorial optimization",
+              "author": "EHL Aarts",
+              "year": "2003",
+              "unstructured": "Aarts EHL, Lenstra JK (2003) Local search in combinatorial optimization. Princeton University Press, Princeton, NJ"
+            },
+            {
+              "key": "893-1_CR2",
+              "doi-asserted-by": "publisher",
+              "first-page": "591",
+              "DOI": "10.1016/j.physa.2018.10.057",
+              "volume": "516",
+              "author": "WT Adler",
+              "year": "2019",
+              "unstructured": "Adler WT, Wang SS-H (2019) Response to Cho and Liu, sampling from complicated and unknown distributions: Monte Carlo and Markov chain Monte Carlo methods for redistricting. Phys A: Stat Mech Appl 516:591–593",
+              "journal-title": "Phys A: Stat Mech Appl"
+            },
+            {
+              "key": "893-1_CR3",
+              "first-page": "81",
+              "volume": "23",
+              "author": "M Altman",
+              "year": "1997",
+              "unstructured": "Altman M (1997) The computational complexity of automated redistricting: is automation the answer? Rutgers Comput Tech LJ 23:81",
+              "journal-title": "Rutgers Comput Tech LJ"
+            },
+            {
+              "issue": "1",
+              "key": "893-1_CR4",
+              "doi-asserted-by": "publisher",
+              "first-page": "375",
+              "DOI": "10.1007/s10479-021-04227-5",
+              "volume": "305",
+              "author": "V Arredondo",
+              "year": "2021",
+              "unstructured": "Arredondo V, Martínez-Panero M, Peña T, Ricca F (2021) Mathematical political districting taking care of minority groups. Ann Oper Res 305(1):375–402",
+              "journal-title": "Ann Oper Res"
+            },
+            {
+              "issue": "4",
+              "key": "893-1_CR5",
+              "doi-asserted-by": "publisher",
+              "first-page": "1885",
+              "DOI": "10.1137/21M1406854",
+              "volume": "19",
+              "author": "EA Autry",
+              "year": "2021",
+              "unstructured": "Autry EA, Carter D, Herschlag GJ, Hunter Z, Mattingly JC (2021) Metropolized multiscale forest recombination for redistricting. Multiscale Model Simul 19(4):1885–1914",
+              "journal-title": "Multiscale Model Simul"
+            },
+            {
+              "key": "893-1_CR6",
+              "volume-title": "Fair representation: meeting the ideal of one man, one vote",
+              "author": "ML Balinski",
+              "year": "2010",
+              "unstructured": "Balinski ML, Young HP (2010) Fair representation: meeting the ideal of one man, one vote, 2nd edn. Brookings Institution Press, New Haven, CT",
+              "edition": "2"
+            },
+            {
+              "issue": "4",
+              "key": "893-1_CR7",
+              "doi-asserted-by": "publisher",
+              "first-page": "321",
+              "DOI": "10.1080/15230406.2020.1737575",
+              "volume": "47",
+              "author": "A Bar-Natan",
+              "year": "2020",
+              "unstructured": "Bar-Natan A, Najt L, Schutzman Z (2020) The gerrymandering jumble: map projections permute districts’ compactness scores. Cartogr Geogr Inf Sci 47(4):321–335",
+              "journal-title": "Cartogr Geogr Inf Sci"
+            },
+            {
+              "issue": "4",
+              "key": "893-1_CR8",
+              "doi-asserted-by": "publisher",
+              "first-page": "448",
+              "DOI": "10.1017/pan.2020.36",
+              "volume": "29",
+              "author": "R Barnes",
+              "year": "2021",
+              "unstructured": "Barnes R, Solomon J (2021) Gerrymandering and compactness: implementation flexibility and abuse. Polit Anal 29(4):448–466",
+              "journal-title": "Polit Anal"
+            },
+            {
+              "issue": "3",
+              "key": "893-1_CR9",
+              "doi-asserted-by": "publisher",
+              "first-page": "316",
+              "DOI": "10.1287/opre.46.3.316",
+              "volume": "46",
+              "author": "C Barnhart",
+              "year": "1998",
+              "unstructured": "Barnhart C, Johnson EL, Nemhauser GL, Savelsbergh MWP, Vance PH (1998) Branch-and-price: column generation for solving huge integer programs. Oper Res 46(3):316–329",
+              "journal-title": "Oper Res"
+            },
+            {
+              "issue": "3",
+              "key": "893-1_CR10",
+              "doi-asserted-by": "publisher",
+              "first-page": "383",
+              "DOI": "10.1016/0377-2217(93)90118-7",
+              "volume": "65",
+              "author": "JE Beasley",
+              "year": "1993",
+              "unstructured": "Beasley JE (1993) Lagrangean heuristics for location problems. Eur J Oper Res 65(3):383–399",
+              "journal-title": "Eur J Oper Res"
+            },
+            {
+              "issue": "4",
+              "key": "893-1_CR11",
+              "doi-asserted-by": "publisher",
+              "first-page": "407",
+              "DOI": "10.1089/elj.2020.0704",
+              "volume": "20",
+              "author": "A Becker",
+              "year": "2021",
+              "unstructured": "Becker A, Duchin M, Gold D, Hirsch S (2021) Computational redistricting and the voting rights act. Election Law J: Rules Polit Policy 20(4):407–441",
+              "journal-title": "Election Law J: Rules Polit Policy"
+            },
+            {
+              "key": "893-1_CR12",
+              "doi-asserted-by": "publisher",
+              "first-page": "1735",
+              "DOI": "10.1007/s42001-022-00180-w",
+              "volume": "5",
+              "author": "A Becker",
+              "year": "2022",
+              "unstructured": "Becker A, Gold D (2022) The gameability of redistricting criteria. J Comput Soc Sci 5:1735–1777",
+              "journal-title": "J Comput Soc Sci"
+            },
+            {
+              "key": "893-1_CR13",
+              "volume-title": "Political geometry: rethinking redistricting in the US with math, law, and everything in between",
+              "author": "A Becker",
+              "year": "2022",
+              "unstructured": "Becker A, Solomon J (2022) Redistricting algorithms. In: Duchin M, Walch O (eds) Political geometry: rethinking redistricting in the US with math, law, and everything in between. Birkhauser, Cham, Switzerland"
+            },
+            {
+              "key": "893-1_CR14",
+              "volume-title": "Political districting to optimize the Polsby-Popper compactness score",
+              "author": "P Belotti",
+              "year": "2023",
+              "unstructured": "Belotti P, Buchanan A, Ezazipour S (2023) Political districting to optimize the Polsby-Popper compactness score. Available on Optimization-Online"
+            },
+            {
+              "key": "893-1_CR15",
+              "first-page": "100227",
+              "volume": "9",
+              "author": "G Benade",
+              "year": "2022",
+              "unstructured": "Benade G, Ho-Nguyen N, Hooker JN (2022) Political districting without geography. Oper Res Perspect 9:100227",
+              "journal-title": "Oper Res Perspect"
+            },
+            {
+              "key": "893-1_CR16",
+              "doi-asserted-by": "publisher",
+              "first-page": "39",
+              "DOI": "10.1007/978-3-319-69161-9_2",
+              "volume-title": "Political geometry",
+              "author": "M Bernstein",
+              "year": "2022",
+              "unstructured": "Bernstein M, Walch O (2022) Measuring partisan fairness. In: Duchin M, Walch O (eds) Political geometry. Birkhauser, Cham, Switzerland, pp 39–75"
+            },
+            {
+              "issue": "1",
+              "key": "893-1_CR17",
+              "doi-asserted-by": "publisher",
+              "first-page": "236",
+              "DOI": "10.1137/S1052623497318682",
+              "volume": "9",
+              "author": "R Borndörfer",
+              "year": "1998",
+              "unstructured": "Borndörfer R, Ferreira CE, Martin A (1998) Decomposing matrices into blocks. SIAM J Optim 9(1):236–269",
+              "journal-title": "SIAM J Optim"
+            },
+            {
+              "issue": "2",
+              "key": "893-1_CR18",
+              "doi-asserted-by": "publisher",
+              "first-page": "253",
+              "DOI": "10.1002/net.22130",
+              "volume": "81",
+              "author": "R Borndörfer",
+              "year": "2023",
+              "unstructured": "Borndörfer R, Schwartz S, Surau W (2023) Vertex covering with capacitated trees. Networks 81(2):253–277",
+              "journal-title": "Networks"
+            },
+            {
+              "issue": "1",
+              "key": "893-1_CR19",
+              "doi-asserted-by": "publisher",
+              "first-page": "178",
+              "DOI": "10.1287/ijoc.2014.0619",
+              "volume": "27",
+              "author": "A Buchanan",
+              "year": "2015",
+              "unstructured": "Buchanan A, Sung JS, Butenko S, Pasiliao EL (2015) An integer programming approach for fault-tolerant connected dominating sets. INFORMS J Comput 27(1):178–188",
+              "journal-title": "INFORMS J Comput"
+            },
+            {
+              "key": "893-1_CR20",
+              "volume-title": "Redistricting: the most political activity in America",
+              "author": "CS Bullock III",
+              "year": "2010",
+              "unstructured": "Bullock CS III (2010) Redistricting: the most political activity in America. Rowman & Littlefield Publishers, Lanham, MD"
+            },
+            {
+              "key": "893-1_CR21",
+              "unstructured": "Cannon S, Duchin M, Randall D, Rule P (2022) Spanning tree methods for sampling graph partitions. arXiv preprint arXiv:2210.01401"
+            },
+            {
+              "issue": "1",
+              "key": "893-1_CR22",
+              "doi-asserted-by": "publisher",
+              "first-page": "36",
+              "DOI": "10.1007/s11009-023-09994-1",
+              "volume": "25",
+              "author": "S Cannon",
+              "year": "2023",
+              "unstructured": "Cannon S, Goldbloom-Helzner A, Gupta V, Matthews JN, Suwal B (2023) Voting rights, Markov chains, and optimization by short bursts. Methodol Comput Appl Probab 25(1):36",
+              "journal-title": "Methodol Comput Appl Probab"
+            },
+            {
+              "issue": "1",
+              "key": "893-1_CR23",
+              "doi-asserted-by": "publisher",
+              "first-page": "19",
+              "DOI": "10.1080/2330443X.2020.1748552",
+              "volume": "7",
+              "author": "D Carter",
+              "year": "2020",
+              "unstructured": "Carter D, Hunter Z, Teague D, Herschlag G, Mattingly J (2020) Optimal legislative county clustering in North Carolina. Stat Public Policy 7(1):19–29",
+              "journal-title": "Stat Public Policy"
+            },
+            {
+              "issue": "4",
+              "key": "893-1_CR24",
+              "doi-asserted-by": "publisher",
+              "first-page": "824",
+              "DOI": "10.1287/opre.2013.1183",
+              "volume": "61",
+              "author": "R Carvajal",
+              "year": "2013",
+              "unstructured": "Carvajal R, Constantino M, Goycoolea M, Vielma JP, Weintraub A (2013) Imposing connectivity constraints in forest planning models. Oper Res 61(4):824–836",
+              "journal-title": "Oper Res"
+            },
+            {
+              "key": "893-1_CR25",
+              "unstructured": "Charikar M, Liu P, Liu T, Vuong T-D (2022) On the complexity of sampling redistricting plans. arXiv preprint arXiv:2206.04883"
+            },
+            {
+              "issue": "3",
+              "key": "893-1_CR26",
+              "doi-asserted-by": "publisher",
+              "first-page": "239",
+              "DOI": "10.1561/100.00012033",
+              "volume": "8",
+              "author": "J Chen",
+              "year": "2013",
+              "unstructured": "Chen J, Rodden J (2013) Unintentional gerrymandering: political geography and electoral bias in legislatures. Q J Polit Sci 8(3):239–269",
+              "journal-title": "Q J Polit Sci"
+            },
+            {
+              "key": "893-1_CR27",
+              "first-page": "862",
+              "volume": "130",
+              "author": "J Chen",
+              "year": "2021",
+              "unstructured": "Chen J, Stephanopoulos NO (2021) The race-blind future of voting rights. Yale Law J 130:862–947",
+              "journal-title": "Yale Law J"
+            },
+            {
+              "issue": "11",
+              "key": "893-1_CR28",
+              "doi-asserted-by": "publisher",
+              "first-page": "2860",
+              "DOI": "10.1073/pnas.1617540114",
+              "volume": "114",
+              "author": "M Chikina",
+              "year": "2017",
+              "unstructured": "Chikina M, Frieze A, Pegden W (2017) Assessing significance in a markov chain without mixing. Proc Natl Acad Sci 114(11):2860–2864",
+              "journal-title": "Proc Natl Acad Sci"
+            },
+            {
+              "key": "893-1_CR29",
+              "doi-asserted-by": "publisher",
+              "first-page": "170",
+              "DOI": "10.1016/j.physa.2018.03.096",
+              "volume": "506",
+              "author": "WKT Cho",
+              "year": "2018",
+              "unstructured": "Cho WKT, Liu YY (2018) Sampling from complicated and unknown distributions: Monte Carlo and Markov chain Monte Carlo methods for redistricting. Phys A: Stat Mech Appl 506:170–178",
+              "journal-title": "Phys A: Stat Mech Appl"
+            },
+            {
+              "key": "893-1_CR30",
+              "doi-asserted-by": "publisher",
+              "first-page": "189",
+              "DOI": "10.1007/s42001-021-00119-7",
+              "volume": "5",
+              "author": "J Clelland",
+              "year": "2022",
+              "unstructured": "Clelland J, Colgate H, DeFord D, Malmskog B, Sancier-Barbosa F (2022) Colorado in context: congressional redistricting and competing fairness criteria in Colorado. J Comput Social Sci 5:189–226",
+              "journal-title": "J Comput Social Sci"
+            },
+            {
+              "issue": "4",
+              "key": "893-1_CR31",
+              "doi-asserted-by": "publisher",
+              "first-page": "306",
+              "DOI": "10.1111/j.1538-4632.2000.tb00430.x",
+              "volume": "32",
+              "author": "TJ Cova",
+              "year": "2000",
+              "unstructured": "Cova TJ, Church RL (2000) Contiguity constraints for single-region site search problems. Geograph Anal 32(4):306–329",
+              "journal-title": "Geograph Anal"
+            },
+            {
+              "key": "893-1_CR32",
+              "volume-title": "Redistricting law 2020",
+              "author": "M Davis",
+              "year": "2019",
+              "unstructured": "Davis M, Strigari F, Underhill W, Wice JM, Zamarripa C (2019) Redistricting law 2020. National Conference of State Legislatures"
+            },
+            {
+              "key": "893-1_CR33",
+              "unstructured": "DeFord D, Becker A, Gold D (2022) Brief of computational redistricting experts as Amici Curiae in support of appellees and respondents. In: Milligan MV, Caster MV (eds)"
+            },
+            {
+              "issue": "2",
+              "key": "893-1_CR34",
+              "first-page": "120",
+              "volume": "12",
+              "author": "D DeFord",
+              "year": "2019",
+              "unstructured": "DeFord D, Duchin M (2019) Redistricting reform in Virginia: districting criteria in context. Virginia Policy Rev 12(2):120–146",
+              "journal-title": "Virginia Policy Rev"
+            },
+            {
+              "key": "893-1_CR35",
+              "doi-asserted-by": "publisher",
+              "first-page": "341",
+              "DOI": "10.1007/978-3-319-69161-9_17",
+              "volume-title": "Political geometry",
+              "author": "D DeFord",
+              "year": "2022",
+              "unstructured": "DeFord D, Duchin M (2022) Random walks and the universe of districting plans. In: Duchin M, Walch O (eds) Political geometry. Birkhauser, Cham, Switzerland, pp 341–381"
+            },
+            {
+              "issue": "1",
+              "key": "893-1_CR36",
+              "first-page": "1",
+              "volume": "3",
+              "author": "D DeFord",
+              "year": "2021",
+              "unstructured": "DeFord D, Duchin M, Solomon J (2021) Recombination: a family of Markov chains for redistricting. Harvard Data Sci Rev 3(1):1–67",
+              "journal-title": "Harvard Data Sci Rev"
+            },
+            {
+              "key": "893-1_CR37",
+              "unstructured": "Duchin M (2018) Outlier analysis for Pennsylvania congressional redistricting. LWV vs. Commonwealth of Pennsylvania Docket No. 159 MM 2017"
+            },
+            {
+              "key": "893-1_CR38",
+              "unstructured": "Duchin M (2021) Presentation of alternative congressional districting plans for alabama. Available in the Supplemental Joint Appendix for Milligan MV at https://www.supremecourt.gov/ DocketPDF/21/21-1086/221826/202204251508377 56_42140%20pdf%20Bowdre%20IV%20Suppleme ntal%20JA.pdf"
+            },
+            {
+              "issue": "4",
+              "key": "893-1_CR39",
+              "doi-asserted-by": "publisher",
+              "first-page": "388",
+              "DOI": "10.1089/elj.2018.0537",
+              "volume": "18",
+              "author": "M Duchin",
+              "year": "2019",
+              "unstructured": "Duchin M, Gladkova T, Henninger-Voss E, Klingensmith B, Newman H, Wheelen H (2019) Locating the representational baseline: republicans in Massachusetts. Elect Law J: Rules Polit Policy 18(4):388–401",
+              "journal-title": "Elect Law J: Rules Polit Policy"
+            },
+            {
+              "issue": "3–4",
+              "key": "893-1_CR40",
+              "doi-asserted-by": "publisher",
+              "first-page": "371",
+              "DOI": "10.1515/for-2022-2064",
+              "volume": "20",
+              "author": "M Duchin",
+              "year": "2022",
+              "unstructured": "Duchin M, Schoenbach G (2022) Redistricting for proportionality. The Forum 20(3–4):371–393",
+              "journal-title": "The Forum"
+            },
+            {
+              "key": "893-1_CR41",
+              "first-page": "744",
+              "volume": "130",
+              "author": "M Duchin",
+              "year": "2021",
+              "unstructured": "Duchin M, Spencer D (2021) Models, race, and the law. Yale Law J Forum 130:744–797",
+              "journal-title": "Yale Law J Forum"
+            },
+            {
+              "key": "893-1_CR42",
+              "doi-asserted-by": "crossref",
+              "unstructured": "Duchin M, Spencer D (2022) Blind justice: algorithms and neutrality in the case of redistricting. In: Proceedings of the 2022 Symposium on Computer Science and Law, pp 101–108",
+              "DOI": "10.1145/3511265.3550440"
+            },
+            {
+              "key": "893-1_CR43",
+              "unstructured": "Duchin M, Walch O (eds) Political geometry: rethinking redistricting in the US with math, law, and everything in between. Birkhauser, Cham, Switzerland"
+            },
+            {
+              "issue": "2",
+              "key": "893-1_CR44",
+              "doi-asserted-by": "publisher",
+              "first-page": "139",
+              "DOI": "10.1016/0166-218X(85)90008-3",
+              "volume": "10",
+              "author": "ME Dyer",
+              "year": "1985",
+              "unstructured": "Dyer ME, Frieze AM (1985) On the complexity of partitioning graphs into connected subgraphs. Discrete Appl Math 10(2):139–153",
+              "journal-title": "Discrete Appl Math"
+            },
+            {
+              "issue": "3",
+              "key": "893-1_CR45",
+              "doi-asserted-by": "publisher",
+              "first-page": "686",
+              "DOI": "10.1287/moor.1090.0392",
+              "volume": "34",
+              "author": "Y Faenza",
+              "year": "2009",
+              "unstructured": "Faenza Y, Kaibel V (2009) Extended formulations for packing and partitioning orbitopes. Math Oper Res 34(3):686–697",
+              "journal-title": "Math Oper Res"
+            },
+            {
+              "issue": "3",
+              "key": "893-1_CR46",
+              "doi-asserted-by": "publisher",
+              "first-page": "247",
+              "DOI": "10.1007/BF02592198",
+              "volume": "74",
+              "author": "CE Ferreira",
+              "year": "1996",
+              "unstructured": "Ferreira CE, Martin A, de Souza CC, Weismantel R, Wolsey LA (1996) Formulations and valid inequalities for the node capacitated graph partitioning problem. Math Program 74(3):247–266",
+              "journal-title": "Math Program"
+            },
+            {
+              "issue": "4",
+              "key": "893-1_CR47",
+              "doi-asserted-by": "publisher",
+              "first-page": "715",
+              "DOI": "10.1080/10618600.2020.1739532",
+              "volume": "29",
+              "author": "B Fifield",
+              "year": "2020",
+              "unstructured": "Fifield B, Higgins M, Imai K, Tarr A (2020) Automated redistricting simulation using Markov chain Monte Carlo. J Comput Graph Stat 29(4):715–728",
+              "journal-title": "J Comput Graph Stat"
+            },
+            {
+              "issue": "2",
+              "key": "893-1_CR48",
+              "doi-asserted-by": "publisher",
+              "first-page": "203",
+              "DOI": "10.1007/s12532-016-0111-0",
+              "volume": "9",
+              "author": "M Fischetti",
+              "year": "2017",
+              "unstructured": "Fischetti M, Leitner M, Ljubić I, Luipersbeck M, Monaci M, Resch M, Salvagnin D, Sinnl M (2017) Thinning out Steiner trees: a node-based model for uniform edge costs. Math Program Comput 9(2):203–229",
+              "journal-title": "Math Program Comput"
+            },
+            {
+              "issue": "6",
+              "key": "893-1_CR49",
+              "doi-asserted-by": "publisher",
+              "first-page": "521",
+              "DOI": "10.1016/0305-0548(88)90048-2",
+              "volume": "15",
+              "author": "B Fleischmann",
+              "year": "1988",
+              "unstructured": "Fleischmann B, Paraschis JN (1988) Solving a large scale districting problem: a case report. Comput Oper Res 15(6):521–533",
+              "journal-title": "Comput Oper Res"
+            },
+            {
+              "key": "893-1_CR50",
+              "unstructured": "Fravel J, Hildebrand R, Goedert N, Travis L, Pierson M (2023) Dual bounds for redistricting problems with non-convex objectives. arXiv preprint arXiv:2305.17298"
+            },
+            {
+              "key": "893-1_CR51",
+              "doi-asserted-by": "crossref",
+              "unstructured": "Garfinkel RS, Nemhauser GL (1970) Optimal political districting by implicit enumeration techniques. Manag Sci 16(8):B–495",
+              "DOI": "10.1287/mnsc.16.8.B495"
+            },
+            {
+              "key": "893-1_CR52",
+              "doi-asserted-by": "crossref",
+              "unstructured": "Garg N, Gurnee W, Rothschild D, Shmoys D (2022) Combatting gerrymandering with social choice: the design of multi-member districts",
+              "DOI": "10.1145/3490486.3538254"
+            },
+            {
+              "issue": "1",
+              "key": "893-1_CR53",
+              "doi-asserted-by": "publisher",
+              "first-page": "11",
+              "DOI": "10.1016/S0038-0121(96)00016-X",
+              "volume": "31",
+              "author": "JA George",
+              "year": "1997",
+              "unstructured": "George JA, Lamar BW, Wallace CA (1997) Political district determination using large-scale network optimization. Socio-Econ Plan Sci 31(1):11–28",
+              "journal-title": "Socio-Econ Plan Sci"
+            },
+            {
+              "key": "893-1_CR54",
+              "unstructured": "Gladkova T, Goldbloom-Helzner A, Khan M, Kolstoe B, Noory J, Schutzman Z, Stucky E, Weighill T (2019) Discussion of locality splitting measures. https://github.com/vrdi/splitting/blob/master/SplittingReport.pdf"
+            },
+            {
+              "key": "893-1_CR55",
+              "unstructured": "Goderbauer S, Winandy J (2018) Political districting problem: literature review and discussion with regard to federal elections in Germany"
+            },
+            {
+              "key": "893-1_CR56",
+              "doi-asserted-by": "crossref",
+              "unstructured": "Goedert N, Hildebrand R, Pierson M, Travis L, Fravel J (2023) Black representation and district compactness in Southern congressional districts. Available at SSRN 4449256",
+              "DOI": "10.2139/ssrn.4449256"
+            },
+            {
+              "key": "893-1_CR57",
+              "doi-asserted-by": "publisher",
+              "first-page": "131",
+              "DOI": "10.1007/978-3-319-69161-9_6",
+              "volume-title": "Political geometry: rethinking redistricting in the US with math, law, and everything in between",
+              "author": "A Gordon",
+              "year": "2022",
+              "unstructured": "Gordon A, Spencer DM (2022) Explainer: a brief introduction to the Voting Rights Act. In: Political geometry: rethinking redistricting in the US with math, law, and everything in between. Birkhauser, Cham, Switzerland, pp 131–136"
+            },
+            {
+              "key": "893-1_CR58",
+              "first-page": "77",
+              "volume": "33",
+              "author": "B Grofman",
+              "year": "1985",
+              "unstructured": "Grofman B (1985) Criteria for districting: a social science perspective. UCLA L Rev 33:77",
+              "journal-title": "UCLA L Rev"
+            },
+            {
+              "key": "893-1_CR59",
+              "doi-asserted-by": "crossref",
+              "unstructured": "Grofman B, Cervas J (2020) The terminology of districting. Available at SSRN 3540444",
+              "DOI": "10.2139/ssrn.3540444"
+            },
+            {
+              "key": "893-1_CR60",
+              "doi-asserted-by": "crossref",
+              "unstructured": "Gurnee W, Shmoys DB (2021) Fairmandering: a column generation heuristic for fairness-optimized political districting. In: SIAM Conference on Applied and Computational Discrete Algorithms (ACDA21). SIAM, pp 88–99",
+              "DOI": "10.1137/1.9781611976830.9"
+            },
+            {
+              "key": "893-1_CR61",
+              "volume-title": "The realist’s guide to redistricting: avoiding the legal pitfalls",
+              "author": "JG Hebert",
+              "year": "2010",
+              "unstructured": "Hebert JG, Vandenberg ME, Smith P (2010) The realist’s guide to redistricting: avoiding the legal pitfalls. American Bar Association, Chicago, IL"
+            },
+            {
+              "key": "893-1_CR62",
+              "doi-asserted-by": "publisher",
+              "first-page": "1",
+              "DOI": "10.1145/3398634",
+              "volume": "25",
+              "author": "A Henzinger",
+              "year": "2020",
+              "unstructured": "Henzinger A, Noe A, Schulz C (2020) ILP-based local search for graph partitioning. J Exp Algorithm (JEA) 25:1–26",
+              "journal-title": "J Exp Algorithm (JEA)"
+            },
+            {
+              "issue": "1",
+              "key": "893-1_CR63",
+              "doi-asserted-by": "publisher",
+              "first-page": "30",
+              "DOI": "10.1080/2330443X.2020.1796400",
+              "volume": "7",
+              "author": "G Herschlag",
+              "year": "2020",
+              "unstructured": "Herschlag G, Kang HS, Luo J, Graves CV, Bangia S, Ravier R, Mattingly JC (2020) Quantifying gerrymandering in North Carolina. Stat Public Policy 7(1):30–38",
+              "journal-title": "Stat Public Policy"
+            },
+            {
+              "issue": "6",
+              "key": "893-1_CR64",
+              "doi-asserted-by": "publisher",
+              "first-page": "998",
+              "DOI": "10.1287/opre.13.6.998",
+              "volume": "13",
+              "author": "SW Hess",
+              "year": "1965",
+              "unstructured": "Hess SW, Weaver JB, Siegfeldt HJ, Whelan JN, Zitlau PA (1965) Nonpartisan political redistricting by computer. Oper Res 13(6):998–1006",
+              "journal-title": "Oper Res"
+            },
+            {
+              "key": "893-1_CR65",
+              "unstructured": "Hettle C, Zhu S, Gupta S, Xie Y (2021) Balanced districting on grid graphs with provable compactness and contiguity. arXiv preprint arXiv:2102.05028"
+            },
+            {
+              "issue": "12",
+              "key": "893-1_CR66",
+              "doi-asserted-by": "publisher",
+              "first-page": "1147",
+              "DOI": "10.1016/S0305-0548(96)00029-9",
+              "volume": "23",
+              "author": "M Hojati",
+              "year": "1996",
+              "unstructured": "Hojati M (1996) Optimal political districting. Comput Oper Res 23(12):1147–1161",
+              "journal-title": "Comput Oper Res"
+            },
+            {
+              "issue": "1",
+              "key": "893-1_CR67",
+              "doi-asserted-by": "publisher",
+              "first-page": "75",
+              "DOI": "10.1007/s12532-020-00186-3",
+              "volume": "13",
+              "author": "C Hojny",
+              "year": "2021",
+              "unstructured": "Hojny C, Joormann I, Lüthen H, Schmidt M (2021) Mixed-integer programming techniques for the connected max-k-cut problem. Math Program Comput 13(1):75–132",
+              "journal-title": "Math Program Comput"
+            },
+            {
+              "issue": "1–3",
+              "key": "893-1_CR68",
+              "doi-asserted-by": "publisher",
+              "first-page": "133",
+              "DOI": "10.1007/BF01585164",
+              "volume": "62",
+              "author": "EL Johnson",
+              "year": "1993",
+              "unstructured": "Johnson EL, Mehrotra A, Nemhauser GL (1993) Min-cut clustering. Math Program 62(1–3): 133–151",
+              "journal-title": "Math Program"
+            },
+            {
+              "key": "893-1_CR69",
+              "first-page": "705",
+              "volume-title": "Laporte G, Nickel S, Saldanha da Gama F (eds) Location science",
+              "author": "J Kalcsics",
+              "year": "2019",
+              "unstructured": "Kalcsics J, Ríos-Mercado RZ (2019) Districting problems. In: Laporte G, Nickel S, Saldanha da Gama F (eds) Location science. Springer, Cham, Switzerland, pp 705–743"
+            },
+            {
+              "issue": "25",
+              "key": "893-1_CR70",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1073/pnas.2217322120",
+              "volume": "120",
+              "author": "CT Kenny",
+              "year": "2023",
+              "unstructured": "Kenny CT, McCartan C, Simko T, Kuriwaki S, Imai K (2023) Widespread partisan gerrymandering mostly cancels nationally, but reduces electoral competition. Proc Natl Acad Sci 120(25):e2217322120",
+              "journal-title": "Proc Natl Acad Sci"
+            },
+            {
+              "issue": "1–2",
+              "key": "893-1_CR71",
+              "doi-asserted-by": "publisher",
+              "first-page": "425",
+              "DOI": "10.1007/s10107-014-0762-4",
+              "volume": "149",
+              "author": "DM King",
+              "year": "2015",
+              "unstructured": "King DM, Jacobson SH, Sewell EC (2015) Efficient geo-graph contiguity and hole algorithms for geographic zoning and dynamic plane graph partitioning. Math Program 149(1–2):425–457",
+              "journal-title": "Math Program"
+            },
+            {
+              "issue": "1",
+              "key": "893-1_CR72",
+              "doi-asserted-by": "publisher",
+              "first-page": "25",
+              "DOI": "10.1007/s10589-017-9936-3",
+              "volume": "69",
+              "author": "DM King",
+              "year": "2018",
+              "unstructured": "King DM, Jacobson SH, Sewell EC (2018) The geo-graph in practice: creating United States congressional districts from census blocks. Comput Optim Appl 69(1):25–49",
+              "journal-title": "Comput Optim Appl"
+            },
+            {
+              "issue": "5",
+              "key": "893-1_CR73",
+              "doi-asserted-by": "publisher",
+              "first-page": "1213",
+              "DOI": "10.1287/opre.1120.1083",
+              "volume": "60",
+              "author": "DM King",
+              "year": "2012",
+              "unstructured": "King DM, Jacobson SH, Sewell EC, Cho WKT (2012) Geo-graphs: an efficient model for enforcing contiguity and hole constraints in planar graph partitioning. Oper Res 60(5):1213–1228",
+              "journal-title": "Oper Res"
+            },
+            {
+              "key": "893-1_CR74",
+              "doi-asserted-by": "crossref",
+              "unstructured": "Lawless C, Günlük O (2023) Fair minimum representation clustering. arXiv preprint arXiv:2302.03151",
+              "DOI": "10.1007/978-3-031-60599-4_2"
+            },
+            {
+              "key": "893-1_CR75",
+              "volume-title": "A citizen’s guide to redistricting",
+              "author": "J Levitt",
+              "year": "2010",
+              "unstructured": "Levitt J (2010) A citizen’s guide to redistricting. Brennan Center for Justice at New York University School of Law"
+            },
+            {
+              "key": "893-1_CR76",
+              "unstructured": "McCartan C (2023) Finding Pareto efficient redistricting plans with short bursts. arXiv preprint arXiv:2304.00427"
+            },
+            {
+              "key": "893-1_CR77",
+              "volume-title": "Sequential Monte Carlo for sampling balanced and compact redistricting plans",
+              "author": "C McCartan",
+              "year": "2023",
+              "unstructured": "McCartan C, Imai K (2023) Sequential Monte Carlo for sampling balanced and compact redistricting plans. Ann Appl Stat. To appear"
+            },
+            {
+              "issue": "1",
+              "key": "893-1_CR78",
+              "doi-asserted-by": "publisher",
+              "first-page": "689",
+              "DOI": "10.1038/s41597-022-01808-2",
+              "volume": "9",
+              "author": "C McCartan",
+              "year": "2022",
+              "unstructured": "McCartan C, Kenny CT, Simko T, Garcia III G, Wang K, Wu M, Kuriwaki S, Imai K (2022) Simulated redistricting plans for the analysis and evaluation of redistricting in the United States. Sci Data 9(1):689",
+              "journal-title": "Sci Data"
+            },
+            {
+              "issue": "8",
+              "key": "893-1_CR79",
+              "doi-asserted-by": "publisher",
+              "first-page": "1100",
+              "DOI": "10.1287/mnsc.44.8.1100",
+              "volume": "44",
+              "author": "A Mehrotra",
+              "year": "1998",
+              "unstructured": "Mehrotra A, Johnson EL, Nemhauser GL (1998) An optimization based heuristic for political districting. Manag Sci 44(8):1100–1114",
+              "journal-title": "Manag Sci"
+            },
+            {
+              "key": "893-1_CR80",
+              "unstructured": "MGGG (2023) GerryChain 0.2.22. https://gerrychain.readthedocs.io/en/latest/"
+            },
+            {
+              "key": "893-1_CR81",
+              "unstructured": "Najt E, DeFord D, Solomon J (2019) Complexity and geometry of sampling connected graph partitions. arXiv preprint arXiv:1908.08881"
+            },
+            {
+              "key": "893-1_CR82",
+              "unstructured": "NCSL (2021) Redistricting criteria. http://www.ncsl.org/research/redistricting/redistricting-criteria.aspx. Accessed 17 Feb 2023"
+            },
+            {
+              "issue": "4",
+              "key": "893-1_CR83",
+              "doi-asserted-by": "publisher",
+              "first-page": "1155",
+              "DOI": "10.2307/2131686",
+              "volume": "52",
+              "author": "RG Niemi",
+              "year": "1990",
+              "unstructured": "Niemi RG, Grofman B, Carlucci C, Hofeller T (1990) Measuring compactness and the role of a compactness standard in a test for partisan and racial gerrymandering. J Polit 52(4):1155–1181",
+              "journal-title": "J Polit"
+            },
+            {
+              "issue": "15",
+              "key": "893-1_CR84",
+              "first-page": "89",
+              "volume": "2017",
+              "author": "J Oehrlein",
+              "year": "2017",
+              "unstructured": "Oehrlein J, Haunert J-H (2017) A cutting-plane method for contiguity-constrained spatial aggregation. J Spat Inf Sci 2017(15):89–120",
+              "journal-title": "J Spat Inf Sci"
+            },
+            {
+              "key": "893-1_CR85",
+              "unstructured": "Önal H, Patrick KT (2016) A mathematical programming approach to political redistricting with compactness and community integrity considerations. Technical report, University of Illinois at Urbana-Champaign."
+            },
+            {
+              "key": "893-1_CR86",
+              "unstructured": "Pashkovich K (2012) Extended formulations for combinatorial polytopes. Ph.D. thesis, Otto-von-Guericke-Universität Magdeburg"
+            },
+            {
+              "key": "893-1_CR87",
+              "first-page": "301",
+              "volume": "9",
+              "author": "DD Polsby",
+              "year": "1991",
+              "unstructured": "Polsby DD, Popper RD (1991) The third criterion: compactness as a procedural safeguard against partisan gerrymandering. Yale Law Policy Rev 9:301",
+              "journal-title": "Yale Law Policy Rev"
+            },
+            {
+              "key": "893-1_CR88",
+              "doi-asserted-by": "crossref",
+              "unstructured": "Procaccia AD, Tucker-Foltz J (2022) Compact redistricting plans have many spanning trees. In: Proceedings of the 2022 Annual ACM-SIAM Symposium on Discrete Algorithms. SIAM, pp 3754–3771",
+              "DOI": "10.1137/1.9781611977073.148"
+            },
+            {
+              "issue": "3",
+              "key": "893-1_CR89",
+              "doi-asserted-by": "publisher",
+              "first-page": "314",
+              "DOI": "10.1002/net.22101",
+              "volume": "80",
+              "author": "D Rehfeldt",
+              "year": "2022",
+              "unstructured": "Rehfeldt D, Franz H, Koch T (2022) Optimal connected subgraphs: integer programming formulations and polyhedra. Networks 80(3):314–332",
+              "journal-title": "Networks"
+            },
+            {
+              "issue": "1",
+              "key": "893-1_CR90",
+              "doi-asserted-by": "publisher",
+              "first-page": "271",
+              "DOI": "10.1007/s10479-012-1267-2",
+              "volume": "204",
+              "author": "F Ricca",
+              "year": "2013",
+              "unstructured": "Ricca F, Scozzari A, Simeone B (2013) Political districting: from classical models to recent approaches. Ann Oper Res 204(1):271–299",
+              "journal-title": "Ann Oper Res"
+            },
+            {
+              "key": "893-1_CR91",
+              "doi-asserted-by": "publisher",
+              "unstructured": "Rule P, Sun M, Suwal B (2021) MGGG/GerryChainJulia. https://doi.org/10.5281/zenodo.4649464",
+              "DOI": "10.5281/zenodo.4649464"
+            },
+            {
+              "issue": "8",
+              "key": "893-1_CR92",
+              "doi-asserted-by": "publisher",
+              "first-page": "112884",
+              "DOI": "10.1016/j.disc.2022.112884",
+              "volume": "345",
+              "author": "S Schwartz",
+              "year": "2022",
+              "unstructured": "Schwartz S (2022) An overview of graph covering and partitioning. Discret Math 345(8):112884",
+              "journal-title": "Discret Math"
+            },
+            {
+              "key": "893-1_CR93",
+              "volume-title": "Political districting to minimize county splits",
+              "author": "M Shahmizad",
+              "year": "2023",
+              "unstructured": "Shahmizad M, Buchanan A (2023) Political districting to minimize county splits. Available on Optimization-Online"
+            },
+            {
+              "issue": "1",
+              "key": "893-1_CR94",
+              "doi-asserted-by": "publisher",
+              "first-page": "2",
+              "DOI": "10.1111/j.1538-4632.2005.00605.x",
+              "volume": "37",
+              "author": "T Shirabe",
+              "year": "2005",
+              "unstructured": "Shirabe T (2005) A model of contiguity for spatial unit allocation. Geogr Anal 37(1):2–16",
+              "journal-title": "Geogr Anal"
+            },
+            {
+              "issue": "6",
+              "key": "893-1_CR95",
+              "doi-asserted-by": "publisher",
+              "first-page": "1053",
+              "DOI": "10.1068/b34104",
+              "volume": "36",
+              "author": "T Shirabe",
+              "year": "2009",
+              "unstructured": "Shirabe T (2009) Districting modeling with exact contiguity constraints. Environ Plann B: Plann Des 36(6):1053–1066",
+              "journal-title": "Environ Plann B: Plann Des"
+            },
+            {
+              "key": "893-1_CR96",
+              "unstructured": "Stephanopoulos NO, McGhee EM (2015) Partisan gerrymandering and the efficiency gap. The University of Chicago Law Review, pp 831–900"
+            },
+            {
+              "key": "893-1_CR97",
+              "unstructured": "Sullivan BW (2022) An introduction to the math of voting methods. 619 Wreath"
+            },
+            {
+              "key": "893-1_CR98",
+              "unstructured": "Swamy R, Dobbs KW, King DM, Ludden IG, Jacobson SH (2021) Draft maps for Arizona’s 2021 congressional districts"
+            },
+            {
+              "issue": "2",
+              "key": "893-1_CR99",
+              "doi-asserted-by": "publisher",
+              "first-page": "536",
+              "DOI": "10.1287/opre.2022.2311",
+              "volume": "71",
+              "author": "R Swamy",
+              "year": "2023",
+              "unstructured": "Swamy R, King DM, Jacobson SH (2023) Multiobjective optimization for politically fair districting: a scalable multilevel approach. Oper Res 71(2):536–562",
+              "journal-title": "Oper Res"
+            },
+            {
+              "issue": "1",
+              "key": "893-1_CR100",
+              "doi-asserted-by": "publisher",
+              "first-page": "135",
+              "DOI": "10.1002/net.21849",
+              "volume": "73",
+              "author": "H Validi",
+              "year": "2019",
+              "unstructured": "Validi H, Buchanan A (2019) A note on “A linear-size zero-one programming model for the minimum spanning tree problem in planar graphs”. Networks 73(1):135–142",
+              "journal-title": "Networks"
+            },
+            {
+              "key": "893-1_CR101",
+              "doi-asserted-by": "publisher",
+              "first-page": "623",
+              "DOI": "10.1007/s12532-022-00221-5",
+              "volume": "14",
+              "author": "H Validi",
+              "year": "2022",
+              "unstructured": "Validi H, Buchanan A (2022) Political districting to minimize cut edges. Math Program Comput 14:623–672",
+              "journal-title": "Math Program Comput"
+            },
+            {
+              "issue": "2",
+              "key": "893-1_CR102",
+              "doi-asserted-by": "publisher",
+              "first-page": "867",
+              "DOI": "10.1287/opre.2021.2141",
+              "volume": "70",
+              "author": "H Validi",
+              "year": "2022",
+              "unstructured": "Validi H, Buchanan A, Lykhovyd E (2022) Imposing contiguity constraints in political districting models. Oper Res 70(2):867–892",
+              "journal-title": "Oper Res"
+            },
+            {
+              "issue": "1",
+              "key": "893-1_CR103",
+              "doi-asserted-by": "publisher",
+              "first-page": "105",
+              "DOI": "10.2307/2145973",
+              "volume": "76",
+              "author": "W Vickrey",
+              "year": "1961",
+              "unstructured": "Vickrey W (1961) On the prevention of gerrymandering. Polit Sci Q 76(1):105–110",
+              "journal-title": "Polit Sci Q"
+            },
+            {
+              "key": "893-1_CR104",
+              "volume-title": "Split decisions: guidance for measuring locality preservation in district maps",
+              "author": "J Wachspress",
+              "year": "2021",
+              "unstructured": "Wachspress J, Adler WT (2021) Split decisions: guidance for measuring locality preservation in district maps. Center for Democracy & Technology"
+            },
+            {
+              "key": "893-1_CR105",
+              "volume-title": "Encyclopedia of optimization",
+              "author": "JL Walteros",
+              "year": "2022",
+              "unstructured": "Walteros JL (2022) Graph partitioning. In: Pardalos PM, Prokopyev OA (eds) Encyclopedia of optimization, 3rd edn. Springer, Cham, Switzerland. To appear",
+              "edition": "3"
+            },
+            {
+              "issue": "1–2",
+              "key": "893-1_CR106",
+              "doi-asserted-by": "publisher",
+              "first-page": "241",
+              "DOI": "10.1007/s10107-017-1117-8",
+              "volume": "166",
+              "author": "Y Wang",
+              "year": "2017",
+              "unstructured": "Wang Y, Buchanan A, Butenko S (2017) On imposing connectivity constraints in integer programs. Math Program 166(1–2):241–271",
+              "journal-title": "Math Program"
+            },
+            {
+              "key": "893-1_CR107",
+              "doi-asserted-by": "publisher",
+              "first-page": "288",
+              "DOI": "10.2307/794769",
+              "volume": "73",
+              "author": "JB Weaver",
+              "year": "1963",
+              "unstructured": "Weaver JB, Hess SW (1963) A procedure for nonpartisan districting: development of computer techniques. Yale Law J 73:288",
+              "journal-title": "Yale Law J"
+            },
+            {
+              "key": "893-1_CR108",
+              "first-page": "415",
+              "volume-title": "Duchin M",
+              "author": "T Weighill",
+              "year": "2022",
+              "unstructured": "Weighill T, Duchin M (2022) Explainer: ranked choice voting. In: Duchin M, Walch O (eds) Political geometry. Birkhauser, pp 415–421"
+            },
+            {
+              "issue": "1",
+              "key": "893-1_CR109",
+              "doi-asserted-by": "publisher",
+              "first-page": "53",
+              "DOI": "10.1002/net.10010",
+              "volume": "39",
+              "author": "JC Williams",
+              "year": "2002",
+              "unstructured": "Williams JC (2002) A linear-size zero-one programming model for the minimum spanning tree problem in planar graphs. Networks 39(1):53–60",
+              "journal-title": "Networks"
+            },
+            {
+              "issue": "4",
+              "key": "893-1_CR110",
+              "doi-asserted-by": "publisher",
+              "first-page": "330",
+              "DOI": "10.1111/j.1538-4632.2002.tb01093.x",
+              "volume": "34",
+              "author": "JC Williams",
+              "year": "2002",
+              "unstructured": "Williams JC (2002) A zero-one programming model for contiguous land acquisition. Geogr Anal 34(4):330–349",
+              "journal-title": "Geogr Anal"
+            },
+            {
+              "issue": "1",
+              "key": "893-1_CR111",
+              "doi-asserted-by": "publisher",
+              "first-page": "13",
+              "DOI": "10.1111/j.1435-5597.1995.tb00626.x",
+              "volume": "74",
+              "author": "JC Williams Jr",
+              "year": "1995",
+              "unstructured": "Williams JC Jr (1995) Political redistricting: a review. Pap Reg Sci 74(1):13–40",
+              "journal-title": "Pap Reg Sci"
+            },
+            {
+              "issue": "1",
+              "key": "893-1_CR112",
+              "doi-asserted-by": "publisher",
+              "first-page": "105",
+              "DOI": "10.2307/439947",
+              "volume": "13",
+              "author": "HP Young",
+              "year": "1988",
+              "unstructured": "Young HP (1988) Measuring the compactness of legislative districts. Legis Stud Q 13(1):105–115",
+              "journal-title": "Legis Stud Q"
+            },
+            {
+              "key": "893-1_CR113",
+              "volume-title": "Linear-size formulations for connected planar graph partitioning and political districting",
+              "author": "J Zhang",
+              "year": "2022",
+              "unstructured": "Zhang J, Validi H, Buchanan A, Hicks IV (2022) Linear-size formulations for connected planar graph partitioning and political districting. Available on Optimization-Online"
+            },
+            {
+              "key": "893-1_CR114",
+              "doi-asserted-by": "crossref",
+              "unstructured": "Zhao Z, Hettle C, Gupta S, Mattingly JC, Randall D, Herschlag GJ (2022) Mathematically quantifying non-responsiveness of the 2021 Georgia congressional districting plan. In: Equity and Access in Algorithms, Mechanisms, and Optimization, EAAMO’22, New York, NY, USA. ACM",
+              "DOI": "10.1145/3551624.3555300"
+            },
+            {
+              "issue": "11",
+              "key": "893-1_CR115",
+              "doi-asserted-by": "publisher",
+              "first-page": "1237",
+              "DOI": "10.1287/mnsc.29.11.1237",
+              "volume": "29",
+              "author": "AA Zoltners",
+              "year": "1983",
+              "unstructured": "Zoltners AA, Sinha P (1983) Sales territory alignment: a review and model. Manag Sci 29(11):1237–1256",
+              "journal-title": "Manag Sci"
+            }
+          ],
+          "container-title": [
+            "Encyclopedia of Optimization"
+          ],
+          "language": "en",
+          "link": [
+            {
+              "URL": "https://link.springer.com/content/pdf/10.1007/978-3-030-54621-2_893-1",
+              "content-type": "unspecified",
+              "content-version": "vor",
+              "intended-application": "similarity-checking"
+            }
+          ],
+          "deposited": {
+            "date-parts": [
+              [
+                2024,
+                9,
+                16
+              ]
+            ],
+            "date-time": "2024-09-16T18:26:02Z",
+            "timestamp": 1726511162000
+          },
+          "score": 31.358963,
+          "resource": {
+            "primary": {
+              "URL": "https://link.springer.com/10.1007/978-3-030-54621-2_893-1"
+            }
+          },
+          "issued": {
+            "date-parts": [
+              [
+                2023
+              ]
+            ]
+          },
+          "ISBN": [
+            "9783030546212",
+            "9783030546212"
+          ],
+          "references-count": 115,
+          "URL": "https://doi.org/10.1007/978-3-030-54621-2_893-1",
+          "published": {
+            "date-parts": [
+              [
+                2023
+              ]
+            ]
+          },
+          "assertion": [
+            {
+              "value": "11 July 2023",
+              "order": 1,
+              "name": "first_online",
+              "label": "First Online",
+              "group": {
+                "name": "ChapterHistory",
+                "label": "Chapter History"
+              }
+            }
+          ]
+        },
+        {
+          "indexed": {
+            "date-parts": [
+              [
+                2026,
+                8,
+                21
+              ]
+            ],
+            "date-time": "2026-08-21T20:30:44Z",
+            "timestamp": 1787344244322,
+            "version": "build-2736575974"
+          },
+          "reference-count": 0,
+          "publisher": "Society for Industrial and Applied Mathematics",
+          "isbn-type": [
+            {
+              "value": "9780898714227",
+              "type": "print"
+            },
+            {
+              "value": "9780898719819",
+              "type": "electronic"
+            }
+          ],
+          "content-domain": {
+            "domain": [],
+            "crossmark-restriction": false
+          },
+          "published-print": {
+            "date-parts": [
+              [
+                1999,
+                1,
+                1
+              ]
+            ]
+          },
+          "DOI": "10.1137/1.9780898719819.ch10",
+          "type": "book-chapter",
+          "created": {
+            "date-parts": [
+              [
+                2011,
+                2,
+                1
+              ]
+            ],
+            "date-time": "2011-02-01T14:24:14Z",
+            "timestamp": 1296570254000
+          },
+          "page": "147-153",
+          "source": "Crossref",
+          "is-referenced-by-count": 0,
+          "title": [
+            "10. Criteria for Political Districting"
+          ],
+          "prefix": "10.1137",
+          "member": "351",
+          "published-online": {
+            "date-parts": [
+              [
+                2012,
+                3,
+                23
+              ]
+            ]
+          },
+          "container-title": [
+            "Evaluation and Optimization of Electoral Systems"
+          ],
+          "language": "en",
+          "link": [
+            {
+              "URL": "https://epubs.siam.org/doi/pdf/10.1137/1.9780898719819.ch10",
+              "content-type": "unspecified",
+              "content-version": "vor",
+              "intended-application": "similarity-checking"
+            }
+          ],
+          "deposited": {
+            "date-parts": [
+              [
+                2026,
+                8,
+                21
+              ]
+            ],
+            "date-time": "2026-08-21T20:19:51Z",
+            "timestamp": 1787343591000
+          },
+          "score": 29.870825,
+          "resource": {
+            "primary": {
+              "URL": "https://epubs.siam.org/doi/10.1137/1.9780898719819.ch10"
+            }
+          },
+          "issued": {
+            "date-parts": [
+              [
+                1999,
+                1,
+                1
+              ]
+            ]
+          },
+          "ISBN": [
+            "9780898714227",
+            "9780898719819"
+          ],
+          "references-count": 0,
+          "alternative-id": [
+            "10.1137/1.9780898719819.ch10",
+            "10.1137/1.9780898719819"
+          ],
+          "URL": "https://doi.org/10.1137/1.9780898719819.ch10",
+          "published": {
+            "date-parts": [
+              [
+                1999,
+                1,
+                1
+              ]
+            ]
+          }
+        },
+        {
+          "indexed": {
+            "date-parts": [
+              [
+                2026,
+                8,
+                21
+              ]
+            ],
+            "date-time": "2026-08-21T20:30:45Z",
+            "timestamp": 1787344245208,
+            "version": "build-2736575974"
+          },
+          "reference-count": 0,
+          "publisher": "Society for Industrial and Applied Mathematics",
+          "isbn-type": [
+            {
+              "value": "9780898714227",
+              "type": "print"
+            },
+            {
+              "value": "9780898719819",
+              "type": "electronic"
+            }
+          ],
+          "content-domain": {
+            "domain": [],
+            "crossmark-restriction": false
+          },
+          "published-print": {
+            "date-parts": [
+              [
+                1999,
+                1,
+                1
+              ]
+            ]
+          },
+          "DOI": "10.1137/1.9780898719819.ch11",
+          "type": "book-chapter",
+          "created": {
+            "date-parts": [
+              [
+                2011,
+                2,
+                1
+              ]
+            ],
+            "date-time": "2011-02-01T14:24:14Z",
+            "timestamp": 1296570254000
+          },
+          "page": "155-164",
+          "source": "Crossref",
+          "is-referenced-by-count": 0,
+          "title": [
+            "11. Indicators for Political Districting"
+          ],
+          "prefix": "10.1137",
+          "member": "351",
+          "published-online": {
+            "date-parts": [
+              [
+                2012,
+                3,
+                23
+              ]
+            ]
+          },
+          "container-title": [
+            "Evaluation and Optimization of Electoral Systems"
+          ],
+          "language": "en",
+          "link": [
+            {
+              "URL": "https://epubs.siam.org/doi/pdf/10.1137/1.9780898719819.ch11",
+              "content-type": "unspecified",
+              "content-version": "vor",
+              "intended-application": "similarity-checking"
+            }
+          ],
+          "deposited": {
+            "date-parts": [
+              [
+                2026,
+                8,
+                21
+              ]
+            ],
+            "date-time": "2026-08-21T20:19:51Z",
+            "timestamp": 1787343591000
+          },
+          "score": 29.288347,
+          "resource": {
+            "primary": {
+              "URL": "https://epubs.siam.org/doi/10.1137/1.9780898719819.ch11"
+            }
+          },
+          "issued": {
+            "date-parts": [
+              [
+                1999,
+                1,
+                1
+              ]
+            ]
+          },
+          "ISBN": [
+            "9780898714227",
+            "9780898719819"
+          ],
+          "references-count": 0,
+          "alternative-id": [
+            "10.1137/1.9780898719819.ch11",
+            "10.1137/1.9780898719819"
+          ],
+          "URL": "https://doi.org/10.1137/1.9780898719819.ch11",
+          "published": {
+            "date-parts": [
+              [
+                1999,
+                1,
+                1
+              ]
+            ]
+          }
+        }
+      ],
+      "items-per-page": 3,
+      "query": {
+        "start-index": 0,
+        "search-terms": null
+      }
+    }
+  }
+}

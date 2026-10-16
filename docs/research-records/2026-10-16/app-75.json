@@ -1,0 +1,745 @@
+{
+  "retrieved": "2026-10-16",
+  "url": "https://api.crossref.org/works?query.bibliographic=genetic+programming+financial+trading+rules+review&rows=3&filter=until-pub-date%3A2026-10-16",
+  "response": {
+    "status": "ok",
+    "message-type": "work-list",
+    "message-version": "1.0.0",
+    "message": {
+      "facets": {},
+      "total-results": 9030432,
+      "items": [
+        {
+          "indexed": {
+            "date-parts": [
+              [
+                2024,
+                6,
+                6
+              ]
+            ],
+            "date-time": "2024-06-06T15:25:15Z",
+            "timestamp": 1717687515176
+          },
+          "reference-count": 20,
+          "publisher": "EJournal Publishing",
+          "issue": "2",
+          "content-domain": {
+            "domain": [],
+            "crossmark-restriction": false
+          },
+          "short-container-title": [
+            "IJTEF"
+          ],
+          "DOI": "10.7763/ijtef.2015.v6.453",
+          "type": "journal-article",
+          "created": {
+            "date-parts": [
+              [
+                2015,
+                8,
+                31
+              ]
+            ],
+            "date-time": "2015-08-31T05:38:10Z",
+            "timestamp": 1440999490000
+          },
+          "page": "112-116",
+          "source": "Crossref",
+          "is-referenced-by-count": 2,
+          "title": [
+            "Generating Intraday Trading Rules on Index Future Markets Using Genetic Programming"
+          ],
+          "prefix": "10.18178",
+          "volume": "6",
+          "author": [
+            {
+              "given": "Hongguang",
+              "family": "Liu",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Ji",
+              "family": "Ping",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            }
+          ],
+          "member": "7629",
+          "published-online": {
+            "date-parts": [
+              [
+                2015,
+                4
+              ]
+            ]
+          },
+          "reference": [
+            {
+              "key": "ref1",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1016/S0927-5398(97)00022-4"
+            },
+            {
+              "key": "ref2",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1016/S0165-1765(00)00270-6"
+            },
+            {
+              "key": "ref3",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1016/j.neucom.2008.11.030"
+            },
+            {
+              "key": "ref4",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.2307/2325486"
+            },
+            {
+              "key": "ref5",
+              "volume-title": "The CRISMA trading system",
+              "author": "Pruitt",
+              "year": "1988",
+              "unstructured": "[6] S. W. Pruitt and R. E. White, \"The CRISMA trading system: Who says technical analysis can't beat the market?\" pp. 55-58, 1988."
+            },
+            {
+              "key": "ref6",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1016/0261-5606(92)90048-3"
+            },
+            {
+              "key": "ref7",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1145/321127.321128"
+            },
+            {
+              "key": "ref8",
+              "volume-title": "Genetic Algorithms and Investment Strategies",
+              "author": "Bauer",
+              "year": "1994",
+              "unstructured": "[9] R. J. Bauer, Genetic Algorithms and Investment Strategies, John Wily & Sons. Inc, New York, 1994."
+            },
+            {
+              "key": "ref9",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1287/ijoc.8.2.165"
+            },
+            {
+              "key": "ref10",
+              "volume-title": "Genetic Programming",
+              "author": "Koza",
+              "year": "1992",
+              "unstructured": "[11] J. R. Koza, Genetic Programming: On the Programming of Computers by Means of Natural Selection, Cambridge, MA: MIT Press, 1992."
+            },
+            {
+              "key": "ref11",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1016/S0304-405X(98)00052-X"
+            },
+            {
+              "key": "ref12",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1016/S0165-1889(97)82991-0"
+            },
+            {
+              "key": "ref13",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.2307/2331231"
+            },
+            {
+              "key": "ref14",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1016/S0261-5606(99)85005-0"
+            },
+            {
+              "key": "ref15",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1016/S0305-0548(03)00063-7"
+            },
+            {
+              "key": "ref16",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1109/icsssm.2008.4598507"
+            },
+            {
+              "key": "ref17",
+              "article-title": "The profitability of technical trading rules in Tehran stock exchange: An application of genetic programming",
+              "volume-title": "Proc International Symposium on Innovations in Intelligent Systems and Applications",
+              "author": "Esfahanipour",
+              "year": "2009",
+              "unstructured": "[19] Esfahanipour et al., \"The profitability of technical trading rules in Tehran stock exchange: An application of genetic programming,\" in Proc. International Symposium on Innovations in Intelligent Systems and Applications, 2009."
+            },
+            {
+              "key": "ref18",
+              "article-title": "Parallel genetic algorithms for stock market trading rules",
+              "volume-title": "Proc International Conference on Computational Science",
+              "author": "Strabburg",
+              "year": "2012",
+              "unstructured": "[20] J. Strabburg, G.-M. Christian, and V. Alexandrov, \"Parallel genetic algorithms for stock market trading rules,\" in Proc. International Conference on Computational Science, 2012."
+            },
+            {
+              "key": "ref19",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1016/S0261-5606(99)85005-0"
+            },
+            {
+              "key": "ref20",
+              "volume-title": "The use of dynamically optimized high frequency moving average strategies for intraday trading",
+              "author": "Kablan",
+              "year": "2012",
+              "unstructured": "[22] A. Kablan and J. Falzon, \"The use of dynamically optimized high frequency moving average strategies for intraday trading,\" Word Academy of Science, Engineering and Technology, 2012."
+            }
+          ],
+          "container-title": [
+            "International Journal of Trade, Economics and Finance"
+          ],
+          "original-title": [
+            "Generating Intraday Trading Rules on Index Future Markets Using Genetic Programming"
+          ],
+          "deposited": {
+            "date-parts": [
+              [
+                2015,
+                10,
+                16
+              ]
+            ],
+            "date-time": "2015-10-16T12:27:05Z",
+            "timestamp": 1444998425000
+          },
+          "score": 35.416183,
+          "resource": {
+            "primary": {
+              "URL": "http://www.ijtef.org/index.php?m=content&c=index&a=show&catid=68&id=769"
+            }
+          },
+          "issued": {
+            "date-parts": [
+              [
+                2015,
+                4
+              ]
+            ]
+          },
+          "references-count": 20,
+          "journal-issue": {
+            "issue": "2",
+            "published-online": {
+              "date-parts": [
+                [
+                  2015,
+                  4
+                ]
+              ]
+            }
+          },
+          "URL": "https://doi.org/10.7763/ijtef.2015.v6.453",
+          "ISSN": [
+            "2010-023X"
+          ],
+          "issn-type": [
+            {
+              "value": "2010-023X",
+              "type": "print"
+            }
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2015,
+                4
+              ]
+            ]
+          }
+        },
+        {
+          "indexed": {
+            "date-parts": [
+              [
+                2024,
+                9,
+                7
+              ]
+            ],
+            "date-time": "2024-09-07T06:55:35Z",
+            "timestamp": 1725692135822
+          },
+          "reference-count": 0,
+          "publisher": "WORLD SCIENTIFIC",
+          "isbn-type": [
+            {
+              "type": "electronic",
+              "value": "9789812709677"
+            }
+          ],
+          "content-domain": {
+            "domain": [],
+            "crossmark-restriction": false
+          },
+          "published-print": {
+            "date-parts": [
+              [
+                2007,
+                7
+              ]
+            ]
+          },
+          "DOI": "10.1142/9789812709677_0075",
+          "type": "book-chapter",
+          "created": {
+            "date-parts": [
+              [
+                2007,
+                7,
+                30
+              ]
+            ],
+            "date-time": "2007-07-30T23:27:29Z",
+            "timestamp": 1185838049000
+          },
+          "page": "515-521",
+          "source": "Crossref",
+          "is-referenced-by-count": 1,
+          "title": [
+            "DAY-TRADING RULES DEVELOPMENT BY GENETIC PROGRAMMING"
+          ],
+          "prefix": "10.1142",
+          "author": [
+            {
+              "given": "C.",
+              "family": "ARANHA",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "O.",
+              "family": "KASAI",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "U.",
+              "family": "UCHIDE",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "H.",
+              "family": "IBA",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            }
+          ],
+          "member": "219",
+          "published-online": {
+            "date-parts": [
+              [
+                2011,
+                10,
+                24
+              ]
+            ]
+          },
+          "container-title": [
+            "Information Sciences 2007"
+          ],
+          "language": "en",
+          "deposited": {
+            "date-parts": [
+              [
+                2012,
+                7,
+                18
+              ]
+            ],
+            "date-time": "2012-07-18T18:41:53Z",
+            "timestamp": 1342636913000
+          },
+          "score": 31.1894,
+          "resource": {
+            "primary": {
+              "URL": "http://www.worldscientific.com/doi/abs/10.1142/9789812709677_0075"
+            }
+          },
+          "issued": {
+            "date-parts": [
+              [
+                2007,
+                7
+              ]
+            ]
+          },
+          "ISBN": [
+            "9789812709677"
+          ],
+          "references-count": 0,
+          "alternative-id": [
+            "10.1142/9789812709677_0075",
+            "10.1142/6567"
+          ],
+          "URL": "https://doi.org/10.1142/9789812709677_0075",
+          "published": {
+            "date-parts": [
+              [
+                2007,
+                7
+              ]
+            ]
+          }
+        },
+        {
+          "indexed": {
+            "date-parts": [
+              [
+                2023,
+                11,
+                2
+              ]
+            ],
+            "date-time": "2023-11-02T01:10:58Z",
+            "timestamp": 1698887458110
+          },
+          "reference-count": 18,
+          "publisher": "Wiley",
+          "issue": "2",
+          "license": [
+            {
+              "start": {
+                "date-parts": [
+                  [
+                    2005,
+                    3,
+                    9
+                  ]
+                ],
+                "date-time": "2005-03-09T00:00:00Z",
+                "timestamp": 1110326400000
+              },
+              "content-version": "vor",
+              "delay-in-days": 8774,
+              "URL": "http://onlinelibrary.wiley.com/termsAndConditions#vor"
+            }
+          ],
+          "content-domain": {
+            "domain": [],
+            "crossmark-restriction": false
+          },
+          "short-container-title": [
+            "The Financial Review"
+          ],
+          "published-print": {
+            "date-parts": [
+              [
+                1981,
+                3
+              ]
+            ]
+          },
+          "DOI": "10.1111/j.1540-6288.1981.tb01623.x",
+          "type": "journal-article",
+          "created": {
+            "date-parts": [
+              [
+                2005,
+                3,
+                9
+              ]
+            ],
+            "date-time": "2005-03-09T11:48:15Z",
+            "timestamp": 1110368895000
+          },
+          "page": "16-29",
+          "source": "Crossref",
+          "is-referenced-by-count": 2,
+          "title": [
+            "SHORT SALES AND MECHANICAL TRADING RULES*"
+          ],
+          "prefix": "10.1111",
+          "volume": "16",
+          "author": [
+            {
+              "given": "David",
+              "family": "Nawrocki",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            }
+          ],
+          "member": "311",
+          "published-online": {
+            "date-parts": [
+              [
+                2005,
+                3,
+                9
+              ]
+            ]
+          },
+          "reference": [
+            {
+              "key": "e_1_2_1_2_2",
+              "first-page": "7",
+              "article-title": "Price Movements in Speculative Markets: Trends or Random Walks",
+              "author": "Alexander S.",
+              "year": "1961",
+              "journal-title": "Industrial Management Review"
+            },
+            {
+              "key": "e_1_2_1_3_2",
+              "first-page": "132",
+              "article-title": "Required Disclosure and the Stock Market: An Evaluation of the Securities Act of 1934",
+              "author": "Benston G.",
+              "year": "1973",
+              "journal-title": "American Economic Review"
+            },
+            {
+              "key": "e_1_2_1_4_2",
+              "first-page": "473",
+              "article-title": "Required Disclosure and the Stock Market: Rejoinder",
+              "author": "Benston G.",
+              "year": "1975",
+              "journal-title": "American Economic Review"
+            },
+            {
+              "key": "e_1_2_1_5_2",
+              "doi-asserted-by": "crossref",
+              "first-page": "383",
+              "DOI": "10.1111/j.1540-5915.1971.tb00891.x",
+              "article-title": "Detection of Turning Points in a Time Series",
+              "author": "Brown R.",
+              "year": "1971",
+              "journal-title": "Decision Sciences"
+            },
+            {
+              "key": "e_1_2_1_6_2",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.2307/2326407"
+            },
+            {
+              "key": "e_1_2_1_7_2",
+              "first-page": "84",
+              "volume-title": "Modern Developments in Investment Management",
+              "author": "Cootner P.",
+              "year": "1973"
+            },
+            {
+              "key": "e_1_2_1_8_2",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.2307/2325486"
+            },
+            {
+              "key": "e_1_2_1_9_2",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1086/294849"
+            },
+            {
+              "key": "e_1_2_1_10_2",
+              "volume-title": "Investments: Analysis and Management",
+              "author": "Francis J.",
+              "year": "1979"
+            },
+            {
+              "key": "e_1_2_1_11_2",
+              "first-page": "467",
+              "article-title": "Required Disclosure and the Stock Market: Comment",
+              "author": "Friend I.",
+              "year": "1975",
+              "journal-title": "American Economic Review"
+            },
+            {
+              "key": "e_1_2_1_12_2",
+              "doi-asserted-by": "crossref",
+              "first-page": "1105",
+              "DOI": "10.1111/j.1540-6261.1980.tb02198.x",
+              "article-title": "Heterogeneous Expectations, Short Sales, and Equilibrium Asset Prices",
+              "author": "Jarrow R.",
+              "year": "1980",
+              "journal-title": "Journal of Finance"
+            },
+            {
+              "key": "e_1_2_1_13_2",
+              "doi-asserted-by": "crossref",
+              "first-page": "77",
+              "DOI": "10.2469/faj.v23.n6.77",
+              "article-title": "Random Walks: Reality or Myth — Comment",
+              "author": "Jensen M.",
+              "year": "1967",
+              "journal-title": "Financial Analysis Journal"
+            },
+            {
+              "key": "e_1_2_1_14_2",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1111/j.1540-5915.1976.tb00659.x"
+            },
+            {
+              "key": "e_1_2_1_15_2",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.2307/2326396"
+            },
+            {
+              "key": "e_1_2_1_16_2",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.2307/2326912"
+            },
+            {
+              "key": "e_1_2_1_17_2",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1086/294846"
+            },
+            {
+              "key": "e_1_2_1_18_2",
+              "doi-asserted-by": "crossref",
+              "first-page": "883",
+              "DOI": "10.1111/j.1540-6261.1980.tb03507.x",
+              "article-title": "Stationarity of Market Risk: Random Coefficients Tests for Individual Stocks",
+              "author": "Sunder S.",
+              "year": "1980",
+              "journal-title": "Journal of Fiance"
+            },
+            {
+              "key": "e_1_2_1_19_2",
+              "doi-asserted-by": "crossref",
+              "first-page": "427",
+              "DOI": "10.1111/j.1540-6261.1977.tb03282.x",
+              "article-title": "Forecasting Stock Market Prices",
+              "author": "Umstead D.",
+              "year": "1977",
+              "journal-title": "Journal of Fiance"
+            }
+          ],
+          "container-title": [
+            "Financial Review"
+          ],
+          "language": "en",
+          "link": [
+            {
+              "URL": "https://api.wiley.com/onlinelibrary/tdm/v1/articles/10.1111%2Fj.1540-6288.1981.tb01623.x",
+              "content-type": "unspecified",
+              "content-version": "vor",
+              "intended-application": "text-mining"
+            },
+            {
+              "URL": "https://onlinelibrary.wiley.com/doi/pdf/10.1111/j.1540-6288.1981.tb01623.x",
+              "content-type": "unspecified",
+              "content-version": "vor",
+              "intended-application": "similarity-checking"
+            }
+          ],
+          "deposited": {
+            "date-parts": [
+              [
+                2023,
+                11,
+                1
+              ]
+            ],
+            "date-time": "2023-11-01T14:58:56Z",
+            "timestamp": 1698850736000
+          },
+          "score": 30.784945,
+          "resource": {
+            "primary": {
+              "URL": "https://onlinelibrary.wiley.com/doi/10.1111/j.1540-6288.1981.tb01623.x"
+            }
+          },
+          "issued": {
+            "date-parts": [
+              [
+                1981,
+                3
+              ]
+            ]
+          },
+          "references-count": 18,
+          "journal-issue": {
+            "issue": "2",
+            "published-print": {
+              "date-parts": [
+                [
+                  1981,
+                  3
+                ]
+              ]
+            }
+          },
+          "alternative-id": [
+            "10.1111/j.1540-6288.1981.tb01623.x"
+          ],
+          "URL": "https://doi.org/10.1111/j.1540-6288.1981.tb01623.x",
+          "archive": [
+            "Portico"
+          ],
+          "ISSN": [
+            "0732-8516",
+            "1540-6288"
+          ],
+          "issn-type": [
+            {
+              "value": "0732-8516",
+              "type": "print"
+            },
+            {
+              "value": "1540-6288",
+              "type": "electronic"
+            }
+          ],
+          "published": {
+            "date-parts": [
+              [
+                1981,
+                3
+              ]
+            ]
+          }
+        }
+      ],
+      "items-per-page": 3,
+      "query": {
+        "start-index": 0,
+        "search-terms": null
+      }
+    }
+  }
+}

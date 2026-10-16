@@ -1,0 +1,2350 @@
+{
+  "retrieved": "2026-10-16",
+  "url": "https://api.crossref.org/works/10.1007/s11721-012-0075-2",
+  "response": {
+    "status": "ok",
+    "message-type": "work",
+    "message-version": "1.0.0",
+    "message": {
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            10,
+            15
+          ]
+        ],
+        "date-time": "2026-10-15T21:30:18Z",
+        "timestamp": 1792099818010,
+        "version": "4.4.0"
+      },
+      "reference-count": 210,
+      "publisher": "Springer Science and Business Media LLC",
+      "issue": "1",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2013,
+                1,
+                17
+              ]
+            ],
+            "date-time": "2013-01-17T00:00:00Z",
+            "timestamp": 1358380800000
+          },
+          "content-version": "tdm",
+          "delay-in-days": 0,
+          "URL": "http://www.springer.com/tdm"
+        }
+      ],
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "short-container-title": [
+        "Swarm Intell"
+      ],
+      "published-print": {
+        "date-parts": [
+          [
+            2013,
+            3
+          ]
+        ]
+      },
+      "DOI": "10.1007/s11721-012-0075-2",
+      "type": "journal-article",
+      "created": {
+        "date-parts": [
+          [
+            2013,
+            1,
+            16
+          ]
+        ],
+        "date-time": "2013-01-16T11:41:07Z",
+        "timestamp": 1358336467000
+      },
+      "page": "1-41",
+      "source": "Crossref",
+      "is-referenced-by-count": 1546,
+      "title": [
+        "Swarm robotics: a review from the swarm engineering perspective"
+      ],
+      "prefix": "10.1007",
+      "volume": "7",
+      "author": [
+        {
+          "given": "Manuele",
+          "family": "Brambilla",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Eliseo",
+          "family": "Ferrante",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Mauro",
+          "family": "Birattari",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Marco",
+          "family": "Dorigo",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "297",
+      "published-online": {
+        "date-parts": [
+          [
+            2013,
+            1,
+            17
+          ]
+        ]
+      },
+      "reference": [
+        {
+          "issue": "1",
+          "key": "75_CR1",
+          "doi-asserted-by": "crossref",
+          "first-page": "13",
+          "DOI": "10.1002/cplx.20146",
+          "volume": "12",
+          "author": "R. Abbott",
+          "year": "2006",
+          "unstructured": "Abbott, R. (2006). Emergence explained. Complexity, 12(1), 13–26.",
+          "journal-title": "Complexity"
+        },
+        {
+          "key": "75_CR2",
+          "doi-asserted-by": "crossref",
+          "first-page": "1090",
+          "DOI": "10.1145/545056.545077",
+          "volume-title": "Proceedings of the first international joint conference on autonomous agents and multi-agent systems",
+          "author": "W. Agassounon",
+          "year": "2002",
+          "unstructured": "Agassounon, W., & Martinoli, A. (2002). Efficiency and robustness of threshold-based distributed allocation algorithms in multi-agent systems. In Proceedings of the first international joint conference on autonomous agents and multi-agent systems (pp. 1090–1097). Richland: IFAAMAS."
+        },
+        {
+          "issue": "15",
+          "key": "75_CR3",
+          "doi-asserted-by": "crossref",
+          "first-page": "5835",
+          "DOI": "10.1073/pnas.0507877103",
+          "volume": "103",
+          "author": "J. Amé",
+          "year": "2006",
+          "unstructured": "Amé, J., Halloy, J., Rivault, C., Detrain, C., & Deneubourg, J. L. (2006). Collegial decision making based on social amplification leads to optimal group formation. Proceedings of the National Academy of Sciences, 103(15), 5835–5840.",
+          "journal-title": "Proceedings of the National Academy of Sciences"
+        },
+        {
+          "key": "75_CR4",
+          "unstructured": "Ampatzis, C. (2008). On the evolution of autonomous time-based decision-making and communication in collective robotics. PhD thesis, IRIDIA, Université Libre de Bruxelles, Belgium."
+        },
+        {
+          "issue": "1",
+          "key": "75_CR5",
+          "doi-asserted-by": "crossref",
+          "first-page": "5",
+          "DOI": "10.1177/1059712307087282",
+          "volume": "16",
+          "author": "C. Ampatzis",
+          "year": "2008",
+          "unstructured": "Ampatzis, C., Tuci, E., Trianni, V., & Dorigo, M. (2008). Evolution of signaling in a multi-robot system: categorization and communication. Adaptive Behavior, 16(1), 5–26.",
+          "journal-title": "Adaptive Behavior"
+        },
+        {
+          "key": "75_CR6",
+          "doi-asserted-by": "crossref",
+          "first-page": "465",
+          "DOI": "10.1162/artl.2009.Ampatzis.013",
+          "volume": "15",
+          "author": "C. Ampatzis",
+          "year": "2009",
+          "unstructured": "Ampatzis, C., Tuci, E., Trianni, V., Christensen, A. L., & Dorigo, M. (2009). Evolving self-assembly in autonomous homogeneous robots: experiments with two physical robots. Artificial Life, 15, 465–484.",
+          "journal-title": "Artificial Life"
+        },
+        {
+          "issue": "2",
+          "key": "75_CR7",
+          "doi-asserted-by": "crossref",
+          "first-page": "99",
+          "DOI": "10.1007/s00040-002-8286-y",
+          "volume": "49",
+          "author": "C. Anderson",
+          "year": "2002",
+          "unstructured": "Anderson, C., Theraulaz, G., & Deneubourg, J.-L. (2002). Self-assemblages in insect societies. Insectes Sociaux, 49(2), 99–110.",
+          "journal-title": "Insectes Sociaux"
+        },
+        {
+          "issue": "6",
+          "key": "75_CR8",
+          "doi-asserted-by": "crossref",
+          "first-page": "825",
+          "DOI": "10.1007/s00521-010-0382-8",
+          "volume": "19",
+          "author": "J. Bachrach",
+          "year": "2010",
+          "unstructured": "Bachrach, J., Beal, J., & McLurkin, J. (2010). Composable continuous-space programs for robotic swarms. Neural Computing & Applications, 19(6), 825–847.",
+          "journal-title": "Neural Computing & Applications"
+        },
+        {
+          "key": "75_CR9",
+          "doi-asserted-by": "crossref",
+          "first-page": "333",
+          "DOI": "10.1109/SIS.2005.1501640",
+          "volume-title": "Proceedings of the 2005 swarm intelligence symposium, SIS 2005",
+          "author": "E. Bahçeci",
+          "year": "2005",
+          "unstructured": "Bahçeci, E., & Şahin, E. (2005). Evolving aggregation behaviors for swarm robotic systems: a systematic case study. In Proceedings of the 2005 swarm intelligence symposium, SIS 2005 (pp. 333–340). Piscataway: IEEE Press."
+        },
+        {
+          "key": "75_CR10",
+          "unstructured": "Bahçeci, E., Soysal, O., & Şahin, E. (2003). A review: pattern formation and adaptation in multi-robot systems (Technical Report CMU-RI-TR-03-43). Robotics Institute, Carnegie Mellon University, Pittsburgh, PA."
+        },
+        {
+          "key": "75_CR11",
+          "first-page": "73",
+          "volume-title": "Proceedings of the 2000 IEEE international conference on robotics and automation, ICRA 2000",
+          "author": "T. Balch",
+          "year": "2000",
+          "unstructured": "Balch, T., & Hybinette, M. (2000). Social potentials for scalable multi-robot formations. In Proceedings of the 2000 IEEE international conference on robotics and automation, ICRA 2000 (pp. 73–80). Piscataway: IEEE Press."
+        },
+        {
+          "key": "75_CR12",
+          "unstructured": "Baldassarre, G. (2006). Evolution of collective behaviour: coordination object retrieval in groups of physically-linked simulated robots. URL http://laral.istc.cnr.it/baldassarre/demos/2003swarmobject/swarmobject.htm . Last checked on November 2012."
+        },
+        {
+          "issue": "3",
+          "key": "75_CR13",
+          "doi-asserted-by": "crossref",
+          "first-page": "255",
+          "DOI": "10.1162/106454603322392460",
+          "volume": "9",
+          "author": "G. Baldassarre",
+          "year": "2003",
+          "unstructured": "Baldassarre, G., Nolfi, S., & Parisi, D. (2003). Evolving mobile robots able to display collective behaviors. Artificial Life, 9(3), 255–267.",
+          "journal-title": "Artificial Life"
+        },
+        {
+          "issue": "3",
+          "key": "75_CR14",
+          "doi-asserted-by": "crossref",
+          "first-page": "289",
+          "DOI": "10.1162/artl.2006.12.3.289",
+          "volume": "12",
+          "author": "G. Baldassarre",
+          "year": "2006",
+          "unstructured": "Baldassarre, G., Parisi, D., & Nolfi, S. (2006). Distributed coordination of simulated robots based on self-organization. Artificial Life, 12(3), 289–311.",
+          "journal-title": "Artificial Life"
+        },
+        {
+          "issue": "1",
+          "key": "75_CR15",
+          "doi-asserted-by": "crossref",
+          "first-page": "224",
+          "DOI": "10.1109/TSMCB.2006.881299",
+          "volume": "37",
+          "author": "G. Baldassarre",
+          "year": "2007",
+          "unstructured": "Baldassarre, G., Trianni, V., Bonani, M., Mondada, F., Dorigo, M., & Nolfi, S. (2007). Self-organized coordinated motion in groups of physically connected robots. IEEE Transactions on Systems, Man, and Cybernetics. Part B, 37(1), 224–239.",
+          "journal-title": "IEEE Transactions on Systems, Man, and Cybernetics. Part B"
+        },
+        {
+          "issue": "2",
+          "key": "75_CR16",
+          "first-page": "115",
+          "volume": "15",
+          "author": "L. Bayindir",
+          "year": "2007",
+          "unstructured": "Bayindir, L., & Şahin, E. (2007). A review of studies in swarm robotics. Turkish Journal of Electrical Engineering, 15(2), 115–147.",
+          "journal-title": "Turkish Journal of Electrical Engineering"
+        },
+        {
+          "key": "75_CR17",
+          "series-title": "Lecture notes in computer science",
+          "first-page": "97",
+          "volume-title": "Proceedings of the international workshop on unconventional programming paradigms (UPP)",
+          "author": "J. Beal",
+          "year": "2004",
+          "unstructured": "Beal, J. (2004). Programming an amorphous computational medium. In Lecture notes in computer science: Vol. 3566. Proceedings of the international workshop on unconventional programming paradigms (UPP) (p. 97). Berlin: Springer."
+        },
+        {
+          "key": "75_CR18",
+          "first-page": "181",
+          "volume-title": "Artificial life IV",
+          "author": "R. Beckers",
+          "year": "1994",
+          "unstructured": "Beckers, R., Holland, O., & Deneubourg, J.-L. (1994). From local actions to global tasks: stigmergy and collective robotics. In Artificial life IV (pp. 181–189). Cambridge: MIT Press."
+        },
+        {
+          "issue": "1",
+          "key": "75_CR19",
+          "doi-asserted-by": "crossref",
+          "first-page": "91",
+          "DOI": "10.1177/105971239200100105",
+          "volume": "1",
+          "author": "R. D. Beer",
+          "year": "1992",
+          "unstructured": "Beer, R. D., & Gallagher, J. C. (1992). Evolving dynamic neural networks for adaptive behavior. Adaptive Behavior, 1(1), 91–122.",
+          "journal-title": "Adaptive Behavior"
+        },
+        {
+          "key": "75_CR20",
+          "series-title": "Lecture notes in computer science",
+          "doi-asserted-by": "crossref",
+          "first-page": "1",
+          "DOI": "10.1007/978-3-540-30552-1_1",
+          "volume-title": "Swarm robotics",
+          "author": "G. Beni",
+          "year": "2005",
+          "unstructured": "Beni, G. (2005). From swarm intelligence to swarm robotics. In Lecture notes in computer science: Vol. 3342. Swarm robotics (pp. 1–9). Berlin: Springer."
+        },
+        {
+          "issue": "4",
+          "key": "75_CR21",
+          "doi-asserted-by": "crossref",
+          "first-page": "927",
+          "DOI": "10.1109/TRO.2009.2024997",
+          "volume": "25",
+          "author": "S. Berman",
+          "year": "2009",
+          "unstructured": "Berman, S., Halász, Á. M., Hsieh, M. A., & Kumar, V. (2009). Optimized stochastic policies for task allocation in swarms of robots. IEEE Transactions on Robotics, 25(4), 927–937.",
+          "journal-title": "IEEE Transactions on Robotics"
+        },
+        {
+          "issue": "9",
+          "key": "75_CR22",
+          "doi-asserted-by": "crossref",
+          "first-page": "1470",
+          "DOI": "10.1109/JPROC.2011.2111450",
+          "volume": "99",
+          "author": "S. Berman",
+          "year": "2011",
+          "unstructured": "Berman, S., Lindsey, Q., Sakar, M., Kumar, V., & Pratt, S. (2011a). Experimental study and modeling of group retrieval in ants as an approach to collective transport in swarm robotic systems. Proceedings of the IEEE, 99(9), 1470–1481.",
+          "journal-title": "Proceedings of the IEEE"
+        },
+        {
+          "key": "75_CR23",
+          "first-page": "3923",
+          "volume-title": "IEEE/RSJ international conference on intelligent robots and systems (IROS)",
+          "author": "S. Berman",
+          "year": "2011",
+          "unstructured": "Berman, S., Nagpal, R., & Halasz, A. (2011b). Optimization of stochastic strategies for spatially inhomogeneous robot swarms: a case study in commercial pollination. In IEEE/RSJ international conference on intelligent robots and systems (IROS) (pp. 3923–3930)."
+        },
+        {
+          "key": "75_CR24",
+          "first-page": "36",
+          "volume-title": "Biocomputing and emergent computation: proceedings of BCEC97",
+          "author": "E. Bonabeau",
+          "year": "1997",
+          "unstructured": "Bonabeau, E., Sobkowski, A., Theraulaz, G., & Deneubourg, J.-L. (1997). Adaptive task allocation inspired by a model of division of labor in social insects. In Biocomputing and emergent computation: proceedings of BCEC97, London, UK (pp. 36–45). Singapore: World Scientific."
+        },
+        {
+          "key": "75_CR25",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1093/oso/9780195131581.001.0001",
+          "volume-title": "Swarm intelligence: from natural to artificial systems",
+          "author": "E. Bonabeau",
+          "year": "1999",
+          "unstructured": "Bonabeau, E., Dorigo, M., & Theraulaz, G. (1999). Swarm intelligence: from natural to artificial systems. New York: Oxford University Press."
+        },
+        {
+          "key": "75_CR26",
+          "first-page": "6",
+          "volume-title": "Fourteenth international conference on advanced robotics—ICAR 2009",
+          "author": "M. Brambilla",
+          "year": "2009",
+          "unstructured": "Brambilla, M., Pinciroli, C., Birattari, M., & Dorigo, M. (2009). A reliable distributed algorithm for group size estimation with minimal communication requirements. In Fourteenth international conference on advanced robotics—ICAR 2009 (p. 6). Proceedings on CD-ROM, paper ID 137."
+        },
+        {
+          "key": "75_CR27",
+          "first-page": "139",
+          "volume-title": "Proceedings of 11th international conference on autonomous agents and multiagent systems (AAMAS 2012)",
+          "author": "M. Brambilla",
+          "year": "2012",
+          "unstructured": "Brambilla, M., Pinciroli, C., Birattari, M., & Dorigo, M. (2012). Property-driven design for swarm robotics. In Proceedings of 11th international conference on autonomous agents and multiagent systems (AAMAS 2012) (pp. 139–146). Richland: IFAAMAS."
+        },
+        {
+          "issue": "3",
+          "key": "75_CR28",
+          "doi-asserted-by": "crossref",
+          "first-page": "361",
+          "DOI": "10.2307/1930099",
+          "volume": "35",
+          "author": "C. M. Breder Jr.",
+          "year": "1954",
+          "unstructured": "Breder, C. M. Jr. (1954). Equations descriptive of fish schools and other animal aggregations. Ecology, 35(3), 361–370.",
+          "journal-title": "Ecology"
+        },
+        {
+          "issue": "1–2",
+          "key": "75_CR29",
+          "doi-asserted-by": "crossref",
+          "first-page": "3",
+          "DOI": "10.1016/S0921-8890(05)80025-9",
+          "volume": "6",
+          "author": "R. Brooks",
+          "year": "1990",
+          "unstructured": "Brooks, R. (1990). Elephants don’t play chess. Robotics and Autonomous Systems, 6(1–2), 3–15.",
+          "journal-title": "Robotics and Autonomous Systems"
+        },
+        {
+          "issue": "1",
+          "key": "75_CR30",
+          "doi-asserted-by": "crossref",
+          "first-page": "14",
+          "DOI": "10.1109/JRA.1986.1087032",
+          "volume": "2",
+          "author": "R. A. Brooks",
+          "year": "1986",
+          "unstructured": "Brooks, R. A. (1986). A robust layered control system for a mobile robot. IEEE Journal of Robotics and Automation, 2(1), 14–23.",
+          "journal-title": "IEEE Journal of Robotics and Automation"
+        },
+        {
+          "key": "75_CR31",
+          "unstructured": "Brutschy, A., Pini, G., & Decugnière, A. (2012). Grippable objects for the foot-bot (Technical Report TR/IRIDIA/2012-001). IRIDIA, Université Libre de Bruxelles, Brussels, Belgium."
+        },
+        {
+          "key": "75_CR32",
+          "volume-title": "Self-organization in biological systems. Princeton studies in complexity",
+          "author": "S. Camazine",
+          "year": "2001",
+          "unstructured": "Camazine, S., Deneubourg, J.-L., Franks, N. R., Sneyd, J., Theraulaz, G., & Bonabeau, E. (2001). Self-organization in biological systems. Princeton studies in complexity. Princeton: Princeton University Press."
+        },
+        {
+          "key": "75_CR33",
+          "series-title": "Lecture notes in artificial intelligence",
+          "first-page": "696",
+          "volume-title": "Advances in artificial life, proceedings of ECAL 2007",
+          "author": "A. Campo",
+          "year": "2007",
+          "unstructured": "Campo, A., & Dorigo, M. (2007). Efficient multi-foraging in swarm robotics. In Lecture notes in artificial intelligence: Vol. 4648. Advances in artificial life, proceedings of ECAL 2007 (pp. 696–705). Berlin: Springer."
+        },
+        {
+          "key": "75_CR34",
+          "series-title": "Lecture notes in computer science",
+          "first-page": "365",
+          "volume-title": "Proceedings of the fifth international workshop on ant colony optimization and swarm intelligence (ANTS 2006)",
+          "author": "A. Campo",
+          "year": "2006",
+          "unstructured": "Campo, A., Nouyan, S., Birattari, M., Groß, R., & Dorigo, M. (2006). Enhancing cooperative transport using negotiation of goal direction. In Lecture notes in computer science: Vol. 4150. Proceedings of the fifth international workshop on ant colony optimization and swarm intelligence (ANTS 2006) (pp. 365–366). Berlin: Springer."
+        },
+        {
+          "issue": "5",
+          "key": "75_CR35",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1371/journal.pone.0019888",
+          "volume": "6",
+          "author": "A. Campo",
+          "year": "2011",
+          "unstructured": "Campo, A., Garnier, S., Dédriche, O., Zekkri, M., & Dorigo, M. (2011). Self-organized discrimination of resources. PLoS ONE, 6(5), 05.",
+          "journal-title": "PLoS ONE"
+        },
+        {
+          "issue": "1",
+          "key": "75_CR36",
+          "doi-asserted-by": "crossref",
+          "first-page": "7",
+          "DOI": "10.1023/A:1008855018923",
+          "volume": "4",
+          "author": "Y. U. Cao",
+          "year": "1997",
+          "unstructured": "Cao, Y. U., Fukunaga, A. S., Kahng, A. B., & Meng, F. (1997). Cooperative mobile robotics: antecedents and directions. Autonomous Robots, 4(1), 7–27.",
+          "journal-title": "Autonomous Robots"
+        },
+        {
+          "issue": "6",
+          "key": "75_CR37",
+          "doi-asserted-by": "crossref",
+          "first-page": "849",
+          "DOI": "10.1007/s00521-010-0355-y",
+          "volume": "19",
+          "author": "H. Çelikkanat",
+          "year": "2010",
+          "unstructured": "Çelikkanat, H., & Şahin, E. (2010). Steering self-organized robot flocks through externally guided individuals. Neural Computing & Applications, 19(6), 849–865.",
+          "journal-title": "Neural Computing & Applications"
+        },
+        {
+          "issue": "2–4",
+          "key": "75_CR38",
+          "doi-asserted-by": "crossref",
+          "first-page": "143",
+          "DOI": "10.1007/s11721-008-0012-6",
+          "volume": "2",
+          "author": "A. L. Christensen",
+          "year": "2008",
+          "unstructured": "Christensen, A. L., O’Grady, R., & Dorigo, M. (2008). SWARMORPH-script: a language for arbitrary morphology generation in self-assembling robots. Swarm Intelligence, 2(2–4), 143–165.",
+          "journal-title": "Swarm Intelligence"
+        },
+        {
+          "issue": "4",
+          "key": "75_CR39",
+          "doi-asserted-by": "crossref",
+          "first-page": "754",
+          "DOI": "10.1109/TEVC.2009.2017516",
+          "volume": "13",
+          "author": "A. L. Christensen",
+          "year": "2009",
+          "unstructured": "Christensen, A. L., O’Grady, R., & Dorigo, M. (2009). From fireflies to fault-tolerant swarms of robots. IEEE Transactions on Evolutionary Computation, 13(4), 754–766.",
+          "journal-title": "IEEE Transactions on Evolutionary Computation"
+        },
+        {
+          "key": "75_CR40",
+          "first-page": "3302",
+          "volume-title": "IEEE international conference on robotics and automation (ICRA)",
+          "author": "N. Correll",
+          "year": "2008",
+          "unstructured": "Correll, N. (2008). Parameter estimation and optimal control of swarm-robotic systems: a case study in distributed task allocation. In IEEE international conference on robotics and automation (ICRA) (pp. 3302–3307)."
+        },
+        {
+          "key": "75_CR41",
+          "volume-title": "IEEE international conference on robotics and automation",
+          "author": "N. Correll",
+          "year": "2007",
+          "unstructured": "Correll, N., & Martinoli, A. (2007). Modeling self-organized aggregation in a swarm of miniature robots. In IEEE international conference on robotics and automation."
+        },
+        {
+          "issue": "7025",
+          "key": "75_CR42",
+          "doi-asserted-by": "crossref",
+          "first-page": "513",
+          "DOI": "10.1038/nature03236",
+          "volume": "433",
+          "author": "I. D. Couzin",
+          "year": "2005",
+          "unstructured": "Couzin, I. D., Krause, J., Franks, N. R., & Levin, S. A. (2005). Effective leadership and decision-making in animal groups on the move. Nature, 433(7025), 513–516.",
+          "journal-title": "Nature"
+        },
+        {
+          "issue": "3",
+          "key": "75_CR43",
+          "doi-asserted-by": "crossref",
+          "first-page": "303",
+          "DOI": "10.1007/s10514-007-9080-5",
+          "volume": "24",
+          "author": "V. Crespi",
+          "year": "2008",
+          "unstructured": "Crespi, V., Galstyan, A., & Lerman, K. (2008). Top-down vs bottom-up methodologies in multi-agent system design. Autonomous Robots, 24(3), 303–313.",
+          "journal-title": "Autonomous Robots"
+        },
+        {
+          "key": "75_CR44",
+          "volume-title": "IEEE/RSJ international conference on intelligent robots and systems",
+          "author": "K. Dantu",
+          "year": "2012",
+          "unstructured": "Dantu, K., Berman, S., Kate, B., & Nagpal, R. (2012). A comparison of deterministic and stochastic approaches for allocating spatially dependent tasks in micro-aerial vehicle collectives. In IEEE/RSJ international conference on intelligent robots and systems."
+        },
+        {
+          "issue": "2",
+          "key": "75_CR45",
+          "doi-asserted-by": "crossref",
+          "first-page": "159",
+          "DOI": "10.1007/BF01417909",
+          "volume": "3",
+          "author": "J.-L. Deneubourg",
+          "year": "1990",
+          "unstructured": "Deneubourg, J.-L., Aron, S., Goss, S., & Pasteels, J. M. (1990). The self-organizing exploratory pattern of the argentine ant. Journal of Insect Behavior, 3(2), 159–168.",
+          "journal-title": "Journal of Insect Behavior"
+        },
+        {
+          "key": "75_CR46",
+          "series-title": "Lecture notes in computer science",
+          "doi-asserted-by": "crossref",
+          "first-page": "21",
+          "DOI": "10.1007/978-3-642-01129-0_3",
+          "volume-title": "Applications of evolutionary computing",
+          "author": "G. A. Di Caro",
+          "year": "2009",
+          "unstructured": "Di Caro, G. A., Ducatelle, F., & Gambardella, L. M. (2009). Wireless communications for distributed navigation in robot swarms. In Lecture notes in computer science: Vol. 5484. Applications of evolutionary computing (pp. 21–30). Berlin: Springer."
+        },
+        {
+          "key": "75_CR47",
+          "series-title": "Lecture notes in computer science",
+          "doi-asserted-by": "crossref",
+          "first-page": "336",
+          "DOI": "10.1007/978-3-642-23232-9_30",
+          "volume-title": "Towards autonomous robotic systems",
+          "author": "C. Dixon",
+          "year": "2011",
+          "unstructured": "Dixon, C., Winfield, A., & Fisher, M. (2011). Towards temporal verification of emergent behaviours in swarm robotic systems. In Lecture notes in computer science: Vol. 6856. Towards autonomous robotic systems (pp. 336–347). Berlin: Springer."
+        },
+        {
+          "issue": "5",
+          "key": "75_CR48",
+          "doi-asserted-by": "crossref",
+          "first-page": "673",
+          "DOI": "10.1177/027836499701600506",
+          "volume": "16",
+          "author": "B. R. Donald",
+          "year": "1997",
+          "unstructured": "Donald, B. R., Jennings, J., & Rus, D. (1997). Information invariants for distributed manipulation. The International Journal of Robotics Research, 16(5), 673–702.",
+          "journal-title": "The International Journal of Robotics Research"
+        },
+        {
+          "issue": "9",
+          "key": "75_CR49",
+          "doi-asserted-by": "crossref",
+          "first-page": "1462",
+          "DOI": "10.4249/scholarpedia.1462",
+          "volume": "2",
+          "author": "M. Dorigo",
+          "year": "2007",
+          "unstructured": "Dorigo, M., & Birattari, M. (2007). Swarm intelligence. Scholarpedia, 2(9), 1462.",
+          "journal-title": "Scholarpedia"
+        },
+        {
+          "key": "75_CR50",
+          "doi-asserted-by": "crossref",
+          "first-page": "111",
+          "DOI": "10.1023/B:AURO.0000034008.48988.2b",
+          "volume": "17",
+          "author": "M. Dorigo",
+          "year": "2004",
+          "unstructured": "Dorigo, M., & Şahin, E. (2004). Guest editorial. Autonomous Robots, 17, 111–113.",
+          "journal-title": "Autonomous Robots"
+        },
+        {
+          "key": "75_CR51",
+          "first-page": "103",
+          "volume-title": "Computational intelligence: principles and practice",
+          "author": "M. Dorigo",
+          "year": "2006",
+          "unstructured": "Dorigo, M., Tuci, E., Trianni, V., Groß, R., Nouyan, S., Ampatzis, C., Labella, T. H., O’Grady, R., Bonani, M., & Mondada, F. (2006). SWARM-BOT: design and implementation of colonies of self-assembling robots. In Computational intelligence: principles and practice (pp. 103–135). New York: IEEE Computational Intelligence Society. Chap. 6."
+        },
+        {
+          "key": "75_CR52",
+          "unstructured": "Dorigo, M., Floreano, D., Gambardella, L., Mondada, F., Nolfi, S., Baaboura, T., Birattari, M., Bonani, M., Brambilla, M., Brutschy, A., Burnier, D., Campo, A., Christensen, A., Decugnière, A., Di Caro, G., Ducatelle, F., Ferrante, E., Forster, A., Martinez Gonzales, J., Guzzi, J., Longchamp, V., Magnenat, S., Mathews, N., Montes de Oca, M., O’Grady, R., Pinciroli, C., Pini, G., Retornaz, P., Roberts, J., Sperati, V., Stirling, T., Stranieri, A., Stutzle, T., Trianni, V., Tuci, E., Turgut, A., & Vaussard, F. (2012). Swarmanoid: a novel concept for the study of heterogeneous robotic swarms. IEEE Robotics & Automation Magazine, in press."
+        },
+        {
+          "key": "75_CR53",
+          "doi-asserted-by": "crossref",
+          "first-page": "4981",
+          "DOI": "10.1109/IROS.2011.6094454",
+          "volume-title": "Proceedings of the IEEE/RSJ international conference on intelligent robots and systems (IROS 2011)",
+          "author": "F. Ducatelle",
+          "year": "2011",
+          "unstructured": "Ducatelle, F., Di Caro, G. A., Pinciroli, C., Mondada, F., & Gambardella, L. M. (2011a). Communication assisted navigation in robotic swarms: self-organization and cooperation. In Proceedings of the IEEE/RSJ international conference on intelligent robots and systems (IROS 2011) (pp. 4981–4988). Los Alamitos: IEEE Computer Society Press."
+        },
+        {
+          "issue": "2",
+          "key": "75_CR54",
+          "doi-asserted-by": "crossref",
+          "first-page": "73",
+          "DOI": "10.1007/s11721-011-0053-0",
+          "volume": "5",
+          "author": "F. Ducatelle",
+          "year": "2011",
+          "unstructured": "Ducatelle, F., Di Caro, C. P. G. A., & Gambardella, L. M. (2011b). Self-organized cooperation between robotic swarms. Swarm Intelligence, 5(2), 73–96.",
+          "journal-title": "Swarm Intelligence"
+        },
+        {
+          "key": "75_CR55",
+          "doi-asserted-by": "crossref",
+          "first-page": "441",
+          "DOI": "10.1109/IROS.1993.583135",
+          "volume-title": "Proceedings of the 1993 IEEE/RSJ international conference on intelligent robots and systems, IROS 93",
+          "author": "G. Dudek",
+          "year": "1993",
+          "unstructured": "Dudek, G., Jenkin, M., Milios, E., & Wilkes, D. (1993). A taxonomy for swarm robots. In Proceedings of the 1993 IEEE/RSJ international conference on intelligent robots and systems, IROS 93 (pp. 441–447). Piscataway: IEEE Press."
+        },
+        {
+          "issue": "2",
+          "key": "75_CR56",
+          "doi-asserted-by": "crossref",
+          "first-page": "179",
+          "DOI": "10.1207/s15516709cog1402_1",
+          "volume": "14",
+          "author": "J. L. Elman",
+          "year": "1990",
+          "unstructured": "Elman, J. L. (1990). Finding structure in time. Cognitive Science, 14(2), 179–211.",
+          "journal-title": "Cognitive Science"
+        },
+        {
+          "key": "75_CR57",
+          "series-title": "Lecture notes in computer science",
+          "doi-asserted-by": "crossref",
+          "first-page": "331",
+          "DOI": "10.1007/978-3-642-15871-1_34",
+          "volume-title": "Parallel problem solving from nature—PPSN XI: 11th international conference",
+          "author": "E. Ferrante",
+          "year": "2010",
+          "unstructured": "Ferrante, E., Turgut, A. E., Mathews, N., Birattari, M., & Dorigo, M. (2010). Flocking in stationary and non-stationary environments: a novel communication strategy for heading alignment. In Lecture notes in computer science: Vol. 6239. Parallel problem solving from nature—PPSN XI: 11th international conference (pp. 331–340). Berlin: Springer."
+        },
+        {
+          "key": "75_CR58",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Ferrante, E., Turgut, A. E., Huepe, C., Stranieri, A., Pinciroli, C., & Dorigo, M. (2012). Self-organized flocking with a mobile robot swarm: a novel motion control method. Adaptive Behavior.",
+          "DOI": "10.1177/1059712312462248"
+        },
+        {
+          "key": "75_CR59",
+          "series-title": "Springer tracts in advanced robotics",
+          "doi-asserted-by": "crossref",
+          "first-page": "571",
+          "DOI": "10.1007/978-3-642-32723-0_41",
+          "volume-title": "Proceedings of the international symposium on distributed autonomous robotics systems (DARS 2010)",
+          "author": "E. Ferrante",
+          "year": "2013",
+          "unstructured": "Ferrante, E., Brambilla, M., Birattari, M., & Dorigo, M. (2013). Socially-mediated negotiation for obstacle avoidance in collective transport. In Springer tracts in advanced robotics: Vol. 83. Proceedings of the international symposium on distributed autonomous robotics systems (DARS 2010) (pp. 571–583). Berlin: Springer."
+        },
+        {
+          "key": "75_CR60",
+          "volume-title": "Feedforward neural network methodology",
+          "author": "T. L. Fine",
+          "year": "1999",
+          "unstructured": "Fine, T. L. (1999). Feedforward neural network methodology. Berlin: Springer."
+        },
+        {
+          "issue": "1–3",
+          "key": "75_CR61",
+          "doi-asserted-by": "crossref",
+          "first-page": "412",
+          "DOI": "10.1016/j.tcs.2008.07.026",
+          "volume": "407",
+          "author": "P. Flocchini",
+          "year": "2008",
+          "unstructured": "Flocchini, P., Prencipe, G., Santoro, N., & Widmayer, P. (2008). Arbitrary pattern formation by asynchronous, anonymous, oblivious robots. Theoretical Computer Science, 407(1–3), 412–447.",
+          "journal-title": "Theoretical Computer Science"
+        },
+        {
+          "key": "75_CR62",
+          "series-title": "Lecture notes in computer science",
+          "doi-asserted-by": "crossref",
+          "first-page": "381",
+          "DOI": "10.1007/978-3-642-33093-3_38",
+          "volume-title": "Proceedings of the 12th international conference on adaptive behavior (SAB2012)",
+          "author": "G. Francesca",
+          "year": "2012",
+          "unstructured": "Francesca, G., Brambilla, M., Trianni, V., Dorigo, M., & Birattari, M. (2012). Analysing an evolved robotic behaviour using a biological model of collegial decision making. In Lecture notes in computer science: Vol. 7426. Proceedings of the 12th international conference on adaptive behavior (SAB2012) (pp. 381–390). Berlin: Springer."
+        },
+        {
+          "key": "75_CR63",
+          "doi-asserted-by": "crossref",
+          "first-page": "109",
+          "DOI": "10.1007/BF00173947",
+          "volume": "30",
+          "author": "N. Franks",
+          "year": "1992",
+          "unstructured": "Franks, N., & Sendova-Franks, A. (1992). Brood sorting by ants: distributing the workload over the work-surface. Behavioral Ecology and Sociobiology, 30, 109–123.",
+          "journal-title": "Behavioral Ecology and Sociobiology"
+        },
+        {
+          "key": "75_CR64",
+          "unstructured": "Friedmann, M. (2010). Simulation of autonomous robot teams with adaptable level of abstraction. Ph.D. thesis, University of Darmstadt, Germany."
+        },
+        {
+          "key": "75_CR65",
+          "volume-title": "The Stanford encyclopedia of philosophy",
+          "author": "R. Frigg",
+          "year": "2012",
+          "unstructured": "Frigg, R., & Hartmann, S. (2012). Models in science. In The Stanford encyclopedia of philosophy. Stanford: Stanford University. Spring 2012 edition."
+        },
+        {
+          "key": "75_CR66",
+          "doi-asserted-by": "crossref",
+          "first-page": "201",
+          "DOI": "10.1109/SIS.2005.1501623",
+          "volume-title": "Proceedings of the 2005 swarm intelligence symposium—(SIS 2005)",
+          "author": "A. Galstyan",
+          "year": "2005",
+          "unstructured": "Galstyan, A., Hogg, T., & Lerman, K. (2005). Modeling and mathematical analysis of swarms of microscopic robots. In Proceedings of the 2005 swarm intelligence symposium—(SIS 2005) (pp. 201–208). Los Alamitos: IEEE Computer Society Press."
+        },
+        {
+          "key": "75_CR67",
+          "series-title": "Lecture notes in artificial intelligence",
+          "doi-asserted-by": "crossref",
+          "first-page": "169",
+          "DOI": "10.1007/11553090_18",
+          "volume-title": "Advances in artificial life",
+          "author": "S. Garnier",
+          "year": "2005",
+          "unstructured": "Garnier, S., Jost, C., Jeanson, R., Gautrais, J., Asadpour, M., Caprari, G., & Theraulaz, G. (2005). Aggregation behaviour as a source of collective decision in a group of cockroach-like robots. In Lecture notes in artificial intelligence: Vol. 3630. Advances in artificial life (pp. 169–178). Berlin: Springer."
+        },
+        {
+          "issue": "2",
+          "key": "75_CR68",
+          "doi-asserted-by": "crossref",
+          "first-page": "109",
+          "DOI": "10.1177/1059712309103430",
+          "volume": "17",
+          "author": "S. Garnier",
+          "year": "2009",
+          "unstructured": "Garnier, S., Gautrais, J., Asadpour, M., Jost, C., & Theraulaz, G. (2009). Self-organized aggregation triggers collective decision making in a group of cockroach-like robots. Adaptive Behavior, 17(2), 109–133.",
+          "journal-title": "Adaptive Behavior"
+        },
+        {
+          "key": "75_CR69",
+          "series-title": "Lecture notes in computer science",
+          "doi-asserted-by": "crossref",
+          "first-page": "71",
+          "DOI": "10.1007/978-3-540-71541-2_6",
+          "volume-title": "Swarm robotics",
+          "author": "V. Gazi",
+          "year": "2007",
+          "unstructured": "Gazi, V., & Fidan, B. (2007). Coordination and control of multi-agent dynamic systems: models and approaches. In Lecture notes in computer science: Vol. 4433. Swarm robotics (pp. 71–102). Berlin: Springer."
+        },
+        {
+          "key": "75_CR70",
+          "first-page": "2848",
+          "volume-title": "Proceedings of the 41st IEEE conference on decision and control",
+          "author": "V. Gazi",
+          "year": "2002",
+          "unstructured": "Gazi, V., & Passino, K. M. (2002). Stability analysis of social foraging swarms: combined effects of attractant/repellent profiles. In Proceedings of the 41st IEEE conference on decision and control (Vol. 3, pp. 2848–2853). Piscataway: IEEE Press."
+        },
+        {
+          "issue": "4",
+          "key": "75_CR71",
+          "doi-asserted-by": "crossref",
+          "first-page": "692",
+          "DOI": "10.1109/TAC.2003.809765",
+          "volume": "48",
+          "author": "V. Gazi",
+          "year": "2003",
+          "unstructured": "Gazi, V., & Passino, K. M. (2003). Stability analysis of swarms. IEEE Transactions on Automatic Control, 48(4), 692–696.",
+          "journal-title": "IEEE Transactions on Automatic Control"
+        },
+        {
+          "issue": "18",
+          "key": "75_CR72",
+          "doi-asserted-by": "crossref",
+          "first-page": "1567",
+          "DOI": "10.1080/00207170412331330021",
+          "volume": "77",
+          "author": "V. Gazi",
+          "year": "2004",
+          "unstructured": "Gazi, V., & Passino, K. M. (2004a). A class of attractions/repulsion functions for stable swarm aggregations. International Journal of Control, 77(18), 1567–1579.",
+          "journal-title": "International Journal of Control"
+        },
+        {
+          "issue": "1",
+          "key": "75_CR73",
+          "doi-asserted-by": "crossref",
+          "first-page": "539",
+          "DOI": "10.1109/TSMCB.2003.817077",
+          "volume": "34",
+          "author": "V. Gazi",
+          "year": "2004",
+          "unstructured": "Gazi, V., & Passino, K. M. (2004b). Stability analysis of social foraging swarms. IEEE Transactions on Systems, Man, and Cybernetics. Part B, 34(1), 539–557.",
+          "journal-title": "IEEE Transactions on Systems, Man, and Cybernetics. Part B"
+        },
+        {
+          "issue": "4",
+          "key": "75_CR74",
+          "doi-asserted-by": "crossref",
+          "first-page": "834",
+          "DOI": "10.1109/TSMCB.2005.845393",
+          "volume": "35",
+          "author": "V. Gazi",
+          "year": "2005",
+          "unstructured": "Gazi, V., & Passino, K. M. (2005). Stability of a one-dimensional discrete-time asynchronous swarm. IEEE Transactions on Systems, Man, and Cybernetics. Part B, 35(4), 834–841.",
+          "journal-title": "IEEE Transactions on Systems, Man, and Cybernetics. Part B"
+        },
+        {
+          "key": "75_CR75",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1142/3097",
+          "volume-title": "Rayleigh–Bénard convection: structures and dynamics",
+          "author": "A. V. Getling",
+          "year": "1998",
+          "unstructured": "Getling, A. V. (1998). Rayleigh–Bénard convection: structures and dynamics (Vol. 11). London: World Scientific."
+        },
+        {
+          "key": "75_CR76",
+          "volume-title": "Proceedings of 11th international conference on autonomous agents and multiagent systems (AAMAS 2012)",
+          "author": "A. Giusti",
+          "year": "2012",
+          "unstructured": "Giusti, A., Nagi, J., Gambardella, L., & Caro, G. D. (2012). Distributed consensus for interaction between humans and mobile robot swarms. In Proceedings of 11th international conference on autonomous agents and multiagent systems (AAMAS 2012), Richland, SC."
+        },
+        {
+          "key": "75_CR77",
+          "volume-title": "Genetic algorithms in search, optimization, and machine learning",
+          "author": "D. E. Goldberg",
+          "year": "1989",
+          "unstructured": "Goldberg, D. E. (1989). Genetic algorithms in search, optimization, and machine learning. Reading: Addison-Wesley."
+        },
+        {
+          "issue": "6",
+          "key": "75_CR78",
+          "doi-asserted-by": "crossref",
+          "first-page": "1420",
+          "DOI": "10.1086/226707",
+          "volume": "83",
+          "author": "M. Granovetter",
+          "year": "1978",
+          "unstructured": "Granovetter, M. (1978). Threshold models of collective behavior. American Journal of Sociology, 83(6), 1420–1443.",
+          "journal-title": "American Journal of Sociology"
+        },
+        {
+          "key": "75_CR79",
+          "doi-asserted-by": "crossref",
+          "first-page": "41",
+          "DOI": "10.1007/BF02223791",
+          "volume": "6",
+          "author": "P.-P. Grassé",
+          "year": "1959",
+          "unstructured": "Grassé, P.-P. (1959). La reconstruction du nid et les coordinations interindividuelles chez bellicositermes natalensis et cubitermes sp. la théorie de la stigmergie: Essai d’interprétation du comportement des termites constructeurs. Insectes Sociaux, 6, 41–80.",
+          "journal-title": "Insectes Sociaux"
+        },
+        {
+          "issue": "5",
+          "key": "75_CR80",
+          "doi-asserted-by": "crossref",
+          "first-page": "285",
+          "DOI": "10.1177/1059712308090537",
+          "volume": "16",
+          "author": "R. Groß",
+          "year": "2008",
+          "unstructured": "Groß, R., & Dorigo, M. (2008a). Evolution of solitary and group transport behaviors for autonomous robots capable of self-assembling. Adaptive Behavior, 16(5), 285–305.",
+          "journal-title": "Adaptive Behavior"
+        },
+        {
+          "issue": "9",
+          "key": "75_CR81",
+          "doi-asserted-by": "crossref",
+          "first-page": "1490",
+          "DOI": "10.1109/JPROC.2008.927352",
+          "volume": "96",
+          "author": "R. Groß",
+          "year": "2008",
+          "unstructured": "Groß, R., & Dorigo, M. (2008b). Self-assembly at the macroscopic scale. Proceedings of the IEEE, 96(9), 1490–1508.",
+          "journal-title": "Proceedings of the IEEE"
+        },
+        {
+          "issue": "1–2",
+          "key": "75_CR82",
+          "doi-asserted-by": "crossref",
+          "first-page": "1",
+          "DOI": "10.1504/IJBIC.2009.022770",
+          "volume": "1",
+          "author": "R. Groß",
+          "year": "2009",
+          "unstructured": "Groß, R., & Dorigo, M. (2009). Towards group transport by swarms of robots. International Journal of Bio-Inspired Computation, 1(1–2), 1–13.",
+          "journal-title": "International Journal of Bio-Inspired Computation"
+        },
+        {
+          "key": "75_CR83",
+          "doi-asserted-by": "crossref",
+          "first-page": "296",
+          "DOI": "10.1007/978-3-642-50124-1_18",
+          "volume": "100",
+          "author": "D. Grünbaum",
+          "year": "1994",
+          "unstructured": "Grünbaum, D., & Okubo, A. (1994). Modeling social animal aggregations. Frontiers in Theoretical Biology, 100, 296–325.",
+          "journal-title": "Frontiers in Theoretical Biology"
+        },
+        {
+          "issue": "6",
+          "key": "75_CR84",
+          "doi-asserted-by": "crossref",
+          "first-page": "807",
+          "DOI": "10.1007/s00521-010-0380-x",
+          "volume": "19",
+          "author": "Á. Gutiérrez",
+          "year": "2010",
+          "unstructured": "Gutiérrez, Á., Campo, A., Monasterio-Huelin, F., Magdalena, L., & Dorigo, M. (2010). Collective decision-making based on social odometry. Neural Computing & Applications, 19(6), 807–823.",
+          "journal-title": "Neural Computing & Applications"
+        },
+        {
+          "key": "75_CR85",
+          "series-title": "Springer tracts in advanced robotics",
+          "first-page": "403",
+          "volume-title": "Distributed autonomous robotic systems",
+          "author": "A. Halász",
+          "year": "2012",
+          "unstructured": "Halász, A., Liang, Y., Hsieh, M., & Lai, H.-J. (2012). Emergence of specialization in a swarm of robots. In Springer tracts in advanced robotics: Vol. 83. Distributed autonomous robotic systems (pp. 403–416). Berlin: Springer."
+        },
+        {
+          "key": "75_CR86",
+          "series-title": "Lecture notes in computer science",
+          "doi-asserted-by": "crossref",
+          "first-page": "168",
+          "DOI": "10.1007/978-3-642-32650-9_15",
+          "volume-title": "Swarm intelligence: 8th international conference, ANTS 2012",
+          "author": "H. Hamann",
+          "year": "2012",
+          "unstructured": "Hamann, H. (2012). Towards swarm calculus: universal properties of swarm performance and collective decisions. In Lecture notes in computer science: Vol. 7461. Swarm intelligence: 8th international conference, ANTS 2012 (pp. 168–179). Berlin: Springer."
+        },
+        {
+          "issue": "2–4",
+          "key": "75_CR87",
+          "doi-asserted-by": "crossref",
+          "first-page": "209",
+          "DOI": "10.1007/s11721-008-0015-3",
+          "volume": "2",
+          "author": "H. Hamann",
+          "year": "2008",
+          "unstructured": "Hamann, H., & Wörn, H. (2008). A framework of space-time continuous models for algorithm design in swarm robotics. Swarm Intelligence, 2(2–4), 209–239.",
+          "journal-title": "Swarm Intelligence"
+        },
+        {
+          "key": "75_CR88",
+          "unstructured": "Hettiarachchi, S. D. (2007). Distributed evolution for swarm robotics. PhD thesis, University of Wyoming, Laramie, WY."
+        },
+        {
+          "key": "75_CR89",
+          "volume-title": "Adaptation in natural and artificial systems: an introductory analysis with applications to biology, control, and artificial intelligence",
+          "author": "J. H. Holland",
+          "year": "1975",
+          "unstructured": "Holland, J. H. (1975). Adaptation in natural and artificial systems: an introductory analysis with applications to biology, control, and artificial intelligence. Cambridge: MIT Press."
+        },
+        {
+          "key": "75_CR90",
+          "first-page": "299",
+          "volume-title": "Proceedings of the 2002 international symposium on distributed autonomous robotic systems (DARS 2002)",
+          "author": "A. Howard",
+          "year": "2002",
+          "unstructured": "Howard, A., Matarić, M. J., & Sukhatme, G. S. (2002). Mobile sensor network deployment using potential fields: a distributed, scalable solution to the area coverage problem. In Proceedings of the 2002 international symposium on distributed autonomous robotic systems (DARS 2002) (pp. 299–308). Berlin: Springer."
+        },
+        {
+          "issue": "2–4",
+          "key": "75_CR91",
+          "doi-asserted-by": "crossref",
+          "first-page": "121",
+          "DOI": "10.1007/s11721-008-0019-z",
+          "volume": "2",
+          "author": "M. A. Hsieh",
+          "year": "2008",
+          "unstructured": "Hsieh, M. A., Halász, Á., Berman, S., & Kumar, V. (2008). Biologically inspired redistribution of a swarm of robots among multiple sites. Swarm Intelligence, 2(2–4), 121–141.",
+          "journal-title": "Swarm Intelligence"
+        },
+        {
+          "key": "75_CR92",
+          "series-title": "Lecture notes in computer science",
+          "doi-asserted-by": "crossref",
+          "first-page": "9",
+          "DOI": "10.1007/3-540-44568-4_2",
+          "volume-title": "Balancing reactivity and social deliberation in multi-agent systems",
+          "author": "L. Iocchi",
+          "year": "2001",
+          "unstructured": "Iocchi, L., Nardi, D., & Salerno, M. (2001). Reactivity and deliberation: a survey on multi-robot systems. In Lecture notes in computer science: Vol. 2103. Balancing reactivity and social deliberation in multi-agent systems (pp. 9–32). Berlin: Springer."
+        },
+        {
+          "issue": "1",
+          "key": "75_CR93",
+          "doi-asserted-by": "crossref",
+          "first-page": "169",
+          "DOI": "10.1016/j.anbehav.2004.02.009",
+          "volume": "69",
+          "author": "R. Jeanson",
+          "year": "2005",
+          "unstructured": "Jeanson, R., Rivault, C., Deneubourg, J.-L., Blanco, S., Fournier, R., Jost, C., & Theraulaz, G. (2005). Self-organized aggregation in cockroaches. Animal Behaviour, 69(1), 169–180.",
+          "journal-title": "Animal Behaviour"
+        },
+        {
+          "key": "75_CR94",
+          "doi-asserted-by": "crossref",
+          "first-page": "237",
+          "DOI": "10.1613/jair.301",
+          "volume": "4",
+          "author": "L. P. Kaelbling",
+          "year": "1996",
+          "unstructured": "Kaelbling, L. P., Littman, M. L., & Moore, A. W. (1996). Reinforcement learning: a survey. Journal of Artificial Intelligence Research, 4, 237–285.",
+          "journal-title": "Journal of Artificial Intelligence Research"
+        },
+        {
+          "issue": "1–2",
+          "key": "75_CR95",
+          "doi-asserted-by": "crossref",
+          "first-page": "99",
+          "DOI": "10.1016/S0004-3702(98)00023-X",
+          "volume": "101",
+          "author": "L. P. Kaelbling",
+          "year": "1998",
+          "unstructured": "Kaelbling, L. P., Littman, M. L., & Cassandra, A. R. (1998). Planning and acting in partially observable stochastic domains. Artificial Intelligence, 101(1–2), 99–134.",
+          "journal-title": "Artificial Intelligence"
+        },
+        {
+          "key": "75_CR96",
+          "volume-title": "AAMAS ’07: proceedings of the 6th international joint conference on autonomous agents and multiagent systems",
+          "author": "S. Kalyanakrishnan",
+          "year": "2007",
+          "unstructured": "Kalyanakrishnan, S., & Stone, P. (2007). Batch reinforcement learning in a complex domain. In AAMAS ’07: proceedings of the 6th international joint conference on autonomous agents and multiagent systems. Richland: IFAAMAS."
+        },
+        {
+          "issue": "2",
+          "key": "75_CR97",
+          "doi-asserted-by": "crossref",
+          "first-page": "271",
+          "DOI": "10.1109/TRO.2008.918054",
+          "volume": "24",
+          "author": "G. A. Kaminka",
+          "year": "2008",
+          "unstructured": "Kaminka, G. A., Schechter-Glick, R., & Sadov, V. (2008). Using sensor morphology for multirobot formations. IEEE Transactions on Robotics, 24(2), 271–282.",
+          "journal-title": "IEEE Transactions on Robotics"
+        },
+        {
+          "key": "75_CR98",
+          "unstructured": "Kazadi, S. (2000). Swarm engineering. Ph.D. thesis, California Institute of Technology, Pasadena, CA, USA."
+        },
+        {
+          "issue": "4",
+          "key": "75_CR99",
+          "doi-asserted-by": "crossref",
+          "first-page": "672",
+          "DOI": "10.1108/17563780911005836",
+          "volume": "2",
+          "author": "S. Kazadi",
+          "year": "2009",
+          "unstructured": "Kazadi, S. (2009). Model independence in swarm robotics. International Journal of Intelligent Computing and Cybernetics, 2(4), 672–694.",
+          "journal-title": "International Journal of Intelligent Computing and Cybernetics"
+        },
+        {
+          "issue": "1",
+          "key": "75_CR100",
+          "doi-asserted-by": "crossref",
+          "first-page": "386",
+          "DOI": "10.1112/jlms/s1-41.1.385",
+          "volume": "41",
+          "author": "D. G. Kendall",
+          "year": "1966",
+          "unstructured": "Kendall, D. G. (1966). Branching processes since 1873. Journal of the London Mathematical Society, 41(1), 386–406.",
+          "journal-title": "Journal of the London Mathematical Society"
+        },
+        {
+          "issue": "1",
+          "key": "75_CR101",
+          "doi-asserted-by": "crossref",
+          "first-page": "90",
+          "DOI": "10.1177/027836498600500106",
+          "volume": "5",
+          "author": "O. Khatib",
+          "year": "1986",
+          "unstructured": "Khatib, O. (1986). Real-time obstacle avoidance for manipulators and mobile robots. The International Journal of Robotics Research, 5(1), 90–98.",
+          "journal-title": "The International Journal of Robotics Research"
+        },
+        {
+          "key": "75_CR102",
+          "doi-asserted-by": "crossref",
+          "first-page": "89",
+          "DOI": "10.1145/2157689.2157704",
+          "volume-title": "Proceedings of the seventh annual ACM/IEEE international conference on human-robot interaction",
+          "author": "A. Kolling",
+          "year": "2012",
+          "unstructured": "Kolling, A., Nunnally, S., & Lewis, M. (2012). Towards human control of robot swarms. In Proceedings of the seventh annual ACM/IEEE international conference on human-robot interaction (pp. 89–96). New York: ACM."
+        },
+        {
+          "issue": "2",
+          "key": "75_CR103",
+          "doi-asserted-by": "crossref",
+          "first-page": "199",
+          "DOI": "10.1016/j.robot.2011.10.005",
+          "volume": "60",
+          "author": "S. Konur",
+          "year": "2012",
+          "unstructured": "Konur, S., Dixon, C., & Fisher, M. (2012). Analysing robot swarm behaviour via probabilistic model checking. Robotics and Autonomous Systems, 60(2), 199–213.",
+          "journal-title": "Robotics and Autonomous Systems"
+        },
+        {
+          "issue": "2",
+          "key": "75_CR104",
+          "doi-asserted-by": "crossref",
+          "first-page": "101",
+          "DOI": "10.1007/s10514-006-9013-8",
+          "volume": "22",
+          "author": "J. Kramer",
+          "year": "2007",
+          "unstructured": "Kramer, J., & Scheutz, M. (2007). Development environments for autonomous mobile robots: a survey. Autonomous Robots, 22(2), 101–132.",
+          "journal-title": "Autonomous Robots"
+        },
+        {
+          "issue": "1–2",
+          "key": "75_CR105",
+          "doi-asserted-by": "crossref",
+          "first-page": "65",
+          "DOI": "10.1016/S0921-8890(99)00065-2",
+          "volume": "30",
+          "author": "M. J. B. Krieger",
+          "year": "2000",
+          "unstructured": "Krieger, M. J. B., & Billeter, J.-B. (2000). The call of duty: self-organised task allocation in a population of up to twelve mobile robots. Robotics and Autonomous Systems, 30(1–2), 65–84.",
+          "journal-title": "Robotics and Autonomous Systems"
+        },
+        {
+          "issue": "1–2",
+          "key": "75_CR106",
+          "doi-asserted-by": "crossref",
+          "first-page": "85",
+          "DOI": "10.1016/S0921-8890(99)00066-4",
+          "volume": "30",
+          "author": "C. R. Kube",
+          "year": "2000",
+          "unstructured": "Kube, C. R., & Bonabeau, E. (2000). Cooperative transport by ants and robots. Robotics and Autonomous Systems, 30(1–2), 85–101.",
+          "journal-title": "Robotics and Autonomous Systems"
+        },
+        {
+          "issue": "1",
+          "key": "75_CR107",
+          "doi-asserted-by": "crossref",
+          "first-page": "4",
+          "DOI": "10.1145/1152934.1152936",
+          "volume": "1",
+          "author": "T. H. Labella",
+          "year": "2006",
+          "unstructured": "Labella, T. H., Dorigo, M., & Deneubourg, J.-L. (2006). Division of labour in a group of robots inspired by ants’ foraging behaviour. ACM Transactions on Autonomous and Adaptive Systems, 1(1), 4–25.",
+          "journal-title": "ACM Transactions on Autonomous and Adaptive Systems"
+        },
+        {
+          "issue": "1",
+          "key": "75_CR108",
+          "doi-asserted-by": "crossref",
+          "first-page": "1",
+          "DOI": "10.1103/RevModPhys.52.1",
+          "volume": "52",
+          "author": "J. S. Langer",
+          "year": "1980",
+          "unstructured": "Langer, J. S. (1980). Instabilities and pattern formation in crystal growth. Reviews of Modern Physics, 52(1), 1–28.",
+          "journal-title": "Reviews of Modern Physics"
+        },
+        {
+          "key": "75_CR109",
+          "volume-title": "IEEE international conference on intelligent robots and systems (IROS 2003)",
+          "author": "J. Lee",
+          "year": "2003",
+          "unstructured": "Lee, J., & Arkin, R. C. (2003). Adaptive multi-robot behavior via learning momentum. In IEEE international conference on intelligent robots and systems (IROS 2003) (Vol. 2). Piscataway: IEEE Press."
+        },
+        {
+          "issue": "2",
+          "key": "75_CR110",
+          "doi-asserted-by": "crossref",
+          "first-page": "127",
+          "DOI": "10.1023/A:1019633424543",
+          "volume": "13",
+          "author": "K. Lerman",
+          "year": "2002",
+          "unstructured": "Lerman, K., & Galstyan, A. (2002). Mathematical model of foraging in a group of robots: effect of interference. Autonomous Robots, 13(2), 127–141.",
+          "journal-title": "Autonomous Robots"
+        },
+        {
+          "issue": "4",
+          "key": "75_CR111",
+          "doi-asserted-by": "crossref",
+          "first-page": "375",
+          "DOI": "10.1162/106454601317297013",
+          "volume": "7",
+          "author": "K. Lerman",
+          "year": "2001",
+          "unstructured": "Lerman, K., Galstyan, A., Martinoli, A., & Ijspeert, A. J. (2001). A macroscopic analytical model of collaboration in distributed robotic systems. Artificial Life, 7(4), 375–393.",
+          "journal-title": "Artificial Life"
+        },
+        {
+          "key": "75_CR112",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1007/978-3-642-11692-6",
+          "volume-title": "Symbiotic multi-robot organisms",
+          "author": "P. Levi",
+          "year": "2010",
+          "unstructured": "Levi, P., & Kernbach, S. (2010). Symbiotic multi-robot organisms. Berlin: Springer."
+        },
+        {
+          "issue": "3–4",
+          "key": "75_CR113",
+          "doi-asserted-by": "crossref",
+          "first-page": "199",
+          "DOI": "10.1177/105971230401200306",
+          "volume": "12",
+          "author": "L. Li",
+          "year": "2004",
+          "unstructured": "Li, L., Martinoli, A., & Abu-Mostafa, Y. S. (2004). Learning and measuring specialization in collaborative swarm systems. Adaptive Behavior, 12(3–4), 199–212.",
+          "journal-title": "Adaptive Behavior"
+        },
+        {
+          "key": "75_CR114",
+          "doi-asserted-by": "crossref",
+          "first-page": "323",
+          "DOI": "10.1007/s10514-012-9305-0",
+          "volume": "33",
+          "author": "Q. Lindsey",
+          "year": "2012",
+          "unstructured": "Lindsey, Q., Mellinger, D., & Kumar, V. (2012). Construction with quadrotor teams. Autonomous Robots, 33, 323–336.",
+          "journal-title": "Autonomous Robots"
+        },
+        {
+          "key": "75_CR115",
+          "unstructured": "Liu, W. (2007). Modelling of adaptive foraging in swarm robotic systems. URL http://www.brl.ac.uk/researchthemes/swarmrobotics/swarmroboticsystems.aspx . Last checked on November 2012."
+        },
+        {
+          "issue": "14",
+          "key": "75_CR116",
+          "doi-asserted-by": "crossref",
+          "first-page": "1743",
+          "DOI": "10.1177/0278364910375139",
+          "volume": "29",
+          "author": "W. Liu",
+          "year": "2010",
+          "unstructured": "Liu, W., & Winfield, A. (2010). Modeling and optimization of adaptive foraging in swarm robotic systems. International Journal of Robotics Research, 29(14), 1743–1760.",
+          "journal-title": "International Journal of Robotics Research"
+        },
+        {
+          "issue": "3",
+          "key": "75_CR117",
+          "doi-asserted-by": "crossref",
+          "first-page": "289",
+          "DOI": "10.1177/1059712307082088",
+          "volume": "15",
+          "author": "W. Liu",
+          "year": "2007",
+          "unstructured": "Liu, W., Winfield, A. F. T., Sa, J., Chen, J., & Dou, L. (2007). Towards energy optimization: emergent task allocation in a swarm of foraging robots. Adaptive Behavior, 15(3), 289–305.",
+          "journal-title": "Adaptive Behavior"
+        },
+        {
+          "issue": "1",
+          "key": "75_CR118",
+          "doi-asserted-by": "crossref",
+          "first-page": "30",
+          "DOI": "10.1109/TAC.2003.821416",
+          "volume": "49",
+          "author": "Y. Liu",
+          "year": "2004",
+          "unstructured": "Liu, Y., & Passino, K. M. (2004). Stable social foraging swarms in a noisy environment. IEEE Transactions on Automatic Control, 49(1), 30–44.",
+          "journal-title": "IEEE Transactions on Automatic Control"
+        },
+        {
+          "issue": "1",
+          "key": "75_CR119",
+          "doi-asserted-by": "crossref",
+          "first-page": "76",
+          "DOI": "10.1109/TAC.2002.806657",
+          "volume": "48",
+          "author": "Y. Liu",
+          "year": "2003",
+          "unstructured": "Liu, Y., Passino, K. M., & Polycarpou, M. M. (2003). Stability analysis of m-dimensional asynchronous swarms with a fixed communication topology. IEEE Transactions on Automatic Control, 48(1), 76–95.",
+          "journal-title": "IEEE Transactions on Automatic Control"
+        },
+        {
+          "issue": "1",
+          "key": "75_CR120",
+          "doi-asserted-by": "crossref",
+          "first-page": "51",
+          "DOI": "10.1016/S0921-8890(99)00038-X",
+          "volume": "29",
+          "author": "A. Martinoli",
+          "year": "1999",
+          "unstructured": "Martinoli, A., Ijspeert, A. J., & Mondada, F. (1999). Understanding collective aggregation mechanisms: from probabilistic modelling to experiments with real robots. Robotics and Autonomous Systems, 29(1), 51–63.",
+          "journal-title": "Robotics and Autonomous Systems"
+        },
+        {
+          "issue": "4–5",
+          "key": "75_CR121",
+          "doi-asserted-by": "crossref",
+          "first-page": "415",
+          "DOI": "10.1177/0278364904042197",
+          "volume": "23",
+          "author": "A. Martinoli",
+          "year": "2004",
+          "unstructured": "Martinoli, A., Easton, K., & Agassounon, W. (2004). Modeling swarm robotic systems: a case study in collaborative distributed manipulation. The International Journal of Robotics Research, 23(4–5), 415–436.",
+          "journal-title": "The International Journal of Robotics Research"
+        },
+        {
+          "key": "75_CR122",
+          "series-title": "Lecture notes in computer science",
+          "doi-asserted-by": "crossref",
+          "first-page": "25",
+          "DOI": "10.1007/978-3-642-32650-9_3",
+          "volume-title": "Swarm intelligence",
+          "author": "M. Massink",
+          "year": "2012",
+          "unstructured": "Massink, M., Brambilla, M., Latella, D., Dorigo, M., & Birattari, M. (2012). Analysing robot swarm decision-making with bio-pepa. In Lecture notes in computer science: Vol. 7461. Swarm intelligence (pp. 25–36). Berlin: Springer."
+        },
+        {
+          "issue": "1",
+          "key": "75_CR123",
+          "doi-asserted-by": "crossref",
+          "first-page": "73",
+          "DOI": "10.1023/A:1008819414322",
+          "volume": "4",
+          "author": "M. J. Matarić",
+          "year": "1997",
+          "unstructured": "Matarić, M. J. (1997). Reinforcement learning in the multi-robot domain. Autonomous Robots, 4(1), 73–83.",
+          "journal-title": "Autonomous Robots"
+        },
+        {
+          "issue": "3",
+          "key": "75_CR124",
+          "doi-asserted-by": "crossref",
+          "first-page": "357",
+          "DOI": "10.1080/095281398146806",
+          "volume": "10",
+          "author": "M. J. Matarić",
+          "year": "1998",
+          "unstructured": "Matarić, M. J. (1998). Using communication to reduce locality in distributed multi-agent learning. Journal of Experimental and Theoretical Artificial Intelligence, 10(3), 357–369.",
+          "journal-title": "Journal of Experimental and Theoretical Artificial Intelligence"
+        },
+        {
+          "issue": "1",
+          "key": "75_CR125",
+          "doi-asserted-by": "crossref",
+          "first-page": "67",
+          "DOI": "10.1016/S0921-8890(96)00034-6",
+          "volume": "19",
+          "author": "M. J. Matarić",
+          "year": "1996",
+          "unstructured": "Matarić, M. J., & Cliff, D. (1996). Challenges in evolving controllers for physical robots. Robotics and Autonomous Systems, 19(1), 67–83.",
+          "journal-title": "Robotics and Autonomous Systems"
+        },
+        {
+          "key": "75_CR126",
+          "first-page": "939",
+          "volume-title": "Proceedings of 9th international conference on autonomous agents and multiagent systems (AAMAS 2010)",
+          "author": "N. Mathews",
+          "year": "2010",
+          "unstructured": "Mathews, N., Christensen, A. L., Ferrante, E., O’Grady, R., & Dorigo, M. (2010). Establishing spatially targeted communication in a heterogeneous robot swarm. In Proceedings of 9th international conference on autonomous agents and multiagent systems (AAMAS 2010) (pp. 939–946). Richland: IFAAMAS."
+        },
+        {
+          "key": "75_CR127",
+          "doi-asserted-by": "crossref",
+          "first-page": "2678",
+          "DOI": "10.1109/IROS.2012.6386285",
+          "volume-title": "Proceedings of the 2012 IEEE/RSJ international conference on intelligent robots and systems (IROS 2012)",
+          "author": "N. Mathews",
+          "year": "2012",
+          "unstructured": "Mathews, N., Christensen, A. L., O’Grady, R., & Dorigo, M. (2012). Spatially targeted communication and self-assembly. In Proceedings of the 2012 IEEE/RSJ international conference on intelligent robots and systems (IROS 2012) (pp. 2678–2679). Los Alamitos: IEEE Computer Society Press."
+        },
+        {
+          "key": "75_CR128",
+          "first-page": "19",
+          "volume-title": "Proceedings of the IFAC workshop on networked robotics",
+          "author": "P. M. Maxim",
+          "year": "2009",
+          "unstructured": "Maxim, P. M., Spears, W. M., & Spears, D. F. (2009). Robotic chain formations. In Proceedings of the IFAC workshop on networked robotics (pp. 19–24). Oxford: Elsevier."
+        },
+        {
+          "key": "75_CR129",
+          "first-page": "72",
+          "volume-title": "2006 AAAI spring symposium",
+          "author": "J. McLurkin",
+          "year": "2006",
+          "unstructured": "McLurkin, J., Smith, J., Frankel, J., Sotkowitz, D., Blau, D., & Schmidt, B. (2006). Speaking swarmish: human–robot interface design for large swarms of autonomous mobile robots. In 2006 AAAI spring symposium (pp. 72–75). Menlo Park: AAAI."
+        },
+        {
+          "key": "75_CR130",
+          "volume-title": "Models of biological pattern formation",
+          "author": "H. Meinhardt",
+          "year": "1982",
+          "unstructured": "Meinhardt, H. (1982). Models of biological pattern formation (Vol. 6). London: Academic Press."
+        },
+        {
+          "key": "75_CR131",
+          "unstructured": "Melhuish, C. (1999). Intelligent Autonomous Systems Laboratory. URL http://www.ias.uwe.ac.uk/ . Last checked on November 2012."
+        },
+        {
+          "issue": "2–3",
+          "key": "75_CR132",
+          "doi-asserted-by": "crossref",
+          "first-page": "207",
+          "DOI": "10.1016/S0921-8890(99)00018-4",
+          "volume": "28",
+          "author": "C. Melhuish",
+          "year": "1999",
+          "unstructured": "Melhuish, C., Holland, O., & Hoddell, S. (1999a). Convoying: using chorusing for the formation of travelling groups of minimal agents. Robotics and Autonomous Systems, 28(2–3), 207–216.",
+          "journal-title": "Robotics and Autonomous Systems"
+        },
+        {
+          "key": "75_CR133",
+          "volume-title": "Proceedings of towards intelligent and autonomous mobile robots",
+          "author": "C. Melhuish",
+          "year": "1999",
+          "unstructured": "Melhuish, C., Welsby, J., & Edwards, C. (1999b). Using templates for defensive wall building with autonomous mobile ant-like robots. In Proceedings of towards intelligent and autonomous mobile robots (Vol. 99)."
+        },
+        {
+          "key": "75_CR134",
+          "volume-title": "Computation: finite and infinite machines",
+          "author": "M. Minsky",
+          "year": "1967",
+          "unstructured": "Minsky, M. (1967). Computation: finite and infinite machines. Upper Saddle River: Prentice-Hall."
+        },
+        {
+          "key": "75_CR135",
+          "unstructured": "Mondada, F. (2005). Swarm-bots. URL http://www.swarm-bot.org/ . Last checked on November 2012."
+        },
+        {
+          "key": "75_CR136",
+          "series-title": "Lecture notes in computer science",
+          "doi-asserted-by": "crossref",
+          "first-page": "282",
+          "DOI": "10.1007/11553090_29",
+          "volume-title": "Proceedings of the VIIIth European conference on artificial life",
+          "author": "F. Mondada",
+          "year": "2005",
+          "unstructured": "Mondada, F., Bonani, M., Guignard, A., Magnenat, S., Studer, C., & Floreano, D. (2005). Superlinear physical performances in a SWARM-BOT. In Lecture notes in computer science: Vol. 3630. Proceedings of the VIIIth European conference on artificial life (pp. 282–291). Berlin: Springer."
+        },
+        {
+          "issue": "3–4",
+          "key": "75_CR137",
+          "doi-asserted-by": "crossref",
+          "first-page": "305",
+          "DOI": "10.1007/s11721-011-0062-z",
+          "volume": "5",
+          "author": "M. A. Montes de Oca",
+          "year": "2011",
+          "unstructured": "Montes de Oca, M. A., Ferrante, E., Scheidler, A., Pinciroli, C., Birattari, M., & Dorigo, M. (2011). Majority-rule opinion dynamics with differential latency: a mechanism for self-organized collective decision-making. Swarm Intelligence, 5(3–4), 305–327.",
+          "journal-title": "Swarm Intelligence"
+        },
+        {
+          "key": "75_CR138",
+          "doi-asserted-by": "crossref",
+          "first-page": "255",
+          "DOI": "10.1109/ROMAN.2008.4600675",
+          "volume-title": "Proceedings of the 17th IEEE international symposium on the robot and human interactive communication (Ro-man 2008)",
+          "author": "A. Naghsh",
+          "year": "2008",
+          "unstructured": "Naghsh, A., Gancet, J., Tanoto, A., & Roast, C. (2008). Analysis and design of human-robot swarm interaction in firefighting. In Proceedings of the 17th IEEE international symposium on the robot and human interactive communication (Ro-man 2008) (pp. 255–260)."
+        },
+        {
+          "key": "75_CR139",
+          "volume-title": "Evolutionary robotics. intelligent robots and autonomous agents",
+          "author": "S. Nolfi",
+          "year": "2000",
+          "unstructured": "Nolfi, S., & Floreano, D. (2000). Evolutionary robotics. intelligent robots and autonomous agents. Cambridge: MIT Press."
+        },
+        {
+          "issue": "1",
+          "key": "75_CR140",
+          "doi-asserted-by": "crossref",
+          "first-page": "1",
+          "DOI": "10.1007/s11721-007-0009-6",
+          "volume": "2",
+          "author": "S. Nouyan",
+          "year": "2008",
+          "unstructured": "Nouyan, S., Campo, A., & Dorigo, M. (2008). Path formation in a robot swarm: self-organized strategies to find your way home. Swarm Intelligence, 2(1), 1–23.",
+          "journal-title": "Swarm Intelligence"
+        },
+        {
+          "issue": "4",
+          "key": "75_CR141",
+          "doi-asserted-by": "crossref",
+          "first-page": "695",
+          "DOI": "10.1109/TEVC.2008.2011746",
+          "volume": "13",
+          "author": "S. Nouyan",
+          "year": "2009",
+          "unstructured": "Nouyan, S., Groß, R., Bonani, M., Mondada, F., & Dorigo, M. (2009). Teamwork in self-organized robot colonies. IEEE Transactions on Evolutionary Computation, 13(4), 695–711.",
+          "journal-title": "IEEE Transactions on Evolutionary Computation"
+        },
+        {
+          "issue": "3",
+          "key": "75_CR142",
+          "doi-asserted-by": "crossref",
+          "first-page": "738",
+          "DOI": "10.1109/TRO.2008.2012341",
+          "volume": "25",
+          "author": "R. O’Grady",
+          "year": "2009",
+          "unstructured": "O’Grady, R., Christensen, A., & Dorigo, M. (2009a). SWARMORPH: multi-robot morphogenesis using directional self-assembly. IEEE Transactions on Robotics, 25(3), 738–743.",
+          "journal-title": "IEEE Transactions on Robotics"
+        },
+        {
+          "key": "75_CR143",
+          "first-page": "113",
+          "volume-title": "9th conference on autonomous robot systems and competitions, robótica 2009",
+          "author": "R. O’Grady",
+          "year": "2009",
+          "unstructured": "O’Grady, R., Pinciroli, C., Christensen, A. L., & Dorigo, M. (2009b). Supervised group size regulation in a heterogeneous robotic swarm. In 9th conference on autonomous robot systems and competitions, robótica 2009 (pp. 113–119). Castelo Branco: IPCB-Instituto Politécnico de Castelo Branco."
+        },
+        {
+          "issue": "4",
+          "key": "75_CR144",
+          "doi-asserted-by": "crossref",
+          "first-page": "439",
+          "DOI": "10.1007/s10514-010-9177-0",
+          "volume": "28",
+          "author": "R. O’Grady",
+          "year": "2010",
+          "unstructured": "O’Grady, R., Groß, R., Christensen, A. L., & Dorigo, M. (2010). Self-assembly strategies in a group of autonomous mobile robots. Autonomous Robots, 28(4), 439–455.",
+          "journal-title": "Autonomous Robots"
+        },
+        {
+          "key": "75_CR145",
+          "doi-asserted-by": "crossref",
+          "first-page": "305",
+          "DOI": "10.1007/978-4-431-35873-2_30",
+          "volume-title": "Distributed autonomous robotic systems 6",
+          "author": "K. J. O’Hara",
+          "year": "2007",
+          "unstructured": "O’Hara, K. J., & Balch, T. (2007). Pervasive sensor-less networks for cooperative multi-robot tasks. In Distributed autonomous robotic systems 6 (pp. 305–314). Tokyo: Springer."
+        },
+        {
+          "issue": "0",
+          "key": "75_CR146",
+          "doi-asserted-by": "crossref",
+          "first-page": "1",
+          "DOI": "10.1016/0065-227X(86)90003-1",
+          "volume": "22",
+          "author": "A. Okubo",
+          "year": "1986",
+          "unstructured": "Okubo, A. (1986). Dynamical aspects of animal grouping: swarms, schools, flocks, and herds. Advances in Biophysics, 22(0), 1–94.",
+          "journal-title": "Advances in Biophysics"
+        },
+        {
+          "issue": "3",
+          "key": "75_CR147",
+          "doi-asserted-by": "crossref",
+          "first-page": "387",
+          "DOI": "10.1007/s10458-005-2631-2",
+          "volume": "11",
+          "author": "L. Panait",
+          "year": "2005",
+          "unstructured": "Panait, L., & Luke, S. (2005). Cooperative multi-agent learning: the state of the art. Autonomous Agents and Multi-Agent Systems, 11(3), 387–434.",
+          "journal-title": "Autonomous Agents and Multi-Agent Systems"
+        },
+        {
+          "issue": "5",
+          "key": "75_CR148",
+          "doi-asserted-by": "crossref",
+          "first-page": "524",
+          "DOI": "10.1177/0278364910397621",
+          "volume": "30",
+          "author": "C. A. C. Parker",
+          "year": "2011",
+          "unstructured": "Parker, C. A. C., & Zhang, H. (2011). Biologically inspired collective comparisons by robotic swarms. International Journal of Robotics Research, 30(5), 524–535.",
+          "journal-title": "International Journal of Robotics Research"
+        },
+        {
+          "issue": "4",
+          "key": "75_CR149",
+          "doi-asserted-by": "crossref",
+          "first-page": "305",
+          "DOI": "10.1163/156855397X00344",
+          "volume": "11",
+          "author": "L. E. Parker",
+          "year": "1996",
+          "unstructured": "Parker, L. E. (1996). L-ALLIANCE: task-oriented multi-robot learning in behavior-based systems. Advanced Robotics, 11(4), 305–322.",
+          "journal-title": "Advanced Robotics"
+        },
+        {
+          "issue": "3",
+          "key": "75_CR150",
+          "doi-asserted-by": "crossref",
+          "first-page": "296",
+          "DOI": "10.2307/1543482",
+          "volume": "202",
+          "author": "J. K. Parrish",
+          "year": "2002",
+          "unstructured": "Parrish, J. K., Viscido, S. V., & Grünbaum, D. (2002). Self-organized fish schools: an examination of emergent properties. Biological Bulletin, 202(3), 296–305.",
+          "journal-title": "Biological Bulletin"
+        },
+        {
+          "issue": "3",
+          "key": "75_CR151",
+          "doi-asserted-by": "crossref",
+          "first-page": "319",
+          "DOI": "10.1023/A:1012411712038",
+          "volume": "11",
+          "author": "D. Payton",
+          "year": "2001",
+          "unstructured": "Payton, D., Daily, M., Estowski, R., Howard, M., & Lee, C. (2001). Pheromone robotics. Autonomous Robots, 11(3), 319–324.",
+          "journal-title": "Autonomous Robots"
+        },
+        {
+          "key": "75_CR152",
+          "first-page": "6",
+          "volume-title": "Fourteenth international conference on advanced robotics—ICAR 2009",
+          "author": "C. Pinciroli",
+          "year": "2009",
+          "unstructured": "Pinciroli, C., O’Grady, R., Christensen, A. L., & Dorigo, M. (2009). Self-organised recruitment in a heterogeneous swarm. In Fourteenth international conference on advanced robotics—ICAR 2009 (p. 6). Proceedings on CD-ROM, paper ID 176."
+        },
+        {
+          "key": "75_CR153",
+          "series-title": "Lecture notes in computer science",
+          "doi-asserted-by": "crossref",
+          "first-page": "558",
+          "DOI": "10.1007/978-3-642-15461-4_59",
+          "volume-title": "Proceedings of the seventh international conference on ant colony optimization and swarm intelligence (ANTS-2010)",
+          "author": "C. Pinciroli",
+          "year": "2010",
+          "unstructured": "Pinciroli, C., O’Grady, R., Christensen, A. L., & Dorigo, M. (2010). Heterogeneous swarms through minimal communication between homogeneous sub-swarms. In Lecture notes in computer science: Vol. 6234. Proceedings of the seventh international conference on ant colony optimization and swarm intelligence (ANTS-2010) (pp. 558–559). Berlin: Springer."
+        },
+        {
+          "key": "75_CR154",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Pinciroli, C., Trianni, V., O’Grady, R., Pini, G., Brutschy, A., Brambilla, M., Mathews, N., Ferrante, E., Di Caro, G., Ducatelle, F., Birattari, M., Gambardella, L. M., & Dorigo, M. (2012). ARGoS: a modular, parallel, multi-engine simulator for multi-robot systems. Swarm Intelligence, 6(4).",
+          "DOI": "10.1007/s11721-012-0072-5"
+        },
+        {
+          "key": "75_CR155",
+          "unstructured": "Pini, G. (2011). Task partitioning in swarms of robots an adaptive method for strategy selection. URL http://iridia.ulb.ac.be/supp/IridiaSupp2011-003/index.html . Last checked on November 2012."
+        },
+        {
+          "issue": "2–3",
+          "key": "75_CR156",
+          "doi-asserted-by": "crossref",
+          "first-page": "211",
+          "DOI": "10.1080/09540090802092014",
+          "volume": "20",
+          "author": "G. Pini",
+          "year": "2008",
+          "unstructured": "Pini, G., & Tuci, E. (2008). On the design of neuro-controllers for individual and social learning behaviour in autonomous robots: an evolutionary approach. Connection Science, 20(2–3), 211–230.",
+          "journal-title": "Connection Science"
+        },
+        {
+          "key": "75_CR157",
+          "volume-title": "IEEE international conference on neural networks: IEEE world congress on computational intelligence",
+          "author": "G. Pini",
+          "year": "2009",
+          "unstructured": "Pini, G., Brutschy, A., Birattari, M., & Dorigo, M. (2009). Interference reduction through task partitioning in a robotic swarm. In IEEE international conference on neural networks: IEEE world congress on computational intelligence. Setubal: INSTICC Press."
+        },
+        {
+          "issue": "3–4",
+          "key": "75_CR158",
+          "doi-asserted-by": "crossref",
+          "first-page": "283",
+          "DOI": "10.1007/s11721-011-0060-1",
+          "volume": "5",
+          "author": "G. Pini",
+          "year": "2011",
+          "unstructured": "Pini, G., Brutschy, A., Frison, M., Roli, A., Dorigo, M., & Birattari, M. (2011). Task partitioning in swarms of robots: an adaptive method for strategy selection. Swarm Intelligence, 5(3–4), 283–304.",
+          "journal-title": "Swarm Intelligence"
+        },
+        {
+          "key": "75_CR159",
+          "volume-title": "Proceedings of the workshop on robot feedback in human-robot interaction: how to make a robot readable for a human interaction partner (Ro-Man 2012)",
+          "author": "G. Podevijn",
+          "year": "2012",
+          "unstructured": "Podevijn, G., O’Grady, R., & Dorigo, M. (2012). Self-organised feedback in human swarm interaction. In Proceedings of the workshop on robot feedback in human-robot interaction: how to make a robot readable for a human interaction partner (Ro-Man 2012)."
+        },
+        {
+          "issue": "5",
+          "key": "75_CR160",
+          "doi-asserted-by": "crossref",
+          "first-page": "574",
+          "DOI": "10.1177/0278364910399521",
+          "volume": "30",
+          "author": "A. Prorok",
+          "year": "2011",
+          "unstructured": "Prorok, A., Correll, N., & Martinoli, A. (2011). Multi-level spatial modeling for stochastic distributed robotic systems. The International Journal of Robotics Research, 30(5), 574–589.",
+          "journal-title": "The International Journal of Robotics Research"
+        },
+        {
+          "key": "75_CR161",
+          "first-page": "3839",
+          "volume-title": "Proceedings of the IEEE congress on evolutionary computation",
+          "author": "J. Pugh",
+          "year": "2007",
+          "unstructured": "Pugh, J., & Martinoli, A. (2007). Parallel learning in heterogeneous multi-robot swarms. In Proceedings of the IEEE congress on evolutionary computation (pp. 3839–3846). Piscataway: IEEE Press."
+        },
+        {
+          "issue": "3",
+          "key": "75_CR162",
+          "doi-asserted-by": "crossref",
+          "first-page": "171",
+          "DOI": "10.1016/S0921-8890(99)00004-4",
+          "volume": "27",
+          "author": "J. H. Reif",
+          "year": "1999",
+          "unstructured": "Reif, J. H., & Wang, J. (1999). Social potential fields: a distributed behavioral control for autonomous robots. Robotics and Autonomous Systems, 27(3), 171–194.",
+          "journal-title": "Robotics and Autonomous Systems"
+        },
+        {
+          "key": "75_CR163",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Reynolds, C. (1987a). Boids (Flocks, herds, and schools: a distributed behavioral model). URL http://www.red3d.com/cwr/boids/ . Last checked on November 2012.",
+          "DOI": "10.1145/37401.37406"
+        },
+        {
+          "issue": "4",
+          "key": "75_CR164",
+          "doi-asserted-by": "crossref",
+          "first-page": "25",
+          "DOI": "10.1145/37402.37406",
+          "volume": "21",
+          "author": "C. W. Reynolds",
+          "year": "1987",
+          "unstructured": "Reynolds, C. W. (1987b). Flocks, herds and schools: a distributed behavioral model. Computer Graphics, 21(4), 25–34.",
+          "journal-title": "Computer Graphics"
+        },
+        {
+          "issue": "1",
+          "key": "75_CR165",
+          "doi-asserted-by": "crossref",
+          "first-page": "55",
+          "DOI": "10.1007/s10514-009-9120-4",
+          "volume": "27",
+          "author": "M. Riedmiller",
+          "year": "2009",
+          "unstructured": "Riedmiller, M., Gabel, T., Hafner, R., & Lange, S. (2009). Reinforcement learning for robot soccer. Autonomous Robots, 27(1), 55–73.",
+          "journal-title": "Autonomous Robots"
+        },
+        {
+          "issue": "6–7",
+          "key": "75_CR166",
+          "doi-asserted-by": "crossref",
+          "first-page": "633",
+          "DOI": "10.1016/j.artint.2007.09.008",
+          "volume": "172",
+          "author": "A. Rosenfeld",
+          "year": "2008",
+          "unstructured": "Rosenfeld, A., Kaminka, G. A., Kraus, S., & Shehory, O. (2008). A study of mechanisms for improving robotic group performance. Artificial Intelligence, 172(6–7), 633–655.",
+          "journal-title": "Artificial Intelligence"
+        },
+        {
+          "key": "75_CR167",
+          "series-title": "Lecture notes in computer science",
+          "doi-asserted-by": "crossref",
+          "first-page": "10",
+          "DOI": "10.1007/978-3-540-30552-1_2",
+          "volume-title": "Swarm robotics",
+          "author": "E. Şahin",
+          "year": "2005",
+          "unstructured": "Şahin, E. (2005). Swarm robotics: from sources of inspiration to domains of application. In Lecture notes in computer science: Vol. 3342. Swarm robotics (pp. 10–20). Berlin: Springer."
+        },
+        {
+          "issue": "3",
+          "key": "75_CR168",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1103/PhysRevE.83.031116",
+          "volume": "83",
+          "author": "A. Scheidler",
+          "year": "2011",
+          "unstructured": "Scheidler, A. (2011). Dynamics of majority rule with differential latencies. Physical Review E, 83(3), 031116.",
+          "journal-title": "Physical Review E"
+        },
+        {
+          "issue": "9",
+          "key": "75_CR169",
+          "doi-asserted-by": "crossref",
+          "first-page": "913",
+          "DOI": "10.1016/j.robot.2009.06.002",
+          "volume": "57",
+          "author": "T. Schmickl",
+          "year": "2009",
+          "unstructured": "Schmickl, T., Hamann, H., Wörn, H., & Crailsheim, K. (2009). Two different approaches to a macroscopic model of a bio-inspired robotic swarm. Robotics and Autonomous Systems, 57(9), 913–921.",
+          "journal-title": "Robotics and Autonomous Systems"
+        },
+        {
+          "key": "75_CR170",
+          "first-page": "3855",
+          "volume-title": "Proceedings of the IEEE international conference on robotics and automation (ICRA)",
+          "author": "M. Schwager",
+          "year": "2011",
+          "unstructured": "Schwager, M., Michael, N., Kumar, V., & Rus, D. (2011). Time scales and stability in networked multi-robot systems. In Proceedings of the IEEE international conference on robotics and automation (ICRA) (pp. 3855–3862)."
+        },
+        {
+          "key": "75_CR171",
+          "doi-asserted-by": "crossref",
+          "first-page": "379",
+          "DOI": "10.1007/978-4-431-35873-2_37",
+          "volume-title": "Distributed autonomous robotic systems 6",
+          "author": "B. Shucker",
+          "year": "2007",
+          "unstructured": "Shucker, B., & Bennett, J. K. (2007). Scalable control of distributed robotic macrosensors. In Distributed autonomous robotic systems 6 (pp. 379–388). Tokyo: Springer."
+        },
+        {
+          "issue": "6",
+          "key": "75_CR172",
+          "doi-asserted-by": "crossref",
+          "first-page": "1405",
+          "DOI": "10.1109/TRO.2008.2007940",
+          "volume": "24",
+          "author": "B. Shucker",
+          "year": "2008",
+          "unstructured": "Shucker, B., Murphey, T., & Bennett, J. (2008). Convergence-preserving switching for topology-dependent decentralized systems. IEEE Transactions on Robotics, 24(6), 1405–1415.",
+          "journal-title": "IEEE Transactions on Robotics"
+        },
+        {
+          "key": "75_CR173",
+          "first-page": "325",
+          "volume-title": "Proceedings of the IEEE swarm intelligence symposium",
+          "author": "O. Soysal",
+          "year": "2005",
+          "unstructured": "Soysal, O., & Şahin, E. (2005). Probabilistic aggregation strategies in swarm robotic systems. In Proceedings of the IEEE swarm intelligence symposium (pp. 325–332). Piscataway: IEEE Press."
+        },
+        {
+          "key": "75_CR174",
+          "series-title": "Lecture notes in computer science",
+          "doi-asserted-by": "crossref",
+          "first-page": "27",
+          "DOI": "10.1007/978-3-540-71541-2_3",
+          "volume-title": "Swarm robotics",
+          "author": "O. Soysal",
+          "year": "2007",
+          "unstructured": "Soysal, O., & Şahin, E. (2007). A macroscopic model for self-organized aggregation in swarm robotic systems. In Lecture notes in computer science: Vol. 4433. Swarm robotics (pp. 27–42). Berlin: Springer."
+        },
+        {
+          "issue": "2",
+          "key": "75_CR175",
+          "first-page": "199",
+          "volume": "15",
+          "author": "O. Soysal",
+          "year": "2007",
+          "unstructured": "Soysal, O., Bahçeci, E., & Şahin, E. (2007). Aggregation in swarm robotic systems: evolution and probabilistic control. Turkish Journal of Electrical Engineering and Computer Sciences, 15(2), 199–225.",
+          "journal-title": "Turkish Journal of Electrical Engineering and Computer Sciences"
+        },
+        {
+          "key": "75_CR176",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1007/978-3-642-22804-9",
+          "volume-title": "Physics-based swarm intelligence",
+          "author": "W. M. Spears",
+          "year": "2012",
+          "unstructured": "Spears, W. M., & Spears, D. F. (2012). Physics-based swarm intelligence. Berlin: Springer."
+        },
+        {
+          "issue": "2–3",
+          "key": "75_CR177",
+          "doi-asserted-by": "crossref",
+          "first-page": "137",
+          "DOI": "10.1023/B:AURO.0000033970.96785.f2",
+          "volume": "17",
+          "author": "W. M. Spears",
+          "year": "2004",
+          "unstructured": "Spears, W. M., Spears, D. F., Hamann, J. C., & Heil, R. (2004). Distributed, physics-based control of swarms of vehicles. Autonomous Robots, 17(2–3), 137–162.",
+          "journal-title": "Autonomous Robots"
+        },
+        {
+          "issue": "2–4",
+          "key": "75_CR178",
+          "doi-asserted-by": "crossref",
+          "first-page": "73",
+          "DOI": "10.1007/s11721-008-0017-1",
+          "volume": "2",
+          "author": "V. Sperati",
+          "year": "2008",
+          "unstructured": "Sperati, V., Trianni, V., & Nolfi, S. (2008). Evolving coordinated group behaviours through maximization of mean mutual information. Swarm Intelligence, 2(2–4), 73–95.",
+          "journal-title": "Swarm Intelligence"
+        },
+        {
+          "key": "75_CR179",
+          "doi-asserted-by": "crossref",
+          "first-page": "97",
+          "DOI": "10.1007/s11721-011-0055-y",
+          "volume": "5",
+          "author": "V. Sperati",
+          "year": "2011",
+          "unstructured": "Sperati, V., Trianni, V., & Nolfi, S. (2011). Self-organised path formation in a swarm of robots. Swarm Intelligence, 5, 97–119.",
+          "journal-title": "Swarm Intelligence"
+        },
+        {
+          "key": "75_CR180",
+          "doi-asserted-by": "crossref",
+          "first-page": "21",
+          "DOI": "10.1177/105971230601400104",
+          "volume": "14",
+          "author": "R. L. Stewart",
+          "year": "2006",
+          "unstructured": "Stewart, R. L., & Russell, R. A. (2006). A distributed feedback mechanism to regulate wall construction by a robotic swarm. Adaptive Behavior, 14, 21–51.",
+          "journal-title": "Adaptive Behavior"
+        },
+        {
+          "key": "75_CR181",
+          "series-title": "Lecture notes in computer science",
+          "doi-asserted-by": "crossref",
+          "first-page": "562",
+          "DOI": "10.1007/978-3-642-15461-4_61",
+          "volume-title": "Proceedings of the 7th international conference on swarm intelligence (ANTS 2010)",
+          "author": "T. Stirling",
+          "year": "2010",
+          "unstructured": "Stirling, T., & Floreano, D. (2010). Energy efficient swarm deployment for search in unknown environments. In Lecture notes in computer science. Proceedings of the 7th international conference on swarm intelligence (ANTS 2010) (pp. 562–563). Berlin: Springer."
+        },
+        {
+          "issue": "3",
+          "key": "75_CR182",
+          "doi-asserted-by": "crossref",
+          "first-page": "345",
+          "DOI": "10.1023/A:1008942012299",
+          "volume": "8",
+          "author": "P. Stone",
+          "year": "2000",
+          "unstructured": "Stone, P., & Veloso, M. M. (2000). Multiagent systems: a survey from a machine learning perspective. Autonomous Robots, 8(3), 345–383.",
+          "journal-title": "Autonomous Robots"
+        },
+        {
+          "key": "75_CR183",
+          "first-page": "789",
+          "volume-title": "Advances in artificial life, ECAL 2011",
+          "author": "A. Stranieri",
+          "year": "2011",
+          "unstructured": "Stranieri, A., Ferrante, E., Turgut, A. E., Trianni, V., Pinciroli, C., Birattari, M., & Dorigo, M. (2011). Self-organized flocking with a heterogeneous mobile robot swarm. In Advances in artificial life, ECAL 2011 (pp. 789–796). Cambridge: MIT Press."
+        },
+        {
+          "key": "75_CR184",
+          "volume-title": "Reinforcement learning: an introduction",
+          "author": "R. S. Sutton",
+          "year": "1998",
+          "unstructured": "Sutton, R. S., & Barto, A. G. (1998). Reinforcement learning: an introduction. Cambridge: MIT Press."
+        },
+        {
+          "key": "75_CR185",
+          "first-page": "346",
+          "volume-title": "Proceedings of the first international conference on simulation of adaptive behavior on from animals to animats",
+          "author": "G. Theraulaz",
+          "year": "1990",
+          "unstructured": "Theraulaz, G., Goss, S., Gervet, J., & Deneubourg, J.-L. (1990). Task differentiation in polistes wasp colonies: a model for self-organizing groups of robots. In Proceedings of the first international conference on simulation of adaptive behavior on from animals to animats (pp. 346–355). Cambridge: MIT Press."
+        },
+        {
+          "issue": "1393",
+          "key": "75_CR186",
+          "doi-asserted-by": "crossref",
+          "first-page": "327",
+          "DOI": "10.1098/rspb.1998.0299",
+          "volume": "265",
+          "author": "G. Theraulaz",
+          "year": "1998",
+          "unstructured": "Theraulaz, G., Bonabeau, E., & Deneubourg, J.-L. (1998). Response threshold reinforcements and division of labour in insect societies. Proceedings of the Royal Society B. Biological Sciences, 265(1393), 327–332.",
+          "journal-title": "Proceedings of the Royal Society B. Biological Sciences"
+        },
+        {
+          "key": "75_CR187",
+          "doi-asserted-by": "crossref",
+          "first-page": "213",
+          "DOI": "10.1007/s00422-006-0080-x",
+          "volume": "95",
+          "author": "V. Trianni",
+          "year": "2006",
+          "unstructured": "Trianni, V., & Dorigo, M. (2006). Self-organisation and communication in groups of simulated and physical robots. Biological Cybernetics, 95, 213–231.",
+          "journal-title": "Biological Cybernetics"
+        },
+        {
+          "key": "75_CR188",
+          "unstructured": "Trianni, V., Labella, T. H., Groß, R., Şahin, E., Dorigo, M., & Deneubourg, J.-L. (2002). Modeling pattern formation in a swarm of self-assembling robots (Technical Report TR/IRIDIA/2002-12). IRIDIA, Université Libre de Bruxelles, Belgium."
+        },
+        {
+          "key": "75_CR189",
+          "series-title": "Lecture notes in artificial intelligence",
+          "doi-asserted-by": "crossref",
+          "first-page": "865",
+          "DOI": "10.1007/978-3-540-39432-7_93",
+          "volume-title": "Advances in artificial life: 7th European conference—ECAL 2003",
+          "author": "V. Trianni",
+          "year": "2003",
+          "unstructured": "Trianni, V., Groß, R., Labella, T. H., Şahin, E., & Dorigo, M. (2003). Evolving aggregation behaviors in a swarm of robots. In Lecture notes in artificial intelligence: Vol. 2801. Advances in artificial life: 7th European conference—ECAL 2003 (pp. 865–874). Berlin: Springer."
+        },
+        {
+          "issue": "4",
+          "key": "75_CR190",
+          "doi-asserted-by": "crossref",
+          "first-page": "301",
+          "DOI": "10.1080/09540090412331314740",
+          "volume": "16",
+          "author": "E. Tuci",
+          "year": "2004",
+          "unstructured": "Tuci, E., Trianni, V., & Dorigo, M. (2004). ‘Feeling’ the flow of time through sensorymotor coordination. Connection Science, 16(4), 301–324.",
+          "journal-title": "Connection Science"
+        },
+        {
+          "issue": "2–4",
+          "key": "75_CR191",
+          "doi-asserted-by": "crossref",
+          "first-page": "97",
+          "DOI": "10.1007/s11721-008-0016-2",
+          "volume": "2",
+          "author": "A. E. Turgut",
+          "year": "2008",
+          "unstructured": "Turgut, A. E., Çelikkanat, H., Gökçe, F., & Şahin, E. (2008a). Self-organized flocking in mobile robot swarms. Swarm Intelligence, 2(2–4), 97–120.",
+          "journal-title": "Swarm Intelligence"
+        },
+        {
+          "key": "75_CR192",
+          "series-title": "Lecture notes in computer science",
+          "doi-asserted-by": "crossref",
+          "first-page": "108",
+          "DOI": "10.1007/978-3-540-87527-7_10",
+          "volume-title": "Proceedings of the 6th international conference on ant colony optimization and swarm intelligence, ANTS 2008",
+          "author": "A. E. Turgut",
+          "year": "2008",
+          "unstructured": "Turgut, A. E., Huepe, C., Çelikkanat, H., Gökçe, F., & Şahin, E. (2008b). Modeling phase transition in self-organized mobile robot flocks. In Lecture notes in computer science: Vol. 5217. Proceedings of the 6th international conference on ant colony optimization and swarm intelligence, ANTS 2008 (pp. 108–119). Berlin: Springer."
+        },
+        {
+          "key": "75_CR193",
+          "doi-asserted-by": "crossref",
+          "first-page": "37",
+          "DOI": "10.1098/rstb.1952.0012",
+          "volume": "237",
+          "author": "A. Turing",
+          "year": "1953",
+          "unstructured": "Turing, A. (1953). The chemical basis of morphogenesis. Philosophical Transactions of the Royal Society. Part B, 237, 37–72.",
+          "journal-title": "Philosophical Transactions of the Royal Society. Part B"
+        },
+        {
+          "issue": "4",
+          "key": "75_CR194",
+          "doi-asserted-by": "crossref",
+          "first-page": "786",
+          "DOI": "10.1108/17563780911005872",
+          "volume": "2",
+          "author": "B. Varghese",
+          "year": "2009",
+          "unstructured": "Varghese, B., & McKee, G. (2009). A review and implementation of swarm pattern formation and transformation models. International Journal of Intelligent Computing and Cybernetics, 2(4), 786–817.",
+          "journal-title": "International Journal of Intelligent Computing and Cybernetics"
+        },
+        {
+          "issue": "2–4",
+          "key": "75_CR195",
+          "doi-asserted-by": "crossref",
+          "first-page": "189",
+          "DOI": "10.1007/s11721-008-0014-4",
+          "volume": "2",
+          "author": "R. T. Vaughan",
+          "year": "2008",
+          "unstructured": "Vaughan, R. T. (2008). Massively multi-robot simulation in stage. Swarm Intelligence, 2(2–4), 189–208.",
+          "journal-title": "Swarm Intelligence"
+        },
+        {
+          "issue": "3",
+          "key": "75_CR196",
+          "doi-asserted-by": "crossref",
+          "first-page": "648",
+          "DOI": "10.1109/TEVC.2008.2011741",
+          "volume": "13",
+          "author": "M. Waibel",
+          "year": "2009",
+          "unstructured": "Waibel, M., Keller, L., & Floreano, D. (2009). Genetic team composition and level of selection in the evolution of cooperation. IEEE Transactions on Evolutionary Computation, 13(3), 648–660.",
+          "journal-title": "IEEE Transactions on Evolutionary Computation"
+        },
+        {
+          "issue": "13–14",
+          "key": "75_CR197",
+          "doi-asserted-by": "crossref",
+          "first-page": "1427",
+          "DOI": "10.1016/j.comcom.2009.05.004",
+          "volume": "32",
+          "author": "B. Wang",
+          "year": "2009",
+          "unstructured": "Wang, B., Lim, H. B., & Ma, D. (2009). A survey of movement strategies for improving network coverage in wireless sensor networks. Computer Communications, 32(13–14), 1427–1436.",
+          "journal-title": "Computer Communications"
+        },
+        {
+          "key": "75_CR198",
+          "doi-asserted-by": "crossref",
+          "first-page": "2696",
+          "DOI": "10.1109/IRDS.2002.1041677",
+          "volume-title": "Proceedings of the IEEE/RSJ international conference on intelligent robots and systems (IROS)",
+          "author": "J. Wawerla",
+          "year": "2002",
+          "unstructured": "Wawerla, J., Sukhatme, G. S., & Matarić, M. J. (2002). Collective construction with multiple robots. In Proceedings of the IEEE/RSJ international conference on intelligent robots and systems (IROS) (pp. 2696–2701)."
+        },
+        {
+          "key": "75_CR199",
+          "doi-asserted-by": "crossref",
+          "first-page": "20",
+          "DOI": "10.1109/MIS.2006.25",
+          "volume": "21",
+          "author": "J. Werfel",
+          "year": "2006",
+          "unstructured": "Werfel, J. (2006). Extended stigmergy in collective construction. IEEE Intelligent Systems, 21, 20–28.",
+          "journal-title": "IEEE Intelligent Systems"
+        },
+        {
+          "key": "75_CR200",
+          "unstructured": "Werfel, J. (2011). Distributed multi-robot algorithms for the TERMES 3D collective construction system. URL http://www.eecs.harvard.edu/ssr/publications/ . Last checked on November 2012."
+        },
+        {
+          "issue": "3–4",
+          "key": "75_CR201",
+          "doi-asserted-by": "crossref",
+          "first-page": "463",
+          "DOI": "10.1177/0278364907084984",
+          "volume": "27",
+          "author": "J. Werfel",
+          "year": "2008",
+          "unstructured": "Werfel, J., & Nagpal, R. (2008). Three-dimensional construction with mobile robots and modular blocks. International Journal of Robotics Research, 27(3–4), 463–479.",
+          "journal-title": "International Journal of Robotics Research"
+        },
+        {
+          "key": "75_CR202",
+          "volume-title": "Proceedings of the IEEE/RSJ international conference on intelligent robots and systems (IROS)",
+          "author": "J. Werfel",
+          "year": "2011",
+          "unstructured": "Werfel, J., Petersen, K., & Nagpal, R. (2011). Distributed multi-robot algorithms for the TERMES 3D collective construction system. In Proceedings of the IEEE/RSJ international conference on intelligent robots and systems (IROS)."
+        },
+        {
+          "key": "75_CR203",
+          "series-title": "Lecture notes in computer science",
+          "doi-asserted-by": "crossref",
+          "first-page": "893",
+          "DOI": "10.1007/978-3-540-39432-7_96",
+          "volume-title": "Advances in artificial life",
+          "author": "J. Wessnitzer",
+          "year": "2003",
+          "unstructured": "Wessnitzer, J., & Melhuish, C. (2003). Collective decision-making and behaviour transitions in distributed ad hoc wireless networks of mobile robots: target-hunting. In Lecture notes in computer science: Vol. 2801. Advances in artificial life (pp. 893–902). Berlin: Springer."
+        },
+        {
+          "key": "75_CR204",
+          "doi-asserted-by": "crossref",
+          "first-page": "185",
+          "DOI": "10.1007/978-3-642-00644-9_16",
+          "volume-title": "Distributed autonomous robotic systems 8",
+          "author": "A. F. T. Winfield",
+          "year": "2009",
+          "unstructured": "Winfield, A. F. T. (2009). Towards an engineering science of robot foraging. In Distributed autonomous robotic systems 8 (pp. 185–192). Berlin: Springer."
+        },
+        {
+          "key": "75_CR205",
+          "series-title": "Lecture notes in computer science",
+          "first-page": "126",
+          "volume-title": "Proceedings of the international workshop on simulation of adaptive behavior, SAB 2004",
+          "author": "A. F. T. Winfield",
+          "year": "2004",
+          "unstructured": "Winfield, A. F. T., Harper, C. J., & Nembrini, J. (2004). Towards dependable swarms and a new discipline of swarm engineering. In Lecture notes in computer science: Vol. 3342. Proceedings of the international workshop on simulation of adaptive behavior, SAB 2004 (pp. 126–142). Berlin: Springer."
+        },
+        {
+          "issue": "4",
+          "key": "75_CR206",
+          "first-page": "363",
+          "volume": "2",
+          "author": "A. F. T. Winfield",
+          "year": "2005",
+          "unstructured": "Winfield, A. F. T., Sa, J., Fernandez-Gago, M. C., Dixon, C., & Fisher, M. (2005). On formal specification of emergent behaviours in swarm robotic systems. International Journal of Advanced Robotic Systems, 2(4), 363–370.",
+          "journal-title": "International Journal of Advanced Robotic Systems"
+        },
+        {
+          "issue": "2–4",
+          "key": "75_CR207",
+          "doi-asserted-by": "crossref",
+          "first-page": "241",
+          "DOI": "10.1007/s11721-008-0018-0",
+          "volume": "2",
+          "author": "A. F. T. Winfield",
+          "year": "2008",
+          "unstructured": "Winfield, A. F. T., Liu, W., Nembrini, J., & Martinoli, A. (2008). Modelling a wireless connected swarm of mobile robots. Swarm Intelligence, 2(2–4), 241–266.",
+          "journal-title": "Swarm Intelligence"
+        },
+        {
+          "key": "75_CR208",
+          "unstructured": "Wolpert, D. H., & Tumer, K. (1999). An introduction to collective intelligence (Technical Report NASA-ARC-IC-99-63). NASA Ames Research Center."
+        },
+        {
+          "key": "75_CR209",
+          "volume-title": "Proceedings of IEEE symposium on computational intelligence and games",
+          "author": "E. Yang",
+          "year": "2005",
+          "unstructured": "Yang, E., & Gu, D. (2005). A survey on multiagent reinforcement learning towards multi-robot systems. In Proceedings of IEEE symposium on computational intelligence and games. Piscataway: IEEE Press."
+        },
+        {
+          "key": "75_CR210",
+          "series-title": "Springer tracts in advanced robotics",
+          "first-page": "607",
+          "volume-title": "Proc. of the 14th international symposium on robotics research",
+          "author": "S. Yun",
+          "year": "2009",
+          "unstructured": "Yun, S., Schwager, M., & Rus, D. (2009). Coordinating construction of truss structures using distributed equal-mass partitioning. In Springer tracts in advanced robotics: Vol. 70. Proc. of the 14th international symposium on robotics research (pp. 607–623). Berlin: Springer."
+        }
+      ],
+      "container-title": [
+        "Swarm Intelligence"
+      ],
+      "original-title": [],
+      "language": "en",
+      "link": [
+        {
+          "URL": "http://link.springer.com/content/pdf/10.1007/s11721-012-0075-2.pdf",
+          "content-type": "application/pdf",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        },
+        {
+          "URL": "http://link.springer.com/article/10.1007/s11721-012-0075-2/fulltext.html",
+          "content-type": "text/html",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        },
+        {
+          "URL": "http://link.springer.com/content/pdf/10.1007/s11721-012-0075-2",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2023,
+            6,
+            28
+          ]
+        ],
+        "date-time": "2023-06-28T14:46:36Z",
+        "timestamp": 1687963596000
+      },
+      "score": 1,
+      "resource": {
+        "primary": {
+          "URL": "http://link.springer.com/10.1007/s11721-012-0075-2"
+        }
+      },
+      "subtitle": [],
+      "short-title": [],
+      "issued": {
+        "date-parts": [
+          [
+            2013,
+            1,
+            17
+          ]
+        ]
+      },
+      "references-count": 210,
+      "journal-issue": {
+        "issue": "1",
+        "published-print": {
+          "date-parts": [
+            [
+              2013,
+              3
+            ]
+          ]
+        }
+      },
+      "alternative-id": [
+        "75"
+      ],
+      "URL": "https://doi.org/10.1007/s11721-012-0075-2",
+      "relation": {},
+      "ISSN": [
+        "1935-3812",
+        "1935-3820"
+      ],
+      "issn-type": [
+        {
+          "value": "1935-3812",
+          "type": "print"
+        },
+        {
+          "value": "1935-3820",
+          "type": "electronic"
+        }
+      ],
+      "subject": [],
+      "published": {
+        "date-parts": [
+          [
+            2013,
+            1,
+            17
+          ]
+        ]
+      }
+    }
+  }
+}

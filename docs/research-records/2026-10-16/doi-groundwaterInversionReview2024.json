@@ -1,0 +1,1375 @@
+{
+  "retrieved": "2026-10-16",
+  "url": "https://api.crossref.org/works/10.1016/j.deepre.2024.100009",
+  "response": {
+    "status": "ok",
+    "message-type": "work",
+    "message-version": "1.0.0",
+    "message": {
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            6,
+            23
+          ]
+        ],
+        "date-time": "2026-06-23T08:31:34Z",
+        "timestamp": 1782203494633,
+        "version": "3.54.5"
+      },
+      "reference-count": 93,
+      "publisher": "Elsevier BV",
+      "issue": "2",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2024,
+                6,
+                1
+              ]
+            ],
+            "date-time": "2024-06-01T00:00:00Z",
+            "timestamp": 1717200000000
+          },
+          "content-version": "tdm",
+          "delay-in-days": 0,
+          "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+        },
+        {
+          "start": {
+            "date-parts": [
+              [
+                2024,
+                6,
+                1
+              ]
+            ],
+            "date-time": "2024-06-01T00:00:00Z",
+            "timestamp": 1717200000000
+          },
+          "content-version": "tdm",
+          "delay-in-days": 0,
+          "URL": "https://www.elsevier.com/legal/tdmrep-license"
+        },
+        {
+          "start": {
+            "date-parts": [
+              [
+                2024,
+                4,
+                7
+              ]
+            ],
+            "date-time": "2024-04-07T00:00:00Z",
+            "timestamp": 1712448000000
+          },
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "URL": "http://creativecommons.org/licenses/by-nc-nd/4.0/"
+        }
+      ],
+      "funder": [
+        {
+          "DOI": "10.13039/501100012226",
+          "name": "Fundamental Research Funds for the Central Universities",
+          "doi-asserted-by": "publisher",
+          "award": [
+            "XJ2023005201"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "XJ2023005201"
+              ]
+            }
+          ],
+          "id": [
+            {
+              "id": "10.13039/501100012226",
+              "id-type": "DOI",
+              "asserted-by": "publisher"
+            }
+          ]
+        },
+        {
+          "DOI": "10.13039/501100001809",
+          "name": "National Natural Science Foundation of China",
+          "doi-asserted-by": "publisher",
+          "award": [
+            "U2267217"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "U2267217"
+              ]
+            }
+          ],
+          "id": [
+            {
+              "id": "10.13039/501100001809",
+              "id-type": "DOI",
+              "asserted-by": "publisher"
+            }
+          ]
+        },
+        {
+          "DOI": "10.13039/501100001809",
+          "name": "National Natural Science Foundation of China",
+          "doi-asserted-by": "publisher",
+          "award": [
+            "42141011"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "42141011"
+              ]
+            }
+          ],
+          "id": [
+            {
+              "id": "10.13039/501100001809",
+              "id-type": "DOI",
+              "asserted-by": "publisher"
+            }
+          ]
+        },
+        {
+          "DOI": "10.13039/501100001809",
+          "name": "National Natural Science Foundation of China",
+          "doi-asserted-by": "publisher",
+          "award": [
+            "42002254"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "42002254"
+              ]
+            }
+          ],
+          "id": [
+            {
+              "id": "10.13039/501100001809",
+              "id-type": "DOI",
+              "asserted-by": "publisher"
+            }
+          ]
+        }
+      ],
+      "content-domain": {
+        "domain": [
+          "elsevier.com",
+          "sciencedirect.com"
+        ],
+        "crossmark-restriction": true
+      },
+      "short-container-title": [
+        "Deep Resources Engineering"
+      ],
+      "published-print": {
+        "date-parts": [
+          [
+            2024,
+            6
+          ]
+        ]
+      },
+      "DOI": "10.1016/j.deepre.2024.100009",
+      "type": "journal-article",
+      "created": {
+        "date-parts": [
+          [
+            2024,
+            4,
+            7
+          ]
+        ],
+        "date-time": "2024-04-07T19:57:12Z",
+        "timestamp": 1712519832000
+      },
+      "page": "100009",
+      "update-policy": "https://doi.org/10.1016/elsevier_cm_policy",
+      "source": "Crossref",
+      "is-referenced-by-count": 11,
+      "title": [
+        "Metaheuristic algorithms for groundwater model parameter inversion: Advances and prospects"
+      ],
+      "prefix": "10.1016",
+      "volume": "1",
+      "author": [
+        {
+          "given": "Junjun",
+          "family": "Chen",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Zhenxue",
+          "family": "Dai",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "78",
+      "reference": [
+        {
+          "issue": "1-4",
+          "key": "10.1016/j.deepre.2024.100009_bib1",
+          "doi-asserted-by": "crossref",
+          "first-page": "144",
+          "DOI": "10.1016/S0022-1694(98)00283-2",
+          "article-title": "Modeling of non-isothermal multi-component reactive transport in field scale porous media flow systems",
+          "volume": "214",
+          "author": "Xu",
+          "year": "1999",
+          "journal-title": "J. Hydrol."
+        },
+        {
+          "key": "10.1016/j.deepre.2024.100009_bib2",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1016/j.enggeo.2020.105763",
+          "article-title": "Effects of Water Diversion Project on groundwater system and land subsidence in Beijing, China",
+          "volume": "276",
+          "author": "Zhu",
+          "year": "2020",
+          "journal-title": "Eng. Geol."
+        },
+        {
+          "key": "10.1016/j.deepre.2024.100009_bib3",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1016/j.scitotenv.2021.146193",
+          "article-title": "Land subsidence: a global challenge",
+          "volume": "778",
+          "author": "Bagheri-Gavkosh",
+          "year": "2021",
+          "journal-title": "Sci. Total Environ."
+        },
+        {
+          "issue": "3",
+          "key": "10.1016/j.deepre.2024.100009_bib4",
+          "doi-asserted-by": "crossref",
+          "first-page": "613",
+          "DOI": "10.1007/s10596-014-9445-8",
+          "article-title": "A reactive transport benchmark on heavy metal cycling in lake sediments",
+          "volume": "19",
+          "author": "Arora",
+          "year": "2014",
+          "journal-title": "Comput. Geosci."
+        },
+        {
+          "issue": "3",
+          "key": "10.1016/j.deepre.2024.100009_bib5",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1029/2002WR001506",
+          "article-title": "Modeling of contaminants mobility in underground domains with multiple free/porous interfaces",
+          "volume": "39",
+          "author": "Das",
+          "year": "2003",
+          "journal-title": "Water Resour. Res."
+        },
+        {
+          "issue": "1",
+          "key": "10.1016/j.deepre.2024.100009_bib6",
+          "doi-asserted-by": "crossref",
+          "first-page": "31",
+          "DOI": "10.1007/s10346-020-01484-6",
+          "article-title": "Prediction of shallow landslides in pyroclastic-covered slopes by coupled modeling of unsaturated and saturated groundwater flow",
+          "volume": "18",
+          "author": "Marino",
+          "year": "2021",
+          "journal-title": "Landslides"
+        },
+        {
+          "issue": "5",
+          "key": "10.1016/j.deepre.2024.100009_bib7",
+          "doi-asserted-by": "crossref",
+          "first-page": "1013",
+          "DOI": "10.1007/s10346-022-02023-1",
+          "article-title": "Combing soil spatial variation and weakening of the groundwater fluctuation zone for the probabilistic stability analysis of a riverside landslide in the Three Gorges Reservoir area",
+          "volume": "20",
+          "author": "Xue",
+          "year": "2023",
+          "journal-title": "Landslides"
+        },
+        {
+          "issue": "2",
+          "key": "10.1016/j.deepre.2024.100009_bib8",
+          "doi-asserted-by": "crossref",
+          "first-page": "99",
+          "DOI": "10.2138/gselements.15.2.99",
+          "article-title": "Reactive transport modeling: a key performance assessment tool for the geologic disposal of nuclear waste",
+          "volume": "15",
+          "author": "De Windt",
+          "year": "2019",
+          "journal-title": "Elements"
+        },
+        {
+          "key": "10.1016/j.deepre.2024.100009_bib9",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1016/j.jclepro.2022.132944",
+          "article-title": "Uncertainty quantification of radionuclide migration in fractured granite",
+          "volume": "366",
+          "author": "Jia",
+          "year": "2022",
+          "journal-title": "J. Clean. Prod."
+        },
+        {
+          "key": "10.1016/j.deepre.2024.100009_bib10",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1016/j.earscirev.2020.103265",
+          "article-title": "Reactive chemical transport simulations of geologic carbon sequestration: methods and applications",
+          "volume": "208",
+          "author": "Dai",
+          "year": "2020",
+          "journal-title": "Earth-Sci. Rev."
+        },
+        {
+          "issue": "5",
+          "key": "10.1016/j.deepre.2024.100009_bib11",
+          "doi-asserted-by": "crossref",
+          "first-page": "3527",
+          "DOI": "10.1002/2017WR020841",
+          "article-title": "Geological storage of captured carbon dioxide as a large-scale carbon mitigation option",
+          "volume": "53",
+          "author": "Celia",
+          "year": "2017",
+          "journal-title": "Water Resour. Res."
+        },
+        {
+          "issue": "2",
+          "key": "10.1016/j.deepre.2024.100009_bib12",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1029/2001WR001135",
+          "article-title": "Global-local optimization for parameter structure identification in three-dimensional groundwater modeling",
+          "volume": "39",
+          "author": "Tsai",
+          "year": "2003",
+          "journal-title": "Water Resour. Res."
+        },
+        {
+          "issue": "2",
+          "key": "10.1016/j.deepre.2024.100009_bib13",
+          "doi-asserted-by": "crossref",
+          "first-page": "95",
+          "DOI": "10.1029/WR022i002p00095",
+          "article-title": "Review of parameter identification procedures in groundwater hydrology: the inverse problem",
+          "volume": "22",
+          "author": "Yeh",
+          "year": "1986",
+          "journal-title": "Water Resour. Res."
+        },
+        {
+          "issue": "1-3",
+          "key": "10.1016/j.deepre.2024.100009_bib14",
+          "doi-asserted-by": "crossref",
+          "first-page": "68",
+          "DOI": "10.1016/j.jhydrol.2003.10.024",
+          "article-title": "Transport in heterogeneous sediments with multimodal conductivity and hierarchical organization across scales",
+          "volume": "294",
+          "author": "Dai",
+          "year": "2004",
+          "journal-title": "J. Hydrol."
+        },
+        {
+          "issue": "3",
+          "key": "10.1016/j.deepre.2024.100009_bib15",
+          "first-page": "1601",
+          "article-title": "Relating reactive solute transport to hierarchical and multiscale sedimentary architecture in a Lagrangian-based transport model: 2",
+          "volume": "51",
+          "author": "Soltanian",
+          "year": "2015",
+          "journal-title": "Part. Displac. Var."
+        },
+        {
+          "issue": "3",
+          "key": "10.1016/j.deepre.2024.100009_bib16",
+          "first-page": "1586",
+          "article-title": "Relating reactive solute transport to hierarchical and multiscale sedimentary architecture in a Lagrangian-based transport model: 1",
+          "volume": "51",
+          "author": "Soltanian",
+          "year": "2015",
+          "journal-title": "Time-Depend. Eff. Retard. Factor"
+        },
+        {
+          "issue": "12",
+          "key": "10.1016/j.deepre.2024.100009_bib17",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1029/2021WR030595",
+          "article-title": "An improved tandem neural network architecture for inverse modeling of multicomponent reactive transport in porous media",
+          "volume": "57",
+          "author": "Chen",
+          "year": "2021",
+          "journal-title": "Water Resour. Res."
+        },
+        {
+          "issue": "5",
+          "key": "10.1016/j.deepre.2024.100009_bib18",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1029/2011WR011068",
+          "article-title": "Inverse groundwater modeling with emphasis on model parameterization",
+          "volume": "48",
+          "author": "Kourakos",
+          "year": "2012",
+          "journal-title": "Water Resour. Res."
+        },
+        {
+          "issue": "8",
+          "key": "10.1016/j.deepre.2024.100009_bib19",
+          "doi-asserted-by": "crossref",
+          "first-page": "6625",
+          "DOI": "10.1029/2018WR024461",
+          "article-title": "Gradient-based inverse estimation for a rainfall-runoff model",
+          "volume": "55",
+          "author": "Krapu",
+          "year": "2019",
+          "journal-title": "Water Resour. Res."
+        },
+        {
+          "key": "10.1016/j.deepre.2024.100009_bib20",
+          "doi-asserted-by": "crossref",
+          "first-page": "273",
+          "DOI": "10.1016/j.envsoft.2015.08.013",
+          "article-title": "Markov chain Monte Carlo simulation using the DREAM software package: theory, concepts, and MATLAB implementation",
+          "volume": "75",
+          "author": "Vrugt",
+          "year": "2016",
+          "journal-title": "Environ. Model. Softw."
+        },
+        {
+          "issue": "6",
+          "key": "10.1016/j.deepre.2024.100009_bib21",
+          "doi-asserted-by": "crossref",
+          "first-page": "1155",
+          "DOI": "10.1007/s10040-015-1272-z",
+          "article-title": "Review: simulation-optimization models for the management and monitoring of coastal aquifers",
+          "volume": "23",
+          "author": "Sreekanth",
+          "year": "2015",
+          "journal-title": "Hydrogeol. J."
+        },
+        {
+          "issue": "7",
+          "key": "10.1016/j.deepre.2024.100009_bib22",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1029/2005WR004528",
+          "article-title": "Multiobjective particle swarm optimization for parameter estimation in hydrology",
+          "volume": "42",
+          "author": "Gill",
+          "year": "2006",
+          "journal-title": "Water Resour. Res."
+        },
+        {
+          "issue": "7",
+          "key": "10.1016/j.deepre.2024.100009_bib23",
+          "doi-asserted-by": "crossref",
+          "first-page": "2515",
+          "DOI": "10.1007/s11269-013-0300-9",
+          "article-title": "Groundwater model calibration by meta-heuristic algorithms",
+          "volume": "27",
+          "author": "Haddad",
+          "year": "2013",
+          "journal-title": "Water Resour. Manag."
+        },
+        {
+          "issue": "4",
+          "key": "10.1016/j.deepre.2024.100009_bib24",
+          "doi-asserted-by": "crossref",
+          "first-page": "662",
+          "DOI": "10.1111/j.1745-6584.1995.tb00322.x",
+          "article-title": "A Modified gauss-newton method for aquifer parameter identification",
+          "volume": "33",
+          "author": "Li",
+          "year": "1995",
+          "journal-title": "Groundwater"
+        },
+        {
+          "key": "10.1016/j.deepre.2024.100009_bib25",
+          "first-page": "133",
+          "article-title": "Gradient-based deterministic inversion of geophysical data with generative adversarial networks: Is it feasible?",
+          "author": "Laloy",
+          "year": "2019",
+          "journal-title": "Comput. Geosci."
+        },
+        {
+          "issue": "7",
+          "key": "10.1016/j.deepre.2024.100009_bib26",
+          "doi-asserted-by": "crossref",
+          "first-page": "1723",
+          "DOI": "10.1029/2000WR900047",
+          "article-title": "Inverse modeling for locating dense nonaqueous pools in groundwater under steady flow conditions",
+          "volume": "36",
+          "author": "Sciortino",
+          "year": "2000",
+          "journal-title": "Water Resour. Res."
+        },
+        {
+          "issue": "1",
+          "key": "10.1016/j.deepre.2024.100009_bib27",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1088/1361-6420/ac38b7",
+          "article-title": "Levenberg-Marquardt method for ill-posed inverse problems with possibly non-smooth forward mappings between Banach spaces",
+          "volume": "38",
+          "author": "Nhu",
+          "year": "2022",
+          "journal-title": "Inverse Probl."
+        },
+        {
+          "issue": "4",
+          "key": "10.1016/j.deepre.2024.100009_bib28",
+          "doi-asserted-by": "crossref",
+          "first-page": "417",
+          "DOI": "10.1016/j.apm.2006.12.009",
+          "article-title": "An inverse problem in estimating the strength of contaminant source for groundwater systems",
+          "volume": "32",
+          "author": "Huang",
+          "year": "2008",
+          "journal-title": "Appl. Math. Model."
+        },
+        {
+          "issue": "9",
+          "key": "10.1016/j.deepre.2024.100009_bib29",
+          "doi-asserted-by": "crossref",
+          "first-page": "1961",
+          "DOI": "10.1029/WR026i009p01961",
+          "article-title": "Solving groundwater flow problems by conjugate-gradient methods and the strongly implicit procedure",
+          "volume": "26",
+          "author": "Hill",
+          "year": "1990",
+          "journal-title": "Water Resour. Res."
+        },
+        {
+          "issue": "7",
+          "key": "10.1016/j.deepre.2024.100009_bib30",
+          "doi-asserted-by": "crossref",
+          "first-page": "W07407",
+          "DOI": "10.1029/2004WR003248",
+          "article-title": "Inverse problem of multicomponent reactive chemical transport in porous media: Formulation and applications",
+          "volume": "40",
+          "author": "Dai",
+          "year": "2004",
+          "journal-title": "Water Resour. Res."
+        },
+        {
+          "key": "10.1016/j.deepre.2024.100009_bib31",
+          "doi-asserted-by": "crossref",
+          "first-page": "447",
+          "DOI": "10.1016/j.jhydrol.2005.11.052",
+          "article-title": "Inverse modeling of water flow and multicomponent reactive transport in coastal aquifer systems",
+          "volume": "327",
+          "author": "Dai",
+          "year": "2006",
+          "journal-title": "J. Hydrol."
+        },
+        {
+          "issue": "12",
+          "key": "10.1016/j.deepre.2024.100009_bib32",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.3390/su15129434",
+          "article-title": "Review of metaheuristic optimization algorithms for power systems problems",
+          "volume": "15",
+          "author": "Nassef",
+          "year": "2023",
+          "journal-title": "Sustainability"
+        },
+        {
+          "key": "10.1016/j.deepre.2024.100009_bib33",
+          "article-title": "Multi-objective optimization of IoT-based green building energy system using binary metaheuristic algorithms",
+          "volume": "68",
+          "author": "Wang",
+          "year": "2023",
+          "journal-title": "J. Build. Eng."
+        },
+        {
+          "issue": "SUPPL 3",
+          "key": "10.1016/j.deepre.2024.100009_bib34",
+          "doi-asserted-by": "crossref",
+          "first-page": "2083",
+          "DOI": "10.1007/s00366-021-01363-1",
+          "article-title": "Assessment of composite beam performance using GWO-ELM metaheuristic algorithm",
+          "volume": "38",
+          "author": "Ma",
+          "year": "2022",
+          "journal-title": "Eng. Comput."
+        },
+        {
+          "key": "10.1016/j.deepre.2024.100009_bib35",
+          "doi-asserted-by": "crossref",
+          "first-page": "547",
+          "DOI": "10.1016/j.asoc.2018.09.039",
+          "article-title": "An automated approach for the design of mechanically stabilized earth walls incorporating metaheuristic optimization algorithms",
+          "volume": "74",
+          "author": "Yalcin",
+          "year": "2019",
+          "journal-title": "Appl. Soft Comput."
+        },
+        {
+          "key": "10.1016/j.deepre.2024.100009_bib36",
+          "doi-asserted-by": "crossref",
+          "first-page": "80",
+          "DOI": "10.1016/j.compind.2018.03.001",
+          "article-title": "A fast and accurate expert system for weed identification in potato crops using metaheuristic algorithms",
+          "volume": "98",
+          "author": "Sabzi",
+          "year": "2018",
+          "journal-title": "Comput. Ind."
+        },
+        {
+          "key": "10.1016/j.deepre.2024.100009_bib37",
+          "doi-asserted-by": "crossref",
+          "first-page": "728",
+          "DOI": "10.1016/j.asoc.2018.07.033",
+          "article-title": "Farmland fertility: A new metaheuristic algorithm for solving continuous optimization problems",
+          "volume": "71",
+          "author": "Shayanfar",
+          "year": "2018",
+          "journal-title": "Appl. Soft Comput."
+        },
+        {
+          "issue": "1",
+          "key": "10.1016/j.deepre.2024.100009_bib38",
+          "doi-asserted-by": "crossref",
+          "first-page": "25",
+          "DOI": "10.1016/j.ejor.2013.09.008",
+          "article-title": "Solving a bi-objective Transportation Location Routing Problem by metaheuristic algorithms.",
+          "volume": "234",
+          "author": "Abril Martinez-Salazar",
+          "year": "2014",
+          "journal-title": "Eur. J. Oper. Res."
+        },
+        {
+          "key": "10.1016/j.deepre.2024.100009_bib39",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1016/j.eswa.2022.117364",
+          "article-title": "Modified metaheuristic algorithms to design a closed-loop supply chain network considering quantity discount and fixed-charge transportation.",
+          "volume": "202",
+          "author": "Chaharmahali",
+          "year": "2022",
+          "journal-title": "Expert Syst. Appl."
+        },
+        {
+          "issue": "3",
+          "key": "10.1016/j.deepre.2024.100009_bib40",
+          "doi-asserted-by": "crossref",
+          "first-page": "1796",
+          "DOI": "10.1002/2015JB012181",
+          "article-title": "Using a genetic algorithm to estimate the details of earthquake slip distributions from point surface displacements",
+          "volume": "121",
+          "author": "Lindsay",
+          "year": "2016",
+          "journal-title": "J. Geophys. Res. -Solid Earth"
+        },
+        {
+          "issue": "B1",
+          "key": "10.1016/j.deepre.2024.100009_bib41",
+          "article-title": "Crustal and upper mantle structure of southernmost South America inferred from regional waveform inversion",
+          "volume": "108",
+          "author": "Maurice",
+          "year": "2003",
+          "journal-title": "J. Geophys. Res. -Solid Earth"
+        },
+        {
+          "key": "10.1016/j.deepre.2024.100009_bib42",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1016/j.jhydrol.2023.130258",
+          "article-title": "Groundwater pollution source identification using Metropolis-Hasting algorithm combined with Kalman filter algorithm",
+          "volume": "626",
+          "author": "Luo",
+          "year": "2023",
+          "journal-title": "J. Hydrol."
+        },
+        {
+          "key": "10.1016/j.deepre.2024.100009_bib43",
+          "first-page": "1",
+          "article-title": "An exhaustive review of the metaheuristic algorithms for search and optimization: taxonomy, applications, and open challenges",
+          "author": "Rajwar",
+          "year": "2023",
+          "journal-title": "Artif. Intell. Rev."
+        },
+        {
+          "key": "10.1016/j.deepre.2024.100009_bib44",
+          "series-title": "Adaptation in Natural and Artificial Systems",
+          "author": "Holland John",
+          "year": "1975"
+        },
+        {
+          "key": "10.1016/j.deepre.2024.100009_bib45",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1016/j.jhydrol.2020.125343",
+          "article-title": "Application of a genetic algorithm to groundwater pollution source identification",
+          "volume": "589",
+          "author": "Han",
+          "year": "2020",
+          "journal-title": "J. Hydrol."
+        },
+        {
+          "key": "10.1016/j.deepre.2024.100009_bib46",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1016/j.jhydrol.2020.124876",
+          "article-title": "Representing inflow uncertainty for the development of monthly reservoir operations using genetic algorithms",
+          "volume": "586",
+          "author": "Tegegne",
+          "year": "2020",
+          "journal-title": "J. Hydrol."
+        },
+        {
+          "issue": "3",
+          "key": "10.1016/j.deepre.2024.100009_bib47",
+          "doi-asserted-by": "crossref",
+          "first-page": "403",
+          "DOI": "10.1080/02626661003738167",
+          "article-title": "Estimation of unconfined aquifer parameters by genetic algorithms",
+          "volume": "55",
+          "author": "Rajesh",
+          "year": "2010",
+          "journal-title": "Hydrol. Sci. J."
+        },
+        {
+          "issue": "10",
+          "key": "10.1016/j.deepre.2024.100009_bib48",
+          "doi-asserted-by": "crossref",
+          "first-page": "6688",
+          "DOI": "10.1002/wrcr.20513",
+          "article-title": "Experimental design for estimating unknown groundwater pumping using genetic algorithm and reduced order model",
+          "volume": "49",
+          "author": "Ushijima",
+          "year": "2013",
+          "journal-title": "Water Resour. Res."
+        },
+        {
+          "key": "10.1016/j.deepre.2024.100009_bib49",
+          "series-title": "Proceedings of the IEEE International Conference on Neural Networks",
+          "article-title": "Particle swarm optimization",
+          "author": "Eberhart",
+          "year": "1995"
+        },
+        {
+          "key": "10.1016/j.deepre.2024.100009_bib50",
+          "doi-asserted-by": "crossref",
+          "first-page": "285",
+          "DOI": "10.1016/j.jconhyd.2014.06.003",
+          "article-title": "Particle swarm optimization for inverse modeling of solute transport in fractured gneiss aquifer",
+          "volume": "164",
+          "author": "Abdelaziz",
+          "year": "2014",
+          "journal-title": "J. Contam. Hydrol."
+        },
+        {
+          "issue": "5",
+          "key": "10.1016/j.deepre.2024.100009_bib51",
+          "doi-asserted-by": "crossref",
+          "first-page": "634",
+          "DOI": "10.1007/s12204-013-1442-x",
+          "article-title": "Application of particle swarm algorithm in the optimal allocation of regional water resources based on immune evolutionary algorithm",
+          "volume": "18",
+          "author": "Qu",
+          "year": "2013",
+          "journal-title": "J. Shanghai Jiaotong Univ. (Sci.)"
+        },
+        {
+          "issue": "6",
+          "key": "10.1016/j.deepre.2024.100009_bib52",
+          "doi-asserted-by": "crossref",
+          "first-page": "1955",
+          "DOI": "10.1007/s11269-022-03118-z",
+          "article-title": "Forecasting groundwater levels using a hybrid of support vector regression and particle swarm optimization",
+          "volume": "36",
+          "author": "Mozaffari",
+          "year": "2022",
+          "journal-title": "Water Resour. Manag."
+        },
+        {
+          "issue": "4",
+          "key": "10.1016/j.deepre.2024.100009_bib53",
+          "doi-asserted-by": "crossref",
+          "first-page": "341",
+          "DOI": "10.1023/A:1008202821328",
+          "article-title": "Differential evolution – a simple and efficient heuristic for global optimization over continuous spaces",
+          "volume": "11",
+          "author": "Storn",
+          "year": "1997",
+          "journal-title": "J. Glob. Optim."
+        },
+        {
+          "key": "10.1016/j.deepre.2024.100009_bib54",
+          "doi-asserted-by": "crossref",
+          "first-page": "736",
+          "DOI": "10.1016/j.jhydrol.2014.01.071",
+          "article-title": "Differential-Evolution algorithm based optimization for the site selection of groundwater production wells with the consideration of the vulnerability concept",
+          "volume": "511",
+          "author": "Elçi",
+          "year": "2014",
+          "journal-title": "J. Hydrol."
+        },
+        {
+          "key": "10.1016/j.deepre.2024.100009_bib55",
+          "doi-asserted-by": "crossref",
+          "first-page": "155",
+          "DOI": "10.1016/j.jhydrol.2018.12.003",
+          "article-title": "Temporal-spatial analysis of water environmental capacity based on the couple of SWAT model and differential evolution algorithm",
+          "volume": "569",
+          "author": "Wang",
+          "year": "2019",
+          "journal-title": "J. Hydrol."
+        },
+        {
+          "issue": "8",
+          "key": "10.1016/j.deepre.2024.100009_bib56",
+          "doi-asserted-by": "crossref",
+          "first-page": "1731",
+          "DOI": "10.1007/s10040-014-1172-7",
+          "article-title": "Application of differential evolutionary optimization methodology for parameter structure identification in groundwater modeling",
+          "volume": "22",
+          "author": "Chiu",
+          "year": "2014",
+          "journal-title": "Hydrogeol. J."
+        },
+        {
+          "issue": "6",
+          "key": "10.1016/j.deepre.2024.100009_bib57",
+          "doi-asserted-by": "crossref",
+          "first-page": "1109",
+          "DOI": "10.1007/s10040-015-1256-z",
+          "article-title": "Solving inverse problems of groundwater-pollution-source identification using a differential evolution algorithm",
+          "volume": "23",
+          "author": "Gurarslan",
+          "year": "2015",
+          "journal-title": "Hydrogeol. J."
+        },
+        {
+          "issue": "6",
+          "key": "10.1016/j.deepre.2024.100009_bib58",
+          "doi-asserted-by": "crossref",
+          "first-page": "1087",
+          "DOI": "10.1063/1.1699114",
+          "article-title": "Equation of state calculations by fast computing machines",
+          "volume": "21",
+          "author": "Metropolis",
+          "year": "1953",
+          "journal-title": "J. Chem. Phys."
+        },
+        {
+          "issue": "4598",
+          "key": "10.1016/j.deepre.2024.100009_bib59",
+          "doi-asserted-by": "crossref",
+          "first-page": "671",
+          "DOI": "10.1126/science.220.4598.671",
+          "article-title": "Optimization by simulated annealing",
+          "volume": "220",
+          "author": "Kirkpatrick",
+          "year": "1983",
+          "journal-title": "Science"
+        },
+        {
+          "issue": "7",
+          "key": "10.1016/j.deepre.2024.100009_bib60",
+          "doi-asserted-by": "crossref",
+          "first-page": "1707",
+          "DOI": "10.1029/2000WR900073",
+          "article-title": "Identifying fracture-zone geometry using simulated annealing and hydraulic-connection data",
+          "volume": "36",
+          "author": "Day-Lewis",
+          "year": "2000",
+          "journal-title": "Water Resour. Res."
+        },
+        {
+          "issue": "3",
+          "key": "10.1016/j.deepre.2024.100009_bib61",
+          "doi-asserted-by": "crossref",
+          "first-page": "307",
+          "DOI": "10.1061/(ASCE)HE.1943-5584.0000624",
+          "article-title": "Three-dimensional groundwater contamination source identification using adaptive simulated annealing",
+          "volume": "18",
+          "author": "Jha",
+          "year": "2013",
+          "journal-title": "J. Hydrol. Eng."
+        },
+        {
+          "issue": "3",
+          "key": "10.1016/j.deepre.2024.100009_bib62",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1029/2019WR025852",
+          "article-title": "A new multiobjective simulated annealing algorithm—MOSA-GR: application to the optimal design of water distribution networks",
+          "volume": "56",
+          "author": "Cunha",
+          "year": "2020",
+          "journal-title": "Water Resour. Res."
+        },
+        {
+          "issue": "7",
+          "key": "10.1016/j.deepre.2024.100009_bib63",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1029/2022WR032018",
+          "article-title": "Transient storage model parameter optimization using the simulated annealing method",
+          "volume": "58",
+          "author": "Tsai",
+          "year": "2022",
+          "journal-title": "Water Resour. Res."
+        },
+        {
+          "issue": "2",
+          "key": "10.1016/j.deepre.2024.100009_bib64",
+          "doi-asserted-by": "crossref",
+          "first-page": "145",
+          "DOI": "10.1016/j.cageo.2005.06.014",
+          "article-title": "TOUGHREACT—A simulation program for non-isothermal multiphase reactive geochemical transport in variably saturated geologic media: applications to geothermal injectivity and CO2 geological sequestration",
+          "volume": "32",
+          "author": "Xu",
+          "year": "2006",
+          "journal-title": "Comput. Geosci."
+        },
+        {
+          "issue": "6",
+          "key": "10.1016/j.deepre.2024.100009_bib65",
+          "doi-asserted-by": "crossref",
+          "first-page": "763",
+          "DOI": "10.1016/j.cageo.2010.10.007",
+          "article-title": "TOUGHREACT Version 2.0: A simulator for subsurface reactive transport under non-isothermal multiphase flow conditions",
+          "volume": "37",
+          "author": "Xu",
+          "year": "2011",
+          "journal-title": "Comput. Geosci."
+        },
+        {
+          "issue": "8",
+          "key": "10.1016/j.deepre.2024.100009_bib66",
+          "doi-asserted-by": "crossref",
+          "first-page": "5957",
+          "DOI": "10.1002/2015WR016967",
+          "article-title": "A review of surrogate models and their application to groundwater modeling",
+          "volume": "51",
+          "author": "Asher",
+          "year": "2015",
+          "journal-title": "Water Resour. Res."
+        },
+        {
+          "key": "10.1016/j.deepre.2024.100009_bib67",
+          "article-title": "Deep residual learning for image recognition",
+          "author": "He",
+          "year": "2016",
+          "journal-title": "Proc. IEEE Conf. Comput. Vis. Pattern Recognit. F."
+        },
+        {
+          "key": "10.1016/j.deepre.2024.100009_bib68",
+          "doi-asserted-by": "crossref",
+          "first-page": "121366",
+          "DOI": "10.1109/ACCESS.2021.3073480",
+          "article-title": "Improved initialization method for metaheuristic algorithms: a novel search space view",
+          "volume": "9",
+          "author": "Li",
+          "year": "2021",
+          "journal-title": "IEEE Access"
+        },
+        {
+          "key": "10.1016/j.deepre.2024.100009_bib69",
+          "doi-asserted-by": "crossref",
+          "first-page": "794",
+          "DOI": "10.1016/j.matcom.2022.10.023",
+          "article-title": "A novel improved whale optimization algorithm for optimization problems with multi-strategy and hybrid algorithm",
+          "volume": "205",
+          "author": "Deng",
+          "year": "2023",
+          "journal-title": "Math. Comput. Simul."
+        },
+        {
+          "issue": "8",
+          "key": "10.1016/j.deepre.2024.100009_bib70",
+          "doi-asserted-by": "crossref",
+          "first-page": "2895",
+          "DOI": "10.1007/s11269-015-0976-0",
+          "article-title": "Optimal remediation design of unconfined contaminated aquifers based on the finite element method and a modified firefly algorithm",
+          "volume": "29",
+          "author": "Kazemzadeh-Parsi",
+          "year": "2015",
+          "journal-title": "Water Resour. Manag."
+        },
+        {
+          "issue": "3",
+          "key": "10.1016/j.deepre.2024.100009_bib71",
+          "doi-asserted-by": "crossref",
+          "first-page": "2844",
+          "DOI": "10.1007/s11227-020-03378-9",
+          "article-title": "A new and fast rival genetic algorithm for feature selection",
+          "volume": "77",
+          "author": "Too",
+          "year": "2020",
+          "journal-title": "J. Supercomput."
+        },
+        {
+          "key": "10.1016/j.deepre.2024.100009_bib72",
+          "doi-asserted-by": "crossref",
+          "first-page": "184",
+          "DOI": "10.1016/j.chemgeo.2019.03.017",
+          "article-title": "3D reactive transport modeling of porosity evolution in a carbonate reservoir through dolomitization",
+          "volume": "513",
+          "author": "Abarca",
+          "year": "2019",
+          "journal-title": "Chem. Geol."
+        },
+        {
+          "key": "10.1016/j.deepre.2024.100009_bib73",
+          "doi-asserted-by": "crossref",
+          "first-page": "110",
+          "DOI": "10.1016/j.jcp.2018.12.025",
+          "article-title": "Adaptive multi-fidelity polynomial chaos approach to Bayesian inference in inverse problems",
+          "volume": "381",
+          "author": "Yan",
+          "year": "2019",
+          "journal-title": "J. Comput. Phys."
+        },
+        {
+          "issue": "1",
+          "key": "10.1016/j.deepre.2024.100009_bib74",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1029/2019WR025721",
+          "article-title": "Surrogate-based Bayesian inverse modeling of the hydrological system: an adaptive approach considering surrogate approximation error",
+          "volume": "56",
+          "author": "Zhang",
+          "year": "2020",
+          "journal-title": "Water Resour. Res."
+        },
+        {
+          "issue": "5",
+          "key": "10.1016/j.deepre.2024.100009_bib75",
+          "doi-asserted-by": "crossref",
+          "first-page": "2409",
+          "DOI": "10.5194/hess-19-2409-2015",
+          "article-title": "Multi-objective parameter optimization of common land model using adaptive surrogate modeling",
+          "volume": "19",
+          "author": "Gong",
+          "year": "2015",
+          "journal-title": "Hydrol. Earth Syst. Sci."
+        },
+        {
+          "issue": "3",
+          "key": "10.1016/j.deepre.2024.100009_bib76",
+          "doi-asserted-by": "crossref",
+          "first-page": "1984",
+          "DOI": "10.1002/2015WR018230",
+          "article-title": "Multiobjective adaptive surrogate modeling-based optimization for parameter estimation of large, complex geophysical models",
+          "volume": "52",
+          "author": "Gong",
+          "year": "2016",
+          "journal-title": "Water Resour. Res."
+        },
+        {
+          "key": "10.1016/j.deepre.2024.100009_bib77",
+          "doi-asserted-by": "crossref",
+          "first-page": "726",
+          "DOI": "10.1016/j.apm.2017.03.040",
+          "article-title": "A surrogate based multi-fidelity approach for robust design optimization",
+          "volume": "47",
+          "author": "Chakraborty",
+          "year": "2017",
+          "journal-title": "Appl. Math. Model."
+        },
+        {
+          "key": "10.1016/j.deepre.2024.100009_bib78",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1016/j.cma.2022.115811",
+          "article-title": "Multi-fidelity surrogate modeling using long short-term memory networks",
+          "volume": "404",
+          "author": "Conti",
+          "year": "2023",
+          "journal-title": "Comput. Methods Appl. Mech. Eng."
+        },
+        {
+          "issue": "12",
+          "key": "10.1016/j.deepre.2024.100009_bib79",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1115/1.4044400",
+          "article-title": "Multi-fidelity physics-constrained neural network and its application in materials modeling",
+          "volume": "141",
+          "author": "Liu",
+          "year": "2019",
+          "journal-title": "J. Mech. Des."
+        },
+        {
+          "key": "10.1016/j.deepre.2024.100009_bib80",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1016/j.jhydrol.2022.127844",
+          "article-title": "An integrated inversion framework for heterogeneous aquifer structure identification with single-sample generative adversarial network",
+          "volume": "610",
+          "author": "Zhan",
+          "year": "2022",
+          "journal-title": "J. Hydrol."
+        },
+        {
+          "issue": "7",
+          "key": "10.1016/j.deepre.2024.100009_bib81",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1029/2022WR032610",
+          "article-title": "High-dimensional groundwater flow inverse modeling by upscaled effective model on principal components",
+          "volume": "58",
+          "author": "Zhao",
+          "year": "2022",
+          "journal-title": "Water Resour. Res."
+        },
+        {
+          "issue": "2",
+          "key": "10.1016/j.deepre.2024.100009_bib82",
+          "doi-asserted-by": "crossref",
+          "first-page": "773",
+          "DOI": "10.1016/j.jcp.2003.09.015",
+          "article-title": "An efficient, high-order perturbation approach for flow in random porous media via Karhunen-Loeve and polynomial expansions",
+          "volume": "194",
+          "author": "Zhang",
+          "year": "2004",
+          "journal-title": "J. Comput. Phys."
+        },
+        {
+          "issue": "3",
+          "key": "10.1016/j.deepre.2024.100009_bib83",
+          "doi-asserted-by": "crossref",
+          "first-page": "1948",
+          "DOI": "10.1002/2016WR019518",
+          "article-title": "Efficient evaluation of small failure probability in high-dimensional groundwater contaminant transport modeling via a two-stage Monte Carlo method",
+          "volume": "53",
+          "author": "Zhang",
+          "year": "2017",
+          "journal-title": "Water Resour. Res."
+        },
+        {
+          "key": "10.1016/j.deepre.2024.100009_bib84",
+          "doi-asserted-by": "crossref",
+          "first-page": "387",
+          "DOI": "10.1016/j.advwatres.2017.09.029",
+          "article-title": "Inversion using a new low-dimensional representation of complex binary geological media based on a deep neural network",
+          "volume": "110",
+          "author": "Laloy",
+          "year": "2017",
+          "journal-title": "Adv. Water Resour."
+        },
+        {
+          "issue": "2",
+          "key": "10.1016/j.deepre.2024.100009_bib85",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1029/2020WR028538",
+          "article-title": "Hydrogeophysical characterization of nonstationary DNAPL source zones by integrating a convolutional variational autoencoder and ensemble smoother",
+          "volume": "57",
+          "author": "Kang",
+          "year": "2021",
+          "journal-title": "Water Resour. Res."
+        },
+        {
+          "key": "10.1016/j.deepre.2024.100009_bib86",
+          "doi-asserted-by": "crossref",
+          "first-page": "87",
+          "DOI": "10.1016/j.cageo.2019.04.006",
+          "article-title": "Towards a robust parameterization for conditioning facies models using deep variational autoencoders and ensemble smoother",
+          "volume": "128",
+          "author": "Canchumuni",
+          "year": "2019",
+          "journal-title": "Comput. Geosci."
+        },
+        {
+          "issue": "1",
+          "key": "10.1016/j.deepre.2024.100009_bib87",
+          "doi-asserted-by": "crossref",
+          "first-page": "381",
+          "DOI": "10.1002/2017WR022148",
+          "article-title": "Training-image based geostatistical inversion using a spatial generative adversarial neural network",
+          "volume": "54",
+          "author": "Laloy",
+          "year": "2018",
+          "journal-title": "Water Resour. Res."
+        },
+        {
+          "issue": "5",
+          "key": "10.1016/j.deepre.2024.100009_bib88",
+          "doi-asserted-by": "crossref",
+          "first-page": "925",
+          "DOI": "10.1007/s10596-019-09850-7",
+          "article-title": "Parametric generation of conditional geological realizations using generative neural networks",
+          "volume": "23",
+          "author": "Chan",
+          "year": "2019",
+          "journal-title": "Comput. Geosci."
+        },
+        {
+          "key": "10.1016/j.deepre.2024.100009_bib89",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1016/j.jhydrol.2020.125443",
+          "article-title": "Coupling ensemble smoother and deep learning with generative adversarial networks to deal with non-Gaussianity in flow and transport data assimilation",
+          "volume": "590",
+          "author": "Bao",
+          "year": "2020",
+          "journal-title": "J. Hydrol."
+        },
+        {
+          "issue": "2",
+          "key": "10.1016/j.deepre.2024.100009_bib90",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1029/2019WR026082",
+          "article-title": "Integration of adversarial autoencoders with residual dense convolutional networks for estimation of non-gaussian hydraulic conductivities",
+          "volume": "56",
+          "author": "Mo",
+          "year": "2020",
+          "journal-title": "Water Resour. Res."
+        },
+        {
+          "key": "10.1016/j.deepre.2024.100009_bib91",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1016/j.cma.2020.113375",
+          "article-title": "An advanced hybrid deep adversarial autoencoder for parameterized nonlinear fluid flow modelling",
+          "volume": "372",
+          "author": "Cheng",
+          "year": "2020",
+          "journal-title": "Comput. Methods Appl. Mech. Eng."
+        },
+        {
+          "issue": "10",
+          "key": "10.1016/j.deepre.2024.100009_bib92",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1029/2022WR032429",
+          "article-title": "Integration of deep learning and information theory for designing monitoring networks in heterogeneous aquifer systems",
+          "volume": "58",
+          "author": "Chen",
+          "year": "2022",
+          "journal-title": "Water Resour. Res."
+        },
+        {
+          "issue": "2",
+          "key": "10.1016/j.deepre.2024.100009_bib93",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1029/2019WR026082",
+          "article-title": "Integration of adversarial autoencoders with residual dense convolutional networks for estimation of non-Gaussian hydraulic conductivities",
+          "volume": "56",
+          "author": "Mo",
+          "year": "2020",
+          "journal-title": "Water Resour. Res."
+        }
+      ],
+      "container-title": [
+        "Deep Resources Engineering"
+      ],
+      "original-title": [],
+      "language": "en",
+      "link": [
+        {
+          "URL": "https://api.elsevier.com/content/article/PII:S2949930524000098?httpAccept=text/xml",
+          "content-type": "text/xml",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        },
+        {
+          "URL": "https://api.elsevier.com/content/article/PII:S2949930524000098?httpAccept=text/plain",
+          "content-type": "text/plain",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2024,
+            8,
+            3
+          ]
+        ],
+        "date-time": "2024-08-03T23:11:11Z",
+        "timestamp": 1722726671000
+      },
+      "score": 1,
+      "resource": {
+        "primary": {
+          "URL": "https://linkinghub.elsevier.com/retrieve/pii/S2949930524000098"
+        }
+      },
+      "subtitle": [],
+      "short-title": [],
+      "issued": {
+        "date-parts": [
+          [
+            2024,
+            6
+          ]
+        ]
+      },
+      "references-count": 93,
+      "journal-issue": {
+        "issue": "2",
+        "published-print": {
+          "date-parts": [
+            [
+              2024,
+              6
+            ]
+          ]
+        }
+      },
+      "alternative-id": [
+        "S2949930524000098"
+      ],
+      "URL": "https://doi.org/10.1016/j.deepre.2024.100009",
+      "relation": {},
+      "ISSN": [
+        "2949-9305"
+      ],
+      "issn-type": [
+        {
+          "value": "2949-9305",
+          "type": "print"
+        }
+      ],
+      "subject": [],
+      "published": {
+        "date-parts": [
+          [
+            2024,
+            6
+          ]
+        ]
+      },
+      "assertion": [
+        {
+          "value": "Elsevier",
+          "name": "publisher",
+          "label": "This article is maintained by"
+        },
+        {
+          "value": "Metaheuristic algorithms for groundwater model parameter inversion: Advances and prospects",
+          "name": "articletitle",
+          "label": "Article Title"
+        },
+        {
+          "value": "Deep Resources Engineering",
+          "name": "journaltitle",
+          "label": "Journal Title"
+        },
+        {
+          "value": "https://doi.org/10.1016/j.deepre.2024.100009",
+          "name": "articlelink",
+          "label": "CrossRef DOI link to publisher maintained version"
+        },
+        {
+          "value": "article",
+          "name": "content_type",
+          "label": "Content Type"
+        },
+        {
+          "value": "© 2024 The Author(s). Publishing services by Elsevier B.V. on behalf of KeAi Communications Co. Ltd",
+          "name": "copyright",
+          "label": "Copyright"
+        }
+      ],
+      "article-number": "100009"
+    }
+  }
+}

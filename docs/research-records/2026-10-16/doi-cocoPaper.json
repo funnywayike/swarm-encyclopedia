@@ -1,0 +1,804 @@
+{
+  "retrieved": "2026-10-16",
+  "url": "https://api.crossref.org/works/10.1080/10556788.2020.1808977",
+  "response": {
+    "status": "ok",
+    "message-type": "work",
+    "message-version": "1.0.0",
+    "message": {
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            10,
+            12
+          ]
+        ],
+        "date-time": "2026-10-12T00:37:55Z",
+        "timestamp": 1791765475999,
+        "version": "4.3.4"
+      },
+      "reference-count": 75,
+      "publisher": "Informa UK Limited",
+      "issue": "1",
+      "funder": [
+        {
+          "DOI": "10.13039/501100001665",
+          "name": "Agence Nationale de la Recherche",
+          "doi-asserted-by": "publisher",
+          "award": [
+            "ANR-12-MONU-0009"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "ANR-12-MONU-0009"
+              ]
+            }
+          ],
+          "id": [
+            {
+              "id": "10.13039/501100001665",
+              "id-type": "DOI",
+              "asserted-by": "publisher"
+            }
+          ]
+        },
+        {
+          "DOI": "10.13039/501100001665",
+          "name": "Agence Nationale de la Recherche",
+          "doi-asserted-by": "publisher",
+          "award": [
+            "ANR-11-LABX-0056-LMH"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "ANR-11-LABX-0056-LMH"
+              ]
+            }
+          ],
+          "id": [
+            {
+              "id": "10.13039/501100001665",
+              "id-type": "DOI",
+              "asserted-by": "publisher"
+            }
+          ]
+        },
+        {
+          "DOI": "10.13039/501100004329",
+          "name": "Javna Agencija za Raziskovalno Dejavnost RS",
+          "doi-asserted-by": "publisher",
+          "award": [
+            "Z2-8177"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "Z2-8177"
+              ]
+            }
+          ],
+          "id": [
+            {
+              "id": "10.13039/501100004329",
+              "id-type": "DOI",
+              "asserted-by": "publisher"
+            }
+          ]
+        },
+        {
+          "DOI": "10.13039/501100004329",
+          "name": "Javna Agencija za Raziskovalno Dejavnost RS",
+          "doi-asserted-by": "publisher",
+          "award": [
+            "P2-0209"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "P2-0209"
+              ]
+            }
+          ],
+          "id": [
+            {
+              "id": "10.13039/501100004329",
+              "id-type": "DOI",
+              "asserted-by": "publisher"
+            }
+          ]
+        },
+        {
+          "DOI": "10.13039/100010661",
+          "name": "European Commission's Horizon 2020 research and innovation program",
+          "doi-asserted-by": "publisher",
+          "award": [
+            "692286"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "692286"
+              ]
+            }
+          ],
+          "id": [
+            {
+              "id": "10.13039/100010661",
+              "id-type": "DOI",
+              "asserted-by": "publisher"
+            }
+          ]
+        }
+      ],
+      "content-domain": {
+        "domain": [
+          "www.tandfonline.com"
+        ],
+        "crossmark-restriction": true
+      },
+      "short-container-title": [
+        "Optimization Methods and Software"
+      ],
+      "published-print": {
+        "date-parts": [
+          [
+            2021,
+            1,
+            2
+          ]
+        ]
+      },
+      "DOI": "10.1080/10556788.2020.1808977",
+      "type": "journal-article",
+      "created": {
+        "date-parts": [
+          [
+            2020,
+            8,
+            26
+          ]
+        ],
+        "date-time": "2020-08-26T06:58:56Z",
+        "timestamp": 1598425136000
+      },
+      "page": "114-144",
+      "update-policy": "https://doi.org/10.1080/tandf_crossmark_01",
+      "source": "Crossref",
+      "is-referenced-by-count": 413,
+      "title": [
+        "COCO: a platform for comparing continuous optimizers in a black-box setting"
+      ],
+      "prefix": "10.1080",
+      "volume": "36",
+      "author": [
+        {
+          "given": "Nikolaus",
+          "family": "Hansen",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "Randopt Team, Inria, Palaiseau, France"
+            },
+            {
+              "name": "CMAP, CNRS, Ecole Polytechnique, Institut Polytechnique de Paris, Palaiseau, France"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Anne",
+          "family": "Auger",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Randopt Team, Inria, Palaiseau, France"
+            },
+            {
+              "name": "CMAP, CNRS, Ecole Polytechnique, Institut Polytechnique de Paris, Palaiseau, France"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Raymond",
+          "family": "Ros",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "LRI, Université Paris-Sud, Orsay, France"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Olaf",
+          "family": "Mersmann",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Computational Statistics, TU Dortmund University, Dortmund, Germany"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Tea",
+          "family": "Tušar",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Jožef Stefan Institute, Ljubljana, Slovenia"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Dimo",
+          "family": "Brockhoff",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Randopt Team, Inria, Palaiseau, France"
+            },
+            {
+              "name": "CMAP, CNRS, Ecole Polytechnique, Institut Polytechnique de Paris, Palaiseau, France"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "301",
+      "published-online": {
+        "date-parts": [
+          [
+            2020,
+            8,
+            25
+          ]
+        ]
+      },
+      "reference": [
+        {
+          "key": "CIT0001",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/978-3-319-68913-5"
+        },
+        {
+          "key": "CIT0002",
+          "doi-asserted-by": "crossref",
+          "unstructured": "A. Auger , D. Brockhoff , and N. Hansen ,Benchmarking the Local Metamodel CMA-ES on the Noiseless BBOB’2013 Test Bed, inGECCO (Companion) Workshop on Black-Box Optimization Benchmarking (BBOB’2013), ACM, Amsterdam, 2013, pp. 1225–1232.",
+          "DOI": "10.1145/2464576.2482701"
+        },
+        {
+          "key": "CIT0003",
+          "doi-asserted-by": "crossref",
+          "unstructured": "A. Auger , D. Brockhoff , N. Hansen , D. Tušar , T. Tušar , and T. Wagner ,Benchmarking MATLAB's gamultiobj (NSGA-II) on the Bi-objective BBOB-2016 Test Suite, inGECCO (Companion) Workshop on Black-Box Optimization Benchmarking (BBOB’2016), ACM, Denver, 2016, pp. 1233–1239.",
+          "DOI": "10.1145/2908961.2931706"
+        },
+        {
+          "key": "CIT0004",
+          "doi-asserted-by": "crossref",
+          "unstructured": "A. Auger , D. Brockhoff , N. Hansen , D. Tušar , T. Tušar , and T. Wagner ,Benchmarking RM-MEDA on the Bi-objective BBOB-2016 Test Suite, inGECCO (Companion) Workshop on Black-Box Optimization Benchmarking (BBOB’2016), ACM, Denver, 2016, pp. 1241–1247.",
+          "DOI": "10.1145/2908961.2931707"
+        },
+        {
+          "key": "CIT0005",
+          "doi-asserted-by": "crossref",
+          "unstructured": "A. Auger , D. Brockhoff , N. Hansen , D. Tušar , T. Tušar , and T. Wagner ,The Impact of Search Volume on the Performance of RANDOMSEARCH on the Bi-objective BBOB-2016 Test Suite, inGECCO (Companion) Workshop on Black-Box Optimization Benchmarking (BBOB’2016), ACM, Denver, 2016, pp. 1257–1264.",
+          "DOI": "10.1145/2908961.2931707"
+        },
+        {
+          "key": "CIT0006",
+          "doi-asserted-by": "crossref",
+          "unstructured": "A. Auger , D. Brockhoff , N. Hansen , D. Tušar , T. Tušar , and T. Wagner ,The Impact of Variation Operators on the Performance of SMS-EMOA on the Bi-objective BBOB-2016 Test Suite, inGECCO (Companion) Workshop on Black-Box Optimization Benchmarking (BBOB’2016), ACM, Denver, 2016, pp. 1225–1232.",
+          "DOI": "10.1145/2908961.2931705"
+        },
+        {
+          "key": "CIT0007",
+          "doi-asserted-by": "crossref",
+          "unstructured": "A. Auger and N. Hansen ,Performance Evaluation of an Advanced Local Search Evolutionary Algorithm, inProceedings of the IEEE Congress on Evolutionary Computation (CEC 2005), Edinburgh, 2005, pp. 1777–1784.",
+          "DOI": "10.1109/CEC.2005.1554903"
+        },
+        {
+          "key": "CIT0008",
+          "doi-asserted-by": "crossref",
+          "unstructured": "A. Auger and R. Ros ,Benchmarking the pure random search on the BBOB-2009 testbed, inGenetic and Evolutionary Computation Conference, GECCO 2009, Proceedings, Companion Material, F. Rothlauf, ed., ACM, Montreal, 2009, pp. 2479–2484.",
+          "DOI": "10.1145/1570256.1570347"
+        },
+        {
+          "key": "CIT0009",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/BF02430363"
+        },
+        {
+          "key": "CIT0010",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/s11081-017-9366-1"
+        },
+        {
+          "key": "CIT0011",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.ejor.2006.08.008"
+        },
+        {
+          "key": "CIT0012",
+          "doi-asserted-by": "crossref",
+          "unstructured": "A. Blelly , M. Felipe-Gomes , A. Auger , and D. Brockhoff ,Stopping Criteria, Initialization, and Implementations of BFGS and their Effect on the BBOB Test Suite, inGECCO (Companion) Workshop on Black-Box Optimization Benchmarking (BBOB’2009), Kyoto, 2018.",
+          "DOI": "10.1145/3205651.3208303"
+        },
+        {
+          "key": "CIT0013",
+          "unstructured": "S. Bleuler , M. Laumanns , L. Thiele , and E. Zitzler ,PISA: A Platform and Programming Language Independent Interface for Search Algorithms, inConference on Evolutionary Multi-Criterion Optimization (EMO 2003), C.M. Fonseca,et al., eds., LNCS Vol. 2632, Springer, Berlin, 2003, pp. 494–508."
+        },
+        {
+          "key": "CIT0014",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/3205651.3208312"
+        },
+        {
+          "key": "CIT0015",
+          "doi-asserted-by": "crossref",
+          "unstructured": "D. Brockhoff , T.D. Tran , and N. Hansen ,Benchmarking Numerical Multiobjective Optimizers revisited, inGenetic and Evolutionary Computation Conference (GECCO 2015), ACM, Madrid, 2015, pp. 639–646.",
+          "DOI": "10.1145/2739480.2754777"
+        },
+        {
+          "key": "CIT0016",
+          "unstructured": "D. Brockhoff , T. Tušar , A. Auger , and N. Hansen ,Using well-understood single-objective functions in multiobjective black-box optimization test suites, preprint (2019). Available at https://arxiv.org/abs/1604.00359v3. Last updated January 4, 2019."
+        },
+        {
+          "key": "CIT0017",
+          "unstructured": "D. Brockhoff , T. Tušar , D. Tušar , T. Wagner , N. Hansen , and A. Auger ,Biobjective performance assessment with the COCO platform, preprint (2016). Available at https://arxiv.org/abs/1605.01746 ."
+        },
+        {
+          "key": "CIT0018",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/imamat/6.1.76"
+        },
+        {
+          "key": "CIT0019",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1561/9781601988614"
+        },
+        {
+          "key": "CIT0020",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/s10898-013-0131-5"
+        },
+        {
+          "key": "CIT0021",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/4235.996017"
+        },
+        {
+          "key": "CIT0022",
+          "doi-asserted-by": "crossref",
+          "unstructured": "B. Doerr , M. Fouz , M. Schmidt , and M. Wahlström ,BBOB: Nelder-Mead with Resize and Halfruns, inGenetic and Evolutionary Computation Conference, GECCO 2009, Proceedings, Companion Material, F. Rothlauf, ed., ACM, Montreal, 2009, pp. 2239–2246.",
+          "DOI": "10.1145/1570256.1570312"
+        },
+        {
+          "key": "CIT0023",
+          "unstructured": "C. Doerr , H. Wang , F. Ye , S. van Rijn , and T. Bäck ,IOHprofiler: A benchmarking and profiling tool for iterative optimization heuristics, preprint (2018). Available at https://arxiv.org/abs/1810.05281 ."
+        },
+        {
+          "key": "CIT0024",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/s101070100263"
+        },
+        {
+          "key": "CIT0025",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.advengsoft.2011.05.014"
+        },
+        {
+          "key": "CIT0026",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1201/9780429246593"
+        },
+        {
+          "key": "CIT0027",
+          "first-page": "124",
+          "volume": "13",
+          "author": "El-Mihoub T.A.",
+          "year": "2006",
+          "journal-title": "Eng. Lett."
+        },
+        {
+          "key": "CIT0028",
+          "unstructured": "S. Finck , N. Hansen , R. Ros , and A. Auger ,Real-parameter black-box optimization benchmarking 2009: Presentation of the noiseless functions, Tech. Rep. 2009/20, Research Center PPE, 2009."
+        },
+        {
+          "key": "CIT0029",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/comjnl/13.3.317"
+        },
+        {
+          "key": "CIT0030",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/962437.962444"
+        },
+        {
+          "key": "CIT0031",
+          "unstructured": "A. Georges , A. Gleixner , G. Gojic , R.L. Gottwald , D. Haley , G. Hendel , and B. Matejczyk ,Feature-based algorithm selection for mixed integer programming, Tech. Rep. 18-17, ZIB, Takustr. 7, 14195 Berlin, 2018."
+        },
+        {
+          "key": "CIT0032",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1090/S0025-5718-1970-0258249-6"
+        },
+        {
+          "key": "CIT0033",
+          "volume": "43",
+          "author": "Gould N.",
+          "year": "2016",
+          "journal-title": "ACM Trans. Math. Softw. 43 (TOMS)"
+        },
+        {
+          "key": "CIT0034",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1162/106365601750190398"
+        },
+        {
+          "key": "CIT0035",
+          "unstructured": "N. Hansen , A. Auger , S. Finck , and R. Ros ,Real-parameter black-box optimization benchmarking 2009: Experimental setup, Tech. Rep. RR-6828, INRIA, 2009. Available at http://hal.inria.fr/inria-00362649/en/ ."
+        },
+        {
+          "key": "CIT0036",
+          "unstructured": "N. Hansen , S. Finck , R. Ros , and A. Auger ,Real-parameter black-box optimization benchmarking 2009: Noiseless functions definitions, Tech. Rep. RR-6829, INRIA, 2009. Available at http://hal.inria.fr/inria-00362633/en/ ."
+        },
+        {
+          "key": "CIT0037",
+          "unstructured": "N. Hansen , S. Finck , R. Ros , and A. Auger ,Real-parameter black-box optimization benchmarking 2009: Noisy functions definitions, Tech. Rep. RR-6869, INRIA, 2009. Available at http://hal.inria.fr/inria-00369466/en ."
+        },
+        {
+          "key": "CIT0038",
+          "doi-asserted-by": "crossref",
+          "unstructured": "N. Hansen , A. Auger , R. Ros , S. Finck , and P. Pošík ,Comparing Results of 31 Algorithms from the Black-box Optimization Benchmarking BBOB-2009, inGECCO ’10: Proceedings of the 12th Annual conference Comp on Genetic and Evolutionary Computation, New York, ACM, 2010, pp. 1689–1696.",
+          "DOI": "10.1145/1830761.1830790"
+        },
+        {
+          "key": "CIT0039",
+          "unstructured": "N. Hansen , A. Auger , S. Finck , and R. Ros ,Real-parameter black-box optimization benchmarking 2010: Experimental setup, Tech. Rep. RR-7215, INRIA, 2010. Available at http://coco.gforge.inria.fr/bbob2010-downloads ."
+        },
+        {
+          "key": "CIT0040",
+          "unstructured": "N. Hansen , A. Auger , O. Mersmann , T. Tušar , and D. Brockhoff ,COCO: A platform for comparing continuous optimizers in a black-box setting, preprint (2016). Available at https://arxiv.org/abs/1603.08785 ."
+        },
+        {
+          "key": "CIT0041",
+          "unstructured": "N. Hansen , T. Tušar , O. Mersmann , A. Auger , and D. Brockhoff ,COCO: The experimental procedure, preprint (2016). Available at https://arxiv.org/abs/1603.08776 ."
+        },
+        {
+          "key": "CIT0042",
+          "unstructured": "N. Hansen , A. Auger , D. Brockhoff , D. Tušar , and T. Tušar ,COCO: Performance assessment, preprint (2016). Available at https://arxiv.org/abs/1605.03560 ."
+        },
+        {
+          "key": "CIT0043",
+          "unstructured": "G. Harik and F. Lobo ,A Parameter-Less Genetic Algorithm, inGenetic and Evolutionary Computation Conference (GECCO 1999), Vol. 1. ACM, Orlando, 1999, pp. 258–265."
+        },
+        {
+          "key": "CIT0044",
+          "doi-asserted-by": "crossref",
+          "unstructured": "W. Hock and K. Schittkowski ,Test Examples for Nonlinear Programming Codes, Lecture Notes in Economics and Mathematical Systems Vol. 187, Springer, Berlin, 1981.",
+          "DOI": "10.1007/978-3-642-48320-2"
+        },
+        {
+          "key": "CIT0045",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1137/0101002"
+        },
+        {
+          "key": "CIT0046",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/BF02430364"
+        },
+        {
+          "key": "CIT0047",
+          "doi-asserted-by": "crossref",
+          "unstructured": "H. Hoos and T. Stützle ,Evaluating Las Vegas Algorithms – Pitfalls and Remedies, inProceedings of the Fourteenth Conference on Uncertainty in Artificial Intelligence (UAI-98), Madison, 1998, pp. 238–245.",
+          "DOI": "10.1007/978-3-7091-6492-1_54"
+        },
+        {
+          "key": "CIT0048",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/MCSE.2007.55"
+        },
+        {
+          "key": "CIT0049",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1023/A:1008382309369"
+        },
+        {
+          "key": "CIT0050",
+          "unstructured": "W. Huyer and A. Neumaier ,Benchmarking of MCS on the noiseless function testbed, 2009. Available at http://www.mat.univie.ac.at/∼neum/papers.html ."
+        },
+        {
+          "key": "CIT0051",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1090/dimacs/059/11"
+        },
+        {
+          "key": "CIT0052",
+          "doi-asserted-by": "crossref",
+          "unstructured": "I. Loshchilov , M. Schoenauer , and M. Sebag ,Black-Box Optimization Benchmarking of NIPOP-aCMA-ES and NBIPOP-aCMA-ES on the BBOB-2012 Noiseless Testbed, inCompanion Proceedings of the Genetic and Evolutionary Computation Conference (GECCO 2012), T. Soule, ed., ACM, Philadelphia, 2012, pp. 269–276.",
+          "DOI": "10.1145/2330784.2330823"
+        },
+        {
+          "key": "CIT0053",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1162/EVCO_a_00134"
+        },
+        {
+          "key": "CIT0054",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1137/080724083"
+        },
+        {
+          "key": "CIT0055",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/355934.355936"
+        },
+        {
+          "key": "CIT0056",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/comjnl/7.4.308"
+        },
+        {
+          "key": "CIT0057",
+          "unstructured": "A. Nemirovski ,Information-based Complexity of Convex Programming, Lecture Notes, 1995."
+        },
+        {
+          "key": "CIT0058",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/978-3-319-91578-4"
+        },
+        {
+          "key": "CIT0059",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/0-387-30065-1_16"
+        },
+        {
+          "key": "CIT0060",
+          "unstructured": "K. Price ,Differential Evolution vs. the Functions of The Second ICEO, inProceedings of the IEEE International Congress on Evolutionary Computation, Piscataway, NJ, IEEE, 1997, pp. 153–157."
+        },
+        {
+          "key": "CIT0061",
+          "doi-asserted-by": "crossref",
+          "unstructured": "T. Robič and B. Filipič ,Differential evolution for multiobjective optimization, inEvolutionary Multi-Criterion Optimization (EMO 2005), Carlos A. Coello Coello, Arturo Hernandez Aguirre, and Eckart Zitzler. Springer, Guanajuato, 2005, pp. 520–533.",
+          "DOI": "10.1007/978-3-540-31880-4_36"
+        },
+        {
+          "key": "CIT0062",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/1570256.1570338"
+        },
+        {
+          "key": "CIT0063",
+          "unstructured": "F. Rothlauf (ed.),Genetic and Evolutionary Computation Conference, GECCO 2009, Proceedings, Companion Material, ACM, Montreal, 2009."
+        },
+        {
+          "key": "CIT0064",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/978-3-642-61582-5"
+        },
+        {
+          "key": "CIT0065",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1090/S0025-5718-1970-0274029-X"
+        },
+        {
+          "key": "CIT0066",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.103.2684.677"
+        },
+        {
+          "key": "CIT0067",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/MCI.2017.2742868"
+        },
+        {
+          "key": "CIT0068",
+          "doi-asserted-by": "crossref",
+          "unstructured": "T. Tušar and B. Filipič ,Performance of the DEMO Algorithm on the Bi-objective BBOB Test Suite, inCompanion Proceedings of the Genetic and Evolutionary Computation Conference (GECCO 2016), ACM, Denver, 2016, pp. 1249–1256.",
+          "DOI": "10.1145/2908961.2931708"
+        },
+        {
+          "key": "CIT0069",
+          "unstructured": "T. Tušar , N. Hansen , and D. Brockhoff ,Anytime Benchmarking of Budget-Dependent Algorithms with the COCO Platform, inInternational Multiconference Information Society (IS 2017), ACM, Ljubljana, 2017, pp. 47–50."
+        },
+        {
+          "key": "CIT0070",
+          "doi-asserted-by": "crossref",
+          "unstructured": "T. Tušar , D. Brockhoff , and N. Hansen ,Mixed-integer Benchmark Problems for Single- and Bi-objective Optimization, inGenetic and Evolutionary Computation Conference (GECCO 2019), ACM, Prague, 2019, pp. 718–726.",
+          "DOI": "10.1145/3321707.3321868"
+        },
+        {
+          "key": "CIT0071",
+          "doi-asserted-by": "crossref",
+          "unstructured": "K. Varelas , A. Auger , D. Brockhoff , N. Hansen , O.A. ElHara , Y. Semet , R. Kassab , and F. Barbaresco ,A Comparative Study of Large-Scale Variants of CMA-ES, inInternational Conference on Parallel Problem Solving from Nature, Springer, Coimbra, 2018, pp. 3–15.",
+          "DOI": "10.1007/978-3-319-99253-2_1"
+        },
+        {
+          "key": "CIT0072",
+          "doi-asserted-by": "crossref",
+          "unstructured": "V. Volz , B. Naujoks , P. Kerschke , and T. Tušar ,Single- and Multi-Objective Game-Benchmark for Evolutionary Algorithms, inGenetic and Evolutionary Computation Conference (GECCO 2019), ACM, Prague, 2019, pp. 647–655.",
+          "DOI": "10.1145/3321707.3321805"
+        },
+        {
+          "key": "CIT0073",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/0004-3702(95)00124-7"
+        },
+        {
+          "key": "CIT0074",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/TEVC.2007.894202"
+        },
+        {
+          "key": "CIT0075",
+          "unstructured": "E. Zitzler and L. Thiele ,Multiobjective Optimization Using Evolutionary Algorithms: A Comparative Case Study, inConference on Parallel Problem Solving from Nature (PPSN V), LNCS Vol. 1498, Amsterdam, 1998, pp. 292–301."
+        }
+      ],
+      "container-title": [
+        "Optimization Methods and Software"
+      ],
+      "original-title": [],
+      "language": "en",
+      "link": [
+        {
+          "URL": "https://www.tandfonline.com/doi/pdf/10.1080/10556788.2020.1808977",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2024,
+            8,
+            12
+          ]
+        ],
+        "date-time": "2024-08-12T14:59:24Z",
+        "timestamp": 1723474764000
+      },
+      "score": 1,
+      "resource": {
+        "primary": {
+          "URL": "https://www.tandfonline.com/doi/full/10.1080/10556788.2020.1808977"
+        }
+      },
+      "subtitle": [],
+      "short-title": [],
+      "issued": {
+        "date-parts": [
+          [
+            2020,
+            8,
+            25
+          ]
+        ]
+      },
+      "references-count": 75,
+      "journal-issue": {
+        "issue": "1",
+        "published-print": {
+          "date-parts": [
+            [
+              2021,
+              1,
+              2
+            ]
+          ]
+        }
+      },
+      "alternative-id": [
+        "10.1080/10556788.2020.1808977"
+      ],
+      "URL": "https://doi.org/10.1080/10556788.2020.1808977",
+      "relation": {},
+      "ISSN": [
+        "1055-6788",
+        "1029-4937"
+      ],
+      "issn-type": [
+        {
+          "value": "1055-6788",
+          "type": "print"
+        },
+        {
+          "value": "1029-4937",
+          "type": "electronic"
+        }
+      ],
+      "subject": [],
+      "published": {
+        "date-parts": [
+          [
+            2020,
+            8,
+            25
+          ]
+        ]
+      },
+      "assertion": [
+        {
+          "value": "The publishing and review policy for this title is described in its Aims & Scope.",
+          "order": 1,
+          "name": "peerreview_statement",
+          "label": "Peer Review Statement"
+        },
+        {
+          "value": "http://www.tandfonline.com/action/journalInformation?show=aimsScope&journalCode=goms20",
+          "URL": "http://www.tandfonline.com/action/journalInformation?show=aimsScope&journalCode=goms20",
+          "order": 2,
+          "name": "aims_and_scope_url",
+          "label": "Aim & Scope"
+        },
+        {
+          "value": "2019-06-17",
+          "order": 0,
+          "name": "received",
+          "label": "Received",
+          "group": {
+            "name": "publication_history",
+            "label": "Publication History"
+          }
+        },
+        {
+          "value": "2020-08-08",
+          "order": 2,
+          "name": "accepted",
+          "label": "Accepted",
+          "group": {
+            "name": "publication_history",
+            "label": "Publication History"
+          }
+        },
+        {
+          "value": "2020-08-25",
+          "order": 3,
+          "name": "published",
+          "label": "Published",
+          "group": {
+            "name": "publication_history",
+            "label": "Publication History"
+          }
+        }
+      ]
+    }
+  }
+}

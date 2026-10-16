@@ -1,0 +1,2995 @@
+{
+  "query": "algorithm selection survey automated algorithm configuration review",
+  "url": "https://api.crossref.org/works?query.bibliographic=algorithm+selection+survey+automated+algorithm+configuration+review&rows=5&filter=until-pub-date%3A2026-10-16",
+  "retrieved": "2026-10-16",
+  "response": {
+    "status": "ok",
+    "message-type": "work-list",
+    "message-version": "1.0.0",
+    "message": {
+      "facets": {},
+      "total-results": 9611156,
+      "items": [
+        {
+          "indexed": {
+            "date-parts": [
+              [
+                2026,
+                5,
+                21
+              ]
+            ],
+            "date-time": "2026-05-21T21:38:06Z",
+            "timestamp": 1779399486469,
+            "version": "3.53.1"
+          },
+          "reference-count": 0,
+          "publisher": "Copernicus GmbH",
+          "content-domain": {
+            "domain": []
+          },
+          "published-print": {
+            "date-parts": [
+              [
+                2018,
+                7,
+                25
+              ]
+            ]
+          },
+          "DOI": "10.5194/amt-2018-166-rc1",
+          "type": "peer-review",
+          "created": {
+            "date-parts": [
+              [
+                2018,
+                7,
+                25
+              ]
+            ],
+            "date-time": "2018-07-25T09:33:43Z",
+            "timestamp": 1532511223000
+          },
+          "source": "Crossref",
+          "is-referenced-by-count": 0,
+          "title": [
+            "Review: The CALIPSO Version 4 Automated Aerosol Classification and Lidar Ratio Selection Algorithm"
+          ],
+          "prefix": "10.5194",
+          "member": "3145",
+          "review": {
+            "type": "referee-report",
+            "running-number": "RC1",
+            "stage": "pre-publication",
+            "recommendation": "minor-revision",
+            "language": "en"
+          },
+          "deposited": {
+            "date-parts": [
+              [
+                2025,
+                2,
+                3
+              ]
+            ],
+            "date-time": "2025-02-03T15:35:36Z",
+            "timestamp": 1738596936000
+          },
+          "score": 34.82553,
+          "resource": {
+            "primary": {
+              "URL": "https://amt.copernicus.org/preprints/amt-2018-166/amt-2018-166-RC1.pdf"
+            }
+          },
+          "issued": {
+            "date-parts": [
+              [
+                2018,
+                7,
+                25
+              ]
+            ]
+          },
+          "references-count": 0,
+          "URL": "https://doi.org/10.5194/amt-2018-166-rc1",
+          "relation": {
+            "is-review-of": [
+              {
+                "id-type": "doi",
+                "id": "10.5194/amt-11-6107-2018",
+                "asserted-by": "subject"
+              },
+              {
+                "id-type": "doi",
+                "id": "10.5194/amt-11-6107-2018",
+                "asserted-by": "object"
+              },
+              {
+                "id-type": "doi",
+                "id": "10.5194/amt-2018-166",
+                "asserted-by": "object"
+              }
+            ]
+          },
+          "published": {
+            "date-parts": [
+              [
+                2018,
+                7,
+                25
+              ]
+            ]
+          }
+        },
+        {
+          "indexed": {
+            "date-parts": [
+              [
+                2024,
+                9,
+                8
+              ]
+            ],
+            "date-time": "2024-09-08T15:39:20Z",
+            "timestamp": 1725809960443
+          },
+          "publisher-location": "Cham",
+          "reference-count": 127,
+          "publisher": "Springer International Publishing",
+          "isbn-type": [
+            {
+              "type": "print",
+              "value": "9783319112299"
+            },
+            {
+              "type": "electronic",
+              "value": "9783319112305"
+            }
+          ],
+          "content-domain": {
+            "domain": [],
+            "crossmark-restriction": false
+          },
+          "published-print": {
+            "date-parts": [
+              [
+                2014
+              ]
+            ]
+          },
+          "DOI": "10.1007/978-3-319-11230-5_5",
+          "type": "book-chapter",
+          "created": {
+            "date-parts": [
+              [
+                2014,
+                11,
+                21
+              ]
+            ],
+            "date-time": "2014-11-21T16:33:31Z",
+            "timestamp": 1416587611000
+          },
+          "page": "41-53",
+          "source": "Crossref",
+          "is-referenced-by-count": 2,
+          "title": [
+            "ISAC for Algorithm Selection"
+          ],
+          "prefix": "10.1007",
+          "author": [
+            {
+              "given": "Yuri",
+              "family": "Malitsky",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            }
+          ],
+          "member": "297",
+          "published-online": {
+            "date-parts": [
+              [
+                2014,
+                10,
+                18
+              ]
+            ]
+          },
+          "reference": [
+            {
+              "key": "5_CR1",
+              "unstructured": "SAT Competition. \n                http://www.satcomptition.org\n                \n              , 2013"
+            },
+            {
+              "key": "5_CR2",
+              "doi-asserted-by": "publisher",
+              "first-page": "433",
+              "DOI": "10.1002/wics.101",
+              "volume": "2",
+              "author": "H. Abdi",
+              "year": "2010",
+              "unstructured": "H. Abdi, L.J. Williams, Principal component analysis. Wiley Interdiscip. Rev. Comput. Stat. 2, 433–459 (2010)",
+              "journal-title": "Wiley Interdiscip. Rev. Comput. Stat."
+            },
+            {
+              "issue": "1",
+              "key": "5_CR3",
+              "doi-asserted-by": "publisher",
+              "first-page": "42",
+              "DOI": "10.1016/j.orl.2004.04.002",
+              "volume": "33",
+              "author": "T. Achterberg",
+              "year": "2004",
+              "unstructured": "T. Achterberg, T. Koch, A. Martin, Branching rules revisited. Oper. Res. Lett. 33(1), 42–54 (2004)",
+              "journal-title": "Oper. Res. Lett."
+            },
+            {
+              "issue": "1",
+              "key": "5_CR4",
+              "doi-asserted-by": "publisher",
+              "first-page": "99",
+              "DOI": "10.1287/opre.1050.0243",
+              "volume": "54",
+              "author": "B. Adenso-Diaz",
+              "year": "2006",
+              "unstructured": "B. Adenso-Diaz, M. Laguna, Fine-tuning of algorithms using fractional experimental designs and local search. Oper. Res. 54(1), 99–114 (2006)",
+              "journal-title": "Oper. Res."
+            },
+            {
+              "key": "5_CR5",
+              "first-page": "142",
+              "volume-title": "Proceedings of Principles and Practice of Constraint Programming (CP), vol. 5732",
+              "author": "C. Ansótegui",
+              "year": "2009",
+              "unstructured": "C. Ansótegui, M. Sellmann, K. Tierney, A gender-based genetic algorithm for the automatic configuration of algorithms, in Proceedings of Principles and Practice of Constraint Programming (CP), vol. 5732, ed. by I. Gent (Springer, Berlin, 2009), pp. 142–157"
+            },
+            {
+              "issue": "1",
+              "key": "5_CR6",
+              "doi-asserted-by": "crossref",
+              "first-page": "145",
+              "DOI": "10.1007/s101070100235",
+              "volume": "91",
+              "author": "A. Atamtürk",
+              "year": "2001",
+              "unstructured": "A. Atamtürk, G.L. Nemhauser, M.W.P. Savelsbergh, Valid inequalities for problems with additive variable upper bounds. Math. Program. 91(1), 145–162 (2001)",
+              "journal-title": "Math. Program."
+            },
+            {
+              "issue": "3",
+              "key": "5_CR7",
+              "doi-asserted-by": "publisher",
+              "first-page": "107",
+              "DOI": "10.1016/S0167-6377(01)00100-6",
+              "volume": "29",
+              "author": "A. Atamtürk",
+              "year": "2001",
+              "unstructured": "A. Atamtürk, Flow pack facets of the single node fixed-charge flow polytope. Oper. Res. Lett. 29(3), 107–114 (2001)",
+              "journal-title": "Oper. Res. Lett."
+            },
+            {
+              "issue": "1–3",
+              "key": "5_CR8",
+              "doi-asserted-by": "publisher",
+              "first-page": "145",
+              "DOI": "10.1007/s10107-003-0400-z",
+              "volume": "98",
+              "author": "A. Atamtürk",
+              "year": "2003",
+              "unstructured": "A. Atamtürk, On the facets of the mixed-integer knapsack polyhedron. Math. Program. 98(1–3), 145–175 (2003)",
+              "journal-title": "Math. Program."
+            },
+            {
+              "issue": "3",
+              "key": "5_CR9",
+              "doi-asserted-by": "publisher",
+              "first-page": "443",
+              "DOI": "10.1007/s10107-003-0465-8",
+              "volume": "99",
+              "author": "A. Atamtürk",
+              "year": "2004",
+              "unstructured": "A. Atamtürk, J.C. Munoz, A study of the lot-sizing polytope. Math. Program. 99(3), 443–465 (2004)",
+              "journal-title": "Math. Program."
+            },
+            {
+              "key": "5_CR10",
+              "unstructured": "G. Audemard, L. Simon, GLUCOSE: a solver that predicts learnt clauses quality. SAT Competition (2009)"
+            },
+            {
+              "issue": "3",
+              "key": "5_CR11",
+              "doi-asserted-by": "publisher",
+              "first-page": "642",
+              "DOI": "10.1137/040620886",
+              "volume": "17",
+              "author": "C. Audet",
+              "year": "2006",
+              "unstructured": "C. Audet, D. Orban, Finding optimal algorithmic parameters using derivative-free optimization. SIAM J. Optim. 17(3), 642–664 (2006)",
+              "journal-title": "SIAM J. Optim."
+            },
+            {
+              "key": "5_CR12",
+              "unstructured": "A. Balint, M. Henn, O. Gableske, hybridGM. Solver description. SAT Competition (2009)"
+            },
+            {
+              "issue": "2",
+              "key": "5_CR13",
+              "doi-asserted-by": "publisher",
+              "first-page": "126",
+              "DOI": "10.1287/ijoc.6.2.126",
+              "volume": "6",
+              "author": "R. Battiti",
+              "year": "1993",
+              "unstructured": "R. Battiti, G. Tecchiolli, I. Nazionale, F. Nucleare, The reactive tabu search. INFORMS J. Comput. 6(2), 126–140 (1993)",
+              "journal-title": "INFORMS J. Comput."
+            },
+            {
+              "key": "5_CR14",
+              "first-page": "25",
+              "volume-title": "Grouping Multidimensional Data",
+              "author": "P. Berkhin",
+              "year": "2002",
+              "unstructured": "P. Berkhin, Survey of clustering data mining techniques, in Grouping Multidimensional Data, ed. by J. Kogan, C. Nicholas, M. Teboulle (Springer, Berlin, Heidelberg, 2002), pp. 25–71"
+            },
+            {
+              "key": "5_CR15",
+              "volume-title": "Picosat version 846",
+              "author": "A. Biere",
+              "year": "2007",
+              "unstructured": "A. Biere, Picosat version 846. Solver description. SAT Competition (2007)"
+            },
+            {
+              "key": "5_CR16",
+              "unstructured": "A. Biere, P{re,i}coSATSC’09. SAT Competition (2009)"
+            },
+            {
+              "key": "5_CR17",
+              "unstructured": "A. Biere, Lingeling. SAT Race (2010)"
+            },
+            {
+              "key": "5_CR18",
+              "unstructured": "A. Biere, PLingeling. SAT Race (2010)"
+            },
+            {
+              "key": "5_CR19",
+              "unstructured": "A. Biere, Lingeling and Friends at the SAT Competition 2011. Technical report, 4040 Linz (2011)"
+            },
+            {
+              "key": "5_CR20",
+              "first-page": "11",
+              "volume-title": "A racing algorithm for configuring metaheuristics, in Proceedings of the Genetic and Evolutionary Computation Conference",
+              "author": "M. Birattari",
+              "year": "2002",
+              "unstructured": "M. Birattari, T. Stützle, L. Paquete, K. Varrentrapp, A racing algorithm for configuring metaheuristics, in Proceedings of the Genetic and Evolutionary Computation Conference (Morgan Kaufmann publishers, San Francisco, 2002), pp. 11–18"
+            },
+            {
+              "key": "5_CR21",
+              "first-page": "77",
+              "volume": "1",
+              "author": "J. Boyan",
+              "year": "2000",
+              "unstructured": "J. Boyan, A.W. Moore, P. Kaelbling, Learning evaluation functions to improve optimization by local search. J. Mach. Learn. Res. 1, 77–112 (2000)",
+              "journal-title": "J. Mach. Learn. Res."
+            },
+            {
+              "issue": "2",
+              "key": "5_CR22",
+              "doi-asserted-by": "publisher",
+              "first-page": "201",
+              "DOI": "10.1002/rsa.20057",
+              "volume": "27",
+              "author": "A. Braunstein",
+              "year": "2005",
+              "unstructured": "A. Braunstein, M. Mézard, R. Zecchina, Survey propagation: an algorithm for Satisfiability. Random Struct. Algorithm. 27(2), 201–226 (2005)",
+              "journal-title": "Random Struct. Algorithm."
+            },
+            {
+              "key": "5_CR23",
+              "unstructured": "D.R. Bregman, The SAT Solver MXC, Version 0.99. SAT Competition (2009)"
+            },
+            {
+              "key": "5_CR24",
+              "unstructured": "D.R. Bregman, D.G. Mitchell, The SAT Solver MXC, version 0.75. Solver description. SAT Race (2008)"
+            },
+            {
+              "issue": "2",
+              "key": "5_CR25",
+              "first-page": "123",
+              "volume": "24",
+              "author": "L. Breiman",
+              "year": "1996",
+              "unstructured": "L. Breiman, Bagging predictors. Mach. Learn. 24(2), 123–140 (1996)",
+              "journal-title": "Mach. Learn."
+            },
+            {
+              "issue": "1",
+              "key": "5_CR26",
+              "doi-asserted-by": "publisher",
+              "first-page": "5",
+              "DOI": "10.1023/A:1010933404324",
+              "volume": "45",
+              "author": "L. Breiman",
+              "year": "2001",
+              "unstructured": "L. Breiman, Random forests. Mach. Learn. 45(1), 5–32 (2001)",
+              "journal-title": "Mach. Learn."
+            },
+            {
+              "key": "5_CR27",
+              "first-page": "434",
+              "volume-title": "Configuration checking with aspiration in local search for SAT, in Proceedings of the AAAI Conference on Artificial Intelligence (AAAI)",
+              "author": "S. Cai",
+              "year": "2012",
+              "unstructured": "S. Cai, K. Su, Configuration checking with aspiration in local search for SAT, in Proceedings of the AAAI Conference on Artificial Intelligence (AAAI) (AAAI Press, Toronto, 2012), pp. 434–440"
+            },
+            {
+              "key": "5_CR28",
+              "first-page": "125",
+              "volume": "79",
+              "author": "A. Caprara",
+              "year": "1997",
+              "unstructured": "A. Caprara, M. Fischetti, P. Toth, D. Vigo, P.L. Guida, Algorithms for railway crew management. Math. Program. 79, 125–141 (1997)",
+              "journal-title": "Math. Program."
+            },
+            {
+              "issue": "1",
+              "key": "5_CR29",
+              "doi-asserted-by": "publisher",
+              "first-page": "77",
+              "DOI": "10.1023/A:1026569813391",
+              "volume": "7",
+              "author": "S.P. Coy",
+              "year": "2001",
+              "unstructured": "S.P. Coy, B.L. Golden, G.C. Runger, E.A. Wasil, Using experimental design to find effective parameter settings for heuristics. J. Heuristics 7(1), 77–97 (2001)",
+              "journal-title": "J. Heuristics"
+            },
+            {
+              "issue": "4",
+              "key": "5_CR30",
+              "doi-asserted-by": "publisher",
+              "first-page": "767",
+              "DOI": "10.2307/1911818",
+              "volume": "29",
+              "author": "G.B. Dantzig",
+              "year": "1961",
+              "unstructured": "G.B. Dantzig, P. Wolfe, The decomposition algorithm for linear programs. Econometrica 29(4), 767–778 (1961)",
+              "journal-title": "Econometrica"
+            },
+            {
+              "issue": "7",
+              "key": "5_CR31",
+              "doi-asserted-by": "publisher",
+              "first-page": "394",
+              "DOI": "10.1145/368273.368557",
+              "volume": "5",
+              "author": "M. Davis",
+              "year": "1962",
+              "unstructured": "M. Davis, G. Logemann, D. Loveland, A machine program for theorem-proving. Commun. ACM 5(7), 394–397 (1962)",
+              "journal-title": "Commun. ACM"
+            },
+            {
+              "key": "5_CR32",
+              "unstructured": "G. Dequen, O. Dubois, kcnfs. Solver description. SAT Competition (2007)"
+            },
+            {
+              "key": "5_CR33",
+              "unstructured": "N. Een, N. Sörensson, MiniSAT (2010). \n                http://minisat.se"
+            },
+            {
+              "key": "5_CR34",
+              "first-page": "525",
+              "volume-title": "Principles and Practice of Constraint Programming (CP), vol. 2470",
+              "author": "S.L. Epstein",
+              "year": "2002",
+              "unstructured": "S.L. Epstein, E.C. Freuder, R.J. Wallace, A. Morozov, B. Samuels, The adaptive constraint engine, in Principles and Practice of Constraint Programming (CP), vol. 2470, ed. by P.V. Hentenryck (Springer, Berlin, Heidelberg, 2002), pp. 525–542"
+            },
+            {
+              "issue": "1",
+              "key": "5_CR35",
+              "doi-asserted-by": "publisher",
+              "first-page": "31",
+              "DOI": "10.1162/evco.2008.16.1.31",
+              "volume": "16",
+              "author": "A.S. Fukunaga",
+              "year": "2008",
+              "unstructured": "A.S. Fukunaga, Automated discovery of local search heuristics for satisfiability testing. Evol. Comput. 16(1), 31–61 (2008)",
+              "journal-title": "Evol. Comput."
+            },
+            {
+              "key": "5_CR36",
+              "doi-asserted-by": "publisher",
+              "first-page": "3",
+              "DOI": "10.1007/s10472-006-9028-z",
+              "volume": "47",
+              "author": "M. Gagliolo",
+              "year": "2006",
+              "unstructured": "M. Gagliolo, J. Schmidhuber, Dynamic algorithm portfolios. Ann. Math. Artif. Intell. 47, 3–4 (2006)",
+              "journal-title": "Ann. Math. Artif. Intell."
+            },
+            {
+              "key": "5_CR37",
+              "doi-asserted-by": "crossref",
+              "first-page": "71",
+              "DOI": "10.1007/978-3-642-01929-6_7",
+              "volume-title": "Integration of AI and OR Techniques in Constraint Programming for Combinatorial Optimization Problems (CPAIOR), vol. 5547",
+              "author": "M. Gebser",
+              "year": "2009",
+              "unstructured": "M. Gebser, B. Kaufmann, T. Schaub, Solution enumeration for projected boolean search problems, in Integration of AI and OR Techniques in Constraint Programming for Combinatorial Optimization Problems (CPAIOR), vol. 5547, ed. by W.-J. van Hoeve, J.N. Hooker (Springer, Berlin Heidelberg, 2009), pp. 71–86"
+            },
+            {
+              "key": "5_CR38",
+              "first-page": "849",
+              "volume-title": "Morphing: combining structure and randomness, in Proceedings of the National Conference on Artificial Intelligence (AAAI)",
+              "author": "I.P. Gent",
+              "year": "1999",
+              "unstructured": "I.P. Gent, H.H. Hoos, P. Prosser, T. Walsh, Morphing: combining structure and randomness, in Proceedings of the National Conference on Artificial Intelligence (AAAI), vol. 9 (AAAI Press, Orlando, 1999), pp. 849–859"
+            },
+            {
+              "key": "5_CR39",
+              "first-page": "221",
+              "volume-title": "Problem structure in the presence of perturbations, in Proceedings of the National Conference on Artificial Intelligence (AAAI)",
+              "author": "C.P. Gomes",
+              "year": "1997",
+              "unstructured": "C.P. Gomes, B. Selman, Problem structure in the presence of perturbations, in Proceedings of the National Conference on Artificial Intelligence (AAAI) (AAAI Press, New Providence, 1997), pp. 221–226"
+            },
+            {
+              "issue": "1–2",
+              "key": "5_CR40",
+              "doi-asserted-by": "publisher",
+              "first-page": "43",
+              "DOI": "10.1016/S0004-3702(00)00081-3",
+              "volume": "126",
+              "author": "C.P. Gomes",
+              "year": "2001",
+              "unstructured": "C.P. Gomes, B. Selman, Algorithm portfolios. Artif. Intell. 126(1–2), 43–62 (2001)",
+              "journal-title": "Artif. Intell."
+            },
+            {
+              "key": "5_CR41",
+              "unstructured": "Google, Google ROADEF Challenge (2012). \n                http://challenge.roadef.org/2012/en/index.php"
+            },
+            {
+              "issue": "1",
+              "key": "5_CR42",
+              "doi-asserted-by": "publisher",
+              "first-page": "10",
+              "DOI": "10.1145/1656274.1656278",
+              "volume": "11",
+              "author": "M. Hall",
+              "year": "2009",
+              "unstructured": "M. Hall, E. Frank, G. Holmes, B. Pfahringer, P. Reutemann, I.H. Witten, The WEKA data mining software: an update. SIGKDD Explor. Newsl. 11(1), 10–18 (2009)",
+              "journal-title": "SIGKDD Explor. Newsl."
+            },
+            {
+              "key": "5_CR43",
+              "unstructured": "Y. Hamadi, S. Jabbour, L. Sais, LySAT: solver description. SAT Competition (2009)"
+            },
+            {
+              "key": "5_CR44",
+              "volume-title": "Learning the K in K-means, in Neural Information Processing Systems",
+              "author": "G. Hamerly",
+              "year": "2003",
+              "unstructured": "G. Hamerly, C. Elkan, Learning the K in K-means, in Neural Information Processing Systems (MIT Press, Cambridge, 2003)"
+            },
+            {
+              "key": "5_CR45",
+              "unstructured": "M. Heule, H. van Marren, march hi: Solver description. SAT Competition (2009)"
+            },
+            {
+              "key": "5_CR46",
+              "unstructured": "M. Heule, H. van Marren, march nn (2009). \n                http://www.st.ewi.tudelft.nl/sat/download.php"
+            },
+            {
+              "key": "5_CR47",
+              "first-page": "345",
+              "volume-title": "March eq: implementing additional reasoning into an efficient lookahead SAT solver, in Proceedings of the International Conference on Theory and Application of Satisfiability Testing (SAT)",
+              "author": "M. Heule",
+              "year": "2005",
+              "unstructured": "M. Heule, M. Dufour, J. Van Zwieten, H. Van Maaren, March eq: implementing additional reasoning into an efficient lookahead SAT solver, in Proceedings of the International Conference on Theory and Application of Satisfiability Testing (SAT), vol. 3542 (Springer, Berlin, 2005), pp. 345–359"
+            },
+            {
+              "issue": "6",
+              "key": "5_CR48",
+              "doi-asserted-by": "publisher",
+              "first-page": "657",
+              "DOI": "10.1287/mnsc.39.6.657",
+              "volume": "39",
+              "author": "K.L. Hoffman",
+              "year": "1993",
+              "unstructured": "K.L. Hoffman, M. Padberg, Solving airline crew scheduling problems by branch-and-cut. Manag. Sci. 39(6), 657–682 (1993)",
+              "journal-title": "Manag. Sci."
+            },
+            {
+              "key": "5_CR49",
+              "first-page": "655",
+              "volume-title": "An adaptive noise mechanism for WalkSAT, in Proceedings of the National Conference on Artificial Intelligence (AAAI)",
+              "author": "H.H. Hoos",
+              "year": "2002",
+              "unstructured": "H.H. Hoos, An adaptive noise mechanism for WalkSAT, in Proceedings of the National Conference on Artificial Intelligence (AAAI) (AAAI Press, Menlo Park, 2002), pp. 655–660"
+            },
+            {
+              "issue": "5",
+              "key": "5_CR50",
+              "doi-asserted-by": "publisher",
+              "first-page": "68",
+              "DOI": "10.1287/inte.27.5.68",
+              "volume": "27",
+              "author": "E. Housos",
+              "year": "1997",
+              "unstructured": "E. Housos, T. Elmroth, Automatic optimization of subproblems in scheduling airline crews. Interfaces 27(5), 68–77 (1997)",
+              "journal-title": "Interfaces"
+            },
+            {
+              "issue": "5296",
+              "key": "5_CR51",
+              "doi-asserted-by": "publisher",
+              "first-page": "51",
+              "DOI": "10.1126/science.275.5296.51",
+              "volume": "275",
+              "author": "B.A. Huberman",
+              "year": "1997",
+              "unstructured": "B.A. Huberman, R.M. Lukose, T. Hogg, An economic approach to hard computational problems. Science 275(5296), 51–53 (1997)",
+              "journal-title": "Science"
+            },
+            {
+              "issue": "1",
+              "key": "5_CR52",
+              "doi-asserted-by": "publisher",
+              "first-page": "193",
+              "DOI": "10.1007/BF01908075",
+              "volume": "2",
+              "author": "L. Hubert",
+              "year": "1985",
+              "unstructured": "L. Hubert, P. Arabie, Comparing partitions. J. Classif. 2(1), 193–218 (1985)",
+              "journal-title": "J. Classif."
+            },
+            {
+              "key": "5_CR53",
+              "unstructured": "F. Hutter, Y. Hamadi, Parameter adjustment based on performance prediction: towards an instance-aware problem solver. Technical Report MSR-TR-2005-125, Microsoft Research (2005)"
+            },
+            {
+              "key": "5_CR54",
+              "first-page": "213",
+              "volume-title": "Proceedings of Principles and Practice of Constraint Programming (CP), vol. 4204",
+              "author": "F. Hutter",
+              "year": "2006",
+              "unstructured": "F. Hutter, Y. Hamadi, H.H. Hoos, K. Leyton-Brown, Performance prediction and automated tuning of randomized and parametric algorithms, in Proceedings of Principles and Practice of Constraint Programming (CP), vol. 4204, ed. by F. Benhamou (Springer, Berlin, Heidelberg, 2006), pp. 213–228"
+            },
+            {
+              "key": "5_CR55",
+              "doi-asserted-by": "crossref",
+              "first-page": "281",
+              "DOI": "10.1007/978-3-642-13800-3_30",
+              "volume-title": "Learning and Intelligent Optimization (LION), vol. 6073",
+              "author": "F. Hutter",
+              "year": "2010",
+              "unstructured": "F. Hutter, H.H. Hoos, K. Leyton-Brown, K. Murphy, Time-bounded sequential parameter pptimization, in Learning and Intelligent Optimization (LION), vol. 6073, ed. by C. Blum, R. Battiti (Springer, Berlin, Heidelberg, 2010), pp. 281–298"
+            },
+            {
+              "issue": "1",
+              "key": "5_CR56",
+              "doi-asserted-by": "crossref",
+              "first-page": "267",
+              "DOI": "10.1613/jair.2861",
+              "volume": "36",
+              "author": "F. Hutter",
+              "year": "2009",
+              "unstructured": "F. Hutter, H.H. Hoos, K. Leyton-Brown, T. Stützle, ParamILS: an automatic algorithm configuration framework. J. Artif. Intell. Res. 36(1), 267–306 (2009)",
+              "journal-title": "J. Artif. Intell. Res."
+            },
+            {
+              "key": "5_CR57",
+              "first-page": "233",
+              "volume-title": "Principles and Practice of Constraint Programming (CP), vol. 2470",
+              "author": "F. Hutter",
+              "year": "2002",
+              "unstructured": "F. Hutter, D.A.D. Tompkins, H.H. Hoos, Scaling and probabilistic smoothing: efficient dynamic local search for SAT, in Principles and Practice of Constraint Programming (CP), vol. 2470, ed. by P.V. Hentenryck (Springer, Berlin Heidelberg, 2002), pp. 233–248"
+            },
+            {
+              "key": "5_CR58",
+              "first-page": "233",
+              "volume-title": "Scaling and probabilistic smoothing: efficient dynamic local search for SAT, in Proceedings of the International Conference on Principles and Practice of Constraint Programming (CP)",
+              "author": "F. Hutter",
+              "year": "2002",
+              "unstructured": "F. Hutter, D.A.D. Tompkins, H.H. Hoos, Scaling and probabilistic smoothing: efficient dynamic local search for SAT, in Proceedings of the International Conference on Principles and Practice of Constraint Programming (CP) (Springer, Berlin, 2002), pp. 233–248"
+            },
+            {
+              "key": "5_CR59",
+              "unstructured": "IBM, Reference manual and user manual. V12.5 (2013)"
+            },
+            {
+              "key": "5_CR60",
+              "first-page": "751",
+              "volume-title": "ISAC – instance-specific algorithm configuration, in Proceedings of the European Conference on Artificial Intelligence (ECAI)",
+              "author": "S. Kadioglu",
+              "year": "2010",
+              "unstructured": "S. Kadioglu, Y. Malitsky, M. Sellmann, K. Tierney, ISAC – instance-specific algorithm configuration, in Proceedings of the European Conference on Artificial Intelligence (ECAI) (IOS Press, Amsterdam, 2010), pp. 751–756"
+            },
+            {
+              "key": "5_CR61",
+              "first-page": "486",
+              "volume-title": "Proceedings of Principles and Practice of Constraint Programming (CP), vol. 5732",
+              "author": "S. Kadioglu",
+              "year": "2009",
+              "unstructured": "S. Kadioglu, M. Sellmann, Dialectic search, in Proceedings of Principles and Practice of Constraint Programming (CP), vol. 5732, ed. by I. Gent (Springer, Berlin Heidelberg, 2009), pp. 486–500"
+            },
+            {
+              "key": "5_CR62",
+              "first-page": "517",
+              "volume-title": "SATenstein: automatically building local search SAT solvers from components, in International Joint Conference on Artificial Intelligence (IJCAI)",
+              "author": "A.R. Khudabukhsh",
+              "year": "2009",
+              "unstructured": "A.R. Khudabukhsh, L. Xu, H.H. Hoos, K. Leyton-Brown, SATenstein: automatically building local search SAT solvers from components, in International Joint Conference on Artificial Intelligence (IJCAI) (AAAI Press, Menlo Park, 2009), pp. 517–524"
+            },
+            {
+              "issue": "2",
+              "key": "5_CR63",
+              "doi-asserted-by": "publisher",
+              "first-page": "103",
+              "DOI": "10.1007/s12532-011-0025-9",
+              "volume": "3",
+              "author": "T. Koch",
+              "year": "2011",
+              "unstructured": "T. Koch, T. Achterberg, E. Andersen, O. Bastert, T. Berthold, R.E. Bixby, E. Danna, G. Gamrath, A.M. Gleixner, S. Heinz, A. Lodi, H. Mittelmann, T. Ralphs, D. Salvagnin, D.E. Steffy, K. Wolter, MIPLIB 2010 - Mixed Integer Programming Library version 5. Math. Program. Comput. 3(2), 103–163 (2011)",
+              "journal-title": "Math. Program. Comput."
+            },
+            {
+              "key": "5_CR64",
+              "unstructured": "M.G. Lagoudakis, M.L. Littman, Learning to select branching rules in the DPLL procedure for satisfiability, in LICS 2001 Workshop on Theory and Applications of Satisfiability Testing (SAT), vol. 9 (2001), pp. 344–359"
+            },
+            {
+              "key": "5_CR65",
+              "doi-asserted-by": "crossref",
+              "first-page": "142",
+              "DOI": "10.1007/978-3-540-68155-7_13",
+              "volume-title": "Integration of AI and OR Techniques in Constraint Programming for Combinatorial Optimization Problems (CPAIOR), vol. 5015",
+              "author": "D.H. Leventhal",
+              "year": "2008",
+              "unstructured": "D.H. Leventhal, M. Sellmann, The accuracy of search heuristics: an empirical study on knapsack problems, in Integration of AI and OR Techniques in Constraint Programming for Combinatorial Optimization Problems (CPAIOR), vol. 5015, ed. by L. Perron, M.A. Trick (Springer, Berlin, Heidelberg, 2008), pp. 142–157"
+            },
+            {
+              "key": "5_CR66",
+              "first-page": "1542",
+              "volume-title": "A portfolio approach to algorithm selection, in Proceedings of the International Joint Conference on Artificial Intelligence (IJCAI)",
+              "author": "K. Leyton-Brown",
+              "year": "2003",
+              "unstructured": "K. Leyton-Brown, E. Nudelman, G. Andrew, J. Mcfadden, Y. Shoham, A portfolio approach to algorithm selection, in Proceedings of the International Joint Conference on Artificial Intelligence (IJCAI) (Morgan Kaufmann Publishers Inc., San Francisco, 2003), pp. 1542–1543"
+            },
+            {
+              "key": "5_CR67",
+              "first-page": "899",
+              "volume-title": "Proceedings of Principles and Practice of Constraint Programming (CP), vol. 2833",
+              "author": "K. Leyton-Brown",
+              "year": "2003",
+              "unstructured": "K. Leyton-Brown, E. Nudelman, G. Andrew, J. Mcfadden, Y. Shoham, Boosting as a Metaphor for Algorithm Design, in Proceedings of Principles and Practice of Constraint Programming (CP), vol. 2833, ed. by F. Rossi (Springer, Berlin, Heidelberg, 2003), pp. 899–903"
+            },
+            {
+              "key": "5_CR68",
+              "first-page": "66",
+              "volume-title": "Towards a universal test suite for combinatorial auction algorithms, in Proceedings of the ACM Conference on Electronic Commerce",
+              "author": "K. Leyton-Brown",
+              "year": "2000",
+              "unstructured": "K. Leyton-Brown, M. Pearson, Y. Shoham, Towards a universal test suite for combinatorial auction algorithms, in Proceedings of the ACM Conference on Electronic Commerce (ACM Press, New York, 2000), pp. 66–76"
+            },
+            {
+              "key": "5_CR69",
+              "first-page": "158",
+              "volume-title": "G2WSAT: gradient-based greedy WalkSAT, in Proceedings of the International Conference on Theory and Application of Satisfiability Testing (SAT)",
+              "author": "C.M. Li",
+              "year": "2005",
+              "unstructured": "C.M. Li, W.Q. Huang, G2WSAT: gradient-based greedy WalkSAT, in Proceedings of the International Conference on Theory and Application of Satisfiability Testing (SAT), vol. 3569 (Springer, Berlin, 2005), pp. 158–172"
+            },
+            {
+              "key": "5_CR70",
+              "volume-title": "Combining Adaptive Noise and Promising Decreasing Variables in Local Search for SAT",
+              "author": "C.M. Li",
+              "year": "2009",
+              "unstructured": "C.M. Li and W. We. Combining Adaptive Noise and Promising Decreasing Variables in Local Search for SAT. Solver description. SAT Competition (2009)"
+            },
+            {
+              "key": "5_CR71",
+              "unstructured": "X. Li, M.J. Garzarán, D. Padua, Optimizing sorting with genetic algorithms. International Symposium on Code Generation and Optimization (CGO) (2005), pp. 99–110"
+            },
+            {
+              "issue": "2",
+              "key": "5_CR72",
+              "doi-asserted-by": "publisher",
+              "first-page": "129",
+              "DOI": "10.1109/TIT.1982.1056489",
+              "volume": "28",
+              "author": "S.P. Lloyd",
+              "year": "1982",
+              "unstructured": "S.P. Lloyd, Least squares quantization in PCM. Trans. Inf. Theory 28(2), 129–137 (1982)",
+              "journal-title": "Trans. Inf. Theory"
+            },
+            {
+              "key": "5_CR73",
+              "first-page": "353",
+              "volume-title": "Branch and bound algorithm selection by performance prediction, in Proceedings of the AAAI Conference on Artificial Intelligence (AAAI)",
+              "author": "L. Lobjois",
+              "year": "1998",
+              "unstructured": "L. Lobjois, M. Lemaître, Branch and bound algorithm selection by performance prediction, in Proceedings of the AAAI Conference on Artificial Intelligence (AAAI) (AAAI Press., Madison, 1998), pp. 353–358"
+            },
+            {
+              "key": "5_CR74",
+              "doi-asserted-by": "crossref",
+              "first-page": "176",
+              "DOI": "10.1007/978-3-642-38171-3_12",
+              "volume-title": "Integration of AI and OR Techniques in Constraint Programming for Combinatorial Optimization Problems (CPAIOR), vol. 7874",
+              "author": "Y. Malitsky",
+              "year": "2013",
+              "unstructured": "Y. Malitsky, D. Mehta, B. O’Sullivan, H. Simonis, Tuning parameters of large neighborhood search for the machine reassignment problem, in Integration of AI and OR Techniques in Constraint Programming for Combinatorial Optimization Problems (CPAIOR), vol. 7874, ed. by C. Gomes, M. Sellmann (Springer, Berlin, Heidelberg, 2013), pp. 176–192"
+            },
+            {
+              "key": "5_CR75",
+              "first-page": "608",
+              "volume-title": "Algorithm portfolios based on cost-sensitive hierarchical clustering, in Proceedings of the International Joint Conference on Artificial Intelligence (IJCAI)",
+              "author": "Y. Malitsky",
+              "year": "2013",
+              "unstructured": "Y. Malitsky, A. Sabharwal, H. Samulowitz, M. Sellmann, Algorithm portfolios based on cost-sensitive hierarchical clustering, in Proceedings of the International Joint Conference on Artificial Intelligence (IJCAI) (AAAI Press, Beijing, 2013), pp. 608–614"
+            },
+            {
+              "key": "5_CR76",
+              "first-page": "784",
+              "volume-title": "Stochastic offline programming, in International Conference on Tools with Artificial Intelligence (ICTAI)",
+              "author": "Y. Malitsky",
+              "year": "2009",
+              "unstructured": "Y. Malitsky, M. Sellmann, Stochastic offline programming, in International Conference on Tools with Artificial Intelligence (ICTAI) (IEEE Press, New Yark, 2009), pp. 784–791"
+            },
+            {
+              "key": "5_CR77",
+              "first-page": "244",
+              "volume-title": "Integration of AI and OR Techniques in Constraint Programming for Combinatorial Optimization Problems (CPAIOR), vol. 7298",
+              "author": "Y. Malitsky",
+              "year": "2012",
+              "unstructured": "Y. Malitsky, M. Sellmann, Instance-specific algorithm configuration as a method for non-model-based portfolio generation, in Integration of AI and OR Techniques in Constraint Programming for Combinatorial Optimization Problems (CPAIOR), vol. 7298, ed. by N. Beldiceanu, N. Jussien, E. Pinson (Springer, Berlin, Heidelberg, 2012), pp. 244–259"
+            },
+            {
+              "key": "5_CR78",
+              "first-page": "321",
+              "volume-title": "Evidence for invariants in local search, in Proceedings of the AAAI Conference on Artificial Intelligence (AAAI)",
+              "author": "D. McAllester",
+              "year": "1997",
+              "unstructured": "D. McAllester, B. Selman, H. Kautz, Evidence for invariants in local search, in Proceedings of the AAAI Conference on Artificial Intelligence (AAAI) (AAAI Press, Providence, 1997), pp. 321–326"
+            },
+            {
+              "key": "5_CR79",
+              "doi-asserted-by": "crossref",
+              "first-page": "782",
+              "DOI": "10.1007/978-3-642-33558-7_56",
+              "volume-title": "Principles and Practice of Constraint Programming (CP), vol. 7514",
+              "author": "D. Mehta",
+              "year": "2012",
+              "unstructured": "D. Mehta, B. O’Sullivan, H. Simonis, Comparing solution methods for the machine reassignment problem, in Principles and Practice of Constraint Programming (CP), vol. 7514, ed. by M. Milano (Springer, Berlin, Heidelberg, 2012), pp. 782–797"
+            },
+            {
+              "issue": "1–2",
+              "key": "5_CR80",
+              "doi-asserted-by": "publisher",
+              "first-page": "7",
+              "DOI": "10.1007/BF00143877",
+              "volume": "1",
+              "author": "S. Minton",
+              "year": "1996",
+              "unstructured": "S. Minton, Automatically configuring constraint satisfaction programs: a case study. Constraints 1(1–2), 7–43 (1996)",
+              "journal-title": "Constraints"
+            },
+            {
+              "key": "5_CR81",
+              "unstructured": "M. Motoki, R. Uehara, Unique solution instance generation for the 3-Satisfiability (3SAT) problem. Technical Report COMP98-54, IEICE (1998)"
+            },
+            {
+              "key": "5_CR82",
+              "unstructured": "M. Muja, D.G. Lowe, Fast approximate nearest neighbors with automatic algorithm configuration, in VISAPP International Conference on Computer Vision Theory and Applications (2009), pp. 331–340"
+            },
+            {
+              "key": "5_CR83",
+              "first-page": "302",
+              "volume-title": "Local search algorithm for unicost set covering problem, in Proceedings of the International Conference on Advances in Applied Artificial Intelligence: Industrial, Engineering and Other Applications of Applied Intelligent Systems (IEA/AIE)",
+              "author": "N. Musliu",
+              "year": "2006",
+              "unstructured": "N. Musliu, Local search algorithm for unicost set covering problem, in Proceedings of the International Conference on Advances in Applied Artificial Intelligence: Industrial, Engineering and Other Applications of Applied Intelligent Systems (IEA/AIE) (Springer, Berlin, 2006), pp. 302–311"
+            },
+            {
+              "key": "5_CR84",
+              "first-page": "326",
+              "volume-title": "Instance based selection of policies for SAT solvers, in Proceedings of the International Conference on Theory and Applications of Satisfiability Testing (SAT)",
+              "author": "M. Nikolic",
+              "year": "2009",
+              "unstructured": "M. Nikolic, F. Maric, P. Janici, Instance based selection of policies for SAT solvers, in Proceedings of the International Conference on Theory and Applications of Satisfiability Testing (SAT) (Springer, Berlin, 2009), pp. 326–340"
+            },
+            {
+              "key": "5_CR85",
+              "first-page": "438",
+              "volume-title": "Principles and Practice of Constraint Programming (CP), vol. 3258",
+              "author": "E. Nudelman",
+              "year": "2004",
+              "unstructured": "E. Nudelman, A. Devkar, Y. Shoham, K. Leyton-Brown, Understanding random SAT: beyond the clauses-to-variables ratio, in Principles and Practice of Constraint Programming (CP), vol. 3258, ed. by M. Wallace (Springer, Berlin, Heidelberg, 2004), pp. 438–452"
+            },
+            {
+              "issue": "3",
+              "key": "5_CR86",
+              "doi-asserted-by": "publisher",
+              "first-page": "387",
+              "DOI": "10.1162/1063656054794815",
+              "volume": "13",
+              "author": "M. Oltean",
+              "year": "2005",
+              "unstructured": "M. Oltean, Evolving evolutionary algorithms using linear genetic programming. Evol. Comput. 13(3), 387–410 (2005)",
+              "journal-title": "Evol. Comput."
+            },
+            {
+              "key": "5_CR87",
+              "unstructured": "E. O’Mahony, E. Hebrard, A. Holland, C. Nugent, B. O’ullivan, Using case-based reasoning in an algorithm portfolio for constraint solvingm, in Irish Conference on Artificial Intelligence and Cognitive Science (2008)"
+            },
+            {
+              "key": "5_CR88",
+              "unstructured": "D.J. Patterson, H. Kautz, Auto-walksat: a self-tuning implementation of walksat, in LICS Workshop on Theory and Applications of Satisfiability Testing (SAT), vol. 9 (2001), pp. 360–368"
+            },
+            {
+              "key": "5_CR89",
+              "first-page": "727",
+              "volume-title": "X-means: extending K-means with efficient estimation of the number of clusters, in Proceedings of the Seventeenth International Conference on Machine Learning (ICML)",
+              "author": "D. Pelleg",
+              "year": "2000",
+              "unstructured": "D. Pelleg, A.W. Moore, X-means: extending K-means with efficient estimation of the number of clusters, in Proceedings of the Seventeenth International Conference on Machine Learning (ICML) (Morgan Kaufmann Publishers Inc., San Francisco, 2000), pp. 727–734"
+            },
+            {
+              "key": "5_CR90",
+              "volume-title": "Learning static parallel portfolios of algorithms, in International Symposium on Artificial Intelligence and Mathematics (ISAIM)",
+              "author": "M.P. Petrik",
+              "year": "2006",
+              "unstructured": "M.P. Petrik, S. Zilberstein, Learning static parallel portfolios of algorithms, in International Symposium on Artificial Intelligence and Mathematics (ISAIM) (2006)"
+            },
+            {
+              "key": "5_CR91",
+              "unstructured": "D.N. Pham, A. Anbulagan, Resolution enhanced SLS solver: R+AdaptNovelty+. solver description. SAT Competition (2007)"
+            },
+            {
+              "key": "5_CR92",
+              "unstructured": "D.N. Pham, C. Gretton, gnovelty+. Solver description. SAT Competition (2007)"
+            },
+            {
+              "key": "5_CR93",
+              "unstructured": "D.N. Pham, C. Gretton, gnovelty+ (v.2). Solver description. SAT Competition (2009)"
+            },
+            {
+              "key": "5_CR94",
+              "doi-asserted-by": "crossref",
+              "first-page": "203",
+              "DOI": "10.1007/11499107_15",
+              "volume-title": "Theory and Applications of Satisfiability Testing (SAT), vol. 3569",
+              "author": "S. Prestwich",
+              "year": "2005",
+              "unstructured": "S. Prestwich, Random walk with continuously smoothed variable weights, in Theory and Applications of Satisfiability Testing (SAT), vol. 3569, ed. by F. Bacchus, T. Walsh (Springer, Berlin, Heidelberg, 2005), pp. 203–215"
+            },
+            {
+              "issue": "336",
+              "key": "5_CR95",
+              "doi-asserted-by": "publisher",
+              "first-page": "846",
+              "DOI": "10.1080/01621459.1971.10482356",
+              "volume": "66",
+              "author": "W.M. Rand",
+              "year": "1971",
+              "unstructured": "W.M. Rand, Objective criteria for the evaluation of clustering methods. J. Am. Stat. Assoc. 66(336), 846–850 (1971)",
+              "journal-title": "J. Am. Stat. Assoc."
+            },
+            {
+              "key": "5_CR96",
+              "doi-asserted-by": "crossref",
+              "unstructured": "P. Refalo, Impact-based search strategies for constraint programming, in Principles and Practice of Constraint Programming (CP), vol. 3258, M. Wallace (Springer, Berlin, Heidelberg, 2004), pp. 557–571",
+              "DOI": "10.1007/978-3-540-30201-8_41"
+            },
+            {
+              "key": "5_CR97",
+              "doi-asserted-by": "crossref",
+              "unstructured": "L. Rokach, O. Maimon, Clustering methods. The Data Mining and Knowledge Discovery Handbook (Springer, New York, 2005), pp. 321–352",
+              "DOI": "10.1007/0-387-25465-X_15"
+            },
+            {
+              "key": "5_CR98",
+              "unstructured": "O. Roussel, Description of ppfolio (2011). \n                http://www.cril.univ-artois.fr/~roussel/ppfolio/solver1.pdf"
+            },
+            {
+              "key": "5_CR99",
+              "first-page": "255",
+              "volume-title": "Learning to solve QBF, in Proceedings of the National Conference on Artificial Intelligence (AAAI)",
+              "author": "H. Samulowitz",
+              "year": "2007",
+              "unstructured": "H. Samulowitz, R. Memisevic, Learning to solve QBF, in Proceedings of the National Conference on Artificial Intelligence (AAAI) (AAAI Press, Menlo Park, 2007), pp. 255–260"
+            },
+            {
+              "key": "5_CR100",
+              "unstructured": "A. Saxena, MIP Benchmark Instances (2003). \n                http://www.andrew.cmu.edu/user/anureets/mpsInstances.htm"
+            },
+            {
+              "key": "5_CR101",
+              "first-page": "1051",
+              "volume-title": "Disco-novo-gogo: integrating local search and complete search with restarts, in Proceedings of the AAAI Conference on Artificial Intelligence (AAAI)",
+              "author": "M. Sellmann",
+              "year": "2006",
+              "unstructured": "M. Sellmann, Disco-novo-gogo: integrating local search and complete search with restarts, in Proceedings of the AAAI Conference on Artificial Intelligence (AAAI) (AAAI Press, Boston, 2006), pp. 1051–1056"
+            },
+            {
+              "key": "5_CR102",
+              "volume-title": "Domain-independent extensions to GSAT: solving large structured satisfiability problems, in Proceedings of the International Joint Conference on Artificial Intelligence (IJCAI)",
+              "author": "B. Selman",
+              "year": "1993",
+              "unstructured": "B. Selman, H. Kautz, Domain-independent extensions to GSAT: solving large structured satisfiability problems, in Proceedings of the International Joint Conference on Artificial Intelligence (IJCAI) (Morgan Kaufmann Publishers Inc., San Francisco, 1993.), pp. 290–295"
+            },
+            {
+              "key": "5_CR103",
+              "volume-title": "Latent class models for algorithm portfolio methods, in Proceedings of the AAAI Conference on Artificial Intelligence (AAAI)",
+              "author": "B. Silverthorn",
+              "year": "2010",
+              "unstructured": "B. Silverthorn, R. Miikkulainen, Latent class models for algorithm portfolio methods, in Proceedings of the AAAI Conference on Artificial Intelligence (AAAI) (AAAI Press, Atlanta, 2010)"
+            },
+            {
+              "key": "5_CR104",
+              "first-page": "291",
+              "volume-title": "Advances in Artificial Intelligence, vol. 2557",
+              "author": "A. Slater",
+              "year": "2002",
+              "unstructured": "A. Slater, Modeling more realistic SAT problems, in Advances in Artificial Intelligence, vol. 2557, ed. by B. McKay, J. Slaney (Springer, Berlin, Heidelberg, 2002), pp. 291–602"
+            },
+            {
+              "key": "5_CR105",
+              "doi-asserted-by": "crossref",
+              "unstructured": "K. Smith-Miles, Cross-disciplinary perspectives on meta-learning for algorithm selection. ACM Comput. Surv. 41(1), 6:1–6:25 (2009)",
+              "DOI": "10.1145/1456650.1456656"
+            },
+            {
+              "key": "5_CR106",
+              "unstructured": "M. Soos, CryptoMiniSat 2.5.0. Solver description. SAT Race (2010)"
+            },
+            {
+              "key": "5_CR107",
+              "unstructured": "M. Soos, Cryptominisat 2.9.0 (2011)"
+            },
+            {
+              "key": "5_CR108",
+              "unstructured": "N. Sorensson, N. Een, MiniSAT 2.2.0 (2010). \n                http://minisat.se"
+            },
+            {
+              "key": "5_CR109",
+              "volume-title": "Collaborative expert portfolio management, in Proceedings of the National Conference on Artificial Intelligence (AAAI)",
+              "author": "D. Stern",
+              "year": "2010",
+              "unstructured": "D. Stern, H. Samulowitz, R. Herbrich, T. Graepel, L. Pulina, A. Tacchella, Collaborative expert portfolio management, in Proceedings of the National Conference on Artificial Intelligence (AAAI) (AAAI Press, Atlanta, 2010)"
+            },
+            {
+              "key": "5_CR110",
+              "first-page": "1197",
+              "volume-title": "Combining multiple heuristics online, in Proceedings of the National Conference on Artificial Intelligence (AAAI)",
+              "author": "M. Streeter",
+              "year": "2007",
+              "unstructured": "M. Streeter, D. Golovin, S.F. Smith, Combining multiple heuristics online, in Proceedings of the National Conference on Artificial Intelligence (AAAI) (AAAI Press, Vancouver, 2007), pp. 1197–1203"
+            },
+            {
+              "key": "5_CR111",
+              "first-page": "519",
+              "volume-title": "Proceedings of the Conference in Uncertainty in Artificial Intelligence (UAI)",
+              "author": "M.J. Streeter",
+              "year": "2008",
+              "unstructured": "M.J. Streeter, S.F. Smith, New techniques for algorithm portfolio design, in Proceedings of the Conference in Uncertainty in Artificial Intelligence (UAI), ed. by D.A. McAllester, P. Myllymäki (AUAI Press, Helsinki, 2008), pp. 519–527"
+            },
+            {
+              "key": "5_CR112",
+              "first-page": "635",
+              "volume-title": "examination timetabling, in Proceedings of the Genetic and Evolutionary Computation Conference (GECCO), vol. 1",
+              "author": "H. Terashima-Marín",
+              "year": "1999",
+              "unstructured": "H. Terashima-Marín, P. Ross, Evolution of constraint satisfaction strategies in examination timetabling, in Proceedings of the Genetic and Evolutionary Computation Conference (GECCO), vol. 1, ed. by W. Banzhaf, J. Daida, A.E. Eiben, M.H. Garzon, V. Honavar, M. Jakiela, R.E. Smith (Morgan Kaufmann, San Francisco, 1999), pp. 635–642"
+            },
+            {
+              "key": "5_CR113",
+              "first-page": "191",
+              "volume-title": "Additive versus multiplicative clause weighting for SAT, in Proceedings of the National Conference on Artificial Intelligence (AAAI)",
+              "author": "J. Thornton",
+              "year": "2004",
+              "unstructured": "J. Thornton, D.N. Pham, S. Bain, V. Ferreira, Additive versus multiplicative clause weighting for SAT, in Proceedings of the National Conference on Artificial Intelligence (AAAI) (AAAI Press, San Jose, 2004), pp. 191–196"
+            },
+            {
+              "key": "5_CR114",
+              "unstructured": "D.A.D Tompkins, F. Hutter, H.H. Hoos, saps. Solver description. SAT Competition (2007)"
+            },
+            {
+              "issue": "6",
+              "key": "5_CR115",
+              "doi-asserted-by": "publisher",
+              "first-page": "1363",
+              "DOI": "10.1287/opre.19.6.1363",
+              "volume": "19",
+              "author": "C. Toregas",
+              "year": "1971",
+              "unstructured": "C. Toregas, R. Swain, C. ReVelle, L. Bergman, The location of emergency service facilities. Oper. Res. 19(6), 1363–1373 (1971)",
+              "journal-title": "Oper. Res."
+            },
+            {
+              "key": "5_CR116",
+              "unstructured": "T. Uchida, O. Watanabe, Hard SAT instance generation based on the factorization problem (2010). \n                http://www.is.titech.ac.jp/~watanabe/gensat/a2/index.html"
+            },
+            {
+              "issue": "3",
+              "key": "5_CR117",
+              "doi-asserted-by": "publisher",
+              "first-page": "346",
+              "DOI": "10.1287/opre.35.3.346",
+              "volume": "35",
+              "author": "F.J. Vasko",
+              "year": "1987",
+              "unstructured": "F.J. Vasko, F.E. Wolf, K.L. Stott, Optimal selection of ingot sizes via set covering. Oper. Res. 35(3), 346–353 (1987)",
+              "journal-title": "Oper. Res."
+            },
+            {
+              "key": "5_CR118",
+              "volume-title": "Switching between two adaptive noise mechanisms in local search for SAT",
+              "author": "W. Wei",
+              "year": "2009",
+              "unstructured": "W. Wei, C.M. Li, Switching between two adaptive noise mechanisms in local search for SAT. Solver description. SAT Competition (2009)"
+            },
+            {
+              "key": "5_CR119",
+              "unstructured": "W. Wei, C.M. Li, H. Zhang, adaptg2wsatp. Solver description. SAT Competition (2007)"
+            },
+            {
+              "key": "5_CR120",
+              "volume-title": "Combining adaptive noise and promising decreasing variables in local search for SAT",
+              "author": "W. Wei",
+              "year": "2007",
+              "unstructured": "W. Wei, C.M. Li, H. Zhang, Combining adaptive noise and promising decreasing variables in local search for SAT. Solver description. SAT Competition (2007)"
+            },
+            {
+              "key": "5_CR121",
+              "volume-title": "Deterministic and random selection of variables in local search for SAT",
+              "author": "W. Wei",
+              "year": "2007",
+              "unstructured": "W. Wei, C.M. Li, H. Zhang, Deterministic and random selection of variables in local search for SAT. Solver description. SAT Competition (2007)"
+            },
+            {
+              "issue": "1",
+              "key": "5_CR122",
+              "doi-asserted-by": "publisher",
+              "first-page": "67",
+              "DOI": "10.1109/4235.585893",
+              "volume": "1",
+              "author": "D.H. Wolpert",
+              "year": "1997",
+              "unstructured": "D.H. Wolpert, W.G. Macready, No free lunch theorems for optimization. Evol. Comput. 1(1), 67–82 (1997)",
+              "journal-title": "Evol. Comput."
+            },
+            {
+              "key": "5_CR123",
+              "volume-title": "SATzilla2009: an automatic algorithm portfolio for SAT",
+              "author": "L. Xu",
+              "year": "2009",
+              "unstructured": "L. Xu, F. Hutter, H.H. Hoos, K. Leyton-Brown, SATzilla2009: an automatic algorithm portfolio for SAT. Solver description. SAT Competition (2009)"
+            },
+            {
+              "key": "5_CR124",
+              "volume-title": "Hydra: automatically configuring algorithms for portfolio-based selection, in Proceedings of the AAAI Conference on Artificial Intelligence (AAAI)",
+              "author": "L. Xu",
+              "year": "2010",
+              "unstructured": "L. Xu, H.H. Hoos, K. Leyton-Brown. Hydra: automatically configuring algorithms for portfolio-based selection, in Proceedings of the AAAI Conference on Artificial Intelligence (AAAI) (AAAI Press, Atlanta, 2010)"
+            },
+            {
+              "key": "5_CR125",
+              "first-page": "712",
+              "volume-title": "Proceedings of Principles and Practice of Constraint Programming (CP), vol. 4741",
+              "author": "L. Xu",
+              "year": "2007",
+              "unstructured": "L. Xu, F. Hutter, H.H. Hoos, K. Leyton-Brown, SATzilla-07: the design and analysis of an algorithm portfolio for SAT, in Proceedings of Principles and Practice of Constraint Programming (CP), vol. 4741, ed. by C. Bessiere (Springer, Berlin, Heidelberg, 2007), pp. 712–727."
+            },
+            {
+              "issue": "1",
+              "key": "5_CR126",
+              "doi-asserted-by": "crossref",
+              "first-page": "565",
+              "DOI": "10.1613/jair.2490",
+              "volume": "32",
+              "author": "L. Xu",
+              "year": "2008",
+              "unstructured": "L. Xu, F. Hutter, H.H. Hoos, K. Leyton-Brown, SATzilla: portfolio-based algorithm selection for SAT. J. Artif. Intell. Res. 32(1), 565–606 (2008)",
+              "journal-title": "J. Artif. Intell. Res."
+            },
+            {
+              "key": "5_CR127",
+              "unstructured": "L. Xu, F. Hutter, J. Shen, H.H. Hoos, K. Leyton-Brown, SATzilla2012: improved algorithm selection based on cost-sensitive classification models. SAT Competition (2012)"
+            }
+          ],
+          "container-title": [
+            "Instance-Specific Algorithm Configuration"
+          ],
+          "language": "en",
+          "link": [
+            {
+              "URL": "http://link.springer.com/content/pdf/10.1007/978-3-319-11230-5_5",
+              "content-type": "unspecified",
+              "content-version": "vor",
+              "intended-application": "similarity-checking"
+            }
+          ],
+          "deposited": {
+            "date-parts": [
+              [
+                2019,
+                5,
+                28
+              ]
+            ],
+            "date-time": "2019-05-28T19:45:19Z",
+            "timestamp": 1559072719000
+          },
+          "score": 34.74637,
+          "resource": {
+            "primary": {
+              "URL": "http://link.springer.com/10.1007/978-3-319-11230-5_5"
+            }
+          },
+          "issued": {
+            "date-parts": [
+              [
+                2014
+              ]
+            ]
+          },
+          "ISBN": [
+            "9783319112299",
+            "9783319112305"
+          ],
+          "references-count": 127,
+          "URL": "https://doi.org/10.1007/978-3-319-11230-5_5",
+          "published": {
+            "date-parts": [
+              [
+                2014
+              ]
+            ]
+          }
+        },
+        {
+          "indexed": {
+            "date-parts": [
+              [
+                2025,
+                3,
+                25
+              ]
+            ],
+            "date-time": "2025-03-25T19:42:18Z",
+            "timestamp": 1742931738152,
+            "version": "3.40.3"
+          },
+          "publisher-location": "Cham",
+          "reference-count": 127,
+          "publisher": "Springer International Publishing",
+          "isbn-type": [
+            {
+              "type": "print",
+              "value": "9783319112299"
+            },
+            {
+              "type": "electronic",
+              "value": "9783319112305"
+            }
+          ],
+          "license": [
+            {
+              "start": {
+                "date-parts": [
+                  [
+                    2014,
+                    1,
+                    1
+                  ]
+                ],
+                "date-time": "2014-01-01T00:00:00Z",
+                "timestamp": 1388534400000
+              },
+              "content-version": "tdm",
+              "delay-in-days": 0,
+              "URL": "https://www.springernature.com/gp/researchers/text-and-data-mining"
+            },
+            {
+              "start": {
+                "date-parts": [
+                  [
+                    2014,
+                    1,
+                    1
+                  ]
+                ],
+                "date-time": "2014-01-01T00:00:00Z",
+                "timestamp": 1388534400000
+              },
+              "content-version": "vor",
+              "delay-in-days": 0,
+              "URL": "https://www.springernature.com/gp/researchers/text-and-data-mining"
+            }
+          ],
+          "content-domain": {
+            "domain": [
+              "link.springer.com"
+            ],
+            "crossmark-restriction": false
+          },
+          "published-print": {
+            "date-parts": [
+              [
+                2014
+              ]
+            ]
+          },
+          "DOI": "10.1007/978-3-319-11230-5_10",
+          "type": "book-chapter",
+          "created": {
+            "date-parts": [
+              [
+                2014,
+                11,
+                21
+              ]
+            ],
+            "date-time": "2014-11-21T16:33:31Z",
+            "timestamp": 1416587611000
+          },
+          "page": "107-123",
+          "update-policy": "https://doi.org/10.1007/springer_crossmark_policy",
+          "source": "Crossref",
+          "is-referenced-by-count": 0,
+          "title": [
+            "Improving Cluster-Based Algorithm Selection"
+          ],
+          "prefix": "10.1007",
+          "author": [
+            {
+              "given": "Yuri",
+              "family": "Malitsky",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            }
+          ],
+          "member": "297",
+          "published-online": {
+            "date-parts": [
+              [
+                2014,
+                10,
+                18
+              ]
+            ]
+          },
+          "reference": [
+            {
+              "key": "10_CR1",
+              "unstructured": "SAT Competition. http://www.satcomptition.org, 2013"
+            },
+            {
+              "key": "10_CR2",
+              "doi-asserted-by": "publisher",
+              "first-page": "433",
+              "DOI": "10.1002/wics.101",
+              "volume": "2",
+              "author": "H. Abdi",
+              "year": "2010",
+              "unstructured": "H. Abdi, L.J. Williams, Principal component analysis. Wiley Interdiscip. Rev. Comput. Stat. 2, 433–459 (2010)",
+              "journal-title": "Wiley Interdiscip. Rev. Comput. Stat."
+            },
+            {
+              "issue": "1",
+              "key": "10_CR3",
+              "doi-asserted-by": "publisher",
+              "first-page": "42",
+              "DOI": "10.1016/j.orl.2004.04.002",
+              "volume": "33",
+              "author": "T. Achterberg",
+              "year": "2004",
+              "unstructured": "T. Achterberg, T. Koch, A. Martin, Branching rules revisited. Oper. Res. Lett. 33(1), 42–54 (2004)",
+              "journal-title": "Oper. Res. Lett."
+            },
+            {
+              "issue": "1",
+              "key": "10_CR4",
+              "doi-asserted-by": "publisher",
+              "first-page": "99",
+              "DOI": "10.1287/opre.1050.0243",
+              "volume": "54",
+              "author": "B. Adenso-Diaz",
+              "year": "2006",
+              "unstructured": "B. Adenso-Diaz, M. Laguna, Fine-tuning of algorithms using fractional experimental designs and local search. Oper. Res. 54(1), 99–114 (2006)",
+              "journal-title": "Oper. Res."
+            },
+            {
+              "key": "10_CR5",
+              "first-page": "142",
+              "volume-title": "Proceedings of Principles and Practice of Constraint Programming (CP), vol. 5732",
+              "author": "C. Ansótegui",
+              "year": "2009",
+              "unstructured": "C. Ansótegui, M. Sellmann, K. Tierney, A gender-based genetic algorithm for the automatic configuration of algorithms, in Proceedings of Principles and Practice of Constraint Programming (CP), vol. 5732, ed. by I. Gent (Springer, Berlin, 2009), pp. 142–157"
+            },
+            {
+              "issue": "1",
+              "key": "10_CR6",
+              "doi-asserted-by": "crossref",
+              "first-page": "145",
+              "DOI": "10.1007/s101070100235",
+              "volume": "91",
+              "author": "A. Atamtürk",
+              "year": "2001",
+              "unstructured": "A. Atamtürk, G.L. Nemhauser, M.W.P. Savelsbergh, Valid inequalities for problems with additive variable upper bounds. Math. Program. 91(1), 145–162 (2001)",
+              "journal-title": "Math. Program."
+            },
+            {
+              "issue": "3",
+              "key": "10_CR7",
+              "doi-asserted-by": "publisher",
+              "first-page": "107",
+              "DOI": "10.1016/S0167-6377(01)00100-6",
+              "volume": "29",
+              "author": "A. Atamtürk",
+              "year": "2001",
+              "unstructured": "A. Atamtürk, Flow pack facets of the single node fixed-charge flow polytope. Oper. Res. Lett. 29(3), 107–114 (2001)",
+              "journal-title": "Oper. Res. Lett."
+            },
+            {
+              "issue": "1–3",
+              "key": "10_CR8",
+              "doi-asserted-by": "publisher",
+              "first-page": "145",
+              "DOI": "10.1007/s10107-003-0400-z",
+              "volume": "98",
+              "author": "A. Atamtürk",
+              "year": "2003",
+              "unstructured": "A. Atamtürk, On the facets of the mixed-integer knapsack polyhedron. Math. Program. 98(1–3), 145–175 (2003)",
+              "journal-title": "Math. Program."
+            },
+            {
+              "issue": "3",
+              "key": "10_CR9",
+              "doi-asserted-by": "publisher",
+              "first-page": "443",
+              "DOI": "10.1007/s10107-003-0465-8",
+              "volume": "99",
+              "author": "A. Atamtürk",
+              "year": "2004",
+              "unstructured": "A. Atamtürk, J.C. Munoz, A study of the lot-sizing polytope. Math. Program. 99(3), 443–465 (2004)",
+              "journal-title": "Math. Program."
+            },
+            {
+              "key": "10_CR10",
+              "unstructured": "G. Audemard, L. Simon, GLUCOSE: a solver that predicts learnt clauses quality. SAT Competition (2009)"
+            },
+            {
+              "issue": "3",
+              "key": "10_CR11",
+              "doi-asserted-by": "publisher",
+              "first-page": "642",
+              "DOI": "10.1137/040620886",
+              "volume": "17",
+              "author": "C. Audet",
+              "year": "2006",
+              "unstructured": "C. Audet, D. Orban, Finding optimal algorithmic parameters using derivative-free optimization. SIAM J. Optim. 17(3), 642–664 (2006)",
+              "journal-title": "SIAM J. Optim."
+            },
+            {
+              "key": "10_CR12",
+              "unstructured": "A. Balint, M. Henn, O. Gableske, hybridGM. Solver description. SAT Competition (2009)"
+            },
+            {
+              "issue": "2",
+              "key": "10_CR13",
+              "doi-asserted-by": "publisher",
+              "first-page": "126",
+              "DOI": "10.1287/ijoc.6.2.126",
+              "volume": "6",
+              "author": "R. Battiti",
+              "year": "1993",
+              "unstructured": "R. Battiti, G. Tecchiolli, I. Nazionale, F. Nucleare, The reactive tabu search. INFORMS J. Comput. 6(2), 126–140 (1993)",
+              "journal-title": "INFORMS J. Comput."
+            },
+            {
+              "key": "10_CR14",
+              "first-page": "25",
+              "volume-title": "Grouping Multidimensional Data",
+              "author": "P. Berkhin",
+              "year": "2002",
+              "unstructured": "P. Berkhin, Survey of clustering data mining techniques, in Grouping Multidimensional Data, ed. by J. Kogan, C. Nicholas, M. Teboulle (Springer, Berlin, Heidelberg, 2002), pp. 25–71"
+            },
+            {
+              "key": "10_CR15",
+              "volume-title": "Picosat version 846",
+              "author": "A. Biere",
+              "year": "2007",
+              "unstructured": "A. Biere, Picosat version 846. Solver description. SAT Competition (2007)"
+            },
+            {
+              "key": "10_CR16",
+              "unstructured": "A. Biere, P{re,i}coSATSC’09. SAT Competition (2009)"
+            },
+            {
+              "key": "10_CR17",
+              "unstructured": "A. Biere, Lingeling. SAT Race (2010)"
+            },
+            {
+              "key": "10_CR18",
+              "unstructured": "A. Biere, PLingeling. SAT Race (2010)"
+            },
+            {
+              "key": "10_CR19",
+              "unstructured": "A. Biere, Lingeling and Friends at the SAT Competition 2011. Technical report, 4040 Linz (2011)"
+            },
+            {
+              "key": "10_CR20",
+              "first-page": "11",
+              "volume-title": "A racing algorithm for configuring metaheuristics, in Proceedings of the Genetic and Evolutionary Computation Conference",
+              "author": "M. Birattari",
+              "year": "2002",
+              "unstructured": "M. Birattari, T. Stützle, L. Paquete, K. Varrentrapp, A racing algorithm for configuring metaheuristics, in Proceedings of the Genetic and Evolutionary Computation Conference (Morgan Kaufmann publishers, San Francisco, 2002), pp. 11–18"
+            },
+            {
+              "key": "10_CR21",
+              "first-page": "77",
+              "volume": "1",
+              "author": "J. Boyan",
+              "year": "2000",
+              "unstructured": "J. Boyan, A.W. Moore, P. Kaelbling, Learning evaluation functions to improve optimization by local search. J. Mach. Learn. Res. 1, 77–112 (2000)",
+              "journal-title": "J. Mach. Learn. Res."
+            },
+            {
+              "issue": "2",
+              "key": "10_CR22",
+              "doi-asserted-by": "publisher",
+              "first-page": "201",
+              "DOI": "10.1002/rsa.20057",
+              "volume": "27",
+              "author": "A. Braunstein",
+              "year": "2005",
+              "unstructured": "A. Braunstein, M. Mézard, R. Zecchina, Survey propagation: an algorithm for Satisfiability. Random Struct. Algorithm. 27(2), 201–226 (2005)",
+              "journal-title": "Random Struct. Algorithm."
+            },
+            {
+              "key": "10_CR23",
+              "unstructured": "D.R. Bregman, The SAT Solver MXC, Version 0.99. SAT Competition (2009)"
+            },
+            {
+              "key": "10_CR24",
+              "unstructured": "D.R. Bregman, D.G. Mitchell, The SAT Solver MXC, version 0.75. Solver description. SAT Race (2008)"
+            },
+            {
+              "issue": "2",
+              "key": "10_CR25",
+              "first-page": "123",
+              "volume": "24",
+              "author": "L. Breiman",
+              "year": "1996",
+              "unstructured": "L. Breiman, Bagging predictors. Mach. Learn. 24(2), 123–140 (1996)",
+              "journal-title": "Mach. Learn."
+            },
+            {
+              "issue": "1",
+              "key": "10_CR26",
+              "doi-asserted-by": "publisher",
+              "first-page": "5",
+              "DOI": "10.1023/A:1010933404324",
+              "volume": "45",
+              "author": "L. Breiman",
+              "year": "2001",
+              "unstructured": "L. Breiman, Random forests. Mach. Learn. 45(1), 5–32 (2001)",
+              "journal-title": "Mach. Learn."
+            },
+            {
+              "key": "10_CR27",
+              "first-page": "434",
+              "volume-title": "Configuration checking with aspiration in local search for SAT, in Proceedings of the AAAI Conference on Artificial Intelligence (AAAI)",
+              "author": "S. Cai",
+              "year": "2012",
+              "unstructured": "S. Cai, K. Su, Configuration checking with aspiration in local search for SAT, in Proceedings of the AAAI Conference on Artificial Intelligence (AAAI) (AAAI Press, Toronto, 2012), pp. 434–440"
+            },
+            {
+              "key": "10_CR28",
+              "first-page": "125",
+              "volume": "79",
+              "author": "A. Caprara",
+              "year": "1997",
+              "unstructured": "A. Caprara, M. Fischetti, P. Toth, D. Vigo, P.L. Guida, Algorithms for railway crew management. Math. Program. 79, 125–141 (1997)",
+              "journal-title": "Math. Program."
+            },
+            {
+              "issue": "1",
+              "key": "10_CR29",
+              "doi-asserted-by": "publisher",
+              "first-page": "77",
+              "DOI": "10.1023/A:1026569813391",
+              "volume": "7",
+              "author": "S.P. Coy",
+              "year": "2001",
+              "unstructured": "S.P. Coy, B.L. Golden, G.C. Runger, E.A. Wasil, Using experimental design to find effective parameter settings for heuristics. J. Heuristics 7(1), 77–97 (2001)",
+              "journal-title": "J. Heuristics"
+            },
+            {
+              "issue": "4",
+              "key": "10_CR30",
+              "doi-asserted-by": "publisher",
+              "first-page": "767",
+              "DOI": "10.2307/1911818",
+              "volume": "29",
+              "author": "G.B. Dantzig",
+              "year": "1961",
+              "unstructured": "G.B. Dantzig, P. Wolfe, The decomposition algorithm for linear programs. Econometrica 29(4), 767–778 (1961)",
+              "journal-title": "Econometrica"
+            },
+            {
+              "issue": "7",
+              "key": "10_CR31",
+              "doi-asserted-by": "publisher",
+              "first-page": "394",
+              "DOI": "10.1145/368273.368557",
+              "volume": "5",
+              "author": "M. Davis",
+              "year": "1962",
+              "unstructured": "M. Davis, G. Logemann, D. Loveland, A machine program for theorem-proving. Commun. ACM 5(7), 394–397 (1962)",
+              "journal-title": "Commun. ACM"
+            },
+            {
+              "key": "10_CR32",
+              "unstructured": "G. Dequen, O. Dubois, kcnfs. Solver description. SAT Competition (2007)"
+            },
+            {
+              "key": "10_CR33",
+              "unstructured": "N. Een, N. Sörensson, MiniSAT (2010). http://minisat.se"
+            },
+            {
+              "key": "10_CR34",
+              "first-page": "525",
+              "volume-title": "Principles and Practice of Constraint Programming (CP), vol. 2470",
+              "author": "S.L. Epstein",
+              "year": "2002",
+              "unstructured": "S.L. Epstein, E.C. Freuder, R.J. Wallace, A. Morozov, B. Samuels, The adaptive constraint engine, in Principles and Practice of Constraint Programming (CP), vol. 2470, ed. by P.V. Hentenryck (Springer, Berlin, Heidelberg, 2002), pp. 525–542"
+            },
+            {
+              "issue": "1",
+              "key": "10_CR35",
+              "doi-asserted-by": "publisher",
+              "first-page": "31",
+              "DOI": "10.1162/evco.2008.16.1.31",
+              "volume": "16",
+              "author": "A.S. Fukunaga",
+              "year": "2008",
+              "unstructured": "A.S. Fukunaga, Automated discovery of local search heuristics for satisfiability testing. Evol. Comput. 16(1), 31–61 (2008)",
+              "journal-title": "Evol. Comput."
+            },
+            {
+              "key": "10_CR36",
+              "doi-asserted-by": "publisher",
+              "first-page": "3",
+              "DOI": "10.1007/s10472-006-9028-z",
+              "volume": "47",
+              "author": "M. Gagliolo",
+              "year": "2006",
+              "unstructured": "M. Gagliolo, J. Schmidhuber, Dynamic algorithm portfolios. Ann. Math. Artif. Intell. 47, 3–4 (2006)",
+              "journal-title": "Ann. Math. Artif. Intell."
+            },
+            {
+              "key": "10_CR37",
+              "first-page": "71",
+              "volume-title": "Integration of AI and OR Techniques in Constraint Programming for Combinatorial Optimization Problems (CPAIOR), vol. 5547",
+              "author": "M. Gebser",
+              "year": "2009",
+              "unstructured": "M. Gebser, B. Kaufmann, T. Schaub, Solution enumeration for projected boolean search problems, in Integration of AI and OR Techniques in Constraint Programming for Combinatorial Optimization Problems (CPAIOR), vol. 5547, ed. by W.-J. van Hoeve, J.N. Hooker (Springer, Berlin Heidelberg, 2009), pp. 71–86"
+            },
+            {
+              "key": "10_CR38",
+              "first-page": "849",
+              "volume-title": "Morphing: combining structure and randomness, in Proceedings of the National Conference on Artificial Intelligence (AAAI)",
+              "author": "I.P. Gent",
+              "year": "1999",
+              "unstructured": "I.P. Gent, H.H. Hoos, P. Prosser, T. Walsh, Morphing: combining structure and randomness, in Proceedings of the National Conference on Artificial Intelligence (AAAI), vol. 9 (AAAI Press, Orlando, 1999), pp. 849–859"
+            },
+            {
+              "key": "10_CR39",
+              "first-page": "221",
+              "volume-title": "Problem structure in the presence of perturbations, in Proceedings of the National Conference on Artificial Intelligence (AAAI)",
+              "author": "C.P. Gomes",
+              "year": "1997",
+              "unstructured": "C.P. Gomes, B. Selman, Problem structure in the presence of perturbations, in Proceedings of the National Conference on Artificial Intelligence (AAAI) (AAAI Press, New Providence, 1997), pp. 221–226"
+            },
+            {
+              "issue": "1–2",
+              "key": "10_CR40",
+              "doi-asserted-by": "publisher",
+              "first-page": "43",
+              "DOI": "10.1016/S0004-3702(00)00081-3",
+              "volume": "126",
+              "author": "C.P. Gomes",
+              "year": "2001",
+              "unstructured": "C.P. Gomes, B. Selman, Algorithm portfolios. Artif. Intell. 126(1–2), 43–62 (2001)",
+              "journal-title": "Artif. Intell."
+            },
+            {
+              "key": "10_CR41",
+              "unstructured": "Google, Google ROADEF Challenge (2012). http://challenge.roadef.org/2012/en/index.php"
+            },
+            {
+              "issue": "1",
+              "key": "10_CR42",
+              "doi-asserted-by": "publisher",
+              "first-page": "10",
+              "DOI": "10.1145/1656274.1656278",
+              "volume": "11",
+              "author": "M. Hall",
+              "year": "2009",
+              "unstructured": "M. Hall, E. Frank, G. Holmes, B. Pfahringer, P. Reutemann, I.H. Witten, The WEKA data mining software: an update. SIGKDD Explor. Newsl. 11(1), 10–18 (2009)",
+              "journal-title": "SIGKDD Explor. Newsl."
+            },
+            {
+              "key": "10_CR43",
+              "unstructured": "Y. Hamadi, S. Jabbour, L. Sais, LySAT: solver description. SAT Competition (2009)"
+            },
+            {
+              "key": "10_CR44",
+              "volume-title": "Learning the K in K-means, in Neural Information Processing Systems",
+              "author": "G. Hamerly",
+              "year": "2003",
+              "unstructured": "G. Hamerly, C. Elkan, Learning the K in K-means, in Neural Information Processing Systems (MIT Press, Cambridge, 2003)"
+            },
+            {
+              "key": "10_CR45",
+              "unstructured": "M. Heule, H. van Marren, march hi: Solver description. SAT Competition (2009)"
+            },
+            {
+              "key": "10_CR46",
+              "unstructured": "M. Heule, H. van Marren, march nn (2009). http://www.st.ewi.tudelft.nl/sat/download.php"
+            },
+            {
+              "key": "10_CR47",
+              "first-page": "345",
+              "volume-title": "March eq: implementing additional reasoning into an efficient lookahead SAT solver, in Proceedings of the International Conference on Theory and Application of Satisfiability Testing (SAT)",
+              "author": "M. Heule",
+              "year": "2005",
+              "unstructured": "M. Heule, M. Dufour, J. Van Zwieten, H. Van Maaren, March eq: implementing additional reasoning into an efficient lookahead SAT solver, in Proceedings of the International Conference on Theory and Application of Satisfiability Testing (SAT), vol. 3542 (Springer, Berlin, 2005), pp. 345–359"
+            },
+            {
+              "issue": "6",
+              "key": "10_CR48",
+              "doi-asserted-by": "publisher",
+              "first-page": "657",
+              "DOI": "10.1287/mnsc.39.6.657",
+              "volume": "39",
+              "author": "K.L. Hoffman",
+              "year": "1993",
+              "unstructured": "K.L. Hoffman, M. Padberg, Solving airline crew scheduling problems by branch-and-cut. Manag. Sci. 39(6), 657–682 (1993)",
+              "journal-title": "Manag. Sci."
+            },
+            {
+              "key": "10_CR49",
+              "first-page": "655",
+              "volume-title": "An adaptive noise mechanism for WalkSAT, in Proceedings of the National Conference on Artificial Intelligence (AAAI)",
+              "author": "H.H. Hoos",
+              "year": "2002",
+              "unstructured": "H.H. Hoos, An adaptive noise mechanism for WalkSAT, in Proceedings of the National Conference on Artificial Intelligence (AAAI) (AAAI Press, Menlo Park, 2002), pp. 655–660"
+            },
+            {
+              "issue": "5",
+              "key": "10_CR50",
+              "doi-asserted-by": "publisher",
+              "first-page": "68",
+              "DOI": "10.1287/inte.27.5.68",
+              "volume": "27",
+              "author": "E. Housos",
+              "year": "1997",
+              "unstructured": "E. Housos, T. Elmroth, Automatic optimization of subproblems in scheduling airline crews. Interfaces 27(5), 68–77 (1997)",
+              "journal-title": "Interfaces"
+            },
+            {
+              "issue": "5296",
+              "key": "10_CR51",
+              "doi-asserted-by": "publisher",
+              "first-page": "51",
+              "DOI": "10.1126/science.275.5296.51",
+              "volume": "275",
+              "author": "B.A. Huberman",
+              "year": "1997",
+              "unstructured": "B.A. Huberman, R.M. Lukose, T. Hogg, An economic approach to hard computational problems. Science 275(5296), 51–53 (1997)",
+              "journal-title": "Science"
+            },
+            {
+              "issue": "1",
+              "key": "10_CR52",
+              "doi-asserted-by": "publisher",
+              "first-page": "193",
+              "DOI": "10.1007/BF01908075",
+              "volume": "2",
+              "author": "L. Hubert",
+              "year": "1985",
+              "unstructured": "L. Hubert, P. Arabie, Comparing partitions. J. Classif. 2(1), 193–218 (1985)",
+              "journal-title": "J. Classif."
+            },
+            {
+              "key": "10_CR53",
+              "unstructured": "F. Hutter, Y. Hamadi, Parameter adjustment based on performance prediction: towards an instance-aware problem solver. Technical Report MSR-TR-2005-125, Microsoft Research (2005)"
+            },
+            {
+              "key": "10_CR54",
+              "first-page": "213",
+              "volume-title": "Proceedings of Principles and Practice of Constraint Programming (CP), vol. 4204",
+              "author": "F. Hutter",
+              "year": "2006",
+              "unstructured": "F. Hutter, Y. Hamadi, H.H. Hoos, K. Leyton-Brown, Performance prediction and automated tuning of randomized and parametric algorithms, in Proceedings of Principles and Practice of Constraint Programming (CP), vol. 4204, ed. by F. Benhamou (Springer, Berlin, Heidelberg, 2006), pp. 213–228"
+            },
+            {
+              "key": "10_CR55",
+              "doi-asserted-by": "crossref",
+              "first-page": "281",
+              "DOI": "10.1007/978-3-642-13800-3_30",
+              "volume-title": "Learning and Intelligent Optimization (LION), vol. 6073",
+              "author": "F. Hutter",
+              "year": "2010",
+              "unstructured": "F. Hutter, H.H. Hoos, K. Leyton-Brown, K. Murphy, Time-bounded sequential parameter pptimization, in Learning and Intelligent Optimization (LION), vol. 6073, ed. by C. Blum, R. Battiti (Springer, Berlin, Heidelberg, 2010), pp. 281–298"
+            },
+            {
+              "issue": "1",
+              "key": "10_CR56",
+              "doi-asserted-by": "crossref",
+              "first-page": "267",
+              "DOI": "10.1613/jair.2861",
+              "volume": "36",
+              "author": "F. Hutter",
+              "year": "2009",
+              "unstructured": "F. Hutter, H.H. Hoos, K. Leyton-Brown, T. Stützle, ParamILS: an automatic algorithm configuration framework. J. Artif. Intell. Res. 36(1), 267–306 (2009)",
+              "journal-title": "J. Artif. Intell. Res."
+            },
+            {
+              "key": "10_CR57",
+              "first-page": "233",
+              "volume-title": "Principles and Practice of Constraint Programming (CP), vol. 2470",
+              "author": "F. Hutter",
+              "year": "2002",
+              "unstructured": "F. Hutter, D.A.D. Tompkins, H.H. Hoos, Scaling and probabilistic smoothing: efficient dynamic local search for SAT, in Principles and Practice of Constraint Programming (CP), vol. 2470, ed. by P.V. Hentenryck (Springer, Berlin Heidelberg, 2002), pp. 233–248"
+            },
+            {
+              "key": "10_CR58",
+              "first-page": "233",
+              "volume-title": "Scaling and probabilistic smoothing: efficient dynamic local search for SAT, in Proceedings of the International Conference on Principles and Practice of Constraint Programming (CP)",
+              "author": "F. Hutter",
+              "year": "2002",
+              "unstructured": "F. Hutter, D.A.D. Tompkins, H.H. Hoos, Scaling and probabilistic smoothing: efficient dynamic local search for SAT, in Proceedings of the International Conference on Principles and Practice of Constraint Programming (CP) (Springer, Berlin, 2002), pp. 233–248"
+            },
+            {
+              "key": "10_CR59",
+              "unstructured": "IBM, Reference manual and user manual. V12.5 (2013)"
+            },
+            {
+              "key": "10_CR60",
+              "first-page": "751",
+              "volume-title": "ISAC – instance-specific algorithm configuration, in Proceedings of the European Conference on Artificial Intelligence (ECAI)",
+              "author": "S. Kadioglu",
+              "year": "2010",
+              "unstructured": "S. Kadioglu, Y. Malitsky, M. Sellmann, K. Tierney, ISAC – instance-specific algorithm configuration, in Proceedings of the European Conference on Artificial Intelligence (ECAI) (IOS Press, Amsterdam, 2010), pp. 751–756"
+            },
+            {
+              "key": "10_CR61",
+              "first-page": "486",
+              "volume-title": "Proceedings of Principles and Practice of Constraint Programming (CP), vol. 5732",
+              "author": "S. Kadioglu",
+              "year": "2009",
+              "unstructured": "S. Kadioglu, M. Sellmann, Dialectic search, in Proceedings of Principles and Practice of Constraint Programming (CP), vol. 5732, ed. by I. Gent (Springer, Berlin Heidelberg, 2009), pp. 486–500"
+            },
+            {
+              "key": "10_CR62",
+              "first-page": "517",
+              "volume-title": "SATenstein: automatically building local search SAT solvers from components, in International Joint Conference on Artificial Intelligence (IJCAI)",
+              "author": "A.R. Khudabukhsh",
+              "year": "2009",
+              "unstructured": "A.R. Khudabukhsh, L. Xu, H.H. Hoos, K. Leyton-Brown, SATenstein: automatically building local search SAT solvers from components, in International Joint Conference on Artificial Intelligence (IJCAI) (AAAI Press, Menlo Park, 2009), pp. 517–524"
+            },
+            {
+              "issue": "2",
+              "key": "10_CR63",
+              "doi-asserted-by": "publisher",
+              "first-page": "103",
+              "DOI": "10.1007/s12532-011-0025-9",
+              "volume": "3",
+              "author": "T. Koch",
+              "year": "2011",
+              "unstructured": "T. Koch, T. Achterberg, E. Andersen, O. Bastert, T. Berthold, R.E. Bixby, E. Danna, G. Gamrath, A.M. Gleixner, S. Heinz, A. Lodi, H. Mittelmann, T. Ralphs, D. Salvagnin, D.E. Steffy, K. Wolter, MIPLIB 2010 - Mixed Integer Programming Library version 5. Math. Program. Comput. 3(2), 103–163 (2011)",
+              "journal-title": "Math. Program. Comput."
+            },
+            {
+              "key": "10_CR64",
+              "doi-asserted-by": "crossref",
+              "unstructured": "M.G. Lagoudakis, M.L. Littman, Learning to select branching rules in the DPLL procedure for satisfiability, in LICS 2001 Workshop on Theory and Applications of Satisfiability Testing (SAT), vol. 9 (2001), pp. 344–359",
+              "DOI": "10.1016/S1571-0653(04)00332-4"
+            },
+            {
+              "key": "10_CR65",
+              "first-page": "142",
+              "volume-title": "Integration of AI and OR Techniques in Constraint Programming for Combinatorial Optimization Problems (CPAIOR), vol. 5015",
+              "author": "D.H. Leventhal",
+              "year": "2008",
+              "unstructured": "D.H. Leventhal, M. Sellmann, The accuracy of search heuristics: an empirical study on knapsack problems, in Integration of AI and OR Techniques in Constraint Programming for Combinatorial Optimization Problems (CPAIOR), vol. 5015, ed. by L. Perron, M.A. Trick (Springer, Berlin, Heidelberg, 2008), pp. 142–157"
+            },
+            {
+              "key": "10_CR66",
+              "first-page": "1542",
+              "volume-title": "A portfolio approach to algorithm selection, in Proceedings of the International Joint Conference on Artificial Intelligence (IJCAI)",
+              "author": "K. Leyton-Brown",
+              "year": "2003",
+              "unstructured": "K. Leyton-Brown, E. Nudelman, G. Andrew, J. Mcfadden, Y. Shoham, A portfolio approach to algorithm selection, in Proceedings of the International Joint Conference on Artificial Intelligence (IJCAI) (Morgan Kaufmann Publishers Inc., San Francisco, 2003), pp. 1542–1543"
+            },
+            {
+              "key": "10_CR67",
+              "first-page": "899",
+              "volume-title": "Proceedings of Principles and Practice of Constraint Programming (CP), vol. 2833",
+              "author": "K. Leyton-Brown",
+              "year": "2003",
+              "unstructured": "K. Leyton-Brown, E. Nudelman, G. Andrew, J. Mcfadden, Y. Shoham, Boosting as a Metaphor for Algorithm Design, in Proceedings of Principles and Practice of Constraint Programming (CP), vol. 2833, ed. by F. Rossi (Springer, Berlin, Heidelberg, 2003), pp. 899–903"
+            },
+            {
+              "key": "10_CR68",
+              "first-page": "66",
+              "volume-title": "Towards a universal test suite for combinatorial auction algorithms, in Proceedings of the ACM Conference on Electronic Commerce",
+              "author": "K. Leyton-Brown",
+              "year": "2000",
+              "unstructured": "K. Leyton-Brown, M. Pearson, Y. Shoham, Towards a universal test suite for combinatorial auction algorithms, in Proceedings of the ACM Conference on Electronic Commerce (ACM Press, New York, 2000), pp. 66–76"
+            },
+            {
+              "key": "10_CR69",
+              "first-page": "158",
+              "volume-title": "G2WSAT: gradient-based greedy WalkSAT, in Proceedings of the International Conference on Theory and Application of Satisfiability Testing (SAT)",
+              "author": "C.M. Li",
+              "year": "2005",
+              "unstructured": "C.M. Li, W.Q. Huang, G2WSAT: gradient-based greedy WalkSAT, in Proceedings of the International Conference on Theory and Application of Satisfiability Testing (SAT), vol. 3569 (Springer, Berlin, 2005), pp. 158–172"
+            },
+            {
+              "key": "10_CR70",
+              "volume-title": "Combining Adaptive Noise and Promising Decreasing Variables in Local Search for SAT",
+              "author": "C.M. Li",
+              "year": "2009",
+              "unstructured": "C.M. Li and W. We. Combining Adaptive Noise and Promising Decreasing Variables in Local Search for SAT. Solver description. SAT Competition (2009)"
+            },
+            {
+              "key": "10_CR71",
+              "unstructured": "X. Li, M.J. Garzarán, D. Padua, Optimizing sorting with genetic algorithms. International Symposium on Code Generation and Optimization (CGO) (2005), pp. 99–110"
+            },
+            {
+              "issue": "2",
+              "key": "10_CR72",
+              "doi-asserted-by": "publisher",
+              "first-page": "129",
+              "DOI": "10.1109/TIT.1982.1056489",
+              "volume": "28",
+              "author": "S.P. Lloyd",
+              "year": "1982",
+              "unstructured": "S.P. Lloyd, Least squares quantization in PCM. Trans. Inf. Theory 28(2), 129–137 (1982)",
+              "journal-title": "Trans. Inf. Theory"
+            },
+            {
+              "key": "10_CR73",
+              "first-page": "353",
+              "volume-title": "Branch and bound algorithm selection by performance prediction, in Proceedings of the AAAI Conference on Artificial Intelligence (AAAI)",
+              "author": "L. Lobjois",
+              "year": "1998",
+              "unstructured": "L. Lobjois, M. Lemaître, Branch and bound algorithm selection by performance prediction, in Proceedings of the AAAI Conference on Artificial Intelligence (AAAI) (AAAI Press., Madison, 1998), pp. 353–358"
+            },
+            {
+              "key": "10_CR74",
+              "first-page": "176",
+              "volume-title": "Integration of AI and OR Techniques in Constraint Programming for Combinatorial Optimization Problems (CPAIOR), vol. 7874",
+              "author": "Y. Malitsky",
+              "year": "2013",
+              "unstructured": "Y. Malitsky, D. Mehta, B. O’Sullivan, H. Simonis, Tuning parameters of large neighborhood search for the machine reassignment problem, in Integration of AI and OR Techniques in Constraint Programming for Combinatorial Optimization Problems (CPAIOR), vol. 7874, ed. by C. Gomes, M. Sellmann (Springer, Berlin, Heidelberg, 2013), pp. 176–192"
+            },
+            {
+              "key": "10_CR75",
+              "first-page": "608",
+              "volume-title": "Algorithm portfolios based on cost-sensitive hierarchical clustering, in Proceedings of the International Joint Conference on Artificial Intelligence (IJCAI)",
+              "author": "Y. Malitsky",
+              "year": "2013",
+              "unstructured": "Y. Malitsky, A. Sabharwal, H. Samulowitz, M. Sellmann, Algorithm portfolios based on cost-sensitive hierarchical clustering, in Proceedings of the International Joint Conference on Artificial Intelligence (IJCAI) (AAAI Press, Beijing, 2013), pp. 608–614"
+            },
+            {
+              "key": "10_CR76",
+              "first-page": "784",
+              "volume-title": "Stochastic offline programming, in International Conference on Tools with Artificial Intelligence (ICTAI)",
+              "author": "Y. Malitsky",
+              "year": "2009",
+              "unstructured": "Y. Malitsky, M. Sellmann, Stochastic offline programming, in International Conference on Tools with Artificial Intelligence (ICTAI) (IEEE Press, New Yark, 2009), pp. 784–791"
+            },
+            {
+              "key": "10_CR77",
+              "first-page": "244",
+              "volume-title": "Integration of AI and OR Techniques in Constraint Programming for Combinatorial Optimization Problems (CPAIOR), vol. 7298",
+              "author": "Y. Malitsky",
+              "year": "2012",
+              "unstructured": "Y. Malitsky, M. Sellmann, Instance-specific algorithm configuration as a method for non-model-based portfolio generation, in Integration of AI and OR Techniques in Constraint Programming for Combinatorial Optimization Problems (CPAIOR), vol. 7298, ed. by N. Beldiceanu, N. Jussien, E. Pinson (Springer, Berlin, Heidelberg, 2012), pp. 244–259"
+            },
+            {
+              "key": "10_CR78",
+              "first-page": "321",
+              "volume-title": "Evidence for invariants in local search, in Proceedings of the AAAI Conference on Artificial Intelligence (AAAI)",
+              "author": "D. McAllester",
+              "year": "1997",
+              "unstructured": "D. McAllester, B. Selman, H. Kautz, Evidence for invariants in local search, in Proceedings of the AAAI Conference on Artificial Intelligence (AAAI) (AAAI Press, Providence, 1997), pp. 321–326"
+            },
+            {
+              "key": "10_CR79",
+              "first-page": "782",
+              "volume-title": "Principles and Practice of Constraint Programming (CP), vol. 7514",
+              "author": "D. Mehta",
+              "year": "2012",
+              "unstructured": "D. Mehta, B. O’Sullivan, H. Simonis, Comparing solution methods for the machine reassignment problem, in Principles and Practice of Constraint Programming (CP), vol. 7514, ed. by M. Milano (Springer, Berlin, Heidelberg, 2012), pp. 782–797"
+            },
+            {
+              "issue": "1–2",
+              "key": "10_CR80",
+              "doi-asserted-by": "publisher",
+              "first-page": "7",
+              "DOI": "10.1007/BF00143877",
+              "volume": "1",
+              "author": "S. Minton",
+              "year": "1996",
+              "unstructured": "S. Minton, Automatically configuring constraint satisfaction programs: a case study. Constraints 1(1–2), 7–43 (1996)",
+              "journal-title": "Constraints"
+            },
+            {
+              "key": "10_CR81",
+              "unstructured": "M. Motoki, R. Uehara, Unique solution instance generation for the 3-Satisfiability (3SAT) problem. Technical Report COMP98-54, IEICE (1998)"
+            },
+            {
+              "key": "10_CR82",
+              "unstructured": "M. Muja, D.G. Lowe, Fast approximate nearest neighbors with automatic algorithm configuration, in VISAPP International Conference on Computer Vision Theory and Applications (2009), pp. 331–340"
+            },
+            {
+              "key": "10_CR83",
+              "first-page": "302",
+              "volume-title": "Local search algorithm for unicost set covering problem, in Proceedings of the International Conference on Advances in Applied Artificial Intelligence: Industrial, Engineering and Other Applications of Applied Intelligent Systems (IEA/AIE)",
+              "author": "N. Musliu",
+              "year": "2006",
+              "unstructured": "N. Musliu, Local search algorithm for unicost set covering problem, in Proceedings of the International Conference on Advances in Applied Artificial Intelligence: Industrial, Engineering and Other Applications of Applied Intelligent Systems (IEA/AIE) (Springer, Berlin, 2006), pp. 302–311"
+            },
+            {
+              "key": "10_CR84",
+              "first-page": "326",
+              "volume-title": "Instance based selection of policies for SAT solvers, in Proceedings of the International Conference on Theory and Applications of Satisfiability Testing (SAT)",
+              "author": "M. Nikolic",
+              "year": "2009",
+              "unstructured": "M. Nikolic, F. Maric, P. Janici, Instance based selection of policies for SAT solvers, in Proceedings of the International Conference on Theory and Applications of Satisfiability Testing (SAT) (Springer, Berlin, 2009), pp. 326–340"
+            },
+            {
+              "key": "10_CR85",
+              "first-page": "438",
+              "volume-title": "Principles and Practice of Constraint Programming (CP), vol. 3258",
+              "author": "E. Nudelman",
+              "year": "2004",
+              "unstructured": "E. Nudelman, A. Devkar, Y. Shoham, K. Leyton-Brown, Understanding random SAT: beyond the clauses-to-variables ratio, in Principles and Practice of Constraint Programming (CP), vol. 3258, ed. by M. Wallace (Springer, Berlin, Heidelberg, 2004), pp. 438–452"
+            },
+            {
+              "issue": "3",
+              "key": "10_CR86",
+              "doi-asserted-by": "publisher",
+              "first-page": "387",
+              "DOI": "10.1162/1063656054794815",
+              "volume": "13",
+              "author": "M. Oltean",
+              "year": "2005",
+              "unstructured": "M. Oltean, Evolving evolutionary algorithms using linear genetic programming. Evol. Comput. 13(3), 387–410 (2005)",
+              "journal-title": "Evol. Comput."
+            },
+            {
+              "key": "10_CR87",
+              "unstructured": "E. O’Mahony, E. Hebrard, A. Holland, C. Nugent, B. O’ullivan, Using case-based reasoning in an algorithm portfolio for constraint solvingm, in Irish Conference on Artificial Intelligence and Cognitive Science (2008)"
+            },
+            {
+              "key": "10_CR88",
+              "doi-asserted-by": "crossref",
+              "unstructured": "D.J. Patterson, H. Kautz, Auto-walksat: a self-tuning implementation of walksat, in LICS Workshop on Theory and Applications of Satisfiability Testing (SAT), vol. 9 (2001), pp. 360–368",
+              "DOI": "10.1016/S1571-0653(04)00333-6"
+            },
+            {
+              "key": "10_CR89",
+              "first-page": "727",
+              "volume-title": "X-means: extending K-means with efficient estimation of the number of clusters, in Proceedings of the Seventeenth International Conference on Machine Learning (ICML)",
+              "author": "D. Pelleg",
+              "year": "2000",
+              "unstructured": "D. Pelleg, A.W. Moore, X-means: extending K-means with efficient estimation of the number of clusters, in Proceedings of the Seventeenth International Conference on Machine Learning (ICML) (Morgan Kaufmann Publishers Inc., San Francisco, 2000), pp. 727–734"
+            },
+            {
+              "key": "10_CR90",
+              "volume-title": "Learning static parallel portfolios of algorithms, in International Symposium on Artificial Intelligence and Mathematics (ISAIM)",
+              "author": "M.P. Petrik",
+              "year": "2006",
+              "unstructured": "M.P. Petrik, S. Zilberstein, Learning static parallel portfolios of algorithms, in International Symposium on Artificial Intelligence and Mathematics (ISAIM) (2006)"
+            },
+            {
+              "key": "10_CR91",
+              "unstructured": "D.N. Pham, A. Anbulagan, Resolution enhanced SLS solver: R+AdaptNovelty+. solver description. SAT Competition (2007)"
+            },
+            {
+              "key": "10_CR92",
+              "unstructured": "D.N. Pham, C. Gretton, gnovelty+. Solver description. SAT Competition (2007)"
+            },
+            {
+              "key": "10_CR93",
+              "unstructured": "D.N. Pham, C. Gretton, gnovelty+ (v.2). Solver description. SAT Competition (2009)"
+            },
+            {
+              "key": "10_CR94",
+              "doi-asserted-by": "crossref",
+              "first-page": "203",
+              "DOI": "10.1007/11499107_15",
+              "volume-title": "Theory and Applications of Satisfiability Testing (SAT), vol. 3569",
+              "author": "S. Prestwich",
+              "year": "2005",
+              "unstructured": "S. Prestwich, Random walk with continuously smoothed variable weights, in Theory and Applications of Satisfiability Testing (SAT), vol. 3569, ed. by F. Bacchus, T. Walsh (Springer, Berlin, Heidelberg, 2005), pp. 203–215"
+            },
+            {
+              "issue": "336",
+              "key": "10_CR95",
+              "doi-asserted-by": "publisher",
+              "first-page": "846",
+              "DOI": "10.1080/01621459.1971.10482356",
+              "volume": "66",
+              "author": "W.M. Rand",
+              "year": "1971",
+              "unstructured": "W.M. Rand, Objective criteria for the evaluation of clustering methods. J. Am. Stat. Assoc. 66(336), 846–850 (1971)",
+              "journal-title": "J. Am. Stat. Assoc."
+            },
+            {
+              "key": "10_CR96",
+              "doi-asserted-by": "crossref",
+              "unstructured": "P. Refalo, Impact-based search strategies for constraint programming, in Principles and Practice of Constraint Programming (CP), vol. 3258, M. Wallace (Springer, Berlin, Heidelberg, 2004), pp. 557–571",
+              "DOI": "10.1007/978-3-540-30201-8_41"
+            },
+            {
+              "key": "10_CR97",
+              "doi-asserted-by": "crossref",
+              "unstructured": "L. Rokach, O. Maimon, Clustering methods. The Data Mining and Knowledge Discovery Handbook (Springer, New York, 2005), pp. 321–352",
+              "DOI": "10.1007/0-387-25465-X_15"
+            },
+            {
+              "key": "10_CR98",
+              "unstructured": "O. Roussel, Description of ppfolio (2011). http://www.cril.univ-artois.fr/~roussel/ppfolio/solver1.pdf"
+            },
+            {
+              "key": "10_CR99",
+              "first-page": "255",
+              "volume-title": "Learning to solve QBF, in Proceedings of the National Conference on Artificial Intelligence (AAAI)",
+              "author": "H. Samulowitz",
+              "year": "2007",
+              "unstructured": "H. Samulowitz, R. Memisevic, Learning to solve QBF, in Proceedings of the National Conference on Artificial Intelligence (AAAI) (AAAI Press, Menlo Park, 2007), pp. 255–260"
+            },
+            {
+              "key": "10_CR100",
+              "unstructured": "A. Saxena, MIP Benchmark Instances (2003). http://www.andrew.cmu.edu/user/anureets/mpsInstances.htm"
+            },
+            {
+              "key": "10_CR101",
+              "first-page": "1051",
+              "volume-title": "Disco-novo-gogo: integrating local search and complete search with restarts, in Proceedings of the AAAI Conference on Artificial Intelligence (AAAI)",
+              "author": "M. Sellmann",
+              "year": "2006",
+              "unstructured": "M. Sellmann, Disco-novo-gogo: integrating local search and complete search with restarts, in Proceedings of the AAAI Conference on Artificial Intelligence (AAAI) (AAAI Press, Boston, 2006), pp. 1051–1056"
+            },
+            {
+              "key": "10_CR102",
+              "volume-title": "Domain-independent extensions to GSAT: solving large structured satisfiability problems, in Proceedings of the International Joint Conference on Artificial Intelligence (IJCAI)",
+              "author": "B. Selman",
+              "year": "1993",
+              "unstructured": "B. Selman, H. Kautz, Domain-independent extensions to GSAT: solving large structured satisfiability problems, in Proceedings of the International Joint Conference on Artificial Intelligence (IJCAI) (Morgan Kaufmann Publishers Inc., San Francisco, 1993.), pp. 290–295"
+            },
+            {
+              "key": "10_CR103",
+              "volume-title": "Latent class models for algorithm portfolio methods, in Proceedings of the AAAI Conference on Artificial Intelligence (AAAI)",
+              "author": "B. Silverthorn",
+              "year": "2010",
+              "unstructured": "B. Silverthorn, R. Miikkulainen, Latent class models for algorithm portfolio methods, in Proceedings of the AAAI Conference on Artificial Intelligence (AAAI) (AAAI Press, Atlanta, 2010)"
+            },
+            {
+              "key": "10_CR104",
+              "first-page": "291",
+              "volume-title": "Advances in Artificial Intelligence, vol. 2557",
+              "author": "A. Slater",
+              "year": "2002",
+              "unstructured": "A. Slater, Modeling more realistic SAT problems, in Advances in Artificial Intelligence, vol. 2557, ed. by B. McKay, J. Slaney (Springer, Berlin, Heidelberg, 2002), pp. 291–602"
+            },
+            {
+              "key": "10_CR105",
+              "doi-asserted-by": "crossref",
+              "unstructured": "K. Smith-Miles, Cross-disciplinary perspectives on meta-learning for algorithm selection. ACM Comput. Surv. 41(1), 6:1–6:25 (2009)",
+              "DOI": "10.1145/1456650.1456656"
+            },
+            {
+              "key": "10_CR106",
+              "unstructured": "M. Soos, CryptoMiniSat 2.5.0. Solver description. SAT Race (2010)"
+            },
+            {
+              "key": "10_CR107",
+              "unstructured": "M. Soos, Cryptominisat 2.9.0 (2011)"
+            },
+            {
+              "key": "10_CR108",
+              "unstructured": "N. Sorensson, N. Een, MiniSAT 2.2.0 (2010). http://minisat.se"
+            },
+            {
+              "key": "10_CR109",
+              "volume-title": "Collaborative expert portfolio management, in Proceedings of the National Conference on Artificial Intelligence (AAAI)",
+              "author": "D. Stern",
+              "year": "2010",
+              "unstructured": "D. Stern, H. Samulowitz, R. Herbrich, T. Graepel, L. Pulina, A. Tacchella, Collaborative expert portfolio management, in Proceedings of the National Conference on Artificial Intelligence (AAAI) (AAAI Press, Atlanta, 2010)"
+            },
+            {
+              "key": "10_CR110",
+              "first-page": "1197",
+              "volume-title": "Combining multiple heuristics online, in Proceedings of the National Conference on Artificial Intelligence (AAAI)",
+              "author": "M. Streeter",
+              "year": "2007",
+              "unstructured": "M. Streeter, D. Golovin, S.F. Smith, Combining multiple heuristics online, in Proceedings of the National Conference on Artificial Intelligence (AAAI) (AAAI Press, Vancouver, 2007), pp. 1197–1203"
+            },
+            {
+              "key": "10_CR111",
+              "first-page": "519",
+              "volume-title": "Proceedings of the Conference in Uncertainty in Artificial Intelligence (UAI)",
+              "author": "M.J. Streeter",
+              "year": "2008",
+              "unstructured": "M.J. Streeter, S.F. Smith, New techniques for algorithm portfolio design, in Proceedings of the Conference in Uncertainty in Artificial Intelligence (UAI), ed. by D.A. McAllester, P. Myllymäki (AUAI Press, Helsinki, 2008), pp. 519–527"
+            },
+            {
+              "key": "10_CR112",
+              "first-page": "635",
+              "volume-title": "examination timetabling, in Proceedings of the Genetic and Evolutionary Computation Conference (GECCO), vol. 1",
+              "author": "H. Terashima-Marín",
+              "year": "1999",
+              "unstructured": "H. Terashima-Marín, P. Ross, Evolution of constraint satisfaction strategies in examination timetabling, in Proceedings of the Genetic and Evolutionary Computation Conference (GECCO), vol. 1, ed. by W. Banzhaf, J. Daida, A.E. Eiben, M.H. Garzon, V. Honavar, M. Jakiela, R.E. Smith (Morgan Kaufmann, San Francisco, 1999), pp. 635–642"
+            },
+            {
+              "key": "10_CR113",
+              "first-page": "191",
+              "volume-title": "Additive versus multiplicative clause weighting for SAT, in Proceedings of the National Conference on Artificial Intelligence (AAAI)",
+              "author": "J. Thornton",
+              "year": "2004",
+              "unstructured": "J. Thornton, D.N. Pham, S. Bain, V. Ferreira, Additive versus multiplicative clause weighting for SAT, in Proceedings of the National Conference on Artificial Intelligence (AAAI) (AAAI Press, San Jose, 2004), pp. 191–196"
+            },
+            {
+              "key": "10_CR114",
+              "unstructured": "D.A.D Tompkins, F. Hutter, H.H. Hoos, saps. Solver description. SAT Competition (2007)"
+            },
+            {
+              "issue": "6",
+              "key": "10_CR115",
+              "doi-asserted-by": "publisher",
+              "first-page": "1363",
+              "DOI": "10.1287/opre.19.6.1363",
+              "volume": "19",
+              "author": "C. Toregas",
+              "year": "1971",
+              "unstructured": "C. Toregas, R. Swain, C. ReVelle, L. Bergman, The location of emergency service facilities. Oper. Res. 19(6), 1363–1373 (1971)",
+              "journal-title": "Oper. Res."
+            },
+            {
+              "key": "10_CR116",
+              "unstructured": "T. Uchida, O. Watanabe, Hard SAT instance generation based on the factorization problem (2010). http://www.is.titech.ac.jp/~watanabe/gensat/a2/index.html"
+            },
+            {
+              "issue": "3",
+              "key": "10_CR117",
+              "doi-asserted-by": "publisher",
+              "first-page": "346",
+              "DOI": "10.1287/opre.35.3.346",
+              "volume": "35",
+              "author": "F.J. Vasko",
+              "year": "1987",
+              "unstructured": "F.J. Vasko, F.E. Wolf, K.L. Stott, Optimal selection of ingot sizes via set covering. Oper. Res. 35(3), 346–353 (1987)",
+              "journal-title": "Oper. Res."
+            },
+            {
+              "key": "10_CR118",
+              "volume-title": "Switching between two adaptive noise mechanisms in local search for SAT",
+              "author": "W. Wei",
+              "year": "2009",
+              "unstructured": "W. Wei, C.M. Li, Switching between two adaptive noise mechanisms in local search for SAT. Solver description. SAT Competition (2009)"
+            },
+            {
+              "key": "10_CR119",
+              "unstructured": "W. Wei, C.M. Li, H. Zhang, adaptg2wsatp. Solver description. SAT Competition (2007)"
+            },
+            {
+              "key": "10_CR120",
+              "volume-title": "Combining adaptive noise and promising decreasing variables in local search for SAT",
+              "author": "W. Wei",
+              "year": "2007",
+              "unstructured": "W. Wei, C.M. Li, H. Zhang, Combining adaptive noise and promising decreasing variables in local search for SAT. Solver description. SAT Competition (2007)"
+            },
+            {
+              "key": "10_CR121",
+              "volume-title": "Deterministic and random selection of variables in local search for SAT",
+              "author": "W. Wei",
+              "year": "2007",
+              "unstructured": "W. Wei, C.M. Li, H. Zhang, Deterministic and random selection of variables in local search for SAT. Solver description. SAT Competition (2007)"
+            },
+            {
+              "issue": "1",
+              "key": "10_CR122",
+              "doi-asserted-by": "publisher",
+              "first-page": "67",
+              "DOI": "10.1109/4235.585893",
+              "volume": "1",
+              "author": "D.H. Wolpert",
+              "year": "1997",
+              "unstructured": "D.H. Wolpert, W.G. Macready, No free lunch theorems for optimization. Evol. Comput. 1(1), 67–82 (1997)",
+              "journal-title": "Evol. Comput."
+            },
+            {
+              "key": "10_CR123",
+              "volume-title": "SATzilla2009: an automatic algorithm portfolio for SAT",
+              "author": "L. Xu",
+              "year": "2009",
+              "unstructured": "L. Xu, F. Hutter, H.H. Hoos, K. Leyton-Brown, SATzilla2009: an automatic algorithm portfolio for SAT. Solver description. SAT Competition (2009)"
+            },
+            {
+              "key": "10_CR124",
+              "volume-title": "Hydra: automatically configuring algorithms for portfolio-based selection, in Proceedings of the AAAI Conference on Artificial Intelligence (AAAI)",
+              "author": "L. Xu",
+              "year": "2010",
+              "unstructured": "L. Xu, H.H. Hoos, K. Leyton-Brown. Hydra: automatically configuring algorithms for portfolio-based selection, in Proceedings of the AAAI Conference on Artificial Intelligence (AAAI) (AAAI Press, Atlanta, 2010)"
+            },
+            {
+              "key": "10_CR125",
+              "first-page": "712",
+              "volume-title": "Proceedings of Principles and Practice of Constraint Programming (CP), vol. 4741",
+              "author": "L. Xu",
+              "year": "2007",
+              "unstructured": "L. Xu, F. Hutter, H.H. Hoos, K. Leyton-Brown, SATzilla-07: the design and analysis of an algorithm portfolio for SAT, in Proceedings of Principles and Practice of Constraint Programming (CP), vol. 4741, ed. by C. Bessiere (Springer, Berlin, Heidelberg, 2007), pp. 712–727."
+            },
+            {
+              "issue": "1",
+              "key": "10_CR126",
+              "doi-asserted-by": "crossref",
+              "first-page": "565",
+              "DOI": "10.1613/jair.2490",
+              "volume": "32",
+              "author": "L. Xu",
+              "year": "2008",
+              "unstructured": "L. Xu, F. Hutter, H.H. Hoos, K. Leyton-Brown, SATzilla: portfolio-based algorithm selection for SAT. J. Artif. Intell. Res. 32(1), 565–606 (2008)",
+              "journal-title": "J. Artif. Intell. Res."
+            },
+            {
+              "key": "10_CR127",
+              "unstructured": "L. Xu, F. Hutter, J. Shen, H.H. Hoos, K. Leyton-Brown, SATzilla2012: improved algorithm selection based on cost-sensitive classification models. SAT Competition (2012)"
+            }
+          ],
+          "container-title": [
+            "Instance-Specific Algorithm Configuration"
+          ],
+          "language": "en",
+          "link": [
+            {
+              "URL": "https://link.springer.com/content/pdf/10.1007/978-3-319-11230-5_10",
+              "content-type": "unspecified",
+              "content-version": "vor",
+              "intended-application": "similarity-checking"
+            }
+          ],
+          "deposited": {
+            "date-parts": [
+              [
+                2024,
+                8,
+                5
+              ]
+            ],
+            "date-time": "2024-08-05T14:58:29Z",
+            "timestamp": 1722869909000
+          },
+          "score": 34.32841,
+          "resource": {
+            "primary": {
+              "URL": "https://link.springer.com/10.1007/978-3-319-11230-5_10"
+            }
+          },
+          "issued": {
+            "date-parts": [
+              [
+                2014
+              ]
+            ]
+          },
+          "ISBN": [
+            "9783319112299",
+            "9783319112305"
+          ],
+          "references-count": 127,
+          "URL": "https://doi.org/10.1007/978-3-319-11230-5_10",
+          "published": {
+            "date-parts": [
+              [
+                2014
+              ]
+            ]
+          },
+          "assertion": [
+            {
+              "value": "18 October 2014",
+              "order": 1,
+              "name": "first_online",
+              "label": "First Online",
+              "group": {
+                "name": "ChapterHistory",
+                "label": "Chapter History"
+              }
+            }
+          ]
+        },
+        {
+          "indexed": {
+            "date-parts": [
+              [
+                2026,
+                5,
+                21
+              ]
+            ],
+            "date-time": "2026-05-21T18:14:32Z",
+            "timestamp": 1779387272035,
+            "version": "3.53.1"
+          },
+          "reference-count": 0,
+          "publisher": "Copernicus GmbH",
+          "content-domain": {
+            "domain": []
+          },
+          "published-print": {
+            "date-parts": [
+              [
+                2018,
+                8,
+                15
+              ]
+            ]
+          },
+          "DOI": "10.5194/amt-2018-166-rc3",
+          "type": "peer-review",
+          "created": {
+            "date-parts": [
+              [
+                2018,
+                8,
+                15
+              ]
+            ],
+            "date-time": "2018-08-15T08:28:01Z",
+            "timestamp": 1534321681000
+          },
+          "source": "Crossref",
+          "is-referenced-by-count": 0,
+          "title": [
+            "Review \"The CALIPSO Version 4 Automated Aerosol Classification and Lidar Ratio Selection Algorithm\" by M. H. Kim"
+          ],
+          "prefix": "10.5194",
+          "member": "3145",
+          "review": {
+            "type": "referee-report",
+            "running-number": "RC3",
+            "stage": "pre-publication",
+            "recommendation": "minor-revision",
+            "language": "en"
+          },
+          "deposited": {
+            "date-parts": [
+              [
+                2025,
+                2,
+                3
+              ]
+            ],
+            "date-time": "2025-02-03T15:35:39Z",
+            "timestamp": 1738596939000
+          },
+          "score": 32.759712,
+          "resource": {
+            "primary": {
+              "URL": "https://amt.copernicus.org/preprints/amt-2018-166/amt-2018-166-RC3.pdf"
+            }
+          },
+          "issued": {
+            "date-parts": [
+              [
+                2018,
+                8,
+                15
+              ]
+            ]
+          },
+          "references-count": 0,
+          "URL": "https://doi.org/10.5194/amt-2018-166-rc3",
+          "relation": {
+            "is-review-of": [
+              {
+                "id-type": "doi",
+                "id": "10.5194/amt-11-6107-2018",
+                "asserted-by": "subject"
+              },
+              {
+                "id-type": "doi",
+                "id": "10.5194/amt-11-6107-2018",
+                "asserted-by": "object"
+              },
+              {
+                "id-type": "doi",
+                "id": "10.5194/amt-2018-166",
+                "asserted-by": "object"
+              }
+            ]
+          },
+          "published": {
+            "date-parts": [
+              [
+                2018,
+                8,
+                15
+              ]
+            ]
+          }
+        },
+        {
+          "indexed": {
+            "date-parts": [
+              [
+                2025,
+                9,
+                29
+              ]
+            ],
+            "date-time": "2025-09-29T20:55:44Z",
+            "timestamp": 1759179344655,
+            "version": "3.41.0"
+          },
+          "publisher-location": "New York, NY, USA",
+          "reference-count": 31,
+          "publisher": "ACM",
+          "license": [
+            {
+              "start": {
+                "date-parts": [
+                  [
+                    2022,
+                    7,
+                    8
+                  ]
+                ],
+                "date-time": "2022-07-08T00:00:00Z",
+                "timestamp": 1657238400000
+              },
+              "content-version": "vor",
+              "delay-in-days": 0,
+              "URL": "https://www.acm.org/publications/policies/copyright_policy#Background"
+            }
+          ],
+          "funder": [
+            {
+              "DOI": "10.13039/100017181",
+              "name": "Agence Nationale pour la Recherche",
+              "doi-asserted-by": "publisher",
+              "award": [
+                "ANR-11-LABX-0056-LMH"
+              ],
+              "award-info": [
+                {
+                  "award-number": [
+                    "ANR-11-LABX-0056-LMH"
+                  ]
+                }
+              ],
+              "id": [
+                {
+                  "id": "10.13039/100017181",
+                  "id-type": "DOI",
+                  "asserted-by": "publisher"
+                }
+              ]
+            },
+            {
+              "name": "Paris Île-de-France region",
+              "award": [
+                "AlgoSelect"
+              ],
+              "award-info": [
+                {
+                  "award-number": [
+                    "AlgoSelect"
+                  ]
+                }
+              ]
+            }
+          ],
+          "content-domain": {
+            "domain": [],
+            "crossmark-restriction": false
+          },
+          "published-print": {
+            "date-parts": [
+              [
+                2022,
+                7,
+                8
+              ]
+            ]
+          },
+          "DOI": "10.1145/3512290.3528825",
+          "type": "proceedings-article",
+          "created": {
+            "date-parts": [
+              [
+                2022,
+                7,
+                26
+              ]
+            ],
+            "date-time": "2022-07-26T13:07:30Z",
+            "timestamp": 1658840850000
+          },
+          "page": "1263-1271",
+          "source": "Crossref",
+          "is-referenced-by-count": 4,
+          "title": [
+            "Automated algorithm selection for radar network configuration"
+          ],
+          "prefix": "10.1145",
+          "author": [
+            {
+              "given": "Quentin",
+              "family": "Renau",
+              "sequence": "first",
+              "affiliation": [
+                {
+                  "name": "École Polytechnique, Palaiseau, France"
+                }
+              ],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Johann",
+              "family": "Dreo",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "Institut Pasteur, Paris, France"
+                }
+              ],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Alain",
+              "family": "Peres",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "Thales Land &amp; Air Systems, Rungis, France"
+                }
+              ],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Yann",
+              "family": "Semet",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "Thales Research &amp; Technology, Paris, France"
+                }
+              ],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Carola",
+              "family": "Doerr",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "Sorbonne Université, Paris, France"
+                }
+              ],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Benjamin",
+              "family": "Doerr",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "École Polytechnique, Palaiseau, France"
+                }
+              ],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            }
+          ],
+          "member": "320",
+          "published-online": {
+            "date-parts": [
+              [
+                2022,
+                7,
+                8
+              ]
+            ]
+          },
+          "reference": [
+            {
+              "key": "e_1_3_2_2_1_1",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1145/2001576.2001694"
+            },
+            {
+              "key": "e_1_3_2_2_3_1",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1145/3449639.3459307"
+            },
+            {
+              "key": "e_1_3_2_2_4_1",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1007/978-3-642-15844-5_2"
+            },
+            {
+              "key": "e_1_3_2_2_5_1",
+              "volume-title": "IOHprofiler: A Benchmarking and Profiling Tool for Iterative Optimization Heuristics. CoRR abs/1810.05281",
+              "author": "Doerr Carola",
+              "year": "2018",
+              "unstructured": "Carola Doerr , Hao Wang , Furong Ye , Sander van Rijn , and Thomas Bäck . 2018. IOHprofiler: A Benchmarking and Profiling Tool for Iterative Optimization Heuristics. CoRR abs/1810.05281 ( 2018 ). http://arxiv.org/abs/1810.05281 Available at http://arxiv.org/abs/1810.05281. A more up-to-date documentation of IOHprofiler is available at https://iohprofiler.github.io/. Carola Doerr, Hao Wang, Furong Ye, Sander van Rijn, and Thomas Bäck. 2018. IOHprofiler: A Benchmarking and Profiling Tool for Iterative Optimization Heuristics. CoRR abs/1810.05281 (2018). http://arxiv.org/abs/1810.05281 Available at http://arxiv.org/abs/1810.05281. A more up-to-date documentation of IOHprofiler is available at https://iohprofiler.github.io/."
+            },
+            {
+              "key": "e_1_3_2_2_6_1",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1002/9781118723203"
+            },
+            {
+              "key": "e_1_3_2_2_7_1",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1145/1570256.1570333"
+            },
+            {
+              "key": "e_1_3_2_2_8_1",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1162/106365601750190398"
+            },
+            {
+              "volume-title": "Proceedings of the First International Symposium on Digital Earth Moving (DEM '01)",
+              "author": "Hennig T.",
+              "key": "e_1_3_2_2_9_1",
+              "unstructured": "T. Hennig , J. Kretsch , C. Pessagno , P. Salamonowicz , and W. Stein . 2001. The Shuttle Radar Topography Mission . In Proceedings of the First International Symposium on Digital Earth Moving (DEM '01) . Springer, 65--77. T. Hennig, J. Kretsch, C. Pessagno, P. Salamonowicz, and W. Stein. 2001. The Shuttle Radar Topography Mission. In Proceedings of the First International Symposium on Digital Earth Moving (DEM '01). Springer, 65--77."
+            },
+            {
+              "key": "e_1_3_2_2_10_1",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1145/3377930.3390183"
+            },
+            {
+              "key": "e_1_3_2_2_11_1",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1145/3449639.3459406"
+            },
+            {
+              "key": "e_1_3_2_2_12_1",
+              "unstructured": "A. Jarvis H.I. Reuter A. Nelson and E. Guevara. 2008. Hole-filled seamless SRTM data V4. International Centre for Tropical Agriculture (CIAT) (2008). https://srtm.csi.cgiar.org  A. Jarvis H.I. Reuter A. Nelson and E. Guevara. 2008. Hole-filled seamless SRTM data V4. International Centre for Tropical Agriculture (CIAT) (2008). https://srtm.csi.cgiar.org"
+            },
+            {
+              "key": "e_1_3_2_2_13_1",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1109/CEC.2006.1688662"
+            },
+            {
+              "key": "e_1_3_2_2_14_1",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1109/ICNN.1995.488968"
+            },
+            {
+              "key": "e_1_3_2_2_15_1",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1145/2739480.2754642"
+            },
+            {
+              "key": "e_1_3_2_2_16_1",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1145/2908812.2908845"
+            },
+            {
+              "key": "e_1_3_2_2_17_1",
+              "volume-title": "Statistical Computing: From Music Data Analysis to Industrial Quality Improvement",
+              "author": "Kerschke P.",
+              "year": "2019",
+              "unstructured": "P. Kerschke and H. Trautmann . 2019 . Comprehensive Feature-Based Landscape Analysis of Continuous and Constrained Optimization Problems Using the R-Package Flacco. In Applications in Statistical Computing: From Music Data Analysis to Industrial Quality Improvement . Springer , 93--123. P. Kerschke and H. Trautmann. 2019. Comprehensive Feature-Based Landscape Analysis of Continuous and Constrained Optimization Problems Using the R-Package Flacco. In Applications in Statistical Computing: From Music Data Analysis to Industrial Quality Improvement. Springer, 93--123."
+            },
+            {
+              "key": "e_1_3_2_2_18_1",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1016/j.orp.2016.09.002"
+            },
+            {
+              "key": "e_1_3_2_2_19_1",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1145/3449639.3459280"
+            },
+            {
+              "key": "e_1_3_2_2_20_1",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1145/2001576.2001690"
+            },
+            {
+              "key": "e_1_3_2_2_21_1",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.21105/joss.00433"
+            },
+            {
+              "key": "e_1_3_2_2_22_1",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1093/comjnl/7.4.308"
+            },
+            {
+              "key": "e_1_3_2_2_23_1",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.5555/1953048.2078195"
+            },
+            {
+              "key": "e_1_3_2_2_24_1",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1093/comjnl/7.2.155"
+            },
+            {
+              "key": "e_1_3_2_2_25_1",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1007/978-3-030-58115-2_10"
+            },
+            {
+              "key": "e_1_3_2_2_26_1",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1145/3319619.3326913"
+            },
+            {
+              "key": "e_1_3_2_2_27_1",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.5281/zenodo.5963885"
+            },
+            {
+              "key": "e_1_3_2_2_28_1",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1016/0041-5553(67)90144-9"
+            },
+            {
+              "key": "e_1_3_2_2_29_1",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1023/A:1008202821328"
+            },
+            {
+              "key": "e_1_3_2_2_30_1",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1109/SSCI.2016.7850138"
+            },
+            {
+              "key": "e_1_3_2_2_31_1",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1038/s41592-019-0686-2"
+            },
+            {
+              "key": "e_1_3_2_2_32_1",
+              "volume-title": "IOHanalyzer: Detailed Performance Analysis for Iterative Optimization Heuristic. ACM Transactions on Evolutionary Learning and Optimization",
+              "author": "Wang Hao",
+              "year": "2022",
+              "unstructured": "Hao Wang , Diederick Vermetten , Furong Ye , Carola Doerr , and Thomas Bäck . 2022. IOHanalyzer: Detailed Performance Analysis for Iterative Optimization Heuristic. ACM Transactions on Evolutionary Learning and Optimization ( 2022 ). To appear. Free version available at https://arxiv.org/abs/2007.03953. Hao Wang, Diederick Vermetten, Furong Ye, Carola Doerr, and Thomas Bäck. 2022. IOHanalyzer: Detailed Performance Analysis for Iterative Optimization Heuristic. ACM Transactions on Evolutionary Learning and Optimization (2022). To appear. Free version available at https://arxiv.org/abs/2007.03953."
+            }
+          ],
+          "event": {
+            "name": "GECCO '22: Genetic and Evolutionary Computation Conference",
+            "sponsor": [
+              "SIGEVO ACM Special Interest Group on Genetic and Evolutionary Computation"
+            ],
+            "location": "Boston Massachusetts",
+            "acronym": "GECCO '22"
+          },
+          "container-title": [
+            "Proceedings of the Genetic and Evolutionary Computation Conference"
+          ],
+          "link": [
+            {
+              "URL": "https://dl.acm.org/doi/10.1145/3512290.3528825",
+              "content-type": "unspecified",
+              "content-version": "vor",
+              "intended-application": "text-mining"
+            },
+            {
+              "URL": "https://dl.acm.org/doi/pdf/10.1145/3512290.3528825",
+              "content-type": "unspecified",
+              "content-version": "vor",
+              "intended-application": "similarity-checking"
+            }
+          ],
+          "deposited": {
+            "date-parts": [
+              [
+                2025,
+                6,
+                17
+              ]
+            ],
+            "date-time": "2025-06-17T18:09:57Z",
+            "timestamp": 1750183797000
+          },
+          "score": 31.917795,
+          "resource": {
+            "primary": {
+              "URL": "https://dl.acm.org/doi/10.1145/3512290.3528825"
+            }
+          },
+          "issued": {
+            "date-parts": [
+              [
+                2022,
+                7,
+                8
+              ]
+            ]
+          },
+          "references-count": 31,
+          "alternative-id": [
+            "10.1145/3512290.3528825",
+            "10.1145/3512290"
+          ],
+          "URL": "https://doi.org/10.1145/3512290.3528825",
+          "published": {
+            "date-parts": [
+              [
+                2022,
+                7,
+                8
+              ]
+            ]
+          }
+        }
+      ],
+      "items-per-page": 5,
+      "query": {
+        "start-index": 0,
+        "search-terms": null
+      }
+    }
+  }
+}

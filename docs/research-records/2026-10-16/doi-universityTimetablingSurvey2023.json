@@ -1,0 +1,1475 @@
+{
+  "retrieved": "2026-10-16",
+  "url": "https://api.crossref.org/works/10.1016/j.iswa.2023.200253",
+  "response": {
+    "status": "ok",
+    "message-type": "work",
+    "message-version": "1.0.0",
+    "message": {
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            10,
+            3
+          ]
+        ],
+        "date-time": "2026-10-03T11:30:07Z",
+        "timestamp": 1791027007709,
+        "version": "4.1.0"
+      },
+      "reference-count": 128,
+      "publisher": "Elsevier BV",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2023,
+                9,
+                1
+              ]
+            ],
+            "date-time": "2023-09-01T00:00:00Z",
+            "timestamp": 1693526400000
+          },
+          "content-version": "tdm",
+          "delay-in-days": 0,
+          "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+        },
+        {
+          "start": {
+            "date-parts": [
+              [
+                2023,
+                9,
+                1
+              ]
+            ],
+            "date-time": "2023-09-01T00:00:00Z",
+            "timestamp": 1693526400000
+          },
+          "content-version": "tdm",
+          "delay-in-days": 0,
+          "URL": "https://www.elsevier.com/legal/tdmrep-license"
+        },
+        {
+          "start": {
+            "date-parts": [
+              [
+                2023,
+                6,
+                17
+              ]
+            ],
+            "date-time": "2023-06-17T00:00:00Z",
+            "timestamp": 1686960000000
+          },
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "URL": "http://creativecommons.org/licenses/by/4.0/"
+        }
+      ],
+      "content-domain": {
+        "domain": [
+          "elsevier.com",
+          "sciencedirect.com"
+        ],
+        "crossmark-restriction": true
+      },
+      "short-container-title": [
+        "Intelligent Systems with Applications"
+      ],
+      "published-print": {
+        "date-parts": [
+          [
+            2023,
+            9
+          ]
+        ]
+      },
+      "DOI": "10.1016/j.iswa.2023.200253",
+      "type": "journal-article",
+      "created": {
+        "date-parts": [
+          [
+            2023,
+            6,
+            22
+          ]
+        ],
+        "date-time": "2023-06-22T20:06:59Z",
+        "timestamp": 1687464419000
+      },
+      "page": "200253",
+      "update-policy": "https://doi.org/10.1016/elsevier_cm_policy",
+      "source": "Crossref",
+      "is-referenced-by-count": 33,
+      "special_numbering": "C",
+      "title": [
+        "Meta-heuristic approaches for the University Course Timetabling Problem"
+      ],
+      "prefix": "10.1016",
+      "volume": "19",
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0000-0001-8411-5451",
+          "authenticated-orcid": false,
+          "given": "Sina",
+          "family": "Abdipoor",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-8228-5753",
+          "authenticated-orcid": false,
+          "given": "Razali",
+          "family": "Yaakob",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0003-4562-2519",
+          "authenticated-orcid": false,
+          "given": "Say Leng",
+          "family": "Goh",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0003-0037-841X",
+          "authenticated-orcid": false,
+          "given": "Salwani",
+          "family": "Abdullah",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "78",
+      "reference": [
+        {
+          "key": "10.1016/j.iswa.2023.200253_br0010",
+          "doi-asserted-by": "crossref",
+          "first-page": "1395",
+          "DOI": "10.1016/j.aej.2016.02.017",
+          "article-title": "A utilization-based genetic algorithm for solving the university timetabling problem (uga)",
+          "volume": "55",
+          "author": "Abdelhalim",
+          "year": "2016",
+          "journal-title": "Alexandria Engineering Journal"
+        },
+        {
+          "key": "10.1016/j.iswa.2023.200253_br0020",
+          "doi-asserted-by": "crossref",
+          "first-page": "22",
+          "DOI": "10.1016/j.cor.2017.09.007",
+          "article-title": "A bi-criteria hybrid genetic algorithm with robustness objective for the course timetabling problem",
+          "volume": "90",
+          "author": "Akkan",
+          "year": "2018",
+          "journal-title": "Computers & Operations Research"
+        },
+        {
+          "key": "10.1016/j.iswa.2023.200253_br0030",
+          "doi-asserted-by": "crossref",
+          "first-page": "477",
+          "DOI": "10.1007/s10951-022-00722-0",
+          "article-title": "Bi-criteria simulated annealing for the curriculum-based course timetabling problem with robustness approximation",
+          "volume": "25",
+          "author": "Akkan",
+          "year": "2022",
+          "journal-title": "Journal of Scheduling"
+        },
+        {
+          "key": "10.1016/j.iswa.2023.200253_br0040",
+          "series-title": "Operations research proceedings 2016",
+          "first-page": "95",
+          "article-title": "New constraints and features for the University Course Timetabling Problem",
+          "author": "Aschinger",
+          "year": "2018"
+        },
+        {
+          "key": "10.1016/j.iswa.2023.200253_br0050",
+          "series-title": "Practice and theory of automated timetabling (PATAT 2008)",
+          "first-page": "19",
+          "article-title": "Itc2007 track 2, an approach using general csp solver",
+          "author": "Atsuta",
+          "year": "2008"
+        },
+        {
+          "key": "10.1016/j.iswa.2023.200253_br0060",
+          "doi-asserted-by": "crossref",
+          "first-page": "6755",
+          "DOI": "10.1007/s00500-016-2225-8",
+          "article-title": "An adaptive guided variable neighborhood search based on honey-bee mating optimization algorithm for the course timetabling problem",
+          "volume": "21",
+          "author": "Aziz",
+          "year": "2017",
+          "journal-title": "Soft Computing"
+        },
+        {
+          "key": "10.1016/j.iswa.2023.200253_br0070",
+          "doi-asserted-by": "crossref",
+          "first-page": "43",
+          "DOI": "10.1016/j.cie.2014.11.010",
+          "article-title": "A survey of approaches for university course timetabling problem",
+          "volume": "86",
+          "author": "Babaei",
+          "year": "2015",
+          "journal-title": "Computers & Industrial Engineering"
+        },
+        {
+          "key": "10.1016/j.iswa.2023.200253_br0080",
+          "doi-asserted-by": "crossref",
+          "first-page": "4735",
+          "DOI": "10.1007/s00500-018-3126-9",
+          "article-title": "Generating an optimal timetabling for multi-departments common lecturers using hybrid fuzzy and clustering algorithms",
+          "volume": "23",
+          "author": "Babaei",
+          "year": "2019",
+          "journal-title": "Soft Computing"
+        },
+        {
+          "key": "10.1016/j.iswa.2023.200253_br0090",
+          "first-page": "60",
+          "article-title": "A hybrid algorithm for university course timetabling problem",
+          "volume": "6",
+          "author": "Badoni",
+          "year": "2015",
+          "journal-title": "Innovative Systems Design and Engineering"
+        },
+        {
+          "key": "10.1016/j.iswa.2023.200253_br0100",
+          "series-title": "2015 2nd international conference on recent advances in engineering & computational sciences (RAECS)",
+          "first-page": "1",
+          "article-title": "A new algorithm based on students groupings for university course timetabling problem",
+          "author": "Badoni",
+          "year": "2015"
+        },
+        {
+          "key": "10.1016/j.iswa.2023.200253_br0110",
+          "doi-asserted-by": "crossref",
+          "first-page": "17397",
+          "DOI": "10.1007/s00521-020-05110-3",
+          "article-title": "A systematic mapping study on solving university timetabling problems using meta-heuristic algorithms",
+          "volume": "32",
+          "author": "Bashab",
+          "year": "2020",
+          "journal-title": "Neural Computing & Applications"
+        },
+        {
+          "key": "10.1016/j.iswa.2023.200253_br0120",
+          "doi-asserted-by": "crossref",
+          "first-page": "83",
+          "DOI": "10.1016/j.cor.2015.07.002",
+          "article-title": "Feature-based tuning of simulated annealing applied to the curriculum-based course timetabling problem",
+          "volume": "65",
+          "author": "Bellio",
+          "year": "2016",
+          "journal-title": "Computers & Operations Research"
+        },
+        {
+          "key": "10.1016/j.iswa.2023.200253_br0130",
+          "series-title": "Robots and biological systems: Towards a new bionics?",
+          "first-page": "703",
+          "article-title": "Swarm intelligence in cellular robotic systems",
+          "author": "Beni",
+          "year": "1993"
+        },
+        {
+          "key": "10.1016/j.iswa.2023.200253_br0140",
+          "doi-asserted-by": "crossref",
+          "first-page": "313",
+          "DOI": "10.1007/s11750-015-0366-z",
+          "article-title": "An overview of curriculum-based course timetabling",
+          "volume": "23",
+          "author": "Bettinelli",
+          "year": "2015",
+          "journal-title": "Top"
+        },
+        {
+          "key": "10.1016/j.iswa.2023.200253_br0150",
+          "doi-asserted-by": "crossref",
+          "first-page": "239",
+          "DOI": "10.1007/s11047-008-9098-4",
+          "article-title": "A survey on metaheuristics for stochastic combinatorial optimization",
+          "volume": "8",
+          "author": "Bianchi",
+          "year": "2009",
+          "journal-title": "Natural Computing"
+        },
+        {
+          "key": "10.1016/j.iswa.2023.200253_br0160",
+          "series-title": "Proceedings of the 12th annual conference on genetic and evolutionary computation",
+          "first-page": "241",
+          "article-title": "On the generality of parameter tuning in evolutionary planning",
+          "author": "Bibai",
+          "year": "2010"
+        },
+        {
+          "key": "10.1016/j.iswa.2023.200253_br0170",
+          "doi-asserted-by": "crossref",
+          "first-page": "4135",
+          "DOI": "10.1016/j.asoc.2011.02.032",
+          "article-title": "Hybrid metaheuristics in combinatorial optimization: A survey",
+          "volume": "11",
+          "author": "Blum",
+          "year": "2011",
+          "journal-title": "Applied Soft Computing"
+        },
+        {
+          "key": "10.1016/j.iswa.2023.200253_br0180",
+          "doi-asserted-by": "crossref",
+          "first-page": "268",
+          "DOI": "10.1145/937503.937505",
+          "article-title": "Metaheuristics in combinatorial optimization: Overview and conceptual comparison",
+          "volume": "35",
+          "author": "Blum",
+          "year": "2003",
+          "journal-title": "ACM Computing Surveys"
+        },
+        {
+          "key": "10.1016/j.iswa.2023.200253_br0190",
+          "series-title": "Hybrid metaheuristics: An emerging approach to optimization",
+          "volume": "vol. 114",
+          "author": "Blum",
+          "year": "2008"
+        },
+        {
+          "key": "10.1016/j.iswa.2023.200253_br0200",
+          "series-title": "Swarm intelligence",
+          "author": "Bonabeau",
+          "year": "1999"
+        },
+        {
+          "key": "10.1016/j.iswa.2023.200253_br0210",
+          "series-title": "Search methodologies: Introductory tutorials in optimization and decision support techniques",
+          "author": "Burke",
+          "year": "2014"
+        },
+        {
+          "key": "10.1016/j.iswa.2023.200253_br0220",
+          "series-title": "International timetable competition",
+          "article-title": "The description of the algorithm for international timetabling competition",
+          "author": "Bykov",
+          "year": "2003"
+        },
+        {
+          "key": "10.1016/j.iswa.2023.200253_br0230",
+          "series-title": "International Timetabling Competition",
+          "article-title": "Submission to ICT: Track 2",
+          "author": "Cambazard",
+          "year": "2007"
+        },
+        {
+          "key": "10.1016/j.iswa.2023.200253_br0240",
+          "doi-asserted-by": "crossref",
+          "first-page": "41",
+          "DOI": "10.1007/BF00940812",
+          "article-title": "Thermodynamical approach to the traveling salesman problem: An efficient simulation algorithm",
+          "volume": "45",
+          "author": "Černỳ",
+          "year": "1985",
+          "journal-title": "Journal of Optimization Theory and Applications"
+        },
+        {
+          "key": "10.1016/j.iswa.2023.200253_br0250",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1016/j.cor.2020.105007",
+          "article-title": "A tabu search algorithm with controlled randomization for constructing feasible university course timetables",
+          "volume": "123",
+          "author": "Chen",
+          "year": "2020",
+          "journal-title": "Computers & Operations Research"
+        },
+        {
+          "key": "10.1016/j.iswa.2023.200253_br0260",
+          "article-title": "A survey of University Course Timetabling Problem: Perspectives, trends and opportunities",
+          "author": "Chen",
+          "year": "2021",
+          "journal-title": "IEEE Access"
+        },
+        {
+          "key": "10.1016/j.iswa.2023.200253_br0270",
+          "first-page": "2",
+          "article-title": "A multiphase modular heuristic solver for post enrollment course timetabling",
+          "author": "Chiarandini",
+          "year": "2008",
+          "journal-title": "Journal of Scheduling"
+        },
+        {
+          "key": "10.1016/j.iswa.2023.200253_br0280",
+          "series-title": "Proceedings of the first European conference on artificial life",
+          "first-page": "134",
+          "article-title": "Distributed optimization by ant colonies",
+          "author": "Colorni",
+          "year": "1991"
+        },
+        {
+          "key": "10.1016/j.iswa.2023.200253_br0590",
+          "series-title": "International timetable competition",
+          "article-title": "Efficient timetabling solution with tabu search",
+          "author": "Cordeau",
+          "year": "2003"
+        },
+        {
+          "key": "10.1016/j.iswa.2023.200253_br0290",
+          "doi-asserted-by": "crossref",
+          "first-page": "542",
+          "DOI": "10.3390/app12020542",
+          "article-title": "Metaheuristic with cooperative processes for the university course timetabling problem",
+          "volume": "12",
+          "author": "Cruz-Rosales",
+          "year": "2022",
+          "journal-title": "Applied Sciences"
+        },
+        {
+          "key": "10.1016/j.iswa.2023.200253_br0300",
+          "doi-asserted-by": "crossref",
+          "first-page": "206",
+          "DOI": "10.1016/j.ejor.2009.10.014",
+          "article-title": "Evolutionary, constructive and hybrid procedures for the bi-objective set packing problem",
+          "volume": "204",
+          "author": "Delorme",
+          "year": "2010",
+          "journal-title": "European Journal of Operational Research"
+        },
+        {
+          "key": "10.1016/j.iswa.2023.200253_br0310",
+          "series-title": "The second international timetabling competition (ITC-2007): Curriculum-based course timetabling (track 3)",
+          "author": "Di Gaspero",
+          "year": "2007"
+        },
+        {
+          "key": "10.1016/j.iswa.2023.200253_br0320",
+          "series-title": "Search and optimization by metaheuristics. Techniques and algorithms inspired by nature",
+          "author": "Du",
+          "year": "2016"
+        },
+        {
+          "key": "10.1016/j.iswa.2023.200253_br0330",
+          "series-title": "European conference on the applications of evolutionary computation",
+          "first-page": "254",
+          "article-title": "Migrating birds optimization: A new meta-heuristic approach and its application to the quadratic assignment problem",
+          "author": "Duman",
+          "year": "2011"
+        },
+        {
+          "key": "10.1016/j.iswa.2023.200253_br0340",
+          "series-title": "Introduction to evolutionary computing",
+          "volume": "vol. 53",
+          "author": "Eiben",
+          "year": "2003"
+        },
+        {
+          "key": "10.1016/j.iswa.2023.200253_br0350",
+          "doi-asserted-by": "crossref",
+          "first-page": "625",
+          "DOI": "10.1080/10556788.2016.1233970",
+          "article-title": "An integer program and a hybrid genetic algorithm for the university timetabling problem",
+          "volume": "32",
+          "author": "Feng",
+          "year": "2017",
+          "journal-title": "Optimization Methods & Software"
+        },
+        {
+          "key": "10.1016/j.iswa.2023.200253_br0360",
+          "doi-asserted-by": "crossref",
+          "first-page": "870",
+          "DOI": "10.1109/TEVC.2015.2411741",
+          "article-title": "A hybrid swarm-based approach to university timetabling",
+          "volume": "19",
+          "author": "Fong",
+          "year": "2015",
+          "journal-title": "IEEE Transactions on Evolutionary Computation"
+        },
+        {
+          "key": "10.1016/j.iswa.2023.200253_br0370",
+          "doi-asserted-by": "crossref",
+          "first-page": "484",
+          "DOI": "10.1071/BI9570484",
+          "article-title": "Simulation of genetic systems by automatic digital computers I. Introduction",
+          "volume": "10",
+          "author": "Fraser",
+          "year": "1957",
+          "journal-title": "Australian Journal of Biological Sciences"
+        },
+        {
+          "key": "10.1016/j.iswa.2023.200253_br0380",
+          "unstructured": "Gashi, E., & Sylejmani, K. (2019). Simulated annealing with penalization for university course timetabling."
+        },
+        {
+          "key": "10.1016/j.iswa.2023.200253_br0390",
+          "doi-asserted-by": "crossref",
+          "first-page": "60",
+          "DOI": "10.1177/003754970107600201",
+          "article-title": "A new heuristic optimization algorithm: Harmony search",
+          "volume": "76",
+          "author": "Geem",
+          "year": "2001",
+          "journal-title": "Simulation"
+        },
+        {
+          "key": "10.1016/j.iswa.2023.200253_br0400",
+          "series-title": "2015 5th international conference on computer and knowledge engineering (ICCKE)",
+          "first-page": "24",
+          "article-title": "Integrating ABC with genetic grouping for university course timetabling problem",
+          "author": "Ghasemi",
+          "year": "2015"
+        },
+        {
+          "key": "10.1016/j.iswa.2023.200253_br0410",
+          "doi-asserted-by": "crossref",
+          "first-page": "533",
+          "DOI": "10.1016/0305-0548(86)90048-1",
+          "article-title": "Future paths for integer programming and links to artificial intelligence",
+          "volume": "13",
+          "author": "Glover",
+          "year": "1986",
+          "journal-title": "Computers & Operations Research"
+        },
+        {
+          "key": "10.1016/j.iswa.2023.200253_br0420",
+          "doi-asserted-by": "crossref",
+          "first-page": "190",
+          "DOI": "10.1287/ijoc.1.3.190",
+          "article-title": "Tabu search—part I",
+          "volume": "1",
+          "author": "Glover",
+          "year": "1989",
+          "journal-title": "ORSA Journal on Computing"
+        },
+        {
+          "key": "10.1016/j.iswa.2023.200253_br0430",
+          "doi-asserted-by": "crossref",
+          "first-page": "4",
+          "DOI": "10.1287/ijoc.2.1.4",
+          "article-title": "Tabu search—part II",
+          "volume": "2",
+          "author": "Glover",
+          "year": "1990",
+          "journal-title": "ORSA Journal on Computing"
+        },
+        {
+          "key": "10.1016/j.iswa.2023.200253_br0440",
+          "doi-asserted-by": "crossref",
+          "first-page": "17",
+          "DOI": "10.1016/j.ejor.2017.01.040",
+          "article-title": "Improved local search approaches to solve the post enrolment course timetabling problem",
+          "volume": "261",
+          "author": "Goh",
+          "year": "2017",
+          "journal-title": "European Journal of Operational Research"
+        },
+        {
+          "key": "10.1016/j.iswa.2023.200253_br0450",
+          "doi-asserted-by": "crossref",
+          "first-page": "1936",
+          "DOI": "10.18517/ijaseit.9.6.10224",
+          "article-title": "Monte Carlo tree search in finding feasible solutions for course timetabling problem",
+          "volume": "9",
+          "author": "Goh",
+          "year": "2019",
+          "journal-title": "International Journal on Advanced Science Engineering Information Technology"
+        },
+        {
+          "key": "10.1016/j.iswa.2023.200253_br0460",
+          "doi-asserted-by": "crossref",
+          "first-page": "873",
+          "DOI": "10.1080/01605682.2018.1468862",
+          "article-title": "Simulated annealing with improved reheating and learning for the post enrolment course timetabling problem",
+          "volume": "70",
+          "author": "Goh",
+          "year": "2019",
+          "journal-title": "Journal of the Operational Research Society"
+        },
+        {
+          "key": "10.1016/j.iswa.2023.200253_br0470",
+          "doi-asserted-by": "crossref",
+          "first-page": "1131",
+          "DOI": "10.1007/s12597-020-00444-x",
+          "article-title": "An effective hybrid local search approach for the post enrolment course timetabling problem",
+          "volume": "57",
+          "author": "Goh",
+          "year": "2020",
+          "journal-title": "Opsearch"
+        },
+        {
+          "key": "10.1016/j.iswa.2023.200253_br0480",
+          "doi-asserted-by": "crossref",
+          "first-page": "69591",
+          "DOI": "10.1109/ACCESS.2022.3186097",
+          "article-title": "A 2-stage approach for the nurse rostering problem",
+          "volume": "10",
+          "author": "Goh",
+          "year": "2022",
+          "journal-title": "IEEE Access"
+        },
+        {
+          "key": "10.1016/j.iswa.2023.200253_br0490",
+          "doi-asserted-by": "crossref",
+          "first-page": "2747",
+          "DOI": "10.12928/telkomnika.v16i6.9691",
+          "article-title": "Reinforced island model genetic algorithm to solve university course timetabling",
+          "volume": "16",
+          "author": "Gozali",
+          "year": "2018",
+          "journal-title": "TELKOMNIKA (Telecommunication Computing Electronics and Control)"
+        },
+        {
+          "key": "10.1016/j.iswa.2023.200253_br0500",
+          "doi-asserted-by": "crossref",
+          "first-page": "389",
+          "DOI": "10.1002/tee.23067",
+          "article-title": "Solving university course timetabling problem using localized island model genetic algorithm with dual dynamic migration policy",
+          "volume": "15",
+          "author": "Gozali",
+          "year": "2020",
+          "journal-title": "IEEJ Transactions on Electrical and Electronic Engineering"
+        },
+        {
+          "key": "10.1016/j.iswa.2023.200253_br0510",
+          "doi-asserted-by": "crossref",
+          "first-page": "630",
+          "DOI": "10.1016/j.ejor.2019.11.024",
+          "article-title": "Robust university course timetabling problem subject to single and multiple disruptions",
+          "volume": "283",
+          "author": "Gülcü",
+          "year": "2020",
+          "journal-title": "European Journal of Operational Research"
+        },
+        {
+          "key": "10.1016/j.iswa.2023.200253_br0520",
+          "doi-asserted-by": "crossref",
+          "first-page": "661",
+          "DOI": "10.1007/s11269-005-9001-3",
+          "article-title": "Honey-bees mating optimization (hbmo) algorithm: A new heuristic approach for water resources optimization",
+          "volume": "20",
+          "author": "Haddad",
+          "year": "2006",
+          "journal-title": "Water Resources Management"
+        },
+        {
+          "key": "10.1016/j.iswa.2023.200253_br0530",
+          "doi-asserted-by": "crossref",
+          "first-page": "405",
+          "DOI": "10.1007/s10479-019-03382-0",
+          "article-title": "Decomposition of university course timetabling",
+          "volume": "302",
+          "author": "Herres",
+          "year": "2021",
+          "journal-title": "Annals of Operations Research"
+        },
+        {
+          "key": "10.1016/j.iswa.2023.200253_br0540",
+          "series-title": "Proceedings of the international timetabling competition 2020",
+          "article-title": "A mip based approach for international timetabling competation 2019",
+          "author": "Holm",
+          "year": "2019"
+        },
+        {
+          "key": "10.1016/j.iswa.2023.200253_br0550",
+          "doi-asserted-by": "crossref",
+          "first-page": "9",
+          "DOI": "10.1016/j.eswa.2019.02.026",
+          "article-title": "Optimization of university course scheduling problem using particle swarm optimization with selective search",
+          "volume": "127",
+          "author": "Hossain",
+          "year": "2019",
+          "journal-title": "Expert Systems with Applications"
+        },
+        {
+          "key": "10.1016/j.iswa.2023.200253_br0560",
+          "doi-asserted-by": "crossref",
+          "first-page": "1085",
+          "DOI": "10.1007/s40747-021-00528-1",
+          "article-title": "Bi-objective scheduling algorithm for scientific workflows on cloud computing platform with makespan and monetary cost minimization approach",
+          "volume": "8",
+          "author": "Hosseini Shirvani",
+          "year": "2022",
+          "journal-title": "Complex & Intelligent Systems"
+        },
+        {
+          "key": "10.1016/j.iswa.2023.200253_br0570",
+          "series-title": "2015 IEEE 10th conference on industrial electronics and applications (ICIEA)",
+          "first-page": "696",
+          "article-title": "Study of hybrid approaches used for university course timetable problem (UCTP)",
+          "author": "Ilyas",
+          "year": "2015"
+        },
+        {
+          "key": "10.1016/j.iswa.2023.200253_br0580",
+          "series-title": "2015 7th international conference on information technology and electrical engineering (ICITEE)",
+          "first-page": "29",
+          "article-title": "A hybrid genetic algorithm with local search and tabu search approaches for solving the post enrolment based course timetabling problem: Outperforming guided search genetic algorithm",
+          "author": "Jaengchuea",
+          "year": "2015"
+        },
+        {
+          "key": "10.1016/j.iswa.2023.200253_br0600",
+          "series-title": "Computational science and its applications–ICCSA 2019: Proceedings of the 19th international conference, part III",
+          "first-page": "215",
+          "article-title": "A network flow based construction for a grasp sa algorithm to solve the university timetabling problem",
+          "author": "Kampke",
+          "year": "2019"
+        },
+        {
+          "key": "10.1016/j.iswa.2023.200253_br0610",
+          "series-title": "An idea based on honey bee swarm for numerical optimization",
+          "author": "Karaboga",
+          "year": "2005"
+        },
+        {
+          "key": "10.1016/j.iswa.2023.200253_br0620",
+          "doi-asserted-by": "crossref",
+          "first-page": "375",
+          "DOI": "10.1504/IJOR.2019.103124",
+          "article-title": "University course timetabling problem considering day and time pattern",
+          "volume": "36",
+          "author": "Kasemset",
+          "year": "2019",
+          "journal-title": "International Journal of Operational Research"
+        },
+        {
+          "key": "10.1016/j.iswa.2023.200253_br0630",
+          "author": "Kenekayoro"
+        },
+        {
+          "key": "10.1016/j.iswa.2023.200253_br0640",
+          "series-title": "Proceedings of ICNN'95-international conference on neural networks",
+          "first-page": "1942",
+          "article-title": "Particle swarm optimization",
+          "author": "Kennedy",
+          "year": "1995"
+        },
+        {
+          "key": "10.1016/j.iswa.2023.200253_br0650",
+          "series-title": "Metaheuristics in water, geotechnical and transport engineering",
+          "first-page": "385",
+          "article-title": "Multiobjective optimization of delay and stops in traffic signal networks",
+          "author": "Kesur",
+          "year": "2013"
+        },
+        {
+          "key": "10.1016/j.iswa.2023.200253_br0660",
+          "doi-asserted-by": "crossref",
+          "first-page": "255",
+          "DOI": "10.1007/s10479-016-2151-2",
+          "article-title": "Adaptive large neighborhood search for the curriculum-based course timetabling problem",
+          "volume": "252",
+          "author": "Kiefer",
+          "year": "2017",
+          "journal-title": "Annals of Operations Research"
+        },
+        {
+          "key": "10.1016/j.iswa.2023.200253_br0670",
+          "doi-asserted-by": "crossref",
+          "first-page": "671",
+          "DOI": "10.1126/science.220.4598.671",
+          "article-title": "Optimization by simulated annealing",
+          "volume": "220",
+          "author": "Kirkpatrick",
+          "year": "1983",
+          "journal-title": "Science"
+        },
+        {
+          "key": "10.1016/j.iswa.2023.200253_br0680",
+          "series-title": "International timetabling competition",
+          "article-title": "Timetabling competition-sa-based heuristic",
+          "author": "Kostuch",
+          "year": "2003"
+        },
+        {
+          "key": "10.1016/j.iswa.2023.200253_br0690",
+          "first-page": "1",
+          "article-title": "Introducing UniCorT: An iterative university course timetabling tool with MaxSAT",
+          "author": "Lemos",
+          "year": "2021",
+          "journal-title": "Journal of Scheduling"
+        },
+        {
+          "key": "10.1016/j.iswa.2023.200253_br0700",
+          "doi-asserted-by": "crossref",
+          "first-page": "167",
+          "DOI": "10.1007/s00291-007-0097-0",
+          "article-title": "A survey of metaheuristic-based techniques for university timetabling problems",
+          "volume": "30",
+          "author": "Lewis",
+          "year": "2008",
+          "journal-title": "OR Spektrum"
+        },
+        {
+          "key": "10.1016/j.iswa.2023.200253_br0710",
+          "doi-asserted-by": "crossref",
+          "first-page": "397",
+          "DOI": "10.1109/TEVC.2006.885162",
+          "article-title": "Finding feasible timetables using group-based operators",
+          "volume": "11",
+          "author": "Lewis",
+          "year": "2007",
+          "journal-title": "IEEE Transactions on Evolutionary Computation"
+        },
+        {
+          "key": "10.1016/j.iswa.2023.200253_br0720",
+          "doi-asserted-by": "crossref",
+          "first-page": "637",
+          "DOI": "10.1016/j.ejor.2014.07.041",
+          "article-title": "Analysing the effects of solution space connectivity with an effective metaheuristic for the course timetabling problem",
+          "volume": "240",
+          "author": "Lewis",
+          "year": "2015",
+          "journal-title": "European Journal of Operational Research"
+        },
+        {
+          "key": "10.1016/j.iswa.2023.200253_br0730",
+          "doi-asserted-by": "crossref",
+          "first-page": "35",
+          "DOI": "10.1016/j.ejor.2017.09.022",
+          "article-title": "A strategic view of university timetabling",
+          "volume": "266",
+          "author": "Lindahl",
+          "year": "2018",
+          "journal-title": "European Journal of Operational Research"
+        },
+        {
+          "key": "10.1016/j.iswa.2023.200253_br0740",
+          "series-title": "Recent advances in information and communication technology 2016",
+          "first-page": "195",
+          "article-title": "A hybrid multi-objective genetic algorithm with a new local search approach for solving the post enrolment based course timetabling problem",
+          "author": "Lohpetch",
+          "year": "2016"
+        },
+        {
+          "key": "10.1016/j.iswa.2023.200253_br0750",
+          "doi-asserted-by": "crossref",
+          "first-page": "43",
+          "DOI": "10.1016/j.orp.2016.09.002",
+          "article-title": "The irace package: Iterated racing for automatic algorithm configuration",
+          "volume": "3",
+          "author": "López-Ibáñez",
+          "year": "2016",
+          "journal-title": "Operations Research Perspectives"
+        },
+        {
+          "key": "10.1016/j.iswa.2023.200253_br0760",
+          "doi-asserted-by": "crossref",
+          "first-page": "235",
+          "DOI": "10.1016/j.ejor.2008.12.007",
+          "article-title": "Adaptive tabu search for course timetabling",
+          "volume": "200",
+          "author": "Lü",
+          "year": "2010",
+          "journal-title": "European Journal of Operational Research"
+        },
+        {
+          "key": "10.1016/j.iswa.2023.200253_br0770",
+          "series-title": "2018 5th international conference on business and industrial research (ICBIR)",
+          "first-page": "77",
+          "article-title": "A fair course timetabling using genetic algorithm with guided search technique",
+          "author": "Matias",
+          "year": "2018"
+        },
+        {
+          "key": "10.1016/j.iswa.2023.200253_br0780",
+          "series-title": "2018 fourth international conference on advances in computing, communication & automation (ICACCA)",
+          "first-page": "1",
+          "article-title": "Examining genetic algorithm with guided search and self-adaptive neighborhood strategies for curriculum-based course timetable problem",
+          "author": "Matias",
+          "year": "2018"
+        },
+        {
+          "key": "10.1016/j.iswa.2023.200253_br0790",
+          "doi-asserted-by": "crossref",
+          "first-page": "429",
+          "DOI": "10.1007/s10479-009-0644-y",
+          "article-title": "Itc2007 solver description: A hybrid approach",
+          "volume": "172",
+          "author": "Müller",
+          "year": "2009",
+          "journal-title": "Annals of Operations Research"
+        },
+        {
+          "key": "10.1016/j.iswa.2023.200253_br0800",
+          "doi-asserted-by": "crossref",
+          "first-page": "249",
+          "DOI": "10.1007/s10479-010-0735-9",
+          "article-title": "Comprehensive approach to student sectioning",
+          "volume": "181",
+          "author": "Müller",
+          "year": "2010",
+          "journal-title": "Annals of Operations Research"
+        },
+        {
+          "key": "10.1016/j.iswa.2023.200253_br0810",
+          "series-title": "Proceedings of the 12th international conference on the practice and theory of automated timetabling (PATAT-2018)",
+          "first-page": "5",
+          "article-title": "University course timetabling and international timetabling competition 2019",
+          "author": "Müller",
+          "year": "2018"
+        },
+        {
+          "key": "10.1016/j.iswa.2023.200253_br0820",
+          "doi-asserted-by": "crossref",
+          "first-page": "84",
+          "DOI": "10.1016/j.cor.2017.09.014",
+          "article-title": "Random partial neighborhood search for the post-enrollment course timetabling problem",
+          "volume": "90",
+          "author": "Nagata",
+          "year": "2018",
+          "journal-title": "Computers & Operations Research"
+        },
+        {
+          "key": "10.1016/j.iswa.2023.200253_br0830",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1109/ACCESS.2022.3177280",
+          "article-title": "A survey of the nurse rostering solution methodologies: The state-of-the-art and emerging trends",
+          "author": "Ngoo",
+          "year": "2022",
+          "journal-title": "IEEE Access"
+        },
+        {
+          "key": "10.1016/j.iswa.2023.200253_br0840",
+          "doi-asserted-by": "crossref",
+          "first-page": "1581",
+          "DOI": "10.1108/JEDT-11-2020-0474",
+          "article-title": "A hybrid meta-heuristic scheduler algorithm for optimization of workflow scheduling in cloud heterogeneous computing environment",
+          "volume": "20",
+          "author": "Noorian Talouki",
+          "year": "2021",
+          "journal-title": "Journal of Engineering, Design and Technology"
+        },
+        {
+          "key": "10.1016/j.iswa.2023.200253_br0850",
+          "first-page": "4902",
+          "article-title": "A heuristic-based task scheduling algorithm for scientific workflows in heterogeneous cloud computing platforms",
+          "volume": "34",
+          "author": "NoorianTalouki",
+          "year": "2022",
+          "journal-title": "Journal of King Saud University: Computer and Information Sciences"
+        },
+        {
+          "key": "10.1016/j.iswa.2023.200253_br0860",
+          "doi-asserted-by": "crossref",
+          "first-page": "657",
+          "DOI": "10.1057/palgrave.jors.2600781",
+          "article-title": "Meta-heuristics theory and applications",
+          "volume": "48",
+          "author": "Osman",
+          "year": "1997",
+          "journal-title": "Journal of the Operational Research Society"
+        },
+        {
+          "key": "10.1016/j.iswa.2023.200253_br1180",
+          "doi-asserted-by": "crossref",
+          "first-page": "145",
+          "DOI": "10.1007/s10479-017-2688-8",
+          "article-title": "Practices in timetabling in higher education institutions: a systematic review",
+          "volume": "275",
+          "author": "Oude Vrielink",
+          "year": "2019",
+          "journal-title": "Annals of Operations Research"
+        },
+        {
+          "key": "10.1016/j.iswa.2023.200253_br0870",
+          "series-title": "2016 3rd international conference on computing for sustainable global development (INDIACom)",
+          "first-page": "160",
+          "article-title": "Survey on university timetabling problem",
+          "author": "Pandey",
+          "year": "2016"
+        },
+        {
+          "key": "10.1016/j.iswa.2023.200253_br0880",
+          "doi-asserted-by": "crossref",
+          "first-page": "5",
+          "DOI": "10.26438/ijsrcse/v7i5.513",
+          "article-title": "Solving university course timetabling problem using parallel genetic algorithm",
+          "volume": "7",
+          "author": "Rezaeipanah",
+          "year": "2019",
+          "journal-title": "International Journal of Scientific Research in Computer Science and Engineering"
+        },
+        {
+          "key": "10.1016/j.iswa.2023.200253_br0890",
+          "doi-asserted-by": "crossref",
+          "first-page": "467",
+          "DOI": "10.1007/s10489-020-01833-x",
+          "article-title": "A hybrid algorithm for the university course timetabling problem using the improved parallel genetic algorithm and local search",
+          "volume": "51",
+          "author": "Rezaeipanah",
+          "year": "2021",
+          "journal-title": "Applied Intelligence"
+        },
+        {
+          "key": "10.1016/j.iswa.2023.200253_br0900",
+          "doi-asserted-by": "crossref",
+          "first-page": "623",
+          "DOI": "10.13053/cys-20-4-2504",
+          "article-title": "Performance comparison of evolutionary algorithms for university course timetabling problem",
+          "volume": "20",
+          "author": "Rodríguez Maya",
+          "year": "2016",
+          "journal-title": "Computación y Sistemas"
+        },
+        {
+          "key": "10.1016/j.iswa.2023.200253_br0910",
+          "series-title": "International conference on the practice and theory of automated timetabling",
+          "first-page": "329",
+          "article-title": "A comparison of the performance of different metaheuristics on the timetabling problem",
+          "author": "Rossi-Doria",
+          "year": "2002"
+        },
+        {
+          "key": "10.1016/j.iswa.2023.200253_br0920",
+          "series-title": "Practice and theory of automated timetabling IV: 4th international conference",
+          "first-page": "329",
+          "article-title": "A comparison of the performance of different metaheuristics on the timetabling problem",
+          "author": "Rossi-Doria",
+          "year": "2003"
+        },
+        {
+          "key": "10.1016/j.iswa.2023.200253_br0930",
+          "doi-asserted-by": "crossref",
+          "first-page": "2933",
+          "DOI": "10.1109/TASE.2021.3097778",
+          "article-title": "Population-based iterated local search approach for dynamic vehicle routing problems",
+          "volume": "19",
+          "author": "Sabar",
+          "year": "2021",
+          "journal-title": "IEEE Transactions on Automation Science and Engineering"
+        },
+        {
+          "key": "10.1016/j.iswa.2023.200253_br0940",
+          "doi-asserted-by": "crossref",
+          "first-page": "87",
+          "DOI": "10.1023/A:1006576209967",
+          "article-title": "A survey of automated timetabling",
+          "volume": "13",
+          "author": "Schaerf",
+          "year": "1999",
+          "journal-title": "Artificial Intelligence Review"
+        },
+        {
+          "key": "10.1016/j.iswa.2023.200253_br0950",
+          "series-title": "7th multidisciplinary international conference on scheduling. Theory and applications (MISTA 2015)",
+          "first-page": "515",
+          "article-title": "Bacteria swarm optimisation approach for enrolment-based course timetabling problems",
+          "author": "Shaker",
+          "year": "2015"
+        },
+        {
+          "key": "10.1016/j.iswa.2023.200253_br0960",
+          "article-title": "A modified migrating bird optimization for university course timetabling problem",
+          "volume": "72",
+          "author": "Shen",
+          "year": "2015",
+          "journal-title": "Jurnal Teknologi"
+        },
+        {
+          "key": "10.1016/j.iswa.2023.200253_br0970",
+          "article-title": "A hybrid meta-heuristic algorithm for scientific workflow scheduling in heterogeneous distributed computing systems",
+          "volume": "90",
+          "author": "Shirvani",
+          "year": "2020",
+          "journal-title": "Engineering Applications of Artificial Intelligence"
+        },
+        {
+          "key": "10.1016/j.iswa.2023.200253_br0980",
+          "article-title": "A novel hybrid heuristic-based list scheduling algorithm in heterogeneous cloud computing environment for makespan optimization",
+          "volume": "108",
+          "author": "Shirvani",
+          "year": "2021",
+          "journal-title": "Parallel Computing"
+        },
+        {
+          "key": "10.1016/j.iswa.2023.200253_br0990",
+          "series-title": "Computational methods and data engineering",
+          "first-page": "427",
+          "article-title": "Comparison of bioinspired algorithms applied to the timetabling problem",
+          "author": "Silva",
+          "year": "2021"
+        },
+        {
+          "key": "10.1016/j.iswa.2023.200253_br1000",
+          "doi-asserted-by": "crossref",
+          "first-page": "702",
+          "DOI": "10.1109/TEVC.2008.919004",
+          "article-title": "Biogeography-based optimization",
+          "volume": "12",
+          "author": "Simon",
+          "year": "2008",
+          "journal-title": "IEEE Transactions on Evolutionary Computation"
+        },
+        {
+          "key": "10.1016/j.iswa.2023.200253_br1010",
+          "series-title": "International workshop on ant algorithms",
+          "first-page": "1",
+          "article-title": "A max-min ant system for the university course timetabling problem",
+          "author": "Socha",
+          "year": "2002"
+        },
+        {
+          "key": "10.1016/j.iswa.2023.200253_br1020",
+          "doi-asserted-by": "crossref",
+          "first-page": "394",
+          "DOI": "10.1016/j.energy.2017.07.176",
+          "article-title": "Energy efficiency-based course timetabling for university buildings",
+          "volume": "139",
+          "author": "Song",
+          "year": "2017",
+          "journal-title": "Energy"
+        },
+        {
+          "key": "10.1016/j.iswa.2023.200253_br1030",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1016/j.asoc.2021.107624",
+          "article-title": "Competition-guided multi-neighborhood local search algorithm for the university course timetabling problem",
+          "author": "Song",
+          "year": "2021",
+          "journal-title": "Applied Soft Computing"
+        },
+        {
+          "key": "10.1016/j.iswa.2023.200253_br1040",
+          "doi-asserted-by": "crossref",
+          "first-page": "597",
+          "DOI": "10.1016/j.asoc.2018.04.034",
+          "article-title": "An iterated local search algorithm for the University Course Timetabling Problem",
+          "volume": "68",
+          "author": "Song",
+          "year": "2018",
+          "journal-title": "Applied Soft Computing"
+        },
+        {
+          "key": "10.1016/j.iswa.2023.200253_br1050",
+          "series-title": "Design of intelligent systems based on fuzzy logic, neural networks and nature-inspired optimization",
+          "first-page": "391",
+          "article-title": "Parallel meta-heuristic approaches to the course timetabling problem",
+          "author": "Soria-Alcaraz",
+          "year": "2015"
+        },
+        {
+          "key": "10.1016/j.iswa.2023.200253_br1060",
+          "doi-asserted-by": "crossref",
+          "first-page": "581",
+          "DOI": "10.1016/j.asoc.2015.11.043",
+          "article-title": "Iterated local search using an add and delete hyper-heuristic for university course timetabling",
+          "volume": "40",
+          "author": "Soria-Alcaraz",
+          "year": "2016",
+          "journal-title": "Applied Soft Computing"
+        },
+        {
+          "key": "10.1016/j.iswa.2023.200253_br1070",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1016/j.eswa.2020.113943",
+          "article-title": "A survey of the state-of-the-art of optimisation methodologies in school timetabling problems",
+          "volume": "165",
+          "author": "Tan",
+          "year": "2021",
+          "journal-title": "Expert Systems with Applications"
+        },
+        {
+          "key": "10.1016/j.iswa.2023.200253_br1080",
+          "doi-asserted-by": "crossref",
+          "first-page": "16951",
+          "DOI": "10.1007/s00521-021-06289-9",
+          "article-title": "A hybrid meta-heuristic task scheduling algorithm based on genetic and thermodynamic simulated annealing algorithms in cloud computing environments",
+          "volume": "33",
+          "author": "Tanha",
+          "year": "2021",
+          "journal-title": "Neural Computing & Applications"
+        },
+        {
+          "key": "10.1016/j.iswa.2023.200253_br1090",
+          "doi-asserted-by": "crossref",
+          "first-page": "1",
+          "DOI": "10.1007/s10462-013-9399-6",
+          "article-title": "Review of state of the art for metaheuristic techniques in Academic Scheduling Problems",
+          "volume": "44",
+          "author": "Teoh",
+          "year": "2015",
+          "journal-title": "Artificial Intelligence Review"
+        },
+        {
+          "key": "10.1016/j.iswa.2023.200253_br1100",
+          "series-title": "International conference on swarm intelligence",
+          "first-page": "177",
+          "article-title": "Variants and parameters investigations of particle swarm optimisation for solving course timetabling problems",
+          "author": "Thepphakorn",
+          "year": "2019"
+        },
+        {
+          "key": "10.1016/j.iswa.2023.200253_br1110",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1016/j.eswa.2020.113732",
+          "article-title": "Performance improvement strategies on Cuckoo Search algorithms for solving the university course timetabling problem",
+          "volume": "161",
+          "author": "Thepphakorn",
+          "year": "2020",
+          "journal-title": "Expert Systems with Applications"
+        },
+        {
+          "key": "10.1016/j.iswa.2023.200253_br1120",
+          "series-title": "International workshop on multi-disciplinary trends in artificial intelligence",
+          "first-page": "196",
+          "article-title": "A new multiple objective cuckoo search for university course timetabling problem",
+          "author": "Thepphakorn",
+          "year": "2016"
+        },
+        {
+          "key": "10.1016/j.iswa.2023.200253_br1130",
+          "series-title": "International conference on blended learning",
+          "first-page": "338",
+          "article-title": "Academic operating costs optimisation using hybrid MCPSO based course timetabling tool",
+          "author": "Thepphakorn",
+          "year": "2020"
+        },
+        {
+          "key": "10.1016/j.iswa.2023.200253_br1140",
+          "doi-asserted-by": "crossref",
+          "first-page": "1",
+          "DOI": "10.1007/s42979-021-00652-2",
+          "article-title": "Particle swarm optimisation variants and its hybridisation ratios for generating cost-effective educational course timetables",
+          "volume": "2",
+          "author": "Thepphakorn",
+          "year": "2021",
+          "journal-title": "SN Computer Science"
+        },
+        {
+          "key": "10.1016/j.iswa.2023.200253_br1150",
+          "doi-asserted-by": "crossref",
+          "first-page": "145",
+          "DOI": "10.1007/BF00365407",
+          "article-title": "Allocating hard real-time tasks: An NP-hard problem made easy",
+          "volume": "4",
+          "author": "Tindell",
+          "year": "1992",
+          "journal-title": "Real-Time Systems"
+        },
+        {
+          "key": "10.1016/j.iswa.2023.200253_br1160",
+          "series-title": "2020 12th international conference on knowledge and smart technology (KST)",
+          "first-page": "18",
+          "article-title": "An outperforming hybrid discrete particle swarm optimization for solving the timetabling problem",
+          "author": "Unprasertporn",
+          "year": "2020"
+        },
+        {
+          "key": "10.1016/j.iswa.2023.200253_br1170",
+          "series-title": "Multiobjective evolutionary algorithms: Classifications, analyses, and new innovations",
+          "author": "Van Veldhuizen",
+          "year": "1999"
+        },
+        {
+          "key": "10.1016/j.iswa.2023.200253_br1190",
+          "unstructured": "Wahid, J. (2017). Hybridizing harmony search with local search based metaheuristic for solving curriculum based university course timetabling."
+        },
+        {
+          "key": "10.1016/j.iswa.2023.200253_br1200",
+          "series-title": "International conference on soft computing in data science",
+          "first-page": "141",
+          "article-title": "Solving curriculum based course timetabling by hybridizing local search based method within harmony search algorithm",
+          "author": "Wahid",
+          "year": "2015"
+        },
+        {
+          "key": "10.1016/j.iswa.2023.200253_br1210",
+          "first-page": "33",
+          "article-title": "Hybrid harmony search with great deluge for UUM CAS curriculum based course timetabling",
+          "volume": "9",
+          "author": "Wahid",
+          "year": "2017",
+          "journal-title": "Journal of Telecommunication, Electronic and Computer Engineering"
+        },
+        {
+          "key": "10.1016/j.iswa.2023.200253_br1220",
+          "series-title": "2022 IEEE 18th international colloquium on signal processing & applications (CSPA)",
+          "first-page": "46",
+          "article-title": "A genetic algorithm for the real-world university course timetabling problem",
+          "author": "Wong",
+          "year": "2022"
+        },
+        {
+          "key": "10.1016/j.iswa.2023.200253_br1230",
+          "series-title": "International conference on the practice and theory of automated timetabling",
+          "first-page": "46",
+          "article-title": "Scheduling, timetabling and rostering—A special relationship?",
+          "author": "Wren",
+          "year": "1995"
+        },
+        {
+          "key": "10.1016/j.iswa.2023.200253_br1240",
+          "series-title": "2009 world congress on nature & biologically inspired computing (NaBIC)",
+          "first-page": "210",
+          "article-title": "Cuckoo search via Lévy flights",
+          "author": "Yang",
+          "year": "2009"
+        },
+        {
+          "key": "10.1016/j.iswa.2023.200253_br1250",
+          "series-title": "2016 11th international conference on computer engineering & systems (ICCES)",
+          "first-page": "103",
+          "article-title": "A GPU based genetic algorithm solution for the timetabling problem",
+          "author": "Yousef",
+          "year": "2016"
+        },
+        {
+          "key": "10.1016/j.iswa.2023.200253_br1260",
+          "series-title": "2018 international conference on information and communications technology (ICOIACT)",
+          "first-page": "67",
+          "article-title": "Enhancing generality of meta-heuristic algorithms through adaptive selection and hybridization",
+          "author": "Zamli",
+          "year": "2018"
+        },
+        {
+          "key": "10.1016/j.iswa.2023.200253_br1270",
+          "doi-asserted-by": "crossref",
+          "first-page": "61",
+          "DOI": "10.1007/s11047-016-9543-8",
+          "article-title": "University course timetabling using a new ecogeography-based optimization algorithm",
+          "volume": "16",
+          "author": "Zhang",
+          "year": "2017",
+          "journal-title": "Natural Computing"
+        },
+        {
+          "key": "10.1016/j.iswa.2023.200253_br1280",
+          "doi-asserted-by": "crossref",
+          "first-page": "257",
+          "DOI": "10.1109/4235.797969",
+          "article-title": "Multiobjective evolutionary algorithms: A comparative case study and the strength Pareto approach",
+          "volume": "3",
+          "author": "Zitzler",
+          "year": "1999",
+          "journal-title": "IEEE Transactions on Evolutionary Computation"
+        }
+      ],
+      "container-title": [
+        "Intelligent Systems with Applications"
+      ],
+      "original-title": [],
+      "language": "en",
+      "link": [
+        {
+          "URL": "https://api.elsevier.com/content/article/PII:S2667305323000789?httpAccept=text/xml",
+          "content-type": "text/xml",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        },
+        {
+          "URL": "https://api.elsevier.com/content/article/PII:S2667305323000789?httpAccept=text/plain",
+          "content-type": "text/plain",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2025,
+            9,
+            9
+          ]
+        ],
+        "date-time": "2025-09-09T08:51:57Z",
+        "timestamp": 1757407917000
+      },
+      "score": 1,
+      "resource": {
+        "primary": {
+          "URL": "https://linkinghub.elsevier.com/retrieve/pii/S2667305323000789"
+        }
+      },
+      "subtitle": [],
+      "short-title": [],
+      "issued": {
+        "date-parts": [
+          [
+            2023,
+            9
+          ]
+        ]
+      },
+      "references-count": 128,
+      "alternative-id": [
+        "S2667305323000789"
+      ],
+      "URL": "https://doi.org/10.1016/j.iswa.2023.200253",
+      "relation": {},
+      "ISSN": [
+        "2667-3053"
+      ],
+      "issn-type": [
+        {
+          "value": "2667-3053",
+          "type": "print"
+        }
+      ],
+      "subject": [],
+      "published": {
+        "date-parts": [
+          [
+            2023,
+            9
+          ]
+        ]
+      },
+      "assertion": [
+        {
+          "value": "Elsevier",
+          "name": "publisher",
+          "label": "This article is maintained by"
+        },
+        {
+          "value": "Meta-heuristic approaches for the University Course Timetabling Problem",
+          "name": "articletitle",
+          "label": "Article Title"
+        },
+        {
+          "value": "Intelligent Systems with Applications",
+          "name": "journaltitle",
+          "label": "Journal Title"
+        },
+        {
+          "value": "https://doi.org/10.1016/j.iswa.2023.200253",
+          "name": "articlelink",
+          "label": "CrossRef DOI link to publisher maintained version"
+        },
+        {
+          "value": "article",
+          "name": "content_type",
+          "label": "Content Type"
+        },
+        {
+          "value": "© 2023 The Author(s). Published by Elsevier Ltd.",
+          "name": "copyright",
+          "label": "Copyright"
+        }
+      ],
+      "article-number": "200253"
+    }
+  }
+}

@@ -1,0 +1,1555 @@
+{
+  "retrieved": "2026-10-16",
+  "url": "https://api.crossref.org/works?query.bibliographic=additive+manufacturing+metaheuristic+optimization+review&rows=3&filter=until-pub-date%3A2026-10-16",
+  "response": {
+    "status": "ok",
+    "message-type": "work-list",
+    "message-version": "1.0.0",
+    "message": {
+      "facets": {},
+      "total-results": 8992481,
+      "items": [
+        {
+          "indexed": {
+            "date-parts": [
+              [
+                2026,
+                9,
+                19
+              ]
+            ],
+            "date-time": "2026-09-19T00:30:20Z",
+            "timestamp": 1789777820291,
+            "version": "4.0.1"
+          },
+          "reference-count": 22,
+          "publisher": "Elsevier BV",
+          "license": [
+            {
+              "start": {
+                "date-parts": [
+                  [
+                    2020,
+                    1,
+                    1
+                  ]
+                ],
+                "date-time": "2020-01-01T00:00:00Z",
+                "timestamp": 1577836800000
+              },
+              "content-version": "tdm",
+              "delay-in-days": 0,
+              "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+            },
+            {
+              "start": {
+                "date-parts": [
+                  [
+                    2020,
+                    1,
+                    1
+                  ]
+                ],
+                "date-time": "2020-01-01T00:00:00Z",
+                "timestamp": 1577836800000
+              },
+              "content-version": "tdm",
+              "delay-in-days": 0,
+              "URL": "https://www.elsevier.com/legal/tdmrep-license"
+            },
+            {
+              "start": {
+                "date-parts": [
+                  [
+                    2020,
+                    10,
+                    21
+                  ]
+                ],
+                "date-time": "2020-10-21T00:00:00Z",
+                "timestamp": 1603238400000
+              },
+              "content-version": "vor",
+              "delay-in-days": 294,
+              "URL": "http://creativecommons.org/licenses/by-nc-nd/4.0/"
+            }
+          ],
+          "content-domain": {
+            "domain": [
+              "elsevier.com",
+              "sciencedirect.com"
+            ],
+            "crossmark-restriction": true
+          },
+          "short-container-title": [
+            "Procedia Manufacturing"
+          ],
+          "published-print": {
+            "date-parts": [
+              [
+                2020
+              ]
+            ]
+          },
+          "DOI": "10.1016/j.promfg.2020.10.104",
+          "type": "journal-article",
+          "created": {
+            "date-parts": [
+              [
+                2020,
+                11,
+                19
+              ]
+            ],
+            "date-time": "2020-11-19T23:38:26Z",
+            "timestamp": 1605829106000
+          },
+          "page": "740-747",
+          "update-policy": "https://doi.org/10.1016/elsevier_cm_policy",
+          "source": "Crossref",
+          "is-referenced-by-count": 35,
+          "special_numbering": "C",
+          "title": [
+            "Single and multi-objective optimization of FDM-based additive manufacturing using metaheuristic algorithms"
+          ],
+          "prefix": "10.1016",
+          "volume": "51",
+          "author": [
+            {
+              "given": "N.A.",
+              "family": "Fountas",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "J.D.",
+              "family": "Kechagias",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "D.E.",
+              "family": "Manolakos",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "N.M.",
+              "family": "Vaxevanidis",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            }
+          ],
+          "member": "78",
+          "reference": [
+            {
+              "key": "10.1016/j.promfg.2020.10.104_bib1",
+              "doi-asserted-by": "crossref",
+              "first-page": "81",
+              "DOI": "10.1016/j.jare.2011.05.001",
+              "article-title": "Experimental investigation and empirical modelling of FDM process for compressive strength improvement",
+              "volume": "3",
+              "author": "Sood",
+              "year": "2012",
+              "journal-title": "J Adv Res"
+            },
+            {
+              "key": "10.1016/j.promfg.2020.10.104_bib2",
+              "doi-asserted-by": "crossref",
+              "first-page": "48",
+              "DOI": "10.1016/j.cirpj.2011.08.003",
+              "article-title": "An investigation on sliding wear of FDM built parts",
+              "volume": "5",
+              "author": "Sood",
+              "year": "2012",
+              "journal-title": "CIRP J Manuf Sci Technol"
+            },
+            {
+              "key": "10.1016/j.promfg.2020.10.104_bib3",
+              "doi-asserted-by": "crossref",
+              "first-page": "87",
+              "DOI": "10.1007/s00170-014-5796-5",
+              "article-title": "Process parameter optimization for fused deposition modeling using response surface methodology combined with fuzzy inference system",
+              "volume": "73",
+              "author": "Peng",
+              "year": "2014",
+              "journal-title": "Int J Adv Manuf Technol"
+            },
+            {
+              "key": "10.1016/j.promfg.2020.10.104_bib4",
+              "doi-asserted-by": "crossref",
+              "first-page": "127",
+              "DOI": "10.1080/17452759.2014.898851",
+              "article-title": "Multi-objective optimisation of strength and volumetric shrinkage of FDM parts",
+              "volume": "9",
+              "author": "Gurrala",
+              "year": "2014",
+              "journal-title": "Virtual Phys Prototyp"
+            },
+            {
+              "key": "10.1016/j.promfg.2020.10.104_bib5",
+              "doi-asserted-by": "crossref",
+              "first-page": "182",
+              "DOI": "10.1109/4235.996017",
+              "article-title": "A fast and elitist multiobjective genetic algorithm: NSGA-II",
+              "volume": "6",
+              "author": "Deb",
+              "year": "2002",
+              "journal-title": "IEEE Trans Evol Comput"
+            },
+            {
+              "key": "10.1016/j.promfg.2020.10.104_bib6",
+              "doi-asserted-by": "crossref",
+              "first-page": "287",
+              "DOI": "10.1016/j.matdes.2009.06.016",
+              "article-title": "Parametric appraisal of mechanical property of fused deposition modelling processed parts",
+              "volume": "31",
+              "author": "Sood",
+              "year": "2010",
+              "journal-title": "Mater Des"
+            },
+            {
+              "key": "10.1016/j.promfg.2020.10.104_bib7",
+              "doi-asserted-by": "crossref",
+              "first-page": "4069",
+              "DOI": "10.1080/00207540410001708470",
+              "article-title": "Optimal part deposition orientation in FDM by using a multicriteria genetic algorithm",
+              "volume": "42",
+              "author": "Pandey",
+              "year": "2004",
+              "journal-title": "Int J Prod Res"
+            },
+            {
+              "key": "10.1016/j.promfg.2020.10.104_bib8",
+              "doi-asserted-by": "crossref",
+              "first-page": "2709",
+              "DOI": "10.1080/00207540500031857",
+              "article-title": "Determination of the optimal part orientation in layered manufacturing using a genetic algorithm",
+              "volume": "43",
+              "author": "Byun",
+              "year": "2005",
+              "journal-title": "Int J Prod Res"
+            },
+            {
+              "key": "10.1016/j.promfg.2020.10.104_bib9",
+              "doi-asserted-by": "crossref",
+              "first-page": "585",
+              "DOI": "10.1016/j.ijmachtools.2003.12.004",
+              "article-title": "Optimum part deposition orientation in fused deposition modelling",
+              "volume": "44",
+              "author": "Thrimurthulu",
+              "year": "2004",
+              "journal-title": "Int J Mach Tools Manuf"
+            },
+            {
+              "key": "10.1016/j.promfg.2020.10.104_bib10",
+              "doi-asserted-by": "crossref",
+              "first-page": "1035",
+              "DOI": "10.1007/s00170-008-1669-0",
+              "article-title": "Optimizing process parameters for selective laser sintering based on neural network and genetic algorithm",
+              "volume": "42",
+              "author": "Rong-Ji",
+              "year": "2009",
+              "journal-title": "Int J Adv Manuf Technol"
+            },
+            {
+              "key": "10.1016/j.promfg.2020.10.104_bib11",
+              "doi-asserted-by": "crossref",
+              "first-page": "714",
+              "DOI": "10.1007/s00170-009-2006-y",
+              "article-title": "Genetic-algorithm-based multiobjective optimization of the build orientation in stereolithography",
+              "volume": "45",
+              "author": "Canellidis",
+              "year": "2009",
+              "journal-title": "Int J Adv Manuf Technol"
+            },
+            {
+              "key": "10.1016/j.promfg.2020.10.104_bib12",
+              "doi-asserted-by": "crossref",
+              "first-page": "3",
+              "DOI": "10.1080/17452750701330968",
+              "article-title": "Optimal part orientation in layered manufacturing using evolutionary stickers-based DNA algorithm",
+              "volume": "2",
+              "author": "Tyagi",
+              "year": "2007",
+              "journal-title": "Virtual Phys Prototyp"
+            },
+            {
+              "key": "10.1016/j.promfg.2020.10.104_bib13",
+              "doi-asserted-by": "crossref",
+              "first-page": "228",
+              "DOI": "10.1016/j.knosys.2015.07.006",
+              "article-title": "Moth-flame optimization algorithm: A novel nature-inspired heuristic paradigm",
+              "volume": "89",
+              "author": "Mirjalili",
+              "year": "2015",
+              "journal-title": "Knowl-Based Syst"
+            },
+            {
+              "key": "10.1016/j.promfg.2020.10.104_bib14",
+              "doi-asserted-by": "crossref",
+              "first-page": "80",
+              "DOI": "10.1016/j.advengsoft.2015.01.010",
+              "article-title": "The ant lion optimizer",
+              "volume": "83",
+              "author": "Mirjalili",
+              "year": "2015",
+              "journal-title": "Adv En Soft"
+            },
+            {
+              "key": "10.1016/j.promfg.2020.10.104_bib15",
+              "doi-asserted-by": "crossref",
+              "first-page": "51",
+              "DOI": "10.1016/j.advengsoft.2016.01.008",
+              "article-title": "The whale optimization algorithm",
+              "volume": "95",
+              "author": "Mirjalili",
+              "year": "2016",
+              "journal-title": "Adv En Soft"
+            },
+            {
+              "key": "10.1016/j.promfg.2020.10.104_bib16",
+              "doi-asserted-by": "crossref",
+              "first-page": "46",
+              "DOI": "10.1016/j.advengsoft.2013.12.007",
+              "article-title": "Grey wolf optimizer",
+              "volume": "69",
+              "author": "Mirjalili",
+              "year": "2014",
+              "journal-title": "Adv En Soft"
+            },
+            {
+              "issue": "4",
+              "key": "10.1016/j.promfg.2020.10.104_bib17",
+              "doi-asserted-by": "crossref",
+              "first-page": "1053",
+              "DOI": "10.1007/s00521-015-1920-1",
+              "article-title": "Dragonfly algorithm: a new meta-heuristic optimization technique for solving single-objective, discrete, and multi-objective problems",
+              "volume": "27",
+              "author": "Mirjalili",
+              "year": "2016",
+              "journal-title": "Neural Comput & Applic"
+            },
+            {
+              "issue": "1",
+              "key": "10.1016/j.promfg.2020.10.104_bib18",
+              "doi-asserted-by": "crossref",
+              "first-page": "106",
+              "DOI": "10.1016/j.eswa.2015.10.039",
+              "article-title": "Multi-objective grey wolf optimizer: A novel algorithm for multi-criterion optimization",
+              "volume": "47",
+              "author": "Mirjalili",
+              "year": "2016",
+              "journal-title": "Expert Sys Applic"
+            },
+            {
+              "issue": "1",
+              "key": "10.1016/j.promfg.2020.10.104_bib19",
+              "doi-asserted-by": "crossref",
+              "first-page": "79",
+              "DOI": "10.1007/s10489-016-0825-8",
+              "article-title": "Multi-objective ant lion optimizer: a multi-objective optimization algorithm for solving engineering problems",
+              "volume": "46",
+              "author": "Mirjalili",
+              "year": "2017",
+              "journal-title": "Appl Intell"
+            },
+            {
+              "key": "10.1016/j.promfg.2020.10.104_bib20",
+              "doi-asserted-by": "crossref",
+              "first-page": "50",
+              "DOI": "10.1016/j.knosys.2017.07.018",
+              "article-title": "Optimization of problems with multiple objectives using the multi-verse optimization algorithm",
+              "volume": "134",
+              "author": "Mirjalili",
+              "year": "2017",
+              "journal-title": "Knowl-Based Syst"
+            },
+            {
+              "key": "10.1016/j.promfg.2020.10.104_bib21",
+              "unstructured": "Corne DW, Jerram NR, Knowles JD, Oates MJ. PESA-II: Region-based selection in evolutionary multiobjective optimization. In: Proceedings of the Genetic and Evolutionary Computation Conference (GECCO 2001), 2001;283-290, Morgan Kaufmann, San Francisco."
+            },
+            {
+              "key": "10.1016/j.promfg.2020.10.104_bib22",
+              "series-title": "SPEA2: Improving the strength Pareto evolutionary algorithm TIK-Report 103 Computer Engineering and Networks Laboratory (TIK)",
+              "author": "Zitzler",
+              "year": "2001"
+            }
+          ],
+          "container-title": [
+            "Procedia Manufacturing"
+          ],
+          "language": "en",
+          "link": [
+            {
+              "URL": "https://api.elsevier.com/content/article/PII:S2351978920319612?httpAccept=text/xml",
+              "content-type": "text/xml",
+              "content-version": "vor",
+              "intended-application": "text-mining"
+            },
+            {
+              "URL": "https://api.elsevier.com/content/article/PII:S2351978920319612?httpAccept=text/plain",
+              "content-type": "text/plain",
+              "content-version": "vor",
+              "intended-application": "text-mining"
+            }
+          ],
+          "deposited": {
+            "date-parts": [
+              [
+                2025,
+                11,
+                6
+              ]
+            ],
+            "date-time": "2025-11-06T10:55:11Z",
+            "timestamp": 1762426511000
+          },
+          "score": 31.290514,
+          "resource": {
+            "primary": {
+              "URL": "https://linkinghub.elsevier.com/retrieve/pii/S2351978920319612"
+            }
+          },
+          "issued": {
+            "date-parts": [
+              [
+                2020
+              ]
+            ]
+          },
+          "references-count": 22,
+          "alternative-id": [
+            "S2351978920319612"
+          ],
+          "URL": "https://doi.org/10.1016/j.promfg.2020.10.104",
+          "ISSN": [
+            "2351-9789"
+          ],
+          "issn-type": [
+            {
+              "value": "2351-9789",
+              "type": "print"
+            }
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2020
+              ]
+            ]
+          },
+          "assertion": [
+            {
+              "value": "Elsevier",
+              "name": "publisher",
+              "label": "This article is maintained by"
+            },
+            {
+              "value": "Single and multi-objective optimization of FDM-based additive manufacturing using metaheuristic algorithms",
+              "name": "articletitle",
+              "label": "Article Title"
+            },
+            {
+              "value": "Procedia Manufacturing",
+              "name": "journaltitle",
+              "label": "Journal Title"
+            },
+            {
+              "value": "https://doi.org/10.1016/j.promfg.2020.10.104",
+              "name": "articlelink",
+              "label": "CrossRef DOI link to publisher maintained version"
+            },
+            {
+              "value": "article",
+              "name": "content_type",
+              "label": "Content Type"
+            },
+            {
+              "value": "© 2020 The Author(s). Published by Elsevier B.V.",
+              "name": "copyright",
+              "label": "Copyright"
+            }
+          ]
+        },
+        {
+          "indexed": {
+            "date-parts": [
+              [
+                2026,
+                8,
+                17
+              ]
+            ],
+            "date-time": "2026-08-17T16:05:15Z",
+            "timestamp": 1786982715257,
+            "version": "build-2736575974"
+          },
+          "reference-count": 66,
+          "publisher": "Springer Science and Business Media LLC",
+          "issue": "2",
+          "license": [
+            {
+              "start": {
+                "date-parts": [
+                  [
+                    2026,
+                    3,
+                    9
+                  ]
+                ],
+                "date-time": "2026-03-09T00:00:00Z",
+                "timestamp": 1773014400000
+              },
+              "content-version": "tdm",
+              "delay-in-days": 0,
+              "URL": "https://www.springernature.com/gp/researchers/text-and-data-mining"
+            },
+            {
+              "start": {
+                "date-parts": [
+                  [
+                    2026,
+                    3,
+                    9
+                  ]
+                ],
+                "date-time": "2026-03-09T00:00:00Z",
+                "timestamp": 1773014400000
+              },
+              "content-version": "vor",
+              "delay-in-days": 0,
+              "URL": "https://www.springernature.com/gp/researchers/text-and-data-mining"
+            }
+          ],
+          "content-domain": {
+            "domain": [
+              "link.springer.com"
+            ],
+            "crossmark-restriction": false
+          },
+          "short-container-title": [
+            "J. Inst. Eng. India Ser. C"
+          ],
+          "published-print": {
+            "date-parts": [
+              [
+                2026,
+                4
+              ]
+            ]
+          },
+          "DOI": "10.1007/s40032-026-01355-4",
+          "type": "journal-article",
+          "created": {
+            "date-parts": [
+              [
+                2026,
+                3,
+                9
+              ]
+            ],
+            "date-time": "2026-03-09T07:27:38Z",
+            "timestamp": 1773041258000
+          },
+          "page": "1063-1085",
+          "update-policy": "https://doi.org/10.1007/springer_crossmark_policy",
+          "source": "Crossref",
+          "is-referenced-by-count": 3,
+          "title": [
+            "AI and Metaheuristic Optimization in Additive Manufacturing of Lightweight Alloys: A Critical Review"
+          ],
+          "prefix": "10.1007",
+          "volume": "107",
+          "author": [
+            {
+              "ORCID": "https://orcid.org/0009-0004-6141-0545",
+              "authenticated-orcid": false,
+              "given": "Aswin",
+              "family": "Karkadakattil",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            }
+          ],
+          "member": "297",
+          "published-online": {
+            "date-parts": [
+              [
+                2026,
+                3,
+                9
+              ]
+            ]
+          },
+          "reference": [
+            {
+              "key": "1355_CR1",
+              "doi-asserted-by": "publisher",
+              "first-page": "428",
+              "DOI": "10.1016/j.msea.2016.07.038",
+              "volume": "674",
+              "author": "P Åkerfeldt",
+              "year": "2016",
+              "unstructured": "P. Åkerfeldt, M.L. Antti, R. Pederson, Influence of microstructure on mechanical properties of laser metal wire-deposited Ti-6Al-4V. Mater. Sci. Eng. A 674, 428–437 (2016). https://doi.org/10.1016/j.msea.2016.07.038",
+              "journal-title": "Mater. Sci. Eng. A"
+            },
+            {
+              "key": "1355_CR2",
+              "doi-asserted-by": "publisher",
+              "first-page": "7648",
+              "DOI": "10.1016/j.msea.2011.06.074",
+              "volume": "528",
+              "author": "MN Ahsan",
+              "year": "2011",
+              "unstructured": "M.N. Ahsan, A.J. Pinkerton, R.J. Moat, J. Shackleton, A comparative study of laser direct metal deposition characteristics using gas and plasma-atomized Ti-6Al-4V powders. Mater. Sci. Eng. A 528, 7648–7657 (2011). https://doi.org/10.1016/j.msea.2011.06.074",
+              "journal-title": "Mater. Sci. Eng. A"
+            },
+            {
+              "key": "1355_CR3",
+              "doi-asserted-by": "publisher",
+              "unstructured": "A. Aminzadeh, M. Aberoumand, D. Rahmatabadi, M. Moradi, (2021). Metaheuristic approaches for modeling and optimization of FDM process. Fused deposition modeling based 3D printing. Springer. https://doi.org/10.1007/978-3-030-68024-4_25",
+              "DOI": "10.1007/978-3-030-68024-4_25"
+            },
+            {
+              "key": "1355_CR4",
+              "doi-asserted-by": "publisher",
+              "first-page": "207",
+              "DOI": "10.1016/j.mattod.2021.11.026",
+              "volume": "52",
+              "author": "A Bandyopadhyay",
+              "year": "2022",
+              "unstructured": "A. Bandyopadhyay et al., Alloy design via additive manufacturing: advantages, challenges, applications and perspectives. Mater. Today 52, 207–224 (2022). https://doi.org/10.1016/j.mattod.2021.11.026",
+              "journal-title": "Mater. Today"
+            },
+            {
+              "key": "1355_CR5",
+              "doi-asserted-by": "publisher",
+              "first-page": "451",
+              "DOI": "10.1016/j.cirp.2019.03.021",
+              "volume": "68",
+              "author": "A Caggiano",
+              "year": "2019",
+              "unstructured": "A. Caggiano, J. Zhang, V. Alfieri et al., Machine learning-based defect recognition in additive manufacturing. CIRP Ann. 68, 451–454 (2019). https://doi.org/10.1016/j.cirp.2019.03.021",
+              "journal-title": "CIRP Ann."
+            },
+            {
+              "key": "1355_CR6",
+              "doi-asserted-by": "publisher",
+              "first-page": "46",
+              "DOI": "10.1016/j.actamat.2016.02.019",
+              "volume": "108",
+              "author": "BE Carroll",
+              "year": "2016",
+              "unstructured": "B.E. Carroll, R.A. Otis, J.P. Borgonia et al., Functionally graded material of 304L stainless steel and Inconel 625 fabricated by directed energy deposition. Acta Mater. 108, 46–54 (2016). https://doi.org/10.1016/j.actamat.2016.02.019",
+              "journal-title": "Acta Mater."
+            },
+            {
+              "key": "1355_CR7",
+              "doi-asserted-by": "publisher",
+              "first-page": "217",
+              "DOI": "10.1016/j.jmsy.2023.07.010",
+              "volume": "70",
+              "author": "G Chen",
+              "year": "2023",
+              "unstructured": "G. Chen et al., Physics-guided neural operator for composites manufacturing process modelling. J. Manuf. Syst. 70, 217–229 (2023). https://doi.org/10.1016/j.jmsy.2023.07.010",
+              "journal-title": "J. Manuf. Syst."
+            },
+            {
+              "key": "1355_CR8",
+              "doi-asserted-by": "publisher",
+              "unstructured": "H. Chen, Y.F. Zhao, (2015). Learning algorithm-based modeling and process parameters recommendation system for binder jetting additive manufacturing process. In ASME IDETC/CIE. https://doi.org/10.1115/DETC2015-47627",
+              "DOI": "10.1115/DETC2015-47627"
+            },
+            {
+              "key": "1355_CR9",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1098/rsta.2022.0405",
+              "volume": "381",
+              "author": "J Chen",
+              "year": "2023",
+              "unstructured": "J. Chen, Y. Liu, Neural optimization machine for additive manufacturing. Philos. Trans. R. Soc. Lond. A Math. Phys. Eng. Sci. 381, 20220405 (2023). https://doi.org/10.1098/rsta.2022.0405",
+              "journal-title": "Philos. Trans. R. Soc. Lond. A Math. Phys. Eng. Sci."
+            },
+            {
+              "key": "1355_CR10",
+              "doi-asserted-by": "publisher",
+              "first-page": "176",
+              "DOI": "10.1016/j.commatsci.2016.05.034",
+              "volume": "123",
+              "author": "A Chowdhury",
+              "year": "2016",
+              "unstructured": "A. Chowdhury, E. Kautz, B. Yener, D. Lewis, Image-driven machine learning methods for microstructure recognition. Comput. Mater. Sci. 123, 176–187 (2016). https://doi.org/10.1016/j.commatsci.2016.05.034",
+              "journal-title": "Comput. Mater. Sci."
+            },
+            {
+              "issue": "12",
+              "key": "1355_CR11",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1115/MSEC2016-8784",
+              "volume": "138",
+              "author": "S Chowdhury",
+              "year": "2016",
+              "unstructured": "S. Chowdhury, S. Anand, Artificial neural network-based geometric compensation for thermal deformation in additive manufacturing processes. J. Manuf. Sci. Eng. 138(12), 121004 (2016). https://doi.org/10.1115/MSEC2016-8784",
+              "journal-title": "J. Manuf. Sci. Eng."
+            },
+            {
+              "key": "1355_CR12",
+              "doi-asserted-by": "publisher",
+              "first-page": "88",
+              "DOI": "10.1007/s10915-022-01939-z",
+              "volume": "92",
+              "author": "S Cuomo",
+              "year": "2022",
+              "unstructured": "S. Cuomo et al., Scientific machine learning through physics-informed neural networks. J. Sci. Comput. 92, 88 (2022). https://doi.org/10.1007/s10915-022-01939-z",
+              "journal-title": "J. Sci. Comput."
+            },
+            {
+              "issue": "2",
+              "key": "1355_CR13",
+              "doi-asserted-by": "publisher",
+              "first-page": "327",
+              "DOI": "10.1108/IJSI-10-2024-0170",
+              "volume": "16",
+              "author": "L Dang",
+              "year": "2025",
+              "unstructured": "L. Dang et al., Fatigue life prediction framework of laser-directed energy deposition Ti-6Al-4V based on PINN. Int. J. Struct. Integr. 16(2), 327–354 (2025). https://doi.org/10.1108/IJSI-10-2024-0170",
+              "journal-title": "Int. J. Struct. Integr."
+            },
+            {
+              "issue": "1",
+              "key": "1355_CR14",
+              "doi-asserted-by": "publisher",
+              "first-page": "10",
+              "DOI": "10.3390/a18010010",
+              "volume": "18",
+              "author": "P Di Barba",
+              "year": "2025",
+              "unstructured": "Di P. Barba et al., Optimal multi-physics synthesis using deep neural networks. Algorithms. 18(1), 10 (2025). https://doi.org/10.3390/a18010010",
+              "journal-title": "Algorithms"
+            },
+            {
+              "issue": "14–15",
+              "key": "1355_CR15",
+              "doi-asserted-by": "publisher",
+              "first-page": "2627",
+              "DOI": "10.1016/S1352-2310(97)00447-0",
+              "volume": "32",
+              "author": "MW Gardner",
+              "year": "1998",
+              "unstructured": "M.W. Gardner, S.R. Dorling, Artificial neural networks (the multilayer perceptron): A review of applications in the atmospheric sciences. Atmos. Environ. 32(14–15), 2627–2636 (1998). https://doi.org/10.1016/S1352-2310(97)00447-0",
+              "journal-title": "Atmos. Environ."
+            },
+            {
+              "issue": "6",
+              "key": "1355_CR16",
+              "doi-asserted-by": "publisher",
+              "first-page": "1191",
+              "DOI": "10.1007/s10845-015-1167-9",
+              "volume": "29",
+              "author": "A Garg",
+              "year": "2018",
+              "unstructured": "A. Garg, J.S.L. Lam, M.M. Savalani, Laser power-based surface characteristics models for 3-D printing process. J. Intell. Manuf. 29(6), 1191–1202 (2018). https://doi.org/10.1007/s10845-015-1167-9",
+              "journal-title": "J. Intell. Manuf."
+            },
+            {
+              "key": "1355_CR17",
+              "doi-asserted-by": "crossref",
+              "unstructured": "Y. Goldberg, Neural network methods for natural language processing (Morgan & Claypool, 2017)",
+              "DOI": "10.1007/978-3-031-02165-7"
+            },
+            {
+              "key": "1355_CR18",
+              "unstructured": "I. Goodfellow et al., (2014). Generative adversarial nets. Advances in Neural Information Processing Systems"
+            },
+            {
+              "key": "1355_CR19",
+              "doi-asserted-by": "publisher",
+              "unstructured": "A. Graves, (2012). Long short-term memory. Supervised sequence labelling with recurrent neural networks. Springer. https://doi.org/10.1007/978-3-642-24797-2_4",
+              "DOI": "10.1007/978-3-642-24797-2_4"
+            },
+            {
+              "key": "1355_CR20",
+              "doi-asserted-by": "publisher",
+              "unstructured": "A. Graves, S. Fernández, J. Schmidhuber, (2007). Multi-dimensional recurrent neural networks. In ICANN. https://doi.org/10.1007/978-3-540-74690-4_56",
+              "DOI": "10.1007/978-3-540-74690-4_56"
+            },
+            {
+              "key": "1355_CR21",
+              "doi-asserted-by": "publisher",
+              "unstructured": "N. Gupta, M. Khosravy, N. Patel et al., (2020). Evolutionary artificial neural networks: Comparative study on state-of-the-art optimizers. Frontier Applications of Nature Inspired Computation. Springer. https://doi.org/10.1007/978-981-15-2133-1_14",
+              "DOI": "10.1007/978-981-15-2133-1_14"
+            },
+            {
+              "key": "1355_CR22",
+              "unstructured": "S. Haykin, Neural networks: A comprehensive foundation (Prentice Hall, 1998)"
+            },
+            {
+              "issue": "8",
+              "key": "1355_CR23",
+              "doi-asserted-by": "publisher",
+              "first-page": "11064",
+              "DOI": "10.1109/TNNLS.2023.3247163",
+              "volume": "35",
+              "author": "J Hua",
+              "year": "2023",
+              "unstructured": "J. Hua et al., Physics-informed neural networks for manufacturing systems. IEEE Trans. Neural Networks Learn. Syst. 35(8), 11064–11076 (2023). https://doi.org/10.1109/TNNLS.2023.3247163",
+              "journal-title": "IEEE Trans. Neural Networks Learn. Syst."
+            },
+            {
+              "key": "1355_CR24",
+              "doi-asserted-by": "publisher",
+              "first-page": "3591",
+              "DOI": "10.1007/s00170-024-14706-1",
+              "volume": "135",
+              "author": "K Hu",
+              "year": "2024",
+              "unstructured": "K. Hu et al., Physics-informed machine learning for molten pool depth prediction. Int. J. Adv. Manuf. Technol. 135, 3591–3613 (2024). https://doi.org/10.1007/s00170-024-14706-1",
+              "journal-title": "Int. J. Adv. Manuf. Technol."
+            },
+            {
+              "key": "1355_CR25",
+              "doi-asserted-by": "publisher",
+              "unstructured": "W. Huang, Y. Qiao, X. Tang, (2014). Robust scene text detection with convolution neural network induced MSER trees. In Lecture Notes in Computer Science (pp. 497–511). Springer. https://doi.org/10.1007/978-3-319-10593-2_33",
+              "DOI": "10.1007/978-3-319-10593-2_33"
+            },
+            {
+              "key": "1355_CR26",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1002/adem.202401924",
+              "author": "VS Jatti",
+              "year": "2024",
+              "unstructured": "V.S. Jatti et al., Effect of volumetric energy density on tensile characteristics of LPBF AlSi10Mg. Adv. Eng. Mater. (2024). https://doi.org/10.1002/adem.202401924",
+              "journal-title": "Adv. Eng. Mater."
+            },
+            {
+              "key": "1355_CR27",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1080/14488388.2025.2570030",
+              "author": "A Karkadakattil",
+              "year": "2025",
+              "unstructured": "A. Karkadakattil, AI-driven prediction of surface roughness in laser-polished LPBF Ti-6Al-4V. Aust. J. Multi-Discip. Eng. (2025). https://doi.org/10.1080/14488388.2025.2570030",
+              "journal-title": "Aust. J. Multi-Discip. Eng."
+            },
+            {
+              "key": "1355_CR28",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1080/15376494.2025.2571195",
+              "author": "A Karkadakattil",
+              "year": "2025",
+              "unstructured": "A. Karkadakattil, Mechanics-guided artificial neural network for predicting recovery time in 4D-printed metamaterials. Mech. Adv. Mater. Struct. (2025). https://doi.org/10.1080/15376494.2025.2571195",
+              "journal-title": "Mech. Adv. Mater. Struct."
+            },
+            {
+              "key": "1355_CR29",
+              "doi-asserted-by": "publisher",
+              "first-page": "36",
+              "DOI": "10.1016/j.actamat.2016.02.014",
+              "volume": "108",
+              "author": "SA Khairallah",
+              "year": "2016",
+              "unstructured": "S.A. Khairallah, A.T. Anderson, A. Rubenchik, W.E. King, Laser powder-bed fusion additive manufacturing: physics of complex melt flow and formation mechanisms of pores, spatter, and denudation zones. Acta Mater. 108, 36–45 (2016). https://doi.org/10.1016/j.actamat.2016.02.014",
+              "journal-title": "Acta Mater."
+            },
+            {
+              "key": "1355_CR30",
+              "doi-asserted-by": "publisher",
+              "first-page": "69",
+              "DOI": "10.1016/j.jmsy.2018.04.001",
+              "volume": "47",
+              "author": "M Khanzadeh",
+              "year": "2018",
+              "unstructured": "M. Khanzadeh, S. Chowdhury, M. Marufuzzaman, M.A. Tschopp, L. Bian, Porosity prediction using supervised learning of thermal history. J. Manuf. Syst. 47, 69–82 (2018). https://doi.org/10.1016/j.jmsy.2018.04.001",
+              "journal-title": "J. Manuf. Syst."
+            },
+            {
+              "key": "1355_CR31",
+              "unstructured": "D.P. Kingma, J.L. Ba, (2015). Adam: A method for stochastic optimization. ICLR"
+            },
+            {
+              "key": "1355_CR32",
+              "doi-asserted-by": "publisher",
+              "first-page": "436",
+              "DOI": "10.1038/nature14539",
+              "volume": "521",
+              "author": "Y LeCun",
+              "year": "2015",
+              "unstructured": "Y. LeCun, Y. Bengio, G. Hinton, Deep learning. Nature. 521, 436–444 (2015). https://doi.org/10.1038/nature14539",
+              "journal-title": "Nature"
+            },
+            {
+              "issue": "20",
+              "key": "1355_CR33",
+              "doi-asserted-by": "publisher",
+              "first-page": "7386",
+              "DOI": "10.3390/ma15207386",
+              "volume": "15",
+              "author": "D Lehmhus",
+              "year": "2022",
+              "unstructured": "D. Lehmhus, H. Richter, K. Kayvantash et al., High-temperature mechanical properties of LPBF AlSi10Mg. Materials. 15(20), 7386 (2022). https://doi.org/10.3390/ma15207386",
+              "journal-title": "Materials"
+            },
+            {
+              "key": "1355_CR34",
+              "doi-asserted-by": "publisher",
+              "first-page": "B1105",
+              "DOI": "10.1137/21M1397908",
+              "volume": "43",
+              "author": "L Lu",
+              "year": "2021",
+              "unstructured": "L. Lu et al., Physics-informed neural networks with hard constraints. SIAM J. Sci. Comput. 43, B1105–B1132 (2021). https://doi.org/10.1137/21M1397908",
+              "journal-title": "SIAM J. Sci. Comput."
+            },
+            {
+              "issue": "8",
+              "key": "1355_CR35",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.3390/polym17081108",
+              "volume": "17",
+              "author": "I Malashin",
+              "year": "2025",
+              "unstructured": "I. Malashin et al., Physics-informed neural networks in polymers: a review. Polymers 17(8), 1108 (2025). https://doi.org/10.3390/polym17081108",
+              "journal-title": "Polymers"
+            },
+            {
+              "key": "1355_CR36",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.21437/Interspeech.2010-343",
+              "author": "T Mikolov",
+              "year": "2010",
+              "unstructured": "T. Mikolov et al., Recurrent neural network-based language model. Interspeech. (2010). https://doi.org/10.21437/Interspeech.2010-343",
+              "journal-title": "Interspeech"
+            },
+            {
+              "key": "1355_CR37",
+              "doi-asserted-by": "publisher",
+              "first-page": "17",
+              "DOI": "10.3390/jcs4010017",
+              "volume": "4",
+              "author": "M Moradi",
+              "year": "2020",
+              "unstructured": "M. Moradi, M. Karami Moghadam, M. Shamsborhan et al., Synergic effects of FDM parameters on mechanical behavior of bronze–PLA composites. J. Compos. Sci. 4, 17 (2020). https://doi.org/10.3390/jcs4010017",
+              "journal-title": "J. Compos. Sci."
+            },
+            {
+              "key": "1355_CR38",
+              "doi-asserted-by": "publisher",
+              "first-page": "022004",
+              "DOI": "10.2351/1.4866675",
+              "volume": "26",
+              "author": "M Moradi",
+              "year": "2014",
+              "unstructured": "M. Moradi, N. Salimi, M. Ghoreishi et al., Parameter dependencies in laser hybrid arc welding by design of experiments and mass balance. J. Laser Appl. 26, 022004 (2014). https://doi.org/10.2351/1.4866675",
+              "journal-title": "J. Laser Appl."
+            },
+            {
+              "issue": "5",
+              "key": "1355_CR39",
+              "doi-asserted-by": "publisher",
+              "first-page": "2375",
+              "DOI": "10.3390/app11052375",
+              "volume": "11",
+              "author": "A Omairi",
+              "year": "2021",
+              "unstructured": "A. Omairi, Z.H. Ismail, Towards machine learning for error compensation in additive manufacturing. Appl. Sci. 11(5), 2375 (2021). https://doi.org/10.3390/app11052375",
+              "journal-title": "Appl. Sci."
+            },
+            {
+              "key": "1355_CR40",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1007/s10845-016-1282-2",
+              "author": "B Panda",
+              "year": "2016",
+              "unstructured": "B. Panda, K. Shankhwar, A. Garg, M.M. Savalani, Evaluation of genetic programming-based models for simulating bead dimensions in wire and arc additive manufacturing. J. Intell. Manuf. (2016). https://doi.org/10.1007/s10845-016-1282-2",
+              "journal-title": "J. Intell. Manuf."
+            },
+            {
+              "issue": "3",
+              "key": "1355_CR41",
+              "doi-asserted-by": "publisher",
+              "first-page": "549",
+              "DOI": "10.1007/s10845-014-0891-x",
+              "volume": "27",
+              "author": "H Pashazadeh",
+              "year": "2016",
+              "unstructured": "H. Pashazadeh, Y. Gheisari, M. Hamedi, Statistical modeling and optimization of resistance spot welding process parameters using neural networks and multi-objective genetic algorithm. J. Intell. Manuf. 27(3), 549–559 (2016). https://doi.org/10.1007/s10845-014-0891-x",
+              "journal-title": "J. Intell. Manuf."
+            },
+            {
+              "key": "1355_CR42",
+              "doi-asserted-by": "publisher",
+              "first-page": "3311",
+              "DOI": "10.1007/s00521-020-05196-9",
+              "volume": "33",
+              "author": "R Rahman",
+              "year": "2021",
+              "unstructured": "R. Rahman, S. Hasan, Real-time signal queue length prediction using LSTM. Neural Comput. Appl. 33, 3311–3324 (2021). https://doi.org/10.1007/s00521-020-05196-9",
+              "journal-title": "Neural Comput. Appl."
+            },
+            {
+              "key": "1355_CR43",
+              "doi-asserted-by": "publisher",
+              "unstructured": "M. Ramesh, K. Panneerselvam, (2020). Mechanical investigation of nylon processed by FDM. Materials Today: Proceedings. https://doi.org/10.1016/j.matpr.2020.02.697",
+              "DOI": "10.1016/j.matpr.2020.02.697"
+            },
+            {
+              "key": "1355_CR44",
+              "doi-asserted-by": "publisher",
+              "first-page": "509",
+              "DOI": "10.1007/s00170-014-5835-2",
+              "volume": "73",
+              "author": "F Rayegani",
+              "year": "2014",
+              "unstructured": "F. Rayegani, G.C. Onwubolu, Fused deposition modelling process parameter prediction and optimization using group method for data handling and differential evolution. Int. J. Adv. Manuf. Technol. 73, 509–519 (2014). https://doi.org/10.1007/s00170-014-5835-2",
+              "journal-title": "Int. J. Adv. Manuf. Technol."
+            },
+            {
+              "key": "1355_CR45",
+              "doi-asserted-by": "publisher",
+              "first-page": "404",
+              "DOI": "10.1016/j.matdes.2016.05.016",
+              "volume": "104",
+              "author": "A Reichardt",
+              "year": "2016",
+              "unstructured": "A. Reichardt, R.P. Dillon, J.P. Borgonia et al., Development and characterization of Ti-6Al-4V to 304L stainless steel gradient components fabricated with laser deposition additive manufacturing. Mater. Des. 104, 404–413 (2016). https://doi.org/10.1016/j.matdes.2016.05.016",
+              "journal-title": "Mater. Des."
+            },
+            {
+              "key": "1355_CR46",
+              "doi-asserted-by": "publisher",
+              "first-page": "9",
+              "DOI": "10.1016/j.optlastec.2016.04.009",
+              "volume": "84",
+              "author": "Q Shi",
+              "year": "2016",
+              "unstructured": "Q. Shi, D. Gu, M. Xia, S. Cao, T. Rong, Effects of laser processing parameters on thermal behavior and melting/solidification mechanism during selective laser melting of TiC/Inconel 718 composites. Opt. Laser Technol. 84, 9–22 (2016). https://doi.org/10.1016/j.optlastec.2016.04.009",
+              "journal-title": "Opt. Laser Technol."
+            },
+            {
+              "issue": "3",
+              "key": "1355_CR47",
+              "doi-asserted-by": "publisher",
+              "first-page": "639",
+              "DOI": "10.1007/s10845-014-0902-y",
+              "volume": "27",
+              "author": "T-H Sun",
+              "year": "2016",
+              "unstructured": "T.-H. Sun, F.-C. Tien, R.-J. Kuo, Automated thermal fuse inspection using machine vision and artificial neural networks. J. Intell. Manuf. 27(3), 639–651 (2016). https://doi.org/10.1007/s10845-014-0902-y",
+              "journal-title": "J. Intell. Manuf."
+            },
+            {
+              "issue": "1",
+              "key": "1355_CR48",
+              "doi-asserted-by": "publisher",
+              "first-page": "205",
+              "DOI": "10.1016/j.cirp.2020.04.049",
+              "volume": "69",
+              "author": "Q Tian",
+              "year": "2020",
+              "unstructured": "Q. Tian, S. Guo, Y. Guo, Physics-driven deep learning model for porosity prediction in laser metal deposition. CIRP Ann. 69(1), 205–208 (2020). https://doi.org/10.1016/j.cirp.2020.04.049",
+              "journal-title": "CIRP Ann."
+            },
+            {
+              "key": "1355_CR49",
+              "doi-asserted-by": "publisher",
+              "unstructured": "V. Wankhede, D. Jagetiya, A. Joshi, R. Chaudhari, (2019). Experimental investigation of FDM process parameters using Taguchi analysis. Materials Today: Proceedings, 27, 2117–2120. https://doi.org/10.1016/j.matpr.2019.09.078",
+              "DOI": "10.1016/j.matpr.2019.09.078"
+            },
+            {
+              "issue": "3",
+              "key": "1355_CR50",
+              "doi-asserted-by": "publisher",
+              "first-page": "985",
+              "DOI": "10.1109/TAI.2022.3192362",
+              "volume": "5",
+              "author": "JC Wong",
+              "year": "2022",
+              "unstructured": "J.C. Wong et al., Learning in sinusoidal spaces with physics-informed neural networks. IEEE Trans. Artif. Intell. 5(3), 985–1000 (2022). https://doi.org/10.1109/TAI.2022.3192362",
+              "journal-title": "IEEE Trans. Artif. Intell."
+            },
+            {
+              "key": "1355_CR51",
+              "doi-asserted-by": "publisher",
+              "unstructured": "Q. Wu, H. Wang, B. Li, Proc. Inst. Mech. Eng. B J. Eng. Manuf. (2024). https://doi.org/10.1177/09544054241290283",
+              "DOI": "10.1177/09544054241290283"
+            },
+            {
+              "key": "1355_CR52",
+              "unstructured": "M.D. Zeiler, (2012). ADADELTA: An adaptive learning rate method. arXiv"
+            },
+            {
+              "key": "1355_CR53",
+              "doi-asserted-by": "publisher",
+              "first-page": "112",
+              "DOI": "10.1016/j.pmatsci.2017.10.001",
+              "volume": "92",
+              "author": "T DebRoy",
+              "year": "2018",
+              "unstructured": "T. DebRoy, H.L. Wei, J.S. Zuback, T. Mukherjee, J.W. Elmer, J.O. Milewski, A.M. Beese, A. Wilson-Heid, A. De, W. Zhang, Additive manufacturing of metallic components—process, structure and properties. Prog. Mater. Sci. 92, 112–224 (2018). https://doi.org/10.1016/j.pmatsci.2017.10.001",
+              "journal-title": "Prog. Mater. Sci."
+            },
+            {
+              "key": "1355_CR54",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1016/j.matdes.2019.108385",
+              "volume": "187",
+              "author": "A du Plessis",
+              "year": "2018",
+              "unstructured": "A. du Plessis, I. Yadroitsava, I. Yadroitsev, Effects of defects on mechanical properties in metal additive manufacturing: a review focusing on X-ray tomography insights. Mater. Des. 187, 108385 (2018). https://doi.org/10.1016/j.matdes.2019.108385",
+              "journal-title": "Mater. Des."
+            },
+            {
+              "key": "1355_CR55",
+              "unstructured": "EOS GmbH, In-situ monitoring and adaptive process control in metal additive manufacturing systems Technical white paper (EOS GmbH, 2021)"
+            },
+            {
+              "key": "1355_CR56",
+              "unstructured": "GE Additive, GE Additive helps build large metal 3D printed aerospace parts White paper (GE Additive, 2019)"
+            },
+            {
+              "key": "1355_CR57",
+              "doi-asserted-by": "publisher",
+              "first-page": "371",
+              "DOI": "10.1016/j.actamat.2016.07.019",
+              "volume": "117",
+              "author": "D Herzog",
+              "year": "2016",
+              "unstructured": "D. Herzog, V. Seyda, E. Wycisk, C. Emmelmann, Additive manufacturing of metals. Acta Mater. 117, 371–392 (2016). https://doi.org/10.1016/j.actamat.2016.07.019",
+              "journal-title": "Acta Mater."
+            },
+            {
+              "key": "1355_CR58",
+              "doi-asserted-by": "publisher",
+              "first-page": "36",
+              "DOI": "10.1016/j.actamat.2016.02.014",
+              "volume": "108",
+              "author": "SA Khairallah",
+              "year": "2016",
+              "unstructured": "S.A. Khairallah, A.T. Anderson, A. Rubenchik, W.E. King, Laser powder-bed fusion additive manufacturing: physics of complex melt flow and formation mechanisms of pores, spatter, and denudation zones. Acta Mater. 108, 36–45 (2016). https://doi.org/10.1016/j.actamat.2016.02.014",
+              "journal-title": "Acta Mater."
+            },
+            {
+              "issue": "8",
+              "key": "1355_CR59",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.3390/polym17081108",
+              "volume": "17",
+              "author": "I Malashin",
+              "year": "2025",
+              "unstructured": "I. Malashin et al., Physics-informed neural networks in polymers: a review. Polymers 17(8), 1108 (2025). https://doi.org/10.3390/polym17081108",
+              "journal-title": "Polymers"
+            },
+            {
+              "key": "1355_CR60",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1038/s41467-019-10009-2",
+              "volume": "10",
+              "author": "AA Martin",
+              "year": "2019",
+              "unstructured": "A.A. Martin, N.P. Calta, S.A. Khairallah, J. Wang, P.J. Depond, A.Y. Fong, V. Thampy, G. Guss, M.J. Matthews, Dynamics of pore formation during laser powder bed fusion additive manufacturing. Nat. Commun. 10, 1987 (2019). https://doi.org/10.1038/s41467-019-10009-2",
+              "journal-title": "Nat. Commun."
+            },
+            {
+              "issue": "1",
+              "key": "1355_CR61",
+              "doi-asserted-by": "publisher",
+              "first-page": "201",
+              "DOI": "10.1016/j.cirp.2016.04.054",
+              "volume": "65",
+              "author": "WW Wits",
+              "year": "2016",
+              "unstructured": "W.W. Wits, S. Carmignato, F. Zanini, T.H.J. Vaneker, Porosity testing methods for metal additive manufacturing. CIRP Ann. 65(1), 201–204 (2016). https://doi.org/10.1016/j.cirp.2016.04.054",
+              "journal-title": "CIRP Ann."
+            },
+            {
+              "key": "1355_CR62",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1038/s41598-017-03761-2",
+              "volume": "7",
+              "author": "C Zhao",
+              "year": "2017",
+              "unstructured": "C. Zhao, K. Fezzaa, R.W. Cunningham, H. Wen, F. De Carlo, L. Chen, A.D. Rollett, T. Sun, Real-time monitoring of laser powder bed fusion process using high-speed X-ray imaging and diffraction. Sci. Rep. 7, 3602 (2017). https://doi.org/10.1038/s41598-017-03761-2",
+              "journal-title": "Sci. Rep."
+            },
+            {
+              "key": "1355_CR63",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1007/s44245-025-00144-0",
+              "volume": "4",
+              "author": "A Karkadakattil",
+              "year": "2025",
+              "unstructured": "A. Karkadakattil, Geometry aware laser polishing of LPBF AlSi10Mg defence components with physics inspired neural network based surface roughness prediction. Discov Mechanical Engineering 4, 52 (2025). https://doi.org/10.1007/s44245-025-00144-0",
+              "journal-title": "Discov Mechanical Engineering"
+            },
+            {
+              "key": "1355_CR64",
+              "doi-asserted-by": "publisher",
+              "unstructured": "A. Karkadakattil, Physics-informed machine learning framework for grain size prediction in laser-processed 316L stainless steel: integration of experimental microstructure and surrogate data. Can. Metall. Q. 1–14 (2025). https://doi.org/10.1080/00084433.2025.2593051",
+              "DOI": "10.1080/00084433.2025.2593051"
+            },
+            {
+              "key": "1355_CR65",
+              "doi-asserted-by": "publisher",
+              "unstructured": "A. Karakadakattil, (2025). Metal Additive Manufacturing Defect Formation and Mitigation: Shrinkage Dynamics, Porosity Control, In-Situ Monitoring, and Post-Processing Strategies. Preprints. https://doi.org/10.20944/preprints202512.0586.v2",
+              "DOI": "10.20944/preprints202512.0586.v2"
+            },
+            {
+              "key": "1355_CR66",
+              "doi-asserted-by": "publisher",
+              "unstructured": "A. Karakadakattil, (2025). Physics-Guided Surrogate Modelling for Microhardness Prediction in LPBF 316L Using Thermal-Gradient and Energy-Density Features. Preprints. https://doi.org/10.20944/preprints202512.2472.v1",
+              "DOI": "10.20944/preprints202512.2472.v1"
+            }
+          ],
+          "container-title": [
+            "Journal of The Institution of Engineers (India): Series C"
+          ],
+          "language": "en",
+          "link": [
+            {
+              "URL": "https://link.springer.com/content/pdf/10.1007/s40032-026-01355-4.pdf",
+              "content-type": "application/pdf",
+              "content-version": "vor",
+              "intended-application": "text-mining"
+            },
+            {
+              "URL": "https://link.springer.com/article/10.1007/s40032-026-01355-4",
+              "content-type": "text/html",
+              "content-version": "vor",
+              "intended-application": "text-mining"
+            },
+            {
+              "URL": "https://link.springer.com/content/pdf/10.1007/s40032-026-01355-4.pdf",
+              "content-type": "application/pdf",
+              "content-version": "vor",
+              "intended-application": "similarity-checking"
+            }
+          ],
+          "deposited": {
+            "date-parts": [
+              [
+                2026,
+                4,
+                4
+              ]
+            ],
+            "date-time": "2026-04-04T05:53:45Z",
+            "timestamp": 1775282025000
+          },
+          "score": 28.482006,
+          "resource": {
+            "primary": {
+              "URL": "https://link.springer.com/10.1007/s40032-026-01355-4"
+            }
+          },
+          "issued": {
+            "date-parts": [
+              [
+                2026,
+                3,
+                9
+              ]
+            ]
+          },
+          "references-count": 66,
+          "journal-issue": {
+            "issue": "2",
+            "published-print": {
+              "date-parts": [
+                [
+                  2026,
+                  4
+                ]
+              ]
+            }
+          },
+          "alternative-id": [
+            "1355"
+          ],
+          "URL": "https://doi.org/10.1007/s40032-026-01355-4",
+          "ISSN": [
+            "2250-0545",
+            "2250-0553"
+          ],
+          "issn-type": [
+            {
+              "value": "2250-0545",
+              "type": "print"
+            },
+            {
+              "value": "2250-0553",
+              "type": "electronic"
+            }
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2026,
+                3,
+                9
+              ]
+            ]
+          },
+          "assertion": [
+            {
+              "value": "30 October 2025",
+              "order": 1,
+              "name": "received",
+              "label": "Received",
+              "group": {
+                "name": "ArticleHistory",
+                "label": "Article History"
+              }
+            },
+            {
+              "value": "1 March 2026",
+              "order": 2,
+              "name": "accepted",
+              "label": "Accepted",
+              "group": {
+                "name": "ArticleHistory",
+                "label": "Article History"
+              }
+            },
+            {
+              "value": "9 March 2026",
+              "order": 3,
+              "name": "first_online",
+              "label": "First Online",
+              "group": {
+                "name": "ArticleHistory",
+                "label": "Article History"
+              }
+            },
+            {
+              "order": 1,
+              "name": "Ethics",
+              "group": {
+                "name": "EthicsHeading",
+                "label": "Declarations"
+              }
+            },
+            {
+              "value": "Not applicable.",
+              "order": 2,
+              "name": "Ethics",
+              "group": {
+                "name": "EthicsHeading",
+                "label": "Ethics Approval and Consent to Participate"
+              }
+            },
+            {
+              "value": "The author declares no competing financial or non-financial interests.",
+              "order": 3,
+              "name": "Ethics",
+              "group": {
+                "name": "EthicsHeading",
+                "label": "Competing Interests"
+              }
+            },
+            {
+              "value": "Not applicable.",
+              "order": 4,
+              "name": "Ethics",
+              "group": {
+                "name": "EthicsHeading",
+                "label": "Consent to Publish"
+              }
+            },
+            {
+              "value": "Not applicable.",
+              "order": 5,
+              "name": "Ethics",
+              "group": {
+                "name": "EthicsHeading",
+                "label": "Consent to Participate"
+              }
+            }
+          ]
+        },
+        {
+          "institution": [
+            {
+              "name": "Research Square"
+            }
+          ],
+          "indexed": {
+            "date-parts": [
+              [
+                2025,
+                6,
+                20
+              ]
+            ],
+            "date-time": "2025-06-20T04:11:02Z",
+            "timestamp": 1750392662623,
+            "version": "3.41.0"
+          },
+          "posted": {
+            "date-parts": [
+              [
+                2025,
+                6,
+                20
+              ]
+            ]
+          },
+          "group-title": "In Review",
+          "reference-count": 0,
+          "publisher": "Springer Science and Business Media LLC",
+          "license": [
+            {
+              "start": {
+                "date-parts": [
+                  [
+                    2025,
+                    6,
+                    20
+                  ]
+                ],
+                "date-time": "2025-06-20T00:00:00Z",
+                "timestamp": 1750377600000
+              },
+              "content-version": "unspecified",
+              "delay-in-days": 0,
+              "URL": "https://creativecommons.org/licenses/by/4.0/"
+            }
+          ],
+          "content-domain": {
+            "domain": [],
+            "crossmark-restriction": false
+          },
+          "accepted": {
+            "date-parts": [
+              [
+                2025,
+                6,
+                18
+              ]
+            ]
+          },
+          "abstract": "",
+          "DOI": "10.21203/rs.3.rs-6925960/v1",
+          "type": "posted-content",
+          "created": {
+            "date-parts": [
+              [
+                2025,
+                6,
+                20
+              ]
+            ],
+            "date-time": "2025-06-20T02:11:45Z",
+            "timestamp": 1750385505000
+          },
+          "source": "Crossref",
+          "is-referenced-by-count": 0,
+          "title": [
+            "Optimization of processing parameters in metal additive manufacturing"
+          ],
+          "prefix": "10.21203",
+          "author": [
+            {
+              "given": "Wei",
+              "family": "Huang",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            }
+          ],
+          "member": "297",
+          "link": [
+            {
+              "URL": "https://www.researchsquare.com/article/rs-6925960/v1",
+              "content-type": "text/html",
+              "content-version": "vor",
+              "intended-application": "text-mining"
+            },
+            {
+              "URL": "https://www.researchsquare.com/article/rs-6925960/v1.html",
+              "content-type": "unspecified",
+              "content-version": "vor",
+              "intended-application": "similarity-checking"
+            }
+          ],
+          "deposited": {
+            "date-parts": [
+              [
+                2025,
+                6,
+                20
+              ]
+            ],
+            "date-time": "2025-06-20T02:11:45Z",
+            "timestamp": 1750385505000
+          },
+          "score": 28.355831,
+          "resource": {
+            "primary": {
+              "URL": "https://www.researchsquare.com/article/rs-6925960/v1"
+            }
+          },
+          "issued": {
+            "date-parts": [
+              [
+                2025,
+                6,
+                20
+              ]
+            ]
+          },
+          "references-count": 0,
+          "URL": "https://doi.org/10.21203/rs.3.rs-6925960/v1",
+          "published": {
+            "date-parts": [
+              [
+                2025,
+                6,
+                20
+              ]
+            ]
+          },
+          "subtype": "preprint"
+        }
+      ],
+      "items-per-page": 3,
+      "query": {
+        "start-index": 0,
+        "search-terms": null
+      }
+    }
+  }
+}

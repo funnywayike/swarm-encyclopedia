@@ -1,0 +1,1960 @@
+{
+  "retrieved": "2026-10-16",
+  "url": "https://api.crossref.org/works/10.1016/j.envsoft.2026.107051",
+  "response": {
+    "status": "ok",
+    "message-type": "work",
+    "message-version": "1.0.0",
+    "message": {
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            7,
+            30
+          ]
+        ],
+        "date-time": "2026-07-30T15:02:56Z",
+        "timestamp": 1785423776801,
+        "version": "3.56.0"
+      },
+      "reference-count": 164,
+      "publisher": "Elsevier BV",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2026,
+                9,
+                1
+              ]
+            ],
+            "date-time": "2026-09-01T00:00:00Z",
+            "timestamp": 1788220800000
+          },
+          "content-version": "tdm",
+          "delay-in-days": 0,
+          "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+        },
+        {
+          "start": {
+            "date-parts": [
+              [
+                2026,
+                9,
+                1
+              ]
+            ],
+            "date-time": "2026-09-01T00:00:00Z",
+            "timestamp": 1788220800000
+          },
+          "content-version": "tdm",
+          "delay-in-days": 0,
+          "URL": "https://www.elsevier.com/legal/tdmrep-license"
+        },
+        {
+          "start": {
+            "date-parts": [
+              [
+                2026,
+                6,
+                5
+              ]
+            ],
+            "date-time": "2026-06-05T00:00:00Z",
+            "timestamp": 1780617600000
+          },
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "URL": "http://creativecommons.org/licenses/by-nc-nd/4.0/"
+        }
+      ],
+      "funder": [
+        {
+          "DOI": "10.13039/501100000780",
+          "name": "European Commission",
+          "doi-asserted-by": "publisher",
+          "id": [
+            {
+              "id": "10.13039/501100000780",
+              "id-type": "DOI",
+              "asserted-by": "publisher"
+            }
+          ]
+        },
+        {
+          "DOI": "10.13039/100018703",
+          "name": "European Innovation Council",
+          "doi-asserted-by": "publisher",
+          "award": [
+            "101070080"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "101070080"
+              ]
+            }
+          ],
+          "id": [
+            {
+              "id": "10.13039/100018703",
+              "id-type": "DOI",
+              "asserted-by": "publisher"
+            }
+          ]
+        }
+      ],
+      "content-domain": {
+        "domain": [
+          "elsevier.com",
+          "sciencedirect.com"
+        ],
+        "crossmark-restriction": true
+      },
+      "short-container-title": [
+        "Environmental Modelling &amp; Software"
+      ],
+      "published-print": {
+        "date-parts": [
+          [
+            2026,
+            9
+          ]
+        ]
+      },
+      "DOI": "10.1016/j.envsoft.2026.107051",
+      "type": "journal-article",
+      "created": {
+        "date-parts": [
+          [
+            2026,
+            6,
+            5
+          ]
+        ],
+        "date-time": "2026-06-05T15:45:04Z",
+        "timestamp": 1780674304000
+      },
+      "page": "107051",
+      "update-policy": "https://doi.org/10.1016/elsevier_cm_policy",
+      "source": "Crossref",
+      "is-referenced-by-count": 0,
+      "special_numbering": "C",
+      "title": [
+        "A review of optimization systems and methods for wastewater treatment plants operation"
+      ],
+      "prefix": "10.1016",
+      "volume": "204",
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0009-0007-9525-9144",
+          "authenticated-orcid": false,
+          "given": "Cristina",
+          "family": "Rodríguez-García",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0009-0000-7880-0348",
+          "authenticated-orcid": false,
+          "given": "César",
+          "family": "Arenas-Prado",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0001-9958-9799",
+          "authenticated-orcid": false,
+          "given": "Saioa",
+          "family": "Arrizabalaga",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0001-5492-862X",
+          "authenticated-orcid": false,
+          "given": "Beñat",
+          "family": "Elduayen-Echave",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0003-3769-5419",
+          "authenticated-orcid": false,
+          "given": "Luis V.",
+          "family": "Varcárcel",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-4575-5082",
+          "authenticated-orcid": false,
+          "given": "Ricardo",
+          "family": "Rodríguez-Jorge",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0001-6935-1835",
+          "authenticated-orcid": false,
+          "given": "Itxaro",
+          "family": "Errandonea",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "78",
+      "reference": [
+        {
+          "key": "10.1016/j.envsoft.2026.107051_b1",
+          "article-title": "Energy consumption optimization in wastewater treatment plants: Machine learning for monitoring incineration of sewage sludge",
+          "volume": "56",
+          "author": "Adibimanesh",
+          "year": "2023",
+          "journal-title": "Sustain. Energy Technol. Assess."
+        },
+        {
+          "key": "10.1016/j.envsoft.2026.107051_b2",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1016/j.biortech.2020.123059",
+          "article-title": "Optimizing nutrient removal of moving bed biofilm reactor process using response surface methodology",
+          "volume": "305",
+          "author": "Almomani",
+          "year": "2020",
+          "journal-title": "Bioresour. Technol."
+        },
+        {
+          "key": "10.1016/j.envsoft.2026.107051_b3",
+          "series-title": "Deep learning in wastewater treatment: a critical review",
+          "author": "Alvi",
+          "year": "2023"
+        },
+        {
+          "issue": "11",
+          "key": "10.1016/j.envsoft.2026.107051_b4",
+          "doi-asserted-by": "crossref",
+          "first-page": "2374",
+          "DOI": "10.2166/wst.2013.139",
+          "article-title": "Aeration control–a review",
+          "volume": "67",
+          "author": "Åmand",
+          "year": "2013",
+          "journal-title": "Water Sci. Technol."
+        },
+        {
+          "key": "10.1016/j.envsoft.2026.107051_b5",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1016/j.jwpe.2023.103775",
+          "article-title": "Dynamic optimization of a wastewater treatment process for sustainable operation using multi-objective genetic algorithm and non-dominated sorting cuckoo search algorithm",
+          "volume": "53",
+          "author": "Aparna",
+          "year": "2023",
+          "journal-title": "J. Water Process. Eng."
+        },
+        {
+          "key": "10.1016/j.envsoft.2026.107051_b6",
+          "article-title": "A prescriptive intelligent system for an industrial wastewater treatment process: Analyzing Ph as a first approach",
+          "volume": "13",
+          "author": "Arismendy",
+          "year": "2021",
+          "journal-title": "Sustain. (Switz.)"
+        },
+        {
+          "key": "10.1016/j.envsoft.2026.107051_b7",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1016/j.jenvman.2021.112875",
+          "article-title": "Biogas maximization using data-driven modelling with uncertainty analysis and genetic algorithm for municipal wastewater anaerobic digestion",
+          "volume": "293",
+          "author": "Asadi",
+          "year": "2021",
+          "journal-title": "J. Environ. Manag."
+        },
+        {
+          "key": "10.1016/j.envsoft.2026.107051_b8",
+          "doi-asserted-by": "crossref",
+          "first-page": "630",
+          "DOI": "10.1016/j.jenvman.2016.07.047",
+          "article-title": "Wastewater treatment aeration process optimization: A data mining approach",
+          "volume": "203",
+          "author": "Asadi",
+          "year": "2017",
+          "journal-title": "J. Environ. Manag."
+        },
+        {
+          "key": "10.1016/j.envsoft.2026.107051_b9",
+          "article-title": "Methodology for energy optimization in wastewater treatment plants. Phase I: Control of the best operating conditions",
+          "volume": "11",
+          "author": "Avilés",
+          "year": "2019",
+          "journal-title": "Sustain. (Switz.)"
+        },
+        {
+          "key": "10.1016/j.envsoft.2026.107051_b10",
+          "first-page": "1",
+          "article-title": "Methodology for energy optimization in wastewater treatment plants. Phase iii: Implementation of an integral control system for the aeration stage in the biological process of activated sludge and the membrane biological reactor",
+          "volume": "20",
+          "author": "Avilés",
+          "year": "2020",
+          "journal-title": "Sens. (Switz.)"
+        },
+        {
+          "key": "10.1016/j.envsoft.2026.107051_b11",
+          "doi-asserted-by": "crossref",
+          "first-page": "657",
+          "DOI": "10.3390/app8050657",
+          "article-title": "One layer nonlinear economic closed-loop generalized predictive control for a wastewater treatment plant",
+          "volume": "8",
+          "author": "Bahja",
+          "year": "2018",
+          "journal-title": "Appl. Sci."
+        },
+        {
+          "key": "10.1016/j.envsoft.2026.107051_b12",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.3390/pr10091821",
+          "article-title": "Integrating dynamic economic optimization and nonlinear closed-loop GPC: Application to a WWTP",
+          "volume": "10",
+          "author": "Bahja",
+          "year": "2022",
+          "journal-title": "Processes"
+        },
+        {
+          "key": "10.1016/j.envsoft.2026.107051_b13",
+          "series-title": "Data to intelligence: The role of data-driven models in wastewater treatment",
+          "author": "Bahramian",
+          "year": "2023"
+        },
+        {
+          "issue": "7",
+          "key": "10.1016/j.envsoft.2026.107051_b14",
+          "doi-asserted-by": "crossref",
+          "first-page": "1481",
+          "DOI": "10.2166/wst.2013.004",
+          "article-title": "Biological nutrient removal model no. 2 (BNRM2): a general model for wastewater treatment plants",
+          "volume": "67",
+          "author": "Barat",
+          "year": "2013",
+          "journal-title": "Water Sci. Technol."
+        },
+        {
+          "issue": "10",
+          "key": "10.1016/j.envsoft.2026.107051_b15",
+          "doi-asserted-by": "crossref",
+          "first-page": "65",
+          "DOI": "10.2166/wst.2002.0292",
+          "article-title": "The IWA anaerobic digestion model no 1 (ADM1)",
+          "volume": "45",
+          "author": "Batstone",
+          "year": "2002",
+          "journal-title": "Water Sci. Technol."
+        },
+        {
+          "key": "10.1016/j.envsoft.2026.107051_b16",
+          "doi-asserted-by": "crossref",
+          "first-page": "17972",
+          "DOI": "10.1007/s11356-020-08277-3",
+          "article-title": "Energy optimization of a wastewater treatment plant based on energy audit data: small investment with high return",
+          "volume": "27",
+          "author": "Borzooei",
+          "year": "2020",
+          "journal-title": "Environ. Sci. Pollut. Res."
+        },
+        {
+          "key": "10.1016/j.envsoft.2026.107051_b17",
+          "doi-asserted-by": "crossref",
+          "first-page": "1541",
+          "DOI": "10.2166/wst.2020.220",
+          "article-title": "Application of unsupervised learning and process simulation for energy optimization of a WWTP under various weather conditions",
+          "volume": "81",
+          "author": "Borzooei",
+          "year": "2020",
+          "journal-title": "Water Sci. Technol."
+        },
+        {
+          "key": "10.1016/j.envsoft.2026.107051_b18",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1016/j.apenergy.2020.115965",
+          "article-title": "Unlocking energy flexibility of municipal wastewater aeration using predictive control to exploit price differences in power markets",
+          "volume": "280",
+          "author": "Brok",
+          "year": "2020",
+          "journal-title": "Appl. Energy"
+        },
+        {
+          "key": "10.1016/j.envsoft.2026.107051_b19",
+          "doi-asserted-by": "crossref",
+          "first-page": "3370",
+          "DOI": "10.1111/itor.13129",
+          "article-title": "A system-level optimization framework for efficiency and effectiveness improvement of wastewater treatment plants",
+          "volume": "29",
+          "author": "Camanho",
+          "year": "2022",
+          "journal-title": "Int. Trans. Oper. Res."
+        },
+        {
+          "key": "10.1016/j.envsoft.2026.107051_b20",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.3390/pr8101203",
+          "article-title": "Optimal-setpoint-based control strategy of a wastewater treatment process",
+          "volume": "8",
+          "author": "Caraman",
+          "year": "2020",
+          "journal-title": "Processes"
+        },
+        {
+          "key": "10.1016/j.envsoft.2026.107051_b21",
+          "series-title": "Optimization Methods: From Theory to Design Scientific and Technological Aspects in Mechanics",
+          "author": "Cavazzuti",
+          "year": "2012"
+        },
+        {
+          "key": "10.1016/j.envsoft.2026.107051_b22",
+          "doi-asserted-by": "crossref",
+          "first-page": "5418",
+          "DOI": "10.1109/TNNLS.2022.3192246",
+          "article-title": "A Dimensionality-Reducible operational optimal control for wastewater treatment process",
+          "volume": "34",
+          "author": "Chen",
+          "year": "2023",
+          "journal-title": "IEEE Trans. Neural Netw. Learn. Syst."
+        },
+        {
+          "key": "10.1016/j.envsoft.2026.107051_b23",
+          "doi-asserted-by": "crossref",
+          "first-page": "492",
+          "DOI": "10.1016/j.cej.2014.08.087",
+          "article-title": "Optimal strategies evaluated by multi-objective optimization method for improving the performance of a novel cycle operating activated sludge process",
+          "volume": "260",
+          "author": "Chen",
+          "year": "2015",
+          "journal-title": "Chem. Eng. J."
+        },
+        {
+          "key": "10.1016/j.envsoft.2026.107051_b24",
+          "series-title": "2023 9th International Conference on Information, Cybernetics, and Computational Social Systems, ICCSS 2023",
+          "first-page": "12",
+          "article-title": "Eigenvector based multiobjective model predictive control for wastewater treatment process",
+          "author": "Chen",
+          "year": "2023"
+        },
+        {
+          "key": "10.1016/j.envsoft.2026.107051_b25",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1016/j.chemosphere.2021.130498",
+          "article-title": "Optimal control towards sustainable wastewater treatment plants based on multi-agent reinforcement learning",
+          "volume": "279",
+          "author": "Chen",
+          "year": "2021",
+          "journal-title": "Chemosphere"
+        },
+        {
+          "key": "10.1016/j.envsoft.2026.107051_b26",
+          "series-title": "The particle swarm-explosion, stability, and convergence in a multidimensional complex space",
+          "author": "Clerc",
+          "year": "2002"
+        },
+        {
+          "key": "10.1016/j.envsoft.2026.107051_b27",
+          "series-title": "Directive (EU) 2024/3019 of the European Parliament and of the Council of 27 November 2024 concerning urban wastewater treatment",
+          "author": "Commission",
+          "year": "2024"
+        },
+        {
+          "key": "10.1016/j.envsoft.2026.107051_b28",
+          "series-title": "COST Action 624 – The COST Simulation Benchmark – Description and Simulator Manual – A Product of COST Action 624 and COST Action 682",
+          "author": "Copp",
+          "year": "2002"
+        },
+        {
+          "key": "10.1016/j.envsoft.2026.107051_b29",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Copp, J.B., Jeppsson, U., Rosen, C., 2003. Towards an ASM1-ADM1 state variable interface for plant-wide wastewater treatment modeling. In: Proceedings 76th Annual WEF Conference and Exposition. Los Angeles, USA, pp. 498–510.",
+          "DOI": "10.2175/193864703784641207"
+        },
+        {
+          "key": "10.1016/j.envsoft.2026.107051_b30",
+          "doi-asserted-by": "crossref",
+          "first-page": "89",
+          "DOI": "10.1016/j.envsoft.2017.11.023",
+          "article-title": "Transforming data into knowledge for improved wastewater treatment operation: A critical review of techniques",
+          "volume": "106",
+          "author": "Corominas",
+          "year": "2018",
+          "journal-title": "Environ. Model. Softw."
+        },
+        {
+          "key": "10.1016/j.envsoft.2026.107051_b31",
+          "doi-asserted-by": "crossref",
+          "first-page": "223",
+          "DOI": "10.2166/wst.2015.489",
+          "article-title": "The application of multi-objective optimization method for activated sludge process: A review",
+          "volume": "73",
+          "author": "Dai",
+          "year": "2016",
+          "journal-title": "Water Sci. Technol."
+        },
+        {
+          "key": "10.1016/j.envsoft.2026.107051_b32",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1016/j.jece.2023.109484",
+          "article-title": "Optimal control of sewage treatment process using a dynamic multi-objective particle swarm optimization based on crowding distance",
+          "volume": "11",
+          "author": "Dai",
+          "year": "2023",
+          "journal-title": "J. Environ. Chem. Eng."
+        },
+        {
+          "key": "10.1016/j.envsoft.2026.107051_b33",
+          "article-title": "Control and soft sensing strategies for a wastewater treatment plant using a neuro-genetic approach",
+          "volume": "144",
+          "author": "de Canete",
+          "year": "2021",
+          "journal-title": "Comput. Chem. Eng."
+        },
+        {
+          "key": "10.1016/j.envsoft.2026.107051_b34",
+          "doi-asserted-by": "crossref",
+          "first-page": "394",
+          "DOI": "10.1016/j.cherd.2016.09.005",
+          "article-title": "Feasibility of rigorous multi-objective optimization of wastewater management and treatment plants",
+          "volume": "115",
+          "author": "de Faria",
+          "year": "2016",
+          "journal-title": "Chem. Eng. Res. Des."
+        },
+        {
+          "key": "10.1016/j.envsoft.2026.107051_b35",
+          "series-title": "A fast and elitist multiobjective genetic algorithm: NSGA-II",
+          "author": "Deb",
+          "year": "2002"
+        },
+        {
+          "key": "10.1016/j.envsoft.2026.107051_b36",
+          "doi-asserted-by": "crossref",
+          "first-page": "188",
+          "DOI": "10.1016/j.psep.2022.12.005",
+          "article-title": "Multi-objective pity beetle algorithm based optimal control of wastewater treatment process",
+          "volume": "170",
+          "author": "Du",
+          "year": "2023",
+          "journal-title": "Process. Saf. Environ. Prot."
+        },
+        {
+          "key": "10.1016/j.envsoft.2026.107051_b37",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1016/j.watres.2020.116133",
+          "article-title": "Modeling the anaerobic treatment of sulfate-rich urban wastewater: Application to AnMBR technology",
+          "volume": "184",
+          "author": "Durán",
+          "year": "2020",
+          "journal-title": "Water Res."
+        },
+        {
+          "issue": "8",
+          "key": "10.1016/j.envsoft.2026.107051_b38",
+          "doi-asserted-by": "crossref",
+          "first-page": "2101",
+          "DOI": "10.1016/j.watres.2009.01.036",
+          "article-title": "Using bioprocess stoichiometry to build a plant-wide mass balance based steady-state WWTP model",
+          "volume": "43",
+          "author": "Ekama",
+          "year": "2009",
+          "journal-title": "Water Res."
+        },
+        {
+          "key": "10.1016/j.envsoft.2026.107051_b39",
+          "doi-asserted-by": "crossref",
+          "first-page": "393",
+          "DOI": "10.2166/wrd.2017.200",
+          "article-title": "Optimized biological nitrogen removal of high-strength ammonium wastewater by activated sludge modeling",
+          "volume": "8",
+          "author": "Elawwad",
+          "year": "2018",
+          "journal-title": "J. Water Reuse Desalination"
+        },
+        {
+          "key": "10.1016/j.envsoft.2026.107051_b40",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1016/j.jwpe.2019.100819",
+          "article-title": "Plant-wide modeling and optimization of a large-scale WWTP using BioWin’s ASDM model",
+          "volume": "31",
+          "author": "Elawwad",
+          "year": "2019",
+          "journal-title": "J. Water Process. Eng."
+        },
+        {
+          "key": "10.1016/j.envsoft.2026.107051_b41",
+          "series-title": "Control technologies of wastewater treatment plants: The state-of-the-art, current challenges, and future directions",
+          "author": "Faisal",
+          "year": "2023"
+        },
+        {
+          "key": "10.1016/j.envsoft.2026.107051_b42",
+          "doi-asserted-by": "crossref",
+          "first-page": "224",
+          "DOI": "10.1016/j.jes.2016.08.008",
+          "article-title": "Aeration optimization through operation at low dissolved oxygen concentrations: Evaluation of oxygen mass transfer dynamics in different activated sludge systems",
+          "volume": "55",
+          "author": "Fan",
+          "year": "2017",
+          "journal-title": "J. Environ. Sci. (China)"
+        },
+        {
+          "key": "10.1016/j.envsoft.2026.107051_b43",
+          "doi-asserted-by": "crossref",
+          "first-page": "272",
+          "DOI": "10.1016/j.watres.2017.04.001",
+          "article-title": "Quantitative assessment of energy and resource recovery in wastewater treatment plants based on plant-wide simulations",
+          "volume": "118",
+          "author": "Fernández-Arévalo",
+          "year": "2017",
+          "journal-title": "Water Res."
+        },
+        {
+          "key": "10.1016/j.envsoft.2026.107051_b44",
+          "doi-asserted-by": "crossref",
+          "first-page": "283",
+          "DOI": "10.1016/j.watres.2016.09.043",
+          "article-title": "Optimising the anaerobic co-digestion of urban organic waste using dynamic bioconversion mathematical modelling",
+          "volume": "106",
+          "author": "Fitamo",
+          "year": "2016",
+          "journal-title": "Water Res."
+        },
+        {
+          "key": "10.1016/j.envsoft.2026.107051_b45",
+          "series-title": "Practical Methods of Optimization",
+          "author": "Fletcher",
+          "year": "2000"
+        },
+        {
+          "key": "10.1016/j.envsoft.2026.107051_b46",
+          "doi-asserted-by": "crossref",
+          "first-page": "1703",
+          "DOI": "10.1016/B978-0-444-63577-8.50129-7",
+          "article-title": "Model predictive control for the Self-optimized operation in wastewater treatment plants",
+          "volume": "37",
+          "author": "Francisco",
+          "year": "2015",
+          "journal-title": "Comput. Aided Chem. Eng."
+        },
+        {
+          "key": "10.1016/j.envsoft.2026.107051_b47",
+          "doi-asserted-by": "crossref",
+          "first-page": "259",
+          "DOI": "10.1016/j.compchemeng.2015.07.003",
+          "article-title": "Model predictive control for the self-optimized operation in wastewater treatment plants: Analysis of dynamic issues",
+          "volume": "82",
+          "author": "Francisco",
+          "year": "2015",
+          "journal-title": "Comput. Chem. Eng."
+        },
+        {
+          "key": "10.1016/j.envsoft.2026.107051_b48",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Francisco, M., Vega, P., Skogestad, S., 2015. Nonlinear offset free MPC for self-optimizing control in wastewater treatment plants. In: 2015 19th International Conference on System Theory, Control and Computing. ICSTCC, ISBN: 9781479984817, pp. 390–395.",
+          "DOI": "10.1109/ICSTCC.2015.7321325"
+        },
+        {
+          "key": "10.1016/j.envsoft.2026.107051_b49",
+          "series-title": "2019 IEEE XVth International Conference on the Perspective Technologies and Methods in MEMS Design",
+          "first-page": "119",
+          "article-title": "Optimization of biological wastewater treatment process by hierarchical adaptive control",
+          "author": "Gaska",
+          "year": "2019"
+        },
+        {
+          "key": "10.1016/j.envsoft.2026.107051_b50",
+          "series-title": "Environmental Modelling and Software",
+          "first-page": "763",
+          "article-title": "Activated sludge wastewater treatment plant modelling and simulation: State of the art",
+          "volume": "Vol. 19",
+          "author": "Gernaey",
+          "year": "2004"
+        },
+        {
+          "key": "10.1016/j.envsoft.2026.107051_b51",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1016/j.heliyon.2023.e19781",
+          "article-title": "Performance enhancement of up-flow anaerobic sludge blanket reactor for psychrophilic temperature during the dry season: Kality wastewater treatment plant",
+          "volume": "9",
+          "author": "Girma",
+          "year": "2023",
+          "journal-title": "Heliyon"
+        },
+        {
+          "issue": "19",
+          "key": "10.1016/j.envsoft.2026.107051_b52",
+          "doi-asserted-by": "crossref",
+          "first-page": "4357",
+          "DOI": "10.1016/j.watres.2007.06.019",
+          "article-title": "A new plant-wide modelling methodology for WWTPs",
+          "volume": "41",
+          "author": "Grau",
+          "year": "2007",
+          "journal-title": "Water Res."
+        },
+        {
+          "key": "10.1016/j.envsoft.2026.107051_b53",
+          "series-title": "2016 21st International Conference on Methods and Models in Automation and Robotics",
+          "first-page": "613",
+          "article-title": "Supervised model predictive control of wastewater treatment plant",
+          "author": "Grochowski",
+          "year": "2016"
+        },
+        {
+          "key": "10.1016/j.envsoft.2026.107051_b54",
+          "series-title": "Optimization and control strategies of aeration in WWTPs: A review",
+          "author": "Gu",
+          "year": "2023"
+        },
+        {
+          "issue": "1",
+          "key": "10.1016/j.envsoft.2026.107051_b55",
+          "doi-asserted-by": "crossref",
+          "first-page": "183",
+          "DOI": "10.2166/wst.1999.0039",
+          "article-title": "Activated sludge model no. 3",
+          "volume": "39",
+          "author": "Gujer",
+          "year": "1999",
+          "journal-title": "Water Sci. Technol."
+        },
+        {
+          "issue": "2",
+          "key": "10.1016/j.envsoft.2026.107051_b56",
+          "doi-asserted-by": "crossref",
+          "first-page": "1",
+          "DOI": "10.2166/wst.1995.0061",
+          "article-title": "The activated sludge model no. 2: biological phosphorus removal",
+          "volume": "31",
+          "author": "Gujer",
+          "year": "1995",
+          "journal-title": "Water Sci. Technol."
+        },
+        {
+          "key": "10.1016/j.envsoft.2026.107051_b57",
+          "doi-asserted-by": "crossref",
+          "first-page": "747",
+          "DOI": "10.3233/AIC-160714",
+          "article-title": "Do machine learning methods used in data mining enhance the potential of decision support systems? A review for the urban water sector",
+          "volume": "29",
+          "author": "Hadjimichael",
+          "year": "2016",
+          "journal-title": "AI Commun."
+        },
+        {
+          "key": "10.1016/j.envsoft.2026.107051_b58",
+          "doi-asserted-by": "crossref",
+          "first-page": "2073",
+          "DOI": "10.1080/01605682.2020.1768809",
+          "article-title": "Task-based visual analytics for interactive multiobjective optimization",
+          "volume": "72",
+          "author": "Hakanen",
+          "year": "2021",
+          "journal-title": "J. Oper. Res. Soc."
+        },
+        {
+          "key": "10.1016/j.envsoft.2026.107051_b59",
+          "doi-asserted-by": "crossref",
+          "first-page": "44",
+          "DOI": "10.1016/j.jprocont.2022.09.007",
+          "article-title": "Adaptive multi-task optimization strategy for wastewater treatment process",
+          "volume": "119",
+          "author": "Han",
+          "year": "2022",
+          "journal-title": "J. Process Control"
+        },
+        {
+          "key": "10.1016/j.envsoft.2026.107051_b60",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1016/j.conengprac.2022.105296",
+          "article-title": "Multi-objective integrated optimal control for a wastewater treatment process",
+          "volume": "128",
+          "author": "Han",
+          "year": "2022",
+          "journal-title": "Control Eng. Pract."
+        },
+        {
+          "key": "10.1016/j.envsoft.2026.107051_b61",
+          "doi-asserted-by": "crossref",
+          "first-page": "2767",
+          "DOI": "10.1109/TII.2019.2940663",
+          "article-title": "Data-Driven multiobjective predictive control for wastewater treatment process",
+          "volume": "16",
+          "author": "Han",
+          "year": "2020",
+          "journal-title": "IEEE Trans. Ind. Inform."
+        },
+        {
+          "key": "10.1016/j.envsoft.2026.107051_b62",
+          "doi-asserted-by": "crossref",
+          "first-page": "2518",
+          "DOI": "10.1109/TCYB.2019.2925534",
+          "article-title": "Dynamic MOPSO-Based optimal control for wastewater treatment process",
+          "volume": "51",
+          "author": "Han",
+          "year": "2021",
+          "journal-title": "IEEE Trans. Cybern."
+        },
+        {
+          "key": "10.1016/j.envsoft.2026.107051_b63",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1109/TII.2024.3364835",
+          "article-title": "Mechanism-Data-Driven multiobjective optimization for wastewater treatment process",
+          "author": "Han",
+          "year": "2024",
+          "journal-title": "IEEE Trans. Ind. Inform."
+        },
+        {
+          "key": "10.1016/j.envsoft.2026.107051_b64",
+          "doi-asserted-by": "crossref",
+          "first-page": "47",
+          "DOI": "10.1016/j.jprocont.2013.12.010",
+          "article-title": "Nonlinear multiobjective model-predictive control scheme for wastewater treatment process",
+          "volume": "24",
+          "author": "Han",
+          "year": "2014",
+          "journal-title": "J. Process Control"
+        },
+        {
+          "key": "10.1016/j.envsoft.2026.107051_b65",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1109/TFUZZ.2024.3409175",
+          "article-title": "Adaptive robust fuzzy sliding mode control for wastewater treatment processes",
+          "author": "Han",
+          "year": "2024",
+          "journal-title": "IEEE Trans. Fuzzy Syst."
+        },
+        {
+          "key": "10.1016/j.envsoft.2026.107051_b66",
+          "doi-asserted-by": "crossref",
+          "first-page": "1485",
+          "DOI": "10.1007/s11431-020-1821-2",
+          "article-title": "Robust optimal control for anaerobic-anoxic-oxic reactors",
+          "volume": "64",
+          "author": "Han",
+          "year": "2021",
+          "journal-title": "Sci. China Technol. Sci."
+        },
+        {
+          "key": "10.1016/j.envsoft.2026.107051_b67",
+          "doi-asserted-by": "crossref",
+          "first-page": "5785",
+          "DOI": "10.1109/TII.2022.3189427",
+          "article-title": "Robust optimal control for wastewater treatment process with uncertain time delays",
+          "volume": "19",
+          "author": "Han",
+          "year": "2023",
+          "journal-title": "IEEE Trans. Ind. Inform."
+        },
+        {
+          "key": "10.1016/j.envsoft.2026.107051_b68",
+          "doi-asserted-by": "crossref",
+          "first-page": "467",
+          "DOI": "10.1016/j.asoc.2018.03.020",
+          "article-title": "Multiobjective design of fuzzy neural network controller for wastewater treatment process",
+          "volume": "67",
+          "author": "Han",
+          "year": "2018",
+          "journal-title": "Appl. Soft Comput. J."
+        },
+        {
+          "key": "10.1016/j.envsoft.2026.107051_b69",
+          "doi-asserted-by": "crossref",
+          "first-page": "3464",
+          "DOI": "10.1109/TSMC.2019.2927631",
+          "article-title": "Intelligent optimal control system with flexible objective functions and its applications in wastewater treatment process",
+          "volume": "51",
+          "author": "Han",
+          "year": "2021",
+          "journal-title": "IEEE Trans. Syst. Man Cybern.: Syst."
+        },
+        {
+          "key": "10.1016/j.envsoft.2026.107051_b70",
+          "doi-asserted-by": "crossref",
+          "first-page": "1907",
+          "DOI": "10.1109/TASE.2022.3189048",
+          "article-title": "Dynamic optimal control for wastewater treatment process under multiple operating conditions",
+          "volume": "20",
+          "author": "Han",
+          "year": "2023",
+          "journal-title": "IEEE Trans. Autom. Sci. Eng."
+        },
+        {
+          "key": "10.1016/j.envsoft.2026.107051_b71",
+          "article-title": "Activated sludge model no 1",
+          "volume": "29",
+          "author": "Henze",
+          "year": "1987",
+          "journal-title": "Water Sci. Technol."
+        },
+        {
+          "issue": "1",
+          "key": "10.1016/j.envsoft.2026.107051_b72",
+          "doi-asserted-by": "crossref",
+          "first-page": "165",
+          "DOI": "10.2166/wst.1999.0036",
+          "article-title": "Activated sludge model no.2d, ASM2D",
+          "volume": "39",
+          "author": "Henze",
+          "year": "1999",
+          "journal-title": "Water Sci. Technol."
+        },
+        {
+          "key": "10.1016/j.envsoft.2026.107051_b73",
+          "series-title": "Optimal design and operation of activated sludge processes: State-of-the-art",
+          "author": "Hreiz",
+          "year": "2015"
+        },
+        {
+          "key": "10.1016/j.envsoft.2026.107051_b74",
+          "doi-asserted-by": "crossref",
+          "first-page": "900",
+          "DOI": "10.1016/j.cej.2015.06.125",
+          "article-title": "Optimal design and operation of activated sludge processes: State-of-the-art",
+          "volume": "281",
+          "author": "Hreiz",
+          "year": "2015",
+          "journal-title": "Chem. Eng. J."
+        },
+        {
+          "key": "10.1016/j.envsoft.2026.107051_b75",
+          "doi-asserted-by": "crossref",
+          "first-page": "2495",
+          "DOI": "10.1016/B978-0-444-63576-1.50110-2",
+          "article-title": "Multi-objective optimization of small-size wastewater treatment plants operation",
+          "volume": "37",
+          "author": "Hreiz",
+          "year": "2015",
+          "journal-title": "Comput. Aided Chem. Eng."
+        },
+        {
+          "key": "10.1016/j.envsoft.2026.107051_b76",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1016/j.jclepro.2022.134818",
+          "article-title": "A hierarchical intelligent control strategy for greenhouse gas reduction in wastewater treatment process of paper mill",
+          "volume": "379",
+          "author": "Huang",
+          "year": "2022",
+          "journal-title": "J. Clean. Prod."
+        },
+        {
+          "issue": "2",
+          "key": "10.1016/j.envsoft.2026.107051_b77",
+          "doi-asserted-by": "crossref",
+          "first-page": "337",
+          "DOI": "10.1109/JAS.2019.1911372",
+          "article-title": "Advances in control technologies for wastewater treatment processes: status, challenges, and perspectives",
+          "volume": "6",
+          "author": "Iratni",
+          "year": "2019",
+          "journal-title": "IEEE/CAA J. Autom. Sin."
+        },
+        {
+          "key": "10.1016/j.envsoft.2026.107051_b78",
+          "doi-asserted-by": "crossref",
+          "first-page": "686",
+          "DOI": "10.11591/ijai.v12.i2.pp686-695",
+          "article-title": "Robustness enhancement study of augmented positive identification controller by a sigmoid function",
+          "volume": "12",
+          "author": "Issa",
+          "year": "2023",
+          "journal-title": "IAES Int. J. Artif. Intell."
+        },
+        {
+          "issue": "8",
+          "key": "10.1016/j.envsoft.2026.107051_b79",
+          "doi-asserted-by": "crossref",
+          "first-page": "67",
+          "DOI": "10.2166/wst.2007.604",
+          "article-title": "Benchmark simulation model no 2: general protocol and exploratory case studies",
+          "volume": "56",
+          "author": "Jeppsson",
+          "year": "2007",
+          "journal-title": "Water Sci. Technol."
+        },
+        {
+          "key": "10.1016/j.envsoft.2026.107051_b80",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1016/j.jwpe.2023.104037",
+          "article-title": "Applying mass flow analysis and aeration optimization strategy to reduce energy consumption of a full-scale anaerobic/anoxic/oxic system",
+          "volume": "54",
+          "author": "Jiang",
+          "year": "2023",
+          "journal-title": "J. Water Process. Eng."
+        },
+        {
+          "key": "10.1016/j.envsoft.2026.107051_b81",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1016/j.apenergy.2021.117289",
+          "article-title": "Data analytics and pump control in a wastewater treatment plant",
+          "volume": "299",
+          "author": "Johnson",
+          "year": "2021",
+          "journal-title": "Appl. Energy"
+        },
+        {
+          "key": "10.1016/j.envsoft.2026.107051_b82",
+          "article-title": "Importance of anaerobic digestion modelling on predicting the overall performance of wastewater treatment plants",
+          "author": "Jones",
+          "year": "2004",
+          "journal-title": "Proc. Anaerob. Dig."
+        },
+        {
+          "key": "10.1016/j.envsoft.2026.107051_b83",
+          "series-title": "Numerical Optimization",
+          "author": "Jorge",
+          "year": "1999"
+        },
+        {
+          "key": "10.1016/j.envsoft.2026.107051_b84",
+          "doi-asserted-by": "crossref",
+          "first-page": "39",
+          "DOI": "10.1016/j.jenvman.2015.07.005",
+          "article-title": "Optimization of wastewater treatment plant operation for greenhouse gas mitigation",
+          "volume": "163",
+          "author": "Kim",
+          "year": "2015",
+          "journal-title": "J. Environ. Manag."
+        },
+        {
+          "key": "10.1016/j.envsoft.2026.107051_b85",
+          "doi-asserted-by": "crossref",
+          "first-page": "337",
+          "DOI": "10.1016/j.cej.2014.04.076",
+          "article-title": "Optimization of modified ABA2 process using linearized ASM2 for saving aeration energy",
+          "volume": "251",
+          "author": "Kim",
+          "year": "2014",
+          "journal-title": "Chem. Eng. J."
+        },
+        {
+          "key": "10.1016/j.envsoft.2026.107051_b86",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1109/ACCESS.2024.3458186",
+          "article-title": "Optimizing control of wastewater treatment plant with reinforcement learning: Technical evaluation of twin-delayed deep deterministic policy gradient agent",
+          "author": "Klawikowska",
+          "year": "2024",
+          "journal-title": "IEEE Access"
+        },
+        {
+          "key": "10.1016/j.envsoft.2026.107051_b87",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.3390/pr9081346",
+          "article-title": "Article model-based evaluation of hydrothermal treatment for the energy efficient dewatering and drying of sewage sludge",
+          "volume": "9",
+          "author": "Knötig",
+          "year": "2021",
+          "journal-title": "Processes"
+        },
+        {
+          "key": "10.1016/j.envsoft.2026.107051_b88",
+          "first-page": "614",
+          "article-title": "Bioreactor simulation with quadratic neural network model approximations and cost optimization with markov decision process",
+          "volume": "64",
+          "author": "Koncsos",
+          "year": "2020",
+          "journal-title": "Period. Polytech. Civ. Eng."
+        },
+        {
+          "issue": "5",
+          "key": "10.1016/j.envsoft.2026.107051_b89",
+          "doi-asserted-by": "crossref",
+          "first-page": "1397",
+          "DOI": "10.1007/s41660-024-00435-1",
+          "article-title": "Efficient wastewater treatment optimisation with Solow-Polasky-JAYA algorithm and Self-Organising fuzzy sliding mode control",
+          "volume": "8",
+          "author": "Kumara",
+          "year": "2024",
+          "journal-title": "Process. Integr. Optim. Sustain."
+        },
+        {
+          "key": "10.1016/j.envsoft.2026.107051_b90",
+          "doi-asserted-by": "crossref",
+          "first-page": "269",
+          "DOI": "10.1016/j.cej.2016.05.048",
+          "article-title": "Understanding biofilm diffusion profiles and microbial activities to optimize integrated fixed-film activated sludge process",
+          "volume": "302",
+          "author": "Li",
+          "year": "2016",
+          "journal-title": "Chem. Eng. J."
+        },
+        {
+          "key": "10.1016/j.envsoft.2026.107051_b91",
+          "article-title": "An effective integrated control with intelligent optimization for wastewater treatment process",
+          "volume": "24",
+          "author": "Li",
+          "year": "2021",
+          "journal-title": "J. Ind. Inf. Integr."
+        },
+        {
+          "key": "10.1016/j.envsoft.2026.107051_b92",
+          "doi-asserted-by": "crossref",
+          "first-page": "79718",
+          "DOI": "10.1007/s11356-021-17505-3",
+          "article-title": "An effective dynamic immune optimization control for the wastewater treatment process",
+          "volume": "29",
+          "author": "Li",
+          "year": "2022",
+          "journal-title": "Environ. Sci. Pollut. Res."
+        },
+        {
+          "issue": "7",
+          "key": "10.1016/j.envsoft.2026.107051_b93",
+          "doi-asserted-by": "crossref",
+          "first-page": "995",
+          "DOI": "10.3390/w16070995",
+          "article-title": "Multi-Objective optimization based on simulation integrated Pareto analysis to achieve low-carbon and economical operation of a wastewater treatment plant",
+          "volume": "16",
+          "author": "Liao",
+          "year": "2024",
+          "journal-title": "Water"
+        },
+        {
+          "key": "10.1016/j.envsoft.2026.107051_b94",
+          "doi-asserted-by": "crossref",
+          "first-page": "6220",
+          "DOI": "10.1109/TII.2022.3197204",
+          "article-title": "Design of broad learning-based self-healing predictive control for sludge bulking in wastewater treatment process",
+          "volume": "19",
+          "author": "Liu",
+          "year": "2023",
+          "journal-title": "IEEE Trans. Ind. Inform."
+        },
+        {
+          "key": "10.1016/j.envsoft.2026.107051_b95",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1016/j.jenvman.2024.121430",
+          "article-title": "Wastewater treatment process enhancement based on multi-objective optimization and interpretable machine learning",
+          "volume": "364",
+          "author": "Liu",
+          "year": "2024",
+          "journal-title": "J. Environ. Manag."
+        },
+        {
+          "key": "10.1016/j.envsoft.2026.107051_b96",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1021/acsestwater.4c00073",
+          "article-title": "Deep learning-based multiobjective optimization for balancing effluent quality, operational cost, and greenhouse gas emissions in wastewater treatment plant control",
+          "author": "Lu",
+          "year": "2024",
+          "journal-title": "ACS EST Water"
+        },
+        {
+          "key": "10.1016/j.envsoft.2026.107051_b97",
+          "doi-asserted-by": "crossref",
+          "first-page": "257",
+          "DOI": "10.1016/j.ifacol.2019.06.071",
+          "article-title": "Control strategies of a wastewater treatment plant",
+          "volume": "52",
+          "author": "Luca",
+          "year": "2019",
+          "journal-title": "IFAC-PapersOnLine"
+        },
+        {
+          "key": "10.1016/j.envsoft.2026.107051_b98",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1016/j.biortech.2020.122824",
+          "article-title": "Minimizing membrane bioreactor environmental footprint by multiple objective optimization",
+          "volume": "302",
+          "author": "Mannina",
+          "year": "2020",
+          "journal-title": "Bioresour. Technol."
+        },
+        {
+          "key": "10.1016/j.envsoft.2026.107051_b99",
+          "doi-asserted-by": "crossref",
+          "first-page": "114",
+          "DOI": "10.1016/j.watres.2016.05.078",
+          "article-title": "Water quality permitting: From end-of-pipe to operational strategies",
+          "volume": "101",
+          "author": "Meng",
+          "year": "2016",
+          "journal-title": "Water Res."
+        },
+        {
+          "key": "10.1016/j.envsoft.2026.107051_b100",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1016/j.jwpe.2023.103935",
+          "article-title": "Improvement of air flowrate distribution in the nitrification reactor of the waste water treatment plant by effluent quality, energy and greenhouse gas emissions optimization via artificial neural networks models",
+          "volume": "54",
+          "author": "Mihály",
+          "year": "2023",
+          "journal-title": "J. Water Process. Eng."
+        },
+        {
+          "key": "10.1016/j.envsoft.2026.107051_b101",
+          "doi-asserted-by": "crossref",
+          "first-page": "2235",
+          "DOI": "10.1007/s11081-022-09724-5",
+          "article-title": "Data-driven modelling based on artificial neural networks for predicting energy and effluent quality indices and wastewater treatment plant optimization",
+          "volume": "23",
+          "author": "Mihály",
+          "year": "2022",
+          "journal-title": "Optim. Eng."
+        },
+        {
+          "key": "10.1016/j.envsoft.2026.107051_b102",
+          "series-title": "2022 IEEE International Conference on Automation, Quality and Testing, Robotics",
+          "first-page": "1",
+          "article-title": "Optimization of the wastewater treatment plant recycle flowrates using artificial neural networks",
+          "author": "Mihály",
+          "year": "2022"
+        },
+        {
+          "key": "10.1016/j.envsoft.2026.107051_b103",
+          "doi-asserted-by": "crossref",
+          "first-page": "140",
+          "DOI": "10.2166/wpt.2022.154",
+          "article-title": "Modelling and optimization of energy consumption in the activated sludge biological aeration unit",
+          "volume": "18",
+          "author": "Muloiwa",
+          "year": "2023",
+          "journal-title": "Water Pract. Technol."
+        },
+        {
+          "key": "10.1016/j.envsoft.2026.107051_b104",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1016/j.jenvman.2019.109436",
+          "article-title": "Optimization of a large industrial wastewater treatment plant using a modeling approach: A case study",
+          "volume": "249",
+          "author": "Muoio",
+          "year": "2019",
+          "journal-title": "J. Environ. Manag."
+        },
+        {
+          "key": "10.1016/j.envsoft.2026.107051_b105",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1016/j.jclepro.2020.123811",
+          "article-title": "A review of energy optimization modelling tools for the decarbonisation of wastewater treatment plants",
+          "volume": "279",
+          "author": "Nakkasunchi",
+          "year": "2021",
+          "journal-title": "J. Clean. Prod."
+        },
+        {
+          "key": "10.1016/j.envsoft.2026.107051_b106",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1016/j.jwpe.2023.103533",
+          "article-title": "A multi-agent AI reinforcement-based digital multi-solution for optimal operation of a full-scale wastewater treatment plant under various influent conditions",
+          "volume": "52",
+          "author": "Nam",
+          "year": "2023",
+          "journal-title": "J. Water Process. Eng."
+        },
+        {
+          "key": "10.1016/j.envsoft.2026.107051_b107",
+          "doi-asserted-by": "crossref",
+          "first-page": "39764",
+          "DOI": "10.1007/s11356-022-24981-8",
+          "article-title": "Developing a practical model for the optimal operation of wastewater treatment plant considering influent characteristics",
+          "volume": "30",
+          "author": "Nazif",
+          "year": "2023",
+          "journal-title": "Environ. Sci. Pollut. Res."
+        },
+        {
+          "key": "10.1016/j.envsoft.2026.107051_b108",
+          "series-title": "Data-driven performance analyses of wastewater treatment plants: A review",
+          "author": "Newhart",
+          "year": "2019"
+        },
+        {
+          "key": "10.1016/j.envsoft.2026.107051_b109",
+          "series-title": "Data-driven performance analyses of wastewater treatment plants: A review",
+          "author": "Newhart",
+          "year": "2019"
+        },
+        {
+          "issue": "7",
+          "key": "10.1016/j.envsoft.2026.107051_b110",
+          "doi-asserted-by": "crossref",
+          "first-page": "1913",
+          "DOI": "10.1016/j.watres.2009.01.012",
+          "article-title": "An ASM/ADM model interface for dynamic plant-wide simulation",
+          "volume": "43",
+          "author": "Nopens",
+          "year": "2009",
+          "journal-title": "Water Res."
+        },
+        {
+          "key": "10.1016/j.envsoft.2026.107051_b111",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1007/s11081-020-09500-3",
+          "article-title": "Multiplicity of solutions in model-based multiobjective optimization of wastewater treatment plants",
+          "volume": "22",
+          "author": "Ortiz-Martínez",
+          "year": "2021",
+          "journal-title": "Optim. Eng."
+        },
+        {
+          "key": "10.1016/j.envsoft.2026.107051_b112",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1016/j.biombioe.2019.105420",
+          "article-title": "Optimization of the energy consumption in activated sludge process using deep learning selective modeling",
+          "volume": "132",
+          "author": "Oulebsir",
+          "year": "2020",
+          "journal-title": "Biomass Bioenergy"
+        },
+        {
+          "key": "10.1016/j.envsoft.2026.107051_b113",
+          "article-title": "Intelligent control/operational strategies in WWTPs through an integrated Q-learning algorithm with ASM2d-guided reward",
+          "volume": "11",
+          "author": "Pang",
+          "year": "2019",
+          "journal-title": "Water (Switz.)"
+        },
+        {
+          "key": "10.1016/j.envsoft.2026.107051_b114",
+          "series-title": "Principles of Optimal Design: Modeling and Computation",
+          "first-page": "390",
+          "author": "Papalambros",
+          "year": "2000"
+        },
+        {
+          "key": "10.1016/j.envsoft.2026.107051_b115",
+          "series-title": "2018 International Interdisciplinary PhD Workshop (IIPhDW)",
+          "first-page": "45",
+          "article-title": "Comparison of algorithms for hybrid nonlinear optimization problem in biological wastewater treatment plant",
+          "author": "Piotrowski",
+          "year": "2018"
+        },
+        {
+          "key": "10.1016/j.envsoft.2026.107051_b116",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1016/j.bej.2023.108852",
+          "article-title": "Adaptive stochastic and hybrid nonlinear optimization algorithms for improving the effectiveness of the biological processes at WWTP",
+          "volume": "193",
+          "author": "Piotrowski",
+          "year": "2023",
+          "journal-title": "Biochem. Eng. J."
+        },
+        {
+          "key": "10.1016/j.envsoft.2026.107051_b117",
+          "article-title": "Improving SBR performance alongside with cost reduction through optimizing biological processes and dissolved oxygen concentration trajectory",
+          "volume": "9",
+          "author": "Piotrowski",
+          "year": "2019",
+          "journal-title": "Appl. Sci. (Switz.)"
+        },
+        {
+          "key": "10.1016/j.envsoft.2026.107051_b118",
+          "doi-asserted-by": "crossref",
+          "first-page": "78",
+          "DOI": "10.1016/j.jprocont.2021.07.009",
+          "article-title": "Novel hierarchical nonlinear control algorithm to improve dissolved oxygen control in biological WWTP",
+          "volume": "105",
+          "author": "Piotrowski",
+          "year": "2021",
+          "journal-title": "J. Process Control"
+        },
+        {
+          "key": "10.1016/j.envsoft.2026.107051_b119",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1016/j.jwpe.2022.103357",
+          "article-title": "Stochastic optimisation algorithm for optimisation of controller parameters for control of dissolved oxygen in wastewater treatment plant",
+          "volume": "51",
+          "author": "Piotrowski",
+          "year": "2023",
+          "journal-title": "J. Water Process. Eng."
+        },
+        {
+          "key": "10.1016/j.envsoft.2026.107051_b120",
+          "series-title": "2024 16th International Conference on Electronics, Computers and Artificial Intelligence",
+          "first-page": "1",
+          "article-title": "Monitoring, control and optimization of wastewater treatment plants: a brief review",
+          "author": "Popescu",
+          "year": "2024"
+        },
+        {
+          "key": "10.1016/j.envsoft.2026.107051_b121",
+          "series-title": "IFAC-PapersOnLine",
+          "first-page": "1234",
+          "article-title": "Plant-wide optimization of a full-scale activated sludge plant with anaerobic sludge treatment",
+          "volume": "Vol. 28",
+          "author": "Puchongkawarin",
+          "year": "2015"
+        },
+        {
+          "key": "10.1016/j.envsoft.2026.107051_b122",
+          "doi-asserted-by": "crossref",
+          "first-page": "517",
+          "DOI": "10.2166/wpt.2015.059",
+          "article-title": "Model-based methodology for plant-wide analysis of wastewater treatment plants: Industrial case study",
+          "volume": "10",
+          "author": "Puchongkawarin",
+          "year": "2015",
+          "journal-title": "Water Pract. Technol."
+        },
+        {
+          "key": "10.1016/j.envsoft.2026.107051_b123",
+          "doi-asserted-by": "crossref",
+          "first-page": "2537",
+          "DOI": "10.1007/s00521-017-3212-4",
+          "article-title": "Optimal control for wastewater treatment process based on an adaptive multi-objective differential evolution algorithm",
+          "volume": "31",
+          "author": "Qiao",
+          "year": "2019",
+          "journal-title": "Neural Comput. Appl."
+        },
+        {
+          "key": "10.1016/j.envsoft.2026.107051_b124",
+          "doi-asserted-by": "crossref",
+          "first-page": "383",
+          "DOI": "10.1016/j.neucom.2017.08.059",
+          "article-title": "Adaptive fuzzy neural network control of wastewater treatment process with multiobjective operation",
+          "volume": "275",
+          "author": "Qiao",
+          "year": "2018",
+          "journal-title": "Neurocomputing"
+        },
+        {
+          "key": "10.1016/j.envsoft.2026.107051_b125",
+          "doi-asserted-by": "crossref",
+          "first-page": "1261",
+          "DOI": "10.1007/s00521-016-2642-8",
+          "article-title": "Dynamic multi-objective optimization control for wastewater treatment process",
+          "volume": "29",
+          "author": "Qiao",
+          "year": "2018",
+          "journal-title": "Neural Comput. Appl."
+        },
+        {
+          "key": "10.1016/j.envsoft.2026.107051_b126",
+          "doi-asserted-by": "crossref",
+          "first-page": "7595",
+          "DOI": "10.1080/03067319.2020.1836169",
+          "article-title": "Determine the most effective process control parameters on activated sludge based on particle swarm optimisation algorithm (Case Study: South wastewater treatment plant of Tehran)",
+          "volume": "102",
+          "author": "Rafati",
+          "year": "2022",
+          "journal-title": "Int. J. Environ. Anal. Chem."
+        },
+        {
+          "key": "10.1016/j.envsoft.2026.107051_b127",
+          "series-title": "2015 19th International Conference on System Theory, Control and Computing",
+          "first-page": "583",
+          "article-title": "Economic optimization of wastewater treatment plants using Non Linear Model Predictive Control",
+          "author": "Revollar",
+          "year": "2015"
+        },
+        {
+          "key": "10.1016/j.envsoft.2026.107051_b128",
+          "article-title": "Optimal control of wastewater treatment plants using economic-oriented model predictive dynamic strategies",
+          "volume": "7",
+          "author": "Revollar",
+          "year": "2017",
+          "journal-title": "Appl. Sci. (Switz.)"
+        },
+        {
+          "key": "10.1016/j.envsoft.2026.107051_b129",
+          "doi-asserted-by": "crossref",
+          "first-page": "1567",
+          "DOI": "10.1016/B978-0-444-63965-3.50263-4",
+          "article-title": "Wastewater treatment plants operation optimization using economic dynamic real time optimization strategies",
+          "volume": "40",
+          "author": "Revollar",
+          "year": "2017",
+          "journal-title": "Comput. Aided Chem. Eng."
+        },
+        {
+          "key": "10.1016/j.envsoft.2026.107051_b130",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1016/j.cej.2022.139853",
+          "article-title": "Characteristics of rural sewage discharge and a case study on optimal operation of rural sewage treatment plant in Shaanxi, China",
+          "volume": "453",
+          "author": "Rong",
+          "year": "2023",
+          "journal-title": "Chem. Eng. J."
+        },
+        {
+          "key": "10.1016/j.envsoft.2026.107051_b131",
+          "series-title": "2023 IEEE 28th International Conference on Emerging Technologies and Factory Automation",
+          "first-page": "1",
+          "article-title": "Study on optimizing the effluent quality parameters for a simulated wastewater treatment plant using dynamic two-dimensional reference point generation: A comparative approach",
+          "author": "Roşu",
+          "year": "2023"
+        },
+        {
+          "key": "10.1016/j.envsoft.2026.107051_b132",
+          "series-title": "Jurnal teknologi gravitational search algorithm optimization for PID controller tuning in Waste-water treatment process",
+          "author": "Saiful",
+          "year": "2015"
+        },
+        {
+          "key": "10.1016/j.envsoft.2026.107051_b133",
+          "series-title": "IECON 2022–48th Annual Conference of the IEEE Industrial Electronics Society",
+          "first-page": "1",
+          "article-title": "Dynamic setpoint optimization using metaheuristic algorithms for wastewater treatment plants",
+          "author": "Salles",
+          "year": "2022"
+        },
+        {
+          "key": "10.1016/j.envsoft.2026.107051_b134",
+          "doi-asserted-by": "crossref",
+          "first-page": "2503",
+          "DOI": "10.2166/wst.2022.115",
+          "article-title": "Hybrid modelling of water resource recovery facilities: status and opportunities",
+          "volume": "85",
+          "author": "Schneider",
+          "year": "2022",
+          "journal-title": "Water Sci. Technol."
+        },
+        {
+          "issue": "6",
+          "key": "10.1016/j.envsoft.2026.107051_b135",
+          "doi-asserted-by": "crossref",
+          "first-page": "69",
+          "DOI": "10.2166/wst.2004.0361",
+          "article-title": "Biological nutrient removal model no. 1 (BNRM1)",
+          "volume": "50",
+          "author": "Seco",
+          "year": "2004",
+          "journal-title": "Water Sci. Technol."
+        },
+        {
+          "issue": "8",
+          "key": "10.1016/j.envsoft.2026.107051_b136",
+          "doi-asserted-by": "crossref",
+          "first-page": "1700",
+          "DOI": "10.2166/wst.2020.056",
+          "article-title": "Plant-wide modelling in wastewater treatment: showcasing experiences using the Biological Nutrient Removal Model",
+          "volume": "81",
+          "author": "Seco",
+          "year": "2020",
+          "journal-title": "Water Sci. Technol."
+        },
+        {
+          "key": "10.1016/j.envsoft.2026.107051_b137",
+          "doi-asserted-by": "crossref",
+          "first-page": "2473",
+          "DOI": "10.2166/wst.2017.423",
+          "article-title": "Cost minimization in a full-scale conventional wastewater treatment plant: Associated costs of biological energy consumption versus sludge production",
+          "volume": "76",
+          "author": "Sid",
+          "year": "2017",
+          "journal-title": "Water Sci. Technol."
+        },
+        {
+          "key": "10.1016/j.envsoft.2026.107051_b138",
+          "doi-asserted-by": "crossref",
+          "first-page": "601",
+          "DOI": "10.33224/rrch.2020.65.6.11",
+          "article-title": "Optimization and control of aeration distribution in the wwtp nitrification reactor",
+          "volume": "65",
+          "author": "Simon-Varhelyi",
+          "year": "2020",
+          "journal-title": "Rev. Roum. Chim."
+        },
+        {
+          "key": "10.1016/j.envsoft.2026.107051_b139",
+          "series-title": "Sewage Treatment Plants: Economic Evaluation of Innovative Technologies for Energy Efficiency",
+          "author": "Stamatelatou",
+          "year": "2015"
+        },
+        {
+          "key": "10.1016/j.envsoft.2026.107051_b140",
+          "doi-asserted-by": "crossref",
+          "first-page": "52",
+          "DOI": "10.1016/j.watres.2014.02.018",
+          "article-title": "Multi-objective optimisation of wastewater treatment plant control to reduce greenhouse gas emissions",
+          "volume": "55",
+          "author": "Sweetapple",
+          "year": "2014",
+          "journal-title": "Water Res."
+        },
+        {
+          "key": "10.1016/j.envsoft.2026.107051_b141",
+          "series-title": "A critical review of the data pipeline: How wastewater system operation flows from data to intelligence",
+          "author": "Therrien",
+          "year": "2020"
+        },
+        {
+          "issue": "10",
+          "key": "10.1016/j.envsoft.2026.107051_b142",
+          "doi-asserted-by": "crossref",
+          "first-page": "2840",
+          "DOI": "10.2166/wst.2022.107",
+          "article-title": "The transition of WRRF models to digital twin applications",
+          "volume": "85",
+          "author": "Torfs",
+          "year": "2022",
+          "journal-title": "Water Sci. Technol."
+        },
+        {
+          "issue": "12",
+          "key": "10.1016/j.envsoft.2026.107051_b143",
+          "doi-asserted-by": "crossref",
+          "first-page": "2808",
+          "DOI": "10.3390/en17122808",
+          "article-title": "Optimization of energy consumption in a wastewater treatment plant: an overview",
+          "volume": "17",
+          "author": "Tsalas",
+          "year": "2024",
+          "journal-title": "Energies"
+        },
+        {
+          "issue": "1–2",
+          "key": "10.1016/j.envsoft.2026.107051_b144",
+          "doi-asserted-by": "crossref",
+          "first-page": "493",
+          "DOI": "10.2166/wst.2005.0558",
+          "article-title": "Continuity-based interfacing of models for wastewater systems described by petersen matrices",
+          "volume": "52",
+          "author": "Vanrolleghem",
+          "year": "2005",
+          "journal-title": "Water Sci. Technol."
+        },
+        {
+          "key": "10.1016/j.envsoft.2026.107051_b145",
+          "doi-asserted-by": "crossref",
+          "first-page": "78",
+          "DOI": "10.1016/j.compchemeng.2014.03.027",
+          "article-title": "Integration of set point optimization techniques into nonlinear MPC for improving the operation of WWTPs",
+          "volume": "68",
+          "author": "Vega",
+          "year": "2014",
+          "journal-title": "Comput. Chem. Eng."
+        },
+        {
+          "key": "10.1016/j.envsoft.2026.107051_b146",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.3390/en14185826",
+          "article-title": "Modelling to lower energy consumption in a large wwtp in china while optimising nitrogen removal",
+          "volume": "14",
+          "author": "Vergara-Araya",
+          "year": "2021",
+          "journal-title": "Energies"
+        },
+        {
+          "key": "10.1016/j.envsoft.2026.107051_b147",
+          "series-title": "Metadata Collection and Organization in Wastewater Treatment and Wastewater Resource Recovery Systems",
+          "author": "Villez",
+          "year": "2024"
+        },
+        {
+          "key": "10.1016/j.envsoft.2026.107051_b148",
+          "series-title": "Communications in Computer and Information Science",
+          "doi-asserted-by": "crossref",
+          "first-page": "262",
+          "DOI": "10.1007/978-981-19-6142-7_20",
+          "article-title": "Design of online ESN-ADP for dissolved oxygen control in WWTP",
+          "author": "Wan",
+          "year": "2022"
+        },
+        {
+          "key": "10.1016/j.envsoft.2026.107051_b149",
+          "doi-asserted-by": "crossref",
+          "first-page": "6398",
+          "DOI": "10.1109/TII.2022.3177457",
+          "article-title": "Event-Driven model predictive control with deep learning for wastewater treatment process",
+          "volume": "19",
+          "author": "Wang",
+          "year": "2023",
+          "journal-title": "IEEE Trans. Ind. Inform."
+        },
+        {
+          "key": "10.1016/j.envsoft.2026.107051_b150",
+          "doi-asserted-by": "crossref",
+          "first-page": "191694",
+          "DOI": "10.1109/ACCESS.2020.3032531",
+          "article-title": "Energy and materials-saving management via deep learning for wastewater treatment plants",
+          "volume": "8",
+          "author": "Wang",
+          "year": "2020",
+          "journal-title": "IEEE Access"
+        },
+        {
+          "key": "10.1016/j.envsoft.2026.107051_b151",
+          "doi-asserted-by": "crossref",
+          "first-page": "569",
+          "DOI": "10.1007/s11431-021-1960-7",
+          "article-title": "Dynamic multi-objective intelligent optimal control toward wastewater treatment processes",
+          "volume": "65",
+          "author": "Xie",
+          "year": "2022",
+          "journal-title": "Sci. China Technol. Sci."
+        },
+        {
+          "key": "10.1016/j.envsoft.2026.107051_b152",
+          "doi-asserted-by": "crossref",
+          "first-page": "3100",
+          "DOI": "10.2166/wcc.2022.146",
+          "article-title": "Economic performance index assessment of an industrial wastewater treatment plant in terms of the European Green Deal: effect of greenhouse gas emissions",
+          "volume": "13",
+          "author": "Yapıcıoğlu",
+          "year": "2022",
+          "journal-title": "J. Water Clim. Chang."
+        },
+        {
+          "key": "10.1016/j.envsoft.2026.107051_b153",
+          "series-title": "Lecture Notes in Electrical Engineering",
+          "doi-asserted-by": "crossref",
+          "first-page": "501",
+          "DOI": "10.1007/978-981-13-2288-4_48",
+          "article-title": "Optimization control for wastewater treatment process based on data and knowledge decision",
+          "volume": "Vol. 528",
+          "author": "Zhang",
+          "year": "2019"
+        },
+        {
+          "key": "10.1016/j.envsoft.2026.107051_b154",
+          "series-title": "2020 7th International Conference on Information, Cybernetics, and Computational Social Systems",
+          "first-page": "72",
+          "article-title": "Dynamic multiobjective optimal control with Knowledge-Decision for wastewater treatment process",
+          "author": "Zhang",
+          "year": "2020"
+        },
+        {
+          "key": "10.1016/j.envsoft.2026.107051_b155",
+          "doi-asserted-by": "crossref",
+          "first-page": "161",
+          "DOI": "10.1016/j.biortech.2014.01.103",
+          "article-title": "Optimizing municipal wastewater treatment plants using an improved multi-objective optimization method",
+          "volume": "157",
+          "author": "Zhang",
+          "year": "2014",
+          "journal-title": "Bioresour. Technol."
+        },
+        {
+          "key": "10.1016/j.envsoft.2026.107051_b156",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1016/j.jenvman.2022.114724",
+          "article-title": "Optimal setting strategy of electrocoagulation process in heavy metal wastewater treatment plant",
+          "volume": "310",
+          "author": "Zhang",
+          "year": "2022",
+          "journal-title": "J. Environ. Manag."
+        },
+        {
+          "key": "10.1016/j.envsoft.2026.107051_b157",
+          "series-title": "2017 36th Chinese Control Conference",
+          "first-page": "4334",
+          "article-title": "Improved NSGA-II algorithm based on differential evolution mechanism",
+          "author": "Zhang",
+          "year": "2017"
+        },
+        {
+          "key": "10.1016/j.envsoft.2026.107051_b158",
+          "doi-asserted-by": "crossref",
+          "first-page": "121",
+          "DOI": "10.1016/j.joei.2014.03.016",
+          "article-title": "Sludge gas production capabilities under various operational conditions of the sludge thermal hydrolysis pretreatment process",
+          "volume": "87",
+          "author": "Zhang",
+          "year": "2014",
+          "journal-title": "J. Energy Inst."
+        },
+        {
+          "key": "10.1016/j.envsoft.2026.107051_b159",
+          "series-title": "Chinese Control Conference, CCC",
+          "first-page": "2161",
+          "article-title": "Data-Based iterative DHP optimal tracking control with a wastewater treatment application",
+          "volume": "Vol. 2021-July",
+          "author": "Zhao",
+          "year": "2021"
+        },
+        {
+          "key": "10.1016/j.envsoft.2026.107051_b160",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1016/j.eswa.2023.121030",
+          "article-title": "NSGAIII based on utopian point improvements and its application in wastewater treatment process",
+          "volume": "234",
+          "author": "Zhenyu",
+          "year": "2023",
+          "journal-title": "Expert Syst. Appl."
+        },
+        {
+          "key": "10.1016/j.envsoft.2026.107051_b161",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1016/j.asoc.2023.110529",
+          "article-title": "SPEA2 based on grid density search and elite guidance for multi-objective operation optimization of wastewater treatment process",
+          "volume": "144",
+          "author": "Zhou",
+          "year": "2023",
+          "journal-title": "Appl. Soft Comput."
+        },
+        {
+          "key": "10.1016/j.envsoft.2026.107051_b162",
+          "doi-asserted-by": "crossref",
+          "first-page": "1098",
+          "DOI": "10.1007/s10489-018-1319-7",
+          "article-title": "Multiobjective optimal control for wastewater treatment process using adaptive MOEA/D",
+          "volume": "49",
+          "author": "Zhou",
+          "year": "2019",
+          "journal-title": "Appl. Intell."
+        },
+        {
+          "key": "10.1016/j.envsoft.2026.107051_b163",
+          "doi-asserted-by": "crossref",
+          "first-page": "6896",
+          "DOI": "10.1109/TCYB.2022.3164476",
+          "article-title": "Multiobjective operation optimization of wastewater treatment process based on reinforcement Self-Learning and knowledge guidance",
+          "volume": "53",
+          "author": "Zhou",
+          "year": "2023",
+          "journal-title": "IEEE Trans. Cybern."
+        },
+        {
+          "key": "10.1016/j.envsoft.2026.107051_b164",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1109/TCYB.2023.3341982",
+          "article-title": "Adaptive constraint Penalty-Based multiobjective operation optimization of an industrial dynamic system with complex multiconstraint",
+          "author": "Zhou",
+          "year": "2024",
+          "journal-title": "IEEE Trans. Cybern."
+        }
+      ],
+      "container-title": [
+        "Environmental Modelling &amp; Software"
+      ],
+      "original-title": [],
+      "language": "en",
+      "link": [
+        {
+          "URL": "https://api.elsevier.com/content/article/PII:S1364815226001982?httpAccept=text/xml",
+          "content-type": "text/xml",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        },
+        {
+          "URL": "https://api.elsevier.com/content/article/PII:S1364815226001982?httpAccept=text/plain",
+          "content-type": "text/plain",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            7,
+            30
+          ]
+        ],
+        "date-time": "2026-07-30T14:48:06Z",
+        "timestamp": 1785422886000
+      },
+      "score": 1,
+      "resource": {
+        "primary": {
+          "URL": "https://linkinghub.elsevier.com/retrieve/pii/S1364815226001982"
+        }
+      },
+      "subtitle": [],
+      "short-title": [],
+      "issued": {
+        "date-parts": [
+          [
+            2026,
+            9
+          ]
+        ]
+      },
+      "references-count": 164,
+      "alternative-id": [
+        "S1364815226001982"
+      ],
+      "URL": "https://doi.org/10.1016/j.envsoft.2026.107051",
+      "relation": {},
+      "ISSN": [
+        "1364-8152"
+      ],
+      "issn-type": [
+        {
+          "value": "1364-8152",
+          "type": "print"
+        }
+      ],
+      "subject": [],
+      "published": {
+        "date-parts": [
+          [
+            2026,
+            9
+          ]
+        ]
+      },
+      "assertion": [
+        {
+          "value": "Elsevier",
+          "name": "publisher",
+          "label": "This article is maintained by"
+        },
+        {
+          "value": "A review of optimization systems and methods for wastewater treatment plants operation",
+          "name": "articletitle",
+          "label": "Article Title"
+        },
+        {
+          "value": "Environmental Modelling & Software",
+          "name": "journaltitle",
+          "label": "Journal Title"
+        },
+        {
+          "value": "https://doi.org/10.1016/j.envsoft.2026.107051",
+          "name": "articlelink",
+          "label": "CrossRef DOI link to publisher maintained version"
+        },
+        {
+          "value": "article",
+          "name": "content_type",
+          "label": "Content Type"
+        },
+        {
+          "value": "© 2026 The Authors. Published by Elsevier Ltd.",
+          "name": "copyright",
+          "label": "Copyright"
+        }
+      ],
+      "article-number": "107051"
+    }
+  }
+}

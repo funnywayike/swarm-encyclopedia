@@ -1,0 +1,1676 @@
+{
+  "retrieved": "2026-10-16",
+  "url": "https://api.crossref.org/works/10.1016/j.eswa.2025.128471",
+  "response": {
+    "status": "ok",
+    "message-type": "work",
+    "message-version": "1.0.0",
+    "message": {
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            10,
+            13
+          ]
+        ],
+        "date-time": "2026-10-13T14:59:04Z",
+        "timestamp": 1791903544966,
+        "version": "4.3.4"
+      },
+      "reference-count": 122,
+      "publisher": "Elsevier BV",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2025,
+                11,
+                1
+              ]
+            ],
+            "date-time": "2025-11-01T00:00:00Z",
+            "timestamp": 1761955200000
+          },
+          "content-version": "tdm",
+          "delay-in-days": 0,
+          "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+        },
+        {
+          "start": {
+            "date-parts": [
+              [
+                2025,
+                11,
+                1
+              ]
+            ],
+            "date-time": "2025-11-01T00:00:00Z",
+            "timestamp": 1761955200000
+          },
+          "content-version": "tdm",
+          "delay-in-days": 0,
+          "URL": "https://www.elsevier.com/legal/tdmrep-license"
+        },
+        {
+          "start": {
+            "date-parts": [
+              [
+                2025,
+                11,
+                1
+              ]
+            ],
+            "date-time": "2025-11-01T00:00:00Z",
+            "timestamp": 1761955200000
+          },
+          "content-version": "stm-asf",
+          "delay-in-days": 0,
+          "URL": "https://doi.org/10.15223/policy-017"
+        },
+        {
+          "start": {
+            "date-parts": [
+              [
+                2025,
+                11,
+                1
+              ]
+            ],
+            "date-time": "2025-11-01T00:00:00Z",
+            "timestamp": 1761955200000
+          },
+          "content-version": "stm-asf",
+          "delay-in-days": 0,
+          "URL": "https://doi.org/10.15223/policy-037"
+        },
+        {
+          "start": {
+            "date-parts": [
+              [
+                2025,
+                11,
+                1
+              ]
+            ],
+            "date-time": "2025-11-01T00:00:00Z",
+            "timestamp": 1761955200000
+          },
+          "content-version": "stm-asf",
+          "delay-in-days": 0,
+          "URL": "https://doi.org/10.15223/policy-012"
+        },
+        {
+          "start": {
+            "date-parts": [
+              [
+                2025,
+                11,
+                1
+              ]
+            ],
+            "date-time": "2025-11-01T00:00:00Z",
+            "timestamp": 1761955200000
+          },
+          "content-version": "stm-asf",
+          "delay-in-days": 0,
+          "URL": "https://doi.org/10.15223/policy-029"
+        },
+        {
+          "start": {
+            "date-parts": [
+              [
+                2025,
+                11,
+                1
+              ]
+            ],
+            "date-time": "2025-11-01T00:00:00Z",
+            "timestamp": 1761955200000
+          },
+          "content-version": "stm-asf",
+          "delay-in-days": 0,
+          "URL": "https://doi.org/10.15223/policy-004"
+        }
+      ],
+      "funder": [
+        {
+          "DOI": "10.13039/501100015401",
+          "name": "Key Research and Development Projects of Shaanxi Province",
+          "doi-asserted-by": "publisher",
+          "award": [
+            "2024GH-ZDXM-48"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "2024GH-ZDXM-48"
+              ]
+            }
+          ],
+          "id": [
+            {
+              "id": "10.13039/501100015401",
+              "id-type": "DOI",
+              "asserted-by": "publisher"
+            }
+          ]
+        },
+        {
+          "DOI": "10.13039/501100001809",
+          "name": "National Natural Science Foundation of China",
+          "doi-asserted-by": "publisher",
+          "award": [
+            "U23B2039"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "U23B2039"
+              ]
+            }
+          ],
+          "id": [
+            {
+              "id": "10.13039/501100001809",
+              "id-type": "DOI",
+              "asserted-by": "publisher"
+            }
+          ]
+        },
+        {
+          "DOI": "10.13039/501100001809",
+          "name": "National Natural Science Foundation of China",
+          "doi-asserted-by": "publisher",
+          "award": [
+            "72201272"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "72201272"
+              ]
+            }
+          ],
+          "id": [
+            {
+              "id": "10.13039/501100001809",
+              "id-type": "DOI",
+              "asserted-by": "publisher"
+            }
+          ]
+        },
+        {
+          "DOI": "10.13039/501100002338",
+          "name": "Ministry of Education of the People's Republic of China",
+          "doi-asserted-by": "publisher",
+          "award": [
+            "CYK2024-02-04"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "CYK2024-02-04"
+              ]
+            }
+          ],
+          "id": [
+            {
+              "id": "10.13039/501100002338",
+              "id-type": "DOI",
+              "asserted-by": "publisher"
+            }
+          ]
+        }
+      ],
+      "content-domain": {
+        "domain": [
+          "elsevier.com",
+          "sciencedirect.com"
+        ],
+        "crossmark-restriction": true
+      },
+      "short-container-title": [
+        "Expert Systems with Applications"
+      ],
+      "published-print": {
+        "date-parts": [
+          [
+            2025,
+            11
+          ]
+        ]
+      },
+      "DOI": "10.1016/j.eswa.2025.128471",
+      "type": "journal-article",
+      "created": {
+        "date-parts": [
+          [
+            2025,
+            6,
+            20
+          ]
+        ],
+        "date-time": "2025-06-20T08:04:27Z",
+        "timestamp": 1750406667000
+      },
+      "page": "128471",
+      "update-policy": "https://doi.org/10.1016/elsevier_cm_policy",
+      "source": "Crossref",
+      "is-referenced-by-count": 12,
+      "special_numbering": "C",
+      "title": [
+        "A review of the frameworks, models, and algorithms for large-scale imaging satellite mission planning"
+      ],
+      "prefix": "10.1016",
+      "volume": "292",
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0009-0003-0093-935X",
+          "authenticated-orcid": false,
+          "given": "Xiutian",
+          "family": "Li",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0003-1956-399X",
+          "authenticated-orcid": false,
+          "given": "Yingwu",
+          "family": "Chen",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-6983-4244",
+          "authenticated-orcid": false,
+          "given": "Lining",
+          "family": "Xing",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0001-7722-5775",
+          "authenticated-orcid": false,
+          "given": "Yingguo",
+          "family": "Chen",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-0162-6756",
+          "authenticated-orcid": false,
+          "given": "Yonghao",
+          "family": "Du",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-2787-5064",
+          "authenticated-orcid": false,
+          "given": "Lei",
+          "family": "He",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "78",
+      "reference": [
+        {
+          "issue": "1",
+          "key": "10.1016/j.eswa.2025.128471_bib0001",
+          "doi-asserted-by": "crossref",
+          "first-page": "98",
+          "DOI": "10.1287/mnsc.37.1.98",
+          "article-title": "Constructing school timetables using simulated annealing: Sequential and parallel algorithms",
+          "volume": "37",
+          "author": "Abramson",
+          "year": "1991",
+          "journal-title": "Management Science"
+        },
+        {
+          "issue": "2",
+          "key": "10.1016/j.eswa.2025.128471_bib0002",
+          "doi-asserted-by": "crossref",
+          "first-page": "1041",
+          "DOI": "10.1109/20.996267",
+          "article-title": "Evolution strategy and hierarchical clustering",
+          "volume": "38",
+          "author": "Aichholzer",
+          "year": "2002",
+          "journal-title": "IEEE Transactions on Magnetics"
+        },
+        {
+          "key": "10.1016/j.eswa.2025.128471_bib0003",
+          "series-title": "ICAPS",
+          "first-page": "267",
+          "article-title": "Vehicle routing and job shop scheduling: What’s the difference?",
+          "author": "Beck",
+          "year": "2003"
+        },
+        {
+          "issue": "3731",
+          "key": "10.1016/j.eswa.2025.128471_bib0004",
+          "doi-asserted-by": "crossref",
+          "first-page": "34",
+          "DOI": "10.1126/science.153.3731.34",
+          "article-title": "Dynamic programming",
+          "volume": "153",
+          "author": "Bellman",
+          "year": "1966",
+          "journal-title": "Science (New York, N.Y.)"
+        },
+        {
+          "key": "10.1016/j.eswa.2025.128471_bib0005",
+          "series-title": "2018 IEEE congress on evolutionary computation",
+          "article-title": "A graph-based genetic algorithm to solve the virtual constellation multi-satellite collection scheduling problem",
+          "author": "Berger",
+          "year": "2018"
+        },
+        {
+          "key": "10.1016/j.eswa.2025.128471_bib0006",
+          "series-title": "2007 IEEE swarm intelligence symposium",
+          "article-title": "Defining a standard for particle swarm optimization",
+          "author": "Bratton",
+          "year": "2007"
+        },
+        {
+          "issue": "01",
+          "key": "10.1016/j.eswa.2025.128471_bib0007",
+          "first-page": "8",
+          "article-title": "Construction of mission planning model for forest resources observation imaging satellite based on particle swarm optimization",
+          "author": "Cao",
+          "year": "2021",
+          "journal-title": "Forest Science and Technology"
+        },
+        {
+          "issue": "06",
+          "key": "10.1016/j.eswa.2025.128471_bib0008",
+          "first-page": "534",
+          "article-title": "Double ant colony algorithm of multi-satellite mission planning based on graph theory",
+          "volume": "49",
+          "author": "Chai",
+          "year": "2019",
+          "journal-title": "Radio Engineering"
+        },
+        {
+          "key": "10.1016/j.eswa.2025.128471_bib0009",
+          "series-title": "AI-driven generative design redefines the engineering process",
+          "first-page": "327",
+          "author": "Channi",
+          "year": "2025"
+        },
+        {
+          "key": "10.1016/j.eswa.2025.128471_bib0010",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1016/j.knosys.2024.112809",
+          "article-title": "A generalized bilevel optimization model for large-scale task scheduling in multiple agile Earth observation satellites",
+          "volume": "309",
+          "author": "Chen",
+          "year": "2025",
+          "journal-title": "Knowledge-Based Systems"
+        },
+        {
+          "issue": "2",
+          "key": "10.1016/j.eswa.2025.128471_bib0011",
+          "first-page": "145",
+          "article-title": "Algorithm design and system application of HY-1 satellite observation mission planning",
+          "volume": "44",
+          "author": "Chen",
+          "year": "2024",
+          "journal-title": "Chinese Space Science and Technology"
+        },
+        {
+          "issue": "5",
+          "key": "10.1016/j.eswa.2025.128471_bib0012",
+          "doi-asserted-by": "crossref",
+          "first-page": "1463",
+          "DOI": "10.26599/TST.2023.9010131",
+          "article-title": "Data-driven collaborative scheduling method for multi-satellite data-transmission",
+          "volume": "29",
+          "author": "Chen",
+          "year": "2024",
+          "journal-title": "Tsinghua Science and Technology"
+        },
+        {
+          "issue": "2",
+          "key": "10.1016/j.eswa.2025.128471_bib0013",
+          "doi-asserted-by": "crossref",
+          "first-page": "694",
+          "DOI": "10.1016/j.ejor.2018.11.058",
+          "article-title": "A mixed integer linear programming model for multi-satellite scheduling",
+          "volume": "275",
+          "author": "Chen",
+          "year": "2019",
+          "journal-title": "European Journal of Operational Research"
+        },
+        {
+          "issue": "1",
+          "key": "10.1016/j.eswa.2025.128471_bib0014",
+          "article-title": "An adaptive large neighborhood search algorithm for the satellite data transmission scheduling problem",
+          "volume": "2020",
+          "author": "Chen",
+          "year": "2020",
+          "journal-title": "International Journal of Aerospace Engineering"
+        },
+        {
+          "issue": "16",
+          "key": "10.1016/j.eswa.2025.128471_bib0015",
+          "doi-asserted-by": "crossref",
+          "first-page": "5616",
+          "DOI": "10.3390/app10165616",
+          "article-title": "An efficient local search heuristic for Earth observation satellite integrated scheduling",
+          "volume": "10",
+          "author": "Chen",
+          "year": "2020",
+          "journal-title": "Applied Sciences"
+        },
+        {
+          "issue": "16",
+          "key": "10.1016/j.eswa.2025.128471_bib0016",
+          "doi-asserted-by": "crossref",
+          "first-page": "3932",
+          "DOI": "10.3390/rs15163932",
+          "article-title": "Multi-objective multi-satellite imaging mission planning algorithm for regional mapping based on deep reinforcement learning",
+          "volume": "15",
+          "author": "Chen",
+          "year": "2023",
+          "journal-title": "Remote Sensing"
+        },
+        {
+          "key": "10.1016/j.eswa.2025.128471_bib0017",
+          "unstructured": "China National Space Administration (2023). China aerospace releases three commercial liquid rocket engines. Press release/Online report https://www.cnsa.gov.cn/n6758823/n6758838/c10006411/content.html."
+        },
+        {
+          "key": "10.1016/j.eswa.2025.128471_bib0018",
+          "series-title": "Proceedings of the first European conference on artificial life",
+          "first-page": "134",
+          "article-title": "Distributed optimization by ant colonies",
+          "author": "Colorni",
+          "year": "1991"
+        },
+        {
+          "key": "10.1016/j.eswa.2025.128471_bib0019",
+          "doi-asserted-by": "crossref",
+          "first-page": "952",
+          "DOI": "10.1016/j.actaastro.2024.03.070",
+          "article-title": "A mission planning approach for crosslink-enabled Earth sensing satellite constellations",
+          "volume": "219",
+          "author": "Cox",
+          "year": "2024",
+          "journal-title": "Acta Astronautica"
+        },
+        {
+          "key": "10.1016/j.eswa.2025.128471_bib0020",
+          "series-title": "Proceedings of the 10th annual conference on genetic and evolutionary computation",
+          "first-page": "267",
+          "article-title": "Adaptive operator selection with dynamic multi-armed bandits",
+          "author": "DaCosta",
+          "year": "2008"
+        },
+        {
+          "issue": "3–4",
+          "key": "10.1016/j.eswa.2025.128471_bib0021",
+          "doi-asserted-by": "crossref",
+          "first-page": "197",
+          "DOI": "10.1287/mnsc.1.3-4.197",
+          "article-title": "Linear programming under uncertainty",
+          "volume": "1",
+          "author": "Dantzig",
+          "year": "1955",
+          "journal-title": "Management Science"
+        },
+        {
+          "key": "10.1016/j.eswa.2025.128471_bib0022",
+          "series-title": "The extended selfish gene",
+          "author": "Dawkins",
+          "year": "2016"
+        },
+        {
+          "issue": "12",
+          "key": "10.1016/j.eswa.2025.128471_bib0023",
+          "first-page": "1686",
+          "article-title": "A multi-objective variable-neighborhood simulated annealing algorithm and imaging constellation task planning method",
+          "volume": "43",
+          "author": "Ding",
+          "year": "2022",
+          "journal-title": "Journal of Astronautics"
+        },
+        {
+          "issue": "06",
+          "key": "10.1016/j.eswa.2025.128471_bib0024",
+          "first-page": "27",
+          "article-title": "Mission scheduling for agile Earth observation satellites based on genetic-tabu hybrid algorithm",
+          "volume": "45",
+          "author": "Ding",
+          "year": "2019",
+          "journal-title": "Aerospace Control and Application"
+        },
+        {
+          "issue": "11",
+          "key": "10.1016/j.eswa.2025.128471_bib0025",
+          "doi-asserted-by": "crossref",
+          "first-page": "1800",
+          "DOI": "10.1109/JAS.2021.1004174",
+          "article-title": "Data-driven heuristic assisted memetic algorithm for efficient inter-satellite link scheduling in the Beidou Navigation Satellite System",
+          "volume": "8",
+          "author": "Du",
+          "year": "2021",
+          "journal-title": "IEEE/CAA Journal of Automatica Sinica"
+        },
+        {
+          "issue": "4",
+          "key": "10.1016/j.eswa.2025.128471_bib0026",
+          "doi-asserted-by": "crossref",
+          "first-page": "679",
+          "DOI": "10.1109/TEVC.2019.2934148",
+          "article-title": "A data-driven parallel scheduling approach for multiple agile Earth observation satellites",
+          "volume": "24",
+          "author": "Du",
+          "year": "2019",
+          "journal-title": "IEEE Transactions on Evolutionary Computation"
+        },
+        {
+          "issue": "2",
+          "key": "10.1016/j.eswa.2025.128471_bib0027",
+          "first-page": "222",
+          "article-title": "Survey on intelligent scheduling technologies for unmanned flying craft clusters",
+          "volume": "46",
+          "author": "Du",
+          "year": "2020",
+          "journal-title": "Acta Automatica Sinica"
+        },
+        {
+          "issue": "4",
+          "key": "10.1016/j.eswa.2025.128471_bib0028",
+          "doi-asserted-by": "crossref",
+          "first-page": "683",
+          "DOI": "10.1007/s42524-022-0222-4",
+          "article-title": "Satellite scheduling engine: The intelligent solver for future multi-satellite management",
+          "volume": "9",
+          "author": "Du",
+          "year": "2022",
+          "journal-title": "Frontiers of Engineering Management"
+        },
+        {
+          "issue": "12",
+          "key": "10.1016/j.eswa.2025.128471_bib0029",
+          "first-page": "2715",
+          "article-title": "Survey on models, algorithms and general techniques for spacecraft mission scheduling",
+          "volume": "47",
+          "author": "Du",
+          "year": "2021",
+          "journal-title": "Acta Automatica Sinica"
+        },
+        {
+          "issue": "5",
+          "key": "10.1016/j.eswa.2025.128471_bib0030",
+          "doi-asserted-by": "crossref",
+          "first-page": "1167",
+          "DOI": "10.1109/21.120067",
+          "article-title": "Partial global planning: A coordination framework for distributed hypothesis formation",
+          "volume": "21",
+          "author": "Durfee",
+          "year": "1991",
+          "journal-title": "IEEE Transactions on Systems, Man, and Cybernetics"
+        },
+        {
+          "issue": "09",
+          "key": "10.1016/j.eswa.2025.128471_bib0031",
+          "first-page": "106",
+          "article-title": "Satellite imaging task merging method based on priority",
+          "volume": "42",
+          "author": "Fan",
+          "year": "2022",
+          "journal-title": "Ship Electronic Engineering"
+        },
+        {
+          "issue": "6",
+          "key": "10.1016/j.eswa.2025.128471_bib0032",
+          "first-page": "801",
+          "article-title": "A resource scheduling method for satellite mission ground station based on particle swarm optimization algorithm",
+          "volume": "39",
+          "author": "Fan",
+          "year": "2022",
+          "journal-title": "Journal of University of Chinese Academy of Sciences"
+        },
+        {
+          "key": "10.1016/j.eswa.2025.128471_bib0033",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1016/j.aei.2024.102915",
+          "article-title": "A conflict clique mitigation method for large-scale satellite mission planning based on heterogeneous graph learning",
+          "volume": "62",
+          "author": "Feng",
+          "year": "2024",
+          "journal-title": "Advanced Engineering Informatics"
+        },
+        {
+          "issue": "3",
+          "key": "10.1016/j.eswa.2025.128471_bib0034",
+          "first-page": "613",
+          "article-title": "Optimal mission planning with task clustering for intensive point targets observation of staring mode agile satellite",
+          "volume": "35",
+          "author": "Geng",
+          "year": "2020",
+          "journal-title": "Control and Decision"
+        },
+        {
+          "issue": "3",
+          "key": "10.1016/j.eswa.2025.128471_bib0035",
+          "doi-asserted-by": "crossref",
+          "first-page": "190",
+          "DOI": "10.1287/ijoc.1.3.190",
+          "article-title": "Tabu search—Part I",
+          "volume": "1",
+          "author": "Glover",
+          "year": "1989",
+          "journal-title": "ORSA Journal on Computing"
+        },
+        {
+          "issue": "1",
+          "key": "10.1016/j.eswa.2025.128471_bib0036",
+          "doi-asserted-by": "crossref",
+          "first-page": "4",
+          "DOI": "10.1287/ijoc.2.1.4",
+          "article-title": "Tabu search—Part II",
+          "volume": "2",
+          "author": "Glover",
+          "year": "1990",
+          "journal-title": "ORSA Journal on Computing"
+        },
+        {
+          "key": "10.1016/j.eswa.2025.128471_bib0037",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1016/j.ast.2023.108660",
+          "article-title": "Study on mission planning algorithm for multi-target passive tracking based on satellite formation",
+          "volume": "142",
+          "author": "Gong",
+          "year": "2023",
+          "journal-title": "Aerospace Science and Technology"
+        },
+        {
+          "issue": "2",
+          "key": "10.1016/j.eswa.2025.128471_bib0038",
+          "first-page": "1800",
+          "article-title": "Large region targets observation scheduling by multiple satellites using resampling particle swarm optimization",
+          "volume": "59",
+          "author": "Gu",
+          "year": "2022",
+          "journal-title": "IEEE Transactions on Aerospace and Electronic Systems"
+        },
+        {
+          "key": "10.1016/j.eswa.2025.128471_bib0039",
+          "series-title": "2023 IEEE international conference on communications workshops",
+          "article-title": "Large-scale beam placement and resource allocation design for MEO-constellation SATCOM",
+          "author": "Ha",
+          "year": "2023"
+        },
+        {
+          "issue": "11",
+          "key": "10.1016/j.eswa.2025.128471_bib0040",
+          "first-page": "1427",
+          "article-title": "A relative imaging time coding-based genetic algorithm for agile imaging satellite task planning",
+          "volume": "42",
+          "author": "Han",
+          "year": "2021",
+          "journal-title": "Journal of Astronautics"
+        },
+        {
+          "key": "10.1016/j.eswa.2025.128471_bib0041",
+          "unstructured": "Han, P., Guo, Y., Li, C., Zhi, H., & Lv, Y. (2021b). Geo satellites on-orbit repairing mission planning with mission deadline constraint using a large neighborhood search-genetic algorithm. arXiv preprint. 10.48550/arXiv.2110.03878."
+        },
+        {
+          "issue": "2",
+          "key": "10.1016/j.eswa.2025.128471_bib0042",
+          "doi-asserted-by": "crossref",
+          "first-page": "286",
+          "DOI": "10.1016/j.asr.2022.04.034",
+          "article-title": "Multiple GEO satellites on-orbit repairing mission planning using large neighborhood search-adaptive genetic algorithm",
+          "volume": "70",
+          "author": "Han",
+          "year": "2022",
+          "journal-title": "Advances in Space Research"
+        },
+        {
+          "issue": "02",
+          "key": "10.1016/j.eswa.2025.128471_bib0043",
+          "first-page": "8",
+          "article-title": "Many-to-many on-orbit refuelling mission planning for GEO satellites",
+          "volume": "39",
+          "author": "Han",
+          "year": "2022",
+          "journal-title": "Aerospace Shanghai (Chinese& English)"
+        },
+        {
+          "key": "10.1016/j.eswa.2025.128471_bib0044",
+          "doi-asserted-by": "crossref",
+          "first-page": "12",
+          "DOI": "10.1016/j.cor.2018.06.020",
+          "article-title": "An improved adaptive large neighborhood search algorithm for multiple agile satellites scheduling",
+          "volume": "100",
+          "author": "He",
+          "year": "2018",
+          "journal-title": "Computers & Operations Research"
+        },
+        {
+          "issue": "4",
+          "key": "10.1016/j.eswa.2025.128471_bib0045",
+          "doi-asserted-by": "crossref",
+          "first-page": "1051",
+          "DOI": "10.1007/s10845-019-01518-4",
+          "article-title": "Time/sequence-dependent scheduling: The design and evaluation of a general purpose tabu-based adaptive large neighbourhood search algorithm",
+          "volume": "31",
+          "author": "He",
+          "year": "2020",
+          "journal-title": "Journal of Intelligent Manufacturing"
+        },
+        {
+          "key": "10.1016/j.eswa.2025.128471_bib0046",
+          "doi-asserted-by": "crossref",
+          "first-page": "857",
+          "DOI": "10.1016/j.actaastro.2024.08.050",
+          "article-title": "Intelligent mission planning for autonomous distributed satellite systems",
+          "volume": "225",
+          "author": "Hilton",
+          "year": "2024",
+          "journal-title": "Acta Astronautica"
+        },
+        {
+          "key": "10.1016/j.eswa.2025.128471_bib0047",
+          "series-title": "Adaptation in natural and artificial systems: An introductory analysis with applications to biology, control, and artificial intelligence",
+          "author": "Holland",
+          "year": "1992"
+        },
+        {
+          "key": "10.1016/j.eswa.2025.128471_bib0048",
+          "doi-asserted-by": "crossref",
+          "first-page": "267",
+          "DOI": "10.1613/jair.2861",
+          "article-title": "ParamILS: An automatic algorithm configuration framework",
+          "volume": "36",
+          "author": "Hutter",
+          "year": "2009",
+          "journal-title": "Journal of Artificial Intelligence Research"
+        },
+        {
+          "key": "10.1016/j.eswa.2025.128471_bib0049",
+          "series-title": "IoT and spacecraft informatics",
+          "first-page": "157",
+          "article-title": "An overview of optimization and resolution methods in satellite scheduling and spacecraft operation: Description, modeling, and application",
+          "author": "Ip",
+          "year": "2022"
+        },
+        {
+          "issue": "10",
+          "key": "10.1016/j.eswa.2025.128471_bib0050",
+          "first-page": "3164",
+          "article-title": "Distributed satellite resource scheduling based on improved contract network protocol",
+          "volume": "44",
+          "author": "Jin",
+          "year": "2022",
+          "journal-title": "Systems Engineering and Electronics"
+        },
+        {
+          "issue": "6",
+          "key": "10.1016/j.eswa.2025.128471_bib0051",
+          "doi-asserted-by": "crossref",
+          "first-page": "1407",
+          "DOI": "10.23919/JSEE.2021.000120",
+          "article-title": "Real-time online rescheduling for multiple agile satellites with emergent tasks",
+          "volume": "32",
+          "author": "Jun",
+          "year": "2021",
+          "journal-title": "Journal of Systems Engineering and Electronics"
+        },
+        {
+          "key": "10.1016/j.eswa.2025.128471_bib0052",
+          "doi-asserted-by": "crossref",
+          "first-page": "670",
+          "DOI": "10.1016/j.actaastro.2024.03.027",
+          "article-title": "Agile Earth observation satellite constellations scheduling for large area target imaging using heuristic search",
+          "volume": "219",
+          "author": "Kandepi",
+          "year": "2024",
+          "journal-title": "Acta Astronautica"
+        },
+        {
+          "key": "10.1016/j.eswa.2025.128471_bib0053",
+          "series-title": "2014 IEEE congress on evolutionary computation",
+          "article-title": "A review of population initialization techniques for evolutionary algorithms",
+          "author": "Kazimipour",
+          "year": "2014"
+        },
+        {
+          "key": "10.1016/j.eswa.2025.128471_bib0054",
+          "series-title": "Proceedings of ICNN’95-international conference on neural networks",
+          "article-title": "Particle swarm optimization",
+          "author": "Kennedy",
+          "year": "1995"
+        },
+        {
+          "issue": "4598",
+          "key": "10.1016/j.eswa.2025.128471_bib0055",
+          "doi-asserted-by": "crossref",
+          "first-page": "671",
+          "DOI": "10.1126/science.220.4598.671",
+          "article-title": "Optimization by simulated annealing",
+          "volume": "220",
+          "author": "Kirkpatrick",
+          "year": "1983",
+          "journal-title": "Science (New York, N.Y.)"
+        },
+        {
+          "key": "10.1016/j.eswa.2025.128471_bib0056",
+          "series-title": "Springer Berlin Heidelberg",
+          "first-page": "105",
+          "article-title": "An automatic method for solving discrete programming problems",
+          "author": "Land",
+          "year": "2010"
+        },
+        {
+          "issue": "3",
+          "key": "10.1016/j.eswa.2025.128471_bib0057",
+          "doi-asserted-by": "crossref",
+          "first-page": "279",
+          "DOI": "10.2514/1.I011270",
+          "article-title": "Optimal mission planning for multiple agile satellites using modified dynamic programming",
+          "volume": "21",
+          "author": "Lee",
+          "year": "2024",
+          "journal-title": "Journal of Aerospace Information Systems"
+        },
+        {
+          "issue": "10",
+          "key": "10.1016/j.eswa.2025.128471_bib0058",
+          "first-page": "277",
+          "article-title": "Agile Earth observation satellite mission scheduling algorithm based on ESWO",
+          "volume": "45",
+          "author": "Li",
+          "year": "2024",
+          "journal-title": "Acta Aeronautica et Astronautica Sinica"
+        },
+        {
+          "issue": "5",
+          "key": "10.1016/j.eswa.2025.128471_bib0059",
+          "doi-asserted-by": "crossref",
+          "first-page": "2388",
+          "DOI": "10.1016/j.asr.2024.06.003",
+          "article-title": "Mission planning for distributed multiple agile Earth observing satellites by attention-based deep reinforcement learning method",
+          "volume": "74",
+          "author": "Li",
+          "year": "2024",
+          "journal-title": "Advances in Space Research"
+        },
+        {
+          "issue": "1",
+          "key": "10.1016/j.eswa.2025.128471_bib0060",
+          "first-page": "101",
+          "article-title": "Satellite imaging planning method based on improved Cuckoo search",
+          "volume": "40",
+          "author": "Li",
+          "year": "2023",
+          "journal-title": "Journal of University of Chinese Academy of Sciences"
+        },
+        {
+          "issue": "01",
+          "key": "10.1016/j.eswa.2025.128471_bib0061",
+          "doi-asserted-by": "crossref",
+          "first-page": "159",
+          "DOI": "10.11728/cjss2024.01.2022-0074",
+          "article-title": "On-orbit distributed negotiation intelligent mission planning for instant response",
+          "volume": "44",
+          "author": "Li",
+          "year": "2024",
+          "journal-title": "Chinese Journal of Space Science"
+        },
+        {
+          "key": "10.1016/j.eswa.2025.128471_bib0062",
+          "doi-asserted-by": "crossref",
+          "first-page": "757",
+          "DOI": "10.1016/j.actaastro.2020.10.020",
+          "article-title": "A precedence-rule-based heuristic for satellite onboard activity planning",
+          "volume": "178",
+          "author": "Liang",
+          "year": "2021",
+          "journal-title": "Acta Astronautica"
+        },
+        {
+          "issue": "6",
+          "key": "10.1016/j.eswa.2025.128471_bib0063",
+          "doi-asserted-by": "crossref",
+          "first-page": "972",
+          "DOI": "10.1287/opre.11.6.972",
+          "article-title": "An algorithm for the traveling salesman problem",
+          "volume": "11",
+          "author": "Little",
+          "year": "1963",
+          "journal-title": "Operations Research"
+        },
+        {
+          "key": "10.1016/j.eswa.2025.128471_bib0064",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1016/j.swevo.2022.101124",
+          "article-title": "A data-driven parallel adaptive large neighborhood search algorithm for a large-scale inter-satellite link scheduling problem",
+          "volume": "74",
+          "author": "Liu",
+          "year": "2022",
+          "journal-title": "Swarm and Evolutionary Computation"
+        },
+        {
+          "issue": "03",
+          "key": "10.1016/j.eswa.2025.128471_bib0065",
+          "first-page": "123",
+          "article-title": "Research of dynamic beam resource scheduling of LEO constellation based on A2C algorithm",
+          "volume": "43",
+          "author": "Liu",
+          "year": "2023",
+          "journal-title": "Chinese Space Science and Technology"
+        },
+        {
+          "key": "10.1016/j.eswa.2025.128471_bib0066",
+          "doi-asserted-by": "crossref",
+          "first-page": "41",
+          "DOI": "10.1016/j.cor.2017.04.006",
+          "article-title": "An adaptive large neighborhood search metaheuristic for agile satellite scheduling with time-dependent transition time",
+          "volume": "86",
+          "author": "Liu",
+          "year": "2017",
+          "journal-title": "Computers & Operations Research"
+        },
+        {
+          "issue": "10",
+          "key": "10.1016/j.eswa.2025.128471_bib0067",
+          "doi-asserted-by": "crossref",
+          "first-page": "792",
+          "DOI": "10.3390/aerospace11100792",
+          "article-title": "A multi-pointer network for multiple agile optical satellite scheduling problem",
+          "volume": "11",
+          "author": "Liu",
+          "year": "2024",
+          "journal-title": "Aerospace"
+        },
+        {
+          "issue": "11",
+          "key": "10.1016/j.eswa.2025.128471_bib0068",
+          "doi-asserted-by": "crossref",
+          "first-page": "231",
+          "DOI": "10.3390/a12110231",
+          "article-title": "A GA-SA hybrid planning algorithm combined with improved clustering for LEO observation satellite missions",
+          "volume": "12",
+          "author": "Long",
+          "year": "2019",
+          "journal-title": "Algorithms"
+        },
+        {
+          "issue": "6",
+          "key": "10.1016/j.eswa.2025.128471_bib0069",
+          "doi-asserted-by": "crossref",
+          "first-page": "1087",
+          "DOI": "10.1063/1.1699114",
+          "article-title": "Equation of state calculations by fast computing machines",
+          "volume": "21",
+          "author": "Metropolis",
+          "year": "1953",
+          "journal-title": "The Journal of Chemical Physics"
+        },
+        {
+          "issue": "2",
+          "key": "10.1016/j.eswa.2025.128471_bib0070",
+          "doi-asserted-by": "crossref",
+          "first-page": "161",
+          "DOI": "10.1007/BF00406753",
+          "article-title": "Decentralized negotiation: An approach to the distributed planning problem",
+          "volume": "1",
+          "author": "Moehlman",
+          "year": "1992",
+          "journal-title": "Group Decision and Negotiation"
+        },
+        {
+          "key": "10.1016/j.eswa.2025.128471_bib0071",
+          "first-page": "37",
+          "article-title": "On evolution, search, optimization, genetic algorithms and martial arts: Towards memetic algorithms",
+          "volume": "826",
+          "author": "Moscato",
+          "year": "1989",
+          "journal-title": "Caltech Concurrent Computation Program, C3P Report"
+        },
+        {
+          "key": "10.1016/j.eswa.2025.128471_bib0072",
+          "unstructured": "Nazari, M., Oroojlooy, A., Snyder, L., & Takác, M. (2018). Reinforcement learning for solving the vehicle routing problem. In Advances in neural information processing systems. (31). 10.48550/arXiv.1802.04240."
+        },
+        {
+          "key": "10.1016/j.eswa.2025.128471_bib0073",
+          "unstructured": "of Concerned Scientists U. (2023). Satellite database [EB/OL]. Available from: https://www.ucsusa.org/resources/satellite-database [Accessed: 1 May 2023]."
+        },
+        {
+          "issue": "3",
+          "key": "10.1016/j.eswa.2025.128471_bib0074",
+          "doi-asserted-by": "crossref",
+          "first-page": "1614",
+          "DOI": "10.1109/TSMC.2020.3031738",
+          "article-title": "Solving the agile Earth observation satellite scheduling problem with time-dependent transition times",
+          "volume": "52",
+          "author": "Peng",
+          "year": "2020",
+          "journal-title": "IEEE Transactions on Systems, Man, and Cybernetics: Systems"
+        },
+        {
+          "key": "10.1016/j.eswa.2025.128471_bib0075",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1016/j.cor.2020.104946",
+          "article-title": "An exact algorithm for agile Earth observation satellite scheduling with time-dependent profits",
+          "volume": "120",
+          "author": "Peng",
+          "year": "2020",
+          "journal-title": "Computers & Operations Research"
+        },
+        {
+          "issue": "8",
+          "key": "10.1016/j.eswa.2025.128471_bib0076",
+          "doi-asserted-by": "crossref",
+          "first-page": "2403",
+          "DOI": "10.1016/j.cor.2005.09.012",
+          "article-title": "A general heuristic for vehicle routing problems",
+          "volume": "34",
+          "author": "Pisinger",
+          "year": "2007",
+          "journal-title": "Computers & Operations Research"
+        },
+        {
+          "issue": "2",
+          "key": "10.1016/j.eswa.2025.128471_bib0077",
+          "first-page": "1989",
+          "article-title": "Satellite observation and data-transmission scheduling using imitation learning based on mixed integer linear programming",
+          "volume": "59",
+          "author": "Qu",
+          "year": "2022",
+          "journal-title": "IEEE Transactions on Aerospace and Electronic Systems"
+        },
+        {
+          "key": "10.1016/j.eswa.2025.128471_bib0078",
+          "series-title": "International conference on space operations",
+          "first-page": "583",
+          "article-title": "Autonomous mission planning and operations for optimal deployment of small satellite constellations in cislunar space",
+          "author": "Rashed",
+          "year": "2025"
+        },
+        {
+          "key": "10.1016/j.eswa.2025.128471_bib0079",
+          "series-title": "Proceedings of the AAAI conference on artificial intelligence",
+          "first-page": "28601",
+          "article-title": "Towards scientific discovery with generative ai: progress, opportunities, and challenges",
+          "volume": "39",
+          "author": "Reddy",
+          "year": "2025"
+        },
+        {
+          "key": "10.1016/j.eswa.2025.128471_bib0080",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1016/j.cie.2022.108242",
+          "article-title": "A competitive markov decision process model and a recursive reinforcement-learning algorithm for fairness scheduling of agile satellites",
+          "volume": "169",
+          "author": "Ren",
+          "year": "2022",
+          "journal-title": "Computers & Industrial Engineering"
+        },
+        {
+          "key": "10.1016/j.eswa.2025.128471_bib0081",
+          "series-title": "Proceedings of the tenth annual ACM symposium on theory of computing",
+          "article-title": "The complexity of satisfiability problems",
+          "author": "Schaefer",
+          "year": "1978"
+        },
+        {
+          "key": "10.1016/j.eswa.2025.128471_bib0082",
+          "doi-asserted-by": "crossref",
+          "first-page": "92",
+          "DOI": "10.1016/j.actaastro.2025.02.008",
+          "article-title": "Joint observation and transmission scheduling of multiple agile satellites with energy constraint using improved ACO algorithm",
+          "volume": "230",
+          "author": "Shang",
+          "year": "2025",
+          "journal-title": "Acta Astronautica"
+        },
+        {
+          "issue": "4",
+          "key": "10.1016/j.eswa.2025.128471_bib0083",
+          "doi-asserted-by": "crossref",
+          "first-page": "4073",
+          "DOI": "10.1109/TAES.2024.3371964",
+          "article-title": "Energy-efficient satellite range scheduling using a reinforcement learning-based memetic algorithm",
+          "volume": "60",
+          "author": "Song",
+          "year": "2024",
+          "journal-title": "IEEE Transactions on Aerospace and Electronic Systems"
+        },
+        {
+          "key": "10.1016/j.eswa.2025.128471_bib0084",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1016/j.swevo.2023.101236",
+          "article-title": "Rl-ga: A reinforcement learning-based genetic algorithm for electromagnetic detection satellite scheduling problem",
+          "volume": "77",
+          "author": "Song",
+          "year": "2023",
+          "journal-title": "Swarm and Evolutionary Computation"
+        },
+        {
+          "issue": "4",
+          "key": "10.1016/j.eswa.2025.128471_bib0085",
+          "doi-asserted-by": "crossref",
+          "first-page": "3893",
+          "DOI": "10.1109/JSYST.2017.2720682",
+          "article-title": "A survey on model-based mission planning and execution for autonomous spacecraft",
+          "volume": "12",
+          "author": "Tipaldi",
+          "year": "2017",
+          "journal-title": "IEEE Systems Journal"
+        },
+        {
+          "key": "10.1016/j.eswa.2025.128471_bib0086",
+          "series-title": "Autonomous and autonomic systems: With applications to NASA intelligent spacecraft operations and exploration systems",
+          "author": "Truszkowski",
+          "year": "2010"
+        },
+        {
+          "key": "10.1016/j.eswa.2025.128471_bib0087",
+          "unstructured": "Vaswani, A., Shazeer, N., Parmar, N., Uszkoreit, J., Jones, L., Gomez, A. N., Kaiser, L., & Polosukhin, I. (2017). Attention is all you need. Advances in Neural Information Processing Systems, 30. 10.48550/arXiv.1706.03762."
+        },
+        {
+          "key": "10.1016/j.eswa.2025.128471_bib0088",
+          "series-title": "Advances in neural information processing systems",
+          "article-title": "Pointer networks",
+          "volume": "28",
+          "author": "Vinyals",
+          "year": "2015"
+        },
+        {
+          "key": "10.1016/j.eswa.2025.128471_bib0089",
+          "article-title": "A strategy fusion-based multi-objective optimization approach for agile Earth observation satellite scheduling problem",
+          "volume": "62",
+          "author": "Wang",
+          "year": "2024",
+          "journal-title": "IEEE Transactions on Geoscience and Remote Sensing"
+        },
+        {
+          "issue": "3",
+          "key": "10.1016/j.eswa.2025.128471_bib0090",
+          "doi-asserted-by": "crossref",
+          "first-page": "3556",
+          "DOI": "10.1109/JSYST.2018.2874223",
+          "article-title": "Exact and heuristic scheduling algorithms for multiple Earth observation satellites under uncertainties of clouds",
+          "volume": "13",
+          "author": "Wang",
+          "year": "2018",
+          "journal-title": "IEEE Systems Journal"
+        },
+        {
+          "issue": "03",
+          "key": "10.1016/j.eswa.2025.128471_bib0091",
+          "first-page": "287",
+          "article-title": "Autonomous cooperative mission planning for remote sensing constellation based on multi-agent",
+          "volume": "7",
+          "author": "Wang",
+          "year": "2021",
+          "journal-title": "Journal of Command and Control"
+        },
+        {
+          "key": "10.1016/j.eswa.2025.128471_bib0092",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1016/j.cie.2024.110122",
+          "article-title": "An adaptive large neighborhood search for the multi-depot dynamic vehicle routing problem with time windows",
+          "volume": "191",
+          "author": "Wang",
+          "year": "2024",
+          "journal-title": "Computers & Industrial Engineering"
+        },
+        {
+          "key": "10.1016/j.eswa.2025.128471_bib0093",
+          "series-title": "2024 IEEE international conference on control science and systems engineering (ICCSSE)",
+          "first-page": "328",
+          "article-title": "Research of multi-satellite mission planning method based on multi-chromosome genetic algorithm",
+          "author": "Wang",
+          "year": "2024"
+        },
+        {
+          "key": "10.1016/j.eswa.2025.128471_bib0094",
+          "doi-asserted-by": "crossref",
+          "first-page": "595",
+          "DOI": "10.1016/j.actaastro.2020.09.040",
+          "article-title": "Design of agile satellite constellation based on hybrid-resampling particle swarm optimization method",
+          "volume": "178",
+          "author": "Wang",
+          "year": "2021",
+          "journal-title": "Acta Astronautica"
+        },
+        {
+          "key": "10.1016/j.eswa.2025.128471_bib0095",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1016/j.swevo.2025.101857",
+          "article-title": "Multi-objective neural policy approach for agile Earth satellite scheduling problem considering image quality",
+          "volume": "94",
+          "author": "Wei",
+          "year": "2025",
+          "journal-title": "Swarm and Evolutionary Computation"
+        },
+        {
+          "key": "10.1016/j.eswa.2025.128471_bib0096",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1109/TAES.2024.3416427",
+          "article-title": "Improved adaptive large neighborhood search algorithm based on the two-stage framework for scheduling multiple super-agile satellites",
+          "author": "Wu",
+          "year": "2024",
+          "journal-title": "IEEE Transactions on Aerospace and Electronic Systems"
+        },
+        {
+          "key": "10.1016/j.eswa.2025.128471_bib0097",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1016/j.cie.2022.108823",
+          "article-title": "A data-driven improved genetic algorithm for agile Earth observation satellite scheduling with time-dependent transition time",
+          "volume": "174",
+          "author": "Wu",
+          "year": "2022",
+          "journal-title": "Computers & Industrial Engineering"
+        },
+        {
+          "key": "10.1016/j.eswa.2025.128471_bib0098",
+          "series-title": "2023 35th Chinese control and decision conference (CCDC)",
+          "article-title": "A large-scale mission planning method for agile Earth observation satellite",
+          "author": "Wu",
+          "year": "2023"
+        },
+        {
+          "key": "10.1016/j.eswa.2025.128471_bib0099",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1016/j.ins.2023.04.003",
+          "article-title": "Frequent pattern-based parallel search approach for time-dependent agile Earth observation satellite scheduling",
+          "volume": "636",
+          "author": "Wu",
+          "year": "2023",
+          "journal-title": "Information Sciences"
+        },
+        {
+          "key": "10.1016/j.eswa.2025.128471_bib0100",
+          "doi-asserted-by": "crossref",
+          "first-page": "263",
+          "DOI": "10.1016/j.ress.2019.03.016",
+          "article-title": "A two-stage flow-shop scheme for the multi-satellite observation and data-downlink scheduling problem considering weather uncertainties",
+          "volume": "188",
+          "author": "Xiao",
+          "year": "2019",
+          "journal-title": "Reliability Engineering & System Safety"
+        },
+        {
+          "issue": "2",
+          "key": "10.1016/j.eswa.2025.128471_bib0101",
+          "first-page": "127",
+          "article-title": "Literature review for autonomous scheduling technology of agile Earth observation satellites",
+          "volume": "40",
+          "author": "Xie",
+          "year": "2019",
+          "journal-title": "Journal of Astronautics"
+        },
+        {
+          "issue": "6",
+          "key": "10.1016/j.eswa.2025.128471_bib0102",
+          "first-page": "1897",
+          "article-title": "Improved adaptive large neighborhood search algorithm for multi-depot vehicle routing problem with time window",
+          "volume": "44",
+          "author": "Yan",
+          "year": "2023",
+          "journal-title": "Journal of Computer Applications"
+        },
+        {
+          "issue": "11",
+          "key": "10.1016/j.eswa.2025.128471_bib0103",
+          "doi-asserted-by": "crossref",
+          "first-page": "4505",
+          "DOI": "10.1016/j.asr.2021.09.003",
+          "article-title": "Onboard coordination and scheduling of multiple autonomous satellites in an uncertain environment",
+          "volume": "68",
+          "author": "Yang",
+          "year": "2021",
+          "journal-title": "Advances in Space Research"
+        },
+        {
+          "issue": "1",
+          "key": "10.1016/j.eswa.2025.128471_bib0104",
+          "first-page": "310",
+          "article-title": "An online collaborative approach for distributed satellites in batch emergency missions",
+          "volume": "45",
+          "author": "Yang",
+          "year": "2025",
+          "journal-title": "Systems Engineering-Theory & Practice"
+        },
+        {
+          "issue": "3",
+          "key": "10.1016/j.eswa.2025.128471_bib0105",
+          "doi-asserted-by": "crossref",
+          "first-page": "843",
+          "DOI": "10.26599/TST.2023.9010064",
+          "article-title": "A fast insertion tabu search with conflict-avoidance heuristic for the multisatellite multimode crosslink scheduling problem",
+          "volume": "29",
+          "author": "Yang",
+          "year": "2023",
+          "journal-title": "Tsinghua Science and Technology"
+        },
+        {
+          "key": "10.1016/j.eswa.2025.128471_bib0106",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1016/j.eswa.2024.124721",
+          "article-title": "Game-theoretic distributed approach for heterogeneous-cost task allocation with budget constraints",
+          "volume": "255",
+          "author": "Yang",
+          "year": "2024",
+          "journal-title": "Expert Systems with Applications"
+        },
+        {
+          "issue": "5",
+          "key": "10.1016/j.eswa.2025.128471_bib0107",
+          "doi-asserted-by": "crossref",
+          "first-page": "1817",
+          "DOI": "10.1109/TCST.2019.2925579",
+          "article-title": "A medium-term conflict detection and resolution method for open low-altitude city airspace based on temporally and spatially integrated strategies",
+          "volume": "28",
+          "author": "Yang",
+          "year": "2019",
+          "journal-title": "IEEE Transactions on Control Systems Technology"
+        },
+        {
+          "issue": "4",
+          "key": "10.1016/j.eswa.2025.128471_bib0108",
+          "first-page": "695",
+          "article-title": "General modeling and optimization technique for real-world Earth observation satellite scheduling",
+          "volume": "10",
+          "author": "Yao",
+          "year": "2023",
+          "journal-title": "Frontiers of Engine- ering Management"
+        },
+        {
+          "key": "10.1016/j.eswa.2025.128471_bib0109",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1016/j.swevo.2025.101867",
+          "article-title": "A spiking neural network based proximal policy optimization method for multi-point imaging mission scheduling of Earth observation satellite",
+          "volume": "94",
+          "author": "Yao",
+          "year": "2025",
+          "journal-title": "Swarm and Evolutionary Computation"
+        },
+        {
+          "issue": "21",
+          "key": "10.1016/j.eswa.2025.128471_bib0110",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.3390/electronics13214244",
+          "article-title": "Mission planning method for dense area target observation based on clustering agile satellites",
+          "volume": "13",
+          "author": "Yu",
+          "year": "2024",
+          "journal-title": "Electronics"
+        },
+        {
+          "issue": "7",
+          "key": "10.1016/j.eswa.2025.128471_bib0111",
+          "first-page": "1059",
+          "article-title": "Task allocation for distributed remote sensing satellites based on contract network algorithm",
+          "volume": "41",
+          "author": "Yu",
+          "year": "2020",
+          "journal-title": "Journal of Harbin Engineering University"
+        },
+        {
+          "issue": "22",
+          "key": "10.1016/j.eswa.2025.128471_bib0112",
+          "doi-asserted-by": "crossref",
+          "first-page": "4353",
+          "DOI": "10.3390/electronics13224353",
+          "article-title": "A heterogeneous multi-satellite dynamic mission planning method based on metaheuristic algorithms",
+          "volume": "13",
+          "author": "Zeng",
+          "year": "2024",
+          "journal-title": "Electronics"
+        },
+        {
+          "key": "10.1016/j.eswa.2025.128471_bib0113",
+          "article-title": "Multiple super-agile satellite collaborative mission planning for area target imaging",
+          "volume": "117",
+          "author": "Zezhong",
+          "year": "2023",
+          "journal-title": "International Journal of Applied Earth Observation and Geoinformation"
+        },
+        {
+          "issue": "1",
+          "key": "10.1016/j.eswa.2025.128471_bib0114",
+          "article-title": "Mission planning issues of imaging satellites: Summary, discussion, and prospects",
+          "volume": "2021",
+          "author": "Zhang",
+          "year": "2021",
+          "journal-title": "International Jou- rnal of Aerospace Engineering"
+        },
+        {
+          "key": "10.1016/j.eswa.2025.128471_bib0115",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1016/j.cor.2021.105626",
+          "article-title": "An improved genetic algorithm for the integrated satellite imaging and data transmission scheduling problem",
+          "volume": "139",
+          "author": "Zhang",
+          "year": "2022",
+          "journal-title": "Computers & Operations Research"
+        },
+        {
+          "issue": "06",
+          "key": "10.1016/j.eswa.2025.128471_bib0116",
+          "first-page": "1497",
+          "article-title": "A united mission planning algorithm framework based on uniform resource encoding for imaging satellites",
+          "volume": "37",
+          "author": "Zhang",
+          "year": "2022",
+          "journal-title": "Control and Decision"
+        },
+        {
+          "issue": "9",
+          "key": "10.1016/j.eswa.2025.128471_bib0117",
+          "first-page": "2712",
+          "article-title": "Satellite scheduling method for intensive tasks based on improved fireworks algorithm",
+          "volume": "38",
+          "author": "Zhang",
+          "year": "2018",
+          "journal-title": "Journal of Computer Applications"
+        },
+        {
+          "key": "10.1016/j.eswa.2025.128471_bib0118",
+          "series-title": "First aerospace frontiers conference (AFC 2024)",
+          "first-page": "41",
+          "article-title": "Multisatellite cooperative task planning method based on tabu-genetic feedback optimization",
+          "volume": "vol. 13218",
+          "author": "Zhao",
+          "year": "2024"
+        },
+        {
+          "issue": "1",
+          "key": "10.1016/j.eswa.2025.128471_bib0119",
+          "doi-asserted-by": "crossref",
+          "first-page": "235",
+          "DOI": "10.32604/cmes.2020.08070",
+          "article-title": "Agile satellite mission planning via task clustering and double-layer tabu algorithm",
+          "volume": "122",
+          "author": "Zhao",
+          "year": "2020",
+          "journal-title": "Computer Modeling in Engineering & Sciences"
+        },
+        {
+          "key": "10.1016/j.eswa.2025.128471_bib0120",
+          "doi-asserted-by": "crossref",
+          "first-page": "111",
+          "DOI": "10.1016/j.ast.2019.03.054",
+          "article-title": "Distributed onboard mission planning for multi-satellite systems",
+          "volume": "89",
+          "author": "Zheng",
+          "year": "2019",
+          "journal-title": "Aerospace Science and Technology"
+        },
+        {
+          "key": "10.1016/j.eswa.2025.128471_bib0121",
+          "doi-asserted-by": "crossref",
+          "first-page": "645",
+          "DOI": "10.1016/j.actaastro.2020.08.041",
+          "article-title": "Multi-satellites imaging scheduling using individual reconfiguration based integer coding genetic algorithm",
+          "volume": "178",
+          "author": "Zhibo",
+          "year": "2021",
+          "journal-title": "Acta Astronautica"
+        },
+        {
+          "issue": "11",
+          "key": "10.1016/j.eswa.2025.128471_bib0122",
+          "doi-asserted-by": "crossref",
+          "first-page": "2612",
+          "DOI": "10.1016/j.asr.2015.09.033",
+          "article-title": "Mission planning optimization for multiple geosynchronous satellites refueling",
+          "volume": "56",
+          "author": "Zhou",
+          "year": "2015",
+          "journal-title": "Advances in Space Research"
+        }
+      ],
+      "container-title": [
+        "Expert Systems with Applications"
+      ],
+      "original-title": [],
+      "language": "en",
+      "link": [
+        {
+          "URL": "https://api.elsevier.com/content/article/PII:S0957417425020901?httpAccept=text/xml",
+          "content-type": "text/xml",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        },
+        {
+          "URL": "https://api.elsevier.com/content/article/PII:S0957417425020901?httpAccept=text/plain",
+          "content-type": "text/plain",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2025,
+            11,
+            5
+          ]
+        ],
+        "date-time": "2025-11-05T11:01:57Z",
+        "timestamp": 1762340517000
+      },
+      "score": 1,
+      "resource": {
+        "primary": {
+          "URL": "https://linkinghub.elsevier.com/retrieve/pii/S0957417425020901"
+        }
+      },
+      "subtitle": [],
+      "short-title": [],
+      "issued": {
+        "date-parts": [
+          [
+            2025,
+            11
+          ]
+        ]
+      },
+      "references-count": 122,
+      "alternative-id": [
+        "S0957417425020901"
+      ],
+      "URL": "https://doi.org/10.1016/j.eswa.2025.128471",
+      "relation": {},
+      "ISSN": [
+        "0957-4174"
+      ],
+      "issn-type": [
+        {
+          "value": "0957-4174",
+          "type": "print"
+        }
+      ],
+      "subject": [],
+      "published": {
+        "date-parts": [
+          [
+            2025,
+            11
+          ]
+        ]
+      },
+      "assertion": [
+        {
+          "value": "Elsevier",
+          "name": "publisher",
+          "label": "This article is maintained by"
+        },
+        {
+          "value": "A review of the frameworks, models, and algorithms for large-scale imaging satellite mission planning",
+          "name": "articletitle",
+          "label": "Article Title"
+        },
+        {
+          "value": "Expert Systems with Applications",
+          "name": "journaltitle",
+          "label": "Journal Title"
+        },
+        {
+          "value": "https://doi.org/10.1016/j.eswa.2025.128471",
+          "name": "articlelink",
+          "label": "CrossRef DOI link to publisher maintained version"
+        },
+        {
+          "value": "article",
+          "name": "content_type",
+          "label": "Content Type"
+        },
+        {
+          "value": "© 2025 Elsevier Ltd. All rights are reserved, including those for text and data mining, AI training, and similar technologies.",
+          "name": "copyright",
+          "label": "Copyright"
+        }
+      ],
+      "article-number": "128471"
+    }
+  }
+}

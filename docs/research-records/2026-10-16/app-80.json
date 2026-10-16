@@ -1,0 +1,2952 @@
+{
+  "retrieved": "2026-10-16",
+  "url": "https://api.crossref.org/works?query.bibliographic=metaheuristic+cryptographic+Boolean+function+design+survey&rows=3&filter=until-pub-date%3A2026-10-16",
+  "response": {
+    "status": "ok",
+    "message-type": "work-list",
+    "message-version": "1.0.0",
+    "message": {
+      "facets": {},
+      "total-results": 4173366,
+      "items": [
+        {
+          "indexed": {
+            "date-parts": [
+              [
+                2026,
+                10,
+                1
+              ]
+            ],
+            "date-time": "2026-10-01T04:07:50Z",
+            "timestamp": 1790827670699,
+            "version": "4.1.0"
+          },
+          "reference-count": 86,
+          "publisher": "Springer Science and Business Media LLC",
+          "issue": "6",
+          "license": [
+            {
+              "start": {
+                "date-parts": [
+                  [
+                    2023,
+                    7,
+                    29
+                  ]
+                ],
+                "date-time": "2023-07-29T00:00:00Z",
+                "timestamp": 1690588800000
+              },
+              "content-version": "tdm",
+              "delay-in-days": 0,
+              "URL": "https://creativecommons.org/licenses/by/4.0"
+            },
+            {
+              "start": {
+                "date-parts": [
+                  [
+                    2023,
+                    7,
+                    29
+                  ]
+                ],
+                "date-time": "2023-07-29T00:00:00Z",
+                "timestamp": 1690588800000
+              },
+              "content-version": "vor",
+              "delay-in-days": 0,
+              "URL": "https://creativecommons.org/licenses/by/4.0"
+            }
+          ],
+          "content-domain": {
+            "domain": [
+              "link.springer.com"
+            ],
+            "crossmark-restriction": false
+          },
+          "short-container-title": [
+            "Cryptogr. Commun."
+          ],
+          "published-print": {
+            "date-parts": [
+              [
+                2023,
+                11
+              ]
+            ]
+          },
+          "abstract": "",
+          "DOI": "10.1007/s12095-023-00662-2",
+          "type": "journal-article",
+          "created": {
+            "date-parts": [
+              [
+                2023,
+                7,
+                28
+              ]
+            ],
+            "date-time": "2023-07-28T23:18:02Z",
+            "timestamp": 1690586282000
+          },
+          "page": "1171-1197",
+          "update-policy": "https://doi.org/10.1007/springer_crossmark_policy",
+          "source": "Crossref",
+          "is-referenced-by-count": 29,
+          "title": [
+            "A survey of metaheuristic algorithms for the design of cryptographic Boolean functions"
+          ],
+          "prefix": "10.1007",
+          "volume": "15",
+          "author": [
+            {
+              "given": "Marko",
+              "family": "Djurasevic",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Domagoj",
+              "family": "Jakobovic",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Luca",
+              "family": "Mariot",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Stjepan",
+              "family": "Picek",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            }
+          ],
+          "member": "297",
+          "published-online": {
+            "date-parts": [
+              [
+                2023,
+                7,
+                29
+              ]
+            ]
+          },
+          "reference": [
+            {
+              "key": "662_CR1",
+              "doi-asserted-by": "crossref",
+              "unstructured": "Aguirre, H., Okazaki, H., Fuwa, Y.: An evolutionary multiobjective approach to design highly non-linear boolean functions. In Proceedings of the 9th Annual Conference on Genetic and Evolutionary Computation, GECCO ’07, page 749-756, New York, NY, USA . Association for Computing Machinery (2007)",
+              "DOI": "10.1145/1276958.1277112"
+            },
+            {
+              "key": "662_CR2",
+              "doi-asserted-by": "crossref",
+              "unstructured": "Ashlock, D.: Finding designs with genetic algorithms. In Computational and Constructive Design Theory, pages 49–65. Springer, Boston, MA (1996)",
+              "DOI": "10.1007/978-1-4757-2497-4_4"
+            },
+            {
+              "issue": "1",
+              "key": "662_CR3",
+              "doi-asserted-by": "publisher",
+              "first-page": "639",
+              "DOI": "10.1007/s12065-020-00538-x",
+              "volume": "15",
+              "author": "PK Behera",
+              "year": "2022",
+              "unstructured": "Behera, P.K., Gangopadhyay, S.: An improved hybrid genetic algorithm to construct balanced boolean function with optimal cryptographic properties. Evol. Intell. 15(1), 639–653 (2022)",
+              "journal-title": "Evol. Intell."
+            },
+            {
+              "issue": "9",
+              "key": "662_CR4",
+              "doi-asserted-by": "publisher",
+              "first-page": "984",
+              "DOI": "10.1109/12.954512",
+              "volume": "50",
+              "author": "A Bernasconi",
+              "year": "2001",
+              "unstructured": "Bernasconi, A., Codenotti, B., Vanderkam, J.M.: A characterization of bent functions in terms of strongly regular graphs. IEEE. Trans. Comput. 50(9), 984–985 (2001)",
+              "journal-title": "IEEE. Trans. Comput."
+            },
+            {
+              "key": "662_CR5",
+              "first-page": "231",
+              "volume": "29",
+              "author": "L Burnett",
+              "year": "2004",
+              "unstructured": "Burnett, L., Millan, W., Dawson, E., Clark, A.: Simpler methods for generating better boolean functions with good cryptographic properties. Australas. J. Combin. 29, 231–248 (2004)",
+              "journal-title": "Australas. J. Combin."
+            },
+            {
+              "key": "662_CR6",
+              "doi-asserted-by": "crossref",
+              "unstructured": "Camion, P., Carlet, C., Charpin, P., Sendrier, N.: On correlationimmune functions. In J. Feigenbaum. (eds.) Advances in Cryptology-CRYPTO ’91, 11th Annual International Cryptology Conference, Santa Barbara, California, USA, August 11-15, 1991, Proceedings, Lecture Notes in Computer Science,vol. 576, pp 86–100. Springer (1991)",
+              "DOI": "10.1007/3-540-46766-1_6"
+            },
+            {
+              "key": "662_CR7",
+              "volume-title": "Boolean Functions for Cryptography and Coding Theory",
+              "author": "C Carlet",
+              "year": "2021",
+              "unstructured": "Carlet, C.: Boolean Functions for Cryptography and Coding Theory. Cambridge University Press, Cambridge (2021)"
+            },
+            {
+              "issue": "2",
+              "key": "662_CR8",
+              "doi-asserted-by": "publisher",
+              "first-page": "1355",
+              "DOI": "10.1109/TIT.2021.3126684",
+              "volume": "68",
+              "author": "C Carlet",
+              "year": "2022",
+              "unstructured": "Carlet, C.: A wide class of boolean functions generalizing the hidden weight bit function. IEEE Trans. Inf. Theory. 68(2), 1355–1368 (2022)",
+              "journal-title": "IEEE Trans. Inf. Theory."
+            },
+            {
+              "key": "662_CR9",
+              "doi-asserted-by": "crossref",
+              "unstructured": "Carlet, C., Djurasevic, M., Jakobovic, D., Mariot, L., Picek, S.: Evolving constructions for balanced, highly nonlinear boolean functions. In Proceedings of the Genetic and Evolutionary Computation Conference, GECCO ’22, page 1147–1155, New York, NY, USA. Association for Computing Machinery (2022)",
+              "DOI": "10.1145/3512290.3528871"
+            },
+            {
+              "key": "662_CR10",
+              "doi-asserted-by": "crossref",
+              "unstructured": "Carlet, C., Jakobovic, D., Picek, S.: Evolutionary algorithms-assisted construction of cryptographic boolean functions. In Chicano, F., Krawiec, K.(eds.) GECCO ’21: Genetic and Evolutionary Computation Conference, Lille, France, July 10-14, 2021, pages 565–573. ACM (2021)",
+              "DOI": "10.1145/3449639.3459362"
+            },
+            {
+              "key": "662_CR11",
+              "doi-asserted-by": "crossref",
+              "unstructured": "Clark, J.A., Jacob, J.L.: Two-stage optimisation in the design of boolean functions. In Dawson, E.P., Clark, A., Boyd, C.(eds.) Information Security and Privacy, pages 242–254, Berlin, Heidelberg, 2000. Springer Berlin Heidelberg (2000)",
+              "DOI": "10.1007/10718964_20"
+            },
+            {
+              "key": "662_CR12",
+              "doi-asserted-by": "crossref",
+              "unstructured": "Clark, J.A., Jacob, J.L., Maitra, S., Stanica, P.: Almost boolean functions: the design of boolean functions by spectral inversion. In The 2003 Congress on Evolutionary Computation, 2003. CEC ’03., volume 3, pages 2173-2180 Vol.3 (2003)",
+              "DOI": "10.1109/CEC.2003.1299941"
+            },
+            {
+              "key": "662_CR13",
+              "doi-asserted-by": "crossref",
+              "unstructured": "J. A. Clark, J. L. Jacob, and S. Stepney. Searching for cost functions. In Proceedings of the IEEE Congress on Evolutionary Computation, CEC 2004, 19-23 June 2004, Portland, OR, USA, pages 1517-1524. IEEE, (2004)",
+              "DOI": "10.1109/CEC.2004.1331076"
+            },
+            {
+              "key": "662_CR14",
+              "doi-asserted-by": "crossref",
+              "unstructured": "Clark, J.A., Jacob, J.L., Stepney, S., Maitra, S., Millan, W.: Evolving boolean functions satisfying multiple criteria. In A. Menezes and P. Sarkar, editors, Progress in Cryptology - INDOCRYPT 2002, pages 246–259, Berlin, Heidelberg, 2002. Springer Berlin Heidelberg (2002)",
+              "DOI": "10.1007/3-540-36231-2_20"
+            },
+            {
+              "key": "662_CR15",
+              "doi-asserted-by": "crossref",
+              "unstructured": "Colbourn, C.J.:CRC handbook of combinatorial designs. CRC press (2010)",
+              "DOI": "10.1201/9781003040897"
+            },
+            {
+              "key": "662_CR16",
+              "doi-asserted-by": "crossref",
+              "unstructured": "Darwin, C.: On the Origin of Species by Means of Natural Selection. Murray, London, 1859. or the Preservation of Favored Races in the Struggle for Life (1859)",
+              "DOI": "10.5962/bhl.title.68064"
+            },
+            {
+              "issue": "3",
+              "key": "662_CR17",
+              "doi-asserted-by": "publisher",
+              "first-page": "239",
+              "DOI": "10.1109/TEVC.2002.1011539",
+              "volume": "6",
+              "author": "L de Castro",
+              "year": "2002",
+              "unstructured": "de Castro, L., Von Zuben, F.: Learning and optimization using the clonal selection principle. IEEE. Trans. Evol. Comput. 6(3), 239–251 (2002)",
+              "journal-title": "IEEE. Trans. Evol. Comput."
+            },
+            {
+              "key": "662_CR18",
+              "unstructured": "Dillon, J.F.: Elementary Hadamard difference sets. PhD thesis, Univ. of Maryland (1974)"
+            },
+            {
+              "key": "662_CR19",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1007/978-3-662-05094-1",
+              "volume-title": "Introduction to Evolutionary Computing",
+              "author": "AE Eiben",
+              "year": "2003",
+              "unstructured": "Eiben, A.E., Smith, J.E.: Introduction to Evolutionary Computing. Springer-Verlag, Berlin Heidelberg New York, USA, Berlin, Heidelberg (2003)"
+            },
+            {
+              "key": "662_CR20",
+              "doi-asserted-by": "crossref",
+              "unstructured": "Fuller, J., Dawson, E., Millan, W.: Evolutionary generation of bent functions for cryptography. In Proceedings of the IEEE Congress on Evolutionary Computation, CEC 2003, Canberra, Australia, December 8-12, 2003, pages 1655–1661. IEEE (2003)",
+              "DOI": "10.1109/CEC.2003.1299871"
+            },
+            {
+              "key": "662_CR21",
+              "doi-asserted-by": "crossref",
+              "unstructured": "Glover, F.W., Kochenberger, G.A (ed.).: Handbook of Metaheuristics, volume 114 of International Series in Operations Research & Management Science. Springer, Boston, MA, 1 edition, Jan (2003)",
+              "DOI": "10.1007/b101874"
+            },
+            {
+              "key": "662_CR22",
+              "doi-asserted-by": "crossref",
+              "unstructured": "Hell, M., Johansson, T., Maximov, A., Meier, W.: A stream cipher proposal: Grain-128. In IEEE International Symposium on Information Theory, pages 1614–1618, July (2006)",
+              "DOI": "10.1109/ISIT.2006.261549"
+            },
+            {
+              "key": "662_CR23",
+              "doi-asserted-by": "crossref",
+              "unstructured": "Hrbacek, R., Dvorak, V.: Bent function synthesis by means of cartesian genetic programming. In T. Bartz-Beielstein, J. Branke, B. Filipič, and J. Smith, editors, Parallel Problem Solving from Nature - PPSN XIII, pages 414–423, Cham, 2014. Springer International Publishing (2014)",
+              "DOI": "10.1007/978-3-319-10762-2_41"
+            },
+            {
+              "key": "662_CR24",
+              "doi-asserted-by": "crossref",
+              "unstructured": "Husa, J.: Designing correlation immune boolean functions with minimal hamming weight using various genetic programming methods. In Proceedings of the Genetic and Evolutionary Computation Conference Companion, GECCO ’19, page 342–343, New York, NY, USA, 2019. Association for Computing Machinery (2019)",
+              "DOI": "10.1145/3319619.3321925"
+            },
+            {
+              "key": "662_CR25",
+              "doi-asserted-by": "crossref",
+              "unstructured": "Izbenko, Y.I., Kovtun, V., Kuznetsov, A.: The design of boolean functions by modified hill climbing method. In Latifi, S.(eds.) Sixth International Conference on Information Technology: New Generations, ITNG 2009, Las Vegas, Nevada, USA, 27-29 April 2009, pages 356-361. IEEE Computer Society (2009)",
+              "DOI": "10.1109/ITNG.2009.102"
+            },
+            {
+              "key": "662_CR26",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1016/j.asoc.2021.107327",
+              "volume": "107",
+              "author": "D Jakobovic",
+              "year": "2021",
+              "unstructured": "Jakobovic, D., Picek, S., Martins, M.S., Wagner, M.: Toward more efficient heuristic construction of boolean functions. Appl. Soft. Comput. 107, 107327 (2021)",
+              "journal-title": "Appl. Soft. Comput."
+            },
+            {
+              "key": "662_CR27",
+              "unstructured": "Kavut, S.: Boolean functions with excellent cryptographic properties in autocorrelation and walsh spectra. PhD thesis, Middle East Technical University (2008)"
+            },
+            {
+              "issue": "2–3",
+              "key": "662_CR28",
+              "doi-asserted-by": "publisher",
+              "first-page": "261",
+              "DOI": "10.1007/s10623-018-0522-1",
+              "volume": "87",
+              "author": "S Kavut",
+              "year": "2019",
+              "unstructured": "Kavut, S., Maitra, S., Tang, D.: Construction and search of balanced boolean functions on even number of variables towards excellent autocorrelation profile. Des. Codes Cryptogr. 87(2–3), 261–276 (2019)",
+              "journal-title": "Des. Codes Cryptogr."
+            },
+            {
+              "issue": "5",
+              "key": "662_CR29",
+              "doi-asserted-by": "publisher",
+              "first-page": "1743",
+              "DOI": "10.1109/TIT.2007.894696",
+              "volume": "53",
+              "author": "S Kavut",
+              "year": "2007",
+              "unstructured": "Kavut, S., Maitra, S., Yucel, M.D.: Search for boolean functions with excellent profiles in the rotation symmetric class. IEEE Trans. Inf. Theory. 53(5), 1743–1751 (2007)",
+              "journal-title": "IEEE Trans. Inf. Theory."
+            },
+            {
+              "key": "662_CR30",
+              "unstructured": "Kavut, S., Maitra, S., Yücel, M.D.: There exist boolean functions on n (odd) variables having nonlinearity $$ > 2^{n-1}-2 \\frac{n-1}{2}$$ if and only if n $$> 7$$. Cryptology ePrint Archive, Paper 2006/181 (2006). https://eprint.iacr.org/2006/181"
+            },
+            {
+              "key": "662_CR31",
+              "unstructured": "Kavut, S., Yucel, M.D., Maitra, S.: Construction of resilient functions by the concatenation of boolean functions having nonintersecting walsh spectra. In Third International Workshop on Boolean Functions: Cryptography and Applications (BFCA 2007) (2007)"
+            },
+            {
+              "issue": "4",
+              "key": "662_CR32",
+              "doi-asserted-by": "publisher",
+              "first-page": "341",
+              "DOI": "10.1016/j.ic.2009.12.002",
+              "volume": "208",
+              "author": "S Kavut",
+              "year": "2010",
+              "unstructured": "Kavut, S., Yücel, M.D.: 9-variable boolean functions with nonlinearity 242 in the generalized rotation symmetric class. Information and Computation. 208(4), 341–350 (2010)",
+              "journal-title": "Information and Computation."
+            },
+            {
+              "key": "662_CR33",
+              "doi-asserted-by": "crossref",
+              "unstructured": "Kennedy, J., Eberhart, R.: Particle swarm optimization. In Proceedings of ICNN’95 - International Conference on Neural Networks, volume 4, pages 1942–1948 vol.4 (1995)",
+              "DOI": "10.1109/ICNN.1995.488968"
+            },
+            {
+              "issue": "4598",
+              "key": "662_CR34",
+              "doi-asserted-by": "publisher",
+              "first-page": "671",
+              "DOI": "10.1126/science.220.4598.671",
+              "volume": "220",
+              "author": "S Kirkpatrick",
+              "year": "1983",
+              "unstructured": "Kirkpatrick, S., Gelatt, C.D., Vecchi, M.P.: Optimization by simulated annealing. Science. 220(4598), 671–680 (1983)",
+              "journal-title": "Science."
+            },
+            {
+              "key": "662_CR35",
+              "doi-asserted-by": "crossref",
+              "unstructured": "K. Knezevic, S. Picek, L. Mariot, D. Jakobovic, and A. Leporati. The design of (almost) disjunct matrices by evolutionary algorithms. In Fagan, D., Martín-Vide, C., O’Neill, M., Vega-Rodríguez, M.A.(eds.) TPNC 2018, Proceedings, volume 11324 of Lecture Notes in Computer Science, pages 152–163, Cham, Springer (2018)",
+              "DOI": "10.1007/978-3-030-04070-3_12"
+            },
+            {
+              "key": "662_CR36",
+              "volume-title": "Genetic Programming: On the Programming of Computers by Means of Natural Selection",
+              "author": "JR Koza",
+              "year": "1992",
+              "unstructured": "Koza, J.R.: Genetic Programming: On the Programming of Computers by Means of Natural Selection. MIT Press, Cambridge, MA, USA (1992)"
+            },
+            {
+              "issue": "9",
+              "key": "662_CR37",
+              "doi-asserted-by": "publisher",
+              "first-page": "1052",
+              "DOI": "10.3390/e22091052",
+              "volume": "22",
+              "author": "I López-López",
+              "year": "2020",
+              "unstructured": "López-López, I., Gómez, G.S., Segura, C., Oliva, D., Rojas, O.: Metaheuristics in the optimization of cryptographic boolean functions. Entropy. 22(9), 1052 (2020)",
+              "journal-title": "Entropy."
+            },
+            {
+              "key": "662_CR38",
+              "first-page": "309",
+              "volume": "2007",
+              "author": "S Maitra",
+              "year": "2007",
+              "unstructured": "Maitra, S.: Balanced boolean function on 13-variables having nonlinearity strictly greater than the bent concatenation bound. IACR Cryptol. ePrint Arch. 2007, 309 (2007)",
+              "journal-title": "IACR Cryptol. ePrint Arch."
+            },
+            {
+              "key": "662_CR39",
+              "doi-asserted-by": "crossref",
+              "unstructured": "Mandujano, S., Ku-Cauich, J.C., Lara, A.: Studying special operators for the application of evolutionary algorithms in the seek of optimal boolean functions for cryptography. In Pichardo-Lagunas, O., Martínez-Miranda, J., Martínez-Seis, B.(eds.) Advances in Computational Intelligence - 21st Mexican International Conference on Artificial Intelligence, MICAI 2022, Monterrey, Mexico, October 24-29, 2022, Proceedings, Part I, volume 13612 of Lecture Notes in Computer Science, pages 383-396, Cham, 2022. Springer (2022)",
+              "DOI": "10.1007/978-3-031-19493-1_30"
+            },
+            {
+              "key": "662_CR40",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1016/j.swevo.2020.100646",
+              "volume": "54",
+              "author": "L Manzoni",
+              "year": "2020",
+              "unstructured": "Manzoni, L., Mariot, L., Tuba, E.: Balanced crossover operators in genetic algorithms. Swarm Evol. Comput. 54, 100646 (2020)",
+              "journal-title": "Swarm Evol. Comput."
+            },
+            {
+              "key": "662_CR41",
+              "doi-asserted-by": "crossref",
+              "unstructured": "Manzoni, L., Mariot, L., Tuba, E.: Tip the balance: Improving exploration of balanced crossover operators by adaptive bias. In Ninth International Symposium on Computing and Networking, CANDAR 2021 - Workshops, Matsue, Japan, 23-26 November 2021, pages 234-240. IEEE (2021)",
+              "DOI": "10.1109/CANDARW53999.2021.00046"
+            },
+            {
+              "key": "662_CR42",
+              "series-title": "Lecture Notes in Computer Science",
+              "doi-asserted-by": "crossref",
+              "first-page": "232",
+              "DOI": "10.1007/978-3-031-21094-5_17",
+              "volume-title": "Bioinspired Optimization Methods and Their Applications - 10th International Conference, BIOMA 2022, Maribor, Slovenia, November 17–18, 2022, Proceedings",
+              "author": "L Manzoni",
+              "year": "2022",
+              "unstructured": "Manzoni, L., Mariot, L., Tuba, E.: The influence of local search on genetic algorithms with balanced representations. In: Mernik, M., Eftimov, T., Crepinsek, M. (eds.) Bioinspired Optimization Methods and Their Applications - 10th International Conference, BIOMA 2022, Maribor, Slovenia, November 17–18, 2022, Proceedings. Lecture Notes in Computer Science, vol. 13627, pp. 232–246. Springer, Cham (2022)"
+            },
+            {
+              "key": "662_CR43",
+              "unstructured": "Mariot, L.: Deriving smaller orthogonal arrays from bigger ones with genetic algorithm. CoRR, abs/2111.13047 (2021)"
+            },
+            {
+              "key": "662_CR44",
+              "doi-asserted-by": "crossref",
+              "unstructured": "Mariot, L., Jakobovic, D., Leporati, A., Picek, S.:Hyper-bent boolean functions and evolutionary algorithms. In Sekanina, L., Hu, T., Lourenço, N., Richter, H., García-Sánchez, P.(eds.) Genetic Programming, pages 262–277, Cham, 2019. Springer International Publishing (2019)",
+              "DOI": "10.1007/978-3-030-16670-0_17"
+            },
+            {
+              "key": "662_CR45",
+              "doi-asserted-by": "crossref",
+              "unstructured": "Mariot, L., Leporati, A.: A genetic algorithm for evolving plateaued cryptographic boolean functions. In A.-H. Dediu, L. Magdalena, and C. Martín-Vide, editors, Theory and Practice of Natural Computing, pages 33–45, Cham, 2015. Springer International Publishing (2015)",
+              "DOI": "10.1007/978-3-319-26841-5_3"
+            },
+            {
+              "key": "662_CR46",
+              "doi-asserted-by": "crossref",
+              "unstructured": "Mariot, L., Leporati, A.: Heuristic search by particle swarm optimization of boolean functions for cryptographic applications. In Proceedings of the Companion Publication of the 2015 Annual Conference on Genetic and Evolutionary Computation, GECCO Companion ’15, page 1425-1426, New York, NY, USA, 2015. Association for Computing Machinery (2015)",
+              "DOI": "10.1145/2739482.2764674"
+            },
+            {
+              "key": "662_CR47",
+              "doi-asserted-by": "crossref",
+              "unstructured": "Mariot, L., Picek, S., Jakobovic, D., Djurasevic, M., Leporati, A.: Evolutionary construction of perfectly balanced boolean functions. In 2022 IEEE Congress on Evolutionary Computation (CEC), page 1–8. IEEE Press (2022)",
+              "DOI": "10.1109/CEC55065.2022.9870427"
+            },
+            {
+              "key": "662_CR48",
+              "doi-asserted-by": "crossref",
+              "unstructured": "Mariot, L., Picek, S., Jakobovic, D., Djurasevic, M., Leporati, A.: On the difficulty of evolving permutation codes. In Applications of Evolutionary Computation, pages 141–156. Springer International Publishing (2022)",
+              "DOI": "10.1007/978-3-031-02462-7_10"
+            },
+            {
+              "key": "662_CR49",
+              "doi-asserted-by": "crossref",
+              "unstructured": "Mariot, L., Picek, S., Jakobovic, D., Leporati, A.: Evolutionary algorithms for the design of orthogonal latin squares based on cellular automata. In Bosman, P.A.N.(eds.) Proceedings of the Genetic and Evolutionary Computation Conference, GECCO 2017, Berlin, Germany, July 15-19, 2017, pages 306–313, New York, NY, USA, ACM (2017)",
+              "DOI": "10.1145/3071178.3071284"
+            },
+            {
+              "key": "662_CR50",
+              "series-title": "Lecture Notes in Computer Science",
+              "doi-asserted-by": "crossref",
+              "first-page": "121",
+              "DOI": "10.1007/978-3-319-99253-2_10",
+              "volume-title": "Parallel Problem Solving from Nature - PPSN XV - 15th International Conference, Coimbra, Portugal, September 8–12, 2018, Proceedings, Part I",
+              "author": "L Mariot",
+              "year": "2018",
+              "unstructured": "Mariot, L., Picek, S., Jakobovic, D., Leporati, A.: Evolutionary search of binary orthogonal arrays. In: Auger, A., Fonseca, C.M., Lourenço, N., Machado, P., Paquete, L., Whitley, L.D. (eds.) Parallel Problem Solving from Nature - PPSN XV - 15th International Conference, Coimbra, Portugal, September 8–12, 2018, Proceedings, Part I. Lecture Notes in Computer Science, vol. 11101, pp. 121–133. Springer, Cham (2018)"
+            },
+            {
+              "issue": "3",
+              "key": "662_CR51",
+              "doi-asserted-by": "publisher",
+              "first-page": "377",
+              "DOI": "10.1007/s11047-022-09885-3",
+              "volume": "21",
+              "author": "L Mariot",
+              "year": "2022",
+              "unstructured": "Mariot, L., Saletta, M., Leporati, A., Manzoni, L.: Heuristic search of (semi-)bent functions based on cellular automata. Nat. Comput. 21(3), 377–391 (2022)",
+              "journal-title": "Nat. Comput."
+            },
+            {
+              "key": "662_CR52",
+              "unstructured": "McLaughlin, J., Clark, J.A.: Evolving balanced boolean functions with optimal resistance to algebraic and fast algebraic attacks, maximal algebraic degree, and very high nonlinearity. Cryptology ePrint Archive, Report 2013/011 (2013). https://eprint.iacr.org/2013/011"
+            },
+            {
+              "key": "662_CR53",
+              "doi-asserted-by": "crossref",
+              "unstructured": "Méaux, P., Journault, A., Standaert, F.X., Carlet, C.: Towards stream ciphers for efficient fhe with low-noise ciphertexts. In: Advances in Cryptology- EUROCRYPT 2016: 35th Annual International Conference on the Theory and Applications of Cryptographic Techniques. Vienna, Austria, May 8–12, 2016, pp. 311–343. Heidelberg, Springer, Berlin (2016)",
+              "DOI": "10.1007/978-3-662-49890-3_13"
+            },
+            {
+              "key": "662_CR54",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1007/978-3-319-32595-8",
+              "volume-title": "Bent Functions",
+              "author": "S Mesnager",
+              "year": "2016",
+              "unstructured": "Mesnager, S.: Bent Functions. Springer International Publishing, Cham (2016)"
+            },
+            {
+              "key": "662_CR55",
+              "doi-asserted-by": "crossref",
+              "unstructured": "Millan, W., Clark, A., Dawson, E.: An effective genetic algorithm for finding highly nonlinear boolean functions. In Han, Y., Okamoto, T., Qing, S.(eds.) Information and Communications Security, pages 149–158, Berlin, Heidelberg, 1997. Springer Berlin Heidelberg (1997)",
+              "DOI": "10.1007/BFb0028471"
+            },
+            {
+              "key": "662_CR56",
+              "unstructured": "Millan, W., Clark, A., Dawson, E.: Smart hill climbing finds better boolean functions. In Workshop on Selected Areas in Cryptology, volume 63. Citeseer (1997)"
+            },
+            {
+              "key": "662_CR57",
+              "doi-asserted-by": "publisher",
+              "first-page": "489",
+              "DOI": "10.1007/BFb0054148",
+              "volume-title": "Advances in Cryptology - EUROCRYPT’98",
+              "author": "W Millan",
+              "year": "1998",
+              "unstructured": "Millan, W., Clark, A., Dawson, E.: Heuristic design of cryptographically strong balanced boolean functions. In: Nyberg, K. (ed.) Advances in Cryptology - EUROCRYPT’98, pp. 489–499. Springer, Berlin Heidelberg, Berlin, Heidelberg (1998)"
+            },
+            {
+              "key": "662_CR58",
+              "first-page": "1",
+              "volume-title": "Information Security and Privacy",
+              "author": "W Millan",
+              "year": "1999",
+              "unstructured": "Millan, W., Clark, A., Dawson, E.: Boolean function design using hill climbing methods. In: Pieprzyk, J., Safavi-Naini, R., Seberry, J. (eds.) Information Security and Privacy, pp. 1–11. Heidelberg, Springer, Berlin Heidelberg, Berlin (1999)"
+            },
+            {
+              "key": "662_CR59",
+              "doi-asserted-by": "crossref",
+              "unstructured": "Moskovchenko, I., Pastukhov, M., Kuznetsov, A., Kuznetsova, T., Prokopenko, V., Kropyvnytskyi, V.: Heuristic methods of hill climbing of cryptographic boolean functions. In 2018 International Scientific-Practical Conference Problems of Infocommunications. Science and Technology (PIC S &T), pages 1-6. IEEE (2018)",
+              "DOI": "10.1109/INFOCOMMST.2018.8632017"
+            },
+            {
+              "issue": "6",
+              "key": "662_CR60",
+              "doi-asserted-by": "publisher",
+              "first-page": "858",
+              "DOI": "10.1109/TIT.1982.1056589",
+              "volume": "28",
+              "author": "J Olsen",
+              "year": "1982",
+              "unstructured": "Olsen, J., Scholtz, R., Welch, L.: Bent-function sequences. IEEE Trans. Inf. Theory. 28(6), 858–864 (1982)",
+              "journal-title": "IEEE Trans. Inf. Theory."
+            },
+            {
+              "key": "662_CR61",
+              "doi-asserted-by": "crossref",
+              "unstructured": "K. Paterson. On codes with low peak-to-average power ratio for multicode cdma. Inf. Theory, IEEE Trans. on. 50, 550–559, 04 (2004)",
+              "DOI": "10.1109/TIT.2004.825505"
+            },
+            {
+              "key": "662_CR62",
+              "doi-asserted-by": "publisher",
+              "first-page": "812",
+              "DOI": "10.1007/978-3-319-10762-2_80",
+              "volume-title": "Parallel Problem Solving from Nature - PPSN XIII",
+              "author": "S Picek",
+              "year": "2014",
+              "unstructured": "Picek, S., Batina, L., Jakobovic, D.: Evolving DPA-resistant boolean functions. In: Bartz-Beielstein, T., Branke, J., Filipič, B., Smith, J. (eds.) Parallel Problem Solving from Nature - PPSN XIII, pp. 812–821. Springer International Publishing, Cham (2014)"
+            },
+            {
+              "issue": "4",
+              "key": "662_CR63",
+              "doi-asserted-by": "publisher",
+              "first-page": "667",
+              "DOI": "10.1162/EVCO_a_00190",
+              "volume": "24",
+              "author": "S Picek",
+              "year": "2016",
+              "unstructured": "Picek, S., Carlet, C., Guilley, S., Miller, J.F., Jakobovic, D.: Evolutionary algorithms for boolean functions in diverse domains of cryptography. Evolutionary Computation. 24(4), 667–694 (2016)",
+              "journal-title": "Evolutionary Computation."
+            },
+            {
+              "key": "662_CR64",
+              "doi-asserted-by": "crossref",
+              "unstructured": "Picek, S., Carlet, C., Jakobovic, D., Miller, J.F., Batina, L.: Correlation immunity of boolean functions: An evolutionary algorithms perspective. In Proceedings of the 2015 Annual Conference on Genetic and Evolutionary Computation, GECCO ’15, page 1095-1102, New York, NY, USA, Association for Computing Machinery (2015)",
+              "DOI": "10.1145/2739480.2754764"
+            },
+            {
+              "key": "662_CR65",
+              "doi-asserted-by": "crossref",
+              "unstructured": "Picek, S., Guilley, S., Carlet, C., Jakobovic, D., Miller, J.F.: Evolutionary approach for finding correlation immune boolean functions of order t with minimal hamming weight. In Dediu, A.H., Magdalena, L.C., Martín-Vide (eds.) Theory and Practice of Natural Computing, pages 71-82, Cham, Springer International Publishing (2015)",
+              "DOI": "10.1007/978-3-319-26841-5_6"
+            },
+            {
+              "key": "662_CR66",
+              "doi-asserted-by": "crossref",
+              "unstructured": "Picek, S., Jakobovic, D.: Evolving algebraic constructions for designing bent boolean functions. In Proceedings of the Genetic and Evolutionary Computation Conference 2016, GECCO ’16, page 781-788, New York, NY, USA, Association for Computing Machinery (2016)",
+              "DOI": "10.1145/2908812.2908915"
+            },
+            {
+              "key": "662_CR67",
+              "doi-asserted-by": "crossref",
+              "unstructured": "Picek, S., Jakobovic, D., Golub, M.: Evolving cryptographically sound boolean functions. In Proceedings of the 15th Annual Conference Companion on Genetic and Evolutionary Computation, GECCO ’13 Companion, page 191-192, New York, NY, USA, Association for Computing Machinery (2013)",
+              "DOI": "10.1145/2464576.2464671"
+            },
+            {
+              "key": "662_CR68",
+              "doi-asserted-by": "publisher",
+              "first-page": "635",
+              "DOI": "10.1016/j.asoc.2015.10.066",
+              "volume": "40",
+              "author": "S Picek",
+              "year": "2016",
+              "unstructured": "Picek, S., Jakobovic, D., Miller, J.F., Batina, L., Cupic, M.: Cryptographic boolean functions: One output, many design criteria. Appl. Soft. Comput. 40, 635–653 (2016)",
+              "journal-title": "Appl. Soft. Comput."
+            },
+            {
+              "key": "662_CR69",
+              "doi-asserted-by": "publisher",
+              "first-page": "192",
+              "DOI": "10.1007/978-3-319-16501-1_16",
+              "volume-title": "Genetic Programming",
+              "author": "S Picek",
+              "year": "2015",
+              "unstructured": "Picek, S., Jakobovic, D., Miller, J.F., Marchiori, E., Batina, L.: Evolutionary methods for the construction of cryptographic boolean functions. In: Machado, P., Heywood, M.I., McDermott, J., Castelli, M., García-Sánchez, P., Burelli, P., Risi, S., Sim, K. (eds.) Genetic Programming, pp. 192–204. Springer International Publishing, Cham (2015)"
+            },
+            {
+              "key": "662_CR70",
+              "doi-asserted-by": "crossref",
+              "unstructured": "Picek, S., Knezevic, K., Mariot, L., Jakobovic, D., Leporati, A.: Evolving bent quaternary functions. In 2018 IEEE Congress on Evolutionary Computation, CEC 2018, Rio de Janeiro, Brazil, July 8-13, 2018, pages 1–8. IEEE (2018)",
+              "DOI": "10.1109/CEC.2018.8477677"
+            },
+            {
+              "key": "662_CR71",
+              "doi-asserted-by": "crossref",
+              "unstructured": "Picek, S., Marchiori, E., Batina, L., Jakobovic, D.: Combining evolutionary computation and algebraic constructions to find cryptographyrelevant boolean functions. In Bartz-Beielstein, T., Branke, J., Filipic, B., Smith, J.(eds) Parallel Problem Solving from Nature - PPSN XIII - 13th International Conference, Ljubljana, Slovenia, September 13-17, 2014. Proceedings, volume 8672 of Lecture Notes in Computer Science, pages 822–831. Springer (2014)",
+              "DOI": "10.1007/978-3-319-10762-2_81"
+            },
+            {
+              "key": "662_CR72",
+              "doi-asserted-by": "crossref",
+              "unstructured": "Picek, S., McKay, R.I., Santana, R., Gedeon, T.D.: Fighting the symmetries: The structure of cryptographic boolean function spaces. In Proceedings of the 2015 Annual Conference on Genetic and Evolutionary Computation, GECCO ’15, page 457-464, New York, NY, USA. Association for Computing Machinery (2015)",
+              "DOI": "10.1145/2739480.2754739"
+            },
+            {
+              "key": "662_CR73",
+              "doi-asserted-by": "crossref",
+              "unstructured": "Picek, S., Santana, R., Jakobovic, D.: Maximal nonlinearity in balanced boolean functions with even number of inputs, revisited. In 2016 IEEE Congress on Evolutionary Computation (CEC), 3222–3229 (2016)",
+              "DOI": "10.1109/CEC.2016.7744197"
+            },
+            {
+              "key": "662_CR74",
+              "doi-asserted-by": "publisher",
+              "first-page": "320",
+              "DOI": "10.1016/j.engappai.2016.11.002",
+              "volume": "62",
+              "author": "S Picek",
+              "year": "2017",
+              "unstructured": "Picek, S., Sisejkovic, D., Jakobovic, D.: Immunological algorithms paradigm for construction of boolean functions with good cryptographic properties. Eng. Appl. Artif. Intell. 62, 320–330 (2017)",
+              "journal-title": "Eng. Appl. Artif. Intell."
+            },
+            {
+              "key": "662_CR75",
+              "volume-title": "A Field Guide to Genetic Programming",
+              "author": "R Poli",
+              "year": "2008",
+              "unstructured": "Poli, R., Langdon, W.B., McPhee, N.F.: A Field Guide to Genetic Programming. Lulu Enterprises, UK Ltd (2008)"
+            },
+            {
+              "issue": "3",
+              "key": "662_CR76",
+              "doi-asserted-by": "publisher",
+              "first-page": "300",
+              "DOI": "10.1016/0097-3165(76)90024-8",
+              "volume": "20",
+              "author": "O Rothaus",
+              "year": "1976",
+              "unstructured": "Rothaus, O.: On “bent’’. J. Comb. Theory. Series A. 20(3), 300–305 (1976)",
+              "journal-title": "J. Comb. Theory. Series A."
+            },
+            {
+              "issue": "5",
+              "key": "662_CR77",
+              "doi-asserted-by": "publisher",
+              "first-page": "2269",
+              "DOI": "10.1109/TIT.2006.872862",
+              "volume": "52",
+              "author": "Z Saber",
+              "year": "2006",
+              "unstructured": "Saber, Z., Uddin, M.F., Youssef, A.M.: On the existence of (9, 3, 5, 240) resilient functions. IEEE Trans. Information Theory. 52(5), 2269–2270 (2006)",
+              "journal-title": "IEEE Trans. Information Theory."
+            },
+            {
+              "key": "662_CR78",
+              "volume-title": "The use of genetic algorithms in the construction of mixed multilevel orthogonal arrays",
+              "author": "R Safadi",
+              "year": "1992",
+              "unstructured": "Safadi, R., Wang, R.: The use of genetic algorithms in the construction of mixed multilevel orthogonal arrays. Technical report, OLIN CORP CHESHIRE CT OLIN RESEARCH CENTER (1992)"
+            },
+            {
+              "key": "662_CR79",
+              "series-title": "Lecture Notes in Computer Science",
+              "doi-asserted-by": "crossref",
+              "first-page": "161",
+              "DOI": "10.1007/978-3-540-25937-4_11",
+              "volume-title": "Fast Software Encryption, 11th International Workshop, FSE 2004, Delhi, India, February 5–7, 2004, Revised Papers",
+              "author": "P Stanica",
+              "year": "2004",
+              "unstructured": "Stanica, P., Maitra, S., Clark, J.A.: Results on rotation symmetric bent and correlation immune boolean functions. In: Roy, B.K., Meier, W. (eds.) Fast Software Encryption, 11th International Workshop, FSE 2004, Delhi, India, February 5–7, 2004, Revised Papers. Lecture Notes in Computer Science, vol. 3017, pp. 161–177. Heidelberg, Springer, Berlin (2004)"
+            },
+            {
+              "key": "662_CR80",
+              "volume-title": "Combinatorial designs - constructions and analysis",
+              "author": "DR Stinson",
+              "year": "2004",
+              "unstructured": "Stinson, D.R.: Combinatorial designs - constructions and analysis. Springer, New York, NY (2004)"
+            },
+            {
+              "key": "662_CR81",
+              "doi-asserted-by": "crossref",
+              "unstructured": "Talbi, E.G.: Metaheuristics: From Design to Implementation. Wiley Publishing (2009)",
+              "DOI": "10.1002/9780470496916"
+            },
+            {
+              "key": "662_CR82",
+              "unstructured": "Uddin, M.F.: Artificial life techniques for cryptology. Master’s thesis, Concordia University (2006)"
+            },
+            {
+              "key": "662_CR83",
+              "doi-asserted-by": "crossref",
+              "unstructured": "Wang, R., Safadi, R.: Generating mixed multilevel orthogonal arrays by simulated annealing. In Computing Science and Statistics, pages 557–560. Springer, New York, NY (1992)",
+              "DOI": "10.1007/978-1-4612-2856-1_100"
+            },
+            {
+              "key": "662_CR84",
+              "doi-asserted-by": "crossref",
+              "unstructured": "Wang, Y., Gao, G., Yuan, Q.: Searching for cryptographically significant rotation symmetric boolean functions by designing heuristic algorithms. Security and Communication Networks, 2022 (2022)",
+              "DOI": "10.1155/2022/8188533"
+            },
+            {
+              "key": "662_CR85",
+              "doi-asserted-by": "crossref",
+              "unstructured": "Zheng, Y., Pieprzyk, J., Seberry, J.: HAVAL - a one-way hashing algorithm with variable length of output (extended abstract). In: Advances in Cryptology - AUSCRYPT ’92: Workshop on the Theory and Application of Cryptographic Techniques Gold Coast. Queensland, Australia, December 13–16, 1992 Proceedings, pp. 81–104. Springer, Berlin, Heidelberg (1993)",
+              "DOI": "10.1007/3-540-57220-1_54"
+            },
+            {
+              "key": "662_CR86",
+              "doi-asserted-by": "crossref",
+              "unstructured": "Zufiria, P.J., Álvarez-Cubero, J.A.: Generalized lexicographic multiobjective combinatorial optimization. application to cryptography. SIAM J. Opt. 27(4), 2182–2201 (2017)",
+              "DOI": "10.1137/16M1107826"
+            }
+          ],
+          "container-title": [
+            "Cryptography and Communications"
+          ],
+          "language": "en",
+          "link": [
+            {
+              "URL": "https://link.springer.com/content/pdf/10.1007/s12095-023-00662-2.pdf",
+              "content-type": "application/pdf",
+              "content-version": "vor",
+              "intended-application": "text-mining"
+            },
+            {
+              "URL": "https://link.springer.com/article/10.1007/s12095-023-00662-2/fulltext.html",
+              "content-type": "text/html",
+              "content-version": "vor",
+              "intended-application": "text-mining"
+            },
+            {
+              "URL": "https://link.springer.com/content/pdf/10.1007/s12095-023-00662-2.pdf",
+              "content-type": "application/pdf",
+              "content-version": "vor",
+              "intended-application": "similarity-checking"
+            }
+          ],
+          "deposited": {
+            "date-parts": [
+              [
+                2024,
+                10,
+                25
+              ]
+            ],
+            "date-time": "2024-10-25T04:20:02Z",
+            "timestamp": 1729830002000
+          },
+          "score": 37.009804,
+          "resource": {
+            "primary": {
+              "URL": "https://link.springer.com/10.1007/s12095-023-00662-2"
+            }
+          },
+          "issued": {
+            "date-parts": [
+              [
+                2023,
+                7,
+                29
+              ]
+            ]
+          },
+          "references-count": 86,
+          "journal-issue": {
+            "issue": "6",
+            "published-print": {
+              "date-parts": [
+                [
+                  2023,
+                  11
+                ]
+              ]
+            }
+          },
+          "alternative-id": [
+            "662"
+          ],
+          "URL": "https://doi.org/10.1007/s12095-023-00662-2",
+          "ISSN": [
+            "1936-2447",
+            "1936-2455"
+          ],
+          "issn-type": [
+            {
+              "value": "1936-2447",
+              "type": "print"
+            },
+            {
+              "value": "1936-2455",
+              "type": "electronic"
+            }
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2023,
+                7,
+                29
+              ]
+            ]
+          },
+          "assertion": [
+            {
+              "value": "15 January 2023",
+              "order": 1,
+              "name": "received",
+              "label": "Received",
+              "group": {
+                "name": "ArticleHistory",
+                "label": "Article History"
+              }
+            },
+            {
+              "value": "7 July 2023",
+              "order": 2,
+              "name": "accepted",
+              "label": "Accepted",
+              "group": {
+                "name": "ArticleHistory",
+                "label": "Article History"
+              }
+            },
+            {
+              "value": "29 July 2023",
+              "order": 3,
+              "name": "first_online",
+              "label": "First Online",
+              "group": {
+                "name": "ArticleHistory",
+                "label": "Article History"
+              }
+            }
+          ]
+        },
+        {
+          "indexed": {
+            "date-parts": [
+              [
+                2024,
+                5,
+                7
+              ]
+            ],
+            "date-time": "2024-05-07T12:10:27Z",
+            "timestamp": 1715083827140
+          },
+          "reference-count": 185,
+          "publisher": "Elsevier",
+          "isbn-type": [
+            {
+              "value": "9780128111291",
+              "type": "print"
+            }
+          ],
+          "license": [
+            {
+              "start": {
+                "date-parts": [
+                  [
+                    2017,
+                    1,
+                    1
+                  ]
+                ],
+                "date-time": "2017-01-01T00:00:00Z",
+                "timestamp": 1483228800000
+              },
+              "content-version": "tdm",
+              "delay-in-days": 0,
+              "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+            }
+          ],
+          "content-domain": {
+            "domain": [],
+            "crossmark-restriction": false
+          },
+          "published-print": {
+            "date-parts": [
+              [
+                2017
+              ]
+            ]
+          },
+          "DOI": "10.1016/b978-0-12-811129-1.00007-9",
+          "type": "book-chapter",
+          "created": {
+            "date-parts": [
+              [
+                2017,
+                4,
+                14
+              ]
+            ],
+            "date-time": "2017-04-14T19:44:26Z",
+            "timestamp": 1492199066000
+          },
+          "page": "143-185",
+          "source": "Crossref",
+          "is-referenced-by-count": 1,
+          "title": [
+            "Stream Cipher Design"
+          ],
+          "prefix": "10.1016",
+          "author": [
+            {
+              "given": "Thomas W.",
+              "family": "Cusick",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Pantelimon",
+              "family": "Stanica",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            }
+          ],
+          "member": "78",
+          "reference": [
+            {
+              "key": "10.1016/B978-0-12-811129-1.00007-9_br0005",
+              "series-title": "Proc. of the 5th information security practice and experience conference. Future conference – ISPEC 2010",
+              "first-page": "45",
+              "article-title": "On the security of NOEKEON against side channel cube attacks",
+              "volume": "vol. 6047",
+              "author": "Abdul-Latip",
+              "year": "2010"
+            },
+            {
+              "key": "10.1016/B978-0-12-811129-1.00007-9_br0010",
+              "series-title": "Proc. of the 6th ACM symposium on information, computer and communications security – ASIACCS 2011",
+              "first-page": "296",
+              "article-title": "Extended cubes enhancing the cube attack by extracting low-degree non-linear equations",
+              "author": "Abdul-Latip",
+              "year": "2011"
+            },
+            {
+              "key": "10.1016/B978-0-12-811129-1.00007-9_br0050",
+              "doi-asserted-by": "publisher",
+              "first-page": "194",
+              "DOI": "10.1137/0217013",
+              "article-title": "RSA and Rabin functions: certain parts are as hard as the whole",
+              "volume": "17",
+              "author": "Alexi",
+              "year": "1988",
+              "journal-title": "SIAM J Comput"
+            },
+            {
+              "key": "10.1016/B978-0-12-811129-1.00007-9_br0055",
+              "doi-asserted-by": "publisher",
+              "first-page": "285",
+              "DOI": "10.1080/0161-119091864977",
+              "article-title": "Solving a class of stream ciphers",
+              "volume": "14",
+              "author": "Anderson",
+              "year": "1990",
+              "journal-title": "Cryptologia"
+            },
+            {
+              "key": "10.1016/B978-0-12-811129-1.00007-9_br0060",
+              "doi-asserted-by": "publisher",
+              "first-page": "1322",
+              "DOI": "10.1049/el:19930886",
+              "article-title": "Faster attack on certain stream ciphers",
+              "volume": "29",
+              "author": "Anderson",
+              "year": "1993",
+              "journal-title": "Electr Lett"
+            },
+            {
+              "key": "10.1016/B978-0-12-811129-1.00007-9_br0065",
+              "series-title": "Fast software encryption – Leuven 1994",
+              "first-page": "137",
+              "article-title": "Searching for the optimum correlation attack",
+              "volume": "vol. 1008",
+              "author": "Anderson",
+              "year": "1995"
+            },
+            {
+              "key": "10.1016/B978-0-12-811129-1.00007-9_br0070",
+              "series-title": "Fast software encryption – Leuven 1994",
+              "first-page": "346",
+              "article-title": "On Fibonacci keystream generators",
+              "volume": "vol. 1008",
+              "author": "Anderson",
+              "year": "1995"
+            },
+            {
+              "key": "10.1016/B978-0-12-811129-1.00007-9_br0075",
+              "series-title": "Fast software encryption – Delhi 2004",
+              "first-page": "65",
+              "article-title": "Improving fast algebraic attacks",
+              "volume": "vol. 3017",
+              "author": "Armknecht",
+              "year": "2004"
+            },
+            {
+              "key": "10.1016/B978-0-12-811129-1.00007-9_br0080",
+              "series-title": "Adv. in crypt. – Eurocrypt 2006",
+              "first-page": "147",
+              "article-title": "Efficient computation of algebraic immunity for algebraic and fast algebraic attacks",
+              "volume": "vol. 4004",
+              "author": "Armknecht",
+              "year": "2006"
+            },
+            {
+              "key": "10.1016/B978-0-12-811129-1.00007-9_br0110",
+              "series-title": "Indocrypt 2010",
+              "first-page": "176",
+              "article-title": "Algebraic, AIDA/cube and side channel analysis of KATAN family of block ciphers",
+              "volume": "vol. 6498",
+              "author": "Bard",
+              "year": "2010"
+            },
+            {
+              "key": "10.1016/B978-0-12-811129-1.00007-9_br0120",
+              "doi-asserted-by": "publisher",
+              "first-page": "248",
+              "DOI": "10.1080/01611190508951301",
+              "article-title": "Results of an automated attack on the running key cipher",
+              "volume": "29",
+              "author": "Bauer",
+              "year": "2005",
+              "journal-title": "Cryptologia"
+            },
+            {
+              "key": "10.1016/B978-0-12-811129-1.00007-9_br0160",
+              "doi-asserted-by": "publisher",
+              "first-page": "1853",
+              "DOI": "10.1002/j.1538-7305.1967.tb03174.x",
+              "article-title": "Factoring polynomials over finite fields",
+              "author": "Berlekamp",
+              "year": "1967",
+              "journal-title": "Bell System Tech J"
+            },
+            {
+              "key": "10.1016/B978-0-12-811129-1.00007-9_br0170",
+              "doi-asserted-by": "publisher",
+              "first-page": "713",
+              "DOI": "10.1090/S0025-5718-1970-0276200-X",
+              "article-title": "Factoring polynomials over large finite fields",
+              "volume": "24",
+              "author": "Berlekamp",
+              "year": "1970",
+              "journal-title": "Math Comput"
+            },
+            {
+              "key": "10.1016/B978-0-12-811129-1.00007-9_br0195",
+              "unstructured": "Bernstein DJ. Which eSTREAM ciphers have been broken? Manuscript. 2008."
+            },
+            {
+              "key": "10.1016/B978-0-12-811129-1.00007-9_br0200",
+              "series-title": "Adv. in crypt. – Eurocrypt '84",
+              "first-page": "88",
+              "article-title": "The stop-and-go generator",
+              "volume": "vol. 209",
+              "author": "Beth",
+              "year": "1985"
+            },
+            {
+              "key": "10.1016/B978-0-12-811129-1.00007-9_br0220",
+              "series-title": "Adv. in crypt. – Crypto '90",
+              "first-page": "2",
+              "article-title": "Differential cryptanalysis of DES-like cryptosystems",
+              "volume": "vol. 537",
+              "author": "Biham",
+              "year": "1991"
+            },
+            {
+              "key": "10.1016/B978-0-12-811129-1.00007-9_br0225",
+              "series-title": "Differential cryptanalysis of the data encryption standard",
+              "author": "Biham",
+              "year": "1993"
+            },
+            {
+              "key": "10.1016/B978-0-12-811129-1.00007-9_br0250",
+              "doi-asserted-by": "publisher",
+              "first-page": "2073",
+              "DOI": "10.1109/18.782139",
+              "article-title": "The linear complexity of the self-shrinking generator",
+              "volume": "45",
+              "author": "Blackburn",
+              "year": "1999",
+              "journal-title": "IEEE Trans Inform Theory"
+            },
+            {
+              "key": "10.1016/B978-0-12-811129-1.00007-9_br0255",
+              "series-title": "Int. workshop on randomization and comput. (APPROX/RANDOM)",
+              "first-page": "435",
+              "article-title": "Tight bounds for testing k-linearity",
+              "volume": "vol. 7408",
+              "author": "Blais",
+              "year": "2012"
+            },
+            {
+              "key": "10.1016/B978-0-12-811129-1.00007-9_br0260",
+              "series-title": "Fast software encryption – Cambridge 1993",
+              "first-page": "41",
+              "article-title": "Fish: a fast software stream cipher",
+              "volume": "vol. 809",
+              "author": "Blöcher",
+              "year": "1994"
+            },
+            {
+              "key": "10.1016/B978-0-12-811129-1.00007-9_br0265",
+              "doi-asserted-by": "publisher",
+              "first-page": "364",
+              "DOI": "10.1137/0215025",
+              "article-title": "A simple unpredictable pseudo-random number generator",
+              "volume": "15",
+              "author": "Blum",
+              "year": "1986",
+              "journal-title": "SIAM J Comput"
+            },
+            {
+              "key": "10.1016/B978-0-12-811129-1.00007-9_br0270",
+              "series-title": "Proc. 23rd IEEE symposium on foundations of computer science",
+              "first-page": "112",
+              "article-title": "How to generate cryptographically strong sequences of pseudo-random bits",
+              "author": "Blum",
+              "year": "1982"
+            },
+            {
+              "key": "10.1016/B978-0-12-811129-1.00007-9_br0275",
+              "doi-asserted-by": "publisher",
+              "first-page": "850",
+              "DOI": "10.1137/0213053",
+              "article-title": "How to generate cryptographically strong sequences of pseudo-random bits",
+              "volume": "13",
+              "author": "Blum",
+              "year": "1984",
+              "journal-title": "SIAM J Comput"
+            },
+            {
+              "key": "10.1016/B978-0-12-811129-1.00007-9_br0290",
+              "series-title": "Indocrypt 2005",
+              "first-page": "35",
+              "article-title": "On the algebraic immunity of symmetric Boolean functions",
+              "volume": "vol. 3797",
+              "author": "Braeken",
+              "year": "2005"
+            },
+            {
+              "key": "10.1016/B978-0-12-811129-1.00007-9_br0295",
+              "first-page": "101",
+              "article-title": "Cryptography, statistics and pseudo-randomness (part I)",
+              "volume": "15",
+              "author": "Brands",
+              "year": "1995",
+              "journal-title": "Prob Math Stat"
+            },
+            {
+              "key": "10.1016/B978-0-12-811129-1.00007-9_br0320",
+              "series-title": "Logic of computation – Marktoberdorf 1995",
+              "first-page": "35",
+              "article-title": "Introduction to Groebner bases",
+              "volume": "vol. 157",
+              "author": "Buchberger",
+              "year": "1997"
+            },
+            {
+              "key": "10.1016/B978-0-12-811129-1.00007-9_br0375",
+              "series-title": "Coding and cryptography – WCC 2005",
+              "first-page": "120",
+              "article-title": "Open problems related to algebraic attacks on stream ciphers",
+              "volume": "vol. 3969",
+              "author": "Canteaut",
+              "year": "2006"
+            },
+            {
+              "key": "10.1016/B978-0-12-811129-1.00007-9_br0495",
+              "author": "Carlet"
+            },
+            {
+              "key": "10.1016/B978-0-12-811129-1.00007-9_br0505",
+              "series-title": "Proceedings of applied algebra, algebraic algorithms and error-correcting codes – AAECC-2006",
+              "first-page": "1",
+              "article-title": "On bent and highly nonlinear balanced/resilient functions and their algebraic immunities",
+              "volume": "vol. 3857",
+              "author": "Carlet",
+              "year": "2006"
+            },
+            {
+              "key": "10.1016/B978-0-12-811129-1.00007-9_br0510",
+              "author": "Carlet"
+            },
+            {
+              "key": "10.1016/B978-0-12-811129-1.00007-9_br0520",
+              "doi-asserted-by": "publisher",
+              "first-page": "3105",
+              "DOI": "10.1109/TIT.2006.876253",
+              "article-title": "Algebraic immunity for cryptographically significant Boolean functions: analysis and construction",
+              "volume": "52",
+              "author": "Carlet",
+              "year": "2006",
+              "journal-title": "IEEE Trans Inform Theory"
+            },
+            {
+              "key": "10.1016/B978-0-12-811129-1.00007-9_br0545",
+              "series-title": "Adv. in crypt. – Asiacrypt 2008",
+              "first-page": "425",
+              "article-title": "An infinite class of balanced functions with optimal algebraic immunity, good immunity to fast algebraic attacks and good nonlinearity",
+              "volume": "vol. 5350",
+              "author": "Carlet",
+              "year": "2008"
+            },
+            {
+              "issue": "1",
+              "key": "10.1016/B978-0-12-811129-1.00007-9_br0585",
+              "doi-asserted-by": "publisher",
+              "first-page": "1",
+              "DOI": "10.1515/jmc-2014-0030",
+              "article-title": "Cryptographic properties of monotone Boolean functions",
+              "volume": "10",
+              "author": "Carlet",
+              "year": "2016",
+              "journal-title": "J Math Cryptol"
+            },
+            {
+              "key": "10.1016/B978-0-12-811129-1.00007-9_br0650",
+              "first-page": "17",
+              "article-title": "Clock-controlled shift registers in binary sequence generators",
+              "volume": "135",
+              "author": "Chambers",
+              "year": "1988",
+              "journal-title": "IEE Proc E"
+            },
+            {
+              "key": "10.1016/B978-0-12-811129-1.00007-9_br0655",
+              "series-title": "Adv. in crypt. – Eurocrypt '88",
+              "first-page": "331",
+              "article-title": "Lock-in effect in cascades of clock-controlled shift-registers",
+              "volume": "vol. 330",
+              "author": "Chambers",
+              "year": "1988"
+            },
+            {
+              "key": "10.1016/B978-0-12-811129-1.00007-9_br0660",
+              "doi-asserted-by": "publisher",
+              "first-page": "1018",
+              "DOI": "10.1049/el:19840693",
+              "article-title": "Linear equivalence of certain BRM shift-register sequences",
+              "volume": "20",
+              "author": "Chambers",
+              "year": "1984",
+              "journal-title": "Electr Lett"
+            },
+            {
+              "key": "10.1016/B978-0-12-811129-1.00007-9_br0720",
+              "doi-asserted-by": "publisher",
+              "first-page": "702",
+              "DOI": "10.1007/s11424-015-2240-3",
+              "article-title": "A note on the Tu–Deng conjecture",
+              "volume": "28",
+              "author": "Cheng",
+              "year": "2015",
+              "journal-title": "J Syst Sci Complex"
+            },
+            {
+              "key": "10.1016/B978-0-12-811129-1.00007-9_br0730",
+              "series-title": "Adv. in crypt. – Eurocrypt '91",
+              "first-page": "176",
+              "article-title": "On a fast correlation attack on certain stream ciphers",
+              "volume": "vol. 547",
+              "author": "Chepyzhov",
+              "year": "1992"
+            },
+            {
+              "key": "10.1016/B978-0-12-811129-1.00007-9_br0780",
+              "series-title": "Adv. in crypt. – Crypto '93",
+              "first-page": "22",
+              "article-title": "The shrinking generator",
+              "volume": "vol. 773",
+              "author": "Coppersmith",
+              "year": "1994"
+            },
+            {
+              "key": "10.1016/B978-0-12-811129-1.00007-9_br0785",
+              "doi-asserted-by": "publisher",
+              "first-page": "251",
+              "DOI": "10.1016/S0747-7171(08)80013-2",
+              "article-title": "Matrix multiplication via arithmetic progressions",
+              "volume": "9",
+              "author": "Coppersmith",
+              "year": "1990",
+              "journal-title": "J Symbolic Comput"
+            },
+            {
+              "key": "10.1016/B978-0-12-811129-1.00007-9_br0790",
+              "series-title": "ICISC 2002",
+              "first-page": "182",
+              "article-title": "Higher order correlation attacks, XL algorithm and cryptanalysis of Toyocrypt",
+              "volume": "vol. 2587",
+              "author": "Courtois",
+              "year": "2003"
+            },
+            {
+              "key": "10.1016/B978-0-12-811129-1.00007-9_br0795",
+              "series-title": "Adv. in crypt. – Crypto '03",
+              "first-page": "176",
+              "article-title": "Fast algebraic attacks on stream ciphers with linear feedback",
+              "volume": "vol. 2729",
+              "author": "Courtois",
+              "year": "2003"
+            },
+            {
+              "key": "10.1016/B978-0-12-811129-1.00007-9_br0805",
+              "series-title": "Adv. in crypt. – Eurocrypt 2003",
+              "first-page": "345",
+              "article-title": "Algebraic attacks on stream ciphers with linear feedback",
+              "volume": "vol. 2656",
+              "author": "Courtois",
+              "year": "2003"
+            },
+            {
+              "key": "10.1016/B978-0-12-811129-1.00007-9_br0910",
+              "doi-asserted-by": "publisher",
+              "first-page": "185",
+              "DOI": "10.1515/integ.2011.017",
+              "article-title": "On a combinatorial conjecture",
+              "volume": "11",
+              "author": "Cusick",
+              "year": "2011",
+              "journal-title": "Integers"
+            },
+            {
+              "key": "10.1016/B978-0-12-811129-1.00007-9_br0950",
+              "series-title": "Sequences and their applications – SETA 2006",
+              "first-page": "376",
+              "article-title": "Reducing the number of homogeneous linear equations in finding annihilators",
+              "volume": "vol. 4086",
+              "author": "Dalai",
+              "year": "2006"
+            },
+            {
+              "key": "10.1016/B978-0-12-811129-1.00007-9_br0955",
+              "doi-asserted-by": "publisher",
+              "first-page": "41",
+              "DOI": "10.1007/s10623-005-6300-x",
+              "article-title": "Basic theory in construction of Boolean functions with maximum possible annihilator immunity",
+              "volume": "40",
+              "author": "Dalai",
+              "year": "2006",
+              "journal-title": "Des Codes Cryptogr"
+            },
+            {
+              "key": "10.1016/B978-0-12-811129-1.00007-9_br0990",
+              "series-title": "Adv. in crypt. – Auscrypt '92",
+              "first-page": "209",
+              "article-title": "Cryptanalysis of summation generator",
+              "volume": "vol. 718",
+              "author": "Dawson",
+              "year": "1993"
+            },
+            {
+              "key": "10.1016/B978-0-12-811129-1.00007-9_br0995",
+              "doi-asserted-by": "publisher",
+              "first-page": "25",
+              "DOI": "10.1080/0161-119491882757",
+              "article-title": "Divide and conquer attacks on certain classes of stream ciphers",
+              "volume": "18",
+              "author": "Dawson",
+              "year": "1994",
+              "journal-title": "Cryptologia"
+            },
+            {
+              "key": "10.1016/B978-0-12-811129-1.00007-9_br1000",
+              "doi-asserted-by": "publisher",
+              "first-page": "165",
+              "DOI": "10.1080/0161-119691884870",
+              "article-title": "Automated cryptanalysis of XOR plaintext strings",
+              "volume": "20",
+              "author": "Dawson",
+              "year": "1996",
+              "journal-title": "Cryptologia"
+            },
+            {
+              "key": "10.1016/B978-0-12-811129-1.00007-9_br1015",
+              "author": "de Cannière"
+            },
+            {
+              "key": "10.1016/B978-0-12-811129-1.00007-9_br1030",
+              "article-title": "On a combinatorial conjecture of Tu and Deng",
+              "volume": "12",
+              "author": "Deng",
+              "year": "2012",
+              "journal-title": "Integers"
+            },
+            {
+              "key": "10.1016/B978-0-12-811129-1.00007-9_br1095",
+              "article-title": "The stability theory of stream ciphers",
+              "volume": "vol. 561",
+              "author": "Ding",
+              "year": "1991"
+            },
+            {
+              "key": "10.1016/B978-0-12-811129-1.00007-9_br1100",
+              "series-title": "Adv. in crypt. – Eurocrypt '15",
+              "first-page": "733",
+              "article-title": "Cube attacks and cube-attack-like cryptanalysis on the round-reduced Keccak sponge function",
+              "volume": "vol. 9056",
+              "author": "Dinur",
+              "year": "2015"
+            },
+            {
+              "key": "10.1016/B978-0-12-811129-1.00007-9_br1105",
+              "series-title": "Adv. in crypt. – Eurocrypt '09",
+              "first-page": "278",
+              "article-title": "Cube attacks on tweakable black box polynomials",
+              "volume": "vol. 5479",
+              "author": "Dinur",
+              "year": "2009"
+            },
+            {
+              "key": "10.1016/B978-0-12-811129-1.00007-9_br1110",
+              "series-title": "Fast software encryption – Lingby 2011",
+              "first-page": "167",
+              "article-title": "Breaking Grain-128 with dynamic cube attacks",
+              "volume": "vol. 6733",
+              "author": "Dinur",
+              "year": "2011"
+            },
+            {
+              "key": "10.1016/B978-0-12-811129-1.00007-9_br1135",
+              "series-title": "ICISC 2011",
+              "first-page": "261",
+              "article-title": "On the resistance of Boolean functions against fast algebraic attacks",
+              "volume": "vol. 7259",
+              "author": "Du",
+              "year": "2012"
+            },
+            {
+              "key": "10.1016/B978-0-12-811129-1.00007-9_br1165",
+              "doi-asserted-by": "publisher",
+              "first-page": "61",
+              "DOI": "10.1016/S0022-4049(99)00005-5",
+              "article-title": "A new efficient algorithm for computing Gröbner bases (F4)",
+              "volume": "139",
+              "author": "Faugère",
+              "year": "1999",
+              "journal-title": "J Pure Appl Algebra"
+            },
+            {
+              "key": "10.1016/B978-0-12-811129-1.00007-9_br1205",
+              "series-title": "Adv. in crypt. – Eurocrypt '96",
+              "first-page": "245",
+              "article-title": "An efficient pseudo-random generator provably as secure as syndrome decoding",
+              "volume": "vol. 1070",
+              "author": "Fischer",
+              "year": "1996"
+            },
+            {
+              "key": "10.1016/B978-0-12-811129-1.00007-9_br1275",
+              "doi-asserted-by": "publisher",
+              "first-page": "93",
+              "DOI": "10.1049/iet-ifs.2010.0048",
+              "article-title": "Balanced rotation symmetric Boolean functions with maximum algebraic immunity",
+              "volume": "5",
+              "author": "Fu",
+              "year": "2011",
+              "journal-title": "IET Inform Security"
+            },
+            {
+              "key": "10.1016/B978-0-12-811129-1.00007-9_br1305",
+              "series-title": "Computers and intractability: a guide to the theory of NP-completeness",
+              "author": "Garey",
+              "year": "1979"
+            },
+            {
+              "key": "10.1016/B978-0-12-811129-1.00007-9_br1310",
+              "first-page": "99",
+              "article-title": "How to protect data with ciphers that are really hard to break",
+              "volume": "46",
+              "author": "Geffe",
+              "year": "1973",
+              "journal-title": "Electronics"
+            },
+            {
+              "key": "10.1016/B978-0-12-811129-1.00007-9_br1315",
+              "series-title": "Adv. in crypt. – Crypto 2000",
+              "first-page": "469",
+              "article-title": "An improved pseudo-random generator based on discrete log",
+              "volume": "vol. 1880",
+              "author": "Gennaro",
+              "year": "2000"
+            },
+            {
+              "key": "10.1016/B978-0-12-811129-1.00007-9_br1340",
+              "series-title": "Fast software encryption – Cambridge 1993",
+              "first-page": "90",
+              "article-title": "On the security of shift register based keystream generators",
+              "volume": "vol. 809",
+              "author": "Golić",
+              "year": "1994"
+            },
+            {
+              "key": "10.1016/B978-0-12-811129-1.00007-9_br1345",
+              "series-title": "Adv. in crypt. – Asiacrypt '94",
+              "first-page": "91",
+              "article-title": "Intrinsic statistical weakness of keystream generators",
+              "volume": "vol. 917",
+              "author": "Golić",
+              "year": "1995"
+            },
+            {
+              "key": "10.1016/B978-0-12-811129-1.00007-9_br1350",
+              "series-title": "Fast software encryption – Leuven 1994",
+              "first-page": "154",
+              "article-title": "Linear cryptanalysis of stream ciphers",
+              "volume": "vol. 1008",
+              "author": "Golić",
+              "year": "1995"
+            },
+            {
+              "key": "10.1016/B978-0-12-811129-1.00007-9_br1355",
+              "series-title": "Fast software encryption – Cambridge 1996",
+              "first-page": "173",
+              "article-title": "On the security of nonlinear filter generators",
+              "volume": "vol. 1039",
+              "author": "Golić",
+              "year": "1997"
+            },
+            {
+              "key": "10.1016/B978-0-12-811129-1.00007-9_br1360",
+              "series-title": "Adv. in crypt. – Crypto 2001",
+              "first-page": "440",
+              "article-title": "Correlation analysis of the shrinking generator",
+              "volume": "vol. 2139",
+              "author": "Golić",
+              "year": "2001"
+            },
+            {
+              "key": "10.1016/B978-0-12-811129-1.00007-9_br1365",
+              "doi-asserted-by": "publisher",
+              "first-page": "2543",
+              "DOI": "10.1109/TIT.2005.850114",
+              "article-title": "Embedding probabilities for the alternating step generator",
+              "volume": "51",
+              "author": "Golić",
+              "year": "2005",
+              "journal-title": "IEEE Trans Inform Theory"
+            },
+            {
+              "key": "10.1016/B978-0-12-811129-1.00007-9_br1375",
+              "series-title": "Adv. in crypt. – Crypto '97",
+              "first-page": "499",
+              "article-title": "Edit distance correlation attack on the alternating step generator",
+              "volume": "vol. 1294",
+              "author": "Golić",
+              "year": "1997"
+            },
+            {
+              "key": "10.1016/B978-0-12-811129-1.00007-9_br1380",
+              "doi-asserted-by": "publisher",
+              "first-page": "41",
+              "DOI": "10.1007/s00145-002-9925-1",
+              "article-title": "Edit probability correlation attacks on stop/go clocked keystream generators",
+              "volume": "16",
+              "author": "Golić",
+              "year": "2003",
+              "journal-title": "J Cryptology"
+            },
+            {
+              "key": "10.1016/B978-0-12-811129-1.00007-9_br1385",
+              "doi-asserted-by": "publisher",
+              "first-page": "51",
+              "DOI": "10.1023/A:1027386519887",
+              "article-title": "Correlation analysis of the alternating step generator",
+              "volume": "31",
+              "author": "Golić",
+              "year": "2004",
+              "journal-title": "Des Codes Cryptogr"
+            },
+            {
+              "key": "10.1016/B978-0-12-811129-1.00007-9_br1390",
+              "doi-asserted-by": "publisher",
+              "first-page": "201",
+              "DOI": "10.1007/BF00196912",
+              "article-title": "A generalized correlation attack on a class of stream ciphers based on the Levenshtein distance",
+              "volume": "3",
+              "author": "Golić",
+              "year": "1991",
+              "journal-title": "J Cryptology"
+            },
+            {
+              "key": "10.1016/B978-0-12-811129-1.00007-9_br1395",
+              "series-title": "Adv. in crypt. – Eurocrypt '94",
+              "first-page": "230",
+              "article-title": "Embedding and probabilistic correlation attacks on clock-controlled shift registers",
+              "volume": "vol. 950",
+              "author": "Golić",
+              "year": "1995"
+            },
+            {
+              "key": "10.1016/B978-0-12-811129-1.00007-9_br1400",
+              "series-title": "Adv. in crypt. – Eurocrypt '92",
+              "first-page": "472",
+              "article-title": "A generalized correlation attack with a probabilistic constrained edit distance",
+              "volume": "vol. 658",
+              "author": "Golić",
+              "year": "1993"
+            },
+            {
+              "key": "10.1016/B978-0-12-811129-1.00007-9_br1405",
+              "doi-asserted-by": "publisher",
+              "first-page": "482",
+              "DOI": "10.1109/12.494106",
+              "article-title": "Correlation attacks on clock-controlled shift registers in keystream generators",
+              "volume": "45",
+              "author": "Golić",
+              "year": "1996",
+              "journal-title": "IEEE Trans Comput"
+            },
+            {
+              "key": "10.1016/B978-0-12-811129-1.00007-9_br1410",
+              "doi-asserted-by": "publisher",
+              "first-page": "245",
+              "DOI": "10.1007/s001459910009",
+              "article-title": "Fast correlation attacks on the summation generator",
+              "volume": "13",
+              "author": "Golić",
+              "year": "2000",
+              "journal-title": "J Cryptology"
+            },
+            {
+              "key": "10.1016/B978-0-12-811129-1.00007-9_br1420",
+              "series-title": "Adv. in crypt. – Eurocrypt '84",
+              "first-page": "93",
+              "article-title": "Pseudo random properties of cascade connections of clock controlled shift registers",
+              "volume": "vol. 209",
+              "author": "Gollmann",
+              "year": "1985"
+            },
+            {
+              "key": "10.1016/B978-0-12-811129-1.00007-9_br1425",
+              "series-title": "Cryptography and coding, 1986 IMA conference",
+              "first-page": "289",
+              "article-title": "Correlation analysis of cascaded sequences",
+              "author": "Gollmann",
+              "year": "1989"
+            },
+            {
+              "key": "10.1016/B978-0-12-811129-1.00007-9_br1430",
+              "series-title": "Cryptography and coding III, 1991 IMA conference",
+              "first-page": "197",
+              "article-title": "Transition matrices of clock-controlled shift registers",
+              "author": "Gollmann",
+              "year": "1993"
+            },
+            {
+              "key": "10.1016/B978-0-12-811129-1.00007-9_br1435",
+              "doi-asserted-by": "publisher",
+              "first-page": "525",
+              "DOI": "10.1109/49.17716",
+              "article-title": "Clock-controlled shift registers: a review",
+              "volume": "7",
+              "author": "Gollmann",
+              "year": "1989",
+              "journal-title": "IEEE J Selected Areas Communications"
+            },
+            {
+              "key": "10.1016/B978-0-12-811129-1.00007-9_br1440",
+              "series-title": "Adv. in crypt. – Eurocrypt '89",
+              "first-page": "680",
+              "article-title": "A cryptanalysis of stepk,m cascades",
+              "volume": "vol. 434",
+              "author": "Gollmann",
+              "year": "1990"
+            },
+            {
+              "key": "10.1016/B978-0-12-811129-1.00007-9_br1445",
+              "series-title": "Shift register sequences",
+              "author": "Golomb",
+              "year": "1967"
+            },
+            {
+              "key": "10.1016/B978-0-12-811129-1.00007-9_br1465",
+              "series-title": "Adv. in crypt. – Eurocrypt '93",
+              "first-page": "151",
+              "article-title": "On the linear complexity of products of shift-register sequences",
+              "volume": "vol. 765",
+              "author": "Göttfert",
+              "year": "1994"
+            },
+            {
+              "key": "10.1016/B978-0-12-811129-1.00007-9_br1470",
+              "series-title": "Adv. in crypt. – Eurocrypt '87",
+              "first-page": "5",
+              "article-title": "Alternating step generators controlled by de Bruijn sequences",
+              "volume": "vol. 304",
+              "author": "Günther",
+              "year": "1988"
+            },
+            {
+              "key": "10.1016/B978-0-12-811129-1.00007-9_br1495",
+              "doi-asserted-by": "publisher",
+              "first-page": "381",
+              "DOI": "10.1145/356827.356830",
+              "article-title": "Approximate string matching",
+              "volume": "12",
+              "author": "Hall",
+              "year": "1980",
+              "journal-title": "Comput Surveys"
+            },
+            {
+              "key": "10.1016/B978-0-12-811129-1.00007-9_br1505",
+              "doi-asserted-by": "publisher",
+              "first-page": "376",
+              "DOI": "10.1016/0022-0000(93)90038-X",
+              "article-title": "The discrete logarithm modulo a composite hides O(n) bits",
+              "volume": "47",
+              "author": "Håstad",
+              "year": "1993",
+              "journal-title": "J Computer System Sci"
+            },
+            {
+              "key": "10.1016/B978-0-12-811129-1.00007-9_br1520",
+              "series-title": "Adv. in crypt. – Asiacrypt '08",
+              "first-page": "557",
+              "article-title": "Breaking the F-FCSR-H stream cipher in real time",
+              "volume": "vol. 5350",
+              "author": "Hell",
+              "year": "2008"
+            },
+            {
+              "key": "10.1016/B978-0-12-811129-1.00007-9_br1525",
+              "doi-asserted-by": "publisher",
+              "first-page": "6183",
+              "DOI": "10.1109/TIT.2012.2202212",
+              "article-title": "Two new attacks on the self-shrinking generator",
+              "volume": "58",
+              "author": "Hell",
+              "year": "2012",
+              "journal-title": "IEEE Trans Inform Theory"
+            },
+            {
+              "key": "10.1016/B978-0-12-811129-1.00007-9_br1535",
+              "series-title": "Adv. in crypt. – Eurocrypt '85",
+              "first-page": "119",
+              "article-title": "On functions of linear shift register sequences",
+              "volume": "vol. 219",
+              "author": "Herlestam",
+              "year": "1986"
+            },
+            {
+              "key": "10.1016/B978-0-12-811129-1.00007-9_br1570",
+              "doi-asserted-by": "publisher",
+              "first-page": "196",
+              "DOI": "10.1016/S0019-9958(86)80035-3",
+              "article-title": "A superexponential lower bound for Gröbner bases and Church–Rosser commutative Thue systems",
+              "volume": "68",
+              "author": "Huynh",
+              "year": "1986",
+              "journal-title": "Inform Control"
+            },
+            {
+              "key": "10.1016/B978-0-12-811129-1.00007-9_br1575",
+              "series-title": "Proc. 30th IEEE symposium on foundations of computer science",
+              "first-page": "236",
+              "article-title": "Efficient cryptographic schemes provably as secure as subset sum",
+              "author": "Impagliazzo",
+              "year": "1989"
+            },
+            {
+              "key": "10.1016/B978-0-12-811129-1.00007-9_br1615",
+              "series-title": "Proc. workshop on cryptography, Burg Feuerstein 1982",
+              "first-page": "189",
+              "article-title": "Multiplexed sequences: some properties of the minimum polynomial",
+              "volume": "vol. 149",
+              "author": "Jennings",
+              "year": "1983"
+            },
+            {
+              "key": "10.1016/B978-0-12-811129-1.00007-9_br1620",
+              "series-title": "Vietcrypt 2006",
+              "first-page": "260",
+              "article-title": "Improved fast correlation attack on the shrinking and self-shrinking generators",
+              "volume": "vol. 4341",
+              "author": "Jeong",
+              "year": "2006"
+            },
+            {
+              "key": "10.1016/B978-0-12-811129-1.00007-9_br1625",
+              "series-title": "Adv. in crypt. – Asiacrypt '98",
+              "first-page": "342",
+              "article-title": "Reduced complexity correlation attacks on two clock-controlled generators",
+              "volume": "vol. 1514",
+              "author": "Johansson",
+              "year": "1998"
+            },
+            {
+              "key": "10.1016/B978-0-12-811129-1.00007-9_br1675",
+              "series-title": "The codebreakers",
+              "author": "Kahn",
+              "year": "1967"
+            },
+            {
+              "key": "10.1016/B978-0-12-811129-1.00007-9_br1710",
+              "doi-asserted-by": "publisher",
+              "first-page": "732",
+              "DOI": "10.1109/TIT.1976.1055626",
+              "article-title": "An analysis of the structure and complexity of nonlinear binary sequence generators",
+              "volume": "22",
+              "author": "Key",
+              "year": "1976",
+              "journal-title": "IEEE Trans Inform Theory"
+            },
+            {
+              "key": "10.1016/B978-0-12-811129-1.00007-9_br1720",
+              "series-title": "Selected areas crypt. 2007",
+              "first-page": "1",
+              "article-title": "Reduced complexity attacks on the alternating step generator",
+              "volume": "vol. 4876",
+              "author": "Khazaei",
+              "year": "2007"
+            },
+            {
+              "key": "10.1016/B978-0-12-811129-1.00007-9_br1750",
+              "series-title": "Adv. in crypt. – Crypto '99",
+              "first-page": "19",
+              "article-title": "Cryptanalysis of the HFE public key cryptosystem by relinearization",
+              "volume": "vol. 1666",
+              "author": "Kipnis",
+              "year": "1999"
+            },
+            {
+              "key": "10.1016/B978-0-12-811129-1.00007-9_br1755",
+              "series-title": "Adv. in crypt. – Crypto '95",
+              "first-page": "262",
+              "article-title": "Cryptanalysis based on 2-adic rational approximation",
+              "volume": "vol. 963",
+              "author": "Klapper",
+              "year": "1995"
+            },
+            {
+              "key": "10.1016/B978-0-12-811129-1.00007-9_br1765",
+              "series-title": "The art of computer programming, vol. 2: seminumerical algorithms",
+              "author": "Knuth",
+              "year": "1981"
+            },
+            {
+              "key": "10.1016/B978-0-12-811129-1.00007-9_br1770",
+              "series-title": "Adv. in crypt. – Eurocrypt 2002",
+              "first-page": "222",
+              "article-title": "BDD-based cryptanalysis of keystream generators",
+              "volume": "vol. 2332",
+              "author": "Krause",
+              "year": "2002"
+            },
+            {
+              "key": "10.1016/B978-0-12-811129-1.00007-9_br1775",
+              "series-title": "Fast software encryption – Cambridge 1993",
+              "first-page": "45",
+              "article-title": "The shrinking generator: some practical considerations",
+              "volume": "vol. 809",
+              "author": "Krawczyk",
+              "year": "1994"
+            },
+            {
+              "key": "10.1016/B978-0-12-811129-1.00007-9_br1840",
+              "series-title": "Fast software encryption – Delhi 2004",
+              "first-page": "34",
+              "article-title": "Algebraic attacks on summation generators",
+              "volume": "vol. 3017",
+              "author": "Lee",
+              "year": "2004"
+            },
+            {
+              "key": "10.1016/B978-0-12-811129-1.00007-9_br1845",
+              "series-title": "Adv. in crypt. – Asiacrypt '96",
+              "first-page": "360",
+              "article-title": "Conditional correlation attack on nonlinear filter generators",
+              "volume": "vol. 1163",
+              "author": "Lee",
+              "year": "1996"
+            },
+            {
+              "key": "10.1016/B978-0-12-811129-1.00007-9_br1885",
+              "series-title": "Introduction to finite fields and their applications",
+              "author": "Lidl",
+              "year": "1986"
+            },
+            {
+              "key": "10.1016/B978-0-12-811129-1.00007-9_br1895",
+              "doi-asserted-by": "publisher",
+              "first-page": "4817",
+              "DOI": "10.1109/TIT.2011.2145690",
+              "article-title": "Fast algebraic attacks and decomposition of symmetric Boolean functions",
+              "volume": "57",
+              "author": "Liu",
+              "year": "2011",
+              "journal-title": "IEEE Trans Inform Theory"
+            },
+            {
+              "key": "10.1016/B978-0-12-811129-1.00007-9_br1900",
+              "series-title": "Adv. in crypt. – Asiacrypt 2012",
+              "first-page": "172",
+              "article-title": "Perfect algebraic immune functions",
+              "volume": "vol. 7658",
+              "author": "Liu",
+              "year": "2012"
+            },
+            {
+              "issue": "5",
+              "key": "10.1016/B978-0-12-811129-1.00007-9_br1930",
+              "doi-asserted-by": "publisher",
+              "first-page": "453",
+              "DOI": "10.1515/156939206779238418",
+              "article-title": "Exact relation between nonlinearity and algebraic immunity",
+              "volume": "16",
+              "author": "Lobanov",
+              "year": "2006",
+              "journal-title": "Discrete Math Appl"
+            },
+            {
+              "key": "10.1016/B978-0-12-811129-1.00007-9_br1935",
+              "author": "Löhlein"
+            },
+            {
+              "key": "10.1016/B978-0-12-811129-1.00007-9_br1940",
+              "doi-asserted-by": "publisher",
+              "first-page": "363",
+              "DOI": "10.1137/0217021",
+              "article-title": "The discrete logarithm hides O(logn) bits",
+              "volume": "17",
+              "author": "Long",
+              "year": "1988",
+              "journal-title": "SIAM J Comput"
+            },
+            {
+              "key": "10.1016/B978-0-12-811129-1.00007-9_br2030",
+              "doi-asserted-by": "publisher",
+              "first-page": "122",
+              "DOI": "10.1109/TIT.1969.1054260",
+              "article-title": "Shift-register synthesis and BCH decoding",
+              "volume": "15",
+              "author": "Massey",
+              "year": "1969",
+              "journal-title": "IEEE Trans Inform Theory"
+            },
+            {
+              "key": "10.1016/B978-0-12-811129-1.00007-9_br2035",
+              "series-title": "Adv. in crypt. – Crypto '94",
+              "first-page": "332",
+              "article-title": "A Fourier transform approach to the linear complexity of nonlinearly filtered sequences",
+              "volume": "vol. 839",
+              "author": "Massey",
+              "year": "1994"
+            },
+            {
+              "key": "10.1016/B978-0-12-811129-1.00007-9_br2040",
+              "series-title": "Adv. in crypt. – Crypto '96",
+              "first-page": "358",
+              "article-title": "Linear complexity of periodic sequences: a general theory",
+              "volume": "vol. 1109",
+              "author": "Massey",
+              "year": "1996"
+            },
+            {
+              "key": "10.1016/B978-0-12-811129-1.00007-9_br2075",
+              "doi-asserted-by": "publisher",
+              "first-page": "305",
+              "DOI": "10.1016/0001-8708(82)90048-2",
+              "article-title": "The complexity of the word problem for commutative semigroups and polynomial ideals",
+              "volume": "46",
+              "author": "Mayr",
+              "year": "1982",
+              "journal-title": "Adv Math"
+            },
+            {
+              "key": "10.1016/B978-0-12-811129-1.00007-9_br2125",
+              "series-title": "Adv. in crypt. – Eurocrypt 2004",
+              "first-page": "474",
+              "article-title": "Algebraic attacks and decomposition of Boolean functions",
+              "volume": "vol. 3027",
+              "author": "Meier",
+              "year": "2004"
+            },
+            {
+              "key": "10.1016/B978-0-12-811129-1.00007-9_br2145",
+              "series-title": "Adv. in crypt. – Eurocrypt '90",
+              "first-page": "204",
+              "article-title": "Correlation properties of combiners with memory in stream ciphers",
+              "volume": "vol. 473",
+              "author": "Meier",
+              "year": "1991"
+            },
+            {
+              "key": "10.1016/B978-0-12-811129-1.00007-9_br2150",
+              "doi-asserted-by": "publisher",
+              "first-page": "67",
+              "DOI": "10.1007/BF00191322",
+              "article-title": "Correlation properties of combiners with memory in stream ciphers",
+              "volume": "5",
+              "author": "Meier",
+              "year": "1992",
+              "journal-title": "J Cryptology"
+            },
+            {
+              "key": "10.1016/B978-0-12-811129-1.00007-9_br2155",
+              "series-title": "Adv. in crypt. – Eurocrypt '94",
+              "first-page": "205",
+              "article-title": "The self-shrinking generator",
+              "volume": "vol. 950",
+              "author": "Meier",
+              "year": "1995"
+            },
+            {
+              "key": "10.1016/B978-0-12-811129-1.00007-9_br2160",
+              "series-title": "Handbook of applied cryptography",
+              "author": "Menezes",
+              "year": "1997"
+            },
+            {
+              "key": "10.1016/B978-0-12-811129-1.00007-9_br2180",
+              "series-title": "Codes and cyphers, cryptography and coding IV, 1993 IMA conference",
+              "first-page": "281",
+              "article-title": "Short Gollmann generators may be insecure",
+              "author": "Menicocci",
+              "year": "1995"
+            },
+            {
+              "key": "10.1016/B978-0-12-811129-1.00007-9_br2200",
+              "series-title": "Adv. in crypt. – Auscrypt '92",
+              "first-page": "349",
+              "article-title": "An approach to the initial state reconstruction of a clock-controlled shift register based on a novel distance measure",
+              "volume": "vol. 718",
+              "author": "Mihaljević",
+              "year": "1993"
+            },
+            {
+              "key": "10.1016/B978-0-12-811129-1.00007-9_br2205",
+              "series-title": "Information security and privacy 1996",
+              "first-page": "182",
+              "article-title": "A faster cryptanalysis of the self-shrinking generator",
+              "volume": "vol. 1172",
+              "author": "Mihaljević",
+              "year": "1996"
+            },
+            {
+              "issue": "2",
+              "key": "10.1016/B978-0-12-811129-1.00007-9_br2230",
+              "doi-asserted-by": "publisher",
+              "first-page": "205",
+              "DOI": "10.1007/s10998-012-4631-8",
+              "article-title": "Generic cryptographic weakness of k-normal Boolean functions in certain stream ciphers and cryptanalysis of Grain-128",
+              "volume": "65",
+              "author": "Mihaljević",
+              "year": "2012",
+              "journal-title": "Period Math Hung"
+            },
+            {
+              "key": "10.1016/B978-0-12-811129-1.00007-9_br2245",
+              "series-title": "Adv. in crypt. – Eurocrypt '92",
+              "first-page": "124",
+              "article-title": "Convergence of a Bayesian iterative error-correction procedure on a noisy shift register sequence",
+              "volume": "vol. 658",
+              "author": "Mihaljević",
+              "year": "1993"
+            },
+            {
+              "key": "10.1016/B978-0-12-811129-1.00007-9_br2280",
+              "series-title": "Proc. of WEWoRC",
+              "article-title": "The cube attack on Courtois toy cipher",
+              "author": "Mroczkowski",
+              "year": "2009"
+            },
+            {
+              "key": "10.1016/B978-0-12-811129-1.00007-9_br2285",
+              "doi-asserted-by": "crossref",
+              "first-page": "309",
+              "DOI": "10.3233/FI-2012-631",
+              "article-title": "The cube attack on stream cipher trivium and quadraticity tests",
+              "volume": "114",
+              "author": "Mroczkowski",
+              "year": "2012",
+              "journal-title": "Fundam Inform"
+            },
+            {
+              "key": "10.1016/B978-0-12-811129-1.00007-9_br2290",
+              "series-title": "An overview of eSTREAM ciphers. Survey at CoEC",
+              "author": "Mukherjee",
+              "year": "2012"
+            },
+            {
+              "key": "10.1016/B978-0-12-811129-1.00007-9_br2375",
+              "series-title": "Adv. in crypt. – Crypto '95",
+              "first-page": "148",
+              "article-title": "On the security of the Gollmann cascades",
+              "volume": "vol. 963",
+              "author": "Park",
+              "year": "1995"
+            },
+            {
+              "issue": "10",
+              "key": "10.1016/B978-0-12-811129-1.00007-9_br2395",
+              "doi-asserted-by": "publisher",
+              "first-page": "103",
+              "DOI": "10.1109/MC.2009.318",
+              "article-title": "Cube-type algebraic attacks on wireless encryption protocols",
+              "volume": "42",
+              "author": "Petrakos",
+              "year": "2009",
+              "journal-title": "IEEE Computer"
+            },
+            {
+              "key": "10.1016/B978-0-12-811129-1.00007-9_br2420",
+              "series-title": "Adv. in crypt. – Eurocrypt '96",
+              "first-page": "33",
+              "article-title": "Hidden fields equations (HFE) and isomorphisms of polynomials (IP): two new families of asymmetric algorithms",
+              "volume": "vol. 1070",
+              "author": "Patarin",
+              "year": "1996"
+            },
+            {
+              "key": "10.1016/B978-0-12-811129-1.00007-9_br2425",
+              "series-title": "Adv. in crypt. – Crypto '98",
+              "first-page": "304",
+              "article-title": "An efficient discrete log pseudo random generator",
+              "volume": "vol. 1462",
+              "author": "Patel",
+              "year": "1998"
+            },
+            {
+              "key": "10.1016/B978-0-12-811129-1.00007-9_br2445",
+              "series-title": "Adv. in crypt. – Eurocrypt '85",
+              "first-page": "62",
+              "article-title": "Simultaneous security of bits in the discrete log",
+              "volume": "vol. 219",
+              "author": "Peralta",
+              "year": "1986"
+            },
+            {
+              "key": "10.1016/B978-0-12-811129-1.00007-9_br2510",
+              "doi-asserted-by": "publisher",
+              "first-page": "2406",
+              "DOI": "10.1109/TIT.2009.2015999",
+              "article-title": "Constructing symmetric Boolean functions with maximum algebraic immunity",
+              "volume": "55",
+              "author": "Qu",
+              "year": "2009",
+              "journal-title": "IEEE Trans Inform Theory"
+            },
+            {
+              "key": "10.1016/B978-0-12-811129-1.00007-9_br2560",
+              "series-title": "Elementary number theory and its applications",
+              "author": "Rosen",
+              "year": "2000"
+            },
+            {
+              "key": "10.1016/B978-0-12-811129-1.00007-9_br2580",
+              "series-title": "Adv. in crypt. – Crypto '85",
+              "first-page": "260",
+              "article-title": "Correlation immunity and the summation generator",
+              "volume": "vol. 218",
+              "author": "Rueppel",
+              "year": "1986"
+            },
+            {
+              "key": "10.1016/B978-0-12-811129-1.00007-9_br2585",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1007/978-3-642-82865-2",
+              "article-title": "Analysis and design of stream ciphers",
+              "author": "Rueppel",
+              "year": "1986"
+            },
+            {
+              "key": "10.1016/B978-0-12-811129-1.00007-9_br2590",
+              "series-title": "Contemporary cryptology: the science of information integrity",
+              "first-page": "65",
+              "article-title": "Stream ciphers",
+              "author": "Rueppel",
+              "year": "1992"
+            },
+            {
+              "key": "10.1016/B978-0-12-811129-1.00007-9_br2595",
+              "doi-asserted-by": "publisher",
+              "first-page": "124",
+              "DOI": "10.1109/TIT.1987.1057268",
+              "article-title": "Products of linear recurring sequences with maximum complexity",
+              "volume": "33",
+              "author": "Rueppel",
+              "year": "1987",
+              "journal-title": "IEEE Trans Inform Theory"
+            },
+            {
+              "key": "10.1016/B978-0-12-811129-1.00007-9_br2645",
+              "series-title": "Proceedings of applied algebra, algebraic algorithms and error-correcting codes (AAECC-17)",
+              "first-page": "271",
+              "article-title": "Construction of rotation symmetric Boolean functions on odd number of variables with maximum algebraic immunity",
+              "volume": "vol. 4851",
+              "author": "Sarkar",
+              "year": "2007"
+            },
+            {
+              "key": "10.1016/B978-0-12-811129-1.00007-9_br2725",
+              "series-title": "Algebraic attacks from a Gröbner basis perspective",
+              "author": "Segers",
+              "year": "2004"
+            },
+            {
+              "key": "10.1016/B978-0-12-811129-1.00007-9_br2730",
+              "series-title": "Linear recurrence relations over finite fields",
+              "author": "Selmer",
+              "year": "1966"
+            },
+            {
+              "key": "10.1016/B978-0-12-811129-1.00007-9_br2735",
+              "series-title": "Adv. in crypt. – Eurocrypt '93",
+              "first-page": "142",
+              "article-title": "From the memoirs of a Norwegian cryptologist",
+              "volume": "vol. 765",
+              "author": "Selmer",
+              "year": "1994"
+            },
+            {
+              "key": "10.1016/B978-0-12-811129-1.00007-9_br2740",
+              "series-title": "Adv. in crypt. – Eurocrypt 2000",
+              "first-page": "392",
+              "article-title": "Efficient algorithms for solving overdefined systems of multivariate polynomial equations",
+              "volume": "vol. 1807",
+              "author": "Shamir",
+              "year": "2000"
+            },
+            {
+              "key": "10.1016/B978-0-12-811129-1.00007-9_br2750",
+              "doi-asserted-by": "publisher",
+              "first-page": "656",
+              "DOI": "10.1002/j.1538-7305.1949.tb00928.x",
+              "article-title": "Communication theory of secrecy systems",
+              "volume": "28",
+              "author": "Shannon",
+              "year": "1949",
+              "journal-title": "Bell System Tech J"
+            },
+            {
+              "key": "10.1016/B978-0-12-811129-1.00007-9_br2755",
+              "series-title": "Applications of probabilistic combiners on linear feedback shift registers",
+              "author": "Sharpe",
+              "year": "2016"
+            },
+            {
+              "key": "10.1016/B978-0-12-811129-1.00007-9_br2780",
+              "series-title": "Adv. in crypt. – Eurocrypt '85",
+              "first-page": "103",
+              "article-title": "Cryptanalysts representation of nonlinearly filtered ML sequences",
+              "volume": "vol. 219",
+              "author": "Siegenthaler",
+              "year": "1986"
+            },
+            {
+              "key": "10.1016/B978-0-12-811129-1.00007-9_br2785",
+              "series-title": "Adv. in crypt. – Crypto '85",
+              "first-page": "273",
+              "article-title": "Design of combiners to prevent divide and conquer attacks",
+              "volume": "vol. 218",
+              "author": "Siegenthaler",
+              "year": "1986"
+            },
+            {
+              "key": "10.1016/B978-0-12-811129-1.00007-9_br2795",
+              "series-title": "Contemporary cryptology: the science of information integrity",
+              "year": "1992"
+            },
+            {
+              "key": "10.1016/B978-0-12-811129-1.00007-9_br2800",
+              "series-title": "Information security and privacy 1998",
+              "first-page": "147",
+              "article-title": "A probabilistic correlation attack on the shrinking generator",
+              "volume": "vol. 1438",
+              "author": "Simpson",
+              "year": "1998"
+            },
+            {
+              "key": "10.1016/B978-0-12-811129-1.00007-9_br2805",
+              "doi-asserted-by": "publisher",
+              "first-page": "89",
+              "DOI": "10.1016/S0020-0190(99)00045-9",
+              "article-title": "A fast correlation attack on multiplexer generators",
+              "volume": "70",
+              "author": "Simpson",
+              "year": "1999",
+              "journal-title": "Inform Process Lett"
+            },
+            {
+              "key": "10.1016/B978-0-12-811129-1.00007-9_br2835",
+              "doi-asserted-by": "publisher",
+              "first-page": "464",
+              "DOI": "10.1007/s00145-011-9100-7",
+              "article-title": "Perfectly balanced Boolean functions and Golić conjecture",
+              "volume": "25",
+              "author": "Smyshylaev",
+              "year": "2012",
+              "journal-title": "J Cryptology"
+            },
+            {
+              "key": "10.1016/B978-0-12-811129-1.00007-9_br2905",
+              "author": "Steel"
+            },
+            {
+              "key": "10.1016/B978-0-12-811129-1.00007-9_br2915",
+              "series-title": "Cryptography, theory and practice",
+              "author": "Stinson",
+              "year": "2006"
+            },
+            {
+              "key": "10.1016/B978-0-12-811129-1.00007-9_br2920",
+              "doi-asserted-by": "publisher",
+              "first-page": "354",
+              "DOI": "10.1007/BF02165411",
+              "article-title": "Gaussian elimination is not optimal",
+              "volume": "13",
+              "author": "Strassen",
+              "year": "1969",
+              "journal-title": "Numer Math"
+            },
+            {
+              "key": "10.1016/B978-0-12-811129-1.00007-9_br2935",
+              "doi-asserted-by": "crossref",
+              "first-page": "222",
+              "DOI": "10.1080/00207160903496985",
+              "article-title": "Construction of 1-resilient Boolean functions with optimum algebraic immunity",
+              "volume": "88",
+              "author": "Su",
+              "year": "2011",
+              "journal-title": "Internat J Computer Math"
+            },
+            {
+              "key": "10.1016/B978-0-12-811129-1.00007-9_br2955",
+              "doi-asserted-by": "publisher",
+              "first-page": "653",
+              "DOI": "10.1109/TIT.2012.2217476",
+              "article-title": "Highly nonlinear Boolean functions with optimal algebraic immunity and good behavior against algebraic attacks",
+              "volume": "59",
+              "author": "Tang",
+              "year": "2013",
+              "journal-title": "IEEE Trans Inform Theory"
+            },
+            {
+              "key": "10.1016/B978-0-12-811129-1.00007-9_br2960",
+              "doi-asserted-by": "publisher",
+              "first-page": "763",
+              "DOI": "10.1142/S0129054114500324",
+              "article-title": "A class of 1-resilient Boolean functions with optimal algebraic immunity and good behavior against algebraic attacks",
+              "volume": "25",
+              "author": "Tang",
+              "year": "2014",
+              "journal-title": "Internat J Found Comput Sci"
+            },
+            {
+              "key": "10.1016/B978-0-12-811129-1.00007-9_br3005",
+              "doi-asserted-by": "publisher",
+              "first-page": "1",
+              "DOI": "10.1007/s10623-010-9413-9",
+              "article-title": "A conjecture about binary strings and its application on constructing Boolean functions with optimal algebraic immunity",
+              "volume": "60",
+              "author": "Tu",
+              "year": "2011",
+              "journal-title": "Des Codes Cryptogr"
+            },
+            {
+              "key": "10.1016/B978-0-12-811129-1.00007-9_br3010",
+              "doi-asserted-by": "publisher",
+              "first-page": "427",
+              "DOI": "10.1016/j.dam.2011.08.006",
+              "article-title": "Boolean functions optimizing most of the cryptographic criteria",
+              "volume": "160",
+              "author": "Tu",
+              "year": "2012",
+              "journal-title": "Discrete Appl Math"
+            },
+            {
+              "key": "10.1016/B978-0-12-811129-1.00007-9_br3030",
+              "series-title": "Proc. 25th IEEE symposium on foundations of computer science",
+              "first-page": "458",
+              "article-title": "Efficient and secure pseudo-random number generation",
+              "author": "Vazirani",
+              "year": "1984"
+            },
+            {
+              "key": "10.1016/B978-0-12-811129-1.00007-9_br3035",
+              "series-title": "Adv. in crypt. – Crypto '84",
+              "first-page": "193",
+              "article-title": "Efficient and secure pseudo-random number generation",
+              "volume": "vol. 196",
+              "author": "Vazirani",
+              "year": "1985"
+            },
+            {
+              "key": "10.1016/B978-0-12-811129-1.00007-9_br3040",
+              "author": "Vielhaber"
+            },
+            {
+              "key": "10.1016/B978-0-12-811129-1.00007-9_br3045",
+              "author": "Vielhaber"
+            },
+            {
+              "key": "10.1016/B978-0-12-811129-1.00007-9_br3060",
+              "doi-asserted-by": "publisher",
+              "first-page": "5612",
+              "DOI": "10.1109/TIT.2012.2201350",
+              "article-title": "On 2k-variable symmetric Boolean functions with maximum algebraic immunity k",
+              "volume": "58",
+              "author": "Wang",
+              "year": "2012",
+              "journal-title": "IEEE Trans Inform Theory"
+            },
+            {
+              "key": "10.1016/B978-0-12-811129-1.00007-9_br3065",
+              "doi-asserted-by": "publisher",
+              "first-page": "1",
+              "DOI": "10.1016/j.dam.2014.01.010",
+              "article-title": "Cryptographic properties of the hidden weighted bit function",
+              "volume": "174",
+              "author": "Wang",
+              "year": "2014",
+              "journal-title": "Discrete Appl Math"
+            },
+            {
+              "key": "10.1016/B978-0-12-811129-1.00007-9_br3070",
+              "series-title": "ICISC 2010",
+              "first-page": "404",
+              "article-title": "A note on fast algebraic attacks and higher order nonlinearities",
+              "volume": "vol. 6584",
+              "author": "Wang",
+              "year": "2010"
+            },
+            {
+              "key": "10.1016/B978-0-12-811129-1.00007-9_br3075",
+              "doi-asserted-by": "publisher",
+              "first-page": "41",
+              "DOI": "10.1049/iet-ifs.2011.0090",
+              "article-title": "Some results on fast algebraic attacks and higher-order non-linearities",
+              "volume": "6",
+              "author": "Wang",
+              "year": "2012",
+              "journal-title": "IET Inform Security"
+            },
+            {
+              "key": "10.1016/B978-0-12-811129-1.00007-9_br3080",
+              "doi-asserted-by": "publisher",
+              "first-page": "567",
+              "DOI": "10.1016/j.ipl.2013.04.017",
+              "article-title": "A new method to construct Boolean functions with good cryptographic properties",
+              "volume": "113",
+              "author": "Wang",
+              "year": "2013",
+              "journal-title": "Inform Process Lett"
+            },
+            {
+              "key": "10.1016/B978-0-12-811129-1.00007-9_br3085",
+              "doi-asserted-by": "publisher",
+              "first-page": "25",
+              "DOI": "10.1016/j.dam.2013.11.014",
+              "article-title": "Balanced Boolean functions with optimum algebraic degree, optimum algebraic immunity and very high nonlinearity",
+              "volume": "167",
+              "author": "Wang",
+              "year": "2014",
+              "journal-title": "Discrete Appl Math"
+            },
+            {
+              "issue": "2",
+              "key": "10.1016/B978-0-12-811129-1.00007-9_br3090",
+              "doi-asserted-by": "publisher",
+              "first-page": "153",
+              "DOI": "10.3934/amc.2014.8.153",
+              "article-title": "Concatenations of the hidden weighted bit function and their cryptographic properties",
+              "volume": "8",
+              "author": "Wang",
+              "year": "2014",
+              "journal-title": "Adv Math Commun"
+            },
+            {
+              "key": "10.1016/B978-0-12-811129-1.00007-9_br3095",
+              "series-title": "Inf. sec. and crypt. – Inscrypt 2012",
+              "first-page": "276",
+              "article-title": "Construction of resilient and nonlinear Boolean functions with almost perfect immunity to algebraic and fast algebraic attacks",
+              "volume": "vol. 7763",
+              "author": "Wang",
+              "year": "2013"
+            },
+            {
+              "key": "10.1016/B978-0-12-811129-1.00007-9_br3180",
+              "series-title": "Proc. 23rd IEEE symposium on foundations of computer science",
+              "first-page": "80",
+              "article-title": "Theory and applications of trapdoor functions",
+              "author": "Yao",
+              "year": "1982"
+            },
+            {
+              "key": "10.1016/B978-0-12-811129-1.00007-9_br3215",
+              "series-title": "Adv. in crypt. – Crypto '89",
+              "first-page": "164",
+              "article-title": "On the linear consistency test (LCT) in cryptanalysis with applications",
+              "volume": "vol. 435",
+              "author": "Zeng",
+              "year": "1990"
+            },
+            {
+              "key": "10.1016/B978-0-12-811129-1.00007-9_br3220",
+              "series-title": "Adv. in crypt. – Crypto '90",
+              "first-page": "34",
+              "article-title": "An improved linear syndrome algorithm in cryptanalysis with applications",
+              "volume": "vol. 537",
+              "author": "Zeng",
+              "year": "1991"
+            },
+            {
+              "key": "10.1016/B978-0-12-811129-1.00007-9_br3225",
+              "doi-asserted-by": "publisher",
+              "first-page": "6310",
+              "DOI": "10.1109/TIT.2011.2109935",
+              "article-title": "More balanced Boolean functions with optimal algebraic immunity and good nonlinearity and resistance to fast algebraic attacks",
+              "volume": "57",
+              "author": "Zeng",
+              "year": "2011",
+              "journal-title": "IEEE Trans Inform Theory"
+            },
+            {
+              "key": "10.1016/B978-0-12-811129-1.00007-9_br3230",
+              "series-title": "Information security and privacy 2001",
+              "first-page": "21",
+              "article-title": "Improved cryptanalysis of the self-shrinking generator",
+              "volume": "vol. 2119",
+              "author": "Zenner",
+              "year": "2001"
+            },
+            {
+              "key": "10.1016/B978-0-12-811129-1.00007-9_br3245",
+              "series-title": "Selected areas crypt. 2008",
+              "first-page": "214",
+              "article-title": "An improved fast correlation attack on stream ciphers",
+              "volume": "vol. 5381",
+              "author": "Zhang",
+              "year": "2009"
+            },
+            {
+              "key": "10.1016/B978-0-12-811129-1.00007-9_br3250",
+              "doi-asserted-by": "publisher",
+              "first-page": "94",
+              "DOI": "10.1016/j.ins.2014.06.024",
+              "article-title": "Secondary constructions of highly nonlinear Boolean functions and disjoint spectra plateaued functions",
+              "volume": "283",
+              "author": "Zhang",
+              "year": "2014",
+              "journal-title": "Inform Sci"
+            },
+            {
+              "key": "10.1016/B978-0-12-811129-1.00007-9_br3255",
+              "doi-asserted-by": "publisher",
+              "first-page": "614",
+              "DOI": "10.1002/sec.356",
+              "article-title": "Constructions of 1-resilient Boolean functions on odd number of variables with a high nonlinearity",
+              "volume": "5",
+              "author": "Zhang",
+              "year": "2012",
+              "journal-title": "Security Commun Networks"
+            },
+            {
+              "key": "10.1016/B978-0-12-811129-1.00007-9_br3265",
+              "doi-asserted-by": "publisher",
+              "first-page": "6681",
+              "DOI": "10.1109/TIT.2014.2345772",
+              "article-title": "Generalized Maiorana–McFarland construction of resilient Boolean functions with high nonlinearity and good algebraic properties",
+              "volume": "60",
+              "author": "Zhang",
+              "year": "2014",
+              "journal-title": "IEEE Trans Inform Theory"
+            },
+            {
+              "key": "10.1016/B978-0-12-811129-1.00007-9_br3270",
+              "doi-asserted-by": "publisher",
+              "first-page": "21",
+              "DOI": "10.1016/j.ins.2016.10.001",
+              "article-title": "Improving the lower bound on the maximum nonlinearity of 1-resilient Boolean functions and designing functions satisfying all cryptographic criteria",
+              "volume": "376",
+              "author": "Zhang",
+              "year": "2017",
+              "journal-title": "Inform Sci"
+            },
+            {
+              "issue": "3",
+              "key": "10.1016/B978-0-12-811129-1.00007-9_br3290",
+              "doi-asserted-by": "publisher",
+              "first-page": "728",
+              "DOI": "10.1016/j.jss.2012.11.007",
+              "article-title": "Efficient Hamming weight-based side-channel cube attacks on PRESENT",
+              "volume": "86",
+              "author": "Zhao",
+              "year": "2013",
+              "journal-title": "J Systems Software"
+            },
+            {
+              "key": "10.1016/B978-0-12-811129-1.00007-9_br3335",
+              "doi-asserted-by": "publisher",
+              "first-page": "31",
+              "DOI": "10.1137/0107003",
+              "article-title": "Linear recurring sequences",
+              "volume": "7",
+              "author": "Zierler",
+              "year": "1959",
+              "journal-title": "J Soc Industr Appl Math (SIAM)"
+            },
+            {
+              "key": "10.1016/B978-0-12-811129-1.00007-9_br3340",
+              "doi-asserted-by": "publisher",
+              "first-page": "147",
+              "DOI": "10.1016/0021-8693(73)90170-1",
+              "article-title": "Products of linear recurring sequences",
+              "volume": "27",
+              "author": "Zierler",
+              "year": "1973",
+              "journal-title": "J Algebra"
+            },
+            {
+              "key": "10.1016/B978-0-12-811129-1.00007-9_br3345",
+              "doi-asserted-by": "publisher",
+              "first-page": "1488",
+              "DOI": "10.1109/18.133275",
+              "article-title": "An algorithm for the initial state reconstruction of the clock-controlled shift register",
+              "volume": "37",
+              "author": "Živković",
+              "year": "1991",
+              "journal-title": "IEEE Trans Inform Theory"
+            }
+          ],
+          "container-title": [
+            "Cryptographic Boolean Functions and Applications"
+          ],
+          "language": "en",
+          "link": [
+            {
+              "URL": "https://api.elsevier.com/content/article/PII:B9780128111291000079?httpAccept=text/plain",
+              "content-type": "text/plain",
+              "content-version": "vor",
+              "intended-application": "text-mining"
+            },
+            {
+              "URL": "https://api.elsevier.com/content/article/PII:B9780128111291000079?httpAccept=text/xml",
+              "content-type": "text/xml",
+              "content-version": "vor",
+              "intended-application": "text-mining"
+            }
+          ],
+          "deposited": {
+            "date-parts": [
+              [
+                2020,
+                10,
+                5
+              ]
+            ],
+            "date-time": "2020-10-05T14:45:01Z",
+            "timestamp": 1601909101000
+          },
+          "score": 28.093674,
+          "resource": {
+            "primary": {
+              "URL": "https://linkinghub.elsevier.com/retrieve/pii/B9780128111291000079"
+            }
+          },
+          "issued": {
+            "date-parts": [
+              [
+                2017
+              ]
+            ]
+          },
+          "ISBN": [
+            "9780128111291"
+          ],
+          "references-count": 185,
+          "URL": "https://doi.org/10.1016/b978-0-12-811129-1.00007-9",
+          "published": {
+            "date-parts": [
+              [
+                2017
+              ]
+            ]
+          }
+        },
+        {
+          "indexed": {
+            "date-parts": [
+              [
+                2024,
+                4,
+                29
+              ]
+            ],
+            "date-time": "2024-04-29T04:49:54Z",
+            "timestamp": 1714366194591
+          },
+          "reference-count": 0,
+          "publisher": "Elsevier",
+          "isbn-type": [
+            {
+              "value": "9780123748904",
+              "type": "print"
+            }
+          ],
+          "license": [
+            {
+              "start": {
+                "date-parts": [
+                  [
+                    2009,
+                    1,
+                    1
+                  ]
+                ],
+                "date-time": "2009-01-01T00:00:00Z",
+                "timestamp": 1230768000000
+              },
+              "content-version": "tdm",
+              "delay-in-days": 0,
+              "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+            }
+          ],
+          "content-domain": {
+            "domain": [],
+            "crossmark-restriction": false
+          },
+          "published-print": {
+            "date-parts": [
+              [
+                2009
+              ]
+            ]
+          },
+          "DOI": "10.1016/b978-0-12-374890-4.00010-0",
+          "type": "book-chapter",
+          "created": {
+            "date-parts": [
+              [
+                2010,
+                1,
+                29
+              ]
+            ],
+            "date-time": "2010-01-29T12:20:51Z",
+            "timestamp": 1264767651000
+          },
+          "page": "119-156",
+          "source": "Crossref",
+          "is-referenced-by-count": 0,
+          "title": [
+            "Stream cipher design"
+          ],
+          "prefix": "10.1016",
+          "author": [
+            {
+              "given": "Thomas W.",
+              "family": "Cusick",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Pantelimon",
+              "family": "Stănică",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            }
+          ],
+          "member": "78",
+          "container-title": [
+            "Cryptographic Boolean Functions and Applications"
+          ],
+          "language": "en",
+          "link": [
+            {
+              "URL": "https://api.elsevier.com/content/article/PII:B9780123748904000100?httpAccept=text/xml",
+              "content-type": "text/xml",
+              "content-version": "vor",
+              "intended-application": "text-mining"
+            },
+            {
+              "URL": "https://api.elsevier.com/content/article/PII:B9780123748904000100?httpAccept=text/plain",
+              "content-type": "text/plain",
+              "content-version": "vor",
+              "intended-application": "text-mining"
+            }
+          ],
+          "deposited": {
+            "date-parts": [
+              [
+                2018,
+                12,
+                13
+              ]
+            ],
+            "date-time": "2018-12-13T15:28:14Z",
+            "timestamp": 1544714894000
+          },
+          "score": 28.071941,
+          "resource": {
+            "primary": {
+              "URL": "https://linkinghub.elsevier.com/retrieve/pii/B9780123748904000100"
+            }
+          },
+          "issued": {
+            "date-parts": [
+              [
+                2009
+              ]
+            ]
+          },
+          "ISBN": [
+            "9780123748904"
+          ],
+          "references-count": 0,
+          "URL": "https://doi.org/10.1016/b978-0-12-374890-4.00010-0",
+          "published": {
+            "date-parts": [
+              [
+                2009
+              ]
+            ]
+          }
+        }
+      ],
+      "items-per-page": 3,
+      "query": {
+        "start-index": 0,
+        "search-terms": null
+      }
+    }
+  }
+}

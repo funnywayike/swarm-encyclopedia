@@ -1,0 +1,1220 @@
+{
+  "retrieved": "2026-10-16",
+  "url": "https://api.crossref.org/works?query.bibliographic=evolutionary+game+theory+replicator+dynamics&rows=3&filter=until-pub-date%3A2026-10-16",
+  "response": {
+    "status": "ok",
+    "message-type": "work-list",
+    "message-version": "1.0.0",
+    "message": {
+      "facets": {},
+      "total-results": 3492526,
+      "items": [
+        {
+          "indexed": {
+            "date-parts": [
+              [
+                2026,
+                1,
+                19
+              ]
+            ],
+            "date-time": "2026-01-19T02:54:32Z",
+            "timestamp": 1768791272321,
+            "version": "3.49.0"
+          },
+          "reference-count": 33,
+          "publisher": "Elsevier",
+          "isbn-type": [
+            {
+              "value": "9780443438523",
+              "type": "print"
+            }
+          ],
+          "license": [
+            {
+              "start": {
+                "date-parts": [
+                  [
+                    2026,
+                    1,
+                    1
+                  ]
+                ],
+                "date-time": "2026-01-01T00:00:00Z",
+                "timestamp": 1767225600000
+              },
+              "content-version": "tdm",
+              "delay-in-days": 0,
+              "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+            },
+            {
+              "start": {
+                "date-parts": [
+                  [
+                    2026,
+                    1,
+                    1
+                  ]
+                ],
+                "date-time": "2026-01-01T00:00:00Z",
+                "timestamp": 1767225600000
+              },
+              "content-version": "tdm",
+              "delay-in-days": 0,
+              "URL": "https://www.elsevier.com/legal/tdmrep-license"
+            },
+            {
+              "start": {
+                "date-parts": [
+                  [
+                    2026,
+                    1,
+                    1
+                  ]
+                ],
+                "date-time": "2026-01-01T00:00:00Z",
+                "timestamp": 1767225600000
+              },
+              "content-version": "stm-asf",
+              "delay-in-days": 0,
+              "URL": "https://doi.org/10.15223/policy-017"
+            },
+            {
+              "start": {
+                "date-parts": [
+                  [
+                    2026,
+                    1,
+                    1
+                  ]
+                ],
+                "date-time": "2026-01-01T00:00:00Z",
+                "timestamp": 1767225600000
+              },
+              "content-version": "stm-asf",
+              "delay-in-days": 0,
+              "URL": "https://doi.org/10.15223/policy-037"
+            },
+            {
+              "start": {
+                "date-parts": [
+                  [
+                    2026,
+                    1,
+                    1
+                  ]
+                ],
+                "date-time": "2026-01-01T00:00:00Z",
+                "timestamp": 1767225600000
+              },
+              "content-version": "stm-asf",
+              "delay-in-days": 0,
+              "URL": "https://doi.org/10.15223/policy-012"
+            },
+            {
+              "start": {
+                "date-parts": [
+                  [
+                    2026,
+                    1,
+                    1
+                  ]
+                ],
+                "date-time": "2026-01-01T00:00:00Z",
+                "timestamp": 1767225600000
+              },
+              "content-version": "stm-asf",
+              "delay-in-days": 0,
+              "URL": "https://doi.org/10.15223/policy-029"
+            },
+            {
+              "start": {
+                "date-parts": [
+                  [
+                    2026,
+                    1,
+                    1
+                  ]
+                ],
+                "date-time": "2026-01-01T00:00:00Z",
+                "timestamp": 1767225600000
+              },
+              "content-version": "stm-asf",
+              "delay-in-days": 0,
+              "URL": "https://doi.org/10.15223/policy-004"
+            }
+          ],
+          "content-domain": {
+            "domain": [],
+            "crossmark-restriction": false
+          },
+          "published-print": {
+            "date-parts": [
+              [
+                2026
+              ]
+            ]
+          },
+          "DOI": "10.1016/b978-0-44-343852-3.00013-9",
+          "type": "book-chapter",
+          "created": {
+            "date-parts": [
+              [
+                2026,
+                1,
+                18
+              ]
+            ],
+            "date-time": "2026-01-18T14:07:17Z",
+            "timestamp": 1768745237000
+          },
+          "page": "49-62",
+          "source": "Crossref",
+          "is-referenced-by-count": 0,
+          "title": [
+            "Evolutionary game dynamics of learning in neural networks through replicator equations"
+          ],
+          "prefix": "10.1016",
+          "author": [
+            {
+              "given": "Mansoor",
+              "family": "Saburov",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Armen",
+              "family": "Bagdasaryan",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            }
+          ],
+          "member": "78",
+          "reference": [
+            {
+              "key": "10.1016/B978-0-44-343852-3.00013-9_br0005",
+              "series-title": "Encyclopedia of Behavioral Neuroscience",
+              "author": "Della Sala",
+              "year": "2021"
+            },
+            {
+              "issue": "1",
+              "key": "10.1016/B978-0-44-343852-3.00013-9_br0010",
+              "doi-asserted-by": "crossref",
+              "first-page": "1",
+              "DOI": "10.1371/journal.pcbi.1004031",
+              "article-title": "The formation of multi-synaptic connections by the interaction of synaptic and structural plasticity and their functional consequences",
+              "volume": "11",
+              "author": "Fauth",
+              "year": "2015",
+              "journal-title": "PLoS Computational Biology"
+            },
+            {
+              "issue": "4",
+              "key": "10.1016/B978-0-44-343852-3.00013-9_br0015",
+              "doi-asserted-by": "crossref",
+              "first-page": "969",
+              "DOI": "10.3233/JAD-170256",
+              "article-title": "A critical assessment of research on neurotransmitters in Alzheimer's disease",
+              "volume": "57",
+              "author": "Reddy",
+              "year": "2017",
+              "journal-title": "Journal of Alzheimer's Disease"
+            },
+            {
+              "key": "10.1016/B978-0-44-343852-3.00013-9_br0020",
+              "doi-asserted-by": "crossref",
+              "first-page": "442",
+              "DOI": "10.1016/j.neunet.2023.10.040",
+              "article-title": "A comparative study of GNN and MLP based machine learning for the diagnosis of Alzheimer's disease involving data synthesis",
+              "volume": "169",
+              "author": "Chen",
+              "year": "2024",
+              "journal-title": "Neural Networks"
+            },
+            {
+              "key": "10.1016/B978-0-44-343852-3.00013-9_br0025",
+              "doi-asserted-by": "crossref",
+              "first-page": "19",
+              "DOI": "10.1016/j.mbs.2014.04.001",
+              "article-title": "What tau distribution maximizes fast axonal transport toward the axonal synapse?",
+              "volume": "253",
+              "author": "Kuznetsov",
+              "year": "2014",
+              "journal-title": "Mathematical Biosciences"
+            },
+            {
+              "key": "10.1016/B978-0-44-343852-3.00013-9_br0030",
+              "doi-asserted-by": "crossref",
+              "first-page": "467",
+              "DOI": "10.1007/s00018-019-03382-0",
+              "article-title": "Trends in mathematical modeling of host-pathogen interactions",
+              "volume": "77",
+              "author": "Ewald",
+              "year": "2020",
+              "journal-title": "Cellular and Molecular Life Sciences"
+            },
+            {
+              "issue": "4",
+              "key": "10.1016/B978-0-44-343852-3.00013-9_br0035",
+              "doi-asserted-by": "crossref",
+              "first-page": "2037",
+              "DOI": "10.1137/21M1396708",
+              "article-title": "Linking network structure and dynamics to describe the set of persistent species in reaction diffusion systems",
+              "volume": "20",
+              "author": "Peter",
+              "year": "2021",
+              "journal-title": "SIAM Journal on Applied Dynamical Systems"
+            },
+            {
+              "issue": "21",
+              "key": "10.1016/B978-0-44-343852-3.00013-9_br0040",
+              "doi-asserted-by": "crossref",
+              "first-page": "3308",
+              "DOI": "10.3390/math12213308",
+              "article-title": "Intuitive innovation: unconventional modeling and systems neurology",
+              "volume": "12",
+              "author": "Peter",
+              "year": "2024",
+              "journal-title": "Mathematics"
+            },
+            {
+              "issue": "4",
+              "key": "10.1016/B978-0-44-343852-3.00013-9_br0045",
+              "doi-asserted-by": "crossref",
+              "first-page": "361",
+              "DOI": "10.1016/j.ijindorg.2011.12.004",
+              "article-title": "Information in Cournot: signaling with incomplete control",
+              "volume": "30",
+              "author": "Daher",
+              "year": "2012",
+              "journal-title": "International Journal of Industrial Organization"
+            },
+            {
+              "key": "10.1016/B978-0-44-343852-3.00013-9_br0050",
+              "doi-asserted-by": "crossref",
+              "first-page": "57",
+              "DOI": "10.1016/j.jmateco.2014.03.003",
+              "article-title": "Two-period model of insider trading with correlated signals",
+              "volume": "52",
+              "author": "Daher",
+              "year": "2014",
+              "journal-title": "Journal of Mathematical Economics"
+            },
+            {
+              "issue": "3",
+              "key": "10.1016/B978-0-44-343852-3.00013-9_br0055",
+              "doi-asserted-by": "crossref",
+              "first-page": "325",
+              "DOI": "10.1680/ipeds.1952.11259",
+              "article-title": "Some theoretical aspects of road traffic research",
+              "volume": "1",
+              "author": "Wardrop",
+              "year": "1952",
+              "journal-title": "Proceedings of the Institution of Civil Engineers. Part 2. Research and Theory"
+            },
+            {
+              "key": "10.1016/B978-0-44-343852-3.00013-9_br0060",
+              "series-title": "Studies in Economics of Transportation",
+              "author": "Beckmann",
+              "year": "1956"
+            },
+            {
+              "key": "10.1016/B978-0-44-343852-3.00013-9_br0065",
+              "series-title": "Traffic Assignment and Resource Allocation in Transportation Networks",
+              "author": "Dafermos",
+              "year": "1968"
+            },
+            {
+              "issue": "2",
+              "key": "10.1016/B978-0-44-343852-3.00013-9_br0070",
+              "doi-asserted-by": "crossref",
+              "first-page": "91",
+              "DOI": "10.6028/jres.073B.010",
+              "article-title": "Traffic assignment problem for a general network",
+              "volume": "73",
+              "author": "Dafermos",
+              "year": "1969",
+              "journal-title": "Journal of Research of the National Bureau of Standards. B, Mathematical Sciences"
+            },
+            {
+              "key": "10.1016/B978-0-44-343852-3.00013-9_br0075",
+              "series-title": "The Traffic Assignment Problem: Models and Methods",
+              "author": "Patriksson",
+              "year": "1994"
+            },
+            {
+              "issue": "1",
+              "key": "10.1016/B978-0-44-343852-3.00013-9_br0080",
+              "doi-asserted-by": "crossref",
+              "first-page": "1",
+              "DOI": "10.1287/moor.1060.0231",
+              "article-title": "Competition and efficiency in congested markets",
+              "volume": "32",
+              "author": "Acemoglu",
+              "year": "2007",
+              "journal-title": "Mathematics of Operations Research"
+            },
+            {
+              "key": "10.1016/B978-0-44-343852-3.00013-9_br0085",
+              "series-title": "Algorithmic Game Theory",
+              "first-page": "107",
+              "article-title": "Incentives and prices in communication networks",
+              "author": "Acemoglu",
+              "year": "2007"
+            },
+            {
+              "key": "10.1016/B978-0-44-343852-3.00013-9_br0090",
+              "series-title": "Proceedings of the 16th Annual Symposium on Theoretical Aspects of Computer Science",
+              "first-page": "404",
+              "article-title": "Worst-case equilibria",
+              "author": "Koutsoupias",
+              "year": "1999"
+            },
+            {
+              "issue": "2",
+              "key": "10.1016/B978-0-44-343852-3.00013-9_br0095",
+              "doi-asserted-by": "crossref",
+              "first-page": "65",
+              "DOI": "10.1016/j.cosrev.2009.04.003",
+              "article-title": "Worst-case equilibria",
+              "volume": "3",
+              "author": "Koutsoupias",
+              "year": "2009",
+              "journal-title": "Computer Science Review"
+            },
+            {
+              "key": "10.1016/B978-0-44-343852-3.00013-9_br0100",
+              "first-page": "340",
+              "article-title": "Routing Games in the Wild: Efficiency, Equilibration and Regret",
+              "volume": "vol. 10660",
+              "author": "Monnot",
+              "year": "2017"
+            },
+            {
+              "issue": "2",
+              "key": "10.1016/B978-0-44-343852-3.00013-9_br0105",
+              "first-page": "411",
+              "article-title": "When is selfish routing bad? The price of anarchy in light and heavy traffic",
+              "volume": "68",
+              "author": "Colini-Baldeschi",
+              "year": "2020",
+              "journal-title": "Operational Research"
+            },
+            {
+              "issue": "2",
+              "key": "10.1016/B978-0-44-343852-3.00013-9_br0110",
+              "doi-asserted-by": "crossref",
+              "first-page": "410",
+              "DOI": "10.1287/opre.2020.2036",
+              "article-title": "Selfishness need not be bad",
+              "volume": "69",
+              "author": "Wu",
+              "year": "2021",
+              "journal-title": "Operational Research"
+            },
+            {
+              "issue": "2",
+              "key": "10.1016/B978-0-44-343852-3.00013-9_br0115",
+              "doi-asserted-by": "crossref",
+              "first-page": "341",
+              "DOI": "10.1016/S0022-0000(03)00044-8",
+              "article-title": "The price of anarchy is independent of the network topology",
+              "volume": "67",
+              "author": "Roughgarden",
+              "year": "2003",
+              "journal-title": "Journal of Computer and System Sciences"
+            },
+            {
+              "key": "10.1016/B978-0-44-343852-3.00013-9_br0120",
+              "first-page": "702",
+              "article-title": "Dynamic Traffic Flow Assignment on Parallel Networks",
+              "volume": "vol. 687",
+              "author": "Bagdasaryan",
+              "year": "2023"
+            },
+            {
+              "key": "10.1016/B978-0-44-343852-3.00013-9_br0125",
+              "series-title": "Communications in Computer and Information Science, vol. 1826",
+              "doi-asserted-by": "crossref",
+              "first-page": "178",
+              "DOI": "10.1007/978-3-031-34204-2_16",
+              "article-title": "Optimal traffic flow distributions on dynamic networks",
+              "author": "Bagdasaryan",
+              "year": "2023"
+            },
+            {
+              "key": "10.1016/B978-0-44-343852-3.00013-9_br0130",
+              "series-title": "Communications in Computer and Information Science, vol. 1826",
+              "doi-asserted-by": "crossref",
+              "first-page": "203",
+              "DOI": "10.1007/978-3-031-34204-2_18",
+              "article-title": "User equilibrium and system optimality conditions for flow distributions on congested networks",
+              "author": "Kalampakas",
+              "year": "2023"
+            },
+            {
+              "issue": "1",
+              "key": "10.1016/B978-0-44-343852-3.00013-9_br0135",
+              "doi-asserted-by": "crossref",
+              "first-page": "187",
+              "DOI": "10.4213/rm10165e",
+              "article-title": "Dynamics of replicator equations on Wardrop optimal networks",
+              "volume": "79",
+              "author": "Bagdasaryan",
+              "year": "2024",
+              "journal-title": "Russian Mathematical Surveys"
+            },
+            {
+              "key": "10.1016/B978-0-44-343852-3.00013-9_br0140",
+              "first-page": "492",
+              "article-title": "Discrete-Time Replicator Equations and the Price of Cognition on Parallel Neural Networks",
+              "volume": "vol. 2141",
+              "author": "Bagdasaryan",
+              "year": "2024"
+            },
+            {
+              "key": "10.1016/B978-0-44-343852-3.00013-9_br0145",
+              "doi-asserted-by": "crossref",
+              "DOI": "10.1088/1742-6596/1730/1/012076",
+              "article-title": "Optimal control and stability analysis of nonlinear control-affine systems",
+              "volume": "1730",
+              "author": "Bagdasaryan",
+              "year": "2021",
+              "journal-title": "Journal of Physics. Conference Series"
+            },
+            {
+              "issue": "3",
+              "key": "10.1016/B978-0-44-343852-3.00013-9_br0150",
+              "doi-asserted-by": "crossref",
+              "first-page": "185",
+              "DOI": "10.4213/rm10226e",
+              "article-title": "Optimal flows in transport networks, affine-nonlinear deformations of networks, and replicator dynamical systems generated by Schur functions",
+              "volume": "80",
+              "author": "Bagdasaryan",
+              "year": "2025",
+              "journal-title": "Russian Mathematical Surveys"
+            },
+            {
+              "key": "10.1016/B978-0-44-343852-3.00013-9_br0155",
+              "doi-asserted-by": "crossref",
+              "first-page": "139",
+              "DOI": "10.21494/ISTE.OP.2021.0740",
+              "article-title": "On replicator equations with nonlinear payoff functions defined by the Ricker models",
+              "volume": "12",
+              "author": "Saburov",
+              "year": "2021",
+              "journal-title": "Advances in Pure and Applied Mathematics"
+            },
+            {
+              "key": "10.1016/B978-0-44-343852-3.00013-9_br0160",
+              "doi-asserted-by": "crossref",
+              "first-page": "813",
+              "DOI": "10.1002/mma.6790",
+              "article-title": "The discrete-time Kolmogorov systems with historic behavior",
+              "volume": "44",
+              "author": "Saburov",
+              "year": "2021",
+              "journal-title": "Mathematical Methods in the Applied Sciences"
+            },
+            {
+              "key": "10.1016/B978-0-44-343852-3.00013-9_br0165",
+              "doi-asserted-by": "crossref",
+              "first-page": "643",
+              "DOI": "10.1007/s13235-021-00404-0",
+              "article-title": "On discrete-time replicator equations with nonlinear payoff functions",
+              "volume": "12",
+              "author": "Saburov",
+              "year": "2022",
+              "journal-title": "Dynamic Games and Applications"
+            }
+          ],
+          "container-title": [
+            "Learning-Driven Game Theory for AI"
+          ],
+          "language": "en",
+          "link": [
+            {
+              "URL": "https://api.elsevier.com/content/article/PII:B9780443438523000139?httpAccept=text/xml",
+              "content-type": "text/xml",
+              "content-version": "vor",
+              "intended-application": "text-mining"
+            },
+            {
+              "URL": "https://api.elsevier.com/content/article/PII:B9780443438523000139?httpAccept=text/plain",
+              "content-type": "text/plain",
+              "content-version": "vor",
+              "intended-application": "text-mining"
+            }
+          ],
+          "deposited": {
+            "date-parts": [
+              [
+                2026,
+                1,
+                18
+              ]
+            ],
+            "date-time": "2026-01-18T14:07:24Z",
+            "timestamp": 1768745244000
+          },
+          "score": 41.305016,
+          "resource": {
+            "primary": {
+              "URL": "https://linkinghub.elsevier.com/retrieve/pii/B9780443438523000139"
+            }
+          },
+          "issued": {
+            "date-parts": [
+              [
+                2026
+              ]
+            ]
+          },
+          "ISBN": [
+            "9780443438523"
+          ],
+          "references-count": 33,
+          "URL": "https://doi.org/10.1016/b978-0-44-343852-3.00013-9",
+          "published": {
+            "date-parts": [
+              [
+                2026
+              ]
+            ]
+          }
+        },
+        {
+          "indexed": {
+            "date-parts": [
+              [
+                2025,
+                1,
+                29
+              ]
+            ],
+            "date-time": "2025-01-29T05:36:30Z",
+            "timestamp": 1738128990360,
+            "version": "3.33.0"
+          },
+          "posted": {
+            "date-parts": [
+              [
+                2025
+              ]
+            ]
+          },
+          "group-title": "SSRN",
+          "reference-count": 0,
+          "publisher": "Elsevier BV",
+          "content-domain": {
+            "domain": [],
+            "crossmark-restriction": false
+          },
+          "DOI": "10.2139/ssrn.5042155",
+          "type": "posted-content",
+          "created": {
+            "date-parts": [
+              [
+                2025,
+                1,
+                28
+              ]
+            ],
+            "date-time": "2025-01-28T10:06:02Z",
+            "timestamp": 1738058762000
+          },
+          "source": "Crossref",
+          "is-referenced-by-count": 0,
+          "title": [
+            "Deep Learning Approach for Predicting the Replicator Equation in Evolutionary Game Theory"
+          ],
+          "prefix": "10.2139",
+          "author": [
+            {
+              "given": "Advait",
+              "family": "Chandorkar",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            }
+          ],
+          "member": "78",
+          "deposited": {
+            "date-parts": [
+              [
+                2025,
+                1,
+                28
+              ]
+            ],
+            "date-time": "2025-01-28T10:06:02Z",
+            "timestamp": 1738058762000
+          },
+          "score": 37.863567,
+          "resource": {
+            "primary": {
+              "URL": "https://www.ssrn.com/abstract=5042155"
+            }
+          },
+          "issued": {
+            "date-parts": [
+              [
+                2025
+              ]
+            ]
+          },
+          "references-count": 0,
+          "URL": "https://doi.org/10.2139/ssrn.5042155",
+          "published": {
+            "date-parts": [
+              [
+                2025
+              ]
+            ]
+          },
+          "subtype": "preprint"
+        },
+        {
+          "institution": [
+            {
+              "name": "bioRxiv"
+            }
+          ],
+          "indexed": {
+            "date-parts": [
+              [
+                2026,
+                1,
+                15
+              ]
+            ],
+            "date-time": "2026-01-15T21:52:51Z",
+            "timestamp": 1768513971650,
+            "version": "3.49.0"
+          },
+          "posted": {
+            "date-parts": [
+              [
+                2024,
+                7,
+                19
+              ]
+            ]
+          },
+          "group-title": "Evolutionary Biology",
+          "reference-count": 63,
+          "publisher": "openRxiv",
+          "content-domain": {
+            "domain": [],
+            "crossmark-restriction": false
+          },
+          "accepted": {
+            "date-parts": [
+              [
+                2024,
+                7,
+                19
+              ]
+            ]
+          },
+          "abstract": "",
+          "DOI": "10.1101/2024.07.16.603768",
+          "type": "posted-content",
+          "created": {
+            "date-parts": [
+              [
+                2024,
+                7,
+                19
+              ]
+            ],
+            "date-time": "2024-07-19T20:14:11Z",
+            "timestamp": 1721420051000
+          },
+          "source": "Crossref",
+          "is-referenced-by-count": 1,
+          "title": [
+            "Design of two-stage multidrug chemotherapy schedules using replicator game dynamics"
+          ],
+          "prefix": "10.64898",
+          "author": [
+            {
+              "ORCID": "https://orcid.org/0009-0004-4831-9448",
+              "authenticated-orcid": false,
+              "given": "K.",
+              "family": "Stuckey",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "ORCID": "https://orcid.org/0000-0002-9477-0318",
+              "authenticated-orcid": false,
+              "given": "P.K.",
+              "family": "Newton",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            }
+          ],
+          "member": "54368",
+          "reference": [
+            {
+              "key": "2024072204001830000_2024.07.16.603768v1.1",
+              "unstructured": "M. C. Perry , The Chemotherapy Source Book (Lippincott Williams & Wilkins, 2008)."
+            },
+            {
+              "key": "2024072204001830000_2024.07.16.603768v1.2",
+              "doi-asserted-by": "crossref",
+              "unstructured": "J. Goldie and A. Coldman , Drug Resistance in Cancer: Mechanisms and Models (Cambridge University Press, 1998).",
+              "DOI": "10.1017/CBO9780511666544"
+            },
+            {
+              "key": "2024072204001830000_2024.07.16.603768v1.3",
+              "doi-asserted-by": "crossref",
+              "first-page": "4908",
+              "DOI": "10.1038/s41598-021-84406-3",
+              "volume": "11",
+              "year": "2021",
+              "journal-title": "Sci. Rep"
+            },
+            {
+              "key": "2024072204001830000_2024.07.16.603768v1.4",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1101/cshperspect.a033415"
+            },
+            {
+              "key": "2024072204001830000_2024.07.16.603768v1.5",
+              "doi-asserted-by": "crossref",
+              "unstructured": "W. Sun , A. Fan , L. Chen , T. Schouwenaars , and M. Albota , The Journal of Portfolio Management Winter, 33 (2006).",
+              "DOI": "10.3905/jpm.2006.611801"
+            },
+            {
+              "key": "2024072204001830000_2024.07.16.603768v1.6",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1371/journal.pone.0146021"
+            },
+            {
+              "key": "2024072204001830000_2024.07.16.603768v1.7",
+              "first-page": "1197",
+              "volume": "10",
+              "year": "2021",
+              "journal-title": "Nat. Comm"
+            },
+            {
+              "key": "2024072204001830000_2024.07.16.603768v1.8",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.3390/ijms21093233"
+            },
+            {
+              "key": "2024072204001830000_2024.07.16.603768v1.9",
+              "doi-asserted-by": "crossref",
+              "unstructured": "I. Bozic , J. Reiter , B. Allen , T. Antal , and et al, eLife 2 (2013).",
+              "DOI": "10.7554/eLife.00747"
+            },
+            {
+              "key": "2024072204001830000_2024.07.16.603768v1.10",
+              "doi-asserted-by": "crossref",
+              "first-page": "914",
+              "DOI": "10.1021/mp200458e",
+              "volume": "9",
+              "year": "2012",
+              "journal-title": "Molecular pharmaceutics"
+            },
+            {
+              "key": "2024072204001830000_2024.07.16.603768v1.11",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1158/0008-5472.CAN-19-2669"
+            },
+            {
+              "key": "2024072204001830000_2024.07.16.603768v1.12",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1103/PhysRevE.103.032408"
+            },
+            {
+              "key": "2024072204001830000_2024.07.16.603768v1.13",
+              "doi-asserted-by": "crossref",
+              "first-page": "460",
+              "DOI": "10.1038/nrmicro2133",
+              "volume": "7",
+              "year": "2009",
+              "journal-title": "Nature Rev. Micro"
+            },
+            {
+              "key": "2024072204001830000_2024.07.16.603768v1.14",
+              "doi-asserted-by": "crossref",
+              "unstructured": "M. Baym , L. Stone , and R. Kishony , Science 351 (2016).",
+              "DOI": "10.1126/science.aad3292"
+            },
+            {
+              "key": "2024072204001830000_2024.07.16.603768v1.15",
+              "first-page": "199",
+              "volume": "16",
+              "year": "2016",
+              "journal-title": "Nature Reviews Cancer"
+            },
+            {
+              "key": "2024072204001830000_2024.07.16.603768v1.16",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1371/journal.pbio.3000713"
+            },
+            {
+              "key": "2024072204001830000_2024.07.16.603768v1.17",
+              "doi-asserted-by": "crossref",
+              "first-page": "1",
+              "DOI": "10.1186/1745-6150-5-1",
+              "volume": "5",
+              "year": "2010",
+              "journal-title": "Biology Direct"
+            },
+            {
+              "key": "2024072204001830000_2024.07.16.603768v1.18",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1103/physreve.99.022404"
+            },
+            {
+              "key": "2024072204001830000_2024.07.16.603768v1.19",
+              "unstructured": "O. Montenbruck and E. Gill , Satellite Orbits: Models, Methods, Applications (Springer-Verlag, 2005)."
+            },
+            {
+              "key": "2024072204001830000_2024.07.16.603768v1.20",
+              "unstructured": "J. Prussing and B. Conway , Orbital Mechanics, 2nd Ed. (Oxford University Press, 2013)."
+            },
+            {
+              "key": "2024072204001830000_2024.07.16.603768v1.21",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1063/1.166509"
+            },
+            {
+              "key": "2024072204001830000_2024.07.16.603768v1.22",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.3390/cancers12123556"
+            },
+            {
+              "key": "2024072204001830000_2024.07.16.603768v1.23",
+              "doi-asserted-by": "crossref",
+              "first-page": "705",
+              "DOI": "10.2217/pme.14.57",
+              "volume": "11",
+              "year": "2014",
+              "journal-title": "Personalized Medicine"
+            },
+            {
+              "key": "2024072204001830000_2024.07.16.603768v1.24",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1016/j.canlet.2014.12.039"
+            },
+            {
+              "key": "2024072204001830000_2024.07.16.603768v1.25",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1038/nrc3298"
+            },
+            {
+              "key": "2024072204001830000_2024.07.16.603768v1.26",
+              "doi-asserted-by": "crossref",
+              "first-page": "261",
+              "DOI": "10.2174/138161206775201956",
+              "volume": "12",
+              "year": "2006",
+              "journal-title": "Current Pharma. Design"
+            },
+            {
+              "key": "2024072204001830000_2024.07.16.603768v1.27",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1016/j.jtbi.2009.11.022"
+            },
+            {
+              "key": "2024072204001830000_2024.07.16.603768v1.28",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1016/j.jtbi.2014.02.025"
+            },
+            {
+              "key": "2024072204001830000_2024.07.16.603768v1.29",
+              "doi-asserted-by": "crossref",
+              "unstructured": "N. Komarova and C. Boland , Nature 499 (2013).",
+              "DOI": "10.1038/499291a"
+            },
+            {
+              "key": "2024072204001830000_2024.07.16.603768v1.30",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1038/nrc4029"
+            },
+            {
+              "key": "2024072204001830000_2024.07.16.603768v1.31",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1158/2159-8290.CD-17-0343"
+            },
+            {
+              "key": "2024072204001830000_2024.07.16.603768v1.32",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1038/35012221"
+            },
+            {
+              "key": "2024072204001830000_2024.07.16.603768v1.33",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1038/nrc2013"
+            },
+            {
+              "key": "2024072204001830000_2024.07.16.603768v1.34",
+              "first-page": "321",
+              "volume": "130",
+              "year": "2020",
+              "journal-title": "OIKOS"
+            },
+            {
+              "key": "2024072204001830000_2024.07.16.603768v1.35",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1098/rspa.2009.0522"
+            },
+            {
+              "key": "2024072204001830000_2024.07.16.603768v1.36",
+              "doi-asserted-by": "crossref",
+              "first-page": "609",
+              "DOI": "10.1023/A:1016027113579",
+              "volume": "114",
+              "year": "2002",
+              "journal-title": "J. Optimization Theory and Appl"
+            },
+            {
+              "key": "2024072204001830000_2024.07.16.603768v1.37",
+              "unstructured": "E. B. Lee and L. Markus , Foundations of Optimal Control Theory, Tech. Rep. (Minnesota Univ Minneapolis Center For Control Sciences, 1967)."
+            },
+            {
+              "key": "2024072204001830000_2024.07.16.603768v1.38",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1016/0025-5564(78)90077-9"
+            },
+            {
+              "key": "2024072204001830000_2024.07.16.603768v1.39",
+              "doi-asserted-by": "crossref",
+              "unstructured": "M. A. Nowak , Evolutionary Dynamics: Exploring the Equations of Life (Harvard University Press, 2006).",
+              "DOI": "10.2307/j.ctvjghw98"
+            },
+            {
+              "key": "2024072204001830000_2024.07.16.603768v1.40",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1016/j.jtbi.2007.03.015"
+            },
+            {
+              "key": "2024072204001830000_2024.07.16.603768v1.41",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1007/s13235-023-00509-14"
+            },
+            {
+              "key": "2024072204001830000_2024.07.16.603768v1.42",
+              "first-page": "110",
+              "volume": "19",
+              "year": "2019",
+              "journal-title": "Nature: Perspectives"
+            },
+            {
+              "key": "2024072204001830000_2024.07.16.603768v1.43",
+              "unstructured": "O. Morgenstern and J. V. Neumann , Theory of games and economic behavior (Princeton University Press, Princeton, NJ, USA, 1953)."
+            },
+            {
+              "key": "2024072204001830000_2024.07.16.603768v1.44",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1073/pnas.36.1.48"
+            },
+            {
+              "key": "2024072204001830000_2024.07.16.603768v1.45",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1016/0022-5193(74)90110-6"
+            },
+            {
+              "key": "2024072204001830000_2024.07.16.603768v1.46",
+              "unstructured": "J. M. Smith , Evolution and the theory of games Cambridge University Press, Cambridge, UK, 1982)."
+            },
+            {
+              "key": "2024072204001830000_2024.07.16.603768v1.47",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1016/0022-5193(83)90445-9"
+            },
+            {
+              "key": "2024072204001830000_2024.07.16.603768v1.48",
+              "doi-asserted-by": "crossref",
+              "unstructured": "J. Hofbauer and K. Sigmund , Evolutionary games and population dynamics (Cambridge University Press, Cambridge, UK, 1998).",
+              "DOI": "10.1017/CBO9781139173179"
+            },
+            {
+              "key": "2024072204001830000_2024.07.16.603768v1.49",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1126/science.1093411"
+            },
+            {
+              "key": "2024072204001830000_2024.07.16.603768v1.50",
+              "doi-asserted-by": "crossref",
+              "first-page": "035002",
+              "DOI": "10.1088/2057-1739/2/3/035002",
+              "volume": "2",
+              "year": "2016",
+              "journal-title": "Conv. Sci. Phys. Onc"
+            },
+            {
+              "key": "2024072204001830000_2024.07.16.603768v1.51",
+              "doi-asserted-by": "crossref",
+              "first-page": "716",
+              "DOI": "10.1137/15M1044825",
+              "volume": "58",
+              "year": "2016",
+              "journal-title": "SIAM Review"
+            },
+            {
+              "key": "2024072204001830000_2024.07.16.603768v1.52",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1016/j.jtbi.2018.07.028"
+            },
+            {
+              "key": "2024072204001830000_2024.07.16.603768v1.53",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1103/PhysRevE.108.034407"
+            },
+            {
+              "key": "2024072204001830000_2024.07.16.603768v1.54",
+              "doi-asserted-by": "crossref",
+              "first-page": "869",
+              "DOI": "10.1080/00029890.2003.11920028",
+              "volume": "110",
+              "year": "2003",
+              "journal-title": "Amer. Math. Monthly"
+            },
+            {
+              "key": "2024072204001830000_2024.07.16.603768v1.55",
+              "doi-asserted-by": "crossref",
+              "first-page": "217",
+              "DOI": "10.3934/mbe.2017014",
+              "volume": "14",
+              "year": "2017",
+              "journal-title": "Math. Biosciences and Eng"
+            },
+            {
+              "key": "2024072204001830000_2024.07.16.603768v1.56",
+              "unstructured": "D. E. Kirk , Optimal control theory: An introduction (Dover Publications, 2004)."
+            },
+            {
+              "key": "2024072204001830000_2024.07.16.603768v1.57",
+              "unstructured": "A. Bryson and Y. Ho , Applied Optimal Control (Taylor and Francis, 1975)."
+            },
+            {
+              "key": "2024072204001830000_2024.07.16.603768v1.58",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1111/j.1744-7348.1939.tb06990.x"
+            },
+            {
+              "key": "2024072204001830000_2024.07.16.603768v1.59",
+              "doi-asserted-by": "crossref",
+              "unstructured": "T. Chou , Cancer Res. 70 (2010).",
+              "DOI": "10.1158/0008-5472.CAN-09-1947"
+            },
+            {
+              "key": "2024072204001830000_2024.07.16.603768v1.60",
+              "doi-asserted-by": "crossref",
+              "first-page": "20160332",
+              "DOI": "10.1098/rsif.2016.0332",
+              "volume": "13",
+              "year": "2016",
+              "journal-title": "Royal Society Interface"
+            },
+            {
+              "key": "2024072204001830000_2024.07.16.603768v1.61",
+              "first-page": "157",
+              "volume": "24",
+              "year": "2009",
+              "journal-title": "Cell"
+            },
+            {
+              "key": "2024072204001830000_2024.07.16.603768v1.62",
+              "doi-asserted-by": "crossref",
+              "unstructured": "R. Dua , Y. Ma , and P. K. Newton , Cancers 13 (2021).",
+              "DOI": "10.3390/cancers13122880"
+            },
+            {
+              "key": "2024072204001830000_2024.07.16.603768v1.63",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1073/pnas.1409403112"
+            }
+          ],
+          "link": [
+            {
+              "URL": "https://syndication.highwire.org/content/doi/10.1101/2024.07.16.603768",
+              "content-type": "unspecified",
+              "content-version": "vor",
+              "intended-application": "similarity-checking"
+            }
+          ],
+          "deposited": {
+            "date-parts": [
+              [
+                2026,
+                1,
+                15
+              ]
+            ],
+            "date-time": "2026-01-15T06:43:59Z",
+            "timestamp": 1768459439000
+          },
+          "score": 37.012478,
+          "resource": {
+            "primary": {
+              "URL": "http://biorxiv.org/lookup/doi/10.1101/2024.07.16.603768"
+            }
+          },
+          "issued": {
+            "date-parts": [
+              [
+                2024,
+                7,
+                19
+              ]
+            ]
+          },
+          "references-count": 63,
+          "URL": "https://doi.org/10.1101/2024.07.16.603768",
+          "published": {
+            "date-parts": [
+              [
+                2024,
+                7,
+                19
+              ]
+            ]
+          },
+          "subtype": "preprint"
+        }
+      ],
+      "items-per-page": 3,
+      "query": {
+        "start-index": 0,
+        "search-terms": null
+      }
+    }
+  }
+}

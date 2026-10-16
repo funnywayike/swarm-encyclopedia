@@ -1,0 +1,790 @@
+{
+  "retrieved": "2026-10-16",
+  "url": "https://api.crossref.org/works/10.1145/3572895",
+  "response": {
+    "status": "ok",
+    "message-type": "work",
+    "message-version": "1.0.0",
+    "message": {
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            10,
+            12
+          ]
+        ],
+        "date-time": "2026-10-12T00:37:55Z",
+        "timestamp": 1791765475991,
+        "version": "4.3.4"
+      },
+      "reference-count": 48,
+      "publisher": "Association for Computing Machinery (ACM)",
+      "issue": "12",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2023,
+                3,
+                2
+              ]
+            ],
+            "date-time": "2023-03-02T00:00:00Z",
+            "timestamp": 1677715200000
+          },
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "URL": "https://www.acm.org/publications/policies/copyright_policy#Background"
+        }
+      ],
+      "funder": [
+        {
+          "name": "Australian Research Council under the Australian Laureate Fellowship scheme",
+          "award": [
+            "FL140100012"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "FL140100012"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "ARC Training Centre in Optimisation Technologies, Integrated Methodologies and Applications",
+          "award": [
+            "IC200100009"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "IC200100009"
+              ]
+            }
+          ]
+        }
+      ],
+      "content-domain": {
+        "domain": [
+          "dl.acm.org"
+        ],
+        "crossmark-restriction": true
+      },
+      "short-container-title": [
+        "ACM Comput. Surv."
+      ],
+      "published-print": {
+        "date-parts": [
+          [
+            2023,
+            12,
+            31
+          ]
+        ]
+      },
+      "abstract": "",
+      "DOI": "10.1145/3572895",
+      "type": "journal-article",
+      "created": {
+        "date-parts": [
+          [
+            2022,
+            11,
+            30
+          ]
+        ],
+        "date-time": "2022-11-30T08:05:25Z",
+        "timestamp": 1669795525000
+      },
+      "page": "1-31",
+      "update-policy": "https://doi.org/10.1145/crossmark-policy",
+      "source": "Crossref",
+      "is-referenced-by-count": 87,
+      "title": [
+        "Instance Space Analysis for Algorithm Testing: Methodology and Software Tools"
+      ],
+      "prefix": "10.1145",
+      "volume": "55",
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0000-0003-2718-7680",
+          "authenticated-orcid": false,
+          "given": "Kate",
+          "family": "Smith-Miles",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "The University of Melbourne, Parkville, Victoria, Australia"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-7254-2808",
+          "authenticated-orcid": false,
+          "given": "Mario Andrés",
+          "family": "Muñoz",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "The University of Melbourne, Parkville, Victoria, Australia"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "320",
+      "published-online": {
+        "date-parts": [
+          [
+            2023,
+            3,
+            2
+          ]
+        ]
+      },
+      "reference": [
+        {
+          "issue": "2",
+          "key": "e_1_3_2_2_2",
+          "doi-asserted-by": "crossref",
+          "first-page": "411",
+          "DOI": "10.1016/j.ejor.2022.04.012",
+          "article-title": "Enhanced instance space analysis for the maximum flow problem",
+          "volume": "304",
+          "author": "Alipour H.",
+          "year": "2023",
+          "unstructured": "H. Alipour, M. A. Muñoz, and K. Smith-Miles. 2023. Enhanced instance space analysis for the maximum flow problem. Eur. J. Oper. Res. 304, 2 (2023), 411–428.",
+          "journal-title": "Eur. J. Oper. Res."
+        },
+        {
+          "key": "e_1_3_2_3_2",
+          "doi-asserted-by": "crossref",
+          "first-page": "198",
+          "DOI": "10.1145/3321707.3321845",
+          "volume-title": "Proceedings of the Genetic and Evolutionary Computation Conference",
+          "author": "Alissa M.",
+          "year": "2019",
+          "unstructured": "M. Alissa, K. Sim, and E. Hart. 2019. Algorithm selection using deep learning without feature extraction. In Proceedings of the Genetic and Evolutionary Computation Conference. 198–206."
+        },
+        {
+          "issue": "1",
+          "key": "e_1_3_2_4_2",
+          "doi-asserted-by": "crossref",
+          "first-page": "130",
+          "DOI": "10.1057/palgrave.jors.2602523",
+          "article-title": "Towards improving the utilization of university teaching space",
+          "volume": "60",
+          "author": "Beyrouthy C.",
+          "year": "2009",
+          "unstructured": "C. Beyrouthy, E. K. Burke, D. Landa-Silva, B. McCollum, P. McMullan, and A. J. Parkes. 2009. Towards improving the utilization of university teaching space. J. Oper. Res. Soc. 60, 1 (2009), 130–143.",
+          "journal-title": "J. Oper. Res. Soc."
+        },
+        {
+          "key": "e_1_3_2_5_2",
+          "volume-title": "Metalearning: Applications to Data Mining",
+          "author": "Brazdil P.",
+          "year": "2008",
+          "unstructured": "P. Brazdil, C. Giraud-Carrier, C. Soares, and R. Vilalta. 2008. Metalearning: Applications to Data Mining. Springer."
+        },
+        {
+          "issue": "1",
+          "key": "e_1_3_2_6_2",
+          "doi-asserted-by": "crossref",
+          "first-page": "76",
+          "DOI": "10.1093/imamat/6.1.76",
+          "article-title": "The convergence of a class of double-rank minimization algorithms 1. General considerations",
+          "volume": "6",
+          "author": "Broyden C. G.",
+          "year": "1970",
+          "unstructured": "C. G. Broyden. 1970. The convergence of a class of double-rank minimization algorithms 1. General considerations. IMA J. Appl. Math. 6, 1 (1970), 76–90. DOI:https://doi.org/10.1093/imamat/6.1.76",
+          "journal-title": "IMA J. Appl. Math."
+        },
+        {
+          "issue": "1",
+          "key": "e_1_3_2_7_2",
+          "doi-asserted-by": "crossref",
+          "first-page": "105",
+          "DOI": "10.1007/s10479-010-0716-z",
+          "article-title": "A supernodal formulation of vertex colouring with applications in course timetabling",
+          "volume": "179",
+          "author": "Burke E. K.",
+          "year": "2010",
+          "unstructured": "E. K. Burke, J. Mareček, A. J. Parkes, and H. Rudová. 2010. A supernodal formulation of vertex colouring with applications in course timetabling. Ann. Oper. Res. 179, 1 (2010), 105–130.",
+          "journal-title": "Ann. Oper. Res."
+        },
+        {
+          "key": "e_1_3_2_8_2",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1145/1961189.1961199",
+          "article-title": "LIBSVM: A library for support vector machines",
+          "volume": "2",
+          "author": "Chang C. C.",
+          "year": "2011",
+          "unstructured": "C. C. Chang and C. J. Lin. 2011. LIBSVM: A library for support vector machines. ACM Trans. Intell. Syst. Technol. 2, 3 (2011), Article 27, 27 pages.",
+          "journal-title": "ACM Trans. Intell. Syst. Technol."
+        },
+        {
+          "key": "e_1_3_2_9_2",
+          "doi-asserted-by": "crossref",
+          "first-page": "245",
+          "DOI": "10.1090/dimacs/026/13",
+          "article-title": "Exploring the k-colorable landscape with iterated greedy",
+          "volume": "26",
+          "author": "Culberson J. C.",
+          "year": "1996",
+          "unstructured": "J. C. Culberson and F. Luo. 1996. Exploring the k-colorable landscape with iterated greedy. Cliques, Coloring, and Satisfiability: Second DIMACS Implementation Challenge 26 (1996), 245–284.",
+          "journal-title": "Cliques, Coloring, and Satisfiability: Second DIMACS Implementation Challenge"
+        },
+        {
+          "key": "e_1_3_2_10_2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/S0169-7439(01)00111-3"
+        },
+        {
+          "key": "e_1_3_2_11_2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/s10951-021-00701-x"
+        },
+        {
+          "issue": "4",
+          "key": "e_1_3_2_12_2",
+          "doi-asserted-by": "crossref",
+          "first-page": "551",
+          "DOI": "10.1109/TIT.1983.1056714",
+          "article-title": "On the shape of a set of points in the plane",
+          "volume": "29",
+          "author": "Edelsbrunner H.",
+          "year": "1983",
+          "unstructured": "H. Edelsbrunner, D. Kirkpatrick, and R. Seidel. 1983. On the shape of a set of points in the plane. IEEE Trans. Inform. Theory 29, 4 (1983), 551–559. DOI:https://doi.org/10.1109/TIT.1983.1056714",
+          "journal-title": "IEEE Trans. Inform. Theory"
+        },
+        {
+          "key": "e_1_3_2_13_2",
+          "unstructured": "M. Ester H. P. Kriegel J. Sander and X. Xu. 1996. A density-based algorithm for discovering clusters in large spatial databases with noise. In Proceedings of the 2nd International Conference on Knowledge Discovery and Data Mining (KDD’96) . 226–231."
+        },
+        {
+          "issue": "10",
+          "key": "e_1_3_2_14_2",
+          "doi-asserted-by": "crossref",
+          "first-page": "3835",
+          "DOI": "10.1007/s00500-016-2094-1",
+          "article-title": "Towards improved benchmarking of black-box optimization algorithms using clustering problems",
+          "volume": "20",
+          "author": "Gallagher M.",
+          "year": "2016",
+          "unstructured": "M. Gallagher. 2016. Towards improved benchmarking of black-box optimization algorithms using clustering problems. Soft. Comput. 20, 10 (2016), 3835–3849. DOI:https://doi.org/10.1007/s00500-016-2094-1",
+          "journal-title": "Soft. Comput."
+        },
+        {
+          "issue": "1",
+          "key": "e_1_3_2_15_2",
+          "doi-asserted-by": "crossref",
+          "first-page": "114",
+          "DOI": "10.1080/10556788.2020.1808977",
+          "article-title": "COCO: A platform for comparing continuous optimizers in a black-box setting",
+          "volume": "36",
+          "author": "Hansen N.",
+          "year": "2021",
+          "unstructured": "N. Hansen, A. Auger, R. Ros, O. Mersmann, T. Tušar, and D. Brockhoff. 2021. COCO: A platform for comparing continuous optimizers in a black-box setting. Optim. Methods Softw. 36, 1 (2021), 114–144. DOI:https://doi.org/10.1080/10556788.2020.1808977",
+          "journal-title": "Optim. Methods Softw."
+        },
+        {
+          "key": "e_1_3_2_16_2",
+          "volume-title": "Applied Statistics for the Behavioral Sciences",
+          "author": "Hinkle D. E.",
+          "year": "2003",
+          "unstructured": "D. E. Hinkle, W. Wiersma, and S. G. Jurs. 2003. Applied Statistics for the Behavioral Sciences. Houghton Mifflin."
+        },
+        {
+          "issue": "2",
+          "key": "e_1_3_2_17_2",
+          "doi-asserted-by": "crossref",
+          "first-page": "201",
+          "DOI": "10.1287/opre.42.2.201",
+          "article-title": "Needed: An empirical science of algorithms",
+          "volume": "42",
+          "author": "Hooker J. N.",
+          "year": "1994",
+          "unstructured": "J. N. Hooker. 1994. Needed: An empirical science of algorithms. Oper. Res. 42, 2 (1994), 201–212.",
+          "journal-title": "Oper. Res."
+        },
+        {
+          "issue": "1",
+          "key": "e_1_3_2_18_2",
+          "doi-asserted-by": "crossref",
+          "first-page": "33",
+          "DOI": "10.1007/BF02430364",
+          "article-title": "Testing heuristics: We have it all wrong",
+          "volume": "1",
+          "author": "Hooker J.",
+          "year": "1995",
+          "unstructured": "J. Hooker. 1995. Testing heuristics: We have it all wrong. J. Heuristics 1, 1 (Sept. 1995), 33–42. DOI:https://doi.org/10.1007/BF02430364",
+          "journal-title": "J. Heuristics"
+        },
+        {
+          "key": "e_1_3_2_19_2",
+          "doi-asserted-by": "crossref",
+          "first-page": "309",
+          "DOI": "10.1007/s10618-019-00661-z",
+          "article-title": "On normalization and algorithm selection for unsupervised outlier detection",
+          "volume": "34",
+          "author": "Kandanaarachchi S.",
+          "year": "2019",
+          "unstructured": "S. Kandanaarachchi, M. A. Muñoz, R. Hyndman, and K. Smith-Miles. 2019. On normalization and algorithm selection for unsupervised outlier detection. Data Min. Knowl. Discov. 34 (2019), 309–354. DOI:https://doi.org/10.1007/s10618-019-00661-z",
+          "journal-title": "Data Min. Knowl. Discov."
+        },
+        {
+          "key": "e_1_3_2_20_2",
+          "unstructured": "S. Kandanaarachchi M. A. Muñoz and K. Smith-Miles. 2019. Instance space analysis for unsupervised outlier detection. In Proceedings of the 1st Workshop on Evaluation and Experimental Design in Data Mining and Machine Learning ."
+        },
+        {
+          "issue": "2",
+          "key": "e_1_3_2_21_2",
+          "doi-asserted-by": "crossref",
+          "first-page": "345",
+          "DOI": "10.1016/j.ijforecast.2016.09.004",
+          "article-title": "Visualising forecasting algorithm performance using time series instance spaces",
+          "volume": "33",
+          "author": "Kang Y.",
+          "year": "2017",
+          "unstructured": "Y. Kang, R. J. Hyndman, and K. Smith-Miles. 2017. Visualising forecasting algorithm performance using time series instance spaces. Int. J. Forecast. 33, 2 (2017), 345–358. DOI:https://doi.org/10.1016/j.ijforecast.2016.09.004",
+          "journal-title": "Int. J. Forecast."
+        },
+        {
+          "key": "e_1_3_2_22_2",
+          "doi-asserted-by": "crossref",
+          "first-page": "93",
+          "DOI": "10.1007/978-3-030-25147-5_7",
+          "volume-title": "Applications in Statistical Computing: From Music Data Analysis to Industrial Quality Improvement",
+          "author": "Kerschke P.",
+          "year": "2019",
+          "unstructured": "P. Kerschke and H. Trautmann. 2019. Comprehensive feature-based landscape analysis of continuous and constrained optimization problems using the R-package flacco. In Applications in Statistical Computing: From Music Data Analysis to Industrial Quality Improvement, N. Bauer, K. Ickstadt, K. Lübke, G. Szepannek, H. Trautmann, and M. Vichi (Eds.). Springer, 93–123. DOI:https://doi.org/10.1007/978-3-030-25147-5_7"
+        },
+        {
+          "key": "e_1_3_2_23_2",
+          "doi-asserted-by": "crossref",
+          "unstructured": "L. Lopes and K. Smith-Miles. 2010. Pitfalls in instance generation for Udine timetabling. In Learning and Intelligent Optimization . Lecture Notes in Computer Science Vol. 6073. Springer 299–302.",
+          "DOI": "10.1007/978-3-642-13800-3_31"
+        },
+        {
+          "key": "e_1_3_2_24_2",
+          "doi-asserted-by": "crossref",
+          "first-page": "563",
+          "DOI": "10.1287/opre.2013.1169",
+          "article-title": "Generating applicable synthetic instances for branch problems",
+          "volume": "61",
+          "author": "Lopes L.",
+          "year": "2013",
+          "unstructured": "L. Lopes and K. Smith-Miles. 2013. Generating applicable synthetic instances for branch problems. Oper. Res. 61 (June 2013), 563–577. DOI:https://doi.org/10.2307/23474003",
+          "journal-title": "Oper. Res."
+        },
+        {
+          "key": "e_1_3_2_25_2",
+          "doi-asserted-by": "crossref",
+          "first-page": "237",
+          "DOI": "10.1016/j.ins.2013.08.059",
+          "article-title": "Towards UCI+: A mindful repository design",
+          "volume": "261",
+          "author": "Macia N.",
+          "year": "2014",
+          "unstructured": "N. Macia and E. Bernadó-Mansilla. 2014. Towards UCI+: A mindful repository design. Inform. Sciences 261 (2014), 237–262.",
+          "journal-title": "Inform. Sciences"
+        },
+        {
+          "key": "e_1_3_2_26_2",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1017/CBO9780511843747",
+          "volume-title": "A Guide to Experimental Algorithmics",
+          "author": "McGeoch C. C.",
+          "year": "2012",
+          "unstructured": "C. C. McGeoch. 2012. A Guide to Experimental Algorithmics. Cambridge University Press."
+        },
+        {
+          "key": "e_1_3_2_27_2",
+          "volume-title": "Benchmarking Evolutionary Multiobjective Optimization Algorithms Using R",
+          "author": "Mersmann O.",
+          "year": "2009",
+          "unstructured": "O. Mersmann. 2009. Benchmarking Evolutionary Multiobjective Optimization Algorithms Using R. Master’s thesis. Universitat Dortmund."
+        },
+        {
+          "key": "e_1_3_2_28_2",
+          "doi-asserted-by": "crossref",
+          "first-page": "1582",
+          "DOI": "10.1145/3067695.3082532",
+          "volume-title": "Proceedings of the Genetic and Evolutionary Computation Conference Companion (GECCO’17)",
+          "author": "Muñoz M. A.",
+          "year": "2017",
+          "unstructured": "M. A. Muñoz and K. Smith-Miles. 2017. Generating custom classification datasets by targeting the instance space. In Proceedings of the Genetic and Evolutionary Computation Conference Companion (GECCO’17). ACM, New York, NY, 1582–1588. DOI:https://doi.org/10.1145/3067695.3082532"
+        },
+        {
+          "issue": "4",
+          "key": "e_1_3_2_29_2",
+          "doi-asserted-by": "crossref",
+          "first-page": "529",
+          "DOI": "10.1162/evco_a_00194",
+          "article-title": "Performance analysis of continuous black-box optimization algorithms via footprints in instance space",
+          "volume": "25",
+          "author": "Muñoz M. A.",
+          "year": "2017",
+          "unstructured": "M. A. Muñoz and K. Smith-Miles. 2017. Performance analysis of continuous black-box optimization algorithms via footprints in instance space. Evol. Comput. 25, 4 (2017), 529–554. DOI:https://doi.org/10.1162/EVCO_a_00194",
+          "journal-title": "Evol. Comput."
+        },
+        {
+          "issue": "3",
+          "key": "e_1_3_2_30_2",
+          "doi-asserted-by": "crossref",
+          "first-page": "379",
+          "DOI": "10.1162/evco_a_00262",
+          "article-title": "Generating new space-filling test instances for continuous black-box optimization",
+          "volume": "28",
+          "author": "Muñoz M. A.",
+          "year": "2021",
+          "unstructured": "M. A. Muñoz and K. A. Smith-Miles. 2021. Generating new space-filling test instances for continuous black-box optimization. Evol. Comput. 28, 3 (2021), 379–404. DOI:https://doi.org/10.1162/evco_a_00262",
+          "journal-title": "Evol. Comput."
+        },
+        {
+          "issue": "1",
+          "key": "e_1_3_2_31_2",
+          "doi-asserted-by": "crossref",
+          "first-page": "109",
+          "DOI": "10.1007/s10994-017-5629-5",
+          "article-title": "Instance spaces for machine learning classification",
+          "volume": "107",
+          "author": "Muñoz M. A.",
+          "year": "2018",
+          "unstructured": "M. A. Muñoz, L. Villanova, D. Baatar, and K. Smith-Miles. 2018. Instance spaces for machine learning classification. Mach. Learn. 107, 1 (2018), 109–147. DOI:https://doi.org/10.1007/s10994-017-5629-5",
+          "journal-title": "Mach. Learn."
+        },
+        {
+          "issue": "1",
+          "key": "e_1_3_2_32_2",
+          "doi-asserted-by": "crossref",
+          "first-page": "429",
+          "DOI": "10.1007/s10479-009-0644-y",
+          "article-title": "ITC2007 solver description: A hybrid approach",
+          "volume": "172",
+          "author": "Müller T.",
+          "year": "2009",
+          "unstructured": "T. Müller. 2009. ITC2007 solver description: A hybrid approach. Ann. Oper. Res. 172, 1 (2009), 429.",
+          "journal-title": "Ann. Oper. Res."
+        },
+        {
+          "key": "e_1_3_2_33_2",
+          "volume-title": "Instance Space Analysis: A Toolkit for the Assessment of Algorithmic Power",
+          "author": "Muñoz M. A.",
+          "year": "2020",
+          "unstructured": "M. A. Muñoz and K. Smith-Miles. 2020. Instance Space Analysis: A Toolkit for the Assessment of Algorithmic Power. https://github.com/andremun/InstanceSpace/."
+        },
+        {
+          "issue": "8",
+          "key": "e_1_3_2_34_2",
+          "doi-asserted-by": "crossref",
+          "first-page": "3085",
+          "DOI": "10.1007/s10994-022-06205-9",
+          "article-title": "Relating instance hardness to classification performance in a dataset: A visual approach",
+          "volume": "111",
+          "author": "Paiva P. Y. A.",
+          "year": "2022",
+          "unstructured": "P. Y. A. Paiva, C. Castro Moreno, K. Smith-Miles, M. G. Valeriano, and A. C. Lorena. 2022. Relating instance hardness to classification performance in a dataset: A visual approach. Mach. Learn. 111, 8 (2022), 3085–3123.",
+          "journal-title": "Mach. Learn."
+        },
+        {
+          "key": "e_1_3_2_35_2",
+          "first-page": "65",
+          "volume-title": "Advances in Computers",
+          "author": "Rice J. R.",
+          "year": "1976",
+          "unstructured": "J. R. Rice. 1976. The algorithm selection problem. In Advances in Computers. Vol. 15. Elsevier, 65–118. DOI:https://doi.org/10.1016/S0065-2458(08)60520-3"
+        },
+        {
+          "key": "e_1_3_2_36_2",
+          "doi-asserted-by": "crossref",
+          "first-page": "21",
+          "DOI": "10.1145/3068335",
+          "article-title": "DBSCAN revisited, revisited: Why and how you should (still) use DBSCAN",
+          "volume": "42",
+          "author": "Schubert E.",
+          "year": "2017",
+          "unstructured": "E. Schubert, J. Sander, M. Ester, H. P. Kriegel, and X. Xu. 2017. DBSCAN revisited, revisited: Why and how you should (still) use DBSCAN. ACM Trans. Database Syst. 42, 3 (July 2017), Article 19, 21 pages. DOI:https://doi.org/10.1145/3068335",
+          "journal-title": "ACM Trans. Database Syst."
+        },
+        {
+          "key": "e_1_3_2_37_2",
+          "first-page": "207",
+          "volume-title": "Proceedings of the International Conference on Parallel Problem Solving from Nature",
+          "author": "Sim K.",
+          "year": "2022",
+          "unstructured": "K. Sim and E. Hart. 2022. Evolutionary approaches to improving the layouts of instance-spaces. In Proceedings of the International Conference on Parallel Problem Solving from Nature. 207–219."
+        },
+        {
+          "issue": "1",
+          "key": "e_1_3_2_38_2",
+          "first-page": "Article 6, 25 p",
+          "article-title": "Cross-disciplinary perspectives on meta-learning for algorithm selection",
+          "volume": "41",
+          "author": "Smith-Miles K. A.",
+          "year": "2009",
+          "unstructured": "K. A. Smith-Miles. 2009. Cross-disciplinary perspectives on meta-learning for algorithm selection. ACM Comput. Surv. 41, 1 (2009), Article 6, 25 pages. DOI:https://doi.org/10.1145/1456650.1456656",
+          "journal-title": "ACM Comput. Surv."
+        },
+        {
+          "key": "e_1_3_2_39_2",
+          "doi-asserted-by": "crossref",
+          "first-page": "12",
+          "DOI": "10.1016/j.cor.2013.11.015",
+          "article-title": "Towards objective measures of algorithm performance across instance space",
+          "volume": "45",
+          "author": "Smith-Miles K.",
+          "year": "2014",
+          "unstructured": "K. Smith-Miles, D. Baatar, B. Wreford, and R. Lewis. 2014. Towards objective measures of algorithm performance across instance space. Comput. Oper. Res. 45 (2014), 12–24. DOI:https://doi.org/10.1016/j.cor.2013.11.015",
+          "journal-title": "Comput. Oper. Res."
+        },
+        {
+          "key": "e_1_3_2_40_2",
+          "doi-asserted-by": "crossref",
+          "first-page": "102",
+          "DOI": "10.1016/j.cor.2015.04.022",
+          "article-title": "Generating new test instances by evolving in instance space",
+          "volume": "63",
+          "author": "Smith-Miles K.",
+          "year": "2015",
+          "unstructured": "K. Smith-Miles and S. Bowly. 2015. Generating new test instances by evolving in instance space. Comput. Oper. Res. 63 (2015), 102–113. DOI:https://doi.org/10.1016/j.cor.2015.04.022",
+          "journal-title": "Comput. Oper. Res."
+        },
+        {
+          "key": "e_1_3_2_41_2",
+          "doi-asserted-by": "crossref",
+          "first-page": "105184",
+          "DOI": "10.1016/j.cor.2020.105184",
+          "article-title": "Revisiting where are the hard knapsack problems? via Instance Space Analysis",
+          "volume": "128",
+          "author": "Smith-Miles K.",
+          "year": "2021",
+          "unstructured": "K. Smith-Miles, J. Christiansen, and M. A. Muñoz. 2021. Revisiting where are the hard knapsack problems? via Instance Space Analysis. Comput. Oper. Res. 128 (2021), 105184. DOI:https://doi.org/10.1016/j.cor.2020.105184",
+          "journal-title": "Comput. Oper. Res."
+        },
+        {
+          "key": "e_1_3_2_42_2",
+          "doi-asserted-by": "crossref",
+          "unstructured": "K. Smith-Miles and L. Lopes. 2011. Generalising algorithm performance in instance space: A timetabling case study. In Learning and Intelligent Optimization . Lecture Notes in Computer Science Vol. 6683. Springer 524–538. DOI:https://doi.org/10.1007/978-3-642-25566-3_41",
+          "DOI": "10.1007/978-3-642-25566-3_41"
+        },
+        {
+          "issue": "5",
+          "key": "e_1_3_2_43_2",
+          "doi-asserted-by": "crossref",
+          "first-page": "875",
+          "DOI": "10.1016/j.cor.2011.07.006",
+          "article-title": "Measuring instance difficulty for combinatorial optimization problems",
+          "volume": "39",
+          "author": "Smith-Miles K.",
+          "year": "2012",
+          "unstructured": "K. Smith-Miles and L. Lopes. 2012. Measuring instance difficulty for combinatorial optimization problems. Comput. Oper. Res. 39, 5 (2012), 875–889. DOI:https://doi.org/10.1016/j.cor.2011.07.006",
+          "journal-title": "Comput. Oper. Res."
+        },
+        {
+          "key": "e_1_3_2_44_2",
+          "volume-title": "Melbourne Algorithm Test Instance Library with Data Analytics (MATILDA)",
+          "author": "Smith-Miles K.",
+          "year": "2020",
+          "unstructured": "K. Smith-Miles, M. A. Muñoz, and Neelofar. 2020. Melbourne Algorithm Test Instance Library with Data Analytics (MATILDA). https://matilda.unimelb.edu.au/."
+        },
+        {
+          "key": "e_1_3_2_45_2",
+          "first-page": "3446",
+          "volume-title": "Proceedings of the 2012 IEEE Congress on Computational Intelligence (CEC’12)",
+          "author": "Smith-Miles K.",
+          "year": "2012",
+          "unstructured": "K. Smith-Miles and T. T. Tan. 2012. Measuring algorithm footprints in instance space. In Proceedings of the 2012 IEEE Congress on Computational Intelligence (CEC’12). 3446–3453."
+        },
+        {
+          "issue": "2",
+          "key": "e_1_3_2_46_2",
+          "doi-asserted-by": "crossref",
+          "first-page": "49",
+          "DOI": "10.1145/2641190.2641198",
+          "article-title": "OpenML: Networked science in machine learning",
+          "volume": "15",
+          "author": "Vanschoren J.",
+          "year": "2013",
+          "unstructured": "J. Vanschoren, J. N. van Rijn, B. Bischl, and L. Torgo. 2013. OpenML: Networked science in machine learning. SIGKDD Explorations 15, 2 (2013), 49–60. DOI:https://doi.org/10.1145/2641190.2641198",
+          "journal-title": "SIGKDD Explorations"
+        },
+        {
+          "issue": "3",
+          "key": "e_1_3_2_47_2",
+          "doi-asserted-by": "crossref",
+          "first-page": "335",
+          "DOI": "10.1007/s10618-005-0039-x",
+          "article-title": "Characteristic-based clustering for time series data",
+          "volume": "13",
+          "author": "Wang X.",
+          "year": "2006",
+          "unstructured": "X. Wang, K. Smith, and R. Hyndman. 2006. Characteristic-based clustering for time series data. Data Min. Knowl. Discov. 13, 3 (2006), 335–364.",
+          "journal-title": "Data Min. Knowl. Discov."
+        },
+        {
+          "issue": "1",
+          "key": "e_1_3_2_48_2",
+          "doi-asserted-by": "crossref",
+          "first-page": "67",
+          "DOI": "10.1109/4235.585893",
+          "article-title": "No free lunch theorems for optimization",
+          "volume": "1",
+          "author": "Wolpert D. H.",
+          "year": "1997",
+          "unstructured": "D. H. Wolpert and W. G. Macready. 1997. No free lunch theorems for optimization. IEEE Trans. Evol. Comput. 1, 1 (April1997), 67–82. DOI:https://doi.org/10.1109/4235.585893",
+          "journal-title": "IEEE Trans. Evol. Comput."
+        },
+        {
+          "issue": "2",
+          "key": "e_1_3_2_49_2",
+          "doi-asserted-by": "crossref",
+          "first-page": "1",
+          "DOI": "10.1371/journal.pone.0087178",
+          "article-title": "Detecting and quantifying topography in neural maps",
+          "volume": "9",
+          "author": "Yarrow S.",
+          "year": "2014",
+          "unstructured": "S. Yarrow, K. A. Razak, A. R. Seitz, and P. Serès. 2014. Detecting and quantifying topography in neural maps. PLoS One 9, 2 (Feb. 2014), 1–14. DOI:https://doi.org/10.1371/journal.pone.0087178",
+          "journal-title": "PLoS One"
+        }
+      ],
+      "container-title": [
+        "ACM Computing Surveys"
+      ],
+      "original-title": [],
+      "language": "en",
+      "link": [
+        {
+          "URL": "https://dl.acm.org/doi/10.1145/3572895",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        },
+        {
+          "URL": "https://dl.acm.org/doi/pdf/10.1145/3572895",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2025,
+            6,
+            17
+          ]
+        ],
+        "date-time": "2025-06-17T13:51:38Z",
+        "timestamp": 1750168298000
+      },
+      "score": 1,
+      "resource": {
+        "primary": {
+          "URL": "https://dl.acm.org/doi/10.1145/3572895"
+        }
+      },
+      "subtitle": [],
+      "short-title": [],
+      "issued": {
+        "date-parts": [
+          [
+            2023,
+            3,
+            2
+          ]
+        ]
+      },
+      "references-count": 48,
+      "journal-issue": {
+        "issue": "12",
+        "published-print": {
+          "date-parts": [
+            [
+              2023,
+              12,
+              31
+            ]
+          ]
+        }
+      },
+      "alternative-id": [
+        "10.1145/3572895"
+      ],
+      "URL": "https://doi.org/10.1145/3572895",
+      "relation": {},
+      "ISSN": [
+        "0360-0300",
+        "1557-7341"
+      ],
+      "issn-type": [
+        {
+          "value": "0360-0300",
+          "type": "print"
+        },
+        {
+          "value": "1557-7341",
+          "type": "electronic"
+        }
+      ],
+      "subject": [],
+      "published": {
+        "date-parts": [
+          [
+            2023,
+            3,
+            2
+          ]
+        ]
+      },
+      "assertion": [
+        {
+          "value": "2021-05-31",
+          "order": 0,
+          "name": "received",
+          "label": "Received",
+          "group": {
+            "name": "publication_history",
+            "label": "Publication History"
+          }
+        },
+        {
+          "value": "2022-11-22",
+          "order": 1,
+          "name": "accepted",
+          "label": "Accepted",
+          "group": {
+            "name": "publication_history",
+            "label": "Publication History"
+          }
+        },
+        {
+          "value": "2023-03-02",
+          "order": 2,
+          "name": "published",
+          "label": "Published",
+          "group": {
+            "name": "publication_history",
+            "label": "Publication History"
+          }
+        }
+      ]
+    }
+  }
+}

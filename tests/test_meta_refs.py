@@ -9,7 +9,8 @@ META = json.load(open(os.path.join(ROOT, "data", "meta.json"), encoding="utf-8")
 
 
 def _pages():
-    return META["pages"]
+    # The research map uses graph references and is verified in test_research_map.py.
+    return [p for p in META["pages"] if p["id"] != "research-map"]
 
 
 def test_every_meta_page_has_refs():

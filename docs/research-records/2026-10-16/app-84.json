@@ -1,0 +1,1965 @@
+{
+  "retrieved": "2026-10-16",
+  "url": "https://api.crossref.org/works?query.bibliographic=evolutionary+music+computation+art+creating+music&rows=3&filter=until-pub-date%3A2026-10-16",
+  "response": {
+    "status": "ok",
+    "message-type": "work-list",
+    "message-version": "1.0.0",
+    "message": {
+      "facets": {},
+      "total-results": 1782151,
+      "items": [
+        {
+          "indexed": {
+            "date-parts": [
+              [
+                2026,
+                8,
+                14
+              ]
+            ],
+            "date-time": "2026-08-14T09:38:59Z",
+            "timestamp": 1786700339749,
+            "version": "build-2736575974"
+          },
+          "reference-count": 105,
+          "publisher": "Springer Science and Business Media LLC",
+          "issue": "1-2",
+          "license": [
+            {
+              "start": {
+                "date-parts": [
+                  [
+                    2020,
+                    2,
+                    6
+                  ]
+                ],
+                "date-time": "2020-02-06T00:00:00Z",
+                "timestamp": 1580947200000
+              },
+              "content-version": "tdm",
+              "delay-in-days": 0,
+              "URL": "http://www.springer.com/tdm"
+            },
+            {
+              "start": {
+                "date-parts": [
+                  [
+                    2020,
+                    2,
+                    6
+                  ]
+                ],
+                "date-time": "2020-02-06T00:00:00Z",
+                "timestamp": 1580947200000
+              },
+              "content-version": "vor",
+              "delay-in-days": 0,
+              "URL": "http://www.springer.com/tdm"
+            }
+          ],
+          "funder": [
+            {
+              "DOI": "10.13039/501100001602",
+              "name": "Science Foundation Ireland",
+              "doi-asserted-by": "publisher",
+              "award": [
+                "13/IA/1850"
+              ],
+              "award-info": [
+                {
+                  "award-number": [
+                    "13/IA/1850"
+                  ]
+                }
+              ],
+              "id": [
+                {
+                  "id": "10.13039/501100001602",
+                  "id-type": "DOI",
+                  "asserted-by": "publisher"
+                }
+              ]
+            }
+          ],
+          "content-domain": {
+            "domain": [
+              "link.springer.com"
+            ],
+            "crossmark-restriction": false
+          },
+          "short-container-title": [
+            "Genet Program Evolvable Mach"
+          ],
+          "published-print": {
+            "date-parts": [
+              [
+                2020,
+                6
+              ]
+            ]
+          },
+          "DOI": "10.1007/s10710-020-09380-7",
+          "type": "journal-article",
+          "created": {
+            "date-parts": [
+              [
+                2020,
+                2,
+                6
+              ]
+            ],
+            "date-time": "2020-02-06T16:07:01Z",
+            "timestamp": 1581005221000
+          },
+          "page": "55-85",
+          "update-policy": "https://doi.org/10.1007/springer_crossmark_policy",
+          "source": "Crossref",
+          "is-referenced-by-count": 23,
+          "title": [
+            "Evolutionary music: applying evolutionary computation to the art of creating music"
+          ],
+          "prefix": "10.1007",
+          "volume": "21",
+          "author": [
+            {
+              "ORCID": "https://orcid.org/0000-0002-0974-7106",
+              "authenticated-orcid": false,
+              "given": "Róisín",
+              "family": "Loughran",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Michael",
+              "family": "O’Neill",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            }
+          ],
+          "member": "297",
+          "published-online": {
+            "date-parts": [
+              [
+                2020,
+                2,
+                6
+              ]
+            ]
+          },
+          "reference": [
+            {
+              "issue": "2",
+              "key": "9380_CR1",
+              "doi-asserted-by": "crossref",
+              "first-page": "48",
+              "DOI": "10.1162/comj.2009.33.2.48",
+              "volume": "33",
+              "author": "C Ariza",
+              "year": "2009",
+              "unstructured": "C. Ariza, The interrogator as critic: the turing test and the evaluation of generative music systems. Comput. Music J. 33(2), 48–70 (2009)",
+              "journal-title": "Comput. Music J."
+            },
+            {
+              "key": "9380_CR2",
+              "unstructured": "Association for computational creativity. http://computationalcreativity.net/"
+            },
+            {
+              "key": "9380_CR3",
+              "unstructured": "J. Biles, GenJam: a genetic algorithm for generating jazz solos, in Proceedings of the International Computer Music Conference (International Computer Music Association, 1994), pp. 131–131"
+            },
+            {
+              "key": "9380_CR4",
+              "unstructured": "J.A. Biles, Straight-ahead jazz with GenJam: a quick demonstration, in MUME 2013 Workshop (2013)"
+            },
+            {
+              "key": "9380_CR5",
+              "unstructured": "J. Biles, P. Anderson, L. Loggi, Neural network fitness functions for a musical iga. Accessed from https://scholarworks.rit.edu/other/184 (1996)"
+            },
+            {
+              "key": "9380_CR6",
+              "doi-asserted-by": "crossref",
+              "unstructured": "T. Blackwell, J. Branke, Multi-swarm optimization in dynamic environments, in Workshops on Applications of Evolutionary Computation (Springer, 2004), pp. 489–500",
+              "DOI": "10.1007/978-3-540-24653-4_50"
+            },
+            {
+              "issue": "1",
+              "key": "9380_CR7",
+              "doi-asserted-by": "crossref",
+              "first-page": "347",
+              "DOI": "10.1016/S0004-3702(98)00055-1",
+              "volume": "103",
+              "author": "MA Boden",
+              "year": "1998",
+              "unstructured": "M.A. Boden, Creativity and artificial intelligence. Artif. Intel. 103(1), 347–356 (1998)",
+              "journal-title": "Artif. Intel."
+            },
+            {
+              "key": "9380_CR8",
+              "doi-asserted-by": "crossref",
+              "DOI": "10.4324/9780203508527",
+              "volume-title": "The Creative Mind: Myths and Mechanisms",
+              "author": "MA Boden",
+              "year": "2004",
+              "unstructured": "M.A. Boden, The Creative Mind: Myths and Mechanisms (Psychology Press, London, 2004)"
+            },
+            {
+              "issue": "3",
+              "key": "9380_CR9",
+              "doi-asserted-by": "crossref",
+              "first-page": "23",
+              "DOI": "10.1609/aimag.v30i3.2254",
+              "volume": "30",
+              "author": "MA Boden",
+              "year": "2009",
+              "unstructured": "M.A. Boden, Computer models of creativity. AI Mag. 30(3), 23 (2009)",
+              "journal-title": "AI Mag."
+            },
+            {
+              "key": "9380_CR10",
+              "doi-asserted-by": "crossref",
+              "DOI": "10.1007/978-3-662-43631-8",
+              "volume-title": "Natural Computing Algorithms",
+              "author": "A Brabazon",
+              "year": "2015",
+              "unstructured": "A. Brabazon, M. O’Neill, S. McGarraghy, Natural Computing Algorithms (Springer, Berlin, 2015)"
+            },
+            {
+              "key": "9380_CR11",
+              "doi-asserted-by": "crossref",
+              "first-page": "215",
+              "DOI": "10.1007/978-94-010-0105-2_12",
+              "volume-title": "The Turing Test",
+              "author": "S Bringsjord",
+              "year": "2003",
+              "unstructured": "S. Bringsjord, P. Bello, D. Ferrucci, Creativity, the turing test, and the (better) lovelace test, in The Turing Test, ed. by J.H. Moor (Springer, Berlin, 2003), pp. 215–239"
+            },
+            {
+              "issue": "1",
+              "key": "9380_CR12",
+              "doi-asserted-by": "crossref",
+              "first-page": "17",
+              "DOI": "10.1080/07494460802663991",
+              "volume": "28",
+              "author": "AR Brown",
+              "year": "2009",
+              "unstructured": "A.R. Brown, A. Sorensen, Interacting with generative music through live coding. Contemp. Music Rev. 28(1), 17–29 (2009)",
+              "journal-title": "Contemp. Music Rev."
+            },
+            {
+              "key": "9380_CR13",
+              "doi-asserted-by": "crossref",
+              "first-page": "219",
+              "DOI": "10.1007/978-3-7091-6492-1_48",
+              "volume-title": "Artificial Neural Nets and Genetic Algorithms",
+              "author": "AR Burton",
+              "year": "1998",
+              "unstructured": "A.R. Burton, T. Vladimirova, Genetic algorithm utilising neural network fitness evaluation for musical composition, in Artificial Neural Nets and Genetic Algorithms, ed. by G.D. Smith, et al. (Springer, Berlin, 1998), pp. 219–223"
+            },
+            {
+              "issue": "4",
+              "key": "9380_CR14",
+              "doi-asserted-by": "crossref",
+              "first-page": "59",
+              "DOI": "10.1162/014892699560001",
+              "volume": "23",
+              "author": "AR Burton",
+              "year": "1999",
+              "unstructured": "A.R. Burton, T. Vladimirova, Generation of musical sequences with genetic techniques. Comput. Music J. 23(4), 59–73 (1999)",
+              "journal-title": "Comput. Music J."
+            },
+            {
+              "issue": "3",
+              "key": "9380_CR15",
+              "doi-asserted-by": "crossref",
+              "first-page": "15",
+              "DOI": "10.1609/aimag.v30i3.2252",
+              "volume": "30",
+              "author": "A Cardoso",
+              "year": "2009",
+              "unstructured": "A. Cardoso, T. Veale, G.A. Wiggins, Converging on the divergent: the history (and future) of the international joint workshops in computational creativity. AI Mag. 30(3), 15 (2009)",
+              "journal-title": "AI Mag."
+            },
+            {
+              "key": "9380_CR16",
+              "volume-title": "Glitch Free FM Vocal Synthesis. Center for Computer Research in Music and Acoustics",
+              "author": "C Chafe",
+              "year": "2013",
+              "unstructured": "C. Chafe, Glitch Free FM Vocal Synthesis. Center for Computer Research in Music and Acoustics (Stanford University, Stanford, 2013)"
+            },
+            {
+              "key": "9380_CR17",
+              "unstructured": "S. Colton, Creativity versus the perception of creativity in computational systems, in AAAI Spring Symposium: Creative Intelligent Systems (2008), pp. 14–20"
+            },
+            {
+              "key": "9380_CR18",
+              "first-page": "21",
+              "volume": "12",
+              "author": "S Colton",
+              "year": "2012",
+              "unstructured": "S. Colton, G.A. Wiggins et al., Computational creativity: The final frontier? ECAI 12, 21–26 (2012)",
+              "journal-title": "ECAI"
+            },
+            {
+              "key": "9380_CR19",
+              "unstructured": "P. Dahlstedt, Autonomous evolution of complete piano pieces and performances, in Proceedings of Music AL Workshop (Citeseer, 2007)"
+            },
+            {
+              "key": "9380_CR20",
+              "volume-title": "Sounds Unheard of: Evolutionary Algorithms as Creative Tools for the Contemporary Composer",
+              "author": "P Dahlstedt",
+              "year": "2004",
+              "unstructured": "P. Dahlstedt, Sounds Unheard of: Evolutionary Algorithms as Creative Tools for the Contemporary Composer (Chalmers University of Technology, Goteborg, 2004)"
+            },
+            {
+              "key": "9380_CR21",
+              "unstructured": "R. Dawkins, The blind watchmaker: why the evidence of evolution reveals a universe without design (reissued in 2006 and 1996) (1996)"
+            },
+            {
+              "key": "9380_CR22",
+              "doi-asserted-by": "crossref",
+              "unstructured": "A.R. de Freitas, F.G. Guimarães, Originality and diversity in the artificial evolution of melodies, in Proceedings of the 13th Annual Conference on Genetic and Evolutionary Computation (ACM, 2011), pp. 419–426",
+              "DOI": "10.1145/2001576.2001634"
+            },
+            {
+              "key": "9380_CR23",
+              "unstructured": "A.R. de Freitas, F.G. Guimaraes, R.V. Barbosa, Ideas in automatic evaluation methods for melodies in algorithmic composition, in Sound and Music Computing Conference (2012)"
+            },
+            {
+              "key": "9380_CR24",
+              "doi-asserted-by": "crossref",
+              "unstructured": "A.O. de la Puente, R.S. Alfonso, M.A. Moreno, Automatic composition of music by means of grammatical evolution. in ACM SIGAPL APL Quote Quad vol. 32 (ACM, 2002), pp. 148–155",
+              "DOI": "10.1145/604444.602249"
+            },
+            {
+              "key": "9380_CR25",
+              "doi-asserted-by": "crossref",
+              "unstructured": "R. De Prisco, G. Zaccagnino, R. Zaccagnino, Evobasscomposer: a multi-objective genetic algorithm for 4-voice compositions, in Proceedings of the 12th Annual Conference on Genetic and Evolutionary Computation (ACM, 2010), pp. 817–818",
+              "DOI": "10.1145/1830483.1830627"
+            },
+            {
+              "issue": "2",
+              "key": "9380_CR26",
+              "doi-asserted-by": "crossref",
+              "first-page": "182",
+              "DOI": "10.1109/4235.996017",
+              "volume": "6",
+              "author": "K Deb",
+              "year": "2002",
+              "unstructured": "K. Deb, A. Pratap, S. Agarwal, T. Meyarivan, A fast and elitist multiobjective genetic algorithm: Nsga-ii. IEEE Trans. Evol. Comput. 6(2), 182–197 (2002)",
+              "journal-title": "IEEE Trans. Evol. Comput."
+            },
+            {
+              "key": "9380_CR27",
+              "doi-asserted-by": "crossref",
+              "first-page": "13",
+              "DOI": "10.1162/LMJ_a_00053",
+              "volume": "21",
+              "author": "G Diaz-Jerez",
+              "year": "2011",
+              "unstructured": "G. Diaz-Jerez, Composing with melomics: delving into the computational world for musical inspiration. Leonardo Music J. 21, 13–14 (2011)",
+              "journal-title": "Leonardo Music J."
+            },
+            {
+              "key": "9380_CR28",
+              "doi-asserted-by": "crossref",
+              "unstructured": "P. Donnelly, J. Sheppard, Evolving four-part harmony using genetic algorithms, in European Conference on the Applications of Evolutionary Computation (Springer, Berlin, Heidelberg, 2011), pp. 273–282",
+              "DOI": "10.1007/978-3-642-20520-0_28"
+            },
+            {
+              "key": "9380_CR29",
+              "unstructured": "A. Eigenfeldt, O. Bown, A.R. Brown, T. Gifford, Flexible generation of musical form: beyond mere generation, in Proceedings of the Seventh International Conference on Computational Creativity (2016)"
+            },
+            {
+              "key": "9380_CR30",
+              "doi-asserted-by": "crossref",
+              "unstructured": "A. Eigenfeldt, P. Pasquier, Populations of populations: composing with multiple evolutionary algorithms, in Evolutionary and Biologically Inspired Music, Sound, Art and Design (Springer, Berlin, 2012), pp. 72–83",
+              "DOI": "10.1007/978-3-642-29142-5_7"
+            },
+            {
+              "key": "9380_CR31",
+              "doi-asserted-by": "crossref",
+              "unstructured": "A. Gartland-Jones, Musicblox: A real-time algorithmic composition system incorporating a distributed interactive genetic algorithm, in Workshops on Applications of Evolutionary Computation (Springer, 2003), pp. 490–501",
+              "DOI": "10.1007/3-540-36605-9_45"
+            },
+            {
+              "issue": "3",
+              "key": "9380_CR32",
+              "doi-asserted-by": "crossref",
+              "first-page": "43",
+              "DOI": "10.1080/0749446032000150870",
+              "volume": "22",
+              "author": "A Gartland-Jones",
+              "year": "2003",
+              "unstructured": "A. Gartland-Jones, P. Copley, The suitability of genetic algorithms for musical composition. Contemp. Music Rev. 22(3), 43–55 (2003)",
+              "journal-title": "Contemp. Music Rev."
+            },
+            {
+              "key": "9380_CR33",
+              "unstructured": "P. Gibson, J. Byrne, Neurogen, musical composition using genetic algorithms and cooperating neural networks, in Second International Conference on Artificial Neural Networks (IET, 1991), pp. 309–313"
+            },
+            {
+              "key": "9380_CR34",
+              "doi-asserted-by": "crossref",
+              "unstructured": "S. Hickinbotham, S. Stepney, Augmenting live coding with evolved patterns, in International Conference on Evolutionary and Biologically Inspired Music and Art (Springer, 2016), pp. 31–46",
+              "DOI": "10.1007/978-3-319-31008-4_3"
+            },
+            {
+              "key": "9380_CR35",
+              "doi-asserted-by": "crossref",
+              "unstructured": "L.A. Hiller Jr, L.M. Isaacson, Musical composition with a high speed digital computer, in Audio Engineering Society Convention, vol 9 (Audio Engineering Society, 1957)",
+              "DOI": "10.7551/mitpress/4360.003.0004"
+            },
+            {
+              "key": "9380_CR36",
+              "doi-asserted-by": "crossref",
+              "unstructured": "D.M. Hofmann, A genetic programming approach to generating musical compositions, in International Conference on Evolutionary and Biologically Inspired Music and Art (Springer, 2015), pp. 89–100",
+              "DOI": "10.1007/978-3-319-16498-4_9"
+            },
+            {
+              "key": "9380_CR37",
+              "doi-asserted-by": "crossref",
+              "unstructured": "A.K. Hoover, M.P. Rosario, K.O. Stanley, Scaffolding for interactively evolving novel drum tracks for existing songs, in Workshops on Applications of Evolutionary Computation (Springer, 2008), pp. 412–422",
+              "DOI": "10.1007/978-3-540-78761-7_44"
+            },
+            {
+              "issue": "61801",
+              "key": "9380_CR38",
+              "first-page": "437",
+              "volume": "51",
+              "author": "A Horner",
+              "year": "1991",
+              "unstructured": "A. Horner, D.E. Goldberg, Genetic algorithms and computer-assisted music composition. Urbana 51(61801), 437–441 (1991)",
+              "journal-title": "Urbana"
+            },
+            {
+              "key": "9380_CR39",
+              "unstructured": "D. Horowitz, Generating rhythms with genetic algorithms, in AAAI vol 94 (Cambridge, 1994), p. 1459"
+            },
+            {
+              "key": "9380_CR40",
+              "doi-asserted-by": "crossref",
+              "unstructured": "S. Ianigro, O. Bown, Plecto: a low-level interactive genetic algorithm for the evolution of audio, in International Conference on Evolutionary and Biologically Inspired Music and Art (Springer, 2016), pp. 63–78",
+              "DOI": "10.1007/978-3-319-31008-4_5"
+            },
+            {
+              "key": "9380_CR41",
+              "unstructured": "International conference on computational intelligence in music, sounds, art and design (EvoMUSART). http://www.evostar.org/2019/"
+            },
+            {
+              "key": "9380_CR42",
+              "unstructured": "B. Jacob, Composing with genetic algorithms, in International Computer Music Conference (ICMC), Banff Alberta (International Computer Music Association, 1995)"
+            },
+            {
+              "issue": "3",
+              "key": "9380_CR43",
+              "doi-asserted-by": "crossref",
+              "first-page": "157",
+              "DOI": "10.1017/S1355771896000222",
+              "volume": "1",
+              "author": "BL Jacob",
+              "year": "1996",
+              "unstructured": "B.L. Jacob, Algorithmic composition as a model of creativity. Organ. Sound 1(3), 157–165 (1996)",
+              "journal-title": "Organ. Sound"
+            },
+            {
+              "key": "9380_CR44",
+              "volume-title": "GP-Music: An Interactive Genetic Programming System for Music Generation with Automated Fitness Raters",
+              "author": "B Johanson",
+              "year": "1998",
+              "unstructured": "B. Johanson, R. Poli, GP-Music: An Interactive Genetic Programming System for Music Generation with Automated Fitness Raters (Citeseer, Princeton, 1998)"
+            },
+            {
+              "key": "9380_CR45",
+              "doi-asserted-by": "crossref",
+              "unstructured": "C.G. Johnson, Fitness in evolutionary art and music: what has been used and what could be used?, in Evolutionary and Biologically Inspired Music, Sound, Art and Design (Springer, Berlin, Heidelberg, 2012), pp. 129–140",
+              "DOI": "10.1007/978-3-642-29142-5_12"
+            },
+            {
+              "key": "9380_CR46",
+              "doi-asserted-by": "crossref",
+              "unstructured": "C.G. Johnson, J.J.R. Cardalda, Genetic algorithms in visual art and music. Leonardo 35(2), 175–184 (2002)",
+              "DOI": "10.1162/00240940252940559"
+            },
+            {
+              "key": "9380_CR47",
+              "unstructured": "A. Jordanous, Evaluating evaluation: assessing progress in computational creativity research (2011)"
+            },
+            {
+              "issue": "3",
+              "key": "9380_CR48",
+              "doi-asserted-by": "crossref",
+              "first-page": "246",
+              "DOI": "10.1007/s12559-012-9156-1",
+              "volume": "4",
+              "author": "A Jordanous",
+              "year": "2012",
+              "unstructured": "A. Jordanous, A standardised procedure for evaluating creative systems: computational creativity evaluation based on what it is to be creative. Cognit. Comput. 4(3), 246–279 (2012)",
+              "journal-title": "Cognit. Comput."
+            },
+            {
+              "key": "9380_CR49",
+              "doi-asserted-by": "crossref",
+              "unstructured": "Y. Khalifa, B.K. Khan, J. Begovic, A. Wisdom, A.M. Wheeler, Evolutionary music composer integrating formal grammar, in Proceedings of the 9th Annual Conference Companion on Genetic and Evolutionary Computation (ACM, 2007), pp. 2519–2526",
+              "DOI": "10.1145/1274000.1274020"
+            },
+            {
+              "issue": "2",
+              "key": "9380_CR50",
+              "doi-asserted-by": "crossref",
+              "first-page": "310",
+              "DOI": "10.1016/j.ejor.2007.06.028",
+              "volume": "190",
+              "author": "SO Kimbrough",
+              "year": "2008",
+              "unstructured": "S.O. Kimbrough, G.J. Koehler, M. Lu, D.H. Wood, On a feasible–infeasible two-population (fi-2pop) genetic algorithm for constrained optimization: distance tracing and no free lunch. Eur. J. Oper. Res. 190(2), 310–327 (2008)",
+              "journal-title": "Eur. J. Oper. Res."
+            },
+            {
+              "key": "9380_CR51",
+              "unstructured": "K. Kunimatsu, Y. Ishikawa, M. Takata, K. Joe, A music composition model with genetic programming-a case study of chord progression and bassline, in Proceedings of the International Conference on Parallel and Distributed Processing Techniques and Applications (PDPTA). The Steering Committee of The World Congress in Computer Science, Computer Engineering and Applied Computing (WorldComp) (2015), p. 256"
+            },
+            {
+              "key": "9380_CR52",
+              "unstructured": "P. Laine, M. Kuuskankare, Genetic algorithms in musical style oriented generation, in Evolutionary Computation, 1994. Proceedings of the First IEEE Conference on IEEE World Congress on Computational Intelligence (IEEE, 1994), pp. 858–862"
+            },
+            {
+              "key": "9380_CR53",
+              "unstructured": "Library of Congress, 2009 national recording registry (2009) https://www.loc.gov/item/prn-10-116/"
+            },
+            {
+              "key": "9380_CR54",
+              "unstructured": "R. Loughran, J. McDermott, M. O’Neill, Grammatical evolution with zipf’s law based fitness for melodic composition, in Sound and Music Computing Conference, Maynooth (2015)"
+            },
+            {
+              "key": "9380_CR55",
+              "doi-asserted-by": "crossref",
+              "unstructured": "R. Loughran, J. McDermott, M. O’Neill, Grammatical music composition with dissimilarity driven hill climbing, in Evolutionary and Biologically Inspired Music, Sound, Art and Design. ed. by J. Correia, C. Johnson, V. Ciesielski (Springer, Berlin, 2016), pp. 110–125",
+              "DOI": "10.1007/978-3-319-31008-4_8"
+            },
+            {
+              "key": "9380_CR56",
+              "doi-asserted-by": "crossref",
+              "unstructured": "R. Loughran, J. McDermott, M. O’Neill, Tonality driven piano compositions with grammatical evolution, in 2015 IEEE Congress on Evolutionary Computation (CEC) (IEEE, 2015), pp. 2168–2175",
+              "DOI": "10.1109/CEC.2015.7257152"
+            },
+            {
+              "key": "9380_CR57",
+              "unstructured": "R. Loughran, M. O’Neill, ‘My Little Chucky’: towards live-coding with grammatical evolution, in Musical Metacreation (MuMe) ed. by P. Pasquier, O. Bown, A. Eigenfeldt (2017)"
+            },
+            {
+              "key": "9380_CR58",
+              "doi-asserted-by": "crossref",
+              "unstructured": "R. Loughran, M. O’Neill, Clustering agents for the evolution of autonomous musical fitness, in Evolutionary and Biologically Inspired Music, Sound, Art and Design (Springer, Berlin, 2017)",
+              "DOI": "10.1007/978-3-319-55750-2_11"
+            },
+            {
+              "key": "9380_CR59",
+              "unstructured": "R. Loughran, M. O’Neill, The popular critic: evolving melodies with popularity driven fitness, in Musical Metacreation (MuMe), Paris (2016)"
+            },
+            {
+              "key": "9380_CR60",
+              "first-page": "1",
+              "volume": "2",
+              "author": "R Loughran",
+              "year": "2017",
+              "unstructured": "R. Loughran, M. O’Neill, Limitations from assumptions in generative music evaluation. J. Creat. Music Syst. 2, 1 (2017)",
+              "journal-title": "J. Creat. Music Syst."
+            },
+            {
+              "issue": "30",
+              "key": "9380_CR61",
+              "doi-asserted-by": "crossref",
+              "first-page": "12081",
+              "DOI": "10.1073/pnas.1203182109",
+              "volume": "109",
+              "author": "RM MacCallum",
+              "year": "2012",
+              "unstructured": "R.M. MacCallum, M. Mauch, A. Burt, A.M. Leroi, Evolution of music by public choice. Proc. Natl. Acad. Sci. 109(30), 12081–12086 (2012)",
+              "journal-title": "Proc. Natl. Acad. Sci."
+            },
+            {
+              "key": "9380_CR62",
+              "unstructured": "P. Machado, A. Cardoso, Nevar-the assessment of an evolutionary art tool, in Proceedings of the AISB00 Symposium on Creative and Cultural Aspects and Applications of AI and Cognitive Science, vol 456 (Birmingham, UK, 2000)"
+            },
+            {
+              "key": "9380_CR63",
+              "unstructured": "P. Machado, J. Tavares, A. Cardoso, F.B. Pereira, E. Costa, Evolving creativity, in First International Joint Workshop on Computational Creativity (Universidad Complutense de Madrid, Madrid, 2004), pp. 17–19"
+            },
+            {
+              "key": "9380_CR64",
+              "unstructured": "B. Manaris, P. Roos, P. Machado, D. Krehbiel, L. Pellicoro, J. Romero, A corpus-based hybrid approach to music analysis and composition, in Proceedings of the National Conference on Artificial Intelligence, vol 22 (MIT Press, Cambridge, 2007), p. 839"
+            },
+            {
+              "key": "9380_CR65",
+              "doi-asserted-by": "crossref",
+              "unstructured": "B. Manaris, D. Vaughan, C. Wagner, J. Romero, R.B. Davis, Evolutionary music and the Zipf–Mandelbrot law: developing fitness functions for pleasant music, in Applications of Evolutionary Computing (Springer, Berlin, 2003), pp. 522–534",
+              "DOI": "10.1007/3-540-36605-9_48"
+            },
+            {
+              "issue": "1",
+              "key": "9380_CR66",
+              "doi-asserted-by": "crossref",
+              "first-page": "55",
+              "DOI": "10.1162/comj.2005.29.1.55",
+              "volume": "29",
+              "author": "B Manaris",
+              "year": "2005",
+              "unstructured": "B. Manaris, J. Romero, P. Machado, D. Krehbiel, T. Hirzel, W. Pharr, R.B. Davis, Zipf’s law, music classification, and aesthetics. Comput. Music J. 29(1), 55–69 (2005)",
+              "journal-title": "Comput. Music J."
+            },
+            {
+              "key": "9380_CR67",
+              "doi-asserted-by": "crossref",
+              "unstructured": "J. McCormack, Facing the future: evolutionary possibilities for human–machine creativity, in The Art of Artificial Evolution, ed. by J.J. Romero (Springer, Berlin, 2008), pp. 417–451",
+              "DOI": "10.1007/978-3-540-72877-1_19"
+            },
+            {
+              "key": "9380_CR68",
+              "doi-asserted-by": "crossref",
+              "unstructured": "J. McCormack, Open problems in evolutionary music and art, in Applications of evolutionary computing. (Springer, Berlin, 2005), pp. 428–436",
+              "DOI": "10.1007/978-3-540-32003-6_43"
+            },
+            {
+              "key": "9380_CR69",
+              "doi-asserted-by": "crossref",
+              "unstructured": "J. McDermott, U.M. O’Reilly, An executable graph representation for evolutionary generative music, in Proceedings of the 13th Annual Conference on Genetic and Evolutionary Computation (ACM, New York, USA, 2011), pp. 403–410",
+              "DOI": "10.1145/2001576.2001632"
+            },
+            {
+              "key": "9380_CR70",
+              "unstructured": "L.F. Menabrea, A. Lovelace, Sketch of the analytical engine invented by charles babbage (1842)"
+            },
+            {
+              "key": "9380_CR71",
+              "doi-asserted-by": "crossref",
+              "unstructured": "P. Meusburger, Milieus of creativity: the role of places, environments, and spatial contexts, in Milieus of Creativity (Springer, Berlin, 2009), pp. 97–153",
+              "DOI": "10.1007/978-1-4020-9877-2"
+            },
+            {
+              "issue": "4",
+              "key": "9380_CR72",
+              "first-page": "3",
+              "volume": "3",
+              "author": "ML Minsky",
+              "year": "1982",
+              "unstructured": "M.L. Minsky, Why people think computers can’t. AI Mag. 3(4), 3 (1982)",
+              "journal-title": "AI Mag."
+            },
+            {
+              "issue": "1",
+              "key": "9380_CR73",
+              "doi-asserted-by": "crossref",
+              "first-page": "29",
+              "DOI": "10.1076/digc.14.1.29.8812",
+              "volume": "14",
+              "author": "ER Miranda",
+              "year": "2003",
+              "unstructured": "E.R. Miranda, On the evolution of music in a society of self-taught digital creatures. Digit. Creat. 14(1), 29–42 (2003)",
+              "journal-title": "Digit. Creat."
+            },
+            {
+              "key": "9380_CR74",
+              "doi-asserted-by": "crossref",
+              "DOI": "10.1007/978-1-84628-600-1",
+              "volume-title": "Evolutionary Computer Music",
+              "author": "ER Miranda",
+              "year": "2007",
+              "unstructured": "E.R. Miranda, J. Al Biles, Evolutionary Computer Music (Springer, Berlin, 2007)"
+            },
+            {
+              "key": "9380_CR75",
+              "doi-asserted-by": "crossref",
+              "first-page": "49",
+              "DOI": "10.1162/096112100570602",
+              "volume": "10",
+              "author": "A Moroni",
+              "year": "2000",
+              "unstructured": "A. Moroni, J. Manzolli, F. Von Zuben, R. Gudwin, Vox populi: an interactive evolutionary system for algorithmic music composition. Leonardo Music J. 10, 49–54 (2000)",
+              "journal-title": "Leonardo Music J."
+            },
+            {
+              "issue": "1",
+              "key": "9380_CR76",
+              "doi-asserted-by": "crossref",
+              "first-page": "1",
+              "DOI": "10.1109/TEVC.2014.2366871",
+              "volume": "20",
+              "author": "E Munoz",
+              "year": "2016",
+              "unstructured": "E. Munoz, J. Cadenas, Y.S. Ong, G. Acampora, Memetic music composition. IEEE Trans. Evol. Comput. 20(1), 1 (2016)",
+              "journal-title": "IEEE Trans. Evol. Comput."
+            },
+            {
+              "key": "9380_CR77",
+              "unstructured": "Musical Metacreation (MuMe). http://musicalmetacreation.org"
+            },
+            {
+              "key": "9380_CR78",
+              "doi-asserted-by": "crossref",
+              "unstructured": "O. Olseng, B. Gambäck, Co-evolving melodies and harmonization in evolutionary music composition, in International Conference on Computational Intelligence in Music, Sound, Art and Design (Springer, 2018), pp. 239–255",
+              "DOI": "10.1007/978-3-319-77583-8_16"
+            },
+            {
+              "key": "9380_CR79",
+              "unstructured": "M. Pearce, G. Wiggins, Towards a framework for the evaluation of machine compositions, in Proceedings of the AISB’01 Symposium on Artificial Intelligence and Creativity in the Arts and Sciences (Citeseer, 2001), pp. 22–32"
+            },
+            {
+              "key": "9380_CR80",
+              "doi-asserted-by": "crossref",
+              "unstructured": "S. Phon-Amnuaisuk, E.H.H. Law, H.C. Kuan, Evolving music generation with som-fitness genetic programming, in Workshops on Applications of Evolutionary Computation (Springer, 2007), pp. 557–566",
+              "DOI": "10.1007/978-3-540-71805-5_61"
+            },
+            {
+              "key": "9380_CR81",
+              "unstructured": "A. Pirnia, J. McCormack, Compressed multidimensional trees for evolutionary music representation, in ICMC (2012)"
+            },
+            {
+              "issue": "3",
+              "key": "9380_CR82",
+              "doi-asserted-by": "crossref",
+              "first-page": "99",
+              "DOI": "10.1609/aimag.v34i3.2464",
+              "volume": "34",
+              "author": "CS Quintana",
+              "year": "2013",
+              "unstructured": "C.S. Quintana, F.M. Arcas, D.A. Molina, J.D.F. Rodriguez, F.J. Vico, Melomics: a case-study of ai in spain. AI Mag. 34(3), 99–103 (2013)",
+              "journal-title": "AI Mag."
+            },
+            {
+              "key": "9380_CR83",
+              "doi-asserted-by": "crossref",
+              "unstructured": "J. Reddin, J. McDermott, M. O’Neill, Elevated pitch: automated grammatical evolution of short compositions, in Applications of Evolutionary Computing ed. by M. Giacobini, et al. (Springer, 2009), pp. 579–584",
+              "DOI": "10.1007/978-3-642-01129-0_65"
+            },
+            {
+              "key": "9380_CR84",
+              "volume-title": "Cybernetics, art and ideas",
+              "author": "J Reichardt",
+              "year": "1971",
+              "unstructured": "J. Reichardt, J. Reichardt, Cybernetics, art and ideas (Studio Vista, London, 1971)"
+            },
+            {
+              "key": "9380_CR85",
+              "doi-asserted-by": "publisher",
+              "unstructured": "J. Romero, P. Machado, A. Carballal, Guest editorial: special issue on biologically inspired music, sound, art and design. Genet Program Evolvable Mach 14, 281 (2013). https://doi.org/10.1007/s10710-013-9191-z",
+              "DOI": "10.1007/s10710-013-9191-z"
+            },
+            {
+              "key": "9380_CR86",
+              "doi-asserted-by": "crossref",
+              "DOI": "10.1007/978-3-540-72877-1",
+              "volume-title": "The Art of Artificial Evolution: A Handbook on Evolutionary Art and Music",
+              "author": "JJ Romero",
+              "year": "2008",
+              "unstructured": "J.J. Romero, The Art of Artificial Evolution: A Handbook on Evolutionary Art and Music (Springer, Berlin, 2008)"
+            },
+            {
+              "issue": "1",
+              "key": "9380_CR87",
+              "doi-asserted-by": "crossref",
+              "first-page": "92",
+              "DOI": "10.1080/10400419.2012.650092",
+              "volume": "24",
+              "author": "MA Runco",
+              "year": "2012",
+              "unstructured": "M.A. Runco, G.J. Jaeger, The standard definition of creativity. Creat. Res. J. 24(1), 92–96 (2012)",
+              "journal-title": "Creat. Res. J."
+            },
+            {
+              "key": "9380_CR88",
+              "doi-asserted-by": "crossref",
+              "unstructured": "M. Scirea, P. Eklund, J. Togelius, S. Risi, Evolving in-game mood-expressive music with metacompose, in Audio Mostky 2018: Sound in Immerision and Emotion (AM’18), New York (2018)",
+              "DOI": "10.1145/3243274.3243292"
+            },
+            {
+              "key": "9380_CR89",
+              "doi-asserted-by": "crossref",
+              "unstructured": "M. Scirea, J. Togelius, P. Eklund, S. Risi, Metacompose: A compositional evolutionary music composer, in International Conference on Evolutionary and Biologically Inspired Music and Art (Springer, 2016), pp. 202–217",
+              "DOI": "10.1007/978-3-319-31008-4_14"
+            },
+            {
+              "key": "9380_CR90",
+              "doi-asserted-by": "crossref",
+              "unstructured": "J. Shao, J. McDermott, O’Neill, M., A. Brabazon, Jive: A generative, interactive, virtual, evolutionary music system, in Applications of Evolutionary Computation, ed. by C. Di Chio et el. (Springer, Berlin, 2010), pp. 341–350",
+              "DOI": "10.1007/978-3-642-12242-2_35"
+            },
+            {
+              "issue": "8",
+              "key": "9380_CR91",
+              "doi-asserted-by": "crossref",
+              "first-page": "466",
+              "DOI": "10.1007/BF01888721",
+              "volume": "9",
+              "author": "K Sims",
+              "year": "1993",
+              "unstructured": "K. Sims, Interactive evolution of equations for procedural models. Vis. Comput. 9(8), 466–476 (1993)",
+              "journal-title": "Vis. Comput."
+            },
+            {
+              "key": "9380_CR92",
+              "unstructured": "L. Spector, A. Alpern, Criticism, culture, and the automatic generation of artworks, in AAAI (1994), pp. 3–8"
+            },
+            {
+              "key": "9380_CR93",
+              "first-page": "20",
+              "volume": "95",
+              "author": "L Spector",
+              "year": "1995",
+              "unstructured": "L. Spector, A. Alpern, Induction and recapitulation of deep musical structure. Proc. Int. Jt. Conf. Artif. Intell. 95, 20–25 (1995)",
+              "journal-title": "Proc. Int. Jt. Conf. Artif. Intell."
+            },
+            {
+              "issue": "2",
+              "key": "9380_CR94",
+              "doi-asserted-by": "crossref",
+              "first-page": "99",
+              "DOI": "10.1162/106365602320169811",
+              "volume": "10",
+              "author": "KO Stanley",
+              "year": "2002",
+              "unstructured": "K.O. Stanley, R. Miikkulainen, Evolving neural networks through augmenting topologies. Evol. Comput. 10(2), 99–127 (2002)",
+              "journal-title": "Evol. Comput."
+            },
+            {
+              "key": "9380_CR95",
+              "unstructured": "C. Sulyok, A. McPherson, C. Harte, Corpus-taught evolutionary music composition, in Proceedings of the 13th European Conference on Artificial life, York, UK (2015), pp. 587–594"
+            },
+            {
+              "issue": "02",
+              "key": "9380_CR96",
+              "doi-asserted-by": "crossref",
+              "first-page": "127",
+              "DOI": "10.1017/S1355771899002095",
+              "volume": "4",
+              "author": "K Thywissen",
+              "year": "1999",
+              "unstructured": "K. Thywissen, GeNotator: an environment for exploring the application of evolutionary techniques in computer-assisted composition. Organ. Sound 4(02), 127–133 (1999)",
+              "journal-title": "Organ. Sound"
+            },
+            {
+              "key": "9380_CR97",
+              "doi-asserted-by": "crossref",
+              "first-page": "1284",
+              "DOI": "10.1109/JSYST.2015.2482602",
+              "volume": "11",
+              "author": "CK Ting",
+              "year": "2015",
+              "unstructured": "C.K. Ting, C.L. Wu, C.H. Liu, A novel automatic composition system using evolutionary algorithm and phrase imitation. IEEE Syst. J. 11, 1284 (2015)",
+              "journal-title": "IEEE Syst. J."
+            },
+            {
+              "key": "9380_CR98",
+              "volume-title": "Musical Networks: Parallel Distributed Perception and Performace",
+              "author": "PM Todd",
+              "year": "1999",
+              "unstructured": "P.M. Todd, G.M. Werner, Frankensteinian methods for evolutionary music composition, in Musical Networks: Parallel Distributed Perception and Performace, ed. by N. Griffith, P.M. Todd (MIT Press, Cambridge, 1999)"
+            },
+            {
+              "key": "9380_CR99",
+              "unstructured": "D. Ventura, How to build a CC system, in Proceedings of the 8th International Conference on Computational Creativity, Atlanta (2017)"
+            },
+            {
+              "key": "9380_CR100",
+              "doi-asserted-by": "crossref",
+              "unstructured": "G. Wang, P.R. Cook, et al., Chuck: a concurrent, on-the-fly, audio programming language, in ICMC (2003)",
+              "DOI": "10.1145/1027527.1027716"
+            },
+            {
+              "key": "9380_CR101",
+              "unstructured": "R. Waschka, Theories of evolutionary algorithms and a`new simplicity’opera: making sappho’s breath, in Artificial Life Models for Musical Applications (Cosenza, 2011), pp. 79–86"
+            },
+            {
+              "key": "9380_CR102",
+              "doi-asserted-by": "crossref",
+              "first-page": "117",
+              "DOI": "10.1007/978-1-84628-600-1_6",
+              "volume-title": "Evolutionary Computer Music",
+              "author": "R Waschka II",
+              "year": "2007",
+              "unstructured": "R. Waschka II, Composing with genetic algorithms: GenDash, in Evolutionary Computer Music, ed. by E.R. Miranda, J.A. Biles (Springer, Berlin, 2007), pp. 117–136"
+            },
+            {
+              "key": "9380_CR103",
+              "unstructured": "G. Wiggins, G. Papadopoulos, S. Phon-Amnuaisuk, A. Tuson, Evolutionary methods for musical composition. Dai Research Paper (1998)"
+            },
+            {
+              "issue": "1 suppl",
+              "key": "9380_CR104",
+              "doi-asserted-by": "crossref",
+              "first-page": "231",
+              "DOI": "10.1177/10298649100140S110",
+              "volume": "14",
+              "author": "GA Wiggins",
+              "year": "2010",
+              "unstructured": "G.A. Wiggins, D. Müllensiefen, M.T. Pearce, On the non-existence of music: why music theory is a figment of the imagination. Musicae Scientiae 14(1 suppl), 231–255 (2010)",
+              "journal-title": "Musicae Scientiae"
+            },
+            {
+              "key": "9380_CR105",
+              "volume-title": "Human behavior and the principle of least effort",
+              "author": "GK Zipf",
+              "year": "1949",
+              "unstructured": "G.K. Zipf, Human behavior and the principle of least effort (Addison-Wesley Press, Boston, 1949)"
+            }
+          ],
+          "container-title": [
+            "Genetic Programming and Evolvable Machines"
+          ],
+          "language": "en",
+          "link": [
+            {
+              "URL": "http://link.springer.com/content/pdf/10.1007/s10710-020-09380-7.pdf",
+              "content-type": "application/pdf",
+              "content-version": "vor",
+              "intended-application": "text-mining"
+            },
+            {
+              "URL": "http://link.springer.com/article/10.1007/s10710-020-09380-7/fulltext.html",
+              "content-type": "text/html",
+              "content-version": "vor",
+              "intended-application": "text-mining"
+            },
+            {
+              "URL": "http://link.springer.com/content/pdf/10.1007/s10710-020-09380-7.pdf",
+              "content-type": "application/pdf",
+              "content-version": "vor",
+              "intended-application": "similarity-checking"
+            }
+          ],
+          "deposited": {
+            "date-parts": [
+              [
+                2024,
+                7,
+                31
+              ]
+            ],
+            "date-time": "2024-07-31T04:09:24Z",
+            "timestamp": 1722398964000
+          },
+          "score": 43.973175,
+          "resource": {
+            "primary": {
+              "URL": "http://link.springer.com/10.1007/s10710-020-09380-7"
+            }
+          },
+          "issued": {
+            "date-parts": [
+              [
+                2020,
+                2,
+                6
+              ]
+            ]
+          },
+          "references-count": 105,
+          "journal-issue": {
+            "issue": "1-2",
+            "published-print": {
+              "date-parts": [
+                [
+                  2020,
+                  6
+                ]
+              ]
+            }
+          },
+          "alternative-id": [
+            "9380"
+          ],
+          "URL": "https://doi.org/10.1007/s10710-020-09380-7",
+          "ISSN": [
+            "1389-2576",
+            "1573-7632"
+          ],
+          "issn-type": [
+            {
+              "value": "1389-2576",
+              "type": "print"
+            },
+            {
+              "value": "1573-7632",
+              "type": "electronic"
+            }
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2020,
+                2,
+                6
+              ]
+            ]
+          },
+          "assertion": [
+            {
+              "value": "20 October 2018",
+              "order": 1,
+              "name": "received",
+              "label": "Received",
+              "group": {
+                "name": "ArticleHistory",
+                "label": "Article History"
+              }
+            },
+            {
+              "value": "8 August 2019",
+              "order": 2,
+              "name": "revised",
+              "label": "Revised",
+              "group": {
+                "name": "ArticleHistory",
+                "label": "Article History"
+              }
+            },
+            {
+              "value": "6 February 2020",
+              "order": 3,
+              "name": "first_online",
+              "label": "First Online",
+              "group": {
+                "name": "ArticleHistory",
+                "label": "Article History"
+              }
+            }
+          ]
+        },
+        {
+          "indexed": {
+            "date-parts": [
+              [
+                2025,
+                8,
+                23
+              ]
+            ],
+            "date-time": "2025-08-23T05:09:34Z",
+            "timestamp": 1755925774942,
+            "version": "3.41.0"
+          },
+          "publisher-location": "New York, NY, USA",
+          "reference-count": 92,
+          "publisher": "ACM",
+          "license": [
+            {
+              "start": {
+                "date-parts": [
+                  [
+                    2013,
+                    7,
+                    6
+                  ]
+                ],
+                "date-time": "2013-07-06T00:00:00Z",
+                "timestamp": 1373068800000
+              },
+              "content-version": "vor",
+              "delay-in-days": 0,
+              "URL": "https://www.acm.org/publications/policies/copyright_policy#Background"
+            }
+          ],
+          "content-domain": {
+            "domain": [
+              "dl.acm.org"
+            ],
+            "crossmark-restriction": true
+          },
+          "published-print": {
+            "date-parts": [
+              [
+                2013,
+                7,
+                6
+              ]
+            ]
+          },
+          "DOI": "10.1145/2464576.2483912",
+          "type": "proceedings-article",
+          "created": {
+            "date-parts": [
+              [
+                2013,
+                7,
+                24
+              ]
+            ],
+            "date-time": "2013-07-24T13:26:51Z",
+            "timestamp": 1374672411000
+          },
+          "page": "1005-1038",
+          "update-policy": "https://doi.org/10.1145/crossmark-policy",
+          "source": "Crossref",
+          "is-referenced-by-count": 2,
+          "title": [
+            "Computational aesthetic evaluation"
+          ],
+          "prefix": "10.1145",
+          "author": [
+            {
+              "given": "Philip",
+              "family": "Galanter",
+              "sequence": "first",
+              "affiliation": [
+                {
+                  "name": "Texas A&amp;M University, College Station, TX, USA"
+                }
+              ],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            }
+          ],
+          "member": "320",
+          "published-online": {
+            "date-parts": [
+              [
+                2013,
+                7,
+                6
+              ]
+            ]
+          },
+          "reference": [
+            {
+              "key": "e_1_3_2_1_1_1",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.4159/harvard.9780674734470"
+            },
+            {
+              "key": "e_1_3_2_1_2_1",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1037/h0059439"
+            },
+            {
+              "key": "e_1_3_2_1_3_1",
+              "volume-title": "Why a special issue on the golden section hypothesis? An introduction. Empirical Studies of the Arts, 15",
+              "author": "Holger H.",
+              "year": "1997",
+              "unstructured": "Holger , H. ( 1997 ). Why a special issue on the golden section hypothesis? An introduction. Empirical Studies of the Arts, 15 . Holger, H. (1997). Why a special issue on the golden section hypothesis? An introduction. Empirical Studies of the Arts, 15."
+            },
+            {
+              "key": "e_1_3_2_1_4_1",
+              "volume-title": "The golden ratio: the story of phi, the world's most astonishing number (1st trade pbk. ed.)",
+              "author": "Livio M.",
+              "year": "2003",
+              "unstructured": "Livio , M. ( 2003 ). The golden ratio: the story of phi, the world's most astonishing number (1st trade pbk. ed.) . New York : Broadway Books . Livio, M. (2003). The golden ratio: the story of phi, the world's most astonishing number (1st trade pbk. ed.). New York: Broadway Books."
+            },
+            {
+              "key": "e_1_3_2_1_5_1",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.5555/1765642.1765694"
+            },
+            {
+              "key": "e_1_3_2_1_6_1",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1007/978-3-540-32003-6_50"
+            },
+            {
+              "key": "e_1_3_2_1_7_1",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1016/j.cag.2007.08.010"
+            },
+            {
+              "key": "e_1_3_2_1_8_1",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1038/258317a0"
+            },
+            {
+              "key": "e_1_3_2_1_9_1",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.5555/994632"
+            },
+            {
+              "key": "e_1_3_2_1_10_1",
+              "volume-title": "Fractals, Nature: a new look at Jackson Pollock. Eugene",
+              "author": "Taylor R. P.",
+              "year": "2006",
+              "unstructured": "Taylor , R. P. ( 2006 ). Chaos , Fractals, Nature: a new look at Jackson Pollock. Eugene , USA : Fractals Research . Taylor, R. P. (2006). Chaos, Fractals, Nature: a new look at Jackson Pollock. Eugene, USA: Fractals Research."
+            },
+            {
+              "key": "e_1_3_2_1_11_1",
+              "volume-title": "Nature, addresses, and lectures (2d ed.)",
+              "author": "Emerson R. W.",
+              "year": "1979",
+              "unstructured": "Emerson , R. W. ( 1979 ). Nature, addresses, and lectures (2d ed.) . New York : AMS Press . Emerson, R. W. (1979). Nature, addresses, and lectures (2d ed.). New York: AMS Press."
+            },
+            {
+              "key": "e_1_3_2_1_12_1",
+              "volume-title": "Table talk",
+              "author": "Coleridge S. T.",
+              "year": "1990",
+              "unstructured": "Coleridge , S. T. , Coleridge , H. N. , Coleridge , J. T. , & Woodring , C. ( 1990 ). Table talk . Princeton, N.J. : Princeton University Press . Coleridge, S. T., Coleridge, H. N., Coleridge, J. T., & Woodring, C. (1990). Table talk. Princeton, N.J.: Princeton University Press."
+            },
+            {
+              "key": "e_1_3_2_1_13_1",
+              "volume-title": "Launching the imagination : a comprehensive guide to basic design",
+              "author": "Stewart M.",
+              "year": "2008",
+              "unstructured": "Stewart , M. ( 2008 ). Launching the imagination : a comprehensive guide to basic design ( 3 rd ed.). Boston : McGraw-Hill Higher Education . Stewart, M. (2008). Launching the imagination : a comprehensive guide to basic design (3rd ed.). Boston: McGraw-Hill Higher Education.",
+              "edition": "3"
+            },
+            {
+              "key": "e_1_3_2_1_14_1",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1007/11744078_23"
+            },
+            {
+              "key": "e_1_3_2_1_15_1",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.2307/3679551"
+            },
+            {
+              "key": "e_1_3_2_1_16_1",
+              "doi-asserted-by": "crossref",
+              "unstructured": "Brooks Hopkins Neumann & Wright. \"An experiment in musical composition.\" IRE Transactions on Electronic Computers Vol. 6 No. 1 (1957).  Brooks Hopkins Neumann & Wright. \"An experiment in musical composition.\" IRE Transactions on Electronic Computers Vol. 6 No. 1 (1957).",
+              "DOI": "10.1109/TEC.1957.5222016"
+            },
+            {
+              "key": "e_1_3_2_1_17_1",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1007/978-3-540-71805-5_61"
+            },
+            {
+              "key": "e_1_3_2_1_18_1",
+              "volume-title": "Towards Music Fitness Evaluation with the Hierarchical SOM Applications of Evolutionary Computing (pp. 443--452): Springer",
+              "author": "Law E.",
+              "year": "2008",
+              "unstructured": "Law , E. , & Phon-Amnuaisuk , S. ( 2008 ). Towards Music Fitness Evaluation with the Hierarchical SOM Applications of Evolutionary Computing (pp. 443--452): Springer . Law, E., & Phon-Amnuaisuk, S. (2008). Towards Music Fitness Evaluation with the Hierarchical SOM Applications of Evolutionary Computing (pp. 443--452): Springer."
+            },
+            {
+              "key": "e_1_3_2_1_19_1",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1007/978-3-540-69162-4_69"
+            },
+            {
+              "key": "e_1_3_2_1_20_1",
+              "volume-title": "Intelligence through simulated evolution : forty years of evolutionary programming",
+              "author": "Fogel L. J.",
+              "year": "1999",
+              "unstructured": "Fogel , L. J. ( 1999 ). Intelligence through simulated evolution : forty years of evolutionary programming . New York : Wiley . Fogel, L. J. (1999). Intelligence through simulated evolution : forty years of evolutionary programming. New York: Wiley."
+            },
+            {
+              "key": "e_1_3_2_1_21_1",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.5555/510349.510350"
+            },
+            {
+              "key": "e_1_3_2_1_22_1",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1007/978-3-540-32003-6_43"
+            },
+            {
+              "key": "e_1_3_2_1_23_1",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1007/978-3-642-12242-2_33"
+            },
+            {
+              "key": "e_1_3_2_1_24_1",
+              "volume-title": "Evolutionary art and computers. London",
+              "author": "Todd S.",
+              "year": "1992",
+              "unstructured": "Todd , S. , & Latham , W. ( 1992 ). Evolutionary art and computers. London ; San Diego : Academic Press . Todd, S., & Latham, W. (1992). Evolutionary art and computers. London; San Diego: Academic Press."
+            },
+            {
+              "key": "e_1_3_2_1_25_1",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1145/122718.122752"
+            },
+            {
+              "key": "e_1_3_2_1_26_1",
+              "volume-title": "N. Griffith & P",
+              "author": "Todd P. M.",
+              "year": "1998",
+              "unstructured": "Todd , P. M. , & Werner , G. M. ( 1998 ). Frankensteinian Methods for Evolutionary Music Composition . In N. Griffith & P . M. Todd (Eds.), Musical networks: Parallel distributed perception and performance. Cambridge, MA : MIT Press/Bradford Books . Todd, P. M., & Werner, G. M. (1998). Frankensteinian Methods for Evolutionary Music Composition. In N. Griffith & P. M. Todd (Eds.), Musical networks: Parallel distributed perception and performance. Cambridge, MA: MIT Press/Bradford Books."
+            },
+            {
+              "key": "e_1_3_2_1_27_1",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1007/978-3-540-32003-6_46"
+            },
+            {
+              "key": "e_1_3_2_1_28_1",
+              "volume-title": "Painting by numbers : Komar and Melamid's scientific guide to art",
+              "author": "Komar V.",
+              "year": "1997",
+              "unstructured": "Komar , V. , Melamid , A. , & Wypijewski , J. ( 1997 ). Painting by numbers : Komar and Melamid's scientific guide to art ( 1 st ed.). New York : Farrar Straus Giroux . Komar, V., Melamid, A., & Wypijewski, J. (1997). Painting by numbers : Komar and Melamid's scientific guide to art (1st ed.). New York: Farrar Straus Giroux.",
+              "edition": "1"
+            },
+            {
+              "key": "e_1_3_2_1_29_1",
+              "volume-title": "A robotic system for interpreting images into painted artwork. Paper presented at the International Conference on Generative Art",
+              "author": "Aguilar C.",
+              "year": "2008",
+              "unstructured": "Aguilar , C. , & Lipson , H. ( 2008 ). A robotic system for interpreting images into painted artwork. Paper presented at the International Conference on Generative Art . Aguilar, C., & Lipson, H. (2008). A robotic system for interpreting images into painted artwork. Paper presented at the International Conference on Generative Art."
+            },
+            {
+              "key": "e_1_3_2_1_30_1",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1007/978-3-540-32003-6_52"
+            },
+            {
+              "key": "e_1_3_2_1_31_1",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1007/978-3-540-32003-6_54"
+            },
+            {
+              "key": "e_1_3_2_1_32_1",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1007/11732242_65"
+            },
+            {
+              "key": "e_1_3_2_1_33_1",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1007/978-3-540-71805-5_57"
+            },
+            {
+              "key": "e_1_3_2_1_34_1",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1007/11732242_64"
+            },
+            {
+              "key": "e_1_3_2_1_35_1",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1023/A:1013662402341"
+            },
+            {
+              "key": "e_1_3_2_1_36_1",
+              "unstructured": "Machado P. & Cardoso A. l. (2003). NEvAr -- System Overview. Paper presented at the International Conference on Generative Art.  Machado P. & Cardoso A. l. (2003). NEvAr -- System Overview. Paper presented at the International Conference on Generative Art."
+            },
+            {
+              "key": "e_1_3_2_1_37_1",
+              "first-page": "335",
+              "volume-title": "J.",
+              "author": "Neufeld C.",
+              "year": "2008",
+              "unstructured": "Neufeld , C. , Ross , B. J. , & Ralph , W. ( 2008 ). The Evolution of Artistic Filters . In J. Romero & P. Machado (Eds.), The art of artificial evolution : a handbook on evolutionary art and music (pp. 335 -- 356 ). Berlin : Springer . Neufeld, C., Ross, B. J., & Ralph, W. (2008). The Evolution of Artistic Filters. In J. Romero & P. Machado (Eds.), The art of artificial evolution : a handbook on evolutionary art and music (pp. 335--356). Berlin: Springer."
+            },
+            {
+              "key": "e_1_3_2_1_38_1",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1007/BF03040964"
+            },
+            {
+              "key": "e_1_3_2_1_39_1",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1109/CEC.2003.1299906"
+            },
+            {
+              "key": "e_1_3_2_1_40_1",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1007/1-84628-214-4_13"
+            },
+            {
+              "key": "e_1_3_2_1_41_1",
+              "volume-title": "N. Griffith & P",
+              "author": "Todd P. M.",
+              "year": "1998",
+              "unstructured": "Todd , P. M. , & Werner , G. M. ( 1998 ). Frankensteinian Methods for Evolutionary Music Composition . In N. Griffith & P . M. Todd (Eds.), Musical networks: Parallel distributed perception and performance. Cambridge, MA : MIT Press/Bradford Books . Todd, P. M., & Werner, G. M. (1998). Frankensteinian Methods for Evolutionary Music Composition. In N. Griffith & P. M. Todd (Eds.), Musical networks: Parallel distributed perception and performance. Cambridge, MA: MIT Press/Bradford Books."
+            },
+            {
+              "key": "e_1_3_2_1_42_1",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1017/S0890060404040119"
+            },
+            {
+              "key": "e_1_3_2_1_43_1",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1145/37402.37406"
+            },
+            {
+              "key": "e_1_3_2_1_44_1",
+              "first-page": "569",
+              "volume-title": "Self-organization phenomena in pedestrian crowds",
+              "author": "Helbing D.",
+              "year": "1997",
+              "unstructured": "Helbing , D. , & Molnár , P. ( 1997 ). Self-organization phenomena in pedestrian crowds . In Self-Organization of Complex Structures : From Individual to Collective Dynamics Schweitzer, F., Ed., pp. 569 -- 577 . London : Gordon & Breach . Helbing, D., & Molnár, P. (1997). Self-organization phenomena in pedestrian crowds. In Self-Organization of Complex Structures: From Individual to Collective Dynamics Schweitzer, F., Ed., pp. 569--577. London: Gordon & Breach."
+            },
+            {
+              "key": "e_1_3_2_1_45_1",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1007/11732242_59"
+            },
+            {
+              "key": "e_1_3_2_1_46_1",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1007/978-3-642-01129-0_59"
+            },
+            {
+              "key": "e_1_3_2_1_47_1",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1007/978-3-642-31727-9_10"
+            },
+            {
+              "key": "e_1_3_2_1_48_1",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1002/j.1538-7305.1948.tb01338.x"
+            },
+            {
+              "key": "e_1_3_2_1_49_1",
+              "volume-title": "Aesthetica",
+              "author": "Bense M.",
+              "year": "1965",
+              "unstructured": "Bense , M. ( 1965 ). Aesthetica ; Einführung in die neue Aesthetik. Baden-Baden,: Agis-Verlag . Bense, M. (1965). Aesthetica; Einführung in die neue Aesthetik. Baden-Baden,: Agis-Verlag."
+            },
+            {
+              "key": "e_1_3_2_1_50_1",
+              "volume-title": "Information theory and esthetic perception",
+              "author": "Moles A. A.",
+              "year": "1966",
+              "unstructured": "Moles , A. A. ( 1966 ). Information theory and esthetic perception . Urbana ,: University of Illinois Press. Moles, A. A. (1966). Information theory and esthetic perception. Urbana,: University of Illinois Press."
+            },
+            {
+              "volume-title": "J. McCormack & M. d'Inverno (Eds.), Computers and Creativity.",
+              "author": "Schmidhuber J.",
+              "key": "e_1_3_2_1_51_1",
+              "unstructured": "Schmidhuber , J. (2012 in press). A Formal Theory of Creativity to Model the Creation of Art . In J. McCormack & M. d'Inverno (Eds.), Computers and Creativity. Berlin : Springer . Schmidhuber, J. (2012 in press). A Formal Theory of Creativity to Model the Creation of Art. In J. McCormack & M. d'Inverno (Eds.), Computers and Creativity. Berlin: Springer."
+            },
+            {
+              "key": "e_1_3_2_1_52_1",
+              "first-page": "1",
+              "article-title": "Three approaches to the quantitative definition of information",
+              "volume": "1",
+              "author": "Kolmogorov A. N.",
+              "year": "1965",
+              "unstructured": "Kolmogorov , A. N. ( 1965 ). Three approaches to the quantitative definition of information . Problems in Information Transmission , 1 , 1 -- 7 . Kolmogorov, A. N. (1965). Three approaches to the quantitative definition of information. Problems in Information Transmission, 1, 1--7.",
+              "journal-title": "Problems in Information Transmission"
+            },
+            {
+              "key": "e_1_3_2_1_53_1",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1002/(SICI)1099-0526(199609/10)2:1%3C44::AID-CPLX10%3E3.3.CO;2-P"
+            },
+            {
+              "key": "e_1_3_2_1_54_1",
+              "volume-title": "Milan, Italy.",
+              "author": "Galanter P.",
+              "year": "2003",
+              "unstructured": "Galanter , P. ( 2003 ). What is Generative Art? Complexity theory as a context for art theory. Paper presented at the International Conference on Generative Art , Milan, Italy. Galanter, P. (2003). What is Generative Art? Complexity theory as a context for art theory. Paper presented at the International Conference on Generative Art, Milan, Italy."
+            },
+            {
+              "volume-title": "J. McCormack & M. d'Inverno (Eds.), Computers and Creativity.",
+              "author": "Galanter P.",
+              "key": "e_1_3_2_1_55_1",
+              "unstructured": "Galanter , P. (2012 in press). Computational Aesthetic Evaluation: Past and Future . In J. McCormack & M. d'Inverno (Eds.), Computers and Creativity. Berlin : Springer . Galanter, P. (2012 in press). Computational Aesthetic Evaluation: Past and Future. In J. McCormack & M. d'Inverno (Eds.), Computers and Creativity. Berlin: Springer."
+            },
+            {
+              "key": "e_1_3_2_1_56_1",
+              "first-page": "357",
+              "volume-title": "J.",
+              "author": "Greenfield G. R.",
+              "year": "2008",
+              "unstructured": "Greenfield , G. R. ( 2008 ). Co-evolutionary Methods in Evolutionary Art . In J. Romero & P. Machado (Eds.), The Art Of Artificial Evolution (pp. 357 -- 380 ): Springer Berlin Heidelberg . Greenfield, G. R. (2008). Co-evolutionary Methods in Evolutionary Art. In J. Romero & P. Machado (Eds.), The Art Of Artificial Evolution (pp. 357--380): Springer Berlin Heidelberg."
+            },
+            {
+              "key": "e_1_3_2_1_57_1",
+              "volume-title": "The Root of Thought: What Do Glial Cells Do? Mind Matters Retrieved 11/29/09",
+              "author": "Koob A.",
+              "year": "2009",
+              "unstructured": "Koob , A. ( 2009 ). The Root of Thought: What Do Glial Cells Do? Mind Matters Retrieved 11/29/09 , 2009, from http://www.scientificamerican.com/article.cfm?id=the-root-of-thought-what. Koob, A. (2009). The Root of Thought: What Do Glial Cells Do? Mind Matters Retrieved 11/29/09, 2009, from http://www.scientificamerican.com/article.cfm?id=the-root-of-thought-what."
+            },
+            {
+              "key": "e_1_3_2_1_58_1",
+              "volume-title": "Pigeons can discriminate \"good\" and \"bad\" paintings by children. {10.1007/s10071-009-0246-8}. Animal Cognition, 13(1)",
+              "author": "Watanabe S.",
+              "year": "2009",
+              "unstructured": "Watanabe , S. ( 2009 ). Pigeons can discriminate \"good\" and \"bad\" paintings by children. {10.1007/s10071-009-0246-8}. Animal Cognition, 13(1) . Watanabe, S. (2009). Pigeons can discriminate \"good\" and \"bad\" paintings by children. {10.1007/s10071-009-0246-8}. Animal Cognition, 13(1)."
+            },
+            {
+              "key": "e_1_3_2_1_59_1",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1007/s100710100112"
+            },
+            {
+              "key": "e_1_3_2_1_60_1",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1037/e412952005-009"
+            },
+            {
+              "key": "e_1_3_2_1_61_1",
+              "volume-title": "The art instinct : beauty, pleasure, & human evolution (1st U",
+              "author": "Dutton D.",
+              "year": "2009",
+              "unstructured": "Dutton , D. ( 2009 ). The art instinct : beauty, pleasure, & human evolution (1st U .S. ed.). New York : Bloomsbury Press . Dutton, D. (2009). The art instinct : beauty, pleasure, & human evolution (1st U.S. ed.). New York: Bloomsbury Press."
+            },
+            {
+              "key": "e_1_3_2_1_62_1",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1525/9780520351271"
+            },
+            {
+              "key": "e_1_3_2_1_63_1",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1037/11164-000"
+            },
+            {
+              "key": "e_1_3_2_1_64_1",
+              "volume-title": "Aesthetics and psychobiology",
+              "author": "Berlyne D. E.",
+              "year": "1971",
+              "unstructured": "Berlyne , D. E. ( 1971 ). Aesthetics and psychobiology . New York ,: Appleton-Century-Crofts . Berlyne, D. E. (1971). Aesthetics and psychobiology. New York,: Appleton-Century-Crofts."
+            },
+            {
+              "key": "e_1_3_2_1_65_1",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1007/978-3-642-31727-9_10"
+            },
+            {
+              "key": "e_1_3_2_1_66_1",
+              "volume-title": "Milan, Italy.",
+              "author": "Galanter P.",
+              "year": "2010",
+              "unstructured": "Galanter , P. ( 2010 ). Complexity, Neuroaesthetics, and Computational Aesthetic Evaluation. Paper presented at the International Conference on Generative Art , Milan, Italy. Galanter, P. (2010). Complexity, Neuroaesthetics, and Computational Aesthetic Evaluation. Paper presented at the International Conference on Generative Art, Milan, Italy."
+            },
+            {
+              "key": "e_1_3_2_1_67_1",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.2307/1423259"
+            },
+            {
+              "key": "e_1_3_2_1_68_1",
+              "volume-title": "Brooks/Cole",
+              "author": "Martindale C.",
+              "year": "1991",
+              "unstructured": "Martindale , C. ( 1991 ). Cognitive psychology : a neural-network approach , Brooks/Cole Publishing Company , Pacific Grove , California. Martindale, C. (1991). Cognitive psychology : a neural-network approach, Brooks/Cole Publishing Company, Pacific Grove, California."
+            },
+            {
+              "key": "e_1_3_2_1_69_1",
+              "first-page": "181",
+              "volume-title": "C. Martindale, P. Locher and V. Petrov (eds), Evolutionary and neurocognitive approaches to aesthetics, creativity, and the arts, Bay- wood, Amityville, N.Y.",
+              "author": "Martindale C.",
+              "year": "2007",
+              "unstructured": "Martindale , C. ( 2007 ). A neural-network theory of beauty , in C. Martindale, P. Locher and V. Petrov (eds), Evolutionary and neurocognitive approaches to aesthetics, creativity, and the arts, Bay- wood, Amityville, N.Y. , pp. 181 -- 194 . Martindale, C. (2007). A neural-network theory of beauty, in C. Martindale, P. Locher and V. Petrov (eds), Evolutionary and neurocognitive approaches to aesthetics, creativity, and the arts, Bay- wood, Amityville, N.Y., pp. 181--194."
+            },
+            {
+              "key": "e_1_3_2_1_70_1",
+              "volume-title": "The clockwork muse : the predictability of artistic change",
+              "author": "Martindale C.",
+              "year": "1990",
+              "unstructured": "Martindale , C. ( 1990 ). The clockwork muse : the predictability of artistic change . New York, N.Y. : BasicBooks . Martindale, C. (1990). The clockwork muse : the predictability of artistic change. New York, N.Y.: BasicBooks."
+            },
+            {
+              "key": "e_1_3_2_1_71_1",
+              "volume-title": "How temporal distance changes novices' attitudes towards unconventional arts. Psychology of Aesthetics, Creativity, and the Arts",
+              "author": "Schimmel K.",
+              "year": "2008",
+              "unstructured": "Schimmel , K. and J. Forster , How temporal distance changes novices' attitudes towards unconventional arts. Psychology of Aesthetics, Creativity, and the Arts , 2008 . 2(1): p. 53--60. Schimmel, K. and J. Forster, How temporal distance changes novices' attitudes towards unconventional arts. Psychology of Aesthetics, Creativity, and the Arts, 2008. 2(1): p. 53--60."
+            },
+            {
+              "key": "e_1_3_2_1_72_1",
+              "volume-title": "Positive and negative hedonic contrast with musical stimuli. Psychology of Aesthetics, Creativity, and the Arts",
+              "author": "Parker S.",
+              "year": "2008",
+              "unstructured": "Parker , S. , , Positive and negative hedonic contrast with musical stimuli. Psychology of Aesthetics, Creativity, and the Arts , 2008 . 2(3): p. 171--174. Parker, S., et al., Positive and negative hedonic contrast with musical stimuli. Psychology of Aesthetics, Creativity, and the Arts, 2008. 2(3): p. 171--174."
+            },
+            {
+              "key": "e_1_3_2_1_73_1",
+              "volume-title": "Effects Of Time And Information On Perception Of Art*. Empirical Studies of the Arts",
+              "author": "Smith L.F.",
+              "year": "2006",
+              "unstructured": "Smith , L.F. , , Effects Of Time And Information On Perception Of Art*. Empirical Studies of the Arts , 2006 . 24(2): p. 229--242. Smith, L.F., et al., Effects Of Time And Information On Perception Of Art*. Empirical Studies of the Arts, 2006. 24(2): p. 229--242."
+            },
+            {
+              "key": "e_1_3_2_1_74_1",
+              "volume-title": "Why Does Music Express Only Some Emotions? A Test Of A Philosophical Theory. Empirical Studies of the Arts",
+              "author": "Collier G. L.",
+              "year": "2002",
+              "unstructured": "Collier , G. L. , Why Does Music Express Only Some Emotions? A Test Of A Philosophical Theory. Empirical Studies of the Arts , 2002 . 20(1): p. 21--31. Collier, G. L., Why Does Music Express Only Some Emotions? A Test Of A Philosophical Theory. Empirical Studies of the Arts, 2002. 20(1): p. 21--31."
+            },
+            {
+              "key": "e_1_3_2_1_75_1",
+              "first-page": "109",
+              "volume-title": "Empirical Studies of the Arts",
+              "author": "Cooper J. M.",
+              "year": "2009",
+              "unstructured": "Cooper , J. M. and P. J. Silvia Opposing Art: Rejection As An Action Tendency Of Hostile Aesthetic Emotions . Empirical Studies of the Arts , 2009 . 27(1): p. 109 -- 126 . Cooper, J. M. and P. J. Silvia Opposing Art: Rejection As An Action Tendency Of Hostile Aesthetic Emotions. Empirical Studies of the Arts, 2009. 27(1): p. 109--126."
+            },
+            {
+              "key": "e_1_3_2_1_76_1",
+              "volume-title": "Does music induce emotion? A theoretical and methodological analysis. Psychology of Aesthetics, Creativity, and the Arts",
+              "author": "Koneni V. J.",
+              "year": "2008",
+              "unstructured": "Koneni , V. J. , Does music induce emotion? A theoretical and methodological analysis. Psychology of Aesthetics, Creativity, and the Arts , 2008 . 2(2): p. 115--129. Koneni, V. J., Does music induce emotion? A theoretical and methodological analysis. Psychology of Aesthetics, Creativity, and the Arts, 2008. 2(2): p. 115--129."
+            },
+            {
+              "key": "e_1_3_2_1_77_1",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.2190/P7W1-5F1F-NJK9-X05B"
+            },
+            {
+              "key": "e_1_3_2_1_78_1",
+              "first-page": "181",
+              "volume-title": "Empirical Studies of the Arts",
+              "author": "Coney J.",
+              "year": "2004",
+              "unstructured": "Coney , J. and C. Bruce Hemispheric Processes In The Perception Of Art . Empirical Studies of the Arts , 2004 . 22(2): p. 181 -- 200 . Coney, J. and C. Bruce Hemispheric Processes In The Perception Of Art. Empirical Studies of the Arts, 2004. 22(2): p. 181--200."
+            },
+            {
+              "key": "e_1_3_2_1_79_1",
+              "volume-title": "Color Contrast And Color Preference. Empirical Studies of the Arts",
+              "author": "Katz B. F.",
+              "year": "1999",
+              "unstructured": "Katz , B. F. , Color Contrast And Color Preference. Empirical Studies of the Arts , 1999 . 17(1): p. 1--24. Katz, B. F., Color Contrast And Color Preference. Empirical Studies of the Arts, 1999. 17(1): p. 1--24."
+            },
+            {
+              "key": "e_1_3_2_1_80_1",
+              "first-page": "77",
+              "volume-title": "And The Preference For Abstract Art. Empirical Studies of the Arts",
+              "author": "Feist G. J.",
+              "year": "2004",
+              "unstructured": "Feist , G. J. and T. R. Brady Openness To Experience, Non-Conformity , And The Preference For Abstract Art. Empirical Studies of the Arts , 2004 . 22(1): p. 77 -- 89 . Feist, G. J. and T. R. Brady Openness To Experience, Non-Conformity, And The Preference For Abstract Art. Empirical Studies of the Arts, 2004. 22(1): p. 77--89."
+            },
+            {
+              "key": "e_1_3_2_1_81_1",
+              "first-page": "143",
+              "volume-title": "And Aesthetic Preferences. Empirical Studies of the Arts",
+              "author": "Giannini A. M.",
+              "year": "2003",
+              "unstructured": "Giannini , A. M. and P. Bonaiuto , Special Image Contents, Personality Features , And Aesthetic Preferences. Empirical Studies of the Arts , 2003 . 21(2): p. 143 -- 154 . Giannini, A. M. and P. Bonaiuto, Special Image Contents, Personality Features, And Aesthetic Preferences. Empirical Studies of the Arts, 2003. 21(2): p. 143--154."
+            },
+            {
+              "key": "e_1_3_2_1_82_1",
+              "first-page": "119",
+              "article-title": "Large Reclining Nude",
+              "volume": "2006",
+              "author": "Kozbelt A.",
+              "year": "1935",
+              "unstructured": "Kozbelt , A. , Dynamic Evaluation Of Matisse's 1935 Large Reclining Nude . Empirical Studies of the Arts , 2006. 24(2): p. 119 -- 137 . Kozbelt, A., Dynamic Evaluation Of Matisse's 1935 Large Reclining Nude. Empirical Studies of the Arts, 2006. 24(2): p. 119--137.",
+              "journal-title": "Empirical Studies of the Arts"
+            },
+            {
+              "key": "e_1_3_2_1_83_1",
+              "volume-title": "Empirical Studies of the Arts",
+              "author": "Locher P.",
+              "year": "2001",
+              "unstructured": "Locher , P. , Artists ? Use Of Compositional Balance For Creating Visual Displays. Empirical Studies of the Arts , 2001 . 19(2): p. 213--227. Locher, P., et al., Artists? Use Of Compositional Balance For Creating Visual Displays. Empirical Studies of the Arts, 2001. 19(2): p. 213--227."
+            },
+            {
+              "key": "e_1_3_2_1_84_1",
+              "first-page": "71",
+              "volume-title": "Empirical Studies of the Arts",
+              "author": "Machotka P.",
+              "year": "2006",
+              "unstructured": "Machotka , P. , Artistic Styles And Personalities : A Close View And A More Distant View . Empirical Studies of the Arts , 2006 . 24(1): p. 71 -- 80 . Machotka, P., Artistic Styles And Personalities: A Close View And A More Distant View. Empirical Studies of the Arts, 2006. 24(1): p. 71--80."
+            },
+            {
+              "key": "e_1_3_2_1_85_1",
+              "volume-title": "The Colorimetric Barycenter Of Paintings. Empirical Studies of the Arts",
+              "author": "Firstov V.",
+              "year": "2007",
+              "unstructured": "Firstov , V. , , The Colorimetric Barycenter Of Paintings. Empirical Studies of the Arts , 2007 . 25(2): p. 209--217. Firstov, V., et al., The Colorimetric Barycenter Of Paintings. Empirical Studies of the Arts, 2007. 25(2): p. 209--217."
+            },
+            {
+              "key": "e_1_3_2_1_86_1",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.2190/3VEY-RC3B-9GM7-KGDY"
+            },
+            {
+              "key": "e_1_3_2_1_87_1",
+              "first-page": "153",
+              "volume-title": "Ratings Of Paintings. Empirical Studies of the Arts",
+              "author": "Polzella D.J., S.H.",
+              "year": "2005",
+              "unstructured": "Polzella , D.J., S.H. Hammar , and C.W. Hinkle , The Effect Of Color On Viewers ? Ratings Of Paintings. Empirical Studies of the Arts , 2005 . 23(2): p. 153 -- 163 . Polzella, D.J., S.H. Hammar, and C.W. Hinkle, The Effect Of Color On Viewers? Ratings Of Paintings. Empirical Studies of the Arts, 2005. 23(2): p. 153--163."
+            },
+            {
+              "key": "e_1_3_2_1_88_1",
+              "volume-title": "Film music: Are award-winning scores and songs heard in successful motion pictures? Psychology of Aesthetics, Creativity, and the Arts",
+              "author": "Simonton D. K.",
+              "year": "2007",
+              "unstructured": "Simonton , D. K. , Film music: Are award-winning scores and songs heard in successful motion pictures? Psychology of Aesthetics, Creativity, and the Arts , 2007 . 1(2): p. 53--60. Simonton, D. K., Film music: Are award-winning scores and songs heard in successful motion pictures? Psychology of Aesthetics, Creativity, and the Arts, 2007. 1(2): p. 53--60."
+            },
+            {
+              "key": "e_1_3_2_1_89_1",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1007/s10339-008-0217-z"
+            },
+            {
+              "key": "e_1_3_2_1_90_1",
+              "volume-title": "The clockwork muse : the predictability of artistic change",
+              "author": "Martindale C.",
+              "year": "1990",
+              "unstructured": "Martindale , C. ( 1990 ). The clockwork muse : the predictability of artistic change . New York, N.Y. : BasicBooks . Martindale, C. (1990). The clockwork muse : the predictability of artistic change. New York, N.Y.: BasicBooks."
+            },
+            {
+              "key": "e_1_3_2_1_91_1",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.5555/993636"
+            },
+            {
+              "key": "e_1_3_2_1_92_1",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1007/978-3-540-71805-5_30"
+            }
+          ],
+          "event": {
+            "name": "GECCO '13: Genetic and Evolutionary Computation Conference",
+            "sponsor": [
+              "SIGEVO ACM Special Interest Group on Genetic and Evolutionary Computation"
+            ],
+            "location": "Amsterdam The Netherlands",
+            "acronym": "GECCO '13"
+          },
+          "container-title": [
+            "Proceedings of the 15th annual conference companion on Genetic and evolutionary computation"
+          ],
+          "link": [
+            {
+              "URL": "https://dl.acm.org/doi/10.1145/2464576.2483912",
+              "content-type": "unspecified",
+              "content-version": "vor",
+              "intended-application": "text-mining"
+            },
+            {
+              "URL": "https://dl.acm.org/doi/pdf/10.1145/2464576.2483912",
+              "content-type": "unspecified",
+              "content-version": "vor",
+              "intended-application": "similarity-checking"
+            }
+          ],
+          "deposited": {
+            "date-parts": [
+              [
+                2025,
+                6,
+                18
+              ]
+            ],
+            "date-time": "2025-06-18T08:38:59Z",
+            "timestamp": 1750235939000
+          },
+          "score": 34.21718,
+          "resource": {
+            "primary": {
+              "URL": "https://dl.acm.org/doi/10.1145/2464576.2483912"
+            }
+          },
+          "subtitle": [
+            "automated fitness functions for evolutionary art, design, and music"
+          ],
+          "issued": {
+            "date-parts": [
+              [
+                2013,
+                7,
+                6
+              ]
+            ]
+          },
+          "references-count": 92,
+          "alternative-id": [
+            "10.1145/2464576.2483912",
+            "10.1145/2464576"
+          ],
+          "URL": "https://doi.org/10.1145/2464576.2483912",
+          "published": {
+            "date-parts": [
+              [
+                2013,
+                7,
+                6
+              ]
+            ]
+          },
+          "assertion": [
+            {
+              "value": "2013-07-06",
+              "order": 2,
+              "name": "published",
+              "label": "Published",
+              "group": {
+                "name": "publication_history",
+                "label": "Publication History"
+              }
+            }
+          ]
+        },
+        {
+          "indexed": {
+            "date-parts": [
+              [
+                2022,
+                4,
+                5
+              ]
+            ],
+            "date-time": "2022-04-05T02:44:07Z",
+            "timestamp": 1649126647552
+          },
+          "reference-count": 0,
+          "publisher": "Oxford University Press (OUP)",
+          "issue": "1",
+          "content-domain": {
+            "domain": [],
+            "crossmark-restriction": false
+          },
+          "published-print": {
+            "date-parts": [
+              [
+                2006,
+                2,
+                1
+              ]
+            ]
+          },
+          "DOI": "10.1093/em/cah224",
+          "type": "journal-article",
+          "created": {
+            "date-parts": [
+              [
+                2006,
+                1,
+                30
+              ]
+            ],
+            "date-time": "2006-01-30T11:52:38Z",
+            "timestamp": 1138621958000
+          },
+          "page": "160-163",
+          "source": "Crossref",
+          "is-referenced-by-count": 1,
+          "title": [
+            "The art of re-creating lute music"
+          ],
+          "prefix": "10.1093",
+          "volume": "34",
+          "author": [
+            {
+              "given": "Tim",
+              "family": "Crawford",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            }
+          ],
+          "member": "286",
+          "published-online": {
+            "date-parts": [
+              [
+                2006,
+                2
+              ]
+            ]
+          },
+          "container-title": [
+            "Early Music"
+          ],
+          "language": "en",
+          "link": [
+            {
+              "URL": "http://academic.oup.com/em/article-pdf/34/1/160/1416374/cah224.pdf",
+              "content-type": "unspecified",
+              "content-version": "vor",
+              "intended-application": "similarity-checking"
+            }
+          ],
+          "deposited": {
+            "date-parts": [
+              [
+                2017,
+                10,
+                12
+              ]
+            ],
+            "date-time": "2017-10-12T04:46:22Z",
+            "timestamp": 1507783582000
+          },
+          "score": 33.863605,
+          "resource": {
+            "primary": {
+              "URL": "http://academic.oup.com/em/article/34/1/160/529935/The-art-of-recreating-lute-music"
+            }
+          },
+          "issued": {
+            "date-parts": [
+              [
+                2006,
+                2,
+                1
+              ]
+            ]
+          },
+          "references-count": 0,
+          "journal-issue": {
+            "issue": "1",
+            "published-online": {
+              "date-parts": [
+                [
+                  2006,
+                  2
+                ]
+              ]
+            },
+            "published-print": {
+              "date-parts": [
+                [
+                  2006,
+                  2,
+                  1
+                ]
+              ]
+            }
+          },
+          "URL": "https://doi.org/10.1093/em/cah224",
+          "ISSN": [
+            "1741-7260",
+            "0306-1078"
+          ],
+          "issn-type": [
+            {
+              "value": "1741-7260",
+              "type": "electronic"
+            },
+            {
+              "value": "0306-1078",
+              "type": "print"
+            }
+          ],
+          "published-other": {
+            "date-parts": [
+              [
+                2006,
+                2
+              ]
+            ]
+          },
+          "published": {
+            "date-parts": [
+              [
+                2006,
+                2,
+                1
+              ]
+            ]
+          }
+        }
+      ],
+      "items-per-page": 3,
+      "query": {
+        "start-index": 0,
+        "search-terms": null
+      }
+    }
+  }
+}

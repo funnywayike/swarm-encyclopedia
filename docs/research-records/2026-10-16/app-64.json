@@ -1,0 +1,2809 @@
+{
+  "retrieved": "2026-10-16",
+  "url": "https://api.crossref.org/works?query.bibliographic=weapon+target+assignment+model+algorithm+survey&rows=3&filter=until-pub-date%3A2026-10-16",
+  "response": {
+    "status": "ok",
+    "message-type": "work-list",
+    "message-version": "1.0.0",
+    "message": {
+      "facets": {},
+      "total-results": 4792553,
+      "items": [
+        {
+          "indexed": {
+            "date-parts": [
+              [
+                2026,
+                10,
+                8
+              ]
+            ],
+            "date-time": "2026-10-08T17:23:17Z",
+            "timestamp": 1791480197379,
+            "version": "4.3.4"
+          },
+          "reference-count": 217,
+          "publisher": "Elsevier BV",
+          "license": [
+            {
+              "start": {
+                "date-parts": [
+                  [
+                    2024,
+                    11,
+                    1
+                  ]
+                ],
+                "date-time": "2024-11-01T00:00:00Z",
+                "timestamp": 1730419200000
+              },
+              "content-version": "tdm",
+              "delay-in-days": 0,
+              "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+            },
+            {
+              "start": {
+                "date-parts": [
+                  [
+                    2024,
+                    11,
+                    1
+                  ]
+                ],
+                "date-time": "2024-11-01T00:00:00Z",
+                "timestamp": 1730419200000
+              },
+              "content-version": "tdm",
+              "delay-in-days": 0,
+              "URL": "https://www.elsevier.com/legal/tdmrep-license"
+            },
+            {
+              "start": {
+                "date-parts": [
+                  [
+                    2024,
+                    11,
+                    1
+                  ]
+                ],
+                "date-time": "2024-11-01T00:00:00Z",
+                "timestamp": 1730419200000
+              },
+              "content-version": "stm-asf",
+              "delay-in-days": 0,
+              "URL": "https://doi.org/10.15223/policy-017"
+            },
+            {
+              "start": {
+                "date-parts": [
+                  [
+                    2024,
+                    11,
+                    1
+                  ]
+                ],
+                "date-time": "2024-11-01T00:00:00Z",
+                "timestamp": 1730419200000
+              },
+              "content-version": "stm-asf",
+              "delay-in-days": 0,
+              "URL": "https://doi.org/10.15223/policy-037"
+            },
+            {
+              "start": {
+                "date-parts": [
+                  [
+                    2024,
+                    11,
+                    1
+                  ]
+                ],
+                "date-time": "2024-11-01T00:00:00Z",
+                "timestamp": 1730419200000
+              },
+              "content-version": "stm-asf",
+              "delay-in-days": 0,
+              "URL": "https://doi.org/10.15223/policy-012"
+            },
+            {
+              "start": {
+                "date-parts": [
+                  [
+                    2024,
+                    11,
+                    1
+                  ]
+                ],
+                "date-time": "2024-11-01T00:00:00Z",
+                "timestamp": 1730419200000
+              },
+              "content-version": "stm-asf",
+              "delay-in-days": 0,
+              "URL": "https://doi.org/10.15223/policy-029"
+            },
+            {
+              "start": {
+                "date-parts": [
+                  [
+                    2024,
+                    11,
+                    1
+                  ]
+                ],
+                "date-time": "2024-11-01T00:00:00Z",
+                "timestamp": 1730419200000
+              },
+              "content-version": "stm-asf",
+              "delay-in-days": 0,
+              "URL": "https://doi.org/10.15223/policy-004"
+            }
+          ],
+          "funder": [
+            {
+              "DOI": "10.13039/501100001809",
+              "name": "National Natural Science Foundation of China",
+              "doi-asserted-by": "publisher",
+              "award": [
+                "62373380"
+              ],
+              "award-info": [
+                {
+                  "award-number": [
+                    "62373380"
+                  ]
+                }
+              ],
+              "id": [
+                {
+                  "id": "10.13039/501100001809",
+                  "id-type": "DOI",
+                  "asserted-by": "publisher"
+                }
+              ]
+            }
+          ],
+          "content-domain": {
+            "domain": [
+              "elsevier.com",
+              "sciencedirect.com"
+            ],
+            "crossmark-restriction": true
+          },
+          "short-container-title": [
+            "Engineering Applications of Artificial Intelligence"
+          ],
+          "published-print": {
+            "date-parts": [
+              [
+                2024,
+                11
+              ]
+            ]
+          },
+          "DOI": "10.1016/j.engappai.2024.109212",
+          "type": "journal-article",
+          "created": {
+            "date-parts": [
+              [
+                2024,
+                9,
+                5
+              ]
+            ],
+            "date-time": "2024-09-05T04:31:26Z",
+            "timestamp": 1725510686000
+          },
+          "page": "109212",
+          "update-policy": "https://doi.org/10.1016/elsevier_cm_policy",
+          "source": "Crossref",
+          "is-referenced-by-count": 41,
+          "special_numbering": "PB",
+          "title": [
+            "A comprehensive survey of weapon target assignment problem: Model, algorithm, and application"
+          ],
+          "prefix": "10.1016",
+          "volume": "137",
+          "author": [
+            {
+              "ORCID": "https://orcid.org/0000-0002-9529-0615",
+              "authenticated-orcid": false,
+              "given": "Jinrui",
+              "family": "Li",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "ORCID": "https://orcid.org/0000-0003-1552-9620",
+              "authenticated-orcid": false,
+              "given": "Guohua",
+              "family": "Wu",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "ORCID": "https://orcid.org/0000-0001-8964-6454",
+              "authenticated-orcid": false,
+              "given": "Ling",
+              "family": "Wang",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            }
+          ],
+          "member": "78",
+          "reference": [
+            {
+              "key": "10.1016/j.engappai.2024.109212_bib1",
+              "doi-asserted-by": "crossref",
+              "DOI": "10.1016/j.engappai.2023.106668",
+              "article-title": "A quantum algorithm for solving weapon target assignment problem",
+              "volume": "125",
+              "author": "Acar",
+              "year": "2023",
+              "journal-title": "Eng. Appl. Artif. Intell."
+            },
+            {
+              "key": "10.1016/j.engappai.2024.109212_bib2",
+              "doi-asserted-by": "crossref",
+              "first-page": "2317",
+              "DOI": "10.1007/s12652-024-04757-3",
+              "article-title": "Fuzzy knowledge based intelligent decision support system for ground based air defence",
+              "volume": "15",
+              "author": "Ahmad",
+              "year": "2024",
+              "journal-title": "J. Ambient Intell. Hum. Comput."
+            },
+            {
+              "key": "10.1016/j.engappai.2024.109212_bib3",
+              "doi-asserted-by": "crossref",
+              "first-page": "1689",
+              "DOI": "10.1007/s11590-014-0823-x",
+              "article-title": "Optimal multi-stage allocation of weapons to targets using adaptive dynamic programming",
+              "volume": "9",
+              "author": "Ahner",
+              "year": "2015",
+              "journal-title": "Optimization Letters"
+            },
+            {
+              "key": "10.1016/j.engappai.2024.109212_bib4",
+              "doi-asserted-by": "crossref",
+              "first-page": "1136",
+              "DOI": "10.1287/opre.1070.0440",
+              "article-title": "Exact and heuristic algorithms for the weapon-target assignment problem",
+              "volume": "55",
+              "author": "Ahuja",
+              "year": "2007",
+              "journal-title": "Oper. Res."
+            },
+            {
+              "key": "10.1016/j.engappai.2024.109212_bib5",
+              "series-title": "2021 International Conference on INnovations in Intelligent SysTems and Applications (INISTA)",
+              "first-page": "1",
+              "article-title": "Evolving model for synchronous weapon target assignment problem",
+              "author": "Altinoz",
+              "year": "2021"
+            },
+            {
+              "key": "10.1016/j.engappai.2024.109212_bib6",
+              "doi-asserted-by": "crossref",
+              "first-page": "581",
+              "DOI": "10.1007/s10479-022-04525-6",
+              "article-title": "Weapon-target assignment problem: exact and approximate solution algorithms",
+              "volume": "312",
+              "author": "Andersen",
+              "year": "2022",
+              "journal-title": "Ann. Oper. Res."
+            },
+            {
+              "key": "10.1016/j.engappai.2024.109212_bib7",
+              "doi-asserted-by": "crossref",
+              "first-page": "2007",
+              "DOI": "10.1016/j.ins.2007.11.029",
+              "article-title": "Sensor resource management driven by threat projection and priorities",
+              "volume": "178",
+              "author": "Anderson",
+              "year": "2008",
+              "journal-title": "Inf. Sci."
+            },
+            {
+              "key": "10.1016/j.engappai.2024.109212_bib8",
+              "first-page": "1",
+              "article-title": "Naval air defense planning problem: a novel formulation and heuristics",
+              "author": "Arslan",
+              "year": "2024",
+              "journal-title": "Nav. Res. Logist."
+            },
+            {
+              "key": "10.1016/j.engappai.2024.109212_bib9",
+              "doi-asserted-by": "crossref",
+              "first-page": "574",
+              "DOI": "10.1002/nav.22106",
+              "article-title": "Resource allocation in two-layered cyber-defense",
+              "volume": "70",
+              "author": "Atkinson",
+              "year": "2023",
+              "journal-title": "Nav. Res. Logist."
+            },
+            {
+              "key": "10.1016/j.engappai.2024.109212_bib10",
+              "series-title": "2008 23rd International Symposium on Computer and Information Sciences",
+              "first-page": "1",
+              "article-title": "A new approach for threat evaluation and weapon assignment problem, hybrid learning with multi-agent coordination",
+              "author": "Azak",
+              "year": "2008"
+            },
+            {
+              "key": "10.1016/j.engappai.2024.109212_bib11",
+              "doi-asserted-by": "crossref",
+              "DOI": "10.1016/j.swevo.2024.101572",
+              "article-title": "A hybrid multi-objective evolutionary algorithm with high solving efficiency for UAV defense programming",
+              "volume": "87",
+              "author": "Bai",
+              "year": "2024",
+              "journal-title": "Swarm Evol. Comput."
+            },
+            {
+              "key": "10.1016/j.engappai.2024.109212_bib12",
+              "doi-asserted-by": "crossref",
+              "first-page": "675",
+              "DOI": "10.1016/j.ins.2012.07.050",
+              "article-title": "Employment of an evolutionary heuristic to solve the target allocation problem efficiently",
+              "volume": "222",
+              "author": "Bayrak",
+              "year": "2013",
+              "journal-title": "Inf. Sci."
+            },
+            {
+              "key": "10.1016/j.engappai.2024.109212_bib13",
+              "series-title": "On the Computational Solution of Dynamic-Programming Processes-XIV: Missile-Allocation Problems",
+              "author": "Bellman",
+              "year": "1959"
+            },
+            {
+              "key": "10.1016/j.engappai.2024.109212_bib14",
+              "doi-asserted-by": "crossref",
+              "first-page": "13",
+              "DOI": "10.1145/1869397.1869402",
+              "article-title": "CORALS: a real-time planner for anti-air defense operations",
+              "volume": "1",
+              "author": "Benaskeur",
+              "year": "2010",
+              "journal-title": "ACM Transactions on Intelligent Systems and Technology"
+            },
+            {
+              "key": "10.1016/j.engappai.2024.109212_bib15",
+              "doi-asserted-by": "crossref",
+              "first-page": "42",
+              "DOI": "10.1109/3468.823480",
+              "article-title": "Missile defense and interceptor allocation by neuro-dynamic programming",
+              "volume": "30",
+              "author": "Bertsekas",
+              "year": "2000",
+              "journal-title": "IEEE Trans. Syst. Man Cybern. Syst. Hum."
+            },
+            {
+              "key": "10.1016/j.engappai.2024.109212_bib16",
+              "series-title": "Proceedings of the 31st Chinese Control Conference",
+              "first-page": "2346",
+              "article-title": "An estimation of distribution algorithm with efficient constructive repair/improvement operator for the dynamic weapon-target assignment",
+              "author": "Bin",
+              "year": "2012"
+            },
+            {
+              "key": "10.1016/j.engappai.2024.109212_bib17",
+              "series-title": "2009 4th IEEE Conference on Industrial Electronics and Applications",
+              "first-page": "1929",
+              "article-title": "A hybrid heuristic particle swarm optimization for coordinated multi-target assignment",
+              "author": "Bo",
+              "year": "2009"
+            },
+            {
+              "key": "10.1016/j.engappai.2024.109212_bib18",
+              "doi-asserted-by": "crossref",
+              "first-page": "1965",
+              "DOI": "10.1016/j.camwa.2009.07.082",
+              "article-title": "A new efficient algorithm for optimal assignment of smart weapons to targets",
+              "volume": "58",
+              "author": "Bogdanowicz",
+              "year": "2009",
+              "journal-title": "Comput. Math. Appl."
+            },
+            {
+              "key": "10.1016/j.engappai.2024.109212_bib19",
+              "doi-asserted-by": "crossref",
+              "first-page": "276",
+              "DOI": "10.1109/TSMCA.2011.2159591",
+              "article-title": "Advanced input generating algorithm for effect-based weapon–target pairing optimization",
+              "volume": "42",
+              "author": "Bogdanowicz",
+              "year": "2012",
+              "journal-title": "IEEE Trans. Syst. Man Cybern. Syst. Hum."
+            },
+            {
+              "key": "10.1016/j.engappai.2024.109212_bib20",
+              "series-title": "Proceedings of the 11th WSEAS International Conference on Applied Mathematics",
+              "first-page": "92",
+              "article-title": "Sensor-target and weapon-target pairings based on auction algorithm",
+              "author": "Bogdanowicz",
+              "year": "2007"
+            },
+            {
+              "key": "10.1016/j.engappai.2024.109212_bib21",
+              "doi-asserted-by": "crossref",
+              "first-page": "1835",
+              "DOI": "10.1109/TSMCB.2012.2231673",
+              "article-title": "Optimization of weapon–target pairings based on kill probabilities",
+              "volume": "43",
+              "author": "Bogdanowicz",
+              "year": "2013",
+              "journal-title": "IEEE Trans. Cybern."
+            },
+            {
+              "key": "10.1016/j.engappai.2024.109212_bib22",
+              "doi-asserted-by": "crossref",
+              "first-page": "23",
+              "DOI": "10.1002/1520-6750(198702)34:1<23::AID-NAV3220340104>3.0.CO;2-F",
+              "article-title": "Robustness of preallocated preferential defense with assumed attack size and perfect attacking and defending weapons",
+              "volume": "34",
+              "author": "Bracken",
+              "year": "1987",
+              "journal-title": "Nav. Res. Logist."
+            },
+            {
+              "key": "10.1016/j.engappai.2024.109212_bib23",
+              "doi-asserted-by": "crossref",
+              "first-page": "745",
+              "DOI": "10.1287/opre.1050.0231",
+              "article-title": "A two-sided optimization for theater ballistic missile defense",
+              "volume": "53",
+              "author": "Brown",
+              "year": "2005",
+              "journal-title": "Oper. Res."
+            },
+            {
+              "key": "10.1016/j.engappai.2024.109212_bib24",
+              "first-page": "102",
+              "article-title": "Analyzing the vulnerability of critical infrastructure to attack and planning defenses, Emerging Theory",
+              "author": "Brown",
+              "year": "2005",
+              "journal-title": "Methods, and Applications"
+            },
+            {
+              "key": "10.1016/j.engappai.2024.109212_bib25",
+              "doi-asserted-by": "crossref",
+              "first-page": "726",
+              "DOI": "10.1287/opre.33.4.726",
+              "article-title": "Integer prim-read solutions to a class of target defense problems",
+              "volume": "33",
+              "author": "Burr",
+              "year": "1985",
+              "journal-title": "Oper. Res."
+            },
+            {
+              "key": "10.1016/j.engappai.2024.109212_bib26",
+              "series-title": "2023 IEEE International Conference on Systems, Man, and Cybernetics (SMC)",
+              "first-page": "1419",
+              "article-title": "Time-efficient weapon-target assignment by actor-critic reinforcement",
+              "author": "Byun",
+              "year": "2023"
+            },
+            {
+              "key": "10.1016/j.engappai.2024.109212_bib27",
+              "doi-asserted-by": "crossref",
+              "first-page": "559",
+              "DOI": "10.1016/S1004-4132(06)60097-2",
+              "article-title": "Survey of the research on dynamic weapon-target assignment problem",
+              "volume": "17",
+              "author": "Cai",
+              "year": "2006",
+              "journal-title": "J. Syst. Eng. Electron."
+            },
+            {
+              "key": "10.1016/j.engappai.2024.109212_bib28",
+              "doi-asserted-by": "crossref",
+              "first-page": "31",
+              "DOI": "10.1111/j.1559-3584.1993.tb02704.x",
+              "article-title": "A knowledge‐base system for the threat evaluation and weapon assignment process",
+              "volume": "105",
+              "author": "Carling",
+              "year": "2009",
+              "journal-title": "Nav. Eng. J."
+            },
+            {
+              "key": "10.1016/j.engappai.2024.109212_bib29",
+              "doi-asserted-by": "crossref",
+              "first-page": "383",
+              "DOI": "10.1016/j.omega.2009.10.003",
+              "article-title": "Fire scheduling for planned artillery attack operations under time-dependent destruction probabilities",
+              "volume": "38",
+              "author": "Cha",
+              "year": "2010",
+              "journal-title": "Omega"
+            },
+            {
+              "key": "10.1016/j.engappai.2024.109212_bib30",
+              "series-title": "26th IEEE Conference on Decision and Control",
+              "first-page": "1678",
+              "article-title": "Assignment algorithm for kinetic energy weapons in boost phase defence",
+              "author": "Chang",
+              "year": "1987"
+            },
+            {
+              "key": "10.1016/j.engappai.2024.109212_bib31",
+              "doi-asserted-by": "crossref",
+              "first-page": "845",
+              "DOI": "10.1016/j.asoc.2018.06.014",
+              "article-title": "Solving the dynamic weapon target assignment problem by an improved artificial bee colony algorithm with heuristic factor initialization",
+              "volume": "70",
+              "author": "Chang",
+              "year": "2018",
+              "journal-title": "Appl. Soft Comput."
+            },
+            {
+              "key": "10.1016/j.engappai.2024.109212_bib32",
+              "series-title": "2023 9th International Conference on Big Data and Information Analytics (BigDIA)",
+              "first-page": "773",
+              "article-title": "Bi-objective multi-stage weapon target assignment problem with limited ammunition",
+              "author": "Chang",
+              "year": "2023"
+            },
+            {
+              "key": "10.1016/j.engappai.2024.109212_bib33",
+              "doi-asserted-by": "crossref",
+              "DOI": "10.1016/j.cie.2023.109303",
+              "article-title": "Adaptive large neighborhood search algorithm for multi-stage weapon target assignment problem",
+              "volume": "181",
+              "author": "Chang",
+              "year": "2023",
+              "journal-title": "Comput. Ind. Eng."
+            },
+            {
+              "key": "10.1016/j.engappai.2024.109212_bib34",
+              "series-title": "2012 Fifth International Symposium on Computational Intelligence and Design",
+              "first-page": "170",
+              "article-title": "Particle swarm optimization based on genetic operators for sensor-weapon-target assignment",
+              "author": "Chen",
+              "year": "2012"
+            },
+            {
+              "key": "10.1016/j.engappai.2024.109212_bib35",
+              "first-page": "3579",
+              "article-title": "Team dynamics and tactics for mission planning",
+              "volume": "vol. 3574",
+              "author": "Cruz",
+              "year": "2003"
+            },
+            {
+              "key": "10.1016/j.engappai.2024.109212_bib36",
+              "first-page": "1",
+              "article-title": "Adversarial attacks on reinforcement learning agents for command and control",
+              "author": "Dabholkar",
+              "year": "2024",
+              "journal-title": "arXiv preprint arXiv:2405.01693"
+            },
+            {
+              "key": "10.1016/j.engappai.2024.109212_bib37",
+              "doi-asserted-by": "crossref",
+              "first-page": "8143",
+              "DOI": "10.1016/j.eswa.2008.10.016",
+              "article-title": "Weapon selection using the AHP and TOPSIS methods under fuzzy environment",
+              "volume": "36",
+              "author": "Dağdeviren",
+              "year": "2009",
+              "journal-title": "Expert Syst. Appl."
+            },
+            {
+              "key": "10.1016/j.engappai.2024.109212_bib39",
+              "doi-asserted-by": "crossref",
+              "first-page": "873",
+              "DOI": "10.1016/j.ejor.2016.11.023",
+              "article-title": "Approximate dynamic programming for missile defense interceptor fire control",
+              "volume": "259",
+              "author": "Davis",
+              "year": "2017",
+              "journal-title": "Eur. J. Oper. Res."
+            },
+            {
+              "key": "10.1016/j.engappai.2024.109212_bib40",
+              "doi-asserted-by": "crossref",
+              "first-page": "992",
+              "DOI": "10.1287/opre.14.6.992",
+              "article-title": "Allocating weapons to target complexes by means of nonlinear programming",
+              "volume": "14",
+              "author": "Day",
+              "year": "1966",
+              "journal-title": "Oper. Res."
+            },
+            {
+              "key": "10.1016/j.engappai.2024.109212_bib41",
+              "series-title": "2005 International Conference on Machine Learning and Cybernetics",
+              "first-page": "473",
+              "article-title": "Air combat decision-making for cooperative multiple target attack using heuristic adaptive genetic algorithm",
+              "author": "De-Lin",
+              "year": "2005"
+            },
+            {
+              "key": "10.1016/j.engappai.2024.109212_bib42",
+              "doi-asserted-by": "crossref",
+              "first-page": "322",
+              "DOI": "10.1287/opre.7.3.322",
+              "article-title": "On optimum target assignments",
+              "volume": "7",
+              "author": "denBroeder J",
+              "year": "1959",
+              "journal-title": "Oper. Res."
+            },
+            {
+              "key": "10.1016/j.engappai.2024.109212_bib43",
+              "series-title": "2008 11th International Conference on Information Fusion",
+              "first-page": "1",
+              "article-title": "An optimal sequential optimization approach in application to dynamic weapon allocation in naval warfare",
+              "author": "Dionne",
+              "year": "2008"
+            },
+            {
+              "key": "10.1016/j.engappai.2024.109212_bib44",
+              "series-title": "Proceedings of the 7th International Conference on Information Communication and Management",
+              "first-page": "28",
+              "article-title": "An artificial bee colony algorithm for solving the weapon target assignment problem",
+              "author": "Durgut",
+              "year": "2017"
+            },
+            {
+              "key": "10.1016/j.engappai.2024.109212_bib45",
+              "doi-asserted-by": "crossref",
+              "first-page": "958",
+              "DOI": "10.1057/palgrave.jors.2601580",
+              "article-title": "An evolutionary approach for the target allocation problem",
+              "volume": "54",
+              "author": "Erdem",
+              "year": "2003",
+              "journal-title": "J. Oper. Res. Soc."
+            },
+            {
+              "key": "10.1016/j.engappai.2024.109212_bib46",
+              "series-title": "Papers and Discussions Presented at the December 9-13, 1957, Eastern Joint Computer Conference: Computers with Deadlines to Meet",
+              "first-page": "148",
+              "article-title": "SAGE: a data-processing system for air defense",
+              "author": "Everett",
+              "year": "1957"
+            },
+            {
+              "key": "10.1016/j.engappai.2024.109212_bib47",
+              "first-page": "1539",
+              "article-title": "A real-time exhaustive search algorithm for the weapon-target assignment problem",
+              "volume": "28",
+              "author": "Feghhi",
+              "year": "2021",
+              "journal-title": "Sci. Iran."
+            },
+            {
+              "key": "10.1016/j.engappai.2024.109212_bib48",
+              "series-title": "Proceedings of the 7th International Conference on Control Engineering and Artificial Intelligence",
+              "first-page": "157",
+              "article-title": "Air defense intelligent weapon target assignment method based on deep reinforcement learning",
+              "author": "Fu",
+              "year": "2023"
+            },
+            {
+              "key": "10.1016/j.engappai.2024.109212_bib49",
+              "doi-asserted-by": "crossref",
+              "first-page": "1291",
+              "DOI": "10.1287/opre.21.6.1291",
+              "article-title": "Optimal weapon allocation with overlapping area defenses",
+              "volume": "21",
+              "author": "Furman",
+              "year": "1973",
+              "journal-title": "Oper. Res."
+            },
+            {
+              "key": "10.1016/j.engappai.2024.109212_bib50",
+              "doi-asserted-by": "crossref",
+              "first-page": "126",
+              "DOI": "10.1109/TAES.2007.357121",
+              "article-title": "Effectiveness of the Nash strategies in competitive multi-team target assignment problems",
+              "volume": "43",
+              "author": "Galati",
+              "year": "2007",
+              "journal-title": "IEEE Trans. Aero. Electron. Syst."
+            },
+            {
+              "key": "10.1016/j.engappai.2024.109212_bib51",
+              "doi-asserted-by": "crossref",
+              "first-page": "877",
+              "DOI": "10.1287/opre.39.6.877",
+              "article-title": "A new methodology for military force structure analysis",
+              "volume": "39",
+              "author": "Gallagher",
+              "year": "1991",
+              "journal-title": "Oper. Res."
+            },
+            {
+              "key": "10.1016/j.engappai.2024.109212_bib52",
+              "series-title": "2010 Sixth International Conference on Natural Computation",
+              "first-page": "3753",
+              "article-title": "A solving algorithm for target assignment optimization model based on ACO",
+              "author": "Gao",
+              "year": "2010"
+            },
+            {
+              "key": "10.1016/j.engappai.2024.109212_bib38",
+              "first-page": "1",
+              "article-title": "Agent based decision making for integrated air defense system",
+              "author": "Das",
+              "year": "2019",
+              "journal-title": "arXiv preprint arXiv:1905.01358"
+            },
+            {
+              "key": "10.1016/j.engappai.2024.109212_bib54",
+              "doi-asserted-by": "crossref",
+              "first-page": "646",
+              "DOI": "10.1007/s10489-020-01808-y",
+              "article-title": "Meta-heuristic algorithms for resource management in crisis based on OWA approach",
+              "volume": "51",
+              "author": "Ghanbari",
+              "year": "2021",
+              "journal-title": "Appl. Intell."
+            },
+            {
+              "key": "10.1016/j.engappai.2024.109212_bib55",
+              "series-title": "Integration of Decision Aids for Strike Campaign Planning",
+              "author": "Glenn",
+              "year": "1979"
+            },
+            {
+              "key": "10.1016/j.engappai.2024.109212_bib56",
+              "doi-asserted-by": "crossref",
+              "first-page": "91",
+              "DOI": "10.1007/s10479-012-1196-0",
+              "article-title": "Allocating multiple defensive resources in a zero-sum game setting",
+              "volume": "225",
+              "author": "Golany",
+              "year": "2015",
+              "journal-title": "Ann. Oper. Res."
+            },
+            {
+              "key": "10.1016/j.engappai.2024.109212_bib57",
+              "series-title": "AIAA 1st Intelligent Systems Technical Conference",
+              "first-page": "6279",
+              "article-title": "Software toolkit for optimizing mission plans (STOMP)",
+              "author": "Gonsalves",
+              "year": "2004"
+            },
+            {
+              "key": "10.1016/j.engappai.2024.109212_bib58",
+              "doi-asserted-by": "crossref",
+              "first-page": "159",
+              "DOI": "10.1002/nav.3800310117",
+              "article-title": "On efficient salvo policies",
+              "volume": "31",
+              "author": "Gould",
+              "year": "1984",
+              "journal-title": "Nav. Res. Logist. Q."
+            },
+            {
+              "key": "10.1016/j.engappai.2024.109212_bib59",
+              "first-page": "289",
+              "article-title": "A simple stochastic model of air–naval combat",
+              "volume": "42",
+              "author": "Griffiths",
+              "year": "1991",
+              "journal-title": "J. Oper. Res. Soc."
+            },
+            {
+              "key": "10.1016/j.engappai.2024.109212_bib60",
+              "doi-asserted-by": "crossref",
+              "first-page": "3104",
+              "DOI": "10.1109/TAES.2022.3144111",
+              "article-title": "Evaluation ,model, intelligent assignment, and cooperative interception in multimissile and multitarget engagement",
+              "volume": "58",
+              "author": "Guo",
+              "year": "2022",
+              "journal-title": "IEEE Trans. Aero. Electron. Syst."
+            },
+            {
+              "key": "10.1016/j.engappai.2024.109212_bib61",
+              "doi-asserted-by": "crossref",
+              "first-page": "405",
+              "DOI": "10.1287/ijoc.2016.0690",
+              "article-title": "A game theoretic model for the optimal location of integrated air defense system missile batteries",
+              "volume": "28",
+              "author": "Han",
+              "year": "2016",
+              "journal-title": "Inf. J. Comput."
+            },
+            {
+              "key": "10.1016/j.engappai.2024.109212_bib62",
+              "doi-asserted-by": "crossref",
+              "DOI": "10.1016/j.omega.2022.102640",
+              "article-title": "Intruder detection and interdiction modeling: a bilevel programming approach for ballistic missile defense asset location",
+              "volume": "110",
+              "author": "Haywood",
+              "year": "2022",
+              "journal-title": "Omega"
+            },
+            {
+              "key": "10.1016/j.engappai.2024.109212_bib63",
+              "article-title": "Target assignment algorithm for joint air defense operation based on spatial crowdsourcing mode",
+              "volume": "11",
+              "author": "He",
+              "year": "2022",
+              "journal-title": "Electronics"
+            },
+            {
+              "key": "10.1016/j.engappai.2024.109212_bib64",
+              "doi-asserted-by": "crossref",
+              "first-page": "312",
+              "DOI": "10.2514/1.G006532",
+              "article-title": "Decentralized weapon–target assignment under asynchronous communications",
+              "volume": "46",
+              "author": "Hendrickson",
+              "year": "2023",
+              "journal-title": "J. Guid. Control Dynam."
+            },
+            {
+              "key": "10.1016/j.engappai.2024.109212_bib65",
+              "first-page": "1",
+              "article-title": "Artificial intelligence in combat decision-making: weapon target assignment via reinforcement learning and graph neural networks",
+              "author": "Heon",
+              "year": "2024",
+              "journal-title": "TechRxiv"
+            },
+            {
+              "key": "10.1016/j.engappai.2024.109212_bib66",
+              "doi-asserted-by": "crossref",
+              "first-page": "1032",
+              "DOI": "10.3390/s22031032",
+              "article-title": "Game theory in defence applications: a review",
+              "volume": "22",
+              "author": "Ho",
+              "year": "2022",
+              "journal-title": "Sensors"
+            },
+            {
+              "key": "10.1016/j.engappai.2024.109212_bib67",
+              "doi-asserted-by": "crossref",
+              "first-page": "681",
+              "DOI": "10.1016/j.cie.2019.01.015",
+              "article-title": "Weapon target assignment optimization for land based multi-air defense systems: a goal programming approach",
+              "volume": "128",
+              "author": "Hocaoğlu",
+              "year": "2019",
+              "journal-title": "Comput. Ind. Eng."
+            },
+            {
+              "key": "10.1016/j.engappai.2024.109212_bib68",
+              "doi-asserted-by": "crossref",
+              "first-page": "238",
+              "DOI": "10.1016/j.ejor.2007.10.033",
+              "article-title": "A Stackelberg equilibrium for a missile procurement problem",
+              "volume": "193",
+              "author": "Hohzaki",
+              "year": "2009",
+              "journal-title": "Eur. J. Oper. Res."
+            },
+            {
+              "key": "10.1016/j.engappai.2024.109212_bib69",
+              "doi-asserted-by": "crossref",
+              "first-page": "3459",
+              "DOI": "10.1016/j.ijleo.2015.12.122",
+              "article-title": "Adaptive chaos parallel clonal selection algorithm for objective optimization in WTA application",
+              "volume": "127",
+              "author": "Hongtao",
+              "year": "2016",
+              "journal-title": "Optik"
+            },
+            {
+              "key": "10.1016/j.engappai.2024.109212_bib70",
+              "first-page": "240",
+              "article-title": "An asymptotic result for the multi-stage weapon-target allocation problem",
+              "volume": "vol. 241",
+              "author": "Hosein",
+              "year": "1990"
+            },
+            {
+              "key": "10.1016/j.engappai.2024.109212_bib71",
+              "first-page": "1",
+              "article-title": "Dynamic weapon-target assignment problems with vulnerable C2 nodes. Massachusetts Inst of Tech Cambridge Lab for Information and Decision Systems",
+              "volume": "LIDS-P.1786",
+              "author": "Hosein",
+              "year": "1988",
+              "journal-title": "Report"
+            },
+            {
+              "key": "10.1016/j.engappai.2024.109212_bib72",
+              "author": "Hoseint",
+              "year": "2002"
+            },
+            {
+              "key": "10.1016/j.engappai.2024.109212_bib74",
+              "doi-asserted-by": "crossref",
+              "DOI": "10.1016/j.omega.2021.102562",
+              "article-title": "The weapon target assignment problem: rational inference of adversary target utility valuations from observed solutions",
+              "volume": "107",
+              "author": "Hughes",
+              "year": "2022",
+              "journal-title": "Omega"
+            },
+            {
+              "key": "10.1016/j.engappai.2024.109212_bib75",
+              "doi-asserted-by": "crossref",
+              "first-page": "1421",
+              "DOI": "10.23919/JSEE.2021.000121",
+              "article-title": "UAV cooperative air combat maneuver decision based on multi-agent reinforcement learning",
+              "volume": "32",
+              "author": "Jiandong",
+              "year": "2021",
+              "journal-title": "J. Syst. Eng. Electron."
+            },
+            {
+              "key": "10.1016/j.engappai.2024.109212_bib76",
+              "series-title": "2009 2nd IEEE International Conference on Computer Science and Information Technology",
+              "first-page": "210",
+              "article-title": "Improved genetic algorithm for multichannel ship-to-air missile weapon system WTA problem",
+              "author": "Jihua",
+              "year": "2009"
+            },
+            {
+              "key": "10.1016/j.engappai.2024.109212_bib77",
+              "doi-asserted-by": "crossref",
+              "first-page": "1834",
+              "DOI": "10.2514/1.G007354",
+              "article-title": "Evaluation model and exact optimization algorithm in missile–target assignment",
+              "volume": "46",
+              "author": "Jin",
+              "year": "2023",
+              "journal-title": "J. Guid. Control Dynam."
+            },
+            {
+              "key": "10.1016/j.engappai.2024.109212_bib78",
+              "series-title": "2010 13th International Conference on Information Fusion",
+              "first-page": "1",
+              "article-title": "Real-time allocation of defensive resources to rockets, artillery, and mortars",
+              "author": "Johansson",
+              "year": "2010"
+            },
+            {
+              "key": "10.1016/j.engappai.2024.109212_bib79",
+              "series-title": "Proceedings of the 2010 International Conference on Genetic and Evolutionary Methods",
+              "first-page": "132",
+              "article-title": "A suite of metaheuristic algorithms for static weapon-target allocation",
+              "author": "Johansson",
+              "year": "2010"
+            },
+            {
+              "key": "10.1016/j.engappai.2024.109212_bib80",
+              "series-title": "2010 13th International Conference on Information Fusion",
+              "first-page": "1",
+              "article-title": "SWARD: system for weapon allocation research & development",
+              "author": "Johansson",
+              "year": "2010"
+            },
+            {
+              "key": "10.1016/j.engappai.2024.109212_bib81",
+              "first-page": "187",
+              "article-title": "Real-time allocation of firing units to hostile targets",
+              "volume": "6",
+              "author": "Johansson",
+              "year": "2022",
+              "journal-title": "J. Adv. Infor. Fusion"
+            },
+            {
+              "key": "10.1016/j.engappai.2024.109212_bib82",
+              "first-page": "435",
+              "article-title": "Efficient multi-objective evolutionary algorithms for solving the multi-stage weapon target assignment problem: a comparison study, 2017",
+              "author": "Juan",
+              "year": "2017",
+              "journal-title": "IEEE Congress Evoluti. Comput."
+            },
+            {
+              "key": "10.1016/j.engappai.2024.109212_bib83",
+              "series-title": "Proceedings of the 11th Annual Conference Companion on Genetic and Evolutionary Computation Conference: Late Breaking Papers",
+              "first-page": "2553",
+              "article-title": "String-and permutation-coded genetic algorithms for the static weapon-target assignment problem",
+              "author": "Julstrom",
+              "year": "2009"
+            },
+            {
+              "key": "10.1016/j.engappai.2024.109212_bib84",
+              "doi-asserted-by": "crossref",
+              "first-page": "1759",
+              "DOI": "10.1016/j.cor.2006.09.011",
+              "article-title": "Air defense missile-target allocation models for a naval task group",
+              "volume": "35",
+              "author": "Karasakal",
+              "year": "2008",
+              "journal-title": "Comput. Oper. Res."
+            },
+            {
+              "key": "10.1016/j.engappai.2024.109212_bib85",
+              "doi-asserted-by": "crossref",
+              "first-page": "304",
+              "DOI": "10.1002/nav.20457",
+              "article-title": "Anti-ship missile defense for a naval task group",
+              "volume": "58",
+              "author": "Karasakal",
+              "year": "2011",
+              "journal-title": "Nav. Res. Logist."
+            },
+            {
+              "key": "10.1016/j.engappai.2024.109212_bib86",
+              "doi-asserted-by": "crossref",
+              "first-page": "10153",
+              "DOI": "10.1007/s00500-021-05923-x",
+              "article-title": "A multi-objective approach for dynamic missile allocation using artificial neural networks for time sensitive decisions",
+              "volume": "25",
+              "author": "Karasakal",
+              "year": "2021",
+              "journal-title": "Soft Comput."
+            },
+            {
+              "key": "10.1016/j.engappai.2024.109212_bib87",
+              "first-page": "134",
+              "article-title": "Operational decision making under uncertainty: inferential, sequential, and adversarial approaches",
+              "volume": "2464",
+              "author": "Keith",
+              "year": "2019",
+              "journal-title": "Theses and Dissertations."
+            },
+            {
+              "key": "10.1016/j.engappai.2024.109212_bib88",
+              "doi-asserted-by": "crossref",
+              "first-page": "95",
+              "DOI": "10.1016/j.ejor.2020.10.015",
+              "article-title": "Counterfactual regret minimization for integrated cyber and air defense resource allocation",
+              "volume": "292",
+              "author": "Keith",
+              "year": "2021",
+              "journal-title": "Eur. J. Oper. Res."
+            },
+            {
+              "key": "10.1016/j.engappai.2024.109212_bib89",
+              "series-title": "SPIE Defense + Commercial Sensing",
+              "article-title": "Hybrid evolutionary algorithms for network-centric command and control",
+              "author": "Khosla",
+              "year": "2006"
+            },
+            {
+              "key": "10.1016/j.engappai.2024.109212_bib90",
+              "doi-asserted-by": "crossref",
+              "first-page": "226",
+              "DOI": "10.1016/j.cor.2018.10.015",
+              "article-title": "The weapon-target assignment problem",
+              "volume": "105",
+              "author": "Kline",
+              "year": "2019",
+              "journal-title": "Comput. Oper. Res."
+            },
+            {
+              "key": "10.1016/j.engappai.2024.109212_bib91",
+              "doi-asserted-by": "crossref",
+              "first-page": "377",
+              "DOI": "10.1007/s10732-018-9401-1",
+              "article-title": "Real-time heuristic algorithms for the static weapon target assignment problem",
+              "volume": "25",
+              "author": "Kline",
+              "year": "2019",
+              "journal-title": "J. Heuristics"
+            },
+            {
+              "key": "10.1016/j.engappai.2024.109212_bib92",
+              "doi-asserted-by": "crossref",
+              "first-page": "791",
+              "DOI": "10.1007/s10898-020-00938-4",
+              "article-title": "A heuristic and metaheuristic approach to the static weapon target assignment problem",
+              "volume": "78",
+              "author": "Kline",
+              "year": "2020",
+              "journal-title": "J. Global Optim."
+            },
+            {
+              "key": "10.1016/j.engappai.2024.109212_bib93",
+              "series-title": "A Description of the Weapon Optimization and Resource Requirements Model (WORRM)",
+              "author": "Koleszar",
+              "year": "1999"
+            },
+            {
+              "key": "10.1016/j.engappai.2024.109212_bib94",
+              "doi-asserted-by": "crossref",
+              "first-page": "197",
+              "DOI": "10.1016/j.ins.2019.01.016",
+              "article-title": "A decision variable-based combinatorial optimization approach for interval-valued intuitionistic fuzzy MAGDM",
+              "volume": "484",
+              "author": "Kong",
+              "year": "2019",
+              "journal-title": "Inf. Sci."
+            },
+            {
+              "key": "10.1016/j.engappai.2024.109212_bib95",
+              "article-title": "Solving the dynamic weapon target assignment problem by an improved multiobjective particle swarm optimization algorithm",
+              "volume": "11",
+              "author": "Kong",
+              "year": "2021",
+              "journal-title": "Applied Sciences-Basel"
+            },
+            {
+              "key": "10.1016/j.engappai.2024.109212_bib96",
+              "doi-asserted-by": "crossref",
+              "DOI": "10.3389/fnbot.2023.1302898",
+              "article-title": "Multi-UAV simultaneous target assignment and path planning based on deep reinforcement learning in dynamic multiple obstacles environments",
+              "volume": "17",
+              "author": "Kong",
+              "year": "2024",
+              "journal-title": "Front. Neurorob."
+            },
+            {
+              "key": "10.1016/j.engappai.2024.109212_bib97",
+              "doi-asserted-by": "crossref",
+              "first-page": "693",
+              "DOI": "10.1016/S0360-8352(97)00224-6",
+              "article-title": "Targeting and scheduling problem for field artillery",
+              "volume": "33",
+              "author": "Kwon",
+              "year": "1997",
+              "journal-title": "Comput. Ind. Eng."
+            },
+            {
+              "key": "10.1016/j.engappai.2024.109212_bib98",
+              "doi-asserted-by": "crossref",
+              "first-page": "640",
+              "DOI": "10.1002/(SICI)1520-6750(199909)46:6<640::AID-NAV3>3.0.CO;2-Q",
+              "article-title": "Lagrangian relaxation approach to the targeting problem",
+              "volume": "46",
+              "author": "Kwon",
+              "year": "1999",
+              "journal-title": "Nav. Res. Logist."
+            },
+            {
+              "key": "10.1016/j.engappai.2024.109212_bib99",
+              "doi-asserted-by": "crossref",
+              "first-page": "732",
+              "DOI": "10.1002/nav.20247",
+              "article-title": "A branch-and-price algorithm for a targeting problem",
+              "volume": "54",
+              "author": "Kwon",
+              "year": "2007",
+              "journal-title": "Nav. Res. Logist."
+            },
+            {
+              "key": "10.1016/j.engappai.2024.109212_bib100",
+              "doi-asserted-by": "crossref",
+              "DOI": "10.1016/j.asoc.2019.105542",
+              "article-title": "Simplified swarm optimization with initialization scheme for dynamic weapon–target assignment problem",
+              "volume": "82",
+              "author": "Lai",
+              "year": "2019",
+              "journal-title": "Appl. Soft Comput."
+            },
+            {
+              "key": "10.1016/j.engappai.2024.109212_bib101",
+              "series-title": "2023 IEEE International Conference on Sensors, Electronics and Computer Engineering (ICSECE)",
+              "first-page": "664",
+              "article-title": "Research on intelligent missile target assignment method based on target system value and deep reinforcement learning",
+              "author": "Lai",
+              "year": "2023"
+            },
+            {
+              "key": "10.1016/j.engappai.2024.109212_bib102",
+              "series-title": "A New Methodology for Assessing Multilayer Missile Defense Options",
+              "author": "Larson",
+              "year": "1994"
+            },
+            {
+              "key": "10.1016/j.engappai.2024.109212_bib103",
+              "first-page": "109",
+              "article-title": "A two-step optimisation method for dynamic weapon target assignment problem",
+              "author": "Leboucher",
+              "year": "2013",
+              "journal-title": "Recent Adv. Meta-Heur. Their Appli. Real Scen."
+            },
+            {
+              "key": "10.1016/j.engappai.2024.109212_bib104",
+              "doi-asserted-by": "crossref",
+              "first-page": "198",
+              "DOI": "10.1109/TSMCA.2009.2030163",
+              "article-title": "Constrained weapon–target assignment: enhanced very large scale neighborhood search algorithm",
+              "volume": "40",
+              "author": "Lee",
+              "year": "2010",
+              "journal-title": "IEEE Trans. Syst. Man Cybern. Syst. Hum."
+            },
+            {
+              "key": "10.1016/j.engappai.2024.109212_bib105",
+              "series-title": "Intelligent Data Engineering and Automated Learning",
+              "first-page": "278",
+              "article-title": "A hybrid search algorithm of ant colony optimization and genetic algorithm applied to weapon-target assignment problems",
+              "author": "Lee",
+              "year": "2003"
+            },
+            {
+              "key": "10.1016/j.engappai.2024.109212_bib106",
+              "doi-asserted-by": "crossref",
+              "first-page": "39",
+              "DOI": "10.1016/S1568-4946(02)00027-3",
+              "article-title": "An immunity-based ant colony optimization algorithm for solving weapon–target assignment problem",
+              "volume": "2",
+              "author": "Lee",
+              "year": "2002",
+              "journal-title": "Appl. Soft Comput."
+            },
+            {
+              "key": "10.1016/j.engappai.2024.109212_bib107",
+              "doi-asserted-by": "crossref",
+              "first-page": "113",
+              "DOI": "10.1109/TSMCB.2003.808174",
+              "article-title": "Efficiently solving general weapon-target assignment problem by genetic algorithms with greedy eugenics",
+              "volume": "33",
+              "author": "Lee",
+              "year": "2003",
+              "journal-title": "IEEE Transactions on Systems, Man, and Cybernetics, Part B (Cybernetics)"
+            },
+            {
+              "key": "10.1016/j.engappai.2024.109212_bib108",
+              "doi-asserted-by": "crossref",
+              "first-page": "521",
+              "DOI": "10.1016/j.cie.2009.11.013",
+              "article-title": "A hybrid approach of goal programming for weapon systems selection",
+              "volume": "58",
+              "author": "Lee",
+              "year": "2010",
+              "journal-title": "Comput. Ind. Eng."
+            },
+            {
+              "key": "10.1016/j.engappai.2024.109212_bib109",
+              "series-title": "Weapon Target Assignment Problem with Interference Constraints",
+              "first-page": "388",
+              "author": "Lee",
+              "year": "2020"
+            },
+            {
+              "key": "10.1016/j.engappai.2024.109212_bib110",
+              "series-title": "2017 2nd International Conference on Image, Vision and Computing (ICIVC)",
+              "first-page": "1147",
+              "article-title": "Application of sensor/weapon-target assignment based on multi-scale quantum harmonic oscillator algorithm",
+              "author": "Lei",
+              "year": "2017"
+            },
+            {
+              "key": "10.1016/j.engappai.2024.109212_bib111",
+              "doi-asserted-by": "crossref",
+              "first-page": "787",
+              "DOI": "10.1287/opre.11.5.787",
+              "article-title": "An optimum allocation of different weapons to a target complex",
+              "volume": "11",
+              "author": "Lemus",
+              "year": "1963",
+              "journal-title": "Oper. Res."
+            },
+            {
+              "key": "10.1016/j.engappai.2024.109212_bib112",
+              "series-title": "2010 International Conference on Computer Application and System Modeling (ICCASM 2010)",
+              "article-title": "Weapon-target assignment research based on genetic algorithm mixed with damage simulation",
+              "author": "Li",
+              "year": "2010"
+            },
+            {
+              "key": "10.1016/j.engappai.2024.109212_bib113",
+              "doi-asserted-by": "crossref",
+              "first-page": "273",
+              "DOI": "10.1016/S0305-0548(02)00192-2",
+              "article-title": "Towards the real time solution of strike force asset allocation problems",
+              "volume": "31",
+              "author": "Li",
+              "year": "2004",
+              "journal-title": "Comput. Oper. Res."
+            },
+            {
+              "key": "10.1016/j.engappai.2024.109212_bib114",
+              "series-title": "2008 3rd International Conference on Innovative Computing Information and Control",
+              "first-page": "97",
+              "article-title": "Optimization matching of sensor and weapon system based on geometric programming",
+              "author": "Li",
+              "year": "2008"
+            },
+            {
+              "key": "10.1016/j.engappai.2024.109212_bib115",
+              "series-title": "2009 International Workshop on Intelligent Systems and Applications",
+              "first-page": "1",
+              "article-title": "A mutation-based GA for weapon-target allocation problem subject to spatial constraints",
+              "author": "Li",
+              "year": "2009"
+            },
+            {
+              "key": "10.1016/j.engappai.2024.109212_bib116",
+              "series-title": "2011 IEEE 2nd International Conference on Computing, Control and Industrial Engineering",
+              "first-page": "25",
+              "article-title": "Sensor-weapon-target assignment based on improved SWT-opt algorithm",
+              "author": "Li",
+              "year": "2011"
+            },
+            {
+              "key": "10.1016/j.engappai.2024.109212_bib117",
+              "series-title": "2012 IEEE International Conference on Mechatronics and Automation",
+              "first-page": "2031",
+              "article-title": "An anytime algorithm based on decentralized cooperative auction for dynamic joint fire distribution problem",
+              "author": "Li",
+              "year": "2012"
+            },
+            {
+              "key": "10.1016/j.engappai.2024.109212_bib118",
+              "first-page": "3132",
+              "article-title": "Solving multi-objective multi-stage weapon target assignment problem via adaptive NSGA-II and adaptive MOEA/D: a comparison study, 2015",
+              "author": "Li",
+              "year": "2015",
+              "journal-title": "IEEE Congress Evoluti. Comput."
+            },
+            {
+              "key": "10.1016/j.engappai.2024.109212_bib119",
+              "series-title": "2015 34th Chinese Control Conference (CCC)",
+              "first-page": "2556",
+              "article-title": "Efficiently solving multi-objective dynamic weapon-target assignment problems by NSGA-II",
+              "author": "Li",
+              "year": "2015"
+            },
+            {
+              "key": "10.1016/j.engappai.2024.109212_bib120",
+              "first-page": "4934",
+              "article-title": "Solving the uncertain multi-objective multi-stage weapon target assignment problem via MOEA/D-AWA, 2016",
+              "author": "Li",
+              "year": "2016",
+              "journal-title": "IEEE Congress Evoluti. Comput."
+            },
+            {
+              "key": "10.1016/j.engappai.2024.109212_bib121",
+              "doi-asserted-by": "crossref",
+              "first-page": "1059",
+              "DOI": "10.1080/17517575.2016.1177207",
+              "article-title": "The solution of target assignment problem in command and control decision-making behaviour simulation",
+              "volume": "11",
+              "author": "Li",
+              "year": "2017",
+              "journal-title": "Enterprise Inf. Syst."
+            },
+            {
+              "key": "10.1016/j.engappai.2024.109212_bib122",
+              "doi-asserted-by": "crossref",
+              "DOI": "10.1155/2017/1746124",
+              "article-title": "A modified pareto ant colony optimization approach to solve biobjective weapon-target assignment problem",
+              "volume": "2017",
+              "author": "Li",
+              "year": "2017",
+              "journal-title": "Intern. J. Aerospace Eng."
+            },
+            {
+              "key": "10.1016/j.engappai.2024.109212_bib123",
+              "doi-asserted-by": "crossref",
+              "DOI": "10.1155/2018/8623051",
+              "article-title": "Weapon-target assignment problem by multiobjective evolutionary algorithm based on decomposition",
+              "volume": "2018",
+              "author": "Li",
+              "year": "2018",
+              "journal-title": "Complexity"
+            },
+            {
+              "key": "10.1016/j.engappai.2024.109212_bib124",
+              "doi-asserted-by": "crossref",
+              "DOI": "10.1155/2018/8302324",
+              "article-title": "An improved nondominated sorting genetic algorithm III method for solving multiobjective weapon-target assignment part I: the value of fighter combat",
+              "volume": "2018",
+              "author": "Li",
+              "year": "2018",
+              "journal-title": "Intern. J. Aerospace Eng."
+            },
+            {
+              "key": "10.1016/j.engappai.2024.109212_bib125",
+              "article-title": "An intelligent algorithm for solving weapon-target assignment problem: DDPG-DNPE algorithm",
+              "volume": "76",
+              "author": "Li",
+              "year": "2023",
+              "journal-title": "Comput. Mater. Continua (CMC)"
+            },
+            {
+              "key": "10.1016/j.engappai.2024.109212_bib126",
+              "doi-asserted-by": "crossref",
+              "first-page": "558",
+              "DOI": "10.1016/S0377-2217(99)00109-5",
+              "article-title": "Case-based decision support system: architecture for simulating military command and control",
+              "volume": "123",
+              "author": "Liao",
+              "year": "2000",
+              "journal-title": "Eur. J. Oper. Res."
+            },
+            {
+              "key": "10.1016/j.engappai.2024.109212_bib127",
+              "doi-asserted-by": "crossref",
+              "first-page": "1435",
+              "DOI": "10.1016/j.ejor.2022.06.031",
+              "article-title": "Improving defensive air battle management by solving a stochastic dynamic assignment problem via approximate dynamic programming",
+              "volume": "305",
+              "author": "Liles",
+              "year": "2023",
+              "journal-title": "Eur. J. Oper. Res."
+            },
+            {
+              "key": "10.1016/j.engappai.2024.109212_bib128",
+              "doi-asserted-by": "crossref",
+              "first-page": "151",
+              "DOI": "10.1016/0898-1221(89)90132-6",
+              "article-title": "Automated learning by tactical decision systems in air combat",
+              "volume": "18",
+              "author": "Lirov",
+              "year": "1989",
+              "journal-title": "Comput. Math. Appl."
+            },
+            {
+              "key": "10.1016/j.engappai.2024.109212_bib129",
+              "doi-asserted-by": "crossref",
+              "DOI": "10.1016/j.compeleceng.2021.107491",
+              "article-title": "Sliding mode control of multi-agent system with application to UAV air combat",
+              "volume": "96",
+              "author": "Liu",
+              "year": "2021",
+              "journal-title": "Comput. Electr. Eng."
+            },
+            {
+              "key": "10.1016/j.engappai.2024.109212_bib130",
+              "doi-asserted-by": "crossref",
+              "DOI": "10.3389/fnbot.2022.1072887",
+              "article-title": "Intelligent air defense task assignment based on hierarchical reinforcement learning",
+              "volume": "16",
+              "author": "Liu",
+              "year": "2022",
+              "journal-title": "Front. Neurorob."
+            },
+            {
+              "key": "10.1016/j.engappai.2024.109212_bib131",
+              "doi-asserted-by": "crossref",
+              "first-page": "1069",
+              "DOI": "10.1017/aer.2021.124",
+              "article-title": "Multitarget allocation strategy based on adaptive SA-PSO algorithm",
+              "volume": "126",
+              "author": "Liu",
+              "year": "2022",
+              "journal-title": "Aeronaut. J."
+            },
+            {
+              "key": "10.1016/j.engappai.2024.109212_bib132",
+              "doi-asserted-by": "crossref",
+              "first-page": "129623",
+              "DOI": "10.1109/ACCESS.2023.3332513",
+              "article-title": "A time-driven dynamic weapon target assignment method",
+              "volume": "11",
+              "author": "Liu",
+              "year": "2023",
+              "journal-title": "IEEE Access"
+            },
+            {
+              "key": "10.1016/j.engappai.2024.109212_bib133",
+              "doi-asserted-by": "crossref",
+              "first-page": "210",
+              "DOI": "10.1016/j.dt.2022.04.001",
+              "article-title": "Task assignment in ground-to-air confrontation based on multiagent deep reinforcement learning",
+              "volume": "19",
+              "author": "Liu",
+              "year": "2023",
+              "journal-title": "Defence Technology"
+            },
+            {
+              "key": "10.1016/j.engappai.2024.109212_bib134",
+              "series-title": "1986 Summer Computer Simulation Conference, United States",
+              "first-page": "1054",
+              "article-title": "Weapons allocation is NP-complete",
+              "author": "Lloyd",
+              "year": "1986"
+            },
+            {
+              "key": "10.1016/j.engappai.2024.109212_bib135",
+              "doi-asserted-by": "crossref",
+              "first-page": "31",
+              "DOI": "10.5784/29-1-138",
+              "article-title": "A multiobjective approach towards weapon assignment in a ground-based air defence environment",
+              "volume": "29",
+              "author": "Lötter",
+              "year": "2013",
+              "journal-title": "Orion"
+            },
+            {
+              "key": "10.1016/j.engappai.2024.109212_bib136",
+              "doi-asserted-by": "crossref",
+              "DOI": "10.1016/j.omega.2019.102138",
+              "article-title": "A new exact algorithm for the weapon-target assignment problem",
+              "volume": "98",
+              "author": "Lu",
+              "year": "2021",
+              "journal-title": "Omega"
+            },
+            {
+              "key": "10.1016/j.engappai.2024.109212_bib137",
+              "series-title": "2006 6th World Congress on Intelligent Control and Automation",
+              "first-page": "3401",
+              "article-title": "An improved genetic algorithm for target assignment, optimization of naval fleet air defense",
+              "author": "Lu",
+              "year": "2006"
+            },
+            {
+              "key": "10.1016/j.engappai.2024.109212_bib138",
+              "first-page": "809",
+              "article-title": "The air defense missile optimum target assignment based on the improved genetic algorithm",
+              "volume": "48",
+              "author": "Lu",
+              "year": "2013",
+              "journal-title": "J. Theor. Appl. Inf. Technol."
+            },
+            {
+              "key": "10.1016/j.engappai.2024.109212_bib139",
+              "series-title": "2016 IEEE International Conference on Systems, Man, and Cybernetics (SMC)",
+              "first-page": "779",
+              "article-title": "Q-learning based air combat target assignment algorithm",
+              "author": "Luo",
+              "year": "2016"
+            },
+            {
+              "key": "10.1016/j.engappai.2024.109212_bib140",
+              "doi-asserted-by": "crossref",
+              "first-page": "4426",
+              "DOI": "10.1109/TSMC.2021.3096997",
+              "article-title": "Learning-based policy optimization for adversarial missile-target assignment",
+              "volume": "52",
+              "author": "Luo",
+              "year": "2021",
+              "journal-title": "IEEE Transactions on Systems, Man, and Cybernetics: Systems"
+            },
+            {
+              "key": "10.1016/j.engappai.2024.109212_bib141",
+              "series-title": "2015 IEEE International Conference on Information and Automation",
+              "first-page": "2093",
+              "article-title": "An efficient algorithm for the weapon target assignment problem",
+              "author": "Ma",
+              "year": "2015"
+            },
+            {
+              "key": "10.1016/j.engappai.2024.109212_bib142",
+              "series-title": "2015 IEEE Advanced Information Technology, Electronic and Automation Control Conference (IAEAC)",
+              "first-page": "44",
+              "article-title": "An optimal assignment of multi-type weapons to single-target",
+              "author": "Ma",
+              "year": "2015"
+            },
+            {
+              "key": "10.1016/j.engappai.2024.109212_bib143",
+              "doi-asserted-by": "crossref",
+              "DOI": "10.1016/j.cie.2021.107717",
+              "article-title": "Two-stage hybrid heuristic search algorithm for novel weapon target assignment problems",
+              "volume": "162",
+              "author": "Ma",
+              "year": "2021",
+              "journal-title": "Comput. Ind. Eng."
+            },
+            {
+              "key": "10.1016/j.engappai.2024.109212_bib144",
+              "doi-asserted-by": "crossref",
+              "first-page": "285",
+              "DOI": "10.14429/dsj.51.2239",
+              "article-title": "Genetic algorithm for optimal weapon allocation in multilayer defence scenario",
+              "volume": "51",
+              "author": "Malhotra",
+              "year": "2001",
+              "journal-title": "Defence Sci. J."
+            },
+            {
+              "key": "10.1016/j.engappai.2024.109212_bib145",
+              "doi-asserted-by": "crossref",
+              "first-page": "346",
+              "DOI": "10.1287/opre.6.3.346",
+              "article-title": "A target-assignment problem",
+              "volume": "6",
+              "author": "Manne",
+              "year": "1958",
+              "journal-title": "Oper. Res."
+            },
+            {
+              "key": "10.1016/j.engappai.2024.109212_bib146",
+              "doi-asserted-by": "crossref",
+              "first-page": "147",
+              "DOI": "10.1002/nav.21891",
+              "article-title": "On efficient algorithms for finding efficient salvo policies",
+              "volume": "67",
+              "author": "Martijn",
+              "year": "2020",
+              "journal-title": "Nav. Res. Logist."
+            },
+            {
+              "key": "10.1016/j.engappai.2024.109212_bib147",
+              "doi-asserted-by": "crossref",
+              "first-page": "334",
+              "DOI": "10.1287/opre.18.2.334",
+              "article-title": "A review of the literature on the missile-allocation problem",
+              "volume": "18",
+              "author": "Matlin",
+              "year": "1970",
+              "journal-title": "Oper. Res."
+            },
+            {
+              "key": "10.1016/j.engappai.2024.109212_bib148",
+              "doi-asserted-by": "crossref",
+              "first-page": "2",
+              "DOI": "10.2514/1.34374",
+              "article-title": "Novel goal-based weapon target assignment doctrine",
+              "volume": "6",
+              "author": "Mekawey",
+              "year": "2009",
+              "journal-title": "J. Aero. Comput. Inf. Commun."
+            },
+            {
+              "key": "10.1016/j.engappai.2024.109212_bib149",
+              "doi-asserted-by": "crossref",
+              "first-page": "16315",
+              "DOI": "10.1109/JSEN.2021.3074826",
+              "article-title": "Deep reinforcement learning-based radar network target assignment",
+              "volume": "21",
+              "author": "Meng",
+              "year": "2021",
+              "journal-title": "IEEE Sensor. J."
+            },
+            {
+              "key": "10.1016/j.engappai.2024.109212_bib150",
+              "doi-asserted-by": "crossref",
+              "first-page": "560",
+              "DOI": "10.1016/j.ejor.2005.12.043",
+              "article-title": "Discrete Markov ballistic missile defense system modeling",
+              "volume": "178",
+              "author": "Menq",
+              "year": "2007",
+              "journal-title": "Eur. J. Oper. Res."
+            },
+            {
+              "key": "10.1016/j.engappai.2024.109212_bib151",
+              "series-title": "Reinforcement Learning Based Decentralized Weapon-Target Assignment and Guidance",
+              "first-page": "125",
+              "author": "Merkulov",
+              "year": "2024"
+            },
+            {
+              "key": "10.1016/j.engappai.2024.109212_bib152",
+              "series-title": "A Suite of Weapon Assignment Algorithms for a SDI Mid-course Battle Manager",
+              "author": "Metler",
+              "year": "1990"
+            },
+            {
+              "key": "10.1016/j.engappai.2024.109212_bib153",
+              "doi-asserted-by": "crossref",
+              "first-page": "605",
+              "DOI": "10.1287/opre.19.3.605",
+              "article-title": "Optimal allocation of missiles against area and point defenses",
+              "volume": "19",
+              "author": "Miercort",
+              "year": "1971",
+              "journal-title": "Oper. Res."
+            },
+            {
+              "key": "10.1016/j.engappai.2024.109212_bib154",
+              "series-title": "An Approximate Algorithm for a Weapon Target Assignment Stochastic Program",
+              "author": "Murphey",
+              "year": "2000"
+            },
+            {
+              "key": "10.1016/j.engappai.2024.109212_bib155",
+              "first-page": "53",
+              "article-title": "Weapon–target assignment by reinforcement learning with pointer network",
+              "volume": "20",
+              "author": "Na",
+              "year": "2023",
+              "journal-title": "J. Aero. Inf. Syst."
+            },
+            {
+              "key": "10.1016/j.engappai.2024.109212_bib156",
+              "doi-asserted-by": "crossref",
+              "first-page": "337",
+              "DOI": "10.1016/j.knosys.2009.11.012",
+              "article-title": "An optimal dynamic threat evaluation and weapon scheduling technique",
+              "volume": "23",
+              "author": "Naeem",
+              "year": "2010",
+              "journal-title": "Knowl. Base Syst."
+            },
+            {
+              "key": "10.1016/j.engappai.2024.109212_bib157",
+              "first-page": "1",
+              "article-title": "A novel two-staged decision support based threat evaluation and weapon assignment algorithm, asset-based dynamic weapon scheduling using artificial intelligence techinques",
+              "author": "Naeem",
+              "year": "2009",
+              "journal-title": "arXiv preprint arXiv:0907.0067"
+            },
+            {
+              "key": "10.1016/j.engappai.2024.109212_bib158",
+              "series-title": "5th International Conference on Intelligent Computing",
+              "first-page": "8",
+              "article-title": "A semi-automated dynamic approach to threat evaluation and optimal defensive resource allocation, Emerging Intelligent Computing Technology and Applications",
+              "author": "Naeem",
+              "year": "2009"
+            },
+            {
+              "key": "10.1016/j.engappai.2024.109212_bib159",
+              "doi-asserted-by": "crossref",
+              "first-page": "169",
+              "DOI": "10.1016/j.arcontrol.2017.03.003",
+              "article-title": "Decision support system for optimum decision making process in threat evaluation and weapon assignment: current status, challenges and future directions",
+              "volume": "43",
+              "author": "Naseem",
+              "year": "2017",
+              "journal-title": "Annu. Rev. Control"
+            },
+            {
+              "key": "10.1016/j.engappai.2024.109212_bib160",
+              "doi-asserted-by": "crossref",
+              "first-page": "281",
+              "DOI": "10.1002/nav.20377",
+              "article-title": "Optimizing assignment of Tomahawk cruise missile missions to firing units",
+              "volume": "58",
+              "author": "Newman",
+              "year": "2011",
+              "journal-title": "Nav. Res. Logist."
+            },
+            {
+              "key": "10.1016/j.engappai.2024.109212_bib161",
+              "doi-asserted-by": "crossref",
+              "first-page": "687",
+              "DOI": "10.1002/(SICI)1520-6750(199710)44:7<687::AID-NAV6>3.0.CO;2-8",
+              "article-title": "An engagement model to optimize defense against a multiple attack assuming perfect kill assessment",
+              "volume": "44",
+              "author": "Nguyen",
+              "year": "1997",
+              "journal-title": "Nav. Res. Logist."
+            },
+            {
+              "key": "10.1016/j.engappai.2024.109212_bib162",
+              "doi-asserted-by": "crossref",
+              "DOI": "10.1155/2011/873292",
+              "article-title": "A Lagrange relaxation method for solving weapon-target assignment problem",
+              "volume": "2011",
+              "author": "Ni",
+              "year": "2011",
+              "journal-title": "Math. Probl Eng."
+            },
+            {
+              "key": "10.1016/j.engappai.2024.109212_bib163",
+              "first-page": "40",
+              "article-title": "Optimal attack against an area defense protecting many targets",
+              "volume": "28",
+              "author": "O'Meara",
+              "year": "1990",
+              "journal-title": "INFOR Inf. Syst. Oper. Res."
+            },
+            {
+              "key": "10.1016/j.engappai.2024.109212_bib164",
+              "doi-asserted-by": "crossref",
+              "first-page": "605",
+              "DOI": "10.1002/1520-6750(198710)34:5<605::AID-NAV3220340502>3.0.CO;2-L",
+              "article-title": "Optimal weapons allocation against layered defenses",
+              "volume": "34",
+              "author": "Orlin",
+              "year": "1987",
+              "journal-title": "Nav. Res. Logist."
+            },
+            {
+              "key": "10.1016/j.engappai.2024.109212_bib165",
+              "series-title": "2006 9th International Conference on Information Fusion",
+              "first-page": "1",
+              "article-title": "Accommodating obstacle avoidance in the weapons allocation problem for tactical air defence",
+              "author": "Oxenham",
+              "year": "2006"
+            },
+            {
+              "key": "10.1016/j.engappai.2024.109212_bib166",
+              "doi-asserted-by": "crossref",
+              "first-page": "37498",
+              "DOI": "10.1109/ACCESS.2019.2905274",
+              "article-title": "A novel antagonistic weapon-target assignment model considering uncertainty and its solution using decomposition co-evolution algorithm",
+              "volume": "7",
+              "author": "Pan",
+              "year": "2019",
+              "journal-title": "IEEE Access"
+            },
+            {
+              "key": "10.1016/j.engappai.2024.109212_bib167",
+              "series-title": "2005 7th International Conference on Information Fusion",
+              "first-page": "1078",
+              "article-title": "Threat evaluation and weapons allocation in network-centric warfare",
+              "author": "Paradis",
+              "year": "2005"
+            },
+            {
+              "key": "10.1016/j.engappai.2024.109212_bib168",
+              "first-page": "1",
+              "article-title": "LIDS-P-2003 preferential defense strategies",
+              "author": "Patrick Hoseint",
+              "year": "1990",
+              "journal-title": "Part II : The Dynamic Case"
+            },
+            {
+              "key": "10.1016/j.engappai.2024.109212_bib170",
+              "series-title": "2008 7th World Congress on Intelligent Control and Automation",
+              "first-page": "2833",
+              "article-title": "Improved particle swarm optimization algorithm and its application in coordinated air combat missile-target assignment",
+              "author": "Peng",
+              "year": "2008"
+            },
+            {
+              "key": "10.1016/j.engappai.2024.109212_bib171",
+              "series-title": "Bio-inspired Computing – Theories and Applications",
+              "first-page": "114",
+              "article-title": "A hybrid multi-objective discrete particle swarm optimization algorithm for cooperative air combat DWTA",
+              "author": "Peng",
+              "year": "2016"
+            },
+            {
+              "key": "10.1016/j.engappai.2024.109212_bib172",
+              "series-title": "Proceedings of 1997 IEEE International Conference on Evolutionary Computation (ICEC '97)",
+              "first-page": "563",
+              "article-title": "A decision aid for theater missile defense",
+              "author": "Pepyne",
+              "year": "1997"
+            },
+            {
+              "key": "10.1016/j.engappai.2024.109212_bib173",
+              "doi-asserted-by": "crossref",
+              "first-page": "77",
+              "DOI": "10.1287/opre.9.1.77",
+              "article-title": "Optimum weapon deployment for nuclear attack",
+              "volume": "9",
+              "author": "Perkins",
+              "year": "1961",
+              "journal-title": "Oper. Res."
+            },
+            {
+              "key": "10.1016/j.engappai.2024.109212_bib174",
+              "series-title": "52nd IEEE Conference on Decision and Control",
+              "first-page": "5391",
+              "article-title": "Guidance-based missile allocation algorithm against a salvo attack",
+              "author": "Pryluk",
+              "year": "2013"
+            },
+            {
+              "key": "10.1016/j.engappai.2024.109212_bib175",
+              "doi-asserted-by": "crossref",
+              "first-page": "151",
+              "DOI": "10.1109/JSYST.2014.2344755",
+              "article-title": "Shoot–shoot–look for an air defense system",
+              "volume": "10",
+              "author": "Pryluk",
+              "year": "2016",
+              "journal-title": "IEEE Syst. J."
+            },
+            {
+              "key": "10.1016/j.engappai.2024.109212_bib176",
+              "series-title": "2006 6th International Conference on ITS Telecommunications",
+              "first-page": "298",
+              "article-title": "Decision of cooperative airfight and its realization by neural network",
+              "author": "Qi-feng",
+              "year": "2006"
+            },
+            {
+              "key": "10.1016/j.engappai.2024.109212_bib53",
+              "first-page": "1",
+              "article-title": "Deep reinforcement learning for weapons to targets assignment in a hypersonic strike",
+              "author": "Gaudet",
+              "year": "2023",
+              "journal-title": "arXiv preprint arXiv:2310.18509"
+            },
+            {
+              "key": "10.1016/j.engappai.2024.109212_bib177",
+              "series-title": "Decision support system for fighter pilots. IMM-PHD-2007-172",
+              "author": "Randleff",
+              "year": "2007"
+            },
+            {
+              "key": "10.1016/j.engappai.2024.109212_bib178",
+              "doi-asserted-by": "crossref",
+              "first-page": "138",
+              "DOI": "10.1080/08839514.2018.1451137",
+              "article-title": "A greedy ant colony system for defensive resource assignment problems",
+              "volume": "32",
+              "author": "Rezende",
+              "year": "2018",
+              "journal-title": "Appl. Artif. Intell."
+            },
+            {
+              "key": "10.1016/j.engappai.2024.109212_bib179",
+              "series-title": "Proceedings of Genetic and Evolutionary Computation Conference (GECCO)",
+              "first-page": "1",
+              "article-title": "Applying evolutionary multi-objective optimization to mission planning for time-sensitive targets",
+              "author": "Rosenberg",
+              "year": "2005"
+            },
+            {
+              "key": "10.1016/j.engappai.2024.109212_bib180",
+              "series-title": "The Generalized Weapon Target Assignment Problem",
+              "author": "Rosenberger",
+              "year": "2005"
+            },
+            {
+              "key": "10.1016/j.engappai.2024.109212_bib181",
+              "series-title": "2009 International Symposium on Performance Evaluation of Computer & Telecommunication Systems",
+              "first-page": "221",
+              "article-title": "A standard expert system for weapon target assignment problem",
+              "author": "Sahin",
+              "year": "2009"
+            },
+            {
+              "key": "10.1016/j.engappai.2024.109212_bib182",
+              "doi-asserted-by": "crossref",
+              "first-page": "30",
+              "DOI": "10.1016/j.ins.2013.08.004",
+              "article-title": "Approximating the optimal mapping for weapon target assignment by fuzzy reasoning",
+              "volume": "255",
+              "author": "Şahin",
+              "year": "2014",
+              "journal-title": "Inf. Sci."
+            },
+            {
+              "key": "10.1016/j.engappai.2024.109212_bib183",
+              "doi-asserted-by": "crossref",
+              "first-page": "2452",
+              "DOI": "10.2514/1.G002598",
+              "article-title": "Weapon–target-allocation strategies in multiagent target–missile–defender engagement",
+              "volume": "40",
+              "author": "Shalumov",
+              "year": "2017",
+              "journal-title": "J. Guid. Control Dynam."
+            },
+            {
+              "key": "10.1016/j.engappai.2024.109212_bib184",
+              "doi-asserted-by": "crossref",
+              "first-page": "10043",
+              "DOI": "10.3233/JIFS-202679",
+              "article-title": "A multi-objective sparse evolutionary framework for large-scale weapon target assignment based on a reward strategy",
+              "volume": "40",
+              "author": "Shi",
+              "year": "2021",
+              "journal-title": "J. Intell. Fuzzy Syst."
+            },
+            {
+              "key": "10.1016/j.engappai.2024.109212_bib185",
+              "doi-asserted-by": "crossref",
+              "first-page": "3601",
+              "DOI": "10.1007/s00500-022-06820-7",
+              "article-title": "Dynamic distributed constraint optimization using multi-agent reinforcement learning",
+              "volume": "26",
+              "author": "Shokoohi",
+              "year": "2022",
+              "journal-title": "Soft Comput."
+            },
+            {
+              "key": "10.1016/j.engappai.2024.109212_bib186",
+              "doi-asserted-by": "crossref",
+              "first-page": "596",
+              "DOI": "10.1002/nav.21867",
+              "article-title": "Bi-objective missile rescheduling for a naval task group with dynamic disruptions",
+              "volume": "66",
+              "author": "Silav",
+              "year": "2019",
+              "journal-title": "Nav. Res. Logist."
+            },
+            {
+              "key": "10.1016/j.engappai.2024.109212_bib187",
+              "first-page": "1",
+              "article-title": "Bi-objective dynamic weapon-target assignment problem with stability measure",
+              "volume": "2022",
+              "author": "Silav",
+              "year": "2021",
+              "journal-title": "Ann. Oper. Res."
+            },
+            {
+              "key": "10.1016/j.engappai.2024.109212_bib188",
+              "doi-asserted-by": "crossref",
+              "first-page": "590",
+              "DOI": "10.1287/opre.21.2.590",
+              "article-title": "Optimal defensive missile allocation: a discrete min-max problem",
+              "volume": "21",
+              "author": "Soland",
+              "year": "1973",
+              "journal-title": "Oper. Res."
+            },
+            {
+              "key": "10.1016/j.engappai.2024.109212_bib189",
+              "series-title": "2009 IEEE International Conference on Intelligent Computing and Intelligent Systems",
+              "first-page": "336",
+              "article-title": "A heuristic genetic algorithm for solving constrained weapon-target assignment problem",
+              "author": "Song",
+              "year": "2009"
+            },
+            {
+              "key": "10.1016/j.engappai.2024.109212_bib190",
+              "doi-asserted-by": "crossref",
+              "first-page": "39",
+              "DOI": "10.1016/j.swevo.2012.03.003",
+              "article-title": "A new approach to multi-aircraft air combat assignments",
+              "volume": "6",
+              "author": "Su",
+              "year": "2012",
+              "journal-title": "Swarm Evol. Comput."
+            },
+            {
+              "key": "10.1016/j.engappai.2024.109212_bib191",
+              "doi-asserted-by": "crossref",
+              "DOI": "10.1016/j.cor.2020.104890",
+              "article-title": "An approximate dynamic programming approach for comparing firing policies in a networked air defense environment",
+              "volume": "117",
+              "author": "Summers",
+              "year": "2020",
+              "journal-title": "Comput. Oper. Res."
+            },
+            {
+              "key": "10.1016/j.engappai.2024.109212_bib192",
+              "doi-asserted-by": "crossref",
+              "DOI": "10.1016/j.engappai.2020.104112",
+              "article-title": "Multi-agent hierarchical policy gradient for air combat tactics emergence via self-play",
+              "volume": "98",
+              "author": "Sun",
+              "year": "2021",
+              "journal-title": "Eng. Appl. Artif. Intell."
+            },
+            {
+              "key": "10.1016/j.engappai.2024.109212_bib193",
+              "doi-asserted-by": "crossref",
+              "DOI": "10.1016/j.ins.2023.119191",
+              "article-title": "Adaptive fuzzy based threat evaluation method for air and missile defense systems",
+              "volume": "643",
+              "author": "Tuncer",
+              "year": "2023",
+              "journal-title": "Inf. Sci."
+            },
+            {
+              "key": "10.1016/j.engappai.2024.109212_bib194",
+              "first-page": "1",
+              "article-title": "Efficacy analysis of NSGAII and multi-objective particle swarm optimization (MOPSO) in agent based weapon target assignment (WTA) model",
+              "author": "Tunga",
+              "year": "2024",
+              "journal-title": "Int. J. Inf. Technol."
+            },
+            {
+              "key": "10.1016/j.engappai.2024.109212_bib195",
+              "series-title": "2012 4th International Conference on Intelligent Human-Machine Systems and Cybernetics",
+              "first-page": "141",
+              "article-title": "Solving weapon-target assignment problems by cultural particle swarm optimization",
+              "author": "Wang",
+              "year": "2012"
+            },
+            {
+              "key": "10.1016/j.engappai.2024.109212_bib196",
+              "doi-asserted-by": "crossref",
+              "first-page": "298",
+              "DOI": "10.1016/j.ins.2022.04.053",
+              "article-title": "A reinforcement learning level-based particle swarm optimization algorithm for large-scale optimization",
+              "volume": "602",
+              "author": "Wang",
+              "year": "2022",
+              "journal-title": "Inf. Sci."
+            },
+            {
+              "key": "10.1016/j.engappai.2024.109212_bib197",
+              "doi-asserted-by": "crossref",
+              "DOI": "10.1016/j.engappai.2022.105612",
+              "article-title": "Unmanned ground weapon target assignment based on deep Q-learning network with an improved multi-objective artificial bee colony algorithm",
+              "volume": "117",
+              "author": "Wang",
+              "year": "2023",
+              "journal-title": "Eng. Appl. Artif. Intell."
+            },
+            {
+              "key": "10.1016/j.engappai.2024.109212_bib198",
+              "doi-asserted-by": "crossref",
+              "DOI": "10.1016/j.engappai.2022.105612",
+              "article-title": "Unmanned ground weapon target assignment based on deep Q-learning network with an improved multi-objective artificial bee colony algorithm",
+              "volume": "117",
+              "author": "Wang",
+              "year": "2023",
+              "journal-title": "Eng. Appl. Artif. Intell."
+            },
+            {
+              "key": "10.1016/j.engappai.2024.109212_bib199",
+              "series-title": "International Conference on Autonomous Unmanned Systems",
+              "first-page": "160",
+              "article-title": "Anti-missile firepower allocation based on multi-agent reinforcement learning",
+              "author": "Wang",
+              "year": "2023"
+            },
+            {
+              "key": "10.1016/j.engappai.2024.109212_bib200",
+              "series-title": "Signal and Data Processing of Small Targets 2008",
+              "first-page": "193",
+              "article-title": "Game theoretic target assignment approach in ballistic missile defense",
+              "author": "Wei",
+              "year": "2008"
+            },
+            {
+              "key": "10.1016/j.engappai.2024.109212_bib201",
+              "first-page": "1",
+              "article-title": "Applying an AI planner to military operations planning",
+              "author": "Wilkins",
+              "year": "1996",
+              "journal-title": "SRI International"
+            },
+            {
+              "key": "10.1016/j.engappai.2024.109212_bib202",
+              "series-title": "2008 IEEE Congress on Evolutionary Computation",
+              "first-page": "2020",
+              "article-title": "An anytime algorithm based on modified GA for dynamic weapon-target allocation problem",
+              "author": "Wu",
+              "year": "2008"
+            },
+            {
+              "key": "10.1016/j.engappai.2024.109212_bib203",
+              "series-title": "2008 IEEE Congress on Evolutionary Computation",
+              "first-page": "3755",
+              "article-title": "An anytime algorithm applied to dynamic weapon-target allocation problem with decreasing weapons and targets",
+              "author": "Wu",
+              "year": "2008"
+            },
+            {
+              "key": "10.1016/j.engappai.2024.109212_bib204",
+              "doi-asserted-by": "crossref",
+              "first-page": "649",
+              "DOI": "10.1109/TSMCC.2010.2049261",
+              "article-title": "Efficient decision makings for dynamic weapon-target assignment by virtual permutation and Tabu search heuristics",
+              "volume": "40",
+              "author": "Xin",
+              "year": "2010",
+              "journal-title": "IEEE Transactions on Systems, Man, and Cybernetics, Part C (Applications and Reviews)"
+            },
+            {
+              "key": "10.1016/j.engappai.2024.109212_bib205",
+              "doi-asserted-by": "crossref",
+              "first-page": "598",
+              "DOI": "10.1109/TSMCA.2010.2089511",
+              "article-title": "An efficient rule-based constructive heuristic to solve dynamic weapon-target assignment problem",
+              "volume": "41",
+              "author": "Xin",
+              "year": "2011",
+              "journal-title": "IEEE Trans. Syst. Man Cybern. Syst. Hum."
+            },
+            {
+              "key": "10.1016/j.engappai.2024.109212_bib206",
+              "doi-asserted-by": "crossref",
+              "first-page": "2536",
+              "DOI": "10.1109/TSMC.2017.2784187",
+              "article-title": "An efficient marginal-return-based constructive heuristic to solve the sensor–weapon–target assignment problem",
+              "volume": "49",
+              "author": "Xin",
+              "year": "2019",
+              "journal-title": "IEEE Transactions on Systems, Man, and Cybernetics: Systems"
+            },
+            {
+              "key": "10.1016/j.engappai.2024.109212_bib207",
+              "doi-asserted-by": "crossref",
+              "DOI": "10.1016/j.eswa.2019.112844",
+              "article-title": "A bi-objective dynamic collaborative task assignment under uncertainty using modified MOEA/D with heuristic initialization",
+              "volume": "140",
+              "author": "Xu",
+              "year": "2020",
+              "journal-title": "Expert Syst. Appl."
+            },
+            {
+              "key": "10.1016/j.engappai.2024.109212_bib208",
+              "series-title": "2018 IEEE/ASME International Conference on Advanced Intelligent Mechatronics (AIM)",
+              "first-page": "1160",
+              "article-title": "A multi-information particle swarm optimization algorithm for weapon target assignment of multiple kill vehicle",
+              "author": "Yang",
+              "year": "2018"
+            },
+            {
+              "key": "10.1016/j.engappai.2024.109212_bib209",
+              "series-title": "Modern Missile Guidance",
+              "author": "Yanushevsky",
+              "year": "2018"
+            },
+            {
+              "key": "10.1016/j.engappai.2024.109212_bib210",
+              "doi-asserted-by": "crossref",
+              "first-page": "939",
+              "DOI": "10.1016/S1004-4132(08)60179-6",
+              "article-title": "Weapon target assignment problem satisfying expected damage probabilities based on ant colony algorithm",
+              "volume": "19",
+              "author": "Yanxia",
+              "year": "2008",
+              "journal-title": "J. Syst. Eng. Electron."
+            },
+            {
+              "key": "10.1016/j.engappai.2024.109212_bib211",
+              "doi-asserted-by": "crossref",
+              "DOI": "10.1016/j.neucom.2023.126906",
+              "article-title": "Solving multi-objective weapon-target assignment considering reliability by improved MOEA/D-AM2M",
+              "volume": "563",
+              "author": "Yi",
+              "year": "2024",
+              "journal-title": "Neurocomputing"
+            },
+            {
+              "key": "10.1016/j.engappai.2024.109212_bib212",
+              "doi-asserted-by": "crossref",
+              "first-page": "1511",
+              "DOI": "10.3390/electronics9091511",
+              "article-title": "Efficient decision approaches for asset-based dynamic weapon target assignment by a receding horizon and marginal return heuristic",
+              "volume": "9",
+              "author": "Zhang",
+              "year": "2020",
+              "journal-title": "Electronics"
+            },
+            {
+              "key": "10.1016/j.engappai.2024.109212_bib213",
+              "series-title": "2024 SICE International Symposium on Control Systems (SICE ISCS)",
+              "first-page": "7",
+              "article-title": "Interception of multiple drone targets by heterogeneous chasers using heuristic task allocations with DQN-GNN guidance model",
+              "author": "Zhang",
+              "year": "2024"
+            },
+            {
+              "key": "10.1016/j.engappai.2024.109212_bib214",
+              "doi-asserted-by": "crossref",
+              "first-page": "4811",
+              "DOI": "10.1007/s40747-022-00730-9",
+              "article-title": "A hybrid multi-objective bi-level interactive fuzzy programming method for solving ECM-DWTA problem",
+              "volume": "8",
+              "author": "Zhao",
+              "year": "2022",
+              "journal-title": "Complex Intelligent Sys."
+            },
+            {
+              "key": "10.1016/j.engappai.2024.109212_bib215",
+              "doi-asserted-by": "crossref",
+              "first-page": "1007",
+              "DOI": "10.23919/JSEE.2023.000102",
+              "article-title": "Shuffled frog leaping algorithm with non-dominated sorting for dynamic weapon-target assignment",
+              "volume": "34",
+              "author": "Zhao",
+              "year": "2023",
+              "journal-title": "J. Syst. Eng. Electron."
+            },
+            {
+              "key": "10.1016/j.engappai.2024.109212_bib216",
+              "series-title": "2016 12th World Congress on Intelligent Control and Automation (WCICA)",
+              "first-page": "3118",
+              "article-title": "A discrete particle swarm optimization algorithm applied in constrained static weapon-target assignment problem",
+              "author": "Zhou",
+              "year": "2016"
+            },
+            {
+              "key": "10.1016/j.engappai.2024.109212_bib217",
+              "series-title": "Proceedings of 2011 International Conference on Electronic & Mechanical Engineering and Information Technology",
+              "first-page": "1385",
+              "article-title": "A novel approach to solving weapon-target assignment problem based on hybrid particle swarm optimization algorithm",
+              "author": "Zhu",
+              "year": "2011"
+            },
+            {
+              "key": "10.1016/j.engappai.2024.109212_bib218",
+              "doi-asserted-by": "crossref",
+              "DOI": "10.3390/electronics11193035",
+              "article-title": "Bi-level fuzzy expectation-based dynamic anti-missile weapon target allocation in rolling horizons",
+              "volume": "11",
+              "author": "Zhu",
+              "year": "2022",
+              "journal-title": "Electronics"
+            },
+            {
+              "key": "10.1016/j.engappai.2024.109212_bib219",
+              "first-page": "1",
+              "article-title": "Preference-based experience sharing scheme for multi-agent reinforcement learning in multi-target environments",
+              "author": "Zuo",
+              "year": "2024",
+              "journal-title": "Evolving Sys."
+            }
+          ],
+          "container-title": [
+            "Engineering Applications of Artificial Intelligence"
+          ],
+          "language": "en",
+          "link": [
+            {
+              "URL": "https://api.elsevier.com/content/article/PII:S0952197624013708?httpAccept=text/xml",
+              "content-type": "text/xml",
+              "content-version": "vor",
+              "intended-application": "text-mining"
+            },
+            {
+              "URL": "https://api.elsevier.com/content/article/PII:S0952197624013708?httpAccept=text/plain",
+              "content-type": "text/plain",
+              "content-version": "vor",
+              "intended-application": "text-mining"
+            }
+          ],
+          "deposited": {
+            "date-parts": [
+              [
+                2024,
+                11,
+                5
+              ]
+            ],
+            "date-time": "2024-11-05T02:29:17Z",
+            "timestamp": 1730773757000
+          },
+          "score": 38.65374,
+          "resource": {
+            "primary": {
+              "URL": "https://linkinghub.elsevier.com/retrieve/pii/S0952197624013708"
+            }
+          },
+          "issued": {
+            "date-parts": [
+              [
+                2024,
+                11
+              ]
+            ]
+          },
+          "references-count": 217,
+          "alternative-id": [
+            "S0952197624013708"
+          ],
+          "URL": "https://doi.org/10.1016/j.engappai.2024.109212",
+          "ISSN": [
+            "0952-1976"
+          ],
+          "issn-type": [
+            {
+              "value": "0952-1976",
+              "type": "print"
+            }
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2024,
+                11
+              ]
+            ]
+          },
+          "assertion": [
+            {
+              "value": "Elsevier",
+              "name": "publisher",
+              "label": "This article is maintained by"
+            },
+            {
+              "value": "A comprehensive survey of weapon target assignment problem: Model, algorithm, and application",
+              "name": "articletitle",
+              "label": "Article Title"
+            },
+            {
+              "value": "Engineering Applications of Artificial Intelligence",
+              "name": "journaltitle",
+              "label": "Journal Title"
+            },
+            {
+              "value": "https://doi.org/10.1016/j.engappai.2024.109212",
+              "name": "articlelink",
+              "label": "CrossRef DOI link to publisher maintained version"
+            },
+            {
+              "value": "article",
+              "name": "content_type",
+              "label": "Content Type"
+            },
+            {
+              "value": "© 2024 Elsevier Ltd. All rights are reserved, including those for text and data mining, AI training, and similar technologies.",
+              "name": "copyright",
+              "label": "Copyright"
+            }
+          ],
+          "article-number": "109212"
+        },
+        {
+          "indexed": {
+            "date-parts": [
+              [
+                2024,
+                10,
+                30
+              ]
+            ],
+            "date-time": "2024-10-30T05:16:51Z",
+            "timestamp": 1730265411307,
+            "version": "3.28.0"
+          },
+          "reference-count": 11,
+          "publisher": "IEEE",
+          "content-domain": {
+            "domain": [],
+            "crossmark-restriction": false
+          },
+          "published-print": {
+            "date-parts": [
+              [
+                2018,
+                8
+              ]
+            ]
+          },
+          "DOI": "10.1109/ihmsc.2018.00028",
+          "type": "proceedings-article",
+          "created": {
+            "date-parts": [
+              [
+                2018,
+                11,
+                12
+              ]
+            ],
+            "date-time": "2018-11-12T23:49:23Z",
+            "timestamp": 1542066563000
+          },
+          "page": "89-92",
+          "source": "Crossref",
+          "is-referenced-by-count": 1,
+          "title": [
+            "Improved Assignment Model and Genetic Algorithm for Solving Antiaircraft Weapon-Target Assignment"
+          ],
+          "prefix": "10.1109",
+          "author": [
+            {
+              "given": "Haiwen",
+              "family": "Sun",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Xiaofang",
+              "family": "Xie",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Tao",
+              "family": "Sun",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            }
+          ],
+          "member": "263",
+          "reference": [
+            {
+              "key": "ref4",
+              "first-page": "906",
+              "article-title": "Weapon-target assignment in multi-launcher syatem based on improved integer firld particle swarm optimization algorithm[J]",
+              "volume": "32",
+              "author": "yang",
+              "year": "2011",
+              "journal-title": "Acta Armamentarii"
+            },
+            {
+              "key": "ref3",
+              "first-page": "97",
+              "article-title": "Improved genetic algorithm for solving firepower assignment[J]",
+              "volume": "37",
+              "author": "dong",
+              "year": "2016",
+              "journal-title": "Acta Armamentarii"
+            },
+            {
+              "key": "ref10",
+              "first-page": "70",
+              "article-title": "Weapon-target assignment with fuzzy multi-objective ranking genetic algorithm[J]",
+              "volume": "24",
+              "author": "xu",
+              "year": "2010",
+              "journal-title": "Military Operational and System Engineering"
+            },
+            {
+              "key": "ref6",
+              "first-page": "25",
+              "article-title": "Firepower assignment problems based on Hungarian method[J]",
+              "volume": "32",
+              "author": "huang",
+              "year": "2007",
+              "journal-title": "Fire Control and Command Control"
+            },
+            {
+              "key": "ref11",
+              "first-page": "2085",
+              "article-title": "Weapon-target assignment with an improved multi-objective particle swarm optimization algorithm[J]",
+              "volume": "37",
+              "author": "xia",
+              "year": "2016",
+              "journal-title": "Acta Armamentarii"
+            },
+            {
+              "key": "ref5",
+              "first-page": "626",
+              "article-title": "Weapon-target assignment based on simulated annealing and discrete particle swarm optimization in cooperative air combat[J]",
+              "volume": "31",
+              "author": "li",
+              "year": "2010",
+              "journal-title": "Acta Aeronautica et Astronautica Sinica"
+            },
+            {
+              "key": "ref8",
+              "first-page": "144",
+              "article-title": "An improved multi-objective particle swarm optimization algorithm MOPSO-II [J]",
+              "volume": "60",
+              "author": "xie",
+              "year": "2014",
+              "journal-title": "Journal of WuHan University Natural Science Edition"
+            },
+            {
+              "key": "ref7",
+              "first-page": "1261",
+              "article-title": "A uniform searching particle swarm optimization algorithm[J]",
+              "volume": "39",
+              "author": "wu",
+              "year": "2011",
+              "journal-title": "Acta Electronica Sinica"
+            },
+            {
+              "key": "ref2",
+              "first-page": "1525",
+              "article-title": "Research on Modeling and optimization method of fire assignment in formation antiaircraft[J]",
+              "volume": "31",
+              "author": "ruan",
+              "year": "2010",
+              "journal-title": "Acta Armamentarii"
+            },
+            {
+              "key": "ref9",
+              "first-page": "1166",
+              "article-title": "Research on air combat decision-making for cooperative multiple target attack using heuristic ant colony algorithm[J]",
+              "volume": "27",
+              "author": "luo",
+              "year": "2006",
+              "journal-title": "Acta Areonautica et Astronautica Sinica"
+            },
+            {
+              "key": "ref1",
+              "first-page": "675",
+              "article-title": "Method of aptitudinally distributing firepower in aerial defence[J]",
+              "volume": "31",
+              "author": "zhang",
+              "year": "2006",
+              "journal-title": "Fire Control and Command Control"
+            }
+          ],
+          "event": {
+            "name": "2018 10th International Conference on Intelligent Human-Machine Systems and Cybernetics (IHMSC)",
+            "start": {
+              "date-parts": [
+                [
+                  2018,
+                  8,
+                  25
+                ]
+              ]
+            },
+            "location": "Hangzhou",
+            "end": {
+              "date-parts": [
+                [
+                  2018,
+                  8,
+                  26
+                ]
+              ]
+            }
+          },
+          "container-title": [
+            "2018 10th International Conference on Intelligent Human-Machine Systems and Cybernetics (IHMSC)"
+          ],
+          "link": [
+            {
+              "URL": "http://xplorestaging.ieee.org/ielx7/8529148/8530257/08530285.pdf?arnumber=8530285",
+              "content-type": "unspecified",
+              "content-version": "vor",
+              "intended-application": "similarity-checking"
+            }
+          ],
+          "deposited": {
+            "date-parts": [
+              [
+                2022,
+                1,
+                27
+              ]
+            ],
+            "date-time": "2022-01-27T16:56:27Z",
+            "timestamp": 1643302587000
+          },
+          "score": 36.56952,
+          "resource": {
+            "primary": {
+              "URL": "https://ieeexplore.ieee.org/document/8530285/"
+            }
+          },
+          "issued": {
+            "date-parts": [
+              [
+                2018,
+                8
+              ]
+            ]
+          },
+          "references-count": 11,
+          "URL": "https://doi.org/10.1109/ihmsc.2018.00028",
+          "published": {
+            "date-parts": [
+              [
+                2018,
+                8
+              ]
+            ]
+          }
+        },
+        {
+          "indexed": {
+            "date-parts": [
+              [
+                2024,
+                7,
+                5
+              ]
+            ],
+            "date-time": "2024-07-05T09:50:09Z",
+            "timestamp": 1720173009640
+          },
+          "reference-count": 0,
+          "publisher": "Elsevier BV",
+          "license": [
+            {
+              "start": {
+                "date-parts": [
+                  [
+                    1988,
+                    1,
+                    1
+                  ]
+                ],
+                "date-time": "1988-01-01T00:00:00Z",
+                "timestamp": 567993600000
+              },
+              "content-version": "tdm",
+              "delay-in-days": 0,
+              "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+            }
+          ],
+          "content-domain": {
+            "domain": [],
+            "crossmark-restriction": false
+          },
+          "short-container-title": [
+            "Neural Networks"
+          ],
+          "published-print": {
+            "date-parts": [
+              [
+                1988,
+                1
+              ]
+            ]
+          },
+          "DOI": "10.1016/0893-6080(88)90186-4",
+          "type": "journal-article",
+          "created": {
+            "date-parts": [
+              [
+                2003,
+                4,
+                25
+              ]
+            ],
+            "date-time": "2003-04-25T01:05:53Z",
+            "timestamp": 1051232753000
+          },
+          "page": "147",
+          "source": "Crossref",
+          "is-referenced-by-count": 0,
+          "special_numbering": "S1",
+          "title": [
+            "A neural network algorithm for the target-weapon-assignment problem"
+          ],
+          "prefix": "10.1016",
+          "volume": "1",
+          "member": "78",
+          "container-title": [
+            "Neural Networks"
+          ],
+          "language": "en",
+          "link": [
+            {
+              "URL": "https://api.elsevier.com/content/article/PII:0893608088901864?httpAccept=text/xml",
+              "content-type": "text/xml",
+              "content-version": "vor",
+              "intended-application": "text-mining"
+            },
+            {
+              "URL": "https://api.elsevier.com/content/article/PII:0893608088901864?httpAccept=text/plain",
+              "content-type": "text/plain",
+              "content-version": "vor",
+              "intended-application": "text-mining"
+            }
+          ],
+          "deposited": {
+            "date-parts": [
+              [
+                2019,
+                3,
+                22
+              ]
+            ],
+            "date-time": "2019-03-22T14:53:16Z",
+            "timestamp": 1553266396000
+          },
+          "score": 35.225792,
+          "resource": {
+            "primary": {
+              "URL": "https://linkinghub.elsevier.com/retrieve/pii/0893608088901864"
+            }
+          },
+          "issued": {
+            "date-parts": [
+              [
+                1988,
+                1
+              ]
+            ]
+          },
+          "references-count": 0,
+          "alternative-id": [
+            "0893608088901864"
+          ],
+          "URL": "https://doi.org/10.1016/0893-6080(88)90186-4",
+          "ISSN": [
+            "0893-6080"
+          ],
+          "issn-type": [
+            {
+              "value": "0893-6080",
+              "type": "print"
+            }
+          ],
+          "published": {
+            "date-parts": [
+              [
+                1988,
+                1
+              ]
+            ]
+          }
+        }
+      ],
+      "items-per-page": 3,
+      "query": {
+        "start-index": 0,
+        "search-terms": null
+      }
+    }
+  }
+}

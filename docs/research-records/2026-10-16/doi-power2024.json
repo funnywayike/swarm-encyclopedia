@@ -1,0 +1,2236 @@
+{
+  "retrieved": "2026-10-16",
+  "url": "https://api.crossref.org/works/10.1016/j.asoc.2023.111047",
+  "response": {
+    "status": "ok",
+    "message-type": "work",
+    "message-version": "1.0.0",
+    "message": {
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            10,
+            10
+          ]
+        ],
+        "date-time": "2026-10-10T11:01:57Z",
+        "timestamp": 1791630117728,
+        "version": "4.3.4"
+      },
+      "reference-count": 173,
+      "publisher": "Elsevier BV",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2024,
+                1,
+                1
+              ]
+            ],
+            "date-time": "2024-01-01T00:00:00Z",
+            "timestamp": 1704067200000
+          },
+          "content-version": "tdm",
+          "delay-in-days": 0,
+          "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+        },
+        {
+          "start": {
+            "date-parts": [
+              [
+                2024,
+                1,
+                1
+              ]
+            ],
+            "date-time": "2024-01-01T00:00:00Z",
+            "timestamp": 1704067200000
+          },
+          "content-version": "tdm",
+          "delay-in-days": 0,
+          "URL": "https://www.elsevier.com/legal/tdmrep-license"
+        },
+        {
+          "start": {
+            "date-parts": [
+              [
+                2024,
+                1,
+                1
+              ]
+            ],
+            "date-time": "2024-01-01T00:00:00Z",
+            "timestamp": 1704067200000
+          },
+          "content-version": "stm-asf",
+          "delay-in-days": 0,
+          "URL": "https://doi.org/10.15223/policy-017"
+        },
+        {
+          "start": {
+            "date-parts": [
+              [
+                2024,
+                1,
+                1
+              ]
+            ],
+            "date-time": "2024-01-01T00:00:00Z",
+            "timestamp": 1704067200000
+          },
+          "content-version": "stm-asf",
+          "delay-in-days": 0,
+          "URL": "https://doi.org/10.15223/policy-037"
+        },
+        {
+          "start": {
+            "date-parts": [
+              [
+                2024,
+                1,
+                1
+              ]
+            ],
+            "date-time": "2024-01-01T00:00:00Z",
+            "timestamp": 1704067200000
+          },
+          "content-version": "stm-asf",
+          "delay-in-days": 0,
+          "URL": "https://doi.org/10.15223/policy-012"
+        },
+        {
+          "start": {
+            "date-parts": [
+              [
+                2024,
+                1,
+                1
+              ]
+            ],
+            "date-time": "2024-01-01T00:00:00Z",
+            "timestamp": 1704067200000
+          },
+          "content-version": "stm-asf",
+          "delay-in-days": 0,
+          "URL": "https://doi.org/10.15223/policy-029"
+        },
+        {
+          "start": {
+            "date-parts": [
+              [
+                2024,
+                1,
+                1
+              ]
+            ],
+            "date-time": "2024-01-01T00:00:00Z",
+            "timestamp": 1704067200000
+          },
+          "content-version": "stm-asf",
+          "delay-in-days": 0,
+          "URL": "https://doi.org/10.15223/policy-004"
+        }
+      ],
+      "funder": [
+        {
+          "DOI": "10.13039/501100003141",
+          "name": "CONACYT",
+          "doi-asserted-by": "publisher",
+          "award": [
+            "2021-000001-01NACF-00604"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "2021-000001-01NACF-00604"
+              ]
+            }
+          ],
+          "id": [
+            {
+              "id": "10.13039/501100003141",
+              "id-type": "DOI",
+              "asserted-by": "publisher"
+            }
+          ]
+        },
+        {
+          "DOI": "10.13039/501100003141",
+          "name": "CONACYT",
+          "doi-asserted-by": "publisher",
+          "award": [
+            "287479"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "287479"
+              ]
+            }
+          ],
+          "id": [
+            {
+              "id": "10.13039/501100003141",
+              "id-type": "DOI",
+              "asserted-by": "publisher"
+            }
+          ]
+        },
+        {
+          "DOI": "10.13039/501100004961",
+          "name": "Instituto Tecnológico y de Estudios Superiores de Monterrey",
+          "doi-asserted-by": "publisher",
+          "award": [
+            "NUA A00834075"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "NUA A00834075"
+              ]
+            }
+          ],
+          "id": [
+            {
+              "id": "10.13039/501100004961",
+              "id-type": "DOI",
+              "asserted-by": "publisher"
+            }
+          ]
+        }
+      ],
+      "content-domain": {
+        "domain": [
+          "elsevier.com",
+          "sciencedirect.com"
+        ],
+        "crossmark-restriction": true
+      },
+      "short-container-title": [
+        "Applied Soft Computing"
+      ],
+      "published-print": {
+        "date-parts": [
+          [
+            2024,
+            1
+          ]
+        ]
+      },
+      "DOI": "10.1016/j.asoc.2023.111047",
+      "type": "journal-article",
+      "created": {
+        "date-parts": [
+          [
+            2023,
+            11,
+            11
+          ]
+        ],
+        "date-time": "2023-11-11T03:01:20Z",
+        "timestamp": 1699671680000
+      },
+      "page": "111047",
+      "update-policy": "https://doi.org/10.1016/elsevier_cm_policy",
+      "source": "Crossref",
+      "is-referenced-by-count": 67,
+      "special_numbering": "C",
+      "title": [
+        "A systematic review of metaheuristic algorithms in electric power systems optimization"
+      ],
+      "prefix": "10.1016",
+      "volume": "150",
+      "author": [
+        {
+          "given": "Gerardo Humberto",
+          "family": "Valencia-Rivera",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Maria Torcoroma",
+          "family": "Benavides-Robles",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Alonso",
+          "family": "Vela Morales",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-8821-7137",
+          "authenticated-orcid": false,
+          "given": "Ivan",
+          "family": "Amaya",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Jorge M.",
+          "family": "Cruz-Duarte",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "José Carlos",
+          "family": "Ortiz-Bayliss",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Juan Gabriel",
+          "family": "Avina-Cervantes",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "78",
+      "reference": [
+        {
+          "key": "10.1016/j.asoc.2023.111047_b1",
+          "doi-asserted-by": "crossref",
+          "first-page": "1",
+          "DOI": "10.3390/en10101658",
+          "article-title": "Newton power flow methods for unbalanced three-phase distribution networks",
+          "volume": "10",
+          "author": "Sereeter",
+          "year": "2017",
+          "journal-title": "Energies"
+        },
+        {
+          "key": "10.1016/j.asoc.2023.111047_b2",
+          "series-title": "Standalone Photovoltaic (PV) Systems for Disaster Relief and Remote Areas",
+          "first-page": "1",
+          "article-title": "Chapter 1 - Photovoltaics for disaster relief and remote areas",
+          "author": "Qazi",
+          "year": "2017"
+        },
+        {
+          "key": "10.1016/j.asoc.2023.111047_b3",
+          "doi-asserted-by": "crossref",
+          "first-page": "1",
+          "DOI": "10.1016/j.ijepes.2022.107979",
+          "article-title": "Modeling of electric springs and their multi-objective voltage control based on continuous genetic algorithm for unbalanced distribution networks",
+          "volume": "138",
+          "author": "Tapia-Tinoco",
+          "year": "2022",
+          "journal-title": "Int. J. Electr. Power Energy Syst."
+        },
+        {
+          "issue": "3",
+          "key": "10.1016/j.asoc.2023.111047_b4",
+          "doi-asserted-by": "crossref",
+          "first-page": "321",
+          "DOI": "10.17775/CSEEJPES.2017.00240",
+          "article-title": "Linear three-phase power flow for unbalanced active distribution networks with PV nodes",
+          "volume": "3",
+          "author": "Wang",
+          "year": "2017",
+          "journal-title": "CSEE J. Power Energy Syst."
+        },
+        {
+          "key": "10.1016/j.asoc.2023.111047_b5",
+          "doi-asserted-by": "crossref",
+          "first-page": "402",
+          "DOI": "10.1016/j.rser.2018.03.040",
+          "article-title": "Microgrids: A review of technologies, key drivers, and outstanding issues",
+          "volume": "90",
+          "author": "Hirsch",
+          "year": "2018",
+          "journal-title": "Renew. Sustain. Energy Rev."
+        },
+        {
+          "key": "10.1016/j.asoc.2023.111047_b6",
+          "doi-asserted-by": "crossref",
+          "first-page": "1",
+          "DOI": "10.1016/j.apenergy.2019.114039",
+          "article-title": "Microgrids: Overview and guidelines for practical implementations and operation",
+          "volume": "258",
+          "author": "Cagnano",
+          "year": "2020",
+          "journal-title": "Appl. Energy"
+        },
+        {
+          "key": "10.1016/j.asoc.2023.111047_b7",
+          "series-title": "Intelligent Data-Analytics for Condition Monitoring",
+          "first-page": "91",
+          "article-title": "Chapter 5 - Intelligent data analytics for power quality disturbance diagnosis using extreme learning machine (ELM)",
+          "author": "Malik",
+          "year": "2021"
+        },
+        {
+          "key": "10.1016/j.asoc.2023.111047_b8",
+          "first-page": "1",
+          "article-title": "Hybrid artificial neural network based on a metaheuristic optimization algorithm for the prediction of reservoir temperature using hydrogeochemical data of different geothermal areas in Anatolia (Turkey)",
+          "volume": "104",
+          "author": "Altay",
+          "year": "2022",
+          "journal-title": "Geothermics"
+        },
+        {
+          "key": "10.1016/j.asoc.2023.111047_b9",
+          "doi-asserted-by": "crossref",
+          "first-page": "415",
+          "DOI": "10.1016/j.neucom.2019.09.110",
+          "article-title": "A novel competitive swarm optimized RBF neural network model for short-term solar power generation forecasting",
+          "volume": "397",
+          "author": "Yang",
+          "year": "2020",
+          "journal-title": "Neurocomputing"
+        },
+        {
+          "key": "10.1016/j.asoc.2023.111047_b10",
+          "doi-asserted-by": "crossref",
+          "first-page": "1",
+          "DOI": "10.1016/j.energy.2022.123735",
+          "article-title": "Prediction of transportation energy demand by novel hybrid meta-heuristic ANN",
+          "volume": "249",
+          "author": "Sahraei",
+          "year": "2022",
+          "journal-title": "Energy"
+        },
+        {
+          "key": "10.1016/j.asoc.2023.111047_b11",
+          "first-page": "1",
+          "article-title": "Optimal placement and sizing of FACTS devices for optimal power flow using metaheuristic optimizers",
+          "volume": "8",
+          "author": "Sulaiman",
+          "year": "2022",
+          "journal-title": "Results Control Optim."
+        },
+        {
+          "key": "10.1016/j.asoc.2023.111047_b12",
+          "series-title": "Simulation-Driven Design Optimization and Modeling for Microwave Engineering",
+          "first-page": "19",
+          "article-title": "Derivative-free methods and metaheuristics",
+          "author": "Yang",
+          "year": "2013"
+        },
+        {
+          "issue": "10",
+          "key": "10.1016/j.asoc.2023.111047_b13",
+          "doi-asserted-by": "crossref",
+          "first-page": "1",
+          "DOI": "10.3390/electronics11101655",
+          "article-title": "Hardware-in-the-loop validation of direct MPPT based cuckoo search optimization for partially shaded photovoltaic system",
+          "volume": "11",
+          "author": "Al-Shammaa",
+          "year": "2022",
+          "journal-title": "Electronics"
+        },
+        {
+          "issue": "4",
+          "key": "10.1016/j.asoc.2023.111047_b14",
+          "doi-asserted-by": "crossref",
+          "first-page": "2172",
+          "DOI": "10.1111/itor.13070",
+          "article-title": "A variable neighborhood search simheuristic algorithm for reliability optimization of smart grids under uncertainty",
+          "volume": "29",
+          "author": "Antoniadis",
+          "year": "2022",
+          "journal-title": "Int. Trans. Oper. Res."
+        },
+        {
+          "key": "10.1016/j.asoc.2023.111047_b15",
+          "doi-asserted-by": "crossref",
+          "first-page": "1",
+          "DOI": "10.1016/j.conengprac.2021.105010",
+          "article-title": "Robust Control of GTIs under wide grid impedance ranges: An approach combining metaheuristics and LMIs",
+          "volume": "120",
+          "author": "Borin",
+          "year": "2022",
+          "journal-title": "Control Eng. Pract."
+        },
+        {
+          "key": "10.1016/j.asoc.2023.111047_b16",
+          "doi-asserted-by": "crossref",
+          "first-page": "1088",
+          "DOI": "10.1016/j.rser.2015.07.004",
+          "article-title": "Optimisation of electric distribution systems: A review",
+          "volume": "51",
+          "author": "Jordehi",
+          "year": "2015",
+          "journal-title": "Renew. Sustain. Energy Rev."
+        },
+        {
+          "key": "10.1016/j.asoc.2023.111047_b17",
+          "doi-asserted-by": "crossref",
+          "first-page": "413",
+          "DOI": "10.1016/j.rser.2015.04.025",
+          "article-title": "Computational optimization techniques applied to microgrids planning: A review",
+          "volume": "48",
+          "author": "Gamarra",
+          "year": "2015",
+          "journal-title": "Renew. Sustain. Energy Rev."
+        },
+        {
+          "key": "10.1016/j.asoc.2023.111047_b18",
+          "doi-asserted-by": "crossref",
+          "first-page": "1412",
+          "DOI": "10.1016/j.rser.2015.07.055",
+          "article-title": "Operation and control strategies of integrated distributed energy resources: A review",
+          "volume": "51",
+          "author": "Rahman",
+          "year": "2015",
+          "journal-title": "Renew. Sustain. Energy Rev."
+        },
+        {
+          "key": "10.1016/j.asoc.2023.111047_b19",
+          "doi-asserted-by": "crossref",
+          "first-page": "308",
+          "DOI": "10.1016/j.rser.2018.12.054",
+          "article-title": "Optimisation of demand response in electric power systems, a review",
+          "volume": "103",
+          "author": "Jordehi",
+          "year": "2019",
+          "journal-title": "Renew. Sustain. Energy Rev."
+        },
+        {
+          "key": "10.1016/j.asoc.2023.111047_b20",
+          "doi-asserted-by": "crossref",
+          "first-page": "893",
+          "DOI": "10.1016/j.rser.2015.11.086",
+          "article-title": "Allocation of distributed generation units in electric power systems: A review",
+          "volume": "56",
+          "author": "Rezaee Jordehi",
+          "year": "2016",
+          "journal-title": "Renew. Sustain. Energy Rev."
+        },
+        {
+          "key": "10.1016/j.asoc.2023.111047_b21",
+          "doi-asserted-by": "crossref",
+          "first-page": "1",
+          "DOI": "10.3390/en14164776",
+          "article-title": "Advances in the application of machine learning techniques for power system analytics: A survey",
+          "volume": "14",
+          "author": "Miraftabzadeh",
+          "year": "2021",
+          "journal-title": "Energies"
+        },
+        {
+          "issue": "8",
+          "key": "10.1016/j.asoc.2023.111047_b22",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.3390/en15082866",
+          "article-title": "Recent techniques used in home energy management systems: A review",
+          "volume": "15",
+          "author": "Gomes",
+          "year": "2022",
+          "journal-title": "Energies"
+        },
+        {
+          "issue": "1",
+          "key": "10.1016/j.asoc.2023.111047_b23",
+          "doi-asserted-by": "crossref",
+          "first-page": "1119",
+          "DOI": "10.1080/01430750.2022.2163287",
+          "article-title": "Optimal power flow control optimisation problem incorporating conventional and renewable generation sources: a review",
+          "volume": "44",
+          "author": "Papi Naidu",
+          "year": "2023",
+          "journal-title": "Int. J. Ambient Energy"
+        },
+        {
+          "key": "10.1016/j.asoc.2023.111047_b24",
+          "doi-asserted-by": "crossref",
+          "first-page": "1260",
+          "DOI": "10.1016/j.rser.2015.08.007",
+          "article-title": "Particle swarm optimisation (PSO) for allocation of FACTS devices in electric transmission systems: A review",
+          "volume": "52",
+          "author": "Jordehi",
+          "year": "2015",
+          "journal-title": "Renew. Sustain. Energy Rev."
+        },
+        {
+          "key": "10.1016/j.asoc.2023.111047_b25",
+          "doi-asserted-by": "crossref",
+          "first-page": "1",
+          "DOI": "10.1016/j.asoc.2022.109319",
+          "article-title": "Chest X-ray analysis empowered with deep learning: A systematic review",
+          "volume": "126",
+          "author": "Meedeniya",
+          "year": "2022",
+          "journal-title": "Appl. Soft Comput."
+        },
+        {
+          "issue": "1",
+          "key": "10.1016/j.asoc.2023.111047_b26",
+          "doi-asserted-by": "crossref",
+          "first-page": "3",
+          "DOI": "10.2478/jccm-2018-0002",
+          "article-title": "The importance of referencing",
+          "volume": "4",
+          "author": "Santini",
+          "year": "2018",
+          "journal-title": "J. Crit. Care Med."
+        },
+        {
+          "issue": "21",
+          "key": "10.1016/j.asoc.2023.111047_b27",
+          "doi-asserted-by": "crossref",
+          "first-page": "1",
+          "DOI": "10.3390/en13215639",
+          "article-title": "Electric power system transformations: A review of main prospects and challenges",
+          "volume": "13",
+          "author": "Voropai",
+          "year": "2020",
+          "journal-title": "Energies"
+        },
+        {
+          "issue": "12",
+          "key": "10.1016/j.asoc.2023.111047_b28",
+          "doi-asserted-by": "crossref",
+          "first-page": "1",
+          "DOI": "10.3390/app10124377",
+          "article-title": "Novel design methodology for DC-DC converters applying metaheuristic optimization for inductance selection",
+          "volume": "10",
+          "author": "Mendez",
+          "year": "2020",
+          "journal-title": "Appl. Sci."
+        },
+        {
+          "key": "10.1016/j.asoc.2023.111047_b29",
+          "doi-asserted-by": "crossref",
+          "first-page": "1",
+          "DOI": "10.1016/j.est.2023.106952",
+          "article-title": "A new two-stage controller design for frequency regulation of low-inertia power system with virtual synchronous generator",
+          "volume": "62",
+          "author": "Nour",
+          "year": "2023",
+          "journal-title": "J. Energy Storage"
+        },
+        {
+          "key": "10.1016/j.asoc.2023.111047_b30",
+          "series-title": "Application of Machine Learning and Deep Learning Methods to Power System Problems",
+          "first-page": "19",
+          "article-title": "Introduction and literature review of power system challenges and issues",
+          "author": "Ardeshiri",
+          "year": "2021"
+        },
+        {
+          "key": "10.1016/j.asoc.2023.111047_b31",
+          "doi-asserted-by": "crossref",
+          "first-page": "1",
+          "DOI": "10.1016/j.epsr.2022.108944",
+          "article-title": "Improving the performance of grid connected wind generator with a PI control scheme based on the metaheuristic golden eagle optimization algorithm",
+          "volume": "214",
+          "author": "Magesh",
+          "year": "2023",
+          "journal-title": "Electr. Power Syst. Res."
+        },
+        {
+          "issue": "1",
+          "key": "10.1016/j.asoc.2023.111047_b32",
+          "first-page": "21",
+          "article-title": "Long term electricity load forecasting based on regional load model using optimization techniques: A case study",
+          "volume": "44",
+          "author": "Şeker",
+          "year": "2022",
+          "journal-title": "Energy Sources A Recovery Util. Environ. Eff."
+        },
+        {
+          "issue": "12",
+          "key": "10.1016/j.asoc.2023.111047_b33",
+          "doi-asserted-by": "crossref",
+          "first-page": "1",
+          "DOI": "10.1002/2050-7038.12657",
+          "article-title": "Optimal design of power system stabilizer for multimachine power system using farmland fertility algorithm",
+          "volume": "30",
+          "author": "Sabo",
+          "year": "2020",
+          "journal-title": "Int. Trans. Electr. Energy Syst."
+        },
+        {
+          "key": "10.1016/j.asoc.2023.111047_b34",
+          "doi-asserted-by": "crossref",
+          "first-page": "18660",
+          "DOI": "10.1109/ACCESS.2023.3247193",
+          "article-title": "Cyber security in power systems using meta-heuristic and deep learning algorithms",
+          "volume": "11",
+          "author": "Diaba",
+          "year": "2023",
+          "journal-title": "IEEE Access"
+        },
+        {
+          "key": "10.1016/j.asoc.2023.111047_b35",
+          "doi-asserted-by": "crossref",
+          "first-page": "1",
+          "DOI": "10.1016/j.compeleceng.2020.106589",
+          "article-title": "Stability enhancement of multi-machine power systems using Ant colony optimization-based static Synchronous Compensator",
+          "volume": "83",
+          "author": "Kumar",
+          "year": "2020",
+          "journal-title": "Comput. Electr. Eng."
+        },
+        {
+          "issue": "5",
+          "key": "10.1016/j.asoc.2023.111047_b36",
+          "doi-asserted-by": "crossref",
+          "first-page": "1",
+          "DOI": "10.3390/en16052273",
+          "article-title": "Smart protection system for microgrids with grid-connected and islanded capabilities based on an adaptive algorithm",
+          "volume": "16",
+          "author": "Sampaio",
+          "year": "2023",
+          "journal-title": "Energies"
+        },
+        {
+          "key": "10.1016/j.asoc.2023.111047_b37",
+          "series-title": "2019 IEEE Region 10 Symposium",
+          "first-page": "795",
+          "article-title": "Virtual power plant enabled co-ordinated frequency control of a grid connected independent hybrid microgrid using firefly algorithm",
+          "author": "Khan",
+          "year": "2019"
+        },
+        {
+          "key": "10.1016/j.asoc.2023.111047_b38",
+          "series-title": "2018 Recent Advances on Engineering, Technology and Computational Sciences",
+          "first-page": "1",
+          "article-title": "Load frequency control of multi area interconnected microgrid power system using grasshopper optimization algorithm optimized fuzzy PID controller",
+          "author": "Lal",
+          "year": "2018"
+        },
+        {
+          "key": "10.1016/j.asoc.2023.111047_b39",
+          "doi-asserted-by": "crossref",
+          "first-page": "1",
+          "DOI": "10.1016/j.apenergy.2023.120771",
+          "article-title": "Fuzzy logic-based energy management for isolated microgrid using meta-heuristic optimization algorithms",
+          "volume": "335",
+          "author": "Rodriguez",
+          "year": "2023",
+          "journal-title": "Appl. Energy"
+        },
+        {
+          "key": "10.1016/j.asoc.2023.111047_b40",
+          "doi-asserted-by": "crossref",
+          "first-page": "1",
+          "DOI": "10.1016/j.epsr.2020.106958",
+          "article-title": "Energy management system for two islanded interconnected micro-grids using advanced evolutionary algorithms",
+          "volume": "192",
+          "author": "Keshta",
+          "year": "2021",
+          "journal-title": "Electr. Power Syst. Res."
+        },
+        {
+          "key": "10.1016/j.asoc.2023.111047_b41",
+          "doi-asserted-by": "crossref",
+          "first-page": "405",
+          "DOI": "10.5370/KIEE.2019.68.3.405",
+          "article-title": "Real time sudden demand negotiation framework based smart grid system considering characteristics of electric device type and customer’ delay discomfort",
+          "volume": "68",
+          "author": "Yoo",
+          "year": "2019",
+          "journal-title": "Trans. Korean Inst. Electr. Eng."
+        },
+        {
+          "issue": "4",
+          "key": "10.1016/j.asoc.2023.111047_b42",
+          "doi-asserted-by": "crossref",
+          "first-page": "1",
+          "DOI": "10.3390/en15041445",
+          "article-title": "Intelligent power distribution restoration based on a multi-objective bacterial foraging optimization algorithm",
+          "volume": "15",
+          "author": "Moraes",
+          "year": "2022",
+          "journal-title": "Energies"
+        },
+        {
+          "key": "10.1016/j.asoc.2023.111047_b43",
+          "series-title": "2020 Fifteenth International Conference on Ecological Vehicles and Renewable Energies",
+          "first-page": "1",
+          "article-title": "Recharging prioritization method for the integration of electric vehicle fleets with the smart grid: an evolutionary computation approach",
+          "author": "Guerrero",
+          "year": "2020"
+        },
+        {
+          "key": "10.1016/j.asoc.2023.111047_b44",
+          "doi-asserted-by": "crossref",
+          "first-page": "37",
+          "DOI": "10.1016/j.compeleceng.2018.05.016",
+          "article-title": "A computational intelligence approach to improve the efficiency of repair services in the smart grid context",
+          "volume": "70",
+          "author": "Jacques Garcia",
+          "year": "2018",
+          "journal-title": "Comput. Electr. Eng."
+        },
+        {
+          "key": "10.1016/j.asoc.2023.111047_b45",
+          "doi-asserted-by": "crossref",
+          "first-page": "860",
+          "DOI": "10.1016/j.egyr.2021.11.248",
+          "article-title": "Optimal design of controllers and harmonic compensators for three-level cascaded control in stationary reference frame for grid-supporting inverters-based AC microgrid",
+          "volume": "8",
+          "author": "Ebrahim",
+          "year": "2022",
+          "journal-title": "Energy Rep."
+        },
+        {
+          "issue": "16",
+          "key": "10.1016/j.asoc.2023.111047_b46",
+          "doi-asserted-by": "crossref",
+          "first-page": "3989",
+          "DOI": "10.1049/rpg2.12317",
+          "article-title": "A novel control approach for harmonic compensation using switched power filter compensators in micro-grids",
+          "volume": "15",
+          "author": "Khosravi",
+          "year": "2021",
+          "journal-title": "IET Renew. Power Gener."
+        },
+        {
+          "key": "10.1016/j.asoc.2023.111047_b47",
+          "doi-asserted-by": "crossref",
+          "first-page": "1",
+          "DOI": "10.3390/en14216909",
+          "article-title": "Hybrid controller based on LQR applied to interleaved boost converter and microgrids under power quality events",
+          "volume": "14",
+          "author": "Valencia-Rivera",
+          "year": "2021",
+          "journal-title": "Energies"
+        },
+        {
+          "key": "10.1016/j.asoc.2023.111047_b48",
+          "first-page": "1",
+          "article-title": "Optimum control of power flow management in PV, wind, and battery-integrated hybrid microgrid systems by implementing in real-time digital simulator-based platform",
+          "author": "Patel",
+          "year": "2023",
+          "journal-title": "Soft Comput."
+        },
+        {
+          "key": "10.1016/j.asoc.2023.111047_b49",
+          "doi-asserted-by": "crossref",
+          "first-page": "6442",
+          "DOI": "10.1109/ACCESS.2022.3142742",
+          "article-title": "Coot bird algorithms-based tuning PI controller for optimal microgrid autonomous operation",
+          "volume": "10",
+          "author": "Hussien",
+          "year": "2022",
+          "journal-title": "IEEE Access"
+        },
+        {
+          "key": "10.1016/j.asoc.2023.111047_b50",
+          "doi-asserted-by": "crossref",
+          "first-page": "1",
+          "DOI": "10.1016/j.ijepes.2020.106562",
+          "article-title": "Adaptive control strategy for improved dynamic performance of two islanded inter-connected micro-grids",
+          "volume": "126",
+          "author": "Keshta",
+          "year": "2021",
+          "journal-title": "Int. J. Electr. Power Energy Syst."
+        },
+        {
+          "key": "10.1016/j.asoc.2023.111047_b51",
+          "doi-asserted-by": "crossref",
+          "first-page": "20223",
+          "DOI": "10.1109/ACCESS.2022.3152153",
+          "article-title": "Optimal solution of reactive power dispatch in transmission system to minimize power losses using Sine-cosine algorithm",
+          "volume": "10",
+          "author": "Saddique",
+          "year": "2022",
+          "journal-title": "IEEE Access"
+        },
+        {
+          "key": "10.1016/j.asoc.2023.111047_b52",
+          "series-title": "2021 International Conference on Aviation Safety and Information Technology",
+          "first-page": "611",
+          "article-title": "Reactive power optimization of power system based on intelligent information management",
+          "author": "Zhou",
+          "year": "2022"
+        },
+        {
+          "key": "10.1016/j.asoc.2023.111047_b53",
+          "series-title": "Advances in Smart Grid Technology, Vol. 688",
+          "first-page": "221",
+          "article-title": "Levy interior search algorithm-based multi-objective optimal reactive power dispatch for voltage stability enhancement",
+          "author": "Karthik",
+          "year": "2021"
+        },
+        {
+          "key": "10.1016/j.asoc.2023.111047_b54",
+          "series-title": "2022 International Seminar on Intelligent Technology and Its Applications",
+          "first-page": "320",
+          "article-title": "Power system stabilizer tuning improvement for single-machine infinite bus using equilibrium optimizer algorithm",
+          "author": "Prakasa",
+          "year": "2022"
+        },
+        {
+          "key": "10.1016/j.asoc.2023.111047_b55",
+          "series-title": "2021 IEEE 2nd International Conference on Electrical Power and Energy Systems",
+          "first-page": "1",
+          "article-title": "Artificial gorilla troops optimizer for tuning power system stabilizer control parameters",
+          "author": "Gude",
+          "year": "2021"
+        },
+        {
+          "key": "10.1016/j.asoc.2023.111047_b56",
+          "doi-asserted-by": "crossref",
+          "first-page": "729",
+          "DOI": "10.1016/j.ijepes.2018.09.024",
+          "article-title": "Multi-machine optimal power system stabilizers design based on system stability and nonlinearity indices using Hyper-Spherical Search method",
+          "volume": "105",
+          "author": "Rahmatian",
+          "year": "2019",
+          "journal-title": "Int. J. Electr. Power Energy Syst."
+        },
+        {
+          "key": "10.1016/j.asoc.2023.111047_b57",
+          "series-title": "2022 IEEE 9th Uttar Pradesh Section International Conference on Electrical, Electronics and Computer Engineering",
+          "first-page": "1",
+          "article-title": "A search space reduction algorithm applied for transient stability constrained optimal power flow",
+          "author": "Kumar",
+          "year": "2022"
+        },
+        {
+          "key": "10.1016/j.asoc.2023.111047_b58",
+          "series-title": "2019 International Conference on Opto-Electronics and Applied Optics",
+          "first-page": "1",
+          "article-title": "Application of earthworm optimization algorithm for solution of optimal power flow",
+          "author": "Ghosh",
+          "year": "2019"
+        },
+        {
+          "key": "10.1016/j.asoc.2023.111047_b59",
+          "series-title": "2018 10th International Conference on Information Technology and Electrical Engineering",
+          "first-page": "329",
+          "article-title": "Optimal power flow based on flower pollination algorithm",
+          "author": "Sarjiya",
+          "year": "2018"
+        },
+        {
+          "key": "10.1016/j.asoc.2023.111047_b60",
+          "series-title": "IEEE Recommended Practice for Monitoring Electric Power Quality",
+          "author": "IEEE Std 1159-2019",
+          "year": "2019"
+        },
+        {
+          "key": "10.1016/j.asoc.2023.111047_b61",
+          "series-title": "Impact of IEEE 1547 Standard on Smart Inverters",
+          "author": "IEEE Std 1547-2018",
+          "year": "2018"
+        },
+        {
+          "key": "10.1016/j.asoc.2023.111047_b62",
+          "series-title": "2021 8th International Conference on Information Technology, Computer and Electrical Engineering",
+          "first-page": "247",
+          "article-title": "Design LCL filter for single phase grid tie inverter using firefly algorithm",
+          "author": "Irkham",
+          "year": "2021"
+        },
+        {
+          "key": "10.1016/j.asoc.2023.111047_b63",
+          "doi-asserted-by": "crossref",
+          "first-page": "143530",
+          "DOI": "10.1109/ACCESS.2020.2995716",
+          "article-title": "A hierarchical teaching-learning-based optimization algorithm for optimal design of hybrid active power filter",
+          "volume": "8",
+          "author": "Cui",
+          "year": "2020",
+          "journal-title": "IEEE Access"
+        },
+        {
+          "key": "10.1016/j.asoc.2023.111047_b64",
+          "series-title": "Advanced Computational Techniques for Renewable Energy Systems",
+          "first-page": "261",
+          "article-title": "Grey wolf MPPT controller for grid connected residential wind system operating under low and high variations in wind speed",
+          "author": "Abbadi",
+          "year": "2023"
+        },
+        {
+          "key": "10.1016/j.asoc.2023.111047_b65",
+          "doi-asserted-by": "crossref",
+          "first-page": "1",
+          "DOI": "10.1016/j.epsr.2022.107897",
+          "article-title": "Metaheuristic-based near-optimal fractional order PI controller for on-grid fuel cell dynamic performance enhancement",
+          "volume": "208",
+          "author": "Ramadan",
+          "year": "2022",
+          "journal-title": "Electr. Power Syst. Res."
+        },
+        {
+          "key": "10.1016/j.asoc.2023.111047_b66",
+          "series-title": "2021 International Conference on Computational Performance Evaluation",
+          "first-page": "761",
+          "article-title": "Combined voltage and frequency control of a multi-area multi-source power system using CFOPI-TIDN controller",
+          "author": "Ramoji",
+          "year": "2021"
+        },
+        {
+          "key": "10.1016/j.asoc.2023.111047_b67",
+          "doi-asserted-by": "crossref",
+          "first-page": "235",
+          "DOI": "10.1016/j.comcom.2020.02.064",
+          "article-title": "Implementation of dead beat controller using particle swarm optimization for software defined network",
+          "volume": "155",
+          "author": "Malathi",
+          "year": "2020",
+          "journal-title": "Comput. Commun."
+        },
+        {
+          "issue": "10",
+          "key": "10.1016/j.asoc.2023.111047_b68",
+          "doi-asserted-by": "crossref",
+          "first-page": "7728",
+          "DOI": "10.1109/TIE.2018.2885727",
+          "article-title": "Robust EnKF with improved RCGA-based control for solar energy conversion systems",
+          "volume": "66",
+          "author": "Shah",
+          "year": "2019",
+          "journal-title": "IEEE Trans. Ind. Electron."
+        },
+        {
+          "key": "10.1016/j.asoc.2023.111047_b69",
+          "series-title": "2020 21st National Power Systems Conference",
+          "first-page": "1",
+          "article-title": "Load frequency control of a nonlinear power system via demand response control strategy based fractional order fuzzy controller",
+          "author": "Mishra",
+          "year": "2020"
+        },
+        {
+          "key": "10.1016/j.asoc.2023.111047_b70",
+          "doi-asserted-by": "crossref",
+          "first-page": "1",
+          "DOI": "10.1016/j.asoc.2022.108608",
+          "article-title": "A Discrete Chaotic Jaya algorithm for optimal preventive maintenance scheduling of power systems generators",
+          "volume": "119",
+          "author": "Belagoune",
+          "year": "2022",
+          "journal-title": "Appl. Soft Comput."
+        },
+        {
+          "key": "10.1016/j.asoc.2023.111047_b71",
+          "doi-asserted-by": "crossref",
+          "first-page": "1",
+          "DOI": "10.3389/fenrg.2022.878810",
+          "article-title": "An improved solution to generation scheduling problem using slime mold algorithm",
+          "volume": "10",
+          "author": "Zhu",
+          "year": "2022",
+          "journal-title": "Front. Energy Res."
+        },
+        {
+          "key": "10.1016/j.asoc.2023.111047_b72",
+          "doi-asserted-by": "crossref",
+          "first-page": "79713",
+          "DOI": "10.1109/ACCESS.2022.3194012",
+          "article-title": "Economic emission and energy scheduling for renewable rich network using bio-inspired optimization",
+          "volume": "10",
+          "author": "Tahir",
+          "year": "2022",
+          "journal-title": "IEEE Access"
+        },
+        {
+          "key": "10.1016/j.asoc.2023.111047_b73",
+          "series-title": "2017 2nd International Conference on Telecommunication and Networks",
+          "first-page": "1",
+          "article-title": "Optimal generation scheduling of thermal system using biologically inspired grasshopper algorithm",
+          "author": "Rajput",
+          "year": "2017"
+        },
+        {
+          "key": "10.1016/j.asoc.2023.111047_b74",
+          "doi-asserted-by": "crossref",
+          "first-page": "957",
+          "DOI": "10.1016/j.swevo.2018.10.008",
+          "article-title": "Binary grey wolf optimizer models for profit based unit commitment of price-taking GENCO in electricity market",
+          "volume": "44",
+          "author": "Reddy K",
+          "year": "2019",
+          "journal-title": "Swarm Evol. Comput."
+        },
+        {
+          "key": "10.1016/j.asoc.2023.111047_b75",
+          "first-page": "1",
+          "article-title": "Wind farm integrated restructured electricity market analysis using ant lion optimizer algorithm",
+          "author": "Gope",
+          "year": "2021",
+          "journal-title": "Energy Sources, Part A: Recovery Util. Environ. Eff."
+        },
+        {
+          "issue": "7–8",
+          "key": "10.1016/j.asoc.2023.111047_b76",
+          "doi-asserted-by": "crossref",
+          "first-page": "745",
+          "DOI": "10.1080/08839514.2018.1506971",
+          "article-title": "Strategic particle swarm inertia selection for electricity markets participation portfolio optimization",
+          "volume": "32",
+          "author": "Faia",
+          "year": "2018",
+          "journal-title": "Appl. Artif. Intell."
+        },
+        {
+          "key": "10.1016/j.asoc.2023.111047_b77",
+          "series-title": "2018 International Conference on Electrical Sciences and Technologies in Maghreb",
+          "first-page": "1",
+          "article-title": "Hybrid PV-wind based water pumping system optimum sizing: a PSO-LLP-LPSP optimization and cost analysis",
+          "author": "Nekkache",
+          "year": "2018"
+        },
+        {
+          "key": "10.1016/j.asoc.2023.111047_b78",
+          "series-title": "Proceedings of the Ninth International Conference on Future Energy Systems",
+          "first-page": "593",
+          "article-title": "Optimal reconfiguration of real low-voltage grids based on probabilistic simulation",
+          "author": "Schallenburger",
+          "year": "2018"
+        },
+        {
+          "issue": "1",
+          "key": "10.1016/j.asoc.2023.111047_b79",
+          "doi-asserted-by": "crossref",
+          "first-page": "26",
+          "DOI": "10.35378/gujs.820805",
+          "article-title": "Comparison study on economic load dispatch using metaheuristic algorithm",
+          "volume": "35",
+          "author": "Aribowo",
+          "year": "2022",
+          "journal-title": "Gazi Univ. J. Sci."
+        },
+        {
+          "issue": "5",
+          "key": "10.1016/j.asoc.2023.111047_b80",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.3390/su14052586",
+          "article-title": "A cost-effective solution for non-convex economic load dispatch problems in power systems using slime mould algorithm",
+          "volume": "14",
+          "author": "Kamboj",
+          "year": "2022",
+          "journal-title": "Sustainability"
+        },
+        {
+          "key": "10.1016/j.asoc.2023.111047_b81",
+          "doi-asserted-by": "crossref",
+          "first-page": "14",
+          "DOI": "10.1016/j.eswa.2019.02.002",
+          "article-title": "Solving non-convex economic load dispatch problem via artificial cooperative search algorithm",
+          "volume": "128",
+          "author": "Kaboli",
+          "year": "2019",
+          "journal-title": "Expert Syst. Appl."
+        },
+        {
+          "key": "10.1016/j.asoc.2023.111047_b82",
+          "series-title": "2018 IEEE Congress on Evolutionary Computation",
+          "first-page": "1",
+          "article-title": "Robust evolutionary optimization algorithm for multi-objective environmental/economic dispatch problem with uncertainties",
+          "author": "Rodrigues de Assis",
+          "year": "2018"
+        },
+        {
+          "key": "10.1016/j.asoc.2023.111047_b83",
+          "series-title": "2017 Second International Conference on Electrical, Computer and Communication Technologies",
+          "first-page": "1",
+          "article-title": "Symbiotic organisms search algorithm for economic dispatch problems",
+          "author": "Das",
+          "year": "2017"
+        },
+        {
+          "key": "10.1016/j.asoc.2023.111047_b84",
+          "doi-asserted-by": "crossref",
+          "first-page": "1",
+          "DOI": "10.1016/j.energy.2022.125697",
+          "article-title": "Implementation of coyote optimization algorithm for solving unit commitment problem in power systems",
+          "volume": "263",
+          "author": "Ali",
+          "year": "2023",
+          "journal-title": "Energy"
+        },
+        {
+          "key": "10.1016/j.asoc.2023.111047_b85",
+          "doi-asserted-by": "crossref",
+          "first-page": "43535",
+          "DOI": "10.1109/ACCESS.2018.2861319",
+          "article-title": "An improved binary cuckoo search algorithm for solving unit commitment problems: Methodological description",
+          "volume": "6",
+          "author": "Zhao",
+          "year": "2018",
+          "journal-title": "IEEE Access"
+        },
+        {
+          "key": "10.1016/j.asoc.2023.111047_b86",
+          "series-title": "2018 8th IEEE India International Conference on Power Electronics",
+          "first-page": "1",
+          "article-title": "Unit commitment in thermal power generation dispatching with integration of PHEVs",
+          "author": "Kumar",
+          "year": "2018"
+        },
+        {
+          "issue": "1",
+          "key": "10.1016/j.asoc.2023.111047_b87",
+          "doi-asserted-by": "crossref",
+          "first-page": "2",
+          "DOI": "10.1088/1742-6596/1979/1/012023",
+          "article-title": "Renewable energy sources: A review",
+          "volume": "1979",
+          "author": "Neha",
+          "year": "2021",
+          "journal-title": "J. Phys. Conf. Ser."
+        },
+        {
+          "key": "10.1016/j.asoc.2023.111047_b88",
+          "doi-asserted-by": "crossref",
+          "first-page": "1289",
+          "DOI": "10.1016/j.egypro.2015.07.774",
+          "article-title": "Review article-renewable energies",
+          "volume": "74",
+          "author": "Mohtasham",
+          "year": "2015",
+          "journal-title": "Energy Procedia"
+        },
+        {
+          "key": "10.1016/j.asoc.2023.111047_b89",
+          "doi-asserted-by": "crossref",
+          "first-page": "156",
+          "DOI": "10.1016/j.rser.2015.10.152",
+          "article-title": "Analysis of renewable energies in European Union",
+          "volume": "56",
+          "author": "Pacesila",
+          "year": "2016",
+          "journal-title": "Renew. Sustain. Energy Rev."
+        },
+        {
+          "key": "10.1016/j.asoc.2023.111047_b90",
+          "doi-asserted-by": "crossref",
+          "first-page": "7242",
+          "DOI": "10.1016/j.egyr.2022.05.231",
+          "article-title": "Optimal reconfiguration strategy based on modified Runge Kutta optimizer to mitigate partial shading condition in photovoltaic systems",
+          "volume": "8",
+          "author": "Nassef",
+          "year": "2022",
+          "journal-title": "Energy Rep."
+        },
+        {
+          "key": "10.1016/j.asoc.2023.111047_b91",
+          "doi-asserted-by": "crossref",
+          "first-page": "1",
+          "DOI": "10.1016/j.est.2022.104862",
+          "article-title": "Effects of dispatch strategies on optimum sizing of solar-diesel-battery energy storage-RO desalination hybrid scheme by efficient heuristic algorithm",
+          "volume": "54",
+          "author": "Liu",
+          "year": "2022",
+          "journal-title": "J. Energy Storage"
+        },
+        {
+          "issue": "10",
+          "key": "10.1016/j.asoc.2023.111047_b92",
+          "doi-asserted-by": "crossref",
+          "first-page": "1",
+          "DOI": "10.3390/electronics11101655",
+          "article-title": "Hardware-in-the-loop validation of direct MPPT based Cuckoo search optimization for partially shaded photovoltaic system",
+          "volume": "11",
+          "author": "Al-Shammaa",
+          "year": "2022",
+          "journal-title": "Electronics"
+        },
+        {
+          "key": "10.1016/j.asoc.2023.111047_b93",
+          "doi-asserted-by": "crossref",
+          "first-page": "1",
+          "DOI": "10.1016/j.cor.2021.105588",
+          "article-title": "Variable neighborhood search for large offshore wind farm layout optimization",
+          "volume": "138",
+          "author": "Cazzaro",
+          "year": "2022",
+          "journal-title": "Comput. Oper. Res."
+        },
+        {
+          "issue": "7",
+          "key": "10.1016/j.asoc.2023.111047_b94",
+          "doi-asserted-by": "crossref",
+          "first-page": "11258",
+          "DOI": "10.1002/er.6605",
+          "article-title": "Optimal planning and operational strategy of energy storage systems in power transmission networks: An analysis of wind farms",
+          "volume": "45",
+          "author": "Ahmad",
+          "year": "2021",
+          "journal-title": "Int. J. Energy Res."
+        },
+        {
+          "key": "10.1016/j.asoc.2023.111047_b95",
+          "doi-asserted-by": "crossref",
+          "first-page": "1",
+          "DOI": "10.1016/j.knosys.2021.107435",
+          "article-title": "A wind speed interval forecasting system based on constrained lower upper bound estimation and parallel feature selection",
+          "volume": "231",
+          "author": "Li",
+          "year": "2021",
+          "journal-title": "Knowl.-Based Syst."
+        },
+        {
+          "key": "10.1016/j.asoc.2023.111047_b96",
+          "series-title": "2019 IEEE Milan PowerTech",
+          "first-page": "1",
+          "article-title": "Medium-and low-voltage planning of electric power distribution systems with distributed generation, energy storage sources, and electric vehicles",
+          "author": "Rupolo",
+          "year": "2019"
+        },
+        {
+          "issue": "10",
+          "key": "10.1016/j.asoc.2023.111047_b97",
+          "doi-asserted-by": "crossref",
+          "first-page": "2788",
+          "DOI": "10.37624/IJERT/13.10.2020.2788-2791",
+          "article-title": "Optimal allocation of distributed generation in power systems considering multiple operative scenarios",
+          "volume": "13",
+          "author": "Lezama",
+          "year": "2020",
+          "journal-title": "Int. J. Eng. Res. Technol."
+        },
+        {
+          "issue": "10",
+          "key": "10.1016/j.asoc.2023.111047_b98",
+          "first-page": "316",
+          "article-title": "Selection of sensitive buses using the firefly algorithm for optimal multiple types of distributed generations allocation",
+          "volume": "10",
+          "author": "Rahman",
+          "year": "2019",
+          "journal-title": "Int J. Adv. Comput. Sci. Appl. (IJACSA)"
+        },
+        {
+          "key": "10.1016/j.asoc.2023.111047_b99",
+          "doi-asserted-by": "crossref",
+          "first-page": "1",
+          "DOI": "10.1007/s10462-017-9605-z",
+          "article-title": "Metaheuristic research: a comprehensive survey",
+          "volume": "52",
+          "author": "Hussain",
+          "year": "2019",
+          "journal-title": "Artif. Intell. Rev."
+        },
+        {
+          "key": "10.1016/j.asoc.2023.111047_b100",
+          "series-title": "Computational Intelligence for Multimedia Big Data on the Cloud with Engineering Applications",
+          "first-page": "185",
+          "article-title": "Chapter 10 - Metaheuristic algorithms: A comprehensive review",
+          "author": "Abdel-Basset",
+          "year": "2018"
+        },
+        {
+          "issue": "6",
+          "key": "10.1016/j.asoc.2023.111047_b101",
+          "doi-asserted-by": "crossref",
+          "first-page": "8288",
+          "DOI": "10.1002/er.7729",
+          "article-title": "Optimal sizing of hybrid renewable energy systems by considering power sharing and electric vehicles",
+          "volume": "46",
+          "author": "Sadeghi",
+          "year": "2022",
+          "journal-title": "Int. J. Energy Res."
+        },
+        {
+          "key": "10.1016/j.asoc.2023.111047_b102",
+          "doi-asserted-by": "crossref",
+          "first-page": "1",
+          "DOI": "10.1016/j.energy.2021.121829",
+          "article-title": "A parallel meta-heuristic method for solving large scale unit commitment considering the integration of new energy sectors",
+          "volume": "238",
+          "author": "Zhu",
+          "year": "2022",
+          "journal-title": "Energy"
+        },
+        {
+          "issue": "8",
+          "key": "10.1016/j.asoc.2023.111047_b103",
+          "doi-asserted-by": "crossref",
+          "first-page": "1",
+          "DOI": "10.3390/en13082093",
+          "article-title": "Implementation of particle swarm optimization (PSO) algorithm for tuning of power system stabilizers in multimachine electric power systems",
+          "volume": "13",
+          "author": "Verdejo",
+          "year": "2020",
+          "journal-title": "Energies"
+        },
+        {
+          "issue": "6",
+          "key": "10.1016/j.asoc.2023.111047_b104",
+          "doi-asserted-by": "crossref",
+          "first-page": "1",
+          "DOI": "10.3390/en16062860",
+          "article-title": "A novel computation of delay margin based on grey wolf optimisation for a load frequency control of two-area-network power systems",
+          "volume": "16",
+          "author": "Ibrahim",
+          "year": "2023",
+          "journal-title": "Energies"
+        },
+        {
+          "key": "10.1016/j.asoc.2023.111047_b105",
+          "doi-asserted-by": "crossref",
+          "first-page": "504",
+          "DOI": "10.1016/j.asoc.2018.05.006",
+          "article-title": "Augmented grey wolf optimizer for grid-connected PMSG-based wind energy conversion systems",
+          "volume": "69",
+          "author": "Qais",
+          "year": "2018",
+          "journal-title": "Appl. Soft Comput."
+        },
+        {
+          "key": "10.1016/j.asoc.2023.111047_b106",
+          "doi-asserted-by": "crossref",
+          "first-page": "1",
+          "DOI": "10.1016/j.epsr.2021.107685",
+          "article-title": "Cascade-risk-informed transmission expansion planning of AC electric power systems",
+          "volume": "204",
+          "author": "Gjorgiev",
+          "year": "2022",
+          "journal-title": "Electr. Power Syst. Res."
+        },
+        {
+          "issue": "5",
+          "key": "10.1016/j.asoc.2023.111047_b107",
+          "doi-asserted-by": "crossref",
+          "first-page": "540",
+          "DOI": "10.1080/02564602.2019.1675541",
+          "article-title": "Optimal reactive power management problem: A solution using evolutionary algorithms",
+          "volume": "37",
+          "author": "Bhattacharyya",
+          "year": "2020",
+          "journal-title": "IETE Tech. Rev."
+        },
+        {
+          "key": "10.1016/j.asoc.2023.111047_b108",
+          "doi-asserted-by": "crossref",
+          "first-page": "1",
+          "DOI": "10.1016/j.epsr.2019.105999",
+          "article-title": "A hybrid optimization framework for the non-convex economic dispatch problem via meta-heuristic algorithms",
+          "volume": "177",
+          "author": "Silva Chavez",
+          "year": "2019",
+          "journal-title": "Electr. Power Syst. Res."
+        },
+        {
+          "issue": "1",
+          "key": "10.1016/j.asoc.2023.111047_b109",
+          "doi-asserted-by": "crossref",
+          "first-page": "3995",
+          "DOI": "10.1080/01430750.2021.1873182",
+          "article-title": "Cuckoo optimised 2DOF controllers for stabilising the frequency changes in restructured power system with wind-hydro units",
+          "volume": "43",
+          "author": "Peddakapu",
+          "year": "2022",
+          "journal-title": "Int. J. Ambient Energy"
+        },
+        {
+          "key": "10.1016/j.asoc.2023.111047_b110",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1016/j.ijepes.2019.105420",
+          "article-title": "Dual feasible direction-finding nonlinear programming combined with metaheuristic approaches for exact overcurrent relay coordination",
+          "volume": "114",
+          "author": "Darabi",
+          "year": "2020",
+          "journal-title": "Int. J. Electr. Power Energy Syst."
+        },
+        {
+          "issue": "10",
+          "key": "10.1016/j.asoc.2023.111047_b111",
+          "doi-asserted-by": "crossref",
+          "first-page": "855",
+          "DOI": "10.1002/we.2199",
+          "article-title": "Cuckoo search for wind farm optimization with auxiliary infrastructure",
+          "volume": "21",
+          "author": "Afanasyeva",
+          "year": "2018",
+          "journal-title": "Wind Energy"
+        },
+        {
+          "issue": "12",
+          "key": "10.1016/j.asoc.2023.111047_b112",
+          "doi-asserted-by": "crossref",
+          "first-page": "1",
+          "DOI": "10.3390/en13123219",
+          "article-title": "Optimal allocation of static var compensators in electric power systems",
+          "volume": "13",
+          "author": "Ćalasan",
+          "year": "2020",
+          "journal-title": "Energies"
+        },
+        {
+          "issue": "5",
+          "key": "10.1016/j.asoc.2023.111047_b113",
+          "doi-asserted-by": "crossref",
+          "first-page": "1",
+          "DOI": "10.3390/en11051260",
+          "article-title": "Short-term forecasting of the output power of a building-integrated photovoltaic system using a metaheuristic approach",
+          "volume": "11",
+          "author": "Seyedmahmoudian",
+          "year": "2018",
+          "journal-title": "Energies"
+        },
+        {
+          "issue": "1",
+          "key": "10.1016/j.asoc.2023.111047_b114",
+          "doi-asserted-by": "crossref",
+          "first-page": "3",
+          "DOI": "10.1111/itor.12001",
+          "article-title": "Metaheuristics—the metaphor exposed",
+          "volume": "22",
+          "author": "Sörensen",
+          "year": "2015",
+          "journal-title": "Int. Trans. Oper. Res."
+        },
+        {
+          "issue": "11",
+          "key": "10.1016/j.asoc.2023.111047_b115",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.3390/math8112046",
+          "article-title": "Towards a generalised metaheuristic model for continuous optimisation problems",
+          "volume": "8",
+          "author": "Cruz-Duarte",
+          "year": "2020",
+          "journal-title": "Mathematics"
+        },
+        {
+          "key": "10.1016/j.asoc.2023.111047_b116",
+          "series-title": "Guidelines for performing Systematic Literature Reviews in Software Engineering",
+          "first-page": "1",
+          "author": "Kitchenham",
+          "year": "2007"
+        },
+        {
+          "key": "10.1016/j.asoc.2023.111047_b117",
+          "series-title": "Proceedings of ICNN’95 - International Conference on Neural Networks",
+          "first-page": "1942",
+          "article-title": "Particle swarm optimization",
+          "author": "Kennedy",
+          "year": "1995"
+        },
+        {
+          "key": "10.1016/j.asoc.2023.111047_b118",
+          "doi-asserted-by": "crossref",
+          "first-page": "46",
+          "DOI": "10.1016/j.advengsoft.2013.12.007",
+          "article-title": "Grey wolf optimizer",
+          "volume": "69",
+          "author": "Mirjalili",
+          "year": "2014",
+          "journal-title": "Adv. Eng. Softw."
+        },
+        {
+          "key": "10.1016/j.asoc.2023.111047_b119",
+          "doi-asserted-by": "crossref",
+          "first-page": "8091",
+          "DOI": "10.1007/s11042-020-10139-6",
+          "article-title": "A review on genetic algorithm: Past, present, and future",
+          "volume": "80",
+          "author": "Chahar",
+          "year": "2021",
+          "journal-title": "Multimedia Tools Appl."
+        },
+        {
+          "key": "10.1016/j.asoc.2023.111047_b120",
+          "doi-asserted-by": "crossref",
+          "first-page": "169",
+          "DOI": "10.1007/s00521-013-1367-1",
+          "article-title": "Cuckoo search: recent advances and applications",
+          "volume": "24",
+          "author": "Yang",
+          "year": "2014",
+          "journal-title": "Neural Comput. Appl."
+        },
+        {
+          "key": "10.1016/j.asoc.2023.111047_b121",
+          "doi-asserted-by": "crossref",
+          "first-page": "341",
+          "DOI": "10.1023/A:1008202821328",
+          "article-title": "Differential evolution - A simple and efficient heuristic for global optimization over continuous spaces",
+          "volume": "11",
+          "author": "Storn",
+          "year": "1997",
+          "journal-title": "J. Global Optim."
+        },
+        {
+          "key": "10.1016/j.asoc.2023.111047_b122",
+          "doi-asserted-by": "crossref",
+          "first-page": "1",
+          "DOI": "10.1016/j.swevo.2021.100935",
+          "article-title": "Hyper-heuristics to customise metaheuristics for continuous optimisation",
+          "volume": "66",
+          "author": "Cruz-Duarte",
+          "year": "2021",
+          "journal-title": "Swarm Evol. Comput."
+        },
+        {
+          "issue": "5",
+          "key": "10.1016/j.asoc.2023.111047_b123",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.3390/en16052226",
+          "article-title": "PSOα: A fragmented swarm optimisation for improved load frequency control of a hybrid power system using FOPID",
+          "volume": "16",
+          "author": "Appasani",
+          "year": "2023",
+          "journal-title": "Energies"
+        },
+        {
+          "key": "10.1016/j.asoc.2023.111047_b124",
+          "series-title": "Advances in Energy and Power Systems, Vol. 508",
+          "first-page": "151",
+          "article-title": "Multi-area economic dispatch using dynamically controlled particle swarm optimization",
+          "author": "Kumar",
+          "year": "2018"
+        },
+        {
+          "key": "10.1016/j.asoc.2023.111047_b125",
+          "series-title": "2022 IEEE International Conference on Electrical Sciences and Technologies in Maghreb, Vol. 4",
+          "first-page": "1",
+          "article-title": "A PSO-based MPPT algorithm for grid-connected photovoltaic current source inverter",
+          "author": "Ezzeddine",
+          "year": "2022"
+        },
+        {
+          "key": "10.1016/j.asoc.2023.111047_b126",
+          "series-title": "2019 IEEE Milan PowerTech",
+          "first-page": "1",
+          "article-title": "Model order reduction of active distribution networks with TSO-DSO interconnection power flow control",
+          "author": "Hinners",
+          "year": "2019"
+        },
+        {
+          "key": "10.1016/j.asoc.2023.111047_b127",
+          "doi-asserted-by": "crossref",
+          "first-page": "238",
+          "DOI": "10.1007/s40313-018-0367-x",
+          "article-title": "Allocation of capacitors and voltage regulators in three-phase distribution networks",
+          "volume": "29",
+          "author": "Santos Pereira",
+          "year": "2018",
+          "journal-title": "J. Control Autom. Electr. Syst."
+        },
+        {
+          "issue": "9",
+          "key": "10.1016/j.asoc.2023.111047_b128",
+          "doi-asserted-by": "crossref",
+          "first-page": "1961",
+          "DOI": "10.1049/iet-gtd.2017.1295",
+          "article-title": "Power system frequency stabiliser for modern power systems",
+          "volume": "12",
+          "author": "Sharma",
+          "year": "2018",
+          "journal-title": "IET Gener. Transm. Distrib."
+        },
+        {
+          "issue": "7–8",
+          "key": "10.1016/j.asoc.2023.111047_b129",
+          "doi-asserted-by": "crossref",
+          "first-page": "745",
+          "DOI": "10.1080/08839514.2018.1506971",
+          "article-title": "Strategic particle swarm inertia selection for electricity markets participation portfolio optimization",
+          "volume": "32",
+          "author": "Faia",
+          "year": "2018",
+          "journal-title": "Appl. Artif. Intell."
+        },
+        {
+          "issue": "12",
+          "key": "10.1016/j.asoc.2023.111047_b130",
+          "doi-asserted-by": "crossref",
+          "first-page": "2245",
+          "DOI": "10.1049/iet-rpg.2019.1133",
+          "article-title": "Optimal power transmission in multi-terminal HVDC systems for large offshore wind farms: a matheuristic approach",
+          "volume": "14",
+          "author": "Pathak",
+          "year": "2020",
+          "journal-title": "IET Renew. Power Gener."
+        },
+        {
+          "issue": "6",
+          "key": "10.1016/j.asoc.2023.111047_b131",
+          "doi-asserted-by": "crossref",
+          "first-page": "1",
+          "DOI": "10.1002/etep.2543",
+          "article-title": "A coordinated planning framework of electric power distribution system: Intelligent reconfiguration",
+          "volume": "28",
+          "author": "Kumar",
+          "year": "2018",
+          "journal-title": "Int. Trans. Electr. Energy Syst."
+        },
+        {
+          "issue": "2",
+          "key": "10.1016/j.asoc.2023.111047_b132",
+          "article-title": "Grid integrated photovoltaic system with fuzzy based maximum power point tracking control along with harmonic elimination",
+          "volume": "33",
+          "author": "Mehmood",
+          "year": "2022",
+          "journal-title": "Trans. Emerg. Telecommun. Technol."
+        },
+        {
+          "issue": "1",
+          "key": "10.1016/j.asoc.2023.111047_b133",
+          "first-page": "1",
+          "article-title": "Dynamic environmental-economic load dispatch in grid-connected microgrids with demand response programs considering the uncertainties of demand, renewable generation and market price",
+          "volume": "34",
+          "author": "Rezaee Jordehi",
+          "year": "2021",
+          "journal-title": "Int. J. Numer. Modelling, Electron. Netw. Devices Fields"
+        },
+        {
+          "key": "10.1016/j.asoc.2023.111047_b134",
+          "doi-asserted-by": "crossref",
+          "first-page": "322",
+          "DOI": "10.1016/j.isatra.2022.08.024",
+          "article-title": "Linear quadratic regulator design via metaheuristics applied to the damping of low-frequency oscillations in power systems",
+          "volume": "134",
+          "author": "Carvalho",
+          "year": "2023",
+          "journal-title": "ISA Trans."
+        },
+        {
+          "key": "10.1016/j.asoc.2023.111047_b135",
+          "series-title": "2022 3rd International Conference for Emerging Technology",
+          "first-page": "1",
+          "article-title": "Optimal load frequency control of Interconnected Two Area non-reheat thermal-thermal power system",
+          "author": "Devashish",
+          "year": "2022"
+        },
+        {
+          "issue": "4",
+          "key": "10.1016/j.asoc.2023.111047_b136",
+          "doi-asserted-by": "crossref",
+          "first-page": "675",
+          "DOI": "10.1108/IJESM-07-2016-0001",
+          "article-title": "Generation scheduling with large-scale integration of renewable energy sources using grey wolf optimization",
+          "volume": "12",
+          "author": "Saravanan",
+          "year": "2018",
+          "journal-title": "Int. J. Energy Sect. Manag."
+        },
+        {
+          "issue": "1",
+          "key": "10.1016/j.asoc.2023.111047_b137",
+          "doi-asserted-by": "crossref",
+          "first-page": "44",
+          "DOI": "10.1080/03772063.2017.1391131",
+          "article-title": "Design of multi-machine power system stabilizers with forecast uncertainties in load/generation",
+          "volume": "65",
+          "author": "Krishan",
+          "year": "2019",
+          "journal-title": "IETE J. Res."
+        },
+        {
+          "issue": "1",
+          "key": "10.1016/j.asoc.2023.111047_b138",
+          "doi-asserted-by": "crossref",
+          "first-page": "729",
+          "DOI": "10.1109/JSYST.2019.2912899",
+          "article-title": "Discrete multiobjective grey wolf algorithm based optimal sizing and sensitivity analysis of PV-wind-battery system for rural telecom towers",
+          "volume": "14",
+          "author": "Kaur",
+          "year": "2020",
+          "journal-title": "IEEE Syst. J."
+        },
+        {
+          "issue": "3",
+          "key": "10.1016/j.asoc.2023.111047_b139",
+          "doi-asserted-by": "crossref",
+          "first-page": "2735",
+          "DOI": "10.1016/j.asej.2021.02.007",
+          "article-title": "Optimal probabilistic location of DGs using Monte Carlo simulation based different bio-inspired algorithms",
+          "volume": "12",
+          "author": "Hemeida",
+          "year": "2021",
+          "journal-title": "Ain Shams Eng. J."
+        },
+        {
+          "key": "10.1016/j.asoc.2023.111047_b140",
+          "doi-asserted-by": "crossref",
+          "first-page": "1",
+          "DOI": "10.1016/j.epsr.2022.108461",
+          "article-title": "Planning and design of urban low-voltage DC grids",
+          "volume": "211",
+          "author": "Saat",
+          "year": "2022",
+          "journal-title": "Electr. Power Syst. Res."
+        },
+        {
+          "key": "10.1016/j.asoc.2023.111047_b141",
+          "doi-asserted-by": "crossref",
+          "first-page": "1",
+          "DOI": "10.1016/j.compeleceng.2020.106941",
+          "article-title": "An intelligent hybrid interfacing converter of fuel cell powered telecom loads for efficient power conversion",
+          "volume": "90",
+          "author": "Muthusamy",
+          "year": "2021",
+          "journal-title": "Comput. Electr. Eng."
+        },
+        {
+          "key": "10.1016/j.asoc.2023.111047_b142",
+          "series-title": "Applications of Computing, Automation and Wireless Systems in Electrical Engineering, Vol. 553",
+          "first-page": "193",
+          "article-title": "Comparison of heuristic approach in renewable power optimization and environmental analyses",
+          "author": "Som",
+          "year": "2019"
+        },
+        {
+          "key": "10.1016/j.asoc.2023.111047_b143",
+          "series-title": "Proceedings of First International Conference on Mathematical Modeling and Computational Science, Vol. 1292",
+          "first-page": "47",
+          "article-title": "Near-optimal cable layout design of a wind farm using genetic algorithm",
+          "author": "El Mokhi",
+          "year": "2021"
+        },
+        {
+          "key": "10.1016/j.asoc.2023.111047_b144",
+          "first-page": "1",
+          "article-title": "Optimal allocation of distributed generation in power systems considering multiple operative scenarios",
+          "volume": "13",
+          "author": "Lezama",
+          "year": "2020",
+          "journal-title": "Int. J. Eng. Res. Technol."
+        },
+        {
+          "key": "10.1016/j.asoc.2023.111047_b145",
+          "doi-asserted-by": "crossref",
+          "first-page": "2648",
+          "DOI": "10.3906/elk-1801-261",
+          "article-title": "Optimization of large electric power distribution using a parallel genetic algorithm with dandelion strategy",
+          "volume": "26",
+          "author": "Sabattin",
+          "year": "2018",
+          "journal-title": "Turk. J. Electr. Eng. Comput. Sci."
+        },
+        {
+          "key": "10.1016/j.asoc.2023.111047_b146",
+          "doi-asserted-by": "crossref",
+          "first-page": "6549",
+          "DOI": "10.1007/s00521-020-05418-0",
+          "article-title": "Applications of metaheuristic algorithms for optimal operation of cascaded hydropower plants",
+          "volume": "33",
+          "author": "Nguyen",
+          "year": "2021",
+          "journal-title": "Neural Comput. Appl."
+        },
+        {
+          "key": "10.1016/j.asoc.2023.111047_b147",
+          "series-title": "2022 5th International Conference on Contemporary Computing and Informatics",
+          "first-page": "814",
+          "article-title": "Evolutionary algorithm for enhanced performance of grid connected spv system",
+          "author": "Prajapati",
+          "year": "2022"
+        },
+        {
+          "key": "10.1016/j.asoc.2023.111047_b148",
+          "series-title": "Proceedings of the Genetic and Evolutionary Computation Conference Companion",
+          "first-page": "276",
+          "article-title": "Performance assessment of a modified multi-objective Cuckoo’s search algorithm for microgrid planning considering uncertainties",
+          "author": "Acosta",
+          "year": "2018"
+        },
+        {
+          "key": "10.1016/j.asoc.2023.111047_b149",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1007/s10098-018-1562-y",
+          "article-title": "Distributed polygeneration using local resources for an Indian village: multiobjective optimization using metaheuristic algorithm",
+          "volume": "20",
+          "author": "Ray",
+          "year": "2018",
+          "journal-title": "Clean Technol. Environ. Policy"
+        },
+        {
+          "key": "10.1016/j.asoc.2023.111047_b150",
+          "series-title": "2017 IEEE Symposium Series on Computational Intelligence",
+          "first-page": "1",
+          "article-title": "Total optimization of a smart community by multi-population differential evolutionary particle swarm optimization",
+          "author": "Sato",
+          "year": "2017"
+        },
+        {
+          "issue": "1",
+          "key": "10.1016/j.asoc.2023.111047_b151",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1063/5.0000845",
+          "article-title": "Basic aspects of determining the optimal place of installing distributed power generation in the electric power system",
+          "volume": "2212",
+          "author": "Malkova",
+          "year": "2020",
+          "journal-title": "AIP Conf. Proc."
+        },
+        {
+          "issue": "13",
+          "key": "10.1016/j.asoc.2023.111047_b152",
+          "doi-asserted-by": "crossref",
+          "first-page": "3248",
+          "DOI": "10.1049/iet-gtd.2017.1087",
+          "article-title": "Fractional-order lead-lag compensator-based multi-band power system stabiliser design using a hybrid dynamic GA-PSO algorithm",
+          "volume": "12",
+          "author": "Kuttomparambil Abdulkhader",
+          "year": "2018",
+          "journal-title": "IET Gener. Transm. Distrib."
+        },
+        {
+          "key": "10.1016/j.asoc.2023.111047_b153",
+          "doi-asserted-by": "crossref",
+          "first-page": "286",
+          "DOI": "10.1016/j.isatra.2021.05.014",
+          "article-title": "An intelligent Hybrid Wind–PV farm as a static compensator for overall stability and control of multimachine power system",
+          "volume": "123",
+          "author": "Kumar",
+          "year": "2022",
+          "journal-title": "ISA Trans."
+        },
+        {
+          "issue": "5",
+          "key": "10.1016/j.asoc.2023.111047_b154",
+          "doi-asserted-by": "crossref",
+          "first-page": "3723",
+          "DOI": "10.1007/s00521-021-06637-9",
+          "article-title": "Performance assessment of the two metaheuristic techniques and their Hybrid for power system stability enhancement with PV-STATCOM",
+          "volume": "34",
+          "author": "Kumar",
+          "year": "2022",
+          "journal-title": "Neural Comput. Appl."
+        },
+        {
+          "issue": "3",
+          "key": "10.1016/j.asoc.2023.111047_b155",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1002/2050-7038.12778",
+          "article-title": "Bio-inspired hybrid BFOA-PSO algorithm-based reactive power controller in a standalone wind-diesel power system",
+          "volume": "31",
+          "author": "Wagle",
+          "year": "2021",
+          "journal-title": "Int. Trans. Electr. Energy Syst."
+        },
+        {
+          "key": "10.1016/j.asoc.2023.111047_b156",
+          "series-title": "2018 International Conference on Wind Energy and Applications in Algeria",
+          "first-page": "1",
+          "article-title": "Optimal size of renewable hybrid system applying nature-inspired algorithms",
+          "author": "Khenfous",
+          "year": "2018"
+        },
+        {
+          "issue": "2",
+          "key": "10.1016/j.asoc.2023.111047_b157",
+          "first-page": "87",
+          "article-title": "A Multi-objective Hybrid Optimization for renewable energy integrated Electrical Power Transmission Expansion Planning",
+          "volume": "13",
+          "author": "Gaffoor",
+          "year": "2022",
+          "journal-title": "Int. J. Electr. Comput. Eng. Syst."
+        },
+        {
+          "issue": "22",
+          "key": "10.1016/j.asoc.2023.111047_b158",
+          "doi-asserted-by": "crossref",
+          "first-page": "1",
+          "DOI": "10.3390/en15228754",
+          "article-title": "Power system stability enhancement using robust FACTS-based stabilizer designed by a hybrid optimization algorithm",
+          "volume": "15",
+          "author": "Behzadpoor",
+          "year": "2022",
+          "journal-title": "Energies"
+        },
+        {
+          "issue": "8",
+          "key": "10.1016/j.asoc.2023.111047_b159",
+          "doi-asserted-by": "crossref",
+          "first-page": "2703",
+          "DOI": "10.2174/2666255813999200721010231",
+          "article-title": "hGWO-SA: A novel hybrid grey wolf optimizer-simulated annealing algorithm for engineering and power system optimization problems",
+          "volume": "14",
+          "author": "Kamboj",
+          "year": "2021",
+          "journal-title": "Recent Adv. Comput. Sci. Commun."
+        },
+        {
+          "key": "10.1016/j.asoc.2023.111047_b160",
+          "doi-asserted-by": "crossref",
+          "first-page": "357",
+          "DOI": "10.1016/j.ijepes.2019.03.027",
+          "article-title": "Robust type-2 fuzzy fractional order PID controller for dynamic stability enhancement of power system having RES based microgrid penetration",
+          "volume": "110",
+          "author": "Kuttomparambil Abdulkhader",
+          "year": "2019",
+          "journal-title": "Int. J. Electr. Power Energy Syst."
+        },
+        {
+          "key": "10.1016/j.asoc.2023.111047_b161",
+          "doi-asserted-by": "crossref",
+          "first-page": "487",
+          "DOI": "10.1016/j.egyr.2021.11.160",
+          "article-title": "Impact of renewable energy penetration rate on power system transient voltage stability",
+          "volume": "8",
+          "author": "Niu",
+          "year": "2022",
+          "journal-title": "Energy Rep."
+        },
+        {
+          "key": "10.1016/j.asoc.2023.111047_b162",
+          "doi-asserted-by": "crossref",
+          "first-page": "1",
+          "DOI": "10.1155/2022/7630011",
+          "article-title": "A novel proposed algorithm to enhance the overcurrent relays’ performance in active distribution networks",
+          "volume": "2022",
+          "author": "El-Tawab",
+          "year": "2022",
+          "journal-title": "Int. Trans. Electr. Energy Syst."
+        },
+        {
+          "issue": "6–7",
+          "key": "10.1016/j.asoc.2023.111047_b163",
+          "doi-asserted-by": "crossref",
+          "first-page": "301",
+          "DOI": "10.1080/15325008.2022.2136293",
+          "article-title": "Generation of maximum power in grid connected PV system based MPPT control using hybrid elephant herding optimization algorithm",
+          "volume": "50",
+          "author": "Vijayakumar",
+          "year": "2022",
+          "journal-title": "Electr. Power Compon. Syst."
+        },
+        {
+          "key": "10.1016/j.asoc.2023.111047_b164",
+          "series-title": "2022 23rd International Middle East Power Systems Conference",
+          "first-page": "1",
+          "article-title": "Global MPPT controller for a grid tied PV system under partial shading conditions using salp swarm algorithm",
+          "author": "Elbehairy",
+          "year": "2022"
+        },
+        {
+          "issue": "2",
+          "key": "10.1016/j.asoc.2023.111047_b165",
+          "doi-asserted-by": "crossref",
+          "first-page": "1",
+          "DOI": "10.3390/en16020846",
+          "article-title": "Techno-economic strategy for the load dispatch and power flow in power grids using peafowl optimization algorithm",
+          "volume": "16",
+          "author": "Ali",
+          "year": "2023",
+          "journal-title": "Energies"
+        },
+        {
+          "issue": "1",
+          "key": "10.1016/j.asoc.2023.111047_b166",
+          "first-page": "1",
+          "article-title": "Dynamic environmental-economic load dispatch in grid-connected microgrids with demand response programs considering the uncertainties of demand, renewable generation and market price",
+          "volume": "34",
+          "author": "Rezaee Jordehi",
+          "year": "2021",
+          "journal-title": "Int. J. Numer. Modelling, Electron. Netw. Devices Fields"
+        },
+        {
+          "key": "10.1016/j.asoc.2023.111047_b167",
+          "doi-asserted-by": "crossref",
+          "first-page": "1",
+          "DOI": "10.1016/j.eswa.2022.116544",
+          "article-title": "Wind farm incorporated optimal power flow solutions through multi-objective horse herd optimization with a novel constraint handling technique",
+          "volume": "194",
+          "author": "Ida Evangeline",
+          "year": "2022",
+          "journal-title": "Expert Syst. Appl."
+        },
+        {
+          "issue": "2",
+          "key": "10.1016/j.asoc.2023.111047_b168",
+          "doi-asserted-by": "crossref",
+          "first-page": "1907",
+          "DOI": "10.1016/j.asej.2021.01.004",
+          "article-title": "AC&DC optimal power flow incorporating centralized/decentralized multi-region grid control employing the whale algorithm",
+          "volume": "12",
+          "author": "Swief",
+          "year": "2021",
+          "journal-title": "Ain Shams Eng. J."
+        },
+        {
+          "key": "10.1016/j.asoc.2023.111047_b169",
+          "first-page": "1",
+          "article-title": "Solution of optimal power flow problem using sine-cosine mutation based modified Jaya algorithm: a case study",
+          "author": "Gupta",
+          "year": "2021",
+          "journal-title": "Energy Sources A Recovery Util. Environ. Eff."
+        },
+        {
+          "issue": "20",
+          "key": "10.1016/j.asoc.2023.111047_b170",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.3390/en15207478",
+          "article-title": "Optimal allocation of distributed thyristor controlled series compensators in power system considering overload, voltage, and losses with reliability effect",
+          "volume": "15",
+          "author": "Khalili",
+          "year": "2022",
+          "journal-title": "Energies"
+        },
+        {
+          "key": "10.1016/j.asoc.2023.111047_b171",
+          "doi-asserted-by": "crossref",
+          "first-page": "1",
+          "DOI": "10.1016/j.energy.2022.123905",
+          "article-title": "Quasi-oppositional turbulent water flow-based optimization for cascaded short term hydrothermal scheduling with valve-point effects and multiple fuels",
+          "volume": "251",
+          "author": "Sakthivel",
+          "year": "2022",
+          "journal-title": "Energy"
+        },
+        {
+          "key": "10.1016/j.asoc.2023.111047_b172",
+          "doi-asserted-by": "crossref",
+          "first-page": "1",
+          "DOI": "10.1016/j.measurement.2020.108097",
+          "article-title": "Real-time voltage sag detection and classification for power quality diagnostics",
+          "volume": "164",
+          "author": "Nagata",
+          "year": "2020",
+          "journal-title": "Measurement"
+        },
+        {
+          "issue": "2",
+          "key": "10.1016/j.asoc.2023.111047_b173",
+          "doi-asserted-by": "crossref",
+          "first-page": "1",
+          "DOI": "10.3390/math10020260",
+          "article-title": "A novel deep learning-based state-of-charge estimation for renewable energy management system in hybrid electric vehicles",
+          "volume": "10",
+          "author": "Vellingiri",
+          "year": "2022",
+          "journal-title": "Mathematics"
+        }
+      ],
+      "container-title": [
+        "Applied Soft Computing"
+      ],
+      "original-title": [],
+      "language": "en",
+      "link": [
+        {
+          "URL": "https://api.elsevier.com/content/article/PII:S1568494623010657?httpAccept=text/xml",
+          "content-type": "text/xml",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        },
+        {
+          "URL": "https://api.elsevier.com/content/article/PII:S1568494623010657?httpAccept=text/plain",
+          "content-type": "text/plain",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2025,
+            10,
+            27
+          ]
+        ],
+        "date-time": "2025-10-27T20:32:57Z",
+        "timestamp": 1761597177000
+      },
+      "score": 1,
+      "resource": {
+        "primary": {
+          "URL": "https://linkinghub.elsevier.com/retrieve/pii/S1568494623010657"
+        }
+      },
+      "subtitle": [],
+      "short-title": [],
+      "issued": {
+        "date-parts": [
+          [
+            2024,
+            1
+          ]
+        ]
+      },
+      "references-count": 173,
+      "alternative-id": [
+        "S1568494623010657"
+      ],
+      "URL": "https://doi.org/10.1016/j.asoc.2023.111047",
+      "relation": {},
+      "ISSN": [
+        "1568-4946"
+      ],
+      "issn-type": [
+        {
+          "value": "1568-4946",
+          "type": "print"
+        }
+      ],
+      "subject": [],
+      "published": {
+        "date-parts": [
+          [
+            2024,
+            1
+          ]
+        ]
+      },
+      "assertion": [
+        {
+          "value": "Elsevier",
+          "name": "publisher",
+          "label": "This article is maintained by"
+        },
+        {
+          "value": "A systematic review of metaheuristic algorithms in electric power systems optimization",
+          "name": "articletitle",
+          "label": "Article Title"
+        },
+        {
+          "value": "Applied Soft Computing",
+          "name": "journaltitle",
+          "label": "Journal Title"
+        },
+        {
+          "value": "https://doi.org/10.1016/j.asoc.2023.111047",
+          "name": "articlelink",
+          "label": "CrossRef DOI link to publisher maintained version"
+        },
+        {
+          "value": "article",
+          "name": "content_type",
+          "label": "Content Type"
+        },
+        {
+          "value": "© 2023 Elsevier B.V. All rights reserved.",
+          "name": "copyright",
+          "label": "Copyright"
+        }
+      ],
+      "article-number": "111047"
+    }
+  }
+}

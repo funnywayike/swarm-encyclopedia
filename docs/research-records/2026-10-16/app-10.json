@@ -1,0 +1,2560 @@
+{
+  "retrieved": "2026-10-16",
+  "url": "https://api.crossref.org/works?query.bibliographic=building+energy+retrofit+optimization+genetic+algorithm&rows=3&filter=until-pub-date%3A2026-10-16",
+  "response": {
+    "status": "ok",
+    "message-type": "work-list",
+    "message-version": "1.0.0",
+    "message": {
+      "facets": {},
+      "total-results": 5239748,
+      "items": [
+        {
+          "indexed": {
+            "date-parts": [
+              [
+                2026,
+                10,
+                16
+              ]
+            ],
+            "date-time": "2026-10-16T00:08:49Z",
+            "timestamp": 1792109329162,
+            "version": "4.4.0"
+          },
+          "reference-count": 90,
+          "publisher": "Elsevier BV",
+          "license": [
+            {
+              "start": {
+                "date-parts": [
+                  [
+                    2020,
+                    6,
+                    1
+                  ]
+                ],
+                "date-time": "2020-06-01T00:00:00Z",
+                "timestamp": 1590969600000
+              },
+              "content-version": "tdm",
+              "delay-in-days": 0,
+              "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+            },
+            {
+              "start": {
+                "date-parts": [
+                  [
+                    2020,
+                    6,
+                    1
+                  ]
+                ],
+                "date-time": "2020-06-01T00:00:00Z",
+                "timestamp": 1590969600000
+              },
+              "content-version": "tdm",
+              "delay-in-days": 0,
+              "URL": "https://www.elsevier.com/legal/tdmrep-license"
+            }
+          ],
+          "funder": [
+            {
+              "DOI": "10.13039/501100004271",
+              "name": "Sapienza Università di Roma",
+              "doi-asserted-by": "publisher",
+              "id": [
+                {
+                  "id": "10.13039/501100004271",
+                  "id-type": "DOI",
+                  "asserted-by": "publisher"
+                }
+              ]
+            }
+          ],
+          "content-domain": {
+            "domain": [
+              "elsevier.com",
+              "sciencedirect.com"
+            ],
+            "crossmark-restriction": true
+          },
+          "short-container-title": [
+            "Energy and Buildings"
+          ],
+          "published-print": {
+            "date-parts": [
+              [
+                2020,
+                6
+              ]
+            ]
+          },
+          "DOI": "10.1016/j.enbuild.2020.109945",
+          "type": "journal-article",
+          "created": {
+            "date-parts": [
+              [
+                2020,
+                3,
+                13
+              ]
+            ],
+            "date-time": "2020-03-13T13:40:40Z",
+            "timestamp": 1584106840000
+          },
+          "page": "109945",
+          "update-policy": "https://doi.org/10.1016/elsevier_cm_policy",
+          "source": "Crossref",
+          "is-referenced-by-count": 184,
+          "special_numbering": "C",
+          "title": [
+            "Multi-objective optimization of building retrofit in the Mediterranean climate by means of genetic algorithm application"
+          ],
+          "prefix": "10.1016",
+          "volume": "216",
+          "author": [
+            {
+              "given": "Federica",
+              "family": "Rosso",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Virgilio",
+              "family": "Ciancio",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Jacopo",
+              "family": "Dell'Olmo",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Ferdinando",
+              "family": "Salata",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            }
+          ],
+          "member": "78",
+          "reference": [
+            {
+              "key": "10.1016/j.enbuild.2020.109945_bib0001",
+              "doi-asserted-by": "crossref",
+              "first-page": "41",
+              "DOI": "10.1016/j.envint.2017.08.001",
+              "article-title": "The impact of climate change and emissions control on future ozone levels: implications for human health",
+              "volume": "108",
+              "author": "Stowell",
+              "year": "2017",
+              "journal-title": "Environ. Int."
+            },
+            {
+              "key": "10.1016/j.enbuild.2020.109945_bib0002",
+              "doi-asserted-by": "crossref",
+              "first-page": "271",
+              "DOI": "10.1016/j.envsci.2014.08.011",
+              "article-title": "Extended impacts of climate change on health and wellbeing",
+              "volume": "44",
+              "author": "Thomas",
+              "year": "2014",
+              "journal-title": "Environ. Sci. Policy."
+            },
+            {
+              "key": "10.1016/j.enbuild.2020.109945_bib0003",
+              "unstructured": "United Nations, Intergovernmental Panel on Climate Change, IPCC, (n.d.). https://www.ipcc.ch/about/(accessed January 22, 2019)."
+            },
+            {
+              "key": "10.1016/j.enbuild.2020.109945_bib0004",
+              "unstructured": "United Nations, United Nations Climate Change Conference, COP24 - COP 24 Katowice 2018, (n.d.). https://cop24.gov.pl/(accessed January 22, 2019)."
+            },
+            {
+              "key": "10.1016/j.enbuild.2020.109945_bib0005",
+              "article-title": "A cross-country comparison of the building energy consumptions and their trends",
+              "author": "Berardi",
+              "year": "2016",
+              "journal-title": "Resources, Conserv. Recycl."
+            },
+            {
+              "key": "10.1016/j.enbuild.2020.109945_bib0006",
+              "doi-asserted-by": "crossref",
+              "first-page": "649",
+              "DOI": "10.1016/j.enbuild.2016.07.044",
+              "article-title": "Energy and economic analysis and feasibility of retrofit actions in Italian residential historical buildings",
+              "volume": "128",
+              "author": "Ciulla",
+              "year": "2016",
+              "journal-title": "Energy Build."
+            },
+            {
+              "key": "10.1016/j.enbuild.2020.109945_bib0007",
+              "doi-asserted-by": "crossref",
+              "first-page": "719",
+              "DOI": "10.1016/j.egypro.2015.02.181",
+              "article-title": "Lean strategies for window retrofit of Italian office buildings: impact on energy use, thermal and visual comfort",
+              "volume": "70",
+              "author": "Mainini",
+              "year": "2015",
+              "journal-title": "Energy Procedia."
+            },
+            {
+              "key": "10.1016/j.enbuild.2020.109945_bib0008",
+              "doi-asserted-by": "crossref",
+              "first-page": "370",
+              "DOI": "10.1016/j.enbuild.2017.10.092",
+              "article-title": "Aerogel-enhanced systems for building energy retrofits: insights from a case study",
+              "volume": "159",
+              "author": "Berardi",
+              "year": "2018",
+              "journal-title": "Energy Build."
+            },
+            {
+              "key": "10.1016/j.enbuild.2020.109945_bib0009",
+              "doi-asserted-by": "crossref",
+              "first-page": "47",
+              "DOI": "10.1016/j.enbuild.2012.07.038",
+              "article-title": "Thermal performance of secondary glazing as a retrofit alternative for single-glazed windows",
+              "volume": "54",
+              "author": "Smith",
+              "year": "2012",
+              "journal-title": "Energy Build."
+            },
+            {
+              "key": "10.1016/j.enbuild.2020.109945_bib0010",
+              "doi-asserted-by": "crossref",
+              "first-page": "77",
+              "DOI": "10.1016/j.enbuild.2017.10.020",
+              "article-title": "Theoretical and experimental thermal performance assessment of an innovative external wall insulation system for social housing retrofit",
+              "volume": "162",
+              "author": "Rodrigues",
+              "year": "2018",
+              "journal-title": "Energy Build."
+            },
+            {
+              "key": "10.1016/j.enbuild.2020.109945_bib0011",
+              "doi-asserted-by": "crossref",
+              "first-page": "1132",
+              "DOI": "10.1016/j.energy.2018.06.179",
+              "article-title": "Optimizing the insulation thickness of walls and roofs of existing buildings based on primary energy consumption, global cost and pollutant emissions",
+              "volume": "159",
+              "author": "Jie",
+              "year": "2018",
+              "journal-title": "Energy."
+            },
+            {
+              "key": "10.1016/j.enbuild.2020.109945_bib0012",
+              "doi-asserted-by": "crossref",
+              "first-page": "347",
+              "DOI": "10.1016/j.egypro.2017.03.196",
+              "article-title": "Wood fiber vs synthetic thermal insulation for roofs energy retrofit: a case study in Turin, Italy",
+              "volume": "111",
+              "author": "Bianco",
+              "year": "2017",
+              "journal-title": "Energy Procedia."
+            },
+            {
+              "key": "10.1016/j.enbuild.2020.109945_bib0013",
+              "doi-asserted-by": "crossref",
+              "first-page": "1",
+              "DOI": "10.4028/www.scientific.net/KEM.666.1",
+              "article-title": "Natural materials for thermal insulation and passive cooling application",
+              "volume": "666",
+              "author": "Pisello",
+              "year": "2015",
+              "journal-title": "Key Eng. Mater."
+            },
+            {
+              "key": "10.1016/j.enbuild.2020.109945_bib0014",
+              "article-title": "Cool marble building envelopes: the effect of aging on energy performance and aesthetics",
+              "volume": "8",
+              "author": "Rosso",
+              "year": "2016",
+              "journal-title": "Sustain."
+            },
+            {
+              "key": "10.1016/j.enbuild.2020.109945_bib0015",
+              "doi-asserted-by": "crossref",
+              "first-page": "753",
+              "DOI": "10.3390/su8080753",
+              "article-title": "Cool marble building envelopes: the effect of aging on energy performance and aesthetics",
+              "volume": "8",
+              "author": "Rosso",
+              "year": "2016",
+              "journal-title": "Sustain."
+            },
+            {
+              "key": "10.1016/j.enbuild.2020.109945_bib0016",
+              "doi-asserted-by": "crossref",
+              "DOI": "10.1016/j.enbuild.2017.06.051",
+              "article-title": "New cool concrete for building envelopes and urban paving: optics-energy and thermal assessment in dynamic conditions",
+              "author": "Rosso",
+              "year": "2017",
+              "journal-title": "Energy Build."
+            },
+            {
+              "key": "10.1016/j.enbuild.2020.109945_bib0017",
+              "doi-asserted-by": "crossref",
+              "first-page": "241",
+              "DOI": "10.1016/j.solener.2013.10.005",
+              "article-title": "Efficient venetian blind control strategies considering daylight utilization and glare protection",
+              "volume": "98",
+              "author": "Chan",
+              "year": "2013",
+              "journal-title": "Sol. Energy."
+            },
+            {
+              "key": "10.1016/j.enbuild.2020.109945_bib0018",
+              "doi-asserted-by": "crossref",
+              "first-page": "440",
+              "DOI": "10.1016/j.enbuild.2017.12.053",
+              "article-title": "Selection of slat separation-to-width ratio of Brise-Soleil shading considering energy savings, CO2 emissions and visual comfort - a case study in Qatar",
+              "volume": "165",
+              "author": "Ouahrani",
+              "year": "2018",
+              "journal-title": "Energy Build."
+            },
+            {
+              "key": "10.1016/j.enbuild.2020.109945_bib0019",
+              "article-title": "Thermal performance assessment of extensive green roofs investigating realistic vegetation-substrate configurations",
+              "author": "Cascone",
+              "year": "2018",
+              "journal-title": "Build. Simul."
+            },
+            {
+              "key": "10.1016/j.enbuild.2020.109945_bib0020",
+              "doi-asserted-by": "crossref",
+              "first-page": "469",
+              "DOI": "10.1016/j.scs.2018.06.003",
+              "article-title": "On the necessities to analyse the thermohygrometric perception in aged people. A review about indoor thermal comfort, health and energetic aspects and a perspective for future studies",
+              "volume": "41",
+              "author": "Salata",
+              "year": "2018",
+              "journal-title": "Sustain. Cities Soc."
+            },
+            {
+              "key": "10.1016/j.enbuild.2020.109945_bib0021",
+              "doi-asserted-by": "crossref",
+              "first-page": "224",
+              "DOI": "10.1016/j.apenergy.2014.07.049",
+              "article-title": "Human-based energy retrofits in residential buildings: A cost-effective alternative to traditional physical strategies",
+              "volume": "133",
+              "author": "Pisello",
+              "year": "2014",
+              "journal-title": "Appl. Energy."
+            },
+            {
+              "key": "10.1016/j.enbuild.2020.109945_bib0022",
+              "doi-asserted-by": "crossref",
+              "unstructured": "S.P. Corgnati, F. Cotana, S. D'Oca, A.L. Pisello, F. Rosso, A cost-effective human-based energy-retrofitting approach, 2017. doi:10.1016/B978-0-08-101128-7.00008-3.",
+              "DOI": "10.1016/B978-0-08-101128-7.00008-3"
+            },
+            {
+              "key": "10.1016/j.enbuild.2020.109945_bib0023",
+              "doi-asserted-by": "crossref",
+              "first-page": "61",
+              "DOI": "10.1016/j.enconman.2017.01.062",
+              "article-title": "Heading towards the nZEB through CHP+HP systems. A comparison between retrofit solutions able to increase the energy performance for the heating and domestic hot water production in residential buildings",
+              "volume": "138",
+              "author": "Salata",
+              "year": "2017",
+              "journal-title": "Energy Convers. Manag."
+            },
+            {
+              "key": "10.1016/j.enbuild.2020.109945_bib0024",
+              "doi-asserted-by": "crossref",
+              "first-page": "10770",
+              "DOI": "10.3390/su70810770",
+              "article-title": "Maintenance and energy optimization of lighting systems for the improvement of historic buildings: a case study",
+              "volume": "7",
+              "author": "Salata",
+              "year": "2015",
+              "journal-title": "Sustain."
+            },
+            {
+              "key": "10.1016/j.enbuild.2020.109945_bib0025",
+              "doi-asserted-by": "crossref",
+              "first-page": "482",
+              "DOI": "10.1016/j.egypro.2014.01.052",
+              "article-title": "A case study of technical and economic comparison among energy production systems in a complex of historic buildings in Rome",
+              "volume": "45",
+              "author": "Salata",
+              "year": "2014",
+              "journal-title": "Energy Procedia."
+            },
+            {
+              "key": "10.1016/j.enbuild.2020.109945_bib0026",
+              "doi-asserted-by": "crossref",
+              "first-page": "1195",
+              "DOI": "10.1016/j.egypro.2014.01.125",
+              "article-title": "Plant reliability in hospital facilities",
+              "volume": "45",
+              "author": "Salata",
+              "year": "2014",
+              "journal-title": "Energy Procedia."
+            },
+            {
+              "key": "10.1016/j.enbuild.2020.109945_bib0027",
+              "doi-asserted-by": "crossref",
+              "first-page": "886",
+              "DOI": "10.1016/j.enbuild.2016.06.068",
+              "article-title": "Evaluation of energy conservation opportunities through energy performance contracting: a case study in Italy",
+              "volume": "128",
+              "author": "Principi",
+              "year": "2016",
+              "journal-title": "Energy Build."
+            },
+            {
+              "key": "10.1016/j.enbuild.2020.109945_bib0028",
+              "doi-asserted-by": "crossref",
+              "first-page": "736",
+              "DOI": "10.1016/j.enbuild.2017.10.004",
+              "article-title": "Techno-economical analysis based on a parametric computational evaluation for decision process on envelope technologies and configurations evaluation for decision process of envelope technologies and configurations",
+              "volume": "158",
+              "author": "Tagliabue",
+              "year": "2018",
+              "journal-title": "Energy Build."
+            },
+            {
+              "key": "10.1016/j.enbuild.2020.109945_bib0029",
+              "doi-asserted-by": "crossref",
+              "first-page": "66",
+              "DOI": "10.1016/j.scs.2015.06.002",
+              "article-title": "Assessment of financial potential of real estate energy efficiency investments—a discounted cash flow approach",
+              "volume": "18",
+              "author": "Christersson",
+              "year": "2015",
+              "journal-title": "Sustain. Cities Soc."
+            },
+            {
+              "key": "10.1016/j.enbuild.2020.109945_bib0030",
+              "doi-asserted-by": "crossref",
+              "first-page": "279",
+              "DOI": "10.1016/j.enbuild.2018.08.034",
+              "article-title": "Life cycle option appraisal in retrofit buildings",
+              "volume": "178",
+              "author": "Tokede",
+              "year": "2018",
+              "journal-title": "Energy Build."
+            },
+            {
+              "key": "10.1016/j.enbuild.2020.109945_bib0031",
+              "article-title": "Directive 2010/31/EU of the European Parliament and of the Council of 19 May 2010 on the energy performance of buildings (recast)",
+              "author": "Parliament",
+              "year": "2010",
+              "journal-title": "Off. J. Eur. Union."
+            },
+            {
+              "key": "10.1016/j.enbuild.2020.109945_bib0032",
+              "doi-asserted-by": "crossref",
+              "first-page": "590",
+              "DOI": "10.1016/j.enbuild.2016.05.093",
+              "article-title": "The cost-optimal methodology for the energy retrofit of an ex-industrial building located in Northern Italy",
+              "volume": "127",
+              "author": "Becchio",
+              "year": "2016",
+              "journal-title": "Energy Build."
+            },
+            {
+              "key": "10.1016/j.enbuild.2020.109945_bib0033",
+              "doi-asserted-by": "crossref",
+              "first-page": "19",
+              "DOI": "10.1016/j.enbuild.2013.09.027",
+              "article-title": "The reliability of technological systems with high energy efficiency in residential buildings",
+              "volume": "68",
+              "author": "Peruzzi",
+              "year": "2014",
+              "journal-title": "Energy Build."
+            },
+            {
+              "key": "10.1016/j.enbuild.2020.109945_bib0034",
+              "doi-asserted-by": "crossref",
+              "first-page": "10324",
+              "DOI": "10.3390/su70810324",
+              "article-title": "A methodological comparison between energy and environmental performance evaluation",
+              "volume": "7",
+              "author": "Pagliaro",
+              "year": "2015",
+              "journal-title": "Sustainability"
+            },
+            {
+              "key": "10.1016/j.enbuild.2020.109945_bib0035",
+              "doi-asserted-by": "crossref",
+              "first-page": "681",
+              "DOI": "10.1016/j.energy.2017.02.174",
+              "article-title": "Review: multi-objective optimization methods and application in energy saving",
+              "volume": "125",
+              "author": "Cui",
+              "year": "2017",
+              "journal-title": "Energy"
+            },
+            {
+              "key": "10.1016/j.enbuild.2020.109945_bib0036",
+              "doi-asserted-by": "crossref",
+              "first-page": "118",
+              "DOI": "10.1016/j.enbuild.2014.09.056",
+              "article-title": "Method for energy optimization with reliability analysis of a trigeneration and teleheating system on urban scale: a case study",
+              "volume": "86",
+              "author": "Salata",
+              "year": "2015",
+              "journal-title": "Energy Build."
+            },
+            {
+              "key": "10.1016/j.enbuild.2020.109945_bib0037",
+              "doi-asserted-by": "crossref",
+              "first-page": "10428",
+              "DOI": "10.3390/su70810428",
+              "article-title": "Methodological approach to the energy analysis of unconstrained historical buildings",
+              "volume": "7",
+              "author": "Burattini",
+              "year": "2015",
+              "journal-title": "Sustainability"
+            },
+            {
+              "key": "10.1016/j.enbuild.2020.109945_bib0038",
+              "doi-asserted-by": "crossref",
+              "unstructured": "K. Deb, A. Member, A. Pratap, S. Agarwal, T. Meyarivan, A fast and elitist multiobjective genetic algorithm, 6 (2002) 182–197.",
+              "DOI": "10.1109/4235.996017"
+            },
+            {
+              "key": "10.1016/j.enbuild.2020.109945_bib0039",
+              "series-title": "An Introduction to Genetic Algorithms",
+              "author": "Melanie",
+              "year": "1999"
+            },
+            {
+              "key": "10.1016/j.enbuild.2020.109945_bib0040",
+              "doi-asserted-by": "crossref",
+              "first-page": "606",
+              "DOI": "10.1016/j.apm.2019.05.009",
+              "article-title": "A dynamic multi-objective optimization model with interactivity and uncertainty for real-time reservoir flood control operation",
+              "volume": "74",
+              "author": "Liu",
+              "year": "2019",
+              "journal-title": "Appl. Math. Model."
+            },
+            {
+              "key": "10.1016/j.enbuild.2020.109945_bib0041",
+              "doi-asserted-by": "crossref",
+              "DOI": "10.1016/j.asoc.2019.105631",
+              "article-title": "Constrained multi-objective optimization algorithms: review and comparison with application in reinforced concrete structures",
+              "volume": "83",
+              "author": "Afshari",
+              "year": "2019",
+              "journal-title": "Appl. Soft Comput."
+            },
+            {
+              "key": "10.1016/j.enbuild.2020.109945_bib0042",
+              "article-title": "The use of multi-objective optimization to improve the design process of nuclear power plant systems",
+              "author": "Wilding",
+              "year": "2019",
+              "journal-title": "Ann. Nucl. Energy."
+            },
+            {
+              "key": "10.1016/j.enbuild.2020.109945_bib0043",
+              "doi-asserted-by": "crossref",
+              "first-page": "1412",
+              "DOI": "10.3390/su1041412",
+              "article-title": "Sustainability: living within one's own ecological means",
+              "volume": "1",
+              "author": "Liu",
+              "year": "2009",
+              "journal-title": "Sustainability"
+            },
+            {
+              "key": "10.1016/j.enbuild.2020.109945_bib0044",
+              "doi-asserted-by": "crossref",
+              "first-page": "147",
+              "DOI": "10.1016/j.apenergy.2018.04.076",
+              "article-title": "Multi-objective optimization of microclimate in museums for concurrent reduction of energy needs, visitors’ discomfort and artwork preservation risks",
+              "volume": "224",
+              "author": "Schito",
+              "year": "2018",
+              "journal-title": "Appl. Energy."
+            },
+            {
+              "key": "10.1016/j.enbuild.2020.109945_bib0045",
+              "doi-asserted-by": "crossref",
+              "first-page": "37",
+              "DOI": "10.1016/j.apenergy.2016.04.078",
+              "article-title": "Multi-stage and multi-objective optimization for energy retrofitting a developed hospital reference building: a new approach to assess cost-optimality",
+              "volume": "174",
+              "author": "Ascione",
+              "year": "2016",
+              "journal-title": "Appl. Energy."
+            },
+            {
+              "key": "10.1016/j.enbuild.2020.109945_bib0046",
+              "doi-asserted-by": "crossref",
+              "first-page": "283",
+              "DOI": "10.1016/j.enbuild.2017.08.002",
+              "article-title": "A computational multi-objective optimization method to improve energy efficiency and thermal comfort in dwellings",
+              "volume": "154",
+              "author": "Bre",
+              "year": "2017",
+              "journal-title": "Energy Build."
+            },
+            {
+              "key": "10.1016/j.enbuild.2020.109945_bib0047",
+              "doi-asserted-by": "crossref",
+              "first-page": "356",
+              "DOI": "10.1016/j.enbuild.2014.07.030",
+              "article-title": "Integrating requirement analysis and multi-objective optimization for office building energy retrofit strategies",
+              "volume": "82",
+              "author": "Shao",
+              "year": "2014",
+              "journal-title": "Energy Build."
+            },
+            {
+              "key": "10.1016/j.enbuild.2020.109945_bib0048",
+              "doi-asserted-by": "crossref",
+              "first-page": "200",
+              "DOI": "10.1016/j.enbuild.2017.04.069",
+              "article-title": "cost-optimal analysis by multi-objective optimisation and artificial neural networks: a new framework for the robust assessment of cost-optimal energy retrofit, feasible for any building",
+              "volume": "146",
+              "author": "Ascione",
+              "year": "2017",
+              "journal-title": "Energy Build."
+            },
+            {
+              "key": "10.1016/j.enbuild.2020.109945_bib0049",
+              "doi-asserted-by": "crossref",
+              "DOI": "10.1016/j.enbuild.2019.109356",
+              "article-title": "Developing a model for energy retrofit in large building portfolios: energy assessment, optimization and uncertainty",
+              "volume": "202",
+              "author": "Gabrielli",
+              "year": "2019",
+              "journal-title": "Energy Build."
+            },
+            {
+              "key": "10.1016/j.enbuild.2020.109945_bib0050",
+              "doi-asserted-by": "crossref",
+              "first-page": "403",
+              "DOI": "10.1016/j.jclepro.2018.04.102",
+              "article-title": "Evolutionary many-objective optimization for retrofit planning in public buildings: a comparative study",
+              "volume": "190",
+              "author": "Son",
+              "year": "2018",
+              "journal-title": "J. Clean. Prod."
+            },
+            {
+              "key": "10.1016/j.enbuild.2020.109945_bib0051",
+              "doi-asserted-by": "crossref",
+              "first-page": "1661",
+              "DOI": "10.1016/j.apenergy.2019.03.177",
+              "article-title": "Co-simulation and optimization of building geometry and multi-energy systems: interdependencies in energy supply, energy demand and solar potentials",
+              "volume": "242",
+              "author": "Waibel",
+              "year": "2019",
+              "journal-title": "Appl. Energy."
+            },
+            {
+              "key": "10.1016/j.enbuild.2020.109945_bib0052",
+              "doi-asserted-by": "crossref",
+              "first-page": "94",
+              "DOI": "10.1016/j.buildenv.2017.12.027",
+              "article-title": "Selection of optimization objectives for decision-making in building energy retrofits",
+              "volume": "130",
+              "author": "Jafari",
+              "year": "2018",
+              "journal-title": "Build. Environ."
+            },
+            {
+              "key": "10.1016/j.enbuild.2020.109945_bib0053",
+              "doi-asserted-by": "crossref",
+              "first-page": "331",
+              "DOI": "10.1016/j.apenergy.2019.03.028",
+              "article-title": "A new comprehensive framework for the multi-objective optimization of building energy design: harlequin",
+              "volume": "241",
+              "author": "Ascione",
+              "year": "2019",
+              "journal-title": "Appl. Energy."
+            },
+            {
+              "key": "10.1016/j.enbuild.2020.109945_bib0054",
+              "doi-asserted-by": "crossref",
+              "first-page": "1043",
+              "DOI": "10.1016/j.apenergy.2013.08.061",
+              "article-title": "A review on simulation-based optimization methods applied to building performance analysis",
+              "volume": "113",
+              "author": "Nguyen",
+              "year": "2014",
+              "journal-title": "Appl. Energy."
+            },
+            {
+              "key": "10.1016/j.enbuild.2020.109945_bib0055",
+              "doi-asserted-by": "crossref",
+              "first-page": "897",
+              "DOI": "10.1016/j.rser.2018.04.080",
+              "article-title": "A review on optimization methods applied in energy-efficient building geometry and envelope design",
+              "volume": "92",
+              "author": "Kheiri",
+              "year": "2018",
+              "journal-title": "Renew. Sustain. Energy Rev."
+            },
+            {
+              "key": "10.1016/j.enbuild.2020.109945_bib0056",
+              "doi-asserted-by": "crossref",
+              "first-page": "359",
+              "DOI": "10.1016/j.energy.2019.02.182",
+              "article-title": "Building envelope design: multi-objective optimization to minimize energy consumption, global cost and thermal discomfort. application to different Italian climatic zones",
+              "author": "Ascione",
+              "year": "2019",
+              "journal-title": "Energy"
+            },
+            {
+              "key": "10.1016/j.enbuild.2020.109945_bib0057",
+              "doi-asserted-by": "crossref",
+              "first-page": "484",
+              "DOI": "10.1016/j.enbuild.2017.09.095",
+              "article-title": "Passive design optimization of newly-built residential buildings in Shanghai for improving indoor thermal comfort while reducing building energy demand",
+              "volume": "169",
+              "author": "Gou",
+              "year": "2018",
+              "journal-title": "Energy Build."
+            },
+            {
+              "key": "10.1016/j.enbuild.2020.109945_bib0058",
+              "doi-asserted-by": "crossref",
+              "first-page": "1231",
+              "DOI": "10.1016/j.apenergy.2018.12.043",
+              "article-title": "EDeSSOpt – Energy Demand and supply simultaneous optimization for cost-optimized design: application to a multi-family building",
+              "volume": "236",
+              "author": "Ferrara",
+              "year": "2019",
+              "journal-title": "Appl. Energy."
+            },
+            {
+              "key": "10.1016/j.enbuild.2020.109945_bib0059",
+              "doi-asserted-by": "crossref",
+              "DOI": "10.1016/j.applthermaleng.2019.114384",
+              "article-title": "Weather-data-based control of space heating operation via multi-objective optimization : application to Italian residential buildings",
+              "volume": "163",
+              "author": "Ascione",
+              "year": "2019",
+              "journal-title": "Appl. Therm. Eng."
+            },
+            {
+              "key": "10.1016/j.enbuild.2020.109945_bib0060",
+              "doi-asserted-by": "crossref",
+              "first-page": "118",
+              "DOI": "10.1016/j.buildenv.2017.01.020",
+              "article-title": "An optimization framework for building energy retrofits decision-making",
+              "volume": "115",
+              "author": "Jafari",
+              "year": "2017",
+              "journal-title": "Build. Environ."
+            },
+            {
+              "key": "10.1016/j.enbuild.2020.109945_bib0061",
+              "doi-asserted-by": "crossref",
+              "first-page": "1078",
+              "DOI": "10.1016/j.jclepro.2019.01.119",
+              "article-title": "Investment decision-making optimization of energy efficiency retrofit measures in multiple buildings under financing budgetary restraint",
+              "volume": "215",
+              "author": "He",
+              "year": "2019",
+              "journal-title": "J. Clean. Prod."
+            },
+            {
+              "key": "10.1016/j.enbuild.2020.109945_bib0062",
+              "doi-asserted-by": "crossref",
+              "first-page": "303",
+              "DOI": "10.1016/j.enbuild.2017.03.056",
+              "article-title": "Energy retrofit of educational buildings: transient energy simulations, model calibration and multi-objective optimization towards nearly zero-energy performance",
+              "volume": "144",
+              "author": "Ascione",
+              "year": "2017",
+              "journal-title": "Energy Build."
+            },
+            {
+              "key": "10.1016/j.enbuild.2020.109945_bib0063",
+              "doi-asserted-by": "crossref",
+              "first-page": "78",
+              "DOI": "10.1016/j.enbuild.2014.11.058",
+              "article-title": "A new methodology for cost-optimal analysis by means of the multi-objective optimization of building energy performance",
+              "volume": "88",
+              "author": "Ascione",
+              "year": "2015",
+              "journal-title": "Energy Build."
+            },
+            {
+              "key": "10.1016/j.enbuild.2020.109945_bib0064",
+              "doi-asserted-by": "crossref",
+              "first-page": "378",
+              "DOI": "10.1016/j.enbuild.2015.06.064",
+              "article-title": "Multi-objective optimization of a nearly zero-energy building based on thermal and visual discomfort minimization using a non-dominated sorting genetic algorithm (NSGA-II)",
+              "volume": "104",
+              "author": "Carlucci",
+              "year": "2015",
+              "journal-title": "Energy Build."
+            },
+            {
+              "key": "10.1016/j.enbuild.2020.109945_bib0065",
+              "doi-asserted-by": "crossref",
+              "first-page": "442",
+              "DOI": "10.1016/j.enbuild.2014.08.031",
+              "article-title": "A simulation-based optimization method for cost-optimal analysis of nearly zero energy buildings",
+              "volume": "84",
+              "author": "Ferrara",
+              "year": "2014",
+              "journal-title": "Energy Build."
+            },
+            {
+              "key": "10.1016/j.enbuild.2020.109945_bib0066",
+              "doi-asserted-by": "crossref",
+              "first-page": "135",
+              "DOI": "10.1016/j.enbuild.2014.11.063",
+              "article-title": "Application of multi-objective genetic algorithm to optimize energy efficiency and thermal comfort in building design",
+              "volume": "88",
+              "author": "Yu",
+              "year": "2015",
+              "journal-title": "Energy Build."
+            },
+            {
+              "key": "10.1016/j.enbuild.2020.109945_bib0067",
+              "doi-asserted-by": "crossref",
+              "first-page": "57",
+              "DOI": "10.1016/j.enbuild.2016.03.035",
+              "article-title": "A performance comparison of multi-objective optimization algorithms for solving nearly-zero-energy-building design problems",
+              "volume": "121",
+              "author": "Hamdy",
+              "year": "2016",
+              "journal-title": "Energy Build."
+            },
+            {
+              "key": "10.1016/j.enbuild.2020.109945_bib0068",
+              "doi-asserted-by": "crossref",
+              "first-page": "93",
+              "DOI": "10.1016/j.aei.2019.03.006",
+              "article-title": "Multi-objective optimization design of a complex building based on an artificial neural network and performance evaluation of algorithms",
+              "volume": "40",
+              "author": "Si",
+              "year": "2019",
+              "journal-title": "Adv. Eng. Inform."
+            },
+            {
+              "key": "10.1016/j.enbuild.2020.109945_bib0069",
+              "unstructured": "Bollettino Ufficiale della Regione Lazio, Tariffa dei prezzi 2012 Regione Lazio, (2013) 1–695."
+            },
+            {
+              "key": "10.1016/j.enbuild.2020.109945_bib0070",
+              "unstructured": "Eurostat, Electricity prices, (2018). https://ec.europa.eu/eurostat/statistics-explained/index.php/Electricity_price_statistics#Electricity_prices_for_household_consumers."
+            },
+            {
+              "key": "10.1016/j.enbuild.2020.109945_bib0071",
+              "unstructured": "Eurostat, Natural gas prices, (2018). https://ec.europa.eu/eurostat/statistics-explained/index.php/Natural_gas_price_statistics#Natural_gas_prices_for_household_consumers."
+            },
+            {
+              "key": "10.1016/j.enbuild.2020.109945_bib0072",
+              "unstructured": "European Environment Agency, CO2-emission intensity from electricity generation, (2019). https://www.eea.europa.eu/data-and-maps/daviz/sds/co2-emission-intensity-from-electricity-generation-2/@@view."
+            },
+            {
+              "key": "10.1016/j.enbuild.2020.109945_bib0073",
+              "unstructured": "International Energy Agency, CO2 emissions from fuel combustion 2018 highlights, 2018. https://webstore.iea.org/co2-emissions-from-fuel-combustion-2018-highlights."
+            },
+            {
+              "key": "10.1016/j.enbuild.2020.109945_bib0074",
+              "doi-asserted-by": "crossref",
+              "first-page": "200",
+              "DOI": "10.1016/j.enbuild.2017.04.069",
+              "article-title": "CASA, cost-optimal analysis by multi-objective optimisation and artificial neural networks: a new framework for the robust assessment of cost-optimal energy retrofit, feasible for any building",
+              "volume": "146",
+              "author": "Ascione",
+              "year": "2017",
+              "journal-title": "Energy Build."
+            },
+            {
+              "key": "10.1016/j.enbuild.2020.109945_bib0075",
+              "unstructured": "Ente Italiano di Normazione, UNI/TS 11300-4:2016. Prestazioni energetiche degli edifici - Parte 4: utilizzo di energie rinnovabili e di altri metodi di generazione per la climatizzazione invernale e per la produzione di acqua calda sanitaria, (2016). http://store.uni.com/catalogo/uni-ts-11300-4-2016."
+            },
+            {
+              "key": "10.1016/j.enbuild.2020.109945_bib0076",
+              "unstructured": "Ente Italiano di Normazione, UNI/TS 11300-3:2010. Prestazioni energetiche degli edifici - Parte 3: determinazione del fabbisogno di energia primaria e dei rendimenti per la climatizzazione estiva, (2010). http://store.uni.com/catalogo/uni-ts-11300-3-2010."
+            },
+            {
+              "key": "10.1016/j.enbuild.2020.109945_bib0077",
+              "doi-asserted-by": "crossref",
+              "first-page": "293",
+              "DOI": "10.1016/j.enbuild.2017.06.060",
+              "article-title": "Energy retrofitting of residential buildings—how to couple combined heat and power (CHP) and heat pump (HP) for thermal management and off-design operation",
+              "volume": "151",
+              "author": "Lo Basso",
+              "year": "2017",
+              "journal-title": "Energy Build."
+            },
+            {
+              "key": "10.1016/j.enbuild.2020.109945_bib0078",
+              "unstructured": "Energy Plus, Weather data by location, all regions- Europe WMO region 6 - Italy, accessed March 4, 2019. https://energyplus.net/weather-location/europe_wmo_region_6/ITA//ITA_Perugia.161810_IGDG."
+            },
+            {
+              "key": "10.1016/j.enbuild.2020.109945_bib0079",
+              "first-page": "1",
+              "article-title": "Influence of input climatic data on simulations of annual energy needs of a building: energyPlus and WRF modeling for a case study in Rome (Italy)",
+              "author": "Ciancio",
+              "year": "2018",
+              "journal-title": "Energies."
+            },
+            {
+              "key": "10.1016/j.enbuild.2020.109945_bib0080",
+              "unstructured": "SketchUp Software. https://www.sketchup.com/it(accessed March 4, 2019)."
+            },
+            {
+              "key": "10.1016/j.enbuild.2020.109945_bib0081",
+              "unstructured": "OpenStudio Software. https://www.openstudio.net/(accessed March 4, 2019)."
+            },
+            {
+              "key": "10.1016/j.enbuild.2020.109945_bib0082",
+              "article-title": "High albedo materials to counteract heat waves in cities: an assessment of meteorology, buildings energy needs and pedestrian thermal comfort",
+              "author": "Falasca S.",
+              "year": "2019",
+              "journal-title": "Build. Environ."
+            },
+            {
+              "key": "10.1016/j.enbuild.2020.109945_bib0083",
+              "doi-asserted-by": "crossref",
+              "first-page": "147",
+              "DOI": "10.1016/j.egypro.2017.08.134",
+              "article-title": "Air-conditioning in residential buildings through absorption systems powered by solar collectors",
+              "volume": "126",
+              "author": "Tarsitano",
+              "year": "2017",
+              "journal-title": "Energy Procedia."
+            },
+            {
+              "key": "10.1016/j.enbuild.2020.109945_bib0084",
+              "series-title": "CEUR Workshop Proc., CEUR-WS",
+              "first-page": "2394",
+              "article-title": "Future energy demands of European buildings in the framework of climate change: a scoping study",
+              "author": "Ciancio",
+              "year": "2019"
+            },
+            {
+              "key": "10.1016/j.enbuild.2020.109945_bib0085",
+              "series-title": "First Build. Simul. Optim. Conf. Loughborough, UK 10-11 Sept. 2012",
+              "first-page": "181",
+              "article-title": "Implementation of Pareto-archive NSGA-II algorithms to a nearly-zero-energy building optimization problem",
+              "author": "Hamdy",
+              "year": "2012"
+            },
+            {
+              "key": "10.1016/j.enbuild.2020.109945_bib0086",
+              "doi-asserted-by": "crossref",
+              "first-page": "101",
+              "DOI": "10.1016/j.rser.2013.11.036",
+              "article-title": "Algorithms for optimization of building design: a review",
+              "volume": "31",
+              "author": "Machairas",
+              "year": "2014",
+              "journal-title": "Renew. Sustain. Energy Rev."
+            },
+            {
+              "key": "10.1016/j.enbuild.2020.109945_bib0087",
+              "unstructured": "Python Software Foundation, eppy, EnergyPlus PYthon, (n.d.). https://pypi.org/project/eppy/."
+            },
+            {
+              "key": "10.1016/j.enbuild.2020.109945_bib0088",
+              "doi-asserted-by": "crossref",
+              "first-page": "577",
+              "DOI": "10.1016/j.apenergy.2015.04.090",
+              "article-title": "The early design stage of a building envelope: multi-objective search through heating, cooling and lighting energy performance analysis",
+              "volume": "154",
+              "author": "Méndez Echenagucia",
+              "year": "2015",
+              "journal-title": "Appl. Energy."
+            },
+            {
+              "key": "10.1016/j.enbuild.2020.109945_bib0089",
+              "doi-asserted-by": "crossref",
+              "first-page": "1386",
+              "DOI": "10.1016/j.apenergy.2010.10.002",
+              "article-title": "Development of a multicriteria tool for optimizing the renovation of buildings",
+              "volume": "88",
+              "author": "Chantrelle",
+              "year": "2011",
+              "journal-title": "Appl. Energy."
+            },
+            {
+              "key": "10.1016/j.enbuild.2020.109945_bib90",
+              "doi-asserted-by": "crossref",
+              "DOI": "10.1016/j.apenergy.2019.114289",
+              "article-title": "Effects of local conditions on the multi-variable and multi-objective energy optimization of residential buildings using genetic algorithms",
+              "volume": "260",
+              "author": "Salata",
+              "year": "2020",
+              "journal-title": "Applied Energy"
+            }
+          ],
+          "container-title": [
+            "Energy and Buildings"
+          ],
+          "language": "en",
+          "link": [
+            {
+              "URL": "https://api.elsevier.com/content/article/PII:S0378778819328683?httpAccept=text/xml",
+              "content-type": "text/xml",
+              "content-version": "vor",
+              "intended-application": "text-mining"
+            },
+            {
+              "URL": "https://api.elsevier.com/content/article/PII:S0378778819328683?httpAccept=text/plain",
+              "content-type": "text/plain",
+              "content-version": "vor",
+              "intended-application": "text-mining"
+            }
+          ],
+          "deposited": {
+            "date-parts": [
+              [
+                2025,
+                10,
+                8
+              ]
+            ],
+            "date-time": "2025-10-08T13:57:05Z",
+            "timestamp": 1759931825000
+          },
+          "score": 36.26844,
+          "resource": {
+            "primary": {
+              "URL": "https://linkinghub.elsevier.com/retrieve/pii/S0378778819328683"
+            }
+          },
+          "issued": {
+            "date-parts": [
+              [
+                2020,
+                6
+              ]
+            ]
+          },
+          "references-count": 90,
+          "alternative-id": [
+            "S0378778819328683"
+          ],
+          "URL": "https://doi.org/10.1016/j.enbuild.2020.109945",
+          "ISSN": [
+            "0378-7788"
+          ],
+          "issn-type": [
+            {
+              "value": "0378-7788",
+              "type": "print"
+            }
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2020,
+                6
+              ]
+            ]
+          },
+          "assertion": [
+            {
+              "value": "Elsevier",
+              "name": "publisher",
+              "label": "This article is maintained by"
+            },
+            {
+              "value": "Multi-objective optimization of building retrofit in the Mediterranean climate by means of genetic algorithm application",
+              "name": "articletitle",
+              "label": "Article Title"
+            },
+            {
+              "value": "Energy and Buildings",
+              "name": "journaltitle",
+              "label": "Journal Title"
+            },
+            {
+              "value": "https://doi.org/10.1016/j.enbuild.2020.109945",
+              "name": "articlelink",
+              "label": "CrossRef DOI link to publisher maintained version"
+            },
+            {
+              "value": "article",
+              "name": "content_type",
+              "label": "Content Type"
+            },
+            {
+              "value": "© 2020 Elsevier B.V. All rights reserved.",
+              "name": "copyright",
+              "label": "Copyright"
+            }
+          ],
+          "article-number": "109945"
+        },
+        {
+          "indexed": {
+            "date-parts": [
+              [
+                2026,
+                10,
+                16
+              ]
+            ],
+            "date-time": "2026-10-16T02:55:22Z",
+            "timestamp": 1792119322681,
+            "version": "4.4.0"
+          },
+          "reference-count": 54,
+          "publisher": "Springer Science and Business Media LLC",
+          "issue": "1",
+          "license": [
+            {
+              "start": {
+                "date-parts": [
+                  [
+                    2025,
+                    10,
+                    30
+                  ]
+                ],
+                "date-time": "2025-10-30T00:00:00Z",
+                "timestamp": 1761782400000
+              },
+              "content-version": "tdm",
+              "delay-in-days": 0,
+              "URL": "https://creativecommons.org/licenses/by-nc-nd/4.0"
+            },
+            {
+              "start": {
+                "date-parts": [
+                  [
+                    2025,
+                    10,
+                    30
+                  ]
+                ],
+                "date-time": "2025-10-30T00:00:00Z",
+                "timestamp": 1761782400000
+              },
+              "content-version": "vor",
+              "delay-in-days": 0,
+              "URL": "https://creativecommons.org/licenses/by-nc-nd/4.0"
+            }
+          ],
+          "funder": [
+            {
+              "DOI": "10.13039/501100005195",
+              "name": "China University of Mining and Technology",
+              "doi-asserted-by": "publisher",
+              "award": [
+                "2024WLJCRCZL338"
+              ],
+              "award-info": [
+                {
+                  "award-number": [
+                    "2024WLJCRCZL338"
+                  ]
+                }
+              ],
+              "id": [
+                {
+                  "id": "10.13039/501100005195",
+                  "id-type": "DOI",
+                  "asserted-by": "publisher"
+                }
+              ]
+            },
+            {
+              "name": "the Fundamental Research Funds for the Central Universities",
+              "award": [
+                "2025JCXKSK17"
+              ],
+              "award-info": [
+                {
+                  "award-number": [
+                    "2025JCXKSK17"
+                  ]
+                }
+              ]
+            }
+          ],
+          "content-domain": {
+            "domain": [
+              "link.springer.com"
+            ],
+            "crossmark-restriction": false
+          },
+          "short-container-title": [
+            "Sci Rep"
+          ],
+          "DOI": "10.1038/s41598-025-21871-0",
+          "type": "journal-article",
+          "created": {
+            "date-parts": [
+              [
+                2025,
+                10,
+                30
+              ]
+            ],
+            "date-time": "2025-10-30T13:33:48Z",
+            "timestamp": 1761831228000
+          },
+          "update-policy": "https://doi.org/10.1007/springer_crossmark_policy",
+          "source": "Crossref",
+          "is-referenced-by-count": 23,
+          "title": [
+            "Building retrofit multiobjective optimization using neural networks and genetic algorithm three for energy carbon and comfort"
+          ],
+          "prefix": "10.1038",
+          "volume": "15",
+          "author": [
+            {
+              "given": "Zhongcheng",
+              "family": "Duan",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Binhao",
+              "family": "Li",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Yilun",
+              "family": "Zi",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Gang",
+              "family": "Yao",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            }
+          ],
+          "member": "297",
+          "published-online": {
+            "date-parts": [
+              [
+                2025,
+                10,
+                30
+              ]
+            ]
+          },
+          "reference": [
+            {
+              "key": "21871_CR1",
+              "unstructured": "Research Report on Energy Consumption and Carbon Emissions of Buildings in China. Architecture 46–59 (2023)."
+            },
+            {
+              "key": "21871_CR2",
+              "doi-asserted-by": "publisher",
+              "first-page": "139510",
+              "DOI": "10.1016/j.jclepro.2023.139510",
+              "volume": "428",
+              "author": "MA Kamazani",
+              "year": "2023",
+              "unstructured": "Kamazani, M. A. & Dixit, M. K. Multi-objective optimization of embodied and operational energy and carbon emission of a Building envelope. J. Clean. Prod. 428, 139510 (2023).",
+              "journal-title": "J. Clean. Prod."
+            },
+            {
+              "key": "21871_CR3",
+              "doi-asserted-by": "crossref",
+              "unstructured": "Chen, R. An integrated framework for multi-objective optimization of building performance: carbon emissions, thermal comfort, and global cost. J. Clean. Prod. 359, 131978 (2022).",
+              "DOI": "10.1016/j.jclepro.2022.131978"
+            },
+            {
+              "key": "21871_CR4",
+              "doi-asserted-by": "publisher",
+              "first-page": "143933",
+              "DOI": "10.1016/j.jclepro.2024.143933",
+              "volume": "478",
+              "author": "C Ciacci",
+              "year": "2024",
+              "unstructured": "Ciacci, C. & Bazzocchi, F. Retrofitting of the Italian precast industrial Building stock. LCA analysis as decision-making tool. J. Clean. Prod. 478, 143933 (2024).",
+              "journal-title": "J. Clean. Prod."
+            },
+            {
+              "key": "21871_CR5",
+              "doi-asserted-by": "publisher",
+              "first-page": "114039",
+              "DOI": "10.1016/j.enbuild.2024.114039",
+              "volume": "309",
+              "author": "FG Ciampi",
+              "year": "2024",
+              "unstructured": "Ciampi, F. G. et al. Energy consumption prediction of industrial HVAC systems using bayesian networks. Energy Build. 309, 114039 (2024).",
+              "journal-title": "Energy Build."
+            },
+            {
+              "key": "21871_CR6",
+              "doi-asserted-by": "publisher",
+              "first-page": "102991",
+              "DOI": "10.1016/j.csite.2023.102991",
+              "volume": "46",
+              "author": "B Zhou",
+              "year": "2023",
+              "unstructured": "Zhou, B. & Wang, D. Integrated performance optimization of industrial buildings in relation to thermal comfort and energy consumption: a case study in hot summer and cold winter climate. Case Stud. Therm. Eng. 46, 102991 (2023).",
+              "journal-title": "Case Stud. Therm. Eng."
+            },
+            {
+              "key": "21871_CR7",
+              "doi-asserted-by": "publisher",
+              "first-page": "101",
+              "DOI": "10.1016/j.rser.2013.11.036",
+              "volume": "31",
+              "author": "V Machairas",
+              "year": "2014",
+              "unstructured": "Machairas, V., Tsangrassoulis, A. & Axarli, K. Algorithms for optimization of building design: a review. Renew. Sustain. Energy Rev. 31, 101–112 (2014).",
+              "journal-title": "Renew. Sustain. Energy Rev."
+            },
+            {
+              "key": "21871_CR8",
+              "doi-asserted-by": "crossref",
+              "unstructured": "Choi, J. H. Investigation of the correlation of Building energy use intensity estimated by six building performance simulation tools. Energy Build. 147, 14–26 (2017).",
+              "DOI": "10.1016/j.enbuild.2017.04.078"
+            },
+            {
+              "key": "21871_CR9",
+              "doi-asserted-by": "publisher",
+              "unstructured": "Zhu, L. Research on the Energy-saving scheme of an electronic factory building. Southwest Jiaotong University. https://doi.org/10.27414/d.cnki.gxnju.2021.003806 (2021).",
+              "DOI": "10.27414/d.cnki.gxnju.2021.003806"
+            },
+            {
+              "key": "21871_CR10",
+              "doi-asserted-by": "publisher",
+              "first-page": "101186",
+              "DOI": "10.1016/j.jobe.2020.101186",
+              "volume": "29",
+              "author": "F Ascione",
+              "year": "2020",
+              "unstructured": "Ascione, F. et al. A real industrial building: modeling, calibration and Pareto optimization of energy retrofit. J. Build. Eng. 29, 101186 (2020).",
+              "journal-title": "J. Build. Eng."
+            },
+            {
+              "key": "21871_CR11",
+              "doi-asserted-by": "crossref",
+              "unstructured": "Shi, X. A review on Building energy efficient design optimization Rom the perspective of architects. Renew. Sustain. Energy Rev. 65, 872–884 (2016).",
+              "DOI": "10.1016/j.rser.2016.07.050"
+            },
+            {
+              "key": "21871_CR12",
+              "doi-asserted-by": "crossref",
+              "unstructured": "Liu, R. Controllable cross-building multi-objective optimisation for nzebs: a framework utilising parametric generation and intelligent algorithms. Appl. Energy 374, 124003 (2024).",
+              "DOI": "10.1016/j.apenergy.2024.124003"
+            },
+            {
+              "key": "21871_CR13",
+              "doi-asserted-by": "publisher",
+              "first-page": "109576",
+              "DOI": "10.1016/j.enbuild.2019.109576",
+              "volume": "206",
+              "author": "F Bre",
+              "year": "2020",
+              "unstructured": "Bre, F., Roman, N. & Fachinotti, V. D. An efficient metamodel-based method to carry out multi-objective Building performance optimizations. Energy Build. 206, 109576 (2020).",
+              "journal-title": "Energy Build."
+            },
+            {
+              "key": "21871_CR14",
+              "doi-asserted-by": "publisher",
+              "first-page": "16440",
+              "DOI": "10.3390/su142416440",
+              "volume": "14",
+              "author": "Z Zhang",
+              "year": "2022",
+              "unstructured": "Zhang, Z., Wang, W., Song, J., Wang, Z. & Wang, W. Multi-objective optimization of ultra-low energy consumption buildings in severely cold regions considering life cycle performance. Sustainability 14, 16440 (2022).",
+              "journal-title": "Sustainability"
+            },
+            {
+              "key": "21871_CR15",
+              "doi-asserted-by": "publisher",
+              "first-page": "112479",
+              "DOI": "10.1016/j.enbuild.2022.112479",
+              "volume": "277",
+              "author": "HH Hosamo",
+              "year": "2022",
+              "unstructured": "Hosamo, H. H., Tingstveit, M. S., Nielsen, H. K., Svennevig, P. R. & Svidt, K. Multiobjective optimization of building energy consumption and thermal comfort based on integrated BIM framework with machine learning-NSGA II. Energy Build. 277, 112479 (2022).",
+              "journal-title": "Energy Build."
+            },
+            {
+              "key": "21871_CR16",
+              "doi-asserted-by": "publisher",
+              "first-page": "1504",
+              "DOI": "10.3390/buildings12101504",
+              "volume": "12",
+              "author": "H Guo",
+              "year": "2022",
+              "unstructured": "Guo, H. et al. Machine learning-based method for detached energy-saving residential form generation. Buildings 12, 1504 (2022).",
+              "journal-title": "Buildings"
+            },
+            {
+              "key": "21871_CR17",
+              "doi-asserted-by": "publisher",
+              "first-page": "57",
+              "DOI": "10.1016/j.enbuild.2016.03.035",
+              "volume": "121",
+              "author": "M Hamdy",
+              "year": "2016",
+              "unstructured": "Hamdy, M., Nguyen, A. T. & Hensen, J. L. M. A performance comparison of multi-objective optimization algorithms for solving nearly-zero-energy-building design problems. Energy Build. 121, 57–71 (2016).",
+              "journal-title": "Energy Build."
+            },
+            {
+              "key": "21871_CR18",
+              "doi-asserted-by": "publisher",
+              "first-page": "1043",
+              "DOI": "10.1016/j.apenergy.2013.08.061",
+              "volume": "113",
+              "author": "AT Nguyen",
+              "year": "2014",
+              "unstructured": "Nguyen, A. T., Reiter, S. & Rigo, P. A review on simulation-based optimization methods applied to Building performance analysis. Appl. Energy. 113, 1043–1058 (2014).",
+              "journal-title": "Appl. Energy"
+            },
+            {
+              "key": "21871_CR19",
+              "doi-asserted-by": "publisher",
+              "first-page": "111955",
+              "DOI": "10.1016/j.enbuild.2022.111955",
+              "volume": "261",
+              "author": "H Bagheri-Esfeh",
+              "year": "2022",
+              "unstructured": "Bagheri-Esfeh, H. & Dehghan, M. R. Multi-objective optimization of setpoint temperature of thermostats in residential buildings. Energy Build. 261, 111955 (2022).",
+              "journal-title": "Energy Build."
+            },
+            {
+              "key": "21871_CR20",
+              "doi-asserted-by": "crossref",
+              "unstructured": "Liu, F., Ouyang, T., Huang, B. & Zhao, J. Research on green building design optimization based on building information modeling and improved genetic algorithm. Adv. Civ. Eng. 2024, 9786711 (2024).",
+              "DOI": "10.1155/2024/9786711"
+            },
+            {
+              "key": "21871_CR21",
+              "doi-asserted-by": "crossref",
+              "unstructured": "Vera, S. Optimization of a fixed exterior complex fenestration system considering visual comfort and energy performance criteria. Build. Environ. 113, 163–174 (2017).",
+              "DOI": "10.1016/j.buildenv.2016.07.027"
+            },
+            {
+              "key": "21871_CR22",
+              "doi-asserted-by": "publisher",
+              "first-page": "108142",
+              "DOI": "10.1016/j.buildenv.2021.108142",
+              "volume": "204",
+              "author": "Y Xu",
+              "year": "2021",
+              "unstructured": "Xu, Y. et al. A two-stage multi-objective optimization method for envelope and energy generation systems of primary and secondary school teaching buildings in China. Build. Environ. 204, 108142 (2021).",
+              "journal-title": "Build. Environ."
+            },
+            {
+              "key": "21871_CR23",
+              "doi-asserted-by": "publisher",
+              "first-page": "245",
+              "DOI": "10.3390/en10020245",
+              "volume": "10",
+              "author": "K Li",
+              "year": "2017",
+              "unstructured": "Li, K., Pan, L., Xue, W., Jiang, H. & Mao, H. Multi-objective optimization for energy performance improvement of residential buildings: a comparative study. Energies 10, 245 (2017).",
+              "journal-title": "Energies"
+            },
+            {
+              "key": "21871_CR24",
+              "doi-asserted-by": "publisher",
+              "first-page": "117828",
+              "DOI": "10.1016/j.apenergy.2021.117828",
+              "volume": "305",
+              "author": "A Razmi",
+              "year": "2022",
+              "unstructured": "Razmi, A., Rahbar, M. & Bemanian, M. PCA-ANN integrated NSGA-III framework for dormitory Building design optimization: energy efficiency, daylight, and thermal comfort. Appl. Energy. 305, 117828 (2022).",
+              "journal-title": "Appl. Energy"
+            },
+            {
+              "key": "21871_CR25",
+              "unstructured": "ABO Issa, M. A. Building Performance Simulation for Architects, Comparing Three Leading Simulation Tools (The University of Texas at San Antonio, United States -- Texas, 2018). Order No. 10686099; ISBN 978-0-355-95900-0."
+            },
+            {
+              "key": "21871_CR26",
+              "doi-asserted-by": "crossref",
+              "unstructured": "Benaddi, F. Z. Multi-objective optimization of building envelope components based on economic, environmental, and thermal comfort criteria. Energy and Buildings 305, 113909 (2024).",
+              "DOI": "10.1016/j.enbuild.2024.113909"
+            },
+            {
+              "key": "21871_CR27",
+              "doi-asserted-by": "crossref",
+              "unstructured": "Wang, A. Multi-objective Optimization of Building Energy Consumption and Thermal Comfort Based on SVR-NSGA-II. Case Studies in Thermal Engineering 63, 105368 (2024).",
+              "DOI": "10.1016/j.csite.2024.105368"
+            },
+            {
+              "key": "21871_CR28",
+              "doi-asserted-by": "crossref",
+              "unstructured": "Zhang, X., Ning, Q. & Chen, Z. Multi-objective optimization design of energy efficiency for office Building window systems based on indoor thermal comfort. Science and Technology for the Built Environment 29, 618–631 (2023).",
+              "DOI": "10.1080/23744731.2023.2194840"
+            },
+            {
+              "key": "21871_CR29",
+              "doi-asserted-by": "publisher",
+              "first-page": "131048",
+              "DOI": "10.1016/j.energy.2024.131048",
+              "volume": "295",
+              "author": "Y Kang",
+              "year": "2024",
+              "unstructured": "Kang, Y. et al. Integrated passive design method optimized for carbon emissions, economics, and thermal comfort of zero-carbon buildings. Energy 295, 131048 (2024).",
+              "journal-title": "Energy"
+            },
+            {
+              "key": "21871_CR30",
+              "doi-asserted-by": "crossref",
+              "unstructured": "Westermann, P. Surrogate modelling for sustainable building design—a review. Energy and Buildings 198, 170–186 (2019).",
+              "DOI": "10.1016/j.enbuild.2019.05.057"
+            },
+            {
+              "key": "21871_CR31",
+              "doi-asserted-by": "publisher",
+              "first-page": "411",
+              "DOI": "10.1016/j.rser.2012.12.014",
+              "volume": "20",
+              "author": "W Tian",
+              "year": "2013",
+              "unstructured": "Tian, W. A review of sensitivity analysis methods in building energy analysis. Renew. Sustain. Energy Rev. 20, 411–419 (2013).",
+              "journal-title": "Renew. Sustain. Energy Rev."
+            },
+            {
+              "key": "21871_CR32",
+              "doi-asserted-by": "publisher",
+              "first-page": "174",
+              "DOI": "10.1016/j.proeng.2016.06.369",
+              "volume": "146",
+              "author": "S Yang",
+              "year": "2016",
+              "unstructured": "Yang, S. et al. Comparison of sensitivity analysis methods in building energy assessment. Procedia Eng. 146, 174–181 (2016).",
+              "journal-title": "Procedia Eng."
+            },
+            {
+              "key": "21871_CR33",
+              "doi-asserted-by": "publisher",
+              "first-page": "1215",
+              "DOI": "10.1016/j.energy.2018.12.208",
+              "volume": "170",
+              "author": "Y Hu",
+              "year": "2019",
+              "unstructured": "Hu, Y. et al. Short term electric load forecasting model and its verification for process industrial enterprises based on hybrid GA-PSO-BPNN algorithm—a case study of papermaking process. Energy 170, 1215–1227 (2019).",
+              "journal-title": "Energy"
+            },
+            {
+              "key": "21871_CR34",
+              "first-page": "9112",
+              "volume": "46",
+              "author": "R Thota",
+              "year": "2024",
+              "unstructured": "Thota, R. & Sinha, N. A novel optimized hybrid machine learning model to enhance the prediction accuracy of hourly Building energy consumption. Energy sources part A-recovery util. Environ. Eff. 46, 9112–9135 (2024).",
+              "journal-title": "Environ. Eff."
+            },
+            {
+              "key": "21871_CR35",
+              "doi-asserted-by": "crossref",
+              "unstructured": "Sui, Z. Evaluation of energy saving of residential buildings in North China using back-propagation neural network and virtual reality modeling. J. Energy Eng. 148, 04022013 (2022).",
+              "DOI": "10.1061/(ASCE)EY.1943-7897.0000832"
+            },
+            {
+              "key": "21871_CR36",
+              "doi-asserted-by": "publisher",
+              "first-page": "233",
+              "DOI": "10.1093/ijlct/ctab100",
+              "volume": "17",
+              "author": "M Yu",
+              "year": "2022",
+              "unstructured": "Yu, M., Li, L. & Guo, Z. Model analysis of energy consumption data for green building using deep learning neural network. Int. J. Low-Carbon Technol. 17, 233–244 (2022).",
+              "journal-title": "Int. J. Low Carbon Technol."
+            },
+            {
+              "key": "21871_CR37",
+              "doi-asserted-by": "publisher",
+              "first-page": "114770",
+              "DOI": "10.1016/j.enbuild.2024.114770",
+              "volume": "323",
+              "author": "C Li",
+              "year": "2024",
+              "unstructured": "Li, C. et al. Optimal design of building envelope towards life cycle performance: impact of considering dynamic grid emission factors. Energy Build. 323, 114770 (2024).",
+              "journal-title": "Energy Build."
+            },
+            {
+              "key": "21871_CR38",
+              "doi-asserted-by": "crossref",
+              "unstructured": "Dixit, M. K. Life cycle embodied energy analysis of residential buildings—a review of literature to investigate embodied energy parameters. Renew. Sustain. Energy Rev. 79, 390–413 (2017).",
+              "DOI": "10.1016/j.rser.2017.05.051"
+            },
+            {
+              "key": "21871_CR39",
+              "unstructured": "Ministry of Housing and Urban-Rural Development of the People’s Republic of China. Standard for Building Carbon Emission Calculation (2019)."
+            },
+            {
+              "key": "21871_CR40",
+              "unstructured": "Cui Peng. Research on the Construction and Application of a Carbon Emission Factor Database for Building Life Cycles. Southeast University (2015)."
+            },
+            {
+              "key": "21871_CR41",
+              "doi-asserted-by": "crossref",
+              "unstructured": "Piasecki, M., Fedorczak-Cisak, M., Furtak, M. & Biskupski, J. Experimental confirmation of the reliability of Fanger’s thermal comfort model—case study of a near-zero energy building (NZEB) office building. Sustainability 11, 9 (2019).",
+              "DOI": "10.3390/su11092461"
+            },
+            {
+              "key": "21871_CR42",
+              "doi-asserted-by": "publisher",
+              "first-page": "37",
+              "DOI": "10.21086/ksles.2017.02.24.1.37",
+              "volume": "24",
+              "author": "Y Wonyoung",
+              "year": "2017",
+              "unstructured": "Wonyoung, Y. Thermal comfort range of PMV for Koreans by subjective assessment in an indoor environmental chamber. Korean Soc. Living Environ. Syst. 24, 37–45 (2017).",
+              "journal-title": "Korean Soc. Living Environ. Syst."
+            },
+            {
+              "key": "21871_CR43",
+              "doi-asserted-by": "publisher",
+              "first-page": "103723",
+              "DOI": "10.1016/j.scs.2022.103723",
+              "volume": "80",
+              "author": "M Martínez-Comesaña",
+              "year": "2022",
+              "unstructured": "Martínez-Comesaña, M., Eguía-Oller, P., Martínez-Torres, J., Febrero-Garrido, L. & Granada-Álvarez, E. Optimisation of thermal comfort and indoor air quality estimations applied to in-use buildings combining NSGA-III and XGBoost. Sustain. Cities Soc. 80, 103723 (2022).",
+              "journal-title": "Sustain. Cities Soc."
+            },
+            {
+              "key": "21871_CR44",
+              "doi-asserted-by": "publisher",
+              "first-page": "112703",
+              "DOI": "10.1016/j.rser.2022.112703",
+              "volume": "167",
+              "author": "X Wu",
+              "year": "2022",
+              "unstructured": "Wu, X. et al. Intelligent optimization framework of near zero energy consumption building performance based on a hybrid machine learning algorithm. Renew. Sustain. Energy Rev. 167, 112703 (2022).",
+              "journal-title": "Renew. Sustain. Energy Rev."
+            },
+            {
+              "key": "21871_CR45",
+              "doi-asserted-by": "publisher",
+              "first-page": "452",
+              "DOI": "10.3390/buildings14020452",
+              "volume": "14",
+              "author": "H Chen",
+              "year": "2024",
+              "unstructured": "Chen, H. & An, Y. Green residential building design scheme optimization based on the orthogonal experiment EWM-TOPSIS. Buildings 14, 452 (2024).",
+              "journal-title": "Buildings"
+            },
+            {
+              "key": "21871_CR46",
+              "doi-asserted-by": "crossref",
+              "unstructured": "Chen, P. Effects of normalization on the entropy-based TOPSIS method. Expert Syst. Appl. 136, 33–41 (2019).",
+              "DOI": "10.1016/j.eswa.2019.06.035"
+            },
+            {
+              "key": "21871_CR47",
+              "unstructured": "Ministry of Housing and Urban-Rural Development of the People’s Republic of China. Uniform standard for energy-saving design of industrial buildings (2017)."
+            },
+            {
+              "key": "21871_CR48",
+              "unstructured": "Ministry of Housing and Urban-Rural Development of the People’s Republic of China. Technical Standard for Nearly Zero Energy Buildings (2019)."
+            },
+            {
+              "key": "21871_CR49",
+              "doi-asserted-by": "crossref",
+              "unstructured": "Xue, Q., Wang, Z. & Chen, Q. Multi-objective optimization of Building design for life cycle cost and CO2 emissions: a case study of a low-energy residential Building in a severe cold climate. Build. Simul. 15, 83–98 (2022).",
+              "DOI": "10.1007/s12273-021-0796-5"
+            },
+            {
+              "key": "21871_CR50",
+              "doi-asserted-by": "publisher",
+              "first-page": "14493",
+              "DOI": "10.3390/su151914493",
+              "volume": "15",
+              "author": "B Xue",
+              "year": "2023",
+              "unstructured": "Xue, B. et al. Research on energy efficiency evaluation model of substation Building based on AHP and fuzzy comprehensive theory. Sustainability 15, 14493 (2023).",
+              "journal-title": "Sustainability"
+            },
+            {
+              "key": "21871_CR51",
+              "doi-asserted-by": "publisher",
+              "first-page": "111624",
+              "DOI": "10.1016/j.buildenv.2024.111624",
+              "volume": "260",
+              "author": "Z Cao",
+              "year": "2024",
+              "unstructured": "Cao, Z. et al. Study on the optimal layout of roof vents and rooftop photovoltaic of the industrial workshop. Build. Environ. 260, 111624 (2024).",
+              "journal-title": "Build. Environ."
+            },
+            {
+              "key": "21871_CR52",
+              "doi-asserted-by": "publisher",
+              "first-page": "1830",
+              "DOI": "10.3390/app15041830",
+              "volume": "15",
+              "author": "R Shan",
+              "year": "2025",
+              "unstructured": "Shan, R., Lai, W., Tang, H., Leng, X. & Gu, W. Residential building renovation considering energy, carbon emissions, and cost: an approach integrating machine learning and evolutionary generation. Appl. Sci. 15, 1830 (2025).",
+              "journal-title": "Appl. Sci."
+            },
+            {
+              "key": "21871_CR53",
+              "doi-asserted-by": "publisher",
+              "first-page": "114571",
+              "DOI": "10.1016/j.enbuild.2024.114571",
+              "volume": "319",
+              "author": "Y Shi",
+              "year": "2024",
+              "unstructured": "Shi, Y. & Chen, P. Energy retrofitting of hospital buildings considering climate change: an approach integrating automated machine learning with NSGA-III for multi-objective optimization. Energy Build. 319, 114571 (2024).",
+              "journal-title": "Energy Build."
+            },
+            {
+              "key": "21871_CR54",
+              "doi-asserted-by": "publisher",
+              "first-page": "4900",
+              "DOI": "10.1016/j.egyr.2025.04.034",
+              "volume": "13",
+              "author": "GN Kaya",
+              "year": "2025",
+              "unstructured": "Kaya, G. N., Beyhan, F., İlerisoy, Z. Y. & Cudzik, J. Evaluation of machine learning applications in building life cycle processes for energy efficiency: a systematic review. Energy Rep. 13, 4900–4916 (2025).",
+              "journal-title": "Energy Rep."
+            }
+          ],
+          "container-title": [
+            "Scientific Reports"
+          ],
+          "language": "en",
+          "link": [
+            {
+              "URL": "https://www.nature.com/articles/s41598-025-21871-0.pdf",
+              "content-type": "application/pdf",
+              "content-version": "vor",
+              "intended-application": "text-mining"
+            },
+            {
+              "URL": "https://www.nature.com/articles/s41598-025-21871-0",
+              "content-type": "text/html",
+              "content-version": "vor",
+              "intended-application": "text-mining"
+            },
+            {
+              "URL": "https://www.nature.com/articles/s41598-025-21871-0.pdf",
+              "content-type": "application/pdf",
+              "content-version": "vor",
+              "intended-application": "similarity-checking"
+            }
+          ],
+          "deposited": {
+            "date-parts": [
+              [
+                2025,
+                10,
+                30
+              ]
+            ],
+            "date-time": "2025-10-30T13:33:53Z",
+            "timestamp": 1761831233000
+          },
+          "score": 36.069725,
+          "resource": {
+            "primary": {
+              "URL": "https://www.nature.com/articles/s41598-025-21871-0"
+            }
+          },
+          "issued": {
+            "date-parts": [
+              [
+                2025,
+                10,
+                30
+              ]
+            ]
+          },
+          "references-count": 54,
+          "journal-issue": {
+            "issue": "1",
+            "published-online": {
+              "date-parts": [
+                [
+                  2025,
+                  12
+                ]
+              ]
+            }
+          },
+          "alternative-id": [
+            "21871"
+          ],
+          "URL": "https://doi.org/10.1038/s41598-025-21871-0",
+          "ISSN": [
+            "2045-2322"
+          ],
+          "issn-type": [
+            {
+              "value": "2045-2322",
+              "type": "electronic"
+            }
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2025,
+                10,
+                30
+              ]
+            ]
+          },
+          "assertion": [
+            {
+              "value": "29 May 2025",
+              "order": 1,
+              "name": "received",
+              "label": "Received",
+              "group": {
+                "name": "ArticleHistory",
+                "label": "Article History"
+              }
+            },
+            {
+              "value": "24 September 2025",
+              "order": 2,
+              "name": "accepted",
+              "label": "Accepted",
+              "group": {
+                "name": "ArticleHistory",
+                "label": "Article History"
+              }
+            },
+            {
+              "value": "30 October 2025",
+              "order": 3,
+              "name": "first_online",
+              "label": "First Online",
+              "group": {
+                "name": "ArticleHistory",
+                "label": "Article History"
+              }
+            },
+            {
+              "order": 1,
+              "name": "Ethics",
+              "group": {
+                "name": "EthicsHeading",
+                "label": "Declarations"
+              }
+            },
+            {
+              "value": "The authors declare that they have no known competing financial interests or personal relationships that could have appeared to influence the work reported in this paper.",
+              "order": 2,
+              "name": "Ethics",
+              "group": {
+                "name": "EthicsHeading",
+                "label": "Competing interests"
+              }
+            }
+          ],
+          "article-number": "38076"
+        },
+        {
+          "indexed": {
+            "date-parts": [
+              [
+                2026,
+                10,
+                15
+              ]
+            ],
+            "date-time": "2026-10-15T20:34:43Z",
+            "timestamp": 1792096483388,
+            "version": "4.4.0"
+          },
+          "reference-count": 36,
+          "publisher": "Elsevier BV",
+          "license": [
+            {
+              "start": {
+                "date-parts": [
+                  [
+                    2014,
+                    10,
+                    1
+                  ]
+                ],
+                "date-time": "2014-10-01T00:00:00Z",
+                "timestamp": 1412121600000
+              },
+              "content-version": "tdm",
+              "delay-in-days": 0,
+              "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+            }
+          ],
+          "funder": [
+            {
+              "DOI": "10.13039/501100001871",
+              "name": "FCT",
+              "doi-asserted-by": "publisher",
+              "award": [
+                "SFRH/BD/68937/2010"
+              ],
+              "award-info": [
+                {
+                  "award-number": [
+                    "SFRH/BD/68937/2010"
+                  ]
+                }
+              ],
+              "id": [
+                {
+                  "id": "10.13039/501100001871",
+                  "id-type": "DOI",
+                  "asserted-by": "publisher"
+                }
+              ]
+            },
+            {
+              "DOI": "10.13039/501100001871",
+              "name": "FCT",
+              "doi-asserted-by": "publisher",
+              "award": [
+                "SFRH/BPD/94385/2013"
+              ],
+              "award-info": [
+                {
+                  "award-number": [
+                    "SFRH/BPD/94385/2013"
+                  ]
+                }
+              ],
+              "id": [
+                {
+                  "id": "10.13039/501100001871",
+                  "id-type": "DOI",
+                  "asserted-by": "publisher"
+                }
+              ]
+            },
+            {
+              "DOI": "10.13039/501100001871",
+              "name": "FCT",
+              "doi-asserted-by": "publisher",
+              "award": [
+                "PEst-OE/EEI/UI0308/2014"
+              ],
+              "award-info": [
+                {
+                  "award-number": [
+                    "PEst-OE/EEI/UI0308/2014"
+                  ]
+                }
+              ],
+              "id": [
+                {
+                  "id": "10.13039/501100001871",
+                  "id-type": "DOI",
+                  "asserted-by": "publisher"
+                }
+              ]
+            },
+            {
+              "DOI": "10.13039/501100001871",
+              "name": "FCT",
+              "doi-asserted-by": "publisher",
+              "award": [
+                "MIT/SET/0018/2009"
+              ],
+              "award-info": [
+                {
+                  "award-number": [
+                    "MIT/SET/0018/2009"
+                  ]
+                }
+              ],
+              "id": [
+                {
+                  "id": "10.13039/501100001871",
+                  "id-type": "DOI",
+                  "asserted-by": "publisher"
+                }
+              ]
+            }
+          ],
+          "content-domain": {
+            "domain": [
+              "elsevier.com",
+              "sciencedirect.com"
+            ],
+            "crossmark-restriction": true
+          },
+          "short-container-title": [
+            "Energy and Buildings"
+          ],
+          "published-print": {
+            "date-parts": [
+              [
+                2014,
+                10
+              ]
+            ]
+          },
+          "DOI": "10.1016/j.enbuild.2014.06.009",
+          "type": "journal-article",
+          "created": {
+            "date-parts": [
+              [
+                2014,
+                6,
+                13
+              ]
+            ],
+            "date-time": "2014-06-13T11:47:33Z",
+            "timestamp": 1402660053000
+          },
+          "page": "444-456",
+          "update-policy": "https://doi.org/10.1016/elsevier_cm_policy",
+          "source": "Crossref",
+          "is-referenced-by-count": 499,
+          "special_numbering": "C",
+          "title": [
+            "Multi-objective optimization for building retrofit: A model using genetic algorithm and artificial neural network and an application"
+          ],
+          "prefix": "10.1016",
+          "volume": "81",
+          "author": [
+            {
+              "given": "Ehsan",
+              "family": "Asadi",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Manuel Gameiro da",
+              "family": "Silva",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Carlos Henggeler",
+              "family": "Antunes",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Luís",
+              "family": "Dias",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Leon",
+              "family": "Glicksman",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            }
+          ],
+          "member": "78",
+          "reference": [
+            {
+              "key": "10.1016/j.enbuild.2014.06.009_bib0005",
+              "series-title": "Special ISO Focus",
+              "first-page": "5",
+              "article-title": "International Standards to develop and promote energy efficiency and renewable energy sources",
+              "author": "IEA-ISO",
+              "year": "2007"
+            },
+            {
+              "key": "10.1016/j.enbuild.2014.06.009_bib0010",
+              "series-title": "Building Energy Data Book",
+              "author": "DOE",
+              "year": "2012"
+            },
+            {
+              "key": "10.1016/j.enbuild.2014.06.009_bib0015",
+              "series-title": "Energy, Transport and Environment Indicators",
+              "author": "EUROSTAT",
+              "year": "2011"
+            },
+            {
+              "key": "10.1016/j.enbuild.2014.06.009_bib0020",
+              "article-title": "Directive 2002/91/EC of the European Parliament and of the Council of 16 December 2002 on the Energy Performance of Buildings",
+              "author": "EC",
+              "year": "2002",
+              "journal-title": "Official Journal of the European Communities"
+            },
+            {
+              "key": "10.1016/j.enbuild.2014.06.009_bib0025",
+              "article-title": "Directive 2010/31/EU of the European Parliament and of the Council of 19 May 2010 on the energy performance of buildings (recast)",
+              "author": "EC",
+              "year": "2010",
+              "journal-title": "Official Journal of the European Communities"
+            },
+            {
+              "issue": "5",
+              "key": "10.1016/j.enbuild.2014.06.009_bib0030",
+              "doi-asserted-by": "crossref",
+              "first-page": "454",
+              "DOI": "10.1016/j.enbuild.2005.08.005",
+              "article-title": "Selection of low-e windows in retrofit of public buildings by applying multiple criteria method COPRAS: a Lithuanian case",
+              "volume": "38",
+              "author": "Kaklauskas",
+              "year": "2006",
+              "journal-title": "Energy and Buildings"
+            },
+            {
+              "key": "10.1016/j.enbuild.2014.06.009_bib0035",
+              "doi-asserted-by": "crossref",
+              "first-page": "370",
+              "DOI": "10.1016/j.buildenv.2012.04.005",
+              "article-title": "A multi-objective optimization model for building retrofit strategies using TRNSYS simulations, GenOpt and MATLAB",
+              "volume": "56",
+              "author": "Asadi",
+              "year": "2012",
+              "journal-title": "Building and Environment"
+            },
+            {
+              "key": "10.1016/j.enbuild.2014.06.009_bib0040",
+              "series-title": "Advanced Energy Retrofit Guide—Practical Ways to Improve Energy Performance",
+              "author": "NREL",
+              "year": "2013"
+            },
+            {
+              "key": "10.1016/j.enbuild.2014.06.009_bib0045",
+              "series-title": "Buildings and Energy—A Systematic Approach",
+              "author": "Abel",
+              "year": "2007"
+            },
+            {
+              "issue": "4",
+              "key": "10.1016/j.enbuild.2014.06.009_bib0050",
+              "doi-asserted-by": "crossref",
+              "first-page": "361",
+              "DOI": "10.1016/j.enbuild.2004.07.005",
+              "article-title": "Multivariant design and multiple criteria analysis of building refurbishments",
+              "volume": "37",
+              "author": "Kaklauskas",
+              "year": "2005",
+              "journal-title": "Energy and Buildings"
+            },
+            {
+              "issue": "3",
+              "key": "10.1016/j.enbuild.2014.06.009_bib0055",
+              "doi-asserted-by": "crossref",
+              "first-page": "99",
+              "DOI": "10.1016/0360-1323(83)90001-X",
+              "article-title": "Energy in context—a multicriteria model for building design",
+              "volume": "18",
+              "author": "Gero",
+              "year": "1983",
+              "journal-title": "Building and Environment"
+            },
+            {
+              "key": "10.1016/j.enbuild.2014.06.009_bib0060",
+              "doi-asserted-by": "crossref",
+              "first-page": "97",
+              "DOI": "10.1016/S0378-7788(99)00023-7",
+              "article-title": "Energy performance indoor environmental quality retrofit—a European diagnosis and decision making method for building refurbishment",
+              "volume": "31",
+              "author": "Jaggs",
+              "year": "2000",
+              "journal-title": "Energy and Buildings"
+            },
+            {
+              "key": "10.1016/j.enbuild.2014.06.009_bib0065",
+              "doi-asserted-by": "crossref",
+              "first-page": "185",
+              "DOI": "10.1016/S0378-7788(01)00106-2",
+              "article-title": "Elaboration of retrofit scenarios",
+              "volume": "34",
+              "author": "Flourentzou",
+              "year": "2002",
+              "journal-title": "Energy and Buildings"
+            },
+            {
+              "key": "10.1016/j.enbuild.2014.06.009_bib0070",
+              "doi-asserted-by": "crossref",
+              "first-page": "367",
+              "DOI": "10.1016/j.enbuild.2004.01.015",
+              "article-title": "Office building retrofitting strategies: multicriteria approach of an architectural and technical issue",
+              "volume": "36",
+              "author": "Rey",
+              "year": "2004",
+              "journal-title": "Energy and Buildings"
+            },
+            {
+              "issue": "9",
+              "key": "10.1016/j.enbuild.2014.06.009_bib0075",
+              "doi-asserted-by": "crossref",
+              "first-page": "1747",
+              "DOI": "10.1016/j.enbuild.2008.03.002",
+              "article-title": "Towards a multi-objective optimization approach for improving energy efficiency in buildings",
+              "volume": "40",
+              "author": "Diakaki",
+              "year": "2008",
+              "journal-title": "Energy and Buildings"
+            },
+            {
+              "key": "10.1016/j.enbuild.2014.06.009_bib0080",
+              "doi-asserted-by": "crossref",
+              "first-page": "81",
+              "DOI": "10.1016/j.enbuild.2011.10.016",
+              "article-title": "Multi-objective optimization for building retrofit strategies: a model and an application",
+              "volume": "44",
+              "author": "Asadi",
+              "year": "2012",
+              "journal-title": "Energy and Buildings"
+            },
+            {
+              "issue": "12",
+              "key": "10.1016/j.enbuild.2014.06.009_bib0085",
+              "doi-asserted-by": "crossref",
+              "first-page": "5483",
+              "DOI": "10.1016/j.energy.2010.05.012",
+              "article-title": "A multi-objective decision model for the improvement of energy efficiency in buildings",
+              "volume": "35",
+              "author": "Diakaki",
+              "year": "2010",
+              "journal-title": "Energy"
+            },
+            {
+              "key": "10.1016/j.enbuild.2014.06.009_bib0090",
+              "series-title": "Nearly Zero Energy Building Refurbishment",
+              "first-page": "279",
+              "article-title": "State-of-the-art on retrofit strategies selection using multi-objective optimization and genetic algorithms—a multidisciplinary approach",
+              "author": "Asadi",
+              "year": "2013"
+            },
+            {
+              "issue": "4",
+              "key": "10.1016/j.enbuild.2014.06.009_bib0095",
+              "doi-asserted-by": "crossref",
+              "first-page": "394",
+              "DOI": "10.1016/j.autcon.2008.10.006",
+              "article-title": "GA-based decision support system for housing condition assessment and refurbishment strategies",
+              "volume": "18",
+              "author": "Juan",
+              "year": "2009",
+              "journal-title": "Automation in Construction"
+            },
+            {
+              "issue": "9",
+              "key": "10.1016/j.enbuild.2014.06.009_bib0100",
+              "doi-asserted-by": "crossref",
+              "first-page": "959",
+              "DOI": "10.1016/S0378-7788(02)00071-3",
+              "article-title": "Optimization of building thermal design and control by multi-criterion genetic algorithm",
+              "volume": "34",
+              "author": "Wright",
+              "year": "2002",
+              "journal-title": "Energy and Buildings"
+            },
+            {
+              "issue": "1",
+              "key": "10.1016/j.enbuild.2014.06.009_bib0105",
+              "doi-asserted-by": "crossref",
+              "first-page": "109",
+              "DOI": "10.1016/j.buildenv.2010.07.006",
+              "article-title": "Applying a multi-objective optimization approach for Design of low-emission cost-effective dwellings",
+              "volume": "46",
+              "author": "Hamdy",
+              "year": "2011",
+              "journal-title": "Building and Environment"
+            },
+            {
+              "issue": "3",
+              "key": "10.1016/j.enbuild.2014.06.009_bib0110",
+              "doi-asserted-by": "crossref",
+              "first-page": "739",
+              "DOI": "10.1016/j.buildenv.2009.08.016",
+              "article-title": "Multiobjective optimization of building design using TRNSYS simulations, genetic algorithm, and Artificial Neural Network",
+              "volume": "45",
+              "author": "Magnier",
+              "year": "2010",
+              "journal-title": "Building and Environment"
+            },
+            {
+              "issue": "2",
+              "key": "10.1016/j.enbuild.2014.06.009_bib0115",
+              "doi-asserted-by": "crossref",
+              "first-page": "189",
+              "DOI": "10.1016/S0378-7788(98)00055-3",
+              "article-title": "Multivariate optimization of design trade-offs for solar low energy buildings",
+              "volume": "29",
+              "author": "Peippo",
+              "year": "1999",
+              "journal-title": "Energy and Buildings"
+            },
+            {
+              "key": "10.1016/j.enbuild.2014.06.009_bib0120",
+              "doi-asserted-by": "crossref",
+              "first-page": "173",
+              "DOI": "10.1016/S0926-5805(00)00096-0",
+              "article-title": "A design optimization tool based on a genetic algorithm",
+              "volume": "11",
+              "author": "Caldas",
+              "year": "2002",
+              "journal-title": "Automation in Construction"
+            },
+            {
+              "issue": "11",
+              "key": "10.1016/j.enbuild.2014.06.009_bib0125",
+              "doi-asserted-by": "crossref",
+              "first-page": "1512",
+              "DOI": "10.1016/j.buildenv.2004.11.017",
+              "article-title": "Applying multi-objective genetic algorithms in green building design optimization",
+              "volume": "40",
+              "author": "Wang",
+              "year": "2005",
+              "journal-title": "Building and Environment"
+            },
+            {
+              "issue": "1",
+              "key": "10.1016/j.enbuild.2014.06.009_bib0130",
+              "doi-asserted-by": "crossref",
+              "first-page": "3",
+              "DOI": "10.1007/s00500-003-0328-5",
+              "article-title": "A comprehensive survey of fitness approximation in evolutionary computation",
+              "volume": "9",
+              "author": "Jin",
+              "year": "2005",
+              "journal-title": "Soft Computing"
+            },
+            {
+              "key": "10.1016/j.enbuild.2014.06.009_bib0135",
+              "series-title": "User Manual Version 3.0.0",
+              "article-title": "GenOpt: Generic Optimization Program",
+              "author": "Wetter",
+              "year": "2009"
+            },
+            {
+              "key": "10.1016/j.enbuild.2014.06.009_bib0140",
+              "series-title": "Uncertainty Analysis",
+              "first-page": "145",
+              "article-title": "Sensitivity and uncertainty analysis using a statistical sample of input values",
+              "author": "McKay",
+              "year": "1988"
+            },
+            {
+              "key": "10.1016/j.enbuild.2014.06.009_bib0145",
+              "series-title": "Understanding Neural Networks: Computer Explorations—Volume 1 Basic Networks",
+              "author": "Caudill",
+              "year": "1993"
+            },
+            {
+              "key": "10.1016/j.enbuild.2014.06.009_bib0150",
+              "series-title": "Multi-objective Optimization Using Evolutionary Algorithms",
+              "author": "Deb",
+              "year": "2001"
+            },
+            {
+              "key": "10.1016/j.enbuild.2014.06.009_bib0155",
+              "series-title": "Engineering & Construction",
+              "author": "CYPEingenieros Software for Architecture",
+              "year": "2010"
+            },
+            {
+              "key": "10.1016/j.enbuild.2014.06.009_bib0160",
+              "series-title": "Thermal Comfort",
+              "author": "Fanger",
+              "year": "1970"
+            },
+            {
+              "key": "10.1016/j.enbuild.2014.06.009_bib0165",
+              "series-title": "Ergonomics of the Thermal Environment—Analytical Determination and Interpretation of Thermal Comfort Using Calculation of the PMV and PPD Indices and Local Thermal Comfort Criteria",
+              "author": "ISO",
+              "year": "2005"
+            },
+            {
+              "key": "10.1016/j.enbuild.2014.06.009_bib0170",
+              "series-title": "Thermal Environment Conditions for Human Occupancy",
+              "author": "ASHRAE",
+              "year": "2004"
+            },
+            {
+              "key": "10.1016/j.enbuild.2014.06.009_bib0175",
+              "series-title": "Decree-Law No. 79/2006",
+              "article-title": "Regulation for the energy and HVAC systems in buildings (in Portuguese)",
+              "author": "Official Gazette of the Portuguese Republic",
+              "year": "2006"
+            },
+            {
+              "key": "10.1016/j.enbuild.2014.06.009_bib0180",
+              "series-title": "Mathworks MatLab Optimization Toolbox User's Guide",
+              "author": "Mathworks MatLab",
+              "year": "2010"
+            }
+          ],
+          "container-title": [
+            "Energy and Buildings"
+          ],
+          "language": "en",
+          "link": [
+            {
+              "URL": "https://api.elsevier.com/content/article/PII:S0378778814004915?httpAccept=text/xml",
+              "content-type": "text/xml",
+              "content-version": "vor",
+              "intended-application": "text-mining"
+            },
+            {
+              "URL": "https://api.elsevier.com/content/article/PII:S0378778814004915?httpAccept=text/plain",
+              "content-type": "text/plain",
+              "content-version": "vor",
+              "intended-application": "text-mining"
+            }
+          ],
+          "deposited": {
+            "date-parts": [
+              [
+                2018,
+                10,
+                3
+              ]
+            ],
+            "date-time": "2018-10-03T07:54:40Z",
+            "timestamp": 1538553280000
+          },
+          "score": 33.20144,
+          "resource": {
+            "primary": {
+              "URL": "https://linkinghub.elsevier.com/retrieve/pii/S0378778814004915"
+            }
+          },
+          "issued": {
+            "date-parts": [
+              [
+                2014,
+                10
+              ]
+            ]
+          },
+          "references-count": 36,
+          "alternative-id": [
+            "S0378778814004915"
+          ],
+          "URL": "https://doi.org/10.1016/j.enbuild.2014.06.009",
+          "ISSN": [
+            "0378-7788"
+          ],
+          "issn-type": [
+            {
+              "value": "0378-7788",
+              "type": "print"
+            }
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2014,
+                10
+              ]
+            ]
+          },
+          "assertion": [
+            {
+              "value": "Elsevier",
+              "name": "publisher",
+              "label": "This article is maintained by"
+            },
+            {
+              "value": "Multi-objective optimization for building retrofit: A model using genetic algorithm and artificial neural network and an application",
+              "name": "articletitle",
+              "label": "Article Title"
+            },
+            {
+              "value": "Energy and Buildings",
+              "name": "journaltitle",
+              "label": "Journal Title"
+            },
+            {
+              "value": "https://doi.org/10.1016/j.enbuild.2014.06.009",
+              "name": "articlelink",
+              "label": "CrossRef DOI link to publisher maintained version"
+            },
+            {
+              "value": "article",
+              "name": "content_type",
+              "label": "Content Type"
+            },
+            {
+              "value": "Copyright © 2014 Elsevier B.V. Published by Elsevier B.V. All rights reserved.",
+              "name": "copyright",
+              "label": "Copyright"
+            }
+          ]
+        }
+      ],
+      "items-per-page": 3,
+      "query": {
+        "start-index": 0,
+        "search-terms": null
+      }
+    }
+  }
+}

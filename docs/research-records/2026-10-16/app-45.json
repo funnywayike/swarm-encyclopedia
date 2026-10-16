@@ -1,0 +1,998 @@
+{
+  "retrieved": "2026-10-16",
+  "url": "https://api.crossref.org/works?query.bibliographic=radiotherapy+beam+angle+optimization+genetic+algorithm&rows=3&filter=until-pub-date%3A2026-10-16",
+  "response": {
+    "status": "ok",
+    "message-type": "work-list",
+    "message-version": "1.0.0",
+    "message": {
+      "facets": {},
+      "total-results": 2891039,
+      "items": [
+        {
+          "indexed": {
+            "date-parts": [
+              [
+                2025,
+                12,
+                19
+              ]
+            ],
+            "date-time": "2025-12-19T21:40:50Z",
+            "timestamp": 1766180450510
+          },
+          "reference-count": 0,
+          "publisher": "Wiley",
+          "issue": "6Part20",
+          "license": [
+            {
+              "start": {
+                "date-parts": [
+                  [
+                    2011,
+                    6,
+                    1
+                  ]
+                ],
+                "date-time": "2011-06-01T00:00:00Z",
+                "timestamp": 1306886400000
+              },
+              "content-version": "tdm",
+              "delay-in-days": 0,
+              "URL": "http://doi.wiley.com/10.1002/tdm_license_1"
+            },
+            {
+              "start": {
+                "date-parts": [
+                  [
+                    2011,
+                    7,
+                    3
+                  ]
+                ],
+                "date-time": "2011-07-03T00:00:00Z",
+                "timestamp": 1309651200000
+              },
+              "content-version": "vor",
+              "delay-in-days": 32,
+              "URL": "http://onlinelibrary.wiley.com/termsAndConditions"
+            }
+          ],
+          "content-domain": {
+            "domain": [],
+            "crossmark-restriction": false
+          },
+          "short-container-title": [
+            "Med. Phys."
+          ],
+          "published-print": {
+            "date-parts": [
+              [
+                2011,
+                6
+              ]
+            ]
+          },
+          "DOI": "10.1118/1.3612577",
+          "type": "journal-article",
+          "created": {
+            "date-parts": [
+              [
+                2011,
+                11,
+                7
+              ]
+            ],
+            "date-time": "2011-11-07T08:19:05Z",
+            "timestamp": 1320653945000
+          },
+          "page": "3631-3631",
+          "source": "Crossref",
+          "is-referenced-by-count": 1,
+          "title": [
+            "SU-E-T-614: An Optimization Algorithm for Beam Angle, Beam Weight and Wedge Angle in Forward Treatment Planning of External-Beam Radiotherapy Based on an Integer-Representation Adaptive Mutation Probability Genetic Algorithm"
+          ],
+          "prefix": "10.1002",
+          "volume": "38",
+          "author": [
+            {
+              "given": "H",
+              "family": "Mahani",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "M. A",
+              "family": "Mosleh-Shirazi",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "R",
+              "family": "Faghihi",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "K",
+              "family": "Hadad",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "R",
+              "family": "Boostani",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            }
+          ],
+          "member": "311",
+          "published-online": {
+            "date-parts": [
+              [
+                2011,
+                7,
+                3
+              ]
+            ]
+          },
+          "container-title": [
+            "Medical Physics"
+          ],
+          "language": "en",
+          "link": [
+            {
+              "URL": "https://api.wiley.com/onlinelibrary/tdm/v1/articles/10.1118%2F1.3612577",
+              "content-type": "application/pdf",
+              "content-version": "vor",
+              "intended-application": "text-mining"
+            },
+            {
+              "URL": "https://onlinelibrary.wiley.com/doi/full/10.1118/1.3612577",
+              "content-type": "unspecified",
+              "content-version": "vor",
+              "intended-application": "similarity-checking"
+            }
+          ],
+          "deposited": {
+            "date-parts": [
+              [
+                2018,
+                8,
+                3
+              ]
+            ],
+            "date-time": "2018-08-03T18:25:03Z",
+            "timestamp": 1533320703000
+          },
+          "score": 36.64818,
+          "resource": {
+            "primary": {
+              "URL": "http://doi.wiley.com/10.1118/1.3612577"
+            }
+          },
+          "issued": {
+            "date-parts": [
+              [
+                2011,
+                6
+              ]
+            ]
+          },
+          "references-count": 0,
+          "journal-issue": {
+            "issue": "6Part20",
+            "published-print": {
+              "date-parts": [
+                [
+                  2011,
+                  6
+                ]
+              ]
+            }
+          },
+          "URL": "https://doi.org/10.1118/1.3612577",
+          "archive": [
+            "Portico"
+          ],
+          "ISSN": [
+            "0094-2405"
+          ],
+          "issn-type": [
+            {
+              "value": "0094-2405",
+              "type": "print"
+            }
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2011,
+                6
+              ]
+            ]
+          }
+        },
+        {
+          "indexed": {
+            "date-parts": [
+              [
+                2025,
+                3,
+                30
+              ]
+            ],
+            "date-time": "2025-03-30T21:43:28Z",
+            "timestamp": 1743371008847,
+            "version": "3.28.0"
+          },
+          "reference-count": 32,
+          "publisher": "IEEE",
+          "content-domain": {
+            "domain": [],
+            "crossmark-restriction": false
+          },
+          "published-print": {
+            "date-parts": [
+              [
+                2008,
+                9
+              ]
+            ]
+          },
+          "DOI": "10.1109/iccis.2008.4670912",
+          "type": "proceedings-article",
+          "created": {
+            "date-parts": [
+              [
+                2008,
+                11,
+                12
+              ]
+            ],
+            "date-time": "2008-11-12T19:00:28Z",
+            "timestamp": 1226516428000
+          },
+          "page": "1331-1336",
+          "source": "Crossref",
+          "is-referenced-by-count": 2,
+          "title": [
+            "A DNA genetic algorithm for beam angle selection in radiotherapy planning"
+          ],
+          "prefix": "10.1109",
+          "author": [
+            {
+              "family": "Jie Lei",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "family": "Yongjie Li",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            }
+          ],
+          "member": "263",
+          "reference": [
+            {
+              "key": "19",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1088/0031-9155/52/7/N02"
+            },
+            {
+              "key": "17",
+              "first-page": "97",
+              "article-title": "a modified genetic algorithm for the beam angle optimization problem in intensity-modulated radiotherapy planning",
+              "volume": "ea 2005",
+              "author": "li",
+              "year": "2006",
+              "journal-title": "LNCS"
+            },
+            {
+              "key": "18",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1088/0031-9155/51/15/004"
+            },
+            {
+              "key": "15",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1118/1.1387274"
+            },
+            {
+              "key": "16",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1088/0031-9155/49/10/007"
+            },
+            {
+              "key": "13",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1118/1.1319377"
+            },
+            {
+              "key": "14",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1118/1.1386427"
+            },
+            {
+              "key": "11",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1118/1.597858"
+            },
+            {
+              "key": "12",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1118/1.597773"
+            },
+            {
+              "key": "21",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1016/j.amc.2006.09.020"
+            },
+            {
+              "key": "20",
+              "doi-asserted-by": "crossref",
+              "first-page": "1021",
+              "DOI": "10.1126/science.7973651",
+              "article-title": "molecular computation of solutions to combinatorial problem",
+              "volume": "266",
+              "author": "adleman",
+              "year": "1994",
+              "journal-title": "Science"
+            },
+            {
+              "key": "22",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1016/j.amc.2006.11.073"
+            },
+            {
+              "key": "23",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1109/ICMECH.2006.252498"
+            },
+            {
+              "key": "24",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1109/MSP.2004.1359142"
+            },
+            {
+              "key": "25",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1109/MSP.2004.1328093"
+            },
+            {
+              "key": "26",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1109/IECON.2003.1280691"
+            },
+            {
+              "key": "27",
+              "first-page": "3862",
+              "article-title": "dna genetic algorithm for design of the generalized membership-type takagi-sugeno fuzzy control system",
+              "volume": "5",
+              "author": "ding",
+              "year": "2000",
+              "journal-title": "Proc 2000 IEEE Int Conf Systems Man and Cybernetics"
+            },
+            {
+              "key": "28",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1109/FUZZY.2000.839185"
+            },
+            {
+              "key": "29",
+              "article-title": "parameter optimization for a class of general ts fuzzy controllers via a new dna-based genetic algorithm",
+              "author": "ren",
+              "year": "2004",
+              "journal-title": "Proceeding of the 5th World Congress on Intelligent Control and Automation"
+            },
+            {
+              "key": "3",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1088/0031-9155/38/2/006"
+            },
+            {
+              "key": "2",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1118/1.598308"
+            },
+            {
+              "key": "10",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1118/1.597660"
+            },
+            {
+              "journal-title": "Intensity-modulated Radiation Therapy",
+              "year": "2000",
+              "author": "webb",
+              "key": "1"
+            },
+            {
+              "key": "30",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1109/ICNNB.2005.1614757"
+            },
+            {
+              "key": "7",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1016/S0360-3016(01)01502-4"
+            },
+            {
+              "key": "6",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1118/1.599001"
+            },
+            {
+              "key": "32",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1016/j.compchemeng.2007.01.012"
+            },
+            {
+              "key": "5",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1118/1.597923"
+            },
+            {
+              "key": "31",
+              "doi-asserted-by": "crossref",
+              "first-page": "519",
+              "DOI": "10.1093/genetics/145.2.519",
+              "article-title": "the genealogy of samples in models with selection",
+              "volume": "145",
+              "author": "neuhauser",
+              "year": "1997",
+              "journal-title": "Genetics"
+            },
+            {
+              "key": "4",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1016/0360-3016(95)00113-D"
+            },
+            {
+              "key": "9",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1118/1.1636572"
+            },
+            {
+              "key": "8",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1016/S0360-3016(02)03917-2"
+            }
+          ],
+          "event": {
+            "name": "2008 IEEE Conference on Cybernetics and Intelligent Systems (CIS)",
+            "start": {
+              "date-parts": [
+                [
+                  2008,
+                  9,
+                  21
+                ]
+              ]
+            },
+            "location": "Chengdu, China",
+            "end": {
+              "date-parts": [
+                [
+                  2008,
+                  9,
+                  24
+                ]
+              ]
+            }
+          },
+          "container-title": [
+            "2008 IEEE Conference on Cybernetics and Intelligent Systems"
+          ],
+          "link": [
+            {
+              "URL": "http://xplorestaging.ieee.org/ielx5/4664825/4670728/04670912.pdf?arnumber=4670912",
+              "content-type": "unspecified",
+              "content-version": "vor",
+              "intended-application": "similarity-checking"
+            }
+          ],
+          "deposited": {
+            "date-parts": [
+              [
+                2021,
+                9,
+                20
+              ]
+            ],
+            "date-time": "2021-09-20T17:34:27Z",
+            "timestamp": 1632159267000
+          },
+          "score": 34.23837,
+          "resource": {
+            "primary": {
+              "URL": "http://ieeexplore.ieee.org/document/4670912/"
+            }
+          },
+          "issued": {
+            "date-parts": [
+              [
+                2008,
+                9
+              ]
+            ]
+          },
+          "references-count": 32,
+          "URL": "https://doi.org/10.1109/iccis.2008.4670912",
+          "published": {
+            "date-parts": [
+              [
+                2008,
+                9
+              ]
+            ]
+          }
+        },
+        {
+          "indexed": {
+            "date-parts": [
+              [
+                2024,
+                6,
+                8
+              ]
+            ],
+            "date-time": "2024-06-08T00:54:47Z",
+            "timestamp": 1717808087832
+          },
+          "reference-count": 41,
+          "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+          "issue": "3",
+          "license": [
+            {
+              "start": {
+                "date-parts": [
+                  [
+                    2010,
+                    3,
+                    1
+                  ]
+                ],
+                "date-time": "2010-03-01T00:00:00Z",
+                "timestamp": 1267401600000
+              },
+              "content-version": "vor",
+              "delay-in-days": 0,
+              "URL": "https://ieeexplore.ieee.org/Xplorehelp/downloads/license-information/IEEE.html"
+            }
+          ],
+          "content-domain": {
+            "domain": [],
+            "crossmark-restriction": false
+          },
+          "short-container-title": [
+            "IEEE Trans. Biomed. Eng."
+          ],
+          "published-print": {
+            "date-parts": [
+              [
+                2010,
+                3
+              ]
+            ]
+          },
+          "DOI": "10.1109/tbme.2009.2033263",
+          "type": "journal-article",
+          "created": {
+            "date-parts": [
+              [
+                2009,
+                10,
+                9
+              ]
+            ],
+            "date-time": "2009-10-09T17:48:37Z",
+            "timestamp": 1255110517000
+          },
+          "page": "499-508",
+          "source": "Crossref",
+          "is-referenced-by-count": 16,
+          "title": [
+            "A Feasible Solution to the Beam-Angle-Optimization Problem in Radiotherapy Planning With a DNA-Based Genetic Algorithm"
+          ],
+          "prefix": "10.1109",
+          "volume": "57",
+          "author": [
+            {
+              "family": "Yongjie Li",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "family": "Jie Lei",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            }
+          ],
+          "member": "263",
+          "reference": [
+            {
+              "key": "ref39",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1088/0031-9155/48/17/306"
+            },
+            {
+              "key": "ref38",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1118/1.1500402"
+            },
+            {
+              "key": "ref33",
+              "first-page": "859",
+              "article-title": "optimization for parameter of pid based on dna genetic algorithm",
+              "volume": "2",
+              "author": "huang",
+              "year": "0",
+              "journal-title": "Proc Int Conf Neural Netw Brain (ICNN&B)"
+            },
+            {
+              "key": "ref32",
+              "first-page": "1005",
+              "article-title": "dna genetic algorithms for design of fuzzy systems",
+              "volume": "2",
+              "author": "ren",
+              "year": "0",
+              "journal-title": "Proc 2000 IEEE Int Conf Fuzzy Syst"
+            },
+            {
+              "key": "ref31",
+              "doi-asserted-by": "crossref",
+              "first-page": "3862",
+              "DOI": "10.1109/ICSMC.2000.886613",
+              "article-title": "dna genetic algorithm for design of the generalized membership-type takagisugeno fuzzy control system",
+              "volume": "5",
+              "author": "ding",
+              "year": "2000",
+              "journal-title": "Proc IEEE Int Conf Syst Man Cybern"
+            },
+            {
+              "key": "ref30",
+              "author": "fogel",
+              "year": "1995",
+              "journal-title": "Evolutionary Computation Toward a New Philosophy of Machine Intelligence"
+            },
+            {
+              "key": "ref37",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1088/0031-9155/49/5/007"
+            },
+            {
+              "key": "ref36",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1118/1.598202"
+            },
+            {
+              "key": "ref35",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1016/j.ijrobp.2004.06.007"
+            },
+            {
+              "key": "ref34",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1109/ICCIS.2008.4670912"
+            },
+            {
+              "key": "ref10",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1016/S0360-3016(01)01502-4"
+            },
+            {
+              "key": "ref40",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1118/1.1688214"
+            },
+            {
+              "key": "ref11",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1016/S0360-3016(02)03917-2"
+            },
+            {
+              "key": "ref12",
+              "doi-asserted-by": "crossref",
+              "first-page": "376",
+              "DOI": "10.1118/1.1636572",
+              "article-title": "an algorithm for systematic selection of beam directions for imrt",
+              "volume": "31",
+              "author": "gaede",
+              "year": "2004",
+              "journal-title": "Med Phys"
+            },
+            {
+              "key": "ref13",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1118/1.597660"
+            },
+            {
+              "key": "ref14",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1118/1.597858"
+            },
+            {
+              "key": "ref15",
+              "doi-asserted-by": "crossref",
+              "first-page": "2085",
+              "DOI": "10.1118/1.597773",
+              "article-title": "a genetic algorithm for optimization prostate implants",
+              "volume": "23",
+              "author": "yu",
+              "year": "1996",
+              "journal-title": "Med Phys"
+            },
+            {
+              "key": "ref16",
+              "doi-asserted-by": "crossref",
+              "first-page": "2508",
+              "DOI": "10.1118/1.1319377",
+              "article-title": "a mixed-encoding genetic algorithm with beam constraint for conformal radiotherapy treatment planning",
+              "volume": "27",
+              "author": "wu",
+              "year": "2000",
+              "journal-title": "Med Phys"
+            },
+            {
+              "key": "ref17",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1118/1.1386427"
+            },
+            {
+              "key": "ref18",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1118/1.1387274"
+            },
+            {
+              "key": "ref19",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1088/0031-9155/49/10/007"
+            },
+            {
+              "key": "ref28",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1109/MSP.2004.1328093"
+            },
+            {
+              "key": "ref4",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1109/TBME.2006.890487"
+            },
+            {
+              "key": "ref27",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1109/MSP.2004.1359142"
+            },
+            {
+              "key": "ref3",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1118/1.3002305"
+            },
+            {
+              "key": "ref6",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1118/1.1797571"
+            },
+            {
+              "key": "ref29",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1109/IECON.2003.1280691"
+            },
+            {
+              "key": "ref5",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1118/1.598308"
+            },
+            {
+              "key": "ref8",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1118/1.597923"
+            },
+            {
+              "key": "ref7",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1016/0360-3016(95)00113-D"
+            },
+            {
+              "key": "ref2",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1016/S0360-3016(01)01749-7"
+            },
+            {
+              "key": "ref1",
+              "author": "webb",
+              "year": "2000",
+              "journal-title": "Intensity-modulated Radiation Therapy"
+            },
+            {
+              "key": "ref9",
+              "doi-asserted-by": "crossref",
+              "first-page": "1238",
+              "DOI": "10.1118/1.599001",
+              "article-title": "beam orientation optimization in intensity-modulated radiation treatment planning",
+              "volume": "27",
+              "author": "pugachev",
+              "year": "2000",
+              "journal-title": "Med Phys"
+            },
+            {
+              "key": "ref20",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1016/j.cmpb.2008.10.005"
+            },
+            {
+              "key": "ref22",
+              "author": "gen",
+              "year": "2000",
+              "journal-title": "Genetic Algorithms and Engineering Optimization"
+            },
+            {
+              "key": "ref21",
+              "doi-asserted-by": "crossref",
+              "first-page": "2360",
+              "DOI": "10.1118/1.1601911",
+              "article-title": "beam orientation optimization for imrt by a hybrid method of genetic algorithm and the simulated dynamics",
+              "volume": "30",
+              "author": "hou",
+              "year": "2003",
+              "journal-title": "Med Phys"
+            },
+            {
+              "key": "ref24",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1016/j.amc.2006.09.020"
+            },
+            {
+              "key": "ref41",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1088/0031-9155/48/18/304"
+            },
+            {
+              "key": "ref23",
+              "doi-asserted-by": "crossref",
+              "first-page": "1021",
+              "DOI": "10.1126/science.7973651",
+              "article-title": "molecular computation of solutions to combinatorial problem",
+              "volume": "266",
+              "author": "adleman",
+              "year": "1994",
+              "journal-title": "Science"
+            },
+            {
+              "key": "ref26",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1109/ICMECH.2006.252498"
+            },
+            {
+              "key": "ref25",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1016/j.amc.2006.11.073"
+            }
+          ],
+          "container-title": [
+            "IEEE Transactions on Biomedical Engineering"
+          ],
+          "link": [
+            {
+              "URL": "http://xplorestaging.ieee.org/ielx5/10/5419290/05282632.pdf?arnumber=5282632",
+              "content-type": "unspecified",
+              "content-version": "vor",
+              "intended-application": "similarity-checking"
+            }
+          ],
+          "deposited": {
+            "date-parts": [
+              [
+                2021,
+                10,
+                10
+              ]
+            ],
+            "date-time": "2021-10-10T23:58:41Z",
+            "timestamp": 1633910321000
+          },
+          "score": 33.60802,
+          "resource": {
+            "primary": {
+              "URL": "http://ieeexplore.ieee.org/document/5282632/"
+            }
+          },
+          "issued": {
+            "date-parts": [
+              [
+                2010,
+                3
+              ]
+            ]
+          },
+          "references-count": 41,
+          "journal-issue": {
+            "issue": "3"
+          },
+          "URL": "https://doi.org/10.1109/tbme.2009.2033263",
+          "ISSN": [
+            "0018-9294",
+            "1558-2531"
+          ],
+          "issn-type": [
+            {
+              "value": "0018-9294",
+              "type": "print"
+            },
+            {
+              "value": "1558-2531",
+              "type": "electronic"
+            }
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2010,
+                3
+              ]
+            ]
+          }
+        }
+      ],
+      "items-per-page": 3,
+      "query": {
+        "start-index": 0,
+        "search-terms": null
+      }
+    }
+  }
+}

@@ -1,0 +1,1969 @@
+{
+  "retrieved": "2026-10-16",
+  "url": "https://api.crossref.org/works/10.1007/s00500-023-08177-x",
+  "response": {
+    "status": "ok",
+    "message-type": "work",
+    "message-version": "1.0.0",
+    "message": {
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            10,
+            12
+          ]
+        ],
+        "date-time": "2026-10-12T21:15:10Z",
+        "timestamp": 1791839710846,
+        "version": "4.3.4"
+      },
+      "reference-count": 184,
+      "publisher": "Springer Science and Business Media LLC",
+      "issue": "24",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2023,
+                4,
+                21
+              ]
+            ],
+            "date-time": "2023-04-21T00:00:00Z",
+            "timestamp": 1682035200000
+          },
+          "content-version": "tdm",
+          "delay-in-days": 0,
+          "URL": "https://creativecommons.org/licenses/by/4.0"
+        },
+        {
+          "start": {
+            "date-parts": [
+              [
+                2023,
+                4,
+                21
+              ]
+            ],
+            "date-time": "2023-04-21T00:00:00Z",
+            "timestamp": 1682035200000
+          },
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "URL": "https://creativecommons.org/licenses/by/4.0"
+        }
+      ],
+      "funder": [
+        {
+          "DOI": "10.13039/501100004477",
+          "name": "Stellenbosch University",
+          "doi-asserted-by": "crossref",
+          "id": [
+            {
+              "id": "10.13039/501100004477",
+              "id-type": "DOI",
+              "asserted-by": "crossref"
+            }
+          ]
+        }
+      ],
+      "content-domain": {
+        "domain": [
+          "link.springer.com"
+        ],
+        "crossmark-restriction": false
+      },
+      "short-container-title": [
+        "Soft Comput"
+      ],
+      "published-print": {
+        "date-parts": [
+          [
+            2023,
+            12
+          ]
+        ]
+      },
+      "abstract": "",
+      "DOI": "10.1007/s00500-023-08177-x",
+      "type": "journal-article",
+      "created": {
+        "date-parts": [
+          [
+            2023,
+            4,
+            21
+          ]
+        ],
+        "date-time": "2023-04-21T05:08:33Z",
+        "timestamp": 1682053713000
+      },
+      "page": "19045-19073",
+      "update-policy": "https://doi.org/10.1007/springer_crossmark_policy",
+      "source": "Crossref",
+      "is-referenced-by-count": 53,
+      "title": [
+        "Meta-heuristics for portfolio optimization"
+      ],
+      "prefix": "10.1007",
+      "volume": "27",
+      "author": [
+        {
+          "given": "Kyle",
+          "family": "Erwin",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-0242-3539",
+          "authenticated-orcid": false,
+          "given": "Andries",
+          "family": "Engelbrecht",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "297",
+      "published-online": {
+        "date-parts": [
+          [
+            2023,
+            4,
+            21
+          ]
+        ]
+      },
+      "reference": [
+        {
+          "issue": "1",
+          "key": "8177_CR1",
+          "first-page": "99",
+          "volume": "7",
+          "author": "R Aghamohammadi",
+          "year": "2022",
+          "unstructured": "Aghamohammadi R, Tehrani R, Raad A (2022) Portfolio optimization based on semi variance and another perspective of value at risk using NSGA II, MOACO, and MOABC algorithms. Adv Math Finance Appl 7(1):99–115",
+          "journal-title": "Adv Math Finance Appl"
+        },
+        {
+          "key": "8177_CR2",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Ahmad G, Shahid M (2022) Towards portfolio selection in stock markets using grey wolf optimization approach. In: Proceedings of the international conference on data analytics for business and industry, pp. 756–760",
+          "DOI": "10.1109/ICDABI56818.2022.10041457"
+        },
+        {
+          "issue": "3",
+          "key": "8177_CR3",
+          "doi-asserted-by": "crossref",
+          "first-page": "259",
+          "DOI": "10.1007/s10287-009-0113-8",
+          "volume": "8",
+          "author": "KP Anagnostopoulos",
+          "year": "2009",
+          "unstructured": "Anagnostopoulos KP, Mamanis G (2009) Multiobjective evolutionary algorithms for complex portfolio optimization problems. CMS 8(3):259–279",
+          "journal-title": "CMS"
+        },
+        {
+          "issue": "7",
+          "key": "8177_CR4",
+          "doi-asserted-by": "crossref",
+          "first-page": "1285",
+          "DOI": "10.1016/j.cor.2009.09.009",
+          "volume": "37",
+          "author": "KP Anagnostopoulos",
+          "year": "2010",
+          "unstructured": "Anagnostopoulos KP, Mamanis G (2010) A portfolio optimization model with three objectives and discrete variables. Comput Oper Res 37(7):1285–1297",
+          "journal-title": "Comput Oper Res"
+        },
+        {
+          "issue": "11",
+          "key": "8177_CR5",
+          "first-page": "14208",
+          "volume": "38",
+          "author": "KP Anagnostopoulos",
+          "year": "2011",
+          "unstructured": "Anagnostopoulos KP, Mamanis G (2011) The mean variance cardinality constrained portfolio optimization problem: an experimental evaluation of five multi-objective evolutionary algorithms. Expert Syst Appl 38(11):14208",
+          "journal-title": "Expert Syst Appl"
+        },
+        {
+          "issue": "2",
+          "key": "8177_CR6",
+          "doi-asserted-by": "crossref",
+          "first-page": "139",
+          "DOI": "10.1007/s12293-009-0010-2",
+          "volume": "1",
+          "author": "C Aranha",
+          "year": "2009",
+          "unstructured": "Aranha C, Iba H (2009) The memetic tree-based genetic algorithm and its application to portfolio optimization. Memet Comput 1(2):139–151",
+          "journal-title": "Memet Comput"
+        },
+        {
+          "key": "8177_CR7",
+          "unstructured": "Armananzas R, Lozano JA (2005) A multi-objective approach to the portfolio optimization problem. In: Proceedings of the IEEE Congress on Evolutionary Computation, vol 2, pp 1388–1395"
+        },
+        {
+          "key": "8177_CR8",
+          "first-page": "597",
+          "volume": "3",
+          "author": "S Arnone",
+          "year": "1993",
+          "unstructured": "Arnone S, Loraschi A, Tettamanzi A (1993) A genetic approach to portfolio selection. Neural Netw World 3:597–604",
+          "journal-title": "Neural Netw World"
+        },
+        {
+          "key": "8177_CR9",
+          "doi-asserted-by": "crossref",
+          "first-page": "721521",
+          "DOI": "10.1155/2014/721521",
+          "volume": "2014",
+          "author": "N Bacanin",
+          "year": "2014",
+          "unstructured": "Bacanin N, Tuba M (2014) Firefly algorithm for cardinality constrained mean-variance portfolio optimization problem with entropy diversity constraint. Sci World J 2014:721521",
+          "journal-title": "Sci World J"
+        },
+        {
+          "key": "8177_CR10",
+          "first-page": "2831",
+          "volume": "17",
+          "author": "N Bacanin",
+          "year": "2014",
+          "unstructured": "Bacanin N, Tuba M, Pelevic B (2014) Constrained portfolio selection using artificial bee colony (ABC) algorithm. Optimization 17:2831–2844",
+          "journal-title": "Optimization"
+        },
+        {
+          "key": "8177_CR11",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Bacanin N, Tuba M (2015) Fireworks algorithm applied to constrained portfolio optimization problem. In: Proceedings of the IEEE congress on evolutionary computation, pp 1242–1249",
+          "DOI": "10.1109/CEC.2015.7257031"
+        },
+        {
+          "issue": "11",
+          "key": "8177_CR12",
+          "doi-asserted-by": "crossref",
+          "first-page": "1069",
+          "DOI": "10.1057/jors.1990.166",
+          "volume": "41",
+          "author": "JE Beasley",
+          "year": "1990",
+          "unstructured": "Beasley JE (1990) Or-library: distributing test problems by electronic mail. J Oper Res Soc 41(11):1069–1072",
+          "journal-title": "J Oper Res Soc"
+        },
+        {
+          "issue": "3",
+          "key": "8177_CR13",
+          "doi-asserted-by": "crossref",
+          "first-page": "684",
+          "DOI": "10.1016/j.ejor.2008.01.054",
+          "volume": "199",
+          "author": "J Branke",
+          "year": "2009",
+          "unstructured": "Branke J, Scheckenbach B, Stein M, Deb K, Schmeck H (2009) Portfolio optimization with an envelope-based multi-objective evolutionary algorithm. Eur J Oper Res 199(3):684–693",
+          "journal-title": "Eur J Oper Res"
+        },
+        {
+          "key": "8177_CR14",
+          "first-page": "361",
+          "volume": "43",
+          "author": "F Busetti",
+          "year": "2006",
+          "unstructured": "Busetti F (2006) Heuristic approaches to realistic portfolio optimisation. WIT Trans Model Simul 43:361",
+          "journal-title": "WIT Trans Model Simul"
+        },
+        {
+          "issue": "13",
+          "key": "8177_CR15",
+          "doi-asserted-by": "crossref",
+          "first-page": "1271",
+          "DOI": "10.1016/S0305-0548(99)00074-X",
+          "volume": "27",
+          "author": "TJ Chang",
+          "year": "2000",
+          "unstructured": "Chang TJ, Meade N, Beasley JE, Sharaiha YM (2000) Heuristics for cardinality constrained portfolio optimisation. Comput Oper Res 27(13):1271–1302",
+          "journal-title": "Comput Oper Res"
+        },
+        {
+          "issue": "7",
+          "key": "8177_CR16",
+          "doi-asserted-by": "crossref",
+          "first-page": "10529",
+          "DOI": "10.1016/j.eswa.2009.02.062",
+          "volume": "36",
+          "author": "T-J Chang",
+          "year": "2009",
+          "unstructured": "Chang T-J, Yang S-C, Chang K-J (2009) Portfolio optimization problems in different risk measures using genetic algorithm. Expert Syst Appl 36(7):10529–10537",
+          "journal-title": "Expert Syst Appl"
+        },
+        {
+          "key": "8177_CR17",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Chang J, Tsaur T, Huang J (2008) Applying investment satisfied capability index and genetic algorithms to construct the stocks portfolio. In: Proceedings of the 3rd international conference on innovative computing information and control, p 265",
+          "DOI": "10.1109/ICICIC.2008.168"
+        },
+        {
+          "key": "8177_CR18",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Chen AHL, Liang Y, Liu C (2012) An artificial bee colony algorithm for the cardinality-constrained portfolio optimization problems. In: Proceedings of the IEEE congress on evolutionary computation, pp 2902–2909",
+          "DOI": "10.1109/CEC.2012.6252920"
+        },
+        {
+          "key": "8177_CR19",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Chen AHL, Liang Y, Liu C (2013) Portfolio optimization using improved artificial bee colony approach. In: Proceedings of the IEEE conference on computational intelligence for financial engineering and economics, pp 60–67",
+          "DOI": "10.1109/CIFEr.2013.6611698"
+        },
+        {
+          "issue": "10",
+          "key": "8177_CR20",
+          "doi-asserted-by": "crossref",
+          "first-page": "2070",
+          "DOI": "10.1016/j.physa.2010.01.016",
+          "volume": "389",
+          "author": "W Chen",
+          "year": "2010",
+          "unstructured": "Chen W, Zhang W-G (2010) The admissible portfolio selection problem with transaction costs and an improved PSO algorithm. Phys A 389(10):2070–2076",
+          "journal-title": "Phys A"
+        },
+        {
+          "issue": "4",
+          "key": "8177_CR21",
+          "doi-asserted-by": "crossref",
+          "first-page": "2515",
+          "DOI": "10.1007/s00500-018-3595-x",
+          "volume": "24",
+          "author": "W Chen",
+          "year": "2020",
+          "unstructured": "Chen W, Li S-S, Zhang J, Mehlawat MK (2020) A comprehensive model for fuzzy multi-objective portfolio selection based on DEA cross-efficiency model. Soft Comput 24(4):2515–2526",
+          "journal-title": "Soft Comput"
+        },
+        {
+          "key": "8177_CR22",
+          "doi-asserted-by": "crossref",
+          "first-page": "2993870",
+          "DOI": "10.1155/2021/2993870",
+          "volume": "2021",
+          "author": "J Chen",
+          "year": "2021",
+          "unstructured": "Chen J, Zhao C, Liu K, Liang J, Huan W, Shiyan X (2021) Exchange rate forecasting based on deep learning and NSGA-II models. Comput Intell Neurosci 2021:2993870",
+          "journal-title": "Comput Intell Neurosci"
+        },
+        {
+          "key": "8177_CR23",
+          "doi-asserted-by": "crossref",
+          "first-page": "106943",
+          "DOI": "10.1016/j.asoc.2020.106943",
+          "volume": "100",
+          "author": "W Chen",
+          "year": "2021",
+          "unstructured": "Chen W, Zhang H, Mehlawat MK, Jia L (2021) Mean-variance portfolio optimization using machine learning-based stock price prediction. Appl Soft Comput 100:106943",
+          "journal-title": "Appl Soft Comput"
+        },
+        {
+          "key": "8177_CR24",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Chen C, Chen B-Y (2018) Complex portfolio selection using improved particle swarm optimization approach. In: Proceedings of the IEEE 20th international conference on high performance computing and communications, vol 6, pp 828–835",
+          "DOI": "10.1109/HPCC/SmartCity/DSS.2018.00138"
+        },
+        {
+          "key": "8177_CR25",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Chen W, Zhang R, Cai Y, Xu F (2006) Particle swarm optimization for constrained portfolio selection problems. In: Proceedings of the international conference on machine learning and cybernetics, pp 2425–2429",
+          "DOI": "10.1109/ICMLC.2006.258773"
+        },
+        {
+          "issue": "1",
+          "key": "8177_CR26",
+          "doi-asserted-by": "crossref",
+          "first-page": "1",
+          "DOI": "10.4018/IJKSS.302660",
+          "volume": "13",
+          "author": "N Chiadamrong",
+          "year": "2022",
+          "unstructured": "Chiadamrong N, Suthamanondh P (2022) Fuzzy multi-objective chance-constrained portfolio optimization under uncertainty considering investment return investment risk and sustainability. Int J Knowl Syst Sci 13(1):1–39",
+          "journal-title": "Int J Knowl Syst Sci"
+        },
+        {
+          "key": "8177_CR27",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Chiam SC, Al Mamun A, Low YL (2007) A realistic approach to evolutionary multi-objective portfolio optimization. In: Proceedings of the IEEE congress on evolutionary computation, pp 204–211",
+          "DOI": "10.1109/CEC.2007.4424473"
+        },
+        {
+          "issue": "1",
+          "key": "8177_CR28",
+          "doi-asserted-by": "crossref",
+          "first-page": "67",
+          "DOI": "10.1007/s11633-008-0067-2",
+          "volume": "5",
+          "author": "SC Chiam",
+          "year": "2008",
+          "unstructured": "Chiam SC, Tan KC, Al Mamum A (2008) Evolutionary multi-objective portfolio optimization in practical context. Int J Autom Comput 5(1):67–80",
+          "journal-title": "Int J Autom Comput"
+        },
+        {
+          "key": "8177_CR29",
+          "doi-asserted-by": "crossref",
+          "unstructured": "ChiangLin CY (2006) Applications of genetic algorithm to portfolio optimization with practical transaction constraints. In: Proceedings of the 9th joint international conference on information sciences. Atlantis Press",
+          "DOI": "10.2991/jcis.2006.273"
+        },
+        {
+          "issue": "1",
+          "key": "8177_CR30",
+          "first-page": "163",
+          "volume": "3",
+          "author": "S-C Chu",
+          "year": "2007",
+          "unstructured": "Chu S-C, Tsai P-W (2007) Computational intelligence based on the behavior of cats. Int J Innov Comput Inf Control 3(1):163–173",
+          "journal-title": "Int J Innov Comput Inf Control"
+        },
+        {
+          "key": "8177_CR31",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Coello CCA, Sierra MR (2004) A Study of the parallelization of a coevolutionary multi-objective evolutionary algorithm. In: Proceedings of the advances in artificial intelligence. Springer, Berlin, pp 688–697",
+          "DOI": "10.1007/978-3-540-24694-7_71"
+        },
+        {
+          "key": "8177_CR32",
+          "volume-title": "Evolutionary algorithms for solving multi-objective problems",
+          "author": "CA Coello Coello",
+          "year": "2007",
+          "unstructured": "Coello Coello CA, Lamont GB, Van Veldhuizen DA (2007) Evolutionary algorithms for solving multi-objective problems, vol 5. Springer"
+        },
+        {
+          "key": "8177_CR33",
+          "doi-asserted-by": "crossref",
+          "first-page": "611",
+          "DOI": "10.1016/j.amc.2013.07.091",
+          "volume": "224",
+          "author": "M Corazza",
+          "year": "2013",
+          "unstructured": "Corazza M, Fasano G, Gusso R (2013) Particle swarm optimization with non-smooth penalty reformulation, for a complex portfolio selection problem. Appl Math Comput 224:611–624",
+          "journal-title": "Appl Math Comput"
+        },
+        {
+          "issue": "1",
+          "key": "8177_CR34",
+          "doi-asserted-by": "crossref",
+          "first-page": "109",
+          "DOI": "10.1007/s10479-021-04075-3",
+          "volume": "304",
+          "author": "M Corazza",
+          "year": "2021",
+          "unstructured": "Corazza M, di Tollo G, Fasano G, Pesenti R (2021) A novel hybrid PSO-based metaheuristic for costly portfolio selection problems. Ann Oper Res 304(1):109–137",
+          "journal-title": "Ann Oper Res"
+        },
+        {
+          "issue": "4",
+          "key": "8177_CR35",
+          "doi-asserted-by": "crossref",
+          "first-page": "2396",
+          "DOI": "10.1016/j.nonrwa.2008.04.023",
+          "volume": "10",
+          "author": "T Cura",
+          "year": "2009",
+          "unstructured": "Cura T (2009) Particle swarm optimization approach to portfolio optimization. Nonlinear Anal Real World Appl 10(4):2396–2406",
+          "journal-title": "Nonlinear Anal Real World Appl"
+        },
+        {
+          "key": "8177_CR36",
+          "doi-asserted-by": "crossref",
+          "first-page": "107505",
+          "DOI": "10.1016/j.knosys.2021.107505",
+          "volume": "233",
+          "author": "T Cura",
+          "year": "2021",
+          "unstructured": "Cura T (2021) A rapidly converging artificial bee colony algorithm for portfolio optimization. Knowl Based Syst 233:107505",
+          "journal-title": "Knowl Based Syst"
+        },
+        {
+          "issue": "2",
+          "key": "8177_CR37",
+          "doi-asserted-by": "crossref",
+          "first-page": "182",
+          "DOI": "10.1109/4235.996017",
+          "volume": "6",
+          "author": "K Deb",
+          "year": "2002",
+          "unstructured": "Deb K, Pratap A, Agarwal S, Meyarivan TAMT (2002) A fast and elitist multi-objective genetic algorithm: NSGA-II. IEEE Trans Evol Comput 6(2):182–197",
+          "journal-title": "IEEE Trans Evol Comput"
+        },
+        {
+          "key": "8177_CR38",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Deb K, Steuer RE, Tewari R, Tewari R (2011) Bi-objective portfolio optimization using a customized hybrid NSGA-II procedure. In: Proceedings of the evolutionary multi-criterion optimization conference and lecture notes in computer science. Springer, Berlin, pp 358–373",
+          "DOI": "10.1007/978-3-642-19893-9_25"
+        },
+        {
+          "key": "8177_CR39",
+          "doi-asserted-by": "publisher",
+          "unstructured": "Deliktaş D, Ustun O (2022) Multi-objective genetic algorithm based on the fuzzy MULTIMOORA method for solving the cardinality constrained portfolio optimization. Appl Intell. https://doi.org/10.1007/s10489-022-04240-6",
+          "DOI": "10.1007/s10489-022-04240-6"
+        },
+        {
+          "key": "8177_CR40",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Deng G-F, Lin W-T (2010) Ant colony optimization for Markowitz mean-variance portfolio model. In: Proceedings of the swarm, evolutionary, and memetic computing. Springer, Berlin, pp 238–245",
+          "DOI": "10.1007/978-3-642-17563-3_29"
+        },
+        {
+          "issue": "4",
+          "key": "8177_CR41",
+          "doi-asserted-by": "crossref",
+          "first-page": "4558",
+          "DOI": "10.1016/j.eswa.2011.09.129",
+          "volume": "39",
+          "author": "G-F Deng",
+          "year": "2012",
+          "unstructured": "Deng G-F, Lin W-T, Lo C-C (2012) Markowitz-based portfolio selection with cardinality constraints using improved particle swarm optimization. Expert Syst Appl 39(4):4558–4566",
+          "journal-title": "Expert Syst Appl"
+        },
+        {
+          "key": "8177_CR42",
+          "doi-asserted-by": "crossref",
+          "first-page": "113199",
+          "DOI": "10.1016/j.cam.2020.113199",
+          "volume": "385",
+          "author": "Y Deng",
+          "year": "2021",
+          "unstructured": "Deng Y, Hongfeng X, Jie W (2021) Optimization of blockchain investment portfolio under artificial bee colony algorithm. J Comput Appl Math 385:113199",
+          "journal-title": "J Comput Appl Math"
+        },
+        {
+          "key": "8177_CR43",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Diosan L (2005) A multi-objective evolutionary approach to the portfolio optimization problem. In: Proceedings of the international conference on computational intelligence for modelling, control and automation and international conference on intelligent agents, web technologies and internet commerce, vol 2, pp 183–187",
+          "DOI": "10.1109/CIMCA.2005.1631465"
+        },
+        {
+          "issue": "1",
+          "key": "8177_CR44",
+          "doi-asserted-by": "crossref",
+          "first-page": "79",
+          "DOI": "10.1023/B:ANOR.0000039513.99038.c6",
+          "volume": "131",
+          "author": "K Doerner",
+          "year": "2004",
+          "unstructured": "Doerner K, Gutjahr WJ, Hartl RF, Strauss C, Stummer C (2004) Pareto ant colony optimization: a metaheuristic approach to multi-objective portfolio selection. Ann Oper Res 131(1):79–99",
+          "journal-title": "Ann Oper Res"
+        },
+        {
+          "key": "8177_CR45",
+          "first-page": "1470",
+          "volume": "2",
+          "author": "M Dorigo",
+          "year": "1999",
+          "unstructured": "Dorigo M, Di Caro G (1999) Ant colony optimization: a new meta-heuristic. Proc IEEE Congr Evolut Comput 2:1470–1477",
+          "journal-title": "Proc IEEE Congr Evolut Comput"
+        },
+        {
+          "issue": "9",
+          "key": "8177_CR46",
+          "doi-asserted-by": "crossref",
+          "first-page": "168",
+          "DOI": "10.3390/sym9090168",
+          "volume": "9",
+          "author": "R Drezewski",
+          "year": "2017",
+          "unstructured": "Drezewski R, Doroz K (2017) An agent-based co-evolutionary multi-objective algorithm for portfolio optimization. Symmetry 9(9):168",
+          "journal-title": "Symmetry"
+        },
+        {
+          "key": "8177_CR47",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Eberhart R, Kennedy J (1995) A new optimizer using particle swarm theory. In: Proceedings of the sixth international symposium on micro machine and human science, pp 39–43",
+          "DOI": "10.1109/MHS.1995.494215"
+        },
+        {
+          "issue": "3",
+          "key": "8177_CR48",
+          "doi-asserted-by": "crossref",
+          "first-page": "752",
+          "DOI": "10.1016/S0377-2217(02)00881-0",
+          "volume": "155",
+          "author": "M Ehrgott",
+          "year": "2004",
+          "unstructured": "Ehrgott M, Klamroth K, Schwehm C (2004) An MCDM approach to portfolio optimization. Eur J Oper Res 155(3):752–770",
+          "journal-title": "Eur J Oper Res"
+        },
+        {
+          "key": "8177_CR49",
+          "volume-title": "Computational intelligence—an introduction",
+          "author": "AP Engelbrecht",
+          "year": "2007",
+          "unstructured": "Engelbrecht AP (2007) Computational intelligence—an introduction, 2nd edn. Wiley",
+          "edition": "2"
+        },
+        {
+          "issue": "2",
+          "key": "8177_CR50",
+          "doi-asserted-by": "crossref",
+          "first-page": "62",
+          "DOI": "10.3390/a16020062",
+          "volume": "16",
+          "author": "K Erwin",
+          "year": "2023",
+          "unstructured": "Erwin K, Engelbrecht AP (2023) Multi-guide set-based particle swarm optimization for portfolio optimization. Algorithms 16(2):62",
+          "journal-title": "Algorithms"
+        },
+        {
+          "key": "8177_CR51",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Erwin K, Engelbrecht AP (2020a) Improved set-based particle swarm optimization for portfolio optimization. In: Proceedings of the IEEE swarm intelligence symposium, pp 1573–1580",
+          "DOI": "10.1109/SSCI47803.2020.9308579"
+        },
+        {
+          "key": "8177_CR52",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Erwin K, Engelbrecht AP (2020b) Set-based particle swarm optimization for portfolio optimization. In: Proceedings of the ANTS conference; and in Lecture Notes in Computer Science, pp 333–339",
+          "DOI": "10.1007/978-3-030-60376-2_28"
+        },
+        {
+          "key": "8177_CR53",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Erwin K, Engelbrecht AP (2021) Set-based particle swarm optimization for portfolio optimization with adaptive coordinate descent weight optimization. In: Computational intelligence, pp 01–08",
+          "DOI": "10.1109/SSCI50451.2021.9659541"
+        },
+        {
+          "issue": "2",
+          "key": "8177_CR54",
+          "first-page": "111",
+          "volume": "10",
+          "author": "S Farzi",
+          "year": "2013",
+          "unstructured": "Farzi S, Shavazi AR, Pandari A, Graduated MA (2013) Using quantum-behaved particle swarm optimization for portfolio selection problem. Int Arab J Inf Technol 10(2):111–119",
+          "journal-title": "Int Arab J Inf Technol"
+        },
+        {
+          "key": "8177_CR55",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Fasheng Xu, Chen Wei (2006) Stochastic portfolio selection based on velocity limited particle swarm optimization. In: Proceedings of the 6th world congress on intelligent control and automation, vol 1, pp 3599–3603",
+          "DOI": "10.1109/WCICA.2006.1713040"
+        },
+        {
+          "issue": "4",
+          "key": "8177_CR56",
+          "first-page": "603",
+          "volume": "11",
+          "author": "AS Fraser",
+          "year": "1957",
+          "unstructured": "Fraser AS (1957) Simulation of genetic systems by automatic digital computers I: Introduction. Aust J Biol Sci 11(4):603–612",
+          "journal-title": "Aust J Biol Sci"
+        },
+        {
+          "issue": "4",
+          "key": "8177_CR57",
+          "doi-asserted-by": "crossref",
+          "first-page": "492",
+          "DOI": "10.1071/BI9570492",
+          "volume": "10",
+          "author": "AS Fraser",
+          "year": "1957",
+          "unstructured": "Fraser AS (1957) Simulation of genetic systems by automatic digital computers II: effects of linkage on rates of advance under selection. Aust J Biol Sci 10(4):492–500",
+          "journal-title": "Aust J Biol Sci"
+        },
+        {
+          "issue": "12",
+          "key": "8177_CR58",
+          "doi-asserted-by": "crossref",
+          "first-page": "4831",
+          "DOI": "10.1016/j.cnsns.2012.05.010",
+          "volume": "17",
+          "author": "AH Gandomi",
+          "year": "2012",
+          "unstructured": "Gandomi AH, Alavi AH (2012) Krill herd: a new bio-inspired optimization algorithm. Commun Nonlinear Sci Numer Simul 17(12):4831–4845",
+          "journal-title": "Commun Nonlinear Sci Numer Simul"
+        },
+        {
+          "key": "8177_CR59",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Ge M (2014) Artificial bee colony algorithm for portfolio optimization. In: Proceedings of the international conference on intelligent control and information processing, pp 449–453",
+          "DOI": "10.1109/ICICIP.2014.7010297"
+        },
+        {
+          "issue": "7",
+          "key": "8177_CR60",
+          "doi-asserted-by": "crossref",
+          "first-page": "8327",
+          "DOI": "10.1016/j.eswa.2011.01.020",
+          "volume": "38",
+          "author": "HR Golmakani",
+          "year": "2011",
+          "unstructured": "Golmakani HR, Fazel M (2011) Constrained portfolio selection using particle swarm optimization. Expert Syst Appl 38(7):8327–8335",
+          "journal-title": "Expert Syst Appl"
+        },
+        {
+          "key": "8177_CR61",
+          "volume-title": "Intelligent financial portfolio composition based on evolutionary computation strategies",
+          "author": "A Gorgulho",
+          "year": "2012",
+          "unstructured": "Gorgulho A, Neves RFMF, Horta N (2012) Intelligent financial portfolio composition based on evolutionary computation strategies. Springer"
+        },
+        {
+          "key": "8177_CR62",
+          "unstructured": "Graham B (2009) The intelligent investor, revised edition. HarperCollins e-books"
+        },
+        {
+          "issue": "3",
+          "key": "8177_CR63",
+          "doi-asserted-by": "crossref",
+          "first-page": "1026",
+          "DOI": "10.1016/j.ejor.2016.04.055",
+          "volume": "254",
+          "author": "S Guo",
+          "year": "2016",
+          "unstructured": "Guo S, Lean Yu, Li X, Kar S (2016) Fuzzy multi-period portfolio selection with different investment horizons. Eur J Oper Res 254(3):1026–1035",
+          "journal-title": "Eur J Oper Res"
+        },
+        {
+          "issue": "65",
+          "key": "8177_CR64",
+          "first-page": "3215",
+          "volume": "8",
+          "author": "AS Gyamerah",
+          "year": "2014",
+          "unstructured": "Gyamerah AS (2014) Heuristic crossover for portfolio selection. Appl Math Sci 8(65):3215–3227",
+          "journal-title": "Appl Math Sci"
+        },
+        {
+          "issue": "5–8",
+          "key": "8177_CR65",
+          "first-page": "263",
+          "volume": "10",
+          "author": "AS Hadi",
+          "year": "2016",
+          "unstructured": "Hadi AS, El Naggar AA, Abdel Bary MN (2016) New model and method for portfolios selection. Appl Math Sci 10(5–8):263–288",
+          "journal-title": "Appl Math Sci"
+        },
+        {
+          "issue": "1",
+          "key": "8177_CR66",
+          "first-page": "9",
+          "volume": "30",
+          "author": "F-F Hao",
+          "year": "2008",
+          "unstructured": "Hao F-F, Liu Y-K (2008) Mean-variance models for portfolio selection with fuzzy random returns. J Appl Math Comput 30(1):9–38",
+          "journal-title": "J Appl Math Comput"
+        },
+        {
+          "key": "8177_CR67",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Hoklie, Zuhal LR (2010) Resolving multi objective stock portfolio optimization problem using genetic algorithm. In: Proceedings of the 2nd international conference on computer and automation engineering, vol 2, pp 40–44",
+          "DOI": "10.1109/ICCAE.2010.5451372"
+        },
+        {
+          "key": "8177_CR68",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Hong-Mei L, Zhuo-Fu W, Hui-Min L (2010) Artificial bee colony algorithm for real estate portfolio optimization based on risk preference coefficient. In: Proceedings of the international conference on management science engineering, pp 1682–1687",
+          "DOI": "10.1109/ICMSE.2010.5720009"
+        },
+        {
+          "issue": "5",
+          "key": "8177_CR69",
+          "doi-asserted-by": "crossref",
+          "first-page": "5887",
+          "DOI": "10.1016/j.eswa.2011.11.119",
+          "volume": "39",
+          "author": "X Huang",
+          "year": "2012",
+          "unstructured": "Huang X (2012) Mean-variance models for portfolio selection subject to experts estimations. Expert Syst Appl 39(5):5887–5893",
+          "journal-title": "Expert Syst Appl"
+        },
+        {
+          "key": "8177_CR70",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Huang X, Shen W (2010) Multi-period mean-variance model with transaction cost for fuzzy portfolio selection. In: Proceedings of the 7th international conference on fuzzy systems and knowledge discovery, vol 2, pp 894–898",
+          "DOI": "10.1109/FSKD.2010.5569108"
+        },
+        {
+          "key": "8177_CR71",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Ishibuchi H, Tsukamoto N, Nojima Y (2008) Evolutionary many-objective optimization: a short review. In: Proceedings of the IEEE congress on evolutionary computation, pp 2419–2426",
+          "DOI": "10.1109/UKSIM.2008.13"
+        },
+        {
+          "issue": "1",
+          "key": "8177_CR72",
+          "doi-asserted-by": "crossref",
+          "first-page": "294",
+          "DOI": "10.1007/s13198-017-0574-z",
+          "volume": "9",
+          "author": "H Jalota",
+          "year": "2018",
+          "unstructured": "Jalota H, Thakur M (2018) Genetic algorithm designed for solving portfolio optimization problems subjected to cardinality constraint. Int J Syst Assur Eng Manag 9(1):294–305",
+          "journal-title": "Int J Syst Assur Eng Manag"
+        },
+        {
+          "key": "8177_CR73",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Jia X, Cai X (2022) A policy gradient based particle swarm optimizer for portfolio optimization problem. In: Proceedings of the Chinese control conference, pp 1991–1996",
+          "DOI": "10.23919/CCC55666.2022.9901620"
+        },
+        {
+          "issue": "8",
+          "key": "8177_CR74",
+          "doi-asserted-by": "crossref",
+          "first-page": "6445",
+          "DOI": "10.1007/s00500-021-05638-z",
+          "volume": "25",
+          "author": "M Jiang",
+          "year": "2021",
+          "unstructured": "Jiang M, Liu W, Wen X, Chen W (2021) Improved multiobjective bat algorithm for the credibilistic multiperiod mean-VaR portfolio optimization problem. Soft Comput 25(8):6445–6467",
+          "journal-title": "Soft Comput"
+        },
+        {
+          "key": "8177_CR75",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Jiang X, Li S (2017) BAS: Beetle Antennae search algorithm for optimization problems",
+          "DOI": "10.5430/ijrc.v1n1p1"
+        },
+        {
+          "issue": "5",
+          "key": "8177_CR76",
+          "first-page": "409",
+          "volume": "5",
+          "author": "X Jin",
+          "year": "2011",
+          "unstructured": "Jin X, Lam AYS, Li VOK (2011) Stock portfolio selection using chemical reaction optimization. Int J Chem Mol Eng 5(5):409–414",
+          "journal-title": "Int J Chem Mol Eng"
+        },
+        {
+          "key": "8177_CR77",
+          "volume-title": "Adaptation in natural and artificial systems",
+          "author": "H John",
+          "year": "1992",
+          "unstructured": "John H (1992) Adaptation in natural and artificial systems. MIT Press, Cambridge"
+        },
+        {
+          "key": "8177_CR78",
+          "doi-asserted-by": "crossref",
+          "first-page": "61",
+          "DOI": "10.1016/j.eswa.2017.05.018",
+          "volume": "85",
+          "author": "CB Kalayci",
+          "year": "2017",
+          "unstructured": "Kalayci CB, Ertenlice O, Akyer H, Aygoren H (2017) An artificial bee colony algorithm with feasibility enforcement and infeasibility toleration procedures for cardinality constrained portfolio optimization. Expert Syst Appl 85:61–75",
+          "journal-title": "Expert Syst Appl"
+        },
+        {
+          "key": "8177_CR79",
+          "doi-asserted-by": "crossref",
+          "first-page": "100662",
+          "DOI": "10.1016/j.swevo.2020.100662",
+          "volume": "54",
+          "author": "CB Kalayci",
+          "year": "2020",
+          "unstructured": "Kalayci CB, Polat O, Akbay MA (2020) An efficient hybrid metaheuristic algorithm for cardinality constrained portfolio optimization. Swarm Evol Comput 54:100662",
+          "journal-title": "Swarm Evol Comput"
+        },
+        {
+          "key": "8177_CR80",
+          "doi-asserted-by": "crossref",
+          "first-page": "85",
+          "DOI": "10.22436/jmcs.010.02.01",
+          "volume": "10",
+          "author": "S Kamali",
+          "year": "2014",
+          "unstructured": "Kamali S (2014) Portfolio optimization using particle swarm optimization and genetic algorithm. J Math Comput Sci 10:85–90",
+          "journal-title": "J Math Comput Sci"
+        },
+        {
+          "issue": "3",
+          "key": "8177_CR81",
+          "first-page": "374",
+          "volume": "74",
+          "author": "H Kamili",
+          "year": "2015",
+          "unstructured": "Kamili H, Riffi ME (2015) Portfolio selection using the cat swarm optimization. J Theor Appl Inf Technol 74(3):374–380",
+          "journal-title": "J Theor Appl Inf Technol"
+        },
+        {
+          "key": "8177_CR82",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Kamili H, Riffi ME (2016) A comparative study on portfolio optimization problem. In: Proceedings of the international conference on engineering, pp 1–8",
+          "DOI": "10.1109/ICEMIS.2016.7745339"
+        },
+        {
+          "issue": "4",
+          "key": "8177_CR83",
+          "doi-asserted-by": "crossref",
+          "first-page": "453",
+          "DOI": "10.1007/s10614-012-9357-4",
+          "volume": "42",
+          "author": "Y Kao",
+          "year": "2013",
+          "unstructured": "Kao Y, Cheng H-T (2013) Bacterial foraging optimization approach to portfolio optimization. Comput Econ 42(4):453–470",
+          "journal-title": "Comput Econ"
+        },
+        {
+          "key": "8177_CR84",
+          "unstructured": "Karaboga D (2005) An idea based on honey bee swarm for numerical optimization. Technical Report 6, Erciyes University, Engineering Faculty"
+        },
+        {
+          "key": "8177_CR85",
+          "doi-asserted-by": "crossref",
+          "first-page": "300",
+          "DOI": "10.1016/j.cor.2019.05.014",
+          "volume": "109",
+          "author": "M Kaucic",
+          "year": "2019",
+          "unstructured": "Kaucic M (2019) Equity portfolio management with cardinality constraints and risk parity control using multi-objective particle swarm optimization. Comput Oper Res 109:300–316",
+          "journal-title": "Comput Oper Res"
+        },
+        {
+          "key": "8177_CR86",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Kennedy J, Eberhart RC (1997) A discrete binary version of the particle swarm algorithm. In: Proceedings of the IEEE international conference on systems, man, and cybernetics, vol 5, pp 4104–4108",
+          "DOI": "10.1109/ICSMC.1997.637339"
+        },
+        {
+          "key": "8177_CR87",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Kennedy J, Eberhart RC (1997a) A discrete binary version of the particle swarm algorithm. In: Proceedings of the IEEE international conference on systems, man, and cybernetics. Computational cybernetics and simulation, vol 5, pp 4104–4108",
+          "DOI": "10.1109/ICSMC.1997.637339"
+        },
+        {
+          "key": "8177_CR88",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Khalidji M, Zeiaee M, Taei A, Jahed-Motlagh MR, Khaloozadeh H (2009) Dynamically weighted continuous ant colony optimization for bi-objective portfolio selection using value-at-risk. In: Proceedings of the 3rd Asia international conference on modelling simulation, pp 230–235",
+          "DOI": "10.1109/AMS.2009.133"
+        },
+        {
+          "key": "8177_CR89",
+          "doi-asserted-by": "crossref",
+          "first-page": "152204",
+          "DOI": "10.1007/s11432-020-2894-9",
+          "volume": "64",
+          "author": "AT Khan",
+          "year": "2021",
+          "unstructured": "Khan AT, Cao X, Li S, Bin H, Katsikis VN (2021) Quantum beetle antennae search: a novel technique for the constrained portfolio optimization problem. Sci China Inf Sci 64:152204",
+          "journal-title": "Sci China Inf Sci"
+        },
+        {
+          "issue": "3",
+          "key": "8177_CR90",
+          "doi-asserted-by": "crossref",
+          "first-page": "13",
+          "DOI": "10.1002/ecjc.20263",
+          "volume": "90",
+          "author": "M Koshino",
+          "year": "2007",
+          "unstructured": "Koshino M, Murata H, Kimura H (2007) Improved particle swarm optimization and application to portfolio selection. Electron Commun Jpn Part III Fundam Electron Sci 90(3):13–25",
+          "journal-title": "Electron Commun Jpn Part III Fundam Electron Sci"
+        },
+        {
+          "key": "8177_CR91",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Kriksciuniene D, Sakalauskas V, Imbrazas A (2021) Grey wolf optimization model for the best mean-variance based stock portfolio selection. In: Innovations in bio-inspired computing and applications, advances in intelligent systems and computing, pp 120–130",
+          "DOI": "10.1007/978-3-030-73603-3_11"
+        },
+        {
+          "key": "8177_CR92",
+          "doi-asserted-by": "crossref",
+          "first-page": "119",
+          "DOI": "10.1016/j.swevo.2016.11.003",
+          "volume": "33",
+          "author": "D Kumar",
+          "year": "2017",
+          "unstructured": "Kumar D, Mishra KK (2017) Portfolio optimization using novel co-variance guided artificial bee colony algorithm. Swarm Evol Comput 33:119–130",
+          "journal-title": "Swarm Evol Comput"
+        },
+        {
+          "issue": "3",
+          "key": "8177_CR93",
+          "doi-asserted-by": "crossref",
+          "first-page": "381",
+          "DOI": "10.1109/TEVC.2009.2033580",
+          "volume": "14",
+          "author": "AYS Lam",
+          "year": "2010",
+          "unstructured": "Lam AYS, Li VOK (2010) Chemical reaction inspired metaheuristic for optimization. IEEE Trans Evol Comput 14(3):381–399",
+          "journal-title": "IEEE Trans Evol Comput"
+        },
+        {
+          "key": "8177_CR94",
+          "doi-asserted-by": "crossref",
+          "first-page": "112213",
+          "DOI": "10.1016/j.chaos.2022.112213",
+          "volume": "160",
+          "author": "B Li",
+          "year": "2022",
+          "unstructured": "Li B, Li X, Teo KL, Zheng P (2022) A new uncertain random portfolio optimization model for complex systems with downside risks and diversification. Chaos Solitons Fractals 160:112213",
+          "journal-title": "Chaos Solitons Fractals"
+        },
+        {
+          "key": "8177_CR95",
+          "doi-asserted-by": "crossref",
+          "first-page": "186",
+          "DOI": "10.1016/j.knosys.2018.08.025",
+          "volume": "163",
+          "author": "K Liagkouras",
+          "year": "2018",
+          "unstructured": "Liagkouras K (2018) A new three-dimensional encoding multi-objective evolutionary algorithm with application to the portfolio optimization problem. Knowl Based Syst 163:186–203",
+          "journal-title": "Knowl Based Syst"
+        },
+        {
+          "issue": "14",
+          "key": "8177_CR96",
+          "doi-asserted-by": "crossref",
+          "first-page": "6274",
+          "DOI": "10.1016/j.eswa.2014.03.051",
+          "volume": "41",
+          "author": "K Liagkouras",
+          "year": "2014",
+          "unstructured": "Liagkouras K, Metaxiotis K (2014) A new probe guided mutation operator and its application for solving the cardinality constrained portfolio optimization problem. Expert Syst Appl 41(14):6274–6290",
+          "journal-title": "Expert Syst Appl"
+        },
+        {
+          "key": "8177_CR97",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Liang JJ, Qu BY (2013) Large-scale portfolio optimization using multi-objective dynamic mutli-swarm particle swarm optimizer. In: Proceedings of the IEEE symposium on swarm intelligence, pp 1–6",
+          "DOI": "10.1109/SIS.2013.6615152"
+        },
+        {
+          "issue": "3",
+          "key": "8177_CR98",
+          "doi-asserted-by": "crossref",
+          "first-page": "603",
+          "DOI": "10.1023/A:1021207331209",
+          "volume": "115",
+          "author": "Y Liu",
+          "year": "2002",
+          "unstructured": "Liu Y, Passino KM (2002) Biomimicry of social foraging bacteria for distributed optimization: models, principles, and emergent behaviors. J Optim Theory Appl 115(3):603–628",
+          "journal-title": "J Optim Theory Appl"
+        },
+        {
+          "issue": "33",
+          "key": "8177_CR99",
+          "first-page": "2462",
+          "volume": "10",
+          "author": "YJ Liu",
+          "year": "2013",
+          "unstructured": "Liu YJ, Zhang WG, XU WJ (2013) Fuzzy multiple criteria portfolio selection optimization model under real constraints. Syst Eng Theory Pract 10(33):2462–2470",
+          "journal-title": "Syst Eng Theory Pract"
+        },
+        {
+          "issue": "20",
+          "key": "8177_CR100",
+          "doi-asserted-by": "crossref",
+          "first-page": "7252",
+          "DOI": "10.1016/j.eswa.2015.04.063",
+          "volume": "42",
+          "author": "J Liu",
+          "year": "2015",
+          "unstructured": "Liu J, Jin X, Wang T, Yuan Y (2015) Robust multi-period portfolio model based on prospect theory and ALMV-PSO algorithm. Expert Syst Appl 42(20):7252–7262",
+          "journal-title": "Expert Syst Appl"
+        },
+        {
+          "key": "8177_CR101",
+          "doi-asserted-by": "crossref",
+          "first-page": "115078",
+          "DOI": "10.1016/j.eswa.2021.115078",
+          "volume": "179",
+          "author": "M Liu",
+          "year": "2021",
+          "unstructured": "Liu M, Luo K, Zhang J, Chen S (2021) A stock selection algorithm hybridizing grey wolf optimizer and support vector regression. Expert Syst Appl 179:115078",
+          "journal-title": "Expert Syst Appl"
+        },
+        {
+          "issue": "2",
+          "key": "8177_CR102",
+          "doi-asserted-by": "crossref",
+          "first-page": "251",
+          "DOI": "10.1007/s10489-012-0411-7",
+          "volume": "39",
+          "author": "K Lwin",
+          "year": "2013",
+          "unstructured": "Lwin K, Rong Q (2013) A hybrid algorithm for constrained portfolio selection problems. Appl Intell 39(2):251–266",
+          "journal-title": "Appl Intell"
+        },
+        {
+          "key": "8177_CR103",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Mamanis G (2021) A comparative study on multi-objective evolutionary algorithms for tri-objective mean-risk-cardinality portfolio optimization problems. In: Computational management: applications of computational intelligence in business management, modeling and optimization in science and technologies, pp 277–303",
+          "DOI": "10.1007/978-3-030-72929-5_13"
+        },
+        {
+          "issue": "1",
+          "key": "8177_CR104",
+          "first-page": "24",
+          "volume": "8",
+          "author": "R Manije",
+          "year": "2021",
+          "unstructured": "Manije R, Mohsen G, Ali F, Jafar SS (2021) A firefly algorithm for portfolio optimization problem with cardinality constraint. Int J Ind Eng 8(1):24",
+          "journal-title": "Int J Ind Eng"
+        },
+        {
+          "issue": "1",
+          "key": "8177_CR105",
+          "first-page": "77",
+          "volume": "7",
+          "author": "H Markowitz",
+          "year": "1952",
+          "unstructured": "Markowitz H (1952) Portfolio selection. J Finance 7(1):77–91",
+          "journal-title": "J Finance"
+        },
+        {
+          "key": "8177_CR106",
+          "doi-asserted-by": "crossref",
+          "first-page": "59748e42",
+          "DOI": "10.1155/2022/5974842",
+          "volume": "2022",
+          "author": "NB Mazraeh",
+          "year": "2022",
+          "unstructured": "Mazraeh NB, Daneshvar A, Zaj MM, Roodposhti FR (2022) Stock portfolio optimization using a combined approach of multi objective grey wolf optimizer and machine learning preselection methods. Comput Intell Neurosci 2022:59748e42",
+          "journal-title": "Comput Intell Neurosci"
+        },
+        {
+          "issue": "7",
+          "key": "8177_CR107",
+          "doi-asserted-by": "crossref",
+          "first-page": "285",
+          "DOI": "10.3390/jrfm15070285",
+          "volume": "15",
+          "author": "JC Mba",
+          "year": "2022",
+          "unstructured": "Mba JC, Mai MM (2022) A particle swarm optimization copula-based approach with application to cryptocurrency portfolio optimisation. J Risk Financ Manag 15(7):285",
+          "journal-title": "J Risk Financ Manag"
+        },
+        {
+          "key": "8177_CR108",
+          "doi-asserted-by": "crossref",
+          "first-page": "865",
+          "DOI": "10.1016/j.asoc.2017.09.025",
+          "volume": "67",
+          "author": "SS Meghwani",
+          "year": "2018",
+          "unstructured": "Meghwani SS, Thakur M (2018) Multi-objective heuristic algorithms for practical portfolio optimization and rebalancing with transaction cost. Appl Soft Comput 67:865–894",
+          "journal-title": "Appl Soft Comput"
+        },
+        {
+          "issue": "4",
+          "key": "8177_CR109",
+          "doi-asserted-by": "crossref",
+          "first-page": "355",
+          "DOI": "10.1016/j.ecoinf.2006.07.003",
+          "volume": "1",
+          "author": "AR Mehrabian",
+          "year": "2006",
+          "unstructured": "Mehrabian AR, Lucas C (2006) A novel numerical optimization algorithm inspired from weed colonization. Eco Inform 1(4):355–366",
+          "journal-title": "Eco Inform"
+        },
+        {
+          "issue": "14",
+          "key": "8177_CR110",
+          "doi-asserted-by": "crossref",
+          "first-page": "11685",
+          "DOI": "10.1016/j.eswa.2012.04.053",
+          "volume": "39",
+          "author": "K Metaxiotis",
+          "year": "2012",
+          "unstructured": "Metaxiotis K, Liagkouras K (2012) Multiobjective evolutionary algorithms for portfolio management: a comprehensive literature review. Expert Syst Appl 39(14):11685–11698",
+          "journal-title": "Expert Syst Appl"
+        },
+        {
+          "key": "8177_CR111",
+          "doi-asserted-by": "crossref",
+          "first-page": "46",
+          "DOI": "10.1016/j.advengsoft.2013.12.007",
+          "volume": "69",
+          "author": "S Mirjalili",
+          "year": "2014",
+          "unstructured": "Mirjalili S, Mirjalili SM, Lewis A (2014) Grey wolf optimizer. Adv Eng Softw 69:46–61",
+          "journal-title": "Adv Eng Softw"
+        },
+        {
+          "key": "8177_CR112",
+          "unstructured": "Mishra SK (2012) Robust and constrained portfolio optimization using multi-objective evolutionary algorithms. PhD thesis, National Institute of Technology Rourkela"
+        },
+        {
+          "key": "8177_CR113",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Mishra SK, Panda G, Meher S (2009) Multi-objective particle swarm optimization approach to portfolio optimization. In: Proceedings of the world congress on nature and biologically inspired computing, pp 1612–1615",
+          "DOI": "10.1109/NABIC.2009.5393659"
+        },
+        {
+          "issue": "1",
+          "key": "8177_CR114",
+          "first-page": "113",
+          "volume": "14",
+          "author": "SK Mishra",
+          "year": "2014",
+          "unstructured": "Mishra SK, Panda G, Majhi R (2014) Constrained portfolio asset selection using multi-objective bacteria foraging optimization. Oper Res 14(1):113–145",
+          "journal-title": "Oper Res"
+        },
+        {
+          "key": "8177_CR115",
+          "doi-asserted-by": "crossref",
+          "first-page": "117",
+          "DOI": "10.1016/j.swevo.2016.01.007",
+          "volume": "28",
+          "author": "SK Mishra",
+          "year": "2016",
+          "unstructured": "Mishra SK, Panda G, Meher S (2016) Prediction based mean-variance model for constrained portfolio assets selection using multi-objective evolutionary algorithms. Swarm Evol Comput 28:117–130",
+          "journal-title": "Swarm Evol Comput"
+        },
+        {
+          "issue": "8",
+          "key": "8177_CR116",
+          "doi-asserted-by": "crossref",
+          "first-page": "6011",
+          "DOI": "10.1007/s10462-021-09966-2",
+          "volume": "54",
+          "author": "SK Mittal",
+          "year": "2021",
+          "unstructured": "Mittal SK, Srivastava N (2021) Mean-variance-skewness portfolio optimization under uncertain environment using improved genetic algorithm. Artif Intell Rev 54(8):6011–6032",
+          "journal-title": "Artif Intell Rev"
+        },
+        {
+          "key": "8177_CR117",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Moral-Escudero R, Ruiz-Torrubiano R, Suarez A (2006) Selection of optimal investment portfolios with cardinality constraints. In: Proceedings of the IEEE international conference on evolutionary computation, pp 2382–2388",
+          "DOI": "10.1109/CEC.2006.1688603"
+        },
+        {
+          "issue": "2",
+          "key": "8177_CR118",
+          "first-page": "249",
+          "volume": "2",
+          "author": "M Mozafari",
+          "year": "2011",
+          "unstructured": "Mozafari M, Jolai F, Tafazzoli S (2011) A new IPSO-SA approach for cardinality constrained portfolio optimization. Int J Ind Eng Comput 2(2):249–262",
+          "journal-title": "Int J Ind Eng Comput"
+        },
+        {
+          "key": "8177_CR119",
+          "unstructured": "Nematollahi S, Manzi G (2018) Portfolio management using prospect theory: comparing genetic algorithms and particle swarm optimization. Technical Report 3, Department of Economics, Management and Quantitative Methods at Universita degli Studi di Milano"
+        },
+        {
+          "issue": "1",
+          "key": "8177_CR120",
+          "doi-asserted-by": "crossref",
+          "first-page": "31",
+          "DOI": "10.1007/s11047-016-9541-x",
+          "volume": "16",
+          "author": "Q Ni",
+          "year": "2017",
+          "unstructured": "Ni Q, Yin X, Tian K, Zhai Y (2017) Particle swarm optimization with dynamic random population topology strategies for a generalized portfolio selection problem. Nat Comput 16(1):31–44",
+          "journal-title": "Nat Comput"
+        },
+        {
+          "key": "8177_CR121",
+          "doi-asserted-by": "crossref",
+          "first-page": "90",
+          "DOI": "10.1016/j.neucom.2011.05.048",
+          "volume": "98",
+          "author": "B Niu",
+          "year": "2012",
+          "unstructured": "Niu B, Fan Y, Xiao H, Xue B (2012) Bacterial foraging based approaches to portfolio optimization with liquidity risk. Neurocomputing 98:90–100",
+          "journal-title": "Neurocomputing"
+        },
+        {
+          "key": "8177_CR122",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Niu B, Xue B, Li L, Chai Y (2009) Symbiotic multi-swarm PSO for portfolio optimization. In: Proceedings of the emerging intelligent computing technology and applications with aspects of artificial intelligence. Springer, Berlin, pp 776–784",
+          "DOI": "10.1007/978-3-642-04020-7_83"
+        },
+        {
+          "key": "8177_CR123",
+          "doi-asserted-by": "crossref",
+          "first-page": "115732",
+          "DOI": "10.1016/j.eswa.2021.115732",
+          "volume": "186",
+          "author": "R Pal",
+          "year": "2021",
+          "unstructured": "Pal R, Chaudhuri TD, Mukhopadhyay S (2021) Portfolio formation and optimization with continuous realignment: a suggested method for choosing the best portfolio of stocks using variable length NSGA-II. Expert Syst Appl 186:115732",
+          "journal-title": "Expert Syst Appl"
+        },
+        {
+          "key": "8177_CR124",
+          "doi-asserted-by": "crossref",
+          "first-page": "42",
+          "DOI": "10.1016/j.swevo.2016.01.001",
+          "volume": "28",
+          "author": "AR Pouya",
+          "year": "2016",
+          "unstructured": "Pouya AR, Solimanpur M, Rezaee MJ (2016) Solving multi-objective portfolio optimization problem using invasive weed optimization. Swarm Evol Comput 28:42–57",
+          "journal-title": "Swarm Evol Comput"
+        },
+        {
+          "key": "8177_CR125",
+          "first-page": "1",
+          "volume": "2017",
+          "author": "BY Qu",
+          "year": "2017",
+          "unstructured": "Qu BY, Zhou Q, Xiao JM, Liang JJ, Suganthan PN (2017) Large-scale portfolio optimization using multi-objective evolutionary algorithms and preselection methods. Math Probl Eng 2017:1–14",
+          "journal-title": "Math Probl Eng"
+        },
+        {
+          "key": "8177_CR126",
+          "first-page": "83",
+          "volume": "4",
+          "author": "M Rahmani",
+          "year": "2019",
+          "unstructured": "Rahmani M, Eraqi MK, Nikoomaram H (2019) Portfolio optimization by means of meta heuristic algorithms. Adv Math Finance Appl 4:83–97",
+          "journal-title": "Adv Math Finance Appl"
+        },
+        {
+          "key": "8177_CR127",
+          "doi-asserted-by": "crossref",
+          "unstructured": "RuiWu J, Jing T (2021) Multi-objective evolutionary algorithm based on data analysis and its application in portfolio optimization. Application of Big Data, Blockchain, and Internet of Things for Education Informatization. Lecture Notes of the Institute for Computer Sciences, Social Informatics and Telecommunications Engineering, pp 454–458",
+          "DOI": "10.1007/978-3-030-87903-7_55"
+        },
+        {
+          "issue": "2",
+          "key": "8177_CR128",
+          "doi-asserted-by": "crossref",
+          "first-page": "92",
+          "DOI": "10.1109/MCI.2010.936308",
+          "volume": "5",
+          "author": "R Ruiz-Torrubiano",
+          "year": "2010",
+          "unstructured": "Ruiz-Torrubiano R, Suarez A (2010) Hybrid approaches and dimensionality reduction for portfolio selection with cardinality constraints. IEEE Comput Intell Mag 5(2):92–107",
+          "journal-title": "IEEE Comput Intell Mag"
+        },
+        {
+          "key": "8177_CR129",
+          "doi-asserted-by": "crossref",
+          "first-page": "125",
+          "DOI": "10.1016/j.asoc.2015.06.053",
+          "volume": "36",
+          "author": "R Ruiz-Torrubiano",
+          "year": "2015",
+          "unstructured": "Ruiz-Torrubiano R, Suarez A (2015) A memetic algorithm for cardinality-constrained portfolio optimization with transaction costs. Appl Soft Comput 36:125–142",
+          "journal-title": "Appl Soft Comput"
+        },
+        {
+          "key": "8177_CR130",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Ruiz-Torrubiano R, Suarez A (2007) Use of heuristic rules in evolutionary methods for the selection of optimal investment portfolios. In: Proceedings of the IEEE congress on evolutionary computation, pp 212–219",
+          "DOI": "10.1109/CEC.2007.4424474"
+        },
+        {
+          "issue": "1",
+          "key": "8177_CR131",
+          "doi-asserted-by": "crossref",
+          "first-page": "11",
+          "DOI": "10.1166/asl.2012.3666",
+          "volume": "17",
+          "author": "NA Sadigh",
+          "year": "2012",
+          "unstructured": "Sadigh NA, Mokhtari H, Iranpoor M, Fatemi Ghomi SMT (2012) Cardinality constrained portfolio optimization using a hybrid approach based on particle swarm optimization and hopfield neural network. Adv Sci Lett 17(1):11–20",
+          "journal-title": "Adv Sci Lett"
+        },
+        {
+          "issue": "1",
+          "key": "8177_CR132",
+          "doi-asserted-by": "crossref",
+          "first-page": "030008",
+          "DOI": "10.1063/5.0008145",
+          "volume": "2242",
+          "author": "AP Sahala",
+          "year": "2020",
+          "unstructured": "Sahala AP, Hertono GF, Handari BD (2020) Implementation of improved quick artificial bee colony algorithm on portfolio optimization problems with constraints. AIP Conf Proc 2242(1):030008",
+          "journal-title": "AIP Conf Proc"
+        },
+        {
+          "issue": "3",
+          "key": "8177_CR133",
+          "first-page": "559",
+          "volume": "16",
+          "author": "M Salahi",
+          "year": "2014",
+          "unstructured": "Salahi M, Daemi M, Lotfi S, Jamalian A (2014) PSO and harmony search algorithms for cardinality constrained portfolio optimization problem. Adv Model Optim 16(3):559–573",
+          "journal-title": "Adv Model Optim"
+        },
+        {
+          "issue": "1",
+          "key": "8177_CR134",
+          "doi-asserted-by": "crossref",
+          "first-page": "012014",
+          "DOI": "10.1088/1742-6596/1581/1/012014",
+          "volume": "1581",
+          "author": "EP Setiawan",
+          "year": "2020",
+          "unstructured": "Setiawan EP (2020) Comparing bio-inspired heuristic algorithm for the mean-CVaR portfolio optimization. J Phys Conf Ser 1581(1):012014",
+          "journal-title": "J Phys Conf Ser"
+        },
+        {
+          "key": "8177_CR135",
+          "unstructured": "Shoaf J, Foster JA (1996) A genetic algorithm solution to the efficient set problem: a technique for portfolio selection based on the Markowitz model. In: Proceedings of the decision sciences institute annual meeting, pp 571–573"
+        },
+        {
+          "key": "8177_CR136",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Shoaf J, Foster JA (1998) The efficient set GA for stock portfolios. In: Proceedings of the IEEE international conference on evolutionary computation, pp 354–359",
+          "DOI": "10.1109/ICEC.1998.699758"
+        },
+        {
+          "key": "8177_CR137",
+          "doi-asserted-by": "crossref",
+          "first-page": "225",
+          "DOI": "10.1016/j.eswa.2019.05.018",
+          "volume": "133",
+          "author": "YLTV Silva",
+          "year": "2019",
+          "unstructured": "Silva YLTV, Herthel AB, Subramanian A (2019) A multi-objective evolutionary algorithm for a class of mean-variance portfolio selection problems. Expert Syst Appl 133:225–241",
+          "journal-title": "Expert Syst Appl"
+        },
+        {
+          "key": "8177_CR138",
+          "doi-asserted-by": "crossref",
+          "first-page": "107767",
+          "DOI": "10.1016/j.asoc.2021.107767",
+          "volume": "112",
+          "author": "TE Simos",
+          "year": "2021",
+          "unstructured": "Simos TE, Mourtas SD, Katsikis VN (2021) Time-varying Black–Litterman portfolio optimization using a bio-inspired approach and neuronets. Appl Soft Comput 112:107767",
+          "journal-title": "Appl Soft Comput"
+        },
+        {
+          "key": "8177_CR139",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Skolpadungket P, Dahal K, Harnpornchai N (2007) Portfolio optimization using multi-objective genetic algorithms. In: Proceedings of the IEEE congress on evolutionary computation, pp 516–523",
+          "DOI": "10.1109/CEC.2007.4424514"
+        },
+        {
+          "issue": "3, Part 1",
+          "key": "8177_CR140",
+          "doi-asserted-by": "crossref",
+          "first-page": "5058",
+          "DOI": "10.1016/j.eswa.2008.06.007",
+          "volume": "36",
+          "author": "H Soleimani",
+          "year": "2009",
+          "unstructured": "Soleimani H, Golmakani HR, Salimi MH (2009) Markowitz-based portfolio selection with minimum transaction lots, cardinality constraints and regarding sector capitalization using genetic algorithm. Expert Syst Appl 36(3, Part 1):5058–5063",
+          "journal-title": "Expert Syst Appl"
+        },
+        {
+          "issue": "1",
+          "key": "8177_CR141",
+          "doi-asserted-by": "crossref",
+          "first-page": "3",
+          "DOI": "10.1111/itor.12001",
+          "volume": "22",
+          "author": "K Sorensen",
+          "year": "2015",
+          "unstructured": "Sorensen K (2015) Metaheuristics: the metaphor exposed. Int Trans Oper Res 22(1):3–18",
+          "journal-title": "Int Trans Oper Res"
+        },
+        {
+          "issue": "4",
+          "key": "8177_CR142",
+          "doi-asserted-by": "crossref",
+          "first-page": "341",
+          "DOI": "10.1023/A:1008202821328",
+          "volume": "11",
+          "author": "R Storn",
+          "year": "1997",
+          "unstructured": "Storn R, Price K (1997) Differential evolution—a simple and efficient heuristic for global optimization over continuous spaces. J Global Optim 11(4):341–359",
+          "journal-title": "J Global Optim"
+        },
+        {
+          "key": "8177_CR143",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Streichert F, Tanaka-Yamawaki M (2006) The effect of local search on the constrained portfolio selection problem. In: Proceedings of the IEEE international conference on evolutionary computation, pp 2368–2374",
+          "DOI": "10.1109/CEC.2006.1688601"
+        },
+        {
+          "key": "8177_CR144",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Strumberger I, Bacanin N, Tuba M (2016) Constrained portfolio optimization by hybridized bat algorithm. In: Proceedings of the 7th international conference on intelligent systems, modelling and simulation, pp 83–88",
+          "DOI": "10.1109/ISMS.2016.18"
+        },
+        {
+          "issue": "4",
+          "key": "8177_CR145",
+          "doi-asserted-by": "crossref",
+          "first-page": "253",
+          "DOI": "10.1057/jors.1959.26",
+          "volume": "10",
+          "author": "A Stuart",
+          "year": "1959",
+          "unstructured": "Stuart A, Markowitz HM (1959) Portfolio selection: efficient diversification of investments. Q J Oper Res 10(4):253",
+          "journal-title": "Q J Oper Res"
+        },
+        {
+          "key": "8177_CR146",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Subbu R, Bonissone PP, Eklund N, Bollapragada S, Chalermkraivuth K (2005) Multiobjective financial portfolio design: a hybrid evolutionary approach. In: Proceedings of the IEEE congress on evolutionary computation, vol 2, pp 1722–1729",
+          "DOI": "10.1109/CEC.2005.1554896"
+        },
+        {
+          "issue": "6",
+          "key": "8177_CR147",
+          "doi-asserted-by": "crossref",
+          "first-page": "6727",
+          "DOI": "10.1016/j.eswa.2010.11.061",
+          "volume": "38",
+          "author": "J Sun",
+          "year": "2011",
+          "unstructured": "Sun J, Fang W, Xiaojun W, Lai C-H, Wenbo X (2011) Solving the multi-stage portfolio optimization problem with a novel particle swarm optimization. Expert Syst Appl 38(6):6727–6735",
+          "journal-title": "Expert Syst Appl"
+        },
+        {
+          "key": "8177_CR148",
+          "first-page": "6653051",
+          "volume": "2021",
+          "author": "Y Sun",
+          "year": "2021",
+          "unstructured": "Sun Y, Ren H (2021) A GD-PSO algorithm for smart transportation supply chain ABS portfolio optimization. Discrete Dyn Nat Soc 2021:6653051",
+          "journal-title": "Discrete Dyn Nat Soc"
+        },
+        {
+          "key": "8177_CR149",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Suthiwong D, Sodanil M (2016) Cardinality-constrained portfolio optimization using an improved quick artificial bee colony algorithm. In: Proceedings of the international computer science and engineering conference, pp 1–4",
+          "DOI": "10.1109/ICSEC.2016.7859943"
+        },
+        {
+          "key": "8177_CR150",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Tan Y, Zhu Y (2010) Fireworks algorithm for optimization. In: Proceedings of the advances in swarm intelligence. Springer, Berlin, pp 355–364",
+          "DOI": "10.1007/978-3-642-13495-1_44"
+        },
+        {
+          "issue": "8",
+          "key": "8177_CR151",
+          "doi-asserted-by": "crossref",
+          "first-page": "5872",
+          "DOI": "10.1016/j.eswa.2010.02.018",
+          "volume": "37",
+          "author": "S-J Tsai",
+          "year": "2010",
+          "unstructured": "Tsai S-J, Sun T-Y, Liu C-C, Hsieh S-T, Wun-Ci W, Chiu S-Y (2010) An improved multi-objective particle swarm optimizer for multi-objective problems. Expert Syst Appl 37(8):5872–5886",
+          "journal-title": "Expert Syst Appl"
+        },
+        {
+          "issue": "6",
+          "key": "8177_CR152",
+          "doi-asserted-by": "crossref",
+          "first-page": "2831",
+          "DOI": "10.12785/amis/080619",
+          "volume": "8",
+          "author": "M Tuba",
+          "year": "2014",
+          "unstructured": "Tuba M, Bacanin N (2014) Artificial bee colony algorithm hybridized with firefly algorithm for cardinality constrained mean-variance portfolio selection problem. Appl Math Inf Sci 8(6):2831",
+          "journal-title": "Appl Math Inf Sci"
+        },
+        {
+          "key": "8177_CR153",
+          "first-page": "22",
+          "volume": "21",
+          "author": "M Tuba",
+          "year": "2014",
+          "unstructured": "Tuba M, Bacanin N, Pelevic B (2014) Krill herd (KH) algorithm applied to the constrained portfolio selection problem. Optimization 21:22",
+          "journal-title": "Optimization"
+        },
+        {
+          "key": "8177_CR154",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Tuba M, Bacanin N (2014) Upgraded firefly algorithm for portfolio optimization problem. In: Proceedings of the 16th international conference on computer modelling and simulation, pp 113–118",
+          "DOI": "10.1109/UKSim.2014.25"
+        },
+        {
+          "key": "8177_CR155",
+          "unstructured": "Van Veldhuizen DA, Lamont GB (1998) Multiobjective evolutionary algorithm research: a history and analysis. Technical report, Department of Electrical and Computer Engineering"
+        },
+        {
+          "key": "8177_CR156",
+          "unstructured": "Van Veldhuizen DA, Lamont GB (2000) On measuring multi-objective evolutionary algorithm performance. In: Proceedings of the congress on evolutionary computation, vol 1, pp 204–211"
+        },
+        {
+          "key": "8177_CR157",
+          "unstructured": "Vijayalakshmi Pai GA (2018) Active portfolio rebalancing using multi-objective metaheuristics. In: Proceedings of the IEEE symposium series on computational intelligence, pp 1845–1852"
+        },
+        {
+          "key": "8177_CR158",
+          "unstructured": "Vijayalakshmi Pai GA (2018) Multi-objective metaheuristics for managing futures portfolio risk. In: Proceedings of the IEEE symposium series on computational intelligence, pp 1204–1211"
+        },
+        {
+          "key": "8177_CR159",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Vijayalakshmi Pai GA, Michel Thierry (2012) Differential evolution based optimization of risk budgeted Equity Market Neutral Portfolios. In: Proceedings of the IEEE congress on evolutionary computation, pp 1–8",
+          "DOI": "10.1109/CEC.2012.6256583"
+        },
+        {
+          "issue": "5",
+          "key": "8177_CR160",
+          "doi-asserted-by": "crossref",
+          "first-page": "1030",
+          "DOI": "10.1109/TEVC.2009.2014360",
+          "volume": "13",
+          "author": "GA Vijayalakshmi Pai",
+          "year": "2009",
+          "unstructured": "Vijayalakshmi Pai GA, Michel T (2009) Evolutionary optimization of constrained $$k$$-means clustered assets for diversification in small portfolios. IEEE Trans Evol Comput 13(5):1030–1053",
+          "journal-title": "IEEE Trans Evol Comput"
+        },
+        {
+          "issue": "1",
+          "key": "8177_CR161",
+          "doi-asserted-by": "crossref",
+          "first-page": "43",
+          "DOI": "10.1002/isaf.335",
+          "volume": "19",
+          "author": "GA Vijayalakshmi Pai",
+          "year": "2012",
+          "unstructured": "Vijayalakshmi Pai GA, Michel T (2012) Integrated metaheuristic optimization of 130–30 investment-strategy-based long-short portfolios. Int J Intell Syst Account Finance Manag 19(1):43–74",
+          "journal-title": "Int J Intell Syst Account Finance Manag"
+        },
+        {
+          "key": "8177_CR162",
+          "doi-asserted-by": "crossref",
+          "first-page": "1",
+          "DOI": "10.1016/j.swevo.2014.08.002",
+          "volume": "19",
+          "author": "GA Vijayalakshmi Pai",
+          "year": "2014",
+          "unstructured": "Vijayalakshmi Pai GA, Michel T (2014) Metaheuristic multi-objective optimization of constrained futures portfolios for effective risk management. Swarm Evol Comput 19:1–14",
+          "journal-title": "Swarm Evol Comput"
+        },
+        {
+          "issue": "2",
+          "key": "8177_CR163",
+          "doi-asserted-by": "crossref",
+          "first-page": "146",
+          "DOI": "10.1002/tee.21834",
+          "volume": "8",
+          "author": "B Wang",
+          "year": "2013",
+          "unstructured": "Wang B, Watada J (2013) Multi-objective particle swarm optimization for a novel fuzzy portfolio selection problem. IEEE Trans Electr Electron Eng 8(2):146–154",
+          "journal-title": "IEEE Trans Electr Electron Eng"
+        },
+        {
+          "issue": "4",
+          "key": "8177_CR164",
+          "first-page": "8",
+          "volume": "4",
+          "author": "Z Wang",
+          "year": "2012",
+          "unstructured": "Wang Z, Liu S, Kong X (2012) Artificial bee colony algorithm for portfolio optimization problems. Int J Adv Comput Technol 4(4):8–16",
+          "journal-title": "Int J Adv Comput Technol"
+        },
+        {
+          "issue": "1",
+          "key": "8177_CR165",
+          "doi-asserted-by": "crossref",
+          "first-page": "69",
+          "DOI": "10.1016/j.bir.2021.01.004",
+          "volume": "22",
+          "author": "Z Wang",
+          "year": "2022",
+          "unstructured": "Wang Z, Zhang X, Zhang ZK, Sheng D (2022) Credit portfolio optimization: a multi-objective genetic algorithm approach. Borsa Istanbul Rev 22(1):69–76",
+          "journal-title": "Borsa Istanbul Rev"
+        },
+        {
+          "issue": "4",
+          "key": "8177_CR166",
+          "doi-asserted-by": "crossref",
+          "first-page": "411",
+          "DOI": "10.1007/s12293-022-00381-w",
+          "volume": "14",
+          "author": "H Wang",
+          "year": "2022",
+          "unstructured": "Wang H, Li X, Hong W, Tang K (2022) Multi-objective approaches to portfolio optimization with market impact costs. Memet Comput 14(4):411–421",
+          "journal-title": "Memet Comput"
+        },
+        {
+          "key": "8177_CR167",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Wang W, Wang H, Wu Z, Dai H (2009) A simple and fast particle swarm optimization and its application on portfolio selection. In: Proceedings of the international workshop on intelligent systems and applications, pp 1–4",
+          "DOI": "10.1109/IWISA.2009.5072675"
+        },
+        {
+          "issue": "1",
+          "key": "8177_CR168",
+          "doi-asserted-by": "crossref",
+          "first-page": "67",
+          "DOI": "10.1109/4235.585893",
+          "volume": "1",
+          "author": "DH Wolpert",
+          "year": "1997",
+          "unstructured": "Wolpert DH, Mac Ready WG (1997) No free lunch theorems for optimization. IEEE Trans Evol Comput 1(1):67–82",
+          "journal-title": "IEEE Trans Evol Comput"
+        },
+        {
+          "issue": "3",
+          "key": "8177_CR169",
+          "doi-asserted-by": "crossref",
+          "first-page": "538",
+          "DOI": "10.1016/j.ejor.2011.03.030",
+          "volume": "213",
+          "author": "M Woodside-Oriakhi",
+          "year": "2011",
+          "unstructured": "Woodside-Oriakhi M, Lucas C, Beasley JE (2011) Heuristic algorithms for the cardinality constrained efficient frontier. Eur J Oper Res 213(3):538–550",
+          "journal-title": "Eur J Oper Res"
+        },
+        {
+          "key": "8177_CR170",
+          "first-page": "65",
+          "volume-title": "A new metaheuristic bat-inspired algorithm",
+          "author": "Y Xin-She",
+          "year": "2010",
+          "unstructured": "Xin-She Y (2010) A new metaheuristic bat-inspired algorithm. Springer, Berlin, pp 65–74"
+        },
+        {
+          "key": "8177_CR171",
+          "first-page": "68",
+          "volume": "11",
+          "author": "SB Yaakob",
+          "year": "2010",
+          "unstructured": "Yaakob SB, Watada J (2010) A hybrid particle swarm optimization approach to mixed integer quadratic programming for portfolio selection problems. Int J Simul Syst Sci Technol 11:68–74",
+          "journal-title": "Int J Simul Syst Sci Technol"
+        },
+        {
+          "key": "8177_CR172",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Yang X-S (2009) Firefly algorithms for multimodal optimization. In: Proceedings of the stochastic algorithms: foundations and applications. Springer, Berlin, pp 169–178",
+          "DOI": "10.1007/978-3-642-04944-6_14"
+        },
+        {
+          "issue": "2",
+          "key": "8177_CR173",
+          "doi-asserted-by": "crossref",
+          "first-page": "686",
+          "DOI": "10.1007/s11424-023-2406-3",
+          "volume": "36",
+          "author": "C Yinnan",
+          "year": "2023",
+          "unstructured": "Yinnan C, Lingjuan YE, Rui LI, Xinchao Z (2023) A multi-period constrained multi-objective evolutionary algorithm with orthogonal learning for solving the complex carbon neutral stock portfolio optimization model. J Syst Sci Complex 36(2):686–715",
+          "journal-title": "J Syst Sci Complex"
+        },
+        {
+          "key": "8177_CR174",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Yin X, Ni Q, Zhai Y (May 2015) A novel PSO for portfolio optimization based on heterogeneous multiple population strategy. In: Proceedings of the IEEE congress on evolutionary computation, pp 1196–1203",
+          "DOI": "10.1109/CEC.2015.7257025"
+        },
+        {
+          "key": "8177_CR175",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Yu L, Wang S, Lai KK (2008) Portfolio optimization using evolutionary algorithms. In: Reflexing interfaces: the complex coevolution of information technology ecosystems. IGI Global, pp 235–245",
+          "DOI": "10.4018/978-1-59904-627-3.ch014"
+        },
+        {
+          "key": "8177_CR176",
+          "doi-asserted-by": "crossref",
+          "first-page": "58",
+          "DOI": "10.1016/j.neucom.2020.12.022",
+          "volume": "430",
+          "author": "H Zhao",
+          "year": "2021",
+          "unstructured": "Zhao H, Chen Z-G, Zhan Z-H, Kwong S, Zhang J (2021) Multiple populations co-evolutionary particle swarm optimization for multi-objective cardinality constrained portfolio optimization problem. Neurocomputing 430:58–70",
+          "journal-title": "Neurocomputing"
+        },
+        {
+          "key": "8177_CR177",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Zhao P, Gao S, Yang N (2020) Solving multi-objective portfolio optimization problem based on MOEA/D. In: Proceedings of the 12th international conference on advanced computational intelligence, pp 30–37",
+          "DOI": "10.1109/ICACI49185.2020.9177505"
+        },
+        {
+          "issue": "5",
+          "key": "8177_CR178",
+          "doi-asserted-by": "crossref",
+          "first-page": "5684",
+          "DOI": "10.1007/s10489-021-02747-y",
+          "volume": "52",
+          "author": "Y Zheng",
+          "year": "2022",
+          "unstructured": "Zheng Y, Zheng J (2022) A novel portfolio optimization model via combining multi-objective optimization and multi-attribute decision making. Appl Intell 52(5):5684–5695",
+          "journal-title": "Appl Intell"
+        },
+        {
+          "key": "8177_CR179",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Zheng J, Wu Q, Song W (2007) An improved particle swarm algorithm for solving nonlinear constrained optimization problems. In: Proceedings of the 3rd international conference on natural computation, vol 4, pp 112–117",
+          "DOI": "10.1109/ICNC.2007.221"
+        },
+        {
+          "key": "8177_CR180",
+          "first-page": "e7419500",
+          "volume": "2022",
+          "author": "Y Zhou",
+          "year": "2022",
+          "unstructured": "Zhou Y, Chen W, Lin D (2022) Design of optimum portfolio scheme based on improved NSGA-II algorithm. Comput Intell Neurosci 2022:e7419500",
+          "journal-title": "Comput Intell Neurosci"
+        },
+        {
+          "key": "8177_CR181",
+          "unstructured": "Zhou J, Li J (2014) An improved multi-objective particle swarm optimization for constrained portfolio selection model. In: Proceedings of the 11th international conference on service systems and service management, pp 1–5"
+        },
+        {
+          "key": "8177_CR182",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Zhu H, Chen Y, Wang K (2010) Swarm intelligence algorithms for portfolio optimization. In: Proceedings of the advances in swarm intelligence. Springer, Berlin, pp 306–313",
+          "DOI": "10.1007/978-3-642-13495-1_38"
+        },
+        {
+          "issue": "8",
+          "key": "8177_CR183",
+          "doi-asserted-by": "crossref",
+          "first-page": "10161",
+          "DOI": "10.1016/j.eswa.2011.02.075",
+          "volume": "38",
+          "author": "H Zhu",
+          "year": "2011",
+          "unstructured": "Zhu H, Wang Y, Wang K, Chen Y (2011) Particle swarm optimization (PSO) for the constrained portfolio optimization problem. Expert Syst Appl 38(8):10161–10169",
+          "journal-title": "Expert Syst Appl"
+        },
+        {
+          "issue": "2",
+          "key": "8177_CR184",
+          "doi-asserted-by": "crossref",
+          "first-page": "117",
+          "DOI": "10.1109/TEVC.2003.810758",
+          "volume": "7",
+          "author": "E Zitzler",
+          "year": "2003",
+          "unstructured": "Zitzler E, Thiele L, Laumanns M, Fonseca CM, da Fonseca VG (2003) Performance assessment of multi-objective optimizers: an analysis and review. IEEE Trans Evol Comput 7(2):117–132",
+          "journal-title": "IEEE Trans Evol Comput"
+        }
+      ],
+      "container-title": [
+        "Soft Computing"
+      ],
+      "original-title": [],
+      "language": "en",
+      "link": [
+        {
+          "URL": "https://link.springer.com/content/pdf/10.1007/s00500-023-08177-x.pdf",
+          "content-type": "application/pdf",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        },
+        {
+          "URL": "https://link.springer.com/article/10.1007/s00500-023-08177-x/fulltext.html",
+          "content-type": "text/html",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        },
+        {
+          "URL": "https://link.springer.com/content/pdf/10.1007/s00500-023-08177-x.pdf",
+          "content-type": "application/pdf",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2024,
+            10,
+            18
+          ]
+        ],
+        "date-time": "2024-10-18T19:21:52Z",
+        "timestamp": 1729279312000
+      },
+      "score": 1,
+      "resource": {
+        "primary": {
+          "URL": "https://link.springer.com/10.1007/s00500-023-08177-x"
+        }
+      },
+      "subtitle": [],
+      "short-title": [],
+      "issued": {
+        "date-parts": [
+          [
+            2023,
+            4,
+            21
+          ]
+        ]
+      },
+      "references-count": 184,
+      "journal-issue": {
+        "issue": "24",
+        "published-print": {
+          "date-parts": [
+            [
+              2023,
+              12
+            ]
+          ]
+        }
+      },
+      "alternative-id": [
+        "8177"
+      ],
+      "URL": "https://doi.org/10.1007/s00500-023-08177-x",
+      "relation": {},
+      "ISSN": [
+        "1432-7643",
+        "1433-7479"
+      ],
+      "issn-type": [
+        {
+          "value": "1432-7643",
+          "type": "print"
+        },
+        {
+          "value": "1433-7479",
+          "type": "electronic"
+        }
+      ],
+      "subject": [],
+      "published": {
+        "date-parts": [
+          [
+            2023,
+            4,
+            21
+          ]
+        ]
+      },
+      "assertion": [
+        {
+          "value": "29 March 2023",
+          "order": 1,
+          "name": "accepted",
+          "label": "Accepted",
+          "group": {
+            "name": "ArticleHistory",
+            "label": "Article History"
+          }
+        },
+        {
+          "value": "21 April 2023",
+          "order": 2,
+          "name": "first_online",
+          "label": "First Online",
+          "group": {
+            "name": "ArticleHistory",
+            "label": "Article History"
+          }
+        },
+        {
+          "order": 1,
+          "name": "Ethics",
+          "group": {
+            "name": "EthicsHeading",
+            "label": "Declarations"
+          }
+        },
+        {
+          "value": "The authors do not have any competing interests to disclose.",
+          "order": 2,
+          "name": "Ethics",
+          "group": {
+            "name": "EthicsHeading",
+            "label": "Conflict of interest"
+          }
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,1 @@
+(()=>{'use strict';const page=document.getElementById('science-article');if(!page)return;page.querySelectorAll('[data-science-depth]').forEach(b=>b.addEventListener('click',()=>{page.classList.toggle('science-brief',b.dataset.scienceDepth==='brief');page.querySelectorAll('[data-science-depth]').forEach(x=>x.setAttribute('aria-pressed',String(x===b)));}));})();

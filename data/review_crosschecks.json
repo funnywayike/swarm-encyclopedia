@@ -1,0 +1,280 @@
+{
+  "updated": "2026-10-16",
+  "method": "按主张核对范围、阅读位置、作者重叠、引用延续和版本；交叉阅读不等于实验复现。",
+  "checks": [
+    {
+      "id": "uncertainty",
+      "title": "噪声、稳健、动态优化怎样区分",
+      "status": "范围可对齐",
+      "kind": "content",
+      "conclusion": "地图应分别标出误差发生在哪里、环境何时变化、优化器需要追踪什么；不把“不确定”作为无差别标签。",
+      "independence": "两篇均有 Branke 参与，动态综述引言还引用早期不确定性综述；这是可追溯的概念延续，不能算两次独立验证。",
+      "evidence": [
+        {
+          "source": "uncertainty2005",
+          "location": "第I节，页303—304",
+          "finding": "从误差来源区分四种不确定性。"
+        },
+        {
+          "source": "review-dynamic-2c003a",
+          "location": "公开稿引言，前4页",
+          "finding": "聚焦环境变化下的在线适应与追踪。"
+        }
+      ]
+    },
+    {
+      "id": "surrogates",
+      "title": "代理模型与代理辅助进化计算",
+      "status": "交叉支持，范围不同",
+      "kind": "content",
+      "conclusion": "可以把昂贵评估、模型误差与真实评估的协调作为研究主线；不把某种工程代理策略认作所有领域的标准最佳方案。",
+      "independence": "2005与2011资料共享 Jin；2009 Forrester/Keane 作者团队不同，但工程设计与进化算法的覆盖范围有区别。作者不同仍不保证所引实验独立。",
+      "evidence": [
+        {
+          "source": "uncertainty2005",
+          "location": "第I节",
+          "finding": "近似模型误差需要与真实评估协调。"
+        },
+        {
+          "source": "review-surrogates-4ce90e",
+          "location": "摘要",
+          "finding": "专题范围是代理辅助进化计算。"
+        },
+        {
+          "source": "review-surrogates-2e8c4a",
+          "location": "摘要与引言",
+          "finding": "从昂贵工程设计评估讨论代理优化，并说明选择并非穷尽。"
+        }
+      ]
+    },
+    {
+      "id": "pso",
+      "title": "PSO 综述能否代表所有 PSO 实现",
+      "status": "范围限制",
+      "kind": "content",
+      "conclusion": "算法介绍与实现应明确连续或离散、目标数和边界处理；本轮不能由这些综述推出本站各个适配均符合标准。",
+      "independence": "Poli/Kennedy/Blackwell 与 Bonyadi/Michalewicz 作者不同；两篇并非相同问题集上的独立复现实验。",
+      "evidence": [
+        {
+          "source": "review-pso-9ebaa0",
+          "location": "摘要与参考文献",
+          "finding": "总体回顾，参考文献包含离散及二进制适配。"
+        },
+        {
+          "source": "review-pso-modern-25f3c4",
+          "location": "标题与摘要",
+          "finding": "明确限定单目标连续空间。"
+        }
+      ]
+    },
+    {
+      "id": "qd",
+      "title": "多目标、多个峰与质量多样性是否相同",
+      "status": "概念边界",
+      "kind": "content",
+      "conclusion": "地图可以显示这些方向的交汇，但不应合并概念：Pareto 折中与行为空间中高质量解的覆盖具有不同阅读目标。",
+      "independence": "两组作者不同；引用这里只支持定义与范围区分，不支持任意任务上的性能比较。",
+      "evidence": [
+        {
+          "source": "qd2016",
+          "location": "第2.1—2.3节",
+          "finding": "区分多峰、行为多样性与多目标，组织 QD 的研究目标。"
+        },
+        {
+          "source": "review-hyper-a1ea2b",
+          "location": "第1节",
+          "finding": "介绍多目标中的 Pareto 概念及有限解集近似。"
+        }
+      ]
+    },
+    {
+      "id": "robotics",
+      "title": "群智能优化是否等于群体机器人",
+      "status": "范围限制",
+      "kind": "content",
+      "conclusion": "物理机器人协同应保留独立主线；通信、感知、验证和行为执行不是浏览器中的目标函数搜索结果。",
+      "independence": "三组作者不同，但机器人综述也可能共享底层案例，不能当作三组部署验证。",
+      "evidence": [
+        {
+          "source": "brambilla2013",
+          "location": "摘要",
+          "finding": "从群体工程和集体行为两类视角组织领域。"
+        },
+        {
+          "source": "robotics2023",
+          "location": "摘要",
+          "finding": "讨论动物群体及多种物理平台协同。"
+        },
+        {
+          "source": "review-pso-9ebaa0",
+          "location": "摘要",
+          "finding": "范围是优化算法及其研究。"
+        }
+      ]
+    },
+    {
+      "id": "automation",
+      "title": "选择、配置与生成算法如何组织",
+      "status": "视角互补",
+      "kind": "content",
+      "conclusion": "以“决策对象”组织自动设计路线，允许同一系统同时选择、配置和生成；不要求它们成为互斥的历史阶段。",
+      "independence": "作者不同及分类不同不构成结论冲突；这里只比较各篇的研究对象。",
+      "evidence": [
+        {
+          "source": "review-hyper-3f59ee",
+          "location": "正式记录摘要",
+          "finding": "超启发式包含选择或生成启发式。"
+        },
+        {
+          "source": "review-configuration-8bd9fb",
+          "location": "摘要",
+          "finding": "按实例选择算法，并联系配置、组合与调度。"
+        },
+        {
+          "source": "review-hyper-a1ea2b",
+          "location": "摘要",
+          "finding": "在多目标专题内讨论选择、生成、组合和配置。"
+        }
+      ]
+    },
+    {
+      "id": "ml",
+      "title": "学习辅助与大模型算法设计",
+      "status": "视角互补",
+      "kind": "content",
+      "conclusion": "地图需要标出模型承担的具体工作：辅助组件、预测、提取或设计；仅出现机器学习并不意味着替代了全部求解器。",
+      "independence": "两篇覆盖年代与模型对象不同。分类可交叉定位，但不足以证明一种路线已成为全领域主流。",
+      "evidence": [
+        {
+          "source": "review-taxonomy-431f12",
+          "location": "摘要",
+          "finding": "按学习参与元启发式组件的层次分类。"
+        },
+        {
+          "source": "llmDesign2026",
+          "location": "摘要",
+          "finding": "按大模型承担的不同角色组织研究。"
+        }
+      ]
+    },
+    {
+      "id": "counts",
+      "title": "综述样本数量是否等于领域共识",
+      "status": "不可外推",
+      "kind": "content",
+      "conclusion": "不为“经典算法不超过多少个”给出伪精确上限；算法名称数、专题样本数、独立机制数分别记录。",
+      "independence": "两个统计针对完全不同的样本与收录标准，不能合并、互相背书或用于计算领域占比。",
+      "evidence": [
+        {
+          "source": "rajwar2023",
+          "location": "摘要",
+          "finding": "大范围算法名称整理及新颖性讨论。"
+        },
+        {
+          "source": "evolutionaryNasSurvey2026",
+          "location": "摘要",
+          "finding": "统计对象限定为特定年份的 ENAS 论文。"
+        }
+      ]
+    },
+    {
+      "id": "application",
+      "title": "应用综述是否代表落地收益",
+      "status": "证据不足，不作结论",
+      "kind": "content",
+      "conclusion": "应用卡应保留模型、约束、数据与验证场景；目前不能将文献覆盖直接写成部署成功或普遍提效。",
+      "independence": "跨行业材料只能共同提醒证据层级，不能互证某个具体行业的有效性；需要回到各自原始研究和部署数据。",
+      "evidence": [
+        {
+          "source": "healthcareMhReview2024",
+          "location": "摘要",
+          "finding": "列出多个医疗研究方向，未据此确认临床部署级证据。"
+        },
+        {
+          "source": "app019",
+          "location": "摘要",
+          "finding": "公交网络设计专题的有效性表述有具体研究背景。"
+        },
+        {
+          "source": "review-scheduling-8245c2",
+          "location": "摘要",
+          "finding": "制造调度包含多种方法，不能把总体范围归功于群智能。"
+        }
+      ]
+    },
+    {
+      "id": "de-lineage",
+      "title": "DE 两代综述算不算独立验证",
+      "status": "书目依赖已确认",
+      "kind": "bibliographic",
+      "conclusion": "2011与2016分别保留为经典综述和更新入口；不据两篇数量称某项结论已被独立交叉验证。",
+      "independence": "Das、Suganthan 同时参与两篇，后篇标题明确为更新综述；本项仅核书目，不声称本轮核读了两篇全文。",
+      "evidence": [
+        {
+          "source": "review-de-5942be",
+          "location": "正式书目：作者、年份、标题",
+          "finding": "2011年的 DE 专题综述。"
+        },
+        {
+          "source": "review-de-d01ad3",
+          "location": "正式书目：作者、年份、标题",
+          "finding": "2016年的更新综述，共享两位作者。"
+        }
+      ]
+    },
+    {
+      "id": "dates",
+      "title": "在线年份与正式出版年份",
+      "status": "版本日期已区分",
+      "kind": "bibliographic",
+      "conclusion": "ABC 条目采用正式卷期2014并保留在线2012；2026年的多目标超启发式条目不能因为 DOI 字符串含2025就回填2025。",
+      "independence": "这是两条书目各自的出版信息核对，不是对科学结论的多源独立验证。",
+      "evidence": [
+        {
+          "source": "review-abc-98ba57",
+          "location": "Springer 出版历史与卷期",
+          "finding": "在线2012与正式卷期2014并存。"
+        },
+        {
+          "source": "review-hyper-a1ea2b",
+          "location": "Springer 正式记录及 Crossref 日期字段",
+          "finding": "DOI 中的年份不能直接当作正式卷期年份。"
+        }
+      ]
+    },
+    {
+      "id": "bib-correction",
+      "title": "能解析的 DOI 是否一定匹配题名",
+      "status": "错误匹配已纠正",
+      "kind": "bibliographic",
+      "conclusion": "Forrester/Keane 2009 代理优化综述使用 10.1016/j.paerosci.2008.11.001；错误候选 2008.10.001 不进入目录。超启发式2013采用正式版作者列表，作者稿作为另一个版本记录。",
+      "independence": "核对 DOI、题名、作者、年份和版本；能解析仅证明存在记录，不证明与目标文章相同。",
+      "evidence": [
+        {
+          "source": "review-surrogates-2e8c4a",
+          "location": "出版社正式记录与 Crossref",
+          "finding": "正确 DOI 与题名、两位作者相符。"
+        },
+        {
+          "source": "review-hyper-3f59ee",
+          "location": "机构正式记录与作者稿首页",
+          "finding": "正式发表记录含 Gendreau；旧作者稿作者列表有差别。"
+        }
+      ]
+    }
+  ],
+  "openQuestions": [
+    {
+      "source": "portfolioMetaReview2023",
+      "question": "投资组合摘要合并提及多类约束；尚不能据此确定每一具体模型的复杂性。需要核对正文模型和原始复杂性证明。"
+    },
+    {
+      "source": "isa2023",
+      "question": "本轮没有重新运行综述中的基准；随机种子可复现单次运行，不替代多次独立运行和公平预算的实验。"
+    },
+    {
+      "source": "zhMoead",
+      "question": "中文条目本轮主要保留为书目入口；未完成与所有英文专题逐段对照，不宣称中英文结论全部一致。"
+    }
+  ]
+}

@@ -1,0 +1,2049 @@
+{
+  "query": "Machine learning combinatorial optimization methodological tour horizon",
+  "url": "https://api.crossref.org/works?query.bibliographic=Machine+learning+combinatorial+optimization+methodological+tour+horizon&rows=5&filter=until-pub-date%3A2026-10-16",
+  "retrieved": "2026-10-16",
+  "response": {
+    "status": "ok",
+    "message-type": "work-list",
+    "message-version": "1.0.0",
+    "message": {
+      "facets": {},
+      "total-results": 4104669,
+      "items": [
+        {
+          "indexed": {
+            "date-parts": [
+              [
+                2026,
+                10,
+                15
+              ]
+            ],
+            "date-time": "2026-10-15T13:25:36Z",
+            "timestamp": 1792070736819,
+            "version": "4.4.0"
+          },
+          "reference-count": 71,
+          "publisher": "Elsevier BV",
+          "issue": "2",
+          "license": [
+            {
+              "start": {
+                "date-parts": [
+                  [
+                    2021,
+                    4,
+                    1
+                  ]
+                ],
+                "date-time": "2021-04-01T00:00:00Z",
+                "timestamp": 1617235200000
+              },
+              "content-version": "tdm",
+              "delay-in-days": 0,
+              "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+            },
+            {
+              "start": {
+                "date-parts": [
+                  [
+                    2021,
+                    4,
+                    1
+                  ]
+                ],
+                "date-time": "2021-04-01T00:00:00Z",
+                "timestamp": 1617235200000
+              },
+              "content-version": "tdm",
+              "delay-in-days": 0,
+              "URL": "https://www.elsevier.com/legal/tdmrep-license"
+            }
+          ],
+          "funder": [
+            {
+              "DOI": "10.13039/100012994",
+              "name": "Polytechnique Montréal",
+              "doi-asserted-by": "publisher",
+              "id": [
+                {
+                  "id": "10.13039/100012994",
+                  "id-type": "DOI",
+                  "asserted-by": "publisher"
+                }
+              ]
+            }
+          ],
+          "content-domain": {
+            "domain": [
+              "elsevier.com",
+              "sciencedirect.com"
+            ],
+            "crossmark-restriction": true
+          },
+          "short-container-title": [
+            "European Journal of Operational Research"
+          ],
+          "published-print": {
+            "date-parts": [
+              [
+                2021,
+                4
+              ]
+            ]
+          },
+          "DOI": "10.1016/j.ejor.2020.07.063",
+          "type": "journal-article",
+          "created": {
+            "date-parts": [
+              [
+                2020,
+                8,
+                8
+              ]
+            ],
+            "date-time": "2020-08-08T19:32:51Z",
+            "timestamp": 1596915171000
+          },
+          "page": "405-421",
+          "update-policy": "https://doi.org/10.1016/elsevier_cm_policy",
+          "source": "Crossref",
+          "is-referenced-by-count": 1270,
+          "title": [
+            "Machine learning for combinatorial optimization: A methodological tour d’horizon"
+          ],
+          "prefix": "10.1016",
+          "volume": "290",
+          "author": [
+            {
+              "given": "Yoshua",
+              "family": "Bengio",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Andrea",
+              "family": "Lodi",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Antoine",
+              "family": "Prouvost",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            }
+          ],
+          "member": "78",
+          "reference": [
+            {
+              "issue": "5",
+              "key": "10.1016/j.ejor.2020.07.063_bib0001",
+              "doi-asserted-by": "crossref",
+              "first-page": "771",
+              "DOI": "10.1287/opre.49.5.771.10607",
+              "article-title": "Inverse optimization",
+              "volume": "49",
+              "author": "Ahuja",
+              "year": "2001",
+              "journal-title": "Operations Research"
+            },
+            {
+              "key": "10.1016/j.ejor.2020.07.063_bib0002",
+              "series-title": "Advances in neural information processing systems 29",
+              "first-page": "3981",
+              "article-title": "Learning to learn by gradient descent by gradient descent",
+              "author": "Andrychowicz",
+              "year": "2016"
+            },
+            {
+              "key": "10.1016/j.ejor.2020.07.063_bib0003",
+              "series-title": "Learning and intelligent optimization",
+              "first-page": "309",
+              "article-title": "Hyper-Reactive Tabu Search for MaxSAT",
+              "author": "Ansótegui",
+              "year": "2019"
+            },
+            {
+              "key": "10.1016/j.ejor.2020.07.063_sbref0004",
+              "series-title": "Thirty-first AAAI conference on artificial intelligence",
+              "article-title": "Reactive Dialectic Search Portfolios for MaxSAT",
+              "author": "Ansótegui",
+              "year": "2017"
+            },
+            {
+              "key": "10.1016/j.ejor.2020.07.063_bib0005",
+              "series-title": "The Traveling Salesman Problem: A Computational Study",
+              "author": "Applegate",
+              "year": "2007"
+            },
+            {
+              "key": "10.1016/j.ejor.2020.07.063_bib0006",
+              "series-title": "Iclr’2015, arxiv:1409.0473",
+              "article-title": "Neural machine translation by jointly learning to align and translate",
+              "author": "Bahdanau",
+              "year": "2015"
+            },
+            {
+              "key": "10.1016/j.ejor.2020.07.063_bib0007",
+              "series-title": "Technical Report",
+              "article-title": "Strong Sparse Cut Selection via Trained Neural Nets for Quadratic Semidefinite Outer-Approximations",
+              "author": "Baltean-Lugojan",
+              "year": "2018"
+            },
+            {
+              "key": "10.1016/j.ejor.2020.07.063_sbref0008",
+              "series-title": "International conference on learning representations",
+              "article-title": "Neural Combinatorial Optimization with Reinforcement Learning",
+              "author": "Bello",
+              "year": "2017"
+            },
+            {
+              "key": "10.1016/j.ejor.2020.07.063_sbref0009",
+              "series-title": "Ijcnn",
+              "article-title": "Learning a synaptic learning rule",
+              "author": "Bengio",
+              "year": "1991"
+            },
+            {
+              "key": "10.1016/j.ejor.2020.07.063_sbref0010",
+              "doi-asserted-by": "crossref",
+              "first-page": "41",
+              "DOI": "10.1016/j.artint.2016.04.003",
+              "article-title": "ASlib: A benchmark library for algorithm selection",
+              "volume": "237",
+              "author": "Bischl",
+              "year": "2016",
+              "journal-title": "Artificial intelligence"
+            },
+            {
+              "key": "10.1016/j.ejor.2020.07.063_bib0011",
+              "series-title": "Pattern recognition and machine learning",
+              "author": "Bishop",
+              "year": "2006"
+            },
+            {
+              "key": "10.1016/j.ejor.2020.07.063_bib0012",
+              "series-title": "Integration of constraint programming, artificial intelligence, and operations research",
+              "first-page": "595",
+              "article-title": "Learning a Classification of Mixed-Integer Quadratic Programming Problems",
+              "author": "Bonami",
+              "year": "2018"
+            },
+            {
+              "issue": "3",
+              "key": "10.1016/j.ejor.2020.07.063_bib0013",
+              "doi-asserted-by": "crossref",
+              "first-page": "680",
+              "DOI": "10.1287/opre.2014.1267",
+              "article-title": "Generalized inverse multiobjective optimization with application to cancer therapy",
+              "volume": "62",
+              "author": "Chan",
+              "year": "2014",
+              "journal-title": "Operations research"
+            },
+            {
+              "key": "10.1016/j.ejor.2020.07.063_bib0014",
+              "series-title": "Integer programming",
+              "author": "Conforti",
+              "year": "2014"
+            },
+            {
+              "issue": "1",
+              "key": "10.1016/j.ejor.2020.07.063_bib0015",
+              "doi-asserted-by": "crossref",
+              "first-page": "53",
+              "DOI": "10.1109/MSP.2017.2765202",
+              "article-title": "Generative adversarial networks: an overview",
+              "volume": "35",
+              "author": "Creswell",
+              "year": "2018",
+              "journal-title": "IEEE signal processing magazine"
+            },
+            {
+              "key": "10.1016/j.ejor.2020.07.063_bib0016",
+              "series-title": "Proceedings of The 33rd International Conference on Machine Learning",
+              "first-page": "2702",
+              "article-title": "Discriminative Embeddings of Latent Variable Models for Structured Data",
+              "volume": "48",
+              "author": "Dai",
+              "year": "2016"
+            },
+            {
+              "key": "10.1016/j.ejor.2020.07.063_bib0017",
+              "doi-asserted-by": "crossref",
+              "first-page": "237",
+              "DOI": "10.1007/s10107-018-1302-4",
+              "article-title": "Theoretical challenges towards cutting-plane selection",
+              "volume": "170",
+              "author": "Dey",
+              "year": "2018",
+              "journal-title": "Mathematical programming"
+            },
+            {
+              "key": "10.1016/j.ejor.2020.07.063_sbref0018",
+              "series-title": "Learning permutations with sinkhorn policy gradient",
+              "author": "Emami",
+              "year": "2018"
+            },
+            {
+              "key": "10.1016/j.ejor.2020.07.063_bib0019",
+              "series-title": "Proceedings of the 34th International Conference on Machine Learning",
+              "first-page": "1126",
+              "article-title": "Model-Agnostic Meta-Learning for Fast Adaptation of Deep Networks",
+              "volume": "70",
+              "author": "Finn",
+              "year": "2017"
+            },
+            {
+              "key": "10.1016/j.ejor.2020.07.063_sbref0020",
+              "first-page": "2199",
+              "article-title": "Heuristics in mixed integer programming",
+              "volume": "(vol.3",
+              "author": "Fischetti",
+              "year": "2011"
+            },
+            {
+              "key": "10.1016/j.ejor.2020.07.063_sbref0021",
+              "series-title": "Seventh annual symposium on combinatorial search",
+              "article-title": "ReACT: Real-Time Algorithm Configuration through Tournaments",
+              "author": "Fitzgerald",
+              "year": "2014"
+            },
+            {
+              "issue": "4",
+              "key": "10.1016/j.ejor.2020.07.063_bib0022",
+              "doi-asserted-by": "crossref",
+              "first-page": "595",
+              "DOI": "10.1177/030631293023004001",
+              "article-title": "Scientists and the legacy of world war ii: The case of operations research (or)",
+              "volume": "23",
+              "author": "Fortun",
+              "year": "1993",
+              "journal-title": "Social studies of science"
+            },
+            {
+              "key": "10.1016/j.ejor.2020.07.063_sbref0023",
+              "series-title": "Advances in Neural Information Processing Systems 32 (NIPS 2019)",
+              "first-page": "15554",
+              "article-title": "Exact combinatorial optimization with graph convolutional neural networks",
+              "author": "Gasse",
+              "year": "2019"
+            },
+            {
+              "key": "10.1016/j.ejor.2020.07.063_sbref0024",
+              "series-title": "Handbook of metaheuristics (vol. 2)",
+              "author": "Gendreau",
+              "year": "2010"
+            },
+            {
+              "key": "10.1016/j.ejor.2020.07.063_bib0025",
+              "series-title": "Proceedings of the 34th international conference on machine learning",
+              "first-page": "1263",
+              "article-title": "Neural Message Passing for Quantum Chemistry",
+              "volume": "70",
+              "author": "Gilmer",
+              "year": "2017"
+            },
+            {
+              "key": "10.1016/j.ejor.2020.07.063_bib0026",
+              "series-title": "Deep learning",
+              "author": "Goodfellow",
+              "year": "2016"
+            },
+            {
+              "key": "10.1016/j.ejor.2020.07.063_bib0027",
+              "series-title": "Advances in neural information processing systems 27",
+              "first-page": "3293",
+              "article-title": "Learning to search in branch and bound algorithms",
+              "author": "He",
+              "year": "2014"
+            },
+            {
+              "key": "10.1016/j.ejor.2020.07.063_bib0028",
+              "series-title": "Artificial neural networks — ICANN 2001",
+              "first-page": "87",
+              "article-title": "Learning to learn using gradient descent",
+              "author": "Hochreiter",
+              "year": "2001"
+            },
+            {
+              "key": "10.1016/j.ejor.2020.07.063_bib0029",
+              "series-title": "Autonomous search",
+              "first-page": "37",
+              "article-title": "Automated algorithm configuration and parameter tuning",
+              "author": "Hoos",
+              "year": "2012"
+            },
+            {
+              "key": "10.1016/j.ejor.2020.07.063_sbref0030",
+              "article-title": "Deep learning assisted heuristic tree search for the container pre-marshalling problem",
+              "author": "Hottung",
+              "year": "2017",
+              "journal-title": "arXiv:1709.09972 [cs]"
+            },
+            {
+              "issue": "2",
+              "key": "10.1016/j.ejor.2020.07.063_bib0031",
+              "first-page": "21:1",
+              "article-title": "Imitation learning: a survey of learning methods",
+              "volume": "50",
+              "author": "Hussein",
+              "year": "2017",
+              "journal-title": "ACM computing surveys"
+            },
+            {
+              "issue": "2",
+              "key": "10.1016/j.ejor.2020.07.063_sbref0032",
+              "doi-asserted-by": "crossref",
+              "first-page": "494",
+              "DOI": "10.1016/j.ejor.2017.01.001",
+              "article-title": "Markov chain methods for the bipartite boolean quadratic programming problem",
+              "volume": "260",
+              "author": "Karapetyan",
+              "year": "2017",
+              "journal-title": "European journal of operational research"
+            },
+            {
+              "key": "10.1016/j.ejor.2020.07.063_bib0033",
+              "series-title": "Advances in Neural Information Processing Systems 30",
+              "first-page": "6348",
+              "article-title": "Learning combinatorial optimization algorithms over graphs",
+              "author": "Khalil",
+              "year": "2017"
+            },
+            {
+              "key": "10.1016/j.ejor.2020.07.063_bib0034",
+              "series-title": "Proceedings of the Thirtieth AAAI Conference on Artificial Intelligence",
+              "first-page": "724",
+              "article-title": "Learning to Branch in Mixed Integer Programming",
+              "author": "Khalil",
+              "year": "2016"
+            },
+            {
+              "key": "10.1016/j.ejor.2020.07.063_bib0035",
+              "series-title": "Proceedings of the Twenty-Sixth International Joint Conference on Artificial Intelligence, IJCAI-17",
+              "first-page": "659",
+              "article-title": "Learning to Run Heuristics in Tree Search",
+              "author": "Khalil",
+              "year": "2017"
+            },
+            {
+              "key": "10.1016/j.ejor.2020.07.063_bib0036",
+              "article-title": "Attention solves your TSP, approximately",
+              "author": "Kool",
+              "year": "2018",
+              "journal-title": "arXiv:1803.08475 [cs, stat]"
+            },
+            {
+              "key": "10.1016/j.ejor.2020.07.063_bib0037",
+              "series-title": "Integration of AI and OR techniques in constraint programming",
+              "first-page": "202",
+              "article-title": "Learning When to Use a Decomposition",
+              "author": "Kruber",
+              "year": "2017"
+            },
+            {
+              "key": "10.1016/j.ejor.2020.07.063_bib0038",
+              "article-title": "Predicting solution summaries to integer linear programs under imperfect information with machine learning",
+              "author": "Larsen",
+              "year": "2018",
+              "journal-title": "arXiv:1807.11876 [cs, stat]"
+            },
+            {
+              "key": "10.1016/j.ejor.2020.07.063_bib0039",
+              "series-title": "Urban operations research",
+              "author": "Larson",
+              "year": "1981"
+            },
+            {
+              "key": "10.1016/j.ejor.2020.07.063_bib0040",
+              "article-title": "Learning to optimize neural nets",
+              "author": "Li",
+              "year": "2017",
+              "journal-title": "arXiv:1703.00441 [cs, math, stat]"
+            },
+            {
+              "issue": "3",
+              "key": "10.1016/j.ejor.2020.07.063_sbref0041",
+              "doi-asserted-by": "crossref",
+              "first-page": "943",
+              "DOI": "10.1016/j.ejor.2015.08.018",
+              "article-title": "DASH: Dynamic approach for switching heuristics",
+              "volume": "248",
+              "author": "Liberto",
+              "year": "2016",
+              "journal-title": "European journal of operational research"
+            },
+            {
+              "key": "10.1016/j.ejor.2020.07.063_bib0042",
+              "series-title": "thirty-Second AAAI conference on artificial intelligence",
+              "article-title": "Warmstarting of Model-Based Algorithm Configuration",
+              "author": "Lindauer",
+              "year": "2018"
+            },
+            {
+              "key": "10.1016/j.ejor.2020.07.063_bib0043",
+              "series-title": "50 years of integer programming 1958–2008",
+              "first-page": "619",
+              "article-title": "MIP Computation",
+              "author": "Lodi",
+              "year": "2009"
+            },
+            {
+              "issue": "2",
+              "key": "10.1016/j.ejor.2020.07.063_bib0044",
+              "doi-asserted-by": "crossref",
+              "first-page": "207",
+              "DOI": "10.1007/s11750-017-0451-6",
+              "article-title": "On learning and branching: A survey",
+              "volume": "25",
+              "author": "Lodi",
+              "year": "2017",
+              "journal-title": "TOP"
+            },
+            {
+              "key": "10.1016/j.ejor.2020.07.063_sbref0045",
+              "series-title": "Proceedings of the twenty-seventh international joint conference on artificial intelligence, IJCAI-18",
+              "first-page": "5472",
+              "article-title": "Boosting combinatorial problem modeling with machine learning",
+              "author": "Lombardi",
+              "year": "2018"
+            },
+            {
+              "key": "10.1016/j.ejor.2020.07.063_bib0046",
+              "series-title": "Proceedings of machine learning for health care",
+              "article-title": "Automated treatment planning in radiation therapy using generative adversarial networks",
+              "volume": "85",
+              "author": "Mahmood",
+              "year": "2018"
+            },
+            {
+              "key": "10.1016/j.ejor.2020.07.063_bib0047",
+              "series-title": "Learning and Intelligent Optimization",
+              "first-page": "123",
+              "article-title": "Structure-Preserving Instance Generation",
+              "author": "Malitsky",
+              "year": "2016"
+            },
+            {
+              "key": "10.1016/j.ejor.2020.07.063_bib0048",
+              "series-title": "Technical Report",
+              "article-title": "A supervised machine learning approach to variable branching in branch-and-bound",
+              "author": "Marcos Alvarez",
+              "year": "2014"
+            },
+            {
+              "issue": "1",
+              "key": "10.1016/j.ejor.2020.07.063_bib0049",
+              "doi-asserted-by": "crossref",
+              "first-page": "185",
+              "DOI": "10.1287/ijoc.2016.0723",
+              "article-title": "A machine learning-based approximation of strong branching",
+              "volume": "29",
+              "author": "Marcos Alvarez",
+              "year": "2017",
+              "journal-title": "INFORMS journal on computing"
+            },
+            {
+              "key": "10.1016/j.ejor.2020.07.063_bib0050",
+              "series-title": "Technical Report",
+              "article-title": "Online Learning for Strong Branching Approximation in Branch-and-Bound",
+              "author": "Marcos Alvarez",
+              "year": "2016"
+            },
+            {
+              "key": "10.1016/j.ejor.2020.07.063_sbref0051",
+              "doi-asserted-by": "crossref",
+              "first-page": "190",
+              "DOI": "10.1016/j.cor.2014.05.020",
+              "article-title": "Grammar-based generation of stochastic local search heuristics through automatic algorithm configuration tools",
+              "volume": "51",
+              "author": "Mascia",
+              "year": "2014",
+              "journal-title": "Computers & Operations Research"
+            },
+            {
+              "issue": "1",
+              "key": "10.1016/j.ejor.2020.07.063_bib0052",
+              "doi-asserted-by": "crossref",
+              "first-page": "147",
+              "DOI": "10.1007/BF01580665",
+              "article-title": "Computability of global solutions to factorable nonconvex programs: part i — convex underestimating problems",
+              "volume": "10",
+              "author": "McCormick",
+              "year": "1976",
+              "journal-title": "Mathematical programming"
+            },
+            {
+              "key": "10.1016/j.ejor.2020.07.063_bib0053",
+              "series-title": "Machine learning: A Probabilistic perspective",
+              "author": "Murphy",
+              "year": "2012"
+            },
+            {
+              "key": "10.1016/j.ejor.2020.07.063_bib0054",
+              "series-title": "AAAI 2019 workshop on reproducible AI",
+              "article-title": "Deterministic implementations for reproducibility in deep reinforcement learning",
+              "author": "Nagarajan",
+              "year": "2019"
+            },
+            {
+              "key": "10.1016/j.ejor.2020.07.063_sbref0055",
+              "series-title": "Conference on uncertainty in artifical intelligence",
+              "first-page": "591",
+              "article-title": "Learning fast optimizers for contextual stochastic integer programs.",
+              "author": "Nair",
+              "year": "2018"
+            },
+            {
+              "key": "10.1016/j.ejor.2020.07.063_bib0056",
+              "article-title": "A note on learning algorithms for quadratic assignment with graph neural networks",
+              "author": "Nowak",
+              "year": "2017",
+              "journal-title": "arXiv:1706.07450 [cs, stat]"
+            },
+            {
+              "key": "10.1016/j.ejor.2020.07.063_sbref0071",
+              "doi-asserted-by": "crossref",
+              "first-page": "34",
+              "DOI": "10.4018/978-1-4666-0270-0.ch003",
+              "article-title": "A reinforcement learning: Great-deluge hyper-heuristic for examination timetabling",
+              "author": "Özcan",
+              "year": "2012",
+              "journal-title": "Modeling, Analysis, and Applications in Metaheuristic Computing: Advancements and Trends"
+            },
+            {
+              "key": "10.1016/j.ejor.2020.07.063_bib0057",
+              "series-title": "International conference on learning representations",
+              "article-title": "Optimization as a model for few-shot learning",
+              "author": "Ravi",
+              "year": "2017"
+            },
+            {
+              "issue": "1",
+              "key": "10.1016/j.ejor.2020.07.063_bib0058",
+              "doi-asserted-by": "crossref",
+              "first-page": "131",
+              "DOI": "10.1162/neco.1992.4.1.131",
+              "article-title": "Learning to control fast-weight memories: An alternative to dynamic recurrent networks",
+              "volume": "4",
+              "author": "Schmidhuber",
+              "year": "1992",
+              "journal-title": "Neural computation"
+            },
+            {
+              "key": "10.1016/j.ejor.2020.07.063_bib0059",
+              "article-title": "Learning a SAT solver from single-bit supervision",
+              "author": "Selsam",
+              "year": "2018",
+              "journal-title": "arXiv:1802.03685 [cs]"
+            },
+            {
+              "issue": "7587",
+              "key": "10.1016/j.ejor.2020.07.063_bib0060",
+              "doi-asserted-by": "crossref",
+              "first-page": "484",
+              "DOI": "10.1038/nature16961",
+              "article-title": "Mastering the game of Go with deep neural networks and tree search",
+              "volume": "529",
+              "author": "Silver",
+              "year": "2016",
+              "journal-title": "Nature"
+            },
+            {
+              "issue": "1",
+              "key": "10.1016/j.ejor.2020.07.063_bib0061",
+              "doi-asserted-by": "crossref",
+              "first-page": "15",
+              "DOI": "10.1287/ijoc.11.1.15",
+              "article-title": "Neural networks for combinatorial optimization: a review of more than a decade of research",
+              "volume": "11",
+              "author": "Smith",
+              "year": "1999",
+              "journal-title": "INFORMS journal on computing"
+            },
+            {
+              "key": "10.1016/j.ejor.2020.07.063_sbref0062",
+              "doi-asserted-by": "crossref",
+              "first-page": "102",
+              "DOI": "10.1016/j.cor.2015.04.022",
+              "article-title": "Generating new test instances by evolving in instance space",
+              "volume": "63",
+              "author": "Smith-Miles",
+              "year": "2015",
+              "journal-title": "Computers & Operations Research"
+            },
+            {
+              "key": "10.1016/j.ejor.2020.07.063_sbref0063",
+              "series-title": "Reinforcement learning: an introduction",
+              "author": "Sutton",
+              "year": "2018"
+            },
+            {
+              "key": "10.1016/j.ejor.2020.07.063_bib0064",
+              "article-title": "Learning to learn",
+              "year": "1998"
+            },
+            {
+              "key": "10.1016/j.ejor.2020.07.063_bib0065",
+              "series-title": "Advances in neural information processing systems 30",
+              "first-page": "5998",
+              "article-title": "Attention is all you need",
+              "author": "Vaswani",
+              "year": "2017"
+            },
+            {
+              "key": "10.1016/j.ejor.2020.07.063_sbref0066",
+              "series-title": "International conference on learning representations",
+              "article-title": "Graph attention networks",
+              "author": "Veličković",
+              "year": "2018"
+            },
+            {
+              "key": "10.1016/j.ejor.2020.07.063_sbref0067",
+              "series-title": "Advances in neural information processing systems 28",
+              "first-page": "2692",
+              "article-title": "Pointer networks",
+              "author": "Vinyals",
+              "year": "2015"
+            },
+            {
+              "key": "10.1016/j.ejor.2020.07.063_bib0068",
+              "series-title": "Proceedings of the 34th International Conference on Machine Learning",
+              "first-page": "3751",
+              "article-title": "Learned Optimizers that Scale and Generalize",
+              "volume": "70",
+              "author": "Wichrowska",
+              "year": "2017"
+            },
+            {
+              "issue": "5",
+              "key": "10.1016/j.ejor.2020.07.063_bib0069",
+              "doi-asserted-by": "crossref",
+              "first-page": "620",
+              "DOI": "10.1093/jigpal/jzp049",
+              "article-title": "Recurrent policy gradients",
+              "volume": "18",
+              "author": "Wierstra",
+              "year": "2010",
+              "journal-title": "Logic Journal of the IGPL"
+            },
+            {
+              "key": "10.1016/j.ejor.2020.07.063_bib0070",
+              "series-title": "Integer programming",
+              "author": "Wolsey",
+              "year": "1998"
+            }
+          ],
+          "container-title": [
+            "European Journal of Operational Research"
+          ],
+          "language": "en",
+          "link": [
+            {
+              "URL": "https://api.elsevier.com/content/article/PII:S0377221720306895?httpAccept=text/xml",
+              "content-type": "text/xml",
+              "content-version": "vor",
+              "intended-application": "text-mining"
+            },
+            {
+              "URL": "https://api.elsevier.com/content/article/PII:S0377221720306895?httpAccept=text/plain",
+              "content-type": "text/plain",
+              "content-version": "vor",
+              "intended-application": "text-mining"
+            }
+          ],
+          "deposited": {
+            "date-parts": [
+              [
+                2025,
+                10,
+                7
+              ]
+            ],
+            "date-time": "2025-10-07T12:28:43Z",
+            "timestamp": 1759840123000
+          },
+          "score": 38.67458,
+          "resource": {
+            "primary": {
+              "URL": "https://linkinghub.elsevier.com/retrieve/pii/S0377221720306895"
+            }
+          },
+          "issued": {
+            "date-parts": [
+              [
+                2021,
+                4
+              ]
+            ]
+          },
+          "references-count": 71,
+          "journal-issue": {
+            "issue": "2",
+            "published-print": {
+              "date-parts": [
+                [
+                  2021,
+                  4
+                ]
+              ]
+            }
+          },
+          "alternative-id": [
+            "S0377221720306895"
+          ],
+          "URL": "https://doi.org/10.1016/j.ejor.2020.07.063",
+          "ISSN": [
+            "0377-2217"
+          ],
+          "issn-type": [
+            {
+              "value": "0377-2217",
+              "type": "print"
+            }
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2021,
+                4
+              ]
+            ]
+          },
+          "assertion": [
+            {
+              "value": "Elsevier",
+              "name": "publisher",
+              "label": "This article is maintained by"
+            },
+            {
+              "value": "Machine learning for combinatorial optimization: A methodological tour d’horizon",
+              "name": "articletitle",
+              "label": "Article Title"
+            },
+            {
+              "value": "European Journal of Operational Research",
+              "name": "journaltitle",
+              "label": "Journal Title"
+            },
+            {
+              "value": "https://doi.org/10.1016/j.ejor.2020.07.063",
+              "name": "articlelink",
+              "label": "CrossRef DOI link to publisher maintained version"
+            },
+            {
+              "value": "article",
+              "name": "content_type",
+              "label": "Content Type"
+            },
+            {
+              "value": "© 2020 Elsevier B.V. All rights reserved.",
+              "name": "copyright",
+              "label": "Copyright"
+            }
+          ]
+        },
+        {
+          "indexed": {
+            "date-parts": [
+              [
+                2025,
+                4,
+                26
+              ]
+            ],
+            "date-time": "2025-04-26T04:10:13Z",
+            "timestamp": 1745640613668,
+            "version": "3.40.4"
+          },
+          "reference-count": 0,
+          "publisher": "Combinatorial Press",
+          "content-domain": {
+            "domain": [],
+            "crossmark-restriction": false
+          },
+          "short-container-title": [
+            "J. Comb. Math. Comb. Comput."
+          ],
+          "published-print": {
+            "date-parts": [
+              [
+                2025,
+                4,
+                30
+              ]
+            ]
+          },
+          "DOI": "10.61091/jcmcc127a-287",
+          "type": "journal-article",
+          "created": {
+            "date-parts": [
+              [
+                2025,
+                4,
+                25
+              ]
+            ],
+            "date-time": "2025-04-25T22:43:56Z",
+            "timestamp": 1745621036000
+          },
+          "source": "Crossref",
+          "is-referenced-by-count": 0,
+          "title": [
+            "Curriculum Design and Learning Path in Grassland Ecological Study Tour Based on Support Vector Machine and Decision Tree Optimization"
+          ],
+          "prefix": "10.61091",
+          "volume": "127a",
+          "member": "39747",
+          "published-online": {
+            "date-parts": [
+              [
+                2025,
+                4,
+                16
+              ]
+            ]
+          },
+          "container-title": [
+            "Journal of Combinatorial Mathematics and Combinatorial Computing"
+          ],
+          "deposited": {
+            "date-parts": [
+              [
+                2025,
+                4,
+                25
+              ]
+            ],
+            "date-time": "2025-04-25T23:51:33Z",
+            "timestamp": 1745625093000
+          },
+          "score": 32.31203,
+          "resource": {
+            "primary": {
+              "URL": "https://combinatorialpress.com/jcmcc-articles/volume-127a/curriculum-design-and-learning-path-in-grassland-ecological-study-tour-based-on-support-vector-machine-and-decision-tree-optimization/"
+            }
+          },
+          "issued": {
+            "date-parts": [
+              [
+                2025,
+                4,
+                16
+              ]
+            ]
+          },
+          "references-count": 0,
+          "URL": "https://doi.org/10.61091/jcmcc127a-287",
+          "ISSN": [
+            "0835-3026",
+            "2817-576X"
+          ],
+          "issn-type": [
+            {
+              "value": "0835-3026",
+              "type": "print"
+            },
+            {
+              "value": "2817-576X",
+              "type": "electronic"
+            }
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2025,
+                4,
+                16
+              ]
+            ]
+          }
+        },
+        {
+          "indexed": {
+            "date-parts": [
+              [
+                2023,
+                11,
+                7
+              ]
+            ],
+            "date-time": "2023-11-07T16:40:35Z",
+            "timestamp": 1699375235955
+          },
+          "description": "A middle-ground approach that integrates machine learning into existing operations research (O.R.) methods and techniques appears to be a promising path forward. Let’s look at different examples of how this can be done in practice.",
+          "reference-count": 0,
+          "publisher": "Institute for Operations Research and the Management Sciences (INFORMS)",
+          "content-domain": {
+            "domain": [],
+            "crossmark-restriction": false
+          },
+          "published-print": {
+            "date-parts": [
+              [
+                2023,
+                11,
+                7
+              ]
+            ]
+          },
+          "DOI": "10.1287/lytx.2023.04.11",
+          "type": "dataset",
+          "created": {
+            "date-parts": [
+              [
+                2023,
+                11,
+                7
+              ]
+            ],
+            "date-time": "2023-11-07T14:07:19Z",
+            "timestamp": 1699366039000
+          },
+          "source": "Crossref",
+          "is-referenced-by-count": 0,
+          "title": [
+            "Data-Driven Optimization: Enhancing Combinatorial Optimization Solvers with Machine Learning"
+          ],
+          "prefix": "10.1287",
+          "member": "109",
+          "container-title": [
+            "Fall 2023"
+          ],
+          "deposited": {
+            "date-parts": [
+              [
+                2023,
+                11,
+                7
+              ]
+            ],
+            "date-time": "2023-11-07T16:25:19Z",
+            "timestamp": 1699374319000
+          },
+          "score": 31.367907,
+          "resource": {
+            "primary": {
+              "URL": "https://pubsonline.informs.org/do/10.1287/LYTX.2023.04.11/full/"
+            }
+          },
+          "issued": {
+            "date-parts": [
+              [
+                2023,
+                11,
+                7
+              ]
+            ]
+          },
+          "references-count": 0,
+          "URL": "https://doi.org/10.1287/lytx.2023.04.11",
+          "published": {
+            "date-parts": [
+              [
+                2023,
+                11,
+                7
+              ]
+            ]
+          }
+        },
+        {
+          "indexed": {
+            "date-parts": [
+              [
+                2026,
+                9,
+                23
+              ]
+            ],
+            "date-time": "2026-09-23T08:17:23Z",
+            "timestamp": 1790151443175,
+            "version": "4.0.1"
+          },
+          "reference-count": 21,
+          "publisher": "Elsevier",
+          "isbn-type": [
+            {
+              "value": "9781558603073",
+              "type": "print"
+            }
+          ],
+          "license": [
+            {
+              "start": {
+                "date-parts": [
+                  [
+                    1993,
+                    1,
+                    1
+                  ]
+                ],
+                "date-time": "1993-01-01T00:00:00Z",
+                "timestamp": 725846400000
+              },
+              "content-version": "tdm",
+              "delay-in-days": 0,
+              "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+            }
+          ],
+          "content-domain": {
+            "domain": [],
+            "crossmark-restriction": false
+          },
+          "published-print": {
+            "date-parts": [
+              [
+                1993
+              ]
+            ]
+          },
+          "DOI": "10.1016/b978-1-55860-307-3.50033-2",
+          "type": "book-chapter",
+          "created": {
+            "date-parts": [
+              [
+                2014,
+                6,
+                30
+              ]
+            ],
+            "date-time": "2014-06-30T19:04:53Z",
+            "timestamp": 1404155093000
+          },
+          "page": "205-211",
+          "source": "Crossref",
+          "is-referenced-by-count": 7,
+          "title": [
+            "Combinatorial optimization in inductive concept learning"
+          ],
+          "prefix": "10.1016",
+          "author": [
+            {
+              "given": "Dunja",
+              "family": "Mladenić",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            }
+          ],
+          "member": "78",
+          "reference": [
+            {
+              "key": "10.1016/B978-1-55860-307-3.50033-2_bib1",
+              "unstructured": "Cestnik, B. (1990) Estimating probabilities: A crucial task in machine learning. Proc. of ECAI'90, pp. 147–149, Stockholm, Sweden."
+            },
+            {
+              "key": "10.1016/B978-1-55860-307-3.50033-2_bib2",
+              "series-title": "Progress in machine learning",
+              "first-page": "31",
+              "article-title": "ASSISTANT 86: A knowledge elicitation tool for sophisticated users",
+              "author": "Cestnik",
+              "year": "1987"
+            },
+            {
+              "key": "10.1016/B978-1-55860-307-3.50033-2_bib3",
+              "first-page": "138",
+              "article-title": "On estimating probabilities in tree pruning",
+              "volume": "91",
+              "author": "Cestnik",
+              "year": "1991"
+            },
+            {
+              "key": "10.1016/B978-1-55860-307-3.50033-2_bib4",
+              "series-title": "Machine Learning 3(4)",
+              "first-page": "261",
+              "article-title": "The CN2 induction algorithm",
+              "author": "Clark",
+              "year": "1989"
+            },
+            {
+              "key": "10.1016/B978-1-55860-307-3.50033-2_bib5",
+              "doi-asserted-by": "crossref",
+              "unstructured": "Clark, P. and Boswell, R. (1991) Rule induction with CN2: Some recent improvements. Proc. of EWSL 91, pp. 151–163. Porto, Portugal, Springer-Verlag.",
+              "DOI": "10.1007/BFb0017011"
+            },
+            {
+              "key": "10.1016/B978-1-55860-307-3.50033-2_bib6",
+              "unstructured": "De Jong, K.A. and Spears, W.M. (1991) Learning concept classification rules using genetic algorithms. Proc. IJCAI-91, pp. 651–656. Sydney, Australia. Morgan Kaufmann."
+            },
+            {
+              "issue": "1",
+              "key": "10.1016/B978-1-55860-307-3.50033-2_bib7",
+              "article-title": "Tabu search - part I/II",
+              "volume": "3",
+              "author": "Glover",
+              "year": "1990",
+              "journal-title": "ORSA Journal on Computing 2"
+            },
+            {
+              "key": "10.1016/B978-1-55860-307-3.50033-2_bib8",
+              "doi-asserted-by": "crossref",
+              "unstructured": "Kononenko, I. (1991) An experiment in machine learning of redundant knowledge. Proc. of Intern. Conf. MELCON 1991, pp. 1146–1149. Ljubljana, Slovenia.",
+              "DOI": "10.1109/MELCON.1991.162044"
+            },
+            {
+              "key": "10.1016/B978-1-55860-307-3.50033-2_bib9",
+              "first-page": "337",
+              "article-title": "Markovian neural networks",
+              "volume": "64",
+              "author": "Kovačič",
+              "year": "1991"
+            },
+            {
+              "key": "10.1016/B978-1-55860-307-3.50033-2_bib10",
+              "doi-asserted-by": "crossref",
+              "unstructured": "Lavrač, N., Džeroski, S. and Grobelnik, M. (1991) Learning nonrecursive definitions of relations with LINUS. Proc. of EWSL 91, pp. 265–281. Porto, Portugal, Springer-Verlag.",
+              "DOI": "10.1007/BFb0017020"
+            },
+            {
+              "key": "10.1016/B978-1-55860-307-3.50033-2_bib11",
+              "unstructured": "Michalski, R.S., Mozetič, I., Hong, J. and Lavrač. N. (1986) The multipurpose incremental learning system AQ15 and its testing application to three medical domains. Proc. of AAAI-86, pp. 1041–1045. PA: Philadelphia. Morgan Kaufmann."
+            },
+            {
+              "key": "10.1016/B978-1-55860-307-3.50033-2_bib12",
+              "first-page": "319",
+              "article-title": "An empirical comparison of pruning methods for decision tree induction",
+              "volume": "4",
+              "author": "Mingers",
+              "year": "1989"
+            },
+            {
+              "key": "10.1016/B978-1-55860-307-3.50033-2_bib13",
+              "unstructured": "Grobelnik, M. and Lavrač, N. (1992) Stochastic search in inductive concept learning. Proc. of ISSEK Workshop'92. Bled, Slovenia."
+            },
+            {
+              "key": "10.1016/B978-1-55860-307-3.50033-2_bib14",
+              "series-title": "Combinatorial optimization: Algorithms and complexity",
+              "first-page": "1",
+              "article-title": "Optimization problems",
+              "author": "Papadimitriou",
+              "year": "1982"
+            },
+            {
+              "key": "10.1016/B978-1-55860-307-3.50033-2_bib15",
+              "doi-asserted-by": "crossref",
+              "first-page": "1192",
+              "DOI": "10.1145/63039.63042",
+              "article-title": "Random number generators: good ones are hard to find",
+              "volume": "10",
+              "author": "Park",
+              "year": "1988",
+              "journal-title": "Comm. ACM 31"
+            },
+            {
+              "key": "10.1016/B978-1-55860-307-3.50033-2_bib16",
+              "series-title": "Numerical Recipes: The art of scientific computing",
+              "first-page": "326",
+              "article-title": "Combinatorial minimization: Method of simulated annealing",
+              "author": "Press",
+              "year": "1987"
+            },
+            {
+              "key": "10.1016/B978-1-55860-307-3.50033-2_bib17",
+              "first-page": "81",
+              "article-title": "Induction of decision trees",
+              "volume": "1",
+              "author": "Quinlan",
+              "year": "1986"
+            },
+            {
+              "key": "10.1016/B978-1-55860-307-3.50033-2_bib18",
+              "first-page": "221",
+              "article-title": "Simplifying decision trees",
+              "volume": "27",
+              "author": "Quinlan",
+              "year": "1987"
+            },
+            {
+              "key": "10.1016/B978-1-55860-307-3.50033-2_bib19",
+              "first-page": "93",
+              "article-title": "Improved estimate for the accuracy of small disjuncts, Technical note",
+              "volume": "6",
+              "author": "Quinlan",
+              "year": "1991"
+            },
+            {
+              "key": "10.1016/B978-1-55860-307-3.50033-2_bib20",
+              "unstructured": "Savnik, I. (1993) Induction of functional dependencies from relations. Technical report, J.Stefan Institute, Ljubljana, Slovenia."
+            },
+            {
+              "key": "10.1016/B978-1-55860-307-3.50033-2_bib21",
+              "series-title": "Discrete optimization algorithms",
+              "first-page": "368",
+              "article-title": "Local search heuristics",
+              "author": "Syslo",
+              "year": "1983"
+            }
+          ],
+          "container-title": [
+            "Machine Learning Proceedings 1993"
+          ],
+          "language": "en",
+          "link": [
+            {
+              "URL": "https://api.elsevier.com/content/article/PII:B9781558603073500332?httpAccept=text/xml",
+              "content-type": "text/xml",
+              "content-version": "vor",
+              "intended-application": "text-mining"
+            },
+            {
+              "URL": "https://api.elsevier.com/content/article/PII:B9781558603073500332?httpAccept=text/plain",
+              "content-type": "text/plain",
+              "content-version": "vor",
+              "intended-application": "text-mining"
+            }
+          ],
+          "deposited": {
+            "date-parts": [
+              [
+                2025,
+                5,
+                3
+              ]
+            ],
+            "date-time": "2025-05-03T15:22:29Z",
+            "timestamp": 1746285749000
+          },
+          "score": 29.283768,
+          "resource": {
+            "primary": {
+              "URL": "https://linkinghub.elsevier.com/retrieve/pii/B9781558603073500332"
+            }
+          },
+          "issued": {
+            "date-parts": [
+              [
+                1993
+              ]
+            ]
+          },
+          "ISBN": [
+            "9781558603073"
+          ],
+          "references-count": 21,
+          "URL": "https://doi.org/10.1016/b978-1-55860-307-3.50033-2",
+          "published": {
+            "date-parts": [
+              [
+                1993
+              ]
+            ]
+          }
+        },
+        {
+          "indexed": {
+            "date-parts": [
+              [
+                2025,
+                8,
+                27
+              ]
+            ],
+            "date-time": "2025-08-27T16:35:25Z",
+            "timestamp": 1756312525874,
+            "version": "3.40.3"
+          },
+          "publisher-location": "Cham",
+          "reference-count": 63,
+          "publisher": "Springer International Publishing",
+          "isbn-type": [
+            {
+              "type": "print",
+              "value": "9783030546212"
+            },
+            {
+              "type": "electronic",
+              "value": "9783030546212"
+            }
+          ],
+          "license": [
+            {
+              "start": {
+                "date-parts": [
+                  [
+                    2022,
+                    10,
+                    30
+                  ]
+                ],
+                "date-time": "2022-10-30T00:00:00Z",
+                "timestamp": 1667088000000
+              },
+              "content-version": "tdm",
+              "delay-in-days": 0,
+              "URL": "https://www.springernature.com/gp/researchers/text-and-data-mining"
+            },
+            {
+              "start": {
+                "date-parts": [
+                  [
+                    2022,
+                    10,
+                    30
+                  ]
+                ],
+                "date-time": "2022-10-30T00:00:00Z",
+                "timestamp": 1667088000000
+              },
+              "content-version": "vor",
+              "delay-in-days": 0,
+              "URL": "https://www.springernature.com/gp/researchers/text-and-data-mining"
+            }
+          ],
+          "content-domain": {
+            "domain": [
+              "link.springer.com"
+            ],
+            "crossmark-restriction": false
+          },
+          "published-print": {
+            "date-parts": [
+              [
+                2023
+              ]
+            ]
+          },
+          "DOI": "10.1007/978-3-030-54621-2_752-1",
+          "type": "book-chapter",
+          "created": {
+            "date-parts": [
+              [
+                2023,
+                3,
+                21
+              ]
+            ],
+            "date-time": "2023-03-21T08:04:24Z",
+            "timestamp": 1679385864000
+          },
+          "page": "1-13",
+          "update-policy": "https://doi.org/10.1007/springer_crossmark_policy",
+          "source": "Crossref",
+          "is-referenced-by-count": 1,
+          "title": [
+            "Machine Learning for Combinatorial Optimization"
+          ],
+          "prefix": "10.1007",
+          "author": [
+            {
+              "given": "Maxime",
+              "family": "Gasse",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Andrea",
+              "family": "Lodi",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            }
+          ],
+          "member": "297",
+          "published-online": {
+            "date-parts": [
+              [
+                2022,
+                10,
+                30
+              ]
+            ]
+          },
+          "reference": [
+            {
+              "key": "752-1_CR1",
+              "unstructured": "Achterberg T (2007) Constraint integer programming. PhD thesis"
+            },
+            {
+              "key": "752-1_CR2",
+              "doi-asserted-by": "crossref",
+              "unstructured": "Achterberg T, Wunderling R (2013) Mixed integer programming: analyzing 12 years of progress. Facets of combinatorial optimization, pp 449–481",
+              "DOI": "10.1007/978-3-642-38189-8_18"
+            },
+            {
+              "issue": "1",
+              "key": "752-1_CR3",
+              "doi-asserted-by": "publisher",
+              "first-page": "42",
+              "DOI": "10.1016/j.orl.2004.04.002",
+              "volume": "33",
+              "author": "T Achterberg",
+              "year": "2005",
+              "unstructured": "Achterberg T, Koch T, Martin A (2005) Branching rules revisited. Oper Res Lett 33(1):42–54",
+              "journal-title": "Oper Res Lett"
+            },
+            {
+              "key": "752-1_CR4",
+              "doi-asserted-by": "publisher",
+              "first-page": "185",
+              "DOI": "10.1287/ijoc.2016.0723",
+              "volume": "29",
+              "author": "AM Alvarez",
+              "year": "2017",
+              "unstructured": "Alvarez AM, Louveaux Q, Wehenkel L (2017) A machine learning-based approximation of strong branching. INFORMS J Comput 29:185–195",
+              "journal-title": "INFORMS J Comput"
+            },
+            {
+              "issue": "1",
+              "key": "752-1_CR5",
+              "doi-asserted-by": "publisher",
+              "first-page": "1",
+              "DOI": "10.1016/0167-6377(96)00007-7",
+              "volume": "19",
+              "author": "E Balas",
+              "year": "1996",
+              "unstructured": "Balas E, Ceria S, Cornuéjols G, Natraj N (1996) Gomory cuts revisited. Oper Res Lett 19(1):1–9. https://doi.org/10.1016/0167-6377(96)00007-7",
+              "journal-title": "Oper Res Lett"
+            },
+            {
+              "key": "752-1_CR6",
+              "series-title": "PMLR, Proceedings of Machine Learning Research, vol",
+              "first-page": "344",
+              "volume-title": "International Conference on Machine Learning",
+              "author": "MF Balcan",
+              "year": "2018",
+              "unstructured": "Balcan MF, Dick T, Sandholm T, Vitercik E (2018) Learning to branch. In: Dy J, Krause A (eds) International Conference on Machine Learning, PMLR, Proceedings of Machine Learning Research, vol 80, pp 344–353"
+            },
+            {
+              "key": "752-1_CR7",
+              "unstructured": "Bello I, Pham H, Le QV, Norouzi M, Bengio S (2017) Neural combinatorial optimization with reinforcement learning. In: ICLR (Workshop), OpenReview.net"
+            },
+            {
+              "key": "752-1_CR8",
+              "unstructured": "Bestuzheva K, Besançon M, Chen WK, Chmiela A, Donkiewicz T, van Doornmalen J, Eifler L, Gaul O, Gamrath G, Gleixner A, Gottwald L, Graczyk C, Halbig K, Hoen A, Hojny C, van der Hulst R, Koch T, Lübbecke M, Maher SJ, Matter F, Mühmer E, Müller B, Pfetsch ME, Rehfeldt D, Schlein S, Schlösser F, Serrano F, Shinano Y, Sofranac B, Turner M, Vigerske S, Wegscheider F, Wellner P, Weninger D, Witzig J (2021) The SCIP optimization suite 8.0. Technical report, Optimization Online. http://www.optimization-online.org/DB_HTML/2021/12/8728.html"
+            },
+            {
+              "key": "752-1_CR9",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1287/opre.2022.2267",
+              "volume-title": "A classifier to decide on the linearization of mixed-integer quadratic problems in cplex",
+              "author": "P Bonami",
+              "year": "2022",
+              "unstructured": "Bonami P, Lodi A, Zarpellon G (2022) A classifier to decide on the linearization of mixed-integer quadratic problems in cplex. Oper Res. https://doi.org/10.1287/opre.2022.2267"
+            },
+            {
+              "key": "752-1_CR10",
+              "doi-asserted-by": "crossref",
+              "unstructured": "Cappart Q, Chételat D, Khalil E, Lodi A, Morris C, Veličkovič P (2021) Combinatorial optimization and reasoning with graph neural networks",
+              "DOI": "10.24963/ijcai.2021/595"
+            },
+            {
+              "key": "752-1_CR11",
+              "doi-asserted-by": "publisher",
+              "first-page": "129",
+              "DOI": "10.1007/BF02592101",
+              "volume": "73",
+              "author": "BV Cherkassky",
+              "year": "1996",
+              "unstructured": "Cherkassky BV, Goldberg AV, Radzik T (1996) Shortest paths algorithms: theory and experimental evaluation. Math Program 73:129–174. https://doi.org/10.1007/BF02592101",
+              "journal-title": "Math Program"
+            },
+            {
+              "key": "752-1_CR12",
+              "unstructured": "Chételat D, Lodi A (2022) Learning to cut"
+            },
+            {
+              "key": "752-1_CR13",
+              "volume-title": "Advances in neural information processing systems, vol 34",
+              "author": "A Chmiela",
+              "year": "2021",
+              "unstructured": "Chmiela A, Khalil E, Gleixner A, Lodi A, Pokutta S (2021) Learning to schedule heuristics in branch and bound. In: Ranzato M, Beygelzimer A, Dauphin Y, Liang P, Vaughan JW (eds) Advances in neural information processing systems, vol 34. Curran Associates, Inc."
+            },
+            {
+              "key": "752-1_CR14",
+              "volume-title": "The P versus NP problem",
+              "author": "S Cook",
+              "year": "2000",
+              "unstructured": "Cook S (2000) The P versus NP problem. Clay Mathematics Institute II"
+            },
+            {
+              "key": "752-1_CR15",
+              "first-page": "27",
+              "volume-title": "Computing in combinatorial optimization",
+              "author": "W Cook",
+              "year": "2019",
+              "unstructured": "Cook W (2019) Computing in combinatorial optimization, Springer International Publishing, Cham, pp 27–47. https://doi.org/10.1007/978-3-319-91908-9_3"
+            },
+            {
+              "key": "752-1_CR16",
+              "first-page": "6351",
+              "volume-title": "International Conference on Neural Information Processing Systems, NIPS’17",
+              "author": "H Dai",
+              "year": "2017",
+              "unstructured": "Dai H, Khalil EB, Zhang Y, Dilkina B, Song L (2017) Learning combinatorial optimization algorithms over graphs. In: International Conference on Neural Information Processing Systems, NIPS’17. Curran Associates Inc., Red Hook, pp 6351–6361"
+            },
+            {
+              "key": "752-1_CR17",
+              "first-page": "339",
+              "volume-title": "Conference on Linear Programming",
+              "author": "GB Dantzig",
+              "year": "1951",
+              "unstructured": "Dantzig GB (1951) Maximization of a linear function of variables subject to linear inequalities. In: Koopmans T (ed) Conference on Linear Programming. Activity Analysis of Production and Allocation. Wiley, New York, pp 339–347"
+            },
+            {
+              "key": "752-1_CR18",
+              "doi-asserted-by": "crossref",
+              "unstructured": "Degrave J, Felici F, Buchli J, Neunert M, Tracey B, Carpanese F, Ewalds T, Hafner R, Abdolmaleki A, de las Casas D, Donner C, Fritz L, Galperti C, Huber A, Keeling J, Tsimpoukelli M, Kay J, Merle A, Moret JM, Noury S, Pesamosca F, Pfau D, Sauter O, Sommariva C, Coda S, Duval B, Fasoli A, Kohli P, Kavukcuoglu K, Hassabis D, Riedmiller M (2022) Magnetic control of tokamak plasmas through deep reinforcement learning. Nature 602:414–419. https://doi.org/10.1038/s41586-021-04301-9",
+              "DOI": "10.1038/s41586-021-04301-9"
+            },
+            {
+              "key": "752-1_CR19",
+              "unstructured": "Dey SS, Dubey Y, Molinaro M, Shah P (2021) A theoretical and computational analysis of full strong-branching"
+            },
+            {
+              "issue": "02",
+              "key": "752-1_CR20",
+              "doi-asserted-by": "publisher",
+              "first-page": "1452",
+              "DOI": "10.1609/aaai.v34i02.5503",
+              "volume": "34",
+              "author": "JY Ding",
+              "year": "2020",
+              "unstructured": "Ding JY, Zhang C, Shen L, Li S, Wang B, Xu Y, Song L (2020) Accelerating primal solution findings for mixed integer programs based on solution prediction. AAAI Conf Artif Intell 34(02):1452–1459. https://doi.org/10.1609/aaai.v34i02.5503",
+              "journal-title": "AAAI Conf Artif Intell"
+            },
+            {
+              "key": "752-1_CR21",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1007/978-3-030-58942-4_12",
+              "volume-title": "Reinforcement learning for variable selection in a branch and bound algorithm",
+              "author": "M Etheve",
+              "year": "2020",
+              "unstructured": "Etheve M, Alés Z, Bissuel C, Juan O, Kedad-Sidhoum S (2020) Reinforcement learning for variable selection in a branch and bound algorithm. In: CPAIOR"
+            },
+            {
+              "key": "752-1_CR22",
+              "first-page": "32",
+              "volume-title": "Exact combinatorial optimization with graph convolutional neural networks",
+              "author": "M Gasse",
+              "year": "2019",
+              "unstructured": "Gasse M, Chételat D, Ferroni N, Charlin L, Lodi A (2019) Exact combinatorial optimization with graph convolutional neural networks. In: Advances in Neural Information Processing Systems, p 32"
+            },
+            {
+              "key": "752-1_CR23",
+              "doi-asserted-by": "publisher",
+              "first-page": "275",
+              "DOI": "10.1090/S0002-9904-1958-10224-4",
+              "volume": "64",
+              "author": "RE Gomory",
+              "year": "1958",
+              "unstructured": "Gomory RE (1958) Outline of an algorithm for integer solutions to linear programs. Bull Am Math Soc 64:275–278",
+              "journal-title": "Bull Am Math Soc"
+            },
+            {
+              "key": "752-1_CR24",
+              "first-page": "269",
+              "volume-title": "Graves RL",
+              "author": "RE Gomory",
+              "year": "1963",
+              "unstructured": "Gomory RE (1963) An algorithm for integer solutions to linear programming. In: Graves RL, Wolfe P (eds) Recent advances in mathematical programming. McGraw-Hill, pp 269–302"
+            },
+            {
+              "key": "752-1_CR25",
+              "volume-title": "Advances in neural information processing systems, vol 27",
+              "author": "H He",
+              "year": "2014",
+              "unstructured": "He H, Daume III H, Eisner JM (2014) Learning to search in branch and bound algorithms. In: Ghahramani Z, Welling M, Cortes C, Lawrence N, Weinberger K (eds) Advances in neural information processing systems, vol 27. Curran Associates Inc."
+            },
+            {
+              "key": "752-1_CR26",
+              "first-page": "37",
+              "volume-title": "Automated algorithm configuration and parameter tuning",
+              "author": "HH Hoos",
+              "year": "2012",
+              "unstructured": "Hoos HH (2012) Automated algorithm configuration and parameter tuning. Springer, Berlin/Heidelberg, pp 37–71. https://doi.org/10.1007/978-3-642-21434-9_3"
+            },
+            {
+              "key": "752-1_CR27",
+              "doi-asserted-by": "publisher",
+              "first-page": "267",
+              "DOI": "10.1613/jair.2861",
+              "volume": "36",
+              "author": "F Hutter",
+              "year": "2009",
+              "unstructured": "Hutter F, Hoos HH, Leyton-Brown K, Stützle T (2009) Paramils: an automatic algorithm configuration framework. J Artif Intell Res 36:267–306",
+              "journal-title": "J Artif Intell Res"
+            },
+            {
+              "key": "752-1_CR28",
+              "doi-asserted-by": "publisher",
+              "first-page": "507",
+              "DOI": "10.1007/978-3-642-25566-3_40",
+              "volume-title": "Learning and intelligent optimization",
+              "author": "F Hutter",
+              "year": "2011",
+              "unstructured": "Hutter F, Hoos HH, Leyton-Brown K (2011) Sequential model-based optimization for general algorithm configuration. In: Coello CAC (ed) Learning and intelligent optimization. Springer, Berlin/Heidelberg, pp 507–523"
+            },
+            {
+              "key": "752-1_CR29",
+              "volume-title": "Learning tsp requires rethinking generalization",
+              "author": "CK Joshi",
+              "year": "2021",
+              "unstructured": "Joshi CK, Cappart Q, Rousseau LM, Laurent T (2021) Learning tsp requires rethinking generalization. In: International Conference on Principles and Practice of Constraint Programming"
+            },
+            {
+              "key": "752-1_CR30",
+              "doi-asserted-by": "publisher",
+              "first-page": "583",
+              "DOI": "10.1038/s41586-021-03819-2",
+              "volume": "596",
+              "author": "J Jumper",
+              "year": "2021",
+              "unstructured": "Jumper J, Evans R, Pritzel A, Green T, Figurnov M, Ronneberger O, Tunyasuvunakool K, Bates R, Žídek A, Potapenko A, Bridgland A, Meyer C, Kohl SAA, Ballard AJ, Cowie A, Romera-Paredes B, Nikolov S, Jain R, Adler J, Back T, Petersen S, Reiman D, Clancy E, Zielinski M, Steinegger M, Pacholska M, Berghammer T, Bodenstein S, Silver D, Vinyals O, Senior AW, Kavukcuoglu K, Kohli P, Hassabis D (2021) Highly accurate protein structure prediction with alphafold. Nature 596:583–589. https://doi.org/10.1038/s41586-021-03819-2",
+              "journal-title": "Nature"
+            },
+            {
+              "key": "752-1_CR31",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1609/aaai.v30i1.10080",
+              "volume-title": "Learning to branch in mixed integer programming",
+              "author": "EB Khalil",
+              "year": "2016",
+              "unstructured": "Khalil EB, Le Bodic P, Song L, Nemhauser G, Dilkina B (2016) Learning to branch in mixed integer programming. In: AAAI Conference on Artificial Intelligence"
+            },
+            {
+              "key": "752-1_CR32",
+              "volume-title": "Attention, learn to solve routing problems!",
+              "author": "W Kool",
+              "year": "2019",
+              "unstructured": "Kool W, van Hoof H, Welling M (2019) Attention, learn to solve routing problems! In: International Conference on Learning Representations"
+            },
+            {
+              "key": "752-1_CR33",
+              "volume-title": "Advances in neural information processing systems, vol 25",
+              "author": "A Krizhevsky",
+              "year": "2012",
+              "unstructured": "Krizhevsky A, Sutskever I, Hinton GE (2012) Imagenet classification with deep convolutional neural networks. In: Pereira F, Burges CJC, Bottou L, Weinberger KQ (eds) Advances in neural information processing systems, vol 25. Curran Associates Inc."
+            },
+            {
+              "key": "752-1_CR34",
+              "doi-asserted-by": "publisher",
+              "first-page": "497",
+              "DOI": "10.2307/1910129",
+              "volume": "28",
+              "author": "AH Land",
+              "year": "1960",
+              "unstructured": "Land AH, Doig AG (1960) An automatic method of solving discrete programming problems. Econometrica 28:497–520",
+              "journal-title": "Econometrica"
+            },
+            {
+              "key": "752-1_CR35",
+              "volume-title": "The travelling salesman problem: a guided tour of combinatorial optimization. Wiley-Interscience series in discrete mathematics and optimization",
+              "author": "EL Lawler",
+              "year": "1985",
+              "unstructured": "Lawler EL, Lenstra JK, Rinnooy Kan AHG, Shmoys DB (1985) The travelling salesman problem: a guided tour of combinatorial optimization. Wiley-Interscience series in discrete mathematics and optimization. Wiley, Hoboken, New Jersey"
+            },
+            {
+              "key": "752-1_CR36",
+              "doi-asserted-by": "publisher",
+              "first-page": "436",
+              "DOI": "10.1038/nature14539",
+              "volume": "521",
+              "author": "Y LeCun",
+              "year": "2015",
+              "unstructured": "LeCun Y, Bengio Y, Hinton G (2015) Deep learning. Nature 521:436–444. https://doi.org/10.1038/nature14539",
+              "journal-title": "Nature"
+            },
+            {
+              "key": "752-1_CR37",
+              "unstructured": "Li Z, Chen Q, Koltun V (2018) Combinatorial optimization with graph convolutional networks and guided tree search. In: Bengio S, Wallach HM, Larochelle H, Grauman K, Cesa-Bianchi N, Garnett R (eds) NeurIPS, pp 537–546"
+            },
+            {
+              "key": "752-1_CR38",
+              "doi-asserted-by": "publisher",
+              "first-page": "972",
+              "DOI": "10.1287/opre.11.6.972",
+              "volume": "11",
+              "author": "JDC Little",
+              "year": "1963",
+              "unstructured": "Little JDC, Murty KG, Sweeney DW, Karel C (1963) An algorithm for the traveling salesman problem. Oper Res 11:972–989",
+              "journal-title": "Oper Res"
+            },
+            {
+              "key": "752-1_CR39",
+              "doi-asserted-by": "crossref",
+              "unstructured": "Liu D, Fischetti M, Lodi A (2022) Learning to search in local branching. In: AAAI Conference on Artificial Intelligence. AAAI Press, 445 Burgess Drive, Menlo Park, California",
+              "DOI": "10.1609/aaai.v36i4.20294"
+            },
+            {
+              "issue": "2",
+              "key": "752-1_CR40",
+              "doi-asserted-by": "publisher",
+              "first-page": "207",
+              "DOI": "10.1007/s11750-017-0451-6",
+              "volume": "25",
+              "author": "A Lodi",
+              "year": "2017",
+              "unstructured": "Lodi A, Zarpellon G (2017) On learning and branching: a survey. Top 25(2):207–236",
+              "journal-title": "Top"
+            },
+            {
+              "key": "752-1_CR41",
+              "doi-asserted-by": "publisher",
+              "first-page": "147",
+              "DOI": "10.1007/BF01580665",
+              "volume": "10",
+              "author": "GP McCormick",
+              "year": "1976",
+              "unstructured": "McCormick GP (1976) Computability of global solutions to factorable nonconvex programs: Part I – convex underestimating problems. Math Program 10:147–175. https://doi.org/10.1007/BF01580665",
+              "journal-title": "Math Program"
+            },
+            {
+              "key": "752-1_CR42",
+              "volume-title": "Semantic information processing",
+              "author": "ML Minsky",
+              "year": "1968",
+              "unstructured": "Minsky ML (1968) Semantic information processing. The MIT Press, Cambridge, Massachusetts"
+            },
+            {
+              "key": "752-1_CR43",
+              "unstructured": "Nair V, Bartunov S, Gimeno F, von Glehn I, Lichocki P, Lobov I, O’Donoghue B, Sonnerat N, Tjandraatmadja C, Wang P, Addanki R, Hapuarachchi T, Keck T, Keeling J, Kohli P, Ktena I, Li Y, Vinyals O, Zwols Y (2020) Solving mixed integer programs using neural networks"
+            },
+            {
+              "key": "752-1_CR44",
+              "unstructured": "Nazari M, Oroojlooy A, Snyder LV, Takác M (2018) Reinforcement learning for solving the vehicle routing problem. In: Bengio S, Wallach HM, Larochelle H, Grauman K, Cesa-Bianchi N, Garnett R (eds) NeurIPS, pp 9861–9871"
+            },
+            {
+              "key": "752-1_CR45",
+              "unstructured": "Prouvost A, Dumouchelle J, Scavuzzo L, Gasse M, Chételat D, Lodi A (2020) Ecole: a gym-like library for machine learning in combinatorial optimization solvers. In: Learning meets combinatorial algorithms at NeurIPS2020"
+            },
+            {
+              "key": "752-1_CR46",
+              "doi-asserted-by": "publisher",
+              "unstructured": "Qu Q, Li X, Zhou Y, Zeng J, Yuan M, Wang J, Lv J, Liu K, Mao K (2022) An improved reinforcement learning algorithm for learning to branch. https://doi.org/10.48550/ARXIV.2201.06213",
+              "DOI": "10.48550/ARXIV.2201.06213"
+            },
+            {
+              "key": "752-1_CR47",
+              "volume-title": "Advances in neural information processing systems, vol 35",
+              "author": "L Scavuzzo",
+              "year": "2022",
+              "unstructured": "Scavuzzo L, Yang Chen F, Chételat D, Gasse M, Aardal K, Yorke-Smith N, Lodi A (2022) Learning to Branch with Tree MDPs. In: Koyejo S, Mohamed S, Agarwal A, Oh A, Belgrave D, Cho K (eds) Advances in neural information processing systems, vol 35. Curran Associates Inc."
+            },
+            {
+              "key": "752-1_CR48",
+              "doi-asserted-by": "crossref",
+              "unstructured": "Schrijver A (2005) On the history of combinatorial optimization (till 1960). In: Aardal K, Nemhauser G, Weismantel R (eds) Discrete optimization. Handbooks in operations research and management science, vol 12. Elsevier, pp 1–68. https://doi.org/10.1016/S0927-0507(05)12001-5, https://www.sciencedirect.com/science/article/pii/S0927050705120015",
+              "DOI": "10.1016/S0927-0507(05)12001-5"
+            },
+            {
+              "key": "752-1_CR49",
+              "unstructured": "Selsam D, Lamm M, Bünz B, Liang P, de Moura L, Dill DL (2019) Learning a sat solver from single-bit supervision. In: ICLR (Poster). OpenReview.net"
+            },
+            {
+              "key": "752-1_CR50",
+              "doi-asserted-by": "publisher",
+              "first-page": "484",
+              "DOI": "10.1038/nature16961",
+              "volume": "529",
+              "author": "D Silver",
+              "year": "2016",
+              "unstructured": "Silver D, Huang A, Maddison CJ, Guez A, Sifre L, van den Driessche G, Schrittwieser J, Antonoglou I, Panneershelvam V, Lanctot M, Dieleman S, Grewe D, Nham J, Kalchbrenner N, Sutskever I, Lillicrap T, Leach M, Kavukcuoglu K, Graepel T, Hassabis D (2016) Mastering the game of go with deep neural networks and tree search. Nature 529:484–489. https://doi.org/10.1038/nature16961",
+              "journal-title": "Nature"
+            },
+            {
+              "key": "752-1_CR51",
+              "volume-title": "(2020) Improving learning to branch via reinforcement learning",
+              "author": "H Sun",
+              "year": "2020",
+              "unstructured": "Sun H, Chen W, Li H, Song L (2020) Improving learning to branch via reinforcement learning. In: Learning meets combinatorial algorithms at NeurIPS 2020"
+            },
+            {
+              "key": "752-1_CR52",
+              "series-title": "PMLR, Proceedings of Machine Learning Research, vol",
+              "first-page": "9367",
+              "volume-title": "International Conference on Machine Learning",
+              "author": "Y Tang",
+              "year": "2020",
+              "unstructured": "Tang Y, Agrawal S, Faenza Y (2020) Reinforcement learning for integer programming: learning to cut. In: Hal III D, Singh A (eds) International Conference on Machine Learning, PMLR, Proceedings of Machine Learning Research, vol 119, pp 9367–9376"
+            },
+            {
+              "key": "752-1_CR53",
+              "doi-asserted-by": "publisher",
+              "unstructured": "Turing AM (1950) Comput Mach Intell Mind LIX 236:433–460. https://doi.org/10.1093/mind/LIX.236.433, https://academic.oup.com/mind/article-pdf/LIX/236/433/30123314/lix-236-433.pdf",
+              "DOI": "10.1093/mind/LIX.236.433"
+            },
+            {
+              "key": "752-1_CR54",
+              "doi-asserted-by": "crossref",
+              "unstructured": "Valiant LG (1984) A theory of the learnable. In: DeMillo RA (ed) STOC. ACM, pp 436–445",
+              "DOI": "10.1145/800057.808710"
+            },
+            {
+              "key": "752-1_CR55",
+              "volume-title": "Advances in neural information processing systems, vol 30",
+              "author": "A Vaswani",
+              "year": "2017",
+              "unstructured": "Vaswani A, Shazeer N, Parmar N, Uszkoreit J, Jones L, Gomez AN, Kaiser Lu, Polosukhin I (2017) Attention is all you need. In: Guyon I, Luxburg UV, Bengio S, Wallach H, Fergus R, Vishwanathan S, Garnett R (eds) Advances in neural information processing systems, vol 30. Curran Associates, Inc. https://proceedings.neurips.cc/paper/2017/file/3f5ee243547dee91fbd053c1c4a845aa-Paper.pdf"
+            },
+            {
+              "key": "752-1_CR56",
+              "volume-title": "Advances in neural information processing systems, vol 28",
+              "author": "O Vinyals",
+              "year": "2015",
+              "unstructured": "Vinyals O, Fortunato M, Jaitly N (2015) Pointer networks. In: Cortes C, Lawrence N, Lee D, Sugiyama M, Garnett R (eds) Advances in neural information processing systems, vol 28. Curran Associates Inc."
+            },
+            {
+              "key": "752-1_CR57",
+              "doi-asserted-by": "publisher",
+              "unstructured": "Wu Y, Song W, Cao Z, Zhang J, Lim A (2021) Learning improvement heuristics for solving routing problems. IEEE Trans Neural Netw Learn Syst 1–13. https://doi.org/10.1109/TNNLS.2021.3068828",
+              "DOI": "10.1109/TNNLS.2021.3068828"
+            },
+            {
+              "key": "752-1_CR58",
+              "doi-asserted-by": "publisher",
+              "unstructured": "Xavier AS, Qiu F (2020) MIPLearn: an extensible framework for learning-enhanced optimization. https://doi.org/10.5281/zenodo.4287567, https://anl-ceeesa.github.io/MIPLearn",
+              "DOI": "10.5281/zenodo.4287567"
+            },
+            {
+              "key": "752-1_CR59",
+              "doi-asserted-by": "crossref",
+              "unstructured": "Xavier lS, Qiu F, Ahmed S (2020) Learning to solve large-scale security-constrained unit commitment problems. INFORMS J Comput 33(2):739–756",
+              "DOI": "10.1287/ijoc.2020.0976"
+            },
+            {
+              "key": "752-1_CR60",
+              "doi-asserted-by": "publisher",
+              "first-page": "565",
+              "DOI": "10.1613/jair.2490",
+              "volume": "32",
+              "author": "L Xu",
+              "year": "2008",
+              "unstructured": "Xu L, Hutter F, Hoos HH, Leyton-Brown K (2008) Satzilla: portfolio-based algorithm selection for sat. J Artif Intell Res 32:565–606",
+              "journal-title": "J Artif Intell Res"
+            },
+            {
+              "key": "752-1_CR61",
+              "doi-asserted-by": "crossref",
+              "unstructured": "Yilmaz K, Yorke-Smith N (2021) A study of learning search approximation in mixed integer branch and bound: node selection in scip. AI 2(2): 150–178. https://doi.org/10.3390/ai2020010, https://www.mdpi.com/2673-2688/2/2/10",
+              "DOI": "10.3390/ai2020010"
+            },
+            {
+              "key": "752-1_CR62",
+              "doi-asserted-by": "crossref",
+              "unstructured": "Zarpellon G, Fischetti M, Lodi A (2019) Learning milp resolution outcomes before reaching time-limit. In: Rousseau LM, Stergiou K (eds) Integration of constraint programming, artificial intelligence, and operations research. Springer International Publishing, pp 275–291",
+              "DOI": "10.1007/978-3-030-19212-9_18"
+            },
+            {
+              "issue": "5",
+              "key": "752-1_CR63",
+              "first-page": "3931",
+              "volume": "35",
+              "author": "G Zarpellon",
+              "year": "2021",
+              "unstructured": "Zarpellon G, Jo J, Lodi A, Bengio Y (2021) Parameterizing branch-and-bound search trees to learn branching policies. AAAI Conf Artif Intell 35(5):3931–3939",
+              "journal-title": "AAAI Conf Artif Intell"
+            }
+          ],
+          "container-title": [
+            "Encyclopedia of Optimization"
+          ],
+          "language": "en",
+          "link": [
+            {
+              "URL": "https://link.springer.com/content/pdf/10.1007/978-3-030-54621-2_752-1",
+              "content-type": "unspecified",
+              "content-version": "vor",
+              "intended-application": "similarity-checking"
+            }
+          ],
+          "deposited": {
+            "date-parts": [
+              [
+                2024,
+                9,
+                16
+              ]
+            ],
+            "date-time": "2024-09-16T18:10:48Z",
+            "timestamp": 1726510248000
+          },
+          "score": 29.25137,
+          "resource": {
+            "primary": {
+              "URL": "https://link.springer.com/10.1007/978-3-030-54621-2_752-1"
+            }
+          },
+          "issued": {
+            "date-parts": [
+              [
+                2022,
+                10,
+                30
+              ]
+            ]
+          },
+          "ISBN": [
+            "9783030546212",
+            "9783030546212"
+          ],
+          "references-count": 63,
+          "URL": "https://doi.org/10.1007/978-3-030-54621-2_752-1",
+          "published": {
+            "date-parts": [
+              [
+                2022,
+                10,
+                30
+              ]
+            ]
+          },
+          "assertion": [
+            {
+              "value": "30 October 2022",
+              "order": 1,
+              "name": "first_online",
+              "label": "First Online",
+              "group": {
+                "name": "ChapterHistory",
+                "label": "Chapter History"
+              }
+            }
+          ]
+        }
+      ],
+      "items-per-page": 5,
+      "query": {
+        "start-index": 0,
+        "search-terms": null
+      }
+    }
+  }
+}

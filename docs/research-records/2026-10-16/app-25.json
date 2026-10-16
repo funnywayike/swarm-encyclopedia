@@ -1,0 +1,862 @@
+{
+  "retrieved": "2026-10-16",
+  "url": "https://api.crossref.org/works?query.bibliographic=truss+structural+optimization+genetic+algorithm&rows=3&filter=until-pub-date%3A2026-10-16",
+  "response": {
+    "status": "ok",
+    "message-type": "work-list",
+    "message-version": "1.0.0",
+    "message": {
+      "facets": {},
+      "total-results": 3215511,
+      "items": [
+        {
+          "indexed": {
+            "date-parts": [
+              [
+                2026,
+                4,
+                3
+              ]
+            ],
+            "date-time": "2026-04-03T07:07:13Z",
+            "timestamp": 1775200033826,
+            "version": "3.50.1"
+          },
+          "reference-count": 0,
+          "publisher": "Springer Science and Business Media LLC",
+          "issue": "6",
+          "license": [
+            {
+              "start": {
+                "date-parts": [
+                  [
+                    2002,
+                    7,
+                    1
+                  ]
+                ],
+                "date-time": "2002-07-01T00:00:00Z",
+                "timestamp": 1025481600000
+              },
+              "content-version": "tdm",
+              "delay-in-days": 0,
+              "URL": "http://www.springer.com/tdm"
+            }
+          ],
+          "content-domain": {
+            "domain": [],
+            "crossmark-restriction": false
+          },
+          "short-container-title": [
+            "Structural and Multidisciplinary Optimization"
+          ],
+          "published-print": {
+            "date-parts": [
+              [
+                2002,
+                7,
+                1
+              ]
+            ]
+          },
+          "DOI": "10.1007/s00158-002-0208-0",
+          "type": "journal-article",
+          "created": {
+            "date-parts": [
+              [
+                2003,
+                12,
+                10
+              ]
+            ],
+            "date-time": "2003-12-10T21:12:23Z",
+            "timestamp": 1071090743000
+          },
+          "page": "467-473",
+          "source": "Crossref",
+          "is-referenced-by-count": 84,
+          "title": [
+            "Truss topology optimization by a modified genetic algorithm"
+          ],
+          "prefix": "10.1007",
+          "volume": "23",
+          "author": [
+            {
+              "given": "H.",
+              "family": "Kawamura",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "H.",
+              "family": "Ohmori",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "N.",
+              "family": "Kito",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            }
+          ],
+          "member": "297",
+          "container-title": [
+            "Structural and Multidisciplinary Optimization"
+          ],
+          "link": [
+            {
+              "URL": "http://link.springer.com/content/pdf/10.1007/s00158-002-0208-0.pdf",
+              "content-type": "application/pdf",
+              "content-version": "vor",
+              "intended-application": "text-mining"
+            },
+            {
+              "URL": "http://link.springer.com/article/10.1007/s00158-002-0208-0/fulltext.html",
+              "content-type": "text/html",
+              "content-version": "vor",
+              "intended-application": "text-mining"
+            },
+            {
+              "URL": "http://link.springer.com/content/pdf/10.1007/s00158-002-0208-0",
+              "content-type": "unspecified",
+              "content-version": "vor",
+              "intended-application": "similarity-checking"
+            }
+          ],
+          "deposited": {
+            "date-parts": [
+              [
+                2019,
+                5,
+                23
+              ]
+            ],
+            "date-time": "2019-05-23T15:54:50Z",
+            "timestamp": 1558626890000
+          },
+          "score": 36.2957,
+          "resource": {
+            "primary": {
+              "URL": "http://link.springer.com/10.1007/s00158-002-0208-0"
+            }
+          },
+          "issued": {
+            "date-parts": [
+              [
+                2002,
+                7,
+                1
+              ]
+            ]
+          },
+          "references-count": 0,
+          "journal-issue": {
+            "issue": "6",
+            "published-print": {
+              "date-parts": [
+                [
+                  2002,
+                  7,
+                  1
+                ]
+              ]
+            }
+          },
+          "alternative-id": [
+            "MV0NNLYHRKGD2HBY"
+          ],
+          "URL": "https://doi.org/10.1007/s00158-002-0208-0",
+          "ISSN": [
+            "1615-147X",
+            "1615-1488"
+          ],
+          "issn-type": [
+            {
+              "value": "1615-147X",
+              "type": "print"
+            },
+            {
+              "value": "1615-1488",
+              "type": "electronic"
+            }
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2002,
+                7,
+                1
+              ]
+            ]
+          }
+        },
+        {
+          "indexed": {
+            "date-parts": [
+              [
+                2026,
+                5,
+                15
+              ]
+            ],
+            "date-time": "2026-05-15T22:18:53Z",
+            "timestamp": 1778883533744,
+            "version": "3.51.4"
+          },
+          "reference-count": 19,
+          "publisher": "Springer Science and Business Media LLC",
+          "issue": "5",
+          "license": [
+            {
+              "start": {
+                "date-parts": [
+                  [
+                    2010,
+                    12,
+                    24
+                  ]
+                ],
+                "date-time": "2010-12-24T00:00:00Z",
+                "timestamp": 1293148800000
+              },
+              "content-version": "tdm",
+              "delay-in-days": 0,
+              "URL": "http://www.springer.com/tdm"
+            }
+          ],
+          "content-domain": {
+            "domain": [],
+            "crossmark-restriction": false
+          },
+          "short-container-title": [
+            "Struct Multidisc Optim"
+          ],
+          "published-print": {
+            "date-parts": [
+              [
+                2011,
+                5
+              ]
+            ]
+          },
+          "DOI": "10.1007/s00158-010-0603-x",
+          "type": "journal-article",
+          "created": {
+            "date-parts": [
+              [
+                2010,
+                12,
+                22
+              ]
+            ],
+            "date-time": "2010-12-22T19:48:16Z",
+            "timestamp": 1293047296000
+          },
+          "page": "647-656",
+          "source": "Crossref",
+          "is-referenced-by-count": 8,
+          "title": [
+            "Micro-scale truss optimization using genetic algorithm"
+          ],
+          "prefix": "10.1007",
+          "volume": "43",
+          "author": [
+            {
+              "given": "María Belén",
+              "family": "Prendes-Gero",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Jean-Marc",
+              "family": "Drouet",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            }
+          ],
+          "member": "297",
+          "published-online": {
+            "date-parts": [
+              [
+                2010,
+                12,
+                24
+              ]
+            ]
+          },
+          "reference": [
+            {
+              "issue": "5",
+              "key": "603_CR1",
+              "doi-asserted-by": "crossref",
+              "first-page": "447",
+              "DOI": "10.1016/S0168-874X(00)00057-3",
+              "volume": "37",
+              "author": "K Deb",
+              "year": "2001",
+              "unstructured": "Deb K, Gulati S (2001) Design of truss-structures for minimum weight using genetic algorithms. Finite Elem Anal Des 37(5):447–465",
+              "journal-title": "Finite Elem Anal Des"
+            },
+            {
+              "issue": "2",
+              "key": "603_CR2",
+              "doi-asserted-by": "crossref",
+              "first-page": "73",
+              "DOI": "10.1007/s00163-006-0020-8",
+              "volume": "17",
+              "author": "A Domínguez",
+              "year": "2006",
+              "unstructured": "Domínguez A, Stiharu I, Sedaghati R (2006) Practical design optimization of truss structures using the genetic algorithms. Res Eng Des 17(2):73–84",
+              "journal-title": "Res Eng Des"
+            },
+            {
+              "issue": "3",
+              "key": "603_CR3",
+              "doi-asserted-by": "crossref",
+              "first-page": "361",
+              "DOI": "10.1002/(SICI)1097-0207(19960215)39:3<361::AID-NME854>3.0.CO;2-1",
+              "volume": "39",
+              "author": "M Galante",
+              "year": "1996",
+              "unstructured": "Galante M (1996) Genetic algorithms as an approach to optimize real-world trusses. Int J Numer Meth Eng 39(3):361–382",
+              "journal-title": "Int J Numer Meth Eng"
+            },
+            {
+              "issue": "7",
+              "key": "603_CR4",
+              "doi-asserted-by": "crossref",
+              "first-page": "681",
+              "DOI": "10.1016/S0045-7949(00)00182-6",
+              "volume": "79",
+              "author": "L Gil",
+              "year": "2001",
+              "unstructured": "Gil L, Andreu A (2001) Shape and cross-section optimization of a truss structure. Comput Struct 79(7):681–689",
+              "journal-title": "Comput Struct"
+            },
+            {
+              "key": "603_CR5",
+              "doi-asserted-by": "crossref",
+              "first-page": "421",
+              "DOI": "10.1007/s00158-009-0426-9",
+              "volume": "41",
+              "author": "T Goel",
+              "year": "2010",
+              "unstructured": "Goel T, Stander N, Lin Y (2010) Efficient resource allocation for genetic algorithm based multi-objective optimization with 1000 simulations. Struct Multidisc Optim 41:421–432",
+              "journal-title": "Struct Multidisc Optim"
+            },
+            {
+              "key": "603_CR6",
+              "volume-title": "Genetic algorithms in search, optimization, and machine learning",
+              "author": "D Goldberg",
+              "year": "1989",
+              "unstructured": "Goldberg D (1989) Genetic algorithms in search, optimization, and machine learning. Addison-Wesley Publishing Company, Boston"
+            },
+            {
+              "issue": "3",
+              "key": "603_CR7",
+              "doi-asserted-by": "crossref",
+              "first-page": "932",
+              "DOI": "10.1016/j.actamat.2008.10.038",
+              "volume": "57",
+              "author": "L Gordon",
+              "year": "2008",
+              "unstructured": "Gordon L, Bouwhuis B, Suralvo M, McGrea J, Palumbo G, Hibbard G (2008) Micro-truss nanocrystalline ni hybrids. Acta Mater 57(3):932–939",
+              "journal-title": "Acta Mater"
+            },
+            {
+              "issue": "33–35",
+              "key": "603_CR8",
+              "doi-asserted-by": "crossref",
+              "first-page": "3711",
+              "DOI": "10.1016/j.cma.2004.02.001",
+              "volume": "193",
+              "author": "D Greiner",
+              "year": "2004",
+              "unstructured": "Greiner D, Emperador J, Winter G (2004) Single and multiobjective frame optimization by evolutionary algorithms and the auto-adaptive rebirth operator. Comput Method Appl M 193(33–35):3711–3743",
+              "journal-title": "Comput Method Appl M"
+            },
+            {
+              "key": "603_CR9",
+              "doi-asserted-by": "crossref",
+              "DOI": "10.7551/mitpress/1090.001.0001",
+              "volume-title": "Adaptation in natural and artificial systems. An introductory analysis with applications to biology, control and artificial intelligence",
+              "author": "J Holland",
+              "year": "1992",
+              "unstructured": "Holland J (1992) Adaptation in natural and artificial systems. An introductory analysis with applications to biology, control and artificial intelligence. MIT Press, Cambridge"
+            },
+            {
+              "issue": "11",
+              "key": "603_CR10",
+              "doi-asserted-by": "crossref",
+              "first-page": "2540",
+              "DOI": "10.1016/j.actamat.2008.01.051",
+              "volume": "56",
+              "author": "A Jacobsen",
+              "year": "2008",
+              "unstructured": "Jacobsen A, Barvosa-Carter W, Nutt S (2008) Micro-scale truss structures with three-fold and six-fold symmetry formed from self-propagating polymer waveguides. Acta Mater 56(11):2540–2548",
+              "journal-title": "Acta Mater"
+            },
+            {
+              "issue": "10",
+              "key": "603_CR11",
+              "first-page": "2540",
+              "volume": "38",
+              "author": "O Kelesoglu",
+              "year": "2007",
+              "unstructured": "Kelesoglu O (2007) Micro-scale truss structures with three-fold and six-fold symmetry formed from self-propagating polymer waveguides. Acta Mater 38(10):2540–2548",
+              "journal-title": "Acta Mater"
+            },
+            {
+              "issue": "1–2",
+              "key": "603_CR12",
+              "doi-asserted-by": "crossref",
+              "first-page": "213",
+              "DOI": "10.1016/j.msea.2003.12.005",
+              "volume": "372",
+              "author": "A Kulkarni",
+              "year": "2004",
+              "unstructured": "Kulkarni A, Krishnamurthy K, Deshmukh S, Mishra R (2004) Microstructural optimization of alloys using a genetic algorithm. Mat Sci Eng A-Struct 372(1–2):213–220",
+              "journal-title": "Mat Sci Eng A-Struct"
+            },
+            {
+              "key": "603_CR13",
+              "doi-asserted-by": "crossref",
+              "unstructured": "Mahfouz S, Toropov U, Westbrook R (1998) Improvements in the performance of a genetic algorithm: application to steelwork optimum design. In: Proceedings of 7th AIAA/USAF/NASA/ ISSMO—symposium on multidisciplinary analysis and optimization, St Louis, USA",
+              "DOI": "10.2514/6.1998-4966"
+            },
+            {
+              "key": "603_CR14",
+              "unstructured": "Papadrakakis M, Lagaros N (2000) Advances in structural optimization. In: Recent advances in mechanics. NTUA Publics, Athens, Greece"
+            },
+            {
+              "issue": "2",
+              "key": "603_CR15",
+              "doi-asserted-by": "crossref",
+              "first-page": "265",
+              "DOI": "10.1016/j.jcsr.2004.07.007",
+              "volume": "61",
+              "author": "M Prendes-Gero",
+              "year": "2005",
+              "unstructured": "Prendes-Gero M, Bello-García A, Coz-Díaz J (2005) A modified elitist genetic algorithm applied to the design optimization of complex steel structures. J Constr Steel Res 61(2):265–280",
+              "journal-title": "J Constr Steel Res"
+            },
+            {
+              "issue": "12",
+              "key": "603_CR16",
+              "doi-asserted-by": "crossref",
+              "first-page": "1303",
+              "DOI": "10.1016/j.jcsr.2006.02.005",
+              "volume": "62",
+              "author": "M Prendes-Gero",
+              "year": "2006",
+              "unstructured": "Prendes-Gero M, Bello-García A, Coz-Díaz J (2006) Design optimization of 3d steel structures: genetic algorithms vs classical techniques. J Constr Steel Res 62(12):1303–1309",
+              "journal-title": "J Constr Steel Res"
+            },
+            {
+              "issue": "13",
+              "key": "603_CR17",
+              "doi-asserted-by": "crossref",
+              "first-page": "1737",
+              "DOI": "10.1002/nme.1244",
+              "volume": "62",
+              "author": "W Tang",
+              "year": "2005",
+              "unstructured": "Tang W, Tong L, Gu Y (2005) Improved genetic algorithm for design optimization of truss structures with sizing, shape and topology variables. Int J Numer Meth Eng 62(13):1737–1762",
+              "journal-title": "Int J Numer Meth Eng"
+            },
+            {
+              "issue": "1838",
+              "key": "603_CR18",
+              "doi-asserted-by": "crossref",
+              "first-page": "31",
+              "DOI": "10.1098/rsta.2005.1697",
+              "volume": "364",
+              "author": "H Wadley",
+              "year": "2006",
+              "unstructured": "Wadley H (2006) Multifunctional periodic cellular metals. Philos T R Soc A 364(1838):31–68",
+              "journal-title": "Philos T R Soc A"
+            },
+            {
+              "key": "603_CR19",
+              "unstructured": "Whitley D, Mathias K, Fitzhorn P (1991) Delta coding: an interactive search strategy for genetic algorithms. In: Proceedings of the fourth international conference on genetic algorithms, San Diego, USA"
+            }
+          ],
+          "container-title": [
+            "Structural and Multidisciplinary Optimization"
+          ],
+          "language": "en",
+          "link": [
+            {
+              "URL": "http://link.springer.com/content/pdf/10.1007/s00158-010-0603-x.pdf",
+              "content-type": "application/pdf",
+              "content-version": "vor",
+              "intended-application": "text-mining"
+            },
+            {
+              "URL": "http://link.springer.com/article/10.1007/s00158-010-0603-x/fulltext.html",
+              "content-type": "text/html",
+              "content-version": "vor",
+              "intended-application": "text-mining"
+            },
+            {
+              "URL": "http://link.springer.com/content/pdf/10.1007/s00158-010-0603-x",
+              "content-type": "unspecified",
+              "content-version": "vor",
+              "intended-application": "similarity-checking"
+            }
+          ],
+          "deposited": {
+            "date-parts": [
+              [
+                2019,
+                6,
+                7
+              ]
+            ],
+            "date-time": "2019-06-07T04:10:59Z",
+            "timestamp": 1559880659000
+          },
+          "score": 33.80326,
+          "resource": {
+            "primary": {
+              "URL": "http://link.springer.com/10.1007/s00158-010-0603-x"
+            }
+          },
+          "issued": {
+            "date-parts": [
+              [
+                2010,
+                12,
+                24
+              ]
+            ]
+          },
+          "references-count": 19,
+          "journal-issue": {
+            "issue": "5",
+            "published-print": {
+              "date-parts": [
+                [
+                  2011,
+                  5
+                ]
+              ]
+            }
+          },
+          "alternative-id": [
+            "603"
+          ],
+          "URL": "https://doi.org/10.1007/s00158-010-0603-x",
+          "ISSN": [
+            "1615-147X",
+            "1615-1488"
+          ],
+          "issn-type": [
+            {
+              "value": "1615-147X",
+              "type": "print"
+            },
+            {
+              "value": "1615-1488",
+              "type": "electronic"
+            }
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2010,
+                12,
+                24
+              ]
+            ]
+          }
+        },
+        {
+          "indexed": {
+            "date-parts": [
+              [
+                2024,
+                10,
+                22
+              ]
+            ],
+            "date-time": "2024-10-22T22:15:26Z",
+            "timestamp": 1729635326117,
+            "version": "3.28.0"
+          },
+          "publisher-location": "Reston, Virginia",
+          "reference-count": 18,
+          "publisher": "American Institute of Aeronautics and Astronautics",
+          "content-domain": {
+            "domain": [
+              "arc.aiaa.org"
+            ],
+            "crossmark-restriction": true
+          },
+          "published-print": {
+            "date-parts": [
+              [
+                2017,
+                1,
+                9
+              ]
+            ]
+          },
+          "DOI": "10.2514/6.2017-1301",
+          "type": "proceedings-article",
+          "created": {
+            "date-parts": [
+              [
+                2017,
+                2,
+                7
+              ]
+            ],
+            "date-time": "2017-02-07T14:13:58Z",
+            "timestamp": 1486476838000
+          },
+          "update-policy": "http://dx.doi.org/10.2514/aiaa_crossmarkpolicy",
+          "source": "Crossref",
+          "is-referenced-by-count": 0,
+          "title": [
+            "Topological Optimization of a Cuboct Truss Structure Using a Genetic Algorithm"
+          ],
+          "prefix": "10.2514",
+          "author": [
+            {
+              "given": "Holly M.",
+              "family": "Jackson",
+              "sequence": "first",
+              "affiliation": [
+                {
+                  "name": "NASA Ames Research Center"
+                }
+              ],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            }
+          ],
+          "member": "1387",
+          "published-online": {
+            "date-parts": [
+              [
+                2017,
+                1,
+                5
+              ]
+            ]
+          },
+          "reference": [
+            {
+              "key": "p_1",
+              "unstructured": "15980 series dual column floor frames manual. 2009."
+            },
+            {
+              "key": "p_2",
+              "unstructured": "2Meshlab. 2014."
+            },
+            {
+              "key": "p_3",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1098/rsta.2011.0543"
+            },
+            {
+              "key": "p_4",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1126/science.1240889"
+            },
+            {
+              "key": "p_5",
+              "unstructured": "5Kim Christensen. Percolation theory. Imperial College London, London, page40, 2002."
+            },
+            {
+              "volume-title": "Nasa funds development of new structures for space travel",
+              "year": "2015",
+              "author": "Cicco Nancy",
+              "key": "p_6"
+            },
+            {
+              "key": "p_7",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1016/S1359-6454(00)00379-7"
+            },
+            {
+              "volume-title": "Frame3dd user manual",
+              "year": "2010",
+              "author": "Gavin Henri P",
+              "key": "p_8"
+            },
+            {
+              "issue": "8",
+              "key": "p_9",
+              "first-page": "475",
+              "volume": "48",
+              "author": "Groth Christian",
+              "year": "2014",
+              "journal-title": "J Clin Orthod"
+            },
+            {
+              "key": "p_10",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1109/APS.2000.875398"
+            },
+            {
+              "key": "p_11",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1089/soro.2013.0010"
+            },
+            {
+              "key": "p_12",
+              "first-page": "1521",
+              "volume-title": "Proceedings of the 11th Annual conference on Genetic and evolutionary computation",
+              "author": "Jonathan",
+              "year": "2009"
+            },
+            {
+              "volume-title": "Weight optimization of steel trusses by a genetic algorithm. Department of Structural Engineering",
+              "year": "2010",
+              "author": "Hultman Max",
+              "key": "p_13"
+            },
+            {
+              "issue": "2",
+              "key": "p_15",
+              "doi-asserted-by": "crossref",
+              "first-page": "20",
+              "DOI": "10.1109/13.925863",
+              "volume": "44",
+              "author": "Liao Ying-Hong",
+              "year": "2001",
+              "journal-title": "IEEE Trans. Education"
+            },
+            {
+              "volume-title": "Topology optimization of an aircraft wing",
+              "year": "2015",
+              "author": "Liu David",
+              "key": "p_16"
+            },
+            {
+              "issue": "17",
+              "key": "p_17",
+              "volume": "72",
+              "author": "Matthias K.",
+              "year": "2013",
+              "journal-title": "International Journal of Computer Applications"
+            },
+            {
+              "volume-title": "Structural biological materials: critical mechanics-materials connections. science, 339(6121):773-779",
+              "year": "2013",
+              "author": "Meyers Marc André",
+              "key": "p_18"
+            },
+            {
+              "issue": "3",
+              "key": "p_20",
+              "first-page": "38",
+              "volume": "5",
+              "author": "Patil",
+              "year": "2015",
+              "journal-title": "International Journal of Applied Engineering and Technology"
+            }
+          ],
+          "event": {
+            "name": "58th AIAA/ASCE/AHS/ASC Structures, Structural Dynamics, and Materials Conference",
+            "location": "Grapevine, Texas"
+          },
+          "container-title": [
+            "58th AIAA/ASCE/AHS/ASC Structures, Structural Dynamics, and Materials Conference"
+          ],
+          "link": [
+            {
+              "URL": "http://arc.aiaa.org/doi/pdf/10.2514/6.2017-1301",
+              "content-type": "unspecified",
+              "content-version": "vor",
+              "intended-application": "similarity-checking"
+            }
+          ],
+          "deposited": {
+            "date-parts": [
+              [
+                2021,
+                5,
+                8
+              ]
+            ],
+            "date-time": "2021-05-08T02:51:31Z",
+            "timestamp": 1620442291000
+          },
+          "score": 33.606846,
+          "resource": {
+            "primary": {
+              "URL": "https://arc.aiaa.org/doi/10.2514/6.2017-1301"
+            }
+          },
+          "issued": {
+            "date-parts": [
+              [
+                2017,
+                1,
+                5
+              ]
+            ]
+          },
+          "references-count": 18,
+          "alternative-id": [
+            "10.2514/6.2017-1301",
+            "10.2514/MSDM17"
+          ],
+          "URL": "https://doi.org/10.2514/6.2017-1301",
+          "published": {
+            "date-parts": [
+              [
+                2017,
+                1,
+                5
+              ]
+            ]
+          }
+        }
+      ],
+      "items-per-page": 3,
+      "query": {
+        "start-index": 0,
+        "search-terms": null
+      }
+    }
+  }
+}

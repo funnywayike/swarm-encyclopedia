@@ -1,0 +1,1442 @@
+{
+  "retrieved": "2026-10-16",
+  "url": "https://api.crossref.org/works/10.1016/j.cor.2021.105400",
+  "response": {
+    "status": "ok",
+    "message-type": "work",
+    "message-version": "1.0.0",
+    "message": {
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            10,
+            14
+          ]
+        ],
+        "date-time": "2026-10-14T17:57:30Z",
+        "timestamp": 1792000650434,
+        "version": "4.4.0"
+      },
+      "reference-count": 113,
+      "publisher": "Elsevier BV",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2021,
+                10,
+                1
+              ]
+            ],
+            "date-time": "2021-10-01T00:00:00Z",
+            "timestamp": 1633046400000
+          },
+          "content-version": "tdm",
+          "delay-in-days": 0,
+          "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+        },
+        {
+          "start": {
+            "date-parts": [
+              [
+                2021,
+                10,
+                1
+              ]
+            ],
+            "date-time": "2021-10-01T00:00:00Z",
+            "timestamp": 1633046400000
+          },
+          "content-version": "tdm",
+          "delay-in-days": 0,
+          "URL": "https://www.elsevier.com/legal/tdmrep-license"
+        },
+        {
+          "start": {
+            "date-parts": [
+              [
+                2021,
+                10,
+                1
+              ]
+            ],
+            "date-time": "2021-10-01T00:00:00Z",
+            "timestamp": 1633046400000
+          },
+          "content-version": "stm-asf",
+          "delay-in-days": 0,
+          "URL": "https://doi.org/10.15223/policy-017"
+        },
+        {
+          "start": {
+            "date-parts": [
+              [
+                2021,
+                10,
+                1
+              ]
+            ],
+            "date-time": "2021-10-01T00:00:00Z",
+            "timestamp": 1633046400000
+          },
+          "content-version": "stm-asf",
+          "delay-in-days": 0,
+          "URL": "https://doi.org/10.15223/policy-037"
+        },
+        {
+          "start": {
+            "date-parts": [
+              [
+                2021,
+                10,
+                1
+              ]
+            ],
+            "date-time": "2021-10-01T00:00:00Z",
+            "timestamp": 1633046400000
+          },
+          "content-version": "stm-asf",
+          "delay-in-days": 0,
+          "URL": "https://doi.org/10.15223/policy-012"
+        },
+        {
+          "start": {
+            "date-parts": [
+              [
+                2021,
+                10,
+                1
+              ]
+            ],
+            "date-time": "2021-10-01T00:00:00Z",
+            "timestamp": 1633046400000
+          },
+          "content-version": "stm-asf",
+          "delay-in-days": 0,
+          "URL": "https://doi.org/10.15223/policy-029"
+        },
+        {
+          "start": {
+            "date-parts": [
+              [
+                2021,
+                10,
+                1
+              ]
+            ],
+            "date-time": "2021-10-01T00:00:00Z",
+            "timestamp": 1633046400000
+          },
+          "content-version": "stm-asf",
+          "delay-in-days": 0,
+          "URL": "https://doi.org/10.15223/policy-004"
+        }
+      ],
+      "funder": [
+        {
+          "DOI": "10.13039/501100002261",
+          "name": "Russian Foundation for Basic Research",
+          "doi-asserted-by": "publisher",
+          "award": [
+            "20-01-00203"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "20-01-00203"
+              ]
+            }
+          ],
+          "id": [
+            {
+              "id": "10.13039/501100002261",
+              "id-type": "DOI",
+              "asserted-by": "publisher"
+            }
+          ]
+        },
+        {
+          "DOI": "10.13039/501100002261",
+          "name": "Russian Foundation for Basic Research",
+          "doi-asserted-by": "publisher",
+          "award": [
+            "21-51-12005 NNIO_a"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "21-51-12005 NNIO_a"
+              ]
+            }
+          ],
+          "id": [
+            {
+              "id": "10.13039/501100002261",
+              "id-type": "DOI",
+              "asserted-by": "publisher"
+            }
+          ]
+        }
+      ],
+      "content-domain": {
+        "domain": [
+          "elsevier.com",
+          "sciencedirect.com"
+        ],
+        "crossmark-restriction": true
+      },
+      "short-container-title": [
+        "Computers &amp; Operations Research"
+      ],
+      "published-print": {
+        "date-parts": [
+          [
+            2021,
+            10
+          ]
+        ]
+      },
+      "DOI": "10.1016/j.cor.2021.105400",
+      "type": "journal-article",
+      "created": {
+        "date-parts": [
+          [
+            2021,
+            5,
+            28
+          ]
+        ],
+        "date-time": "2021-05-28T23:49:47Z",
+        "timestamp": 1622245787000
+      },
+      "page": "105400",
+      "update-policy": "https://doi.org/10.1016/elsevier_cm_policy",
+      "source": "Crossref",
+      "is-referenced-by-count": 660,
+      "special_numbering": "C",
+      "title": [
+        "Reinforcement learning for combinatorial optimization: A survey"
+      ],
+      "prefix": "10.1016",
+      "volume": "134",
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0000-0002-0874-4165",
+          "authenticated-orcid": false,
+          "given": "Nina",
+          "family": "Mazyavkina",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0003-3281-4984",
+          "authenticated-orcid": false,
+          "given": "Sergey",
+          "family": "Sviridov",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Sergei",
+          "family": "Ivanov",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0001-8424-0690",
+          "authenticated-orcid": false,
+          "given": "Evgeny",
+          "family": "Burnaev",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "78",
+      "reference": [
+        {
+          "issue": "1",
+          "key": "10.1016/j.cor.2021.105400_b1",
+          "first-page": "307",
+          "article-title": "Fast discovery of association rules",
+          "volume": "12",
+          "author": "Agrawal",
+          "year": "1996",
+          "journal-title": "Adv. Knowl. Discov. Data Min."
+        },
+        {
+          "key": "10.1016/j.cor.2021.105400_b2",
+          "doi-asserted-by": "crossref",
+          "first-page": "211",
+          "DOI": "10.1016/j.tcs.2015.09.023",
+          "article-title": "Branch-and-reduce exponential/fpt algorithms in practice: A case study of vertex cover",
+          "volume": "609",
+          "author": "Akiba",
+          "year": "2016",
+          "journal-title": "Theoret. Comput. Sci."
+        },
+        {
+          "key": "10.1016/j.cor.2021.105400_b3",
+          "series-title": "International Workshop on Experimental and Efficient Algorithms",
+          "first-page": "220",
+          "article-title": "Fast local search for the maximum independent set problem",
+          "author": "Andrade",
+          "year": "2008"
+        },
+        {
+          "key": "10.1016/j.cor.2021.105400_b4",
+          "series-title": "Proceedings of the 31st International Conference on Neural Information Processing Systems",
+          "isbn-type": "print",
+          "first-page": "5366",
+          "article-title": "Thinking fast and slow with deep learning and tree search",
+          "author": "Anthony",
+          "year": "2017",
+          "ISBN": "https://id.crossref.org/isbn/9781510860964"
+        },
+        {
+          "key": "10.1016/j.cor.2021.105400_b5",
+          "series-title": "The Traveling Salesman Problem: a Computational Study",
+          "author": "Applegate",
+          "year": "2006"
+        },
+        {
+          "key": "10.1016/j.cor.2021.105400_b6",
+          "series-title": "Proceedings of the First IEEE Conference on Evolutionary Computation. IEEE World Congress on Computational Intelligence",
+          "first-page": "531",
+          "article-title": "An evolutionary heuristic for the maximum independent set problem",
+          "author": "Back",
+          "year": "1994"
+        },
+        {
+          "issue": "10",
+          "key": "10.1016/j.cor.2021.105400_b7",
+          "doi-asserted-by": "crossref",
+          "first-page": "3241",
+          "DOI": "10.1088/0305-4470/15/10/028",
+          "article-title": "On the computational complexity of ising spin glass models",
+          "volume": "15",
+          "author": "Barahona",
+          "year": "1982",
+          "journal-title": "J. Phys. A",
+          "ISSN": "https://id.crossref.org/issn/1361-6447",
+          "issn-type": "print"
+        },
+        {
+          "key": "10.1016/j.cor.2021.105400_b8",
+          "series-title": "Proceedings of the the 34th National Conference on Artificial Intelligence",
+          "doi-asserted-by": "crossref",
+          "first-page": "3243",
+          "DOI": "10.1609/aaai.v34i04.5723",
+          "article-title": "Exploratory combinatorial optimization with reinforcement learning",
+          "volume": "34",
+          "author": "Barrett",
+          "year": "2020",
+          "ISSN": "https://id.crossref.org/issn/2374-3468",
+          "issn-type": "print"
+        },
+        {
+          "issue": "8",
+          "key": "10.1016/j.cor.2021.105400_b9",
+          "doi-asserted-by": "crossref",
+          "first-page": "716",
+          "DOI": "10.1073/pnas.38.8.716",
+          "article-title": "On the theory of dynamic programming",
+          "volume": "38",
+          "author": "Bellman",
+          "year": "1952",
+          "journal-title": "Proc. Natl. Acad. Sci. USA",
+          "ISSN": "https://id.crossref.org/issn/0027-8424",
+          "issn-type": "print"
+        },
+        {
+          "key": "10.1016/j.cor.2021.105400_b10",
+          "doi-asserted-by": "crossref",
+          "first-page": "679",
+          "DOI": "10.1512/iumj.1957.6.56038",
+          "article-title": "A Markovian decision process",
+          "volume": "6",
+          "author": "Bellman",
+          "year": "1957",
+          "journal-title": "Indiana Univ. Math. J.",
+          "ISSN": "https://id.crossref.org/issn/0022-2518",
+          "issn-type": "print"
+        },
+        {
+          "key": "10.1016/j.cor.2021.105400_b11",
+          "unstructured": "Bello, I., Pham, H., Le, Q.V., Norouzi, M., Bengio, S., 2017. Neural combinatorial optimization with reinforcement learning. In: Workshop Proceedings of the 5th International Conference on Learning Representations, ICLR."
+        },
+        {
+          "issue": "2",
+          "key": "10.1016/j.cor.2021.105400_b12",
+          "doi-asserted-by": "crossref",
+          "first-page": "405",
+          "DOI": "10.1016/j.ejor.2020.07.063",
+          "article-title": "Machine learning for combinatorial optimization: A methodological tour d’horizon",
+          "volume": "290",
+          "author": "Bengio",
+          "year": "2020",
+          "journal-title": "European J. Oper. Res.",
+          "ISSN": "https://id.crossref.org/issn/0377-2217",
+          "issn-type": "print"
+        },
+        {
+          "key": "10.1016/j.cor.2021.105400_b13",
+          "series-title": "Decision diagrams for optimization",
+          "isbn-type": "print",
+          "author": "Bergman",
+          "year": "2016",
+          "ISBN": "https://id.crossref.org/isbn/3319428470"
+        },
+        {
+          "key": "10.1016/j.cor.2021.105400_b14",
+          "series-title": "Workshops on Applications of Evolutionary Computation",
+          "first-page": "154",
+          "article-title": "Experimental comparison of two evolutionary algorithms for the independent set problem",
+          "author": "Borisovsky",
+          "year": "2003"
+        },
+        {
+          "issue": "1",
+          "key": "10.1016/j.cor.2021.105400_b15",
+          "doi-asserted-by": "crossref",
+          "first-page": "1",
+          "DOI": "10.1109/TCIAIG.2012.2186810",
+          "article-title": "A survey of Monte Carlo tree search methods",
+          "volume": "4",
+          "author": "Browne",
+          "year": "2012",
+          "journal-title": "IEEE Trans. Comput. Intell. AI Games",
+          "ISSN": "https://id.crossref.org/issn/1943-068X",
+          "issn-type": "print"
+        },
+        {
+          "key": "10.1016/j.cor.2021.105400_b16",
+          "unstructured": "Cai, Q., Hang, W., Mirhoseini, A., Tucker, G., Wang, J., Wei, W., 2019. Reinforcement learning driven heuristic optimization. In: Proceedings of Workshop on Deep Reinforcement Learning for Knowledge Discovery, DRL4KDD."
+        },
+        {
+          "key": "10.1016/j.cor.2021.105400_b17",
+          "series-title": "Proceedings of the 33rd AAAI Conference on Artificial Intelligence",
+          "isbn-type": "print",
+          "doi-asserted-by": "crossref",
+          "first-page": "1443",
+          "DOI": "10.1609/aaai.v33i01.33011443",
+          "article-title": "Improving optimization bounds using machine learning: Decision diagrams meet deep reinforcement learning",
+          "volume": "Vol. 33",
+          "author": "Cappart",
+          "year": "2019",
+          "ISBN": "https://id.crossref.org/isbn/9781577358091",
+          "ISSN": "https://id.crossref.org/issn/2159-5399",
+          "issn-type": "print"
+        },
+        {
+          "key": "10.1016/j.cor.2021.105400_b18",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Cappart, Q., Moisan, T., Rousseau, L.-M., Prémont-Schwarz, I., Cire, A., 2021. Combining reinforcement learning and constraint programming for combinatorial optimization. In: Proceedings of the the 35th National Conference on Artificial Intelligence, AAAI.",
+          "DOI": "10.1609/aaai.v35i5.16484"
+        },
+        {
+          "issue": "1",
+          "key": "10.1016/j.cor.2021.105400_b19",
+          "doi-asserted-by": "crossref",
+          "first-page": "68",
+          "DOI": "10.1016/0377-2217(94)00002-T",
+          "article-title": "An analytical model for the container loading problem",
+          "volume": "80",
+          "author": "Chen",
+          "year": "1995",
+          "journal-title": "European J. Oper. Res."
+        },
+        {
+          "key": "10.1016/j.cor.2021.105400_b20",
+          "unstructured": "Chen, X., Tian, Y., 2019. Learning to perform local rewriting for combinatorial optimization. In: Proceedings of the 33rd Conference on Advances in Neural Information Processing Systems, NeurIPS’19, pp. 6281–6292."
+        },
+        {
+          "key": "10.1016/j.cor.2021.105400_b21",
+          "series-title": "Proceedings of the 2014 Conference on Empirical Methods in Natural Language Processing (EMNLP)",
+          "first-page": "1724",
+          "article-title": "Learning phrase representations using RNN encoder-decoder for statistical machine translation",
+          "author": "Cho",
+          "year": "2014"
+        },
+        {
+          "key": "10.1016/j.cor.2021.105400_b22",
+          "series-title": "Worst-case analysis of a new heuristic for the travelling salesman problem",
+          "author": "Christofides",
+          "year": "1976"
+        },
+        {
+          "issue": "4",
+          "key": "10.1016/j.cor.2021.105400_b23",
+          "doi-asserted-by": "crossref",
+          "first-page": "568",
+          "DOI": "10.1287/opre.12.4.568",
+          "article-title": "Scheduling of vehicles from a central depot to a number of delivery points",
+          "volume": "12",
+          "author": "Clarke",
+          "year": "1964",
+          "journal-title": "Oper. Res.",
+          "ISSN": "https://id.crossref.org/issn/0030-364X",
+          "issn-type": "print"
+        },
+        {
+          "issue": "53",
+          "key": "10.1016/j.cor.2021.105400_b24",
+          "first-page": "157",
+          "article-title": "IBM ILOG v12. 1: User’s manual for CPLEX",
+          "volume": "46",
+          "author": "Cplex",
+          "year": "2009",
+          "journal-title": "Int. Bus. Mach. Corp."
+        },
+        {
+          "issue": "6",
+          "key": "10.1016/j.cor.2021.105400_b25",
+          "doi-asserted-by": "crossref",
+          "first-page": "791",
+          "DOI": "10.1287/opre.6.6.791",
+          "article-title": "A method for solving traveling salesman problems",
+          "volume": "6",
+          "author": "Croes",
+          "year": "1958",
+          "journal-title": "Oper. Res.",
+          "ISSN": "https://id.crossref.org/issn/0030-364X",
+          "issn-type": "print"
+        },
+        {
+          "key": "10.1016/j.cor.2021.105400_b26",
+          "series-title": "Proceedings of the 33rd International Conference on Machine Learning",
+          "isbn-type": "print",
+          "article-title": "Discriminative embeddings of latent variable models for structured data",
+          "author": "Dai",
+          "year": "2016",
+          "ISBN": "https://id.crossref.org/isbn/9781510829008"
+        },
+        {
+          "issue": "4",
+          "key": "10.1016/j.cor.2021.105400_b27",
+          "first-page": "393",
+          "article-title": "Solution of a large-scale traveling-salesman problem",
+          "volume": "2",
+          "author": "Dantzig",
+          "year": "1954",
+          "journal-title": "J. Oper. Res. Soc. Am."
+        },
+        {
+          "key": "10.1016/j.cor.2021.105400_b28",
+          "series-title": "Linear Programming 1: Introduction",
+          "author": "Dantzig",
+          "year": "1997"
+        },
+        {
+          "key": "10.1016/j.cor.2021.105400_b29",
+          "series-title": "International Conference on Tools and Algorithms for the Construction and Analysis of Systems",
+          "isbn-type": "print",
+          "first-page": "337",
+          "article-title": "Z3: An efficient SMT solver",
+          "author": "De Moura",
+          "year": "2008",
+          "ISBN": "https://id.crossref.org/isbn/3540787992"
+        },
+        {
+          "key": "10.1016/j.cor.2021.105400_b30",
+          "series-title": "Integration of Constraint Programming, Artificial Intelligence, and Operations Research",
+          "isbn-type": "print",
+          "doi-asserted-by": "crossref",
+          "first-page": "170",
+          "DOI": "10.1007/978-3-319-93031-2_12",
+          "article-title": "Learning heuristics for the TSP by policy gradient",
+          "author": "Deudon",
+          "year": "2018",
+          "ISBN": "https://id.crossref.org/isbn/9783319930305"
+        },
+        {
+          "issue": "1",
+          "key": "10.1016/j.cor.2021.105400_b31",
+          "doi-asserted-by": "crossref",
+          "first-page": "439",
+          "DOI": "10.4007/annals.2005.162.439",
+          "article-title": "On the hardness of approximating minimum vertex cover",
+          "volume": "162",
+          "author": "Dinur",
+          "year": "2005",
+          "journal-title": "Ann. of Math.",
+          "ISSN": "https://id.crossref.org/issn/0003-486X",
+          "issn-type": "print"
+        },
+        {
+          "key": "10.1016/j.cor.2021.105400_b32",
+          "article-title": "Learning to solve combinatorial optimization problems on real-world graphs in linear time",
+          "author": "Drori",
+          "year": "2020",
+          "journal-title": "IEEE Int. Conf. Mach. Learn. Appl."
+        },
+        {
+          "key": "10.1016/j.cor.2021.105400_b33",
+          "series-title": "Proceedings of the 18th International Conference on Autonomous Agents and MultiAgent Systems",
+          "isbn-type": "print",
+          "doi-asserted-by": "crossref",
+          "first-page": "1386",
+          "DOI": "10.65109/PHEJ7266",
+          "article-title": "A multi-task selected learning approach for solving 3D flexible bin packing problem",
+          "author": "Duan",
+          "year": "2019",
+          "ISBN": "https://id.crossref.org/isbn/9781510892002"
+        },
+        {
+          "key": "10.1016/j.cor.2021.105400_b34",
+          "series-title": "Financial portfolio management using D-wave quantum optimizer: The case of abu dhabi securities exchange",
+          "author": "Elsokkary",
+          "year": "2017"
+        },
+        {
+          "key": "10.1016/j.cor.2021.105400_b35",
+          "series-title": "Learning permutations with sinkhorn policy gradient",
+          "author": "Emami",
+          "year": "2018"
+        },
+        {
+          "issue": "5",
+          "key": "10.1016/j.cor.2021.105400_b36",
+          "doi-asserted-by": "crossref",
+          "first-page": "860",
+          "DOI": "10.1287/opre.42.5.860",
+          "article-title": "A greedy randomized adaptive search procedure for maximum independent set",
+          "volume": "42",
+          "author": "Feo",
+          "year": "1994",
+          "journal-title": "Oper. Res."
+        },
+        {
+          "issue": "2",
+          "key": "10.1016/j.cor.2021.105400_b37",
+          "first-page": "124",
+          "article-title": "Combinatorial optimisation of worm propagation on an unknown network",
+          "volume": "2",
+          "author": "Filiol",
+          "year": "2007",
+          "journal-title": "Int. J. Comput. Sci."
+        },
+        {
+          "issue": "2",
+          "key": "10.1016/j.cor.2021.105400_b38",
+          "doi-asserted-by": "crossref",
+          "first-page": "273",
+          "DOI": "10.1021/ci990262o",
+          "article-title": "Graph-theoretic techniques for macromolecular docking",
+          "volume": "40",
+          "author": "Gardiner",
+          "year": "2000",
+          "journal-title": "J. Chem. Inf. Comput. Sci."
+        },
+        {
+          "key": "10.1016/j.cor.2021.105400_b39",
+          "series-title": "The SCIP optimization suite 5.0",
+          "author": "Gleixner",
+          "year": "2017"
+        },
+        {
+          "issue": "6",
+          "key": "10.1016/j.cor.2021.105400_b40",
+          "doi-asserted-by": "crossref",
+          "first-page": "1115",
+          "DOI": "10.1145/227683.227684",
+          "article-title": "Improved approximation algorithms for maximum cut and satisfiability problems using semidefinite programming",
+          "volume": "42",
+          "author": "Goemans",
+          "year": "1995",
+          "journal-title": "J. ACM",
+          "ISSN": "https://id.crossref.org/issn/1557-735X",
+          "issn-type": "print"
+        },
+        {
+          "key": "10.1016/j.cor.2021.105400_b41",
+          "series-title": "Handbook of Approximation Algorithms and Metaheuristics",
+          "isbn-type": "print",
+          "author": "Gonzalez",
+          "year": "2007",
+          "ISBN": "https://id.crossref.org/isbn/9781420010749"
+        },
+        {
+          "key": "10.1016/j.cor.2021.105400_b42",
+          "series-title": "Deep Learning",
+          "author": "Goodfellow",
+          "year": "2016"
+        },
+        {
+          "key": "10.1016/j.cor.2021.105400_b43",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Groshev, E., Goldstein, M., Tamar, A., Srivastava, S., Abbeel, P., 2018. Learning generalized reactive policies using deep neural networks. In: Proceedings of the 28th International Conference on Automated Planning and Scheduling, ICAPS, pp. 408–416.",
+          "DOI": "10.1609/icaps.v28i1.13872"
+        },
+        {
+          "issue": "2",
+          "key": "10.1016/j.cor.2021.105400_b44",
+          "doi-asserted-by": "crossref",
+          "first-page": "298",
+          "DOI": "10.3390/math8020298",
+          "article-title": "A deep learning algorithm for the max-cut problem based on pointer network structure with supervised learning and reinforcement learning strategies",
+          "volume": "8",
+          "author": "Gu",
+          "year": "2020",
+          "journal-title": "Mathematics",
+          "ISSN": "https://id.crossref.org/issn/2227-7390",
+          "issn-type": "print"
+        },
+        {
+          "key": "10.1016/j.cor.2021.105400_b45",
+          "series-title": "Nonlinear Combinatorial Optimization",
+          "isbn-type": "print",
+          "doi-asserted-by": "crossref",
+          "first-page": "207",
+          "DOI": "10.1007/978-3-030-16194-1_9",
+          "article-title": "Solving combinatorial problems with machine learning methods",
+          "author": "Guo",
+          "year": "2019",
+          "ISBN": "https://id.crossref.org/isbn/9783030161941"
+        },
+        {
+          "key": "10.1016/j.cor.2021.105400_b46",
+          "series-title": "Gurobi optimizer reference manual",
+          "author": "Gurobi Optimization",
+          "year": "2020"
+        },
+        {
+          "issue": "1",
+          "key": "10.1016/j.cor.2021.105400_b47",
+          "doi-asserted-by": "crossref",
+          "first-page": "117",
+          "DOI": "10.1016/j.dam.2003.09.012",
+          "article-title": "Variable neighborhood search for the maximum clique",
+          "volume": "145",
+          "author": "Hansen",
+          "year": "2004",
+          "journal-title": "Discrete Appl. Math."
+        },
+        {
+          "issue": "1",
+          "key": "10.1016/j.cor.2021.105400_b48",
+          "doi-asserted-by": "crossref",
+          "first-page": "196",
+          "DOI": "10.1137/0110015",
+          "article-title": "A dynamic programming approach to sequencing problems",
+          "volume": "10",
+          "author": "Held",
+          "year": "1962",
+          "journal-title": "J. Soc. Ind. Appl. Math."
+        },
+        {
+          "issue": "1",
+          "key": "10.1016/j.cor.2021.105400_b49",
+          "doi-asserted-by": "crossref",
+          "first-page": "106",
+          "DOI": "10.1016/S0377-2217(99)00284-2",
+          "article-title": "An effective implementation of the lin–kernighan traveling salesman heuristic",
+          "volume": "126",
+          "author": "Helsgaun",
+          "year": "2000",
+          "journal-title": "European J. Oper. Res."
+        },
+        {
+          "key": "10.1016/j.cor.2021.105400_b50",
+          "series-title": "An extension of the lin-kernighan-helsgaun TSP solver for constrained traveling salesman and vehicle routing problems",
+          "author": "Helsgaun",
+          "year": "2017"
+        },
+        {
+          "key": "10.1016/j.cor.2021.105400_b51",
+          "series-title": "Proceedings of the 32nd Conference on Artificial Intelligence",
+          "isbn-type": "print",
+          "article-title": "Deep q-learning from demonstrations",
+          "author": "Hester",
+          "year": "2018",
+          "ISBN": "https://id.crossref.org/isbn/9781577358008"
+        },
+        {
+          "issue": "8",
+          "key": "10.1016/j.cor.2021.105400_b52",
+          "doi-asserted-by": "crossref",
+          "first-page": "1735",
+          "DOI": "10.1162/neco.1997.9.8.1735",
+          "article-title": "Long short-term memory",
+          "volume": "9",
+          "author": "Hochreiter",
+          "year": "1997",
+          "journal-title": "Neural Comput."
+        },
+        {
+          "key": "10.1016/j.cor.2021.105400_b53",
+          "unstructured": "Hu, H., Zhang, X., Yan, X., Wang, L., Xu, Y., 2017. Solving a new 3d bin packing problem with deep reinforcement learning method. In: Proceedings of the Workshop on AI application in E-commerce co-located with the 16th International Joint Conference on Artificial Intelligence, IJCAI’17."
+        },
+        {
+          "issue": "4",
+          "key": "10.1016/j.cor.2021.105400_b54",
+          "doi-asserted-by": "crossref",
+          "first-page": "1",
+          "DOI": "10.1145/1597036.1597045",
+          "article-title": "A better approximation ratio for the vertex cover problem",
+          "volume": "5",
+          "author": "Karakostas",
+          "year": "2009",
+          "journal-title": "ACM Trans. Algor."
+        },
+        {
+          "key": "10.1016/j.cor.2021.105400_b55",
+          "series-title": "Complexity of Computer Computations",
+          "first-page": "85",
+          "article-title": "Reducibility among combinatorial problems",
+          "author": "Karp",
+          "year": "1972"
+        },
+        {
+          "issue": "5",
+          "key": "10.1016/j.cor.2021.105400_b56",
+          "doi-asserted-by": "crossref",
+          "first-page": "503",
+          "DOI": "10.1016/j.ipl.2005.05.010",
+          "article-title": "An effective local search for the maximum clique problem",
+          "volume": "95",
+          "author": "Katayama",
+          "year": "2005",
+          "journal-title": "Inform. Process. Lett."
+        },
+        {
+          "key": "10.1016/j.cor.2021.105400_b57",
+          "series-title": "Knapsack Problems",
+          "first-page": "235",
+          "article-title": "Multidimensional knapsack problems",
+          "author": "Kellerer",
+          "year": "2004"
+        },
+        {
+          "key": "10.1016/j.cor.2021.105400_b58",
+          "unstructured": "Khalil, E., Dai, H., Zhang, Y., Dilkina, B., Song, L., 2017. Learning combinatorial optimization algorithms over graphs. In: Proceedings of the 31st Conference on Advances in Neural Information Processing Systems, NeurIPS."
+        },
+        {
+          "key": "10.1016/j.cor.2021.105400_b59",
+          "unstructured": "Kipf, T.N., Welling, M., 2017. Semi-supervised classification with graph convolutional networks. In: International Conference on Learning Representations, ICLR."
+        },
+        {
+          "key": "10.1016/j.cor.2021.105400_b60",
+          "unstructured": "Kool, W., van Hoof, H., Welling, M., 2019. Attention, learn to solve routing problems! In: Proceedings of the 7th International Conference on Learning Representations, ICLR."
+        },
+        {
+          "key": "10.1016/j.cor.2021.105400_b61",
+          "series-title": "IJCAI 2003, Proceedings of the 18th International Joint Conference on Artificial Intelligence",
+          "first-page": "1252",
+          "article-title": "An improved algorithm for optimal bin packing",
+          "volume": "Vol. 3",
+          "author": "Korf",
+          "year": "2003"
+        },
+        {
+          "key": "10.1016/j.cor.2021.105400_b62",
+          "series-title": "Combinatorial Optimization",
+          "author": "Korte",
+          "year": "2012"
+        },
+        {
+          "key": "10.1016/j.cor.2021.105400_b63",
+          "series-title": "International Symposium on Experimental Algorithms",
+          "first-page": "68",
+          "article-title": "Graph partitioning for independent sets",
+          "author": "Lamm",
+          "year": "2015"
+        },
+        {
+          "key": "10.1016/j.cor.2021.105400_b64",
+          "series-title": "2016 Proceedings of the Eighteenth Workshop on Algorithm Engineering and Experiments (ALENEX)",
+          "first-page": "138",
+          "article-title": "Finding near-optimal independent sets at scale",
+          "author": "Lamm",
+          "year": "2016"
+        },
+        {
+          "key": "10.1016/j.cor.2021.105400_b65",
+          "series-title": "Algorithms - ESA 2001, Proceedings of the 9th Annual European Symposium",
+          "first-page": "182",
+          "article-title": "SNPs problems, complexity, and algorithms",
+          "volume": "2161",
+          "author": "Lancia",
+          "year": "2001"
+        },
+        {
+          "key": "10.1016/j.cor.2021.105400_b66",
+          "unstructured": "Laterre, A., Fu, Y., Jabri, M.K., Cohen, A.-S., Kas, D., Hajjar, K., Dahl, T.S., Kerkeni, A., Beguir, K., 2018. Ranked reward: Enabling self-play reinforcement learning for combinatorial optimization. In: Proceedings of the Workshop on Deep Reinforcement Learning co-located with the 32nd Conference on Advances in Neural Information Processing Systems, NeurIPS’18."
+        },
+        {
+          "issue": "4",
+          "key": "10.1016/j.cor.2021.105400_b67",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1103/PhysRevLett.122.040607",
+          "article-title": "Destabilization of local minima in analog spin systems by correction of amplitude heterogeneity",
+          "volume": "122",
+          "author": "Leleu",
+          "year": "2019",
+          "journal-title": "Phys. Rev. Lett.",
+          "ISSN": "https://id.crossref.org/issn/1079-7114",
+          "issn-type": "print"
+        },
+        {
+          "key": "10.1016/j.cor.2021.105400_b68",
+          "unstructured": "Lillicrap, T.P., Hunt, J.J., Pritzel, A., Heess, N., Erez, T., Tassa, Y., Silver, D., Wierstra, D., 2016. Continuous control with deep reinforcement learning. In: Proceedings of the 4th International Conference on Learning Representations, ICLR."
+        },
+        {
+          "issue": "2",
+          "key": "10.1016/j.cor.2021.105400_b69",
+          "doi-asserted-by": "crossref",
+          "first-page": "498",
+          "DOI": "10.1287/opre.21.2.498",
+          "article-title": "An effective heuristic algorithm for the traveling-salesman problem",
+          "volume": "21",
+          "author": "Lin",
+          "year": "1973",
+          "journal-title": "Oper. Res."
+        },
+        {
+          "issue": "2",
+          "key": "10.1016/j.cor.2021.105400_b70",
+          "doi-asserted-by": "crossref",
+          "first-page": "410",
+          "DOI": "10.1016/S0377-2217(02)00134-0",
+          "article-title": "Heuristic algorithms for the three-dimensional bin packing problem",
+          "volume": "141",
+          "author": "Lodi",
+          "year": "2002",
+          "journal-title": "European J. Oper. Res."
+        },
+        {
+          "key": "10.1016/j.cor.2021.105400_b71",
+          "unstructured": "Lu, H., Zhang, X., Yang, S., 2020. A learning-based iterative method for solving vehicle routing problems. In: International Conference on Learning Representations."
+        },
+        {
+          "key": "10.1016/j.cor.2021.105400_b72",
+          "series-title": "AAAI Workshop on Deep Learning on Graphs: Methodologies and Applications",
+          "article-title": "Combinatorial optimization by graph pointer networks and hierarchical reinforcement learning",
+          "author": "Ma",
+          "year": "2020"
+        },
+        {
+          "key": "10.1016/j.cor.2021.105400_b73",
+          "series-title": "GLPK (GNU linear programming kit)",
+          "author": "Makhorin",
+          "year": "2012"
+        },
+        {
+          "key": "10.1016/j.cor.2021.105400_b74",
+          "series-title": "Proceedings of the 33d Conference on Advances in Neural Information Processing Systems",
+          "first-page": "20000",
+          "article-title": "GCOMB: Learning budget-constrained combinatorial algorithms over billion-sized graphs",
+          "volume": "Vol. 33",
+          "author": "Manchanda",
+          "year": "2020"
+        },
+        {
+          "key": "10.1016/j.cor.2021.105400_b75",
+          "series-title": "Knapsack Problems: Algorithms and Computer Implementations",
+          "first-page": "221",
+          "article-title": "Bin-packing problem",
+          "author": "Martello",
+          "year": "1990"
+        },
+        {
+          "issue": "1",
+          "key": "10.1016/j.cor.2021.105400_b76",
+          "doi-asserted-by": "crossref",
+          "first-page": "59",
+          "DOI": "10.1016/0166-218X(90)90094-S",
+          "article-title": "Lower bounds and reduction procedures for the bin packing problem",
+          "volume": "28",
+          "author": "Martello",
+          "year": "1990",
+          "journal-title": "Discrete Appl. Math."
+        },
+        {
+          "key": "10.1016/j.cor.2021.105400_b77",
+          "series-title": "International Conference on Learning and Intelligent Optimization",
+          "first-page": "115",
+          "article-title": "Local search and the traveling salesman problem: A feature-based characterization of problem hardness",
+          "author": "Mersmann",
+          "year": "2012"
+        },
+        {
+          "issue": "4",
+          "key": "10.1016/j.cor.2021.105400_b78",
+          "doi-asserted-by": "crossref",
+          "first-page": "326",
+          "DOI": "10.1145/321043.321046",
+          "article-title": "Integer programming formulation of traveling salesman problems",
+          "volume": "7",
+          "author": "Miller",
+          "year": "1960",
+          "journal-title": "J. ACM"
+        },
+        {
+          "key": "10.1016/j.cor.2021.105400_b79",
+          "series-title": "Probability and Computing: Randomized Algorithms and Probabilistic Analysis",
+          "author": "Mitzenmacher",
+          "year": "2005"
+        },
+        {
+          "key": "10.1016/j.cor.2021.105400_b80",
+          "series-title": "Proceedings of the 33rd International Conference on International Conference on Machine Learning",
+          "isbn-type": "print",
+          "first-page": "1928",
+          "article-title": "Asynchronous methods for deep reinforcement learning",
+          "volume": "Vol. 48",
+          "author": "Mnih",
+          "year": "2016",
+          "ISBN": "https://id.crossref.org/isbn/9781510829008"
+        },
+        {
+          "issue": "7540",
+          "key": "10.1016/j.cor.2021.105400_b81",
+          "doi-asserted-by": "crossref",
+          "first-page": "529",
+          "DOI": "10.1038/nature14236",
+          "article-title": "Human-level control through deep reinforcement learning",
+          "volume": "518",
+          "author": "Mnih",
+          "year": "2015",
+          "journal-title": "Nature",
+          "ISSN": "https://id.crossref.org/issn/1476-4687",
+          "issn-type": "print"
+        },
+        {
+          "key": "10.1016/j.cor.2021.105400_b82",
+          "unstructured": "Nazari, M., Oroojlooy, A., Snyder, L., Takác, M., 2018. Reinforcement learning for solving the vehicle routing problem. In: Proceedings of the 32nd Conference on Advances in Neural Information Processing Systems, NeurIPS, pp. 9839–9849."
+        },
+        {
+          "key": "10.1016/j.cor.2021.105400_b83",
+          "series-title": "Combinatorial Optimization: Algorithms and Complexity",
+          "isbn-type": "print",
+          "author": "Papadimitriou",
+          "year": "1998",
+          "ISBN": "https://id.crossref.org/isbn/9780486402581"
+        },
+        {
+          "key": "10.1016/j.cor.2021.105400_b84",
+          "doi-asserted-by": "crossref",
+          "first-page": "571",
+          "DOI": "10.1038/srep00571",
+          "article-title": "Finding low-energy conformations of lattice protein models by quantum annealing",
+          "volume": "2",
+          "author": "Perdomo-Ortiz",
+          "year": "2012",
+          "journal-title": "Sci. Rep.",
+          "ISSN": "https://id.crossref.org/issn/2045-2322",
+          "issn-type": "print"
+        },
+        {
+          "key": "10.1016/j.cor.2021.105400_b85",
+          "series-title": "OR-tools",
+          "author": "Perron",
+          "year": "2019"
+        },
+        {
+          "key": "10.1016/j.cor.2021.105400_b86",
+          "doi-asserted-by": "crossref",
+          "first-page": "159",
+          "DOI": "10.1613/jair.1815",
+          "article-title": "Dynamic local search for the maximum clique problem",
+          "volume": "25",
+          "author": "Pullan",
+          "year": "2006",
+          "journal-title": "J. Artificial Intelligence Res."
+        },
+        {
+          "key": "10.1016/j.cor.2021.105400_b87",
+          "series-title": "Linear, Integer, and Quadratic Programming with LINDO: User’s Manual",
+          "isbn-type": "print",
+          "author": "Schrage",
+          "year": "1986",
+          "ISBN": "https://id.crossref.org/isbn/9780894260872"
+        },
+        {
+          "key": "10.1016/j.cor.2021.105400_b88",
+          "series-title": "IJCAI 2013, Proceedings of the 23rd International Joint Conference on Artificial Intelligence, Beijing, China, August 3-9, 2013",
+          "first-page": "651",
+          "article-title": "Improved bin completion for optimal bin packing and number partitioning",
+          "author": "Schreiber",
+          "year": "2013"
+        },
+        {
+          "issue": "7839",
+          "key": "10.1016/j.cor.2021.105400_b89",
+          "doi-asserted-by": "crossref",
+          "first-page": "604",
+          "DOI": "10.1038/s41586-020-03051-4",
+          "article-title": "Mastering Atari, Go, chess and shogi by planning with a learned model",
+          "volume": "588",
+          "author": "Schrittwieser",
+          "year": "2020",
+          "journal-title": "Nature"
+        },
+        {
+          "key": "10.1016/j.cor.2021.105400_b90",
+          "series-title": "Proximal policy optimization algorithms",
+          "author": "Schulman",
+          "year": "2017"
+        },
+        {
+          "issue": "7587",
+          "key": "10.1016/j.cor.2021.105400_b91",
+          "doi-asserted-by": "crossref",
+          "first-page": "484",
+          "DOI": "10.1038/nature16961",
+          "article-title": "Mastering the game of go with deep neural networks and tree search",
+          "volume": "529",
+          "author": "Silver",
+          "year": "2016",
+          "journal-title": "Nature",
+          "ISSN": "https://id.crossref.org/issn/1476-4687",
+          "issn-type": "print"
+        },
+        {
+          "key": "10.1016/j.cor.2021.105400_b92",
+          "series-title": "Proceedings of the 35th Conference on Uncertainty in Artificial Intelligence, UAI 2019",
+          "first-page": "1191",
+          "article-title": "Co-training for policy learning",
+          "volume": "Vol. 115",
+          "author": "Song",
+          "year": "2020"
+        },
+        {
+          "key": "10.1016/j.cor.2021.105400_b93",
+          "series-title": "2018 IEEE 59th Annual Symposium on Foundations of Computer Science (FOCS)",
+          "first-page": "592",
+          "article-title": "Pseudorandom sets in grassmann graph have near-perfect expansion",
+          "author": "Subhash",
+          "year": "2018"
+        },
+        {
+          "issue": "1",
+          "key": "10.1016/j.cor.2021.105400_b94",
+          "doi-asserted-by": "crossref",
+          "first-page": "9",
+          "DOI": "10.1023/A:1022633531479",
+          "article-title": "Learning to predict by the methods of temporal differences",
+          "volume": "3",
+          "author": "Sutton",
+          "year": "1988",
+          "journal-title": "Mach. Learn.",
+          "ISSN": "https://id.crossref.org/issn/1573-0565",
+          "issn-type": "print"
+        },
+        {
+          "key": "10.1016/j.cor.2021.105400_b95",
+          "series-title": "Advances in Neural Information Processing Systems",
+          "isbn-type": "print",
+          "first-page": "1057",
+          "article-title": "Policy gradient methods for reinforcement learning with function approximation",
+          "author": "Sutton",
+          "year": "2000",
+          "ISBN": "https://id.crossref.org/isbn/0262194503"
+        },
+        {
+          "key": "10.1016/j.cor.2021.105400_b96",
+          "unstructured": "Tang, Y., Agrawal, S., Faenza, Y., 2020. Reinforcement learning for integer programming: Learning to cut. In: Proceedings of the International Conference on Machine Learning, ICML, pp. 1483–1492."
+        },
+        {
+          "issue": "3",
+          "key": "10.1016/j.cor.2021.105400_b97",
+          "doi-asserted-by": "crossref",
+          "first-page": "537",
+          "DOI": "10.1137/0206038",
+          "article-title": "Finding a maximum independent set",
+          "volume": "6",
+          "author": "Tarjan",
+          "year": "1977",
+          "journal-title": "SIAM J. Comput."
+        },
+        {
+          "key": "10.1016/j.cor.2021.105400_b98",
+          "series-title": "Sagemath, the sage mathematics software system (version 9.0.0)",
+          "author": "The Sage Developers",
+          "year": "2020"
+        },
+        {
+          "issue": "7",
+          "key": "10.1016/j.cor.2021.105400_b99",
+          "doi-asserted-by": "crossref",
+          "first-page": "10288",
+          "DOI": "10.1364/OE.27.010288",
+          "article-title": "Annealing by simulating the coherent ising machine",
+          "volume": "27",
+          "author": "Tiunov",
+          "year": "2019",
+          "journal-title": "Opt. Express",
+          "ISSN": "https://id.crossref.org/issn/1094-4087",
+          "issn-type": "print"
+        },
+        {
+          "key": "10.1016/j.cor.2021.105400_b100",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1016/j.hm.2020.04.003",
+          "article-title": "A historical note on the 3/2-approximation algorithm for the metric traveling salesman problem",
+          "author": "van Bevern",
+          "year": "2020",
+          "journal-title": "Historia Math."
+        },
+        {
+          "key": "10.1016/j.cor.2021.105400_b101",
+          "series-title": "Advances in Neural Information Processing Systems",
+          "first-page": "5998",
+          "article-title": "Attention is all you need",
+          "author": "Vaswani",
+          "year": "2017"
+        },
+        {
+          "key": "10.1016/j.cor.2021.105400_b102",
+          "unstructured": "Veličković, P., Cucurull, G., Casanova, A., Romero, A., Liò, P., Bengio, Y., 2018. Graph attention networks. In: Proceedings of the 6th International Conference on Learning Representations, ICLR."
+        },
+        {
+          "key": "10.1016/j.cor.2021.105400_b103",
+          "doi-asserted-by": "crossref",
+          "first-page": "120388",
+          "DOI": "10.1109/ACCESS.2020.3004964",
+          "article-title": "Learning combinatorial optimization on graphs: A survey with applications to networking",
+          "volume": "8",
+          "author": "Vesselinova",
+          "year": "2020",
+          "journal-title": "IEEE Access",
+          "ISSN": "https://id.crossref.org/issn/2169-3536",
+          "issn-type": "print"
+        },
+        {
+          "key": "10.1016/j.cor.2021.105400_b104",
+          "series-title": "Proceedings of the 28th International Conference on Neural Information Processing Systems",
+          "first-page": "2692",
+          "article-title": "Pointer networks",
+          "volume": "Vol. 2",
+          "author": "Vinyals",
+          "year": "2015",
+          "ISSN": "https://id.crossref.org/issn/1049-5258",
+          "issn-type": "print"
+        },
+        {
+          "issue": "3–4",
+          "key": "10.1016/j.cor.2021.105400_b105",
+          "first-page": "279",
+          "article-title": "Q-learning",
+          "volume": "8",
+          "author": "Watkins",
+          "year": "1992",
+          "journal-title": "Mach. Learn.",
+          "ISSN": "https://id.crossref.org/issn/0885-6125",
+          "issn-type": "print"
+        },
+        {
+          "issue": "3/4",
+          "key": "10.1016/j.cor.2021.105400_b106",
+          "doi-asserted-by": "crossref",
+          "first-page": "229",
+          "DOI": "10.1023/A:1022672621406",
+          "article-title": "Simple statistical gradient-following algorithms for connectionist reinforcement learning",
+          "volume": "8",
+          "author": "Williams",
+          "year": "1992",
+          "journal-title": "Mach. Learn.",
+          "ISSN": "https://id.crossref.org/issn/1573-0565",
+          "issn-type": "print"
+        },
+        {
+          "key": "10.1016/j.cor.2021.105400_b107",
+          "series-title": "Integer Programming",
+          "isbn-type": "print",
+          "author": "Wolsey",
+          "year": "1998",
+          "ISBN": "https://id.crossref.org/isbn/9780471283669"
+        },
+        {
+          "issue": "3",
+          "key": "10.1016/j.cor.2021.105400_b108",
+          "doi-asserted-by": "crossref",
+          "first-page": "333",
+          "DOI": "10.1057/jors.1972.53",
+          "article-title": "Computer scheduling of vehicles from one or more depots to a number of delivery points",
+          "volume": "23",
+          "author": "Wren",
+          "year": "1972",
+          "journal-title": "J. Oper. Res. Soc.",
+          "ISSN": "https://id.crossref.org/issn/0160-5682",
+          "issn-type": "print"
+        },
+        {
+          "issue": "2",
+          "key": "10.1016/j.cor.2021.105400_b109",
+          "doi-asserted-by": "crossref",
+          "first-page": "347",
+          "DOI": "10.1016/j.ejor.2009.05.040",
+          "article-title": "Three-dimensional bin packing problem with variable bin height",
+          "volume": "202",
+          "author": "Wu",
+          "year": "2010",
+          "journal-title": "European J. Oper. Res."
+        },
+        {
+          "key": "10.1016/j.cor.2021.105400_b110",
+          "doi-asserted-by": "crossref",
+          "first-page": "126",
+          "DOI": "10.1016/j.ic.2017.06.001",
+          "article-title": "Exact algorithms for maximum independent set",
+          "volume": "255",
+          "author": "Xiao",
+          "year": "2017",
+          "journal-title": "Inform. and Comput."
+        },
+        {
+          "key": "10.1016/j.cor.2021.105400_b111",
+          "unstructured": "Xu, K., Hu, W., Leskovec, J., Jegelka, S., How powerful are graph neural networks? In: Proceedings of the 36th International Conference on Learning Representations. 2019."
+        },
+        {
+          "issue": "1",
+          "key": "10.1016/j.cor.2021.105400_b112",
+          "doi-asserted-by": "crossref",
+          "first-page": "1",
+          "DOI": "10.1038/s41534-017-0048-9",
+          "article-title": "Coherent Ising machines—Optical neural networks operating at the quantum limit",
+          "volume": "3",
+          "author": "Yamamoto",
+          "year": "2017",
+          "journal-title": "Npj Quantum Inf.",
+          "ISSN": "https://id.crossref.org/issn/2056-6387",
+          "issn-type": "print"
+        },
+        {
+          "key": "10.1016/j.cor.2021.105400_b113",
+          "series-title": "Graph neural networks: A review of methods and applications",
+          "author": "Zhou",
+          "year": "2018"
+        }
+      ],
+      "container-title": [
+        "Computers &amp; Operations Research"
+      ],
+      "original-title": [],
+      "language": "en",
+      "link": [
+        {
+          "URL": "https://api.elsevier.com/content/article/PII:S0305054821001660?httpAccept=text/xml",
+          "content-type": "text/xml",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        },
+        {
+          "URL": "https://api.elsevier.com/content/article/PII:S0305054821001660?httpAccept=text/plain",
+          "content-type": "text/plain",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            5,
+            13
+          ]
+        ],
+        "date-time": "2026-05-13T00:16:16Z",
+        "timestamp": 1778631376000
+      },
+      "score": 1,
+      "resource": {
+        "primary": {
+          "URL": "https://linkinghub.elsevier.com/retrieve/pii/S0305054821001660"
+        }
+      },
+      "subtitle": [],
+      "short-title": [],
+      "issued": {
+        "date-parts": [
+          [
+            2021,
+            10
+          ]
+        ]
+      },
+      "references-count": 113,
+      "alternative-id": [
+        "S0305054821001660"
+      ],
+      "URL": "https://doi.org/10.1016/j.cor.2021.105400",
+      "relation": {},
+      "ISSN": [
+        "0305-0548"
+      ],
+      "issn-type": [
+        {
+          "value": "0305-0548",
+          "type": "print"
+        }
+      ],
+      "subject": [],
+      "published": {
+        "date-parts": [
+          [
+            2021,
+            10
+          ]
+        ]
+      },
+      "assertion": [
+        {
+          "value": "Elsevier",
+          "name": "publisher",
+          "label": "This article is maintained by"
+        },
+        {
+          "value": "Reinforcement learning for combinatorial optimization: A survey",
+          "name": "articletitle",
+          "label": "Article Title"
+        },
+        {
+          "value": "Computers & Operations Research",
+          "name": "journaltitle",
+          "label": "Journal Title"
+        },
+        {
+          "value": "https://doi.org/10.1016/j.cor.2021.105400",
+          "name": "articlelink",
+          "label": "CrossRef DOI link to publisher maintained version"
+        },
+        {
+          "value": "article",
+          "name": "content_type",
+          "label": "Content Type"
+        },
+        {
+          "value": "© 2021 Elsevier Ltd. All rights reserved.",
+          "name": "copyright",
+          "label": "Copyright"
+        }
+      ],
+      "article-number": "105400"
+    }
+  }
+}

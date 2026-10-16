@@ -1,0 +1,519 @@
+{
+  "retrieved": "2026-10-16",
+  "url": "https://api.crossref.org/works/10.1007/BF01096763",
+  "response": {
+    "status": "ok",
+    "message-type": "work",
+    "message-version": "1.0.0",
+    "message": {
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            10,
+            12
+          ]
+        ],
+        "date-time": "2026-10-12T14:08:32Z",
+        "timestamp": 1791814112683,
+        "version": "4.3.4"
+      },
+      "reference-count": 37,
+      "publisher": "Springer Science and Business Media LLC",
+      "issue": "2",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                1995,
+                3,
+                1
+              ]
+            ],
+            "date-time": "1995-03-01T00:00:00Z",
+            "timestamp": 794016000000
+          },
+          "content-version": "tdm",
+          "delay-in-days": 0,
+          "URL": "http://www.springer.com/tdm"
+        }
+      ],
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "short-container-title": [
+        "J Glob Optim"
+      ],
+      "published-print": {
+        "date-parts": [
+          [
+            1995,
+            3
+          ]
+        ]
+      },
+      "DOI": "10.1007/bf01096763",
+      "type": "journal-article",
+      "created": {
+        "date-parts": [
+          [
+            2005,
+            2,
+            8
+          ]
+        ],
+        "date-time": "2005-02-08T05:57:07Z",
+        "timestamp": 1107842227000
+      },
+      "page": "109-133",
+      "source": "Crossref",
+      "is-referenced-by-count": 2188,
+      "title": [
+        "Greedy Randomized Adaptive Search Procedures"
+      ],
+      "prefix": "10.1007",
+      "volume": "6",
+      "author": [
+        {
+          "given": "Thomas A.",
+          "family": "Feo",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Mauricio G. C.",
+          "family": "Resende",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "297",
+      "reference": [
+        {
+          "key": "CR1",
+          "doi-asserted-by": "crossref",
+          "first-page": "249",
+          "DOI": "10.1287/mnsc.35.2.249",
+          "volume": "35",
+          "author": "J.F. Bard",
+          "year": "1989",
+          "unstructured": "J.F. Bard and T.A. Feo. Operations sequencing in discrete parts manufacturing.Management Science 35: 249?255, 1989.",
+          "journal-title": "Management Science"
+        },
+        {
+          "key": "CR2",
+          "doi-asserted-by": "crossref",
+          "first-page": "83",
+          "DOI": "10.1080/07408179108963843",
+          "volume": "23",
+          "author": "J.F. Bard",
+          "year": "1991",
+          "unstructured": "J.F. Bard and T.A. Feo. An algorithm for the manufacturing equipment selection problem.IIE Transactions 23: 83?92, 1991.",
+          "journal-title": "IIE Transactions"
+        },
+        {
+          "key": "CR3",
+          "unstructured": "B. Bollobás.Random Graphs. Academic Press, 1985."
+        },
+        {
+          "key": "CR4",
+          "doi-asserted-by": "crossref",
+          "unstructured": "R. Burkhard, S. Karisch, and F. Rendl. QAPLIB -A quadratic assignment problem library.European Journal of Operational Research 21, 1991.",
+          "DOI": "10.1016/0377-2217(91)90197-4"
+        },
+        {
+          "key": "CR5",
+          "doi-asserted-by": "crossref",
+          "unstructured": "R. Carraghan and P.M. Pardalos. An exact algorithm for the maximum clique problem.Operations Research Letters 9, 1990.",
+          "DOI": "10.1016/0167-6377(90)90057-C"
+        },
+        {
+          "key": "CR6",
+          "doi-asserted-by": "crossref",
+          "first-page": "221",
+          "DOI": "10.1016/0377-2217(88)90356-6",
+          "volume": "34",
+          "author": "S. Chand",
+          "year": "1988",
+          "unstructured": "S. Chand and H. Schneeberger. Single machine scheduling to minimize earliness subject to no tardy jobs.European Journal of Operational Research 34: 221?230, 1988.",
+          "journal-title": "European Journal of Operational Research"
+        },
+        {
+          "key": "CR7",
+          "volume-title": "Technical report",
+          "author": "T.A. Feo",
+          "year": "1993",
+          "unstructured": "T.A. Feo, J. Bard, and S. Holland. Facility-wide planning and scheduling of printed wiring board assembly. Technical report, Operations Research Group, Department of Mechanical Engineering, The University of Texas at Austin, Austin, TX 78712-1063, February 1993."
+        },
+        {
+          "key": "CR8",
+          "volume-title": "Technical report, Operations Research Group",
+          "author": "T.A. Feo",
+          "year": "1993",
+          "unstructured": "T.A. Feo, J. Bard, and S. Holland. A GRASP for scheduling printed wiring board assembly. Technical report, Operations Research Group, Department of Mechanical Engineering, The University of Texas at Austin, Austin, TX 78712-1063, December 1993."
+        },
+        {
+          "key": "CR9",
+          "doi-asserted-by": "crossref",
+          "first-page": "1415",
+          "DOI": "10.1287/mnsc.35.12.1415",
+          "volume": "35",
+          "author": "T.A. Feo",
+          "year": "1989",
+          "unstructured": "T.A. Feo and J.F. Bard. Flight scheduling and maintenance base planning.Management Science 35: 1415?1432, 1989.",
+          "journal-title": "Management Science"
+        },
+        {
+          "key": "CR10",
+          "doi-asserted-by": "crossref",
+          "first-page": "17",
+          "DOI": "10.1016/0278-6125(89)90016-2",
+          "volume": "8",
+          "author": "T.A. Feo",
+          "year": "1989",
+          "unstructured": "T.A. Feo and J.F. Bard. The cutting path and tool selection problem in computer-aided process planning.Journal of Manufacturing Systems 8: 17?26, 1989.",
+          "journal-title": "Journal of Manufacturing Systems"
+        },
+        {
+          "key": "CR11",
+          "volume-title": "Technical report, Operations Research Group",
+          "author": "T.A. Feo",
+          "year": "1992",
+          "unstructured": "T.A. Feo and J.L. González-Velarde. The intermodal trailer assignment problem. Technical report, Operations Research Group, Department of Mechanical Engineering, The University of Texas at Austin, Austin, TX 78712-1063, April 1992."
+        },
+        {
+          "key": "CR12",
+          "doi-asserted-by": "crossref",
+          "first-page": "67",
+          "DOI": "10.1016/0167-6377(89)90002-3",
+          "volume": "8",
+          "author": "T.A. Feo",
+          "year": "1989",
+          "unstructured": "T.A. Feo and M.G.C. Resende. A probabilistic heuristic for a computationally difficult set covering problem.Operations Research Letters 8: 67?71, 1989.",
+          "journal-title": "Operations Research Letters"
+        },
+        {
+          "key": "CR13",
+          "doi-asserted-by": "crossref",
+          "first-page": "860",
+          "DOI": "10.1287/opre.42.5.860",
+          "volume": "42",
+          "author": "T.A. Feo",
+          "year": "1994",
+          "unstructured": "T.A. Feo, M.G.C. Resende, and S.H. Smith. A greedy randomized adaptive search procedure for a maximum independent set.Operations Research 42: 860?878, 1994.",
+          "journal-title": "Operations Research"
+        },
+        {
+          "key": "CR14",
+          "volume-title": "Technical report, Operations Research Group",
+          "author": "T.A. Feo",
+          "year": "1994",
+          "unstructured": "T.A. Feo, K. Sarathy, and J. McGahan. A GRASP for single machine scheduling with sequence dependent setup costs and linear delay penalties. Technical report, Operations Research Group, Department of Mechanical Engineering, The University of Texas at Austin, Austin, TX 78712-1063, January 1994."
+        },
+        {
+          "key": "CR15",
+          "first-page": "8",
+          "volume": "1",
+          "author": "T.A. Feo",
+          "year": "1991",
+          "unstructured": "T.A. Feo, K. Venkatraman, and J.F. Bard. A GRASP for a difficult single machine scheduling problem.Computers and Operations Research 1: 8, 1991.",
+          "journal-title": "Computers and Operations Research"
+        },
+        {
+          "key": "CR16",
+          "doi-asserted-by": "crossref",
+          "first-page": "849",
+          "DOI": "10.1287/opre.35.6.849",
+          "volume": "35",
+          "author": "M. Fischetti",
+          "year": "1987",
+          "unstructured": "M. Fischetti, S. Martello, and P. Toth. The fixed job scheduling problem with spread-time constraints.Operations Research 35: 849?858, 1987.",
+          "journal-title": "Operations Research"
+        },
+        {
+          "key": "CR17",
+          "doi-asserted-by": "crossref",
+          "first-page": "35",
+          "DOI": "10.1007/BF02243141",
+          "volume": "42",
+          "author": "C. Friden",
+          "year": "1989",
+          "unstructured": "C. Friden, A. Hertz, and D. de Werra. Stabulus: A technique for finding stable sets in large graphs with tabu search.Computing 42: 35?44, 1989.",
+          "journal-title": "Computing"
+        },
+        {
+          "key": "CR18",
+          "doi-asserted-by": "crossref",
+          "first-page": "72",
+          "DOI": "10.1007/BFb0120689",
+          "volume": "2",
+          "author": "D.R. Fulkerson",
+          "year": "1974",
+          "unstructured": "D.R. Fulkerson, G.L. Nemhauser, and L.E. Trotter Jr.. Two computationally difficult set covering problems that arise in computing the 1-width of incidence matrices of Steiner triple systems.Mathematical Programming Study 2: 72?81, 1974.",
+          "journal-title": "Mathematical Programming Study"
+        },
+        {
+          "key": "CR19",
+          "doi-asserted-by": "crossref",
+          "first-page": "190",
+          "DOI": "10.1287/ijoc.1.3.190",
+          "volume": "1",
+          "author": "F. Glover",
+          "year": "1989",
+          "unstructured": "F. Glover. Tabu search?Part I.ORSA Journal on Computing 1: 190?206, 1989.",
+          "journal-title": "ORSA Journal on Computing"
+        },
+        {
+          "key": "CR20",
+          "doi-asserted-by": "crossref",
+          "first-page": "4",
+          "DOI": "10.1287/ijoc.2.1.4",
+          "volume": "2",
+          "author": "F. Glover",
+          "year": "1990",
+          "unstructured": "F. Glover. Tabu search?Part II.ORSA Journal on Computing 2: 4?32, 1990.",
+          "journal-title": "ORSA Journal on Computing"
+        },
+        {
+          "key": "CR21",
+          "unstructured": "D.E Goldberg.Genetic algorithms in search, optimization and machine learning, Addison-Wesley, 1989."
+        },
+        {
+          "key": "CR22",
+          "doi-asserted-by": "crossref",
+          "unstructured": "D.S. Johnson and M. Trick, editors.The Second DIMACS Algorithm Implementation Challenge: Maximum Clique, Coloring, and Satisfiability. DIMACS Series on Discrete Mathematics and Theoretical Computer Science. American Mathematical Society, 1995.",
+          "DOI": "10.1090/dimacs/026"
+        },
+        {
+          "key": "CR23",
+          "doi-asserted-by": "crossref",
+          "first-page": "555",
+          "DOI": "10.1007/BF01582905",
+          "volume": "52",
+          "author": "N.K. Karmarkar",
+          "year": "1991",
+          "unstructured": "N.K. Karmarkar and K.G. Ramakrishnan. Computational results of an interior point algorithm for large scale linear programming.Mathematical Programming 52: 555?586, 1991.",
+          "journal-title": "Mathematical Programming"
+        },
+        {
+          "key": "CR24",
+          "doi-asserted-by": "crossref",
+          "first-page": "291",
+          "DOI": "10.1002/j.1538-7305.1970.tb01770.x",
+          "volume": "49",
+          "author": "B.W. Kernighan",
+          "year": "1970",
+          "unstructured": "B.W. Kernighan and S. Lin. An efficient heuristic procedure for partitioning graphs.Bell System Technical journal 49: 291?307, 1970.",
+          "journal-title": "Bell System Technical journal"
+        },
+        {
+          "key": "CR25",
+          "doi-asserted-by": "crossref",
+          "first-page": "975",
+          "DOI": "10.1007/BF01009452",
+          "volume": "34",
+          "author": "S. Kirkpatrick",
+          "year": "1984",
+          "unstructured": "S. Kirkpatrick. Optimization by simulated annealing: Quantitative studies.Journal of Statistical Physics 34: 975?986, 1984.",
+          "journal-title": "Journal of Statistical Physics"
+        },
+        {
+          "key": "CR26",
+          "doi-asserted-by": "crossref",
+          "first-page": "283",
+          "DOI": "10.1007/BF02060483",
+          "volume": "40",
+          "author": "J.G. Klincewicz",
+          "year": "1992",
+          "unstructured": "J.G. Klincewicz. Avoiding local optima in thep-hub location problem using tabu search and GRASP.Annals of Operations Research 40: 283?302, 1992.",
+          "journal-title": "Annals of Operations Research"
+        },
+        {
+          "key": "CR27",
+          "volume-title": "Technical report",
+          "author": "J.G. Klincewicz",
+          "year": "1992",
+          "unstructured": "J.G. Klincewicz and A. Rajan. Using GRASP to solve the component grouping problem. Technical report, AT&T Bell Laboratories, Holmdel, NJ, 1992. To appear inNaval Research Logistics."
+        },
+        {
+          "key": "CR28",
+          "doi-asserted-by": "crossref",
+          "first-page": "677",
+          "DOI": "10.1287/opre.42.4.677",
+          "volume": "42",
+          "author": "M. Laguna",
+          "year": "1994",
+          "unstructured": "M. Laguna, T.A. Feo, and H.C. Elrod. A greedy randomized adaptive search procedure for the 2-partition problem.Operations Research 42: 677?687, 1994.",
+          "journal-title": "Operations Research"
+        },
+        {
+          "key": "CR29",
+          "doi-asserted-by": "crossref",
+          "first-page": "253",
+          "DOI": "10.1007/BF01471113",
+          "volume": "2",
+          "author": "M. Laguna",
+          "year": "1991",
+          "unstructured": "M. Laguna and J.L. González-Velarde. A search heuristic for just-in-time scheduling in parallel machines.Journal of Intelligent Manufacturing 2: 253?260, 1991.",
+          "journal-title": "Journal of Intelligent Manufacturing"
+        },
+        {
+          "key": "CR30",
+          "unstructured": "E.L. Lawler, J.K. Lenstra, A.H.G. Rinnooy Kan, and D.B. Shmoys.The Traveling Salesman Problem. John Wiley, 1985."
+        },
+        {
+          "key": "CR31",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Y. Li, P.M. Pardalos, and M.G.C. Resende. A greedy randomized adaptive search procedure for the quadratic assignment problem. In P.M. Pardalos and H. Wolkowicz, editors,Quadratic Assignment and Related Problems, volume 16 ofDIMACS Series on Discrete Mathematics and Theoretical Computer Science, pages 237?261. American Mathematical Society, 1994.",
+          "DOI": "10.1090/dimacs/016/12"
+        },
+        {
+          "key": "CR32",
+          "unstructured": "C.H. Papadimitriou and K. Steiglitz.Combinatorial Optimization: Algorithms and Complexity. Prentice-Hall, 1982."
+        },
+        {
+          "key": "CR33",
+          "doi-asserted-by": "crossref",
+          "first-page": "93",
+          "DOI": "10.1002/j.1538-7305.1989.tb00322.x",
+          "volume": "68",
+          "author": "A. Rajan",
+          "year": "1989",
+          "unstructured": "A. Rajan and M. Segal. Assigning components to robotic workcells for electronic assembly.AT&T Technical Journal 68: 93?102, 1989.",
+          "journal-title": "AT&T Technical Journal"
+        },
+        {
+          "key": "CR34",
+          "volume-title": "Technical report",
+          "author": "M.G.C. Resende",
+          "year": "1994",
+          "unstructured": "M.G.C. Resende and T.A. Feo. A GRASP for Satisfiability. Technical report, AT&T Bell Laboratories, Murray Hill, NJ, 1994."
+        },
+        {
+          "key": "CR35",
+          "volume-title": "Technical report",
+          "author": "M.G.C. Resende",
+          "year": "1994",
+          "unstructured": "M.G.C. Resende, P.M. Pardalos, and Y. Li. FORTRAN subroutines for approximate solution of dense quadratic assignment problems using GRASP. Technical report, AT&T Bell Laboratories, Murray Hill, NJ, 1994."
+        },
+        {
+          "key": "CR36",
+          "unstructured": "B. Selman, H. Levesque, and D. Mitchell. A new method for solving hard Satisfiability problems.In Proceedings of the Tenth National Conference on Artificial Intelligence (AAAI-92), pages 440?446, July 1992."
+        },
+        {
+          "key": "CR37",
+          "volume-title": "Technical report, Operations Research Group",
+          "author": "S.H. Smith",
+          "year": "1991",
+          "unstructured": "S.H. Smith and T.A. Feo. A GRASP for coloring sparse graphs. Technical report, Operations Research Group, Department of Mechanical Engineering, The University of Texas at Austin, Austin, TX 78712-1063, January 1991."
+        }
+      ],
+      "container-title": [
+        "Journal of Global Optimization"
+      ],
+      "original-title": [],
+      "language": "en",
+      "link": [
+        {
+          "URL": "http://link.springer.com/content/pdf/10.1007/BF01096763.pdf",
+          "content-type": "application/pdf",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        },
+        {
+          "URL": "http://link.springer.com/article/10.1007/BF01096763/fulltext.html",
+          "content-type": "text/html",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        },
+        {
+          "URL": "http://link.springer.com/content/pdf/10.1007/BF01096763",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2023,
+            5,
+            1
+          ]
+        ],
+        "date-time": "2023-05-01T22:22:21Z",
+        "timestamp": 1682979741000
+      },
+      "score": 1,
+      "resource": {
+        "primary": {
+          "URL": "http://link.springer.com/10.1007/BF01096763"
+        }
+      },
+      "subtitle": [],
+      "short-title": [],
+      "issued": {
+        "date-parts": [
+          [
+            1995,
+            3
+          ]
+        ]
+      },
+      "references-count": 37,
+      "journal-issue": {
+        "issue": "2",
+        "published-print": {
+          "date-parts": [
+            [
+              1995,
+              3
+            ]
+          ]
+        }
+      },
+      "alternative-id": [
+        "BF01096763"
+      ],
+      "URL": "https://doi.org/10.1007/bf01096763",
+      "relation": {},
+      "ISSN": [
+        "0925-5001",
+        "1573-2916"
+      ],
+      "issn-type": [
+        {
+          "value": "0925-5001",
+          "type": "print"
+        },
+        {
+          "value": "1573-2916",
+          "type": "electronic"
+        }
+      ],
+      "subject": [],
+      "published": {
+        "date-parts": [
+          [
+            1995,
+            3
+          ]
+        ]
+      }
+    }
+  }
+}

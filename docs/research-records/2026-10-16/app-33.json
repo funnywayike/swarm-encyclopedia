@@ -1,0 +1,1505 @@
+{
+  "retrieved": "2026-10-16",
+  "url": "https://api.crossref.org/works?query.bibliographic=chemical+batch+process+scheduling+genetic+algorithm&rows=3&filter=until-pub-date%3A2026-10-16",
+  "response": {
+    "status": "ok",
+    "message-type": "work-list",
+    "message-version": "1.0.0",
+    "message": {
+      "facets": {},
+      "total-results": 5250452,
+      "items": [
+        {
+          "indexed": {
+            "date-parts": [
+              [
+                2026,
+                9,
+                2
+              ]
+            ],
+            "date-time": "2026-09-02T03:11:58Z",
+            "timestamp": 1788318718904,
+            "version": "build-2803163510"
+          },
+          "reference-count": 36,
+          "publisher": "Elsevier BV",
+          "license": [
+            {
+              "start": {
+                "date-parts": [
+                  [
+                    2021,
+                    2,
+                    1
+                  ]
+                ],
+                "date-time": "2021-02-01T00:00:00Z",
+                "timestamp": 1612137600000
+              },
+              "content-version": "tdm",
+              "delay-in-days": 0,
+              "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+            },
+            {
+              "start": {
+                "date-parts": [
+                  [
+                    2021,
+                    2,
+                    1
+                  ]
+                ],
+                "date-time": "2021-02-01T00:00:00Z",
+                "timestamp": 1612137600000
+              },
+              "content-version": "tdm",
+              "delay-in-days": 0,
+              "URL": "https://www.elsevier.com/legal/tdmrep-license"
+            }
+          ],
+          "funder": [
+            {
+              "DOI": "10.13039/501100012226",
+              "name": "Fundamental Research Funds for the Central Universities",
+              "doi-asserted-by": "publisher",
+              "id": [
+                {
+                  "id": "10.13039/501100012226",
+                  "id-type": "DOI",
+                  "asserted-by": "publisher"
+                }
+              ]
+            },
+            {
+              "DOI": "10.13039/501100001809",
+              "name": "National Natural Science Foundation of China",
+              "doi-asserted-by": "publisher",
+              "id": [
+                {
+                  "id": "10.13039/501100001809",
+                  "id-type": "DOI",
+                  "asserted-by": "publisher"
+                }
+              ]
+            }
+          ],
+          "content-domain": {
+            "domain": [
+              "elsevier.com",
+              "sciencedirect.com"
+            ],
+            "crossmark-restriction": true
+          },
+          "short-container-title": [
+            "Computers &amp; Chemical Engineering"
+          ],
+          "published-print": {
+            "date-parts": [
+              [
+                2021,
+                2
+              ]
+            ]
+          },
+          "DOI": "10.1016/j.compchemeng.2020.107166",
+          "type": "journal-article",
+          "created": {
+            "date-parts": [
+              [
+                2020,
+                11,
+                17
+              ]
+            ],
+            "date-time": "2020-11-17T02:14:38Z",
+            "timestamp": 1605579278000
+          },
+          "page": "107166",
+          "update-policy": "https://doi.org/10.1016/elsevier_cm_policy",
+          "source": "Crossref",
+          "is-referenced-by-count": 11,
+          "special_numbering": "C",
+          "title": [
+            "Integration of scheduling and control for batch process based on generalized Benders decomposition approach with genetic algorithm"
+          ],
+          "prefix": "10.1016",
+          "volume": "145",
+          "author": [
+            {
+              "given": "Nan",
+              "family": "Ji",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Xingsheng",
+              "family": "Gu",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            }
+          ],
+          "member": "78",
+          "reference": [
+            {
+              "issue": "3",
+              "key": "10.1016/j.compchemeng.2020.107166_bib0008",
+              "doi-asserted-by": "crossref",
+              "first-page": "463",
+              "DOI": "10.1016/j.compchemeng.2007.03.009",
+              "article-title": "Integrated scheduling and dynamic optimization of grade transitions for a continuous polymerization reactor",
+              "volume": "32",
+              "author": "Adrian",
+              "year": "2008",
+              "journal-title": "Comput. Chem. Eng."
+            },
+            {
+              "key": "10.1016/j.compchemeng.2020.107166_bib0015",
+              "series-title": "2016 IEEE 55th Conference on Decision and Control",
+              "first-page": "3190",
+              "article-title": "Integrating production scheduling and process operation via economic model predictive control",
+              "author": "Anas",
+              "year": "2016"
+            },
+            {
+              "issue": "5",
+              "key": "10.1016/j.compchemeng.2020.107166_bib0005",
+              "doi-asserted-by": "crossref",
+              "first-page": "647",
+              "DOI": "10.1016/S0098-1354(02)00261-2",
+              "article-title": "New algorithms for mixed-integer dynamic optimization",
+              "volume": "27",
+              "author": "Bansal",
+              "year": "2003",
+              "journal-title": "Comput. Chem. Eng."
+            },
+            {
+              "issue": "5",
+              "key": "10.1016/j.compchemeng.2020.107166_bib0034",
+              "doi-asserted-by": "crossref",
+              "first-page": "647",
+              "DOI": "10.1016/S0098-1354(02)00261-2",
+              "article-title": "New algorithms for mixed-integer dynamic optimization",
+              "volume": "27",
+              "author": "Bansal",
+              "year": "2003",
+              "journal-title": "Comput. Chem. Eng."
+            },
+            {
+              "issue": "7",
+              "key": "10.1016/j.compchemeng.2020.107166_bib0012",
+              "doi-asserted-by": "crossref",
+              "first-page": "2234",
+              "DOI": "10.1021/ie950701i",
+              "article-title": "Dynamic optimization in the design and scheduling of multiproduct batch plants",
+              "volume": "35",
+              "author": "Bhatia",
+              "year": "1996",
+              "journal-title": "Ind. Eng. Chem. Res."
+            },
+            {
+              "key": "10.1016/j.compchemeng.2020.107166_bib0003",
+              "doi-asserted-by": "crossref",
+              "first-page": "139",
+              "DOI": "10.1016/j.ces.2013.07.039",
+              "article-title": "Integrating process dynamics within batch process scheduling via mixed-integer dynamic optimization",
+              "volume": "102",
+              "author": "Capón-García",
+              "year": "2013",
+              "journal-title": "Chem. Eng. Sci."
+            },
+            {
+              "issue": "5",
+              "key": "10.1016/j.compchemeng.2020.107166_bib0029",
+              "doi-asserted-by": "crossref",
+              "first-page": "1195",
+              "DOI": "10.1016/j.applthermaleng.2008.06.014",
+              "article-title": "A resource task network approach for optimal short-term/periodic scheduling and heat integration in multipurpose batch plants",
+              "volume": "29",
+              "author": "Chen",
+              "year": "2009",
+              "journal-title": "Appl. Therm. Eng."
+            },
+            {
+              "key": "10.1016/j.compchemeng.2020.107166_bib0025",
+              "series-title": "2018 IEEE International Conference on Industrial Engineering and Engineering Management [C]",
+              "first-page": "1725",
+              "article-title": "Selective maintenance decision for multistate manufacturing system based on extended state task network",
+              "author": "Chen",
+              "year": "2018"
+            },
+            {
+              "key": "10.1016/j.compchemeng.2020.107166_bib0014",
+              "doi-asserted-by": "crossref",
+              "first-page": "248",
+              "DOI": "10.1016/j.compchemeng.2012.06.035",
+              "article-title": "Integration of scheduling and control with online closed-loop implementation: fast computational strategy and a large-scale global optimization algorithm",
+              "volume": "47",
+              "author": "Chu",
+              "year": "2012",
+              "journal-title": "Comput. Chem. Eng."
+            },
+            {
+              "issue": "7",
+              "key": "10.1016/j.compchemeng.2020.107166_bib0009",
+              "doi-asserted-by": "crossref",
+              "first-page": "2379",
+              "DOI": "10.1002/aic.14022",
+              "article-title": "Integrated scheduling and dynamic optimization of sequential batch processes with online implementation",
+              "volume": "59",
+              "author": "Chu",
+              "year": "2013",
+              "journal-title": "AIChE J."
+            },
+            {
+              "issue": "23",
+              "key": "10.1016/j.compchemeng.2020.107166_bib0018",
+              "doi-asserted-by": "crossref",
+              "first-page": "7867",
+              "DOI": "10.1021/ie400475s",
+              "article-title": "Integrated scheduling and dynamic optimization of complex batch processes with general network structure using a generalized Benders decomposition approach",
+              "volume": "52",
+              "author": "Chu",
+              "year": "2013",
+              "journal-title": "Ind. Eng. Chem. Res."
+            },
+            {
+              "key": "10.1016/j.compchemeng.2020.107166_bib0019",
+              "doi-asserted-by": "crossref",
+              "first-page": "16851",
+              "DOI": "10.1021/ie402621t",
+              "article-title": "Integration of scheduling and dynamic optimization of batch processes under uncertainty: two-stage stochastic programming approach and enhanced generalized Benders decomposition algorithm",
+              "volume": "52",
+              "author": "Chu",
+              "year": "2013",
+              "journal-title": "Ind. Eng. Chem. Res."
+            },
+            {
+              "key": "10.1016/j.compchemeng.2020.107166_bib0021",
+              "doi-asserted-by": "crossref",
+              "first-page": "3905",
+              "DOI": "10.1080/00207543.2014.889328",
+              "article-title": "An effective genetic algorithm for flexible job-shop scheduling with overlapping in operations",
+              "volume": "52",
+              "author": "Demir",
+              "year": "2014",
+              "journal-title": "Int. J. Prod. Res."
+            },
+            {
+              "issue": "8",
+              "key": "10.1016/j.compchemeng.2020.107166_bib0006",
+              "first-page": "98",
+              "article-title": "Improved Big-M reformulation for generalized disjunctive programs",
+              "volume": "76",
+              "author": "Francisco",
+              "year": "2015",
+              "journal-title": "Comput. Chem. Eng."
+            },
+            {
+              "key": "10.1016/j.compchemeng.2020.107166_bib0027",
+              "doi-asserted-by": "crossref",
+              "first-page": "907",
+              "DOI": "10.1016/B978-0-444-64235-6.50160-1",
+              "article-title": "A heuristic neighbourhood search-based algorithm for the solution of resource task network scheduling problems",
+              "volume": "43",
+              "author": "Giancarlo",
+              "year": "2018",
+              "journal-title": "Comput. Aided Chem. Eng."
+            },
+            {
+              "issue": "1",
+              "key": "10.1016/j.compchemeng.2020.107166_bib0032",
+              "doi-asserted-by": "crossref",
+              "first-page": "210",
+              "DOI": "10.1016/j.ejor.2015.01.006",
+              "article-title": "Feature selection for support vector machines using generalized Benders decomposition",
+              "volume": "244",
+              "author": "Haldun",
+              "year": "2015",
+              "journal-title": "Eur. J. Oper. Res."
+            },
+            {
+              "issue": "2",
+              "key": "10.1016/j.compchemeng.2020.107166_bib0001",
+              "doi-asserted-by": "crossref",
+              "first-page": "425",
+              "DOI": "10.1016/j.ijpe.2004.05.028",
+              "article-title": "Scheduling of batch plants: constraint based approach and performance investigation",
+              "volume": "105",
+              "author": "Huang",
+              "year": "2007",
+              "journal-title": "Int. J. Prod. Econ."
+            },
+            {
+              "key": "10.1016/j.compchemeng.2020.107166_bib0022",
+              "first-page": "26",
+              "article-title": "Determination of Pb, Cu and Fe in ethanol fuel samples by high-resolution continuum source electrothermal atomic absorption spectrometry by exploring a combination of sequential and simultaneous strategies",
+              "volume": "137",
+              "author": "Jorge",
+              "year": "2018",
+              "journal-title": "Micro Chem. J."
+            },
+            {
+              "issue": "12",
+              "key": "10.1016/j.compchemeng.2020.107166_bib0035",
+              "doi-asserted-by": "crossref",
+              "first-page": "1821",
+              "DOI": "10.1016/j.ifacol.2016.07.847",
+              "article-title": "IPro-GA: an integrated prognostic based GA for scheduling jobs and predictive maintenance in a single multifunctional machine",
+              "volume": "49",
+              "author": "Ladj",
+              "year": "2016",
+              "journal-title": "IFAC-PapersOnline"
+            },
+            {
+              "key": "10.1016/j.compchemeng.2020.107166_bib0011",
+              "doi-asserted-by": "crossref",
+              "first-page": "108",
+              "DOI": "10.1016/j.disopt.2018.06.002",
+              "article-title": "Convex hull results for the warehouse problem",
+              "volume": "30",
+              "author": "Laurence",
+              "year": "2018",
+              "journal-title": "Discrete Optim."
+            },
+            {
+              "issue": "21",
+              "key": "10.1016/j.compchemeng.2020.107166_bib0033",
+              "doi-asserted-by": "crossref",
+              "first-page": "7287",
+              "DOI": "10.1021/ie201262f",
+              "article-title": "Nonconvex generlized Benders decomposition with piece-wise convex relaxations for global optimization of integrated process design and operation problems",
+              "volume": "51",
+              "author": "Li",
+              "year": "2012",
+              "journal-title": "Ind. Eng. Chem. Res."
+            },
+            {
+              "key": "10.1016/j.compchemeng.2020.107166_bib0013",
+              "doi-asserted-by": "crossref",
+              "first-page": "1754",
+              "DOI": "10.1002/aic.690480816",
+              "article-title": "Control-relevant scheduling of polymer grade transitions",
+              "volume": "48",
+              "author": "Mahadevan",
+              "year": "2002",
+              "journal-title": "AIChE J."
+            },
+            {
+              "key": "10.1016/j.compchemeng.2020.107166_bib0010",
+              "doi-asserted-by": "crossref",
+              "first-page": "1305",
+              "DOI": "10.1016/B978-0-444-63428-3.50222-8",
+              "article-title": "A novel approach to include limited equipment connectivity in state-task network models",
+              "volume": "38",
+              "author": "Mikael",
+              "year": "2016",
+              "journal-title": "Comput. Aided Chem. Eng."
+            },
+            {
+              "issue": "11",
+              "key": "10.1016/j.compchemeng.2020.107166_bib0036",
+              "doi-asserted-by": "crossref",
+              "first-page": "4022",
+              "DOI": "10.1021/ie049662d",
+              "article-title": "Short-term scheduling of batch processes. A comparative study of different approaches",
+              "volume": "44",
+              "author": "Mishra",
+              "year": "2005",
+              "journal-title": "Ind. Eng. Chem. Res."
+            },
+            {
+              "issue": "3",
+              "key": "10.1016/j.compchemeng.2020.107166_bib0016",
+              "doi-asserted-by": "crossref",
+              "first-page": "855",
+              "DOI": "10.1002/aic.12672",
+              "article-title": "Economic model predictive control of non-linear process systems using Lyapunov techniques",
+              "volume": "58",
+              "author": "Mohsen",
+              "year": "2012",
+              "journal-title": "AIChE J."
+            },
+            {
+              "issue": "15",
+              "key": "10.1016/j.compchemeng.2020.107166_bib0028",
+              "doi-asserted-by": "crossref",
+              "first-page": "83",
+              "DOI": "10.1016/j.compchemeng.2014.03.017",
+              "article-title": "Simultaneous regular and non-regular production scheduling of multipurpose batch plants: a real chemical pharmaceutical case study",
+              "volume": "67",
+              "author": "Moniz",
+              "year": "2014",
+              "journal-title": "Comput. Chem. Eng."
+            },
+            {
+              "issue": "11",
+              "key": "10.1016/j.compchemeng.2020.107166_bib0017",
+              "doi-asserted-by": "crossref",
+              "first-page": "3416",
+              "DOI": "10.1002/aic.13738",
+              "article-title": "Integrated scheduling and dynamic optimization of batch processes using state equipment networks",
+              "volume": "58",
+              "author": "Nie",
+              "year": "2012",
+              "journal-title": "AIChE J."
+            },
+            {
+              "issue": "11",
+              "key": "10.1016/j.compchemeng.2020.107166_bib0004",
+              "doi-asserted-by": "crossref",
+              "first-page": "2900",
+              "DOI": "10.1002/aic.690491120",
+              "article-title": "Mixed-logic dynamic optimization applied to batch distillation process design",
+              "volume": "49",
+              "author": "Oldenburg",
+              "year": "2003",
+              "journal-title": "AIChE J."
+            },
+            {
+              "key": "10.1016/j.compchemeng.2020.107166_bib0023",
+              "doi-asserted-by": "crossref",
+              "first-page": "180",
+              "DOI": "10.1016/j.automatica.2017.12.009",
+              "article-title": "Co-design of linear systems using generalized Benders decomposition",
+              "volume": "89",
+              "author": "Prasad",
+              "year": "2018",
+              "journal-title": "Automatic"
+            },
+            {
+              "issue": "2",
+              "key": "10.1016/j.compchemeng.2020.107166_bib0002",
+              "first-page": "147",
+              "article-title": "A dynamic optimization framework for integration of design, control and scheduling of multi-product chemical processes under disturbance and uncertainty",
+              "volume": "106",
+              "author": "Robert",
+              "year": "2017",
+              "journal-title": "Comput. Chem. Eng."
+            },
+            {
+              "key": "10.1016/j.compchemeng.2020.107166_bib0020",
+              "first-page": "47",
+              "article-title": "A new energy-efficient adaptive clustering protocol based on genetic algorithm for improving the lifetime and the stable period of wireless sensor networks",
+              "volume": "5",
+              "author": "Sabor",
+              "year": "2014",
+              "journal-title": "Int. J. Energy Inf. Commun."
+            },
+            {
+              "issue": "6",
+              "key": "10.1016/j.compchemeng.2020.107166_bib0031",
+              "doi-asserted-by": "crossref",
+              "first-page": "1764",
+              "DOI": "10.1021/ie060480o",
+              "article-title": "Improved unit-specific event-based continuous time model for short-term scheduling of continuous processes: rigorous treatment of storage requirements",
+              "volume": "46",
+              "author": "Shaik",
+              "year": "2007",
+              "journal-title": "Ind. Eng. Chem. Res."
+            },
+            {
+              "issue": "19",
+              "key": "10.1016/j.compchemeng.2020.107166_bib0026",
+              "doi-asserted-by": "crossref",
+              "first-page": "104",
+              "DOI": "10.1016/j.ces.2013.05.019",
+              "article-title": "Unification of STN and RTN based models for short-term scheduling of batch plants with shared resources",
+              "volume": "98",
+              "author": "Shaik",
+              "year": "2013",
+              "journal-title": "Chem. Eng. Sci."
+            },
+            {
+              "key": "10.1016/j.compchemeng.2020.107166_bib0030",
+              "doi-asserted-by": "crossref",
+              "first-page": "106",
+              "DOI": "10.1016/j.ces.2016.08.008",
+              "article-title": "Designing optimal mixtures using generalized disjunctive programming: Hull relaxations",
+              "volume": "159",
+              "author": "Suela",
+              "year": "2017",
+              "journal-title": "Chem. Eng. Sci."
+            },
+            {
+              "issue": "6",
+              "key": "10.1016/j.compchemeng.2020.107166_bib0024",
+              "doi-asserted-by": "crossref",
+              "first-page": "709",
+              "DOI": "10.1016/S0098-1354(99)00003-4",
+              "article-title": "A systematic modeling framework of superstructure process synthesis",
+              "volume": "23",
+              "author": "Yeomans",
+              "year": "1999",
+              "journal-title": "Comput. Chem. Eng."
+            },
+            {
+              "issue": "5",
+              "key": "10.1016/j.compchemeng.2020.107166_bib0007",
+              "doi-asserted-by": "crossref",
+              "first-page": "1511",
+              "DOI": "10.1002/aic.13924",
+              "article-title": "Planning and scheduling of flexible process networks under uncertainty with stochastic inventory: MINLP models and algorithm",
+              "volume": "59",
+              "author": "Yue",
+              "year": "2013",
+              "journal-title": "AIChE J."
+            }
+          ],
+          "container-title": [
+            "Computers &amp; Chemical Engineering"
+          ],
+          "language": "en",
+          "link": [
+            {
+              "URL": "https://api.elsevier.com/content/article/PII:S0098135420303306?httpAccept=text/xml",
+              "content-type": "text/xml",
+              "content-version": "vor",
+              "intended-application": "text-mining"
+            },
+            {
+              "URL": "https://api.elsevier.com/content/article/PII:S0098135420303306?httpAccept=text/plain",
+              "content-type": "text/plain",
+              "content-version": "vor",
+              "intended-application": "text-mining"
+            }
+          ],
+          "deposited": {
+            "date-parts": [
+              [
+                2025,
+                9,
+                25
+              ]
+            ],
+            "date-time": "2025-09-25T17:54:22Z",
+            "timestamp": 1758822862000
+          },
+          "score": 36.187416,
+          "resource": {
+            "primary": {
+              "URL": "https://linkinghub.elsevier.com/retrieve/pii/S0098135420303306"
+            }
+          },
+          "issued": {
+            "date-parts": [
+              [
+                2021,
+                2
+              ]
+            ]
+          },
+          "references-count": 36,
+          "alternative-id": [
+            "S0098135420303306"
+          ],
+          "URL": "https://doi.org/10.1016/j.compchemeng.2020.107166",
+          "ISSN": [
+            "0098-1354"
+          ],
+          "issn-type": [
+            {
+              "value": "0098-1354",
+              "type": "print"
+            }
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2021,
+                2
+              ]
+            ]
+          },
+          "assertion": [
+            {
+              "value": "Elsevier",
+              "name": "publisher",
+              "label": "This article is maintained by"
+            },
+            {
+              "value": "Integration of scheduling and control for batch process based on generalized Benders decomposition approach with genetic algorithm",
+              "name": "articletitle",
+              "label": "Article Title"
+            },
+            {
+              "value": "Computers & Chemical Engineering",
+              "name": "journaltitle",
+              "label": "Journal Title"
+            },
+            {
+              "value": "https://doi.org/10.1016/j.compchemeng.2020.107166",
+              "name": "articlelink",
+              "label": "CrossRef DOI link to publisher maintained version"
+            },
+            {
+              "value": "article",
+              "name": "content_type",
+              "label": "Content Type"
+            },
+            {
+              "value": "© 2020 Elsevier Ltd. All rights reserved.",
+              "name": "copyright",
+              "label": "Copyright"
+            }
+          ],
+          "article-number": "107166"
+        },
+        {
+          "indexed": {
+            "date-parts": [
+              [
+                2025,
+                9,
+                25
+              ]
+            ],
+            "date-time": "2025-09-25T18:21:32Z",
+            "timestamp": 1758824492237
+          },
+          "reference-count": 33,
+          "publisher": "Elsevier BV",
+          "issue": "9",
+          "license": [
+            {
+              "start": {
+                "date-parts": [
+                  [
+                    2015,
+                    9,
+                    1
+                  ]
+                ],
+                "date-time": "2015-09-01T00:00:00Z",
+                "timestamp": 1441065600000
+              },
+              "content-version": "tdm",
+              "delay-in-days": 0,
+              "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+            }
+          ],
+          "funder": [
+            {
+              "DOI": "10.13039/501100004396",
+              "name": "Thailand Research Fund",
+              "doi-asserted-by": "publisher",
+              "award": [
+                "MRG5480176"
+              ],
+              "award-info": [
+                {
+                  "award-number": [
+                    "MRG5480176"
+                  ]
+                }
+              ],
+              "id": [
+                {
+                  "id": "10.13039/501100004396",
+                  "id-type": "DOI",
+                  "asserted-by": "publisher"
+                }
+              ]
+            }
+          ],
+          "content-domain": {
+            "domain": [
+              "elsevier.com",
+              "sciencedirect.com"
+            ],
+            "crossmark-restriction": true
+          },
+          "short-container-title": [
+            "Chinese Journal of Chemical Engineering"
+          ],
+          "published-print": {
+            "date-parts": [
+              [
+                2015,
+                9
+              ]
+            ]
+          },
+          "DOI": "10.1016/j.cjche.2015.04.021",
+          "type": "journal-article",
+          "created": {
+            "date-parts": [
+              [
+                2015,
+                5,
+                23
+              ]
+            ],
+            "date-time": "2015-05-23T00:30:58Z",
+            "timestamp": 1432341058000
+          },
+          "page": "1475-1483",
+          "update-policy": "http://dx.doi.org/10.1016/elsevier_cm_policy",
+          "source": "Crossref",
+          "is-referenced-by-count": 4,
+          "title": [
+            "Genetic algorithm for short-term scheduling of make-and-pack batch production process"
+          ],
+          "prefix": "10.1016",
+          "volume": "23",
+          "author": [
+            {
+              "given": "Wuthichai",
+              "family": "Wongthatsanekorn",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Busaba",
+              "family": "Phruksaphanrat",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            }
+          ],
+          "member": "78",
+          "reference": [
+            {
+              "issue": "1",
+              "key": "10.1016/j.cjche.2015.04.021_bb0005",
+              "first-page": "123",
+              "article-title": "The curse of reality—why process scheduling optimization problems are difficult in practice",
+              "volume": "21",
+              "author": "Honkomp",
+              "year": "2000",
+              "journal-title": "Comput. Chem. Eng."
+            },
+            {
+              "key": "10.1016/j.cjche.2015.04.021_bb0010",
+              "series-title": "16th International European Symposium on Computer Aided Process Engineering and 9th International Symposium on Process Systems Engineering",
+              "first-page": "1551",
+              "article-title": "Scheduling of make and pack plants: a case study",
+              "author": "Fündeling",
+              "year": "2006"
+            },
+            {
+              "issue": "6",
+              "key": "10.1016/j.cjche.2015.04.021_bb0015",
+              "doi-asserted-by": "crossref",
+              "first-page": "1707",
+              "DOI": "10.1080/00207543.2012.694489",
+              "article-title": "A continuous-time MILP model for short-term scheduling of make-and-pack production processes",
+              "volume": "51",
+              "author": "Baumann",
+              "year": "2013",
+              "journal-title": "Int. J. Prod. Res."
+            },
+            {
+              "key": "10.1016/j.cjche.2015.04.021_bb0020",
+              "series-title": "International Conference on Industrial and Systems Management, Metz, France",
+              "article-title": "Decomposition algorithms for planning the production of a real shampoo industry",
+              "author": "Belaid",
+              "year": "2011"
+            },
+            {
+              "issue": "18–19",
+              "key": "10.1016/j.cjche.2015.04.021_bb0025",
+              "doi-asserted-by": "crossref",
+              "first-page": "3711",
+              "DOI": "10.1080/00207540600589127",
+              "article-title": "Realizing block planning concepts in make-and-pack production using MILP modeling and SAP APO",
+              "volume": "44",
+              "author": "Günther",
+              "year": "2006",
+              "journal-title": "Int. J. Prod. Res."
+            },
+            {
+              "issue": "20",
+              "key": "10.1016/j.cjche.2015.04.021_bb0030",
+              "doi-asserted-by": "crossref",
+              "first-page": "7733",
+              "DOI": "10.1021/ie800646q",
+              "article-title": "A TSP-based MILP model for medium-term planning of single-stage continuous multiproduct plants",
+              "volume": "47",
+              "author": "Liu",
+              "year": "2008",
+              "journal-title": "Ind. Eng. Chem. Res."
+            },
+            {
+              "issue": "3",
+              "key": "10.1016/j.cjche.2015.04.021_bb0035",
+              "doi-asserted-by": "crossref",
+              "first-page": "1369",
+              "DOI": "10.1021/ie100790t",
+              "article-title": "Production planning and scheduling of parallel continuous processes with product families",
+              "volume": "50",
+              "author": "Kopanos",
+              "year": "2011",
+              "journal-title": "Ind. Eng. Chem. Res."
+            },
+            {
+              "issue": "1",
+              "key": "10.1016/j.cjche.2015.04.021_bb0040",
+              "doi-asserted-by": "crossref",
+              "first-page": "70",
+              "DOI": "10.1016/j.compchemeng.2013.01.014",
+              "article-title": "Multiple and nonuniform time grids in discrete-time MIP models for chemical production scheduling",
+              "volume": "53",
+              "author": "Velez",
+              "year": "2013",
+              "journal-title": "Comput. Chem. Eng."
+            },
+            {
+              "issue": "8",
+              "key": "10.1016/j.cjche.2015.04.021_bb0045",
+              "doi-asserted-by": "crossref",
+              "first-page": "28",
+              "DOI": "10.1016/j.compchemeng.2013.03.030",
+              "article-title": "A branch-and-bound algorithm for the solution of chemical production scheduling MIP models using parallel computing",
+              "volume": "55",
+              "author": "Velez",
+              "year": "2013",
+              "journal-title": "Comput. Chem. Eng."
+            },
+            {
+              "issue": "3",
+              "key": "10.1016/j.cjche.2015.04.021_bb0050",
+              "doi-asserted-by": "crossref",
+              "first-page": "598",
+              "DOI": "10.1016/j.ejor.2013.06.021",
+              "article-title": "Multi-level lot sizing and job shop scheduling with compressible process times: a cutting plane approach",
+              "volume": "231",
+              "author": "Karimi-Nasab",
+              "year": "2013",
+              "journal-title": "Eur. J. Oper. Res."
+            },
+            {
+              "issue": "1",
+              "key": "10.1016/j.cjche.2015.04.021_bb0055",
+              "doi-asserted-by": "crossref",
+              "first-page": "1",
+              "DOI": "10.1016/S1004-9541(09)60025-2",
+              "article-title": "Modeling and optimization for scheduling of chemical batch",
+              "volume": "17",
+              "author": "Qian",
+              "year": "2009",
+              "journal-title": "Chin. J. Chem. Eng."
+            },
+            {
+              "issue": "6",
+              "key": "10.1016/j.cjche.2015.04.021_bb0060",
+              "doi-asserted-by": "crossref",
+              "first-page": "682",
+              "DOI": "10.1016/S1004-9541(14)60085-9",
+              "article-title": "Modeling and optimization for short-term scheduling of multipurpose batch plants",
+              "volume": "22",
+              "author": "Chen",
+              "year": "2014",
+              "journal-title": "Chin. J. Chem. Eng."
+            },
+            {
+              "issue": "3",
+              "key": "10.1016/j.cjche.2015.04.021_bb0065",
+              "doi-asserted-by": "crossref",
+              "first-page": "474",
+              "DOI": "10.1016/S1004-9541(08)60108-1",
+              "article-title": "Synthesis and scheduling of optimal batch water-recycle networks* * supported by the Texas Water Resources Institute (TWRI) and the Texas Hazardous Waste Research Center",
+              "volume": "16",
+              "author": "Rabie",
+              "year": "2008",
+              "journal-title": "Chin. J. Chem. Eng."
+            },
+            {
+              "issue": "1",
+              "key": "10.1016/j.cjche.2015.04.021_bb0070",
+              "first-page": "78",
+              "article-title": "Hierarchical on-line scheduling of multiproduct batch plants with a combined approach of mathematical programming and genetic algorithm",
+              "volume": "12",
+              "author": "Chen",
+              "year": "2004",
+              "journal-title": "Chin. J. Chem. Eng."
+            },
+            {
+              "issue": "1",
+              "key": "10.1016/j.cjche.2015.04.021_bb0075",
+              "first-page": "68",
+              "article-title": "Genetic algorithm-based approach to scheduling of batch production with maximum profit",
+              "volume": "13",
+              "author": "Wu",
+              "year": "2005",
+              "journal-title": "Chin. J. Chem. Eng."
+            },
+            {
+              "key": "10.1016/j.cjche.2015.04.021_bb0080",
+              "doi-asserted-by": "crossref",
+              "first-page": "1504",
+              "DOI": "10.1016/j.ces.2006.11.049",
+              "article-title": "Genetic algorithm for large-size multi-stage batch plant scheduling",
+              "volume": "62",
+              "author": "He",
+              "year": "2007",
+              "journal-title": "Chem. Eng. Sci."
+            },
+            {
+              "issue": "16",
+              "key": "10.1016/j.cjche.2015.04.021_bb0085",
+              "doi-asserted-by": "crossref",
+              "first-page": "4816",
+              "DOI": "10.1016/j.ces.2010.05.032",
+              "article-title": "A binary coding genetic algorithm for multi-purpose process scheduling: a case study",
+              "volume": "65",
+              "author": "He",
+              "year": "2010",
+              "journal-title": "Chem. Eng. Sci."
+            },
+            {
+              "issue": "8",
+              "key": "10.1016/j.cjche.2015.04.021_bb0090",
+              "doi-asserted-by": "crossref",
+              "first-page": "2103",
+              "DOI": "10.1002/aic.12134",
+              "article-title": "A novel search framework for multi-stage process scheduling with tight due dates",
+              "volume": "56",
+              "author": "He",
+              "year": "2010",
+              "journal-title": "AIChE J."
+            },
+            {
+              "issue": "2",
+              "key": "10.1016/j.cjche.2015.04.021_bb0095",
+              "doi-asserted-by": "crossref",
+              "first-page": "429",
+              "DOI": "10.1002/aic.13841",
+              "article-title": "Multiobjective evolutionary optimization of batch process scheduling under environmental and economic concerns",
+              "volume": "59",
+              "author": "Capón-García",
+              "year": "2013",
+              "journal-title": "AIChE J."
+            },
+            {
+              "key": "10.1016/j.cjche.2015.04.021_bb0100",
+              "doi-asserted-by": "crossref",
+              "first-page": "117",
+              "DOI": "10.1287/moor.1.2.117",
+              "article-title": "The complexity of flowshop and job-shop scheduling",
+              "volume": "1",
+              "author": "Garey",
+              "year": "1976",
+              "journal-title": "Math. Oper. Res."
+            },
+            {
+              "issue": "3",
+              "key": "10.1016/j.cjche.2015.04.021_bb0105",
+              "doi-asserted-by": "crossref",
+              "first-page": "331",
+              "DOI": "10.1007/s10845-007-0026-8",
+              "article-title": "Mathematical modeling and heuristic approaches to flexible job shop scheduling problems",
+              "volume": "18",
+              "author": "Fattahi",
+              "year": "2007",
+              "journal-title": "J. Intell. Manuf."
+            },
+            {
+              "issue": "1–4",
+              "key": "10.1016/j.cjche.2015.04.021_bb0110",
+              "doi-asserted-by": "crossref",
+              "first-page": "65",
+              "DOI": "10.1023/A:1014990729837",
+              "article-title": "Using genetic algorithms and heuristics for job shop scheduling with sequence-dependent setup times",
+              "volume": "107",
+              "author": "Cheung",
+              "year": "2001",
+              "journal-title": "Ann. Oper. Res."
+            },
+            {
+              "key": "10.1016/j.cjche.2015.04.021_bb0115",
+              "series-title": "Adaptation in Natural and Artificial Systems",
+              "author": "Holland",
+              "year": "1975"
+            },
+            {
+              "key": "10.1016/j.cjche.2015.04.021_bb0120",
+              "first-page": "293-202",
+              "article-title": "Solving extended hybrid-flow-shop problems using active schedule generation and genetic algorithms",
+              "volume": "vol. 1917",
+              "author": "Kreutz",
+              "year": "2000"
+            },
+            {
+              "key": "10.1016/j.cjche.2015.04.021_bb0125",
+              "series-title": "Genetic Algorithms in Search Optimization and Machine Learning",
+              "author": "Goldberg",
+              "year": "1989"
+            },
+            {
+              "issue": "4",
+              "key": "10.1016/j.cjche.2015.04.021_bb0130",
+              "first-page": "269",
+              "article-title": "Improved Selection Operator for GA",
+              "volume": "4",
+              "author": "Jadann",
+              "year": "2008",
+              "journal-title": "J. Theor. Appl. Inf. Technol."
+            },
+            {
+              "key": "10.1016/j.cjche.2015.04.021_bb0135",
+              "series-title": "Proceeding of the World Congress on Engineering 2011 Vol II, WCE 2011, London, UK",
+              "article-title": "Genetic algorithm performance with different selection strategies in solving TSP",
+              "author": "Razali",
+              "year": "2011"
+            },
+            {
+              "issue": "1",
+              "key": "10.1016/j.cjche.2015.04.021_bb0140",
+              "doi-asserted-by": "crossref",
+              "first-page": "135",
+              "DOI": "10.1016/0305-0548(93)E0024-N",
+              "article-title": "Genetic algorithm crossover operators for ordering applications",
+              "volume": "22",
+              "author": "Poon",
+              "year": "1995",
+              "journal-title": "Comput. Oper. Res."
+            },
+            {
+              "issue": "4",
+              "key": "10.1016/j.cjche.2015.04.021_bb0145",
+              "doi-asserted-by": "crossref",
+              "first-page": "487",
+              "DOI": "10.1109/3468.508827",
+              "article-title": "Learning Bayesian network structures by searching for the best ordering with genetic algorithm",
+              "volume": "26",
+              "author": "Larranga",
+              "year": "1996",
+              "journal-title": "IEEE Trans. Syst. Man Cybern. Syst. Hum."
+            },
+            {
+              "key": "10.1016/j.cjche.2015.04.021_bb0150",
+              "doi-asserted-by": "crossref",
+              "first-page": "191",
+              "DOI": "10.1016/S0951-8320(03)00097-8",
+              "article-title": "Quantized hopfield networks for reliability optimization",
+              "volume": "81",
+              "author": "Nourelfath",
+              "year": "2003",
+              "journal-title": "Reliab. Eng. Syst. Saf."
+            },
+            {
+              "key": "10.1016/j.cjche.2015.04.021_bb0155",
+              "doi-asserted-by": "crossref",
+              "first-page": "1",
+              "DOI": "10.1016/j.ress.2004.02.007",
+              "article-title": "Ant system for reliability optimization of a series system with multiple-choice and budget constraints",
+              "volume": "87",
+              "author": "Nahas",
+              "year": "2005",
+              "journal-title": "Reliab. Eng. Syst. Saf."
+            },
+            {
+              "issue": "3",
+              "key": "10.1016/j.cjche.2015.04.021_bb0160",
+              "doi-asserted-by": "crossref",
+              "first-page": "190",
+              "DOI": "10.1287/ijoc.1.3.190",
+              "article-title": "Tabu Search Part I",
+              "volume": "1",
+              "author": "Glover",
+              "year": "1989",
+              "journal-title": "ORSA J. Comput."
+            },
+            {
+              "issue": "1",
+              "key": "10.1016/j.cjche.2015.04.021_bb0165",
+              "doi-asserted-by": "crossref",
+              "first-page": "4",
+              "DOI": "10.1287/ijoc.2.1.4",
+              "article-title": "Tabu Search Part II",
+              "volume": "2",
+              "author": "Glover",
+              "year": "1990",
+              "journal-title": "ORSA J. Comput."
+            }
+          ],
+          "container-title": [
+            "Chinese Journal of Chemical Engineering"
+          ],
+          "language": "en",
+          "link": [
+            {
+              "URL": "https://api.elsevier.com/content/article/PII:S1004954115001780?httpAccept=text/xml",
+              "content-type": "text/xml",
+              "content-version": "vor",
+              "intended-application": "text-mining"
+            },
+            {
+              "URL": "https://api.elsevier.com/content/article/PII:S1004954115001780?httpAccept=text/plain",
+              "content-type": "text/plain",
+              "content-version": "vor",
+              "intended-application": "text-mining"
+            }
+          ],
+          "deposited": {
+            "date-parts": [
+              [
+                2024,
+                6,
+                9
+              ]
+            ],
+            "date-time": "2024-06-09T05:21:23Z",
+            "timestamp": 1717910483000
+          },
+          "score": 36.144257,
+          "resource": {
+            "primary": {
+              "URL": "https://linkinghub.elsevier.com/retrieve/pii/S1004954115001780"
+            }
+          },
+          "issued": {
+            "date-parts": [
+              [
+                2015,
+                9
+              ]
+            ]
+          },
+          "references-count": 33,
+          "journal-issue": {
+            "issue": "9",
+            "published-print": {
+              "date-parts": [
+                [
+                  2015,
+                  9
+                ]
+              ]
+            }
+          },
+          "alternative-id": [
+            "S1004954115001780"
+          ],
+          "URL": "https://doi.org/10.1016/j.cjche.2015.04.021",
+          "ISSN": [
+            "1004-9541"
+          ],
+          "issn-type": [
+            {
+              "value": "1004-9541",
+              "type": "print"
+            }
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2015,
+                9
+              ]
+            ]
+          },
+          "assertion": [
+            {
+              "value": "Elsevier",
+              "name": "publisher",
+              "label": "This article is maintained by"
+            },
+            {
+              "value": "Genetic algorithm for short-term scheduling of make-and-pack batch production process",
+              "name": "articletitle",
+              "label": "Article Title"
+            },
+            {
+              "value": "Chinese Journal of Chemical Engineering",
+              "name": "journaltitle",
+              "label": "Journal Title"
+            },
+            {
+              "value": "https://doi.org/10.1016/j.cjche.2015.04.021",
+              "name": "articlelink",
+              "label": "CrossRef DOI link to publisher maintained version"
+            },
+            {
+              "value": "article",
+              "name": "content_type",
+              "label": "Content Type"
+            },
+            {
+              "value": "Copyright © 2015 Elsevier B.V. All rights reserved.",
+              "name": "copyright",
+              "label": "Copyright"
+            }
+          ]
+        },
+        {
+          "indexed": {
+            "date-parts": [
+              [
+                2023,
+                1,
+                24
+              ]
+            ],
+            "date-time": "2023-01-24T07:52:55Z",
+            "timestamp": 1674546775227
+          },
+          "reference-count": 11,
+          "publisher": "Elsevier",
+          "content-domain": {
+            "domain": [],
+            "crossmark-restriction": false
+          },
+          "published-print": {
+            "date-parts": [
+              [
+                2003
+              ]
+            ]
+          },
+          "DOI": "10.1016/s1570-7946(03)80618-1",
+          "type": "book-chapter",
+          "created": {
+            "date-parts": [
+              [
+                2008,
+                4,
+                22
+              ]
+            ],
+            "date-time": "2008-04-22T20:28:34Z",
+            "timestamp": 1208896114000
+          },
+          "page": "648-653",
+          "source": "Crossref",
+          "is-referenced-by-count": 2,
+          "title": [
+            "Solving batch production scheduling using genetic algorithm"
+          ],
+          "prefix": "10.1016",
+          "author": [
+            {
+              "given": "Lian-Ying",
+              "family": "Wu",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Yang-Dong",
+              "family": "Hu",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Dong-Mei",
+              "family": "Xu",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Beng",
+              "family": "Hua",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            }
+          ],
+          "member": "78",
+          "reference": [
+            {
+              "key": "10.1016/S1570-7946(03)80618-1_bib1",
+              "doi-asserted-by": "crossref",
+              "first-page": "665",
+              "DOI": "10.1016/S0098-1354(01)00663-9",
+              "volume": "Vol25",
+              "author": "Lin",
+              "year": "2001",
+              "journal-title": "Computers and Chemical Engineering"
+            },
+            {
+              "key": "10.1016/S1570-7946(03)80618-1_bib2",
+              "doi-asserted-by": "crossref",
+              "first-page": "4058",
+              "DOI": "10.1021/ie9601817",
+              "volume": "Vol 35",
+              "author": "Kim et",
+              "year": "1996",
+              "journal-title": "Ind. Eng. Chem. Res."
+            },
+            {
+              "key": "10.1016/S1570-7946(03)80618-1_bib3",
+              "doi-asserted-by": "crossref",
+              "first-page": "580",
+              "DOI": "10.1021/ie00100a014",
+              "volume": "Vol 29",
+              "author": "Ku",
+              "year": "1990",
+              "journal-title": "Ind. Eng. Chem. Res."
+            },
+            {
+              "key": "10.1016/S1570-7946(03)80618-1_bib4",
+              "doi-asserted-by": "crossref",
+              "first-page": "S1073",
+              "DOI": "10.1016/S0098-1354(97)87645-4",
+              "volume": "Vol21",
+              "author": "Tjoa",
+              "year": "1997",
+              "journal-title": "Computers Chem. Engng."
+            },
+            {
+              "key": "10.1016/S1570-7946(03)80618-1_bib5",
+              "doi-asserted-by": "crossref",
+              "first-page": "4341",
+              "DOI": "10.1021/ie970927g",
+              "volume": "Vol 37",
+              "author": "Ierapetritou",
+              "year": "1998",
+              "journal-title": "Ind. Eng. Chem. Res."
+            },
+            {
+              "key": "10.1016/S1570-7946(03)80618-1_bib6",
+              "doi-asserted-by": "crossref",
+              "first-page": "393",
+              "DOI": "10.1016/S0098-1354(00)00427-0",
+              "volume": "Vol 24",
+              "author": "Wang",
+              "year": "2000",
+              "journal-title": "Computers and Chemical Engineering"
+            },
+            {
+              "issue": "11",
+              "key": "10.1016/S1570-7946(03)80618-1_bib7",
+              "first-page": "1725",
+              "volume": "Vol22",
+              "author": "Iiak Jung",
+              "year": "1998",
+              "journal-title": "Computers Chem. Engng."
+            },
+            {
+              "key": "10.1016/S1570-7946(03)80618-1_bib8",
+              "doi-asserted-by": "crossref",
+              "first-page": "S1087",
+              "DOI": "10.1016/S0098-1354(97)87647-8",
+              "volume": "Vol21",
+              "author": "Murakami",
+              "year": "1997",
+              "journal-title": "Computers Chem. Engng."
+            },
+            {
+              "key": "10.1016/S1570-7946(03)80618-1_bib9",
+              "doi-asserted-by": "crossref",
+              "first-page": "228",
+              "DOI": "10.1021/ie000375t",
+              "volume": "Vol 30",
+              "author": "Ryu",
+              "year": "2001",
+              "journal-title": "Ind. Eng. Chem. Res."
+            },
+            {
+              "key": "10.1016/S1570-7946(03)80618-1_bib10",
+              "series-title": "Engineering Design and Automation",
+              "article-title": "Genetic algorithm for multi-row machine layout problem",
+              "author": "Cheng",
+              "year": "1995"
+            },
+            {
+              "key": "10.1016/S1570-7946(03)80618-1_bib11",
+              "first-page": "1",
+              "article-title": "Genetic Algorithm and Engineering Design",
+              "author": "Run-Wei",
+              "year": "2000"
+            }
+          ],
+          "container-title": [
+            "Computer Aided Chemical Engineering",
+            "Process Systems Engineering 2003, 8th International Symposium on Process Systems Engineering"
+          ],
+          "deposited": {
+            "date-parts": [
+              [
+                2018,
+                12,
+                29
+              ]
+            ],
+            "date-time": "2018-12-29T11:53:43Z",
+            "timestamp": 1546084423000
+          },
+          "score": 34.903427,
+          "resource": {
+            "primary": {
+              "URL": "https://linkinghub.elsevier.com/retrieve/pii/S1570794603806181"
+            }
+          },
+          "issued": {
+            "date-parts": [
+              [
+                2003
+              ]
+            ]
+          },
+          "references-count": 11,
+          "URL": "https://doi.org/10.1016/s1570-7946(03)80618-1",
+          "ISSN": [
+            "1570-7946"
+          ],
+          "issn-type": [
+            {
+              "value": "1570-7946",
+              "type": "print"
+            }
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2003
+              ]
+            ]
+          }
+        }
+      ],
+      "items-per-page": 3,
+      "query": {
+        "start-index": 0,
+        "search-terms": null
+      }
+    }
+  }
+}

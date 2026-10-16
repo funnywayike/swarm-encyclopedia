@@ -1,0 +1,1999 @@
+{
+  "retrieved": "2026-10-16",
+  "url": "https://api.crossref.org/works?query.bibliographic=interplanetary+trajectory+optimization+differential+evolution&rows=3&filter=until-pub-date%3A2026-10-16",
+  "response": {
+    "status": "ok",
+    "message-type": "work-list",
+    "message-version": "1.0.0",
+    "message": {
+      "facets": {},
+      "total-results": 2453217,
+      "items": [
+        {
+          "indexed": {
+            "date-parts": [
+              [
+                2026,
+                8,
+                19
+              ]
+            ],
+            "date-time": "2026-08-19T19:48:31Z",
+            "timestamp": 1787168911096,
+            "version": "build-2736575974"
+          },
+          "reference-count": 40,
+          "publisher": "Elsevier BV",
+          "license": [
+            {
+              "start": {
+                "date-parts": [
+                  [
+                    2023,
+                    8,
+                    1
+                  ]
+                ],
+                "date-time": "2023-08-01T00:00:00Z",
+                "timestamp": 1690848000000
+              },
+              "content-version": "tdm",
+              "delay-in-days": 0,
+              "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+            },
+            {
+              "start": {
+                "date-parts": [
+                  [
+                    2023,
+                    8,
+                    1
+                  ]
+                ],
+                "date-time": "2023-08-01T00:00:00Z",
+                "timestamp": 1690848000000
+              },
+              "content-version": "tdm",
+              "delay-in-days": 0,
+              "URL": "https://www.elsevier.com/legal/tdmrep-license"
+            },
+            {
+              "start": {
+                "date-parts": [
+                  [
+                    2023,
+                    8,
+                    1
+                  ]
+                ],
+                "date-time": "2023-08-01T00:00:00Z",
+                "timestamp": 1690848000000
+              },
+              "content-version": "stm-asf",
+              "delay-in-days": 0,
+              "URL": "https://doi.org/10.15223/policy-017"
+            },
+            {
+              "start": {
+                "date-parts": [
+                  [
+                    2023,
+                    8,
+                    1
+                  ]
+                ],
+                "date-time": "2023-08-01T00:00:00Z",
+                "timestamp": 1690848000000
+              },
+              "content-version": "stm-asf",
+              "delay-in-days": 0,
+              "URL": "https://doi.org/10.15223/policy-037"
+            },
+            {
+              "start": {
+                "date-parts": [
+                  [
+                    2023,
+                    8,
+                    1
+                  ]
+                ],
+                "date-time": "2023-08-01T00:00:00Z",
+                "timestamp": 1690848000000
+              },
+              "content-version": "stm-asf",
+              "delay-in-days": 0,
+              "URL": "https://doi.org/10.15223/policy-012"
+            },
+            {
+              "start": {
+                "date-parts": [
+                  [
+                    2023,
+                    8,
+                    1
+                  ]
+                ],
+                "date-time": "2023-08-01T00:00:00Z",
+                "timestamp": 1690848000000
+              },
+              "content-version": "stm-asf",
+              "delay-in-days": 0,
+              "URL": "https://doi.org/10.15223/policy-029"
+            },
+            {
+              "start": {
+                "date-parts": [
+                  [
+                    2023,
+                    8,
+                    1
+                  ]
+                ],
+                "date-time": "2023-08-01T00:00:00Z",
+                "timestamp": 1690848000000
+              },
+              "content-version": "stm-asf",
+              "delay-in-days": 0,
+              "URL": "https://doi.org/10.15223/policy-004"
+            }
+          ],
+          "funder": [
+            {
+              "DOI": "10.13039/501100002338",
+              "name": "Ministry of Education of the People&apos;s Republic of China",
+              "doi-asserted-by": "publisher",
+              "award": [
+                "8091B022148"
+              ],
+              "award-info": [
+                {
+                  "award-number": [
+                    "8091B022148"
+                  ]
+                }
+              ],
+              "id": [
+                {
+                  "id": "10.13039/501100002338",
+                  "id-type": "DOI",
+                  "asserted-by": "publisher"
+                }
+              ]
+            },
+            {
+              "DOI": "10.13039/100020725",
+              "name": "Hubei Key Laboratory of Intelligent Geo-Information Processing",
+              "doi-asserted-by": "publisher",
+              "award": [
+                "KLIGIP-2021B03"
+              ],
+              "award-info": [
+                {
+                  "award-number": [
+                    "KLIGIP-2021B03"
+                  ]
+                }
+              ],
+              "id": [
+                {
+                  "id": "10.13039/100020725",
+                  "id-type": "DOI",
+                  "asserted-by": "publisher"
+                }
+              ]
+            },
+            {
+              "DOI": "10.13039/501100001809",
+              "name": "National Natural Science Foundation of China",
+              "doi-asserted-by": "publisher",
+              "award": [
+                "62006214"
+              ],
+              "award-info": [
+                {
+                  "award-number": [
+                    "62006214"
+                  ]
+                }
+              ],
+              "id": [
+                {
+                  "id": "10.13039/501100001809",
+                  "id-type": "DOI",
+                  "asserted-by": "publisher"
+                }
+              ]
+            },
+            {
+              "DOI": "10.13039/501100001809",
+              "name": "National Natural Science Foundation of China",
+              "doi-asserted-by": "publisher",
+              "award": [
+                "42271391"
+              ],
+              "award-info": [
+                {
+                  "award-number": [
+                    "42271391"
+                  ]
+                }
+              ],
+              "id": [
+                {
+                  "id": "10.13039/501100001809",
+                  "id-type": "DOI",
+                  "asserted-by": "publisher"
+                }
+              ]
+            },
+            {
+              "DOI": "10.13039/501100001809",
+              "name": "National Natural Science Foundation of China",
+              "doi-asserted-by": "publisher",
+              "award": [
+                "2019CFA023"
+              ],
+              "award-info": [
+                {
+                  "award-number": [
+                    "2019CFA023"
+                  ]
+                }
+              ],
+              "id": [
+                {
+                  "id": "10.13039/501100001809",
+                  "id-type": "DOI",
+                  "asserted-by": "publisher"
+                }
+              ]
+            }
+          ],
+          "content-domain": {
+            "domain": [
+              "elsevier.com",
+              "sciencedirect.com"
+            ],
+            "crossmark-restriction": true
+          },
+          "short-container-title": [
+            "Swarm and Evolutionary Computation"
+          ],
+          "published-print": {
+            "date-parts": [
+              [
+                2023,
+                8
+              ]
+            ]
+          },
+          "DOI": "10.1016/j.swevo.2023.101351",
+          "type": "journal-article",
+          "created": {
+            "date-parts": [
+              [
+                2023,
+                6,
+                19
+              ]
+            ],
+            "date-time": "2023-06-19T11:35:50Z",
+            "timestamp": 1687174550000
+          },
+          "page": "101351",
+          "update-policy": "https://doi.org/10.1016/elsevier_cm_policy",
+          "source": "Crossref",
+          "is-referenced-by-count": 37,
+          "special_numbering": "C",
+          "title": [
+            "Reinforcement learning-based hybrid differential evolution for global optimization of interplanetary trajectory design"
+          ],
+          "prefix": "10.1016",
+          "volume": "81",
+          "author": [
+            {
+              "given": "Lei",
+              "family": "Peng",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "ORCID": "https://orcid.org/0000-0002-7887-0554",
+              "authenticated-orcid": false,
+              "given": "Zhuoming",
+              "family": "Yuan",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Guangming",
+              "family": "Dai",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Maocai",
+              "family": "Wang",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "ORCID": "https://orcid.org/0000-0002-5928-5982",
+              "authenticated-orcid": false,
+              "given": "Zhe",
+              "family": "Tang",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            }
+          ],
+          "member": "78",
+          "reference": [
+            {
+              "key": "10.1016/j.swevo.2023.101351_b1",
+              "series-title": "Advanced Concepts Team, ESATR ACT-TNT-MAD-GOHTPPSTD",
+              "article-title": "Global optimisation heuristics and test problems for preliminary spacecraft trajectory design",
+              "author": "Vinkó",
+              "year": "2009"
+            },
+            {
+              "issue": "2",
+              "key": "10.1016/j.swevo.2023.101351_b2",
+              "doi-asserted-by": "crossref",
+              "first-page": "267",
+              "DOI": "10.1109/TEVC.2010.2087026",
+              "article-title": "An inflationary differential evolution algorithm for space trajectory optimization",
+              "volume": "15",
+              "author": "Vasile",
+              "year": "2011",
+              "journal-title": "IEEE Trans. Evol. Comput."
+            },
+            {
+              "issue": "5",
+              "key": "10.1016/j.swevo.2023.101351_b3",
+              "doi-asserted-by": "crossref",
+              "first-page": "3861",
+              "DOI": "10.1007/s00500-019-04154-5",
+              "article-title": "Adaptive multi-population inflationary differential evolution",
+              "volume": "24",
+              "author": "Di Carlo",
+              "year": "2020",
+              "journal-title": "Soft Comput."
+            },
+            {
+              "key": "10.1016/j.swevo.2023.101351_b4",
+              "first-page": "65",
+              "article-title": "New state-of-the-art results for Cassini2 global trajectory optimization problem",
+              "volume": "5",
+              "author": "Danoy",
+              "year": "2012",
+              "journal-title": "Acta Futur."
+            },
+            {
+              "key": "10.1016/j.swevo.2023.101351_b5",
+              "doi-asserted-by": "crossref",
+              "DOI": "10.1155/2018/4560173",
+              "article-title": "Enhanced hybrid differential evolution for earth-moon low-energy transfer trajectory optimization",
+              "volume": "2018",
+              "author": "Zhang",
+              "year": "2018",
+              "journal-title": "Int. J. Aerosp. Eng."
+            },
+            {
+              "key": "10.1016/j.swevo.2023.101351_b6",
+              "doi-asserted-by": "crossref",
+              "first-page": "258",
+              "DOI": "10.1016/j.actaastro.2021.11.014",
+              "article-title": "Deep-space trajectory optimizations using differential evolution with self-learning",
+              "volume": "191",
+              "author": "Choi",
+              "year": "2022",
+              "journal-title": "Acta Astronaut."
+            },
+            {
+              "key": "10.1016/j.swevo.2023.101351_b7",
+              "doi-asserted-by": "crossref",
+              "DOI": "10.1016/j.engappai.2022.104727",
+              "article-title": "A differential evolution algorithm with the guided movement for population and its application to interplanetary transfer trajectory design",
+              "volume": "110",
+              "author": "Zuo",
+              "year": "2022",
+              "journal-title": "Eng. Appl. Artif. Intell."
+            },
+            {
+              "key": "10.1016/j.swevo.2023.101351_b8",
+              "first-page": "1",
+              "article-title": "Enhancing the search ability of a hybrid LSHADE for global optimization of interplanetary trajectory design",
+              "author": "Tang",
+              "year": "2022",
+              "journal-title": "Eng. Optim."
+            },
+            {
+              "issue": "4",
+              "key": "10.1016/j.swevo.2023.101351_b9",
+              "doi-asserted-by": "crossref",
+              "first-page": "341",
+              "DOI": "10.1023/A:1008202821328",
+              "article-title": "Differential evolution–a simple and efficient heuristic for global optimization over continuous spaces",
+              "volume": "11",
+              "author": "Storn",
+              "year": "1997",
+              "journal-title": "J. Global Optim."
+            },
+            {
+              "key": "10.1016/j.swevo.2023.101351_b10",
+              "series-title": "Advanced Global Optimisation for Mission Analysis and Design",
+              "author": "Myatt",
+              "year": "2004"
+            },
+            {
+              "key": "10.1016/j.swevo.2023.101351_b11",
+              "series-title": "2013 IEEE Congress on Evolutionary Computation",
+              "first-page": "71",
+              "article-title": "Success-history based parameter adaptation for differential evolution",
+              "author": "Tanabe",
+              "year": "2013"
+            },
+            {
+              "key": "10.1016/j.swevo.2023.101351_b12",
+              "series-title": "2014 IEEE Congress on Evolutionary Computation",
+              "first-page": "1658",
+              "article-title": "Improving the search performance of SHADE using linear population size reduction",
+              "author": "Tanabe",
+              "year": "2014"
+            },
+            {
+              "key": "10.1016/j.swevo.2023.101351_b13",
+              "series-title": "2016 IEEE Congress on Evolutionary Computation",
+              "first-page": "2958",
+              "article-title": "An ensemble sinusoidal parameter adaptation incorporated with L-SHADE for solving CEC2014 benchmark problems",
+              "author": "Awad",
+              "year": "2016"
+            },
+            {
+              "key": "10.1016/j.swevo.2023.101351_b14",
+              "series-title": "2017 IEEE Congress on Evolutionary Computation",
+              "first-page": "145",
+              "article-title": "LSHADE with semi-parameter adaptation hybrid with CMA-ES for solving CEC 2017 benchmark problems",
+              "author": "Mohamed",
+              "year": "2017"
+            },
+            {
+              "key": "10.1016/j.swevo.2023.101351_b15",
+              "series-title": "Heuristics for Optimization and Learning",
+              "first-page": "103",
+              "article-title": "Single-objective real-parameter optimization: Enhanced LSHADE-SPACMA algorithm",
+              "author": "Hadi",
+              "year": "2021"
+            },
+            {
+              "key": "10.1016/j.swevo.2023.101351_b16",
+              "series-title": "2018 IEEE Congress on Evolutionary Computation",
+              "first-page": "1",
+              "article-title": "Hybrid sampling evolution strategy for solving single objective bound constrained problems",
+              "author": "Zhang",
+              "year": "2018"
+            },
+            {
+              "key": "10.1016/j.swevo.2023.101351_b17",
+              "series-title": "2016 IEEE Congress on Evolutionary Computation",
+              "first-page": "2966",
+              "article-title": "Testing united multi-operator evolutionary algorithms-II on single objective optimization problems",
+              "author": "Elsayed",
+              "year": "2016"
+            },
+            {
+              "key": "10.1016/j.swevo.2023.101351_b18",
+              "series-title": "2020 IEEE Congress on Evolutionary Computation",
+              "first-page": "1",
+              "article-title": "Improved multi-operator differential evolution algorithm for solving unconstrained problems",
+              "author": "Sallam",
+              "year": "2020"
+            },
+            {
+              "key": "10.1016/j.swevo.2023.101351_b19",
+              "doi-asserted-by": "crossref",
+              "first-page": "439",
+              "DOI": "10.1016/j.ins.2022.11.029",
+              "article-title": "An improved differential evolution by hybridizing with estimation-of-distribution algorithm",
+              "volume": "619",
+              "author": "Li",
+              "year": "2023",
+              "journal-title": "Inform. Sci."
+            },
+            {
+              "key": "10.1016/j.swevo.2023.101351_b20",
+              "series-title": "2018 IEEE Congress on Evolutionary Computation",
+              "first-page": "1",
+              "article-title": "LSHADE algorithm with rank-based selective pressure strategy for solving CEC 2017 benchmark problems",
+              "author": "Stanovov",
+              "year": "2018"
+            },
+            {
+              "issue": "2",
+              "key": "10.1016/j.swevo.2023.101351_b21",
+              "doi-asserted-by": "crossref",
+              "first-page": "185",
+              "DOI": "10.1016/j.conb.2008.08.003",
+              "article-title": "Reinforcement learning: The good, the bad and the ugly",
+              "volume": "18",
+              "author": "Dayan",
+              "year": "2008",
+              "journal-title": "Curr. Opin. Neurobiol."
+            },
+            {
+              "issue": "4",
+              "key": "10.1016/j.swevo.2023.101351_b22",
+              "doi-asserted-by": "crossref",
+              "first-page": "971",
+              "DOI": "10.1016/j.ins.2007.09.026",
+              "article-title": "Adaptive evolutionary programming based on reinforcement learning",
+              "volume": "178",
+              "author": "Zhang",
+              "year": "2008",
+              "journal-title": "Inform. Sci."
+            },
+            {
+              "key": "10.1016/j.swevo.2023.101351_b23",
+              "doi-asserted-by": "crossref",
+              "first-page": "234",
+              "DOI": "10.1016/j.swevo.2019.06.010",
+              "article-title": "Differential evolution based on reinforcement learning with fitness ranking for solving multimodal multiobjective problems",
+              "volume": "49",
+              "author": "Li",
+              "year": "2019",
+              "journal-title": "Swarm Evol. Comput."
+            },
+            {
+              "key": "10.1016/j.swevo.2023.101351_b24",
+              "doi-asserted-by": "crossref",
+              "first-page": "533",
+              "DOI": "10.1016/j.ins.2019.09.059",
+              "article-title": "A local search algorithm with reinforcement learning based repair procedure for minimum weight independent dominating set",
+              "volume": "512",
+              "author": "Wang",
+              "year": "2020",
+              "journal-title": "Inform. Sci."
+            },
+            {
+              "key": "10.1016/j.swevo.2023.101351_b25",
+              "doi-asserted-by": "crossref",
+              "DOI": "10.1016/j.asoc.2020.106693",
+              "article-title": "A fitness landscape ruggedness multiobjective differential evolution algorithm with a reinforcement learning strategy",
+              "volume": "96",
+              "author": "Huang",
+              "year": "2020",
+              "journal-title": "Appl. Soft Comput."
+            },
+            {
+              "key": "10.1016/j.swevo.2023.101351_b26",
+              "doi-asserted-by": "crossref",
+              "DOI": "10.1016/j.knosys.2021.106836",
+              "article-title": "Rule-based reinforcement learning methodology to inform evolutionary algorithms for constrained optimization of engineering applications",
+              "volume": "217",
+              "author": "Radaideh",
+              "year": "2021",
+              "journal-title": "Knowl.-Based Syst."
+            },
+            {
+              "key": "10.1016/j.swevo.2023.101351_b27",
+              "doi-asserted-by": "crossref",
+              "DOI": "10.1016/j.asoc.2021.107464",
+              "article-title": "Q-learning-based parameter control in differential evolution for structural optimization",
+              "volume": "107",
+              "author": "Huynh",
+              "year": "2021",
+              "journal-title": "Appl. Soft Comput."
+            },
+            {
+              "key": "10.1016/j.swevo.2023.101351_b28",
+              "doi-asserted-by": "crossref",
+              "DOI": "10.1016/j.asoc.2021.107678",
+              "article-title": "Differential evolution with mixed mutation strategy based on deep reinforcement learning",
+              "volume": "111",
+              "author": "Tan",
+              "year": "2021",
+              "journal-title": "Appl. Soft Comput."
+            },
+            {
+              "key": "10.1016/j.swevo.2023.101351_b29",
+              "doi-asserted-by": "crossref",
+              "first-page": "916",
+              "DOI": "10.1016/j.egyr.2021.01.096",
+              "article-title": "Reinforcement learning-based differential evolution for parameters extraction of photovoltaic models",
+              "volume": "7",
+              "author": "Hu",
+              "year": "2021",
+              "journal-title": "Energy Rep."
+            },
+            {
+              "key": "10.1016/j.swevo.2023.101351_b30",
+              "series-title": "2015 IEEE Congress on Evolutionary Computation",
+              "first-page": "1003",
+              "article-title": "A self-optimization approach for L-SHADE incorporated with eigenvector-based crossover and successful-parent-selecting framework on CEC 2015 benchmark set",
+              "author": "Guo",
+              "year": "2015"
+            },
+            {
+              "key": "10.1016/j.swevo.2023.101351_b31",
+              "series-title": "Multiple Gravity Assist Interplanetary Trajectories",
+              "author": "Labunsky",
+              "year": "1998"
+            },
+            {
+              "issue": "5",
+              "key": "10.1016/j.swevo.2023.101351_b32",
+              "doi-asserted-by": "crossref",
+              "first-page": "945",
+              "DOI": "10.1109/TEVC.2009.2014613",
+              "article-title": "JADE: adaptive differential evolution with optional external archive",
+              "volume": "13",
+              "author": "Zhang",
+              "year": "2009",
+              "journal-title": "IEEE Trans. Evol. Comput."
+            },
+            {
+              "key": "10.1016/j.swevo.2023.101351_b33",
+              "series-title": "2015 IEEE Congress on Evolutionary Computation",
+              "first-page": "1025",
+              "article-title": "Testing MVMO on learning-based real-parameter single objective benchmark optimization problems",
+              "author": "Rueda",
+              "year": "2015"
+            },
+            {
+              "key": "10.1016/j.swevo.2023.101351_b34",
+              "series-title": "2017 IEEE Congress on Evolutionary Computation",
+              "first-page": "1835",
+              "article-title": "Improving the local search capability of effective butterfly optimizer using covariance matrix adapted retreat phase",
+              "author": "Kumar",
+              "year": "2017"
+            },
+            {
+              "key": "10.1016/j.swevo.2023.101351_b35",
+              "series-title": "2021 IEEE Congress on Evolutionary Computation",
+              "first-page": "832",
+              "article-title": "Improving differential evolution through Bayesian hyperparameter optimization",
+              "author": "Biswas",
+              "year": "2021"
+            },
+            {
+              "key": "10.1016/j.swevo.2023.101351_b36",
+              "series-title": "2021 IEEE Congress on Evolutionary Computation",
+              "first-page": "841",
+              "article-title": "Gaining-sharing knowledge based algorithm with adaptive parameters hybrid with IMODE algorithm for solving CEC 2021 benchmark problems",
+              "author": "Mohamed",
+              "year": "2021"
+            },
+            {
+              "issue": "3",
+              "key": "10.1016/j.swevo.2023.101351_b37",
+              "doi-asserted-by": "crossref",
+              "first-page": "307",
+              "DOI": "10.1007/s00500-008-0323-y",
+              "article-title": "KEEL: a software tool to assess evolutionary algorithms for data mining problems",
+              "volume": "13",
+              "author": "Alcalá-Fdez",
+              "year": "2009",
+              "journal-title": "Soft Comput."
+            },
+            {
+              "key": "10.1016/j.swevo.2023.101351_b38",
+              "doi-asserted-by": "crossref",
+              "DOI": "10.1016/j.swevo.2018.10.013",
+              "article-title": "Distance based parameter adaptation for success-history based differential evolution",
+              "volume": "50",
+              "author": "Viktorin",
+              "year": "2019",
+              "journal-title": "Swarm Evol. Comput."
+            },
+            {
+              "key": "10.1016/j.swevo.2023.101351_b39",
+              "doi-asserted-by": "crossref",
+              "first-page": "117",
+              "DOI": "10.1016/j.ins.2018.08.030",
+              "article-title": "L-SHADE optimization algorithms with population-wide inertia",
+              "volume": "468",
+              "author": "Piotrowski",
+              "year": "2018",
+              "journal-title": "Inform. Sci."
+            },
+            {
+              "key": "10.1016/j.swevo.2023.101351_b40",
+              "doi-asserted-by": "crossref",
+              "first-page": "350",
+              "DOI": "10.1016/j.ins.2022.05.058",
+              "article-title": "A novel adaptive L-SHADE algorithm and its application in UAV swarm resource configuration problem",
+              "volume": "606",
+              "author": "Li",
+              "year": "2022",
+              "journal-title": "Inform. Sci."
+            }
+          ],
+          "container-title": [
+            "Swarm and Evolutionary Computation"
+          ],
+          "language": "en",
+          "link": [
+            {
+              "URL": "https://api.elsevier.com/content/article/PII:S2210650223001244?httpAccept=text/xml",
+              "content-type": "text/xml",
+              "content-version": "vor",
+              "intended-application": "text-mining"
+            },
+            {
+              "URL": "https://api.elsevier.com/content/article/PII:S2210650223001244?httpAccept=text/plain",
+              "content-type": "text/plain",
+              "content-version": "vor",
+              "intended-application": "text-mining"
+            }
+          ],
+          "deposited": {
+            "date-parts": [
+              [
+                2026,
+                5,
+                15
+              ]
+            ],
+            "date-time": "2026-05-15T10:12:18Z",
+            "timestamp": 1778839938000
+          },
+          "score": 32.05653,
+          "resource": {
+            "primary": {
+              "URL": "https://linkinghub.elsevier.com/retrieve/pii/S2210650223001244"
+            }
+          },
+          "issued": {
+            "date-parts": [
+              [
+                2023,
+                8
+              ]
+            ]
+          },
+          "references-count": 40,
+          "alternative-id": [
+            "S2210650223001244"
+          ],
+          "URL": "https://doi.org/10.1016/j.swevo.2023.101351",
+          "ISSN": [
+            "2210-6502"
+          ],
+          "issn-type": [
+            {
+              "value": "2210-6502",
+              "type": "print"
+            }
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2023,
+                8
+              ]
+            ]
+          },
+          "assertion": [
+            {
+              "value": "Elsevier",
+              "name": "publisher",
+              "label": "This article is maintained by"
+            },
+            {
+              "value": "Reinforcement learning-based hybrid differential evolution for global optimization of interplanetary trajectory design",
+              "name": "articletitle",
+              "label": "Article Title"
+            },
+            {
+              "value": "Swarm and Evolutionary Computation",
+              "name": "journaltitle",
+              "label": "Journal Title"
+            },
+            {
+              "value": "https://doi.org/10.1016/j.swevo.2023.101351",
+              "name": "articlelink",
+              "label": "CrossRef DOI link to publisher maintained version"
+            },
+            {
+              "value": "article",
+              "name": "content_type",
+              "label": "Content Type"
+            },
+            {
+              "value": "© 2023 Elsevier B.V. All rights reserved.",
+              "name": "copyright",
+              "label": "Copyright"
+            }
+          ],
+          "article-number": "101351"
+        },
+        {
+          "indexed": {
+            "date-parts": [
+              [
+                2026,
+                7,
+                22
+              ]
+            ],
+            "date-time": "2026-07-22T10:54:05Z",
+            "timestamp": 1784717645899,
+            "version": "3.55.0"
+          },
+          "reference-count": 70,
+          "publisher": "Elsevier BV",
+          "license": [
+            {
+              "start": {
+                "date-parts": [
+                  [
+                    2020,
+                    9,
+                    1
+                  ]
+                ],
+                "date-time": "2020-09-01T00:00:00Z",
+                "timestamp": 1598918400000
+              },
+              "content-version": "tdm",
+              "delay-in-days": 0,
+              "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+            },
+            {
+              "start": {
+                "date-parts": [
+                  [
+                    2020,
+                    9,
+                    1
+                  ]
+                ],
+                "date-time": "2020-09-01T00:00:00Z",
+                "timestamp": 1598918400000
+              },
+              "content-version": "tdm",
+              "delay-in-days": 0,
+              "URL": "https://www.elsevier.com/legal/tdmrep-license"
+            }
+          ],
+          "funder": [
+            {
+              "DOI": "10.13039/501100004701",
+              "name": "China University of Geosciences, Wuhan",
+              "doi-asserted-by": "publisher",
+              "id": [
+                {
+                  "id": "10.13039/501100004701",
+                  "id-type": "DOI",
+                  "asserted-by": "publisher"
+                }
+              ]
+            },
+            {
+              "DOI": "10.13039/501100012130",
+              "name": "Chinese Aeronautical Establishment",
+              "doi-asserted-by": "publisher",
+              "award": [
+                "2018ZCZ2002"
+              ],
+              "award-info": [
+                {
+                  "award-number": [
+                    "2018ZCZ2002"
+                  ]
+                }
+              ],
+              "id": [
+                {
+                  "id": "10.13039/501100012130",
+                  "id-type": "DOI",
+                  "asserted-by": "publisher"
+                }
+              ]
+            },
+            {
+              "DOI": "10.13039/501100012166",
+              "name": "National Key Research and Development Program of China",
+              "doi-asserted-by": "publisher",
+              "award": [
+                "2016YFB0501001"
+              ],
+              "award-info": [
+                {
+                  "award-number": [
+                    "2016YFB0501001"
+                  ]
+                }
+              ],
+              "id": [
+                {
+                  "id": "10.13039/501100012166",
+                  "id-type": "DOI",
+                  "asserted-by": "publisher"
+                }
+              ]
+            },
+            {
+              "DOI": "10.13039/501100003819",
+              "name": "Natural Science Foundation of Hubei Province",
+              "doi-asserted-by": "publisher",
+              "award": [
+                "2019CFB376"
+              ],
+              "award-info": [
+                {
+                  "award-number": [
+                    "2019CFB376"
+                  ]
+                }
+              ],
+              "id": [
+                {
+                  "id": "10.13039/501100003819",
+                  "id-type": "DOI",
+                  "asserted-by": "publisher"
+                }
+              ]
+            },
+            {
+              "DOI": "10.13039/501100002858",
+              "name": "China Postdoctoral Science Foundation",
+              "doi-asserted-by": "publisher",
+              "award": [
+                "2019TQ0291"
+              ],
+              "award-info": [
+                {
+                  "award-number": [
+                    "2019TQ0291"
+                  ]
+                }
+              ],
+              "id": [
+                {
+                  "id": "10.13039/501100002858",
+                  "id-type": "DOI",
+                  "asserted-by": "publisher"
+                }
+              ]
+            }
+          ],
+          "content-domain": {
+            "domain": [
+              "elsevier.com",
+              "sciencedirect.com"
+            ],
+            "crossmark-restriction": true
+          },
+          "short-container-title": [
+            "Applied Soft Computing"
+          ],
+          "published-print": {
+            "date-parts": [
+              [
+                2020,
+                9
+              ]
+            ]
+          },
+          "DOI": "10.1016/j.asoc.2020.106451",
+          "type": "journal-article",
+          "created": {
+            "date-parts": [
+              [
+                2020,
+                6,
+                15
+              ]
+            ],
+            "date-time": "2020-06-15T11:31:07Z",
+            "timestamp": 1592220667000
+          },
+          "page": "106451",
+          "update-policy": "https://doi.org/10.1016/elsevier_cm_policy",
+          "source": "Crossref",
+          "is-referenced-by-count": 42,
+          "special_numbering": "C",
+          "title": [
+            "A case learning-based differential evolution algorithm for global optimization of interplanetary trajectory design"
+          ],
+          "prefix": "10.1016",
+          "volume": "94",
+          "author": [
+            {
+              "given": "Mingcheng",
+              "family": "Zuo",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "ORCID": "https://orcid.org/0000-0002-1787-3794",
+              "authenticated-orcid": false,
+              "given": "Guangming",
+              "family": "Dai",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Lei",
+              "family": "Peng",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "ORCID": "https://orcid.org/0000-0002-6736-1711",
+              "authenticated-orcid": false,
+              "given": "Maocai",
+              "family": "Wang",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Zhengquan",
+              "family": "Liu",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Changchun",
+              "family": "Chen",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            }
+          ],
+          "member": "78",
+          "reference": [
+            {
+              "issue": "2",
+              "key": "10.1016/j.asoc.2020.106451_b1",
+              "doi-asserted-by": "crossref",
+              "first-page": "283",
+              "DOI": "10.1007/s10898-006-9106-0",
+              "article-title": "Search space pruning and global optimisation of multiple gravity assist spacecraft trajectories",
+              "volume": "38",
+              "author": "Izzo",
+              "year": "2007",
+              "journal-title": "J. Global Optim."
+            },
+            {
+              "issue": "9–10",
+              "key": "10.1016/j.asoc.2020.106451_b2",
+              "doi-asserted-by": "crossref",
+              "first-page": "1202",
+              "DOI": "10.1016/j.actaastro.2010.07.001",
+              "article-title": "MGA trajectory planning with an ACO-inspired algorithm",
+              "volume": "67",
+              "author": "Ceriotti",
+              "year": "2010",
+              "journal-title": "Acta Astronaut."
+            },
+            {
+              "key": "10.1016/j.asoc.2020.106451_b3",
+              "series-title": "Modeling and Optimization in Space Engineering",
+              "first-page": "191",
+              "article-title": "Machine learning and evolutionary techniques in interplanetary trajectory design",
+              "author": "Izzo",
+              "year": "2019"
+            },
+            {
+              "key": "10.1016/j.asoc.2020.106451_b4",
+              "doi-asserted-by": "crossref",
+              "first-page": "76",
+              "DOI": "10.1016/j.paerosci.2018.07.007",
+              "article-title": "Spacecraft trajectory optimization: A review of models, objectives, approaches and solutions",
+              "volume": "102",
+              "author": "Shirazi",
+              "year": "2018",
+              "journal-title": "Prog. Aerosp. Sci."
+            },
+            {
+              "issue": "3",
+              "key": "10.1016/j.asoc.2020.106451_b5",
+              "doi-asserted-by": "crossref",
+              "first-page": "476",
+              "DOI": "10.2514/1.G003702",
+              "article-title": "Multi-objective low-thrust interplanetary trajectory optimization based on generalized logarithmic spirals",
+              "volume": "42",
+              "author": "Morante",
+              "year": "2018",
+              "journal-title": "J. Guid. Control Dyn."
+            },
+            {
+              "key": "10.1016/j.asoc.2020.106451_b6",
+              "unstructured": "Daniel Hennes, Dario Izzo, Interplanetary trajectory planning with Monte Carlo tree search, in: Twenty-Fourth International Joint Conference on Artificial Intelligence, 2015."
+            },
+            {
+              "issue": "4",
+              "key": "10.1016/j.asoc.2020.106451_b7",
+              "doi-asserted-by": "crossref",
+              "first-page": "936",
+              "DOI": "10.2514/1.G003214",
+              "article-title": "Improved differential evolution algorithm and its applications to orbit design",
+              "volume": "41",
+              "author": "Yao",
+              "year": "2017",
+              "journal-title": "J. Guid. Control Dyn."
+            },
+            {
+              "key": "10.1016/j.asoc.2020.106451_b8",
+              "doi-asserted-by": "crossref",
+              "unstructured": "Shadi Darani, Ossama O. Abdelkhalik, Developments on the optimization of interplanetary trajectories using hidden genes genetic algorithms, in: AIAA/AAS Astrodynamics Specialist Conference, 2016, pp. 5264.",
+              "DOI": "10.2514/6.2016-5264"
+            },
+            {
+              "key": "10.1016/j.asoc.2020.106451_b9",
+              "doi-asserted-by": "crossref",
+              "first-page": "297",
+              "DOI": "10.1016/j.actaastro.2017.02.018",
+              "article-title": "Method of interplanetary trajectory optimization for the spacecraft with low thrust and swing-bys",
+              "volume": "136",
+              "author": "Konstantinov",
+              "year": "2017",
+              "journal-title": "Acta Astronaut."
+            },
+            {
+              "key": "10.1016/j.asoc.2020.106451_b10",
+              "first-page": "15",
+              "article-title": "Automated solution of the low-thrust interplanetary trajectory problem",
+              "author": "Englander",
+              "year": "2016",
+              "journal-title": "J. Guid. Control Dyn."
+            },
+            {
+              "key": "10.1016/j.asoc.2020.106451_b11",
+              "unstructured": "Tamás Vinkó, Dario Izzo, Claudio Bombardelli, Benchmarking different global optimisation techniques for preliminary space trajectory design, in: International Astronautical Congress, 2007, pp. 24–28."
+            },
+            {
+              "key": "10.1016/j.asoc.2020.106451_b12",
+              "doi-asserted-by": "crossref",
+              "first-page": "178",
+              "DOI": "10.1017/CBO9780511778025.008",
+              "article-title": "Global optimization and space pruning for spacecraft trajectory design",
+              "volume": "1",
+              "author": "Izzo",
+              "year": "2010",
+              "journal-title": "Spacecr. Trajectory Optim."
+            },
+            {
+              "key": "10.1016/j.asoc.2020.106451_b13",
+              "doi-asserted-by": "crossref",
+              "unstructured": "V. M. Becerra, S. J. Nasuto, J. Anderson, M. Ceriotti, Search space pruning and global optimization of multiple gravity assist trajectories with deep space manoeuvres, in: IEEE Congress on Evolutionary Computation, 2007, pp. 957–964.",
+              "DOI": "10.1109/CEC.2007.4424573"
+            },
+            {
+              "issue": "2",
+              "key": "10.1016/j.asoc.2020.106451_b14",
+              "doi-asserted-by": "crossref",
+              "first-page": "616",
+              "DOI": "10.2514/1.32633",
+              "article-title": "Evolutionary neurocontrol: A novel method for low-thrust gravity-assist trajectory optimization",
+              "volume": "32",
+              "author": "Carnelli",
+              "year": "2009",
+              "journal-title": "J. Guid. Control Dyn."
+            },
+            {
+              "issue": "2",
+              "key": "10.1016/j.asoc.2020.106451_b15",
+              "doi-asserted-by": "crossref",
+              "first-page": "267",
+              "DOI": "10.1109/TEVC.2010.2087026",
+              "article-title": "An inflationary differential evolution algorithm for space trajectory optimization",
+              "volume": "15",
+              "author": "Vasile",
+              "year": "2011",
+              "journal-title": "IEEE Trans. Evol. Comput."
+            },
+            {
+              "issue": "9",
+              "key": "10.1016/j.asoc.2020.106451_b16",
+              "doi-asserted-by": "crossref",
+              "first-page": "735",
+              "DOI": "10.1016/j.actaastro.2007.03.008",
+              "article-title": "1st ACT global trajectory optimization competition: Tsinghua university results",
+              "volume": "61",
+              "author": "Li",
+              "year": "2007",
+              "journal-title": "Acta Astronaut."
+            },
+            {
+              "key": "10.1016/j.asoc.2020.106451_b17",
+              "series-title": "Space Trajectories Optimization using Variable-Chromosome-Length Genetic Algorithms",
+              "author": "Gad",
+              "year": "2011"
+            },
+            {
+              "key": "10.1016/j.asoc.2020.106451_b18",
+              "series-title": "Aerospace Conference Proceedings",
+              "first-page": "99",
+              "article-title": "Multi-spacecraft trajectory optimization and control using genetic algorithm techniques",
+              "author": "Li",
+              "year": "2000"
+            },
+            {
+              "key": "10.1016/j.asoc.2020.106451_b19",
+              "doi-asserted-by": "crossref",
+              "unstructured": "Matthew A. Vavrina, Kathleen C. Howell, Global low-thrust trajectory optimization through hybridization of a genetic algorithm and a direct method, in: AIAA/AAS Astrodynamics Specialist Conference and Exhibit, 2008, pp. 41–44.",
+              "DOI": "10.2514/6.2008-6614"
+            },
+            {
+              "key": "10.1016/j.asoc.2020.106451_b20",
+              "doi-asserted-by": "crossref",
+              "first-page": "1202",
+              "DOI": "10.1016/j.actaastro.2010.07.001",
+              "article-title": "Mga trajectory planning with an ACO-inspired algorithm",
+              "volume": "67",
+              "author": "Ceriotti",
+              "year": "2010",
+              "journal-title": "Acta Astronaut."
+            },
+            {
+              "key": "10.1016/j.asoc.2020.106451_b21",
+              "series-title": "IEEE Congress on Evolutionary Computation, CEC",
+              "first-page": "1",
+              "article-title": "An ant system algorithm for automated trajectory planning",
+              "author": "Ceriotti",
+              "year": "2010"
+            },
+            {
+              "issue": "9",
+              "key": "10.1016/j.asoc.2020.106451_b22",
+              "doi-asserted-by": "crossref",
+              "first-page": "261",
+              "DOI": "10.2514/1.48448",
+              "article-title": "Automated multigravity assist trajectory planning with a modified ant colony algorithm",
+              "volume": "7",
+              "author": "Ceriotti",
+              "year": "2010",
+              "journal-title": "J. Aerosp. Comput. Inf. Commun."
+            },
+            {
+              "key": "10.1016/j.asoc.2020.106451_b23",
+              "series-title": "European Conference on Evolutionary Computation in Combinatorial Optimization",
+              "first-page": "141",
+              "article-title": "Multi-rendezvous spacecraft trajectory optimization with beam P-ACO",
+              "author": "Simões",
+              "year": "2017"
+            },
+            {
+              "key": "10.1016/j.asoc.2020.106451_b24",
+              "doi-asserted-by": "crossref",
+              "first-page": "1",
+              "DOI": "10.1155/2016/3416046",
+              "article-title": "Multiple gravity assist spacecraft trajectories design based on BFS and EP_DE algorithm",
+              "volume": "2016",
+              "author": "Zuo",
+              "year": "2016",
+              "journal-title": "Int. J. Aerosp. Eng."
+            },
+            {
+              "key": "10.1016/j.asoc.2020.106451_b25",
+              "first-page": "1",
+              "article-title": "EP_DE II: A significant algorithm to search the optimal solution for global optimization of multi-gravity assist trajectory",
+              "author": "Zuo",
+              "year": "2017",
+              "journal-title": "Proc. Inst. Mech. Eng. G"
+            },
+            {
+              "key": "10.1016/j.asoc.2020.106451_b26",
+              "series-title": "Evolutionary Computation",
+              "first-page": "2655",
+              "article-title": "Global optimisation of multiple gravity assist spacecraft trajectories based on search space exploring and PCA",
+              "author": "Zuo",
+              "year": "2016"
+            },
+            {
+              "issue": "3",
+              "key": "10.1016/j.asoc.2020.106451_b27",
+              "doi-asserted-by": "crossref",
+              "first-page": "635",
+              "DOI": "10.1007/s10589-009-9261-6",
+              "article-title": "A global optimization method for the design of space trajectories",
+              "volume": "48",
+              "author": "Addis",
+              "year": "2011",
+              "journal-title": "Comput. Optim. Appl."
+            },
+            {
+              "key": "10.1016/j.asoc.2020.106451_b28",
+              "unstructured": "Christos Ampatzis, Dario Izzo, Machine learning techniques for approximation of objective functions in trajectory optimisation, in: Proceedings of the IJCAI-09 Workshop on Artificial Intelligence in Space, 2009, pp. 1–6."
+            },
+            {
+              "key": "10.1016/j.asoc.2020.106451_b29",
+              "doi-asserted-by": "crossref",
+              "unstructured": "Marco Biazzini, Balazs Banhelyi, Alberto Montresor, Mark Jelasity, Distributed hyper-heuristics for real parameter optimization, in: Conference on Genetic and Evolutionary Computation, 2009, pp. 1339–1346.",
+              "DOI": "10.1145/1569901.1570081"
+            },
+            {
+              "key": "10.1016/j.asoc.2020.106451_b30",
+              "series-title": "A global optimisation toolbox for massively parallel engineering optimisation",
+              "author": "Biscani",
+              "year": "2010"
+            },
+            {
+              "key": "10.1016/j.asoc.2020.106451_b31",
+              "unstructured": "Gregoire Danoy, Bernabe Dorronsoro, Pascal Bouvry, New state-of-the-art results for Cassini2 global trajectory optimization problem, in: International Joint Conference on Artificial Intelligence, 2012, pp. 1–6."
+            },
+            {
+              "issue": "2",
+              "key": "10.1016/j.asoc.2020.106451_b32",
+              "doi-asserted-by": "crossref",
+              "first-page": "482",
+              "DOI": "10.1109/TSMCB.2011.2167966",
+              "article-title": "An adaptive differential evolution algorithm with novel mutation and crossover strategies for global numerical optimization",
+              "volume": "42",
+              "author": "Islam",
+              "year": "2012",
+              "journal-title": "Syst. Man Cybern."
+            },
+            {
+              "key": "10.1016/j.asoc.2020.106451_b33",
+              "doi-asserted-by": "crossref",
+              "first-page": "232",
+              "DOI": "10.1016/j.asoc.2014.01.038",
+              "article-title": "Differential evolution based on covariance matrix learning and bimodal distribution parameter setting",
+              "volume": "18",
+              "author": "Wang",
+              "year": "2014",
+              "journal-title": "Appl. Soft Comput."
+            },
+            {
+              "key": "10.1016/j.asoc.2020.106451_b34",
+              "doi-asserted-by": "crossref",
+              "unstructured": "Mingcheng Zuo, Guangming Dai, Lei Peng, Maocai Wang, Pan Peng, Changchun Chen, Benchmarking the region learning-based JADE on noiseless functions, in: Proceedings of the Genetic and Evolutionary Computation Conference Companion, 2019, pp. 271–272.",
+              "DOI": "10.1145/3319619.3321882"
+            },
+            {
+              "key": "10.1016/j.asoc.2020.106451_b35",
+              "doi-asserted-by": "crossref",
+              "unstructured": "Mingcheng Zuo, Guangming Dai, Lei Peng, Maocai Wang, Pan Peng, Changchun Chen, A new mutation operator with the ability to adjust exploration and exploitation for DE algorithm, in: Proceedings of the Genetic and Evolutionary Computation Conference Companion, 2019, pp. 273–274.",
+              "DOI": "10.1145/3319619.3321887"
+            },
+            {
+              "issue": "1",
+              "key": "10.1016/j.asoc.2020.106451_b36",
+              "doi-asserted-by": "crossref",
+              "first-page": "62",
+              "DOI": "10.1016/j.jpdc.2012.02.019",
+              "article-title": "Parallel differential evolution with self-adapting control parameters and generalized opposition-based learning for solving high-dimensional optimization problems",
+              "volume": "73",
+              "author": "Wang",
+              "year": "2013",
+              "journal-title": "J. Parallel Distrib. Comput."
+            },
+            {
+              "issue": "8",
+              "key": "10.1016/j.asoc.2020.106451_b37",
+              "doi-asserted-by": "crossref",
+              "first-page": "1303",
+              "DOI": "10.1007/s00500-012-0813-9",
+              "article-title": "Opposition-based learning in the shuffled differential evolution algorithm",
+              "volume": "16",
+              "author": "Ahandani",
+              "year": "2012",
+              "journal-title": "Soft Comput."
+            },
+            {
+              "key": "10.1016/j.asoc.2020.106451_b38",
+              "doi-asserted-by": "crossref",
+              "first-page": "1038",
+              "DOI": "10.1016/j.neucom.2014.07.030",
+              "article-title": "A binary differential evolution algorithm learning from explored solutions",
+              "volume": "149",
+              "author": "Chen",
+              "year": "2015",
+              "journal-title": "Neurocomputing"
+            },
+            {
+              "key": "10.1016/j.asoc.2020.106451_b39",
+              "doi-asserted-by": "crossref",
+              "first-page": "329",
+              "DOI": "10.1016/j.asoc.2017.03.003",
+              "article-title": "A switched parameter differential evolution with optional blending crossover for scalable numerical optimization",
+              "volume": "57",
+              "author": "Ghosh",
+              "year": "2017",
+              "journal-title": "Appl. Soft Comput."
+            },
+            {
+              "key": "10.1016/j.asoc.2020.106451_b40",
+              "doi-asserted-by": "crossref",
+              "first-page": "1",
+              "DOI": "10.1016/j.swevo.2016.01.004",
+              "article-title": "Recent advances in differential evolution–an updated survey",
+              "volume": "27",
+              "author": "Das",
+              "year": "2016",
+              "journal-title": "Swarm Evol. Comput."
+            },
+            {
+              "issue": "5",
+              "key": "10.1016/j.asoc.2020.106451_b41",
+              "doi-asserted-by": "crossref",
+              "first-page": "945",
+              "DOI": "10.1109/TEVC.2009.2014613",
+              "article-title": "JADE: adaptive differential evolution with optional external archive",
+              "volume": "13",
+              "author": "Zhang",
+              "year": "2009",
+              "journal-title": "IEEE Trans. Evol. Comput."
+            },
+            {
+              "key": "10.1016/j.asoc.2020.106451_b42",
+              "series-title": "2013 IEEE Congress on Evolutionary Computation",
+              "first-page": "1952",
+              "article-title": "Evaluating the performance of SHADE on CEC 2013 benchmark problems",
+              "author": "Tanabe",
+              "year": "2013"
+            },
+            {
+              "key": "10.1016/j.asoc.2020.106451_b43",
+              "series-title": "2014 IEEE Congress on Evolutionary Computation, CEC",
+              "first-page": "1658",
+              "article-title": "Improving the search performance of SHADE using linear population size reduction",
+              "author": "Tanabe",
+              "year": "2014"
+            },
+            {
+              "key": "10.1016/j.asoc.2020.106451_b44",
+              "series-title": "2015 IEEE Congress on Evolutionary Computation, CEC",
+              "first-page": "1003",
+              "article-title": "A self-optimization approach for L-SHADE incorporated with eigenvector-based crossover and successful-parent-selecting framework on CEC 2015 benchmark set",
+              "author": "Guo",
+              "year": "2015"
+            },
+            {
+              "key": "10.1016/j.asoc.2020.106451_b45",
+              "series-title": "2017 IEEE Congress on Evolutionary Computation, CEC",
+              "first-page": "1311",
+              "article-title": "Single objective real-parameter optimization: Algorithm jSO",
+              "author": "Brest",
+              "year": "2017"
+            },
+            {
+              "key": "10.1016/j.asoc.2020.106451_b46",
+              "doi-asserted-by": "crossref",
+              "first-page": "117",
+              "DOI": "10.1016/j.ins.2018.08.030",
+              "article-title": "L-SHADE Optimization algorithms with population-wide inertia",
+              "volume": "468",
+              "author": "Piotrowski",
+              "year": "2018",
+              "journal-title": "Inform. Sci."
+            },
+            {
+              "key": "10.1016/j.asoc.2020.106451_b47",
+              "doi-asserted-by": "crossref",
+              "DOI": "10.1016/j.swevo.2018.10.006",
+              "article-title": "Novel mutation strategy for enhancing SHADE and LSHADE algorithms for global numerical optimization",
+              "volume": "50",
+              "author": "Mohamed",
+              "year": "2019",
+              "journal-title": "Swarm Evol. Comput."
+            },
+            {
+              "key": "10.1016/j.asoc.2020.106451_b48",
+              "first-page": "1",
+              "article-title": "Triangular Gaussian mutation to differential evolution",
+              "author": "Guo",
+              "year": "2019",
+              "journal-title": "Soft Comput."
+            },
+            {
+              "key": "10.1016/j.asoc.2020.106451_b49",
+              "series-title": "Fundamentals of Astrodynamics",
+              "author": "Bate",
+              "year": "1971"
+            },
+            {
+              "key": "10.1016/j.asoc.2020.106451_b50",
+              "series-title": "Modern Astrodynamics: Fundamentals and Perturbation Methods, Vol. 51",
+              "author": "Bond",
+              "year": "1996"
+            },
+            {
+              "key": "10.1016/j.asoc.2020.106451_b51",
+              "series-title": "Orbital Mechanics for Engineering Students",
+              "author": "Curtis",
+              "year": "2013"
+            },
+            {
+              "key": "10.1016/j.asoc.2020.106451_b52",
+              "series-title": "An Introduction to the Mathematics and Methods of Astrodynamics, Revised Edition",
+              "author": "Battin",
+              "year": "1999"
+            },
+            {
+              "key": "10.1016/j.asoc.2020.106451_b53",
+              "series-title": "Multiple Gravity Assist Interplanetary Trajectories",
+              "author": "Labunsky",
+              "year": "1998"
+            },
+            {
+              "issue": "4",
+              "key": "10.1016/j.asoc.2020.106451_b54",
+              "doi-asserted-by": "crossref",
+              "first-page": "794",
+              "DOI": "10.2514/1.17413",
+              "article-title": "Preliminary design of multiple gravity-assist trajectories",
+              "volume": "43",
+              "author": "Vasile",
+              "year": "2006",
+              "journal-title": "J. Spacecr. Rockets"
+            },
+            {
+              "issue": "4",
+              "key": "10.1016/j.asoc.2020.106451_b55",
+              "doi-asserted-by": "crossref",
+              "first-page": "341",
+              "DOI": "10.1023/A:1008202821328",
+              "article-title": "Differential evolution–a simple and efficient heuristic for global optimization over continuous spaces",
+              "volume": "11",
+              "author": "Storn",
+              "year": "1997",
+              "journal-title": "J. Global Optim."
+            },
+            {
+              "issue": "6",
+              "key": "10.1016/j.asoc.2020.106451_b56",
+              "doi-asserted-by": "crossref",
+              "first-page": "617",
+              "DOI": "10.1007/s10732-008-9080-4",
+              "article-title": "A study on the use of non-parametric tests for analyzing the evolutionary algorithms’ behaviour: a case study on the CEC’2005 special session on real parameter optimization",
+              "volume": "15",
+              "author": "García",
+              "year": "2009",
+              "journal-title": "J. Heuristics"
+            },
+            {
+              "issue": "3",
+              "key": "10.1016/j.asoc.2020.106451_b57",
+              "doi-asserted-by": "crossref",
+              "first-page": "307",
+              "DOI": "10.1007/s00500-008-0323-y",
+              "article-title": "KEEL: a software tool to assess evolutionary algorithms for data mining problems",
+              "volume": "13",
+              "author": "Alcalá-Fdez",
+              "year": "2009",
+              "journal-title": "Soft Comput."
+            },
+            {
+              "issue": "2",
+              "key": "10.1016/j.asoc.2020.106451_b58",
+              "doi-asserted-by": "crossref",
+              "first-page": "482",
+              "DOI": "10.1109/TSMCB.2011.2167966",
+              "article-title": "An adaptive differential evolution algorithm with novel mutation and crossover strategies for global numerical optimization",
+              "volume": "42",
+              "author": "Islam",
+              "year": "2012",
+              "journal-title": "IEEE Trans. Syst. Man Cybern. B"
+            },
+            {
+              "key": "10.1016/j.asoc.2020.106451_b59",
+              "series-title": "Encyclopedia of machine learning",
+              "first-page": "760",
+              "article-title": "Particle swarm optimization",
+              "author": "Kennedy",
+              "year": "2010"
+            },
+            {
+              "key": "10.1016/j.asoc.2020.106451_b60",
+              "series-title": "2006 IEEE International Conference on Evolutionary Computation",
+              "first-page": "215",
+              "article-title": "Self-adaptive differential evolution algorithm in constrained real-parameter optimization",
+              "author": "Brest",
+              "year": "2006"
+            },
+            {
+              "issue": "4",
+              "key": "10.1016/j.asoc.2020.106451_b61",
+              "doi-asserted-by": "crossref",
+              "first-page": "355",
+              "DOI": "10.1016/j.cnsns.2003.12.005",
+              "article-title": "A gray-encoded, hybrid-accelerated, genetic algorithm for global optimizations in dynamical systems",
+              "volume": "10",
+              "author": "Yang",
+              "year": "2005",
+              "journal-title": "Commun. Nonlinear Sci. Numer. Simul."
+            },
+            {
+              "issue": "4598",
+              "key": "10.1016/j.asoc.2020.106451_b62",
+              "doi-asserted-by": "crossref",
+              "first-page": "671",
+              "DOI": "10.1126/science.220.4598.671",
+              "article-title": "Optimization by simulated annealing",
+              "volume": "220",
+              "author": "Kirkpatrick",
+              "year": "1983",
+              "journal-title": "Science"
+            },
+            {
+              "issue": "2",
+              "key": "10.1016/j.asoc.2020.106451_b63",
+              "first-page": "1567",
+              "article-title": "An improved harmony search algorithm for solving optimization problems",
+              "volume": "188",
+              "author": "Mahdavi",
+              "year": "2007",
+              "journal-title": "Appl. Math. Comput."
+            },
+            {
+              "issue": "1",
+              "key": "10.1016/j.asoc.2020.106451_b64",
+              "doi-asserted-by": "crossref",
+              "first-page": "1",
+              "DOI": "10.1162/106365603321828970",
+              "article-title": "Reducing the time complexity of the derandomized evolution strategy with covariance matrix adaptation (CMA-ES)",
+              "volume": "11",
+              "author": "Hansen",
+              "year": "2003",
+              "journal-title": "Evol. Comput."
+            },
+            {
+              "key": "10.1016/j.asoc.2020.106451_b65",
+              "series-title": "Handbook of genetic algorithms",
+              "author": "Davis",
+              "year": "1991"
+            },
+            {
+              "issue": "3",
+              "key": "10.1016/j.asoc.2020.106451_b66",
+              "doi-asserted-by": "crossref",
+              "first-page": "459",
+              "DOI": "10.1007/s10898-007-9149-x",
+              "article-title": "A powerful and efficient algorithm for numerical function optimization: artificial bee colony (ABC) algorithm",
+              "volume": "39",
+              "author": "Karaboga",
+              "year": "2007",
+              "journal-title": "J. Global Optim."
+            },
+            {
+              "key": "10.1016/j.asoc.2020.106451_b67",
+              "series-title": "2019 IEEE Congress on Evolutionary Computation, CEC",
+              "first-page": "1",
+              "article-title": "DISH algorithm solving the CEC 2019 100-Digit Challenge",
+              "author": "Viktorin",
+              "year": "2019"
+            },
+            {
+              "key": "10.1016/j.asoc.2020.106451_b68",
+              "first-page": "4101",
+              "article-title": "Global trajectory optimisation: can we prune the solution space when considering deep space maneuvers?",
+              "volume": "6",
+              "author": "Olympio",
+              "year": "2007",
+              "journal-title": "ARIADNA Study"
+            },
+            {
+              "key": "10.1016/j.asoc.2020.106451_b69",
+              "series-title": "European Conference on the Applications of Evolutionary Computation",
+              "first-page": "725",
+              "article-title": "Numerical optimization of ESA’s Messenger space mission benchmark",
+              "author": "Schlueter",
+              "year": "2017"
+            },
+            {
+              "issue": "4",
+              "key": "10.1016/j.asoc.2020.106451_b70",
+              "doi-asserted-by": "crossref",
+              "first-page": "744",
+              "DOI": "10.1016/j.asr.2014.05.002",
+              "article-title": "MIDACO software performance on interplanetary trajectory benchmarks",
+              "volume": "54",
+              "author": "Schlueter",
+              "year": "2014",
+              "journal-title": "Adv. Space Res."
+            }
+          ],
+          "container-title": [
+            "Applied Soft Computing"
+          ],
+          "language": "en",
+          "link": [
+            {
+              "URL": "https://api.elsevier.com/content/article/PII:S1568494620303914?httpAccept=text/xml",
+              "content-type": "text/xml",
+              "content-version": "vor",
+              "intended-application": "text-mining"
+            },
+            {
+              "URL": "https://api.elsevier.com/content/article/PII:S1568494620303914?httpAccept=text/plain",
+              "content-type": "text/plain",
+              "content-version": "vor",
+              "intended-application": "text-mining"
+            }
+          ],
+          "deposited": {
+            "date-parts": [
+              [
+                2025,
+                10,
+                27
+              ]
+            ],
+            "date-time": "2025-10-27T19:46:23Z",
+            "timestamp": 1761594383000
+          },
+          "score": 31.837976,
+          "resource": {
+            "primary": {
+              "URL": "https://linkinghub.elsevier.com/retrieve/pii/S1568494620303914"
+            }
+          },
+          "issued": {
+            "date-parts": [
+              [
+                2020,
+                9
+              ]
+            ]
+          },
+          "references-count": 70,
+          "alternative-id": [
+            "S1568494620303914"
+          ],
+          "URL": "https://doi.org/10.1016/j.asoc.2020.106451",
+          "ISSN": [
+            "1568-4946"
+          ],
+          "issn-type": [
+            {
+              "value": "1568-4946",
+              "type": "print"
+            }
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2020,
+                9
+              ]
+            ]
+          },
+          "assertion": [
+            {
+              "value": "Elsevier",
+              "name": "publisher",
+              "label": "This article is maintained by"
+            },
+            {
+              "value": "A case learning-based differential evolution algorithm for global optimization of interplanetary trajectory design",
+              "name": "articletitle",
+              "label": "Article Title"
+            },
+            {
+              "value": "Applied Soft Computing",
+              "name": "journaltitle",
+              "label": "Journal Title"
+            },
+            {
+              "value": "https://doi.org/10.1016/j.asoc.2020.106451",
+              "name": "articlelink",
+              "label": "CrossRef DOI link to publisher maintained version"
+            },
+            {
+              "value": "article",
+              "name": "content_type",
+              "label": "Content Type"
+            },
+            {
+              "value": "© 2020 Elsevier B.V. All rights reserved.",
+              "name": "copyright",
+              "label": "Copyright"
+            }
+          ],
+          "article-number": "106451"
+        },
+        {
+          "indexed": {
+            "date-parts": [
+              [
+                2022,
+                4,
+                2
+              ]
+            ],
+            "date-time": "2022-04-02T03:32:35Z",
+            "timestamp": 1648870355550
+          },
+          "publisher-location": "Reston, Virigina",
+          "reference-count": 0,
+          "publisher": "American Institute of Aeronautics and Astronautics",
+          "content-domain": {
+            "domain": [
+              "arc.aiaa.org"
+            ],
+            "crossmark-restriction": true
+          },
+          "published-print": {
+            "date-parts": [
+              [
+                1965,
+                9,
+                13
+              ]
+            ]
+          },
+          "DOI": "10.2514/6.1965-701",
+          "type": "proceedings-article",
+          "created": {
+            "date-parts": [
+              [
+                2013,
+                10,
+                7
+              ]
+            ],
+            "date-time": "2013-10-07T00:30:25Z",
+            "timestamp": 1381105825000
+          },
+          "update-policy": "http://dx.doi.org/10.2514/aiaa_crossmarkpolicy",
+          "source": "Crossref",
+          "is-referenced-by-count": 0,
+          "title": [
+            "Powered flight trajectory optimization for lunar and interplanetary transfer"
+          ],
+          "prefix": "10.2514",
+          "author": [
+            {
+              "given": "W.",
+              "family": "CHUCK",
+              "sequence": "first",
+              "affiliation": [
+                {
+                  "name": "LOCKHEED AIRCRAFT CORP., LOCKHEED MISSILES AND SPACE CO.,AEROSPACE SCIENCES LAB., PALO ALTO, CALIF."
+                }
+              ],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            }
+          ],
+          "member": "1387",
+          "published-online": {
+            "date-parts": [
+              [
+                1965,
+                8,
+                16
+              ]
+            ]
+          },
+          "event": {
+            "name": "Thermophysics Specialist Conference",
+            "location": "Monterey,CA,U.S.A."
+          },
+          "container-title": [
+            "Thermophysics Specialist Conference"
+          ],
+          "link": [
+            {
+              "URL": "http://arc.aiaa.org/doi/pdf/10.2514/6.1965-701",
+              "content-type": "unspecified",
+              "content-version": "vor",
+              "intended-application": "similarity-checking"
+            }
+          ],
+          "deposited": {
+            "date-parts": [
+              [
+                2021,
+                3,
+                15
+              ]
+            ],
+            "date-time": "2021-03-15T20:42:14Z",
+            "timestamp": 1615840934000
+          },
+          "score": 28.778545,
+          "resource": {
+            "primary": {
+              "URL": "https://arc.aiaa.org/doi/10.2514/6.1965-701"
+            }
+          },
+          "issued": {
+            "date-parts": [
+              [
+                1965,
+                8,
+                16
+              ]
+            ]
+          },
+          "references-count": 0,
+          "alternative-id": [
+            "10.2514/6.1965-701",
+            "10.2514/MTC65"
+          ],
+          "URL": "https://doi.org/10.2514/6.1965-701",
+          "published": {
+            "date-parts": [
+              [
+                1965,
+                8,
+                16
+              ]
+            ]
+          }
+        }
+      ],
+      "items-per-page": 3,
+      "query": {
+        "start-index": 0,
+        "search-terms": null
+      }
+    }
+  }
+}

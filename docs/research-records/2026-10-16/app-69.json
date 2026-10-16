@@ -1,0 +1,1189 @@
+{
+  "retrieved": "2026-10-16",
+  "url": "https://api.crossref.org/works?query.bibliographic=geophysical+inversion+particle+swarm+optimization+review&rows=3&filter=until-pub-date%3A2026-10-16",
+  "response": {
+    "status": "ok",
+    "message-type": "work-list",
+    "message-version": "1.0.0",
+    "message": {
+      "facets": {},
+      "total-results": 9149665,
+      "items": [
+        {
+          "indexed": {
+            "date-parts": [
+              [
+                2022,
+                3,
+                31
+              ]
+            ],
+            "date-time": "2022-03-31T23:06:08Z",
+            "timestamp": 1648767968068
+          },
+          "reference-count": 0,
+          "publisher": "European Association of Geoscientists & Engineers",
+          "content-domain": {
+            "domain": [],
+            "crossmark-restriction": false
+          },
+          "published-print": {
+            "date-parts": [
+              [
+                2010
+              ]
+            ]
+          },
+          "DOI": "10.3997/2214-4609-pdb.248.286",
+          "type": "proceedings-article",
+          "created": {
+            "date-parts": [
+              [
+                2020,
+                4,
+                29
+              ]
+            ],
+            "date-time": "2020-04-29T08:03:31Z",
+            "timestamp": 1588147411000
+          },
+          "source": "Crossref",
+          "is-referenced-by-count": 1,
+          "title": [
+            "Particle Swarm and Differential Evolution Optimization - Global Optimization for Geophysical Inversion"
+          ],
+          "prefix": "10.3997",
+          "author": [
+            {
+              "given": "Puneet",
+              "family": "Saraswat",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            }
+          ],
+          "member": "2389",
+          "event": {
+            "name": "GEO 2010",
+            "location": "Manama, Bahrain,"
+          },
+          "container-title": [
+            "GEO 2010"
+          ],
+          "deposited": {
+            "date-parts": [
+              [
+                2020,
+                4,
+                29
+              ]
+            ],
+            "date-time": "2020-04-29T08:06:23Z",
+            "timestamp": 1588147583000
+          },
+          "score": 43.538734,
+          "resource": {
+            "primary": {
+              "URL": "https://www.earthdoc.org/content/papers/10.3997/2214-4609-pdb.248.286"
+            }
+          },
+          "issued": {
+            "date-parts": [
+              [
+                2010
+              ]
+            ]
+          },
+          "references-count": 0,
+          "URL": "https://doi.org/10.3997/2214-4609-pdb.248.286",
+          "published": {
+            "date-parts": [
+              [
+                2010
+              ]
+            ]
+          }
+        },
+        {
+          "indexed": {
+            "date-parts": [
+              [
+                2026,
+                9,
+                16
+              ]
+            ],
+            "date-time": "2026-09-16T10:02:54Z",
+            "timestamp": 1789552974507,
+            "version": "build-2803163510"
+          },
+          "reference-count": 38,
+          "publisher": "Oxford University Press (OUP)",
+          "issue": "1",
+          "content-domain": {
+            "domain": [],
+            "crossmark-restriction": false
+          },
+          "published-print": {
+            "date-parts": [
+              [
+                2012,
+                7
+              ]
+            ]
+          },
+          "DOI": "10.1111/j.1365-246x.2012.05500.x",
+          "type": "journal-article",
+          "created": {
+            "date-parts": [
+              [
+                2012,
+                5,
+                17
+              ]
+            ],
+            "date-time": "2012-05-17T19:18:20Z",
+            "timestamp": 1337282300000
+          },
+          "page": "580-594",
+          "source": "Crossref",
+          "is-referenced-by-count": 34,
+          "title": [
+            "On the application of Particle Swarm Optimization strategies on Scholte-wave inversion"
+          ],
+          "prefix": "10.1093",
+          "volume": "190",
+          "author": [
+            {
+              "given": "D.",
+              "family": "Wilken",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "W.",
+              "family": "Rabbel",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            }
+          ],
+          "member": "286",
+          "published-online": {
+            "date-parts": [
+              [
+                2012,
+                5,
+                17
+              ]
+            ]
+          },
+          "reference": [
+            {
+              "key": "10.1111/j.1365-246X.2012.05500.x-BIB1|cit1",
+              "doi-asserted-by": "crossref",
+              "first-page": "431",
+              "DOI": "10.1046/j.1365-2478.1999.00129.x",
+              "article-title": "Relationship between P- and S-wave velocities and geological properties of near-surface sediments of the continental slope of the Barent Sea",
+              "volume": "47",
+              "author": "Ayres",
+              "year": "1999",
+              "journal-title": "Geophys. Prospect."
+            },
+            {
+              "key": "10.1111/j.1365-246X.2012.05500.x-BIB2|cit2",
+              "doi-asserted-by": "crossref",
+              "first-page": "622",
+              "DOI": "10.1046/j.1365-246X.2002.01809.x",
+              "article-title": "Simulated annealing inversion of multimode Rayleigh wave dispersion curves for geological structure",
+              "volume": "151",
+              "author": "Beaty",
+              "year": "2002",
+              "journal-title": "Geophys. J. Int."
+            },
+            {
+              "key": "10.1111/j.1365-246X.2012.05500.x-BIB3|cit3",
+              "unstructured": "van den Bergh , F. 2002 An analysis of particle Swarm Optimizers PhD thesis"
+            },
+            {
+              "key": "10.1111/j.1365-246X.2012.05500.x-BIB4|cit4",
+              "unstructured": "Blackwell , T.M. Bentley , P.J. 2002 Dynamic search with charged swarms Proceedings of the Genetic and Evolutionary Computation Conference 19 26 Langdon , W.B. et al. Morgan Kaufmann"
+            },
+            {
+              "key": "10.1111/j.1365-246X.2012.05500.x-BIB5|cit5",
+              "doi-asserted-by": "crossref",
+              "first-page": "330",
+              "DOI": "10.1190/1.1707052",
+              "article-title": "1.5-D inversion of lateral variation of Scholte wave dispersion",
+              "volume": "69",
+              "author": "Bohlen",
+              "year": "2004",
+              "journal-title": "Geophysics"
+            },
+            {
+              "key": "10.1111/j.1365-246X.2012.05500.x-BIB6|cit6",
+              "unstructured": "BSH: German Federal Department for Maritime Shipping and Hydrography 2002 Festlegung des Eignungsgebietes Westlich Adlergrund, Specification Report 2002"
+            },
+            {
+              "key": "10.1111/j.1365-246X.2012.05500.x-BIB7|cit7",
+              "doi-asserted-by": "crossref",
+              "first-page": "39",
+              "DOI": "10.1016/j.jappgeo.2006.04.002",
+              "article-title": "Rayleigh wave dispersion curve inversion via genetic algorithms and Marginal Posterior Probability Density estimation",
+              "volume": "61",
+              "author": "Dal Moro",
+              "year": "2007",
+              "journal-title": "J. appl. Geophys."
+            },
+            {
+              "key": "10.1111/j.1365-246X.2012.05500.x-BIB8|cit8",
+              "doi-asserted-by": "crossref",
+              "first-page": "56",
+              "DOI": "10.1016/j.jappgeo.2006.04.001",
+              "article-title": "Joint Inversion of surface wave dispersion curves and reflection travel times via multi-objective evolutionary algorithms",
+              "volume": "61",
+              "author": "Dal Moro",
+              "year": "2007",
+              "journal-title": "J. appl. Geophys."
+            },
+            {
+              "key": "10.1111/j.1365-246X.2012.05500.x-BIB9|cit9",
+              "doi-asserted-by": "crossref",
+              "unstructured": "Eberhart , R.C. Kennedy , J. 1995 A new optimizer using Particle Swarm Theory Proceedings Sixth Symposium on Micro Machine and Human Science 39 43 10.1109/MHS.1995.494215",
+              "DOI": "10.1109/MHS.1995.494215"
+            },
+            {
+              "key": "10.1111/j.1365-246X.2012.05500.x-BIB10|cit10",
+              "volume-title": "Fundamentals of Computational Swarm Intelligence",
+              "author": "Engelbrecht",
+              "year": "2005"
+            },
+            {
+              "key": "10.1111/j.1365-246X.2012.05500.x-BIB11|cit11",
+              "doi-asserted-by": "crossref",
+              "DOI": "10.1063/1.3060203",
+              "volume-title": "Elastic Waves in Layered Media",
+              "author": "Ewing",
+              "year": "1957"
+            },
+            {
+              "key": "10.1111/j.1365-246X.2012.05500.x-BIB12|cit12",
+              "doi-asserted-by": "crossref",
+              "first-page": "719",
+              "DOI": "10.1046/j.1365-246X.2003.01929.x",
+              "article-title": "Inversion of shallow-seismic wavefields: I. Wavefield transformation",
+              "volume": "153",
+              "author": "Forbriger",
+              "year": "2003",
+              "journal-title": "Geophys. J. Int."
+            },
+            {
+              "issue": "2",
+              "key": "10.1111/j.1365-246X.2012.05500.x-BIB13|cit13",
+              "doi-asserted-by": "crossref",
+              "first-page": "159",
+              "DOI": "10.1162/106365601750190398",
+              "article-title": "Completely derandomized self-adaptation in evolution strategies",
+              "volume": "9",
+              "author": "Hansen",
+              "year": "2001",
+              "journal-title": "Evolut. Comput."
+            },
+            {
+              "key": "10.1111/j.1365-246X.2012.05500.x-BIB14|cit14",
+              "doi-asserted-by": "crossref",
+              "first-page": "459",
+              "DOI": "10.1007/s10898-007-9149-x",
+              "article-title": "A powerful and efficient algorithm for numerical function optimization: artificial bee colony (ABC) algorithm",
+              "volume": "39",
+              "author": "Karaboga",
+              "year": "2007",
+              "journal-title": "J. Global Optim."
+            },
+            {
+              "key": "10.1111/j.1365-246X.2012.05500.x-BIB15|cit15",
+              "doi-asserted-by": "crossref",
+              "first-page": "671",
+              "DOI": "10.1126/science.220.4598.671",
+              "article-title": "Optimization by simulated annealing",
+              "volume": "220",
+              "author": "Kirkpatrick",
+              "year": "1983",
+              "journal-title": "Science"
+            },
+            {
+              "key": "10.1111/j.1365-246X.2012.05500.x-BIB16|cit16",
+              "doi-asserted-by": "crossref",
+              "first-page": "287",
+              "DOI": "10.1007/s11001-005-3725-6",
+              "article-title": "Acquisition and inversion of dispersive seismic waves in shallow marine environments",
+              "volume": "26",
+              "author": "Klein",
+              "year": "2005",
+              "journal-title": "Mar. Geophys. Res."
+            },
+            {
+              "key": "10.1111/j.1365-246X.2012.05500.x-BIB17|cit17",
+              "doi-asserted-by": "crossref",
+              "first-page": "203",
+              "DOI": "10.2113/JEEG10.2.203",
+              "article-title": "Variability of Scholte-wave dispersion in shallow-water marine sediments",
+              "volume": "10(2)",
+              "author": "Kugler",
+              "year": "2005",
+              "journal-title": "J. Environ. Eng. Geophys."
+            },
+            {
+              "key": "10.1111/j.1365-246X.2012.05500.x-BIB18|cit18",
+              "doi-asserted-by": "crossref",
+              "first-page": "551",
+              "DOI": "10.1111/j.1365-246X.2006.03233.x",
+              "article-title": "Scholte-wave tomography for shallow-water marine sediments",
+              "volume": "168",
+              "author": "Kugler",
+              "year": "2007",
+              "journal-title": "Geophys. J. Int."
+            },
+            {
+              "key": "10.1111/j.1365-246X.2012.05500.x-BIB19|cit19",
+              "doi-asserted-by": "crossref",
+              "first-page": "3",
+              "DOI": "10.1016/S0031-9201(00)00183-7",
+              "article-title": "Inversion of Rayleigh wave phase and group velocities by simulated annealing",
+              "volume": "122",
+              "author": "Martinez",
+              "year": "2000",
+              "journal-title": "Phys. Earth planet. Inter."
+            },
+            {
+              "key": "10.1111/j.1365-246X.2012.05500.x-BIB20|cit20",
+              "doi-asserted-by": "crossref",
+              "first-page": "869",
+              "DOI": "10.1190/1.1441225",
+              "article-title": "Analysis of dispersive waves by wave field transformation",
+              "volume": "46",
+              "author": "McMechan",
+              "year": "1981",
+              "journal-title": "Geophysics"
+            },
+            {
+              "key": "10.1111/j.1365-246X.2012.05500.x-BIB21|cit21",
+              "doi-asserted-by": "crossref",
+              "first-page": "1087",
+              "DOI": "10.1063/1.1699114",
+              "article-title": "Equation of state calculations by fast computing machines",
+              "volume": "21",
+              "author": "Metropolis",
+              "year": "1953",
+              "journal-title": "J. Chem. Phys."
+            },
+            {
+              "key": "10.1111/j.1365-246X.2012.05500.x-BIB22|cit22",
+              "doi-asserted-by": "crossref",
+              "unstructured": "Mishra , S.K. 2006 Repulsive Particle Swarm Method on Some Difficult Test Problems of Global Optimization, MPRA-Paper, 1742",
+              "DOI": "10.2139/ssrn.928538"
+            },
+            {
+              "key": "10.1111/j.1365-246X.2012.05500.x-BIB23|cit23",
+              "first-page": "1197",
+              "volume-title": "SEG Expanded Abstracts",
+              "volume": "19",
+              "author": "Muyzert",
+              "year": "2000"
+            },
+            {
+              "key": "10.1111/j.1365-246X.2012.05500.x-BIB24|cit24",
+              "unstructured": "Nazarian , S. Stokoe , K. 1984 In-situ shear wave velocities from spectral analysis of surface waves Proceedings 8th World Conference on Earthquake Engineering 31 38 Prentice Hall"
+            },
+            {
+              "issue": "4",
+              "key": "10.1111/j.1365-246X.2012.05500.x-BIB25|cit25",
+              "doi-asserted-by": "crossref",
+              "first-page": "308",
+              "DOI": "10.1093/comjnl/7.4.308",
+              "article-title": "A simplex method for function minimization",
+              "volume": "7",
+              "author": "Nelder",
+              "year": "1965",
+              "journal-title": "Comput. J."
+            },
+            {
+              "key": "10.1111/j.1365-246X.2012.05500.x-BIB26|cit26",
+              "first-page": "1303",
+              "volume-title": "SEG Expanded Abstracts",
+              "volume": "19",
+              "author": "Park",
+              "year": "2000"
+            },
+            {
+              "issue": "3",
+              "key": "10.1111/j.1365-246X.2012.05500.x-BIB27|cit27",
+              "doi-asserted-by": "crossref",
+              "first-page": "211",
+              "DOI": "10.1109/TEVC.2004.826076",
+              "article-title": "On the computation of all global minimizers through Particle Swarm Optimization",
+              "volume": "8",
+              "author": "Parsopoulos",
+              "year": "2004",
+              "journal-title": "IEEE Trans. Evolut. Comput."
+            },
+            {
+              "key": "10.1111/j.1365-246X.2012.05500.x-BIB28|cit28",
+              "author": "Rechenberg",
+              "year": "1994",
+              "journal-title": "Evolutionsstrategie ’94, Frommann-Holzboog"
+            },
+            {
+              "key": "10.1111/j.1365-246X.2012.05500.x-BIB29|cit29",
+              "doi-asserted-by": "crossref",
+              "first-page": "1991",
+              "DOI": "10.1190/1.1527099",
+              "article-title": "Estimating shallow shear velocities with marine multicomponent seismic data",
+              "volume": "67",
+              "author": "Ritzwoller",
+              "year": "2002",
+              "journal-title": "Geophysics"
+            },
+            {
+              "key": "10.1111/j.1365-246X.2012.05500.x-BIB30|cit30",
+              "doi-asserted-by": "crossref",
+              "first-page": "479",
+              "DOI": "10.1046/j.1365-246X.1999.00876.x",
+              "article-title": "Geophysical inversion with a neighbourhood algortihm I. Searching a parameter space",
+              "volume": "138",
+              "author": "Sambridge",
+              "year": "1999",
+              "journal-title": "Geophys. J. Int."
+            },
+            {
+              "key": "10.1111/j.1365-246X.2012.05500.x-BIB31|cit31",
+              "volume-title": "Global Optimization Methods in Geophysical Inversion",
+              "author": "Sen",
+              "year": "1995"
+            },
+            {
+              "key": "10.1111/j.1365-246X.2012.05500.x-BIB32|cit32",
+              "author": "Vogel",
+              "year": "1997",
+              "journal-title": "Gerthsen Physik"
+            },
+            {
+              "key": "10.1111/j.1365-246X.2012.05500.x-BIB33|cit33",
+              "doi-asserted-by": "crossref",
+              "first-page": "5111",
+              "DOI": "10.1021/jp970984n",
+              "article-title": "Global optimization by Basin-Hopping and the lowest energy structures of Lennard-Jones clusters containing up to 110 atoms",
+              "volume": "101",
+              "author": "Wales",
+              "year": "1997",
+              "journal-title": "J. Phys. Chem. A"
+            },
+            {
+              "issue": "3",
+              "key": "10.1111/j.1365-246X.2012.05500.x-BIB34|cit34",
+              "doi-asserted-by": "crossref",
+              "first-page": "733",
+              "DOI": "10.1785/BSSA0890030733",
+              "article-title": "A simple orthonormalization method for stable and efficient computations of Green’s functions",
+              "volume": "89",
+              "author": "Wang",
+              "year": "1999",
+              "journal-title": "Bull. seism. Soc. Am."
+            },
+            {
+              "key": "10.1111/j.1365-246X.2012.05500.x-BIB35|cit35",
+              "doi-asserted-by": "crossref",
+              "first-page": "L09301",
+              "DOI": "10.1029/2008GL033256",
+              "article-title": "An improved neighborhood algorithm: parameter constraints and dynamic scaling",
+              "volume": "35",
+              "author": "Wathelet",
+              "year": "2008",
+              "journal-title": "Geophys. Res. Lett."
+            },
+            {
+              "key": "10.1111/j.1365-246X.2012.05500.x-BIB36|cit36",
+              "doi-asserted-by": "crossref",
+              "first-page": "211",
+              "DOI": "10.3997/1873-0604.2004018",
+              "article-title": "Surface-wave inversion using a direct search algorithm and its application to ambient vibration measurements",
+              "volume": "2",
+              "author": "Wathelet",
+              "year": "2004",
+              "journal-title": "Near Surf. Geophys."
+            },
+            {
+              "key": "10.1111/j.1365-246X.2012.05500.x-BIB37|cit37",
+              "doi-asserted-by": "crossref",
+              "first-page": "117",
+              "DOI": "10.1016/j.jappgeo.2008.11.003",
+              "article-title": "FINOSEIS: a new approach to offshore-building foundation soil analysis using high resolution reflection seismic and Scholte-wave dispersion analysis",
+              "volume": "68",
+              "author": "Wilken",
+              "year": "2009",
+              "journal-title": "J. appl. Geophys."
+            },
+            {
+              "key": "10.1111/j.1365-246X.2012.05500.x-BIB38|cit38",
+              "unstructured": "Xie , X. Zhang , W. Yang , Z. 2002 Adaptive Particle Swarm Optimization on individual level Proceedings of the Sixth International Conference on Signal Processing 1215 1218 10.1109/ICOSP.2002.1180009"
+            }
+          ],
+          "container-title": [
+            "Geophysical Journal International"
+          ],
+          "language": "en",
+          "link": [
+            {
+              "URL": "http://academic.oup.com/gji/article-pdf/190/1/580/1636269/190-1-580.pdf",
+              "content-type": "unspecified",
+              "content-version": "vor",
+              "intended-application": "similarity-checking"
+            }
+          ],
+          "deposited": {
+            "date-parts": [
+              [
+                2025,
+                3,
+                28
+              ]
+            ],
+            "date-time": "2025-03-28T06:30:45Z",
+            "timestamp": 1743143445000
+          },
+          "score": 36.234646,
+          "resource": {
+            "primary": {
+              "URL": "https://academic.oup.com/gji/article-lookup/doi/10.1111/j.1365-246X.2012.05500.x"
+            }
+          },
+          "subtitle": [
+            "PSO in Scholte-wave inversion"
+          ],
+          "issued": {
+            "date-parts": [
+              [
+                2012,
+                5,
+                17
+              ]
+            ]
+          },
+          "references-count": 38,
+          "journal-issue": {
+            "issue": "1",
+            "published-print": {
+              "date-parts": [
+                [
+                  2012,
+                  7
+                ]
+              ]
+            }
+          },
+          "URL": "https://doi.org/10.1111/j.1365-246x.2012.05500.x",
+          "ISSN": [
+            "0956-540X"
+          ],
+          "issn-type": [
+            {
+              "value": "0956-540X",
+              "type": "print"
+            }
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2012,
+                5,
+                17
+              ]
+            ]
+          }
+        },
+        {
+          "indexed": {
+            "date-parts": [
+              [
+                2026,
+                4,
+                29
+              ]
+            ],
+            "date-time": "2026-04-29T20:27:46Z",
+            "timestamp": 1777494466137,
+            "version": "3.51.4"
+          },
+          "reference-count": 59,
+          "publisher": "Wiley",
+          "issue": "6",
+          "license": [
+            {
+              "start": {
+                "date-parts": [
+                  [
+                    2021,
+                    5,
+                    31
+                  ]
+                ],
+                "date-time": "2021-05-31T00:00:00Z",
+                "timestamp": 1622419200000
+              },
+              "content-version": "vor",
+              "delay-in-days": 0,
+              "URL": "http://onlinelibrary.wiley.com/termsAndConditions#vor"
+            }
+          ],
+          "content-domain": {
+            "domain": [
+              "onlinelibrary.wiley.com"
+            ],
+            "crossmark-restriction": true
+          },
+          "short-container-title": [
+            "Geophysical Prospecting"
+          ],
+          "published-print": {
+            "date-parts": [
+              [
+                2021,
+                7
+              ]
+            ]
+          },
+          "abstract": "",
+          "DOI": "10.1111/1365-2478.13094",
+          "type": "journal-article",
+          "created": {
+            "date-parts": [
+              [
+                2021,
+                4,
+                11
+              ]
+            ],
+            "date-time": "2021-04-11T14:58:45Z",
+            "timestamp": 1618153125000
+          },
+          "page": "1358-1374",
+          "update-policy": "https://doi.org/10.1002/crossmark_policy",
+          "source": "Crossref",
+          "is-referenced-by-count": 18,
+          "title": [
+            "Gravity inversion of 2D fault having variable density contrast using particle swarm optimization"
+          ],
+          "prefix": "10.1111",
+          "volume": "69",
+          "author": [
+            {
+              "ORCID": "https://orcid.org/0000-0002-4603-7760",
+              "authenticated-orcid": false,
+              "given": "Arka",
+              "family": "Roy",
+              "sequence": "first",
+              "affiliation": [
+                {
+                  "name": "National Centre for Earth Science Studies  Trivandrum 695 011 India"
+                }
+              ],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Thatikonda Suresh",
+              "family": "Kumar",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "National Centre for Earth Science Studies  Trivandrum 695 011 India"
+                }
+              ],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            }
+          ],
+          "member": "311",
+          "published-online": {
+            "date-parts": [
+              [
+                2021,
+                5,
+                31
+              ]
+            ]
+          },
+          "reference": [
+            {
+              "key": "e_1_2_8_2_1",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1007/s00024-014-0861-4"
+            },
+            {
+              "key": "e_1_2_8_3_1",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1088/1742-2132/10/2/025003"
+            },
+            {
+              "key": "e_1_2_8_4_1",
+              "first-page": "114",
+              "article-title": "Application of genetic algorithm optimization and least square method for depth determination from residual gravity anomalies",
+              "volume": "11",
+              "author": "Amjadi A.",
+              "year": "2013",
+              "journal-title": "Journal of Science, Engineering and Technology"
+            },
+            {
+              "key": "e_1_2_8_5_1",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1016/j.jappgeo.2020.104120"
+            },
+            {
+              "key": "e_1_2_8_6_1",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1007/978-3-540-78837-9_3"
+            },
+            {
+              "key": "e_1_2_8_7_1",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1190/1.2713226"
+            },
+            {
+              "key": "e_1_2_8_8_1",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1190/1.1444275"
+            },
+            {
+              "key": "e_1_2_8_9_1",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1016/j.gsf.2015.03.001"
+            },
+            {
+              "key": "e_1_2_8_10_1",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1007/s40328-016-0176-2"
+            },
+            {
+              "key": "e_1_2_8_11_1",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1190/1.1442518"
+            },
+            {
+              "key": "e_1_2_8_12_1",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1016/j.cageo.2004.03.014"
+            },
+            {
+              "key": "e_1_2_8_13_1",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1190/1.1836814"
+            },
+            {
+              "key": "e_1_2_8_14_1",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1016/j.cageo.2005.03.014"
+            },
+            {
+              "key": "e_1_2_8_15_1",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1109/MHS.1995.494215"
+            },
+            {
+              "issue": "6",
+              "key": "e_1_2_8_16_1",
+              "first-page": "860",
+              "article-title": "Parameter estimations from gravity and magnetic anomalies due to deep‐seated faults: differential evolution versus particle swarm optimization",
+              "volume": "28",
+              "author": "Ekinci Y.L.",
+              "year": "2019",
+              "journal-title": "Turkish Journal of Earth Sciences"
+            },
+            {
+              "key": "e_1_2_8_17_1",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1016/j.jappgeo.2016.03.040"
+            },
+            {
+              "key": "e_1_2_8_18_1",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1088/1742-2132/10/1/015003"
+            },
+            {
+              "key": "e_1_2_8_19_1",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1016/j.petrol.2020.107421"
+            },
+            {
+              "key": "e_1_2_8_20_1",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1016/j.pepi.2020.106631"
+            },
+            {
+              "key": "e_1_2_8_21_1",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1016/j.oregeorev.2020.103695"
+            },
+            {
+              "key": "e_1_2_8_22_1",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1007/s12040-019-1143-4"
+            },
+            {
+              "key": "e_1_2_8_23_1",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1016/j.jappgeo.2013.07.005"
+            },
+            {
+              "key": "e_1_2_8_24_1",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1190/geo2011-0041.1"
+            },
+            {
+              "key": "e_1_2_8_25_1",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1007/s10712-020-09601-9"
+            },
+            {
+              "key": "e_1_2_8_26_1",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1109/CIS.2008.183"
+            },
+            {
+              "key": "e_1_2_8_27_1",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1007/s11600-017-0060-7"
+            },
+            {
+              "key": "e_1_2_8_28_1",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1190/geo2011-0154.1"
+            },
+            {
+              "key": "e_1_2_8_29_1",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1109/ICIC.2009.24"
+            },
+            {
+              "key": "e_1_2_8_30_1",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1190/1.1443968"
+            },
+            {
+              "key": "e_1_2_8_31_1",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1190/1.1442611"
+            },
+            {
+              "key": "e_1_2_8_32_1",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1007/s00024-013-0712-8"
+            },
+            {
+              "key": "e_1_2_8_33_1",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1190/geo2017-0456.1"
+            },
+            {
+              "issue": "2",
+              "key": "e_1_2_8_34_1",
+              "first-page": "35",
+              "article-title": "New particle swarm optimizer with sigmoid increasing inertia weight",
+              "volume": "1",
+              "author": "Malik R.F.",
+              "year": "2007",
+              "journal-title": "International Journal of Computer Science and Security"
+            },
+            {
+              "key": "e_1_2_8_35_1",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1007/s10040-001-0184-2"
+            },
+            {
+              "key": "e_1_2_8_36_1",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1190/1.1439779"
+            },
+            {
+              "key": "e_1_2_8_37_1",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1016/j.asoc.2011.01.037"
+            },
+            {
+              "key": "e_1_2_8_38_1",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1016/j.jappgeo.2015.03.008"
+            },
+            {
+              "key": "e_1_2_8_39_1",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1190/1.1441724"
+            },
+            {
+              "key": "e_1_2_8_40_1",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1016/j.compstruc.2006.10.013"
+            },
+            {
+              "key": "e_1_2_8_41_1",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1016/j.cageo.2018.07.009"
+            },
+            {
+              "key": "e_1_2_8_42_1",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1190/1.1512749"
+            },
+            {
+              "key": "e_1_2_8_43_1",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.5194/gi-6-71-2017"
+            },
+            {
+              "key": "e_1_2_8_44_1",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1190/geo2019-0779.1"
+            },
+            {
+              "key": "e_1_2_8_45_1",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1190/1.1852777"
+            },
+            {
+              "key": "e_1_2_8_46_1",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1109/ICEC.1998.699146"
+            },
+            {
+              "key": "e_1_2_8_47_1",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1190/1.2236383"
+            },
+            {
+              "key": "e_1_2_8_48_1",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1007/s11053-019-09480-x"
+            },
+            {
+              "key": "e_1_2_8_49_1",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1007/s11053-015-9285-9"
+            },
+            {
+              "key": "e_1_2_8_50_1",
+              "volume-title": "Gravity Survey of the Taylor Glacier, Victoria Land, Antarctica",
+              "author": "Stern T.A.",
+              "year": "1978"
+            },
+            {
+              "key": "e_1_2_8_51_1",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1016/S0926-9851(96)00048-1"
+            },
+            {
+              "key": "e_1_2_8_52_1",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1029/JZ064i001p00049"
+            },
+            {
+              "key": "e_1_2_8_53_1",
+              "first-page": "1",
+              "volume-title": "Solutions of Ill‐posed Problems",
+              "author": "Tikhonov Andrey N.",
+              "year": "1977"
+            },
+            {
+              "key": "e_1_2_8_54_1",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1186/2193-1801-2-315"
+            },
+            {
+              "key": "e_1_2_8_55_1",
+              "first-page": "1",
+              "article-title": "Analytical solutions of gravity vector and gravity gradient tensor caused by a 2D polygonal body with a 2D polynomial density contrast",
+              "author": "Wan L.",
+              "year": "2019",
+              "journal-title": "Surveys in Geophysics"
+            },
+            {
+              "key": "e_1_2_8_56_1",
+              "unstructured": "Winckel G.V.(2004)Legendre‐gauss quadrature weights and nodes.MATLAB Central File Exchange available athttps://www.mathworks.com/matlabcentral/fileexchange/4540‐legendre‐gauss‐quadrature‐weights‐and‐nodes. [Accessed 11 May 2004]."
+            },
+            {
+              "key": "e_1_2_8_57_1",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1109/CSO.2009.420"
+            },
+            {
+              "key": "e_1_2_8_58_1",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1190/1.2976116"
+            },
+            {
+              "key": "e_1_2_8_59_1",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1190/1.3073761"
+            },
+            {
+              "key": "e_1_2_8_60_1",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1111/j.1365-2478.2011.01046.x"
+            }
+          ],
+          "container-title": [
+            "Geophysical Prospecting"
+          ],
+          "language": "en",
+          "link": [
+            {
+              "URL": "https://onlinelibrary.wiley.com/doi/pdf/10.1111/1365-2478.13094",
+              "content-type": "application/pdf",
+              "content-version": "vor",
+              "intended-application": "text-mining"
+            },
+            {
+              "URL": "https://onlinelibrary.wiley.com/doi/full-xml/10.1111/1365-2478.13094",
+              "content-type": "application/xml",
+              "content-version": "vor",
+              "intended-application": "text-mining"
+            },
+            {
+              "URL": "https://onlinelibrary.wiley.com/doi/pdf/10.1111/1365-2478.13094",
+              "content-type": "unspecified",
+              "content-version": "vor",
+              "intended-application": "similarity-checking"
+            }
+          ],
+          "deposited": {
+            "date-parts": [
+              [
+                2023,
+                8,
+                30
+              ]
+            ],
+            "date-time": "2023-08-30T05:54:06Z",
+            "timestamp": 1693374846000
+          },
+          "score": 35.760265,
+          "resource": {
+            "primary": {
+              "URL": "https://onlinelibrary.wiley.com/doi/10.1111/1365-2478.13094"
+            }
+          },
+          "issued": {
+            "date-parts": [
+              [
+                2021,
+                5,
+                31
+              ]
+            ]
+          },
+          "references-count": 59,
+          "journal-issue": {
+            "issue": "6",
+            "published-print": {
+              "date-parts": [
+                [
+                  2021,
+                  7
+                ]
+              ]
+            }
+          },
+          "alternative-id": [
+            "10.1111/1365-2478.13094"
+          ],
+          "URL": "https://doi.org/10.1111/1365-2478.13094",
+          "archive": [
+            "Portico"
+          ],
+          "ISSN": [
+            "0016-8025",
+            "1365-2478"
+          ],
+          "issn-type": [
+            {
+              "value": "0016-8025",
+              "type": "print"
+            },
+            {
+              "value": "1365-2478",
+              "type": "electronic"
+            }
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2021,
+                5,
+                31
+              ]
+            ]
+          },
+          "assertion": [
+            {
+              "value": "2020-09-30",
+              "order": 0,
+              "name": "received",
+              "label": "Received",
+              "group": {
+                "name": "publication_history",
+                "label": "Publication History"
+              }
+            },
+            {
+              "value": "2021-03-17",
+              "order": 1,
+              "name": "accepted",
+              "label": "Accepted",
+              "group": {
+                "name": "publication_history",
+                "label": "Publication History"
+              }
+            },
+            {
+              "value": "2021-05-31",
+              "order": 2,
+              "name": "published",
+              "label": "Published",
+              "group": {
+                "name": "publication_history",
+                "label": "Publication History"
+              }
+            }
+          ]
+        }
+      ],
+      "items-per-page": 3,
+      "query": {
+        "start-index": 0,
+        "search-terms": null
+      }
+    }
+  }
+}

@@ -1,0 +1,689 @@
+{
+  "references": [
+    {
+      "id": "rechenberg1973",
+      "year": 1973,
+      "kind": "早期专著",
+      "title": "Rechenberg — Evolutionsstrategie",
+      "url": "https://katalog.bibliothek.kit.edu/bib/49092"
+    },
+    {
+      "id": "rice1976",
+      "year": 1976,
+      "kind": "原始论文",
+      "title": "Rice — The Algorithm Selection Problem",
+      "url": "https://doi.org/10.1016/S0065-2458(08)60520-3"
+    },
+    {
+      "id": "eda1996",
+      "year": 1996,
+      "kind": "原始论文",
+      "title": "Mühlenbein & Paaß — From recombination of genes to the estimation of distributions I. Binary parameters",
+      "url": "https://doi.org/10.1007/3-540-61723-X_982"
+    },
+    {
+      "id": "lns1998",
+      "year": 1998,
+      "kind": "原始论文",
+      "title": "Shaw — Using Constraint Programming and Local Search Methods to Solve Vehicle Routing Problems",
+      "url": "https://doi.org/10.1007/3-540-49481-2_30"
+    },
+    {
+      "id": "debConstraints2000",
+      "year": 2000,
+      "kind": "原始论文",
+      "title": "Deb — An efficient constraint handling method for genetic algorithms",
+      "url": "https://doi.org/10.1016/S0045-7825(99)00389-8"
+    },
+    {
+      "id": "jinSurrogate2005",
+      "year": 2005,
+      "kind": "专题综述",
+      "title": "Jin — A comprehensive survey of fitness approximation in evolutionary computation",
+      "url": "https://doi.org/10.1007/s00500-003-0328-5"
+    },
+    {
+      "id": "uncertainty2005",
+      "year": 2005,
+      "kind": "专题综述",
+      "title": "Jin & Branke — Evolutionary optimization in uncertain environments: a survey",
+      "url": "https://doi.org/10.1109/TEVC.2005.846356"
+    },
+    {
+      "id": "moead2007",
+      "year": 2007,
+      "kind": "原始论文",
+      "title": "Zhang & Li — MOEA/D: A Multiobjective Evolutionary Algorithm Based on Decomposition",
+      "url": "https://doi.org/10.1109/TEVC.2007.892759"
+    },
+    {
+      "id": "multitask2016",
+      "year": 2016,
+      "kind": "原始论文",
+      "title": "Gupta, Ong & Feng — Multifactorial Evolution: Toward Evolutionary Multitasking",
+      "url": "https://doi.org/10.1109/TEVC.2015.2458037"
+    },
+    {
+      "id": "qd2016",
+      "year": 2016,
+      "kind": "专题综述",
+      "title": "Pugh, Soros & Stanley — Quality Diversity: A New Frontier for Evolutionary Computation",
+      "url": "https://doi.org/10.3389/frobt.2016.00040"
+    },
+    {
+      "id": "calypso2010",
+      "year": 2010,
+      "kind": "原始论文",
+      "title": "Wang, Lv, Zhu & Ma — Crystal structure prediction via particle-swarm optimization",
+      "url": "https://doi.org/10.1103/PhysRevB.82.094116"
+    },
+    {
+      "id": "calypso2012",
+      "year": 2012,
+      "kind": "软件论文",
+      "title": "Wang et al. — CALYPSO: A method for crystal structure prediction",
+      "url": "https://doi.org/10.1016/j.cpc.2012.05.008"
+    },
+    {
+      "id": "uspex2006",
+      "year": 2006,
+      "kind": "软件论文",
+      "title": "Glass, Oganov & Hansen — USPEX—Evolutionary crystal structure prediction",
+      "url": "https://doi.org/10.1016/j.cpc.2006.07.020"
+    },
+    {
+      "id": "neat2002",
+      "year": 2002,
+      "kind": "原始论文",
+      "title": "Stanley & Miikkulainen — Evolving Neural Networks through Augmenting Topologies",
+      "url": "https://doi.org/10.1162/106365602320169811"
+    },
+    {
+      "id": "sims1994",
+      "year": 1994,
+      "kind": "原始论文",
+      "title": "Sims — Evolving virtual creatures",
+      "url": "https://doi.org/10.1145/192161.192167"
+    },
+    {
+      "id": "erl2018",
+      "year": 2018,
+      "kind": "会议论文",
+      "title": "Khadka & Tumer — Evolution-Guided Policy Gradient in Reinforcement Learning",
+      "url": "https://proceedings.neurips.cc/paper/2018/hash/85fc37b18c57097425b52fc7afbb6969-Abstract.html"
+    },
+    {
+      "id": "nasaDesign2004",
+      "year": 2004,
+      "kind": "官方技术记录",
+      "title": "NASA — An Evolved Antenna for Deployment on NASAs Space Technology 5 Mission",
+      "url": "https://ntrs.nasa.gov/citations/20040152147"
+    },
+    {
+      "id": "nasaFlight2010",
+      "year": 2010,
+      "kind": "官方工程记录",
+      "title": "NASA — Computer-Automated Evolution of Spacecraft X-Band Antennas",
+      "url": "https://ntrs.nasa.gov/citations/20100023362"
+    },
+    {
+      "id": "hansenGroup",
+      "year": 2026,
+      "kind": "研究组官方记录",
+      "title": "Nikolaus Hansen — Research and randomized optimization group",
+      "url": "https://www.cmap.polytechnique.fr/~nikolaus.hansen/"
+    },
+    {
+      "id": "coinGroup",
+      "year": 2026,
+      "kind": "研究组官方书目",
+      "title": "COIN Laboratory — Publications",
+      "url": "https://www.coin-lab.org/content/publications.html"
+    },
+    {
+      "id": "kangalGroup",
+      "year": 2026,
+      "kind": "作者官方研究记录",
+      "title": "Kalyanmoy Deb — KanGAL reports",
+      "url": "https://www.egr.msu.edu/~kdeb/reports.shtml"
+    },
+    {
+      "id": "nnrgGroup",
+      "year": 2026,
+      "kind": "研究组官方书目",
+      "title": "UT Austin Neural Networks Research Group — Publications",
+      "url": "https://nn.cs.utexas.edu/pub-list.php"
+    },
+    {
+      "id": "calypsoGroup",
+      "year": 2026,
+      "kind": "项目官方记录",
+      "title": "CALYPSO — Introduction and research applications",
+      "url": "https://www.calypso.cn/docs/posts/_introduction.html"
+    },
+    {
+      "id": "uspexGroup",
+      "year": 2026,
+      "kind": "项目官方记录",
+      "title": "USPEX — Evolutionary structure prediction overview",
+      "url": "https://uspex-team.org/en/uspex/overview"
+    },
+    {
+      "id": "zhConstraints",
+      "year": 2023,
+      "kind": "中文专题综述",
+      "title": "面向复杂约束优化问题的进化算法综述",
+      "url": "https://www.jos.org.cn/jos/article/abstract/6711"
+    },
+    {
+      "id": "zhMoead",
+      "year": 2023,
+      "kind": "中文专题综述",
+      "title": "基于分解的演化多目标优化算法综述",
+      "url": "https://jos.org.cn/jos/article/abstract/6672"
+    },
+    {
+      "id": "zhMultitask",
+      "year": 2023,
+      "kind": "中文专题综述",
+      "title": "演化多任务优化研究综述",
+      "url": "https://jos.org.cn/jos/ch/reader/view_abstract.aspx?file_no=6704&flag=1"
+    },
+    {
+      "id": "zhCollective",
+      "year": 2023,
+      "kind": "中文专题综述",
+      "title": "群智演化协同计算的研究进展与趋势",
+      "url": "https://doi.org/10.6054/j.jscnun.2023001"
+    },
+    {
+      "id": "nero2005",
+      "year": 2005,
+      "kind": "原始论文（作者公开版）",
+      "title": "Stanley, Bryant & Miikkulainen — Evolving Neural Network Agents in the NERO Video Game",
+      "url": "https://nn.cs.utexas.edu/downloads/papers/stanley.cig05.pdf",
+      "checked": "2026-10-16",
+      "verification": "作者机构原始论文及项目记录核验"
+    }
+  ],
+  "nodes": [
+    {
+      "id": "es73",
+      "year": 1973,
+      "lane": "evo",
+      "title": "进化策略：工程参数的自适应搜索",
+      "kind": "研究分支",
+      "summary": "用变异与选择改进工程参数，形成与遗传算法并行的早期路线。",
+      "contribution": "Rechenberg 的专著系统呈现早期进化策略；随后产生步长自适应和协方差学习等机制。",
+      "boundary": "1973 是此专著年份；研究起于更早的1960年代，不能写成该年首次提出全部机制。",
+      "refs": [
+        "rechenberg1973",
+        "back1997"
+      ],
+      "teams": [],
+      "apps": [
+        "engineering"
+      ]
+    },
+    {
+      "id": "rice76",
+      "year": 1976,
+      "lane": "design",
+      "title": "算法选择：按问题特征挑方法",
+      "kind": "研究分支",
+      "summary": "同一方法在不同实例上表现不同，能否根据实例特征选择求解器？",
+      "contribution": "把问题空间、特征、算法空间与性能联系起来，为后来算法选择研究提供框架。",
+      "boundary": "选择算法、调整参数和生成新算法是不同任务；不能把后来的学习机制归给这篇早期论文。",
+      "refs": [
+        "rice1976"
+      ],
+      "teams": [],
+      "apps": []
+    },
+    {
+      "id": "sims94",
+      "year": 1994,
+      "lane": "collective",
+      "title": "虚拟生物：共同搜索形态与行为",
+      "kind": "研究分支",
+      "summary": "不只调控制器，也把身体结构作为搜索对象。",
+      "contribution": "用仿真评价演化出的形态与神经控制器，连接演化计算和具身行为设计。",
+      "boundary": "仿真中可行不代表实体机器人可部署；它也不是群体机器人方法的起点。",
+      "refs": [
+        "sims1994"
+      ],
+      "teams": [],
+      "apps": [
+        "robotics"
+      ]
+    },
+    {
+      "id": "eda96",
+      "year": 1996,
+      "lane": "evo",
+      "title": "EDA：学习好方案的分布",
+      "kind": "研究分支",
+      "summary": "从优秀候选中学习概率模型，再采样产生新方案。",
+      "contribution": "把重组操作转为显式分布估计，是理解群体搜索的另一条机制路线。",
+      "boundary": "二元参数的早期论文不能代表所有连续、相关分布或深度生成模型。",
+      "refs": [
+        "eda1996"
+      ],
+      "teams": [],
+      "apps": []
+    },
+    {
+      "id": "lns98",
+      "year": 1998,
+      "lane": "or",
+      "title": "大邻域搜索：拆掉一部分再重建",
+      "kind": "研究分支",
+      "summary": "一次修改较大的方案片段，把局部搜索与约束求解结合。",
+      "contribution": "在车辆路径中用移除、重插入和约束规划探索大邻域；后来 ALNS 加入自适应选择操作。",
+      "boundary": "LNS 不是 ALNS 的同义词；具体实现中的移除、修复和接受规则都影响表现。",
+      "refs": [
+        "lns1998",
+        "alns2006"
+      ],
+      "teams": [],
+      "apps": [
+        "logistics"
+      ]
+    },
+    {
+      "id": "constraints00",
+      "year": 2000,
+      "lane": "evo",
+      "title": "约束处理：先让方案可执行",
+      "kind": "研究分支",
+      "summary": "真实方案要满足约束，目标值好还不够。",
+      "contribution": "用可行性与违约程度比较候选，展示罚函数之外的约束处理路线。",
+      "boundary": "这不是所有约束优化的统一解法；等式、隐式和昂贵约束仍需专门处理。",
+      "refs": [
+        "debConstraints2000",
+        "zhConstraints"
+      ],
+      "teams": [],
+      "apps": [
+        "engineering"
+      ]
+    },
+    {
+      "id": "neat02",
+      "year": 2002,
+      "lane": "evo",
+      "title": "神经进化：连接与权重一起演化",
+      "kind": "研究分支",
+      "summary": "把神经网络结构也放进搜索空间。",
+      "contribution": "NEAT 结合历史标记、物种划分与逐步增加结构，研究拓扑增广。",
+      "boundary": "原始实验有明确任务边界，不能宣传为普遍超过人类的游戏智能。",
+      "refs": [
+        "neat2002"
+      ],
+      "teams": [
+        "nnrg"
+      ],
+      "apps": []
+    },
+    {
+      "id": "surrogate05",
+      "year": 2005,
+      "lane": "design",
+      "title": "昂贵优化：用近似模型节省评估",
+      "kind": "研究分支",
+      "summary": "一次仿真或实验很贵，如何少试一些仍找到有价值的方案？",
+      "contribution": "代理模型近似适应度，把评估预算分配给更值得真实计算的候选。",
+      "boundary": "近似误差会误导搜索；最终方案仍需真实模型或实验复核。",
+      "refs": [
+        "jinSurrogate2005"
+      ],
+      "teams": [],
+      "apps": [
+        "engineering",
+        "science"
+      ]
+    },
+    {
+      "id": "uncertain05",
+      "year": 2005,
+      "lane": "evo",
+      "title": "噪声、动态与稳健优化",
+      "kind": "研究分支",
+      "summary": "观测会波动，环境会变化，方案还要对扰动不敏感。",
+      "contribution": "区分噪声、鲁棒性、适应度近似与随时间变化的环境，明确不同的不确定性来源。",
+      "boundary": "这些问题不能互换；动态跟踪能力不等于稳健性，也不等于静态最优。",
+      "refs": [
+        "uncertainty2005"
+      ],
+      "teams": [],
+      "apps": [
+        "engineering"
+      ]
+    },
+    {
+      "id": "uspex06",
+      "year": 2006,
+      "lane": "evo",
+      "title": "USPEX：演化搜索进入晶体预测",
+      "kind": "研究分支",
+      "summary": "让演化产生结构候选，再由能量计算筛选。",
+      "contribution": "把领域结构表示、变异和物理能量评价结合，形成持续维护的软件项目。",
+      "boundary": "预测依赖物理近似与搜索范围，需要独立计算或实验验证。",
+      "refs": [
+        "uspex2006",
+        "uspexGroup"
+      ],
+      "teams": [
+        "uspex"
+      ],
+      "apps": [
+        "science"
+      ]
+    },
+    {
+      "id": "moead07",
+      "year": 2007,
+      "lane": "evo",
+      "title": "MOEA/D：把多目标分解成一组子问题",
+      "kind": "研究分支",
+      "summary": "除了按支配关系选择，还可以让不同子问题协作寻找折中解。",
+      "contribution": "以分解和邻域信息共享构造演化多目标框架，与 NSGA-II 形成不同机制视角。",
+      "boundary": "权重、分解方法和前沿形状都会影响覆盖；不能只比较算法名称。",
+      "refs": [
+        "moead2007",
+        "zhMoead"
+      ],
+      "teams": [],
+      "apps": [
+        "engineering"
+      ]
+    },
+    {
+      "id": "calypso10",
+      "year": 2010,
+      "lane": "si",
+      "title": "CALYPSO：粒子群与晶体结构搜索",
+      "kind": "研究分支",
+      "summary": "将粒子群思想与结构生成、局部优化和能量评价结合。",
+      "contribution": "2010方法论文与2012软件论文提供从搜索机制到科学工具的连续证据。",
+      "boundary": "这是经过领域设计的工具，不能用通用PSO演示替代其物理流程。",
+      "refs": [
+        "calypso2010",
+        "calypso2012",
+        "calypsoGroup"
+      ],
+      "teams": [
+        "calypso"
+      ],
+      "apps": [
+        "science"
+      ]
+    },
+    {
+      "id": "qd16",
+      "year": 2016,
+      "lane": "evo",
+      "title": "质量与多样性：保留许多不同的好方案",
+      "kind": "研究分支",
+      "summary": "有时需要多种有用的行为，而非一个最高分。",
+      "contribution": "质量多样性研究把行为特征空间与候选质量结合，保留可供选择的方案集合。",
+      "boundary": "2016 是此综述年份，不是整个分支的唯一发明年份；行为多样性不等于Pareto最优。",
+      "refs": [
+        "qd2016"
+      ],
+      "teams": [],
+      "apps": [
+        "robotics"
+      ]
+    },
+    {
+      "id": "multitask16",
+      "year": 2016,
+      "lane": "evo",
+      "title": "演化多任务：任务之间共享搜索经验",
+      "kind": "研究分支",
+      "summary": "多个优化任务能否通过迁移互相帮助？",
+      "contribution": "多因子演化探索统一搜索表示与任务间知识交换。",
+      "boundary": "相似任务可能受益，不相关任务可能发生负迁移；不是同时跑多个独立算法。",
+      "refs": [
+        "multitask2016",
+        "zhMultitask"
+      ],
+      "teams": [],
+      "apps": []
+    },
+    {
+      "id": "erl18",
+      "year": 2018,
+      "lane": "design",
+      "title": "演化与梯度强化学习协作",
+      "kind": "研究分支",
+      "summary": "利用种群探索，同时利用梯度更新策略。",
+      "contribution": "ERL 在种群和强化学习代理之间共享经验，并周期性注入学到的策略。",
+      "boundary": "连续控制基准上的结果不代表所有任务更强；比较还需看样本预算与基线。",
+      "refs": [
+        "erl2018"
+      ],
+      "teams": [],
+      "apps": [
+        "robotics"
+      ]
+    }
+  ],
+  "teams": [
+    {
+      "id": "hansen",
+      "name": "CMA-ES / RandOpt 研究记录",
+      "where": "法国 · Inria / École Polytechnique 等",
+      "focus": "进化策略、分布自适应与连续优化基准",
+      "contribution": "2001 年 CMA-ES 论文、COCO 平台论文和官方研究记录相互印证，连接方法与评测。",
+      "evidence": [
+        "hansenGroup",
+        "cma2001",
+        "cocoPaper"
+      ],
+      "caution": "机构与成员随时间变化；这里展示有书目支持的研究线，不追溯一个不变的团队。"
+    },
+    {
+      "id": "coin",
+      "name": "KanGAL / COIN Lab 研究记录",
+      "where": "印度与美国 · Kalyanmoy Deb 的研究记录",
+      "focus": "约束优化与演化多目标优化",
+      "contribution": "早期 KanGAL 报告、NSGA-II 和后来的 COIN Lab 书目提供连续研究记录。",
+      "evidence": [
+        "kangalGroup",
+        "nsga2002",
+        "debConstraints2000",
+        "coinGroup"
+      ],
+      "caution": "不把后成立的 COIN Lab 名称套到所有早期论文；作者当前机构不等于当年署名。"
+    },
+    {
+      "id": "nnrg",
+      "name": "UT Austin · Neural Networks Research Group",
+      "where": "美国 · 得克萨斯大学奥斯汀分校",
+      "focus": "神经进化、智能体与行为学习",
+      "contribution": "官方多年书目与 NEAT 原始论文展示结构演化及后续智能体研究的延续。",
+      "evidence": [
+        "nnrgGroup",
+        "neat2002",
+        "nero2005"
+      ],
+      "caution": "实验任务和控制器实现各有条件；实验室成员及合作单位随论文变化。"
+    },
+    {
+      "id": "calypso",
+      "name": "CALYPSO · 晶体结构预测项目",
+      "where": "中国 · 吉林大学等合作机构",
+      "focus": "粒子群与材料结构预测",
+      "contribution": "2010 方法论文、2012 软件论文及官方项目记录支持持续的科学软件研究线。",
+      "evidence": [
+        "calypso2010",
+        "calypso2012",
+        "calypsoGroup"
+      ],
+      "caution": "合作机构按具体论文核验；项目成功不能推广为任意粒子群实现都具有同样效果。"
+    },
+    {
+      "id": "uspex",
+      "name": "USPEX · 演化结构预测项目",
+      "where": "国际合作 · Oganov 等研究者",
+      "focus": "演化晶体结构预测与领域软件",
+      "contribution": "2006 软件论文、2023 蛋白结构扩展与官方项目记录展示方法和应用的持续发展。",
+      "evidence": [
+        "uspex2006",
+        "app040",
+        "uspexGroup"
+      ],
+      "caution": "项目跨时期和机构；蛋白预测研究也明确指出力场精度的限制。"
+    },
+    {
+      "id": "nasa",
+      "name": "NASA Ames 等 · 演化硬件合作",
+      "where": "美国 · NASA 与外部合作者",
+      "focus": "天线演化设计与工程验证",
+      "contribution": "2004 设计技术记录和2010任务回顾区分设计、发射与在轨验证。",
+      "evidence": [
+        "nasaDesign2004",
+        "nasaFlight2010"
+      ],
+      "caution": "这是有连续任务证据的合作案例，不意味着 NASA 全部天线均由演化设计。"
+    }
+  ],
+  "researchQuestions": [
+    {
+      "title": "可执行方案：约束处理",
+      "summary": "先判断方案能否执行，再比较目标值。罚函数、可行性规则、修复和专门解码各有适用条件。",
+      "refs": [
+        "debConstraints2000",
+        "zhConstraints"
+      ]
+    },
+    {
+      "title": "多目标：给出可选择的折中",
+      "summary": "同时考虑成本、质量、风险时，需要比较方案集合的覆盖和质量，而非只看一个最高分。",
+      "refs": [
+        "nsga2002",
+        "moead2007",
+        "zhMoead"
+      ]
+    },
+    {
+      "title": "昂贵、噪声与变化中的评价",
+      "summary": "仿真很贵、观测有噪声、环境随时间变化是不同难点；分别考虑近似模型、重复评估、稳健性和跟踪。",
+      "refs": [
+        "jinSurrogate2005",
+        "uncertainty2005"
+      ]
+    },
+    {
+      "title": "多种好方案与任务迁移",
+      "summary": "质量多样性保留行为不同的候选；演化多任务研究任务间知识交换。它们都超出单一静态最优值，但目标不同。",
+      "refs": [
+        "qd2016",
+        "multitask2016",
+        "zhMultitask"
+      ]
+    },
+    {
+      "title": "集体智能与科学工具",
+      "summary": "机器人协作研究局部交互；CALYPSO / USPEX 把优化接入物理计算。应用价值来自任务模型、验证与工程流程。",
+      "refs": [
+        "brambilla2013",
+        "zhCollective",
+        "calypso2010",
+        "uspex2006"
+      ]
+    },
+    {
+      "title": "按实例选择、配置和组合算法",
+      "summary": "选择哪个求解器、调哪些参数、组合哪些构件是三个相关问题；必须把训练实例与测试实例分开。",
+      "refs": [
+        "rice1976",
+        "smac2011",
+        "paramils2009",
+        "hyper2024"
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "source": "es73",
+      "target": "cma01",
+      "kind": "机制发展",
+      "summary": "进化策略中的分布自适应",
+      "refs": [
+        "cma2001",
+        "back1997"
+      ]
+    },
+    {
+      "source": "lns98",
+      "target": "alns06",
+      "kind": "框架扩展",
+      "summary": "大邻域的移除/修复 → 自适应选择操作",
+      "refs": [
+        "lns1998",
+        "alns2006"
+      ]
+    },
+    {
+      "source": "pso95",
+      "target": "calypso10",
+      "kind": "领域应用",
+      "summary": "粒子群思想结合晶体结构表示和物理评价",
+      "refs": [
+        "calypso2010"
+      ]
+    },
+    {
+      "source": "holland75",
+      "target": "uspex06",
+      "kind": "机制关联",
+      "summary": "演化选择与变异用于结构预测；不表示唯一直接传承",
+      "refs": [
+        "uspex2006"
+      ]
+    },
+    {
+      "source": "nsga02",
+      "target": "moead07",
+      "kind": "机制对照",
+      "summary": "支配关系选择与分解协作是两种多目标思路",
+      "refs": [
+        "nsga2002",
+        "moead2007"
+      ]
+    },
+    {
+      "source": "rice76",
+      "target": "smac11",
+      "kind": "任务对照",
+      "summary": "选择算法与配置参数相关，但输出对象不同",
+      "refs": [
+        "rice1976",
+        "smac2011"
+      ]
+    },
+    {
+      "source": "neat02",
+      "target": "erl18",
+      "kind": "研究交汇",
+      "summary": "神经进化与梯度学习的不同组合方式",
+      "refs": [
+        "neat2002",
+        "erl2018"
+      ]
+    },
+    {
+      "source": "uncertain05",
+      "target": "surrogate05",
+      "kind": "概念对照",
+      "summary": "近似误差、观测噪声与环境变化要分别辨认",
+      "refs": [
+        "uncertainty2005",
+        "jinSurrogate2005"
+      ]
+    }
+  ]
+}

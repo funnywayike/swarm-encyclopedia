@@ -1,0 +1,415 @@
+{
+  "retrieved": "2026-10-16",
+  "url": "https://api.crossref.org/works?query.bibliographic=NASA+ST5+evolved+antenna&rows=3&filter=until-pub-date%3A2026-10-16",
+  "response": {
+    "status": "ok",
+    "message-type": "work-list",
+    "message-version": "1.0.0",
+    "message": {
+      "facets": {},
+      "total-results": 210652,
+      "items": [
+        {
+          "indexed": {
+            "date-parts": [
+              [
+                2025,
+                10,
+                18
+              ]
+            ],
+            "date-time": "2025-10-18T00:28:42Z",
+            "timestamp": 1760747322297,
+            "version": "build-2065373602"
+          },
+          "reference-count": 0,
+          "publisher": "AIP Publishing",
+          "issue": "10",
+          "content-domain": {
+            "domain": [],
+            "crossmark-restriction": false
+          },
+          "short-container-title": [
+            "Phys. Today"
+          ],
+          "DOI": "10.1063/pt.5.024712",
+          "type": "journal-article",
+          "created": {
+            "date-parts": [
+              [
+                2017,
+                1,
+                31
+              ]
+            ],
+            "date-time": "2017-01-31T11:26:00Z",
+            "timestamp": 1485861960000
+          },
+          "source": "Crossref",
+          "is-referenced-by-count": 0,
+          "title": [
+            "NASA renovating historic 'Mars antenna'"
+          ],
+          "prefix": "10.1063",
+          "volume": "2010",
+          "member": "317",
+          "published-online": {
+            "date-parts": [
+              [
+                2010,
+                10,
+                4
+              ]
+            ]
+          },
+          "container-title": [
+            "Physics Today"
+          ],
+          "language": "en",
+          "deposited": {
+            "date-parts": [
+              [
+                2025,
+                10,
+                17
+              ]
+            ],
+            "date-time": "2025-10-17T15:55:42Z",
+            "timestamp": 1760716542000
+          },
+          "score": 21.17761,
+          "resource": {
+            "primary": {
+              "URL": "https://physicstoday.aip.org/news/nasa-renovating-historic-mars-antenna"
+            }
+          },
+          "issued": {
+            "date-parts": [
+              [
+                2010,
+                10,
+                4
+              ]
+            ]
+          },
+          "references-count": 0,
+          "journal-issue": {
+            "issue": "10",
+            "published-online": {
+              "date-parts": [
+                [
+                  2010,
+                  10
+                ]
+              ]
+            }
+          },
+          "URL": "https://doi.org/10.1063/pt.5.024712",
+          "ISSN": [
+            "1945-0699"
+          ],
+          "issn-type": [
+            {
+              "type": "electronic",
+              "value": "1945-0699"
+            }
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2010,
+                10,
+                4
+              ]
+            ]
+          },
+          "article-number": "15316"
+        },
+        {
+          "indexed": {
+            "date-parts": [
+              [
+                2024,
+                9,
+                5
+              ]
+            ],
+            "date-time": "2024-09-05T20:23:01Z",
+            "timestamp": 1725567781420
+          },
+          "reference-count": 7,
+          "publisher": "IEEE",
+          "content-domain": {
+            "domain": [],
+            "crossmark-restriction": false
+          },
+          "published-print": {
+            "date-parts": [
+              [
+                2011,
+                3
+              ]
+            ]
+          },
+          "DOI": "10.1109/aero.2011.5747328",
+          "type": "proceedings-article",
+          "created": {
+            "date-parts": [
+              [
+                2011,
+                4,
+                12
+              ]
+            ],
+            "date-time": "2011-04-12T13:39:27Z",
+            "timestamp": 1302615567000
+          },
+          "page": "1-15",
+          "source": "Crossref",
+          "is-referenced-by-count": 0,
+          "title": [
+            "Influence of mission requirements and technology on NASA SCAN antenna asset architecture: Antenna-Sharing"
+          ],
+          "prefix": "10.1109",
+          "author": [
+            {
+              "given": "Bruce E.",
+              "family": "MacNeal",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            }
+          ],
+          "member": "263",
+          "reference": [
+            {
+              "key": "ref4",
+              "article-title": "Ground Network Users ' Guide",
+              "author": "garza",
+              "year": "2007",
+              "journal-title": "Goddard Space Flight Center"
+            },
+            {
+              "journal-title": "DSN Link Handbook",
+              "year": "0",
+              "key": "ref3"
+            },
+            {
+              "key": "ref6",
+              "article-title": "Space Network Users' Guide",
+              "author": "flaherty",
+              "year": "2007",
+              "journal-title": "Goddard Space Flight Center"
+            },
+            {
+              "year": "0",
+              "key": "ref5",
+              "first-page": "7"
+            },
+            {
+              "journal-title": "SCaN Spectrum Policy and Planning Division",
+              "year": "0",
+              "key": "ref7"
+            },
+            {
+              "journal-title": "AMPM",
+              "year": "2008",
+              "key": "ref2"
+            },
+            {
+              "key": "ref1",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1109/AERO.2009.4839377"
+            }
+          ],
+          "event": {
+            "name": "2011 IEEE Aerospace Conference",
+            "start": {
+              "date-parts": [
+                [
+                  2011,
+                  3,
+                  5
+                ]
+              ]
+            },
+            "location": "Big Sky, USA",
+            "end": {
+              "date-parts": [
+                [
+                  2011,
+                  3,
+                  12
+                ]
+              ]
+            }
+          },
+          "container-title": [
+            "2011 Aerospace Conference"
+          ],
+          "link": [
+            {
+              "URL": "http://xplorestaging.ieee.org/ielx5/5741883/5747213/05747328.pdf?arnumber=5747328",
+              "content-type": "unspecified",
+              "content-version": "vor",
+              "intended-application": "similarity-checking"
+            }
+          ],
+          "deposited": {
+            "date-parts": [
+              [
+                2017,
+                3,
+                17
+              ]
+            ],
+            "date-time": "2017-03-17T13:18:01Z",
+            "timestamp": 1489756681000
+          },
+          "score": 21.112251,
+          "resource": {
+            "primary": {
+              "URL": "http://ieeexplore.ieee.org/document/5747328/"
+            }
+          },
+          "issued": {
+            "date-parts": [
+              [
+                2011,
+                3
+              ]
+            ]
+          },
+          "references-count": 7,
+          "URL": "https://doi.org/10.1109/aero.2011.5747328",
+          "published": {
+            "date-parts": [
+              [
+                2011,
+                3
+              ]
+            ]
+          }
+        },
+        {
+          "indexed": {
+            "date-parts": [
+              [
+                2024,
+                9,
+                11
+              ]
+            ],
+            "date-time": "2024-09-11T10:17:48Z",
+            "timestamp": 1726049868233
+          },
+          "reference-count": 1,
+          "publisher": "Qeios",
+          "content-domain": {
+            "domain": [],
+            "crossmark-restriction": false
+          },
+          "DOI": "10.32388/q39bpt",
+          "type": "reference-entry",
+          "created": {
+            "date-parts": [
+              [
+                2020,
+                2,
+                7
+              ]
+            ],
+            "date-time": "2020-02-07T19:40:41Z",
+            "timestamp": 1581104441000
+          },
+          "source": "Crossref",
+          "is-referenced-by-count": 0,
+          "title": [
+            "ST5 wt Allele"
+          ],
+          "prefix": "10.32388",
+          "author": [
+            {
+              "name": "National Cancer Institute",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            }
+          ],
+          "member": "17262",
+          "published-online": {
+            "date-parts": [
+              [
+                2020,
+                2,
+                7
+              ]
+            ]
+          },
+          "reference": [
+            {
+              "key": "ref1",
+              "unstructured": "National Cancer Institute. ST5 wt Allele. NCI Thesaurus. Code C52939."
+            }
+          ],
+          "container-title": [
+            "Definitions"
+          ],
+          "language": "en",
+          "deposited": {
+            "date-parts": [
+              [
+                2020,
+                2,
+                7
+              ]
+            ],
+            "date-time": "2020-02-07T19:40:41Z",
+            "timestamp": 1581104441000
+          },
+          "score": 20.845304,
+          "resource": {
+            "primary": {
+              "URL": "https://www.qeios.com/read/definition/64459"
+            }
+          },
+          "issued": {
+            "date-parts": [
+              [
+                2020,
+                2,
+                7
+              ]
+            ]
+          },
+          "references-count": 1,
+          "URL": "https://doi.org/10.32388/q39bpt",
+          "published": {
+            "date-parts": [
+              [
+                2020,
+                2,
+                7
+              ]
+            ]
+          }
+        }
+      ],
+      "items-per-page": 3,
+      "query": {
+        "start-index": 0,
+        "search-terms": null
+      }
+    }
+  }
+}
