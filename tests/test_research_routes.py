@@ -45,3 +45,27 @@ def test_rendered_routes_are_accessible_and_defaults_match():
  assert '__ROUTES_PANEL__' not in page
  assert '../../js/research_routes.js' in page
  assert '149' in page
+
+
+def test_reader_layout_keeps_controls_outside_closed_scope_drawer():
+ from pages_research_routes import render_routes_panel
+ s=render_routes_panel()
+ assert s.count('<details')==s.count('</details>')
+ scope=s.index('<details class="rr-lead">')
+ controls=s.index('<div class="rr-controls">')
+ assert s.index('</details>',scope)<controls
+ assert 'id="rr-route-nav"' in s and 'id="rr-grid"' in s
+ assert '研究现场 / UFLP' not in s
+ assert s.count('class="rr-investigation"')==20
+ assert s.count('class="rr-evidence-papers"')==20
+
+
+def test_each_route_has_distinct_problem_level_investigation():
+ d=load('research_investigation.json')['routes']
+ assert set(d)=={r['id'] for r in load('research_routes.json')['routes']}
+ assert len({r['question'] for r in d.values()})==20
+ assert len({r['comparison'] for r in d.values()})==20
+ assert len({r['metrics'] for r in d.values()})==20
+ from pages_research_routes import render_routes_panel
+ from selfcheck import _tags_balanced
+ assert _tags_balanced(render_routes_panel())
