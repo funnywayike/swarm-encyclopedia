@@ -446,7 +446,8 @@ THEME_HEAD = """<script src="/js/i18n.js"></script>
 (function(){var t=null;try{t=localStorage.getItem("theme")}catch(e){}
 if(!t)t=(window.matchMedia&&matchMedia("(prefers-color-scheme: dark)").matches)?"dark":"light";
 document.documentElement.setAttribute("data-theme",t);})();
-</script>"""
+</script>
+<link rel="stylesheet" href="/css/site_search.css">"""
 
 THEME_TAIL = """<script>
 (function(){
@@ -505,7 +506,8 @@ THEME_TAIL = """<script>
     });
   });
 })();
-</script>"""
+</script>
+<script src="/js/site_search.js"></script>"""
 
 def inject_theme(html: str) -> str:
     """format 之后注入主题脚本（避免大括号与 str.format 冲突）"""
@@ -2150,6 +2152,10 @@ def main() -> None:
 </html>
 """
     write("404.html", inject_theme(_notfound))
+
+    from site_search_index import generate as _generate_site_search_index
+    _search_count, _search_bytes = _generate_site_search_index(ROOT)
+    print(f"  全站搜索索引：{_search_count} 条，{_search_bytes // 1024} KB")
 
     print(f"完成：{len(ALGOS)} 个算法页 + {len(FAMILIES)} 个家族页 + 首页 + 对比页")
 
