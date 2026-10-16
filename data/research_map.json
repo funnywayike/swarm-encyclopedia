@@ -1,5 +1,5 @@
 {
-  "version": "2026-10-16-local-research-v5",
+  "version": "research-map-2026-10-16-v7",
   "updated": "2026-10-16",
   "scope": "群智能与元启发式的研究主干导览：并行传统、交汇关系、研究群体、应用问题与证据方法。代表性节点，不是全球论文目录、团队排名或穷尽式系统综述。",
   "bands": [
@@ -1137,11 +1137,13 @@
       "title": "AlphaEvolve：代码生成加自动评测",
       "kind": "前沿候选",
       "summary": "研究系统通过生成、评估和迭代代码候选，寻找算法或程序改进。",
-      "contribution": "把生成模型与可执行评测循环连接，扩展自动算法设计的研究问题。",
-      "boundary": "当前引用是作者预印本/机构系统公告；不能把个案演示当作同行验证的普遍能力。",
+      "contribution": "把大语言模型、演化程序搜索和自动评价器结合，搜索可执行程序候选。Google DeepMind 报告其数据中心调度改进进入生产并平均回收约 0.7% 全球计算资源；这是公司公开报告的特定系统结果，不是传统 GA、ACO、PSO 的普遍结论。",
+      "boundary": "生产结果与 DNA 测序后续案例来自 Google/PacBio 公开报告，本站未独立审计。该系统依赖可靠自动评价器；不能外推到没有可执行验证标准的任意研究问题。",
       "refs": [
         "alphaevolve2025",
-        "llmDesign2026"
+        "llmDesign2026",
+        "alphaEvolveDeepmind",
+        "alphaEvolveImpact"
       ],
       "teams": [],
       "apps": [
@@ -1477,6 +1479,286 @@
       "apps": [
         "staffing"
       ]
+    },
+    {
+      "id": "qap-rts91",
+      "year": 1991,
+      "lane": "or",
+      "title": "稳健禁忌搜索进入二次指派基准",
+      "kind": "问题专用算法",
+      "summary": "设施与位置的成对流量、距离成本形成强耦合的 QAP。",
+      "contribution": "Taillard 的 robust tabu search 以增量评价和禁忌记忆针对 QAP 邻域；QAPLIB 收录它作为重要参考方法之一。",
+      "boundary": "QAPLIB 成绩支持算法基准比较，不证明某个真实工厂使用了此实现。",
+      "refs": [
+        "taillard1991",
+        "qaplibOfficial"
+      ],
+      "teams": [],
+      "apps": [
+        "engineering"
+      ]
+    },
+    {
+      "id": "jobshop-tsab96",
+      "year": 1996,
+      "lane": "or",
+      "title": "TSAB：禁忌搜索专门化作业车间邻域",
+      "kind": "问题专用算法",
+      "summary": "机器冲突与工序前后关系使作业车间排程的局部改动高度结构化。",
+      "contribution": "Nowicki 与 Smutnicki 的 TSAB 结合专门邻域与禁忌机制，在当时经典难例上展现快速高质量排程；后续研究拆解其关键设计。",
+      "boundary": "历史运行时间只对论文当时的硬件、实例、停止条件成立；不构成跨硬件排行榜。",
+      "refs": [
+        "nowicki1996",
+        "tsabDeconstruction2005"
+      ],
+      "teams": [],
+      "apps": [
+        "staffing"
+      ]
+    },
+    {
+      "id": "nasa-eos04",
+      "year": 2004,
+      "lane": "design",
+      "title": "地球观测卫星排程：比较多种启发式",
+      "kind": "领域应用",
+      "summary": "观测窗口、传感器资源和卫星机动约束让请求排序直接影响可执行任务数。",
+      "contribution": "NASA Ames 研究比较遗传算法、模拟退火、爬山、Squeaky Wheel 和迭代采样，并登记 JavaGenes 演化排程软件。",
+      "boundary": "NASA 软件目录和现实规模研究模型不等于已证实在轨运行部署。",
+      "refs": [
+        "nasaEosStudy2004",
+        "nasaJavaGenes"
+      ],
+      "teams": [
+        "nasa"
+      ],
+      "apps": [
+        "engineering"
+      ]
+    },
+    {
+      "id": "st5flight06",
+      "year": 2006,
+      "lane": "evo",
+      "title": "进化设计的天线完成飞行资格并搭载 ST5",
+      "kind": "工程验证",
+      "summary": "计算进化生成非常规 X 波段天线候选，工程样机随后经过测试与飞行资格流程。",
+      "contribution": "NASA 记录显示进化设计被安装到 ST5 微卫星并随任务发射，成为进化搜索产出航天硬件的直接实例。",
+      "boundary": "这是特定天线与任务的工程验证，不代表算法可以替代整个天线设计和系统工程流程。",
+      "refs": [
+        "nasaDesign2004",
+        "nasaFlight2010",
+        "st5Mission"
+      ],
+      "teams": [
+        "nasa"
+      ],
+      "apps": [
+        "engineering"
+      ]
+    },
+    {
+      "id": "water-aco07",
+      "year": 2007,
+      "lane": "si",
+      "title": "蚁群优化用于管网管径与水力设计",
+      "kind": "领域应用",
+      "summary": "管径选择是离散组合决策，水压和供水能力需要水力模型检查。",
+      "contribution": "研究比较 Ant System、ACS、Elitist、ASrank 与 MMAS 等 ACO 变体，并在标准水网案例中考察成本与可行性。",
+      "boundary": "比较案例和水厂网络研究属于设计评估，仍需运行方核验建设、维护和长期供水效果。",
+      "refs": [
+        "waterAco2007",
+        "waterFieldCase2012"
+      ],
+      "teams": [],
+      "apps": [
+        "engineering"
+      ]
+    },
+    {
+      "id": "nurse-stikland07",
+      "year": 2007,
+      "lane": "or",
+      "title": "Stikland Hospital 护士排班决策支持系统",
+      "kind": "真实业务案例",
+      "summary": "护士技能、病区需求、班次规则和个人偏好需要同时纳入排班。",
+      "contribution": "研究报告基于 Stikland Hospital 案例开发 NuRoDSS，并用禁忌搜索生成排班，展示了局部搜索进入医疗排班决策支持的路径。",
+      "boundary": "公开论文说明系统为该案例开发，不提供可推广的护理质量因果结论。",
+      "refs": [
+        "nurseDss2008"
+      ],
+      "teams": [],
+      "apps": [
+        "staffing"
+      ]
+    },
+    {
+      "id": "uspex-nacl13",
+      "year": 2013,
+      "lane": "evo",
+      "title": "高压实验验证演化算法预测的新型钠氯化合物",
+      "kind": "科学实验验证",
+      "summary": "晶体结构搜索与第一性原理评价提出高压下可能稳定的反直觉相。",
+      "contribution": "Science 论文结合 USPEX 预测与金刚石对顶砧实验，合成并表征 NaCl3 与 Na3Cl。",
+      "boundary": "只将论文明确合成的相称为实验验证；其他理论候选须逐项区别。",
+      "refs": [
+        "uspexNaCl2013",
+        "uspexGroup"
+      ],
+      "teams": [
+        "uspex"
+      ],
+      "apps": [
+        "engineering"
+      ]
+    },
+    {
+      "id": "termes14",
+      "year": 2014,
+      "lane": "collective",
+      "title": "TERMES 机器人按局部规则完成协同建造演示",
+      "kind": "实物原型",
+      "summary": "机器人根据邻近模块和环境留下的线索行动，不需要中央指挥或预设固定角色。",
+      "contribution": "研究把 stigmergy 与分布式控制落实为真实机器人和砖块系统，演示指定三维结构的集体建造。",
+      "boundary": "实验室原型证明机制可运行，不代表已在施工现场商业部署。",
+      "refs": [
+        "termesScience2014",
+        "termesHarvard"
+      ],
+      "teams": [
+        "termes"
+      ],
+      "apps": [
+        "robot"
+      ]
+    },
+    {
+      "id": "hgs-cvrp-2020",
+      "year": 2020,
+      "lane": "or",
+      "title": "HGS-CVRP：SWAP* 改进成为强公开路线基线",
+      "kind": "基准结果",
+      "summary": "CVRP 求解系统把遗传搜索、可行性管理与领域局部邻域结合。",
+      "contribution": "公开实现和 CVRPLIB 实验报告多项最好已知解改进，使后续论文可以直接复核强基线。",
+      "boundary": "结果属于论文指定版本、实例和预算；不同版本、硬件、车辆假设下不可直接照搬。",
+      "refs": [
+        "hgs2020",
+        "cvrplib"
+      ],
+      "teams": [
+        "hec",
+        "cvrplib"
+      ],
+      "apps": [
+        "routes"
+      ]
+    },
+    {
+      "id": "abpea23",
+      "year": 2023,
+      "lane": "evo",
+      "title": "ABPEA：选址搜索中在线分配算子信用",
+      "kind": "问题专用算法",
+      "summary": "二进制设施开关方案使用多个算子，算法根据近期改进效果自适应挑选算子并并行搜索。",
+      "contribution": "在 OR-Library 与 M* 基准上报告竞争性结果和相对单算子版本的并行加速，展示自适应算子与并行性的组合。",
+      "boundary": "论文范围是其测试的 UFLP 实例；不代表所有选址模型或现场决策系统的冠军。",
+      "refs": [
+        "abpea2023"
+      ],
+      "teams": [
+        "nottingham-col"
+      ],
+      "apps": [
+        "routes"
+      ]
+    },
+    {
+      "id": "egtoa23",
+      "year": 2023,
+      "lane": "evo",
+      "title": "EGTOA：群论表示被改造成设施选址专用搜索",
+      "kind": "问题专用进化算法",
+      "summary": "群论基础的离散进化表示加入单向变异与冗余检查，适配 UFLP 的建站—分配结构。",
+      "contribution": "论文在 15 个 OR-Library 实例上和 16 种既有算法比较，报告竞争性质量与速度；这个结果限定于该文的实例和实验设置。",
+      "boundary": "它与 ABPEA、Benders、2026 cABC 的表格来自不同论文和预算，不构成统一的直接排名。",
+      "refs": [
+        "egtoa2023",
+        "hguTeam2018"
+      ],
+      "teams": [
+        "hgu-evolution"
+      ],
+      "apps": [
+        "location"
+      ]
+    },
+    {
+      "id": "cabc26",
+      "year": 2026,
+      "lane": "si",
+      "title": "cABC：人工蜂群重新编码 UFLP 二元决策",
+      "kind": "问题专用群智能算法",
+      "summary": "连续蜂群搜索产生设施开启概率，再通过二元转换与修复策略处理离散选址方案。",
+      "contribution": "在 CAP 15 个实例与 M* 20 个实例上比较 11 种方法；论文报告整体有竞争力，同时指出部分难例仍有不足。",
+      "boundary": "单篇论文的基准比较不说明它在所有 UFLP 规模、数据与时间预算上最好，也没有现实设施部署证据。",
+      "refs": [
+        "cABC2026"
+      ],
+      "teams": [],
+      "apps": [
+        "location"
+      ]
+    },
+    {
+      "id": "traffic-gp24",
+      "year": 2024,
+      "lane": "evo",
+      "title": "遗传编程生成可解释的交通信号规则",
+      "kind": "交通控制模型研究",
+      "summary": "研究从进化生成的规则决定路口信号相位切换，并在合成路网和柏林真实道路网络模型上测试。",
+      "contribution": "把规则可读性作为交通信号优化的重要设计目标，连接演化搜索、路网模型和控制解释。",
+      "boundary": "实验使用网络模型与仿真，不能据此认定交通信号系统已经在柏林现场部署。",
+      "refs": [
+        "trafficGp2024"
+      ],
+      "teams": [],
+      "apps": [
+        "routes"
+      ]
+    },
+    {
+      "id": "traffic-review26",
+      "year": 2026,
+      "lane": "evidence",
+      "title": "交通信号控制系统综述：从方法数量转向部署证据",
+      "kind": "PRISMA 系统综述",
+      "summary": "2026 年综述纳入 2015–2025 年 50 篇进化与群智能信号控制论文，整理拥堵、可扩展性和实际适用性。",
+      "contribution": "系统综述指出需要更严格的统计基准、跨交通场景比较与部署研究，帮助读者区分仿真论文和真实运行证据。",
+      "boundary": "纳入数量和综述建议不等于元分析，也没有证明 GA、PSO 或某种混合算法为通用冠军。",
+      "refs": [
+        "trafficReview2026"
+      ],
+      "teams": [],
+      "apps": [
+        "routes"
+      ]
+    },
+    {
+      "id": "pso-review26",
+      "year": 2026,
+      "lane": "si",
+      "title": "PSO 十年进展综述：混合、调参与应用边界",
+      "kind": "方法综述 / 文献图景",
+      "summary": "Computer Science Review 2026 综述回看 PSO 近十年的变体、参数调节、混合设计和应用方向。",
+      "contribution": "为理解 PSO 如何从经典位置更新发展到问题专用改造提供近期阅读入口，也能把新颖变体放回成熟研究线比较。",
+      "boundary": "综述的统计与分类不是新算法实验，也不代表所有变体经过独立复现或在全部领域适用。",
+      "refs": [
+        "psoSurvey2026"
+      ],
+      "teams": [],
+      "apps": [
+        "continuous"
+      ]
     }
   ],
   "teams": [
@@ -1643,6 +1925,65 @@
         "nasaFlight2010"
       ],
       "caution": "这是有连续任务证据的合作案例，不意味着 NASA 全部天线均由演化设计。"
+    },
+    {
+      "id": "idsia",
+      "name": "IDSIA / AntOptima · 卢加诺",
+      "where": "瑞士 · 卢加诺",
+      "focus": "蚁群优化、动态车辆路径与物流软件",
+      "contribution": "IDSIA 研究线与 AntOptima 衍生项目将 ACO 研究连接到时变路况、配送与在线路线问题。",
+      "evidence": [
+        "antvrp2007",
+        "antoptimaCase"
+      ],
+      "caution": "AntOptima 产品页属于供应商一手案例记录；产品使用与独立量化效益是两类证据。此团队与布鲁塞尔 IRIDIA 分属不同机构。"
+    },
+    {
+      "id": "nottingham-col",
+      "name": "Nottingham COL Lab · 适应与进化搜索",
+      "where": "英国 · 诺丁汉大学",
+      "focus": "计算优化、学习与并行进化搜索",
+      "contribution": "ABPEA 展示了在 UFLP 中依据搜索反馈选择算子，并检验并行扩展。",
+      "evidence": [
+        "abpea2023"
+      ],
+      "caution": "论文作者和实验结果说明具体研究贡献，不代表该机构在所有 UFLP 方法中的全球排名。"
+    },
+    {
+      "id": "termes",
+      "name": "Harvard TERMES · 自组织建造机器人",
+      "where": "美国 · Harvard SEAS / Wyss Institute",
+      "focus": "群体机器人、stigmergy 与分布式建造",
+      "contribution": "将局部环境线索和机器人协作实现为真实硬件原型，展示无中央指挥的三维集体建造。",
+      "evidence": [
+        "termesScience2014",
+        "termesHarvard"
+      ],
+      "caution": "研究原型说明可行性，不应表述为已部署的建筑施工产品。"
+    },
+    {
+      "id": "deepmind",
+      "name": "Google DeepMind · 演化程序搜索",
+      "where": "英国 / 美国 · Google DeepMind",
+      "focus": "大语言模型辅助的算法发现、程序优化与自动评价",
+      "contribution": "AlphaEvolve 报告了数据中心调度、计算内核和科学问题中的算法搜索应用。",
+      "evidence": [
+        "alphaEvolveDeepmind",
+        "alphaEvolveImpact"
+      ],
+      "caution": "公开影响数据主要由 Google/PacBio 报告；系统属于新型自动程序搜索，不等同传统群智能算法的独立效果。"
+    },
+    {
+      "id": "hgu-evolution",
+      "name": "河北地质大学 · 大数据与计算智能研究团队",
+      "where": "中国 · 河北地质大学信息工程学院",
+      "focus": "离散演化算法、组合优化、大数据随机算法与近似算法",
+      "contribution": "校方团队页记录贺毅朝负责的演化算法与组合优化研究线；EGTOA 将群论表示用于离散搜索，并被后续工作扩展到 UFLP 专用算子。",
+      "evidence": [
+        "hguTeam2018",
+        "egtoa2023"
+      ],
+      "caution": "学校公开团队页标注于 2018 年，适合说明当时的团队方向；公开资料不足以据此评为全国排名，也不能推断当前编制或活跃人数。UFLP 论文是团队代表性案例之一，不等同于团队全部研究。"
     }
   ],
   "applications": [
@@ -1657,7 +1998,9 @@
         "tsplib1991",
         "alns2006",
         "cvrpxl2026",
-        "cvrplib"
+        "cvrplib",
+        "antvrp2007",
+        "hgs2020"
       ],
       "problemLinks": [
         {
@@ -1684,7 +2027,9 @@
       "refs": [
         "workforce2026",
         "acoSchedule2013",
-        "hyper2024"
+        "hyper2024",
+        "nurseDss2008",
+        "nurseSa2023"
       ],
       "problemLinks": [
         {
@@ -1710,7 +2055,9 @@
       "evidence": "仿真算例不代表进入生产电网；需核对安全约束、对照求解器、网格和运行场景。",
       "refs": [
         "power2024",
-        "osaba2021"
+        "osaba2021",
+        "ucMip2020",
+        "gridMetaReview2021"
       ],
       "problemLinks": [
         {
@@ -1734,7 +2081,10 @@
         "de1997",
         "cma2001",
         "nsga2002",
-        "kudela2022"
+        "kudela2022",
+        "nasaFlight2010",
+        "uspexNaCl2013",
+        "waterAco2007"
       ],
       "problemLinks": [
         {
@@ -1761,7 +2111,8 @@
       "refs": [
         "beniWang1993",
         "brambilla2013",
-        "robotics2023"
+        "robotics2023",
+        "termesScience2014"
       ],
       "problemLinks": [
         {
@@ -1780,7 +2131,9 @@
       "refs": [
         "rlco2021",
         "llmDesign2026",
-        "alphaevolve2025"
+        "alphaevolve2025",
+        "alphaEvolveDeepmind",
+        "alphaEvolveImpact"
       ],
       "problemLinks": [
         {
@@ -21286,6 +21639,305 @@
       "publicationType": "journal-article",
       "checked": "2026-10-16",
       "recordDOI": "10.1007/s10479-009-0657-6"
+    },
+    {
+      "id": "concordeOfficial",
+      "year": 2006,
+      "kind": "作者维护的精确求解器与基准记录",
+      "title": "Concorde：110 个 TSPLIB 实例的最优解记录",
+      "url": "https://math.uwaterloo.ca/tsp/concorde/",
+      "note": "作者项目页；页面说明完整 TSPLIB 求解情况。"
+    },
+    {
+      "id": "concordePla85900",
+      "year": 2006,
+      "kind": "作者维护的实例档案",
+      "title": "Optimal 85,900-Point Tour：VLSI 实例与计算记录",
+      "url": "https://www.math.uwaterloo.ca/tsp/pla85900/",
+      "note": "记录 85,900 点实例及最优性证明。"
+    },
+    {
+      "id": "hgs2020",
+      "year": 2020,
+      "kind": "算法论文与开源实现",
+      "title": "Hybrid Genetic Search for the CVRP: Open-Source Implementation and SWAP* Neighborhood",
+      "url": "https://w1.cirrelt.ca/~vidalt/papers/HGS-CVRP-2020.pdf",
+      "note": "作者公开实现与指定 CVRPLIB 实验；报告 17 个新最好解与约 0.11% 平均差距。"
+    },
+    {
+      "id": "antvrp2007",
+      "year": 2007,
+      "kind": "同行评审论文 / 真实案例",
+      "title": "Ant colony optimization for real-world vehicle routing problems",
+      "url": "https://doi.org/10.1007/s11721-007-0005-x",
+      "note": "论文讨论瑞士超市、意大利配送、Padua 时变路网和 Lugano 动态订单案例。"
+    },
+    {
+      "id": "antoptimaCase",
+      "kind": "供应商项目记录",
+      "title": "AntOptima：AntRoute 物流产品与客户案例",
+      "url": "https://www.antoptima.ch/?lang=en&page=products",
+      "note": "公司一手项目/产品说明；商业案例证据，效率数字未独立审计。"
+    },
+    {
+      "id": "abpea2023",
+      "year": 2023,
+      "kind": "同行评审论文 / 公开基准",
+      "title": "An adaptive parallel evolutionary algorithm for solving the uncapacitated facility location problem",
+      "url": "https://doi.org/10.1016/j.eswa.2023.119956",
+      "note": "OR-Library 与 M* 实例；3.9 倍是相对单算子顺序版本的最高加速。"
+    },
+    {
+      "id": "egtoa2023",
+      "year": 2023,
+      "kind": "同行评审论文 / 公开基准",
+      "title": "A fast and efficient discrete evolutionary algorithm for the uncapacitated facility location problem",
+      "url": "https://doi.org/10.1016/j.eswa.2022.118978",
+      "note": "作者报告 15 个 OR-Library 实例与 16 种既有算法的比较。"
+    },
+    {
+      "id": "uflBenders2017",
+      "year": 2017,
+      "kind": "同行评审论文 / 精确方法",
+      "title": "Redesigning Benders Decomposition for Large-Scale Facility Location",
+      "url": "https://doi.org/10.1287/mnsc.2016.2461",
+      "note": "精确分解方法；范围包括线性与可分凸二次分配成本模型。"
+    },
+    {
+      "id": "uflLibOfficial",
+      "year": 2024,
+      "kind": "问题基准库",
+      "title": "UflLib：无容量设施选址实例与算法信息",
+      "url": "https://algo.cs.uni-frankfurt.de/ufllib/",
+      "note": "专门问题库，收集 UFLP/SPLP 基准实例。"
+    },
+    {
+      "id": "taillard1991",
+      "year": 1991,
+      "kind": "同行评审论文 / 经典算法",
+      "title": "Robust Taboo Search for the Quadratic Assignment Problem",
+      "url": "https://doi.org/10.1016/0377-2217(91)90078-4",
+      "note": "QAP 专门化禁忌搜索代表方法。"
+    },
+    {
+      "id": "qaplibOfficial",
+      "kind": "问题基准库",
+      "title": "QAPLIB：二次指派实例、最好解与方法索引",
+      "url": "https://qaplib.mgi.polymtl.ca/",
+      "note": "维护多类 QAP 实例和参考算法索引。"
+    },
+    {
+      "id": "nowicki1996",
+      "year": 1996,
+      "kind": "同行评审论文 / 经典算法",
+      "title": "A Fast Taboo Search Algorithm for the Job Shop Problem",
+      "url": "https://doi.org/10.1287/mnsc.42.6.797",
+      "note": "管理科学领域的作业车间禁忌搜索研究。"
+    },
+    {
+      "id": "tsabDeconstruction2005",
+      "year": 2005,
+      "kind": "同行评审论文 / 机制剖析",
+      "title": "Deconstructing Nowicki and Smutnicki's i-TSAB tabu search algorithm",
+      "url": "https://doi.org/10.1016/j.cor.2005.03.002",
+      "note": "对 i-TSAB 的组成和性能主张进行算法层面的拆解。"
+    },
+    {
+      "id": "jobshopBenchmark2026",
+      "year": 2026,
+      "kind": "同行评审论文 / 开放基准",
+      "title": "Job Shop Scheduling Benchmark: Environments and Instances for Learning and Non-learning Methods",
+      "url": "https://doi.org/10.1007/s10472-026-10007-3",
+      "note": "提供多类车间排程实例、方法接口与公开代码。"
+    },
+    {
+      "id": "nurseDss2008",
+      "year": 2008,
+      "kind": "同行评审论文 / 医院案例",
+      "title": "Finding good nurse duty schedules: a case study",
+      "url": "https://doi.org/10.1007/s10951-007-0035-7",
+      "note": "Stikland Hospital 护士排班案例与 NuRoDSS 决策支持系统。"
+    },
+    {
+      "id": "nurseSa2023",
+      "year": 2023,
+      "kind": "同行评审论文 / 机构协作模型",
+      "title": "Solving a real-world nurse rostering problem by Simulated Annealing",
+      "url": "https://doi.org/10.1016/j.orhc.2023.100379",
+      "note": "与意大利医疗排班软件公司合作提出真实问题模型。"
+    },
+    {
+      "id": "nurseBenchmark",
+      "kind": "公开问题基准",
+      "title": "Nurse Rostering Benchmark Data Sets",
+      "url": "https://www.schedulingbenchmarks.org/nrp/",
+      "note": "含源自真实情景的问题实例与公开数据格式。"
+    },
+    {
+      "id": "ucMip2020",
+      "year": 2020,
+      "kind": "同行评审论文 / 公开实现",
+      "title": "On Mixed-Integer Programming Formulations for the Unit Commitment Problem",
+      "url": "https://doi.org/10.1287/ijoc.2019.0944",
+      "note": "学术与真实数据实例上的模型比较，并公开参考实现。"
+    },
+    {
+      "id": "gridMetaReview2021",
+      "year": 2021,
+      "kind": "同行评审综述 / 研究边界",
+      "title": "Metaheuristic search in smart grid: a review with emphasis on planning, scheduling and power flow optimization applications",
+      "url": "https://doi.org/10.1016/j.rser.2021.111072",
+      "note": "指出共同基准和复杂度分析在该领域文献中的不足。"
+    },
+    {
+      "id": "nasaEosStudy2004",
+      "year": 2004,
+      "kind": "NASA 技术论文 / 方法比较",
+      "title": "A Comparison of Techniques for Scheduling Fleets of Earth-Observing Satellites",
+      "url": "https://ntrs.nasa.gov/citations/20040012627",
+      "note": "在现实规模地球观测任务模型上比较多种启发式与演化方法。"
+    },
+    {
+      "id": "nasaJavaGenes",
+      "kind": "NASA 软件目录",
+      "title": "JavaGenes-Scheduler: Evolutionary Software for Earth Observing Satellite Scheduling",
+      "url": "https://software.nasa.gov/software/ARC-15103-1",
+      "note": "NASA 软件目录中的演化排程软件条目；目录收录不等于在轨部署。"
+    },
+    {
+      "id": "st5Mission",
+      "year": 2006,
+      "kind": "NASA 任务记录",
+      "title": "NASA's Micro-Satellites Complete Technology Validation Mission",
+      "url": "https://www.nasa.gov/news-release/nasas-micro-satellites-complete-technology-validation-mission/",
+      "note": "NASA 任务记录说明 ST5 微卫星任务和计算优化/进化天线。"
+    },
+    {
+      "id": "uspexNaCl2013",
+      "year": 2013,
+      "kind": "Science 论文 / 计算预测与实验",
+      "title": "Unexpected stable stoichiometries of sodium chlorides",
+      "url": "https://doi.org/10.1126/science.1244989",
+      "note": "理论预测并合成、表征 NaCl3 与 Na3Cl。"
+    },
+    {
+      "id": "termesScience2014",
+      "year": 2014,
+      "kind": "Science 论文 / 实物原型",
+      "title": "Collective construction by termite-inspired robots",
+      "url": "https://doi.org/10.1126/science.1245842",
+      "note": "TERMES 分布式机器人建造系统的同行评审论文。"
+    },
+    {
+      "id": "termesHarvard",
+      "year": 2014,
+      "kind": "实验室项目记录",
+      "title": "Robotic construction crew needs no foreman",
+      "url": "https://wyss.harvard.edu/robotic-construction-crew-needs-no-foreman/",
+      "note": "Harvard Wyss/SEAS 项目说明；支持硬件演示范围。"
+    },
+    {
+      "id": "alphaEvolveDeepmind",
+      "year": 2025,
+      "kind": "研究团队技术博客",
+      "title": "AlphaEvolve: A coding agent for scientific and algorithmic discovery",
+      "url": "https://deepmind.google/blog/alphaevolve-a-gemini-powered-coding-agent-for-designing-advanced-algorithms/",
+      "note": "Google DeepMind 报告内部数据中心调度与计算基础设施应用。"
+    },
+    {
+      "id": "alphaEvolveImpact",
+      "year": 2026,
+      "kind": "研究团队技术博客 / 后续影响",
+      "title": "AlphaEvolve: scaling impact across fields",
+      "url": "https://deepmind.google/blog/alphaevolve-impact/",
+      "note": "Google DeepMind 2026 后续报告 DNA 测序模型等扩展案例。"
+    },
+    {
+      "id": "waterAco2007",
+      "year": 2007,
+      "kind": "同行评审论文 / 水网基准比较",
+      "title": "Ant Colony Optimization Applied to Water Distribution System Design: Comparative Study of Five Algorithms",
+      "url": "https://doi.org/10.1061/(ASCE)0733-9496(2007)133:1(87)",
+      "note": "比较五种 ACO 方法及既有管网设计案例。"
+    },
+    {
+      "id": "waterFieldCase2012",
+      "year": 2012,
+      "kind": "行业案例研究",
+      "title": "Field Application of Least Cost Design Model on Water Distribution Systems using Ant Colony Optimization Algorithm",
+      "url": "https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE10002400",
+      "note": "研究报告将模型用于真实水处理厂网络；具体运行成效需原文和运营方资料进一步核对。"
+    },
+    {
+      "id": "portfolioBacktestReview2021",
+      "year": 2021,
+      "kind": "同行评审综述 / 回测边界",
+      "title": "A review of machine learning experiments in equity investment decision-making: why most published research findings do not live up to their promise in real life",
+      "url": "https://doi.org/10.1007/s41060-021-00245-5",
+      "note": "用于提示投资回测与真实交易之间的差别；不限于群智能算法。"
+    },
+    {
+      "id": "nurseSoftwareBlog",
+      "kind": "专门排班软件团队博客",
+      "title": "Simulated Annealing: how an optimized roster is born",
+      "url": "https://www.aliseoes.it/en/blog/simulated-annealing-nurse-rostering/",
+      "note": "由参与医疗排班软件研发的团队撰写，用于解释行业问题与 SA；属于实践方说明，不替代同行评审论文。"
+    },
+    {
+      "id": "portfolioSurvey2026",
+      "year": 2026,
+      "kind": "同行评审综述",
+      "title": "Swarm and evolutionary computation for investment portfolio optimization: A comprehensive survey",
+      "url": "https://doi.org/10.1016/j.swevo.2026.102443",
+      "note": "2026 年综述梳理组合模型、约束、目标与群智能/进化方法；指出多于四个目标及现实约束的研究仍有限。综述不是盈利验证。"
+    },
+    {
+      "id": "hguTeam2018",
+      "year": 2018,
+      "kind": "大学官方团队页面",
+      "title": "河北地质大学信息工程学院：大数据与计算智能研究团队",
+      "url": "https://xxgc.hgu.edu.cn/xkjianshe/kytd.htm",
+      "note": "校方页面记录团队主要负责人贺毅朝及当时研究方向/团队构成；页面发布于 2018 年，不能据此推断团队当前人数或排名。"
+    },
+    {
+      "id": "trafficReview2026",
+      "year": 2026,
+      "kind": "同行评审系统综述",
+      "title": "A systematic review of evolutionary and swarm intelligence approaches for traffic signal control optimization",
+      "url": "https://doi.org/10.1007/s10462-026-11497-7",
+      "note": "PRISMA 综述覆盖 2015–2025 年 50 篇同行评审论文；强调跨场景基准、统计比较与部署研究仍需加强。"
+    },
+    {
+      "id": "evoTSC2020",
+      "year": 2020,
+      "kind": "同行评审原始研究 / 仿真",
+      "title": "EvoTSC: An evolutionary computation-based traffic signal controller for large-scale urban transportation networks",
+      "url": "https://doi.org/10.1016/j.asoc.2020.106640",
+      "note": "系统用自适应差分进化优化信号配时、用蚁群方法协助交通分配；在合成和真实网络模型上测试，不是城市道路部署记录。"
+    },
+    {
+      "id": "trafficGp2024",
+      "year": 2024,
+      "kind": "同行评审原始研究 / 可解释规则",
+      "title": "Towards explainable traffic signal control for urban networks through genetic programming",
+      "url": "https://doi.org/10.1016/j.swevo.2024.101588",
+      "note": "遗传编程自动生成路口信号相位切换规则，并在合成网格与柏林真实道路网络模型上做实验；模型实验不等于现场运行。"
+    },
+    {
+      "id": "cABC2026",
+      "year": 2026,
+      "kind": "同行评审原始研究 / UFLP 基准",
+      "title": "A continuous artificial bee colony algorithm for solving uncapacitated facility location problems",
+      "url": "https://doi.org/10.1038/s41598-026-37792-5",
+      "note": "Scientific Reports 2026；在 CAP（15 个实例）与 M*（20 个实例）上比较 11 种方法，作者报告优于或至少具有竞争力，并指出部分难例仍需改进。"
+    },
+    {
+      "id": "psoSurvey2026",
+      "year": 2026,
+      "kind": "同行评审综述",
+      "title": "Particle swarm optimization: A survey of innovations over the last 10 years",
+      "url": "https://doi.org/10.1016/j.cosrev.2026.100910",
+      "note": "Computer Science Review 2026 综述 PSO 近十年改进与混合路线；这是研究整理，不是单一新算法或独立性能排名。"
     }
   ],
   "readingGuide": [
@@ -21304,7 +21956,9 @@
       "refs": [
         "power2024",
         "tidalFarmReview2024",
-        "waveEnergyReview2022"
+        "waveEnergyReview2022",
+        "ucMip2020",
+        "gridMetaReview2021"
       ],
       "count": 11,
       "entries": [
@@ -21567,7 +22221,9 @@
       "refs": [
         "vrpSwarmSurvey2024",
         "cvrpxl2026",
-        "cvrplib"
+        "cvrplib",
+        "antvrp2007",
+        "hgs2020"
       ],
       "count": 7,
       "entries": [
@@ -21749,7 +22405,9 @@
       "evidence": "2024 年制造调度综述结合元启发式与强化学习视角，覆盖车间、机器分配、工序序列和多种评价指标。",
       "boundary": "仿真排程的改善不自动等于工厂效率提升；真实班次、故障、换线、物料到货与人因约束会改变可行性。",
       "refs": [
-        "manufacturingMhRlReview2024"
+        "manufacturingMhRlReview2024",
+        "nowicki1996",
+        "tsabDeconstruction2005"
       ],
       "count": 9,
       "entries": [
@@ -21880,7 +22538,8 @@
       "boundary": "医疗问题对数据质量、隐私、可解释性和患者安全要求很高；基准集上的搜索结果不构成临床有效性或治疗建议。",
       "refs": [
         "healthcareMhReview2024",
-        "evolutionaryFeatureSelection2024"
+        "evolutionaryFeatureSelection2024",
+        "alphaEvolveImpact"
       ],
       "count": 9,
       "entries": [
@@ -22196,7 +22855,9 @@
       "refs": [
         "satelliteSchedulingSurvey2025",
         "largeScaleSatelliteReview2025",
-        "weaponTargetAssignmentSurvey2024"
+        "weaponTargetAssignmentSurvey2024",
+        "nasaEosStudy2004",
+        "nasaFlight2010"
       ],
       "count": 8,
       "entries": [
@@ -22316,7 +22977,9 @@
         "groundwaterInversionReview2024",
         "evacuationSwarmReview2025",
         "waterManagementReview2022",
-        "wastewaterOptimizationReview2026"
+        "wastewaterOptimizationReview2026",
+        "waterAco2007",
+        "waterFieldCase2012"
       ],
       "count": 5,
       "entries": [
@@ -22394,7 +23057,8 @@
       "evidence": "2023 年综述回顾了 1993—2023 年 140 余篇使用进化与群智能算法做投资组合优化的论文，并按约束与单/多目标问题归类。",
       "boundary": "历史样本上的最优组合不保证未来收益；交易成本、风险度量、数据泄漏和滚动测试会改变结论。投资组合综述不能覆盖信贷、期权或所有经济模型。",
       "refs": [
-        "portfolioMetaReview2023"
+        "portfolioMetaReview2023",
+        "portfolioBacktestReview2021"
       ],
       "count": 6,
       "entries": [
@@ -22672,7 +23336,9 @@
       "refs": [
         "paramils2009",
         "automatedMhDesignSurvey2023",
-        "hyper2024"
+        "hyper2024",
+        "alphaEvolveDeepmind",
+        "alphaEvolveImpact"
       ],
       "count": 4,
       "entries": [
@@ -22786,6 +23452,37 @@
         "paramils2009",
         "hyper2024"
       ]
+    },
+    {
+      "title": "怎样判断研究成果真正走到了现实？",
+      "summary": "按证据区分公开基准、真实数据案例、决策支持原型、实际生产、飞行验证与实验合成；每一级能证明的事情不同。",
+      "refs": [
+        "nurseDss2008",
+        "antvrp2007",
+        "nasaFlight2010",
+        "alphaEvolveImpact",
+        "uspexNaCl2013"
+      ]
+    },
+    {
+      "title": "新算法有没有和强基线公平比较？",
+      "summary": "核对同一实例、硬件、时间/评价预算、可行性规则和统计方式；再把单篇论文的改进与精确下界、公开最好解或成熟专用求解器交叉对照。",
+      "refs": [
+        "hgs2020",
+        "abpea2023",
+        "egtoa2023",
+        "cocoPaper",
+        "qaplibOfficial"
+      ]
+    },
+    {
+      "title": "如何阅读 2026 年方法综述和领域研究",
+      "summary": "先辨认综述的检索范围与纳入标准，再回到原始论文核对算法、基准、预算和作者所承认的限制。2026 年 PSO、投资组合与交通信号综述分别覆盖不同问题，不能彼此替代，也不能从综述年份推导算法诞生年份。",
+      "refs": [
+        "psoSurvey2026",
+        "portfolioSurvey2026",
+        "trafficReview2026"
+      ]
     }
   ],
   "relations": [
@@ -22865,6 +23562,111 @@
       "refs": [
         "uncertainty2005",
         "jinSurrogate2005"
+      ]
+    },
+    {
+      "source": "aco96",
+      "target": "water-aco07",
+      "kind": "领域应用",
+      "summary": "蚁群构造搜索进入水网管径与水力设计案例。",
+      "refs": [
+        "waterAco2007"
+      ]
+    },
+    {
+      "source": "aco96",
+      "target": "nurse-stikland07",
+      "kind": "研究对象并行发展",
+      "summary": "同一时期的元启发式分别服务离散网络设计和医院排班，问题结构决定邻域与约束处理。",
+      "refs": [
+        "nurseDss2008"
+      ]
+    },
+    {
+      "source": "uspex06",
+      "target": "uspex-nacl13",
+      "kind": "科学验证",
+      "summary": "演化晶体结构预测接入高压实验，部分钠氯候选被合成和表征。",
+      "refs": [
+        "uspexNaCl2013"
+      ]
+    },
+    {
+      "source": "robotics13",
+      "target": "termes14",
+      "kind": "硬件原型",
+      "summary": "群体机器人综述脉络与可运行的集体建造系统相连。",
+      "refs": [
+        "termesScience2014"
+      ]
+    },
+    {
+      "source": "es73",
+      "target": "st5flight06",
+      "kind": "工程验证",
+      "summary": "进化搜索用于航天器天线形状设计，并完成飞行资格和任务集成。",
+      "refs": [
+        "nasaFlight2010"
+      ]
+    },
+    {
+      "source": "tsplib91",
+      "target": "hgs-cvrp-2020",
+      "kind": "基准演进",
+      "summary": "从路线问题公开实例扩展到大规模多车辆基准与公开最好解维护。",
+      "refs": [
+        "hgs2020",
+        "cvrplib",
+        "cvrpxl2026"
+      ]
+    },
+    {
+      "source": "hyper24",
+      "target": "abpea23",
+      "kind": "自适应搜索组件",
+      "summary": "算子选择与奖励更新在具体设施选址搜索中形成可检验的算法设计。",
+      "refs": [
+        "abpea2023"
+      ]
+    },
+    {
+      "source": "hyper24",
+      "target": "alpha25",
+      "kind": "自动算法设计",
+      "summary": "算法搜索对象从参数、算子扩展到可执行程序，并连接自动评价器。",
+      "refs": [
+        "alphaEvolveDeepmind",
+        "alphaEvolve2025"
+      ]
+    },
+    {
+      "source": "abpea23",
+      "target": "egtoa23",
+      "kind": "同题并行路线",
+      "summary": "UFLP 上的自适应并行遗传搜索与群论表示进化算法分别围绕算子控制和问题结构定制，跨论文结果需要统一预算后才能比较。",
+      "refs": [
+        "abpea2023",
+        "egtoa2023"
+      ]
+    },
+    {
+      "source": "egtoa23",
+      "target": "cabc26",
+      "kind": "同题后续探索",
+      "summary": "2026 年人工蜂群工作继续研究同一选址模型，但采用连续表示、二元转换与修复；其论文实验不可直接与 2023 年结果横向排序。",
+      "refs": [
+        "egtoa2023",
+        "cABC2026"
+      ]
+    },
+    {
+      "source": "traffic-gp24",
+      "target": "traffic-review26",
+      "kind": "领域证据回顾",
+      "summary": "进化生成可解释信号规则的个案，放入 2026 系统综述所整理的跨方法与部署问题中阅读。",
+      "refs": [
+        "trafficGp2024",
+        "trafficReview2026"
       ]
     }
   ],

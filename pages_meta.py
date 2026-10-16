@@ -274,6 +274,12 @@ def _research_map_page(p):
     data = _load("research_map.json")
     data["readingViews"] = _load("research_reading_views.json")
     data["milestoneProfiles"] = {x["node"]:x for x in milestone_data()["profiles"]}
+    impact = _load("research_impact_cases.json")
+    data["impactCases"] = impact["cases"]
+    data["impactEvidenceGuide"] = impact["evidenceGuide"]
+    for source in impact["sources"]:
+        if not any(r["id"] == source["id"] for r in data["references"]):
+            data["references"].append(source)
     for n in data["nodes"]:
         n["apps"] = [data["readingViews"]["applicationAliases"].get(x, x) for x in n.get("apps", [])]
     embedded = json.dumps(data, ensure_ascii=False, separators=(",", ":")).replace("</", "<\\/")
@@ -320,6 +326,7 @@ def _research_map_page(p):
     <button class="rm-tab" role="tab" aria-selected="false" data-view="history">时间地图</button>
     <button class="rm-tab" role="tab" aria-selected="false" data-view="teams">研究团队</button>
     <button class="rm-tab" role="tab" aria-selected="false" data-view="applications">应用问题</button>
+    <button class="rm-tab" role="tab" aria-selected="false" data-view="impact">问题成果</button>
     <button class="rm-tab" role="tab" aria-selected="false" data-view="industry">领域证据</button>
     <button class="rm-tab" role="tab" aria-selected="false" data-view="questions">研究难点</button>
     <button class="rm-tab" role="tab" aria-selected="false" data-view="reviews">综述文献</button>
@@ -327,6 +334,25 @@ def _research_map_page(p):
   </div>
   __MILESTONES_PANEL__
   __ROUTES_PANEL__
+  <section class="rm-panel" id="rm-view-impact" role="tabpanel" hidden>
+    <link rel="stylesheet" href="../../css/research_impact.css?v=impact-20261016a">
+    <div class="ri-intro">
+      <div><span class="ri-eyebrow">PROBLEMS / METHODS / REAL-WORLD EVIDENCE</span>
+        <h2>算法究竟为哪些问题带来了什么？</h2>
+        <p>从问题结构读代表方法，从论文结果读进步，再追到基准、项目或实物证据。筛选案例看物流、制造、能源、科学发现、航天与其他方向。</p></div>
+      <div class="ri-principles"><span><b>先看问题</b>同一个算法在不同约束下表现不同</span><span><b>再看强基线</b>公开实例、预算与精确界必须可对照</span><span><b>最后看证据</b>模型、原型、生产和飞行各能说明不同事情</span></div>
+    </div>
+    <div class="ri-controls">
+      <label>问题领域 <select id="rm-impact-field"><option value="">全部领域</option></select></label>
+      <label>证据层级 <select id="rm-impact-evidence"><option value="">全部证据</option></select></label>
+      <label class="ri-search">搜索 <input id="rm-impact-search" type="search" placeholder="问题、算法、团队、基准或应用"></label>
+      <button type="button" id="rm-impact-reset">重置筛选</button>
+      <span id="rm-impact-count" role="status" aria-live="polite"></span>
+    </div>
+    <p class="ri-scope">这是精选研究案例，不是算法总排名或全部应用清单。若来源报告的是仿真、基准或供应商案例，卡片会保留它的证据范围。</p>
+    <div class="ri-grid" id="rm-impact-cases"></div>
+    <p id="rm-impact-empty" class="ri-empty" hidden>没有匹配的案例，试试缩短关键词或重置筛选。</p>
+  </section>
   <section class="rm-panel" id="rm-view-history" role="tabpanel" hidden>
     <div class="rm-controls">
       <label>查找节点 <input id="rm-search" type="search" placeholder="试试：物流、群机器人、基准、LLM"></label>
@@ -493,6 +519,44 @@ def _research_map_page(p):
       return '<article class="rm-card" id="rm-industry-'+esc(x.id)+'"><h3>'+esc(x.name)+' <span class="hint">'+x.count+' 个站内条目</span></h3><p>'+esc(x.overview)+'</p><p><b>外部研究看到：</b>'+esc(x.evidence)+'</p><p class="rm-boundary"><b>阅读时留意：</b>'+esc(x.boundary)+'</p><div class="rm-links rm-citations"><b>代表性外部来源</b><br>'+sources+'</div><details class="rm-entry-list"><summary>查看此领域的 '+x.count+' 个站内应用条目</summary><ul>'+entries+'</ul></details></article>';
     }).join('');
 
+    function renderImpactCases(){
+      const items=D.impactCases||[], guide=D.impactEvidenceGuide||[];
+      const field=document.getElementById('rm-impact-field'), proof=document.getElementById('rm-impact-evidence');
+      const search=document.getElementById('rm-impact-search'), count=document.getElementById('rm-impact-count');
+      const root=document.getElementById('rm-impact-cases'), empty=document.getElementById('rm-impact-empty');
+      const fields=[...new Map(items.map(x=>[x.field,x.fieldLabel]))];
+      field.innerHTML='<option value="">全部领域</option>'+fields.map(([id,label])=>'<option value="'+esc(id)+'">'+esc(label)+'</option>').join('');
+      proof.innerHTML='<option value="">全部证据</option>'+guide.map(x=>'<option value="'+esc(x.id)+'">'+esc(x.label)+'</option>').join('');
+      const routes=new Map(C.methods.map(x=>[x.id,x.name]));
+      const nodesMap=new Map(D.nodes.map(n=>[n.id,n]));
+      root.innerHTML=items.map(x=>{
+        const algorithms=x.algorithms.map(a=>'<article class="ri-algorithm"><h4>'+esc(a.name)+'</h4><span>'+esc(a.type)+'</span><p>'+esc(a.result)+'</p>'+(routes.has(a.route)?'<button type="button" data-impact-route="'+esc(a.route)+'">沿'+esc(routes.get(a.route))+'路线继续 →</button>':'')+'</article>').join('');
+        const sources=(x.refs||[]).map(id=>refs.get(id)).filter(Boolean).map(r=>'<li>'+link(r)+(r.note?'<p>'+esc(r.note)+'</p>':'')+'</li>').join('');
+        const problems=(x.problemLinks||[]).map(a=>'<a href="'+esc(localHref(a.url))+'">'+esc(a.label)+' ↗</a>').join('');
+        const teamLinks=(x.teamIds||[]).map(id=>teams.get(id)).filter(Boolean).map(t=>'<button type="button" data-impact-team="'+esc(t.id)+'">'+esc(t.name)+'</button>').join('');
+        const nodeLinks=(x.mapNodes||[]).map(id=>nodesMap.get(id)).filter(Boolean).map(n=>'<button type="button" data-impact-node="'+esc(n.id)+'">时间地图：'+esc(n.year)+' · '+esc(n.title)+'</button>').join('');
+        const query=[x.title,x.problem,x.contribution,x.boundary,x.fieldLabel,...x.searchTerms.split(' '),...x.algorithms.map(a=>a.name+' '+a.type+' '+a.result),...x.refs.map(id=>refs.get(id)?.title||'')].join(' ').toLocaleLowerCase();
+        return '<article class="ri-card" id="impact-'+esc(x.id)+'" data-impact-case data-field="'+esc(x.field)+'" data-evidence="'+esc(x.evidence)+'" data-query="'+esc(query)+'"><div class="ri-card-head"><span>'+esc(x.year)+' · '+esc(x.fieldLabel)+'</span><b data-proof="'+esc(x.evidence)+'">'+esc(x.evidenceLabel)+'</b></div><h3>'+esc(x.title)+'</h3><p class="ri-problem"><b>问题是什么</b>'+esc(x.problem)+'</p><div class="ri-methods"><h4>代表方法与研究结果</h4><div class="ri-algorithms">'+algorithms+'</div></div><div class="ri-contribution"><h4>对科学、工程或现实工作的推进</h4><p>'+esc(x.contribution)+'</p></div><p class="ri-boundary"><b>怎样读它的边界：</b>'+esc(x.boundary)+'</p><div class="ri-paths">'+(problems?'<div><span>问题模型</span>'+problems+'</div>':'')+(teamLinks?'<div><span>研究群体</span>'+teamLinks+'</div>':'')+(nodeLinks?'<div><span>干线位置</span>'+nodeLinks+'</div>':'')+'</div><details class="ri-sources"><summary>查看研究依据 · '+x.refs.length+' 项</summary><ol>'+sources+'</ol></details></article>';
+      }).join('');
+      function filter(){
+        const f=field.value,e=proof.value,q=search.value.trim().toLocaleLowerCase();let shown=0;
+        root.querySelectorAll('[data-impact-case]').forEach(card=>{
+          const visible=(!f||card.dataset.field===f)&&(!e||card.dataset.evidence===e)&&(!q||card.dataset.query.includes(q));
+          card.hidden=!visible;if(visible)shown++;
+        });
+        count.textContent=shown+' / '+items.length+' 个案例';empty.hidden=shown>0;
+      }
+      field.addEventListener('change',filter);proof.addEventListener('change',filter);search.addEventListener('input',filter);
+      document.getElementById('rm-impact-reset').addEventListener('click',()=>{field.value='';proof.value='';search.value='';filter();});
+      root.addEventListener('click',e=>{
+        const node=e.target.closest('[data-impact-node]'),team=e.target.closest('[data-impact-team]'),route=e.target.closest('[data-impact-route]');
+        if(node)jumpNode(node.dataset.impactNode);
+        else if(team)openCard('teams','rm-team-'+team.dataset.impactTeam);
+        else if(route){document.querySelector('.rm-tab[data-view="routes"]').click();requestAnimationFrame(()=>document.querySelector('#rr-route-nav [data-reader-route="'+route.dataset.impactRoute+'"]')?.click());}
+      });
+      filter();
+    }
+
     function jumpNode(id){if(!V.select(D,C,state).nodes.some(n=>n.id===id))state=V.defaults(D);selected=id;state.details=true;update();openCard('history','rm-detail');}
     function relationCard(e){const a=nodes.get(e.source),b=nodes.get(e.target);return '<article class="rm-card"><p class="hint">'+esc(e.kind)+'</p><h3><button class="rm-tag" data-related="'+esc(e.source)+'">'+esc(a.title)+'</button> ↔ <button class="rm-tag" data-related="'+esc(e.target)+'">'+esc(b.title)+'</button></h3><p>'+esc(e.summary)+'</p><div class="rm-links rm-citations">'+e.refs.map(id=>refs.get(id)).filter(Boolean).map(link).join('<br>')+'</div></article>';}
     document.getElementById('rm-questions').innerHTML=D.researchQuestions.map(q=>'<article class="rm-card"><h3>'+esc(q.title)+'</h3><p>'+esc(q.summary)+'</p><div class="rm-links rm-citations">'+q.refs.map(id=>refs.get(id)).filter(Boolean).map(link).join('<br>')+'</div></article>').join('');
@@ -507,7 +571,7 @@ def _research_map_page(p):
     document.getElementById('rm-search').addEventListener('input',e=>{state.query=e.target.value.trim();update();});
     document.getElementById('rm-visible-relations').addEventListener('click',e=>{const b=e.target.closest('[data-related]');if(b)jumpNode(b.dataset.related);});
     document.querySelectorAll('.rm-tab').forEach(b=>b.addEventListener('click',()=>{document.querySelectorAll('.rm-tab').forEach(x=>{const on=x===b;x.classList.toggle('is-active',on);x.setAttribute('aria-selected',on?'true':'false');});document.querySelectorAll('.rm-panel').forEach(x=>x.hidden=x.id!==`rm-view-${b.dataset.view}`);document.querySelector('.rm-reader-bar').hidden=b.dataset.view!=='history';}));
-    renderCards();update();
+    renderCards();renderImpactCases();update();
   })();
   </script>
 """.replace("__RESEARCH_MAP_DATA__", embedded).replace("__META_CHIPS__", _meta_chips(cur="research-map")).replace("__REVIEW_PANEL__", render_review_panel()).replace("__ROUTES_PANEL__", render_routes_panel()).replace("__MILESTONES_PANEL__", render_milestones_panel())
