@@ -7,35 +7,41 @@
       "name": "进化策略 ES",
       "nodes": [
         "es73",
-        "cma01"
+        "cma01",
+        "route-les"
       ]
     },
     {
       "id": "ga",
       "name": "遗传算法 GA",
       "nodes": [
-        "holland75"
+        "holland75",
+        "route-ga-brkga"
       ]
     },
     {
       "id": "sa",
       "name": "模拟退火 SA",
       "nodes": [
-        "sa83"
+        "sa83",
+        "route-local-learning"
       ]
     },
     {
       "id": "ts",
       "name": "禁忌搜索 TS",
       "nodes": [
-        "tabu86"
+        "tabu86",
+        "route-local-learning",
+        "route-tabu-learning"
       ]
     },
     {
       "id": "grasp",
       "name": "GRASP",
       "nodes": [
-        "grasp95"
+        "grasp95",
+        "route-grasp-review"
       ]
     },
     {
@@ -43,35 +49,43 @@
       "name": "粒子群 PSO",
       "nodes": [
         "pso95",
-        "calypso10"
+        "calypso10",
+        "route-pso2026"
       ]
     },
     {
       "id": "aco",
       "name": "蚁群 ACO",
       "nodes": [
-        "aco96"
+        "aco96",
+        "route-deepaco",
+        "route-gfacs",
+        "route-aco-gp",
+        "route-aco-pheromone"
       ]
     },
     {
       "id": "eda",
       "name": "分布估计 EDA",
       "nodes": [
-        "eda96"
+        "eda96",
+        "route-eda-ml"
       ]
     },
     {
       "id": "de",
       "name": "差分进化 DE",
       "nodes": [
-        "de97"
+        "de97",
+        "route-de-operators"
       ]
     },
     {
       "id": "vns",
       "name": "变邻域 VNS",
       "nodes": [
-        "vns97"
+        "vns97",
+        "route-vns-review"
       ]
     },
     {
@@ -80,7 +94,8 @@
       "nodes": [
         "lns98",
         "alns06",
-        "turkes21"
+        "turkes21",
+        "route-alns-operators"
       ]
     },
     {
@@ -88,7 +103,10 @@
       "name": "CMA-ES",
       "nodes": [
         "cma01",
-        "coco21"
+        "coco21",
+        "route-cma-margin",
+        "route-cma-extended",
+        "route-cma2026"
       ]
     },
     {
@@ -97,7 +115,9 @@
       "nodes": [
         "neat02",
         "sims94",
-        "erl18"
+        "erl18",
+        "route-neuro-review",
+        "route-neuro-2025"
       ]
     },
     {
@@ -105,35 +125,42 @@
       "name": "多目标 NSGA-II / MOEA/D",
       "nodes": [
         "nsga02",
-        "moead07"
+        "moead07",
+        "route-moo-constraints",
+        "route-moo-preferences"
       ]
     },
     {
       "id": "abc",
       "name": "人工蜂群 ABC",
       "nodes": [
-        "abc07"
+        "abc07",
+        "route-abc-review"
       ]
     },
     {
       "id": "surrogate",
       "name": "代理辅助搜索",
       "nodes": [
-        "surrogate05"
+        "surrogate05",
+        "route-surrogate-review",
+        "route-surrogate-discrete"
       ]
     },
     {
       "id": "qd",
       "name": "质量多样性",
       "nodes": [
-        "qd16"
+        "qd16",
+        "route-qd-review"
       ]
     },
     {
       "id": "multitask",
       "name": "演化多任务",
       "nodes": [
-        "multitask16"
+        "multitask16",
+        "route-multitask2025"
       ]
     },
     {
@@ -144,14 +171,16 @@
         "smac11",
         "hyper24",
         "alpha25",
-        "llm26"
+        "llm26",
+        "route-metabbo-review"
       ]
     },
     {
       "id": "uspex",
       "name": "USPEX 结构搜索",
       "nodes": [
-        "uspex06"
+        "uspex06",
+        "route-csp-ml-review"
       ]
     }
   ],

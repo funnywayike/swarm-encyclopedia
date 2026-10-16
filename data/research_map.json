@@ -853,6 +853,21 @@
       ]
     },
     {
+      "id": "route-cma-margin",
+      "year": 2022,
+      "lane": "evo",
+      "title": "CMA-ES with Margin：混合整数搜索",
+      "kind": "原始研究",
+      "summary": "Margin路线对整数值的边际采样概率设下界，避免简单离散化后过早停滞；扩展版进入混合整数多目标。2026综述再按改进与混合机制整理适用条件。",
+      "contribution": "混合整数变量离散化可能停滞，以边际采样概率下界处理；原始与扩展版不计为独立复现。",
+      "boundary": "综述年份不是方法起源年份。整数、噪声、可行性和昂贵评估需要分别验证。原始Margin与扩展版共享方法和作者；某类混合在特定基准获益，不代表所有任务均能获益。",
+      "refs": [
+        "r26-cma-margin"
+      ],
+      "teams": [],
+      "apps": []
+    },
+    {
       "id": "isa23",
       "year": 2023,
       "lane": "design",
@@ -888,6 +903,66 @@
       "apps": [
         "robot"
       ]
+    },
+    {
+      "id": "route-deepaco",
+      "year": 2023,
+      "lane": "si",
+      "title": "DeepACO：学习启发信息",
+      "kind": "原始研究",
+      "summary": "DeepACO学习启发式信息；GFACS结合GFlowNet先验与蚁群式搜索；GP-ACO学习状态转移规则，PL-NACO学习信息素增量。这些是不同机制的近期实例。",
+      "contribution": "学习启发式信息，保留ACO搜索框架；未在本站复现其训练与比较。",
+      "boundary": "综述年份不是方法起源年份。比较需要计入训练成本、实例分布和局部搜索。GP-ACO的TSP实验不能直接推广至全部组合问题，其他论文的有限基准也不构成全面优胜证明。",
+      "refs": [
+        "r26-deepaco"
+      ],
+      "teams": [],
+      "apps": []
+    },
+    {
+      "id": "route-les",
+      "year": 2023,
+      "lane": "evo",
+      "title": "学习演化策略：更新规则也能被学习",
+      "kind": "原始研究",
+      "summary": "LES把更新规则参数化并进行外层元优化。这里重点追踪“怎样更新搜索分布”，并区分基础优化器和训练它的外层过程；不能把所有神经网络训练都叫ES。",
+      "contribution": "学习ES的更新规则；训练分布外的推广仅按论文验证范围理解。",
+      "boundary": "综述年份不是方法起源年份。学到的规则受训练任务分布影响。比较时应同时说明外层训练成本、目标函数评估预算和未见任务表现；连续ES的结论不能直接覆盖所有离散问题。",
+      "refs": [
+        "r26-les"
+      ],
+      "teams": [],
+      "apps": []
+    },
+    {
+      "id": "route-neuro-review",
+      "year": 2023,
+      "lane": "evo",
+      "title": "Evolutionary Reinforcement Learning: A Survey",
+      "kind": "专题综述",
+      "summary": "2023/2025综述将演化与强化学习的结合按功能整理；2026 ENAS综述聚焦网络架构。架构、策略与学习配置分别讨论，避免混成一个“神经进化算法”。",
+      "contribution": "按策略搜索、探索、奖励与元学习等联系进化计算与强化学习，不将其等同NEAT。",
+      "boundary": "综述年份不是方法起源年份。环境交互、网络训练和种群评估都要计入成本。某个控制任务或架构搜索样本集上的优势，不能直接推广到通用智能或全部强化学习。",
+      "refs": [
+        "r26-neuro-review"
+      ],
+      "teams": [],
+      "apps": []
+    },
+    {
+      "id": "route-vns-review",
+      "year": 2023,
+      "lane": "or",
+      "title": "变邻域、变表述与数学启发式",
+      "kind": "近期综述",
+      "summary": "2023回顾把VNS、变量模型空间与less-is-more思想联系起来：有时改变问题表达或简化设计，比增加更多算子更值得研究。它们仍是有区别的框架。",
+      "contribution": "回顾VNS，并区分模型空间切换与less-is-more视角；没有据此认定所有变体都更好。",
+      "boundary": "综述年份不是方法起源年份。邻域有效性依赖约束、表示和局部改进成本。综述举出的应用不能证明某种切换规则对全部路由、选址与排程都有效。",
+      "refs": [
+        "r26-vns-review"
+      ],
+      "teams": [],
+      "apps": []
     },
     {
       "id": "appbib24",
@@ -966,6 +1041,96 @@
       ]
     },
     {
+      "id": "route-cma-extended",
+      "year": 2024,
+      "lane": "evo",
+      "title": "混合整数CMA-ES：扩展研究",
+      "kind": "原始研究",
+      "summary": "Margin路线对整数值的边际采样概率设下界，避免简单离散化后过早停滞；扩展版进入混合整数多目标。2026综述再按改进与混合机制整理适用条件。",
+      "contribution": "扩展版包含单目标与双目标混合整数实验；不是所有离散或多目标问题的通用保证。",
+      "boundary": "综述年份不是方法起源年份。整数、噪声、可行性和昂贵评估需要分别验证。原始Margin与扩展版共享方法和作者；某类混合在特定基准获益，不代表所有任务均能获益。",
+      "refs": [
+        "r26-cma-extended"
+      ],
+      "teams": [],
+      "apps": []
+    },
+    {
+      "id": "route-csp-ml-review",
+      "year": 2024,
+      "lane": "evo",
+      "title": "晶体结构预测：机器学习领域对照",
+      "kind": "领域综述",
+      "summary": "材料综述将结构表征、快速筛选、机器学习力场与生成模型分别讨论。它们有的加速已有搜索流程，有的改变候选生成；不能全部称为USPEX的新版本。",
+      "contribution": "区分全局搜索、局部弛豫、能量代理和生成模型；预测低能结构不等于实验材料发现。",
+      "boundary": "综述年份不是方法起源年份。代理训练覆盖、物理约束、局部弛豫和真实验证仍重要。跨晶体预测工具的进展不自动证明某个软件在所有材料体系上更好。",
+      "refs": [
+        "r26-csp-ml-review"
+      ],
+      "teams": [],
+      "apps": []
+    },
+    {
+      "id": "route-eda-ml",
+      "year": 2024,
+      "lane": "evo",
+      "title": "EDA与机器学习：任务与模型回顾",
+      "kind": "专题综述",
+      "summary": "2024综述整理EDA在学习模型结构、变量选择和参数搜索中的作用；离散优化理论综述则研究特定EDA的运行性质。应用综述与理论结论回答不同问题。",
+      "contribution": "整理EDA用于学习模型结构和参数；EDA优化机器学习与机器学习辅助EDA是不同关系。",
+      "boundary": "综述年份不是方法起源年份。样本少、变量依赖复杂或模型过强时，概率学习和采样可能代价高昂。特定离散模型的理论界不能直接外推至全部连续或学习应用。",
+      "refs": [
+        "r26-eda-ml"
+      ],
+      "teams": [],
+      "apps": []
+    },
+    {
+      "id": "route-local-learning",
+      "year": 2024,
+      "lane": "or",
+      "title": "局部搜索与机器学习：专题回顾",
+      "kind": "近期综述",
+      "summary": "局部搜索混合综述核查了用模型辅助初始化、近似评价、早停和降温控制等方式。它们改动的是搜索中的具体环节，不是发现一个替代所有退火的新公式。",
+      "contribution": "核对初始化、代理、控制及在线/离线训练；通用分类不等于跨任务性能保证。",
+      "boundary": "综述年份不是方法起源年份。离线训练和运行中学习的代价不同。应分别比较温度控制、初始解、代理与局部邻域的贡献；单个领域的混合收益不能推出SA在所有问题上变强。",
+      "refs": [
+        "r26-local-learning"
+      ],
+      "teams": [],
+      "apps": []
+    },
+    {
+      "id": "route-moo-constraints",
+      "year": 2024,
+      "lane": "evo",
+      "title": "约束多目标：可行性与解集",
+      "kind": "专题综述",
+      "summary": "2024约束综述分开讨论环境选择与约束处理；2026偏好综述关注兴趣区域、偏好表达与交互负担。更完整的前沿并不自动等于更合适的决策。",
+      "contribution": "区分环境选择与约束处理；可行性、收敛和分布需要同时考虑，不照搬无约束结论。",
+      "boundary": "综述年份不是方法起源年份。需要报告解的可行性、解集分布、指标设置及偏好信息质量。兴趣区域质量和用户交互成本不能由一个全局指标替代。",
+      "refs": [
+        "r26-moo-constraints"
+      ],
+      "teams": [],
+      "apps": []
+    },
+    {
+      "id": "route-surrogate-discrete",
+      "year": 2024,
+      "lane": "design",
+      "title": "离散代理辅助：表征与模型",
+      "kind": "专题综述",
+      "summary": "新综述覆盖单目标与多目标的模型构造和管理；组合优化专题强调离散表示与搜索策略，代理DE又是其中一条方法分支。它们不能互相替代。",
+      "contribution": "组合表示与连续变量不同；模型选择、构建、管理不能省略表示与评估条件。",
+      "boundary": "综述年份不是方法起源年份。需要同时考察模型训练、候选选择、真实评估次数和最终误差。离线数据是否覆盖待解区域，以及不确定性如何处理，决定代理是否可信。",
+      "refs": [
+        "r26-surrogate-discrete"
+      ],
+      "teams": [],
+      "apps": []
+    },
+    {
       "id": "alpha25",
       "year": 2025,
       "lane": "design",
@@ -1001,6 +1166,186 @@
       "apps": []
     },
     {
+      "id": "route-abc-review",
+      "year": 2025,
+      "lane": "si",
+      "title": "人工蜂群：机制、变体与应用回顾",
+      "kind": "近期综述",
+      "summary": "2025通用综述重新梳理改进、混合、多目标和应用；同年的排程专题更细，但不能代表全部ABC研究。两类入口在这里分别标明范围。",
+      "contribution": "综述变体、混合、多目标和应用，同时提出严格测试需要；不采用泛化的普遍优胜表述。",
+      "boundary": "综述年份不是方法起源年份。需说明新设计改变了邻域、选择、侦察还是表示，并与合理调参的基础版本比较。组合或排程上的收益不能直接外推到连续优化。",
+      "refs": [
+        "r26-abc-review"
+      ],
+      "teams": [],
+      "apps": []
+    },
+    {
+      "id": "route-aco-gp",
+      "year": 2025,
+      "lane": "si",
+      "title": "用遗传编程设计ACO转移规则",
+      "kind": "原始研究",
+      "summary": "DeepACO学习启发式信息；GFACS结合GFlowNet先验与蚁群式搜索；GP-ACO学习状态转移规则，PL-NACO学习信息素增量。这些是不同机制的近期实例。",
+      "contribution": "核对学习状态转移规则的范围，实验为TSP；与学习信息素更新区别标明。",
+      "boundary": "综述年份不是方法起源年份。比较需要计入训练成本、实例分布和局部搜索。GP-ACO的TSP实验不能直接推广至全部组合问题，其他论文的有限基准也不构成全面优胜证明。",
+      "refs": [
+        "r26-aco-gp"
+      ],
+      "teams": [],
+      "apps": []
+    },
+    {
+      "id": "route-alns-operators",
+      "year": 2025,
+      "lane": "or",
+      "title": "ALNS破坏与修复算子：VRP综述",
+      "kind": "专题综述",
+      "summary": "通用ALNS综述提供框架视角，2025的VRP专题进一步整理移除和插入算子及比较方法。这帮助辨认相似名称背后的相同动作，也揭示单靠自适应调度的局限。",
+      "contribution": "统一VRP中的移除与插入算子术语并比较；算子排序受模型、实例与比较方法限制。",
+      "boundary": "综述年份不是方法起源年份。VRP算子的比较不能直接推广到全部排程或装箱。应说明约束、初始解、修复失败处理和计算预算，避免把重建成本隐藏在一次迭代里。",
+      "refs": [
+        "r26-alns-operators"
+      ],
+      "teams": [],
+      "apps": []
+    },
+    {
+      "id": "route-de-operators",
+      "year": 2025,
+      "lane": "evo",
+      "title": "DE算子与变体：专题回顾",
+      "kind": "专题综述",
+      "summary": "算子综述分别讨论初始化、变异、交叉与选择；代理辅助DE专题则面向昂贵评价。二者说明研究不只是在改变一个变异公式。",
+      "contribution": "按初始化、变异、交叉和选择整理DE算子；文献趋势不等于统一预算下的性能结论。",
+      "boundary": "综述年份不是方法起源年份。应公开成功历史、种群规模和参数适应机制。昂贵优化、连续单目标、多峰或约束任务的结果不能合成一张无条件的算法总榜。",
+      "refs": [
+        "r26-de-operators"
+      ],
+      "teams": [],
+      "apps": []
+    },
+    {
+      "id": "route-ga-brkga",
+      "year": 2025,
+      "lane": "evo",
+      "title": "随机键遗传算法：综述与混合机制",
+      "kind": "专题综述",
+      "summary": "BRKGA把随机键染色体交给问题解码器，再配合偏置精英重组。2025综述讨论其混合、应用与多样性问题；这是GA的一个分支，不代表整个GA已被它取代。",
+      "contribution": "随机键、偏置精英重组和解码器构成具体GA分支；不把它当成所有GA的统一实现。",
+      "boundary": "综述年份不是方法起源年份。解码器和局部搜索可能承担大量计算，不能把全部收益只归给交叉方式。跨任务比较需要公开编码、解码与改进成本，并保持预算一致。",
+      "refs": [
+        "r26-ga-brkga"
+      ],
+      "teams": [],
+      "apps": []
+    },
+    {
+      "id": "route-gfacs",
+      "year": 2025,
+      "lane": "si",
+      "title": "GFACS：生成先验与蚁群搜索",
+      "kind": "原始研究",
+      "summary": "DeepACO学习启发式信息；GFACS结合GFlowNet先验与蚁群式搜索；GP-ACO学习状态转移规则，PL-NACO学习信息素增量。这些是不同机制的近期实例。",
+      "contribution": "结合学习的多模态先验与蚁群式并行随机搜索；与DeepACO不同，不计为独立性能复现。",
+      "boundary": "综述年份不是方法起源年份。比较需要计入训练成本、实例分布和局部搜索。GP-ACO的TSP实验不能直接推广至全部组合问题，其他论文的有限基准也不构成全面优胜证明。",
+      "refs": [
+        "r26-gfacs"
+      ],
+      "teams": [],
+      "apps": []
+    },
+    {
+      "id": "route-grasp-review",
+      "year": 2025,
+      "lane": "or",
+      "title": "GRASP与路径重连：专题回顾",
+      "kind": "近期综述",
+      "summary": "近期分析综述比较记忆型与随机化的重连设计，并用线性排序和最大割实例研究实现选择。与禁忌、散布搜索、随机键GA的结合也被单独讨论。",
+      "contribution": "讨论GRASP与路径重连；其线性排序和最大割实验不能代表所有组合问题。",
+      "boundary": "综述年份不是方法起源年份。重连方向、候选路径、精英池更新与局部改进影响结果。上述两个模型的比较不能直接推出所有应用中的最优重连策略。",
+      "refs": [
+        "r26-grasp-review"
+      ],
+      "teams": [],
+      "apps": []
+    },
+    {
+      "id": "route-metabbo-review",
+      "year": 2025,
+      "lane": "design",
+      "title": "MetaBBO：学习黑盒优化策略",
+      "kind": "近期综述",
+      "summary": "MetaBBO把基础优化器与外层学习过程区分开来；大模型综述又按模型扮演的角色组织研究。生成代码、预测表现和优化候选并不是同一功能。",
+      "contribution": "区分被设计的基础优化器与外层学习过程，核对优化对象、训练问题和评测平台。",
+      "boundary": "综述年份不是方法起源年份。应计入外层设计与训练成本，说明测试实例是否参与配置。程序可运行不等于求解器可靠；提出的新策略仍需要基准、消融和分布外检验。",
+      "refs": [
+        "r26-metabbo-review"
+      ],
+      "teams": [],
+      "apps": []
+    },
+    {
+      "id": "route-multitask2025",
+      "year": 2025,
+      "lane": "evo",
+      "title": "演化多任务：迁移机制与边界",
+      "kind": "近期综述",
+      "summary": "2025综述整理多因素框架、扩展、理论与任务基准，使研究对象不再只限于一种共享操作。当前阅读重点仍是任务关联与迁移的可解释性。",
+      "contribution": "整理多因素框架、扩展、理论、基准和应用；相关任务间迁移不保证总能受益。",
+      "boundary": "综述年份不是方法起源年份。不相关任务可能互相干扰。应和各任务独立求解比较，并报告总评估预算、任务分布和迁移代价；多任务成功案例不是永远正迁移的证明。",
+      "refs": [
+        "r26-multitask2025"
+      ],
+      "teams": [],
+      "apps": []
+    },
+    {
+      "id": "route-neuro-2025",
+      "year": 2025,
+      "lane": "evo",
+      "title": "进化强化学习：专题回顾",
+      "kind": "专题综述",
+      "summary": "2023/2025综述将演化与强化学习的结合按功能整理；2026 ENAS综述聚焦网络架构。架构、策略与学习配置分别讨论，避免混成一个“神经进化算法”。",
+      "contribution": "讨论演化强化学习的采样效率和复杂度；案例覆盖不表示真实部署已验证。",
+      "boundary": "综述年份不是方法起源年份。环境交互、网络训练和种群评估都要计入成本。某个控制任务或架构搜索样本集上的优势，不能直接推广到通用智能或全部强化学习。",
+      "refs": [
+        "r26-neuro-2025"
+      ],
+      "teams": [],
+      "apps": []
+    },
+    {
+      "id": "route-surrogate-review",
+      "year": 2025,
+      "lane": "design",
+      "title": "代理辅助进化：模型与评价管理",
+      "kind": "近期综述",
+      "summary": "新综述覆盖单目标与多目标的模型构造和管理；组合优化专题强调离散表示与搜索策略，代理DE又是其中一条方法分支。它们不能互相替代。",
+      "contribution": "单目标、多目标、模型构造与管理；昂贵评估的节省需要与模型误差一起判断。",
+      "boundary": "综述年份不是方法起源年份。需要同时考察模型训练、候选选择、真实评估次数和最终误差。离线数据是否覆盖待解区域，以及不确定性如何处理，决定代理是否可信。",
+      "refs": [
+        "r26-surrogate-review"
+      ],
+      "teams": [],
+      "apps": []
+    },
+    {
+      "id": "route-tabu-learning",
+      "year": 2025,
+      "lane": "or",
+      "title": "学习禁忌长度：一项实验研究",
+      "kind": "原始研究",
+      "summary": "2024综述讨论学习与局部搜索的混合；2025研究进一步用搜索动态和实例特征设计禁忌期限。应把具体策略与验证问题一起看。",
+      "contribution": "利用动态搜索属性和实例特征设计禁忌期限；不外推具体改进数值到其他问题。",
+      "boundary": "综述年份不是方法起源年份。训练实例、邻域结构和改善/非改善移动会影响策略。论文中具体改进数值不直接迁移到别的排程、QUBO或路由任务。",
+      "refs": [
+        "r26-tabu-learning"
+      ],
+      "teams": [],
+      "apps": []
+    },
+    {
       "id": "cvrpxl26",
       "year": 2026,
       "lane": "evidence",
@@ -1026,7 +1371,7 @@
       "lane": "design",
       "title": "LLM 辅助算法设计系统综述",
       "kind": "系统综述",
-      "summary": "ACM 综述整理 180 多篇近期论文，将语言模型角色归纳为优化器、预测器、信息提取者和设计者。",
+      "summary": "ACM综述整理近期相关研究，将语言模型角色归纳为优化器、预测器、信息提取者和设计者。",
       "contribution": "说明 LLM 进入算法设计的方式不止是“让模型写一个算法”，也包括调参、筛选信息、预测和设计。",
       "boundary": "这是快速增长的研究前沿，综述描述的类别不代表效果已稳定或可以替代传统优化方法。",
       "refs": [
@@ -1037,6 +1382,81 @@
         "model",
         "engineering"
       ]
+    },
+    {
+      "id": "route-aco-pheromone",
+      "year": 2026,
+      "lane": "si",
+      "title": "PL-NACO：学习信息素增量",
+      "kind": "原始研究",
+      "summary": "DeepACO学习启发式信息；GFACS结合GFlowNet先验与蚁群式搜索；GP-ACO学习状态转移规则，PL-NACO学习信息素增量。这些是不同机制的近期实例。",
+      "contribution": "学习信息素增量，将实例结构和搜索中精英解的信息结合；结果仅在作者验证条件内成立。",
+      "boundary": "综述年份不是方法起源年份。比较需要计入训练成本、实例分布和局部搜索。GP-ACO的TSP实验不能直接推广至全部组合问题，其他论文的有限基准也不构成全面优胜证明。",
+      "refs": [
+        "r26-aco-pheromone"
+      ],
+      "teams": [],
+      "apps": []
+    },
+    {
+      "id": "route-cma2026",
+      "year": 2026,
+      "lane": "evo",
+      "title": "CMA-ES近期综述：条件与扩展",
+      "kind": "近期综述",
+      "summary": "Margin路线对整数值的边际采样概率设下界，避免简单离散化后过早停滞；扩展版进入混合整数多目标。2026综述再按改进与混合机制整理适用条件。",
+      "contribution": "按修改和混合机制讨论条件性收益、规模与参数问题；不把特定场景收益推广到所有基准。",
+      "boundary": "综述年份不是方法起源年份。整数、噪声、可行性和昂贵评估需要分别验证。原始Margin与扩展版共享方法和作者；某类混合在特定基准获益，不代表所有任务均能获益。",
+      "refs": [
+        "r26-cma2026"
+      ],
+      "teams": [],
+      "apps": []
+    },
+    {
+      "id": "route-moo-preferences",
+      "year": 2026,
+      "lane": "evo",
+      "title": "偏好多目标：把关注区域纳入搜索",
+      "kind": "专题综述",
+      "summary": "2024约束综述分开讨论环境选择与约束处理；2026偏好综述关注兴趣区域、偏好表达与交互负担。更完整的前沿并不自动等于更合适的决策。",
+      "contribution": "偏好表达、建模和嵌入引导兴趣区域；结果依赖偏好质量、交互负担和问题特征。",
+      "boundary": "综述年份不是方法起源年份。需要报告解的可行性、解集分布、指标设置及偏好信息质量。兴趣区域质量和用户交互成本不能由一个全局指标替代。",
+      "refs": [
+        "r26-moo-preferences"
+      ],
+      "teams": [],
+      "apps": []
+    },
+    {
+      "id": "route-pso2026",
+      "year": 2026,
+      "lane": "si",
+      "title": "PSO近期综述：书目入口",
+      "kind": "近期综述",
+      "summary": "2022通用综述和2023集合PSO专题提供不同层次的解释；2026十年进展综述是更新入口。集合操作重定义的是表示和更新，不能代表所有离散PSO。",
+      "contribution": "2026更新入口；本轮只核对了摘要预览，主要机制说明同时引用已核读的2022综述。",
+      "boundary": "综述年份不是方法起源年份。稳定、收敛与实际找到好解是不同判断。需明确边界处理、种群通信、变量类型与评估预算；最新综述的题名与摘要预览不算全文核读。",
+      "refs": [
+        "r26-pso2026"
+      ],
+      "teams": [],
+      "apps": []
+    },
+    {
+      "id": "route-qd-review",
+      "year": 2026,
+      "lane": "evo",
+      "title": "质量多样性：机制与开放问题",
+      "kind": "近期综述",
+      "summary": "2026综述按容器、选择与变异梳理改进，并衔接可复用软件、并行和学习结合。需要同时观察覆盖了哪些特征区域，以及每个区域的解质量。",
+      "contribution": "核对从新颖性、MAP-Elites到模块化与学习结合的演变；特征定义、档案成本和不确定性仍有困难。",
+      "boundary": "综述年份不是方法起源年份。特征选得不合适时，档案很大也可能没有实际价值。维数、噪声和档案维护成本仍是问题；行为覆盖不能等同Pareto前沿或多个决策空间极值。",
+      "refs": [
+        "r26-qd-review"
+      ],
+      "teams": [],
+      "apps": []
     },
     {
       "id": "workforce26",
@@ -1531,7 +1951,16 @@
         "type": "journal-article"
       },
       "checked": "2026-10-16",
-      "verification": "书目记录核验；不表示实验复现"
+      "verification": "书目记录核验；不表示实验复现",
+      "readingLevel": "metadata",
+      "readingLocation": "已保存的书目记录；本轮未核读正文",
+      "scopeNote": "当前仅作主题与书目入口；不据此确认量化性能或领域共识。",
+      "authors": [
+        "T. Back",
+        "U. Hammel",
+        "H.-P. Schwefel"
+      ],
+      "journal": "IEEE Transactions on Evolutionary Computation"
     },
     {
       "id": "sa1983",
@@ -2467,7 +2896,16 @@
         "type": "journal-article"
       },
       "checked": "2026-10-16",
-      "verification": "书目记录核验；不表示实验复现"
+      "verification": "书目记录核验；不表示实验复现",
+      "readingLevel": "metadata",
+      "readingLocation": "已保存的书目记录；本轮未核读正文",
+      "scopeNote": "当前仅作主题与书目入口；不据此确认量化性能或领域共识。",
+      "authors": [
+        "Tansel Dokeroglu",
+        "Tayfun Kucukyilmaz",
+        "El-Ghazali Talbi"
+      ],
+      "journal": "Computers &amp; Industrial Engineering"
     },
     {
       "id": "smac2011",
@@ -2547,7 +2985,15 @@
         "type": "journal-article"
       },
       "checked": "2026-10-16",
-      "verification": "书目记录核验；不表示实验复现"
+      "verification": "书目记录核验；不表示实验复现",
+      "readingLevel": "abstract",
+      "readingLocation": "Crossref 提供的论文摘要",
+      "scopeNote": "强调数学规划与启发式的结合；这是早期综述的更新扩展，版本延续不能计作独立重复验证。",
+      "authors": [
+        "Marco Antonio Boschetti",
+        "Vittorio Maniezzo"
+      ],
+      "journal": "Annals of Operations Research"
     },
     {
       "id": "rlco2021",
@@ -2638,7 +3084,17 @@
         "type": "journal-article"
       },
       "checked": "2026-10-16",
-      "verification": "书目记录核验；不表示实验复现"
+      "verification": "书目记录核验；不表示实验复现",
+      "readingLevel": "metadata",
+      "readingLocation": "已保存的书目记录；本轮未核读正文",
+      "scopeNote": "当前仅作主题与书目入口；不据此确认量化性能或领域共识。",
+      "authors": [
+        "Nina Mazyavkina",
+        "Sergey Sviridov",
+        "Sergei Ivanov",
+        "Evgeny Burnaev"
+      ],
+      "journal": "Computers &amp; Operations Research"
     },
     {
       "id": "swarm2021",
@@ -2711,7 +3167,16 @@
         "type": "journal-article"
       },
       "checked": "2026-10-16",
-      "verification": "书目记录核验；不表示实验复现"
+      "verification": "书目记录核验；不表示实验复现",
+      "readingLevel": "metadata",
+      "readingLocation": "已保存的书目记录；本轮未核读正文",
+      "scopeNote": "当前仅作主题与书目入口；不据此确认量化性能或领域共识。",
+      "authors": [
+        "Jun Tang",
+        "Gang Liu",
+        "Qingtao Pan"
+      ],
+      "journal": "IEEE/CAA Journal of Automatica Sinica"
     },
     {
       "id": "iridiaAco",
@@ -2872,7 +3337,18 @@
         "type": "journal-article"
       },
       "checked": "2026-10-16",
-      "verification": "书目记录核验；不表示实验复现"
+      "verification": "书目记录核验；不表示实验复现",
+      "readingLevel": "abstract",
+      "readingLocation": "Springer 摘要",
+      "scopeNote": "从群体工程角度整理设计、建模、验证与运行等问题，并分别讨论工程方法和群体行为。",
+      "readingURL": "https://link.springer.com/article/10.1007/s11721-012-0075-2",
+      "authors": [
+        "Manuele Brambilla",
+        "Eliseo Ferrante",
+        "Mauro Birattari",
+        "Marco Dorigo"
+      ],
+      "journal": "Swarm Intelligence"
     },
     {
       "id": "robotics2023",
@@ -2971,7 +3447,16 @@
         "type": "journal-article"
       },
       "checked": "2026-10-16",
-      "verification": "书目记录核验；不表示实验复现"
+      "verification": "书目记录核验；不表示实验复现",
+      "readingLevel": "abstract",
+      "readingLocation": "Crossref 提供的论文摘要",
+      "scopeNote": "讨论动物群体行为与空中、地面、海洋机器人协同；物理群体的通信和执行问题不能由黑箱优化演示替代。",
+      "authors": [
+        "Haibin Duan",
+        "Mengzhen Huo",
+        "Yanming Fan"
+      ],
+      "journal": "National Science Review"
     },
     {
       "id": "geradVns",
@@ -3223,7 +3708,17 @@
         "type": "journal-article"
       },
       "checked": "2026-10-16",
-      "verification": "书目记录核验；不表示实验复现"
+      "verification": "书目记录核验；不表示实验复现",
+      "readingLevel": "metadata",
+      "readingLocation": "已保存的书目记录；本轮未核读正文",
+      "scopeNote": "当前仅作主题与书目入口；不据此确认量化性能或领域共识。",
+      "authors": [
+        "Joaquín Derrac",
+        "Salvador García",
+        "Daniel Molina",
+        "Francisco Herrera"
+      ],
+      "journal": "Swarm and Evolutionary Computation"
     },
     {
       "id": "swan2015",
@@ -3442,7 +3937,22 @@
         "type": "journal-article"
       },
       "checked": "2026-10-16",
-      "verification": "书目记录核验；不表示实验复现"
+      "verification": "书目记录核验；不表示实验复现",
+      "readingLevel": "metadata",
+      "readingLocation": "已保存的书目记录；本轮未核读正文",
+      "scopeNote": "当前仅作主题与书目入口；不据此确认量化性能或领域共识。",
+      "authors": [
+        "Eneko Osaba",
+        "Esther Villar-Rodriguez",
+        "Javier Del Ser",
+        "Antonio J. Nebro",
+        "Daniel Molina",
+        "Antonio LaTorre",
+        "Ponnuthurai N. Suganthan",
+        "Carlos A. Coello Coello",
+        "Francisco Herrera"
+      ],
+      "journal": "Swarm and Evolutionary Computation"
     },
     {
       "id": "turkes2021",
@@ -3608,7 +4118,15 @@
         "type": "journal-article"
       },
       "checked": "2026-10-16",
-      "verification": "书目记录核验；不表示实验复现"
+      "verification": "书目记录核验；不表示实验复现",
+      "readingLevel": "abstract",
+      "readingLocation": "Crossref 提供的论文摘要",
+      "scopeNote": "通过实例特征空间观察算法的优势区域与基准覆盖；个别测试集排名不能自动外推到全部实例。",
+      "authors": [
+        "Kate Smith-Miles",
+        "Mario Andrés Muñoz"
+      ],
+      "journal": "ACM Computing Surveys"
     },
     {
       "id": "applicationSurvey2024",
@@ -3717,7 +4235,19 @@
         "type": "journal-article"
       },
       "checked": "2026-10-16",
-      "verification": "书目记录核验；不表示实验复现"
+      "verification": "书目记录核验；不表示实验复现",
+      "readingLevel": "metadata",
+      "readingLocation": "已保存的书目记录；本轮未核读正文",
+      "scopeNote": "当前仅作主题与书目入口；不据此确认量化性能或领域共识。",
+      "authors": [
+        "Guanghui Li",
+        "Taihua Zhang",
+        "Chieh-Yuan Tsai",
+        "Liguo Yao",
+        "Yao Lu",
+        "Jiao Tang"
+      ],
+      "journal": "Expert Systems with Applications"
     },
     {
       "id": "acoSchedule2013",
@@ -3778,7 +4308,15 @@
         "type": "journal-article"
       },
       "checked": "2026-10-16",
-      "verification": "书目记录核验；不表示实验复现"
+      "verification": "书目记录核验；不表示实验复现",
+      "readingLevel": "metadata",
+      "readingLocation": "已保存的书目记录；本轮未核读正文",
+      "scopeNote": "当前仅作主题与书目入口；不据此确认量化性能或领域共识。",
+      "authors": [
+        "R.F. Tavares Neto",
+        "M. Godinho Filho"
+      ],
+      "journal": "Engineering Applications of Artificial Intelligence"
     },
     {
       "id": "power2024",
@@ -3901,7 +4439,20 @@
         "type": "journal-article"
       },
       "checked": "2026-10-16",
-      "verification": "书目记录核验；不表示实验复现"
+      "verification": "书目记录核验；不表示实验复现",
+      "readingLevel": "metadata",
+      "readingLocation": "已保存的书目记录；本轮未核读正文",
+      "scopeNote": "当前仅作主题与书目入口；不据此确认量化性能或领域共识。",
+      "authors": [
+        "Gerardo Humberto Valencia-Rivera",
+        "Maria Torcoroma Benavides-Robles",
+        "Alonso Vela Morales",
+        "Ivan Amaya",
+        "Jorge M. Cruz-Duarte",
+        "José Carlos Ortiz-Bayliss",
+        "Juan Gabriel Avina-Cervantes"
+      ],
+      "journal": "Applied Soft Computing"
     },
     {
       "id": "workforce2026",
@@ -3976,7 +4527,16 @@
         "type": "journal-article"
       },
       "checked": "2026-10-16",
-      "verification": "书目记录核验；不表示实验复现"
+      "verification": "书目记录核验；不表示实验复现",
+      "readingLevel": "metadata",
+      "readingLocation": "已保存的书目记录；本轮未核读正文",
+      "scopeNote": "当前仅作主题与书目入口；不据此确认量化性能或领域共识。",
+      "authors": [
+        "Nicolás Cabrera",
+        "Jean-François Cordeau",
+        "Jorge E. Mendoza"
+      ],
+      "journal": "Computers &amp; Operations Research"
     },
     {
       "id": "cvrpxl2026",
@@ -4290,7 +4850,25 @@
         "type": "journal-article"
       },
       "checked": "2026-10-16",
-      "verification": "书目记录核验；不表示实验复现"
+      "verification": "书目记录核验；不表示实验复现",
+      "readingLevel": "abstract",
+      "readingLocation": "Crossref 提供的论文摘要",
+      "scopeNote": "区分大模型作为优化器、预测器、信息提取器、设计者的角色；不能把该综述范围外的研究纳入其统计分母。",
+      "authors": [
+        "Fei Liu",
+        "Yiming Yao",
+        "Ping Guo",
+        "Zhiyuan Yang",
+        "Xi Lin",
+        "Zhe Zhao",
+        "Xialiang Tong",
+        "Kun Mao",
+        "Zhichao Lu",
+        "Zhenkun Wang",
+        "Mingxuan Yuan",
+        "Qingfu Zhang"
+      ],
+      "journal": "ACM Computing Surveys"
     },
     {
       "id": "alphaevolve2025",
@@ -4376,7 +4954,16 @@
         "type": "journal-article"
       },
       "checked": "2026-10-16",
-      "verification": "书目记录核验；不表示实验复现"
+      "verification": "书目记录核验；不表示实验复现",
+      "readingLevel": "metadata",
+      "readingLocation": "已保存的书目记录；本轮未核读正文",
+      "scopeNote": "当前仅作主题与书目入口；不据此确认量化性能或领域共识。",
+      "authors": [
+        "Rafael Martí",
+        "Marc Sevaux",
+        "Kenneth Sörensen"
+      ],
+      "journal": "European Journal of Operational Research"
     },
     {
       "id": "boussaid2013",
@@ -4449,7 +5036,16 @@
         "type": "journal-article"
       },
       "checked": "2026-10-16",
-      "verification": "书目记录核验；不表示实验复现"
+      "verification": "书目记录核验；不表示实验复现",
+      "readingLevel": "metadata",
+      "readingLocation": "已保存的书目记录；本轮未核读正文",
+      "scopeNote": "当前仅作主题与书目入口；不据此确认量化性能或领域共识。",
+      "authors": [
+        "Ilhem Boussaïd",
+        "Julien Lepagnot",
+        "Patrick Siarry"
+      ],
+      "journal": "Information Sciences"
     },
     {
       "id": "rajwar2023",
@@ -4534,7 +5130,17 @@
         "type": "journal-article"
       },
       "checked": "2026-10-16",
-      "verification": "书目记录核验；不表示实验复现"
+      "verification": "书目记录核验；不表示实验复现",
+      "readingLevel": "abstract",
+      "readingLocation": "Springer 摘要",
+      "scopeNote": "大规模算法名称目录和按控制参数分类，提出重复命名与新颖性问题；其收录数量不能当作经典机制数量。",
+      "readingURL": "https://link.springer.com/article/10.1007/s10462-023-10470-y",
+      "authors": [
+        "Kanchan Rajwar",
+        "Kusum Deep",
+        "Swagatam Das"
+      ],
+      "journal": "Artificial Intelligence Review"
     },
     {
       "id": "diku2006",
@@ -4635,7 +5241,17 @@
         "type": "journal-article"
       },
       "checked": "2026-10-16",
-      "verification": "书目记录核验；不表示实验复现"
+      "verification": "书目记录核验；不表示实验复现",
+      "readingLevel": "metadata",
+      "readingLocation": "已保存的书目记录；本轮未核读正文",
+      "scopeNote": "当前仅作主题与书目入口；不据此确认量化性能或领域共识。",
+      "authors": [
+        "Nima Taheri",
+        "Mir Saman Pishvaee",
+        "Hamed Jahani",
+        "Donya Zakeri"
+      ],
+      "journal": "Applied Soft Computing"
     },
     {
       "id": "waterManagementReview2022",
@@ -4717,7 +5333,15 @@
         "type": "journal-article"
       },
       "checked": "2026-10-16",
-      "verification": "书目记录核验；不表示实验复现"
+      "verification": "书目记录核验；不表示实验复现",
+      "readingLevel": "abstract",
+      "readingLocation": "Crossref 提供的论文摘要",
+      "scopeNote": "涉及水资源管理的不确定来水、复杂约束与混合方法；没有据此确认一种算法全面优胜。",
+      "authors": [
+        "Vijendra Kumar",
+        "S. M. Yadav"
+      ],
+      "journal": "Water Supply"
     },
     {
       "id": "vrpSwarmSurvey2024",
@@ -4814,7 +5438,17 @@
         "type": "journal-article"
       },
       "checked": "2026-10-16",
-      "verification": "书目记录核验；不表示实验复现"
+      "verification": "书目记录核验；不表示实验复现",
+      "readingLevel": "metadata",
+      "readingLocation": "已保存的书目记录；本轮未核读正文",
+      "scopeNote": "当前仅作主题与书目入口；不据此确认量化性能或领域共识。",
+      "authors": [
+        "Themistoklis Stamadianos",
+        "Andromachi Taxidou",
+        "Magdalene Marinaki",
+        "Yannis Marinakis"
+      ],
+      "journal": "Operational Research"
     },
     {
       "id": "civilInfrastructureReview2024",
@@ -4889,7 +5523,15 @@
         "type": "journal-article"
       },
       "checked": "2026-10-16",
-      "verification": "书目记录核验；不表示实验复现"
+      "verification": "书目记录核验；不表示实验复现",
+      "readingLevel": "abstract",
+      "readingLocation": "Crossref 提供的论文摘要",
+      "scopeNote": "整理土木基础设施优化应用；领域综述存在不能作为相对所有传统方法全面更优的证明。",
+      "authors": [
+        "Saeedeh Ghaemifard",
+        "Amin Ghannadiasl"
+      ],
+      "journal": "AI in Civil Engineering"
     },
     {
       "id": "manufacturingMhRlReview2024",
@@ -4976,7 +5618,17 @@
         "type": "journal-article"
       },
       "checked": "2026-10-16",
-      "verification": "书目记录核验；不表示实验复现"
+      "verification": "书目记录核验；不表示实验复现",
+      "readingLevel": "metadata",
+      "readingLocation": "已保存的书目记录；本轮未核读正文",
+      "scopeNote": "当前仅作主题与书目入口；不据此确认量化性能或领域共识。",
+      "authors": [
+        "Yaping Fu",
+        "Yifeng Wang",
+        "Kaizhou Gao",
+        "Min Huang"
+      ],
+      "journal": "Computers and Electrical Engineering"
     },
     {
       "id": "healthcareMhReview2024",
@@ -5115,7 +5767,18 @@
         "type": "journal-article"
       },
       "checked": "2026-10-16",
-      "verification": "书目记录核验；不表示实验复现"
+      "verification": "书目记录核验；不表示实验复现",
+      "readingLevel": "abstract",
+      "readingLocation": "Crossref 提供的论文摘要",
+      "scopeNote": "覆盖诊断、影像、运营和公共卫生研究；摘要不足以确认临床前瞻试验、监管批准或真实部署。",
+      "authors": [
+        "Aiman Lameesa",
+        "Mahfara Hoque",
+        "Md Sakib Bin Alam",
+        "Shams Forruque Ahmed",
+        "Amir H Gandomi"
+      ],
+      "journal": "Journal of Computational Design and Engineering"
     },
     {
       "id": "evolutionaryFeatureSelection2024",
@@ -5236,7 +5899,20 @@
         "type": "journal-article"
       },
       "checked": "2026-10-16",
-      "verification": "书目记录核验；不表示实验复现"
+      "verification": "书目记录核验；不表示实验复现",
+      "readingLevel": "metadata",
+      "readingLocation": "已保存的书目记录；本轮未核读正文",
+      "scopeNote": "当前仅作主题与书目入口；不据此确认量化性能或领域共识。",
+      "authors": [
+        "Xianfang Song",
+        "Yong Zhang",
+        "Wanqiu Zhang",
+        "Chunlin He",
+        "Ying Hu",
+        "Jian Wang",
+        "Dunwei Gong"
+      ],
+      "journal": "Swarm and Evolutionary Computation"
     },
     {
       "id": "evolutionaryNasSurvey2026",
@@ -5299,7 +5975,15 @@
         "type": "journal-article"
       },
       "checked": "2026-10-16",
-      "verification": "书目记录核验；不表示实验复现"
+      "verification": "书目记录核验；不表示实验复现",
+      "readingLevel": "abstract",
+      "readingLocation": "Crossref 提供的论文摘要",
+      "scopeNote": "研究样本为2020—2024年的演化神经架构搜索文献；其中方法占比不能推广为整个群智能或进化计算领域占比。",
+      "authors": [
+        "FERDA NUR ÖZÇELİK",
+        "MEHMET ÖNDER EFE"
+      ],
+      "journal": "Turkish Journal of Electrical Engineering and Computer Sciences"
     },
     {
       "id": "satelliteSchedulingSurvey2025",
@@ -5398,7 +6082,18 @@
         "type": "journal-article"
       },
       "checked": "2026-10-16",
-      "verification": "书目记录核验；不表示实验复现"
+      "verification": "书目记录核验；不表示实验复现",
+      "readingLevel": "metadata",
+      "readingLocation": "已保存的书目记录；本轮未核读正文",
+      "scopeNote": "当前仅作主题与书目入口；不据此确认量化性能或领域共识。",
+      "authors": [
+        "Benedetta Ferrari",
+        "Jean-François Cordeau",
+        "Maxence Delorme",
+        "Manuel Iori",
+        "Roberto Orosei"
+      ],
+      "journal": "Computers &amp; Operations Research"
     },
     {
       "id": "largeScaleSatelliteReview2025",
@@ -5519,7 +6214,19 @@
         "type": "journal-article"
       },
       "checked": "2026-10-16",
-      "verification": "书目记录核验；不表示实验复现"
+      "verification": "书目记录核验；不表示实验复现",
+      "readingLevel": "metadata",
+      "readingLocation": "已保存的书目记录；本轮未核读正文",
+      "scopeNote": "当前仅作主题与书目入口；不据此确认量化性能或领域共识。",
+      "authors": [
+        "Xiutian Li",
+        "Yingwu Chen",
+        "Lining Xing",
+        "Yingguo Chen",
+        "Yonghao Du",
+        "Lei He"
+      ],
+      "journal": "Expert Systems with Applications"
     },
     {
       "id": "groundwaterInversionReview2024",
@@ -5580,7 +6287,15 @@
         "type": "journal-article"
       },
       "checked": "2026-10-16",
-      "verification": "书目记录核验；不表示实验复现"
+      "verification": "书目记录核验；不表示实验复现",
+      "readingLevel": "metadata",
+      "readingLocation": "已保存的书目记录；本轮未核读正文",
+      "scopeNote": "当前仅作主题与书目入口；不据此确认量化性能或领域共识。",
+      "authors": [
+        "Junjun Chen",
+        "Zhenxue Dai"
+      ],
+      "journal": "Deep Resources Engineering"
     },
     {
       "id": "evacuationSwarmReview2025",
@@ -5695,7 +6410,19 @@
         "type": "journal-article"
       },
       "checked": "2026-10-16",
-      "verification": "书目记录核验；不表示实验复现"
+      "verification": "书目记录核验；不表示实验复现",
+      "readingLevel": "metadata",
+      "readingLocation": "已保存的书目记录；本轮未核读正文",
+      "scopeNote": "当前仅作主题与书目入口；不据此确认量化性能或领域共识。",
+      "authors": [
+        "Razieh Khayamim",
+        "Ren Moses",
+        "Eren E. Ozguven",
+        "Marta Borowska-Stefańska",
+        "Szymon Wiśniewski",
+        "Maxim A. Dulebenets"
+      ],
+      "journal": "Swarm and Evolutionary Computation"
     },
     {
       "id": "portfolioMetaReview2023",
@@ -5768,7 +6495,15 @@
         "type": "journal-article"
       },
       "checked": "2026-10-16",
-      "verification": "书目记录核验；不表示实验复现"
+      "verification": "书目记录核验；不表示实验复现",
+      "readingLevel": "abstract",
+      "readingLocation": "Crossref 提供的论文摘要",
+      "scopeNote": "区分投资组合模型中的约束和目标；摘要合并讨论多类约束，不能据此断言只要有边界约束就必然 NP-hard。",
+      "authors": [
+        "Kyle Erwin",
+        "Andries Engelbrecht"
+      ],
+      "journal": "Soft Computing"
     },
     {
       "id": "movingTargetGameSurvey2023",
@@ -5891,7 +6626,20 @@
         "type": "journal-article"
       },
       "checked": "2026-10-16",
-      "verification": "书目记录核验；不表示实验复现"
+      "verification": "书目记录核验；不表示实验复现",
+      "readingLevel": "metadata",
+      "readingLocation": "已保存的书目记录；本轮未核读正文",
+      "scopeNote": "当前仅作主题与书目入口；不据此确认量化性能或领域共识。",
+      "authors": [
+        "Jinglei Tan",
+        "Hui Jin",
+        "Hongqi Zhang",
+        "Yuchen Zhang",
+        "Dexian Chang",
+        "Xiaohu Liu",
+        "Hengwei Zhang"
+      ],
+      "journal": "Computer Science Review"
     },
     {
       "id": "cryptoBooleanSurvey2023",
@@ -5986,7 +6734,17 @@
         "type": "journal-article"
       },
       "checked": "2026-10-16",
-      "verification": "书目记录核验；不表示实验复现"
+      "verification": "书目记录核验；不表示实验复现",
+      "readingLevel": "abstract",
+      "readingLocation": "Crossref 提供的论文摘要",
+      "scopeNote": "关注密码布尔函数的设计；不能转述成能够破解现有密码系统。",
+      "authors": [
+        "Marko Djurasevic",
+        "Domagoj Jakobovic",
+        "Luca Mariot",
+        "Stjepan Picek"
+      ],
+      "journal": "Cryptography and Communications"
     },
     {
       "id": "evolutionaryMusicReview2020",
@@ -6059,7 +6817,15 @@
         "type": "journal-article"
       },
       "checked": "2026-10-16",
-      "verification": "书目记录核验；不表示实验复现"
+      "verification": "书目记录核验；不表示实验复现",
+      "readingLevel": "metadata",
+      "readingLocation": "已保存的书目记录；本轮未核读正文",
+      "scopeNote": "当前仅作主题与书目入口；不据此确认量化性能或领域共识。",
+      "authors": [
+        "Róisín Loughran",
+        "Michael O’Neill"
+      ],
+      "journal": "Genetic Programming and Evolvable Machines"
     },
     {
       "id": "pcgGamesSurvey2024",
@@ -6122,7 +6888,15 @@
         "type": "journal-article"
       },
       "checked": "2026-10-16",
-      "verification": "书目记录核验；不表示实验复现"
+      "verification": "书目记录核验；不表示实验复现",
+      "readingLevel": "abstract",
+      "readingLocation": "Crossref 提供的论文摘要",
+      "scopeNote": "程序化内容生成还包含机器学习、噪声函数等方法；全文领域范围不等于元启发式应用规模。",
+      "authors": [
+        "Mahdi Farrokhi Maleki",
+        "Richard Zhao"
+      ],
+      "journal": "Proceedings of the AAAI Conference on Artificial Intelligence and Interactive Digital Entertainment"
     },
     {
       "id": "universityTimetablingSurvey2023",
@@ -6215,7 +6989,17 @@
         "type": "journal-article"
       },
       "checked": "2026-10-16",
-      "verification": "书目记录核验；不表示实验复现"
+      "verification": "书目记录核验；不表示实验复现",
+      "readingLevel": "metadata",
+      "readingLocation": "已保存的书目记录；本轮未核读正文",
+      "scopeNote": "当前仅作主题与书目入口；不据此确认量化性能或领域共识。",
+      "authors": [
+        "Sina Abdipoor",
+        "Razali Yaakob",
+        "Say Leng Goh",
+        "Salwani Abdullah"
+      ],
+      "journal": "Intelligent Systems with Applications"
     },
     {
       "id": "paramils2009",
@@ -6310,7 +7094,12 @@
       "kind": "同行评审综述",
       "title": "Automated Design of Metaheuristic Algorithms: A Survey",
       "url": "https://openreview.net/pdf?id=qhtHsvF5zj",
-      "versionNote": "2023预印本；2024年2月发表于TMLR"
+      "versionNote": "2023预印本；2024年2月发表于TMLR",
+      "readingLevel": "metadata",
+      "readingLocation": "已保存的书目记录；本轮未核读正文",
+      "scopeNote": "当前仅作主题与书目入口；不据此确认量化性能或领域共识。",
+      "authors": [],
+      "journal": ""
     },
     {
       "id": "tidalFarmReview2024",
@@ -6407,7 +7196,18 @@
         "type": "journal-article"
       },
       "checked": "2026-10-16",
-      "verification": "书目记录核验；不表示实验复现"
+      "verification": "书目记录核验；不表示实验复现",
+      "readingLevel": "metadata",
+      "readingLocation": "已保存的书目记录；本轮未核读正文",
+      "scopeNote": "当前仅作主题与书目入口；不据此确认量化性能或领域共识。",
+      "authors": [
+        "Zhixue Yang",
+        "Zhouyang Ren",
+        "Hui Li",
+        "Zhen Pan",
+        "Weiyi Xia"
+      ],
+      "journal": "Renewable Energy"
     },
     {
       "id": "waveEnergyReview2022",
@@ -6580,7 +7380,23 @@
         "type": "journal-article"
       },
       "checked": "2026-10-16",
-      "verification": "书目记录核验；不表示实验复现"
+      "verification": "书目记录核验；不表示实验复现",
+      "readingLevel": "metadata",
+      "readingLocation": "已保存的书目记录；本轮未核读正文",
+      "scopeNote": "当前仅作主题与书目入口；不据此确认量化性能或领域共识。",
+      "authors": [
+        "Danial Golbaz",
+        "Rojin Asadi",
+        "Erfan Amini",
+        "Hossein Mehdipour",
+        "Mahdieh Nasiri",
+        "Bahareh Etaati",
+        "Seyed Taghi Omid Naeeni",
+        "Mehdi Neshat",
+        "Seyedali Mirjalili",
+        "Amir H. Gandomi"
+      ],
+      "journal": "Energy Reports"
     },
     {
       "id": "wastewaterOptimizationReview2026",
@@ -6715,7 +7531,20 @@
         "type": "journal-article"
       },
       "checked": "2026-10-16",
-      "verification": "书目记录核验；不表示实验复现"
+      "verification": "书目记录核验；不表示实验复现",
+      "readingLevel": "metadata",
+      "readingLocation": "已保存的书目记录；本轮未核读正文",
+      "scopeNote": "当前仅作主题与书目入口；不据此确认量化性能或领域共识。",
+      "authors": [
+        "Cristina Rodríguez-García",
+        "César Arenas-Prado",
+        "Saioa Arrizabalaga",
+        "Beñat Elduayen-Echave",
+        "Luis V. Varcárcel",
+        "Ricardo Rodríguez-Jorge",
+        "Itxaro Errandonea"
+      ],
+      "journal": "Environmental Modelling &amp; Software"
     },
     {
       "id": "weaponTargetAssignmentSurvey2024",
@@ -6794,7 +7623,16 @@
         "type": "journal-article"
       },
       "checked": "2026-10-16",
-      "verification": "书目记录核验；不表示实验复现"
+      "verification": "书目记录核验；不表示实验复现",
+      "readingLevel": "metadata",
+      "readingLocation": "已保存的书目记录；本轮未核读正文",
+      "scopeNote": "当前仅作主题与书目入口；不据此确认量化性能或领域共识。",
+      "authors": [
+        "Jinrui Li",
+        "Guohua Wu",
+        "Ling Wang"
+      ],
+      "journal": "Engineering Applications of Artificial Intelligence"
     },
     {
       "id": "edgeOffloadingReview2025",
@@ -6915,7 +7753,20 @@
         "type": "journal-article"
       },
       "checked": "2026-10-16",
-      "verification": "书目记录核验；不表示实验复现"
+      "verification": "书目记录核验；不表示实验复现",
+      "readingLevel": "metadata",
+      "readingLocation": "已保存的书目记录；本轮未核读正文",
+      "scopeNote": "当前仅作主题与书目入口；不据此确认量化性能或领域共识。",
+      "authors": [
+        "Amir Masoud Rahmani",
+        "Amir Haider",
+        "Parisa Khoshvaght",
+        "Farhad Soleimanian Gharehchopogh",
+        "Komeil Moghaddasi",
+        "Shakiba Rajabi",
+        "Mehdi Hosseinzadeh"
+      ],
+      "journal": "Sustainable Computing: Informatics and Systems"
     },
     {
       "id": "rechenberg1973",
@@ -7204,7 +8055,14 @@
         "type": "journal-article"
       },
       "checked": "2026-10-16",
-      "verification": "书目记录核验；不表示实验复现"
+      "verification": "书目记录核验；不表示实验复现",
+      "readingLevel": "metadata",
+      "readingLocation": "已保存的书目记录；本轮未核读正文",
+      "scopeNote": "当前仅作主题与书目入口；不据此确认量化性能或领域共识。",
+      "authors": [
+        "Y. Jin"
+      ],
+      "journal": "Soft Computing"
     },
     {
       "id": "uncertainty2005",
@@ -7265,7 +8123,16 @@
         "type": "journal-article"
       },
       "checked": "2026-10-16",
-      "verification": "书目记录核验；不表示实验复现"
+      "verification": "书目记录核验；不表示实验复现",
+      "readingLevel": "sections",
+      "readingLocation": "作者公开论文，印刷页303—304，摘要与第I节",
+      "scopeNote": "区分评价噪声、解的稳健性、适应度近似与随时间变化的目标；这些对象有关联，但误差来源与求解目标不同。",
+      "readingURL": "https://www.tech.dmu.ac.uk/~syang/TF-ECiDUE/JinBranke-TEVC05.pdf",
+      "authors": [
+        "Y. Jin",
+        "J. Branke"
+      ],
+      "journal": "IEEE Transactions on Evolutionary Computation"
     },
     {
       "id": "moead2007",
@@ -7472,7 +8339,17 @@
         "type": "journal-article"
       },
       "checked": "2026-10-16",
-      "verification": "书目记录核验；不表示实验复现"
+      "verification": "书目记录核验；不表示实验复现",
+      "readingLevel": "sections",
+      "readingLocation": "Frontiers 正文第2.1—2.3节",
+      "scopeNote": "QD 同时关注行为空间中的覆盖与各区域解的质量；多目标前沿、多个局部峰和行为多样性不是同一个对象。",
+      "readingURL": "https://www.frontiersin.org/journals/robotics-and-ai/articles/10.3389/frobt.2016.00040/full",
+      "authors": [
+        "Justin K. Pugh",
+        "Lisa B. Soros",
+        "Kenneth O. Stanley"
+      ],
+      "journal": "Frontiers in Robotics and AI"
     },
     {
       "id": "calypso2010",
@@ -7903,28 +8780,48 @@
       "year": 2023,
       "kind": "中文专题综述",
       "title": "面向复杂约束优化问题的进化算法综述",
-      "url": "https://www.jos.org.cn/jos/article/abstract/6711"
+      "url": "https://www.jos.org.cn/jos/article/abstract/6711",
+      "readingLevel": "metadata",
+      "readingLocation": "已保存的书目记录；本轮未核读正文",
+      "scopeNote": "当前仅作主题与书目入口；不据此确认量化性能或领域共识。",
+      "authors": [],
+      "journal": ""
     },
     {
       "id": "zhMoead",
       "year": 2023,
       "kind": "中文专题综述",
       "title": "基于分解的演化多目标优化算法综述",
-      "url": "https://jos.org.cn/jos/article/abstract/6672"
+      "url": "https://jos.org.cn/jos/article/abstract/6672",
+      "readingLevel": "metadata",
+      "readingLocation": "已保存的书目记录；本轮未核读正文",
+      "scopeNote": "当前仅作主题与书目入口；不据此确认量化性能或领域共识。",
+      "authors": [],
+      "journal": ""
     },
     {
       "id": "zhMultitask",
       "year": 2023,
       "kind": "中文专题综述",
       "title": "演化多任务优化研究综述",
-      "url": "https://jos.org.cn/jos/ch/reader/view_abstract.aspx?file_no=6704&flag=1"
+      "url": "https://jos.org.cn/jos/ch/reader/view_abstract.aspx?file_no=6704&flag=1",
+      "readingLevel": "metadata",
+      "readingLocation": "已保存的书目记录；本轮未核读正文",
+      "scopeNote": "当前仅作主题与书目入口；不据此确认量化性能或领域共识。",
+      "authors": [],
+      "journal": ""
     },
     {
       "id": "zhCollective",
       "year": 2023,
       "kind": "中文专题综述",
       "title": "群智演化协同计算的研究进展与趋势",
-      "url": "https://doi.org/10.6054/j.jscnun.2023001"
+      "url": "https://doi.org/10.6054/j.jscnun.2023001",
+      "readingLevel": "metadata",
+      "readingLocation": "已保存的书目记录；本轮未核读正文",
+      "scopeNote": "当前仅作主题与书目入口；不据此确认量化性能或领域共识。",
+      "authors": [],
+      "journal": ""
     },
     {
       "id": "nero2005",
@@ -8084,7 +8981,22 @@
           ]
         },
         "type": "journal-article"
-      }
+      },
+      "readingLevel": "metadata",
+      "readingLocation": "已保存的书目记录；本轮未核读正文",
+      "scopeNote": "当前仅作主题与书目入口；不据此确认量化性能或领域共识。",
+      "authors": [
+        "Afifa Akter",
+        "Ehsanul Islam Zafir",
+        "Nazia Hasan Dana",
+        "Rahul Joysoyal",
+        "Subrata K. Sarker",
+        "Li Li",
+        "S M Muyeen",
+        "Sajal K. Das",
+        "Innocent Kamwa"
+      ],
+      "journal": "Energy Strategy Reviews"
     },
     {
       "id": "app001",
@@ -8539,7 +9451,16 @@
           ]
         },
         "type": "journal-article"
-      }
+      },
+      "readingLevel": "metadata",
+      "readingLocation": "已保存的书目记录；本轮未核读正文",
+      "scopeNote": "当前仅作主题与书目入口；不据此确认量化性能或领域共识。",
+      "authors": [
+        "Shuijia Li",
+        "Wenyin Gong",
+        "Qiong Gu"
+      ],
+      "journal": "Renewable and Sustainable Energy Reviews"
     },
     {
       "id": "app008",
@@ -9059,7 +9980,21 @@
           ]
         },
         "type": "journal-article"
-      }
+      },
+      "readingLevel": "abstract",
+      "readingLocation": "Crossref 提供的论文摘要",
+      "scopeNote": "水分配网络涉及水力约束及设计、扩展、改造；不能只凭优化形式相似宣称它与某个教学背包模型完全等价。",
+      "authors": [
+        "Sabah Parvaze",
+        "Rohitashw Kumar",
+        "Junaid Nazir Khan",
+        "Nadhir Al-Ansari",
+        "Saqib Parvaze",
+        "Dinesh Kumar Vishwakarma",
+        "Ahmed Elbeltagi",
+        "Alban Kuriqi"
+      ],
+      "journal": "Archives of Computational Methods in Engineering"
     },
     {
       "id": "app015",
@@ -9487,7 +10422,16 @@
           ]
         },
         "type": "journal-article"
-      }
+      },
+      "readingLevel": "abstract",
+      "readingLocation": "Crossref 提供的论文摘要",
+      "scopeNote": "讨论遗传算法用于公交网络设计与排程；摘要的有效性评价不能证明任意实际城市部署收益。",
+      "authors": [
+        "Amita Johar",
+        "S. S. Jain",
+        "P. K. Garg"
+      ],
+      "journal": "An International Journal of Optimization and Control: Theories &amp; Applications (IJOCTA)"
     },
     {
       "id": "app020",
@@ -10316,7 +11260,16 @@
           ]
         },
         "type": "journal-article"
-      }
+      },
+      "readingLevel": "metadata",
+      "readingLocation": "已保存的书目记录；本轮未核读正文",
+      "scopeNote": "当前仅作主题与书目入口；不据此确认量化性能或领域共识。",
+      "authors": [
+        "Pablo Pérez-Gosende",
+        "Josefa Mula",
+        "Manuel Díaz-Madroñero"
+      ],
+      "journal": "International Journal of Production Research"
     },
     {
       "id": "app030",
@@ -11861,7 +12814,19 @@
           ]
         },
         "type": "journal-article"
-      }
+      },
+      "readingLevel": "metadata",
+      "readingLocation": "已保存的书目记录；本轮未核读正文",
+      "scopeNote": "当前仅作主题与书目入口；不据此确认量化性能或领域共识。",
+      "authors": [
+        "Chong Man Ngoo",
+        "Say Leng Goh",
+        "San Nah Sze",
+        "Nasser R. Sabar",
+        "Salwani Abdullah",
+        "Graham Kendall"
+      ],
+      "journal": "IEEE Access"
     },
     {
       "id": "app049",
@@ -11946,7 +12911,16 @@
           ]
         },
         "type": "journal-article"
-      }
+      },
+      "readingLevel": "metadata",
+      "readingLocation": "已保存的书目记录；本轮未核读正文",
+      "scopeNote": "当前仅作主题与书目入口；不据此确认量化性能或领域共识。",
+      "authors": [
+        "Rebika Rai",
+        "Arunita Das",
+        "Krishna Gopal Dhal"
+      ],
+      "journal": "Evolving Systems"
     },
     {
       "id": "app050",
@@ -12007,7 +12981,15 @@
           ]
         },
         "type": "journal-article"
-      }
+      },
+      "readingLevel": "metadata",
+      "readingLocation": "已保存的书目记录；本轮未核读正文",
+      "scopeNote": "当前仅作主题与书目入口；不据此确认量化性能或领域共识。",
+      "authors": [
+        "Satyasai Jagannath Nanda",
+        "Ganapati Panda"
+      ],
+      "journal": "Swarm and Evolutionary Computation"
     },
     {
       "id": "app051",
@@ -12143,7 +13125,15 @@
           ]
         },
         "type": "journal-article"
-      }
+      },
+      "readingLevel": "metadata",
+      "readingLocation": "已保存的书目记录；本轮未核读正文",
+      "scopeNote": "当前仅作主题与书目入口；不据此确认量化性能或领域共识。",
+      "authors": [
+        "Rasha Al-Arasi",
+        "Anwar Saif"
+      ],
+      "journal": "EAI Endorsed Transactions on Cloud Systems"
     },
     {
       "id": "app056",
@@ -12250,7 +13240,17 @@
           ]
         },
         "type": "journal-article"
-      }
+      },
+      "readingLevel": "abstract",
+      "readingLocation": "Crossref 提供的论文摘要",
+      "scopeNote": "综述水下声学传感网络路由，范围包含多种协议；不能把整篇综述覆盖范围都计入元启发式成果。",
+      "authors": [
+        "Ning Li",
+        "José-Fernán Martínez",
+        "Juan Meneses Chaus",
+        "Martina Eckert"
+      ],
+      "journal": "Sensors"
     },
     {
       "id": "app059",
@@ -12309,7 +13309,14 @@
           ]
         },
         "type": "journal-article"
-      }
+      },
+      "readingLevel": "abstract",
+      "readingLocation": "Crossref 提供的论文摘要",
+      "scopeNote": "范围是搜索式软件测试数据生成，包括结构、功能及其他测试目标；不等于所有软件工程活动。",
+      "authors": [
+        "Phil McMinn"
+      ],
+      "journal": "Software Testing, Verification and Reliability"
     },
     {
       "id": "app060",
@@ -13396,7 +14403,17 @@
           ]
         },
         "type": "journal-article"
-      }
+      },
+      "readingLevel": "metadata",
+      "readingLocation": "已保存的书目记录；本轮未核读正文",
+      "scopeNote": "当前仅作主题与书目入口；不据此确认量化性能或领域共识。",
+      "authors": [
+        "Julian Togelius",
+        "Georgios N. Yannakakis",
+        "Kenneth O. Stanley",
+        "Cameron Browne"
+      ],
+      "journal": "IEEE Transactions on Computational Intelligence and AI in Games"
     },
     {
       "id": "app087",
@@ -13846,7 +14863,16 @@
           ]
         },
         "type": "journal-article"
-      }
+      },
+      "readingLevel": "metadata",
+      "readingLocation": "已保存的书目记录；本轮未核读正文",
+      "scopeNote": "当前仅作主题与书目入口；不据此确认量化性能或领域共识。",
+      "authors": [
+        "Fred Glover",
+        "Gary Kochenberger",
+        "Yu Du"
+      ],
+      "journal": "4OR"
     },
     {
       "id": "app095",
@@ -16287,6 +17313,3979 @@
         },
         "type": "journal-article"
       }
+    },
+    {
+      "id": "benchmark-practice",
+      "doi": "",
+      "title": "Benchmarking in Optimization: Best Practice and Open Issues",
+      "url": "https://arxiv.org/abs/2007.03488",
+      "year": 2020,
+      "dates": {},
+      "authors": [
+        "Thomas Bartz-Beielstein et al."
+      ],
+      "journal": "",
+      "kind": "方法学预印本",
+      "articleType": "methodology",
+      "category": "实验与证据方法",
+      "language": "英文",
+      "abstract": "",
+      "readingLevel": "metadata",
+      "readingLabel": "书目收录",
+      "readingLocation": "已保存的书目记录；本轮未核读正文",
+      "scopeNote": "当前仅作主题与书目入口；不据此确认量化性能或领域共识。",
+      "publicationType": "official-record",
+      "checked": "2026-10-16",
+      "recordDOI": ""
+    },
+    {
+      "id": "cma-tutorial",
+      "doi": "",
+      "title": "The CMA Evolution Strategy: A Tutorial",
+      "url": "https://arxiv.org/abs/1604.00772",
+      "year": 2016,
+      "dates": {},
+      "authors": [],
+      "journal": "",
+      "kind": "预印本教程",
+      "articleType": "tutorial",
+      "category": "经典算法与框架",
+      "language": "英文",
+      "abstract": "",
+      "readingLevel": "metadata",
+      "readingLabel": "书目收录",
+      "readingLocation": "已保存的书目记录；本轮未核读正文",
+      "scopeNote": "当前仅作主题与书目入口；不据此确认量化性能或领域共识。",
+      "publicationType": "official-record",
+      "checked": "2026-10-16",
+      "recordDOI": ""
+    },
+    {
+      "id": "r26-abc-review",
+      "year": 2025,
+      "kind": "近期综述",
+      "title": "The Artificial Bee Colony Algorithm: A Comprehensive Survey of Variants, Modifications, Applications, Developments, and Opportunities",
+      "url": "https://doi.org/10.1007/s11831-025-10269-w",
+      "checked": "2026-10-16",
+      "verification": "Springer摘要",
+      "readingLevel": "abstract",
+      "readingLocation": "Springer摘要",
+      "scopeNote": "综述变体、混合、多目标和应用，同时提出严格测试需要；不采用泛化的普遍优胜表述。",
+      "metadata": {
+        "DOI": "10.1007/s11831-025-10269-w",
+        "title": [
+          "The Artificial Bee Colony Algorithm: A Comprehensive Survey of Variants, Modifications, Applications, Developments, and Opportunities"
+        ],
+        "author": [
+          {
+            "ORCID": "https://orcid.org/0000-0001-5526-3623",
+            "authenticated-orcid": false,
+            "given": "Ashraf Osman",
+            "family": "Ibrahim",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Elsadig Mohammed Elbushra",
+            "family": "Elfadel",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Ibrahim Abaker Targio",
+            "family": "Hashem",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Hassan Jamil",
+            "family": "Syed",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Moh Arfian",
+            "family": "Ismail",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Ahmed Hamza",
+            "family": "Osman",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Ali",
+            "family": "Ahmed",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "container-title": [
+          "Archives of Computational Methods in Engineering"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2025,
+              3,
+              19
+            ]
+          ]
+        },
+        "published-online": {
+          "date-parts": [
+            [
+              2025,
+              3,
+              19
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2025,
+              8
+            ]
+          ]
+        },
+        "type": "journal-article"
+      },
+      "readingURL": "https://doi.org/10.1007/s11831-025-10269-w",
+      "authors": [
+        "Ashraf Osman Ibrahim",
+        "Elsadig Mohammed Elbushra Elfadel",
+        "Ibrahim Abaker Targio Hashem",
+        "Hassan Jamil Syed",
+        "Moh Arfian Ismail",
+        "Ahmed Hamza Osman",
+        "Ali Ahmed"
+      ],
+      "journal": "Archives of Computational Methods in Engineering"
+    },
+    {
+      "id": "r26-aco-bibliometric",
+      "year": 2024,
+      "kind": "文献计量综述",
+      "title": "Ant colony optimization: A bibliometric review",
+      "url": "https://doi.org/10.1016/j.plrev.2024.09.014",
+      "checked": "2026-10-16",
+      "verification": "出版社摘要",
+      "readingLevel": "abstract",
+      "readingLocation": "出版社摘要",
+      "scopeNote": "发展年表与文献计量是两个层次；论文数量不证明求解性能。",
+      "metadata": {
+        "DOI": "10.1016/j.plrev.2024.09.014",
+        "title": [
+          "Ant colony optimization: A bibliometric review"
+        ],
+        "author": [
+          {
+            "ORCID": "https://orcid.org/0000-0002-1736-3559",
+            "authenticated-orcid": false,
+            "given": "Christian",
+            "family": "Blum",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "container-title": [
+          "Physics of Life Reviews"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2024,
+              12
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2024,
+              12
+            ]
+          ]
+        },
+        "type": "journal-article"
+      },
+      "readingURL": "https://doi.org/10.1016/j.plrev.2024.09.014",
+      "authors": [
+        "Christian Blum"
+      ],
+      "journal": "Physics of Life Reviews"
+    },
+    {
+      "id": "r26-aco-gp",
+      "year": 2025,
+      "kind": "原始研究",
+      "title": "Automated design of state transition rules in ant colony optimization by genetic programming: a comprehensive investigation",
+      "url": "https://doi.org/10.1007/s12293-025-00435-9",
+      "checked": "2026-10-16",
+      "verification": "Springer摘要、第2.3节和第4节",
+      "readingLevel": "sections",
+      "readingLocation": "Springer摘要、第2.3节和第4节",
+      "scopeNote": "核对学习状态转移规则的范围，实验为TSP；与学习信息素更新区别标明。",
+      "metadata": {
+        "DOI": "10.1007/s12293-025-00435-9",
+        "title": [
+          "Automated design of state transition rules in ant colony optimization by genetic programming: a comprehensive investigation"
+        ],
+        "author": [
+          {
+            "given": "Bo-Cheng",
+            "family": "Lin",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Yi",
+            "family": "Mei",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Mengjie",
+            "family": "Zhang",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "container-title": [
+          "Memetic Computing"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2025,
+              1,
+              28
+            ]
+          ]
+        },
+        "published-online": {
+          "date-parts": [
+            [
+              2025,
+              1,
+              28
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2025,
+              3
+            ]
+          ]
+        },
+        "type": "journal-article"
+      }
+    },
+    {
+      "id": "r26-aco-pheromone",
+      "year": 2026,
+      "kind": "原始研究",
+      "title": "Pheromone learning-enhanced neural ant colony optimization",
+      "url": "https://doi.org/10.1016/j.neucom.2026.133375",
+      "checked": "2026-10-16",
+      "verification": "出版社公开摘要",
+      "readingLevel": "abstract",
+      "readingLocation": "出版社公开摘要",
+      "scopeNote": "学习信息素增量，将实例结构和搜索中精英解的信息结合；结果仅在作者验证条件内成立。",
+      "metadata": {
+        "DOI": "10.1016/j.neucom.2026.133375",
+        "title": [
+          "Pheromone learning-enhanced neural ant colony optimization"
+        ],
+        "author": [
+          {
+            "ORCID": "https://orcid.org/0009-0008-9825-6982",
+            "authenticated-orcid": false,
+            "given": "Hao",
+            "family": "Wang",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0003-4163-6067",
+            "authenticated-orcid": false,
+            "given": "Jin",
+            "family": "Qin",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "container-title": [
+          "Neurocomputing"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2026,
+              6
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2026,
+              6
+            ]
+          ]
+        },
+        "type": "journal-article"
+      }
+    },
+    {
+      "id": "r26-alns-operators",
+      "year": 2025,
+      "kind": "专题综述",
+      "title": "A review and ranking of operators in adaptive large neighborhood search for vehicle routing problems",
+      "url": "https://doi.org/10.1016/j.ejor.2024.05.033",
+      "checked": "2026-10-16",
+      "verification": "出版社摘要及作者稿摘要",
+      "readingLevel": "abstract",
+      "readingLocation": "出版社摘要及作者稿摘要",
+      "scopeNote": "统一VRP中的移除与插入算子术语并比较；算子排序受模型、实例与比较方法限制。",
+      "metadata": {
+        "DOI": "10.1016/j.ejor.2024.05.033",
+        "title": [
+          "A review and ranking of operators in adaptive large neighborhood search for vehicle routing problems"
+        ],
+        "author": [
+          {
+            "ORCID": "https://orcid.org/0000-0003-1942-2636",
+            "authenticated-orcid": false,
+            "given": "Stefan",
+            "family": "Voigt",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "container-title": [
+          "European Journal of Operational Research"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2025,
+              4
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2025,
+              4
+            ]
+          ]
+        },
+        "type": "journal-article"
+      },
+      "readingURL": "https://doi.org/10.1016/j.ejor.2024.05.033",
+      "authors": [
+        "Stefan Voigt"
+      ],
+      "journal": "European Journal of Operational Research"
+    },
+    {
+      "id": "r26-cma-extended",
+      "year": 2024,
+      "kind": "原始研究",
+      "title": "Marginal Probability-Based Integer Handling for CMA-ES Tackling Single- and Multi-Objective Mixed-Integer Black-Box Optimization",
+      "url": "https://doi.org/10.1145/3632962",
+      "checked": "2026-10-16",
+      "verification": "作者arXiv:2212.09260摘要",
+      "readingLevel": "abstract",
+      "readingLocation": "作者arXiv:2212.09260摘要",
+      "scopeNote": "扩展版包含单目标与双目标混合整数实验；不是所有离散或多目标问题的通用保证。",
+      "metadata": {
+        "DOI": "10.1145/3632962",
+        "title": [
+          "Marginal Probability-Based Integer Handling for CMA-ES Tackling Single- and Multi-Objective Mixed-Integer Black-Box Optimization"
+        ],
+        "author": [
+          {
+            "ORCID": "https://orcid.org/0000-0002-4425-1683",
+            "authenticated-orcid": false,
+            "given": "Ryoki",
+            "family": "Hamano",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "Yokohama National University, Yokohama, Japan"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-9863-6765",
+            "authenticated-orcid": false,
+            "given": "Shota",
+            "family": "Saito",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Yokohama National University and SKILLUP NeXt Ltd., Yokohama, Japan"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-4945-5984",
+            "authenticated-orcid": false,
+            "given": "Masahiro",
+            "family": "Nomura",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "CyberAgent, Shibuya, Japan"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-4659-6108",
+            "authenticated-orcid": false,
+            "given": "Shinichi",
+            "family": "Shirakawa",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Yokohama National University, Yokohama, Japan"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "container-title": [
+          "ACM Transactions on Evolutionary Learning and Optimization"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2024,
+              6,
+              8
+            ]
+          ]
+        },
+        "published-online": {
+          "date-parts": [
+            [
+              2024,
+              6,
+              8
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2024,
+              6,
+              30
+            ]
+          ]
+        },
+        "type": "journal-article"
+      }
+    },
+    {
+      "id": "r26-cma-margin",
+      "year": 2022,
+      "kind": "原始研究",
+      "title": "CMA-ES with margin",
+      "url": "https://doi.org/10.1145/3512290.3528827",
+      "checked": "2026-10-16",
+      "verification": "作者arXiv摘要及正式DOI",
+      "readingLevel": "abstract",
+      "readingLocation": "作者arXiv摘要及正式DOI",
+      "scopeNote": "混合整数变量离散化可能停滞，以边际采样概率下界处理；原始与扩展版不计为独立复现。",
+      "metadata": {
+        "DOI": "10.1145/3512290.3528827",
+        "title": [
+          "CMA-ES with margin"
+        ],
+        "author": [
+          {
+            "given": "Ryoki",
+            "family": "Hamano",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "Yokohama National University, Yokohama, Kanagawa, Japan"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Shota",
+            "family": "Saito",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Yokohama National University &amp; SkillUp AI Co., Ltd., Yokohama, Kanagawa, Japan"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Masahiro",
+            "family": "Nomura",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "CyberAgent, Shibuya, Tokyo, Japan"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Shinichi",
+            "family": "Shirakawa",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Yokohama National University, Yokohama, Kanagawa, Japan"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "container-title": [
+          "Proceedings of the Genetic and Evolutionary Computation Conference"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2022,
+              7,
+              8
+            ]
+          ]
+        },
+        "published-online": {
+          "date-parts": [
+            [
+              2022,
+              7,
+              8
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2022,
+              7,
+              8
+            ]
+          ]
+        },
+        "type": "proceedings-article"
+      }
+    },
+    {
+      "id": "r26-cma2026",
+      "year": 2026,
+      "kind": "近期综述",
+      "title": "Covariance Matrix Adaptation Evolution Strategy (CMA-ES): A Comprehensive Survey of Variants and Hybridizations",
+      "url": "https://doi.org/10.1007/s11831-026-10557-z",
+      "checked": "2026-10-16",
+      "verification": "Springer摘要",
+      "readingLevel": "abstract",
+      "readingLocation": "Springer摘要",
+      "scopeNote": "按修改和混合机制讨论条件性收益、规模与参数问题；不把特定场景收益推广到所有基准。",
+      "metadata": {
+        "DOI": "10.1007/s11831-026-10557-z",
+        "title": [
+          "Covariance Matrix Adaptation Evolution Strategy (CMA-ES): A Comprehensive Survey of Variants and Hybridizations"
+        ],
+        "author": [
+          {
+            "given": "Nahum",
+            "family": "Aguirre",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Erik",
+            "family": "Cuevas",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Alberto",
+            "family": "Luque-Chang",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Oscar",
+            "family": "Barba-Toscano",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Mario",
+            "family": "Vasquez-Franco",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "container-title": [
+          "Archives of Computational Methods in Engineering"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2026,
+              4,
+              17
+            ]
+          ]
+        },
+        "published-online": {
+          "date-parts": [
+            [
+              2026,
+              4,
+              17
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2026,
+              9
+            ]
+          ]
+        },
+        "type": "journal-article"
+      },
+      "readingURL": "https://doi.org/10.1007/s11831-026-10557-z",
+      "authors": [
+        "Nahum Aguirre",
+        "Erik Cuevas",
+        "Alberto Luque-Chang",
+        "Oscar Barba-Toscano",
+        "Mario Vasquez-Franco"
+      ],
+      "journal": "Archives of Computational Methods in Engineering"
+    },
+    {
+      "id": "r26-csp-ml-review",
+      "year": 2024,
+      "kind": "领域综述",
+      "title": "Machine learning assisted crystal structure prediction made simple",
+      "url": "https://doi.org/10.20517/jmi.2024.18",
+      "checked": "2026-10-16",
+      "verification": "出版社摘要、Conventional CSP Methods及Applications of ML in CSP",
+      "readingLevel": "sections",
+      "readingLocation": "出版社摘要、Conventional CSP Methods及Applications of ML in CSP",
+      "scopeNote": "区分全局搜索、局部弛豫、能量代理和生成模型；预测低能结构不等于实验材料发现。",
+      "metadata": {
+        "DOI": "10.20517/jmi.2024.18",
+        "title": [
+          "Machine learning assisted crystal structure prediction made simple"
+        ],
+        "author": [
+          {
+            "ORCID": "https://orcid.org/0000-0003-0403-0568",
+            "authenticated-orcid": true,
+            "given": "Chuan-Nan",
+            "family": "Li",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Han-Pu",
+            "family": "Liang",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Bai-Qing",
+            "family": "Zhao",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Su-Huai",
+            "family": "Wei",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Xie",
+            "family": "Zhang",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "container-title": [
+          "Journal of materials Informatics"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2024,
+              9,
+              30
+            ]
+          ]
+        },
+        "published-online": {
+          "date-parts": [
+            [
+              2024,
+              9,
+              30
+            ]
+          ]
+        },
+        "type": "journal-article"
+      },
+      "readingURL": "https://www.oaepublish.com/articles/jmi.2024.18",
+      "authors": [
+        "Chuan-Nan Li",
+        "Han-Pu Liang",
+        "Bai-Qing Zhao",
+        "Su-Huai Wei",
+        "Xie Zhang"
+      ],
+      "journal": "Journal of materials Informatics"
+    },
+    {
+      "id": "r26-de-operators",
+      "year": 2025,
+      "kind": "专题综述",
+      "title": "Differential Evolution: A Survey on Their Operators and Variants",
+      "url": "https://doi.org/10.1007/s11831-024-10136-0",
+      "checked": "2026-10-16",
+      "verification": "Springer出版社摘要与出版日期",
+      "readingLevel": "abstract",
+      "readingLocation": "出版社Abstract；online 2024-05-23，卷期2025",
+      "scopeNote": "按初始化、变异、交叉和选择整理DE算子；文献趋势不等于统一预算下的性能结论。",
+      "authors": [
+        "Elivier Reyes-Davila",
+        "Eduardo H. Haro",
+        "Angel Casas-Ordaz",
+        "Diego Oliva",
+        "Omar Avalos"
+      ],
+      "venue": "Archives of Computational Methods in Engineering",
+      "readingURL": "https://doi.org/10.1007/s11831-024-10136-0",
+      "journal": "Archives of Computational Methods in Engineering"
+    },
+    {
+      "id": "r26-deepaco",
+      "year": 2023,
+      "kind": "原始研究",
+      "title": "DeepACO: Neural-enhanced Ant Systems for Combinatorial Optimization",
+      "url": "https://papers.neurips.cc/paper_files/paper/2023/hash/883105b282fe15275991b411e6b200c5-Abstract-Conference.html",
+      "authors": [
+        "Haoran Ye",
+        "Jiarui Wang",
+        "Zhiguang Cao",
+        "Helan Liang",
+        "Yong Li"
+      ],
+      "venue": "NeurIPS 2023",
+      "readingLevel": "abstract",
+      "readingLocation": "正式会议摘要",
+      "scopeNote": "学习启发式信息，保留ACO搜索框架；未在本站复现其训练与比较。",
+      "checked": "2026-10-16",
+      "verification": "正式会议摘要"
+    },
+    {
+      "id": "r26-eda-ml",
+      "year": 2024,
+      "kind": "专题综述",
+      "title": "Estimation of Distribution Algorithms in Machine Learning: A Survey",
+      "url": "https://doi.org/10.1109/tevc.2023.3314105",
+      "checked": "2026-10-16",
+      "verification": "UPM作者机构摘要",
+      "readingLevel": "abstract",
+      "readingLocation": "UPM作者机构摘要",
+      "scopeNote": "整理EDA用于学习模型结构和参数；EDA优化机器学习与机器学习辅助EDA是不同关系。",
+      "metadata": {
+        "DOI": "10.1109/tevc.2023.3314105",
+        "title": [
+          "Estimation of Distribution Algorithms in Machine Learning: A Survey"
+        ],
+        "author": [
+          {
+            "ORCID": "https://orcid.org/0000-0003-0652-9872",
+            "authenticated-orcid": false,
+            "given": "Pedro",
+            "family": "Larrañaga",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "Departamento de Inteligencia Artificial, Universidad Polit&#x00E9;cnica de Madrid, Madrid, Spain"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0001-7109-2668",
+            "authenticated-orcid": false,
+            "given": "Concha",
+            "family": "Bielza",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Departamento de Inteligencia Artificial, Universidad Polit&#x00E9;cnica de Madrid, Madrid, Spain"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "container-title": [
+          "IEEE Transactions on Evolutionary Computation"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2024,
+              10
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2024,
+              10
+            ]
+          ]
+        },
+        "type": "journal-article"
+      },
+      "readingURL": "https://doi.org/10.1109/tevc.2023.3314105",
+      "authors": [
+        "Pedro Larrañaga",
+        "Concha Bielza"
+      ],
+      "journal": "IEEE Transactions on Evolutionary Computation"
+    },
+    {
+      "id": "r26-es-review",
+      "year": 2020,
+      "kind": "近期综述",
+      "title": "Evolution strategies for continuous optimization: A survey of the state-of-the-art",
+      "url": "https://doi.org/10.1016/j.swevo.2020.100694",
+      "checked": "2026-10-16",
+      "verification": "出版社摘要",
+      "readingLevel": "abstract",
+      "readingLocation": "出版社摘要",
+      "scopeNote": "连续黑盒ES的技术、扩展与实际问题；不是全部离散进化算法的统一结论。",
+      "metadata": {
+        "DOI": "10.1016/j.swevo.2020.100694",
+        "title": [
+          "Evolution strategies for continuous optimization: A survey of the state-of-the-art"
+        ],
+        "author": [
+          {
+            "given": "Zhenhua",
+            "family": "Li",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Xi",
+            "family": "Lin",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Qingfu",
+            "family": "Zhang",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Hailin",
+            "family": "Liu",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "container-title": [
+          "Swarm and Evolutionary Computation"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2020,
+              8
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2020,
+              8
+            ]
+          ]
+        },
+        "type": "journal-article"
+      },
+      "readingURL": "https://doi.org/10.1016/j.swevo.2020.100694",
+      "authors": [
+        "Zhenhua Li",
+        "Xi Lin",
+        "Qingfu Zhang",
+        "Hailin Liu"
+      ],
+      "journal": "Swarm and Evolutionary Computation"
+    },
+    {
+      "id": "r26-ga-brkga",
+      "year": 2025,
+      "kind": "专题综述",
+      "title": "Biased random-key genetic algorithms: A review",
+      "url": "https://doi.org/10.1016/j.ejor.2024.03.030",
+      "checked": "2026-10-16",
+      "verification": "出版社摘要预览及作者记录",
+      "readingLevel": "abstract",
+      "readingLocation": "出版社摘要预览及作者记录",
+      "scopeNote": "随机键、偏置精英重组和解码器构成具体GA分支；不把它当成所有GA的统一实现。",
+      "metadata": {
+        "DOI": "10.1016/j.ejor.2024.03.030",
+        "title": [
+          "Biased random-key genetic algorithms: A review"
+        ],
+        "author": [
+          {
+            "ORCID": "https://orcid.org/0000-0001-6428-1671",
+            "authenticated-orcid": false,
+            "given": "Mariana A.",
+            "family": "Londe",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Luciana S.",
+            "family": "Pessoa",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-8362-6177",
+            "authenticated-orcid": false,
+            "given": "Carlos E.",
+            "family": "Andrade",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0001-7462-6207",
+            "authenticated-orcid": false,
+            "given": "Mauricio G.C.",
+            "family": "Resende",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "container-title": [
+          "European Journal of Operational Research"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2025,
+              2
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2025,
+              2
+            ]
+          ]
+        },
+        "type": "journal-article"
+      },
+      "readingURL": "https://doi.org/10.1016/j.ejor.2024.03.030",
+      "authors": [
+        "Mariana A. Londe",
+        "Luciana S. Pessoa",
+        "Carlos E. Andrade",
+        "Mauricio G.C. Resende"
+      ],
+      "journal": "European Journal of Operational Research"
+    },
+    {
+      "id": "r26-gfacs",
+      "year": 2025,
+      "kind": "原始研究",
+      "title": "Ant Colony Sampling with GFlowNets for Combinatorial Optimization",
+      "url": "https://proceedings.mlr.press/v258/kim25a.html",
+      "authors": [
+        "Minsu Kim",
+        "Sanghyeok Choi",
+        "Hyeonah Kim",
+        "Jiwoo Son",
+        "Jinkyoo Park",
+        "Yoshua Bengio"
+      ],
+      "venue": "AISTATS 2025 / PMLR 258",
+      "readingLevel": "abstract",
+      "readingLocation": "正式会议摘要",
+      "scopeNote": "结合学习的多模态先验与蚁群式并行随机搜索；与DeepACO不同，不计为独立性能复现。",
+      "checked": "2026-10-16",
+      "verification": "正式会议摘要"
+    },
+    {
+      "id": "r26-grasp-review",
+      "year": 2025,
+      "kind": "近期综述",
+      "title": "Greedy Randomized Adaptive Search Procedures with Path Relinking. An analytical review of designs and implementations",
+      "url": "https://doi.org/10.1016/j.ejor.2025.02.022",
+      "checked": "2026-10-16",
+      "verification": "GRAFO作者机构摘要",
+      "readingLevel": "abstract",
+      "readingLocation": "GRAFO作者机构摘要",
+      "scopeNote": "讨论GRASP与路径重连；其线性排序和最大割实验不能代表所有组合问题。",
+      "metadata": {
+        "DOI": "10.1016/j.ejor.2025.02.022",
+        "title": [
+          "Greedy Randomized Adaptive Search Procedures with Path Relinking. An analytical review of designs and implementations"
+        ],
+        "author": [
+          {
+            "given": "Manuel",
+            "family": "Laguna",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0001-7265-823X",
+            "authenticated-orcid": false,
+            "given": "Rafael",
+            "family": "Martí",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0001-9995-010X",
+            "authenticated-orcid": false,
+            "given": "Anna",
+            "family": "Martínez-Gavara",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-1915-4160",
+            "authenticated-orcid": false,
+            "given": "Sergio",
+            "family": "Pérez-Peló",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Mauricio G.C.",
+            "family": "Resende",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "container-title": [
+          "European Journal of Operational Research"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2025,
+              12
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2025,
+              12
+            ]
+          ]
+        },
+        "type": "journal-article"
+      },
+      "readingURL": "https://doi.org/10.1016/j.ejor.2025.02.022",
+      "authors": [
+        "Manuel Laguna",
+        "Rafael Martí",
+        "Anna Martínez-Gavara",
+        "Sergio Pérez-Peló",
+        "Mauricio G.C. Resende"
+      ],
+      "journal": "European Journal of Operational Research"
+    },
+    {
+      "id": "r26-les",
+      "year": 2023,
+      "kind": "原始研究",
+      "title": "Discovering Evolution Strategies via Meta-Black-Box Optimization",
+      "url": "https://arxiv.org/abs/2211.11260",
+      "authors": [
+        "Robert Tjarko Lange",
+        "Tom Schaul",
+        "Yutian Chen",
+        "Tom Zahavy",
+        "Valentin Dallibard",
+        "Chris Lu",
+        "Satinder Singh",
+        "Sebastian Flennerhag"
+      ],
+      "venue": "ICLR 2023",
+      "readingLevel": "abstract",
+      "readingLocation": "作者公开稿摘要与Journal reference",
+      "scopeNote": "学习ES的更新规则；训练分布外的推广仅按论文验证范围理解。",
+      "checked": "2026-10-16",
+      "verification": "作者公开稿摘要与Journal reference"
+    },
+    {
+      "id": "r26-local-learning",
+      "year": 2024,
+      "kind": "近期综述",
+      "title": "Machine learning aided metaheuristics: A comprehensive review of hybrid local search methods",
+      "url": "https://doi.org/10.1016/j.eswa.2024.125192",
+      "checked": "2026-10-16",
+      "verification": "作者公开稿摘要、引言及第4.3节",
+      "readingLevel": "sections",
+      "readingLocation": "作者公开稿摘要、引言及第4.3节",
+      "scopeNote": "核对初始化、代理、控制及在线/离线训练；通用分类不等于跨任务性能保证。",
+      "metadata": {
+        "DOI": "10.1016/j.eswa.2024.125192",
+        "title": [
+          "Machine learning aided metaheuristics: A comprehensive review of hybrid local search methods"
+        ],
+        "author": [
+          {
+            "ORCID": "https://orcid.org/0000-0002-7292-0717",
+            "authenticated-orcid": false,
+            "given": "Sándor",
+            "family": "Szénási",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Gábor",
+            "family": "Légrádi",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "container-title": [
+          "Expert Systems with Applications"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2024,
+              12
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2024,
+              12
+            ]
+          ]
+        },
+        "type": "journal-article"
+      },
+      "readingURL": "https://zeus.inf.ucv.cl/~bcrawford/DiplomadoIA_2025/Papers/Machine%20learning%20aided%20metaheuristics-2024.pdf",
+      "authors": [
+        "Sándor Szénási",
+        "Gábor Légrádi"
+      ],
+      "journal": "Expert Systems with Applications"
+    },
+    {
+      "id": "r26-metabbo-review",
+      "year": 2025,
+      "kind": "近期综述",
+      "title": "Meta-Black-Box optimization for evolutionary algorithms: Review and perspective",
+      "url": "https://doi.org/10.1016/j.swevo.2024.101838",
+      "checked": "2026-10-16",
+      "verification": "出版社摘要、引言及公开Benchmarks预览",
+      "readingLevel": "sections",
+      "readingLocation": "出版社摘要、引言及公开Benchmarks预览",
+      "scopeNote": "区分被设计的基础优化器与外层学习过程，核对优化对象、训练问题和评测平台。",
+      "metadata": {
+        "DOI": "10.1016/j.swevo.2024.101838",
+        "title": [
+          "Meta-Black-Box optimization for evolutionary algorithms: Review and perspective"
+        ],
+        "author": [
+          {
+            "ORCID": "https://orcid.org/0000-0002-2740-3788",
+            "authenticated-orcid": false,
+            "given": "Xu",
+            "family": "Yang",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Rui",
+            "family": "Wang",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Kaiwen",
+            "family": "Li",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0001-9186-6472",
+            "authenticated-orcid": false,
+            "given": "Hisao",
+            "family": "Ishibuchi",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "container-title": [
+          "Swarm and Evolutionary Computation"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2025,
+              3
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2025,
+              3
+            ]
+          ]
+        },
+        "type": "journal-article"
+      },
+      "readingURL": "https://doi.org/10.1016/j.swevo.2024.101838",
+      "authors": [
+        "Xu Yang",
+        "Rui Wang",
+        "Kaiwen Li",
+        "Hisao Ishibuchi"
+      ],
+      "journal": "Swarm and Evolutionary Computation"
+    },
+    {
+      "id": "r26-moo-constraints",
+      "year": 2024,
+      "kind": "专题综述",
+      "title": "Evolutionary constrained multi-objective optimization: a review",
+      "url": "https://doi.org/10.1007/s44336-024-00006-5",
+      "checked": "2026-10-16",
+      "verification": "Springer摘要、第1—3节",
+      "readingLevel": "sections",
+      "readingLocation": "Springer摘要、第1—3节",
+      "scopeNote": "区分环境选择与约束处理；可行性、收敛和分布需要同时考虑，不照搬无约束结论。",
+      "metadata": {
+        "DOI": "10.1007/s44336-024-00006-5",
+        "title": [
+          "Evolutionary constrained multi-objective optimization: a review"
+        ],
+        "author": [
+          {
+            "given": "Jing",
+            "family": "Liang",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Hongyu",
+            "family": "Lin",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Caitong",
+            "family": "Yue",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Xuanxuan",
+            "family": "Ban",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Kunjie",
+            "family": "Yu",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "container-title": [
+          "Vicinagearth"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2024,
+              7,
+              4
+            ]
+          ]
+        },
+        "published-online": {
+          "date-parts": [
+            [
+              2024,
+              7,
+              4
+            ]
+          ]
+        },
+        "type": "journal-article"
+      },
+      "readingURL": "https://doi.org/10.1007/s44336-024-00006-5",
+      "authors": [
+        "Jing Liang",
+        "Hongyu Lin",
+        "Caitong Yue",
+        "Xuanxuan Ban",
+        "Kunjie Yu"
+      ],
+      "journal": "Vicinagearth"
+    },
+    {
+      "id": "r26-moo-preferences",
+      "year": 2026,
+      "kind": "专题综述",
+      "title": "A Survey on Preference-Based Multi-Objective Evolutionary Algorithms",
+      "url": "https://doi.org/10.3390/math14081365",
+      "checked": "2026-10-16",
+      "verification": "Crossref提供的摘要",
+      "readingLevel": "abstract",
+      "readingLocation": "Crossref提供的摘要",
+      "scopeNote": "偏好表达、建模和嵌入引导兴趣区域；结果依赖偏好质量、交互负担和问题特征。",
+      "metadata": {
+        "DOI": "10.3390/math14081365",
+        "title": [
+          "A Survey on Preference-Based Multi-Objective Evolutionary Algorithms"
+        ],
+        "author": [
+          {
+            "ORCID": "https://orcid.org/0000-0002-3665-700X",
+            "authenticated-orcid": false,
+            "given": "Yi",
+            "family": "Ren",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "National Key Laboratory of Reliability and Environmental Engineering, Beijing 100191, China"
+              },
+              {
+                "name": "School of Reliability and Systems Engineering, Beihang University, Beijing 100191, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0009-0005-5877-7706",
+            "authenticated-orcid": false,
+            "given": "Yuxin",
+            "family": "Qi",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "National Key Laboratory of Reliability and Environmental Engineering, Beijing 100191, China"
+              },
+              {
+                "name": "School of Reliability and Systems Engineering, Beihang University, Beijing 100191, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Dezhen",
+            "family": "Yang",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "National Key Laboratory of Reliability and Environmental Engineering, Beijing 100191, China"
+              },
+              {
+                "name": "School of Reliability and Systems Engineering, Beihang University, Beijing 100191, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Ruifeng",
+            "family": "Xiang",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "National Key Laboratory of Reliability and Environmental Engineering, Beijing 100191, China"
+              },
+              {
+                "name": "School of Reliability and Systems Engineering, Beihang University, Beijing 100191, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Qianxu",
+            "family": "Nie",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Policy and Economics Research Institute, China Academy of Information and Communications Technology, Beijing 100191, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Keyi",
+            "family": "Zhou",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Changqing Oilfield Branch, PetroChina Company Limited, Xi’an 710000, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-4313-8312",
+            "authenticated-orcid": false,
+            "given": "Yanjie",
+            "family": "Song",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "National Key Laboratory of Reliability and Environmental Engineering, Beijing 100191, China"
+              },
+              {
+                "name": "School of Reliability and Systems Engineering, Beihang University, Beijing 100191, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Yue",
+            "family": "Zhang",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "National Key Laboratory of Reliability and Environmental Engineering, Beijing 100191, China"
+              },
+              {
+                "name": "School of Reliability and Systems Engineering, Beihang University, Beijing 100191, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "container-title": [
+          "Mathematics"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2026,
+              4,
+              18
+            ]
+          ]
+        },
+        "published-online": {
+          "date-parts": [
+            [
+              2026,
+              4,
+              18
+            ]
+          ]
+        },
+        "type": "journal-article"
+      },
+      "readingURL": "https://doi.org/10.3390/math14081365",
+      "authors": [
+        "Yi Ren",
+        "Yuxin Qi",
+        "Dezhen Yang",
+        "Ruifeng Xiang",
+        "Qianxu Nie",
+        "Keyi Zhou",
+        "Yanjie Song",
+        "Yue Zhang"
+      ],
+      "journal": "Mathematics"
+    },
+    {
+      "id": "r26-multitask2025",
+      "year": 2025,
+      "kind": "近期综述",
+      "title": "A Survey on Evolutionary Multitask Optimization",
+      "url": "https://doi.org/10.37965/jait.2025.0730",
+      "checked": "2026-10-16",
+      "verification": "Crossref提供的摘要",
+      "readingLevel": "abstract",
+      "readingLocation": "Crossref提供的摘要",
+      "scopeNote": "整理多因素框架、扩展、理论、基准和应用；相关任务间迁移不保证总能受益。",
+      "metadata": {
+        "DOI": "10.37965/jait.2025.0730",
+        "title": [
+          "A Survey on Evolutionary Multitask Optimization"
+        ],
+        "author": [
+          {
+            "ORCID": "https://orcid.org/0009-0006-0838-854X",
+            "authenticated-orcid": false,
+            "given": "Guoxing",
+            "family": "Luo",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Xiaoliang",
+            "family": "Ma",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          }
+        ],
+        "container-title": [
+          "Journal of Artificial Intelligence and Technology"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2025,
+              8,
+              7
+            ]
+          ]
+        },
+        "published-online": {
+          "date-parts": [
+            [
+              2025,
+              8,
+              7
+            ]
+          ]
+        },
+        "type": "journal-article"
+      },
+      "readingURL": "https://doi.org/10.37965/jait.2025.0730",
+      "authors": [
+        "Guoxing Luo",
+        "Xiaoliang Ma"
+      ],
+      "journal": "Journal of Artificial Intelligence and Technology"
+    },
+    {
+      "id": "r26-neuro-2025",
+      "year": 2025,
+      "kind": "专题综述",
+      "title": "Evolutionary Reinforcement Learning: A Systematic Review and Future Directions",
+      "url": "https://doi.org/10.3390/math13050833",
+      "checked": "2026-10-16",
+      "verification": "Crossref提供的摘要",
+      "readingLevel": "abstract",
+      "readingLocation": "Crossref提供的摘要",
+      "scopeNote": "讨论演化强化学习的采样效率和复杂度；案例覆盖不表示真实部署已验证。",
+      "metadata": {
+        "DOI": "10.3390/math13050833",
+        "title": [
+          "Evolutionary Reinforcement Learning: A Systematic Review and Future Directions"
+        ],
+        "author": [
+          {
+            "ORCID": "https://orcid.org/0000-0001-6717-0950",
+            "authenticated-orcid": false,
+            "given": "Yuanguo",
+            "family": "Lin",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "School of Computer Engineering, Jimei University, Xiamen 361021, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0003-2530-859X",
+            "authenticated-orcid": false,
+            "given": "Fan",
+            "family": "Lin",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "School of Informatics, Xiamen University, Xiamen 361005, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Guorong",
+            "family": "Cai",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "School of Computer Engineering, Jimei University, Xiamen 361021, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0009-0007-7107-1374",
+            "authenticated-orcid": false,
+            "given": "Hong",
+            "family": "Chen",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Information Hub, The Hong Kong University of Science and Technology (Guangzhou), Guangzhou 511453, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Linxin",
+            "family": "Zou",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "School of Cyber Science and Engineering, Wuhan University, Wuhan 430074, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Yunxuan",
+            "family": "Liu",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "School of Computer Engineering, Jimei University, Xiamen 361021, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Pengcheng",
+            "family": "Wu",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Webank-NTU Joint Research Institute on Fintech, Nanyang Technological University, Singapore 639798, Singapore"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "container-title": [
+          "Mathematics"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2025,
+              3,
+              2
+            ]
+          ]
+        },
+        "published-online": {
+          "date-parts": [
+            [
+              2025,
+              3,
+              2
+            ]
+          ]
+        },
+        "type": "journal-article"
+      },
+      "readingURL": "https://doi.org/10.3390/math13050833",
+      "authors": [
+        "Yuanguo Lin",
+        "Fan Lin",
+        "Guorong Cai",
+        "Hong Chen",
+        "Linxin Zou",
+        "Yunxuan Liu",
+        "Pengcheng Wu"
+      ],
+      "journal": "Mathematics"
+    },
+    {
+      "id": "r26-neuro-review",
+      "year": 2023,
+      "kind": "专题综述",
+      "title": "Evolutionary Reinforcement Learning: A Survey",
+      "url": "https://doi.org/10.34133/icomputing.0025",
+      "checked": "2026-10-16",
+      "verification": "Crossref提供的摘要",
+      "readingLevel": "abstract",
+      "readingLocation": "Crossref提供的摘要",
+      "scopeNote": "按策略搜索、探索、奖励与元学习等联系进化计算与强化学习，不将其等同NEAT。",
+      "metadata": {
+        "DOI": "10.34133/icomputing.0025",
+        "title": [
+          "Evolutionary Reinforcement Learning: A Survey"
+        ],
+        "author": [
+          {
+            "given": "Hui",
+            "family": "Bai",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "Department of Computer Science and Engineering, Southern University of Science and Technology, Shenzhen, China."
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Ran",
+            "family": "Cheng",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Department of Computer Science and Engineering, Southern University of Science and Technology, Shenzhen, China."
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Yaochu",
+            "family": "Jin",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Faculty of Technology, Bielefeld University, 33615 Bielefeld, Germany."
+              },
+              {
+                "name": "Department of Computer Science, University of Surrey, Guildford, Surrey GU2 7XH, UK."
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "container-title": [
+          "Intelligent Computing"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2023,
+              1
+            ]
+          ]
+        },
+        "published-online": {
+          "date-parts": [
+            [
+              2023,
+              5,
+              10
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2023,
+              1
+            ]
+          ]
+        },
+        "type": "journal-article"
+      },
+      "readingURL": "https://doi.org/10.34133/icomputing.0025",
+      "authors": [
+        "Hui Bai",
+        "Ran Cheng",
+        "Yaochu Jin"
+      ],
+      "journal": "Intelligent Computing"
+    },
+    {
+      "id": "r26-pso2026",
+      "year": 2026,
+      "kind": "近期综述",
+      "title": "Particle swarm optimization: A survey of innovations over the last 10 years",
+      "url": "https://doi.org/10.1016/j.cosrev.2026.100910",
+      "checked": "2026-10-16",
+      "verification": "已核对正式书目与出版社摘要预览",
+      "readingLevel": "metadata",
+      "readingLocation": "已核对正式书目与出版社摘要预览",
+      "scopeNote": "2026更新入口；本轮只核对了摘要预览，主要机制说明同时引用已核读的2022综述。",
+      "metadata": {
+        "DOI": "10.1016/j.cosrev.2026.100910",
+        "title": [
+          "Particle swarm optimization: A survey of innovations over the last 10 years"
+        ],
+        "author": [
+          {
+            "given": "Angel",
+            "family": "Casas-Ordaz",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Eduardo H.",
+            "family": "Haro",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Luis A.",
+            "family": "Beltran",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Omar",
+            "family": "Alvarez",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0001-8661-7578",
+            "authenticated-orcid": false,
+            "given": "Seyed Jalaleddin",
+            "family": "Mousavirad",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Marco",
+            "family": "Pérez-Cisneros",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Diego",
+            "family": "Oliva",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "container-title": [
+          "Computer Science Review"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2026,
+              5
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2026,
+              5
+            ]
+          ]
+        },
+        "type": "journal-article"
+      },
+      "readingURL": "https://doi.org/10.1016/j.cosrev.2026.100910",
+      "authors": [
+        "Angel Casas-Ordaz",
+        "Eduardo H. Haro",
+        "Luis A. Beltran",
+        "Omar Alvarez",
+        "Seyed Jalaleddin Mousavirad",
+        "Marco Pérez-Cisneros",
+        "Diego Oliva"
+      ],
+      "journal": "Computer Science Review"
+    },
+    {
+      "id": "r26-qd-review",
+      "year": 2026,
+      "kind": "近期综述",
+      "title": "A survey on Quality-Diversity optimization: Approaches, applications, and challenges",
+      "url": "https://doi.org/10.1016/j.swevo.2025.102240",
+      "checked": "2026-10-16",
+      "verification": "作者公开稿摘要与第1节",
+      "readingLevel": "sections",
+      "readingLocation": "作者公开稿摘要与第1节",
+      "scopeNote": "核对从新颖性、MAP-Elites到模块化与学习结合的演变；特征定义、档案成本和不确定性仍有困难。",
+      "metadata": {
+        "DOI": "10.1016/j.swevo.2025.102240",
+        "title": [
+          "A survey on Quality-Diversity optimization: Approaches, applications, and challenges"
+        ],
+        "author": [
+          {
+            "given": "Haoxiang",
+            "family": "Qin",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0003-2118-4825",
+            "authenticated-orcid": false,
+            "given": "Yi",
+            "family": "Xiang",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Hainan",
+            "family": "Zhang",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Yuyan",
+            "family": "Han",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Yuting",
+            "family": "Wang",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Xinrui",
+            "family": "Tao",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Yiping",
+            "family": "Liu",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "container-title": [
+          "Swarm and Evolutionary Computation"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2026,
+              1
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2026,
+              1
+            ]
+          ]
+        },
+        "type": "journal-article"
+      },
+      "readingURL": "https://klaette.github.io/pdf/QD_SWEVO.pdf",
+      "authors": [
+        "Haoxiang Qin",
+        "Yi Xiang",
+        "Hainan Zhang",
+        "Yuyan Han",
+        "Yuting Wang",
+        "Xinrui Tao",
+        "Yiping Liu"
+      ],
+      "journal": "Swarm and Evolutionary Computation"
+    },
+    {
+      "id": "r26-surrogate-discrete",
+      "year": 2024,
+      "kind": "专题综述",
+      "title": "Surrogate-assisted evolutionary algorithms for expensive combinatorial optimization: a survey",
+      "url": "https://doi.org/10.1007/s40747-024-01465-5",
+      "checked": "2026-10-16",
+      "verification": "Springer摘要与Introduction",
+      "readingLevel": "sections",
+      "readingLocation": "Springer摘要与Introduction",
+      "scopeNote": "组合表示与连续变量不同；模型选择、构建、管理不能省略表示与评估条件。",
+      "metadata": {
+        "DOI": "10.1007/s40747-024-01465-5",
+        "title": [
+          "Surrogate-assisted evolutionary algorithms for expensive combinatorial optimization: a survey"
+        ],
+        "author": [
+          {
+            "given": "Shulei",
+            "family": "Liu",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-4805-3780",
+            "authenticated-orcid": false,
+            "given": "Handing",
+            "family": "Wang",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Wei",
+            "family": "Peng",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Wen",
+            "family": "Yao",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "container-title": [
+          "Complex &amp; Intelligent Systems"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2024,
+              5,
+              18
+            ]
+          ]
+        },
+        "published-online": {
+          "date-parts": [
+            [
+              2024,
+              5,
+              18
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2024,
+              8
+            ]
+          ]
+        },
+        "type": "journal-article"
+      },
+      "readingURL": "https://doi.org/10.1007/s40747-024-01465-5",
+      "authors": [
+        "Shulei Liu",
+        "Handing Wang",
+        "Wei Peng",
+        "Wen Yao"
+      ],
+      "journal": "Complex &amp; Intelligent Systems"
+    },
+    {
+      "id": "r26-surrogate-review",
+      "year": 2025,
+      "kind": "近期综述",
+      "title": "A survey of surrogate-assisted evolutionary algorithms for expensive optimization",
+      "url": "https://doi.org/10.1007/s41965-024-00165-w",
+      "checked": "2026-10-16",
+      "verification": "Springer摘要",
+      "readingLevel": "abstract",
+      "readingLocation": "Springer摘要",
+      "scopeNote": "单目标、多目标、模型构造与管理；昂贵评估的节省需要与模型误差一起判断。",
+      "metadata": {
+        "DOI": "10.1007/s41965-024-00165-w",
+        "title": [
+          "A survey of surrogate-assisted evolutionary algorithms for expensive optimization"
+        ],
+        "author": [
+          {
+            "given": "Jing",
+            "family": "Liang",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Yahang",
+            "family": "Lou",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Mingyuan",
+            "family": "Yu",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Ying",
+            "family": "Bi",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Kunjie",
+            "family": "Yu",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "container-title": [
+          "Journal of Membrane Computing"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2024,
+              8,
+              13
+            ]
+          ]
+        },
+        "published-online": {
+          "date-parts": [
+            [
+              2024,
+              8,
+              13
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2025,
+              6
+            ]
+          ]
+        },
+        "type": "journal-article"
+      },
+      "readingURL": "https://doi.org/10.1007/s41965-024-00165-w",
+      "authors": [
+        "Jing Liang",
+        "Yahang Lou",
+        "Mingyuan Yu",
+        "Ying Bi",
+        "Kunjie Yu"
+      ],
+      "journal": "Journal of Membrane Computing"
+    },
+    {
+      "id": "r26-tabu-learning",
+      "year": 2025,
+      "kind": "原始研究",
+      "title": "Exploring Tabu Tenure Policies with Machine Learning",
+      "url": "https://doi.org/10.3390/electronics14132642",
+      "checked": "2026-10-16",
+      "verification": "Crossref提供的摘要",
+      "readingLevel": "abstract",
+      "readingLocation": "Crossref提供的摘要",
+      "scopeNote": "利用动态搜索属性和实例特征设计禁忌期限；不外推具体改进数值到其他问题。",
+      "metadata": {
+        "DOI": "10.3390/electronics14132642",
+        "title": [
+          "Exploring Tabu Tenure Policies with Machine Learning"
+        ],
+        "author": [
+          {
+            "ORCID": "https://orcid.org/0000-0002-3820-8793",
+            "authenticated-orcid": false,
+            "given": "Anna",
+            "family": "Konovalenko",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "Faculty of Logistics, Molde University College, 6410 Molde, Norway"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0003-0490-9978",
+            "authenticated-orcid": false,
+            "given": "Lars Magnus",
+            "family": "Hvattum",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Faculty of Logistics, Molde University College, 6410 Molde, Norway"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "container-title": [
+          "Electronics"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2025,
+              6,
+              30
+            ]
+          ]
+        },
+        "published-online": {
+          "date-parts": [
+            [
+              2025,
+              6,
+              30
+            ]
+          ]
+        },
+        "type": "journal-article"
+      }
+    },
+    {
+      "id": "r26-vns-review",
+      "year": 2023,
+      "kind": "近期综述",
+      "title": "Variable Neighborhood Search: The power of change and simplicity",
+      "url": "https://doi.org/10.1016/j.cor.2023.106221",
+      "checked": "2026-10-16",
+      "verification": "出版社摘要",
+      "readingLevel": "abstract",
+      "readingLocation": "出版社摘要",
+      "scopeNote": "回顾VNS，并区分模型空间切换与less-is-more视角；没有据此认定所有变体都更好。",
+      "metadata": {
+        "DOI": "10.1016/j.cor.2023.106221",
+        "title": [
+          "Variable Neighborhood Search: The power of change and simplicity"
+        ],
+        "author": [
+          {
+            "given": "Jack",
+            "family": "Brimberg",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Said",
+            "family": "Salhi",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-9321-3464",
+            "authenticated-orcid": false,
+            "given": "Raca",
+            "family": "Todosijević",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Dragan",
+            "family": "Urošević",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "container-title": [
+          "Computers &amp; Operations Research"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2023,
+              7
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2023,
+              7
+            ]
+          ]
+        },
+        "type": "journal-article"
+      },
+      "readingURL": "https://doi.org/10.1016/j.cor.2023.106221",
+      "authors": [
+        "Jack Brimberg",
+        "Said Salhi",
+        "Raca Todosijević",
+        "Dragan Urošević"
+      ],
+      "journal": "Computers &amp; Operations Research"
+    },
+    {
+      "id": "review-abc-98ba57",
+      "doi": "10.1007/s10462-012-9328-0",
+      "title": "A comprehensive survey: artificial bee colony (ABC) algorithm and applications",
+      "url": "https://doi.org/10.1007/s10462-012-9328-0",
+      "year": 2014,
+      "dates": {
+        "published": [
+          2012,
+          3,
+          11
+        ],
+        "published-online": [
+          2012,
+          3,
+          11
+        ],
+        "published-print": [
+          2014,
+          6
+        ]
+      },
+      "authors": [
+        "Dervis Karaboga",
+        "Beyza Gorkemli",
+        "Celal Ozturk",
+        "Nurhan Karaboga"
+      ],
+      "journal": "Artificial Intelligence Review",
+      "kind": "同行评审综述",
+      "articleType": "review",
+      "category": "经典算法与框架",
+      "language": "英文",
+      "abstract": "",
+      "readingLevel": "abstract",
+      "readingLabel": "已核读摘要",
+      "readingLocation": "Springer 摘要与出版日期",
+      "scopeNote": "ABC 专题与应用综述；在线发表于2012年，正式卷期为2014年；作者包含算法提出者，不能视为独立第三方复现。",
+      "publicationType": "journal-article",
+      "checked": "2026-10-16",
+      "recordDOI": "10.1007/s10462-012-9328-0",
+      "readingURL": "https://link.springer.com/article/10.1007/s10462-012-9328-0"
+    },
+    {
+      "id": "review-aco-cb45b0",
+      "doi": "10.1109/mci.2006.329691",
+      "title": "Ant colony optimization",
+      "url": "https://doi.org/10.1109/mci.2006.329691",
+      "year": 2006,
+      "dates": {
+        "published": [
+          2006,
+          11
+        ],
+        "published-print": [
+          2006,
+          11
+        ]
+      },
+      "authors": [
+        "Marco Dorigo",
+        "Mauro Birattari",
+        "Thomas Stutzle"
+      ],
+      "journal": "IEEE Computational Intelligence Magazine",
+      "kind": "同行评审综述",
+      "articleType": "review",
+      "category": "经典算法与框架",
+      "language": "英文",
+      "abstract": "",
+      "readingLevel": "metadata",
+      "readingLabel": "书目收录",
+      "readingLocation": "已保存的书目记录；本轮未核读正文",
+      "scopeNote": "当前仅作主题与书目入口；不据此确认量化性能或领域共识。",
+      "publicationType": "journal-article",
+      "checked": "2026-10-16",
+      "recordDOI": "10.1109/mci.2006.329691"
+    },
+    {
+      "id": "review-coverage-abc-scheduling-44c34a",
+      "doi": "10.1007/s10878-025-01296-1",
+      "title": "A review on the versions of artificial bee colony algorithm for scheduling problems",
+      "url": "https://doi.org/10.1007/s10878-025-01296-1",
+      "year": 2025,
+      "dates": {
+        "published": [
+          2025,
+          5
+        ],
+        "published-online": [
+          2025,
+          5,
+          7
+        ],
+        "published-print": [
+          2025,
+          5
+        ]
+      },
+      "authors": [
+        "Beyza Gorkemli",
+        "Ebubekir Kaya",
+        "Dervis Karaboga",
+        "Bahriye Akay"
+      ],
+      "journal": "Journal of Combinatorial Optimization",
+      "kind": "同行评审综述",
+      "articleType": "review",
+      "category": "经典算法与框架",
+      "language": "英文",
+      "abstract": "",
+      "readingLevel": "metadata",
+      "readingLabel": "书目收录",
+      "readingLocation": "已保存的书目记录；本轮未核读正文",
+      "scopeNote": "当前仅作主题与书目入口；不据此确认量化性能或领域共识。",
+      "publicationType": "journal-article",
+      "checked": "2026-10-16",
+      "recordDOI": "10.1007/s10878-025-01296-1"
+    },
+    {
+      "id": "review-coverage-alns-99af44",
+      "doi": "10.1016/j.cor.2022.105903",
+      "title": "A survey of adaptive large neighborhood search algorithms and applications",
+      "url": "https://doi.org/10.1016/j.cor.2022.105903",
+      "year": 2022,
+      "dates": {
+        "published": [
+          2022,
+          10
+        ],
+        "published-print": [
+          2022,
+          10
+        ]
+      },
+      "authors": [
+        "Setyo Tri Windras Mara",
+        "Rachmadi Norcahyo",
+        "Panca Jodiawan",
+        "Luluk Lusiantoro",
+        "Achmad Pratama Rifai"
+      ],
+      "journal": "Computers &amp; Operations Research",
+      "kind": "同行评审综述",
+      "articleType": "review",
+      "category": "规模、表征与搜索框架",
+      "language": "英文",
+      "abstract": "",
+      "readingLevel": "metadata",
+      "readingLabel": "书目收录",
+      "readingLocation": "已保存的书目记录；本轮未核读正文",
+      "scopeNote": "当前仅作主题与书目入口；不据此确认量化性能或领域共识。",
+      "publicationType": "journal-article",
+      "checked": "2026-10-16",
+      "recordDOI": "10.1016/j.cor.2022.105903"
+    },
+    {
+      "id": "review-coverage-annealing-8aebc6",
+      "doi": "10.1057/palgrave.jors.2602068",
+      "title": "A survey of simulated annealing as a tool for single and multiobjective optimization",
+      "url": "https://doi.org/10.1057/palgrave.jors.2602068",
+      "year": 2006,
+      "dates": {
+        "published": [
+          2006,
+          10
+        ],
+        "published-online": [
+          2017,
+          12,
+          21
+        ],
+        "published-print": [
+          2006,
+          10
+        ]
+      },
+      "authors": [
+        "B Suman",
+        "P Kumar"
+      ],
+      "journal": "Journal of the Operational Research Society",
+      "kind": "同行评审综述",
+      "articleType": "review",
+      "category": "规模、表征与搜索框架",
+      "language": "英文",
+      "abstract": "",
+      "readingLevel": "metadata",
+      "readingLabel": "书目收录",
+      "readingLocation": "已保存的书目记录；本轮未核读正文",
+      "scopeNote": "当前仅作主题与书目入口；不据此确认量化性能或领域共识。",
+      "publicationType": "journal-article",
+      "checked": "2026-10-16",
+      "recordDOI": "10.1057/palgrave.jors.2602068"
+    },
+    {
+      "id": "review-coverage-de-update-new-0a1e7e",
+      "doi": "10.1016/j.swevo.2025.101879",
+      "title": "Surrogate-assisted differential evolution: A survey",
+      "url": "https://doi.org/10.1016/j.swevo.2025.101879",
+      "year": 2025,
+      "dates": {
+        "published": [
+          2025,
+          4
+        ],
+        "published-print": [
+          2025,
+          4
+        ]
+      },
+      "authors": [
+        "Laiqi Yu",
+        "Zhenyu Meng",
+        "Lingping Kong",
+        "Vaclav Snasel",
+        "Jeng-Shyang Pan"
+      ],
+      "journal": "Swarm and Evolutionary Computation",
+      "kind": "同行评审综述",
+      "articleType": "review",
+      "category": "复杂优化与混合机制",
+      "language": "英文",
+      "abstract": "",
+      "readingLevel": "metadata",
+      "readingLabel": "书目收录",
+      "readingLocation": "已保存的书目记录；本轮未核读正文",
+      "scopeNote": "当前仅作主题与书目入口；不据此确认量化性能或领域共识。",
+      "publicationType": "journal-article",
+      "checked": "2026-10-16",
+      "recordDOI": "10.1016/j.swevo.2025.101879"
+    },
+    {
+      "id": "review-coverage-eda-5a577c",
+      "doi": "10.1016/j.swevo.2011.08.003",
+      "title": "An introduction and survey of estimation of distribution algorithms",
+      "url": "https://doi.org/10.1016/j.swevo.2011.08.003",
+      "year": 2011,
+      "dates": {
+        "published": [
+          2011,
+          9
+        ],
+        "published-print": [
+          2011,
+          9
+        ]
+      },
+      "authors": [
+        "Mark Hauschild",
+        "Martin Pelikan"
+      ],
+      "journal": "Swarm and Evolutionary Computation",
+      "kind": "同行评审综述",
+      "articleType": "review",
+      "category": "规模、表征与搜索框架",
+      "language": "英文",
+      "abstract": "",
+      "readingLevel": "metadata",
+      "readingLabel": "书目收录",
+      "readingLocation": "已保存的书目记录；本轮未核读正文",
+      "scopeNote": "当前仅作主题与书目入口；不据此确认量化性能或领域共识。",
+      "publicationType": "journal-article",
+      "checked": "2026-10-16",
+      "recordDOI": "10.1016/j.swevo.2011.08.003"
+    },
+    {
+      "id": "review-coverage-eda-b67e38",
+      "doi": "10.1007/978-1-4615-1539-5_3",
+      "title": "A Review on Estimation of Distribution Algorithms",
+      "url": "https://doi.org/10.1007/978-1-4615-1539-5_3",
+      "year": 2002,
+      "dates": {
+        "published": [
+          2002
+        ],
+        "published-print": [
+          2002
+        ]
+      },
+      "authors": [
+        "P. Larrañaga"
+      ],
+      "journal": "Genetic Algorithms and Evolutionary Computation Estimation of Distribution Algorithms",
+      "kind": "综述章节",
+      "articleType": "review",
+      "category": "规模、表征与搜索框架",
+      "language": "英文",
+      "abstract": "",
+      "readingLevel": "metadata",
+      "readingLabel": "书目收录",
+      "readingLocation": "已保存的书目记录；本轮未核读正文",
+      "scopeNote": "当前仅作主题与书目入口；不据此确认量化性能或领域共识。",
+      "publicationType": "book-chapter",
+      "checked": "2026-10-16",
+      "recordDOI": "10.1007/978-1-4615-1539-5_3"
+    },
+    {
+      "id": "review-coverage-ga-update-9e7f02",
+      "doi": "10.1007/s11042-020-10139-6",
+      "title": "A review on genetic algorithm: past, present, and future",
+      "url": "https://doi.org/10.1007/s11042-020-10139-6",
+      "year": 2021,
+      "dates": {
+        "published": [
+          2020,
+          10,
+          31
+        ],
+        "published-online": [
+          2020,
+          10,
+          31
+        ],
+        "published-print": [
+          2021,
+          2
+        ]
+      },
+      "authors": [
+        "Sourabh Katoch",
+        "Sumit Singh Chauhan",
+        "Vijay Kumar"
+      ],
+      "journal": "Multimedia Tools and Applications",
+      "kind": "同行评审综述",
+      "articleType": "review",
+      "category": "行业与问题应用",
+      "language": "英文",
+      "abstract": "",
+      "readingLevel": "metadata",
+      "readingLabel": "书目收录",
+      "readingLocation": "已保存的书目记录；本轮未核读正文",
+      "scopeNote": "当前仅作主题与书目入口；不据此确认量化性能或领域共识。",
+      "publicationType": "journal-article",
+      "checked": "2026-10-16",
+      "recordDOI": "10.1007/s11042-020-10139-6"
+    },
+    {
+      "id": "review-coverage-multitask-a-2e812e",
+      "doi": "10.1016/j.asoc.2023.110545",
+      "title": "What makes evolutionary multi-task optimization better: A comprehensive survey",
+      "url": "https://doi.org/10.1016/j.asoc.2023.110545",
+      "year": 2023,
+      "dates": {
+        "published": [
+          2023,
+          9
+        ],
+        "published-print": [
+          2023,
+          9
+        ]
+      },
+      "authors": [
+        "Hong Zhao",
+        "Xuhui Ning",
+        "Xiaotao Liu",
+        "Chao Wang",
+        "Jing Liu"
+      ],
+      "journal": "Applied Soft Computing",
+      "kind": "同行评审综述",
+      "articleType": "review",
+      "category": "规模、表征与搜索框架",
+      "language": "英文",
+      "abstract": "",
+      "readingLevel": "metadata",
+      "readingLabel": "书目收录",
+      "readingLocation": "已保存的书目记录；本轮未核读正文",
+      "scopeNote": "当前仅作主题与书目入口；不据此确认量化性能或领域共识。",
+      "publicationType": "journal-article",
+      "checked": "2026-10-16",
+      "recordDOI": "10.1016/j.asoc.2023.110545"
+    },
+    {
+      "id": "review-coverage-multitask-b-ed4e18",
+      "doi": "10.1016/j.asoc.2023.110182",
+      "title": "Knowledge transfer in evolutionary multi-task optimization: A survey",
+      "url": "https://doi.org/10.1016/j.asoc.2023.110182",
+      "year": 2023,
+      "dates": {
+        "published": [
+          2023,
+          5
+        ],
+        "published-print": [
+          2023,
+          5
+        ]
+      },
+      "authors": [
+        "Ziying Tan",
+        "Linbo Luo",
+        "Jinghui Zhong"
+      ],
+      "journal": "Applied Soft Computing",
+      "kind": "同行评审综述",
+      "articleType": "review",
+      "category": "规模、表征与搜索框架",
+      "language": "英文",
+      "abstract": "",
+      "readingLevel": "metadata",
+      "readingLabel": "书目收录",
+      "readingLocation": "已保存的书目记录；本轮未核读正文",
+      "scopeNote": "当前仅作主题与书目入口；不据此确认量化性能或领域共识。",
+      "publicationType": "journal-article",
+      "checked": "2026-10-16",
+      "recordDOI": "10.1016/j.asoc.2023.110182"
+    },
+    {
+      "id": "review-coverage-pso-new-02c596",
+      "doi": "10.1109/access.2022.3142859",
+      "title": "Particle Swarm Optimization: A Comprehensive Survey",
+      "url": "https://doi.org/10.1109/access.2022.3142859",
+      "year": 2022,
+      "dates": {
+        "published": [
+          2022
+        ],
+        "published-print": [
+          2022
+        ]
+      },
+      "authors": [
+        "Tareq M. Shami",
+        "Ayman A. El-Saleh",
+        "Mohammed Alswaitti",
+        "Qasem Al-Tashi",
+        "Mhd Amen Summakieh",
+        "Seyedali Mirjalili"
+      ],
+      "journal": "IEEE Access",
+      "kind": "同行评审综述",
+      "articleType": "review",
+      "category": "经典算法与框架",
+      "language": "英文",
+      "abstract": "",
+      "readingLevel": "metadata",
+      "readingLabel": "书目收录",
+      "readingLocation": "已保存的书目记录；本轮未核读正文",
+      "scopeNote": "当前仅作主题与书目入口；不据此确认量化性能或领域共识。",
+      "publicationType": "journal-article",
+      "checked": "2026-10-16",
+      "recordDOI": "10.1109/access.2022.3142859"
+    },
+    {
+      "id": "review-coverage-set-pso-8d9bec",
+      "doi": "10.3390/math11132980",
+      "title": "Set-Based Particle Swarm Optimisation: A Review",
+      "url": "https://doi.org/10.3390/math11132980",
+      "year": 2023,
+      "dates": {
+        "published": [
+          2023,
+          7,
+          4
+        ],
+        "published-online": [
+          2023,
+          7,
+          4
+        ]
+      },
+      "authors": [
+        "Jean-Pierre van Zyl",
+        "Andries Petrus Engelbrecht"
+      ],
+      "journal": "Mathematics",
+      "kind": "同行评审综述",
+      "articleType": "review",
+      "category": "经典算法与框架",
+      "language": "英文",
+      "abstract": "",
+      "readingLevel": "abstract",
+      "readingLabel": "已核读摘要",
+      "readingLocation": "Crossref 提供的论文摘要",
+      "scopeNote": "重点是基于集合的PSO，不涵盖全部离散PSO；摘要对其通用性的评价需结合假设与其他方法核对。",
+      "publicationType": "journal-article",
+      "checked": "2026-10-16",
+      "recordDOI": "10.3390/math11132980"
+    },
+    {
+      "id": "review-coverage-tabu-4a1cbc",
+      "doi": "10.1287/inte.20.4.74",
+      "title": "Tabu Search: A Tutorial",
+      "url": "https://doi.org/10.1287/inte.20.4.74",
+      "year": 1990,
+      "dates": {
+        "published": [
+          1990,
+          8
+        ],
+        "published-print": [
+          1990,
+          8
+        ]
+      },
+      "authors": [
+        "Fred Glover"
+      ],
+      "journal": "Interfaces",
+      "kind": "同行评审教程",
+      "articleType": "tutorial",
+      "category": "规模、表征与搜索框架",
+      "language": "英文",
+      "abstract": "",
+      "readingLevel": "abstract",
+      "readingLabel": "已核读摘要",
+      "readingLocation": "Crossref 提供的论文摘要",
+      "scopeNote": "将禁忌搜索解释为利用记忆、禁忌限制、特赦与强化/分散策略引导搜索的框架；教程中的应用例子不证明普遍优胜。",
+      "publicationType": "journal-article",
+      "checked": "2026-10-16",
+      "recordDOI": "10.1287/inte.20.4.74"
+    },
+    {
+      "id": "review-coverage-theory-684479",
+      "doi": "10.1145/3472304",
+      "title": "A Survey on Recent Progress in the Theory of Evolutionary Algorithms for Discrete Optimization",
+      "url": "https://doi.org/10.1145/3472304",
+      "year": 2021,
+      "dates": {
+        "published": [
+          2021,
+          10,
+          13
+        ],
+        "published-online": [
+          2021,
+          10,
+          13
+        ],
+        "published-print": [
+          2021,
+          12,
+          31
+        ]
+      },
+      "authors": [
+        "Benjamin Doerr",
+        "Frank Neumann"
+      ],
+      "journal": "ACM Transactions on Evolutionary Learning and Optimization",
+      "kind": "同行评审综述",
+      "articleType": "review",
+      "category": "理论、景观与实验方法",
+      "language": "英文",
+      "abstract": "",
+      "readingLevel": "abstract",
+      "readingLabel": "已核读摘要",
+      "readingLocation": "Crossref 提供的论文摘要",
+      "scopeNote": "范围是离散优化理论，包括运行时间、参数、随机与动态问题、EDA及漂移分析；不能直接外推连续工程任务。",
+      "publicationType": "journal-article",
+      "checked": "2026-10-16",
+      "recordDOI": "10.1145/3472304"
+    },
+    {
+      "id": "review-de-5942be",
+      "doi": "10.1109/tevc.2010.2059031",
+      "title": "Differential Evolution: A Survey of the State-of-the-Art",
+      "url": "https://doi.org/10.1109/tevc.2010.2059031",
+      "year": 2011,
+      "dates": {
+        "published": [
+          2011,
+          2
+        ],
+        "published-print": [
+          2011,
+          2
+        ]
+      },
+      "authors": [
+        "Swagatam Das",
+        "Ponnuthurai Nagaratnam Suganthan"
+      ],
+      "journal": "IEEE Transactions on Evolutionary Computation",
+      "kind": "同行评审综述",
+      "articleType": "review",
+      "category": "经典算法与框架",
+      "language": "英文",
+      "abstract": "",
+      "readingLevel": "metadata",
+      "readingLabel": "书目收录",
+      "readingLocation": "已保存的书目记录；本轮未核读正文",
+      "scopeNote": "当前仅作主题与书目入口；不据此确认量化性能或领域共识。",
+      "publicationType": "journal-article",
+      "checked": "2026-10-16",
+      "recordDOI": "10.1109/tevc.2010.2059031"
+    },
+    {
+      "id": "review-de-d01ad3",
+      "doi": "10.1016/j.swevo.2016.01.004",
+      "title": "Recent advances in differential evolution – An updated survey",
+      "url": "https://doi.org/10.1016/j.swevo.2016.01.004",
+      "year": 2016,
+      "dates": {
+        "published": [
+          2016,
+          4
+        ],
+        "published-print": [
+          2016,
+          4
+        ]
+      },
+      "authors": [
+        "Swagatam Das",
+        "Sankha Subhra Mullick",
+        "P.N. Suganthan"
+      ],
+      "journal": "Swarm and Evolutionary Computation",
+      "kind": "同行评审综述",
+      "articleType": "review",
+      "category": "经典算法与框架",
+      "language": "英文",
+      "abstract": "",
+      "readingLevel": "metadata",
+      "readingLabel": "书目收录",
+      "readingLocation": "已保存的书目记录；本轮未核读正文",
+      "scopeNote": "当前仅作主题与书目入口；不据此确认量化性能或领域共识。",
+      "publicationType": "journal-article",
+      "checked": "2026-10-16",
+      "recordDOI": "10.1016/j.swevo.2016.01.004"
+    },
+    {
+      "id": "review-ga-38fcbe",
+      "doi": "10.1007/bf00175354",
+      "title": "A genetic algorithm tutorial",
+      "url": "https://doi.org/10.1007/bf00175354",
+      "year": 1994,
+      "dates": {
+        "published": [
+          1994,
+          6
+        ],
+        "published-print": [
+          1994,
+          6
+        ]
+      },
+      "authors": [
+        "Darrell Whitley"
+      ],
+      "journal": "Statistics and Computing",
+      "kind": "同行评审教程",
+      "articleType": "tutorial",
+      "category": "经典算法与框架",
+      "language": "英文",
+      "abstract": "",
+      "readingLevel": "metadata",
+      "readingLabel": "书目收录",
+      "readingLocation": "已保存的书目记录；本轮未核读正文",
+      "scopeNote": "当前仅作主题与书目入口；不据此确认量化性能或领域共识。",
+      "publicationType": "journal-article",
+      "checked": "2026-10-16",
+      "recordDOI": "10.1007/bf00175354"
+    },
+    {
+      "id": "review-hyper-3f59ee",
+      "doi": "10.1057/jors.2013.71",
+      "title": "Hyper-heuristics: a survey of the state of the art",
+      "url": "https://doi.org/10.1057/jors.2013.71",
+      "year": 2013,
+      "dates": {
+        "published": [
+          2013,
+          12
+        ],
+        "published-online": [
+          2017,
+          12,
+          21
+        ],
+        "published-print": [
+          2013,
+          12
+        ]
+      },
+      "authors": [
+        "Edmund K Burke",
+        "Michel Gendreau",
+        "Matthew Hyde",
+        "Graham Kendall",
+        "Gabriela Ochoa",
+        "Ender Özcan",
+        "Rong Qu"
+      ],
+      "journal": "Journal of the Operational Research Society",
+      "kind": "同行评审综述",
+      "articleType": "review",
+      "category": "学习与自动设计",
+      "language": "英文",
+      "abstract": "",
+      "readingLevel": "abstract",
+      "readingLabel": "已核读摘要",
+      "readingLocation": "Stirling 正式论文机构库摘要",
+      "scopeNote": "以启发式的选择或生成为核心；公开作者稿与正式记录作者列表不同，书目采用正式发表记录。",
+      "publicationType": "journal-article",
+      "checked": "2026-10-16",
+      "recordDOI": "10.1057/jors.2013.71",
+      "readingURL": "https://dspace.stir.ac.uk/handle/1893/18261"
+    },
+    {
+      "id": "review-hyper-a1ea2b",
+      "doi": "10.1007/s10462-025-11486-2",
+      "title": "Multi-objective hyper-heuristics: a survey",
+      "url": "https://doi.org/10.1007/s10462-025-11486-2",
+      "year": 2026,
+      "dates": {
+        "published": [
+          2026,
+          1,
+          8
+        ],
+        "published-online": [
+          2026,
+          1,
+          8
+        ]
+      },
+      "authors": [
+        "Julio Juárez",
+        "Hugo Terashima-Marín",
+        "Carlos A. Coello Coello"
+      ],
+      "journal": "Artificial Intelligence Review",
+      "kind": "同行评审综述",
+      "articleType": "review",
+      "category": "学习与自动设计",
+      "language": "英文",
+      "abstract": "",
+      "readingLevel": "sections",
+      "readingLabel": "已核读指定章节",
+      "readingLocation": "Springer 摘要与第1节",
+      "scopeNote": "在多目标超启发式范围内组织选择、生成、组合与配置；引言区分 Pareto 折中与解集近似，不提供所有问题上的优胜算法。",
+      "publicationType": "journal-article",
+      "checked": "2026-10-16",
+      "recordDOI": "10.1007/s10462-025-11486-2",
+      "readingURL": "https://link.springer.com/article/10.1007/s10462-025-11486-2"
+    },
+    {
+      "id": "review-manyobjective-10a164",
+      "doi": "10.1007/978-3-319-42978-6_4",
+      "title": "Many-objective Optimization Using Evolutionary Algorithms: A Survey",
+      "url": "https://doi.org/10.1007/978-3-319-42978-6_4",
+      "year": 2017,
+      "dates": {
+        "published": [
+          2016,
+          8,
+          10
+        ],
+        "published-online": [
+          2016,
+          8,
+          10
+        ],
+        "published-print": [
+          2017
+        ]
+      },
+      "authors": [
+        "Slim Bechikh",
+        "Maha Elarbi",
+        "Lamjed Ben Said"
+      ],
+      "journal": "Adaptation, Learning, and Optimization Recent Advances in Evolutionary Multi-objective Optimization",
+      "kind": "综述章节",
+      "articleType": "review",
+      "category": "复杂优化与混合机制",
+      "language": "英文",
+      "abstract": "",
+      "readingLevel": "metadata",
+      "readingLabel": "书目收录",
+      "readingLocation": "已保存的书目记录；本轮未核读正文",
+      "scopeNote": "当前仅作主题与书目入口；不据此确认量化性能或领域共识。",
+      "publicationType": "book-chapter",
+      "checked": "2026-10-16",
+      "recordDOI": "10.1007/978-3-319-42978-6_4"
+    },
+    {
+      "id": "review-manyobjective-2155ea",
+      "doi": "10.1109/access.2022.3188762",
+      "title": "A Survey of Decomposition Based Evolutionary Algorithms for Many-Objective Optimization Problems",
+      "url": "https://doi.org/10.1109/access.2022.3188762",
+      "year": 2022,
+      "dates": {
+        "published": [
+          2022
+        ],
+        "published-print": [
+          2022
+        ]
+      },
+      "authors": [
+        "Xiaofang Guo"
+      ],
+      "journal": "IEEE Access",
+      "kind": "同行评审综述",
+      "articleType": "review",
+      "category": "复杂优化与混合机制",
+      "language": "英文",
+      "abstract": "",
+      "readingLevel": "metadata",
+      "readingLabel": "书目收录",
+      "readingLocation": "已保存的书目记录；本轮未核读正文",
+      "scopeNote": "当前仅作主题与书目入口；不据此确认量化性能或领域共识。",
+      "publicationType": "journal-article",
+      "checked": "2026-10-16",
+      "recordDOI": "10.1109/access.2022.3188762"
+    },
+    {
+      "id": "review-pso-9ebaa0",
+      "doi": "10.1007/s11721-007-0002-0",
+      "title": "Particle swarm optimization",
+      "url": "https://doi.org/10.1007/s11721-007-0002-0",
+      "year": 2007,
+      "dates": {
+        "published": [
+          2007,
+          8,
+          1
+        ],
+        "published-online": [
+          2007,
+          8,
+          1
+        ],
+        "published-print": [
+          2007,
+          10,
+          17
+        ]
+      },
+      "authors": [
+        "Riccardo Poli",
+        "James Kennedy",
+        "Tim Blackwell"
+      ],
+      "journal": "Swarm Intelligence",
+      "kind": "同行评审综述",
+      "articleType": "review",
+      "category": "经典算法与框架",
+      "language": "英文",
+      "abstract": "",
+      "readingLevel": "abstract",
+      "readingLabel": "已核读摘要",
+      "readingLocation": "Springer 摘要与参考文献列表",
+      "scopeNote": "回顾 PSO 的变体、参数、理论与应用；参考文献含离散和二进制适配，不能将连续版本综述当作全部实现规范。",
+      "publicationType": "journal-article",
+      "checked": "2026-10-16",
+      "recordDOI": "10.1007/s11721-007-0002-0",
+      "readingURL": "https://link.springer.com/article/10.1007/s11721-007-0002-0"
+    },
+    {
+      "id": "review-pso-modern-25f3c4",
+      "doi": "10.1162/evco_r_00180",
+      "title": "Particle Swarm Optimization for Single Objective Continuous Space Problems: A Review",
+      "url": "https://doi.org/10.1162/evco_r_00180",
+      "year": 2017,
+      "dates": {
+        "published": [
+          2017,
+          3
+        ],
+        "published-print": [
+          2017,
+          3
+        ]
+      },
+      "authors": [
+        "Mohammad Reza Bonyadi",
+        "Zbigniew Michalewicz"
+      ],
+      "journal": "Evolutionary Computation",
+      "kind": "同行评审综述",
+      "articleType": "review",
+      "category": "经典算法与框架",
+      "language": "英文",
+      "abstract": "",
+      "readingLevel": "abstract",
+      "readingLabel": "已核读摘要",
+      "readingLocation": "MIT Press 摘要",
+      "scopeNote": "范围明确限定为单目标连续空间；不能直接替代离散、约束、多目标 PSO 的专门证据。",
+      "publicationType": "journal-article",
+      "checked": "2026-10-16",
+      "recordDOI": "10.1162/evco_r_00180",
+      "readingURL": "https://direct.mit.edu/evco/article/25/1/1/1040/Particle-Swarm-Optimization-for-Single-Objective"
+    },
+    {
+      "id": "review-qd-0bd86b",
+      "doi": "10.1007/978-3-030-66515-9_4",
+      "title": "Quality-Diversity Optimization: A Novel Branch of Stochastic Optimization",
+      "url": "https://doi.org/10.1007/978-3-030-66515-9_4",
+      "year": 2021,
+      "dates": {
+        "published": [
+          2021
+        ],
+        "published-online": [
+          2021,
+          1,
+          4
+        ],
+        "published-print": [
+          2021
+        ]
+      },
+      "authors": [
+        "Konstantinos Chatzilygeroudis",
+        "Antoine Cully",
+        "Vassilis Vassiliades",
+        "Jean-Baptiste Mouret"
+      ],
+      "journal": "Springer Optimization and Its Applications Black Box Optimization, Machine Learning, and No-Free Lunch Theorems",
+      "kind": "综述章节",
+      "articleType": "review",
+      "category": "复杂优化与混合机制",
+      "language": "英文",
+      "abstract": "",
+      "readingLevel": "metadata",
+      "readingLabel": "书目收录",
+      "readingLocation": "已保存的书目记录；本轮未核读正文",
+      "scopeNote": "当前仅作主题与书目入口；不据此确认量化性能或领域共识。",
+      "publicationType": "book-chapter",
+      "checked": "2026-10-16",
+      "recordDOI": "10.1007/978-3-030-66515-9_4"
+    },
+    {
+      "id": "review-surrogates-2e8c4a",
+      "doi": "10.1016/j.paerosci.2008.11.001",
+      "title": "Recent advances in surrogate-based optimization",
+      "url": "https://doi.org/10.1016/j.paerosci.2008.11.001",
+      "year": 2009,
+      "dates": {
+        "published": [
+          2009,
+          1
+        ],
+        "published-print": [
+          2009,
+          1
+        ]
+      },
+      "authors": [
+        "Alexander I.J. Forrester",
+        "Andy J. Keane"
+      ],
+      "journal": "Progress in Aerospace Sciences",
+      "kind": "同行评审综述",
+      "articleType": "review",
+      "category": "复杂优化与混合机制",
+      "language": "英文",
+      "abstract": "",
+      "readingLevel": "sections",
+      "readingLabel": "已核读指定章节",
+      "readingLocation": "ScienceDirect 摘要与引言预览",
+      "scopeNote": "以昂贵工程评估为背景讨论代理模型与优化策略；作者明确说明选择范围并非穷尽，其应用视角不等于整个进化计算领域。",
+      "publicationType": "journal-article",
+      "checked": "2026-10-16",
+      "recordDOI": "10.1016/j.paerosci.2008.11.001",
+      "readingURL": "https://www.sciencedirect.com/science/article/pii/S0376042108000766"
+    },
+    {
+      "id": "review-surrogates-4ce90e",
+      "doi": "10.1016/j.swevo.2011.05.001",
+      "title": "Surrogate-assisted evolutionary computation: Recent advances and future challenges",
+      "url": "https://doi.org/10.1016/j.swevo.2011.05.001",
+      "year": 2011,
+      "dates": {
+        "published": [
+          2011,
+          6
+        ],
+        "published-print": [
+          2011,
+          6
+        ]
+      },
+      "authors": [
+        "Yaochu Jin"
+      ],
+      "journal": "Swarm and Evolutionary Computation",
+      "kind": "同行评审综述",
+      "articleType": "review",
+      "category": "复杂优化与混合机制",
+      "language": "英文",
+      "abstract": "",
+      "readingLevel": "abstract",
+      "readingLabel": "已核读摘要",
+      "readingLocation": "Surrey 机构库摘要",
+      "scopeNote": "回顾代理辅助进化计算的进展与挑战；与 Jin 早期相关综述具有作者延续，不能仅按论文数量增加独立证据权重。",
+      "publicationType": "journal-article",
+      "checked": "2026-10-16",
+      "recordDOI": "10.1016/j.swevo.2011.05.001",
+      "readingURL": "https://openresearch.surrey.ac.uk/esploro/outputs/journalArticle/Surrogate-assisted-evolutionary-computation-Recent-advances-and/99511358902346"
+    },
+    {
+      "id": "review-vns-abbc38",
+      "doi": "10.1007/s10479-009-0657-6",
+      "title": "Variable neighbourhood search: methods and applications",
+      "url": "https://doi.org/10.1007/s10479-009-0657-6",
+      "year": 2010,
+      "dates": {
+        "published": [
+          2009,
+          10,
+          28
+        ],
+        "published-online": [
+          2009,
+          10,
+          28
+        ],
+        "published-print": [
+          2010,
+          3
+        ]
+      },
+      "authors": [
+        "Pierre Hansen",
+        "Nenad Mladenović",
+        "José A. Moreno Pérez"
+      ],
+      "journal": "Annals of Operations Research",
+      "kind": "同行评审综述",
+      "articleType": "review",
+      "category": "经典算法与框架",
+      "language": "英文",
+      "abstract": "",
+      "readingLevel": "metadata",
+      "readingLabel": "书目收录",
+      "readingLocation": "已保存的书目记录；本轮未核读正文",
+      "scopeNote": "当前仅作主题与书目入口；不据此确认量化性能或领域共识。",
+      "publicationType": "journal-article",
+      "checked": "2026-10-16",
+      "recordDOI": "10.1007/s10479-009-0657-6"
     }
   ],
   "readingGuide": [

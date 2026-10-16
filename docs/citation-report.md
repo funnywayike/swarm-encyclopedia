@@ -1,5 +1,5 @@
 # 文献引用核对报告（自动生成）
-<!-- citations-sha256: 7e6349d82a7f385ec88935f1f32bdbb1e637192122a10bea270102ec87664f04 -->
+<!-- citations-sha256: 110db033405ab06d804a6b5049d701e0ffe2ce791a5ced109b5aba10cd8b1ecb -->
 
 来源：`data/*.json` 的正式引用字段；核对：Crossref。共 1209 条——NOMATCH 123，OK 968，SKIP 95，VERIFIED 23。
 

@@ -1,0 +1,2221 @@
+{
+  "query": "10.3390/cryst15110925",
+  "url": "https://api.crossref.org/works/10.3390%2Fcryst15110925",
+  "retrieved": "2026-10-16",
+  "response": {
+    "status": "ok",
+    "message-type": "work",
+    "message-version": "1.0.0",
+    "message": {
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            9,
+            4
+          ]
+        ],
+        "date-time": "2026-09-04T02:26:27Z",
+        "timestamp": 1788488787650,
+        "version": "build-2803163510"
+      },
+      "reference-count": 194,
+      "publisher": "MDPI AG",
+      "issue": "11",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2025,
+                10,
+                28
+              ]
+            ],
+            "date-time": "2025-10-28T00:00:00Z",
+            "timestamp": 1761609600000
+          },
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "URL": "https://creativecommons.org/licenses/by/4.0/"
+        }
+      ],
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "short-container-title": [
+        "Crystals"
+      ],
+      "abstract": "",
+      "DOI": "10.3390/cryst15110925",
+      "type": "journal-article",
+      "created": {
+        "date-parts": [
+          [
+            2025,
+            10,
+            30
+          ]
+        ],
+        "date-time": "2025-10-30T03:44:39Z",
+        "timestamp": 1761795879000
+      },
+      "page": "925",
+      "update-policy": "https://doi.org/10.3390/mdpi_crossmark_policy",
+      "source": "Crossref",
+      "is-referenced-by-count": 14,
+      "title": [
+        "A Comprehensive Review of Machine-Learning Approaches for Crystal Structure/Property Prediction"
+      ],
+      "prefix": "10.3390",
+      "volume": "15",
+      "author": [
+        {
+          "given": "Mostafa",
+          "family": "Sadeghian",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "Faculty of Mechanical Engineering and Design, Kaunas University of Technology, Studentu 56, 51424 Kaunas, Lithuania"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0003-1226-062X",
+          "authenticated-orcid": false,
+          "given": "Arvydas",
+          "family": "Palevicius",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Faculty of Mechanical Engineering and Design, Kaunas University of Technology, Studentu 56, 51424 Kaunas, Lithuania"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-1055-2568",
+          "authenticated-orcid": false,
+          "given": "Giedrius",
+          "family": "Janusas",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Faculty of Mechanical Engineering and Design, Kaunas University of Technology, Studentu 56, 51424 Kaunas, Lithuania"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "1968",
+      "published-online": {
+        "date-parts": [
+          [
+            2025,
+            10,
+            28
+          ]
+        ]
+      },
+      "reference": [
+        {
+          "key": "ref_1",
+          "doi-asserted-by": "crossref",
+          "first-page": "5374",
+          "DOI": "10.1021/acs.cgd.3c01251",
+          "article-title": "Recent Advances in the Application of Machine Learning to Crystal Behavior and Crystallization Process Control",
+          "volume": "24",
+          "author": "Lu",
+          "year": "2024",
+          "journal-title": "Cryst. Growth Des."
+        },
+        {
+          "key": "ref_2",
+          "doi-asserted-by": "crossref",
+          "first-page": "331",
+          "DOI": "10.1038/s41578-019-0101-8",
+          "article-title": "Structure prediction drives materials discovery",
+          "volume": "4",
+          "author": "Oganov",
+          "year": "2019",
+          "journal-title": "Nat. Rev. Mater."
+        },
+        {
+          "key": "ref_3",
+          "doi-asserted-by": "crossref",
+          "first-page": "227",
+          "DOI": "10.1021/ar1001318",
+          "article-title": "How Evolutionary Crystal Structure Prediction Works—And Why",
+          "volume": "44",
+          "author": "Oganov",
+          "year": "2011",
+          "journal-title": "Acc. Chem. Res."
+        },
+        {
+          "key": "ref_4",
+          "doi-asserted-by": "crossref",
+          "first-page": "053210",
+          "DOI": "10.1063/1.4949361",
+          "article-title": "Perspective: Role of structure prediction in materials discovery and design",
+          "volume": "4",
+          "author": "Needs",
+          "year": "2016",
+          "journal-title": "APL Mater."
+        },
+        {
+          "key": "ref_5",
+          "doi-asserted-by": "crossref",
+          "first-page": "112",
+          "DOI": "10.1038/s41524-022-00796-6",
+          "article-title": "High-throughput predictions of metal–organic framework electronic properties: Theoretical challenges, graph neural networks, and data exploration",
+          "volume": "8",
+          "author": "Rosen",
+          "year": "2022",
+          "journal-title": "Npj Comput. Mater."
+        },
+        {
+          "key": "ref_6",
+          "doi-asserted-by": "crossref",
+          "first-page": "197",
+          "DOI": "10.1038/s41524-023-01120-6",
+          "article-title": "Crystal structure prediction at finite temperatures",
+          "volume": "9",
+          "author": "Kruglov",
+          "year": "2023",
+          "journal-title": "Npj Comput. Mater."
+        },
+        {
+          "key": "ref_7",
+          "doi-asserted-by": "crossref",
+          "first-page": "247",
+          "DOI": "10.1016/j.pnsc.2019.04.003",
+          "article-title": "Density functional theory calculations: A powerful tool to simulate and design high-performance energy storage and conversion materials",
+          "volume": "29",
+          "author": "Wu",
+          "year": "2019",
+          "journal-title": "Prog. Nat. Sci. Mater. Int."
+        },
+        {
+          "key": "ref_8",
+          "doi-asserted-by": "crossref",
+          "first-page": "3564",
+          "DOI": "10.1021/acs.chemmater.9b01294",
+          "article-title": "Graph Networks as a Universal Machine Learning Framework for Molecules and Crystals",
+          "volume": "31",
+          "author": "Chen",
+          "year": "2019",
+          "journal-title": "Chem. Mater."
+        },
+        {
+          "key": "ref_9",
+          "doi-asserted-by": "crossref",
+          "first-page": "145301",
+          "DOI": "10.1103/PhysRevLett.120.145301",
+          "article-title": "Crystal Graph Convolutional Neural Networks for an Accurate and Interpretable Prediction of Material Properties",
+          "volume": "120",
+          "author": "Xie",
+          "year": "2018",
+          "journal-title": "Phys. Rev. Lett."
+        },
+        {
+          "key": "ref_10",
+          "doi-asserted-by": "crossref",
+          "first-page": "011002",
+          "DOI": "10.1063/1.4812323",
+          "article-title": "Commentary: The Materials Project: A materials genome approach to accelerating materials innovation",
+          "volume": "1",
+          "author": "Jain",
+          "year": "2013",
+          "journal-title": "APL Mater."
+        },
+        {
+          "key": "ref_11",
+          "doi-asserted-by": "crossref",
+          "first-page": "547",
+          "DOI": "10.1038/s41586-018-0337-2",
+          "article-title": "Machine learning for molecular and materials science",
+          "volume": "559",
+          "author": "Butler",
+          "year": "2018",
+          "journal-title": "Nature"
+        },
+        {
+          "key": "ref_12",
+          "doi-asserted-by": "crossref",
+          "first-page": "5099",
+          "DOI": "10.1111/jace.17756",
+          "article-title": "Theoretical study on composition-dependent properties of ZnO·nAl2O3 spinels. Part I: Optical and dielectric",
+          "volume": "104",
+          "author": "Xu",
+          "year": "2021",
+          "journal-title": "J. Am. Ceram. Soc."
+        },
+        {
+          "key": "ref_13",
+          "doi-asserted-by": "crossref",
+          "first-page": "100683",
+          "DOI": "10.1016/j.nxmate.2025.100683",
+          "article-title": "Applications of density functional theory and machine learning in nanomaterials: A review",
+          "volume": "8",
+          "author": "Nyangiwe",
+          "year": "2025",
+          "journal-title": "Next Mater."
+        },
+        {
+          "key": "ref_14",
+          "doi-asserted-by": "crossref",
+          "first-page": "229",
+          "DOI": "10.1038/s41524-025-01728-w",
+          "article-title": "Modeling crystal defects using defect informed neural networks",
+          "volume": "11",
+          "author": "Yang",
+          "year": "2025",
+          "journal-title": "Npj Comput. Mater."
+        },
+        {
+          "key": "ref_15",
+          "doi-asserted-by": "crossref",
+          "first-page": "174107",
+          "DOI": "10.1103/PhysRevB.98.174107",
+          "article-title": "Prediction of novel high-pressure H2O-NaCl and carbon oxide compounds with a symmetry-driven structure search algorithm",
+          "volume": "98",
+          "author": "Domingos",
+          "year": "2018",
+          "journal-title": "Phys. Rev. B"
+        },
+        {
+          "key": "ref_16",
+          "doi-asserted-by": "crossref",
+          "first-page": "174111",
+          "DOI": "10.1063/5.0049309",
+          "article-title": "Ab initio random structure searching for battery cathode materials",
+          "volume": "154",
+          "author": "Lu",
+          "year": "2021",
+          "journal-title": "J. Chem. Phys."
+        },
+        {
+          "key": "ref_17",
+          "doi-asserted-by": "crossref",
+          "first-page": "353",
+          "DOI": "10.1103/PhysRevLett.65.353",
+          "article-title": "Special quasirandom structures",
+          "volume": "65",
+          "author": "Zunger",
+          "year": "1990",
+          "journal-title": "Phys. Rev. Lett."
+        },
+        {
+          "key": "ref_18",
+          "doi-asserted-by": "crossref",
+          "first-page": "473",
+          "DOI": "10.1038/nphys625",
+          "article-title": "Structure of phase III of solid hydrogen",
+          "volume": "3",
+          "author": "Pickard",
+          "year": "2007",
+          "journal-title": "Nat. Phys."
+        },
+        {
+          "key": "ref_19",
+          "doi-asserted-by": "crossref",
+          "first-page": "125702",
+          "DOI": "10.1103/PhysRevLett.102.125702",
+          "article-title": "High-Pressure Phases of Nitrogen",
+          "volume": "102",
+          "author": "Pickard",
+          "year": "2009",
+          "journal-title": "Phys. Rev. Lett."
+        },
+        {
+          "key": "ref_20",
+          "doi-asserted-by": "crossref",
+          "first-page": "146401",
+          "DOI": "10.1103/PhysRevLett.102.146401",
+          "article-title": "Dense Low-Coordination Phases of Lithium",
+          "volume": "102",
+          "author": "Pickard",
+          "year": "2009",
+          "journal-title": "Phys. Rev. Lett."
+        },
+        {
+          "key": "ref_21",
+          "doi-asserted-by": "crossref",
+          "first-page": "849",
+          "DOI": "10.1038/s41563-020-0677-9",
+          "article-title": "Mechanism of collective interstitial ordering in Fe–C alloys",
+          "volume": "19",
+          "author": "Zhang",
+          "year": "2020",
+          "journal-title": "Nat. Mater."
+        },
+        {
+          "key": "ref_22",
+          "doi-asserted-by": "crossref",
+          "first-page": "1601",
+          "DOI": "10.1021/acs.jpcc.0c09531",
+          "article-title": "The XtalOpt Evolutionary Algorithm for Crystal Structure Prediction",
+          "volume": "125",
+          "author": "Falls",
+          "year": "2021",
+          "journal-title": "J. Phys. Chem. C"
+        },
+        {
+          "key": "ref_23",
+          "doi-asserted-by": "crossref",
+          "first-page": "1492",
+          "DOI": "10.1038/s41467-022-29241-4",
+          "article-title": "Crystal structure prediction by combining graph network and optimization algorithm",
+          "volume": "13",
+          "author": "Cheng",
+          "year": "2022",
+          "journal-title": "Nat. Commun."
+        },
+        {
+          "key": "ref_24",
+          "doi-asserted-by": "crossref",
+          "first-page": "2063",
+          "DOI": "10.1016/j.cpc.2012.05.008",
+          "article-title": "CALYPSO: A method for crystal structure prediction",
+          "volume": "183",
+          "author": "Wang",
+          "year": "2012",
+          "journal-title": "Comput. Phys. Commun."
+        },
+        {
+          "key": "ref_25",
+          "doi-asserted-by": "crossref",
+          "first-page": "094116",
+          "DOI": "10.1103/PhysRevB.82.094116",
+          "article-title": "Crystal structure prediction via particle-swarm optimization",
+          "volume": "82",
+          "author": "Wang",
+          "year": "2010",
+          "journal-title": "Phys. Rev. B"
+        },
+        {
+          "key": "ref_26",
+          "doi-asserted-by": "crossref",
+          "first-page": "489",
+          "DOI": "10.1016/j.nanoen.2018.06.079",
+          "article-title": "Direct-gap semiconducting tri-layer silicene with 29% photovoltaic efficiency",
+          "volume": "51",
+          "author": "Lv",
+          "year": "2018",
+          "journal-title": "Nano Energy"
+        },
+        {
+          "key": "ref_27",
+          "doi-asserted-by": "crossref",
+          "first-page": "244704",
+          "DOI": "10.1063/1.2210932",
+          "article-title": "Crystal structure prediction using ab initio evolutionary techniques: Principles and applications",
+          "volume": "124",
+          "author": "Oganov",
+          "year": "2006",
+          "journal-title": "J. Chem. Phys."
+        },
+        {
+          "key": "ref_28",
+          "doi-asserted-by": "crossref",
+          "first-page": "15668",
+          "DOI": "10.1021/jacs.7b06279",
+          "article-title": "Exploration of Stable Strontium Phosphide-Based Electrides: Theoretical Structure Prediction and Experimental Validation",
+          "volume": "139",
+          "author": "Wang",
+          "year": "2017",
+          "journal-title": "J. Am. Chem. Soc."
+        },
+        {
+          "key": "ref_29",
+          "doi-asserted-by": "crossref",
+          "first-page": "174114",
+          "DOI": "10.1103/PhysRevB.103.174114",
+          "article-title": "Global optimization of atomic structures with gradient-enhanced Gaussian process regression",
+          "volume": "103",
+          "author": "Kaappa",
+          "year": "2021",
+          "journal-title": "Phys. Rev. B"
+        },
+        {
+          "key": "ref_30",
+          "doi-asserted-by": "crossref",
+          "first-page": "166001",
+          "DOI": "10.1103/PhysRevLett.127.166001",
+          "article-title": "Atomic Structure Optimization with Machine-Learning Enabled Interpolation between Chemical Elements",
+          "volume": "127",
+          "author": "Kaappa",
+          "year": "2021",
+          "journal-title": "Phys. Rev. Lett."
+        },
+        {
+          "key": "ref_31",
+          "doi-asserted-by": "crossref",
+          "first-page": "245404",
+          "DOI": "10.1103/PhysRevB.105.245404",
+          "article-title": "Global optimization of atomic structure enhanced by machine learning",
+          "volume": "105",
+          "author": "Bisbo",
+          "year": "2022",
+          "journal-title": "Phys. Rev. B"
+        },
+        {
+          "key": "ref_32",
+          "doi-asserted-by": "crossref",
+          "first-page": "374",
+          "DOI": "10.1038/325374c0",
+          "article-title": "Searching potential energy surfaces by simulated annealing",
+          "volume": "325",
+          "author": "Wille",
+          "year": "1987",
+          "journal-title": "Nature"
+        },
+        {
+          "key": "ref_33",
+          "doi-asserted-by": "crossref",
+          "first-page": "144110",
+          "DOI": "10.1103/PhysRevB.78.144110",
+          "article-title": "Structure prediction based on ab initio simulated annealing for boron nitride",
+          "volume": "78",
+          "author": "Doll",
+          "year": "2008",
+          "journal-title": "Phys. Rev. B"
+        },
+        {
+          "key": "ref_34",
+          "doi-asserted-by": "crossref",
+          "first-page": "244107",
+          "DOI": "10.1063/5.0071249",
+          "article-title": "Data-efficient iterative training of Gaussian approximation potentials: Application to surface structure determination of rutile IrO2 and RuO2",
+          "volume": "155",
+          "author": "Timmermann",
+          "year": "2021",
+          "journal-title": "J. Chem. Phys."
+        },
+        {
+          "key": "ref_35",
+          "doi-asserted-by": "crossref",
+          "first-page": "641",
+          "DOI": "10.1038/nmat1691",
+          "article-title": "Predicting crystal structure by merging data mining with quantum mechanics",
+          "volume": "5",
+          "author": "Fischer",
+          "year": "2006",
+          "journal-title": "Nat. Mater."
+        },
+        {
+          "key": "ref_36",
+          "doi-asserted-by": "crossref",
+          "first-page": "120301",
+          "DOI": "10.1103/PhysRevMaterials.2.120301",
+          "article-title": "Machine learning in materials design and discovery: Examples from the present and suggestions for the future",
+          "volume": "2",
+          "author": "Gubernatis",
+          "year": "2018",
+          "journal-title": "Phys. Rev. Mater."
+        },
+        {
+          "key": "ref_37",
+          "doi-asserted-by": "crossref",
+          "first-page": "218",
+          "DOI": "10.1016/j.commatsci.2012.02.005",
+          "article-title": "AFLOW: An automatic framework for high-throughput materials discovery",
+          "volume": "58",
+          "author": "Curtarolo",
+          "year": "2012",
+          "journal-title": "Comput. Mater. Sci."
+        },
+        {
+          "key": "ref_38",
+          "doi-asserted-by": "crossref",
+          "first-page": "025201",
+          "DOI": "10.1088/1402-4896/ad1800",
+          "article-title": "Investigating hexagonal closed packed crystal lattice through QSPR modeling via linear regression analysis and Topsis",
+          "volume": "99",
+          "author": "Aslam",
+          "year": "2024",
+          "journal-title": "Phys. Scr."
+        },
+        {
+          "key": "ref_39",
+          "doi-asserted-by": "crossref",
+          "first-page": "113109",
+          "DOI": "10.1016/j.commatsci.2024.113109",
+          "article-title": "Machine learning regression model for predicting the band gap of multi-elements nonlinear optical crystals",
+          "volume": "242",
+          "author": "Yin",
+          "year": "2024",
+          "journal-title": "Comput. Mater. Sci."
+        },
+        {
+          "key": "ref_40",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Kongsompong, S., E-kobon, T., and Chumnanpuen, P. (2021). K-Nearest Neighbor and Random Forest-Based Prediction of Putative Tyrosinase Inhibitory Peptides of Abalone Haliotis diversicolor. Molecules, 26.",
+          "DOI": "10.3390/molecules26123671"
+        },
+        {
+          "key": "ref_41",
+          "doi-asserted-by": "crossref",
+          "first-page": "6234",
+          "DOI": "10.1038/s41467-021-26511-5",
+          "article-title": "Robust recognition and exploratory analysis of crystal structures via Bayesian deep learning",
+          "volume": "12",
+          "author": "Leitherer",
+          "year": "2021",
+          "journal-title": "Nat. Commun."
+        },
+        {
+          "key": "ref_42",
+          "doi-asserted-by": "crossref",
+          "first-page": "100523",
+          "DOI": "10.1016/j.apsadv.2023.100523",
+          "article-title": "Scope of machine learning in materials research—A review",
+          "volume": "18",
+          "author": "Mobarak",
+          "year": "2023",
+          "journal-title": "Appl. Surf. Sci. Adv."
+        },
+        {
+          "key": "ref_43",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Horak, J., Vrbka, J., and Suler, P. (2020). Support Vector Machine Methods and Artificial Neural Networks Used for the Development of Bankruptcy Prediction Models and their Comparison. J. Risk Financ. Manag., 13.",
+          "DOI": "10.3390/jrfm13030060"
+        },
+        {
+          "key": "ref_44",
+          "doi-asserted-by": "crossref",
+          "first-page": "127598",
+          "DOI": "10.1016/j.jcrysgro.2024.127598",
+          "article-title": "Review of machine learning applications for crystal growth research",
+          "volume": "630",
+          "author": "Kutsukake",
+          "year": "2024",
+          "journal-title": "J. Cryst. Growth"
+        },
+        {
+          "key": "ref_45",
+          "doi-asserted-by": "crossref",
+          "first-page": "13006",
+          "DOI": "10.1021/acs.chemrev.2c00141",
+          "article-title": "Applications of Artificial Intelligence and Machine Learning Algorithms to Crystallization",
+          "volume": "122",
+          "author": "Xiouras",
+          "year": "2022",
+          "journal-title": "Chem. Rev."
+        },
+        {
+          "key": "ref_46",
+          "doi-asserted-by": "crossref",
+          "first-page": "298",
+          "DOI": "10.1038/s41524-024-01471-8",
+          "article-title": "Shotgun crystal structure prediction using machine-learned formation energies",
+          "volume": "10",
+          "author": "Chang",
+          "year": "2024",
+          "journal-title": "Npj Comput. Mater."
+        },
+        {
+          "key": "ref_47",
+          "doi-asserted-by": "crossref",
+          "first-page": "110421",
+          "DOI": "10.1016/j.cclet.2024.110421",
+          "article-title": "Stable crystal structure prediction using machine learning-based formation energy and empirical potential function",
+          "volume": "36",
+          "author": "Li",
+          "year": "2025",
+          "journal-title": "Chin. Chem. Lett."
+        },
+        {
+          "key": "ref_48",
+          "doi-asserted-by": "crossref",
+          "first-page": "1361",
+          "DOI": "10.1111/jace.19518",
+          "article-title": "Machine learning-based crystal structure prediction for high-entropy oxide ceramics",
+          "volume": "107",
+          "author": "Liu",
+          "year": "2024",
+          "journal-title": "J. Am. Ceram. Soc."
+        },
+        {
+          "key": "ref_49",
+          "doi-asserted-by": "crossref",
+          "first-page": "111496",
+          "DOI": "10.1016/j.commatsci.2022.111496",
+          "article-title": "Crystal structure prediction with machine learning-based element substitution",
+          "volume": "211",
+          "author": "Kusaba",
+          "year": "2022",
+          "journal-title": "Comput. Mater. Sci."
+        },
+        {
+          "key": "ref_50",
+          "doi-asserted-by": "crossref",
+          "first-page": "100144",
+          "DOI": "10.1016/j.jalmes.2024.100144",
+          "article-title": "Improved machine learning framework for prediction of phases and crystal structures of high entropy alloys",
+          "volume": "9",
+          "author": "Dey",
+          "year": "2025",
+          "journal-title": "J. Alloys Metall. Syst."
+        },
+        {
+          "key": "ref_51",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Wang, Z., Chen, Z., Yuan, Y., and Wang, Y. (2025). CrySPAI: A New Crystal Structure Prediction Software Based on Artificial Intelligence. Inventions, 10.",
+          "DOI": "10.3390/inventions10020026"
+        },
+        {
+          "key": "ref_52",
+          "first-page": "87",
+          "article-title": "CrySPY: A crystal structure prediction tool accelerated by machine learning",
+          "volume": "1",
+          "author": "Yamashita",
+          "year": "2021",
+          "journal-title": "Sci. Technol. Adv. Mater. Methods"
+        },
+        {
+          "key": "ref_53",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Jarin, S., Yuan, Y., Zhang, M., Hu, M., Rana, M., Wang, S., and Knibbe, R. (2022). Predicting the Crystal Structure and Lattice Parameters of the Perovskite Materials via Different Machine Learning Models Based on Basic Atom Properties. Crystals, 12.",
+          "DOI": "10.3390/cryst12111570"
+        },
+        {
+          "key": "ref_54",
+          "doi-asserted-by": "crossref",
+          "first-page": "1031",
+          "DOI": "10.1038/s42256-023-00716-3",
+          "article-title": "CHGNet as a pretrained universal neural network potential for charge-informed atomistic modelling",
+          "volume": "5",
+          "author": "Deng",
+          "year": "2023",
+          "journal-title": "Nat. Mach. Intell."
+        },
+        {
+          "key": "ref_55",
+          "doi-asserted-by": "crossref",
+          "first-page": "80",
+          "DOI": "10.1038/s41586-023-06735-9",
+          "article-title": "Scaling deep learning for materials discovery",
+          "volume": "624",
+          "author": "Merchant",
+          "year": "2023",
+          "journal-title": "Nature"
+        },
+        {
+          "key": "ref_56",
+          "doi-asserted-by": "crossref",
+          "first-page": "10073",
+          "DOI": "10.1021/acs.chemrev.1c00022",
+          "article-title": "Gaussian Process Regression for Materials and Molecules",
+          "volume": "121",
+          "author": "Deringer",
+          "year": "2021",
+          "journal-title": "Chem. Rev."
+        },
+        {
+          "key": "ref_57",
+          "doi-asserted-by": "crossref",
+          "first-page": "399",
+          "DOI": "10.1146/annurev-matsci-080921-085947",
+          "article-title": "Representations of Materials for Machine Learning",
+          "volume": "53",
+          "author": "Damewood",
+          "year": "2023",
+          "journal-title": "Annu. Rev. Mater. Res."
+        },
+        {
+          "key": "ref_58",
+          "doi-asserted-by": "crossref",
+          "first-page": "137",
+          "DOI": "10.1038/s41524-021-00605-6",
+          "article-title": "High-throughput computational-experimental screening protocol for the discovery of bimetallic catalysts",
+          "volume": "7",
+          "author": "Yeo",
+          "year": "2021",
+          "journal-title": "Npj Comput. Mater."
+        },
+        {
+          "key": "ref_59",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Rittiruam, M., Noppakhun, J., Setasuban, S., Aumnongpho, N., Sriwattana, A., Boonchuay, S., Saelee, T., Wangphon, C., Ektarawong, A., and Chammingkwan, P. (2022). High-throughput materials screening algorithm based on first-principles density functional theory and artificial neural network for high-entropy alloys. Sci. Rep., 12.",
+          "DOI": "10.1038/s41598-022-21209-0"
+        },
+        {
+          "key": "ref_60",
+          "doi-asserted-by": "crossref",
+          "first-page": "86",
+          "DOI": "10.1038/s41586-023-06734-w",
+          "article-title": "An autonomous laboratory for the accelerated synthesis of novel materials",
+          "volume": "624",
+          "author": "Szymanski",
+          "year": "2023",
+          "journal-title": "Nature"
+        },
+        {
+          "key": "ref_61",
+          "doi-asserted-by": "crossref",
+          "first-page": "eadf0873",
+          "DOI": "10.1126/sciadv.adf0873",
+          "article-title": "Accurate global machine learning force fields for molecules with hundreds of atoms",
+          "volume": "9",
+          "author": "Chmiela",
+          "year": "2023",
+          "journal-title": "Sci. Adv."
+        },
+        {
+          "key": "ref_62",
+          "doi-asserted-by": "crossref",
+          "first-page": "3733",
+          "DOI": "10.1038/s41467-022-31093-x",
+          "article-title": "BIGDML—Towards accurate quantum machine learning force fields for materials",
+          "volume": "13",
+          "author": "Sauceda",
+          "year": "2022",
+          "journal-title": "Nat. Commun."
+        },
+        {
+          "key": "ref_63",
+          "doi-asserted-by": "crossref",
+          "first-page": "4871",
+          "DOI": "10.1039/D0SC00594K",
+          "article-title": "Machine-enabled inverse design of inorganic solid materials: Promises and challenges",
+          "volume": "11",
+          "author": "Noh",
+          "year": "2020",
+          "journal-title": "Chem. Sci."
+        },
+        {
+          "key": "ref_64",
+          "doi-asserted-by": "crossref",
+          "first-page": "1032",
+          "DOI": "10.1002/qua.24890",
+          "article-title": "Constructing high-dimensional neural network potentials: A tutorial review",
+          "volume": "115",
+          "author": "Behler",
+          "year": "2015",
+          "journal-title": "Int. J. Quantum Chem."
+        },
+        {
+          "key": "ref_65",
+          "unstructured": "Hoffmann, J., Maestrati, L., Sawada, Y., Tang, J., Sellier, J.M., and Bengio, Y. (2019). Data-driven approach to encoding and decoding 3-d crystal structures. arXiv."
+        },
+        {
+          "key": "ref_66",
+          "doi-asserted-by": "crossref",
+          "first-page": "241722",
+          "DOI": "10.1063/1.5019779",
+          "article-title": "SchNet—A deep learning architecture for molecules and materials",
+          "volume": "148",
+          "author": "Sauceda",
+          "year": "2018",
+          "journal-title": "J. Chem. Phys."
+        },
+        {
+          "key": "ref_67",
+          "unstructured": "Gilmer, J., Schoenholz, S.S., Riley, P.F., Vinyals, O., and Dahl, G.E. (2017, January 6–11). Neural message passing for quantum chemistry. Proceedings of the International Conference on Machine Learning, Sydney, Australia."
+        },
+        {
+          "key": "ref_68",
+          "doi-asserted-by": "crossref",
+          "first-page": "185",
+          "DOI": "10.1038/s41524-021-00650-1",
+          "article-title": "Atomistic Line Graph Neural Network for improved materials property predictions",
+          "volume": "7",
+          "author": "Choudhary",
+          "year": "2021",
+          "journal-title": "Npj Comput. Mater."
+        },
+        {
+          "key": "ref_69",
+          "doi-asserted-by": "crossref",
+          "first-page": "074106",
+          "DOI": "10.1063/1.3553717",
+          "article-title": "Atom-centered symmetry functions for constructing high-dimensional neural network potentials",
+          "volume": "134",
+          "author": "Behler",
+          "year": "2011",
+          "journal-title": "J. Chem. Phys."
+        },
+        {
+          "key": "ref_70",
+          "doi-asserted-by": "crossref",
+          "first-page": "e1701816",
+          "DOI": "10.1126/sciadv.1701816",
+          "article-title": "Machine learning unifies the modeling of materials and molecules",
+          "volume": "3",
+          "author": "De",
+          "year": "2017",
+          "journal-title": "Sci. Adv."
+        },
+        {
+          "key": "ref_71",
+          "doi-asserted-by": "crossref",
+          "first-page": "2453",
+          "DOI": "10.1038/s41467-022-29939-5",
+          "article-title": "E(3)-equivariant graph neural networks for data-efficient and accurate interatomic potentials",
+          "volume": "13",
+          "author": "Batzner",
+          "year": "2022",
+          "journal-title": "Nat. Commun."
+        },
+        {
+          "key": "ref_72",
+          "first-page": "11423",
+          "article-title": "MACE: Higher order equivariant message passing neural networks for fast and accurate force fields",
+          "volume": "35",
+          "author": "Batatia",
+          "year": "2022",
+          "journal-title": "Adv. Neural Inf. Process. Syst."
+        },
+        {
+          "key": "ref_73",
+          "doi-asserted-by": "crossref",
+          "first-page": "7827",
+          "DOI": "10.1021/acs.jctc.1c00832",
+          "article-title": "A Universal Force Field for Materials, Periodic GFN-FF: Implementation and Examination",
+          "volume": "17",
+          "author": "Gale",
+          "year": "2021",
+          "journal-title": "J. Chem. Theory Comput."
+        },
+        {
+          "key": "ref_74",
+          "doi-asserted-by": "crossref",
+          "first-page": "2359",
+          "DOI": "10.4155/fmc-2019-0196",
+          "article-title": "The Future of Force Fields in Computer-Aided Drug Design",
+          "volume": "11",
+          "author": "Cole",
+          "year": "2019",
+          "journal-title": "Future Med. Chem."
+        },
+        {
+          "key": "ref_75",
+          "doi-asserted-by": "crossref",
+          "first-page": "E4758",
+          "DOI": "10.1073/pnas.1800690115",
+          "article-title": "Developing a molecular dynamics force field for both folded and disordered protein states",
+          "volume": "115",
+          "author": "Robustelli",
+          "year": "2018",
+          "journal-title": "Proc. Natl. Acad. Sci. USA"
+        },
+        {
+          "key": "ref_76",
+          "doi-asserted-by": "crossref",
+          "first-page": "108",
+          "DOI": "10.1038/s41524-022-00792-w",
+          "article-title": "Accelerated identification of equilibrium structures of multicomponent inorganic crystals using machine learning potentials",
+          "volume": "8",
+          "author": "Kang",
+          "year": "2022",
+          "journal-title": "Npj Comput. Mater."
+        },
+        {
+          "key": "ref_77",
+          "doi-asserted-by": "crossref",
+          "first-page": "31",
+          "DOI": "10.1039/C8FD00055G",
+          "article-title": "Accelerating CALYPSO structure prediction by data-driven learning of a potential energy surface",
+          "volume": "211",
+          "author": "Tong",
+          "year": "2018",
+          "journal-title": "Faraday Discuss."
+        },
+        {
+          "key": "ref_78",
+          "doi-asserted-by": "crossref",
+          "first-page": "126",
+          "DOI": "10.1109/MSP.2017.2765695",
+          "article-title": "Model Compression and Acceleration for Deep Neural Networks: The Principles, Progress, and Challenges",
+          "volume": "35",
+          "author": "Cheng",
+          "year": "2018",
+          "journal-title": "IEEE Signal Process. Mag."
+        },
+        {
+          "key": "ref_79",
+          "doi-asserted-by": "crossref",
+          "first-page": "27",
+          "DOI": "10.1631/FITEE.1700808",
+          "article-title": "Visual interpretability for deep learning: A survey",
+          "volume": "19",
+          "author": "Zhang",
+          "year": "2018",
+          "journal-title": "Front. Inf. Technol. Electron. Eng."
+        },
+        {
+          "key": "ref_80",
+          "doi-asserted-by": "crossref",
+          "first-page": "43",
+          "DOI": "10.1109/JPROC.2020.3004555",
+          "article-title": "A Comprehensive Survey on Transfer Learning",
+          "volume": "109",
+          "author": "Zhuang",
+          "year": "2021",
+          "journal-title": "Proc. IEEE"
+        },
+        {
+          "key": "ref_81",
+          "doi-asserted-by": "crossref",
+          "first-page": "1370",
+          "DOI": "10.1016/j.matt.2019.08.017",
+          "article-title": "Inverse Design of Solid-State Materials via a Continuous Representation",
+          "volume": "1",
+          "author": "Noh",
+          "year": "2019",
+          "journal-title": "Matter"
+        },
+        {
+          "key": "ref_82",
+          "doi-asserted-by": "crossref",
+          "first-page": "314",
+          "DOI": "10.1016/j.matt.2021.11.032",
+          "article-title": "An invertible crystallographic representation for general inverse design of inorganic crystals with targeted properties",
+          "volume": "5",
+          "author": "Ren",
+          "year": "2022",
+          "journal-title": "Matter"
+        },
+        {
+          "key": "ref_83",
+          "unstructured": "Nouira, A., Sokolovska, N., and Crivello, J.-C. (2018). Crystalgan: Learning to discover crystallographic structures with generative adversarial networks. arXiv."
+        },
+        {
+          "key": "ref_84",
+          "doi-asserted-by": "crossref",
+          "first-page": "200",
+          "DOI": "10.1038/s41524-021-00670-x",
+          "article-title": "Inverse design of two-dimensional materials with invertible neural networks",
+          "volume": "7",
+          "author": "Fung",
+          "year": "2021",
+          "journal-title": "Npj Comput. Mater."
+        },
+        {
+          "key": "ref_85",
+          "unstructured": "Zeni, C., Pinsler, R., Zügner, D., Fowler, A., Horton, M., Fu, X., Shysheya, S., Crabbé, J., Sun, L., and Smith, J. (2023). Mattergen: A generative model for inorganic materials design. arXiv."
+        },
+        {
+          "key": "ref_86",
+          "doi-asserted-by": "crossref",
+          "first-page": "24665",
+          "DOI": "10.1039/C8CP04222E",
+          "article-title": "Unexpected stable phases of tungsten borides",
+          "volume": "20",
+          "author": "Zhao",
+          "year": "2018",
+          "journal-title": "Phys. Chem. Chem. Phys."
+        },
+        {
+          "key": "ref_87",
+          "doi-asserted-by": "crossref",
+          "first-page": "176",
+          "DOI": "10.1038/s41524-023-01122-4",
+          "article-title": "Graph deep learning accelerated efficient crystal structure search and feature extraction",
+          "volume": "9",
+          "author": "Li",
+          "year": "2023",
+          "journal-title": "Npj Comput. Mater."
+        },
+        {
+          "key": "ref_88",
+          "doi-asserted-by": "crossref",
+          "first-page": "064114",
+          "DOI": "10.1103/PhysRevB.99.064114",
+          "article-title": "Accelerating crystal structure prediction by machine-learning interatomic potentials with active learning",
+          "volume": "99",
+          "author": "Podryabinkin",
+          "year": "2019",
+          "journal-title": "Phys. Rev. B"
+        },
+        {
+          "key": "ref_89",
+          "doi-asserted-by": "crossref",
+          "first-page": "8710",
+          "DOI": "10.1021/acs.jpclett.0c02357",
+          "article-title": "Combining Machine Learning Potential and Structure Prediction for Accelerated Materials Design and Discovery",
+          "volume": "11",
+          "author": "Tong",
+          "year": "2020",
+          "journal-title": "J. Phys. Chem. Lett."
+        },
+        {
+          "key": "ref_90",
+          "doi-asserted-by": "crossref",
+          "first-page": "9844",
+          "DOI": "10.1021/jacs.8b02717",
+          "article-title": "Machine Learning Directed Search for Ultraincompressible, Superhard Materials",
+          "volume": "140",
+          "author": "Oliynyk",
+          "year": "2018",
+          "journal-title": "J. Am. Chem. Soc."
+        },
+        {
+          "key": "ref_91",
+          "doi-asserted-by": "crossref",
+          "first-page": "13301",
+          "DOI": "10.1073/pnas.1607412113",
+          "article-title": "Accelerated search for BaTiO3-based piezoelectrics with vertical morphotropic phase boundary using Bayesian learning",
+          "volume": "113",
+          "author": "Xue",
+          "year": "2016",
+          "journal-title": "Proc. Natl. Acad. Sci. USA"
+        },
+        {
+          "key": "ref_92",
+          "doi-asserted-by": "crossref",
+          "first-page": "109723",
+          "DOI": "10.1016/j.isci.2024.109723",
+          "article-title": "Experimentally validated inverse design of multi-property Fe-Co-Ni alloys",
+          "volume": "27",
+          "author": "Padhy",
+          "year": "2024",
+          "journal-title": "iScience"
+        },
+        {
+          "key": "ref_93",
+          "doi-asserted-by": "crossref",
+          "first-page": "1668",
+          "DOI": "10.1038/s41467-018-03821-9",
+          "article-title": "Experimental search for high-temperature ferroelectric perovskites guided by two-step machine learning",
+          "volume": "9",
+          "author": "Balachandran",
+          "year": "2018",
+          "journal-title": "Nat. Commun."
+        },
+        {
+          "key": "ref_94",
+          "doi-asserted-by": "crossref",
+          "first-page": "54",
+          "DOI": "10.1038/s41524-017-0056-5",
+          "article-title": "Machine learning in materials informatics: Recent applications and prospects",
+          "volume": "3",
+          "author": "Ramprasad",
+          "year": "2017",
+          "journal-title": "Npj Comput. Mater."
+        },
+        {
+          "key": "ref_95",
+          "doi-asserted-by": "crossref",
+          "first-page": "e14230",
+          "DOI": "10.1111/jfpe.14230",
+          "article-title": "Machine-learning predictions of caffeine co-crystal formation accompanying experimental and molecular validations",
+          "volume": "46",
+          "author": "Syed",
+          "year": "2023",
+          "journal-title": "J. Food Process Eng."
+        },
+        {
+          "key": "ref_96",
+          "doi-asserted-by": "crossref",
+          "first-page": "174494",
+          "DOI": "10.1016/j.jallcom.2024.174494",
+          "article-title": "Improving the performance of machine learning model predicting phase and crystal structure of high entropy alloys by the synthetic minority oversampling technique",
+          "volume": "991",
+          "author": "Hareharen",
+          "year": "2024",
+          "journal-title": "J. Alloys Compd."
+        },
+        {
+          "key": "ref_97",
+          "doi-asserted-by": "crossref",
+          "first-page": "7376",
+          "DOI": "10.1021/acs.jcim.4c01200",
+          "article-title": "Improving Crystal Property Prediction from a Multiplex Graph Perspective",
+          "volume": "64",
+          "author": "Feng",
+          "year": "2024",
+          "journal-title": "J. Chem. Inf. Model."
+        },
+        {
+          "key": "ref_98",
+          "doi-asserted-by": "crossref",
+          "first-page": "1210",
+          "DOI": "10.1038/s41467-025-56481-x",
+          "article-title": "Transformer-generated atomic embeddings to enhance prediction accuracy of crystal properties with machine learning",
+          "volume": "16",
+          "author": "Jin",
+          "year": "2025",
+          "journal-title": "Nat. Commun."
+        },
+        {
+          "key": "ref_99",
+          "doi-asserted-by": "crossref",
+          "first-page": "112958",
+          "DOI": "10.1016/j.commatsci.2024.112958",
+          "article-title": "Reinforce crystal material property prediction with comprehensive message passing via deep graph networks",
+          "volume": "239",
+          "author": "Zhou",
+          "year": "2024",
+          "journal-title": "Comput. Mater. Sci."
+        },
+        {
+          "key": "ref_100",
+          "doi-asserted-by": "crossref",
+          "first-page": "254",
+          "DOI": "10.1038/s41524-024-01443-y",
+          "article-title": "Deep learning generative model for crystal structure prediction",
+          "volume": "10",
+          "author": "Luo",
+          "year": "2024",
+          "journal-title": "Npj Comput. Mater."
+        },
+        {
+          "key": "ref_101",
+          "doi-asserted-by": "crossref",
+          "first-page": "100003",
+          "DOI": "10.1016/j.commt.2024.100003",
+          "article-title": "Con-CDVAE: A method for the conditional generation of crystal structures",
+          "volume": "1",
+          "author": "Ye",
+          "year": "2024",
+          "journal-title": "Comput. Mater. Today"
+        },
+        {
+          "key": "ref_102",
+          "first-page": "17464",
+          "article-title": "Crystal structure prediction by joint equivariant diffusion",
+          "volume": "36",
+          "author": "Jiao",
+          "year": "2023",
+          "journal-title": "Adv. Neural Inf. Process. Syst."
+        },
+        {
+          "key": "ref_103",
+          "doi-asserted-by": "crossref",
+          "first-page": "nwad128",
+          "DOI": "10.1093/nsr/nwad128",
+          "article-title": "MAGUS: Machine learning and graph theory assisted universal structure searcher",
+          "volume": "10",
+          "author": "Wang",
+          "year": "2023",
+          "journal-title": "Natl. Sci. Rev."
+        },
+        {
+          "key": "ref_104",
+          "first-page": "15",
+          "article-title": "Machine learning assisted crystal structure prediction made simple",
+          "volume": "4",
+          "author": "Li",
+          "year": "2024",
+          "journal-title": "J. Mater. Inform."
+        },
+        {
+          "key": "ref_105",
+          "doi-asserted-by": "crossref",
+          "first-page": "105376",
+          "DOI": "10.1016/j.chemolab.2025.105376",
+          "article-title": "Correlations between the constituent molecules, crystal structures, and dielectric constants in organic crystals",
+          "volume": "261",
+          "author": "Shiraki",
+          "year": "2025",
+          "journal-title": "Chemom. Intell. Lab. Syst."
+        },
+        {
+          "key": "ref_106",
+          "doi-asserted-by": "crossref",
+          "first-page": "122778",
+          "DOI": "10.1016/j.eswa.2023.122778",
+          "article-title": "A review of ensemble learning and data augmentation models for class imbalanced problems: Combination, implementation and evaluation",
+          "volume": "244",
+          "author": "Khan",
+          "year": "2024",
+          "journal-title": "Expert Syst. Appl."
+        },
+        {
+          "key": "ref_107",
+          "doi-asserted-by": "crossref",
+          "first-page": "2465971",
+          "DOI": "10.1080/23322039.2025.2465971",
+          "article-title": "Comparative analysis of boosting algorithms for predicting personal default",
+          "volume": "13",
+          "author": "Nguyen",
+          "year": "2025",
+          "journal-title": "Cogent Econ. Financ."
+        },
+        {
+          "key": "ref_108",
+          "doi-asserted-by": "crossref",
+          "first-page": "053201",
+          "DOI": "10.1088/0953-8984/23/5/053201",
+          "article-title": "Ab initio random structure searching",
+          "volume": "23",
+          "author": "Pickard",
+          "year": "2011",
+          "journal-title": "J. Phys. Condens. Matter"
+        },
+        {
+          "key": "ref_109",
+          "doi-asserted-by": "crossref",
+          "first-page": "713",
+          "DOI": "10.1016/j.cpc.2006.07.020",
+          "article-title": "USPEX—Evolutionary crystal structure prediction",
+          "volume": "175",
+          "author": "Glass",
+          "year": "2006",
+          "journal-title": "Comput. Phys. Commun."
+        },
+        {
+          "key": "ref_110",
+          "doi-asserted-by": "crossref",
+          "first-page": "517",
+          "DOI": "10.1107/S2052520624007492",
+          "article-title": "The seventh blind test of crystal structure prediction: Structure generation methods",
+          "volume": "80",
+          "author": "Hunnisett",
+          "year": "2024",
+          "journal-title": "Acta Crystallogr. Sect. B Struct. Sci. Cryst. Eng. Mater."
+        },
+        {
+          "key": "ref_111",
+          "doi-asserted-by": "crossref",
+          "first-page": "045504",
+          "DOI": "10.1103/PhysRevLett.97.045504",
+          "article-title": "High-Pressure Phases of Silane",
+          "volume": "97",
+          "author": "Pickard",
+          "year": "2006",
+          "journal-title": "Phys. Rev. Lett."
+        },
+        {
+          "key": "ref_112",
+          "doi-asserted-by": "crossref",
+          "first-page": "6128",
+          "DOI": "10.1039/b709943f",
+          "article-title": "Global exploration of the energy landscape of solids on the ab initio level",
+          "volume": "9",
+          "author": "Doll",
+          "year": "2007",
+          "journal-title": "Phys. Chem. Chem. Phys."
+        },
+        {
+          "key": "ref_113",
+          "doi-asserted-by": "crossref",
+          "first-page": "9911",
+          "DOI": "10.1063/1.1724816",
+          "article-title": "Minima hopping: An efficient search method for the global minimum of the potential energy surface of complex molecular systems",
+          "volume": "120",
+          "author": "Goedecker",
+          "year": "2004",
+          "journal-title": "J. Chem. Phys."
+        },
+        {
+          "key": "ref_114",
+          "doi-asserted-by": "crossref",
+          "first-page": "055501",
+          "DOI": "10.1103/PhysRevLett.95.055501",
+          "article-title": "Global Minimum Determination of the Born-Oppenheimer Surface within Density Functional Theory",
+          "volume": "95",
+          "author": "Goedecker",
+          "year": "2005",
+          "journal-title": "Phys. Rev. Lett."
+        },
+        {
+          "key": "ref_115",
+          "doi-asserted-by": "crossref",
+          "first-page": "1172",
+          "DOI": "10.1016/j.cpc.2012.12.009",
+          "article-title": "New developments in evolutionary structure prediction algorithm USPEX",
+          "volume": "184",
+          "author": "Lyakhov",
+          "year": "2013",
+          "journal-title": "Comput. Phys. Commun."
+        },
+        {
+          "key": "ref_116",
+          "doi-asserted-by": "crossref",
+          "first-page": "182",
+          "DOI": "10.1038/nature07786",
+          "article-title": "Transparent dense sodium",
+          "volume": "458",
+          "author": "Ma",
+          "year": "2009",
+          "journal-title": "Nature"
+        },
+        {
+          "key": "ref_117",
+          "doi-asserted-by": "crossref",
+          "first-page": "015503",
+          "DOI": "10.1103/PhysRevLett.106.015503",
+          "article-title": "Predicted Novel High-Pressure Phases of Lithium",
+          "volume": "106",
+          "author": "Lv",
+          "year": "2011",
+          "journal-title": "Phys. Rev. Lett."
+        },
+        {
+          "key": "ref_118",
+          "doi-asserted-by": "crossref",
+          "first-page": "1502",
+          "DOI": "10.1126/science.1244989",
+          "article-title": "Unexpected Stable Stoichiometries of Sodium Chlorides",
+          "volume": "342",
+          "author": "Zhang",
+          "year": "2013",
+          "journal-title": "Science"
+        },
+        {
+          "key": "ref_119",
+          "doi-asserted-by": "crossref",
+          "first-page": "372",
+          "DOI": "10.1016/j.cpc.2010.07.048",
+          "article-title": "XtalOpt: An open-source evolutionary algorithm for crystal structure prediction",
+          "volume": "182",
+          "author": "Lonie",
+          "year": "2011",
+          "journal-title": "Comput. Phys. Commun."
+        },
+        {
+          "key": "ref_120",
+          "doi-asserted-by": "crossref",
+          "first-page": "237002",
+          "DOI": "10.1103/PhysRevLett.106.237002",
+          "article-title": "Pressure-Stabilized Sodium Polyhydrides: NaHn (n > 1)",
+          "volume": "106",
+          "author": "Baettig",
+          "year": "2011",
+          "journal-title": "Phys. Rev. Lett."
+        },
+        {
+          "key": "ref_121",
+          "doi-asserted-by": "crossref",
+          "first-page": "745",
+          "DOI": "10.1073/pnas.1118694109",
+          "article-title": "High pressure ices",
+          "volume": "109",
+          "author": "Hermann",
+          "year": "2012",
+          "journal-title": "Proc. Natl. Acad. Sci. USA"
+        },
+        {
+          "key": "ref_122",
+          "doi-asserted-by": "crossref",
+          "first-page": "775",
+          "DOI": "10.1038/nmat2261",
+          "article-title": "Highly compressed ammonia forms an ionic crystal",
+          "volume": "7",
+          "author": "Pickard",
+          "year": "2008",
+          "journal-title": "Nat. Mater."
+        },
+        {
+          "key": "ref_123",
+          "doi-asserted-by": "crossref",
+          "first-page": "6990",
+          "DOI": "10.1073/pnas.1704505114",
+          "article-title": "Potential high-Tc superconducting lanthanum and yttrium hydrides at high pressure",
+          "volume": "114",
+          "author": "Liu",
+          "year": "2017",
+          "journal-title": "Proc. Natl. Acad. Sci. USA"
+        },
+        {
+          "key": "ref_124",
+          "doi-asserted-by": "crossref",
+          "first-page": "495401",
+          "DOI": "10.1088/0953-8984/25/49/495401",
+          "article-title": "A grand canonical genetic algorithm for the prediction of multi-component phase diagrams and testing of empirical potentials",
+          "volume": "25",
+          "author": "Tipton",
+          "year": "2013",
+          "journal-title": "J. Phys. Condens. Matter"
+        },
+        {
+          "key": "ref_125",
+          "doi-asserted-by": "crossref",
+          "first-page": "445",
+          "DOI": "10.1038/nature06442",
+          "article-title": "Emergent reduction of electronic state dimensionality in dense ordered Li-Be alloys",
+          "volume": "451",
+          "author": "Feng",
+          "year": "2008",
+          "journal-title": "Nature"
+        },
+        {
+          "key": "ref_126",
+          "doi-asserted-by": "crossref",
+          "first-page": "184114",
+          "DOI": "10.1103/PhysRevB.87.184114",
+          "article-title": "Structures, phase stabilities, and electrical potentials of Li-Si battery anode materials",
+          "volume": "87",
+          "author": "Tipton",
+          "year": "2013",
+          "journal-title": "Phys. Rev. B"
+        },
+        {
+          "key": "ref_127",
+          "doi-asserted-by": "crossref",
+          "first-page": "035402",
+          "DOI": "10.1088/0953-8984/26/3/035402",
+          "article-title": "An adaptive genetic algorithm for crystal structure prediction",
+          "volume": "26",
+          "author": "Wu",
+          "year": "2014",
+          "journal-title": "J. Phys. Condens. Matter"
+        },
+        {
+          "key": "ref_128",
+          "doi-asserted-by": "crossref",
+          "first-page": "045502",
+          "DOI": "10.1103/PhysRevLett.112.045502",
+          "article-title": "Exploring the Structural Complexity of Intermetallic Compounds by an Adaptive Genetic Algorithm",
+          "volume": "112",
+          "author": "Zhao",
+          "year": "2014",
+          "journal-title": "Phys. Rev. Lett."
+        },
+        {
+          "key": "ref_129",
+          "doi-asserted-by": "crossref",
+          "first-page": "40",
+          "DOI": "10.1016/j.epsl.2017.08.032",
+          "article-title": "Phase transitions in MgSiO3 post-perovskite in super-Earth mantles",
+          "volume": "478",
+          "author": "Umemoto",
+          "year": "2017",
+          "journal-title": "Earth Planet. Sci. Lett."
+        },
+        {
+          "key": "ref_130",
+          "doi-asserted-by": "crossref",
+          "first-page": "1893",
+          "DOI": "10.1016/j.cpc.2014.03.017",
+          "article-title": "Muse: Multi-algorithm collaborative crystal structure prediction",
+          "volume": "185",
+          "author": "Liu",
+          "year": "2014",
+          "journal-title": "Comput. Phys. Commun."
+        },
+        {
+          "key": "ref_131",
+          "doi-asserted-by": "crossref",
+          "first-page": "12569",
+          "DOI": "10.1039/C6CP00208K",
+          "article-title": "Phase diagram and physical properties of iridium tetraboride from first principles",
+          "volume": "18",
+          "author": "Li",
+          "year": "2016",
+          "journal-title": "Phys. Chem. Chem. Phys."
+        },
+        {
+          "key": "ref_132",
+          "doi-asserted-by": "crossref",
+          "first-page": "13219",
+          "DOI": "10.1039/C7CP00805H",
+          "article-title": "Unexpected coordination number and phase diagram of niobium diselenide under compression",
+          "volume": "19",
+          "author": "Liu",
+          "year": "2017",
+          "journal-title": "Phys. Chem. Chem. Phys."
+        },
+        {
+          "key": "ref_133",
+          "doi-asserted-by": "crossref",
+          "first-page": "51",
+          "DOI": "10.1016/j.commatsci.2014.10.054",
+          "article-title": "Inverse design of materials by multi-objective differential evolution",
+          "volume": "98",
+          "author": "Zhang",
+          "year": "2015",
+          "journal-title": "Comput. Mater. Sci."
+        },
+        {
+          "key": "ref_134",
+          "doi-asserted-by": "crossref",
+          "first-page": "2333",
+          "DOI": "10.1021/jp411437f",
+          "article-title": "Predicting New TiO2 Phases with Low Band Gaps by a Multiobjective Global Optimization Approach",
+          "volume": "118",
+          "author": "Chen",
+          "year": "2014",
+          "journal-title": "J. Phys. Chem. C"
+        },
+        {
+          "key": "ref_135",
+          "doi-asserted-by": "crossref",
+          "first-page": "1110",
+          "DOI": "10.1021/acs.nanolett.5b04341",
+          "article-title": "Two-Dimensional SiS Layers with Promising Electronic and Optoelectronic Properties: Theoretical Prediction",
+          "volume": "16",
+          "author": "Yang",
+          "year": "2016",
+          "journal-title": "Nano Lett."
+        },
+        {
+          "key": "ref_136",
+          "doi-asserted-by": "crossref",
+          "first-page": "094111",
+          "DOI": "10.1063/5.0018402",
+          "article-title": "Prediction of chlorine and fluorine crystal structures at high pressure using symmetry driven structure search with geometric constraints",
+          "volume": "153",
+          "author": "Olson",
+          "year": "2020",
+          "journal-title": "J. Chem. Phys."
+        },
+        {
+          "key": "ref_137",
+          "doi-asserted-by": "crossref",
+          "first-page": "107679",
+          "DOI": "10.1016/j.cpc.2020.107679",
+          "article-title": "MAISE: Construction of neural network interatomic models and evolutionary structure optimization",
+          "volume": "259",
+          "author": "Hajinazar",
+          "year": "2021",
+          "journal-title": "Comput. Phys. Commun."
+        },
+        {
+          "key": "ref_138",
+          "doi-asserted-by": "crossref",
+          "first-page": "217003",
+          "DOI": "10.1103/PhysRevLett.105.217003",
+          "article-title": "New Superconducting and Semiconducting Fe-B Compounds Predicted with an Ab Initio Evolutionary Search",
+          "volume": "105",
+          "author": "Kolmogorov",
+          "year": "2010",
+          "journal-title": "Phys. Rev. Lett."
+        },
+        {
+          "key": "ref_139",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Shao, J., Beaufils, C., and Kolmogorov, A.N. (2016). Ab initio engineering of materials with stacked hexagonal tin frameworks. Sci. Rep., 6.",
+          "DOI": "10.1038/srep28369"
+        },
+        {
+          "key": "ref_140",
+          "doi-asserted-by": "crossref",
+          "first-page": "817",
+          "DOI": "10.1016/j.scib.2018.05.027",
+          "article-title": "A novel superhard tungsten nitride predicted by machine-learning accelerated crystal structure search",
+          "volume": "63",
+          "author": "Xia",
+          "year": "2018",
+          "journal-title": "Sci. Bull."
+        },
+        {
+          "key": "ref_141",
+          "doi-asserted-by": "crossref",
+          "first-page": "1065",
+          "DOI": "10.1038/s41567-019-0568-7",
+          "article-title": "Multiple superionic states in helium–water compounds",
+          "volume": "15",
+          "author": "Liu",
+          "year": "2019",
+          "journal-title": "Nat. Phys."
+        },
+        {
+          "key": "ref_142",
+          "doi-asserted-by": "crossref",
+          "first-page": "033802",
+          "DOI": "10.1103/PhysRevMaterials.7.033802",
+          "article-title": "Machine-learning accelerated annealing with fitting-search style for multicomponent alloy structure predictions",
+          "volume": "7",
+          "author": "Li",
+          "year": "2023",
+          "journal-title": "Phys. Rev. Mater."
+        },
+        {
+          "key": "ref_143",
+          "doi-asserted-by": "crossref",
+          "first-page": "035205",
+          "DOI": "10.1103/PhysRevB.109.035205",
+          "article-title": "Unveiling disparities and promises of Cu and Ag chalcopyrites for thermoelectrics",
+          "volume": "109",
+          "author": "Liang",
+          "year": "2024",
+          "journal-title": "Phys. Rev. B"
+        },
+        {
+          "key": "ref_144",
+          "unstructured": "Yang, S., Cho, K., Merchant, A., Abbeel, P., Schuurmans, D., Mordatch, I., and Cubuk, E.D. (2023). Scalable diffusion for materials generation. arXiv."
+        },
+        {
+          "key": "ref_145",
+          "unstructured": "Gruver, N., Sriram, A., Madotto, A., Wilson, A.G., Zitnick, C.L., and Ulissi, Z. (2024). Fine-tuned language models generate stable inorganic materials as text. arXiv."
+        },
+        {
+          "key": "ref_146",
+          "doi-asserted-by": "crossref",
+          "first-page": "086102",
+          "DOI": "10.1103/PhysRevLett.124.086102",
+          "article-title": "Efficient Global Structure Optimization with a Machine-Learned Surrogate Model",
+          "volume": "124",
+          "author": "Bisbo",
+          "year": "2020",
+          "journal-title": "Phys. Rev. Lett."
+        },
+        {
+          "key": "ref_147",
+          "doi-asserted-by": "crossref",
+          "first-page": "32",
+          "DOI": "10.1038/s41524-018-0090-y",
+          "article-title": "Fine-grained optimization method for crystal structure prediction",
+          "volume": "4",
+          "author": "Terayama",
+          "year": "2018",
+          "journal-title": "Npj Comput. Mater."
+        },
+        {
+          "key": "ref_148",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Cai, W., and Nix, W.D. (2016). Imperfections in Crystalline Solids, Cambridge University Press. MRS-Cambridge Materials Fundamentals.",
+          "DOI": "10.1017/CBO9781316389508"
+        },
+        {
+          "key": "ref_149",
+          "doi-asserted-by": "crossref",
+          "first-page": "100336",
+          "DOI": "10.1016/j.mtnano.2023.100336",
+          "article-title": "Crystal-defect engineering of electrode materials for energy storage and conversion",
+          "volume": "22",
+          "author": "Wang",
+          "year": "2023",
+          "journal-title": "Mater. Today Nano"
+        },
+        {
+          "key": "ref_150",
+          "doi-asserted-by": "crossref",
+          "first-page": "840",
+          "DOI": "10.1016/j.pnsc.2024.07.016",
+          "article-title": "A review of crystal defect-induced element segregation in multi-component alloy steels",
+          "volume": "34",
+          "author": "Zhang",
+          "year": "2024",
+          "journal-title": "Prog. Nat. Sci. Mater. Int."
+        },
+        {
+          "key": "ref_151",
+          "doi-asserted-by": "crossref",
+          "first-page": "015012",
+          "DOI": "10.1088/0965-0393/18/1/015012",
+          "article-title": "Visualization and analysis of atomistic simulation data with OVITO–the Open Visualization Tool",
+          "volume": "18",
+          "author": "Stukowski",
+          "year": "2010",
+          "journal-title": "Model. Simul. Mater. Sci. Eng."
+        },
+        {
+          "key": "ref_152",
+          "doi-asserted-by": "crossref",
+          "first-page": "114017",
+          "DOI": "10.1016/j.matchar.2024.114017",
+          "article-title": "Application of the polyhedral template matching method for characterization of 2D atomic resolution electron microscopy images",
+          "volume": "213",
+          "author": "Britton",
+          "year": "2024",
+          "journal-title": "Mater. Charact."
+        },
+        {
+          "key": "ref_153",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Wang, F., Kurc, T., Widener, P., Pan, T., Kong, J., Cooper, L., Gutman, D., Sharma, A., Cholleti, S., and Kumar, V. (2010). High-Performance Systems for in Silico Microscopy Imaging Studies. Data Integration in the Life Sciences, Springer.",
+          "DOI": "10.1007/978-3-642-15120-0_2"
+        },
+        {
+          "key": "ref_154",
+          "doi-asserted-by": "crossref",
+          "first-page": "1",
+          "DOI": "10.1016/j.jmapro.2025.04.035",
+          "article-title": "Towards defect-free lattice structures in additive manufacturing: A holistic review of machine learning advancements",
+          "volume": "144",
+          "author": "Khan",
+          "year": "2025",
+          "journal-title": "J. Manuf. Process."
+        },
+        {
+          "key": "ref_155",
+          "doi-asserted-by": "crossref",
+          "first-page": "162696",
+          "DOI": "10.1016/j.cej.2025.162696",
+          "article-title": "Rapid identification of defects in doped organic crystalline films via machine learning-enhanced hyperspectral imaging",
+          "volume": "513",
+          "author": "Wu",
+          "year": "2025",
+          "journal-title": "Chem. Eng. J."
+        },
+        {
+          "key": "ref_156",
+          "doi-asserted-by": "crossref",
+          "first-page": "100029",
+          "DOI": "10.1016/j.jnlest.2020.100029",
+          "article-title": "Machine learning application for prediction of sapphire crystals defects",
+          "volume": "18",
+          "author": "Klunnikova",
+          "year": "2020",
+          "journal-title": "J. Electron. Sci. Technol."
+        },
+        {
+          "key": "ref_157",
+          "doi-asserted-by": "crossref",
+          "first-page": "131891",
+          "DOI": "10.1016/j.optcom.2025.131891",
+          "article-title": "Inverse design of photonic crystal fibers for dispersion engineering using neural networks",
+          "volume": "587",
+          "year": "2025",
+          "journal-title": "Opt. Commun."
+        },
+        {
+          "key": "ref_158",
+          "doi-asserted-by": "crossref",
+          "first-page": "75",
+          "DOI": "10.1016/j.jmst.2025.02.098",
+          "article-title": "Machine learning-based interatomic potential for simulating irradiation damage mechanisms in ZrC",
+          "volume": "242",
+          "author": "Ding",
+          "year": "2026",
+          "journal-title": "J. Mater. Sci. Technol."
+        },
+        {
+          "key": "ref_159",
+          "doi-asserted-by": "crossref",
+          "first-page": "112730",
+          "DOI": "10.1016/j.commatsci.2023.112730",
+          "article-title": "Interatomic force fields for zirconium based on the embedded atom method and the tabulated Gaussian Approximation Potential",
+          "volume": "233",
+          "author": "Luo",
+          "year": "2024",
+          "journal-title": "Comput. Mater. Sci."
+        },
+        {
+          "key": "ref_160",
+          "doi-asserted-by": "crossref",
+          "first-page": "112376",
+          "DOI": "10.1016/j.commatsci.2023.112376",
+          "article-title": "Development of a machine-learning interatomic potential for uranium under the moment tensor potential framework",
+          "volume": "229",
+          "author": "Chen",
+          "year": "2023",
+          "journal-title": "Comput. Mater. Sci."
+        },
+        {
+          "key": "ref_161",
+          "doi-asserted-by": "crossref",
+          "first-page": "113074",
+          "DOI": "10.1016/j.commatsci.2024.113074",
+          "article-title": "Active learning for SNAP interatomic potentials via Bayesian predictive uncertainty",
+          "volume": "242",
+          "author": "Williams",
+          "year": "2024",
+          "journal-title": "Comput. Mater. Sci."
+        },
+        {
+          "key": "ref_162",
+          "doi-asserted-by": "crossref",
+          "first-page": "104221",
+          "DOI": "10.1016/j.ijplas.2024.104221",
+          "article-title": "Advancing material simulations: Physics-Informed Neural Networks and Object-Oriented Crystal Plasticity Finite Element Methods",
+          "volume": "185",
+          "author": "Keshavarz",
+          "year": "2025",
+          "journal-title": "Int. J. Plast."
+        },
+        {
+          "key": "ref_163",
+          "doi-asserted-by": "crossref",
+          "first-page": "765",
+          "DOI": "10.1557/s43577-022-00310-9",
+          "article-title": "Machine-learning correction to density-functional crystal structure optimization",
+          "volume": "47",
+          "author": "Hussein",
+          "year": "2022",
+          "journal-title": "MRS Bull."
+        },
+        {
+          "key": "ref_164",
+          "doi-asserted-by": "crossref",
+          "first-page": "241",
+          "DOI": "10.1007/s42114-024-01060-9",
+          "article-title": "Machine learning quantification of grain boundary defects for high efficiency perovskite solar cells",
+          "volume": "7",
+          "author": "Li",
+          "year": "2024",
+          "journal-title": "Adv. Compos. Hybrid Mater."
+        },
+        {
+          "key": "ref_165",
+          "doi-asserted-by": "crossref",
+          "first-page": "103186",
+          "DOI": "10.1016/j.ijplas.2021.103186",
+          "article-title": "Predicting grain boundary damage by machine learning",
+          "volume": "150",
+          "author": "Zhang",
+          "year": "2022",
+          "journal-title": "Int. J. Plast."
+        },
+        {
+          "key": "ref_166",
+          "doi-asserted-by": "crossref",
+          "unstructured": "He, Z., Bi, S., and Asare-Yeboah, K. (2025). Study of Grain Boundary: From Crystallization Engineering to Machine Learning. Coatings, 15.",
+          "DOI": "10.3390/coatings15020164"
+        },
+        {
+          "key": "ref_167",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Salmenjoki, H., Papanikolaou, S., Shi, D., Tourret, D., Cepeda-Jiménez, C.M., Pérez-Prado, M.T., Laurson, L., and Alava, M.J. (2023). Machine learning dislocation density correlations and solute effects in Mg-based alloys. Sci. Rep., 13.",
+          "DOI": "10.1038/s41598-023-37633-9"
+        },
+        {
+          "key": "ref_168",
+          "doi-asserted-by": "crossref",
+          "first-page": "111941",
+          "DOI": "10.1016/j.commatsci.2022.111941",
+          "article-title": "Large-scale atomistic simulation of dislocation core structure in face-centered cubic metal with Deep Potential method",
+          "volume": "218",
+          "author": "Deng",
+          "year": "2023",
+          "journal-title": "Comput. Mater. Sci."
+        },
+        {
+          "key": "ref_169",
+          "doi-asserted-by": "crossref",
+          "first-page": "49",
+          "DOI": "10.1038/s41524-025-01535-3",
+          "article-title": "Efficient equivariant model for machine learning interatomic potentials",
+          "volume": "11",
+          "author": "Yang",
+          "year": "2025",
+          "journal-title": "Npj Comput. Mater."
+        },
+        {
+          "key": "ref_170",
+          "doi-asserted-by": "crossref",
+          "first-page": "109673",
+          "DOI": "10.1016/j.isci.2024.109673",
+          "article-title": "Machine learning interatomic potential: Bridge the gap between small-scale models and realistic device-scale simulations",
+          "volume": "27",
+          "author": "Wang",
+          "year": "2024",
+          "journal-title": "iScience"
+        },
+        {
+          "key": "ref_171",
+          "doi-asserted-by": "crossref",
+          "first-page": "103803",
+          "DOI": "10.1103/PhysRevMaterials.5.103803",
+          "article-title": "Efficient and transferable machine learning potentials for the simulation of crystal defects in bcc Fe and W",
+          "volume": "5",
+          "author": "Goryaeva",
+          "year": "2021",
+          "journal-title": "Phys. Rev. Mater."
+        },
+        {
+          "key": "ref_172",
+          "doi-asserted-by": "crossref",
+          "first-page": "112663",
+          "DOI": "10.1016/j.commatsci.2023.112663",
+          "article-title": "Insights from symmetry: Improving machine-learned models for grain boundary segregation",
+          "volume": "232",
+          "author": "Borges",
+          "year": "2024",
+          "journal-title": "Comput. Mater. Sci."
+        },
+        {
+          "key": "ref_173",
+          "doi-asserted-by": "crossref",
+          "first-page": "119696",
+          "DOI": "10.1016/j.actamat.2024.119696",
+          "article-title": "Neural network for predicting Peierls barrier spectrum and its influence on dislocation motion",
+          "volume": "267",
+          "author": "Wang",
+          "year": "2024",
+          "journal-title": "Acta Mater."
+        },
+        {
+          "key": "ref_174",
+          "doi-asserted-by": "crossref",
+          "first-page": "119788",
+          "DOI": "10.1016/j.actamat.2024.119788",
+          "article-title": "Efficiency, accuracy, and transferability of machine learning potentials: Application to dislocations and cracks in iron",
+          "volume": "270",
+          "author": "Zhang",
+          "year": "2024",
+          "journal-title": "Acta Mater."
+        },
+        {
+          "key": "ref_175",
+          "doi-asserted-by": "crossref",
+          "first-page": "115743",
+          "DOI": "10.1016/j.cma.2022.115743",
+          "article-title": "Machine learning of nonlocal micro-structural defect evolutions in crystalline materials",
+          "volume": "403",
+          "author": "Zayernouri",
+          "year": "2023",
+          "journal-title": "Comput. Methods Appl. Mech. Eng."
+        },
+        {
+          "key": "ref_176",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Alarfaj, A.A., and Hosni Mahmoud, H.A. (2022). Feature Fusion Deep Learning Model for Defects Prediction in Crystal Structures. Crystals, 12.",
+          "DOI": "10.3390/cryst12091324"
+        },
+        {
+          "key": "ref_177",
+          "doi-asserted-by": "crossref",
+          "first-page": "414",
+          "DOI": "10.1016/j.commatsci.2018.08.041",
+          "article-title": "Machine learning of ab-initio energy landscapes for crystal structure predictions",
+          "volume": "158",
+          "author": "Honrao",
+          "year": "2019",
+          "journal-title": "Comput. Mater. Sci."
+        },
+        {
+          "key": "ref_178",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Sidnov, K., Konov, D., Smirnova, E.A., Ponomareva, A.V., and Belov, M.P. (2024). Machine Learning-Based Prediction of Elastic Properties Using Reduced Datasets of Accurate Calculations Results. Metals, 14.",
+          "DOI": "10.3390/met14040438"
+        },
+        {
+          "key": "ref_179",
+          "doi-asserted-by": "crossref",
+          "first-page": "114047",
+          "DOI": "10.1016/j.matdes.2025.114047",
+          "article-title": "Exploring elastic properties of molecular crystals with universal machine learning interatomic potentials",
+          "volume": "254",
+          "author": "Kholtobina",
+          "year": "2025",
+          "journal-title": "Mater. Des."
+        },
+        {
+          "key": "ref_180",
+          "doi-asserted-by": "crossref",
+          "first-page": "113",
+          "DOI": "10.1038/s41524-023-01062-z",
+          "article-title": "Sparse representation for machine learning the properties of defects in 2D materials",
+          "volume": "9",
+          "author": "Kazeev",
+          "year": "2023",
+          "journal-title": "Npj Comput. Mater."
+        },
+        {
+          "key": "ref_181",
+          "doi-asserted-by": "crossref",
+          "first-page": "131",
+          "DOI": "10.1038/s41524-025-01571-z",
+          "article-title": "Benchmarking machine learning models for predicting lithium ion migration",
+          "volume": "11",
+          "author": "Dembitskiy",
+          "year": "2025",
+          "journal-title": "Npj Comput. Mater."
+        },
+        {
+          "key": "ref_182",
+          "doi-asserted-by": "crossref",
+          "first-page": "100153",
+          "DOI": "10.1016/j.egyai.2022.100153",
+          "article-title": "Perspective: Predicting and optimizing thermal transport properties with machine learning methods",
+          "volume": "8",
+          "author": "Wei",
+          "year": "2022",
+          "journal-title": "Energy AI"
+        },
+        {
+          "key": "ref_183",
+          "doi-asserted-by": "crossref",
+          "first-page": "112766",
+          "DOI": "10.1016/j.corsci.2025.112766",
+          "article-title": "Development of machine learning potentials for Ce-Ti and Ce-Ta binary systems and studies of the liquid-solid interfaces",
+          "volume": "246",
+          "author": "Chen",
+          "year": "2025",
+          "journal-title": "Corros. Sci."
+        },
+        {
+          "key": "ref_184",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Thampiriyanon, J., and Khumkoa, S. (2025). Machine Learning–Based Prediction of Complex Combination Phases in High-Entropy Alloys. Metals, 15.",
+          "DOI": "10.20944/preprints202501.2107.v1"
+        },
+        {
+          "key": "ref_185",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Jang, Y., Kim, C.H., and Go, A. (2023). Classification of magnetic order from electronic structure by using machine learning. Sci. Rep., 13.",
+          "DOI": "10.1038/s41598-023-38863-7"
+        },
+        {
+          "key": "ref_186",
+          "doi-asserted-by": "crossref",
+          "first-page": "510",
+          "DOI": "10.1557/s43579-022-00221-5",
+          "article-title": "Machine-learning potentials for crystal defects",
+          "volume": "12",
+          "author": "Freitas",
+          "year": "2022",
+          "journal-title": "MRS Commun."
+        },
+        {
+          "key": "ref_187",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Tanaka, M., Sasaki, K., Punyafu, J., Muramatsu, M., and Murayama, M. (2025). Machine-learning-aided analysis of relationship between crystal defects and macroscopic mechanical properties of TWIP steel. Sci. Rep., 15.",
+          "DOI": "10.1038/s41598-025-99319-8"
+        },
+        {
+          "key": "ref_188",
+          "doi-asserted-by": "crossref",
+          "first-page": "111831",
+          "DOI": "10.1016/j.commatsci.2022.111831",
+          "article-title": "First-principles approaches and models for crystal defect energetics in metallic alloys",
+          "volume": "216",
+          "author": "Hu",
+          "year": "2023",
+          "journal-title": "Comput. Mater. Sci."
+        },
+        {
+          "key": "ref_189",
+          "doi-asserted-by": "crossref",
+          "first-page": "055001",
+          "DOI": "10.1088/1361-651X/abf152",
+          "article-title": "Computational study of crystal defect formation in Mo by a machine learning molecular dynamics potential",
+          "volume": "29",
+          "author": "Nordlund",
+          "year": "2021",
+          "journal-title": "Model. Simul. Mater. Sci. Eng."
+        },
+        {
+          "key": "ref_190",
+          "doi-asserted-by": "crossref",
+          "first-page": "013808",
+          "DOI": "10.1103/PhysRevMaterials.2.013808",
+          "article-title": "Achieving DFT accuracy with a machine-learning interatomic potential: Thermomechanics and defects in bcc ferromagnetic iron",
+          "volume": "2",
+          "author": "Dragoni",
+          "year": "2018",
+          "journal-title": "Phys. Rev. Mater."
+        },
+        {
+          "key": "ref_191",
+          "doi-asserted-by": "crossref",
+          "first-page": "4691",
+          "DOI": "10.1038/s41467-020-18282-2",
+          "article-title": "Reinforcing materials modelling by encoding the structures of defects in crystalline solids into distortion scores",
+          "volume": "11",
+          "author": "Goryaeva",
+          "year": "2020",
+          "journal-title": "Nat. Commun."
+        },
+        {
+          "key": "ref_192",
+          "doi-asserted-by": "crossref",
+          "first-page": "20",
+          "DOI": "10.1038/s41524-020-0283-z",
+          "article-title": "On-the-fly active learning of interpretable Bayesian force fields for atomistic rare events",
+          "volume": "6",
+          "author": "Vandermause",
+          "year": "2020",
+          "journal-title": "Npj Comput. Mater."
+        },
+        {
+          "key": "ref_193",
+          "doi-asserted-by": "crossref",
+          "first-page": "5287",
+          "DOI": "10.1007/s40747-022-00759-w",
+          "article-title": "Machine learning-based framework to cover optimal Pareto-front in many-objective optimization",
+          "volume": "8",
+          "author": "Rahnamayan",
+          "year": "2022",
+          "journal-title": "Complex Intell. Syst."
+        },
+        {
+          "key": "ref_194",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Tan, C.S., Gupta, A., Ong, Y.-S., Pratama, M., Tan, P.S., and Lam, S.K. (2023). Pareto optimization with small data by learning across common objective spaces. Sci. Rep., 13.",
+          "DOI": "10.1038/s41598-023-33414-6"
+        }
+      ],
+      "container-title": [
+        "Crystals"
+      ],
+      "original-title": [],
+      "language": "en",
+      "link": [
+        {
+          "URL": "https://www.mdpi.com/2073-4352/15/11/925/pdf",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2025,
+            10,
+            30
+          ]
+        ],
+        "date-time": "2025-10-30T03:56:37Z",
+        "timestamp": 1761796597000
+      },
+      "score": 1,
+      "resource": {
+        "primary": {
+          "URL": "https://www.mdpi.com/2073-4352/15/11/925"
+        }
+      },
+      "subtitle": [],
+      "short-title": [],
+      "issued": {
+        "date-parts": [
+          [
+            2025,
+            10,
+            28
+          ]
+        ]
+      },
+      "references-count": 194,
+      "journal-issue": {
+        "issue": "11",
+        "published-online": {
+          "date-parts": [
+            [
+              2025,
+              11
+            ]
+          ]
+        }
+      },
+      "alternative-id": [
+        "cryst15110925"
+      ],
+      "URL": "https://doi.org/10.3390/cryst15110925",
+      "relation": {},
+      "ISSN": [
+        "2073-4352"
+      ],
+      "issn-type": [
+        {
+          "value": "2073-4352",
+          "type": "electronic"
+        }
+      ],
+      "subject": [],
+      "published": {
+        "date-parts": [
+          [
+            2025,
+            10,
+            28
+          ]
+        ]
+      }
+    }
+  }
+}

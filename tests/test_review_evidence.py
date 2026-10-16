@@ -87,6 +87,6 @@ def test_exported_catalogue_not_stale():
     with (folder/'review-catalog.csv').open(encoding='utf-8-sig',newline='')as f:rows=list(csv.DictReader(f))
     assert {a['id']for a in rows}=={a['id']for a in library}
     ris=(folder/'reviews.ris').read_text(encoding='utf-8')
-    assert ris.count('TY  - ')==len(library)==ris.count('ER  - ')
+    assert ris.count('TY  - ')==len(library)==sum(line.rstrip()=='ER  -' for line in ris.splitlines())
     assert (folder/'expanded-candidate-screening.csv').is_file()
     assert (folder/'coverage-matrix.csv').is_file()

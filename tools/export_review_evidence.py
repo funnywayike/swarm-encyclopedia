@@ -29,7 +29,7 @@ def export():
         if a['year']: ris.append('PY  - ' + str(a['year']))
         if a['journal']: ris.append('T2  - ' + a['journal'])
         if a['doi']: ris.append('DO  - ' + a['doi'])
-        ris.extend(['UR  - ' + a['url'], 'N1  - ' + a['readingLabel'] + '；' + a['readingLocation'], 'ER  - ', ''])
+        ris.extend(['UR  - ' + a['url'], 'N1  - ' + a['readingLabel'] + '；' + a['readingLocation'], 'ER  -', ''])
     (OUT / 'reviews.ris').write_text('\n'.join(ris), encoding='utf-8')
     with (OUT / 'claim-matrix.csv').open('w', encoding='utf-8-sig', newline='') as f:
         w = csv.DictWriter(f, fieldnames=['claim','title','status','source','doi','location','finding','independence'])

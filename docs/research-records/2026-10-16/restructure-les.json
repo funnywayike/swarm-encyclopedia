@@ -1,0 +1,1277 @@
+{
+  "query": "Discovering Evolution Strategies via Meta Black Box Optimization Lange 2023",
+  "url": "https://api.crossref.org/works?query.bibliographic=Discovering+Evolution+Strategies+via+Meta+Black+Box+Optimization+Lange+2023&rows=3&filter=until-pub-date%3A2026-10-16",
+  "retrieved": "2026-10-16",
+  "response": {
+    "status": "ok",
+    "message-type": "work-list",
+    "message-version": "1.0.0",
+    "message": {
+      "facets": {},
+      "total-results": 450390,
+      "items": [
+        {
+          "indexed": {
+            "date-parts": [
+              [
+                2026,
+                9,
+                30
+              ]
+            ],
+            "date-time": "2026-09-30T17:06:16Z",
+            "timestamp": 1790787976800,
+            "version": "4.1.0"
+          },
+          "publisher-location": "New York, NY, USA",
+          "reference-count": 3,
+          "publisher": "ACM",
+          "license": [
+            {
+              "start": {
+                "date-parts": [
+                  [
+                    2023,
+                    7,
+                    15
+                  ]
+                ],
+                "date-time": "2023-07-15T00:00:00Z",
+                "timestamp": 1689379200000
+              },
+              "content-version": "vor",
+              "delay-in-days": 0,
+              "URL": "https://www.acm.org/publications/policies/copyright_policy#Background"
+            }
+          ],
+          "content-domain": {
+            "domain": [
+              "dl.acm.org"
+            ],
+            "crossmark-restriction": true
+          },
+          "published-print": {
+            "date-parts": [
+              [
+                2023,
+                7,
+                15
+              ]
+            ]
+          },
+          "DOI": "10.1145/3583133.3595822",
+          "type": "proceedings-article",
+          "created": {
+            "date-parts": [
+              [
+                2023,
+                7,
+                24
+              ]
+            ],
+            "date-time": "2023-07-24T19:30:33Z",
+            "timestamp": 1690227033000
+          },
+          "page": "29-30",
+          "update-policy": "https://doi.org/10.1145/crossmark-policy",
+          "source": "Crossref",
+          "is-referenced-by-count": 28,
+          "title": [
+            "Discovering Evolution Strategies via Meta-Black-Box Optimization"
+          ],
+          "prefix": "10.1145",
+          "author": [
+            {
+              "ORCID": "https://orcid.org/0009-0005-8799-1138",
+              "authenticated-orcid": false,
+              "given": "Robert",
+              "family": "Lange",
+              "sequence": "first",
+              "affiliation": [
+                {
+                  "name": "Technical Univ. Berlin, Berlin, Germany"
+                }
+              ],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "ORCID": "https://orcid.org/0000-0002-2961-8782",
+              "authenticated-orcid": false,
+              "given": "Tom",
+              "family": "Schaul",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "Google DeepMind, London, United Kingdom"
+                }
+              ],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "ORCID": "https://orcid.org/0009-0003-5202-0054",
+              "authenticated-orcid": false,
+              "given": "Yutian",
+              "family": "Chen",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "Google DeepMind, London, United Kingdom"
+                }
+              ],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "ORCID": "https://orcid.org/0009-0009-2309-922X",
+              "authenticated-orcid": false,
+              "given": "Tom",
+              "family": "Zahavy",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "Google DeepMind, London, United Kingdom"
+                }
+              ],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "ORCID": "https://orcid.org/0009-0005-4944-6745",
+              "authenticated-orcid": false,
+              "given": "Valentin",
+              "family": "Dalibard",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "Google DeepMind, London, United Kingdom"
+                }
+              ],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "ORCID": "https://orcid.org/0009-0006-4730-3633",
+              "authenticated-orcid": false,
+              "given": "Chris",
+              "family": "Lu",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "University of Oxford, Oxford, United Kingdom"
+                }
+              ],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "ORCID": "https://orcid.org/0000-0002-5169-9486",
+              "authenticated-orcid": false,
+              "given": "Satinder",
+              "family": "Singh",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "Google DeepMind, London, United Kingdom"
+                }
+              ],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "ORCID": "https://orcid.org/0000-0003-2354-4193",
+              "authenticated-orcid": false,
+              "given": "Sebastian",
+              "family": "Flennerhag",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "Google DeepMind, London, United Kingdom"
+                }
+              ],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            }
+          ],
+          "member": "320",
+          "published-online": {
+            "date-parts": [
+              [
+                2023,
+                7,
+                24
+              ]
+            ]
+          },
+          "reference": [
+            {
+              "key": "e_1_3_2_1_1_1",
+              "volume-title": "Discovering Evolution Strategies via Meta-Black-Box Optimization. ICLR",
+              "author": "Lange Robert Tjarko",
+              "year": "2023",
+              "unstructured": "Robert Tjarko Lange , Tom Schaul , Yutian Chen , Tom Zahavy , Valentin Dallibard , Chris Lu , Satinder Singh , and Sebastian Flennerhag . 2023. Discovering Evolution Strategies via Meta-Black-Box Optimization. ICLR ( 2023 ). Robert Tjarko Lange, Tom Schaul, Yutian Chen, Tom Zahavy, Valentin Dallibard, Chris Lu, Satinder Singh, and Sebastian Flennerhag. 2023. Discovering Evolution Strategies via Meta-Black-Box Optimization. ICLR (2023)."
+            },
+            {
+              "key": "e_1_3_2_1_2_1",
+              "volume-title": "International conference on machine learning. PMLR.",
+              "author": "Lee Juho",
+              "year": "2019",
+              "unstructured": "Juho Lee , Yoonho Lee , Jungtaek Kim , Adam Kosiorek , Seungjin Choi , and Yee Whye Teh . 2019 . Set transformer: A framework for attention-based permutation-invariant neural networks . In International conference on machine learning. PMLR. Juho Lee, Yoonho Lee, Jungtaek Kim, Adam Kosiorek, Seungjin Choi, and Yee Whye Teh. 2019. Set transformer: A framework for attention-based permutation-invariant neural networks. In International conference on machine learning. PMLR."
+            },
+            {
+              "key": "e_1_3_2_1_3_1",
+              "volume-title": "Practical tradeoffs between memory, compute, and performance in learned optimizers. arXiv preprint arXiv:2203.11860",
+              "author": "Metz Luke",
+              "year": "2022",
+              "unstructured": "Luke Metz , C Daniel Freeman , James Harrison , Niru Maheswaranathan , and Jascha Sohl-Dickstein . 2022. Practical tradeoffs between memory, compute, and performance in learned optimizers. arXiv preprint arXiv:2203.11860 ( 2022 ). Luke Metz, C Daniel Freeman, James Harrison, Niru Maheswaranathan, and Jascha Sohl-Dickstein. 2022. Practical tradeoffs between memory, compute, and performance in learned optimizers. arXiv preprint arXiv:2203.11860 (2022)."
+            }
+          ],
+          "event": {
+            "name": "GECCO '23 Companion: Companion Conference on Genetic and Evolutionary Computation",
+            "location": "Lisbon Portugal",
+            "acronym": "GECCO '23 Companion",
+            "sponsor": [
+              "SIGEVO ACM Special Interest Group on Genetic and Evolutionary Computation"
+            ]
+          },
+          "container-title": [
+            "Proceedings of the Companion Conference on Genetic and Evolutionary Computation"
+          ],
+          "link": [
+            {
+              "URL": "https://dl.acm.org/doi/10.1145/3583133.3595822",
+              "content-type": "unspecified",
+              "content-version": "vor",
+              "intended-application": "text-mining"
+            },
+            {
+              "URL": "https://dl.acm.org/doi/pdf/10.1145/3583133.3595822",
+              "content-type": "unspecified",
+              "content-version": "vor",
+              "intended-application": "similarity-checking"
+            }
+          ],
+          "deposited": {
+            "date-parts": [
+              [
+                2025,
+                6,
+                17
+              ]
+            ],
+            "date-time": "2025-06-17T12:37:50Z",
+            "timestamp": 1750163870000
+          },
+          "score": 56.703445,
+          "resource": {
+            "primary": {
+              "URL": "https://dl.acm.org/doi/10.1145/3583133.3595822"
+            }
+          },
+          "issued": {
+            "date-parts": [
+              [
+                2023,
+                7,
+                15
+              ]
+            ]
+          },
+          "references-count": 3,
+          "alternative-id": [
+            "10.1145/3583133.3595822",
+            "10.1145/3583133"
+          ],
+          "URL": "https://doi.org/10.1145/3583133.3595822",
+          "published": {
+            "date-parts": [
+              [
+                2023,
+                7,
+                15
+              ]
+            ]
+          },
+          "assertion": [
+            {
+              "value": "2023-07-24",
+              "order": 2,
+              "name": "published",
+              "label": "Published",
+              "group": {
+                "name": "publication_history",
+                "label": "Publication History"
+              }
+            }
+          ]
+        },
+        {
+          "indexed": {
+            "date-parts": [
+              [
+                2026,
+                9,
+                29
+              ]
+            ],
+            "date-time": "2026-09-29T20:46:55Z",
+            "timestamp": 1790714815771,
+            "version": "4.1.0"
+          },
+          "publisher-location": "New York, NY, USA",
+          "reference-count": 45,
+          "publisher": "ACM",
+          "license": [
+            {
+              "start": {
+                "date-parts": [
+                  [
+                    2023,
+                    7,
+                    12
+                  ]
+                ],
+                "date-time": "2023-07-12T00:00:00Z",
+                "timestamp": 1689120000000
+              },
+              "content-version": "vor",
+              "delay-in-days": 0,
+              "URL": "https://creativecommons.org/licenses/by/4.0/"
+            }
+          ],
+          "content-domain": {
+            "domain": [
+              "dl.acm.org"
+            ],
+            "crossmark-restriction": true
+          },
+          "published-print": {
+            "date-parts": [
+              [
+                2023,
+                7,
+                15
+              ]
+            ]
+          },
+          "DOI": "10.1145/3583131.3590496",
+          "type": "proceedings-article",
+          "created": {
+            "date-parts": [
+              [
+                2023,
+                7,
+                12
+              ]
+            ],
+            "date-time": "2023-07-12T15:40:19Z",
+            "timestamp": 1689176419000
+          },
+          "page": "929-937",
+          "update-policy": "https://doi.org/10.1145/crossmark-policy",
+          "source": "Crossref",
+          "is-referenced-by-count": 24,
+          "title": [
+            "Discovering Attention-Based Genetic Algorithms via Meta-Black-Box Optimization"
+          ],
+          "prefix": "10.1145",
+          "author": [
+            {
+              "ORCID": "https://orcid.org/0009-0005-8799-1138",
+              "authenticated-orcid": false,
+              "given": "Robert",
+              "family": "Lange",
+              "sequence": "first",
+              "affiliation": [
+                {
+                  "name": "Technical Univ. Berlin, Berlin, Germany"
+                }
+              ],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "ORCID": "https://orcid.org/0000-0002-2961-8782",
+              "authenticated-orcid": false,
+              "given": "Tom",
+              "family": "Schaul",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "Google DeepMind, London, United Kingdom"
+                }
+              ],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "ORCID": "https://orcid.org/0009-0003-5202-0054",
+              "authenticated-orcid": false,
+              "given": "Yutian",
+              "family": "Chen",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "Google DeepMind, London, United Kingdom"
+                }
+              ],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "ORCID": "https://orcid.org/0009-0006-4730-3633",
+              "authenticated-orcid": false,
+              "given": "Chris",
+              "family": "Lu",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "University of Oxford, Oxford, United Kingdom"
+                }
+              ],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "ORCID": "https://orcid.org/0009-0009-2309-922X",
+              "authenticated-orcid": false,
+              "given": "Tom",
+              "family": "Zahavy",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "Google DeepMind, London, United Kingdom"
+                }
+              ],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "ORCID": "https://orcid.org/0009-0005-4944-6745",
+              "authenticated-orcid": false,
+              "given": "Valentin",
+              "family": "Dalibard",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "Google DeepMind, London, United Kingdom"
+                }
+              ],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "ORCID": "https://orcid.org/0000-0003-2354-4193",
+              "authenticated-orcid": false,
+              "given": "Sebastian",
+              "family": "Flennerhag",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "Google DeepMind, London, United Kingdom"
+                }
+              ],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            }
+          ],
+          "member": "320",
+          "published-online": {
+            "date-parts": [
+              [
+                2023,
+                7,
+                12
+              ]
+            ]
+          },
+          "reference": [
+            {
+              "key": "e_1_3_2_2_1_1",
+              "volume-title": "Learning to learn by gradient descent by gradient descent. Advances in neural information processing systems 29",
+              "author": "Andrychowicz Marcin",
+              "year": "2016",
+              "unstructured": "Marcin Andrychowicz , Misha Denil , Sergio Gomez , Matthew W Hoffman , David Pfau , Tom Schaul , Brendan Shillingford , and Nando De Freitas . 2016. Learning to learn by gradient descent by gradient descent. Advances in neural information processing systems 29 ( 2016 ). Marcin Andrychowicz, Misha Denil, Sergio Gomez, Matthew W Hoffman, David Pfau, Tom Schaul, Brendan Shillingford, and Nando De Freitas. 2016. Learning to learn by gradient descent by gradient descent. Advances in neural information processing systems 29 (2016)."
+            },
+            {
+              "key": "e_1_3_2_2_2_1",
+              "volume-title": "Hpo-b: A large-scale reproducible benchmark for black-box hpo based on openml. arXiv preprint arXiv:2106.06257",
+              "author": "Arango Sebastian Pineda",
+              "year": "2021",
+              "unstructured": "Sebastian Pineda Arango , Hadi S Jomaa , Martin Wistuba , and Josif Grabocka . 2021 . Hpo-b: A large-scale reproducible benchmark for black-box hpo based on openml. arXiv preprint arXiv:2106.06257 (2021). Sebastian Pineda Arango, Hadi S Jomaa, Martin Wistuba, and Josif Grabocka. 2021. Hpo-b: A large-scale reproducible benchmark for black-box hpo based on openml. arXiv preprint arXiv:2106.06257 (2021)."
+            },
+            {
+              "key": "e_1_3_2_2_3_1",
+              "volume-title": "Optimality in Biological and Artificial Networks?",
+              "author": "Bengio Samy",
+              "unstructured": "Samy Bengio , Yoshua Bengio , Jocelyn Cloutier , and Jan Gescei . 1992. On the optimization of a synaptic learning rule . In Optimality in Biological and Artificial Networks? Routledge , 281--303. Samy Bengio, Yoshua Bengio, Jocelyn Cloutier, and Jan Gescei. 1992. On the optimization of a synaptic learning rule. In Optimality in Biological and Artificial Networks? Routledge, 281--303."
+            },
+            {
+              "key": "e_1_3_2_2_4_1",
+              "volume-title": "Chris Leary, Dougal Maclaurin, George Necula, Adam Paszke, Jake VanderPlas, Skye Wanderman-Milne, and Qiao Zhang.",
+              "author": "Bradbury James",
+              "year": "2018",
+              "unstructured": "James Bradbury , Roy Frostig , Peter Hawkins , Matthew James Johnson , Chris Leary, Dougal Maclaurin, George Necula, Adam Paszke, Jake VanderPlas, Skye Wanderman-Milne, and Qiao Zhang. 2018 . JAX: composable transformations of Python +NumPy programs. (2018). http://github.com/google/jax James Bradbury, Roy Frostig, Peter Hawkins, Matthew James Johnson, Chris Leary, Dougal Maclaurin, George Necula, Adam Paszke, Jake VanderPlas, Skye Wanderman-Milne, and Qiao Zhang. 2018. JAX: composable transformations of Python+NumPy programs. (2018). http://github.com/google/jax"
+            },
+            {
+              "key": "e_1_3_2_2_5_1",
+              "volume-title": "Proceedings of the 34th International Conference on Machine Learning (Proceedings of Machine Learning Research), Doina Precup and Yee Whye Teh (Eds.)",
+              "volume": "70",
+              "author": "Chen Yutian",
+              "year": "2017",
+              "unstructured": "Yutian Chen , Matthew W. Hoffman , Sergio Gómez Colmenarejo , Misha Denil , Timothy P. Lillicrap , Matt Botvinick , and Nando de Freitas . 2017 . Learning to Learn without Gradient Descent by Gradient Descent . In Proceedings of the 34th International Conference on Machine Learning (Proceedings of Machine Learning Research), Doina Precup and Yee Whye Teh (Eds.) , Vol. 70 . PMLR, 748--756. https://proceedings.mlr.press/v70/chen17e.html Yutian Chen, Matthew W. Hoffman, Sergio Gómez Colmenarejo, Misha Denil, Timothy P. Lillicrap, Matt Botvinick, and Nando de Freitas. 2017. Learning to Learn without Gradient Descent by Gradient Descent. In Proceedings of the 34th International Conference on Machine Learning (Proceedings of Machine Learning Research), Doina Precup and Yee Whye Teh (Eds.), Vol. 70. PMLR, 748--756. https://proceedings.mlr.press/v70/chen17e.html"
+            },
+            {
+              "key": "e_1_3_2_2_6_1",
+              "unstructured": "Yutian Chen Xingyou Song Chansoo Lee Zi Wang Qiuyi Zhang David Dohan Kazuya Kawakami Greg Kochanski Arnaud Doucet Marc'aurelio Ranzato etal 2022. Towards Learning Universal Hyperparameter Optimizers with Transformers. arXiv preprint arXiv:2205.13320 (2022).  Yutian Chen Xingyou Song Chansoo Lee Zi Wang Qiuyi Zhang David Dohan Kazuya Kawakami Greg Kochanski Arnaud Doucet Marc'aurelio Ranzato et al. 2022. Towards Learning Universal Hyperparameter Optimizers with Transformers. arXiv preprint arXiv:2205.13320 (2022)."
+            },
+            {
+              "key": "e_1_3_2_2_7_1",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1371/journal.pcbi.1000187"
+            },
+            {
+              "key": "e_1_3_2_2_8_1",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1109/TEVC.2017.2704781"
+            },
+            {
+              "key": "e_1_3_2_2_9_1",
+              "volume-title": "Bootstrapped meta-learning. arXiv preprint arXiv:2109.04504",
+              "author": "Flennerhag Sebastian",
+              "year": "2021",
+              "unstructured": "Sebastian Flennerhag , Yannick Schroecker , Tom Zahavy , Hado van Hasselt , David Silver , and Satinder Singh . 2021. Bootstrapped meta-learning. arXiv preprint arXiv:2109.04504 ( 2021 ). Sebastian Flennerhag, Yannick Schroecker, Tom Zahavy, Hado van Hasselt, David Silver, and Satinder Singh. 2021. Bootstrapped meta-learning. arXiv preprint arXiv:2109.04504 (2021)."
+            },
+            {
+              "key": "e_1_3_2_2_10_1",
+              "volume-title": "Brax-A Differentiable Physics Engine for Large Scale Rigid Body Simulation. arXiv preprint arXiv:2106.13281",
+              "author": "Freeman C Daniel",
+              "year": "2021",
+              "unstructured": "C Daniel Freeman , Erik Frey , Anton Raichuk , Sertan Girgin , Igor Mordatch , and Olivier Bachem . 2021. Brax-A Differentiable Physics Engine for Large Scale Rigid Body Simulation. arXiv preprint arXiv:2106.13281 ( 2021 ). C Daniel Freeman, Erik Frey, Anton Raichuk, Sertan Girgin, Igor Mordatch, and Olivier Bachem. 2021. Brax-A Differentiable Physics Engine for Large Scale Rigid Body Simulation. arXiv preprint arXiv:2106.13281 (2021)."
+            },
+            {
+              "key": "e_1_3_2_2_11_1",
+              "volume-title": "Brax-A Differentiable Physics Engine for Large Scale Rigid Body Simulation. arXiv preprint arXiv:2106.13281",
+              "author": "Freeman C Daniel",
+              "year": "2021",
+              "unstructured": "C Daniel Freeman , Erik Frey , Anton Raichuk , Sertan Girgin , Igor Mordatch , and Olivier Bachem . 2021. Brax-A Differentiable Physics Engine for Large Scale Rigid Body Simulation. arXiv preprint arXiv:2106.13281 ( 2021 ). C Daniel Freeman, Erik Frey, Anton Raichuk, Sertan Girgin, Igor Mordatch, and Olivier Bachem. 2021. Brax-A Differentiable Physics Engine for Large Scale Rigid Body Simulation. arXiv preprint arXiv:2106.13281 (2021)."
+            },
+            {
+              "key": "e_1_3_2_2_12_1",
+              "volume-title": "Meta learning black-box population-based optimizers. arXiv preprint arXiv:2103.03526",
+              "author": "Gomes Hugo Siqueira",
+              "year": "2021",
+              "unstructured": "Hugo Siqueira Gomes , Benjamin Léger , and Christian Gagné . 2021. Meta learning black-box population-based optimizers. arXiv preprint arXiv:2103.03526 ( 2021 ). Hugo Siqueira Gomes, Benjamin Léger, and Christian Gagné. 2021. Meta learning black-box population-based optimizers. arXiv preprint arXiv:2103.03526 (2021)."
+            },
+            {
+              "key": "e_1_3_2_2_15_1",
+              "volume-title": "Completely derandomized self-adaptation in evolution strategies. Evolutionary computation 9, 2",
+              "author": "Hansen Nikolaus",
+              "year": "2001",
+              "unstructured": "Nikolaus Hansen and Andreas Ostermeier . 2001. Completely derandomized self-adaptation in evolution strategies. Evolutionary computation 9, 2 ( 2001 ), 159--195. Nikolaus Hansen and Andreas Ostermeier. 2001. Completely derandomized self-adaptation in evolution strategies. Evolutionary computation 9, 2 (2001), 159--195."
+            },
+            {
+              "key": "e_1_3_2_2_16_1",
+              "volume-title": "Ralf Gommers, Pauli Virtanen, David Cournapeau, Eric Wieser, Julian Taylor",
+              "author": "Harris Charles R",
+              "year": "2020",
+              "unstructured": "Charles R Harris , K Jarrod Millman , Stéfan J Van Der Walt , Ralf Gommers, Pauli Virtanen, David Cournapeau, Eric Wieser, Julian Taylor , Sebastian Berg , Nathaniel J Smith, et al. 2020 . Array programming with NumPy. Nature 585, 7825 (2020), 357--362. Charles R Harris, K Jarrod Millman, Stéfan J Van Der Walt, Ralf Gommers, Pauli Virtanen, David Cournapeau, Eric Wieser, Julian Taylor, Sebastian Berg, Nathaniel J Smith, et al. 2020. Array programming with NumPy. Nature 585, 7825 (2020), 357--362."
+            },
+            {
+              "key": "e_1_3_2_2_17_1",
+              "volume-title": "Matplotlib: A 2D graphics environment. Computing in science & engineering 9, 03",
+              "author": "Hunter John D",
+              "year": "2007",
+              "unstructured": "John D Hunter . 2007 . Matplotlib: A 2D graphics environment. Computing in science & engineering 9, 03 (2007), 90--95. John D Hunter. 2007. Matplotlib: A 2D graphics environment. Computing in science & engineering 9, 03 (2007), 90--95."
+            },
+            {
+              "key": "e_1_3_2_2_18_1",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1609/aaai.v36i7.20681"
+            },
+            {
+              "key": "e_1_3_2_2_19_1",
+              "first-page": "14122",
+              "article-title": "Meta learning backpropagation and improving it",
+              "volume": "34",
+              "author": "Kirsch Louis",
+              "year": "2021",
+              "unstructured": "Louis Kirsch and Jürgen Schmidhuber . 2021 . Meta learning backpropagation and improving it . Advances in Neural Information Processing Systems 34 (2021), 14122 -- 14134 . Louis Kirsch and Jürgen Schmidhuber. 2021. Meta learning backpropagation and improving it. Advances in Neural Information Processing Systems 34 (2021), 14122--14134.",
+              "journal-title": "Advances in Neural Information Processing Systems"
+            },
+            {
+              "key": "e_1_3_2_2_20_1",
+              "first-page": "28742",
+              "article-title": "Self-attention between datapoints: Going beyond individual input-output pairs in deep learning",
+              "volume": "34",
+              "author": "Kossen Jannik",
+              "year": "2021",
+              "unstructured": "Jannik Kossen , Neil Band , Clare Lyle , Aidan N Gomez , Thomas Rainforth , and Yarin Gal . 2021 . Self-attention between datapoints: Going beyond individual input-output pairs in deep learning . Advances in Neural Information Processing Systems 34 (2021), 28742 -- 28756 . Jannik Kossen, Neil Band, Clare Lyle, Aidan N Gomez, Thomas Rainforth, and Yarin Gal. 2021. Self-attention between datapoints: Going beyond individual input-output pairs in deep learning. Advances in Neural Information Processing Systems 34 (2021), 28742--28756.",
+              "journal-title": "Advances in Neural Information Processing Systems"
+            },
+            {
+              "key": "e_1_3_2_2_21_1",
+              "volume-title": "Effective Mutation Rate Adaptation through Group Elite Selection. arXiv preprint arXiv:2204.04817",
+              "author": "Kumar Akarsh",
+              "year": "2022",
+              "unstructured": "Akarsh Kumar , Bo Liu , Risto Miikkulainen , and Peter Stone . 2022. Effective Mutation Rate Adaptation through Group Elite Selection. arXiv preprint arXiv:2204.04817 ( 2022 ). Akarsh Kumar, Bo Liu, Risto Miikkulainen, and Peter Stone. 2022. Effective Mutation Rate Adaptation through Group Elite Selection. arXiv preprint arXiv:2204.04817 (2022)."
+            },
+            {
+              "key": "e_1_3_2_2_22_1",
+              "unstructured": "Robert Tjarko Lange. 2021. MLE-Infrastructure: A Set of Lightweight Tools for Distributed Machine Learning Experimentation. (2021). http://github.com/mle-infrastructure  Robert Tjarko Lange. 2021. MLE-Infrastructure: A Set of Lightweight Tools for Distributed Machine Learning Experimentation. (2021). http://github.com/mle-infrastructure"
+            },
+            {
+              "key": "e_1_3_2_2_23_1",
+              "unstructured": "Robert Tjarko Lange. 2022. evosax: JAX-based Evolution Strategies. (2022). http://github.com/RobertTLange/evosax  Robert Tjarko Lange. 2022. evosax: JAX-based Evolution Strategies. (2022). http://github.com/RobertTLange/evosax"
+            },
+            {
+              "key": "e_1_3_2_2_24_1",
+              "unstructured": "Robert Tjarko Lange. 2022. gymnax: A JAX-based Reinforcement Learning Environment Library. (2022). http://github.com/RobertTLange/gymnax  Robert Tjarko Lange. 2022. gymnax: A JAX-based Reinforcement Learning Environment Library. (2022). http://github.com/RobertTLange/gymnax"
+            },
+            {
+              "key": "e_1_3_2_2_25_1",
+              "volume-title": "Discovering Evolution Strategies via Meta-Black-Box Optimization. arXiv preprint arXiv:2211.11260",
+              "author": "Lange Robert Tjarko",
+              "year": "2022",
+              "unstructured": "Robert Tjarko Lange , Tom Schaul , Yutian Chen , Tom Zahavy , Valenti Dallibard , Chris Lu , Satinder Singh , and Sebastian Flennerhag . 2022. Discovering Evolution Strategies via Meta-Black-Box Optimization. arXiv preprint arXiv:2211.11260 ( 2022 ). Robert Tjarko Lange, Tom Schaul, Yutian Chen, Tom Zahavy, Valenti Dallibard, Chris Lu, Satinder Singh, and Sebastian Flennerhag. 2022. Discovering Evolution Strategies via Meta-Black-Box Optimization. arXiv preprint arXiv:2211.11260 (2022)."
+            },
+            {
+              "key": "e_1_3_2_2_26_1",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1609/aaai.v36i7.20691"
+            },
+            {
+              "key": "e_1_3_2_2_27_1",
+              "volume-title": "International conference on machine learning. PMLR, 3744--3753",
+              "author": "Lee Juho",
+              "year": "2019",
+              "unstructured": "Juho Lee , Yoonho Lee , Jungtaek Kim , Adam Kosiorek , Seungjin Choi , and Yee Whye Teh . 2019 . Set transformer: A framework for attention-based permutation-invariant neural networks . In International conference on machine learning. PMLR, 3744--3753 . Juho Lee, Yoonho Lee, Jungtaek Kim, Adam Kosiorek, Seungjin Choi, and Yee Whye Teh. 2019. Set transformer: A framework for attention-based permutation-invariant neural networks. In International conference on machine learning. PMLR, 3744--3753."
+            },
+            {
+              "key": "e_1_3_2_2_28_1",
+              "volume-title": "Discovered Policy Optimisation. In Decision Awareness in Reinforcement Learning Workshop at ICML",
+              "author": "Lu Chris",
+              "year": "2022",
+              "unstructured": "Chris Lu , Jakub Grudzien Kuba , Alistair Letcher , Luke Metz , Christian Schroeder de Witt , and Jakob Nicolaus Foerster . 2022 . Discovered Policy Optimisation. In Decision Awareness in Reinforcement Learning Workshop at ICML 2022. Chris Lu, Jakub Grudzien Kuba, Alistair Letcher, Luke Metz, Christian Schroeder de Witt, and Jakob Nicolaus Foerster. 2022. Discovered Policy Optimisation. In Decision Awareness in Reinforcement Learning Workshop at ICML 2022."
+            },
+            {
+              "key": "e_1_3_2_2_29_1",
+              "unstructured": "Luke Metz James Harrison C Daniel Freeman Amil Merchant Lucas Beyer James Bradbury Naman Agrawal Ben Poole Igor Mordatch Adam Roberts etal 2022. VeLO: Training Versatile Learned Optimizers by Scaling Up. arXiv preprint arXiv:2211.09760 (2022).  Luke Metz James Harrison C Daniel Freeman Amil Merchant Lucas Beyer James Bradbury Naman Agrawal Ben Poole Igor Mordatch Adam Roberts et al. 2022. VeLO: Training Versatile Learned Optimizers by Scaling Up. arXiv preprint arXiv:2211.09760 (2022)."
+            },
+            {
+              "key": "e_1_3_2_2_30_1",
+              "volume-title": "stability, architecture, and compute: Training more effective learned optimizers, and using them to train themselves. arXiv preprint arXiv:2009.11243",
+              "author": "Metz Luke",
+              "year": "2020",
+              "unstructured": "Luke Metz , Niru Maheswaranathan , C Daniel Freeman , Ben Poole , and Jascha Sohl-Dickstein . 2020. Tasks , stability, architecture, and compute: Training more effective learned optimizers, and using them to train themselves. arXiv preprint arXiv:2009.11243 ( 2020 ). Luke Metz, Niru Maheswaranathan, C Daniel Freeman, Ben Poole, and Jascha Sohl-Dickstein. 2020. Tasks, stability, architecture, and compute: Training more effective learned optimizers, and using them to train themselves. arXiv preprint arXiv:2009.11243 (2020)."
+            },
+            {
+              "key": "e_1_3_2_2_31_1",
+              "volume-title": "International Conference on Machine Learning. PMLR, 4556--4565",
+              "author": "Metz Luke",
+              "year": "2019",
+              "unstructured": "Luke Metz , Niru Maheswaranathan , Jeremy Nixon , Daniel Freeman , and Jascha Sohl-Dickstein . 2019 . Understanding and correcting pathologies in the training of learned optimizers . In International Conference on Machine Learning. PMLR, 4556--4565 . Luke Metz, Niru Maheswaranathan, Jeremy Nixon, Daniel Freeman, and Jascha Sohl-Dickstein. 2019. Understanding and correcting pathologies in the training of learned optimizers. In International Conference on Machine Learning. PMLR, 4556--4565."
+            },
+            {
+              "key": "e_1_3_2_2_32_1",
+              "volume-title": "Proceedings of the Sixteenth Conference on Uncertainty in Artificial Intelligence (UAI). 406--415",
+              "author": "Ng Andrew Y",
+              "year": "2000",
+              "unstructured": "Andrew Y Ng and Michael I Jordan . 2000 . PEGASUS: A policy search method for large MDPs and POMDPs . In Proceedings of the Sixteenth Conference on Uncertainty in Artificial Intelligence (UAI). 406--415 . Andrew Y Ng and Michael I Jordan. 2000. PEGASUS: A policy search method for large MDPs and POMDPs. In Proceedings of the Sixteenth Conference on Uncertainty in Artificial Intelligence (UAI). 406--415."
+            },
+            {
+              "key": "e_1_3_2_2_33_1",
+              "first-page": "1060",
+              "article-title": "Discovering reinforcement learning algorithms",
+              "volume": "33",
+              "author": "Oh Junhyuk",
+              "year": "2020",
+              "unstructured": "Junhyuk Oh , Matteo Hessel , Wojciech M Czarnecki , Zhongwen Xu , Hado P van Hasselt , Satinder Singh , and David Silver . 2020 . Discovering reinforcement learning algorithms . Advances in Neural Information Processing Systems 33 (2020), 1060 -- 1070 . Junhyuk Oh, Matteo Hessel, Wojciech M Czarnecki, Zhongwen Xu, Hado P van Hasselt, Satinder Singh, and David Silver. 2020. Discovering reinforcement learning algorithms. Advances in Neural Information Processing Systems 33 (2020), 1060--1070.",
+              "journal-title": "Advances in Neural Information Processing Systems"
+            },
+            {
+              "key": "e_1_3_2_2_34_1",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1613/jair.1.13596"
+            },
+            {
+              "key": "e_1_3_2_2_35_1",
+              "volume-title": "Optimierung technischer Systeme nach Prinzipien derbiologischen Evolution",
+              "author": "Rechenberg Ingo",
+              "year": "1973",
+              "unstructured": "Ingo Rechenberg . 1973. Evolutionsstrategie. Optimierung technischer Systeme nach Prinzipien derbiologischen Evolution ( 1973 ). Ingo Rechenberg. 1973. Evolutionsstrategie. Optimierung technischer Systeme nach Prinzipien derbiologischen Evolution (1973)."
+            },
+            {
+              "key": "e_1_3_2_2_36_1",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1007/978-3-540-87700-4_30"
+            },
+            {
+              "key": "e_1_3_2_2_37_1",
+              "volume-title": "Evolution strategies as a scalable alternative to reinforcement learning. arXiv preprint arXiv:1703.03864",
+              "author": "Salimans Tim",
+              "year": "2017",
+              "unstructured": "Tim Salimans , Jonathan Ho , Xi Chen , Szymon Sidor , and Ilya Sutskever . 2017. Evolution strategies as a scalable alternative to reinforcement learning. arXiv preprint arXiv:1703.03864 ( 2017 ). Tim Salimans, Jonathan Ho, Xi Chen, Szymon Sidor, and Ilya Sutskever. 2017. Evolution strategies as a scalable alternative to reinforcement learning. arXiv preprint arXiv:1703.03864 (2017)."
+            },
+            {
+              "key": "e_1_3_2_2_38_1",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1007/978-3-030-58112-1_48"
+            },
+            {
+              "key": "e_1_3_2_2_39_1",
+              "first-page": "22574",
+              "article-title": "The sensory neuron as a transformer: Permutation-invariant neural networks for reinforcement learning",
+              "volume": "34",
+              "author": "Tang Yujin",
+              "year": "2021",
+              "unstructured": "Yujin Tang and David Ha . 2021 . The sensory neuron as a transformer: Permutation-invariant neural networks for reinforcement learning . Advances in Neural Information Processing Systems 34 (2021), 22574 -- 22587 . Yujin Tang and David Ha. 2021. The sensory neuron as a transformer: Permutation-invariant neural networks for reinforcement learning. Advances in Neural Information Processing Systems 34 (2021), 22574--22587.",
+              "journal-title": "Advances in Neural Information Processing Systems"
+            },
+            {
+              "key": "e_1_3_2_2_40_1",
+              "volume-title": "EvoJAX: Hardware-Accelerated Neuroevolution. arXiv preprint arXiv:2202.05008",
+              "author": "Tang Yujin",
+              "year": "2022",
+              "unstructured": "Yujin Tang , Yingtao Tian , and David Ha. 2022. EvoJAX: Hardware-Accelerated Neuroevolution. arXiv preprint arXiv:2202.05008 ( 2022 ). Yujin Tang, Yingtao Tian, and David Ha. 2022. EvoJAX: Hardware-Accelerated Neuroevolution. arXiv preprint arXiv:2202.05008 (2022)."
+            },
+            {
+              "key": "e_1_3_2_2_41_1",
+              "volume-title": "Joint European Conference on Machine Learning and Knowledge Discovery in Databases. Springer, 366--381",
+              "author": "Pankaj Malhotra Vishnu TV",
+              "year": "2019",
+              "unstructured": "Vishnu TV , Pankaj Malhotra , Jyoti Narwariya , Lovekesh Vig , and Gautam Shroff . 2019 . Meta-learning for black-box optimization . In Joint European Conference on Machine Learning and Knowledge Discovery in Databases. Springer, 366--381 . Vishnu TV, Pankaj Malhotra, Jyoti Narwariya, Lovekesh Vig, and Gautam Shroff. 2019. Meta-learning for black-box optimization. In Joint European Conference on Machine Learning and Knowledge Discovery in Databases. Springer, 366--381."
+            },
+            {
+              "key": "e_1_3_2_2_42_1",
+              "volume-title": "Learning to reinforcement learn. arXiv preprint arXiv:1611.05763",
+              "author": "Wang Jane X",
+              "year": "2016",
+              "unstructured": "Jane X Wang , Zeb Kurth-Nelson , Dhruva Tirumala , Hubert Soyer , Joel Z Leibo , Remi Munos , Charles Blundell , Dharshan Kumaran , and Matt Botvinick . 2016. Learning to reinforcement learn. arXiv preprint arXiv:1611.05763 ( 2016 ). Jane X Wang, Zeb Kurth-Nelson, Dhruva Tirumala, Hubert Soyer, Joel Z Leibo, Remi Munos, Charles Blundell, Dharshan Kumaran, and Matt Botvinick. 2016. Learning to reinforcement learn. arXiv preprint arXiv:1611.05763 (2016)."
+            },
+            {
+              "key": "e_1_3_2_2_43_1",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.21105/joss.03021"
+            },
+            {
+              "key": "e_1_3_2_2_44_1",
+              "first-page": "15254",
+              "article-title": "Meta-gradient reinforcement learning with an objective discovered online",
+              "volume": "33",
+              "author": "Xu Zhongwen",
+              "year": "2020",
+              "unstructured": "Zhongwen Xu , Hado P van Hasselt , Matteo Hessel , Junhyuk Oh , Satinder Singh , and David Silver . 2020 . Meta-gradient reinforcement learning with an objective discovered online . Advances in Neural Information Processing Systems 33 (2020), 15254 -- 15264 . Zhongwen Xu, Hado P van Hasselt, Matteo Hessel, Junhyuk Oh, Satinder Singh, and David Silver. 2020. Meta-gradient reinforcement learning with an objective discovered online. Advances in Neural Information Processing Systems 33 (2020), 15254--15264.",
+              "journal-title": "Advances in Neural Information Processing Systems"
+            },
+            {
+              "key": "e_1_3_2_2_45_1",
+              "volume-title": "Meta-gradient reinforcement learning. Advances in neural information processing systems 31",
+              "author": "Xu Zhongwen",
+              "year": "2018",
+              "unstructured": "Zhongwen Xu , Hado P van Hasselt , and David Silver . 2018. Meta-gradient reinforcement learning. Advances in neural information processing systems 31 ( 2018 ). Zhongwen Xu, Hado P van Hasselt, and David Silver. 2018. Meta-gradient reinforcement learning. Advances in neural information processing systems 31 (2018)."
+            },
+            {
+              "key": "e_1_3_2_2_46_1",
+              "volume-title": "Minatar: An atari-inspired testbed for thorough and reproducible reinforcement learning experiments. arXiv preprint arXiv:1903.03176",
+              "author": "Young Kenny",
+              "year": "2019",
+              "unstructured": "Kenny Young and Tian Tian . 2019 . Minatar: An atari-inspired testbed for thorough and reproducible reinforcement learning experiments. arXiv preprint arXiv:1903.03176 (2019). Kenny Young and Tian Tian. 2019. Minatar: An atari-inspired testbed for thorough and reproducible reinforcement learning experiments. arXiv preprint arXiv:1903.03176 (2019)."
+            },
+            {
+              "key": "e_1_3_2_2_47_1",
+              "first-page": "20913",
+              "article-title": "A self-tuning actor-critic algorithm",
+              "volume": "33",
+              "author": "Zahavy Tom",
+              "year": "2020",
+              "unstructured": "Tom Zahavy , Zhongwen Xu , Vivek Veeriah , Matteo Hessel , Junhyuk Oh , Hado P van Hasselt , David Silver , and Satinder Singh . 2020 . A self-tuning actor-critic algorithm . Advances in Neural Information Processing Systems 33 (2020), 20913 -- 20924 . Tom Zahavy, Zhongwen Xu, Vivek Veeriah, Matteo Hessel, Junhyuk Oh, Hado P van Hasselt, David Silver, and Satinder Singh. 2020. A self-tuning actor-critic algorithm. Advances in Neural Information Processing Systems 33 (2020), 20913--20924.",
+              "journal-title": "Advances in Neural Information Processing Systems"
+            }
+          ],
+          "event": {
+            "name": "GECCO '23: Genetic and Evolutionary Computation Conference",
+            "location": "Lisbon Portugal",
+            "acronym": "GECCO '23",
+            "sponsor": [
+              "SIGEVO ACM Special Interest Group on Genetic and Evolutionary Computation"
+            ]
+          },
+          "container-title": [
+            "Proceedings of the Genetic and Evolutionary Computation Conference"
+          ],
+          "link": [
+            {
+              "URL": "https://dl.acm.org/doi/10.1145/3583131.3590496",
+              "content-type": "unspecified",
+              "content-version": "vor",
+              "intended-application": "text-mining"
+            },
+            {
+              "URL": "https://dl.acm.org/doi/pdf/10.1145/3583131.3590496",
+              "content-type": "unspecified",
+              "content-version": "vor",
+              "intended-application": "similarity-checking"
+            }
+          ],
+          "deposited": {
+            "date-parts": [
+              [
+                2025,
+                6,
+                17
+              ]
+            ],
+            "date-time": "2025-06-17T12:47:04Z",
+            "timestamp": 1750164424000
+          },
+          "score": 47.70627,
+          "resource": {
+            "primary": {
+              "URL": "https://dl.acm.org/doi/10.1145/3583131.3590496"
+            }
+          },
+          "issued": {
+            "date-parts": [
+              [
+                2023,
+                7,
+                12
+              ]
+            ]
+          },
+          "references-count": 45,
+          "alternative-id": [
+            "10.1145/3583131.3590496",
+            "10.1145/3583131"
+          ],
+          "URL": "https://doi.org/10.1145/3583131.3590496",
+          "published": {
+            "date-parts": [
+              [
+                2023,
+                7,
+                12
+              ]
+            ]
+          },
+          "assertion": [
+            {
+              "value": "2023-07-12",
+              "order": 2,
+              "name": "published",
+              "label": "Published",
+              "group": {
+                "name": "publication_history",
+                "label": "Publication History"
+              }
+            }
+          ]
+        },
+        {
+          "indexed": {
+            "date-parts": [
+              [
+                2025,
+                10,
+                7
+              ]
+            ],
+            "date-time": "2025-10-07T21:10:14Z",
+            "timestamp": 1759871414825,
+            "version": "build-2065373602"
+          },
+          "publisher-location": "New York, NY, USA",
+          "reference-count": 28,
+          "publisher": "ACM",
+          "funder": [
+            {
+              "name": "The VNUHCM-University of Information Technology's Scientific Research Support Fund"
+            }
+          ],
+          "content-domain": {
+            "domain": [
+              "dl.acm.org"
+            ],
+            "crossmark-restriction": true
+          },
+          "published-print": {
+            "date-parts": [
+              [
+                2025,
+                7,
+                14
+              ]
+            ]
+          },
+          "DOI": "10.1145/3712256.3726320",
+          "type": "proceedings-article",
+          "created": {
+            "date-parts": [
+              [
+                2025,
+                7,
+                8
+              ]
+            ],
+            "date-time": "2025-07-08T12:26:58Z",
+            "timestamp": 1751977618000
+          },
+          "page": "746-754",
+          "update-policy": "https://doi.org/10.1145/crossmark-policy",
+          "source": "Crossref",
+          "is-referenced-by-count": 0,
+          "title": [
+            "Toward Efficient Mixed-Integer Black-Box Optimization via Evolution Strategies with Plateau Handling Techniques"
+          ],
+          "prefix": "10.1145",
+          "author": [
+            {
+              "ORCID": "https://orcid.org/0009-0009-9650-9824",
+              "authenticated-orcid": false,
+              "given": "Tuan Anh",
+              "family": "Nguyen",
+              "sequence": "first",
+              "affiliation": [
+                {
+                  "name": "University of Information Technology (UIT), VNU-HCM, Ho Chi Minh, Vietnam"
+                },
+                {
+                  "name": "Vietnam National University - Ho Chi Minh City (VNU-HCM), Ho Chi Minh, Vietnam"
+                }
+              ],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "ORCID": "https://orcid.org/0000-0002-6768-1950",
+              "authenticated-orcid": false,
+              "given": "Ngoc Hoang",
+              "family": "Luong",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "University of Information Technology (UIT), VNU-HCM, Ho Chi Minh City, Vietnam"
+                },
+                {
+                  "name": "Vietnam National University - Ho Chi Minh City (VNU-HCM), Ho Chi Minh City, Vietnam"
+                }
+              ],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            }
+          ],
+          "member": "320",
+          "published-online": {
+            "date-parts": [
+              [
+                2025,
+                7,
+                13
+              ]
+            ]
+          },
+          "reference": [
+            {
+              "key": "e_1_3_2_2_1_1",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1145/2576768.2598258"
+            },
+            {
+              "key": "e_1_3_2_2_2_1",
+              "doi-asserted-by": "publisher",
+              "unstructured": "Y. Akimoto and N. Hansen. 2020. Diagonal Acceleration for Covariance Matrix Adaptation Evolution Strategies. Evolutionary Computation 28 3 (09 2020) 405–435. 10.1162/evco_a_00260",
+              "DOI": "10.1162/evco_a_00260"
+            },
+            {
+              "key": "e_1_3_2_2_3_1",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1109/CEC.2005.1554902"
+            },
+            {
+              "key": "e_1_3_2_2_4_1",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1145/3449726.3463136"
+            },
+            {
+              "key": "e_1_3_2_2_5_1",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1016/j.cma.2018.01.008"
+            },
+            {
+              "key": "e_1_3_2_2_6_1",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1109/CEC.2011.5949614"
+            },
+            {
+              "key": "e_1_3_2_2_7_1",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1145/1830483.1830557"
+            },
+            {
+              "key": "e_1_3_2_2_8_1",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1145/3512290.3528827"
+            },
+            {
+              "key": "e_1_3_2_2_9_1",
+              "unstructured": "Nikolaus Hansen. 2011. A CMA-ES for Mixed-Integer Nonlinear Optimization. Technical Report. INRIA."
+            },
+            {
+              "key": "e_1_3_2_2_10_1",
+              "volume-title": "The CMA Evolution Strategy: A Tutorial. arXiv preprint",
+              "author": "Hansen Nikolaus",
+              "year": "2016",
+              "unstructured": "Nikolaus Hansen. 2016. The CMA Evolution Strategy: A Tutorial. arXiv preprint (2016)."
+            },
+            {
+              "volume-title": "Parallel Problem Solving from Nature - PPSN XIII, Thomas Bartz-Beielstein, Jürgen Branke, Bogdan Filipič",
+              "author": "Hansen Nikolaus",
+              "key": "e_1_3_2_2_11_1",
+              "unstructured": "Nikolaus Hansen, Asma Atamna, and Anne Auger. 2014. How to Assess Step-Size Adaptation Mechanisms in Randomised Search. In Parallel Problem Solving from Nature - PPSN XIII, Thomas Bartz-Beielstein, Jürgen Branke, Bogdan Filipič, and Jim Smith (Eds.). Springer International Publishing, Cham, 60–69."
+            },
+            {
+              "key": "e_1_3_2_2_12_1",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1080/10556788.2020.1808977"
+            },
+            {
+              "key": "e_1_3_2_2_13_1",
+              "volume-title": "Systems, Challenges",
+              "author": "Hutter Frank",
+              "unstructured": "Frank Hutter, Lars Kotthoff, and Joaquin Vanschoren. 2019. Automated Machine Learning: Methods, Systems, Challenges (1st ed.). Springer Publishing Company, Incorporated.",
+              "edition": "1"
+            },
+            {
+              "key": "e_1_3_2_2_14_1",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1145/3583131.3590518"
+            },
+            {
+              "key": "e_1_3_2_2_15_1",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1039/D0ME00079E"
+            },
+            {
+              "key": "e_1_3_2_2_16_1",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1162/EVCO_a_00059"
+            },
+            {
+              "key": "e_1_3_2_2_17_1",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1007/978-3-031-70068-2_18"
+            },
+            {
+              "key": "e_1_3_2_2_18_1",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1145/3205651.3205706"
+            },
+            {
+              "key": "e_1_3_2_2_19_1",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1016/j.cor.2012.08.022"
+            },
+            {
+              "key": "e_1_3_2_2_20_1",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1145/3638530.3654220"
+            },
+            {
+              "key": "e_1_3_2_2_21_1",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1109/CEC55065.2022.9870206"
+            },
+            {
+              "key": "e_1_3_2_2_22_1",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1109/CEC45853.2021.9504865"
+            },
+            {
+              "key": "e_1_3_2_2_23_1",
+              "first-page": "1",
+              "article-title": "Information-Geometric Optimization Algorithms: A Unifying Picture via Invariance Principles",
+              "volume": "18",
+              "author": "Ollivier Yann",
+              "year": "2017",
+              "unstructured": "Yann Ollivier, Ludovic Arnold, Anne Auger, and Nikolaus Hansen. 2017. Information-Geometric Optimization Algorithms: A Unifying Picture via Invariance Principles. Journal of Machine Learning Research 18, 18 (2017), 1–65. http://jmlr.org/papers/v18/14-467.html",
+              "journal-title": "Journal of Machine Learning Research"
+            },
+            {
+              "key": "e_1_3_2_2_24_1",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1007/978-3-540-87700-4_30"
+            },
+            {
+              "key": "e_1_3_2_2_25_1",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1145/2464576.2464608"
+            },
+            {
+              "key": "e_1_3_2_2_26_1",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1145/3321707.3321868"
+            },
+            {
+              "key": "e_1_3_2_2_27_1",
+              "doi-asserted-by": "publisher",
+              "DOI": "10.1109/CEC.2008.4631255"
+            },
+            {
+              "volume-title": "Parallel Problem Solving from Nature — PPSN V, Agoston E",
+              "author": "Yang Jinn-Moon",
+              "key": "e_1_3_2_2_28_1",
+              "unstructured": "Jinn-Moon Yang and Cheng-Yan Kao. 1998. An evolutionary algorithm for synthesizing optical thin-film designs. In Parallel Problem Solving from Nature — PPSN V, Agoston E. Eiben, Thomas Bäck, Marc Schoenauer, and Hans-Paul Schwefel (Eds.). Springer Berlin Heidelberg, Berlin, Heidelberg, 947–956."
+            }
+          ],
+          "event": {
+            "name": "GECCO '25: Genetic and Evolutionary Computation Conference",
+            "sponsor": [
+              "SIGEVO ACM Special Interest Group on Genetic and Evolutionary Computation"
+            ],
+            "location": "NH Malaga Hotel Malaga Spain",
+            "acronym": "GECCO '25"
+          },
+          "container-title": [
+            "Proceedings of the Genetic and Evolutionary Computation Conference"
+          ],
+          "link": [
+            {
+              "URL": "https://dl.acm.org/doi/pdf/10.1145/3712256.3726320",
+              "content-type": "unspecified",
+              "content-version": "vor",
+              "intended-application": "similarity-checking"
+            }
+          ],
+          "deposited": {
+            "date-parts": [
+              [
+                2025,
+                10,
+                7
+              ]
+            ],
+            "date-time": "2025-10-07T20:42:14Z",
+            "timestamp": 1759869734000
+          },
+          "score": 34.48286,
+          "resource": {
+            "primary": {
+              "URL": "https://dl.acm.org/doi/10.1145/3712256.3726320"
+            }
+          },
+          "issued": {
+            "date-parts": [
+              [
+                2025,
+                7,
+                13
+              ]
+            ]
+          },
+          "references-count": 28,
+          "alternative-id": [
+            "10.1145/3712256.3726320",
+            "10.1145/3712256"
+          ],
+          "URL": "https://doi.org/10.1145/3712256.3726320",
+          "published": {
+            "date-parts": [
+              [
+                2025,
+                7,
+                13
+              ]
+            ]
+          },
+          "assertion": [
+            {
+              "value": "2025-07-13",
+              "order": 3,
+              "name": "published",
+              "label": "Published",
+              "group": {
+                "name": "publication_history",
+                "label": "Publication History"
+              }
+            }
+          ]
+        }
+      ],
+      "items-per-page": 3,
+      "query": {
+        "start-index": 0,
+        "search-terms": null
+      }
+    }
+  }
+}

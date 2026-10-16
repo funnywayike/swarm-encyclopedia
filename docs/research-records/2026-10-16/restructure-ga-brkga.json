@@ -1,0 +1,2684 @@
+{
+  "query": "10.1016/j.ejor.2024.03.030",
+  "url": "https://api.crossref.org/works/10.1016%2Fj.ejor.2024.03.030",
+  "retrieved": "2026-10-16",
+  "response": {
+    "status": "ok",
+    "message-type": "work",
+    "message-version": "1.0.0",
+    "message": {
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            10,
+            8
+          ]
+        ],
+        "date-time": "2026-10-08T18:34:27Z",
+        "timestamp": 1791484467185,
+        "version": "4.3.4"
+      },
+      "reference-count": 215,
+      "publisher": "Elsevier BV",
+      "issue": "1",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2025,
+                2,
+                1
+              ]
+            ],
+            "date-time": "2025-02-01T00:00:00Z",
+            "timestamp": 1738368000000
+          },
+          "content-version": "tdm",
+          "delay-in-days": 0,
+          "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+        },
+        {
+          "start": {
+            "date-parts": [
+              [
+                2025,
+                2,
+                1
+              ]
+            ],
+            "date-time": "2025-02-01T00:00:00Z",
+            "timestamp": 1738368000000
+          },
+          "content-version": "tdm",
+          "delay-in-days": 0,
+          "URL": "https://www.elsevier.com/legal/tdmrep-license"
+        },
+        {
+          "start": {
+            "date-parts": [
+              [
+                2024,
+                3,
+                27
+              ]
+            ],
+            "date-time": "2024-03-27T00:00:00Z",
+            "timestamp": 1711497600000
+          },
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "URL": "http://creativecommons.org/licenses/by-nc-nd/4.0/"
+        }
+      ],
+      "funder": [
+        {
+          "DOI": "10.13039/501100003593",
+          "name": "CNPq",
+          "doi-asserted-by": "publisher",
+          "id": [
+            {
+              "id": "10.13039/501100003593",
+              "id-type": "DOI",
+              "asserted-by": "publisher"
+            }
+          ]
+        },
+        {
+          "DOI": "10.13039/501100002322",
+          "name": "CAPES",
+          "doi-asserted-by": "publisher",
+          "id": [
+            {
+              "id": "10.13039/501100002322",
+              "id-type": "DOI",
+              "asserted-by": "publisher"
+            }
+          ]
+        },
+        {
+          "DOI": "10.13039/501100004586",
+          "name": "Carlos Chagas Filho Foundation for Research Support of Rio de Janeiro State",
+          "doi-asserted-by": "publisher",
+          "id": [
+            {
+              "id": "10.13039/501100004586",
+              "id-type": "DOI",
+              "asserted-by": "publisher"
+            }
+          ]
+        }
+      ],
+      "content-domain": {
+        "domain": [
+          "elsevier.com",
+          "sciencedirect.com"
+        ],
+        "crossmark-restriction": true
+      },
+      "short-container-title": [
+        "European Journal of Operational Research"
+      ],
+      "published-print": {
+        "date-parts": [
+          [
+            2025,
+            2
+          ]
+        ]
+      },
+      "DOI": "10.1016/j.ejor.2024.03.030",
+      "type": "journal-article",
+      "created": {
+        "date-parts": [
+          [
+            2024,
+            3,
+            26
+          ]
+        ],
+        "date-time": "2024-03-26T12:57:39Z",
+        "timestamp": 1711457859000
+      },
+      "page": "1-22",
+      "update-policy": "https://doi.org/10.1016/elsevier_cm_policy",
+      "source": "Crossref",
+      "is-referenced-by-count": 74,
+      "title": [
+        "Biased random-key genetic algorithms: A review"
+      ],
+      "prefix": "10.1016",
+      "volume": "321",
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0000-0001-6428-1671",
+          "authenticated-orcid": false,
+          "given": "Mariana A.",
+          "family": "Londe",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Luciana S.",
+          "family": "Pessoa",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-8362-6177",
+          "authenticated-orcid": false,
+          "given": "Carlos E.",
+          "family": "Andrade",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0001-7462-6207",
+          "authenticated-orcid": false,
+          "given": "Mauricio G.C.",
+          "family": "Resende",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "78",
+      "reference": [
+        {
+          "key": "10.1016/j.ejor.2024.03.030_b1",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1016/j.swevo.2022.101149",
+          "article-title": "A novel BRKGA for the customer order scheduling with missing operations to minimize total tardiness",
+          "volume": "75",
+          "author": "Abreu",
+          "year": "2022",
+          "journal-title": "Swarm and Evolutionary Computation"
+        },
+        {
+          "key": "10.1016/j.ejor.2024.03.030_b2",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1016/j.engappai.2021.104373",
+          "article-title": "A new efficient biased random key genetic algorithm for open shop scheduling with routing by capacitated single vehicle and makespan minimization",
+          "volume": "104",
+          "author": "Abreu",
+          "year": "2021",
+          "journal-title": "Engineering Applications of Artificial Intelligence"
+        },
+        {
+          "key": "10.1016/j.ejor.2024.03.030_b3",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.14569/IJACSA.2020.0110642",
+          "article-title": "A comparative study of eight crossover operators for the maximum scatter travelling salesman problem",
+          "volume": "11",
+          "author": "Ahmed",
+          "year": "2020",
+          "journal-title": "International Journal of Advanced Computer Science and Applications"
+        },
+        {
+          "issue": "2",
+          "key": "10.1016/j.ejor.2024.03.030_b4",
+          "doi-asserted-by": "crossref",
+          "first-page": "244",
+          "DOI": "10.1287/opre.4.2.244",
+          "article-title": "A graphical approach to production scheduling problems",
+          "volume": "4",
+          "author": "Akers",
+          "year": "1956",
+          "journal-title": "Operations Research"
+        },
+        {
+          "key": "10.1016/j.ejor.2024.03.030_b5",
+          "series-title": "2019 international conference on computer and information sciences",
+          "first-page": "1",
+          "article-title": "Comparative study of crossover operators for the MTSP",
+          "author": "Al-Omeer",
+          "year": "2019"
+        },
+        {
+          "issue": "2",
+          "key": "10.1016/j.ejor.2024.03.030_b6",
+          "doi-asserted-by": "crossref",
+          "first-page": "283",
+          "DOI": "10.1007/s11750-018-0472-9",
+          "article-title": "A biased random-key genetic algorithm for the project scheduling problem with flexible resources",
+          "volume": "26",
+          "author": "Almeida",
+          "year": "2018",
+          "journal-title": "TOP"
+        },
+        {
+          "issue": "18",
+          "key": "10.1016/j.ejor.2024.03.030_b7",
+          "doi-asserted-by": "crossref",
+          "first-page": "10133",
+          "DOI": "10.3390/app131810133",
+          "article-title": "Evolutionary algorithms for optimization sequence of cut in the laser cutting path problem",
+          "volume": "13",
+          "author": "Amaro Júnior",
+          "year": "2023",
+          "journal-title": "Applied Sciences"
+        },
+        {
+          "key": "10.1016/j.ejor.2024.03.030_b8",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1155/2017/1670709",
+          "article-title": "A parallel biased random-key genetic algorithm with multiple populations applied to irregular strip packing problems",
+          "volume": "2017",
+          "author": "Amaro Júnior",
+          "year": "2017",
+          "journal-title": "Mathematical Problems in Engineering"
+        },
+        {
+          "issue": "11",
+          "key": "10.1016/j.ejor.2024.03.030_b9",
+          "doi-asserted-by": "crossref",
+          "first-page": "305",
+          "DOI": "10.3390/a14110305",
+          "article-title": "Metaheuristics for the minimum time cut path problem with different cutting and sliding speeds",
+          "volume": "14",
+          "author": "Amaro Júnior",
+          "year": "2021",
+          "journal-title": "Algorithms",
+          "ISSN": "https://id.crossref.org/issn/1999-4893",
+          "issn-type": "print"
+        },
+        {
+          "issue": "1",
+          "key": "10.1016/j.ejor.2024.03.030_b10",
+          "doi-asserted-by": "crossref",
+          "first-page": "62",
+          "DOI": "10.1016/j.ejor.2017.05.003",
+          "article-title": "A hybrid primal heuristic for finding feasible solutions to mixed integer programs",
+          "volume": "263",
+          "author": "Andrade",
+          "year": "2017",
+          "journal-title": "European Journal of Operational Research"
+        },
+        {
+          "key": "10.1016/j.ejor.2024.03.030_b11",
+          "series-title": "Proceedings of the 2nd ACM international workshop on smart, autonomous, and connected vehicular systems and services",
+          "isbn-type": "print",
+          "doi-asserted-by": "crossref",
+          "first-page": "65",
+          "DOI": "10.1145/3131944.3131953",
+          "article-title": "Managing massive firmware-over-the-air updates for connected cars in cellular networks",
+          "author": "Andrade",
+          "year": "2017",
+          "ISBN": "https://id.crossref.org/isbn/9781450351461"
+        },
+        {
+          "key": "10.1016/j.ejor.2024.03.030_b12",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1016/j.asoc.2019.105575",
+          "article-title": "Scheduling software updates for connected cars with limited availability",
+          "volume": "82",
+          "author": "Andrade",
+          "year": "2019",
+          "journal-title": "Applied Soft Computing"
+        },
+        {
+          "key": "10.1016/j.ejor.2024.03.030_b13",
+          "series-title": "Proceedings of the 15th annual conference on genetic and evolutionary computation",
+          "isbn-type": "print",
+          "doi-asserted-by": "crossref",
+          "first-page": "463",
+          "DOI": "10.1145/2463372.2463434",
+          "article-title": "Evolutionary algorithm for the k-interconnected multi-depot multi-traveling salesmen problem",
+          "author": "Andrade",
+          "year": "2013",
+          "ISBN": "https://id.crossref.org/isbn/9781450319638"
+        },
+        {
+          "key": "10.1016/j.ejor.2024.03.030_b14",
+          "first-page": "1",
+          "article-title": "The physical cell identity assignment problem: a practical optimization approach",
+          "author": "Andrade",
+          "year": "2022",
+          "journal-title": "IEEE Transactions on Evolutionary Computation",
+          "ISSN": "https://id.crossref.org/issn/1089-778X",
+          "issn-type": "print"
+        },
+        {
+          "key": "10.1016/j.ejor.2024.03.030_b15",
+          "series-title": "Proceedings of the 16th conference on genetic and evolutionary computation",
+          "isbn-type": "print",
+          "doi-asserted-by": "crossref",
+          "first-page": "405",
+          "DOI": "10.1145/2576768.2598284",
+          "article-title": "Evolutionary algorithms for overlapping correlation clustering",
+          "author": "Andrade",
+          "year": "2014",
+          "ISBN": "https://id.crossref.org/isbn/9781450326629"
+        },
+        {
+          "key": "10.1016/j.ejor.2024.03.030_b16",
+          "doi-asserted-by": "crossref",
+          "first-page": "150",
+          "DOI": "10.1016/j.asoc.2015.04.016",
+          "article-title": "A biased random-key genetic algorithm for wireless backhaul network design",
+          "volume": "33",
+          "author": "Andrade",
+          "year": "2015",
+          "journal-title": "Applied Soft Computing"
+        },
+        {
+          "key": "10.1016/j.ejor.2024.03.030_b17",
+          "doi-asserted-by": "crossref",
+          "first-page": "67",
+          "DOI": "10.1016/j.eswa.2019.03.007",
+          "article-title": "Minimizing flowtime in a flowshop scheduling problem with a biased random-key genetic algorithm",
+          "volume": "128",
+          "author": "Andrade",
+          "year": "2019",
+          "journal-title": "Expert Systems with Applications"
+        },
+        {
+          "issue": "1",
+          "key": "10.1016/j.ejor.2024.03.030_b18",
+          "doi-asserted-by": "crossref",
+          "first-page": "17",
+          "DOI": "10.1016/j.ejor.2019.11.037",
+          "article-title": "The multi-parent biased random-key genetic algorithm with implicit path-relinking and its real-world applications",
+          "volume": "289",
+          "author": "Andrade",
+          "year": "2021",
+          "journal-title": "European Journal of Operational Research"
+        },
+        {
+          "issue": "2",
+          "key": "10.1016/j.ejor.2024.03.030_b19",
+          "doi-asserted-by": "crossref",
+          "first-page": "279",
+          "DOI": "10.1162/EVCO_a_00138",
+          "article-title": "Biased random-key genetic algorithms for the winner determination problem in combinatorial auctions",
+          "volume": "23",
+          "author": "Andrade",
+          "year": "2015",
+          "journal-title": "Evolutionary Computation"
+        },
+        {
+          "issue": "3",
+          "key": "10.1016/j.ejor.2024.03.030_b20",
+          "doi-asserted-by": "crossref",
+          "first-page": "344",
+          "DOI": "10.1504/EJIE.2015.069343",
+          "article-title": "Balancing parallel assembly lines with disabled workers",
+          "volume": "9",
+          "author": "Araújo",
+          "year": "2015",
+          "journal-title": "European Journal of Industrial Engineering"
+        },
+        {
+          "issue": "1",
+          "key": "10.1016/j.ejor.2024.03.030_b21",
+          "doi-asserted-by": "crossref",
+          "first-page": "377",
+          "DOI": "10.1162/qss_a_00019",
+          "article-title": "Scopus as a curated, high-quality bibliometric data source for academic research in quantitative science studies",
+          "volume": "1",
+          "author": "Baas",
+          "year": "2020",
+          "journal-title": "Quantitative Science Studies"
+        },
+        {
+          "issue": "2",
+          "key": "10.1016/j.ejor.2024.03.030_b22",
+          "doi-asserted-by": "crossref",
+          "first-page": "154",
+          "DOI": "10.1287/ijoc.6.2.154",
+          "article-title": "Genetic algorithms and random keys for sequencing and optimization",
+          "volume": "6",
+          "author": "Bean",
+          "year": "1994",
+          "journal-title": "ORSA Journal on Computing"
+        },
+        {
+          "key": "10.1016/j.ejor.2024.03.030_b23",
+          "series-title": "Sistema de apoio à decisão para sequenciamento de operações em ambientes Job Shop",
+          "author": "Beirão",
+          "year": "1997"
+        },
+        {
+          "issue": "3731",
+          "key": "10.1016/j.ejor.2024.03.030_b24",
+          "doi-asserted-by": "crossref",
+          "first-page": "34",
+          "DOI": "10.1126/science.153.3731.34",
+          "article-title": "Dynamic programming",
+          "volume": "153",
+          "author": "Bellman",
+          "year": "1966",
+          "journal-title": "Science"
+        },
+        {
+          "issue": "4",
+          "key": "10.1016/j.ejor.2024.03.030_b25",
+          "doi-asserted-by": "crossref",
+          "first-page": "1269",
+          "DOI": "10.1111/itor.12330",
+          "article-title": "Metaheuristics based on decision hierarchies for the traveling purchaser problem",
+          "volume": "25",
+          "author": "Bernardino",
+          "year": "2018",
+          "journal-title": "International Transactions in Operational Research"
+        },
+        {
+          "issue": "3",
+          "key": "10.1016/j.ejor.2024.03.030_b26",
+          "doi-asserted-by": "crossref",
+          "first-page": "1653",
+          "DOI": "10.1016/j.ejor.2006.08.008",
+          "article-title": "SMS-EMOA: Multiobjective selection based on dominated hypervolume",
+          "volume": "181",
+          "author": "Beume",
+          "year": "2007",
+          "journal-title": "European Journal of Operational Research"
+        },
+        {
+          "key": "10.1016/j.ejor.2024.03.030_b27",
+          "doi-asserted-by": "crossref",
+          "first-page": "418",
+          "DOI": "10.1016/j.eswa.2018.08.024",
+          "article-title": "A biased random-key genetic algorithm for the two-stage capacitated facility location problem",
+          "volume": "115",
+          "author": "Biajoli",
+          "year": "2019",
+          "journal-title": "Expert Systems with Applications"
+        },
+        {
+          "key": "10.1016/j.ejor.2024.03.030_b28",
+          "first-page": "1",
+          "article-title": "Heuristic algorithms for integrated workforce allocation and scheduling of perishable products",
+          "author": "Bolsi",
+          "year": "2022",
+          "journal-title": "International Journal of Production Research"
+        },
+        {
+          "key": "10.1016/j.ejor.2024.03.030_b29",
+          "series-title": "International workshop on hybrid metaheuristics",
+          "first-page": "171",
+          "article-title": "Matheuristics: Optimization, simulation and control",
+          "author": "Boschetti",
+          "year": "2009"
+        },
+        {
+          "issue": "5",
+          "key": "10.1016/j.ejor.2024.03.030_b30",
+          "doi-asserted-by": "crossref",
+          "first-page": "823",
+          "DOI": "10.1111/itor.12178",
+          "article-title": "A biased random-key genetic algorithm for single-round divisible load scheduling",
+          "volume": "22",
+          "author": "Brandão",
+          "year": "2015",
+          "journal-title": "International Transactions in Operational Research"
+        },
+        {
+          "issue": "5",
+          "key": "10.1016/j.ejor.2024.03.030_b31",
+          "doi-asserted-by": "crossref",
+          "first-page": "1061",
+          "DOI": "10.1111/itor.12429",
+          "article-title": "A biased random-key genetic algorithm for scheduling heterogeneous multi-round systems",
+          "volume": "24",
+          "author": "Brandão",
+          "year": "2017",
+          "journal-title": "International Transactions in Operational Research"
+        },
+        {
+          "issue": "4",
+          "key": "10.1016/j.ejor.2024.03.030_b32",
+          "doi-asserted-by": "crossref",
+          "first-page": "813",
+          "DOI": "10.1007/s10898-015-0389-x",
+          "article-title": "A biased random-key genetic algorithm to maximize the number of accepted lightpaths in WDM optical networks",
+          "volume": "65",
+          "author": "Brandão",
+          "year": "2016",
+          "journal-title": "Journal of Global Optimization"
+        },
+        {
+          "key": "10.1016/j.ejor.2024.03.030_b33",
+          "unstructured": "Bresina, J. L. (1996). Heuristic-biased stochastic sampling. In Proceedings of the thirteenth national conference on artificial intelligence-volume 1 (pp. 271–278)."
+        },
+        {
+          "key": "10.1016/j.ejor.2024.03.030_b34",
+          "first-page": "3714",
+          "article-title": "A genetic algorithm applied to optimal allocation in stratified sampling",
+          "author": "Brito",
+          "year": "2020",
+          "journal-title": "Communications in Statistics. Simulation and Computation"
+        },
+        {
+          "issue": "4",
+          "key": "10.1016/j.ejor.2024.03.030_b35",
+          "doi-asserted-by": "crossref",
+          "first-page": "3137",
+          "DOI": "10.1051/ro/2022141",
+          "article-title": "The effective BRKGA algorithm for the k-medoids clustering problem",
+          "volume": "56",
+          "author": "Brito",
+          "year": "2022",
+          "journal-title": "RAIRO-Operations Research"
+        },
+        {
+          "issue": "4",
+          "key": "10.1016/j.ejor.2024.03.030_b36",
+          "doi-asserted-by": "crossref",
+          "first-page": "619",
+          "DOI": "10.1007/s11590-010-0226-6",
+          "article-title": "A biased random-key genetic algorithm for road congestion minimization",
+          "volume": "4",
+          "author": "Buriol",
+          "year": "2010",
+          "journal-title": "Optimization Letters"
+        },
+        {
+          "issue": "1",
+          "key": "10.1016/j.ejor.2024.03.030_b37",
+          "doi-asserted-by": "crossref",
+          "first-page": "36",
+          "DOI": "10.1002/net.20070",
+          "article-title": "A hybrid genetic algorithm for the weight setting problem in OSPF/IS-IS routing",
+          "volume": "46",
+          "author": "Buriol",
+          "year": "2005",
+          "journal-title": "Networks"
+        },
+        {
+          "issue": "1",
+          "key": "10.1016/j.ejor.2024.03.030_b38",
+          "doi-asserted-by": "crossref",
+          "first-page": "51",
+          "DOI": "10.1002/net.20141",
+          "article-title": "Survivable IP network design with OSPF routing",
+          "volume": "49",
+          "author": "Buriol",
+          "year": "2007",
+          "journal-title": "Networks: An International Journal"
+        },
+        {
+          "key": "10.1016/j.ejor.2024.03.030_b39",
+          "doi-asserted-by": "crossref",
+          "first-page": "201",
+          "DOI": "10.1016/j.cor.2018.07.004",
+          "article-title": "Bi-objective scheduling on a restricted batching machine",
+          "volume": "100",
+          "author": "Cabo",
+          "year": "2018",
+          "journal-title": "Computers & Operations Research"
+        },
+        {
+          "issue": "3",
+          "key": "10.1016/j.ejor.2024.03.030_b40",
+          "doi-asserted-by": "crossref",
+          "first-page": "830",
+          "DOI": "10.1016/j.ejor.2020.11.043",
+          "article-title": "A biased random-key genetic algorithm for the set orienteering problem",
+          "volume": "292",
+          "author": "Carrabs",
+          "year": "2021",
+          "journal-title": "European Journal of Operational Research"
+        },
+        {
+          "issue": "2",
+          "key": "10.1016/j.ejor.2024.03.030_b41",
+          "doi-asserted-by": "crossref",
+          "first-page": "593",
+          "DOI": "10.1016/j.ejor.2015.05.078",
+          "article-title": "A pool-based pattern generation algorithm for logical analysis of data with automatic fine-tuning",
+          "volume": "248",
+          "author": "Caserta",
+          "year": "2016",
+          "journal-title": "European Journal of Operational Research"
+        },
+        {
+          "key": "10.1016/j.ejor.2024.03.030_b42",
+          "doi-asserted-by": "crossref",
+          "first-page": "272",
+          "DOI": "10.1016/j.cor.2017.09.021",
+          "article-title": "Optimal configuration of power distribution networks with variable renewable energy resources",
+          "volume": "96",
+          "author": "Cavalheiro",
+          "year": "2018",
+          "journal-title": "Computers & Operations Research"
+        },
+        {
+          "issue": "3",
+          "key": "10.1016/j.ejor.2024.03.030_b43",
+          "doi-asserted-by": "crossref",
+          "first-page": "267",
+          "DOI": "10.1007/s10732-020-09457-7",
+          "article-title": "A non-dominated sorting based customized random-key genetic algorithm for the bi-objective traveling thief problem",
+          "volume": "27",
+          "author": "Chagas",
+          "year": "2021",
+          "journal-title": "Journal of Heuristics"
+        },
+        {
+          "issue": "4",
+          "key": "10.1016/j.ejor.2024.03.030_b44",
+          "doi-asserted-by": "crossref",
+          "first-page": "2346",
+          "DOI": "10.1111/itor.12876",
+          "article-title": "The double traveling salesman problem with partial last-in-first-out loading constraints",
+          "volume": "29",
+          "author": "Chagas",
+          "year": "2020",
+          "journal-title": "International Transactions in Operational Research"
+        },
+        {
+          "issue": "1",
+          "key": "10.1016/j.ejor.2024.03.030_b45",
+          "doi-asserted-by": "crossref",
+          "first-page": "157",
+          "DOI": "10.1177/0954405414523594",
+          "article-title": "A biased random key genetic algorithm approach for inventory-based multi-item lot-sizing problem",
+          "volume": "229",
+          "author": "Chan",
+          "year": "2015",
+          "journal-title": "Proceedings of the Institution of Mechanical Engineers, Part B (Management and Engineering Manufacture)"
+        },
+        {
+          "key": "10.1016/j.ejor.2024.03.030_b46",
+          "doi-asserted-by": "crossref",
+          "first-page": "331",
+          "DOI": "10.1016/j.cie.2018.07.031",
+          "article-title": "Adaptive biased random-key genetic algorithm with local search for the capacitated centered clustering problem",
+          "volume": "124",
+          "author": "Chaves",
+          "year": "2018",
+          "journal-title": "Computers & Industrial Engineering"
+        },
+        {
+          "key": "10.1016/j.ejor.2024.03.030_b47",
+          "doi-asserted-by": "crossref",
+          "first-page": "174",
+          "DOI": "10.1016/j.cor.2015.10.009",
+          "article-title": "Hybrid method with CS and BRKGA applied to the minimization of tool switches problem",
+          "volume": "67",
+          "author": "Chaves",
+          "year": "2016",
+          "journal-title": "Computers & Operations Research"
+        },
+        {
+          "key": "10.1016/j.ejor.2024.03.030_b48",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1016/j.eswa.2023.121735",
+          "article-title": "A parallel branch-and-cut and an adaptive metaheuristic to solve the Family Traveling Salesman Problem",
+          "volume": "238",
+          "author": "Chaves",
+          "year": "2024",
+          "journal-title": "Expert Systems with Applications"
+        },
+        {
+          "issue": "2",
+          "key": "10.1016/j.ejor.2024.03.030_b49",
+          "doi-asserted-by": "crossref",
+          "first-page": "136",
+          "DOI": "10.1080/10170660809509079",
+          "article-title": "Scheduling for a single semiconductor batch-processing machine to minimize total weighted tardiness",
+          "volume": "25",
+          "author": "Chou",
+          "year": "2008",
+          "journal-title": "Journal of the Chinese Institute of Industrial Engineers"
+        },
+        {
+          "key": "10.1016/j.ejor.2024.03.030_b50",
+          "article-title": "Optimizing the artificial neural network parameters using a biased random key genetic algorithm for time series forecasting",
+          "volume": "102",
+          "author": "Cicek",
+          "year": "2021",
+          "journal-title": "Applied Soft Computing"
+        },
+        {
+          "key": "10.1016/j.ejor.2024.03.030_b51",
+          "series-title": "Research synthesis and meta-analysis: A step-by-step approach",
+          "author": "Cooper",
+          "year": "2015"
+        },
+        {
+          "key": "10.1016/j.ejor.2024.03.030_b52",
+          "doi-asserted-by": "crossref",
+          "first-page": "112",
+          "DOI": "10.1016/j.eswa.2017.07.028",
+          "article-title": "A biased random-Key genetic algorithm for the time-invariant berth allocation and quay crane assignment problem",
+          "volume": "89",
+          "author": "Correcher",
+          "year": "2017",
+          "journal-title": "Expert Systems with Applications"
+        },
+        {
+          "key": "10.1016/j.ejor.2024.03.030_b53",
+          "series-title": "Handbook of heuristics",
+          "first-page": "607",
+          "article-title": "Memetic algorithms",
+          "author": "Cotta",
+          "year": "2018"
+        },
+        {
+          "key": "10.1016/j.ejor.2024.03.030_b54",
+          "series-title": "2018 IEEE congress on evolutionary computation",
+          "first-page": "1",
+          "article-title": "A biased random-key genetic algorithm for the rescue unit allocation and scheduling problem",
+          "author": "Cunha",
+          "year": "2018"
+        },
+        {
+          "key": "10.1016/j.ejor.2024.03.030_b55",
+          "doi-asserted-by": "crossref",
+          "first-page": "49",
+          "DOI": "10.1016/j.cor.2016.05.003",
+          "article-title": "A biased random key genetic algorithm for the field technician scheduling problem",
+          "volume": "75",
+          "author": "Damm",
+          "year": "2016",
+          "journal-title": "Computers & Operations Research"
+        },
+        {
+          "issue": "2",
+          "key": "10.1016/j.ejor.2024.03.030_b56",
+          "doi-asserted-by": "crossref",
+          "first-page": "182",
+          "DOI": "10.1109/4235.996017",
+          "article-title": "A fast and elitist multiobjective genetic algorithm: NSGA-II",
+          "volume": "6",
+          "author": "Deb",
+          "year": "2002",
+          "journal-title": "IEEE Transactions on Evolutionary Computation"
+        },
+        {
+          "issue": "4",
+          "key": "10.1016/j.ejor.2024.03.030_b57",
+          "doi-asserted-by": "crossref",
+          "first-page": "541",
+          "DOI": "10.1111/itor.12085",
+          "article-title": "Improved heuristics for the regenerator location problem",
+          "volume": "21",
+          "author": "Duarte",
+          "year": "2014",
+          "journal-title": "International Transactions in Operational Research"
+        },
+        {
+          "key": "10.1016/j.ejor.2024.03.030_b58",
+          "series-title": "Handbook of heuristics",
+          "first-page": "341",
+          "article-title": "Variable neighborhood descent",
+          "author": "Duarte",
+          "year": "2018"
+        },
+        {
+          "key": "10.1016/j.ejor.2024.03.030_b59",
+          "series-title": "Scopus",
+          "author": "Elsevier",
+          "year": "2022"
+        },
+        {
+          "issue": "3",
+          "key": "10.1016/j.ejor.2024.03.030_b60",
+          "doi-asserted-by": "crossref",
+          "first-page": "299",
+          "DOI": "10.1023/A:1014852026591",
+          "article-title": "A genetic algorithm for the weight setting problem in OSPF routing",
+          "volume": "6",
+          "author": "Ericsson",
+          "year": "2002",
+          "journal-title": "Journal of Combinatorial Optimization",
+          "ISSN": "https://id.crossref.org/issn/1382-6905",
+          "issn-type": "print"
+        },
+        {
+          "key": "10.1016/j.ejor.2024.03.030_b61",
+          "doi-asserted-by": "crossref",
+          "first-page": "37",
+          "DOI": "10.1016/j.ins.2020.09.069",
+          "article-title": "Microaggregation heuristic applied to statistical disclosure control",
+          "volume": "548",
+          "author": "Fadel",
+          "year": "2021",
+          "journal-title": "Information Sciences"
+        },
+        {
+          "issue": "14",
+          "key": "10.1016/j.ejor.2024.03.030_b62",
+          "doi-asserted-by": "crossref",
+          "first-page": "5713",
+          "DOI": "10.5194/gmd-15-5713-2022",
+          "article-title": "Use of genetic algorithms for ocean model parameter optimisation: a case study using PISCES-v2_RC for North Atlantic particulate organic carbon",
+          "volume": "15",
+          "author": "Falls",
+          "year": "2022",
+          "journal-title": "Geoscientific Model Development"
+        },
+        {
+          "issue": "6",
+          "key": "10.1016/j.ejor.2024.03.030_b63",
+          "doi-asserted-by": "crossref",
+          "first-page": "533",
+          "DOI": "10.1007/s10732-017-9355-8",
+          "article-title": "A biased random key genetic algorithm applied to the electric distribution network reconfiguration problem",
+          "volume": "23",
+          "author": "Faria Jr.",
+          "year": "2017",
+          "journal-title": "Journal of Heuristics"
+        },
+        {
+          "issue": "1",
+          "key": "10.1016/j.ejor.2024.03.030_b64",
+          "doi-asserted-by": "crossref",
+          "first-page": "76",
+          "DOI": "10.1016/j.mbs.2013.07.011",
+          "article-title": "A biased random-key genetic algorithm for data clustering",
+          "volume": "245",
+          "author": "Festa",
+          "year": "2013",
+          "journal-title": "Mathematical Biosciences"
+        },
+        {
+          "key": "10.1016/j.ejor.2024.03.030_b65",
+          "series-title": "Handbook of heuristics",
+          "first-page": "121",
+          "article-title": "Matheuristics",
+          "author": "Fischetti",
+          "year": "2018"
+        },
+        {
+          "issue": "1",
+          "key": "10.1016/j.ejor.2024.03.030_b66",
+          "doi-asserted-by": "crossref",
+          "first-page": "67",
+          "DOI": "10.1002/net.20167",
+          "article-title": "Heuristic solutions for general concave minimum cost network flow problems",
+          "volume": "50",
+          "author": "Fontes",
+          "year": "2007",
+          "journal-title": "Networks"
+        },
+        {
+          "issue": "6",
+          "key": "10.1016/j.ejor.2024.03.030_b67",
+          "doi-asserted-by": "crossref",
+          "first-page": "1303",
+          "DOI": "10.1007/s11590-012-0505-5",
+          "article-title": "A multi-population hybrid biased random key genetic algorithm for hop-constrained trees in nonlinear cost flow networks",
+          "volume": "7",
+          "author": "Fontes",
+          "year": "2013",
+          "journal-title": "Optimization Letters"
+        },
+        {
+          "issue": "3",
+          "key": "10.1016/j.ejor.2024.03.030_b68",
+          "first-page": "260",
+          "article-title": "An evolutionary approach to the maximum edge weight clique problem",
+          "volume": "11",
+          "author": "Fontes",
+          "year": "2018",
+          "journal-title": "Recent Advances in Electrical and Electronic Engineering"
+        },
+        {
+          "issue": "1",
+          "key": "10.1016/j.ejor.2024.03.030_b69",
+          "doi-asserted-by": "crossref",
+          "first-page": "241",
+          "DOI": "10.1007/s10696-022-09467-6",
+          "article-title": "A bi-objective multi-population biased random key genetic algorithm for joint scheduling quay cranes and speed adjustable vehicles in container terminals",
+          "volume": "35",
+          "author": "Fontes",
+          "year": "2023",
+          "journal-title": "Flexible Services and Manufacturing Journal"
+        },
+        {
+          "key": "10.1016/j.ejor.2024.03.030_b70",
+          "first-page": "1",
+          "article-title": "Energy-efficient job shop scheduling problem with transport resources considering speed adjustable resources",
+          "author": "Fontes",
+          "year": "2023",
+          "journal-title": "International Journal of Production Research"
+        },
+        {
+          "key": "10.1016/j.ejor.2024.03.030_b71",
+          "first-page": "1",
+          "article-title": "A biased random-key genetic algorithm for the two-level hub location routing problem with directed tours",
+          "author": "Freitas",
+          "year": "2023",
+          "journal-title": "OR Spectrum"
+        },
+        {
+          "issue": "1",
+          "key": "10.1016/j.ejor.2024.03.030_b72",
+          "doi-asserted-by": "crossref",
+          "first-page": "156",
+          "DOI": "10.1111/j.1540-5915.1977.tb01074.x",
+          "article-title": "Heuristics for integer programming using surrogate constraints",
+          "volume": "8",
+          "author": "Glover",
+          "year": "1977",
+          "journal-title": "Decision Sciences"
+        },
+        {
+          "issue": "5",
+          "key": "10.1016/j.ejor.2024.03.030_b73",
+          "doi-asserted-by": "crossref",
+          "first-page": "533",
+          "DOI": "10.1016/0305-0548(86)90048-1",
+          "article-title": "Future paths for integer programming and links to artificial intelligence",
+          "volume": "13",
+          "author": "Glover",
+          "year": "1986",
+          "journal-title": "Computers & Operations Research"
+        },
+        {
+          "key": "10.1016/j.ejor.2024.03.030_b74",
+          "series-title": "Interfaces in computer science and operations research",
+          "first-page": "1",
+          "article-title": "Tabu search and adaptive memory programming – Advances, Applications and Challenges",
+          "author": "Glover",
+          "year": "1997"
+        },
+        {
+          "issue": "6",
+          "key": "10.1016/j.ejor.2024.03.030_b75",
+          "doi-asserted-by": "crossref",
+          "first-page": "629",
+          "DOI": "10.1023/A:1020377910258",
+          "article-title": "A hybrid genetic algorithm for assembly line balancing",
+          "volume": "8",
+          "author": "Gonçalves",
+          "year": "2002",
+          "journal-title": "Journal of Heuristics"
+        },
+        {
+          "key": "10.1016/j.ejor.2024.03.030_b76",
+          "first-page": "123",
+          "article-title": "Um algoritmo genético baseado em chave aleatórias para sequenciamento de opearções",
+          "volume": "19",
+          "author": "Gonçalves",
+          "year": "1999",
+          "journal-title": "Investigação Operacional"
+        },
+        {
+          "issue": "1",
+          "key": "10.1016/j.ejor.2024.03.030_b77",
+          "doi-asserted-by": "crossref",
+          "first-page": "77",
+          "DOI": "10.1016/j.ejor.2004.03.012",
+          "article-title": "A hybrid genetic algorithm for the job shop scheduling problem",
+          "volume": "167",
+          "author": "Gonçalves",
+          "year": "2005",
+          "journal-title": "European Journal of Operational Research"
+        },
+        {
+          "issue": "3",
+          "key": "10.1016/j.ejor.2024.03.030_b78",
+          "doi-asserted-by": "crossref",
+          "first-page": "1171",
+          "DOI": "10.1016/j.ejor.2006.06.074",
+          "article-title": "A genetic algorithm for the resource constrained multi-project scheduling problem",
+          "volume": "189",
+          "author": "Gonçalves",
+          "year": "2008",
+          "journal-title": "European Journal of Operational Research"
+        },
+        {
+          "issue": "2–3",
+          "key": "10.1016/j.ejor.2024.03.030_b79",
+          "doi-asserted-by": "crossref",
+          "first-page": "247",
+          "DOI": "10.1016/j.cie.2004.07.003",
+          "article-title": "An evolutionary algorithm for manufacturing cell formation",
+          "volume": "47",
+          "author": "Gonçalves",
+          "year": "2004",
+          "journal-title": "Computers & Industrial Engineering"
+        },
+        {
+          "issue": "5",
+          "key": "10.1016/j.ejor.2024.03.030_b80",
+          "doi-asserted-by": "crossref",
+          "first-page": "487",
+          "DOI": "10.1007/s10732-010-9143-1",
+          "article-title": "Biased random-key genetic algorithms for combinatorial optimization",
+          "volume": "17",
+          "author": "Gonçalves",
+          "year": "2011",
+          "journal-title": "Journal of Heuristics"
+        },
+        {
+          "issue": "2",
+          "key": "10.1016/j.ejor.2024.03.030_b81",
+          "doi-asserted-by": "crossref",
+          "first-page": "180",
+          "DOI": "10.1007/s10878-009-9282-1",
+          "article-title": "A parallel multi-population genetic algorithm for a constrained two-dimensional orthogonal packing problem",
+          "volume": "22",
+          "author": "Gonçalves",
+          "year": "2011",
+          "journal-title": "Journal of Combinatorial Optimization"
+        },
+        {
+          "issue": "2",
+          "key": "10.1016/j.ejor.2024.03.030_b82",
+          "doi-asserted-by": "crossref",
+          "first-page": "179",
+          "DOI": "10.1016/j.cor.2011.03.009",
+          "article-title": "A parallel multi-population biased random-key genetic algorithm for a container loading problem",
+          "volume": "39",
+          "author": "Gonçalves",
+          "year": "2012",
+          "journal-title": "Computers & Operations Research"
+        },
+        {
+          "issue": "2",
+          "key": "10.1016/j.ejor.2024.03.030_b83",
+          "doi-asserted-by": "crossref",
+          "first-page": "500",
+          "DOI": "10.1016/j.ijpe.2013.04.019",
+          "article-title": "A biased random key genetic algorithm for 2D and 3D bin packing problems",
+          "volume": "145",
+          "author": "Gonçalves",
+          "year": "2013",
+          "journal-title": "International Journal of Production Economics"
+        },
+        {
+          "issue": "2",
+          "key": "10.1016/j.ejor.2024.03.030_b84",
+          "doi-asserted-by": "crossref",
+          "first-page": "215",
+          "DOI": "10.1111/itor.12044",
+          "article-title": "An extended Akers graphical method with a biased random-key genetic algorithm for job-shop scheduling",
+          "volume": "21",
+          "author": "Gonçalves",
+          "year": "2014",
+          "journal-title": "International Transactions in Operational Research"
+        },
+        {
+          "issue": "1",
+          "key": "10.1016/j.ejor.2024.03.030_b85",
+          "doi-asserted-by": "crossref",
+          "first-page": "86",
+          "DOI": "10.1016/j.ejor.2015.04.029",
+          "article-title": "A biased random-key genetic algorithm for the unequal area facility layout problem",
+          "volume": "246",
+          "author": "Gonçalves",
+          "year": "2015",
+          "journal-title": "European Journal of Operational Research"
+        },
+        {
+          "issue": "1–2",
+          "key": "10.1016/j.ejor.2024.03.030_b86",
+          "doi-asserted-by": "crossref",
+          "first-page": "25",
+          "DOI": "10.1111/itor.12109",
+          "article-title": "A biased random-key genetic algorithm for the minimization of open stacks problem",
+          "volume": "23",
+          "author": "Gonçalves",
+          "year": "2016",
+          "journal-title": "International Transactions in Operational Research"
+        },
+        {
+          "issue": "5",
+          "key": "10.1016/j.ejor.2024.03.030_b87",
+          "doi-asserted-by": "crossref",
+          "first-page": "467",
+          "DOI": "10.1007/s10732-010-9142-2",
+          "article-title": "A biased random-key genetic algorithm with forward-backward improvement for the resource constrained project scheduling problem",
+          "volume": "17",
+          "author": "Gonçalves",
+          "year": "2011",
+          "journal-title": "Journal of Heuristics"
+        },
+        {
+          "issue": "9",
+          "key": "10.1016/j.ejor.2024.03.030_b88",
+          "doi-asserted-by": "crossref",
+          "first-page": "2683",
+          "DOI": "10.1080/00207543.2010.532936",
+          "article-title": "A genetic algorithm for lot sizing and scheduling under capacity constraints and allowing backorders",
+          "volume": "49",
+          "author": "Gonçalves",
+          "year": "2011",
+          "journal-title": "International Journal of Production Research"
+        },
+        {
+          "issue": "3",
+          "key": "10.1016/j.ejor.2024.03.030_b89",
+          "doi-asserted-by": "crossref",
+          "first-page": "867",
+          "DOI": "10.1016/j.ejor.2020.04.028",
+          "article-title": "A MIP model and a biased random-key genetic algorithm based approach for a two-dimensional cutting problem with defects",
+          "volume": "286",
+          "author": "Gonçalves",
+          "year": "2020",
+          "journal-title": "European Journal of Operational Research"
+        },
+        {
+          "key": "10.1016/j.ejor.2024.03.030_b90",
+          "doi-asserted-by": "crossref",
+          "first-page": "12",
+          "DOI": "10.1186/1472-6963-14-12",
+          "article-title": "On the improvement of blood sample collection at clinical laboratories",
+          "volume": "14",
+          "author": "Grasas",
+          "year": "2014",
+          "journal-title": "BMC Health Services Research"
+        },
+        {
+          "key": "10.1016/j.ejor.2024.03.030_b91",
+          "series-title": "Search methodologies",
+          "first-page": "211",
+          "article-title": "Variable neighborhood search",
+          "author": "Hansen",
+          "year": "2005"
+        },
+        {
+          "key": "10.1016/j.ejor.2024.03.030_b92",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1016/j.cie.2019.106102",
+          "article-title": "Order acceptance and scheduling with sequence-dependent setup times: A new memetic algorithm and benchmark of the state of the art",
+          "volume": "138",
+          "author": "He",
+          "year": "2019",
+          "journal-title": "Computers & Industrial Engineering"
+        },
+        {
+          "key": "10.1016/j.ejor.2024.03.030_b93",
+          "doi-asserted-by": "crossref",
+          "first-page": "16",
+          "DOI": "10.1016/j.cie.2016.02.015",
+          "article-title": "A cloud brokerage approach for solving the resource management problem in multi-cloud environments",
+          "volume": "95",
+          "author": "Heilig",
+          "year": "2016",
+          "journal-title": "Computers & Industrial Engineering"
+        },
+        {
+          "key": "10.1016/j.ejor.2024.03.030_b94",
+          "series-title": "Adaptation in natural and artificial systems: An introductory analysis with applications to biology, control, and artificial intelligence",
+          "author": "Holland",
+          "year": "1975"
+        },
+        {
+          "key": "10.1016/j.ejor.2024.03.030_b95",
+          "first-page": "688",
+          "article-title": "A multistart biased random key genetic algorithm for the flexible job shop scheduling problem with transportation",
+          "author": "Homayouni",
+          "year": "2020",
+          "journal-title": "International Transactions in Operational Research"
+        },
+        {
+          "key": "10.1016/j.ejor.2024.03.030_b96",
+          "doi-asserted-by": "crossref",
+          "first-page": "83",
+          "DOI": "10.1016/j.cor.2016.05.011",
+          "article-title": "A biased random-key genetic algorithm for the container pre-marshalling problem",
+          "volume": "75",
+          "author": "Hottung",
+          "year": "2016",
+          "journal-title": "Computers & Operations Research"
+        },
+        {
+          "key": "10.1016/j.ejor.2024.03.030_b97",
+          "doi-asserted-by": "crossref",
+          "first-page": "175",
+          "DOI": "10.1016/j.endm.2018.01.019",
+          "article-title": "Methods for solving road network problems with disruptions",
+          "volume": "64",
+          "author": "Huang",
+          "year": "2018",
+          "journal-title": "Electronic Notes in Discrete Mathematics"
+        },
+        {
+          "issue": "12",
+          "key": "10.1016/j.ejor.2024.03.030_b98",
+          "doi-asserted-by": "crossref",
+          "first-page": "1959",
+          "DOI": "10.1080/01605682.2019.1639479",
+          "article-title": "Bi-objective methods for road network problems with disruptions and connecting requirements",
+          "volume": "71",
+          "author": "Huang",
+          "year": "2020",
+          "journal-title": "Journal of the Operational Research Society"
+        },
+        {
+          "issue": "6",
+          "key": "10.1016/j.ejor.2024.03.030_b99",
+          "doi-asserted-by": "crossref",
+          "first-page": "2715",
+          "DOI": "10.1111/itor.12641",
+          "article-title": "Model and methods to address urban road network problems with disruptions",
+          "volume": "27",
+          "author": "Huang",
+          "year": "2020",
+          "journal-title": "International Transactions in Operational Research"
+        },
+        {
+          "issue": "6",
+          "key": "10.1016/j.ejor.2024.03.030_b100",
+          "doi-asserted-by": "crossref",
+          "first-page": "2275",
+          "DOI": "10.1007/s11590-021-01704-5",
+          "article-title": "Vehicle routing problem considering equity of demand satisfaction",
+          "volume": "15",
+          "author": "Ibarra-Rojas",
+          "year": "2021",
+          "journal-title": "Optimization Letters"
+        },
+        {
+          "key": "10.1016/j.ejor.2024.03.030_b101",
+          "doi-asserted-by": "crossref",
+          "first-page": "50752",
+          "DOI": "10.1109/ACCESS.2023.3277310",
+          "article-title": "A population-based hybrid approach for hyperparameter optimization of neural networks",
+          "author": "Japa",
+          "year": "2023",
+          "journal-title": "IEEE Access"
+        },
+        {
+          "issue": "3",
+          "key": "10.1016/j.ejor.2024.03.030_b102",
+          "doi-asserted-by": "crossref",
+          "first-page": "896",
+          "DOI": "10.1287/opre.2019.1956",
+          "article-title": "Near-optimal disjoint-path facility location through set cover by pairs",
+          "volume": "68",
+          "author": "Johnson",
+          "year": "2020",
+          "journal-title": "Operations Research"
+        },
+        {
+          "issue": "2",
+          "key": "10.1016/j.ejor.2024.03.030_b103",
+          "doi-asserted-by": "crossref",
+          "first-page": "393",
+          "DOI": "10.1016/j.ejor.2021.04.032",
+          "article-title": "Machine learning at the service of meta-heuristics for solving combinatorial optimization problems: A state-of-the-art",
+          "volume": "296",
+          "author": "Karimi-Mamaghan",
+          "year": "2022",
+          "journal-title": "European Journal of Operational Research"
+        },
+        {
+          "issue": "12",
+          "key": "10.1016/j.ejor.2024.03.030_b104",
+          "doi-asserted-by": "crossref",
+          "first-page": "2337",
+          "DOI": "10.1080/00207540500525254",
+          "article-title": "Effective hybrid genetic algorithm for minimizing makespan on a single-batch-processing machine with non-identical job sizes",
+          "volume": "44",
+          "author": "Kashan",
+          "year": "2006",
+          "journal-title": "International Journal of Production Research"
+        },
+        {
+          "issue": "1–3",
+          "key": "10.1016/j.ejor.2024.03.030_b105",
+          "doi-asserted-by": "crossref",
+          "first-page": "237",
+          "DOI": "10.1007/s10472-018-9602-1",
+          "article-title": "A BRKGA-DE algorithm for parallel-batching scheduling with deterioration and learning effects on parallel machines under preventive maintenance consideration",
+          "volume": "88",
+          "author": "Kong",
+          "year": "2020",
+          "journal-title": "Annals of Mathematics and Artificial Intelligence"
+        },
+        {
+          "issue": "17",
+          "key": "10.1016/j.ejor.2024.03.030_b106",
+          "doi-asserted-by": "crossref",
+          "first-page": "5132",
+          "DOI": "10.1080/00207543.2019.1693659",
+          "article-title": "A robust optimization approach for integrated steel production and batch delivery scheduling with uncertain rolling times and deterioration effect",
+          "volume": "58",
+          "author": "Kong",
+          "year": "2020",
+          "journal-title": "International Journal of Production Research"
+        },
+        {
+          "key": "10.1016/j.ejor.2024.03.030_b107",
+          "first-page": "1",
+          "article-title": "A biased random-key genetic algorithm for the home health care problem",
+          "author": "Kummer",
+          "year": "2022",
+          "journal-title": "International Transactions in Operational Research"
+        },
+        {
+          "issue": "8",
+          "key": "10.1016/j.ejor.2024.03.030_b108",
+          "doi-asserted-by": "crossref",
+          "first-page": "513",
+          "DOI": "10.1016/j.ipl.2016.03.002",
+          "article-title": "A hybrid biased random key genetic algorithm for the quadratic assignment problem",
+          "volume": "116",
+          "author": "Lalla-Ruiz",
+          "year": "2016",
+          "journal-title": "Information Processing Letters"
+        },
+        {
+          "key": "10.1016/j.ejor.2024.03.030_b109",
+          "doi-asserted-by": "crossref",
+          "first-page": "60",
+          "DOI": "10.1016/j.asoc.2014.04.035",
+          "article-title": "Biased random key genetic algorithm for the Tactical Berth Allocation Problem",
+          "volume": "22",
+          "author": "Lalla-Ruiz",
+          "year": "2014",
+          "journal-title": "Applied Soft Computing"
+        },
+        {
+          "issue": "12",
+          "key": "10.1016/j.ejor.2024.03.030_b110",
+          "doi-asserted-by": "crossref",
+          "first-page": "4155",
+          "DOI": "10.1007/s00500-018-3065-5",
+          "article-title": "A biased random key genetic algorithm for the protein–ligand docking problem",
+          "volume": "23",
+          "author": "Leonhart",
+          "year": "2019",
+          "journal-title": "Soft Computing"
+        },
+        {
+          "key": "10.1016/j.ejor.2024.03.030_b111",
+          "doi-asserted-by": "crossref",
+          "first-page": "113",
+          "DOI": "10.1016/j.ijpe.2017.11.015",
+          "article-title": "Single batch processing machine scheduling with two-dimensional bin packing constraints",
+          "volume": "196",
+          "author": "Li",
+          "year": "2018",
+          "journal-title": "International Journal of Production Economics"
+        },
+        {
+          "issue": "7–8",
+          "key": "10.1016/j.ejor.2024.03.030_b112",
+          "doi-asserted-by": "crossref",
+          "first-page": "481",
+          "DOI": "10.1080/02642069.2022.2047941",
+          "article-title": "Advancing knowledge through literature reviews:‘what’,‘why’, and ‘how to contribute’",
+          "volume": "42",
+          "author": "Lim",
+          "year": "2022",
+          "journal-title": "The Service Industries Journal"
+        },
+        {
+          "key": "10.1016/j.ejor.2024.03.030_b113",
+          "first-page": "246",
+          "article-title": "A matheuristic approach for the minimum broadcast time problem using a biased random-key genetic algorithm",
+          "author": "Lima",
+          "year": "2022",
+          "journal-title": "International Transactions in Operational Research"
+        },
+        {
+          "key": "10.1016/j.ejor.2024.03.030_b114",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1016/j.eswa.2021.114728",
+          "article-title": "An evolutionary approach for the p-next center problem",
+          "volume": "175",
+          "author": "Londe",
+          "year": "2021",
+          "journal-title": "Expert Systems with Applications"
+        },
+        {
+          "key": "10.1016/j.ejor.2024.03.030_b115",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1016/j.asoc.2022.109634",
+          "article-title": "Exact and heuristic approaches for the root sequence index allocation problem",
+          "volume": "130",
+          "author": "Londe",
+          "year": "2022",
+          "journal-title": "Applied Soft Computing"
+        },
+        {
+          "issue": "1",
+          "key": "10.1016/j.ejor.2024.03.030_b116",
+          "doi-asserted-by": "crossref",
+          "first-page": "54",
+          "DOI": "10.1002/net.21685",
+          "article-title": "Heuristics for a hub location-routing problem",
+          "volume": "68",
+          "author": "Lopes",
+          "year": "2016",
+          "journal-title": "Networks"
+        },
+        {
+          "key": "10.1016/j.ejor.2024.03.030_b117",
+          "series-title": "Handbook of metaheuristics",
+          "first-page": "320",
+          "article-title": "Iterated local search",
+          "author": "Lourenço",
+          "year": "2003"
+        },
+        {
+          "key": "10.1016/j.ejor.2024.03.030_b118",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1016/j.cie.2023.109318",
+          "article-title": "Improving Additive Manufacturing production planning: A sub-second pixel-based packing algorithm",
+          "volume": "181",
+          "author": "Lu",
+          "year": "2023",
+          "journal-title": "Computers & Industrial Engineering"
+        },
+        {
+          "key": "10.1016/j.ejor.2024.03.030_b119",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1016/j.cor.2022.105999",
+          "article-title": "Unrelated parallel machine scheduling with eligibility constraints and delivery times to minimize total weighted tardiness",
+          "volume": "149",
+          "author": "Maecker",
+          "year": "2023",
+          "journal-title": "Computers & Operations Research"
+        },
+        {
+          "issue": "10",
+          "key": "10.1016/j.ejor.2024.03.030_b120",
+          "doi-asserted-by": "crossref",
+          "first-page": "3016",
+          "DOI": "10.1016/j.cor.2005.11.011",
+          "article-title": "A genetic algorithm for minimizing maximum lateness on parallel identical batch processing machines with dynamic job arrivals and incompatible job families",
+          "volume": "34",
+          "author": "Malve",
+          "year": "2007",
+          "journal-title": "Computers & Operations Research"
+        },
+        {
+          "key": "10.1016/j.ejor.2024.03.030_b121",
+          "first-page": "1",
+          "article-title": "A two-phase multi-objective metaheuristic for a green UAV grid routing problem",
+          "author": "Marques Jr.",
+          "year": "2023",
+          "journal-title": "Optimization Letters"
+        },
+        {
+          "key": "10.1016/j.ejor.2024.03.030_b122",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1016/j.swevo.2019.100618",
+          "article-title": "Unsupervised feature selection based on bio-inspired approaches",
+          "volume": "52",
+          "author": "Martarelli",
+          "year": "2020",
+          "journal-title": "Swarm and Evolutionary Computation"
+        },
+        {
+          "issue": "6",
+          "key": "10.1016/j.ejor.2024.03.030_b123",
+          "doi-asserted-by": "crossref",
+          "first-page": "3069",
+          "DOI": "10.1111/itor.12930",
+          "article-title": "Hybrid metaheuristics to solve a multiproduct two-stage capacitated facility location problem",
+          "volume": "28",
+          "author": "Mauri",
+          "year": "2021",
+          "journal-title": "International Transactions in Operational Research"
+        },
+        {
+          "key": "10.1016/j.ejor.2024.03.030_b124",
+          "first-page": "1",
+          "article-title": "A biased random-key genetic algorithm for the minimum quasi-clique partitioning problem",
+          "author": "Melo",
+          "year": "2023",
+          "journal-title": "Annals of Operations Research"
+        },
+        {
+          "issue": "1",
+          "key": "10.1016/j.ejor.2024.03.030_b125",
+          "doi-asserted-by": "crossref",
+          "first-page": "92",
+          "DOI": "10.1016/j.cor.2007.07.001",
+          "article-title": "A random key based genetic algorithm for the resource constrained project scheduling problem",
+          "volume": "36",
+          "author": "Mendes",
+          "year": "2009",
+          "journal-title": "Computers & Operations Research"
+        },
+        {
+          "issue": "21",
+          "key": "10.1016/j.ejor.2024.03.030_b126",
+          "doi-asserted-by": "crossref",
+          "first-page": "7304",
+          "DOI": "10.3390/en14217304",
+          "article-title": "Use of energy storage to reduce transmission losses in meshed power distribution networks",
+          "volume": "14",
+          "author": "Mikulski",
+          "year": "2021",
+          "journal-title": "Energies",
+          "ISSN": "https://id.crossref.org/issn/1996-1073",
+          "issn-type": "print"
+        },
+        {
+          "key": "10.1016/j.ejor.2024.03.030_b127",
+          "doi-asserted-by": "crossref",
+          "first-page": "835",
+          "DOI": "10.1016/j.asoc.2017.10.028",
+          "article-title": "A matheuristic framework for batch machine scheduling problems with incompatible job families and regular sum objective",
+          "volume": "68",
+          "author": "Mönch",
+          "year": "2018",
+          "journal-title": "Applied Soft Computing"
+        },
+        {
+          "issue": "1",
+          "key": "10.1016/j.ejor.2024.03.030_b128",
+          "doi-asserted-by": "crossref",
+          "first-page": "41",
+          "DOI": "10.1111/itor.12026",
+          "article-title": "Randomized heuristics for the family traveling salesperson problem",
+          "volume": "21",
+          "author": "Morán-Mirabal",
+          "year": "2014",
+          "journal-title": "International Transactions in Operational Research"
+        },
+        {
+          "issue": "6",
+          "key": "10.1016/j.ejor.2024.03.030_b129",
+          "doi-asserted-by": "crossref",
+          "first-page": "845",
+          "DOI": "10.1007/s10732-013-9223-0",
+          "article-title": "Randomized heuristics for handover minimization in mobility networks",
+          "volume": "19",
+          "author": "Morán-Mirabal",
+          "year": "2013",
+          "journal-title": "Journal of Heuristics"
+        },
+        {
+          "issue": "3",
+          "key": "10.1016/j.ejor.2024.03.030_b130",
+          "doi-asserted-by": "crossref",
+          "first-page": "505",
+          "DOI": "10.1007/s10732-012-9195-5",
+          "article-title": "Simple heuristics for the assembly line worker assignment and balancing problem",
+          "volume": "18",
+          "author": "Moreira",
+          "year": "2012",
+          "journal-title": "Journal of Heuristics"
+        },
+        {
+          "issue": "2",
+          "key": "10.1016/j.ejor.2024.03.030_b131",
+          "doi-asserted-by": "crossref",
+          "first-page": "581",
+          "DOI": "10.2514/1.A35457",
+          "article-title": "Optimization of multispacecraft maneuvers for mobile target tracking from low earth orbit",
+          "volume": "60",
+          "author": "Morgan",
+          "year": "2023",
+          "journal-title": "Journal of Spacecraft and Rockets"
+        },
+        {
+          "key": "10.1016/j.ejor.2024.03.030_b132",
+          "first-page": "1989",
+          "article-title": "On evolution, search, optimization, genetic algorithms and martial arts: Towards memetic algorithms",
+          "volume": "826",
+          "author": "Moscato",
+          "year": "1989",
+          "journal-title": "Caltech Concurrent Computation Program, C3P Report"
+        },
+        {
+          "key": "10.1016/j.ejor.2024.03.030_b133",
+          "doi-asserted-by": "crossref",
+          "first-page": "358",
+          "DOI": "10.1016/j.eswa.2017.03.059",
+          "article-title": "A biased random key genetic algorithm for open dimension nesting problems using no-fit raster",
+          "volume": "81",
+          "author": "Mundim",
+          "year": "2017",
+          "journal-title": "Expert Systems with Applications"
+        },
+        {
+          "issue": "3",
+          "key": "10.1016/j.ejor.2024.03.030_b134",
+          "doi-asserted-by": "crossref",
+          "first-page": "503",
+          "DOI": "10.1007/s10898-010-9608-7",
+          "article-title": "A biased random-key genetic algorithm for routing and wavelength assignment",
+          "volume": "50",
+          "author": "Noronha",
+          "year": "2011",
+          "journal-title": "Journal of Global Optimization"
+        },
+        {
+          "key": "10.1016/j.ejor.2024.03.030_b135",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1016/j.asoc.2021.107492",
+          "article-title": "Search trajectory networks: A tool for analysing and visualising the behaviour of metaheuristics",
+          "volume": "109",
+          "author": "Ochoa",
+          "year": "2021",
+          "journal-title": "Applied Soft Computing",
+          "ISSN": "https://id.crossref.org/issn/1568-4946",
+          "issn-type": "print"
+        },
+        {
+          "key": "10.1016/j.ejor.2024.03.030_b136",
+          "doi-asserted-by": "crossref",
+          "first-page": "334",
+          "DOI": "10.1016/j.orp.2018.10.002",
+          "article-title": "Integrating pricing and capacity decisions in car rental: A matheuristic approach",
+          "volume": "5",
+          "author": "Oliveira",
+          "year": "2018",
+          "journal-title": "Operations Research Perspectives"
+        },
+        {
+          "issue": "3",
+          "key": "10.1016/j.ejor.2024.03.030_b137",
+          "doi-asserted-by": "crossref",
+          "first-page": "1128",
+          "DOI": "10.1016/j.ejor.2021.09.047",
+          "article-title": "A diversity-based genetic algorithm for scenario generation",
+          "volume": "299",
+          "author": "Oliveira",
+          "year": "2022",
+          "journal-title": "European Journal of Operational Research"
+        },
+        {
+          "issue": "2",
+          "key": "10.1016/j.ejor.2024.03.030_b138",
+          "doi-asserted-by": "crossref",
+          "first-page": "637",
+          "DOI": "10.1016/j.ejor.2019.01.015",
+          "article-title": "A co-evolutionary matheuristic for the car rental capacity-pricing stochastic problem",
+          "volume": "276",
+          "author": "Oliveira",
+          "year": "2019",
+          "journal-title": "European Journal of Operational Research"
+        },
+        {
+          "issue": "3",
+          "key": "10.1016/j.ejor.2024.03.030_b139",
+          "doi-asserted-by": "crossref",
+          "first-page": "1065",
+          "DOI": "10.1080/10556788.2021.1884250",
+          "article-title": "A C++ application programming interface for co-evolutionary biased random-key genetic algorithms for solution and scenario generation",
+          "volume": "37",
+          "author": "Oliveira",
+          "year": "2021",
+          "journal-title": "Optimization Methods & Software"
+        },
+        {
+          "issue": "1",
+          "key": "10.1016/j.ejor.2024.03.030_b140",
+          "doi-asserted-by": "crossref",
+          "first-page": "105",
+          "DOI": "10.1590/S0101-74382013000100007",
+          "article-title": "Clustering search",
+          "volume": "33",
+          "author": "Oliveira",
+          "year": "2013",
+          "journal-title": "Pesquisa Operacional"
+        },
+        {
+          "key": "10.1016/j.ejor.2024.03.030_b141",
+          "doi-asserted-by": "crossref",
+          "first-page": "256",
+          "DOI": "10.1016/j.asoc.2017.01.023",
+          "article-title": "A comparison of two hybrid methods for constrained clustering problems",
+          "volume": "54",
+          "author": "Oliveira",
+          "year": "2017",
+          "journal-title": "Applied Soft Computing"
+        },
+        {
+          "key": "10.1016/j.ejor.2024.03.030_b142",
+          "doi-asserted-by": "crossref",
+          "first-page": "1",
+          "DOI": "10.1590/0101-7438.2022.042.00260406",
+          "article-title": "Improved Biased Random Key Genetic Algorithm for the two-dimensional non-guillotine cutting problem",
+          "volume": "42",
+          "author": "Oliveira",
+          "year": "2022",
+          "journal-title": "Pesquisa Operacional"
+        },
+        {
+          "key": "10.1016/j.ejor.2024.03.030_b143",
+          "series-title": "Proceedings of the 8th international conference on learning representations",
+          "first-page": "1",
+          "article-title": "Reinforced genetic algorithm learning for optimizing computation graphs",
+          "author": "Paliwal",
+          "year": "2020"
+        },
+        {
+          "key": "10.1016/j.ejor.2024.03.030_b144",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1016/j.scs.2021.103254",
+          "article-title": "Discovering optimal strategies for mitigating COVID-19 spread using machine learning: Experience from Asia",
+          "volume": "75",
+          "author": "Pan",
+          "year": "2021",
+          "journal-title": "Sustainable Cities and Society",
+          "ISSN": "https://id.crossref.org/issn/2210-6707",
+          "issn-type": "print"
+        },
+        {
+          "key": "10.1016/j.ejor.2024.03.030_b145",
+          "doi-asserted-by": "crossref",
+          "first-page": "1047",
+          "DOI": "10.1016/j.asoc.2014.08.025",
+          "article-title": "A comparative review of approaches to prevent premature convergence in GA",
+          "volume": "24",
+          "author": "Pandey",
+          "year": "2014",
+          "journal-title": "Applied Soft Computing"
+        },
+        {
+          "issue": "2",
+          "key": "10.1016/j.ejor.2024.03.030_b146",
+          "doi-asserted-by": "crossref",
+          "first-page": "64",
+          "DOI": "10.1007/s00158-021-03119-3",
+          "article-title": "Bézier-based biased random-key genetic algorithm to address printability constraints in the topology optimization of concrete structures",
+          "volume": "65",
+          "author": "Pastore",
+          "year": "2022",
+          "journal-title": "Structural and Multidisciplinary Optimization"
+        },
+        {
+          "issue": "3",
+          "key": "10.1016/j.ejor.2024.03.030_b147",
+          "doi-asserted-by": "crossref",
+          "first-page": "614",
+          "DOI": "10.1016/j.ejor.2012.08.011",
+          "article-title": "Metaheuristic hybridizations for the regenerator placement and dimensioning problem in sub-wavelength switching optical networks",
+          "volume": "224",
+          "author": "Pedrola",
+          "year": "2013",
+          "journal-title": "European Journal of Operational Research"
+        },
+        {
+          "issue": "12",
+          "key": "10.1016/j.ejor.2024.03.030_b148",
+          "doi-asserted-by": "crossref",
+          "first-page": "3174",
+          "DOI": "10.1016/j.cor.2011.10.026",
+          "article-title": "A GRASP with path-relinking heuristic for the survivable IP/MPLS-over-WSON multi-layer network optimization problem",
+          "volume": "40",
+          "author": "Pedrola",
+          "year": "2013",
+          "journal-title": "Computers & Operations Research"
+        },
+        {
+          "issue": "3",
+          "key": "10.1016/j.ejor.2024.03.030_b149",
+          "doi-asserted-by": "crossref",
+          "first-page": "950",
+          "DOI": "10.1016/j.ejor.2017.10.045",
+          "article-title": "Heuristics for a flowshop scheduling problem with stepwise job objective function",
+          "volume": "266",
+          "author": "Pessoa",
+          "year": "2018",
+          "journal-title": "European Journal of Operational Research"
+        },
+        {
+          "issue": "7",
+          "key": "10.1016/j.ejor.2024.03.030_b150",
+          "doi-asserted-by": "crossref",
+          "first-page": "1371",
+          "DOI": "10.1007/s11590-016-1082-9",
+          "article-title": "A biased random-key genetic algorithm for the tree of hubs location problem",
+          "volume": "11",
+          "author": "Pessoa",
+          "year": "2017",
+          "journal-title": "Optimization Letters"
+        },
+        {
+          "issue": "11",
+          "key": "10.1016/j.ejor.2024.03.030_b151",
+          "doi-asserted-by": "crossref",
+          "first-page": "1",
+          "DOI": "10.3390/math8111858",
+          "article-title": "Barrakuda: A hybrid evolutionary algorithm for minimum capacitated dominating set problem",
+          "volume": "8",
+          "author": "Pinacho-Davidson",
+          "year": "2020",
+          "journal-title": "Mathematics"
+        },
+        {
+          "key": "10.1016/j.ejor.2024.03.030_b152",
+          "doi-asserted-by": "crossref",
+          "first-page": "S741",
+          "DOI": "10.1051/ro/2020003",
+          "article-title": "A BRKGA-based matheuristic for the maximum quasi-clique problem with an exact local search strategy",
+          "volume": "55",
+          "author": "Pinto",
+          "year": "2021",
+          "journal-title": "RAIRO - Operations Research"
+        },
+        {
+          "issue": "4",
+          "key": "10.1016/j.ejor.2024.03.030_b153",
+          "doi-asserted-by": "crossref",
+          "first-page": "949",
+          "DOI": "10.1007/s10898-020-00877-0",
+          "article-title": "A biased random-key genetic algorithm for routing and wavelength assignment under a sliding scheduled traffic model",
+          "volume": "77",
+          "author": "Pinto",
+          "year": "2020",
+          "journal-title": "Journal of Global Optimization"
+        },
+        {
+          "issue": "3",
+          "key": "10.1016/j.ejor.2024.03.030_b154",
+          "doi-asserted-by": "crossref",
+          "first-page": "849",
+          "DOI": "10.1016/j.ejor.2018.05.071",
+          "article-title": "A biased random-key genetic algorithm for the maximum quasi-clique problem",
+          "volume": "271",
+          "author": "Pinto",
+          "year": "2018",
+          "journal-title": "European Journal of Operational Research"
+        },
+        {
+          "issue": "8",
+          "key": "10.1016/j.ejor.2024.03.030_b155",
+          "doi-asserted-by": "crossref",
+          "first-page": "2403",
+          "DOI": "10.1016/j.cor.2005.09.012",
+          "article-title": "A general heuristic for vehicle routing problems",
+          "volume": "34",
+          "author": "Pisinger",
+          "year": "2007",
+          "journal-title": "Computers & Operations Research"
+        },
+        {
+          "key": "10.1016/j.ejor.2024.03.030_b156",
+          "series-title": "2015 IEEE international conference on industrial engineering and engineering management",
+          "first-page": "863",
+          "article-title": "Survey on applications of biased-random key genetic algorithms for solving optimization problems",
+          "author": "Prasetyo",
+          "year": "2015"
+        },
+        {
+          "issue": "3",
+          "key": "10.1016/j.ejor.2024.03.030_b157",
+          "doi-asserted-by": "crossref",
+          "first-page": "353",
+          "DOI": "10.1007/s10732-020-09461-x",
+          "article-title": "Iterated local search for single machine total weighted tardiness batch scheduling",
+          "volume": "27",
+          "author": "Queiroga",
+          "year": "2021",
+          "journal-title": "Journal of Heuristics"
+        },
+        {
+          "issue": "3",
+          "key": "10.1016/j.ejor.2024.03.030_b158",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1103/PhysRevE.76.036106",
+          "article-title": "Near linear time algorithm to detect community structures in large-scale networks",
+          "volume": "76",
+          "author": "Raghavan",
+          "year": "2007",
+          "journal-title": "Physical Review E"
+        },
+        {
+          "key": "10.1016/j.ejor.2024.03.030_b159",
+          "doi-asserted-by": "crossref",
+          "first-page": "565",
+          "DOI": "10.1016/j.trb.2016.06.003",
+          "article-title": "A container loading algorithm with static mechanical equilibrium stability constraints",
+          "volume": "91",
+          "author": "Ramos",
+          "year": "2016",
+          "journal-title": "Transportation Research, Part B (Methodological)"
+        },
+        {
+          "issue": "3",
+          "key": "10.1016/j.ejor.2024.03.030_b160",
+          "doi-asserted-by": "crossref",
+          "first-page": "1140",
+          "DOI": "10.1016/j.ejor.2017.10.050",
+          "article-title": "A new load balance methodology for container loading problem in road transportation",
+          "volume": "266",
+          "author": "Ramos",
+          "year": "2018",
+          "journal-title": "European Journal of Operational Research"
+        },
+        {
+          "key": "10.1016/j.ejor.2024.03.030_b161",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1016/j.epsr.2020.106233",
+          "article-title": "Robust meter placement for state estimation considering Distribution Network Reconfiguration for annual energy loss reduction",
+          "volume": "182",
+          "author": "Raposo",
+          "year": "2020",
+          "journal-title": "Electric Power Systems Research"
+        },
+        {
+          "issue": "3",
+          "key": "10.1016/j.ejor.2024.03.030_b162",
+          "doi-asserted-by": "crossref",
+          "first-page": "401",
+          "DOI": "10.1111/j.1475-3995.2010.00771.x",
+          "article-title": "A biased random-key genetic algorithm for OSPF and DEFT routing to minimize network congestion",
+          "volume": "18",
+          "author": "Reis",
+          "year": "2011",
+          "journal-title": "International Transactions in Operational Research"
+        },
+        {
+          "issue": "1",
+          "key": "10.1016/j.ejor.2024.03.030_b163",
+          "doi-asserted-by": "crossref",
+          "first-page": "130",
+          "DOI": "10.1007/s11750-011-0176-x",
+          "article-title": "Biased random-key genetic algorithms with applications in telecommunications",
+          "volume": "20",
+          "author": "Resende",
+          "year": "2012",
+          "journal-title": "Top"
+        },
+        {
+          "issue": "4",
+          "key": "10.1016/j.ejor.2024.03.030_b164",
+          "doi-asserted-by": "crossref",
+          "first-page": "605",
+          "DOI": "10.1007/s11590-011-0285-3",
+          "article-title": "A biased random-key genetic algorithm for the Steiner triple covering problem",
+          "volume": "6",
+          "author": "Resende",
+          "year": "2012",
+          "journal-title": "Optimization Letters"
+        },
+        {
+          "issue": "2",
+          "key": "10.1016/j.ejor.2024.03.030_b165",
+          "doi-asserted-by": "crossref",
+          "first-page": "193",
+          "DOI": "10.1007/s10732-011-9167-1",
+          "article-title": "Path-relinking intensification methods for stochastic local search algorithms",
+          "volume": "18",
+          "author": "Ribeiro",
+          "year": "2012",
+          "journal-title": "Journal of Heuristics"
+        },
+        {
+          "issue": "1",
+          "key": "10.1016/j.ejor.2024.03.030_b166",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1063/1.4985470",
+          "article-title": "Biased random key genetic algorithm with insertion and gender selection for capacitated vehicle routing problem with time windows",
+          "volume": "1855",
+          "author": "Rochman",
+          "year": "2017",
+          "journal-title": "AIP Conference Proceedings"
+        },
+        {
+          "issue": "8",
+          "key": "10.1016/j.ejor.2024.03.030_b167",
+          "doi-asserted-by": "crossref",
+          "first-page": "1737",
+          "DOI": "10.1080/01605682.2019.1640589",
+          "article-title": "Decomposition heuristics for parallel-machine multiple orders per job scheduling problems with a common due date",
+          "volume": "72",
+          "author": "Rocholl",
+          "year": "2021",
+          "journal-title": "Journal of the Operational Research Society"
+        },
+        {
+          "issue": "1",
+          "key": "10.1016/j.ejor.2024.03.030_b168",
+          "doi-asserted-by": "crossref",
+          "first-page": "140",
+          "DOI": "10.1007/s10878-014-9710-8",
+          "article-title": "A hybrid biased random key genetic algorithm approach for the unit commitment problem",
+          "volume": "28",
+          "author": "Roque",
+          "year": "2014",
+          "journal-title": "Journal of Combinatorial Optimization"
+        },
+        {
+          "issue": "12",
+          "key": "10.1016/j.ejor.2024.03.030_b169",
+          "doi-asserted-by": "crossref",
+          "first-page": "2029",
+          "DOI": "10.3390/en10122029",
+          "article-title": "A metaheuristic approach to the multi-objective unit commitment problem combining economic and environmental criteria",
+          "volume": "10",
+          "author": "Roque",
+          "year": "2017",
+          "journal-title": "Energies"
+        },
+        {
+          "key": "10.1016/j.ejor.2024.03.030_b170",
+          "doi-asserted-by": "crossref",
+          "first-page": "95",
+          "DOI": "10.1016/j.cor.2014.11.011",
+          "article-title": "A biased random-key genetic algorithm for the capacitated minimum spanning tree problem",
+          "volume": "57",
+          "author": "Ruiz",
+          "year": "2015",
+          "journal-title": "Computers & Operations Research"
+        },
+        {
+          "issue": "8",
+          "key": "10.1016/j.ejor.2024.03.030_b171",
+          "doi-asserted-by": "crossref",
+          "first-page": "629",
+          "DOI": "10.1364/JOCN.3.000629",
+          "article-title": "Survivable IP/MPLS-over-WSON multilayer network optimization",
+          "volume": "3",
+          "author": "Ruiz",
+          "year": "2011",
+          "journal-title": "Journal of Optical Communications and Networking"
+        },
+        {
+          "key": "10.1016/j.ejor.2024.03.030_b172",
+          "doi-asserted-by": "crossref",
+          "first-page": "207",
+          "DOI": "10.1016/j.cie.2019.05.002",
+          "article-title": "Solving the open vehicle routing problem with capacity and distance constraints with a biased random key genetic algorithm",
+          "volume": "133",
+          "author": "Ruiz",
+          "year": "2019",
+          "journal-title": "Computers & Industrial Engineering"
+        },
+        {
+          "issue": "3",
+          "key": "10.1016/j.ejor.2024.03.030_b173",
+          "doi-asserted-by": "crossref",
+          "first-page": "2033",
+          "DOI": "10.1016/j.ejor.2005.12.009",
+          "article-title": "A simple and effective iterated greedy algorithm for the permutation flowshop scheduling problem",
+          "volume": "177",
+          "author": "Ruiz",
+          "year": "2007",
+          "journal-title": "European Journal of Operational Research"
+        },
+        {
+          "key": "10.1016/j.ejor.2024.03.030_b174",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1016/j.cor.2022.105933",
+          "article-title": "The dial-a-ride problem with private fleet and common carrier",
+          "volume": "147",
+          "author": "Schenekemberg",
+          "year": "2022",
+          "journal-title": "Computers & Operations Research"
+        },
+        {
+          "issue": "5",
+          "key": "10.1016/j.ejor.2024.03.030_b175",
+          "article-title": "Optimization of robot-trajectory planning with nature-inspired and hybrid quantum algorithms",
+          "volume": "18",
+          "author": "Schuetz",
+          "year": "2022",
+          "journal-title": "Physical Review A"
+        },
+        {
+          "key": "10.1016/j.ejor.2024.03.030_b176",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1108/13598541211258609",
+          "article-title": "Conducting content-analysis based literature reviews in supply chain management",
+          "author": "Seuring",
+          "year": "2012",
+          "journal-title": "Supply Chain Management: An International Journal"
+        },
+        {
+          "issue": "4",
+          "key": "10.1016/j.ejor.2024.03.030_b177",
+          "doi-asserted-by": "crossref",
+          "first-page": "188",
+          "DOI": "10.1007/s40314-019-0976-4",
+          "article-title": "The multicommodity traveling salesman problem with priority prizes: a mathematical model and metaheuristics",
+          "volume": "38",
+          "author": "Silva",
+          "year": "2019",
+          "journal-title": "Computational & Applied Mathematics"
+        },
+        {
+          "issue": "14",
+          "key": "10.1016/j.ejor.2024.03.030_b178",
+          "doi-asserted-by": "crossref",
+          "first-page": "3072",
+          "DOI": "10.3390/math11143072",
+          "article-title": "Biased random-key genetic algorithm with local search applied to the maximum diversity problem",
+          "volume": "11",
+          "author": "Silva",
+          "year": "2023",
+          "journal-title": "Mathematics"
+        },
+        {
+          "issue": "2",
+          "key": "10.1016/j.ejor.2024.03.030_b179",
+          "doi-asserted-by": "crossref",
+          "first-page": "289",
+          "DOI": "10.1007/s10898-013-0105-7",
+          "article-title": "Finding multiple roots of a box-constrained system of nonlinear equations with a biased random-key genetic algorithm",
+          "volume": "60",
+          "author": "Silva",
+          "year": "2014",
+          "journal-title": "Journal of Global Optimization"
+        },
+        {
+          "issue": "3",
+          "key": "10.1016/j.ejor.2024.03.030_b180",
+          "doi-asserted-by": "crossref",
+          "first-page": "710",
+          "DOI": "10.1007/s10878-013-9659-z",
+          "article-title": "A Python/C++ library for bound-constrained global optimization using a biased random-key genetic algorithm",
+          "volume": "30",
+          "author": "Silva",
+          "year": "2015",
+          "journal-title": "Journal of Combinatorial Optimization"
+        },
+        {
+          "issue": "3",
+          "key": "10.1016/j.ejor.2024.03.030_b181",
+          "doi-asserted-by": "crossref",
+          "first-page": "1559",
+          "DOI": "10.1051/ro/2023081",
+          "article-title": "A biased random-key genetic algorithm for the chordal completion problem",
+          "volume": "57",
+          "author": "Silva",
+          "year": "2023",
+          "journal-title": "RAIRO-Operations Research"
+        },
+        {
+          "issue": "4",
+          "key": "10.1016/j.ejor.2024.03.030_b182",
+          "doi-asserted-by": "crossref",
+          "first-page": "978",
+          "DOI": "10.1080/23249935.2020.1822952",
+          "article-title": "Timetabling with flexible frequencies to synchronise groups of bus lines at common stops",
+          "volume": "17",
+          "author": "Silva-Soto",
+          "year": "2021",
+          "journal-title": "Transportmetrica A: Transport Science"
+        },
+        {
+          "issue": "6",
+          "key": "10.1016/j.ejor.2024.03.030_b183",
+          "doi-asserted-by": "crossref",
+          "first-page": "5113",
+          "DOI": "10.1007/s11192-021-03948-5",
+          "article-title": "The journal coverage of Web of Science, Scopus and Dimensions: A comparative analysis",
+          "volume": "126",
+          "author": "Singh",
+          "year": "2021",
+          "journal-title": "Scientometrics"
+        },
+        {
+          "key": "10.1016/j.ejor.2024.03.030_b184",
+          "doi-asserted-by": "crossref",
+          "first-page": "333",
+          "DOI": "10.1016/j.jbusres.2019.07.039",
+          "article-title": "Literature review as a research methodology: An overview and guidelines",
+          "volume": "104",
+          "author": "Snyder",
+          "year": "2019",
+          "journal-title": "Journal of Business Research"
+        },
+        {
+          "issue": "3",
+          "key": "10.1016/j.ejor.2024.03.030_b185",
+          "doi-asserted-by": "crossref",
+          "first-page": "955",
+          "DOI": "10.1016/j.ejor.2020.02.047",
+          "article-title": "Biased random-key genetic algorithm for scheduling identical parallel machines with tooling constraints",
+          "volume": "285",
+          "author": "Soares",
+          "year": "2020",
+          "journal-title": "European Journal of Operational Research"
+        },
+        {
+          "key": "10.1016/j.ejor.2024.03.030_b186",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1016/j.cor.2021.105637",
+          "article-title": "Application of a hybrid evolutionary algorithm to resource-constrained parallel machine scheduling with setup times",
+          "volume": "139",
+          "author": "Soares",
+          "year": "2022",
+          "journal-title": "Computers & Operations Research"
+        },
+        {
+          "key": "10.1016/j.ejor.2024.03.030_b187",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1016/j.asoc.2020.106485",
+          "article-title": "Two effective methods for the irregular knapsack problem",
+          "volume": "95",
+          "author": "Souza Queiroz",
+          "year": "2020",
+          "journal-title": "Applied Soft Computing"
+        },
+        {
+          "key": "10.1016/j.ejor.2024.03.030_b188",
+          "series-title": "Foundations of genetic algorithms",
+          "first-page": "301",
+          "article-title": "An analysis of multi-point crossover",
+          "volume": "Vol. 1",
+          "author": "Spears",
+          "year": "1991"
+        },
+        {
+          "issue": "3",
+          "key": "10.1016/j.ejor.2024.03.030_b189",
+          "doi-asserted-by": "crossref",
+          "first-page": "748",
+          "DOI": "10.1007/s10878-019-00411-3",
+          "article-title": "Hybrid algorithms for placement of virtual machines across geo-separated data centers",
+          "volume": "38",
+          "author": "Stefanello",
+          "year": "2019",
+          "journal-title": "Journal of Combinatorial Optimization"
+        },
+        {
+          "issue": "1–2",
+          "key": "10.1016/j.ejor.2024.03.030_b190",
+          "doi-asserted-by": "crossref",
+          "first-page": "119",
+          "DOI": "10.1007/s10479-015-1800-1",
+          "article-title": "On the minimization of traffic congestion in road networks with tolls",
+          "volume": "249",
+          "author": "Stefanello",
+          "year": "2017",
+          "journal-title": "Annals of Operations Research"
+        },
+        {
+          "issue": "4",
+          "key": "10.1016/j.ejor.2024.03.030_b191",
+          "doi-asserted-by": "crossref",
+          "first-page": "341",
+          "DOI": "10.1023/A:1008202821328",
+          "article-title": "Differential evolution–a simple and efficient heuristic for global optimization over continuous spaces",
+          "volume": "11",
+          "author": "Storn",
+          "year": "1997",
+          "journal-title": "Journal of Global Optimization"
+        },
+        {
+          "issue": "9",
+          "key": "10.1016/j.ejor.2024.03.030_b192",
+          "doi-asserted-by": "crossref",
+          "first-page": "6023",
+          "DOI": "10.1002/int.22833",
+          "article-title": "Bayesian network structure learning with improved genetic algorithm",
+          "volume": "37",
+          "author": "Sun",
+          "year": "2022",
+          "journal-title": "International Journal of Intelligent Systems"
+        },
+        {
+          "key": "10.1016/j.ejor.2024.03.030_b193",
+          "doi-asserted-by": "crossref",
+          "first-page": "143",
+          "DOI": "10.1007/978-3-319-12631-9_9",
+          "article-title": "Biased random key genetic algorithm for multi-user earth observation scheduling",
+          "volume": "580",
+          "author": "Tangpattanakul",
+          "year": "2015",
+          "journal-title": "Recent Advances in Computational Optimization"
+        },
+        {
+          "issue": "2",
+          "key": "10.1016/j.ejor.2024.03.030_b194",
+          "doi-asserted-by": "crossref",
+          "first-page": "542",
+          "DOI": "10.1016/j.ejor.2015.03.011",
+          "article-title": "A multi-objective local search heuristic for scheduling Earth observations taken by an agile satellite",
+          "volume": "245",
+          "author": "Tangpattanakul",
+          "year": "2015",
+          "journal-title": "European Journal of Operational Research"
+        },
+        {
+          "issue": "5",
+          "key": "10.1016/j.ejor.2024.03.030_b195",
+          "doi-asserted-by": "crossref",
+          "first-page": "408",
+          "DOI": "10.1080/09537287.2015.1129464",
+          "article-title": "Conducting systematic literature review in operations management",
+          "volume": "27",
+          "author": "Thomé",
+          "year": "2016",
+          "journal-title": "Production Planning and Control"
+        },
+        {
+          "issue": "1",
+          "key": "10.1016/j.ejor.2024.03.030_b196",
+          "doi-asserted-by": "crossref",
+          "first-page": "81",
+          "DOI": "10.1080/10556788.2014.890197",
+          "article-title": "A C++ application programming interface for biased random-key genetic algorithms",
+          "volume": "30",
+          "author": "Toso",
+          "year": "2015",
+          "journal-title": "Optimization Methods & Software"
+        },
+        {
+          "issue": "10",
+          "key": "10.1016/j.ejor.2024.03.030_b197",
+          "doi-asserted-by": "crossref",
+          "first-page": "2707",
+          "DOI": "10.1016/j.cor.2008.11.016",
+          "article-title": "A genetic algorithm approach for the single machine scheduling problem with linear earliness and quadratic tardiness penalties",
+          "volume": "36",
+          "author": "Valente",
+          "year": "2009",
+          "journal-title": "Computers & Operations Research"
+        },
+        {
+          "issue": "3",
+          "key": "10.1016/j.ejor.2024.03.030_b198",
+          "doi-asserted-by": "crossref",
+          "first-page": "393",
+          "DOI": "10.1142/S0217595906000978",
+          "article-title": "A hybrid genetic algorithm for the early/tardy scheduling problem",
+          "volume": "23",
+          "author": "Valente",
+          "year": "2006",
+          "journal-title": "Asia-Pacific Journal of Operational Research"
+        },
+        {
+          "issue": "10",
+          "key": "10.1016/j.ejor.2024.03.030_b199",
+          "doi-asserted-by": "crossref",
+          "first-page": "A171",
+          "DOI": "10.1364/JOCN.5.00A171",
+          "article-title": "Saving CAPEX by extending flexgrid-based core optical networks toward the edges",
+          "volume": "5",
+          "author": "Velasco",
+          "year": "2013",
+          "journal-title": "Journal of Optical Communications and Networking"
+        },
+        {
+          "key": "10.1016/j.ejor.2024.03.030_b200",
+          "first-page": "1",
+          "article-title": "Accessible location of mobile labs for COVID-19 testing",
+          "author": "Villicaña-Cervantes",
+          "year": "2022",
+          "journal-title": "Health Care Management Science"
+        },
+        {
+          "issue": "12",
+          "key": "10.1016/j.ejor.2024.03.030_b201",
+          "doi-asserted-by": "crossref",
+          "first-page": "1621",
+          "DOI": "10.1016/S0305-0548(01)00031-4",
+          "article-title": "A genetic algorithm to minimize maximum lateness on a batch processing machine",
+          "volume": "29",
+          "author": "Wang",
+          "year": "2002",
+          "journal-title": "Computers & Operations Research"
+        },
+        {
+          "key": "10.1016/j.ejor.2024.03.030_b202",
+          "doi-asserted-by": "crossref",
+          "first-page": "279",
+          "DOI": "10.1007/BF00992698",
+          "article-title": "Q-learning",
+          "volume": "8",
+          "author": "Watkins",
+          "year": "1992",
+          "journal-title": "Machine Learning"
+        },
+        {
+          "key": "10.1016/j.ejor.2024.03.030_b203",
+          "first-page": "xiii",
+          "article-title": "Analyzing the past to prepare for the future: Writing a literature review",
+          "author": "Webster",
+          "year": "2002",
+          "journal-title": "MIS Quarterly"
+        },
+        {
+          "issue": "1",
+          "key": "10.1016/j.ejor.2024.03.030_b204",
+          "first-page": "33",
+          "article-title": "The island model genetic algorithm: On separability, population size and convergence",
+          "volume": "7",
+          "author": "Whitley",
+          "year": "1999",
+          "journal-title": "Journal of Computing and Information Technology"
+        },
+        {
+          "issue": "8",
+          "key": "10.1016/j.ejor.2024.03.030_b205",
+          "first-page": "869",
+          "article-title": "Production scheduling in steel manufacturing with cutting and parallel operations",
+          "volume": "9",
+          "author": "Won",
+          "year": "2018",
+          "journal-title": "ICIC Express Letters, Part B: Applications"
+        },
+        {
+          "key": "10.1016/j.ejor.2024.03.030_b206",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1016/j.engappai.2022.104879",
+          "article-title": "An adaptive decoding biased random key genetic algorithm for cloud workflow scheduling",
+          "volume": "112",
+          "author": "Xie",
+          "year": "2022",
+          "journal-title": "Engineering Applications of Artificial Intelligence"
+        },
+        {
+          "key": "10.1016/j.ejor.2024.03.030_b207",
+          "doi-asserted-by": "crossref",
+          "first-page": "34497",
+          "DOI": "10.1109/ACCESS.2022.3162692",
+          "article-title": "An iterative neighborhood local search algorithm for capacitated centered clustering problem",
+          "volume": "10",
+          "author": "Xu",
+          "year": "2022",
+          "journal-title": "IEEE Access"
+        },
+        {
+          "key": "10.1016/j.ejor.2024.03.030_b208",
+          "series-title": "International conference on unconventional computing and natural computation",
+          "first-page": "240",
+          "article-title": "Flower pollination algorithm for global optimization",
+          "author": "Yang",
+          "year": "2012"
+        },
+        {
+          "issue": "15",
+          "key": "10.1016/j.ejor.2024.03.030_b209",
+          "doi-asserted-by": "crossref",
+          "first-page": "3276",
+          "DOI": "10.3390/math11153276",
+          "article-title": "Supply chain scheduling method for the coordination of agile production and port delivery operation",
+          "volume": "11",
+          "author": "Yu",
+          "year": "2023",
+          "journal-title": "Mathematics"
+        },
+        {
+          "issue": "5",
+          "key": "10.1016/j.ejor.2024.03.030_b210",
+          "doi-asserted-by": "crossref",
+          "first-page": "945",
+          "DOI": "10.1109/TEVC.2009.2014613",
+          "article-title": "JADE: adaptive differential evolution with optional external archive",
+          "volume": "13",
+          "author": "Zhang",
+          "year": "2009",
+          "journal-title": "IEEE Transactions on Evolutionary Computation"
+        },
+        {
+          "key": "10.1016/j.ejor.2024.03.030_b211",
+          "first-page": "1265",
+          "article-title": "Parallel batch processing machine scheduling under two-dimensional bin-packing constraints",
+          "author": "Zhang",
+          "year": "2022",
+          "journal-title": "IEEE Transactions on Reliability"
+        },
+        {
+          "issue": "11–12",
+          "key": "10.1016/j.ejor.2024.03.030_b212",
+          "doi-asserted-by": "crossref",
+          "first-page": "5233",
+          "DOI": "10.1007/s00170-023-11750-1",
+          "article-title": "Distributed spot welding task allocation and sequential planning for multi-station multi-robot coordinate assembly processes",
+          "volume": "127",
+          "author": "Zhao",
+          "year": "2023",
+          "journal-title": "International Journal of Advanced Manufacturing Technology"
+        },
+        {
+          "key": "10.1016/j.ejor.2024.03.030_b213",
+          "doi-asserted-by": "crossref",
+          "first-page": "80",
+          "DOI": "10.1016/j.cie.2014.07.012",
+          "article-title": "Multi-objective multi-population biased random-key genetic algorithm for the 3-D container loading problem",
+          "volume": "89",
+          "author": "Zheng",
+          "year": "2015",
+          "journal-title": "Computers & Industrial Engineering"
+        },
+        {
+          "key": "10.1016/j.ejor.2024.03.030_b214",
+          "series-title": "International conference on parallel problem solving from nature",
+          "first-page": "832",
+          "article-title": "Indicator-based selection in multiobjective search",
+          "author": "Zitzler",
+          "year": "2004"
+        },
+        {
+          "key": "10.1016/j.ejor.2024.03.030_b215",
+          "doi-asserted-by": "crossref",
+          "first-page": "175",
+          "DOI": "10.1016/j.endm.2018.03.023",
+          "article-title": "BRKGA/VND hybrid algorithm for the classic three-dimensional bin packing problem",
+          "volume": "66",
+          "author": "Zudio",
+          "year": "2018",
+          "journal-title": "Electronic Notes in Discrete Mathematics"
+        }
+      ],
+      "container-title": [
+        "European Journal of Operational Research"
+      ],
+      "original-title": [],
+      "language": "en",
+      "link": [
+        {
+          "URL": "https://api.elsevier.com/content/article/PII:S0377221724002303?httpAccept=text/xml",
+          "content-type": "text/xml",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        },
+        {
+          "URL": "https://api.elsevier.com/content/article/PII:S0377221724002303?httpAccept=text/plain",
+          "content-type": "text/plain",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2024,
+            10,
+            30
+          ]
+        ],
+        "date-time": "2024-10-30T20:52:10Z",
+        "timestamp": 1730321530000
+      },
+      "score": 1,
+      "resource": {
+        "primary": {
+          "URL": "https://linkinghub.elsevier.com/retrieve/pii/S0377221724002303"
+        }
+      },
+      "subtitle": [],
+      "short-title": [],
+      "issued": {
+        "date-parts": [
+          [
+            2025,
+            2
+          ]
+        ]
+      },
+      "references-count": 215,
+      "journal-issue": {
+        "issue": "1",
+        "published-print": {
+          "date-parts": [
+            [
+              2025,
+              2
+            ]
+          ]
+        }
+      },
+      "alternative-id": [
+        "S0377221724002303"
+      ],
+      "URL": "https://doi.org/10.1016/j.ejor.2024.03.030",
+      "relation": {},
+      "ISSN": [
+        "0377-2217"
+      ],
+      "issn-type": [
+        {
+          "value": "0377-2217",
+          "type": "print"
+        }
+      ],
+      "subject": [],
+      "published": {
+        "date-parts": [
+          [
+            2025,
+            2
+          ]
+        ]
+      },
+      "assertion": [
+        {
+          "value": "Elsevier",
+          "name": "publisher",
+          "label": "This article is maintained by"
+        },
+        {
+          "value": "Biased random-key genetic algorithms: A review",
+          "name": "articletitle",
+          "label": "Article Title"
+        },
+        {
+          "value": "European Journal of Operational Research",
+          "name": "journaltitle",
+          "label": "Journal Title"
+        },
+        {
+          "value": "https://doi.org/10.1016/j.ejor.2024.03.030",
+          "name": "articlelink",
+          "label": "CrossRef DOI link to publisher maintained version"
+        },
+        {
+          "value": "article",
+          "name": "content_type",
+          "label": "Content Type"
+        },
+        {
+          "value": "© 2024 The Authors. Published by Elsevier B.V.",
+          "name": "copyright",
+          "label": "Copyright"
+        }
+      ]
+    }
+  }
+}

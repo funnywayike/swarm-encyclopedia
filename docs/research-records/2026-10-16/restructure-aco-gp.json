@@ -1,0 +1,702 @@
+{
+  "query": "10.1007/s12293-025-00435-9",
+  "url": "https://api.crossref.org/works/10.1007%2Fs12293-025-00435-9",
+  "retrieved": "2026-10-16",
+  "response": {
+    "status": "ok",
+    "message-type": "work",
+    "message-version": "1.0.0",
+    "message": {
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            7,
+            29
+          ]
+        ],
+        "date-time": "2026-07-29T04:11:08Z",
+        "timestamp": 1785298268793,
+        "version": "3.55.0"
+      },
+      "reference-count": 50,
+      "publisher": "Springer Science and Business Media LLC",
+      "issue": "1",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2025,
+                1,
+                28
+              ]
+            ],
+            "date-time": "2025-01-28T00:00:00Z",
+            "timestamp": 1738022400000
+          },
+          "content-version": "tdm",
+          "delay-in-days": 0,
+          "URL": "https://creativecommons.org/licenses/by/4.0"
+        },
+        {
+          "start": {
+            "date-parts": [
+              [
+                2025,
+                1,
+                28
+              ]
+            ],
+            "date-time": "2025-01-28T00:00:00Z",
+            "timestamp": 1738022400000
+          },
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "URL": "https://creativecommons.org/licenses/by/4.0"
+        }
+      ],
+      "funder": [
+        {
+          "DOI": "10.13039/501100001538",
+          "name": "Victoria University of Wellington",
+          "doi-asserted-by": "crossref",
+          "id": [
+            {
+              "id": "10.13039/501100001538",
+              "id-type": "DOI",
+              "asserted-by": "crossref"
+            }
+          ]
+        }
+      ],
+      "content-domain": {
+        "domain": [
+          "link.springer.com"
+        ],
+        "crossmark-restriction": false
+      },
+      "short-container-title": [
+        "Memetic Comp."
+      ],
+      "published-print": {
+        "date-parts": [
+          [
+            2025,
+            3
+          ]
+        ]
+      },
+      "abstract": "",
+      "DOI": "10.1007/s12293-025-00435-9",
+      "type": "journal-article",
+      "created": {
+        "date-parts": [
+          [
+            2025,
+            1,
+            28
+          ]
+        ],
+        "date-time": "2025-01-28T05:53:10Z",
+        "timestamp": 1738043590000
+      },
+      "update-policy": "https://doi.org/10.1007/springer_crossmark_policy",
+      "source": "Crossref",
+      "is-referenced-by-count": 6,
+      "title": [
+        "Automated design of state transition rules in ant colony optimization by genetic programming: a comprehensive investigation"
+      ],
+      "prefix": "10.1007",
+      "volume": "17",
+      "author": [
+        {
+          "given": "Bo-Cheng",
+          "family": "Lin",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Yi",
+          "family": "Mei",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Mengjie",
+          "family": "Zhang",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "297",
+      "published-online": {
+        "date-parts": [
+          [
+            2025,
+            1,
+            28
+          ]
+        ]
+      },
+      "reference": [
+        {
+          "issue": "1",
+          "key": "435_CR1",
+          "doi-asserted-by": "publisher",
+          "first-page": "53",
+          "DOI": "10.1109/4235.585892",
+          "volume": "1",
+          "author": "M Dorigo",
+          "year": "1997",
+          "unstructured": "Dorigo M, Gambardella LM (1997) Ant colony system: a cooperative learning approach to the traveling salesman problem. IEEE Trans Evol Comput 1(1):53–66",
+          "journal-title": "IEEE Trans Evol Comput"
+        },
+        {
+          "key": "435_CR2",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Dorigo M, Stützle T (2019) Ant colony optimization: overview and recent advances. In: Gendreau M, Potvin J-Y (eds) Handbook of metaheuristics. international series in operations research & management science. Springer, Cham, pp 311–351",
+          "DOI": "10.1007/978-3-319-91086-4_10"
+        },
+        {
+          "key": "435_CR3",
+          "unstructured": "Ye H, Wang J, Cao Z, Liang H, Li Y (2023) DeepACO: neural-enhanced Ant Systems for Combinatorial Optimization. arXiv"
+        },
+        {
+          "issue": "8",
+          "key": "435_CR4",
+          "doi-asserted-by": "publisher",
+          "first-page": "889",
+          "DOI": "10.1016/S0167-739X(00)00043-1",
+          "volume": "16",
+          "author": "T Stützle",
+          "year": "2000",
+          "unstructured": "Stützle T, Hoos HH (2000) MAX-MIN ant system. Futur Gener Comput Syst 16(8):889–914",
+          "journal-title": "Futur Gener Comput Syst"
+        },
+        {
+          "key": "435_CR5",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Runka A (2009) Evolving an edge selection formula for ant colony optimization. In: Proceedings of the 11th annual conference on genetic and evolutionary computation. GECCO ’09. Association for Computing Machinery, New York, NY, USA, pp 1075–1082",
+          "DOI": "10.1145/1569901.1570046"
+        },
+        {
+          "key": "435_CR6",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.cor.2022.105769",
+          "volume": "143",
+          "author": "Y Sun",
+          "year": "2022",
+          "unstructured": "Sun Y, Wang S, Shen Y, Li X, Ernst AT, Kirley M (2022) Boosting ant colony optimization via solution prediction and machine learning. Comput Oper Res 143:105769",
+          "journal-title": "Comput Oper Res"
+        },
+        {
+          "key": "435_CR7",
+          "unstructured": "Vaswani A, Shazeer N, Parmar N, Uszkoreit J, Jones L, Gomez AN, Kaiser Ł, Polosukhin I (2017) Attention is all you need. In: Advances in neural information processing systems, vol 30"
+        },
+        {
+          "key": "435_CR8",
+          "unstructured": "Radford A, Narasimhan K, Salimans T, Sutskever I. Improving language understanding by generative pre-training"
+        },
+        {
+          "key": "435_CR9",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Liu S, Chen C, Qu X, Tang K, Ong Y-S (2023) Large language models as evolutionary optimizers. arXiv",
+          "DOI": "10.1109/CEC60901.2024.10611913"
+        },
+        {
+          "key": "435_CR10",
+          "unstructured": "Ye H, Wang J, Cao Z, Song G (2024) ReEvo: large language models as hyper-heuristics with reflective evolution. arXiv"
+        },
+        {
+          "key": "435_CR11",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Wu X, Wu S-h, Wu J, Feng L, Tan KC (2024) Evolutionary computation in the era of large language model: survey and roadmap. arXiv",
+          "DOI": "10.1109/TEVC.2024.3506731"
+        },
+        {
+          "key": "435_CR12",
+          "first-page": "523",
+          "volume-title": "Parallel problem solving from nature, PPSN XI",
+          "author": "J Tavares",
+          "year": "2010",
+          "unstructured": "Tavares J, Pereira FB (2010) Evolving strategies for updating pheromone trails: a case study with the TSP. In: Schaefer R, Cotta C, Kołodziej J, Rudolph G (eds) Parallel problem solving from nature, PPSN XI. Springer, Berlin, Heidelberg, pp 523–532"
+        },
+        {
+          "key": "435_CR13",
+          "doi-asserted-by": "publisher",
+          "first-page": "85",
+          "DOI": "10.1007/978-3-642-20407-4_8",
+          "volume-title": "Genetic programming",
+          "author": "J Tavares",
+          "year": "2011",
+          "unstructured": "Tavares J, Pereira FB (2011) Designing pheromone update strategies with strongly typed genetic programming. In: Silva S, Foster JA, Nicolau M, Machado P, Giacobini M (eds) Genetic programming. Springer, Berlin, Heidelberg, pp 85–96"
+        },
+        {
+          "key": "435_CR14",
+          "unstructured": "Yang C, Wang X, Lu Y, Liu H, Le QV, Zhou D, Chen X (2023) Large language models as optimizers. arXiv"
+        },
+        {
+          "key": "435_CR15",
+          "unstructured": "Liu F, Tong X, Yuan M, Lin X, Luo F, Wang Z, Lu Z, Zhang Q (2024) An example of evolutionary computation + large language model beating human: design of efficient guided local search. arXiv"
+        },
+        {
+          "key": "435_CR16",
+          "unstructured": "Chen A, Dohan DM, So DR (2023) EvoPrompting: language models for code-level neural architecture search. arXiv"
+        },
+        {
+          "issue": "1",
+          "key": "435_CR17",
+          "doi-asserted-by": "publisher",
+          "first-page": "18",
+          "DOI": "10.3390/e23010018",
+          "volume": "23",
+          "author": "P Linardatos",
+          "year": "2021",
+          "unstructured": "Linardatos P, Papastefanopoulos V, Kotsiantis S (2021) Explainable AI: a review of machine learning interpretability methods. Entropy 23(1):18",
+          "journal-title": "Entropy"
+        },
+        {
+          "issue": "3",
+          "key": "435_CR18",
+          "doi-asserted-by": "publisher",
+          "first-page": "621",
+          "DOI": "10.1109/TEVC.2022.3225509",
+          "volume": "27",
+          "author": "Y Mei",
+          "year": "2023",
+          "unstructured": "Mei Y, Chen Q, Lensen A, Xue B, Zhang M (2023) Explainable artificial intelligence by genetic programming: a survey. IEEE Trans Evol Comput 27(3):621–641",
+          "journal-title": "IEEE Trans Evol Comput"
+        },
+        {
+          "key": "435_CR19",
+          "volume-title": "A field guide to genetic programming",
+          "author": "R Poli",
+          "year": "2008",
+          "unstructured": "Poli R, Langdon WB, McPhee NF, Koza JR (2008) A field guide to genetic programming. Lulu Press, Morrisville, NC"
+        },
+        {
+          "key": "435_CR20",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Zhang F, Mei Y, Nguyen S, Zhang M (2023) Survey on genetic programming and machine learning techniques for heuristic design in job shop scheduling. IEEE Trans Evol Comput 1",
+          "DOI": "10.1109/CEC55065.2022.9870243"
+        },
+        {
+          "key": "435_CR21",
+          "unstructured": "Dorigo M, Maniezzo V, Colorni A (1991) The ant system: an autocatalytic optimizing process"
+        },
+        {
+          "issue": "4",
+          "key": "435_CR22",
+          "doi-asserted-by": "publisher",
+          "first-page": "28",
+          "DOI": "10.1109/MCI.2006.329691",
+          "volume": "1",
+          "author": "M Dorigo",
+          "year": "2006",
+          "unstructured": "Dorigo M, Birattari M, Stutzle T (2006) Ant colony optimization. IEEE Comput Intell Mag 1(4):28–39",
+          "journal-title": "IEEE Comput Intell Mag"
+        },
+        {
+          "key": "435_CR23",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Dinh QT, Do DD, Hà MH (2021) Ants can solve the parallel drone scheduling traveling salesman problem. In: Proceedings of the genetic and evolutionary computation conference. GECCO ’21. Association for Computing Machinery, New York, NY, USA, pp 14–21",
+          "DOI": "10.1145/3449639.3459342"
+        },
+        {
+          "key": "435_CR24",
+          "unstructured": "Akhtar A (2019) Evolution of ant colony optimization algorithm: a brief literature review. arXiv"
+        },
+        {
+          "issue": "6",
+          "key": "435_CR25",
+          "doi-asserted-by": "publisher",
+          "first-page": "1394",
+          "DOI": "10.1109/TEVC.2022.3144142",
+          "volume": "26",
+          "author": "Y-H Jia",
+          "year": "2022",
+          "unstructured": "Jia Y-H, Mei Y, Zhang M (2022) Confidence-based ant colony optimization for capacitated electric vehicle routing problem with comparison of different encoding schemes. IEEE Trans Evol Comput 26(6):1394–1408",
+          "journal-title": "IEEE Trans Evol Comput"
+        },
+        {
+          "issue": "4",
+          "key": "435_CR26",
+          "doi-asserted-by": "publisher",
+          "first-page": "327",
+          "DOI": "10.1007/s10878-005-4922-6",
+          "volume": "10",
+          "author": "R Montemanni",
+          "year": "2005",
+          "unstructured": "Montemanni R, Gambardella LM, Rizzoli AE, Donati AV (2005) Ant colony system for a dynamic vehicle routing problem. J Comb Optim 10(4):327–343",
+          "journal-title": "J Comb Optim"
+        },
+        {
+          "issue": "1",
+          "key": "435_CR27",
+          "doi-asserted-by": "publisher",
+          "first-page": "30",
+          "DOI": "10.1186/1471-2105-6-30",
+          "volume": "6",
+          "author": "A Shmygelska",
+          "year": "2005",
+          "unstructured": "Shmygelska A, Hoos HH (2005) An ant colony optimisation algorithm for the 2D and 3D hydrophobic polar protein folding problem. BMC Bioinform 6(1):30",
+          "journal-title": "BMC Bioinform"
+        },
+        {
+          "key": "435_CR28",
+          "doi-asserted-by": "publisher",
+          "first-page": "128068",
+          "DOI": "10.1109/ACCESS.2020.3009318",
+          "volume": "8",
+          "author": "M Sánchez",
+          "year": "2020",
+          "unstructured": "Sánchez M, Cruz-Duarte JM, Ortíz-Bayliss J, Ceballos H, Terashima-Marin H, Amaya I (2020) A systematic review of hyper-heuristics on combinatorial optimization problems. IEEE Access 8:128068–128095",
+          "journal-title": "IEEE Access"
+        },
+        {
+          "issue": "12",
+          "key": "435_CR29",
+          "doi-asserted-by": "publisher",
+          "first-page": "1695",
+          "DOI": "10.1057/jors.2013.71",
+          "volume": "64",
+          "author": "EK Burke",
+          "year": "2013",
+          "unstructured": "Burke EK, Gendreau M, Hyde M, Kendall G, Ochoa G, Özcan E, Qu R (2013) Hyper-heuristics: a survey of the state of the art. J Oper Res Soc 64(12):1695–1724",
+          "journal-title": "J Oper Res Soc"
+        },
+        {
+          "issue": "1",
+          "key": "435_CR30",
+          "doi-asserted-by": "publisher",
+          "first-page": "55",
+          "DOI": "10.1007/s10951-008-0077-5",
+          "volume": "12",
+          "author": "R Qu",
+          "year": "2009",
+          "unstructured": "Qu R, Burke EK, McCollum B, Merlot LTG, Lee SY (2009) A survey of search methodologies and automated system development for examination timetabling. J Sched 12(1):55–89",
+          "journal-title": "J Sched"
+        },
+        {
+          "key": "435_CR31",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Mei Y, Zhang M (2016) A comprehensive analysis on reusability of GP-evolved job shop dispatching rules. In: 2016 IEEE congress on evolutionary computation (CEC), pp 3590–3597",
+          "DOI": "10.1109/CEC.2016.7744244"
+        },
+        {
+          "issue": "4",
+          "key": "435_CR32",
+          "doi-asserted-by": "publisher",
+          "first-page": "563",
+          "DOI": "10.1162/evco_a_00267",
+          "volume": "28",
+          "author": "J MacLachlan",
+          "year": "2020",
+          "unstructured": "MacLachlan J, Mei Y, Branke J, Zhang M (2020) Genetic programming hyper-heuristics with vehicle collaboration for uncertain capacitated arc routing problems. Evol Comput 28(4):563–593",
+          "journal-title": "Evol Comput"
+        },
+        {
+          "key": "435_CR33",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Ochoa G, Qu R, Burke EK (2009) Analyzing the landscape of a graph based hyper-heuristic for timetabling problems. In: Proceedings of the 11th annual conference on genetic and evolutionary computation. GECCO ’09. Association for Computing Machinery, New York, NY, USA, pp 341–348",
+          "DOI": "10.1145/1569901.1569949"
+        },
+        {
+          "key": "435_CR34",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.cor.2021.105401",
+          "volume": "134",
+          "author": "H Fan",
+          "year": "2021",
+          "unstructured": "Fan H, Xiong H, Goh M (2021) Genetic programming-based hyper-heuristic approach for solving dynamic job shop scheduling problem with extended technical precedence constraints. Comput Oper Res 134:105401",
+          "journal-title": "Comput Oper Res"
+        },
+        {
+          "key": "435_CR35",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Burke EK, Hyde MR, Kendall G, Ochoa G, Ozcan E, Woodward JR (2009) Exploring hyper-heuristic methodologies with genetic programming. In: Mumford CL, Jain LC (eds) Computational intelligence: collaboration, fusion and emergence. Intelligent Systems Reference Library, pp 177–201. Springer, Berlin, Heidelberg",
+          "DOI": "10.1007/978-3-642-01799-5_6"
+        },
+        {
+          "issue": "2",
+          "key": "435_CR36",
+          "doi-asserted-by": "publisher",
+          "first-page": "18",
+          "DOI": "10.1109/MCI.2024.3363970",
+          "volume": "19",
+          "author": "M Xu",
+          "year": "2024",
+          "unstructured": "Xu M, Mei Y, Zhang F, Zhang M (2024) Genetic programming and reinforcement learning on learning heuristics for dynamic scheduling: a preliminary comparison. IEEE Comput Intell Mag 19(2):18–33",
+          "journal-title": "IEEE Comput Intell Mag"
+        },
+        {
+          "issue": "6",
+          "key": "435_CR37",
+          "doi-asserted-by": "publisher",
+          "first-page": "861",
+          "DOI": "10.1109/TEVC.2011.2182651",
+          "volume": "16",
+          "author": "M Lopez-Ibanez",
+          "year": "2012",
+          "unstructured": "Lopez-Ibanez M, Stutzle T (2012) The automatic design of multiobjective ant colony optimization algorithms. IEEE Trans Evol Comput 16(6):861–875",
+          "journal-title": "IEEE Trans Evol Comput"
+        },
+        {
+          "key": "435_CR38",
+          "doi-asserted-by": "publisher",
+          "first-page": "534",
+          "DOI": "10.1016/j.procs.2015.12.333",
+          "volume": "76",
+          "author": "ZA Aziz",
+          "year": "2015",
+          "unstructured": "Aziz ZA (2015) Ant colony hyper-heuristics for travelling salesman problem. Procedia Comput Sci 76:534–538",
+          "journal-title": "Procedia Comput Sci"
+        },
+        {
+          "key": "435_CR39",
+          "doi-asserted-by": "publisher",
+          "first-page": "78",
+          "DOI": "10.1016/j.future.2016.01.017",
+          "volume": "60",
+          "author": "PK Tiwari",
+          "year": "2016",
+          "unstructured": "Tiwari PK, Vidyarthi DP (2016) Improved auto control ant colony optimization using lazy ant approach for grid scheduling problem. Futur Gener Comput Syst 60:78–89",
+          "journal-title": "Futur Gener Comput Syst"
+        },
+        {
+          "key": "435_CR40",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Tavares J, Pereira FB (2012) Automatic design of ant algorithms with grammatical evolution. In: Moraglio A, Silva S, Krawiec K, Machado P, Cotta C (eds) Genetic programming. Lecture notes in computer science. Springer, Berlin, Heidelberg, pp 206–217",
+          "DOI": "10.1007/978-3-642-29139-5_18"
+        },
+        {
+          "key": "435_CR41",
+          "unstructured": "Xi Z, Chen W, Guo X, He W, Ding Y, Hong B, Zhang M, Wang J, Jin S, Zhou E, Zheng R, Fan X, Wang X, Xiong L, Zhou Y, Wang W, Jiang C, Zou Y, Liu X, Yin Z, Dou S, Weng R, Cheng W, Zhang Q, Qin W, Zheng Y, Qiu X, Huang X, Gui T (2023) The rise and potential of large language model based agents: a survey. arXiv"
+        },
+        {
+          "key": "435_CR42",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Pluhacek M, Kazikova A, Kadavy T, Viktorin A, Senkerik R (2023) Leveraging large language models for the generation of novel metaheuristic optimization algorithms. In: Proceedings of the companion conference on genetic and evolutionary computation. GECCO ’23 Companion. Association for Computing Machinery, New York, NY, USA, pp 1812–1820",
+          "DOI": "10.1145/3583133.3596401"
+        },
+        {
+          "key": "435_CR43",
+          "unstructured": "Liu F, Tong X, Yuan M, Zhang Q (2023) Algorithm evolution using large language model. arXiv"
+        },
+        {
+          "issue": "3",
+          "key": "435_CR44",
+          "doi-asserted-by": "publisher",
+          "first-page": "14",
+          "DOI": "10.1109/MCI.2023.3277768",
+          "volume": "18",
+          "author": "S Liu",
+          "year": "2023",
+          "unstructured": "Liu S, Zhang Y, Tang K, Yao X (2023) How good is neural combinatorial optimization: a systematic evaluation on the traveling salesman problem. IEEE Comput Intell Mag 18(3):14–28",
+          "journal-title": "IEEE Comput Intell Mag"
+        },
+        {
+          "key": "435_CR45",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Liu Y, Qiu J, Hart E, Yu Y, Gan Z, Li W (2023) Learning-based neural ant colony optimization. In: Proceedings of the genetic and evolutionary computation conference. GECCO ’23. Association for Computing Machinery, New York, NY, USA, pp 47–55",
+          "DOI": "10.1145/3583131.3590483"
+        },
+        {
+          "issue": "9",
+          "key": "435_CR46",
+          "first-page": "33",
+          "volume": "6",
+          "author": "B Sanchez-Lengeling",
+          "year": "2021",
+          "unstructured": "Sanchez-Lengeling B, Reif E, Pearce A, Wiltschko AB (2021) A gentle introduction to graph neural networks. Distill 6(9):33",
+          "journal-title": "Distill"
+        },
+        {
+          "key": "435_CR47",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Sun M, Zhou K, He X, Wang Y, Wang X (2022) GPPT: graph pre-training and prompt tuning to generalize graph neural networks. In: Proceedings of the 28th ACM SIGKDD conference on knowledge discovery and data mining. KDD ’22. Association for Computing Machinery, New York, NY, USA, pp 1717–1727",
+          "DOI": "10.1145/3534678.3539249"
+        },
+        {
+          "key": "435_CR48",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1515/9781400841103",
+          "volume-title": "The traveling salesman problem: a computational study",
+          "author": "WJ Cook",
+          "year": "2011",
+          "unstructured": "Cook WJ, Applegate DL, Bixby RE, Chvátal V (2011) The traveling salesman problem: a computational study. Princeton University Press, Princeton"
+        },
+        {
+          "key": "435_CR49",
+          "doi-asserted-by": "publisher",
+          "first-page": "609",
+          "DOI": "10.1007/0-306-48213-4_13",
+          "volume-title": "The traveling salesman problem and its variations",
+          "author": "M Fischetti",
+          "year": "2007",
+          "unstructured": "Fischetti M, Salazar-Gonzalez J-J, Toth P (2007) The generalized traveling salesman and orienteering problems. In: Du D-Z, Pardalos PM, Gutin G, Punnen AP (eds) The traveling salesman problem and its variations, vol 12. Springer, Boston, MA, pp 609–662"
+        },
+        {
+          "key": "435_CR50",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Reinelt G (1991) TSPLIB—a traveling salesman problem library. ORSA Journal on Computing",
+          "DOI": "10.1287/ijoc.3.4.376"
+        }
+      ],
+      "container-title": [
+        "Memetic Computing"
+      ],
+      "original-title": [],
+      "language": "en",
+      "link": [
+        {
+          "URL": "https://link.springer.com/content/pdf/10.1007/s12293-025-00435-9.pdf",
+          "content-type": "application/pdf",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        },
+        {
+          "URL": "https://link.springer.com/article/10.1007/s12293-025-00435-9/fulltext.html",
+          "content-type": "text/html",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        },
+        {
+          "URL": "https://link.springer.com/content/pdf/10.1007/s12293-025-00435-9.pdf",
+          "content-type": "application/pdf",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2025,
+            3,
+            18
+          ]
+        ],
+        "date-time": "2025-03-18T01:30:04Z",
+        "timestamp": 1742261404000
+      },
+      "score": 1,
+      "resource": {
+        "primary": {
+          "URL": "https://link.springer.com/10.1007/s12293-025-00435-9"
+        }
+      },
+      "subtitle": [],
+      "short-title": [],
+      "issued": {
+        "date-parts": [
+          [
+            2025,
+            1,
+            28
+          ]
+        ]
+      },
+      "references-count": 50,
+      "journal-issue": {
+        "issue": "1",
+        "published-print": {
+          "date-parts": [
+            [
+              2025,
+              3
+            ]
+          ]
+        }
+      },
+      "alternative-id": [
+        "435"
+      ],
+      "URL": "https://doi.org/10.1007/s12293-025-00435-9",
+      "relation": {
+        "has-preprint": [
+          {
+            "id-type": "doi",
+            "id": "10.21203/rs.3.rs-4445728/v1",
+            "asserted-by": "object"
+          }
+        ]
+      },
+      "ISSN": [
+        "1865-9284",
+        "1865-9292"
+      ],
+      "issn-type": [
+        {
+          "value": "1865-9284",
+          "type": "print"
+        },
+        {
+          "value": "1865-9292",
+          "type": "electronic"
+        }
+      ],
+      "subject": [],
+      "published": {
+        "date-parts": [
+          [
+            2025,
+            1,
+            28
+          ]
+        ]
+      },
+      "assertion": [
+        {
+          "value": "19 May 2024",
+          "order": 1,
+          "name": "received",
+          "label": "Received",
+          "group": {
+            "name": "ArticleHistory",
+            "label": "Article History"
+          }
+        },
+        {
+          "value": "5 January 2025",
+          "order": 2,
+          "name": "accepted",
+          "label": "Accepted",
+          "group": {
+            "name": "ArticleHistory",
+            "label": "Article History"
+          }
+        },
+        {
+          "value": "28 January 2025",
+          "order": 3,
+          "name": "first_online",
+          "label": "First Online",
+          "group": {
+            "name": "ArticleHistory",
+            "label": "Article History"
+          }
+        }
+      ],
+      "article-number": "2"
+    }
+  }
+}

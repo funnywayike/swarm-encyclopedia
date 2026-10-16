@@ -63,9 +63,11 @@ def fingerprint(entries=None):
     for src, where, text in sorted(entries):
         h.update(f"{src}|{where}|{text}".encode("utf-8"))
         h.update(b"\n")
-    ov = os.path.join(ROOT, "data", "citation_overrides.json")
+    ov = OVERRIDES
     if os.path.exists(ov):
-        h.update(io.open(ov, "rb").read())
+        # Hash semantic JSON consistently across Windows CRLF and Linux LF checkouts.
+        with io.open(ov, encoding="utf-8-sig") as f:
+            h.update(json.dumps(json.load(f), ensure_ascii=False, sort_keys=True, separators=(",", ":")).encode("utf-8"))
     return h.hexdigest()
 
 

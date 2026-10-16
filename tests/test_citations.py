@@ -58,3 +58,14 @@ def test_known_wrong_citations_stay_fixed():
     assert "Gandomi" in algos["mpa"] and "Stephens" not in algos["mpa"]
     blob = " ".join(open(os.path.join(ROOT, "data", fn), encoding="utf-8").read() for fn in ("discovery.json", "families.json", "meta.json"))
     assert "22:649" not in blob  # Sörensen 2015 的正确出处是 ITOR 22(1):3–18
+
+
+def test_override_fingerprint_ignores_checkout_newlines_but_detects_content(tmp_path, monkeypatch):
+    p = tmp_path / "overrides.json"
+    monkeypatch.setattr(C, "OVERRIDES", str(p))
+    p.write_bytes(b'{\r\n  "source": {"reason": "verified"}\r\n}\r\n')
+    first = C.fingerprint([])
+    p.write_bytes(b'{\n  "source": {"reason": "verified"}\n}\n')
+    assert C.fingerprint([]) == first
+    p.write_text('{"source":{"reason":"changed"}}', encoding="utf-8")
+    assert C.fingerprint([]) != first

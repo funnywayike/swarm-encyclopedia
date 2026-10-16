@@ -1,0 +1,2677 @@
+{
+  "query": "10.1016/j.swevo.2020.100694",
+  "url": "https://api.crossref.org/works/10.1016%2Fj.swevo.2020.100694",
+  "retrieved": "2026-10-16",
+  "response": {
+    "status": "ok",
+    "message-type": "work",
+    "message-version": "1.0.0",
+    "message": {
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            10,
+            3
+          ]
+        ],
+        "date-time": "2026-10-03T17:27:48Z",
+        "timestamp": 1791048468049,
+        "version": "4.1.0"
+      },
+      "reference-count": 265,
+      "publisher": "Elsevier BV",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2020,
+                8,
+                1
+              ]
+            ],
+            "date-time": "2020-08-01T00:00:00Z",
+            "timestamp": 1596240000000
+          },
+          "content-version": "tdm",
+          "delay-in-days": 0,
+          "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+        },
+        {
+          "start": {
+            "date-parts": [
+              [
+                2020,
+                8,
+                1
+              ]
+            ],
+            "date-time": "2020-08-01T00:00:00Z",
+            "timestamp": 1596240000000
+          },
+          "content-version": "tdm",
+          "delay-in-days": 0,
+          "URL": "https://www.elsevier.com/legal/tdmrep-license"
+        }
+      ],
+      "funder": [
+        {
+          "DOI": "10.13039/501100001809",
+          "name": "National Natural Science Foundation of China",
+          "doi-asserted-by": "publisher",
+          "id": [
+            {
+              "id": "10.13039/501100001809",
+              "id-type": "DOI",
+              "asserted-by": "publisher"
+            }
+          ]
+        }
+      ],
+      "content-domain": {
+        "domain": [
+          "elsevier.com",
+          "sciencedirect.com"
+        ],
+        "crossmark-restriction": true
+      },
+      "short-container-title": [
+        "Swarm and Evolutionary Computation"
+      ],
+      "published-print": {
+        "date-parts": [
+          [
+            2020,
+            8
+          ]
+        ]
+      },
+      "DOI": "10.1016/j.swevo.2020.100694",
+      "type": "journal-article",
+      "created": {
+        "date-parts": [
+          [
+            2020,
+            4,
+            19
+          ]
+        ],
+        "date-time": "2020-04-19T14:22:00Z",
+        "timestamp": 1587306120000
+      },
+      "page": "100694",
+      "update-policy": "https://doi.org/10.1016/elsevier_cm_policy",
+      "source": "Crossref",
+      "is-referenced-by-count": 85,
+      "special_numbering": "C",
+      "title": [
+        "Evolution strategies for continuous optimization: A survey of the state-of-the-art"
+      ],
+      "prefix": "10.1016",
+      "volume": "56",
+      "author": [
+        {
+          "given": "Zhenhua",
+          "family": "Li",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Xi",
+          "family": "Lin",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Qingfu",
+          "family": "Zhang",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Hailin",
+          "family": "Liu",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "78",
+      "reference": [
+        {
+          "key": "10.1016/j.swevo.2020.100694_bib1",
+          "series-title": "Handbook of Computational Intelligence",
+          "first-page": "871",
+          "article-title": "Evolution strategies",
+          "author": "Hansen",
+          "year": "2014"
+        },
+        {
+          "key": "10.1016/j.swevo.2020.100694_bib2",
+          "series-title": "Procedings of the Genetic and Evolutionary Computation Conference",
+          "first-page": "2389",
+          "article-title": "Benchmarking a BI-population CMA-ES on the BBOB-2009 function testbed",
+          "author": "Hansen",
+          "year": "2009"
+        },
+        {
+          "issue": "4",
+          "key": "10.1016/j.swevo.2020.100694_bib3",
+          "doi-asserted-by": "crossref",
+          "first-page": "509",
+          "DOI": "10.1162/EVCO_a_00084",
+          "article-title": "A comparison of global search algorithms for continuous black box optimization",
+          "volume": "20",
+          "author": "Posík",
+          "year": "2012",
+          "journal-title": "Evol. Comput."
+        },
+        {
+          "key": "10.1016/j.swevo.2020.100694_bib4",
+          "series-title": "International Conference on Machine Learning",
+          "first-page": "1547",
+          "article-title": "Path integral policy improvement with covariance matrix adaptation",
+          "author": "Stulp",
+          "year": "2012"
+        },
+        {
+          "key": "10.1016/j.swevo.2020.100694_bib5",
+          "series-title": "Procedings of the Parallel Problems Solving from Nature",
+          "first-page": "428",
+          "article-title": "Evolution strategies for direct policy search",
+          "author": "Heidrich-Meisner",
+          "year": "2008"
+        },
+        {
+          "key": "10.1016/j.swevo.2020.100694_bib6",
+          "series-title": "Evolution Strategies as a Scalable Alternative to Reinforcement Learning",
+          "author": "Salimans",
+          "year": "2017"
+        },
+        {
+          "key": "10.1016/j.swevo.2020.100694_bib7",
+          "series-title": "International Joint Conferences on Artificial Intelligence",
+          "first-page": "1419",
+          "article-title": "Back to basics: benchmarking canonical evolution strategies for playing atari",
+          "author": "Chrabaszcz",
+          "year": "2018"
+        },
+        {
+          "key": "10.1016/j.swevo.2020.100694_bib8",
+          "series-title": "Procedings of the Parallel Problems Solving from Nature",
+          "first-page": "411",
+          "article-title": "Challenges in high-dimensional reinforcement learning with evolution strategies",
+          "author": "Müller",
+          "year": "2018"
+        },
+        {
+          "key": "10.1016/j.swevo.2020.100694_bib9",
+          "series-title": "Advances in Neural Information Processing Systems",
+          "first-page": "1800",
+          "article-title": "Simple random search of static linear policies is competitive for reinforcement learning",
+          "author": "Mania",
+          "year": "2018"
+        },
+        {
+          "issue": "1",
+          "key": "10.1016/j.swevo.2020.100694_bib10",
+          "doi-asserted-by": "crossref",
+          "first-page": "180",
+          "DOI": "10.1109/TEVC.2008.924423",
+          "article-title": "A method for handling uncertainty in evolutionary optimization with an application to feedback control of combustion",
+          "volume": "13",
+          "author": "Hansen",
+          "year": "2009",
+          "journal-title": "IEEE Trans. Evol. Comput."
+        },
+        {
+          "issue": "6",
+          "key": "10.1016/j.swevo.2020.100694_bib11",
+          "doi-asserted-by": "crossref",
+          "first-page": "206:1",
+          "DOI": "10.1145/2508363.2508399",
+          "article-title": "Flexible muscle-based locomotion for bipedal creatures",
+          "volume": "32",
+          "author": "Geijtenbeek",
+          "year": "2013",
+          "journal-title": "ACM Trans. Graph."
+        },
+        {
+          "issue": "4",
+          "key": "10.1016/j.swevo.2020.100694_bib12",
+          "first-page": "1",
+          "article-title": "Optimizing walking controllers for uncertain inputs and environments",
+          "volume": "29",
+          "author": "Wang",
+          "year": "2010",
+          "journal-title": "ACM Trans. Graph."
+        },
+        {
+          "key": "10.1016/j.swevo.2020.100694_bib13",
+          "first-page": "2588",
+          "article-title": "Neuroevolution for reinforcement learning using evolution strategies",
+          "volume": "vol. 4",
+          "author": "Igel",
+          "year": "2003"
+        },
+        {
+          "key": "10.1016/j.swevo.2020.100694_bib14",
+          "series-title": "2013 International Conference on Robotics, Biomimetics, Intelligent Computational Systems",
+          "first-page": "143",
+          "article-title": "Nurlasmaya, Evolution strategies for weight optimization of Artificial Neural Network in time series prediction",
+          "author": "Sulistiyo",
+          "year": "2013"
+        },
+        {
+          "key": "10.1016/j.swevo.2020.100694_bib15",
+          "doi-asserted-by": "crossref",
+          "first-page": "107",
+          "DOI": "10.1016/j.neucom.2004.11.022",
+          "article-title": "Evolutionary tuning of multiple SVM parameters",
+          "volume": "64",
+          "author": "Friedrichs",
+          "year": "2005",
+          "journal-title": "Neurocomputing"
+        },
+        {
+          "key": "10.1016/j.swevo.2020.100694_bib16",
+          "author": "Loshchilov"
+        },
+        {
+          "key": "10.1016/j.swevo.2020.100694_bib17",
+          "series-title": "International Conference on Machine Learning",
+          "first-page": "2137",
+          "article-title": "Black-box Adversarial attacks with limited queries and information",
+          "author": "Ilyas",
+          "year": "2018"
+        },
+        {
+          "issue": "1",
+          "key": "10.1016/j.swevo.2020.100694_bib18",
+          "doi-asserted-by": "crossref",
+          "first-page": "148",
+          "DOI": "10.1109/JPROC.2015.2494218",
+          "article-title": "Taking the human out of the loop: a review of bayesian optimization",
+          "volume": "104",
+          "author": "Shahriari",
+          "year": "2016",
+          "journal-title": "Proc. IEEE"
+        },
+        {
+          "issue": "3",
+          "key": "10.1016/j.swevo.2020.100694_bib19",
+          "doi-asserted-by": "crossref",
+          "first-page": "1653",
+          "DOI": "10.1016/j.ejor.2006.08.008",
+          "article-title": "SMS-EMOA: multiobjective selection based on dominated hypervolume",
+          "volume": "181",
+          "author": "Beume",
+          "year": "2007",
+          "journal-title": "Eur. J. Oper. Res."
+        },
+        {
+          "key": "10.1016/j.swevo.2020.100694_bib20",
+          "series-title": "Procedings of the Genetic and Evolutionary Computation Conference",
+          "first-page": "783",
+          "article-title": "Injecting CMA-ES into MOEA/D",
+          "author": "Zapotecas-Martínez",
+          "year": "2015"
+        },
+        {
+          "key": "10.1016/j.swevo.2020.100694_bib21",
+          "series-title": "Proceedings of the Fourth International Conference on Genetic Algorithms",
+          "first-page": "2",
+          "article-title": "A survey of evolution strategies",
+          "author": "Bäck",
+          "year": "1991"
+        },
+        {
+          "key": "10.1016/j.swevo.2020.100694_bib22",
+          "series-title": "Evolution and Optimum Seeking",
+          "author": "Schwefel",
+          "year": "1993"
+        },
+        {
+          "key": "10.1016/j.swevo.2020.100694_bib23",
+          "doi-asserted-by": "crossref",
+          "first-page": "3",
+          "DOI": "10.1023/A:1015059928466",
+          "article-title": "Evolution Strategies-A comprehensive introduction",
+          "volume": "1",
+          "author": "Beyer",
+          "year": "2002",
+          "journal-title": "Nat. Comput."
+        },
+        {
+          "key": "10.1016/j.swevo.2020.100694_bib24",
+          "series-title": "Towards a New Evolutionary Computation",
+          "first-page": "75",
+          "article-title": "The CMA evolution strategy: a comparing review",
+          "author": "Hansen",
+          "year": "2006"
+        },
+        {
+          "issue": "3",
+          "key": "10.1016/j.swevo.2020.100694_bib25",
+          "doi-asserted-by": "crossref",
+          "first-page": "355",
+          "DOI": "10.1023/B:NACO.0000036904.41423.1c",
+          "article-title": "Learning probability distributions in continuous evolutionary algorithms - a comparative review",
+          "volume": "3",
+          "author": "Kern",
+          "year": "2004",
+          "journal-title": "Nat. Comput."
+        },
+        {
+          "key": "10.1016/j.swevo.2020.100694_bib26",
+          "first-page": "1",
+          "article-title": "A review of constraint-handling techniques for evolution strategies",
+          "volume": "2010",
+          "author": "Kramer",
+          "year": "2010",
+          "journal-title": "Appl. Comput. Intell. Soft Comput."
+        },
+        {
+          "key": "10.1016/j.swevo.2020.100694_bib27",
+          "series-title": "Contemporary Evolution Strategies",
+          "author": "Bäck",
+          "year": "2013"
+        },
+        {
+          "key": "10.1016/j.swevo.2020.100694_bib28",
+          "series-title": "Handbook of Natural Computing",
+          "first-page": "871",
+          "article-title": "Evolutionary strategies",
+          "author": "Rudolph",
+          "year": "2012"
+        },
+        {
+          "key": "10.1016/j.swevo.2020.100694_bib29",
+          "series-title": "Handbook of Evolutionary Computation",
+          "year": "1997"
+        },
+        {
+          "key": "10.1016/j.swevo.2020.100694_bib30",
+          "series-title": "Procedings of the Parallel Problems Solving from Nature",
+          "first-page": "34",
+          "article-title": "Where elitists start limping: evolution strategies at ridge functions",
+          "author": "Oyman",
+          "year": "1998"
+        },
+        {
+          "key": "10.1016/j.swevo.2020.100694_bib31",
+          "series-title": "Procedings of the Parallel Problems Solving from Nature",
+          "first-page": "122",
+          "article-title": "On the asymptotic behavior of multirecombinant evolution strategies",
+          "author": "Beyer",
+          "year": "1996"
+        },
+        {
+          "key": "10.1016/j.swevo.2020.100694_bib32",
+          "series-title": "The Theory of Evolution Strategies",
+          "author": "Beyer",
+          "year": "2001"
+        },
+        {
+          "issue": "2",
+          "key": "10.1016/j.swevo.2020.100694_bib33",
+          "doi-asserted-by": "crossref",
+          "first-page": "45",
+          "DOI": "10.1109/4235.728207",
+          "article-title": "Evolutionary algorithms and gradient search: similarities and differences",
+          "volume": "2",
+          "author": "Salomon",
+          "year": "1998",
+          "journal-title": "IEEE Trans. Evol. Comput."
+        },
+        {
+          "issue": "4",
+          "key": "10.1016/j.swevo.2020.100694_bib34",
+          "doi-asserted-by": "crossref",
+          "first-page": "480",
+          "DOI": "10.1109/TEVC.2006.882427",
+          "article-title": "Evolutionary gradient search revised",
+          "volume": "11",
+          "author": "Arnold",
+          "year": "2007",
+          "journal-title": "IEEE Trans. Evol. Comput."
+        },
+        {
+          "issue": "1",
+          "key": "10.1016/j.swevo.2020.100694_bib35",
+          "doi-asserted-by": "crossref",
+          "first-page": "1",
+          "DOI": "10.1162/106365603321828970",
+          "article-title": "Reducing the time complexity of the derandomized evolution strategy with covariance matrix adaptation (CMA-ES)",
+          "volume": "11",
+          "author": "Hansen",
+          "year": "2003",
+          "journal-title": "Evol. Comput."
+        },
+        {
+          "key": "10.1016/j.swevo.2020.100694_bib36",
+          "series-title": "Procedings of the Parallel Problems Solving from Nature",
+          "first-page": "123",
+          "article-title": "Covariance matrix adaptation revisited-the CMSA evolution strategy",
+          "author": "Beyer",
+          "year": "2008"
+        },
+        {
+          "key": "10.1016/j.swevo.2020.100694_bib37",
+          "series-title": "Matrix Computations",
+          "author": "Golub",
+          "year": "1996"
+        },
+        {
+          "key": "10.1016/j.swevo.2020.100694_bib38",
+          "doi-asserted-by": "crossref",
+          "first-page": "167",
+          "DOI": "10.1007/s10994-009-5102-1",
+          "article-title": "Efficient covariance matrix update for variable metric evolution strategies",
+          "volume": "75",
+          "author": "Suttorp",
+          "year": "2009",
+          "journal-title": "Mach. Learn."
+        },
+        {
+          "key": "10.1016/j.swevo.2020.100694_bib39",
+          "series-title": "Procedings of the Congress on Evolutionary Computation",
+          "first-page": "1777",
+          "article-title": "An efficient rank-1 update for Cholesky CMA-ES using auxiliary evolution path",
+          "author": "Li",
+          "year": "2017"
+        },
+        {
+          "issue": "5",
+          "key": "10.1016/j.swevo.2020.100694_bib40",
+          "doi-asserted-by": "crossref",
+          "first-page": "746",
+          "DOI": "10.1109/TEVC.2017.2680320",
+          "article-title": "Simplify your covariance matrix adaptation evolution strategy",
+          "volume": "21",
+          "author": "Beyer",
+          "year": "2017",
+          "journal-title": "IEEE Trans. Evol. Comput."
+        },
+        {
+          "key": "10.1016/j.swevo.2020.100694_bib41",
+          "series-title": "Theory and Principled Methods for the Design of Metaheuristics",
+          "first-page": "145",
+          "article-title": "Principled design of continuous stochastic search: from theory to practice",
+          "author": "Hansen",
+          "year": "2014"
+        },
+        {
+          "key": "10.1016/j.swevo.2020.100694_bib42",
+          "series-title": "Procedings of the Congress on Evolutionary Computation",
+          "first-page": "2814",
+          "article-title": "Improving evolution strategies through active covariance matrix adaptation",
+          "author": "Jastrebski",
+          "year": "2006"
+        },
+        {
+          "issue": "1",
+          "key": "10.1016/j.swevo.2020.100694_bib43",
+          "doi-asserted-by": "crossref",
+          "first-page": "18",
+          "DOI": "10.1016/j.tcs.2006.04.003",
+          "article-title": "Weighted multirecombination evolution strategies",
+          "volume": "361",
+          "author": "Arnold",
+          "year": "2006",
+          "journal-title": "Theor. Comput. Sci.",
+          "ISSN": "https://id.crossref.org/issn/0304-3975",
+          "issn-type": "print"
+        },
+        {
+          "key": "10.1016/j.swevo.2020.100694_bib44",
+          "series-title": "FOGA, ACM",
+          "first-page": "111",
+          "article-title": "Quality gain analysis of the weighted recombination evolution strategy on general convex quadratic functions",
+          "author": "Akimoto",
+          "year": "2017"
+        },
+        {
+          "key": "10.1016/j.swevo.2020.100694_bib45",
+          "series-title": "Procedings of the Genetic and Evolutionary Computation Conference",
+          "first-page": "809",
+          "article-title": "Analysis of evolution strategies with the optimal weighted recombination",
+          "author": "Au",
+          "year": "2018"
+        },
+        {
+          "key": "10.1016/j.swevo.2020.100694_bib46",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1016/j.tcs.2018.05.015",
+          "article-title": "Quality gain analysis of the weighted recombination evolution strategy on general convex quadratic functions",
+          "author": "Akimoto",
+          "year": "2020",
+          "journal-title": "Early Access Theor. Comput. Sci."
+        },
+        {
+          "issue": "1",
+          "key": "10.1016/j.swevo.2020.100694_bib47",
+          "doi-asserted-by": "crossref",
+          "first-page": "81",
+          "DOI": "10.1162/evco.1995.3.1.81",
+          "article-title": "Toward a theory of evolution strategies: on the benefits of sex-the (μ/μ, λ) theory",
+          "volume": "3",
+          "author": "Beyer",
+          "year": "1995",
+          "journal-title": "Evol. Comput."
+        },
+        {
+          "key": "10.1016/j.swevo.2020.100694_bib48",
+          "series-title": "Procedings of the Genetic and Evolutionary Computation Conference",
+          "first-page": "1937",
+          "article-title": "Stochastic local search in continuous domains: questions to Be answered when designing a novel algorithm",
+          "author": "Pošík",
+          "year": "2010"
+        },
+        {
+          "issue": "2",
+          "key": "10.1016/j.swevo.2020.100694_bib49",
+          "doi-asserted-by": "crossref",
+          "first-page": "159",
+          "DOI": "10.1162/106365601750190398",
+          "article-title": "Completely derandomized self-adaptation in evolution strategies",
+          "volume": "9",
+          "author": "Hansen",
+          "year": "2001",
+          "journal-title": "Evol. Comput."
+        },
+        {
+          "key": "10.1016/j.swevo.2020.100694_bib50",
+          "series-title": "European Congress on Intelligent Techniques and Soft Computing",
+          "first-page": "650",
+          "article-title": "Convergence properties of evolution strategies with the derandomized covariance matrix adaptation: the (μ/μI, λ)-CMA-ES",
+          "author": "Hansen",
+          "year": "1997"
+        },
+        {
+          "key": "10.1016/j.swevo.2020.100694_bib51",
+          "series-title": "Variable Metrics in Evolutionary Computation",
+          "author": "Hansen",
+          "year": "2009"
+        },
+        {
+          "key": "10.1016/j.swevo.2020.100694_bib52",
+          "series-title": "Procedings of the Congress on Evolutionary Computation",
+          "first-page": "312",
+          "article-title": "Adapting arbitrary normal mutation distributions in evolution strategies: the covariance matrix adaptation",
+          "author": "Hansen",
+          "year": "1996"
+        },
+        {
+          "key": "10.1016/j.swevo.2020.100694_bib53",
+          "series-title": "Procedings of the Parallel Problems Solving from Nature",
+          "first-page": "751",
+          "article-title": "What does the evolution path learn in CMA-ES?",
+          "author": "Li",
+          "year": "2016"
+        },
+        {
+          "key": "10.1016/j.swevo.2020.100694_bib54",
+          "series-title": "Procedings of the Genetic and Evolutionary Computation Conference",
+          "first-page": "453",
+          "article-title": "A computational efficient covariance matrix update and a (1+1)-CMA for evolution strategies",
+          "author": "Igel",
+          "year": "2006"
+        },
+        {
+          "key": "10.1016/j.swevo.2020.100694_bib55",
+          "series-title": "Procedings of the ACM Conference on Foundations of Genetic Algorithms",
+          "first-page": "129",
+          "article-title": "A more efficient rank-one covariance matrix update for evolution strategies",
+          "author": "Krause",
+          "year": "2015"
+        },
+        {
+          "key": "10.1016/j.swevo.2020.100694_bib56",
+          "series-title": "Advances in Neural Information Processing Systems",
+          "first-page": "370",
+          "article-title": "CMA-ES with optimal covariance update and storage complexity",
+          "author": "Krause",
+          "year": "2016"
+        },
+        {
+          "issue": "126",
+          "key": "10.1016/j.swevo.2020.100694_bib57",
+          "doi-asserted-by": "crossref",
+          "first-page": "505",
+          "DOI": "10.1090/S0025-5718-1974-0343558-6",
+          "article-title": "Methods for modifying matrix factorizations",
+          "volume": "28",
+          "author": "Gill",
+          "year": "1974",
+          "journal-title": "Math. Comput."
+        },
+        {
+          "key": "10.1016/j.swevo.2020.100694_bib58",
+          "series-title": "Procedings of the Genetic and Evolutionary Computation Conference",
+          "first-page": "281",
+          "article-title": "A CMA-ES with multiplicative covariance matrix updates",
+          "author": "Krause",
+          "year": "2015"
+        },
+        {
+          "issue": "3",
+          "key": "10.1016/j.swevo.2020.100694_bib59",
+          "doi-asserted-by": "crossref",
+          "first-page": "1589",
+          "DOI": "10.1137/140984038",
+          "article-title": "Linear convergence of comparison-based step-size adaptive randomized search via stability of Markov chains",
+          "volume": "26",
+          "author": "Auger",
+          "year": "2016",
+          "journal-title": "SIAM J. Optim."
+        },
+        {
+          "issue": "4",
+          "key": "10.1016/j.swevo.2020.100694_bib60",
+          "doi-asserted-by": "crossref",
+          "first-page": "369",
+          "DOI": "10.1162/evco.1994.2.4.369",
+          "article-title": "A derandomized approach to self adaptation of evolution strategies",
+          "volume": "2",
+          "author": "Ostermeier",
+          "year": "1994",
+          "journal-title": "Evol. Comput."
+        },
+        {
+          "issue": "1",
+          "key": "10.1016/j.swevo.2020.100694_bib61",
+          "doi-asserted-by": "crossref",
+          "first-page": "19",
+          "DOI": "10.1162/106365603321828989",
+          "article-title": "Qualms regarding the optimality of cumulative path length control in CSA/CMA-evolution strategies",
+          "volume": "11",
+          "author": "Beyer",
+          "year": "2003",
+          "journal-title": "Evol. Comput."
+        },
+        {
+          "key": "10.1016/j.swevo.2020.100694_bib62",
+          "doi-asserted-by": "crossref",
+          "first-page": "617",
+          "DOI": "10.1109/TAC.2004.825637",
+          "article-title": "Performance analysis of evolutionary optimization with cumulative step length adaptation",
+          "volume": "49",
+          "author": "Arnold",
+          "year": "2004",
+          "journal-title": "Trans. Automat. Contr."
+        },
+        {
+          "issue": "1",
+          "key": "10.1016/j.swevo.2020.100694_bib63",
+          "doi-asserted-by": "crossref",
+          "first-page": "25",
+          "DOI": "10.1162/EVCO_a_00142",
+          "article-title": "The dynamics of cumulative step size adaptation on the ellipsoid model",
+          "volume": "24",
+          "author": "Beyer",
+          "year": "2016",
+          "journal-title": "Evol. Comput."
+        },
+        {
+          "key": "10.1016/j.swevo.2020.100694_bib64",
+          "series-title": "Procedings of the Parallel Problems Solving from Nature",
+          "first-page": "72",
+          "article-title": "Cumulative step-size adaptation on linear functions",
+          "author": "Chotard",
+          "year": "2012"
+        },
+        {
+          "issue": "4",
+          "key": "10.1016/j.swevo.2020.100694_bib65",
+          "doi-asserted-by": "crossref",
+          "first-page": "611",
+          "DOI": "10.1162/EVCO_a_00166",
+          "article-title": "Markov chain analysis of cumulative step-size adaptation on a linear constrained problem",
+          "volume": "23",
+          "author": "Chotard",
+          "year": "2015",
+          "journal-title": "Evol. Comput."
+        },
+        {
+          "key": "10.1016/j.swevo.2020.100694_bib66",
+          "series-title": "Parameter Setting in Evolutionary Algorithms",
+          "first-page": "47",
+          "article-title": "Self-adaptation in evolutionary algorithms",
+          "author": "Meyer-Nieberg",
+          "year": "2007"
+        },
+        {
+          "issue": "2",
+          "key": "10.1016/j.swevo.2020.100694_bib67",
+          "doi-asserted-by": "crossref",
+          "first-page": "51",
+          "DOI": "10.1007/s12065-010-0035-y",
+          "article-title": "Evolutionary self-adaptation: a survey of operators and strategy parameters",
+          "volume": "3",
+          "author": "Kramer",
+          "year": "2010",
+          "journal-title": "Evol. Intell."
+        },
+        {
+          "issue": "3",
+          "key": "10.1016/j.swevo.2020.100694_bib68",
+          "doi-asserted-by": "crossref",
+          "first-page": "311",
+          "DOI": "10.1162/evco.1995.3.3.311",
+          "article-title": "Toward a theory of evolution strategies: self-adaptation",
+          "volume": "3",
+          "author": "Beyer",
+          "year": "1995",
+          "journal-title": "Evol. Comput."
+        },
+        {
+          "issue": "5",
+          "key": "10.1016/j.swevo.2020.100694_bib69",
+          "doi-asserted-by": "crossref",
+          "first-page": "764",
+          "DOI": "10.1109/TEVC.2013.2283968",
+          "article-title": "The dynamics of self-adaptive multirecombinant evolution strategies on the general ellipsoid model",
+          "volume": "18",
+          "author": "Beyer",
+          "year": "2014",
+          "journal-title": "IEEE Trans. Evol. Comput."
+        },
+        {
+          "key": "10.1016/j.swevo.2020.100694_bib70",
+          "first-page": "60",
+          "article-title": "How to assess step-size adaptation mechanisms in randomised search",
+          "volume": "vol. 8672",
+          "author": "Hansen",
+          "year": "2014"
+        },
+        {
+          "issue": "3",
+          "key": "10.1016/j.swevo.2020.100694_bib71",
+          "doi-asserted-by": "crossref",
+          "first-page": "250",
+          "DOI": "10.1109/4235.930314",
+          "article-title": "On self-adaptive features in real-parameter evolutionary algorithms",
+          "volume": "5",
+          "author": "Beyer",
+          "year": "2001",
+          "journal-title": "IEEE Trans. Evol. Comput."
+        },
+        {
+          "key": "10.1016/j.swevo.2020.100694_bib72",
+          "series-title": "Procedings of the Parallel Problems Solving from Nature",
+          "first-page": "105",
+          "article-title": "On correlated mutations in evolution strategies",
+          "author": "Rudolph",
+          "year": "1992"
+        },
+        {
+          "key": "10.1016/j.swevo.2020.100694_bib73",
+          "series-title": "Proceedings of the Sixth International Conference on Genetic Algorithms",
+          "first-page": "57",
+          "article-title": "On the adaptation of arbitrary normal mutation distributions in evolution strategies: the generating set adaptation",
+          "author": "Hansen",
+          "year": "1995"
+        },
+        {
+          "key": "10.1016/j.swevo.2020.100694_bib74",
+          "series-title": "Procedings of the Parallel Problems Solving from Nature",
+          "first-page": "355",
+          "article-title": "Invariance, self-adaptation and correlated mutations in evolution strategies",
+          "author": "Hansen",
+          "year": "2000"
+        },
+        {
+          "key": "10.1016/j.swevo.2020.100694_bib75",
+          "series-title": "Global Optimization Algorithms – Theory and Application",
+          "author": "Weise",
+          "year": "2009"
+        },
+        {
+          "key": "10.1016/j.swevo.2020.100694_bib76",
+          "series-title": "Procedings of the Genetic and Evolutionary Computation Conference",
+          "isbn-type": "print",
+          "doi-asserted-by": "crossref",
+          "first-page": "385",
+          "DOI": "10.1145/1830483.1830556",
+          "article-title": "Active covariance matrix adaptation for the (1+1)-CMA-ES",
+          "author": "Arnold",
+          "year": "2010",
+          "ISBN": "https://id.crossref.org/isbn/9781450300728"
+        },
+        {
+          "key": "10.1016/j.swevo.2020.100694_bib77",
+          "series-title": "Procedings of the Genetic and Evolutionary Computation Conference",
+          "first-page": "415",
+          "article-title": "A median success rule for non-elitist evolution strategies: study of feasibility",
+          "author": "Ait Elhara",
+          "year": "2013"
+        },
+        {
+          "key": "10.1016/j.swevo.2020.100694_bib78",
+          "series-title": "Procedings of the Genetic and Evolutionary Computation Conference",
+          "first-page": "397",
+          "article-title": "A computationally efficient limited memory CMA-ES for large scale optimization",
+          "author": "Loshchilov",
+          "year": "2014"
+        },
+        {
+          "issue": "5",
+          "key": "10.1016/j.swevo.2020.100694_bib79",
+          "doi-asserted-by": "crossref",
+          "first-page": "637",
+          "DOI": "10.1109/TEVC.2017.2765682",
+          "article-title": "A simple yet efficient evolution strategy for large scale black-box optimization",
+          "volume": "22",
+          "author": "Li",
+          "year": "2018",
+          "journal-title": "IEEE Trans. Evol. Comput."
+        },
+        {
+          "issue": "3",
+          "key": "10.1016/j.swevo.2020.100694_bib80",
+          "doi-asserted-by": "crossref",
+          "first-page": "270",
+          "DOI": "10.1109/TAC.1968.1098903",
+          "article-title": "Adaptive step size random search",
+          "volume": "13",
+          "author": "Schumer",
+          "year": "1968",
+          "journal-title": "Trans. Automat. Contr."
+        },
+        {
+          "issue": "10",
+          "key": "10.1016/j.swevo.2020.100694_bib81",
+          "first-page": "230",
+          "article-title": "Optimized relative step size random searches",
+          "volume": "6",
+          "author": "Schrack",
+          "year": "1976",
+          "journal-title": "Math. Oper. Res."
+        },
+        {
+          "key": "10.1016/j.swevo.2020.100694_bib82",
+          "series-title": "Procedings of the ACM Conference on Foundations of Genetic Algorithms",
+          "first-page": "349",
+          "article-title": "Qualitative and quantitative assessment of step size adaptation rules",
+          "author": "Krause",
+          "year": "2017"
+        },
+        {
+          "key": "10.1016/j.swevo.2020.100694_bib83",
+          "series-title": "Procedings of the Genetic and Evolutionary Computation Conference",
+          "first-page": "1135",
+          "article-title": "Benchmarking IPOP-CMA-ES-TPA and IPOP-CMA-ES-MSR on the BBOB noiseless testbed",
+          "author": "Atamna",
+          "year": "2015"
+        },
+        {
+          "key": "10.1016/j.swevo.2020.100694_bib84",
+          "series-title": "Procedings of the Genetic and Evolutionary Computation Conference",
+          "first-page": "389",
+          "article-title": "Handling sharp ridges with local supremum transformations",
+          "author": "Glasmachers",
+          "year": "2014"
+        },
+        {
+          "key": "10.1016/j.swevo.2020.100694_bib85",
+          "series-title": "Procedings of the Parallel Problems Solving from Nature",
+          "first-page": "367",
+          "article-title": "HappyCat – a simple function class where well-known direct search algorithms do fail",
+          "author": "Beyer",
+          "year": "2012"
+        },
+        {
+          "key": "10.1016/j.swevo.2020.100694_bib86",
+          "first-page": "207",
+          "article-title": "Reproductive isolation as strategy parameter in hierarchically organized evolution strategies",
+          "volume": "vol. 2",
+          "author": "Herdy",
+          "year": "1992"
+        },
+        {
+          "key": "10.1016/j.swevo.2020.100694_bib87",
+          "series-title": "Procedings of the Genetic and Evolutionary Computation Conference",
+          "first-page": "499",
+          "article-title": "On strategy parameter control by meta-ES",
+          "author": "Beyer",
+          "year": "2009"
+        },
+        {
+          "key": "10.1016/j.swevo.2020.100694_bib88",
+          "series-title": "Procedings of the Genetic and Evolutionary Computation Conference",
+          "first-page": "305",
+          "article-title": "Mutation strength control by meta-ES on the sharp ridge",
+          "author": "Beyer",
+          "year": "2012"
+        },
+        {
+          "key": "10.1016/j.swevo.2020.100694_bib89",
+          "doi-asserted-by": "crossref",
+          "first-page": "160",
+          "DOI": "10.1016/j.tcs.2015.12.011",
+          "article-title": "Mutation strength control via meta-evolution strategies on the ellipsoid model",
+          "volume": "623",
+          "author": "Hellwig",
+          "year": "2016",
+          "journal-title": "Theor. Comput. Sci."
+        },
+        {
+          "key": "10.1016/j.swevo.2020.100694_bib90",
+          "series-title": "GECCO'19: Proceedings of the Genetic and Evolutionary Computation Conference",
+          "first-page": "673",
+          "article-title": "Analysis of a meta-ES on a conically constrained problem",
+          "author": "Hellwig",
+          "year": "2019"
+        },
+        {
+          "key": "10.1016/j.swevo.2020.100694_bib91",
+          "series-title": "Theory of Randomized Search Heuristics: Foundations and Recent Developments",
+          "first-page": "289",
+          "article-title": "Theory of evolution strategies: a new perspective",
+          "author": "Auger",
+          "year": "2010"
+        },
+        {
+          "issue": "2",
+          "key": "10.1016/j.swevo.2020.100694_bib92",
+          "doi-asserted-by": "crossref",
+          "first-page": "1284",
+          "DOI": "10.1137/110853613",
+          "article-title": "Optimization of convex functions with random pursuit",
+          "volume": "23",
+          "author": "Stich",
+          "year": "2013",
+          "journal-title": "SIAM J. Optim."
+        },
+        {
+          "issue": "2",
+          "key": "10.1016/j.swevo.2020.100694_bib93",
+          "doi-asserted-by": "crossref",
+          "first-page": "527",
+          "DOI": "10.1007/s10208-015-9296-2",
+          "article-title": "Random gradient-free minimization of convex functions",
+          "volume": "17",
+          "author": "Nesterov",
+          "year": "2017",
+          "journal-title": "Found. Comput. Math."
+        },
+        {
+          "key": "10.1016/j.swevo.2020.100694_bib94",
+          "series-title": "Procedings of the Parallel Problems Solving from Nature",
+          "first-page": "448",
+          "article-title": "On spectral invariance of randomized Hessian and covariance matrix adaptation schemes",
+          "author": "Stich",
+          "year": "2012"
+        },
+        {
+          "key": "10.1016/j.swevo.2020.100694_bib95",
+          "series-title": "Procedings of the Genetic and Evolutionary Computation Conference",
+          "first-page": "450",
+          "article-title": "ES is more than just a traditional finite-difference approximator",
+          "author": "Lehman",
+          "year": "2018"
+        },
+        {
+          "key": "10.1016/j.swevo.2020.100694_bib96",
+          "series-title": "Evolutionary Programming VII: Proceedings of the Seventh Annual Conference on Evolutionary Programming",
+          "first-page": "323",
+          "article-title": "On the “explorative power” of ES/EP-like algorithms",
+          "author": "Beyer",
+          "year": "1998"
+        },
+        {
+          "key": "10.1016/j.swevo.2020.100694_bib97",
+          "first-page": "3381",
+          "article-title": "Natural evolution strategies",
+          "volume": "vol. 15",
+          "author": "Wierstra",
+          "year": "2008"
+        },
+        {
+          "key": "10.1016/j.swevo.2020.100694_bib98",
+          "series-title": "International Conference on Machine Learning",
+          "first-page": "1161",
+          "article-title": "Stochastic search using the natural gradient",
+          "author": "Sun",
+          "year": "2009"
+        },
+        {
+          "key": "10.1016/j.swevo.2020.100694_bib99",
+          "first-page": "949",
+          "article-title": "Natural evolution strategies",
+          "volume": "15",
+          "author": "Wierstra",
+          "year": "2014",
+          "journal-title": "J. Mach. Learn. Res."
+        },
+        {
+          "issue": "2",
+          "key": "10.1016/j.swevo.2020.100694_bib100",
+          "doi-asserted-by": "crossref",
+          "first-page": "251",
+          "DOI": "10.1162/089976698300017746",
+          "article-title": "Natural gradient works efficiently in learning",
+          "volume": "10",
+          "author": "Amari",
+          "year": "1998",
+          "journal-title": "Neural Comput."
+        },
+        {
+          "key": "10.1016/j.swevo.2020.100694_bib101",
+          "author": "Amari",
+          "year": "2000"
+        },
+        {
+          "key": "10.1016/j.swevo.2020.100694_bib102",
+          "series-title": "Procedings of the ACM Conference on Foundations of Genetic Algorithms",
+          "first-page": "150",
+          "article-title": "Information geometry of the Gaussian distribution in view of stochastic optimization",
+          "author": "Malago",
+          "year": "2015"
+        },
+        {
+          "key": "10.1016/j.swevo.2020.100694_bib103",
+          "series-title": "Procedings of the Genetic and Evolutionary Computation Conference",
+          "first-page": "393",
+          "article-title": "Exponential natural evolution strategies",
+          "author": "Glasmachers",
+          "year": "2010"
+        },
+        {
+          "key": "10.1016/j.swevo.2020.100694_bib104",
+          "series-title": "Optimization Algorithms on Matrix Manifolds",
+          "author": "Absil",
+          "year": "2007"
+        },
+        {
+          "key": "10.1016/j.swevo.2020.100694_bib105",
+          "series-title": "Advances in Neural Information Processing Systems",
+          "first-page": "1",
+          "article-title": "Stochastic relaxation as a unifying approach in 0/1 programming",
+          "author": "Malago",
+          "year": "2009"
+        },
+        {
+          "key": "10.1016/j.swevo.2020.100694_bib106",
+          "series-title": "Procedings of the Congress on Evolutionary Computation",
+          "first-page": "486",
+          "article-title": "Natural gradient, fitness modelling and model selection: a unifying perspective",
+          "author": "Malago",
+          "year": "2013"
+        },
+        {
+          "issue": "4",
+          "key": "10.1016/j.swevo.2020.100694_bib107",
+          "doi-asserted-by": "crossref",
+          "first-page": "679",
+          "DOI": "10.1162/EVCO_a_00132",
+          "article-title": "Convergence analysis of evolutionary algorithms that are based on the paradigm of information geometry",
+          "volume": "22",
+          "author": "Beyer",
+          "year": "2014",
+          "journal-title": "Evol. Comput."
+        },
+        {
+          "key": "10.1016/j.swevo.2020.100694_bib108",
+          "first-page": "1",
+          "article-title": "Information-geometric optimization algorithms: a unifying picture via invariance principles",
+          "author": "Ollivier",
+          "year": "2016",
+          "journal-title": "J. Mach. Learn. Res."
+        },
+        {
+          "key": "10.1016/j.swevo.2020.100694_bib109",
+          "series-title": "Procedings of the ACM Conference on Foundations of Genetic Algorithms",
+          "first-page": "1",
+          "article-title": "Objective improvement in information-geometric optimization",
+          "author": "Akimoto",
+          "year": "2013"
+        },
+        {
+          "issue": "1",
+          "key": "10.1016/j.swevo.2020.100694_bib110",
+          "doi-asserted-by": "crossref",
+          "first-page": "304",
+          "DOI": "10.3390/e17010304",
+          "article-title": "Black-box optimization using geodesics in statistical manifolds",
+          "volume": "17",
+          "author": "Bensadon",
+          "year": "2015",
+          "journal-title": "Entropy"
+        },
+        {
+          "key": "10.1016/j.swevo.2020.100694_bib111",
+          "series-title": "Procedings of the Genetic and Evolutionary Computation Conference",
+          "first-page": "657",
+          "article-title": "Deriving and improving CMA-ES with information geometric trust regions",
+          "author": "Abdolmaleki",
+          "year": "2017"
+        },
+        {
+          "key": "10.1016/j.swevo.2020.100694_bib112",
+          "series-title": "Procedings of the Genetic and Evolutionary Computation Conference",
+          "first-page": "329",
+          "article-title": "Natural evolution strategies converge on sphere functions",
+          "author": "Schaul",
+          "year": "2012"
+        },
+        {
+          "key": "10.1016/j.swevo.2020.100694_bib113",
+          "series-title": "Procedings of the Parallel Problems Solving from Nature",
+          "first-page": "42",
+          "article-title": "Convergence of the continuous time trajectories of isotropic evolution strategies on monotonic C2 - composite functions",
+          "author": "Akimoto",
+          "year": "2012"
+        },
+        {
+          "key": "10.1016/j.swevo.2020.100694_bib114",
+          "series-title": "Procedings of the Genetic and Evolutionary Computation Conference",
+          "first-page": "1293",
+          "article-title": "Analysis of a natural gradient algorithm on monotonic convex-quadratic-composite functions",
+          "author": "Akimoto",
+          "year": "2012"
+        },
+        {
+          "key": "10.1016/j.swevo.2020.100694_bib115",
+          "series-title": "Noisy Optimization with Evolution Strategies",
+          "author": "Arnold",
+          "year": "2002"
+        },
+        {
+          "key": "10.1016/j.swevo.2020.100694_bib116",
+          "series-title": "Stochastic Global Optimization",
+          "author": "Zhigljavsky",
+          "year": "2007"
+        },
+        {
+          "issue": "1",
+          "key": "10.1016/j.swevo.2020.100694_bib117",
+          "doi-asserted-by": "crossref",
+          "first-page": "19",
+          "DOI": "10.1287/moor.6.1.19",
+          "article-title": "Minimization by random search techniques",
+          "volume": "6",
+          "author": "Solis",
+          "year": "1981",
+          "journal-title": "Math. Oper. Res."
+        },
+        {
+          "key": "10.1016/j.swevo.2020.100694_bib118",
+          "series-title": "Procedings of the Parallel Problems Solving from Nature",
+          "first-page": "4",
+          "article-title": "Global convergence of genetic algorithms: a Markov chain analysis",
+          "author": "Eiben",
+          "year": "1990"
+        },
+        {
+          "key": "10.1016/j.swevo.2020.100694_bib119",
+          "series-title": "Procedings of the Congress on Evolutionary Computation",
+          "first-page": "63",
+          "article-title": "Convergence of non-elitist strategies",
+          "author": "Rudolph",
+          "year": "1994"
+        },
+        {
+          "key": "10.1016/j.swevo.2020.100694_bib120",
+          "series-title": "Theory of Randomized Search Heuristics: Foundations and Recent Developments",
+          "first-page": "289",
+          "article-title": "Theory of evolution strategies: a new perspective",
+          "author": "Auger",
+          "year": "2011"
+        },
+        {
+          "key": "10.1016/j.swevo.2020.100694_bib121",
+          "series-title": "International Conference on Artificial Evolution",
+          "first-page": "207",
+          "article-title": "Log-linear convergence and optimal bounds for the (1+1)-ES",
+          "author": "Jagerskupper",
+          "year": "2008"
+        },
+        {
+          "issue": "4",
+          "key": "10.1016/j.swevo.2020.100694_bib122",
+          "first-page": "661",
+          "article-title": "On the behaviour of evolution strategies optimising cigar functions",
+          "volume": "18",
+          "author": "Arnold",
+          "year": "2010",
+          "journal-title": "Electron. Commerce"
+        },
+        {
+          "key": "10.1016/j.swevo.2020.100694_bib123",
+          "series-title": "Procedings of the Genetic and Evolutionary Computation Conference",
+          "first-page": "305",
+          "article-title": "Mutation strength control by meta-ES on the sharp ridge",
+          "author": "Beyer",
+          "year": "2012"
+        },
+        {
+          "key": "10.1016/j.swevo.2020.100694_bib124",
+          "series-title": "Procedings of the Genetic and Evolutionary Computation Conference",
+          "first-page": "445",
+          "article-title": "Reconsidering the progress rate theory for evolution strategies in finite dimensions",
+          "author": "Auger",
+          "year": "2006"
+        },
+        {
+          "key": "10.1016/j.swevo.2020.100694_bib125",
+          "series-title": "Procedings of the Parallel Problems Solving from Nature",
+          "first-page": "21",
+          "article-title": "General lower bounds for evolutionary algorithms",
+          "author": "Teytaud",
+          "year": "2006"
+        },
+        {
+          "issue": "3",
+          "key": "10.1016/j.swevo.2020.100694_bib126",
+          "doi-asserted-by": "crossref",
+          "first-page": "387",
+          "DOI": "10.1007/s00453-010-9391-3",
+          "article-title": "Lower bounds for comparison based evolution strategies using VC-dimension and sign patterns",
+          "volume": "59",
+          "author": "Fournier",
+          "year": "2011",
+          "journal-title": "Algorithmica"
+        },
+        {
+          "key": "10.1016/j.swevo.2020.100694_bib127",
+          "series-title": "Procedings of the Genetic and Evolutionary Computation Conference",
+          "first-page": "461",
+          "article-title": "Probabilistic runtime analysis of (1 + λ)-ES using isotropic mutations",
+          "author": "Jagerskupper",
+          "year": "2006"
+        },
+        {
+          "key": "10.1016/j.swevo.2020.100694_bib128",
+          "series-title": "Procedings of the Genetic and Evolutionary Computation Conference",
+          "first-page": "1673",
+          "article-title": "Benchmarking a weighted negative covariance matrix update on the BBOB-2010 noiseless testbed",
+          "author": "Hansen",
+          "year": "2010"
+        },
+        {
+          "issue": "16",
+          "key": "10.1016/j.swevo.2020.100694_bib129",
+          "doi-asserted-by": "crossref",
+          "first-page": "6847",
+          "DOI": "10.1007/s00500-018-03736-z",
+          "article-title": "A multi-recombinative active matrix adaptation evolution strategy for constrained optimization",
+          "volume": "23",
+          "author": "Spettel",
+          "year": "2019",
+          "journal-title": "Soft Comput."
+        },
+        {
+          "key": "10.1016/j.swevo.2020.100694_bib130",
+          "series-title": "Procedings of the Parallel Problems Solving from Nature",
+          "first-page": "11",
+          "article-title": "Mirrored sampling and sequential selection for evolution strategies",
+          "author": "Brockhoff",
+          "year": "2010"
+        },
+        {
+          "key": "10.1016/j.swevo.2020.100694_bib131",
+          "series-title": "Procedings of the Genetic and Evolutionary Computation Conference",
+          "first-page": "861",
+          "article-title": "Mirrored sampling in evolution strategies with weighted recombination",
+          "author": "Auger",
+          "year": "2011"
+        },
+        {
+          "key": "10.1016/j.swevo.2020.100694_bib132",
+          "series-title": "Procedings of the Genetic and Evolutionary Computation Conference",
+          "first-page": "277",
+          "article-title": "On the effect of mirroring in the IPOP active CMA-ES on the noiseless BBOB testbed",
+          "author": "Brockhoff",
+          "year": "2012"
+        },
+        {
+          "key": "10.1016/j.swevo.2020.100694_bib133",
+          "series-title": "Procedings of the Genetic and Evolutionary Computation Conference",
+          "first-page": "305",
+          "article-title": "Sample Reuse in the covariance matrix adaptation evolution strategy based on importance sampling",
+          "author": "Shirakawa",
+          "year": "2015"
+        },
+        {
+          "key": "10.1016/j.swevo.2020.100694_bib134",
+          "series-title": "Sample Reuse via Importance Sampling in Information Geometric Optimization",
+          "author": "Shirakawa",
+          "year": "2018"
+        },
+        {
+          "issue": "5",
+          "key": "10.1016/j.swevo.2020.100694_bib135",
+          "doi-asserted-by": "crossref",
+          "first-page": "490",
+          "DOI": "10.1109/TEVC.2004.835247",
+          "article-title": "Local function approximation in evolutionary algorithms for the optimization of costly functions",
+          "volume": "8",
+          "author": "Regis",
+          "year": "2004",
+          "journal-title": "IEEE Trans. Evol. Comput."
+        },
+        {
+          "key": "10.1016/j.swevo.2020.100694_bib136",
+          "series-title": "Procedings of the Parallel Problems Solving from Nature",
+          "first-page": "364",
+          "article-title": "Comparison-based optimizers need comparison-based surrogates",
+          "author": "Loshchilov",
+          "year": "2010"
+        },
+        {
+          "key": "10.1016/j.swevo.2020.100694_bib137",
+          "series-title": "Procedings of the Genetic and Evolutionary Computation Conference",
+          "first-page": "610",
+          "article-title": "Model-assisted steady-state evolution strategies",
+          "author": "Ulmer",
+          "year": "2003"
+        },
+        {
+          "key": "10.1016/j.swevo.2020.100694_bib138",
+          "series-title": "Procedings of the Genetic and Evolutionary Computation Conference",
+          "first-page": "1143",
+          "article-title": "Benchmarking Gaussian processes and random forests surrogate models on the BBOB noiseless testbed",
+          "author": "Bajer",
+          "year": "2015"
+        },
+        {
+          "key": "10.1016/j.swevo.2020.100694_bib139",
+          "series-title": "Procedings of the Genetic and Evolutionary Computation Conference",
+          "first-page": "321",
+          "article-title": "Self-adaptive surrogate-assisted covariance matrix adaptation evolution strategy",
+          "author": "Loshchilov",
+          "year": "2012"
+        },
+        {
+          "issue": "4",
+          "key": "10.1016/j.swevo.2020.100694_bib140",
+          "doi-asserted-by": "crossref",
+          "first-page": "577",
+          "DOI": "10.1162/evco.2009.17.4.17408",
+          "article-title": "Multi-objective optimization with controlled model assisted evolution strategies",
+          "volume": "17",
+          "author": "Braun",
+          "year": "2009",
+          "journal-title": "Evol. Comput."
+        },
+        {
+          "key": "10.1016/j.swevo.2020.100694_bib141",
+          "series-title": "Proceedings of IEEE International Conference on Tools with Artificial Intelligence",
+          "first-page": "604",
+          "article-title": "Hypervolume-based surrogate model for MO-CMA-ES",
+          "author": "Pilat",
+          "year": "2015"
+        },
+        {
+          "key": "10.1016/j.swevo.2020.100694_bib142",
+          "series-title": "Proceedings of the Genetic and Evolutionary Computation Conference",
+          "first-page": "664",
+          "article-title": "A global surrogate assisted CMA-ES",
+          "author": "Hansen",
+          "year": "2019"
+        },
+        {
+          "key": "10.1016/j.swevo.2020.100694_bib143",
+          "series-title": "Proceedings of the Genetic and Evolutionary Computation Conference",
+          "first-page": "691",
+          "article-title": "Landscape analysis of Gaussian process surrogates for the covariance matrix adaptation evolution strategy",
+          "author": "Pitra",
+          "year": "2019"
+        },
+        {
+          "key": "10.1016/j.swevo.2020.100694_bib144",
+          "series-title": "Procedings of the Genetic and Evolutionary Computation Conference",
+          "first-page": "1622",
+          "article-title": "Overview of surrogate-model versions of covariance matrix adaptation evolution strategy",
+          "author": "Pitra",
+          "year": "2017"
+        },
+        {
+          "key": "10.1016/j.swevo.2020.100694_bib145",
+          "series-title": "Procedings of the Genetic and Evolutionary Computation Conference",
+          "first-page": "313",
+          "article-title": "Algorithm selection based on exploratory landscape analysis and cost-sensitive learning",
+          "author": "Bischl",
+          "year": "2012"
+        },
+        {
+          "key": "10.1016/j.swevo.2020.100694_bib146",
+          "series-title": "Proceedings of the Genetic and Evolutionary Computation Conference",
+          "first-page": "865",
+          "article-title": "PSA-CMA-ES: CMA-ES with population size adaptation",
+          "author": "Nishida",
+          "year": "2018"
+        },
+        {
+          "key": "10.1016/j.swevo.2020.100694_bib147",
+          "series-title": "Procedings of the Parallel Problems Solving from Nature",
+          "first-page": "70",
+          "article-title": "Maximum likelihood-based online adaptation of hyper-parameters in CMA-ES",
+          "author": "Loshchilov",
+          "year": "2014"
+        },
+        {
+          "key": "10.1016/j.swevo.2020.100694_bib148",
+          "first-page": "79",
+          "volume": "vol. 206",
+          "author": "Hutter",
+          "year": "2014"
+        },
+        {
+          "key": "10.1016/j.swevo.2020.100694_bib149",
+          "series-title": "Procedings of the Genetic and Evolutionary Computation Conference",
+          "first-page": "681",
+          "article-title": "Per instance algorithm configuration of CMA-ES with limited budget",
+          "author": "Belkhir",
+          "year": "2017"
+        },
+        {
+          "key": "10.1016/j.swevo.2020.100694_bib150",
+          "series-title": "Procedings of the Parallel Problems Solving from Nature",
+          "first-page": "3",
+          "article-title": "Online model selection for restricted covariance matrix adaptation",
+          "author": "Akimoto",
+          "year": "2016"
+        },
+        {
+          "key": "10.1016/j.swevo.2020.100694_bib151",
+          "series-title": "Procedings of the ACM Conference on Foundations of Genetic Algorithms",
+          "first-page": "11",
+          "article-title": "Controlling population size and mutation strength by meta-ES under fitness noise",
+          "author": "Beyer",
+          "year": "2013"
+        },
+        {
+          "issue": "4",
+          "key": "10.1016/j.swevo.2020.100694_bib152",
+          "doi-asserted-by": "crossref",
+          "first-page": "578",
+          "DOI": "10.1109/TEVC.2011.2169967",
+          "article-title": "On the design of constraint covariance matrix self-adaptation evolution strategies including a cardinality constraint",
+          "volume": "16",
+          "author": "Beyer",
+          "year": "2012",
+          "journal-title": "IEEE Trans. Evol. Comput."
+        },
+        {
+          "key": "10.1016/j.swevo.2020.100694_bib153",
+          "series-title": "Procedings of the Parallel Problems Solving from Nature",
+          "first-page": "282",
+          "article-title": "Evaluating the CMA evolution strategy on multimodal test functions",
+          "author": "Hansen",
+          "year": "2004"
+        },
+        {
+          "key": "10.1016/j.swevo.2020.100694_bib154",
+          "doi-asserted-by": "crossref",
+          "first-page": "51",
+          "DOI": "10.1126/science.275.5296.51",
+          "article-title": "An economic approach to hard computational problems",
+          "volume": "27",
+          "author": "Huberman",
+          "year": "1997",
+          "journal-title": "Science"
+        },
+        {
+          "issue": "1",
+          "key": "10.1016/j.swevo.2020.100694_bib155",
+          "doi-asserted-by": "crossref",
+          "first-page": "60",
+          "DOI": "10.1016/j.parco.2010.08.004",
+          "article-title": "Restart strategies in optimization: parallel and serial cases",
+          "volume": "37",
+          "author": "Shylo",
+          "year": "2011",
+          "journal-title": "Parallel Comput."
+        },
+        {
+          "issue": "5",
+          "key": "10.1016/j.swevo.2020.100694_bib156",
+          "doi-asserted-by": "crossref",
+          "first-page": "2073",
+          "DOI": "10.1109/TCYB.2018.2877641",
+          "article-title": "Fast covariance matrix adaptation for large scale black box optimization",
+          "volume": "50",
+          "author": "Li",
+          "year": "2020",
+          "journal-title": "IEEE Trans. Cybern."
+        },
+        {
+          "key": "10.1016/j.swevo.2020.100694_bib157",
+          "first-page": "1769",
+          "article-title": "A restart CMA evolution strategy with increasing population size",
+          "volume": "vol. 3",
+          "author": "Auger",
+          "year": "2005"
+        },
+        {
+          "key": "10.1016/j.swevo.2020.100694_bib158",
+          "first-page": "296",
+          "article-title": "Alternative restart strategies for CMA-ES",
+          "volume": "vol. 3",
+          "author": "Loshchilov",
+          "year": "2012"
+        },
+        {
+          "key": "10.1016/j.swevo.2020.100694_bib159",
+          "series-title": "IEEE Congress on Evolutionary Computation",
+          "first-page": "158",
+          "article-title": "Novelty-based restarts for evolution strategies",
+          "author": "Cuccu",
+          "year": "2011"
+        },
+        {
+          "issue": "4",
+          "key": "10.1016/j.swevo.2020.100694_bib160",
+          "doi-asserted-by": "crossref",
+          "first-page": "173",
+          "DOI": "10.1016/0020-0190(93)90029-9",
+          "article-title": "Optimal speedup of Las Vegas algorithms",
+          "volume": "47",
+          "author": "Luby",
+          "year": "1993",
+          "journal-title": "Inf. Process. Lett."
+        },
+        {
+          "key": "10.1016/j.swevo.2020.100694_bib161",
+          "series-title": "Procedings of the Parallel Problems Solving from Nature",
+          "first-page": "296",
+          "article-title": "A simple modification in CMA-ES achieving linear time and space complexity",
+          "author": "Ros",
+          "year": "2008"
+        },
+        {
+          "key": "10.1016/j.swevo.2020.100694_bib162",
+          "series-title": "Procedings of the Genetic and Evolutionary Computation Conference",
+          "first-page": "845",
+          "article-title": "High dimensions and heavy tails for natural evolution strategies",
+          "author": "Schaul",
+          "year": "2011"
+        },
+        {
+          "key": "10.1016/j.swevo.2020.100694_bib163",
+          "series-title": "Australasian Conference on Artificial Intelligence",
+          "first-page": "303",
+          "article-title": "A comparative study of CMA-ES on large scale global optimisation",
+          "author": "Omidvar",
+          "year": "2010"
+        },
+        {
+          "key": "10.1016/j.swevo.2020.100694_bib164",
+          "series-title": "Procedings of the Genetic and Evolutionary Computation Conference",
+          "first-page": "1050",
+          "article-title": "Main vector adaptation: a CMA variant with linear time and space complexity",
+          "author": "Poland",
+          "year": "2001"
+        },
+        {
+          "key": "10.1016/j.swevo.2020.100694_bib165",
+          "series-title": "Procedings of the Genetic and Evolutionary Computation Conference",
+          "first-page": "61",
+          "article-title": "A linear time natural evolution strategy for non-separable functions",
+          "author": "Sun",
+          "year": "2013"
+        },
+        {
+          "key": "10.1016/j.swevo.2020.100694_bib166",
+          "series-title": "Procedings of the Genetic and Evolutionary Computation Conference",
+          "first-page": "658",
+          "article-title": "Reducing the space-time complexity of the CMA-ES",
+          "author": "Knight",
+          "year": "2007"
+        },
+        {
+          "issue": "1",
+          "key": "10.1016/j.swevo.2020.100694_bib167",
+          "doi-asserted-by": "crossref",
+          "first-page": "143",
+          "DOI": "10.1162/EVCO_a_00168",
+          "article-title": "LM-CMA: an alternative to L-BFGS for large-scale black box optimization",
+          "volume": "25",
+          "author": "Loshchilov",
+          "year": "2017",
+          "journal-title": "Evol. Comput.",
+          "ISSN": "https://id.crossref.org/issn/1063-6560",
+          "issn-type": "print"
+        },
+        {
+          "issue": "3",
+          "key": "10.1016/j.swevo.2020.100694_bib168",
+          "doi-asserted-by": "crossref",
+          "first-page": "503",
+          "DOI": "10.1007/BF01589116",
+          "article-title": "On the limited memory BFGS method for large scale optimization",
+          "volume": "45",
+          "author": "Liu",
+          "year": "1989",
+          "journal-title": "Math. Program."
+        },
+        {
+          "issue": "2",
+          "key": "10.1016/j.swevo.2020.100694_bib169",
+          "doi-asserted-by": "crossref",
+          "first-page": "353",
+          "DOI": "10.1109/TEVC.2018.2855049",
+          "article-title": "Large scale black-box optimization by limited-memory matrix adaptation",
+          "volume": "23",
+          "author": "Loshchilov",
+          "year": "2019",
+          "journal-title": "IEEE Trans. Evol. Comput."
+        },
+        {
+          "key": "10.1016/j.swevo.2020.100694_bib170",
+          "series-title": "2019 IEEE Congress on Evolutionary Computation (CEC)",
+          "first-page": "936",
+          "article-title": "An efficient elitist covariance matrix adaptation for continuous local search in high dimension",
+          "author": "Li",
+          "year": "2019"
+        },
+        {
+          "key": "10.1016/j.swevo.2020.100694_bib171",
+          "series-title": "Procedings of the Genetic and Evolutionary Computation Conference",
+          "first-page": "373",
+          "article-title": "Comparison-based natural gradient optimization in high dimension",
+          "author": "Akimoto",
+          "year": "2014"
+        },
+        {
+          "key": "10.1016/j.swevo.2020.100694_bib172",
+          "series-title": "Procedings of the Genetic and Evolutionary Computation Conference",
+          "first-page": "197",
+          "article-title": "Projection-based restricted covariance matrix adaptation for high dimension",
+          "author": "Akimoto",
+          "year": "2016"
+        },
+        {
+          "key": "10.1016/j.swevo.2020.100694_bib173",
+          "first-page": "1",
+          "article-title": "Diagonal acceleration for covariance matrix adaptation evolution strategies",
+          "author": "Akimoto",
+          "year": "2020",
+          "journal-title": "Evol. Comput."
+        },
+        {
+          "issue": "C",
+          "key": "10.1016/j.swevo.2020.100694_bib174",
+          "doi-asserted-by": "crossref",
+          "first-page": "407",
+          "DOI": "10.1016/j.ins.2014.10.042",
+          "article-title": "Metaheuristics in large-scale global continues optimization",
+          "volume": "295",
+          "author": "Mahdavi",
+          "year": "2015",
+          "journal-title": "Inf. Sci."
+        },
+        {
+          "key": "10.1016/j.swevo.2020.100694_bib175",
+          "series-title": "Intelligent Data Engineering and Automated Learning",
+          "first-page": "350",
+          "article-title": "Scaling up covariance matrix adaptation evolution strategy using cooperative coevolution",
+          "author": "Liu",
+          "year": "2013"
+        },
+        {
+          "issue": "2",
+          "key": "10.1016/j.swevo.2020.100694_bib176",
+          "doi-asserted-by": "crossref",
+          "first-page": "13:1",
+          "DOI": "10.1145/2791291",
+          "article-title": "A competitive divide-and-conquer algorithm for unconstrained large-scale black-box optimization",
+          "volume": "42",
+          "author": "Mei",
+          "year": "2016",
+          "journal-title": "ACM Trans. Math Software"
+        },
+        {
+          "issue": "5",
+          "key": "10.1016/j.swevo.2020.100694_bib177",
+          "doi-asserted-by": "crossref",
+          "first-page": "647",
+          "DOI": "10.1109/TEVC.2017.2778089",
+          "article-title": "A recursive decomposition method for large scale continuous optimization",
+          "volume": "22",
+          "author": "Sun",
+          "year": "2018",
+          "journal-title": "IEEE Trans. Evol. Comput."
+        },
+        {
+          "key": "10.1016/j.swevo.2020.100694_bib178",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1016/j.swevo.2019.100627",
+          "article-title": "Handling bound constraints in CMA-ES: an experimental study",
+          "volume": "52",
+          "author": "Biedrzycki",
+          "year": "2020",
+          "journal-title": "Swarm Evol. Comput."
+        },
+        {
+          "key": "10.1016/j.swevo.2020.100694_bib179",
+          "doi-asserted-by": "crossref",
+          "first-page": "927",
+          "DOI": "10.1016/j.swevo.2018.10.002",
+          "article-title": "Benchmarking evolutionary algorithms for single objective real-valued constrained optimization – a critical review",
+          "volume": "44",
+          "author": "Hellwig",
+          "year": "2019",
+          "journal-title": "Swarm Evol. Comput."
+        },
+        {
+          "key": "10.1016/j.swevo.2020.100694_bib180",
+          "first-page": "612",
+          "article-title": "An alternative constraint handling method for evolution strategies",
+          "volume": "vol. 1",
+          "author": "Oyman",
+          "year": "1999"
+        },
+        {
+          "issue": "10",
+          "key": "10.1016/j.swevo.2020.100694_bib181",
+          "doi-asserted-by": "crossref",
+          "first-page": "2398",
+          "DOI": "10.1016/j.cor.2013.03.013",
+          "article-title": "An adaptive penalty based covariance matrix adaptation-evolution strategy",
+          "volume": "40",
+          "author": "Kusakci",
+          "year": "2013",
+          "journal-title": "Computers OR"
+        },
+        {
+          "key": "10.1016/j.swevo.2020.100694_bib182",
+          "series-title": "Expert Systems with Applications",
+          "first-page": "385",
+          "article-title": "A modified Covariance Matrix Adaptation Evolution Strategy with adaptive penalty function and restart for constrained optimization",
+          "author": "Arnold",
+          "year": "2010"
+        },
+        {
+          "key": "10.1016/j.swevo.2020.100694_bib183",
+          "series-title": "Advances in Neural Information Processing Systems",
+          "first-page": "2080",
+          "article-title": "Robust principal component analysis: exact recovery of corrupted low-rank matrices via convex optimization",
+          "author": "Wright",
+          "year": "2009"
+        },
+        {
+          "key": "10.1016/j.swevo.2020.100694_bib184",
+          "series-title": "Procedings of the Genetic and Evolutionary Computation Conference",
+          "first-page": "249",
+          "article-title": "Towards an augmented Lagrangian constraint handling approach for the (1+1)-ES",
+          "author": "Arnold",
+          "year": "2015"
+        },
+        {
+          "key": "10.1016/j.swevo.2020.100694_bib185",
+          "series-title": "Procedings of the Parallel Problems Solving from Nature",
+          "first-page": "192",
+          "article-title": "An active-set evolution strategy for optimization with known constraints",
+          "author": "Arnold",
+          "year": "2016"
+        },
+        {
+          "key": "10.1016/j.swevo.2020.100694_bib186",
+          "series-title": "Procedings of the Parallel Problems Solving from Nature",
+          "first-page": "272",
+          "article-title": "Viability principles for constrained optimization using a (1+1)-CMA-ES",
+          "author": "Maesani",
+          "year": "2014"
+        },
+        {
+          "key": "10.1016/j.swevo.2020.100694_bib187",
+          "series-title": "Procedings of the Genetic and Evolutionary Computation Conference",
+          "first-page": "213",
+          "article-title": "Analysis of linear convergence of a (1 + 1)-ES with augmented Lagrangian constraint handling",
+          "author": "Atamna",
+          "year": "2016"
+        },
+        {
+          "issue": "3",
+          "key": "10.1016/j.swevo.2020.100694_bib188",
+          "doi-asserted-by": "crossref",
+          "first-page": "175",
+          "DOI": "10.1016/j.cosrev.2009.07.001",
+          "article-title": "A survey of repair methods used as constraint handling techniques in evolutionary algorithms",
+          "volume": "3",
+          "author": "Salcedo-Sanz",
+          "year": "2009",
+          "journal-title": "Comput. Sci. Rev."
+        },
+        {
+          "key": "10.1016/j.swevo.2020.100694_bib189",
+          "series-title": "Procedings of the Genetic and Evolutionary Computation Conference",
+          "first-page": "297",
+          "article-title": "A (1+1)-CMA-ES for constrained optimisation",
+          "author": "Arnold",
+          "year": "2012"
+        },
+        {
+          "issue": "3",
+          "key": "10.1016/j.swevo.2020.100694_bib190",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1109/TEVC.2018.2871944",
+          "article-title": "A covariance matrix self-adaptation evolution strategy for optimization under linear constraints",
+          "volume": "23",
+          "author": "Spettel",
+          "year": "2019",
+          "journal-title": "IEEE Trans. Evol. Comput."
+        },
+        {
+          "issue": "4",
+          "key": "10.1016/j.swevo.2020.100694_bib191",
+          "doi-asserted-by": "crossref",
+          "first-page": "173",
+          "DOI": "10.1016/j.swevo.2011.10.001",
+          "article-title": "Constraint-handling in nature-inspired numerical optimization: past, present and future",
+          "volume": "1",
+          "author": "Mezura-Montes",
+          "year": "2011",
+          "journal-title": "Swarm Evol. Comput."
+        },
+        {
+          "issue": "4",
+          "key": "10.1016/j.swevo.2020.100694_bib192",
+          "doi-asserted-by": "crossref",
+          "first-page": "561",
+          "DOI": "10.1109/TEVC.2009.2033582",
+          "article-title": "Ensemble of constraint handling techniques",
+          "volume": "14",
+          "author": "Mallipeddi",
+          "year": "2010",
+          "journal-title": "IEEE Trans. Evol. Comput."
+        },
+        {
+          "key": "10.1016/j.swevo.2020.100694_bib193",
+          "series-title": "Proceedings of the WCCI'18 Conference",
+          "first-page": "749",
+          "article-title": "A matrix adaptation evolution strategy for constrained real-parameter optimization",
+          "author": "Hellwig",
+          "year": "2018"
+        },
+        {
+          "key": "10.1016/j.swevo.2020.100694_bib194",
+          "series-title": "Proceedings of the WCCI'06 Conference",
+          "first-page": "4489",
+          "article-title": "Evolution strategies for robust optimization",
+          "author": "Beyer",
+          "year": "2006"
+        },
+        {
+          "key": "10.1016/j.swevo.2020.100694_bib195",
+          "series-title": "First IEEE Symposium on Foundations of Computational Intelligence",
+          "article-title": "Evolutionary algorithms in the presence of noise: to sample or not to sample",
+          "author": "Beyer",
+          "year": "2007"
+        },
+        {
+          "key": "10.1016/j.swevo.2020.100694_bib196",
+          "series-title": "Procedings of the Genetic and Evolutionary Computation Conference",
+          "first-page": "1211",
+          "article-title": "Uncertainty handling CMA-ES for reinforcement learning",
+          "author": "Heidrich-Meisner",
+          "year": "2009"
+        },
+        {
+          "key": "10.1016/j.swevo.2020.100694_bib197",
+          "series-title": "Foundations of Genetic Algorithms",
+          "first-page": "307",
+          "article-title": "On the behavior of (μ/μI, λ)-ES optimizing functions disturbed by generalized noise",
+          "author": "Beyer",
+          "year": "2003"
+        },
+        {
+          "key": "10.1016/j.swevo.2020.100694_bib198",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1016/j.tcs.2018.05.016",
+          "article-title": "On the steady state analysis of covariance matrix self-adaptation evolution strategies on the noisy ellipsoid model",
+          "author": "Hellwig",
+          "year": "2020",
+          "journal-title": "Early Access Theor. Comput. Sci."
+        },
+        {
+          "issue": "3",
+          "key": "10.1016/j.swevo.2020.100694_bib199",
+          "doi-asserted-by": "crossref",
+          "first-page": "291",
+          "DOI": "10.1162/evco.2006.14.3.291",
+          "article-title": "Optimum tracking with evolution strategies",
+          "volume": "14",
+          "author": "Arnold",
+          "year": "2006",
+          "journal-title": "Evol. Comput."
+        },
+        {
+          "key": "10.1016/j.swevo.2020.100694_bib200",
+          "first-page": "51",
+          "article-title": "Evolution strategies in dynamic environments",
+          "volume": "vol. 51",
+          "author": "Schónemann",
+          "year": "2007"
+        },
+        {
+          "key": "10.1016/j.swevo.2020.100694_bib201",
+          "series-title": "International Conference on Learning Theory, NJ",
+          "first-page": "3",
+          "article-title": "On the complexity of bandit and derivative-free stochastic convex optimization",
+          "author": "Shamir",
+          "year": "2013"
+        },
+        {
+          "key": "10.1016/j.swevo.2020.100694_bib202",
+          "series-title": "Procedings of the Genetic and Evolutionary Computation Conference",
+          "first-page": "689",
+          "article-title": "Analysis of the pcCMSA-ES on the noisy ellipsoid model",
+          "author": "Beyer",
+          "year": "2017"
+        },
+        {
+          "issue": "5",
+          "key": "10.1016/j.swevo.2020.100694_bib203",
+          "doi-asserted-by": "crossref",
+          "first-page": "1129",
+          "DOI": "10.1108/03321640910969395",
+          "article-title": "Parallel implementation of evolution strategy optimization algorithm on multicore processors",
+          "volume": "28",
+          "author": "Ivanov",
+          "year": "2009",
+          "journal-title": "Int. J. Comput. Math. Electr. Electron. Eng."
+        },
+        {
+          "key": "10.1016/j.swevo.2020.100694_bib204",
+          "author": "Khan"
+        },
+        {
+          "key": "10.1016/j.swevo.2020.100694_bib205",
+          "series-title": "Procedings of the Genetic and Evolutionary Computation Conference",
+          "first-page": "431",
+          "article-title": "A natural evolution strategy with asynchronous strategy updates",
+          "author": "Glasmachers",
+          "year": "2013"
+        },
+        {
+          "key": "10.1016/j.swevo.2020.100694_bib206",
+          "series-title": "International Conference on Machine Learning and Applications",
+          "first-page": "563",
+          "article-title": "An asynchronous implementation of the limited memory CMA-ES",
+          "author": "Arkhipov",
+          "year": "2015"
+        },
+        {
+          "key": "10.1016/j.swevo.2020.100694_bib207",
+          "series-title": "Evolutionary Algorithms for Solving Multi-Objective Problems",
+          "author": "Coello",
+          "year": "2006"
+        },
+        {
+          "issue": "2",
+          "key": "10.1016/j.swevo.2020.100694_bib208",
+          "doi-asserted-by": "crossref",
+          "first-page": "182",
+          "DOI": "10.1109/4235.996017",
+          "article-title": "A fast and elitist multiobjective genetic algorithm: NSGA-II",
+          "volume": "6",
+          "author": "Deb",
+          "year": "2002",
+          "journal-title": "IEEE Trans. Evol. Comput.",
+          "ISSN": "https://id.crossref.org/issn/1089-778X",
+          "issn-type": "print"
+        },
+        {
+          "issue": "6",
+          "key": "10.1016/j.swevo.2020.100694_bib209",
+          "doi-asserted-by": "crossref",
+          "first-page": "712",
+          "DOI": "10.1109/TEVC.2007.892759",
+          "article-title": "MOEA/D: a multiobjective evolutionary algorithm based on decomposition",
+          "volume": "11",
+          "author": "Zhang",
+          "year": "2007",
+          "journal-title": "IEEE Trans. Evol. Comput."
+        },
+        {
+          "key": "10.1016/j.swevo.2020.100694_bib210",
+          "series-title": "Proceedings of the First International Conference on Evolutionary Multi-Criterion Optimization",
+          "first-page": "96",
+          "article-title": "Adapting weighted aggregation for multiobjective evolution strategies",
+          "author": "Jin",
+          "year": "2001"
+        },
+        {
+          "key": "10.1016/j.swevo.2020.100694_bib211",
+          "doi-asserted-by": "crossref",
+          "first-page": "1",
+          "DOI": "10.1162/evco.2007.15.1.1",
+          "article-title": "Covariance matrix adaptation for multi-objective optimization",
+          "volume": "15",
+          "author": "Igel",
+          "year": "2007",
+          "journal-title": "Evol. Comput."
+        },
+        {
+          "issue": "1",
+          "key": "10.1016/j.swevo.2020.100694_bib212",
+          "doi-asserted-by": "crossref",
+          "first-page": "52",
+          "DOI": "10.1109/TCYB.2015.2507366",
+          "article-title": "Biased multiobjective optimization and decomposition algorithm",
+          "volume": "47",
+          "author": "Li",
+          "year": "2017",
+          "journal-title": "IEEE Trans. Cybern."
+        },
+        {
+          "issue": "1",
+          "key": "10.1016/j.swevo.2020.100694_bib213",
+          "doi-asserted-by": "crossref",
+          "first-page": "41",
+          "DOI": "10.1109/TEVC.2007.894202",
+          "article-title": "RM-MEDA: a regularity model-based multiobjective estimation of distribution algorithm",
+          "volume": "12",
+          "author": "Zhang",
+          "year": "2008",
+          "journal-title": "IEEE Trans. Evol. Comput."
+        },
+        {
+          "key": "10.1016/j.swevo.2020.100694_bib214",
+          "series-title": "High-Dimensional Probability: an Introduction with Applications in Data Science",
+          "author": "Vershynin",
+          "year": "2018"
+        },
+        {
+          "issue": "8",
+          "key": "10.1016/j.swevo.2020.100694_bib215",
+          "doi-asserted-by": "crossref",
+          "first-page": "5755",
+          "DOI": "10.1016/j.asoc.2011.03.001",
+          "article-title": "Impacts of invariance in search: when CMA-ES and PSO face ill-conditioned and non-separable problems",
+          "volume": "11",
+          "author": "Hansen",
+          "year": "2011",
+          "journal-title": "Appl. Soft Comput."
+        },
+        {
+          "key": "10.1016/j.swevo.2020.100694_bib216",
+          "series-title": "Procedings of the Parallel Problems Solving from Nature",
+          "first-page": "205",
+          "article-title": "Adaptive encoding: how to render search coordinate system invariant",
+          "author": "Hansen",
+          "year": "2008"
+        },
+        {
+          "key": "10.1016/j.swevo.2020.100694_bib217",
+          "series-title": "Procedings of the Genetic and Evolutionary Computation Conference",
+          "first-page": "885",
+          "article-title": "Adaptive coordinate descent",
+          "author": "Loshchilov",
+          "year": "2011"
+        },
+        {
+          "issue": "4",
+          "key": "10.1016/j.swevo.2020.100694_bib218",
+          "doi-asserted-by": "crossref",
+          "first-page": "1403",
+          "DOI": "10.1109/TCYB.2018.2802912",
+          "article-title": "An adaptive framework to tune the coordinate systems in nature-inspired optimization algorithms",
+          "volume": "49",
+          "author": "Liu",
+          "year": "2019",
+          "journal-title": "IEEE Trans. Cybern."
+        },
+        {
+          "issue": "1",
+          "key": "10.1016/j.swevo.2020.100694_bib219",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1109/TEVC.2019.2907266",
+          "article-title": "Towards a matrix-free covariance matrix adaptation evolution strategy",
+          "volume": "24",
+          "author": "Arabas",
+          "year": "2020",
+          "journal-title": "IEEE Trans. Evol. Comput."
+        },
+        {
+          "key": "10.1016/j.swevo.2020.100694_bib220",
+          "series-title": "Procedings of the Parallel Problems Solving from Nature",
+          "first-page": "130",
+          "article-title": "On low complexity acceleration techniques for randomized optimization",
+          "author": "Stich",
+          "year": "2014"
+        },
+        {
+          "issue": "3",
+          "key": "10.1016/j.swevo.2020.100694_bib221",
+          "doi-asserted-by": "crossref",
+          "first-page": "329",
+          "DOI": "10.1080/02331930903100141",
+          "article-title": "Randomized Hessian estimation and directional search",
+          "volume": "60",
+          "author": "Leventhal",
+          "year": "2011",
+          "journal-title": "Optimization"
+        },
+        {
+          "issue": "1",
+          "key": "10.1016/j.swevo.2020.100694_bib222",
+          "doi-asserted-by": "crossref",
+          "first-page": "549",
+          "DOI": "10.1007/s10107-015-0908-z",
+          "article-title": "Variable metric random pursuit",
+          "volume": "156",
+          "author": "Stich",
+          "year": "2016",
+          "journal-title": "Math. Program."
+        },
+        {
+          "issue": "7553",
+          "key": "10.1016/j.swevo.2020.100694_bib223",
+          "doi-asserted-by": "crossref",
+          "first-page": "476",
+          "DOI": "10.1038/nature14544",
+          "article-title": "From evolutionary computation to the evolution of things",
+          "volume": "521",
+          "author": "Eiben",
+          "year": "2015",
+          "journal-title": "Nature"
+        },
+        {
+          "key": "10.1016/j.swevo.2020.100694_bib224",
+          "series-title": "Springer Handbook of Computational Intelligence",
+          "year": "2015"
+        },
+        {
+          "key": "10.1016/j.swevo.2020.100694_bib225",
+          "doi-asserted-by": "crossref",
+          "first-page": "220",
+          "DOI": "10.1016/j.swevo.2019.04.008",
+          "article-title": "Bio-inspired computation: where we stand and what's next",
+          "volume": "48",
+          "author": "Del Ser",
+          "year": "2019",
+          "journal-title": "Swarm Evol. Comput."
+        },
+        {
+          "issue": "4",
+          "key": "10.1016/j.swevo.2020.100694_bib226",
+          "doi-asserted-by": "crossref",
+          "first-page": "341",
+          "DOI": "10.1023/A:1008202821328",
+          "article-title": "Differential evolution - a simple and efficient heuristic for global optimization over continuous spaces",
+          "volume": "11",
+          "author": "Storn",
+          "year": "1997",
+          "journal-title": "J. Global Optim."
+        },
+        {
+          "issue": "6",
+          "key": "10.1016/j.swevo.2020.100694_bib227",
+          "doi-asserted-by": "crossref",
+          "first-page": "646",
+          "DOI": "10.1109/TEVC.2006.872133",
+          "article-title": "Self-adapting control parameters in differential evolution: a comparative study on numerical benchmark problems",
+          "volume": "10",
+          "author": "Brest",
+          "year": "2006",
+          "journal-title": "IEEE Trans. Evol. Comput."
+        },
+        {
+          "key": "10.1016/j.swevo.2020.100694_bib228",
+          "doi-asserted-by": "crossref",
+          "first-page": "94",
+          "DOI": "10.1016/j.ins.2014.03.105",
+          "article-title": "Population-based Algorithm Portfolios with automated constituent algorithms selection",
+          "volume": "279",
+          "author": "Tang",
+          "year": "2014",
+          "journal-title": "Inf. Sci."
+        },
+        {
+          "issue": "1",
+          "key": "10.1016/j.swevo.2020.100694_bib229",
+          "doi-asserted-by": "crossref",
+          "first-page": "4",
+          "DOI": "10.1109/TEVC.2010.2059031",
+          "article-title": "Differential evolution: a survey of the state-of-the-art",
+          "volume": "15",
+          "author": "Das",
+          "year": "2011",
+          "journal-title": "IEEE Trans. Evol. Comput."
+        },
+        {
+          "key": "10.1016/j.swevo.2020.100694_bib230",
+          "series-title": "IEEE Symposium on Differential Evolution",
+          "first-page": "193",
+          "article-title": "A differential covariance matrix adaptation evolutionary algorithm for global optimization",
+          "author": "Ghosh",
+          "year": "2011"
+        },
+        {
+          "key": "10.1016/j.swevo.2020.100694_bib231",
+          "doi-asserted-by": "crossref",
+          "first-page": "227",
+          "DOI": "10.1016/j.asoc.2017.11.050",
+          "article-title": "Enhancing the performance of differential evolution with covariance matrix self-adaptation",
+          "volume": "64",
+          "author": "He",
+          "year": "2018",
+          "journal-title": "Appl. Soft Comput."
+        },
+        {
+          "issue": "1",
+          "key": "10.1016/j.swevo.2020.100694_bib232",
+          "doi-asserted-by": "crossref",
+          "first-page": "1",
+          "DOI": "10.1162/EVCO_r_00180",
+          "article-title": "Particle swarm optimization for single objective continuous space problems: a review",
+          "volume": "25",
+          "author": "Bonyadi",
+          "year": "2017",
+          "journal-title": "Evol. Comput."
+        },
+        {
+          "key": "10.1016/j.swevo.2020.100694_bib233",
+          "series-title": "Estimation of Distribution Algorithms: A New Tool for Evolutionary Computation",
+          "author": "Larraanaga",
+          "year": "2001"
+        },
+        {
+          "key": "10.1016/j.swevo.2020.100694_bib234",
+          "series-title": "Towards an New Evolutionary Computation: Advances on Estimation of Distribution Algorithms",
+          "year": "2006"
+        },
+        {
+          "issue": "3",
+          "key": "10.1016/j.swevo.2020.100694_bib235",
+          "doi-asserted-by": "crossref",
+          "first-page": "1247",
+          "DOI": "10.1007/s10898-012-9951-y",
+          "article-title": "Derivative-free optimization: a review of algorithms and comparison of software implementations",
+          "volume": "56",
+          "author": "Rios",
+          "year": "2013",
+          "journal-title": "J. Global Optim."
+        },
+        {
+          "issue": "1",
+          "key": "10.1016/j.swevo.2020.100694_bib236",
+          "doi-asserted-by": "crossref",
+          "first-page": "3",
+          "DOI": "10.1007/s10107-015-0892-3",
+          "article-title": "Coordinate descent algorithms",
+          "volume": "151",
+          "author": "Wright",
+          "year": "2015",
+          "journal-title": "Math. Program."
+        },
+        {
+          "key": "10.1016/j.swevo.2020.100694_bib237",
+          "series-title": "Practical Methods of Optimization",
+          "isbn-type": "print",
+          "author": "Fletcher",
+          "year": "1987",
+          "ISBN": "https://id.crossref.org/isbn/0471915475"
+        },
+        {
+          "issue": "2",
+          "key": "10.1016/j.swevo.2020.100694_bib238",
+          "doi-asserted-by": "crossref",
+          "first-page": "341",
+          "DOI": "10.1137/100802001",
+          "article-title": "Efficiency of coordinate descent methods on huge-scale optimization problems",
+          "volume": "22",
+          "author": "Nesterov",
+          "year": "2012",
+          "journal-title": "SIAM J. Optim."
+        },
+        {
+          "key": "10.1016/j.swevo.2020.100694_bib239",
+          "series-title": "Introduction to Derivative-free Optimization",
+          "author": "Conn",
+          "year": "2009"
+        },
+        {
+          "issue": "3",
+          "key": "10.1016/j.swevo.2020.100694_bib240",
+          "doi-asserted-by": "crossref",
+          "first-page": "555",
+          "DOI": "10.1007/s101070100290",
+          "article-title": "UOBYQA: unconstrained optimization by quadratic approximation",
+          "volume": "92",
+          "author": "Powell",
+          "year": "2002",
+          "journal-title": "Math. Program."
+        },
+        {
+          "key": "10.1016/j.swevo.2020.100694_bib241",
+          "series-title": "The NEWUOA Software for Unconstrained Optimization without Derivatives",
+          "first-page": "255",
+          "author": "Powell",
+          "year": "2006"
+        },
+        {
+          "key": "10.1016/j.swevo.2020.100694_bib242",
+          "series-title": "Trust-region Methods",
+          "isbn-type": "print",
+          "author": "Conn",
+          "year": "2000",
+          "ISBN": "https://id.crossref.org/isbn/0898714605"
+        },
+        {
+          "key": "10.1016/j.swevo.2020.100694_bib243",
+          "series-title": "Problem Definitions and Evaluation Criteria for the CEC'2005 Special Session on Real-Parameter Optimization",
+          "author": "Suganthan",
+          "year": "2005"
+        },
+        {
+          "key": "10.1016/j.swevo.2020.100694_bib244",
+          "series-title": "Real-parameter Black-Box Optimization Benchmarking 2010: Noiseless Function Definitions",
+          "author": "Hansen",
+          "year": "2010"
+        },
+        {
+          "key": "10.1016/j.swevo.2020.100694_bib245",
+          "series-title": "Problem Definition and Evaluation Criteria for CEC 2015 Special Session and Competition on Bound Constrained Single-Objective Computationally Expensive Numerical Optimization",
+          "author": "Chen",
+          "year": "2014"
+        },
+        {
+          "key": "10.1016/j.swevo.2020.100694_bib246",
+          "series-title": "Multiobjective Optimization Test Instances for the CEC 2009 Special Session and Competition",
+          "author": "Li",
+          "year": "2013"
+        },
+        {
+          "key": "10.1016/j.swevo.2020.100694_bib247",
+          "doi-asserted-by": "crossref",
+          "first-page": "104",
+          "DOI": "10.1016/j.swevo.2019.02.003",
+          "article-title": "Comparison between MOEA/D and NSGA-III on a set of novel many and multi-objective benchmark problems with challenging difficulties",
+          "volume": "46",
+          "author": "Li",
+          "year": "2019",
+          "journal-title": "Swarm Evol. Comput."
+        },
+        {
+          "key": "10.1016/j.swevo.2020.100694_bib248",
+          "series-title": "Benchmark Functions for the CEC'2010 Special Session and Competition on Large-Scale Global Optimization",
+          "author": "Tang",
+          "year": "2009"
+        },
+        {
+          "key": "10.1016/j.swevo.2020.100694_bib249",
+          "series-title": "Benchmark Functions for the CEC'2013 Special Session and Competition on Large-Scale Global Optimization",
+          "author": "Li",
+          "year": "2013"
+        },
+        {
+          "key": "10.1016/j.swevo.2020.100694_bib250",
+          "series-title": "Procedings of the Congress on Evolutionary Computation",
+          "first-page": "1835",
+          "article-title": "Improving the local search capability of effective butterfly optimizer using covariance matrix adapted retreat phase",
+          "author": "Kumar",
+          "year": "2017"
+        },
+        {
+          "key": "10.1016/j.swevo.2020.100694_bib251",
+          "series-title": "Procedings of the Congress on Evolutionary Computation",
+          "first-page": "1311",
+          "article-title": "Single objective real-parameter optimization: algorithm jSO",
+          "author": "Brest",
+          "year": "2017"
+        },
+        {
+          "key": "10.1016/j.swevo.2020.100694_bib252",
+          "series-title": "Procedings of the Congress on Evolutionary Computation",
+          "first-page": "145",
+          "article-title": "LSHADE with semi-parameter adaptation hybrid with CMA-ES for solving CEC 2017 benchmark problems",
+          "author": "Mohamed",
+          "year": "2017"
+        },
+        {
+          "key": "10.1016/j.swevo.2020.100694_bib253",
+          "series-title": "Fast Approximation of Rotations and Hessians Matrices",
+          "author": "Mathieu",
+          "year": "2014"
+        },
+        {
+          "key": "10.1016/j.swevo.2020.100694_bib254",
+          "doi-asserted-by": "crossref",
+          "first-page": "695",
+          "DOI": "10.1016/j.swevo.2018.08.015",
+          "article-title": "Ensemble strategies for population-based optimization algorithms – a survey",
+          "volume": "44",
+          "author": "Wu",
+          "year": "2019",
+          "journal-title": "Swarm Evol. Comput."
+        },
+        {
+          "key": "10.1016/j.swevo.2020.100694_bib255",
+          "doi-asserted-by": "crossref",
+          "first-page": "24",
+          "DOI": "10.1016/j.swevo.2017.11.002",
+          "article-title": "Population topologies for particle swarm optimization and differential evolution",
+          "volume": "39",
+          "author": "Lynn",
+          "year": "2018",
+          "journal-title": "Swarm Evol. Comput."
+        },
+        {
+          "issue": "1",
+          "key": "10.1016/j.swevo.2020.100694_bib256",
+          "doi-asserted-by": "crossref",
+          "first-page": "145",
+          "DOI": "10.1016/S0893-6080(98)00116-6",
+          "article-title": "On the momentum term in gradient descent learning algorithms",
+          "volume": "12",
+          "author": "Qian",
+          "year": "1999",
+          "journal-title": "Neural Network."
+        },
+        {
+          "issue": "5",
+          "key": "10.1016/j.swevo.2020.100694_bib257",
+          "doi-asserted-by": "crossref",
+          "first-page": "687",
+          "DOI": "10.1109/TNN.2011.2109395",
+          "article-title": "Extended Hamiltonian learning on Riemannian manifolds: theoretical aspects",
+          "volume": "22",
+          "author": "Fiori",
+          "year": "2011",
+          "journal-title": "IEEE Trans. Neural Network."
+        },
+        {
+          "issue": "5",
+          "key": "10.1016/j.swevo.2020.100694_bib258",
+          "first-page": "7",
+          "article-title": "Extended Hamiltonian learning on Riemannian manifolds: numerical aspects",
+          "volume": "22",
+          "author": "Fiori",
+          "year": "2012",
+          "journal-title": "IEEE Trans. Neural Network."
+        },
+        {
+          "issue": "153",
+          "key": "10.1016/j.swevo.2020.100694_bib259",
+          "first-page": "1",
+          "article-title": "A differential equation for modeling Nesterov's accelerated gradient method: theory and insights",
+          "volume": "17",
+          "author": "Su",
+          "year": "2016",
+          "journal-title": "J. Mach. Learn. Res."
+        },
+        {
+          "key": "10.1016/j.swevo.2020.100694_bib260",
+          "author": "Hansen"
+        },
+        {
+          "key": "10.1016/j.swevo.2020.100694_bib261",
+          "series-title": "Advances in Neural Information Processing Systems",
+          "first-page": "6389",
+          "article-title": "Visualizing the loss landscape of neural nets",
+          "author": "Li",
+          "year": "2018"
+        },
+        {
+          "key": "10.1016/j.swevo.2020.100694_bib262",
+          "series-title": "Advances in Neural Information Processing Systems",
+          "first-page": "586",
+          "article-title": "Deep learning without poor local minima",
+          "author": "Kawaguchi",
+          "year": "2016"
+        },
+        {
+          "key": "10.1016/j.swevo.2020.100694_bib263",
+          "series-title": "Proceedings of the Eighteenth International Conference on Artificial Intelligence and Statistics",
+          "first-page": "192",
+          "article-title": "The loss surfaces of multilayer networks",
+          "author": "Choromanska",
+          "year": "2015"
+        },
+        {
+          "key": "10.1016/j.swevo.2020.100694_bib264",
+          "series-title": "Advances in Neural Information Processing Systems",
+          "first-page": "2933",
+          "article-title": "Identifying and attacking the saddle point problem in high-dimensional non-convex optimization",
+          "author": "Dauphin",
+          "year": "2014"
+        },
+        {
+          "key": "10.1016/j.swevo.2020.100694_bib265",
+          "doi-asserted-by": "crossref",
+          "first-page": "382",
+          "DOI": "10.1016/j.asoc.2014.03.039",
+          "article-title": "Differential Evolution algorithms applied to Neural Network training suffer from stagnation",
+          "volume": "21",
+          "author": "Piotrowski",
+          "year": "2014",
+          "journal-title": "Appl. Soft Comput."
+        }
+      ],
+      "container-title": [
+        "Swarm and Evolutionary Computation"
+      ],
+      "original-title": [],
+      "language": "en",
+      "link": [
+        {
+          "URL": "https://api.elsevier.com/content/article/PII:S221065021930584X?httpAccept=text/xml",
+          "content-type": "text/xml",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        },
+        {
+          "URL": "https://api.elsevier.com/content/article/PII:S221065021930584X?httpAccept=text/plain",
+          "content-type": "text/plain",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2025,
+            10,
+            31
+          ]
+        ],
+        "date-time": "2025-10-31T05:48:45Z",
+        "timestamp": 1761889725000
+      },
+      "score": 1,
+      "resource": {
+        "primary": {
+          "URL": "https://linkinghub.elsevier.com/retrieve/pii/S221065021930584X"
+        }
+      },
+      "subtitle": [],
+      "short-title": [],
+      "issued": {
+        "date-parts": [
+          [
+            2020,
+            8
+          ]
+        ]
+      },
+      "references-count": 265,
+      "alternative-id": [
+        "S221065021930584X"
+      ],
+      "URL": "https://doi.org/10.1016/j.swevo.2020.100694",
+      "relation": {},
+      "ISSN": [
+        "2210-6502"
+      ],
+      "issn-type": [
+        {
+          "value": "2210-6502",
+          "type": "print"
+        }
+      ],
+      "subject": [],
+      "published": {
+        "date-parts": [
+          [
+            2020,
+            8
+          ]
+        ]
+      },
+      "assertion": [
+        {
+          "value": "Elsevier",
+          "name": "publisher",
+          "label": "This article is maintained by"
+        },
+        {
+          "value": "Evolution strategies for continuous optimization: A survey of the state-of-the-art",
+          "name": "articletitle",
+          "label": "Article Title"
+        },
+        {
+          "value": "Swarm and Evolutionary Computation",
+          "name": "journaltitle",
+          "label": "Journal Title"
+        },
+        {
+          "value": "https://doi.org/10.1016/j.swevo.2020.100694",
+          "name": "articlelink",
+          "label": "CrossRef DOI link to publisher maintained version"
+        },
+        {
+          "value": "article",
+          "name": "content_type",
+          "label": "Content Type"
+        },
+        {
+          "value": "© 2020 Elsevier B.V. All rights reserved.",
+          "name": "copyright",
+          "label": "Copyright"
+        }
+      ],
+      "article-number": "100694"
+    }
+  }
+}

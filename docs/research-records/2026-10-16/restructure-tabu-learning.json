@@ -1,0 +1,643 @@
+{
+  "query": "10.3390/electronics14132642",
+  "url": "https://api.crossref.org/works/10.3390%2Felectronics14132642",
+  "retrieved": "2026-10-16",
+  "response": {
+    "status": "ok",
+    "message-type": "work",
+    "message-version": "1.0.0",
+    "message": {
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            7,
+            31
+          ]
+        ],
+        "date-time": "2026-07-31T15:28:32Z",
+        "timestamp": 1785511712435,
+        "version": "3.56.0"
+      },
+      "reference-count": 49,
+      "publisher": "MDPI AG",
+      "issue": "13",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2025,
+                6,
+                30
+              ]
+            ],
+            "date-time": "2025-06-30T00:00:00Z",
+            "timestamp": 1751241600000
+          },
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "URL": "https://creativecommons.org/licenses/by/4.0/"
+        }
+      ],
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "short-container-title": [
+        "Electronics"
+      ],
+      "abstract": "",
+      "DOI": "10.3390/electronics14132642",
+      "type": "journal-article",
+      "created": {
+        "date-parts": [
+          [
+            2025,
+            6,
+            30
+          ]
+        ],
+        "date-time": "2025-06-30T11:37:51Z",
+        "timestamp": 1751283471000
+      },
+      "page": "2642",
+      "update-policy": "https://doi.org/10.3390/mdpi_crossmark_policy",
+      "source": "Crossref",
+      "is-referenced-by-count": 1,
+      "title": [
+        "Exploring Tabu Tenure Policies with Machine Learning"
+      ],
+      "prefix": "10.3390",
+      "volume": "14",
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0000-0002-3820-8793",
+          "authenticated-orcid": false,
+          "given": "Anna",
+          "family": "Konovalenko",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "Faculty of Logistics, Molde University College, 6410 Molde, Norway"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0003-0490-9978",
+          "authenticated-orcid": false,
+          "given": "Lars Magnus",
+          "family": "Hvattum",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Faculty of Logistics, Molde University College, 6410 Molde, Norway"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "1968",
+      "published-online": {
+        "date-parts": [
+          [
+            2025,
+            6,
+            30
+          ]
+        ]
+      },
+      "reference": [
+        {
+          "key": "ref_1",
+          "doi-asserted-by": "crossref",
+          "first-page": "63",
+          "DOI": "10.1007/BF01471219",
+          "article-title": "Tabu search methods for a single machine scheduling problem",
+          "volume": "2",
+          "author": "Laguna",
+          "year": "1991",
+          "journal-title": "J. Intell. Manuf."
+        },
+        {
+          "key": "ref_2",
+          "doi-asserted-by": "crossref",
+          "first-page": "170",
+          "DOI": "10.1287/trsc.31.2.170",
+          "article-title": "A tabu search heuristic for the vehicle routing problem with soft time windows",
+          "volume": "31",
+          "author": "Taillard",
+          "year": "1997",
+          "journal-title": "Transp. Sci."
+        },
+        {
+          "key": "ref_3",
+          "doi-asserted-by": "crossref",
+          "first-page": "2563",
+          "DOI": "10.1016/j.cor.2005.07.014",
+          "article-title": "Solving the uncapacitated facility location problem using tabu search",
+          "volume": "33",
+          "author": "Sun",
+          "year": "2006",
+          "journal-title": "Comput. Oper. Res."
+        },
+        {
+          "key": "ref_4",
+          "doi-asserted-by": "crossref",
+          "first-page": "1779",
+          "DOI": "10.1016/j.ejor.2005.10.012",
+          "article-title": "Multi-objectives tabu search based algorithm for progressive resource allocation",
+          "volume": "177",
+          "author": "Belfares",
+          "year": "2007",
+          "journal-title": "Eur. J. Oper. Res."
+        },
+        {
+          "key": "ref_5",
+          "first-page": "2093",
+          "article-title": "Tabu search",
+          "volume": "Volumes 1–3",
+          "author": "Du",
+          "year": "1998",
+          "journal-title": "Handbook of Combinatorial Optimization"
+        },
+        {
+          "key": "ref_6",
+          "doi-asserted-by": "crossref",
+          "first-page": "1",
+          "DOI": "10.1007/978-3-540-78604-7_1",
+          "article-title": "Adaptive tabu tenure computation in local search",
+          "volume": "Volume 4972",
+          "author": "Devarenne",
+          "year": "2008",
+          "journal-title": "Evolutionary Computation in Combinatorial Optimization: 8th European Conference, EvoCOP 2008, Naples, Italy, 26–28 March 2008"
+        },
+        {
+          "key": "ref_7",
+          "doi-asserted-by": "crossref",
+          "first-page": "911",
+          "DOI": "10.1007/s10732-009-9119-1",
+          "article-title": "Generating meta-heuristic optimization code using ADATE",
+          "volume": "16",
+          "author": "Olsson",
+          "year": "2010",
+          "journal-title": "J. Heuristics"
+        },
+        {
+          "key": "ref_8",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Sugimura, M., and Parizy, M. (2024, January 14–18). A3TUM: Automated Tabu Tenure Tuning by Unique Move for Quadratic Unconstrained Binary Optimization. Proceedings of the Genetic and Evolutionary Computation Conference Companion, GECCO ’24 Companion, Melbourne, Australia.",
+          "DOI": "10.1145/3638530.3664111"
+        },
+        {
+          "key": "ref_9",
+          "doi-asserted-by": "crossref",
+          "first-page": "229",
+          "DOI": "10.1023/A:1023717307746",
+          "article-title": "A heuristic for Boolean optimization problems",
+          "volume": "9",
+          "author": "Davoine",
+          "year": "2003",
+          "journal-title": "J. Heuristics"
+        },
+        {
+          "key": "ref_10",
+          "unstructured": "Schaefer, T.J. (1978, January 1–3). The complexity of satisfiability problems. Proceedings of the 10th Annual ACM Symposium on Theory of Computing, San Diego, CA, USA."
+        },
+        {
+          "key": "ref_11",
+          "doi-asserted-by": "crossref",
+          "first-page": "23",
+          "DOI": "10.13164/mendel.2020.1.023",
+          "article-title": "Combining solutions of the optimum satisfiability problem using evolutionary tunneling",
+          "volume": "26",
+          "author": "Hvattum",
+          "year": "2020",
+          "journal-title": "MENDEL"
+        },
+        {
+          "key": "ref_12",
+          "doi-asserted-by": "crossref",
+          "first-page": "190",
+          "DOI": "10.1287/ijoc.1.3.190",
+          "article-title": "Tabu search—Part I",
+          "volume": "1",
+          "author": "Glover",
+          "year": "1989",
+          "journal-title": "ORSA J. Comput."
+        },
+        {
+          "key": "ref_13",
+          "doi-asserted-by": "crossref",
+          "first-page": "2508",
+          "DOI": "10.1016/j.cor.2005.07.007",
+          "article-title": "Adaptive memory search for multidemand multidimensional knapsack problems",
+          "volume": "33",
+          "author": "Arntzen",
+          "year": "2006",
+          "journal-title": "Comput. Oper. Res."
+        },
+        {
+          "key": "ref_14",
+          "doi-asserted-by": "crossref",
+          "first-page": "99",
+          "DOI": "10.1016/j.dam.2003.06.006",
+          "article-title": "Adaptive memory search for Boolean optimization problems",
+          "volume": "142",
+          "author": "Hvattum",
+          "year": "2004",
+          "journal-title": "Discrete Appl. Math."
+        },
+        {
+          "key": "ref_15",
+          "doi-asserted-by": "crossref",
+          "first-page": "100028",
+          "DOI": "10.1016/j.ejco.2022.100028",
+          "article-title": "Exponential extrapolation memory for tabu search",
+          "volume": "10",
+          "author": "Bentsen",
+          "year": "2022",
+          "journal-title": "EURO J. Comput. Optim."
+        },
+        {
+          "key": "ref_16",
+          "doi-asserted-by": "crossref",
+          "first-page": "160",
+          "DOI": "10.1007/s42979-021-00592-x",
+          "article-title": "Machine Learning: Algorithms, real-world applications and research directions",
+          "volume": "2",
+          "author": "Sarker",
+          "year": "2021",
+          "journal-title": "SN Comput. Sci."
+        },
+        {
+          "key": "ref_17",
+          "unstructured": "Bishop, C.M., and Nasrabadi, N.M. (2006). Pattern Recognition and Machine Learning, Springer."
+        },
+        {
+          "key": "ref_18",
+          "doi-asserted-by": "crossref",
+          "first-page": "3780",
+          "DOI": "10.1111/itor.70011",
+          "article-title": "Solution-based versus attribute-based tabu search for binary integer programming",
+          "volume": "32",
+          "author": "Danielsen",
+          "year": "2025",
+          "journal-title": "Int. Trans. Oper. Res."
+        },
+        {
+          "key": "ref_19",
+          "unstructured": "Bachelet, V., and Talbi, E.G. (2000, January 16–19). COSEARCH: A co-evolutionary metaheuristic. Proceedings of the 2000 Congress on Evolutionary Computation, La Jolla, CA, USA."
+        },
+        {
+          "key": "ref_20",
+          "doi-asserted-by": "crossref",
+          "first-page": "891",
+          "DOI": "10.1109/TVT.2003.810976",
+          "article-title": "An improved tabu search algorithm for the fixed-spectrum frequency-assignment problem",
+          "volume": "52",
+          "author": "Montemanni",
+          "year": "2003",
+          "journal-title": "IEEE Trans. Veh. Technol."
+        },
+        {
+          "key": "ref_21",
+          "unstructured": "Blöchliger, I. (2005). Suboptimal Colorings and Solution of Large Chromatic Scheduling Problems. [Ph.D. Thesis, EPFL]."
+        },
+        {
+          "key": "ref_22",
+          "doi-asserted-by": "crossref",
+          "first-page": "379",
+          "DOI": "10.1023/A:1009823419804",
+          "article-title": "Hybrid evolutionary algorithms for graph coloring",
+          "volume": "3",
+          "author": "Galinier",
+          "year": "1999",
+          "journal-title": "J. Comb. Optim."
+        },
+        {
+          "key": "ref_23",
+          "doi-asserted-by": "crossref",
+          "first-page": "137",
+          "DOI": "10.1023/A:1011203002719",
+          "article-title": "A “logic-constrained” knapsack formulation and a tabu algorithm for the daily photograph scheduling of an earth observation satellite",
+          "volume": "20",
+          "author": "Vasquez",
+          "year": "1999",
+          "journal-title": "Comput. Optim. Appl."
+        },
+        {
+          "key": "ref_24",
+          "doi-asserted-by": "crossref",
+          "first-page": "235",
+          "DOI": "10.1016/j.ejor.2008.12.007",
+          "article-title": "Adaptive tabu search for course timetabling",
+          "volume": "200",
+          "author": "Hao",
+          "year": "2010",
+          "journal-title": "Eur. J. Oper. Res."
+        },
+        {
+          "key": "ref_25",
+          "doi-asserted-by": "crossref",
+          "first-page": "126",
+          "DOI": "10.1287/ijoc.6.2.126",
+          "article-title": "The reactive tabu search",
+          "volume": "6",
+          "author": "Battiti",
+          "year": "1994",
+          "journal-title": "ORSA J. Comput."
+        },
+        {
+          "key": "ref_26",
+          "doi-asserted-by": "crossref",
+          "first-page": "163",
+          "DOI": "10.1007/s10479-009-0597-1",
+          "article-title": "The case for strategic oscillation",
+          "volume": "183",
+          "author": "Glover",
+          "year": "2011",
+          "journal-title": "Ann. Oper. Res."
+        },
+        {
+          "key": "ref_27",
+          "doi-asserted-by": "crossref",
+          "first-page": "393",
+          "DOI": "10.1016/j.ejor.2021.04.032",
+          "article-title": "Machine learning at the service of meta-heuristics for solving combinatorial optimization problems: A state-of-the-art",
+          "volume": "296",
+          "author": "Mohammadi",
+          "year": "2022",
+          "journal-title": "Eur. J. Oper. Res."
+        },
+        {
+          "key": "ref_28",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Kärcher, J., and Meyr, H. (2025). A machine learning approach for predicting the best heuristic for a large scaled capacitated lotsizing problem. OR Spectrum, 1–43.",
+          "DOI": "10.1007/s00291-024-00804-9"
+        },
+        {
+          "key": "ref_29",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Quevedo, J., Abdelatti, M., Imani, F., and Sodhi, M. (2021, January 10–14). Using reinforcement learning for tuning genetic algorithms. Proceedings of the Genetic and Evolutionary Computation Conference Companion, Lille, France.",
+          "DOI": "10.1145/3449726.3463203"
+        },
+        {
+          "key": "ref_30",
+          "doi-asserted-by": "crossref",
+          "first-page": "803",
+          "DOI": "10.1016/j.ejor.2017.01.023",
+          "article-title": "A hybrid breakout local search and reinforcement learning approach to the vertex separator problem",
+          "volume": "261",
+          "author": "Benlic",
+          "year": "2017",
+          "journal-title": "Eur. J. Oper. Res."
+        },
+        {
+          "key": "ref_31",
+          "doi-asserted-by": "crossref",
+          "first-page": "319",
+          "DOI": "10.1162/EVCO_a_00113",
+          "article-title": "Choosing the appropriate forecasting model for predictive parameter control",
+          "volume": "22",
+          "author": "Aleti",
+          "year": "2014",
+          "journal-title": "Evol. Comput."
+        },
+        {
+          "key": "ref_32",
+          "doi-asserted-by": "crossref",
+          "first-page": "106751",
+          "DOI": "10.1016/j.cor.2024.106751",
+          "article-title": "Learning tabu search algorithms: A scheduling application",
+          "volume": "170",
+          "author": "Niroumandrad",
+          "year": "2024",
+          "journal-title": "Comput. Oper. Res."
+        },
+        {
+          "key": "ref_33",
+          "doi-asserted-by": "crossref",
+          "first-page": "26",
+          "DOI": "10.1109/MSP.2017.2743240",
+          "article-title": "Deep reinforcement learning: A brief survey",
+          "volume": "34",
+          "author": "Arulkumaran",
+          "year": "2017",
+          "journal-title": "IEEE Signal Process. Mag."
+        },
+        {
+          "key": "ref_34",
+          "unstructured": "Zheng, A., and Casari, A. (2018). Feature Engineering for Machine Learning: Principles and Techniques for Data Scientists, O’Reilly Media, Inc."
+        },
+        {
+          "key": "ref_35",
+          "unstructured": "Schulman, J., Wolski, F., Dhariwal, P., Radford, A., and Klimov, O. (2017). Proximal policy optimization algorithms. arXiv."
+        },
+        {
+          "key": "ref_36",
+          "doi-asserted-by": "crossref",
+          "first-page": "5",
+          "DOI": "10.1023/A:1010933404324",
+          "article-title": "Random forests",
+          "volume": "45",
+          "author": "Breiman",
+          "year": "2001",
+          "journal-title": "Mach. Learn."
+        },
+        {
+          "key": "ref_37",
+          "doi-asserted-by": "crossref",
+          "first-page": "1",
+          "DOI": "10.5121/ijdkp.2015.5201",
+          "article-title": "A review on evaluation metrics for data classification evaluations",
+          "volume": "5",
+          "author": "Hossin",
+          "year": "2015",
+          "journal-title": "Int. J. Data Min. Knowl. Manag. Process"
+        },
+        {
+          "key": "ref_38",
+          "first-page": "1",
+          "article-title": "Stable-Baselines3: Reliable reinforcement learning implementations",
+          "volume": "22",
+          "author": "Raffin",
+          "year": "2021",
+          "journal-title": "J. Mach. Learn. Res."
+        },
+        {
+          "key": "ref_39",
+          "first-page": "2825",
+          "article-title": "Scikit-learn: Machine learning in Python",
+          "volume": "12",
+          "author": "Pedregosa",
+          "year": "2011",
+          "journal-title": "J. Mach. Learn. Res."
+        },
+        {
+          "key": "ref_40",
+          "unstructured": "(2025, June 28). CPLEX Optimizer. Available online: https://www.ibm.com/support/pages/downloading-ibm-ilog-cplex-enterprise-server-v1290."
+        },
+        {
+          "key": "ref_41",
+          "doi-asserted-by": "crossref",
+          "first-page": "8",
+          "DOI": "10.1007/s10515-021-00313-x",
+          "article-title": "Faults in deep reinforcement learning programs: A taxonomy and a detection approach",
+          "volume": "29",
+          "author": "Nikanjam",
+          "year": "2022",
+          "journal-title": "Autom. Softw. Eng."
+        },
+        {
+          "key": "ref_42",
+          "unstructured": "Thrun, S., and Schwartz, A. Issues in using function approximation for reinforcement learning. Proceedings of the 1993 Connectionist Models Summer School."
+        },
+        {
+          "key": "ref_43",
+          "unstructured": "Sutton, R.S. (1984). Temporal Credit Assignment in Reinforcement Learning. [Ph.D. Thesis, University of Massachusetts Amherst]."
+        },
+        {
+          "key": "ref_44",
+          "first-page": "5829",
+          "article-title": "Exploration-guided reward shaping for reinforcement learning under sparse rewards",
+          "volume": "35",
+          "author": "Devidze",
+          "year": "2022",
+          "journal-title": "Adv. Neural Inf. Process. Syst."
+        },
+        {
+          "key": "ref_45",
+          "doi-asserted-by": "crossref",
+          "first-page": "427",
+          "DOI": "10.1016/j.ipm.2009.03.002",
+          "article-title": "A systematic analysis of performance measures for classification tasks",
+          "volume": "45",
+          "author": "Sokolova",
+          "year": "2009",
+          "journal-title": "Inf. Process. Manag."
+        },
+        {
+          "key": "ref_46",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Birattari, M., and Kacprzyk, J. (2009). Tuning Metaheuristics: A Machine Learning Perspective, Springer.",
+          "DOI": "10.1007/978-3-642-00483-4"
+        },
+        {
+          "key": "ref_47",
+          "unstructured": "Malik, M.M. (2020). A hierarchy of limitations in machine learning. arXiv."
+        },
+        {
+          "key": "ref_48",
+          "doi-asserted-by": "crossref",
+          "first-page": "101046",
+          "DOI": "10.1016/j.patter.2024.101046",
+          "article-title": "Avoiding common machine learning pitfalls",
+          "volume": "5",
+          "author": "Lones",
+          "year": "2024",
+          "journal-title": "Patterns"
+        },
+        {
+          "key": "ref_49",
+          "doi-asserted-by": "crossref",
+          "first-page": "1",
+          "DOI": "10.1145/3701236",
+          "article-title": "Explainable optimisation through online and offline hyper-heuristics",
+          "volume": "5",
+          "author": "Yates",
+          "year": "2025",
+          "journal-title": "ACM Trans. Evol. Learn."
+        }
+      ],
+      "container-title": [
+        "Electronics"
+      ],
+      "original-title": [],
+      "language": "en",
+      "link": [
+        {
+          "URL": "https://www.mdpi.com/2079-9292/14/13/2642/pdf",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2025,
+            10,
+            9
+          ]
+        ],
+        "date-time": "2025-10-09T18:01:57Z",
+        "timestamp": 1760032917000
+      },
+      "score": 1,
+      "resource": {
+        "primary": {
+          "URL": "https://www.mdpi.com/2079-9292/14/13/2642"
+        }
+      },
+      "subtitle": [],
+      "short-title": [],
+      "issued": {
+        "date-parts": [
+          [
+            2025,
+            6,
+            30
+          ]
+        ]
+      },
+      "references-count": 49,
+      "journal-issue": {
+        "issue": "13",
+        "published-online": {
+          "date-parts": [
+            [
+              2025,
+              7
+            ]
+          ]
+        }
+      },
+      "alternative-id": [
+        "electronics14132642"
+      ],
+      "URL": "https://doi.org/10.3390/electronics14132642",
+      "relation": {},
+      "ISSN": [
+        "2079-9292"
+      ],
+      "issn-type": [
+        {
+          "value": "2079-9292",
+          "type": "electronic"
+        }
+      ],
+      "subject": [],
+      "published": {
+        "date-parts": [
+          [
+            2025,
+            6,
+            30
+          ]
+        ]
+      }
+    }
+  }
+}

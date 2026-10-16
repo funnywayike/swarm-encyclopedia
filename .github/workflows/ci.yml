@@ -41,6 +41,7 @@ jobs:
         run: git diff --exit-code --stat
       - name: research map and review interface checks
         run: |
+          node tests/test_research_routes.cjs
           node tests/test_research_reading.cjs
           node tests/test_science_vine.cjs
           node tests/test_review_library.cjs

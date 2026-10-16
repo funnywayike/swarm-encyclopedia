@@ -1,0 +1,2398 @@
+{
+  "query": "10.1016/j.swevo.2024.101838",
+  "url": "https://api.crossref.org/works/10.1016%2Fj.swevo.2024.101838",
+  "retrieved": "2026-10-16",
+  "response": {
+    "status": "ok",
+    "message-type": "work",
+    "message-version": "1.0.0",
+    "message": {
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            8,
+            21
+          ]
+        ],
+        "date-time": "2026-08-21T05:34:05Z",
+        "timestamp": 1787290445366,
+        "version": "build-2736575974"
+      },
+      "reference-count": 210,
+      "publisher": "Elsevier BV",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2025,
+                3,
+                1
+              ]
+            ],
+            "date-time": "2025-03-01T00:00:00Z",
+            "timestamp": 1740787200000
+          },
+          "content-version": "tdm",
+          "delay-in-days": 0,
+          "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+        },
+        {
+          "start": {
+            "date-parts": [
+              [
+                2025,
+                3,
+                1
+              ]
+            ],
+            "date-time": "2025-03-01T00:00:00Z",
+            "timestamp": 1740787200000
+          },
+          "content-version": "tdm",
+          "delay-in-days": 0,
+          "URL": "https://www.elsevier.com/legal/tdmrep-license"
+        },
+        {
+          "start": {
+            "date-parts": [
+              [
+                2025,
+                3,
+                1
+              ]
+            ],
+            "date-time": "2025-03-01T00:00:00Z",
+            "timestamp": 1740787200000
+          },
+          "content-version": "stm-asf",
+          "delay-in-days": 0,
+          "URL": "https://doi.org/10.15223/policy-017"
+        },
+        {
+          "start": {
+            "date-parts": [
+              [
+                2025,
+                3,
+                1
+              ]
+            ],
+            "date-time": "2025-03-01T00:00:00Z",
+            "timestamp": 1740787200000
+          },
+          "content-version": "stm-asf",
+          "delay-in-days": 0,
+          "URL": "https://doi.org/10.15223/policy-037"
+        },
+        {
+          "start": {
+            "date-parts": [
+              [
+                2025,
+                3,
+                1
+              ]
+            ],
+            "date-time": "2025-03-01T00:00:00Z",
+            "timestamp": 1740787200000
+          },
+          "content-version": "stm-asf",
+          "delay-in-days": 0,
+          "URL": "https://doi.org/10.15223/policy-012"
+        },
+        {
+          "start": {
+            "date-parts": [
+              [
+                2025,
+                3,
+                1
+              ]
+            ],
+            "date-time": "2025-03-01T00:00:00Z",
+            "timestamp": 1740787200000
+          },
+          "content-version": "stm-asf",
+          "delay-in-days": 0,
+          "URL": "https://doi.org/10.15223/policy-029"
+        },
+        {
+          "start": {
+            "date-parts": [
+              [
+                2025,
+                3,
+                1
+              ]
+            ],
+            "date-time": "2025-03-01T00:00:00Z",
+            "timestamp": 1740787200000
+          },
+          "content-version": "stm-asf",
+          "delay-in-days": 0,
+          "URL": "https://doi.org/10.15223/policy-004"
+        }
+      ],
+      "funder": [
+        {
+          "DOI": "10.13039/501100007085",
+          "name": "NUDT",
+          "doi-asserted-by": "publisher",
+          "award": [
+            "ZK21-07"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "ZK21-07"
+              ]
+            }
+          ],
+          "id": [
+            {
+              "id": "10.13039/501100007085",
+              "id-type": "DOI",
+              "asserted-by": "publisher"
+            }
+          ]
+        },
+        {
+          "DOI": "10.13039/501100007085",
+          "name": "NUDT",
+          "doi-asserted-by": "publisher",
+          "award": [
+            "23-ZZCX-JDZ-28"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "23-ZZCX-JDZ-28"
+              ]
+            }
+          ],
+          "id": [
+            {
+              "id": "10.13039/501100007085",
+              "id-type": "DOI",
+              "asserted-by": "publisher"
+            }
+          ]
+        },
+        {
+          "DOI": "10.13039/501100001809",
+          "name": "National Natural Science Foundation of China",
+          "doi-asserted-by": "publisher",
+          "award": [
+            "62303476"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "62303476"
+              ]
+            }
+          ],
+          "id": [
+            {
+              "id": "10.13039/501100001809",
+              "id-type": "DOI",
+              "asserted-by": "publisher"
+            }
+          ]
+        },
+        {
+          "DOI": "10.13039/501100001809",
+          "name": "National Natural Science Foundation of China",
+          "doi-asserted-by": "publisher",
+          "award": [
+            "62122093"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "62122093"
+              ]
+            }
+          ],
+          "id": [
+            {
+              "id": "10.13039/501100001809",
+              "id-type": "DOI",
+              "asserted-by": "publisher"
+            }
+          ]
+        },
+        {
+          "DOI": "10.13039/501100001809",
+          "name": "National Natural Science Foundation of China",
+          "doi-asserted-by": "publisher",
+          "award": [
+            "72071205"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "72071205"
+              ]
+            }
+          ],
+          "id": [
+            {
+              "id": "10.13039/501100001809",
+              "id-type": "DOI",
+              "asserted-by": "publisher"
+            }
+          ]
+        },
+        {
+          "DOI": "10.13039/501100019081",
+          "name": "Science and Technology Program of Hunan Province",
+          "doi-asserted-by": "publisher",
+          "award": [
+            "2023RC1002"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "2023RC1002"
+              ]
+            }
+          ],
+          "id": [
+            {
+              "id": "10.13039/501100019081",
+              "id-type": "DOI",
+              "asserted-by": "publisher"
+            }
+          ]
+        }
+      ],
+      "content-domain": {
+        "domain": [
+          "elsevier.com",
+          "sciencedirect.com"
+        ],
+        "crossmark-restriction": true
+      },
+      "short-container-title": [
+        "Swarm and Evolutionary Computation"
+      ],
+      "published-print": {
+        "date-parts": [
+          [
+            2025,
+            3
+          ]
+        ]
+      },
+      "DOI": "10.1016/j.swevo.2024.101838",
+      "type": "journal-article",
+      "created": {
+        "date-parts": [
+          [
+            2025,
+            1,
+            8
+          ]
+        ],
+        "date-time": "2025-01-08T08:00:31Z",
+        "timestamp": 1736323231000
+      },
+      "page": "101838",
+      "update-policy": "https://doi.org/10.1016/elsevier_cm_policy",
+      "source": "Crossref",
+      "is-referenced-by-count": 22,
+      "special_numbering": "C",
+      "title": [
+        "Meta-Black-Box optimization for evolutionary algorithms: Review and perspective"
+      ],
+      "prefix": "10.1016",
+      "volume": "93",
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0000-0002-2740-3788",
+          "authenticated-orcid": false,
+          "given": "Xu",
+          "family": "Yang",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Rui",
+          "family": "Wang",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Kaiwen",
+          "family": "Li",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0001-9186-6472",
+          "authenticated-orcid": false,
+          "given": "Hisao",
+          "family": "Ishibuchi",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "78",
+      "reference": [
+        {
+          "issue": "4",
+          "key": "10.1016/j.swevo.2024.101838_b1",
+          "doi-asserted-by": "crossref",
+          "first-page": "114",
+          "DOI": "10.1016/j.swevo.2019.06.002",
+          "article-title": "cPSO-CNN: An efficient PSO-based algorithm for fine-tuning hyper-parameters of convolutional neural networks",
+          "volume": "49",
+          "author": "Wang",
+          "year": "2019",
+          "journal-title": "Swarm Evol. Comput."
+        },
+        {
+          "key": "10.1016/j.swevo.2024.101838_b2",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1016/j.engappai.2020.104015",
+          "article-title": "Optimization of support vector machine through the use of metaheuristic algorithms in forecasting TBM advance rate",
+          "volume": "97",
+          "author": "Zhou",
+          "year": "2021",
+          "journal-title": "Eng. Appl. Artif. Intell."
+        },
+        {
+          "key": "10.1016/j.swevo.2024.101838_b3",
+          "series-title": "2015 4th International Conference on Software Engineering and Computer Systems",
+          "first-page": "183",
+          "article-title": "LS-SVM hyper-parameters optimization based on GWO algorithm for time series forecasting",
+          "author": "Mustaffa",
+          "year": "2015"
+        },
+        {
+          "issue": "4",
+          "key": "10.1016/j.swevo.2024.101838_b4",
+          "doi-asserted-by": "crossref",
+          "first-page": "1",
+          "DOI": "10.1145/3447582",
+          "article-title": "A comprehensive survey of neural architecture search: Challenges and solutions",
+          "volume": "54",
+          "author": "Ren",
+          "year": "2021",
+          "journal-title": "ACM Comput. Surv."
+        },
+        {
+          "issue": "6",
+          "key": "10.1016/j.swevo.2024.101838_b5",
+          "doi-asserted-by": "crossref",
+          "first-page": "635",
+          "DOI": "10.1093/bioinformatics/10.6.635",
+          "article-title": "Artificial neural networks and simulated molecular evolution are potential tools for sequence-oriented protein design",
+          "volume": "10",
+          "author": "Schneider",
+          "year": "1994",
+          "journal-title": "Bioinformatics"
+        },
+        {
+          "issue": "3",
+          "key": "10.1016/j.swevo.2024.101838_b6",
+          "doi-asserted-by": "crossref",
+          "first-page": "326",
+          "DOI": "10.1115/1.2841318",
+          "article-title": "Turbomachinery blade design using a Navier–Stokes solver and artificial neural network",
+          "volume": "121",
+          "author": "Pierret",
+          "year": "1999",
+          "journal-title": "J. Turbomach."
+        },
+        {
+          "key": "10.1016/j.swevo.2024.101838_b7",
+          "doi-asserted-by": "crossref",
+          "first-page": "58443",
+          "DOI": "10.1109/ACCESS.2020.2983149",
+          "article-title": "A survey of autonomous driving: Common practices and emerging technologies",
+          "volume": "8",
+          "author": "Yurtsever",
+          "year": "2020",
+          "journal-title": "IEEE Access"
+        },
+        {
+          "key": "10.1016/j.swevo.2024.101838_b8",
+          "doi-asserted-by": "crossref",
+          "unstructured": "V. Nguyen, Bayesian Optimization for Accelerating Hyper-Parameter Tuning, in: 2019 IEEE Second International Conference on Artificial Intelligence and Knowledge Engineering, AIKE, 2019.",
+          "DOI": "10.1109/AIKE.2019.00060"
+        },
+        {
+          "key": "10.1016/j.swevo.2024.101838_b9",
+          "doi-asserted-by": "crossref",
+          "first-page": "225",
+          "DOI": "10.1016/j.eswa.2017.02.017",
+          "article-title": "A boosted decision tree approach using Bayesian hyper-parameter optimization for credit scoring",
+          "volume": "78",
+          "author": "Xia",
+          "year": "2017",
+          "journal-title": "Expert Syst. Appl."
+        },
+        {
+          "key": "10.1016/j.swevo.2024.101838_b10",
+          "doi-asserted-by": "crossref",
+          "unstructured": "R. Lange, T. Schaul, Y. Chen, T. Zahavy, V. Dalibard, C. Lu, S. Singh, S. Flennerhag, Discovering evolution strategies via meta-black-box optimization, in: Proceedings of the Companion Conference on Genetic and Evolutionary Computation, 2023, pp. 29–30.",
+          "DOI": "10.1145/3583133.3595822"
+        },
+        {
+          "issue": "11",
+          "key": "10.1016/j.swevo.2024.101838_b11",
+          "doi-asserted-by": "crossref",
+          "first-page": "1361",
+          "DOI": "10.1109/TSE.1985.231884",
+          "article-title": "Understanding and automating algorithm design",
+          "author": "Kant",
+          "year": "1985",
+          "journal-title": "IEEE Trans. Softw. Eng."
+        },
+        {
+          "key": "10.1016/j.swevo.2024.101838_b12",
+          "series-title": "Proceedings of AIAC12: 2nd Australasian Unmanned Air Vehicles Conference",
+          "first-page": "1",
+          "article-title": "An intelligent control architecture for unmanned aerial systems (UAS) in the national airspace system (NAS)",
+          "author": "Narayan",
+          "year": "2007"
+        },
+        {
+          "key": "10.1016/j.swevo.2024.101838_b13",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1016/j.conengprac.2020.104488",
+          "article-title": "Robot control parameters auto-tuning in trajectory tracking applications",
+          "volume": "101",
+          "author": "Roveda",
+          "year": "2020",
+          "journal-title": "Control Eng. Pract."
+        },
+        {
+          "key": "10.1016/j.swevo.2024.101838_b14",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1016/j.artmed.2020.101822",
+          "article-title": "Automated machine learning: Review of the state-of-the-art and opportunities for healthcare",
+          "volume": "104",
+          "author": "Waring",
+          "year": "2020",
+          "journal-title": "Artif. Intell. Med."
+        },
+        {
+          "key": "10.1016/j.swevo.2024.101838_b15",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.3390/computers10020024",
+          "article-title": "Automated machine learning for healthcare and clinical notes analysis",
+          "author": "Mustafa",
+          "year": "2021",
+          "journal-title": "Comput"
+        },
+        {
+          "issue": "4",
+          "key": "10.1016/j.swevo.2024.101838_b16",
+          "doi-asserted-by": "crossref",
+          "first-page": "850",
+          "DOI": "10.31577/cai_2021_4_850",
+          "article-title": "Comparison of manual and automated feature engineering for daily activity classification in mental disorder diagnosis",
+          "volume": "40",
+          "author": "Adamczyk",
+          "year": "2021",
+          "journal-title": "Comput. Inform."
+        },
+        {
+          "issue": "1",
+          "key": "10.1016/j.swevo.2024.101838_b17",
+          "doi-asserted-by": "crossref",
+          "first-page": "22658",
+          "DOI": "10.1038/s41598-024-72889-9",
+          "article-title": "Efficacy of automated machine learning models and feature engineering for diagnosis of equivocal appendicitis using clinical and computed tomography findings",
+          "volume": "14",
+          "author": "An",
+          "year": "2024",
+          "journal-title": "Sci. Rep."
+        },
+        {
+          "issue": "4",
+          "key": "10.1016/j.swevo.2024.101838_b18",
+          "doi-asserted-by": "crossref",
+          "first-page": "540",
+          "DOI": "10.1115/1.3262228",
+          "article-title": "Automated design of controlled-diffusion blades",
+          "volume": "110",
+          "author": "Sanz",
+          "year": "1988",
+          "journal-title": "J. Turbomach."
+        },
+        {
+          "issue": "2",
+          "key": "10.1016/j.swevo.2024.101838_b19",
+          "first-page": "141",
+          "article-title": "An automated optimal design of a fan blade using an integrated CFD/MDO computer environment",
+          "volume": "2",
+          "author": "Idahosa",
+          "year": "2008",
+          "journal-title": "Eng. Appl. Comput. Fluid Mech."
+        },
+        {
+          "key": "10.1016/j.swevo.2024.101838_b20",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1016/j.swevo.2021.100985",
+          "article-title": "Multi-objective Q-learning-based hyper-heuristic with Bi-criteria selection for energy-aware mixed shop scheduling",
+          "volume": "69",
+          "author": "Cheng",
+          "year": "2022",
+          "journal-title": "Swarm Evol. Comput."
+        },
+        {
+          "key": "10.1016/j.swevo.2024.101838_b21",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1016/j.eswa.2023.121050",
+          "article-title": "A Q-learning-based hyper-heuristic evolutionary algorithm for the distributed flexible job-shop scheduling problem with crane transportation",
+          "volume": "234",
+          "author": "Zhang",
+          "year": "2023",
+          "journal-title": "Expert Syst. Appl."
+        },
+        {
+          "key": "10.1016/j.swevo.2024.101838_b22",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1016/j.asoc.2023.110695",
+          "article-title": "Q-learning-based hyper-heuristic evolutionary algorithm for the distributed assembly blocking flowshop scheduling problem",
+          "volume": "146",
+          "author": "Zhang",
+          "year": "2023",
+          "journal-title": "Appl. Soft Comput."
+        },
+        {
+          "key": "10.1016/j.swevo.2024.101838_b23",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1016/j.adhoc.2022.102996",
+          "article-title": "MetaLearn: Optimizing routing heuristics with a hybrid meta-learning approach in vehicular ad-hoc networks",
+          "volume": "138",
+          "author": "Nahar",
+          "year": "2023",
+          "journal-title": "Ad Hoc Netw."
+        },
+        {
+          "issue": "4",
+          "key": "10.1016/j.swevo.2024.101838_b24",
+          "doi-asserted-by": "crossref",
+          "first-page": "2211",
+          "DOI": "10.1109/TCYB.2021.3112675",
+          "article-title": "Q-learning-based hyperheuristic evolutionary algorithm for dynamic task allocation of crowdsensing",
+          "volume": "53",
+          "author": "Ji",
+          "year": "2021",
+          "journal-title": "IEEE Trans. Cybern."
+        },
+        {
+          "key": "10.1016/j.swevo.2024.101838_b25",
+          "doi-asserted-by": "crossref",
+          "first-page": "nwae132",
+          "DOI": "10.1093/nsr/nwae132",
+          "article-title": "Learn to optimize-a brief overview",
+          "author": "Tang",
+          "year": "2024",
+          "journal-title": "Natl. Sci. Rev."
+        },
+        {
+          "key": "10.1016/j.swevo.2024.101838_b26",
+          "series-title": "Automated machine learning – a brief review at the end of the early years",
+          "first-page": "11",
+          "author": "Escalante",
+          "year": "2020"
+        },
+        {
+          "key": "10.1016/j.swevo.2024.101838_b27",
+          "first-page": "541",
+          "article-title": "Automated design of metaheuristic algorithms",
+          "author": "Stützle",
+          "year": "2019"
+        },
+        {
+          "key": "10.1016/j.swevo.2024.101838_b28",
+          "series-title": "2019 IEEE 5th International Conference for Convergence in Technology (I2CT)",
+          "first-page": "1",
+          "article-title": "A review on automated machine learning (AutoML) systems",
+          "author": "Nagarajah",
+          "year": "2019"
+        },
+        {
+          "key": "10.1016/j.swevo.2024.101838_b29",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1016/j.knosys.2020.106622",
+          "article-title": "AutoML: A survey of the state-of-the-art",
+          "volume": "212",
+          "author": "He",
+          "year": "2021",
+          "journal-title": "Knowl.-Based Syst."
+        },
+        {
+          "issue": "5",
+          "key": "10.1016/j.swevo.2024.101838_b30",
+          "doi-asserted-by": "crossref",
+          "first-page": "1",
+          "DOI": "10.1007/s10462-024-10726-1",
+          "article-title": "Automated machine learning: past, present and future",
+          "volume": "57",
+          "author": "Baratchi",
+          "year": "2024",
+          "journal-title": "Artif. Intell. Rev."
+        },
+        {
+          "key": "10.1016/j.swevo.2024.101838_b31",
+          "doi-asserted-by": "crossref",
+          "first-page": "517",
+          "DOI": "10.1613/jair.1.13596",
+          "article-title": "Automated reinforcement learning (autorl): A survey and open problems",
+          "volume": "74",
+          "author": "Parker-Holder",
+          "year": "2022",
+          "journal-title": "J. Artificial Intelligence Res."
+        },
+        {
+          "key": "10.1016/j.swevo.2024.101838_b32",
+          "series-title": "Automated reinforcement learning: An overview",
+          "author": "Afshar",
+          "year": "2022"
+        },
+        {
+          "issue": "1",
+          "key": "10.1016/j.swevo.2024.101838_b33",
+          "doi-asserted-by": "crossref",
+          "first-page": "3",
+          "DOI": "10.1162/evco_a_00242",
+          "article-title": "Automated algorithm selection: Survey and perspectives",
+          "volume": "27",
+          "author": "Kerschke",
+          "year": "2019",
+          "journal-title": "Evol. Comput."
+        },
+        {
+          "key": "10.1016/j.swevo.2024.101838_b34",
+          "doi-asserted-by": "crossref",
+          "first-page": "425",
+          "DOI": "10.1613/jair.1.13676",
+          "article-title": "A survey of methods for automated algorithm configuration",
+          "volume": "75",
+          "author": "Schede",
+          "year": "2022",
+          "journal-title": "J. Artificial Intelligence Res."
+        },
+        {
+          "key": "10.1016/j.swevo.2024.101838_b35",
+          "article-title": "Deep learning for automated algorithm design: A review",
+          "author": "Gupta",
+          "year": "2021",
+          "journal-title": "Neural Comput. Appl."
+        },
+        {
+          "key": "10.1016/j.swevo.2024.101838_b36",
+          "doi-asserted-by": "crossref",
+          "first-page": "284",
+          "DOI": "10.1016/j.swevo.2018.03.008",
+          "article-title": "Algorithmic design issues in adaptive differential evolution schemes: Review and taxonomy",
+          "volume": "43",
+          "author": "Al-Dabbagh",
+          "year": "2018",
+          "journal-title": "Swarm Evol. Comput."
+        },
+        {
+          "key": "10.1016/j.swevo.2024.101838_b37",
+          "article-title": "Advancements in Q-learning meta-heuristic optimization algorithms: A survey",
+          "author": "Yang",
+          "year": "2024",
+          "journal-title": "Wiley Interdiscip. Rev.: Data Min. Knowl. Discov."
+        },
+        {
+          "issue": "2",
+          "key": "10.1016/j.swevo.2024.101838_b38",
+          "doi-asserted-by": "crossref",
+          "first-page": "201",
+          "DOI": "10.1109/TEVC.2019.2921598",
+          "article-title": "A survey of automatic parameter tuning methods for metaheuristics",
+          "volume": "24",
+          "author": "Huang",
+          "year": "2019",
+          "journal-title": "IEEE Trans. Evol. Comput."
+        },
+        {
+          "key": "10.1016/j.swevo.2024.101838_b39",
+          "doi-asserted-by": "crossref",
+          "first-page": "57",
+          "DOI": "10.1016/j.imavis.2019.06.005",
+          "article-title": "Reinforcement learning for neural architecture search: A review",
+          "volume": "89",
+          "author": "Jaafra",
+          "year": "2019",
+          "journal-title": "Image Vis. Comput."
+        },
+        {
+          "key": "10.1016/j.swevo.2024.101838_b40",
+          "series-title": "Multi-objective hyperparameter optimization – an overview",
+          "author": "Karl",
+          "year": "2022"
+        },
+        {
+          "issue": "3",
+          "key": "10.1016/j.swevo.2024.101838_b41",
+          "article-title": "Survey on multi-objective-based parameter optimization for deep learning",
+          "volume": "24",
+          "author": "Chakraborty",
+          "year": "2023",
+          "journal-title": "CoRR"
+        },
+        {
+          "key": "10.1016/j.swevo.2024.101838_b42",
+          "series-title": "A survey of methods for automated algorithm configuration",
+          "author": "Schede",
+          "year": "2022"
+        },
+        {
+          "key": "10.1016/j.swevo.2024.101838_b43",
+          "series-title": "Principles and Practice of Constraint Programming-CP 2006: 12th International Conference, CP 2006, Nantes, France, September 25-29, 2006. Proceedings 12",
+          "first-page": "213",
+          "article-title": "Performance prediction and automated tuning of randomized and parametric algorithms",
+          "author": "Hutter",
+          "year": "2006"
+        },
+        {
+          "key": "10.1016/j.swevo.2024.101838_b44",
+          "doi-asserted-by": "crossref",
+          "first-page": "881",
+          "DOI": "10.1007/s10845-013-0814-2",
+          "article-title": "Hybrid sampling strategy-based multiobjective evolutionary algorithm for process planning and scheduling problem",
+          "volume": "25",
+          "author": "Zhang",
+          "year": "2014",
+          "journal-title": "J. Intell. Manuf."
+        },
+        {
+          "key": "10.1016/j.swevo.2024.101838_b45",
+          "doi-asserted-by": "crossref",
+          "first-page": "329",
+          "DOI": "10.1016/j.patcog.2017.10.009",
+          "article-title": "Multiple instance learning: A survey of problem characteristics and applications",
+          "volume": "77",
+          "author": "Carbonneau",
+          "year": "2018",
+          "journal-title": "Pattern Recognit."
+        },
+        {
+          "issue": "2",
+          "key": "10.1016/j.swevo.2024.101838_b46",
+          "doi-asserted-by": "crossref",
+          "first-page": "784",
+          "DOI": "10.1109/TCYB.2020.2984546",
+          "article-title": "Generative adversarial construction of parallel portfolios",
+          "volume": "52",
+          "author": "Liu",
+          "year": "2020",
+          "journal-title": "IEEE Trans. Cybern."
+        },
+        {
+          "issue": "3",
+          "key": "10.1016/j.swevo.2024.101838_b47",
+          "doi-asserted-by": "crossref",
+          "first-page": "595",
+          "DOI": "10.1109/TEVC.2021.3059661",
+          "article-title": "Few-shots parallel algorithm portfolio construction via co-evolution",
+          "volume": "25",
+          "author": "Tang",
+          "year": "2021",
+          "journal-title": "IEEE Trans. Evol. Comput."
+        },
+        {
+          "key": "10.1016/j.swevo.2024.101838_b48",
+          "article-title": "An overview of overfitting and its solutions",
+          "volume": "1168",
+          "author": "Ying",
+          "year": "2019",
+          "journal-title": "J. Phys.: Conf. Series"
+        },
+        {
+          "issue": "10s",
+          "key": "10.1016/j.swevo.2024.101838_b49",
+          "doi-asserted-by": "crossref",
+          "first-page": "1",
+          "DOI": "10.1145/3510413",
+          "article-title": "Avoiding overfitting: A survey on regularization methods for convolutional neural networks",
+          "volume": "54",
+          "author": "Santos",
+          "year": "2022",
+          "journal-title": "ACM Comput. Surv."
+        },
+        {
+          "issue": "6",
+          "key": "10.1016/j.swevo.2024.101838_b50",
+          "doi-asserted-by": "crossref",
+          "first-page": "3947",
+          "DOI": "10.1007/s10462-019-09784-7",
+          "article-title": "A survey of regularization strategies for deep models",
+          "volume": "53",
+          "author": "Moradi",
+          "year": "2020",
+          "journal-title": "Artif. Intell. Rev."
+        },
+        {
+          "key": "10.1016/j.swevo.2024.101838_b51",
+          "series-title": "International Conference on Machine Learning",
+          "first-page": "1568",
+          "article-title": "Bilevel programming for hyperparameter optimization and meta-learning",
+          "author": "Franceschi",
+          "year": "2018"
+        },
+        {
+          "issue": "546",
+          "key": "10.1016/j.swevo.2024.101838_b52",
+          "doi-asserted-by": "crossref",
+          "first-page": "1434",
+          "DOI": "10.1080/01621459.2023.2197686",
+          "article-title": "Cross-validation: what does it estimate and how well does it do it?",
+          "volume": "119",
+          "author": "Bates",
+          "year": "2024",
+          "journal-title": "J. Amer. Statist. Assoc."
+        },
+        {
+          "key": "10.1016/j.swevo.2024.101838_b53",
+          "doi-asserted-by": "crossref",
+          "unstructured": "C. Thornton, F. Hutter, H.H. Hoos, K. Leyton-Brown, Auto-WEKA: Combined selection and hyperparameter optimization of classification algorithms, in: Proceedings of the 19th ACM SIGKDD International Conference on Knowledge Discovery and Data Mining, 2013, pp. 847–855.",
+          "DOI": "10.1145/2487575.2487629"
+        },
+        {
+          "key": "10.1016/j.swevo.2024.101838_b54",
+          "doi-asserted-by": "crossref",
+          "unstructured": "S. Liu, K. Tang, Y. Lei, X. Yao, On performance estimation in automatic algorithm configuration, in: Proceedings of the AAAI Conference on Artificial Intelligence, 34, (03) 2020, pp. 2384–2391.",
+          "DOI": "10.1609/aaai.v34i03.5618"
+        },
+        {
+          "key": "10.1016/j.swevo.2024.101838_b55",
+          "first-page": "43",
+          "article-title": "The irace package: Iterated racing for automatic algorithm configuration",
+          "volume": "3",
+          "author": "López-Ibáñez",
+          "year": "2016",
+          "journal-title": "Oper. Res. Perspect."
+        },
+        {
+          "key": "10.1016/j.swevo.2024.101838_b56",
+          "doi-asserted-by": "crossref",
+          "first-page": "77",
+          "DOI": "10.1023/A:1019956318069",
+          "article-title": "A perspective view and survey of meta-learning",
+          "volume": "18",
+          "author": "Vilalta",
+          "year": "2002",
+          "journal-title": "Artif. Intell. Rev."
+        },
+        {
+          "key": "10.1016/j.swevo.2024.101838_b57",
+          "first-page": "65",
+          "volume": "vol. 15",
+          "author": "Rice",
+          "year": "1976"
+        },
+        {
+          "issue": "1",
+          "key": "10.1016/j.swevo.2024.101838_b58",
+          "doi-asserted-by": "crossref",
+          "first-page": "5",
+          "DOI": "10.1109/TAI.2020.3022339",
+          "article-title": "A recommender system for metaheuristic algorithms for continuous optimization based on deep recurrent neural networks",
+          "volume": "1",
+          "author": "Tian",
+          "year": "2020",
+          "journal-title": "IEEE Trans. Artif. Intell."
+        },
+        {
+          "key": "10.1016/j.swevo.2024.101838_b59",
+          "doi-asserted-by": "crossref",
+          "first-page": "267",
+          "DOI": "10.1613/jair.2861",
+          "article-title": "ParamILS: an automatic algorithm configuration framework",
+          "volume": "36",
+          "author": "Hutter",
+          "year": "2009",
+          "journal-title": "J. Artificial Intelligence Res."
+        },
+        {
+          "key": "10.1016/j.swevo.2024.101838_b60",
+          "doi-asserted-by": "crossref",
+          "first-page": "20",
+          "DOI": "10.1016/j.artint.2015.11.002",
+          "article-title": "SATenstein: Automatically building local search SAT solvers from components",
+          "volume": "232",
+          "author": "KhudaBukhsh",
+          "year": "2016",
+          "journal-title": "Artificial Intelligence"
+        },
+        {
+          "key": "10.1016/j.swevo.2024.101838_b61",
+          "doi-asserted-by": "crossref",
+          "unstructured": "C. Daniel, J. Taylor, S. Nowozin, Learning step size controllers for robust neural network training, in: Proceedings of the AAAI Conference on Artificial Intelligence, 2016.",
+          "DOI": "10.1609/aaai.v30i1.10187"
+        },
+        {
+          "key": "10.1016/j.swevo.2024.101838_b62",
+          "series-title": "Learning an adaptive learning rate schedule",
+          "author": "Xu",
+          "year": "2019"
+        },
+        {
+          "issue": "4",
+          "key": "10.1016/j.swevo.2024.101838_b63",
+          "doi-asserted-by": "crossref",
+          "first-page": "18",
+          "DOI": "10.1109/5254.708428",
+          "article-title": "Support vector machines",
+          "volume": "13",
+          "author": "Hearst",
+          "year": "1998",
+          "journal-title": "IEEE Intell. Syst. Appl."
+        },
+        {
+          "issue": "2",
+          "key": "10.1016/j.swevo.2024.101838_b64",
+          "doi-asserted-by": "crossref",
+          "first-page": "1883",
+          "DOI": "10.4249/scholarpedia.1883",
+          "article-title": "K-nearest neighbor",
+          "volume": "4",
+          "author": "Peterson",
+          "year": "2009",
+          "journal-title": "Scholarpedia"
+        },
+        {
+          "key": "10.1016/j.swevo.2024.101838_b65",
+          "doi-asserted-by": "crossref",
+          "first-page": "354",
+          "DOI": "10.1016/j.patcog.2017.10.013",
+          "article-title": "Recent advances in convolutional neural networks",
+          "volume": "77",
+          "author": "Gu",
+          "year": "2018",
+          "journal-title": "Pattern Recognit."
+        },
+        {
+          "key": "10.1016/j.swevo.2024.101838_b66",
+          "series-title": "Recent advances in recurrent neural networks",
+          "author": "Salehinejad",
+          "year": "2017"
+        },
+        {
+          "key": "10.1016/j.swevo.2024.101838_b67",
+          "series-title": "Automated Machine Learning: Methods, Systems, Challenges",
+          "author": "Hutter",
+          "year": "2019"
+        },
+        {
+          "issue": "55",
+          "key": "10.1016/j.swevo.2024.101838_b68",
+          "first-page": "1",
+          "article-title": "Neural architecture search: A survey",
+          "volume": "20",
+          "author": "Elsken",
+          "year": "2019",
+          "journal-title": "J. Mach. Learn. Res."
+        },
+        {
+          "key": "10.1016/j.swevo.2024.101838_b69",
+          "doi-asserted-by": "crossref",
+          "first-page": "3",
+          "DOI": "10.1007/978-3-030-05318-5_1",
+          "article-title": "Hyperparameter optimization",
+          "author": "Feurer",
+          "year": "2019",
+          "journal-title": "Autom. Mach. Learn.: Methods Syst., Challenges"
+        },
+        {
+          "key": "10.1016/j.swevo.2024.101838_b70",
+          "first-page": "39",
+          "article-title": "Meta-learning",
+          "author": "Feurer",
+          "year": "2019",
+          "journal-title": "Autom. Mach. Learn.: Methods Syst., Challenges"
+        },
+        {
+          "key": "10.1016/j.swevo.2024.101838_b71",
+          "series-title": "A survey on automated design of metaheuristic algorithms",
+          "author": "Zhao",
+          "year": "2023"
+        },
+        {
+          "issue": "2",
+          "key": "10.1016/j.swevo.2024.101838_b72",
+          "doi-asserted-by": "crossref",
+          "first-page": "14",
+          "DOI": "10.1109/MCI.2020.2976182",
+          "article-title": "The general combinatorial optimization problem: Towards automated algorithm design",
+          "volume": "15",
+          "author": "Qu",
+          "year": "2020",
+          "journal-title": "IEEE Comput. Intell. Mag."
+        },
+        {
+          "issue": "6",
+          "key": "10.1016/j.swevo.2024.101838_b73",
+          "doi-asserted-by": "crossref",
+          "first-page": "712",
+          "DOI": "10.1109/TEVC.2007.892759",
+          "article-title": "MOEA/D: a multiobjective evolutionary algorithm based on decomposition",
+          "volume": "11",
+          "author": "Zhang",
+          "year": "2007",
+          "journal-title": "IEEE Trans. Evol. Comput."
+        },
+        {
+          "issue": "2",
+          "key": "10.1016/j.swevo.2024.101838_b74",
+          "doi-asserted-by": "crossref",
+          "first-page": "182",
+          "DOI": "10.1109/4235.996017",
+          "article-title": "A fast and elitist multiobjective genetic algorithm: NSGA-II",
+          "volume": "6",
+          "author": "Deb",
+          "year": "2002",
+          "journal-title": "IEEE Trans. Evol. Comput."
+        },
+        {
+          "key": "10.1016/j.swevo.2024.101838_b75",
+          "series-title": "SPEA2: Improving the strength Pareto evolutionary algorithm",
+          "author": "Zitzler",
+          "year": "2001"
+        },
+        {
+          "key": "10.1016/j.swevo.2024.101838_b76",
+          "series-title": "IEEE International Conference on Evolutionary Computation",
+          "first-page": "289",
+          "article-title": "MOGA: multi-objective genetic algorithms",
+          "volume": "Vol. 1",
+          "author": "Murata",
+          "year": "1995"
+        },
+        {
+          "issue": "2",
+          "key": "10.1016/j.swevo.2024.101838_b77",
+          "doi-asserted-by": "crossref",
+          "first-page": "1",
+          "DOI": "10.1145/3376916",
+          "article-title": "Indicator-based multi-objective evolutionary algorithms: A comprehensive survey",
+          "volume": "53",
+          "author": "Falcón-Cardona",
+          "year": "2020",
+          "journal-title": "ACM Comput. Surv."
+        },
+        {
+          "issue": "6",
+          "key": "10.1016/j.swevo.2024.101838_b78",
+          "doi-asserted-by": "crossref",
+          "first-page": "1064",
+          "DOI": "10.1109/TEVC.2021.3078441",
+          "article-title": "Weighted indicator-based evolutionary algorithm for multimodal multiobjective optimization",
+          "volume": "25",
+          "author": "Li",
+          "year": "2021",
+          "journal-title": "IEEE Trans. Evol. Comput."
+        },
+        {
+          "key": "10.1016/j.swevo.2024.101838_b79",
+          "series-title": "2015 IEEE Congress on Evolutionary Computation",
+          "first-page": "947",
+          "article-title": "GDE-MOEA: A new MOEA based on the generational distance indicator and ɛ-dominance",
+          "author": "Menchaca-Mendez",
+          "year": "2015"
+        },
+        {
+          "key": "10.1016/j.swevo.2024.101838_b80",
+          "first-page": "C4",
+          "article-title": "Multiobjective optimization",
+          "volume": "1",
+          "author": "Fonseca",
+          "year": "1997",
+          "journal-title": "Handbook of evolutionary computation"
+        },
+        {
+          "issue": "2",
+          "key": "10.1016/j.swevo.2024.101838_b81",
+          "doi-asserted-by": "crossref",
+          "first-page": "195",
+          "DOI": "10.1162/evco_a_00263",
+          "article-title": "Automatically designing state-of-the-art multi-and many-objective evolutionary algorithms",
+          "volume": "28",
+          "author": "Bezerra",
+          "year": "2020",
+          "journal-title": "Evol. Comput."
+        },
+        {
+          "key": "10.1016/j.swevo.2024.101838_b82",
+          "series-title": "Evolutionary Multi-Criterion Optimization: Second International Conference, EMO 2003, Faro, Portugal, April 8–11, 2003. Proceedings 2",
+          "first-page": "494",
+          "article-title": "PISA—a platform and programming language independent interface for search algorithms",
+          "author": "Bleuler",
+          "year": "2003"
+        },
+        {
+          "key": "10.1016/j.swevo.2024.101838_b83",
+          "series-title": "A global optimisation toolbox for massively parallel engineering optimisation",
+          "author": "Biscani",
+          "year": "2010"
+        },
+        {
+          "issue": "3",
+          "key": "10.1016/j.swevo.2024.101838_b84",
+          "doi-asserted-by": "crossref",
+          "first-page": "403",
+          "DOI": "10.1109/TEVC.2015.2474158",
+          "article-title": "Automatic component-wise design of multiobjective evolutionary algorithms",
+          "volume": "20",
+          "author": "Bezerra",
+          "year": "2015",
+          "journal-title": "IEEE Trans. Evol. Comput."
+        },
+        {
+          "issue": "4",
+          "key": "10.1016/j.swevo.2024.101838_b85",
+          "doi-asserted-by": "crossref",
+          "first-page": "621",
+          "DOI": "10.1162/evco_a_00217",
+          "article-title": "A large-scale experimental evaluation of high-performing multi-and many-objective evolutionary algorithms",
+          "volume": "26",
+          "author": "Bezerra",
+          "year": "2018",
+          "journal-title": "Evol. Comput."
+        },
+        {
+          "issue": "1",
+          "key": "10.1016/j.swevo.2024.101838_b86",
+          "doi-asserted-by": "crossref",
+          "first-page": "58",
+          "DOI": "10.1109/TEVC.2009.2016569",
+          "article-title": "On set-based multiobjective optimization",
+          "volume": "14",
+          "author": "Zitzler",
+          "year": "2009",
+          "journal-title": "IEEE Trans. Evol. Comput."
+        },
+        {
+          "key": "10.1016/j.swevo.2024.101838_b87",
+          "series-title": "The 2003 Congress on Evolutionary Computation, 2003. CEC’03",
+          "first-page": "2678",
+          "article-title": "Multiple single objective Pareto sampling",
+          "volume": "Vol. 4",
+          "author": "Hughes",
+          "year": "2003"
+        },
+        {
+          "issue": "4",
+          "key": "10.1016/j.swevo.2024.101838_b88",
+          "doi-asserted-by": "crossref",
+          "first-page": "577",
+          "DOI": "10.1109/TEVC.2013.2281535",
+          "article-title": "An evolutionary many-objective optimization algorithm using reference-point-based nondominated sorting approach, part I: solving problems with box constraints",
+          "volume": "18",
+          "author": "Deb",
+          "year": "2013",
+          "journal-title": "IEEE Trans. Evol. Comput."
+        },
+        {
+          "key": "10.1016/j.swevo.2024.101838_b89",
+          "series-title": "International Conference on Evolutionary Multi-Criterion Optimization",
+          "first-page": "520",
+          "article-title": "Differential evolution for multiobjective optimization",
+          "author": "Robič",
+          "year": "2005"
+        },
+        {
+          "key": "10.1016/j.swevo.2024.101838_b90",
+          "series-title": "2005 IEEE Congress on Evolutionary Computation",
+          "first-page": "443",
+          "article-title": "GDE3: The third evolution step of generalized differential evolution",
+          "volume": "Vol. 1",
+          "author": "Kukkonen",
+          "year": "2005"
+        },
+        {
+          "key": "10.1016/j.swevo.2024.101838_b91",
+          "doi-asserted-by": "crossref",
+          "first-page": "63",
+          "DOI": "10.1007/BF01197559",
+          "article-title": "A closer look at drawbacks of minimizing weighted sums of objectives for Pareto set generation in multicriteria optimization problems",
+          "volume": "14",
+          "author": "Das",
+          "year": "1997",
+          "journal-title": "Struct. Optim."
+        },
+        {
+          "issue": "1",
+          "key": "10.1016/j.swevo.2024.101838_b92",
+          "doi-asserted-by": "crossref",
+          "first-page": "73",
+          "DOI": "10.1287/mnsc.25.1.73",
+          "article-title": "Bicriteria transportation problem",
+          "volume": "25",
+          "author": "Aneja",
+          "year": "1979",
+          "journal-title": "Manage. Sci."
+        },
+        {
+          "key": "10.1016/j.swevo.2024.101838_b93",
+          "doi-asserted-by": "crossref",
+          "unstructured": "C.A. Coello Coello, Constraint-handling techniques used with evolutionary algorithms, in: Proceedings of the 2016 on Genetic and Evolutionary Computation Conference Companion, 2016, pp. 563–587.",
+          "DOI": "10.1145/2908961.2926986"
+        },
+        {
+          "key": "10.1016/j.swevo.2024.101838_b94",
+          "series-title": "Proceedings of the 1972 Ieee Conference on Decision and Control and 11th Symposium on Adaptive Processes",
+          "first-page": "162",
+          "article-title": "A new penalty function method for constrained minimization",
+          "author": "Kort",
+          "year": "1972"
+        },
+        {
+          "issue": "1",
+          "key": "10.1016/j.swevo.2024.101838_b95",
+          "first-page": "45",
+          "article-title": "Penalty function methods for constrained optimization with genetic algorithms",
+          "volume": "10",
+          "author": "Yeniay",
+          "year": "2005",
+          "journal-title": "Math. Comput. Appl."
+        },
+        {
+          "issue": "2",
+          "key": "10.1016/j.swevo.2024.101838_b96",
+          "first-page": "1407",
+          "article-title": "A hybrid particle swarm optimization with a feasibility-based rule for constrained optimization",
+          "volume": "186",
+          "author": "He",
+          "year": "2007",
+          "journal-title": "Appl. Math. Comput."
+        },
+        {
+          "issue": "12",
+          "key": "10.1016/j.swevo.2024.101838_b97",
+          "doi-asserted-by": "crossref",
+          "first-page": "2938",
+          "DOI": "10.1109/TCYB.2015.2493239",
+          "article-title": "Incorporating objective function information into the feasibility rule for constrained evolutionary optimization",
+          "volume": "46",
+          "author": "Wang",
+          "year": "2015",
+          "journal-title": "IEEE Trans. Cybern."
+        },
+        {
+          "issue": "10",
+          "key": "10.1016/j.swevo.2024.101838_b98",
+          "doi-asserted-by": "crossref",
+          "first-page": "1645",
+          "DOI": "10.1080/0305215X.2016.1271661",
+          "article-title": "Constrained multi-objective optimization using constrained non-dominated sorting combined with an improved hybrid multi-objective evolutionary algorithm",
+          "volume": "49",
+          "author": "Ning",
+          "year": "2017",
+          "journal-title": "Eng. Optim."
+        },
+        {
+          "issue": "3",
+          "key": "10.1016/j.swevo.2024.101838_b99",
+          "doi-asserted-by": "crossref",
+          "first-page": "560",
+          "DOI": "10.1109/TSMCB.2006.886164",
+          "article-title": "Multiobjective optimization and hybrid evolutionary algorithm to solve constrained optimization problems",
+          "volume": "37",
+          "author": "Wang",
+          "year": "2007",
+          "journal-title": "IEEE Trans. Syst. Man Cybern. B"
+        },
+        {
+          "issue": "3",
+          "key": "10.1016/j.swevo.2024.101838_b100",
+          "doi-asserted-by": "crossref",
+          "first-page": "284",
+          "DOI": "10.1109/4235.873238",
+          "article-title": "Stochastic ranking for constrained evolutionary optimization",
+          "volume": "4",
+          "author": "Runarsson",
+          "year": "2000",
+          "journal-title": "IEEE Trans. Evol. Comput."
+        },
+        {
+          "key": "10.1016/j.swevo.2024.101838_b101",
+          "series-title": "Proceeding of IEEE Congress on Evolutionary Computation",
+          "first-page": "r8",
+          "article-title": "Constrained optimization by the ɛ constrained differential evolution with gradient-based mutation and feasible elites",
+          "author": "TakahamaT",
+          "year": "2006"
+        },
+        {
+          "key": "10.1016/j.swevo.2024.101838_b102",
+          "series-title": "Evolutionary principles in self-referential learning",
+          "first-page": "48",
+          "author": "Schmidhuber",
+          "year": "1987"
+        },
+        {
+          "key": "10.1016/j.swevo.2024.101838_b103",
+          "series-title": "IJCNN’01. International Joint Conference on Neural Networks. Proceedings (Cat. No. 01CH37222)",
+          "article-title": "Meta-learning with backpropagation",
+          "volume": "Vol. 3",
+          "author": "Younger",
+          "year": "2001"
+        },
+        {
+          "key": "10.1016/j.swevo.2024.101838_b104",
+          "series-title": "Artificial Neural Networks—ICANN 2001: International Conference Vienna, Austria, August 21–25, 2001 Proceedings 11",
+          "first-page": "87",
+          "article-title": "Learning to learn using gradient descent",
+          "author": "Hochreiter",
+          "year": "2001"
+        },
+        {
+          "key": "10.1016/j.swevo.2024.101838_b105",
+          "article-title": "Learning to learn by gradient descent by gradient descent",
+          "volume": "29",
+          "author": "Andrychowicz",
+          "year": "2016",
+          "journal-title": "Adv. Neural Inf. Process Syst."
+        },
+        {
+          "key": "10.1016/j.swevo.2024.101838_b106",
+          "series-title": "International Conference on Machine Learning",
+          "first-page": "748",
+          "article-title": "Learning to learn without gradient descent by gradient descent",
+          "author": "Chen",
+          "year": "2017"
+        },
+        {
+          "key": "10.1016/j.swevo.2024.101838_b107",
+          "doi-asserted-by": "crossref",
+          "first-page": "32053",
+          "DOI": "10.52202/068431-2323",
+          "article-title": "Towards learning universal hyperparameter optimizers with transformers",
+          "volume": "35",
+          "author": "Chen",
+          "year": "2022",
+          "journal-title": "Adv. Neural Inf. Process. Syst."
+        },
+        {
+          "key": "10.1016/j.swevo.2024.101838_b108",
+          "series-title": "Joint European Conference on Machine Learning and Knowledge Discovery in Databases",
+          "first-page": "366",
+          "article-title": "Meta-learning for black-box optimization",
+          "author": "TV",
+          "year": "2019"
+        },
+        {
+          "issue": "7930",
+          "key": "10.1016/j.swevo.2024.101838_b109",
+          "doi-asserted-by": "crossref",
+          "first-page": "47",
+          "DOI": "10.1038/s41586-022-05172-4",
+          "article-title": "Discovering faster matrix multiplication algorithms with reinforcement learning",
+          "volume": "610",
+          "author": "Fawzi",
+          "year": "2022",
+          "journal-title": "Nature"
+        },
+        {
+          "key": "10.1016/j.swevo.2024.101838_b110",
+          "doi-asserted-by": "crossref",
+          "first-page": "234",
+          "DOI": "10.1016/j.swevo.2019.06.010",
+          "article-title": "Differential evolution based on reinforcement learning with fitness ranking for solving multimodal multiobjective problems",
+          "volume": "49",
+          "author": "Li",
+          "year": "2019",
+          "journal-title": "Swarm Evol. Comput."
+        },
+        {
+          "key": "10.1016/j.swevo.2024.101838_b111",
+          "unstructured": "J.E. Pettinger, R.M. Everson, Controlling genetic algorithms with reinforcement learning, in: Proceedings of the 4th Annual Conference on Genetic and Evolutionary Computation, 2002, pp. 692–692."
+        },
+        {
+          "key": "10.1016/j.swevo.2024.101838_b112",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Á. Fialho, M. Schoenauer, M. Sebag, Toward comparison-based adaptive operator selection, in: Proceedings of the 12th Annual Conference on Genetic and Evolutionary Computation, 2010, pp. 767–774.",
+          "DOI": "10.1145/1830483.1830619"
+        },
+        {
+          "key": "10.1016/j.swevo.2024.101838_b113",
+          "series-title": "Parallel Problem Solving from Nature–PPSN XV: 15th International Conference, Coimbra, Portugal, September 8–12, 2018, Proceedings, Part II 15",
+          "first-page": "321",
+          "article-title": "Performance assessment of recursive probability matching for adaptive operator selection in differential evolution",
+          "author": "Sharma",
+          "year": "2018"
+        },
+        {
+          "key": "10.1016/j.swevo.2024.101838_b114",
+          "doi-asserted-by": "crossref",
+          "unstructured": "W. Gong, Á. Fialho, Z. Cai, Adaptive strategy selection in differential evolution, in: Proceedings of the 12th Annual Conference on Genetic and Evolutionary Computation, 2010, pp. 409–416.",
+          "DOI": "10.1145/1830483.1830559"
+        },
+        {
+          "key": "10.1016/j.swevo.2024.101838_b115",
+          "series-title": "2010 Sixth International Conference on Signal-Image Technology and Internet Based Systems",
+          "first-page": "74",
+          "article-title": "A method to control parameters of evolutionary algorithms by using reinforcement learning",
+          "author": "Sakurai",
+          "year": "2010"
+        },
+        {
+          "key": "10.1016/j.swevo.2024.101838_b116",
+          "doi-asserted-by": "crossref",
+          "unstructured": "M. Sharma, A. Komninos, M. López-Ibáñez, D. Kazakov, Deep reinforcement learning based parameter control in differential evolution, in: Proceedings of the Genetic and Evolutionary Computation Conference, 2019, pp. 709–717.",
+          "DOI": "10.1145/3321707.3321813"
+        },
+        {
+          "key": "10.1016/j.swevo.2024.101838_b117",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1016/j.asoc.2021.107678",
+          "article-title": "Differential evolution with mixed mutation strategy based on deep reinforcement learning",
+          "volume": "111",
+          "author": "Tan",
+          "year": "2021",
+          "journal-title": "Appl. Soft Comput."
+        },
+        {
+          "issue": "4",
+          "key": "10.1016/j.swevo.2024.101838_b118",
+          "doi-asserted-by": "crossref",
+          "first-page": "666",
+          "DOI": "10.1109/TEVC.2021.3060811",
+          "article-title": "Learning adaptive differential evolution algorithm from optimization experiences by policy gradient",
+          "volume": "25",
+          "author": "Sun",
+          "year": "2021",
+          "journal-title": "IEEE Trans. Evol. Comput."
+        },
+        {
+          "key": "10.1016/j.swevo.2024.101838_b119",
+          "first-page": "1057",
+          "article-title": "Policy gradient methods for reinforcement learning with function approximation",
+          "author": "Sutton",
+          "year": "1999"
+        },
+        {
+          "key": "10.1016/j.swevo.2024.101838_b120",
+          "series-title": "Parallel Problem Solving from Nature–PPSN XVI: 16th International Conference, PPSN 2020, Leiden, the Netherlands, September 5-9, 2020, Proceedings, Part I 16",
+          "first-page": "691",
+          "article-title": "Learning step-size adaptation in CMA-ES",
+          "author": "Shala",
+          "year": "2020"
+        },
+        {
+          "issue": "2",
+          "key": "10.1016/j.swevo.2024.101838_b121",
+          "doi-asserted-by": "crossref",
+          "first-page": "159",
+          "DOI": "10.1162/106365601750190398",
+          "article-title": "Completely derandomized self-adaptation in evolution strategies",
+          "volume": "9",
+          "author": "Hansen",
+          "year": "2001",
+          "journal-title": "Evol. Comput."
+        },
+        {
+          "key": "10.1016/j.swevo.2024.101838_b122",
+          "article-title": "Learning neural network policies with guided policy search under unknown dynamics",
+          "volume": "27",
+          "author": "Levine",
+          "year": "2014",
+          "journal-title": "Adv. Neural Inf. Process Syst."
+        },
+        {
+          "key": "10.1016/j.swevo.2024.101838_b123",
+          "series-title": "Learning to evolve",
+          "author": "Schuchardt",
+          "year": "2019"
+        },
+        {
+          "key": "10.1016/j.swevo.2024.101838_b124",
+          "article-title": "Automated design of metaheuristics using reinforcement learning within a novel general search framework",
+          "author": "Yi",
+          "year": "2022",
+          "journal-title": "IEEE Trans. Evol. Comput."
+        },
+        {
+          "key": "10.1016/j.swevo.2024.101838_b125",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1109/TSMC.2024.3374889",
+          "article-title": "Deep reinforcement learning for dynamic algorithm selection: A proof-of-principle study on differential evolution",
+          "author": "Guo",
+          "year": "2024",
+          "journal-title": "IEEE Trans. Syst., Man, Cybern.: Syst."
+        },
+        {
+          "key": "10.1016/j.swevo.2024.101838_b126",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Z. Ma, J. Chen, H. Guo, Y. Ma, Y.-J. Gong, Auto-configuring exploration-exploitation tradeoff in evolutionary computation via deep reinforcement learning, in: Proceedings of the Genetic and Evolutionary Computation Conference, 2024, pp. 1497–1505.",
+          "DOI": "10.1145/3638529.3653996"
+        },
+        {
+          "key": "10.1016/j.swevo.2024.101838_b127",
+          "series-title": "Symbol: Generating flexible black-box optimizers through symbolic equation learning",
+          "author": "Chen",
+          "year": "2024"
+        },
+        {
+          "key": "10.1016/j.swevo.2024.101838_b128",
+          "series-title": "Proceedings of ICNN’95-International Conference on Neural Networks",
+          "first-page": "1942",
+          "article-title": "Particle swarm optimization",
+          "volume": "Vol. 4",
+          "author": "Kennedy",
+          "year": "1995"
+        },
+        {
+          "key": "10.1016/j.swevo.2024.101838_b129",
+          "doi-asserted-by": "crossref",
+          "first-page": "387",
+          "DOI": "10.1007/s00500-016-2474-6",
+          "article-title": "Particle swarm optimization algorithm: an overview",
+          "volume": "22",
+          "author": "Wang",
+          "year": "2018",
+          "journal-title": "Soft Comput."
+        },
+        {
+          "key": "10.1016/j.swevo.2024.101838_b130",
+          "doi-asserted-by": "crossref",
+          "first-page": "10031",
+          "DOI": "10.1109/ACCESS.2022.3142859",
+          "article-title": "Particle swarm optimization: A comprehensive survey",
+          "volume": "10",
+          "author": "Shami",
+          "year": "2022",
+          "journal-title": "IEEE Access"
+        },
+        {
+          "key": "10.1016/j.swevo.2024.101838_b131",
+          "doi-asserted-by": "crossref",
+          "first-page": "276",
+          "DOI": "10.1016/j.asoc.2016.01.006",
+          "article-title": "A new reinforcement learning-based memetic particle swarm optimizer",
+          "volume": "43",
+          "author": "Samma",
+          "year": "2016",
+          "journal-title": "Appl. Soft Comput."
+        },
+        {
+          "key": "10.1016/j.swevo.2024.101838_b132",
+          "doi-asserted-by": "crossref",
+          "first-page": "10007",
+          "DOI": "10.1007/s00521-019-04527-9",
+          "article-title": "A reinforcement learning-based communication topology in particle swarm optimization",
+          "volume": "32",
+          "author": "Xu",
+          "year": "2020",
+          "journal-title": "Neural Comput. Appl."
+        },
+        {
+          "issue": "5",
+          "key": "10.1016/j.swevo.2024.101838_b133",
+          "doi-asserted-by": "crossref",
+          "first-page": "2199",
+          "DOI": "10.1007/s40747-021-00395-w",
+          "article-title": "Reinforcement learning-based particle swarm optimization for sewage treatment control",
+          "volume": "7",
+          "author": "Lu",
+          "year": "2021",
+          "journal-title": "Complex Intell. Syst."
+        },
+        {
+          "key": "10.1016/j.swevo.2024.101838_b134",
+          "doi-asserted-by": "crossref",
+          "first-page": "298",
+          "DOI": "10.1016/j.ins.2022.04.053",
+          "article-title": "A reinforcement learning level-based particle swarm optimization algorithm for large-scale optimization",
+          "volume": "602",
+          "author": "Wang",
+          "year": "2022",
+          "journal-title": "Inform. Sci."
+        },
+        {
+          "issue": "2",
+          "key": "10.1016/j.swevo.2024.101838_b135",
+          "doi-asserted-by": "crossref",
+          "first-page": "329",
+          "DOI": "10.1080/0305215X.2020.1867120",
+          "article-title": "Employing reinforcement learning to enhance particle swarm optimization methods",
+          "volume": "54",
+          "author": "Wu",
+          "year": "2022",
+          "journal-title": "Eng. Optim."
+        },
+        {
+          "key": "10.1016/j.swevo.2024.101838_b136",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1016/j.swevo.2023.101274",
+          "article-title": "Reinforcement learning-based particle swarm optimization with neighborhood differential mutation strategy",
+          "volume": "78",
+          "author": "Li",
+          "year": "2023",
+          "journal-title": "Swarm Evol. Comput."
+        },
+        {
+          "key": "10.1016/j.swevo.2024.101838_b137",
+          "series-title": "Reinforced in-context black-box optimization",
+          "author": "Song",
+          "year": "2024"
+        },
+        {
+          "key": "10.1016/j.swevo.2024.101838_b138",
+          "unstructured": "M.R. Zhang, N. Desai, J. Bae, J. Lorraine, J. Ba, Using large language models for hyperparameter optimization, in: NeurIPS 2023 Foundation Models for Decision Making Workshop, 2023."
+        },
+        {
+          "key": "10.1016/j.swevo.2024.101838_b139",
+          "series-title": "Large language models as optimizers",
+          "author": "Yang",
+          "year": "2023"
+        },
+        {
+          "key": "10.1016/j.swevo.2024.101838_b140",
+          "series-title": "2024 IEEE Congress on Evolutionary Computation",
+          "first-page": "1",
+          "article-title": "Large language models as evolutionary optimizers",
+          "author": "Liu",
+          "year": "2024"
+        },
+        {
+          "key": "10.1016/j.swevo.2024.101838_b141",
+          "series-title": "Handbook of Metaheuristics",
+          "first-page": "320",
+          "article-title": "Iterated local search",
+          "author": "Lourenço",
+          "year": "2003"
+        },
+        {
+          "key": "10.1016/j.swevo.2024.101838_b142",
+          "series-title": "Learning and Intelligent Optimization: 10th International Conference, LION 10, Ischia, Italy, May 29–June 1, 2016, Revised Selected Papers 10",
+          "first-page": "32",
+          "article-title": "MO-paramils: A multi-objective automatic algorithm configuration framework",
+          "author": "Blot",
+          "year": "2016"
+        },
+        {
+          "key": "10.1016/j.swevo.2024.101838_b143",
+          "doi-asserted-by": "crossref",
+          "first-page": "48",
+          "DOI": "10.1016/j.swevo.2014.10.006",
+          "article-title": "Automatically configuring ACO using multilevel ParamILS to solve transportation planning problems with underlying weighted networks",
+          "volume": "20",
+          "author": "Lin",
+          "year": "2015",
+          "journal-title": "Swarm Evol. Comput."
+        },
+        {
+          "key": "10.1016/j.swevo.2024.101838_b144",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1016/j.knosys.2020.106264",
+          "article-title": "Hyper-heuristic local search for combinatorial optimisation problems",
+          "volume": "205",
+          "author": "Turky",
+          "year": "2020",
+          "journal-title": "Knowl.-Based Syst."
+        },
+        {
+          "key": "10.1016/j.swevo.2024.101838_b145",
+          "series-title": "International Conference on Machine Learning",
+          "first-page": "10553",
+          "article-title": "Unbiased gradient estimation in unrolled computation graphs with persistent evolution strategies",
+          "author": "Vicol",
+          "year": "2021"
+        },
+        {
+          "key": "10.1016/j.swevo.2024.101838_b146",
+          "first-page": "16455",
+          "article-title": "Discovered policy optimisation",
+          "volume": "35",
+          "author": "Lu",
+          "year": "2022",
+          "journal-title": "Adv. Neural Inf. Process. Syst."
+        },
+        {
+          "issue": "1",
+          "key": "10.1016/j.swevo.2024.101838_b147",
+          "doi-asserted-by": "crossref",
+          "first-page": "122",
+          "DOI": "10.1109/TSMC.1986.289288",
+          "article-title": "Optimization of control parameters for genetic algorithms",
+          "volume": "16",
+          "author": "Grefenstette",
+          "year": "1986",
+          "journal-title": "IEEE Trans. Syst., Man, Cybern."
+        },
+        {
+          "key": "10.1016/j.swevo.2024.101838_b148",
+          "series-title": "2007 IEEE Congress on Evolutionary Computation",
+          "first-page": "103",
+          "article-title": "Efficient relevance estimation and value calibration of evolutionary algorithm parameters",
+          "author": "Nannen",
+          "year": "2007"
+        },
+        {
+          "key": "10.1016/j.swevo.2024.101838_b149",
+          "series-title": "International Conference on Principles and Practice of Constraint Programming",
+          "first-page": "142",
+          "article-title": "A gender-based genetic algorithm for the automatic configuration of algorithms",
+          "author": "Ansótegui",
+          "year": "2009"
+        },
+        {
+          "key": "10.1016/j.swevo.2024.101838_b150",
+          "series-title": "Meta learning black-box population-based optimizers",
+          "author": "Gomes",
+          "year": "2021"
+        },
+        {
+          "key": "10.1016/j.swevo.2024.101838_b151",
+          "series-title": "Deep neuroevolution: Genetic algorithms are a competitive alternative for training deep neural networks for reinforcement learning",
+          "author": "Such",
+          "year": "2017"
+        },
+        {
+          "key": "10.1016/j.swevo.2024.101838_b152",
+          "first-page": "311",
+          "article-title": "F-race and iterated F-race: An overview",
+          "author": "Birattari",
+          "year": "2010",
+          "journal-title": "Exp. Methods Anal. Optim. Algorithms"
+        },
+        {
+          "key": "10.1016/j.swevo.2024.101838_b153",
+          "series-title": "Hybrid Metaheuristics: 4th International Workshop, HM 2007, Dortmund, Germany, October 8-9, 2007. Proceedings 4",
+          "first-page": "108",
+          "article-title": "Improvement strategies for the F-race algorithm: Sampling design and iterative refinement",
+          "author": "Balaprakash",
+          "year": "2007"
+        },
+        {
+          "key": "10.1016/j.swevo.2024.101838_b154",
+          "series-title": "International Conference on Swarm Intelligence",
+          "first-page": "95",
+          "article-title": "Automatic configuration of multi-objective ACO algorithms",
+          "author": "López-Ibáñez",
+          "year": "2010"
+        },
+        {
+          "key": "10.1016/j.swevo.2024.101838_b155",
+          "series-title": "International Conference on Machine Learning",
+          "first-page": "7825",
+          "article-title": "Mirror learning: A unifying framework of policy optimisation",
+          "author": "Grudzien",
+          "year": "2022"
+        },
+        {
+          "key": "10.1016/j.swevo.2024.101838_b156",
+          "article-title": "Attention is all you need",
+          "volume": "30",
+          "author": "Vaswani",
+          "year": "2017",
+          "journal-title": "Adv. Neural Inf. Process Syst."
+        },
+        {
+          "key": "10.1016/j.swevo.2024.101838_b157",
+          "series-title": "International Conference on Machine Learning",
+          "first-page": "3744",
+          "article-title": "Set transformer: A framework for attention-based permutation-invariant neural networks",
+          "author": "Lee",
+          "year": "2019"
+        },
+        {
+          "key": "10.1016/j.swevo.2024.101838_b158",
+          "doi-asserted-by": "crossref",
+          "unstructured": "R. Lange, T. Schaul, Y. Chen, C. Lu, T. Zahavy, V. Dalibard, S. Flennerhag, Discovering attention-based genetic algorithms via meta-black-box optimization, in: Proceedings of the Genetic and Evolutionary Computation Conference, 2023, pp. 929–937.",
+          "DOI": "10.1145/3583131.3590496"
+        },
+        {
+          "key": "10.1016/j.swevo.2024.101838_b159",
+          "series-title": "Genetic Programming: a Paradigm for Genetically Breeding Populations of Computer Programs to Solve Problems",
+          "author": "Koza",
+          "year": "1990"
+        },
+        {
+          "key": "10.1016/j.swevo.2024.101838_b160",
+          "doi-asserted-by": "crossref",
+          "first-page": "87",
+          "DOI": "10.1007/BF00175355",
+          "article-title": "Genetic programming as a means for programming computers by natural selection",
+          "volume": "4",
+          "author": "Koza",
+          "year": "1994",
+          "journal-title": "Stat. Comput."
+        },
+        {
+          "issue": "1",
+          "key": "10.1016/j.swevo.2024.101838_b161",
+          "doi-asserted-by": "crossref",
+          "first-page": "250",
+          "DOI": "10.1093/bioinformatics/btz470",
+          "article-title": "Scaling tree-based automated machine learning to biomedical big data with a feature set selector",
+          "volume": "36",
+          "author": "Le",
+          "year": "2020",
+          "journal-title": "Bioinformatics"
+        },
+        {
+          "key": "10.1016/j.swevo.2024.101838_b162",
+          "series-title": "Applications of Evolutionary Computation: 19th European Conference, EvoApplications 2016, Porto, Portugal, March 30 – April 1, 2016, Proceedings, Part I",
+          "first-page": "123",
+          "author": "Olson",
+          "year": "2016"
+        },
+        {
+          "key": "10.1016/j.swevo.2024.101838_b163",
+          "series-title": "Proceedings of the Genetic and Evolutionary Computation Conference 2016",
+          "first-page": "485",
+          "article-title": "Evaluation of a tree-based pipeline optimization tool for automating data science",
+          "author": "Olson",
+          "year": "2016"
+        },
+        {
+          "key": "10.1016/j.swevo.2024.101838_b164",
+          "first-page": "18",
+          "article-title": "Learning to learn for global optimization of black box functions",
+          "volume": "1050",
+          "author": "Sergio",
+          "year": "2016",
+          "journal-title": "Stat"
+        },
+        {
+          "key": "10.1016/j.swevo.2024.101838_b165",
+          "series-title": "Learning and Intelligent Optimization: 5th International Conference, LION 5, Rome, Italy, January 17-21, 2011. Selected Papers 5",
+          "first-page": "507",
+          "article-title": "Sequential model-based optimization for general algorithm configuration",
+          "author": "Hutter",
+          "year": "2011"
+        },
+        {
+          "key": "10.1016/j.swevo.2024.101838_b166",
+          "series-title": "Real-parameter black-box optimization benchmarking 2009: Noiseless functions definitions",
+          "author": "Hansen",
+          "year": "2009"
+        },
+        {
+          "key": "10.1016/j.swevo.2024.101838_b167",
+          "doi-asserted-by": "crossref",
+          "unstructured": "O. Mersmann, B. Bischl, H. Trautmann, M. Preuss, C. Weihs, G. Rudolph, Exploratory landscape analysis, in: Proceedings of the 13th Annual Conference on Genetic and Evolutionary Computation, 2011, pp. 829–836.",
+          "DOI": "10.1145/2001576.2001690"
+        },
+        {
+          "key": "10.1016/j.swevo.2024.101838_b168",
+          "series-title": "Real-parameter black-box optimization benchmarking 2009: Noisy functions definitions",
+          "author": "Hansen",
+          "year": "2009"
+        },
+        {
+          "issue": "15",
+          "key": "10.1016/j.swevo.2024.101838_b169",
+          "doi-asserted-by": "crossref",
+          "first-page": "3111",
+          "DOI": "10.1002/prot.22830",
+          "article-title": "Protein–protein docking benchmark version 4.0",
+          "volume": "78",
+          "author": "Hwang",
+          "year": "2010",
+          "journal-title": "Proteins: Struct., Funct., Bioinform."
+        },
+        {
+          "issue": "2",
+          "key": "10.1016/j.swevo.2024.101838_b170",
+          "doi-asserted-by": "crossref",
+          "first-page": "81",
+          "DOI": "10.1145/380995.381030",
+          "article-title": "The UCI kdd archive of large data sets for data mining research and experimentation",
+          "volume": "2",
+          "author": "Bay",
+          "year": "2000",
+          "journal-title": "ACM SIGKDD Explor. Newslett."
+        },
+        {
+          "issue": "11",
+          "key": "10.1016/j.swevo.2024.101838_b171",
+          "doi-asserted-by": "crossref",
+          "first-page": "2278",
+          "DOI": "10.1109/5.726791",
+          "article-title": "Gradient-based learning applied to document recognition",
+          "volume": "86",
+          "author": "LeCun",
+          "year": "1998",
+          "journal-title": "Proc. IEEE"
+        },
+        {
+          "key": "10.1016/j.swevo.2024.101838_b172",
+          "series-title": "Fashion-mnist: a novel image dataset for benchmarking machine learning algorithms",
+          "author": "Xiao",
+          "year": "2017"
+        },
+        {
+          "key": "10.1016/j.swevo.2024.101838_b173",
+          "series-title": "2009 IEEE Conference on Computer Vision and Pattern Recognition",
+          "first-page": "248",
+          "article-title": "Imagenet: A large-scale hierarchical image database",
+          "author": "Deng",
+          "year": "2009"
+        },
+        {
+          "key": "10.1016/j.swevo.2024.101838_b174",
+          "article-title": "Real-parameter black-box optimization benchmarking 2009: Experimental setup",
+          "author": "Hansen",
+          "year": "2009",
+          "journal-title": "Hal Inria"
+        },
+        {
+          "issue": "6",
+          "key": "10.1016/j.swevo.2024.101838_b175",
+          "doi-asserted-by": "crossref",
+          "first-page": "1293",
+          "DOI": "10.1109/TEVC.2022.3210897",
+          "article-title": "Anytime performance assessment in blackbox optimization benchmarking",
+          "volume": "26",
+          "author": "Hansen",
+          "year": "2022",
+          "journal-title": "IEEE Trans. Evol. Comput."
+        },
+        {
+          "issue": "1",
+          "key": "10.1016/j.swevo.2024.101838_b176",
+          "doi-asserted-by": "crossref",
+          "first-page": "114",
+          "DOI": "10.1080/10556788.2020.1808977",
+          "article-title": "COCO: a platform for comparing continuous optimizers in a black-box setting",
+          "volume": "36",
+          "author": "Nikolaus",
+          "year": "2021",
+          "journal-title": "Optim. Methods Softw."
+        },
+        {
+          "key": "10.1016/j.swevo.2024.101838_b177",
+          "series-title": "Evolutionary Multi-Criterion Optimization: 9th International Conference, EMO 2017, Münster, Germany, March 19-22, 2017, Proceedings 9",
+          "first-page": "61",
+          "article-title": "Automatically configuring multi-objective local search using multi-objective optimisation",
+          "author": "Blot",
+          "year": "2017"
+        },
+        {
+          "key": "10.1016/j.swevo.2024.101838_b178",
+          "series-title": "2020 IEEE Congress on Evolutionary Computation",
+          "first-page": "1",
+          "article-title": "Multi-objective automatic algorithm configuration for the classification problem of imbalanced data",
+          "author": "Tari",
+          "year": "2020"
+        },
+        {
+          "issue": "6",
+          "key": "10.1016/j.swevo.2024.101838_b179",
+          "doi-asserted-by": "crossref",
+          "first-page": "1510",
+          "DOI": "10.1109/TCYB.2016.2550502",
+          "article-title": "Diversity assessment in many-objective optimization",
+          "volume": "47",
+          "author": "Wang",
+          "year": "2016",
+          "journal-title": "IEEE Trans. Cybern."
+        },
+        {
+          "key": "10.1016/j.swevo.2024.101838_b180",
+          "doi-asserted-by": "crossref",
+          "first-page": "163",
+          "DOI": "10.1007/s10710-005-6164-x",
+          "article-title": "Solving multiobjective optimization problems using an artificial immune system",
+          "volume": "6",
+          "author": "Coello",
+          "year": "2005",
+          "journal-title": "Genetic Program. Evol. Mach."
+        },
+        {
+          "issue": "4",
+          "key": "10.1016/j.swevo.2024.101838_b181",
+          "doi-asserted-by": "crossref",
+          "first-page": "257",
+          "DOI": "10.1109/4235.797969",
+          "article-title": "Multiobjective evolutionary algorithms: a comparative case study and the strength Pareto approach",
+          "volume": "3",
+          "author": "Zitzler",
+          "year": "1999",
+          "journal-title": "IEEE Trans. Evol. Comput."
+        },
+        {
+          "issue": "6",
+          "key": "10.1016/j.swevo.2024.101838_b182",
+          "doi-asserted-by": "crossref",
+          "first-page": "1526",
+          "DOI": "10.1109/TEVC.2022.3159087",
+          "article-title": "Automated configuration of genetic algorithms by tuning for anytime performance",
+          "volume": "26",
+          "author": "Ye",
+          "year": "2022",
+          "journal-title": "IEEE Trans. Evol. Comput."
+        },
+        {
+          "key": "10.1016/j.swevo.2024.101838_b183",
+          "series-title": "MetaBox: A benchmark platform for meta-black-box optimization with reinforcement learning",
+          "author": "Ma",
+          "year": "2023"
+        },
+        {
+          "key": "10.1016/j.swevo.2024.101838_b184",
+          "series-title": "2005 IEEE Congress on Evolutionary Computation",
+          "first-page": "1777",
+          "article-title": "Performance evaluation of an advanced local search evolutionary algorithm",
+          "volume": "Vol. 2",
+          "author": "Auger",
+          "year": "2005"
+        },
+        {
+          "issue": "2005",
+          "key": "10.1016/j.swevo.2024.101838_b185",
+          "first-page": "2005",
+          "article-title": "Problem definitions and evaluation criteria for the CEC 2005 special session on real-parameter optimization",
+          "volume": "2005005",
+          "author": "Suganthan",
+          "year": "2005",
+          "journal-title": "KanGAL Report"
+        },
+        {
+          "issue": "1",
+          "key": "10.1016/j.swevo.2024.101838_b186",
+          "doi-asserted-by": "crossref",
+          "first-page": "8",
+          "DOI": "10.1145/3460310.3460312",
+          "article-title": "Nevergrad: black-box optimization platform",
+          "volume": "14",
+          "author": "Bennet",
+          "year": "2021",
+          "journal-title": "ACM SIGEVOlution"
+        },
+        {
+          "issue": "2",
+          "key": "10.1016/j.swevo.2024.101838_b187",
+          "doi-asserted-by": "crossref",
+          "first-page": "49",
+          "DOI": "10.1145/2641190.2641198",
+          "article-title": "OpenML: networked science in machine learning",
+          "volume": "15",
+          "author": "Vanschoren",
+          "year": "2014",
+          "journal-title": "ACM SIGKDD Explor. Newsl."
+        },
+        {
+          "key": "10.1016/j.swevo.2024.101838_b188",
+          "series-title": "AutoGluon-tabular: Robust and accurate AutoML for structured data",
+          "author": "Erickson",
+          "year": "2020"
+        },
+        {
+          "issue": "12",
+          "key": "10.1016/j.swevo.2024.101838_b189",
+          "doi-asserted-by": "crossref",
+          "first-page": "3005",
+          "DOI": "10.14778/3415478.3415530",
+          "article-title": "Mlbench: Benchmarking machine learning services against human performance",
+          "volume": "13",
+          "author": "Li",
+          "year": "2020",
+          "journal-title": "Proc. VLDB Endow."
+        },
+        {
+          "key": "10.1016/j.swevo.2024.101838_b190",
+          "first-page": "123",
+          "article-title": "Automating biomedical data science through tree-based pipeline optimization",
+          "author": "Olson",
+          "year": "2016",
+          "journal-title": "Appl. Evol. Comput."
+        },
+        {
+          "key": "10.1016/j.swevo.2024.101838_b191",
+          "series-title": "H2O AutoML: Scalable Automatic Machine Learning",
+          "author": "LeDell",
+          "year": "2020"
+        },
+        {
+          "key": "10.1016/j.swevo.2024.101838_b192",
+          "first-page": "434",
+          "article-title": "Flaml: A fast and lightweight automl library",
+          "volume": "3",
+          "author": "Wang",
+          "year": "2021",
+          "journal-title": "Proc. Mach. Learn. Syst."
+        },
+        {
+          "key": "10.1016/j.swevo.2024.101838_b193",
+          "article-title": "Efficient and robust automated machine learning",
+          "volume": "28",
+          "author": "Feurer",
+          "year": "2015",
+          "journal-title": "Adv. Neural Inf. Process Syst."
+        },
+        {
+          "issue": "268",
+          "key": "10.1016/j.swevo.2024.101838_b194",
+          "first-page": "1",
+          "article-title": "Stable Baselines3: Reliable reinforcement learning implementations",
+          "volume": "22",
+          "author": "Raffin",
+          "year": "2021",
+          "journal-title": "J. Mach. Learn. Res."
+        },
+        {
+          "key": "10.1016/j.swevo.2024.101838_b195",
+          "series-title": "International Conference on Machine Learning",
+          "first-page": "3053",
+          "article-title": "RLlib: Abstractions for distributed reinforcement learning",
+          "author": "Liang",
+          "year": "2018"
+        },
+        {
+          "issue": "274",
+          "key": "10.1016/j.swevo.2024.101838_b196",
+          "first-page": "1",
+          "article-title": "CleanRL: High-quality single-file implementations of deep reinforcement learning algorithms",
+          "volume": "23",
+          "author": "Huang",
+          "year": "2022",
+          "journal-title": "J. Mach. Learn. Res."
+        },
+        {
+          "key": "10.1016/j.swevo.2024.101838_b197",
+          "doi-asserted-by": "crossref",
+          "unstructured": "D. Zha, K.-H. Lai, S. Huang, Y. Cao, K. Reddy, J. Vargas, A. Nguyen, R. Wei, J. Guo, X. Hu, RLCard: a platform for reinforcement learning in card games, in: Proceedings of the Twenty-Ninth International Conference on International Joint Conferences on Artificial Intelligence, 2021, pp. 5264–5266.",
+          "DOI": "10.24963/ijcai.2020/764"
+        },
+        {
+          "key": "10.1016/j.swevo.2024.101838_b198",
+          "doi-asserted-by": "crossref",
+          "unstructured": "R. Ramamonjison, H. Li, T.T. Yu, S. He, V. Rengan, A. Banitalebi-Dehkordi, Z. Zhou, Y. Zhang, Augmenting Operations Research with Auto-Formulation of Optimization Models from Problem Descriptions, in: Conference on Empirical Methods in Natural Language Processing, EMNLP, 2022, pp. 29–62.",
+          "DOI": "10.18653/v1/2022.emnlp-industry.4"
+        },
+        {
+          "issue": "3",
+          "key": "10.1016/j.swevo.2024.101838_b199",
+          "first-page": "265",
+          "article-title": "Evolutionary algorithms for constrained optimization problems",
+          "volume": "4",
+          "author": "Deb",
+          "year": "2000",
+          "journal-title": "IEEE Trans. Evol. Comput."
+        },
+        {
+          "issue": "2",
+          "key": "10.1016/j.swevo.2024.101838_b200",
+          "doi-asserted-by": "crossref",
+          "first-page": "115",
+          "DOI": "10.1109/LSP.2003.821649",
+          "article-title": "A generalized normalized gradient descent algorithm",
+          "volume": "11",
+          "author": "Mandic",
+          "year": "2004",
+          "journal-title": "IEEE Signal Process Lett."
+        },
+        {
+          "key": "10.1016/j.swevo.2024.101838_b201",
+          "article-title": "Parallelized stochastic gradient descent",
+          "volume": "23",
+          "author": "Zinkevich",
+          "year": "2010",
+          "journal-title": "Adv. Neural Inf. Process Syst."
+        },
+        {
+          "key": "10.1016/j.swevo.2024.101838_b202",
+          "series-title": "Adam: A method for stochastic optimization",
+          "author": "Kingma",
+          "year": "2014"
+        },
+        {
+          "key": "10.1016/j.swevo.2024.101838_b203",
+          "first-page": "29",
+          "article-title": "Neural networks for machine learning lecture 6a overview of mini-batch gradient descent",
+          "author": "Hinton",
+          "year": "2012",
+          "journal-title": "Coursera"
+        },
+        {
+          "key": "10.1016/j.swevo.2024.101838_b204",
+          "article-title": "Meta-gradient reinforcement learning",
+          "volume": "31",
+          "author": "Xu",
+          "year": "2018",
+          "journal-title": "Adv. Neural Inf. Process Syst."
+        },
+        {
+          "key": "10.1016/j.swevo.2024.101838_b205",
+          "first-page": "1060",
+          "article-title": "Discovering reinforcement learning algorithms",
+          "volume": "33",
+          "author": "Oh",
+          "year": "2020",
+          "journal-title": "Adv. Neural Inf. Process. Syst."
+        },
+        {
+          "key": "10.1016/j.swevo.2024.101838_b206",
+          "first-page": "15254",
+          "article-title": "Meta-gradient reinforcement learning with an objective discovered online",
+          "volume": "33",
+          "author": "Xu",
+          "year": "2020",
+          "journal-title": "Adv. Neural Inf. Process. Syst."
+        },
+        {
+          "key": "10.1016/j.swevo.2024.101838_b207",
+          "series-title": "One step at a time: Pros and cons of multi-step meta-gradient reinforcement learning",
+          "author": "Bonnet",
+          "year": "2021"
+        },
+        {
+          "key": "10.1016/j.swevo.2024.101838_b208",
+          "series-title": "Bootstrapped meta-learning",
+          "author": "Flennerhag",
+          "year": "2021"
+        },
+        {
+          "key": "10.1016/j.swevo.2024.101838_b209",
+          "series-title": "Darts: Differentiable architecture search",
+          "author": "Liu",
+          "year": "2018"
+        },
+        {
+          "key": "10.1016/j.swevo.2024.101838_b210",
+          "series-title": "International Conference on Automated Machine Learning",
+          "first-page": "20",
+          "article-title": "Differentiable architecture search for reinforcement learning",
+          "author": "Miao",
+          "year": "2022"
+        }
+      ],
+      "container-title": [
+        "Swarm and Evolutionary Computation"
+      ],
+      "original-title": [],
+      "language": "en",
+      "link": [
+        {
+          "URL": "https://api.elsevier.com/content/article/PII:S2210650224003766?httpAccept=text/xml",
+          "content-type": "text/xml",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        },
+        {
+          "URL": "https://api.elsevier.com/content/article/PII:S2210650224003766?httpAccept=text/plain",
+          "content-type": "text/plain",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            5,
+            15
+          ]
+        ],
+        "date-time": "2026-05-15T10:13:37Z",
+        "timestamp": 1778840017000
+      },
+      "score": 1,
+      "resource": {
+        "primary": {
+          "URL": "https://linkinghub.elsevier.com/retrieve/pii/S2210650224003766"
+        }
+      },
+      "subtitle": [],
+      "short-title": [],
+      "issued": {
+        "date-parts": [
+          [
+            2025,
+            3
+          ]
+        ]
+      },
+      "references-count": 210,
+      "alternative-id": [
+        "S2210650224003766"
+      ],
+      "URL": "https://doi.org/10.1016/j.swevo.2024.101838",
+      "relation": {},
+      "ISSN": [
+        "2210-6502"
+      ],
+      "issn-type": [
+        {
+          "value": "2210-6502",
+          "type": "print"
+        }
+      ],
+      "subject": [],
+      "published": {
+        "date-parts": [
+          [
+            2025,
+            3
+          ]
+        ]
+      },
+      "assertion": [
+        {
+          "value": "Elsevier",
+          "name": "publisher",
+          "label": "This article is maintained by"
+        },
+        {
+          "value": "Meta-Black-Box optimization for evolutionary algorithms: Review and perspective",
+          "name": "articletitle",
+          "label": "Article Title"
+        },
+        {
+          "value": "Swarm and Evolutionary Computation",
+          "name": "journaltitle",
+          "label": "Journal Title"
+        },
+        {
+          "value": "https://doi.org/10.1016/j.swevo.2024.101838",
+          "name": "articlelink",
+          "label": "CrossRef DOI link to publisher maintained version"
+        },
+        {
+          "value": "article",
+          "name": "content_type",
+          "label": "Content Type"
+        },
+        {
+          "value": "© 2025 Elsevier B.V. All rights are reserved, including those for text and data mining, AI training, and similar technologies.",
+          "name": "copyright",
+          "label": "Copyright"
+        }
+      ],
+      "article-number": "101838"
+    }
+  }
+}

@@ -15,7 +15,7 @@
 - **Reproducible.** Fixed seeds, a golden snapshot of every domain × variant × algorithm (`tests/golden/results.json`), and a
   check that the browser engine reproduces it value for value.
 
-- **Research map and review library.** Explore historical branches, teams and applications, with 128 review/tutorial/methodology references, 12 claim-level checks and an explicit 42-topic coverage ledger. 37 items have abstract/section reading notes; 91 remain bibliographic entries. See [research map](https://funnywayike.github.io/swarm-encyclopedia/meta/research-map/); this collection is not an exhaustive systematic review.
+- **Research map and review library.** Follow 20 research routes from origins and turning points to recent work and evidence boundaries. Explore 80 dated map entries, teams and applications, with 149 review/tutorial/methodology references and a 42-topic coverage ledger. 58 items have abstract/section reading notes; 91 remain bibliographic entries. Source reading levels, shared authors and version relationships are explicit. See [research map](https://funnywayike.github.io/swarm-encyclopedia/meta/research-map/); this is a representative guide, not an exhaustive systematic review.
 
 ```bash
 python serve.py          # then open http://127.0.0.1:8000/   (Python 3.12+, standard library only)

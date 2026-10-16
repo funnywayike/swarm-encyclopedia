@@ -35,7 +35,7 @@
         "review-aco-cb45b0",
         "acoSchedule2013"
       ],
-      "remaining": "尚缺本轮已核读的近年通用更新和连续扩展综述。"
+      "remaining": "已接入2024文献计量综述与2023—2026学习辅助原始研究；连续ACO、收敛条件及跨问题独立复现仍应按专题深入。"
     },
     {
       "id": "abc",
@@ -43,9 +43,11 @@
       "ring": "核心群智能",
       "sources": [
         "review-abc-98ba57",
-        "10.1007/s10878-025-01296-1"
+        "10.1007/s10878-025-01296-1",
+        "r26-abc-review",
+        "review-coverage-abc-scheduling-44c34a"
       ],
-      "remaining": "新增2025年排程专题更新，但范围较窄且作者可能延续；仍需通用更新、独立团队与正文核读。"
+      "remaining": "已核读独立团队2025通用综述摘要，并与排程专题分开；具体机制的正文、预算和独立复现仍需逐项核对。"
     },
     {
       "id": "de",
@@ -55,7 +57,9 @@
         "review-de-5942be",
         "review-de-d01ad3",
         "10.1007/s11831-024-10136-0",
-        "10.1016/j.neucom.2023.126899"
+        "10.1016/j.neucom.2023.126899",
+        "r26-de-operators",
+        "review-coverage-de-update-new-0a1e7e"
       ],
       "remaining": "已有近年算子与探索/开发专题更新，仍需正文对照；不由收录数量推断独立共识。"
     },
@@ -66,7 +70,11 @@
       "sources": [
         "review-ga-38fcbe",
         "cma-tutorial",
-        "10.1007/s11042-020-10139-6"
+        "10.1007/s11042-020-10139-6",
+        "r26-ga-brkga",
+        "review-coverage-ga-update-9e7f02",
+        "r26-es-review",
+        "r26-cma2026"
       ],
       "remaining": "教程与综述分开；需核读参数适应和理论结论的条件。"
     },
@@ -76,9 +84,11 @@
       "ring": "相邻进化计算",
       "sources": [
         "10.1007/978-1-4615-1539-5_3",
-        "10.1016/j.swevo.2011.08.003"
+        "10.1016/j.swevo.2011.08.003",
+        "r26-eda-ml",
+        "review-coverage-theory-684479"
       ],
-      "remaining": "补早期框架与近年进展，不与一般群体算法合并。"
+      "remaining": "已区分早期框架、离散理论和2024机器学习专题；机器学习中的EDA不代表全部EDA应用，定理仍需回到假设。"
     },
     {
       "id": "gp",
@@ -97,18 +107,24 @@
         "review-vns-abbc38",
         "10.1287/inte.20.4.74",
         "10.1007/978-3-319-91086-4_5",
-        "10.1057/palgrave.jors.2602068"
+        "10.1057/palgrave.jors.2602068",
+        "r26-local-learning",
+        "r26-vns-review",
+        "r26-grasp-review"
       ],
-      "remaining": "已补禁忌教程、退火综述与迭代局部搜索章节；仍需核读各框架及更新资料。"
+      "remaining": "已补四条阅读路线，并核读2024学习辅助综述的部分章节及2025禁忌长度研究摘要；不能将少量学习案例外推为全部邻域搜索的趋势。"
     },
     {
       "id": "alns",
       "title": "大邻域、散布搜索与路径重连",
       "ring": "相邻元启发式",
       "sources": [
-        "10.1016/j.cor.2022.105903"
+        "10.1016/j.cor.2022.105903",
+        "review-coverage-alns-99af44",
+        "r26-alns-operators",
+        "r26-grasp-review"
       ],
-      "remaining": "已补ALNS综述，散布搜索与路径重连仍需独立资料。"
+      "remaining": "已核读2025 VRP算子综述与GRASP/路径重连综述摘要；两者的记忆机制不同，仍需按任务核对原始实验。"
     },
     {
       "id": "memetic",
@@ -178,9 +194,11 @@
       "sources": [
         "review-constraints-194106",
         "zhConstraints",
-        "10.1109/tevc.2022.3155533"
+        "10.1109/tevc.2022.3155533",
+        "r26-moo-constraints",
+        "r26-moo-preferences"
       ],
-      "remaining": "已补约束多目标专题；一般约束与多目标约束不能相互替代，正文核读待完成。"
+      "remaining": "已核读2024约束多目标综述部分章节；一般约束、单目标与多目标的可行性处理仍须分别验证。"
     },
     {
       "id": "moo",
@@ -189,9 +207,11 @@
       "sources": [
         "review-multiobjective-c4c7da",
         "review-manyobjective-10a164",
-        "review-manyobjective-2155ea"
+        "review-manyobjective-2155ea",
+        "r26-moo-constraints",
+        "r26-moo-preferences"
       ],
-      "remaining": "需按支配、分解、指标等路线核读，不能只列算法名。"
+      "remaining": "已接入2024约束与2026偏好专题；支配、分解、指标及偏好模型分别阅读，代表性路线不等于全部专题完成。"
     },
     {
       "id": "dynamic",
@@ -212,9 +232,12 @@
         "jinSurrogate2005",
         "review-surrogates-4ce90e",
         "review-surrogates-2e8c4a",
-        "10.1016/j.swevo.2025.101879"
+        "10.1016/j.swevo.2025.101879",
+        "r26-surrogate-review",
+        "r26-surrogate-discrete",
+        "review-coverage-de-update-new-0a1e7e"
       ],
-      "remaining": "新增代理辅助DE更新，但不能代表多保真及全部昂贵优化；正文仍待核读。"
+      "remaining": "已核读通用代理综述摘要及离散代理综述部分章节；多保真、噪声与昂贵评价仍须按模型和真实评价预算比较。"
     },
     {
       "id": "multimodal",
@@ -224,9 +247,10 @@
         "review-de-8e140f",
         "qd2016",
         "review-qd-0bd86b",
-        "10.1109/tevc.2016.2638437"
+        "10.1109/tevc.2016.2638437",
+        "r26-qd-review"
       ],
-      "remaining": "多峰、生态位与QD需分别核读；不能用一个标签覆盖。"
+      "remaining": "已核读2026 QD综述部分章节，明确行为档案、多峰和Pareto解集不同；描述符、噪声和维度的影响仍需原始实验。"
     },
     {
       "id": "mixed",
@@ -236,9 +260,10 @@
         "review-taxonomy-cee81b",
         "zhMultitask",
         "10.1016/j.asoc.2023.110545",
-        "10.1016/j.asoc.2023.110182"
+        "10.1016/j.asoc.2023.110182",
+        "r26-multitask2025"
       ],
-      "remaining": "新增两篇外文多任务综述，需核对负迁移、作者独立性及任务相关性。"
+      "remaining": "已补2025多任务综述摘要与迁移机制阅读路线；任务关系及负迁移需要逐实验核对，不能承诺迁移总是有益。"
     },
     {
       "id": "hyper",
@@ -248,7 +273,9 @@
         "review-hyper-3f59ee",
         "hyper2024",
         "automatedMhDesignSurvey2023",
-        "review-hyper-a1ea2b"
+        "review-hyper-a1ea2b",
+        "r26-metabbo-review",
+        "llmDesign2026"
       ],
       "remaining": "已有部分交叉阅读，需核读正式自动设计综述及训练/测试问题的划分。"
     },
@@ -271,7 +298,12 @@
         "rlco2021",
         "review-learning-74f161",
         "llmDesign2026",
-        "10.1016/j.swevo.2018.03.011"
+        "10.1016/j.swevo.2018.03.011",
+        "r26-metabbo-review",
+        "review-hyper-a1ea2b",
+        "r26-neuro-review",
+        "r26-neuro-2025",
+        "evolutionaryNasSurvey2026"
       ],
       "remaining": "需区分学习求解、学习选择、学习设计；新预印本结论仍需追踪。"
     },

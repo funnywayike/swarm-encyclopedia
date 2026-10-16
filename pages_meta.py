@@ -269,6 +269,7 @@ def _apps_page():
 def _research_map_page(p):
     """证据卡式研究导览：并行主线、研究群体、应用问题与可追溯来源。"""
     from pages_reviews import render_review_panel
+    from pages_research_routes import render_routes_panel
     data = _load("research_map.json")
     data["readingViews"] = _load("research_reading_views.json")
     for n in data["nodes"]:
@@ -286,7 +287,7 @@ def _research_map_page(p):
     <p class="hint">这是可追溯来源的代表性研究导览，不是全球论文目录、团队排名或穷尽式系统综述。每个节点都说明主要贡献与证据边界；新近综述、预印本、基准项目分别标注。</p>
   </div>
   <div class="rm-stats" id="rm-stats" aria-live="polite"></div>
-  <div class="rm-reader-bar">
+  <div class="rm-reader-bar" hidden>
     <div class="rm-mode-buttons" role="group" aria-label="选择阅读重点">
       <button type="button" data-reading-mode="overview" aria-pressed="true">总览脉络</button>
       <button type="button" data-reading-mode="algorithm" aria-pressed="false">关注算法</button>
@@ -316,7 +317,8 @@ def _research_map_page(p):
     </details>
   </div>
   <div class="rm-tabs" role="tablist" aria-label="研究地图视图">
-    <button class="rm-tab is-active" role="tab" aria-selected="true" data-view="history">历史与交汇</button>
+    <button class="rm-tab is-active" role="tab" aria-selected="true" data-view="routes">研究路线</button>
+    <button class="rm-tab" role="tab" aria-selected="false" data-view="history">历史与交汇</button>
     <button class="rm-tab" role="tab" aria-selected="false" data-view="teams">研究团队与社区</button>
     <button class="rm-tab" role="tab" aria-selected="false" data-view="applications">应用问题</button>
     <button class="rm-tab" role="tab" aria-selected="false" data-view="industry">13个领域的研究证据</button>
@@ -324,7 +326,8 @@ def _research_map_page(p):
     <button class="rm-tab" role="tab" aria-selected="false" data-view="reviews">综述与交叉验证</button>
     <button class="rm-tab" role="tab" aria-selected="false" data-view="coverage">文献与本站演示</button>
   </div>
-  <section class="rm-panel" id="rm-view-history" role="tabpanel">
+  __ROUTES_PANEL__
+  <section class="rm-panel" id="rm-view-history" role="tabpanel" hidden>
     <div class="rm-controls">
       <label>查找节点 <input id="rm-search" type="search" placeholder="试试：物流、群机器人、基准、LLM"></label>
       <div class="rm-layout-buttons" role="group" aria-label="地图排列方式"><button type="button" data-reading-layout="timeline">时间地图</button><button type="button" data-reading-layout="list">紧凑列表</button></div>
@@ -503,11 +506,11 @@ def _research_map_page(p):
     document.getElementById('rm-ref-index').innerHTML=D.references.map(r=>`<li id="rm-ref-${esc(r.id)}">${link(r)}</li>`).join('');
     document.getElementById('rm-search').addEventListener('input',e=>{state.query=e.target.value.trim();update();});
     document.getElementById('rm-visible-relations').addEventListener('click',e=>{const b=e.target.closest('[data-related]');if(b)jumpNode(b.dataset.related);});
-    document.querySelectorAll('.rm-tab').forEach(b=>b.addEventListener('click',()=>{document.querySelectorAll('.rm-tab').forEach(x=>{const on=x===b;x.classList.toggle('is-active',on);x.setAttribute('aria-selected',on?'true':'false');});document.querySelectorAll('.rm-panel').forEach(x=>x.hidden=x.id!==`rm-view-${b.dataset.view}`);}));
+    document.querySelectorAll('.rm-tab').forEach(b=>b.addEventListener('click',()=>{document.querySelectorAll('.rm-tab').forEach(x=>{const on=x===b;x.classList.toggle('is-active',on);x.setAttribute('aria-selected',on?'true':'false');});document.querySelectorAll('.rm-panel').forEach(x=>x.hidden=x.id!==`rm-view-${b.dataset.view}`);document.querySelector('.rm-reader-bar').hidden=b.dataset.view!=='history';}));
     renderCards();update();
   })();
   </script>
-""".replace("__RESEARCH_MAP_DATA__", embedded).replace("__META_CHIPS__", _meta_chips(cur="research-map")).replace("__REVIEW_PANEL__", render_review_panel())
+""".replace("__RESEARCH_MAP_DATA__", embedded).replace("__META_CHIPS__", _meta_chips(cur="research-map")).replace("__REVIEW_PANEL__", render_review_panel()).replace("__ROUTES_PANEL__", render_routes_panel())
 
 def generate(write, _page, ldjson):
     meta = _load("meta.json")

@@ -1,29 +1,29 @@
 ﻿topic,ring,status,sourceCount,readCount,sources,remaining
 历史、分类与命名批评,总览,已核对部分议题，仍有缺口,3,1,fiftyYears2025;boussaid2013;rajwar2023,需区分命名目录、机制谱系与学术影响，不以名称数量衡量经典性。
 PSO：连续、离散与适配,核心群智能,已核对部分议题，仍有缺口,5,3,review-pso-9ebaa0;review-pso-modern-25f3c4;review-coverage-discrete-pso-3cc681;review-coverage-set-pso-8d9bec;review-coverage-pso-new-02c596,离散子类不能代替全部离散 PSO；需核读二进制、排列及集合编码差别。
-ACO：组合与连续扩展,核心群智能,已有资料，正文核读待补,2,0,review-aco-cb45b0;acoSchedule2013,尚缺本轮已核读的近年通用更新和连续扩展综述。
-人工蜂群,核心群智能,已有核读，逐议题核对待补,2,1,review-abc-98ba57;review-coverage-abc-scheduling-44c34a,新增2025年排程专题更新，但范围较窄且作者可能延续；仍需通用更新、独立团队与正文核读。
-差分进化,相邻进化计算,已有资料，正文核读待补,4,0,review-de-5942be;review-de-d01ad3;review-coverage-de-update-new-c9f8e0;review-coverage-de-update-new-93bca8,已有近年算子与探索/开发专题更新，仍需正文对照；不由收录数量推断独立共识。
-遗传算法、演化策略与 CMA-ES,相邻进化计算,已有资料，正文核读待补,3,0,review-ga-38fcbe;cma-tutorial;review-coverage-ga-update-9e7f02,教程与综述分开；需核读参数适应和理论结论的条件。
-分布估计算法,相邻进化计算,已有资料，正文核读待补,2,0,review-coverage-eda-b67e38;review-coverage-eda-5a577c,补早期框架与近年进展，不与一般群体算法合并。
+ACO：组合与连续扩展,核心群智能,已有资料，正文核读待补,2,0,review-aco-cb45b0;acoSchedule2013,已接入2024文献计量综述与2023—2026学习辅助原始研究；连续ACO、收敛条件及跨问题独立复现仍应按专题深入。
+人工蜂群,核心群智能,已有核读，逐议题核对待补,3,2,review-abc-98ba57;review-coverage-abc-scheduling-44c34a;r26-abc-review,已核读独立团队2025通用综述摘要，并与排程专题分开；具体机制的正文、预算和独立复现仍需逐项核对。
+差分进化,相邻进化计算,已有核读，逐议题核对待补,5,1,review-de-5942be;review-de-d01ad3;r26-de-operators;review-coverage-de-update-new-93bca8;review-coverage-de-update-new-0a1e7e,已有近年算子与探索/开发专题更新，仍需正文对照；不由收录数量推断独立共识。
+遗传算法、演化策略与 CMA-ES,相邻进化计算,已有核读，逐议题核对待补,6,3,review-ga-38fcbe;cma-tutorial;review-coverage-ga-update-9e7f02;r26-ga-brkga;r26-es-review;r26-cma2026,教程与综述分开；需核读参数适应和理论结论的条件。
+分布估计算法,相邻进化计算,已有核读，逐议题核对待补,4,2,review-coverage-eda-b67e38;review-coverage-eda-5a577c;r26-eda-ml;review-coverage-theory-684479,已区分早期框架、离散理论和2024机器学习专题；机器学习中的EDA不代表全部EDA应用，定理仍需回到假设。
 遗传编程与程序搜索,相邻进化计算,已有资料，正文核读待补,1,0,review-coverage-gp-1c4079,已补模块化专题，仍缺本轮核读的通用GP综述；不能用模块化代表整个领域。
-局部搜索、退火、禁忌与迭代搜索,相邻元启发式,已有核读，逐议题核对待补,4,1,review-vns-abbc38;review-coverage-tabu-4a1cbc;review-coverage-ils-a5dfb4;review-coverage-annealing-8aebc6,已补禁忌教程、退火综述与迭代局部搜索章节；仍需核读各框架及更新资料。
-大邻域、散布搜索与路径重连,相邻元启发式,已有资料，正文核读待补,1,0,review-coverage-alns-99af44,已补ALNS综述，散布搜索与路径重连仍需独立资料。
+局部搜索、退火、禁忌与迭代搜索,相邻元启发式,已有核读，逐议题核对待补,7,4,review-vns-abbc38;review-coverage-tabu-4a1cbc;review-coverage-ils-a5dfb4;review-coverage-annealing-8aebc6;r26-local-learning;r26-vns-review;r26-grasp-review,已补四条阅读路线，并核读2024学习辅助综述的部分章节及2025禁忌长度研究摘要；不能将少量学习案例外推为全部邻域搜索的趋势。
+大邻域、散布搜索与路径重连,相邻元启发式,已有核读，逐议题核对待补,3,2,review-coverage-alns-99af44;r26-alns-operators;r26-grasp-review,已核读2025 VRP算子综述与GRASP/路径重连综述摘要；两者的记忆机制不同，仍需按任务核对原始实验。
 模因算法、混合与数学启发式,混合机制,已有核读，逐议题核对待补,2,1,review-memetic-f59230;matheur2024,需核读数学规划组件、局部改进和群体搜索各自承担的工作。
 运行时间、黑箱复杂性与理论边界,理论与证据,已有核读，逐议题核对待补,2,1,review-coverage-theory-684479;review-coverage-blackbox-e5e557,离散理论不能替代连续或现实系统结论；需核读定理假设。
 适应度景观、结构偏差与问题特征,理论与证据,已有核读，逐议题核对待补,3,1,review-coverage-landscape-early-6519c5;review-coverage-landscape-update-3cc005;review-coverage-bias-28eb90,新旧综述可能有作者延续；需比较景观指标的适用空间。
 参数调优、控制与自适应,理论与证据,已有核读，逐议题核对待补,2,1,review-coverage-parameter-control-07589f;review-coverage-parameter-general-3157a9,需区别运行前调优、运行中控制与自动配置，核对分类争议。
 大规模、分解与协同进化,复杂问题,已有核读，逐议题核对待补,3,1,review-coverage-large-scale-7dd74f;review-coverage-large-scale-7ba124;review-coverage-large-scale-c3d1a1,Part I/II 是同一综述系列，不能算独立验证；维数与预算定义需要对齐。
 并行、分布式与计算资源,复杂问题,已有资料，正文核读待补,1,0,review-coverage-parallel-ec8a9e,需补更新；区分并行实现的加速与改变种群结构的搜索效果。
-约束处理与可行性,复杂问题,已有资料，正文核读待补,3,0,review-constraints-194106;zhConstraints;review-coverage-multiobjective-constraints-186371,已补约束多目标专题；一般约束与多目标约束不能相互替代，正文核读待完成。
-多目标与高维多目标,复杂问题,已有资料，正文核读待补,3,0,review-multiobjective-c4c7da;review-manyobjective-10a164;review-manyobjective-2155ea,需按支配、分解、指标等路线核读，不能只列算法名。
+约束处理与可行性,复杂问题,已有核读，逐议题核对待补,5,2,review-constraints-194106;zhConstraints;review-coverage-multiobjective-constraints-186371;r26-moo-constraints;r26-moo-preferences,已核读2024约束多目标综述部分章节；一般约束、单目标与多目标的可行性处理仍须分别验证。
+多目标与高维多目标,复杂问题,已有核读，逐议题核对待补,5,2,review-multiobjective-c4c7da;review-manyobjective-10a164;review-manyobjective-2155ea;r26-moo-constraints;r26-moo-preferences,已接入2024约束与2026偏好专题；支配、分解、指标及偏好模型分别阅读，代表性路线不等于全部专题完成。
 动态、噪声与稳健性,复杂问题,已核对部分议题，仍有缺口,3,2,uncertainty2005;review-dynamic-2c003a;review-coverage-dynamic-multiobjective-0d706d,已有概念核对，仍需近年更新和各子类基准的对照。
-昂贵优化、代理与多保真,复杂问题,已核对部分议题，仍有缺口,4,2,jinSurrogate2005;review-surrogates-4ce90e;review-surrogates-2e8c4a;review-coverage-de-update-new-0a1e7e,新增代理辅助DE更新，但不能代表多保真及全部昂贵优化；正文仍待核读。
-多峰、生态位与质量多样性,复杂问题,已核对部分议题，仍有缺口,4,1,review-de-8e140f;qd2016;review-qd-0bd86b;review-coverage-niching-16261a,多峰、生态位与QD需分别核读；不能用一个标签覆盖。
-混合变量、变长与多任务迁移,复杂问题,已有资料，正文核读待补,4,0,review-taxonomy-cee81b;zhMultitask;review-coverage-multitask-a-2e812e;review-coverage-multitask-b-ed4e18,新增两篇外文多任务综述，需核对负迁移、作者独立性及任务相关性。
-超启发式与自动算法设计,学习与设计,已核对部分议题，仍有缺口,4,2,review-hyper-3f59ee;hyper2024;automatedMhDesignSurvey2023;review-hyper-a1ea2b,已有部分交叉阅读，需核读正式自动设计综述及训练/测试问题的划分。
+昂贵优化、代理与多保真,复杂问题,已核对部分议题，仍有缺口,6,4,jinSurrogate2005;review-surrogates-4ce90e;review-surrogates-2e8c4a;review-coverage-de-update-new-0a1e7e;r26-surrogate-review;r26-surrogate-discrete,已核读通用代理综述摘要及离散代理综述部分章节；多保真、噪声与昂贵评价仍须按模型和真实评价预算比较。
+多峰、生态位与质量多样性,复杂问题,已核对部分议题，仍有缺口,5,2,review-de-8e140f;qd2016;review-qd-0bd86b;review-coverage-niching-16261a;r26-qd-review,已核读2026 QD综述部分章节，明确行为档案、多峰和Pareto解集不同；描述符、噪声和维度的影响仍需原始实验。
+混合变量、变长与多任务迁移,复杂问题,已有核读，逐议题核对待补,5,1,review-taxonomy-cee81b;zhMultitask;review-coverage-multitask-a-2e812e;review-coverage-multitask-b-ed4e18;r26-multitask2025,已补2025多任务综述摘要与迁移机制阅读路线；任务关系及负迁移需要逐实验核对，不能承诺迁移总是有益。
+超启发式与自动算法设计,学习与设计,已核对部分议题，仍有缺口,6,4,review-hyper-3f59ee;hyper2024;automatedMhDesignSurvey2023;review-hyper-a1ea2b;r26-metabbo-review;llmDesign2026,已有部分交叉阅读，需核读正式自动设计综述及训练/测试问题的划分。
 算法选择、配置与组合,学习与设计,已有核读，逐议题核对待补,2,2,review-configuration-8bd9fb;isa2023,需要独立自动配置资料，以及选择器评估和实例划分的核对。
-学习辅助、强化学习与大模型,学习与设计,已核对部分议题，仍有缺口,5,2,review-taxonomy-431f12;rlco2021;review-learning-74f161;llmDesign2026;review-coverage-reproducibility-53b7cf,需区分学习求解、学习选择、学习设计；新预印本结论仍需追踪。
+学习辅助、强化学习与大模型,学习与设计,已核对部分议题，仍有缺口,10,7,review-taxonomy-431f12;rlco2021;review-learning-74f161;llmDesign2026;review-coverage-reproducibility-53b7cf;r26-metabbo-review;review-hyper-a1ea2b;r26-neuro-review;r26-neuro-2025;evolutionaryNasSurvey2026,需区分学习求解、学习选择、学习设计；新预印本结论仍需追踪。
 演化学习与神经架构搜索,学习与设计,已核对部分议题，仍有缺口,2,1,evolutionaryNasSurvey2026;evolutionaryFeatureSelection2024,专题统计不能外推全领域，仍需核读评估成本与公平比较。
 基准、公平比较、统计与复现,理论与证据,已有核读，逐议题核对待补,5,1,derrac2011;benchmark-practice;osaba2021;isa2023;review-coverage-reproducibility-957fcc,随机种子不足以替代独立重复、预算控制、实例划分与基准外部效度。
 群体机器人与集体行为,物理群体,已核对部分议题，仍有缺口,4,2,brambilla2013;review-robotics-e516d3;review-robotics-de8d9a;robotics2023,工程验证、硬件现实差距与物理部署需回到原始研究。

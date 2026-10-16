@@ -1,0 +1,857 @@
+{
+  "query": "10.1016/j.neucom.2026.133375",
+  "url": "https://api.crossref.org/works/10.1016%2Fj.neucom.2026.133375",
+  "retrieved": "2026-10-16",
+  "response": {
+    "status": "ok",
+    "message-type": "work",
+    "message-version": "1.0.0",
+    "message": {
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            7,
+            15
+          ]
+        ],
+        "date-time": "2026-07-15T05:12:24Z",
+        "timestamp": 1784092344360,
+        "version": "3.55.0"
+      },
+      "reference-count": 53,
+      "publisher": "Elsevier BV",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2026,
+                6,
+                1
+              ]
+            ],
+            "date-time": "2026-06-01T00:00:00Z",
+            "timestamp": 1780272000000
+          },
+          "content-version": "tdm",
+          "delay-in-days": 0,
+          "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+        },
+        {
+          "start": {
+            "date-parts": [
+              [
+                2026,
+                6,
+                1
+              ]
+            ],
+            "date-time": "2026-06-01T00:00:00Z",
+            "timestamp": 1780272000000
+          },
+          "content-version": "tdm",
+          "delay-in-days": 0,
+          "URL": "https://www.elsevier.com/legal/tdmrep-license"
+        },
+        {
+          "start": {
+            "date-parts": [
+              [
+                2026,
+                6,
+                1
+              ]
+            ],
+            "date-time": "2026-06-01T00:00:00Z",
+            "timestamp": 1780272000000
+          },
+          "content-version": "stm-asf",
+          "delay-in-days": 0,
+          "URL": "https://doi.org/10.15223/policy-017"
+        },
+        {
+          "start": {
+            "date-parts": [
+              [
+                2026,
+                6,
+                1
+              ]
+            ],
+            "date-time": "2026-06-01T00:00:00Z",
+            "timestamp": 1780272000000
+          },
+          "content-version": "stm-asf",
+          "delay-in-days": 0,
+          "URL": "https://doi.org/10.15223/policy-037"
+        },
+        {
+          "start": {
+            "date-parts": [
+              [
+                2026,
+                6,
+                1
+              ]
+            ],
+            "date-time": "2026-06-01T00:00:00Z",
+            "timestamp": 1780272000000
+          },
+          "content-version": "stm-asf",
+          "delay-in-days": 0,
+          "URL": "https://doi.org/10.15223/policy-012"
+        },
+        {
+          "start": {
+            "date-parts": [
+              [
+                2026,
+                6,
+                1
+              ]
+            ],
+            "date-time": "2026-06-01T00:00:00Z",
+            "timestamp": 1780272000000
+          },
+          "content-version": "stm-asf",
+          "delay-in-days": 0,
+          "URL": "https://doi.org/10.15223/policy-029"
+        },
+        {
+          "start": {
+            "date-parts": [
+              [
+                2026,
+                6,
+                1
+              ]
+            ],
+            "date-time": "2026-06-01T00:00:00Z",
+            "timestamp": 1780272000000
+          },
+          "content-version": "stm-asf",
+          "delay-in-days": 0,
+          "URL": "https://doi.org/10.15223/policy-004"
+        }
+      ],
+      "funder": [
+        {
+          "DOI": "10.13039/501100018555",
+          "name": "Science and Technology Program of Guizhou Province",
+          "doi-asserted-by": "publisher",
+          "id": [
+            {
+              "id": "10.13039/501100018555",
+              "id-type": "DOI",
+              "asserted-by": "publisher"
+            }
+          ]
+        },
+        {
+          "DOI": "10.13039/501100001809",
+          "name": "National Natural Science Foundation of China",
+          "doi-asserted-by": "publisher",
+          "award": [
+            "62162007"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "62162007"
+              ]
+            }
+          ],
+          "id": [
+            {
+              "id": "10.13039/501100001809",
+              "id-type": "DOI",
+              "asserted-by": "publisher"
+            }
+          ]
+        }
+      ],
+      "content-domain": {
+        "domain": [
+          "elsevier.com",
+          "sciencedirect.com"
+        ],
+        "crossmark-restriction": true
+      },
+      "short-container-title": [
+        "Neurocomputing"
+      ],
+      "published-print": {
+        "date-parts": [
+          [
+            2026,
+            6
+          ]
+        ]
+      },
+      "DOI": "10.1016/j.neucom.2026.133375",
+      "type": "journal-article",
+      "created": {
+        "date-parts": [
+          [
+            2026,
+            3,
+            18
+          ]
+        ],
+        "date-time": "2026-03-18T10:13:13Z",
+        "timestamp": 1773828793000
+      },
+      "page": "133375",
+      "update-policy": "https://doi.org/10.1016/elsevier_cm_policy",
+      "source": "Crossref",
+      "is-referenced-by-count": 1,
+      "special_numbering": "C",
+      "title": [
+        "Pheromone learning-enhanced neural ant colony optimization"
+      ],
+      "prefix": "10.1016",
+      "volume": "681",
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0009-0008-9825-6982",
+          "authenticated-orcid": false,
+          "given": "Hao",
+          "family": "Wang",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0003-4163-6067",
+          "authenticated-orcid": false,
+          "given": "Jin",
+          "family": "Qin",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "78",
+      "reference": [
+        {
+          "key": "10.1016/j.neucom.2026.133375_bib0005",
+          "doi-asserted-by": "crossref",
+          "first-page": "53",
+          "DOI": "10.1016/j.ejor.2022.06.019",
+          "article-title": "Ant colony optimization for path planning in search and rescue operations",
+          "volume": "305",
+          "author": "Morin",
+          "year": "2023",
+          "journal-title": "Eur. J. Oper. Res."
+        },
+        {
+          "key": "10.1016/j.neucom.2026.133375_bib0010",
+          "doi-asserted-by": "crossref",
+          "first-page": "92",
+          "DOI": "10.1016/j.actaastro.2025.02.008",
+          "article-title": "Joint observation and transmission scheduling of multiple agile satellites with energy constraint using improved ACO algorithm",
+          "volume": "230",
+          "author": "Shang",
+          "year": "2025",
+          "journal-title": "Acta Astronaut."
+        },
+        {
+          "key": "10.1016/j.neucom.2026.133375_bib0015",
+          "series-title": "Proceedings of the AAAI Conference on Artificial Intelligence",
+          "first-page": "20284",
+          "article-title": "Glop: learning global partition and local construction for solving large-scale routing problems in real-time",
+          "volume": "vol. 38",
+          "author": "Ye",
+          "year": "2024"
+        },
+        {
+          "key": "10.1016/j.neucom.2026.133375_bib0020",
+          "first-page": "50020",
+          "article-title": "T2T: from distribution learning in training to gradient search in testing for combinatorial optimization",
+          "volume": "36",
+          "author": "Li",
+          "year": "2023",
+          "journal-title": "Adv. Neural Inf. Process. Syst."
+        },
+        {
+          "key": "10.1016/j.neucom.2026.133375_bib0025",
+          "series-title": "Proceedings of the AAAI Conference on Artificial Intelligence",
+          "first-page": "12042",
+          "article-title": "Multi-decoder attention model with embedding glimpse for solving vehicle routing problems",
+          "volume": "vol. 35",
+          "author": "Xin",
+          "year": "2021"
+        },
+        {
+          "key": "10.1016/j.neucom.2026.133375_bib0030",
+          "doi-asserted-by": "crossref",
+          "first-page": "31226",
+          "DOI": "10.52202/068431-2264",
+          "article-title": "Learning generalizable models for vehicle routing problems via knowledge distillation",
+          "volume": "35",
+          "author": "Bi",
+          "year": "2022",
+          "journal-title": "Adv. Neural Inf. Process. Syst."
+        },
+        {
+          "key": "10.1016/j.neucom.2026.133375_bib0035",
+          "series-title": "International Conference on Artificial Intelligence and Statistics",
+          "first-page": "1219",
+          "article-title": "Select and optimize: learning to solve large-scale TSP instances",
+          "author": "Cheng",
+          "year": "2023"
+        },
+        {
+          "key": "10.1016/j.neucom.2026.133375_bib0040",
+          "doi-asserted-by": "crossref",
+          "first-page": "130",
+          "DOI": "10.1007/s10462-024-11045-1",
+          "article-title": "Neural combinatorial optimization with reinforcement learning in industrial engineering: a survey",
+          "volume": "58",
+          "author": "Chung",
+          "year": "2025",
+          "journal-title": "Artif. Intell. Rev."
+        },
+        {
+          "key": "10.1016/j.neucom.2026.133375_bib0045",
+          "first-page": "7472",
+          "article-title": "Neurolkh: combining deep learning model with Lin-Kernighan-Helsgaun heuristic for solving the traveling salesman problem",
+          "volume": "34",
+          "author": "Xin",
+          "year": "2021",
+          "journal-title": "Adv. Neural Inf. Process. Syst."
+        },
+        {
+          "key": "10.1016/j.neucom.2026.133375_bib0050",
+          "series-title": "Proceedings of the AAAI Conference on Artificial Intelligence",
+          "first-page": "12445",
+          "article-title": "Combining reinforcement learning with Lin-Kernighan-Helsgaun algorithm for the Traveling Salesman problem",
+          "volume": "vol. 35",
+          "author": "Zheng",
+          "year": "2021"
+        },
+        {
+          "key": "10.1016/j.neucom.2026.133375_bib0055",
+          "series-title": "International Conference on Integration of Constraint Programming, Artificial Intelligence, and Operations Research",
+          "first-page": "190",
+          "article-title": "Deep policy dynamic programming for vehicle routing problems",
+          "author": "Kool",
+          "year": "2022"
+        },
+        {
+          "key": "10.1016/j.neucom.2026.133375_bib0060",
+          "series-title": "Proceedings of the AAAI Conference on Artificial Intelligence",
+          "first-page": "7474",
+          "article-title": "Generalize a small pre-trained model to arbitrarily large TSP instances",
+          "volume": "vol. 35",
+          "author": "Fu",
+          "year": "2021"
+        },
+        {
+          "key": "10.1016/j.neucom.2026.133375_bib0065",
+          "first-page": "43706",
+          "article-title": "Deepaco: neural-enhanced ant systems for combinatorial optimization",
+          "volume": "36",
+          "author": "Ye",
+          "year": "2023",
+          "journal-title": "Adv. Neural Inf. Process. Syst."
+        },
+        {
+          "key": "10.1016/j.neucom.2026.133375_bib0070",
+          "series-title": "International Conference on Artificial Intelligence and Statistics",
+          "first-page": "469",
+          "article-title": "Ant colony sampling with gflownets for combinatorial optimization",
+          "author": "Kim",
+          "year": "2025"
+        },
+        {
+          "key": "10.1016/j.neucom.2026.133375_bib0075",
+          "first-page": "27381",
+          "article-title": "Flow network based generative models for non-iterative diverse candidate generation",
+          "volume": "34",
+          "author": "Bengio",
+          "year": "2021",
+          "journal-title": "Adv. Neural Inf. Process. Syst."
+        },
+        {
+          "key": "10.1016/j.neucom.2026.133375_bib0080",
+          "first-page": "1",
+          "article-title": "Gflownet Foundations",
+          "volume": "24",
+          "author": "Bengio",
+          "year": "2023",
+          "journal-title": "J. Mach. Learn. Res."
+        },
+        {
+          "key": "10.1016/j.neucom.2026.133375_bib0085",
+          "doi-asserted-by": "crossref",
+          "first-page": "427",
+          "DOI": "10.1007/s11831-021-09580-z",
+          "article-title": "A state-of-the-art review on meta-heuristics application in remanufacturing",
+          "volume": "29",
+          "author": "Ansari",
+          "year": "2022",
+          "journal-title": "Arch. Comput. Methods Eng."
+        },
+        {
+          "key": "10.1016/j.neucom.2026.133375_bib0090",
+          "doi-asserted-by": "crossref",
+          "first-page": "995",
+          "DOI": "10.1007/s11831-024-10178-4",
+          "article-title": "Multi-objective ant colony optimization",
+          "volume": "32",
+          "author": "Awadallah",
+          "year": "2025",
+          "journal-title": "Arch. Comput. Methods Eng."
+        },
+        {
+          "key": "10.1016/j.neucom.2026.133375_bib0095",
+          "doi-asserted-by": "crossref",
+          "first-page": "29",
+          "DOI": "10.1109/3477.484436",
+          "article-title": "Ant system: optimization by a colony of cooperating agents",
+          "volume": "26",
+          "author": "Dorigo",
+          "year": "1996",
+          "journal-title": "IEEE Trans. Syst. Man Cybern. Part B Cybern."
+        },
+        {
+          "key": "10.1016/j.neucom.2026.133375_bib0100",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1016/j.asoc.2021.107293",
+          "article-title": "Adaptive elitist-ant system for solving combinatorial optimization problems",
+          "volume": "105",
+          "author": "Abuhamdah",
+          "year": "2021",
+          "journal-title": "Appl. Soft Comput."
+        },
+        {
+          "key": "10.1016/j.neucom.2026.133375_bib0105",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1016/j.scs.2025.106848",
+          "article-title": "A novel hybrid max-min ant system and artificial bee colony algorithm for generating representative bus driving cycles: a case study for modena and comparison with markov chain monte carlo",
+          "author": "Kaya",
+          "year": "2025",
+          "journal-title": "Sustain. Cities Soc."
+        },
+        {
+          "key": "10.1016/j.neucom.2026.133375_bib0110",
+          "series-title": "International Conference on Machine Learning",
+          "first-page": "23484",
+          "article-title": "Policy gradient method for robust reinforcement learning",
+          "author": "Wang",
+          "year": "2022"
+        },
+        {
+          "key": "10.1016/j.neucom.2026.133375_bib0115",
+          "first-page": "1",
+          "article-title": "China Commodity Price Index (ccpi) forecasting via the neural network",
+          "author": "Jin",
+          "year": "2025",
+          "journal-title": "Int. J. Financ. Eng."
+        },
+        {
+          "key": "10.1016/j.neucom.2026.133375_bib0120",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1016/j.compag.2021.106120",
+          "article-title": "Corn cash price forecasting with neural networks",
+          "volume": "184",
+          "author": "Xu",
+          "year": "2021",
+          "journal-title": "Comput. Electron. Agric."
+        },
+        {
+          "key": "10.1016/j.neucom.2026.133375_bib0125",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1142/S1752890925500084",
+          "article-title": "High-frequency csi300 spot and futures price predictions via the neural network",
+          "author": "Jin",
+          "year": "2025",
+          "journal-title": "J. Uncertain Syst."
+        },
+        {
+          "key": "10.1016/j.neucom.2026.133375_bib0130",
+          "doi-asserted-by": "crossref",
+          "first-page": "203",
+          "DOI": "10.1007/s13563-024-00472-9",
+          "article-title": "Forecasts of coking coal futures price indices through Gaussian process regressions",
+          "volume": "38",
+          "author": "Jin",
+          "year": "2025",
+          "journal-title": "Miner. Econ."
+        },
+        {
+          "key": "10.1016/j.neucom.2026.133375_bib0135",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1016/j.engappai.2023.106870",
+          "article-title": "Price forecasts of ten steel products using Gaussian process regressions",
+          "volume": "126",
+          "author": "Xu",
+          "year": "2023",
+          "journal-title": "Eng. Appl. Artif. Intell."
+        },
+        {
+          "key": "10.1016/j.neucom.2026.133375_bib0140",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1142/S308284142550008X",
+          "article-title": "A study of contemporaneous residential real estate price causation across major Jiangsu province cities: methodology using vector error-correction models and directed acyclic graphs",
+          "author": "Jin",
+          "year": "2025",
+          "journal-title": "Econ. Open"
+        },
+        {
+          "key": "10.1016/j.neucom.2026.133375_bib0145",
+          "article-title": "An integrated vector error correction and directed acyclic graph method for investigating contemporaneous causalities",
+          "volume": "7",
+          "author": "Xu",
+          "year": "2023",
+          "journal-title": "Decis. Anal. J."
+        },
+        {
+          "key": "10.1016/j.neucom.2026.133375_bib0150",
+          "doi-asserted-by": "crossref",
+          "first-page": "663",
+          "DOI": "10.1093/erae/jby036",
+          "article-title": "Contemporaneous and granger causality among us corn cash and futures prices",
+          "volume": "46",
+          "author": "Xu",
+          "year": "2019",
+          "journal-title": "Eur. Rev. Agric. Econ."
+        },
+        {
+          "key": "10.1016/j.neucom.2026.133375_bib0155",
+          "article-title": "Individual time series and composite forecasting of the Chinese stock index",
+          "volume": "5",
+          "author": "Xu",
+          "year": "2021",
+          "journal-title": "Mach. Learn. Appl."
+        },
+        {
+          "key": "10.1016/j.neucom.2026.133375_bib0160",
+          "doi-asserted-by": "crossref",
+          "first-page": "1297",
+          "DOI": "10.1002/ajae.12041",
+          "article-title": "Corn cash price forecasting",
+          "volume": "102",
+          "author": "Xu",
+          "year": "2020",
+          "journal-title": "Am. J. Agric. Econ."
+        },
+        {
+          "key": "10.1016/j.neucom.2026.133375_bib0165",
+          "series-title": "Handbook of Heuristics",
+          "first-page": "1",
+          "article-title": "Deep learning in search heuristics",
+          "author": "Gast Zepeda",
+          "year": "2025"
+        },
+        {
+          "key": "10.1016/j.neucom.2026.133375_bib0170",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1016/j.asoc.2023.110680",
+          "article-title": "Neurocrossover: an intelligent genetic locus selection scheme for genetic algorithm using reinforcement learning",
+          "volume": "146",
+          "author": "Liu",
+          "year": "2023",
+          "journal-title": "Appl. Soft Comput."
+        },
+        {
+          "key": "10.1016/j.neucom.2026.133375_bib0175",
+          "article-title": "Q-learning guided local search for the Traveling Salesman problem",
+          "volume": "16",
+          "author": "El Jaghaoui",
+          "year": "2025",
+          "journal-title": "Int. J. Adv. Comput. Sci. Appl."
+        },
+        {
+          "key": "10.1016/j.neucom.2026.133375_bib0180",
+          "doi-asserted-by": "crossref",
+          "first-page": "70",
+          "DOI": "10.1007/s10601-022-09327-y",
+          "article-title": "Learning the travelling salesperson problem requires rethinking generalization",
+          "volume": "27",
+          "author": "Joshi",
+          "year": "2022",
+          "journal-title": "Constraints"
+        },
+        {
+          "key": "10.1016/j.neucom.2026.133375_bib0185",
+          "doi-asserted-by": "crossref",
+          "first-page": "25531",
+          "DOI": "10.52202/068431-1851",
+          "article-title": "Dimes: a differentiable meta solver for combinatorial optimization problems",
+          "volume": "35",
+          "author": "Qiu",
+          "year": "2022",
+          "journal-title": "Adv. Neural Inf. Process. Syst."
+        },
+        {
+          "key": "10.1016/j.neucom.2026.133375_bib0190",
+          "series-title": "2020 IEEE Symposium on Computers and Communications (ISCC)",
+          "first-page": "1",
+          "article-title": "Silu: strategy involving large-scale unlabeled logs for improving malware detector",
+          "author": "Nishiyama",
+          "year": "2020"
+        },
+        {
+          "key": "10.1016/j.neucom.2026.133375_bib0195",
+          "doi-asserted-by": "crossref",
+          "first-page": "1",
+          "DOI": "10.1016/j.ejor.2024.04.014",
+          "article-title": "A survey on the Traveling Salesman problem and its variants in a warehousing context",
+          "volume": "322",
+          "author": "Bock",
+          "year": "2025",
+          "journal-title": "Eur. J. Oper. Res."
+        },
+        {
+          "key": "10.1016/j.neucom.2026.133375_bib0200",
+          "author": "Hottung"
+        },
+        {
+          "key": "10.1016/j.neucom.2026.133375_bib0205",
+          "doi-asserted-by": "crossref",
+          "first-page": "1",
+          "DOI": "10.1016/j.cor.2017.04.012",
+          "article-title": "An improved ant colony system for the sequential ordering problem",
+          "volume": "86",
+          "author": "Skinderowicz",
+          "year": "2017",
+          "journal-title": "Comput. Oper. Res."
+        },
+        {
+          "key": "10.1016/j.neucom.2026.133375_bib0210",
+          "series-title": "Proceedings of the 2020 Genetic and Evolutionary Computation Conference",
+          "first-page": "4",
+          "article-title": "A weighted population update rule for Paco applied to the single machine total weighted tardiness problem",
+          "author": "Abitz",
+          "year": "2020"
+        },
+        {
+          "key": "10.1016/j.neucom.2026.133375_bib0215",
+          "doi-asserted-by": "crossref",
+          "first-page": "3",
+          "DOI": "10.1287/ijoc.2022.0173",
+          "article-title": "Routing replenishment workers: the prize collecting traveling salesman problem in scattered storage warehouses",
+          "volume": "36",
+          "author": "Bock",
+          "year": "2024",
+          "journal-title": "Informs J. Comput."
+        },
+        {
+          "key": "10.1016/j.neucom.2026.133375_bib0220",
+          "doi-asserted-by": "crossref",
+          "first-page": "1",
+          "DOI": "10.1016/j.ejor.2021.05.004",
+          "article-title": "An updated survey of variants and extensions of the resource-constrained project scheduling problem",
+          "volume": "297",
+          "author": "Hartmann",
+          "year": "2022",
+          "journal-title": "Eur. J. Oper. Res."
+        },
+        {
+          "key": "10.1016/j.neucom.2026.133375_bib0225",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1016/j.eswa.2021.116238",
+          "article-title": "A hybrid population-based algorithm for the bi-objectivequadratic multiple knapsack problem",
+          "volume": "191",
+          "author": "Aider",
+          "year": "2022",
+          "journal-title": "Expert Syst. Appl."
+        },
+        {
+          "key": "10.1016/j.neucom.2026.133375_bib0230",
+          "doi-asserted-by": "crossref",
+          "first-page": "240",
+          "DOI": "10.1287/trsc.2023.0003",
+          "article-title": "The orienteering problem with drones",
+          "volume": "58",
+          "author": "Morandi",
+          "year": "2024",
+          "journal-title": "Transportation Sci."
+        },
+        {
+          "key": "10.1016/j.neucom.2026.133375_bib0235",
+          "doi-asserted-by": "crossref",
+          "first-page": "1193",
+          "DOI": "10.1109/TNET.2006.886296",
+          "article-title": "Making routing robust to changing traffic demands: algorithms and evaluation",
+          "volume": "14",
+          "author": "Applegate",
+          "year": "2006",
+          "journal-title": "IEEE/ACM Trans. Netw."
+        },
+        {
+          "key": "10.1016/j.neucom.2026.133375_bib0240",
+          "doi-asserted-by": "crossref",
+          "first-page": "498",
+          "DOI": "10.1287/opre.21.2.498",
+          "article-title": "An effective heuristic algorithm for the traveling-salesman problem",
+          "volume": "21",
+          "author": "Lin",
+          "year": "1973",
+          "journal-title": "Oper. Res."
+        },
+        {
+          "key": "10.1016/j.neucom.2026.133375_bib0245",
+          "series-title": "24e Congrès Annuel De La Société Française De Recherche Opérationnelle Et D’aide à La Décision",
+          "article-title": "Or-tools’ vehicle routing solver: a generic constraint-programming solver with heuristic search for routing problems",
+          "author": "Cuvelier",
+          "year": "2023"
+        },
+        {
+          "key": "10.1016/j.neucom.2026.133375_bib0250",
+          "series-title": "International Conference on Learning Representations",
+          "article-title": "Attention, learn to solve routing problems!",
+          "author": "Kool",
+          "year": "2019"
+        },
+        {
+          "key": "10.1016/j.neucom.2026.133375_bib0255",
+          "doi-asserted-by": "crossref",
+          "first-page": "1010",
+          "DOI": "10.1109/TETCI.2021.3139802",
+          "article-title": "Rl-csl: a combinatorial optimization method using reinforcement learning and contrastive self-supervised learning",
+          "volume": "7",
+          "author": "Yuan",
+          "year": "2022",
+          "journal-title": "IEEE Trans. Emerg. Top. Comput. Intell."
+        },
+        {
+          "key": "10.1016/j.neucom.2026.133375_bib0260",
+          "first-page": "21188",
+          "article-title": "Pomo: policy optimization with multiple optima for reinforcement learning",
+          "volume": "33",
+          "author": "Kwon",
+          "year": "2020",
+          "journal-title": "Adv. Neural Inf. Process. Syst."
+        },
+        {
+          "key": "10.1016/j.neucom.2026.133375_bib0265",
+          "doi-asserted-by": "crossref",
+          "first-page": "1936",
+          "DOI": "10.52202/068431-0141",
+          "article-title": "Sym-nco: leveraging symmetricity for neural combinatorial optimization",
+          "volume": "35",
+          "author": "Kim",
+          "year": "2022",
+          "journal-title": "Adv. Neural Inf. Process. Syst."
+        }
+      ],
+      "container-title": [
+        "Neurocomputing"
+      ],
+      "original-title": [],
+      "language": "en",
+      "link": [
+        {
+          "URL": "https://api.elsevier.com/content/article/PII:S0925231226007721?httpAccept=text/xml",
+          "content-type": "text/xml",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        },
+        {
+          "URL": "https://api.elsevier.com/content/article/PII:S0925231226007721?httpAccept=text/plain",
+          "content-type": "text/plain",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            4,
+            23
+          ]
+        ],
+        "date-time": "2026-04-23T20:31:17Z",
+        "timestamp": 1776976277000
+      },
+      "score": 1,
+      "resource": {
+        "primary": {
+          "URL": "https://linkinghub.elsevier.com/retrieve/pii/S0925231226007721"
+        }
+      },
+      "subtitle": [],
+      "short-title": [],
+      "issued": {
+        "date-parts": [
+          [
+            2026,
+            6
+          ]
+        ]
+      },
+      "references-count": 53,
+      "alternative-id": [
+        "S0925231226007721"
+      ],
+      "URL": "https://doi.org/10.1016/j.neucom.2026.133375",
+      "relation": {},
+      "ISSN": [
+        "0925-2312"
+      ],
+      "issn-type": [
+        {
+          "value": "0925-2312",
+          "type": "print"
+        }
+      ],
+      "subject": [],
+      "published": {
+        "date-parts": [
+          [
+            2026,
+            6
+          ]
+        ]
+      },
+      "assertion": [
+        {
+          "value": "Elsevier",
+          "name": "publisher",
+          "label": "This article is maintained by"
+        },
+        {
+          "value": "Pheromone learning-enhanced neural ant colony optimization",
+          "name": "articletitle",
+          "label": "Article Title"
+        },
+        {
+          "value": "Neurocomputing",
+          "name": "journaltitle",
+          "label": "Journal Title"
+        },
+        {
+          "value": "https://doi.org/10.1016/j.neucom.2026.133375",
+          "name": "articlelink",
+          "label": "CrossRef DOI link to publisher maintained version"
+        },
+        {
+          "value": "article",
+          "name": "content_type",
+          "label": "Content Type"
+        },
+        {
+          "value": "© 2026 Elsevier B.V. All rights are reserved, including those for text and data mining, AI training, and similar technologies.",
+          "name": "copyright",
+          "label": "Copyright"
+        }
+      ],
+      "article-number": "133375"
+    }
+  }
+}

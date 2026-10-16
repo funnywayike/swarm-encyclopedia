@@ -54,10 +54,13 @@ def build():
   except Exception as e:return d.lower(),{'error':str(e)}
  with concurrent.futures.ThreadPoolExecutor(max_workers=1)as pool:
   for k,v in pool.map(exact,needed):records[k]=v
+ for source in load(ROOT/'data/research_routes_sources.json')['sources']:
+  md=source.get('metadata',{})
+  if md.get('DOI'):records[md['DOI'].lower()]=md
  old=[]
  for x in m['references']:
   title=' '.join(x.get('metadata',{}).get('title',[]))or x['title']
-  if re.search(r'survey|review|tutorial|综述|研究进展',title,re.I)or'综述'in x.get('kind','')or x['id']in ['fiftyYears2025','back1997','qd2016']:old.append(x)
+  if x.get('kind')!='原始研究' and (re.search(r'survey|review|tutorial|综述|研究进展',title,re.I)or'综述'in x.get('kind','')or x['id']in ['fiftyYears2025','back1997','qd2016']):old.append(x)
  catalog=[];seen={};aliases={}
  def add(identifier,url,title,key,kind='',oldYear=None,authors=None):
   k=doi(url)or url
