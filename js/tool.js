@@ -887,12 +887,14 @@ function exportBundle() {
       const el = $(id);
       if (el) params[id] = el.value;
     }
+    const seed = state.run?.params?.seed ?? 42;
     const readme = [
       "# TSP 实验包（群智能算法百科）",
       "",
       "## 内容",
       "- instance.cities: 城市坐标 [[x,y],...]；导入 TSPLIB / 距离矩阵时还有 instance.metric（距离类型）与 instance.matrix（距离矩阵）",
       "- params: 本次运行的界面参数（城市数/迭代/速度/距离/采样间隔）",
+      "- seed: 本次运行使用的随机种子（顶层 seed 字段）",
       "- algo: 算法键（对应 algo_source 里 SOLVERS 注册表键，如 pso/sa/lk/ga…）",
       "- algo_keys: algo_source 内全部可用算法键（想跑别的算法直接换 start 的第二个参数）",
       "- history: 逐代 [代数, 全局最优, 当代值]",
@@ -904,7 +906,7 @@ function exportBundle() {
       "2. python 交互运行（用 algo_keys 里的任意键替换算法名）：",
       "   import json, solvers",
       "   inst = <instance>            # 本包 instance 字段（含 cities，以及 metric / matrix 如果有）",
-      "   solvers.start(json.dumps(inst), \"" + ($("algo").value) + "\", json.dumps({\"max_iter\": 200, \"seed\": 42}))",
+      "   solvers.start(json.dumps(inst), \"" + ($("algo").value) + "\", json.dumps({\"max_iter\": 200, \"seed\": " + seed + "}))",
       "   print(solvers.step())        # 每调用一次推进一代，返回 JSON",
       "",
       "## 语言说明",
@@ -914,6 +916,7 @@ function exportBundle() {
       format: "tsp-experiment-bundle/v1",
       exportedAt: new Date().toISOString(),
       algo: $("algo").value,
+      seed,
       params,
       instance: Object.assign({ n: state.cities.length }, state.problem || { cities: state.cities }),
       iteration: state.iteration,
